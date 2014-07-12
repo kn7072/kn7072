@@ -23,7 +23,7 @@ class MyHTTPServer(ThreadingMixIn,HTTPServer):
 # localhost:44444/time.html
 class MyHandler(BaseHTTPRequestHandler):
 
-     def do_GET(self):
+     def do_GET(self):  #
          try:
              #print(self.headers.__dict__)
              print(self.path)
