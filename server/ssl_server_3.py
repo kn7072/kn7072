@@ -34,7 +34,7 @@ class MyHandler(BaseHTTPRequestHandler):
             #print(resp.decode("utf-8"))
         except   Exception:# IOError
              self.send_error(404,"File Not Found: %s" % self.path)
-httpd = MyHTTPServer(("",55555), MyHandler) # фидлер послал запрос на порт https://localhost:443 и на https://localhost:55555
+httpd = MyHTTPServer(("",44444), MyHandler) # фидлер послал запрос на порт https://localhost:443 и на https://localhost:55555
                                             # в браузере работает https://localhost:55555
 #httpd = MyHTTPServer(("localhost",8443), MyHandler)
 #httpd = HTTPServer(('localhost',8443), BaseHTTPRequestHandler)
