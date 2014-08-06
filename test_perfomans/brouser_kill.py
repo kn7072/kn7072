@@ -1,19 +1,38 @@
 from selenium import webdriver
-import time
+from time import sleep
 from subprocess import Popen, PIPE, call
-import unittest
 import re
+from datetime import datetime
+import unittest
+import time
 
-def kill_brouse(fun):
+def save_report_coverage(driver):
+	"""выполняет скрип для сохранения промежуточных изменений о покрытии в отчет"""
+	return
+	with open('store.js', encoding='utf-8', mode='r') as f:
+	            code_script = f.read()
+	            driver.execute_script(code_script)
+	sleep(2)
+
+def kill_browser(fun):
     def wrapper(*args):
-        pid_kill_brouser = str(args[0].driver.binary.process.pid)
+        pid_kill_browser = str(args[0].driver.binary.process.pid)
         fun(*args)
         proc = Popen(['wmic', 'process', 'get', 'ProcessId'], stdout=PIPE)
         out = proc.stdout.read().decode(encoding='utf-8')
         reg = re.compile('.(?:\\r\\r\\n)(?P<pid>[\d]{1,4})')
         list_pid = reg.findall(out)
-        if pid_kill_brouser in list_pid:
-                call(['taskkill', '/PID', str(pid_kill_brouser), '/F'])
+        if pid_kill_browser in list_pid:
+                call(['taskkill', '/PID', str(pid_kill_browser), '/F'])
+    return wrapper
+
+def pid_logger(fun):
+    def wrapper(*args):
+        fun(*args)
+        pid_browser = str(args[0].driver.binary.process.pid)
+        dt = datetime.strftime(datetime.now(), '%y/%m/%d %H:%M:%S')
+        with open("pid_logger.csv", 'a', encoding='utf-8') as f:
+            f.write('\n{0};{1};{2}'.format(dt, args[0].__module__, pid_browser))
     return wrapper
 
 class Perfomans(unittest.TestCase):
@@ -27,7 +46,7 @@ class Perfomans(unittest.TestCase):
 
 
     @classmethod
-    @kill_brouse
+    @kill_browser
     def tearDownClass(cls):
         print("sdfsdfsdfsdfdsf")
         cls.driver.quit()
