@@ -7,7 +7,7 @@ import sys
 from datetime import datetime
 from matplotlib.dates import MonthLocator, WeekdayLocator, DateFormatter , HourLocator, DayLocator
 
-def graph(legend=None):
+def graph(legend=None, path_file=None):
     #Задаём шрифт для обхора проблемы отображения кириллических символов
     font = {'family': 'Verdana', 'weight': 'normal'}
     rc('font', **font)
@@ -31,7 +31,7 @@ def graph(legend=None):
             x[i].append(array[i])
         return array[0]
 
-    with open(r"d:\KontragentsPage_trends.csv", 'r', encoding='utf-8') as f:
+    with open(path_file, 'r', encoding='utf-8') as f:  #r"d:\git_hub_new\kn7072\test_perfomans\MainPage_trends.csv" d:\KontragentsPage_trends.csv
         arr = [fun(x.strip().split(';')) for x in f]
         count = len(arr)
         for t in arr:
@@ -42,13 +42,19 @@ def graph(legend=None):
     plt.gca().xaxis.set_major_formatter(DateFormatter('%d/%m/%y'))
     #plt.gca().xaxis.set_major_locator(DayLocator())
     color = ['r', 'g', 'y', 'c', 'b', 'm', 'k']
-    for i in range(len(x)-1):  # -1 чтобы не учитывать первый столбец - дата
-        plt.plot(arr_time, x[i+1], marker='.', linestyle="-", color=color[i], label="")
+    if legend:
+        for i in range(len(x)-1):  # -1 чтобы не учитывать первый столбец - дата
+            plt.plot(arr_time, x[i+1], marker='.', linestyle="-", color=color[i], label=legend[i])
+            plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.12), ncol=3, fancybox=True, shadow=True, prop={'size':10})
+    else:
+        for i in range(len(x)-1):  # -1 чтобы не учитывать первый столбец - дата
+            plt.plot(arr_time, x[i+1], marker='.', linestyle="-", color=color[i])
     plt.gcf().autofmt_xdate()
-    plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.12),
-              ncol=3, fancybox=True, shadow=True, prop={'size':10})
+
     #plt.show()
     plt.savefig(r"D:/СКРИНЫ ДЛЯ ОТЛАДКИ ЛЕГЕНДЫ/"+str(time.time()) + '.png')
 
 if __name__ == "__main__":
-    graph()
+    path_file = sys.argv[1]
+    print(path_file)
+    graph(path_file=path_file)

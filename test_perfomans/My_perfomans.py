@@ -20,9 +20,9 @@ import matplotlib.pyplot as plt
 from matplotlib.dates import MonthLocator, WeekdayLocator, DateFormatter , HourLocator, DayLocator
 import matplotlib.dates as dates_mt
 from matplotlib.dates  import YEARLY, DateFormatter, rrulewrapper, RRuleLocator, drange
-import draw_graph
+from draw_graph import graph
 
-def performance(name, count=1):
+def performance(name, count=2):
     """Реализует декоратор для измерения времени отработки кода тестового метода"""
     def decorator(f):
 
@@ -56,7 +56,7 @@ def performance(name, count=1):
                     success = False
                 if success:
                     finish_time = time.time()
-                    duration = [label_time-start_time for label_time in label[1]]
+                    duration = [label_time[1]-start_time for label_time in label]
                     duration.append(finish_time - start_time)
                     sampler_success = 'true'
                     print(duration)
@@ -72,8 +72,8 @@ def performance(name, count=1):
                 res.append(x)
             # считаем средние значения
             res_avg = [str(np.average(avg)) for avg in res]
-            print("++++++++")
-            print(res_avg)
+            # print("++++++++")
+            # print(res_avg)
             dt = datetime.strftime(datetime.now(), '%y/%m/%d %H:%M:%S')
             if failure*100/count < 3:
                 file = open(name + '_trends.csv', 'a', encoding='utf-8')
@@ -81,7 +81,7 @@ def performance(name, count=1):
                 strig = '\n'+dt+";"+";".join(res_avg)
                 file.write(strig)#'\n{0};{1};{2};{3}'.format(dt, str(np.average(results))))  # str(np.median(results)), min(results), max(results))
                 file.close()
-                draw_graph(legend_text)
+                graph(legend_text)
             else:
                 with open(name_test, 'a', encoding="utf-8") as report:
                     report.write('\n{0};{1};{2};{3};{4}'.format(dt, 0, 0, 0, 0))
