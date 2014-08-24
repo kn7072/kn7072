@@ -1,0 +1,126 @@
+chrome.exe --remote-debugging-port=9222 --user-data-dir=D:\chome_prof_2
+http://localhost:9222 
+http://localhost:9222/json 
+chrome.exe --remote-debugging-port=62900 --no-first-run --enable-logging --logging-level=1 --ignore-certificate-errors data:text/html;charset=utf-8 --user-data-dir="D:\chome_prof_2"
+chrome.exe --remote-debugging-port=63767 --log-path=C:/somelogfile.log  --v=1  --user-data-dir="D:\chome_prof_2"    --no-first-run --enable-logging --logging-level=1 --user-data-dir="D:\chome_prof_2"  
+{  
+   "method":"Timeline.start",
+   "params":{  
+      "maxCallStackDepth":0,
+      "bufferEvents":false,
+      "liveEvents":"",
+      "includeCounters":true,
+      "includeGPUEvents":false
+   },
+   "id":29
+}
+
+{  
+   "method":"Timeline.stop",
+   "id":29
+}
+
+{"id": 123,"method": "Page.reload","params": {"ignoreCache": true}}
+
+http://www.oldversion.com.ru/windows/google-chrome
+
+TASKKILL /IM chrome.exe /F
+TASKKILL /IM chromedriver.exe /F
+
+http://192.168.1.3:4444/grid/console
+http://192.168.1.3:4444/wd/hub
+
+chrome.exe --remote-debugging-port=9222 --user-data-dir=D:\chome_prof_2
+chrome.exe --js-flags="--expose-gc" --debug-devtools-frontend
+
+http://localhost:9222 
+http://localhost:9222/json 
+
+{  
+   "method":"Timeline.start",
+   "params":{  
+      "maxCallStackDepth":0,
+      "bufferEvents":false,
+      "liveEvents":"",
+      "includeCounters":true,
+      "includeGPUEvents":false
+   },
+   "id":29
+}
+
+
+{  
+   "method":"Timeline.stop",
+   "id":29
+}
+
+http://www.oldversion.com.ru/windows/google-chrome/
+
+TASKKILL /IM chrome.exe /F
+TASKKILL /IM chromedriver.exe /F
+TASKKILL /IM node.exe /F
+TASKKILL /IM python.exe /F
+
+
+chrome://memory
+chrome://memory-internals
+
+-disable-dev-tools — отключает инструменты для разработчиков;
+-disable-java — отключение Java, которая в настоящее время на сайтах используется редко;
+-disable-logging — отключение ведения логов;
+-disable-metrics-system - запретить сбор статистики использования браузера.
+–process-per-tab - этот ключ в параметрах запуска Chrome указывает запуск каждой вкладки в отдельном процессе: ускоряет рендеринг страниц, делает браузер более стабильным, но будет больше потребляться  ОЗУ. Данный режим работает по умолчанию.
+–process-per-site - с помощью этого ключа можно запускать отдельный процесс для каждого сайта. Например, если открыли 2 вкладки с elimS.org.ua и 3 с gmail.com, то процессов будет всего-лишь 2.
+–single-process - с помощью этого  ключа мы указываем браузеру запускать все вкладки в одном процессе. Экономит оперативную память.
+А
+"activate-on-launch" сделать активным при запуске. нужно редко и только на маке
+"allow-file-access-from-files" разрешать локальным файлам доступ к другим локальным файлам(для тестеров вроде надо)
+"allow-ssl-mitm-proxies" какие то там прокси для шифрования данных по ssl. толком не понял)
+"allow-sandbox-debugging" разрешает дебаг для процессов находящихся в песочнице(опять же для тестеров)
+"allow-scripting-gallery" позволяет использовать расширения и просто скрипты в галерее расширений(а быть может и других стандартных страничек, не проверял)(по умолчанию отключено из соображений безопасности)
+"always-enable-dev-tools" включить инструменты разработчика для ВСЕХ страниц(даже если они часть браузера)
+"app" ассоциированное значение должно быть запущено в режиме приложения(ярлык приложения)
+"app-id" // Specifies that the extension-app with the specified id should be launched according to its configuration.
+"app-launch-as-panel" // Lacks meaning with out kApp. Causes the specified app to be launched in an panel window.
+"apps-panel" добавляет всплывающее окно для запуска приложений при нажатии на кнопку \+\
+"apps-gallery-url" адрес используемый для ссылки web store на "запускателе приложений"
+"apps-no-throb" отключает throbber (анимация показывающая процесс загрузки) для приложений
+"apps-debug" добавляет красную ссылку Debug ниже недавно закрытых страниц. позволяет указать метод запуска приложений
+"automation-channel" // The value of this switch tells the app to listen for and broadcast automation-related messages on IPC channel with the given ID.
+"assert-test" // Causes the browser process to throw an assertion on startup.
+
+B
+"block-nonsandboxed-plugins" отключать плагины работающие не в песочнице (безопасно как бы, но много чего перестанет работать)
+"browser-subprocess-path" // Path to the exe to run for the renderer and plugin subprocesses.
+"bwsi" означает, что браузер в режиме "browse without sign-in". отключает все расширения, приложения, синхронизации, закладки.
+
+С
+"crash-test" вызвать ошибку во время запуска ХД
+"chrome-frame" запустить в режиме chrome-frame. это значит, что хром будет считать себя процессом, зависимым от плагина(который в реальной жизни должен запускаться в IE)
+"cloud-print-proxy-id" уникальный идентификатор, который будет использоваться прокси облачного принтера
+"cloud-print-service" адрес сервиса облачных принтеров. параметр имеет приоритет выше обычных настроек. используется только если включен сервис облачных принтеров (enable-cloud-print)
+"country" страна. двухзначный строковый код из ISO 3166-1 http://ru.wikipedia.org/wiki/ISO_3166-1
+
+D
+"debug-print" включает поддержку отладки подсистемы печати
+"disable-application-cache" отключает кэш
+"disable-apps" отключает приложения
+"disable-audio" отключает звук (должны скоро убрать этот параметр)
+"disable-custom-jumplist" отключает настраиваемый JumpList на Win7
+"disable-databases" отключает html5 базы данных
+"disable-desktop-notifications" отключает уведомления на рабочем столе
+"disable-dev-tools" отключает инструменты разработчика
+"disable-extensions" отключает расширения
+"disable-geolocation" отключает геолокацию
+"disable-glsl-translator" отключает GLSL переводчик
+"disable-internal-flash" отключает встроенный флэшплеер
+"disable-ipv6" отключает ip6 (используется для поиска ошибок)
+"disable-javascript" отключает яваскрипт (скрипты браузера не перестанут работать)
+"disable-java" отключает ява
+"disable-local-storage" отключает локальное хранилище (используют его расширения)
+"disable-logging" отключает запись логов
+"disable-outdated-plugins" не дает запуститься устаревшим плагинам
+"disable-plugins" не дает запуститься всем плагинам
+
+
+Ctrl+Shift+J — открыть инструменты разработчика (меню Просмотр кода элемента);

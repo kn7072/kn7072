@@ -1,0 +1,88 @@
+PyAutoItPy
+
+Русский (English below)
+Обертка функций AutoIt для работы с окнами и контролам под Python 3.3
+AutoIt - виндовый скриптовый язык, похожий на Visual Basic, позволяющий эмулировать действия пользователя, например, нажимать на кнопки, двигать, открывать и закрывать окна, и т.д. Он еще много чего может и помимо этого, но это все и Python сам тоже может, а посему оно в модуль не входит, только функции работы с окнами и их элементами (конролами).
+Русская справка по AutoIt:
+http://autoit-script.ru/index.php?topic=10070.0
+
+Английская справка:
+https://www.autoitscript.com/wiki
+
+Модуль пробрасывает функции из библиотеки AutoItX в питон, позволяя использовать их на лету, напрямую из кода на питоне.
+
+Преимущества:
+1. НЕ ТРЕБУЕТ установки самого AutoIt, все библиотеки лежат в модуле.
+2. НЕ ТРЕБУЕТ PyWin32, все сделано через стандартный модуль ctypes
+3. Максимально соответствует самому языку AutoIt при вызове функций.
+4. Работает на 64-битных версиях Windows. 
+5. Содержит питоновские классы для работы с состоянием окон (они допускают сравнение состояний через операции ">" "<" ">=" "==" "<="), так же массивы и классы, упрощающие работу со значениями координат окон и контролов.
+6. Везде постарался написать русские описания методов и классов.
+
+Недостатки:
+1. Beta,то есть сыро, возможны глюки и недостатки.
+2. Пока нет инсталлятора - в планах.
+3. Проброшены не все функции - будет дополняться.
+4. Проверено только на Python 3.3, совместимость с более ранними или поздними версиями не гарантируется.
+
+Установка:
+Скопировать папку PyAutoItPy в <папка Python>\Lib\site-packages
+
+Использование:
+# Импортируем объект AutoItX
+from PyAutoItPy import AutoItX
+
+# Инициализируем объект AutoItX, он подгрузит и настроит соотв. dll AutoIt.
+Automater = AutoItX()
+# Все функции доступны как методы объекта AutoItX, их имена соответствуют языку AutoIt.
+#Тут мы проверяем наличие окна.
+isMyWindow = Automater.WinExists('WindowTitle', 'WindowText') 
+
+# Шалим
+if isMyWindow: 
+    print('Sucsess!') 
+
+English ReadMe
+
+AutoIt Windows and Controls functions wrapper for Python 3.3 
+ 
+Python module named PyAutoItPy to work with AutoIt.
+In short AutoIt is a script VB-like language targeted to automate Windows OS. It can be used to manipulate windows and controls in windows to emulate user actions.
+AutoIt wiki:
+https://www.autoitscript.com/wiki
+
+Advantages:
+1. NO AutoIt installation needed.
+2. NO need to install PyWin32. All done thru standart module "ctypes".
+3. All AutoItX object method names are equivalent to corresponding AutoItX language functions
+4. Works on 32x and 64x Windows OS. 
+5. Python class to work with windows states is included. In example it allow compare states using ">" "<" ">=" "==" "<=" operators. Also included classes and named tuples to work with windows and controls coordinates, MsgBox values and so on.
+
+
+Disadvantages:
+1. Beta, can be dangerous :)
+2. No setup, planned.
+3. Not all functions wrapped. More in future releases.
+4. Checked only on Python 3.3. Compatibility with other versions not guaranteed!
+
+Installation:
+
+Just copy folder "PyAutoItPy" to <Python folder>\Lib\site-packages
+
+Usage(small example):
+
+# Importing AutoItX object
+# If you need all funcionality: from PyAutoItPy import * 
+from PyAutoItPy import AutoItX 
+
+# Initialising AutoItX object. Object will load and setup AutoItX.dll
+Automater = AutoItX() 
+
+# All AutoIt functions are wrapped in methods of created object.
+# All methods names are similar to AutoIt language functions.
+# In this case we are using "WinExists" to determine existance of particular window.
+isMyWindow = Automater.WinExists('myWindowTitle', 'myWindowText') 
+
+# Do something with result.
+if isMyWindow: 
+    print('Sucsess!')

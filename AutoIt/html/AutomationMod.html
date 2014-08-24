@@ -1,0 +1,1432 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>AutomationMod - модуль доступа к функциям AutoItX3.dll &mdash; AUATS 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="AUATS 1.0 documentation" href="index.html" />
+    <link rel="prev" title="Добро пожаловать в документацию" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Просмотр</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Словарь-указатель"
+             accesskey="I">словарь</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >модули</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Добро пожаловать в документацию"
+             accesskey="P">предыдущий</a> |</li>
+        <li><a href="index.html">AUATS 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-MODULES.AutomationMod">
+<span id="automationmod-autoitx3-dll"></span><h1>AutomationMod - модуль доступа к функциям AutoItX3.dll<a class="headerlink" href="#module-MODULES.AutomationMod" title="Ссылка на этот заголовок">¶</a></h1>
+<p>Модуль для использования функций AutoIt в Python. Проброшены только функции, относящиеся к манипуляциям с интерфейсом Windows, т.к. для остальных функций AutoIt есть аналоги в стандартной библиотеке Python.
+Для работы модуля обязательно наличие AutoItX3.dll. Она входит в состав <a class="reference external" href="http://www.autoitscript.com/site/autoit/downloads/">AutoIt</a>.
+Можно указать путь к этой библиотеке при создании экземпляра класса AutoItX (см. ниже описание класса), либо скопировать библиотеку в тот же каталог, в котором находится AutomationMod.py и создать экземпляр без параметров.
+Все проброшенные функции доступны как методы класса.
+При определении методов сохранялась максимальная совместимость в их именах, и именах и порядке аргументов, с языком AutoIt, но все же отличия есть, подробнее см. ниже описания конкретных методов.
+Кое где есть отсылки на документацию AutoIt, она доступна на английском языке(входит в состав пакета AutoIt, так же есть <a class="reference external" href="http://www.autoitscript.com/autoit3/docs/">онлайн-версия</a>), есть <a class="reference external" href="http://autoit-script.ru/index.php/topic,10070.0.html">в переводе русского сообщества AutoIt</a>.</p>
+<p>Автор: Цыпкин Максим Владимирович</p>
+<div class="section" id="id3">
+<h2>Определения<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<dl class="class">
+<dt id="MODULES.AutomationMod.WinPoint">
+<em class="property">class </em><tt class="descclassname">MODULES.AutomationMod.</tt><tt class="descname">WinPoint</tt><a class="headerlink" href="#MODULES.AutomationMod.WinPoint" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Тип для сохранения координат точки.</p>
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinPoint.X">
+<tt class="descname">X</tt><a class="headerlink" href="#MODULES.AutomationMod.WinPoint.X" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Alias for field number 0</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinPoint.Y">
+<tt class="descname">Y</tt><a class="headerlink" href="#MODULES.AutomationMod.WinPoint.Y" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Alias for field number 1</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="MODULES.AutomationMod.WinRect">
+<em class="property">class </em><tt class="descclassname">MODULES.AutomationMod.</tt><tt class="descname">WinRect</tt><a class="headerlink" href="#MODULES.AutomationMod.WinRect" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Тип для cохранения координат окна.</p>
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinRect.HEIGHT">
+<tt class="descname">HEIGHT</tt><a class="headerlink" href="#MODULES.AutomationMod.WinRect.HEIGHT" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Alias for field number 3</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinRect.WIDTH">
+<tt class="descname">WIDTH</tt><a class="headerlink" href="#MODULES.AutomationMod.WinRect.WIDTH" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Alias for field number 2</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinRect.X">
+<tt class="descname">X</tt><a class="headerlink" href="#MODULES.AutomationMod.WinRect.X" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Alias for field number 0</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinRect.Y">
+<tt class="descname">Y</tt><a class="headerlink" href="#MODULES.AutomationMod.WinRect.Y" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Alias for field number 1</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinHandle">
+<tt class="descclassname">MODULES.AutomationMod.</tt><tt class="descname">WinHandle</tt><a class="headerlink" href="#MODULES.AutomationMod.WinHandle" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Лямбда для преобразования строки, возвращаемой WinGetHandle в формат AutoIt.</p>
+<p>псевдоним класса <tt class="xref py py-class docutils literal"><span class="pre">&lt;lambda&gt;</span></tt></p>
+</dd></dl>
+
+<dl class="data">
+<dt id="MODULES.AutomationMod.SW">
+<tt class="descclassname">MODULES.AutomationMod.</tt><tt class="descname">SW</tt><em class="property"> = SetStateValues(HIDE=0, SHOW=5, DISABLE=65, ENABLE=64, LOCK=66, MAXIMIZE=3, MINIMIZE=6, RESTORE=9, SHOWDEFAULT=10, SHOWMAXIMIZED=3, SHOWMINIMIZED=2, SHOWMINNOACTIVE=7, SHOWNA=8, SHOWNOACTIVATE=4, SHOWNORMAL=1, UNLOCK=67)</em><a class="headerlink" href="#MODULES.AutomationMod.SW" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Именованный массив для задания флагов состояний при использовании WinSetState.</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="MODULES.AutomationMod.MB_RetVal">
+<tt class="descclassname">MODULES.AutomationMod.</tt><tt class="descname">MB_RetVal</tt><em class="property"> = MsgBoxRetType(IDOK=1, IDCANCEL=2, IDABORT=3, IDRETRY=4, IDIGNORE=5, IDYES=6, IDNO=7, IDTRYAGAIN=10, IDCONTINUE=11)</em><a class="headerlink" href="#MODULES.AutomationMod.MB_RetVal" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Именованный массив для интерпретации значений, возвращаемых MsgBox.</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="MODULES.AutomationMod.MB_Flags">
+<tt class="descclassname">MODULES.AutomationMod.</tt><tt class="descname">MB_Flags</tt><em class="property"> = MsgBoxFlagsType(MB_OK=0, MB_OKCANCEL=1, MB_ABORTRETRYIGNORE=2, MB_YESNOCANCEL=3, MB_YESNO=4, MB_RETRYCANCEL=5, MB_CANCELTRYCONTINUE=6, MB_HELP=16384, MB_ICONERROR=16, MB_ICONSTOP=16, MB_ICONHAND=16, MB_ICONQUESTION=32, MB_ICONWARNING=48, MB_ICONEXCLAMATION=48, MB_ICONINFORMATION=64, MB_ICONASTERISK=64, MB_DEFBUTTON1=0, MB_DEFBUTTON2=256, MB_DEFBUTTON3=512, MB_DEFBUTTON4=768, MB_APPLMODAL=0, MB_SYSTEMMODAL=4096, MB_TASKMODAL=8192, MB_SETFOREGROUND=65536, MB_DEFAULT_DESKTOP_ONLY=131072, MB_TOPMOST=262144, MB_RIGHT=524288, MB_RTLREADING=1048576, MB_SERVICE_NOTIFICATION=2097152)</em><a class="headerlink" href="#MODULES.AutomationMod.MB_Flags" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Именованный массив для задания флагов при вызове MsgBox.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="autoitx3-dll">
+<h2>Основной класс для работы с AutoItX3.dll<a class="headerlink" href="#autoitx3-dll" title="Ссылка на этот заголовок">¶</a></h2>
+<dl class="class">
+<dt id="MODULES.AutomationMod.AutoItX">
+<em class="property">class </em><tt class="descclassname">MODULES.AutomationMod.</tt><tt class="descname">AutoItX</tt><big>(</big><em>PathToDLL=None</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Класс-обертка для доступа к функциям AutoItX3.DLL</p>
+<p>Параметры конструктора:</p>
+<ul class="simple">
+<li>PathToDLL=None - Путь к AutoItX3.DLL, если не задан, то AutoItX3.DLL ищется в той же папке, где лежит данный модуль.</li>
+</ul>
+<p>Методы:</p>
+<dl class="method">
+<dt id="MODULES.AutomationMod.AutoItX.Error">
+<tt class="descname">Error</tt><big>(</big><big>)</big><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.Error" title="Ссылка на это определение">¶</a></dt>
+<dt>
+<tt class="descname">Возвращает флаг ошибки из AutoItX3.dll.</tt></dt>
+<dt>
+<tt class="descname">Если при предшествующем выполнении функции AutoIt были ошибки,</tt></dt>
+<dt>
+<tt class="descname">то флаг больше нуля, если ошибок не было, то ноль.</tt></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.MouseClick">
+<tt class="descname">MouseClick</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.MouseClick"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.MouseClick" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Метод клика мышью по точке на экране.</p>
+<ul class="simple">
+<li>X - координата по горизонтали.</li>
+<li>Y - координата по вертикали.</li>
+<li>NumClicks=1 - количество нажатий.</li>
+<li>Button=&#8217;left&#8217; - какой кнопкой нажимать (может быть &#8220;&#8221;, &#8220;left&#8221;, &#8220;middle&#8221;, &#8220;right&#8221;, &#8220;primary&#8221;, &#8220;main&#8221;, &#8220;secondary&#8221;, &#8220;menu&#8221;, подробнее - см. помощь AutoIt).</li>
+<li>Speed=-1 - скорость нажатия, от 0 до 100, чем больше, тем медленнее, по умолчанию -1, что дает 10.</li>
+</ul>
+<p>Возвращает True в случае успеха, False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.MouseClickDrag">
+<tt class="descname">MouseClickDrag</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.MouseClickDrag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.MouseClickDrag" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Перетаскивание мышью.</p>
+<ul class="simple">
+<li>X - координата начала перетаскивания по горизонтали.</li>
+<li>Y - координата начала перетаскивания по вертикали.</li>
+<li>NewX - координата окончания перетаскивания по горизонтали.</li>
+<li>NewY - координата окончания перетаскивания по вертикали.</li>
+<li>Button=&#8217;left&#8217; - какой кнопкой тащить (может быть &#8220;&#8221;, &#8220;left&#8221;, &#8220;middle&#8221;, &#8220;right&#8221;, &#8220;primary&#8221;, &#8220;main&#8221;, &#8220;secondary&#8221;, &#8220;menu&#8221;, подробнее - см. помощь AutoIt).</li>
+<li>Speed=-1 - скорость нажатия, от 0 до 100, чем больше, тем медленнее, по умолчанию -1, что дает 10.</li>
+</ul>
+<p>Возвращает True в случае успеха, False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.MouseDown">
+<tt class="descname">MouseDown</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.MouseDown"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.MouseDown" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Нажать и удерживать кнопку мыши.</p>
+<ul>
+<li><dl class="first docutils">
+<dt>Button=&#8217;left&#8217; - какую кнопку нажать (может быть &#8220;&#8221;, &#8220;left&#8221;, &#8220;middle&#8221;, &#8220;right&#8221;, &#8220;primary&#8221;, &#8220;main&#8221;, &#8220;secondary&#8221;, &#8220;menu&#8221;,</dt>
+<dd><p class="first last">подробнее - см. помощь AutoIt).</p>
+</dd>
+</dl>
+</li>
+</ul>
+<p>Возвращает True.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.MouseUp">
+<tt class="descname">MouseUp</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.MouseUp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.MouseUp" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Отпустить кнопку мыши.</p>
+<ul>
+<li><dl class="first docutils">
+<dt>Button=&#8217;left&#8217; - какую кнопку отпустить (может быть &#8220;&#8221;, &#8220;left&#8221;, &#8220;middle&#8221;, &#8220;right&#8221;, &#8220;primary&#8221;, &#8220;main&#8221;, &#8220;secondary&#8221;, &#8220;menu&#8221;,</dt>
+<dd><p class="first last">подробнее - см. помощь AutoIt).</p>
+</dd>
+</dl>
+</li>
+</ul>
+<p>Возвращает True.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.MouseMove">
+<tt class="descname">MouseMove</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.MouseMove"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.MouseMove" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Передвинуть курсор мыши.</p>
+<ul class="simple">
+<li>X - координата по горизонтали.</li>
+<li>Y - координата по вертикали.</li>
+<li>Speed=-1 - скорость нажатия, от 0 до 100, чем больше, тем медленнее, по умолчанию -1, что дает 10.</li>
+</ul>
+<p>Возвращает True.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.MouseWheel">
+<tt class="descname">MouseWheel</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.MouseWheel"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.MouseWheel" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Прокрутить колесико мыши.</p>
+<ul class="simple">
+<li>Direction - направление прокрутки, может быть &#8216;up&#8217; или &#8216;down&#8217;</li>
+<li>Clicks=1 - на какое количество &#8220;кликов&#8221; прокрутить.</li>
+</ul>
+<p>Возвращает True.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.MouseGetCursor">
+<tt class="descname">MouseGetCursor</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.MouseGetCursor"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.MouseGetCursor" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Определить текущий тип курсора мыши.</p>
+<p>Возвращает строковое название типа курсора.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.MouseGetPos">
+<tt class="descname">MouseGetPos</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.MouseGetPos"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.MouseGetPos" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Определение положения курсора мыши.</p>
+<p>Возвращает объект типа WinPoint с координатами курсора.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinGetHandle">
+<tt class="descname">WinGetHandle</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinGetHandle"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinGetHandle" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получить Handle окна.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает строку, содержащую Handle окна в шестнадцатиричном виде с префиксом,например: &#8220;0x007F39&#8221;.
+С помощью лямбды WinHandle результат можно преобразовать в строку заголовка в формате AutoIt:
+WinHandle(AutoItObj.WinGetHandle(&#8216;Заголовок окна&#8217;))
+в результате получим строку вида 
+&#8220;[HANDLE:0x&lt;значение Handle&gt;]&#8221;, которую можно использовать для работы с окнами вместо заголовка.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinExists">
+<tt class="descname">WinExists</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinExists"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinExists" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Определить существует ли окно.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True, если окно существует, False, если нет.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinGetState">
+<tt class="descname">WinGetState</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinGetState"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinGetState" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получить состояние окна в числовом виде.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Интерпретировать можно с помошью класса WinState (см. его докстринг)
+В случае неудачи возвращает 0.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinGetPos">
+<tt class="descname">WinGetPos</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinGetPos"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinGetPos" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получить координаты квадрата, который занят окном на экране.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает объект типа WinRect, содержащий координаты верхнего левого угла окна, его ширину и высоту,
+возвращает None в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinGetClientRect">
+<tt class="descname">WinGetClientRect</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinGetClientRect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinGetClientRect" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получить координаты квадрата, который занимает клиентская область окна на экране.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает объект типа WinRect, содержащий координаты верхнего левого угла, ширину и высоту.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinActivate">
+<tt class="descname">WinActivate</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinActivate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinActivate" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Сделать окно активным.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinActive">
+<tt class="descname">WinActive</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinActive"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinActive" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Определить активно ли окно.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>В случае успеха возвращает строку, содержащую Handle окна в шестнадцатиричном виде,
+иначе None.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinClose">
+<tt class="descname">WinClose</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinClose"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinClose" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Закрыть окно.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха, False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinGetCaretPos">
+<tt class="descname">WinGetCaretPos</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinGetCaretPos"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinGetCaretPos" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Определить положение текстового курсора (каретки) в окне.</p>
+<p>Возвращает объект типа WinPoint с относительными координатами курсора в окне.
+В случает неудачи метод Error() вернет 1.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinGetClassList">
+<tt class="descname">WinGetClassList</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinGetClassList"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinGetClassList" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получить список классов окна.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает список всех классов окна и его элементов в виде строки.
+В случае неудачи вернет None, метод Error() вернет 1.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinGetProcess">
+<tt class="descname">WinGetProcess</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinGetProcess"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinGetProcess" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получить PID процесса окна.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает строку с PID процесса окна в десятиричном формате.
+В случае неудачи вернет None.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinGetText">
+<tt class="descname">WinGetText</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinGetText"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinGetText" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получить текст окна.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает текст окна в виде строки,
+в случае неудачи - None.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinGetTitle">
+<tt class="descname">WinGetTitle</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinGetTitle"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinGetTitle" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получить заголовок окна.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает заголовок окна,
+в случае неудачи - None.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinKill">
+<tt class="descname">WinKill</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinKill"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinKill" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Принудительно закрыть окно.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinWait">
+<tt class="descname">WinWait</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinWait"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinWait" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Ожидание открытия окна.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Timeout - время ожидания в секундах</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinWaitActive">
+<tt class="descname">WinWaitActive</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinWaitActive"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinWaitActive" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Ожидание активного (ACTIVE) состояния окна.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Timeout - время ожидания в секундах</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinWaitClose">
+<tt class="descname">WinWaitClose</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinWaitClose"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinWaitClose" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Ожидание закрытия окна.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Timeout - время ожидания в секундах</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinWaitNotActive">
+<tt class="descname">WinWaitNotActive</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinWaitNotActive"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinWaitNotActive" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Ожидание неактивного состояния окна.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Timeout - время ожидания в секундах</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinWaitState">
+<tt class="descname">WinWaitState</tt><big>(</big><em>self</em>, <em>Title</em>, <em>State</em>, <em>Timeout</em>, <em>Interval=0.25</em>, <em>Text=''</em><big>)</big><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinWaitState" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Ожидание перехода окна в состояние, заданное параметром State.
+* Title - Заголовок окна в формате AutoIt.
+* State - Состояние окна, которого необходимо дождаться. Задается числом (подробнее см. помощь Auto It по функции WinGetState),</p>
+<blockquote>
+<div>либо строкой с перечислением признаков, например: &#8220;ENABLED, VISIBLE, ACTIVE&#8221;.</div></blockquote>
+<ul class="simple">
+<li>Timeout - Время ожидания в секундах, вещественное число для представления долей секунд.</li>
+<li>Interval=0.25 - Интервал проверки состояния.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<dl class="docutils">
+<dt>Возвращает время, прошедшее с начала ожидания в случае успеха,</dt>
+<dd>0 - если не удалось дождаться нужного состояния за заданное время,</dd>
+</dl>
+<p>-1 - если окно не было обнаружено.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinMenuSelectItem">
+<tt class="descname">WinMenuSelectItem</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinMenuSelectItem"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinMenuSelectItem" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Вызов элементов меню окна последовательно по уровням вложенности, вплоть до восьми.
+Работает только со стандартным меню окна, которое сейчас редко используется.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Item1 - имя первого в последовательности вызова элемента меню.</li>
+<li>Item2=&#8217;&#8217; - имя второго в последовательности вызова элемента меню.</li>
+<li>Item3=&#8217;&#8217; - имя третьего в последовательности вызова элемента меню.</li>
+<li>Item4=&#8217;&#8217; - имя четвертого в последовательности вызова элемента меню.</li>
+<li>Item5=&#8217;&#8217; - имя пятого в последовательности вызова элемента меню.</li>
+<li>Item6=&#8217;&#8217; - имя шестого в последовательности вызова элемента меню.</li>
+<li>Item7=&#8217;&#8217; - имя седьмого в последовательности вызова элемента меню.</li>
+<li>Item8=&#8217;&#8217; - имя восьмого в последовательности вызова элемента меню.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinMinimizeAll">
+<tt class="descname">WinMinimizeAll</tt><big>(</big><em>self</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinMinimizeAll"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinMinimizeAll" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Свернуть все окна.</p>
+<p>Возвращает True.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinMinimizeAllUndo">
+<tt class="descname">WinMinimizeAllUndo</tt><big>(</big><em>self</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinMinimizeAllUndo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinMinimizeAllUndo" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Отменить сворачивание всех окон.</p>
+<p>Возвращает True.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinMove">
+<tt class="descname">WinMove</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinMove"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinMove" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Передвинуть окно.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>X - координата нового положения верхнего правого угла окна по горизонтали.</li>
+<li>Y - координата нового положения верхнего правого угла окна по вертикали.</li>
+<li>Width=-1 - Новая ширина окна.</li>
+<li>Height=-1 - Новая высота окна.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinSetOnTop">
+<tt class="descname">WinSetOnTop</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinSetOnTop"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinSetOnTop" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Изменить признак окна &#8220;поверх всех&#8221;.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Flag=1 - значение признака &#8220;поверх всех&#8221;, 0 - не установлен, 1 - установлен.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinSetState">
+<tt class="descname">WinSetState</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinSetState"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinSetState" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Изменить состояние окна.</p>
+<ul>
+<li><p class="first">Title - Заголовок окна в формате AutoIt.</p>
+</li>
+<li><dl class="first docutils">
+<dt>State - Новое значение состояния окна. Формируется при помощи именованного массива SW</dt>
+<dd><p class="first last">побитовым &#8220;или&#8221;:
+SW.ENABLE|SW.MAXIMIZE
+подробно о значениях см. помощь AutoIt.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Text=&#8217;&#8217; - Текст, содержащийся в окне.</p>
+</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinSetTitle">
+<tt class="descname">WinSetTitle</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinSetTitle"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinSetTitle" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Изменить заголовок окна.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>NewTitle - новое значение заголовка окна.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.WinSetTrans">
+<tt class="descname">WinSetTrans</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.WinSetTrans"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.WinSetTrans" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Изменить степень прозрачности окна.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>TransVal - новое значение прозрачности. Шкала от 0 до 255, прозрачно -&gt; непрозрачно.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlGetHandle">
+<tt class="descname">ControlGetHandle</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlGetHandle"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlGetHandle" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получить Handle контрола в окне.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает строку, содержащую Handle контрола в шестнацатиричном формате,
+в случае неудачи - None.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlGetText">
+<tt class="descname">ControlGetText</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlGetText"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlGetText" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получить текст из контрола в окне.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает строку, содержащую текст из контрола,
+в случае неудачи - None.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlCommand">
+<tt class="descname">ControlCommand</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlCommand"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlCommand" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Отправить команду контролу в окне. 
+Работает в основном со стандартными контролами типа &#8220;ToolbarWindow32&#8221;, &#8220;ComboBox&#8221;,&#8221;ListBox&#8221; и т.п.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>Command - Строка с командой (подробнее - см. помощь AutoIt)</li>
+<li>ExtraData=&#8217;&#8217; - Строка с дополнительными параметрами для команды (подробнее - см. помощь AutoIt).</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает строку с результатом выполнения команды, содержимое различается, в зависимости от команды.
+В случае ошибок метод Error() вернет 1.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlGetPos">
+<tt class="descname">ControlGetPos</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlGetPos"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlGetPos" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получить парамтры области контрола в окне.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает объект WinRect с параметрам области котрола.
+В случае ошибок вернет None.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlGetParams">
+<tt class="descname">ControlGetParams</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlGetParams"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlGetParams" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Определить параметры котрола.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает объект типа ControlParams с параметрами контрола,
+в случае неудачи - None</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlMouseClick">
+<tt class="descname">ControlMouseClick</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlMouseClick"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlMouseClick" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Нажать мышью на точку в области контрола.
+Моя замена функции ControlClick из AutoIt, работает за счет обычного MouseClick.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>X - относительная координата точки по горизонтали в области контрола.</li>
+<li>Y - относительная координата точки по вертикали в области контрола.</li>
+<li>NumClicks=1 - количество нажатий.</li>
+<li>Button=&#8217;left&#8217; - какой кнопкой нажимать (может быть &#8220;&#8221;, &#8220;left&#8221;, &#8220;middle&#8221;, &#8220;right&#8221;, &#8220;primary&#8221;, &#8220;main&#8221;, &#8220;secondary&#8221;, &#8220;menu&#8221;, подробнее - см. помощь AutoIt).</li>
+<li>Speed=-1 - скорость нажатия, от 0 до 100, чем больше, тем медленнее, по умолчанию -1, что дает 10.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlClick">
+<tt class="descname">ControlClick</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlClick"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlClick" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Нажать мышью на точку в области контрола.
+Проброс стандартной функции из AutoIt.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>X - относительная координата точки по горизонтали в области контрола.</li>
+<li>Y - относительная координата точки по вертикали в области контрола.</li>
+<li>NumClicks=1 - количество нажатий.</li>
+<li>Button=&#8217;left&#8217; - какой кнопкой нажимать (может быть &#8220;&#8221;, &#8220;left&#8221;, &#8220;middle&#8221;, &#8220;right&#8221;, &#8220;primary&#8221;, &#8220;main&#8221;, &#8220;secondary&#8221;, &#8220;menu&#8221;, подробнее - см. помощь AutoIt).</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlListView">
+<tt class="descname">ControlListView</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlListView"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlListView" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Послать команду котролу с классом ListView32.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>Command - Строка с командой (подробнее - см. помощь AutoIt)</li>
+<li>Extra1=&#8217;&#8217; - Строка с дополнительными параметрами для команды (подробнее - см. помощь AutoIt).</li>
+<li>Extra2=&#8217;&#8217; - Строка с дополнительными параметрами для команды (подробнее - см. помощь AutoIt).</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает строку с результатом выполнения команды, содержимое различается, в зависимости от команды.
+В случае ошибок метод Error() вернет 1.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlDisable">
+<tt class="descname">ControlDisable</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlDisable"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlDisable" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Выключить контрол.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlEnable">
+<tt class="descname">ControlEnable</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlEnable"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlEnable" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Включить контрол.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlFocus">
+<tt class="descname">ControlFocus</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlFocus"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlFocus" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Перевести фокус ввода на контрол.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlGetFocus">
+<tt class="descname">ControlGetFocus</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlGetFocus"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlGetFocus" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Определить в каком контроле находится фокус ввода.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает строку с именем контрола, в котором находится фокус ввода,
+в случае нейдачи - None.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlHide">
+<tt class="descname">ControlHide</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlHide"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlHide" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Скрыть контрол.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlShow">
+<tt class="descname">ControlShow</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlShow"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlShow" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Показать контрол.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlMove">
+<tt class="descname">ControlMove</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlMove"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlMove" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Передвинуть контрол.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>X - координата нового положения верхнего правого угла контрола по горизонтали.</li>
+<li>Y - координата нового положения верхнего правого угла контрола по вертикали.</li>
+<li>Width=-1 - Новая ширина контрола.</li>
+<li>Height=-1 - Новая высота контрола.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlSend">
+<tt class="descname">ControlSend</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlSend"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlSend" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Оправить строку в контрол. Работает аналогично стандартной функции Send,
+поддерживает тот же формат для отправки клавиш (см. помощь AutoIt).</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>String - Строка, которая будет передана в контрол.</li>
+<li>Flag=0 - Флаг интерпретации. Если 0 - будут разобраны спец. последовательности для клавиш, вроде &#8220;+&#8221; для зажатия SHIFT или {клавиша} для отсылки клавиш. Если 1 - строка будет отослана как есть.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlSetText">
+<tt class="descname">ControlSetText</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlSetText"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlSetText" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Изменить текст в контроле.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>NewText - Строка с новым текстом.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает True в случае успеха,
+False в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ControlTreeView">
+<tt class="descname">ControlTreeView</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.ControlTreeView"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ControlTreeView" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Послать команду котролу с классом TreeView32.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Control - Идентификатор контрола в формате AutoIt.</li>
+<li>Command - Строка с командой (подробнее - см. помощь AutoIt)</li>
+<li>Extra1=&#8217;&#8217; - Строка с дополнительными параметрами для команды (подробнее - см. помощь AutoIt).</li>
+<li>Extra2=&#8217;&#8217; - Строка с дополнительными параметрами для команды (подробнее - см. помощь AutoIt).</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает строку с результатом выполнения команды, содержимое различается, в зависимости от команды.
+В случае ошибок метод Error() вернет 1.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.StatusbarGetText">
+<tt class="descname">StatusbarGetText</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.StatusbarGetText" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получить текст из строки статуса приложения, работает только в том случае, если это строка состояния с классом StatusBar32.</p>
+<ul class="simple">
+<li>Title - Заголовок окна в формате AutoIt.</li>
+<li>Part - Номер текстового поля, из которого нужно прочесть техт в Statusbar.</li>
+<li>Text=&#8217;&#8217; - Текст, содержащийся в окне.</li>
+</ul>
+<p>Возвращает строку, содержащую текст из контрола,
+в случае неудачи - None.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.Send">
+<tt class="descname">Send</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.Send"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.Send" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Ввод с клавиатуры.</p>
+<ul class="simple">
+<li>KeyString - строка, которую ввести.</li>
+<li>NumSends=1 - количество повтороав ввода.</li>
+<li>Flag=0 - Флаг интерпретации. Если 0 - будут рабраны спец. последовательности для клавиш, вроде &#8220;+&#8221; для зажатия SHIFT или {клавиша} для отсылки клавиш. Если 1 - строка будет отослана как есть.</li>
+</ul>
+<p>Возвращает количество отправок строки (обычно оно равно NumSends).</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.PixelChecksum">
+<tt class="descname">PixelChecksum</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.PixelChecksum"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.PixelChecksum" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Вычислить контрольную сумму области на экране.
+Помогает отслеживать изменения в этой области.
+Работает достаточно медленно, поэтому большие области обсчитывать не рекомендуется.</p>
+<ul class="simple">
+<li>Left - координата левого верхнего угла просчитываемой области экрана по горизонтали.</li>
+<li>Top - координата левого верхнего угла просчитываемой области экрана по вертикали.</li>
+<li>Right - координата правого нижнего угла просчитываемой области экрана по горизонтали.</li>
+<li>Bottom - координата правого нижнего угла просчитываемой области экрана по вертикали.</li>
+<li>Step=1 - шаг в пикселах, позволяет ускорить просчет путем пропуска пикселов, но это может привести к тому, что изменения на экране не отразятся в результирующей сумме, если они попадут в пропущенные области.</li>
+</ul>
+<p>Возвращает число - контрольную сумму заданной области экрана,
+в случае неудачи - возвращает 0.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.PixelGetColor">
+<tt class="descname">PixelGetColor</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.PixelGetColor"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.PixelGetColor" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Определить цвет пиксела на экране.</p>
+<ul class="simple">
+<li>X - координата пиксела по горизонтали.</li>
+<li>Y - координата пиксела по вертикали.</li>
+</ul>
+<p>Возвращает цвет пиксела в виде шестиразрядного шестнадцатиричного числа,
+по два разряда на цвет, формат RGB.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.PixelSearch">
+<tt class="descname">PixelSearch</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.PixelSearch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.PixelSearch" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Поиск пиксела с определенным цветом в заданной области экрана.</p>
+<ul class="simple">
+<li>Left - координата левого верхнего угла просчитываемой области экрана по горизонтали.</li>
+<li>Top - координата левого верхнего угла просчитываемой области экрана по вертикали.</li>
+<li>Right - координата правого нижнего угла просчитываемой области экрана по горизонтали.</li>
+<li>Bottom - координата правого нижнего угла просчитываемой области экрана по вертикали.</li>
+<li>Col - цвет пиксела в виде шестиразрядного шестнадцатиричного числа, по два разряда на цвет, формат RGB</li>
+<li>Var=0 - допуск по оттенку цвета при поиске совпадений, от 0 до 255, задает разброс значений, которые попадут под критерий поиска по каждому цвету. 0 - абсолютное соответствие, 255 - совпадет любой цвет.</li>
+<li>Step=1 - шаг в пикселах, позволяет ускорить поиск путем пропуска пикселов.</li>
+</ul>
+<p>Возвращает объект типа WinPoint с координатами пиксела, если он найден</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ClipPut">
+<tt class="descname">ClipPut</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ClipPut" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Помещает текст в буфер обмена.</p>
+<ul class="simple">
+<li>Text - строка, которую надо поместить в буфер обмена.</li>
+</ul>
+<p>Возвращает True в случае успеха, False  в случае неудачи.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.ClipGet">
+<tt class="descname">ClipGet</tt><big>(</big><em>self</em><big>)</big><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.ClipGet" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Считывает текст из буфера обмена, не более 65535 байт.
+В случае успеха вернет текст, если в буфере обмена был не текст, а что-то другое, или возникли ошибки, вернет None.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.IsAdmin">
+<tt class="descname">IsAdmin</tt><big>(</big><em>*arg</em>, <em>**kwarg</em><big>)</big><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.IsAdmin" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.AutoItX.MsgBox">
+<tt class="descname">MsgBox</tt><big>(</big><em>self</em>, <em>Title</em>, <em>Message</em>, <em>Flags=0</em>, <em>WinHandle=None</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#AutoItX.MsgBox"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.AutoItX.MsgBox" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Простой советский MesageBox, релизован напрямую через User32.dll.</p>
+<ul>
+<li><p class="first">Title - Заголовок окна.</p>
+</li>
+<li><p class="first">Message - Сообщение в окне.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Flags=0 - Число с флагами для регулировки вида окна, кнопок и т.п. (подробнее см. помощь от  Microsoft по MessageBox). Соответствуют стандартным по именам, заключены в именованный массив MB_Flags, использовать, например, так:</dt>
+<dd><p class="first last">MB_Flags.MB_ICONWARNING|MB_Flags.MB_OKCANCEL|MB_Flags.MB_SYSTEMMODAL</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">WinHandle=None - Handle родительского окна, которое открыло MessageBox.</p>
+</li>
+</ul>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="id4">
+<h2>Дополнительные классы для работы с окнами<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h2>
+<dl class="class">
+<dt id="MODULES.AutomationMod.WinState">
+<em class="property">class </em><tt class="descclassname">MODULES.AutomationMod.</tt><tt class="descname">WinState</tt><big>(</big><em>State</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#WinState"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.WinState" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Класс для хранения и преобразования состояния окна, возвращаемого функцией WinGetState.</p>
+<p>Параметры конструктора:</p>
+<ul class="simple">
+<li>State - начальное значение состояния в числовом или строковом виде, подробности далее.</li>
+</ul>
+<p>Свойства:</p>
+<ul>
+<li><p class="first">StateNum=None - числовое значение состояния (возвращается функцией WinGetState), гененрируется автоматически при задании состояния методом SetState со строковым значанием</p>
+</li>
+<li><dl class="first docutils">
+<dt>StateString=None - строковое описание состояния, гененрируется автоматически при задании состояния методом SetState с числовым значанием,</dt>
+<dd><p class="first last">содержит список активных признаков(см. ниже), разделенных запятыми, например:
+&#8216;EXISTS, VISIBLE, ENABLED&#8217;</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">EXISTS=False - логический признак существования окна.</p>
+</li>
+<li><p class="first">VISIBLE=False - логический признак видисти окна.</p>
+</li>
+<li><p class="first">ENABLED=False - логический признак того, что окно включено.</p>
+</li>
+<li><p class="first">ACTIVE=False - логический признак активности окна.</p>
+</li>
+<li><p class="first">MINIMIZED=False - логический признак того, что окно свернуто.</p>
+</li>
+<li><p class="first">MAXIMIZED=False - логический признак того, что окно раширено до масимальных размеров.</p>
+</li>
+</ul>
+<p>Логические признаки формируются автоматически при задании состояния методом SetState.
+Если напрямую поменять значения логических признаков, то автоматически изменятся значения StateNum и StateString.
+Имеются так же методы сравнения двух состояний, что позволяет сопоставлять экземпляры класса, содержащие значения,
+при помощи операторов &#8220;==&#8221;, &#8221;!=&#8221;, &#8220;&gt;=&#8221;, &#8220;&lt;=&#8221;, &#8220;&gt;&#8221;, &#8220;&lt;&#8221;.</p>
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinState.StateNum">
+<tt class="descname">StateNum</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.WinState.StateNum" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinState.StateString">
+<tt class="descname">StateString</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.WinState.StateString" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinState.EXISTS">
+<tt class="descname">EXISTS</tt><em class="property"> = False</em><a class="headerlink" href="#MODULES.AutomationMod.WinState.EXISTS" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinState.VISIBLE">
+<tt class="descname">VISIBLE</tt><em class="property"> = False</em><a class="headerlink" href="#MODULES.AutomationMod.WinState.VISIBLE" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinState.ENABLED">
+<tt class="descname">ENABLED</tt><em class="property"> = False</em><a class="headerlink" href="#MODULES.AutomationMod.WinState.ENABLED" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinState.ACTIVE">
+<tt class="descname">ACTIVE</tt><em class="property"> = False</em><a class="headerlink" href="#MODULES.AutomationMod.WinState.ACTIVE" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinState.MINIMIZED">
+<tt class="descname">MINIMIZED</tt><em class="property"> = False</em><a class="headerlink" href="#MODULES.AutomationMod.WinState.MINIMIZED" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinState.MAXIMIZED">
+<tt class="descname">MAXIMIZED</tt><em class="property"> = False</em><a class="headerlink" href="#MODULES.AutomationMod.WinState.MAXIMIZED" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.WinState.SetState">
+<tt class="descname">SetState</tt><big>(</big><em>self</em>, <em>State</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#WinState.SetState"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.WinState.SetState" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Метод задания значения состояния окна, принимает число, возвращаемое WinGetState,
+или строку , содержащую список активных признаков, например:
+&#8216;EXISTS, VISIBLE, ENABLED, ACTIVE&#8217;</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="MODULES.AutomationMod.WinParams">
+<em class="property">class </em><tt class="descclassname">MODULES.AutomationMod.</tt><tt class="descname">WinParams</tt><big>(</big><em>Header</em>, <em>Class=None</em>, <em>Handle=None</em>, <em>REtitle=False</em>, <em>REclass=False</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#WinParams"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.WinParams" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Класс для хранения параметров окна.</p>
+<dl class="docutils">
+<dt>Параметры конструктора:</dt>
+<dd><ul class="first last simple">
+<li>Header - заголовок окна.</li>
+<li>Class=None - класс окна.</li>
+<li>Handle=None - Handle окна.</li>
+</ul>
+</dd>
+<dt>Свойства:</dt>
+<dd><ul class="first last">
+<li><p class="first">Header=None - заголовок окна.</p>
+</li>
+<li><p class="first">Class=None - класс окна.</p>
+</li>
+<li><p class="first">Handle=None - Handle окна.</p>
+</li>
+<li><p class="first">Rectangle=None - Значение с типом WinRect, содержащее размеры окна.</p>
+</li>
+<li><p class="first">ClientRectangle=None - Значение с типом WinRect, содержащее размеры клиентской области окна.</p>
+</li>
+<li><p class="first">State=None - Значение с типом WinState, содержащее состояние окна.</p>
+</li>
+<li><dl class="first docutils">
+<dt>StringID=None - только чтение, строка, суммирующая все признаки окна в формате AutoIt (с использованием кв. скобок, подронее см. в помощи  AutoIt),</dt>
+<dd><p class="first last">может быть использована для передачи функциям AutoIt.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinParams.Header">
+<tt class="descname">Header</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.WinParams.Header" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinParams.Class">
+<tt class="descname">Class</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.WinParams.Class" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinParams.Handle">
+<tt class="descname">Handle</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.WinParams.Handle" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinParams.Rectangle">
+<tt class="descname">Rectangle</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.WinParams.Rectangle" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinParams.ClientRectangle">
+<tt class="descname">ClientRectangle</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.WinParams.ClientRectangle" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinParams.State">
+<tt class="descname">State</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.WinParams.State" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.WinParams.StringID">
+<tt class="descname">StringID</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.WinParams.StringID" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.WinParams.SetParams">
+<tt class="descname">SetParams</tt><big>(</big><em>self</em>, <em>Header</em>, <em>Class</em>, <em>Handle</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#WinParams.SetParams"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.WinParams.SetParams" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="MODULES.AutomationMod.ControlParams">
+<em class="property">class </em><tt class="descclassname">MODULES.AutomationMod.</tt><tt class="descname">ControlParams</tt><big>(</big><em>Class</em>, <em>Instance=1</em>, <em>Name=None</em>, <em>ID=None</em>, <em>Text=None</em>, <em>Handle=None</em>, <em>Rectangle=None</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#ControlParams"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.ControlParams" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Класс для хранения параметров контролов (элементов окна).</p>
+<dl class="docutils">
+<dt>Параметры конструктора:</dt>
+<dd><ul class="first last simple">
+<li>Class=None - класс котрола. Либо строка с параметрами контрола в квадратных скобках (формат см. в помощи AutoIt)</li>
+<li>Instance=None - номер экземпляра (Instance) контрола.</li>
+<li>Name=None - Имя контрола.</li>
+<li>ID=None - Идентификатор контрола.</li>
+<li>Text=None - Текст, содержащийся в контроле, если он есть.</li>
+<li>Handle=None - Handle контрола.</li>
+<li>Rectangle=None - Объект с типом WinRect, содержащий координаты области контрола внутри окна.</li>
+</ul>
+</dd>
+<dt>Свойства:</dt>
+<dd><ul class="first last">
+<li><p class="first">Class=None - класс котрола.</p>
+</li>
+<li><p class="first">Instance=None - номер экземпляра (Instance) контрола.</p>
+</li>
+<li><p class="first">Name=None - Имя контрола.</p>
+</li>
+<li><p class="first">ID=None - Идентификатор контрола.</p>
+</li>
+<li><p class="first">Text=None - Текст, содержащийся в контроле, если он есть.</p>
+</li>
+<li><p class="first">Handle=None - Handle контрола.</p>
+</li>
+<li><p class="first">Rectangle=None - Объект с типом WinRect, содержащий координаты области контрола внутри окна.</p>
+</li>
+<li><dl class="first docutils">
+<dt>StringID=None - строка, суммирующая все признаки контрола в формате AutoIt (с использованием кв. скобок, подронее см. в помощи  AutoIt),</dt>
+<dd><p class="first last">может быть использована для передачи функциям AutoIt.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.ControlParams.Class">
+<tt class="descname">Class</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.ControlParams.Class" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.ControlParams.Instance">
+<tt class="descname">Instance</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.ControlParams.Instance" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.ControlParams.Name">
+<tt class="descname">Name</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.ControlParams.Name" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.ControlParams.ID">
+<tt class="descname">ID</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.ControlParams.ID" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.ControlParams.Text">
+<tt class="descname">Text</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.ControlParams.Text" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.ControlParams.Handle">
+<tt class="descname">Handle</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.ControlParams.Handle" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.ControlParams.Rectangle">
+<tt class="descname">Rectangle</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.ControlParams.Rectangle" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="MODULES.AutomationMod.ControlParams.StringID">
+<tt class="descname">StringID</tt><em class="property"> = None</em><a class="headerlink" href="#MODULES.AutomationMod.ControlParams.StringID" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.ControlParams.SetParams">
+<tt class="descname">SetParams</tt><big>(</big><em>self</em>, <em>Class</em>, <em>Instance</em>, <em>Name</em>, <em>ID</em>, <em>Text</em>, <em>Handle</em>, <em>Rectangle</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#ControlParams.SetParams"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.ControlParams.SetParams" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="MODULES.AutomationMod.ControlParams.SetParamsFromString">
+<tt class="descname">SetParamsFromString</tt><big>(</big><em>self</em>, <em>ControlString</em>, <em>Rectangle</em><big>)</big><a class="reference internal" href="_modules/MODULES/AutomationMod.html#ControlParams.SetParamsFromString"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#MODULES.AutomationMod.ControlParams.SetParamsFromString" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="id5">
+<h2>Пример использования<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span> <span class="n">system</span>
+<span class="kn">from</span> <span class="nn">AutomationMod</span> <span class="kn">import</span> <span class="n">AutoItX</span><span class="p">,</span> <span class="n">WinHandle</span><span class="p">,</span> <span class="n">WinState</span><span class="p">,</span> <span class="n">MB_Flags</span>
+
+<span class="c">#Запускаем блокнот отдельным процессом</span>
+<span class="n">CallRes</span><span class="o">=</span><span class="n">system</span><span class="p">(</span><span class="s">&#39;start notepad&#39;</span><span class="p">)</span>
+<span class="c">#Если проблемы, выходим.</span>
+<span class="k">if</span> <span class="n">CallRes</span><span class="o">!=</span><span class="mi">0</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&#39;Невозможно запустить блокнот!&#39;</span><span class="p">)</span>
+    <span class="nb">exit</span><span class="p">(</span><span class="n">CallRes</span><span class="p">)</span>
+
+<span class="k">print</span> <span class="p">(</span><span class="s">&#39;Блокнот запущен&#39;</span><span class="p">)</span>
+<span class="c">#Создаем экземпляр AutoItX</span>
+<span class="n">Automat</span><span class="o">=</span><span class="n">AutoItX</span><span class="p">()</span>
+<span class="c">#Это заголовок для поиска окна в формате AutoIt</span>
+<span class="n">Title</span><span class="o">=</span><span class="s">&#39;[CLASS:Notepad]&#39;</span>
+<span class="c">#Это идентификатор контрола в формате AutoIt</span>
+<span class="n">Control</span><span class="o">=</span><span class="s">&#39;[CLASS:Edit; INSTANCE:1]&#39;</span>
+<span class="c">#Ну и пока пустой Handle</span>
+<span class="n">Handle</span><span class="o">=</span><span class="bp">None</span>
+<span class="c">#Ждем появления окна, вдруг еще не открылось</span>
+<span class="n">Opened</span><span class="o">=</span><span class="n">Automat</span><span class="o">.</span><span class="n">WinWait</span><span class="p">(</span><span class="n">Title</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
+<span class="c">#Выходим, если не дождались открытия блокнота.</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="n">Opened</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&#39;Что-то блокнот тормозит... Наверное, нужен апгрейд!&#39;</span><span class="p">)</span>
+    <span class="nb">exit</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="c">#Если открылось - получаем Handle, чтобы работать с конкретно данным окном.</span>
+<span class="n">Handle</span><span class="o">=</span><span class="n">WinHandle</span><span class="p">(</span><span class="n">Automat</span><span class="o">.</span><span class="n">WinGetHandle</span><span class="p">(</span><span class="n">Title</span><span class="p">))</span>
+<span class="c">#Выходим, если не удалось получить Handle окна.</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="n">Handle</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&#39;Невозможно получить Handle блокнота!&#39;</span><span class="p">)</span>
+    <span class="nb">exit</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="c">#Итак, блокнот готов, его Handle получен, выводим Handle, и</span>
+<span class="k">print</span> <span class="p">(</span><span class="s">&#39;Handle окна блокнота: {}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Handle</span><span class="p">))</span>
+<span class="c">#получаем состояние окна, тут же разбираем его.</span>
+<span class="n">State</span><span class="o">=</span><span class="n">WinState</span><span class="p">(</span><span class="n">Automat</span><span class="o">.</span><span class="n">WinGetState</span><span class="p">(</span><span class="n">Handle</span><span class="p">))</span>
+<span class="k">print</span> <span class="p">(</span><span class="s">&#39;Состояние окна блокнота: {} {}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">State</span><span class="o">.</span><span class="n">StateNum</span><span class="p">,</span> <span class="n">State</span><span class="o">.</span><span class="n">StateString</span><span class="p">))</span>
+<span class="c">#Запоминаем положение и размер окна блокнота</span>
+<span class="n">NotepadRect</span><span class="o">=</span><span class="n">Automat</span><span class="o">.</span><span class="n">WinGetPos</span><span class="p">(</span><span class="n">Handle</span><span class="p">)</span>
+<span class="c">#Активируем окно, иначе некоторые функции могут не сработать</span>
+<span class="n">Automat</span><span class="o">.</span><span class="n">WinActivate</span><span class="p">(</span><span class="n">Handle</span><span class="p">)</span>
+<span class="c">#Уж совсем на всякий случай перемещаем фокус ввода в нужный контрол.</span>
+<span class="n">Automat</span><span class="o">.</span><span class="n">ControlFocus</span><span class="p">(</span><span class="n">Handle</span><span class="p">,</span><span class="n">Control</span><span class="p">)</span>
+<span class="c">#Бьем баклуши</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="c">#Отсылаем &quot;Привет!&quot;.</span>
+<span class="n">Automat</span><span class="o">.</span><span class="n">ControlSetText</span><span class="p">(</span><span class="n">Handle</span><span class="p">,</span> <span class="n">Control</span><span class="p">,</span> <span class="s">&#39;Привет!&#39;</span><span class="p">)</span>
+<span class="c">#Пинаем банки</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="c">#Делаем удаление как бы с клавиатуры</span>
+<span class="n">Automat</span><span class="o">.</span><span class="n">Send</span><span class="p">(</span><span class="s">&#39;{END}&#39;</span><span class="p">)</span>
+<span class="n">Automat</span><span class="o">.</span><span class="n">Send</span><span class="p">(</span><span class="s">&#39;{BACKSPACE}&#39;</span><span class="p">,</span><span class="mi">7</span><span class="p">)</span>
+<span class="c">#Бьем лежачего</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="c">#Делаем красивый ввод с клавиатуры типа &quot;Ой, призраки!&quot;</span>
+<span class="n">Automat</span><span class="o">.</span><span class="n">ControlSend</span><span class="p">(</span><span class="n">Handle</span><span class="p">,</span> <span class="n">Control</span><span class="p">,</span> <span class="s">&#39;Попробуй поймать меня{!}&#39;</span><span class="p">)</span>
+<span class="c">#Ковыряем в носу</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="c">#Волшебный фокус с исчезновением окна.</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">254</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+    <span class="n">Automat</span><span class="o">.</span><span class="n">WinSetTrans</span><span class="p">(</span><span class="n">Handle</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.005</span><span class="p">)</span>
+<span class="c">#Перепрятываем окно</span>
+<span class="n">Automat</span><span class="o">.</span><span class="n">WinMove</span><span class="p">(</span><span class="n">Handle</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">350</span><span class="p">,</span> <span class="mi">75</span><span class="p">)</span>
+<span class="c">#Наводим ужас</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="c">#Кастуем на окно воскрешение</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">256</span><span class="p">):</span>
+    <span class="n">Automat</span><span class="o">.</span><span class="n">WinSetTrans</span><span class="p">(</span><span class="n">Handle</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.005</span><span class="p">)</span>
+<span class="c">#Упиваемся собственной значимостью</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="c">#А теперь - веселые гонки в духе &quot;Том и Джерри&quot;. В роли Джерри - блокнот, в роли Тома - курсор. Хотя логичнее было бы наоборот:)</span>
+<span class="c">#Для начала определяем паузу между перемещениями.</span>
+<span class="n">Interval</span><span class="o">=</span><span class="mi">1</span>
+<span class="c">#Запоминаем время начала погони.</span>
+<span class="n">Start</span><span class="o">=</span><span class="n">time</span><span class="o">.</span><span class="n">clock</span><span class="p">()</span>
+<span class="c">#Задаем время окончания представления (через 10 секунд)</span>
+<span class="n">Finish</span><span class="o">=</span><span class="n">Start</span><span class="o">+</span><span class="mi">10</span>
+<span class="c">#Вперед!</span>
+<span class="k">while</span> <span class="n">Finish</span><span class="o">-</span><span class="n">Start</span><span class="o">&gt;=</span><span class="mi">0</span><span class="p">:</span>
+    <span class="c">#Перемещаем Джерри(блокнот) в следующую точку.</span>
+    <span class="n">Automat</span><span class="o">.</span><span class="n">WinMove</span><span class="p">(</span><span class="n">Handle</span><span class="p">,</span><span class="mi">500</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+    <span class="c">#Перемещаем Тома(курсор) в точку позади.</span>
+    <span class="n">Automat</span><span class="o">.</span><span class="n">MouseMove</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+    <span class="c">#Красивый стоп-кадр в духе &quot;Матрицы&quot;.</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">Interval</span><span class="p">)</span>
+    <span class="c">#И так еще три раза.</span>
+    <span class="n">Automat</span><span class="o">.</span><span class="n">WinMove</span><span class="p">(</span><span class="n">Handle</span><span class="p">,</span><span class="mi">500</span><span class="p">,</span><span class="mi">500</span><span class="p">)</span>
+    <span class="n">Automat</span><span class="o">.</span><span class="n">MouseMove</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">Interval</span><span class="p">)</span>
+    <span class="n">Automat</span><span class="o">.</span><span class="n">WinMove</span><span class="p">(</span><span class="n">Handle</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">500</span><span class="p">)</span>
+    <span class="n">Automat</span><span class="o">.</span><span class="n">MouseMove</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="mi">500</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">Interval</span><span class="p">)</span>
+    <span class="n">Automat</span><span class="o">.</span><span class="n">WinMove</span><span class="p">(</span><span class="n">Handle</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+    <span class="n">Automat</span><span class="o">.</span><span class="n">MouseMove</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">500</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">Interval</span><span class="p">)</span>
+    <span class="c">#Смотрим на часы</span>
+    <span class="n">Start</span><span class="o">=</span><span class="n">time</span><span class="o">.</span><span class="n">clock</span><span class="p">()</span>
+<span class="c">#Уф! Погоня окончена, передохнем!</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="c">#Теперь вернем блокнот на место.</span>
+<span class="n">Automat</span><span class="o">.</span><span class="n">WinMove</span><span class="p">(</span><span class="n">Handle</span><span class="p">,</span> <span class="n">NotepadRect</span><span class="o">.</span><span class="n">X</span><span class="p">,</span> <span class="n">NotepadRect</span><span class="o">.</span><span class="n">Y</span><span class="p">,</span> <span class="n">NotepadRect</span><span class="o">.</span><span class="n">WIDTH</span><span class="p">,</span> <span class="n">NotepadRect</span><span class="o">.</span><span class="n">HEIGHT</span><span class="p">)</span>
+<span class="c">#И очистим его содержимое.</span>
+<span class="n">Automat</span><span class="o">.</span><span class="n">ControlSetText</span><span class="p">(</span><span class="n">Handle</span><span class="p">,</span> <span class="n">Control</span><span class="p">,</span> <span class="s">&#39;&#39;</span><span class="p">)</span>
+<span class="c">#Прочтем его состояние.</span>
+<span class="n">State</span><span class="o">.</span><span class="n">SetState</span><span class="p">(</span><span class="n">Automat</span><span class="o">.</span><span class="n">WinGetState</span><span class="p">(</span><span class="n">Handle</span><span class="p">))</span>
+<span class="c">#И сообщим итоги зрителю через MessageBox.</span>
+<span class="n">Automat</span><span class="o">.</span><span class="n">MsgBox</span><span class="p">(</span>
+               <span class="s">&#39;Проверка&#39;</span><span class="p">,</span>
+               <span class="s">&#39;Ура! Тест завершен!</span><span class="se">\n</span><span class="s">Блокнот на место возвращен!</span><span class="se">\n</span><span class="s">Вот на прощание окна блокнота состояние:</span><span class="se">\n</span><span class="s">{}</span><span class="se">\n</span><span class="s">{}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">State</span><span class="o">.</span><span class="n">StateNum</span><span class="p">,</span> <span class="n">State</span><span class="o">.</span><span class="n">StateString</span><span class="p">),</span>
+               <span class="n">MB_Flags</span><span class="o">.</span><span class="n">MB_ICONWARNING</span><span class="o">|</span><span class="n">MB_Flags</span><span class="o">.</span><span class="n">MB_OK</span><span class="o">|</span><span class="n">MB_Flags</span><span class="o">.</span><span class="n">MB_SYSTEMMODAL</span>
+               <span class="p">)</span>
+<span class="c">#Все, представление окончено, занавес! Закрываем блокнот.</span>
+<span class="n">Automat</span><span class="o">.</span><span class="n">WinClose</span><span class="p">(</span><span class="n">Handle</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="id6">
+<h1>Указатели<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><em>Алфавитный указатель</em></a></li>
+<li><a class="reference internal" href="py-modindex.html"><em>Состав модуля</em></a></li>
+<li><a class="reference internal" href="search.html"><em>Поиск</em></a></li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Содержание</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">AutomationMod - модуль доступа к функциям AutoItX3.dll</a><ul>
+<li><a class="reference internal" href="#id3">Определения</a></li>
+<li><a class="reference internal" href="#autoitx3-dll">Основной класс для работы с AutoItX3.dll</a></li>
+<li><a class="reference internal" href="#id4">Дополнительные классы для работы с окнами</a></li>
+<li><a class="reference internal" href="#id5">Пример использования</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id6">Указатели</a></li>
+</ul>
+
+  <h4>Предыдущий раздел</h4>
+  <p class="topless"><a href="index.html"
+                        title="предыдущая глава">Добро пожаловать в документацию</a></p>
+  <h3>На этой странице</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/AutomationMod.txt"
+           rel="nofollow">Показать исходный текст</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Быстрый поиск</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Искать" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Введите слова для поиска или имя модуля, класса или функции.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Просмотр</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Словарь-указатель"
+             >словарь</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >модули</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Добро пожаловать в документацию"
+             >предыдущий</a> |</li>
+        <li><a href="index.html">AUATS 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Цыпкин Максим Владимирович.
+      При создании использован <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>
