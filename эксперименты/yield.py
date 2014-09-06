@@ -4,13 +4,17 @@ def accumulate():
     tally = 0
     while 1:
         next = yield
+        print("accumulate "+str(next))
         if next is None:
              return tally
         tally += next
+
 def gather_tallies(tallies):
     while 1:
          tally = yield from accumulate()
+         print(tally)
          tallies.append(tally)
+
 tallies = []
 acc = gather_tallies(tallies)
 next(acc) # Ensure the accumulator is ready to accept values

@@ -46,7 +46,7 @@ def extract(dict_in, dict_out, key_p = ''):
 def extract_sergei(dict_in, dict_out):
     for key, value in dict_in.items():
         if isinstance(value, dict):
-            extract(value, dict_out)
+            extract_sergei(value, dict_out)
         dict_out[key] = value
     return dict_out
 

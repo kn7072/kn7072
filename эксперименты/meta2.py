@@ -30,7 +30,8 @@ class Meta2(type):
          return obj
      def __new__(mcls, name, bases, attrs):
          print ('creating new class', name)
-         return super(Meta2, mcls).__new__(mcls, name, bases, attrs)
+         class_ = super(Meta2, mcls).__new__(mcls, name, bases, attrs)
+         return class_
      def __init__(cls, name, bases, attrs):
          setattr(cls, 'my' , my_method)
          print ('initing new class', name)
