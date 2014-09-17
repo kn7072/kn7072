@@ -11,14 +11,16 @@ Title3 = '[HANDLE:0x0001033E]' #['Handle:0x0003059c']
 #Это идентификатор контрола в формате AutoIt
 Control='[CLASS:WindowsForms10.BUTTON.app.0.245fb7_r11_ad1; INSTANCE:5]'
 Control2='[CLASS:Edit; INSTANCE:1]'
-Control3=['Handle:0x00020576']
-#Ну и пока пустой Handle
+Control3=['Handle:0x0002047C']
+
 Handle=None
-#Ждем появления окна, вдруг еще не открылось
 Opened=Automat.WinWait(Title,1)
 Handle=WinHandle(Automat.WinGetHandle(Title))
+Automat.ControlSend(Handle,Control,"{ENTER}")
+Automat.Send('{F5}',Flag=1)
+Automat.ControlMouseClick(Handle,Control, X=1, Y=1)  # 10, 17
 print(Opened, Handle)
-u = Automat.WinActivate(Handle)
+u = Automat.WinActivate(Handle)  # True
 foc = Automat.ControlFocus(Handle,Control)
 print(foc)
 text = Automat.ControlGetText(Handle,Control)
@@ -33,4 +35,4 @@ time.sleep(1)
 Automat.Send('{F5}',Flag=0)
 time.sleep(1)
 Automat.Send('{F5}')
-print()
+print(){F5}

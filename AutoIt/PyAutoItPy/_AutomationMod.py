@@ -1,10 +1,10 @@
-﻿#coding=utf-8
+#coding=utf-8
 """
 Создан: 17.12.2012
 
 Автор: Ахон Вашибака (AhonVashibaka@gmail.com)
 
-Версия: 0.9.5 beta
+Версия: 0.9.6.11 beta
 """
 
 # -------------------------------------------------------------------------------
@@ -37,7 +37,7 @@ from sys import maxsize as sysMaxSize
 WinPoint = namedtuple('WinPoint', 'X, Y')
 #: Тип для cохранения координат окна.
 WinRect = namedtuple('WinRect', 'X, Y, WIDTH, HEIGHT')
-#: Лямбда для преобразования строки, возвращаемой WinGetHandle в формат AutoIt. 
+#: Лямбда для преобразования строки, возвращаемой WinGetHandle в формат AutoIt.
 WinHandle = lambda x: '[HANDLE:{}]'.format(x)
 #: Служебный тип для флагов установки состояния окна функцией WinSetState.
 SetStateValues = namedtuple('SetStateValues',
@@ -45,7 +45,7 @@ SetStateValues = namedtuple('SetStateValues',
                             HIDE, SHOW, DISABLE, ENABLE, LOCK, MAXIMIZE, MINIMIZE, RESTORE, SHOWDEFAULT,
                             SHOWMAXIMIZED, SHOWMINIMIZED, SHOWMINNOACTIVE, SHOWNA, SHOWNOACTIVATE, SHOWNORMAL, UNLOCK
                             ''')
-#: Именованный массив для задания флагов состояний при использовании WinSetState. 
+#: Именованный массив для задания флагов состояний при использовании WinSetState.
 SW = SetStateValues(0, 5, 65, 64, 66, 3, 6, 9, 10, 3, 2, 7, 8, 4, 1, 67)
 #: Массив для преобразования числа, возвращаемого MouseGetCursor в имя курсора.
 MouseGetCursorValue = (
@@ -173,7 +173,7 @@ class WinState:
 
     def __setattr__(self, Name, Value):
         """
-            Внутренний метод, автоматизирующи обновление значений StateNum и StateString
+            Внутренний метод, автоматизирующий обновление значений StateNum и StateString
             при изменении логических признаков.
         """
         super().__setattr__(Name, Value)
@@ -201,7 +201,7 @@ class WinState:
         else:
             return False
 
-    #"<="    
+    #"<="
     def __le__(self, SecondState):
         x = 0
         y = 0
@@ -219,7 +219,7 @@ class WinState:
         else:
             return False
 
-    #"=="    
+    #"=="
     def __eq__(self, SecondState):
         Res = True
         for Param in self.__StatesDict__:
@@ -343,7 +343,7 @@ class WinState:
         self.StateString = ','.join(ResStrList)
 
 
-#-------------------------------------------------------------------------------    
+#-------------------------------------------------------------------------------
 
 class WinParams:
     """
@@ -373,11 +373,11 @@ class WinParams:
     ClientRectangle = None
     State = None
     StringID = None
-    Text = None
+    Text = ''
 
     #-------------------------------------------------------------------------------
 
-    def __init__(self, Header, Class=None, Handle=None, REtitle=False, REclass=False, Text=None):
+    def __init__(self, Header, Class=None, Handle=None, REtitle=False, REclass=False, Text=''):
         #self.SetParams(Header, Class, Handle)
         self.__HeaderPrefix__ = 'REGEXPTITLE' if REtitle else 'TITLE'
         self.__ClassPrefix__ = 'REGEXPCLASS' if REclass else 'CLASS'
@@ -387,21 +387,21 @@ class WinParams:
         self.Rectangle = WinRect(0, 0, 0, 0)
         self.ClientRectangle = WinRect(0, 0, 0, 0)
         self.State = WinState(0)
-        self.StringID = self.__FormStringID__(Header, Class)  # , Handle)
+        self.StringID = self.__FormStringID__(Header, Class, Handle)
         self.Text = Text
 
     #-------------------------------------------------------------------------------
 
     def __setattr__(self, Name, Value):
         if Name == 'StringID':
-            super().__setattr__(Name, self.__FormStringID__(self.Header, self.Class))  # , self.Handle))
-        elif Name == 'Class' or Name == 'Header':
+            super().__setattr__(Name, self.__FormStringID__(self.Header, self.Class, self.Handle))
+        elif Name == 'Class' or Name == 'Header' or Name == 'Handle':
             super().__setattr__(Name, Value)
-            super().__setattr__('StringID', self.__FormStringID__(self.Header, self.Class))  # , self.Handle))
+            super().__setattr__('StringID', self.__FormStringID__(self.Header, self.Class, self.Handle))
         else:
             super().__setattr__(Name, Value)
 
-    #-------------------------------------------------------------------------------    
+    #-------------------------------------------------------------------------------
     def SetParams(self, Header, Class, Handle):
         self.Header = Header
         self.Class = Class
@@ -409,18 +409,18 @@ class WinParams:
         self.Rectangle = WinRect(0, 0, 0, 0)
         self.ClientRectangle = WinRect(0, 0, 0, 0)
         self.State = WinState(0)
-        self.StringID = self.__FormStringID__(Header, Class)  # , Handle)
+        self.StringID = self.__FormStringID__(Header, Class, Handle)
 
     #-------------------------------------------------------------------------------
 
-    def __FormStringID__(self, Header, Class):  # , Handle):
+    def __FormStringID__(self, Header, Class, Handle):
         Res = '['
+        if Handle and Handle != '':
+            Res += 'HANDLE:{};'.format(Handle)
         if Header and Header != '':
             Res += '{}:{};'.format(self.__HeaderPrefix__, Header)
-        if Class:
+        if Class and Class != '':
             Res += '{}:{};'.format(self.__ClassPrefix__, Class)
-        #if Handle:
-        #    Res += 'HANDLE:{};'.format(Handle)
         Res += ']'
         return Res
 
@@ -437,7 +437,7 @@ class ControlParams:
             * Instance=None - номер экземпляра (Instance) контрола.
             * Name=None - Имя контрола.
             * ID=None - Идентификатор контрола.
-            * Text=None - Текст, содержащийся в контроле, если он есть.
+            * Text='' - Текст, содержащийся в контроле, если он есть.
             * Handle=None - Handle контрола.
             * Rectangle=None - Объект с типом WinRect, содержащий координаты области контрола внутри окна.
         Свойства:
@@ -445,7 +445,7 @@ class ControlParams:
             * Instance=None - номер экземпляра (Instance) контрола.
             * Name=None - Имя контрола.
             * ID=None - Идентификатор контрола.
-            * Text=None - Текст, содержащийся в контроле, если он есть.
+            * Text='' - Текст, содержащийся в контроле, если он есть.
             * Handle=None - Handle контрола.
             * Rectangle=None - Объект с типом WinRect, содержащий координаты области контрола внутри окна.
             * StringID=None - строка, суммирующая все признаки контрола в формате AutoIt (с использованием кв. скобок,
@@ -458,7 +458,7 @@ class ControlParams:
     Instance = None
     Name = None
     ID = None
-    Text = None
+    Text = ''
     Handle = None
     Rectangle = None
     StringID = None
@@ -473,7 +473,7 @@ class ControlParams:
 
     #-------------------------------------------------------------------------------
 
-    def __init__(self, Class, Instance=1, Name=None, ID=None, Text=None, Handle=None, Rectangle=None):
+    def __init__(self, Class, Instance=1, Name=None, ID=None, Text='', Handle=None, Rectangle=None):
         if isinstance(Class, str):
             if Class.find('[') == 0 and Class.find(']') == len(Class) - 1:
                 self.SetParamsFromString(Class, Rectangle)
@@ -549,7 +549,7 @@ def AutoItCall(Mode):
                 if ModeString == 'VALUE':
                     return Res.value
                 elif ModeString == 'TRUE-FALSE':
-                    if Res == 1:
+                    if Res > 0:
                         return True
                     else:
                         return False
@@ -602,7 +602,7 @@ class AutoItX:
                 'ArgTypes': '(c_wchar_p, c_long, c_long, c_long, c_long, c_long)'
             },
             'AU3_WinGetHandle': {
-                'ReturnType': 'c_ulonglong',
+                'ReturnType': 'HWND',
                 'ArgTypes': '(c_wchar_p, c_wchar_p)'
             },
             'AU3_WinGetHandleAsText': {
@@ -626,7 +626,7 @@ class AutoItX:
                 'ArgTypes': '(c_wchar_p, c_wchar_p, POINTER(c_int * 4))'
             },
             'AU3_WinActivate': {
-                'ReturnType': 'c_void_p',
+                'ReturnType': 'c_long',
                 'ArgTypes': '(c_wchar_p, c_wchar_p)'
             },
             'AU3_WinActive': {
@@ -714,12 +714,20 @@ class AutoItX:
                 'ArgTypes': '(c_wchar_p, c_wchar_p, c_wchar_p, c_wchar_p, c_long, c_long, c_long)'
             },
             'AU3_ControlGetHandle': {
+                'ReturnType': 'HWND',
+                'ArgTypes': '(HWND, c_wchar_p)'
+            },
+            'AU3_ControlGetHandleAsText': {
                 'ReturnType': 'c_void_p',
                 'ArgTypes': '(c_wchar_p, c_wchar_p, c_wchar_p, c_wchar_p, c_int)'
             },
             'AU3_ControlGetText': {
                 'ReturnType': 'c_void_p',
                 'ArgTypes': '(c_wchar_p, c_wchar_p, c_wchar_p, c_wchar_p, c_int)'
+            },
+            'AU3_ControlGetTextByHandle': {
+                'ReturnType': 'c_void_p',
+                'ArgTypes': '(HWND, HWND, c_wchar_p, c_int)'
             },
             'AU3_ControlCommand': {
                 'ReturnType': 'c_void_p',
@@ -732,6 +740,10 @@ class AutoItX:
             'AU3_ControlGetPos': {
                 'ReturnType': 'c_int',
                 'ArgTypes': '(c_wchar_p, c_wchar_p, c_wchar_p, POINTER(c_int * 4))'
+            },
+            'AU3_ControlGetPosByHandle': {
+                'ReturnType': 'c_int',
+                'ArgTypes': '(HWND, HWND, POINTER(c_int * 4))'
             },
             'AU3_ControlListView': {
                 'ReturnType': 'c_void_p',
@@ -752,6 +764,10 @@ class AutoItX:
             'AU3_ControlGetFocus': {
                 'ReturnType': 'c_void_p',
                 'ArgTypes': '(c_wchar_p, c_wchar_p, c_wchar_p, c_int)'
+            },
+            'AU3_ControlGetFocusByHandle': {
+                'ReturnType': 'c_void_p',
+                'ArgTypes': '(HWND, c_wchar_p, c_int)'
             },
             'AU3_ControlHide': {
                 'ReturnType': 'c_long',
@@ -1017,11 +1033,7 @@ class AutoItX:
             * Title - Заголовок окна в формате AutoIt.
             * Text='' - Текст, содержащийся в окне.
 
-            Возвращает строку, содержащую Handle окна в шестнадцатиричном виде с префиксом,например: "0x007F39".
-            С помощью лямбды WinHandle результат можно преобразовать в строку заголовка в формате AutoIt:
-            WinHandle(AutoItObj.WinGetHandle('Заголовок окна'))
-            в результате получим строку вида
-            "0x<значение Handle>", которую можно использовать для работы с окнами вместо заголовка.
+            Возвращает числовое значение Handle окна
         """
         Res = self.__AutoItDLL__.AU3_WinGetHandle(Title, Text)
         return Res
@@ -1092,15 +1104,16 @@ class AutoItX:
         """
         tmpCtypes = c_int * 4
         ttmmpp = tmpCtypes(0, 0, 0, 0)
-        pTmp = pointer(ttmmpp)
-        self.__AutoItDLL__.AU3_WinGetClientSize(Title, Text, pTmp)
+        #pTmp = pointer(ttmmpp)
+        self.__AutoItDLL__.AU3_WinGetClientSize(Title, Text, pointer(ttmmpp))
         cwa = list(p for p in ttmmpp)
         wra = self.WinGetPos(Title, Text)
         if wra:
             ClientWidth = cwa[2]  # if cwa[2] < wra[2] else wra[2]
             ClientHeight = cwa[3]  # if cwa[3] < wra[3] else wra[3]
-            ClientX = wra[0] + (wra[2] - wra[0] - ClientWidth) // 2
-            ClientY = wra[1] + (wra[3] - wra[1] - ClientHeight) // 2
+            BorderWidth = (wra[2] - wra[0] - ClientWidth) // 2
+            ClientX = wra[0] + BorderWidth
+            ClientY = wra[3]-cwa[3]-BorderWidth #(wra[3] - wra[1] - ClientHeight) // 2
 
             return WinRect(ClientX, ClientY, ClientWidth, ClientHeight)
         else:
@@ -1108,7 +1121,7 @@ class AutoItX:
 
     #-------------------------------------------------------------------------------
 
-    @AutoItCall('RAW')
+    @AutoItCall('TRUE-FALSE')
     def WinActivate(self, Title, Text=''):
         """
             Сделать окно активным.
@@ -1118,12 +1131,12 @@ class AutoItX:
 
             Возвращает True.
         """
-        self.__AutoItDLL__.AU3_WinActivate(Title, Text)
-        return True
+
+        return self.__AutoItDLL__.AU3_WinActivate(Title, Text)
 
     #-------------------------------------------------------------------------------
 
-    @AutoItCall('RAW')
+    @AutoItCall('TRUE-FALSE')
     def WinActive(self, Title, Text=''):
         """
             Определить активно ли окно.
@@ -1135,9 +1148,9 @@ class AutoItX:
             иначе None.
 
         """
-        tmp = self.__AutoItDLL__.AU3_WinActive(Title, Text).value
-        Res = str(tmp.value) if tmp.value != 0 else None
-        return Res
+        #tmp = self.__AutoItDLL__.AU3_WinActive(Title, Text)
+        #Res = str(tmp) if tmp != 0 else None
+        return self.__AutoItDLL__.AU3_WinActive(Title, Text)
 
     #-------------------------------------------------------------------------------
 
@@ -1291,6 +1304,22 @@ class AutoItX:
             False в случае неудачи.
         """
         return self.__AutoItDLL__.AU3_WinWaitActive(Title, Text, Timeout)
+
+    #-------------------------------------------------------------------------------
+
+    def WinWaitActivePing(self, Title, Timeout, Text=''):
+        isActive = self.__AutoItDLL__.AU3_WinActivate(Title, Text)
+        #isActive = self.WinActive(Title, Text)
+        #i = Timeout
+        if not isActive:
+            for i in range(Timeout+1,0,-1):
+                sleep(1)
+                isActive = self.__AutoItDLL__.AU3_WinActivate(Title, Text)
+                #i -= 1
+                #isActive = self.WinActive(Title, Text)
+                if isActive:
+                    break
+        return isActive
 
     #-------------------------------------------------------------------------------
 
@@ -1504,21 +1533,39 @@ class AutoItX:
 
     #-------------------------------------------------------------------------------
 
-    @AutoItCall('STRING-BUF')
+    @AutoItCall('RAW')
     def ControlGetHandle(self, Title, Control, Text=''):
         """
             Получить Handle контрола в окне.
 
             * Title - Заголовок окна в формате AutoIt.
-            * Control - Идентификатор контрола в формате AutoIt.
+            * Control - Строковой идентификатор контрола в формате AutoIt.
             * Text='' - Текст, содержащийся в окне.
 
             Возвращает строку, содержащую Handle контрола в шестнацатиричном формате,
+            в случае неудачи None.
+        """
+        #Res = create_unicode_buffer(255)
+        bufSize = 19 if self.__x64__ else 11
+        tmp = create_unicode_buffer(bufSize)
+        self.__AutoItDLL__.AU3_ControlGetHandleAsText(Title, Text, Control, tmp, bufSize)
+        Res = tmp.value if tmp.value != '' else None
+        return Res
+
+    #-------------------------------------------------------------------------------
+
+    @AutoItCall('RAW')
+    def ControlGetHandleInt(self, Handle, Control):
+        """
+            Получить Handle контрола в окне.
+
+            * Handle - Числовое значение Handle окна с контролом.
+            * Control - Строковой идентификатор контрола в формате AutoIt.
+
+            Возвращает числовое значение Handle контрола,
             в случае неудачи - None.
         """
-        Res = create_unicode_buffer(255)
-        self.__AutoItDLL__.AU3_ControlGetHandle(Title, Text, Control, Res, 255)
-
+        Res = self.__AutoItDLL__.AU3_ControlGetHandle(Handle, Control)
         return Res
 
     #-------------------------------------------------------------------------------
@@ -1537,6 +1584,24 @@ class AutoItX:
         """
         Res = create_unicode_buffer(4095)
         self.__AutoItDLL__.AU3_ControlGetText(Title, Text, Control, Res, 4095)
+
+        return Res
+
+    #-------------------------------------------------------------------------------
+
+    @AutoItCall('STRING-BUF')
+    def ControlGetTextByHandle(self, WinHandle, ControlHandle):
+        """
+            Получить текст из контрола в окне.
+
+            * WinHandle - int значение Handle окна.
+            * ControlHandle - int значение Handle контрола.
+
+            Возвращает строку, содержащую текст из контрола,
+            в случае неудачи - None.
+        """
+        Res = create_unicode_buffer(4095)
+        self.__AutoItDLL__.AU3_ControlGetTextByHandle(WinHandle, ControlHandle, Res, 4095)
 
         return Res
 
@@ -1562,6 +1627,7 @@ class AutoItX:
         return Res
 
     #-------------------------------------------------------------------------------
+
     @AutoItCall('RAW')
     def ControlGetPos(self, Title, Control, Text=''):
         """
@@ -1574,14 +1640,40 @@ class AutoItX:
             Возвращает объект WinRect с параметрам области котрола.
             В случае ошибок вернет None.
         """
-        tmp = []
+        #tmp = []
         tmpCtypes = c_int * 4
         ttmmpp = tmpCtypes(0, 0, 0, 0)
         self.__AutoItDLL__.AU3_ControlGetPos(Title, Text, Control, pointer(ttmmpp))
         if self.Error() == 0:
-            for val in ttmmpp:
-                tmp.append(val)
-            Res = WinRect(*tmp)
+            #for val in ttmmpp:
+            #    tmp.append(val)
+            Res = WinRect(*list(v for v in ttmmpp))
+        else:
+            Res = None
+
+        return Res
+
+    #-------------------------------------------------------------------------------
+
+    @AutoItCall('RAW')
+    def ControlGetPosByHandle(self, WinHandle, ControlHandle):
+        """
+            Получить парамтры области контрола в окне.
+
+            * WinHandle - int значение Handle окна.
+            * ControlHandle - int значение Handle контрола.
+
+            Возвращает объект WinRect с параметрам области котрола.
+            В случае ошибок вернет None.
+        """
+        #tmp = []
+        tmpCtypes = c_int * 4
+        ttmmpp = tmpCtypes(0, 0, 0, 0)
+        self.__AutoItDLL__.AU3_ControlGetPosByHandle(WinHandle, ControlHandle, pointer(ttmmpp))
+        if self.Error() == 0:
+            #for val in ttmmpp:
+            #    tmp.append(val)
+            Res = WinRect(*list(v for v in ttmmpp))
         else:
             Res = None
 
@@ -1758,6 +1850,22 @@ class AutoItX:
 
     #-------------------------------------------------------------------------------
 
+    @AutoItCall('STRING-BUF')
+    def ControlGetFocusByHandle(self, WinHandle):
+        """
+            Определить в каком контроле находится фокус ввода.
+
+            * WinHandle - int значение Handle окна.
+
+            Возвращает строку с именем контрола, в котором находится фокус ввода,
+            в случае нейдачи - None.
+        """
+        Res = create_unicode_buffer(65535)
+        self.__AutoItDLL__.AU3_ControlGetFocusByHandle(WinHandle, Res, 65535)
+        return Res
+
+    #-------------------------------------------------------------------------------
+
     @AutoItCall('TRUE-FALSE')
     def ControlHide(self, Title, Control, Text=''):
         """
@@ -1895,7 +2003,7 @@ class AutoItX:
 
             * KeyString - строка, которую ввести.
             * NumSends=1 - количество повтороав ввода.
-            * Flag=0 - Флаг интерпретации. Если 0 - будут набраны спец. последовательности для клавиш, вроде "+" для
+            * Flag=0 - Флаг интерпретации. Если 0 - будут рабраны спец. последовательности для клавиш, вроде "+" для
             зажатия SHIFT или {клавиша} для отсылки клавиш. Если 1 - строка будет отослана как есть.
 
             Возвращает количество отправок строки (обычно оно равно NumSends).
