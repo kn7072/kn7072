@@ -7,6 +7,8 @@ class Food(object):
 class Meat(Food):
     def drink(self):
         return ['Red wine'] + super(Meat, self).drink()
+    def drink2(self):
+        print("drink2_meat")
 
 class Milk(Food):
     def allergen(self):
@@ -23,6 +25,8 @@ class Pork(Meat):
         return ['Sovinion wine'] + super(Pork, self).drink()
     def allergen(self):
         return ['Pork-protein'] + super(Pork, self).allergen()
+    def drink2(self):
+        print("drink2_Pork")
 
 class Pasty(Milk, Flour): pass
 
@@ -32,6 +36,7 @@ class Pie(Rabbit, Pork, Pasty):
 
 if __name__ == "__main__":
     pie = Pie()
+    pie.drink2()
     print ('List of allergens: ')
     for allergen in pie.allergen():
         print (' - ' + allergen)

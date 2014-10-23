@@ -42,9 +42,9 @@ CHROME_['chromeOptions']['args'] = ['--window-size=700,700', '--port=77777']  #,
 #chrome.switches# 'debuggerAddress=localhost:77755'
 #"remote-debugging-port=9222"
 
-# caps = webdriver.DesiredCapabilities.CHROME
-# caps['chromeOptions'] = {}
-# caps['chromeOptions']['args'] = ['window-size=400,400', 'window-position=200,300','user-data-dir=D:/prof2/chrome2/xxx', 'remote-shell-port=33333']  #,'remote-debugging-port=9222' , 'user-data-dir=C:/Users/sg.chernov/AppData/Local/Google/Chrome/User Data/Default_1'
+caps = webdriver.DesiredCapabilities.CHROME
+caps['chromeOptions'] = {}
+caps['chromeOptions']['args'] = ['window-size=400,400', 'window-position=200,300','user-data-dir=D:/prof2/chrome2/xxx', 'remote-shell-port=33333']  #,'remote-debugging-port=9222' , 'user-data-dir=C:/Users/sg.chernov/AppData/Local/Google/Chrome/User Data/Default_1'
 
 #, 'debuggerAddress=127.0.0.1:77777'--remote-debugging-port=9222
 
@@ -53,7 +53,7 @@ CHROME_['chromeOptions']['args'] = ['--window-size=700,700', '--port=77777']  #,
 # "C:\Documents and Settings\bob\Local Settings\Application Data\Google\Chrome\Application\chrome.exe" --user-data-dir="S:\Profiles\bob"
 
 # "chromeOptions":{"args":['window-size=800,300', 'window-position=200,300', 'user-data-dir=D:/prof2/chrome2/xxx']}
-#driver = webdriver.Remote(command_executor='http://192.168.1.4:4444/wd/hub', desired_capabilities=caps)  #grid/register  , desired_capabilities=caps
+driver = webdriver.Remote(command_executor='http://192.168.1.2:4444/wd/hub', desired_capabilities=caps)  #grid/register  , desired_capabilities=caps
 print()
 driver = webdriver.Chrome(chrome_options=options)  #, port=55555 chrome_options=options  "chrome.switches": ["window-size=1003,719"]
 driver.get('http://www.google.ru')
