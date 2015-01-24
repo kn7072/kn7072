@@ -7,3 +7,8 @@ def fun(y):
         y(7)
     else:
         y()
+
+def fun_2():
+    print(x)
+def function(fun):
+    fun()

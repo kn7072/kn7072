@@ -1,5 +1,33 @@
 #-*- encoding: utf-8 -*-
 
+def line_splitter(delimiter=None):
+    print("Все готово к разбиению строки")
+    result = None
+    try:
+        while True:
+            line = (yield result)
+            result = line  # .split(delimiter)
+    except (RuntimeError, GeneratorExit) as e:
+        print('hallo world')
+# except GeneratorExit as e:
+#         print('hallo world')
+s = line_splitter(",")
+s.__next__()
+s.throw(GeneratorExit, "ИСКУСТВЕННОЕ ИСКЛЮЧЕНИЕ")
+x = s.__next__()
+s.send("A,B,C")
+
+print("####################################")
+def receiver():
+    print("Готов к приему значений")
+    while True:
+        n = (yield)
+        #print("Получено %s" % n)
+r = receiver()
+r.__next__()
+for x in r:
+    print(x)
+print("####################################")
 def accumulate():
     tally = 0
     while 1:
