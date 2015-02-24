@@ -7,11 +7,14 @@ import matplotlib.ticker as mticker
 import matplotlib.mlab as mlab
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as font_manager
+from scipy import integrate
+import datetime
+import csv
 
 
-startdate = datetime.date(2013,1,1)
+startdate = datetime.date(2014,1,1)
 today = enddate = datetime.date.today()
-ticker = 'SPY'  # /6E
+ticker = 'XOM'  # SPY
 
 
 fh = finance.fetch_historical_yahoo(ticker, startdate, enddate)
@@ -82,44 +85,91 @@ def moving_average_convergence(x, nslow=26, nfast=12):
     emaslow = moving_average(x, nslow, type='exponential')
     emafast = moving_average(x, nfast, type='exponential')
     return emaslow, emafast, emafast - emaslow
+v = 0.1
+rate = 0.05/100
+t = 100/365
+s = 120
+k = 96
+def black_skoles(x):
+    return  (1 / (np.sqrt(2*np.pi)) ) * np.exp(-(x**2)/2)
 
+
+t_last = r.date[-1]
+price_0 = r.adj_close[0]
+time_ = []
+def d1(price, date):
+    t = (t_last - date).days/365
+    if t==0: t = 0.0000001
+    time_.append(t)
+    return (np.log(price/k) + (rate + (v*v)/2)*t) / (v*np.sqrt(t))
+
+def N1(d1):
+    return  integrate.quad(black_skoles, -np.inf, d1)[0]
+report = r'repote.csv'
+report_csv = r'csv_repote.csv'
+def delta_strategy(): #price, date
+    temp_d1 = [d1(array.adj_close, array.date) for array in r ]
+    temp_N_d1 = [N1(d1) for d1 in temp_d1]
+    r_ = [list(x) for x in r]
+    count = len(r)
+    temp_return = []
+    for i in range(count):
+        tem = list(r[i])
+        tem.extend([time_[i]])
+        tem.extend([temp_d1[i]])
+        tem.extend([temp_N_d1[i]])
+        temp_return.append(tem)
+    zip_ = list(zip(r_, temp_d1, temp_N_d1))
+    with open(report_csv, encoding='utf-8', mode='w') as f1:
+        w = csv.writer(f1, delimiter = ';')
+        w.writerows(temp_return)
+    return temp_N_d1
+    # d2 = d1 - v*np.sqrt(t)
+    # N_d2 = integrate.quad(black_skoles, -np.inf, d2)[0]
+    # c = s*N_d1 - k*N_d2*np.exp(-rate*t)  # np.exp(rate*t)*
 
 plt.rc('axes', grid=True)
 plt.rc('grid', color='0.75', linestyle='-', linewidth=0.5)
-
+date = r.date
+today = datetime.date.today()
 textsize = 9
-left, width = 0.1, 0.8
+left, width = 0.05, 0.85
 rect1 = [left, 0.7, width, 0.2]
-rect2 = [left, 0.3, width, 0.4]
+rect2 = [left, 0.3, width, 0.6]
 rect3 = [left, 0.1, width, 0.2]
-
+rect4 = [left, 1.1, width, 1.2]
 
 fig = plt.figure(facecolor='white')
 axescolor  = '#f6f6f6'  # the axes background color
 
-ax1 = fig.add_axes(rect1, axisbg=axescolor)  #left, bottom, width, height
-ax2 = fig.add_axes(rect2, axisbg=axescolor, sharex=ax1)
+#ax1 = fig.add_axes(rect1, axisbg=axescolor)  #left, bottom, width, height
+ax2 = fig.add_axes(rect2, axisbg=axescolor)  # , sharex=ax1
 ax2t = ax2.twinx()
-ax3  = fig.add_axes(rect3, axisbg=axescolor, sharex=ax1)
+# ax3  = fig.add_axes(rect3, axisbg=axescolor, sharex=ax1)
+ax4 = fig.add_axes(rect3, axisbg=axescolor)
 
 
-
+#plt.figure()
+fillcolor = 'darkgoldenrod'
+delta = delta_strategy()
+ax4.plot(r.date, delta, '-', color=fillcolor)
+#plt.plot(r.date, delta)
+#plt.show()
 ### plot the relative strength indicator
 prices = r.adj_close
 rsi = relative_strength(prices)
-fillcolor = 'darkgoldenrod'
 
-ax1.plot(r.date, rsi, color=fillcolor)
-ax1.axhline(70, color=fillcolor)
-ax1.axhline(30, color=fillcolor)
-ax1.fill_between(r.date, rsi, 70, where=(rsi>=70), facecolor=fillcolor, edgecolor=fillcolor)
-ax1.fill_between(r.date, rsi, 30, where=(rsi<=30), facecolor=fillcolor, edgecolor=fillcolor)
-ax1.text(0.6, 0.9, '>70 = overbought', va='top', transform=ax1.transAxes, fontsize=textsize)
-ax1.text(0.6, 0.1, '<30 = oversold', transform=ax1.transAxes, fontsize=textsize)
-ax1.set_ylim(0, 100)
-ax1.set_yticks([30,70])
-ax1.text(0.025, 0.95, 'RSI (14)', va='top', transform=ax1.transAxes, fontsize=textsize)
-ax1.set_title('%s daily'%ticker)
+#ax1.plot(r.date, rsi, color=fillcolor)
+# ax1.axhline(70, color=fillcolor)
+# ax1.axhline(30, color=fillcolor)
+# ax1.fill_between(r.date, rsi, 70, where=(rsi>=70), facecolor=fillcolor, edgecolor=fillcolor)
+# ax1.fill_between(r.date, rsi, 30, where=(rsi<=30), facecolor=fillcolor, edgecolor=fillcolor)
+# ax1.text(0.6, 0.9, '>70 = overbought', va='top', transform=ax1.transAxes, fontsize=textsize)
+# ax1.text(0.6, 0.1, '<30 = oversold', transform=ax1.transAxes, fontsize=textsize)
+# ax1.set_ylim(0, 100)
+# ax1.set_yticks([30,70])
+# ax1.text(0.025, 0.95, 'RSI (14)', va='top', transform=ax1.transAxes, fontsize=textsize)
+# ax1.set_title('%s daily'%ticker)
 
 ### plot the price and volume data
 dx = r.adj_close - r.close
@@ -133,7 +183,6 @@ ax2.vlines(r.date[up], low[up], high[up], color='black', label='_nolegend_')
 ax2.vlines(r.date[~up], low[~up], high[~up], color='black', label='_nolegend_')
 ma20 = moving_average(prices, 20, type='simple')
 ma200 = moving_average(prices, 200, type='simple')
-
 linema20, = ax2.plot(r.date, ma20, color='blue', lw=2, label='MA (20)')
 linema200, = ax2.plot(r.date, ma200, color='red', lw=2, label='MA (200)')
 
@@ -159,60 +208,8 @@ ax2t.set_ylim(0, 5*vmax)
 ax2t.set_yticks([])
 
 
-### compute the MACD indicator
-fillcolor = 'darkslategrey'
-nslow = 26
-nfast = 12
-nema = 9
-#####################################################################
-from scipy import integrate
-v = 0.5
-rate = 0.05/100
-t = 360/365
-k = s = price_0 = r.adj_close[0]
-# s = 66
-# k = 66
-def black_skoles(x):
-    return  (1 / (np.sqrt(2*np.pi)) ) * np.exp(-(x**2)/2)
-
-t_last = r.date[-1]
-price_0 = r.adj_close[0]
-time_ = []
-def d1(price, date):
-    t = (t_last - date).days/365
-    if t==0: t = 0.0000001
-    time_.append(t)
-    return (np.log(price/k) + (rate + (v*v)/2)*t) / (v*np.sqrt(t))
-
-def N1(d1):
-    return  integrate.quad(black_skoles, -np.inf, d1)[0]
-
-def delta_strategy(): #price, date
-    temp_d1 = [d1(array.adj_close, array.date) for array in r ]
-    temp_N_d1 = [N1(d1) for d1 in temp_d1]
-    return temp_N_d1
-#####################################################################
-emaslow, emafast, macd = moving_average_convergence(prices, nslow=nslow, nfast=nfast)
-ema9 = moving_average(macd, nema, type='exponential')
-delta = delta_strategy()
-ax3.plot(r.date, delta, color='black', lw=2)
-# ax3.plot(r.date, ema9, color='blue', lw=1)
-# ax3.fill_between(r.date, macd-ema9, 0, alpha=0.5, facecolor=fillcolor, edgecolor=fillcolor)
-#
-#
-# ax3.text(0.025, 0.95, 'MACD (%d, %d, %d)'%(nfast, nslow, nema), va='top',
-#          transform=ax3.transAxes, fontsize=textsize)
-
-#ax3.set_yticks([])
 # turn off upper axis tick labels, rotate the lower ones, etc
-for ax in ax1, ax2, ax2t, ax3:
-    if ax!=ax3:
-        for label in ax.get_xticklabels():
-            label.set_visible(False)
-    else:
-        for label in ax.get_xticklabels():
-            label.set_rotation(30)
-            label.set_horizontalalignment('right')
+for ax in  ax2, ax2t, ax4:#ax1,, ax3
 
     ax.fmt_xdata = mdates.DateFormatter('%Y-%m-%d')
 
@@ -231,6 +228,6 @@ class MyLocator(mticker.MaxNLocator):
 #ax3.yaxis.set_major_locator(mticker.MaxNLocator(5, prune='both'))
 
 ax2.yaxis.set_major_locator(MyLocator(5, prune='both'))
-ax3.yaxis.set_major_locator(MyLocator(5, prune='both'))
+#ax4.yaxis.set_major_locator(MyLocator(5, prune='both'))
 
 plt.show()
