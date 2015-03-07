@@ -10,7 +10,6 @@ import matplotlib
 import numpy as np
 from scipy.optimize import fsolve
 
-
 # (Year, month, day) tuples suffice as args for quotes_historical_yahoo
 date1 = (2004, 2, 1)
 date2 = (2004, 4, 12)
@@ -30,19 +29,24 @@ r.sort()
 #quotes = quotes_historical_yahoo('INTC', date1, date2)
 
 quotes = [(matplotlib.dates.date2num(x[0]), x[1], x[2], x[3], x[4], x[5]) for x in r]
-v = 0.2258 # 0.2472
-rate = 0.05/100
-t0 = 217 #217-60 360/365 146
+v = 0.1231 #  0.2258 # 0.2472
+k = 211
+rate = 0.025/100
+t0 = 72 #217-60 360/365 146
 t1 = datetime.datetime(2014,2,24) # 2012,11,16
 t2 = datetime.datetime(2015,2,2)  # 2013,6,21
 
-t3 = datetime.datetime(2012,12,21)
-day = datetime.timedelta(days=15)
-xxx = t3 + day
-d_t = (t2 - t1).days
+price = 1.12  # 77.78
 
-k = 68.84  #  32.78   77.5
-price = 77.78
+def future_levels(begin_data, days_step):
+    """принимает дату начала и интервал в днях"""
+
+    global t1, t2, t0
+    t0 = days_step
+    days = datetime.timedelta(days=days_step)
+    t1 = begin_data
+    t2 = t1 + days
+
 def black_skoles(x):
     return  (1 / (np.sqrt(2*np.pi)) ) * np.exp(-(x**2)/2)
 
@@ -58,8 +62,8 @@ def d1(price, t=None):  # , date
 def N1(d1):
     return  integrate.quad(black_skoles, -np.inf, d1)[0]
 
-def delta_gamma(stack_size, t=None): #, price
-    return lambda x: (N1(d1(x,t))*100 + 10*gamma(d1(x,t), t) - stack_size)  # 10/((gamma(d1(x)))**3)   10*gamma(d1(x))
+def delta_gamma(stack_size, t=None, n = 0): #, price
+    return lambda x: (N1(d1(x,t))*100 + n*gamma(d1(x,t), t) - stack_size)  # 10/((gamma(d1(x)))**3)  10*gamma(d1(x))
 
 def fsolve_reh(stack_size, t=None):
     return fsolve(delta_gamma(stack_size, t), k)
@@ -82,22 +86,29 @@ def price_option(price, t=None):
 #x = N1(d1(price))*100 + 10/((100*gamma(d1(price)))**3)
 # stack_size = 30,7
 # y = fsolve(delta_gamma(stack_size), k)
+future_levels(datetime.datetime(2015,3,2), 72)
 list_rehedg = [x*10 for x in range(11)]
 list_rehedg[0] = 1
 list_rehedg[-1] = 99
 price_list = [(delta, fsolve_reh(delta)) for delta in list_rehedg]
 delta_for_h = [[delta_, round(delta(price[0])*100,3), price[0]] for delta_, price  in price_list]
-sting_for_txt_delta_gamma = ["%d  %.3f  %.2f\n" % (x[0], x[1], x[2]) for x in delta_for_h]  # для записи в txt
-string_for_csv = [[str(delta_), str(round(delta(price[0])*100,3)), '%.2f' % price[0]] for delta_, price  in price_list]  # для csv
+sting_for_txt_delta_gamma = ["%d  %.3f  %.4f\n" % (x[0], x[1], x[2]) for x in delta_for_h]  # для записи в txt
+string_for_csv = [[str(delta_), str(round(delta(price[0])*100,3)), '%.4f' % price[0]] for delta_, price  in price_list]  # для csv
 
 for x in sting_for_txt_delta_gamma:
     print(x)
-price_option(k)
-print(delta(k))
+
+# иницаализация - дата начала и интервал дней вперед
+xx = 210.25
+g = gamma(d1(xx))
+c = price_option(xx)  # k
+# d1_ = d1(1.1279)
+# g = gamma(d1_)
+print(delta(xx))
 data = [
          ['Blues','Elwood','1060 W Addison','Chicago','IL','60613'],
          ['McGurn','Jack', '4802 N Broadway', 'Chicago', 'IL', '60640']
-        ]
+       ]
 
 delta_gamma_levels_csv = r'delta_gamma_levels.csv'
 n = 3
@@ -122,7 +133,7 @@ with open(delta_gamma_levels_csv, encoding='utf-8', mode='w') as f1:
         # тоже только выраженное в годах
         t_n_yar = t_n / 365
         price_list = [(delta, fsolve_reh(delta, t_n_yar)) for delta in list_rehedg]
-        string_for_csv = [[str(delta_), str(round(delta(price[0])*100,3)), '%.2f' % price[0]] for delta_, price  in price_list]  # для csv
+        string_for_csv = [[str(delta_), str(round(delta(price[0])*100,3)), '%.4f' % price[0]] for delta_, price  in price_list]  # для csv
         w.writerows(string_for_csv)
         w.writerow(["######"])
 
