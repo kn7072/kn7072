@@ -29,8 +29,8 @@ r.sort()
 #quotes = quotes_historical_yahoo('INTC', date1, date2)
 
 quotes = [(matplotlib.dates.date2num(x[0]), x[1], x[2], x[3], x[4], x[5]) for x in r]
-v = 0.1231 #  0.2258 # 0.2472
-k = 211
+v = 0.1207 #  0.2258 # 0.2472
+k = 206
 rate = 0.025/100
 t0 = 72 #217-60 360/365 146
 t1 = datetime.datetime(2014,2,24) # 2012,11,16
@@ -86,7 +86,7 @@ def price_option(price, t=None):
 #x = N1(d1(price))*100 + 10/((100*gamma(d1(price)))**3)
 # stack_size = 30,7
 # y = fsolve(delta_gamma(stack_size), k)
-future_levels(datetime.datetime(2015,3,2), 72)
+future_levels(datetime.datetime(2015,3,9), 33)
 list_rehedg = [x*10 for x in range(11)]
 list_rehedg[0] = 1
 list_rehedg[-1] = 99
@@ -99,7 +99,7 @@ for x in sting_for_txt_delta_gamma:
     print(x)
 
 # иницаализация - дата начала и интервал дней вперед
-xx = 210.25
+xx = 205.82
 g = gamma(d1(xx))
 c = price_option(xx)  # k
 # d1_ = d1(1.1279)

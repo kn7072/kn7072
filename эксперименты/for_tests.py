@@ -31,10 +31,13 @@ class A:
     def fun(self):
         print('fun_A')
 class X(A):
-    pass
+    def fun(self):
+        print('fun_X')
+
 class B(A):
-    def fun_(self):
-        print('fun_B')
+    # def fun_(self):
+    #     print('fun_B')
+    pass
 class C:
     def fun(self):
         print('fun_C')
@@ -73,7 +76,9 @@ def fun_2():
 
 def fun_3():
     print(var)
-fun_1(), fun_2(), fun_3()
+fun_1()
+fun_2()
+fun_3()
 ###################################
 class B():
     c = 1
@@ -85,7 +90,21 @@ a = A()
 print(a.b.c)
 t = A()
 print(A.b.c)
+
+print("#########################################")
+class B():
+    c = 1
+class A():
+    b = B()
+    def __init__(self):
+        self.b = B()
+        self.b.c = 2
+a = A()
+print(a.b.c)
+t = A()
+print(A.b.c)
 print()
+print("#########################################")
 #################################
 def d1(f):return lambda : 'x'+f()
 def d2(f):return lambda : 'y'+f()
