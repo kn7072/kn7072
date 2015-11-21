@@ -1,0 +1,1869 @@
+{
+    "jsonrpc": "2.0",
+    "result": {
+        "НашаОрганизация": {
+            "СвЮЛ": {
+                "Название": "ЮЛ2",
+                "КПП": "760401001",
+                "ИНН": "7655432117"
+            }
+        },
+        "ДокументСледствие": [
+            {
+                "ВидСвязи": "Фактура",
+                "Документ": {
+                    "Тип": "",
+                    "Идентификатор": "0709ef7c-f2e8-47e8-a7cb-a23c98f6b1ed",
+                    "Дата": "",
+                    "Номер": ""
+                },
+                "Сумма": ""
+            }
+        ],
+        "Событие": [
+            {
+                "Название": "Получение",
+                "ДатаВремяДокумента": "",
+                "Идентификатор": "72157f2e-79b1-4687-a360-4035f090d219",
+                "Комментарий": "",
+                "Группа": {
+                    "Описание": "Отправлено",
+                    "Приоритет": "0",
+                    "Название": "Отправка",
+                    "ДатаВремя": "",
+                    "Код": "0"
+                },
+                "ДатаВремя": "24.09.2015 17.06.10",
+                "Вложение": [
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4MzY2Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM2NixudWxsXX19&protocol=3&id=0",
+                        "Тип": "СчФктр",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "557637324",
+                        "Идентификатор": "4b351a26-62c5-11e5-aedf-94de802a7b19",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.05.35",
+                            "Номер": "1"
+                        },
+                        "Сумма": "292555.04",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115101",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4MzY2Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM2NixudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzNjZ9&protocol=3&id=0",
+                            "Имя": "ON_SFAKT_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20141226_e4526a00-429c-4efd-a950-5e13660f6e40.xml"
+                        },
+                        "Название": "Фактура № 557637324 от 26.12.14 на сумму 292 555.04р., в т.ч. НДС 44 627.04р.",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MTV9&protocol=3&id=0",
+                                    "Имя": "ON_SFAKT_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20141226_e4526a00-429c-4efd-a950-5e13660f6e40.xml.3.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "server_key",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "Сервереый Тест Тестировович",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "ЮЛ1",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Нет",
+                        "Направление": "Входящий",
+                        "ВерсияФормата": "5.01",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": "26.12.2014"
+                    },
+                    {
+                        "СсылкаНаPDF": "",
+                        "Тип": "",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "4b351a27-62c5-11e5-bafa-94de802a7b19",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.05.36",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "",
+                        "СсылкаНаHTML": "",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzNjd9&protocol=3&id=0",
+                            "Имя": "TXT_FILE_7655432117760401001_7654321069760401001_20141226_76a514ad-ed71-4289-b921-2a7e786b6d6a.txt"
+                        },
+                        "Название": "TXT_FILE_7655432117760401001_7654321069760401001_20141226_76a514ad-ed71-4289-b921-2a7e786b6d6a.txt",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MTZ9&protocol=3&id=0",
+                                    "Имя": "TXT_FILE_7655432117760401001_7654321069760401001_20141226_76a514ad-ed71-4289-b921-2a7e786b6d6a.txt.3.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "server_key",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "Сервереый Тест Тестировович",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "ЮЛ1",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Нет",
+                        "Направление": "Входящий",
+                        "ВерсияФормата": "",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    },
+                    {
+                        "СсылкаНаPDF": "",
+                        "Тип": "",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "4b351a29-62c5-11e5-9529-94de802a7b19",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.10",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "",
+                        "СсылкаНаHTML": "",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzNzh9&protocol=3&id=0",
+                            "Имя": "Схемы для тестирования.xlsx"
+                        },
+                        "Название": "Схемы для тестирования.xlsx",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MTd9&protocol=3&id=0",
+                                    "Имя": "Схемы для тестирования.xlsx.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "server_key",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "Сервереый Тест Тестировович",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "ЮЛ1",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Нет",
+                        "Направление": "Входящий",
+                        "ВерсияФормата": "",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    }
+                ]
+            },
+            {
+                "Название": "Извещение о получении",
+                "ДатаВремяДокумента": "24.09.2015 17.06.16",
+                "Идентификатор": "0bae9e14-d31e-427a-bf0e-3899091dd60c",
+                "Комментарий": "",
+                "Группа": {
+                    "Описание": "Доставлено",
+                    "Приоритет": "0",
+                    "Название": "Доставка",
+                    "ДатаВремя": "24.09.2015 17.06.16",
+                    "Код": "1"
+                },
+                "ДатаВремя": "24.09.2015 17.06.18",
+                "Вложение": [
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4MzgwIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4MCxudWxsXX19&protocol=3&id=0",
+                        "Тип": "ИзвПолуч",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "3e5cdcd0-6857-4490-a4a7-b4ecdc58f7ed",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.16",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115110",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4MzgwIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4MCxudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODB9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_1d57c097-a79b-463d-a727-02a5babf7775.xml"
+                        },
+                        "Название": "Извещение о получении электронного документа",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MTl9&protocol=3&id=0",
+                                    "Имя": "DP_IZVPOL_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_1d57c097-a79b-463d-a727-02a5babf7775.xml.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "руководитель",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "ЮЛ2",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Да",
+                        "Направление": "Исходящий",
+                        "ВерсияФормата": "1.02",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    },
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4MzgxIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4MSxudWxsXX19&protocol=3&id=0",
+                        "Тип": "ИзвПолуч",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "608a9d3d-9db4-4d11-a8d4-33b99e40a95a",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.16",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115110",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4MzgxIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4MSxudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODF9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_0c88824f-efc5-4c8f-ab65-3a693f3ec68a.xml"
+                        },
+                        "Название": "Извещение о получении электронного документа",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MjB9&protocol=3&id=0",
+                                    "Имя": "DP_IZVPOL_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_0c88824f-efc5-4c8f-ab65-3a693f3ec68a.xml.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "руководитель",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "ЮЛ2",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Да",
+                        "Направление": "Исходящий",
+                        "ВерсияФормата": "1.02",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    },
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4MzgyIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4MixudWxsXX19&protocol=3&id=0",
+                        "Тип": "ИзвПолуч",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "129ff25a-7eeb-4ad1-a119-5b0c11f7e96a",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.16",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115110",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4MzgyIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4MixudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODJ9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_c0716c82-4fd2-4f56-a448-5c042e8959e7.xml"
+                        },
+                        "Название": "Извещение о получении электронного документа",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MjF9&protocol=3&id=0",
+                                    "Имя": "DP_IZVPOL_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_c0716c82-4fd2-4f56-a448-5c042e8959e7.xml.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "руководитель",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "ЮЛ2",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Да",
+                        "Направление": "Исходящий",
+                        "ВерсияФормата": "1.02",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    }
+                ]
+            },
+            {
+                "Название": "Утверждение",
+                "ДатаВремяДокумента": "",
+                "Идентификатор": "66b6e093-6ae2-4b8b-a7a3-7e87970782e1",
+                "Комментарий": "Отклоняем документ для редакции",
+                "Группа": {
+                    "Описание": "",
+                    "Приоритет": "",
+                    "Название": "",
+                    "ДатаВремя": "",
+                    "Код": ""
+                },
+                "ДатаВремя": "24.09.2015 17.06.26",
+                "Вложение": [
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg2Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4NixudWxsXX19&protocol=3&id=0",
+                        "Тип": "УведУточ",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "c91832c3-4963-4327-b009-68ab8964f209",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.25",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115113",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg2Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4NixudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODZ9&protocol=3&id=0",
+                            "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_d6f8883a-a4f9-4c8a-97f0-ea5226f96a8f.xml"
+                        },
+                        "Название": "Уведомление об уточнении электронного документа",
+                        "Модифицирован": "Нет",
+                        "Служебный": "Да",
+                        "Направление": "Исходящий",
+                        "ВерсияФормата": "1.02",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    },
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg3Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4NyxudWxsXX19&protocol=3&id=0",
+                        "Тип": "УведУточ",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "a5190786-7cf1-4e1c-82f8-7a814ae9d8cd",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.25",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115113",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg3Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4NyxudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODd9&protocol=3&id=0",
+                            "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_0236ecea-0cff-42a7-a961-9421bb61e445.xml"
+                        },
+                        "Название": "Уведомление об уточнении электронного документа",
+                        "Модифицирован": "Нет",
+                        "Служебный": "Да",
+                        "Направление": "Исходящий",
+                        "ВерсияФормата": "1.02",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    },
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg4Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4OCxudWxsXX19&protocol=3&id=0",
+                        "Тип": "УведУточ",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "0acb14e6-cb97-4fcc-9c13-49ef78f5d708",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.25",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115113",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg4Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4OCxudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODh9&protocol=3&id=0",
+                            "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_79c2948a-53eb-48d7-bafb-41b637055ce4.xml"
+                        },
+                        "Название": "Уведомление об уточнении электронного документа",
+                        "Модифицирован": "Нет",
+                        "Служебный": "Да",
+                        "Направление": "Исходящий",
+                        "ВерсияФормата": "1.02",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    }
+                ]
+            },
+            {
+                "Название": "Подтверждение даты отправки",
+                "ДатаВремяДокумента": "24.09.2015 17.06.05",
+                "Идентификатор": "6ec4ab6a-0d13-45f8-adf6-123d61df779c",
+                "Комментарий": "",
+                "Группа": {
+                    "Описание": "Отправлено",
+                    "Приоритет": "0",
+                    "Название": "Отправка",
+                    "ДатаВремя": "24.09.2015 17.06.05",
+                    "Код": "0"
+                },
+                "ДатаВремя": "24.09.2015 17.06.14",
+                "Вложение": [
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzc5Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM3OSxudWxsXX19&protocol=3&id=0",
+                        "Тип": "ПодтвДатОтпр",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "cfa82522-572f-4b47-bb5d-e67ce5f22373",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.14",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115111",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzc5Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM3OSxudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzNzl9&protocol=3&id=0",
+                            "Имя": "DP_PDOTPR_2BEaa5109385e164a0490ce0e0a59c90aab_2BE_20150924_59b62c0f-bf84-4337-8544-40de2def0f3c.xml"
+                        },
+                        "Название": "Подтверждение отправки электронного документа оператором",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MTh9&protocol=3&id=0",
+                                    "Имя": "DP_PDOTPR_2BEaa5109385e164a0490ce0e0a59c90aab_2BE_20150924_59b62c0f-bf84-4337-8544-40de2def0f3c.xml.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "Руководитель",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "Дир Директор Николаевич",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "Тестовый Оператор",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Да",
+                        "Направление": "Входящий",
+                        "ВерсияФормата": "1.01",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": "24.09.2015"
+                    }
+                ]
+            },
+            {
+                "Название": "Извещение о получении Подтверждения даты отправки",
+                "ДатаВремяДокумента": "",
+                "Идентификатор": "68d30b4e-77f0-46c3-ab60-bbaa5cd03f29",
+                "Комментарий": "",
+                "Группа": {
+                    "Описание": "Отправлено",
+                    "Приоритет": "0",
+                    "Название": "Отправка",
+                    "ДатаВремя": "",
+                    "Код": "0"
+                },
+                "ДатаВремя": "24.09.2015 17.06.21",
+                "Вложение": [
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg0Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4NCxudWxsXX19&protocol=3&id=0",
+                        "Тип": "ИзвПолуч",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "71ef2978-7d58-4768-a470-8ec8af988d49",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.20",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115110",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg0Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4NCxudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODR9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BE_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_cdec56f8-e45b-40e2-983c-447881b44240.xml"
+                        },
+                        "Название": "Извещение о получении электронного документа",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MjN9&protocol=3&id=0",
+                                    "Имя": "DP_IZVPOL_2BE_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_cdec56f8-e45b-40e2-983c-447881b44240.xml.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "руководитель",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "ЮЛ2",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Да",
+                        "Направление": "Исходящий",
+                        "ВерсияФормата": "1.02",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    }
+                ]
+            },
+            {
+                "Название": "Подтверждение даты получения извещения о получении документов",
+                "ДатаВремяДокумента": "",
+                "Идентификатор": "f69305bc-7b3f-4438-b5f6-3c251639a26b",
+                "Комментарий": "",
+                "Группа": {
+                    "Описание": "Доставлено",
+                    "Приоритет": "0",
+                    "Название": "Доставка",
+                    "ДатаВремя": "",
+                    "Код": "1"
+                },
+                "ДатаВремя": "24.09.2015 17.06.20",
+                "Вложение": [
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4MzgzIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4MyxudWxsXX19&protocol=3&id=0",
+                        "Тип": "ПодтвДатОтпр",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "3dfd540f-d849-4111-94a5-3eb7f3f66a6f",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.20",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115111",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4MzgzIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4MyxudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODN9&protocol=3&id=0",
+                            "Имя": "DP_PDOTPR_2BEaa5109385e164a0490ce0e0a59c90aab_2BE_20150924_4ca49bae-6d6a-4080-b746-53ce90f14905.xml"
+                        },
+                        "Название": "Подтверждение отправки электронного документа оператором",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MjJ9&protocol=3&id=0",
+                                    "Имя": "DP_PDOTPR_2BEaa5109385e164a0490ce0e0a59c90aab_2BE_20150924_4ca49bae-6d6a-4080-b746-53ce90f14905.xml.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "Руководитель",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "Дир Директор Николаевич",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "Тестовый Оператор",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Да",
+                        "Направление": "Входящий",
+                        "ВерсияФормата": "1.01",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": "24.09.2015"
+                    }
+                ]
+            },
+            {
+                "Название": "Извещение о получении подтверждения даты получения извещения о получении документов",
+                "ДатаВремяДокумента": "",
+                "Идентификатор": "df45009f-20c6-4fcb-a2bb-8ef41625fe8b",
+                "Комментарий": "",
+                "Группа": {
+                    "Описание": "Доставлено",
+                    "Приоритет": "0",
+                    "Название": "Доставка",
+                    "ДатаВремя": "",
+                    "Код": "1"
+                },
+                "ДатаВремя": "24.09.2015 17.06.22",
+                "Вложение": [
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg1Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4NSxudWxsXX19&protocol=3&id=0",
+                        "Тип": "ИзвПолуч",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "bb25b859-c4f0-44f6-a4a7-cf28cbf2f9ef",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.22",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115110",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg1Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4NSxudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODV9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BE_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_8d180321-ff0b-4c5d-a839-033ee0fed61f.xml"
+                        },
+                        "Название": "Извещение о получении электронного документа",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MjR9&protocol=3&id=0",
+                                    "Имя": "DP_IZVPOL_2BE_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_8d180321-ff0b-4c5d-a839-033ee0fed61f.xml.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "руководитель",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "ЮЛ2",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Да",
+                        "Направление": "Исходящий",
+                        "ВерсияФормата": "1.02",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    }
+                ]
+            },
+            {
+                "Название": "Уведомление об уточнении",
+                "ДатаВремяДокумента": "24.09.2015 17.06.25",
+                "Идентификатор": "71f11fa6-9cf6-4ca9-9cdc-65257993b33f",
+                "Комментарий": "Отклоняем документ для редакции",
+                "Группа": {
+                    "Описание": "Результат обработки",
+                    "Приоритет": "0",
+                    "Название": "Утверждение",
+                    "ДатаВремя": "24.09.2015 17.06.25",
+                    "Код": "2"
+                },
+                "ДатаВремя": "24.09.2015 17.06.26",
+                "Вложение": [
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg2Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4NixudWxsXX19&protocol=3&id=0",
+                        "Тип": "УведУточ",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "c91832c3-4963-4327-b009-68ab8964f209",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.25",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115113",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg2Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4NixudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODZ9&protocol=3&id=0",
+                            "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_d6f8883a-a4f9-4c8a-97f0-ea5226f96a8f.xml"
+                        },
+                        "Название": "Уведомление об уточнении электронного документа",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2Mjd9&protocol=3&id=0",
+                                    "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_d6f8883a-a4f9-4c8a-97f0-ea5226f96a8f.xml.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "руководитель",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "ЮЛ2",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Да",
+                        "Направление": "Исходящий",
+                        "ВерсияФормата": "1.02",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    },
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg3Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4NyxudWxsXX19&protocol=3&id=0",
+                        "Тип": "УведУточ",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "a5190786-7cf1-4e1c-82f8-7a814ae9d8cd",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.25",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115113",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg3Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4NyxudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODd9&protocol=3&id=0",
+                            "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_0236ecea-0cff-42a7-a961-9421bb61e445.xml"
+                        },
+                        "Название": "Уведомление об уточнении электронного документа",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MjZ9&protocol=3&id=0",
+                                    "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_0236ecea-0cff-42a7-a961-9421bb61e445.xml.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "руководитель",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "ЮЛ2",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Да",
+                        "Направление": "Исходящий",
+                        "ВерсияФормата": "1.02",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    },
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg4Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4OCxudWxsXX19&protocol=3&id=0",
+                        "Тип": "УведУточ",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "0acb14e6-cb97-4fcc-9c13-49ef78f5d708",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.25",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115113",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg4Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4OCxudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODh9&protocol=3&id=0",
+                            "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_79c2948a-53eb-48d7-bafb-41b637055ce4.xml"
+                        },
+                        "Название": "Уведомление об уточнении электронного документа",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MjV9&protocol=3&id=0",
+                                    "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_79c2948a-53eb-48d7-bafb-41b637055ce4.xml.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "руководитель",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "ЮЛ2",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Да",
+                        "Направление": "Исходящий",
+                        "ВерсияФормата": "1.02",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    }
+                ]
+            },
+            {
+                "Название": "Извещение о получении Уведомления об уточнении",
+                "ДатаВремяДокумента": "",
+                "Идентификатор": "4c78d9e0-8351-42a9-b1fc-8ae1c0ca2c12",
+                "Комментарий": "",
+                "Группа": {
+                    "Описание": "Результат обработки",
+                    "Приоритет": "0",
+                    "Название": "Утверждение",
+                    "ДатаВремя": "",
+                    "Код": "2"
+                },
+                "ДатаВремя": "24.09.2015 17.06.33",
+                "Вложение": [
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg5Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4OSxudWxsXX19&protocol=3&id=0",
+                        "Тип": "ИзвПолуч",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "58ca05d4-b27c-416c-bea9-9e4dfbf8121b",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.32",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115110",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg5Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4OSxudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODl9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20150924_68c6a75e-2814-4496-916b-be9ddc8f5a5f.xml"
+                        },
+                        "Название": "Извещение о получении электронного документа",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2Mjh9&protocol=3&id=0",
+                                    "Имя": "DP_IZVPOL_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20150924_68c6a75e-2814-4496-916b-be9ddc8f5a5f.xml.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "server_key",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "Сервереый Тест Тестировович",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "ЮЛ1",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Да",
+                        "Направление": "Входящий",
+                        "ВерсияФормата": "1.02",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    },
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4MzkwIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM5MCxudWxsXX19&protocol=3&id=0",
+                        "Тип": "ИзвПолуч",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "06095e2a-00bb-4926-8856-d1e384518c0d",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.32",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115110",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4MzkwIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM5MCxudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzOTB9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20150924_f278f879-9135-4d9b-8d7f-dd874ca4c830.xml"
+                        },
+                        "Название": "Извещение о получении электронного документа",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2Mjl9&protocol=3&id=0",
+                                    "Имя": "DP_IZVPOL_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20150924_f278f879-9135-4d9b-8d7f-dd874ca4c830.xml.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "server_key",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "Сервереый Тест Тестировович",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "ЮЛ1",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Да",
+                        "Направление": "Входящий",
+                        "ВерсияФормата": "1.02",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    },
+                    {
+                        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4MzkxIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM5MSxudWxsXX19&protocol=3&id=0",
+                        "Тип": "ИзвПолуч",
+                        "Зашифрован": "Нет",
+                        "Удален": "Нет",
+                        "Номер": "",
+                        "Идентификатор": "90c780bf-efd4-4b60-9729-7378ca494477",
+                        "Редакция": {
+                            "ДатаВремя": "24.09.2015 17.06.32",
+                            "Номер": "1"
+                        },
+                        "Сумма": "",
+                        "ПодверсияФормата": "",
+                        "Подтип": "1115110",
+                        "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4MzkxIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM5MSxudWxsXX19&protocol=3&id=0",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzOTF9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20150924_e7ae0ae5-0286-4fbd-903b-e524a49699d7.xml"
+                        },
+                        "Название": "Извещение о получении электронного документа",
+                        "Модифицирован": "Нет",
+                        "Подпись": [
+                            {
+                                "Тип": "Отсоединенная",
+                                "Файл": {
+                                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MzB9&protocol=3&id=0",
+                                    "Имя": "DP_IZVPOL_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20150924_e7ae0ae5-0286-4fbd-903b-e524a49699d7.xml.p7s"
+                                },
+                                "Сертификат": {
+                                    "Квалифицированный": "",
+                                    "СерийныйНомер": "",
+                                    "Должность": "server_key",
+                                    "Отпечаток": "",
+                                    "ИНН": "",
+                                    "Издатель": "",
+                                    "ФИО": "Сервереый Тест Тестировович",
+                                    "ДвоичныеДанные": "",
+                                    "Название": "ЮЛ1",
+                                    "ДействителенПо": "",
+                                    "ДействителенС": ""
+                                }
+                            }
+                        ],
+                        "Служебный": "Да",
+                        "Направление": "Входящий",
+                        "ВерсияФормата": "1.02",
+                        "УдаленКонтрагентом": "Нет",
+                        "Дата": ""
+                    }
+                ]
+            }
+        ],
+        "Номер": "557637324",
+        "Идентификатор": "a6bc2e67-dd8a-4557-abcc-d1ce31935733",
+        "Редакция": [
+            {
+                "ПримечаниеИС": "",
+                "Идентификатор": "6807c548-62c5-11e5-8a44-005056b72899",
+                "Актуален": "Да",
+                "ДатаВремя": "24.09.2015 17.06.09"
+            }
+        ],
+        "Состояние": {
+            "Описание": "",
+            "Название": "Выполнение завершено с проблемами",
+            "Код": "9",
+            "Примечание": "Отклоняем документ для редакции"
+        },
+        "СсылкаДляКонтрагент": "http://test-online.sbis.ru/reg/showdoc.html?params=eyJHVUlEIjoiYTZiYzJlNjctZGQ4YS00NTU3LWFiY2MtZDFjZTMxOTM1NzMzIiwi0JjQndCd%0AIjoiNzY1NDMyMTA2OSIsItCa0J%2FQnyI6Ijc2MDQwMTAwMSJ9",
+        "ДатаВремяСоздания": "24.09.2015 17.06.09",
+        "Тип": "ДокОтгрВх",
+        "Название": "Поступление № 557637324 от 24.09.2015",
+        "Контрагент": {
+            "Email": "",
+            "СвЮЛ": {
+                "Название": "ЮЛ1",
+                "КПП": "760401001",
+                "ИНН": "7654321069"
+            },
+            "Телефон": ""
+        },
+        "СсылкаНаАрхив": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9D%D0%B0%D0%94%D0%B8%D1%81%D0%BA&params=eyLQmNC00J4iOjIxNzE2NX0%3D&protocol=3&id=0",
+        "Дата": "24.09.2015",
+        "СсылкаДляНашаОрганизация": "https://test-online.sbis.ru/opendoc.html?guid=a6bc2e67-dd8a-4557-abcc-d1ce31935733",
+        "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81PDF.%D0%A1%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%D0%9F%D0%B5%D1%87%D0%B0%D1%82%D1%8C&params=eyLQlNC%2B0LrRg9C80LXQvdGC0YsiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQoNCw0LfQtNC10LsiLCJ0Ijoi0KfQuNGB0LvQviDR%0AhtC10LvQvtC1In1dLCJkIjpbWzIxNzE2NSxudWxsXV19LCLQmNC80Y%2FQntCx0YrQtdC60YLQ%0AsCI6ItCf0LXRh9Cw0YLRjNCU0L7QutGD0LzQtdC90YLQvtCyIiwi0JjQvNGP0JzQtdGC0L7Q%0AtNCwIjoi0KHQv9C40YHQvtC60JTQu9GP0JzQsNGB0YHQvtCy0L7QudCf0LXRh9Cw0YLQuCIs%0AItCY0LzRj9Ck0LDQudC70LAiOiIiLCLQkNCy0YLQvtC%2F0LXRh9Cw0YLRjCI6ZmFsc2V9&protocol=3&id=0",
+        "Сумма": "",
+        "Ответственный": {
+            "Идентификатор": "",
+            "Отчество": "",
+            "Имя": "Зинаида",
+            "Фамилия": "Бухгалтер"
+        },
+        "Удален": "Нет",
+        "Примечание": "Автотестирование TestVi2FullRedaction - читаем редакции после утверждения и отклонения(редакция2) ID=4b351a25-62c5-11e5-b967-94de802a7b19",
+        "Направление": "Входящий",
+        "Регламент": {
+            "Идентификатор": "886174fe-4354-11e1-bc89-005056a63fed",
+            "Название": "Поступление товаров и услуг"
+        },
+        "Вложение": [
+            {
+                "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4MzY2Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM2NixudWxsXX19&protocol=3&id=0",
+                "Тип": "СчФктр",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "557637324",
+                "Идентификатор": "4b351a26-62c5-11e5-aedf-94de802a7b19",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.05.35",
+                    "Номер": "1"
+                },
+                "Сумма": "292555.04",
+                "ПодверсияФормата": "",
+                "Подтип": "1115101",
+                "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4MzY2Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM2NixudWxsXX19&protocol=3&id=0",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzNjZ9&protocol=3&id=0",
+                    "Имя": "ON_SFAKT_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20141226_e4526a00-429c-4efd-a950-5e13660f6e40.xml"
+                },
+                "Название": "Фактура № 557637324 от 26.12.14 на сумму 292 555.04р., в т.ч. НДС 44 627.04р.",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MTV9&protocol=3&id=0",
+                            "Имя": "ON_SFAKT_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20141226_e4526a00-429c-4efd-a950-5e13660f6e40.xml.3.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "server_key",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "Сервереый Тест Тестировович",
+                            "ДвоичныеДанные": "",
+                            "Название": "ЮЛ1",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Нет",
+                "Направление": "Входящий",
+                "ВерсияФормата": "5.01",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": "26.12.2014"
+            },
+            {
+                "СсылкаНаPDF": "",
+                "Тип": "",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "4b351a27-62c5-11e5-bafa-94de802a7b19",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.05.36",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "",
+                "СсылкаНаHTML": "",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzNjd9&protocol=3&id=0",
+                    "Имя": "TXT_FILE_7655432117760401001_7654321069760401001_20141226_76a514ad-ed71-4289-b921-2a7e786b6d6a.txt"
+                },
+                "Название": "TXT_FILE_7655432117760401001_7654321069760401001_20141226_76a514ad-ed71-4289-b921-2a7e786b6d6a.txt",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MTZ9&protocol=3&id=0",
+                            "Имя": "TXT_FILE_7655432117760401001_7654321069760401001_20141226_76a514ad-ed71-4289-b921-2a7e786b6d6a.txt.3.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "server_key",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "Сервереый Тест Тестировович",
+                            "ДвоичныеДанные": "",
+                            "Название": "ЮЛ1",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Нет",
+                "Направление": "Входящий",
+                "ВерсияФормата": "",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": ""
+            },
+            {
+                "СсылкаНаPDF": "",
+                "Тип": "",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "4b351a29-62c5-11e5-9529-94de802a7b19",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.06.10",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "",
+                "СсылкаНаHTML": "",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzNzh9&protocol=3&id=0",
+                    "Имя": "Схемы для тестирования.xlsx"
+                },
+                "Название": "Схемы для тестирования.xlsx",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MTd9&protocol=3&id=0",
+                            "Имя": "Схемы для тестирования.xlsx.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "server_key",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "Сервереый Тест Тестировович",
+                            "ДвоичныеДанные": "",
+                            "Название": "ЮЛ1",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Нет",
+                "Направление": "Входящий",
+                "ВерсияФормата": "",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": ""
+            },
+            {
+                "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzc5Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM3OSxudWxsXX19&protocol=3&id=0",
+                "Тип": "ПодтвДатОтпр",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "cfa82522-572f-4b47-bb5d-e67ce5f22373",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.06.14",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "1115111",
+                "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzc5Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM3OSxudWxsXX19&protocol=3&id=0",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzNzl9&protocol=3&id=0",
+                    "Имя": "DP_PDOTPR_2BEaa5109385e164a0490ce0e0a59c90aab_2BE_20150924_59b62c0f-bf84-4337-8544-40de2def0f3c.xml"
+                },
+                "Название": "Подтверждение отправки электронного документа оператором",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MTh9&protocol=3&id=0",
+                            "Имя": "DP_PDOTPR_2BEaa5109385e164a0490ce0e0a59c90aab_2BE_20150924_59b62c0f-bf84-4337-8544-40de2def0f3c.xml.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "Руководитель",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "Дир Директор Николаевич",
+                            "ДвоичныеДанные": "",
+                            "Название": "Тестовый Оператор",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Да",
+                "Направление": "Входящий",
+                "ВерсияФормата": "1.01",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": "24.09.2015"
+            },
+            {
+                "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4MzgwIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4MCxudWxsXX19&protocol=3&id=0",
+                "Тип": "ИзвПолуч",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "3e5cdcd0-6857-4490-a4a7-b4ecdc58f7ed",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.06.16",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "1115110",
+                "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4MzgwIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4MCxudWxsXX19&protocol=3&id=0",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODB9&protocol=3&id=0",
+                    "Имя": "DP_IZVPOL_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_1d57c097-a79b-463d-a727-02a5babf7775.xml"
+                },
+                "Название": "Извещение о получении электронного документа",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MTl9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_1d57c097-a79b-463d-a727-02a5babf7775.xml.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "руководитель",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                            "ДвоичныеДанные": "",
+                            "Название": "ЮЛ2",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Да",
+                "Направление": "Исходящий",
+                "ВерсияФормата": "1.02",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": ""
+            },
+            {
+                "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4MzgxIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4MSxudWxsXX19&protocol=3&id=0",
+                "Тип": "ИзвПолуч",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "608a9d3d-9db4-4d11-a8d4-33b99e40a95a",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.06.16",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "1115110",
+                "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4MzgxIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4MSxudWxsXX19&protocol=3&id=0",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODF9&protocol=3&id=0",
+                    "Имя": "DP_IZVPOL_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_0c88824f-efc5-4c8f-ab65-3a693f3ec68a.xml"
+                },
+                "Название": "Извещение о получении электронного документа",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MjB9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_0c88824f-efc5-4c8f-ab65-3a693f3ec68a.xml.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "руководитель",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                            "ДвоичныеДанные": "",
+                            "Название": "ЮЛ2",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Да",
+                "Направление": "Исходящий",
+                "ВерсияФормата": "1.02",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": ""
+            },
+            {
+                "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4MzgyIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4MixudWxsXX19&protocol=3&id=0",
+                "Тип": "ИзвПолуч",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "129ff25a-7eeb-4ad1-a119-5b0c11f7e96a",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.06.16",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "1115110",
+                "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4MzgyIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4MixudWxsXX19&protocol=3&id=0",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODJ9&protocol=3&id=0",
+                    "Имя": "DP_IZVPOL_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_c0716c82-4fd2-4f56-a448-5c042e8959e7.xml"
+                },
+                "Название": "Извещение о получении электронного документа",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MjF9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_c0716c82-4fd2-4f56-a448-5c042e8959e7.xml.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "руководитель",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                            "ДвоичныеДанные": "",
+                            "Название": "ЮЛ2",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Да",
+                "Направление": "Исходящий",
+                "ВерсияФормата": "1.02",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": ""
+            },
+            {
+                "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4MzgzIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4MyxudWxsXX19&protocol=3&id=0",
+                "Тип": "ПодтвДатОтпр",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "3dfd540f-d849-4111-94a5-3eb7f3f66a6f",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.06.20",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "1115111",
+                "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4MzgzIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4MyxudWxsXX19&protocol=3&id=0",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODN9&protocol=3&id=0",
+                    "Имя": "DP_PDOTPR_2BEaa5109385e164a0490ce0e0a59c90aab_2BE_20150924_4ca49bae-6d6a-4080-b746-53ce90f14905.xml"
+                },
+                "Название": "Подтверждение отправки электронного документа оператором",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MjJ9&protocol=3&id=0",
+                            "Имя": "DP_PDOTPR_2BEaa5109385e164a0490ce0e0a59c90aab_2BE_20150924_4ca49bae-6d6a-4080-b746-53ce90f14905.xml.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "Руководитель",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "Дир Директор Николаевич",
+                            "ДвоичныеДанные": "",
+                            "Название": "Тестовый Оператор",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Да",
+                "Направление": "Входящий",
+                "ВерсияФормата": "1.01",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": "24.09.2015"
+            },
+            {
+                "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg0Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4NCxudWxsXX19&protocol=3&id=0",
+                "Тип": "ИзвПолуч",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "71ef2978-7d58-4768-a470-8ec8af988d49",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.06.20",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "1115110",
+                "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg0Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4NCxudWxsXX19&protocol=3&id=0",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODR9&protocol=3&id=0",
+                    "Имя": "DP_IZVPOL_2BE_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_cdec56f8-e45b-40e2-983c-447881b44240.xml"
+                },
+                "Название": "Извещение о получении электронного документа",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MjN9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BE_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_cdec56f8-e45b-40e2-983c-447881b44240.xml.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "руководитель",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                            "ДвоичныеДанные": "",
+                            "Название": "ЮЛ2",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Да",
+                "Направление": "Исходящий",
+                "ВерсияФормата": "1.02",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": ""
+            },
+            {
+                "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg1Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4NSxudWxsXX19&protocol=3&id=0",
+                "Тип": "ИзвПолуч",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "bb25b859-c4f0-44f6-a4a7-cf28cbf2f9ef",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.06.22",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "1115110",
+                "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg1Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4NSxudWxsXX19&protocol=3&id=0",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODV9&protocol=3&id=0",
+                    "Имя": "DP_IZVPOL_2BE_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_8d180321-ff0b-4c5d-a839-033ee0fed61f.xml"
+                },
+                "Название": "Извещение о получении электронного документа",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MjR9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BE_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_8d180321-ff0b-4c5d-a839-033ee0fed61f.xml.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "руководитель",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                            "ДвоичныеДанные": "",
+                            "Название": "ЮЛ2",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Да",
+                "Направление": "Исходящий",
+                "ВерсияФормата": "1.02",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": ""
+            },
+            {
+                "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg2Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4NixudWxsXX19&protocol=3&id=0",
+                "Тип": "УведУточ",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "c91832c3-4963-4327-b009-68ab8964f209",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.06.25",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "1115113",
+                "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg2Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4NixudWxsXX19&protocol=3&id=0",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODZ9&protocol=3&id=0",
+                    "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_d6f8883a-a4f9-4c8a-97f0-ea5226f96a8f.xml"
+                },
+                "Название": "Уведомление об уточнении электронного документа",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2Mjd9&protocol=3&id=0",
+                            "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_d6f8883a-a4f9-4c8a-97f0-ea5226f96a8f.xml.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "руководитель",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                            "ДвоичныеДанные": "",
+                            "Название": "ЮЛ2",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Да",
+                "Направление": "Исходящий",
+                "ВерсияФормата": "1.02",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": ""
+            },
+            {
+                "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg3Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4NyxudWxsXX19&protocol=3&id=0",
+                "Тип": "УведУточ",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "a5190786-7cf1-4e1c-82f8-7a814ae9d8cd",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.06.25",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "1115113",
+                "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg3Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4NyxudWxsXX19&protocol=3&id=0",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODd9&protocol=3&id=0",
+                    "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_0236ecea-0cff-42a7-a961-9421bb61e445.xml"
+                },
+                "Название": "Уведомление об уточнении электронного документа",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MjZ9&protocol=3&id=0",
+                            "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_0236ecea-0cff-42a7-a961-9421bb61e445.xml.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "руководитель",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                            "ДвоичныеДанные": "",
+                            "Название": "ЮЛ2",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Да",
+                "Направление": "Исходящий",
+                "ВерсияФормата": "1.02",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": ""
+            },
+            {
+                "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg4Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4OCxudWxsXX19&protocol=3&id=0",
+                "Тип": "УведУточ",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "0acb14e6-cb97-4fcc-9c13-49ef78f5d708",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.06.25",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "1115113",
+                "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg4Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4OCxudWxsXX19&protocol=3&id=0",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODh9&protocol=3&id=0",
+                    "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_79c2948a-53eb-48d7-bafb-41b637055ce4.xml"
+                },
+                "Название": "Уведомление об уточнении электронного документа",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MjV9&protocol=3&id=0",
+                            "Имя": "DP_UVUTOCH_2BEd4771949bd824a0b876fcf038004c667_2BEaa5109385e164a0490ce0e0a59c90aab_20150924_79c2948a-53eb-48d7-bafb-41b637055ce4.xml.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "руководитель",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "ТестовыйЮЛВторой Тест Тестович",
+                            "ДвоичныеДанные": "",
+                            "Название": "ЮЛ2",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Да",
+                "Направление": "Исходящий",
+                "ВерсияФормата": "1.02",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": ""
+            },
+            {
+                "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4Mzg5Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM4OSxudWxsXX19&protocol=3&id=0",
+                "Тип": "ИзвПолуч",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "58ca05d4-b27c-416c-bea9-9e4dfbf8121b",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.06.32",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "1115110",
+                "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4Mzg5Iiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM4OSxudWxsXX19&protocol=3&id=0",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzODl9&protocol=3&id=0",
+                    "Имя": "DP_IZVPOL_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20150924_68c6a75e-2814-4496-916b-be9ddc8f5a5f.xml"
+                },
+                "Название": "Извещение о получении электронного документа",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2Mjh9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20150924_68c6a75e-2814-4496-916b-be9ddc8f5a5f.xml.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "server_key",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "Сервереый Тест Тестировович",
+                            "ДвоичныеДанные": "",
+                            "Название": "ЮЛ1",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Да",
+                "Направление": "Входящий",
+                "ВерсияФормата": "1.02",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": ""
+            },
+            {
+                "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4MzkwIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM5MCxudWxsXX19&protocol=3&id=0",
+                "Тип": "ИзвПолуч",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "06095e2a-00bb-4926-8856-d1e384518c0d",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.06.32",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "1115110",
+                "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4MzkwIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM5MCxudWxsXX19&protocol=3&id=0",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzOTB9&protocol=3&id=0",
+                    "Имя": "DP_IZVPOL_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20150924_f278f879-9135-4d9b-8d7f-dd874ca4c830.xml"
+                },
+                "Название": "Извещение о получении электронного документа",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2Mjl9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20150924_f278f879-9135-4d9b-8d7f-dd874ca4c830.xml.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "server_key",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "Сервереый Тест Тестировович",
+                            "ДвоичныеДанные": "",
+                            "Название": "ЮЛ1",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Да",
+                "Направление": "Входящий",
+                "ВерсияФормата": "1.02",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": ""
+            },
+            {
+                "СсылкаНаPDF": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%92PDF&params=eyLQmNC00J4iOiIxMDk4MzkxIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9C10YfQsNGC0Yws0J%2FRgNC%2B0YHQvNC%2B0YLRgCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6bnVsbCwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQ%0AlNC%2B0LrRg9C80LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQ%0An9Cw0YDQsNC80LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQi%0AOiLQp9C40YHQu9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7Q%0AutCwIn1dLCJkIjpbMTA5ODM5MSxudWxsXX19&protocol=3&id=0",
+                "Тип": "ИзвПолуч",
+                "Зашифрован": "Нет",
+                "Удален": "Нет",
+                "Номер": "",
+                "Идентификатор": "90c780bf-efd4-4b60-9729-7378ca494477",
+                "Редакция": {
+                    "ДатаВремя": "24.09.2015 17.06.32",
+                    "Номер": "1"
+                },
+                "Сумма": "",
+                "ПодверсияФормата": "",
+                "Подтип": "1115110",
+                "СсылкаНаHTML": "https://test-online.sbis.ru/service/?method=%D0%A4%D0%AD%D0%94.%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D1%8C&params=eyLQmNC00J4iOiIxMDk4MzkxIiwi0JjQvNGP0J7QsdGK0LXQutGC0LAiOiLQktC10YDRgdC4%0A0Y%2FQktC90LXRiNC90LXQs9C%2B0JTQvtC60YPQvNC10L3RgtCwIiwi0J%2FRgNC10LTRgdGC0LDQ%0AstC70LXQvdC40LUiOiLQn9GA0L7RgdC80L7RgtGALNCf0LXRh9Cw0YLRjCIsItCf0LDRgNCw%0A0LzQtdGC0YDRiyI6eyJzIjpbeyJuIjoi0J3QvtGA0LzQsNC70LjQt9C%2B0LLQsNGC0YwiLCJ0%0AIjoi0JvQvtCz0LjRh9C10YHQutC%2B0LUifSx7Im4iOiLQodC%2F0LXRhtC40LDQu9C40LfQsNGG%0A0LjRj9Ch0L%2FQvtGB0L7QsdCwIiwidCI6ItCX0LDQv9C40YHRjCJ9XSwiZCI6W3RydWUseyJz%0AIjpbeyJuIjoi0JjQtNC10L3RgtC40YTQuNC60LDRgtC%2B0YDQodC%2F0LXRhtC40LDQu9C40LfQ%0AsNGG0LjQuCIsInQiOiLQodGC0YDQvtC60LAifV0sImQiOlsiNzY1NDMyMTA2OSw3NjA0MDEw%0AMDEiXX1dfSwi0JjQvNGP0JzQtdGC0L7QtNCwIjoi0JLQvdC10YjQvdC40LnQlNC%2B0LrRg9C8%0A0LXQvdGCLtCf0L7Qu9GP0JTQu9GP0KDQsNGB0L%2FQtdGH0LDRgtC60LgiLCLQn9Cw0YDQsNC8%0A0LXRgtGA0YvQnNC10YLQvtC00LAiOnsicyI6W3sibiI6ItCY0LTQniIsInQiOiLQp9C40YHQ%0Au9C%2BINGG0LXQu9C%2B0LUifSx7Im4iOiLQmNC90L0iLCJ0Ijoi0KHRgtGA0L7QutCwIn1dLCJk%0AIjpbMTA5ODM5MSxudWxsXX19&protocol=3&id=0",
+                "Файл": {
+                    "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%92%D0%BD%D0%B5%D1%88%D0%BD%D0%B5%D0%B3%D0%BE%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjEwOTgzOTF9&protocol=3&id=0",
+                    "Имя": "DP_IZVPOL_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20150924_e7ae0ae5-0286-4fbd-903b-e524a49699d7.xml"
+                },
+                "Название": "Извещение о получении электронного документа",
+                "Модифицирован": "Нет",
+                "Подпись": [
+                    {
+                        "Тип": "Отсоединенная",
+                        "Файл": {
+                            "Ссылка": "https://test-online.sbis.ru/service/?method=%D0%AD%D0%A6%D0%9F.%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%D0%9E%D0%B4%D0%B8%D0%BD%D0%A4%D0%B0%D0%B9%D0%BB&params=eyLQmNC00J4iOjExMDg2MzB9&protocol=3&id=0",
+                            "Имя": "DP_IZVPOL_2BEaa5109385e164a0490ce0e0a59c90aab_2BEd4771949bd824a0b876fcf038004c667_20150924_e7ae0ae5-0286-4fbd-903b-e524a49699d7.xml.p7s"
+                        },
+                        "Сертификат": {
+                            "Квалифицированный": "",
+                            "СерийныйНомер": "",
+                            "Должность": "server_key",
+                            "Отпечаток": "",
+                            "ИНН": "",
+                            "Издатель": "",
+                            "ФИО": "Сервереый Тест Тестировович",
+                            "ДвоичныеДанные": "",
+                            "Название": "ЮЛ1",
+                            "ДействителенПо": "",
+                            "ДействителенС": ""
+                        }
+                    }
+                ],
+                "Служебный": "Да",
+                "Направление": "Входящий",
+                "ВерсияФормата": "1.02",
+                "УдаленКонтрагентом": "Нет",
+                "Дата": ""
+            }
+        ]
+    },
+    "id": "0"
+}
