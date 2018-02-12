@@ -1,0 +1,128 @@
+/* Сброс настроек браузера */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Сброс настроек браузера - конец*/
+
+.spoiler-trigger{
+	color: #0b70db;
+	text-decoration: none;
+	padding-left: 15px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAANUlEQVQoU2PkLrj9n4EAYAQp+jpBlRGXOpA8hiJ0TaQrwuY2kDNINwnmcKLchO5LuHWEwgkAlO5FBwhFaI8AAAAASUVORK5CYII=) no-repeat 0 50%;
+}
+.spoiler-trigger.active{
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAKklEQVQoU2PkLrj9n4EAYAQp+jpBlRGXOpA8DRRhcxvIGTSyjqDvCIUTAEcINQcERZkIAAAAAElFTkSuQmCC);
+}
+.spoiler-trigger>span{
+	padding:0 3px;
+}
+/*.spoiler-trigger:hover>span{
+	border-bottom-style: solid;
+}*/
+
+.spoiler-block{
+	display: none;
+	padding-left: 15px;
+}
+
+.spoiler-block-content {
+	padding-left: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #a94442;
+}
+
+pre {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.text {
+	/* outline: 1px solid #ccc;  */
+	/*padding: 0px 0px 0px 50px; */
+	margin: 5px; }
+
+/*#result-before { white-space: pre; font-family: monospace; } */
+#result-before{padding: 5px; margin: 5px; white-space: pre; font-family: monospace;}
+.string { color: green; }
+.number { color: darkorange; }
+.boolean { color: blue; }
+.null { color: magenta; }
+.key { color: red; }
+
+.error{
+    background-color: #f2dede;
+    border: 0;
+    color: #a94442;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+/* Стили для работы спойлера на основе <details */
+/* Chrome, Opera, Safari */
+details summary::-webkit-details-marker {
+	display: none;
+}
+/* Firefox */
+details, summary {
+	display: block;
+}
+
+details > summary:before {
+	margin-right: 5px;
+	content: url('./image/icon_plus.png');
+}
+
+details[open] > summary:before {
+	content: url('./image/icon_minus.png');
+}
+
+details[open] > summary .spoiler-hidden {
+	display: none;
+}

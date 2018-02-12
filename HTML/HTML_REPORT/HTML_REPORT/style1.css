@@ -1,0 +1,99 @@
+
+.krtestiki{
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 50px rgba(94,41,122,0.5);
+
+}
+.wrapper{
+    width: 50%;
+    margin: 25% auto;
+    position: relative;
+}
+.razmer_polja{
+    text-align: center;
+    margin: 10px auto;
+}
+.pole_game{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: auto;
+}
+.pole_game td{
+    display:inline-block;
+    border: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.pole_game input{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    border: none;
+        opacity:0;
+    background-color: #ffffff;
+}
+.nol{
+    background-image: url("img/nol_2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.krest{
+    background-image: url("img/krest.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.razmer{
+    display: block;
+    margin-top: 25px;
+    display: block;
+    margin: 10% auto;
+    text-align: center;
+
+}
+.next_gane{
+    width: 150px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #F2FFB8;
+    outline: none;
+}
+.hiden{
+    display: none;
+}
+.finish{
+    display: none;
+    width: 45%;
+    height: 30px;
+    font-size: 25px;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: absolute;
+    top: -140px;
+    right: 20px;
+    left: 20px;
+
+}
+.user{
+    box-shadow: 0 0 30px rgba(42,166,152,0.5);
+    color: green;
+}
+.ii{
+    box-shadow: 0 0 30px rgba(208,36,20,0.5);
+    color: red;
+}
+.user_ii{
+    box-shadow: 0 0 30px rgba(55,58,237,0.5);
+    color: blue;
+}

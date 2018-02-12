@@ -1,0 +1,59 @@
+.spoiler-trigger{
+	color: #0b70db;
+	text-decoration: none;
+	padding-left: 15px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAANUlEQVQoU2PkLrj9n4EAYAQp+jpBlRGXOpA8hiJ0TaQrwuY2kDNINwnmcKLchO5LuHWEwgkAlO5FBwhFaI8AAAAASUVORK5CYII=) no-repeat 0 50%;
+}
+.spoiler-trigger.active{
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAKklEQVQoU2PkLrj9n4EAYAQp+jpBlRGXOpA8DRRhcxvIGTSyjqDvCIUTAEcINQcERZkIAAAAAElFTkSuQmCC);
+}
+.spoiler-trigger>span{
+	padding:0 3px;
+}
+/*.spoiler-trigger:hover>span{
+	border-bottom-style: solid;
+}*/
+
+.spoiler-block{
+	display: none;
+	padding-left: 15px;
+}
+
+.spoiler-block-content {
+	padding-left: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #a94442;
+}
+
+pre {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.text {
+	/* outline: 1px solid #ccc;  */
+	/*padding: 0px 0px 0px 50px; */
+	margin: 5px; }
+
+/*#result-before { white-space: pre; font-family: monospace; } */
+#result-before{padding: 5px; margin: 5px; white-space: pre; font-family: monospace;}
+.string { color: green; }
+.number { color: darkorange; }
+.boolean { color: blue; }
+.null { color: magenta; }
+.key { color: red; }
+
+.error{
+    background-color: #f2dede;
+    border: 0;
+    color: #a94442;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
