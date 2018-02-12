@@ -2,7 +2,7 @@ $(function () {
     function xxx (e) {
         e.stopPropagation();
         $(this).css({"display": "none"});
-        $(this).siblings('.object').css({"display": "block"});
+        $(this).siblings('.object').css({"display": "inline-block"});
      }
     $('.object').on('click', xxx); 
    $('.spoiler-trigger').on('click', function (e) {

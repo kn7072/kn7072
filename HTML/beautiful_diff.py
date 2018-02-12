@@ -108,25 +108,22 @@ object_element = """
 #                  """,
 #                  ",": """<span class="syntax">,</span>"""}
 dict_elements = {"object": {"start": """
-                                        <div>
-                                            <span class="object" style="display: inline;">
-                                                <a class="disclosure" href="#">[+]</a>
-                                                <span class="object syntax">{</span>
-                                                <a href="#">...</a>
-                                                <span class="object syntax">}</span>
-                                            </span>
-                                            <span class="object" style="display: none;">
-                                                <a class="disclosure" href="#">[-]</a>
-                                                <span class="object syntax">{</span>
+                                        <span class="object">
+                                            <a class="disclosure" href="#">[+]</a>
+                                            <span class="object syntax">{</span>
+                                            <a href="#">...</a>
+                                            <span class="object syntax">}</span>
+                                        </span>
+                                        <span class="object" style="display: none;">
+                                            <a class="disclosure" href="#">[-]</a>
+                                            <span class="object syntax">{</span>
                                      """,
                             "finish": """
                                         <span class="object syntax">}</span>
                                     </span>
-                                </div>
                             """},
                 "object_open": {"start": """
-                                        <div>
-                                            <span class="object" style="display: inline;">
+                                            <span class="object">
                                                 <a class="disclosure" href="#">[+]</a>
                                                 <span class="object syntax">{</span>
                                                 <a href="#">...</a>
@@ -139,32 +136,26 @@ dict_elements = {"object": {"start": """
                             "finish": """
                                         <span class="object syntax">}</span>
                                     </span>
-                                </div>
                             """},
                  "array": {"start": """
-                                        <div>
-                                            <span class="object" style="display: none;">
-                                                <a class="disclosure" href="#">[+]</a>
-                                                <span class="array syntax">[</span>
-                                                <a href="#">...</a>
-                                                <span class="object syntax">]</span>
-                                            </span>
-                                            <span class="object" style="display: inline;">
-                                                <a class="disclosure" href="#">[-]</a>
-                                                <span class="array syntax">[</span>
+                                        <span class="object" style="display: none;">
+                                            <a class="disclosure" href="#">[+]</a>
+                                            <span class="array syntax">[</span>
+                                            <a href="#">...</a>
+                                            <span class="object syntax">]</span>
+                                        </span>
+                                        <span class="object">
+                                            <a class="disclosure" href="#">[-]</a>
+                                            <span class="array syntax">[</span>
                                      """,
                             "finish": """
                                         <span class="array syntax">]</span>
                                     </span>
-                                </div>
                             """},
                 "array_key": {"start": """
-                                    <div>
-                                        <span> </span>
-                                            <span class="key">"%(name_key)s"</span>
-                                            <span class="object syntax">: </span>
-                                            <span></span>
-                                        <span class="object" style="display: inline;">
+                                        <span class="key vertical_aligan">"%(name_key)s"</span>
+                                        <span class="object syntax vertical_aligan">: </span>
+                                        <span class="object">
                                             <a class="disclosure" href="#">[+]</a>
                                             <span class="array syntax">[</span>
                                             <a href="#">...</a>
@@ -177,22 +168,16 @@ dict_elements = {"object": {"start": """
                             "finish": """
                                         <span class="array syntax">]</span>
                                     </span>
-                                </div>
                             """},
                  "key_object_simple": """
-                                    <span> </span>
-                                    <span class="key">"{name_key}"</span>
-                                    <span class="object syntax">: </span>
-                                    <span></span>
-                                    <span class="string">"{value_key}"</span>
+                                            <span class="key vertical_aligan">"{name_key}"</span>
+                                            <span class="object syntax vertical_aligan">: </span>
+                                            <span class="string">"{value_key}"</span>
                  """,
                 "object_key": {"start": """
-                                            <span> </span>
-                                            <span class="key">"%(name_key)s"</span>
-                                            <span class="object syntax">: </span>
-                                            <span></span>
-                                            <div>
-                                                <span class="object" style="display: inline;">
+                                                <span class="key vertical_aligan">"%(name_key)s"</span>
+                                                <span class="object syntax vertical_aligan">: </span>
+                                                <span class="object">
                                                     <a class="disclosure" href="#">[+]</a>
                                                     <span class="object syntax">{</span>
                                                     <a href="#">...</a>
@@ -205,13 +190,12 @@ dict_elements = {"object": {"start": """
                                     "finish": """
                                                 <span class="object syntax">}</span>
                                             </span>
-                                        </div>
                  """},
                  "element_array": """
-                                 <span> </span>
                                  <span class="string">"{array_value}"</span>
                  """,
-                 ",": """<span class="syntax">,</span>"""}
+                 ",": """<span class="syntax">,</span>""",
+                 "div": {"start": "<div>", "finish": "</div>"}}
 #  none inline
 # dict_elements = {"object": {"start": """<span><span class="object" style="display: none;"><a class="disclosure" href="#">[+]</a><span class="object syntax">{</span><a href="#">...</a><span class="object syntax">}</span></span><span class="object" style="display: inline;"><a class="disclosure" href="#">[-]</a><span class="object syntax">{</span>""",
 #                             "finish": """<span class="object syntax">}</span></span></span>"""},
@@ -322,42 +306,54 @@ def json_tree_html(obj, level):
     if isinstance(obj, dict):
         for key, val in obj.items():
             if isinstance(val, dict):
+                list_elements_tree_html.append(dict_elements["div"]["start"])
                 list_elements_tree_html.append(dict_elements["object_key"]["start"] % {"name_key": key})  # object
                 json_tree_html(val, level+1)
                 list_elements_tree_html.append(dict_elements["object_key"]["finish"])  # object
                 list_elements_tree_html.append(dict_elements[","])
+                list_elements_tree_html.append(dict_elements["div"]["finish"])
             elif isinstance(val, tuple) or isinstance(val, list):
+                list_elements_tree_html.append(dict_elements["div"]["start"])
                 list_elements_tree_html.append(dict_elements["array_key"]["start"] % {"name_key": key})  # array
                 json_tree_html(val, level + 1)
                 list_elements_tree_html.append(dict_elements["array_key"]["finish"])
                 list_elements_tree_html.append(dict_elements[","])
+                list_elements_tree_html.append(dict_elements["div"]["finish"])
             else:
+                list_elements_tree_html.append(dict_elements["div"]["start"])
                 list_elements_tree_html.append(dict_elements["key_object_simple"].format(name_key=key, value_key=val)) # ["-", key, "simple", level, val]  key_object
                 list_elements_tree_html.append(dict_elements[","])
+                list_elements_tree_html.append(dict_elements["div"]["finish"])
         # УБИРАЕМ ПОСЛЕДНЮЮ ЗАПЯТУЮ
-        last_elem = list_elements_tree_html[-1]
+        last_elem = list_elements_tree_html[-2]
         if last_elem.startswith('<span class="syntax">,</span>'):
-            list_elements_tree_html[-1] = ""
+            list_elements_tree_html[-2] = ""
 
     elif isinstance(obj, tuple) or isinstance(obj, list):
         for i, elm_i in enumerate(obj):
             if isinstance(elm_i, dict):
+                list_elements_tree_html.append(dict_elements["div"]["start"])
                 list_elements_tree_html.append(dict_elements["object"]["start"])
                 json_tree_html(elm_i, level + 1)
                 list_elements_tree_html.append(dict_elements["object"]["finish"])
                 list_elements_tree_html.append(dict_elements[","])
+                list_elements_tree_html.append(dict_elements["div"]["finish"])
             elif isinstance(elm_i, tuple) or isinstance(elm_i, list):
+                list_elements_tree_html.append(dict_elements["div"]["start"])
                 list_elements_tree_html.append(dict_elements["array"]["start"])
                 json_tree_html(elm_i, level + 1)
                 list_elements_tree_html.append(dict_elements["array"]["finish"])
                 list_elements_tree_html.append(dict_elements[","])
+                list_elements_tree_html.append(dict_elements["div"]["finish"])
             else:
+                list_elements_tree_html.append(dict_elements["div"]["start"])
                 list_elements_tree_html.append(dict_elements["element_array"].format(array_value=elm_i))  # ["-", "element_array_%s" % i, "simple", level, elm_i] element_array
                 list_elements_tree_html.append(dict_elements[","])
+                list_elements_tree_html.append(dict_elements["div"]["finish"])
         # УБИРАЕМ ПОСЛЕДНЮЮ ЗАПЯТУЮ
-        last_elem = list_elements_tree_html[-1]
+        last_elem = list_elements_tree_html[-2]
         if last_elem.startswith('<span class="syntax">,</span>'):
-            list_elements_tree_html[-1] = ""
+            list_elements_tree_html[-2] = ""
     else:
         list_elements_tree_html.append(["-", "element_object", "simple", level, obj])
 
