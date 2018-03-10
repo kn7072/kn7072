@@ -1,9 +1,16 @@
 $(function () {
     function xxx (e) {
         e.stopPropagation();
-        $(this).css({"display": "none"});
-        $(this).siblings('.object').css({"display": "inline-block"});
+        $(this).addClass('hidden');
+        $(this).siblings('.object').removeClass('hidden');
      }
+
+    // function xxx (e) {
+    //     e.stopPropagation();
+    //     $(this).css({"display": "none"});
+    //     $(this).siblings('.object').css({"display": "inline-block"});
+    // }
+    //
     $('.object').on('click', xxx); 
    $('.spoiler-trigger').on('click', function (e) {
       e.preventDefault();
@@ -23,11 +30,12 @@ $(function () {
    renderjson.set_icons('[+]', '[-]')
    var elements = document.getElementsByClassName("json"),
       content;
-   for (var i = 0; i < elements.length; i++) {
-      content = elements[i].innerHTML;
-      elements[i].innerHTML = '';
-      elements[i].appendChild(renderjson(JSON.parse(content)));
-   }
+    for (var i = 0; i < elements.length; i++) {
+        content = elements[i].innerHTML;
+        elements[i].innerHTML = '';
+        content = content.replace(/\r|\n/g, '')
+        elements[i].appendChild(renderjson(JSON.parse(content)));
+     }
 
    function openSpoiler() {
       var

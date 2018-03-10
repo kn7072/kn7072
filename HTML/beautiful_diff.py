@@ -114,7 +114,7 @@ dict_elements = {"object": {"start": """
                                             <a href="#">...</a>
                                             <div class="object syntax">}</div>
                                         </div>
-                                        <div class="object" style="display: none;">
+                                        <div class="object hidden">
                                             <a class="disclosure" href="#">[-]</a>
                                             <div class="object syntax">{</div>
                                      """,
@@ -129,7 +129,7 @@ dict_elements = {"object": {"start": """
                                                 <a href="#">...</a>
                                                 <div class="object syntax">}</div>
                                             </div>
-                                            <div class="object" style="display: none;">
+                                            <div class="object hidden">
                                                 <a class="disclosure" href="#">[-]</a>
                                                 <div class="object syntax">{</div>
                                      """,
@@ -138,7 +138,7 @@ dict_elements = {"object": {"start": """
                                     </div>
                             """},
                  "array": {"start": """
-                                        <div class="object" style="display: none;">
+                                        <div class="object hidden">
                                             <a class="disclosure" href="#">[+]</a>
                                             <div class="array syntax">[</div>
                                             <a href="#">...</a>
@@ -161,7 +161,7 @@ dict_elements = {"object": {"start": """
                                             <a href="#">...</a>
                                             <div class="object syntax">]</div>
                                         </div>
-                                        <div class="object" style="display: none;">
+                                        <div class="object hidden">
                                             <a class="disclosure" href="#">[-]</a>
                                             <div class="array syntax">[</div>
                                      """,
@@ -183,7 +183,7 @@ dict_elements = {"object": {"start": """
                                                     <a href="#">...</a>
                                                     <div class="object syntax">}</div>
                                                 </div>
-                                                <div class="object" style="display: none;">
+                                                <div class="object hidden">
                                                     <a class="disclosure" href="#">[-]</a>
                                                     <div class="object syntax">{</div>
                                          """,
