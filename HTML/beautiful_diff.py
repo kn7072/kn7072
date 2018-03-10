@@ -108,94 +108,94 @@ object_element = """
 #                  """,
 #                  ",": """<span class="syntax">,</span>"""}
 dict_elements = {"object": {"start": """
-                                        <span class="object">
+                                        <div class="object">
                                             <a class="disclosure" href="#">[+]</a>
-                                            <span class="object syntax">{</span>
+                                            <div class="object syntax">{</div>
                                             <a href="#">...</a>
-                                            <span class="object syntax">}</span>
-                                        </span>
-                                        <span class="object" style="display: none;">
+                                            <div class="object syntax">}</div>
+                                        </div>
+                                        <div class="object" style="display: none;">
                                             <a class="disclosure" href="#">[-]</a>
-                                            <span class="object syntax">{</span>
+                                            <div class="object syntax">{</div>
                                      """,
                             "finish": """
-                                        <span class="object syntax">}</span>
-                                    </span>
+                                        <div class="object syntax">}</div>
+                                    </div>
                             """},
                 "object_open": {"start": """
-                                            <span class="object">
+                                            <div class="object">
                                                 <a class="disclosure" href="#">[+]</a>
-                                                <span class="object syntax">{</span>
+                                                <div class="object syntax">{</div>
                                                 <a href="#">...</a>
-                                                <span class="object syntax">}</span>
-                                            </span>
-                                            <span class="object" style="display: none;">
+                                                <div class="object syntax">}</div>
+                                            </div>
+                                            <div class="object" style="display: none;">
                                                 <a class="disclosure" href="#">[-]</a>
-                                                <span class="object syntax">{</span>
+                                                <div class="object syntax">{</div>
                                      """,
                             "finish": """
-                                        <span class="object syntax">}</span>
-                                    </span>
+                                        <div class="object syntax">}</div>
+                                    </div>
                             """},
                  "array": {"start": """
-                                        <span class="object" style="display: none;">
+                                        <div class="object" style="display: none;">
                                             <a class="disclosure" href="#">[+]</a>
-                                            <span class="array syntax">[</span>
+                                            <div class="array syntax">[</div>
                                             <a href="#">...</a>
-                                            <span class="object syntax">]</span>
-                                        </span>
-                                        <span class="object">
+                                            <div class="object syntax">]</div>
+                                        </div>
+                                        <div class="object">
                                             <a class="disclosure" href="#">[-]</a>
-                                            <span class="array syntax">[</span>
+                                            <div class="array syntax">[</div>
                                      """,
                             "finish": """
-                                        <span class="array syntax">]</span>
-                                    </span>
+                                        <div class="array syntax">]</div>
+                                    </div>
                             """},
                 "array_key": {"start": """
-                                        <span class="key vertical_aligan">"%(name_key)s"</span>
-                                        <span class="object syntax vertical_aligan">: </span>
-                                        <span class="object">
+                                        <div class="key vertical_aligan">"%(name_key)s"</div>
+                                        <div class="object syntax vertical_aligan">: </div>
+                                        <div class="object">
                                             <a class="disclosure" href="#">[+]</a>
-                                            <span class="array syntax">[</span>
+                                            <div class="array syntax">[</div>
                                             <a href="#">...</a>
-                                            <span class="object syntax">]</span>
-                                        </span>
-                                        <span class="object" style="display: none;">
+                                            <div class="object syntax">]</div>
+                                        </div>
+                                        <div class="object" style="display: none;">
                                             <a class="disclosure" href="#">[-]</a>
-                                            <span class="array syntax">[</span>
+                                            <div class="array syntax">[</div>
                                      """,
                             "finish": """
-                                        <span class="array syntax">]</span>
-                                    </span>
+                                        <div class="array syntax">]</div>
+                                    </div>
                             """},
                  "key_object_simple": """
-                                            <span class="key vertical_aligan">"{name_key}"</span>
-                                            <span class="object syntax vertical_aligan">: </span>
-                                            <span class="string">"{value_key}"</span>
+                                            <div class="key vertical_aligan">"{name_key}"</div>
+                                            <div class="object syntax vertical_aligan">: </div>
+                                            <div class="string">"{value_key}"</div>
                  """,
                 "object_key": {"start": """
-                                                <span class="key vertical_aligan">"%(name_key)s"</span>
-                                                <span class="object syntax vertical_aligan">: </span>
-                                                <span class="object">
+                                                <div class="key vertical_aligan">"%(name_key)s"</div>
+                                                <div class="object syntax vertical_aligan">: </div>
+                                                <div class="object">
                                                     <a class="disclosure" href="#">[+]</a>
-                                                    <span class="object syntax">{</span>
+                                                    <div class="object syntax">{</div>
                                                     <a href="#">...</a>
-                                                    <span class="object syntax">}</span>
-                                                </span>
-                                                <span class="object" style="display: none;">
+                                                    <div class="object syntax">}</div>
+                                                </div>
+                                                <div class="object" style="display: none;">
                                                     <a class="disclosure" href="#">[-]</a>
-                                                    <span class="object syntax">{</span>
+                                                    <div class="object syntax">{</div>
                                          """,
                                     "finish": """
-                                                <span class="object syntax">}</span>
-                                            </span>
+                                                <div class="object syntax">}</div>
+                                            </div>
                  """},
                  "element_array": """
-                                 <span class="string">"{array_value}"</span>
+                                 <div class="string">"{array_value}"</div>
                  """,
-                 ",": """<span class="syntax">,</span>""",
-                 "div": {"start": "<div>", "finish": "</div>"}}
+                 ",": """<div class="syntax">,</div>""",
+                 "div": {"start": "<div>", "finish": "</div><br>"}}
 #  none inline
 # dict_elements = {"object": {"start": """<span><span class="object" style="display: none;"><a class="disclosure" href="#">[+]</a><span class="object syntax">{</span><a href="#">...</a><span class="object syntax">}</span></span><span class="object" style="display: inline;"><a class="disclosure" href="#">[-]</a><span class="object syntax">{</span>""",
 #                             "finish": """<span class="object syntax">}</span></span></span>"""},
@@ -326,7 +326,7 @@ def json_tree_html(obj, level):
                 list_elements_tree_html.append(dict_elements["div"]["finish"])
         # УБИРАЕМ ПОСЛЕДНЮЮ ЗАПЯТУЮ
         last_elem = list_elements_tree_html[-2]
-        if last_elem.startswith('<span class="syntax">,</span>'):
+        if last_elem.startswith(dict_elements[","]):
             list_elements_tree_html[-2] = ""
 
     elif isinstance(obj, tuple) or isinstance(obj, list):
@@ -352,7 +352,7 @@ def json_tree_html(obj, level):
                 list_elements_tree_html.append(dict_elements["div"]["finish"])
         # УБИРАЕМ ПОСЛЕДНЮЮ ЗАПЯТУЮ
         last_elem = list_elements_tree_html[-2]
-        if last_elem.startswith('<span class="syntax">,</span>'):
+        if last_elem.startswith(dict_elements[","]):
             list_elements_tree_html[-2] = ""
     else:
         list_elements_tree_html.append(["-", "element_object", "simple", level, obj])
