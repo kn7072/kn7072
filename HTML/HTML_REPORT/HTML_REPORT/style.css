@@ -62,7 +62,7 @@ pre {
 	content: ",";
 } */
 .vertical_aligan{
-	vertical-align: top;
+	/*vertical-align: top;*/
 }
 
 
@@ -72,6 +72,15 @@ pre {
 
 .object {
     display: flex;
+}
+
+.key_value {
+	display: flex;
+}
+
+.object_column {
+	display: flex;
+	flex-direction: column;
 }
 /*
 
