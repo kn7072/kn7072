@@ -115,53 +115,23 @@ object_element = """
 #                  "div": {"start": "<div>", "finish": "</div><br>"}}
 
 dict_elements = {
-    # "object": {"start": """
-    #             <div class="object">
-    #                 <a class="disclosure" href="#">[+]</a>
-    #                 <div class="object syntax">{</div>
-    #                 <a href="#">...</a>
-    #                 <div class="object syntax">}</div>
-    #             </div>
-    #             <div class="object hidden">
-    #                 <a class="disclosure" href="#">[-]</a>
-    #                 <div class="object syntax">{</div>
-    #          """,
-    # "finish": """
-    #             <div class="object syntax">}</div>
-    #         </div>
-    # """}
-    "object":{"start": """
-                                <div class="object">
-                                    <a class="disclosure" href="#">[+]</a>
-                                    <div class="object syntax">{</div>
-                                    <a href="#">...</a>
-                                    <div class="object syntax">}</div>
-                                </div>
-                                <div class="object hidden">
-                                    <a class="disclosure" href="#">[-]</a>
-                                    <div class="object syntax">{</div>
-                                    <div class="object_column">
-                         """,
-                "finish": """
-                                        <div class="object syntax">}</div>
-                                    </div>
-                                </div>
-    """}
-    ,
+
     "object_open": {"start": """
                                 <div class="object">
                                     <a class="disclosure" href="#">[+]</a>
                                     <div class="object syntax">{</div>
                                     <a href="#">...</a>
                                     <div class="object syntax">}</div>
+                                    %(comma)s
                                 </div>
                                 <div class="object hidden">
                                     <a class="disclosure" href="#">[-]</a>
                                     <div class="object syntax">{</div>
                                     <div class="object_column">
+                                    <br>
                          """,
                 "finish": """
-                                        <div class="object syntax">}</div>
+                                        <div class="object syntax">} %(comma)s </div>
                                     </div>
                                 </div>
     """},
@@ -171,14 +141,18 @@ dict_elements = {
                                 <div class="array syntax">[</div>
                                 <a href="#">...</a>
                                 <div class="object syntax">]</div>
+                                %(comma)s
                             </div>
                             <div class="object hidden">
                                 <a class="disclosure" href="#">[-]</a>
                                 <div class="array syntax">[</div>
+
                             """,
                    "finish": """
-                             <div class="array syntax">]</div>
+                                <div class="array syntax">]</div>
                          </div>
+                         
+
     """},
     "array": {"start": """
                         <div class="object hidden">
@@ -193,6 +167,7 @@ dict_elements = {
                      """,
             "finish": """
                         <div class="array syntax">]</div>
+                        %(comma)s
                     </div>
     """},
     "array_key": {"start": """
@@ -204,15 +179,18 @@ dict_elements = {
                          """,
                 "finish": """
 
+
                                 <div class="array syntax">]</div>
+                                %(comma)s
                             </div>
                         </div>
     """},
     "key_object_simple": """
                             <div class="key_value">
-                                <div class="key vertical_aligan">"{name_key}"</div>
+                                <div class="key vertical_aligan">"%(name_key)s"</div>
                                 <div class="object syntax vertical_aligan">: </div>
-                                <div class="string">"{value_key}"</div>
+                                <div class="string">"%(value_key)s"</div>
+                                %(comma)s
                             </div>
     """,
 
@@ -223,13 +201,14 @@ dict_elements = {
                                             %(object_open_start)s
                              """,
                    "finish": """
-                                                <div class="object syntax">}</div>
+                                                <div class="object syntax">} %(comma)s </div>
                                            </div>
                                         </div>
                                     </div>
      """},
     "element_array": """
-                 <div class="string">"{array_value}"</div>
+                 <div class="string">"%(array_value)s"</div>
+                 %(comma)s
     """,
     ",": """<div class="syntax">,</div>""",
     "div": {"start": """<div class="key_value">""", "finish": "</div>"}}  #
@@ -322,7 +301,16 @@ def print_tree(list_):
     for i in list_:
         print(i)
 
+
+
+
+
 list_elements_tree_html = []
+
+def xxx():
+    if "%(comma)s" in list_elements_tree_html[-1]:
+        print()
+
 def json_tree_html(obj, level):
     """
     :param obj:
@@ -331,66 +319,109 @@ def json_tree_html(obj, level):
     """
     # print_tree(list_elements_tree_html)
     if isinstance(obj, dict):
-        for key, val in obj.items():
+        max_index_dict = len(obj.keys()) - 1
+        for i, (key, val) in enumerate(obj.items()):
+            if i < max_index_dict:
+                comma = dict_elements[","]
+            else:
+                comma = ""
+
             if isinstance(val, dict):
                 list_elements_tree_html.append(dict_elements["div"]["start"])
-                list_elements_tree_html.append(dict_elements["object_key"]["start"] % {"name_key": key, "object_open_start": dict_elements["object_open"]["start"]})  # object
+                xxx()
+                object_open_start = dict_elements["object_open"]["start"] % {"comma": comma}
+                list_elements_tree_html.append(dict_elements["object_key"]["start"] % {"name_key": key, "object_open_start": object_open_start})  # object
+                xxx()
                 json_tree_html(val, level+1)
-                list_elements_tree_html.append(dict_elements["object_key"]["finish"])  # object
-                list_elements_tree_html.append(dict_elements[","])
+                list_elements_tree_html.append(dict_elements["object_key"]["finish"] % {"comma": comma})  # object
+                xxx()
+
+                #list_elements_tree_html.append(dict_elements[","])
                 list_elements_tree_html.append(dict_elements["div"]["finish"])
+                xxx()
             elif isinstance(val, tuple) or isinstance(val, list):
                 list_elements_tree_html.append(dict_elements["div"]["start"])
-                list_elements_tree_html.append(dict_elements["array_key"]["start"] % {"name_key": key, "array_open_start": dict_elements["array_open"]["start"]})  # array
+                xxx()
+                array_open_start = dict_elements["array_open"]["start"] % {"comma": comma}
+                list_elements_tree_html.append(dict_elements["array_key"]["start"] % {"name_key": key, "array_open_start": array_open_start})  # array
+                xxx()
                 json_tree_html(val, level + 1)
-                list_elements_tree_html.append(dict_elements["array_key"]["finish"])
-                list_elements_tree_html.append(dict_elements[","])
+                list_elements_tree_html.append(dict_elements["array_key"]["finish"] % {"comma": comma})
+                xxx()
+
+                #list_elements_tree_html.append(dict_elements[","])
                 list_elements_tree_html.append(dict_elements["div"]["finish"])
+                xxx()
             else:
                 list_elements_tree_html.append(dict_elements["div"]["start"])
-                list_elements_tree_html.append(dict_elements["key_object_simple"].format(name_key=key, value_key=val))
-                list_elements_tree_html.append(dict_elements[","])
+                xxx()
+                list_elements_tree_html.append(dict_elements["key_object_simple"] % {"name_key": key, "value_key": val, "comma": comma})
+                xxx()
+
+                #list_elements_tree_html.append(dict_elements[","])
                 list_elements_tree_html.append(dict_elements["div"]["finish"])
+                xxx()
         # УБИРАЕМ ПОСЛЕДНЮЮ ЗАПЯТУЮ
-        last_elem = list_elements_tree_html[-2]
-        if last_elem.startswith(dict_elements[","]):
-            list_elements_tree_html[-2] = ""
+        # last_elem = list_elements_tree_html[-2]
+        # if last_elem.startswith(dict_elements[","]):
+        #     list_elements_tree_html[-2] = ""
 
     elif isinstance(obj, tuple) or isinstance(obj, list):
+        max_index_dict = len(obj) - 1
+        #comma = dict_elements[","]
         for i, elm_i in enumerate(obj):
+            if i < max_index_dict:
+                comma = dict_elements[","]
+            else:
+                comma = ""
+
             if isinstance(elm_i, dict):
                 list_elements_tree_html.append(dict_elements["div"]["start"])
-                list_elements_tree_html.append(dict_elements["object"]["start"])
+                xxx()
+                list_elements_tree_html.append(dict_elements["object_open"]["start"] % {"comma": comma})
+                xxx()
                 json_tree_html(elm_i, level + 1)
-                list_elements_tree_html.append(dict_elements["object"]["finish"])
-                list_elements_tree_html.append(dict_elements[","])
+                list_elements_tree_html.append(dict_elements["object_open"]["finish"] % {"comma": comma})
+                xxx()
+
+                #last_temp =
+                #list_elements_tree_html.append(dict_elements[","])
                 list_elements_tree_html.append(dict_elements["div"]["finish"])
+                xxx()
             elif isinstance(elm_i, tuple) or isinstance(elm_i, list):
                 list_elements_tree_html.append(dict_elements["div"]["start"])
+                xxx()
                 list_elements_tree_html.append(dict_elements["array"]["start"])
+                xxx()
                 json_tree_html(elm_i, level + 1)
-                list_elements_tree_html.append(dict_elements["array"]["finish"])
-                list_elements_tree_html.append(dict_elements[","])
+                list_elements_tree_html.append(dict_elements["array"]["finish"] % {"comma": comma})
+                xxx()
+
+                #list_elements_tree_html.append(dict_elements[","])
                 list_elements_tree_html.append(dict_elements["div"]["finish"])
+                xxx()
             else:
                 list_elements_tree_html.append(dict_elements["div"]["start"])
-                list_elements_tree_html.append(dict_elements["element_array"].format(array_value=elm_i))  # ["-", "element_array_%s" % i, "simple", level, elm_i] element_array
-                list_elements_tree_html.append(dict_elements[","])
+                xxx()
+                list_elements_tree_html.append(dict_elements["element_array"] % {"array_value": elm_i, "comma": comma})  # ["-", "element_array_%s" % i, "simple", level, elm_i] element_array
+                xxx()
+                #list_elements_tree_html.append(dict_elements[","])
                 list_elements_tree_html.append(dict_elements["div"]["finish"])
+                xxx()
         # УБИРАЕМ ПОСЛЕДНЮЮ ЗАПЯТУЮ
-        last_elem = list_elements_tree_html[-2]
-        if last_elem.startswith(dict_elements[","]):
-            list_elements_tree_html[-2] = ""
+        # last_elem = list_elements_tree_html[-2]
+        # if last_elem.startswith(dict_elements[","]):
+        #     list_elements_tree_html[-2] = ""
     else:
         list_elements_tree_html.append(["-", "element_object", "simple", level, obj])
 
 json_tree_html(json_obj, level=0)
-list_elements_tree_html[0:0] = [dict_elements["object_open"]["start"]]
-list_elements_tree_html.append(dict_elements["object_open"]["finish"])
+list_elements_tree_html[0:0] = [dict_elements["object_open"]["start"] % {"comma": ""}]
+list_elements_tree_html.append(dict_elements["object_open"]["finish"] % {"comma": ""})
 
 
-for i in list_elements_tree_html:
-    print(i)
+# for i in list_elements_tree_html:
+#     print(i)
 all_html = "".join(list_elements_tree_html)
 with open(r"HTML_REPORT\HTML_REPORT\test_temp.html") as f:
     data = f.read().format(contents_tests=all_html)
