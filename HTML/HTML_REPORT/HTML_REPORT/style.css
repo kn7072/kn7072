@@ -41,9 +41,17 @@ pre {
 	/*padding: 0px 0px 0px 50px; */
 	margin: 5px; }
 
+.syntax_down {
+    align-self: flex-end;
+}
+
 /*#result-before { white-space: pre; font-family: monospace; } */
 #result-before{padding: 5px; margin: 5px; white-space: pre; font-family: monospace;}
-.string { color: green; }
+.string {
+    color: green;
+    max-width: 700px;
+    word-wrap: break-word;
+}
 .number { color: darkorange; }
 .boolean { color: blue; }
 .null { color: magenta; }
@@ -71,16 +79,20 @@ pre {
 }
 
 .object {
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
+
 }
 
 .key_value {
-	display: flex;
+	display: inline-flex;
 }
 
 .object_column {
-	display: flex;
+	display: inline-flex;
 	flex-direction: column;
+    flex-wrap: wrap;
+    width: 700px;
 }
 /*
 
