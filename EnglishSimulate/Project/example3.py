@@ -1,14 +1,14 @@
 #!/usr/bin/python
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from os import curdir, sep
+import urllib
 import cgi
 
 PORT_NUMBER = 8077
 
 
-# This class will handles any incoming request from
-# the browser
-class myHandler(BaseHTTPRequestHandler):
+# This class will handles any incoming request from the browser
+class MyHandler(BaseHTTPRequestHandler):
 
     error_message_format = "ERRRRRROR"
 
@@ -51,21 +51,27 @@ class myHandler(BaseHTTPRequestHandler):
             pdict['boundary'] = bytes(pdict['boundary'], "utf-8")
             fields = cgi.parse_multipart(self.rfile, pdict)
             print("Fields value is", fields)
+            res, fun = self.modeles(fields)
+
+            # length = int(self.headers['Content-Length'])
+            # post_data = urllib.parse.parse_qs(self.rfile.read(length).decode('utf-8'))
 
 
-            self.wfile.write(b"Thanks  !")#% form["your_name"].value
+            self.wfile.write(res)#% form["your_name"].value
+            fun()
+
             return
 
+if __name__ == "__main__":
+    try:
+        # Create a web server and define the handler to manage the
+        # incoming request
+        server = HTTPServer(('', PORT_NUMBER), MyHandler)
+        print('Started httpserver on port ', PORT_NUMBER)
 
-try:
-    # Create a web server and define the handler to manage the
-    # incoming request
-    server = HTTPServer(('', PORT_NUMBER), myHandler)
-    print('Started httpserver on port ', PORT_NUMBER)
+        # Wait forever for incoming htto requests
+        server.serve_forever()
 
-    # Wait forever for incoming htto requests
-    server.serve_forever()
-
-except KeyboardInterrupt:
-    print('^C received, shutting down the web server')
-    server.socket.close()
+    except KeyboardInterrupt:
+        print('^C received, shutting down the web server')
+        server.socket.close()
