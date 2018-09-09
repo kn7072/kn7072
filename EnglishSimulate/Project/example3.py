@@ -52,14 +52,10 @@ class MyHandler(BaseHTTPRequestHandler):
             fields = cgi.parse_multipart(self.rfile, pdict)
             print("Fields value is", fields)
             res, fun = self.modeles(fields)
-
             # length = int(self.headers['Content-Length'])
             # post_data = urllib.parse.parse_qs(self.rfile.read(length).decode('utf-8'))
-
-
-            self.wfile.write(res)#% form["your_name"].value
+            self.wfile.write(res)
             fun()
-
             return
 
 if __name__ == "__main__":

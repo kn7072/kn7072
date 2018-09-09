@@ -13,9 +13,10 @@ class Simulation:
 
     def _models(self, data):
         print("Модель")
-        result = b"FINISH"
+        result = b"test"
         fun = lambda: None
         if "server_close" in data.keys():
+            result = b"finish server"
             fun = self._shutdown_server
         return result, fun
 
@@ -33,7 +34,7 @@ class Simulation:
 
     def _shutdown_server(self):
         print("Завершем работу сервера")
-        #self.server.server_close()
+
         def kill_me_please(server):
             server.shutdown()
 
