@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./source/jq_v3_3_1.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+   <div class="wrapper f-column">
+      <div class="block flex b-head">
+         <select id="typeExercise" name="type-simulator" >
+            <option value="ru">Russian</option>
+            <option value="en" selected>English</option>
+            <option value="sound">Sound</option>
+         </select>
+         <div class="flex block margin-l">
+            <div class="">От</div>
+            <input id="rangeStart" type="text" size="4" maxlength="4" class="margin-l margin-r">
+            <div>до</div>
+            <input id="rangeFInish" type="text" size="4" maxlength="4"class="margin-l">
+            <input id="start" name="start" type="submit" value="Начать" disabled class="margin-l">
+         </div>
+      </div>
+
+      <div class="flex">
+         <div class="block flex f-column margin-b">
+            <div class="block flex margin-b">
+               <div class="passiveWord margin-r">Test</div>
+               <div class="">Transcription</div>
+            </div>
+            <div class="block flex margin-b">
+               <div class="margin-r">Введите слово</div>
+               <input id="activWord" name="activWord" placeholder="Введите слово" type="text"
+                      size="25" maxlength="25" class="fieldMain">
+               <input id="check" type="submit" value="Проверить" class="check margin-l">
+            </div>
+         </div>
+      </div>
+
+      <div class="">
+         <input name="learn" type="radio" value="Знаю">Знаю</input>
+         <input name="learn" type="radio" value="На изучение" checked>На изучение</input>
+         <input id="next" name="next" type="submit" value="Далее" class="margin-l">
+      </div>
+   </div>
+</body>
+</html>
