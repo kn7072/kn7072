@@ -41,7 +41,7 @@ class MyHandler(BaseHTTPRequestHandler):
 
     # Handler for the POST requests
     def do_POST(self):
-        if self.path == "/send":
+        if self.path == "/":
             self.send_response(200)
             # self.headers._headers
             self.end_headers()
