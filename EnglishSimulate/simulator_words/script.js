@@ -43,7 +43,7 @@ document.addEventListener( "DOMContentLoaded", () => {
 
             xhr.onreadystatechange = function() {
                 if ( xhr.readyState === 4 && xhr.status === 200 ) {
-						 alert( this.responseText );
+						 console.log( this.responseText );
                 }
 
             };
