@@ -1,0 +1,53 @@
+/*input:required:invalid {
+  border:1px solid red;
+}*/
+@right: 0.5rem;
+@left: 0.5rem;
+@bottom: 0.5rem;
+@color-red: red;
+
+.wrapper {
+  width: 50rem;
+  display: flex;
+  margin: 10% auto;
+}
+
+.flex {
+   display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.passiveWord {
+  idth: 200px;
+  text-align: center;
+}
+
+.block {
+   align-items: baseline;
+}
+
+.b-head {
+   margin-bottom: 6rem;
+}
+
+.margin-r {
+  margin-right: @right;
+}
+
+.margin-l {
+  margin-left: @left;
+}
+.margin-b {
+  margin-bottom: @bottom;
+}
+
+.padding-l {
+   padding-left: @left;
+}
+
+.border-left {
+   border-left: 0.15rem solid @color-red;
+}

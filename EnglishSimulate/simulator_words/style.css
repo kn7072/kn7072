@@ -1,0 +1,40 @@
+/*input:required:invalid {
+  border:1px solid red;
+}*/
+.wrapper {
+  width: 50rem;
+  display: flex;
+  margin: 10% auto;
+}
+.flex {
+  display: flex;
+}
+.f-column {
+  flex-direction: column;
+}
+.passiveWord {
+  idth: 200px;
+  text-align: center;
+}
+.block {
+  align-items: baseline;
+}
+.b-head {
+  margin-bottom: 6rem;
+}
+.margin-r {
+  margin-right: 0.5rem;
+}
+.margin-l {
+  margin-left: 0.5rem;
+}
+.margin-b {
+  margin-bottom: 0.5rem;
+}
+.padding-l {
+  padding-left: 0.5rem;
+}
+.border-left {
+  border-left: 0.15rem solid red;
+}
+/*# sourceMappingURL=style.css.map */
