@@ -4,7 +4,7 @@ from os import curdir, sep
 import urllib
 import cgi
 
-PORT_NUMBER = 8077
+PORT_NUMBER = 8088
 
 
 # This class will handles any incoming request from the browser
@@ -41,7 +41,7 @@ class MyHandler(BaseHTTPRequestHandler):
 
     # Handler for the POST requests
     def do_POST(self):
-        if self.path == "/":# fdfsfdf
+        if self.path == "/send":
             self.send_response(200)
             # self.headers._headers
             self.end_headers()

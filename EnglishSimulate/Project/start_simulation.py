@@ -7,7 +7,7 @@ from threading import Thread
 class Simulation:
     """"""
 
-    def __init__(self, serv_port=8077):
+    def __init__(self, serv_port=8088):
         self.serv_port = serv_port
         pass
 
