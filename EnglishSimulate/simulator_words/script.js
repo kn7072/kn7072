@@ -37,7 +37,7 @@ document.addEventListener( "DOMContentLoaded", () => {
 
             let xhr = new XMLHttpRequest();
 
-            xhr.open( "POST", "http://localhost:8088/send", true );
+            xhr.open( "POST", "http://localhost:8088/"+ data.type, true );
 
             xhr.setRequestHeader( "Content-Type", `multipart/form-data; boundary=${ boundary}` );
 
