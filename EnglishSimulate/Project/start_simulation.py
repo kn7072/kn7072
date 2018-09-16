@@ -2,6 +2,7 @@
 from http.server import HTTPServer
 from example3 import MyHandler
 from threading import Thread
+from db import creata_work_base
 
 
 class Simulation:
@@ -47,5 +48,6 @@ class Simulation:
 
 
 if __name__ == "__main__":
+    creata_work_base("core_word_base.db")
     inst = Simulation()
     inst._start_server()
