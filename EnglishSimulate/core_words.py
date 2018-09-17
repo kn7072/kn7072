@@ -26,6 +26,7 @@ word_sanstv = set(get_data("sanstv.db", "sanstv", "word"))
 diff_garib_xford = word_garib - word_oxford
 diff_garib_sanstv = word_garib - word_sanstv
 union_sanstv_oxford = word_sanstv | word_oxford | word_garib
+
 intersection_sanstv_oxford_gari = word_sanstv & word_oxford & word_garib
 print(len(intersection_sanstv_oxford_gari))
 print()

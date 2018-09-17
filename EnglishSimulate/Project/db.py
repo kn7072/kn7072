@@ -32,6 +32,14 @@ def creata_work_base(path_base):
         cur.executescript(sql)
         db.commit()
 
+
+def query_sql(sql):
+    with sqlite3.connect("work_db.db") as db:
+        cur = db.cursor()
+        res = cur.execute(sql)
+        return res.fetchall()
+
+
 if __name__ == "__main__":
     creata_work_base("core_word_base.db")
 

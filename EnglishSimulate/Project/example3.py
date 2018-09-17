@@ -1,8 +1,9 @@
 #!/usr/bin/python
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from os import curdir, sep
-import urllib
+from db import query_sql
 import cgi
+import json
 
 PORT_NUMBER = 8088
 
@@ -11,6 +12,7 @@ PORT_NUMBER = 8088
 class MyHandler(BaseHTTPRequestHandler):
 
     error_message_format = "ERRRRRROR"
+    exp = ""
 
     # Handler for the GET requests
     def do_GET(self):
@@ -40,23 +42,67 @@ class MyHandler(BaseHTTPRequestHandler):
             self.send_error(404, 'File Not Found: %s' % self.path)
 
     # Handler for the POST requests
-    def do_POST(self):
-        if self.path == "/send":
-            self.send_response(200)
-            # self.headers._headers
-            self.end_headers()
+    def _analisis_request(self):
+        """"""
+        self.send_response(200)
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.end_headers()
+        ctype, pdict = cgi.parse_header(self.headers['content-type'])
+        pdict['boundary'] = bytes(pdict['boundary'], "utf-8")
+        fields = cgi.parse_multipart(self.rfile, pdict)
+        return fields
 
-            # https://stackoverflow.com/questions/42688246/do-post-method-failing-in-python-3-6
-            ctype, pdict = cgi.parse_header(self.headers['content-type'])
-            pdict['boundary'] = bytes(pdict['boundary'], "utf-8")
-            fields = cgi.parse_multipart(self.rfile, pdict)
-            print("Fields value is", fields)
-            res, fun = self.modeles(fields)
-            # length = int(self.headers['Content-Length'])
-            # post_data = urllib.parse.parse_qs(self.rfile.read(length).decode('utf-8'))
-            self.wfile.write(res)
-            fun()
+    def _start(self, fields):
+        start = int(fields["start"][0])
+        finish = int(fields["finish"][0])
+        sql = """SELECT word, translate, transcription FROM core_word_base WHERE know==0 AND
+                        id BETWEEN {start} AND {finish};""".format(start=start, finish=finish)
+        res = query_sql(sql)
+        if res:
+            self.__class__.list_word = res
+        else:
+            self.__class__.list_word = []
+
+    @classmethod
+    def _generate(cls):
+        for i in cls.list_word:
+            x = yield i
+            if x:
+                return
+
+    def get_json(self, data):
+        temp = json.dumps({"word": data[0], "translate": data[1], "trancription": data[2]}).encode()
+        return temp
+
+    def do_POST(self):
+        if self.path == "/ru":
+            fields = self._analisis_request()
+            if fields.get("start"):
+                self._start(fields)
+                self.__class__.send = self._generate()
+                try:
+                    word_next = self.__class__.send.__next__()
+                    word_json = self.get_json(word_next)
+                    self.wfile.write(word_json)
+                except StopIteration as e:
+                    word_next = {}
+                    self.wfile.write(word_next)
+            elif fields.get("know"):
+                # todo АНАЛИЗ ОТВЕТА
+                try:
+                    word_next = self.__class__.send.__next__()
+                    self.wfile.write(word_next)
+                except StopIteration as e:
+                    word_next = {}
+                    self.wfile.write(word_next)
+            else:
+                pass
             return
+
+        if self.path == "/en":
+            pass
+        if self.path == "/sound":
+            pass
 
 if __name__ == "__main__":
     try:
