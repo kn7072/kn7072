@@ -1,7 +1,8 @@
 #!/usr/bin/python
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from os import curdir, sep
-from db import query_sql
+from db import query_sql, updata_base
+from play_audio import play_sound
 import cgi
 import json
 
@@ -85,18 +86,25 @@ class MyHandler(BaseHTTPRequestHandler):
                     word_json = self.get_json(word_next)
                     self.wfile.write(word_json)
                 except StopIteration as e:
+                    # TODO ВОЗВРАЩАТЬ ПУСТОЙ ОТВЕТ
                     word_next = {}
-                    self.wfile.write(word_next)
+                    self.wfile.write(b"The end")
             elif fields.get("know"):
-                # todo АНАЛИЗ ОТВЕТА
+                updata_base(fields)
                 try:
                     word_next = self.__class__.send.__next__()
-                    self.wfile.write(word_next)
+                    word_json = self.get_json(word_next)
+                    self.wfile.write(word_json)
                 except StopIteration as e:
+                    # TODO ВОЗВРАЩАТЬ ПУСТОЙ ОТВЕТ
                     word_next = {}
-                    self.wfile.write(word_next)
+                    self.wfile.write(b"The end")
+            elif fields.get("sound"):
+                word = fields["word"][0].decode()
+                play_sound(word)
+                self.wfile.write(b"sound")
             else:
-                pass
+                print()
             return
 
         if self.path == "/en":

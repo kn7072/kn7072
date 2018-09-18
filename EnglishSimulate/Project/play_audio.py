@@ -1,4 +1,7 @@
 # coding="utf-8"
 import playsound
-playsound.playsound('audio/forbid.mp3', True)
+
+
+def play_sound(word):
+    playsound.playsound('audio/{word}.mp3'.format(word=word), True)
 
