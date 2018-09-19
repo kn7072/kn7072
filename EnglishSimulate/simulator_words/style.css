@@ -37,4 +37,18 @@
 .border-left {
   border-left: 0.15rem solid red;
 }
+.color-red {
+  color: red;
+}
+.success {
+  box-shadow: 0 0 5px #3e9646;
+  /*  border: 1px solid @color-green;*/
+}
+.error {
+  /* border: 1px solid @color-red;*/
+  box-shadow: 0 0 5px red;
+}
+.color-blue {
+  color: #3b0f96;
+}
 /*# sourceMappingURL=style.css.map */

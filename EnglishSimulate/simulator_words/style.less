@@ -5,6 +5,8 @@
 @left: 0.5rem;
 @bottom: 0.5rem;
 @color-red: red;
+@color-blue: #3b0f96;
+@color-green: #3e9646;
 
 .wrapper {
   width: 50rem;
@@ -50,4 +52,22 @@
 
 .border-left {
    border-left: 0.15rem solid @color-red;
+}
+
+.color-red {
+   color: @color-red;
+}
+
+.success {
+   box-shadow: 0 0 5px @color-green;
+ /*  border: 1px solid @color-green;*/
+}
+
+.error {
+  /* border: 1px solid @color-red;*/
+   box-shadow: 0 0 5px @color-red;
+}
+
+.color-blue {
+   color: @color-blue;
 }
