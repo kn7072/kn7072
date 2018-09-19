@@ -28,8 +28,8 @@
       <div class="flex">
          <div class="block flex f-column margin-b">
             <div class="block flex margin-b">
-               <div class="passiveWord margin-r">Test</div>
-               <div class="">Transcription</div>
+               <div id="passiveWord" class="margin-r color-blue"></div>
+               <div id="transcription" class="color-red"></div>
             </div>
             <div class="block flex margin-b">
                <div class="margin-r">Введите слово</div>
@@ -41,9 +41,9 @@
       </div>
 
       <div class="">
-         <input name="learn" type="radio" value="Знаю">Знаю</input>
-         <input name="learn" type="radio" value="На изучение" checked>На изучение</input>
-         <input id="next" name="next" type="submit" value="Далее" class="margin-l">
+         <input name="learn" type="radio" value="true">Знаю</input>
+         <input name="learn" type="radio" value="false" checked>На изучение</input>
+         <input id="next" name="next" type="submit" value="Далее" disabled class="margin-l">
       </div>
    </div>
 </body>

@@ -1,13 +1,26 @@
 document.addEventListener( "DOMContentLoaded", () => {
     let fieldMain = document.querySelector( ".fieldMain" ),
         btnNext = document.getElementById( "next" ),
+		  passiveWord = document.getElementById( "passiveWord" ),
+		  transcription = document.getElementById( "transcription" ),
         btnStart = document.getElementById( "start" ),
         btnCheck = document.getElementById( "check" ),
         rangeStart = document.getElementById( "rangeStart" ),
         rangeFInish = document.getElementById( "rangeFInish" ),
         activWord = document.getElementById( "activWord" ),
         typeExercise = document.getElementById( "typeExercise" ),
-
+		 result,
+		 private = {
+    		check: function(valid) {
+				if (valid) {
+					this.classList.remove('error');
+					this.classList.add('success');
+				} else {
+					this.classList.add('error');
+					this.classList.remove('success');
+				}
+    		}
+		 },
         isValue = ( value ) => {
             return value ? value : false;
         },
@@ -43,9 +56,11 @@ document.addEventListener( "DOMContentLoaded", () => {
 
             xhr.onreadystatechange = function() {
                 if ( xhr.readyState === 4 && xhr.status === 200 ) {
-						 console.log( this.responseText );
+						 result = JSON.parse( this.responseText);
+						 transcription.innerText = result.trancription;
+						 passiveWord.innerText = result.translate;
                 }
-
+				//	Object { trancription: " |fɜːrm|", word: "firm", translate: "фирма, торговый дом, твердый, крепкий, твердо, крепко, укреплять" }
             };
 
             xhr.send( body );
@@ -61,6 +76,17 @@ document.addEventListener( "DOMContentLoaded", () => {
         send( param );
     } );
 
+	btnCheck.addEventListener( "click", () => {
+		let valid = false,
+			desable = true;
+		if (activWord.value === result.word) {
+			desable = false;
+			valid = true;
+		}
+		btnNext.disabled = desable;
+		private.check.call(activWord, valid);
+	} );
+
     typeExercise.addEventListener( "change", ( e ) => {
 
     } );
@@ -74,7 +100,11 @@ document.addEventListener( "DOMContentLoaded", () => {
     } );
 
     btnNext.addEventListener( "click", () => {
-
-
+		let param = {
+			"type": typeExercise.value,
+			"word": result.word,
+			'know': document.querySelector('[name="learn"]:checked').value
+		}
+		 send( param );
     } );
 } );
