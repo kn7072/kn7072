@@ -9,6 +9,8 @@ document.addEventListener( "DOMContentLoaded", () => {
         rangeFInish = document.getElementById( "rangeFInish" ),
         activWord = document.getElementById( "activWord" ),
         typeExercise = document.getElementById( "typeExercise" ),
+        finish = document.getElementById( "finish" ),
+		 sound = document.getElementById( "sound" ),
 		 result,
 		 private = {
     		check: function(valid) {
@@ -57,14 +59,21 @@ document.addEventListener( "DOMContentLoaded", () => {
             xhr.onreadystatechange = function() {
                 if ( xhr.readyState === 4 && xhr.status === 200 ) {
 						 result = JSON.parse( this.responseText);
-						 transcription.innerText = result.trancription;
 						 passiveWord.innerText = result.translate;
                 }
-				//	Object { trancription: " |fɜːrm|", word: "firm", translate: "фирма, торговый дом, твердый, крепкий, твердо, крепко, укреплять" }
             };
 
             xhr.send( body );
-        };
+        },
+	 		distbled = (Enable) => {
+				let radio = document.querySelectorAll('[name="learn"]');
+				for (var i = 0, len = radio.length; i < len; i++) {
+					if (radio[i].value === 'false') {
+						radio[i].checked = true;
+					}
+					radio[i].disabled = Enable
+				}
+			};
 
     btnStart.addEventListener( "click", () => {
         let param = {
@@ -76,19 +85,53 @@ document.addEventListener( "DOMContentLoaded", () => {
         send( param );
     } );
 
+	finish.addEventListener( "click", () => {
+        let param = {
+            "type": typeExercise.value,
+            "finishWork": rangeFInish.value
+        };
+
+        send( param );
+    } );
+
+	sound.addEventListener( "click", () => {
+		let param = {
+			"type": 'en',
+			"sound": true,
+			"word": result.word
+		};
+
+		send( param );
+	} );
+
+	transcription.addEventListener( "mouseenter", () => {
+		transcription.innerText = result.trancription;
+    } );
+
+	transcription.addEventListener( "mouseleave", () => {
+		transcription.innerText = 'Посмотреть транскрипцию';
+    } );
+
 	btnCheck.addEventListener( "click", () => {
 		let valid = false,
 			desable = true;
 		if (activWord.value === result.word) {
 			desable = false;
 			valid = true;
+		} else {
+			distbled(true);
 		}
+
 		btnNext.disabled = desable;
 		private.check.call(activWord, valid);
 	} );
 
     typeExercise.addEventListener( "change", ( e ) => {
-
+    	if (e.currentTarget.value === 'ru') {
+			transcription.classList.remove('hidden');
+    	} else {
+			transcription.classList.add('hidden');
+		}
     } );
 
     rangeStart.addEventListener( "change", ( e ) => {
@@ -105,6 +148,7 @@ document.addEventListener( "DOMContentLoaded", () => {
 			"word": result.word,
 			'know': document.querySelector('[name="learn"]:checked').value
 		}
+		 distbled(false);
 		 send( param );
     } );
 } );

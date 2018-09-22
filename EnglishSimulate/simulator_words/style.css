@@ -6,11 +6,40 @@
   display: flex;
   margin: 10% auto;
 }
+#transcription {
+  width: 15rem;
+  color: #999;
+  padding: 0.3rem;
+  border: 0.1rem solid #999;
+}
+#transcription:hover {
+  color: red;
+}
+#finish {
+  margin-left: 5rem;
+}
 .flex {
   display: flex;
 }
 .f-column {
   flex-direction: column;
+}
+.f-align-center {
+  align-items: center;
+}
+.hidden {
+  display: none;
+}
+#sound {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.5rem;
+  border-radius: 50%;
+  background-size: 100%;
+  background-image: url("./source/sound_blue.png");
+}
+#sound:hover {
+  box-shadow: 0 0 0.1rem #4f82e2;
 }
 .passiveWord {
   idth: 200px;
