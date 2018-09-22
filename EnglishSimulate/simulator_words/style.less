@@ -7,11 +7,28 @@
 @color-red: red;
 @color-blue: #3b0f96;
 @color-green: #3e9646;
+@color-grey: #999;
+
 
 .wrapper {
   width: 50rem;
   display: flex;
   margin: 10% auto;
+}
+
+#transcription {
+   width: 15rem;
+   color: @color-grey;
+   padding: 0.3rem;
+   border: 0.1rem solid @color-grey;
+}
+
+#transcription:hover {
+   color: @color-red;
+}
+
+#finish {
+   margin-left: 5rem;
 }
 
 .flex {
@@ -20,6 +37,28 @@
 
 .f-column {
   flex-direction: column;
+}
+
+.f-align-center {
+   align-items: center;
+}
+
+
+.hidden {
+   display: none;
+}
+
+#sound {
+   width: 2rem;
+   height: 2rem;
+   margin-left: 0.5rem;
+   border-radius: 50%;
+   background-size: 100%;
+   background-image: url("./source/sound_blue.png");
+}
+
+#sound:hover {
+   box-shadow: 0 0 0.1rem #4f82e2;
 }
 
 .passiveWord {
