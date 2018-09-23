@@ -52,7 +52,7 @@ document.addEventListener( "DOMContentLoaded", () => {
 
             let xhr = new XMLHttpRequest();
 
-            xhr.open( "POST", "http://localhost:8088/"+ data.type, true );
+            xhr.open( "POST", "http://localhost:8090/"+ data.type, true );
 
             xhr.setRequestHeader( "Content-Type", `multipart/form-data; boundary=${ boundary}` );
 
@@ -96,7 +96,7 @@ document.addEventListener( "DOMContentLoaded", () => {
 
 	sound.addEventListener( "click", () => {
 		let param = {
-			"type": 'en',
+			"type": 'ru',
 			"sound": true,
 			"word": result.word
 		};
