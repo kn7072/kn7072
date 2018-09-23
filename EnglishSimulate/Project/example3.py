@@ -76,7 +76,7 @@ class MyHandler(BaseHTTPRequestHandler):
         return temp
 
     def do_POST(self):
-        if self.path == "/ru":
+        if self.path in ["/ru", "/en", "/sound"]:
             fields = self._analisis_request()
             if fields.get("start"):
                 self._start(fields)
@@ -86,8 +86,8 @@ class MyHandler(BaseHTTPRequestHandler):
                     word_json = self.get_json(word_next)
                     self.wfile.write(word_json)
                 except StopIteration as e:
-                    # TODO ВОЗВРАЩАТЬ ПУСТОЙ ОТВЕТ
-                    self.wfile.write(b"The end")
+                    res = json.dumps({"end": 1}).encode()
+                    self.wfile.write(res)
             elif fields.get("know"):
                 updata_base(fields)
                 try:
@@ -95,13 +95,14 @@ class MyHandler(BaseHTTPRequestHandler):
                     word_json = self.get_json(word_next)
                     self.wfile.write(word_json)
                 except StopIteration as e:
-                    # TODO ВОЗВРАЩАТЬ ПУСТОЙ ОТВЕТ
-                    self.wfile.write(b"The end")
+                    res = json.dumps({"end": 1}).encode()
+                    self.wfile.write(res)
             elif fields.get("sound"):
                 word = fields["word"][0].decode()
                 play_sound(word)
-                self.wfile.write(b"sound")
-            else:
+                res = json.dumps({"sound": 1}).encode()
+                self.wfile.write(res)
+            elif fields.get("finishWork"):
                 self._shutdown_server()
             return
 

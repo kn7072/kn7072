@@ -48,6 +48,9 @@ class Simulation:
 
 
 if __name__ == "__main__":
-    creata_work_base("core_word_base.db")
-    inst = Simulation()
-    inst._start_server()
+    try:
+        creata_work_base("core_word_base.db")
+        inst = Simulation()
+        inst._start_server()
+    except:
+        inst._shutdown_server()
