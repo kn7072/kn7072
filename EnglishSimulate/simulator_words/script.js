@@ -58,8 +58,11 @@ document.addEventListener( "DOMContentLoaded", () => {
 
             xhr.onreadystatechange = function() {
                 if ( xhr.readyState === 4 && xhr.status === 200 ) {
-						 result = JSON.parse( this.responseText);
-						 passiveWord.innerText = result.translate;
+             if (!data.sound) {
+               result = JSON.parse( this.responseText);
+               passiveWord.innerText = result.translate;
+             }
+
                 }
             };
 
@@ -68,7 +71,7 @@ document.addEventListener( "DOMContentLoaded", () => {
 	 		distbled = (Enable) => {
 				let radio = document.querySelectorAll('[name="learn"]');
 				for (var i = 0, len = radio.length; i < len; i++) {
-					if (radio[i].value === 'false') {
+					if (radio[i].value === '0') {
 						radio[i].checked = true;
 					}
 					radio[i].disabled = Enable

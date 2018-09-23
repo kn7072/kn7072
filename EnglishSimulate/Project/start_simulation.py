@@ -42,10 +42,6 @@ class Simulation:
         t = Thread(target=kill_me_please, args=(self.server,))
         t.daemon = True
         t.start()
-        # self.server.shutdown()
-        #self.server.socket.close()
-        # self.server.server_close()
-
 
 if __name__ == "__main__":
     try:

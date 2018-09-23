@@ -70,7 +70,7 @@ def updata_base(res):
 
     data_now = datetime.strftime(datetime.now().date(), '%d.%m.%Y')
     sql_updata = """
-    UPDATE core_word_base SET know='{know}', repeat='{repeat}', data='{data}'
+    UPDATE core_word_base SET know='{know}', repeat='{repeat}', data='{data}' WHERE word='{word}'
     """
 
     with sqlite3.connect("work_db.db") as db:
@@ -90,7 +90,7 @@ def updata_base(res):
         else:
             repeat = info_word_db["repeat"] + 1
             repeat = repeat if repeat <= COUNT_REPEAT else COUNT_REPEAT
-        sql_updata = sql_updata.format(know=know, repeat=repeat, data=data_now)
+        sql_updata = sql_updata.format(know=know, repeat=repeat, data=data_now, word=res["word"])
         cur.execute(sql_updata)
 
 
