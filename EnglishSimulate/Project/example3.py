@@ -5,6 +5,7 @@ from db import query_sql, updata_base
 from play_audio import play_sound
 import cgi
 import json
+import random
 
 PORT_NUMBER = 8088
 
@@ -66,6 +67,9 @@ class MyHandler(BaseHTTPRequestHandler):
 
     @classmethod
     def _generate(cls):
+
+        # перетасуем слова
+        random.shuffle(cls.list_word)
         for i in cls.list_word:
             x = yield i
             if x:

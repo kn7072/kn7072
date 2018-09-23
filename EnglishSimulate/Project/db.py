@@ -70,27 +70,30 @@ def updata_base(res):
 
     data_now = datetime.strftime(datetime.now().date(), '%d.%m.%Y')
     sql_updata = """
-    UPDATE core_word_base SET know='{know}', repeat='{repeat}', data='{data}' WHERE word='{word}'
+    UPDATE core_word_base SET know='{know}', repeat='{repeat}', data='{data}', count='{count}' WHERE word='{word}'
     """
 
     with sqlite3.connect("work_db.db") as db:
         db.row_factory = my_factory
         cur = db.cursor()
         info_word_db = cur.execute(sql_info_word).fetchone()
+        count = info_word_db["count"]
         if int(res["know"]):
-            if info_word_db["count"] == 0:
+            if count == 0:
                 know = 1
                 repeat = 0
+                count = 1
             else:
                 # слово написано(переведено или услышано) верно
                 repeat = info_word_db["repeat"] - 1
                 repeat = repeat if repeat > 0 else 0
+                count += 1
                 if repeat == 0:
                     know = 1
         else:
             repeat = info_word_db["repeat"] + 1
             repeat = repeat if repeat <= COUNT_REPEAT else COUNT_REPEAT
-        sql_updata = sql_updata.format(know=know, repeat=repeat, data=data_now, word=res["word"])
+        sql_updata = sql_updata.format(know=know, repeat=repeat, data=data_now, word=res["word"], count=count)
         cur.execute(sql_updata)
 
 
