@@ -87,7 +87,6 @@ class MyHandler(BaseHTTPRequestHandler):
                     self.wfile.write(word_json)
                 except StopIteration as e:
                     # TODO ВОЗВРАЩАТЬ ПУСТОЙ ОТВЕТ
-                    word_next = {}
                     self.wfile.write(b"The end")
             elif fields.get("know"):
                 updata_base(fields)
@@ -97,20 +96,19 @@ class MyHandler(BaseHTTPRequestHandler):
                     self.wfile.write(word_json)
                 except StopIteration as e:
                     # TODO ВОЗВРАЩАТЬ ПУСТОЙ ОТВЕТ
-                    word_next = {}
                     self.wfile.write(b"The end")
             elif fields.get("sound"):
                 word = fields["word"][0].decode()
                 play_sound(word)
                 self.wfile.write(b"sound")
             else:
-                print()
+                self._shutdown_server()
             return
 
         if self.path == "/en":
-            pass
+            print()
         if self.path == "/sound":
-            pass
+            print()
 
 if __name__ == "__main__":
     try:

@@ -27,6 +27,8 @@ def creata_work_base(path_base):
         ALTER TABLE core_word_base ADD COLUMN repeat INTEGER DEFAULT 5;
 
         ALTER TABLE core_word_base ADD COLUMN data TEXT DEFAULT NONE;
+
+        ALTER TABLE core_word_base ADD COLUMN count INTEGER DEFAULT 0;
         """
 
     with sqlite3.connect("work_db.db") as db:
@@ -76,11 +78,15 @@ def updata_base(res):
         cur = db.cursor()
         info_word_db = cur.execute(sql_info_word).fetchone()
         if int(res["know"]):
-            # слово написано(переведено или услышано) верно
-            repeat = info_word_db["repeat"] - 1
-            repeat = repeat if repeat > 0 else 0
-            if repeat == 0:
+            if info_word_db["count"] == 0:
                 know = 1
+                repeat = 0
+            else:
+                # слово написано(переведено или услышано) верно
+                repeat = info_word_db["repeat"] - 1
+                repeat = repeat if repeat > 0 else 0
+                if repeat == 0:
+                    know = 1
         else:
             repeat = info_word_db["repeat"] + 1
             repeat = repeat if repeat <= COUNT_REPEAT else COUNT_REPEAT
