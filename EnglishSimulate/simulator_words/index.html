@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="./source/jq_v3_3_1.js"></script>
+    <!--<script src="./source/jq_v3_3_1.js"></script>-->
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css"/>
     <title>Document</title>
@@ -12,8 +12,8 @@
    <div class="wrapper f-column">
       <div class="block flex b-head">
          <select id="typeExercise" name="type-simulator" >
-            <option value="ru">Russian</option>
-            <option value="en" selected>English</option>
+            <option value="ru" selected>Russian</option>
+            <option value="en">English</option>
             <option value="sound">Sound</option>
          </select>
          <div class="flex block margin-l">
@@ -22,14 +22,19 @@
             <div>до</div>
             <input id="rangeFInish" type="text" size="4" maxlength="4"class="margin-l">
             <input id="start" name="start" type="submit" value="Начать" disabled class="margin-l">
+            <input id="finish" type="submit" value="Завершить" class="">
          </div>
       </div>
 
       <div class="flex">
          <div class="block flex f-column margin-b">
-            <div class="block flex margin-b">
+            <div class="block flex f-column margin-b">
+               <div class="flex f-align-center">
+                  <div id="transcription" class="">Посмотреть транскрипцию</div>
+                  <div class="margin-l">Прослушать</div>
+                  <div id="sound"></div>
+               </div>
                <div id="passiveWord" class="margin-r color-blue"></div>
-               <div id="transcription" class="color-red"></div>
             </div>
             <div class="block flex margin-b">
                <div class="margin-r">Введите слово</div>
