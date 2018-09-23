@@ -1,13 +1,21 @@
 /*input:required:invalid {
   border:1px solid red;
 }*/
+body {
+  font-size: 1.3rem;
+  background: beige;
+}
+input,
+select {
+  font-size: inherit;
+}
 .wrapper {
   width: 50rem;
   display: flex;
   margin: 10% auto;
 }
 #transcription {
-  width: 15rem;
+  width: 19rem;
   color: #999;
   padding: 0.3rem;
   border: 0.1rem solid #999;

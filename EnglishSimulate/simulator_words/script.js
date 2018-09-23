@@ -76,6 +76,12 @@ document.addEventListener( "DOMContentLoaded", () => {
 					}
 					radio[i].disabled = Enable
 				}
+			},
+
+	 		clearActiveWord = () => {
+				activWord.value = '';
+				activWord.classList.remove('error');
+				activWord.classList.remove('success');
 			};
 
     btnStart.addEventListener( "click", () => {
@@ -151,6 +157,7 @@ document.addEventListener( "DOMContentLoaded", () => {
 			"word": result.word,
 			'know': document.querySelector('[name="learn"]:checked').value
 		}
+		 clearActiveWord();
 		 distbled(false);
 		 send( param );
     } );
