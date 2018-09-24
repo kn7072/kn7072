@@ -57,7 +57,7 @@ class MyHandler(BaseHTTPRequestHandler):
     def _start(self, fields):
         start = int(fields["start"][0])
         finish = int(fields["finish"][0])
-        sql = """SELECT word, translate, transcription FROM core_word_base WHERE know==0 AND
+        sql = """SELECT word, translate, transcription, num_word_garibyan FROM core_word_base WHERE know==0 AND
                         id BETWEEN {start} AND {finish};""".format(start=start, finish=finish)
         res = query_sql(sql)
         if res:
@@ -76,7 +76,8 @@ class MyHandler(BaseHTTPRequestHandler):
                 return
 
     def get_json(self, data):
-        temp = json.dumps({"word": data[0], "translate": data[1], "trancription": data[2]}).encode()
+        temp = json.dumps({"word": data[0], "translate": data[1], "trancription": data[2],
+                           "num_word_garibyan": data[3]}).encode()
         return temp
 
     def do_POST(self):
