@@ -5,7 +5,7 @@ from parser_db import get_info_word
 
 def into_db(path_db, table_name, data):
     sql = """
-    INSERT INTO {table_name} (id, word, translate, transcription) VALUES (?, ?, ?, ?)
+    INSERT INTO {table_name} (id, word, translate, transcription, num_word_garibyan) VALUES (?, ?, ?, ?, ?)
     """.format(table_name=table_name)
     with sqlite3.connect(path_db) as db:
         cur = db.cursor()
@@ -20,7 +20,7 @@ def create_db(path_db, table_name):
     with sqlite3.connect(path_db) as db:
         sql = """
         CREATE TABLE IF NOT EXISTS {table_name} (id INTEGER PRIMARY KEY AUTOINCREMENT, word TEXT, translate TEXT,
-         transcription TEXT)
+         transcription TEXT, num_word_garibyan INTEGER)
         """.format(table_name=table_name)
         cur = db.cursor()
         cur.execute(sql)
@@ -45,6 +45,16 @@ def get_data(path_base, table_name, column_name):
         print("Ошибка ", err)
 
 
+def get_field(path_db, table, word):
+    sql = """
+    SELECT num FROM {table} WHERE word='{word}'
+    """.format(table=table, word=word)
+    with sqlite3.connect(path_db) as db:
+        cur = db.cursor()
+        res = cur.execute(sql)
+        return res.fetchall()
+
+
 word_oxford = set(get_data("oxford.db", "oxford", "word"))
 word_garib = set(get_data("test.db", "WORDS_GARIBAN_ALL", "word"))
 word_sanstv = set(get_data("sanstv.db", "sanstv", "word"))
@@ -61,6 +71,13 @@ list_data = []
 # for word_i in intersection_sanstv_oxford_gari:
 #     data = get_info_word(word_i)
 #     list_data.append(data)
+yyy = []
+for word_i in xxx:
+    num_i = get_field("test.db", "WORDS_GARIBAN_ALL", word_i[0])[0][0]
+    temp = list(word_i)
+    temp.append(num_i)
+    yyy.append(temp)
+print()
 
-into_db(path_db, "core_word_base", xxx)
+into_db(path_db, "core_word_base", yyy)
 print()
