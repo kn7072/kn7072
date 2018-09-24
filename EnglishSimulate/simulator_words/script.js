@@ -10,6 +10,7 @@ document.addEventListener( "DOMContentLoaded", () => {
         activWord = document.getElementById( "activWord" ),
         typeExercise = document.getElementById( "typeExercise" ),
         finish = document.getElementById( "finish" ),
+		 idGaribian = document.getElementById( "idGaribian" ),
 		 sound = document.getElementById( "sound" ),
 		 result,
 		 private = {
@@ -61,6 +62,7 @@ document.addEventListener( "DOMContentLoaded", () => {
              if (!data.sound) {
                result = JSON.parse( this.responseText);
                passiveWord.innerText = result.translate;
+				   idGaribian.innerText = result.num_word_garibyan;
              }
 
                 }
