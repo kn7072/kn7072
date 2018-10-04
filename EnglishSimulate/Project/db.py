@@ -92,6 +92,7 @@ def updata_base(res):
                     know = 1
         else:
             repeat = info_word_db["repeat"] + 1
+            count += 1
             repeat = repeat if repeat <= COUNT_REPEAT else COUNT_REPEAT
         sql_updata = sql_updata.format(know=know, repeat=repeat, data=data_now, word=res["word"], count=count)
         cur.execute(sql_updata)
