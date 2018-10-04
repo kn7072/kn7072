@@ -12,6 +12,7 @@ document.addEventListener( "DOMContentLoaded", () => {
         finish = document.getElementById( "finish" ),
 		 idGaribian = document.getElementById( "idGaribian" ),
 		 sound = document.getElementById( "sound" ),
+		 numToFinish = document.getElementById( "numToFinish" ),
 		 result,
 		 private = {
     		check: function(valid) {
@@ -62,7 +63,8 @@ document.addEventListener( "DOMContentLoaded", () => {
              if (!data.sound) {
                result = JSON.parse( this.responseText);
                passiveWord.innerText = result.translate;
-				   idGaribian.innerText = result.num_word_garibyan;
+					 numToFinish.innerText = result.num_to_finish;
+				   idGaribian.innerText = result.num_word_garibyan || 0;
              }
 
                 }
