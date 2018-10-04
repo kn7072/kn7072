@@ -67,17 +67,17 @@ class MyHandler(BaseHTTPRequestHandler):
 
     @classmethod
     def _generate(cls):
-
         # перетасуем слова
         random.shuffle(cls.list_word)
-        for i in cls.list_word:
-            x = yield i
+        count_word = len(cls.list_word)
+        for i, word in enumerate(cls.list_word):
+            x = yield (count_word - i), word
             if x:
                 return
 
-    def get_json(self, data):
+    def get_json(self, data, num_to_finish):
         temp = json.dumps({"word": data[0], "translate": data[1], "trancription": data[2],
-                           "num_word_garibyan": data[3]}).encode()
+                           "num_word_garibyan": data[3], "num_to_finish": num_to_finish}).encode()
         return temp
 
     def do_POST(self):
@@ -87,8 +87,8 @@ class MyHandler(BaseHTTPRequestHandler):
                 self._start(fields)
                 self.__class__.send = self._generate()
                 try:
-                    word_next = self.__class__.send.__next__()
-                    word_json = self.get_json(word_next)
+                    num_to_finish, word_next = self.__class__.send.__next__()
+                    word_json = self.get_json(word_next, num_to_finish)
                     self.wfile.write(word_json)
                 except StopIteration as e:
                     res = json.dumps({"end": 1}).encode()
@@ -96,8 +96,8 @@ class MyHandler(BaseHTTPRequestHandler):
             elif fields.get("know"):
                 updata_base(fields)
                 try:
-                    word_next = self.__class__.send.__next__()
-                    word_json = self.get_json(word_next)
+                    num_to_finish, word_next = self.__class__.send.__next__()
+                    word_json = self.get_json(word_next, num_to_finish)
                     self.wfile.write(word_json)
                 except StopIteration as e:
                     res = json.dumps({"end": 1}).encode()
