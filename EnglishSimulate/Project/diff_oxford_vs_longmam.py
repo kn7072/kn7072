@@ -2,6 +2,7 @@
 import os
 import sqlite3
 from parsing.parser_db import get_info_word
+import subprocess
 
 path_to_dir = r"..\file_words"
 path_db = "longman_base.db"
@@ -121,48 +122,102 @@ print()
 
 path_result = "result"
 len_temp = len(temp) - 1
-data_empty = get_bin_data("empty5_96.mp3")
+data_empty = get_bin_data("silence.mp3")  # silence.mp3  empty5_96.mp3
 
+
+# def create_files(name_file, start, end):
+#     name_file_txt = os.path.join(path_result, name_file + ".txt")
+#     f_txt = open(name_file_txt, "w", encoding="utf-8")
+#     name_file_sound = os.path.join(path_result, name_file + ".mp3")
+#     f_mp3 = open(name_file_sound, "bw")
+#     #f_mp3.write(data_empty)
+#     try:
+#         for i in range(start, end+1):
+#             if i <= len_temp:
+#                 data_i = temp[i]
+#                 txt_text = "{0} {1} {2} {3}\n".format(data_i[0], *data_i[2])
+#                 f_txt.write(txt_text)
+#
+#                 data_mp3 = get_bin_data(data_i[1])
+#                 f_mp3.write(data_mp3)
+#                 f_mp3.write(data_empty)
+#                 f_mp3.write(data_mp3)
+#                 f_mp3.write(data_empty)
+#
+#                 for path_rus_sound_i in data_i[-1]:
+#                     if os.path.isfile(path_rus_sound_i):
+#                         data_rus_mp3 = get_bin_data(path_rus_sound_i)
+#                         f_mp3.write(data_rus_mp3)
+#                         f_mp3.write(data_empty)
+#                         break
+#                 else:
+#                     print("Звуковой файл не найден %s" % data_i[-1])
+#
+#     except Exception as e:
+#         print(e)
+#     finally:
+#         f_txt.close()
+#         f_mp3.write(data_empty)
+#         f_mp3.close()
+
+list_comand = []
+temp_ = 'ffmpeg -i "concat:{content}" -acodec copy -metadata "title=" -metadata "comment=" {path_file} -map_metadata 0:-1'
 
 def create_files(name_file, start, end):
     name_file_txt = os.path.join(path_result, name_file + ".txt")
     f_txt = open(name_file_txt, "w", encoding="utf-8")
     name_file_sound = os.path.join(path_result, name_file + ".mp3")
-    f_mp3 = open(name_file_sound, "bw")
+    # f_mp3 = open(name_file_sound, "bw")
     #f_mp3.write(data_empty)
+    srt_sounds = r"longman_rus_mono\silence.mp3"
+    s = r"longman_rus_mono\silence.mp3"
     try:
         for i in range(start, end+1):
             if i <= len_temp:
                 data_i = temp[i]
                 txt_text = "{0} {1} {2} {3}\n".format(data_i[0], *data_i[2])
                 f_txt.write(txt_text)
-
-                data_mp3 = get_bin_data(data_i[1])
-                f_mp3.write(data_mp3)
-                f_mp3.write(data_empty)
-                f_mp3.write(data_mp3)
-                f_mp3.write(data_empty)
+                srt_sounds = srt_sounds + "|" + data_i[1] + "|" + s + "|" + data_i[1] + "|" + s
+                # data_mp3 = get_bin_data(data_i[1])
+                # f_mp3.write(data_mp3)
+                # f_mp3.write(data_empty)
+                # f_mp3.write(data_mp3)
+                # f_mp3.write(data_empty)
 
                 for path_rus_sound_i in data_i[-1]:
                     if os.path.isfile(path_rus_sound_i):
-                        data_rus_mp3 = get_bin_data(path_rus_sound_i)
-                        f_mp3.write(data_rus_mp3)
-                        f_mp3.write(data_empty)
+                        srt_sounds = srt_sounds + "|" + path_rus_sound_i + "|" + s
+                        #data_rus_mp3 = get_bin_data(path_rus_sound_i)
+                        #f_mp3.write(data_rus_mp3)
+                        #f_mp3.write(data_empty)
                         break
                 else:
                     print("Звуковой файл не найден %s" % data_i[-1])
+        list_comand.append([temp_.format(content=srt_sounds, path_file=name_file_sound), name_file_sound])
 
     except Exception as e:
         print(e)
     finally:
         f_txt.close()
-        f_mp3.write(data_empty)
-        f_mp3.close()
+        # f_mp3.write(data_empty)
+        # f_mp3.close()
 
 for i in range(len(temp) // count_word_for_file + 1):
     start = i*count_word_for_file
     end = (i+1)*count_word_for_file
     temp_file_name = "{start}_{end}".format(start=start, end=end)
     create_files(temp_file_name, start, end)
+
+print(list_comand[0])
+
+def create_mp3_file(command, file):
+    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    # print(" ".join(commands))
+    #process.wait(60)
+    stdout, stderr = process.communicate()
+    if not os.path.isfile(file):
+        print(file)
+for command, flle in list_comand:
+    create_mp3_file(command, flle)
 
 print()
