@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>3000 words</title>
+    <meta content="">
+    <meta charset="utf-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div>
+      <div class="group"><a name='group_1'></a>
+        <div class="header-group">group_1</div>
+        <div class="flex">
+          <div class="flex flex-column container">
+              <div><a name='dog'>dog</a></div>
+              <div class="blue">Собака</div>
+              <div class="red">[dog]</div>
+              <div class="flex">
+                <a href='#group_2' class="buttom">group_2</a>
+                <a href='#group_3' class="buttom">group_3</a>
+              </div>
+            </div>
+            <div class="flex flex-column container">
+              <div><a name='cat'>cat</a></div>
+              <div class="blue">Кошка</div>
+              <div class="red">[cat]</div>
+              <div class="flex">
+                <a href='#group_3' class="buttom">group_3</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+      <!-- <div style="height: 1000px;"></div> -->
+
+      <div class="container group"><a name="group_2"></a>
+        <div class="header-group">group_2</div>
+        <div class="flex flex-column container">
+          <div><a name='dog'>dog</a></div>
+          <div class="blue">Собака</div>
+          <div class="red">[dog]</div>
+          <div class="flex">
+            <a href='#dog' class="buttom">group_1</a>
+            <a href='#group_3' class="buttom">group_3</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container group"><a name="group_3"></a>
+        <div class="header-group">group_3</div>
+        <div class="flex flex-column container">
+            <div><a name='dog'>dog</a></div>
+            <div class="blue">Собака</div>
+            <div class="red">[dog]</div>
+            <div class="flex">
+              <a href='#dog' class="buttom">group_1</a>
+              <a href='#group_2' class="buttom">group_2</a>
+            </div>
+          </div>
+          <div class="flex flex-column container">
+              <div><a name='cat'>cat</a></div>
+              <div class="blue">Кошка</div>
+              <div class="red">[cat]</div>
+              <div class="flex">
+                <a href='#cat' class="buttom">group_1</a>
+              </div>
+            </div>
+      </div>
+      
+    </div>
+  </body>
+</html>

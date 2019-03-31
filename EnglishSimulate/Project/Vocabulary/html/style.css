@@ -1,0 +1,76 @@
+.blue {
+    color: blue
+}
+
+.red {
+    color: red
+}
+
+.green {
+    color: green;
+}
+
+.red-dark {
+    color: crimson;
+}
+
+.container {
+    border: 1px solid #999;
+    margin: 5px;
+    padding: 5px;
+}
+
+.flex {
+   display: flex 
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.buttom {
+    margin: 3px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.group {
+    border: 2px solid blue;
+    padding: 5px
+}
+
+.header-group {
+    text-align: end;
+}
+
+.width-18 {
+    width: 18%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.mrg-tom-5 {
+    margin-top: 5px;
+}
+
+.mrg-left-5 {
+    margin-left: 5px;
+}
