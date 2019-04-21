@@ -49,6 +49,10 @@ antonyms = """
 <div class="red-dark mrg-tom-5">{text}</div>
 """
 
+comment = """
+<div class="green mrg-tom-5">{text}</div>
+"""
+
 contant_word = """
 <div class="flex flex-column container width-32 justify-content-between">
     <div class="flex">

@@ -46,6 +46,7 @@ def get_additional_content(content_word):
     examples = content_word["examples"]
     antonyms = content_word["antonyms"]
     synonyms = content_word["synonyms"]
+    comment = content_word["comment"]
     content_list = []
 
     if examples:
@@ -64,6 +65,10 @@ def get_additional_content(content_word):
         temp_mnemonic = templates.mnemonic
         content_mnemonic = temp_mnemonic.format(text=" ".join(mnemonic))
         content_list.append(content_mnemonic)
+    if comment:
+        temp_comment = templates.comment
+        content_comment = temp_comment.format(text=" ".join(comment))
+        content_list.append(content_comment)
     html_content = "\n".join(content_list)
     return html_content
 
