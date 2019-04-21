@@ -8,6 +8,7 @@ html_body = """
         <meta charset="utf-8">
         <script src="script.js"></script>
         <link rel="stylesheet" href="style.css"/>
+        <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
     </head>
     <body>
             <div>
@@ -49,7 +50,7 @@ antonyms = """
 """
 
 contant_word = """
-<div class="flex flex-column container width-30 justify-content-between">
+<div class="flex flex-column container width-32 justify-content-between">
     <div class="flex">
         <div><a name='{word}'>{word}</a></div>
         <div class="red font-weight-700 mrg-left-5">{transcription}</div>
@@ -74,7 +75,9 @@ group_all_words = """
 group_words = """
 <div class="container group"><a name="{group_name}"></a>
     <div class="header-group">{group_name}</div>
-        {contant_word}
+        <div class="flex">
+            {contant_word}
+        </div>
     </div>
 </div>
 """
