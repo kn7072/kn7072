@@ -26,26 +26,31 @@ url = "https://wooordhunt.ru"
 word_name = "Champagne"
 
 
-def get_info_word(word):
-    url_word = "%s/word/%s" % (url, word)
-    r = requests.get(url_word)
-    data_html = r.text
+def get_info_word(word, path_create_sound="audio"):
+    translate, transcription = "", ""
+    try:
+        url_word = "%s/word/%s" % (url, word)
+        r = requests.get(url_word)
+        data_html = r.text
 
-    search = compl_1.search(data_html)
-    all_test = search.group("text")
+        search = compl_1.search(data_html)
+        all_test = search.group("text")
 
-    search_sound = compl_sound.search(all_test)
-    paht_to_sound = search_sound.group("path_sound")
-    all_path = url + paht_to_sound
-    data_sound = requests.get(all_path)
-    path_dir_sounds = os.path.join(os.getcwd(), "audio")
-    create_sound_file(word, data_sound.content, path_dir_sounds)
+        search_sound = compl_sound.search(all_test)
+        paht_to_sound = search_sound.group("path_sound")
+        all_path = url + paht_to_sound
+        data_sound = requests.get(all_path)
+        path_dir_sounds = os.path.join(os.getcwd(), path_create_sound)
+        create_sound_file(word, data_sound.content, path_dir_sounds)
 
-    search_transcription = compl_trans.search(all_test)
-    transcription = search_transcription.group("transcription")
+        search_transcription = compl_trans.search(all_test)
+        transcription = search_transcription.group("transcription")
 
-    search_translate = compl_translate.search(data_html)
-    translate = search_translate.group("translate")
+        search_translate = compl_translate.search(data_html)
+        translate = search_translate.group("translate")
+    except Exception as e:
+        print(e)
+        print("Проблемное слово - %s" % word)
     return word, translate, transcription
 
 if __name__ == "__main__":

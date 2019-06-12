@@ -97,6 +97,19 @@ def updata_base(res):
         sql_updata = sql_updata.format(know=know, repeat=repeat, data=data_now, word=res["word"], count=count)
         cur.execute(sql_updata)
 
+def crate_file_base(name_db, name_table):
+    sql = "SELECT id, num_word_garibyan, word, translate, transcription FROM {name_table}".format(name_table=name_table)
+    with sqlite3.connect(name_db) as db:
+        cur = db.cursor()
+        res = cur.execute(sql)
+        with open("bakap.csv", "w", encoding="utf-8") as f:
+            for i in res.fetchall():
+                f.write(";".join(map(str, i))+";\n")
+                #print()
+        #return res.fetchall()
+
+if True:
+    crate_file_base("core_word_base.db", "core_word_base")
 
 if __name__ == "__main__":
     creata_work_base("core_word_base.db")

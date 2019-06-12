@@ -13,9 +13,6 @@ compl_parent_re_phrase = re.compile(parent_re_phrase, re.DOTALL)
 id_re = r'id=\"play_(?P<id>.+?)\"'
 compl_id_re = re.compile(id_re, re.DOTALL)
 
-from lxml import etree
-from io import StringIO, BytesIO
-
 list_word = []
 with open("info_longman.txt", "r", encoding="utf-8") as f:
     list_word = f.read().split("\n")

@@ -2,6 +2,7 @@
 import sqlite3
 import requests
 import re
+from lxml import etree
 
 
 temp_all_word_page = r"wordlist-oxford3000 list-plain\">(?P<all_word_page>.*?)<\/ul>"

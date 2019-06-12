@@ -26,7 +26,7 @@ url = "https://wooordhunt.ru"
 word_name = "Champagne"
 
 
-def get_info_word(word):
+def get_info_word(word, path_create_sound="audio"):
     url_word = "%s/word/%s" % (url, word)
     r = requests.get(url_word)
     data_html = r.text
@@ -38,7 +38,7 @@ def get_info_word(word):
     paht_to_sound = search_sound.group("path_sound")
     all_path = url + paht_to_sound
     data_sound = requests.get(all_path)
-    path_dir_sounds = os.path.join(os.getcwd(), "audio")
+    path_dir_sounds = os.path.join(os.getcwd(), path_create_sound)
     create_sound_file(word, data_sound.content, path_dir_sounds)
 
     search_transcription = compl_trans.search(all_test)

@@ -1,6 +1,6 @@
 # coding="utf-8"
 import sqlite3
-from parser_db import get_info_word
+
 
 
 def into_db(path_db, table_name, data):
