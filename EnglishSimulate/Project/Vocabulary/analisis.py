@@ -8,8 +8,8 @@ with open(path_to_json_words, encoding="utf-8") as f:
 
 modificate_obj = deepcopy(obj_words)
 
-name_groups = ["Инфинитив с to после прил((am, is, are и т. д.) + прилагательное + инфинитив)", "Инфинитив"]
-path_to_words = r"НеличныеФормы\Инфинитив\ПослеПрилаг\слова.txt"
+name_groups = ["Инфинитив с to после прил(подлежащие логическое дополнение инфинитива)", "Инфинитив"]
+path_to_words = r"НеличныеФормы\Инфинитив\ПослеПрилагОсобые\слова.txt"
 list_word = [word_i.strip() for word_i in open(path_to_words, encoding="utf-8")]
 
 temp = {
@@ -30,6 +30,7 @@ def analisis():
         find_word = obj_words.get(word_i)
         if find_word:
             modificate_obj[word_i]["grups"].extend(name_groups)
+            modificate_obj[word_i]["grups"] = list(set(modificate_obj[word_i]["grups"]))
         else:
             print("Не обнаружено слово %s" % word_i)
             modificate_obj[word_i] = temp
