@@ -12,6 +12,7 @@ html_body = """
     </head>
     <body>
             <div>
+                <div id="switchVisibleGroups">Hide/Show Groups</div>
                 {body}
             </div>
     </body>
@@ -61,7 +62,7 @@ contant_word = """
     </div>
     <div class="blue">{translate}</div>
     {additional_content}
-    <div class="flex">
+    <div class="flex groupsContainer">
         {contant_list_groups}
     </div>
 </div>

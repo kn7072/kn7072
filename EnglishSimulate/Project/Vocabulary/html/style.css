@@ -78,3 +78,20 @@
 .mrg-left-5 {
     margin-left: 5px;
 }
+
+.hide {
+    display: none;
+}
+
+#switchVisibleGroups {
+    position: fixed;
+    top: 50%;
+    right: 15px;
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: cornsilk;
+    max-width: 90px;
+    text-align: center;
+    cursor: pointer;
+}
