@@ -8,8 +8,8 @@ with open(path_to_json_words, encoding="utf-8") as f:
 
 modificate_obj = deepcopy(obj_words)
 
-name_groups = ["Причастие - сложное дополнение с причастием 1(после глаголов)", "Причастие", "Сложное дополнение с причастием 1"]
-path_to_words = r"НеличныеФормы\Причастие\СложноеДополнениеПрич_1\слова.txt"
+name_groups = ["Инфинитив - инфинитивный оборот с for(После сочетания It is (was, will be) с некоторыми прилагательными)", "Инфинитив", "Инфинитивный оборот с for"]
+path_to_words = r"НеличныеФормы\Инфинитив\ОборотFOR\слова_2.txt"
 list_word = [word_i.strip() for word_i in open(path_to_words, encoding="utf-8")]
 # тест
 temp = {
