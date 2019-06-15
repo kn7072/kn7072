@@ -11,7 +11,7 @@ modificate_obj = deepcopy(obj_words)
 name_groups = ["Инфинитив - сложное подлежащее(Инфинитиву предшествуют словосочетания)", "Инфинитив", "Сложное подлежащее"]
 path_to_words = r"НеличныеФормы\Инфинитив\СложноеПодлежащее\слова_3.txt"
 list_word = [word_i.strip() for word_i in open(path_to_words, encoding="utf-8")]
-
+# тест
 temp = {
         "transcription": "",
         "examples": [],
