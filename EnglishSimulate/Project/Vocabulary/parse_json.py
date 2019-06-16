@@ -76,7 +76,8 @@ def get_additional_content(content_word):
 def create_html_doc(content_all):
     """Собирает верстку документа"""
     temp_content = []
-    with open("html\created_doc.html", mode="w", encoding="utf-8") as f:
+    path_to_html = os.path.join("html", "created_doc.html")
+    with open(path_to_html, mode="w", encoding="utf-8") as f:
         for group_name, content_obj in content_all.items():
             contant_word = "\n".join(content_obj["content"])
             temp_group = templates.__dict__[dict_groups.get(group_name, "group_words")]
