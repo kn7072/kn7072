@@ -59,6 +59,7 @@ contant_word = """
     <div class="flex">
         <div><a name='{word}'>{word}</a></div>
         <div class="red font-weight-700 mrg-left-5">{transcription}</div>
+        <a class="soundLink font-weight-700 mrg-left-5" target="_blank" href="{url_forvo}">слушать</a>
     </div>
     <div class="blue">{translate}</div>
     {additional_content}

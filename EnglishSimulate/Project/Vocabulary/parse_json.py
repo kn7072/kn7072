@@ -89,8 +89,8 @@ def create_html_doc(content_all):
 
 res = analisis_json(data_json)
 
+url_forvo = r"https://ru.forvo.com/word/{word}/#en"
 for group_i, value_i in res.items():
-    # temp_group = dict_groups.get(group_i, "group_words")
     exist_content = content_all.get(group_i)
     if not exist_content:
         content_all[group_i] = {"count_word_group": 0,
@@ -102,7 +102,8 @@ for group_i, value_i in res.items():
                                                     translate=content_word_i["translate"],
                                                     transcription=content_word_i["transcription"],
                                                     additional_content=additional_content,
-                                                    contant_list_groups=contant_list_groups)
+                                                    contant_list_groups=contant_list_groups,
+                                                    url_forvo=url_forvo.format(word=content_word_i["word"]))
         content_all[group_i]["content"].append(html_word_i)
     content_all[group_i]["count_word_group"] = len(value_i)
 
