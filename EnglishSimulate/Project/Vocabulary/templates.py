@@ -70,16 +70,16 @@ contant_word = """
 
 group_all_words = """
 <div class="group"><a name='all_words'></a>
-    <div class="header-group">all_words</div>
-        <div class="flex flex-wrap justify-content-center">
-            {contant_word}
-        </div>
+    <div class="header-group">all_words - <span class="grey">{count_words}</span></div>
+    <div class="flex flex-wrap justify-content-center">
+        {contant_word}
     </div>
+</div>
 """
 
 group_words = """
 <div class="container group"><a name="{group_name}"></a>
-    <div class="header-group">{group_name}</div>
+    <div class="header-group">{group_name} - <span class="grey">{count_words}</span></div>
         <div class="flex">
             {contant_word}
         </div>

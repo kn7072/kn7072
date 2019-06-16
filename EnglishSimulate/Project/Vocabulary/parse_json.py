@@ -77,10 +77,11 @@ def create_html_doc(content_all):
     """Собирает верстку документа"""
     temp_content = []
     with open("html\created_doc.html", mode="w", encoding="utf-8") as f:
-        for group_name, content_list in content_all.items():
-            contant_word = "\n".join(content_list)
+        for group_name, content_obj in content_all.items():
+            contant_word = "\n".join(content_obj["content"])
             temp_group = templates.__dict__[dict_groups.get(group_name, "group_words")]
-            content_group = temp_group.format(contant_word=contant_word, group_name=group_name)
+            content_group = temp_group.format(contant_word=contant_word, group_name=group_name,
+                                              count_words=content_obj["count_word_group"])
             temp_content.append(content_group)
         body_content_all = "\n".join(temp_content)
         html_content_all = templates.html_body.format(body=body_content_all)
@@ -92,7 +93,8 @@ for group_i, value_i in res.items():
     # temp_group = dict_groups.get(group_i, "group_words")
     exist_content = content_all.get(group_i)
     if not exist_content:
-        content_all[group_i] = []
+        content_all[group_i] = {"count_word_group": 0,
+                                "content": []}
     for content_word_i in value_i:
         contant_list_groups = get_html_groups(content_word_i["grups"], content_word_i["word"])
         additional_content = get_additional_content(content_word_i)
@@ -101,8 +103,8 @@ for group_i, value_i in res.items():
                                                     transcription=content_word_i["transcription"],
                                                     additional_content=additional_content,
                                                     contant_list_groups=contant_list_groups)
-        content_all[group_i].append(html_word_i)
-        pass
+        content_all[group_i]["content"].append(html_word_i)
+    content_all[group_i]["count_word_group"] = len(value_i)
 
 create_html_doc(content_all)
 print()
