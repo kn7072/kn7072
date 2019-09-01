@@ -15,3 +15,4 @@ class MyObj(object):
 
 if __name__ == '__main__':
   MyObj(5).go()
+  # для push
