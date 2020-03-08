@@ -35,7 +35,7 @@ def create_data(line):
         temp_list_example.append([data[1], data[5]])
 
         # todo 3 строчки нижу нужно переписать после формирования окончательного шаблона(выгружаемого с anki)
-        list_example = [i.strip() + ". #" for i in data[5].split(".") if i]
+        list_example = [i.strip() + "." for i in data[5].split(".") if i]  # [i.strip() + ". #" for i in data[5].split(".") if i]
         # убираем последнюю решетку в последнем примере
         list_example[-1] = list_example[-1].rsplit("#", 1)[0].strip()
 
@@ -64,17 +64,22 @@ def get_origin_json(path_to_json):
 
 def update_json(anki_json, origin_json):
     try:
-        for word_i, val_i in origin_json.items():
-            val_anki = anki_json[word_i]
+        for word_i, val_i in anki_json.items():
+            val_origin = origin_json[word_i]
             if val_i["examples"]:
-                val_anki["examples"] = val_i["examples"]
-            val_i["example_translate"] = []
+                val_origin["examples"] = val_i["examples"]
+            val_origin["example_translate"] = []
     except KeyError as e:
         print(word_i)
 
+def create_file(data_json, name_file):
+    str_json = json.dumps(data_json, ensure_ascii=False, indent=4)
+    with open(name_file, mode="w", encoding="utf-8") as f:
+        f.write(str_json)
 
 
 json_data_anki = get_json_from_export_anki(path_export_file)
 origin_json = get_origin_json(path_json_origin)
 update_json(json_data_anki, origin_json)
+create_file(origin_json, "words_new.json")
 print()
