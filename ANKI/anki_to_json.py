@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 import json
 
-path_export_file = r"d:\ЭКСПЕРИМЕНТЫ АНКИ\My_English_words_ЗАПИСИ_В_ТЕКСТ.txt"
+# path_export_file = r"d:\ЭКСПЕРИМЕНТЫ АНКИ\My_English_words_ЗАПИСИ_В_ТЕКСТ_2.txt"
+# My_English_words_ЗАПИСИ_В_ТЕКСТ_html_media_fles_2.txt
+
+path_export_file = r"d:\ЭКСПЕРИМЕНТЫ АНКИ\My_English_words_ЗАПИСИ_В_ТЕКСТ_html_media_fles_2.txt"
 path_json_origin = r"words.json"
 
 structure_data = {
@@ -24,6 +27,9 @@ def create_data(line):
         "mnemonic": [],
         "examples": []
     }
+
+    if "sustain" in line:  # contemporary  indeed
+        print()
     data = line.replace("\n", "").split("\t")
 
     structure_data["translate"] = data[0]
@@ -63,14 +69,15 @@ def get_origin_json(path_to_json):
         return json.loads(data)
 
 def update_json(anki_json, origin_json):
-    try:
-        for word_i, val_i in anki_json.items():
-            val_origin = origin_json[word_i]
-            if val_i["examples"]:
-                val_origin["examples"] = val_i["examples"]
-            val_origin["example_translate"] = []
-    except KeyError as e:
-        print(word_i)
+    for word_i, val_i in origin_json.items():
+        try:
+            val_anki = anki_json[word_i]
+            if val_anki["examples"]:
+                val_i["examples"] = val_anki["examples"]
+        except Exception as e:
+            print(word_i)
+        finally:
+            val_i["example_translate"] = []
 
 def create_file(data_json, name_file):
     str_json = json.dumps(data_json, ensure_ascii=False, indent=4)
