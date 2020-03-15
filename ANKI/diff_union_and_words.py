@@ -53,7 +53,7 @@ def create_file(data_json, name_file):
 # for word_i in list_diff:
 #     info_word = get_info_word(word_i, path_create_sound=path_create_sound)
 #     temp_list.append(info_word)
-
+########################################################################################################
 # $(".block")
 path_html_words = "HTML_WORDS"
 paht_json_obj = "JSON_EXAMPLES"
@@ -69,14 +69,17 @@ def get_example(path_to_html):
     search = compl_1.search(data_html)
     try:
         all_text = search.group("text")
+        # if "according to" in path_json:
+        #     print()
+        all_text = all_text.replace("</b>", "").replace("<b>", "")
         # search_eng = comp_eng_example.search(all_text)
         # search_rus = comp_rus_example.search(all_text)
         search_eng = re.findall(comp_eng_example, all_text)
         search_rus = re.findall(comp_rus_example, all_text)
         if len(search_eng) == len(search_rus):
 
-            search_eng = [i.strip() for i in search_eng]
-            search_rus = [i.strip() for i in search_rus]
+            search_eng = [i.replace("&nbsp;", "").replace(";", ".,").strip() for i in search_eng]
+            search_rus = [i.replace("&nbsp;", "").replace(";", ".,").strip() for i in search_rus]
             dict_examples = {"examples_eng" : search_eng,
                              "examples_rus": search_rus}
             str_json = json.dumps(dict_examples, ensure_ascii=False, indent=4)
