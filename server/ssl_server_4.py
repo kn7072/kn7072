@@ -11,8 +11,8 @@ import socket, os
 from http.server import BaseHTTPRequestHandler, HTTPServer
 #from BaseHTTPServer import HTTPServer
 #from SimpleHTTPServer import SimpleHTTPRequestHandler
-from OpenSSL import SSL
-#import ssl as SSL
+# from OpenSSL import SSL
+import ssl as SSL
 
 # http://code.activestate.com/recipes/442473-simple-http-server-supporting-ssl-secure-communica/
 # openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodes

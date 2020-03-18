@@ -2,7 +2,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import ssl
 from socketserver import ThreadingMixIn
-import chardet
+# import chardet
 import time
 from  urllib.parse  import  urlencode, urlparse
 

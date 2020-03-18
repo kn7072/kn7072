@@ -81,18 +81,28 @@ pre {
 .object {
     display: inline-flex;
     flex-wrap: wrap;
+    /*justify-content: space-between;*/
 
 }
 
-.key_value {
+.display_inline_flex {
 	display: inline-flex;
 }
 
 .object_column {
 	display: inline-flex;
 	flex-direction: column;
-    flex-wrap: wrap;
-    width: 700px;
+    max-width: 700px;
+}
+
+.comma{
+    /*width: 100%;*/
+	align-self: flex-end;
+	margin-left: 20px;
+}
+
+.mt {
+    margin-top: 20px;
 }
 /*
 

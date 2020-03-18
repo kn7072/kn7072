@@ -4,7 +4,7 @@ import os
 
 
 path_to_json_file = "full_words.json"
-path_anki = r"temp\My_English_words_3.txt"
+path_anki = r"temp\My_English_words_4.txt"
 path_dir_sound_files = "d:\kn7072\EnglishSimulate\Project\sound_longman"
 delimeter = ";"
 ccs_class_even = "even"
@@ -37,7 +37,7 @@ def get_eng_rus_examples(list_examples_eng, list_examples_rus):
     :return:
     """
     temp_list = []
-    temp_html = """<div class="phrase hidden %s"><p class="trigger">%s  #</p><p class="payload">%s  #</p></div>"""
+    temp_html = """<div class="phrase %s"><p>%s  #</p><p class="payload">%s  #</p></div>"""
     join_examples = zip(list_examples_eng, list_examples_rus)
     for ind, val_i in enumerate(join_examples):
         if ind % 2 != 0:

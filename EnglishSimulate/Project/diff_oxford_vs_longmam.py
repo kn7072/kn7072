@@ -47,6 +47,10 @@ oxford_words = set(get_words(os.path.join(path_to_dir, "oxford.csv"), "\n"))
 longman = set(get_words(os.path.join(path_to_dir, "longman_3000.txt"), ","))
 intersection = oxford_words & longman
 union = oxford_words | longman | list_word_macmillan
+
+with open("union.txt", mode="w", encoding="utf-8") as f:
+    for i in union:
+        f.write(i + "\n")
 print(len(union))
 
 macm_long_inter = list_word_macmillan & longman

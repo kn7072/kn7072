@@ -135,7 +135,6 @@ dict_elements = {
                                     </div>
                                 </div>
     """},
-    # %(comma)s %(comma)s
     "array_open": {"start": """
                             <div class="object">
                                 <a class="disclosure" href="#">[+]</a>
@@ -148,11 +147,10 @@ dict_elements = {
                                 <a class="disclosure" href="#">[-]</a>
                                 <div class="array syntax">[</div>
 
-
                             """,
                    "finish": """
 
-                                <div class="array syntax">]%(comma)s</div>
+                                <div class="array syntax comma">]%(comma)s</div>
                             </div>
     """},
     # %(comma)s
@@ -173,7 +171,7 @@ dict_elements = {
                     </div>
     """},
     "array_key": {"start": """
-                            <div class="key_value">
+                            <div class="display_inline_flex">
                                 <div class="key vertical_aligan">"%(name_key)s"</div>
                                 <div class="object syntax vertical_aligan">: </div>
                                 %(array_open_start)s
@@ -181,25 +179,23 @@ dict_elements = {
                          """,
                 "finish": """
 
-                                <div class="array syntax">]%(comma)s</div>
+                                <div class="array syntax comma">]%(comma)s</div>
 
 
                         </div></div>
     """},
-#%(comma)s
-    # <div class="object_column"></div>
 
     "key_object_simple": """
-                            <div class="key_value">
+                            <div class="display_inline_flex">
                                 <div class="key vertical_aligan">"%(name_key)s"</div>
                                 <div class="object syntax vertical_aligan">: </div>
-                                <div class="string">"%(value_key)s" %(comma)s</div>
+                                <div class="string">"%(value_key)s"%(comma)s</div>
 
                             </div>
     """,
 
     "object_key": {"start": """
-                                    <div class="key_value">
+                                    <div class="display_inline_flex">
                                         <div class="key vertical_aligan">"%(name_key)s"</div>
                                         <div class="object syntax vertical_aligan">: </div>
                                             %(object_open_start)s
@@ -211,11 +207,11 @@ dict_elements = {
                                     </div>
      """},
     "element_array": """
-                 <div class="string">"%(array_value)s" %(comma)s</div>
+                 <div class="string">"%(array_value)s"%(comma)s</div>
 
     """,
     ",": """<div class="syntax">,</div>""",
-    "div": {"start": """<div>""", "finish": "</div>"}}  #class="key_value">
+    "div": {"start": """<div class="%(class)s"> """, "finish": "</div>"}}  #class="display_inline_flex">
 
 list_elements_tree = []
 def json_tree(obj, level):
@@ -327,7 +323,7 @@ def json_tree_html(obj, level):
         max_index_dict = len(obj.keys()) - 1
         for i, (key, val) in enumerate(obj.items()):
             if i < max_index_dict:
-                comma = "," # dict_elements[","]
+                comma = ","  # dict_elements[","]
             else:
                 comma = ""
             if isinstance(val, dict):

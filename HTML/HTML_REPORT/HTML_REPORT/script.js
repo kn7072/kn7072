@@ -1,6 +1,7 @@
 $(function () {
     function xxx (e) {
         e.stopPropagation();
+        e.preventDefault();
         $(this).addClass('hidden');
         $(this).siblings('.object').removeClass('hidden');
      }
