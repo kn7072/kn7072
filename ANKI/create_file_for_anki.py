@@ -97,7 +97,7 @@ with open(path_to_json_file, "r", encoding="utf-8") as f:
 create_file(path_anki, data_json)
 # ФАЙЛЫ НАХОДЯТСЯ C:\Users\Stepan1\AppData\Roaming\Anki2\1-й пользователь\collection.media
 """
-https://lingvo2.ru/docs/anki/ankitest-manual.htm
+https://docs.ankiweb.net/#/searching
 
 англ:grea*
 
