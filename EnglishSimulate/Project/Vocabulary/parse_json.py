@@ -3,7 +3,7 @@ import json
 import os
 import templates
 
-path_to_json_file = "words.json"
+path_to_json_file = "words_3.json"
 dict_groups = {"all_words": "group_all_words"}
 content_all = {}
 
