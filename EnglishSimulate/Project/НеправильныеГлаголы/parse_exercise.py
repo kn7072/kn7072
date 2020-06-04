@@ -2,6 +2,8 @@
 import os
 import re
 import json
+from groups_verbs import info_groups
+
 # https://regex101.com/
 # https://habr.com/ru/post/349860/
 
@@ -46,6 +48,14 @@ def assert_exercise_answers(data_exercise, data_answers):
         for i in list_error:
             print(i)
 
+def get_name_group(num_exercise):
+    # тупое решение
+    for name_group, val_group in info_groups.items():
+        if num_exercise in val_group["exercises"]:
+            return name_group
+    else:
+        raise Exception("Упражнение %s не попало ни в один диапазон" % num_exercise)
+
 def join_objects(data_exercise, data_answers):
     obj = {}
     for num_exercise_i, value_i in data_exercise.items():
@@ -63,7 +73,8 @@ def join_objects(data_exercise, data_answers):
         else:
             raise Exception("Что-то не так с номером упражнения %s" % num)
 
-        obj[num_exercise_i] = {"type": type_exercise, "content": temp_list}
+        group = get_name_group(num)
+        obj[num_exercise_i] = {"type": type_exercise, "content": temp_list, "group": group}
     return obj
 
 def create_json_file(data):
