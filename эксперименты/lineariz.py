@@ -17,9 +17,8 @@ def s(i,j):
 
 class E:
 
-    locals()['hallo']=lambda self, x:'world'
-    def __init__(self):
-        pass
+    locals()['hallo___']=lambda self, t:'world'
+
     def x(self, x):
         print(x)
         #pdb.set_trace()

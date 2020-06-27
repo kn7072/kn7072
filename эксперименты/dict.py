@@ -1,3 +1,29 @@
+class S:
+    def __init__(self):
+        print("S")
+
+class D:
+    def __init__(self):
+        print("D")
+
+class X(S, D):
+    pass
+
+y = X
+
+
+
+
+def x(y):
+    while True:
+        y -= 1
+        print(y)
+        if y < 0:
+            break
+    return y
+
+x(10)
+
 a = 10
 def dec(s):
     w = dict(s.__dict__)

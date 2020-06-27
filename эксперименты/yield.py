@@ -1,33 +1,6 @@
 #-*- encoding: utf-8 -*-
 
-def line_splitter(delimiter=None):
-    print("Все готово к разбиению строки")
-    result = None
-    try:
-        while True:
-            line = (yield result)
-            result = line  # .split(delimiter)
-    except (RuntimeError, GeneratorExit) as e:
-        print('hallo world')
-# except GeneratorExit as e:
-#         print('hallo world')
-s = line_splitter(",")
-s.__next__()
-s.throw(GeneratorExit, "ИСКУСТВЕННОЕ ИСКЛЮЧЕНИЕ")
-x = s.__next__()
-s.send("A,B,C")
 
-print("####################################")
-def receiver():
-    print("Готов к приему значений")
-    while True:
-        n = (yield)
-        #print("Получено %s" % n)
-r = receiver()
-r.__next__()
-for x in r:
-    print(x)
-print("####################################")
 def accumulate():
     tally = 0
     while 1:
@@ -37,6 +10,7 @@ def accumulate():
              return tally
         tally += next
 
+
 def gather_tallies(tallies):
     while 1:
          tally = yield from accumulate()
@@ -45,12 +19,12 @@ def gather_tallies(tallies):
 
 tallies = []
 acc = gather_tallies(tallies)
-next(acc) # Ensure the accumulator is ready to accept values
+next(acc)  # Ensure the accumulator is ready to accept values
 for i in range(4):
     print(acc.send(i))
-acc.send(None) # Finish the first tally
+acc.send(None)  # Finish the first tally
 
 for i in range(5):
      acc.send(i)
-acc.send(None) # Finish the second tally
+acc.send(None)  # Finish the second tally
 tallies

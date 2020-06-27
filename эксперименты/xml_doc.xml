@@ -1,0 +1,113 @@
+<div>
+   <component data-component='SBIS3.CORE.TabControl'>
+      <options name="items" type="Array">
+         <options name="0">
+            <option name="title">new_title</option>
+            <option name="icon">ws:/ok.png</option>
+            <option name="editable">true</option>
+         </options>
+         <options name="1">
+            <option name="title">Вкладка 2</option>
+         </options>
+         <options name="2">
+            <option name="title">Вкладка 3</option>
+         </options>
+      </options>
+   </component>
+   <component data-component='SBIS3.CORE.TabButtons'>
+      <options name="tabs" type="Array">
+         <options name="0">
+            <option name="title">new_title_tabs</option>
+            <option name="id">tab_1</option>
+            <option name="icon">ws:/ok.png</option>
+            <option name="editable">true</option>
+         </options>
+         <options name="1">
+            <option name="title">Корешок 2</option>
+            <option name="id">tab_2</option>
+         </options>
+         <options name="2">
+            <option name="title">Корешок 3</option>
+            <option name="id">tab_3</option>
+         </options>
+      </options>
+   </component>
+   <component data-component='SBIS3.CORE.TableView'>
+      <options name="display">
+         <options name="columns" type="array">
+            <options>
+               <option name="title">new_title</option>
+               <option name="field">поле1</option>
+               <option name="width" value="100"></option>
+               <option name="titleAlign">right</option>
+               <option name="fixedSize">true</option>
+            </options>
+            <options>
+               <option name="title">поле2</option>
+               <option name="field">поле2</option>
+               <option name="width" value="114"></option>
+            </options>
+         </options>
+         <option name="hasZebra">false</option>
+         <option name="useDrawingLines">true</option>
+         <option name="useSeparating">true</option>
+      </options>
+      <options name="dataSource">
+         <options name="readerParams">
+            <options name="adapterParams"></options>
+            <option name="nameApplication">Основной сервис</option>
+            <option name="nameService">Основной сервис</option>
+            <option name="linkedObject">Документ</option>
+            <option name="createMethodName">Создать</option>
+            <option name="updateMethodName">Записать</option>
+            <option name="readMethodName">Прочитать</option>
+            <option name="destroyMethodName">Удалить</option>
+            <option name="queryName">Выборка</option>
+         </options>
+         <options name="filterParams">
+            <option name="ДатаНачало">cccccc</option>
+            <option name="ДатаКонец">xxxxxxx</option>
+         </options>
+      </options>   
+      <options name="dataSource">
+         <options name="readerParams">
+            <options name="adapterParams"></options>
+            <option name="nameApplication">Основной сервис</option>
+            <option name="nameService">Основной сервис</option>
+            <option name="linkedObject">Документ</option>
+            <option name="createMethodName">Создать</option>
+            <option name="updateMethodName">Записать</option>
+            <option name="readMethodName">Прочитать</option>
+            <option name="destroyMethodName">Удалить</option>
+            <option name="queryName">Выборка</option>
+         </options>
+         <options name="filterParams">
+            <option name="ДатаНачало">cccccc</option>
+            <option name="ДатаКонец">xxxxxxx</option>
+         </options>
+         <options name="filterParams">
+            <option name="ДатаНачало2">2222</option>
+            <option name="ДатаКонец2">3333</option>
+         </options>
+      </options>
+      <options name="filterParams">
+         <option name="new_key">value</option>
+      </options>
+   </component>
+   <component data-component='SBIS3.CORE.Accordion' data-fullname='Accordion'>
+      <options name="elements" type="array">
+         <options>
+            <option name="id" value="1"></option>
+            <option name="title">Группа 1</option>
+         </options>
+         <options>
+            <option name="id" value="2"></option>
+            <option name="title">Группа 2</option>
+         </options>
+      </options>
+      <option name="instantLoad" value="true"></option>
+      <option name="autoHeight" value="true"></option>
+      <option name="autoWidth" value="true"></option>
+      <option name="verticalAlignment">Top</option>
+   </component>
+</div>

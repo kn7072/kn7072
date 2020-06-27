@@ -9,9 +9,11 @@ class GetAttr:
         return getattr(self.obj, item)
 
 
+
 array = []
 print(id(array))
 get = GetAttr(array)
+setattr(get, "new", 7)
 append = get.append
 append(5)
 print(array)
