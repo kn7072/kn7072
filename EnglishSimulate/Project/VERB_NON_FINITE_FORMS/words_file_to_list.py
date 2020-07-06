@@ -7,5 +7,5 @@ def get_prepare_data(path_file, start_num):
     for i in temp:
         print(i)
 
-get_prepare_data(path_temp, 50)
+get_prepare_data(path_temp, 52)
 
