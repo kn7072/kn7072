@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 import os
-
+# test
 
 path_to_json_file = "full_words.json"
 path_anki = r"temp\My_English_words_4.txt"
