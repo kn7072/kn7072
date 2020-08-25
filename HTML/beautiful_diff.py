@@ -4,7 +4,7 @@ path_test_json = r"response.json" #     response.json      response_list.json
 with open(path_test_json, encoding="cp1251") as f:
     body_json = f.read()
 json_obj = json.loads(body_json)
-
+# test
 # xx = json.dumps(json_obj)
 
 object_element = """
