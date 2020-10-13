@@ -1,9 +1,17 @@
 # -*- coding: utf-8 -*-
 import json
+import os
 
 def get_all_exercise():
-    with open("exercise_answer.json", mode="r", encoding="utf-8") as f:
+    # with open("exercise_answer.json", mode="r", encoding="utf-8") as f:
+    #     return json.loads(f.read())
+    my_path = os.path.abspath(os.path.dirname(__file__))
+    path = os.path.join(my_path, "exercise_answer.json")
+
+    with open(path, mode="r", encoding="utf-8") as f:
         return json.loads(f.read())
+
+    # path.relpath("2091/data.txt")    
 
 def get_exercise_type(name_group, type_exercises):
     all_exercise = get_all_exercise()
