@@ -9,10 +9,12 @@ import datetime
 # d:\фильмы\АНГЛИЙСКИЙ\Самвел Гарибян - Чудо-словарь Самвела Гарибяна. Английский без английского - 2008
 
 # sys.putenv('PYTHONIOENCODING', 'utf8')
-
+print("ssssss")
 
 path_dir_files = "d:\kn7072\ANKI\WORDS"
-path_dir_for_notepad = "d:\kn7072\ANKI\WORDS_NOTEPAD"
+path_dir_for_notepad = r"~/git/kn7072/ANKI/WORDS_NOTEPAD"
+path_dir_for_notepad = "/home/stepan/git/kn7072/ANKI/WORDS_NOTEPAD"
+# path_dir_for_notepad = "d:\kn7072\ANKI\WORDS_NOTEPAD"
 
 
 def create_file_for_notepad(word_i, path_file):
@@ -47,7 +49,9 @@ def show_exercises(path_file_open):
     # "-qt 1111" -заполняет файл
     # , "-filePath D:\\kn7072\\ANKI\\FIRST.txt"
     # args = [r"C:\Program Files (x86)\Notepad++\notepad++.exe", "D:\\kn7072\\ANKI\\FIRST.txt","-multiInst", "-nosession",  "-qt 1111\n"]
-    args = [r"C:\Program Files (x86)\Notepad++\notepad++.exe", path_file_open, "-multiInst", "-nosession"]
+    # args = [r"C:\Program Files (x86)\Notepad++\notepad++.exe", path_file_open, "-multiInst", "-nosession"]
+    args = [r"nano", path_file_open]
+    args = [r"kate", path_file_open, "-n"]
     proc = Popen(args, stdout=PIPE, stderr=PIPE)
     return proc
 
