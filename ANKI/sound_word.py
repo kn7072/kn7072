@@ -50,10 +50,10 @@ def sound(word):
             command_list = [path_to_mplayer,  path_sound_file]  #'-delay', '-%s' % time_sound_pause, '-loop', '2',
             command_str = " ".join(command_list)
             print(f"Выполняется {command_str}")
-            process = Popen(command_list)  #, stdout=subprocess.PIPE, stderr=subprocess.PIPE , shell=True, preexec_fn=os.setsid
+            process = Popen(command_list, stdout=PIPE, stderr=PIPE)   #, stdout=subprocess.PIPE, stderr=subprocess.PIPE , shell=True, preexec_fn=os.setsid
             stdout, stderr = process.communicate(timeout=5)
         except Exception as e:
-            print(e)
+            # print(e)
             os.kill(process.pid, signal.SIGTERM)
             return
         time.sleep(time_sound_pause)
