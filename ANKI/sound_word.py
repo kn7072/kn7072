@@ -5,7 +5,14 @@ from subprocess import Popen, PIPE
 import os
 import signal
 import time
+import re
 
+pattern_mnemo = "{{(?P<mnemo>.+?)}}"
+pattern_examples = "\+.+?###"
+
+
+compl_mnemo = re.compile(pattern_mnemo, flags=re.DOTALL | re.MULTILINE)
+compl_examples = re.compile(pattern_examples, flags=re.DOTALL | re.MULTILINE)
 
 # path_to_mplayer = r"e:\ENG\mplayer\mplayer.exe"
 path_to_mplayer = "mplayer"
@@ -49,7 +56,7 @@ def sound(word):
                 print(f"Не обнаружен файл {path_sound_file}")
             command_list = [path_to_mplayer,  path_sound_file]  #'-delay', '-%s' % time_sound_pause, '-loop', '2',
             command_str = " ".join(command_list)
-            print(f"Выполняется {command_str}")
+            # print(f"Выполняется {command_str}")
             process = Popen(command_list, stdout=PIPE, stderr=PIPE)   #, stdout=subprocess.PIPE, stderr=subprocess.PIPE , shell=True, preexec_fn=os.setsid
             stdout, stderr = process.communicate(timeout=5)
         except Exception as e:
@@ -57,6 +64,26 @@ def sound(word):
             os.kill(process.pid, signal.SIGTERM)
             return
         time.sleep(time_sound_pause)
+
+def parse_file(word_i):
+    path_file = os.path.join(path_dir, f"{word_i}.txt") 
+    with open(path_file, encoding="utf-8") as f:
+
+        first_line = f.readline()
+        print(first_line) 
+        next_data_file = f.read()
+
+        search_mnemo = compl_mnemo.search(next_data_file)
+        if search_mnemo:
+            mnemo_text = search_mnemo.group("mnemo")
+            print(mnemo_text)
+            print("#" * 30)
+
+        search_examples = re.findall(pattern_examples, next_data_file)
+
+
+        #print()
+
 
 create_file_for_last_word(path_last_word)
 data_all_words = read_file(path_file_words)
@@ -72,7 +99,13 @@ if last_word_session:
 
 
 while True:
-    for word_i in data_all_words[start_index: last_index]:
+    for ind, word_i in enumerate(data_all_words[start_index: last_index]):
+        parse_file(word_i)
+        
+        # path_file_open = os.path.join(path_dir_for_notepad, name_file)
+        # info_word = get_first_line(path_file_open)# .encode("utf-8").decode("cp866")
+        # print(str(ind) + "   " + info_word)
+        
         sound(word_i)
         write_last_file(path_last_word, word_i)
         time.sleep(wait_sound)
