@@ -9,29 +9,9 @@ import re
 import telebot
 import requests
 import config_bot
-import common
+from common import sound, parse_file
+from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, path_last_word, path_file_words, wait_sound
 
-pattern_mnemo = "{{(?P<mnemo>.+?)}}"
-pattern_examples = "\+.+?###"
-
-
-compl_mnemo = re.compile(pattern_mnemo, flags=re.DOTALL | re.MULTILINE)
-compl_examples = re.compile(pattern_examples, flags=re.DOTALL | re.MULTILINE)
-
-# path_to_mplayer = r"e:\ENG\mplayer\mplayer.exe"
-path_to_mplayer = "mplayer"
-
-path_script = os.getcwd()
-path_anki = os.path.split(path_script)[0]
-path_repo = os.path.split(path_anki)[0]
-path_dir = os.path.join(path_anki, "WORDS_NOTEPAD")
-path_dir_mp3 = os.path.normpath(os.path.join(path_repo, os.path.join("EnglishSimulate", "Project", "sound_longman_mono")))
-path_file_words = os.path.join(path_script, "ПОВТОРИТЬ.txt")
-path_last_word = os.path.join(path_script, "last_word.txt")
-
-wait_sound = 180
-time_sound_pause = 5
-count_sound = 2
 
 def create_file_for_last_word(path_file):
     if not os.path.isfile(path_file):
@@ -49,52 +29,6 @@ def read_file(path_file):
 def write_last_file(path_file, word):
     with open(path_file, mode="w", encoding="utf-8") as f:
         f.write(word)
-
-
-def sound(word):
-    for _ in range(count_sound):
-        try:
-            path_sound_file = os.path.normpath(os.path.join(path_dir_mp3, f"{word}.mp3"))
-            if not os.path.exists(path_sound_file):
-                print(f"Не обнаружен файл {path_sound_file}")
-            command_list = [path_to_mplayer,  path_sound_file]  #'-delay', '-%s' % time_sound_pause, '-loop', '2',
-            command_str = " ".join(command_list)
-            # print(f"Выполняется {command_str}")
-            process = Popen(command_list, stdout=PIPE, stderr=PIPE)   #, stdout=subprocess.PIPE, stderr=subprocess.PIPE , shell=True, preexec_fn=os.setsid
-            stdout, stderr = process.communicate(timeout=5)
-        except Exception as e:
-            # print(e)
-            os.kill(process.pid, signal.SIGTERM)
-            return
-        time.sleep(time_sound_pause)
-
-def parse_file(word_i):
-    path_file = os.path.join(path_dir, f"{word_i}.txt") 
-    try:
-        with open(path_file, encoding="utf-8") as f:
-
-            first_line = f.readline() 
-            
-            common.send_message_from_bot(first_line)
-
-            print(first_line) 
-            next_data_file = f.read()
-
-            search_mnemo = compl_mnemo.search(next_data_file)
-            if search_mnemo:
-                mnemo_text = search_mnemo.group("mnemo")
-                print(mnemo_text)
-                common.send_message_from_bot(mnemo_text)
-
-                print("#" * 30)
-
-            search_examples = re.findall(pattern_examples, next_data_file)
-
-
-            #print()
-    except Exception as e:
-        print(e)
-
 
 create_file_for_last_word(path_last_word)
 data_all_words = read_file(path_file_words)

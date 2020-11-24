@@ -1,9 +1,62 @@
 import config_bot
 import requests
+import os
+import signal
+from subprocess import Popen, PIPE
+import re
+import time
+from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples
 
 
 def send_message_from_bot(text):
     for chat_id in config_bot.chat_id_list:
         req_message = f"https://api.telegram.org/bot{config_bot.token}/sendMessage?chat_id={chat_id}&text={text}"
-        # print(req_message)
+        #  print(req_message)
         res = requests.get(req_message)
+
+def sound(word):
+    for _ in range(count_sound):
+        try:
+            path_sound_file = os.path.normpath(os.path.join(path_dir_mp3, f"{word}.mp3"))
+            if not os.path.exists(path_sound_file):
+                print(f"Не обнаружен файл {path_sound_file}")
+            command_list = [path_to_mplayer,  path_sound_file]  #'-delay', '-%s' % time_sound_pause, '-loop', '2',
+            command_str = " ".join(command_list)
+            # print(f"Выполняется {command_str}")
+            process = Popen(command_list, stdout=PIPE, stderr=PIPE)   #, stdout=subprocess.PIPE, stderr=subprocess.PIPE , shell=True, preexec_fn=os.setsid
+            stdout, stderr = process.communicate(timeout=5)
+        except Exception as e:
+            # print(e)
+            os.kill(process.pid, signal.SIGTERM)
+            return
+        time.sleep(time_sound_pause)
+
+def parse_file(word_i, send_examples=False):
+    path_file = os.path.join(path_dir, f"{word_i}.txt") 
+    try:
+        with open(path_file, encoding="utf-8") as f:
+            first_line = f.readline() 
+            send_message_from_bot(first_line)
+
+            print(first_line) 
+            next_data_file = f.read()
+
+            search_mnemo = compl_mnemo.search(next_data_file)
+            if search_mnemo:
+                mnemo_text = search_mnemo.group("mnemo")
+                print(mnemo_text)
+                send_message_from_bot(mnemo_text)
+
+                print("#" * 30)
+
+            if send_examples:
+                search_examples = re.findall(pattern_examples, next_data_file)
+                if search_examples:
+                    msg = "\n".join(search_examples)
+                    send_message_from_bot(msg)
+                else:
+                    send_message_from_bot(next_data_file)    
+
+            #print()    
+    except Exception as e:
+        print(e)
