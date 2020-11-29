@@ -25,7 +25,7 @@ path_dir_mp3 = os.path.normpath(os.path.join(path_repo, os.path.join("EnglishSim
 path_file_words = os.path.join(path_script, "ПОВТОРИТЬ.txt")
 path_last_word = os.path.join(path_script, "last_word.txt")
 
-wait_sound = 180
+wait_sound = 360
 time_sound_pause = 5
 count_sound = 2
 

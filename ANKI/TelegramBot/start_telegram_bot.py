@@ -9,6 +9,7 @@ bot = telebot.TeleBot(config_bot.token)
 def get_text_messages(message):
     if message.text.endswith("_s"):
         word_i = message.text.replace("_s", "")
+        print(word_i)
         sound(word_i)
         # bot.send_message(message.from_user.id, word_i)
     elif message.text.endswith("_e"):
