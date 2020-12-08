@@ -6,6 +6,7 @@ from subprocess import Popen, PIPE
 import re
 import time
 from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples
+import pygame as pg
 
 
 def send_message_from_bot(text):
@@ -13,6 +14,38 @@ def send_message_from_bot(text):
         req_message = f"https://api.telegram.org/bot{config_bot.token}/sendMessage?chat_id={chat_id}&text={text}"
         #  print(req_message)
         res = requests.get(req_message)
+
+
+def play_sound(word, volume=0.8):
+    """
+    stream music with mixer.music module in a blocking manner
+    this will stream the sound from disk while playing
+    """
+    # path_file = 'audio/{word}.mp3'.format(word=word)
+    path_file = os.path.normpath(os.path.join(path_dir_mp3, f"{word}.mp3"))
+    # playsound.playsound('audio/{word}.mp3'.format(word=word), True)
+    # set up the mixer
+    freq = 44100  # audio CD quality
+    bitsize = -16  # unsigned 16 bit
+    channels = 2  # 1 is mono, 2 is stereo
+    buffer = 2048  # number of samples (experiment to get best sound)
+    pg.mixer.init(freq, bitsize, channels, buffer)
+    # volume value 0.0 to 1.0
+    pg.mixer.music.set_volume(volume)
+    clock = pg.time.Clock()
+    for _ in range(count_sound):
+        try:
+            pg.mixer.music.load(path_file)
+            print("Music file {} loaded!".format(path_file))
+        except pg.error:
+            print("File {} not found! ({})".format(path_file, pg.get_error()))
+            return
+        pg.mixer.music.play()
+        while pg.mixer.music.get_busy():
+            # check if playback has finished
+            clock.tick(30)
+        time.sleep(time_sound_pause)
+
 
 def sound(word):
     for _ in range(count_sound):
@@ -24,12 +57,15 @@ def sound(word):
             command_str = " ".join(command_list)
             # print(f"Выполняется {command_str}")
             process = Popen(command_list, stdout=PIPE, stderr=PIPE)   #, stdout=subprocess.PIPE, stderr=subprocess.PIPE , shell=True, preexec_fn=os.setsid
-            stdout, stderr = process.communicate(timeout=5)
+            stdout, stderr = process.communicate(timeout=2)
         except Exception as e:
-            # print(e)
+            # print(e, count_sound)
             os.kill(process.pid, signal.SIGTERM)
             return
+        finally:
+            os.kill(process.pid, signal.SIGTERM)
         time.sleep(time_sound_pause)
+
 
 def parse_file(word_i, send_examples=False):
     path_file = os.path.join(path_dir, f"{word_i}.txt") 

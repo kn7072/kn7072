@@ -37,17 +37,15 @@ path_union = "union.txt"
 path_json_origin = "words_new.json"
 
 
-
-
 path_html_words = "HTML_WORDS"
 paht_json_obj = "JSON_EXAMPLES"
-
 
 
 def get_origin_json(path_to_json):
     with open(path_to_json, encoding="utf-8") as f:
         data = f.read()
         return json.loads(data)
+
 
 def get_list_words(path_to_file):
     temp = list()
@@ -63,8 +61,10 @@ def get_list_words_union(path_union):
             list_words.append(word_i.replace("\n", ""))
     return list_words
 
+
 def diff_words(list_union, list_origin):
     return set(list_union) - set(list_origin)
+
 
 def create_file(data_json, name_file):
     str_json = json.dumps(data_json, ensure_ascii=False, indent=4)

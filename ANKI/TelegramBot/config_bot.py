@@ -14,8 +14,11 @@ pattern_examples = "\+.+?###"
 compl_mnemo = re.compile(pattern_mnemo, flags=re.DOTALL | re.MULTILINE)
 compl_examples = re.compile(pattern_examples, flags=re.DOTALL | re.MULTILINE)
 
-# path_to_mplayer = r"e:\ENG\mplayer\mplayer.exe"
-path_to_mplayer = "mplayer"
+if os.name == "nt":
+    # в переменную path добавлен адрес(e:\ENG\mplayer) к mplayer.exe
+    path_to_mplayer = r"mplayer.exe"
+else:
+    path_to_mplayer = "mplayer"
 
 path_script = os.getcwd()
 path_anki = os.path.split(path_script)[0]

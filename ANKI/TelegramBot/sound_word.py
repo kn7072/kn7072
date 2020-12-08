@@ -9,7 +9,7 @@ import re
 import telebot
 import requests
 import config_bot
-from common import sound, parse_file
+from common import sound, parse_file, play_sound
 from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, path_last_word, path_file_words, wait_sound
 
 
@@ -51,7 +51,9 @@ while True:
         # info_word = get_first_line(path_file_open)# .encode("utf-8").decode("cp866")
         # print(str(ind) + "   " + info_word)
         
-        sound(word_i)
+        # sound(word_i)
+        play_sound(word_i)
+
         write_last_file(path_last_word, word_i)
         time.sleep(wait_sound)
     else:
