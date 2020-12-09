@@ -50,9 +50,11 @@ while True:
         # path_file_open = os.path.join(path_dir_for_notepad, name_file)
         # info_word = get_first_line(path_file_open)# .encode("utf-8").decode("cp866")
         # print(str(ind) + "   " + info_word)
-        
-        # sound(word_i)
-        play_sound(word_i)
+
+        if os.name == "nt":
+            play_sound(word_i)
+        else:
+            sound(word_i)
 
         write_last_file(path_last_word, word_i)
         time.sleep(wait_sound)

@@ -106,6 +106,8 @@ def get_example(path_to_html):
             print("Количество примеров и переводов отличаются %s" % path_to_html)
     except AttributeError as e:
         print("Проблемы с %s\ %s" % (path_to_html, e))
+    return dict_examples
+
 
 def create_sound_file(name, data_file, path_dir):
     path_to_file = os.path.join(path_dir, "%s.mp3" % name)
@@ -121,7 +123,7 @@ def get_info_word(word, path_create_sound="audio"):
 
     path_to_file = os.path.join(path_html_words, "%s.html" % word)
     create_html(path_to_file, data_html_bin)
-    get_example(path_to_file)
+    dict_examples = get_example(path_to_file)
 
     search = compl_1.search(data_html)
     all_test = search.group("text")
@@ -138,7 +140,7 @@ def get_info_word(word, path_create_sound="audio"):
 
     search_translate = compl_translate.search(data_html)
     translate = search_translate.group("translate")
-    return translate, transcription
+    return translate, transcription, dict_examples
 
 
 # for file_i in os.listdir(path_html_words):

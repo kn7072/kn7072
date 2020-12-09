@@ -62,8 +62,6 @@ def sound(word):
             # print(e, count_sound)
             os.kill(process.pid, signal.SIGTERM)
             return
-        finally:
-            os.kill(process.pid, signal.SIGTERM)
         time.sleep(time_sound_pause)
 
 
