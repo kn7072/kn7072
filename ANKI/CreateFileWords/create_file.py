@@ -54,7 +54,7 @@ def update_word_dict():
         copy_temp["transcription"] = transcription
         copy_temp["translate"] = translate
         temp_dict[word_i] = copy_temp
-    all_words.update()
+    all_words.update(temp_dict)
     create_file(all_words, path_words)
 
 
@@ -70,6 +70,6 @@ for word_i in list_new_words:
         except Exception as e:
             print(f"Проблемы {word_i}\n{e}")
 
-
+update_word_dict()
 print(list_new_words)
 
