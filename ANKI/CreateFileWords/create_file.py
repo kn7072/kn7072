@@ -48,7 +48,6 @@ def create_json_word(word_i):
         with open(path_notebook, encoding="utf-8", mode="w") as f:
             f.write(content_all)
 
-
     with open(dir_for_create_json, encoding="utf-8", mode="w") as f:
         f.write(json.dumps(temp_dict, ensure_ascii=False, indent=4))
     temp_list_words.append([word_i, translate, transcription])
