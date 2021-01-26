@@ -38,8 +38,16 @@ def create_json_word(word_i):
     copy_temp["translate"] = translate
     copy_temp["examples"] = dict_examples["examples_eng"]
     copy_temp["example_translate"] = dict_examples["examples_rus"]
-    temp_dict = {"word_i": copy_temp}
+    temp_dict = {word_i: copy_temp}
     dir_for_create_json = os.path.join(path_anki, "WORDS", word_i[0].lower(), f"{word_i}.json")
+    path_notebook = os.path.join(path_anki, "WORDS_NOTEPAD", f"{word_i}.json")
+    if not os.path.isfile(path_notebook):
+        contant_head = f"{word_i} {transcription} {translate}"
+        temp_list = [f"\n\n{i[0]}\n{i[1]}\n\n####" for i in zip(dict_examples["examples_eng"], dict_examples["examples_rus"])]
+        content_all = contant_head + "".join(temp_list)
+        with open(path_notebook, encoding="utf-8", mode="w") as f:
+            f.write(content_all)
+
 
     with open(dir_for_create_json, encoding="utf-8", mode="w") as f:
         f.write(json.dumps(temp_dict, ensure_ascii=False, indent=4))
