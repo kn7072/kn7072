@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-import config_bot
+from config_bot import token, path_file_not_learn
 import telebot
 import os
 from common import sound, parse_file, play_sound
 
-bot = telebot.TeleBot(config_bot.token)
+bot = telebot.TeleBot(token)
 
 
 @bot.message_handler(content_types=['text'])
@@ -21,6 +21,10 @@ def get_text_messages(message):
         word_i = message.text.replace("_e", "")
         parse_file(word_i, send_examples=True)
         # bot.send_message(message.from_user.id, "Напиши привет")
+    elif message.text.endswith("_d"):
+        with open(path_file_not_learn, encoding="utf-8", mode="a") as f:
+            word_i = message.text.replace("_d", "")
+            f.write(word_i)
     else:
         bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
 
