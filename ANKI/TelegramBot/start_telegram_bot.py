@@ -24,7 +24,7 @@ def get_text_messages(message):
     elif message.text.endswith("_d"):
         with open(path_file_not_learn, encoding="utf-8", mode="a") as f:
             word_i = message.text.replace("_d", "")
-            f.write(word_i)
+            f.write(word_i + "\n")
     else:
         bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
 
