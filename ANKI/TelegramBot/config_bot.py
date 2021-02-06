@@ -27,6 +27,7 @@ path_dir = os.path.join(path_anki, "WORDS_NOTEPAD")
 path_dir_mp3 = os.path.normpath(os.path.join(path_repo, os.path.join("EnglishSimulate", "Project", "sound_longman_mono")))
 path_file_words = os.path.join(path_script, "ПОВТОРИТЬ.txt")
 path_last_word = os.path.join(path_script, "last_word.txt")
+path_file_not_learn = os.path.join(path_script, "ПРОПУСТИТЬ.txt")
 
 wait_sound = 360
 time_sound_pause = 5
