@@ -5,8 +5,9 @@ import signal
 from subprocess import Popen, PIPE
 import re
 import time
-from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples
+from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples, schedule
 import pygame as pg
+from datetime import datetime
 
 
 def send_message_from_bot(text):
@@ -94,3 +95,33 @@ def parse_file(word_i, send_examples=False):
             #print()    
     except Exception as e:
         print(e)
+
+def next_play():
+    """
+    Определяем - нужно ли продолжать озвучивать слова в зависимости от расписания
+    """
+    current_datetime = datetime.today()    
+    current_day = current_datetime.strftime('%A')  
+    hour = current_datetime.hour
+    minute = current_datetime.minute
+    schedule_day = schedule[current_day]
+    for schedule_i in schedule_day:
+        start_hour, start_minute = [int(i) for i in schedule_i["start"].split(":")]
+        stop_hour, stop_minute = [int(i) for i in schedule_i["stop"].split(":")]
+        start_minute = start_minute if start_minute else 59
+        stop_minute = stop_minute if stop_minute else 59
+        
+        if stop_hour < start_hour:
+            msg = msg = f"Значение ключа start должно быть меньше значеня ключа stop\n Day {current_day}\n schedule:\n{schedule_i}"
+            raise Exception(msg)
+        else:
+            if start_minute > stop_minute:
+                msg = f"Значение ключа start должно быть меньше значеня ключа stop\n Day {current_day}\n schedule:\n{schedule_i}"
+                raise Exception(msg)
+        if hour >= start_hour and  hour <= stop_hour:
+            
+            if minute >= start_minute and  minute <= stop_minute:
+                return True
+    time.sleep(60)  # чтобы не вызывать слишком часто
+    return False    
+

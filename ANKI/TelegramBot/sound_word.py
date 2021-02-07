@@ -9,7 +9,7 @@ import re
 import telebot
 import requests
 import config_bot
-from common import sound, parse_file, play_sound
+from common import sound, parse_file, play_sound, next_play
 from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, \
     path_last_word, path_file_words, wait_sound, path_file_not_learn
 
@@ -31,23 +31,36 @@ def write_last_file(path_file, word):
     with open(path_file, mode="w", encoding="utf-8") as f:
         f.write(word)
 
-create_file_for_last_word(path_last_word)
-data_all_words = read_file(path_file_words)
-words_not_learn = read_file(path_file_not_learn)
-last_word_session = read_file(path_last_word)
 
-start_index = 0
-last_index = len(data_all_words) - 1
-assert last_index > 0, "Нет слов для изучения"
+def prepate_data():
+    global data_all_words
+    global words_not_learn
+    global start_index
+    global last_index
 
-if last_word_session:
-    start_index = data_all_words.index(last_word_session[0])
-    if start_index == last_index:
-        start_index = 0
+    create_file_for_last_word(path_last_word)
+    data_all_words = read_file(path_file_words)
+    words_not_learn = read_file(path_file_not_learn)
+    last_word_session = read_file(path_last_word)
 
+    start_index = 0
+    last_index = len(data_all_words) - 1
+    assert last_index > 0, "Нет слов для изучения"
+
+    if last_word_session:
+        start_index = data_all_words.index(last_word_session[0])
+        if start_index == last_index:
+            start_index = 0
+
+prepate_data()
 
 while True:
+    
     for ind, word_i in enumerate(data_all_words[start_index: last_index]):
+        
+        if not next_play():
+            continue
+        
         if word_i in words_not_learn:
             continue
         parse_file(word_i)
@@ -64,10 +77,11 @@ while True:
         write_last_file(path_last_word, word_i)
         time.sleep(wait_sound)
     else:
-        start_index = 0
-        command = input("Для завершения введите q или enter чтобы продлолжить:\n")
-        print("#" * 50)
-        if command == "q":
-            sys.exit()
+        prepate_data()
+        # start_index = 0
+        # command = input("Для завершения введите q или enter чтобы продлолжить:\n")
+        # print("#" * 50)
+        # if command == "q":
+        #     sys.exit()
 
 

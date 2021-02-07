@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
 import re
+from datetime import datetime
 
 
 token = "1425771819:AAEcMh29JkNKEejduDdf2T52m0eJrecWq6o"
@@ -33,6 +34,18 @@ wait_sound = 360
 time_sound_pause = 5
 count_sound = 2
 
+schedule = {
+    "Monday": [{"start": "9:10", "stop": "18:10"}, 
+    {"start": "21:10", "stop": "23:10"}],
+    "Tuesday": {"start": "9:10", "stop": "18:10"}, 
+    "Wednesday": {"start": "9:10", "stop": "18:10"},
+    "Thursday": {"start": "9:10", "stop": "18:10"},
+    "Friday": {"start": "9:10", "stop": "18:10"},
+    "Saturday": [{"start": "11:40", "stop": "20:00"}],
+    "Sunday": [{"start": "11:40", "stop": "15:00"},
+               {"start": "16:00", "stop": "20:30"}
+               ]
+}
 
 
 
