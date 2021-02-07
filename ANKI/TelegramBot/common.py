@@ -108,7 +108,6 @@ def next_play():
     for schedule_i in schedule_day:
         start_hour, start_minute = [int(i) for i in schedule_i["start"].split(":")]
         stop_hour, stop_minute = [int(i) for i in schedule_i["stop"].split(":")]
-        start_minute = start_minute if start_minute else 59
         stop_minute = stop_minute if stop_minute else 59
         
         if stop_hour < start_hour:
