@@ -43,7 +43,7 @@ schedule = {
     "Friday": {"start": "9:10", "stop": "18:10"},
     "Saturday": [{"start": "11:40", "stop": "20:00"}],
     "Sunday": [{"start": "11:40", "stop": "15:00"},
-               {"start": "16:00", "stop": "20:30"}
+               {"start": "15:20", "stop": "20:30"}
                ]
 }
 
