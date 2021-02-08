@@ -101,29 +101,30 @@ def next_play():
     """
     Определяем - нужно ли продолжать озвучивать слова в зависимости от расписания
     """
-    currunt_day = datetime.combine(dt.date.today(), dt.time(00, 00, 00))
-    current_time = datetime.now().toordinal() 
-    current_datetime = datetime.today()    
-    current_day = current_datetime.strftime('%A')  
-    schedule_day = schedule[current_day]
-    
-    for schedule_i in schedule_day:
-        start_hour, start_minute = [int(i) for i in schedule_i["start"].split(":")]
-        stop_hour, stop_minute = [int(i) for i in schedule_i["stop"].split(":")]
+    while True:
+        currunt_day = datetime.combine(dt.date.today(), dt.time(00, 00, 00))
+        current_time = datetime.now().timestamp()
+        current_datetime = datetime.today()    
+        current_day = current_datetime.strftime('%A')  
+        schedule_day = schedule[current_day]
         
-        t_start_delta = timedelta(hours=start_hour, minutes=start_minute)
-        t_stop_delta = timedelta(hours=stop_hour, minutes=stop_minute)
+        for schedule_i in schedule_day:
+            start_hour, start_minute = [int(i) for i in schedule_i["start"].split(":")]
+            stop_hour, stop_minute = [int(i) for i in schedule_i["stop"].split(":")]
+            
+            t_start_delta = timedelta(hours=start_hour, minutes=start_minute)
+            t_stop_delta = timedelta(hours=stop_hour, minutes=stop_minute)
 
-        start_play = (currunt_day + t_start_delta).toordinal() 
-        stop_play = (currunt_day + t_stop_delta).toordinal() 
+            start_play = (currunt_day + t_start_delta).timestamp()
+            stop_play = (currunt_day + t_stop_delta).timestamp()
 
-        if start_play > stop_play:
-            msg = msg = f"Значение ключа start должно быть меньше значеня ключа stop\n Day {current_day}\n schedule:\n{schedule_i}"
-            raise Exception(msg)
-        
-        if current_time >= start_play and current_time <= stop_play:
-            return True
+            if start_play > stop_play:
+                msg = msg = f"Значение ключа start должно быть меньше значеня ключа stop\n Day {current_day}\n schedule:\n{schedule_i}"
+                raise Exception(msg)
+            
+            if current_time >= start_play and current_time <= stop_play:
+                return True
 
-    time.sleep(60)  # чтобы не вызывать слишком часто
-    return False    
+        time.sleep(60)  # чтобы не вызывать слишком часто
+   
 

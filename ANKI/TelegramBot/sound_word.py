@@ -58,8 +58,7 @@ while True:
     
     for ind, word_i in enumerate(data_all_words[start_index: last_index]):
         
-        if not next_play():
-            continue
+        next_play()
         
         if word_i in words_not_learn:
             continue
