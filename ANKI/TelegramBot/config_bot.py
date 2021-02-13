@@ -35,7 +35,7 @@ time_sound_pause = 5
 count_sound = 2
 
 schedule = {
-    "Monday": [{"start": "9:10", "stop": "18:10"}, 
+    "Monday": [{"start": "9:10", "stop": "18:10"}
                # {"start": "21:10", "stop": "22:10"}
                ],
     "Tuesday": [{"start": "9:10", "stop": "18:10"}], 
@@ -43,7 +43,7 @@ schedule = {
     "Thursday": [{"start": "9:10", "stop": "18:10"}],
     "Friday": [{"start": "9:10", "stop": "18:10"}],
     "Saturday": [{"start": "11:40", "stop": "17:00"}],
-    "Sunday": [{"start": "11:40", "stop": "15:00"},
+    "Sunday": [{"start": "11:40", "stop": "15:00"}
                # {"start": "15:20", "stop": "20:30"}
                ]
 }

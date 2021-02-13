@@ -5,7 +5,7 @@ import signal
 from subprocess import Popen, PIPE
 import re
 import time
-from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples, schedule
+from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples, schedule, path_anki
 import pygame as pg
 from datetime import datetime, timedelta
 import datetime as dt
@@ -126,5 +126,25 @@ def next_play():
                 return True
 
         time.sleep(60)  # чтобы не вызывать слишком часто
-   
 
+
+def prepare_garibjan():
+    import re
+    temp_dict = {}
+    parrern = r"(?P<num>\d{1,4})\.\s+?(?P<word>[\w]+?)\s+?\[(?P<sound>[\w\'\(\)\:]+?)\]\s+?(?P<trans>.+?)"
+    regex = re.compile(parrern)
+    path_file = os.path.join(path_anki, "Мнемоника", "Гарибян.txt")
+    for i in open(path_file, encoding="utf-8"):
+        i = i.replace("\n", "").replace("\t", "").replace("\xad", "")
+        # найти строки в которых неслько раз встречаются "-"
+        try:
+            info_word, mnemo = i.split("-", 1)   
+            search = regex.search(info_word)
+            if search:
+                temp_dict[search.group("word")] = i
+            else:
+                print(f"Что-то пошло не так с {i}") 
+                print()
+        except Exception as e:
+            print(e, i)           
+    return temp_dict
