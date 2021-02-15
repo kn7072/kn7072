@@ -148,3 +148,17 @@ def prepare_garibjan():
         except Exception as e:
             print(e, i)           
     return temp_dict
+
+
+def prepare_galagoliya():
+    path_file = os.path.join(path_anki, "Мнемоника", "Голаголия.txt")
+    temp_list = []
+    for i in open(path_file, encoding="utf-8"):
+        if i.startswith("***"):
+            temp_list.append([])
+            continue
+        else:
+            i_prepare = i.replace("\n", "").strip()
+            if i_prepare:
+                temp_list[-1].append(i_prepare)
+    return temp_list
