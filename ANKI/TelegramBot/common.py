@@ -143,8 +143,9 @@ def prepare_garibjan():
             if search:
                 temp_dict[search.group("word")] = i
             else:
-                print(f"Что-то пошло не так с {i}") 
-                print()
+                # print(f"Что-то пошло не так с {i}") 
+                # print()
+                pass
         except Exception as e:
             print(e, i)           
     return temp_dict
