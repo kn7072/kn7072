@@ -4,7 +4,7 @@ import re
 from datetime import datetime
 
 
-token = "1425771819:AAEcMh29JkNKEejduDdf2T52m0eJrecWq6o"
+token = "1514920647:AAEGvqi2NsYBPh9hfVHTstmLdZ78fVBoOnA"  # "1425771819:AAEcMh29JkNKEejduDdf2T52m0eJrecWq6o"
 chat_id_list = ["344022850", "366602173"]
 
 
@@ -54,6 +54,7 @@ schedule = {
 # getupdates = f"https://api.telegram.org/bot{token}/getUpdates"
 # print(get_me)
 # print(getupdates)
-
+# import requests
 # res = requests.get(getupdates)
 # chat_id = res.json()["result"][0]["message"]["chat"]["id"]
+# print
