@@ -107,7 +107,7 @@ housing.info()
 housing["ocean_proximity"].value_counts()
 
 # In[11]:
-housing.describe()
+housing.describe()  # только числовые атрибуты
 
 # # %matplotlib inline
 # import matplotlib.pyplot as plt
@@ -647,7 +647,7 @@ from sklearn.metrics import mean_absolute_error
 
 lin_mae = mean_absolute_error(housing_labels, housing_predictions)
 lin_mae
-
+###################################################################################
 # In[89]:
 from sklearn.tree import DecisionTreeRegressor
 
