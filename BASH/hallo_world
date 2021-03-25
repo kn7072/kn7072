@@ -1,0 +1,6 @@
+#!/bin/bash
+title="System Information Report"
+
+CURRENT_TIME=($CURRENT_TIME, by $USER)
+echo "$title"
+echo 'Hello World!'
