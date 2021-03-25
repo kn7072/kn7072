@@ -1,0 +1,186 @@
+
+http://git-autotests.sbis.ru/mobile/waiter_android/-/tree/21.1104/test_acceptance/test_motivation_kpi
+
+
+
+
+$current=$PWD -replace "\\", "/" -replace "C", "c" 
+docker run -d --name selenoid  -p 4444:4444 -v //var/run/docker.sock:/var/run/docker.sock -v ${current}/config/:/etc/selenoid/:ro aerokube/selenoid:latest-release -timeout 3m0s
+
+docker run -d --name selenoid-ui -p 8080:8080 aerokube/selenoid-ui --selenoid-uri http://localhost:4444
+
+
+
+cm selenoid start --force --browsers "android:10.0;chrome:86.0;opera:73.0" --args "-session-attempt-timeout 2m -service-startup-timeout 2m"
+
+http://localhost:4444/wd/hub/
+http://localhost:4444/status
+http://localhost:8080
+
+docker run -d --name selenoid  -p 4444:4444 -v //var/run/docker.sock:/var/run/docker.sock -v ${current}/config/:/etc/selenoid/:ro aerokube/selenoid:latest-release --force --args "-limit 20 -session-attempt-timeout 3m -service-startup-timeout 3m"
+
+docker run -d --name selenoid  -p 4444:4444 -v //var/run/docker.sock:/var/run/docker.sock -v ${current}/config/:/etc/selenoid/:ro aerokube/selenoid:latest-release 
+
+cm selenoid start --browsers-json C:/SELENOID/config/browsers.json --force --args "-limit 20 -session-attempt-timeout 3m -service-startup-timeout 3m"
+
+
+./cm selenoid start --browsers-json C:\SELENOID\config\browsers.json --force --args "-limit 20 -session-attempt-timeout 3m -service-startup-timeout 3m"
+
+1 Изучены возможности selenoid для запуска android тестов(конфигурация приложения)
+2 Запущен тест внутри контейнера (если это возможно)
+
+
+docker exec selenoid cat "/etc/selenoid/browsers.json"
+> Configuration saved to C:\Users\sg.chernov\.aerokube\selenoid\browsers.json
+
+
+
+https://prostoitblog.ru/selenoid-novaya-era-razvorachivaniya-selenium-grid-ili-docker-nanosit-otvetnyj-udar/
+cm selenoid start —vnc
+cm selenoid start --force --browsers "android:10.0;chrome:86.0;opera:73.0" --args "-limit 20 -session-attempt-timeout 2m -service-startup-timeout 2m"
+cm selenoid-ui start 
+
+$current=$PWD -replace "\\", "/" -replace "C", "c
+docker run -d --name selenoid  -p 4444:4444 -v //var/run/docker.sock:/var/run/docker.sock -v ${current}/config/:/etc/selenoid/:ro aerokube/selenoid:latest-release --timeout 3m0s
+
+
+"volumes": ["c:/SELENOID/config/waiter_21.1104.apk:/home"],
+file://c:/SELENOID/config/waiter_21.1104.apk
+file://c:/SELENOID/config/browsers.json
+
+
+
+cm selenoid start --browsers-json ~/docker_test/selenoid/browsers.json --force --args "-limit 20 -session-attempt-timeout 10m -service-startup-timeout 10m"
+sudo ./cm_linux_amd64 selenoid start --browsers-json ~/docker_test/selenoid/browsers.json --force --args "-limit 20 -session-attempt-timeout 7m -service-startup-timeout 7m"
+
+http://10.76.170.72:4444/status
+http://10.76.170.72:8080
+
+
+
+http://autotest-api01.corp.tensor.ru/test_call_mobile_api_method/waiter_21.1104.apk
+##################################################################################################
+
+# Проверяем наличие kvm в контейнере android
+sudo docker exec android_container ls /dev | grep "kvm"
+##################################################################################################
+Проверяем процессор
+cat /proc/cpuinfo
+
+##################################################################################################
+1 остановил контейнер selenoid ибо он использовал порт 4444
+2 выполнил команду 
+sudo docker run --rm -it --privileged -p 4444:4444 -p 5900:5900 -e ENABLE_VNC=true selenoid/android:10.0
+3 в логах все тоже adb: device offline
+4 установить https://www.uvnc.com/downloads/ultravnc.html
+настройка https://soft-navigator.ru/useful/ultravnc  - установить только vnc viewer
+подключиться к запущенному контейнеру на удаленной машине 10.76.170.72 этот контейнер был запущен в пункте 2 - пароль selenoid
+
+ls -l /dev/kvm на хосте где запускается android контейнер
+https://github.com/aerokube/selenoid/issues/1018
+
+##################################################################################################
+Для удаленной тачки usd-hahinnix.corp.tensor.ru
+wget -O cm https://github.com/aerokube/cm/releases/download/1.7.2/cm_linux_amd64
+chmod 111 cm
+
+
+sudo ./cm selenoid start --browsers-json ~/test_selenoid/browsers.json --force --args "-limit 20 -session-attempt-timeout 10m -service-startup-timeout 10m"
+./cm selenoid-ui start
+
+
+docker pull selenoid/android:10.0
+docker pull selenoid/chrome:88.0
+docker pull selenoid/opera:74.0
+
+http://10.76.175.31:4444/status
+http://10.76.175.31:8080
+
+##################################################################################################
+https://aerokube.com/images/latest/#_building_procedure
+
+To build an Android image use the following command:
+
+$ cd selenium
+$ ./automate_android.sh
+
+This command is interactive - just answer the questions and it will build an image for you. 
+In order to bundle custom APK to image - put it to selenium/android directory before running the script.
+
+https://github.com/aerokube/images.git
+
+images\selenium\automate_android.sh
+
+
+sudo docker exec 9180b6764445 emulator -list-avds
+sudo docker exec 9180b6764445 ls -laR / | grep android10.0-1
+
+/root/.android/avd/android10.0-1.avd:
+/root/.android/avd/android10.0-1.avd/data:
+/root/.android/avd/android10.0-1.avd/data/misc:
+
+1 запустил 
+./cm selenoid start --force --args "-limit 20 -session-attempt-timeout 10m -service-startup-timeout 10m"
+2 зашел в │/home/local/TENSOR-CORP/sg.chernov/.aerokube/selenoid
+добавил
+"android": {
+        "default": "10.0_my",
+        "versions": {
+            "10.0_my": {
+                "image": "selenoid/android:10.0_my",
+                "port": "4444",
+                "path": "/wd/hub",
+                "privileged": true
+            }
+        }
+    },
+образ создавал через скрипт /home/local/TENSOR-CORP/sg.chernov/test_selenoid/image_selenoid/images/selenium/automate_android.sh
+google_apis  x86_64
+
+3 docker kill -s HUP selenoid
+4 запустил тесты - не отвалились
+
+#########################################################################
+docker container exec 44913ca86475 ls -R /opt/android-sdk-linux
+docker container exec 44913ca86475 emulator -list-avds
+docker container exec 44913ca86475 adb -s emulator-5554 emu avd name
+
+
+
+selenoid/android:10.0_1
+#########################################################################
+GGR
+
+1  $ mkdir -p /etc/grid-router/quota
+2  htpasswd -bc /etc/grid-router/users.htpasswd test test-password
+   htpasswd -b /etc/grid-router/users.htpasswd alice alice-password  -добавим еще одного пользователя
+test - пользователь
+test-password - пароль
+
+создадим файл пользователя скопировал уже созданный
+cp /etc/grid-router/quota/test.xml /etc/grid-router/quota/alice.xml
+
+если НЕ сработает
+выполнить yum install httpd-tools
+
+ЧТОБЫ ИЗМЕНЕНИЯ ВСТУПИЛИ В СИЛУ - docker kill -s HUP ggr
+
+3 vim /etc/grid-router/quota/test.xml
+
+<qa:browsers xmlns:qa="urn:config.gridrouter.qatools.ru">
+<browser name="android" defaultVersion="10.0_my">
+    <version number="10.0_my">
+        <region name="1">
+            <host name="localhost" port="4444" count="1"/>
+        </region>
+    </version>
+</browser>
+</qa:browsers>
+
+4 docker run -d --name ggr -v /etc/grid-router/:/etc/grid-router:ro --net host aerokube/ggr:latest-release
+docker ps -a
+curl -s http://localhost:4444/ping  -на тачке где установлен ggr test-selenium34.unix.tensor.ru
+curl -s http://10.76.175.31:4444/status  -где будут запускаться тесты usd-hahinnix.corp.tensor.ru
+
+curl -s http://test:test-password@10.76.170.72:4444/wd/hub
+

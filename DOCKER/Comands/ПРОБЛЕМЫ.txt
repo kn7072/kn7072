@@ -1,0 +1,32 @@
+please select the geographic area in which you live docker
+https://rtfm.co.ua/docker-nastrojka-tzdata-i-timezone-vo-vremya-bilda/
+
+
+https://stackoverflow.com/questions/60440509/android-command-line-tools-sdkmanager-always-shows-warning-could-not-create-se
+
+
+##################################################################################
+Докер постепенно исчерпывает дисковое пространство на BTRFS
+https://github.com/moby/moby/issues/27653
+https://gist.github.com/hopeseekr/cd2058e71d01deca5bae9f4e5a555440
+
+
+##################################################################################
+https://stackoverflow.com/questions/31883782/docker-and-image-size-limit
+systemctl daemon-reload
+systemctl stop docker
+rm -rf /var/lib/docker/*
+systemctl start docker
+Это удалит все ваши изображения, убедитесь, что вы сохранили их перед
+
+например docker save -o something.tar.gz image_name
+
+и перезагрузите их после запуска докера
+
+например docker load -i something.tar.gz
+
+##################################################################################
+Анализ занимаемого места
+https://getpocket.com/read/2716554267
+
+sudo du --max-depth=1 -h /var/lib/docker
