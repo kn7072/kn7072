@@ -1,0 +1,34 @@
+docker run -it --name my_ubuntu --mount type=bind,src=/home/stepan/DOCKER/test,target=/bind/ ubuntu bash
+ls bind
+
+
+docker run --rm --name my_ubuntu --mount type=bind,src=/home/stepan/DOCKER/test,target=/bind/,readonly python python bind/1.py
+
+docker run --rm --mount type=bind,src=/home/stepan/DOCKER/Autotests,target=/usr/src/mymaven -w /usr/src/mymaven maven:3.6.3-ibmjava-8 mvn -Dtest=SimpleTest test
+
+docker pull selenium/standalone-chrome:3.141.59
+docker run -d --rm selenium/standalone-chrome:3.141.59
+docker ps
+docker stop <id>
+
+docker run -d --rm -p 4440:4444 selenium/standalone-chrome:3.141.59      4440-на хост машине, 4444-в контейнере
+localhost:4440
+
+docker run -it --rm --network host ubuntu_with_curl bash   --network host подключение к сети хост машины
+localhost:4440
+curl 'http://localhost:4440/wd/hub/session' --data-binary '{"desiredCapabilities":{"browserName":"chrome"}}'
+
+
+
+docker build -t python_counter .
+docker build -t run_test /home/stepan/DOCKER/Autotests -f ./Dockerfile 
+docker run --rm --network host run_test
+
+################################
+docker-compose up
+
+
+docker exec -i -t <имя_или_id> /bin/bash ls
+
+
+

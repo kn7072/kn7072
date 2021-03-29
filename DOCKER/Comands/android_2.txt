@@ -1,0 +1,253 @@
+https://dker.ru/docs/docker-engine/engine-reference/command-line-reference/docker-commands/
+https://docs.docker.com/engine/reference/commandline/container_run/
+
+############################################################################################################
+df -h
+docker system df -v
+docker info
+https://www.projectatomic.io/blog/2016/03/daemon_option_basedevicesize/   -оргаричения на размер контейнера
+sudo dockerd --storage-opt dm.basesize=15G
+
+
+sudo systemctl start docker
+sudo systemctl stop docker
+
+sudo systemctl stop docker -останавливаем демон
+https://docs.docker.com/engine/reference/commandline/dockerd/
+/etc/docker/daemon.json
+добавляем 
+{
+"storage-driver": "devicemapper",
+  "storage-opts": [
+    "dm.basesize=20G"
+  ]
+}
+
+возможно нужно будет выполнить
+Это значение влияет на общесистемную «базовую» пустую файловую систему, которая уже может быть инициализирована и унаследована извлеченными изображениями. Как правило, изменение этого значения требует дополнительных действий, чтобы они вступили в силу:
+sudo rm -rf /var/lib/docker
+
+и запустить демон
+sudo systemctl stop docker
+sudo docker info
+############################################################################################################
+https://docs.docker.com/engine/reference/commandline/system_df/
+
+http://artkoshelev.github.io/posts/android-automation-docker
+https://help.ubuntu.ru/wiki/wget
+
+
+appium
+https://hub.docker.com/r/appium/appium-emulator
+https://riptutorial.com/ru/appium
+https://coderoad.ru/25605445/%D0%9A%D0%B0%D0%BA-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-%D0%B8-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D1%82%D0%B8%D1%82%D1%8C-appium-%D0%B2-linux
+
+https://github.com/appium-boneyard/sample-code/blob/master/sample-code/examples/python/android_simple.py
+https://coderoad.ru/22374416/%D0%9A%D0%B0%D0%BA-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C-Appium-%D0%B2-Ubuntu-%D0%B4%D0%BB%D1%8F-android
+https://kreisfahrer.gitbooks.io/selenium-webdriver/content/selenium_webdriver_testirovanie_na_mobilnih_brauzerah/ustanovka_i_nastroika_appium_printsipi_i_osnovi_raboti_s_instrumentom.html
+
+SDK ANDROID
+https://guides.codepath.com/android/installing-android-sdk-tools
+https://developer.android.com/studio
+https://coderoad.ru/34556884/%D0%9A%D0%B0%D0%BA-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-Android-SDK-%D0%BD%D0%B0-Ubuntu
+https://qastack.ru/programming/37505709/how-do-i-download-the-android-sdk-without-downloading-android-studio
+https://stackoverflow.com/questions/37505709/how-do-i-download-the-android-sdk-without-downloading-android-studio
+https://dev.to/enriquem/android-sdk-without-studio-3idg +++
+
+
+https://www.2daygeek.com/install-configure-sdk-android-emulator-on-linux/
+https://www.2daygeek.com/install-genymotion-android-emulator-on-ubuntu-debian-fedora-arch-linux/
+https://habr.com/ru/post/465193/
+
+
+https://coderoad.ru/34556884/%D0%9A%D0%B0%D0%BA-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-Android-SDK-%D0%BD%D0%B0-Ubuntu
+https://developer.android.com/studio#Requirements
+https://coderoad.ru/37505709/%D0%9A%D0%B0%D0%BA-%D1%8F-%D0%BC%D0%BE%D0%B3%D1%83-%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Android-SDK-%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8-Android-Studio
+
+wget -qO- "https://dl.google.com/android/repository/commandlinetools-linux-6858069_latest.zip" | tar -zxv -C /opt/
+wget https://dl.google.com/android/repository/commandlinetools-linux-6858069_latest.zip
+unzip commandlinetools-linux-6858069_latest.zip
+
+TAR
+https://losst.ru/komanda-tar-v-linux
+UNZIP
+https://losst.ru/kak-raspakovat-zip-v-linux
+WGETo
+https://losst.ru/komanda-wget-linux
+
+unzip -d ../opt/
+
+
+JAVA
+https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04-ru
+sudo apt install default-jre
+java -version
+
+PATH
+https://losst.ru/peremennaya-path-v-linux
+export PATH=$PATH:/opt/local/bin
+
+UBUNTU
+https://hub.docker.com/_/ubuntu?tab=tags&page=1&ordering=last_updated
+
+УСТНОВКА SDK_ANDROID
+https://stackoverflow.com/questions/60440509/android-command-line-tools-sdkmanager-always-shows-warning-could-not-create-se/61176718#61176718
+
+$ mkdir android-sdk
+$ cd android-sdk
+$ mkdir cmdline-tools
+$ cd cmdline-tools
+$ wget https://dl.google.com/android/repository/commandlinetools-linux-6858069_latest.zip
+$ unzip commandlinetools-linux-6858069_latest.zip
+
+
+https://andresand.medium.com/android-emulator-on-docker-container-f20c49b129ef
+https://medium.com/@rishii.kumar.chawda/install-android-emulator-for-react-native-app-without-installing-android-studio-727d7734528
+
+ANDROID_HOME=/android-sdk
+PATH=${PATH}:$ANDROID_HOME/cmdline-tools/cmdline-tools/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/emulator
+
+PATH=${PATH}:$ANDROID_HOME/emulator
+
+PATH=${PATH}:$ANDROID_HOME/cmdline-tools/tools/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/emulator
+
+
+PATH=${PATH}:$ANDROID_HOME/emulator:$ANDROID_HOME/cmdline-tools/cmdline-tools/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools
+
+!!!!!!!!
+"system-images;android-30;google_apis;x86_64" уже устанавливает emulator
+"platforms;android-30" добавляет только platforms
+"build-tools;30.0.3" => build-tools, tools, platform-tools
+
+sdkmanager --list
+#####  yes Y | sdkmanager --install "platform-tools" "system-images;android-30;google_apis;x86_64" "platforms;android-30" "build-tools;30.0.3" "emulator"
+yes Y | sdkmanager --install "system-images;android-30;google_apis;x86_64" "platforms;android-30" "build-tools;30.0.3"
+yes Y | sdkmanager --licenses
+
+sdkmanager "platform-tools" "platforms;android-30" "build-tools;30.0.3"
+sdkmanager "tools" "platforms;android-30"
+sdkmanager "system-images;android-30;google_apis;x86_64"
+sdkmanager "emulator"
+sdkmanager "extras;google;m2repository" "extras;android;m2repository"
+
+https://developer.android.com/studio/command-line/avdmanager
+
+# https://dev.to/enriquem/android-sdk-without-studio-3idg
+
+##### ПРОВЕРКА kvm
+https://developer.android.com/studio/run/emulator-acceleration
+The following example shows how to use the kvm-ok command:
+
+
+$ sudo apt-get install cpu-checker
+$ egrep -c '(vmx|svm)' /proc/cpuinfo
+12
+$ kvm-ok
+INFO: /dev/kvm exists
+KVM acceleration can be used
+##### ПРОВЕРКА kvm
+
+avdmanager create avd -n test -k "system-images;android-30;google_apis;x86"
+
+emulator -list-avds
+emulator -avd myTestDevice
+
+
+avdmanager create avd --name test-avd --package "system-images;android-30;google_apis;x86_64"
+
+avdmanager create avd --force --name "myTestDevice" --abi google_apis/x86 --package 'system-images;android-30;google_apis;x86' --device "myTestDevice"
+avdmanager create avd --force --name myTestDevice --abi google_apis/x86 --package 'system-images;android-30;google_apis;x86' --device "myTestDevice"
+
+
+
+avdmanager create avd -n test_2 -no-window -accel on -gpu off -k "system-images;android-30;google_apis;x86_64"
+
+
+avdmanager create avd --force --name nn --abi google_apis/x86_64 --package 'system-images;android-30;google_apis;x86_64' --device "Nexus 6P"
+
+avdmanager -v delete avd -n "android-26"
+
+FIND
+https://losst.ru/komanda-find-v-linux
+########################################################################################################################
+dockerfile-from-image
+docker pull chenzj/dfimage
+alias dfimage="docker run -v /var/run/docker.sock:/var/run/docker.sock --rm chenzj/dfimage"
+dfimage IMAGE_ID > Dockerfile
+########################################################################################################################
+APPIUM
+https://www.hostinger.ru/rukovodstva/kak-ustanovit-node-js-npm-ubuntu/
+apt install nodejs
+sudo apt install npm 
+apt update
+
+https://coderoad.ru/22374416/%D0%9A%D0%B0%D0%BA-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C-Appium-%D0%B2-Ubuntu-%D0%B4%D0%BB%D1%8F-android
+npm install -g appium
+appium
+
+https://stackoverflow.com/questions/47313420/how-to-stop-appium-server-through-command-line/47314292
+node appium --address 127.0.0.1 --port 4723 --session-override --no-reset --platform-name Android --platform-version 23 --automation-name Appium
+
+http://appium.io/docs/en/writing-running-appium/server-args/
+########################################################################################################################
+
+KVM
+https://losst.ru/ustanovka-kvm-ubuntu-16-04
+
+https://developer.android.com/studio/run/emulator-acceleration#vm-linux
+########################################################################################################################
+NODEJS
+
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-ru
+########################################################################################################################
+Appium
+
+http://appium.io/docs/en/about-appium/getting-started/#getting-started
+########################################################################################################################
+curl https://dl.google.com/android/repository/commandlinetools-mac-6858069_latest.zip -o $HOME/android-sdk.zip
+unzip $HOME/android-sdk.zip -d $HOME/.tmp-android
+mkdir $HOME/.android-sdk && mkdir $HOME/.android-sdk/cmdline-tools
+mv $HOME/.tmp-android/cmdline-tools $HOME/.android-sdk/cmdline-tools/latest
+rm -rf $HOME/android-sdk.zip $HOME/.tmp-android/
+export ANDROID_SDK_ROOT="$HOME/.android-sdk"
+yes | $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --update
+yes | $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager \
+    "system-images;android-29;default;x86_64" \
+    "platforms;android-29" \
+    "build-tools;29.0.3" \
+    "extras;google;m2repository" \
+    "extras;android;m2repository"
+yes | $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --licenses
+
+
+yes | dkmanager \
+"extras;google;m2repository" \
+    "extras;android;m2repository"
+yes | sdkmanager --licenses
+
+yes | sdkmanager \
+    "system-images;android-29;default;x86_64" \
+    "platforms;android-29" \
+    "build-tools;29.0.3" \
+    "extras;google;m2repository" \
+    "extras;android;m2repository"
+yes | sdkmanager --licenses
+avdmanager create avd --name test-avd_5 --package "system-images;android-29;default;x86_64"
+emulator -avd test-avd_5
+
+
+avdmanager create avd --name test-avd_3 --package "system-images;android-30;google_apis;x86_64"
+emulator -avd test-avd_3
+
+
+
+
+
+
+
+
+
+
+
+
+
