@@ -1,0 +1,58 @@
+xfreerdp /f /u:ИМЯ-ПОЛЬЗОВАТЕЛЯ /p:ПАРОЛЬ /v:ХОСТ[:ПОРТ]
+
+vpn.tensor.ru:501
+
+https://hackware.ru/?p=11888
+https://github.com/awakecoding/FreeRDP-Manuals/blob/master/User/FreeRDP-User-Manual.markdown
+https://wiki.yola.ru/_media/freerdp/freerdp-user-manual.pdf
+https://www.mankier.com/1/xfreerdp
+
+
+/v:<СЕРВЕР>[:ПОРТ]    Имя хоста сервера с RDP
+/u:...  Имя пользователя
+/p:<ПАРОЛЬ>   Пароль
+/f                      Полноэкранный режим (<Ctrl>+<Alt>+<Enter> переключает полноэкранный режим)
+/port:<number>    Порт сервера
+/size:...   Размер экрана
+/w:<width>    Ширина
+/h:<height>   Высота
+/monitor-list           Вывести список обнаруженных мониторов
+/monitors:<id>[,<id>[,...]]   Выбрать мониторы для использования
+-grab-keyboard          Отключить захват клавиатуры
+-mouse-motion           Отключить отправку движений мыши
+/log-level:...  Установить уровень журналирования по умолчанию, подробности смотрите в wLog(7)
++home-drive             Сделать домашнюю папку пользователя совместной с удалённым столом
+/drive:<ИМЯ>,<ПУТЬ> Подключить директорию <ПУТЬ> как шару с именем <ИМЯ>
++drives                 Включить перенаправление всех точек монтирования как совместных папок
+/ipv6                   Предпочитать IPv6 AAAA запись, а не IPv4 A запись
+/t:<ЗАГОЛОВОК>    Заголовок окна
+/kbd:0x<id> или <ИМЯ>   Раскладка клавиатуры
+/kbd-fn-key:<ЗНАЧЕНИЕ>    Значение функциональной клавиши
+/kbd-list               Вывести список раскладок клавиатуры
+/kbd-subtype:<id> Подтип клавиатуры
+/kbd-type:<id>    Тип клавиатуры</id>
+
+
+
+xfreerdp /f /u:sg.chernov /p:qweQWE1 /v:usd-chernovsg.corp.tensor.ru
+
+xfreerdp  /monitor-list /u:ЛОГИН /p:ДоменныйПароль /v:ИМЯ_ТАЧКИ.corp.tensor.ru
+xfreerdp xfreerdp  /monitors:0,1 /multimon  /u:ЛОГИН /p:ДоменныйПароль /v:ИМЯ_ТАЧКИ.corp.tensor.ru
+
+
+xfreerdp  /monitor-list /u:sg.chernov /p:qweQWE1 /v:usd-chernovsg.corp.tensor.ru 
+
+xfreerdp  /monitors:0,1 /multimon /u:sg.chernov /p:qweQWE1 /v:usd-chernovsg.corp.tensor.ru 
+
+
+#############################################
+Remmina Remote Desktop Client
+
+https://white55.ru/remmina.html
+
+
+
+
+
+
+
