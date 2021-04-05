@@ -25,31 +25,34 @@ def get_mnemo_galagoliya(word):
 
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
-    if message.text.endswith("_s"):
-        word_i = message.text.replace("_s", "")
-        print(word_i)
-        if os.name == "nt":
-            play_sound(word_i)
-        else:
-            sound(word_i)
-        # bot.send_message(message.from_user.id, word_i)
-    elif message.text.endswith("_e"):
-        word_i = message.text.replace("_e", "")
-        parse_file(word_i, send_examples=True)
-        # bot.send_message(message.from_user.id, "Напиши привет")
-    elif message.text.endswith("_d"):
-        with open(path_file_not_learn, encoding="utf-8", mode="a") as f:
-            word_i = message.text.replace("_d", "")
-            f.write(word_i + "\n")
-    elif message.text.endswith("_m"):
-        word_i = message.text.replace("_m", "")
-        garibjan = mnemo_garibjan.get(word_i, "")
-        galagoliya = get_mnemo_galagoliya(word_i)
-        
-        send_message_from_bot(garibjan + "\n" + galagoliya)
+    try:
+        if message.text.endswith("_s"):
+            word_i = message.text.replace("_s", "")
+            print(word_i)
+            if os.name == "nt":
+                play_sound(word_i)
+            else:
+                sound(word_i)
+            # bot.send_message(message.from_user.id, word_i)
+        elif message.text.endswith("_e"):
+            word_i = message.text.replace("_e", "")
+            parse_file(word_i, send_examples=True)
+            # bot.send_message(message.from_user.id, "Напиши привет")
+        elif message.text.endswith("_d"):
+            with open(path_file_not_learn, encoding="utf-8", mode="a") as f:
+                word_i = message.text.replace("_d", "")
+                f.write(word_i + "\n")
+        elif message.text.endswith("_m"):
+            word_i = message.text.replace("_m", "")
+            garibjan = mnemo_garibjan.get(word_i, "")
+            galagoliya = get_mnemo_galagoliya(word_i)
+            
+            send_message_from_bot(garibjan + "\n" + galagoliya)
 
-    else:
-        bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
+        else:
+            bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
+    except Exception as e:
+        print(e)        
 
 
 bot.polling(none_stop=True, interval=0)    

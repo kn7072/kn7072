@@ -30,5 +30,6 @@ docker-compose up
 
 docker exec -i -t <имя_или_id> /bin/bash ls
 
+docker cp 1.mp4 4988eef5d483:/
 
 
