@@ -215,21 +215,15 @@ threshold = 8000
 y_some_digit_pred = (y_scores > threshold)
 y_some_digit_pred
 
-
+# снова при­меняя функцию cross_val_predict(),но на этот раз с указанием того,
+# что вместо прогнозов она должна возвратить суммы очков, управляющие решением:
 y_scores = cross_val_predict(sgd_clf, X_train, y_train_5, cv=3,
                              method="decision_function")
 
-
-# In[31]:
-
-
 from sklearn.metrics import precision_recall_curve
-
 precisions, recalls, thresholds = precision_recall_curve(y_train_5, y_scores)
-
-
-# In[32]:
-
+# recalls - полнота
+# precisions - точность
 
 def plot_precision_recall_vs_threshold(precisions, recalls, thresholds):
     plt.plot(thresholds, precisions[:-1], "b--", label="Precision", linewidth=2)
@@ -239,11 +233,8 @@ def plot_precision_recall_vs_threshold(precisions, recalls, thresholds):
     plt.grid(True)                              # Not shown
     plt.axis([-50000, 50000, 0, 1])             # Not shown
 
-
-
 recall_90_precision = recalls[np.argmax(precisions >= 0.90)]
 threshold_90_precision = thresholds[np.argmax(precisions >= 0.90)]
-
 
 plt.figure(figsize=(8, 4))                                                                  # Not shown
 plot_precision_recall_vs_threshold(precisions, recalls, thresholds)
@@ -255,15 +246,7 @@ plt.plot([threshold_90_precision], [recall_90_precision], "ro")                 
 save_fig("precision_recall_vs_threshold_plot")                                              # Not shown
 plt.show()
 
-
-# In[33]:
-
-
 (y_train_pred == (y_scores > 0)).all()
-
-
-# In[35]:
-
 
 def plot_precision_vs_recall(precisions, recalls):
     plt.plot(recalls, precisions, "b-", linewidth=2)
@@ -280,10 +263,6 @@ plt.plot([recall_90_precision], [0.9], "ro")
 save_fig("precision_vs_recall_plot")
 plt.show()
 
-
-# In[42]:
-
-
 threshold_90_precision = thresholds[np.argmax(precisions >= 0.90)]
 threshold_90_precision
 y_train_pred_90 = (y_scores >= threshold_90_precision)
@@ -291,7 +270,7 @@ precision_score(y_train_5, y_train_pred_90)
 recall_score(y_train_5, y_train_pred_90)
 
 
-# # ROC curves
+## ROC curves
 from sklearn.metrics import roc_curve
 
 fpr, tpr, thresholds = roc_curve(y_train_5, y_scores)
@@ -314,9 +293,7 @@ save_fig("roc_curve_plot")                                    # Not shown
 plt.show()
 
 from sklearn.metrics import roc_auc_score
-
 roc_auc_score(y_train_5, y_scores)
-
 
 # **Note**: we set `n_estimators=100` to be future-proof since this will be the default value in Scikit-Learn 0.22.
 from sklearn.ensemble import RandomForestClassifier
@@ -350,7 +327,7 @@ precision_score(y_train_5, y_train_pred_forest)
 recall_score(y_train_5, y_train_pred_forest)
 
 
-# # Multiclass classification
+## Multiclass classification
 from sklearn.svm import SVC
 
 svm_clf = SVC(gamma="auto", random_state=42)
@@ -419,8 +396,7 @@ save_fig("error_analysis_digits_plot")
 plt.show()
 
 
-# # Multilabel classification
-
+## Multilabel classification
 from sklearn.neighbors import KNeighborsClassifier
 
 y_train_large = (y_train >= 7)
@@ -431,11 +407,9 @@ knn_clf = KNeighborsClassifier()
 knn_clf.fit(X_train, y_multilabel)
 knn_clf.predict([some_digit])
 
-
 # **Warning**: the following cell may take a very long time (possibly hours depending on your hardware).
 y_train_knn_pred = cross_val_predict(knn_clf, X_train, y_multilabel, cv=3)
 f1_score(y_multilabel, y_train_knn_pred, average="macro")
-
 
 # # Multioutput classification
 noise = np.random.randint(0, 100, (len(X_train), 784))
@@ -457,8 +431,8 @@ plot_digit(clean_digit)
 save_fig("cleaned_digit_example_plot")
 
 
-# # Extra material
-# ## Dummy (ie. random) classifier
+## Extra material
+### Dummy (ie. random) classifier
 
 from sklearn.dummy import DummyClassifier
 dmy_clf = DummyClassifier(strategy="prior")
@@ -467,7 +441,6 @@ y_scores_dmy = y_probas_dmy[:, 1]
 
 fprr, tprr, thresholdsr = roc_curve(y_train_5, y_scores_dmy)
 plot_roc_curve(fprr, tprr)
-
 
 # ## KNN classifier
 from sklearn.neighbors import KNeighborsClassifier
@@ -528,7 +501,7 @@ y_pred = grid_search.predict(X_test)
 accuracy_score(y_test, y_pred)
 
 
-# ## 2. Data Augmentation
+### 2. Data Augmentation
 from scipy.ndimage.interpolation import shift
 
 def shift_image(image, dx, dy):
@@ -633,7 +606,6 @@ train_data["Pclass"].value_counts()
 train_data["Sex"].value_counts()
 train_data["Embarked"].value_counts()
 
-
 # The Embarked attribute tells us where the passenger embarked: C=Cherbourg, Q=Queenstown, S=Southampton.
 # **Note**: the code below uses a mix of `Pipeline`, `FeatureUnion` and a custom `DataFrameSelector` to preprocess some columns differently.  Since Scikit-Learn 0.20, it is preferable to use a `ColumnTransformer`, like in the previous chapter.
 # Now let's build our preprocessing pipelines. We will reuse the `DataframeSelector` we built in the previous chapter to select specific attributes from the `DataFrame`:
@@ -657,7 +629,6 @@ num_pipeline = Pipeline([
     ])
 
 num_pipeline.fit_transform(train_data)
-
 
 # We will also need an imputer for the string categorical columns (the regular `SimpleImputer` does not work on those):
 # Inspired from stackoverflow.com/questions/25239958
@@ -978,8 +949,10 @@ X_few_wordcounts
 from scipy.sparse import csr_matrix
 
 class WordCounterToVectorTransformer(BaseEstimator, TransformerMixin):
+    
     def __init__(self, vocabulary_size=1000):
         self.vocabulary_size = vocabulary_size
+    
     def fit(self, X, y=None):
         total_count = Counter()
         for word_count in X:
@@ -989,6 +962,7 @@ class WordCounterToVectorTransformer(BaseEstimator, TransformerMixin):
         self.most_common_ = most_common
         self.vocabulary_ = {word: index + 1 for index, (word, count) in enumerate(most_common)}
         return self
+    
     def transform(self, X, y=None):
         rows = []
         cols = []
