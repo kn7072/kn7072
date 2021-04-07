@@ -30,7 +30,7 @@ path_file_words = os.path.join(path_script, "ПОВТОРИТЬ.txt")
 path_last_word = os.path.join(path_script, "last_word.txt")
 path_file_not_learn = os.path.join(path_script, "ПРОПУСТИТЬ.txt")
 
-wait_sound = 360
+wait_sound = 360 
 time_sound_pause = 5
 count_sound = 2
 
@@ -48,6 +48,26 @@ schedule = {
                ]
 }
 
+temp_html = """
+<div class="container-word">
+            <div class="word_en">{word}</div>
+            <div class="translate clickable" onclick='myClick(this)'>Перевод
+                <div class="hidden content">
+                    {translate}
+                </div>
+            </div>
+            <div class="memorize clickable" onclick='myClick(this)'>Мнемоника
+                <div class="hidden content">
+                    {mnemo}
+                </div>
+            </div>
+            <div class="examples clickable" onclick='myClick(this)'>Примеры
+                <div class="hidden content">
+                    {examples}
+                </div>
+            </div>
+        </div>
+"""
 
 
 # get_me = f"https://api.telegram.org/bot{token}/getMe"

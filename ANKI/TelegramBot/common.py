@@ -66,36 +66,52 @@ def sound(word):
             return
         time.sleep(time_sound_pause)
 
+def send_message_list(list_mes):
+    for text_i in list_mes:
+        if text_i:
+            send_message_from_bot(text_i)    
 
-def parse_file(word_i, send_examples=False):
+def parse_file(word_i):  # , send_examples=False, send_mes=True
     path_file = os.path.join(path_dir, f"{word_i}.txt") 
+    temp_list_msg = []
     try:
         with open(path_file, encoding="utf-8") as f:
             first_line = f.readline() 
-            send_message_from_bot(first_line)
-
+            temp_list_msg.append(first_line)
+            # send_message_from_bot(first_line)
             print(first_line) 
             next_data_file = f.read()
 
             search_mnemo = compl_mnemo.search(next_data_file)
+            mnemo_text = []
             if search_mnemo:
                 mnemo_text = search_mnemo.group("mnemo")
                 print(mnemo_text)
-                send_message_from_bot(mnemo_text)
-
                 print("#" * 30)
-
-            if send_examples:
-                search_examples = re.findall(pattern_examples, next_data_file)
-                if search_examples:
-                    msg = "\n".join(search_examples)
-                    send_message_from_bot(msg)
-                else:
-                    send_message_from_bot(next_data_file)    
-
-            #print()    
+                mnemo_text = mnemo_text.replace("\xa0", "")
+                mnemo_text = [i for i in mnemo_text.split("\n") if i]
+                # send_message_from_bot(mnemo_text)
+            temp_list_msg.append(mnemo_text)    
+            # if send_examples:
+            search_examples = re.findall(pattern_examples, next_data_file, flags=re.DOTALL | re.MULTILINE)
+            if search_examples:
+                # msg = "\n".join(search_examples)
+                examples = [i.replace("\n", "").replace("+", "").replace("#", "") for i in search_examples]  # msg
+                # send_message_from_bot(msg)
+            else:
+                examples = [i.replace("\xa0", "") for i in next_data_file.split("\n") if i]
+                # send_message_from_bot(next_data_file)    
+            # else:
+                
+            temp_list_msg.append(examples)        
+    
     except Exception as e:
         print(e)
+        temp_list_msg.append(str(e))
+
+    # if send_mes:
+    #     send_message_list(temp_list_msg)
+    return temp_list_msg    
 
 def next_play():
     """
@@ -163,3 +179,7 @@ def prepare_galagoliya():
             if i_prepare:
                 temp_list[-1].append(i_prepare)
     return temp_list
+
+def get_data_file(path_file):
+    with open(path_file, encoding="utf-8") as f:
+        return f.read()    
