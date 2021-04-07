@@ -1,0 +1,23 @@
+grep -iR false  ~/.config/autostart ~/.profile /etc/xdg/autostart
+
+
+https://habr.com/ru/company/ruvds/blog/337934/
+
+
+Опция -u выводит список файлов, открытых конкретным пользователем.
+lsof -u stepan | wc -l
+
+
+Не могу вспомнить, когда я не пользовался бы опцией -p, работая с lsof. Она позволяет вывести все файлы, открытые процессом с указанным при вызове команды PID.
+lsof -p <PID>
+
+
+#############################################################
+
+https://jtprog.ru/strace/
+strace -o trace_output.txt -p 9311
+strace -p 9311
+
+
+сигналы 2 видео 1:0:0
+https://coderlessons.com/tutorials/stsenarii/uchitsia-unix/unix-linux-signaly-i-lovushki
