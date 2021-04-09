@@ -79,6 +79,7 @@ def get_mnemo_galagoliya(word):
 
 @bot.message_handler(commands=["start"], content_types=['text'])
 def test_fun(message):
+    global currunt_day
     # for i in range(10):
     #     bot.send_message(message.from_user.id, "Я ")
     #     time.sleep(5)
@@ -92,6 +93,7 @@ def test_fun(message):
             words_of_day.append(data_word)
             if (dt.date.today() - currunt_day).days > 0:
                 words_of_day.clear()
+                currunt_day = dt.date.today()
             
             # path_file_open = os.path.join(path_dir_for_notepad, name_file)
             # info_word = get_first_line(path_file_open)# .encode("utf-8").decode("cp866")
@@ -142,8 +144,8 @@ def get_text_messages(message):
             all_messages = []
             temp_html = get_data_file("test.html")
             for first_line, mnemo, examples in words_of_day:
-                word, translate= first_line.rsplit("|", 1)
-                word = word + "|"
+                word_i, transcription, translate = [i.strip() for i in first_line.split("|")]
+                word_transcription = f"{word_i} |{transcription}|"
                 if not mnemo:
                     garibjan = mnemo_garibjan.get(word_i, "")
                     galagoliya = get_mnemo_galagoliya(word_i)
@@ -153,7 +155,7 @@ def get_text_messages(message):
 
                 mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo])
                 examples_html = "\n".join([f"<div>{i}</div>" for i in examples])
-                word_html = config_bot.temp_html.format(word=word, translate=translate, mnemo=mnemo_html, examples=examples_html)
+                word_html = config_bot.temp_html.format(word=word_transcription, translate=translate, mnemo=mnemo_html, examples=examples_html)
                 all_messages.append(word_html)
             all_messages_text = "\n".join(all_messages)
             # html_report = temp_html.format(html_words=all_messages_text) 
