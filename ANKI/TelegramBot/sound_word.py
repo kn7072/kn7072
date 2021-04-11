@@ -85,7 +85,12 @@ def test_fun(message):
     #     time.sleep(5)
     while True:
         for ind, word_i in enumerate(data_all_words[start_index: last_index]):
+            
+            print(f"DEBUG {word_i}")
+
             next_play()
+
+            
             if word_i in words_not_learn:
                 continue
             data_word = parse_file(word_i)
