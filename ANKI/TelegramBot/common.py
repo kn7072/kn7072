@@ -138,6 +138,11 @@ def next_play():
                 msg = msg = f"Значение ключа start должно быть меньше значеня ключа stop\n Day {current_day}\n schedule:\n{schedule_i}"
                 raise Exception(msg)
             
+            x1 = current_time >= start_play
+            x2 = current_time <= stop_play
+            print(f"DEBUG current_time >= start_play {x1} and current_time <= stop_play  {x2}")
+            
+            
             if current_time >= start_play and current_time <= stop_play:
                 return True
 
