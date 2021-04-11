@@ -60,7 +60,7 @@ bot = telebot.TeleBot(token)
 mnemo_garibjan = prepare_garibjan()
 mnemo_galagoliya = prepare_galagoliya()
 words_of_day = []
-currunt_day = dt.date.today() 
+current_day = dt.date.today() 
 
 
 def get_mnemo_galagoliya(word):
@@ -79,7 +79,7 @@ def get_mnemo_galagoliya(word):
 
 @bot.message_handler(commands=["start"], content_types=['text'])
 def test_fun(message):
-    global currunt_day
+    global current_day
     # for i in range(10):
     #     bot.send_message(message.from_user.id, "Я ")
     #     time.sleep(5)
@@ -91,9 +91,9 @@ def test_fun(message):
             data_word = parse_file(word_i)
             send_message_from_bot(data_word[0])
             words_of_day.append(data_word)
-            if (dt.date.today() - currunt_day).days > 0:
+            if (dt.date.today() - current_day).days > 0:
                 words_of_day.clear()
-                currunt_day = dt.date.today()
+                current_day = dt.date.today()
             
             # path_file_open = os.path.join(path_dir_for_notepad, name_file)
             # info_word = get_first_line(path_file_open)# .encode("utf-8").decode("cp866")
@@ -183,7 +183,7 @@ bot.polling(none_stop=True, interval=0)
 #             continue
 #         data_word = parse_file(word_i)
 #         words_of_day.append(data_word)
-#         if (dt.date.today() - currunt_day).days > 0:
+#         if (dt.date.today() - current_day).days > 0:
 #             words_of_day.clear()
         
 #         # path_file_open = os.path.join(path_dir_for_notepad, name_file)
