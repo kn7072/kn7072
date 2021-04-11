@@ -155,7 +155,7 @@ def get_text_messages(message):
                     garibjan = mnemo_garibjan.get(word_i, "")
                     galagoliya = get_mnemo_galagoliya(word_i)
                     mnemo = garibjan + "\n" + galagoliya
-                    mnemo_text = mnemo_text.replace("\xa0", "")
+                    mnemo_text = mnemo.replace("\xa0", "")
                     mnemo = [i for i in mnemo_text.split("\n") if i]
 
                 mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo])
