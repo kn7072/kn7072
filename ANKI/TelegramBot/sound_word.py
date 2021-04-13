@@ -86,7 +86,7 @@ def test_fun(message):
     while True:
         for ind, word_i in enumerate(data_all_words[start_index: last_index]):
             
-            print(f"DEBUG {word_i}")
+            # print(f"DEBUG {word_i}")
 
             next_play()
 
