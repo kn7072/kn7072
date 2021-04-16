@@ -122,6 +122,8 @@ def test_fun(message):
 
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
+    print("Debug report %s" % message.text)
+    
     try:
         if message.text.endswith("_s"):
             word_i = message.text.replace("_s", "")
