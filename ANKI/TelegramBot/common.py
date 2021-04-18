@@ -188,3 +188,47 @@ def prepare_galagoliya():
 def get_data_file(path_file):
     with open(path_file, encoding="utf-8") as f:
         return f.read()    
+
+mnemo_garibjan = prepare_garibjan()
+mnemo_galagoliya = prepare_galagoliya()
+
+def get_mnemo_galagoliya(word):
+    list_temp = []
+    delimetr = "#"*30
+    result = ""
+    for i in mnemo_galagoliya:
+        block_i = "\n".join(i)
+        if word in block_i:
+            list_temp.append(block_i)
+
+    if list_temp:
+        result = delimetr.join(list_temp)
+    return result 
+
+def send_report(bot, words_of_day):  # , message
+    all_messages = []
+    temp_html = get_data_file("test.html")
+    for first_line, mnemo, examples in words_of_day:
+        word_i, transcription, translate = [i.strip() for i in first_line.split("|")]
+        word_transcription = f"{word_i} |{transcription}|"
+        if not mnemo:
+            garibjan = mnemo_garibjan.get(word_i, "")
+            galagoliya = get_mnemo_galagoliya(word_i)
+            mnemo = garibjan + "\n" + galagoliya
+            mnemo_text = mnemo.replace("\xa0", "")
+            mnemo = [i for i in mnemo_text.split("\n") if i]
+
+        mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo])
+        examples_html = "\n".join([f"<div>{i}</div>" for i in examples])
+        word_html = config_bot.temp_html.format(word=word_transcription, translate=translate, mnemo=mnemo_html, examples=examples_html)
+        all_messages.append(word_html)
+    all_messages_text = "\n".join(all_messages)
+    # html_report = temp_html.format(html_words=all_messages_text) 
+    html_report = temp_html % (all_messages_text)
+    html_report = html_report.encode("utf-8")
+    tmp_date = datetime.today().strftime("%d_%m_%Y")
+    with open("report_%s.html" % tmp_date, mode="wb+") as f:
+        f.write(html_report)
+        for chat_id in config_bot.chat_id_list:
+            f.seek(0)
+            bot.send_document(chat_id, f)         

@@ -183,10 +183,6 @@
 операции и не прерывая выполнение остальных
 декораторов.
 
-
-
-
-
 ## Пример
 <!-- <link rel="stylesheet" href="./highlight/styles/atelier-forest-dark.css">
 <script src="./highlight/highlight.pack.js"></script>
