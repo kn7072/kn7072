@@ -59,7 +59,6 @@ prepate_data()
 bot = telebot.TeleBot(token)
 words_of_day = []
 current_day = dt.date.today() 
- 
 
 
 @bot.message_handler(commands=["start"], content_types=['text'])
