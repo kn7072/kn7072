@@ -176,124 +176,179 @@
 
 ```python
 """
-EN: State Design Pattern
+EN: Observer Design Pattern
 
-Intent: Lets an object alter its behavior when its internal state changes. It
-appears as if the object changed its class.
+Intent: Lets you define a subscription mechanism to notify multiple objects
+about any events that happen to the object they're observing.
 
-RU: Паттерн Состояние
+Note that there's a lot of different terms with similar meaning associated with
+this pattern. Just remember that the Subject is also called the Publisher and
+the Observer is often called the Subscriber and vice versa. Also the verbs
+"observe", "listen" or "track" usually mean the same thing.
 
-Назначение: Позволяет объектам менять поведение в зависимости от своего
-состояния. Извне создаётся впечатление, что изменился класс объекта.
+RU: Паттерн Наблюдатель
+
+Назначение: Создаёт механизм подписки, позволяющий одним объектам следить и
+реагировать на события, происходящие в других объектах.
+
+Обратите внимание, что существует множество различных терминов с похожими
+значениями, связанных с этим паттерном. Просто помните, что Субъекта также
+называют Издателем, а Наблюдателя часто называют Подписчиком и наоборот. Также
+глаголы «наблюдать», «слушать» или «отслеживать» обычно означают одно и то же.
 """
 
 
 from __future__ import annotations
 from abc import ABC, abstractmethod
+from random import randrange
+from typing import List
 
 
-class Context(ABC):
+class Subject(ABC):
     """
-    EN: The Context defines the interface of interest to clients. It also
-    maintains a reference to an instance of a State subclass, which represents
-    the current state of the Context.
+    EN: The Subject interface declares a set of methods for managing
+    subscribers.
 
-    RU: Контекст определяет интерфейс, представляющий интерес для клиентов. Он
-    также хранит ссылку на экземпляр подкласса Состояния, который отображает
-    текущее состояние Контекста.
+    RU: Интферфейс издателя объявляет набор методов для управлениями
+    подпискичами.
     """
-
-    _state = None
-    """
-    EN: A reference to the current state of the Context.
-
-    RU: Ссылка на текущее состояние Контекста.
-    """
-
-    def __init__(self, state: State) -> None:
-        self.transition_to(state)
-
-    def transition_to(self, state: State):
-        """
-        EN: The Context allows changing the State object at runtime.
-
-        RU: Контекст позволяет изменять объект Состояния во время выполнения.
-        """
-
-        print(f"Context: Transition to {type(state).__name__}")
-        self._state = state
-        self._state.context = self
-
-    """
-    EN: The Context delegates part of its behavior to the current State object.
-
-    RU: Контекст делегирует часть своего поведения текущему объекту Состояния.
-    """
-
-    def request1(self):
-        self._state.handle1()
-
-    def request2(self):
-        self._state.handle2()
-
-
-class State(ABC):
-    """
-    EN: The base State class declares methods that all Concrete State should
-    implement and also provides a backreference to the Context object,
-    associated with the State. This backreference can be used by States to
-    transition the Context to another State.
-
-    RU: Базовый класс Состояния объявляет методы, которые должны реализовать все
-    Конкретные Состояния, а также предоставляет обратную ссылку на объект
-    Контекст, связанный с Состоянием. Эта обратная ссылка может использоваться
-    Состояниями для передачи Контекста другому Состоянию.
-    """
-
-    @property
-    def context(self) -> Context:
-        return self._context
-
-    @context.setter
-    def context(self, context: Context) -> None:
-        self._context = context
 
     @abstractmethod
-    def handle1(self) -> None:
+    def attach(self, observer: Observer) -> None:
+        """
+        EN: Attach an observer to the subject.
+
+        RU: Присоединяет наблюдателя к издателю.
+        """
         pass
 
     @abstractmethod
-    def handle2(self) -> None:
+    def detach(self, observer: Observer) -> None:
+        """
+        EN: Detach an observer from the subject.
+
+        RU: Отсоединяет наблюдателя от издателя.
+        """
+        pass
+
+    @abstractmethod
+    def notify(self) -> None:
+        """
+        EN: Notify all observers about an event.
+
+        RU: Уведомляет всех наблюдателей о событии.
+        """
+        pass
+
+
+class ConcreteSubject(Subject):
+    """
+    EN: The Subject owns some important state and notifies observers when the
+    state changes.
+
+    RU: Издатель владеет некоторым важным состоянием и оповещает наблюдателей о
+    его изменениях.
+    """
+
+    _state: int = None
+    """
+    EN: For the sake of simplicity, the Subject's state, essential to all
+    subscribers, is stored in this variable.
+
+    RU: Для удобства в этой переменной хранится состояние Издателя, необходимое
+    всем подписчикам.
+    """
+
+    _observers: List[Observer] = []
+    """
+    EN: List of subscribers. In real life, the list of subscribers can be stored
+    more comprehensively (categorized by event type, etc.).
+
+    RU: Список подписчиков. В реальной жизни список подписчиков может храниться
+    в более подробном виде (классифицируется по типу события и т.д.)
+    """
+
+    def attach(self, observer: Observer) -> None:
+        print("Subject: Attached an observer.")
+        self._observers.append(observer)
+
+    def detach(self, observer: Observer) -> None:
+        self._observers.remove(observer)
+
+    """
+    EN: The subscription management methods.
+
+    RU: Методы управления подпиской.
+    """
+
+    def notify(self) -> None:
+        """
+        EN: Trigger an update in each subscriber.
+
+        RU: Запуск обновления в каждом подписчике.
+        """
+
+        print("Subject: Notifying observers...")
+        for observer in self._observers:
+            observer.update(self)
+
+    def some_business_logic(self) -> None:
+        """
+        EN: Usually, the subscription logic is only a fraction of what a Subject
+        can really do. Subjects commonly hold some important business logic,
+        that triggers a notification method whenever something important is
+        about to happen (or after it).
+
+        RU: Обычно логика подписки – только часть того, что делает Издатель.
+        Издатели часто содержат некоторую важную бизнес-логику, которая
+        запускает метод уведомления всякий раз, когда должно произойти что-то
+        важное (или после этого).
+        """
+
+        print("\nSubject: I'm doing something important.")
+        self._state = randrange(0, 10)
+
+        print(f"Subject: My state has just changed to: {self._state}")
+        self.notify()
+
+
+class Observer(ABC):
+    """
+    EN: The Observer interface declares the update method, used by subjects.
+
+    RU: Интерфейс Наблюдателя объявляет метод уведомления, который издатели
+    используют для оповещения своих подписчиков.
+    """
+
+    @abstractmethod
+    def update(self, subject: Subject) -> None:
+        """
+        EN: Receive update from subject.
+
+        RU: Получить обновление от субъекта.
+        """
         pass
 
 
 """
-EN: Concrete States implement various behaviors, associated with a state of the
-Context.
+EN: Concrete Observers react to the updates issued by the Subject they had been
+attached to.
 
-RU: Конкретные Состояния реализуют различные модели поведения, связанные с
-состоянием Контекста.
+RU: Конкретные Наблюдатели реагируют на обновления, выпущенные Издателем, к
+которому они прикреплены.
 """
 
 
-class ConcreteStateA(State):
-    def handle1(self) -> None:
-        print("ConcreteStateA handles request1.")
-        print("ConcreteStateA wants to change the state of the context.")
-        self.context.transition_to(ConcreteStateB())
-
-    def handle2(self) -> None:
-        print("ConcreteStateA handles request2.")
+class ConcreteObserverA(Observer):
+    def update(self, subject: Subject) -> None:
+        if subject._state < 3:
+            print("ConcreteObserverA: Reacted to the event")
 
 
-class ConcreteStateB(State):
-    def handle1(self) -> None:
-        print("ConcreteStateB handles request1.")
-
-    def handle2(self) -> None:
-        print("ConcreteStateB handles request2.")
-        print("ConcreteStateB wants to change the state of the context.")
-        self.context.transition_to(ConcreteStateA())
+class ConcreteObserverB(Observer):
+    def update(self, subject: Subject) -> None:
+        if subject._state == 0 or subject._state >= 2:
+            print("ConcreteObserverB: Reacted to the event")
 
 
 if __name__ == "__main__":
@@ -301,9 +356,21 @@ if __name__ == "__main__":
     #
     # RU: Клиентский код.
 
-    context = Context(ConcreteStateA())
-    context.request1()
-    context.request2()
+    subject = ConcreteSubject()
+
+    observer_a = ConcreteObserverA()
+    subject.attach(observer_a)
+
+    observer_b = ConcreteObserverB()
+    subject.attach(observer_b)
+
+    subject.some_business_logic()
+    subject.some_business_logic()
+
+    subject.detach(observer_a)
+
+    subject.some_business_logic()
+
 
 ```
 <!-- </code>
