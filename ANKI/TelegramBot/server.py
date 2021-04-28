@@ -1,0 +1,76 @@
+#!/usr/bin/python
+from http.server import BaseHTTPRequestHandler, HTTPServer
+import json
+from common import *
+
+PORT_NUMBER = 8088
+
+
+# This class will handles any incoming request from the browser
+class MyHandler(BaseHTTPRequestHandler):
+
+    error_message_format = "ERRRRRROR"
+    exp = ""
+
+    # Handler for the GET requests
+
+    # def do_GET(self):
+    #     if self.path == "/":
+    #         self.path = "/index_example3.html"
+    #     try:
+    #         # Check the file extension required and
+    #         # set the right mime type
+    #         sendReply = False
+    #         if self.path.endswith(".html"):
+    #             mimetype = 'text/html'
+    #             sendReply = True
+    #         if sendReply == True:
+    #             # Open the static file requested and send it
+    #             f = open(curdir + sep + self.path)
+    #             self.send_response(200)
+    #             self.send_header('Content-type', mimetype)
+    #             self.end_headers()
+    #             self.wfile.write(f.read().encode())
+    #             f.close()
+    #
+    #         else:
+    #             self.send_error(200, "ERRRRRRROR")
+    #         return
+    #
+    #     except IOError:
+    #         self.send_error(404, 'File Not Found: %s' % self.path)
+
+    # Handler for the POST requests
+    def _analisis_request(self):
+        """"""
+        self.send_response(200)
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.end_headers()
+        content_len = int(self.headers.get('Content-Length'))
+        post_body_bin = self.rfile.read(content_len)
+        post_body = json.loads(post_body_bin.decode().replace("\r\n", ""))
+        return post_body
+
+    def do_POST(self):
+        if self.path in ["/sound"]:
+            fields = self._analisis_request()
+            if fields.get("sound"):
+                try:
+                    play_sound(fields["sound"])
+                    word_json = b"true"
+                    self.wfile.write(word_json)
+                except StopIteration as e:
+                    res = b"StopIteration"
+                    self.wfile.write(res)
+
+
+if __name__ == "__main__":
+    try:
+        # Create a web server and define the handler to manage the incoming request
+        server = HTTPServer(('', PORT_NUMBER), MyHandler)
+        print('Started httpserver on port ', PORT_NUMBER)
+        # Wait forever for incoming htto requests
+        server.serve_forever()
+    except KeyboardInterrupt:
+        print('^C received, shutting down the web server')
+        server.socket.close()
