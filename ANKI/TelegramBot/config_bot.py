@@ -30,7 +30,7 @@ path_file_words = os.path.join(path_script, "ПОВТОРИТЬ.txt")
 path_last_word = os.path.join(path_script, "last_word.txt")
 path_file_not_learn = os.path.join(path_script, "ПРОПУСТИТЬ.txt")
 
-wait_sound = 360 
+wait_sound = 480
 time_sound_pause = 5
 count_sound = 2
 
@@ -51,6 +51,7 @@ schedule = {
 temp_html = """
 <div class="container-word">
             <div class="word_en">{word}</div>
+            <div class="word_en" onclick='myClickSound(this, "{word}")'>Озвучить</div>
             <div class="translate clickable" onclick='myClick(this)'>Перевод
                 <div class="hidden content">
                     {translate}

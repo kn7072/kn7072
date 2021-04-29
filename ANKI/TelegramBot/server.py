@@ -2,6 +2,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 from common import *
+import cgi
 
 PORT_NUMBER = 8088
 
@@ -46,17 +47,23 @@ class MyHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Access-Control-Allow-Origin', '*')
         self.end_headers()
-        content_len = int(self.headers.get('Content-Length'))
-        post_body_bin = self.rfile.read(content_len)
-        post_body = json.loads(post_body_bin.decode().replace("\r\n", ""))
-        return post_body
+        # content_len = int(self.headers.get('Content-Length'))
+        # post_body_bin = self.rfile.read(content_len)
+        # post_body = json.loads(post_body_bin.decode().replace("\r\n", ""))
+        # return post_body
+        ctype, pdict = cgi.parse_header(self.headers['content-type'])
+        pdict['boundary'] = bytes(pdict['boundary'], "utf-8")
+        fields = cgi.parse_multipart(self.rfile, pdict)
+        return fields
 
     def do_POST(self):
         if self.path in ["/sound"]:
             fields = self._analisis_request()
             if fields.get("sound"):
                 try:
-                    play_sound(fields["sound"])
+                    word_sound_t = fields["sound"][0].strip()
+                    word_sound = word_sound_t.split("|")[0].strip()
+                    play_sound(word_sound)
                     word_json = b"true"
                     self.wfile.write(word_json)
                 except StopIteration as e:
