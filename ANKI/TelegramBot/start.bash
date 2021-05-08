@@ -1,13 +1,13 @@
 #!/bin/bash
 
 set -p
-python3 sound_word.py &
+python sound_word.py &
 
 echo "PID родительского процесса $$"
 echo "PID sound_word.py $!"
 SOUND_WORD_PID=$!
 
-python3 server.py &
+python server.py &
 echo "PID server.py $!"
 SERVER_PID=$!
 
