@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -p
 python3 sound_word.py &
 
 echo "PID родительского процесса $$"
