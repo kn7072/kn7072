@@ -1,4 +1,3 @@
-#!/usr/bin/python
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 from common import *
