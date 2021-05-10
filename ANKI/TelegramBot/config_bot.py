@@ -51,7 +51,7 @@ schedule = {
 temp_html = """
 <div class="container-word">
             <div class="word_en">{word}</div>
-            <div class="word_en" onclick='myClickSound(this, "{word}")'>Озвучить</div>
+            <div class="word_en sound" onclick='myClickSound(this, "{word}")'>Озвучить</div>
             <div class="translate clickable" onclick='myClick(this)'>Перевод
                 <div class="hidden content">
                     {translate}

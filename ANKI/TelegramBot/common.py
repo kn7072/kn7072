@@ -209,6 +209,7 @@ def send_report(bot, words_of_day):  # , message
     try:
         all_messages = []
         temp_html = get_data_file("test.html")
+        tmp_date = datetime.today().strftime(r"%d_%m_%Y")
         for first_line, mnemo, examples in words_of_day:
             word_i, transcription, translate = [i.strip() for i in first_line.split("|")]
             word_transcription = f"{word_i} |{transcription}|"
@@ -227,7 +228,6 @@ def send_report(bot, words_of_day):  # , message
         # html_report = temp_html.format(html_words=all_messages_text) 
         html_report = temp_html % (all_messages_text)
         html_report = html_report.encode("utf-8")
-        tmp_date = datetime.today().strftime("%d_%m_%Y")
         with open("report_%s.html" % tmp_date, mode="wb+") as f:
             f.write(html_report)
             for chat_id in config_bot.chat_id_list:
