@@ -228,14 +228,14 @@ def send_report(bot, words_of_day):  # , message
         # html_report = temp_html.format(html_words=all_messages_text) 
         html_report = temp_html % (all_messages_text)
         html_report = html_report.encode("utf-8")
-        with open("report_%s.html" % tmp_date, mode="wb+") as f:
+        with open(r"report_%s.html" % tmp_date, mode="wb+") as f:
             f.write(html_report)
             for chat_id in config_bot.chat_id_list:
                 f.seek(0)
                 bot.send_document(chat_id, f) 
     except Exception as e:
         print(e)  
-        with open("report_error.txt" % tmp_date, mode="wb+") as f:
+        with open(r"report_error_%s.txt" % tmp_date, mode="wb+") as f:
             data = "\n".join([" === ".join(i) for i in words_of_day])
             f.write(data)
             for chat_id in config_bot.chat_id_list:
