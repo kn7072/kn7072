@@ -1,5 +1,7 @@
 s = "abbaabba"
 s = "abcdabscabcdabia"
+# s = "aabaaab"
+
 p = [0]*len(s)
 
 for i in range(1, len(s)):
@@ -14,6 +16,7 @@ for i in range(1, len(s)):
                 break
             else:
                 j = p[j-1] 
-        if s[i] == s[0]:
-            p[i] = 1
+        else:
+            if s[i] == s[0]:
+                p[i] = 1
 print(p)                   
