@@ -73,11 +73,11 @@ def send_message_list(list_mes):
 
 def parse_file(word_i):  # , send_examples=False, send_mes=True
     path_file = os.path.join(path_dir, f"{word_i}.txt") 
-    temp_list_msg = []
+    temp_list_msg = [""]*4
     try:
         with open(path_file, encoding="utf-8") as f:
             first_line = f.readline() 
-            temp_list_msg.append(first_line)
+            temp_list_msg[0].first_line
             # send_message_from_bot(first_line)
             print(first_line) 
             next_data_file = f.read()
@@ -91,7 +91,7 @@ def parse_file(word_i):  # , send_examples=False, send_mes=True
                 mnemo_text = mnemo_text.replace("\xa0", "")
                 mnemo_text = [i for i in mnemo_text.split("\n") if i]
                 # send_message_from_bot(mnemo_text)
-            temp_list_msg.append(mnemo_text)    
+            temp_list_msg[1].append(mnemo_text)    
             # if send_examples:
             search_examples = re.findall(pattern_examples, next_data_file, flags=re.DOTALL | re.MULTILINE)
             if search_examples:
@@ -103,11 +103,13 @@ def parse_file(word_i):  # , send_examples=False, send_mes=True
                 # send_message_from_bot(next_data_file)    
             # else:
                 
-            temp_list_msg.append(examples)        
+            temp_list_msg[2].append(examples)        
     
     except Exception as e:
         print(e)
-        temp_list_msg.append(str(e))
+        temp_list_msg[3].append(str(e))
+    else:
+        temp_list_msg[3].append("")    
 
     # if send_mes:
     #     send_message_list(temp_list_msg)
@@ -210,7 +212,7 @@ def send_report(bot, words_of_day):  # , message
         all_messages = []
         temp_html = get_data_file("test.html")
         tmp_date = datetime.today().strftime(r"%d_%m_%Y")
-        for first_line, mnemo, examples in words_of_day:
+        for first_line, mnemo, examples, error in words_of_day:
             word_i, transcription, translate = [i.strip() for i in first_line.split("|")]
             word_transcription = f"{word_i} |{transcription}|"
             if not mnemo:
