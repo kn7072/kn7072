@@ -66,10 +66,12 @@ def sound(word):
             return
         time.sleep(time_sound_pause)
 
+
 def send_message_list(list_mes):
     for text_i in list_mes:
         if text_i:
             send_message_from_bot(text_i)    
+
 
 def parse_file(word_i):  # , send_examples=False, send_mes=True
     path_file = os.path.join(path_dir, f"{word_i}.txt") 
@@ -114,6 +116,7 @@ def parse_file(word_i):  # , send_examples=False, send_mes=True
     # if send_mes:
     #     send_message_list(temp_list_msg)
     return temp_list_msg    
+
 
 def next_play():
     """
@@ -187,12 +190,14 @@ def prepare_galagoliya():
                 temp_list[-1].append(i_prepare)
     return temp_list
 
+
 def get_data_file(path_file):
     with open(path_file, encoding="utf-8") as f:
         return f.read()    
 
 mnemo_garibjan = prepare_garibjan()
 mnemo_galagoliya = prepare_galagoliya()
+
 
 def get_mnemo_galagoliya(word):
     list_temp = []
@@ -207,23 +212,29 @@ def get_mnemo_galagoliya(word):
         result = delimetr.join(list_temp)
     return result 
 
+
 def send_report(bot, words_of_day):  # , message
     try:
         all_messages = []
         temp_html = get_data_file("test.html")
         tmp_date = datetime.today().strftime(r"%d_%m_%Y")
-        for first_line, mnemo, examples, error in words_of_day:
-            word_i, transcription, translate = [i.strip() for i in first_line.split("|")]
+        for first_line, mnemo_list, examples_list, error in words_of_day:
+            tmp_list = [i.strip() for i in first_line.split("|")]
+            if len(tmp_list) == 3:
+                word_i, transcription, translate = tmp_list
+            else:
+                raise Exception(f"В строке {first_line}\n должно быть два символа |")
+
             word_transcription = f"{word_i} |{transcription}|"
-            if not mnemo:
+            if not mnemo_list:
                 garibjan = mnemo_garibjan.get(word_i, "")
                 galagoliya = get_mnemo_galagoliya(word_i)
                 mnemo = garibjan + "\n" + galagoliya
                 mnemo_text = mnemo.replace("\xa0", "")
-                mnemo = [i for i in mnemo_text.split("\n") if i]
+                mnemo_list = [i for i in mnemo_text.split("\n") if i]
 
-            mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo])
-            examples_html = "\n".join([f"<div>{i}</div>" for i in examples])
+            mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo_list])
+            examples_html = "\n".join([f"<div>{i}</div>" for i in examples_list])
             word_html = config_bot.temp_html.format(word=word_transcription, translate=translate, mnemo=mnemo_html, examples=examples_html)
             all_messages.append(word_html)
         all_messages_text = "\n".join(all_messages)
@@ -236,9 +247,15 @@ def send_report(bot, words_of_day):  # , message
                 f.seek(0)
                 bot.send_document(chat_id, f) 
     except Exception as e:
-        print(e)  
+        print("Ошибка " + str(e))
         with open(r"report_error_%s.txt" % tmp_date, mode="wb+") as f:
-            data = "\n".join([" === ".join(i) for i in words_of_day])
+            # data = "\n".join([" === ".join(i) for first_line, mnemo_list, _, _ in words_of_day])
+            sep = "#" * 30
+            data = ""
+            for first_line, mnemo_list, _, _ in words_of_day:
+                mnemo = "\n".join(mnemo_list)
+                tmp_i = f"{first_line}\n\n{mnemo}\n{sep}\n"
+                data += tmp_i
             f.write(data)
             for chat_id in config_bot.chat_id_list:
                 f.seek(0)

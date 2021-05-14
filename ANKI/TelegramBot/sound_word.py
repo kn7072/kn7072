@@ -74,7 +74,6 @@ def test_fun(message):
 
             next_play()
 
-            
             if word_i in words_not_learn:
                 continue
             data_word = parse_file(word_i)
