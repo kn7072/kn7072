@@ -79,7 +79,7 @@ def parse_file(word_i):  # , send_examples=False, send_mes=True
     try:
         with open(path_file, encoding="utf-8") as f:
             first_line = f.readline() 
-            temp_list_msg[0].first_line
+            temp_list_msg[0] = first_line
             # send_message_from_bot(first_line)
             print(first_line) 
             next_data_file = f.read()
@@ -93,7 +93,7 @@ def parse_file(word_i):  # , send_examples=False, send_mes=True
                 mnemo_text = mnemo_text.replace("\xa0", "")
                 mnemo_text = [i for i in mnemo_text.split("\n") if i]
                 # send_message_from_bot(mnemo_text)
-            temp_list_msg[1].append(mnemo_text)    
+            temp_list_msg[1] = mnemo_text 
             # if send_examples:
             search_examples = re.findall(pattern_examples, next_data_file, flags=re.DOTALL | re.MULTILINE)
             if search_examples:
@@ -105,13 +105,13 @@ def parse_file(word_i):  # , send_examples=False, send_mes=True
                 # send_message_from_bot(next_data_file)    
             # else:
                 
-            temp_list_msg[2].append(examples)        
+            temp_list_msg[2] = examples 
     
     except Exception as e:
         print(e)
-        temp_list_msg[3].append(str(e))
+        temp_list_msg[3] = str(e)
     else:
-        temp_list_msg[3].append("")    
+        temp_list_msg[3] = ""    
 
     # if send_mes:
     #     send_message_list(temp_list_msg)
