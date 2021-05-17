@@ -256,7 +256,8 @@ def send_report(bot, words_of_day):  # , message
                 mnemo = "\n".join(mnemo_list)
                 tmp_i = f"{first_line}\n\n{mnemo}\n{sep}\n"
                 data += tmp_i
-            f.write(data)
+            data_b = data.encode("utf-8")
+            f.write(data_b)
             for chat_id in config_bot.chat_id_list:
                 f.seek(0)
                 bot.send_document(chat_id, f)     
