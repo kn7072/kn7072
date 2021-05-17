@@ -75,7 +75,7 @@ def send_message_list(list_mes):
 
 def parse_file(word_i):  # , send_examples=False, send_mes=True
     path_file = os.path.join(path_dir, f"{word_i}.txt") 
-    temp_list_msg = ["", [], [], ""]
+    temp_list_msg = ["|-|", ["-"], ["-"], ""]
     try:
         with open(path_file, encoding="utf-8") as f:
             first_line = f.readline() 
@@ -252,9 +252,9 @@ def send_report(bot, words_of_day):  # , message
             # data = "\n".join([" === ".join(i) for first_line, mnemo_list, _, _ in words_of_day])
             sep = "#" * 30
             data = ""
-            for first_line, mnemo_list, _, _ in words_of_day:
+            for first_line, mnemo_list, _, err in words_of_day:
                 mnemo = "\n".join(mnemo_list)
-                tmp_i = f"{first_line}\n\n{mnemo}\n{sep}\n"
+                tmp_i = f"{first_line}\n\n{mnemo}\n{sep}\nError - {err}\n"
                 data += tmp_i
             data_b = data.encode("utf-8")
             f.write(data_b)
