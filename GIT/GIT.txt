@@ -1,0 +1,423 @@
+https://git-scm.com/book/ru/v1/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Git-%D0%9F%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80-%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2
+http://imnotgenius.com/git/
+https://webhamster.ru/mytetrashare/index/mtb0/1413010541hzh3175lej
+https://pingvinus.ru/git/1605
+https://pingvinus.ru/git/1605
+
+C:\Users\sg.chernov\AppData\Local\Programs\Git
+
+clear
+
+LOG
+git log --stat -краткая статистика
+git log -p -1
+
+git log --pretty=oneline
+git log --pretty=format:"%h %s" --graph
+git log --pretty=format:"%h %s" --graph -3
+
+git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --date=short -15
+git log --all
+$ git log -S info_status_tests Показывает только коммиты, в которых добавленный или удаленный код совпадает с указанной строкой
+
+git log --no-merges issue54..origin/master - 139 хочет узнать, с чем нужно слить ее работу, чтобы получить возможность отправить ее на сервер
+
+git rev-list 8820032.. --count число коммитов выше указанного
+git rev-list 538c33..d14fc7
+$ git rev-list --no-merges 8820032..089044a
+##########################
+Для анализа родителей
+git cat-file -p commit_id - получаем информацию о коммите - родителей
+# Output hash of the first parent
+git rev-parse $commit^
+
+# Nth parent
+git rev-parse $commit^N
+
+# All parents
+git rev-parse $commit^@
+##########################
+git reflog
+
+git log --oneline -- git.tgz Вы можете легко узнать, какие коммиты модифицировали этот файл:
+##########################################################
+git revert HASH
+git revert --abort
+git revert -m 1 HEAD --no-edit ДЛЯ КОМИТОВ СЛИЯНИЯ
+git revert abcd1234..foobar12  - https://stackoverflow.com/questions/40571270/remove-a-git-commit-between-two-commits
+git revert -n master~5..master~2  -Вернуть изменения, сделанные коммитами, с пятого последнего коммита в мастере 
+(включен) до третьего последнего коммита в мастере (включен), но не создавать никаких коммитов с отмененными изменениями. Возврат только изменяет рабочее дерево и индекс
+
+git revert --strategy recursive -Xours -m 1 5333b08
+
+
+##########################################################
+https://pingvinus.ru/git/1605
+git diff сама по себе не показывает все изменения сделанные с последнего коммита — только те, что ещё не проиндексированы.
+git diff e4a549fa26 8b14d87a2d 
+git diff 952a31e 5220aea config.ini
+git diff HEAD set_build_status -- api/template_api.groovy
+
+##########################################################
+ПРОВЕРКА БАЗЫ
+git fsck --full - проверка базы на целостность
+
+##########################################################
+	
+git cherry-pick <идентификатор коммита>
+$ git rev-list --no-merges 8820032..089044a
+$ git cherry-pick --strategy recursive -Xours 8820032..089044a
+
+git cherry-pick <commit-A>..<commit-B> поместит каждую фиксацию после A и до git cherry-pick <commit-A>..<commit-B> включит B поверх текущей отмеченной ветви.
+git cherry-pick <commit-A>^..<commit-B> поместит фиксацию A и каждую фиксацию до и включительно B поверх текущей отмеченной ветви.
+
+Прежде чем вы начнете процесс вишневого выбора, вы можете проверить, существует ли фиксация, которую вы хотите использовать для зависания, в целевой ветке, и в этом случае вам не нужно ничего делать.
+git branch --contains <commit> отображает локальные ветви, содержащие указанную фиксацию.
+git branch -r --contains <commit> также включает в себя удаленные ветви отслеживания в списке.
+
+##########################################################
+git reset HEAD <файл>
+
+##########################################################
+git checkout -- create_sign.py - сброс до последнего коммита - Никогда не используйте эту команду, если вы не полностью уверены, что этот файл вам не нужен.
+
+##########################################################
+$ git branch -a
+git checkout -b feature/oa.guzenko/mobile_5.3 remotes/origin/feature/oa.guzenko/mobile_5.3 --
+
+git checkout -b iss53 Чтобы создать ветку и сразу же перейти на неё
+git branch recover-branch ab1afef - создание ветки из коммита ab1afef
+git branch -D recover-branch - удаление ветки
+
+##########################################################
+ВНУТРЕННЕЕ УСТРОЙСТВО
+
+git cat-file -p HEAD
+git ls-tree -r HEAD
+git ls-files -s
+
+##########################################################
+как посмотреть историю изменения одного файла
+git blame 1.txt
+git log -p имя_файла
+
+
+########################################################################################################################################################################
+git.exe pull --progress -v --no-rebase "origin"
+git.exe push --progress "origin" conflict_1:conflict_1
+
+git diff --staged  что из проиндексированного войдет в следующий коммит
+git diff оказывает не все изменения, сделанные с момента последней фиксации состояния, а только те, которые еще не проиндексированы
+
+git commit -m "Story 182: Fix benchmarks for speed"
+git commit -a -m 'added new benchmarks'
+
+git log выводит в обратном хронологическом порядке список сохраненных в данный репозиторий версий
+git log -p -2 параметр -p , показывающий разницу, внесенную каждым коммитом. А дополнительный параметр -2 ограничивает выводимый результат последними двумя записями
+
+git log --pretty=format:"%h %s" --graph
+git log --pretty="%h - %s" --author=gitster --since="2008-10-01" --before="2008-11-01" --no-merges -- t СТРАНИЦА 54
+git log --oneline --decorate --graph --all
+git reflog
+
+git log master..experiment какая информация из ветки experiment пока не слита в ветку master стр 226
+git log experiment..master обраатная ситуация
+git log origin/master..HEAD для просмотра информации, которую вы собираетесь отправить на УДАЛЕННЫЙ сервер стр 227
+
+Например, если вы хотите увидеть все коммиты, достижимые по ссылке refA или refB , но недостижимые по ссылке refC , можно написать так
+git log refA refB ^refC
+git log refA refB --not refC
+
+Три точки
+Чтобы посмотреть коммиты, которые находятся только в ветке master или только в ветке experiment, но не в обеих ветках одновременно, можно написать
+git log master...experiment
+git log --left-right master...experiment  параметр --left-right , позволяющий посмотреть, с какой стороны диапазона находится каждый коммит
+
+Поиск в Git-журнале
+git log -SZLIB_BUF_MAX --oneline стр 244 - При помощи параметра -S мы попросим Git показать нам только те коммиты, в которых эта строка (SZLIB_BUF_MAX)добавлялась или удалялась
+
+Поиск по строкам кода 244стр
+git log -L :git_deflate_bound:zlib.c для просмотра изменений, вносившихся в функцию git_deflate_bound в файле zlib.c
+git log -L '/unsigned long git_deflate_bound/',/^}/:zlib.c - через регуляные выражения
+
+###########################################################
+Ссылки на предков
+Символ ^ в конце ссылки с точки зрения Git соответствует предку коммита.
+После символа ^ можно указать число: например, запись d921970^2 означает «второй
+предок коммита d921970». Этот синтаксис применяется только в случае коммитов
+слияния, у которых существует несколько предков. Первый родитель — это ветка,
+на которой вы находились в момент слияния, а второй — коммит на ветке, которая
+подверглась слиянию
+
+$ git show HEAD^
+ругое распространенное обозначение предка — символ ~ . Он также соответствует
+ссылке на первого родителя, поэтому записи HEAD~ и HEAD^ эквивалентны.
+
+###########################################################
+git log contrib --not master стр 157 Просмотр вносимых изменений
+git diff master...contrib стрк 159 выводит вам только те наработки из тематической ветки, которые появились там после расхождения с веткой master
+git merge-base contrib master стр 159 хэш общего предка
+
+###########################################################
+ВЕТКИ
+git branch -v
+git checkout -b iss53 Создать ветку и сразу перейти туда
+или 
+git branch iss53
+git checkout iss53
+
+git branch -d hotfix удалить ветку
+
+https://webhamster.ru/mytetrashare/index/mtb0/1413010541hzh3175lej
+При работе с Git может возникнуть такая ситуация: команда git push не заливает изменения на сервер, а команда git status показывает:
+$ git status
+HEAD detached from 87dc87b
+git status -uno -не показывать неотслеживаемые файлы
+
+Это может означать, что вы делали какую-то навигацию по истории коммитов, и неправильно вернулись к последнему коммиту.
+Исправить эту проблему можно 4-мя командами:
+
+git branch temp
+git checkout temp
+git branch -f master temp
+git checkout master
+
+###########################################################
+Отмена индексирования
+git reset HEAD benchmarks.rb
+
+###########################################################
+СЛИЯНИЕ
+Версия с указателем HEAD (из вашей ветки master , так как именно в нее вы пере­шли перед выполнением команды merge ) располагается в верхней части бло-
+ка (то есть выше набора символов ======= )
+
+git rebase --onto master server client стр 97
+git rebase master server Она переключает вас на тематическую ветку (в данном случае — на ветку server ) и воспроизводит ее содержимое в основной ветке ( master )
+
+git remote show origin
+git config --global credential.helper cache СТР 91 
+
+###########################################################
+Скрытие вашей работы
+git stash
+git stash list
+git stash apply stash@{2} стр 234  Если же вы хотите вернуться к работе над версией, сохраненной в буфер ранее
+
+###########################################################
+Команда git grep
+git grep -n gmtime_r
+git grep --count gmtime_r показав только файлы, в которых обнаружены совпадения, вместе с количеством этих совпадений
+
+
+###########################################################
+Перезапись истории
+
+Удаление файла из всех коммитов
+git filter-branch --tree-filter 'rm -f passwords.txt' HEAD стр 251
+
+###########################################################
+Индекс
+git ls-files -s стр 254 отображает текущее содержимое нашего индекса.
+git reset HEAD~ (--mixed) стр 261
+
+Команда reset с указанием пути
+git reset file.txt команда является сокращением для команды git reset --mixed HEAD file.txt
+git reset eb43bf file.txt
+
+Объединение коммитов
+git reset --soft HEAD~2 возвращает ветку с указателем HEAD на более старый коммит — первый из тех, которые мы хотим сохранить
+git reset --hard HEAD~ стр 281
+
+###########################################################
+checkout
+https://webhamster.ru/mytetrashare/index/mtb0/1465119902140pozfhh1
+
+
+###########################################################
+Игнорирование пробелов стр 272
+git merge -Xignore-all-space whitespace
+git diff --theirs -w стр 275 Чтобы посмотреть, чем результат слияния отличается от содержимого ветки, в которую сливались данные, используем команду
+
+Команде git checkout также можно добавить параметры --ours и --theirs, которые позволяют быстро выбрать одну из версий файла, не выполняя слияния.
+###########################################################
+КОНФЛИКТЫ - Слияние файлов вручную стр 273
+Слияние файлов вручную
+Копию каждой из этих версий конфликтующего файла позволяет извлечь команда git show и особый синтаксис:
+$ git show :1:hello.rb > hello.common.rb
+$ git show :2:hello.rb > hello.ours.rb
+$ git show :3:hello.rb > hello.theirs.rb
+
+$ git diff --ours Чтобы сравнить результат с тем, что было в этой ветке до слияния, другими словами, увидеть, к чему привело слияние, используем команду 
+$ git revert --abort -отмета revert
+
+Протоколирование слияния стр 277
+git log --oneline --left-right HEAD...MERGE_HEAD Получить полный список всех уникальных коммитов, сделанных в любой из участвующих в слиянии веток, помогает уже знакомая вам нотация трех точек
+git log --oneline --left-right --merge мы получим список только тех коммитов с каждой стороны слияния, которые касаются файла, являющегося в данный момент причиной конфликта:
+
+Комбинированный формат
+команда git diff, запущенная во время конфликта слияния, дает возможность вывести на экран только конфликтующие фрагменты. Это позволяет посмотреть, какие еще конфликты требуется разрешить.
+
+Отмена результатов слияния
+Исправление ссылок
+Если нежелательный коммит слияния присутствует только в вашем локальном репозитории, проще и лучше всего переместить ветки,
+ чтобы они указывали туда, куда нужно. В большинстве случаев выполнив после ошибочной команды
+git merge команду git reset --hard HEAD~
+Кроме того, данный подход не будет работать, если с момента слияния был создан хотя бы один новый коммит, — перемещение ссылок, по сути, приведет к потере внесенных изменений.
+
+#####################
+Отмена коммита стр 282
+Если перемещение указателей ветки в вашей ситуации не помогает, система Git дает возможность выполнить новый коммит, отменяющий все изменения, внесенные предыдущим коммитом
+git revert -m 1 HEAD
+
+Флаг -m 1 указывает, какой из предков является «основной веткой» и подлежит сохранению.
+Содержимое нового коммита ^M полностью совпадает с содержимым коммита C6, 
+то есть вы можете начать работу, как будто слияния никогда не было, только коммиты, не входящие в слияние, 
+все еще присутствуют в истории перемещений указателя HEAD. 
+
+В системе Git возникнет путаница, если сейчас вы попытаетесь снова слить содержимое ветки topic в ветку master:
+$ git merge topic
+Already up-to-date.
+https://github.com/git/git/blob/master/Documentation/howto/revert-a-faulty-merge.txt
+###########################################################
+merge МЕРЖ
+https://habr.com/ru/post/195674/ - стратегии слияния
+git merge feature -s resolve
+В каком же случае проявляется недостаток стратегии resolve? Он проявляется в том случае, 
+если для коммита (M) нам пришлось разрешить конфликты, после чего мы продолжили разработку и еще раз хотим выполнить 
+git merge feature -s resolve. В этом случае в качестве общего предка снова будет использован коммит C, и конфликты произойдут снова и будут нуждаться в нашем вмешательстве.
+
+Другие типы слияния
+$ git merge -Xours mundo -m "comment" стр 284 в случае конфликта принимает сторону текущей ветки
+$ git merge -Xtheirs mundo -m "comment" в случае конфликта примет сторону mundo
+
+git merge -s ours mundo стр 285 фиктивное слияние
+Этот трюк полезен в ситуациях, когда нужно обмануть Git, заставив систему думать, 
+что слияние ветки выполнено, в то время как фактическая операция откладывается «на потом». 
+Например, представим, что вы создали ветку release и выполнили в ней некую работу, 
+которую в какой-то момент требуется слить обратно в ветку master. Но при этом в ветку master 
+были внесены некие исправления, которые необходимо перенести в ветку release. 
+В такой ситуации можно слить ветку с исправлениями в ветку release, 
+а затем командой merge -s ours слить содержимое этой ветки в ветку master 
+(несмотря на то, что исправления в ней уже присутствуют). 
+Именно благодаря этому позже, когда вы будете снова сливать содержимое ветки release, не возникнет конфликтов из-за исправлений.
+
+# http://qaru.site/questions/23286/git-skipping-specific-commits-when-merging
+Если вы хотите объединить большинство, но не все коммиты на ветке "maint", например, "master", вы можете это сделать. Это требует некоторой работы ----, как упоминалось выше, обычным вариантом использования является объединение всего из ветки --- но иногда бывает так, что вы внесли изменения в версию выпуска, которая не должна быть интегрирована обратно (может быть, этот код теперь уже завершен в мастерстве), так как вы это представляете? Здесь идет...
+Итак, предположим, что у maint было 5 изменений, и один из них (maint ~ 3) не должен быть объединен обратно в master, хотя все остальные должны быть. Вы делаете это в три этапа: на самом деле объедините все до этого, скажите git отметить maint ~ 3 как слияние, даже если это не так, а затем объединить остальные. Магия:
+
+bash <master>$ git merge maint~4
+bash <master>$ git merge -s ours maint~3
+bash <master>$ git merge maint
+Первая команда объединяет все, прежде чем ваш трудный maint совершит на master. Сообщение о слиянии по умолчанию объяснит, что вы объединяете "ветвь" maint "(ранняя часть)".
+
+Вторая команда объединяет сложную транзакцию maint ~ 3, но опция "-s ours" сообщает git использовать специальную "стратегию слияния", которая на самом деле работает, просто удерживая дерево, в которое вы сливаетесь, и игнорируя фиксацию (ы), которую вы полностью объединяете. Но он все еще делает новое слияние с HEAD и maint ~ 3 в качестве родителей, поэтому в графе пересмотра теперь говорится, что maint ~ 3 сливается. Поэтому на самом деле вы, вероятно, захотите использовать параметр -m для 'git merge', чтобы объяснить, что это maint ~ 3 commit фактически игнорируется!
+
+Последняя команда просто объединяет остальную часть maint (maint ~ 2..maint) в master, чтобы вы все синхронизировались снова.
+###########################################################
+КОНФИГ
+git config --global core.autocrlf true
+git config --system core.longpaths true
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+git config --list --show-origin - http://qaru.site/questions/12651/where-does-git-config-global-get-written-to
+
+git config --list
+git config --local --list
+git config --global --list
+
+git config --global core.editor '"C:/Program Files/Notepad++/notepad++.exe" -multiInst -notabbar -nosession -noPlugin'
+git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+git config --global core.editor '"C:/Program Files/Notepad++/notepad++.exe" -multiInst -notabbar -nosession -noPlugin'
+
+"C:\Users\sg.chernov\AppData\Local\Programs\Microsoft VS Code\Code.exe" -w
+git config --global core.editor "'C:\Users\sg.chernov\AppData\Local\Programs\Microsoft VS Code\Code.exe' -w"
+
+###########################################################
+если сделать reset --hard и запушить с ключем -f, то у тех, у кого уже выкачены отменяемые коммиты не смогуть увидеть 
+откат так как в их локальной истории эти коммиты уже присутствуют - НЕ НАДО РЕСЕТИТЬ ТО ЧТО УЖЕ ЗАЛИТО НА УДАЛЕННУЮ ВЕТКУ
+###########################################################
+SHOW
+git show cf806449e20b550e10ce03393ed583734c2b8de6:data.py > data_2.py получаем файл из состояния коммита cf806449e20b550e10ce03393ed583734c2b8de6
+$ git show rc-6.14:./ui/run_browser.py >  TEST.py  извлекаем файл run_browser.py и помещаем его содержимое в TEST.py
+
+
+###########################################################
+git clone --no-checkout <repo_url> - Выкачивает только .git
+git diff-tree -r --no-commit-id --name-only --diff-filter=ACMRT $commit_id | tar -czf file.tgz -T -     создает file.tgz с файлами добавленными или измененными в данном коммите $commit_id(https://stackoverflow.com/questions/4541300/export-only-modified-and-added-files-with-folder-structure-in-git)
+
+###########################################################
+Переименование Перемещение 
+git-mv - перемещает или переименовывает файл, каталог или символическую ссылку
+git mv [-v] [-f] [-n] [-k] <источник> <пункт назначения>
+
+###########################################################
+Удаление
+git rm -r --cached myFolder -удалить этот каталог из git, но не удалять его полностью из файловой системы (локальной) 
+git rm --cached readme.txt -удалит файл из индекса, но оставит в каталоге
+###########################################################
+Удаление удаленной ветки
+git push origin --delete 19.615_test_new -удалит ветку 19.615_test_new на сервере
+git fetch --all --prune -почистить на тачках репозиторий от удаленных веток(на сервере)
+
+###########################################################
+stash
+git stash save
+git stash list
+git stash apply stash@{2} - stash@{2} название взятое из результата stash list
+###########################################################
+ПРОВЕРИТЬ КАК РАБОТАЕТ
+https://unix.stackexchange.com/questions/233327/is-it-possible-to-clone-only-part-of-a-git-project
+git clone --depth 1  --filter=blob:none "git@git.sbis.ru:autotests/atf.git"
+
+git clone --depth 1 --no-checkout --filter=blob:none "file://$(pwd)/server_repo" local_repo
+cd local_repo
+git checkout master -- mydir
+
+
+##########################################################
+ВЫКАЧАТЬ ТОЛЬКО КАТАЛОГ
+mkdir myrepo
+cd myrepo
+git init
+git config core.sparseCheckout true
+git remote add origin git@git-autotests.sbis.ru:autotests/api.git #      # Note: no -f option
+echo "documents_data/" > .git/info/sparse-checkout
+git fetch --depth 1 origin  # $ git fetch --depth 1 origin 19.621
+git checkout <branchname>      #  git checkout 19.621
+##########################################################
+ВЫКАЧАТЬ ТОЛЬКО КАТАЛОГ - и использовать ссылку на .git ранее склонированного репозитория
+mkdir myrepo
+cd myrepo
+git init
+git config core.sparseCheckout true
+git remote add origin git@git-autotests.sbis.ru:autotests/api.git
+echo "documents_data/" > .git/info/sparse-checkout
+echo "f:/API_TESTS/TEST_GIT/FOR_GIT/mirror/objects" > .git/objects/info/alternates   # f:/API_TESTS/TEST_GIT/FOR_GIT/mirror/objects - тут находятся данные которые будут использоваться в текущем репозитории 
+git fetch --no-tags --progress git@git-autotests.sbis.ru:autotests/api.git +refs/heads/*:refs/remotes/origin/* --depth=1
+git checkout <branchname> 
+
+чтобы создать репозиторий который будет основым
+$ git clone --mirror git@git-autotests.sbis.ru:autotests/api.git mirror  #клонируем только мета информацию .git
+$ git remote update && git fetch --all --prune  #чистим от удаленных веток
+##########################################################
+https://git-scm.com/book/ru/v2/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Git-%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%83%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%D0%BC%D0%B8
+Удаленный репозиторий
+git remote -список настроенных удалённых репозиториев, origin—имя по умолчанию, которое Git даёт серверу, с котрого производилось клонирование
+git remote -v -чтобы просмотреть адреса для чтения и записи, привязанные к репозиторию
+git remote show origin -Просмотр удаленного репозитория
+
+##########################################################
+https://stackoverflow.com/questions/2706797/finding-what-branch-a-git-commit-came-from
+Найти ветки с коммитом
+git branch --contains 13de5ca53c8b32fb2dc81fad08c8b9beb777be59
+
+Поиск по журналам
+git reflog show --all | grep 13de5ca53c
+
+git name-rev 651ad3a
+git name-rev --name-only <SHA>
+##########################################################
+pip3.7 freeze > requirements.txt
+pip3.7 install -r requirements.txt
