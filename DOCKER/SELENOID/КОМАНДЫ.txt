@@ -140,6 +140,8 @@ google_apis  x86_64
 3 docker kill -s HUP selenoid
 4 запустил тесты - не отвалились
 
+docker exec -i -t <имя_или_id> /bin/bash
+
 #########################################################################
 docker container exec 44913ca86475 ls -R /opt/android-sdk-linux
 docker container exec 44913ca86475 emulator -list-avds

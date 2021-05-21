@@ -1,0 +1,63 @@
+"android": {
+        "default": "10.0_2",
+        "versions": {
+            "10.0_2": {
+                "image": "selenoid/android:10.0_2",
+                "port": "4444",
+                "path": "/wd/hub",
+                "privileged": true
+            }
+        }
+    },
+	
+	
+	emulator
+	https://developer.android.com/studio/run/emulator-commandline
+	
+	docker container exec fe035e45b321 emulator -list-avds
+	docker container exec fe035e45b321 adb logcat
+	
+	docker container exec 523b6ac79b25 adb logcat -b events
+	
+	
+	docker container exec 523b6ac79b25 emulator -avd android10.0-1 -change-language fr -change-country CA -change-locale fr-CA
+	docker container exec 523b6ac79b25 emulator -list-avds
+	docker container exec fe035e45b321 emulator @android11.0-1 -verbose
+	docker container exec fe035e45b321 emulator @android10.0-1 -show-kernel
+	docker container exec 0de437a25269 sdkmanager --list
+	
+	docker container exec 94e19be7887f emulator android10.0-1 -memory 2048
+	
+	// https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
+	adb shell wm size - текущих размер
+	adb shell wm size 2048x1536
+	adb shell wm density 288
+	// And reset to default
+	adb shell wm size reset
+	adb shell wm density reset
+	
+	// СМЕНА ЛОКАЛИ
+	adb shell "setprop persist.sys.locale ru-RU; setprop ctl.restart zygote"
+	
+	docker container exec d412604f79b7 adb shell am display-size 1280x800
+	
+	docker container exec fe035e45b321 adb shell am broadcast -a com.android.intent.action.SET_LOCALE --es com.android.intent.extra.LOCALE "ru_RU" com.android.customlocale2
+	
+	docker container exec 523b6ac79b25 adb shell am broadcast -a com.android.intent.action.SET_LOCALE ru com.android.intent.extra.LOCALE ru_RU.UTF-8      RU   
+	
+	docker container exec 0e9198752aeb adb shell am broadcast -a com.android.intent.action.SET_LOCALE --de com.android.intent.extra.LOCALE DE      ru_RU.UTF-8
+	
+	docker container exec 3794038fc251 adb shell am broadcast -a com.android.intent.action.SET_LOCALE --es com.android.intent.extra.LOCALE EN
+
+	
+	docker container exec 0de437a25269 adb shell getprop sys.boot_completed
+	docker container exec 0de437a25269 adb shell getprop ro.build.version.sdk
+	docker container exec 0de437a25269 adb shell getprop
+	
+	docker container exec 7df6378c99ea adb shell getprop | grep language
+	docker container exec 7874c4ad9b51 adb shell getprop | grep persis
+	docker container exec b3b061f8a1a3 adb shell getprop | grep "model\|version.sdk\|manufacturer\|hardware\|platform\|revision\|serialno\|product.name\|brand\|locale"
+	
+	docker container exec 7df6378c99ea emulator -no-snapshot-load -avd android10.0-1
+	
+	docker container exec 7df6378c99ea emulator -avd android10.0-1       -prop persist.sys.language=ru -prop persist.sys.country=RU
