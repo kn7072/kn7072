@@ -139,5 +139,15 @@ def get_text_messages(message):
         print(e)        
 
 print()
-bot.polling(none_stop=True, interval=0) 
+while True:
+    try:
+        bot.polling(none_stop=True, interval=0) 
+    except Exception as e:
+        print(e)
+        time.sleep(10)
+        
+        bot = telebot.TeleBot(token)
+        words_of_day = []
+        current_day = dt.date.today() 
+        bot.polling(none_stop=True, interval=0) 
 
