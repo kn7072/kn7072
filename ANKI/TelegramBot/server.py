@@ -58,7 +58,7 @@ class MyHandler(BaseHTTPRequestHandler):
     def do_POST(self):
         if self.path in ["/sound"]:
             fields = self._analisis_request()
-            if fields.get("sound"):
+            if fields.get("word"):
                 try:
                     word_sound_t = fields["word"][0].strip()
                     word_sound = word_sound_t.split("|")[0].strip()
@@ -68,7 +68,10 @@ class MyHandler(BaseHTTPRequestHandler):
                 except StopIteration as e:
                     res = b"StopIteration"
                     self.wfile.write(res)
-            if fields.get("delete"):
+        
+        if self.path in ["/delete"]:
+            fields = self._analisis_request()
+            if fields.get("word"):
                 try:
                     word_sound_t = fields["word"][0].strip()
                     word = word_sound_t.split("|")[0].strip()

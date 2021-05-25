@@ -262,6 +262,6 @@ def send_report(bot, words_of_day):  # , message
                 f.seek(0)
                 bot.send_document(chat_id, f)     
 
-def not_learn_word(word)
+def not_learn_word(word):
     with open(path_file_not_learn, encoding="utf-8", mode="a") as f:
         f.write(word + "\n")

@@ -31,9 +31,27 @@
         font-weight: bold;
     }
 
+    .delete {
+        color: blue;
+        cursor: pointer;
+    }
+
     .content {
         color: black;
     }
+
+    .word_en {
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrap_delete {
+        display: flex;
+        align-items: center;
+    }
+    .mrg_right_checkbox {
+        margin-right: 10px;
+    }
+}
 </style>    
 <script type="text/javascript">
     
@@ -43,35 +61,51 @@
         classList.toggle('hidden')
     }
 
-    function myClickSound(e, word) {
-    var data = {
-        "word": word
-    };
+    function send(word, command) {
+        var data = {
+            word: word
+        };
 
-    var boundary = String(Math.random()).slice(2);
-    var boundaryMiddle = '--' + boundary + '\r\n';
-    var boundaryLast = '--' + boundary + '--\r\n'
+        var boundary = String(Math.random()).slice(2);
+        var boundaryMiddle = '--' + boundary + '\r\n';
+        var boundaryLast = '--' + boundary + '--\r\n'
 
-    var body = ['\r\n'];
-    for (var key in data) {
-      // добавление поля
-      body.push('Content-Disposition: form-data; name="' + key + '"\r\n\r\n' + data[key] + '\r\n');
+        var body = ['\r\n'];
+        for (var key in data) {
+        // добавление поля
+        body.push('Content-Disposition: form-data; name="' + key + '"\r\n\r\n' + data[key] + '\r\n');
+        }
+
+        body = body.join(boundaryMiddle) + boundaryLast;
+
+        // Тело запроса готово, отправляем
+        var xhr = new XMLHttpRequest();
+        
+        host_path = "http://192.168.1.54:8088"
+        //host_path = "http://localhost:8088"
+        request_path = `${host_path}/${command}`
+        
+        xhr.open("POST", request_path, true );
+        // xhr.open("POST", "http://localhost:8088"+ "/sound", true );
+       
+        xhr.setRequestHeader('Content-Type', 'multipart/form-data; boundary=' + boundary);
+
+        xhr.onreadystatechange = function() {
+        if (this.readyState != 4) return;
+        console.log( this.responseText );
+        }
+
+        xhr.send(body);
+    }
+    function deleteWord(e, word) {
+        var checkbox = e.parentElement.getElementsByClassName('mrg_right_checkbox')[0]
+        if(checkbox.checked) {
+            send(word, 'delete');
+        }
     }
 
-    body = body.join(boundaryMiddle) + boundaryLast;
-
-    // Тело запроса готово, отправляем
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://192.168.1.54:8088"+ "/sound", true );
-    // xhr.open("POST", "http://localhost:8088"+ "/sound", true );
-    xhr.setRequestHeader('Content-Type', 'multipart/form-data; boundary=' + boundary);
-
-    xhr.onreadystatechange = function() {
-      if (this.readyState != 4) return;
-      console.log( this.responseText );
-    }
-
-    xhr.send(body);
+    function listen(e, word) {
+        send(word, 'sound');
     }
  </script>
 <head>
