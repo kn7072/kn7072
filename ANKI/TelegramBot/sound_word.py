@@ -9,7 +9,7 @@ import re
 import telebot
 import requests
 import config_bot
-from common import sound, parse_file, play_sound, next_play, prepare_garibjan, send_message_from_bot, prepare_galagoliya, get_data_file, send_report, mnemo_garibjan, get_mnemo_galagoliya
+from common import sound, parse_file, play_sound, next_play, prepare_garibjan, send_message_from_bot, prepare_galagoliya, get_data_file, send_report, mnemo_garibjan, get_mnemo_galagoliya, not_learn_word
 from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, \
     path_last_word, path_file_words, wait_sound, path_file_not_learn, token
 from datetime import datetime, timedelta
@@ -123,9 +123,8 @@ def get_text_messages(message):
             send_message_from_bot("\n".join(data_word[2]))
             # bot.send_message(message.from_user.id, "Напиши привет")
         elif message.text.endswith("_d"):
-            with open(path_file_not_learn, encoding="utf-8", mode="a") as f:
-                word_i = message.text.replace("_d", "")
-                f.write(word_i + "\n")
+            word_i = message.text.replace("_d", "")
+            not_learn_word(word_i)
         elif message.text.endswith("_m"):
             word_i = message.text.replace("_m", "")
             garibjan = mnemo_garibjan.get(word_i, "")

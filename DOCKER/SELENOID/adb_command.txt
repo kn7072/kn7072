@@ -37,7 +37,9 @@
 	adb shell wm density reset
 	
 	// СМЕНА ЛОКАЛИ
+	https://stackoverflow.com/questions/21712205/change-device-language-via-adb
 	adb shell "setprop persist.sys.locale ru-RU; setprop ctl.restart zygote"
+	adb shell 'getprop persist.sys.locale'
 	
 	docker container exec d412604f79b7 adb shell am display-size 1280x800
 	

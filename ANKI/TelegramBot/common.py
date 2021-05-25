@@ -5,7 +5,7 @@ import signal
 from subprocess import Popen, PIPE
 import re
 import time
-from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples, schedule, path_anki
+from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples, schedule, path_anki, path_file_not_learn
 import pygame as pg
 from datetime import datetime, timedelta
 import datetime as dt
@@ -262,4 +262,6 @@ def send_report(bot, words_of_day):  # , message
                 f.seek(0)
                 bot.send_document(chat_id, f)     
 
-
+def not_learn_word(word)
+    with open(path_file_not_learn, encoding="utf-8", mode="a") as f:
+        f.write(word + "\n")

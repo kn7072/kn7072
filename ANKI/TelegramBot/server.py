@@ -60,14 +60,24 @@ class MyHandler(BaseHTTPRequestHandler):
             fields = self._analisis_request()
             if fields.get("sound"):
                 try:
-                    word_sound_t = fields["sound"][0].strip()
+                    word_sound_t = fields["word"][0].strip()
                     word_sound = word_sound_t.split("|")[0].strip()
                     play_sound(word_sound)
-                    word_json = b"true"
-                    self.wfile.write(word_json)
+                    res = b"true"
+                    self.wfile.write(res)
                 except StopIteration as e:
                     res = b"StopIteration"
                     self.wfile.write(res)
+            if fields.get("delete"):
+                try:
+                    word_sound_t = fields["word"][0].strip()
+                    word = word_sound_t.split("|")[0].strip()
+                    not_learn_word(word)
+                    res = b"true"
+                    self.wfile.write(res)
+                except StopIteration as e:
+                    res = b"StopIteration"
+                    self.wfile.write(res)        
 
 
 if __name__ == "__main__":

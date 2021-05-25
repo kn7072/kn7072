@@ -36,6 +36,7 @@
     }
 </style>    
 <script type="text/javascript">
+    
     function myClick(e) {
         var firstChild = e.firstElementChild;
         var classList = firstChild.classList;
@@ -44,7 +45,7 @@
 
     function myClickSound(e, word) {
     var data = {
-         sound: word
+        "word": word
     };
 
     var boundary = String(Math.random()).slice(2);
