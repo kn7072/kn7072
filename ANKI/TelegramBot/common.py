@@ -74,7 +74,8 @@ def send_message_list(list_mes):
 
 
 def parse_file(word_i):  # , send_examples=False, send_mes=True
-    path_file = os.path.join(path_dir, f"{word_i}.txt") 
+    word_i_lower = word_i.lower()
+    path_file = os.path.join(path_dir, f"{word_i_lower}.txt") 
     temp_list_msg = ["|-|", ["-"], ["-"], ""]
     try:
         with open(path_file, encoding="utf-8") as f:

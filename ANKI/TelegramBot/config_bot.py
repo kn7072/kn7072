@@ -53,7 +53,7 @@ temp_html = """
             <div class="word_en">{word}
                 <div class="wrap_delete">
                     <input class="mrg_right_checkbox" type="checkbox" id={word} name={word}>
-                    <div class="delete" onclick='deleteWord(this, "{word}")'>Удалить</div>
+                    <input type="button" value="Удалить" class="delete" onclick='deleteWord(this, "{word}")'/>
                 </div>
             </div>
             <div class="sound" onclick='listen(this, "{word}")'>Озвучить</div>
