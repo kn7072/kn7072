@@ -5,10 +5,11 @@ import signal
 from subprocess import Popen, PIPE
 import re
 import time
-from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples, schedule, path_anki, path_file_not_learn
+from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples, schedule, path_anki, path_file_not_learn, separate, name_base
 import pygame as pg
 from datetime import datetime, timedelta
 import datetime as dt
+from db import into_table, fetchall
 
 
 def send_message_from_bot(text):
@@ -18,7 +19,7 @@ def send_message_from_bot(text):
         res = requests.get(req_message)
 
 
-def play_sound(word, volume=0.8):
+def play_sound(word, volume=0.8, count_sound=count_sound):
     """
     stream music with mixer.music module in a blocking manner
     this will stream the sound from disk while playing
@@ -49,7 +50,7 @@ def play_sound(word, volume=0.8):
         time.sleep(time_sound_pause)
 
 
-def sound(word):
+def sound(word, count_sound=count_sound):
     for _ in range(count_sound):
         try:
             path_sound_file = os.path.normpath(os.path.join(path_dir_mp3, f"{word}.mp3"))
@@ -214,12 +215,16 @@ def get_mnemo_galagoliya(word):
     return result 
 
 
-def send_report(bot, words_of_day):  # , message
+def send_report(bot):  # , message
     try:
         all_messages = []
         temp_html = get_data_file("test.html")
         tmp_date = datetime.today().strftime(r"%d_%m_%Y")
-        for first_line, mnemo_list, examples_list, error in words_of_day:
+        
+        for first_line, mnemo_list, examples_list, error in fetchall(name_base):
+            mnemo_list = mnemo_list.split(separate)
+            examples_list = examples_list.split(separate)
+            
             tmp_list = [i.strip() for i in first_line.split("|")]
             if len(tmp_list) == 3:
                 word_i, transcription, translate = tmp_list
@@ -266,3 +271,9 @@ def send_report(bot, words_of_day):  # , message
 def not_learn_word(word):
     with open(path_file_not_learn, encoding="utf-8", mode="a") as f:
         f.write(word + "\n")
+
+def compression_data(name_base, data_word):
+    first_line, mnemo_list, examples_list, error = data_word
+    temp = lambda l: separate.join(l)
+    data_into = [(first_line, temp(mnemo_list), temp(examples_list), error)]
+    into_table(name_base, data_into)

@@ -9,11 +9,12 @@ import re
 import telebot
 import requests
 import config_bot
-from common import sound, parse_file, play_sound, next_play, prepare_garibjan, send_message_from_bot, prepare_galagoliya, get_data_file, send_report, mnemo_garibjan, get_mnemo_galagoliya, not_learn_word
+from common import sound, parse_file, play_sound, next_play, prepare_garibjan, send_message_from_bot, prepare_galagoliya, get_data_file, send_report, mnemo_garibjan, get_mnemo_galagoliya, not_learn_word, compression_data
 from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, \
-    path_last_word, path_file_words, wait_sound, path_file_not_learn, token
+    path_last_word, path_file_words, wait_sound, path_file_not_learn, token, name_base
 from datetime import datetime, timedelta
 import datetime as dt
+from db import create_base, clear_table
 
 
 def create_file_for_last_word(path_file):
@@ -57,8 +58,9 @@ def prepate_data():
 prepate_data()
 
 bot = telebot.TeleBot(token)
-words_of_day = []
 current_day = dt.date.today() 
+
+create_base(name_base)
 
 
 @bot.message_handler(commands=["start"], content_types=['text'])
@@ -78,11 +80,12 @@ def test_fun(message):
                 continue
             data_word = parse_file(word_i)
             send_message_from_bot(data_word[0])
-            words_of_day.append(data_word)
+            compression_data(name_base, data_word)
+
             if (dt.date.today() - current_day).days > 0:
-                send_report(bot, words_of_day)
-                words_of_day.clear()
+                send_report(bot)
                 current_day = dt.date.today()
+                clear_table(name_base)
             
             # path_file_open = os.path.join(path_dir_for_notepad, name_file)
             # info_word = get_first_line(path_file_open)# .encode("utf-8").decode("cp866")
@@ -131,7 +134,7 @@ def get_text_messages(message):
             galagoliya = get_mnemo_galagoliya(word_i)
             send_message_from_bot(garibjan + "\n" + galagoliya)
         elif message.text.endswith("_r"):
-            send_report(bot, words_of_day)
+            send_report(bot)
         else:
             bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
     except Exception as e:
@@ -146,7 +149,6 @@ while True:
         time.sleep(10)
         
         bot = telebot.TeleBot(token)
-        words_of_day = []
         current_day = dt.date.today() 
         bot.polling(none_stop=True, interval=0) 
 

@@ -30,6 +30,10 @@ path_file_words = os.path.join(path_script, "ПОВТОРИТЬ.txt")
 path_last_word = os.path.join(path_script, "last_word.txt")
 path_file_not_learn = os.path.join(path_script, "ПРОПУСТИТЬ.txt")
 
+
+name_base = "words_of_day.db"
+separate = "|#|"
+
 wait_sound = 480
 time_sound_pause = 5
 count_sound = 2
