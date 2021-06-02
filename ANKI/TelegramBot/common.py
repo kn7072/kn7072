@@ -258,7 +258,7 @@ def send_report(bot):  # , message
             # data = "\n".join([" === ".join(i) for first_line, mnemo_list, _, _ in words_of_day])
             sep = "#" * 30
             data = ""
-            for first_line, mnemo_list, _, err in words_of_day:
+            for first_line, mnemo_list, _, err in fetchall(name_base):
                 mnemo = "\n".join(mnemo_list)
                 tmp_i = f"{first_line}\n\n{mnemo}\n{sep}\nError - {err}\n"
                 data += tmp_i
