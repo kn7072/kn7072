@@ -221,9 +221,9 @@ def send_report(bot):  # , message
         temp_html = get_data_file("test.html")
         tmp_date = datetime.today().strftime(r"%d_%m_%Y")
         
-        for first_line, mnemo_list, examples_list, error in fetchall(name_base):
-            mnemo_list = mnemo_list.split(separate)
-            examples_list = examples_list.split(separate)
+        for first_line, mnemo_srt, examples_str, error in fetchall(name_base):
+            mnemo_list = mnemo_srt.split(separate) if mnemo_srt else []
+            examples_list = examples_str.split(separate) if examples_str else []
             
             tmp_list = [i.strip() for i in first_line.split("|")]
             if len(tmp_list) == 3:
