@@ -34,9 +34,9 @@ path_file_not_learn = os.path.join(path_script, "ПРОПУСТИТЬ.txt")
 name_base = "words_of_day.db"
 separate = "|#|"
 
-wait_sound = 480
+wait_sound = 15  # 480
 time_sound_pause = 5
-count_sound = 2
+count_sound = 1  # 1
 
 schedule = {
     "Monday": [{"start": "9:10", "stop": "18:10"}
@@ -46,8 +46,8 @@ schedule = {
     "Wednesday": [{"start": "9:10", "stop": "18:10"}],
     "Thursday": [{"start": "9:10", "stop": "18:10"}],
     "Friday": [{"start": "9:10", "stop": "18:10"}],
-    "Saturday": [{"start": "11:40", "stop": "17:00"}],
-    "Sunday": [{"start": "11:40", "stop": "15:00"}
+    "Saturday": [{"start": "11:40", "stop": "18:00"}],
+    "Sunday": [{"start": "11:40", "stop": "18:00"}
                # {"start": "15:20", "stop": "20:30"}
                ]
 }
