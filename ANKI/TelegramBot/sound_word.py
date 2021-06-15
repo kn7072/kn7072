@@ -72,14 +72,14 @@ def test_fun(message):
     while True:
         for ind, word_i in enumerate(data_all_words[start_index: last_index]):
             
-            # print(f"DEBUG {word_i}")
+            print(f"DEBUG_1 {word_i}")
 
             next_play()
 
             if word_i in words_not_learn:
                 continue
 
-            print(f"DEBUG {word_i}")        
+            print(f"DEBUG_2 {word_i}")        
 
             data_word = parse_file(word_i)
             send_message_from_bot(data_word[0])
