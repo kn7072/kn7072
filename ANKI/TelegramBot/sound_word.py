@@ -78,6 +78,9 @@ def test_fun(message):
 
             if word_i in words_not_learn:
                 continue
+
+            print(f"DEBUG {word_i}")        
+
             data_word = parse_file(word_i)
             send_message_from_bot(data_word[0])
             compression_data(name_base, data_word)
