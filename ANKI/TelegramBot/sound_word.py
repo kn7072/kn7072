@@ -94,7 +94,8 @@ def test_fun(message):
             else:
                 sound(word_i)
 
-            write_last_file(path_last_word, word_i)
+            if not data_word[3]:
+                write_last_file(path_last_word, word_i)
             time.sleep(wait_sound)
         else:
             prepate_data()
