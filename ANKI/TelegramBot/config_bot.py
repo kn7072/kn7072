@@ -54,24 +54,43 @@ schedule = {
 
 temp_html = """
 <div class="container-word">
-            <div class="word_en">{word}
+            <div class="word_en">
+                <div class="wrap_word">
+                    <div class="content
+                                mrg_right-10
+                                pointer"
+                        onmouseenter='mouseHoverWord(this)'
+                        onmouseleave='mouseHoverWord(this)'>
+                        {word}
+                    </div>
+                    <div class="hidden content">
+                        {ipa}
+                    </div>
+                </div>
+                
                 <div class="wrap_delete">
-                    <input class="mrg_right_checkbox" type="checkbox" id={word} name={word}>
-                    <input type="button" value="Удалить" class="delete" onclick='deleteWord(this, "{word}")'/>
+                    <input class="mrg_right-10 
+                                  checkbox-delete" type="checkbox" id={word} name={word}>
+                    <input type="button" value="Удалить" class="delete" 
+                           onclick='deleteWord(this, "{word}")'/>
                 </div>
             </div>
-            <div class="sound" onclick='listen(this, "{word}")'>Озвучить</div>
-            <div class="translate clickable" onclick='myClick(this)'>Перевод
+            <div class="sound" 
+                 onclick='listen(this, "{word}")'>Озвучить</div>
+            <div class="translate clickable" 
+                 onclick='myClick(this)'>Перевод
                 <div class="hidden content">
                     {translate}
                 </div>
             </div>
-            <div class="memorize clickable" onclick='myClick(this)'>Мнемоника
+            <div class="memorize clickable" 
+                 onclick='myClick(this)'>Мнемоника
                 <div class="hidden content">
                     {mnemo}
                 </div>
             </div>
-            <div class="examples clickable" onclick='myClick(this)'>Примеры
+            <div class="examples clickable" 
+                 onclick='myClick(this)'>Примеры
                 <div class="hidden content">
                     {examples}
                 </div>

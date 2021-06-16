@@ -231,7 +231,6 @@ def send_report(bot):  # , message
             else:
                 raise Exception(f"В строке {first_line}\n должно быть два символа |")
 
-            word_transcription = f"{word_i} |{transcription}|"
             if not mnemo_list:
                 garibjan = mnemo_garibjan.get(word_i, "")
                 galagoliya = get_mnemo_galagoliya(word_i)
@@ -241,7 +240,7 @@ def send_report(bot):  # , message
 
             mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo_list])
             examples_html = "\n".join([f"<div>{i}</div>" for i in examples_list])
-            word_html = config_bot.temp_html.format(word=word_transcription, translate=translate, mnemo=mnemo_html, examples=examples_html)
+            word_html = config_bot.temp_html.format(word=word_i, ipa=f"|{transcription}|", translate=translate, mnemo=mnemo_html, examples=examples_html)
             all_messages.append(word_html)
         all_messages_text = "\n".join(all_messages)
         # html_report = temp_html.format(html_words=all_messages_text) 

@@ -49,10 +49,19 @@
         display: flex;
         align-items: center;
     }
-    .mrg_right_checkbox {
+    .wrap_word {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .mrg_right-10 {
         margin-right: 10px;
     }
-}
+
+    .pointer {
+        cursor: pointer;
+    }
+
 </style>    
 <script type="text/javascript">
     
@@ -62,6 +71,12 @@
         classList.toggle('hidden')
     }
 
+    function mouseHoverWord(e) {
+        var firstChild = e.nextElementSibling;
+        var classList = firstChild.classList;
+        classList.toggle('hidden')
+    }
+ 
     function send(word, command) {
         var data = {
             word: word
@@ -100,7 +115,7 @@
     }
     function deleteWord(e, word) {
         var parrent = e.parentElement;
-        var checkbox = parrent.getElementsByClassName('mrg_right_checkbox')[0]
+        var checkbox = parrent.getElementsByClassName('checkbox-delete')[0]
         if(checkbox.checked) {
             send(word, 'delete');
             parrent.classList.add('hidden');
