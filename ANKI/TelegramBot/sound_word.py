@@ -70,7 +70,7 @@ def test_fun(message):
     #     bot.send_message(message.from_user.id, "Я ")
     #     time.sleep(5)
     while True:
-        for ind, word_i in enumerate(data_all_words[start_index: last_index]):
+        for ind, word_i in enumerate(data_all_words[start_index: last_index + 1]):
             next_play()
 
             if word_i in words_not_learn:
