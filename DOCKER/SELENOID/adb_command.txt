@@ -41,6 +41,15 @@
 	adb shell "setprop persist.sys.locale ru-RU; setprop ctl.restart zygote"
 	adb shell 'getprop persist.sys.locale'
 	
+	// https://www.npmjs.com/package/io.appium.settings
+	$ adb shell am broadcast -a io.appium.settings.locale --es lang ru --es country RU
+	$ adb shell getprop persist.sys.locale # ja-JP
+	$ adb shell am broadcast -a io.appium.settings.locale --es lang zh --es country CN --es script Hans
+	$ adb shell getprop persist.sys.locale # zh-Hans-CN for API level 21+
+	
+	
+	adb shell am start -a android.settings.LOCALE_SETTINGS  -посмотреть доступные локали
+	
 	docker container exec d412604f79b7 adb shell am display-size 1280x800
 	
 	docker container exec fe035e45b321 adb shell am broadcast -a com.android.intent.action.SET_LOCALE --es com.android.intent.extra.LOCALE "ru_RU" com.android.customlocale2
