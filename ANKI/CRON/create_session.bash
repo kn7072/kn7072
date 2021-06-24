@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# https://gamedev.ru/code/forum/?id=135291
 PATH_DIR_SESSION=~/LOGS
 
 if [[ ! -d "$PATH_DIR_SESSION" ]]; then
