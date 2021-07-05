@@ -34,7 +34,7 @@ path_file_not_learn = os.path.join(path_script, "ПРОПУСТИТЬ.txt")
 name_base = "words_of_day.db"
 separate = "|#|"
 
-wait_sound = 480  # 480
+wait_sound = 600  # 480
 time_sound_pause = 5
 count_sound = 2  # 1
 
