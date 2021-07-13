@@ -30,12 +30,13 @@ path_file_words = os.path.join(path_script, "ПОВТОРИТЬ.txt")
 path_last_word = os.path.join(path_script, "last_word.txt")
 path_file_not_learn = os.path.join(path_script, "ПРОПУСТИТЬ.txt")
 path_synonyms_dir = os.path.join(path_anki, "Синонимы")
+path_word_building_dir = os.path.join(path_anki, "СловоОбразование")
 
 
 name_base = "words_of_day.db"
 separate = "|#|"
 
-wait_sound = 900  # 480 600
+wait_sound = 900  # 480 600 900
 time_sound_pause = 5
 count_sound = 2  # 2
 
@@ -94,6 +95,12 @@ temp_html = """
                  onclick='myClick(this)'>Синонимы
                 <div class="hidden content">
                     {synonyms}
+                </div>
+            </div>
+            <div class="memorize clickable" 
+                 onclick='myClick(this)'>Словообразование
+                <div class="hidden content">
+                    {word_building}
                 </div>
             </div>
             <div class="examples clickable" 

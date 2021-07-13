@@ -5,7 +5,7 @@ import signal
 from subprocess import Popen, PIPE
 import re
 import time
-from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples, schedule, path_anki, path_file_not_learn, separate, name_base, path_synonyms_dir
+from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples, schedule, path_anki, path_file_not_learn, separate, name_base, path_synonyms_dir, path_word_building_dir
 import pygame as pg
 from datetime import datetime, timedelta
 import datetime as dt
@@ -198,12 +198,6 @@ def get_data_file(path_file):
     with open(path_file, encoding="utf-8") as f:
         return f.read()    
 
-mnemo_garibjan = prepare_garibjan()
-mnemo_galagoliya = prepare_galagoliya()
-
-path_to_json_synonyms = os.path.join(path_synonyms_dir, "words.json")
-dict_synonyms = json.loads(get_data_file(path_to_json_synonyms))
-
 
 def get_mnemo_galagoliya(word):
     list_temp = []
@@ -218,7 +212,7 @@ def get_mnemo_galagoliya(word):
         result = delimetr.join(list_temp)
     return result 
 
-def get_synonyms(word):
+def get_synonyms_html(word):
     synonyms = dict_synonyms.get(word)
     synonyms_translate = "<div>-</div>"
     separate_synonyms = "-"*15
@@ -229,8 +223,33 @@ def get_synonyms(word):
             temp.append(temp_translate)
         synonyms_translate = f"<div>{separate_synonyms}</div>".join(temp)
         
-    return synonyms_translate    
+    return synonyms_translate 
 
+def get_word_building_linvinov(path_to_file):
+    """
+    Принимает на вход файл словобразование Литвинов, возвращает словарь слов и словарь групп
+    """
+    data_words = json.loads(get_data_file(path_to_file))
+    data_groups = {}
+    for word_i, val_i in data_words.items():
+        group_i, translate_i = val_i.values()
+        if not data_groups.get(group_i):
+            data_groups[group_i] = []
+        data_groups[group_i].append(f"{word_i} - {translate_i}")
+
+    return data_words, data_groups
+
+def get_word_building_linvinov_html(word):
+    """
+    Возвращается все слова, входящие в одну группу с word
+    """
+    info_word = word_building_litvinov.get(word)
+    building_word = "<div>-</div>"
+    if info_word:
+        data_group_word = group_word_building_litvinov.get(info_word["group"])
+        building_word = "".join([f"<div>{i}</div>" for i in data_group_word])
+        
+    return building_word 
 
 def send_report(bot):  # , message
     try:
@@ -255,12 +274,14 @@ def send_report(bot):  # , message
                 mnemo_text = mnemo.replace("\xa0", "")
                 mnemo_list = [i for i in mnemo_text.split("\n") if i]
 
-            synonyms = get_synonyms(word_i)
+            synonyms = get_synonyms_html(word_i)
+            word_building = get_word_building_linvinov_html(word_i)
             
             mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo_list])
             examples_html = "\n".join([f"<div>{i}</div>" for i in examples_list])
             word_html = config_bot.temp_html.format(word=word_i, ipa=f"|{transcription}|", translate=translate, mnemo=mnemo_html, 
-                                                    synonyms=synonyms, examples=examples_html)
+                                                    synonyms=synonyms, word_building=word_building,
+                                                    examples=examples_html)
             all_messages.append(word_html)
         all_messages_text = "\n".join(all_messages)
         # html_report = temp_html.format(html_words=all_messages_text) 
@@ -296,3 +317,16 @@ def compression_data(name_base, data_word):
     temp = lambda l: separate.join(l)
     data_into = [(first_line, temp(mnemo_list), temp(examples_list), error)]
     into_table(name_base, data_into)
+
+
+
+
+
+mnemo_garibjan = prepare_garibjan()
+mnemo_galagoliya = prepare_galagoliya()
+
+path_to_json_synonyms = os.path.join(path_synonyms_dir, "words.json")
+dict_synonyms = json.loads(get_data_file(path_to_json_synonyms))
+
+path_to_litvinov_word_building = os.path.join(path_word_building_dir, "Литвинов.json") 
+word_building_litvinov, group_word_building_litvinov = get_word_building_linvinov(path_to_litvinov_word_building)
