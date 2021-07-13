@@ -1,8 +1,11 @@
 #conding:utf-8
 import os
 import re
+import json
 
 pattern = re.compile(r'^(?P<num>\d.?\.)', re.M|re.I)
+name_temp_file = "temp_file.txt"
+dir_name_for_save = "ЛитвиновСуществительное"
 
 def parse(data_list):
     
@@ -30,23 +33,44 @@ def parse(data_list):
     return temp_dict
 
 
-def read_file_and_create_file():
-    with open("temp_file.txt", encoding="utf-8") as f:
+def read_file_and_create_file(strategy="default"):
+    with open(name_temp_file, encoding="utf-8") as f:
         data_file = f.readlines()
         first_line = data_file[0].replace("\n", "")
-        file_name_to_save = first_line.replace(" ", "_") + ".txt"
-        path_to_save = os.path.join("Литвинов", file_name_to_save)
+        
+        name_file = first_line.replace(" ", "_")
+        file_name_to_save_txt = name_file + ".txt"
+        path_to_save_txt = os.path.join(dir_name_for_save, file_name_to_save_txt)
+        file_name_to_save_json = name_file + ".json"
+        path_to_save_json = os.path.join(dir_name_for_save, file_name_to_save_json)
+        
         temp_data_to_save = data_file[1: ]
         count_str = len(temp_data_to_save)
         assert count_str % 2 == 0, "Число строк должно быть четным"
-        middle_element = count_str // 2
-        res = [(eng.replace("\n", ""), rus.replace("\n", "")) for eng, rus in zip(temp_data_to_save[: middle_element], temp_data_to_save[middle_element : ])]
-        data_to_save_list = [f"{eng};{rus}" for eng, rus in res]
+        if strategy == "default":
+            middle_element = count_str // 2
+            res = [(eng.replace("\n", ""), rus.replace("\n", "")) for eng, rus in zip(temp_data_to_save[: middle_element], temp_data_to_save[middle_element : ])]
+            data_to_save_list = [f"{eng};{rus}" for eng, rus in res]
+        elif strategy == "rus_eng":
+            res = [(eng.replace("\n", ""), rus.replace("\n", "")) for rus, eng  in zip(temp_data_to_save[0::2], temp_data_to_save[1::2])]
+            data_to_save_list = [f"{eng};{rus}" for eng, rus in res]
+            
+        elif strategy == "eng_rus":
+            res = [(eng.replace("\n", ""), rus.replace("\n", "")) for  eng, rus in zip(temp_data_to_save[0::2], temp_data_to_save[1::2])]
+            data_to_save_list = [f"{eng};{rus}" for eng, rus in res]    
+        
         data_to_save_text = "\n".join(data_to_save_list)
 
-    with open(path_to_save, encoding="utf-8", mode="w") as f:
-        f.write(data_to_save_text)    
+    with open(path_to_save_txt, encoding="utf-8", mode="w") as f:
+        f.write(data_to_save_text) 
+
+    with open(path_to_save_json, encoding="utf-8", mode="w") as f:
+        dict_word = parse(res)
+        f.write(json.dumps(dict_word, indent=4, ensure_ascii=False))       
 
     parse(res)
 
-read_file_and_create_file()
+strategy = "default"
+# strategy = "rus_eng"
+#strategy = "eng_rus"
+read_file_and_create_file(strategy=strategy)

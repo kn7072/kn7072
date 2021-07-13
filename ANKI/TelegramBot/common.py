@@ -5,11 +5,12 @@ import signal
 from subprocess import Popen, PIPE
 import re
 import time
-from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples, schedule, path_anki, path_file_not_learn, separate, name_base
+from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples, schedule, path_anki, path_file_not_learn, separate, name_base, path_synonyms_dir
 import pygame as pg
 from datetime import datetime, timedelta
 import datetime as dt
 from db import into_table, fetchall
+import json
 
 
 def send_message_from_bot(text):
@@ -200,6 +201,9 @@ def get_data_file(path_file):
 mnemo_garibjan = prepare_garibjan()
 mnemo_galagoliya = prepare_galagoliya()
 
+path_to_json_synonyms = os.path.join(path_synonyms_dir, "words.json")
+dict_synonyms = json.loads(get_data_file(path_to_json_synonyms))
+
 
 def get_mnemo_galagoliya(word):
     list_temp = []
@@ -213,6 +217,19 @@ def get_mnemo_galagoliya(word):
     if list_temp:
         result = delimetr.join(list_temp)
     return result 
+
+def get_synonyms(word):
+    synonyms = dict_synonyms.get(word)
+    synonyms_translate = "<div>-</div>"
+    separate_synonyms = "-"*15
+    if synonyms:
+        temp = []
+        for translate_i in synonyms["translate"]:
+            temp_translate = "".join([f"<div>{i}</div>" for i in translate_i.split("\n") if i])
+            temp.append(temp_translate)
+        synonyms_translate = f"<div>{separate_synonyms}</div>".join(temp)
+        
+    return synonyms_translate    
 
 
 def send_report(bot):  # , message
@@ -238,9 +255,12 @@ def send_report(bot):  # , message
                 mnemo_text = mnemo.replace("\xa0", "")
                 mnemo_list = [i for i in mnemo_text.split("\n") if i]
 
+            synonyms = get_synonyms(word_i)
+            
             mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo_list])
             examples_html = "\n".join([f"<div>{i}</div>" for i in examples_list])
-            word_html = config_bot.temp_html.format(word=word_i, ipa=f"|{transcription}|", translate=translate, mnemo=mnemo_html, examples=examples_html)
+            word_html = config_bot.temp_html.format(word=word_i, ipa=f"|{transcription}|", translate=translate, mnemo=mnemo_html, 
+                                                    synonyms=synonyms, examples=examples_html)
             all_messages.append(word_html)
         all_messages_text = "\n".join(all_messages)
         # html_report = temp_html.format(html_words=all_messages_text) 
