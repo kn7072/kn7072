@@ -72,5 +72,5 @@ def read_file_and_create_file(strategy="default"):
 
 strategy = "default"
 # strategy = "rus_eng"
-#strategy = "eng_rus"
+# strategy = "eng_rus"
 read_file_and_create_file(strategy=strategy)
