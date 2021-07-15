@@ -10,6 +10,7 @@ chat_id_list = ["344022850", "366602173"]
 
 pattern_mnemo = "{{(?P<mnemo>.+?)}}"
 pattern_examples = "\+.+?###"
+pattern_search_word_in_text = r"(?<!\w)(?P<word>%s)(?!\w)"
 
 
 compl_mnemo = re.compile(pattern_mnemo, flags=re.DOTALL | re.MULTILINE)

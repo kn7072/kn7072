@@ -5,7 +5,7 @@ import signal
 from subprocess import Popen, PIPE
 import re
 import time
-from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples, schedule, path_anki, path_file_not_learn, separate, name_base, path_synonyms_dir, path_word_building_dir
+from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples, schedule, path_anki, path_file_not_learn, separate, name_base, path_synonyms_dir, path_word_building_dir, pattern_search_word_in_text
 import pygame as pg
 from datetime import datetime, timedelta
 import datetime as dt
@@ -213,17 +213,64 @@ def get_mnemo_galagoliya(word):
     return result 
 
 def get_synonyms_html(word):
+    
+    pattern = pattern_search_word_in_text % word
+    compl_pattern = re.compile(pattern, flags=re.DOTALL | re.MULTILINE)
     synonyms = dict_synonyms.get(word)
-    synonyms_translate = "<div>-</div>"
+    synonyms_translate_html = "<div>-</div>"
     separate_synonyms = "-"*15
-    if synonyms:
+    template_html_to_replace = f"<span class='found_word'>{word}</span>"
+
+    if not word:
+        return synonyms_translate_html
+    
+    def search_word():
+        """Ищем слово в тексте, на случай если слово не является ключом в 
+        dict_synonyms, но присутствует к списках синонемов"""
+        searche_dict = {}
+        template_html = "<span class='found_word'>{word}</span>"
+        for word_i, val_i in dict_synonyms.items():
+            for translate_i in val_i["translate"]:
+                search = compl_pattern.search(translate_i)
+                if search:
+                    find_word = searche_dict.get(word_i)
+                    if not find_word:
+                        searche_dict[word_i] = {}
+                        searche_dict[word_i]["translate"] = []
+                    searche_dict[word_i]["translate"].append(translate_i)
+        return searche_dict            
+                   
+    def create_html(word, synonyms):
         temp = []
         for translate_i in synonyms["translate"]:
+            translate_i = f"<span class='synonym'>{word}</span> {translate_i}"
             temp_translate = "".join([f"<div>{i}</div>" for i in translate_i.split("\n") if i])
             temp.append(temp_translate)
         synonyms_translate = f"<div>{separate_synonyms}</div>".join(temp)
+        return synonyms_translate
+
+    def replace_word_to_html(dict_translate):
+        """Заменяем искомое слово (word) на шаблон, что подсветить в тексте"""
+        temp = []
+        for text_i in dict_translate["translate"]:
+            temp_text = text_i.replace(word, template_html_to_replace)
+            temp.append(temp_text)
+        return {"translate": temp}    
+
+    
+    if synonyms:
+        synonyms_translate_html = create_html(word, synonyms)
+    else:
+        synonyms = search_word()
+        if synonyms:
+            temp_list_html = []
+            for word_i, translate_list_i in synonyms.items():
+                translate_replaced = replace_word_to_html(translate_list_i)
+                html_word_i = create_html(word_i, translate_replaced)
+                temp_list_html.append(html_word_i)
+            synonyms_translate_html = f"<div>{separate_synonyms}</div>".join(temp_list_html)        
         
-    return synonyms_translate 
+    return synonyms_translate_html 
 
 def get_word_building_linvinov(path_to_file):
     """
@@ -330,3 +377,4 @@ dict_synonyms = json.loads(get_data_file(path_to_json_synonyms))
 
 path_to_litvinov_word_building = os.path.join(path_word_building_dir, "Литвинов.json") 
 word_building_litvinov, group_word_building_litvinov = get_word_building_linvinov(path_to_litvinov_word_building)
+
