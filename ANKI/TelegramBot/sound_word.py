@@ -139,7 +139,6 @@ def get_text_messages(message):
     except Exception as e:
         print(e)        
 
-print()
 while True:
     try:
         bot.polling(none_stop=True, interval=0) 
@@ -150,4 +149,3 @@ while True:
         bot = telebot.TeleBot(token)
         current_day = dt.date.today() 
         bot.polling(none_stop=True, interval=0) 
-

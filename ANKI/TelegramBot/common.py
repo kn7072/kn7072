@@ -217,7 +217,7 @@ def get_synonyms_html(word):
     pattern = pattern_search_word_in_text % word
     compl_pattern = re.compile(pattern, flags=re.DOTALL | re.MULTILINE)
     synonyms = dict_synonyms.get(word)
-    synonyms_translate_html = "<div>-</div>"
+    synonyms_translate_html = None
     separate_synonyms = "-"*15
     template_html_to_replace = f"<span class='found_word'>{word}</span>"
 
@@ -228,7 +228,6 @@ def get_synonyms_html(word):
         """Ищем слово в тексте, на случай если слово не является ключом в 
         dict_synonyms, но присутствует к списках синонемов"""
         searche_dict = {}
-        template_html = "<span class='found_word'>{word}</span>"
         for word_i, val_i in dict_synonyms.items():
             for translate_i in val_i["translate"]:
                 search = compl_pattern.search(translate_i)
@@ -250,7 +249,7 @@ def get_synonyms_html(word):
         return synonyms_translate
 
     def replace_word_to_html(dict_translate):
-        """Заменяем искомое слово (word) на шаблон, что подсветить в тексте"""
+        """Заменяем искомое слово (word) на шаблон, чтобы подсветить в тексте"""
         temp = []
         for text_i in dict_translate["translate"]:
             temp_text = text_i.replace(word, template_html_to_replace)
@@ -291,12 +290,103 @@ def get_word_building_linvinov_html(word):
     Возвращается все слова, входящие в одну группу с word
     """
     info_word = word_building_litvinov.get(word)
-    building_word = "<div>-</div>"
+    building_word = None
     if info_word:
         data_group_word = group_word_building_litvinov.get(info_word["group"])
         building_word = "".join([f"<div>{i}</div>" for i in data_group_word])
         
     return building_word 
+
+def get_html_word(word, ipa, translate, mnemo_list, examples_list):
+    synonyms = get_synonyms_html(word)
+    word_building = get_word_building_linvinov_html(word)
+    
+    mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo_list]) if mnemo_list else ""
+    examples_html = "\n".join([f"<div>{i}</div>" for i in examples_list]) if examples_list else ""
+    
+    base_html = """
+            <div class="container-word">
+                        <div class="word_en">
+                            <div class="wrap_word">
+                                <div class="content
+                                            mrg_right-10
+                                            pointer"
+                                    onmouseenter='mouseHoverWord(this)'
+                                    onmouseleave='mouseHoverWord(this)'>
+                                    {word}
+                                </div>
+                                <div class="hidden content">
+                                    {ipa}
+                                </div>
+                            </div>
+                            
+                            <div class="wrap_delete">
+                                <input class="mrg_right-10 
+                                            checkbox-delete" type="checkbox" id={word} name={word}>
+                                <input type="button" value="Удалить" class="delete" 
+                                    onclick='deleteWord(this, "{word}")'/>
+                            </div>
+                        </div>
+                        <div class="sound" 
+                            onclick='listen(this, "{word}")'>Озвучить</div>
+                        <div class="translate clickable" 
+                            onclick='myClick(this)'>Перевод
+                            <div class="hidden content">
+                                {translate}
+                            </div>
+                        </div>
+                        {mnemo_temp}
+                        {synonyms_temp}
+                        {word_duilding_temp}
+                        {examples_temp}
+                    </div>
+            """
+    mnemo_temp = """
+    <div class="memorize clickable" 
+                            onclick='myClick(this)'>Мнемоника
+                            <div class="hidden content">
+                                {mnemo}
+                            </div>
+                        </div>
+    """
+    synonyms_temp = """
+    <div class="memorize clickable" 
+                            onclick='myClick(this)'>Синонимы
+                            <div class="hidden content">
+                                {synonyms}
+                            </div>
+                        </div>
+    """
+    word_duilding_temp = """
+    <div class="memorize clickable" 
+                            onclick='myClick(this)'>Словообразование
+                            <div class="hidden content">
+                                {word_building}
+                            </div>
+                        </div>
+    """
+    examples_temp = """
+    <div class="examples clickable" 
+                            onclick='myClick(this)'>Примеры
+                            <div class="hidden content">
+                                {examples}
+                            </div>
+                        </div>
+    """
+
+    mnemo_temp = mnemo_temp.format(mnemo=mnemo_html) if mnemo_html else "" 
+    synonyms_temp = synonyms_temp.format(synonyms=synonyms) if synonyms else ""    
+    word_duilding_temp = word_duilding_temp.format(word_building=word_building) if word_building else ""
+    examples_temp = examples_temp.format(examples=examples_html) if examples_html else ""
+
+    return base_html.format(word=word, 
+                            ipa=ipa, 
+                            translate=translate, 
+                            mnemo_temp=mnemo_temp, 
+                            synonyms_temp=synonyms_temp, 
+                            word_duilding_temp=word_duilding_temp, 
+                            examples_temp=examples_temp)
+
 
 def send_report(bot):  # , message
     try:
@@ -321,14 +411,9 @@ def send_report(bot):  # , message
                 mnemo_text = mnemo.replace("\xa0", "")
                 mnemo_list = [i for i in mnemo_text.split("\n") if i]
 
-            synonyms = get_synonyms_html(word_i)
-            word_building = get_word_building_linvinov_html(word_i)
-            
-            mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo_list])
-            examples_html = "\n".join([f"<div>{i}</div>" for i in examples_list])
-            word_html = config_bot.temp_html.format(word=word_i, ipa=f"|{transcription}|", translate=translate, mnemo=mnemo_html, 
-                                                    synonyms=synonyms, word_building=word_building,
-                                                    examples=examples_html)
+            ipa=f"|{transcription}|"
+            word_html = get_html_word(word_i, ipa, translate, mnemo_list, examples_list)
+
             all_messages.append(word_html)
         all_messages_text = "\n".join(all_messages)
         # html_report = temp_html.format(html_words=all_messages_text) 
