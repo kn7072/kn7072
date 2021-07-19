@@ -128,12 +128,10 @@ def get_text_messages(message):
             galagoliya = get_mnemo_galagoliya(word_i)
             send_message_from_bot(garibjan + "\n" + galagoliya)
         elif message.text.endswith("_r"):
-            send_report(bot)
-        # elif message.text.endswith("_re"):
-        #     word_i = message.text.replace("_re", "")
-        #     generate_report_for_re(word_i)
-            
-   
+            send_report(bot, "words_of_day")
+        elif message.text.endswith("_re"):
+            word_i = message.text.replace("_re", "")
+            generate_report_for_re(bot, word_i)
         else:
             bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
     except Exception as e:

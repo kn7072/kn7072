@@ -11,7 +11,7 @@ from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pa
 import pygame as pg
 from datetime import datetime, timedelta
 import datetime as dt
-from db import into_table, fetchall
+from db import into_table, fetchall, clear_table
 import json
 
 
@@ -416,52 +416,64 @@ def read_file(path_file):
         list_word.append(i.split(";")[0].strip())
     return list_word
 
-def generate_report_for_re(word_i):
+def generate_report_for_re(bot, template_word_i):
     
-    # r"(?<!\w)(?P<word>%s)(?!\w)"
+    if template_word_i.startswith("?"):
+        template_word_i = r".*?" + template_word_i[1:]
+    else:
+         template_word_i = r"^" + template_word_i  
     
-    if word_i.startswith("?"):
-        word_i = r"(?<!\w)" + word_i[1:]
+    if template_word_i.endswith("?"):
+        template_word_i = template_word_i[0:-1] + r".*"
 
-    if word_i.endswith("?"):
-        word_i = word_i[0:-1] + r"(?!\w)"
-
+    compl_pattern = re.compile(template_word_i, flags=re.DOTALL | re.MULTILINE)
     data_all_words = read_file(path_file_words)
+    for word_i in data_all_words:
+        search = compl_pattern.search(word_i)
+        if search:
+            data_word = parse_file(word_i)
+            compression_data(name_base, data_word, table_name="words_of_template")
+
+    send_report(bot, "words_of_template")
+    clear_table(name_base, "words_of_template")         
 
 
-def send_report(bot):  # , message
+def generate_report_html(name_base, table_name):
+    all_messages = []
+    temp_html = get_data_file("test.html")
+    
+    for first_line, mnemo_srt, examples_str, error in fetchall(name_base, table_name):
+        mnemo_list = mnemo_srt.split(separate) if mnemo_srt else []
+        examples_list = examples_str.split(separate) if examples_str else []
+        
+        tmp_list = [i.strip() for i in first_line.split("|")]
+        if len(tmp_list) == 3:
+            word_i, transcription, translate = tmp_list
+        else:
+            raise Exception(f"В строке {first_line}\n должно быть два символа |")
+
+        if not mnemo_list:
+            garibjan = mnemo_garibjan.get(word_i, "")
+            galagoliya = get_mnemo_galagoliya(word_i)
+            mnemo = garibjan + "\n" + galagoliya
+            mnemo_text = mnemo.replace("\xa0", "")
+            mnemo_list = [i for i in mnemo_text.split("\n") if i]
+
+        ipa=f"|{transcription}|"
+        word_html = get_html_word(word_i, ipa, translate, mnemo_list, examples_list)
+
+        all_messages.append(word_html)
+    all_messages_text = "\n".join(all_messages)
+    html_report = temp_html % (all_messages_text)
+    html_report = html_report.encode("utf-8")
+
+    return html_report
+
+def send_report(bot, table_name):
+    tmp_date = datetime.today().strftime(r"%d_%m_%Y")
+    
     try:
-        all_messages = []
-        temp_html = get_data_file("test.html")
-        tmp_date = datetime.today().strftime(r"%d_%m_%Y")
-        
-        for first_line, mnemo_srt, examples_str, error in fetchall(name_base):
-            mnemo_list = mnemo_srt.split(separate) if mnemo_srt else []
-            examples_list = examples_str.split(separate) if examples_str else []
-            
-            tmp_list = [i.strip() for i in first_line.split("|")]
-            if len(tmp_list) == 3:
-                word_i, transcription, translate = tmp_list
-            else:
-                raise Exception(f"В строке {first_line}\n должно быть два символа |")
-
-            if not mnemo_list:
-                garibjan = mnemo_garibjan.get(word_i, "")
-                galagoliya = get_mnemo_galagoliya(word_i)
-                mnemo = garibjan + "\n" + galagoliya
-                mnemo_text = mnemo.replace("\xa0", "")
-                mnemo_list = [i for i in mnemo_text.split("\n") if i]
-
-            ipa=f"|{transcription}|"
-            word_html = get_html_word(word_i, ipa, translate, mnemo_list, examples_list)
-
-            all_messages.append(word_html)
-        
-        
-        all_messages_text = "\n".join(all_messages)
-        # html_report = temp_html.format(html_words=all_messages_text) 
-        html_report = temp_html % (all_messages_text)
-        html_report = html_report.encode("utf-8")
+        html_report = generate_report_html(name_base, table_name)
         with open(f"{path_to_save_reports}/report_{tmp_date}.html", mode="wb+") as f:
             f.write(html_report)
             for chat_id in config_bot.chat_id_list:
@@ -470,10 +482,9 @@ def send_report(bot):  # , message
     except Exception as e:
         print("Ошибка " + str(e))
         with open(f"{path_to_save_reports}/report_error_{tmp_date}.txt", mode="wb+") as f:
-            # data = "\n".join([" === ".join(i) for first_line, mnemo_list, _, _ in words_of_day])
             sep = "#" * 30
             data = ""
-            for first_line, mnemo_list, _, err in fetchall(name_base):
+            for first_line, mnemo_list, _, err in fetchall(name_base, table_name):
                 mnemo = "\n".join(mnemo_list)
                 tmp_i = f"{first_line}\n\n{mnemo}\n{sep}\nError - {err}\n"
                 data += tmp_i
@@ -487,11 +498,11 @@ def not_learn_word(word):
     with open(path_file_not_learn, encoding="utf-8", mode="a") as f:
         f.write(word + "\n")
 
-def compression_data(name_base, data_word):
+def compression_data(name_base, data_word, table_name="words_of_day"):
     first_line, mnemo_list, examples_list, error = data_word
     temp = lambda l: separate.join(l)
     data_into = [(first_line, temp(mnemo_list), temp(examples_list), error)]
-    into_table(name_base, data_into)
+    into_table(name_base, data_into, table_name)
 
 
 mnemo_garibjan = prepare_garibjan()

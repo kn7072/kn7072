@@ -32,6 +32,10 @@ path_last_word = os.path.join(path_script, "last_word.txt")
 path_file_not_learn = os.path.join(path_script, "ПРОПУСТИТЬ.txt")
 path_synonyms_dir = os.path.join(path_anki, "Синонимы")
 path_word_building_dir = os.path.join(path_anki, "СловоОбразование")
+path_to_save_reports = "TEMP_REPORTS"
+
+if not os.path.isdir(path_to_save_reports):
+    os.mkdir(path_to_save_reports)
 
 
 name_base = "words_of_day.db"
