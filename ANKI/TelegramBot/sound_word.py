@@ -9,7 +9,9 @@ import re
 import telebot
 import requests
 import config_bot
-from common import sound, parse_file, play_sound, next_play, prepare_garibjan, send_message_from_bot, prepare_galagoliya, get_data_file, send_report, mnemo_garibjan, get_mnemo_galagoliya, not_learn_word, compression_data
+from common import sound, parse_file, play_sound, next_play, prepare_garibjan, send_message_from_bot,  \
+    prepare_galagoliya, get_data_file, send_report, mnemo_garibjan, get_mnemo_galagoliya, not_learn_word,  \
+    compression_data, generate_report_for_re, read_file
 from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, \
     path_last_word, path_file_words, wait_sound, path_file_not_learn, token, name_base
 from datetime import datetime, timedelta
@@ -21,13 +23,6 @@ def create_file_for_last_word(path_file):
     if not os.path.isfile(path_file):
         with open(path_file, mode="w", encoding="utf-8") as f:
             f.write("")
-
-
-def read_file(path_file):
-    list_word = []
-    for i in open(path_file, mode="r", encoding="utf-8"):
-        list_word.append(i.split(";")[0].strip())
-    return list_word
 
 
 def write_last_file(path_file, word):
@@ -134,6 +129,11 @@ def get_text_messages(message):
             send_message_from_bot(garibjan + "\n" + galagoliya)
         elif message.text.endswith("_r"):
             send_report(bot)
+        # elif message.text.endswith("_re"):
+        #     word_i = message.text.replace("_re", "")
+        #     generate_report_for_re(word_i)
+            
+   
         else:
             bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
     except Exception as e:

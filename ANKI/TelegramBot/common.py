@@ -5,7 +5,9 @@ import signal
 from subprocess import Popen, PIPE
 import re
 import time
-from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo, pattern_examples, schedule, path_anki, path_file_not_learn, separate, name_base, path_synonyms_dir, path_word_building_dir, pattern_search_word_in_text
+from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo,  \
+    pattern_examples, schedule, path_anki, path_file_not_learn, separate, name_base, path_synonyms_dir,  \
+    path_word_building_dir, pattern_search_word_in_text, path_to_save_reports, path_file_words
 import pygame as pg
 from datetime import datetime, timedelta
 import datetime as dt
@@ -297,12 +299,24 @@ def get_word_building_linvinov_html(word):
         
     return building_word 
 
+def count_macmillan_stars(word):
+    """
+    Возвращает число звезд
+    """
+    info_word = dict_macmillan.get(word)
+    count_stars = 0
+    if info_word:
+        count_stars = info_word["stars"]
+    return count_stars    
+
+
 def get_html_word(word, ipa, translate, mnemo_list, examples_list):
     synonyms = get_synonyms_html(word)
     word_building = get_word_building_linvinov_html(word)
     
     mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo_list]) if mnemo_list else ""
     examples_html = "\n".join([f"<div>{i}</div>" for i in examples_list]) if examples_list else ""
+    macmillan_stars = count_macmillan_stars(word)
     
     base_html = """
             <div class="container-word">
@@ -325,6 +339,7 @@ def get_html_word(word, ipa, translate, mnemo_list, examples_list):
                                             checkbox-delete" type="checkbox" id={word} name={word}>
                                 <input type="button" value="Удалить" class="delete" 
                                     onclick='deleteWord(this, "{word}")'/>
+                            {stars}
                             </div>
                         </div>
                         <div class="sound" 
@@ -374,18 +389,44 @@ def get_html_word(word, ipa, translate, mnemo_list, examples_list):
                         </div>
     """
 
+    star_tmp = """<div class="star"></div>"""
+
     mnemo_temp = mnemo_temp.format(mnemo=mnemo_html) if mnemo_html else "" 
     synonyms_temp = synonyms_temp.format(synonyms=synonyms) if synonyms else ""    
     word_duilding_temp = word_duilding_temp.format(word_building=word_building) if word_building else ""
     examples_temp = examples_temp.format(examples=examples_html) if examples_html else ""
+    stars_html = "".join([star_tmp for _ in range(macmillan_stars)])
 
     return base_html.format(word=word, 
                             ipa=ipa, 
+                            stars=stars_html,
                             translate=translate, 
                             mnemo_temp=mnemo_temp, 
                             synonyms_temp=synonyms_temp, 
                             word_duilding_temp=word_duilding_temp, 
                             examples_temp=examples_temp)
+
+
+def read_file(path_file):
+    """
+    Возврщает список слов для изучения
+    """
+    list_word = []
+    for i in open(path_file, mode="r", encoding="utf-8"):
+        list_word.append(i.split(";")[0].strip())
+    return list_word
+
+def generate_report_for_re(word_i):
+    
+    # r"(?<!\w)(?P<word>%s)(?!\w)"
+    
+    if word_i.startswith("?"):
+        word_i = r"(?<!\w)" + word_i[1:]
+
+    if word_i.endswith("?"):
+        word_i = word_i[0:-1] + r"(?!\w)"
+
+    data_all_words = read_file(path_file_words)
 
 
 def send_report(bot):  # , message
@@ -415,18 +456,20 @@ def send_report(bot):  # , message
             word_html = get_html_word(word_i, ipa, translate, mnemo_list, examples_list)
 
             all_messages.append(word_html)
+        
+        
         all_messages_text = "\n".join(all_messages)
         # html_report = temp_html.format(html_words=all_messages_text) 
         html_report = temp_html % (all_messages_text)
         html_report = html_report.encode("utf-8")
-        with open(r"report_%s.html" % tmp_date, mode="wb+") as f:
+        with open(f"{path_to_save_reports}/report_{tmp_date}.html", mode="wb+") as f:
             f.write(html_report)
             for chat_id in config_bot.chat_id_list:
                 f.seek(0)
                 bot.send_document(chat_id, f) 
     except Exception as e:
         print("Ошибка " + str(e))
-        with open(r"report_error_%s.txt" % tmp_date, mode="wb+") as f:
+        with open(f"{path_to_save_reports}/report_error_{tmp_date}.txt", mode="wb+") as f:
             # data = "\n".join([" === ".join(i) for first_line, mnemo_list, _, _ in words_of_day])
             sep = "#" * 30
             data = ""
@@ -451,9 +494,6 @@ def compression_data(name_base, data_word):
     into_table(name_base, data_into)
 
 
-
-
-
 mnemo_garibjan = prepare_garibjan()
 mnemo_galagoliya = prepare_galagoliya()
 
@@ -463,3 +503,4 @@ dict_synonyms = json.loads(get_data_file(path_to_json_synonyms))
 path_to_litvinov_word_building = os.path.join(path_word_building_dir, "Литвинов.json") 
 word_building_litvinov, group_word_building_litvinov = get_word_building_linvinov(path_to_litvinov_word_building)
 
+dict_macmillan = json.loads(get_data_file("macmillan_ipa_stars.json"))  # содержит ipa и число звезд
