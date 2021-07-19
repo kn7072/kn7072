@@ -97,6 +97,7 @@ for file_html_i in os.listdir(path_to_save_content):
     path_to_file_i = os.path.join(path_to_save_content, file_html_i)
     parse_html(path_to_file_i)
 
+# ПЫТАЕМСЯ ВЫГРУЗИТЬ ФАЙЛЫ ДЛЯ british, чтобы получить звезды которых нет в american
 get_contant(list_word_for_download=error_stars, dir_to_save=path_to_save_content_british, dictionary_version="british")
 
 error_stars = []
