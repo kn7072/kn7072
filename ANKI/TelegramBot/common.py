@@ -244,7 +244,10 @@ def get_synonyms_html(word):
     def create_html(word, synonyms):
         temp = []
         for translate_i in synonyms["translate"]:
-            translate_i = f"<span class='synonym'>{word}</span> {translate_i}"
+            macmillan_stars, macmillan_ipa = get_ipa_and_stars_macmillan(word)
+            
+            html_stars = "".join([f"<span class='star-mini'></span>" for i in range(macmillan_stars)])
+            translate_i = f"""<span class='synonym'>{word}</span><span class='ipa-margin'>{macmillan_ipa}</span>{html_stars} {translate_i}"""
             temp_translate = "".join([f"<div>{i}</div>" for i in translate_i.split("\n") if i])
             temp.append(temp_translate)
         synonyms_translate = f"<div>{separate_synonyms}</div>".join(temp)
@@ -283,9 +286,59 @@ def get_word_building_linvinov(path_to_file):
         group_i, translate_i = val_i.values()
         if not data_groups.get(group_i):
             data_groups[group_i] = []
-        data_groups[group_i].append(f"{word_i} - {translate_i}")
+        data_groups[group_i].append([word_i, translate_i])
 
     return data_words, data_groups
+
+def get_synonyms_linvinov(path_to_file):
+    """
+    Принимает на вход файл синонимов Литвинов, возвращает словарь слов и словарь групп
+    """
+    data_words = json.loads(get_data_file(path_to_file))
+    data_groups = {}
+    for word_i, val_list_i in data_words.items():
+        for val_i in val_list_i:
+            translate_i, number_group_i, name_group_i, file_i = val_i
+            if not data_groups.get(name_group_i):
+                data_groups[name_group_i] = []
+            data_groups[name_group_i].append([word_i, translate_i, number_group_i])
+
+    return data_words, data_groups   
+
+def get_html_for_synonyms_and_building(word, translate):
+    """
+    Возвращает верстку для синонимов и словообразования
+    """
+    macmillan_stars, macmillan_ipa = get_ipa_and_stars_macmillan(word)
+    html_stars = "".join([f"<span class='star-mini'></span>" for i in range(macmillan_stars)])
+    word_html = f"""<div>
+                        <span>{word}</span>
+                        <span class='ipa-margin'>{macmillan_ipa}</span>
+                        {html_stars}
+                        <span>{translate}</span>
+                    </div>"""
+    return word_html                 
+
+def get_synonyms_linvinov_html(word):
+    """
+    Возвращается все слова, входящие в одну группу с word
+    """    
+    info_word_list = word_synonyms_litvinov.get(word)
+    synonyms_word = None
+    temp = []
+    if info_word_list: 
+        for info_word_i in info_word_list:
+            name_group = info_word_i[2]
+            data_group_word = group_word_synonyms_litvinov.get(name_group)
+            tmp_group = []
+            for word_i, translate_i, number_group_i in data_group_word: 
+                word_html = get_html_for_synonyms_and_building(word_i, translate_i)
+                tmp_group.append(word_html)
+            html_group = f"<div class='synonym'>{name_group}</div>" + "".join(tmp_group)
+            temp.append(html_group)
+        synonyms_word = "".join(temp)
+    return synonyms_word    
+
 
 def get_word_building_linvinov_html(word):
     """
@@ -293,30 +346,36 @@ def get_word_building_linvinov_html(word):
     """
     info_word = word_building_litvinov.get(word)
     building_word = None
+    temp = []
     if info_word:
         data_group_word = group_word_building_litvinov.get(info_word["group"])
-        building_word = "".join([f"<div>{i}</div>" for i in data_group_word])
-        
+        for word_i, translate_i in data_group_word:
+            word_html = get_html_for_synonyms_and_building(word_i, translate_i)                
+            temp.append(word_html)                
+        building_word = "".join(temp)    
     return building_word 
 
-def count_macmillan_stars(word):
+def get_ipa_and_stars_macmillan(word):
     """
-    Возвращает число звезд
+    Возвращает число звезд и ipa
     """
     info_word = dict_macmillan.get(word)
     count_stars = 0
+    ipa = "|-|"
     if info_word:
         count_stars = info_word["stars"]
-    return count_stars    
+        ipa = f"| {info_word['ipa']} |"
+    return count_stars, ipa   
 
 
 def get_html_word(word, ipa, translate, mnemo_list, examples_list):
     synonyms = get_synonyms_html(word)
+    synonyms_linvinov = get_synonyms_linvinov_html(word)
     word_building = get_word_building_linvinov_html(word)
     
     mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo_list]) if mnemo_list else ""
     examples_html = "\n".join([f"<div>{i}</div>" for i in examples_list]) if examples_list else ""
-    macmillan_stars = count_macmillan_stars(word)
+    macmillan_stars, _ = get_ipa_and_stars_macmillan(word)
     
     base_html = """
             <div class="container-word">
@@ -352,6 +411,7 @@ def get_html_word(word, ipa, translate, mnemo_list, examples_list):
                         </div>
                         {mnemo_temp}
                         {synonyms_temp}
+                        {synonyms_litvinov_temp}
                         {word_duilding_temp}
                         {examples_temp}
                     </div>
@@ -369,6 +429,14 @@ def get_html_word(word, ipa, translate, mnemo_list, examples_list):
                             onclick='myClick(this)'>Синонимы
                             <div class="hidden content">
                                 {synonyms}
+                            </div>
+                        </div>
+    """
+    synonyms_litvinov_temp = """
+    <div class="memorize clickable" 
+                            onclick='myClick(this)'>Синонимы_Литвинов
+                            <div class="hidden content">
+                                {synonyms_linvinov}
                             </div>
                         </div>
     """
@@ -390,9 +458,11 @@ def get_html_word(word, ipa, translate, mnemo_list, examples_list):
     """
 
     star_tmp = """<div class="star"></div>"""
+    
 
     mnemo_temp = mnemo_temp.format(mnemo=mnemo_html) if mnemo_html else "" 
     synonyms_temp = synonyms_temp.format(synonyms=synonyms) if synonyms else ""    
+    synonyms_litvinov_temp = synonyms_litvinov_temp.format(synonyms_linvinov=synonyms_linvinov) if synonyms_linvinov else ""   
     word_duilding_temp = word_duilding_temp.format(word_building=word_building) if word_building else ""
     examples_temp = examples_temp.format(examples=examples_html) if examples_html else ""
     stars_html = "".join([star_tmp for _ in range(macmillan_stars)])
@@ -403,6 +473,7 @@ def get_html_word(word, ipa, translate, mnemo_list, examples_list):
                             translate=translate, 
                             mnemo_temp=mnemo_temp, 
                             synonyms_temp=synonyms_temp, 
+                            synonyms_litvinov_temp=synonyms_litvinov_temp,
                             word_duilding_temp=word_duilding_temp, 
                             examples_temp=examples_temp)
 
@@ -510,6 +581,9 @@ mnemo_galagoliya = prepare_galagoliya()
 
 path_to_json_synonyms = os.path.join(path_synonyms_dir, "words.json")
 dict_synonyms = json.loads(get_data_file(path_to_json_synonyms))
+
+path_to_json_synonyms_litvinov = os.path.join(path_synonyms_dir, "litvinov_synonyms.json")
+word_synonyms_litvinov, group_word_synonyms_litvinov = get_synonyms_linvinov(path_to_json_synonyms_litvinov)
 
 path_to_litvinov_word_building = os.path.join(path_word_building_dir, "Литвинов.json") 
 word_building_litvinov, group_word_building_litvinov = get_word_building_linvinov(path_to_litvinov_word_building)
