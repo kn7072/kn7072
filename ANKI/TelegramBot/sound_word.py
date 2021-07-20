@@ -76,9 +76,9 @@ def test_fun(message):
             compression_data(name_base, data_word)
 
             if (dt.date.today() - current_day).days > 0:
-                send_report(bot)
+                send_report(bot, "words_of_day")
                 current_day = dt.date.today()
-                clear_table(name_base)
+                clear_table(name_base, "words_of_day")
             
             # path_file_open = os.path.join(path_dir_for_notepad, name_file)
             # info_word = get_first_line(path_file_open)# .encode("utf-8").decode("cp866")
