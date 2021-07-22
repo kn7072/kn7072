@@ -202,17 +202,13 @@ def get_data_file(path_file):
 
 
 def get_mnemo_galagoliya(word):
+    
     list_temp = []
-    delimetr = "#"*30
-    result = ""
     for i in mnemo_galagoliya:
         block_i = "\n".join(i)
         if word in block_i:
             list_temp.append(block_i)
-
-    if list_temp:
-        result = delimetr.join(list_temp)
-    return result 
+    return list_temp 
 
 def get_synonyms_html(word):
     
@@ -368,6 +364,37 @@ def get_ipa_and_stars_macmillan(word):
     return count_stars, ipa   
 
 
+def get_comment_word(word):
+    """
+    Возвращает комментарий к слову
+    """
+    temp = []
+    first_symbol = word[0].lower()  # слова сгруппированы по первый буквам
+    path_to_file = os.path.join(path_anki, "WORDS", first_symbol, f"{word}.json")
+    if os.path.isfile(path_to_file):
+        data_file = json.loads(get_data_file(path_to_file))
+        data_word = data_file.get(word)
+        if data_word:
+            return data_word["comment"]
+        else:
+            # если не нашли слово, возможно слово начинается с нижнего регистра
+            data_word = data_file.get(first_symbol + word[1:])    
+            if data_word:
+                return data_word["comment"]
+    else:
+        return temp
+
+def get_html_comment_word(word):
+    comment_list = get_comment_word(word)
+    temp_html_comment = "<div>%s</div>"
+    comment_html = []
+    if comment_list:
+        temp_html_comment = "".join([temp_html_comment % i for i in comment_list])
+        for comment_i in comment_list:
+            comment_html.append(get_html_for_synonyms_and_building(comment_i, ""))
+        comment_html = "".join(comment_html)    
+    return comment_html
+
 def get_html_word(word, ipa, translate, mnemo_list, examples_list):
     synonyms = get_synonyms_html(word)
     synonyms_linvinov = get_synonyms_linvinov_html(word)
@@ -376,6 +403,7 @@ def get_html_word(word, ipa, translate, mnemo_list, examples_list):
     mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo_list]) if mnemo_list else ""
     examples_html = "\n".join([f"<div>{i}</div>" for i in examples_list]) if examples_list else ""
     macmillan_stars, _ = get_ipa_and_stars_macmillan(word)
+    word_comment_html = get_html_comment_word(word)
     
     base_html = """
             <div class="container-word">
@@ -413,6 +441,7 @@ def get_html_word(word, ipa, translate, mnemo_list, examples_list):
                         {synonyms_temp}
                         {synonyms_litvinov_temp}
                         {word_duilding_temp}
+                        {word_comment_temp}
                         {examples_temp}
                     </div>
             """
@@ -458,6 +487,13 @@ def get_html_word(word, ipa, translate, mnemo_list, examples_list):
     """
 
     star_tmp = """<div class="star"></div>"""
+    word_comment_temp = """<div class="memorize clickable" 
+                            onclick='myClick(this)'>Комментарий
+                            <div class="hidden content">
+                                {word_comment}
+                            </div>
+                        </div>
+    """
     
 
     mnemo_temp = mnemo_temp.format(mnemo=mnemo_html) if mnemo_html else "" 
@@ -466,6 +502,7 @@ def get_html_word(word, ipa, translate, mnemo_list, examples_list):
     word_duilding_temp = word_duilding_temp.format(word_building=word_building) if word_building else ""
     examples_temp = examples_temp.format(examples=examples_html) if examples_html else ""
     stars_html = "".join([star_tmp for _ in range(macmillan_stars)])
+    word_comment_temp = word_comment_temp.format(word_comment=word_comment_html) if word_comment_html else ""
 
     return base_html.format(word=word, 
                             ipa=ipa, 
@@ -475,6 +512,7 @@ def get_html_word(word, ipa, translate, mnemo_list, examples_list):
                             synonyms_temp=synonyms_temp, 
                             synonyms_litvinov_temp=synonyms_litvinov_temp,
                             word_duilding_temp=word_duilding_temp, 
+                            word_comment_temp=word_comment_temp,
                             examples_temp=examples_temp)
 
 
@@ -524,11 +562,17 @@ def generate_report_html(name_base, table_name):
             raise Exception(f"В строке {first_line}\n должно быть два символа |")
 
         if not mnemo_list:
-            garibjan = mnemo_garibjan.get(word_i, "")
-            galagoliya = get_mnemo_galagoliya(word_i)
-            mnemo = garibjan + "\n" + galagoliya
-            mnemo_text = mnemo.replace("\xa0", "")
-            mnemo_list = [i for i in mnemo_text.split("\n") if i]
+            mnemo_list_tmp = []
+            mnemo_list_tmp.append(mnemo_garibjan.get(word_i, "")) # mnemo_garibjan
+            mnemo_list_tmp.extend(get_mnemo_galagoliya(word_i))  # mnemo_galagoliya
+            for mnemo_i in mnemo_list_tmp:
+                mnemo_i = mnemo_i.replace("\xa0", "")
+                mnemo_list.extend([i for i in mnemo_i.split("\n") if i])
+                mnemo_list.append("####")
+
+            if mnemo_list:
+                # чтобы убрать последние "####"
+                mnemo_list = mnemo_list[0:-1]    
 
         ipa=f"|{transcription}|"
         word_html = get_html_word(word_i, ipa, translate, mnemo_list, examples_list)
