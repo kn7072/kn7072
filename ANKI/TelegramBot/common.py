@@ -369,6 +369,9 @@ def get_comment_word(word):
     Возвращает комментарий к слову
     """
     temp = []
+    if not word:
+        return temp
+
     first_symbol = word[0].lower()  # слова сгруппированы по первый буквам
     path_to_file = os.path.join(path_anki, "WORDS", first_symbol, f"{word}.json")
     if os.path.isfile(path_to_file):
@@ -550,7 +553,7 @@ def generate_report_for_re(bot, template_word_i):
 def generate_report_html(name_base, table_name):
     all_messages = []
     temp_html = get_data_file("test.html")
-    
+
     for first_line, mnemo_srt, examples_str, error in fetchall(name_base, table_name):
         mnemo_list = mnemo_srt.split(separate) if mnemo_srt else []
         examples_list = examples_str.split(separate) if examples_str else []
@@ -563,8 +566,11 @@ def generate_report_html(name_base, table_name):
 
         if not mnemo_list:
             mnemo_list_tmp = []
-            mnemo_list_tmp.append(mnemo_garibjan.get(word_i, "")) # mnemo_garibjan
+            mnemo_garibjan_word = mnemo_garibjan.get(word_i, "")
+            if mnemo_garibjan_word:
+                mnemo_list_tmp.append(mnemo_garibjan_word)
             mnemo_list_tmp.extend(get_mnemo_galagoliya(word_i))  # mnemo_galagoliya
+            
             for mnemo_i in mnemo_list_tmp:
                 mnemo_i = mnemo_i.replace("\xa0", "")
                 mnemo_list.extend([i for i in mnemo_i.split("\n") if i])
