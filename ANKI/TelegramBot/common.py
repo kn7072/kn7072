@@ -7,7 +7,7 @@ import re
 import time
 from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo,  \
     pattern_examples, schedule, path_anki, path_file_not_learn, separate, name_base, path_synonyms_dir,  \
-    path_word_building_dir, pattern_search_word_in_text, path_to_save_reports, path_file_words
+    path_word_building_dir, pattern_search_word_in_text, path_to_save_reports, path_file_words, path_all_words
 import pygame as pg
 from datetime import datetime, timedelta
 import datetime as dt
@@ -539,7 +539,7 @@ def generate_report_for_re(bot, template_word_i):
         template_word_i = template_word_i[0:-1] + r".*"
 
     compl_pattern = re.compile(template_word_i, flags=re.DOTALL | re.MULTILINE)
-    data_all_words = read_file(path_file_words)
+    data_all_words = read_file(path_all_words)
     for word_i in data_all_words:
         search = compl_pattern.search(word_i)
         if search:
