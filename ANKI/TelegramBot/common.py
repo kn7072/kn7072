@@ -530,14 +530,25 @@ def read_file(path_file):
 
 def generate_report_for_re(bot, template_word_i):
     
-    if template_word_i.startswith("?"):
-        template_word_i = r".*?" + template_word_i[1:]
-    else:
-         template_word_i = r"^" + template_word_i  
-    
-    if template_word_i.endswith("?"):
-        template_word_i = template_word_i[0:-1] + r".*"
+    def get_pattern(pattern):
+        start_with = pattern.startswith("?")
+        endswith = pattern.endswith("?")
 
+        if start_with and endswith:
+            pattern = rf".*?{pattern[1:-1]}.*"
+            return pattern
+
+        if pattern.startswith("?"):
+            pattern = rf".*?{pattern[1:]}$"
+        else:
+            pattern = r"^" + pattern  
+        
+        if pattern.endswith("?"):
+            pattern = pattern[0:-1] + r".*"
+        return pattern    
+    
+    template_word_i = get_pattern(template_word_i)
+        
     compl_pattern = re.compile(template_word_i, flags=re.DOTALL | re.MULTILINE)
     data_all_words = read_file(path_all_words)
     for word_i in data_all_words:
