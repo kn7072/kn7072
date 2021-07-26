@@ -558,6 +558,7 @@ def generate_report_for_re(bot, template_word_i):
             compression_data(name_base, data_word, table_name="words_of_template")
 
     send_report(bot, "words_of_template")
+    send_report(bot, "words_of_template", "list")
     clear_table(name_base, "words_of_template")         
 
 
@@ -601,16 +602,39 @@ def generate_report_html(name_base, table_name):
 
     return html_report
 
-def send_report(bot, table_name):
+def get_list_words(name_base, table_name):
+    """
+    Возвращает список слов
+    """
+    list_words = []
+
+    for first_line, mnemo_srt, examples_str, error in fetchall(name_base, table_name):
+        tmp_list = [i.strip() for i in first_line.split("|")]
+        word_i = "-"
+        if len(tmp_list) == 3:
+            word_i, transcription, translate = tmp_list
+        list_words.append(word_i)
+    return list_words    
+
+def send_report(bot, table_name, type_report="html"):
     tmp_date = datetime.today().strftime(r"%d_%m_%Y")
     
     try:
-        html_report = generate_report_html(name_base, table_name)
-        with open(f"{path_to_save_reports}/report_{tmp_date}.html", mode="wb+") as f:
-            f.write(html_report)
-            for chat_id in config_bot.chat_id_list:
-                f.seek(0)
-                bot.send_document(chat_id, f) 
+        if type_report == "html":
+            html_report = generate_report_html(name_base, table_name)
+            with open(f"{path_to_save_reports}/report_{tmp_date}.html", mode="wb+") as f:
+                f.write(html_report)
+                for chat_id in config_bot.chat_id_list:
+                    f.seek(0)
+                    bot.send_document(chat_id, f) 
+        elif type_report == "list":
+            list_words = get_list_words(name_base, table_name)
+            str_list_words = ', '.join([f'"{word_i}"' for word_i in list_words])
+            text = f"[{str_list_words}]"
+            send_message_from_bot(text)
+        else:
+            raise Exception("Передан неизвестный тип отчета")
+
     except Exception as e:
         print("Ошибка " + str(e))
         with open(f"{path_to_save_reports}/report_error_{tmp_date}.txt", mode="wb+") as f:
