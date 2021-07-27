@@ -42,7 +42,7 @@ if not os.path.isdir(path_to_save_reports):
 name_base = "words_of_day.db"
 separate = "|#|"
 
-wait_sound = 600 #  480 600 900 1200
+wait_sound = 900 #  480 600 900 1200
 time_sound_pause = 5
 count_sound = 2  # 2
 
