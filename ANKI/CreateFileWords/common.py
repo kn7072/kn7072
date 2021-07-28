@@ -88,6 +88,8 @@ def get_example(path_to_html):
         data_html = f.read()
 
     search = compl_all_examples.search(data_html)
+    dict_examples = {"examples_eng" : [],
+                     "examples_rus": []}
     try:
         all_text = search.group("text")
         all_text = all_text.replace("</b>", "").replace("<b>", "")
