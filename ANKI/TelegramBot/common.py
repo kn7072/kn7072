@@ -13,6 +13,8 @@ from datetime import datetime, timedelta
 import datetime as dt
 from db import into_table, fetchall, clear_table
 import json
+import traceback
+import sys
 
 
 def send_message_from_bot(text):
@@ -301,17 +303,19 @@ def get_synonyms_linvinov(path_to_file):
 
     return data_words, data_groups   
 
-def get_html_for_synonyms_and_building(word, translate):
+def get_html_for_synonyms_and_building(word, translate, add_html_code=""):
     """
     Возвращает верстку для синонимов и словообразования
     """
     macmillan_stars, macmillan_ipa = get_ipa_and_stars_macmillan(word)
     html_stars = "".join([f"<span class='star-mini'></span>" for i in range(macmillan_stars)])
-    word_html = f"""<div>
+    word_html = f"""<div onclick='myClick(this)'>
                         <span>{word}</span>
                         <span class='ipa-margin'>{macmillan_ipa}</span>
                         {html_stars}
                         <span>{translate}</span>
+                        
+                        {add_html_code}
                     </div>"""
     return word_html                 
 
@@ -390,11 +394,33 @@ def get_comment_word(word):
 def get_html_comment_word(word):
     comment_list = get_comment_word(word)
     temp_html_comment = "<div>%s</div>"
+    html_temp = """
+                    <div class="hidden content">
+                        {html}
+                    </div>
+                """
+   
     comment_html = []
     if comment_list:
         temp_html_comment = "".join([temp_html_comment % i for i in comment_list])
         for comment_i in comment_list:
-            comment_html.append(get_html_for_synonyms_and_building(comment_i, ""))
+            
+            first_line, mnemo_list, examples_str, error = parse_file(comment_i)    
+            word_i = transcription = translate = mnemo_html = html_trans_mnemo = ""
+            if first_line != "|-|":
+                tmp_list = [i.strip() for i in first_line.split("|")]
+                if len(tmp_list) == 3:
+                    word_i, transcription, translate = tmp_list
+                if not mnemo_list:
+                    mnemo_list = get_mnemo_list(comment_i) 
+                mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo_list]) if mnemo_list else ""
+                if word_i or mnemo_html:
+                    html = f"<div>{translate}</div><div></div>{mnemo_html}"
+                    html_trans_mnemo = html_temp.format(html=html) 
+
+            info_word = get_html_for_synonyms_and_building(comment_i, "", html_trans_mnemo)
+
+            comment_html.append(info_word)
         comment_html = "".join(comment_html)    
     return comment_html
 
@@ -562,6 +588,26 @@ def generate_report_for_re(bot, template_word_i):
     clear_table(name_base, "words_of_template")         
 
 
+def get_mnemo_list(word):
+    mnemo_list_tmp = []
+    mnemo_list = []
+    mnemo_garibjan_word = mnemo_garibjan.get(word, "")
+    if mnemo_garibjan_word:
+        mnemo_list_tmp.append(mnemo_garibjan_word)
+    mnemo_list_tmp.extend(get_mnemo_galagoliya(word))  # mnemo_galagoliya
+    
+    for mnemo_i in mnemo_list_tmp:
+        mnemo_i = mnemo_i.replace("\xa0", "")
+        mnemo_list.extend([i for i in mnemo_i.split("\n") if i])
+        mnemo_list.append("####")
+
+    if mnemo_list:
+        # чтобы убрать последние "####"
+        mnemo_list = mnemo_list[0:-1]   
+
+    return mnemo_list    
+    
+
 def generate_report_html(name_base, table_name):
     all_messages = []
     temp_html = get_data_file("test.html")
@@ -577,20 +623,7 @@ def generate_report_html(name_base, table_name):
             raise Exception(f"В строке {first_line}\n должно быть два символа |")
 
         if not mnemo_list:
-            mnemo_list_tmp = []
-            mnemo_garibjan_word = mnemo_garibjan.get(word_i, "")
-            if mnemo_garibjan_word:
-                mnemo_list_tmp.append(mnemo_garibjan_word)
-            mnemo_list_tmp.extend(get_mnemo_galagoliya(word_i))  # mnemo_galagoliya
-            
-            for mnemo_i in mnemo_list_tmp:
-                mnemo_i = mnemo_i.replace("\xa0", "")
-                mnemo_list.extend([i for i in mnemo_i.split("\n") if i])
-                mnemo_list.append("####")
-
-            if mnemo_list:
-                # чтобы убрать последние "####"
-                mnemo_list = mnemo_list[0:-1]    
+            mnemo_list = get_mnemo_list(word_i)    
 
         ipa=f"|{transcription}|"
         word_html = get_html_word(word_i, ipa, translate, mnemo_list, examples_list)
@@ -637,11 +670,14 @@ def send_report(bot, table_name, type_report="html"):
 
     except Exception as e:
         print("Ошибка " + str(e))
+        exc_type, exc_value, exc_traceback = sys.exc_info()
+        print("*** print_tb:")
+        traceback.print_tb(exc_traceback) #, limit=1, file=sys.stdout
+
         with open(f"{path_to_save_reports}/report_error_{tmp_date}.txt", mode="wb+") as f:
             sep = "#" * 30
             data = ""
-            for first_line, mnemo_list, _, err in fetchall(name_base, table_name):
-                mnemo = "\n".join(mnemo_list)
+            for first_line, mnemo, _, err in fetchall(name_base, table_name):
                 tmp_i = f"{first_line}\n\n{mnemo}\n{sep}\nError - {err}\n"
                 data += tmp_i
             data_b = data.encode("utf-8")

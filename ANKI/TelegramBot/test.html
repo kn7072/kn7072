@@ -94,11 +94,12 @@
 
 </style>    
 <script type="text/javascript">
-    
+
     function myClick(e) {
-        var firstChild = e.firstElementChild;
-        var classList = firstChild.classList;
+        var comments = e.getElementsByClassName('content')[0]
+        var classList = comments.classList;
         classList.toggle('hidden')
+        event.stopPropagation()
     }
 
     function mouseHoverWord(e) {
