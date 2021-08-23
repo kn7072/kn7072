@@ -42,6 +42,8 @@ source имя_файла
 https://habr.com/ru/company/badoo/blog/465021/
 strace -f env -i bash -x -l -c 'echo 123' > login.log 2>&1
 
+https://www.opennet.ru/docs/RUS/bash_scripting_guide/c13228.html
+
 https://habr.com/ru/company/ruvds/blog/326328/
 Использование стандартных ключей
 
