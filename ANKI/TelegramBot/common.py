@@ -310,7 +310,7 @@ def get_html_for_synonyms_and_building(word, translate, add_html_code=""):
     macmillan_stars, macmillan_ipa = get_ipa_and_stars_macmillan(word)
     html_stars = "".join([f"<span class='star-mini'></span>" for i in range(macmillan_stars)])
     word_html = f"""<div onclick='myClick(this)'>
-                        <span>{word}</span>
+                        <span class="synonym">{word}</span>
                         <span class='ipa-margin'>{macmillan_ipa}</span>
                         {html_stars}
                         <span>{translate}</span>

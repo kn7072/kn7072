@@ -143,8 +143,10 @@ def get_info_word(word, path_create_sound="audio"):
     search_transcription = compl_trans.search(all_test)
     transcription = search_transcription.group("transcription")
 
+    translate = ""
     search_translate = compl_translate.search(data_html)
-    translate = search_translate.group("translate")
+    if search_translate:
+        translate = search_translate.group("translate")
     return translate, transcription, dict_examples
 
 
