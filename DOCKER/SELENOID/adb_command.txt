@@ -1,3 +1,18 @@
+https://android-tools.ru/coding/emulyatory-v-android/
+Каждый экземпляр эмулятора использует AVD (Android Virtual Device). AVD — это конфигурация, которая определяет характеристики устройства, который нужно эмулировать: форм-фактор, версию Android и различные характеристики. Он содержит следующие компоненты:
+Профиль устройства
+    Профиль устройства определяет характеристики устройства, которое нужно эмулировать. Менеджер AVD содержит в себе несколько предустановленных профилей (такие устройства, как Nexus и Pixel), но также позволяет создавать свои собственные. 
+	Кроме того, некоторые профили включают Google Play, такие профили полностью совместимы с CTS и позволяют использовать образы системы с установленным приложением Google Play.
+Образ системы
+    Содержит нужную версию Android. Для полноты тестирования лучше всего создавать AVD для каждой версии Android, которую поддерживает приложение. 
+	Некоторые образы системы помечены надписью Google APIs: это означает, что они включают в себя доступ к сервисам Google Play. Если же образы помечены как Google Play, то кроме сервисов Google Play они включают также само приложение Google Play.
+Область хранения
+    AVD имеет специальную область хранения на компьютере. В ней хранятся пользовательские данные, данные устройства, такие как установленные приложения и настройки, а также эмулированная SD-карта. Если есть такая необходимость, с помошью Менеджера AVD можно удалять с эмулятора пользовательские данные, приводя ему к «заводскому» виду.
+Скин
+    Скин нужен для того, чтобы задать устройству внешний вид. Менеджер AVD содержит несколько предустановленных скинов, также имеется возможность использовать сторонние скины.
+
+DISPLAY=:99 /opt/android-sdk-linux/emulator/emulator -read-only -writable-system -no-boot-anim -no-audio -no-jni -avd android10.0-1 -skin 1080x1920  -gpu swiftshader_indirect -ranchu -qemu -enable-kvm &
+
 "android": {
         "default": "10.0_2",
         "versions": {
@@ -19,6 +34,31 @@
 	
 	docker container exec 523b6ac79b25 adb logcat -b events
 	
+	# https://losst.ru/komandy-adb-dlya-android-polzovatelej
+	adb -s 0123456789ABCDEF logcat 
+	adb logcat -d > ~/android.log  Также можно записать все в файл:
+	adb logcat -c можно очистить все логи на устройстве
+	
+	Не всегда нужно смотреть полный системный лог, иногда будет достаточно только увидеть сообщения нужной программы.. Для этого просто укажите имя пакета:
+    adb logcat com android.settings
+
+    С помощью опции --log-level можно установить уровень подробности сообщений, доступны такие варианты: V, D, I, W, E, F, S. 
+	Для выбора подробности вывода укажите нужную букву через двоеточие после имени приложения:
+    adb logcat com android.settings:E
+
+    Или выведем только ошибки для всей системы целиком:
+    adb logcat *:E
+	
+	docker container exec b41b8bea5152 adb shell pm list packages | grep ru.tensor.sbis.droid
+	docker container exec b41b8bea5152 adb logcat -d ru.tensor.sbis.droid:V > log.txt
+	
+	Состояние устройства
+	adb get-state
+	
+	Команда вернет одно из значений: device - работает, bootloader - загружается, offline - выключено.
+	С помощью команды status-window можно постоянно отслеживать состояние:
+	adb status-window
+	
 	
 	docker container exec 523b6ac79b25 emulator -avd android10.0-1 -change-language fr -change-country CA -change-locale fr-CA
 	docker container exec 523b6ac79b25 emulator -list-avds
@@ -33,13 +73,16 @@
 	adb shell wm size 2048x1536
 	adb shell wm density 288
 	// And reset to default
-	adb shell wm size reset
+	adb shell wm size resetn
 	adb shell wm density reset
 	
 	// СМЕНА ЛОКАЛИ
 	https://stackoverflow.com/questions/21712205/change-device-language-via-adb
 	adb shell "setprop persist.sys.locale ru-RU; setprop ctl.restart zygote"
 	adb shell 'getprop persist.sys.locale'
+	// https://developer.android.com/guide/topics/resources/localization#creating-and-using-a-custom-locale
+	adb root
+	adb shell "setprop persist.sys.locale ru-RU;stop;sleep 5;start;sleep 5"
 	
 	// https://www.npmjs.com/package/io.appium.settings
 	$ adb shell am broadcast -a io.appium.settings.locale --es lang ru --es country RU
@@ -47,6 +90,23 @@
 	$ adb shell am broadcast -a io.appium.settings.locale --es lang zh --es country CN --es script Hans
 	$ adb shell getprop persist.sys.locale # zh-Hans-CN for API level 21+
 	
+	
+	// https://ncona.com/2014/01/detect-when-android-emulator-is-ready/
+	adb shell getprop init.svc.bootanim
+	
+	Now, the only thing we need to do is call this command constantly until we get “stopped”:
+	
+	output=''
+	whill [[ ${output:0:7} != 'stopped' ]]; do
+		output="adb shell getprop init.svc.bootanim"
+		sleep 1
+	done	
+	
+	
+	
+	# https://gist.github.com/ernestkamara/d0a11cc36f331ebb8a41aa36991eee9a
+	adb devices
+	adb emulator-5554 shell 'while [[ -z $(getprop dev.bootcomplete) ]] ; do sleep 1; done'
 	
 	adb shell am start -a android.settings.LOCALE_SETTINGS  -посмотреть доступные локали
 	

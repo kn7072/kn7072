@@ -1,8 +1,8 @@
-
+Полезные ссылки
 http://git-autotests.sbis.ru/mobile/waiter_android/-/tree/21.1104/test_acceptance/test_motivation_kpi
 
-
-
+https://losst.ru/komandy-adb-dlya-android-polzovatelej
+https://losst.ru/komandy-v-android-terminal-emulator
 
 $current=$PWD -replace "\\", "/" -replace "C", "c" 
 docker run -d --name selenoid  -p 4444:4444 -v //var/run/docker.sock:/var/run/docker.sock -v ${current}/config/:/etc/selenoid/:ro aerokube/selenoid:latest-release -timeout 3m0s
@@ -39,6 +39,8 @@ https://prostoitblog.ru/selenoid-novaya-era-razvorachivaniya-selenium-grid-ili-d
 cm selenoid start —vnc
 cm selenoid start --force --browsers "android:10.0;chrome:86.0;opera:73.0" --args "-limit 20 -session-attempt-timeout 2m -service-startup-timeout 2m"
 cm selenoid-ui start 
+
+docker run -d --rm  --name selenoid-ui -p 8080:8080 aerokube/selenoid-ui:1.10.3 -selenoid-uri http://10.76.163.106:4444
 
 $current=$PWD -replace "\\", "/" -replace "C", "c
 docker run -d --name selenoid  -p 4444:4444 -v //var/run/docker.sock:/var/run/docker.sock -v ${current}/config/:/etc/selenoid/:ro aerokube/selenoid:latest-release --timeout 3m0s
@@ -81,7 +83,7 @@ https://github.com/aerokube/selenoid/issues/1018
 
 ##################################################################################################
 Для удаленной тачки usd-hahinnix.corp.tensor.ru
-wget -O cm https://github.com/aerokube/cm/releases/download/1.7.2/cm_linux_amd64
+wget -O cm https://github.com/aerokube/cm/releases/download/1.8.1/cm_linux_amd64
 chmod 111 cm
 
 
@@ -121,27 +123,43 @@ sudo docker exec 9180b6764445 ls -laR / | grep android10.0-1
 
 1 запустил 
 ./cm selenoid start --force --args "-limit 20 -session-attempt-timeout 10m -service-startup-timeout 10m"
+или 
+docker run --privileged -d --name selenoid -p 4444:4444  -v ~/.aerokube/selenoid/:/etc/selenoid/:ro  -v /var/run/docker.sock:/var/run/docker.sock  aerokube/selenoid:latest-release -log-output-dir /opt/selenoid/logs -limit 20 -session-attempt-timeout 10m -service-startup-timeout 10m 
+
+docker run --privileged --rm -d --name selenoid -p 4444:4444 -v ~/docker_volume:/opt/strace_log -v ~/.aerokube/selenoid/:/etc/selenoid/:ro -v /var/run/docker.sock:/var/run/docker.sock  aerokube/selenoid:latest-release -log-output-dir /opt/selenoid/logs -limit 20 -session-attempt-timeout 10m -service-startup-timeout 10m 
+
+
 2 зашел в │/home/local/TENSOR-CORP/sg.chernov/.aerokube/selenoid
 добавил
 "android": {
-        "default": "10.0_my",
+        "default": "10.8",
         "versions": {
-            "10.0_my": {
-                "image": "selenoid/android:10.0_my",
+            "10.8": {
+                "image": "selenoid/android:10.8",
                 "port": "4444",
                 "path": "/wd/hub",
                 "privileged": true
             }
         }
     },
-образ создавал через скрипт /home/local/TENSOR-CORP/sg.chernov/test_selenoid/image_selenoid/images/selenium/automate_android.sh
+образ создавал через скрипт /home/local/TENSOR-CORP/sg.chernov/test_selenoid_1/images/selenium/automate_android.sh
 google_apis  x86_64
 
 3 docker kill -s HUP selenoid
 4 запустил тесты - не отвалились
 
 docker exec -i -t <имя_или_id> /bin/bash
+docker logs --tail 10 -f  selenoid
 
+#########################################################################
+КОНФИГ adv
+https://askmeaboutlinux.com/2020/06/07/how-to-change-gpu-mode-for-android-10-google-play-api-pixel-3-avd-in-android-studio/
+vi ~/.android/avd/Device10.avd/config.ini
+
+#########################################################################
+Запустить эмулятор
+DISPLAY=:99 /opt/android-sdk-linux/emulator/emulator -read-only -writable-system -no-boot-anim -no-audio -no-jni -avd android10.0-1 -skin 1080x1920  -gpu swiftshader_indirect -ranchu -qemu -enable-kvm &
+strace -o log -s 120 -e trace=write /opt/android-sdk-linux/emulator/emulator -read-only -writable-system -no-boot-anim -no-audio -no-jni -avd android10.0-1 -skin 1080x1920  -gpu swiftshader_indirect -ranchu -qemu -enable-kvm &
 #########################################################################
 docker container exec 44913ca86475 ls -R /opt/android-sdk-linux
 docker container exec 44913ca86475 emulator -list-avds
@@ -189,3 +207,26 @@ curl -s http://10.76.175.31:4444/status  -где будут запускатьс
 
 curl -s http://test:test-password@10.76.170.72:4444/wd/hub
 
+#########################################################################
+
+# Install AVD files
+$ANDROID_HOME/tools/bin/sdkmanager --install 'system-images;android-29;default;x86'
+yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
+
+# Create emulator
+echo "no" | $ANDROID_HOME/tools/bin/avdmanager create avd -n Pixel_API_29_AOSP -d pixel --package 'system-images;android-29;default;x86' --force
+
+$ANDROID_HOME/emulator/emulator -list-avds
+
+# Set screen dimensions
+echo "hw.lcd.density=420" >> ~/.android/avd/Pixel_API_29_AOSP.avd/config.ini
+echo "hw.lcd.height=1920" >> ~/.android/avd/Pixel_API_29_AOSP.avd/config.ini
+echo "hw.lcd.width=1080" >> ~/.android/avd/Pixel_API_29_AOSP.avd/config.ini
+
+echo "Starting emulator and waiting for boot to complete..."
+nohup $ANDROID_HOME/emulator/emulator -avd Pixel_API_29_AOSP -no-snapshot -no-window -no-audio -no-boot-anim -camera-back none -camera-front none -qemu -m 2048 > /dev/null 2>&1 &
+$ANDROID_HOME/platform-tools/adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
+
+echo "Emulator has finished booting"
+$ANDROID_HOME/platform-tools/adb devices
+#########################################################################
