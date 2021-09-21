@@ -144,6 +144,7 @@ while True:
         print(e)
         time.sleep(10)
         
-        bot = telebot.TeleBot(token)
+        # bot = telebot.TeleBot(token)
         current_day = dt.date.today() 
-        bot.polling(none_stop=True, interval=0) 
+        # bot.polling(none_stop=True, interval=0) 
+        raise

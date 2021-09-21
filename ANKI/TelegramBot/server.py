@@ -105,3 +105,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print('^C received, shutting down the web server')
         server.socket.close()
+        raise

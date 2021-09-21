@@ -1,0 +1,15 @@
+[Unit]
+Description=Телеграмм бот
+After=network.target
+Requires=sound_word.service
+
+[Service]
+ExecStart=python3.8 /home/pi/REPO/kn7072/ANKI/TelegramBot/server.py
+RestartSec=60s
+Restart=on-failure
+# StandardOutput=file:/home/stapan/TMP/Log_server_english
+# StandardError=file:/home/stapan/TMP/Log_server_english_error
+
+ 
+[Install]
+WantedBy=multi-user.target

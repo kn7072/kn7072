@@ -1,0 +1,14 @@
+[Unit]
+Description=Озвучка слов
+After=network.target
+Requires=server_english.service
+
+[Service]
+ExecStart=python3.8 /home/pi/REPO/kn7072/ANKI/TelegramBot/sound_word.py
+RestartSec=60s
+Restart=on-failure
+# StandardOutput=file:/home/stapan/TMP/Log_sound_word
+# StandardError=file:/home/stapan/TMP/Log_sound_word_error
+ 
+[Install]
+WantedBy=multi-user.target
