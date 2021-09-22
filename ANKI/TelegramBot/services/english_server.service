@@ -4,9 +4,12 @@ After=network.target
 Requires=english_sound_word.service
 
 [Service]
-ExecStart=python3.8 /home/pi/REPO/kn7072/ANKI/TelegramBot/server.py
+Environment="PYTHONPATH=$PYTHONPATH:/home/pi/.local/lib/python3.8/site-packages"
+WorkingDirectory=/home/pi/REPO/kn7072/ANKI/TelegramBot
+ExecStart=python3.8 server.py
 RestartSec=60s
 Restart=on-failure
+
 # StandardOutput=file:/home/stapan/TMP/Log_server_english
 # StandardError=file:/home/stapan/TMP/Log_server_english_error
 
