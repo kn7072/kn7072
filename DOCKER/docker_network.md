@@ -1,5 +1,7 @@
 https://itisgood.ru/2019/10/29/objasnenie-koncepcii-setej-v-docker/
 https://habr.com/ru/post/333874/
+https://cloud.croc.ru/blog/byt-v-teme/docker-virtualizatsiya-seti-part1/
+https://cloud.croc.ru/blog/byt-v-teme/docker-virtualizatsiya-seti-part2/
 
 ## Чтобы получить список всех ваших сетей, запустите:
 
