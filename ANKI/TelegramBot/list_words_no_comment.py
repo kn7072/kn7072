@@ -4,8 +4,13 @@ import json
 
 dir_for_search_files = "/home/stapan/GIT/kn7072/ANKI/WORDS"
 list_word_no_comment = []
-single_words = ["whirl",  "fox"]
-
+single_words = ["whirl", "fox", "immoral", "casual", "concrete", "coroner", "corridor",
+ "cow", "click", "crude", "cocaine", "space", "silk", "ceiling", "watch", "envelope",
+  "vocabulary", "expansion", "elite", "pump", "egg", "exotic", "ethical", "toast", "trim", "they",
+  "entrance", "erase", "echo", "ethnic", "envisage", "enemy", "panel", "cake", "fuel", "fever",
+  "adjective", "plural", "traffic", "elbow", "oxygen", "staff", "senior", "fibre", "soldier",
+  "hurt"]
+        
 def get_data_file(path_file):
     with open(path_file, encoding="utf-8") as f:
         return f.read()
@@ -14,8 +19,9 @@ def write_file(list_word):
     path_file = "not_comment.txt"
     with open(path_file, encoding="utf-8", mode="w") as f:
         for word_i in list_word:
-            word_i = word_i.split(".")[0]
-            f.write(word_i + "\n")        
+            if word_i not in single_words:
+                word_i = word_i.split(".")[0]
+                f.write(f"{word_i}  ?{word_i}?_re\n")        
 
 def get_path_file(root_dir, file_name):
     return os.path.join(root_dir, file_name)
