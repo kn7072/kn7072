@@ -1,0 +1,13 @@
+[Unit]
+Description=Ping wi-fi
+After=network.target
+
+[Service]
+WorkingDirectory=/home/pi/REPO/kn7072/ANKI/TelegramBot/services
+# WorkingDirectory=/home/stapan/GIT/kn7072/ANKI/TelegramBot/services
+ExecStart=./ping_service.bash
+RestartSec=60s
+Restart=on-failure
+ 
+[Install]
+WantedBy=multi-user.target
