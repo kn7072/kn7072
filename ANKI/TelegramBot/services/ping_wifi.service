@@ -5,7 +5,7 @@ After=network.target
 [Service]
 WorkingDirectory=/home/pi/REPO/kn7072/ANKI/TelegramBot/services
 # WorkingDirectory=/home/stapan/GIT/kn7072/ANKI/TelegramBot/services
-ExecStart=/bin/bahs ping_service.bash
+ExecStart=/bin/bash ping_service.bash
 RestartSec=60s
 Restart=on-failure
  

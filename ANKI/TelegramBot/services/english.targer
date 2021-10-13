@@ -1,0 +1,4 @@
+[Unit]
+Description=English
+Requires=english_server.service english_sound_word.service ping_wifi.service
+After=english_server.service english_sound_word.service ping_wifi.service
