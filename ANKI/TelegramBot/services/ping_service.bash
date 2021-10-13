@@ -3,11 +3,12 @@
 count_ping=1
 template="$count_ping packets transmitted, $count_ping received, 0% packet loss"
 time_sleep=60
+timeout_response=5
 
 current_requests=0
 
 while true; do
-    ping_output=$( ping -c $count_ping 8.8.8.8 )
+    ping_output=$( ping -c $count_ping -W $timeout_response 8.8.8.8 )
     # echo $ping_output
     case "$ping_output" in
         *$template*);;
