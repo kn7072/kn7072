@@ -6,7 +6,7 @@ Requires=english_sound_word.service ping_wifi.service
 [Service]
 Environment="PYTHONPATH=$PYTHONPATH:/home/pi/.local/lib/python3.8/site-packages"
 WorkingDirectory=/home/pi/REPO/kn7072/ANKI/TelegramBot
-ExecStart=python3.8 server.py
+ExecStart=python3.8 -u server.py
 RestartSec=60s
 Restart=on-failure
 
