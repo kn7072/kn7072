@@ -5,7 +5,7 @@ import re
 number = "(?P<num>\d{1,2})\."
 compl_number = re.compile(number)
 
-path_to_file = "./Упражнения/50/2"
+path_to_file = "./Упражнения/6/2_eng"
 
 def get_text_exercise(path_to_file: str) -> str: 
     all_text = ""
