@@ -1,0 +1,50 @@
+@half: 18%;
+@norm: 32%;
+.container {
+    width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: [first] @half [second] @half [third] @norm [fourth] @norm [end];
+    grid-template-rows: auto auto auto auto 400px;
+}
+
+.subgrid {
+    display: grid;
+    grid-template-columns: [first] @half [second] @half [third] @norm [fourth] @norm [end];
+    grid-template-rows: auto;
+    grid-row: 4;
+    grid-column: 1 / end;
+}
+
+.item-city {
+    grid-row: 1;
+    grid-column: 2 / end;
+}
+
+.item-street {
+    grid-row: 2;
+    grid-column: 2 / end;
+}
+.item-map {
+    grid-row: 5;
+    grid-column: 1 / end;
+}
+
+.cell {
+    display: flex;
+    justify-content: space-between;;
+}
+
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.clicable {
+    cursor: pointer;
+    text-decoration: underline;}
+
+.hidden {
+    display: none;
+}

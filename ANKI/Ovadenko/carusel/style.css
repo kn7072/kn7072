@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 20px);
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.control {
+  display: flex;
+  width: 5%;
+  height: 100%;
+  font-size: 70px;
+  background-color: bisque;
+}
+
+.arrow {
+  margin: auto;
+}
+.content {
+  width: 100%;
+  font-size: 55px;
+  white-space: pre-line;
+}
+
+.hidden {
+  display: none;
+}

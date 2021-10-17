@@ -48,7 +48,7 @@ def create_full_json(path_to_dir: str) -> str:
 
 
 
-create_json_files_exercises(path_dir_exercises_num)
+# create_json_files_exercises(path_dir_exercises_num)
 # create_full_json(path_dir_exercises)
 
 
