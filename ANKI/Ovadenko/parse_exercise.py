@@ -10,11 +10,12 @@ path_to_file = "./Упражнения/6/2_eng"
 def get_text_exercise(path_to_file: str) -> str: 
     all_text = ""
     for str_i in open(path_to_file, encoding="utf-8"):
-        str_i = str_i.replace("\n", " ")
+        str_i = str_i.replace("\n", " ").strip()
         if str_i.endswith("-"):
             str_i = str_i[0: -1]
         all_text += str_i
-        
+    if not all_text:
+        raise Exception(f"Пустой файл ${path_to_file}")
     return all_text
 
 def get_list_sentance(text_exercise: str) -> list:
@@ -28,8 +29,22 @@ def print_list_sentance(list_sentance):
     for i in list_sentance:
         print(i)
 
-text_exerсise = get_text_exercise(path_to_file)
-print(text_exerсise)
-list_sentance = get_list_sentance(text_exerсise)
-print_list_sentance(list_sentance)
-pass
+def get_files_of_dir(path_to_dir: str) -> list:
+    temp_list = []
+    for file_name in os.listdir(path_to_dir):
+        if file_name.endswith("eng"):
+            temp_list.append([file_name.replace("_eng", ""), file_name])
+    return temp_list        
+
+def create_file(path_to_file: str, data: str) -> None:
+    with open(path_to_file, mode="w", encoding="utf-8") as f:
+        f.write(data)
+
+def read_file(path_to_file: str) -> str:
+    with open(path_to_file, encoding="utf-8") as f:
+        return f.read()        
+
+# text_exerсise = get_text_exercise(path_to_file)
+# print(text_exerсise)
+# list_sentance = get_list_sentance(text_exerсise)
+# print_list_sentance(list_sentance)

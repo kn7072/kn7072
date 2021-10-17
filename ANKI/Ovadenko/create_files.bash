@@ -18,8 +18,8 @@ create_all_files() {
     count=1
     while [ $count -le $2 ]
     do
-        file_name="$1/$count"
-        file_name_eng="${file_name}_eng"
+        local file_name="$1/$count"
+        local file_name_eng="${file_name}_eng"
         create_file $file_name
         create_file $file_name_eng
         count=$(( $count + 1 ))
