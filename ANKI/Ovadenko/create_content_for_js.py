@@ -6,8 +6,8 @@ count_lessens_in_file = 7
 count_sentence_in_slide = 3
 count_symbols_in_slide = 1300
 path_to_exercises = "exercise.json"
-path_to_ovadenko = "/home/stapan/GIT/kn7072/ANKI/Ovadenko"
-path_to_slides = os.path.join(path_to_ovadenko, "carusel", "slides")
+path_script = os.getcwd()
+path_to_slides = os.path.join(path_script, "carusel", "slides")
 
 if not os.path.isdir(path_to_slides):
     os.mkdir(path_to_slides)
@@ -80,5 +80,3 @@ for data_exercises in generator:
     path_to_slide = os.path.join(path_to_slides, f"{slide_number}.txt")
     create_file(path_to_slide, slide_text_i)
     slide_number += 1
-
-print
