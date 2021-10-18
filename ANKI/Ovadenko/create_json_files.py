@@ -4,7 +4,7 @@ from parse_exercise import get_text_exercise, get_list_sentance, get_files_of_di
 
 path_to_ovadenko = "/home/stapan/GIT/kn7072/ANKI/Ovadenko"
 path_dir_exercises = os.path.join(path_to_ovadenko, "Упражнения")
-path_dir_exercises_num = os.path.join(path_dir_exercises, "3")
+path_dir_exercises_num = os.path.join(path_dir_exercises, "20")
 
 def create_json_files_exercises(path_to_dir: str) -> str:
     """
@@ -47,8 +47,11 @@ def create_full_json(path_to_dir: str) -> str:
     create_file(path_json, data_str)
 
 
+for i in os.listdir("Упражнения"):
+    path_dir_exercises_num = os.path.join(path_dir_exercises, i)
+    create_json_files_exercises(path_dir_exercises_num)
 
 # create_json_files_exercises(path_dir_exercises_num)
-# create_full_json(path_dir_exercises)
+create_full_json(path_dir_exercises)
 
 

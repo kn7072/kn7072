@@ -10,9 +10,11 @@ path_to_file = "./Упражнения/6/2_eng"
 def get_text_exercise(path_to_file: str) -> str: 
     all_text = ""
     for str_i in open(path_to_file, encoding="utf-8"):
-        str_i = str_i.replace("\n", " ").strip()
+        str_i = str_i.replace("\n", "")
         if str_i.endswith("-"):
             str_i = str_i[0: -1]
+        else:
+            str_i += " "
         all_text += str_i
     if not all_text:
         raise Exception(f"Пустой файл ${path_to_file}")

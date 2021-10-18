@@ -13,7 +13,12 @@
   width: 5%;
   height: 100%;
   font-size: 70px;
-  background-color: #196238;
+  background-color: #194f30;
+  cursor: pointer;
+}
+
+.control:hover {
+  background-color:#1e5e39;
 }
 
 .arrow {
