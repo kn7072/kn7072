@@ -127,21 +127,28 @@ def get_info_word(word, path_create_sound="audio"):
     create_html(path_to_file, data_html_bin)
     dict_examples = get_example(path_to_file)
 
+    transcription = "||"
     search = compl_1.search(data_html)
-    all_test = search.group("text")
+    if search:
+        all_test = search.group("text")
 
-    search_sound = compl_sound.search(all_test)
-    if search_sound:
-        paht_to_sound = search_sound.group("path_sound")
-        all_path = url + paht_to_sound
-        data_sound = requests.get(all_path)
-        path_dir_sounds = os.path.join(os.getcwd(), path_create_sound)
-        create_sound_file(word, data_sound.content, path_dir_sounds)
+        search_sound = compl_sound.search(all_test)
+        if search_sound:
+            paht_to_sound = search_sound.group("path_sound")
+            all_path = url + paht_to_sound
+            data_sound = requests.get(all_path)
+            path_dir_sounds = os.path.join(os.getcwd(), path_create_sound)
+            create_sound_file(word, data_sound.content, path_dir_sounds)
+        else:
+            print(f"Не найдет mp3 файл для {word}")  
+        search_transcription = compl_trans.search(all_test)
+        if search_transcription:
+            transcription = search_transcription.group("transcription")
+    
     else:
-        print(f"Не найдет mp3 файл для {word}")    
+        print(f"Не найден перевод слова {word}")            
 
-    search_transcription = compl_trans.search(all_test)
-    transcription = search_transcription.group("transcription")
+    
 
     translate = ""
     search_translate = compl_translate.search(data_html)

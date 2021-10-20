@@ -1,8 +1,9 @@
 # -*- coding:utf-8 -*-
-import os
-from common import get_list_words, get_info_word, get_origin_json, create_file
-from copy import deepcopy
 import json
+import os
+from copy import deepcopy
+from common import get_list_words, get_info_word, get_origin_json, create_file
+
 
 path_script = os.getcwd()
 path_anki = os.path.split(path_script)[0]
@@ -18,7 +19,7 @@ examples_keys = {
         "example_translate": [],
         "synonyms": [],
         "grups": [
-            "all_words"
+            "all_words",
         ]
     }
 
