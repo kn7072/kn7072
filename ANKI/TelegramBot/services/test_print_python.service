@@ -1,0 +1,13 @@
+[Unit]
+Description=Тестирование print в python
+After=network.target
+
+
+[Service]
+Environment="PYTHONPATH=$PYTHONPATH:/home/stapan/.local/lib/python3.8/site-packages"
+WorkingDirectory=/home/stapan/GIT/kn7072/ANKI/TelegramBot/
+ExecStart=python3.8 -u test_print_python.py
+
+ 
+[Install]
+WantedBy=multi-user.target
