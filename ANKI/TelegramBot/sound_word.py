@@ -1,3 +1,4 @@
+#!/usr/bin/python3.8
 # -*- coding: utf-8 -*-
 
 import sys
@@ -139,7 +140,8 @@ def get_text_messages(message):
 
 while True:
     try:
-        bot.polling(none_stop=True, interval=0) 
+        # bot.polling(none_stop=True, interval=0)
+        bot.infinity_polling(timeout=10, long_polling_timeout=5)
     except Exception as e:
         print(e)
         time.sleep(10)
