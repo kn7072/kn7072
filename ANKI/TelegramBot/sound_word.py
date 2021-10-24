@@ -1,37 +1,30 @@
 #!/usr/bin/python3.8
 # -*- coding: utf-8 -*-
 
-import sys
-from subprocess import Popen, PIPE
 import os
-import signal
 import time
-import re
+
 import telebot
-import requests
-import config_bot
-from common import sound, parse_file, play_sound, next_play, prepare_garibjan, send_message_from_bot,  \
-    prepare_galagoliya, get_data_file, send_report, mnemo_garibjan, get_mnemo_galagoliya, not_learn_word,  \
+from common import sound, parse_file, play_sound, next_play, send_message_from_bot,  \
+    send_report, mnemo_garibjan, get_mnemo_galagoliya, not_learn_word,  \
     compression_data, generate_report_for_re, read_file
-from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, \
-    path_last_word, path_file_words, wait_sound, path_file_not_learn, token, name_base
-from datetime import datetime, timedelta
+from config_bot import path_last_word, path_file_words, wait_sound, path_file_not_learn, token, name_base
 import datetime as dt
 from db import create_base, clear_table
 
 
-def create_file_for_last_word(path_file):
+def create_file_for_last_word(path_file: str) -> None:
     if not os.path.isfile(path_file):
         with open(path_file, mode="w", encoding="utf-8") as f:
             f.write("")
 
 
-def write_last_file(path_file, word):
+def write_last_file(path_file: str, word: str) -> None:
     with open(path_file, mode="w", encoding="utf-8") as f:
         f.write(word)
 
 
-def prepate_data():
+def prepate_data() -> None:
     global data_all_words
     global words_not_learn
     global start_index
@@ -51,22 +44,21 @@ def prepate_data():
         if start_index == last_index:
             start_index = 0
 
+
 prepate_data()
 
 bot = telebot.TeleBot(token)
-current_day = dt.date.today() 
+current_day = dt.date.today()
 
 create_base(name_base)
 
 
 @bot.message_handler(commands=["start"], content_types=['text'])
-def test_fun(message):
+def test_fun(message) -> None:
     global current_day
-    # for i in range(10):
-    #     bot.send_message(message.from_user.id, "Я ")
-    #     time.sleep(5)
+
     while True:
-        for ind, word_i in enumerate(data_all_words[start_index: last_index + 1]):
+        for word_i in data_all_words[start_index: last_index + 1]:
             next_play()
 
             if word_i in words_not_learn:
@@ -80,11 +72,6 @@ def test_fun(message):
                 send_report(bot, "words_of_day")
                 current_day = dt.date.today()
                 clear_table(name_base, "words_of_day")
-            
-            # path_file_open = os.path.join(path_dir_for_notepad, name_file)
-            # info_word = get_first_line(path_file_open)# .encode("utf-8").decode("cp866")
-            # print(str(ind) + "   " + info_word)
-
             if os.name == "nt":
                 play_sound(word_i)
             else:
@@ -95,17 +82,11 @@ def test_fun(message):
             time.sleep(wait_sound)
         else:
             prepate_data()
-            # start_index = 0
-            # command = input("Для завершения введите q или enter чтобы продлолжить:\n")
-            # print("#" * 50)
-            # if command == "q":
-            #     sys.exit()
 
 
 @bot.message_handler(content_types=['text'])
-def get_text_messages(message):
-    print("Debug report %s" % message.text)
-    
+def get_text_messages(message) -> None:
+    print("command: %s" % message.text)
     try:
         if message.text.endswith("_s"):
             word_i = message.text.replace("_s", "")
@@ -136,7 +117,8 @@ def get_text_messages(message):
         else:
             bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
     except Exception as e:
-        print(e)        
+        print(e)
+
 
 while True:
     try:
@@ -145,8 +127,7 @@ while True:
     except Exception as e:
         print(e)
         time.sleep(10)
-        
         # bot = telebot.TeleBot(token)
-        current_day = dt.date.today() 
-        # bot.polling(none_stop=True, interval=0) 
+        current_day = dt.date.today()
+        # bot.polling(none_stop=True, interval=0)
         raise
