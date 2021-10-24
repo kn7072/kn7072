@@ -1,14 +1,19 @@
 # coding=utf-8
-import os, json, glob, json
-from parse_exercise import get_text_exercise, get_list_sentance, get_files_of_dir, create_file, read_file
+"""Парсить файлы упражнений и создвает json файлы на выходе."""
+
+import os, json, glob
+
+from parse_exercise import create_file, get_files_of_dir, get_list_sentance, get_text_exercise, read_file
 
 path_to_ovadenko = "/home/stapan/GIT/kn7072/ANKI/Ovadenko"
 path_dir_exercises = os.path.join(path_to_ovadenko, "Упражнения")
-path_dir_exercises_num = os.path.join(path_dir_exercises, "20")
+path_dir_exercises_num = os.path.join(path_dir_exercises, "38")
+
 
 def create_json_files_exercises(path_to_dir: str) -> str:
     """
-    Создает json файлы упражнений
+    Создает json файлы упражнений.
+
     path_to_dir путь к каталогу где лежат файлы(упражнения и ответы)
     """
     list_files_dir = get_files_of_dir(path_to_dir)
@@ -27,12 +32,12 @@ def create_json_files_exercises(path_to_dir: str) -> str:
             path_json = os.path.join(path_to_dir, rus_name + ".json")
             create_file(path_json, data_str)
         else:
-            print(f"Проблемы ${path_to_dir}/{rus_name}\n    len_rus {len_list_sentance_rus}\n    len_eng {len_list_sentance_eng}")
+            print(f"Проблемы ${path_to_dir}/{rus_name}\n    len_rus {len_list_sentance_rus}\n  \
+              len_eng {len_list_sentance_eng}")
+
 
 def create_full_json(path_to_dir: str) -> str:
-    """
-    Создает единый файл json для всех упражнений
-    """
+    """Создает единый файл json для всех упражнений."""
     all_exercises = {}
     for dir_i in os.listdir(path_to_dir):
         all_exercises[dir_i] = {}
@@ -47,11 +52,9 @@ def create_full_json(path_to_dir: str) -> str:
     create_file(path_json, data_str)
 
 
-for i in os.listdir("Упражнения"):
-    path_dir_exercises_num = os.path.join(path_dir_exercises, i)
-    create_json_files_exercises(path_dir_exercises_num)
+# for i in os.listdir("Упражнения"):
+#     path_dir_exercises_num = os.path.join(path_dir_exercises, i)
+#     create_json_files_exercises(path_dir_exercises_num)
 
-# create_json_files_exercises(path_dir_exercises_num)
+create_json_files_exercises(path_dir_exercises_num)
 create_full_json(path_dir_exercises)
-
-
