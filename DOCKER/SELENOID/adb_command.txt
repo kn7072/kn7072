@@ -52,6 +52,19 @@ DISPLAY=:99 /opt/android-sdk-linux/emulator/emulator -read-only -writable-system
 	docker container exec b41b8bea5152 adb shell pm list packages | grep ru.tensor.sbis.droid
 	docker container exec b41b8bea5152 adb logcat -d ru.tensor.sbis.droid:V > log.txt
 	
+	pm list packages [options] 
+	options:
+   -f: See their associated file.
+   -d: Filter to only show disabled packages.
+   -e: Filter to only show enabled packages.
+   -s: Filter to only show system packages.
+   -3: Filter to only show third party packages.
+   -i: See the installer for the packages.
+   -u: Also include uninstalled packages.
+   --user : The user space to query.
+	
+	adb shell pm list packages -f | uiautomator2
+	
 	Состояние устройства
 	adb get-state
 	

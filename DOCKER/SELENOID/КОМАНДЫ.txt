@@ -3,12 +3,13 @@ http://git-autotests.sbis.ru/mobile/waiter_android/-/tree/21.1104/test_acceptanc
 
 https://losst.ru/komandy-adb-dlya-android-polzovatelej
 https://losst.ru/komandy-v-android-terminal-emulator
+https://xakep.ru/2016/05/12/android-adb/
 
 $current=$PWD -replace "\\", "/" -replace "C", "c" 
 docker run -d --name selenoid  -p 4444:4444 -v //var/run/docker.sock:/var/run/docker.sock -v ${current}/config/:/etc/selenoid/:ro aerokube/selenoid:latest-release -timeout 3m0s
 
-docker run -d --name selenoid-ui -p 8080:8080 aerokube/selenoid-ui --selenoid-uri http://localhost:4444
-
+docker run -d --rm --name selenoid-ui -p 8080:8080 aerokube/selenoid-ui --selenoid-uri http://localhost:4444
+docker run -d --rm --name selenoid-ui --link selenoid -p 8080:8080 aerokube/selenoid-ui --selenoid-uri http://selenoid:4444
 
 
 cm selenoid start --force --browsers "android:10.0;chrome:86.0;opera:73.0" --args "-session-attempt-timeout 2m -service-startup-timeout 2m"
@@ -40,7 +41,7 @@ cm selenoid start —vnc
 cm selenoid start --force --browsers "android:10.0;chrome:86.0;opera:73.0" --args "-limit 20 -session-attempt-timeout 2m -service-startup-timeout 2m"
 cm selenoid-ui start 
 
-docker run -d --rm  --name selenoid-ui -p 8080:8080 aerokube/selenoid-ui:1.10.3 -selenoid-uri http://10.76.163.106:4444
+docker run -d --rm  --name selenoid-ui -p 8080:8080 aerokube/selenoid-ui:1.10.3 --selenoid-uri http://10.76.163.106:4444
 
 $current=$PWD -replace "\\", "/" -replace "C", "c
 docker run -d --name selenoid  -p 4444:4444 -v //var/run/docker.sock:/var/run/docker.sock -v ${current}/config/:/etc/selenoid/:ro aerokube/selenoid:latest-release --timeout 3m0s
@@ -124,9 +125,9 @@ sudo docker exec 9180b6764445 ls -laR / | grep android10.0-1
 1 запустил 
 ./cm selenoid start --force --args "-limit 20 -session-attempt-timeout 10m -service-startup-timeout 10m"
 или 
-docker run --privileged -d --name selenoid -p 4444:4444  -v ~/.aerokube/selenoid/:/etc/selenoid/:ro  -v /var/run/docker.sock:/var/run/docker.sock  aerokube/selenoid:latest-release -log-output-dir /opt/selenoid/logs -limit 20 -session-attempt-timeout 10m -service-startup-timeout 10m 
+docker run --privileged --rm -d --name selenoid -p 4444:4444  -v ~/.aerokube/selenoid/:/etc/selenoid/:ro  -v /var/run/docker.sock:/var/run/docker.sock  aerokube/selenoid:latest-release -log-output-dir /opt/selenoid/logs -limit 20 -session-attempt-timeout 10m -service-startup-timeout 10m 
 
-docker run --privileged --rm -d --name selenoid -p 4444:4444 -v ~/docker_volume:/opt/strace_log -v ~/.aerokube/selenoid/:/etc/selenoid/:ro -v /var/run/docker.sock:/var/run/docker.sock  aerokube/selenoid:latest-release -log-output-dir /opt/selenoid/logs -limit 20 -session-attempt-timeout 10m -service-startup-timeout 10m 
+docker run --privileged --rm -d --name selenoid -p 4444:4444 -v ~/docker_volume/logs/:/opt/selenoid/logs -v ~/docker_volume:/opt/strace_log -v ~/.aerokube/selenoid/:/etc/selenoid/:ro -v /var/run/docker.sock:/var/run/docker.sock  aerokube/selenoid:latest-release -log-output-dir /opt/selenoid/logs -limit 20 -session-attempt-timeout 10m -service-startup-timeout 10m 
 
 
 2 зашел в │/home/local/TENSOR-CORP/sg.chernov/.aerokube/selenoid
