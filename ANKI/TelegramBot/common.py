@@ -8,7 +8,6 @@ import time
 from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo,  \
     pattern_examples, schedule, path_anki, path_file_not_learn, separate, name_base, path_synonyms_dir,  \
     path_word_building_dir, pattern_search_word_in_text, path_to_save_reports, path_file_words, path_all_words
-import pygame as pg
 from datetime import datetime, timedelta
 import datetime as dt
 from db import into_table, fetchall, clear_table
@@ -29,6 +28,7 @@ def play_sound(word, volume=0.8, count_sound=count_sound):
     stream music with mixer.music module in a blocking manner
     this will stream the sound from disk while playing
     """
+    import pygame as pg
     # path_file = 'audio/{word}.mp3'.format(word=word)
     path_file = os.path.normpath(os.path.join(path_dir_mp3, f"{word}.mp3"))
     # playsound.playsound('audio/{word}.mp3'.format(word=word), True)
