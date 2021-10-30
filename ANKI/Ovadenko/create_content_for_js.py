@@ -46,14 +46,14 @@ def get_slides(melt_list: list) -> list:
     for question, answer in melt_list:
         if len(question) > count_symbols_in_slide or len(answer) > count_symbols_in_slide:
             raise Exception(f"Слижком длинное предложение")
-        
+
         if count < count_sentence_in_slide:
             temp_len_question_slide = len(content_slide_question) + len(question)
             temp_len_answer_slide = len(content_slide_answer) + len(answer)
             if temp_len_question_slide < count_symbols_in_slide and temp_len_answer_slide < count_symbols_in_slide:
                 content_slide_question += f"\n{question}"
                 content_slide_answer += f"\n{answer}"
-                count +=1
+                count += 1
             else:
                 count = 1
                 if content_slide_question and content_slide_answer:
@@ -70,6 +70,7 @@ def get_slides(melt_list: list) -> list:
             content_slide_question = question
             content_slide_answer = answer
     return list_slides
+
 
 generator = spLit_exercise()
 slide_number = 1

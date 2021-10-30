@@ -1,13 +1,15 @@
 # coding=utf-8
 """Парсить файлы упражнений и создвает json файлы на выходе."""
-
-import os, json, glob
+import glob
+import json
+import os
 
 from parse_exercise import create_file, get_files_of_dir, get_list_sentance, get_text_exercise, read_file
 
+
 path_to_ovadenko = "/home/stapan/GIT/kn7072/ANKI/Ovadenko"
 path_dir_exercises = os.path.join(path_to_ovadenko, "Упражнения")
-path_dir_exercises_num = os.path.join(path_dir_exercises, "38")
+path_dir_exercises_num = os.path.join(path_dir_exercises, "8")
 
 
 def create_json_files_exercises(path_to_dir: str) -> str:
