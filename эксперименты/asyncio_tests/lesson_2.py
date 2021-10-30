@@ -1,7 +1,6 @@
 # coding: utf-8
 """Простой север вторая лекция. https://www.youtube.com/watch?v=g6xvW2FOuPw&list=PLlWXhlUMyooawilqK4lPXRvxtbYiw34S8&index=2."""
 import socket
-
 from select import select
 
 
@@ -56,4 +55,5 @@ def event_loop() -> None:
 
 
 if __name__ == "__main__":
+    to_monitor.append(server_socket)
     event_loop()
