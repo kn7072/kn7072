@@ -71,13 +71,14 @@ class HasQuarterState(State):
         """Повернуть ручку автомата."""
         print("Спасибо что приорели шарик.")
         if random.randint(0, 10) == 7:
+            # случай если выпала 7 - отдаем два шарика
             self._context.set_state(self._context.get_winner_state())
         else:
             self._context.set_state(self._context.get_sold_state())
 
     def dispense(self: NoQuarterState) -> None:
         """Выдать шарик."""
-        print("-")
+        print("Из этого состояния нельзя получить шарик.")
 
 
 class SoldState(State):
@@ -93,14 +94,16 @@ class SoldState(State):
 
     def turn_crank(self: NoQuarterState) -> None:
         """Повернуть ручку автомата."""
-        print("Извените - сделка уже совершена.")
+        print("Вы уже повернули ручку - нет необходимости еще раз поворачивать ручку.")
 
     def dispense(self: NoQuarterState) -> None:
         """Выдать шарик."""
         self._context._count_ball -= 1
         if self._context._count_ball == 0:
+            # шарики закончились
             self._context.set_state(self._context.get_sold_out_state())
         else:
+            # возвращаемся в состояние - монета не вставлена
             self._context.set_state(self._context.get_no_quarter_state())
         print("Заберите шарик.")
 
@@ -110,19 +113,19 @@ class SoldOutState(State):
 
     def insert_quarter(self: NoQuarterState) -> None:
         """Вставить монету в автомат."""
-        print("Шариков нет.")
+        print("Вы не можете вставить монету так как шарики закончились.")
 
     def eject_quarter(self: NoQuarterState) -> None:
         """Вернуть монету."""
-        print("Шариков нет.")
+        print("Вы не вставили монету, не стоит этого делать так как шарики закончились.")
 
     def turn_crank(self: NoQuarterState) -> None:
         """Повернуть ручку автомата."""
-        print("Шариков нет.")
+        print("Вы повернули ручку автомата - Шарики закончились.")
 
     def dispense(self: NoQuarterState) -> None:
         """Выдать шарик."""
-        print("")
+        print("Шарики закончились.")
 
 
 class WinnerState(State):
