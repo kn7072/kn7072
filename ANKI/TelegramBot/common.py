@@ -359,7 +359,8 @@ def get_ipa_and_stars_macmillan(word):
     """
     Возвращает число звезд и ipa
     """
-    info_word = dict_macmillan.get(word)
+    word_with_first_upper_symbol = word[0].upper() + word[1:]
+    info_word = dict_macmillan.get(word) or dict_macmillan.get(word_with_first_upper_symbol)
     count_stars = 0
     ipa = "|-|"
     if info_word:
@@ -380,7 +381,8 @@ def get_comment_word(word):
     path_to_file = os.path.join(path_anki, "WORDS", first_symbol, f"{word}.json")
     if os.path.isfile(path_to_file):
         data_file = json.loads(get_data_file(path_to_file))
-        data_word = data_file.get(word)
+        data_word = data_file[list(data_file)[0]] # в data_file только один ключ(слово), 
+        #так не известно в каком регистре будет слово сделал  data_file[list(data_file)[0]] всесто data_file.get(word)
         if data_word:
             return data_word["comment"]
         else:
