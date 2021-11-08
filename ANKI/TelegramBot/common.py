@@ -359,7 +359,10 @@ def get_ipa_and_stars_macmillan(word):
     """
     Возвращает число звезд и ipa
     """
-    word_with_first_upper_symbol = word[0].upper() +  (word[1:] if len(word)>1 else "")
+    word_with_first_upper_symbol = ""
+    if word:
+        word_with_first_upper_symbol = word[0].upper() +  (word[1:] if len(word)>1 else "")
+    
     info_word = dict_macmillan.get(word) or dict_macmillan.get(word_with_first_upper_symbol)
     count_stars = 0
     ipa = "|-|"
