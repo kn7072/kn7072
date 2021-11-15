@@ -42,12 +42,12 @@ if not os.path.isdir(path_to_save_reports):
 name_base = "words_of_day.db"
 separate = "|#|"
 
-wait_sound = 30  # 480 600 900 1200
+wait_sound = 60  # 480 600 900 1200
 time_sound_pause = 5
 count_sound = 2  # 2
 
 schedule = {
-    "Monday": [{"start": "9:10", "stop": "13:10"}
+    "Monday": [{"start": "9:10", "stop": "19:10"}
                # {"start": "21:10", "stop": "22:10"}
                ],
     "Tuesday": [{"start": "9:10", "stop": "13:10"}],
