@@ -32,4 +32,14 @@ docker exec -i -t <имя_или_id> /bin/bash ls
 
 docker cp 1.mp4 4988eef5d483:/
 
+## Заливаем образ в репозиторий
+1 Создать аккунт https://hub.docker.com/(в примерах ниже это autotesttensor)
+2 Создать репозиторий, selenoid_image
+
+sudo docker login
+# изменили имя локального образа selenoid_image:10.5 на необходимый autotesttensor/selenoid_image:10.5
+docker tag selenoid_image:10.5 autotesttensor/selenoid_image:10.5 изменили имя локального образа selenoid_image:10.5 на необходимый autotesttensor/selenoid_image:10.5
+# отправляем образ в репозиторий
+docker push autotesttensor/selenoid_image:10.5
+
 
