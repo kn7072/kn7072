@@ -17,4 +17,6 @@ You can use push/pull from adb shell to put files into sdcard or get files from 
 
 
 __adb push /tmp/Download/IMG_2019_03_Disk_Autotest.jpg /sdcard/Download__
+__for file in /tmp/Download/*; do adb push $file /sdcard/Download; done__
+
 __fdisk -l sdcard.img__
