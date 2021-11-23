@@ -45,6 +45,7 @@ class MyHandler(BaseHTTPRequestHandler):
         """"""
         self.send_response(200)
         self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', 'POST, GET')
         self.end_headers()
         # content_len = int(self.headers.get('Content-Length'))
         # post_body_bin = self.rfile.read(content_len)

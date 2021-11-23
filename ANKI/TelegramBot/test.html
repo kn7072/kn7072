@@ -135,8 +135,7 @@
         
         xhr.open("POST", request_path, true );
         // xhr.open("POST", "http://localhost:8088"+ "/sound", true );
-       
-        xhr.setRequestHeader('Access-Control-Allow-Origin', ip_address);
+
         xhr.setRequestHeader('Content-Type', 'multipart/form-data; boundary=' + boundary);
 
         xhr.onreadystatechange = function() {
