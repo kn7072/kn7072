@@ -7,13 +7,14 @@ import re
 import time
 from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo,  \
     pattern_examples, schedule, path_anki, path_file_not_learn, separate, name_base, path_synonyms_dir,  \
-    path_word_building_dir, pattern_search_word_in_text, path_to_save_reports, path_file_words, path_all_words
+    path_word_building_dir, pattern_search_word_in_text, path_to_save_reports, path_file_words, path_all_words, local_ip_address
 from datetime import datetime, timedelta
 import datetime as dt
 from db import into_table, fetchall, clear_table
 import json
 import traceback
 import sys
+import socket
 
 
 def send_message_from_bot(text):
@@ -635,7 +636,7 @@ def generate_report_html(name_base, table_name):
 
         all_messages.append(word_html)
     all_messages_text = "\n".join(all_messages)
-    html_report = temp_html % (all_messages_text)
+    html_report = temp_html % (local_ip_address, all_messages_text)
     html_report = html_report.encode("utf-8")
 
     return html_report
@@ -701,6 +702,13 @@ def compression_data(name_base, data_word, table_name="words_of_day"):
     data_into = [(first_line, temp(mnemo_list), temp(examples_list), error)]
     into_table(name_base, data_into, table_name)
 
+def get_ip_address() -> str:
+    """Возвращает ip адрес."""
+    _socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    _socket.connect(('8.8.8.8', 53))
+    local_ip_address = _socket.getsockname()[0]
+    _socket.close()
+    return local_ip_address
 
 mnemo_garibjan = prepare_garibjan()
 mnemo_galagoliya = prepare_galagoliya()

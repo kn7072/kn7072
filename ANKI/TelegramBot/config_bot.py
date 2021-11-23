@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 import os
 import re
-from datetime import datetime
+
+from common import get_ip_address
 
 
+local_ip_address = get_ip_address()
 token = "1514920647:AAEGvqi2NsYBPh9hfVHTstmLdZ78fVBoOnA"  # "1425771819:AAEcMh29JkNKEejduDdf2T52m0eJrecWq6o"
 chat_id_list = ["344022850", "366602173"]
-
 
 pattern_mnemo = "{{(?P<mnemo>.+?)}}"
 pattern_examples = "\+.+?###"
