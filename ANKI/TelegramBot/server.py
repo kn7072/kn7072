@@ -95,7 +95,7 @@ class MyHandler(BaseHTTPRequestHandler):
                     self.wfile.write(res)
                 except StopIteration as e:
                     res = b"StopIteration"
-                    self.wfile.write(res)  
+                    self.wfile.write(res)
 
 
 if __name__ == "__main__":

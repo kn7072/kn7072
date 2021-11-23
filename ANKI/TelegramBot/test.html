@@ -128,13 +128,15 @@
         // Тело запроса готово, отправляем
         var xhr = new XMLHttpRequest();
         
-        host_path = "%s:8088"
-        //host_path = "http://localhost:8088"
-        request_path = `${host_path}/${command}`
+        ip_address = "http://%s"
+        socket = `${ip_address}:8088`
+        //socket = "http://localhost:8088"
+        request_path = `${socket}/${command}`
         
         xhr.open("POST", request_path, true );
         // xhr.open("POST", "http://localhost:8088"+ "/sound", true );
        
+        xhr.setRequestHeader('Access-Control-Allow-Origin', ip_address);
         xhr.setRequestHeader('Content-Type', 'multipart/form-data; boundary=' + boundary);
 
         xhr.onreadystatechange = function() {
@@ -156,7 +158,7 @@
     function listen(e, word) {
         send(word, 'sound');
     }
- </script>
+</script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
