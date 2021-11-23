@@ -62,7 +62,10 @@ class MyHandler(BaseHTTPRequestHandler):
                 try:
                     word_sound_t = fields["word"][0].strip()
                     word_sound = word_sound_t.split("|")[0].strip()
-                    play_sound(word_sound, count_sound=1)
+                    if os.name == "nt":
+                        play_sound(word_sound, count_sound=1)
+                    else:
+                        sound(word_sound, count_sound=1)
                     res = b"true"
                     self.wfile.write(res)
                 except StopIteration as e:
