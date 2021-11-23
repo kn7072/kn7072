@@ -1,8 +1,16 @@
 # -*- coding: utf-8 -*-
 import os
 import re
+import socket
 
-from common import get_ip_address
+
+def get_ip_address() -> str:
+    """Возвращает ip адрес."""
+    _socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    _socket.connect(('8.8.8.8', 53))
+    local_ip_address = _socket.getsockname()[0]
+    _socket.close()
+    return local_ip_address
 
 
 local_ip_address = get_ip_address()

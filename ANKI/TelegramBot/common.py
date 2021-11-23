@@ -14,7 +14,6 @@ from db import into_table, fetchall, clear_table
 import json
 import traceback
 import sys
-import socket
 
 
 def send_message_from_bot(text):
@@ -702,13 +701,6 @@ def compression_data(name_base, data_word, table_name="words_of_day"):
     data_into = [(first_line, temp(mnemo_list), temp(examples_list), error)]
     into_table(name_base, data_into, table_name)
 
-def get_ip_address() -> str:
-    """Возвращает ip адрес."""
-    _socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    _socket.connect(('8.8.8.8', 53))
-    local_ip_address = _socket.getsockname()[0]
-    _socket.close()
-    return local_ip_address
 
 mnemo_garibjan = prepare_garibjan()
 mnemo_galagoliya = prepare_galagoliya()
