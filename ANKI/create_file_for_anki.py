@@ -10,6 +10,7 @@ delimeter = ";"
 ccs_class_even = "even"
 css_class_odd = "odd"
 
+
 def get_eng_examples(list_examples):
     """
     Возвращает верстку для передней стороны карточки - только примеры на английском(без перевода)
