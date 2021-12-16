@@ -87,13 +87,16 @@ class MyHandler(BaseHTTPRequestHandler):
                     self.wfile.write(res)      
         elif self.path in ["/info"]:
             fields = self._analisis_request()
+            separate = "*" * 30
             if fields.get("word"):
                 try:
                     word_t = fields["word"][0].strip()
                     word = word_t.split(" ")[0].strip().lower()
                     data_word = parse_file(word)
-                    res = data_word[0].encode("utf-8")
-                    self.wfile.write(res)
+                    translate_word = data_word[0]
+                    examples = "\n".join(data_word[2])
+                    message = f"{translate_word}\n{examples}\n\n{separate}\n\n".encode("utf-8")
+                    self.wfile.write(message)
                 except StopIteration as e:
                     res = b"StopIteration"
                     self.wfile.write(res)
