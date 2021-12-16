@@ -1,8 +1,8 @@
 #!/bin/bash
 
 start_xclip="start"
-servis_url="http://192.168.1.54:8088"
-# servis_url="http://localhost:8088"
+servis_url="http://192.168.1.53:8088"
+#servis_url="http://localhost:8088"
 
 while true; do
     primery_clip=$(xclip -o primery)
@@ -15,6 +15,9 @@ while true; do
 
         start_xclip=$primery_clip
         # printf "${primery_clip}\n"
+	# озвучиваем слово
+        request=$(curl -s -X POST -F "word=${primery_clip}" ${servis_url}/sound)
+	# получаем перевод и примеры использования
         request=$(curl -s -X POST -F "word=${primery_clip}" ${servis_url}/info)
         printf "$request\n"
 
