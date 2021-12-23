@@ -7,7 +7,8 @@ import re
 import time
 from config_bot import count_sound, path_dir_mp3, path_to_mplayer, time_sound_pause, path_dir, compl_mnemo,  \
     pattern_examples, schedule, path_anki, path_file_not_learn, separate, name_base, path_synonyms_dir,  \
-    path_word_building_dir, pattern_search_word_in_text, path_to_save_reports, path_file_words, path_all_words, local_ip_address
+    path_word_building_dir, pattern_search_word_in_text, path_to_save_reports, path_file_words, path_all_words,\
+    local_ip_address, pattern_mnemo_galagoliy
 from datetime import datetime, timedelta
 import datetime as dt
 from db import into_table, fetchall, clear_table
@@ -174,7 +175,7 @@ def prepare_garibjan():
             info_word, mnemo = i.split("-", 1)   
             search = regex.search(info_word)
             if search:
-                temp_dict[search.group("word")] = i
+                temp_dict[search.group("word")] = i.replace(f"{search.group('num')}.", "").replace(";", ".").strip()  # i
             else:
                 # print(f"Что-то пошло не так с {i}") 
                 # print()
@@ -206,9 +207,12 @@ def get_data_file(path_file):
 def get_mnemo_galagoliya(word):
     
     list_temp = []
+    pattern_word = pattern_mnemo_galagoliy % word
+    compl_mnemo_galagoliy = re.compile(pattern_word, flags=re.DOTALL | re.MULTILINE)
     for i in mnemo_galagoliya:
         block_i = "\n".join(i)
-        if word in block_i:
+        search = compl_mnemo_galagoliy.search(block_i)
+        if search:
             list_temp.append(block_i)
     return list_temp 
 

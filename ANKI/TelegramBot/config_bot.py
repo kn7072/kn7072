@@ -20,10 +20,12 @@ chat_id_list = ["344022850", "366602173"]
 pattern_mnemo = "{{(?P<mnemo>.+?)}}"
 pattern_examples = "\+.+?###"
 pattern_search_word_in_text = r"(?<!\w)(?P<word>%s)(?!\w)"
+pattern_mnemo_galagoliy = r"\b(?P<word>%s)\s+"
 
 
 compl_mnemo = re.compile(pattern_mnemo, flags=re.DOTALL | re.MULTILINE)
 compl_examples = re.compile(pattern_examples, flags=re.DOTALL | re.MULTILINE)
+
 
 if os.name == "nt":
     # в переменную path добавлен адрес(e:\ENG\mplayer) к mplayer.exe
