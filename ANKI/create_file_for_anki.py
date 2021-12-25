@@ -4,7 +4,7 @@ import os
 # test
 
 path_to_json_file = "full_words.json"
-path_anki = r"temp\My_English_words_4.txt"
+path_anki = r"/home/stapan/TMP/My_English_words_4.txt"
 path_dir_sound_files = "d:\kn7072\EnglishSimulate\Project\sound_longman"
 delimeter = ";"
 ccs_class_even = "even"
@@ -99,6 +99,7 @@ create_file(path_anki, data_json)
 # ФАЙЛЫ НАХОДЯТСЯ C:\Users\Stepan1\AppData\Roaming\Anki2\1-й пользователь\collection.media
 """
 https://docs.ankiweb.net/#/searching
+<a href="https://wooordhunt.ru/word/{{англ}}">{{англ}}</a>
 
 англ:grea*
 
