@@ -24,6 +24,14 @@ def write_file(path_file: str, data_file: str) -> None:
         return f.write(data_file)
 
 
+def get_list_sentence(path_file: str) -> list:
+    """Возврщает список предложений."""
+    list_sentence = []
+    for i in open(path_file, mode="r", encoding="utf-8"):
+        list_sentence.append(i.split(";")[1].strip())
+    return list_sentence
+
+
 def get_all_sentence() -> set:
     """Возвращает все примеры."""
     all_sentence = set()
@@ -50,13 +58,15 @@ def search_word_for_sentence(list_sentence: set) -> dict:
     """Возвращает словарь, ключами которого являются предложения, а значние - список слов входящий в это предложение."""
     find_sentence = {}
     for word_i, data_word_i in data_all_words.items():
-        for example_i in data_word_i["examples"]:
+        for num_example, example_i in enumerate(data_word_i["examples"]):
             if example_i in list_sentence:
                 if find_sentence.get(example_i):
-                    find_sentence[example_i].append(word_i)
+                    find_sentence[example_i]["words"].append(word_i)
                 else:
-                    find_sentence[example_i] = []
-                    find_sentence[example_i].append(word_i)
+                    find_sentence[example_i] = {}
+                    find_sentence[example_i]["words"] = []
+                    find_sentence[example_i]["translate"] = data_word_i["example_translate"][num_example]
+                    find_sentence[example_i]["words"].append(word_i)
     return find_sentence
 
 
@@ -94,7 +104,7 @@ def get_data_all_word(all_examples: dict) -> dict:
 
 
 data_all_words = json.loads(get_data_file(path_to_all_words))
-list_sentence = read_file(path_to_sentence)
+list_sentence = get_list_sentence(path_to_sentence)
 find_sentence = search_word_for_sentence(list_sentence)
 
 # list_sentence_all_words = get_all_sentence()
@@ -107,9 +117,9 @@ for number, sentence_i in enumerate(list_sentence, start=1):
         print(number, sentence_i)
 
 text_sentence = ""
-for sentence_i, words in find_sentence.items():
-    
-    text_sentence += f"{', '.join(words)};    {sentence_i}\n"
+for sentence_i, value_sentence_i in find_sentence.items():
+    words = value_sentence_i["words"]
+    text_sentence += f"{', '.join(words)};    {sentence_i};    {value_sentence_i['translate']}\n"
     # if len(words) > 1:
     #     text_sentence += f"{', '.join(words)};    {sentence_i}"
     # else:
