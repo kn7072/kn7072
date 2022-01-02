@@ -5,7 +5,7 @@ import cgi
 
 PORT_NUMBER = 8088
 path_to_all_words = "all_words_new.json"
-path_to_known_examples = "../Предложения_new.txt"
+path_to_known_examples = "../Предложения.txt"
 
 
 # This class will handles any incoming request from the browser
@@ -27,41 +27,64 @@ class MyHandler(BaseHTTPRequestHandler):
         fields = cgi.parse_multipart(self.rfile, pdict)
         return fields
 
-    def get_know_words(self) -> set:
+    def get_know_words(self) -> dict:
         """Возвращаем множество изученных слов."""
-        all_word_set = set()
+        all_word_dict = {}
         for str_i in open(path_to_known_examples, encoding="utf-8"):
-            know_words_str = str_i.split(";")[0]
-            know_words_list = set([word_i.strip() for word_i in know_words_str.split(",")])
-            all_word_set = all_word_set.union(know_words_list)
-        return all_word_set
+            str_i = str_i.strip()
+            if str_i:
+                know_words_str, example_eng, example_rus = str_i.split(";")
+                know_words_list = [word_i.strip() for word_i in know_words_str.split(",")]
+                for known_word_i in know_words_list:
+                    is_added = all_word_dict.get(known_word_i)
+                    if is_added:
+                        all_word_dict[known_word_i]["examples"].append((example_eng, example_rus))
+                    else:
+                        all_word_dict[known_word_i] = {}
+                        all_word_dict[known_word_i]["examples"] = []
+                        all_word_dict[known_word_i]["examples"].append((example_eng, example_rus))
+        return all_word_dict
 
-    def parsing_known_examples(self, word: str, examples: list) -> list:
+    def parsing_known_examples(self, word: str, examples: list) -> dict:
         """Парсим известные слова."""
-        all_word_set = self.get_know_words()
-        temp_list_examples = []
-        if word in all_word_set:
-            temp_list_examples = [(word, "уже довавлено в список предложений", "")]
+        all_knonw_word_dict = self.get_know_words()
+        temp_list_examples = {"word": word,
+                              "examples": [],
+                              "is_known": False
+                              }
+        if word in all_knonw_word_dict:
+            temp_list_examples["is_known"] = True
+            for example_eng, exampe_rus in all_knonw_word_dict[word]["examples"]:
+                temp_list_examples["examples"].append((example_eng, exampe_rus, []))
             return temp_list_examples
+
         for example_eng, example_rus in examples:
             example_i, words = example_eng
-            diff_words = list(set(words) - all_word_set)
+            diff_words = list(set(words) - set(all_knonw_word_dict.keys()))
             diff_words.sort()
-            str_for_save = f"{', '.join(words)};    {example_i}"
-            temp_list_examples.append((str_for_save, example_rus, diff_words))
+            str_for_save = f"{example_i}"
+            temp_list_examples["examples"].append((str_for_save, example_rus, diff_words))
 
-        temp_list_examples.sort(key=lambda x: len(x[2]))
+        temp_list_examples["examples"].sort(key=lambda x: len(x[2]))
         return temp_list_examples
 
-    def get_contant_to_send(self, content: list) -> str:
+    def get_contant_to_send(self, content: dict) -> str:
         """Возвращает бинарные дынные ответа."""
         msg_all = ""
         separate = "#" * 30
-        for example_eng, example_rus, diff_word in content:
-            words, *x = example_eng.split(";")
-            example_rus_for_print = " " * (len(words) + 5) + example_rus
-            msg = f"{example_eng}\n{example_rus_for_print}\n{diff_word}\n{'-' * 5}\n\n"
-            msg_all += msg
+        delimiter = " " * 4
+
+        examples_list = content["examples"]
+        if content["is_known"]:
+            for example_eng, example_rus, _ in examples_list:
+                msg = f"{content['word']} - Уже изучено\n\n{example_eng}\n{example_rus}\n{'-' * 5}\n\n"
+                msg_all += msg
+        else:
+            for example_eng, example_rus, diff_word in examples_list:
+                words_diff = ', '.join(diff_word)
+                text_to_save = f"{words_diff};{delimiter}{example_eng};{delimiter}{example_rus}"
+                msg = f"{example_eng}\n{example_rus}\n\n{text_to_save}\n{'-' * 5}\n\n"
+                msg_all += msg
         msg_all = f"{msg_all}{separate}\n"
         return msg_all.encode("utf-8")
 
