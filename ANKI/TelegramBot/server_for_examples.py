@@ -55,7 +55,7 @@ class MyHandler(BaseHTTPRequestHandler):
         if word in all_knonw_word_dict:
             temp_list_examples["is_known"] = True
             for example_eng, exampe_rus in all_knonw_word_dict[word]["examples"]:
-                temp_list_examples["examples"].append((example_eng, exampe_rus, []))
+                temp_list_examples["examples"].append((example_eng, exampe_rus, [], []))
             return temp_list_examples
 
         for example_eng, example_rus in examples:
@@ -63,7 +63,7 @@ class MyHandler(BaseHTTPRequestHandler):
             diff_words = list(set(words) - set(all_knonw_word_dict.keys()))
             diff_words.sort()
             str_for_save = f"{example_i}"
-            temp_list_examples["examples"].append((str_for_save, example_rus, diff_words))
+            temp_list_examples["examples"].append((str_for_save, example_rus, diff_words, words))
 
         temp_list_examples["examples"].sort(key=lambda x: len(x[2]))
         return temp_list_examples
@@ -76,12 +76,12 @@ class MyHandler(BaseHTTPRequestHandler):
 
         examples_list = content["examples"]
         if content["is_known"]:
-            for example_eng, example_rus, _ in examples_list:
+            for example_eng, example_rus, _, _ in examples_list:
                 msg = f"{content['word']} - Уже изучено\n\n{example_eng}\n{example_rus}\n{'-' * 5}\n\n"
                 msg_all += msg
         else:
-            for example_eng, example_rus, diff_word in examples_list:
-                words_diff = ', '.join(diff_word)
+            for example_eng, example_rus, _, words_in_sentence in examples_list:
+                words_diff = ', '.join(words_in_sentence)
                 text_to_save = f"{words_diff};{delimiter}{example_eng};{delimiter}{example_rus}"
                 msg = f"{example_eng}\n{example_rus}\n\n{text_to_save}\n{'-' * 5}\n\n"
                 msg_all += msg
