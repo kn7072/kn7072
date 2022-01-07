@@ -86,6 +86,7 @@ class MyHandler(BaseHTTPRequestHandler):
                 msg = f"{example_eng}\n{example_rus}\n\n{text_to_save}\n{'-' * 5}\n\n"
                 msg_all += msg
         msg_all = f"{msg_all}{separate}\n{translate_word}"
+        msg_all = msg_all.replace("%", "%%")
         return msg_all.encode("utf-8")
 
     def do_POST(self):
