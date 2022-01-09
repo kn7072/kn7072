@@ -68,7 +68,7 @@ class MyHandler(BaseHTTPRequestHandler):
         temp_list_examples["examples"].sort(key=lambda x: len(x[2]))
         return temp_list_examples
 
-    def get_contant_to_send(self, content: dict, translate_word: str) -> str:
+    def get_contant_to_send(self, content: dict, translate_word: str, transcription: str) -> str:
         """Возвращает бинарные дынные ответа."""
         msg_all = ""
         separate = "#" * 30
@@ -85,7 +85,7 @@ class MyHandler(BaseHTTPRequestHandler):
                 text_to_save = f"{words_diff};{delimiter}{example_eng};{delimiter}{example_rus}"
                 msg = f"{example_eng}\n{example_rus}\n\n{text_to_save}\n{'-' * 5}\n\n"
                 msg_all += msg
-        msg_all = f"{msg_all}{separate}\n{translate_word}"
+        msg_all = f"{msg_all}{separate}\n{transcription} - {translate_word}"
         msg_all = msg_all.replace("%", "%%")
         return msg_all.encode("utf-8")
 
@@ -94,12 +94,14 @@ class MyHandler(BaseHTTPRequestHandler):
             fields = self._analisis_request()
             if fields.get("word"):
                 try:
-                    word = fields["word"][0].strip()
+                    word = fields["word"][0].strip().replace(",", "").replace(".", "").lower()
                     examples_eng = self.all_words_json[word]["examples"]
                     examples_rus = self.all_words_json[word]["example_translate"]
+                    transcription = self.all_words_json[word]["transcription"]
+                    translate = self.all_words_json[word]["translate"]
                     examples = zip(examples_eng, examples_rus)
                     content_list = self.parsing_known_examples(word, examples)
-                    content_bin = self.get_contant_to_send(content_list, self.all_words_json[word]["translate"])
+                    content_bin = self.get_contant_to_send(content_list, translate, transcription)
                     self.wfile.write(content_bin)
                 except StopIteration as e:
                     res = b"StopIteration"
