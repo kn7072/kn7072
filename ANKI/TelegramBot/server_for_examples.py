@@ -65,7 +65,7 @@ class MyHandler(BaseHTTPRequestHandler):
             str_for_save = f"{example_i}"
             temp_list_examples["examples"].append((str_for_save, example_rus, diff_words, words))
 
-        temp_list_examples["examples"].sort(key=lambda x: len(x[2]))
+        temp_list_examples["examples"].sort(key=lambda x: (len(x[2]), len(x[3])))
         return temp_list_examples
 
     def get_contant_to_send(self, content: dict, translate_word: str, transcription: str) -> str:
