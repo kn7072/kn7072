@@ -7,6 +7,25 @@ PORT_NUMBER = 8088
 path_to_all_words = "all_words_new.json"
 path_to_known_examples = "../Предложения.txt"
 
+macmillan_words = json.loads(get_data_file("./macmillan_ipa_stars.json"))
+
+
+def write_file(path_file: str, data_file: str) -> None:
+    """Записывает data_file в файл, перезаписывая сожержимое файла."""
+    with open(path_file, encoding="utf-8", mode="w") as f:
+        return f.write(data_file)
+
+
+def get_word_for_stars(obj: dict, count_star: int) -> list:
+    """Отбирает слова по количеству звезд."""
+    temp = []
+    for word, word_val in obj.items():
+        if word_val["stars"] == count_star:
+            temp.append(word)
+    return temp
+
+list_three_stars = get_word_for_stars(macmillan_words, 3)    
+
 
 # This class will handles any incoming request from the browser
 class MyHandler(BaseHTTPRequestHandler):
@@ -52,6 +71,12 @@ class MyHandler(BaseHTTPRequestHandler):
                               "examples": [],
                               "is_known": False
                               }
+
+        # word_for_sentence = set(list_three_stars) - set(all_knonw_word_dict)
+        # word_for_sentence = [word.lower() for word in word_for_sentence]
+        # word_for_write = "\n".join(word_for_sentence)
+        # write_file("./word_for_sentence.txt", word_for_write)
+        
         if word in all_knonw_word_dict:
             temp_list_examples["is_known"] = True
             for example_eng, exampe_rus in all_knonw_word_dict[word]["examples"]:
