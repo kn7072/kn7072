@@ -1,8 +1,9 @@
 set number
 set tabstop=4
 set expandtab
-set encoding=utf-8
+set encoding=UTF-8
 set noswapfile
+set mouse=a
 
 inoremap jk <esc>
 
@@ -10,6 +11,9 @@ syntax on
 let g:mapleader=','
 set hlsearch
 set incsearch
+
+" Toggle relative line number
+nmap <C-L><C-L> :set invrelativenumber<CR>
 
 call plug#begin()
 
@@ -20,6 +24,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'mileszs/ack.vim'
 
+" undo
+Plug 'mbbill/undotree'
+
 " color schemas
 Plug 'morhetz/gruvbox'  " colorscheme gruvbox
 Plug 'mhartington/oceanic-next'  " colorscheme oceanicnext
@@ -27,7 +34,30 @@ Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'ayu-theme/ayu-vim'
 Plug 'vim-airline/vim-airline'
 
+" Debugging
+Plug 'puremourning/vimspector'
+
+" Иконки к файлам - под разные расширения
+" Plug 'ryanoasis/vim-devicons'
+
 call plug#end()
+
+" Дерево изменений файла
+noremap <leader>u :UndotreeToggle<CR>
+
+let g:vimspector_enable_mappings = 'HUMAN'
+
+nnoremap <Leader>dd :call vimspector#Launch()<CR>
+nnoremap <Leader>de :call vimspector#Reset()<CR>
+nnoremap <Leader>dc :call vimspector#Continue()<CR>
+
+nnoremap <Leader>dt :call vimspector#ToggleBreakpoint()<CR>
+nnoremap <Leader>dT :call vimspector#ClearBreakpoints()<CR>
+
+nmap <Leader>dk <Plug>VimspectorRestart
+nmap <Leader>dh <Plug>VimspectorStepOut
+nmap <Leader>dl <Plug>VimspectorStepInto
+nmap <Leader>dj <Plug>VimspectorStepOver
 
 colorscheme gruvbox
 
@@ -63,6 +93,4 @@ nmap <Leader>f <Plug>(easymotion-overwin-f)
 nmap s <Plug>(easymotion-overwin-f2)
 " ctrl - a
 map <c-a> <esc>ggvg<cr>
-
-
 
