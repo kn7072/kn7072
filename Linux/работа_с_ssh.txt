@@ -15,4 +15,7 @@ scp  sg.chernov@usd-hahinnix.corp.tensor.ru:/home/autotest/images/selenium/andro
 scp  autotest@test-selenium-builder6.unix.tensor.ru:/home/autotest/images/selenium/android/entrypoint.sh 'e:\SELENOID\TEST'
 
 scp 'e:\SELENOID\TEST\entrypoint.sh' sg.chernov@usd-hahinnix.corp.tensor.ru:/home/local/TENSOR-CORP/sg.chernov/images/selenium/android
-scp 'e:\SELENOID\TEST\entrypoint.sh' autotest@test-selenium-builder6.unix.tensor.ru:/home/autotest/images/selenium/android/
+scp 'e:\SELENOID\TEST\entrypoint.sh' autotest@psdr-autotest9.unix.tensor.ru:/home/autotest/images/selenium/android/
+
+
+scp 'e:\SELENOID\TEST\entrypoint.sh' autotest@psdr-autotest9.unix.tensor.ru:/home/autotest/images/selenium/android/

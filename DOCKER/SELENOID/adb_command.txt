@@ -145,3 +145,13 @@ DISPLAY=:99 /opt/android-sdk-linux/emulator/emulator -read-only -writable-system
 	docker container exec 7df6378c99ea emulator -no-snapshot-load -avd android10.0-1
 	
 	docker container exec 7df6378c99ea emulator -avd android10.0-1       -prop persist.sys.language=ru -prop persist.sys.country=RU
+
+
+	Изменить геолокация(несколько способов)
+	1 adb emu geo fix 39.889772338786386  57.623362039560085
+	2   telnet localhost 5554
+		auth auth_token (auth_token брать из файла .emulator_console_auth_token находится в корневом каталоге(cd ~))
+		geo fix 39.889772338786386  57.623362039560085
+	3 	очищаем файл .emulator_console_auth_token (cd ~ && echo "" > .emulator_console_auth_token) -чтобы не проходить авторизацию как во втором примере
+		telnet localhost 5554
+		geo fix 39.889772338786386  57.623362039560085
