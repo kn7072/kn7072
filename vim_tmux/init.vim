@@ -40,6 +40,9 @@ Plug 'puremourning/vimspector'
 " Иконки к файлам - под разные расширения
 " Plug 'ryanoasis/vim-devicons'
 
+" pgsql
+Plug 'lifepillar/pgsql.vim'
+
 call plug#end()
 
 " Дерево изменений файла
@@ -59,6 +62,7 @@ nmap <Leader>dh <Plug>VimspectorStepOut
 nmap <Leader>dl <Plug>VimspectorStepInto
 nmap <Leader>dj <Plug>VimspectorStepOver
 
+" цветовая схема
 set background=dark
 colorscheme gruvbox
 
@@ -92,6 +96,11 @@ nmap <Leader>f <Plug>(easymotion-overwin-f)
 
 " s{char}{char} to move to {char}{char}
 nmap s <Plug>(easymotion-overwin-f2)
+
 " ctrl - a
 map <c-a> <esc>ggvg<cr>
+
+" PG_SQL
+let g:sql_type_default = 'pgsql'
+
 
