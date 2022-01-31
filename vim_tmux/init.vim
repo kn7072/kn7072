@@ -29,6 +29,7 @@ Plug 'vim-airline/vim-airline'
 
 call plug#end()
 
+set background=dark
 colorscheme gruvbox
 
 " Go to tab by number
