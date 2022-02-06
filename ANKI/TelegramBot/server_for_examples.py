@@ -64,25 +64,34 @@ class MyHandler(BaseHTTPRequestHandler):
                         all_word_dict[known_word_i]["examples"].append((example_eng, example_rus))
         return all_word_dict
 
-    def parsing_known_examples(self, word: str, examples: list) -> dict:
-        """Парсим известные слова."""
+    def parsing_known_examples(self, word: str, *, all_examples: bool) -> tuple:
+        """Парсим известные слова.
+        all_examples - выводить все примеры, даже если слово уже изучено.
+        """
         all_knonw_word_dict = self.get_know_words()
         temp_list_examples = {"word": word,
                               "examples": [],
                               "is_known": False
                               }
+        
+        transcription = self.all_words_json[word]["transcription"]
+        translate = self.all_words_json[word]["translate"]
 
         # word_for_sentence = set(list_three_stars) - set(all_knonw_word_dict)
         # word_for_sentence = [word.lower() for word in word_for_sentence]
         # word_for_write = "\n".join(word_for_sentence)
         # write_file("./word_for_sentence.txt", word_for_write)
         
-        if word in all_knonw_word_dict:
+        if not all_examples and word in all_knonw_word_dict:
             temp_list_examples["is_known"] = True
             for example_eng, exampe_rus in all_knonw_word_dict[word]["examples"]:
                 temp_list_examples["examples"].append((example_eng, exampe_rus, [], []))
-            return temp_list_examples
+            return translate, transcription, temp_list_examples
 
+        examples_eng = self.all_words_json[word]["examples"]
+        examples_rus = self.all_words_json[word]["example_translate"]
+        examples = zip(examples_eng, examples_rus)                      
+        
         for example_eng, example_rus in examples:
             example_i, words = example_eng
             diff_words = list(set(words) - set(all_knonw_word_dict.keys()))
@@ -91,7 +100,7 @@ class MyHandler(BaseHTTPRequestHandler):
             temp_list_examples["examples"].append((str_for_save, example_rus, diff_words, words))
 
         temp_list_examples["examples"].sort(key=lambda x: (len(x[2]), len(x[3])))
-        return temp_list_examples
+        return translate, transcription, temp_list_examples
 
     def get_contant_to_send(self, content: dict, translate_word: str, transcription: str) -> str:
         """Возвращает бинарные дынные ответа."""
@@ -120,17 +129,23 @@ class MyHandler(BaseHTTPRequestHandler):
             if fields.get("word"):
                 try:
                     word = fields["word"][0].strip().replace(",", "").replace(".", "").lower()
-                    examples_eng = self.all_words_json[word]["examples"]
-                    examples_rus = self.all_words_json[word]["example_translate"]
-                    transcription = self.all_words_json[word]["transcription"]
-                    translate = self.all_words_json[word]["translate"]
-                    examples = zip(examples_eng, examples_rus)
-                    content_list = self.parsing_known_examples(word, examples)
+                    translate, transcription, content_list = self.parsing_known_examples(word, all_examples=False)
                     content_bin = self.get_contant_to_send(content_list, translate, transcription)
                     self.wfile.write(content_bin)
                 except StopIteration as e:
                     res = b"StopIteration"
                     self.wfile.write(res)
+        elif self.path in ["/word_all_examples"]:
+            fields = self._analisis_request()
+            if fields.get("word"):
+                try:
+                    word = fields["word"][0].strip().replace(",", "").replace(".", "").lower()
+                    translate, transcription, content_list = self.parsing_known_examples(word, all_examples=True)
+                    content_bin = self.get_contant_to_send(content_list, translate, transcription)
+                    self.wfile.write(content_bin)
+                except StopIteration as e:
+                    res = b"StopIteration"
+                    self.wfile.write(res)       
 
 
 if __name__ == "__main__":
