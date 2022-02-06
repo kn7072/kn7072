@@ -88,16 +88,15 @@ class MyHandler(BaseHTTPRequestHandler):
                 temp_list_examples["examples"].append((example_eng, exampe_rus, [], []))
             return translate, transcription, temp_list_examples
 
-        examples_eng = self.all_words_json[word]["examples"]
-        examples_rus = self.all_words_json[word]["example_translate"]
-        examples = zip(examples_eng, examples_rus)                      
+        examples = self.all_words_json[word]["examples"]
         
-        for example_eng, example_rus in examples:
-            example_i, words = example_eng
-            diff_words = list(set(words) - set(all_knonw_word_dict.keys()))
+        for example_eng_i, example_rus_i in examples:
+            words_sentence = example_rus_i["words"]
+            translate_sentence = example_rus_i["translate"]
+            diff_words = list(set(words_sentence) - set(all_knonw_word_dict.keys()))
             diff_words.sort()
-            str_for_save = f"{example_i}"
-            temp_list_examples["examples"].append((str_for_save, example_rus, diff_words, words))
+            str_for_save = f"{example_eng_i}"
+            temp_list_examples["examples"].append((str_for_save, translate_sentence, diff_words, words_sentence))
 
         temp_list_examples["examples"].sort(key=lambda x: (len(x[2]), len(x[3])))
         return translate, transcription, temp_list_examples
