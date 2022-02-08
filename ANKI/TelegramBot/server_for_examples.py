@@ -76,6 +76,7 @@ class MyHandler(BaseHTTPRequestHandler):
         
         transcription = self.all_words_json[word]["transcription"]
         translate = self.all_words_json[word]["translate"]
+        mnemonic = self.all_words_json[word]["mnemonic"]
 
         # word_for_sentence = set(list_three_stars) - set(all_knonw_word_dict)
         # word_for_sentence = [word.lower() for word in word_for_sentence]
@@ -86,7 +87,7 @@ class MyHandler(BaseHTTPRequestHandler):
             temp_list_examples["is_known"] = True
             for example_eng, exampe_rus in all_knonw_word_dict[word]["examples"]:
                 temp_list_examples["examples"].append((example_eng, exampe_rus, [], []))
-            return translate, transcription, temp_list_examples
+            return translate, transcription, mnemonic, temp_list_examples
 
         examples = self.all_words_json[word]["examples"]
         
@@ -99,13 +100,14 @@ class MyHandler(BaseHTTPRequestHandler):
             temp_list_examples["examples"].append((str_for_save, translate_sentence, diff_words, words_sentence))
 
         temp_list_examples["examples"].sort(key=lambda x: (len(x[2]), len(x[3])))
-        return translate, transcription, temp_list_examples
+        return translate, transcription, mnemonic, temp_list_examples
 
-    def get_contant_to_send(self, content: dict, translate_word: str, transcription: str) -> str:
+    def get_contant_to_send(self, content: dict, translate_word: str, transcription: str, mnemonic: list) -> str:
         """Возвращает бинарные дынные ответа."""
         msg_all = ""
         separate = "#" * 30
         delimiter = " " * 4
+        mnemonic_str = "\n".join(mnemonic)
 
         examples_list = content["examples"]
         if content["is_known"]:
@@ -118,7 +120,7 @@ class MyHandler(BaseHTTPRequestHandler):
                 text_to_save = f"{words_diff};{delimiter}{example_eng};{delimiter}{example_rus}"
                 msg = f"{example_eng}\n{example_rus}\n\n{text_to_save}\n{'-' * 5}\n\n"
                 msg_all += msg
-        msg_all = f"{msg_all}{separate}\n{transcription} - {translate_word}"
+        msg_all = f"{msg_all}{separate}\n{transcription} - {translate_word}\n\n{separate}\nМнемоника\n\n{mnemonic_str}"
         msg_all = msg_all.replace("%", "%%")
         return msg_all.encode("utf-8")
 
@@ -128,8 +130,8 @@ class MyHandler(BaseHTTPRequestHandler):
             if fields.get("word"):
                 try:
                     word = fields["word"][0].strip().replace(",", "").replace(".", "").lower()
-                    translate, transcription, content_list = self.parsing_known_examples(word, all_examples=False)
-                    content_bin = self.get_contant_to_send(content_list, translate, transcription)
+                    translate, transcription, mnemonic, content_list = self.parsing_known_examples(word, all_examples=False)
+                    content_bin = self.get_contant_to_send(content_list, translate, transcription, mnemonic)
                     self.wfile.write(content_bin)
                 except StopIteration as e:
                     res = b"StopIteration"
@@ -139,8 +141,8 @@ class MyHandler(BaseHTTPRequestHandler):
             if fields.get("word"):
                 try:
                     word = fields["word"][0].strip().replace(",", "").replace(".", "").lower()
-                    translate, transcription, content_list = self.parsing_known_examples(word, all_examples=True)
-                    content_bin = self.get_contant_to_send(content_list, translate, transcription)
+                    translate, transcription, mnemonic, content_list = self.parsing_known_examples(word, all_examples=True)
+                    content_bin = self.get_contant_to_send(content_list, translate, transcription, mnemonic)
                     self.wfile.write(content_bin)
                 except StopIteration as e:
                     res = b"StopIteration"
