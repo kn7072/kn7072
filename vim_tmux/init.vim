@@ -12,6 +12,11 @@ let g:mapleader=','
 set hlsearch
 set incsearch
 
+" Автообновление, при изменении файла извне
+set updatetime=2000
+set autoread
+autocmd FocusGained,BufEnter,CursorHold,CursorHoldI * checktime
+
 " Toggle relative line number
 nmap <C-L><C-L> :set invrelativenumber<CR>
 

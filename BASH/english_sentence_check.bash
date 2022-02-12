@@ -4,6 +4,7 @@ start_xclip="start"
 start_clipboard="clipboard_"
 servis_url="http://192.168.1.53:8088"
 servis_url="http://localhost:8088"
+temp_file_name="stdout"
 
 while true; do
     primery_clip=$(xclip -o -selection primery)
@@ -15,6 +16,7 @@ while true; do
             clear
             request=$(curl -s -X POST -F "word=${primery_clip}" ${servis_url}/word_all_examples)
             printf "$request\n"
+            echo "$request\n" > $temp_file_name
         fi
         sleep 2
     else
@@ -29,7 +31,7 @@ while true; do
         clear
         request=$(curl -s -X POST -F "word=${primery_clip}" ${servis_url}/word)
         printf "$request\n"
-
+        echo "$request\n" > $temp_file_name
         # printf "end start_xclip ${start_xclip}\n"
         # printf "end primery_clip ${primery_clip}\n"
         # printf "########################\n"
