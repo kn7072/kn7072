@@ -2,10 +2,12 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 from common import get_data_file
 import cgi
+import os
 
 PORT_NUMBER = 8088
 path_to_all_words = "all_words_new.json"
 path_to_known_examples = "../Предложения.txt"
+file_to_save_words = "WORDS_FOR_LEARN.txt"
 
 macmillan_words = json.loads(get_data_file("./macmillan_ipa_stars.json"))
 
@@ -26,6 +28,18 @@ def get_word_for_stars(obj: dict, count_star: int) -> list:
 
 list_three_stars = get_word_for_stars(macmillan_words, 3)    
 
+
+def write_word_as_known() -> None:
+    """Записывает слова которые запрашивались."""
+    with open(file_to_save_words, mode='a', encoding='utf-8') as f:
+        while True:
+            word = yield
+            f.write(word)
+            f.flush()
+
+
+generator_for_write = write_word_as_known()
+next(generator_for_write)
 
 # This class will handles any incoming request from the browser
 class MyHandler(BaseHTTPRequestHandler):
@@ -77,6 +91,7 @@ class MyHandler(BaseHTTPRequestHandler):
         transcription = self.all_words_json[word]["transcription"]
         translate = self.all_words_json[word]["translate"]
         mnemonic = self.all_words_json[word]["mnemonic"]
+        comments = self.all_words_json[word]["comment"]
 
         # word_for_sentence = set(list_three_stars) - set(all_knonw_word_dict)
         # word_for_sentence = [word.lower() for word in word_for_sentence]
@@ -87,7 +102,7 @@ class MyHandler(BaseHTTPRequestHandler):
             temp_list_examples["is_known"] = True
             for example_eng, exampe_rus in all_knonw_word_dict[word]["examples"]:
                 temp_list_examples["examples"].append((example_eng, exampe_rus, [], []))
-            return translate, transcription, mnemonic, temp_list_examples
+            return translate, transcription, mnemonic, temp_list_examples, comments
 
         examples = self.all_words_json[word]["examples"]
         
@@ -100,9 +115,9 @@ class MyHandler(BaseHTTPRequestHandler):
             temp_list_examples["examples"].append((str_for_save, translate_sentence, diff_words, words_sentence))
 
         temp_list_examples["examples"].sort(key=lambda x: (len(x[2]), len(x[3])))
-        return translate, transcription, mnemonic, temp_list_examples
+        return translate, transcription, mnemonic, temp_list_examples, comments
 
-    def get_contant_to_send(self, content: dict, translate_word: str, transcription: str, mnemonic: list) -> str:
+    def get_contant_to_send(self, content: dict, translate_word: str, transcription: str, mnemonic: list, comments: list) -> str:
         """Возвращает бинарные дынные ответа."""
         msg_all = ""
         separate = "#" * 30
@@ -120,7 +135,8 @@ class MyHandler(BaseHTTPRequestHandler):
                 text_to_save = f"{words_diff};{delimiter}{example_eng};{delimiter}{example_rus}"
                 msg = f"{example_eng}\n{example_rus}\n\n{text_to_save}\n{'-' * 5}\n\n"
                 msg_all += msg
-        msg_all = f"{msg_all}{separate}\n{transcription} - {translate_word}\n\n{separate}\nМнемоника\n\n{mnemonic_str}"
+        comments = "\n".join(comments)
+        msg_all = f"{msg_all}{separate}\n{transcription} - {translate_word}\n\n{separate}\nМнемоника\n\n{mnemonic_str}\n\n{separate}\nКомментарии\n\n{comments}"
         msg_all = msg_all.replace("%", "%%")
         return msg_all.encode("utf-8")
 
@@ -130,23 +146,27 @@ class MyHandler(BaseHTTPRequestHandler):
             if fields.get("word"):
                 try:
                     word = fields["word"][0].strip().replace(",", "").replace(".", "").lower()
-                    translate, transcription, mnemonic, content_list = self.parsing_known_examples(word, all_examples=False)
-                    content_bin = self.get_contant_to_send(content_list, translate, transcription, mnemonic)
+                    translate, transcription, mnemonic, content_list, comments = self.parsing_known_examples(word, all_examples=False)
+                    content_bin = self.get_contant_to_send(content_list, translate, transcription, mnemonic, comments)
                     self.wfile.write(content_bin)
                 except StopIteration as e:
                     res = b"StopIteration"
                     self.wfile.write(res)
+                else:
+                    generator_for_write.send(f"{word}\n")
         elif self.path in ["/word_all_examples"]:
             fields = self._analisis_request()
             if fields.get("word"):
                 try:
                     word = fields["word"][0].strip().replace(",", "").replace(".", "").lower()
-                    translate, transcription, mnemonic, content_list = self.parsing_known_examples(word, all_examples=True)
-                    content_bin = self.get_contant_to_send(content_list, translate, transcription, mnemonic)
+                    translate, transcription, mnemonic, content_list, comments = self.parsing_known_examples(word, all_examples=True)
+                    content_bin = self.get_contant_to_send(content_list, translate, transcription, mnemonic, comments)
                     self.wfile.write(content_bin)
                 except StopIteration as e:
                     res = b"StopIteration"
-                    self.wfile.write(res)       
+                    self.wfile.write(res)
+                else:
+                    generator_for_write.send(f"{word}\n")    
 
 
 if __name__ == "__main__":
@@ -154,6 +174,7 @@ if __name__ == "__main__":
         # Create a web server and define the handler to manage the incoming request
         server = HTTPServer(('', PORT_NUMBER), MyHandler)
         print('Started httpserver on port ', PORT_NUMBER)
+        generator_for_write.send("##########\n")
         # Wait forever for incoming htto requests
         server.serve_forever()
     except KeyboardInterrupt:

@@ -1,14 +1,14 @@
 #!/bin/bash
 
 start_xclip="start"
-start_clipboard="clipboard_"
+start_clipboard="clipboard_" # буфер ctrl + c
 servis_url="http://192.168.1.53:8088"
 servis_url="http://localhost:8088"
 temp_file_name="stdout"
 
 while true; do
     primery_clip=$(xclip -o -selection primery)
-    clipboard=$(xclip -o -selection clipboard)
+    clipboard=$(xclip -o -selection clipboard) # буфер ctrl + c
     
     if [[ "${primery_clip}" == "${start_xclip}" ]]; then
         if [[ "${clipboard}" != "${start_clipboard}" ]]; then
