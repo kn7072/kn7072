@@ -1,6 +1,6 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
-from common import get_data_file
+from common import get_data_file, sound
 import cgi
 import os
 
@@ -166,7 +166,21 @@ class MyHandler(BaseHTTPRequestHandler):
                     res = b"StopIteration"
                     self.wfile.write(res)
                 else:
-                    generator_for_write.send(f"{word}\n")    
+                    generator_for_write.send(f"{word}\n")
+        if self.path in ["/sound"]:
+            fields = self._analisis_request()
+            if fields.get("word"):
+                try:
+                    word = fields["word"][0].strip().replace(",", "").replace(".", "").lower()
+                    if os.name == "nt":
+                        play_sound(word, count_sound=1)
+                    else:
+                        sound(word, count_sound=1)
+                    res = b"true"
+                    self.wfile.write(res)
+                except StopIteration as e:
+                    res = b"StopIteration"
+                    self.wfile.write(res)              
 
 
 if __name__ == "__main__":
