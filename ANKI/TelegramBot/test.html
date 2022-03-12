@@ -8,7 +8,10 @@
     }
 
     .container-word {
-        width: 23%%;
+        /* width: 91vw; --для одного слова
+        width: 23%; -для общего отчета
+        */
+        width: $container_word_with;
         display: flex;
         flex-direction: column;
         margin: 5px;
@@ -128,10 +131,10 @@
         // Тело запроса готово, отправляем
         var xhr = new XMLHttpRequest();
         
-        ip_address = "http://%s"
-        socket = `${ip_address}:8088`
+        ip_address = "http://$ip_address"
+        socket = `$${ip_address}:8088`
         //socket = "http://localhost:8088"
-        request_path = `${socket}/${command}`
+        request_path = `$${socket}/$${command}`
         
         xhr.open("POST", request_path, true );
         // xhr.open("POST", "http://localhost:8088"+ "/sound", true );
@@ -166,7 +169,7 @@
 </head>
 <body>
     <div class="container">
-    %s
+    $content
     </div>
 </body>
 </html> 

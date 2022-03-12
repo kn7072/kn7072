@@ -1,6 +1,6 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
-from common import get_data_file, sound
+from common import get_data_file, sound, generate_word_report_html, create_file
 import cgi
 import os
 
@@ -141,11 +141,14 @@ class MyHandler(BaseHTTPRequestHandler):
         return msg_all.encode("utf-8")
 
     def do_POST(self):
+        all_knonw_word_dict = self.get_know_words()
         if self.path in ["/word"]:
             fields = self._analisis_request()
             if fields.get("word"):
                 try:
                     word = fields["word"][0].strip().replace(",", "").replace(".", "").lower()
+                    bin_data_word = generate_word_report_html(word, self.all_words_json[word], all_knonw_word_dict, all_examples=False)
+                    create_file("temp.html", bin_data_word)
                     translate, transcription, mnemonic, content_list, comments = self.parsing_known_examples(word, all_examples=False)
                     content_bin = self.get_contant_to_send(content_list, translate, transcription, mnemonic, comments)
                     self.wfile.write(content_bin)

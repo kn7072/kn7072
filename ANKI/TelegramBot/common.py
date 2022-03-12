@@ -15,6 +15,7 @@ from db import into_table, fetchall, clear_table
 import json
 import traceback
 import sys
+from string import Template
 
 
 def send_message_from_bot(text):
@@ -438,8 +439,8 @@ def get_html_word(word, ipa, translate, mnemo_list, examples_list):
     synonyms_linvinov = get_synonyms_linvinov_html(word)
     word_building = get_word_building_linvinov_html(word)
     
-    mnemo_html = "\n".join([f"<div>{i}</div>" for i in mnemo_list]) if mnemo_list else ""
-    examples_html = "\n".join([f"<div>{i}</div>" for i in examples_list]) if examples_list else ""
+    mnemo_html = "\n".join([f"<div>{i}</div><div>-----</div>" for i in mnemo_list]) if mnemo_list else ""
+    examples_html = "\n".join([f"<div>{i}</div><div>-----</div>" for i in examples_list]) if examples_list else ""
     macmillan_stars, _ = get_ipa_and_stars_macmillan(word)
     word_comment_html = get_html_comment_word(word)
     
@@ -563,6 +564,11 @@ def read_file(path_file):
         list_word.append(i.split(";")[0].strip())
     return list_word
 
+def create_file(path_file: str, bin_data: bin):
+    """Создает файл."""
+    with open(path_file, mode="bw") as f:
+        f.write(bin_data)
+
 def generate_report_for_re(bot, template_word_i):
     
     def get_pattern(pattern):
@@ -620,6 +626,7 @@ def get_mnemo_list(word):
 def generate_report_html(name_base, table_name):
     all_messages = []
     temp_html = get_data_file("test.html")
+    template_html = Template(temp_html)
 
     for first_line, mnemo_srt, examples_str, error in fetchall(name_base, table_name):
         mnemo_list = mnemo_srt.split(separate) if mnemo_srt else []
@@ -639,10 +646,34 @@ def generate_report_html(name_base, table_name):
 
         all_messages.append(word_html)
     all_messages_text = "\n".join(all_messages)
-    html_report = temp_html % (local_ip_address, all_messages_text)
+    html_report = template_html.substitute(container_word_with='23%', ip_address=local_ip_address, content=all_messages_text)
     html_report = html_report.encode("utf-8")
 
     return html_report
+
+def generate_word_report_html(word:str, word_data: dict, all_knonw_word_dict: dict, all_examples: bool):
+
+    temp_html = get_data_file("test.html")
+    template_html = Template(temp_html)
+    ipa = word_data["transcription"]
+    translate = word_data["translate"]
+    mnemo_list = word_data["mnemonic"]
+    examples_list = []
+
+    if not all_examples and word in all_knonw_word_dict:
+        for example_eng, exampe_rus in all_knonw_word_dict[word]["examples"]:
+            examples_list.append(f"<div>{example_eng}</div><div>{exampe_rus}</div>")
+    else:
+        examples = word_data["examples"]
+        examples_list = [f"<div>{example_eng}</div><div>{exampe_rus}</div>" for example_eng, exampe_rus in examples]
+        
+    word_html = get_html_word(word=word, ipa=ipa, translate=translate, 
+                              mnemo_list=mnemo_list, examples_list=examples_list)
+
+    html_report = template_html.substitute(container_word_with='91vw', ip_address=local_ip_address, content=word_html)
+    html_report = html_report.encode("utf-8")
+    return html_report
+
 
 def get_list_words(name_base, table_name):
     """
