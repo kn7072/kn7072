@@ -439,7 +439,14 @@ def get_html_word(word, ipa, translate, mnemo_list, examples_list):
     synonyms_linvinov = get_synonyms_linvinov_html(word)
     word_building = get_word_building_linvinov_html(word)
     
-    mnemo_html = "\n".join([f"<div>{i}</div><div>-----</div>" for i in mnemo_list]) if mnemo_list else ""
+    mnemo_html = ""
+    if mnemo_list:
+        prepare_mnemo = [i.split("\n") for i in mnemo_list]
+        temp_list_mnemo = []
+        for list_i in prepare_mnemo:
+            mnemo_i = "\n".join([f"<div>{i}</div>" for i in list_i])
+            temp_list_mnemo.append(mnemo_i)
+        mnemo_html = "<div>-----</div>".join(temp_list_mnemo)
     examples_html = "\n".join([f"<div>{i}</div><div>-----</div>" for i in examples_list]) if examples_list else ""
     macmillan_stars, _ = get_ipa_and_stars_macmillan(word)
     word_comment_html = get_html_comment_word(word)
