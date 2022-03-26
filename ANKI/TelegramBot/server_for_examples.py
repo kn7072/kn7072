@@ -146,7 +146,7 @@ class MyHandler(BaseHTTPRequestHandler):
             fields = self._analisis_request()
             if fields.get("word"):
                 try:
-                    word = fields["word"][0].strip().replace(",", "").replace(".", "").lower()
+                    word = fields["word"][0].strip().replace(",", "").replace(".", "").replace(":", "").replace(";", "").lower()
                     bin_data_word = generate_word_report_html(word, self.all_words_json[word], all_knonw_word_dict, all_examples=False)
                     create_file("temp.html", bin_data_word)
                     translate, transcription, mnemonic, content_list, comments = self.parsing_known_examples(word, all_examples=False)
