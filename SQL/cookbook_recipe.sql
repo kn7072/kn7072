@@ -40,3 +40,20 @@ select ename, sal,
                  else 'OK'
             end as status
 from emp;
+
+--1.9 Limiting the Number of Rows Returned
+select *
+from emp 
+limit 5;
+--1.10 Returning n Random Records from a Table
+select ename, job
+from emp
+order by random()
+limit 5;
+
+
+# 2.3 Sorting by Substrings
+select ename,job
+from emp
+order by substr(job,length(job)-1);
+
