@@ -45,12 +45,32 @@ from emp;
 select *
 from emp 
 limit 5;
+
 --1.10 Returning n Random Records from a Table
 select ename, job
 from emp
 order by random()
 limit 5;
 
+--1.11 Finding Null Values
+select *
+from emp
+where comm is null;
+
+--1.12 Transforming Nulls into Real Values
+select coalesce(comm, 0)
+from emp;
+
+--1.13 Searching for Patterns
+select ename, job
+from emp
+where deptno in (10, 20) and (ename like '%I%' or ename like '%ER');
+
+--2.1 Returning Query Results in a Specified Order
+select ename,job,sal
+from emp
+where deptno = 10
+order by sal asc;
 
 # 2.3 Sorting by Substrings
 select ename,job
