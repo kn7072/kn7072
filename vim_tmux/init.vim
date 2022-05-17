@@ -39,6 +39,12 @@ Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'ayu-theme/ayu-vim'
 Plug 'vim-airline/vim-airline'
 
+" python
+Plug 'Vimjas/vim-python-pep8-indent'
+Plug 'dense-analysis/ale'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc-python'
+
 " Debugging
 Plug 'puremourning/vimspector'
 
@@ -48,12 +54,32 @@ Plug 'puremourning/vimspector'
 " pgsql
 Plug 'lifepillar/pgsql.vim'
 
+" json
+Plug 'kevinoid/vim-jsonc'
+autocmd FileType json syntax match Comment +\/\/.\+$+
+
+" Maximizes and restores the current window in Vim.
+Plug 'szw/vim-maximizer'
+
+" окружает слово в кавычки
+Plug 'tpope/vim-surround'
+
 call plug#end()
 
 " Дерево изменений файла
 noremap <leader>u :UndotreeToggle<CR>
 
-let g:vimspector_enable_mappings = 'HUMAN'
+
+fun GotoWindow(id)
+        call win_gotoid(a:id)
+        " MaximizerToggle
+endfun        
+
+" Debugger remaps
+" https://www.youtube.com/watch?v=AnTX2mtOl9Q
+nnoremap <Leader>m :MaximizerToggle!<CR>
+nnoremap <Leader>ds :call GotoWindow(g:vimspector_session_windows.stack_trace)<CR>
+" nnoremap <Leader>dtx :call win_gotoid( g:vimspector_session_windows.terminal )<CR>
 
 nnoremap <Leader>dd :call vimspector#Launch()<CR>
 nnoremap <Leader>de :call vimspector#Reset()<CR>
@@ -66,6 +92,9 @@ nmap <Leader>dk <Plug>VimspectorRestart
 nmap <Leader>dh <Plug>VimspectorStepOut
 nmap <Leader>dl <Plug>VimspectorStepInto
 nmap <Leader>dj <Plug>VimspectorStepOver
+
+" turn off search highlight
+nnoremap <Leader><space> :nohlsearch<CR>
 
 " цветовая схема
 set background=dark
@@ -107,5 +136,21 @@ map <c-a> <esc>ggvg<cr>
 
 " PG_SQL
 let g:sql_type_default = 'pgsql'
+
+" Линтер
+let g:ale_linters = {'python': 'all'}
+let g:ale_fixers = {'python': ['isort', 'yapf', 'remove_trailing_lines', 'trim_whitespace']}
+
+let g:ale_lsp_suggestions = 1
+let g:ale_fix_on_save = 1
+let g:ale_go_gofmt_options = '-s'
+let g:ale_go_gometalinter_options = '— enable=gosimple — enable=staticcheck'
+let g:ale_completion_enabled = 1
+let g:ale_echo_msg_error_str = 'E'
+let g:ale_echo_msg_warning_str = 'W'
+let g:ale_echo_msg_format = '[%linter%] [%severity%] %code: %%s'
+
+
+
 
 
