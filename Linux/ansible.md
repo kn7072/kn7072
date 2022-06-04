@@ -18,6 +18,9 @@ passwd xxx
 --вводим пароль
 
 awk -F: '{ print $1}' /etc/passwd
+проверим пользователей 
+grep -E '^UID_MIN|^UID_MAX' /etc/login.defs
+getent passwd {1000..60000}
 
 # генерация ключа ssh
 ssh-keygen
