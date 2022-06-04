@@ -4,8 +4,13 @@ qemu-img create -f qcow2 test.qcow 10G
 # устанавливаем операционную систему на созданный диск
 qemu-system-x86_64 -hda test.qcow -boot d -cdrom /home/stapan/debian-11.3.0-amd64-netinst.iso -m 2048
 
+
 # запуск виртуалкизш
-qemu-system-x86_64 -hda /home/stapan/test.qcow -m 2048 -enable-kvm
+qemu-system-x86_64 -hda /home/stapan/VIRTUAL_MACHINE/test.qcow -m 2048 -enable-kvm -net user,hostfwd=tcp::10022-:22 -net nic
+
+https://unix.stackexchange.com/questions/124681/how-to-ssh-from-host-to-guest-using-qemu
+-net user,hostfwd=tcp::10022-:22 -net nic
+ssh stepan@localhost -p 10022
 
 su root
 apt update
