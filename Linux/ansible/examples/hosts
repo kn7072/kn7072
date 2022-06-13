@@ -1,0 +1,13 @@
+[test]
+virt ansible_user=stepan ansible_ssh_private_key_file=/home/stapan/.ssh/for_virtual/id_rsa 
+client02 ansible_user=xxx ansible_password=123 inv_user=client01
+
+[group2]
+client03 inv_user=client02
+
+[group3]
+virt ansible_host=127.0.0.1 ansible_port=10022 ansible_user=stepan ansible_ssh_private_key_file=/home/stapan/.ssh/for_virtual/id_rsa inv_user=client03
+
+[all_groups:children]
+test
+group2

@@ -1,0 +1,35 @@
+- name: messages
+  hosts: group3
+  become: yes
+
+  vars:
+     word1: house
+     word2: rus
+     place: yar
+
+  tasks:
+     - name: print vars
+       debug:
+          var: word1
+     - debug:
+          msg: "comment {{word2}}"
+     - debug:
+          msg: "comment {{word2}} {{place}}"
+     - debug:
+          msg: "comment {{word2}}"
+     
+     - set_fact:
+          message: "xxx comment {{word2}} {{place}}" # создает переменную
+
+     - debug:
+          var: message 
+     - debug:
+          var: ansible_distribution_version # из модуля setup
+     - debug:
+             msg: "Linux {{ansible_distribution}} version: {{ansible_distribution_version}}"
+
+     - shell: id client1
+       register: client_groups
+
+     - debug:
+          var: client_groups

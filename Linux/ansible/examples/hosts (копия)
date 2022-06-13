@@ -1,0 +1,3 @@
+client01 ansible_host=localhost ansible_user=stepan ansible_password=2802 ansible_port=10022
+client02 ansible_host=localhost ansible_user=xxx ansible_password=123 ansible_port=10022
+localhost ansible_user=stepan ansible_ssh_private_key_file=/home/stapan/.ssh/for_virtual/id_rsa ansible_port=10022

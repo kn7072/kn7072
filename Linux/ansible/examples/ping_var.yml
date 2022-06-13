@@ -1,0 +1,35 @@
+- name: Ping Servers
+  hosts: group3 # all
+  become: yes
+  
+  vars:
+    packages:
+            - apache2
+            - htop
+            - tree
+            - rsync
+    file_src: testfile
+    file_dest: /home
+
+  tasks:
+  
+  - name: Task ping
+    ping:
+
+# - name: Update cache
+#   apt:
+#     update_cache: yes
+#  
+# - name: Upgrade
+#   apt:
+#     upgrade: yes
+  
+  - name: Insall apache2
+    apt:
+      pkg: "{{packages}}" 
+      state: present
+  - name: copy file
+    copy:
+       src: "{{file_src}}"
+       dest: "{{file_dest}}"
+       mode: 0777

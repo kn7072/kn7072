@@ -56,6 +56,37 @@ __ansible all -m file -a "path=~/ansible_test.txt state=touch" -создать �
         добавляем строку - команда отключает запрос пароля при вооде команды sudo для пользователя user_x
 
         user_x  ALL=(ALL:ALL) NOPASSWD:ALL
-__ansible group2 -m copy -a "src=file123 dest=/home mode=777"__ -b -скопиторовать файл file123 из текущей машины на хосты указанные в group2
+__ansible group2 -m copy -a "src=file123 dest=/home mode=777"__ -b -скопиторовать файл file123 из текущей машины на хосты указанные в group2, -b (become запуск с правами супер пользователя)
 
+Создаем папку group_vars
+в этой папке создаем файлы как названия групп
+touch group2
+touch all_groups
+(в этих файлах хранятся параменты для подключения к хостам) и переносим в эти файлы данные из файла host
+
+на пример в файл group2
+ansible_host: 127.0.0.1
+ansible_port: 10022 
+ansible_user: stepan 
+ansible_password: 2802
+dev: dev2
+
+на пример в файл all_groups
+ansible_port: 10022 
+ansible_user: stepan 
+ansible_password: 2802
+ansible_ssh_private_key_file: /home/stapan/.ssh/for_virtual/id_rsa
+dev: devall
+
+ansible all -m debug -a "var=dev" -чтобы посмотреть значение переменной dev
+ansible all -m debug -a "var=ansible_host" -чтобы посмотреть значение переменной ansible_host
+
+# Playbooks
+создаем файл touch ping.yml в каталоге где находится ansible.cfg
+ansible-playbook ping.yml
+
+парамерты в playbook можно брать из команды ansible all -m setup
+
+# Роли
+ansible-galaxy init first_setup  -создаем роль(на диске создается каталог с именем роли - first_setup)
 

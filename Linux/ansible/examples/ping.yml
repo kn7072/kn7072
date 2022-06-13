@@ -1,0 +1,29 @@
+- name: Ping Servers
+  hosts: group3 # all
+  become: yes
+
+  tasks:
+  
+  - name: Task ping
+    ping:
+
+# - name: Update cache
+#   apt:
+#     update_cache: yes
+#  
+# - name: Upgrade
+#   apt:
+#     upgrade: yes
+  
+  - name: Insall apache2
+    apt:
+      pkg: 
+        - apache2
+        - htop
+        - tree  
+      state: present
+  - name: copy file
+    copy:
+       src: ./testfile
+       dest: /home/
+       mode: 0777

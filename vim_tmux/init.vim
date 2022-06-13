@@ -1,9 +1,12 @@
 set number
 set tabstop=4
+set shiftwidth=4
 set expandtab
+set smarttab
 set encoding=UTF-8
 set noswapfile
 set mouse=a
+
 
 inoremap jk <esc>
 

@@ -1,0 +1,32 @@
+- name: test blocks
+  hosts: group3
+  become: yes
+
+  vars:
+  
+  tasks:
+
+  - debug:
+        msg: "{{ansible_hostname}}"
+
+  - block:        
+       - name: install packages
+         apt:
+            pkg:
+              - tree
+              - htop
+              - nmon
+            state: present
+
+       - name: create folder
+         file:
+            path: /srv/folder1
+            state: directory
+    when: ansible_hostname == "debian"
+
+  - name: copy file
+    copy:
+        src: file_123
+        dest: /srv/
+    when: ansible_hostname == "debian"
+

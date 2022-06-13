@@ -1,0 +1,13 @@
+- name: Loops
+  hosts: group3
+  become: yes
+
+  tasks:
+  
+  - name: Create folder
+    file: 
+       path: "/home/{{item}}"
+       state: directory
+    loop:
+        - dir1
+        - dir2  
