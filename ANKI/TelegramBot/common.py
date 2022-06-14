@@ -709,6 +709,7 @@ def send_report(bot, table_name, type_report="html"):
                     bot.send_document(chat_id, f) 
         elif type_report == "list":
             list_words = get_list_words(name_base, table_name)
+            list_words.sort(key=lambda x: x)
             str_list_words = ', '.join([f'"{word_i}"' for word_i in list_words])
             text = f"[{str_list_words}]"
             send_message_from_bot(text)
