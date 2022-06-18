@@ -93,7 +93,8 @@ git branch -D recover-branch - удаление ветки
 ##########################################################
 ВНУТРЕННЕЕ УСТРОЙСТВО
 
-git cat-file -p HEAD
+git cat-file -p HEAD -содержимое комита
+git cat-file -t HEAD -тип комита
 git ls-tree -r HEAD
 git ls-files -s
 
@@ -168,6 +169,8 @@ git branch iss53
 git checkout iss53
 
 git branch -d hotfix удалить ветку
+git branch -m new_name_branch -переименовать ветку
+git push -u origin <branch> связать локальную ветку с удаленной
 
 https://webhamster.ru/mytetrashare/index/mtb0/1413010541hzh3175lej
 При работе с Git может возникнуть такая ситуация: команда git push не заливает изменения на сервер, а команда git status показывает:
@@ -407,6 +410,7 @@ https://git-scm.com/book/ru/v2/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Git-%D0%A0%D
 git remote -список настроенных удалённых репозиториев, origin—имя по умолчанию, которое Git даёт серверу, с котрого производилось клонирование
 git remote -v -чтобы просмотреть адреса для чтения и записи, привязанные к репозиторию
 git remote show origin -Просмотр удаленного репозитория
+git remote add origin <url_remote_repo> подключение удаленного репозитория
 
 ##########################################################
 https://stackoverflow.com/questions/2706797/finding-what-branch-a-git-commit-came-from

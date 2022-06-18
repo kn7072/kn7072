@@ -6,6 +6,21 @@ set smarttab
 set encoding=UTF-8
 set noswapfile
 set mouse=a
+" Подсвечивать строку на которой находится курсор
+set cursorline
+" Показывать колонну на 80 символе строк (по счёту)
+set colorcolumn=80
+" «Умный» поиск:
+" - при вводе только маленьких (строчных) букв
+"   ищет регистро-независимо
+" - а если введена хотя бы одна большая (заглавная/прописная)
+"   буква, то будет искать регистро-зависимо
+set ignorecase
+set smartcase
+" Перенос длинных строк с разбиением по пробелам, а не по символам
+" (слова переносятся целиком, soft wrap)
+set wrap
+set linebreak
 
 
 inoremap jk <esc>
@@ -14,6 +29,9 @@ syntax on
 let g:mapleader=','
 set hlsearch
 set incsearch
+
+" Орфография
+set spell spelllang=ru,en_us
 
 " Автообновление, при изменении файла извне
 set updatetime=2000
@@ -67,6 +85,10 @@ Plug 'szw/vim-maximizer'
 " окружает слово в кавычки
 Plug 'tpope/vim-surround'
 
+" fzf - Нечёткий поиск (fuzzy finding) части имени файла
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 call plug#end()
 
 " Дерево изменений файла
@@ -96,8 +118,13 @@ nmap <Leader>dh <Plug>VimspectorStepOut
 nmap <Leader>dl <Plug>VimspectorStepInto
 nmap <Leader>dj <Plug>VimspectorStepOver
 
-" turn off search highlight
+" убирает подсветку поиска
 nnoremap <Leader><space> :nohlsearch<CR>
+
+" Копирование от текущего символа до конца строки
+" в режиме NORMAL при нажатии Shift+Y
+" (Как Shift+D, только не удаляет скопированные символы)
+nnoremap Y y$
 
 " цветовая схема
 set background=dark

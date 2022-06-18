@@ -74,8 +74,22 @@ __getent group__ -Чтобы получить список всех групп
 
 getent group | awk -F: '{ print $1}' -вывести имена групп
 
-### Создание групп с помощью groupadd
+### System and Normal Users
+//https://linuxize.com/post/how-to-list-users-in-linux/
+There is no real technical difference between the system and regular (normal) users. Typically system users are created when installing the OS and new packages. In some cases, you can create a system user that will be used by some applications.
 
+Normal users are the users created by the root or another user with sudo privileges. Usually, a normal user has a real login shell and a home directory.
+
+Each user has a numeric user ID called UID. If not specified when creating a new user with the useradd command, the UID will be automatically selected from the __/etc/login.defs__ file depending on the UID_MIN and UID_MIN values.
+
+To check the UID_MIN and UID_MIN values on your system, you can use the following command:
+__grep -E '^UID_MIN|^UID_MAX' /etc/login.defs__
+From the output above, we can see that all normal users should have a UID between 1000 and 60000. Knowing the minimal and maximal value allow us to query a list of all normal users in our system.
+
+The command below will list all normal users in our Linux system:
+__getent passwd {1000..60000}__
+
+### Создание групп с помощью groupadd
 используйте __groupadd__, за которым следует имя группы, которую вы хотите добавить. Существуют некоторые дополнительные параметры, единственным из которых является -g, который позволяет вам указать ID группы при создании группы
 
 __groupadd account__ -создает группу account
