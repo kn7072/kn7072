@@ -49,7 +49,9 @@ xfreerdp  /monitors:0,1 /multimon /u:sg.chernov /p:qweQWE1 /v:nsdr-chernovsg.cor
 
 openvpn3 config-import -c tensor_dev_yar.ovpn -p
 openvpn3 session-start -c tensor_dev_yar.ovpn
-openvpn3 session-manage -с tensor_dev_yar.ovpn -D
+
+openvpn3 sessions-list
+openvpn3 session-manage -c tensor_dev_yar.ovpn -D
 
 #############################################
 Remmina Remote Desktop Client
