@@ -4,6 +4,29 @@ import (
 	"fmt"
 )
 
+func KMPMathcher(t, p string) {
+	runT := []rune(t)
+	runP := []rune(p)
+	lenT := len(runT)
+	pPi := pi(p)
+	lenP := len(pPi)
+	q := 0 // количество совпадающих символов
+
+	for i := 0; i < lenT; i++ { // сканирование текста слева направо
+		for q > 0 && runP[q+1] != runT[i] {
+			q = pPi[q] // следующий символ не совпадает
+		}
+		
+		if runP[q+1] == runT[i] {
+			q += 1
+		}
+		if q == lenP {
+			fmt.Printf("Образец находится со смещение %v\n", i - lenP)
+			q = pPi[q]
+		}
+	}
+}
+
 func pi(str string) []int {
 	runeS := []rune(str)
 	lenS := len(runeS)
@@ -37,4 +60,7 @@ func main() {
 	data := "abaYaxyzabaYa"
 	res := pi(data)
 	fmt.Println(res)
+
+	subStr := "Yaxy"
+	KMPMathcher(subStr, data)
 }
