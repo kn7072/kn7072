@@ -20,33 +20,6 @@ func PrintTree(ostov []int) {
 	fmt.Println()
 }
 
-func dfsFillStack(startName string, hash map[string]struct{}){
-	
-	for {
-		if _, ok := hash[startName]; !ok {
-			stackN.Push(startName)
-			hash[startName] = struct{}{}
-			for _, j := range Graph[startName].Next {
-				dfsFillStack(j, hash)
-			}
-		} else {
-			return
-		}
-
-	}
-}
-
-func Mark() []string {
-	result := make([]string, 0)
-	for {
-		if v, ok := stackN.Pop(); ok {
-			result = append(result, v)
-		} else {
-			return result
-		}
-	} 
-}
-
 func dfs(nodeName string, hash map[string]struct{}) []string {
 	result := make([]string, 0)
 	steck := stack.NewStack()
@@ -70,22 +43,6 @@ func dfs(nodeName string, hash map[string]struct{}) []string {
 	}
 }
 
-
-
-
-// func dfsMark(nodeName string, in int, hash map[string]struct{}) int {
-// 	if _, ok := hash[nodeName]; !ok {
-// 		hash[nodeName] = struct{}{}
-// 		in++
-// 		Start[nodeName] = in
-// 		for _, v := range Graph[nodeName].Next {
-// 			in = dfsMark(v, in, hash)
-// 		}
-// 		in++
-// 		End[nodeName] = in
-// 	}
-// 	return in
-// }
 
 type TimeNode struct {
 	NodeName string
@@ -117,36 +74,6 @@ func dfsMark(nodeName string, in int, hash map[string]struct{}) int {
 }
 
 
-// func kosarau(hash map[string]struct{}) [][]string{
-// 	result := make([][]string, 0)
-// 	for {
-// 		nodeName, ok := stackN.Pop()
-// 		if !ok {
-// 			goto exit
-// 		} else {
-// 			if _, ok := hash[nodeName]; !ok {
-// 				fmt.Println(nodeName)
-// 				result = append(result, dfs(nodeName, hash))
-// 			}
-// 		}
-		
-// 	}
-// 	exit:
-// 	return result
-// }
-
-// func kosarau(s []string, hash map[string]struct{}) [][]string{
-// 	result := make([][]string, 0)
-// 	for _, nodeName := range s {
-// 		if _, ok := hash[nodeName]; !ok {
-// 			fmt.Println(nodeName)
-// 			result = append(result, dfs(nodeName, hash))
-// 		}
-// 	}
-		
-// 	return result
-// }
-
 
 func kosarau(hash map[string]struct{}) [][]string{
 	result := make([][]string, 0)
@@ -168,33 +95,12 @@ func main() {
 	Start = make(map[string]int)
 	End = make(map[string]int)
 
-	// заполнили стек узлами в порядке dfs
-	
-	for nodeName, _ := range Graph {
-		dfsFillStack(nodeName, hash)
-	}
-
 	in := 0
 	for nodeName, _ := range Graph {
 		in = dfsMark(nodeName, in, hashReverse)
 	}
-
-	
-
-	// t := []int{8, 1, 3, 0}
-	// sort.Ints(t)
-
-	
 	sort.Sort(xxx)
-	//sort.Reverse(xxx)
 	res := kosarau(make(map[string]struct{}))
-
-
-	// s := Mark()
-	// fmt.Println(s)
-	// res := kosarau(s, hashReverse)
-
-	//res := kosarau(hashReverse)
 	fmt.Println(res)
 
 }
