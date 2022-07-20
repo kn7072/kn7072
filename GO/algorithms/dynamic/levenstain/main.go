@@ -36,7 +36,7 @@ func getMin(s ...F) F {
 func Print(data [][]F) {
 	for _, row := range data {
 		for _, col := range row {
-			fmt.Printf("%v(%v) ", col.Len, col.Action)
+			fmt.Printf("%v  ", col.Len) //(%v) , col.Action
 		}
 		fmt.Println()
 	}
@@ -52,12 +52,12 @@ func levenstain(a, b string) {
 	}
 
 	for i := 0; i < len(subA) + 1; i++ {
-		results[0][i] = F{Len: i, Action: "Add"}
+		results[0][i] = F{Len: i, Action: ""} //Del
 	}
 	for j := 0; j < len(subB) + 1; j++ {
-		results[j][0] = F{Len: j, Action: "Add"}
+		results[j][0] = F{Len: j, Action: ""} //Add
 	}
-	results[0][0].Action = "Not"
+	//results[0][0].Action = "Not"
 
 	for j := 1; j < len(subB) + 1; j++ {
 		for i := 1; i < len(subA) + 1; i++ {
@@ -67,14 +67,14 @@ func levenstain(a, b string) {
 				minElement := getMin(results[j-1][i], results[j-1][i-1], results[j][i-1])
 				results[j][i].Len =  minElement.Len + 1
 				
-				switch {
-				case minElement == results[j-1][i-1]:
-					results[j][i].Action = "Cha"
-				case minElement == results[j-1][i]:
-					results[j][i].Action = "Add"
-				default:
-					results[j][i].Action = "Del"
-				}
+				// switch {
+				// case minElement == results[j-1][i-1]:
+				// 	results[j][i].Action = "Cha"
+				// case minElement == results[j-1][i]:
+				// 	results[j][i].Action = "Add"
+				// default:
+				// 	results[j][i].Action = "Del"
+				// }
 				 
 			}
 		}
