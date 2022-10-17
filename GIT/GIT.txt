@@ -51,13 +51,25 @@ git revert -n master~5..master~2  -Вернуть изменения, сдела
 
 git revert --strategy recursive -Xours -m 1 5333b08
 
+##########################################################
+alias
+https://stackoverflow.com/questions/7066325/list-git-aliases
+git config --get-regexp alias
 
+git config --global alias.alias "! git config --get-regexp ^alias\. | sed -e s/^alias\.// -e s/\ /\ =\ /"
+
+$ git config --global alias.unstage 'reset HEAD --'
+$ git unstage fileA
+$ git reset HEAD -- fileA
+
+$ git config --global alias.sno 'status -uno'
 ##########################################################
 https://pingvinus.ru/git/1605
 git diff сама по себе не показывает все изменения сделанные с последнего коммита — только те, что ещё не проиндексированы.
 git diff e4a549fa26 8b14d87a2d 
 git diff 952a31e 5220aea config.ini
 git diff HEAD set_build_status -- api/template_api.groovy
+git diff ./core_elo/test_2.py
 
 ##########################################################
 ПРОВЕРКА БАЗЫ
@@ -110,6 +122,8 @@ git.exe push --progress "origin" conflict_1:conflict_1
 
 git diff --staged  что из проиндексированного войдет в следующий коммит
 git diff оказывает не все изменения, сделанные с момента последней фиксации состояния, а только те, которые еще не проиндексированы
+git diff -U10 path_to_file
+git diff -U10 -выведет 10 строк файла
 
 git commit -m "Story 182: Fix benchmarks for speed"
 git commit -a -m 'added new benchmarks'
