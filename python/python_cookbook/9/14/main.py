@@ -81,3 +81,8 @@ class Stock(Structure):
 док определения легко захватить и сохранить с помощью возвращения OrderedDict
 вместо обычного словаря.
 """
+
+s = Stock('GOOG',100,490.1)
+s.name
+s.as_csv()
+t = Stock('AAPL','a lot', 610.23)  # error
