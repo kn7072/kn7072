@@ -1,0 +1,8 @@
+https://django.fun/ru/docs/python/3.10/library/devmode/
+https://pythondev.readthedocs.io/debug_tools.html
+
+
+https://www.red-gate.com/simple-talk/development/python/memory-profiling-in-python-with-tracemalloc/
+	The tiny for loop iterates five times, invoking the make-shift memory leaker each time. 
+	The call to gc.collect() just nudges Python’s garbage collector to release any unreachable memory
+	 blocks to filter out noise. Although, you can be sure this program does not create any cyclic references.
