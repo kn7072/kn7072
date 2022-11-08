@@ -17,3 +17,98 @@ https://smira.ru/wp-content/uploads/2011/08/heapy.html
 же результат, установив в качестве перехватчика sys .excepthook функцию, полу­
 чающую три аргумента (тип ошибки, значение ошибки и объект трассировки),
 и поручив ей обработкуошибок, оставшихся необработанными.
+
+#################################################################################
+https://zalinux.ru/?p=2192
+Как найти программы, которые используют больше всего памяти в ps
+С помощью утилиты ps также можно составить список, отсортированный по количеству потребляемой памяти, для этого выполните:
+
+ps -e -o pid,vsz,comm= | sort -n -k 2
+
+Ещё одна элегантная команда с использованием ps:
+ps aux | awk '{print $6/1024 " MB\t\t" $11}' | sort -n
+
+#################################################################################
+https://zalinux.ru/?p=6084
+
+ps -o vsz,rss -C soffice.bin
+
+
+Так как тогда посчитать, сколько реально памяти занимает процесс в Linux?
+
+С помощью ps или аналогичных инструментов вы получите только количество страниц памяти, выделенных этим процессом. Это правильный номер, но:
+    не отражает фактический объем памяти, используемый приложением, а только объем памяти, зарезервированной для него
+    может вводить в заблуждение, если страницы используются совместно, например, несколькими потоками или с помощью динамически подключаемых библиотек.
+
+В выводе программ обращайте внимание на поля RSS и RES.
+RES — используемая оперативная память, является подмножеством VIRT, представляет физическую память, не помещённую в раздел подкачки, которую в текущий момент использует задача.
+RSS — это «resident set size» — физическая память без подкачки, которую использовала задача (в килобайтах). Псевдоним rssize, rsz.
+
+Для просмотра фактически используемой памяти попробуйте команду pmap:
+
+sudo pmap -x PID-ПРОЦЕССА
+
+Address           Kbytes     RSS   Dirty Mode  Mapping
+Обратите внимание на нижнюю строку начинающуюся с «total kB», это поле RSS. 
+
+#################################################################################
+https://progler.ru/blog/komanda-pmap-v-linux-s-primerami
+pmap
+
+
+#################################################################################
+https://unix.stackexchange.com/questions/471476/how-do-i-check-cgroup-v2-is-installed-on-my-machine
+How do I check cgroup v2 is installed on my machine?
+You could run the following command:
+
+grep cgroup /proc/filesystems
+
+If your system supports cgroupv2, you would see:
+
+nodev   cgroup
+nodev   cgroup2
+
+On a system with only cgroupv1, you would only see:
+
+nodev   cgroup
+#################################################################################
+
+
+ps up $$
+ls -al /proc/$$/ns
+ps o pid,netns,mntns,pidns,comm p $$
+stat -L /proc/$$/ns/net
+
+
+ps o pid,cgroup:512,cmd p $$
+sudo mkdir /sys/fs/cgroup/cpu,cpuacct/mygroup
+echo $$ | sudo tee /sys/fs/cgroup/cpu,cpuacct/mygroup/tasks
+cat /sys/fs/cgroup/cpu,cpuacct/mygroup/tasks
+ps o pid,cgroup:512,cmd p $$
+
+ls /sys/fs/cgroup/cpu,cpuacct/mygroup/cpu.*
+cat /sys/fs/cgroup/cpu,cpuacct/mygroup/cpu.shares
+
+512 это 1/2 от 1024(результата предыдущей команды) 
+echo 512 | sudo tee /sys/fs/cgroup/cpu,cpuacct/mygroup/cpu.shares
+
+sudo mkdir /sys/fs/cgroup/memory/mygroup
+echo $$ | sudo tee /sys/fs/cgroup/memory/mygroup/tasks
+cat memory.limit_in_bytes memory.soft_limit_in_bytes
+cat memory.usage_in_bytes  -сколько потребляет
+
+4ГБ =  4294967296
+2ГБ = 22147483648
+echo 4294967296 | sudo tee /sys/fs/cgroup/memory/mygroup/memory.limit_in_bytes
+
+firefox &
+about:performance
+
+echo $! | sudo tee /sys/fs/cgroup/cpu,cpuacct/mygroup/tasks
+echo $! | sudo tee /sys/fs/cgroup/memory/mygroup/tasks
+
+echo 20 | sudo tee /sys/fs/cgroup/memory/mygroup/memory.swappiness
+
+ps o pid,netns,mntns,pidns,comm | grep firefox
+
+kill -9 firefox_pid
