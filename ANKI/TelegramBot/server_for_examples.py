@@ -1,13 +1,17 @@
-from http.server import BaseHTTPRequestHandler, HTTPServer
-import json
-from common import get_data_file, sound, generate_word_report_html, create_file
 import cgi
+import json
 import os
+from http.server import BaseHTTPRequestHandler, HTTPServer
 
-PORT_NUMBER = 8088
+from common import create_file, generate_word_report_html, get_data_file, sound
+from urllib.parse import unquote, unquote_plus
+
+
+PORT_NUMBER = 8090 # 8088
 path_to_all_words = "all_words_new.json"
 path_to_known_examples = "../Предложения.txt"
 file_to_save_words = "WORDS_FOR_LEARN.txt"
+file_to_save_sentence = "SENTENCE_TO_LEAR.txt"
 
 macmillan_words = json.loads(get_data_file("./macmillan_ipa_stars.json"))
 
@@ -26,20 +30,23 @@ def get_word_for_stars(obj: dict, count_star: int) -> list:
             temp.append(word)
     return temp
 
-list_three_stars = get_word_for_stars(macmillan_words, 3)    
+list_three_stars = get_word_for_stars(macmillan_words, 1)
 
 
-def write_word_as_known() -> None:
+def write_word_as_known(path_to_file) -> None:
     """Записывает слова которые запрашивались."""
-    with open(file_to_save_words, mode='a', encoding='utf-8') as f:
+    with open(path_to_file, mode='a', encoding='utf-8') as f:
         while True:
             word = yield
             f.write(word)
             f.flush()
 
 
-generator_for_write = write_word_as_known()
-next(generator_for_write)
+generator_for_write_word = write_word_as_known(file_to_save_words)
+next(generator_for_write_word)
+
+generator_for_write_sentence = write_word_as_known(file_to_save_sentence)
+next(generator_for_write_sentence)
 
 # This class will handles any incoming request from the browser
 class MyHandler(BaseHTTPRequestHandler):
@@ -87,7 +94,7 @@ class MyHandler(BaseHTTPRequestHandler):
                               "examples": [],
                               "is_known": False
                               }
-        
+
         transcription = self.all_words_json[word]["transcription"]
         translate = self.all_words_json[word]["translate"]
         mnemonic = self.all_words_json[word]["mnemonic"]
@@ -97,7 +104,7 @@ class MyHandler(BaseHTTPRequestHandler):
         # word_for_sentence = [word.lower() for word in word_for_sentence]
         # word_for_write = "\n".join(word_for_sentence)
         # write_file("./word_for_sentence.txt", word_for_write)
-        
+
         if not all_examples and word in all_knonw_word_dict:
             temp_list_examples["is_known"] = True
             for example_eng, exampe_rus in all_knonw_word_dict[word]["examples"]:
@@ -105,7 +112,7 @@ class MyHandler(BaseHTTPRequestHandler):
             return translate, transcription, mnemonic, temp_list_examples, comments
 
         examples = self.all_words_json[word]["examples"]
-        
+
         for example_eng_i, example_rus_i in examples:
             words_sentence = example_rus_i["words"]
             translate_sentence = example_rus_i["translate"]
@@ -156,7 +163,7 @@ class MyHandler(BaseHTTPRequestHandler):
                     res = b"StopIteration"
                     self.wfile.write(res)
                 else:
-                    generator_for_write.send(f"{word}\n")
+                    generator_for_write_word.send(f"{word}\n")
         elif self.path in ["/word_all_examples"]:
             fields = self._analisis_request()
             if fields.get("word"):
@@ -169,7 +176,13 @@ class MyHandler(BaseHTTPRequestHandler):
                     res = b"StopIteration"
                     self.wfile.write(res)
                 else:
-                    generator_for_write.send(f"{word}\n")
+                    generator_for_write_word.send(f"{word}\n")
+        elif self.path in ["/sentence"]:
+            fields = self._analisis_request()
+            word = fields["word"][0].strip()
+            generator_for_write_sentence.send(f"{word}\n")
+            self.wfile.write(b"ok")
+
         if self.path in ["/sound"]:
             fields = self._analisis_request()
             if fields.get("word"):
@@ -183,7 +196,21 @@ class MyHandler(BaseHTTPRequestHandler):
                     self.wfile.write(res)
                 except StopIteration as e:
                     res = b"StopIteration"
-                    self.wfile.write(res)              
+                    self.wfile.write(res)
+        else:
+            self.wfile.write(b"x")    
+
+    def do_GET(self):
+        all_knonw_word_dict = self.get_know_words()
+
+        # url = unquote(self.path)
+        url2 = unquote_plus(self.path)
+        print(url2)
+        if self.path in ["/word"]:
+            fields = self._analisis_request()
+            if fields.get("word"):
+                print("xxxx")
+        self.wfile.write(b"123")
 
 
 if __name__ == "__main__":
@@ -191,7 +218,7 @@ if __name__ == "__main__":
         # Create a web server and define the handler to manage the incoming request
         server = HTTPServer(('', PORT_NUMBER), MyHandler)
         print('Started httpserver on port ', PORT_NUMBER)
-        generator_for_write.send("##########\n")
+        generator_for_write_word.send("##########\n")
         # Wait forever for incoming htto requests
         server.serve_forever()
     except KeyboardInterrupt:
