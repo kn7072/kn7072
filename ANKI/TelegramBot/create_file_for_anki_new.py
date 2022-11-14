@@ -84,12 +84,17 @@ def get_eng_rus_examples(list_examples_eng, list_examples_rus):
 
     for ind, val_i in enumerate(join_examples):
         is_learnt_class = 'class="ouline-checbox mrg-right-15"' if learnt_sentence.get(val_i[0]) else 'class="mrg-right-15"'
+        eng = val_i[0]
+        rus = val_i[1]
+        if "'" in eng:
+            eng = eng.replace("'", "\\'")
+
         if ind % 2 != 0:
             temp_list.append(temp_html.format(odd_even=ccs_class_even, is_learnt_class=is_learnt_class,
-                eng=val_i[0], rus=val_i[1]))
+                eng=eng, rus=rus))
         else:
             temp_list.append(temp_html.format(odd_even=css_class_odd, is_learnt_class=is_learnt_class,
-                eng=val_i[0], rus=val_i[1]))
+                eng=eng, rus=rus))
 
     # убераю из последнего элемента #
     temp_list[-1] = temp_list[-1].replace("#", "")
