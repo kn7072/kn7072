@@ -132,7 +132,6 @@ func creteFileUniqueWords() {
 		if err == io.EOF {
 			break
 		}
-
 	}
 
 	allWords := make([]string, 0, len(tempMap))
@@ -149,5 +148,141 @@ func creteFileUniqueWords() {
 	fileOut.Truncate(0)
 	for word, _ := range tempMap {
 		fileOut.WriteString(word + "\n")
+	}
+}
+
+
+func generateObjectAllSentence(allWord *AllWords) map[string]*Sentence {
+	allWord.mx.RLock()
+	defer allWord.mx.RUnlock()
+
+	result := make(map[string]*Sentence)
+
+	for wordI, valueI := range allWord.m {
+		for i, sentenceEngI := range valueI.Examples {
+			if sentence, ok := result[sentenceEngI]; ok {
+				sentence.updateWords(wordI)
+			} else {
+				result[sentenceEngI] = newSentence(sentenceEngI, valueI.Example_translate[i], wordI)
+			}
+		}
+	}
+
+	return result
+}
+
+func allSentence(mapSentence map[string]*Sentence) map[string]*Sentence {
+	result := make(map[string]*Sentence)
+	fileOrigin, err := os.OpenFile(config.ConfReader.GetString("path.sentence_to_learn"), os.O_RDONLY, 0755)
+	fileToConvert, err2 := os.OpenFile(config.ConfReader.GetString("path.new_file_with_sentence_and_words"), os.O_CREATE | os.O_WRONLY, 0755)
+
+	if err != nil {
+		panic(err)
+	}
+
+	if err2 != nil {
+		panic(err2)
+	}
+
+	defer fileOrigin.Close()
+	defer fileToConvert.Close()
+
+	reader := bufio.NewReader(fileOrigin)
+	fileToConvert.Truncate(0)
+	writer := bufio.NewWriter(fileToConvert)
+	
+
+	for {
+		line, err := reader.ReadString('\n')
+		line = strings.TrimSpace(line)
+		
+		if sentence, ok := mapSentence[line]; ok {
+			words := strings.Join(sentence.words, ", ")
+			writer.WriteString(fmt.Sprintf("%v;    %v;    %v\n", words, sentence.eng, sentence.rus))
+		} else {
+			panic("Не обнаружили " + line)
+		}
+
+		if err != nil {
+			if err == io.EOF {
+				writer.Flush()
+				break
+			} else {
+				panic(err)
+			}
+		}
+	}
+
+	return result
+}
+
+
+func createIgnoreWordsMap(words []string) map[string]struct{} {
+	tempMap := make(map[string]struct{})
+	for _, word := range words {
+		tempMap[word] = struct{}{}
+	}
+
+	return tempMap
+}
+
+
+func convertNotFinteForms(pathEng, pathRus, pathResult string) {
+
+	wordsToIgnore := []string{"the", "an", "a", "as", "she", "we", "you", "her", "he", "him", "on", "no", "off", "of",
+	 "for", "is", "be",	"to", "not", "in", "his", "i", "it", "me", "my", "if", "am", "are", "was", "at", "this", "they",
+	 "that", "then", "than", "do", "out", "go", "too", "with", "us", "our", "from", "have", "has", "all", "their", "so",
+	 "and", "but", "can", "your", "were"}
+	mapIgnoreWords := createIgnoreWordsMap(wordsToIgnore)
+	
+	fileEng, err := os.OpenFile(pathEng, os.O_RDONLY, 0755)
+	if err != nil {
+		log.Panic(err)
+	}
+	defer fileEng.Close()
+	
+	fileRus, err := os.OpenFile(pathRus, os.O_RDONLY, 0755)
+	if err != nil {
+		log.Panic(err)
+	}
+	defer fileRus.Close()
+
+	fileResult, err := os.OpenFile(pathResult, os.O_RDWR|os.O_CREATE, 0755)
+	if err != nil {
+		log.Panic(err)
+	}
+	defer fileResult.Close()
+
+	readerEng := bufio.NewReader(fileEng)
+	readerRus := bufio.NewReader(fileRus)
+	writerResult := bufio.NewWriter(fileResult)
+	replacer := strings.NewReplacer(".", "", ",", "", "?", "", "!", "", "(", "", ")", "", "\n", "")
+	templateRow := "%v;    %v;    %v\n"
+
+	for {
+		lineEng, errEng := readerEng.ReadString('\n')
+		lineEng = strings.TrimSpace(lineEng)
+		lineRus, _ := readerRus.ReadString('\n')
+		lineRus = strings.TrimSpace(lineRus)
+		sliceWordsEng := strings.Split(lineEng, " ")
+		sliceWordsSentence := make([]string, 0)
+
+		for _, wordI := range sliceWordsEng {
+			if wordI != " " {
+				wordI = replacer.Replace(wordI)
+				wordI = strings.ToLower(wordI)
+				if _, ok := mapIgnoreWords[wordI]; !ok {
+					sliceWordsSentence = append(sliceWordsSentence, wordI)
+				}
+			}
+		}
+
+		words := strings.Join(sliceWordsSentence, ", ")
+		writerResult.WriteString(fmt.Sprintf(templateRow, words, lineEng, lineRus))
+
+		if errEng == io.EOF {
+			writerResult.Flush()
+			break
+		}
 	}
 }
