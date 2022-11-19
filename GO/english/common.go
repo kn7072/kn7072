@@ -227,13 +227,31 @@ func createIgnoreWordsMap(words []string) map[string]struct{} {
 }
 
 
+func addElementToSlice(s *[]string, word string) bool {
+	if _, ok := AW.m[word]; ok {
+		*s = append(*s, word)
+		return true
+	}
+
+	return false
+}
+
+
 func convertNotFinteForms(pathEng, pathRus, pathResult string) {
 
 	wordsToIgnore := []string{"the", "an", "a", "as", "she", "we", "you", "her", "he", "him", "on", "no", "off", "of",
 	 "for", "is", "be",	"to", "not", "in", "his", "i", "it", "me", "my", "if", "am", "are", "was", "at", "this", "they",
 	 "that", "then", "than", "do", "out", "go", "too", "with", "us", "our", "from", "have", "has", "all", "their", "so",
-	 "and", "but", "can", "your", "were"}
+	 "and", "but", "can", "your", "were", "had", "being", "what", "why", "some", "use", "would", "could", "more", "very", 
+	 "when", "even", "about", "many", "best", "alone", "such", "there", "one", "order", "enough", "over", "by",
+
+	 "ann", "oleg", "olga", "din't", "don't", "tom", "mrs", "i'v", "u've", "it's", "teter", "must", "will", "nothing", 
+	 "tv", "home", "girl", "look", "way", "late", "left", "right", "down", "day", "never", "time", "life", "take", "work", 
+	 "car", "how", "water", "like", "mind", "help", "seems", "went"}
+
 	mapIgnoreWords := createIgnoreWordsMap(wordsToIgnore)
+	sentenceWithoutWords := make([]string, 0)
+	countWordToSuccess := 3  // у каждого предложения должно быть как минимут столько слов, чтобы предожение дублировалось
 	
 	fileEng, err := os.OpenFile(pathEng, os.O_RDONLY, 0755)
 	if err != nil {
@@ -272,17 +290,48 @@ func convertNotFinteForms(pathEng, pathRus, pathResult string) {
 				wordI = replacer.Replace(wordI)
 				wordI = strings.ToLower(wordI)
 				if _, ok := mapIgnoreWords[wordI]; !ok {
-					sliceWordsSentence = append(sliceWordsSentence, wordI)
+					
+					if addElementToSlice(&sliceWordsSentence, wordI) {
+						continue
+					} else if strings.HasSuffix(wordI, "s") {
+						wordIWithOutS := strings.TrimRight(wordI, "s")
+						addElementToSlice(&sliceWordsSentence, wordIWithOutS)
+					} else if strings.HasSuffix(wordI, "ed") { 
+						wordIWithOutD := strings.TrimRight(wordI, "d")
+						if addElementToSlice(&sliceWordsSentence, wordIWithOutD) {
+							continue
+						} else {
+							wordIWithOutEd := strings.TrimRight(wordIWithOutD, "e")
+							addElementToSlice(&sliceWordsSentence, wordIWithOutEd)
+						}
+					}
+
+					// if _, ok := AW.m[wordI]; ok {
+					// 	sliceWordsSentence = append(sliceWordsSentence, wordI)
+					// } else if strings.HasSuffix(wordI, "s") {
+					// 	wordIWithOutS := strings.TrimRight(wordI, "s")
+
+					// }
 				}
 			}
 		}
 
+		if len(sliceWordsSentence) < countWordToSuccess {
+			sentenceWithoutWords = append(sentenceWithoutWords, lineEng)
+		}
+		
 		words := strings.Join(sliceWordsSentence, ", ")
 		writerResult.WriteString(fmt.Sprintf(templateRow, words, lineEng, lineRus))
 
 		if errEng == io.EOF {
 			writerResult.Flush()
 			break
+		}
+	}
+
+	if len(sentenceWithoutWords) > 0 {
+		for i, sentenceI := range sentenceWithoutWords {
+			fmt.Println(i, sentenceI)
 		}
 	}
 }
