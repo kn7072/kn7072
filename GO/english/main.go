@@ -16,6 +16,9 @@ func main() {
 	fmt.Println(AW.m["dog"].Translate)
 	fmt.Println(config.ConfReader.GetAllKeys())
 
+	mapExistsWords, mapAdditionalWords := getMapsWordsFromSentence()
+	createFileForAddSentence(mapExistsWords, mapAdditionalWords)
+
 	// var allSentenceObject = generateObjectAllSentence(AW)
 	// v, ok := allSentenceObject["Sadly, she inherited none of her father's musical talent."]
 	// fmt.Println(v, ok)

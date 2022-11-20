@@ -15,6 +15,26 @@ import (
 	"io"
 )
 
+var (
+	wordsToIgnore = []string{"the", "an", "a", "as", "she", "we", "you", "her", "he", "him", "on", "no", "off", "of",
+	 "for", "is", "be",	"to", "not", "in", "his", "i", "it", "me", "my", "if", "am", "are", "was", "at", "this", "they",
+	 "that", "then", "than", "do", "out", "go", "too", "with", "us", "our", "from", "have", "has", "all", "their", "so",
+	 "and", "but", "can", "your", "were", "had", "being", "what", "why", "some", "use", "would", "could", "more", "very", 
+	 "when", "even", "about", "many", "best", "alone", "such", "there", "one", "order", "enough", "over", "by",
+
+	 "ann", "oleg", "olga", "din't", "don't", "tom", "mrs", "i'v", "u've", "it's", "teter", "must", "will", "nothing", 
+	 "tv", "home", "girl", "look", "way", "late", "left", "right", "down", "day", "never", "time", "life", "take", "work", 
+	 "car", "how", "water", "like", "mind", "help", "seems", "went"}
+
+	replacerCharacters = []string{".", "", ",", "", "?", "", "!", "", "(", "", ")", "", "\n", ""}
+)
+
+func trimeSpaceSlice(slice *[]string) {
+	for i, v := range *slice {
+		(*slice)[i] = strings.TrimSpace(v)
+	}
+}
+
 
 func getAllPathes(pathDir string) <-chan string {
 	
@@ -152,6 +172,142 @@ func creteFileUniqueWords() {
 }
 
 
+func differnceSlices(sliceOne, sliceTwo []string) []string {
+	mOne := make(map[string]struct{}, len(sliceOne))
+	diff := make([]string, 0)
+
+	for _, vOne := range sliceOne {
+		mOne[vOne] = struct{}{}
+	}
+	
+	for _, vTwo := range sliceTwo {
+        if _, found := mOne[vTwo]; !found {
+            diff = append(diff, vTwo)
+        }
+    }
+
+    return diff
+}
+
+// анализирует предложения
+func createFileForAddSentence(mapExistsWords, mapAdditionalWords map[string][]string) {
+	pathToFile := config.ConfReader.GetString("path.file_to_add_sentence")
+	countSentenceForWord := config.ConfReader.GetInt("path.count_sentence_for_word")
+	// tempADD := "%v %v %v %v\n"
+	tempInfo := "%v %v\n"
+
+	if file, errFile := os.OpenFile(pathToFile, os.O_CREATE|os.O_WRONLY, 0o755); errFile == nil {
+		defer file.Close()
+
+		for wordI, sentenceForWordI := range mapExistsWords {
+			
+			countSentenceWord := len(sentenceForWordI)
+			if countSentenceWord < countSentenceForWord {
+				// среди известных предложений, для слова wordI нашлось менее чем countSentenceForWord примеров
+				
+				// попробуем найти дополнительные примеры
+				if sentenceAdditionalForWords, ok := mapAdditionalWords[wordI]; ok {
+					lenAdditional := len(sentenceAdditionalForWords)
+					if countSentenceWord + lenAdditional >= countSentenceForWord {
+						// for _, sentenseI := range sentenceAdditionalForWords {
+						// 	if _, err := file.WriteString(fmt.Sprintf(tempADD, wordI, "DONE", countSentenceWord+lenAdditional, sentenseI)); err != nil {
+						// 		panic(err.Error())
+						// 	}
+						// }
+					} else {
+						// for _, sentenseI := range sentenceAdditionalForWords {
+						// 	if _, err := file.WriteString(fmt.Sprintf(tempADD, wordI, "NEED ADD", countSentenceWord+lenAdditional, sentenseI)); err != nil {
+						// 		panic(err.Error())
+						// 	}
+						// }
+					}
+				} else {
+					if _, err := file.WriteString(fmt.Sprintf(tempInfo, wordI, countSentenceWord)); err != nil {
+						panic(err.Error())
+					}
+				}
+			}
+			// if sentence, ok := wordsSentence[wordI]; ok {
+			// 	if len(sentence) < countSentenceForWord {
+			// 		if _, err := file.WriteString(wordI + "\n"); err != nil {
+			// 			panic(err.Error())
+			// 		}
+			// 	}
+			// } else {
+			// 	if _, err := file.WriteString(wordI + "\n"); err != nil {
+			// 		panic(err.Error())
+			// 	}
+			// }
+		}
+	} else {
+		panic(errFile.Error())
+	}
+}
+
+// анализирует файл Предложения.txt, считает сколько предложений приходится на каждое слово
+func getMapsWordsFromSentence() (map[string][]string, map[string][]string) {
+	result := make(map[string][]string)
+	resultAdditional := make(map[string][]string)  // потенциальные кандидаты, слова к которым можно добавить предложение
+	mapIgnoreWords := createIgnoreWordsMap(wordsToIgnore)
+	replacer := strings.NewReplacer(replacerCharacters...)
+
+	fillMap := func(sliceWords *[]string, mapToAdd map[string][]string, sentence, translate string) {
+		for _, wordI := range *sliceWords {
+			if _, ok := mapToAdd[wordI]; !ok {
+				mapToAdd[wordI] = make([]string, 0)
+			}
+
+			mapToAdd[wordI] = append(mapToAdd[wordI], fmt.Sprintf("%s;%s", sentence, translate))
+		}
+	}
+	
+	pathToFileSentence := config.ConfReader.GetString("path.path_to_sentence")
+	if file, errFile := os.OpenFile(pathToFileSentence, os.O_RDONLY, 0o755); errFile == nil {
+		defer file.Close()
+		reader := bufio.NewReader(file)
+
+		for {
+			line, errLine := reader.ReadString('\n')
+			switch errLine {
+			case nil:
+				sliceW := strings.Split(line, ";")
+				sentence := strings.TrimSpace(sliceW[1])
+				translate := strings.TrimSpace(sliceW[2])
+				tempWordsSlice := strings.Split(sliceW[0], ",")
+
+				searchWordsIntoSentence := getWordsForSentence(sentence, replacer, mapIgnoreWords)
+				
+				trimeSpaceSlice(&tempWordsSlice)
+				diffWords := differnceSlices(tempWordsSlice, searchWordsIntoSentence)
+
+				fillMap(&tempWordsSlice, result, sentence, translate)
+				fillMap(&diffWords, resultAdditional, sentence, translate)
+
+				// for _, wordI := range tempWordsSlice {
+				// 	if _, ok := result[wordI]; !ok {
+				// 		result[wordI] = make([]string, 0)
+				// 	}
+
+				// 	result[wordI] = append(result[wordI], fmt.Sprintf("%s;%s", sentence, translate))
+				// }
+
+			case io.EOF:
+				goto exit
+			default:
+				panic(errLine)
+			}
+		}
+	} else {
+		panic(errFile)
+	}
+
+exit:
+	fmt.Println("Всего уникальных слов с примерами", len(result))
+
+	return result, resultAdditional
+}
+
+
 func generateObjectAllSentence(allWord *AllWords) map[string]*Sentence {
 	allWord.mx.RLock()
 	defer allWord.mx.RUnlock()
@@ -237,21 +393,46 @@ func addElementToSlice(s *[]string, word string) bool {
 }
 
 
+// приниммает на вход предложение, разделяет его на слова и проверяет есть ли слово в списке для изучения,
+// если слово в списке - складываем его в срез
+func getWordsForSentence(lineEng string, replacer *strings.Replacer, mapIgnoreWords map[string]struct{}) []string {
+	lineEng = strings.TrimSpace(lineEng)
+	sliceWordsEng := strings.Split(lineEng, " ")
+	sliceWordsSentence := make([]string, 0)
+
+	for _, wordI := range sliceWordsEng {
+		if wordI != " " {
+			wordI = replacer.Replace(wordI)
+			wordI = strings.ToLower(wordI)
+			if _, ok := mapIgnoreWords[wordI]; !ok {
+				if addElementToSlice(&sliceWordsSentence, wordI) {
+					continue
+				} else if strings.HasSuffix(wordI, "s") {
+					wordIWithOutS := strings.TrimRight(wordI, "s")
+					addElementToSlice(&sliceWordsSentence, wordIWithOutS)
+				} else if strings.HasSuffix(wordI, "ed") { 
+					wordIWithOutD := strings.TrimRight(wordI, "d")
+					if addElementToSlice(&sliceWordsSentence, wordIWithOutD) {
+						continue
+					} else {
+						wordIWithOutEd := strings.TrimRight(wordIWithOutD, "e")
+						addElementToSlice(&sliceWordsSentence, wordIWithOutEd)
+					}
+				}
+			}
+		}
+	}
+
+	return sliceWordsSentence
+}
+
+
 func convertNotFinteForms(pathEng, pathRus, pathResult string) {
-
-	wordsToIgnore := []string{"the", "an", "a", "as", "she", "we", "you", "her", "he", "him", "on", "no", "off", "of",
-	 "for", "is", "be",	"to", "not", "in", "his", "i", "it", "me", "my", "if", "am", "are", "was", "at", "this", "they",
-	 "that", "then", "than", "do", "out", "go", "too", "with", "us", "our", "from", "have", "has", "all", "their", "so",
-	 "and", "but", "can", "your", "were", "had", "being", "what", "why", "some", "use", "would", "could", "more", "very", 
-	 "when", "even", "about", "many", "best", "alone", "such", "there", "one", "order", "enough", "over", "by",
-
-	 "ann", "oleg", "olga", "din't", "don't", "tom", "mrs", "i'v", "u've", "it's", "teter", "must", "will", "nothing", 
-	 "tv", "home", "girl", "look", "way", "late", "left", "right", "down", "day", "never", "time", "life", "take", "work", 
-	 "car", "how", "water", "like", "mind", "help", "seems", "went"}
 
 	mapIgnoreWords := createIgnoreWordsMap(wordsToIgnore)
 	sentenceWithoutWords := make([]string, 0)
 	countWordToSuccess := 3  // у каждого предложения должно быть как минимут столько слов, чтобы предожение дублировалось
+	replacer := strings.NewReplacer(replacerCharacters...)
 	
 	fileEng, err := os.OpenFile(pathEng, os.O_RDONLY, 0755)
 	if err != nil {
@@ -274,47 +455,42 @@ func convertNotFinteForms(pathEng, pathRus, pathResult string) {
 	readerEng := bufio.NewReader(fileEng)
 	readerRus := bufio.NewReader(fileRus)
 	writerResult := bufio.NewWriter(fileResult)
-	replacer := strings.NewReplacer(".", "", ",", "", "?", "", "!", "", "(", "", ")", "", "\n", "")
 	templateRow := "%v;    %v;    %v\n"
 
 	for {
 		lineEng, errEng := readerEng.ReadString('\n')
-		lineEng = strings.TrimSpace(lineEng)
+		
 		lineRus, _ := readerRus.ReadString('\n')
 		lineRus = strings.TrimSpace(lineRus)
-		sliceWordsEng := strings.Split(lineEng, " ")
-		sliceWordsSentence := make([]string, 0)
+		
+		lineEng = strings.TrimSpace(lineEng)
+		sliceWordsSentence := getWordsForSentence(lineEng, replacer, mapIgnoreWords)
+		// sliceWordsEng := strings.Split(lineEng, " ")
+		// sliceWordsSentence := make([]string, 0)
 
-		for _, wordI := range sliceWordsEng {
-			if wordI != " " {
-				wordI = replacer.Replace(wordI)
-				wordI = strings.ToLower(wordI)
-				if _, ok := mapIgnoreWords[wordI]; !ok {
+		// for _, wordI := range sliceWordsEng {
+		// 	if wordI != " " {
+		// 		wordI = replacer.Replace(wordI)
+		// 		wordI = strings.ToLower(wordI)
+		// 		if _, ok := mapIgnoreWords[wordI]; !ok {
 					
-					if addElementToSlice(&sliceWordsSentence, wordI) {
-						continue
-					} else if strings.HasSuffix(wordI, "s") {
-						wordIWithOutS := strings.TrimRight(wordI, "s")
-						addElementToSlice(&sliceWordsSentence, wordIWithOutS)
-					} else if strings.HasSuffix(wordI, "ed") { 
-						wordIWithOutD := strings.TrimRight(wordI, "d")
-						if addElementToSlice(&sliceWordsSentence, wordIWithOutD) {
-							continue
-						} else {
-							wordIWithOutEd := strings.TrimRight(wordIWithOutD, "e")
-							addElementToSlice(&sliceWordsSentence, wordIWithOutEd)
-						}
-					}
-
-					// if _, ok := AW.m[wordI]; ok {
-					// 	sliceWordsSentence = append(sliceWordsSentence, wordI)
-					// } else if strings.HasSuffix(wordI, "s") {
-					// 	wordIWithOutS := strings.TrimRight(wordI, "s")
-
-					// }
-				}
-			}
-		}
+		// 			if addElementToSlice(&sliceWordsSentence, wordI) {
+		// 				continue
+		// 			} else if strings.HasSuffix(wordI, "s") {
+		// 				wordIWithOutS := strings.TrimRight(wordI, "s")
+		// 				addElementToSlice(&sliceWordsSentence, wordIWithOutS)
+		// 			} else if strings.HasSuffix(wordI, "ed") { 
+		// 				wordIWithOutD := strings.TrimRight(wordI, "d")
+		// 				if addElementToSlice(&sliceWordsSentence, wordIWithOutD) {
+		// 					continue
+		// 				} else {
+		// 					wordIWithOutEd := strings.TrimRight(wordIWithOutD, "e")
+		// 					addElementToSlice(&sliceWordsSentence, wordIWithOutEd)
+		// 				}
+		// 			}
+		// 		}
+		// 	}
+		// }
 
 		if len(sliceWordsSentence) < countWordToSuccess {
 			sentenceWithoutWords = append(sentenceWithoutWords, lineEng)

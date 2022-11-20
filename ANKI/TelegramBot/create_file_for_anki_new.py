@@ -281,17 +281,24 @@ while True:
 <script>
 
 function sendSentence(e, sentence) {
+        var classList = e.classList;
+        classList.add('red');
+				  classList.remove('pointer');
+					e.blur();
         send(sentence, 'sentence');
 }
 
 function checkedWord(e) {
 	var parent = e.parentElement;
 	var derive = parent.getElementsByClassName('learn')[0];
+ var classes = derive.classList;
 
 	if(e.checked) {
 		derive.disabled = false;
+		classes.add('pointer');
 	} else {
 		derive.disabled = true;
+   classes.remove('pointer');
 	}
 }
 
@@ -400,7 +407,8 @@ p {margin: 0 0 5px 0;}
 
 .odd  {   background-color: #ebffe3;}
 .even  {   background-color: #fff;}
-
+.pointer {cursor: pointer;}
+.red {outline: 2px solid red;}
 .bottom-learn { margin-bottom: 10px; }
 .mrg-right-15 { margin-right: 15px; }
 .ouline-checbox { outline: 3px solid green; }

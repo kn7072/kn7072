@@ -39,12 +39,17 @@ func (v *viperConfigReader) GetViper() *viper.Viper {
 	return v.viper
 }
 
+func (v *viperConfigReader) GetInt(key string) int {
+	return v.viper.GetInt(key)
+}
+
 func init() {
 	v := viper.New()
 	// v.SetConfigName("config.yaml")
 	// v.AddConfigPath("./config/")
 	v.SetConfigFile("./config/config.yaml")
 	err := v.ReadInConfig()
+
 	if err != nil {
 		log.Panic("Not able to read configuration", err.Error())
 	}
@@ -52,5 +57,4 @@ func init() {
 	ConfReader = &viperConfigReader{
 		viper: v,
 	}
-	
 }
