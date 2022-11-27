@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 
 # https://pymotw.com/3/gc/
-
+import os
 import gc
 import random
 import sys
 
+
+print(os.getpid())
 
 class B:
     pass
