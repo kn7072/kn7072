@@ -329,8 +329,8 @@ func generateObjectAllSentence(allWord *AllWords) map[string]*Sentence {
 
 func allSentence(mapSentence map[string]*Sentence) map[string]*Sentence {
 	result := make(map[string]*Sentence)
-	fileOrigin, err := os.OpenFile(config.ConfReader.GetString("path.sentence_to_learn"), os.O_RDONLY, 0755)
-	fileToConvert, err2 := os.OpenFile(config.ConfReader.GetString("path.new_file_with_sentence_and_words"), os.O_CREATE | os.O_WRONLY, 0755)
+	fileOrigin, err := os.OpenFile(config.ConfReader.GetString("path.sentence_to_learn"), os.O_RDONLY, 0555)
+	fileToConvert, err2 := os.OpenFile(config.ConfReader.GetString("path.new_file_with_sentence_and_words"), os.O_CREATE | os.O_WRONLY, 0555)
 
 	if err != nil {
 		panic(err)
@@ -346,11 +346,18 @@ func allSentence(mapSentence map[string]*Sentence) map[string]*Sentence {
 	reader := bufio.NewReader(fileOrigin)
 	fileToConvert.Truncate(0)
 	writer := bufio.NewWriter(fileToConvert)
-	
+	sliceRepeatSentence := make(map[string]struct{})
+
 
 	for {
 		line, err := reader.ReadString('\n')
 		line = strings.TrimSpace(line)
+
+		if _, ok := sliceRepeatSentence[line]; ok {
+			continue
+		} else {
+			sliceRepeatSentence[line] = struct{}{}
+		}
 		
 		if sentence, ok := mapSentence[line]; ok {
 			words := strings.Join(sentence.words, ", ")
