@@ -1,5 +1,6 @@
 package main
 
+// https://habr.com/ru/post/307220/
 import (
 	"fmt"
 )

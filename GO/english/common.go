@@ -196,7 +196,7 @@ func createFileForAddSentence(mapExistsWords, mapAdditionalWords map[string][]st
 	// tempADD := "%v %v %v %v\n"
 	tempInfo := "%v %v\n"
 
-	if file, errFile := os.OpenFile(pathToFile, os.O_CREATE|os.O_WRONLY, 0o755); errFile == nil {
+	if file, errFile := os.OpenFile(pathToFile, os.O_CREATE|os.O_WRONLY, 0o555); errFile == nil {
 		defer file.Close()
 
 		for wordI, sentenceForWordI := range mapExistsWords {

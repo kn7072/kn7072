@@ -1,0 +1,60 @@
+smb://mila@n74.local/
+Che15003510474
+192.168.1.67 n74
+
+
+//n74/english /media/nas/test_folder cifs credentials=/home/stapan/.smbcredentials,vers=3.0,uid=1000,gid=1000 0 0
+
+
+volume1/english
+https://kb.synology.com/en-global/DSM/tutorial/How_to_access_files_on_Synology_NAS_within_the_local_network_NFS
+https://robferguson.org/blog/2016/12/18/enable-nfs-on-your-synology-nas/
+
+sudo apt install nfs-common
+We can use the showmount command to query the mount daemon (NFS Server):
+showmount -e nas-1
+
+sudo mount n74:/volume1/english /media/nas/test_folder
+sudo mount -v -t nfs -o rw 192.168.1.68:/volume1/raid /media/nas
+
+sudo mount -o uid=stapan 192.168.1.68:/volume1/raid /media/nas
+sudo mount -v -t nfs -o rw -o uid=stapan -o gid=stapan 192.168.1.68:/volume1/raid /media/nas
+
+n74:/volume1/english /media/nas/test_folder nfs rsize=8192,wsize=8192,timeo=14,intr
+
+
+РАБОТАЕТ
+sudo apt install curlftpfs
+sudo curlftpfs -o allow_other ftp://mila:Che15003510474@192.168.1.67:21/ /media/nas/test_folder
+sudo fusermount -u /media/nas/test_folder
+
+sudo mount -v -o rw n74:/volume1/english /mnt/nas/test_folder
+sudo mount -v --label="NAS" -o rw n74:/volume1/english /mnt 
+
+# размонтирование устройств в Linux
+sudo umount /mnt
+
+Но иногда может возникнуть ошибка размонтирования. 
+Система сообщит, что устройство занято: umount: /mnt: target is busy.
+
+lsof -w /mnt
+lsof -w /dev/sdb6
+
+Здесь вы видите всю необходимую информацию, чтобы понять что происходит
+и что с этим делать. Утилита вывела название программы, ее PID, 
+и даже файл, с которым она работает. Вы можете завершить все программы, 
+а потом снова повторить попытку или используйте опцию -l, файловая система 
+будет отключена немедленно, несмотря на то, что она занята:
+
+sudo umount -l /mnt
+
+
+sudo mount -v -o username=mila,password=Che15003510474 n74:/volume1/english /mnt/nas/test_folder
+
+sudo mount -t smbfs -o username=vasja,password=pupkin //pupkin_v/Video /home/user/video
+
+ssh -i ~/.ssh/for_virtual/id_rsa stepan@localhost -p 10022
+
+sudo mount -v -t nfs -o rw 192.168.1.70:/volume1/raid /media/nas/test_folder
+
+sudo mount -v -t nfs -o rw 192.168.1.70:/volume1/raid /media/nas/raid

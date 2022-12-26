@@ -19,7 +19,7 @@ class State(ABC):
         ...
 
     @abstractmethod
-    def eject_quarter() -> None:
+    def reject_quarter() -> None:
         """Вернуть монету."""
         ...
 
@@ -42,7 +42,7 @@ class NoQuarterState(State):
         print("Монета в автомате - пока все ок.")
         self._context.set_state(self._context.get_has_quarter_state())
 
-    def eject_quarter(self: NoQuarterState) -> None:
+    def reject_quarter(self: NoQuarterState) -> None:
         """Вернуть монету."""
         print("Чтобы вернуть монету - ее сначала нужно вставить в автомат.")
 
@@ -62,7 +62,7 @@ class HasQuarterState(State):
         """Вставить монету в автомат."""
         print("Вы уже втавили монету - можете повернуть рычаг и купить шарик и вернуть монету.")
 
-    def eject_quarter(self: NoQuarterState) -> None:
+    def reject_quarter(self: NoQuarterState) -> None:
         """Вернуть монету."""
         print("Возьмите Вашу монету.")
         self._context.set_state(self._context.get_no_quarter_state())
@@ -88,7 +88,7 @@ class SoldState(State):
         """Вставить монету в автомат."""
         print("Вы уже приобрели шарик - возьмите его. Затем можете вновь вставить монету.")
 
-    def eject_quarter(self: NoQuarterState) -> None:
+    def reject_quarter(self: NoQuarterState) -> None:
         """Вернуть монету."""
         print("Извените - сделка уже совершена.")
 
@@ -115,7 +115,7 @@ class SoldOutState(State):
         """Вставить монету в автомат."""
         print("Вы не можете вставить монету так как шарики закончились.")
 
-    def eject_quarter(self: NoQuarterState) -> None:
+    def reject_quarter(self: NoQuarterState) -> None:
         """Вернуть монету."""
         print("Вы не вставили монету, не стоит этого делать так как шарики закончились.")
 
@@ -135,7 +135,7 @@ class WinnerState(State):
         """Вставить монету в автомат."""
         print("Вы уже приобрели шарик - возьмите его. Затем можете вновь вставить монету.")
 
-    def eject_quarter(self: NoQuarterState) -> None:
+    def reject_quarter(self: NoQuarterState) -> None:
         """Вернуть монету."""
         print("Извените - сделка уже совершена.")
 
@@ -177,9 +177,9 @@ class Context:
         """Вставляет монету в автомат."""
         self._state.insert_quarter()
 
-    def eject_quarter(self: Context) -> None:
+    def reject_quarter(self: Context) -> None:
         """Запрос на возврат монета."""
-        self._state.eject_quarter()
+        self._state.reject_quarter()
 
     def turn_crank(self: Context) -> None:
         """Повернуть рычаг - чтобы сделка состоялась."""
@@ -214,7 +214,7 @@ class Context:
 if __name__ == "__main__":
     context = Context(count_ball=10)
     context.insert_quarter()  # вставили монету
-    context.eject_quarter()  # верните монету
+    context.reject_quarter()  # верните монету
 
     context.insert_quarter()
     context.turn_crank()  # покупаю шарик

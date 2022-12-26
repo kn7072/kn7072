@@ -1,5 +1,8 @@
 package main
 
+// https://habr.com/ru/post/331904/
+// https://habr.com/ru/post/537290/
+
 import (
 	"fmt"
 	"kosarau/stack"
