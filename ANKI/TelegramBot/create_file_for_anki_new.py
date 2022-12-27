@@ -83,22 +83,28 @@ def get_eng_rus_examples(list_examples_eng, list_examples_rus):
     join_examples = zip(list_examples_eng, list_examples_rus)
 
     for ind, val_i in enumerate(join_examples):
-        is_learnt_class = 'class="ouline-checbox mrg-right-15"' if learnt_sentence.get(val_i[0]) else 'class="mrg-right-15"'
+        # если предложение найдено в learnt_sentence - помечаем его классом ouline-checbox
+        is_learn = 0
+        is_learnt_class = 'class="mrg-right-15"'
+        if learnt_sentence.get(val_i[0]):
+            is_learnt_class = 'class="ouline-checbox mrg-right-15"'
+            is_learn = 1
+
         eng = val_i[0]
         rus = val_i[1]
         if "'" in eng:
+            # экранирование апострофа
             eng = eng.replace("'", "\\'")
 
         if ind % 2 != 0:
-            temp_list.append(temp_html.format(odd_even=ccs_class_even, is_learnt_class=is_learnt_class,
-                eng=eng, rus=rus))
+            temp_list.append((is_learn, temp_html.format(odd_even=ccs_class_even,
+                              is_learnt_class=is_learnt_class, eng=eng, rus=rus)))
         else:
-            temp_list.append(temp_html.format(odd_even=css_class_odd, is_learnt_class=is_learnt_class,
-                eng=eng, rus=rus))
+            temp_list.append((is_learn, temp_html.format(odd_even=css_class_odd,
+                              is_learnt_class=is_learnt_class, eng=eng, rus=rus)))
 
-    # убераю из последнего элемента #
-    temp_list[-1] = temp_list[-1].replace("#", "")
-    examples = "".join(temp_list)
+    temp_list.sort(key=lambda x: x[0], reverse=True)
+    examples = "".join([v[1] for v in temp_list])
     return examples
 
 
@@ -239,6 +245,22 @@ content_iterator = get_content_word(data_all_words)
 limit = 2000
 i = 1
 learnt_sentence: dict = get_learnt_sentence()
+
+### ВРЕММЕННО - ДЛЯ ЗАПОЛЕНИНИЯ НЕДОСТАЮЩИХ ПРЕДЛОЖЕНИЙ
+limit = 800
+def temp_content():
+    list_word_learn = []
+    for line_i in open("/home/stapan/GIT/kn7072/GO/english/ADD_SENTENCE.txt", encoding="utf-8"):
+        word_i, frequency_i, *x = line_i.rsplit(" ", 1)
+        if x:
+            print(line_i)
+        list_word_learn.append(word_i)
+
+    return list_word_learn
+ 
+content_iterator = get_content_word(temp_content())
+### 
+
 
 while True:
 
