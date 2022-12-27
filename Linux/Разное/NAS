@@ -55,6 +55,6 @@ sudo mount -t smbfs -o username=vasja,password=pupkin //pupkin_v/Video /home/use
 
 ssh -i ~/.ssh/for_virtual/id_rsa stepan@localhost -p 10022
 
-sudo mount -v -t nfs -o rw 192.168.1.70:/volume1/raid /media/nas/test_folder
+sudo mount -v -t nfs -o rw 192.168.1.70:/volume2/Torrens /media/nas/test_folder
 
 sudo mount -v -t nfs -o rw 192.168.1.70:/volume1/raid /media/nas/raid
