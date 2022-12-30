@@ -1,0 +1,91 @@
+docker run -it --rm --name my_centos centos bash
+docker build -t my_centos .
+docker build -t my_centos -f Dockerfile3_7 .
+
+https://techglimpse.com/failed-metadata-repo-appstream-centos-8/
+https://stackoverflow.com/questions/70963985/error-failed-to-download-metadata-for-repo-appstream-cannot-prepare-internal
+
+cd /etc/yum.repos.d/
+sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+cd ~
+
+УСТАНОВКА 11 ВЕРСИИ 
+https://www.workaround.cz/howto-build-compile-install-latest-python-311-310-39-38-37-centos-7-8-9/
+yum update -y
+yum -y install wget make yum-utils gcc openssl-devel bzip2-devel libffi-devel
+
+
+Step 2: Download and unpack the Python source code.
+mkdir tmp
+cd /tmp/
+wget https://www.python.org/ftp/python/3.11.1/Python-3.11.1.tgz
+tar xzf Python-3.11.1.tgz
+cd Python-3.11.1
+
+
+/root/tmp/Python-3.11.1
+
+
+yum install make
+
+./configure --prefix=/opt/python311 --enable-optimizations --with-system-ffi --with-computed-gotos --enable-loadable-sqlite-extensions
+make -j "$(nproc)"
+make altinstall
+
+
+Step 5: Checking Python binaries
+
+The Python interpreter is located at /opt/python311/bin/ after installation.
+
+import struct 
+# Return 64 means 64-bit version, return 32 means 32-bit version.
+print(struct.calcsize("P")*8 )
+
+
+yum -y install libgcc.i686 glibc-devel.i686 glibc.i686 zlib-devel.i686 readline-devel.i686 gdbm-devel.i686 openssl-devel.i686 ncurses-devel.i686 tcl-devel.i686 bzip2-devel.i686 libffi.i686 libffi-devel.i686
+Error: Unable to find a match: db4-devel.i686
+
+/etc/yum.repos.d/tmp/Python-3.11.1
+
+
+ldd /usr/local/bin/python
+find . -type f -name "libpython3.11*"
+
+
+
+https://gist.github.com/chirag-jog/2a1bdd9ec867997d2a3e
+yum -y install libgcc.i686 glibc-devel.i686 glibc.i686 zlib-devel.i686 readline-devel.i686 gdbm-devel.i686 openssl-devel.i686 ncurses-devel.i686 tcl-devel.i686 bzip2-devel.i686 libffi.i686 libffi-devel.i686
+wget https://www.python.org/ftp/python/3.11.1/Python-3.11.1.tgz
+tar xzf Python-3.11.1.tgz
+cd Python-3.11.1
+BASECFLAGS=-m32 LDFLAGS=-m32 CFLAGS=-m32  ./configure --prefix=/opt/python32 --enable-shared
+make
+make install
+echo "/opt/python32/lib/" >> /etc/ld.so.conf.d/python.conf
+
+ldconfig -v
+
+LD_LIBRARY_PATH=/etc/yum.repos.d/tmp/Python-3.11.1 /opt/python32/bin/python3.11
+
+https://stackoverflow.com/questions/7880454/python-executable-not-finding-libpython-shared-library
+https://stackoverflow.com/questions/70963985/error-failed-to-download-metadata-for-repo-appstream-cannot-prepare-internal
+
+
+https://stackoverflow.com/questions/21281259/how-do-i-compile-and-run-32-bit-python-on-64-bit-centos-6
+
+yum install libgcc.i686 glibc-devel.i686 glibc.i686 zlib-devel.i686 readline-devel.i686 gdbm-devel.i686 openssl-devel.i686 ncurses-devel.i686 tcl-devel.i686 bzip2-devel.i686 libxslt-devel libxml2-devel
+CFLAGS=-m32 LDFLAGS=-m32 ./configure --prefix=/opt/python32 --enable-shared LD_RUN_PATH=/opt/python32/lib
+make -j "$(nproc)"
+make altinstall
+
+LD_LIBRARY_PATH=/root/Python-3.11.1 /opt/python32/bin/python3.11
+
+
+yum -y yum install libxslt-devel libxml2-devel
+
+pip install mkl-devel
+
+установка pip
+https://linuxize.com/post/how-to-install-pip-on-centos-7/
+https://techglimpse.com/yum-error-unable-to-find-a-match-python-pip-fix/
