@@ -1,0 +1,37 @@
+https://askubuntu.com/questions/221962/how-can-i-extract-a-page-range-a-part-of-a-pdf
+
+
+From the docs:
+
+pdfseparate sample.pdf sample-%d.pdf
+
+extracts  all pages from sample.pdf, if i.e. sample.pdf has 3 pages, it
+   produces
+
+sample-1.pdf, sample-2.pdf, sample-3.pdf
+
+Or, to select a single page (in this case, the first page) from the file sample.pdf:
+
+pdfseparate -f 1 -l 1 sample.pdf sample-1.pdf
+
+
+pdfseparate origin.pdf %d_page.pdf
+
+# разделяет документ по страницам
+for i in `seq -w 5`; do pdftk origin.pdf cat $i output ./temp2/${i}_page.pdf; done
+
+# сборкой документа занимается pdf chain
+
+конвертирование
+https://askubuntu.com/questions/303849/create-a-single-pdf-from-multiple-text-images-or-pdf-files
+
+convert -quality 85 `find -type f -name '*.png' -or -name '*.jpg' | sort -V` output.pdf
+
+
+convert -quality 85 `find -type f -name '*page.pdf' | sort -V`  output.pdf
+
+
+
+обрезать страницы
+https://askubuntu.ru/questions/216874/instrument-komandnoj-stroki-dlja-obrezki-fajlov-pdf
+
