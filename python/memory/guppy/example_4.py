@@ -54,5 +54,9 @@ print("Number of Entries : ", stats.numrows)
 print("Entries : ")
 
 print("Index Count  Size  Cumulative Size         Object Name")
+mb = (1024*1024)
 for row in stats.get_rows():
     print("%5d%5d%8d%8d%30s" % (row.index, row.count, row.size, row.cumulsize, row.name))
+    print(f"{row.index:5d}{row.count:8d}{(row.size/mb):8.2f}{(row.cumulsize/mb):8.2f}{row.name:>50}")#  % (row.index, row.count, row.size, row.cumulsize, row.name))
+
+
