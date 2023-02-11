@@ -19,6 +19,20 @@ from guppy import hpy
 import numpy as np
 
 
+def log_memory(log, heap, msg, percentage=50):
+    first_line = "Total Objects: %s, Total Size: %s"
+    log(msg)
+    log(first_line % (heap.count, heap.size))
+    log(f"Выводятся только объекты, суммарный размер который превышает {percentage}% от общего размера {heap.size}")
+    stat = heap.stat if getattr(heap, "get_rows", None) is None else heap
+    for row in stat.get_rows():
+        if (row.cumulsize / heap.size) * 100 < percentage:
+            log("%5d%5d%8d%8d%30s"%(row.index, row.count, row.size, row.cumulsize, row.name))
+        else:
+            break
+    log(str(heap))
+
+
 heap = hpy()
 
 heap_status0 = heap.heap()
@@ -27,7 +41,12 @@ heap_status1 = heap.heap()
 print("Heap Size : ", heap_status1.size, " bytes\n")
 print(heap_status1)
 
-print("DIFF \n", str(heap_status1.diff(heap_status0)))
+memory_diff = heap_status1.diff(heap_status0)
+print("DIFF \n", str(memory_diff))
+
+log_memory(print, heap_status0, "before")
+log_memory(print, heap_status1, "after")
+log_memory(print, memory_diff, "diff")
 
 heap.setref()
 
