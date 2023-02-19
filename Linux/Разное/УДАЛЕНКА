@@ -46,6 +46,9 @@ xfreerdp  /monitor-list /u:sg.chernov /p:qweQWE1 /v:nsdr-chernovsg.corp.tensor.r
 
 xfreerdp  /monitors:0,1 /multimon /u:sg.chernov /p:qweQWE1 /v:nsdr-chernovsg.corp.tensor.ru
 
+# для установки разрешения экрана(разрешение можно узнать вызвав xfreerdp  /monitor-list /u:ЛОГИН /p:ДоменныйПароль /v:ИМЯ_ТАЧКИ.corp.tensor.ru)
+xfreerdp /u:sg.chernov /p:qweQWE1 /v:nsdr-chernovsg.corp.tensor.ru /smart-sizing:1400x1080 /f
+
 
 openvpn3 config-import -c tensor_dev_yar.ovpn -p
 openvpn3 session-start -c tensor_dev_yar.ovpn
