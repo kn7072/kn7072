@@ -98,6 +98,8 @@ git checkout -- create_sign.py - сброс до последнего комми
 
 ##########################################################
 $ git branch -a
+git branch -a --list "*23*" фильтруем ветки
+
 git checkout -b feature/oa.guzenko/mobile_5.3 remotes/origin/feature/oa.guzenko/mobile_5.3 --
 
 git checkout -b iss53 Чтобы создать ветку и сразу же перейти на неё
