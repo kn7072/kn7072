@@ -5,7 +5,22 @@ JetBrainsMono Nerd Font
 распаковать архив в каталог(создать если татого каталога нет)
 ~/.local/share/fonts/
 
+или через установку
+https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/README.md
+https://github.com/JetBrains/JetBrainsMono
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+
 https://bytexd.com/how-to-install-nerd-fonts-on-linux/
+
+найти иконку по коду
+https://www.nerdfonts.com/cheat-sheet
+
+как проверить шрифты
+https://bytexd.com/how-to-install-nerd-fonts-on-linux/
+
+в 3 версии убрали Material Design Icons
+поэтому выкачиваем https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.3.3
+и устанавливаем ./install.sh
 
 # установка ripgrep
 используется в плагине telescope
