@@ -1,3 +1,4 @@
+local utf8 = require "lua-utf8"
 local M = {}
 
 --- Check if a file or directory exists in this path
@@ -92,6 +93,70 @@ function M.create_single_lines(tab)
     end
 
     return table.concat(rus_t, " "), table.concat(eng_t, " ")
+end
+
+function M.create_file_for_single_line(path_file, line, chunk_size)
+    local f = assert(io.open(path_file, "w"))
+    for _, line_i in pairs(M:split(line, chunk_size)) do
+        f:write(line_i .. "\n")
+    end
+    -- local i = 1
+    -- while true do
+    --     local chunk_line = line:sub(i, i + chunk_size - 1)
+    --     if true then end
+    -- end
+end
+
+function M:split(text, chunk_size)
+    local s = {}
+    local i = 1
+    local stop_index = 30
+
+    while true do
+
+        if stop_index < 0 then break end
+
+        local right_border = i + chunk_size - 1
+        local line_i = utf8.sub(text, i, right_border)
+        -- print(string.format("#### borders %d %d\n", i, right_border))
+        if line_i == "" then
+            -- строка закончилась - выходим
+            break
+        end
+        local last_character = utf8.len(line_i)
+        -- print("line_i " .. line_i)
+        local last_char = utf8.sub(line_i, last_character, last_character)
+        -- print("last_char " .. last_char)
+
+        if last_char == " " then
+            s[#s + 1] = line_i
+            -- print(string.format("borders %d %d line_i %s)", i, right_border, line_i))
+            -- прибавим к правой границе 1
+            i = right_border + 1
+        else
+            local ofset = 0
+            local stop_index_inner = 0
+            while true do
+                local char_i = utf8.sub(line_i, last_character - ofset,
+                                        last_character - ofset)
+                -- print("char_i " .. char_i)
+                if char_i == " " then
+                    break
+                else
+                    ofset = ofset + 1
+                end
+                stop_index_inner = stop_index_inner + 1
+                if stop_index_inner > 30 then break end
+            end
+            local new_i = right_border - ofset
+            local line_to_save = utf8.sub(text, i, new_i)
+            -- print(string.format("borders 2 %d %d line_i %s", i, new_i, line_to_save))
+            s[#s + 1] = line_to_save
+            i = new_i + 1
+        end
+        stop_index = stop_index - 1
+    end
+    return s
 end
 
 return M

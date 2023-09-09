@@ -15,4 +15,8 @@ functions.print_table(new_shuffle_question_table)
 
 local single_rus, single_eng = functions.create_single_lines(
                                    new_shuffle_question_table)
-print(single_rus)
+-- print(single_rus)
+functions.create_file_for_single_line(
+    "/home/stepan/TEMP/english/question/eng.txt", single_eng, config.line_size)
+functions.create_file_for_single_line(
+    "/home/stepan/TEMP/english/question/rus.txt", single_rus, config.line_size)
