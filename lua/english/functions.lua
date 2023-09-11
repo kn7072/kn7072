@@ -40,6 +40,13 @@ local function insert_table(file, table, prefix, add_number)
     return table
 end
 
+function M.get_table_for_file(path_to_file, prefix, add_number)
+    local res_table = {}
+    local f = assert(io.open(path_to_file, "r"))
+    insert_table(f, res_table, prefix, add_number)
+    return res_table
+end
+
 function M.get_table_for_dir(path_to_dir, rus_file_name, eng_file_name, prefix,
                              add_number)
     local is_dir, err = isdir(path_to_dir)
@@ -99,6 +106,7 @@ function M.create_file_for_single_line(path_file, line, chunk_size)
     local f = assert(io.open(path_file, "w"))
     for _, line_i in pairs(M:split(line, chunk_size)) do
         f:write(line_i .. "\n")
+        -- print(line_i .. "\n")
     end
     -- local i = 1
     -- while true do
@@ -110,17 +118,21 @@ end
 function M:split(text, chunk_size)
     local s = {}
     local i = 1
-    local stop_index = 30
+    local stop_index = 0
 
     while true do
 
-        if stop_index < 0 then break end
+        if stop_index > 30 then
+            print("STOP INDEX")
+            break
+        end
 
         local right_border = i + chunk_size - 1
         local line_i = utf8.sub(text, i, right_border)
-        -- print(string.format("#### borders %d %d\n", i, right_border))
+        print(string.format("#### borders %d %d\n", i, right_border))
         if line_i == "" then
             -- строка закончилась - выходим
+            print("EXIT")
             break
         end
         local last_character = utf8.len(line_i)
@@ -133,6 +145,8 @@ function M:split(text, chunk_size)
             -- print(string.format("borders %d %d line_i %s)", i, right_border, line_i))
             -- прибавим к правой границе 1
             i = right_border + 1
+            stop_index = 0
+
         else
             local ofset = 0
             local stop_index_inner = 0
@@ -141,12 +155,13 @@ function M:split(text, chunk_size)
                                         last_character - ofset)
                 -- print("char_i " .. char_i)
                 if char_i == " " then
+                    stop_index = 0
                     break
                 else
                     ofset = ofset + 1
                 end
                 stop_index_inner = stop_index_inner + 1
-                if stop_index_inner > 30 then break end
+                if stop_index_inner > 50 then break end
             end
             local new_i = right_border - ofset
             local line_to_save = utf8.sub(text, i, new_i)
@@ -154,7 +169,7 @@ function M:split(text, chunk_size)
             s[#s + 1] = line_to_save
             i = new_i + 1
         end
-        stop_index = stop_index - 1
+        stop_index = stop_index + 1
     end
     return s
 end
