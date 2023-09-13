@@ -1,4 +1,10 @@
 local utf8 = require "lua-utf8"
+local path = require "pl.path"
+print(path)
+--[[
+sudo luarocks install penlight
+http://stevedonovan.github.io/Penlight/api/index.html
+--]]
 local M = {}
 
 --- Check if a file or directory exists in this path
@@ -50,7 +56,7 @@ end
 function M.get_table_for_dir(path_to_dir, rus_file_name, eng_file_name, prefix,
                              add_number)
     local is_dir, err = isdir(path_to_dir)
-    print(is_dir, err)
+    -- print(is_dir, err)
     local res_table = {}
     local rus_table = {}
     local eng_table = {}
@@ -66,8 +72,9 @@ function M.get_table_for_dir(path_to_dir, rus_file_name, eng_file_name, prefix,
         insert_table(eng_f, eng_table, prefix, add_number)
 
         if #eng_table ~= #rus_table then
-            error("count of lines is different" .. "\n" .. path_to_eng_file ..
-                      "\n" .. path_to_rus_file)
+            error(string.format("count of lines is different\n%s = %d\n%s = %d",
+                                path_to_eng_file, #eng_table, path_to_rus_file,
+                                #rus_table))
         end
 
         for i = 1, #rus_table do
@@ -104,7 +111,7 @@ end
 
 function M.create_file_for_single_line(path_file, line, chunk_size)
     local f = assert(io.open(path_file, "w"))
-    for _, line_i in pairs(M:split(line, chunk_size)) do
+    for _, line_i in pairs(M.split(line, chunk_size)) do
         f:write(line_i .. "\n")
         -- print(line_i .. "\n")
     end
@@ -115,7 +122,7 @@ function M.create_file_for_single_line(path_file, line, chunk_size)
     -- end
 end
 
-function M:split(text, chunk_size)
+function M.split(text, chunk_size)
     local s = {}
     local i = 1
     local stop_index = 0
@@ -129,7 +136,7 @@ function M:split(text, chunk_size)
 
         local right_border = i + chunk_size - 1
         local line_i = utf8.sub(text, i, right_border)
-        print(string.format("#### borders %d %d\n", i, right_border))
+        -- print(string.format("#### borders %d %d\n", i, right_border))
         if line_i == "" then
             -- строка закончилась - выходим
             print("EXIT")
@@ -172,6 +179,20 @@ function M:split(text, chunk_size)
         stop_index = stop_index + 1
     end
     return s
+end
+
+function M.get_inner_pathes_of_folder(path_to_folder)
+    -- print(path_to_folder)
+    local inner_folders = {}
+    for path_i in path.dir(path_to_folder) do
+        if not string.find(path_i, "%.") then
+            local all_path = path.join(path_to_folder, path_i)
+            -- print(all_path)
+            inner_folders[path_i] = all_path
+        end
+        -- print(path_i)
+    end
+    return inner_folders
 end
 
 return M

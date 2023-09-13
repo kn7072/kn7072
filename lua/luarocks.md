@@ -1,6 +1,7 @@
 
 sudo luarocks --lua-version 5.4 install luasocket
 sudo luarocks --lua-version 5.4 install luafilesystem
+sudo luarocks --lua-version 5.4 install penlight
 
 Options:
    -h, --help            Show this help message and exit.
