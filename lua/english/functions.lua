@@ -195,4 +195,7 @@ function M.get_inner_pathes_of_folder(path_to_folder)
     return inner_folders
 end
 
+function M.merge_tables(destination, source)
+    for _, v in pairs(source) do destination[#destination + 1] = v end
+end
 return M
