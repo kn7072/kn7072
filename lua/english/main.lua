@@ -1,11 +1,14 @@
 package.path = package.path .. "/home/stepan/GIT/kn7072/lua/english/?.lua"
 
 local config = require("config")
--- print(config.path_to_general_dir)
 local functions = require("functions")
-local all_sentense = {}
+local phrasal_verbs = require("phrasal_verbs")
 
-all_table_kespa = {}
+local phrasal_verbs_table = phrasal_verbs.get_phrasal_verbs()
+-- functions.print_table(phrasal_verbs_table)
+
+local all_sentense = {}
+local all_table_kespa = {}
 local path_to_kespa =
     "/home/stepan/GIT/kn7072/EnglishSimulate/Project/кэспа/grammar"
 local innet_pathes = functions.get_inner_pathes_of_folder(path_to_kespa)
@@ -63,3 +66,4 @@ print(#table_all_sentence)
 functions.create_file_for_single_line("/home/stepan/TEMP/english/all/all.txt",
                                       single_line_all_sentence, config.line_size)
 --]]
+local all_sentense_mod = require("for_all_sentence")

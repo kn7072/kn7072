@@ -198,4 +198,10 @@ end
 function M.merge_tables(destination, source)
     for _, v in pairs(source) do destination[#destination + 1] = v end
 end
+
+function M.read_file(path_to_file)
+    local f = assert(io.open(path_to_file, "r"))
+    return f:read("a")
+end
+
 return M
