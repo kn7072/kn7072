@@ -3,7 +3,7 @@
 start_xclip="start"
 start_clipboard="clipboard_" # буфер ctrl + c
 service_url="http://192.168.1.53:8088"
-service_url="http://localhost:8088"
+service_url="http://localhost:8090"
 temp_file_name="stdout"
 
 while true; do
