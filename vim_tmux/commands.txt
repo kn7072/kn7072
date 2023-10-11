@@ -1,0 +1,11 @@
+Здесь знак "&" перед runtimepath обозначает, что это не простая переменная, а параметр самого Vim
+: echo &runtimepath
+: echo nvim_list_runtime_paths()
+
+
+:set runtimepath=~/vimruntime,/home/stepan/.local/share/nvim/site/nvim-whid,$VIMRUNTIME
+
+
+https://vonheikemen.github.io/devlog/tools/neovim-plugins-to-get-started/
+:set packpath?
+:lua vim.tbl_map(print, vim.opt.packpath:get())
