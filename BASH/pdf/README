@@ -20,6 +20,9 @@ pdfseparate origin.pdf %d_page.pdf
 # разделяет документ по страницам
 for i in `seq -w 5`; do pdftk origin.pdf cat $i output ./temp2/${i}_page.pdf; done
 
+или болелее быстрый
+gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -sOutputFile=output%02d.pdf input.pdf
+
 # сборкой документа занимается pdf chain
 
 конвертирование
@@ -34,4 +37,6 @@ convert -quality 85 `find -type f -name '*page.pdf' | sort -V`  output.pdf
 
 обрезать страницы
 https://askubuntu.ru/questions/216874/instrument-komandnoj-stroki-dlja-obrezki-fajlov-pdf
+чтобы можно было обрезать страницы утилитой pdfcrop необходимо установить
+sudo apt-get install texlive-extra-utils
 
