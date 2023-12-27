@@ -1,0 +1,57 @@
+https://old2.breys.ru/blog/315.html
+
+4. Как мне создать теговый файл для моего С\С++ проекта?
+
+Простой способ:
+
+    ctags -R
+
+создаст файл tags рекурсивно обойдя файлы текущей директории.
+
+Я предпочитаю способ посложнее:
+
+    ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
+
+Разберемся в опциях:
+--c++-kinds=+p - добавляет прототипы к базе тэгов для С\С++ файлов
+--fields=+iaS - используемые поля: наследование (i), доступ (a), сигнатура функции (S)
+--extra=+q - добавляет контекстную информацию к тегу. (без этой опции скрипт не может получить методы класса (Without this option, the script cannot get class members.))
+
+5. Как добавить тег файл к текущей сессии vim?
+
+    :set tags+=/path/to/file
+
+Некоторые пути сканируются по умолчанию, это:
+./tags,./TAGS,tags,TAGS
+
+#############################
+прочитать для C/C++
+https://www.topbug.net/blog/2012/03/17/generate-ctags-files-for-c-slash-c-plus-plus-source-files-and-all-of-their-included-header-files/
+
+
+Why must we generate a tags file containing all the symbols in the system header? If we only generate the tags file only for the header files that are related to our projects, would it be faster? That’s the point of this idea. We could first search for the header files that are included in our projects, and then we use ctags to generate a tags file for these files and our source files, in this way, a much smaller tags file that containing all the symbols that maybe useful for the project is generated.
+
+To do this, I wrote a shell script ctags_with_dep.sh:
+
+#!/bin/bash
+
+# ./ctags_with_dep.sh file1.c file2.c ... to generate a tags file for these files.
+
+gcc -M "$@" | sed -e 's/[\\ ]/\n/g' | \
+        sed -e '/^$/d' -e '/\.o:[ \t]*$/d' | \
+        ctags -L - --c++-kinds=+p --fields=+iaS --extra=+q
+
+This script is also available on github gist. If you only want to use it, download the script and use the following command to generate the tags file:
+
+./ctags_with_dep.sh file1.c file2.c file3.cpp ...
+
+Read on if you want to know what’s happening here. This script will first use gcc -M to output the list of header files that are included in our C or C++ source files. However, the output could not be directly used by ctags, thus this script uses sed commands to filter the output. Finally, this script uses a pipe to put the file list to the stdin of the ctags program — ctags will read the file list from stdin if -L - is passed to it on the command line.
+
+What if you have other directories besides the standard /usr/include that containing the header files you need? You could do a little modification on this script. For example, you have some header files in ~/include, then you could pass -I ~/include to the gcc command. Just like below:
+
+gcc -M -I ~/include "$@" | sed -e 's/[\\ ]/\n/g' | \
+        sed -e '/^$/d' -e '/\.o:[ \t]*$/d' | \
+        ctags -L - --c++-kinds=+p --fields=+iaS --extra=+q
+
+If you have any suggestion on this idea, please let me know.
+
