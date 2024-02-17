@@ -1,0 +1,12 @@
+//VIA_ENABLE = yes
+LTO_ENABLE = yes
+SPACE_CADET_ENABLE = no
+COMBO_ENABLE = yes
+LEADER_ENABLE = yes
+//AVR_USE_MINIMAL_PRINTF = yes
+//CONSOLE_ENABLE = yes
+//debug_enable=true
+//SRC += feature/customekeys.c
+
+ENCODER_ENABLE = yes
+//ENCODER_MAP_ENABLE = yes
