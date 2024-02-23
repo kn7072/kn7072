@@ -1,0 +1,194 @@
+🐞
+########################################################################
+https://theosteiner.de/debugging-javascript-frameworks-in-neovim
+
+keys = {
+			-- normal mode is default
+			{ "<leader>d", function() require 'dap'.toggle_breakpoint() end },
+			{ "<leader>c", function() require 'dap'.continue() end },
+			{ "<C-'>",     function() require 'dap'.step_over() end },
+			{ "<C-;>",     function() require 'dap'.step_into() end },
+			{ "<C-:>",     function() require 'dap'.step_out() end },
+		},
+
+
+
+
+########################################################################
+https://harrisoncramer.me/debugging-in-neovim/
+
+vim.fn.sign_define('DapBreakpoint', { text = '🐞' })
+ 
+-- Start debugging session
+vim.keymap.set("n", "<localleader>ds", function()
+  dap.continue()
+  ui.toggle({})
+  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("<C-w>=", false, true, true), "n", false) -- Spaces buffers evenly
+end)
+ 
+-- Set breakpoints, get variable values, step into/out of functions, etc.
+vim.keymap.set("n", "<localleader>dl", require("dap.ui.widgets").hover)
+vim.keymap.set("n", "<localleader>dc", dap.continue)
+vim.keymap.set("n", "<localleader>db", dap.toggle_breakpoint)
+vim.keymap.set("n", "<localleader>dn", dap.step_over)
+vim.keymap.set("n", "<localleader>di", dap.step_into)
+vim.keymap.set("n", "<localleader>do", dap.step_out)
+vim.keymap.set("n", "<localleader>dC", function()
+  dap.clear_breakpoints()
+  require("notify")("Breakpoints cleared", "warn")
+end)
+ 
+-- Close debugger and clear breakpoints
+vim.keymap.set("n", "<localleader>de", function()
+  dap.clear_breakpoints()
+  ui.toggle({})
+  dap.terminate()
+  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("<C-w>=", false, true, true), "n", false)
+  require("notify")("Debugger session ended", "warn")
+end)
+
+
+ui.setup({
+  icons = { expanded = "▾", collapsed = "▸" },
+  mappings = {
+    open = "o",
+    remove = "d",
+    edit = "e",
+    repl = "r",
+    toggle = "t",
+  },
+  expand_lines = vim.fn.has("nvim-0.7"),
+  layouts = {
+    {
+      elements = {
+        "scopes",
+      },
+      size = 0.3,
+      position = "right"
+    },
+    {
+      elements = {
+        "repl",
+        "breakpoints"
+      },
+      size = 0.3,
+      position = "bottom",
+    },
+  },
+  floating = {
+    max_height = nil,
+    max_width = nil,
+    border = "single",
+    mappings = {
+      close = { "q", "<Esc>" },
+    },
+  },
+  windows = { indent = 1 },
+  render = {
+    max_type_length = nil,
+  },
+})
+
+
+##########################################################
+ {
+    controls = {
+      element = "repl",
+      enabled = true,
+      icons = {
+        disconnect = "",
+        pause = "",
+        play = "",
+        run_last = "",
+        step_back = "",
+        step_into = "",
+        step_out = "",
+        step_over = "",
+        terminate = ""
+      }
+    },
+    element_mappings = {},
+    expand_lines = true,
+    floating = {
+      border = "single",
+      mappings = {
+        close = { "q", "<Esc>" }
+      }
+    },
+    force_buffers = true,
+    icons = {
+      collapsed = "",
+      current_frame = "",
+      expanded = ""
+    },
+    layouts = { {
+        elements = { {
+            id = "scopes",
+            size = 0.25
+          }, {
+            id = "breakpoints",
+            size = 0.25
+          }, {
+            id = "stacks",
+            size = 0.25
+          }, {
+            id = "watches",
+            size = 0.25
+          } },
+        position = "left",
+        size = 40
+      }, {
+        elements = { {
+            id = "repl",
+            size = 0.5
+          }, {
+            id = "console",
+            size = 0.5
+          } },
+        position = "bottom",
+        size = 10
+      } },
+    mappings = {
+      edit = "e",
+      expand = { "<CR>", "<2-LeftMouse>" },
+      open = "o",
+      remove = "d",
+      repl = "r",
+      toggle = "t"
+    },
+    render = {
+      indent = 1,
+      max_value_lines = 100
+    }
+  }
+##########################################################
+https://alighorab.github.io/neovim/nvim-dap/
+
+##########################################################
+:h dapui.setup()
+lua require("dapui").toggle({layout=1}) -закрывает/открывает левую панель
+
+
+lua local dap_ui_ok, dapui = pcall(require, "dapui"); print(dapui.elements.stacks)
+lua local dap_ui_ok, dapui = pcall(require, "dapui"); for i, v in pairs(dapui.elements.stacks) do print(i, v) end;
+
+q закрывает окно
+lua local dap_ui_ok, dapui = pcall(require, "dapui"); dapui.float_element("stacks", {width=30, height=30, enter=true})
+lua local dap_ui_ok, dapui = pcall(require, "dapui"); dapui.float_element("breakpoints", {width=30, height=30, enter=true})  // dapui.FloatElementArgs
+lua local dap_ui_ok, dapui = pcall(require, "dapui"); dapui.float_element("console", {width=20, height=20, enter=true})
+
+:h dap.txt
+lua local widgets = require('dap.ui.widgets');  local my_sidebar = widgets.sidebar(widgets.scopes);  my_sidebar.open()
+lua local widgets = require('dap.ui.widgets');  local my_sidebar = widgets.sidebar(widgets.scopes);  my_sidebar.close()
+
+lua require('dap.ui.widgets').hover()
+lua local widgets = require('dap.ui.widgets');  widgets.centered_float(widgets.scopes)
+
+
+
+
+lua local dap_ui_ok, dapui = pcall(require, "dapui"); dapui.elements.stacks.toggle({})
+.toggle({})
+
+lua require("dapui").elements.stacks
+
