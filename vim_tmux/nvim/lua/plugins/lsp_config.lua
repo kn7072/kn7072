@@ -58,15 +58,17 @@ local on_attach = function(client, bufnr)
                    '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
 
     -- Set some keybinds conditional on server capabilities
-    if client.resolved_capabilities.document_formatting then
-        buf_set_keymap("n", "ff", "<cmd>lua vim.lsp.buf.formatting()<CR>", opts)
-    elseif client.resolved_capabilities.document_range_formatting then
-        buf_set_keymap("n", "ff", "<cmd>lua vim.lsp.buf.range_formatting()<CR>",
-                       opts)
+    -- :lua =vim.lsp.get_active_clients()[1].server_capabilities
+    if client.server_capabilities.documentFormattingProvider then
+        buf_set_keymap("n", "gff", "<cmd>lua vim.lsp.buf.format()<CR>", opts)
+    elseif client.server_capabilities.rangeFormatting then
+        buf_set_keymap("n", "gfr",
+                       "<cmd>lua vim.lsp.buf.range_formatting()<CR>", opts)
     end
 
     -- Set autocommands conditional on server_capabilities
-    if client.resolved_capabilities.document_highlight then
+    -- https://github.com/neovim/neovim/issues/14090#issuecomment-1113956767
+    if client.server_capabilities.documentHighlightProvider then
         vim.api.nvim_exec([[
       hi LspReferenceRead cterm=bold ctermbg=DarkMagenta guibg=LightYellow
       hi LspReferenceText cterm=bold ctermbg=DarkMagenta guibg=LightYellow

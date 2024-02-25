@@ -6,6 +6,17 @@ lspconfig.pyright.setup {}
 lspconfig.tsserver.setup {}
 lspconfig.prismals.setup {}
 lspconfig.cssls.setup {capabilities = capabilities}
+
+-- https://clangd.llvm.org/installation.html
+lspconfig.clangd.setup {}
+-- lspconfig.ccls.setup {
+--     init_options = {
+--         compilationDatabaseDirectory = "build",
+--         index = {threads = 0},
+--         clang = {excludeArgs = {"-frounding-math"}}
+--     }
+-- }
+
 -- lspconfig.golangci_lint_ls.setup {filetypes = {'go', 'gomod'}}
 
 -- lspconfig.lua_ls.setup {

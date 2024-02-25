@@ -35,3 +35,6 @@ vim.keymap.set("n", "gdt", "<cmd>tab split | lua vim.lsp.buf.definition()<CR>",
 
 -- Toggle relative line number
 vim.keymap.set('n', '<c-l><c-l>', ':set invrelativenumber<CR>')
+
+-- ctrl + c
+vim.keymap.set('v', '<leader>cc', '"+y<CR>')

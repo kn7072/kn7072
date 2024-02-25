@@ -48,6 +48,10 @@ require("lazy").setup({
     {'hrsh7th/vim-vsnip'}, {'hrsh7th/vim-vsnip-integ'},
     {'slembcke/debugger.lua'}, {'jbyuki/one-small-step-for-vimkind'},
     {'example-plugin', dir = "~/example-plugin"},
-    {'nvim-whid', dir = "~/.local/share/nvim/nvim-whid"}
+    {'nvim-whid', dir = "~/.local/share/nvim/nvim-whid"},
+    {'nredir.nvim', dir = "~/LUA/repo/nredir.nvim"}, {'rcarriga/nvim-notify'},
+    {"yorickpeterse/nvim-window", config = true},
+    {'window', dir = "~/.local/share/nvim/windows"}
+    -- {'debugger_my', dir = "~/LUA/repo/debugger_my"}
 
 })

@@ -30,6 +30,7 @@ dap.configurations.python = {
         type = 'python', -- the type here established the link to the adapter definition: `dap.adapters.python`
         request = 'launch',
         name = "Launch file",
+        console = 'integratedTerminal',
 
         -- Options below are for debugpy, see https://github.com/microsoft/debugpy/wiki/Debug-configuration-settings for supported options
 

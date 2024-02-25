@@ -30,7 +30,8 @@ require('dap-go').setup {
     }
 }
 
-require('dap').set_log_level('TRACE')
+---require('dap').set_log_level('TRACE')
+
 -- require('dap-go').setup({})
 --
 -- local dap = require("dap")

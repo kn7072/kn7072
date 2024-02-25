@@ -4,3 +4,35 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+) dap.set_breakpoint	lua/plugins/nvimdapui.lua	/^vim.keymap.set('n', '<Leader>dB', function() dap.set_breakpoint() end)$/;"	f
+) dapui.close	lua/plugins/nvimdapui.lua	/^    function() dapui.close() end$/;"	f
+) dapui.open	lua/plugins/nvimdapui.lua	/^    function() dapui.open() end$/;"	f
+) require	lua/plugins/nvimdapui.lua	/^               function() require('dap.ui.widgets').hover() end)$/;"	f
+) require	lua/plugins/nvimdapui.lua	/^               function() require('dap.ui.widgets').preview() end)$/;"	f
+M.do_something	lua/test/setconfig.lua	/^function M.do_something()$/;"	f
+M.setup	lua/test/setconfig.lua	/^function M.setup(config)$/;"	f
+M.start	lua/myluamodule.lua	/^function M.start() print("xxx") end$/;"	f
+M.test	lua/test/settings.lua	/^function M.test() print("test") end$/;"	f
+SetColor	lua/core/colors.lua	/^function SetColor(color)$/;"	f
+["<S-Tab>"] 	lua/plugins/cmp.lua	/^        ["<S-Tab>"] = cmp.mapping(function(fallback)$/;"	f
+["<Tab>"] 	lua/plugins/cmp.lua	/^        ["<Tab>"] = cmp.mapping(function(fallback)$/;"	f
+_G.set_terminal_keymaps	lua/plugins/toggleterm.lua	/^function _G.set_terminal_keymaps()$/;"	f
+buf_set_keymap	lua/plugins/lsp_config.lua	/^    local function buf_set_keymap(...)$/;"	f
+buf_set_option	lua/plugins/lsp_config.lua	/^    local function buf_set_option(...)$/;"	f
+callback 	lua/plugins/ctags.lua	/^    callback = function()$/;"	f
+callback 	lua/plugins/lsp_config.lua	/^    callback = function()$/;"	f
+callback 	lua/plugins/nullls.lua	/^                callback = function()$/;"	f
+config 	lua/core/plugins.lua	/^        config = function() require('lsp-progress').setup() end$/;"	f
+dap.adapters.nlua 	lua/plugins/luadebugger.lua	/^dap.adapters.nlua = function(callback, config)$/;"	f
+dap.adapters.python 	lua/plugins/nvimdap.lua	/^dap.adapters.python = function(cb, config)$/;"	f
+dap.listeners.before.event_exited["dapui_config"] 	lua/plugins/nvimdapui.lua	/^dap.listeners.before.event_exited["dapui_config"] = function() dapui.close() end$/;"	f
+default_header	lua/plugins/dashboard.lua	/^local function default_header()$/;"	f
+expand 	lua/plugins/cmp.lua	/^        expand = function(args)$/;"	f
+filter 	lua/plugins/nullls.lua	/^						filter = function(client)$/;"	f
+goimports	lua/plugins/lsp_config.lua	/^function goimports(timeoutms)$/;"	f
+local on_attach 	lua/plugins/lsp_config.lua	/^local on_attach = function(client, bufnr)$/;"	f
+on_attach 	lua/plugins/nullls.lua	/^	on_attach = function(client, bufnr)$/;"	f
+on_init 	lua/plugins/lsp.lua	/^    on_init = function(client)$/;"	f
+program 	lua/plugins/nvimdapc.lua	/^        program = function()$/;"	f
+pythonPath 	lua/plugins/nvimdap.lua	/^        pythonPath = function()$/;"	f
+trace	lua/plugins/testdebug.lua	/^local function trace(event, line)$/;"	f
