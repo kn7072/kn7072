@@ -4,35 +4,99 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+) dap.set_breakpoint	lua-x/lua/plugins/nvimdapui.lua	/^vim.keymap.set('n', '<Leader>dB', function() dap.set_breakpoint() end)$/;"	f
+) dap.set_breakpoint	lua-x/plugins/nvimdapui.lua	/^vim.keymap.set('n', '<Leader>dB', function() dap.set_breakpoint() end)$/;"	f
 ) dap.set_breakpoint	lua/plugins/nvimdapui.lua	/^vim.keymap.set('n', '<Leader>dB', function() dap.set_breakpoint() end)$/;"	f
+) dapui.close	lua-x/lua/plugins/nvimdapui.lua	/^    function() dapui.close() end$/;"	f
+) dapui.close	lua-x/plugins/nvimdapui.lua	/^    function() dapui.close() end$/;"	f
 ) dapui.close	lua/plugins/nvimdapui.lua	/^    function() dapui.close() end$/;"	f
+) dapui.open	lua-x/lua/plugins/nvimdapui.lua	/^    function() dapui.open() end$/;"	f
+) dapui.open	lua-x/plugins/nvimdapui.lua	/^    function() dapui.open() end$/;"	f
 ) dapui.open	lua/plugins/nvimdapui.lua	/^    function() dapui.open() end$/;"	f
+) require	lua-x/lua/plugins/nvimdapui.lua	/^               function() require('dap.ui.widgets').hover() end)$/;"	f
+) require	lua-x/lua/plugins/nvimdapui.lua	/^               function() require('dap.ui.widgets').preview() end)$/;"	f
+) require	lua-x/plugins/nvimdapui.lua	/^               function() require('dap.ui.widgets').hover() end)$/;"	f
+) require	lua-x/plugins/nvimdapui.lua	/^               function() require('dap.ui.widgets').preview() end)$/;"	f
 ) require	lua/plugins/nvimdapui.lua	/^               function() require('dap.ui.widgets').hover() end)$/;"	f
 ) require	lua/plugins/nvimdapui.lua	/^               function() require('dap.ui.widgets').preview() end)$/;"	f
+M.do_something	lua-x/lua/test/setconfig.lua	/^function M.do_something()$/;"	f
+M.do_something	lua-x/test/setconfig.lua	/^function M.do_something()$/;"	f
 M.do_something	lua/test/setconfig.lua	/^function M.do_something()$/;"	f
+M.setup	lua-x/lua/test/setconfig.lua	/^function M.setup(config)$/;"	f
+M.setup	lua-x/test/setconfig.lua	/^function M.setup(config)$/;"	f
 M.setup	lua/test/setconfig.lua	/^function M.setup(config)$/;"	f
+M.start	lua-x/lua/myluamodule.lua	/^function M.start() print("xxx") end$/;"	f
+M.start	lua-x/myluamodule.lua	/^function M.start() print("xxx") end$/;"	f
 M.start	lua/myluamodule.lua	/^function M.start() print("xxx") end$/;"	f
+M.test	lua-x/lua/test/settings.lua	/^function M.test() print("test") end$/;"	f
+M.test	lua-x/test/settings.lua	/^function M.test() print("test") end$/;"	f
 M.test	lua/test/settings.lua	/^function M.test() print("test") end$/;"	f
+SetColor	lua-x/core/colors.lua	/^function SetColor(color)$/;"	f
+SetColor	lua-x/lua/core/colors.lua	/^function SetColor(color)$/;"	f
 SetColor	lua/core/colors.lua	/^function SetColor(color)$/;"	f
+["<S-Tab>"] 	lua-x/lua/plugins/cmp.lua	/^        ["<S-Tab>"] = cmp.mapping(function(fallback)$/;"	f
+["<S-Tab>"] 	lua-x/plugins/cmp.lua	/^        ["<S-Tab>"] = cmp.mapping(function(fallback)$/;"	f
 ["<S-Tab>"] 	lua/plugins/cmp.lua	/^        ["<S-Tab>"] = cmp.mapping(function(fallback)$/;"	f
+["<Tab>"] 	lua-x/lua/plugins/cmp.lua	/^        ["<Tab>"] = cmp.mapping(function(fallback)$/;"	f
+["<Tab>"] 	lua-x/plugins/cmp.lua	/^        ["<Tab>"] = cmp.mapping(function(fallback)$/;"	f
 ["<Tab>"] 	lua/plugins/cmp.lua	/^        ["<Tab>"] = cmp.mapping(function(fallback)$/;"	f
+_G.set_terminal_keymaps	lua-x/lua/plugins/toggleterm.lua	/^function _G.set_terminal_keymaps()$/;"	f
+_G.set_terminal_keymaps	lua-x/plugins/toggleterm.lua	/^function _G.set_terminal_keymaps()$/;"	f
 _G.set_terminal_keymaps	lua/plugins/toggleterm.lua	/^function _G.set_terminal_keymaps()$/;"	f
+buf_set_keymap	lua-x/lua/plugins/lsp_config.lua	/^    local function buf_set_keymap(...)$/;"	f
+buf_set_keymap	lua-x/plugins/lsp_config.lua	/^    local function buf_set_keymap(...)$/;"	f
 buf_set_keymap	lua/plugins/lsp_config.lua	/^    local function buf_set_keymap(...)$/;"	f
+buf_set_option	lua-x/lua/plugins/lsp_config.lua	/^    local function buf_set_option(...)$/;"	f
+buf_set_option	lua-x/plugins/lsp_config.lua	/^    local function buf_set_option(...)$/;"	f
 buf_set_option	lua/plugins/lsp_config.lua	/^    local function buf_set_option(...)$/;"	f
+callback 	lua-x/lua/plugins/ctags.lua	/^    callback = function()$/;"	f
+callback 	lua-x/lua/plugins/lsp_config.lua	/^    callback = function()$/;"	f
+callback 	lua-x/lua/plugins/nullls.lua	/^                callback = function()$/;"	f
+callback 	lua-x/plugins/ctags.lua	/^    callback = function()$/;"	f
+callback 	lua-x/plugins/lsp_config.lua	/^    callback = function()$/;"	f
+callback 	lua-x/plugins/nullls.lua	/^                callback = function()$/;"	f
 callback 	lua/plugins/ctags.lua	/^    callback = function()$/;"	f
 callback 	lua/plugins/lsp_config.lua	/^    callback = function()$/;"	f
 callback 	lua/plugins/nullls.lua	/^                callback = function()$/;"	f
+config 	lua-x/core/plugins.lua	/^        config = function() require('lsp-progress').setup() end$/;"	f
+config 	lua-x/lua/core/plugins.lua	/^        config = function() require('lsp-progress').setup() end$/;"	f
 config 	lua/core/plugins.lua	/^        config = function() require('lsp-progress').setup() end$/;"	f
+dap.adapters.nlua 	lua-x/lua/plugins/luadebugger.lua	/^dap.adapters.nlua = function(callback, config)$/;"	f
+dap.adapters.nlua 	lua-x/plugins/luadebugger.lua	/^dap.adapters.nlua = function(callback, config)$/;"	f
 dap.adapters.nlua 	lua/plugins/luadebugger.lua	/^dap.adapters.nlua = function(callback, config)$/;"	f
+dap.adapters.python 	lua-x/lua/plugins/nvimdap.lua	/^dap.adapters.python = function(cb, config)$/;"	f
+dap.adapters.python 	lua-x/plugins/nvimdap.lua	/^dap.adapters.python = function(cb, config)$/;"	f
 dap.adapters.python 	lua/plugins/nvimdap.lua	/^dap.adapters.python = function(cb, config)$/;"	f
+dap.listeners.before.event_exited["dapui_config"] 	lua-x/lua/plugins/nvimdapui.lua	/^dap.listeners.before.event_exited["dapui_config"] = function() dapui.close() end$/;"	f
+dap.listeners.before.event_exited["dapui_config"] 	lua-x/plugins/nvimdapui.lua	/^dap.listeners.before.event_exited["dapui_config"] = function() dapui.close() end$/;"	f
 dap.listeners.before.event_exited["dapui_config"] 	lua/plugins/nvimdapui.lua	/^dap.listeners.before.event_exited["dapui_config"] = function() dapui.close() end$/;"	f
+default_header	lua-x/lua/plugins/dashboard.lua	/^local function default_header()$/;"	f
+default_header	lua-x/plugins/dashboard.lua	/^local function default_header()$/;"	f
 default_header	lua/plugins/dashboard.lua	/^local function default_header()$/;"	f
+expand 	lua-x/lua/plugins/cmp.lua	/^        expand = function(args)$/;"	f
+expand 	lua-x/plugins/cmp.lua	/^        expand = function(args)$/;"	f
 expand 	lua/plugins/cmp.lua	/^        expand = function(args)$/;"	f
+filter 	lua-x/lua/plugins/nullls.lua	/^						filter = function(client)$/;"	f
+filter 	lua-x/plugins/nullls.lua	/^						filter = function(client)$/;"	f
 filter 	lua/plugins/nullls.lua	/^						filter = function(client)$/;"	f
+goimports	lua-x/lua/plugins/lsp_config.lua	/^function goimports(timeoutms)$/;"	f
+goimports	lua-x/plugins/lsp_config.lua	/^function goimports(timeoutms)$/;"	f
 goimports	lua/plugins/lsp_config.lua	/^function goimports(timeoutms)$/;"	f
+local on_attach 	lua-x/lua/plugins/lsp_config.lua	/^local on_attach = function(client, bufnr)$/;"	f
+local on_attach 	lua-x/plugins/lsp_config.lua	/^local on_attach = function(client, bufnr)$/;"	f
 local on_attach 	lua/plugins/lsp_config.lua	/^local on_attach = function(client, bufnr)$/;"	f
+on_attach 	lua-x/lua/plugins/nullls.lua	/^	on_attach = function(client, bufnr)$/;"	f
+on_attach 	lua-x/plugins/nullls.lua	/^	on_attach = function(client, bufnr)$/;"	f
 on_attach 	lua/plugins/nullls.lua	/^	on_attach = function(client, bufnr)$/;"	f
+on_init 	lua-x/lua/plugins/lsp.lua	/^    on_init = function(client)$/;"	f
+on_init 	lua-x/plugins/lsp.lua	/^    on_init = function(client)$/;"	f
 on_init 	lua/plugins/lsp.lua	/^    on_init = function(client)$/;"	f
+program 	lua-x/lua/plugins/nvimdapc.lua	/^        program = function()$/;"	f
+program 	lua-x/plugins/nvimdapc.lua	/^        program = function()$/;"	f
 program 	lua/plugins/nvimdapc.lua	/^        program = function()$/;"	f
+pythonPath 	lua-x/lua/plugins/nvimdap.lua	/^        pythonPath = function()$/;"	f
+pythonPath 	lua-x/plugins/nvimdap.lua	/^        pythonPath = function()$/;"	f
 pythonPath 	lua/plugins/nvimdap.lua	/^        pythonPath = function()$/;"	f
+trace	lua-x/lua/plugins/testdebug.lua	/^local function trace(event, line)$/;"	f
+trace	lua-x/plugins/testdebug.lua	/^local function trace(event, line)$/;"	f
 trace	lua/plugins/testdebug.lua	/^local function trace(event, line)$/;"	f
