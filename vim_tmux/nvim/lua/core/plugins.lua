@@ -51,7 +51,8 @@ require("lazy").setup({
     {'nvim-whid', dir = "~/.local/share/nvim/nvim-whid"},
     {'nredir.nvim', dir = "~/LUA/repo/nredir.nvim"}, {'rcarriga/nvim-notify'},
     {"yorickpeterse/nvim-window", config = true},
-    {'window', dir = "~/.local/share/nvim/windows"}
+    {'window', dir = "~/.local/share/nvim/windows"},
+    {'name_space', dir = "~/GIT/kn7072/lua/plugins/name_space"}
     -- {'debugger_my', dir = "~/LUA/repo/debugger_my"}
 
 })

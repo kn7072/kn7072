@@ -47,15 +47,12 @@ local on_attach = function(client, bufnr)
                    '<cmd>lua vim.lsp.buf.type_definition()<CR>', opts)
     buf_set_keymap('n', '<space>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
     buf_set_keymap('n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
-    buf_set_keymap('n', '<space>n',
-                   '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>',
+    buf_set_keymap('n', '<space>n', '<cmd>lua vim.diagnostic.open_float()<CR>',
                    opts)
-    buf_set_keymap('n', '[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>',
+    buf_set_keymap('n', '[d', '<cmd>lua vim.diagnostic.goto_prev()<CR>', opts)
+    buf_set_keymap('n', ']d', '<cmd>lua vim.diagnostic.goto_next()<CR>', opts)
+    buf_set_keymap('n', '<space>q', '<cmd>lua vim.diagnostic.setloclist()<CR>', -- setloclist setqflist
                    opts)
-    buf_set_keymap('n', ']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>',
-                   opts)
-    buf_set_keymap('n', '<space>q',
-                   '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
 
     -- Set some keybinds conditional on server capabilities
     -- :lua =vim.lsp.get_active_clients()[1].server_capabilities
@@ -68,17 +65,37 @@ local on_attach = function(client, bufnr)
 
     -- Set autocommands conditional on server_capabilities
     -- https://github.com/neovim/neovim/issues/14090#issuecomment-1113956767
+    -- if client.server_capabilities.documentHighlightProvider then
+    --     vim.api.nvim_exec([[
+    --   hi LspReferenceRead cterm=bold ctermbg=DarkMagenta guibg=LightYellow
+    --   hi LspReferenceText cterm=bold ctermbg=DarkMagenta guibg=LightYellow
+    --   hi LspReferenceWrite cterm=bold ctermbg=DarkMagenta guibg=LightYellow
+    --   augroup lsp_document_highlight
+    --     autocmd! * <buffer>
+    --     autocmd CursorHold <buffer> lua vim.lsp.buf.document_highlight()
+    --     autocmd CursorMoved <buffer> lua vim.lsp.buf.clear_references()
+    --   augroup END
+    -- ]], false)
+    -- end
+
+    -- https://smarttech101.com/nvim-lsp-configure-language-servers-shortcuts-highlights/
     if client.server_capabilities.documentHighlightProvider then
-        vim.api.nvim_exec([[
-      hi LspReferenceRead cterm=bold ctermbg=DarkMagenta guibg=LightYellow
-      hi LspReferenceText cterm=bold ctermbg=DarkMagenta guibg=LightYellow
-      hi LspReferenceWrite cterm=bold ctermbg=DarkMagenta guibg=LightYellow
-      augroup lsp_document_highlight
-        autocmd! * <buffer>
-        autocmd CursorHold <buffer> lua vim.lsp.buf.document_highlight()
-        autocmd CursorMoved <buffer> lua vim.lsp.buf.clear_references()
-      augroup END
-    ]], false)
+        vim.cmd [[
+      hi! LspReferenceRead cterm=bold ctermbg=235 guibg=LightYellow
+      hi! LspReferenceText cterm=bold ctermbg=235 guibg=LightYellow
+      hi! LspReferenceWrite cterm=bold ctermbg=235 guibg=LightYellow
+    ]]
+        vim.api.nvim_create_augroup('lsp_document_highlight', {})
+        vim.api.nvim_create_autocmd({'CursorHold', 'CursorHoldI'}, {
+            group = 'lsp_document_highlight',
+            buffer = 0,
+            callback = vim.lsp.buf.document_highlight
+        })
+        vim.api.nvim_create_autocmd('CursorMoved', {
+            group = 'lsp_document_highlight',
+            buffer = 0,
+            callback = vim.lsp.buf.clear_references
+        })
     end
 end
 
