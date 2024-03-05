@@ -1,0 +1,39 @@
+
+You seem to have defined the right regex, but not set the sufficient flags in command-line for grep to understand it. Because by default grep supports BRE and with -E flag it does ERE. What you have (look-aheads) are available only in the PCRE regex flavor which is supported only in GNU grep with its -P flag.
+
+Assuming you need to extract only the matching string after prefix you need to add an extra flag -o to let know grep that print only the matching portion as
+
+grep -oP '(?<=prefix).*$' <<< prefixSTRING
+
+There is also a version of grep that supports PCRE libraries by default - pcregrep in which you can just do
+
+pcregrep -o '(?<=prefix).*$' <<< prefixSTRING
+
+Detailed explanation on various regex flavors are explained in this wonderful Giles' answer and tools that implement each of them
+##################################################################
+
+grep -oP 'Блюдо(?=11)' <<< "Блюдо11"
+
+echo "Блюдо11" | grep -oP "Блюдо(?=11)"
+
+grep -iE "\!\[.*\]\((.*?)(?=([\"|\)]))" "Switch Case Statement in C.md" > test_file
+
+
+curl https://www.knowprogram.com/wp-content/uploads/2019/11/flowchart-of-switch-case-in-c.png -O
+curl -K test_2 --remote-name-all
+
+
+echo "Блюдо1" |  grep -iE "Блюдо(?=11)"
+
+рабочий вариант
+```
+grep -oP "\!\[.*\]\((.*?)(?=([\"|\)]))" "Switch Case Statement in C.md" > test_file
+grep -oP  "(?<=\]\()(.*)"  test_file > test_file_clear
+mkdir -p images && cd images &&  xargs -a ../test_file_clear -n 1 curl -O && cd ..
+```
+
+
+cat test_file_clear | xargs -n 1 echo
+xargs -a test_file_clear -n 1 echo   лучше чем выше
+
+
