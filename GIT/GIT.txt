@@ -22,6 +22,7 @@ git log --all
 $ git log -S info_status_tests Показывает только коммиты, в которых добавленный или удаленный код совпадает с указанной строкой
 
 git log --no-merges issue54..origin/master - 139 хочет узнать, с чем нужно слить ее работу, чтобы получить возможность отправить ее на сервер
+git log  --diff-filter=DA -- path_to_file_name показать комиты удаления и добавления файла в индекс
 
 git rev-list 8820032.. --count число коммитов выше указанного
 git rev-list 538c33..d14fc7
@@ -29,6 +30,7 @@ $ git rev-list --no-merges 8820032..089044a
 ##########################
 Для анализа родителей
 git cat-file -p commit_id - получаем информацию о коммите - родителей
+git cat-file -p <tree-ish> -выводит содержимое дерева 
 # Output hash of the first parent
 git rev-parse $commit^
 
@@ -41,6 +43,8 @@ git rev-parse $commit^@
 git reflog
 
 git log --oneline -- git.tgz Вы можете легко узнать, какие коммиты модифицировали этот файл:
+git log --all --full-history -- path_to_file_name   Determine all the commits that affected that file
+git show c5ae2c4e -- path_to_file_name - посмотреть содержимое файла в комите c5ae2c4e
 ##########################################################
 git revert HASH
 git revert --abort
@@ -113,6 +117,8 @@ git cat-file -p HEAD -содержимое комита
 git cat-file -t HEAD -тип комита
 git ls-tree -r HEAD
 git ls-files -s
+git cat-file blob  fe5b4b16a отбразить содержимое файла
+git ls-tree 1f97e58930 посмотреть содержимое дерева(особенно интересно отсутствующие файлы при ошибках при слиянии веток)
 
 ##########################################################
 как посмотреть историю изменения одного файла
