@@ -22,7 +22,8 @@ git log --all
 $ git log -S info_status_tests Показывает только коммиты, в которых добавленный или удаленный код совпадает с указанной строкой
 
 git log --no-merges issue54..origin/master - 139 хочет узнать, с чем нужно слить ее работу, чтобы получить возможность отправить ее на сервер
-git log  --diff-filter=DA -- path_to_file_name показать комиты удаления и добавления файла в индекс
+git log --diff-filter=D --summary --after="2024-03-17" | grep delete поиск удаленных файлов
+git log --diff-filter=DA -- path_to_file_name показать комиты удаления и добавления файла в индекс
 
 git rev-list 8820032.. --count число коммитов выше указанного
 git rev-list 538c33..d14fc7
