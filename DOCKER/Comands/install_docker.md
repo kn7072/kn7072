@@ -48,27 +48,27 @@ __В биосе необходимо включить виртуализацию
 
 ## Как заливать образы в репозиторий
 
-[Ссылка на новость](https://n.sbis.ru/news/c167d8af-2721-4d0f-8dba-ec47e6a3121d)
-[Ссылка на новость](https://online.sbis.ru/news/28b5695b-d402-4020-a170-87c87c363c42)
-Чтобы посмотреть доступные образы необходимо авторизоваться(доменный логин/пароль) в https://dev-image-store.tensor.ru/harbor
-(https://dev-image-store.tensor.ru/harbor/projects/641355/repositories)
+[Ссылка на новость](https://n.xxx.ru/news/c167d8af-2721-4d0f-8dba-ec47e6a3121d)
+[Ссылка на новость](https://online.xxx.ru/news/28b5695b-d402-4020-a170-87c87c363c42)
+Чтобы посмотреть доступные образы необходимо авторизоваться(доменный логин/пароль) в https://dev-image-store.xxx.ru/harbor
+(https://dev-image-store.xxx.ru/harbor/projects/641355/repositories)
 
-Образы android емуляторов находятся в репозитории dev-image-store.tensor.ru/sbis-testing/android
+Образы android емуляторов находятся в репозитории dev-image-store.xxx.ru/xxx-testing/android
 
 - Загрузить образ на локальную машину
-    docker pull dev-image-store.tensor.ru/sbis-testing/android:10.0
+    docker pull dev-image-store.xxx.ru/xxx-testing/android:10.0
 - Заливаем образ с локальной машины в репозиторий
     1. Авторизуемся
-        docker login --username USER --password TOKEN https://dev-image-store.tensor.ru
-        где USER - доменный логин, TOKEN - CLI secret(из User Profile https://dev-image-store.tensor.ru/harbor)
+        docker login --username USER --password TOKEN https://dev-image-store.xxx.ru
+        где USER - доменный логин, TOKEN - CLI secret(из User Profile https://dev-image-store.xxx.ru/harbor)
     2. Сохнаряем образ на сервере
-        docker push dev-image-store.tensor.ru/sbis-testing/android:10.0
+        docker push dev-image-store.xxx.ru/xxx-testing/android:10.0
         ВАЖНО, чтобы локальный образ(образ созданный на локальной машине) имел вточности такое название(разумется тег будет меняться),
         так как это адрес удаленного репозитория.
     3. Что делать если создали образ, но имя не соответствует стандарту?
-        предположим у нас есть образ selenoid/android:10.0, а нам нужен dev-image-store.tensor.ru/sbis-testing/android:10.0
+        предположим у нас есть образ selenoid/android:10.0, а нам нужен dev-image-store.xxx.ru/xxx-testing/android:10.0
         выполним команду для изменения имени
-        docker tag selenoid/android:10.0 dev-image-store.tensor.ru/sbis-testing/android:10.0
+        docker tag selenoid/android:10.0 dev-image-store.xxx.ru/xxx-testing/android:10.0
         после этого можно переходить к пункту 2
 
 ## Что делать если закончилось место в корневом разделе(/)

@@ -1,5 +1,5 @@
 Полезные ссылки
-http://git-autotests.sbis.ru/mobile/waiter_android/-/tree/21.1104/test_acceptance/test_motivation_kpi
+http://git-autotests.xxx.ru/mobile/waiter_android/-/tree/21.1104/test_acceptance/test_motivation_kpi
 
 https://losst.ru/komandy-adb-dlya-android-polzovatelej
 https://losst.ru/komandy-v-android-terminal-emulator
@@ -61,7 +61,7 @@ http://10.76.170.72:8080
 
 
 
-http://autotest-api01.corp.tensor.ru/test_call_mobile_api_method/waiter_21.1104.apk
+http://autotest-api01.corp.xxx.ru/test_call_mobile_api_method/waiter_21.1104.apk
 ##################################################################################################
 
 # Проверяем наличие kvm в контейнере android
@@ -83,7 +83,7 @@ ls -l /dev/kvm на хосте где запускается android конте�
 https://github.com/aerokube/selenoid/issues/1018
 
 ##################################################################################################
-Для удаленной тачки usd-hahinnix.corp.tensor.ru
+Для удаленной тачки usd-hahinnix.corp.xxx.ru
 wget -O cm https://github.com/aerokube/cm/releases/download/1.8.1/cm_linux_amd64
 chmod 111 cm
 
@@ -130,7 +130,7 @@ docker run --privileged --rm -d --name selenoid -p 4444:4444  -v ~/.aerokube/sel
 docker run --privileged --rm -d --name selenoid -p 4444:4444 -v ~/docker_volume/logs/:/opt/selenoid/logs -v ~/docker_volume:/opt/strace_log -v ~/.aerokube/selenoid/:/etc/selenoid/:ro -v /var/run/docker.sock:/var/run/docker.sock  aerokube/selenoid:latest-release -log-output-dir /opt/selenoid/logs -limit 20 -session-attempt-timeout 10m -service-startup-timeout 10m 
 
 
-2 зашел в │/home/local/TENSOR-CORP/sg.chernov/.aerokube/selenoid
+2 зашел в │/home/local/xxx-CORP/sg.chernov/.aerokube/selenoid
 добавил
 "android": {
         "default": "10.8",
@@ -143,7 +143,7 @@ docker run --privileged --rm -d --name selenoid -p 4444:4444 -v ~/docker_volume/
             }
         }
     },
-образ создавал через скрипт /home/local/TENSOR-CORP/sg.chernov/test_selenoid_1/images/selenium/automate_android.sh
+образ создавал через скрипт /home/local/xxx-CORP/sg.chernov/test_selenoid_1/images/selenium/automate_android.sh
 google_apis  x86_64
 
 3 docker kill -s HUP selenoid
@@ -203,8 +203,8 @@ cp /etc/grid-router/quota/test.xml /etc/grid-router/quota/alice.xml
 
 4 docker run -d --name ggr -v /etc/grid-router/:/etc/grid-router:ro --net host aerokube/ggr:latest-release
 docker ps -a
-curl -s http://localhost:4444/ping  -на тачке где установлен ggr test-selenium34.unix.tensor.ru
-curl -s http://10.76.175.31:4444/status  -где будут запускаться тесты usd-hahinnix.corp.tensor.ru
+curl -s http://localhost:4444/ping  -на тачке где установлен ggr test-selenium34.unix.xxx.ru
+curl -s http://10.76.175.31:4444/status  -где будут запускаться тесты usd-hahinnix.corp.xxx.ru
 
 curl -s http://test:test-password@10.76.170.72:4444/wd/hub
 

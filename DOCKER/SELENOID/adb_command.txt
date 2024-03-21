@@ -49,8 +49,8 @@ DISPLAY=:99 /opt/android-sdk-linux/emulator/emulator -read-only -writable-system
     Или выведем только ошибки для всей системы целиком:
     adb logcat *:E
 	
-	docker container exec b41b8bea5152 adb shell pm list packages | grep ru.tensor.sbis.droid
-	docker container exec b41b8bea5152 adb logcat -d ru.tensor.sbis.droid:V > log.txt
+	docker container exec b41b8bea5152 adb shell pm list packages | grep ru.xxx.droid
+	docker container exec b41b8bea5152 adb logcat -d ru.xxx.droid:V > log.txt
 	
 	pm list packages [options] 
 	options:
@@ -148,10 +148,10 @@ DISPLAY=:99 /opt/android-sdk-linux/emulator/emulator -read-only -writable-system
 
 
 	Изменить геолокация(несколько способов)
-	1 adb emu geo fix 39.889772338786386  57.623362039560085
+	1 adb emu geo xxx 39.889772338786386  57.623362039560085
 	2   telnet localhost 5554
 		auth auth_token (auth_token брать из файла .emulator_console_auth_token находится в корневом каталоге(cd ~))
-		geo fix 39.889772338786386  57.623362039560085
+		geo xxx 39.889772338786386  57.623362039560085
 	3 	очищаем файл .emulator_console_auth_token (cd ~ && echo "" > .emulator_console_auth_token) -чтобы не проходить авторизацию как во втором примере
 		telnet localhost 5554
-		geo fix 39.889772338786386  57.623362039560085
+		geo xxx 39.889772338786386  57.623362039560085
