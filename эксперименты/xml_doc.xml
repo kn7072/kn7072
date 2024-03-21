@@ -1,5 +1,5 @@
 <div>
-   <component data-component='SBIS3.CORE.TabControl'>
+   <component data-component='xxx3.CORE.TabControl'>
       <options name="items" type="Array">
          <options name="0">
             <option name="title">new_title</option>
@@ -14,7 +14,7 @@
          </options>
       </options>
    </component>
-   <component data-component='SBIS3.CORE.TabButtons'>
+   <component data-component='xxx3.CORE.TabButtons'>
       <options name="tabs" type="Array">
          <options name="0">
             <option name="title">new_title_tabs</option>
@@ -32,7 +32,7 @@
          </options>
       </options>
    </component>
-   <component data-component='SBIS3.CORE.TableView'>
+   <component data-component='xxx3.CORE.TableView'>
       <options name="display">
          <options name="columns" type="array">
             <options>
@@ -94,7 +94,7 @@
          <option name="new_key">value</option>
       </options>
    </component>
-   <component data-component='SBIS3.CORE.Accordion' data-fullname='Accordion'>
+   <component data-component='xxx3.CORE.Accordion' data-fullname='Accordion'>
       <options name="elements" type="array">
          <options>
             <option name="id" value="1"></option>

@@ -51,7 +51,7 @@ print()
 ################################################################
 list_elm_tag = doc_elm.getElementsByTagName('component')
 for x in list_elm_tag:
-    if x.getAttribute('data-component') == 'SBIS3.CORE.TableView':
+    if x.getAttribute('data-component') == 'xxx3.CORE.TableView':
         print()
 
 tree = ElementTree(file=r'xml_doc.xml')

@@ -3,7 +3,7 @@ from data import Data
 from methods_for_api_tests_atf_client.functions import *
 import time
 from methods_for_api_tests_atf_client.functions_vi import perform_action_stage, prepare_action, get_attacment_object, \
-    sbis_write_doc, stage_docflow
+    xxx_write_doc, stage_docflow
 import zipfile
 from methods_for_api_tests_atf_client.inngenerator import new_inn
 from xml.etree import ElementTree
@@ -57,7 +57,7 @@ def send_doc(client, our_org: dict, contractor: dict, comment: str, *data_file, 
                  "contractor": contractor, "our_org": our_org, "note": comment, "type_doc": type_doc}
     if num_doc:
         temp_dict["params_doc"] = {"Номер": num_doc}
-    res = sbis_write_doc(client, **temp_dict)
+    res = xxx_write_doc(client, **temp_dict)
 
     log("Отправляем документ")
     if isinstance(obj_cert, list) or isinstance(obj_cert, tuple):
@@ -291,7 +291,7 @@ def real_out_record(client, id_doc, face, name, inn, return_record=True):
                          "_type": "record"}}
     return client.call_rvalue("РеалИсх.Записать", protocol=4, **params).result
 
-def client_sbis_read_card(client, ido, return_record=True):
+def client_xxx_read_card(client, ido, return_record=True):
     """КлиентСБИС.ReadCard"""
     params = {"ИдО": ido, "ИмяМетода": None}
     return client.call_rrecord("КлиентСБИС.ReadCard", protocol=4, **params).result
@@ -738,7 +738,7 @@ def sign_ssl(path_to_zip, ziping):
             "Send-Receipt-To": "{}".format(config.URL_ROAMING_EDO_SERVICE),
         }
         log("Указываем URLна который шлем")
-        # url = "http://test1-api.sbis.ru/roaming-edo-ext/service/"
+        # url = "http://test1-api.xxx.ru/roaming-edo-ext/service/"
         res = requests.post(config.TRUE_URL_ROAMING_SERVICE, data=package, headers=headers)
         print(res.status_code)
         print(res.text)
@@ -776,7 +776,7 @@ def send_secondary_package(client_private, path_to_dir, cont_name=None, url_serv
                                             regenerate_id=regenerate)
     name_zip = generate_guid(False) + ".zip"
     path_to_zip = create_zip(path_to_create_zip, name_zip, del_file=False, ls_mode=ls)
-    if operator == 25 and url_service == "https://fix1-api.sbis.ru/roaming-edo-ext/service/":
+    if operator == 25 and url_service == "https://fix1-api.xxx.ru/roaming-edo-ext/service/":
         info_invation = sign_ssl(path_to_zip.rsplit("\\", 1)[0], name_zip)
         # os.remove(path_to_create_zip)
     else:

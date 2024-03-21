@@ -8,3 +8,14 @@ diff = d.compare(text1_lines, text2_lines)
 #     print(i)
 print('\n'.join(diff))
 print()
+
+
+def print_x(test: str) -> str:
+    """
+
+    """
+    print(test)
+
+
+print_x("qdff")
+

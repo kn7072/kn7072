@@ -13,5 +13,8 @@ class A:
 dict_ = A.__dict__['method']
 for i in range(3):
     setattr(A, 'test_add_%s' % i, wrapper(dict_, name='test_add_%s' % i))
-print()
+print("test")
 a = A()
+
+
+print()

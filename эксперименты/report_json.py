@@ -5,8 +5,8 @@ class ReportJeson:
 
     path_result = ' '
     def x (self):
-        path_json = r"d:\src\sbis3-genie\ws\ws\lib\Control"
-        path_control_tests = r"d:\src\sbis3-genie\test\integration\test_elements_input_flags.py"
+        path_json = r"d:\src\xxx3-genie\ws\ws\lib\Control"
+        path_control_tests = r"d:\src\xxx3-genie\test\integration\test_elements_input_flags.py"
         q = os.walk(path_json)
         contdir_result = []
         all_files = list()

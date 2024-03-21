@@ -1,9 +1,14 @@
 # -*- coding: utf-8 -*-
 
 # https://www.red-gate.com/simple-talk/development/python/memory-profiling-in-python-with-tracemalloc/
+import sys
+
+print(f"{sys.modules.get('gc')}")
 
 import gc
 import tracemalloc
+print(f"{sys.modules.get('gc')}")
+# del sys.modules["gc"]
 
 import numpy as np
 

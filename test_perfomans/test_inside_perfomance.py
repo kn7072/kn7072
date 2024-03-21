@@ -28,7 +28,7 @@ class TestPagesPerfomance(atf.ATFSuite):
     def setUp(self):
         atf.ATFSuite.setUp(self)
         page = LoginPage(self)
-        self.browser.open("http://test-inside.tensor.ru")
+        self.browser.open("http://test-insidexxx")
         page.login_as("Демо", "Демо123")
         time.sleep(5)
 
@@ -56,7 +56,7 @@ class TestPagesPerfomance(atf.ATFSuite):
         """Тест на время открытия контрагентов"""
 
         page = KontragentMainPage(self)
-        self.browser.open("http://test-inside.tensor.ru" + "/contragents.html")
+        self.browser.open("http://test-insidexxx" + "/contragents.html")
         self.assertTrue(wait(lambda: page.regions_tbl.rows_number == 10),
                         "Не дождались загрузки таблицы")
         self.assertTrue(wait(lambda: page.companies_top_tbl.rows_number == 10),
@@ -69,7 +69,7 @@ class TestPagesPerfomance(atf.ATFSuite):
         """Тест на время открытия страницы документооборота"""
 
         page = DocsPage(self)
-        self.browser.open("http://test-inside.tensor.ru" + "/edo.html")
+        self.browser.open("http://test-insidexxx" + "/edo.html")
         self.assertTrue(wait(lambda: page.out_link.is_present),
                         "Не дождались загрузки таблицы")
 
@@ -78,7 +78,7 @@ class TestPagesPerfomance(atf.ATFSuite):
         """Тест на время открытия страницы отчётности"""
 
         page = ReportsFNS(self)
-        self.browser.open("http://test-inside.tensor.ru" + "/ereport.html#list=ОтчетФНС")
+        self.browser.open("http://test-insidexxx" + "/ereport.html#list=ОтчетФНС")
         self.assertTrue(wait(lambda: page.reports_tbl.is_present),
                         "Не дождались загрузки таблицы")
 
