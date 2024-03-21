@@ -1,7 +1,5 @@
 xfreerdp /f /u:ИМЯ-ПОЛЬЗОВАТЕЛЯ /p:ПАРОЛЬ /v:ХОСТ[:ПОРТ]
 
-vpn.tensor.ru:501
-
 https://hackware.ru/?p=11888
 https://github.com/awakecoding/FreeRDP-Manuals/blob/master/User/FreeRDP-User-Manual.markdown
 https://wiki.yola.ru/_media/freerdp/freerdp-user-manual.pdf
@@ -48,11 +46,11 @@ xfreerdp  /monitors:0,1 /multimon /u: xxx /p: xxx /v:nsdr-chernovsg
 xfreerdp /u: xxx /p: xxx /v:nsdr-chernovsg  /smart-sizing:1400x1080 /f
 
 
-openvpn3 config-import -c tensor_dev_yar.ovpn -p
-openvpn3 session-start -c tensor_dev_yar.ovpn
+openvpn3 config-import -c  xxx_dev_yar.ovpn -p
+openvpn3 session-start -c  xxx_dev_yar.ovpn
 
 openvpn3 sessions-list
-openvpn3 session-manage -c tensor_dev_yar.ovpn -D
+openvpn3 session-manage -c  xxx_dev_yar.ovpn -D
 
 #############################################
 Remmina Remote Desktop Client
@@ -75,8 +73,7 @@ sudo apt update
 sudo apt install openvpn3
 
 
-TENSOR-CORP\ xxx
 
-openvpn3 config-import -c tensor_dev_yar.ovpn -p
-openvpn3 session-start -c tensor_dev_yar.ovpn
-openvpn3 session-manage -с tensor_dev_yar.ovpn -D
+openvpn3 config-import -c  xxx_dev_yar.ovpn -p
+openvpn3 session-start -c  xxx_dev_yar.ovpn
+openvpn3 session-manage -с  xxx_dev_yar.ovpn -D
