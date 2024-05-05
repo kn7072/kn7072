@@ -4,21 +4,21 @@ scp username@from_host_ip:/home/ubuntu/myfile /cygdrive/c/Users/Anshul/Desktop
 
 Из PowerShall windows
 из windows на lunux - каталог
-scp -r 'e:\SELENOID\TEST' sg.chernov@usd-hahinnix.corp.tensor.ru:/home/local/TENSOR-CORP/sg.chernov/test_selenoid_1/images/selenium
+scp -r 'e:\SELENOID\TEST' sg.chernov@usd-hahinnix.corp.xxx.ru:/home/local/xxx-CORP/sg.chernov/test_selenoid_1/images/selenium
 
 
 из lunux на windows - каталог
-scp -r sg.chernov@usd-hahinnix.corp.tensor.ru:/home/local/TENSOR-CORP/sg.chernov/test_selenoid_1/images/selenium 'e:\SELENOID\TEST'
+scp -r sg.chernov@usd-hahinnix.corp.xxx.ru:/home/local/xxx-CORP/sg.chernov/test_selenoid_1/images/selenium 'e:\SELENOID\TEST'
 
-scp  sg.chernov@usd-hahinnix.corp.tensor.ru:/home/autotest/images/selenium/android/entrypoint.sh 'e:\SELENOID\TEST'
+scp  sg.chernov@usd-hahinnix.corp.xxx.ru:/home/autotest/images/selenium/android/entrypoint.sh 'e:\SELENOID\TEST'
 
-scp  autotest@test-selenium-builder6.unix.tensor.ru:/home/autotest/images/selenium/android/entrypoint.sh 'e:\SELENOID\TEST'
+scp  autotest@test-selenium-builder6.unix.xxx.ru:/home/autotest/images/selenium/android/entrypoint.sh 'e:\SELENOID\TEST'
 
-scp 'e:\SELENOID\TEST\entrypoint.sh' sg.chernov@usd-hahinnix.corp.tensor.ru:/home/local/TENSOR-CORP/sg.chernov/images/selenium/android
-scp 'e:\SELENOID\TEST\entrypoint.sh' autotest@psdr-autotest9.unix.tensor.ru:/home/autotest/images/selenium/android/
+scp 'e:\SELENOID\TEST\entrypoint.sh' sg.chernov@usd-hahinnix.corp.xxx.ru:/home/local/xxx-CORP/sg.chernov/images/selenium/android
+scp 'e:\SELENOID\TEST\entrypoint.sh' autotest@psdr-autotest9.unix.xxx.ru:/home/autotest/images/selenium/android/
 
 
-scp 'e:\SELENOID\TEST\entrypoint.sh' autotest@psdr-autotest9.unix.tensor.ru:/home/autotest/images/selenium/android/
+scp 'e:\SELENOID\TEST\entrypoint.sh' autotest@psdr-autotest9.unix.xxx.ru:/home/autotest/images/selenium/android/
 
 ## ssh config
 [https://www.cyberciti.biz/faq/create-ssh-config-file-on-linux-unix/]
