@@ -6,6 +6,11 @@ https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=ltkeyboard_namehgt
 # buffer overflow / empty elf
 https://github.com/qmk/qmk_firmware/issues/21720?ysclid=lq6x6ob87t524695899
 
+https://www.rigacci.org/wiki/doku.php/doc/appunti/linux/sa/remap_keyboard_keys
+sudo apt install evtest
+sudo evtest
+
+
 
 qmk list-keyboards | grep "iris" -найти полное название клавиатуры
 
@@ -43,6 +48,8 @@ qmk flash -kb tbkmini/v2/splinky_3  -km test_1
 qmk new-keymap -kb bastardkb/scylla/v2/splinky_3
 qmk compile -kb bastardkb/scylla/v2/splinky_3 -km test_1
 
+необходимо установить qmk под админом
+сначала выполнить sudo su, а дальше согласно официальной инструкции
 qmk console -l
 qmk console -d CEE2:0004:1
 
