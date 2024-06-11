@@ -185,7 +185,15 @@ lua require('dap.ui.widgets').hover()
 lua local widgets = require('dap.ui.widgets');  widgets.centered_float(widgets.scopes)
 
 
+LSP
+lua for k, v in pairs(vim.lsp.buf_get_clients()) do for ki, vi in pairs(v) do print(ki, vi) end end
+lua print(vim.lsp.get_log_path())
+lua for k, v in pairs(vim.lsp.get_active_clients()) do for ki, vi in pairs(v) do print(ki, vi) end end
+lua vim.print(vim.tbl_keys(vim.lsp.handlers)) The Nvim LSP client provides default handlers in the global vim.lsp.handlers table, you can list them with this command
+:lua =vim.lsp.get_active_clients()[1].server_capabilities - серверные настройки
 
+lua for i, v in pairs(vim.lsp.buf.list_workspace_folders()) do print(vim.inspect(v)) end
+lua vim.lsp.buf.add_workspace_folder("/home/stepan/GIT/kn7072/ANKI/TelegramBot")
 
 lua local dap_ui_ok, dapui = pcall(require, "dapui"); dapui.elements.stacks.toggle({})
 .toggle({})

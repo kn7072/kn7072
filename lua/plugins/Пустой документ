@@ -1,0 +1,70 @@
+~/.local/share/nvim/nvim-whid
+~/.local/share/nvim/nvim-whid/lua/whid.lua
+
+~/LUA/repo/nredir.nvim
+~/LUA/repo/nredir.nvim/lua/nredir.lua
+
+~/.local/share/nvim/lazy/nvim-window
+~/.local/share/nvim/lazy/nvim-window/lua/nvim-window.lua
+
+:sp file
+:vsp file 
+
+
+nvim ~/.local/share/nvim/nvim-whid/lua/whid.lua 
+:vsp ~/LUA/repo/nredir.nvim/lua/nredir.lua
+:vsp ~/.local/share/nvim/lazy/nvim-window/lua/nvim-window.lua
+
+nvim ~/GIT/kn7072/lua/plugins/windows/lua/window.lua
+
+https://losst.pro/simvolicheskie-i-zhestkie-ssylki-linux
+ln -s source softlink
+ls -li пока
+
+ln -s ~/GIT/kn7072/lua/plugins/windows ~/.local/share/nvim
+
+
+lua require'window'.open_window()
+lua local pos = require'window'.get_cursor(0); print(pos[1], pos[2])
+lua local pos = require'window'.get_cursor(0); for key, val in pairs(pos) do print(key, val) end;
+
+###################################################################################
+getchar
+nvim_create_buf       https://neovim.io/doc/user/api.html#api-autocmd
+nvim_win_get_width
+
+
+lua for k,v in pairs(vim.api.nvim_get_mode()) do print(k, v) end
+nvim_get_mode() Gets the current mode. mode() "blocking" is true if Nvim is waiting for input.
+Return:
+Dictionary { "mode": String, "blocking": Boolean } 
+
+lua print(vim.api.nvim_get_current_line())
+
+Gets a human-readable representation of the given object
+lua print(vim.inspect(vim.api.nvim_get_mode()))  
+
+lua vim.notify("test", vim.log.levels.INFO)
+vim.log.levels.DEBUG vim.log.levels.ERROR vim.log.levels.INFO vim.log.levels.TRACE vim.log.levels.WARN vim.log.levels.OFF
+
+
+lua print(vim.api.nvim_get_option_value("filetype", {buf = 0}))  filetype у буфера
+lua print(vim.bo[0].filetype) filetype у буфера, 0 номер буфера
+
+
+"type" is one of the following: "file", "directory", "link", "fifo", "socket", "char", "block", "unknown"
+lua local x = vim.fs.dir("/home/stepan/GO/GO/code/MY/11/1"); for i=1, 9 do print(x()) end; 
+lua for x, t in vim.fs.dir("/home/stepan/GO/GO/code/MY/11/1") do print(x, t) end
+
+vim.api.nvim_list_bufs перечисляет первые 10 строк каждого буфера
+lua for k, v in pairs(vim.api.nvim_list_bufs()) do print(k, vim.inspect(vim.api.nvim_buf_get_lines(v, 0, 10, false))) end
+
+vim.api.nvim_buf_get_keymap
+lua for k, v in pairs(vim.api.nvim_buf_get_keymap(0, "n")) do for k, v in pairs(v) do  print(k, v) end end    -- https://neovim.io/doc/user/builtin.html#maparg()
+lua print(vim.api.nvim_buf_get_name(0))  имя файла
+
+lua print(vim.api.nvim_win_get_buf(0)) получает номер буфера в текущем окне
+lua for k, v in pairs(vim.api.nvim_buf_get_keymap(vim.api.nvim_win_get_buf(0), "n")) do for k, v in pairs(v) do  print(k, v) end end
+
+
+
