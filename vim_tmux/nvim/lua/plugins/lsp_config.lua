@@ -54,9 +54,15 @@ nvim_lsp.gopls.setup {
     -- for postfix snippets and analyzers
     capabilities = capabilities,
     settings = {
+        -- https://github.com/golang/tools/blob/master/gopls/doc/settings.md
+        -- https://github.com/golang/tools/blob/master/gopls/doc/analyzers.md
         gopls = {
             experimentalPostfixCompletions = true,
-            analyses = {unusedparams = true, shadow = true},
+            analyses = {
+                unusedparams = true,
+                shadow = true
+                -- simplifyslice = true
+            },
             staticcheck = true
         }
     },

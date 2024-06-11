@@ -33,7 +33,10 @@ dapui.setup({
             size = 0.3,
             position = "left"
         }, {
-            elements = {"repl", "breakpoints", "console"},
+            elements = {
+                {id = "repl", size = 0.4}, {id = "breakpoints", size = 0.3},
+                {id = "console", size = 0.3}
+            },
             size = 0.2,
             position = "bottom"
         }
