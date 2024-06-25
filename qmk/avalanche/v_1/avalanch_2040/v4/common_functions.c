@@ -43,7 +43,7 @@ void f(uint16_t keycode) {
       tap_code16(KC_F5);
       break;
     case KC_6:
-      tap_code16(KC_A);
+      tap_code16(KC_F6);
       break;  
     case KC_7:
       tap_code16(KC_F7);
@@ -177,10 +177,10 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
           // send_word(col);
           switch(row) {
             // send_word(row);
-            case 2:
+            case 6:
               switch (col) {
-                case 4: {
-                  // y
+                case 3: {
+                  // i
                   // смена раскладки
                   register_code(KC_LEFT_ALT);
                   tap_code16(KC_LEFT_SHIFT);
