@@ -1,0 +1,21 @@
+если плагины установлены через mason, вероятно исполняемые файлы будут находитья по адресу ~/.local/share/nvim/mason/bin
+
+https://yar4e-it.blogspot.com/2015/04/linux-inotify.html?m=1
+чтобы показать, что исполняемый файл используетя, установим необходимые утилиты
+sudo apt install inotify-tools
+
+переходим в каталог с утилитой
+cd /.local/share/nvim/mason/packages/luaformatter/bin
+
+запускаем анализ, указав путь к файлу для логирования
+inotifywait lua-format -m  --format '%T %w %f %e' --timefmt '%T' -o /home/stepan/TEMP/TEST_VIM/log_file.txt
+
+далее делаем что-то в vim, завершам ранее запущенный процесс inotifywait ^C, смотрим лог /home/stepan/TEMP/TEST_VIM/log_file.txt там должны быть записи, 
+если их нет значит утилита не использутя и нужно разбираться дальше
+
+########
+чтобы определить где должен находитья конфиг
+перейти в каталог с lua-format (/.local/share/nvim/mason/packages/luaformatter/bin)
+вызвать strace ./lua-format
+
+в логе будет запись, что файл конфига не найдет - нужно создать его
