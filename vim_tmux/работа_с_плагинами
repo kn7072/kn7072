@@ -23,6 +23,6 @@ inotifywait lua-format -m  --format '%T %w %f %e' --timefmt '%T' -o /home/stepan
 
 ########
 посмотреть как работает luaformatter
-cd /.local/share/nvim/mason/packages/luaformatter/bin$ 
+cd /.local/share/nvim/mason/packages/luaformatter/bin
 ./lua-format  /home/stepan/TEMP/TEST_VIM/test.lua
 
