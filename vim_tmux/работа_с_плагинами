@@ -19,3 +19,10 @@ inotifywait lua-format -m  --format '%T %w %f %e' --timefmt '%T' -o /home/stepan
 вызвать strace ./lua-format
 
 в логе будет запись, что файл конфига не найдет - нужно создать его
+
+
+########
+посмотреть как работает luaformatter
+cd /.local/share/nvim/mason/packages/luaformatter/bin$ 
+./lua-format  /home/stepan/TEMP/TEST_VIM/test.lua
+
