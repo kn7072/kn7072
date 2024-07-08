@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 
-celluloid &
+# "$*" стр 472
+celluloid "$*" &
 
 # Process ID of the process we just launched
 PID=$!
+
+# echo $#
+# echo $*
 
 # Window ID of the process...pray that there's     
 # only one window! Otherwise this might break.
