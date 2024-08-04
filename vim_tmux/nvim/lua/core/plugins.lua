@@ -34,7 +34,9 @@ require("lazy").setup({
         'linrongbin16/lsp-progress.nvim',
         event = {'VimEnter'},
         dependencies = {'nvim-tree/nvim-web-devicons'},
-        config = function() require('lsp-progress').setup() end
+        config = function()
+            require('lsp-progress').setup()
+        end
     }, {
         'nvim-lualine/lualine.nvim',
         dependencies = {
@@ -46,13 +48,14 @@ require("lazy").setup({
     {'rcarriga/nvim-dap-ui'}, {'leoluz/nvim-dap-go'},
     {'puremourning/vimspector'}, {'jay-babu/mason-nvim-dap.nvim'},
     {'hrsh7th/vim-vsnip'}, {'hrsh7th/vim-vsnip-integ'},
-    {'slembcke/debugger.lua'}, {'jbyuki/one-small-step-for-vimkind'},
+    -- {'slembcke/debugger.lua'},
+    {'jbyuki/one-small-step-for-vimkind'},
     {'example-plugin', dir = "~/example-plugin"},
     {'nvim-whid', dir = "~/.local/share/nvim/nvim-whid"},
     {'nredir.nvim', dir = "~/LUA/repo/nredir.nvim"}, {'rcarriga/nvim-notify'},
-    {"yorickpeterse/nvim-window", config = true},
-    {'window', dir = "~/.local/share/nvim/windows"},
-    {'name_space', dir = "~/GIT/kn7072/lua/plugins/name_space"}
+    {"yorickpeterse/nvim-window", config = true}
+    -- {'window', dir = "~/.local/share/nvim/windows"},
+    -- {'name_space', dir = "~/GIT/kn7072/lua/plugins/name_space"}
     -- {'debugger_my', dir = "~/LUA/repo/debugger_my"}
 
 })
