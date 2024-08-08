@@ -1,4 +1,8 @@
 [источник](https://www.tecmint.com/install-postgresql-with-pgadmin4-on-linux-mint/)
+
+полезные источники
+https://serverspace.io/support/help/how-to-install-and-configure-pgadmin-4-in-server-mode-on-ubuntu-22-04/
+
 **pgAdmin** is an open-source feature-rich, frontend management tool that allows you to easily administer and manage your **PostgreSQL** relational database from a web browser.
 
 It provides an easy-to-use user interface that simplifies the creation and monitoring of databases and database objects. **PgAdmin 4** is an improvement of the earlier **pgAdmin** tool and is available for Linux, Windows, macOS systems, and even a Docker container.
