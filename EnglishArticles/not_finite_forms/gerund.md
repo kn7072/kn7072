@@ -234,3 +234,64 @@ understand [ˌʌndəˈstænd] — понимать 	He understands investing in 
 urge [ɜːdʒ] — побуждать, убеждать, настаивать 	I urge spending some time learning this program. — Я настаиваю на том, чтобы тратить время на изучение этой программы.
 warrant [ˈwɒr.ənt] — гарантировать, ручаться 	I warrant doing the translation on time. — Я гарантирую выполнение перевода в срок.
 
+## Verbs Followed by the Gerund
+
+|                 |                                                  |                                                                             |
+| --------------- | ------------------------------------------------ | --------------------------------------------------------------------------- |
+| **verb**        | **Definition**                                   | **Example Sentence**                                                        |
+| **abhor**       | _to hate_                                        | John abhors _working_ outdoors.                                             |
+| **acknowledge** | _to recognize what someone has done_             | She acknowledges his _working_ hard on the project.                         |
+| **admit**       | _to say that you have done_                      | Peter admits to _wasting_ time and money.                                   |
+| **advise**      | _to give advice_                                 | I advise _saving_ a little money every month.                               |
+| **allow**       | _to permit_                                      | She allows _using_ smartphones in class.                                    |
+| **anticipate**  | _to expect_                                      | I anticipate _visiting_ New York next month.                                |
+| **appreciate**  | _to be grateful for_                             | Jack appreciates your _helping_ him out with the project.                   |
+| **avoid**       | _to try not to do_                               | She avoids _dating_ men over 30.                                            |
+| **be worth**    | _to be a good idea to spend the time on_         | It’s worth _spending_ some time on the grammar.                             |
+| **can’t help**  | _to be able to not do_                           | Tom can’t help _complaining_ about the heat.                                |
+| **celebrate**   | _to party about_                                 | We’ll celebrate _working_ together for over 50 years.                       |
+| **confess**     | _to admit that you did_                          | Alice confessed to _stealing_ the money from her sister.                    |
+| **consider**    | _to think about_                                 | We’re _considering_ buying a new house.                                     |
+| **defend**      | _to give reasons why you did_                    | They defend _purchasing_ the new car because they have two jobs.            |
+| **delay**       | _to postpone, put off_                           | We’re going to delay _meeting_ until next week.                             |
+| **detest**      | _to hate, despise_                               | Jack detests _learning_ new vocabulary.                                     |
+| **discontinue** | _to stop doing, providing_                       | The store discontinued _providing_ customer service on demand.              |
+| **discuss**     | _to talk about_                                  | We like to discuss _learning_ techniques.                                   |
+| **dislike**     | _to not like_                                    | Bob dislikes _having_ to work so hard.                                      |
+| **dispute**     | _to say you didn’t do_                           | They dispute _stealing_ the merchandise.                                    |
+| **dread**       | _to fear doing or experiencing_                  | I dread _taking_ tests.                                                     |
+| **endure**      | _to go through_                                  | We endured _listening_ to him for three hours.                              |
+| **enjoy**       | _to have a good time doing_                      | Sarah enjoys _cooking_ fine dinners.                                        |
+| **escape**      | _to get away from_                               | The students escaped _taking_ the test because the fire alarm rang.         |
+| **evade**       | _to avoid_                                       | He evades _doing_ yard work on Saturdays.                                   |
+| **explain**     | _to give details about_                          | He’ll explain _purchasing_ online next week.                                |
+| **fancy**       | _to like very much_                              | They fancy _eating_ donuts.                                                 |
+| **fear**        | _to be afraid of_                                | I fear _flying_ in airplanes.                                               |
+| **feign**       | _to pretend to do_                               | Mary feigns not _knowing_ anything.                                         |
+| **finish**      | _to stop doing_                                  | We finished _shopping_ and went home.                                       |
+| **forgive**     | _to not be angry at someone anymore_             | They forgave _stealing_ the candy as the children didn’t know it was wrong. |
+| **keep**        | _to continue doing_                              | We keep _studying_ the same grammar every week.                             |
+| **mention**     | _to say in passing_                              | They mentioned _buying_ a new car last week.                                |
+| **mind**        | _to object to_                                   | I don’t mind _smoking_.                                                     |
+| **miss**        | _to want something you don’t have_               | I miss _having_ more free time.                                             |
+| **necessitate** | _to require to do_                               | The job necessitates _lifting_ heavy objects.                               |
+| **omit**        | _to leave out, delete_                           | We omitted _discussing_ the new Smith account during the meeting.           |
+| **permit**      | _to allow_                                       | We’ll permit _fishing_ on Saturdays.                                        |
+| **picture**     | _to imagine_                                     | Doug pictures _retiring_ to Brazil.                                         |
+| **postpone**    | _to put off, delay_                              | We postponed _traveling_ to Chicago for a week.                             |
+| **practice**    | _to do over and over again_                      | Practice _playing_ scales for 30 minutes every day.                         |
+| **recall**      | _to remember_                                    | Yes, I recall _buying_ that book.                                           |
+| **recollect**   | _to remember_                                    | Tom recollects _playing_ baseball as a child.                               |
+| **recommend**   | _to tell someone they should do something_       | They recommend _purchasing_ insurance with this product.                    |
+| **report**      | _to tell about_                                  | Tim reported _spending_ twelve hours on the job.                            |
+| **resent**      | _to not like that something that someone does_   | Susan resents _having_ to work so hard.                                     |
+| **resist**      | _to try to avoid doing_                          | Many students resist _studying_ more than two hours a day.                  |
+| **resume**      | _to start doing again_                           | We resumed _speaking_ about the problem at the meeting.                     |
+| **risk**        | _to take a chance on_                            | Jack risks _making_ everyone angry with his stupid statements.              |
+| **shirk**       | _to not do something you should do_              | Dan shirked _paying_ for the children’s meal.                               |
+| **shun**        | _to avoid contact with_                          | Don’t shun _spending_ time with those you don’t know very well.             |
+| **suggest**     | _to say someone should do something_             | I suggest _buying_ a new camera.                                            |
+| **support**     | _to help someone with words, thoughts, or money_ | They supported our _going_ to the doctor for help.                          |
+| **understand**  | _to comprehend_                                  | He understands _investing_ in the stock market.                             |
+| **urge**        | _to suggest strongly_                            | I urge spending some time _learning_ the program.                           |
+| **warrant**     | _to provide the reasons for doing_               | The situation warrants _investigating_ Mr. Todd.                            |
