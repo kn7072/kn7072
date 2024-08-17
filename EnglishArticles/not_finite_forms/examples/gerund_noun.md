@@ -170,5 +170,119 @@ Nouns + Prepositions: OVER
     Authority over
     Control over
 
+about
+concern about – забота, беспокойство
+information about – информация
 
+for
+admiration for – восхищение, восторг
+craving for – тяга, страстное желание, влечение к
+cure for – лекарство от чего-либо
+desire for – желание, потребность, влечение
+disregard for – неуважение, невнимание, равнодушие к
+demand for – спрос
+excuse for – отговорка, предлог
+explanation for – объяснение
+in return for – в обмен на, взамен
+need for – потребность, необходимость в
+provision for – снабжение, обеспечение, условие
+pity for – жалость, досада, сожаление
+reputation for – репутация, слава, известность
+responsibility for – ответственность
+recipe for – рецепт
+respect for – уважение
+room for – возможность, простор для чего-либо
+sympathy for – сочувствие, сострадание,солидарность к
 
+in
+confidence in – доверие, вера, уверенность
+decline in – падение, упадок, спад, ухудшение
+delay in – приостановка, отсрочка, задержка, опоздание
+decrease in – уменьшение, сокращение, упадок
+experience in – опыт в
+fall in – падение, обвал, понижение
+failure in (an exam) – неудача, неуспех, провал
+increase in – рост, увеличение в
+rise in – улучшение, рост, увеличение
+reduction in – снижение, понижение, уменьшение
+(have good) taste in – (иметь хороший) вкус в
+
+of
+advantage of – преимущество
+benefit of – польза, преимущество,
+привилегия, выгода, прибыль
+capacity of (but: capacity for doing smth) – вместимость, потенциал, запас
+care of – забота о/об
+cause of – причина, повод, основание
+description of – описание
+difference of/between – разница между
+disadvantage of (but: there’s a disadvantage in
+doing smth) – недостаток, минус, неудобство
+experience of – опыт
+example of – пример
+(no) hope of – надежда на
+knowledge of – знание
+lack of – нехватка, отсутствие, недостаток в
+number of – число, количество, ряд
+opinion of/on – мнение, взгляд, убеждение
+photograph of – фотография чего-либо/кого-либо
+popularity of – популярность, известность
+result of – результат
+success of/in – успех в
+understanding of - понимание
+
+on
+advice on – совет по поводу чего-либо
+ban on – запрет, ограничение
+comment on – комментарий по поводу чего-либо
+effect on – действие на
+emphasis on – подчеркивание, акцент,ударение
+impact on – влияние, толчок, импульс
+influence on – влияние
+information on/about - информация
+restriction on – ограничение на
+tax on – налог на
+
+with
+contrast with – контраст, противоположность, контрастировать с
+be in dispute with smb over smth – спорить с кем-либо из-за чего-либо
+difficulty in/with – трудность, проблема, затруднение
+experience with – опыт в
+encounter with – столкновение, схватка, стычка
+in association with – в связи с чем-либо, совместно с, при содействии
+link with – связь с
+quarrel with – спорить, ругаться, ссориться с
+relationship with – отношения с
+
+over
+be in authority over – иметь власть/контроль над
+have control over – осуществлять контроль над чем-либо
+
+to
+(in) answer to – в ответ на
+access to – доступ к
+alternative to – альтернатива, выбор, вариант
+attitude to – отношение к
+exception to- возражение, исключение, неодобрение
+invitation to – приглашение на
+key to – разгадка, разъяснение, ключ к
+objection to – возражение на
+(in/with) reference to - в применении к, в отношении
+solution to – решение, объяснение
+threat to – угроза
+witness to - свидетель
+
+between
+balance between – баланс, равновесие между
+choice in/between/of – выбор между
+connection between (but: in connection with) – связь между
+contact between (but: in contact with) - контакт между
+relationship between (but: a relationship with smb) – отношения между
+
+from
+departure from – отъезд, уход, отправление
+protection from – защита от
+
+at
+genius at – гений, талант
+laugh at – смех над
