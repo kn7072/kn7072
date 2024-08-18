@@ -52,3 +52,6 @@ vim.opt.fillchars = {
 
 vim.cmd([[highlight clear LineNr]])
 vim.cmd([[highlight clear SignColumn]])
+
+-- переносить длинные строки
+vim.opt.wrap = false
