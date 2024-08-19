@@ -1,8 +1,8 @@
 the infinitive as parenthesis
 1. to begin with
-2. to Ье more precise
-3. to Ье quite frank
-4. to Ье sure
+2. to be more precise
+3. to be quite frank
+4. to be sure
 5. to crown it аll
 6. to make the matters (things) 1vorse
 7. to make/cut а long story short
