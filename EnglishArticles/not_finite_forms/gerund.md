@@ -100,6 +100,7 @@ to consist in – заключаться в
 to agree on/to – соглашаться с
 
 pay for — поплатиться; оплачивать; уплатить
+be unused to (doing) something ; непривыкший; Philip was unused to working as part of a team.
 
 Запомните прилагательные и причастия, после которых to является предлогом:
 accustomed to – привыкший к
