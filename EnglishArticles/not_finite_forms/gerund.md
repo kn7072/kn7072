@@ -101,6 +101,7 @@ to agree on/to – соглашаться с
 
 pay for — поплатиться; оплачивать; уплатить
 be unused to (doing) something ; непривыкший; Philip was unused to working as part of a team.
+accustom yourself to something ; привыкать, приучаться ; She had to accustom herself to eating later in the evening.
 
 Запомните прилагательные и причастия, после которых to является предлогом:
 accustomed to – привыкший к
