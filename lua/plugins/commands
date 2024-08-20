@@ -81,9 +81,69 @@ lua require'study'.pick()
 lua require'study'.print_hl() 
 
 
+lua print(vim.api.nvim_tabpage_get_number(0))  1
+lua print(vim.inspect(vim.api.nvim_tabpage_list_wins(0)))  1000
+lua print(vim.inspect(vim.api.nvim_tabpage_get_var(0)))
+
+lua print(vim.inspect(vim.fn.tabpagenr()))
+
+set showtabline=2
+The value of this option specifies when the line with tab page labels
+	will be displayed:
+		0: never
+		1: only if there are at least two tab pages
+		2: always	
+:set tabline  узнать текущее значение
+:set tabline=%f
+
+##################################################
+zR : opens all folders
+zM : collapses all folders
+zo : opens the folder you're in (1 level)
+zO : opens all folders recursively at the cursor line
+zc : collapses the folder you're in (1 level)
+zC : collapses all folders recursively at the cursor line
+zn : deactivates folding
+zN : restores folding to previous state
+zi : toggles between zn and zN
+za : Toggle between closing and opening the fold under the cursor.
+
+fold							*:syn-fold*
+
+The "fold" argument makes the fold level increase by one for this item.
+Example:  
+   :syn region myFold start="{" end="}" transparent fold
+   :syn sync fromstart
+   :set foldmethod=syntax
+This will make each {} block form one fold.
+
+The fold will start on the line where the item starts, and end where the item
+ends.  If the start and end are within the same line, there is no fold.
+The 'foldnestmax' option limits the nesting of syntax folds.
+See |:syn-foldlevel| to control how the foldlevel of a line is computed
+from its syntax items.
 
 
+syn region  luaFunctionBlock     matchgroup=luaFunction start="function" end="end" contains=ALLBUT transparent fold
 
+после ввода команды нужно нажать zc чтобы отобразились подсказки 
+syn region  luaFunctionBlock     matchgroup=luaFunction start="function" end="end" contains=ALLBUT,luaTodo,luaSpecial,luaCond,luaCondElseif,luaCondEnd,luaRepeat transparent fold
 
+сразу выделяет фрагменты
+syn region  luaFunctionBlock  transparent   matchgroup=luaFunction start="\<function\>" end="\<end\>" contains=ALLBUT,luaTodo,luaSpecial,luaCond,luaCondElseif,luaCondEnd,luaRepeat  fold
+
+автоматически сварачивает все что начинается с h
+set foldmethod=expr
+set foldexpr=getline(v:lnum)[0]==\"h\"
+##################################################
+https://github.com/nanotee/nvim-lua-guide
+
+:help lua-vim-variables
+
+These wrappers also have more sophisticated vim.opt* variants that provide convenient mechanisms for setting options in Lua. They're similar to what you might be used to in your init.vim:
+
+    vim.opt: behaves like :set
+    vim.opt_global: behaves like :setglobal
+    vim.opt_local: behaves like :setlocal
 
 
