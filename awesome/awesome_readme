@@ -4,6 +4,8 @@ https://losst.pro/nastrojka-linghtdm-v-linux?ysclid=lvz9q0df5b687122261
 https://wiki.archlinux.org/title/LightDM#Installation
 
 проверим состояние сервиса
+sudo systemctl status lightdm.service
+
 sudo systemctl enable lightdm.service
 
 
@@ -34,14 +36,19 @@ autologin-guest=false
 autologin-user=stepan
 autologin-session=awesome
 
-источники 
-https://unix.stackexchange.com/questions/52280/lightdm-user-session-settings-on-ubuntu
+3 настройка greeter(экран приветствия)
+настройки https://manpages.ubuntu.com/manpages/bionic/man1/slick-greeter.1.html
+необходимо скопировать файл slick-greeter.conf в каталог /etc/lightdm
+linux mint по умолчанию использует LightDM(это менеджер входа в систему) который в свою очередь использует slick-greeter
+ВАЖНО - в файле slick-greeter.conf указан параметр background(содержит путь к файлу заствки, картинка должна находиться в каталоге /usr/share/pixmaps
+на пример /usr/share/pixmaps/skelet-golova.jpg(обычно это картинки 3840x2160)
 
-экран приветствия
+о доступных гритерах в системе можно узнать 
 $ ls -1 /usr/share/xgreeters/
-Greeter
-One way to check which greeters are available is to list the files in the /usr/share/xgreeters directory; 
-each .desktop file represents an available greeter. In this example, the lightdm-gtk-greeter and lightdm-webkit2-greeter greeters are available:
+
+источники
+в текущем каталоге находится файл с описанием параметров lightdm
+https://unix.stackexchange.com/questions/52280/lightdm-user-session-settings-on-ubuntu
 
 
 ############################################
@@ -124,5 +131,11 @@ amixer dmenu librewolf firefox alsa-utils mpc scrot unclutter xsel xlockmore lig
 
 
 https://github.com/4ban/awesome-pro
+
+
+/usr/share/pixmaps/voda.jpg
+
+/usr/share/backgrounds/linuxmint/voda.jpg
+/usr/share/backgrounds/linuxmint/default_background.jpg
 
 
