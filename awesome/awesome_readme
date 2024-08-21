@@ -1,0 +1,128 @@
+LightDM
+LightDM - это менеджер входа в систему, который вы видите когда система уже загрузилась и вам нужно выбрать пользователя и ввести пароль.
+https://losst.pro/nastrojka-linghtdm-v-linux?ysclid=lvz9q0df5b687122261
+https://wiki.archlinux.org/title/LightDM#Installation
+
+проверим состояние сервиса
+sudo systemctl enable lightdm.service
+
+
+1 создаем сессию для входа в awesome (https://linuxmint.com.ru/viewtopic.php?t=577)
+Для этого создаем (от sudo) файл /usr/share/xsessions/awesome.desktop
+файл находится в текущем каталоге
+
+посмотреть все доступные сессии можно с помощью
+https://zalinux.ru/?p=3905
+Вы можете самостоятельно узнать исполнимый файл для любого окружения рабочего стола, установленного в вашей системе, выполнив
+ls /usr/share/xsessions/
+
+В этой папке вы увидите файлы с расширением .desktop, например: 
+awesome.desktop  cinnamon2d.desktop  cinnamon.desktop
+
+
+2 создаем lightdm.conf
+переносим lightdm.conf из текущего каталов в /etc/lightdm/lightdm.conf
+в этом файле указывается какая сессия будет загружаться, создали в первом пункте
+если нужно выбирать из доступных сессий(при загрузке нужно будет выбирать какаю среду загружать)
+[Seat:*]
+autologin-guest=false
+
+если необходимо автоматически входить в awesome под пользователем 
+в файле указано что входить автоматически в awesome под пользователем stepan (неоходимо заменить пользователя)
+[Seat:*]
+autologin-guest=false
+autologin-user=stepan
+autologin-session=awesome
+
+источники 
+https://unix.stackexchange.com/questions/52280/lightdm-user-session-settings-on-ubuntu
+
+экран приветствия
+$ ls -1 /usr/share/xgreeters/
+Greeter
+One way to check which greeters are available is to list the files in the /usr/share/xgreeters directory; 
+each .desktop file represents an available greeter. In this example, the lightdm-gtk-greeter and lightdm-webkit2-greeter greeters are available:
+
+
+############################################
+Awesome установка
+
+sudo apt-get install awesome awesome-extra
+
+после установки переносим файлы в ~/.config/awesome/
+mkdir -p ~/.config/awesome
+cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
+cp -r /usr/share/awesome/* ~/.config/awesome/
+
+ресурсы для изучения
+https://archlinux.org.ru/forum/topic/11748/?page=1#post-111477
+https://www.youtube.com/watch?v=P4-_9NRZSkI&list=PL7PLwWArfrqc6dQGgilD64ELKUe1HpjUR
+https://linuxmint.com.ru/viewtopic.php?t=577
+https://wiki.ublinux.ru/ru/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%A1%D1%80%D0%B5%D0%B4%D0%B0_%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE_%D1%81%D1%82%D0%BE%D0%BB%D0%B0/AwesomeWM
+
+############################################
+Настройка экрана входа lightdm-gtk-greeter
+https://denisnovikov.github.io/blog/customize-login-screen-lightdm-gtk-greeter/?ysclid=lvzbpasvez714465724
+############################################
+настройка мониторов
+
+чтобы мониторы располагались в правильном порядке необходимо выполнить инструкцию ниже(готовый файл находится в текущем каталоге
+для других ситем нужно заменить мониторы на свои, с помощью команды xrandr)
+Чтобы сохранить настройки после перезагрузки, добавьте команду активации разрешения в конфигурационный файл ~/.xprofile:
+vi ~/.xprofile
+
+#!/bin/bash
+xrandr --output LVDS-1 --off
+xrandr --output HDMI-1 --primary
+xrandr --output HDMI-1 --left-of VGA-1
+
+xrandr
+примеры использования xrandr
+https://gist.github.com/nimag42/464cd3d527a7fd8e20d1419a0bfb0cbf
+https://losst.pro/razreshenie-ekrana-v-linux?ysclid=lw6ila7dw0972928944
+
+xrandr --output HDMI-1 --primary
+xrandr --output HDMI-1 --rotate left
+xrandr --output HDMI-1 --rotate normal
+
+xrandr --output LVDS-1 --off
+xrandr --output HDMI-1 --left-of VGA-1
+
+############################################
+описание некоторых настроке
+
+https://www.linux.org.ru/forum/general/7147632
+
+Тут все просто. Для всего списка действует правило:
+fg - foreground - шрифт, bg - background - фон
+normal - обычный, focus - выделенный.
+Соответственно:
+theme.fg_normal - цвет шрифта
+theme.bg_normal - цвет фона
+theme.fg_focus и theme.bg_focus - то же для выделенного объекта
+theme.fg_urgent и theme.bg_urgent - (не нужны) цвет уведомлений, отправленных посредством события URGENT. (Используется только Иваном Ургантом.)
+помимо трея:
+theme.titlebar_bg_normal и theme.titlebar_bg_focus - цвета заголовка клиента
+theme.menu_bg_normal и theme.menu_bg_focus то же самое, но для меню
+theme.border_normal - цвет границы клиента
+theme.border_focus - цвет границы активного клиента.
+
+############################################
+темы - не проверено
+
+https://blog.desdelinux.net/en/awesomewm-beautiful-themes/?ysclid=lw55xiaf60610634443
+$ git clone https://github.com/copycat-killer/awesome-copycats.git
+$ cp -r awesome-copycats/ ~/.config/awesome/            mv awesome-copycats/* ~/.config/awesome                      ; rmdir awesome-copycats
+$ cd ~/.config/awesome
+$ git init submodule
+$ git submodule update
+
+https://github.com/SirHadrian/awesome-themes
+[[ ! -d "~/.config/awesome" ]] && mkdir -p ~/.config/awesome && git clone --recurse-submodules --remote-submodules --depth 1 -j 2 https://github.com/SirHadrian/awesome-themes.git && mv -v awesome-themes/* ~/.config/awesome && rm -rf awesome-themes
+
+amixer dmenu librewolf firefox alsa-utils mpc scrot unclutter xsel xlockmore light picom-git alacritty nitrogen
+
+
+https://github.com/4ban/awesome-pro
+
+
