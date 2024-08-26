@@ -28,9 +28,10 @@ local config = {
 function M.get_all_displayed_buffers()
     local buffers_info = {}
     for _, buf_hndl in ipairs(vim.api.nvim_list_bufs()) do
-        if api.nvim_buf_is_loaded(buf_hndl) then
+        if api.nvim_buf_is_loaded(buf_hndl) and vim.bo[buf_hndl].buflisted then
             -- print(api.nvim_buf_get_name(buf_hndl))
-            local buffer_name_i = api.nvim_buf_get_name(buf_hndl)
+            local buffer_name_i = fn.fnamemodify(
+                                      api.nvim_buf_get_name(buf_hndl), ":t")
             if buffer_name_i ~= '' then
                 buffers_info[buf_hndl] = buffer_name_i
             end
