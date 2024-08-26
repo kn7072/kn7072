@@ -82,7 +82,7 @@ lua require'study'.print_hl()
 
 
 lua print(vim.api.nvim_tabpage_get_number(0))  1
-lua print(vim.inspect(vim.api.nvim_tabpage_list_wins(0)))  1000
+lua print(vim.inspect(vim.api.nvim_tabpage_list_wins(0))) возвращает список индентификаторов окон вкдадки
 lua print(vim.inspect(vim.api.nvim_tabpage_get_var(0)))
 
 lua print(vim.inspect(vim.fn.tabpagenr()))
@@ -108,6 +108,7 @@ zN : restores folding to previous state
 zi : toggles between zn and zN
 za : Toggle between closing and opening the fold under the cursor.
 
+https://neovim.io/doc/user/syntax.html#_7.-:syntax-arguments
 fold							*:syn-fold*
 
 The "fold" argument makes the fold level increase by one for this item.
@@ -123,6 +124,9 @@ The 'foldnestmax' option limits the nesting of syntax folds.
 See |:syn-foldlevel| to control how the foldlevel of a line is computed
 from its syntax items.
 
+https://neovim.io/doc/user/options.html#'fdo' опции доступные для команд foldopen, foldclose
+set foldopen=all фолд будет открываться при попадании в него
+set foldclose=all фолд будет закрываться при попадании в него
 
 syn region  luaFunctionBlock     matchgroup=luaFunction start="function" end="end" contains=ALLBUT transparent fold
 
@@ -136,7 +140,7 @@ syn region  luaFunctionBlock  transparent   matchgroup=luaFunction start="\<func
 set foldmethod=expr
 set foldexpr=getline(v:lnum)[0]==\"h\"
 ##################################################
-https://github.com/nanotee/nvim-lua-guide
+https://neovim.io/doc/user/lua-guide.html#_vim.opt lua
 
 :help lua-vim-variables
 
@@ -146,4 +150,148 @@ These wrappers also have more sophisticated vim.opt* variants that provide conve
     vim.opt_global: behaves like :setglobal
     vim.opt_local: behaves like :setlocal
 
+##################################################
+tabpagenr([{arg}])                                                 
+tabpagenr()
+
+		The result is a Number, which is the number of the current
+		tab page.  The first tab page has number 1.
+		The optional argument {arg} supports the following values:
+			$	the number of the last tab page (the tab page
+				count).
+			#	the number of the last accessed tab page
+				(where g<Tab> goes to).  If there is no
+				previous tab page, 0 is returned.
+		The number can be used with the :tab command.
+		Returns zero on error.
+
+lua print(vim.fn.tabpagenr("$"))
+
+lua print(vim.inspect(vim.fn.tabpagebuflist(1))) активные буферы в окне nvim, если окно разделено на области
+будут выведеные все отображаемые буферы
+
+https://neovim.io/doc/user/builtin.html#tabpagewinnr()
+lua print(vim.inspect(vim.fn.tabpagewinnr(1)))
+lua print(vim.inspect(vim.fn.tabpagewinnr(3, '$'))) если во кладке 3 два окна тогда функция вернет 2
+
+https://neovim.io/doc/user/options.html#'showtabline'
+You can use the 'showtabline' option to specify when you want the line with
+tab page labels to appear: never, when there is more than one tab page or
+always.
+
+lua print(vim.inspect(vim.fn.gettabinfo())) выводит информацию по всем кладкам, открытым окном в
+вкладка
+gettabinfo([{tabnr}])                                             
+gettabinfo()
+
+		If {tabnr} is not specified, then information about all the
+		tab pages is returned as a List. Each List item is a
+		Dictionary.  Otherwise, {tabnr} specifies the tab page
+		number and information about that one is returned.  If the tab
+		page does not exist an empty List is returned.
+		Each List item is a Dictionary with the following entries:
+			tabnr		tab page number.
+			variables	a reference to the dictionary with
+					tabpage-local variables
+			windows		List of window-IDs in the tab page.
+
+lua print(vim.inspect(vim.fn.getbufinfo({ buflisted = 1 }))) выводит данные по всем буферам, которые реально открыты и не отображает все доспупные, только действующие в данный момент
+getbufinfo([{dict}])
+		Get information about buffers as a List of Dictionaries.
+		Without an argument information about all the buffers is
+		returned.
+		When the argument is a Dictionary only the buffers matching
+		the specified criteria are returned.  The following keys can
+		be specified in {dict}:
+			buflisted	include only listed buffers.
+			bufloaded	include only loaded buffers.
+			bufmodified	include only modified buffers.
+		Otherwise, {buf} specifies a particular buffer to return
+		information for.  For the use of {buf}, see bufname()
+		above.  If the buffer is found the returned List has one item.
+		Otherwise the result is an empty list.
+		Each returned List item is a dictionary with the following
+		entries:
+			bufnr		Buffer number.
+			changed		TRUE if the buffer is modified.
+			changedtick	Number of changes made to the buffer.
+			command		TRUE if the buffer belongs to the
+					command-line window cmdwin.
+			hidden		TRUE if the buffer is hidden.
+			lastused	Timestamp in seconds, like
+					localtime(), when the buffer was
+					last used.
+			listed		TRUE if the buffer is listed.
+			lnum		Line number used for the buffer when
+					opened in the current window.
+					Only valid if the buffer has been
+					displayed in the window in the past.
+					If you want the line number of the
+					last known cursor position in a given
+					window, use line():
+
+определяет видимые буферы 
+lua for i, buf_hndl in ipairs(vim.api.nvim_list_bufs()) do if vim.api.nvim_buf_is_loaded(buf_hndl) then print(vim.api.nvim_buf_get_name(buf_hndl))        end    end
+
+все валидные буфера и те что отображаются в табах и файлы документации если вызывалась справка
+lua for i, buf_hndl in ipairs(vim.api.nvim_list_bufs()) do if vim.api.nvim_buf_is_valid(buf_hndl) then print(vim.api.nvim_buf_get_name(buf_hndl))        end    end
+
+определяет только видимые буферы 
+lua for i, buf_hndl in ipairs(vim.api.nvim_list_bufs()) do if vim.api.nvim_buf_is_loaded(buf_hndl) and vim.bo[buf_hndl].buflisted  then print(vim.api.nvim_buf_get_name(buf_hndl))        end    end
+
+https://neovim.io/doc/user/lua.html#vim.bo
+lua print(vim.inspect(vim.bo))
+lua print(vim.inspect(vim.bo[5].buflisted)) 5 это номер буфера, buflisted дает понять что буфер открытый,
+чтобы можно было отфильтровать только реально открытые и буфера без документации и подобного
+
+https://neovim.io/doc/user/options.html#options
+https://neovim.io/doc/user/options.html#'buftype'
+lua print(vim.bo[5].buflisted)
+lua print(vim.bo[5].bufhidden)
+lua print(vim.bo[5].buftype) тип буфера, для спрвки будет help, пустое значение это обычный буфер
+The value of this option specifies the type of a buffer:
+	  <empty>	normal buffer
+	  acwrite	buffer will always be written with BufWriteCmds
+	  help		help buffer (do not set this manually)
+	  nofile	buffer is not related to a file, will not be written
+	  nowrite	buffer will not be written
+	  quickfix	list of errors :cwindow or locations :lwindow
+	  terminal	terminal-emulator buffer
+	  prompt	buffer where only the last line can be edited, meant
+			to be used by a plugin, see prompt-buffer
+
+tabline=%!v:lua.nvim_bufferline() 
+
+
+
+lua print(vim.inspect(vim.api.nvim_list_tabpages())) идентификаторы вкладок
+navim_list_tabpages()
+Gets the current list of tabpage handles.
+Return:
+List of tabpage handles 
+
+nvim_tabpage_get_win({tabpage})
+Gets the current window in a tabpage
+Parameters:
+{tabpage} Tabpage handle, or 0 for current tabpage
+lua print(vim.inspect(vim.api.nvim_tabpage_get_win(1))) текущее окно для вкладки 
+
+nvim_win_get_buf({window})
+Gets the current buffer in a window
+Parameters:
+{window} Window handle, or 0 for current window
+lua print(vim.inspect(vim.api.nvim_win_get_buf(1022))) активный буфер окна
+
+nvim_buf_get_name({buffer})
+Gets the full file name for the buffer
+Parameters:
+{buffer} Buffer handle, or 0 for current buffer
+Return:
+Buffer name 
+
+lua print(vim.inspect(vim.api.nvim_buf_get_name(17))) имя файла
+https://neovim.io/doc/user/cmdline.html#filename-modifiers  модификаторы путей
+<LeftMouse>:_%: ::8 ::p ::. ::~ ::h ::t ::r ::e ::s ::gs ::S
+     %:8 %:p %:. %:~ %:h %:t %:r %:e %:s %:gs %:S
+lua print(vim.inspect(vim.fn.fnamemodify("xxx/yyy/x.lua", ":t"))) x.lua
 
