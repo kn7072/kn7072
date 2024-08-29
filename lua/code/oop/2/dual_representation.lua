@@ -27,3 +27,12 @@ end
 a = Account:new{}
 a:deposit(100.00)
 print(a:balance())
+--[[
+However, we cannot tamper with an account balance. By keeping the table balance private to the mod-
+ule, this implementation ensures its safety.
+Inheritance works without modifications. This approach has a cost quite similar to the standard one, both
+in terms of time and of memory. New objects need one new table and one new entry in each private table
+being used. The access balance[self] can be slightly slower than self.balance, because the
+latter uses a local variable while the first uses an external variable. Usually this difference is negligible.
+As we will see later, it also demands some extra work from the garbage collector.
+--]]
