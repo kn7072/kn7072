@@ -33,6 +33,8 @@ delmarks a w-z 1-6
 Второй механизм, закладок, тоже удобен, но требует предварительной подготовки. О нем --- через неделю.
 
 # Рубрика "Секреты Вим". Визуальные закладки.
+[documentation](https://neovim.io/doc/user/sign.html#signs визуальные метки
+)
 Всем привет, с вами еженедельная рубрика "Секреты Вим". Мы продолжаем тему закладок и сегодня рассмотрим довольно мудреную, но небесполезную возможность: визуальные закладки.
 ![](marker_images/1.png)
 Вот. Зеленые линии --- это они. И пометка !> --- тоже.
@@ -41,7 +43,7 @@ delmarks a w-z 1-6
 
 Сначала вспомним, [как создавать цветовые схемы](https://zen.yandex.ru/media/math_notebook/rubrika-sekrety-vim-podsvetka-sintaksisa-5ef12b0ad767747c0232aa04?feed_exp=ordinary_feed&from=channel&rid=3661842251.640.1596363854107.19686&integration=site_desktop&place=more&secdata=CKnwlJWuLiABMAJQDw%3D%3D). Для этого служит команда highlight:
 
-> highlight boo ctermbg=2 ctermfg=0
+> highlight boo guifg=#11f0c3 guibg=#ff00ff
 
 Мы создали выделение по имени boo, которое делает фон текста зеленым, а сам текст --- серым. Эту команду лучше поместить в .vimrc
 
@@ -85,3 +87,140 @@ sign list покажет вам ваши закладки.
     
 
 На это надо "потратить" три горячие клавиши, например, F9 и ее же с shift и ctrl. Можно потратить больше клавиш и иметь больше закладок.
+
+https://vimhelp.org/builtin.txt.html
+lua print(vim.fn.expand("%:p")) путь до текущего файла
+
+expand({string} [, {nosuf} [, {list}]])				expand()
+		Expand wildcards and the following special keywords in
+		{string}.  'wildignorecase' applies.
+
+		If {list} is given and it is TRUE, a List will be returned.
+		Otherwise the result is a String and when there are several
+		matches, they are separated by <NL> characters.  [Note: in
+		version 5.0 a space was used, which caused problems when a
+		file name contains a space]
+
+		If the expansion fails, the result is an empty string.  A name
+		for a non-existing file is not included, unless {string} does
+		not start with '%', '#' or '<', see below.
+
+		For a :terminal window '%' expands to a '!' followed by
+		the command or shell that is run.  terminal-bufname
+
+		When {string} starts with '%', '#' or '<', the expansion is
+		done like for the cmdline-special variables with their
+		associated modifiers.  Here is a short overview:
+
+			%		current file name
+			#		alternate file name
+			#n		alternate file name n
+			<cfile>		file name under the cursor
+			<afile>		autocmd file name
+			<abuf>		autocmd buffer number (as a String!)
+			<amatch>	autocmd matched name
+			<cexpr>		C expression under the cursor
+			<sfile>		sourced script file or function name
+			<slnum>		sourced script line number or function
+					line number
+			<sflnum>	script file line number, also when in
+					a function
+			<SID>		"<SNR>123_"  where "123" is the
+					current script ID  <SID>
+			<script>	sourced script file, or script file
+					where the current function was defined
+			<stack>		call stack
+			<cword>		word under the cursor
+			<cWORD>		WORD under the cursor
+			<client>	the {clientid} of the last received
+					message server2client()
+		Modifiers:
+			:p		expand to full path
+			:h		head (last path component removed)
+			:t		tail (last path component only)
+			:r		root (one extension removed)
+			:e		extension only
+
+		Example: 
+			:let &tags = expand("%:p:h") .. "/tags"
+		Note that when expanding a string that starts with '%', '#' or
+		'<', any following text is ignored.  This does NOT work: 
+			:let doesntwork = expand("%:h.bak")
+		Use this: 
+			:let doeswork = expand("%:h") .. ".bak"
+		Also note that expanding "<cfile>" and others only returns the
+		referenced file name without further expansion.  If "<cfile>"
+		is "~/.cshrc", you need to do another expand() to have the
+		"~/" expanded into the path of the home directory: 
+			:echo expand(expand("<cfile>"))
+
+		There cannot be white space between the variables and the
+		following modifier.  The fnamemodify() function can be used
+		to modify normal file names.
+
+		When using '%' or '#', and the current or alternate file name
+		is not defined, an empty string is used.  Using "%:p" in a
+		buffer with no name, results in the current directory, with a
+		'/' added.
+		When 'verbose' is set then expanding '%', '#' and <> items
+		will result in an error message if the argument cannot be
+		expanded.
+
+		When {string} does not start with '%', '#' or '<', it is
+		expanded like a file name is expanded on the command line.
+		'suffixes' and 'wildignore' are used, unless the optional
+		{nosuf} argument is given and it is TRUE.
+		Names for non-existing files are included.  The "**" item can
+		be used to search in a directory tree.  For example, to find
+		all "README" files in the current directory and below: 
+			:echo expand("**/README")
+
+		expand() can also be used to expand variables and environment
+		variables that are only known in a shell.  But this can be
+		slow, because a shell may be used to do the expansion.  See
+		expr-env-expand.
+		The expanded variable is still handled like a list of file
+		names.  When an environment variable cannot be expanded, it is
+		left unchanged.  Thus ":echo expand('$FOOBAR')" results in
+		"$FOOBAR".
+
+		See glob() for finding existing files.  See system() for
+		getting the raw output of an external command.
+
+		Can also be used as a method: 
+			Getpattern()->expand()
+
+		Return type: String or list<string> depending on {list}
+
+
+line({expr} [, {winid}])				line()
+		The result is a Number, which is the line number of the file
+		position given with {expr}.  The {expr} argument is a string.
+		See getpos() for accepted positions.
+
+		To get the column number use col().  To get both use
+		getpos().
+
+		With the optional {winid} argument the values are obtained for
+		that window instead of the current window.
+
+		Returns 0 for invalid values of {expr} and {winid}.
+
+		Examples: 
+			line(".")		line number of the cursor
+			line(".", winid)	idem, in window "winid"
+			line("'t")		line number of mark t
+			line("'" .. marker)	line number of mark marker
+
+		To jump to the last known position when opening a file see
+		last-position-jump.
+
+		Can also be used as a method: 
+			GetValue()->line()
+
+		Return type: Number
+
+lua print(vim.inspect(vim.fn.sign_getplaced()))
+
+local current_line = vim.api.nvim_win_get_cursor(0)[1]
+local current_line_signs = vim.fn.sign_getplaced('%', {group = '*', lnum = current_line})
