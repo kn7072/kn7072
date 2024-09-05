@@ -54,4 +54,10 @@ vim.cmd([[highlight clear LineNr]])
 vim.cmd([[highlight clear SignColumn]])
 
 -- переносить длинные строки
-vim.opt.wrap = false
+vim.opt.wrap = true
+
+vim.opt.foldnestmax = 50
+-- vim.opt.foldmethod = "syntax"
+-- vim.opt.foldcolumn = "1"
+-- vim.opt.foldlevelstart = 1
+-- vim.o.foldenable = true

@@ -15,6 +15,39 @@ require'nvim-treesitter.configs'.setup {
             if ok and stats and stats.size > max_filesize then
                 return true
             end
-        end
+        end,
+        additional_vim_regex_highlighting = false
+
+    },
+    incremental_selection = {
+        -- https://www.josean.com/posts/nvim-treesitter-and-textobjects
+        -- Incremental selection based on the named nodes from the grammar.
+        enable = true,
+        keymaps = {
+            init_selection = "<C-space>",
+            node_incremental = "<C-space>",
+            scope_incremental = false,
+            node_decremental = "<bs>"
+        }
     }
 }
+-- https://github.com/nvim-treesitter/nvim-treesitter
+vim.wo.foldmethod = 'expr'
+vim.wo.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
+
+-- не работает
+-- vim.api.nvim_create_autocmd({"FileType"}, {
+--     callback = function()
+--         if require("nvim-treesitter.parsers").has_parser() then
+--             vim.opt.foldmethod = "expr"
+--             vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+--         else
+--             vim.opt.foldmethod = "syntax"
+--         end
+--     end
+-- })
+-- vim.cmd([[
+--   set nofoldenable
+--   set foldmethod=expr
+--   set foldexpr=nvim_treesitter#foldexpr()
+-- ]])

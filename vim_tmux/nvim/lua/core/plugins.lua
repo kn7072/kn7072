@@ -19,7 +19,8 @@ require("lazy").setup({
     }, {'nvim-treesitter/nvim-treesitter'}, {'neovim/nvim-lspconfig'},
     {"williamboman/mason.nvim", build = ":MasonUpdate"},
     {'joshdick/onedark.vim'}, {'hrsh7th/cmp-nvim-lsp'}, {'hrsh7th/cmp-buffer'},
-    {'hrsh7th/cmp-path'}, {'hrsh7th/cmp-cmdline'}, {'hrsh7th/nvim-cmp'}, {
+    {'hrsh7th/cmp-path'}, {'hrsh7th/cmp-cmdline'}, {'hrsh7th/nvim-cmp'},
+    {'hrsh7th/cmp-nvim-lsp-signature-help'}, {
         'nvim-telescope/telescope.nvim',
         tag = '0.1.1',
         dependencies = {'nvim-lua/plenary.nvim'}
@@ -42,18 +43,28 @@ require("lazy").setup({
         dependencies = {
             'nvim-tree/nvim-web-devicons', 'linrongbin16/lsp-progress.nvim'
         }
-    }, {"folke/which-key.nvim"}, {'windwp/nvim-autopairs'},
-    {'terrortylor/nvim-comment'}, {'mfussenegger/nvim-dap'},
-    {'nvim-tree/nvim-web-devicons'}, {'ryanoasis/vim-devicons'},
-    {'rcarriga/nvim-dap-ui'}, {'leoluz/nvim-dap-go'},
-    {'puremourning/vimspector'}, {'jay-babu/mason-nvim-dap.nvim'},
-    {'hrsh7th/vim-vsnip'}, {'hrsh7th/vim-vsnip-integ'},
+    }, {'VonHeikemen/lsp-zero.nvim', branch = 'v4.x'}, {"folke/which-key.nvim"},
+    {'windwp/nvim-autopairs'}, {'terrortylor/nvim-comment'},
+    {'mfussenegger/nvim-dap'}, {'nvim-tree/nvim-web-devicons'},
+    {'ryanoasis/vim-devicons'}, {
+        "rcarriga/nvim-dap-ui",
+        dependencies = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"}
+    }, {'leoluz/nvim-dap-go'}, {'puremourning/vimspector'},
+    {'jay-babu/mason-nvim-dap.nvim'},
+    --    {'hrsh7th/vim-vsnip'}, {'hrsh7th/vim-vsnip-integ'},
     -- {'slembcke/debugger.lua'},
     {'jbyuki/one-small-step-for-vimkind'},
     {'example-plugin', dir = "~/example-plugin"},
     {'nvim-whid', dir = "~/.local/share/nvim/nvim-whid"},
     {'nredir.nvim', dir = "~/LUA/repo/nredir.nvim"}, {'rcarriga/nvim-notify'},
-    {"yorickpeterse/nvim-window", config = true}
+    {"yorickpeterse/nvim-window", config = true},
+    {dir = "~/GIT/kn7072/lua/plugins/switch_buffer"},
+    {dir = "~/GIT/kn7072/lua/plugins/study"}, {
+        "L3MON4D3/LuaSnip",
+        build = "make install_jsregexp",
+        dependencies = {"rafamadriz/friendly-snippets"}
+    }, {"rafamadriz/friendly-snippets"}, {'saadparwaiz1/cmp_luasnip'}
+
     -- {'window', dir = "~/.local/share/nvim/windows"},
     -- {'name_space', dir = "~/GIT/kn7072/lua/plugins/name_space"}
     -- {'debugger_my', dir = "~/LUA/repo/debugger_my"}
