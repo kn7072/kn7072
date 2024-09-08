@@ -4,7 +4,7 @@ require("luasnip.loaders.from_vscode").lazy_load({
     paths = vim.fn.stdpath("data") .. "/lazy/friendly-snippets"
 })
 require("luasnip.loaders.from_vscode").load_standalone({
-    path = "~/.config/nvim/my_snippets/a.code-snippets"
+    path = vim.fn.stdpath('config') .. "/my_snippets/a.code-snippets"
 })
 
 local path_to_dir_snippets = "~/.config/nvim/my_snippets"
