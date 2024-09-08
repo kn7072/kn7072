@@ -8,7 +8,7 @@ lspconfig.pyright.setup {
     capabilities = capabilities,
     on_attach = lsp_common.on_attach
 }
-lspconfig.tsserver.setup {}
+lspconfig.ts_ls.setup {}
 lspconfig.prismals.setup {}
 lspconfig.cssls.setup {capabilities = capabilities}
 
@@ -29,7 +29,19 @@ lspconfig.clangd.setup {
 -- lspconfig.lua_ls.setup {}
 lspconfig.lua_ls.setup {
     on_init = function(client)
-        local path = client.workspace_folders[1].name
+        local file = assert(io.open("tmpfile_new", "w"))
+        file:write("CLIENT\n" .. vim.inspect(client) .. "\n")
+        file:write("CLIENT_lua\n" .. vim.inspect(client.config.settings.Lua) ..
+                       "\n")
+        file:write("CLIENT_CONFIG_lua\n" .. vim.inspect(client.config) .. "\n")
+        local workspace_folders = client.workspace_folders
+        local path = workspace_folders and workspace_folders[1].name or "_"
+        local run_files = vim.api.nvim_get_runtime_file('', true)
+        table.insert(run_files, "${3rd}/luassert/library")
+
+        file:flush()
+
+        -- local path = client.workspace_folders[1].name
         if not vim.loop.fs_stat(path .. '/.luarc.json') and
             not vim.loop.fs_stat(path .. '/.luarc.jsonc') then
             client.config.settings = vim.tbl_deep_extend('force', client.config
@@ -43,11 +55,11 @@ lspconfig.lua_ls.setup {
                     -- Make the server aware of Neovim runtime files
                     workspace = {
                         checkThirdParty = false,
-                        library = {
-                            vim.env.VIMRUNTIME
-                            -- "${3rd}/luv/library"
-                            -- "${3rd}/busted/library",
-                        }
+                        library = run_files -- {
+                        -- vim.env.VIMRUNTIME
+                        -- "${3rd}/luv/library"
+                        -- "${3rd}/busted/library",
+                        -- }
                         -- or pull in all of 'runtimepath'. NOTE: this is a lot slower
                         -- library = vim.api.nvim_get_runtime_file("", true)
                     },
@@ -61,8 +73,13 @@ lspconfig.lua_ls.setup {
 
             client.notify("workspace/didChangeConfiguration",
                           {settings = client.config.settings})
+
+            file:write("CLIENT_lua_finish\n" ..
+                           vim.inspect(client.config.settings) .. "\n")
+
         end
-        return true
+        file:close()
+        -- return true
     end
 }
 
