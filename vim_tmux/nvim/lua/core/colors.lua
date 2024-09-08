@@ -12,7 +12,7 @@ function SetColor(color)
     -- https://github.com/nvim-treesitter/nvim-treesitter?tab=readme-ov-file#highlight
     vim.api.nvim_set_hl(0, 'Myhl', {ctermfg = 79, fg = "#ffd700"}) -- #767676
     -- Highlight @foo.bar as "Identifier" only in Lua files
-    vim.api.nvim_set_hl(0, "@comment.lua", {link = "Myhl"})
+    vim.api.nvim_set_hl(0, "Comment", {link = "Myhl"})
 end
 
 SetColor()

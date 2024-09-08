@@ -22,7 +22,8 @@ require("lazy").setup({
     {'hrsh7th/cmp-path'}, {'hrsh7th/cmp-cmdline'}, {'hrsh7th/nvim-cmp'},
     {'hrsh7th/cmp-nvim-lsp-signature-help'}, {
         'nvim-telescope/telescope.nvim',
-        tag = '0.1.1',
+        -- tag = '0.1.8'
+        -- branch = '0.1.x'
         dependencies = {'nvim-lua/plenary.nvim'}
     }, {'jose-elias-alvarez/null-ls.nvim'},
     {'akinsho/toggleterm.nvim', version = "*", config = true},
@@ -49,8 +50,7 @@ require("lazy").setup({
     {'ryanoasis/vim-devicons'}, {
         "rcarriga/nvim-dap-ui",
         dependencies = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"}
-    }, {'leoluz/nvim-dap-go'}, {'puremourning/vimspector'},
-    {'jay-babu/mason-nvim-dap.nvim'},
+    }, {'leoluz/nvim-dap-go'}, {'jay-babu/mason-nvim-dap.nvim'},
     --    {'hrsh7th/vim-vsnip'}, {'hrsh7th/vim-vsnip-integ'},
     -- {'slembcke/debugger.lua'},
     {'jbyuki/one-small-step-for-vimkind'},
