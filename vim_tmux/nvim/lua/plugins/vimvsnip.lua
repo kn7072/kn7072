@@ -29,7 +29,11 @@ end, {silent = true})
 vim.keymap.set({"i", "s"}, "<C-p>", function()
     luasnip.jump(-1)
 end, {silent = true})
---
+vim.keymap.set({"i", "s"}, "<C-s>", function()
+    -- посмотреть все доступные снипеты
+    local sl = require("luasnip.extras.snippet_list")
+    sl.open()
+end, {silent = true})
 vim.keymap.set({"i", "s"}, "<C-e>", function()
     if luasnip.choice_active() then
         luasnip.change_choice(1)
