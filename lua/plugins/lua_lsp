@@ -1,0 +1,134 @@
+lspconfig.lua_ls.setup {
+    on_init = function(client)
+        local path = client.workspace_folders[1].name
+        if not vim.loop.fs_stat(path .. '/.luarc.json') and
+            not vim.loop.fs_stat(path .. '/.luarc.jsonc') then
+            client.config.settings = vim.tbl_deep_extend('force', client.config
+                                                             .settings, {
+                Lua = {
+                    runtime = {
+                        -- Tell the language server which version of Lua you're using
+                        -- (most likely LuaJIT in the case of Neovim)
+                        version = 'LuaJIT'
+                    },
+                    -- Make the server aware of Neovim runtime files
+                    workspace = {
+                        checkThirdParty = false,
+                        library = {
+                            vim.env.VIMRUNTIME
+                            -- "${3rd}/luv/library"
+                            -- "${3rd}/busted/library",
+                        }
+                        -- or pull in all of 'runtimepath'. NOTE: this is a lot slower
+                        -- library = vim.api.nvim_get_runtime_file("", true)
+                    },
+                    diagnostics = {
+                        -- Get the language server to recognize the `vim` global
+                        -- Now, you don't get error/warning "Undefined global `vim`".
+                        globals = {'vim'}
+                    }
+                }
+            })
+
+            client.notify("workspace/didChangeConfiguration",
+                          {settings = client.config.settings})
+        end
+        return true
+    end
+
+
+
+on_init = function(client)
+
+        local file = assert(io.open("tmpfile123", "w"))
+        file:write("CLIENT\n" .. vim.inspect(client) .. "\n")
+        file:write("CLIENT_lua\n" .. vim.inspect(client.config.settings.Lua) ..
+                       "\n")
+
+        local workspace_folders = client.workspace_folders
+        local path = workspace_folders and workspace_folders[1].name or "_"
+        if vim.uv.fs_stat(path .. '/.luarc.json') or
+            vim.uv.fs_stat(path .. '/.luarc.jsonc') then
+            return
+        end
+
+        local run_files = vim.api.nvim_get_runtime_file('', true)
+        table.insert(run_files, "${3rd}/luassert/library")
+        client.config.settings.Lua = vim.tbl_deep_extend('force', client.config
+                                                             .settings.Lua, {
+            runtime = {
+                -- Tell the language server which version of Lua you're using
+                -- (most likely LuaJIT in the case of Neovim)
+                version = 'LuaJIT'
+            },
+            -- Make the server aware of Neovim runtime files
+            workspace = {
+                checkThirdParty = false,
+                library = run_files -- vim.api.nvim_get_runtime_file('', true)
+                -- {
+                -- vim.env.VIMRUNTIME
+                -- Depending on the usage, you might want to add additional paths here.
+                -- "${3rd}/luv/library"
+                -- "${3rd}/busted/library",
+                -- }
+                -- or pull in all of 'runtimepath'. NOTE: this is a lot slower
+                -- library = vim.api.nvim_get_runtime_file("", true)
+            },
+            diagnostics = {
+                -- Get the language server to recognize the `vim` global
+                -- Now, you don't get error/warning "Undefined global `vim`".
+                globals = {"vim"}
+            }
+        })
+        client.notify("workspace/didChangeConfiguration",
+                      {settings = client.config.settings})
+        file:write("CLIENT_lua_finish\n" ..
+                       vim.inspect(client.config.settings.Lua) .. "\n")
+
+        file:close()
+        return true
+    end -- ,
+    -- settings = {Lua = {}}
+
+
+
+lua print(vim.inspect(vim.lsp.get_clients()))
+lua print(vim.inspect(vim.lsp.get_clients({name = "lua_ls"})))
+lua print(vim.inspect(vim.lsp.get_clients({name = "null-ls"})))
+
+lua print(vim.inspect(vim.lsp.get_clients({name = "lua_ls"})[1].config.settings))
+lua print(vim.inspect(vim.lsp.get_active_clients({name = "lua_ls"})[1].server_capabilities)) - серверные настройки
+
+lua local client = vim.lsp.get_clients({name = "lua_ls"})[1]; print(client.supports_method('textDocument/implementation')) поддерживает ли метод textDocument/implementation
+
+
+Get active clients.
+Parameters:
+{filter} (table?) Key-value pairs used to filter the returned clients.
+{id} (integer) Only return clients with the given id
+{bufnr} (integer) Only return clients attached to this buffer
+{name} (string) Only return clients with the given name
+{method} (string) Only return clients supporting the given method
+Return:
+(vim.lsp.Client[]) List of vim.lsp.Client objects
+#############################################################
+https://neovim.io/doc/user/lsp.html#_events
+
+Requests and notifications defined by the LSP specification are referred to as "LSP methods". The Nvim LSP client provides default handlers in the global vim.lsp.handlers table, you can list them with this command:
+
+:lua vim.print(vim.tbl_keys(vim.lsp.handlers))
+
+They are also listed below. Note that handlers depend on server support: they won't run if your server doesn't support them.
+
+#############################################################
+
+lua print(vim.inspect(vim.lsp.get_active_clients()))
+
+
+
+lua print(vim.lsp.get_log_path())
+Gets the path of the logfile used by the LSP client.
+
+
+lua print(vim.lsp.status())
+Consumes the latest progress messages from all clients and formats them as a string. Empty if there are no clients or if no new messages 
