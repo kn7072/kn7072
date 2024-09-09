@@ -6,6 +6,7 @@ auditctl -a exit,always -S open -F path=/home/stepan/.local/share/nvim/mason/pac
 ```
 sudo service auditd restart
 ```
+посмотреть логи в реальном времени journalctl -f
 
 # если возникла ошибка
 WARNING - 32/64 bit syscall mismatch, you should specify an arch
@@ -16,6 +17,14 @@ WARNING - 32/64 bit syscall mismatch, you should specify an arch
 sudo auditctl -a always,exit -F exe=/home/stepan/.local/share/nvim/mason/packages/luaformatter/bin/lua-format -F arch=b64 -S execve -k execution_bin_id
 sudo aureport -f -i --start today | grep "lua-format" 
 sudo ausearch -a 4123
+
+sudo ausearch -k exe_lua_formater -ts recent
+sudo auditctl -w "/home/stepan/English/фразовые глаголы/grep_verb.bash"  -F perm=rx -k phrase_2
+
+git
+sudo auditctl -w /usr/bin/git -p x -k git   следим за всеми вызовами git
+sudo ausearch -k git -ts recent             смотрим логи
+
 # проверить правила
 sudo auditctl -l
 
