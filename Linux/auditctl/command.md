@@ -23,7 +23,7 @@ sudo auditctl -w "/home/stepan/English/фразовые глаголы/grep_verb
 
 git
 sudo auditctl -w /usr/bin/git -p x -k git   следим за всеми вызовами git
-sudo ausearch -k git -ts recent             смотрим логи
+sudo ausearch -k git -ts recent -i          смотрим логи
 
 # проверить правила
 sudo auditctl -l
