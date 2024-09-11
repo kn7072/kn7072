@@ -8,7 +8,7 @@ class MyObj(object):
   def go(self):
     for i in range(self.count):
       a = 5
-      print("hallo world")
+      print(f"hallo world {i}")
       pdb.set_trace()
       print(i)
     return
@@ -16,3 +16,4 @@ class MyObj(object):
 if __name__ == '__main__':
   MyObj(5).go()
   # для push
+  print("for break point")
