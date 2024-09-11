@@ -75,7 +75,8 @@ VALUES
 
 WITH sum_goods AS (
     SELECT store_id, SUM(sum) as total_sum
-    FROM sales s JOIN goods g ON s.good_id = g.good_id
+    FROM sales s
+    JOIN goods g ON s.good_id = g.good_id
     WHERE date_sale = '2022-05-27' AND good_name = 'bread'
     GROUP BY store_id)
 SELECT address, total_sum FROM store, sum_goods
