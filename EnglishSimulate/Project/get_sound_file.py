@@ -39,8 +39,12 @@ def create_sound_file(name, data_file, path_dir):
 url = "https://wooordhunt.ru"
 word_name = "Champagne"
 url_word = "%s/word/%s" % (url, word_name)
+
+url_word = "https://translate.google.com/?hl=en&tab=TT&sl=en&tl=ru&text=clergyman&op=translate"
 r = requests.get(url_word)
 data_html = r.text
+with open('TEMP.html', encoding="utf-8", mode='w') as f:
+    f.write(data_html)
 
 
 search = compl_1.search(data_html)
