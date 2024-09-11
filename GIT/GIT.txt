@@ -58,6 +58,8 @@ git revert --strategy recursive -Xours -m 1 5333b08
 
 ##########################################################
 alias
+~/.gitconfig находятся тут
+
 https://stackoverflow.com/questions/7066325/list-git-aliases
 git config --get-regexp ^alias вывести все алиасы
 git config --global alias.al 'config --get-regexp ^alias' алиас чтобы узнать о всех алиасах
@@ -90,6 +92,18 @@ git config --global alias.whois "! sh -c 'git log -i -1 --pretty=\"format:%an <%
 git config --global alias.whois "! sh -c 'git log -i -1  --author=\"$1\"' -"
 (чтобы протестировать команду выше git log -i -1 --pretty=format:"%an <%ae>\n" --author="stepan")
 
+https://stackoverflow.com/questions/3321492/git-alias-with-positional-parameters/3322412#3322412
+пример 
+bash -c 'ls "$1"' - ..
+bash -c 'foo(){ ls $1; }; foo;' - ..
+bash -c 'f(){ git show $1; }; f;' - 6afb2
+sh -c 'f(){ git show $( $1 + "^" ) ; }; f;'; - 6afb2
+bash -c 'echo "$1"; f(){ echo "$0-$1"; }; f $0 $1;' x y
+
+(files = "!f() { git diff --name-status \"$1^\" \"$1\"; }; f")
+git config --global alias.files "! bash -c 'f(){ git diff --name-status \"$1\"^ \"$1\"; }; f;' -"
+
+git config --global alias.files "! f() {git diff --name-status \"$1^\" \"$1\"; }; f"
 ##########################################################
 https://pingvinus.ru/git/1605
 git diff сама по себе не показывает все изменения сделанные с последнего коммита — только те, что ещё не проиндексированы.
