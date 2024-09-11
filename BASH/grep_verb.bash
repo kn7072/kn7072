@@ -6,9 +6,10 @@ start_message="Введите фразу для поиска:"
 echo -n "$start_message"
 while true; do
     read input
+    # echo ${input}
     
     if [[ "$input" ]]; then
-        grep -iE --color ${input} ${path_to_file}
+        grep -inE --color "${input}" ${path_to_file}
         if [[ ${input} == "exit" ]]; then
             break
         fi
