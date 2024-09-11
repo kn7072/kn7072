@@ -59,15 +59,37 @@ git revert --strategy recursive -Xours -m 1 5333b08
 ##########################################################
 alias
 https://stackoverflow.com/questions/7066325/list-git-aliases
-git config --get-regexp alias
+git config --get-regexp ^alias вывести все алиасы
+git config --global alias.al 'config --get-regexp ^alias' алиас чтобы узнать о всех алиасах
 
 git config --global alias.alias "! git config --get-regexp ^alias\. | sed -e s/^alias\.// -e s/\ /\ =\ /"
 
-$ git config --global alias.unstage 'reset HEAD --'
+$ git config --global alias.unstage 'reset HEAD --' сбрасывает индекс для указанного файла
 $ git unstage fileA
 $ git reset HEAD -- fileA
 
 $ git config --global alias.sno 'status -uno'
+
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+
+git config --global alias.st status
+git config --global alias.std 'status .'
+
+
+https://archive.kernel.org/oldwiki/git.wiki.kernel.org/index.php/Aliases.html#Advanced_aliases_with_arguments
+параметризованные алиасы
+sh -c (https://www.linux.org.ru/forum/admin/13524955)
+запуск в пакетном режиме, неинтерактивный сеанс
+
+выведет адрес электронной почты пользователя
+git config --global alias.whois "! sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
+
+последний комит автора
+git config --global alias.whois "! sh -c 'git log -i -1  --author=\"$1\"' -"
+(чтобы протестировать команду выше git log -i -1 --pretty=format:"%an <%ae>\n" --author="stepan")
+
 ##########################################################
 https://pingvinus.ru/git/1605
 git diff сама по себе не показывает все изменения сделанные с последнего коммита — только те, что ещё не проиндексированы.
@@ -199,6 +221,8 @@ git log -SZLIB_BUF_MAX --oneline стр 244 - При помощи парамет
 Поиск по строкам кода 244стр
 git log -L :git_deflate_bound:zlib.c для просмотра изменений, вносившихся в функцию git_deflate_bound в файле zlib.c
 git log -L '/unsigned long git_deflate_bound/',/^}/:zlib.c - через регуляные выражения
+###########################################################
+
 
 ###########################################################
 Ссылки на предков
