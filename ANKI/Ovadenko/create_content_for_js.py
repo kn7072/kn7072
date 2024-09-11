@@ -45,7 +45,7 @@ def get_slides(melt_list: list) -> list:
     count = 0
     for question, answer in melt_list:
         if len(question) > count_symbols_in_slide or len(answer) > count_symbols_in_slide:
-            raise Exception(f"Слижком длинное предложение")
+            raise Exception(f"Слишком длинное предложение")
 
         if count < count_sentence_in_slide:
             temp_len_question_slide = len(content_slide_question) + len(question)
