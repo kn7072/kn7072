@@ -79,6 +79,11 @@ git config --global alias.ci commit
 git config --global alias.st status
 git config --global alias.std 'status .'
 
+удаление алиасов
+git config --global --unset alias.trololo
+In case someone has multiple values for the same alias and has got that:
+git config --global --unset-all alias.trololo
+или удалить в файле ~/.gitconfig
 
 https://archive.kernel.org/oldwiki/git.wiki.kernel.org/index.php/Aliases.html#Advanced_aliases_with_arguments
 параметризованные алиасы
