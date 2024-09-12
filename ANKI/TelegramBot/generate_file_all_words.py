@@ -4,7 +4,7 @@ import json
 from common import read_file, get_data_file, get_mnemo_list, path_anki
 
 data_all_words = read_file("ALL_WORDS.txt")
-dir_for_search_files = r"e:\KN7072_X\kn7072\ANKI\WORDS"
+dir_for_search_files = r"/home/stepan/GIT/kn7072/ANKI/WORDS"
 
 
 def get_path_file(word: str) -> str:

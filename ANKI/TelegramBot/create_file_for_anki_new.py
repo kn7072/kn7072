@@ -5,10 +5,10 @@ import config_bot
 from common import read_file, get_data_file
 
 data_all_words = read_file("ALL_WORDS.txt")  # ALL_WORDS.txt ПОВТОРИТЬ.txt
-dir_for_search_files = r"/home/stapan/GIT/kn7072/ANKI/WORDS"
-path_dir_sound_files = "/home/stapan/GIT/kn7072/EnglishSimulate/Project/sound_longman_mono"
-path_anki_to_create = "/home/stapan/TMP/ANKI/{i}_English_words.txt"
-path_to_learnt_sentence = "/home/stapan/GIT/kn7072/ANKI/Предложения.txt"
+dir_for_search_files = r"/home/stepan/GIT/kn7072/ANKI/WORDS"
+path_dir_sound_files = "/home/stepan/GIT/kn7072/EnglishSimulate/Project/sound_longman_mono"
+path_anki_to_create = "/home/stepan/TEMP/ANKI/{i}_English_words.txt"
+path_to_learnt_sentence = "/home/stepan/GIT/kn7072/ANKI/Предложения.txt"
 
 delimeter = "&"
 ccs_class_even = "even"
@@ -247,19 +247,19 @@ i = 1
 learnt_sentence: dict = get_learnt_sentence()
 
 ### ВРЕММЕННО - ДЛЯ ЗАПОЛЕНИНИЯ НЕДОСТАЮЩИХ ПРЕДЛОЖЕНИЙ
-limit = 800
-def temp_content():
-    list_word_learn = []
-    for line_i in open("/home/stapan/GIT/kn7072/GO/english/ADD_SENTENCE.txt", encoding="utf-8"):
-        word_i, frequency_i, *x = line_i.rsplit(" ", 1)
-        if x:
-            print(line_i)
-        list_word_learn.append(word_i)
+# limit = 230
+# def temp_content():
+#     list_word_learn = []
+#     for line_i in open("/home/stepan/GIT/kn7072/GO/english/ADD_SENTENCE.txt", encoding="utf-8"):
+#         word_i, frequency_i, *x = line_i.rsplit(" ", 1)
+#         if x:
+#             print(line_i)
+#         list_word_learn.append(word_i)
 
-    return list_word_learn
+#     return list_word_learn
  
-content_iterator = get_content_word(temp_content())
-### 
+# content_iterator = get_content_word(temp_content())
+# ### 
 
 
 while True:

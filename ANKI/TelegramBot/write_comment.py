@@ -3,9 +3,8 @@ import json
 import os
 
 
-dir_for_search_files = "/home/stapan/GIT/kn7072/ANKI/WORDS"
-list_words = ["framework", "housework"]
-
+dir_for_search_files = "/home/stepan/GIT/kn7072/ANKI/WORDS"
+list_words = ["moan", "loan", "groan"]
 
 def get_data_file(path_file: str) -> None:
     """Читает файл, и возвращает содержимое."""
