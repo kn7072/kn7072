@@ -22,7 +22,7 @@ require("lazy").setup({
     {'hrsh7th/cmp-path'}, {'hrsh7th/cmp-cmdline'}, {'hrsh7th/nvim-cmp'},
     {'hrsh7th/cmp-nvim-lsp-signature-help'}, {
         'nvim-telescope/telescope.nvim',
-        -- tag = '0.1.8'
+        tag = '0.1.8',
         -- branch = '0.1.x'
         dependencies = {'nvim-lua/plenary.nvim'}
     }, {'jose-elias-alvarez/null-ls.nvim'},
@@ -59,6 +59,7 @@ require("lazy").setup({
     {'nredir.nvim', dir = "~/LUA/repo/nredir.nvim"}, {'rcarriga/nvim-notify'},
     {"yorickpeterse/nvim-window", config = true},
     {dir = "~/GIT/kn7072/lua/plugins/switch_buffer"},
+    {dir = "~/GIT/kn7072/lua/plugins/surround"},
     {dir = "~/GIT/kn7072/lua/plugins/study"}, {
         "L3MON4D3/LuaSnip",
         build = "make install_jsregexp",

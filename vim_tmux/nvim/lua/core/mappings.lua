@@ -38,3 +38,25 @@ vim.keymap.set('n', '<c-l><c-l>', ':set invrelativenumber<CR>')
 
 -- ctrl + c
 vim.keymap.set('v', '<leader>cc', '"+y<CR>')
+
+--[[
+spell
+:set nospell  - чтобы отключить подцветку ошибок
+
+для выбора подходящих слов
+z= появится сокращенный список
+z=z появится полный список
+
+для исправляния в режиме редактирования
+<c-x><c-s>
+--]]
+vim.keymap.set('n', ']s', function()
+    local spell = vim.wo.spell
+    vim.wo.spell = true
+    vim.opt.spelllang = {"en_us", "ru_ru"}
+    vim.api.nvim_feedkeys(
+        vim.api.nvim_replace_termcodes(']s', true, true, true), 'n', true)
+    -- vim.schedule(function()
+    --     vim.wo.spell = spell
+    -- end)
+end)
