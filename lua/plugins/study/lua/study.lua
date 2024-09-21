@@ -122,6 +122,7 @@ end
 -- Configures the plugin by merging the given settings into the default ones.
 function M.setup(user_config)
     config = vim.tbl_extend('force', config, user_config)
+    _G["test_variable"] = "study_lua"
 end
 
 function M.print_hl()
