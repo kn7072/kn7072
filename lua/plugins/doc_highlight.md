@@ -128,3 +128,26 @@ ctermbg: Sets background of cterm color ctermbg
 cterm: cterm attribute map, like highlight-args. If not set, cterm attributes will match those from the attribute map documented above.
 force: if true force update the highlight group when it exists.
 
+
+======================================================
+diff
+:help hl-DiffAdd
+
+The colors are controlled by these four highlight groups (:help hl-DiffAdd):
+
+DiffAdd     diff mode: Added line
+DiffChange  diff mode: Changed line
+DiffDelete  diff mode: Deleted line
+DiffText    diff mode: Changed text within a changed line
+
+These are typically defined by a color scheme, but you can customize them in your ~/.vimrc (after the :colorscheme command) if you like you scheme overall, just not its diff highlighting. Just redefine using :highlight. Here are my personal customizations (for GVIM; for the terminal you need the appropriate ctermfg/bg=... attributes instead / in addition):
+
+hi DiffAdd      gui=none    guifg=NONE          guibg=#bada9f
+hi DiffChange   gui=none    guifg=NONE          guibg=#e5d5ac
+hi DiffDelete   gui=bold    guifg=#ff8080       guibg=#ffb0b0
+hi DiffText     gui=none    guifg=NONE          guibg=#8cbee2
+
+If you're switching colorschemes on the fly, you need to re-invoke those :hi commands via :autocmd ColorScheme * hi ...
+
+
+
