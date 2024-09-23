@@ -1,7 +1,7 @@
 local function create_temp_buffer(point, current_buffer)
     local tempfile = vim.fn.tempname()
-    vim.notify(string.format("current_buffer %s", current_buffer),
-               vim.log.levels.DEBUG)
+    vim.notify(string.format("\ncurrent_buffer %s, point %d\n", current_buffer,
+                             point), vim.log.levels.DEBUG)
     vim.cmd.earlier(point)
     local current_buffer_lines = vim.fn.getbufline(current_buffer, 1, "$")
     vim.cmd.later(point)
@@ -18,13 +18,15 @@ end
 
 local function open_dialog_window()
     local count_changing = get_count_changes()
-    vim.ui.input({
+    local number_changing = nil
+    local num = vim.ui.input({
         prompt = string.format(
             'Enter number of hishory changing from 1 to %s: ', count_changing)
     }, function(input)
-        local number_changing = tostring(input)
+        number_changing = tonumber(input)
         return number_changing
     end)
+    return number_changing
 end
 
 local current_buffer = vim.api.nvim_get_current_buf()
