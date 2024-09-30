@@ -35,6 +35,10 @@ lua print(vim.api.nvim_bug_line_count(0))
 lua print(vim.inspect(vim.api.nvim_buf_get_lines(0, 0, 3, true)))
 (buf, firstline, new_lastline, true)
 
+получить фрагмент строки
+nvim_buf_get_text({buffer}, {start_row}, {start_col}, {end_row}, {end_col}, {opts}) Gets a range from the buffer
+lua print(vim.inspect(vim.api.nvim_buf_get_text(vim.api.nvim_get_current_buf(), 1, 1, 1, 5, {})))
+
 сделает активным текущий буфер, то есть в текущем окне отобразиться содержимое буфера
 api.nvim_set_current_buf(plugin_buffer)
 
