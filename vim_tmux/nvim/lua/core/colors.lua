@@ -10,9 +10,13 @@ function SetColor(color)
     vim.api.nvim_set_hl(0, "LineNr", {bg = "none"})
 
     -- https://github.com/nvim-treesitter/nvim-treesitter?tab=readme-ov-file#highlight
-    vim.api.nvim_set_hl(0, 'Myhl', {ctermfg = 79, fg = "#767676"})
+    vim.api.nvim_set_hl(0, 'MyComment', {ctermfg = 79, fg = "#767676"})
+    vim.api.nvim_set_hl(0, 'MyFolded',
+                        {ctermbg = 70, bg = "#005f5f", fg = "#ffd7af"})
     -- Highlight @foo.bar as "Identifier" only in Lua files
-    vim.api.nvim_set_hl(0, "Comment", {link = "Myhl"})
+    vim.api.nvim_set_hl(0, "Comment", {link = "MyComment"})
+    vim.api.nvim_set_hl(0, "Folded", {link = "MyFolded"})
+    -- Folded         xxx ctermfg=59 guifg=#5c6370
 end
 
 SetColor()
