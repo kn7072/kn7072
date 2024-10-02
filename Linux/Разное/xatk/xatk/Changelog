@@ -1,0 +1,55 @@
+.. -*- mode: rst; -*-
+xatk 0.2.2 - 17 Sep 2017
+------------------------
+
+Upload to PyPI.
+
+xatk 0.2.1 - 14 Sep 2015
+------------------------
+
+Bug fix:
+
+ * add support for python-xlib patched with python3 support (Debian,
+   Ubuntu)
+
+xatk 0.2.0 - 08 July 2015
+-------------------------
+
+Features:
+
+ * add ability to run commands (run or raise behavior)
+ * prevent runnig more than one xatk instance
+ * add --kill option to stop a running xatk instance
+ * move the project from Google Code to Github
+
+Bug fixes:
+
+ * handle more BadWindow exceptions which could occur rarely
+ * avoid xatkrc breakage by not writing empty history element values
+
+
+xatk 0.1.0 - 11 March 2012
+--------------------------
+
+Features:
+
+ * permanent user-defined shortcuts for specific windows
+ * user-defined list of ignored windows
+ * user-defined list of allowed window types
+ * instance property in rules
+ * user-defined templates in rules
+ * add support for QWERTZ and AZERTY keyboard layouts
+
+Bug fixes:
+
+ * fix python-xlib's get_full_property bug which could lead to crashes
+ * xatk didn't raise windows with activated Num Lock and/or Caps Lock
+ * xatk could not be started before window manager
+ * fix shortcut sort key
+ * it was not possible to specify Dvorak layout
+
+
+xatk 0.0.1 - 07 April 2011
+--------------------------
+
+Initial release
