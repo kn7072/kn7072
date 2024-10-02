@@ -10,7 +10,7 @@ https://www.rigacci.org/wiki/doku.php/doc/appunti/linux/sa/remap_keyboard_keys
 sudo apt install evtest
 sudo evtest
 
-
+sudo chown $USER:$USER /dev/hidraw1
 
 qmk list-keyboards | grep "iris" -найти полное название клавиатуры
 
@@ -41,6 +41,8 @@ qmk new-keymap -kb avalanch_2040/v4  test_1
 qmk compile -kb avalanch_2040/v4 -km test_1
 qmk flash -kb avalanch_2040/v4  -km test_1
 
+
+
 qmk new-keymap -kb tbkmini/v2/splinky_3 test_1
 qmk compile -kb tbkmini/v2/splinky_3 -km test_1
 qmk flash -kb tbkmini/v2/splinky_3  -km test_1
@@ -56,6 +58,12 @@ qmk console -d CEE2:0004:1
 /home/stepan/qmk_firmware/keyboards/work_louder/micro
 
 
+make avalanch_2040/v4:vial
+make avalanch_2040/v4:vial:flash
+
+make avalanch_2040/v4:test_1
+make avalanch_2040/v4:vial:test_1
 
 
-
+qmk compile -kb avalanch_2040/v4 -km vial
+qmk flash -kb avalanch_2040/v4 -km vial
