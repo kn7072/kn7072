@@ -11,7 +11,7 @@ vim.opt.wrap = false
 vim.wo.linebreak = true
 vim.opt.virtualedit = "block"
 vim.opt.undofile = true
-vim.opt.shell = "/bin/zsh"
+vim.opt.shell = "/bin/fish"
 
 -- Mouse
 vim.opt.mouse = "a"
@@ -56,7 +56,7 @@ vim.cmd([[highlight clear SignColumn]])
 -- переносить длинные строки
 vim.opt.wrap = true
 
-vim.opt.foldnestmax = 50
+vim.opt.foldnestmax = 100
 -- vim.opt.foldmethod = "syntax"
 -- vim.opt.foldcolumn = "1"
 -- vim.opt.foldlevelstart = 1

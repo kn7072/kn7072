@@ -65,7 +65,12 @@ require("lazy").setup({
         build = "make install_jsregexp",
         dependencies = {"rafamadriz/friendly-snippets"}
     }, {"rafamadriz/friendly-snippets"}, {'saadparwaiz1/cmp_luasnip'},
-    {'mbbill/undotree'}
+    {'mbbill/undotree'}, {
+        "ThePrimeagen/refactoring.nvim",
+        dependencies = {
+            "nvim-lua/plenary.nvim", "nvim-treesitter/nvim-treesitter"
+        }
+    }
     -- {'window', dir = "~/.local/share/nvim/windows"},
     -- {'name_space', dir = "~/GIT/kn7072/lua/plugins/name_space"}
     -- {'debugger_my', dir = "~/LUA/repo/debugger_my"}
