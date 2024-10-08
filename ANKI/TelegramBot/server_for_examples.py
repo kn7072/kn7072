@@ -19,7 +19,7 @@ macmillan_words = json.loads(get_data_file("./macmillan_ipa_stars.json"))
 def write_file(path_file: str, data_file: str) -> None:
     """Записывает data_file в файл, перезаписывая сожержимое файла."""
     with open(path_file, encoding="utf-8", mode="w") as f:
-        return f.write(data_file)
+        f.write(data_file)
 
 
 def get_word_for_stars(obj: dict, count_star: int) -> list:
@@ -198,7 +198,7 @@ class MyHandler(BaseHTTPRequestHandler):
                     res = b"StopIteration"
                     self.wfile.write(res)
         else:
-            self.wfile.write(b"x")    
+            self.wfile.write(b"\n\nno sound")    
 
     def do_GET(self):
         all_knonw_word_dict = self.get_know_words()
