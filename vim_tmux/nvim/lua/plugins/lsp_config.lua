@@ -28,10 +28,14 @@ function goimports(timeoutms)
     -- See the implementation of the textDocument/codeAction callback
     -- (lua/vim/lsp/handler.lua) for how to do this properly.
     local result = vim.lsp.buf_request_sync(0, "textDocument/codeAction",
-                                            params, timeout_ms)
-    if not result or next(result) == nil then return end
+                                            params, timeoutms)
+    if not result or next(result) == nil then
+        return
+    end
     local actions = result[1].result
-    if not actions then return end
+    if not actions then
+        return
+    end
     local action = actions[1]
 
     -- textDocument/codeAction can return either Command[] or CodeAction[]. If it
@@ -56,14 +60,48 @@ nvim_lsp.gopls.setup {
     settings = {
         -- https://github.com/golang/tools/blob/master/gopls/doc/settings.md
         -- https://github.com/golang/tools/blob/master/gopls/doc/analyzers.md
+        -- https://github.com/golang/tools/blob/master/gopls/doc/settings.md
+        -- https://github.com/golang/tools/blob/master/gopls/doc/inlayHints.md
         gopls = {
             experimentalPostfixCompletions = true,
+            gofumpt = true,
+            codelenses = {
+                gc_details = true,
+                generate = true,
+                regenerate_cgo = true,
+                run_govulncheck = true,
+                test = true,
+                tidy = true,
+                upgrade_dependency = true,
+                vendor = true
+            },
+
             analyses = {
+                fieldalignment = true,
+                nilness = true,
                 unusedparams = true,
+                unusedwrite = true,
+                useany = true,
                 shadow = true
                 -- simplifyslice = true
             },
-            staticcheck = true
+            hints = {
+                assignVariableTypes = true,
+                compositeLiteralFields = true,
+                compositeLiteralTypes = true,
+                constantValues = true,
+                functionTypeParameters = true,
+                parameterNames = true,
+                rangeVariableTypes = true
+            },
+            usePlaceholders = true,
+            completeUnimported = true,
+            staticcheck = true,
+            directoryFilters = {
+                "-.git", "-.vscode", "-.idea", "-.vscode-test", "-node_modules"
+            },
+            semanticTokens = true
+
         }
     },
     on_attach = lsp_common.on_attach
