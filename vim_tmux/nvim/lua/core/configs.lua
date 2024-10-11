@@ -58,6 +58,6 @@ vim.opt.wrap = true
 
 vim.opt.foldnestmax = 100
 -- vim.opt.foldmethod = "syntax"
--- vim.opt.foldcolumn = "1"
--- vim.opt.foldlevelstart = 1
--- vim.o.foldenable = true
+vim.opt.foldcolumn = "1"
+vim.opt.foldlevelstart = 1
+vim.o.foldenable = true

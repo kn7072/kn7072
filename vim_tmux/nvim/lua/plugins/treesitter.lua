@@ -1,4 +1,4 @@
-require'nvim-treesitter.configs'.setup {
+require'nvim-treesitter.configs'.setup({
     ensure_installed = {
         "typescript", "lua", "go", "javascript", "python", "bash", "sql",
         "markdown_inline", "c"
@@ -30,20 +30,20 @@ require'nvim-treesitter.configs'.setup {
             node_decremental = "<bs>"
         }
     }
-}
+})
 -- https://github.com/nvim-treesitter/nvim-treesitter
-vim.wo.foldmethod = 'expr'
-vim.wo.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
-
-vim.opt.fillchars:append({fold = ' '})
-
-function myfoldtext()
-    local line = vim.fn.getline(vim.v.foldstart)
-    return string.format("%s %s ( lines: %s )", '+-- ', line,
-                         (vim.v.foldend - vim.v.foldstart + 1))
-end
-
-vim.opt.foldtext = 'v:lua.myfoldtext()'
+-- vim.wo.foldmethod = 'expr'
+-- vim.wo.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
+--
+-- vim.opt.fillchars:append({fold = ' '})
+--
+-- function myfoldtext()
+--     local line = vim.fn.getline(vim.v.foldstart)
+--     return string.format("%s %s ( lines: %s )", '+--', line,
+--                          (vim.v.foldend - vim.v.foldstart + 1))
+-- end
+--
+-- vim.opt.foldtext = 'v:lua.myfoldtext()'
 
 -- не работает
 -- vim.api.nvim_create_autocmd({"FileType"}, {

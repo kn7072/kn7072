@@ -70,7 +70,7 @@ require("lazy").setup({
         dependencies = {
             "nvim-lua/plenary.nvim", "nvim-treesitter/nvim-treesitter"
         }
-    }
+    }, {'kevinhwang91/nvim-ufo', dependencies = {'kevinhwang91/promise-async'}}
     -- {'window', dir = "~/.local/share/nvim/windows"},
     -- {'name_space', dir = "~/GIT/kn7072/lua/plugins/name_space"}
     -- {'debugger_my', dir = "~/LUA/repo/debugger_my"}
