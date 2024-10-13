@@ -7,7 +7,6 @@ vim.opt.showmode = true
 vim.opt.updatetime = 100
 vim.wo.signcolumn = "yes"
 vim.opt.scrolloff = 8
-vim.opt.wrap = false
 vim.wo.linebreak = true
 vim.opt.virtualedit = "block"
 vim.opt.undofile = true

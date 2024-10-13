@@ -64,9 +64,9 @@ M.on_attach = function(client, bufnr)
     -- https://smarttech101.com/nvim-lsp-configure-language-servers-shortcuts-highlights/
     if client.server_capabilities.documentHighlightProvider then
         vim.cmd [[
-      hi! LspReferenceRead cterm=bold ctermbg=235 guibg=LightYellow
-      hi! LspReferenceText cterm=bold ctermbg=235 guibg=LightYellow
-      hi! LspReferenceWrite cterm=bold ctermbg=235 guibg=LightYellow
+      hi! LspReferenceRead cterm=bold ctermbg=235 guibg=#e5c07b guifg=#000087 gui=bold
+      hi! LspReferenceText cterm=bold ctermbg=235 guibg=#e5c07b guifg=#000087 gui=bold
+      hi! LspReferenceWrite cterm=bold ctermbg=235 guibg=#e5c07b guifg=#000087 gui=bold
     ]]
         vim.api.nvim_create_augroup('lsp_document_highlight', {})
         vim.api.nvim_create_autocmd({'CursorHold', 'CursorHoldI'}, {
