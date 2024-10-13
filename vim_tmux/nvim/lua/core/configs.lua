@@ -58,5 +58,7 @@ vim.opt.wrap = true
 vim.opt.foldnestmax = 100
 -- vim.opt.foldmethod = "syntax"
 vim.opt.foldcolumn = "1"
-vim.opt.foldlevelstart = 1
+vim.o.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
+vim.o.foldlevelstart = 99 -- уровень вложенности фолдов которые будут закрыты, и 
+-- будут автоматически закрываться, если указать 3, то будут закрыты фолты имеющие двух родительских фолдов
 vim.o.foldenable = true
