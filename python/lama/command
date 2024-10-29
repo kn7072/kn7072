@@ -1,0 +1,21 @@
+curl http://192.168.1.71:11434/api/chat -d '{  "model": "llama3.1",  "messages": [    { "role": "user", "content": "why is the sky blue?" }  ]}'
+
+curl http://localhost:11434/api/chat -d '{  "model": "llama3.1",  "messages": [    { "role": "user", "content": "why is the sky blue?" }  ]}'
+
+curl http://localhost:11434/api/generate -d '{ "model": "llama3.1", "prompt": "What is water made of?" }'
+curl http://192.168.1.71:11434/api/chat:11434/api/generate -d '{ "model": "llama3.1", "prompt": "What is water made of?" }'
+
+docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=http://192.168.1.71:11434 -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+
+
+sudo nmap 192.168.1.71
+sudo nmap -p 0-65535 192.168.1.71   нашел нужный порт
+
+
+
+
+https://ollama.com/library/llama3.1:8b
+curl -fsSL https://ollama.com/install.sh | sh  установка
+
+https://ollama.com/library/llama3.1
+ollama run llama3.1 запуск
