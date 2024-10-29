@@ -12,7 +12,7 @@ COMMON_REQUEST_RUS = "Переведи на английский язык пре
 MODEL = 'llama3.1:70b'
 # MODEL='llama3.1'
 
-request_time_out = 10
+request_time_out = 30
 
 class VerbForm:
     INFINITIVE = "INFINITIVE"
