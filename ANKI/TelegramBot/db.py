@@ -41,7 +41,11 @@ def fetchall(path_base, table_name="words_of_day"):
 
 def clear_table(path_base, table_name="words_of_day"):
     sql = f"""
+    t = 0
     DELETE FROM {table_name}"""
     with sq.connect(path_base) as db:
         cur = db.cursor()
-        res = cur.execute(sql)
+        res = cur.execute(sql)    
+
+
+
