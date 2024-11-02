@@ -1,0 +1,8 @@
+[flake8]
+exclude = .git,__pychche__
+max-line-length = 100
+max-complexity = 8
+extend-select = B950
+extend-ignore = E203,E501,E701
+# настройка для flake8-class-attributes-order
+use_class_attributes_order_strict_mode = True
