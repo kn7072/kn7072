@@ -1,7 +1,7 @@
 # coding="utf-8"
 
-import sqlite3 as sq
 import os
+import sqlite3 as sq
 
 
 def create_base(path_base):
@@ -18,6 +18,7 @@ def create_base(path_base):
                 cursor.executescript(sql)
                 db.commit()
 
+
 def into_table(path_base, data, table_name="words_of_day"):
     sgl = f"INSERT INTO {table_name} (first_line, mnemo_text, examples, error) VALUES (?, ?, ?, ?)"
     try:
@@ -26,10 +27,8 @@ def into_table(path_base, data, table_name="words_of_day"):
                 cur = db_con.cursor()
                 cur.execute(sgl, data_i)
     except sq.DatabaseError as err:
+
         print("Ошибка:", err)
-
-
-
 
 
 def fetchall(path_base, table_name="words_of_day"):
@@ -46,8 +45,5 @@ def clear_table(path_base, table_name="words_of_day"):
     DELETE FROM {table_name}"""
     t = 0
     with sq.connect(path_base) as db:
-        cur = db.cursor()    
-        res = cur.execute(sql)    
-
-
-
+        cur = db.cursor()
+        res = cur.execute(sql)

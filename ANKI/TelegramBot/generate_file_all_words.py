@@ -1,7 +1,8 @@
 # coding: utf-8
-import os
 import json
-from common import read_file, get_data_file, get_mnemo_list, path_anki
+import os
+
+from common import get_data_file, get_mnemo_list, path_anki, read_file
 
 data_all_words = read_file("ALL_WORDS.txt")
 dir_for_search_files = r"/home/stepan/GIT/kn7072/ANKI/WORDS"
@@ -23,6 +24,7 @@ def write_file(path_file: str, data_file: str) -> None:
     """Записывает data_file в файл, перезаписывая сожержимое файла."""
     with open(path_file, encoding="utf-8", mode="w") as f:
         return f.write(data_file)
+
 
 list_exists_mnemo = []
 error_list = []

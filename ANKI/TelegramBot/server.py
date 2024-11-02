@@ -1,7 +1,8 @@
-from http.server import BaseHTTPRequestHandler, HTTPServer
-import json
-from common import *
 import cgi
+import json
+from http.server import BaseHTTPRequestHandler, HTTPServer
+
+from common import *
 
 PORT_NUMBER = 8088
 
@@ -44,15 +45,15 @@ class MyHandler(BaseHTTPRequestHandler):
     def _analisis_request(self):
         """"""
         self.send_response(200)
-        self.send_header('Access-Control-Allow-Origin', '*')
-        self.send_header('Access-Control-Allow-Methods', 'POST, GET')
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Methods", "POST, GET")
         self.end_headers()
         # content_len = int(self.headers.get('Content-Length'))
         # post_body_bin = self.rfile.read(content_len)
         # post_body = json.loads(post_body_bin.decode().replace("\r\n", ""))
         # return post_body
-        ctype, pdict = cgi.parse_header(self.headers['content-type'])
-        pdict['boundary'] = bytes(pdict['boundary'], "utf-8")
+        ctype, pdict = cgi.parse_header(self.headers["content-type"])
+        pdict["boundary"] = bytes(pdict["boundary"], "utf-8")
         fields = cgi.parse_multipart(self.rfile, pdict)
         return fields
 
@@ -72,7 +73,7 @@ class MyHandler(BaseHTTPRequestHandler):
                 except StopIteration as e:
                     res = b"StopIteration"
                     self.wfile.write(res)
-        
+
         elif self.path in ["/delete"]:
             fields = self._analisis_request()
             if fields.get("word"):
@@ -84,7 +85,7 @@ class MyHandler(BaseHTTPRequestHandler):
                     self.wfile.write(res)
                 except StopIteration as e:
                     res = b"StopIteration"
-                    self.wfile.write(res)      
+                    self.wfile.write(res)
         elif self.path in ["/info"]:
             fields = self._analisis_request()
             separate = "*" * 30
@@ -105,11 +106,11 @@ class MyHandler(BaseHTTPRequestHandler):
 if __name__ == "__main__":
     try:
         # Create a web server and define the handler to manage the incoming request
-        server = HTTPServer(('', PORT_NUMBER), MyHandler)
-        print('Started httpserver on port ', PORT_NUMBER)
+        server = HTTPServer(("", PORT_NUMBER), MyHandler)
+        print("Started httpserver on port ", PORT_NUMBER)
         # Wait forever for incoming htto requests
         server.serve_forever()
     except KeyboardInterrupt:
-        print('^C received, shutting down the web server')
+        print("^C received, shutting down the web server")
         server.socket.close()
         raise

@@ -1,13 +1,13 @@
 # coding:utf-8
 import json
 import os
-from typing import Union 
- 
+from typing import Union
 
 dir_for_search_files = "/home/stepan/GIT/kn7072/ANKI/WORDS"
 list_words = ["worm", "norm"]
 
-def get_data_file(path_file: str) ->str:
+
+def get_data_file(path_file: str) -> str:
     """Читает файл, и возвращает содержимое."""
     with open(path_file, encoding="utf-8") as f:
         return f.read()

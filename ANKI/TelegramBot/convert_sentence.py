@@ -65,7 +65,9 @@ def search_word_for_sentence(list_sentence: set) -> dict:
                 else:
                     find_sentence[example_i] = {}
                     find_sentence[example_i]["words"] = []
-                    find_sentence[example_i]["translate"] = data_word_i["example_translate"][num_example]
+                    find_sentence[example_i]["translate"] = data_word_i["example_translate"][
+                        num_example
+                    ]
                     find_sentence[example_i]["words"].append(word_i)
     return find_sentence
 
@@ -127,6 +129,3 @@ for sentence_i, value_sentence_i in find_sentence.items():
 
 write_file(path_to_sentence_new, text_sentence)
 print()
-
-
-

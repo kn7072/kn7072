@@ -2,10 +2,10 @@
 
 """Модуль создает каталог с двумя файлами: предложений на английском и файл с переводом."""
 
-import os, json
+import json
+import os
 
 from common import get_data_file
-
 
 path_to_known_examples = "../Предложения.txt"
 file_to_save_words = "WORDS_FOR_LEARN.txt"
@@ -36,11 +36,15 @@ def get_know_words() -> dict:
             for known_word_i in know_words_list:
                 is_added = all_word_dict.get(known_word_i)
                 if is_added:
-                    all_word_dict[known_word_i]["examples"].append((example_eng, example_rus, know_words_str))
+                    all_word_dict[known_word_i]["examples"].append(
+                        (example_eng, example_rus, know_words_str)
+                    )
                 else:
                     all_word_dict[known_word_i] = {}
                     all_word_dict[known_word_i]["examples"] = []
-                    all_word_dict[known_word_i]["examples"].append((example_eng, example_rus, know_words_str))
+                    all_word_dict[known_word_i]["examples"].append(
+                        (example_eng, example_rus, know_words_str)
+                    )
     return all_word_dict
 
 

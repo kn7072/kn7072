@@ -1,8 +1,9 @@
 # coding: utf-8
-import os
 import json
+import os
+
 import config_bot
-from common import read_file, get_data_file
+from common import get_data_file, read_file
 
 data_all_words = read_file("ALL_WORDS.txt")  # ALL_WORDS.txt ПОВТОРИТЬ.txt
 dir_for_search_files = r"/home/stepan/GIT/kn7072/ANKI/WORDS"
@@ -97,11 +98,23 @@ def get_eng_rus_examples(list_examples_eng, list_examples_rus):
             eng = eng.replace("'", "\\'")
 
         if ind % 2 != 0:
-            temp_list.append((is_learn, temp_html.format(odd_even=ccs_class_even,
-                              is_learnt_class=is_learnt_class, eng=eng, rus=rus)))
+            temp_list.append(
+                (
+                    is_learn,
+                    temp_html.format(
+                        odd_even=ccs_class_even, is_learnt_class=is_learnt_class, eng=eng, rus=rus
+                    ),
+                )
+            )
         else:
-            temp_list.append((is_learn, temp_html.format(odd_even=css_class_odd,
-                              is_learnt_class=is_learnt_class, eng=eng, rus=rus)))
+            temp_list.append(
+                (
+                    is_learn,
+                    temp_html.format(
+                        odd_even=css_class_odd, is_learnt_class=is_learnt_class, eng=eng, rus=rus
+                    ),
+                )
+            )
 
     temp_list.sort(key=lambda x: x[0], reverse=True)
     examples = "".join([v[1] for v in temp_list])
@@ -148,7 +161,7 @@ comment_block = """
 """
 
 container_block = '<div class="wrap_delete">{content}</div>'
-div_block = '<div>{content}</div>'
+div_block = "<div>{content}</div>"
 
 star_comment_block = '<div class="star"></div>'
 star_span_block = '<span class="star"></span>'
@@ -166,15 +179,20 @@ def get_html_comments(words_list):
             data_word = data_file_i_json[word_key]
             count_stars = data_word["stars"]
             stars_block = container_block.format(content=star_comment_block * count_stars)
-            content_block = f"<div>{data_word['translate']}</div>" + get_html_mnemonic(data_word["mnemonic"])
-            word_block_html = word_block.format(word=word_i, ipa=data_word["transcription"],
-                                                stars_block=stars_block)
-            comment_html = comment_block.format(title_block=word_block_html, content_block=content_block).replace("\n", "")
+            content_block = f"<div>{data_word['translate']}</div>" + get_html_mnemonic(
+                data_word["mnemonic"]
+            )
+            word_block_html = word_block.format(
+                word=word_i, ipa=data_word["transcription"], stars_block=stars_block
+            )
+            comment_html = comment_block.format(
+                title_block=word_block_html, content_block=content_block
+            ).replace("\n", "")
             list_html_comments.append(comment_html)
         except Exception as e:
             print(e)
             print(word_i)
-    return list_html_comments                                    
+    return list_html_comments
 
 
 list_exists_mnemo = []
@@ -206,38 +224,43 @@ def get_content_word(data_all_words):
             data_example_translate = data_word["example_translate"]
             data_comments = data_word["comment"]
             if data_mnemonic:
-                mnemonic = comment_block.format(title_block="Мнемоника", content_block=get_html_mnemonic(data_mnemonic)).replace("\n", "")
+                mnemonic = comment_block.format(
+                    title_block="Мнемоника", content_block=get_html_mnemonic(data_mnemonic)
+                ).replace("\n", "")
             if data_examples:
                 examples = get_eng_examples(data_examples)
             if data_comments:
                 comments = "".join(get_html_comments(data_comments)).replace("\n", "")
 
             count_stars = data_word["stars"]
-            stars_block = div_block.format(content=star_span_block * count_stars)   
+            stars_block = div_block.format(content=star_span_block * count_stars)
             try:
                 if data_example_translate and data_examples:
                     example_translate = get_eng_rus_examples(data_examples, data_example_translate)
             except Exception:
                 print(word_i)
-            str_word = "{translate}{delimeter}" \
-                    "{word_i}{delimeter}" \
-                    "{transcription}{delimeter}" \
-                    "{sound_word}{delimeter}" \
-                    "{mnemonic}{delimeter}" \
-                    "{examples}{delimeter}" \
-                    "{example_translate}{delimeter}" \
-                    "{comments}{delimeter}" \
-                    "{stars}\n" \
-                .format(translate=data_word["translate"],
-                        word_i=word_i,
-                        transcription=data_word["transcription"],
-                        sound_word=sound_word_i,
-                        mnemonic=mnemonic,
-                        delimeter=delimeter,
-                        examples=examples,
-                        example_translate=example_translate,
-                        comments=comments,
-                        stars=stars_block)
+            str_word = (
+                "{translate}{delimeter}"
+                "{word_i}{delimeter}"
+                "{transcription}{delimeter}"
+                "{sound_word}{delimeter}"
+                "{mnemonic}{delimeter}"
+                "{examples}{delimeter}"
+                "{example_translate}{delimeter}"
+                "{comments}{delimeter}"
+                "{stars}\n".format(
+                    translate=data_word["translate"],
+                    word_i=word_i,
+                    transcription=data_word["transcription"],
+                    sound_word=sound_word_i,
+                    mnemonic=mnemonic,
+                    delimeter=delimeter,
+                    examples=examples,
+                    example_translate=example_translate,
+                    comments=comments,
+                    stars=stars_block,
+                )
+            )
         yield str_word
 
 
@@ -257,9 +280,9 @@ learnt_sentence: dict = get_learnt_sentence()
 #         list_word_learn.append(word_i)
 
 #     return list_word_learn
- 
+
 # content_iterator = get_content_word(temp_content())
-# ### 
+# ###
 
 
 while True:

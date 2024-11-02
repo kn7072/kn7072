@@ -7,7 +7,7 @@ import socket
 def get_ip_address() -> str:
     """Возвращает ip адрес."""
     _socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    _socket.connect(('8.8.8.8', 53))
+    _socket.connect(("8.8.8.8", 53))
     local_ip_address = _socket.getsockname()[0]
     _socket.close()
     return local_ip_address
@@ -37,7 +37,9 @@ path_script = os.getcwd()
 path_anki = os.path.split(path_script)[0]
 path_repo = os.path.split(path_anki)[0]
 path_dir = os.path.join(path_anki, "WORDS_NOTEPAD")
-path_dir_mp3 = os.path.normpath(os.path.join(path_repo, os.path.join("EnglishSimulate", "Project", "sound_longman_mono")))
+path_dir_mp3 = os.path.normpath(
+    os.path.join(path_repo, os.path.join("EnglishSimulate", "Project", "sound_longman_mono"))
+)
 path_file_words = os.path.join(path_script, "ПОВТОРИТЬ.txt")
 path_last_word = os.path.join(path_script, "last_word.txt")
 path_file_not_learn = os.path.join(path_script, "ПРОПУСТИТЬ.txt")
@@ -58,17 +60,19 @@ time_sound_pause = 5
 count_sound = 2  # 2
 
 schedule = {
-    "Monday": [{"start": "9:10", "stop": "13:10"}
-               # {"start": "21:10", "stop": "22:10"}
-               ],
+    "Monday": [
+        {"start": "9:10", "stop": "13:10"}
+        # {"start": "21:10", "stop": "22:10"}
+    ],
     "Tuesday": [{"start": "9:10", "stop": "13:10"}],
     "Wednesday": [{"start": "9:10", "stop": "13:10"}],
     "Thursday": [{"start": "9:10", "stop": "13:10"}],
     "Friday": [{"start": "9:10", "stop": "13:10"}],
     "Saturday": [{"start": "9:00", "stop": "13:00"}],
-    "Sunday": [{"start": "9:00", "stop": "13:00"}
-               # {"start": "15:20", "stop": "20:30"}
-               ]
+    "Sunday": [
+        {"start": "9:00", "stop": "13:00"}
+        # {"start": "15:20", "stop": "20:30"}
+    ],
 }
 
 # get_me = f"https://api.telegram.org/bot{token}/getMe"

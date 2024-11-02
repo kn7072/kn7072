@@ -1,16 +1,34 @@
 #!/usr/bin/python3.8
 # -*- coding: utf-8 -*-
 
+import datetime as dt
 import os
 import time
 
 import telebot
-from common import sound, parse_file, play_sound, next_play, send_message_from_bot,  \
-    send_report, mnemo_garibjan, get_mnemo_galagoliya, not_learn_word,  \
-    compression_data, generate_report_for_re, read_file
-from config_bot import path_last_word, path_file_words, wait_sound, path_file_not_learn, token, name_base
-import datetime as dt
-from db import create_base, clear_table
+from common import (
+    compression_data,
+    generate_report_for_re,
+    get_mnemo_galagoliya,
+    mnemo_garibjan,
+    next_play,
+    not_learn_word,
+    parse_file,
+    play_sound,
+    read_file,
+    send_message_from_bot,
+    send_report,
+    sound,
+)
+from config_bot import (
+    name_base,
+    path_file_not_learn,
+    path_file_words,
+    path_last_word,
+    token,
+    wait_sound,
+)
+from db import clear_table, create_base
 
 
 def create_file_for_last_word(path_file: str) -> None:
@@ -53,12 +71,12 @@ current_day = dt.date.today()
 create_base(name_base)
 
 
-@bot.message_handler(commands=["start"], content_types=['text'])
+@bot.message_handler(commands=["start"], content_types=["text"])
 def test_fun(message) -> None:
     global current_day
 
     while True:
-        for word_i in data_all_words[start_index: last_index + 1]:
+        for word_i in data_all_words[start_index : last_index + 1]:
             next_play()
 
             if word_i in words_not_learn:
@@ -84,7 +102,7 @@ def test_fun(message) -> None:
             prepate_data()
 
 
-@bot.message_handler(content_types=['text'])
+@bot.message_handler(content_types=["text"])
 def get_text_messages(message) -> None:
     print("command: %s" % message.text)
     try:
