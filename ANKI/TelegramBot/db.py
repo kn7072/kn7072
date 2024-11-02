@@ -27,21 +27,21 @@ def into_table(path_base, data, table_name="words_of_day"):
                 cur = db_con.cursor()
                 cur.execute(sgl, data_i)
     except sq.DatabaseError as err:
-        print("Ошибка:", err)   
+        print("Ошибка:", err)
+
 
 def fetchall(path_base, table_name="words_of_day"):
     sql = f"""
     SELECT first_line, mnemo_text, examples, error FROM {table_name}"""
     with sq.connect(path_base) as db:
         cur = db.cursor()
-        res = cur.execute(sql)       
+        res = cur.execute(sql)
         return res.fetchall()
+
 
 def clear_table(path_base, table_name="words_of_day"):
     sql = f"""
     DELETE FROM {table_name}"""
     with sq.connect(path_base) as db:
         cur = db.cursor()
-        res = cur.execute(sql) 
-
-
+        res = cur.execute(sql)
