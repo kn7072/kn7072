@@ -21,7 +21,10 @@ dap.adapters.gdb = {
     id = 'gdb',
     type = 'executable',
     command = 'gdb',
-    args = {'--quiet', '--interpreter=dap'}
+    args = {
+        '--quiet', '--interpreter=dap'
+        -- '-x', '/home/stepan/GIT/kn7072/C/code/CPrimerPlus6E/Ch03/my_break'
+    }
 }
 
 dap.configurations.c = {

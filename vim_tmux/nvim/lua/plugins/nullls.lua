@@ -11,6 +11,13 @@ null_ls.setup({
         null_ls.builtins.diagnostics.eslint_d,
         null_ls.builtins.formatting.stylua, null_ls.builtins.diagnostics.ltrs,
         null_ls.builtins.formatting.rustfmt,
+        null_ls.builtins.formatting.black.with({filetypes = {"python"}}),
+        null_ls.builtins.formatting.isort.with({
+            filetypes = {"python"},
+            extra_args = {'--profile black', '--skip-gitignore'}
+        }), null_ls.builtins.diagnostics.flake8.with({
+            extra_args = {"--max-line-length", "88"}
+        }), null_ls.builtins.diagnostics.shellcheck,
         null_ls.builtins.formatting.prettierd.with {
             filetypes = {
                 "css", "scss", "less", "html", "json", "jsonc", "yaml",

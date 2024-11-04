@@ -4,10 +4,29 @@ local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 
 -- Sntup language servers.
+-- https://github.com/microsoft/pyright/blob/main/docs/settings.md
 local lspconfig = require('lspconfig')
 lspconfig.pyright.setup {
     capabilities = capabilities,
-    on_attach = lsp_common.on_attach
+    on_attach = lsp_common.on_attach,
+    single_file_support = true,
+    settings = {
+        --     -- pyright = {
+        --     --     disableLanguageServices = false,
+        --     --     disableOrganizeImports = false
+        --     -- },
+        python = {
+            -- pythonPath = "/home/stepan/.cache/pypoetry/virtualenvs/telegrambot-XV0byvRV-py3.12/bin/python",
+            analysis = {
+                autoImportCompletions = true,
+                autoSearchPaths = true,
+                diagnosticMode = "workspace", -- openFilesOnly, workspace
+                typeCheckingMode = "basic", -- off, basic, strict
+                useLibraryCodeForTypes = true
+            }
+        }
+    }
+
 }
 lspconfig.ts_ls.setup {}
 lspconfig.prismals.setup {}
