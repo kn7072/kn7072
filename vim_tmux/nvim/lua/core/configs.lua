@@ -62,3 +62,11 @@ vim.o.foldlevel = 99 -- Using ufo provider need a large value, feel free to decr
 vim.o.foldlevelstart = 99 -- уровень вложенности фолдов которые будут закрыты, и 
 -- будут автоматически закрываться, если указать 3, то будут закрыты фолты имеющие двух родительских фолдов
 vim.o.foldenable = true
+
+-- чтобы оставалась последняя строка файла(https://neovim.io/doc/user/options.html#'fixeol')
+vim.opt.fixeol = true
+vim.opt.fixendofline = true
+
+vim.env.PATH = string.format("%s:%s",
+                             "/home/stepan/.cache/pypoetry/virtualenvs/telegrambot-0pEd2Avk-py3.12/bin",
+                             vim.env.PATH)
