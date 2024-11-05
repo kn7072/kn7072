@@ -37,6 +37,7 @@ def client(client_socket: socket.socket) -> None:
             client_socket.send(response)  # write
         else:
             break
+
     print("Outside inner while loop")
     client_socket.close()
 
@@ -58,8 +59,13 @@ def event_loop() -> None:
             if reason == "write":
                 to_write[sock] = task
         except StopIteration:
-            print("Done")        
+            print("Done")
+
+            
 
 
 tasks.append(server())
 event_loop()
+
+
+

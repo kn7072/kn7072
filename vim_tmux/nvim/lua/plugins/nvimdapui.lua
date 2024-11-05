@@ -6,11 +6,13 @@ if not (dap_ok and dap_ui_ok) then
     return
 end
 
-dap.listeners.after.event_initialized["dapui_config"] =
-    function() dapui.open() end
-dap.listeners.before.event_terminated["dapui_config"] =
-    function() dapui.close() end
-dap.listeners.before.event_exited["dapui_config"] = function() dapui.close() end
+dap.listeners.after.event_initialized["dapui_config"] = function()
+    dapui.open()
+end
+-- закрывать отладчик после завершения
+-- dap.listeners.before.event_terminated["dapui_config"] =
+--     function() dapui.close() end
+-- dap.listeners.before.event_exited["dapui_config"] = function() dapui.close() end
 
 -- dapui.setup()
 dapui.setup({
@@ -111,7 +113,9 @@ vim.keymap.set('n', '<Leader>di', dap.step_into)
 vim.keymap.set('n', '<Leader>do', dap.step_out)
 vim.keymap.set('n', '<leader>db', dap.toggle_breakpoint)
 
-vim.keymap.set('n', '<Leader>dB', function() dap.set_breakpoint() end)
+vim.keymap.set('n', '<Leader>dB', function()
+    dap.set_breakpoint()
+end)
 vim.keymap.set('n', '<Leader>dbc', function()
     dap.set_breakpoint(vim.fn.input('condition: '), nil, nil)
 end)
@@ -120,10 +124,12 @@ vim.keymap.set("n", "<Leader>dC", function()
     require("notify")("Breakpoints cleared", "warn")
 end)
 
-vim.keymap.set({'n', 'v'}, '<Leader>dh',
-               function() require('dap.ui.widgets').hover() end)
-vim.keymap.set({'n', 'v'}, '<Leader>dp',
-               function() require('dap.ui.widgets').preview() end)
+vim.keymap.set({'n', 'v'}, '<Leader>dh', function()
+    require('dap.ui.widgets').hover()
+end)
+vim.keymap.set({'n', 'v'}, '<Leader>dp', function()
+    require('dap.ui.widgets').preview()
+end)
 -- vim.keymap.set('n', '<Leader>df', function()
 --     local widgets = require('dap.ui.widgets')
 --     widgets.centered_float(widgets.frames)
