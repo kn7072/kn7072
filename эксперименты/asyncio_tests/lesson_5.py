@@ -1,6 +1,5 @@
 # coding: utf-8
 """Простой север - на генераторах - Лекция 5 https://www.youtube.com/watch?v=hOP9bKeDOHs&list=PLlWXhlUMyooawilqK4lPXRvxtbYiw34S8&index=5."""
-from __future__ import annotations
 
 import socket
 from select import select
@@ -61,11 +60,6 @@ def event_loop() -> None:
         except StopIteration:
             print("Done")
 
-            
-
 
 tasks.append(server())
 event_loop()
-
-
-

@@ -100,7 +100,7 @@ to consist in – заключаться в
 to agree on/to – соглашаться с
 
 pay for — поплатиться; оплачивать; уплатить
-be unused to (doing) something ; непривыкший; Philip was unused to working as part of a team.
+be unused to (doing) something ; не привыкший; Philip was unused to working as part of a team.
 accustom yourself to something ; привыкать, приучаться ; She had to accustom herself to eating later in the evening.
 
 Запомните прилагательные и причастия, после которых to является предлогом:
@@ -127,50 +127,50 @@ to have difficulty (in) – испытывать трудности
 to have problems – иметь проблемы
 to have trouble – иметь неприятности
 to be busy – быть занятым
-to be worth – быть стоґящим
+to be worth – быть стоящим
 How about ... ? – Как насчет того, чтобы ... ?
 What about ... ? – Как насчет того, чтобы ... ?
 
 В роли обстоятельства
 1 Для выражения обстоятельств времени с предлогами:
-in -при, в процессе, в то время как
-before - перед
-on - по, после, когда
-after - после
+    in -при, в процессе, в то время как
+    before - перед
+    on - по, после, когда
+    after - после
 2 Для выражения причины с предлогами: 
-for – за 
-through – из-за, посредством, благодаря
-because of – из-за чего-либо, по какой-то причине (употребляется перед существительными и фразами)
-owing to - по причине, благодаря (не употребляется после глагола to be)
-due to - Благодаря чему-то, по причине
-thanks to - Благодаря чему-либо
-for fear of - из страха перед
+    for – за 
+    through – из-за, посредством, благодаря
+    because of – из-за чего-либо, по какой-то причине (употребляется перед существительными и фразами)
+    owing to - по причине, благодаря (не употребляется после глагола to be)
+    due to - Благодаря чему-то, по причине
+    thanks to - Благодаря чему-либо
+    for fear of - из страха перед
 3 Для выражения образа действия:
-by - путем, при помощи, посредством (каким образом ?,чем ?)
+    by - путем, при помощи, посредством (каким образом ?,чем ?)
 4 Для выражения сопутствующих обстоятельств:
-besides - кроме,
-instead of – вместо
-apart from - помимо
-without – без
+    besides - кроме,
+    instead of – вместо
+    apart from - помимо
+    without – без
 5 Для выражения цели:
-for the purpose of, with the object of, with a view to – с целью, для того чтобы
-for – для
-for fear of – из-за страха перед, из боязни
-for the sake of – с целью, во имя
+    for the purpose of, with the object of, with a view to – с целью, для того чтобы
+    for – для
+    for fear of – из-за страха перед, из боязни
+    for the sake of – с целью, во имя
 6 Для выражения условия:
-without – без
-in case of, in the event of – в случае если
-subject to – при условии
-but for – если бы не
+    without – без
+    in case of, in the event of – в случае если
+    subject to – при условии
+    but for – если бы не
 7 в составе именной части сказуемого
-against – против, 
-for – за
-to be on the point (of) – собираться сделать
-to be far (from) – быть далеко от
-The director is for extending the time of shipment.  Директор стоит за продление срока отгрузки.
-The captain is against loading the goods on deck.    Капитан против погрузки товаров на палубу.
-When I came to the office, the manager was on the point of leaving. Когда я пришел в контору, заведующий как раз собирался уходить.
-The negotiations are still far from being ended. Переговоры еще отнюдь не закончены.
+    against – против, 
+    for – за
+    to be on the point (of) – собираться сделать
+    to be far (from) – быть далеко от
+    The director is for extending the time of shipment.  Директор стоит за продление срока отгрузки.
+    The captain is against loading the goods on deck.    Капитан против погрузки товаров на палубу.
+    When I came to the office, the manager was on the point of leaving. Когда я пришел в контору, заведующий как раз собирался уходить.
+    The negotiations are still far from being ended. Переговоры еще отнюдь не закончены.
  
 
 https://myefe.ru/reference/verbs/gerund/verbs-followed-by-gerund?ysclid=lzy4b2al6o156409500

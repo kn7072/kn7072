@@ -1,9 +1,10 @@
 # coding: utf-8
+from __future__ import annotations
+
 """Простой север - на колбэках - Лекция 3 https://www.youtube.com/watch?v=ikKGMp4jb_o&list=PLlWXhlUMyooawilqK4lPXRvxtbYiw34S8&index=5."""
 import selectors
 import socket
 
-from __future__ import annotations
 from typing import List, Tuple
 
 
@@ -56,4 +57,4 @@ def event_loop() -> None:
 
 if __name__ == "__main__":
     server()
-    event_loop()    
+    event_loop()
