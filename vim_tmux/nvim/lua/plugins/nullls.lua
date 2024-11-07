@@ -17,7 +17,7 @@ null_ls.setup({
             filetypes = {"python"},
             extra_args = {'--profile black', '--skip-gitignore'}
         }), null_ls.builtins.diagnostics.flake8.with({
-            extra_args = {"--max-line-length", "88"}
+            extra_args = {"--max-line-length=88", "--max-complexity=8"}
         }), null_ls.builtins.diagnostics.shellcheck,
         null_ls.builtins.formatting.prettierd.with {
             filetypes = {
