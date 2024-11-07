@@ -281,6 +281,10 @@ https://webhamster.ru/mytetrashare/index/mtb0/1413010541hzh3175lej
 $ git status
 HEAD detached from 87dc87b
 git status -uno -не показывать неотслеживаемые файлы
+git status -s -uno -позволяет посмотреть состояния файлов
+M - модифицирован
+A - добавлен в индекс
+git status -s -uno|grep -v '^ '|awk '{print $2}'  -Staged filenames only, without the operation flag
 
 Это может означать, что вы делали какую-то навигацию по истории коммитов, и неправильно вернулись к последнему коммиту.
 Исправить эту проблему можно 4-мя командами:
@@ -656,4 +660,8 @@ git add --patch.
 git -c core.quotepath=false status или 
 git -c core.quotepath=false ls-tree 33b9567
 ##########################################################
+
+git diff-index HEAD
+git diff-index --name-only HEAD
+git diff-index HEAD | awk '{print $(NF)}'
 
