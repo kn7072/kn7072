@@ -152,6 +152,9 @@ strace -e trace=write -e fault=write:when=1 -o write-twice.log ./write-twice
 В сочетании с другими флагами можно «ломать» обращения к конкретному файлу. Пример:
 strace -y -P/tmp/test_file.log -e inject=file:error=ENOENT -o write-file.log ./write-file /tmp/test_file.log
 
+какие файлы открывает flake8
+strace -e trace=openat -o flake8.log flake8
+
 Помимо инъекций ошибок, можно вводить задержки при выполнении вызовов или получении сигналов.
 
 ################################################################################
