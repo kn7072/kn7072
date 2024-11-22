@@ -52,6 +52,7 @@ No way! – Ни в коем случае!
 What if I refuse? – А что, если я откажусь?
 However ... – Однако ...
 On the contrary. – Как раз наоборот.
+Just the other way round - Только наоборот.
 That’s out of the question! – Об этом не может быть и речи!
 Unfortunately ... – К сожалению ...
 It can hardly be so. – Вряд ли это так.
