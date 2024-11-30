@@ -1,5 +1,6 @@
 https://github.com/brendangregg/bpf-perf-tools-book
 https://github.com/iovisor/bcc/blob/master/INSTALL.md?ysclid=m10g8nbtxf788226289#ubuntu---binary
+https://docs.ebpf.io/linux/helper-function/bpf_trace_printk/
 
 cd /usr/sbin
 
@@ -112,5 +113,66 @@ examples:
 
 bpftrace
 https://github.com/bpftrace/bpftrace/blob/master/INSTALL.md
+
+
+
+bpftrace -e 'tracepoint:syscalls:sys_enter_open { printf("%s %s\n", comm, str(args->filename)); }'
+bpftrace -l 'tracepoint:syscalls:sys_enter_open*'
+bpftrace -e 'tracepoint:syscalls:sys_enter_open* { @[probe] = count(); }'
+
+sudo strace -ebpf ./execsnoop-bpfcc
+
+gcc -H -fsyntax-only dyn_arr.c
+find . -type f -name "pthread.h" 
+find . -type f -name "libc.*"
+
+./var/lib/flatpak/runtime/org.freedesktop.Sdk/x86_64/23.08/5292733d730c222c50e4e31a1496d30615f7d0787e4cc9518862d0dc46780d27/files/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed/pthread.h
+./var/lib/flatpak/runtime/org.freedesktop.Sdk/x86_64/23.08/5292733d730c222c50e4e31a1496d30615f7d0787e4cc9518862d0dc46780d27/files/include/pthread.h
+./var/lib/docker/overlay2/804e7ec72ef7208db3bf49def7f96b478e60d58154f7d0f906589c69a16bfeb6/merged/usr/include/pthread.h
+./var/lib/docker/overlay2/0c9c1b2035f7726126ce4920132a7b0b83ef8a227a296317f7d1bf9ca9db26c1/diff/usr/include/pthread.h
+./var/lib/docker/overlay2/7469c97cb25f571762ca7269a5aad9be2aca5aea73ad3f4c34d737b1c24b9af0/diff/usr/include/pthread.h
+./usr/include/newlib/pthread.h
+./usr/include/pthread.h
+
+
+sudo ./funccount-bpfcc -i 1 "vfs_*" --pid 16194
+sudo ./funccount-bpfcc  "t:syscalls:sys_enter*" --pid 16194
+sudo ./funccount-bpfcc  "c:malloc*" --pid 18450
+sudo ./trace-bpfcc -U 'c:open "%s %d", arg1, arg2' | sudo tee log
+sudo ./trace-bpfcc -U -n 'flake' 'c:open "%s %d", arg1, arg2' | sudo tee log
+
+отобразит скоько байт было записано "res %d"
+sudo ./trace-bpfcc -tKU -p $(ps -C usehotel3 -o pid=) 'r:c:write "res %d", retval' | sudo tee log
+
+выводит, что пользователь вводит в интерактивном режиме 'c:read "res %s %s", arg1, arg2'
+sudo ./trace-bpfcc -tKU -p $(ps -C usehotel3 -o pid=) 'c:read "res %s %s", arg1, arg2' | sudo tee log
+
+
+t:sched:sched_switch срабоатывает при передаче управвления - интерактивный режим
+sudo ./trace-bpfcc -tKU -p $(ps -C usehotel3 -o pid=) t:sched:sched_switch | sudo tee log
+
+sudo ./stackcount-bpfcc -p 23113 c:malloc
+
+sudo ./stackcount-bpfcc -p $(ps -C dyn_arr_c -o pid=) c:malloc
+sudo ./stackcount-bpfcc -p $(ps -C dyn_arr_c -o pid=) t:sched:sched_switch
+
+cd /sys/kernel/tracing
+cat trace_pipe отображет в реальном времени трассировочную информацию
+в файл biolatency-bpfcc (cd /usr/sbin)
+добавлена строчка bpf_trace_printk("BDG req=%llx ts=%lld\\n", req, ts); стр 175
+
+
+####
+
+trace-bpfcc -e 'tracepoint:syscalls:sys_enter_open { printf("%s %s\n", comm, str(args->filename)); }'
+trace-bpfcc 'p::SyS_nanosleep(struct timespec *ts) "sleep for %lld ns", ts->tv_nsec'
+
+trace-bpfcc '::do_sys_open "%s", sys_enter_openat'     sys_enter_openat
+trace-bpfcc sys_enter_openat
+trace-bpfcc 'do_sys_open "%s", arg2'
+trace-bpfcc -K 'r::do_sys_open'
+
+
+trace-bpfcc 't:syscalls:do_sys_open'
 
 
