@@ -1,0 +1,93 @@
+https://github.com/brendangregg/bpf-perf-tools-book
+https://github.com/iovisor/bcc/blob/master/INSTALL.md?ysclid=m10g8nbtxf788226289#ubuntu---binary
+https://docs.ebpf.io/linux/helper-function/bpf_trace_printk/
+
+
+bpftrace
+https://github.com/bpftrace/bpftrace/blob/master/INSTALL.md
+
+bpftrace -e 'tracepoint:syscalls:sys_enter_open { printf("%s %s\n", comm, str(args->filename)); }'
+bpftrace -l 'tracepoint:syscalls:sys_enter_open*'
+bpftrace -e 'tracepoint:syscalls:sys_enter_open* { @[probe] = count(); }'
+
+
+В точке трассировки sys_enter_read эти аргументы должны быть доступны как
+args-> fd, args-> buf и args->count. Убедиться в этом можно, выполнив команду
+bpftrace с параметрами -l (list — список) и -v (verbose — подробно)
+bpftrace -lv tracepoint:syscalls:sys_enter_read
+tracepoint:syscalls:sys_enter_read
+int __syscall_nr;
+unsigned int fd;
+char * buf;
+size_t count;
+
+
+########################################################################
+KPROBES
+grep -i [ku]probe /boot/config-$(uname -r)
+
+########################################################################
+https://habr.com/ru/companies/itsumma/articles/441258/
+
+Какие доступны точки трассировки? Что я должен трассировать?
+
+Вы можете перечислить всё оборудование, таймеры, kprobe и статические точки трассировки ядра, выполнив команду:
+
+sudo bpftrace -l
+
+Вы можете перечислить все точки трассировки uprobe (функциональные символы) приложения или библиотеки, выполнив:
+
+nm /path-to-binary
+
+Вы можете перечислить все точки трассировки USDT приложения или библиотеки, выполнив следующую команду:
+
+/usr/share/bcc/tools/tplist -l /path-to/binary
+
+Касательно того, какие точки трассировки использовать: тут не помешало бы понимание исходников того, что вы собираетесь трассировать. Я рекомендую вам изучать исходный код.
+
+Совет: структурный формат точек трассировки в ядре
+
+Вот полезная заметка по точкам трассировки ядра. Вы можете проверить, какие доступны поля аргументов, прочитав файл /sys/kernel/debug/tracing/events!
+
+Например, предположим, что вы хотите трассировать вызовы madvise(..., MADV_DONTNEED):
+
+sudo bpftrace -l | grep madvise
+
+— скажет нам, что мы можем использовать tracepoint:syscalls:sys_enter_madvise.
+
+sudo cat /sys/kernel/debug/tracing/events/syscalls/sys_enter_madvise/format
+
+— даст нам следующую информацию:
+
+name: sys_enter_madvise 
+ID: 569 
+format: 
+field:unsigned short common_type;   offset:0;   size:2; signed:0; 
+field:unsigned char common_flags;   offset:2;   size:1; signed:0; 
+field:unsigned char common_preempt_count;   offset:3;   size:1; signed:0; 
+field:int common_pid;   offset:4;   size:4; signed:1; 
+
+field:int __syscall_nr; offset:8;   size:4; signed:1; 
+field:unsigned long start;  offset:16;  size:8; signed:0; 
+field:size_t len_in;    offset:24;  size:8; signed:0; 
+field:int behavior; offset:32;  size:8; signed:0; 
+
+print fmt: "start: 0x%08lx, len_in: 0x%08lx, behavior: 0x%08lx", ((unsigned long)(REC->start)), ((unsigned long)(REC->len_in)), ((unsigned long)(REC->behavior))
+
+
+Подпись madvise согласно мануалу: (void *addr, size_t length, int advice). Последние три поля этой структуры соответствуют этим параметрам!
+
+Каково значение MADV_DONTNEED? Судя по grep MADV_DONTNEED /usr/include, оно равняется 4:
+
+/usr/include/x86_64-linux-gnu/bits/mman-linux.h:80:# define MADV_DONTNEED 4 /* Don't need these pages. */
+
+
+Так что наша команда bpftrace становится:
+
+sudo bpftrace -e 'tracepoint:syscalls:sys_enter_madvise /args->behavior == 4/ { printf("madvise DONTNEED called\n"); }'
+
+
+
+
+
+
