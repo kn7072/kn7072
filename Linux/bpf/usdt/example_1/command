@@ -19,7 +19,7 @@ gcc tracetest.c -o tracetest -Wall -g
 sudo bpftrace -e 'usdt:/full-path-to/tracetest:testprobe { printf("%d: time is %d\n", pid, arg0); }'
 
 sudo bpftrace -e 'usdt:/home/stepan/TEMP/bpftrace_code/usdt/tracetest:testprobe { printf("%d: time is %d\n", pid, arg0); }'
-
+Здесь arg0 — это значение tv.tv_sec, которое мы передаем в breakpoint.
 
 Bpftrace продолжает работать, пока мы нажмём Ctrl-С. Поэтому откроем новый терминал и запустим tracetest там:
 
