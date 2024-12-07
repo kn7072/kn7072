@@ -21,7 +21,15 @@ unsigned int fd;
 char * buf;
 size_t count;
 
+bpftrace -e 't:syscalls:sys_*_execve { printf("%s %s PID %d\n", probe, comm, pid); }' узнать имена и pid запускаемых процессов
 
+bpftrace -l 'usdt:/home/stepan/TEMP/bpftrace_code/usdt/tracetest:*' все usdt зонды в tracetest
+bpftrace -l 'usdt:/usr/bin/python3:*' для python
+
+bpftrace -e 'usdt:/usr/bin/python3:import__find__load__start { printf("%s\n", str(arg0)); }' посмотреть какие модули загружаются при старте python3, или во время выполнения
+когда выполняются дополнительные импорты (на пример чтобы показать что импорт одного и тогоже модуля не приводит к повторной загрузке)
+
+bpftrace -e 't:syscalls:sys_enter_setuid { printf("setuid by PID %d (%s), UID %d\n", pid, comm, uid); }'
 ########################################################################
 KPROBES
 grep -i [ku]probe /boot/config-$(uname -r)
@@ -86,6 +94,15 @@ print fmt: "start: 0x%08lx, len_in: 0x%08lx, behavior: 0x%08lx", ((unsigned long
 
 sudo bpftrace -e 'tracepoint:syscalls:sys_enter_madvise /args->behavior == 4/ { printf("madvise DONTNEED called\n"); }'
 
+
+########################################################################
+$(ps -C firefox-bin -o pid=) найти процесс по имени
+
+nm $(which bpftrace)
+
+https://linux-packages.com/ubuntu-focal-fossa/package/bcc
+sudo apt install bcc 
+https://wrightrocket.blogspot.com/2019/07/linux-performance-tool-bpftrace.html
 
 
 

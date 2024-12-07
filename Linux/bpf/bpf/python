@@ -1,0 +1,21 @@
+bpftrace -l 'usdt:/home/stepan/.pyenv/shims/python3:*'
+
+bpftrace -l 'usdt:/usr/bin/python3:*'
+usdt:/usr/bin/python3:python:audit
+usdt:/usr/bin/python3:python:function__entry
+usdt:/usr/bin/python3:python:function__return
+usdt:/usr/bin/python3:python:gc__done
+usdt:/usr/bin/python3:python:gc__start
+usdt:/usr/bin/python3:python:import__find__load__done
+usdt:/usr/bin/python3:python:import__find__load__start
+usdt:/usr/bin/python3:python:line
+
+bpftrace -lv 'usdt:/usr/bin/python3:import__find__load__start'
+bpftrace -e 'usdt:/usr/bin/python3:import__find__load__start { printf("%s\n", str(arg0)); }'
+bpftrace -e 'usdt:/usr/bin/python3:python:import__find__load__done { printf("%s: %s\n", str(arg0), str(arg1)); }'
+
+bpftrace -e 'usdt:/usr/bin/python3:python:line { printf("%s: %s, %s\n", str(arg0), str(arg1) , str(arg2) ); }'
+bpftrace -e 'usdt:/usr/bin/python3:python:function__entry { printf("%s: %s, %s\n", str(arg0), str(arg1) , str(arg2) ); }'
+
+usdt:/usr/bin/python3:python:line
+
