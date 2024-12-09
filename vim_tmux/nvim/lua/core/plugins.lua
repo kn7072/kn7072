@@ -53,14 +53,11 @@ require("lazy").setup({
     }, {'leoluz/nvim-dap-go'}, {'jay-babu/mason-nvim-dap.nvim'},
     --    {'hrsh7th/vim-vsnip'}, {'hrsh7th/vim-vsnip-integ'},
     -- {'slembcke/debugger.lua'},
-    {'jbyuki/one-small-step-for-vimkind'},
-    {'example-plugin', dir = "~/example-plugin"},
-    {'nvim-whid', dir = "~/.local/share/nvim/nvim-whid"},
-    {'nredir.nvim', dir = "~/LUA/repo/nredir.nvim"}, {'rcarriga/nvim-notify'},
+    {'jbyuki/one-small-step-for-vimkind'}, {'rcarriga/nvim-notify'},
     {"yorickpeterse/nvim-window", config = true},
-    {dir = "~/GIT/kn7072/lua/plugins/switch_buffer"},
-    {dir = "~/GIT/kn7072/lua/plugins/surround"},
-    {dir = "~/GIT/kn7072/lua/plugins/study"}, {
+    {dir = "~/git_repos/kn7072/lua/plugins/switch_buffer"},
+    {dir = "~/git_repos/kn7072/lua/plugins/surround"},
+    {dir = "~/git_repos/kn7072/lua/plugins/study"}, {
         "L3MON4D3/LuaSnip",
         build = "make install_jsregexp",
         dependencies = {"rafamadriz/friendly-snippets"}
@@ -71,9 +68,8 @@ require("lazy").setup({
             "nvim-lua/plenary.nvim", "nvim-treesitter/nvim-treesitter"
         }
     }, {'kevinhwang91/nvim-ufo', dependencies = {'kevinhwang91/promise-async'}},
-    {'mmarchini/bpftrace.vim'}
-    -- {'window', dir = "~/.local/share/nvim/windows"},
-    -- {'name_space', dir = "~/GIT/kn7072/lua/plugins/name_space"}
+    {'mmarchini/bpftrace.vim'} -- {'window', dir = "~/.local/share/nvim/windows"},
+    -- {'name_space', dir = "~/git_repos/kn7072/lua/plugins/name_space"}
     -- {'debugger_my', dir = "~/LUA/repo/debugger_my"}
 
 })

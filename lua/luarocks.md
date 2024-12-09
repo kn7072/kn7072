@@ -4,6 +4,16 @@ sudo luarocks --lua-version 5.4 install luafilesystem
 sudo luarocks --lua-version 5.4 install penlight
 sudo luarocks --lua-version 5.4 install luajson
 
+sudo luarocks --lua-version 5.4 install  --server=https://luarocks.org/dev luaformatter
+    -- Install configuration: "Release"
+    -- Installing: /usr/local/lib/luarocks/rocks-5.4/luaformatter/scm-1/bin/lua-format
+    Warning: /usr/local/bin/lua-format is not tracked by this installation of LuaRocks. Moving it to /usr/local/bin/lua-format~
+    luaformatter scm-1 is now installed in /usr/local (license: Apache 2.0)
+
+
+
+sudo luarocks --lua-version 5.4 list
+
 
 Options:
    -h, --help            Show this help message and exit.

@@ -18,4 +18,5 @@ while [ "$WID" == "" ]; do
 done
 # Set the size and location of the window
 # See man wmctrl for more info
-wmctrl -i -r $WID -e 0,2000,100,1700,900
+# gravity,X,Y,width,height
+wmctrl -i -r $WID -e 0,2000,100,1300,800
