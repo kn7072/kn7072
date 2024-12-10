@@ -39,14 +39,14 @@ vim.opt.smartindent = true
 
 -- Fillchars
 vim.opt.fillchars = {
-    vert = "│",
-    fold = "⠀",
-    eob = " ", -- suppress ~ at EndOfBuffer
-    -- diff = "⣿", -- alternatives = ⣿ ░ ─ ╱
-    msgsep = "‾",
-    foldopen = "▾",
-    foldsep = "│",
-    foldclose = "▸"
+	vert = "│",
+	fold = "⠀",
+	eob = " ", -- suppress ~ at EndOfBuffer
+	-- diff = "⣿", -- alternatives = ⣿ ░ ─ ╱
+	msgsep = "‾",
+	foldopen = "▾",
+	foldsep = "│",
+	foldclose = "▸",
 }
 
 vim.cmd([[highlight clear LineNr]])
@@ -59,7 +59,7 @@ vim.opt.foldnestmax = 100
 -- vim.opt.foldmethod = "syntax"
 vim.opt.foldcolumn = "1"
 vim.o.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
-vim.o.foldlevelstart = 99 -- уровень вложенности фолдов которые будут закрыты, и 
+vim.o.foldlevelstart = 99 -- уровень вложенности фолдов которые будут закрыты, и
 -- будут автоматически закрываться, если указать 3, то будут закрыты фолты имеющие двух родительских фолдов
 vim.o.foldenable = true
 
@@ -67,6 +67,5 @@ vim.o.foldenable = true
 vim.opt.fixeol = true
 vim.opt.fixendofline = true
 
-vim.env.PATH = string.format("%s:%s",
-                             "/home/stepan/.cache/pypoetry/virtualenvs/telegrambot-0pEd2Avk-py3.12/bin",
-                             vim.env.PATH)
+vim.env.PATH =
+	string.format("%s:%s", "/home/stepan/.cache/pypoetry/virtualenvs/kn7072-mq-0OsHe-py3.12/bin", vim.env.PATH)
