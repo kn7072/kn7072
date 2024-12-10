@@ -1,15 +1,14 @@
 vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
 
 local sign = function(opts)
-    vim.fn.sign_define(opts.name,
-                       {texthl = opts.name, text = opts.text, numhl = ''})
+	vim.fn.sign_define(opts.name, { texthl = opts.name, text = opts.text, numhl = "" })
 end
 
 -- If you want icons for diagnostic errors, you'll need to define them somewhere:
-sign({name = 'DiagnosticSignError', text = ""})
-sign({name = 'DiagnosticSignWarn', text = ""})
-sign({name = 'DiagnosticSignHint', text = ""})
-sign({name = 'DiagnosticSignInfo', text = ""})
+sign({ name = "DiagnosticSignError", text = "" })
+sign({ name = "DiagnosticSignWarn", text = "" })
+sign({ name = "DiagnosticSignHint", text = "" })
+sign({ name = "DiagnosticSignInfo", text = "󰌵" })
 
 -- NOTE: this is changed from v1.x, which used the old style of highlight groups
 -- in the form "LspDiagnosticsSignWarning"
