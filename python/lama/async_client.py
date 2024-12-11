@@ -1,9 +1,7 @@
 import asyncio
 
 from common import Storage
-
 from config import HOST, MODEL, PORT, VerbForm
-
 from ollama import AsyncClient, Message
 
 
