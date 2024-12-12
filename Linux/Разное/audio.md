@@ -37,6 +37,10 @@ cat /proc/asound/cards
 
 https://redos.red-soft.ru/base/arm/sound-redos/pulseaudio/?ysclid=lrwankdago829005002
 
+pactl list short sources
+
+pactl list short sinks 
+
 pactl set-sink-volume <имя_устройства_вывода> <уровень_громкости>
 
 Стоит отметить, что уровень громкости вводится от 0 до 65535 (от 0% до 100%). Если попытаться выставить громкость больше, чем на 65535, то звук будет выводится с усилением (и будет указываться больше, чем 100%). Слишком большое усиление может искажать звук.
@@ -45,7 +49,7 @@ pactl set-sink-volume <имя_устройства_вывода> <уровень
 alsa_output.usb-Logitech_Logitech_USB_Headset_000000000000-00.analog-stereo
 bluez_sink.41_42_81_08_D9_83.a2dp_sink
 
-pactl set-sink-volume  bluez_sink.74_45_CE_15_F4_BB.a2dp_sink 15535
+pactl set-sink-volume  bluez_sink.74_45f_CE_15_F4_BB.a2dp_sink 15535
 
 
 Приостановка звука
@@ -65,10 +69,22 @@ pactl move-sink-input <номер_входа_аудиоприёмника> <им
 pactl move-sink-input 25 alsa_output.usb-Logitech_Logitech_USB_Headset_000000000000-00.analog-stereo
 pactl move-sink-input 25 bluez_sink.74_45_CE_15_F4_BB.a2dp_sink
 
+pactl get-sink-volume $(pactl get-default-sink) значение громкости для текущего выхода
+pactl set-sink-volume $(pactl get-default-sink) 25000 изменить громкость текущего выхода
 
+pactl set-sink-mute $(pactl get-default-sink) 1 выключить звук (0 включить, 'toggle' переключить на противоположное)
+
+pactl set-default-sink alsa_output.usb-Philips_Philips_SHG7980-00.iec958-stereo переключить звук на другое устройство
 
 https://askubuntu.com/questions/78174/play-sound-through-two-or-more-outputs-devices
 pactl load-module module-combine-sink
 
+slaves=$(pactl list sinks short|awk '{print $2}'|head -n5|tr '\n' ','|sed 's|,$||')
+echo "$slaves" вывести имена устройств вывода
 
-pactl load-module module-combine-sink sink_name=combination-sink sink_properties=device.description=myCombinationSink slaves=bluez_sink.41_42_81_08_D9_83.a2dp_sink,bluez_sink.74_45_CE_15_F4_BB.a2dp_sink channels=2
+pactl list sinks | grep -E 'Name:|node.name'
+
+pactl load-module module-combine-sink sink_name=combination-sink sink_properties=slaves=bluez_output.41_42_81_08_D9_83.1,bluez_output.74_45_CE_15_F4_BB.1 channels=2 -работает
+
+pactl load-module module-combine-sink sink_name=combination-sink sink_properties=device.description=myCombinationSink slaves=bluez_sink.41_42_81_08_D9_83.1,bluez_sink.74_45_CE_15_F4_BB.1 channels=2
+
