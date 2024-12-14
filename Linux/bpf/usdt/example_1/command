@@ -26,6 +26,12 @@ gcc tracetest.c -o tracetest -Wall -g
 
 sudo bpftrace -e 'usdt:/full-path-to/tracetest:testprobe { printf("%d: time is %d\n", pid, arg0); }'
 
+сначала можно посмотреть все точки трассировки
+sudo bpftrace -lv 'usdt:/home/stepan/temp/bpftrace_code/usdt/tracetest_2:*'                                                                                                                                
+[sudo] password for stepan:                                                                                            
+usdt:/home/stepan/temp/bpftrace_code/usdt/tracetest_2:tracetest:testprobe
+
+выбираем подходящую точку триссировки и спользуем в команде ниже
 sudo bpftrace -e 'usdt:/home/stepan/temp/bpftrace_code/usdt/tracetest_2:tracetest:testprobe { printf("%d: time is %d\n", pid, arg0); }'
 Здесь arg0 — это значение tv.tv_sec, которое мы передаем в breakpoint.
 
