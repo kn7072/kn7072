@@ -1,5 +1,13 @@
 https://habr.com/ru/companies/itsumma/articles/441258/
 
+ВАЖНО!! При указании пути к файлу для трассировки, в именах каталогов или файла не должно быть кириллических символов
+иначе будут ошибки вида
+stepan@stepan-ps ~/К/b/b/usdt> sudo bpftrace -lv 'usdt:/home/stepan/КУРСЫ_LINUX/bpf/bpftrace_code/usdt/tracetest_2:*'
+stdin:1:1-20: ERROR: invalid character ''
+usdt:/home/stepan/КУРСЫ_LINUX/bpf/bpftrace_code/usdt/tracetest_2:*
+~~~~~~~~~~~~~~~~~~~
+
+
 Вызов DTRACE_PROBE1 здесь определяет статическую точку трассировки USDT.
 
     Макрос DTRACE_PROBE1 берётся из sys/sdt.h. Официальный макрос USDT, который делает то же самое, называется STAP_PROBE1 (STAP от SystemTap, который был первым линуксовым механизмом, поддерживаемым в USDT). Но так как USDT совместим с датчиками пользовательского пространства DTrace, DTRACE_PROBE1 — это просто ссылка на STAP_PROBE1.
