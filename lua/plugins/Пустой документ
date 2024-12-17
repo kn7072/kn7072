@@ -68,3 +68,5 @@ lua for k, v in pairs(vim.api.nvim_buf_get_keymap(vim.api.nvim_win_get_buf(0), "
 
 lua print(vim.inspect(vim.api.nvim_get_keymap("n"))) -- Для глобальных сопоставлений
 lua print(vim.inspect(vim.api.nvim_buf_get_keymap(0, "n"))) -- Для локальных сопоставлений
+
+lua local file = assert(io.open("/home/stepan/temp/experimental/key_maps", "w")); file:write(vim.inspect(vim.api.nvim_get_keymap("n")))  -записать в файл для анализа
