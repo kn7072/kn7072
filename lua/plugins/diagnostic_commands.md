@@ -69,3 +69,7 @@ Return:
 
 lua vim.print(vim.diagnostic.JumpOpts)
 
+при наведении на предупреждение - отобразит текст в плавающем окне, чтобы можно было прочесть длиные предупреждения
+https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.Opts.Float - параметры для open_float
+lua vim.diagnostic.open_float(0, {scope="line"})
+
