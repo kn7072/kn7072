@@ -51,6 +51,37 @@ local function get_char()
     return ok and fn.nr2char(char) or nil
 end
 
+function spairs(t, order)
+    -- collect the keys
+    local keys = {}
+    for k in pairs(t) do
+        keys[#keys + 1] = k
+    end
+
+    -- if order function given, sort by it by passing the table and keys a, b,
+    -- otherwise just sort the keys 
+    if order then
+        table.sort(keys, function(a, b)
+            return order(t, a, b)
+        end)
+    else
+        table.sort(keys)
+    end
+
+    -- return the iterator function
+    local i = 0
+    return function()
+        i = i + 1
+        if keys[i] then
+            return keys[i], t[keys[i]]
+        end
+    end
+end
+
+local fun_order = function(t, a, b)
+    return t[b] > t[a]
+end
+
 local function set_mapping(buf, buffers_info)
     local mappings = {q = "close()", ["<cr>"] = "zoom()"}
     local buffers_maps = {}
@@ -66,7 +97,7 @@ local function set_mapping(buf, buffers_info)
         'u', 'v', 'w', 'x', 'y', 'z'
     }
     local char_index = 1
-    for buff_hd, buff_name in pairs(buffers_info) do
+    for buff_hd, buff_name in spairs(buffers_info, fun_order) do
         local current_char = other_chars[char_index]
         buffers_maps[current_char] = buff_hd
         local row = string.format("%s %s", other_chars[char_index], buff_name)
@@ -87,6 +118,14 @@ end
 
 function M.get_buffer_name()
 
+end
+
+local function prepare_table_for_show(tbl)
+    local tbl_for_show = {}
+    for _, buff_name in spairs(tbl, fun_order) do
+        table.insert(tbl_for_show, string.format("%s", buff_name))
+    end
+    return tbl_for_show
 end
 
 local function get_max_length(tbl)
@@ -120,7 +159,7 @@ function M.open_window(plugin_buffer, buffers_info)
     -- table.insert(border_lines, '╚' .. string.rep('═', window_width) .. '╝')
     -- api.nvim_buf_set_lines(plugin_buffer, 0, -1, false, border_lines)
     api.nvim_buf_set_lines(plugin_buffer, 0, -1, false,
-                           vim.tbl_values(buffers_info))
+                           prepare_table_for_show(buffers_info)) -- vim.tbl_values(buffers_info)
 
     local window_opt = {
         win = current_win,
