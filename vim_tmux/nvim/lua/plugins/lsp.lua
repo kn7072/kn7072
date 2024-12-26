@@ -35,7 +35,8 @@ lspconfig.cssls.setup {capabilities = capabilities}
 -- https://clangd.llvm.org/installation.html
 lspconfig.clangd.setup {
     capabilities = capabilities,
-    on_attach = lsp_common.on_attach
+    on_attach = lsp_common.on_attach,
+    cmd = {"clangd", "--offset-encoding=utf-16"}
 }
 -- lspconfig.ccls.setup {
 --     init_options = {
@@ -108,8 +109,8 @@ lspconfig.lua_ls.setup {
                 enable = false,
                 defaultConfig = {
                     indent_style = "space",
-                    indent_size = "2",
-                    continuation_indent_size = "2"
+                    indent_size = "4",
+                    continuation_indent_size = "4"
                 }
             }
         }
