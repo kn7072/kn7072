@@ -218,7 +218,7 @@ class MyHandler(BaseHTTPRequestHandler):
                     res = b"StopIteration"
                     self.wfile.write(res)
         else:
-            self.wfile.write(b"\n\nno sound")
+            self.wfile.write(b"\n")
 
     def do_GET(self):
         all_knonw_word_dict = self.get_know_words()

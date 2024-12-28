@@ -1,14 +1,15 @@
 vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
 
 local sign = function(opts)
-	vim.fn.sign_define(opts.name, { texthl = opts.name, text = opts.text, numhl = "" })
+    vim.fn.sign_define(opts.name,
+                       {texthl = opts.name, text = opts.text, numhl = ""})
 end
 
 -- If you want icons for diagnostic errors, you'll need to define them somewhere:
-sign({ name = "DiagnosticSignError", text = "" })
-sign({ name = "DiagnosticSignWarn", text = "" })
-sign({ name = "DiagnosticSignHint", text = "" })
-sign({ name = "DiagnosticSignInfo", text = "󰌵" })
+sign({name = "DiagnosticSignError", text = ""})
+sign({name = "DiagnosticSignWarn", text = ""})
+sign({name = "DiagnosticSignHint", text = ""})
+sign({name = "DiagnosticSignInfo", text = "󰌵"})
 
 -- NOTE: this is changed from v1.x, which used the old style of highlight groups
 -- in the form "LspDiagnosticsSignWarning"
@@ -54,4 +55,22 @@ vim.diagnostic.config({
 
 --]]
 
-require("neo-tree").setup({})
+require("neo-tree").setup({
+    default_component_configs = {
+        git_status = {
+            symbols = {
+                -- Change type
+                added = "", -- or "✚", but this is redundant info if you use git_status_colors on the name
+                modified = "", -- or "", but this is redundant info if you use git_status_colors on the name
+                deleted = "✖", -- this can only be used in the git_status source
+                renamed = "󰁕", -- this can only be used in the git_status source
+                -- Status type
+                untracked = "",
+                ignored = "",
+                unstaged = "󰄱",
+                staged = "",
+                conflict = ""
+            }
+        }
+    }
+})

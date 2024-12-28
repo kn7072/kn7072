@@ -55,4 +55,7 @@ lua print(vim.inspect(vim.api.nvim_win_get_cursor(0)[1]))
 lua print(vim.fn.foldclosed(36)) -- проверяет находится ли указанная строка в закрытом фолде, 
 если находится в закрытом фолде тогда возвращает номер строки начала фолда, если строка в открытом фолде тогда -1 
 
+https://neovim.io/doc/user/sign.html
+lua print(vim.inspect(vim.fn.sign_getdefined())) 
+
 
