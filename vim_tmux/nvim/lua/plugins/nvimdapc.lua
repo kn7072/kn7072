@@ -59,8 +59,12 @@ dap.configurations.c = {
             return (path and path ~= '') and path or dap.ABORT
         end,
         args = function()
+            local delimiter = vim.fn.input({
+                prompt = 'Delimiter:(default spece)',
+                default = " "
+            })
             local args_str = vim.fn.input({prompt = 'Arguments: '})
-            return vim.split(args_str, ' +')
+            return vim.split(args_str, string.format("%s+", delimiter))
         end
     }, {
         name = 'Attach to process (GDB)',
