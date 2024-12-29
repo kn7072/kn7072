@@ -272,3 +272,17 @@ Useful when we want to strip some blocks from a patch, without patch having to c
 1. Search for text using `/` or for a word using `*`.
 2. In normal mode, type `cgn` (change the next search hit) then immediately type the replacement. Press Esc to finish.
 3. From normal mode, search for the next occurrence that you want to replace (`n`) and press `.` to repeat the last change.
+
+
+## replace pattern and add new line
+First, set your Vi(m) session to allow pattern matching with special characters (i.e.: newline). It's probably worth putting this line in your .vimrc or .exrc file:
+
+:set magic
+
+Next, do:
+
+:s/,/,^M/g
+
+To get the ^M character, type Ctrl + V and hit Enter.
+
+:'<,'>s#xxxx#^M/g
