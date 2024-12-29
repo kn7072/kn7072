@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+// gcc -g -Wall -O3 -o strtok_r_2 strtok_r_2.c
 int main() {
     char str[] = "Hello, World! Geeks for Geeks.";
     const char outer_delimiters[] = "!.";
@@ -27,10 +28,3 @@ int main() {
 
     return 0;
 }
-
-/*
- https://www.geeksforgeeks.org/strtok-strtok_r-functions-c-examples/
-
-Difference Between strtok() and strtok_r()
-
- */
