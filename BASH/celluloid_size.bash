@@ -13,10 +13,17 @@ PID=$!
 # only one window! Otherwise this might break.
 # We also need to wait for the process to spawn
 # a window.
+
+# echo $(wmctrl -lp | grep $(ps -C celluloid  -o pid=) | cut "-d " -f1)
 while [ "$WID" == "" ]; do
         WID=$(wmctrl -lp | grep $PID | cut "-d " -f1)
 done
+
+echo $WID
 # Set the size and location of the window
 # See man wmctrl for more info
 # gravity,X,Y,width,height
-wmctrl -i -r $WID -e 0,2000,100,1300,800
+wmctrl -i -r $WID -e 0,2000,100,1300,800 # чтобы окно открылось в нужном месте
+sleep 1 # чтобы дождаться пока прогрузится celluloid
+wmctrl -i -r $WID -e 0,2000,100,1300,800 # чтобы размеры окна сработали
+
