@@ -1,0 +1,3 @@
+gcc -Wall -g3 -O0 -o main main.c
+gdb -batch --nh -q -ex 'dprintf 10, "%u %u\n", i, r' -ex 'run' ./main
+
