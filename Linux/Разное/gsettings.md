@@ -32,3 +32,5 @@ gsettings monitor org.cinnamon.desktop.interface отслеживает изме
 gsettings describe org.cinnamon.desktop.interface cursor-blink описание ключа (Whether the cursor should blink.)
 gsettings range org.cinnamon.desktop.interface cursor-blink  узнать допустимые значения для ключа, type b означает булево
 gsettings get org.cinnamon.desktop.interface cursor-blink узнать значение (в данном примере true)
+gsettings reset org.cinnamon.desktop.interface cursor-blink-time сбросить ключ к значению по умолчанию
+
