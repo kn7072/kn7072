@@ -17,6 +17,14 @@ function SetColor(color)
     vim.api.nvim_set_hl(0, "Comment", {link = "MyComment"})
     vim.api.nvim_set_hl(0, "Folded", {link = "MyFolded"})
     -- Folded         xxx ctermfg=59 guifg=#5c6370
+
+    -- CurSearch      xxx ctermfg=0 ctermbg=11 guifg=NvimDarkGrey1 guibg=NvimLightYellow
+    vim.api.nvim_set_hl(0, "CurSearch", {
+        ctermbg = 70,
+        bg = "#d72323",
+        fg = "#11cbd7",
+        bold = true
+    })
 end
 
 SetColor()
