@@ -2,6 +2,9 @@
 
 // gcc -Wall -g -O0 -o bit_tricks bit_tricks.c common.h common.c
 /*
+LSB (least significant bit)
+MSB (most significant bit)
+
 x&1                 Evaluates to 1 if the number is odd else evaluates to 0
 x & (x-1)           Clears the lowest set bit of x
 x & ~(x-1)          Extracts the lowest set bit of x (all others are cleared)
