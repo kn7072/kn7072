@@ -1,5 +1,7 @@
 #include <stdio.h>
-// gcc -Wall -g -O0 -o bit_tricks_2 bit_tricks_2.c
+
+#include "common.h"
+// gcc -Wall -g -O0 -o bit_tricks_2 bit_tricks_2.c common.c common.h
 
 /*
 https://www.geeksforgeeks.org/toggle-bits-given-range/?ysclid=m5peto5n3v965965438
@@ -16,13 +18,11 @@ representation of n. Examples:
     Input: n = 17, l = 1, r = 3
     Output: 22
     Explanation: (17)10 = (10001)2
-                           (22)10 = (10110)2
+                 (22)10 = (10110)2
     The bits in the range 1 to 3 in the binary representation of 17 are toggled.
-
 
     Input: n = 50, l = 2, r = 5
     Output: 44
-
 
     Explanation: (50)10 = (110010)2
                  (44)10 = (101100)2
@@ -37,22 +37,6 @@ perform n = n ^ num. This will toggle the bits in the range l to r in n.
  */
 
 unsigned int toggleBitsFromLToR(unsigned int, unsigned int, unsigned int);
-
-// display bits of an unsigned int value
-void displayBits(unsigned int value) {
-    // define displayMask and left shift 31 bits
-    unsigned int displayMask = 1 << 31;
-    printf("%10u = ", value);
-    // loop through bits
-    for (unsigned int c = 1; c <= 32; ++c) {
-        putchar(value & displayMask ? '1' : '0');
-        value <<= 1;       // shift value left by 1
-        if (c % 8 == 0) {  // output space after 8 bits
-            putchar(' ');
-        }
-    }
-    putchar('\n');
-}
 
 // function to toggle bits in the given range
 unsigned int toggleBitsFromLToR(unsigned int n, unsigned int l, unsigned int r) {
