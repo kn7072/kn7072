@@ -15,7 +15,14 @@ ch | ''             Upper case English alphabet ch to lower case
 ch & '_'            Lower case English alphabet ch to upper case
 x && !(x & x-1)     Checking if given 32-bit integer is power of 2
 log2(n & -n)+1      Find the last set bit
-
+Count set bits in integer
+Find log base 2 of 32 bit integer
+Checking if given 32-bit integer is power of 2
+Find the last set bit
+Turn Off kth bit in a number
+Turn On kth bit in a number
+Check if kth bit is set for a number
+Toggle the kth bit
 */
 
 // Converts a string to uppercase

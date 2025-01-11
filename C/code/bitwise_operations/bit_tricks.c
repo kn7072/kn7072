@@ -8,8 +8,8 @@ MSB (most significant bit)
 x&1                 Evaluates to 1 if the number is odd else evaluates to 0
 x & (x-1)           Clears the lowest set bit of x
 x & ~(x-1)          Extracts the lowest set bit of x (all others are cleared)
-x & ~((1 << i+1 ) - 1)  Clears all bits of x from LSB to ith bit x &
-((1 << i) - 1)      Clears all bits of x from MSB to ith bit
+x & ~((1 << i+1 ) - 1)  Clears all bits of x from LSB to ith bit
+x & ((1 << i) - 1)      Clears all bits of x from MSB to ith bit
 x >>1               Divides x by 2
 x << 1              Multiplies x by 2
 ch | ''             Upper case English alphabet ch to lower case
