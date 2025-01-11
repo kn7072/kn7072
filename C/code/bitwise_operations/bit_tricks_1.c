@@ -13,7 +13,6 @@ MSB (most significant bit)
 
 ch | ''                Upper case English alphabet ch to lower case
 ch & '_'               Lower case English alphabet ch to upper case
-x && !(x & x-1)        Checking if given 32-bit integer is power of 2
 log2number(n & -n)+1   Find the last set bit
 countSetBits(n)        Count set bits in integer
 log2number(n)          Find log base 2 of 32 bit integer
