@@ -35,25 +35,22 @@ Approach: Following are the steps:
  */
 
 // function to toggle bits in the given range
-unsigned int toggleBitsFromLToR(unsigned int n, unsigned int l, unsigned int r) {
-    // calculating a number 'num' having 'r'
-    // number of bits and bits in the range l
-    // to r are the only set bits
-    int num = ((1 << r) - 1) ^ ((1 << (l - 1)) - 1);
+int setallbitgivenrange(int n, int l, int r) {
+    // calculating a number 'range' having set
+    // bits in the range from l to r and all other
+    // bits as 0 (or unset).
+    int range = (((1 << (l - 1)) - 1) ^ ((1 << (r)) - 1));
 
-    // toggle bits in the range l to r in 'n'
-    // and return the number
-    // Besides this, we can calculate num as: num=(1<<r)-l .
-    return (n ^ num);
+    return (n | range);
 }
 
 // Driver program to test above
 int main() {
     unsigned int n = 17;
     unsigned int new_n;
-    unsigned int l = 1, r = 3;
+    unsigned int l = 1, r = 4;
     displayBits(n);
-    new_n = toggleBitsFromLToR(n, l, r);
+    new_n = setallbitgivenrange(n, l, r);
     displayBits(new_n);
     return 0;
 }
