@@ -15,7 +15,7 @@ x << 1              Multiplies x by 2
 ch | ''             Upper case English alphabet ch to lower case
 ch & '_'            Lower case English alphabet ch to upper case
 x && !(x & x-1)     Checking if given 32-bit integer is power of 2
-log2(n & -n)+1      Find the last set bit
+log2(n & -n)+1      Find the last set bit (-n is ~n + 1)
 */
 
 int main(void) {
