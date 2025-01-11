@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #include "common.h"
 
 // gcc -Wall -g -O0 -o bit_tricks bit_tricks.c common.h common.c
@@ -5,7 +7,7 @@
 LSB (least significant bit)
 MSB (most significant bit)
 
-x&1                 Evaluates to 1 if the number is odd else evaluates to 0
+x & 1               Evaluates to 1 if the number is odd else evaluates to 0
 x & (x-1)           Clears the lowest set bit of x
 x & ~(x-1)          Extracts the lowest set bit of x (all others are cleared)
 x & ~((1 << i+1 ) - 1)  Clears all bits of x from LSB to ith bit
@@ -20,6 +22,7 @@ log2(n & -n)+1      Find the last set bit (-n is ~n + 1)
 
 int main(void) {
     unsigned int number = 5;
+    unsigned int result;
     unsigned int i = 0;
     unsigned mask = 0;
 
@@ -164,6 +167,15 @@ int main(void) {
     Example:
     x =      18(00010010)
     x << 1 = 36(00100100)
-     */
+    */
+    printf("%s\n", "");
+    number = 25;
+    i = 2;
+    displayBits(number);
+    result = number << i;
+    displayBits(result);
+    i = 4;
+    result = number << i;
+    displayBits(result);
     return 0;
 }

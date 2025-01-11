@@ -34,7 +34,7 @@ Approach: Following are the steps:
    in n.
  */
 
-// function to toggle bits in the given range
+// function to set the bits in the range from l to r
 int setallbitgivenrange(int n, int l, int r) {
     // calculating a number 'range' having set
     // bits in the range from l to r and all other
