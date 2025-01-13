@@ -6,3 +6,10 @@ SortIncludes: CaseInsensitive
 AlignArrayOfStructures: Right
 AlignAfterOpenBracket: AlwaysBreak
 BracedInitializerIndentWidth: 4
+
+AllowShortFunctionsOnASingleLine: Empty
+
+AlignConsecutiveBitFields:
+    Enabled: true
+    AcrossEmptyLines: true
+    AcrossComments: false
