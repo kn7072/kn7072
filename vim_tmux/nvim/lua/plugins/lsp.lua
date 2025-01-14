@@ -20,14 +20,14 @@ lspconfig.pyright.setup {
             analysis = {
                 autoImportCompletions = true,
                 autoSearchPaths = true,
-                diagnosticMode = "workspace", -- openFilesOnly, workspace
+                diagnosticMode = "openFilesOnly", -- openFilesOnly, workspace
                 typeCheckingMode = "basic", -- off, basic, strict
                 useLibraryCodeForTypes = true
             }
         }
     }
-
 }
+
 lspconfig.ts_ls.setup {}
 lspconfig.prismals.setup {}
 lspconfig.cssls.setup {capabilities = capabilities}

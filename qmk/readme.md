@@ -10,6 +10,15 @@ https://www.rigacci.org/wiki/doku.php/doc/appunti/linux/sa/remap_keyboard_keys
 sudo apt install evtest
 sudo evtest
 
+если возникла ошибка как показано ниже, необходимо установить sudo apt install gcc-arm-none-eab
+⚠ avalanch_2040/v4: RGBLED_SPLIT in config.h is overwriting rgblight.split_count in info.json
+/bin/sh: 1: arm-none-eabi-gcc: not found
+/bin/sh: 1: arm-none-eabi-gcc: not found
+sh: 1: arm-none-eabi-gcc: not found
+sh: 1: arm-none-eabi-gcc: not found
+gmake: *** [builddefs/common_rules.mk:370: .build/obj_avalanch_2040_v4_test_1/compiler.txt] Error 127
+
+
 sudo chown $USER:$USER /dev/hidraw1
 
 qmk list-keyboards | grep "iris" -найти полное название клавиатуры

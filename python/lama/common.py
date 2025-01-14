@@ -16,6 +16,7 @@ def get_list_lines_file(path_to_file: str):
             temp.append(row.rstrip("\n"))
     return temp
 
+
 class Storage:
 
     def __init__(self, name: str):
@@ -27,9 +28,8 @@ class Storage:
 
     def insert(self, number: str, request: str, response: str):
         if not self.content.get(number):
-           self.content[number] = {}
+            self.content[number] = {}
         self.content[number][request] = response
-        
 
     def save(self):
 
@@ -48,25 +48,23 @@ class Storage:
         except:
             with open(self.response_path_file, mode="w", encoding=encoding) as f:
                 f.write(backup)
-            
 
 
 class InitRequests:
-    
-    def __init__(self, form_verb:str, count_request: int = 5, time_out_between_requests:int = 7):
+
+    def __init__(self, form_verb: str, count_request: int = 5, time_out_between_requests: int = 7):
         self.file_name = "checkpoint"
         self.form_verb = form_verb
         self.count_request = count_request
         self.time_time_out_between_requests = time_out_between_requests
         self.check_checkpoint_file()
         self.start_request = self.get_start_number_sentence()
-        #TODO прекратить выполнение есть достигли конца файла
+        # TODO прекратить выполнение есть достигли конца файла
         self._data = self._prepare_data()
         # if len(self._data) ==
         self.lama_client = OllamaClient()
         self.storage = Storage(form_verb)
-                
-    
+
     def get_start_number_sentence(self) -> int:
         with open(self.file_name, mode="r", encoding=encoding) as f:
             json_data = json.loads(f.read())
@@ -79,9 +77,10 @@ class InitRequests:
             with open(self.file_name, mode="w", encoding=encoding) as f:
                 f.write("{}")
 
-
     def _prepare_data(self) -> tuple[tuple[str, str]]:
-        pathes = (get_path_file(self.form_verb, directon_i) for directon_i in Direction.get_directions())
+        pathes = (
+            get_path_file(self.form_verb, directon_i) for directon_i in Direction.get_directions()
+        )
         temp = []
         for path_i in pathes:
             temp.append(get_list_lines_file(path_i))
@@ -92,7 +91,7 @@ class InitRequests:
         with open(self.file_name, mode="r", encoding=encoding) as f:
             json_data = json.loads(f.read())
             json_data[self.form_verb] = next_index
-        
+
         with open(self.file_name, mode="w", encoding=encoding) as f:
             f.write(json.dumps(json_data, ensure_ascii=False, indent=4, sort_keys=True))
         pass
@@ -103,8 +102,12 @@ class InitRequests:
         if max_index == self.start_request:
             print(f"Запросов для {self.form_verb} не осталось")
             return
-            
-        last_index = end_index if (end_index := (self.start_request + self.count_request)) <= max_index else max_index
+
+        last_index = (
+            end_index
+            if (end_index := (self.start_request + self.count_request)) <= max_index
+            else max_index
+        )
 
         for i in range(self.start_request, last_index):
             eng_sentence = self._data[i][0]
@@ -114,7 +117,7 @@ class InitRequests:
 
             res_eng = self.lama_client.get_response(request_eng)
             res_rus = self.lama_client.get_response(request_rus)
-            
+
             str_i = str(i)
             self.storage.insert(str_i, request_eng, res_eng)
             time.sleep(self.time_time_out_between_requests)

@@ -26,3 +26,13 @@ inotifywait lua-format -m  --format '%T %w %f %e' --timefmt '%T' -o /home/stepan
 cd /.local/share/nvim/mason/packages/luaformatter/bin
 ./lua-format  /home/stepan/TEMP/TEST_VIM/test.lua
 
+########
+flake8
+после установки flake8 через Mason необходимо установить дополнительные пакеты, для этого
+1 переходим в каталог куда Mason установил flake8 
+    cd to ~/.local/share/nvim/mason/packages/flake8
+2 активируем виртуальное окружение
+    source venv/bin/activate
+3 устанавливаем зависимости
+    pip install -r requirements_flake8.txt
+

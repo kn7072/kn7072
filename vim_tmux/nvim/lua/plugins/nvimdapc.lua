@@ -17,6 +17,9 @@ local dap = require("dap")
 -- https://blog.cryptomilk.org/2024/01/02/neovim-dap-and-gdb-14-1/
 -- https://sourceware.org/gdb/current/onlinedocs/gdb.html/Interpreters.html
 -- https://sourceware.org/gdb/current/onlinedocs/gdb.html/Debugger-Adapter-Protocol.html
+--
+vim.env.CPATH = string.format("%s:%s", "./..", vim.env.CPATH)
+
 dap.adapters.gdb = {
     id = 'gdb',
     type = 'executable',

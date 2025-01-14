@@ -22,9 +22,20 @@ null_ls.setup({
         }), null_ls.builtins.formatting.black.with({filetypes = {"python"}}),
         null_ls.builtins.formatting.isort.with({
             filetypes = {"python"},
-            extra_args = {"--profile black", "--skip-gitignore"}
+            extra_args = {
+                string.format("--settings-path=%s", vim.fn.stdpath("config") ..
+                                  "/plugin_configs/.isort.cfg")
+            }
         }), null_ls.builtins.diagnostics.flake8.with({
-            extra_args = {"--max-line-length=88", "--max-complexity=8"}
+            extra_args = {
+                "--config",
+                vim.fn.stdpath("config") .. "/plugin_configs/.flake8"
+
+                -- string.format("--config %s", vim.fn.stdpath("config") ..
+                -- "/plugin_configs/.flake8")
+                -- "--format '%(path)s::%(row)d,%(col)d::%(code)s::%(text)s'"
+            }
+            -- extra_args = {"--max-line-length=88", "--max-complexity=8"}
         }), null_ls.builtins.diagnostics.shellcheck,
         null_ls.builtins.formatting.prettierd.with({
             filetypes = {
