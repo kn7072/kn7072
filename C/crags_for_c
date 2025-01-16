@@ -27,7 +27,7 @@ https://old2.breys.ru/blog/315.html
 Некоторые пути сканируются по умолчанию, это:
 ./tags,./TAGS,tags,TAGS
 
-#############################
+## examples for C/C++
 прочитать для C/C++
 https://www.topbug.net/blog/2012/03/17/generate-ctags-files-for-c-slash-c-plus-plus-source-files-and-all-of-their-included-header-files/
 
@@ -57,4 +57,26 @@ gcc -M -I ~/include "$@" | sed -e 's/[\\ ]/\n/g' | \
         ctags -L - --c++-kinds=+p --fields=+iaS --extra=+q
 
 If you have any suggestion on this idea, please let me know.
+
+## examples
+https://stackoverflow.com/questions/16330901/how-to-create-ctags-only-for-c-and-h-files-in-code
+ctags -R --languages=C,C++,Python,Go,Lua,Sh .
+ctags `find . -name "*.[ch]" -print`
+
+
+
+You can use a .ctagsignore file to exclude any unwanted files from the generated tags. The following is an example I use for my projects:
+Contents of .ctagsignore:
+
+bin
+makefile
+obj
+tags
+workspace.vim
+
+And then generate tags with: -ctags -R --exclude=@.ctagsignore
+
+This ignores every file in the bin, and obj folder, the makefile, the (future) generated tags file, and the workspace.vim file in the project directory. It essentially works like a .gitignore file, so you can use the wildcard (*.o) notation - myfolder/*.o ignores all object files in $PROJ_DIR$/myfolder/
+
+
 
