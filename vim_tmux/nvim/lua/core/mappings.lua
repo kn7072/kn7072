@@ -1,6 +1,6 @@
 local kmap = vim.keymap.set
 local nvim_map = vim.api.nvim_set_keymap
-local opts = { noremap = true, silent = true }
+local opts = {noremap = true, silent = true}
 
 vim.g.mapleader = " "
 
@@ -50,11 +50,18 @@ z=z появится полный список
 <c-x><c-s>
 --]]
 kmap("n", "]s", function()
-	local spell = vim.wo.spell
-	vim.wo.spell = true
-	vim.opt.spelllang = { "en_us", "ru_ru" }
-	vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("]s", true, true, true), "n", true)
-	-- vim.schedule(function()
-	--     vim.wo.spell = spell
-	-- end)
+    local spell = vim.wo.spell
+    vim.wo.spell = true
+    vim.opt.spelllang = {"en_us", "ru_ru"}
+    vim.api.nvim_feedkeys(
+        vim.api.nvim_replace_termcodes("]s", true, true, true), "n", true)
+    -- vim.schedule(function()
+    --     vim.wo.spell = spell
+    -- end)
 end)
+
+-- quickfix
+kmap("n", "<leader>co", ":copen<CR>")
+kmap("n", "<leader>cx", ":cclose<CR>")
+kmap("n", "<leader>cn", ":cnext<CR>")
+kmap("n", "<leader>cp", ":cprev<CR>")

@@ -9,3 +9,5 @@ for _, win_i in pairs(vim.api.nvim_tabpage_list_wins(0)) do
     end
     print("*******")
 end
+
+-- :source ./inspect_debug.lua

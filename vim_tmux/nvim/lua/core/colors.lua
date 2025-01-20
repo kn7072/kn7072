@@ -25,6 +25,13 @@ function SetColor(color)
         fg = "#11cbd7",
         bold = true
     })
+
+    vim.api.nvim_set_hl(0, "QuickFixLine", {
+        ctermbg = 70,
+        bg = "#d72323",
+        fg = "#11cbd7",
+        bold = true
+    })
 end
 
 SetColor()
