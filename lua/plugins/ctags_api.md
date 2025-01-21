@@ -103,6 +103,8 @@ changed, to avoid confusion when using ":tnext".  It is changed when using
 
 :ta /^get
 :tag /^CALLOC
+:tag /^Thread_exit
+:tselect
 
 :tag main
 <	jumps to the tag "main" that has the highest priority. >

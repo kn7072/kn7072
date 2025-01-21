@@ -323,6 +323,10 @@ Delete an item
 
 lua vim.opt.errorformat = vim.opt.errorformat + "%E%f\\, line %l\\, character %c:,%Z%m"
 
+https://github.com/neovim/neovim/issues/21313?ysclid=m66j88b6ct70365889
+lua vim.cmd.cfile("gcc_output") загружает файл с ошибками
+lua vim.cmd.copen() открывате окно с ошибками
+
 
 
     lua print(vim.inspect(vim.fn.getqflist({text = "end of file found before string ended"})))
