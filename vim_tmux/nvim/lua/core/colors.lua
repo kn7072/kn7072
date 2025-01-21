@@ -32,6 +32,20 @@ function SetColor(color)
         fg = "#11cbd7",
         bold = true
     })
+
+    -- плавающие окна
+    -- vim.api.nvim_set_hl(0, "FloatBorder", {
+    --     ctermbg = 70,
+    --     bg = "#d72323",
+    --     fg = "#11cbd7",
+    --     bold = true
+    -- })
+    --
+    -- рамка между вертикальными окнами
+    vim.api.nvim_set_hl(0, "WinSeparator", {ctermbg = 70, fg = "#11cbd7"})
+
+    -- вертикальная полоса для фолдов
+    -- hi FoldColumn guibg=#f44336 guifg=#9fc5e8 ctermfg=White ctermbg=Blue term=none cterm=none gui=none
 end
 
 SetColor()

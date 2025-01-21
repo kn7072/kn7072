@@ -9,17 +9,21 @@ api.nvim_create_user_command('Flake8', function(opts)
         -- print(vim.fn.system(cmd))
 
         local output = vim.split(vim.trim(vim.fn.system(cmd)), "\n")
-        -- print(vim.inspect(output))
+        print(vim.inspect(output))
         return output
     end
 
-    -- vim.call("flake8", "%", input.bang)
-    -- vim.call('flake8', '~/temp/experimental/py', input.bang)
-end, {desc = 'First flake8', nargs = 1, bang = true}) -- bang = true, 
+end, {desc = 'First flake8', nargs = 1, bang = true})
 
 api.nvim_create_user_command('Upper', function(opts)
     print(string.upper(opts.args))
 end, {nargs = 1})
+
+api.nvim_create_user_command('Tags', function(opts)
+    local cursor_word = vim.fn.expand("<cword>")
+    print(cursor_word)
+    print(vim.inspect(vim.fn.taglist(string.format("^%s", cursor_word))))
+end, {desc = "Find tags"})
 
 vim.api.nvim_create_user_command('Upper2', function(opts)
     print(opts.args)

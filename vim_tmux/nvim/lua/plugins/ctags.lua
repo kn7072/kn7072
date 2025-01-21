@@ -6,6 +6,6 @@ vim.api.nvim_create_autocmd("BufWritePost", {
         --     'ctags', '-R', '−f *.c', '−f *.go', '−f *.py',
         --     '--exclude=.git', '--exclude=*.sql'
         -- }
-        {'ctags', '-R', '--languages=C,C++,Python,Go,Lua,Sh'})
+        {'ctags', '-R', '--fields=+ne', '--languages=C,C++,Python,Go,Lua,Sh'})
     end
 })
