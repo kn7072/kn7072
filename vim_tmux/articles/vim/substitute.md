@@ -286,3 +286,5 @@ Next, do:
 To get the ^M character, type Ctrl + V and hit Enter.
 
 :'<,'>s#xxxx#^M/g
+:'<,'>s/[`|-]//g | '<,'>s/<br>/^M/g
+
