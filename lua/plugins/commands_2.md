@@ -58,4 +58,7 @@ lua print(vim.fn.foldclosed(36)) -- проверяет находится ли �
 https://neovim.io/doc/user/sign.html
 lua print(vim.inspect(vim.fn.sign_getdefined())) 
 
+работа с комментариями
+lua print(vim.api.nvim_buf_get_option(0, "commentstring"))   - пример вывода "# %s" где # символ комментария
 
+lua print(vim.api.nvim_buf_get_option(0, "filetype"))

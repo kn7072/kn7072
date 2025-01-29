@@ -64,6 +64,14 @@ qmk compile -kb bastardkb/scylla/v2/splinky_3 -km test_1
 qmk console -l
 qmk console -d CEE2:0004:1
 
+which qmk -получаем адрес
+cd /home/stepan/.pyenv/shims
+sudo /home/stepan/.pyenv/shims/qmk console -l
+sudo /home/stepan/.pyenv/shims/qmk console -d CEE2:0004:1
+
+showkey -a
+You could try, and Ctrl + D to exit:
+
 /home/stepan/qmk_firmware/keyboards/work_louder/micro
 
 
