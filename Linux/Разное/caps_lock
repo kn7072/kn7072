@@ -1,0 +1,15 @@
+https://www.linux.org.ru/forum/general/4934288?ysclid=m6g6dp33ah772289504
+
+xset q 2> /dev/null | grep LED
+  auto repeat:  on    key click percent:  0    LED mask:  00000000
+
+Нажимаем Caps Lock:
+
+edigaryev@brick ~ $ xset q 2> /dev/null | grep LED
+  auto repeat:  on    key click percent:  0    LED mask:  00000001
+
+
+xset q 2> /dev/null | grep "LED" | awk '{print $NF}'
+lua print(vim.fn.system("xset q 2> /dev/null | grep 'LED' | awk '{print $NF}'"))
+
+
