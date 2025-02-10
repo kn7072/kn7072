@@ -1,10 +1,13 @@
-------------------------------------------------------------------------------
+( источник)[https://www.kernel.org/doc/Documentation/filesystems/proc.txt]
+
+
                        T H E  /proc   F I L E S Y S T E M
 ------------------------------------------------------------------------------
 /proc/sys         Terrehon Bowden <terrehon@pacbell.net>        October 7 1999
                   Bodo Bauer <bb@ricochet.net>
 
 2.4.x update	  Jorge Nerin <comandante@zaralinux.com>      November 14 2000
+
 move /proc/sys	  Shen Feng <shen@cn.fujitsu.com>		  April 1 2009
 ------------------------------------------------------------------------------
 Version 1.3                                              Kernel version 2.2.12
