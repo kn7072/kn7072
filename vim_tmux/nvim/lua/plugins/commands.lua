@@ -34,3 +34,10 @@ end, {
         return {'foo', 'bar', 'baz'}
     end
 })
+
+api.nvim_create_user_command('Test', function(opts)
+    -- print(string.upper(opts.args))
+    print("xxxx")
+    api.nvim_set_hl(0, "FoldColumn",
+                    {ctermbg = 70, bg = "#d72323", fg = "#11cbd7", bold = true})
+end, {})

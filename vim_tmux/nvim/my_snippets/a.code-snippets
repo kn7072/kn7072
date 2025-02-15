@@ -1,0 +1,32 @@
+{
+    // a comment, since `.code-snippets` may contain jsonc.
+    "c/cpp-snippet": {
+        "prefix": [
+            "trigger1",
+            "trigger2"
+        ],
+        "body": [
+            "this is $1",
+            "my snippet $2"
+        ],
+        "description": "A description of the snippet.",
+        "scope": "c,cpp"
+    },
+    "python-snippet": {
+        "prefix": "trig",
+        "body": [
+            "this is $1",
+            "a different snippet $2"
+        ],
+        "description": "Another snippet-description.",
+        "scope": "python"
+    },
+    "global snippet": {
+        "prefix": "trigg",
+        "body": [
+            "this is $1",
+            "the last snippet $2"
+        ],
+        "description": "One last snippet-description.",
+    }
+}

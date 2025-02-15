@@ -11,8 +11,13 @@ local path_to_dir_snippets = "~/.config/nvim/my_snippets"
 -- require("luasnip.loaders.from_vscode").lazy_load({
 --     paths = {path_to_dir_snippets}
 -- })
--- require("luasnip.loaders.from_vscode").load({paths = {path_to_dir_snippets}})
--- require("luasnip.loaders.from_vscode").lazy_load()
+-- для файлов с раширением .json
+require("luasnip.loaders.from_vscode").load({paths = {path_to_dir_snippets}})
+
+-- для python.snippets и go.snippets и подобным файлам с расширением .snippets
+-- require("luasnip.loaders.from_snipmate").lazy_load({
+--     paths = {path_to_dir_snippets}
+-- })
 
 -- vim.api.nvim_set_keymap("i", "<C-n>", "<Plug>luasnip-next-choice", {})
 -- vim.api.nvim_set_keymap("s", "<C-n>", "<Plug>luasnip-next-choice", {})
@@ -39,3 +44,6 @@ vim.keymap.set({"i", "s"}, "<C-e>", function()
         luasnip.change_choice(1)
     end
 end, {silent = true})
+
+-- would search and expand C and C++ snippets for C++ files.
+luasnip.filetype_extend("cpp", {"c", "cpp"})
