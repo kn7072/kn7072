@@ -34,21 +34,13 @@ copyArray:
 
 ```bash
 movslq %edi, %rax
-
 movq %rsi, %rdi
-
 movq %rdx, %rsi
-
 testl %eax, %eax
-
 jle .L1
-
 leaq 0(,%rax,4), %rdx
-
 jmp memcpy
-
 .L1:
-
 ret
 ```
 
