@@ -1,0 +1,24 @@
+https://github.com/tmux/tmux/wiki/Getting-Started?ysclid=m77vk6absn804245657
+https://yalneb.blogspot.com/2016/05/tmux-better-mouse-integration.html
+
+
+To get the current schema, we can run tmux with the show-options subcommand and the [-g]lobal flag:
+tmux show-options -g | grep status-keys
+
+
+bind-key -T copy-mode-vi v send-keys -X begin-selection
+unbind -T copy-mode-vi Enter
+bind-key -T copy-mode-vi Enter send-keys -X copy-pipe-and-cancel "xclip -selection clipboard"
+bind-key -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "xclip -selection primary"
+
+https://www.freecodecamp.org/news/tmux-in-practice-scrollback-buffer-47d5ffa71c93/
+First of all, I don’t like prefix,[ to enter copy mode. I’ve gotten used to ⌘↑ to start scrolling in iTerm, and I’ve added following root keybinding:
+
+# trigger copy mode by
+bind -n C-v copy-mode
+
+Another tmux’s default I would prefer to change is the mouse wheel scroll. It scrolls by 5 rows, which feels like a big jump. Let’s reduce it to scroll by 2 rows:
+
+# When scrolling with mouse wheel, reduce number of scrolled rows per tick to "2" (default is 5)
+
+bind -T copy-mode-vi WheelUpPane select-pane \; send-keys -X -N 2 scroll-upbind -T copy-mode-vi WheelDownPane select-pane \; send-keys -X -N 2 scroll-down

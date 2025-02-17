@@ -9,3 +9,12 @@
 https://vonheikemen.github.io/devlog/tools/neovim-plugins-to-get-started/
 :set packpath?
 :lua vim.tbl_map(print, vim.opt.packpath:get())
+
+xclip -selection clipboard -o
+xclip -selection primary -o
+
+set-option -g set-clipboard off
+bind-key -T copy-mode-vi v send-keys -X begin-selection
+unbind -T copy-mode-vi Enter
+bind-key -T copy-mode-vi Enter send-keys -X copy-pipe-and-cancel "xclip -selection clipboard"
+bind-key -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "xclip -in -selection primary"
