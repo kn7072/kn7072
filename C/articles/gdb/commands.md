@@ -282,13 +282,167 @@ list function_name - посмотреть листинг ее исходного
 
 Symbol table
 Run the command 
+```bash
 info address <symbol name>    to see the address of that symbol.
 info address displayBits
 Symbol "displayBits" is a function at address 0x5555555556f1.
-
-
+```
 Now since you know the address you can reverse lookup the symbol name with the command 
+```bash
 info symbol <address>
 dap> info symbol 0x5555555556f1
 displayBits in section .text of /home/stepan/git_repos/kn7072/C/code/bitwise_operations/bit_tricks_1
+```
+
+Working with Variables
+```bash
+info locals
+val = 0xa
+
+```
+It says the value of the variable val is 0xa. We can also print the values with the command print (or just p).
+
+```bash
+p val
+$1 = 0xa
+p/d val
+$2 = 10
+```
+
+By default, the value will be in hex, but we can specify /d to display in decimal. Here are other formats:
+format	description
+x	hexadecimal
+d	signed decimal
+u	unsigned decimal
+o	octal
+t	binary
+a	address, absolute and relative
+c	character
+f	floating-point
+
+```bash
+set variable val=5
+p/d val
+$3 = 5
+```
+
+10.6 Examining Memory
+
+You can use the command x (for “examine”) to examine memory in any of several formats, independently of your program’s data types.
+
+x/nfu addr
+x addr
+x
+
+    Use the x command to examine memory. 
+
+n, f, and u are all optional parameters that specify how much memory to display and how to format it; addr is an expression giving the address where you want to start displaying memory. If you use defaults for nfu, you need not type the slash ‘/’. Several commands set convenient defaults for addr.
+
+n, the repeat count
+
+    The repeat count is a decimal integer; the default is 1. It specifies how much memory (counting by units u) to display. If a negative number is specified, memory is examined backward from addr.
+f, the display format
+
+    The display format is one of the formats used by print (‘x’, ‘d’, ‘u’, ‘o’, ‘t’, ‘a’, ‘c’, ‘f’, ‘s’), ‘i’ (for machine instructions) and ‘m’ (for displaying memory tags). The default is ‘x’ (hexadecimal) initially. The default changes each time you use either x or print.
+u, the unit size
+
+    The unit size is any of
+
+    b
+
+        Bytes. 
+    h
+
+        Halfwords (two bytes). 
+    w
+
+        Words (four bytes). This is the initial default. 
+    g
+
+        Giant words (eight bytes). 
+
+    Each time you specify a unit size with x, that size becomes the default unit the next time you use x. For the ‘i’ format, the unit size is ignored and is normally not written. For the ‘s’ format, the unit size defaults to ‘b’, unless it is explicitly given. Use x /hs to display 16-bit char strings and x /ws to display 32-bit strings. The next use of x /s will again display 8-bit strings. Note that the results depend on the programming language of the current compilation unit. If the language is C, the ‘s’ modifier will use the UTF-16 encoding while ‘w’ will use UTF-32. The encoding is set by the programming language and cannot be altered.
+addr, starting display address
+
+    addr is the address where you want GDB to begin displaying memory. The expression need not have a pointer value (though it may); it is always interpreted as an integer address of a byte of memory. See Expressions, for more information on expressions. The default for addr is usually just after the last address examined—but several other commands also set the default address: info breakpoints (to the address of the last breakpoint listed), info line (to the starting address of a line), and print (if you use it to display a value from memory). 
+
+For example, ‘x/3uh 0x54320’ is a request to display three halfwords (h) of memory, formatted as unsigned decimal integers (‘u’), starting at address 0x54320. ‘x/4xw $sp’ prints the four words (‘w’) of memory above the stack pointer (here, ‘$sp’; see Registers) in hexadecimal (‘x’).
+
+You can also specify a negative repeat count to examine memory backward from the given address. For example, ‘x/-3uh 0x54320’ prints three halfwords (h) at 0x5431a, 0x5431c, and 0x5431e
+
+All the defaults for the arguments to x are designed to make it easy to continue scanning memory with minimal specifications each time you use x. For example, after you have inspected three machine instructions with ‘x/3i addr’, you can inspect the next seven with just ‘x/7’. If you use RET to repeat the x command, the repeat count n is used again; the other arguments default as for successive uses of x.
+
+When examining machine instructions, the instruction at current program counter is shown with a => marker. For example:
+
+(gdb) x/5i $pc-6
+   0x804837f <main+11>: mov    %esp,%ebp
+   0x8048381 <main+13>: push   %ecx
+   0x8048382 <main+14>: sub    $0x4,%esp
+=> 0x8048385 <main+17>: movl   $0x8048460,(%esp)
+   0x804838c <main+24>: call   0x80482d4 <puts@plt>
+
+If the architecture supports memory tagging, the tags can be displayed by using ‘m’. See Memory Tagging.
+
+
+10.14 Registers
+You can refer to machine register contents, in expressions, as variables with names starting with ‘$’. The names of registers are different for each machine; use info registers to see the names used on your machine.
+
+info registers
+
+    Print the names and values of all registers except floating-point and vector registers (in the selected stack frame).
+info all-registers
+
+    Print the names and values of all registers, including floating-point and vector registers (in the selected stack frame).
+info registers reggroup …
+
+    Print the name and value of the registers in each of the specified reggroups. The reggroup can be any of those returned by maint print reggroups (see Maintenance Commands).
+info registers regname …
+
+    Print the relativized value of each specified register regname. As discussed in detail below, register values are normally relative to the selected stack frame. The regname may be any register name valid on the machine you are using, with or without the initial ‘$’. 
+
+GDB has four “standard” register names that are available (in expressions) on most machines—whenever they do not conflict with an architecture’s canonical mnemonics for registers. 
+
+The register names $pc and $sp are used for the program counter register and the stack pointer. 
+$fp is used for a register that contains a pointer to the current stack frame, and 
+$ps is used for a register that contains the processor status. For example, you could print the program counter in hex with
+
+p/x $pc
+
+or print the instruction to be executed next with
+
+x/i $pc
+
+or add four to the stack pointer12 with
+
+set $sp += 4
+
+Whenever possible, these four standard register names are available on your machine even though the machine has different canonical mnemonics, so long as there is no conflict. The info registers command shows the canonical names. For example, on the SPARC, info registers displays the processor status register as $psr but you can also refer to it as $ps; and on x86-based machines $ps is an alias for the EFLAGS register.
+
+GDB always considers the contents of an ordinary register as an integer when the register is examined in this way. Some machines have special registers which can hold nothing but floating point; these registers are considered to have floating point values. There is no way to refer to the contents of an ordinary register as floating point value (although you can print it as a floating point value with ‘print/f $regname’).
+
+Some registers have distinct “raw” and “virtual” data formats. This means that the data format in which the register contents are saved by the operating system is not the same one that your program normally sees. For example, the registers of the 68881 floating point coprocessor are always saved in “extended” (raw) format, but all C programs expect to work with “double” (virtual) format. In such cases, GDB normally works with the virtual format only (the format that makes sense for your program), but the info registers command prints the data in both formats.
+
+Some machines have special registers whose contents can be interpreted in several different ways. For example, modern x86-based machines have SSE and MMX registers that can hold several values packed together in several different formats. GDB refers to such registers in struct notation:
+
+(gdb) print $xmm1
+$1 = {
+  v4_float = {0, 3.43859137e-038, 1.54142831e-044, 1.821688e-044},
+  v2_double = {9.92129282474342e-303, 2.7585945287983262e-313},
+  v16_int8 = "\000\000\000\000\3706;\001\v\000\000\000\r\000\000",
+  v8_int16 = {0, 0, 14072, 315, 11, 0, 13, 0},
+  v4_int32 = {0, 20657912, 11, 13},
+  v2_int64 = {88725056443645952, 55834574859},
+  uint128 = 0x0000000d0000000b013b36f800000000
+}
+
+To set values of such registers, you need to tell GDB which view of the register you wish to change, as if you were assigning value to a struct member:
+
+ (gdb) set $xmm1.uint128 = 0x000000000000000000000000FFFFFFFF
+
+Normally, register values are relative to the selected stack frame (see Selecting a Frame). This means that you get the value that the register would contain if all stack frames farther in were exited and their saved registers restored. In order to see the true contents of hardware registers, you must select the innermost frame (with ‘frame 0’).
+
+
+    bt - backtrace: show stack functions and args
+    info frame - show stack start/end/args/locals pointers
+    x/10gx $sp - show stack memory
 
