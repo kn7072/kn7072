@@ -262,3 +262,33 @@ It should also be possible to achieve the same effect, but without needing to in
 $ gdb -q -x tree-debugging-commands -ex 'run >my-program-output' -ex quit
 
 
+info functions [-q] [-n] [-t type_regexp] [regexp]
+info fun ^step
+i func SetB
+
+17.5 Calling Program Functions
+print expr
+Evaluate the expression expr and display the resulting value. The expression
+may include calls to functions in the program being debugged.
+
+call expr
+Evaluate the expression expr without displaying void returned values.
+You can use this variant of the print command if you want to execute a function
+from your program that does not return anything (a.k.a. a void function), but
+without cluttering the output with void returned values that gdb will otherwise
+print. If the result is not void, it is printed and saved in the value history.
+
+list function_name - посмотреть листинг ее исходного кода
+
+Symbol table
+Run the command 
+info address <symbol name>    to see the address of that symbol.
+info address displayBits
+Symbol "displayBits" is a function at address 0x5555555556f1.
+
+
+Now since you know the address you can reverse lookup the symbol name with the command 
+info symbol <address>
+dap> info symbol 0x5555555556f1
+displayBits in section .text of /home/stepan/git_repos/kn7072/C/code/bitwise_operations/bit_tricks_1
+
