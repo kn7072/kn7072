@@ -100,7 +100,30 @@ lua print(vim.inspect(vim.lsp.get_clients({name = "lua_ls"})[1].config.settings)
 lua print(vim.inspect(vim.lsp.get_active_clients({name = "lua_ls"})[1].server_capabilities)) - серверные настройки
 
 lua local client = vim.lsp.get_clients({name = "lua_ls"})[1]; print(client.supports_method('textDocument/implementation')) поддерживает ли метод textDocument/implementation
+lua local client = vim.lsp.get_clients({name = "pyright"})[1]; print(client.supports_method('textDocument/callHierarchy'))
 
+Jumps to the definition of the symbol under the cursor. 
+lua vim.lsp.buf.definition()
+
+lua print(vim.inspect(vim.lsp.util.make_formatting_params())) - информация о форматировании вида
+{                                                                                                                                       
+  options = {                                                                                                                                   
+    insertSpaces = true,                                                                                                                        
+    tabSize = 4                                                                                                                                 
+  },                                                                                                                                            
+  textDocument = {                                                                                                                              
+    uri = "file:///home/stepan/git_repos/kn7072/ANKI/TelegramBot/clear_exaples_for_leart.py"                                                    
+  }                                                                                                                                             
+}  
+
+lua vim.lsp.codelens.refresh({ bufnr = 4 })
+lua print(vim.inspect(vim.lsp.codelens.get(4)))
+
+Lists all symbols in the current buffer in the location-list. 
+vim.lsp.buf.document_symbol() список всех переменных в буфере, окрывается окно quifix
+
+Displays hover information about the symbol under the cursor in a floating window. The window will be dismissed on cursor move
+lua vim.lsp.buf.hover()
 
 Get active clients.
 Parameters:
