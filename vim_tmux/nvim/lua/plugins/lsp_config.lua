@@ -15,7 +15,7 @@ vim.api.nvim_create_autocmd("BufWritePre", {
         goimports(1000)
         -- print("buf_write_pre")
     end,
-    pattern = {"*.go", "*.c"}
+    pattern = {"*.go", "*.c", "*.h"}
 })
 
 function goimports(timeoutms)
