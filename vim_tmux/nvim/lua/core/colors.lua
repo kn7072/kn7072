@@ -4,11 +4,6 @@ function SetColor(color)
     color = color or "kanagawa" -- kanagawa onedark
     vim.cmd.colorscheme(color)
 
-    vim.api.nvim_set_hl(0, "Normal", {bg = "#120E27"})
-    vim.api.nvim_set_hl(0, "NormalFloat", {bg = "#0E0A23"})
-    vim.api.nvim_set_hl(0, "ColorColumn", {bg = "none"})
-    vim.api.nvim_set_hl(0, "LineNr", {bg = "none"})
-
     -- https://github.com/nvim-treesitter/nvim-treesitter?tab=readme-ov-file#highlight
     vim.api.nvim_set_hl(0, 'MyComment', {ctermfg = 79, fg = "#767676"})
     vim.api.nvim_set_hl(0, 'MyFolded',
@@ -48,4 +43,4 @@ function SetColor(color)
     -- hi FoldColumn guibg=#f44336 guifg=#9fc5e8 ctermfg=White ctermbg=Blue term=none cterm=none gui=none
 end
 
-SetColor()
+SetColor('gruvbox-material')

@@ -19,6 +19,7 @@ require("lazy").setup({
     }, {"nvim-treesitter/nvim-treesitter"}, {"neovim/nvim-lspconfig"},
     {"williamboman/mason.nvim", build = ":MasonUpdate"},
     {"joshdick/onedark.vim"}, {"rebelot/kanagawa.nvim"},
+    {'sainnhe/gruvbox-material', lazy = false, priority = 1000},
     {"hrsh7th/cmp-nvim-lsp"}, {"hrsh7th/cmp-buffer"}, {"hrsh7th/cmp-path"},
     {"hrsh7th/cmp-cmdline"}, {"hrsh7th/nvim-cmp"},
     {"hrsh7th/cmp-nvim-lsp-signature-help"}, {

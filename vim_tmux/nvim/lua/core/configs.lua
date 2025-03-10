@@ -2,9 +2,6 @@ local opt = vim.opt
 local o = vim.o
 local wo = vim.wo
 
-wo.number = true
-wo.relativenumber = true
-
 vim.g.did_load_filetypes = 1
 vim.g.formatoptions = "qrn1"
 opt.showmode = true

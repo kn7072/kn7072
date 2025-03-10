@@ -65,3 +65,6 @@ kmap("n", "<leader>co", ":copen<CR>")
 kmap("n", "<leader>cx", ":cclose<CR>")
 kmap("n", "<leader>cn", ":cnext<CR>")
 kmap("n", "<leader>cp", ":cprev<CR>")
+
+-- экспериментальная опция для тестирования работы комманд
+-- kmap({"n"}, "mmm", ":Test<CR>") -- CapsLock Capslock
