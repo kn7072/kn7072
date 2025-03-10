@@ -71,7 +71,6 @@ opt.fixendofline = true
 vim.env.PATH = string.format("%s:%s",
                              "/home/stepan/.cache/pypoetry/virtualenvs/kn7072-mq-0OsHe-py3.12/bin",
                              vim.env.PATH)
-
--- vim.o.guicursor = 'n-v-c-sm-i-ci-ve:block,r-cr-o:hor20,a:blinkwait700-blinkoff400-blinkon250'
+-- мигание курсора
 -- :h guicursor
 vim.o.guicursor = 'i-ci-ve:ver25,a:blinkwait2000-blinkoff2000-blinkon1000'

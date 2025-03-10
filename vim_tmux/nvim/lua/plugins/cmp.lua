@@ -1,8 +1,6 @@
 local cmp = require 'cmp'
-local cmp_format = require("lsp-zero").cmp_format()
 
 cmp.setup({
-    formatting = cmp_format,
     snippet = {
         -- REQUIRED - you must specify a snippet engine
         expand = function(args)
@@ -16,19 +14,19 @@ cmp.setup({
         completion = cmp.config.window.bordered(),
         documentation = cmp.config.window.bordered()
     },
-    -- formatting = {
-    --     fields = {'menu', 'abbr', 'kind'},
-    --     format = function(entry, item)
-    --         local menu_icon = {
-    --             nvim_lsp = 'λ',
-    --             luasnip = '⋗',
-    --             buffer = 'Ω',
-    --             path = '🖫'
-    --         }
-    --         item.menu = menu_icon[entry.source.name]
-    --         return item
-    --     end
-    -- },
+    formatting = {
+        fields = {'menu', 'abbr', 'kind'},
+        format = function(entry, item)
+            local menu_icon = {
+                nvim_lsp = 'lsp',
+                luasnip = 'snip',
+                buffer = 'file',
+                path = 'path'
+            }
+            item.menu = menu_icon[entry.source.name]
+            return item
+        end
+    },
     mapping = cmp.mapping.preset.insert({
         ['<C-p>'] = cmp.mapping.select_prev_item(),
         ['<C-n>'] = cmp.mapping.select_next_item(),
@@ -56,22 +54,12 @@ cmp.setup({
         end, {"i", "s"})
     }),
     sources = cmp.config.sources({
-        -- {name = "path"}, {name = "nvim_lsp", keyword_length = 1},
-        -- {name = "buffer", keyword_length = 1},
-        -- {name = "luasnip", keyword_length = 2},
-        -- {name = "nvim_lsp_signature_help"}
-
-        -- {name = "path"}, {name = "luasnip", keyword_length = 2},
-        -- {name = "nvim_lsp", keyword_length = 2},
-        -- {name = "buffer", keyword_length = 3},
-        --
         -- https://github.com/VonHeikemen/lsp-zero.nvim/discussions/361
         {name = "path"}, {name = "nvim_lsp", keyword_length = 3},
-        {name = "buffer", keyword_length = 3},
+        {name = "buffer", keyword_length = 1},
         {name = "luasnip", keyword_length = 2},
         {name = "nvim_lsp_signature_help"}
-        -- {name = 'nvim_lsp'}, {name = 'nvim_lsp_signature_help'},
-        -- {name = 'luasnip'}, {name = 'buffer'}, {name = 'path'}
+
     })
 })
 

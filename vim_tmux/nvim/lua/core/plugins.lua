@@ -47,10 +47,9 @@ require("lazy").setup({
         dependencies = {
             "nvim-tree/nvim-web-devicons", "linrongbin16/lsp-progress.nvim"
         }
-    }, {"VonHeikemen/lsp-zero.nvim", branch = "v4.x"}, {"folke/which-key.nvim"},
-    {"windwp/nvim-autopairs"}, {"terrortylor/nvim-comment"},
-    {"mfussenegger/nvim-dap"}, {"nvim-tree/nvim-web-devicons"},
-    {"ryanoasis/vim-devicons"}, {
+    }, {"folke/which-key.nvim"}, {"windwp/nvim-autopairs"},
+    {"terrortylor/nvim-comment"}, {"mfussenegger/nvim-dap"},
+    {"nvim-tree/nvim-web-devicons"}, {"ryanoasis/vim-devicons"}, {
         "rcarriga/nvim-dap-ui",
         dependencies = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"}
     }, {"leoluz/nvim-dap-go"}, {"jay-babu/mason-nvim-dap.nvim"},
