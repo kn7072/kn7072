@@ -2,6 +2,7 @@ https://unix.stackexchange.com/questions/22854/how-to-switch-x-windows-from-the-
 
 shows all children of the root window. That also includes some stuff your window manager or desktop renders.
 xwininfo -root -children
+xwininfo -tree -root | grep  "celluloid"
 
 wmctrl -l
 wmctrl -lp дополнительно pid
