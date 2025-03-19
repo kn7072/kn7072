@@ -23,7 +23,12 @@ echo $WID
 # Set the size and location of the window
 # See man wmctrl for more info
 # gravity,X,Y,width,height
-wmctrl -i -r $WID -e 0,2000,100,1300,800 # чтобы окно открылось в нужном месте
+gravity=0
+X=2000
+Y=100
+width=1500
+height=900
+position="${gravity},${X},${Y},${width},${height}"
+wmctrl -i -r $WID -e $position # чтобы окно открылось в нужном месте
 sleep 1 # чтобы дождаться пока прогрузится celluloid
-wmctrl -i -r $WID -e 0,2000,100,1300,800 # чтобы размеры окна сработали
-
+wmctrl -i -r $WID -e $position # чтобы размеры окна сработали
