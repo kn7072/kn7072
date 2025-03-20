@@ -1,0 +1,75 @@
+x & 1               Evaluates to 1 if the number is odd else evaluates to 0
+-n                  is ~n + 1
+x & (x-1)           Clears the lowest set bit of x
+x & ~(x-1)          Extracts the lowest set bit of x (all others are cleared)
+x & ~((1 << i+1 ) - 1)  Clears all bits of x from LSB to ith bit
+x & ((1 << i) - 1)      Clears all bits of x from MSB to ith bit
+x >>1               Divides x by 2
+x << 1              Multiplies x by 2
+ch | ''             Upper case English alphabet ch to lower case
+ch & '_'            Lower case English alphabet ch to upper case
+x && !(x & x-1)     Checking if given 32-bit integer is power of 2
+log2(n & -n)+1      Find the last set bit (-n is ~n + 1)
+ch | ''                Upper case English alphabet ch to lower case
+ch & '_'               Lower case English alphabet ch to upper case
+log2number(n & -n)+1     Find the last set bit
+countSetBitsKernighan(n) Count set bits in integer
+log2number(n)            Find log base 2 of 32 bit integer
+x && !(x & x-1)        Checking if given 32-bit integer is power of 2
+n & ~(1 << (k - 1))    Turn Off kth bit in a number
+n |  (1 << (k - 1))    Turn On kth bit in a number
+n &  (1 << (k - 1))    Check if kth bit is set for a number
+n ^  (1 << (k - 1))    Toggle the kth bit
+(((1 << (l - 1)) - 1) ^ ((1 << (r)) - 1)) Set the bits in the range from l to r
+
+toggleBitsFromLToR(n, l, r)  Toggle bits in the given range
+unsetBitsInGivenRange(n, l, r)  Unset bits in the given range (UINT_BITS = 32 для 32битного инта)
+
+/* Function to get no of set bits in binary
+representation of passed binary no. */
+unsigned int countSetBitsKernighan(int n) {
+    unsigned int count = 0;
+    while (n) {
+        n &= (n - 1);
+        count++;
+    }
+    return count;
+}
+
+// Find log base 2 of 32 bit integer
+int log2number(int x) {
+    int res = 0;
+    while (x >>= 1) {
+        res++;
+    }
+    return res;
+}
+
+// function to toggle bits in the given range
+unsigned int toggleBitsFromLToR(unsigned int n, unsigned int l, unsigned int r) {
+    // calculating a number 'num' having 'r'
+    // number of bits and bits in the range l
+    // to r are the only set bits
+    int num = ((1 << r) - 1) ^ ((1 << (l - 1)) - 1);
+
+    // toggle bits in the range l to r in 'n'
+    // and return the number
+    // Besides this, we can calculate num as: num=(1<<r)-l .
+    return (n ^ num);
+}
+
+// Function to unset bits in the given range
+unsigned int unsetBitsInGivenRange(unsigned int n, unsigned int l, unsigned int r) {
+    // 'num' is the highest positive integer number
+    // all the bits of 'num' are set
+    long num = (1ll << (UINT_BITS - 1)) - 1;
+    // displayBits(num);
+
+    // toggle the bits in the range l to r in 'num'
+    num = toggleBitsFromLToR(num, l, r);
+
+    // unset the bits in the range l to r in 'n'
+    // and return the number
+    return (n & num);
+}
+

@@ -406,6 +406,9 @@ The register names $pc and $sp are used for the program counter register and the
 $fp is used for a register that contains a pointer to the current stack frame, and 
 $ps is used for a register that contains the processor status. For example, you could print the program counter in hex with
 
+pc
+Счётчик инструкций или program counter - это специальный регистр процессора, который указывает на следующую инструкцию в программе, которую надо исполнить. Программа состоит из инструкций лежащих в памяти. С помощью этого счётчика компьютер проходит вдоль всего кода попутно извлекая и исполняя эти инструкции
+
 p/x $pc
 
 or print the instruction to be executed next with
