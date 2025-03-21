@@ -1,0 +1,24 @@
+https://habr.com/ru/articles/721112/
+Что будет использоваться:
+    bspwm - Тайловый оконный менеджер.
+    sxhkd - Демон горячих клавиш для X.
+    dmenu - Динамическое меню для X.
+    polybar - Инструмент для создания статус-баров. 
+
+sudo apt install bspwm 
+sudo apt install sxhkd
+sudo apt install dmenu 
+sudo apt install polybar
+
+1 после установки пакетов, в каталоге /usr/share/doc
+появляются соответстующие каталоги на пример /bspwm/examples или
+/sxhkd/examples и для остальных утилит подобные одноименные каталоги.
+
+2 перейти в каталг ~/.config и создать в нем одноименные каталоги(bspwm, 
+sxhkd, dmenu, polybar)
+далее копируем конфиги дефолтные конфиги из /usr/share/doc/... в каталог ~/.config/...
+cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm
+cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd   --для sxhkdrc конфиг берем из bspwm (/usr/share/doc/bspwm/examples)
+cp /usr/share/doc/polybar/examples/config.ini ~/.config/polybar
+
+cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm

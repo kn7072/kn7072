@@ -1,0 +1,37 @@
+bspc node --balance
+bspc node --equalize
+bspc node --to-monitor "VGA-1"
+bspc node -f last
+bspc query -N -d | xargs -I id -n 1 echo id
+
+bspc node --focus last.local
+
+desktop - это работчий стол
+bspc desktop --focus last
+bspc desktop --focus 2
+    bspc desktop --activate '^2'
+
+bspc query --desktops --names
+bspc query --nodes
+bspc query --nodes -n  узнать id текущего окна
+bspc query --monitors --names
+
+bspc monitor --focus HDMI-1
+
+bspc rule -l
+
+bspc node --focus next.floating
+bspc node --focus last.floating
+bspc node --focus biggest
+bspc node --focus 0x0100002B (id взять из bspc query --nodes
+)
+
+bspc wm --get-status
+
+    bspc rule -a librewolf state=floating sticky=on follow=off focus=on rectangle=640x360+2760+1040
+librewolf
+
+https://rzg.one/post/2021/05/09/floating-and-sticky-windows-in-bspwm/
+
+
+bspc node -f floating
