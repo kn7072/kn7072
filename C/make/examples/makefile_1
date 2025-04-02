@@ -1,0 +1,29 @@
+.PHONY: all clear clean
+.SILENT:
+
+dir = ../..
+source_dirs := . $(dir)/include $(dir)/source
+search_wildcards := $(addsuffix /*.c,$(source_dirs))
+
+VPATH := $(source_dirs)
+
+CC = gcc
+CFLAGS = -Wall -Werror -Wextra -std=c11
+LOG_FLAG = -DCLOG
+DEBUG_FLAG = -g -O0
+
+all: main.run clean
+
+%.run: $(notdir $(patsubst %.c,%.o,$(wildcard $(search_wildcards))))
+	$(CC) $(CFLAGS) $(LOG_FLAG) $(DEBUG_FLAG) $^ -o $@ -lm
+
+%.o: %.c
+	gcc -c -MD $(addprefix -I,$(source_dirs)) $<
+
+include $(wildcard *.d)
+
+clear:
+	-rm -rf *.o
+
+clean: clear
+	ls -la
