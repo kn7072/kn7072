@@ -2,7 +2,19 @@ bspc node --balance
 bspc node --equalize
 bspc node --to-monitor "VGA-1"
 bspc node -f last
+bspc query --node 0x0240000E -T информация о ноде
 bspc query -N -d | xargs -I id -n 1 echo id
+Commands
+    The optional selectors are references.
+    -N, --nodes [NODE_SEL]
+        List the IDs of the matching nodes.
+    -D, --desktops [DESKTOP_SEL]
+        List the IDs (or names) of the matching desktops.
+    -M, --monitors [MONITOR_SEL]
+        List the IDs (or names) of the matching monitors.
+    -T, --tree
+        Print a JSON representation of the matching item.
+
 
 bspc node --focus last.local
 
@@ -15,6 +27,7 @@ bspc query --desktops --names
 bspc query --nodes
 bspc query --nodes -n  узнать id текущего окна
 bspc query --monitors --names
+bspc query -d focused -N -n .hidden все скрытые окна 
 
 bspc monitor --focus HDMI-1
 
@@ -23,15 +36,28 @@ bspc rule -l
 bspc node --focus next.floating
 bspc node --focus last.floating
 bspc node --focus biggest
+bspc node --focus smallest
 bspc node --focus 0x0100002B (id взять из bspc query --nodes
-)
+bspc node --move 100 -100  перемещает окно, толко для плавающих окон
+
+bspc node --resize right 300 300 только для плавающих окно
+bspc node --resize bottom_left -100 -100
+Resize the selected window by moving the given handle by dx pixels horizontally and dy pixels vertically.
+bspc node --state fullscreen текущуя нода становтся fullscreen
+bspc node --state floating текущая нода - плавающая
+bspc node --state tiled вернуть в обычные окна
+
+bspc node --flag hidden скрыть окно
+bspc node 0x0200000E --flag hidden скрыть окно с определенным идентификатором - работает в обратную сторону - toggle для всех значений ключа flag (hidden|sticky|private|locked|marked[=on|off)
 
 bspc wm --get-status
 
     bspc rule -a librewolf state=floating sticky=on follow=off focus=on rectangle=640x360+2760+1040
 librewolf
 
+https://wiki.archlinux.org/title/Bspwm
 https://rzg.one/post/2021/05/09/floating-and-sticky-windows-in-bspwm/
+https://my-take-on.tech/2020/07/03/some-tricks-for-sxhkd-and-bspwm/
 
 
 bspc node -f floating

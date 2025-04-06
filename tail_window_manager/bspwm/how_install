@@ -1,4 +1,6 @@
+https://linuxconfig.org/how-to-create-and-use-custom-dmenu-scripts?ysclid=m8lkwn7hkw539192284
 https://habr.com/ru/articles/721112/
+
 Что будет использоваться:
     bspwm - Тайловый оконный менеджер.
     sxhkd - Демон горячих клавиш для X.
@@ -22,3 +24,7 @@ cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd   --для sxhkdrc ко
 cp /usr/share/doc/polybar/examples/config.ini ~/.config/polybar
 
 cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm
+
+polybar
+https://protesilaos.com/codelog/multihead-bspwm-polybar/
+https://rosharp.github.io/posts/multiple-monitor-setup-bspwm-+-polybar/
