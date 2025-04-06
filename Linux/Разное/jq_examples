@@ -1,2 +1,4 @@
+https://jqlang.org/manual/#regular-expressions
+
 находит значение в json по ключу - регулярке "magnit.*"
 cat all_words.json | jq 'to_entries[] | select(.key | test("magnit.*"))'
