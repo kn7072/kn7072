@@ -338,7 +338,195 @@ lua vim.cmd.copen() открывате окно с ошибками
     lua print(vim.inspect(vim.fn.getloclist(vim.api.nvim_get_current_win(), {lnum = 22})))
 
 
+getqflist([{what}])                                                getqflist()
+
+		Returns a List with all the current quickfix errors.  Each
+		list item is a dictionary with these entries:
+			bufnr	 number of buffer that has the file name, use bufname() to get the name
+			module	 module name
+			lnum	 line number in the buffer (first line is 1)
+			end_lnum end of line number if the item is multiline
+			col	column number (first column is 1)
+			end_col	end of column number if the item has range
+			vcol	TRUE: "col" is visual column
+				FALSE: "col" is byte index
+			nr	error number
+			pattern	search pattern used to locate the error
+			text	description of the error
+			type	type of the error, 'E', '1', etc.
+			valid	TRUE: recognized error message
+			user_data
+				custom data associated with the item, can be
+				any type.
+		When there is no error list or it's empty, an empty list is
+		returned. Quickfix list entries with a non-existing buffer
+		number are returned with "bufnr" set to zero (Note: some
+		functions accept buffer number zero for the alternate buffer,
+		you may need to explicitly check for zero).
+		Useful application: Find pattern matches in multiple files and
+		do something with them:
+
+vimgrep /theword/jg *.c
+for d in getqflist()
+   echo bufname(d.bufnr) ':' d.lnum '=' d.text
+endfor
+
+		If the optional {what} dictionary argument is supplied, then
+		returns only the items listed in {what} as a dictionary. The
+		following string items are supported in {what}:
+			changedtick	get the total number of changes made
+					to the list quickfix-changedtick
+			context	get the quickfix-context
+			efm	errorformat to use when parsing "lines". If
+				not present, then the 'errorformat' option
+				value is used.
+			id	get information for the quickfix list with
+				quickfix-ID; zero means the id for the
+				current list or the list specified by "nr"
+			idx	get information for the quickfix entry at this
+				index in the list specified by "id" or "nr".
+				If set to zero, then uses the current entry.
+				See quickfix-index
+			items	quickfix list entries
+			lines	parse a list of lines using 'efm' and return
+				the resulting entries.  Only a List type is
+				accepted.  The current quickfix list is not
+				modified. See quickfix-parse.
+			nr	get information for this quickfix list; zero
+				means the current quickfix list and "$" means
+				the last quickfix list
+			qfbufnr number of the buffer displayed in the quickfix
+				window. Returns 0 if the quickfix buffer is
+				not present. See quickfix-buffer.
+			size	number of entries in the quickfix list
+			title	get the list title quickfix-title
+			winid	get the quickfix window-ID
+			all	all of the above quickfix properties
+		Non-string items in {what} are ignored. To get the value of a
+		particular item, set it to zero.
+		If "nr" is not present then the current quickfix list is used.
+		If both "nr" and a non-zero "id" are specified, then the list
+		specified by "id" is used.
+		To get the number of lists in the quickfix stack, set "nr" to
+		"$" in {what}. The "nr" value in the returned dictionary
+		contains the quickfix stack size.
+		When "lines" is specified, all the other items except "efm"
+		are ignored.  The returned dictionary contains the entry
+		"items" with the list of entries.
+		The returned dictionary contains the following entries:
+			changedtick	total number of changes made to the
+					list quickfix-changedtick
+			context	quickfix list context. See quickfix-context
+				If not present, set to "".
+			id	quickfix list ID quickfix-ID. If not
+				present, set to 0.
+			idx	index of the quickfix entry in the list. If not
+				present, set to 0.
+			items	quickfix list entries. If not present, set to
+				an empty list.
+			nr	quickfix list number. If not present, set to 0
+			qfbufnr	number of the buffer displayed in the quickfix
+				window. If not present, set to 0.
+			size	number of entries in the quickfix list. If not
+				present, set to 0.
+			title	quickfix list title text. If not present, set
+				to "".
+			winid	quickfix window-ID. If not present, set to 0
+		Examples (See also getqflist-examples):
+
+echo getqflist({'all': 1})
+echo getqflist({'nr': 2, 'title': 1})
+echo getqflist({'lines' : ["F1:10:L10"]})
+
+Parameters:
+{what} (table?)
+Return: (any)
+
+lua print(vim.inspect(vim.fn.getqflist({nr = "$"}))) колличество qfixов в стеке
+:echo getqflist({'nr' : '$'}).nr колличество qfixов в стеке
+
+lua vim.print(vim.fn.getqflist({size=1}))  число элементов в qfix
+lua vim.print(vim.fn.getqflist({items=1})) перечислит все элементы
+lua vim.print(vim.fn.getqflist({all=1})) все свойста  текущего qfix
+
+посмотреть разные qfix
+lua print(vim.inspect(vim.fn.getqflist({nr = 2, items=1})))
+lua print(vim.inspect(vim.fn.getqflist({nr = 1, items=1})))
+
+также можно посмотреть полную информацию для разных qfix по id (id обычно равен nr) 
+lua vim.print(vim.fn.getqflist({id=1, all=1}))
+lua vim.print(vim.fn.getqflist({id=3, all=1}))
+
+3. Using more than one list of errors	
+
+quickfix-error-lists
+So far it has been assumed that there is only one list of errors.  Actually
+there can be multiple used lists that are remembered; see 'chistory' and
+'lhistory'.
+When starting a new list, the previous ones are automatically kept.  Two
+commands can be used to access older error lists.  They set one of the
+existing error lists as the current one.
+						:colder :col E380
+:col[der] [count]	Go to older error list.  When [count] is given, do
+			this [count] times.  When already at the oldest error
+			list, an error message is given.
+						:lolder :lol
+:lol[der] [count]	Same as :colder, except use the location list for
+			the current window instead of the quickfix list.
+						:cnewer :cnew E381
+:cnew[er] [count]	Go to newer error list.  When [count] is given, do
+			this [count] times.  When already at the newest error
+			list, an error message is given.
+						:lnewer :lnew
+:lnew[er] [count]	Same as :cnewer, except use the location list for
+			the current window instead of the quickfix list.
+						:chistory :chi
+:[count]chi[story]	Show the list of error lists.  The current list is
+			marked with ">".  The output looks like:
+
+  error list 1 of 3; 43 errors   :make
+> error list 2 of 3; 0 errors    :helpgrep tag
+  error list 3 of 3; 15 errors   :grep ex_help *.c
+
+			When [count] is given, then the count'th quickfix
+			list is made the current list. Example:
+
+" Make the 4th quickfix list current
+:4chistory
+
+						:lhistory :lhi
+:[count]lhi[story]	Show the list of location lists, otherwise like
+			:chistory.
+When adding a new error list, it becomes the current list.
+When ":colder" has been used and ":make" or ":grep" is used to add a new error
+list, one newer list is overwritten.  This is especially useful if you are
+browsing with ":grep" grep.  If you want to keep the more recent error
+lists, use ":cnewer 99" first.
+To get the number of lists in the quickfix and location list stack, you can
+use the getqflist() and getloclist() functions respectively with the list
+number set to the special value '$'. Examples:
+
+echo getqflist({'nr' : '$'}).nr
+echo getloclist(3, {'nr' : '$'}).nr
+
+
+To get the number of the current list in the stack:
+
+echo getqflist({'nr' : 0}).nr
+
+-- создание первого qfix
+local bufnr = api.nvim_get_current_buf()
+local content = {
+    {filename = "/home/stepan/git_repos/kn7072/lua/plugins/commands", lnum = 1, col = 5, text = "1"},
+    {bufnr = bufnr, lnum = 2, col = 10, text = "2"},
+    {bufnr = bufnr, lnum = 3, col = 13, text = "3"}
+}
+fn.setqflist(content, ' ')
+
+
+
 https://neoland.vercel.app/plugin/8508
 https://github.com/kevinhwang91/nvim-bqf?ysclid=m64rwxgkc5817520732
+https://neovim.io/doc/user/quickfix.html#_1.-using-quickfix-commands
 
 
