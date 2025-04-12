@@ -97,3 +97,14 @@ lua local win_for_change = 1009; local win_for_split = 1000; local origin_config
 
 lua local curr_win = vim.api.nvim_get_current_win(); local curr_buf = vim.api.nvim_win_get_buf(curr_win); local buf_name = vim.api.nvim_buf_get_name(curr_buf); print(buf_name); vim.cmd.cfile(buf_name) 
 
+## nvim_win_set_buf
+nvim_win_set_buf({window}, {buffer})
+Sets the current buffer in a window, without side effects
+Attributes:
+not allowed when textlock is active Since: 0.3.2
+Parameters:
+{window} window-ID, or 0 for current window
+{buffer} Buffer id
+
+lua local buf_id = 4; local win_id = 1000; vim.api.nvim_win_set_buf(win_id, buf_id)
+
