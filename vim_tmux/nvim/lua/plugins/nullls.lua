@@ -210,6 +210,9 @@ local lua_format = {
     method = methods.internal.FORMATTING,
     generator = null_ls.generator({
         command = "lua-format",
+        to_stdin = false,
+        to_temp_file = true, -- чтобы использовать временный файл, в которй сохраняетя буфер, далее этот файл будет подан на вход форматеру(так сделано потому что у lua_format нет параметров для принятия данных по stdin - через stdin обычно передается содержимое буфера)
+
         args = {
             "--config",
             vim.fn.stdpath("config") .. "/plugin_configs/lua-format.yaml",
@@ -218,7 +221,7 @@ local lua_format = {
         output = "raw",
         on_output = function(params, done)
             local output = params.output
-            -- print(output)
+            print(output)
             -- local metadata_end = output:match(".*====()") + 1
             -- return done({  text = output } )
             -- print(done(output))
@@ -255,11 +258,15 @@ lua print(vim.inspect(require("null-ls").get_sources()))
 /home/stepan/.local/share/nvim/mason/bin/pylint --from-stdin /home/stepan/git_repos/kn7072/ANKI/TelegramBot/convert_sentence.py -f json
 
 /home/stepan/.local/share/nvim/mason/bin/flake8 --config /home/stepan/.config/nvim/plugin_configs/.flake8 /home/stepan/git_repos/kn7072/ANKI/TelegramBot/create_file_for_anki_new.pylint
+
+/home/stepan/.local/share/nvim/mason/bin/stylua --search-parent-directories --stdin-filepath /home/stepan/temp/lua_test/test_2.lua -
+cat ./test_2.lua | stylua --stdin-filepath /home/stepan/temp/lua_test/test_2.lua -
+
 --]]
 
 null_ls.register(no_really)
 null_ls.register(flake8)
--- null_ls.register(lua_format)
+null_ls.register(lua_format)
 null_ls.register(example_source)
 -- null_ls.register(golang_my)
 -- null_ls.register(p_lint)
