@@ -5,9 +5,8 @@ local methods = require("null-ls.methods")
 local log = require("null-ls.logger")
 local u = require("null-ls.utils")
 
-vim.lsp.buf.format({ timeout_ms = 5000 })
-
 local DIAGNOSTICS_ON_SAVE = methods.internal.DIAGNOSTICS_ON_SAVE
+local FORMATTING = methods.internal.FORMATTING
 
 local flake8 = {
     name = "flake8",
@@ -31,7 +30,6 @@ local flake8 = {
                 print(stderr)
             end
             -- print("success", success)
-
             return success
         end,
         -- use helpers to parse the output from string matchers,
@@ -208,19 +206,62 @@ null_ls.setup({
         end),
     }),
 }
+
+local lua_format = {
+    name = "lua_format",
+    filetypes = { "lua" },
+    method = methods.internal.FORMATTING,
+    generator = null_ls.generator({
+        command = "lua-format",
+        args = {  "--config",
+                vim.fn.stdpath("config") .. "/plugin_configs/lua-format.yaml", "$FILENAME"},
+        output = "raw",
+        on_output =  function(params, done)
+            local output = params.output
+            -- print(output)
+            -- local metadata_end = output:match(".*====()") + 1
+            -- return done({  text = output } )
+            -- print(done(output))
+            return done({ { text = output } })
+        end,
+    })
+}
+
+local example_source = {
+    name = "example_source",
+    filetypes = { ["lua"] = true },
+    methods = { [require("null-ls").methods.FORMATTING] = true },
+    generator = {
+        fn = function()
+            return "I am a source!"
+        end,
+        ignore_stderr = true,
+        to_stdin = true,
+
+        output = "raw",
+        on_output =  function(params, done)
+            local output = params.output
+            -- local metadata_end = output:match(".*====()") + 1
+            return output -- done({ { text = output:sub(metadata_end) } })
+        end,
+    },
+}
 --[[
 eslint-d
 https://stackoverflow.com/questions/78108133/issue-with-none-ls-configuration-error-with-eslint-d
+:NullLsInfo
+lua print(vim.inspect(require("null-ls").get_sources()))
+
+/home/stepan/.local/share/nvim/mason/bin/pylint --from-stdin /home/stepan/git_repos/kn7072/ANKI/TelegramBot/convert_sentence.py -f json
+
+/home/stepan/.local/share/nvim/mason/bin/flake8 --config /home/stepan/.config/nvim/plugin_configs/.flake8 /home/stepan/git_repos/kn7072/ANKI/TelegramBot/create_file_for_anki_new.pylint
 --]]
---:NullLsInfo
--- lua print(vim.inspect(require("null-ls").get_sources()))
---
--- /home/stepan/.local/share/nvim/mason/bin/pylint --from-stdin /home/stepan/git_repos/kn7072/ANKI/TelegramBot/convert_sentence.py -f json
---
--- /home/stepan/.local/share/nvim/mason/bin/flake8 --config /home/stepan/.config/nvim/plugin_configs/.flake8 /home/stepan/git_repos/kn7072/ANKI/TelegramBot/create_file_for_anki_new.py
+
 
 null_ls.register(no_really)
 null_ls.register(flake8)
+null_ls.register(lua_format)
+null_ls.register(example_source)
 -- null_ls.register(golang_my)
 -- null_ls.register(p_lint)
 -- helpers.make_builtin(golang_my)
@@ -229,7 +270,14 @@ null_ls.register(flake8)
 null_ls.setup({
     sources = {
         -- null_ls.builtins.formatting.lua_format,
-        null_ls.builtins.formatting.stylua,
+        -- null_ls.builtins.formatting.lua_format.with({
+        --     -- https://github.com/Koihik/LuaFormatter/blob/master/docs/Style-Config.md
+        --     extra_args = {
+        --         "--config",
+        --         vim.fn.stdpath("config") .. "/plugin_configs/lua-format.yaml"
+        --     }
+        -- }),
+        -- null_ls.builtins.formatting.stylua,
         null_ls.builtins.formatting.clang_format.with({
             extra_args = {
                 -- https://clang.llvm.org/docs/ClangFormatStyleOptions.html
@@ -244,18 +292,11 @@ null_ls.setup({
                                   "/plugin_configs/.isort.cfg")
             }
         }), 
-        -- null_ls.builtins.diagnostics.flake8.with({
-        --     extra_args = {
-        --         "--config",
-        --         vim.fn.stdpath("config") .. "/plugin_configs/.flake8"
-        --     }
-        -- }), 
         -- null_ls.builtins.diagnostics.shellcheck,
-        -- null_ls.builtins.formatting.shfmt.with({
-        --     extra_args = {"-i", "2", "-ci"}, -- , "-ci", "-bn"
-        --     filetypes = {"bash", "sh"}
-        --
-        -- })
+        null_ls.builtins.formatting.shfmt.with({
+            extra_args = {"-i", "2", "-ci"}, 
+            filetypes = {"bash", "sh"}
+        }),
          null_ls.builtins.formatting.prettierd.with({
         filetypes = { "html", "json", "yaml", "markdown" },
     }),
