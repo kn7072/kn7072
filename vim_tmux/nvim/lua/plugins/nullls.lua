@@ -11,15 +11,15 @@ local FORMATTING = methods.internal.FORMATTING
 local flake8 = {
     name = "flake8",
     method = methods.internal.DIAGNOSTICS,
-    filetypes = { "python", "py" },
+    filetypes = {"python", "py"},
     -- null_ls.generator creates an async source
     -- that spawns the command with the given arguments and options
     generator = null_ls.generator({
         command = "flake8",
         args = {
-                 "--config",
-                 vim.fn.stdpath("config") .. "/plugin_configs/.flake8", "$FILENAME"
-             },
+            "--config", vim.fn.stdpath("config") .. "/plugin_configs/.flake8",
+            "$FILENAME"
+        },
         -- choose an output format (raw, json, or line)
         format = "line",
         check_exit_code = function(code, stderr)
@@ -35,18 +35,17 @@ local flake8 = {
         -- use helpers to parse the output from string matchers,
         -- or parse it manually with a function
         on_output = helpers.diagnostics.from_patterns({
-             {
+            {
                 pattern = [[(%g+):(%d+):(%d+): ([%w%d]+) (.*)]],
-                groups = { "filename", "row", "col", "code", "message" }
-,
-            }        }),
-    }),
+                groups = {"filename", "row", "col", "code", "message"}
+            }
+        })
+    })
 }
-
 
 local no_really = {
     method = null_ls.methods.DIAGNOSTICS,
-    filetypes = { "markdown", "text" },
+    filetypes = {"markdown", "text"},
     generator = {
         fn = function(params)
             local diagnostics = {}
@@ -63,25 +62,25 @@ local no_really = {
                         end_col = end_col + 1,
                         source = "no-really",
                         message = "Don't use 'really!'",
-                        severity = vim.diagnostic.severity.WARN,
+                        severity = vim.diagnostic.severity.WARN
                     })
                 end
             end
             return diagnostics
-        end,
-    },
+        end
+    }
 }
 
 local golang_my = {
     name = "golangci_lint_x",
     meta = {
         url = "https://golangci-lint.run/",
-        description = "A Go linter aggregator.",
+        description = "A Go linter aggregator."
     },
---    method = DIAGNOSTICS_ON_SAVE,
-        method = null_ls.methods.DIAGNOSTICS,
+    --    method = DIAGNOSTICS_ON_SAVE,
+    method = null_ls.methods.DIAGNOSTICS,
 
-    filetypes = { "go" },
+    filetypes = {"go"},
     generator_opts = {
         command = "golangci-lint",
         to_stdin = true,
@@ -96,13 +95,18 @@ local golang_my = {
         end),
         args = helpers.cache.by_bufnr(function(params)
             -- params.command respects prefer_local and only_local options
-            local version = vim.system({ params.command, "version" }, { text = true }):wait().stdout
+            local version = vim.system({params.command, "version"},
+                                       {text = true}):wait().stdout
             -- from observation the version can be either v2.x.x or 2.x.x
             -- depending on packaging
-            if version and (version:match("version v2") or version:match("version 2")) then
-                return { "run", "--fix=false", "--show-stats=false", "--output.json.path=stdout" }
+            if version and
+                (version:match("version v2") or version:match("version 2")) then
+                return {
+                    "run", "--fix=false", "--show-stats=false",
+                    "--output.json.path=stdout"
+                }
             end
-            return { "run", "--fix=false", "--out-format=json" }
+            return {"run", "--fix=false", "--out-format=json"}
         end),
         format = "json",
         check_exit_code = function(code)
@@ -123,14 +127,14 @@ local golang_my = {
                         col = d.Pos.Column,
                         message = d.Text,
                         severity = helpers.diagnostics.severities["warning"],
-                        filename = u.pathelpers.join(params.cwd, d.Pos.Filename),
+                        filename = u.pathelpers.join(params.cwd, d.Pos.Filename)
                     })
                 end
             end
             return diags
-        end,
+        end
     },
-    factory = helpers.generator_factory,
+    factory = helpers.generator_factory
 }
 
 local p_lint = {
@@ -161,15 +165,15 @@ null_ls.setup({
   },
 })
 ```
-]],
+]]
     },
     method = methods.internal.DIAGNOSTICS,
-    filetypes = { "python" },
+    filetypes = {"python"},
     -- generator_opts = {
     generator = null_ls.generator({
         command = "pylint",
         to_stdin = true,
-        args = { "--from-stdin", "$FILENAME", "-f", "json" },
+        args = {"--from-stdin", "$FILENAME", "-f", "json"},
         format = "json",
         check_exit_code = function(code)
             return code ~= 32
@@ -183,54 +187,50 @@ null_ls.setup({
                 message = "message",
                 message_id = "message-id",
                 symbol = "symbol",
-                source = "pylint",
+                source = "pylint"
             },
             severities = {
                 convention = helpers.diagnostics.severities["information"],
-                refactor = helpers.diagnostics.severities["information"],
+                refactor = helpers.diagnostics.severities["information"]
             },
-            offsets = {
-                col = 1,
-                end_col = 1,
-            },
+            offsets = {col = 1, end_col = 1}
         }),
         cwd = helpers.cache.by_bufnr(function(params)
-            return u.root_pattern(
-                -- https://pylint.readthedocs.io/en/latest/user_guide/usage/run.html#command-line-options
-                "pylintrc",
-                ".pylintrc",
-                "pyproject.toml",
-                "setup.cfg",
-                "tox.ini"
-            )(params.bufname)
-        end),
-    }),
+            return
+                u.root_pattern( -- https://pylint.readthedocs.io/en/latest/user_guide/usage/run.html#command-line-options
+                "pylintrc", ".pylintrc", "pyproject.toml", "setup.cfg",
+                "tox.ini")(params.bufname)
+        end)
+    })
 }
 
 local lua_format = {
     name = "lua_format",
-    filetypes = { "lua" },
+    filetypes = {"lua"},
     method = methods.internal.FORMATTING,
     generator = null_ls.generator({
         command = "lua-format",
-        args = {  "--config",
-                vim.fn.stdpath("config") .. "/plugin_configs/lua-format.yaml", "$FILENAME"},
+        args = {
+            "--config",
+            vim.fn.stdpath("config") .. "/plugin_configs/lua-format.yaml",
+            "$FILENAME"
+        },
         output = "raw",
-        on_output =  function(params, done)
+        on_output = function(params, done)
             local output = params.output
             -- print(output)
             -- local metadata_end = output:match(".*====()") + 1
             -- return done({  text = output } )
             -- print(done(output))
-            return done({ { text = output } })
-        end,
+            return done({{text = output}})
+        end
     })
 }
 
 local example_source = {
     name = "example_source",
-    filetypes = { ["lua"] = true },
-    methods = { [require("null-ls").methods.FORMATTING] = true },
+    filetypes = {["lua"] = true},
+    methods = {[require("null-ls").methods.FORMATTING] = true},
     generator = {
         fn = function()
             return "I am a source!"
@@ -239,12 +239,12 @@ local example_source = {
         to_stdin = true,
 
         output = "raw",
-        on_output =  function(params, done)
+        on_output = function(params, done)
             local output = params.output
             -- local metadata_end = output:match(".*====()") + 1
             return output -- done({ { text = output:sub(metadata_end) } })
-        end,
-    },
+        end
+    }
 }
 --[[
 eslint-d
@@ -257,10 +257,9 @@ lua print(vim.inspect(require("null-ls").get_sources()))
 /home/stepan/.local/share/nvim/mason/bin/flake8 --config /home/stepan/.config/nvim/plugin_configs/.flake8 /home/stepan/git_repos/kn7072/ANKI/TelegramBot/create_file_for_anki_new.pylint
 --]]
 
-
 null_ls.register(no_really)
 null_ls.register(flake8)
-null_ls.register(lua_format)
+-- null_ls.register(lua_format)
 null_ls.register(example_source)
 -- null_ls.register(golang_my)
 -- null_ls.register(p_lint)
@@ -291,16 +290,21 @@ null_ls.setup({
                 string.format("--settings-path=%s", vim.fn.stdpath("config") ..
                                   "/plugin_configs/.isort.cfg")
             }
-        }), 
-        -- null_ls.builtins.diagnostics.shellcheck,
-        null_ls.builtins.formatting.shfmt.with({
-            extra_args = {"-i", "2", "-ci"}, 
-            filetypes = {"bash", "sh"}
+        }), -- null_ls.builtins.diagnostics.shellcheck,
+         null_ls.builtins.diagnostics.pylint.with({
+extra_args = {
+
+                string.format("--rcfile=%s", vim.fn.stdpath("config") ..
+                                  "/plugin_configs/.pylintrc")}
+
         }),
-         null_ls.builtins.formatting.prettierd.with({
-        filetypes = { "html", "json", "yaml", "markdown" },
-    }),
-           },
+        null_ls.builtins.formatting.shfmt.with({
+            extra_args = {"-i", "2", "-ci"},
+            filetypes = {"bash", "sh"}
+        }), null_ls.builtins.formatting.prettierd.with({
+            filetypes = {"html", "json", "yaml", "markdown"}
+        })
+    },
 
     on_attach = function(client, bufnr)
         if client.supports_method("textDocument/formatting") then
@@ -320,5 +324,3 @@ null_ls.setup({
         end
     end
 })
-
-
