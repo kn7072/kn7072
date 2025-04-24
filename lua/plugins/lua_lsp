@@ -98,7 +98,8 @@ lua print(vim.inspect(vim.lsp.get_clients({name = "null-ls"})))
 
 lua print(vim.inspect(vim.lsp.get_clients({name = "lua_ls"})[1].config.settings))
 lua print(vim.inspect(vim.lsp.get_active_clients({name = "lua_ls"})[1].server_capabilities)) - серверные настройки
-lua print(vim.inspect(vim.lsp.get_active_clients({name = "pyright"})[1].server_capabilities)) 
+lua print(vim.inspect(vim.lsp.get_active_clients({name = "pyright"})[1].server_capabilities))
+lua local file = assert(io.open("lsp_log", "w")); file:write(vim.inspect(vim.lsp.get_clients())) - выгрузить в файл
 
 lua local client = vim.lsp.get_clients({name = "lua_ls"})[1]; print(client.supports_method('textDocument/implementation')) поддерживает ли метод textDocument/implementation
 lua local client = vim.lsp.get_clients({name = "pyright"})[1]; print(client.supports_method('textDocument/callHierarchy'))
