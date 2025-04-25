@@ -5,9 +5,13 @@ local methods = require("null-ls.methods")
 local log = require("null-ls.logger")
 local u = require("null-ls.utils")
 
+local DIAGNOSTICS_ON_SAVE = methods.internal.DIAGNOSTICS_ON_SAVE
+
 local flake8 = {
     name = "flake8",
     method = methods.internal.DIAGNOSTICS,
+    -- method = DIAGNOSTICS_ON_SAVE,
+
     filetypes = {"python", "py"},
     generator = null_ls.generator({
         command = "flake8",
@@ -38,17 +42,16 @@ local flake8 = {
     })
 }
 
-local golang_my = {
+local golangci_lint = {
     name = "golangci_lint_x",
     meta = {
         url = "https://golangci-lint.run/",
         description = "A Go linter aggregator."
     },
-    --    method = DIAGNOSTICS_ON_SAVE,
-    method = null_ls.methods.DIAGNOSTICS,
-
+    method = DIAGNOSTICS_ON_SAVE,
+    -- method = null_ls.methods.DIAGNOSTICS,
     filetypes = {"go"},
-    generator_opts = {
+    generator = null_ls.generator({
         command = "golangci-lint",
         to_stdin = true,
         from_stderr = false,
@@ -60,21 +63,13 @@ local golang_my = {
             -- usually projects contain settings in root so this is sane default.
             return u.root_pattern("go.mod")(params.bufname)
         end),
-        args = helpers.cache.by_bufnr(function(params)
-            -- params.command respects prefer_local and only_local options
-            local version = vim.system({params.command, "version"},
-                                       {text = true}):wait().stdout
-            -- from observation the version can be either v2.x.x or 2.x.x
-            -- depending on packaging
-            if version and
-                (version:match("version v2") or version:match("version 2")) then
-                return {
-                    "run", "--fix=false", "--show-stats=false",
-                    "--output.json.path=stdout"
-                }
-            end
-            return {"run", "--fix=false", "--out-format=json"}
-        end),
+        args = {
+            "run", "--fix=false", "--show-stats=false",
+            "--output.json.path=stdout", string.format("--config=%s", vim.fn
+                                                           .stdpath("config") ..
+                                                           "/plugin_configs/.golangci.yaml")
+
+        },
         format = "json",
         check_exit_code = function(code)
             return code <= 2
@@ -94,14 +89,14 @@ local golang_my = {
                         col = d.Pos.Column,
                         message = d.Text,
                         severity = helpers.diagnostics.severities["warning"],
-                        filename = u.pathelpers.join(params.cwd, d.Pos.Filename)
+                        filename = d.Pos.Filename
+                        -- filename = u.pathelpers.join(params.cwd, d.Pos.Filename)
                     })
                 end
             end
             return diags
         end
-    },
-    factory = helpers.generator_factory
+    })
 }
 
 local p_lint = {
@@ -199,20 +194,22 @@ local lua_format = {
 
 null_ls.register(flake8)
 null_ls.register(lua_format)
--- null_ls.register(golang_my)
+null_ls.register(golangci_lint)
 -- null_ls.register(p_lint)
 --
 null_ls.setup({
     sources = {
         -- null_ls.builtins.formatting.stylua,
         -- null_ls.builtins.diagnostics.shellcheck,
-        null_ls.builtins.diagnostics.golangci_lint.with({
-            extra_args = {
-                string.format("--config=%s", vim.fn.stdpath("config") ..
-                                  "/plugin_configs/.golangci.yaml")
-            }
-
-        }), null_ls.builtins.formatting.clang_format.with({
+        -- null_ls.builtins.diagnostics.golangci_lint,
+        -- null_ls.builtins.diagnostics.golangci_lint.with({
+        --     extra_args = {
+        --         string.format("--config=%s", vim.fn.stdpath("config") ..
+        --                           "/plugin_configs/.golangci.yaml")
+        --     }
+        --
+        -- }),
+        null_ls.builtins.formatting.clang_format.with({
             extra_args = {
                 -- https://clang.llvm.org/docs/ClangFormatStyleOptions.html
                 string.format("--style=file:%s", vim.fn.stdpath("config") ..
