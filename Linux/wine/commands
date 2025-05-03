@@ -1,0 +1,41 @@
+## установка в linux mint(https://linuxmint.com.ru/viewtopic.php?t=1336)
+Для Linux Mint 22+
+выполняем ряд команд
+sudo dpkg --add-architecture i386 
+sudo mkdir -pm755 /etc/apt/keyrings
+sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/noble/winehq-noble.sources
+sudo apt update
+
+Все готово к установке, теперь осталось выбрать между стабильной веткой, последней разрабатываемой версией , или версии включающей в себя набор экспериментальных - вызвав команду apt policy с разными ветками, чтобы выбрать подходящую для установки
+apt policy winehq-stable
+winehq-stable:
+  Кандидат:    5.0.1~focal
+
+apt policy winehq-devel 
+winehq-devel:
+  Кандидат:    5.11~focal
+
+apt policy winehq-staging
+winehq-staging:
+  Кандидат:  5.11~focal
+
+Для установки любой из них можно воспользоваться следующими командами (БЕЗ sudo):
+apt install --install-recommends winehq-stable
+или
+apt install --install-recommends winehq-devel
+или
+apt install --install-recommends winehq-staging
+
+## удаление wine(версии wine, на пример winehq-staging)
+apt remove winehq-staging
+
+## команды wine
+wine start /unix "$HOME/Downloads/alpari5setup.exe"
+
+### удаление приложений
+wine uninstaller     https://www.dedoimedo.com/computers/wine-uninstall-apps.html
+
+K6?$cpUykA>N1#xc;_
+16384146
+
