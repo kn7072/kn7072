@@ -36,6 +36,21 @@ wine start /unix "$HOME/Downloads/alpari5setup.exe"
 ### удаление приложений
 wine uninstaller     https://www.dedoimedo.com/computers/wine-uninstall-apps.html
 
+###How to Remove Wine:
+1. To remove the Wine package, simply open terminal and run commands:
+sudo apt remove wine winehq-stable winehq-staging winehq-devel
+
+There will be local configuration files and app data left under .wine and .local/share/applications. They are hidden folders, press Ctrl+H in file manager to toggle display and remove them as you want.
+
+2. To remove the Wine repository, open terminal (Ctrl+Alt+T) and run command:
+sudo rm /etc/apt/sources.list.d/winehq-*.sources
+
+And remove the repository key via command:
+sudo rm /etc/apt/keyrings/winehq-archive.key
+
+Finally apply changes by running 
+sudo apt update    to refresh system package cache.
+
 K6?$cpUykA>N1#xc;_
 16384146
 
