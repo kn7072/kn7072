@@ -47,20 +47,19 @@ Also when using the `c` flag, Vim will jump to the first match it finds starting
 
 **Search range**:
 
-|   |   |
-|---|---|
-|`:s/foo/bar/g`|Change each 'foo' to 'bar' in the current line.|
-|`:%s/foo/bar/g`|Change each 'foo' to 'bar' in all the lines.|
-|`:5,12s/foo/bar/g`|Change each 'foo' to 'bar' for all lines from line 5 to line 12 (inclusive).|
-|`:'a,'bs/foo/bar/g`|Change each 'foo' to 'bar' for all lines from mark a to mark b inclusive (see **Note** below).|
-|`:'<,'>s/foo/bar/g`|When compiled with `+visual`, change each 'foo' to 'bar' for all lines within a visual selection. Vim automatically appends the visual selection range ('<,'>) for any ex command when you select an area and enter `:`. Also, see **Note** below.|
-|`:.,$s/foo/bar/g`|Change each 'foo' to 'bar' for all lines from the current line (.) to the last line ($) inclusive.|
-|`:.,+2s/foo/bar/g`|Change each 'foo' to 'bar' for the current line (.) and the two next lines (+2).|
-|`:g/^baz/s/foo/bar/g`|Change each 'foo' to 'bar' in each line starting with 'baz'.|
+|                       |                                                                                                                                                                                                                                                    |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `:s/foo/bar/g`        | Change each 'foo' to 'bar' in the current line.                                                                                                                                                                                                    |
+| `:%s/foo/bar/g`       | Change each 'foo' to 'bar' in all the lines.                                                                                                                                                                                                       |
+| `:5,12s/foo/bar/g`    | Change each 'foo' to 'bar' for all lines from line 5 to line 12 (inclusive).                                                                                                                                                                       |
+| `:'a,'bs/foo/bar/g`   | Change each 'foo' to 'bar' for all lines from mark a to mark b inclusive (see **Note** below).                                                                                                                                                     |
+| `:'<,'>s/foo/bar/g`   | When compiled with `+visual`, change each 'foo' to 'bar' for all lines within a visual selection. Vim automatically appends the visual selection range ('<,'>) for any ex command when you select an area and enter `:`. Also, see **Note** below. |
+| `:.,$s/foo/bar/g`     | Change each 'foo' to 'bar' for all lines from the current line (.) to the last line ($) inclusive.                                                                                                                                                 |
+| `:.,+2s/foo/bar/g`    | Change each 'foo' to 'bar' for the current line (.) and the two next lines (+2).                                                                                                                                                                   |
+| `:g/^baz/s/foo/bar/g` | Change each 'foo' to 'bar' in each line starting with 'baz'.                                                                                                                                                                                       |
 
 **Note**: As of Vim 7.3, substitutions applied to a range defined by marks or a visual selection (which uses a special type of marks '< and '>) are not bounded by the column position of the marks by default. Instead, Vim applies the substitution to the entire line on which each mark appears unless the `\%V` atom is used in the pattern like: `:'<,'>s/\%Vfoo/bar/g`.
 
-  
 **When searching**:
 
 `.`, `*`, `\`, `[`, `^`, and `$` are metacharacters.
@@ -273,8 +272,8 @@ Useful when we want to strip some blocks from a patch, without patch having to c
 2. In normal mode, type `cgn` (change the next search hit) then immediately type the replacement. Press Esc to finish.
 3. From normal mode, search for the next occurrence that you want to replace (`n`) and press `.` to repeat the last change.
 
-
 ## replace pattern and add new line
+
 First, set your Vi(m) session to allow pattern matching with special characters (i.e.: newline). It's probably worth putting this line in your .vimrc or .exrc file:
 
 :set magic
@@ -287,4 +286,4 @@ To get the ^M character, type Ctrl + V and hit Enter.
 
 :'<,'>s#xxxx#^M/g
 :'<,'>s/[`|-]//g | '<,'>s/<br>/^M/g
-
+'<,'>s/\v([\[\]])//g удалить скобки [,]
