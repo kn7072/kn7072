@@ -1,4 +1,5 @@
 [](https://idroot.us/fix-segmentation-fault-error-linux/)
+
 # How To Fix Segmentation Fault Error on Linux
 
 If you’ve spent any time working with Linux systems, you’ve likely encountered the dreaded “Segmentation fault” message. This cryptic error appears suddenly, often without any helpful context, leaving users frustrated and confused. But don’t worry—segmentation faults, while intimidating, can be systematically diagnosed and fixed with the right approach and tools.
@@ -7,15 +8,15 @@ In this comprehensive guide, we’ll explore what segmentation faults are, why t
 
 Table of Contents
 
-- [What is a Segmentation Fault?](https://idroot.us/fix-segmentation-fault-error-linux/#What_is_a_Segmentation_Fault "What is a Segmentation Fault?")
-- [Common Causes of Segmentation Faults](https://idroot.us/fix-segmentation-fault-error-linux/#Common_Causes_of_Segmentation_Faults "Common Causes of Segmentation Faults")
-- [Detecting Segmentation Faults](https://idroot.us/fix-segmentation-fault-error-linux/#Detecting_Segmentation_Faults "Detecting Segmentation Faults")
-- [Enabling and Using Core Dumps](https://idroot.us/fix-segmentation-fault-error-linux/#Enabling_and_Using_Core_Dumps "Enabling and Using Core Dumps")
-- [Using GDB for Segmentation Fault Debugging](https://idroot.us/fix-segmentation-fault-error-linux/#Using_GDB_for_Segmentation_Fault_Debugging "Using GDB for Segmentation Fault Debugging")
-- [Advanced Debugging Techniques](https://idroot.us/fix-segmentation-fault-error-linux/#Advanced_Debugging_Techniques "Advanced Debugging Techniques")
-- [Step-by-Step Troubleshooting Guide](https://idroot.us/fix-segmentation-fault-error-linux/#Step-by-Step_Troubleshooting_Guide "Step-by-Step Troubleshooting Guide")
-- [Fixing Common Segmentation Fault Scenarios](https://idroot.us/fix-segmentation-fault-error-linux/#Fixing_Common_Segmentation_Fault_Scenarios "Fixing Common Segmentation Fault Scenarios")
-- [Hardware-Related Segmentation Faults](https://idroot.us/fix-segmentation-fault-error-linux/#Hardware-Related_Segmentation_Faults "Hardware-Related Segmentation Faults")
+- What is a Segmentation Fault?
+- Common Causes of Segmentation Faults
+- Detecting Segmentation Faults
+- Enabling and Using Core Dumps
+- Using GDB for Segmentation Fault Debugging
+- Advanced Debugging Techniques
+- Step-by-Step Troubleshooting Guide
+- Fixing Common Segmentation Fault Scenarios
+- Hardware-Related Segmentation Faults
 
 ## What is a Segmentation Fault?
 
@@ -110,7 +111,7 @@ When a program crashes with core dumps enabled, it creates a file named `core` o
 To analyze a core dump, use GDB with both the executable and the core file:
 
 ```
-$ gdb ./your_program core
+$ gdb ./your_program path_to_core
 ```
 
 This will load the program state at the time of the crash, allowing you to examine variables, memory, and the call stack.
@@ -128,68 +129,67 @@ Remember that core dumps can consume significant disk space, so monitor your sto
 The [GNU Debugger](https://www.gnu.org/software/gdb/gdb.html) (GDB) is one of the most powerful tools for tracking down segmentation faults. Here’s a step-by-step guide to using GDB effectively:
 
 1. **Compile your program with debugging symbols**:
-    
-    ```
-    $ gcc -g -o program program.c
-    ```
-    
-    The `-g` flag includes debugging information that GDB needs to show source code lines and variable names.
-    
+
+   ```
+   $ gcc -g -o program program.c
+   ```
+
+   The `-g` flag includes debugging information that GDB needs to show source code lines and variable names.
+
 2. **Run your program in GDB**:
-    
-    ```
-    $ gdb ./program
-    ```
-    
+
+   ```
+   $ gdb ./program
+   ```
+
 3. **Start execution within GDB**:
-    
-    ```
-    (gdb) run [program arguments]
-    ```
-    
+
+   ```
+   (gdb) run [program arguments]
+   ```
+
 4. **When the segmentation fault occurs, GDB will stop and show where it happened**:
-    
-    ```
-    Program received signal SIGSEGV, Segmentation fault.
-    0x00400559 in main () at program.c:15
-    15      *myptr = 4;
-    ```
-    
+
+   ```
+   Program received signal SIGSEGV, Segmentation fault.
+   0x00400559 in main () at program.c:15
+   15      *myptr = 4;
+   ```
+
 5. **Use the backtrace command to see the call stack**:
-    
-    ```
-    (gdb) bt
-    #0  0x00400559 in main () at program.c:15
-    ```
-    
-    This shows you the sequence of function calls that led to the crash.
-    
+
+   ```
+   (gdb) bt
+   #0  0x00400559 in main () at program.c:15
+   ```
+
+   This shows you the sequence of function calls that led to the crash.
+
 6. **Examine variables near the crash point**:
-    
-    ```
-    (gdb) print myptr
-    $1 = (int *) 0x0
-    ```
-    
-    Here we can see the problem—`myptr` is a null pointer.
-    
+
+   ```
+   (gdb) print myptr
+   $1 = (int *) 0x0
+   ```
+
+   Here we can see the problem—`myptr` is a null pointer.
+
 7. **Inspect memory at specific addresses**:
-    
-    ```
-    (gdb) x/10x 0x7fffffffe6cd
-    ```
-    
-    This examines 10 hexadecimal values starting from the given address.
-    
+
+   ```
+   (gdb) x/10x 0x7fffffffe6cd
+   ```
+
+   This examines 10 hexadecimal values starting from the given address.
+
 8. **Set breakpoints to stop execution before the crash**:
-    
-    ```
-    (gdb) break program.c:14
-    (gdb) run
-    ```
-    
-    This allows you to inspect the program’s state just before the segmentation fault occurs.
-    
+
+   ```
+   (gdb) break program.c:14
+   (gdb) run
+   ```
+
+   This allows you to inspect the program’s state just before the segmentation fault occurs.
 
 Using GDB with a core dump follows a similar process, but instead of running the program, you load the core dump:
 
@@ -252,45 +252,45 @@ These advanced tools complement GDB and provide different perspectives on memory
 When facing a segmentation fault, follow this systematic approach to diagnose and fix the issue:
 
 1. **Reproduce the error consistently**:  
-    Before diving into debugging, ensure you can reliably trigger the segmentation fault. Note the exact steps, inputs, and environment variables that cause the crash.
+   Before diving into debugging, ensure you can reliably trigger the segmentation fault. Note the exact steps, inputs, and environment variables that cause the crash.
 2. **Check system logs**:  
-    Run `dmesg | grep -i segfault` to see if the kernel logged details about the crash.
+   Run `dmesg | grep -i segfault` to see if the kernel logged details about the crash.
 3. **Enable core dumps** if they’re not already enabled:
-    
-    ```
-    $ ulimit -c unlimited
-    ```
-    
-    Then run your program to generate a core dump when it crashes.
-    
+
+   ```
+   $ ulimit -c unlimited
+   ```
+
+   Then run your program to generate a core dump when it crashes.
+
 4. **Examine the core dump with GDB**:
-    
-    ```
-    $ gdb ./program core
-    (gdb) bt
-    ```
-    
-    The backtrace will show the function call stack at the time of the crash.
-    
+
+   ```
+   $ gdb ./program core
+   (gdb) bt
+   ```
+
+   The backtrace will show the function call stack at the time of the crash.
+
 5. **Isolate the problem**:  
-    If it’s a large program, try to create a minimal reproducible example that still exhibits the segmentation fault.
+   If it’s a large program, try to create a minimal reproducible example that still exhibits the segmentation fault.
 6. **Check for common causes**:
-    - Look for null pointer dereferences
-    - Examine array indexes for out-of-bounds access
-    - Verify all memory allocations succeed before using the memory
-    - Check for use-after-free scenarios
-    - Look for stack overflows in recursive functions
+   - Look for null pointer dereferences
+   - Examine array indexes for out-of-bounds access
+   - Verify all memory allocations succeed before using the memory
+   - Check for use-after-free scenarios
+   - Look for stack overflows in recursive functions
 7. **Use memory debugging tools**:  
-    Run your program with Valgrind to detect memory errors:
-    
-    ```
-    $ valgrind --tool=memcheck --leak-check=full ./program
-    ```
-    
+   Run your program with Valgrind to detect memory errors:
+
+   ```
+   $ valgrind --tool=memcheck --leak-check=full ./program
+   ```
+
 8. **Add logging or debug output**:  
-    Strategically insert print statements to trace program execution before the crash point.
+   Strategically insert print statements to trace program execution before the crash point.
 9. **Check for library compatibility issues**:  
-    Verify that all linked libraries are compatible with your program and properly installed.
+   Verify that all linked libraries are compatible with your program and properly installed.
 10. **Test with different compiler flags**:  
     Recompile with options like `-Wall -Wextra` to enable additional warnings that might highlight the problem.
 11. **Document your findings**:  

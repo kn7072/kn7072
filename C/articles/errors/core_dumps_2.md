@@ -1,4 +1,5 @@
 [](https://opensource.com/article/20/8/linux-dump)
+
 # Creating and debugging Linux dump files
 
 Knowing how to deal with dump files will help you find and fix hard-to-reproduce bugs in an application.
@@ -14,6 +15,7 @@ git clone https://github.com/hANSIc99/core_dump_example.git
 ```
 
 ## How signals relate to dumps
+
 Signals are a kind of interprocess communication between the operating system and the user applications. Linux uses the signals defined in the [POSIX standard](https://en.wikipedia.org/wiki/POSIX). On your system, you can find the standard signals defined in `/usr/include/bits/signum-generic.h`. There is also an informative [man signal](https://man7.org/linux/man-pages/man7/signal.7.html) page if you want more on using signals in your application. Put simply, Linux uses signals to trigger further activities based on whether they were expected or unexpected.
 
 When you quit a running application, the application will usually receive the `SIGTERM` signal. Because this type of exit signal is expected, this action will not create a memory dump.
@@ -86,6 +88,24 @@ coredumpctl list
 ```
 
 shows all available dump files saved on your system.
+
+Let’s unpack that compressed file to an handy location and inspect it a bit :
+
+```bash
+zstd --uncompress /var/lib/systemd/coredump/core.badprogram.1000.9d49cca5818645e4baacc1ddddd7a9e8.4269.1712308425000000.zst -o badprogram.core
+/var/lib/systemd/coredump/core.badprogram.1000.9d49cca5818645e4baacc1ddddd7a9e8.4269.1712308425000000.zst: 475136 bytes
+
+ls -l
+-rwxr-xr-x 1 andrea andrea  21152 apr  5 11:08 badprogram*
+-rw-r--r-- 1 andrea andrea    240 apr  5 09:30 badprogram.c
+-rw-r----- 1 andrea andrea 475136 apr  5 11:13 badprogram.core
+```
+
+Now we run again the faulty program, only this time we do with the help of Gnu Debugger and passing also the coredump file:
+
+```bash
+gdb ./badprogram -c badprogram.core
+```
 
 With `coredumpctl dump`, you can retrieve information from the last dump file saved:
 
