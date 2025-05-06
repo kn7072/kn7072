@@ -262,6 +262,18 @@ if(i % 15 == 0) {
 };
 
 -----------------------------------------------------------------------------
+set efm=%E%m\ (%f:%l)
+cfile valgring_log
+
+==35057== 
+==35057== 7 errors in context 6 of 11:
+==35057== Conditional jump or move depends on uninitialised value(s)
+==35057==    at 0x4A1E0CB: __printf_buffer (vfprintf-process-arg.c:58)
+==35057==    by 0x4A43CC5: __vsnprintf_internal (vsnprintf.c:96)
+==35057==    by 0x4A1A405: snprintf (snprintf.c:31)
+==35057==    by 0x10982B: printWinProperty (list_properties.c:118)
+==35057==    by 0x109C4B: main (list_properties.c:204)
+-----------------------------------------------------------------------------
 :echo printf("Have %d errors", len(getqflist()))
 lua for i, qf_i in ipairs(vim.fn.getqflist()) do print(qf_i.text) end
 
