@@ -1,13 +1,12 @@
 // C program to demonstrate snprintf()
 #include <stdio.h>
+#include <stdlib.h>
 
 // clang-format off
 
 /*
-gcc-14 -g3 -O0 -Wall -Werror -Wextra example_1.c -o example_1 -lX11
-
-gcc-14 -g3 -O0 -Wall -Werror -Wextra  -fsanitize=address -fsanitize=undefined -fno-sanitize-recover=all -fsanitize=float-divide-by-zero -fsanitize=float-cast-overflow -fno-sanitize=null -fno-sanitize=alignment example_1.c -o example_1 -lX11
-
+gcc-14 -g3 -O0 -Wall -Werror -Wextra example_1.c -o example_1 
+gcc-14 -g3 -O0 -Wall -Werror -Wextra  -fsanitize=address -fsanitize=undefined -fno-sanitize-recover=all -fsanitize=float-divide-by-zero -fsanitize=float-cast-overflow -fno-sanitize=null -fno-sanitize=alignment example_1.c -o example_1 
 
 valgrind --leak-check=full --leak-resolution=med ./example_1
 valgrind -s --leak-check=full --track-origins=yes ./example_1
@@ -28,6 +27,9 @@ void print_str(char* text, int len) {
 
 int main() {
   char buffer[50];
+  char* p = malloc(sizeof(*p) * 16);
+  // p[20] = 'x';  //'x';
+  // free(p);
 
   // join two or more strings
   char* str1 = "QUICK";
