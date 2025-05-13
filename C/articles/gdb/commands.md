@@ -366,10 +366,31 @@ a address, absolute and relative
 c character
 f floating-point
 
+// https://sourceware.org/gdb/current/onlinedocs/gdb.html/Assignment.html#Assignment
+
 ```bash
-set variable val=5
+set variable val=5   or set var val=5
 p/d val
 $3 = 5
+```
+
+You can also use the 'set' command to change memory locations.
+
+```bash
+(gdb) l
+6       {
+7           int i;
+8           struct file *f, *ftmp;
+9
+(gdb) set variable i = 10
+(gdb) p i
+$1 = 10
+
+(gdb) p &i
+$2 = (int *) 0xbfbb0000
+(gdb) set *((int *) 0xbfbb0000) = 20
+(gdb) p i
+$3 = 20
 ```
 
 10.6 Examining Memory

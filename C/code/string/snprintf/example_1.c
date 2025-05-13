@@ -6,7 +6,7 @@
 
 /*
 gcc-14 -g3 -O0 -Wall -Werror -Wextra example_1.c -o example_1 
-gcc-14 -g3 -O0 -Wall -Werror -Wextra  -fsanitize=address -fsanitize=undefined -fno-sanitize-recover=all -fsanitize=float-divide-by-zero -fsanitize=float-cast-overflow -fno-sanitize=null -fno-sanitize=alignment example_1.c -o example_1 
+gcc-14 -g3 -O0 -Wall -Werror -Wextra -fsanitize=leak -fsanitize=address -fsanitize=undefined -fno-sanitize-recover=all -fsanitize=float-divide-by-zero -fsanitize=float-cast-overflow -fno-sanitize=null -fno-sanitize=alignment example_1.c -o example_1 
 
 valgrind --leak-check=full --leak-resolution=med ./example_1
 valgrind -s --leak-check=full --track-origins=yes ./example_1
