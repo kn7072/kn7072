@@ -22,7 +22,7 @@ printf "x is %d\n",x
 
 ## Saving dprintf commands for a later session
 
-(gdb) save breakpoints my-dprintf-breakpoints
+(gdb) save breakpoints my-dprintf-breakpoints (создаст файл my-dprintf-breakpoints в текущем каталоге)
 
 ## loading breakbpoints
 
@@ -51,7 +51,7 @@ List the checkpoints that have been saved in the current debugging session. For 
     Source line, or label
 
 (gdb) restart checkpoint-id
-Restore the program state that was saved as checkpoint number checkpoint-id. All program variables, registers, stack frames etc. will be returned to the values that they had when the checkpoint was saved. In essence, gdb will “wind back the clock” to the point in time when the checkpoint was saved.
+Restore the program state that was saved as checkpoint number checkpoint-id. All program variables, registers, stack frames etc. will be returned to the values that they had when the checkpoint was saved. In essence, gdb will "wind back the clock" to the point in time when the checkpoint was saved.
 
     Note that breakpoints, GDB variables, command history etc. are not affected by restoring a checkpoint. In general, a checkpoint only restores things that reside in the program being debugged, not in the debugger.
 
@@ -195,7 +195,7 @@ Make the list command display count source lines (unless the list argument expli
 --silent
 -q
 
-    “Quiet”. Do not print the introductory and copyright messages. These messages are also suppressed in batch mode.
+    "Quiet". Do not print the introductory and copyright messages. These messages are also suppressed in batch mode.
 
 --batch
 
@@ -395,7 +395,7 @@ $3 = 20
 
 10.6 Examining Memory
 
-You can use the command x (for “examine”) to examine memory in any of several formats, independently of your program’s data types.
+You can use the command x (for "examine") to examine memory in any of several formats, independently of your program’s data types.
 
 x/nfu addr
 x addr
@@ -472,7 +472,7 @@ info registers regname …
 
     Print the relativized value of each specified register regname. As discussed in detail below, register values are normally relative to the selected stack frame. The regname may be any register name valid on the machine you are using, with or without the initial ‘$’.
 
-GDB has four “standard” register names that are available (in expressions) on most machines—whenever they do not conflict with an architecture’s canonical mnemonics for registers.
+GDB has four "standard" register names that are available (in expressions) on most machines—whenever they do not conflict with an architecture’s canonical mnemonics for registers.
 
 The register names $pc and $sp are used for the program counter register and the stack pointer. 
 $fp is used for a register that contains a pointer to the current stack frame, and
@@ -495,7 +495,7 @@ Whenever possible, these four standard register names are available on your mach
 
 GDB always considers the contents of an ordinary register as an integer when the register is examined in this way. Some machines have special registers which can hold nothing but floating point; these registers are considered to have floating point values. There is no way to refer to the contents of an ordinary register as floating point value (although you can print it as a floating point value with ‘print/f $regname’).
 
-Some registers have distinct “raw” and “virtual” data formats. This means that the data format in which the register contents are saved by the operating system is not the same one that your program normally sees. For example, the registers of the 68881 floating point coprocessor are always saved in “extended” (raw) format, but all C programs expect to work with “double” (virtual) format. In such cases, GDB normally works with the virtual format only (the format that makes sense for your program), but the info registers command prints the data in both formats.
+Some registers have distinct "raw" and "virtual" data formats. This means that the data format in which the register contents are saved by the operating system is not the same one that your program normally sees. For example, the registers of the 68881 floating point coprocessor are always saved in "extended" (raw) format, but all C programs expect to work with "double" (virtual) format. In such cases, GDB normally works with the virtual format only (the format that makes sense for your program), but the info registers command prints the data in both formats.
 
 Some machines have special registers whose contents can be interpreted in several different ways. For example, modern x86-based machines have SSE and MMX registers that can hold several values packed together in several different formats. GDB refers to such registers in struct notation:
 
