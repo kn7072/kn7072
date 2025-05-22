@@ -1,0 +1,105 @@
+pdfjam  --no-landscape --paper a4paper "7_output_page.pdf" --outfile "7_new.pdf"
+pdfjam  --landscape --paper a4paper "7_output_page.pdf" --outfile "7_new.pdf"
+
+pdfjam  --landscape --paper a4paper "8_output_page.pdf" --outfile "8_new.pdf"
+pdfjam  --no-landscape --paper a4paper "8_output_page.pdf" --outfile "8_new.pdf"
+pdfjam  --no-landscape --paper a4paper --scale 1.2 "8_output_page.pdf" --outfile "8_new.pdf" обрезает содержимое из-за --scale 1.2
+pdfjam  --no-landscape --paper a4paper --frame true --autoscale true "8_output_page.pdf" --outfile "8_new.pdf"
+
+pdfjam  --scale 1.2 --no-landscape --paper a4paper "8_m_output" --outfile "8_new.pdf"
+
+
+###################################################################################
+скачать (https://github.com/coherentgraphics/cpdf-binaries?ysclid=maza0w9o6y809636618) cpdf (в примере ниже находися по адресу /home/stepan/pdf_tools/cpdf) и создать символическую ссылку
+sudo ln -sfiv /home/stepan/pdf_tools/cpdf /usr/bin/cpdf 
+
+cpdf -shift "26pt 18mm" -scale-to-fit a4portrait -shift "50 0" /home/stepan/temp/book_for_print/golang/test/8_output_page.pdf even -o /home/stepan/temp/book_for_print/golang/test/8_5portrait_output_page.pdf
+
+в редакторе ocular снять галку view -> trim view -> trim margins (снять галку)
+cpdf -frombox /MediaBox -tobox /CropBox ./temp3/01_box_page.pdf -o ./temp3/031_box_page.pdf
+cpdf -mediabox "0pt 0pt 595pt 842pt" ./temp-margins-0/71_output_page.pdf -o ./a2/71_media_page.pdf
+cpdf -page-info ./a2/71_media_page.pdf
+cpdf -scale-contents 1.2 ./a2/71_media_page.pdf -o ./a2/71_scale_page.pdf
+cpdf -shift-boxes "-150 -150" ./a2/71_scale_page.pdf -o ./a2/71_shift_scale_page.pdf
+cpdf -page-info ./a2/71_shift_scale_page.pdf
+
+
+cpdf -mediabox "0pt 0pt 550pt 700pt"  ./temp2/071_page.pdf -o ./temp3/071_2_box_page.pdf         сначала изменяю mediabox
+cpdf -cropbox "0pt 0pt 550pt 700pt"  ./temp3/071_2_box_page.pdf -o ./temp3/071_3_box_page.pdf    затем привожу cropbox к тому же размеру
+
+Let me dump a page from a .pdf to test.
+Code:
+gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=2 -dLastPage=2 -sOutputFile=MyTest1.pdf Input.pdf
+gs -o MyTest2.pdf -sDEVICE=pdfwrite -c "[/CropBox [24 72 559 794]" -c " /PAGES pdfmark" -f MyTest1.pdf
+
+
+cpdf -shift "20mm 20mm"  /temp2/071_page.pdf -o /temp3/071_shift_page.pdf
+cpdf -scale-to-fit a4portrait ./temp3/071_shift_page.pdf -o ./temp3/071_a4_shift_page.pdf растягивает на a4portrait
+
+pdfinfo ./temp2/072_page.pdf | grep 'Page size' | awk '{printf "Page size: %.2f x %.2f mm\n", $3*25.4/72, $5*25.4/72}'
+pdfinfo ./temp2/072_page.pdf | grep 'Page size' | awk '{printf "%.2f %.2f", $3, $5}'
+x=$(pdfinfo ./temp2/072_page.pdf | grep 'Page size' | awk '{printf "%.2f %.2f", $3, $5}')
+
+
+cpdf -page-info ./temp2/072_page.pdf  перечислит все границы
+pdfinfo -box ./temp2/072_page.pdf     перечислит все границы
+cpdf -show-boxes ./temp3/071_2_box_page.pdf  -o ./temp3/071_2_show_box_page.pdf
+
+cpdf -stretch "210mm 297mm" /home/stepan/temp/book_for_print/golang/temp2/08_page.pdf  -o /home/stepan/temp/book_for_print/golang/test/8_8portrait_output_page.pdf
+./cpdf -stretch "190mm 240mm" /home/stepan/temp/book_for_print/golang/test/8_output_page.pdf  -o /home/stepan/temp/book_for_print/golang/test/8_9portrait_output_page.pdf
+
+cpdf -remove-cropbox  /home/stepan/temp/book_for_print/golang/temp2/08_page.pdf  -o /home/stepan/temp/book_for_print/golang/test/8_10_portrait_output_page.pdf
+
+left, bottom, right and top
+pdfjam --keepinfo --trim "-50mm -15mm -10mm -15mm" --fitpaper true /home/stepan/temp/book_for_print/golang/test/8_output_page.pdf --outfile /home/stepan/temp/book_for_print/golang/test/8_11_portrait_output_page.pdf
+pdfjam --keepinfo --trim "-50mm -15mm -5mm -15mm" --fitpaper true /home/stepan/temp/book_for_print/golang/test/8_portrait_output_page.pdf --outfile /home/stepan/temp/book_for_print/golang/test/8_11_portrait_output_page.pdf
+
+###################################################################################
+gs -o ./temp3/41_gs.pdf -sDEVICE=pdfwrite -sPAPERSIZE=a4 -dPDFFitPage -f ./temp-margins-0/41_output_page.pdf
+gs -o ./temp3/8_gs.pdf  -sDEVICE=pdfwrite -sPAPERSIZE=a4 -dPDFFitPage -c "<</Orientation 1>> setpagedevice " -f ./temp-margins-0/8_output_page.pdf
+gs -o ./temp3/8_2_gs.pdf -dFIXEDMEDIA -sDEVICE=pdfwrite -dDEVICEHEIGHTPOINTS=841 -dDEVICEWIDTHPOINTS=595 -dFitPage -dAutoRotatePages=/None -f ./temp-margins-0/8_output_page.pdf
+
+https://superuser.com/questions/435410/where-are-ghostscript-options-switches-documented
+https://ghostscript.com/docs/9.54.0/VectorDevices.htm
+-dPDFSETTINGS=configuration
+    Presets the "distiller parameters" to one of four predefined settings:
+
+        /screen selects low-resolution output similar to the Acrobat Distiller (up to version X) "Screen Optimized" setting.
+        /ebook selects medium-resolution output similar to the Acrobat Distiller (up to version X) "eBook" setting.
+        /printer selects output similar to the Acrobat Distiller "Print Optimized" (up to version X) setting.
+        /prepress selects output similar to Acrobat Distiller "Prepress Optimized" (up to version X) setting.
+        /default selects output intended to be useful across a wide variety of uses, possibly at the expense of a larger output file. 
+
+    NB Adobe has recently changed the names of the presets it uses in Adobe Acrobat Distiller, in order to avoid confusion with earlier versions we do not plan to change the names of the PDFSETTINGS parameters. The precise value for each control is listed in the table above.
+    Please be aware that the /prepress setting does not indicate the highest quality conversion. Using any of these presets will involve altering the input, and as such may result in a PDF of poorer quality (compared to the input) than simply using the defaults. The 'best' quality (where best means closest to the original input) is obtained by not setting this parameter at all (or by using /default). 
+    The PDFSETTINGS presets should only be used if you are sure you understand that the output will be altered in a variety of ways from the input. It is usually better to adjust the controls individually (see the table below) if you have a genuine requirement to produce, for example, a PDF file where the images are reduced in resolution. 
+
+(72 points == 1 inch == 25.4 mm)
+9.36 inch ≈= 674 points and 12.67 inch ≈= 912 points
+
+gs -o ./temp3/071_offset_page.pdf -sDEVICE=pdfwrite -sPAPERSIZE=a4  -dPDFSETTINGS=/prepress -c "<</PageOffset [-72 0]>> setpagedevice" -f ./temp2/071_page.pdf
+gs -o ./temp3/071_offset_page.pdf -sDEVICE=pdfwrite -sPAPERSIZE=a4  -dPDFSETTINGS=/default -c "<</PageOffset [-72 0]>> setpagedevice" -f ./temp2/071_page.pdf
+
+gs -o ./temp3/071_offset_page.pdf -sDEVICE=pdfwrite -dPDFFitPage -g5950x9606 -f ./temp2_backup/71_page.pdf
+gs -o ./temp3/071_offset_page.pdf -dPDFFitPage -sDEVICE=pdfwrite -dDEVICEWIDTHPOINTS=595 -dDEVICEHEIGHTPOINTS=841  -f ./temp2_backup/71_page.pdf
+If we look at your original file the page has a MediaBox of: /MediaBox[0.0 0.0 495.12 756.0], so that's (as you say) 495.12 x 756 points. You insist the output be 396x612.
+So the x scale factor is 396/495.12 = 0.7998, the y scale factor is 612/756 = 0.809. So in order to scale isomorphically we need to use the scale factor of 0.7998. 756 * 0.7998 = 604.6488. Rounding errors probably explain the slight differences.
+
+
+To get a list of all these options supported by -dPDFSETTINGS=..., you can do this:
+gs -dNODISPLAY  -c ".distillersettings {exch ==only ( ) print ==} forall quit"
+
+You can execute the following Ghostscript command to query for the detailed settings of the -dPDFSETTINGS=/screen parameter:
+gs -q -dNODISPLAY -c ".distillersettings /screen get {exch ==only ( ) print ===} forall quit" | sort
+This one queries Ghostscript's internal .distillersettings dictionary, which holds a key named /screen, whose value again is another dictionary... 
+
+The same you can do for all the (other) parameters -dPDFSETTINGS=... can take:
+    /prepress
+    /printer
+    /default
+    /screen
+    /ebook
+    /PSL2Printer
+
+###################################################################################
+
