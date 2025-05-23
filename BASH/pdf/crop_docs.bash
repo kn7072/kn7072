@@ -2,6 +2,7 @@
 dir_with_files='./temp2/'  # тут лежат файлы оригинальных страниц
 dir_with_margin_0='./temp-margins-0' # сюда попадают страницы без отступов
 
+mkdir -p "${dir_with_margin_0}"
 
 for FILE in `find $dir_with_files -type f -name '*page.pdf' | sort -V`; do
     echo "${FILE}"

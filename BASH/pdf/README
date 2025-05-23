@@ -1,5 +1,8 @@
 https://askubuntu.com/questions/221962/how-can-i-extract-a-page-range-a-part-of-a-pdf
 
+pdfinfo test.pdf | grep 'Page size' | awk '{printf "Page size: %.2f x %.2f mm\n", $3*25.4/72, $5*25.4/72}'
+
+
 
 From the docs:
 
@@ -43,3 +46,13 @@ https://askubuntu.ru/questions/216874/instrument-komandnoj-stroki-dlja-obrezki-f
 чтобы можно было обрезать страницы утилитой pdfcrop необходимо установить
 sudo apt-get install texlive-extra-utils
 
+pdfcrop path/to/input_file.pdf --bbox 'left top right bottom' path/to/output_file.pdfcrop
+pdfcrop temp2/08_page.pdf --bbox '50 -20 -10 -20' temp3/08_page_crope.pdf
+
+подобная ошибка говорит о невозможности обрезки
+!!! Warning: Empty Bounding Box is returned by Ghostscript!
+!!!   Page 1: 50 20 10 20
+!!! Either there is a problem with the page or with Ghostscript.
+!!! Recovery is tried by embedding the page in its original size
+
+pdfcrop temp2/08_page.pdf temp3/08_page_crope.pdf оставляет только текст, все отступы убраны
