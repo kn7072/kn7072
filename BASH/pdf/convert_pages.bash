@@ -16,7 +16,7 @@ margin_top_pt=$(bc <<<"scale=2;${const_mm_to_pt}*${margin_top_mm}")
 
 dir_mediabox_a4='./mediabox_a4' # тут нахорятся страницы с изменунными границами mediabox под формат A4
 dir_scale_files='./scale_files'
-dir_with_margin_0='./temp-margins-0-for-test/' # сюда попадают страницы без отступов
+dir_with_margin_0='./temp-margins-0/' # сюда попадают страницы без отступов
 dir_scale_min_shift='./scale_min_shift'
 dir_ready_files='./ready_files'
 
@@ -35,7 +35,7 @@ for FILE in $(find $dir_with_margin_0 -type f -name '*page.pdf' | sort -V); do
   number_zeros=${arrIN[0]//$dir_with_margin_0/}
   number=$((10#$number_zeros))
 
-  name_file="${number}_output_${arrIN[1]}.pdf"
+  name_file="${number}_${arrIN[1]}"
   path_file_media="${dir_mediabox_a4}/${name_file}"
   echo "${path_file_media}"
 

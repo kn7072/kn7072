@@ -27,6 +27,15 @@ cpdf -page-info ./a2/71_shift_scale_page.pdf
 cpdf -mediabox "0pt 0pt 550pt 700pt"  ./temp2/071_page.pdf -o ./temp3/071_2_box_page.pdf         сначала изменяю mediabox
 cpdf -cropbox "0pt 0pt 550pt 700pt"  ./temp3/071_2_box_page.pdf -o ./temp3/071_3_box_page.pdf    затем привожу cropbox к тому же размеру
 
+Merge
+It is a good idea to place all decrypted files and those files alone into a separate folder. This is because then we could use this command:
+
+cpdf -merge -idir desired-folder -o out.pdf
+
+Else, the command will be more tedious to write:
+
+cpdf -merge in1.pdf in2.pdf in3.pdf -o out.pdf  Of course, add as many PDFs as you like.
+
 Let me dump a page from a .pdf to test.
 Code:
 gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=2 -dLastPage=2 -sOutputFile=MyTest1.pdf Input.pdf
