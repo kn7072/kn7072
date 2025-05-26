@@ -29,7 +29,7 @@ local lspconfig = require('lspconfig')
 --
 -- })
 
-vim.lsp.enable('ruff')
+-- vim.lsp.enable('ruff')
 
 lspconfig.pyright.setup {
     capabilities = capabilities,

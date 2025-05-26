@@ -183,8 +183,8 @@ local ruff = {
         command = "ruff",
         to_stdin = true,
         args = {
-            "check", "--config", vim.fn.stdpath("config") .. "/ruff.toml",
-            "$FILENAME"
+            "check", "--config",
+            vim.fn.stdpath("config") .. "/plugin_configs/ruff.toml", "$FILENAME"
         },
         format = "raw",
         check_exit_code = function(code, stderr)
