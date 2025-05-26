@@ -9,20 +9,21 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 -- vim.api.nvim_create_autocmd("BufEnter",
 --                             {callback = function() print("hello nvim") end})
 
-vim.api.nvim_create_autocmd("BufWritePre", {
-    callback = function()
-        vim.lsp.buf.format()
-        goimports(1000)
-        -- print("buf_write_pre")
-    end,
-    pattern = {"*.go", "*.c", "*.h"}
-})
+-- vim.api.nvim_create_autocmd("BufWritePre", {
+--     callback = function()
+--         vim.lsp.buf.format()
+--         goimports(1000)
+--         -- print("buf_write_pre")
+--     end,
+--     pattern = {"*.c", "*.h"} -- "*.go",
+-- })
 
 function goimports(timeoutms)
+    local client_id = 2
     local context = {source = {organizeImports = true}}
     vim.validate {context = {context, "t", true}}
 
-    local params = vim.lsp.util.make_range_params()
+    local params = vim.lsp.util.make_range_params(0, "utf-16")
     params.context = context
 
     -- See the implementation of the textDocument/codeAction callback
@@ -32,7 +33,7 @@ function goimports(timeoutms)
     if not result or next(result) == nil then
         return
     end
-    local actions = result[1].result
+    local actions = result[client_id].result
     if not actions then
         return
     end
@@ -77,7 +78,6 @@ nvim_lsp.gopls.setup {
             },
 
             analyses = {
-                fieldalignment = true,
                 nilness = true,
                 unusedparams = true,
                 unusedwrite = true,

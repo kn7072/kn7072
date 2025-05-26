@@ -6,6 +6,31 @@ capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 -- Sntup language servers.
 -- https://github.com/microsoft/pyright/blob/main/docs/settings.md
 local lspconfig = require('lspconfig')
+
+-- vim.lsp.config('ruff', {
+--     cmd = {
+--         "ruff", "server", "-v"
+--         --  "--config",
+--         -- "/home/stepan/.config/nvim/plugin_configs/ruff.toml", 
+--         -- "/home/stepan/temp/test_python/xruff.toml"
+--     },
+--     filetypes = {"python"},
+--     capabilities = capabilities,
+--     on_attach = lsp_common.on_attach,
+--
+--     init_options = {
+--         settings = {format = {preview = true}},
+--         configuration = "~/.config/nvim/plugin_configs/ruff.toml",
+--         command = {
+--             "--config", "/home/stepan/.config/nvim/plugin_configs/ruff.toml"
+--
+--         }
+--     }
+--
+-- })
+
+vim.lsp.enable('ruff')
+
 lspconfig.pyright.setup {
     capabilities = capabilities,
     on_attach = lsp_common.on_attach,
@@ -31,6 +56,11 @@ lspconfig.pyright.setup {
 lspconfig.ts_ls.setup {}
 lspconfig.prismals.setup {}
 lspconfig.cssls.setup {capabilities = capabilities}
+
+lspconfig.bashls.setup {
+    capabilities = capabilities,
+    on_attach = lsp_common.on_attach
+}
 
 -- https://clangd.llvm.org/installation.html
 lspconfig.clangd.setup {
