@@ -11,7 +11,13 @@ function SetColor(color)
     -- Highlight @foo.bar as "Identifier" only in Lua files
     vim.api.nvim_set_hl(0, "Comment", {link = "MyComment"})
     vim.api.nvim_set_hl(0, "Folded", {link = "MyFolded"})
-    -- Folded         xxx ctermfg=59 guifg=#5c6370
+    vim.api.nvim_set_hl(0, "MatchParen", {link = "MyFolded"})
+
+    -- Стили для строки под курсором
+    vim.api.nvim_set_hl(0, "CursorLineNR",
+                        {ctermbg = 70, fg = "#f7a934", bold = true})
+    -- Стиль для нумерации строк
+    vim.api.nvim_set_hl(0, "LineNR", {ctermbg = 70, fg = "#b2b3af"}) -- Folded         xxx ctermfg=59 guifg=#5c6370
 
     -- CurSearch      xxx ctermfg=0 ctermbg=11 guifg=NvimDarkGrey1 guibg=NvimLightYellow
     vim.api.nvim_set_hl(0, "CurSearch", {
@@ -41,6 +47,9 @@ function SetColor(color)
 
     -- вертикальная полоса для фолдов
     -- hi FoldColumn guibg=#f44336 guifg=#9fc5e8 ctermfg=White ctermbg=Blue term=none cterm=none gui=none
+
+    vim.api.nvim_set_hl(0, "MarkSignHL", {ctermbg = 70, fg = "#aef9f5"})
+
 end
 
 SetColor('gruvbox-material')

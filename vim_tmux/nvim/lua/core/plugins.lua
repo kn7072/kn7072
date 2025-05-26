@@ -1,4 +1,6 @@
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+local path_to_my_plugin = vim.fn.stdpath('config') .. "/my_plugins/"
+
 if not vim.loop.fs_stat(lazypath) then
     vim.fn.system({
         "git", "clone", "--filter=blob:none",
@@ -26,9 +28,12 @@ require("lazy").setup({
         "nvim-telescope/telescope.nvim",
         tag = "0.1.8",
         -- branch = '0.1.x'
-        dependencies = {"nvim-lua/plenary.nvim"}
-    }, {"jose-elias-alvarez/null-ls.nvim"},
-    -- {"nvimtools/none-ls.nvim"} замена "jose-elias-alvarez/null-ls.nvim" НО не работает если просто заменить,
+        dependencies = {
+            {"nvim-lua/plenary.nvim"},
+            {"nvim-telescope/telescope-live-grep-args.nvim"}
+        }
+    }, -- {"jose-elias-alvarez/null-ls.nvim"},
+    {"nvimtools/none-ls.nvim"}, -- замена "jose-elias-alvarez/null-ls.nvim" НО не работает если просто заменить,
     {"akinsho/toggleterm.nvim", version = "*", config = true},
     {"akinsho/bufferline.nvim", dependencies = {"nvim-tree/nvim-web-devicons"}},
     {
@@ -57,8 +62,10 @@ require("lazy").setup({
     -- {'slembcke/debugger.lua'},
     {"jbyuki/one-small-step-for-vimkind"}, {"rcarriga/nvim-notify"},
     {"yorickpeterse/nvim-window", config = true},
-    {dir = "~/git_repos/kn7072/lua/plugins/switch_buffer"},
-    {dir = "~/git_repos/kn7072/lua/plugins/surround"},
+    -- {dir = "~/git_repos/kn7072/lua/plugins/switch_buffer"},
+    -- {dir = "~/git_repos/kn7072/lua/plugins/surround"},
+    {dir = path_to_my_plugin .. "switch_buffer"},
+    {dir = path_to_my_plugin .. "surround"},
     {dir = "~/git_repos/kn7072/lua/plugins/study"}, {
         "L3MON4D3/LuaSnip",
         build = "make install_jsregexp",
@@ -79,6 +86,27 @@ require("lazy").setup({
         priority = 1, -- High priority is needed if you will use `autoremap()`
         config = function()
             require("langmapper").setup({ --[[ your config ]] })
+        end
+    }, {"chentoast/marks.nvim", event = "VeryLazy", opts = {}}, {
+        'iamcco/markdown-preview.nvim',
+        cmd = {
+            'MarkdownPreviewToggle', 'MarkdownPreview', 'MarkdownPreviewStop'
+        },
+        ft = {'markdown'},
+        build = function()
+            vim.fn['mkdp#util#install']()
+        end
+    }, {
+        "lervag/vimtex",
+        lazy = false, -- we don't want to lazy load VimTeX
+        -- tag = "v2.15", -- uncomment to pin to a specific release
+        init = function()
+            -- VimTeX configuration goes here, e.g.
+            -- vim.g.vimtex_view_method = "okular"
+            vim.g.vimtex_view_general_viewer = 'okular'
+            vim.g.vimtex_view_general_options =
+                "--unique file:@pdf#src:@line@tex"
+
         end
     }
 })

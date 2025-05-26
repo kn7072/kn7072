@@ -13,6 +13,13 @@ opt.virtualedit = "block"
 opt.undofile = true
 opt.shell = "/bin/fish"
 
+-- Search
+-- Выполняет поиск без учета регистра.
+opt.ignorecase = true
+-- При вводе текста в нижнем регистре поиск будет вестись без учёта регистра.
+-- При вводе текста с одной и более букв в верхнем регистре поиск будет чувствителен к регистру.
+opt.smartcase = true
+
 -- Mouse
 opt.mouse = "a"
 opt.mousefocus = true
@@ -50,9 +57,6 @@ opt.fillchars = {
     foldclose = "▸"
 }
 
-vim.cmd([[highlight clear LineNr]])
-vim.cmd([[highlight clear SignColumn]])
-
 -- переносить длинные строки
 opt.wrap = true
 
@@ -74,3 +78,4 @@ vim.env.PATH = string.format("%s:%s",
 -- мигание курсора
 -- :h guicursor
 vim.o.guicursor = 'i-ci-ve:ver25,a:blinkwait2000-blinkoff2000-blinkon1000'
+vim.opt.cursorline = true

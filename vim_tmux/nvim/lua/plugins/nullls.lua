@@ -165,6 +165,67 @@ null_ls.setup({
     })
 }
 
+local function generic_issue(message)
+    return {
+        message = message,
+        row = 1,
+        source = "ruff",
+        severity = helpers.diagnostics.severities.error
+    }
+end
+
+local ruff = {
+    name = "ruff",
+    meta = {url = "https://docs.astral.sh/ruff/tutorial/"},
+    method = methods.internal.DIAGNOSTICS,
+    filetypes = {"python"},
+    generator = null_ls.generator({
+        command = "ruff",
+        to_stdin = true,
+        args = {
+            "check", "--config", vim.fn.stdpath("config") .. "/ruff.toml",
+            "$FILENAME"
+        },
+        format = "raw",
+        check_exit_code = function(code, stderr)
+            local success = code <= 1
+            if not success then
+                print(stderr)
+            end
+            return success
+        end,
+
+        on_output = function(params, done)
+            local output = params.output
+            if not output then
+                return done()
+            end
+
+            local diagnostics = {}
+            local severity = {error = 1, warning = 2, info = 3, hint = 4}
+
+            for _, line in ipairs(vim.split(output, "\n")) do
+                if line ~= "" then
+                    local filename, row, col, code, message = line:match(
+                                                                  "(%g+):(%d+):(%d+): ([%w%d]+) (.*)")
+                    if message ~= nil then
+                        table.insert(diagnostics, {
+                            filename = filename,
+                            row = row,
+                            col = col,
+                            code = code,
+                            source = "ruff",
+                            message = message,
+                            severity = severity.warning
+                        })
+                    end
+                end
+            end
+            done(diagnostics)
+        end
+    })
+}
+
 local lua_format = {
     name = "lua_format",
     filetypes = {"lua"},
@@ -192,6 +253,7 @@ local lua_format = {
 :NullLsLog
 --]]
 
+null_ls.register(ruff)
 null_ls.register(flake8)
 null_ls.register(lua_format)
 null_ls.register(golangci_lint)
@@ -209,20 +271,30 @@ null_ls.setup({
         --     }
         --
         -- }),
+        --        null_ls.builtins.diagnostics.ruff({
+        --     extra_args = {
+        --         -- https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+        --         string.format("--config %s", vim.fn.stdpath("config") ..
+        --                           "/plugin_configs/ruff.toml")
+        --     }
+        -- }),
+
         null_ls.builtins.formatting.clang_format.with({
             extra_args = {
                 -- https://clang.llvm.org/docs/ClangFormatStyleOptions.html
                 string.format("--style=file:%s", vim.fn.stdpath("config") ..
                                   "/plugin_configs/.clang-format")
             }
-        }), null_ls.builtins.formatting.black.with({filetypes = {"python"}}),
-        null_ls.builtins.formatting.isort.with({
-            filetypes = {"python"},
-            extra_args = {
-                string.format("--settings-path=%s", vim.fn.stdpath("config") ..
-                                  "/plugin_configs/.isort.cfg")
-            }
-        }), null_ls.builtins.diagnostics.pylint.with({
+        }),
+        -- null_ls.builtins.formatting.black.with({filetypes = {"python"}}),
+        -- null_ls.builtins.formatting.isort.with({
+        --     filetypes = {"python"},
+        --     extra_args = {
+        --         string.format("--settings-path=%s", vim.fn.stdpath("config") ..
+        --                           "/plugin_configs/.isort.cfg")
+        --     }
+        -- }), 
+        null_ls.builtins.diagnostics.pylint.with({
             extra_args = {
 
                 string.format("--rcfile=%s", vim.fn.stdpath("config") ..
