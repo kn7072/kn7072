@@ -35,7 +35,7 @@ indent-width = 4
 
 [lint]
 select = ["ALL"]
-ignore = ["S608", "COM812", "D203", "D211", "D212"] # "E501"
+ignore = ["S608", "COM812", "D203", "D211", "D212"] 
 # Allow fix for all enabled rules (when `--fix`) is provided.
 fixable = ["ALL"]
 unfixable = []
