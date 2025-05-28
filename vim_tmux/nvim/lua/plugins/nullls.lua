@@ -165,15 +165,6 @@ null_ls.setup({
     })
 }
 
-local function generic_issue(message)
-    return {
-        message = message,
-        row = 1,
-        source = "ruff",
-        severity = helpers.diagnostics.severities.error
-    }
-end
-
 local ruff = {
     name = "ruff",
     meta = {url = "https://docs.astral.sh/ruff/tutorial/"},
@@ -181,7 +172,8 @@ local ruff = {
     filetypes = {"python"},
     generator = null_ls.generator({
         command = "ruff",
-        to_stdin = true,
+        to_stdin = false,
+        to_temp_file = true,
         args = {
             "check", "--config",
             vim.fn.stdpath("config") .. "/plugin_configs/ruff.toml", "$FILENAME"
@@ -226,6 +218,67 @@ local ruff = {
     })
 }
 
+local ruff_format = {
+    name = "ruff",
+    meta = {url = "https://docs.astral.sh/ruff/formatter/#sorting-imports"},
+    method = methods.internal.FORMATTING,
+    filetypes = {"python"},
+    generator = null_ls.generator({
+        command = "ruff",
+        to_stdin = true,
+        args = {
+            "format", "--config",
+            vim.fn.stdpath("config") .. "/plugin_configs/ruff.toml",
+            "--stdin-filename", "$FILENAME", "--quiet", "-"
+        },
+        format = "raw",
+        check_exit_code = function(code, stderr)
+            local success = code <= 1
+            if not success then
+                print("ruff_format_exit_code", stderr)
+            end
+            return success
+        end,
+
+        on_output = function(params, done)
+            local output = params.output
+            -- print("on_output_error", params.err)
+            -- print(output)
+            return done({{text = output}})
+        end
+    })
+}
+
+local ruff_format_sort_imports = {
+    name = "ruff",
+    meta = {url = "https://docs.astral.sh/ruff/formatter/#sorting-imports"},
+    method = methods.internal.FORMATTING,
+    filetypes = {"python"},
+    generator = null_ls.generator({
+        command = "ruff",
+        to_stdin = true,
+        args = {
+            "check", "--select", "I", "--fix",
+            "--stdin-filename", "$FILENAME", "--quiet", "-"
+        },
+        format = "raw",
+        check_exit_code = function(code, stderr)
+            local success = code <= 1
+            if not success then
+                print("ruff_format_exit_code", stderr)
+            end
+            return success
+        end,
+
+        on_output = function(params, done)
+            local output = params.output
+            -- print("on_output_sort_imports_error", params.err)
+            -- print(output)
+            return done({{text = output}})
+        end
+    })
+}
+
 local lua_format = {
     name = "lua_format",
     filetypes = {"lua"},
@@ -254,6 +307,8 @@ local lua_format = {
 --]]
 
 null_ls.register(ruff)
+null_ls.register(ruff_format)
+null_ls.register(ruff_format_sort_imports)
 null_ls.register(flake8)
 null_ls.register(lua_format)
 null_ls.register(golangci_lint)

@@ -1,0 +1,28 @@
+ruff check --config=./ruff.toml test.py
+
+ruff format --help
+ruff format --check --config=./ruff.toml test.py
+
+/home/stepan/.local/share/nvim/mason/bin/ruff format --check ./test.py
+/home/stepan/.local/share/nvim/mason/bin/ruff check --select I --fix ./test.py 
+/home/stepan/.local/share/nvim/mason/bin/ruff check --select ALL ./test.py
+/home/stepan/.local/share/nvim/mason/bin/ruff check --config=./ruff.toml test.py
+
+/home/stepan/.local/share/nvim/mason/bin/ruff check --config=/home/stepan/.config/nvim/plugin_configs/ruff.toml test.py
+
+/home/stepan/.local/share/nvim/mason/bin/ruff format --help
+
+/home/stepan/.local/share/nvim/mason/bin/ruff format --diff ./test.py
+/home/stepan/.local/share/nvim/mason/bin/ruff format --config /home/stepan/.config/nvim/plugin_configs/ruff.toml ./test.py
+
+
+echo "x=" | ruff format --stdin-filename foo.py
+-- error: Failed to parse foo.py:1:3: Expected an expression
+
+
+/home/stepan/.local/share/nvim/mason/bin/ruff check --select I --fix --stdin-filename stdin - < ./test.py
+
+cat ./test.py | /home/stepan/.local/share/nvim/mason/bin/ruff check ALL --stdin-filename ./test.py -
+cat ./test.py | /home/stepan/.local/share/nvim/mason/bin/ruff check --select I --fix --stdin-filename ./test.py --quiet -
+
+
