@@ -1,0 +1,4 @@
+[[mgr.append_keymap]]
+on  = [ "g", "b" ]
+run = "plugin test -- foo --bar --baz=qux"
+desc = "run test plugin"
