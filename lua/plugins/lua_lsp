@@ -159,7 +159,7 @@ lua print(vim.lsp.status())
 Consumes the latest progress messages from all clients and formats them as a string. Empty if there are no clients or if no new messages 
 
 подготовить параметры для дальнейшего использования
-vim.lsp.util.make_range_params()
+lua print(vim.inspect(vim.lsp.util.make_range_params()))
 
 lua local context = {source = {organizeImports = true}}; local timeoutms=1000; local params = vim.lsp.util.make_range_params(); params.context = context; local result = vim.lsp.buf_request_sync(0, "textDocument/codeAction", params, timeoutms); vim.print(vim.inspect(result));
 

@@ -24,7 +24,7 @@ local name, age = data:match("Name: (%w+), Age: (%d+)")
 print(name, age)
 
 local text = [[/home/stepan/git_repos/kn7072/ANKI/TelegramBot/create_file_for_anki_new.py:341:1: E101 indentation contains mixed spaces and tabs]]
-local text = [[/home/stepan/git_repos/kn7072/ANKI/TelegramBot/create_file_for_anki_new.py:341:1: E101]]
+-- local text = [[/home/stepan/git_repos/kn7072/ANKI/TelegramBot/create_file_for_anki_new.py:341:1: E101]]
 -- /home/stepan/git_repos/kn7072/ANKI/TelegramBot/create_file_for_anki_new.py:342:1: W191 indentation contains tabs
 -- /home/stepan/git_repos/kn7072/ANKI/TelegramBot/create_file_for_anki_new.py:342:1: E101 indentation contains mixed spaces and tabs
 -- /home/stepan/git_repos/kn7072/ANKI/TelegramBot/create_file_for_anki_new.py:343:1: W191 indentation contains t
@@ -38,10 +38,10 @@ local text = [[/home/stepan/git_repos/kn7072/ANKI/TelegramBot/create_file_for_an
 -- local pattern = [[:(%d+):(%d+)(.*)]]
 -- local groups = { "row", "col", "message" }
 
-local pattern = [[(%g+):(%d+):(%d+): ([%w%d]+)]]
+local pattern = [[(%g+):(%d+):(%d+): ([%w%d]+) (.*)]]
 local groups = { "filename", "row", "col", "code", "message" }
-local filename, row, col, message = text:match(pattern)
-print(filename, row, col, message)
+local filename, row, col, code, message = text:match(pattern)
+print(filename, row, col, code, message)
 
 local text = [[/home/stepan/git_repos/kn7072/ANKI/TelegramBot/create_file_for_anki_new.py:341:1:]]
 local pattern = [[(%g+):(%d+):(%d+):]]

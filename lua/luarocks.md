@@ -13,6 +13,7 @@ sudo luarocks --lua-version 5.4 install  --server=https://luarocks.org/dev luafo
 
 
 sudo luarocks --lua-version 5.4 list
+sudo luarocks search "tl" > tl.log  ищет пакеты содержащие в своем имени tl и перенаправляет вывод в файл tl.log
 
 
 Options:
