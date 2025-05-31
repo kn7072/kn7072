@@ -12,27 +12,22 @@ local flake8 = {
     method = methods.internal.DIAGNOSTICS,
     -- method = DIAGNOSTICS_ON_SAVE,
 
-    filetypes = {"python", "py"},
+    filetypes = {"python"},
     generator = null_ls.generator({
         command = "flake8",
+        to_stdin = true,
         args = {
             "--config", vim.fn.stdpath("config") .. "/plugin_configs/.flake8",
-            "$FILENAME"
+            "--stdin-display-name=$FILENAME", "-"
         },
-        -- choose an output format (raw, json, or line)
         format = "line",
         check_exit_code = function(code, stderr)
             local success = code <= 1
             if not success then
-                -- can be noisy for things that run often (e.g. diagnostics), but can
-                -- be useful for things that run on demand (e.g. formatting)
-                print(stderr)
+                print("Error", stderr)
             end
-            -- print("success", success)
             return success
         end,
-        -- use helpers to parse the output from string matchers,
-        -- or parse it manually with a function
         on_output = helpers.diagnostics.from_patterns({
             {
                 pattern = [[(%g+):(%d+):(%d+): ([%w%d]+) (.*)]],
@@ -165,18 +160,18 @@ null_ls.setup({
     })
 }
 
-local ruff = {
+local ruff_lint = {
     name = "ruff",
     meta = {url = "https://docs.astral.sh/ruff/tutorial/"},
     method = methods.internal.DIAGNOSTICS,
     filetypes = {"python"},
     generator = null_ls.generator({
         command = "ruff",
-        to_stdin = false,
-        to_temp_file = true,
+        to_stdin = true,
         args = {
             "check", "--config",
-            vim.fn.stdpath("config") .. "/plugin_configs/ruff.toml", "$FILENAME"
+            vim.fn.stdpath("config") .. "/plugin_configs/ruff.toml",
+            "--stdin-filename", "$FILENAME", "--quiet", "-"
         },
         format = "raw",
         check_exit_code = function(code, stderr)
@@ -258,8 +253,8 @@ local ruff_format_sort_imports = {
         command = "ruff",
         to_stdin = true,
         args = {
-            "check", "--select", "I", "--fix",
-            "--stdin-filename", "$FILENAME", "--quiet", "-"
+            "check", "--select", "I", "--fix", "--stdin-filename", "$FILENAME",
+            "--quiet", "-"
         },
         format = "raw",
         check_exit_code = function(code, stderr)
@@ -306,10 +301,10 @@ local lua_format = {
 :NullLsLog
 --]]
 
-null_ls.register(ruff)
+null_ls.register(ruff_lint)
 null_ls.register(ruff_format)
 null_ls.register(ruff_format_sort_imports)
-null_ls.register(flake8)
+-- null_ls.register(flake8)
 null_ls.register(lua_format)
 null_ls.register(golangci_lint)
 -- null_ls.register(p_lint)
@@ -325,13 +320,6 @@ null_ls.setup({
         --                           "/plugin_configs/.golangci.yaml")
         --     }
         --
-        -- }),
-        --        null_ls.builtins.diagnostics.ruff({
-        --     extra_args = {
-        --         -- https://clang.llvm.org/docs/ClangFormatStyleOptions.html
-        --         string.format("--config %s", vim.fn.stdpath("config") ..
-        --                           "/plugin_configs/ruff.toml")
-        --     }
         -- }),
 
         null_ls.builtins.formatting.clang_format.with({
@@ -349,14 +337,15 @@ null_ls.setup({
         --                           "/plugin_configs/.isort.cfg")
         --     }
         -- }), 
-        null_ls.builtins.diagnostics.pylint.with({
-            extra_args = {
-
-                string.format("--rcfile=%s", vim.fn.stdpath("config") ..
-                                  "/plugin_configs/.pylintrc")
-            }
-
-        }), null_ls.builtins.formatting.shfmt.with({
+        -- null_ls.builtins.diagnostics.pylint.with({
+        --     extra_args = {
+        --
+        --         string.format("--rcfile=%s", vim.fn.stdpath("config") ..
+        --                           "/plugin_configs/.pylintrc")
+        --     }
+        --
+        -- }), 
+        null_ls.builtins.formatting.shfmt.with({
             extra_args = {"-i", "2", "-ci"},
             filetypes = {"bash", "sh"}
         }), null_ls.builtins.formatting.prettierd.with({
