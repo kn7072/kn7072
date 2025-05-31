@@ -48,7 +48,103 @@ git rev-list -n 1 HEAD -- path/to/file
 List commits more recent than a specific date, on a specific branch:
 git rev-list --since='2019-12-01 00:00:00' branch_name
 
+##########################
+Как склеивать коммиты
+Сначала узнаем, сколько коммитов нужно склеить. Эта команда покажет, какие коммиты у вас прибавились по сравнению с веткой master:
+git cherry -v master
 
+А эта — сколько их:
+git cherry -v master | wc -l
+
+Отлично, у нас пять коммитов. Теперь перепишем историю с момента HEAD~5, то есть с того, что было пять коммитов назад. Для этого делаем:
+git rebase -i HEAD~5
+
+Флаг -i — значит в интерактивном режиме. Открывается файл
+Тут список коммитов и большой комментарий о том, что можно сделать. 
+Из списка команд видно, что мы можем использовать squash или fixup для склейки коммитов. 
+Первый пригодится, когда нужно изменить коммит-месседж, а второй — когда хотите использовать коммит-месседж первого.
+
+откроется редактор с примерно таким содержанием:
+
+pick 8e510f77c one
+pick e948591ff test_2
+pick a2563fbf5 test_3
+
+# Rebase 0e9c9f01a..a2563fbf5 onto 0e9c9f01a (3 commands)
+#
+# Commands:
+# p, pick <commit> = use commit
+# r, reword <commit> = use commit, but edit the commit message
+# e, edit <commit> = use commit, but stop for amending
+# s, squash <commit> = use commit, but meld into previous commit
+# f, fixup [-C | -c] <commit> = like "squash" but keep only the previous
+#                    commit's log message, unless -C is used, in which case
+#                    keep only this commit's message; -c is same as -C but
+#                    opens the editor
+# x, exec <command> = run command (the rest of the line) using shell
+# b, break = stop here (continue rebase later with 'git rebase --continue')
+# d, drop <commit> = remove commit
+# l, label <label> = label current HEAD with a name
+# t, reset <label> = reset HEAD to a label
+# m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]
+#         create a merge commit using the original merge commit's
+#         message (or the oneline, if no original merge commit was
+#         specified); use -c <commit> to reword the commit message
+# u, update-ref <ref> = track a placeholder for the <ref> to be updated
+#                       to this position in the new commits. The <ref> is
+#                       updated at the end of the rebase
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+#
+# However, if you remove everything, the rebase will be aborted.
+#
+
+редактируем
+pick 8e510f77c one
+pick e948591ff test_2
+pick a2563fbf5 test_3
+
+на
+pick 8e510f77c one
+squash e948591ff test_2
+squash a2563fbf5 test_3
+
+То есть говорим "используй первый коммит, а остальные приклей к нему". 
+Потом сохраняем файл и закрываем его. Git склеивает коммиты и предлагает ввести коммит-месседж (показывает коммит-месседжи всех склеенных коммитов):
+редактируем комментариий который будет общим для всех склеенных коммитов.
+Сохраняем файл и смотрим лог
+Ура, остался один коммит с нужным сообщением.
+Теперь нужно работу отправить на ваш Git-сервер. Обычно это делается с помощью git push, но сейчас это не удастся
+Это потому, что ваша локальная ветка и ветка на сервере отличаются. Причём не просто в локальной ветке есть некоторые коммиты, 
+которых нет на сервере, но и старых коммитов нет. Ведь теперь один новый коммит вместо всех прежних. Чтобы запушить на сервер все изменения, 
+несмотря на конфликт, запустим пуш с флагом --force:
+
+git push --force
+
+
+Так что используйте этот инструмент с осторожностью.
+Помните: сжатие коммитов меняет историю Git, поэтому не рекомендуется сжимать ветвь,
+если вы уже отправили ее в удаленный репозиторий. Всегда выполняйте сжатие до того, как отправить пуш с изменениями.
+
+Применение fixup для сжатия коммитов
+Для того, чтобы сжимать коммиты, также можно воспользоваться опцией fixup. 
+Это то же самое, что и squash, только без возможности редактировать сообщение о коммите. 
+Сообщение о коммите в таком случае будет целиком взято из “целевого” коммита — того, который был выбран с помощью pick.
+
+
+Применение сжатия при слиянии ветвей
+Git также предоставляет возможность сжатия при объединении ветвей. Во многих случаях она может оказаться полезной. 
+Чтобы добавить новый функционал или поправить какие-то баги, нам понадобится то и дело что-то изменять в ветвях. 
+Поэтому, когда мы будем готовы слить эти изменения в основную ветвь (master или develop), для начала следует применить сжатие.
+
+Давайте рассмотрим следующую команду:
+
+git merge --squash target_branch_name
+
+Она берет все коммиты из целевой ветви, сжимает их и сохраняет все изменения в текущей ветви. Затем вы можете зафиксировать все изменения в одном коммите.
+далее нужно лишь сделать коммит с общим описаинем для всех сжатых коммитов.
 ##########################
 Для анализа родителей
 git cat-file -p commit_id - получаем информацию о коммите - родителей
