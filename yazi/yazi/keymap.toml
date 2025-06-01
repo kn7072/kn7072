@@ -1,4 +1,72 @@
-[[mgr.append_keymap]]
-on  = [ "g", "b" ]
-run = "plugin test -- foo --bar --baz=qux"
-desc = "run test plugin"
+# # просто учебный пример
+# [[mgr.append_keymap]]
+# on  = [ "g", "b" ]
+# run = "plugin test -- foo --bar --baz=qux"
+# desc = "run test plugin"
+
+# # https://github.com/yazi-rs/plugins/tree/main/diff.yazi
+# [[mgr.prepend_keymap]]
+# on   = ["g", "x"]
+# run  = "plugin diff"
+# desc = "Diff the selected with the hovered file"
+
+# https://github.com/Lil-Dank/lazygit.yazi
+# открывает lazygit в текущем каталоге
+[[mgr.prepend_keymap]]
+on   = [ "g", "i" ]
+run  = "plugin lazygit"
+desc = "run lazygit"
+
+# https://yazi-rs.github.io/docs/tips/#confirm-quit
+# если открыто несколько вкладок - предупредить перез закрытием
+[[mgr.prepend_keymap]]
+on  = "q"
+run = "plugin confirm-quit"
+
+# https://github.com/yazi-rs/plugins/tree/main/mount.yazi
+[[mgr.prepend_keymap]]
+on  = "M"
+run = "plugin mount"
+
+# https://github.com/MasouShizuka/projects.yazi
+# сохранять вкладки для переокрытия после завершения сеанса
+[[mgr.prepend_keymap]]
+on = [ "P", "s" ]
+run = "plugin projects save"
+desc = "Save current project"
+
+[[mgr.prepend_keymap]]
+on = [ "P", "l" ]
+run = "plugin projects load"
+desc = "Load project"
+
+[[mgr.prepend_keymap]]
+on = [ "P", "P" ]
+run = "plugin projects load_last"
+desc = "Load last project"
+
+[[mgr.prepend_keymap]]
+on = [ "P", "d" ]
+run = "plugin projects delete"
+desc = "Delete project"
+
+[[mgr.prepend_keymap]]
+on = [ "P", "D" ]
+run = "plugin projects delete_all"
+desc = "Delete all projects"
+
+[[mgr.prepend_keymap]]
+on = [ "P", "m" ]
+run = "plugin projects 'merge current'"
+desc = "Merge current tab to other projects"
+
+[[mgr.prepend_keymap]]
+on = [ "P", "M" ]
+run = "plugin projects 'merge all'"
+desc = "Merge current project to other projects"
+
+# If you want to save the last project when exiting, map the default quit key to
+[[mgr.prepend_keymap]]
+on = [ "q" ]
+run = "plugin projects quit"
+desc = "Save last project and exit the process"

@@ -1,2 +1,29 @@
 [mgr]
 show_hidden = true
+
+[opener]
+play = [
+	{ run = '/home/stepan/git_repos/kn7072/BASH/celluloid_size.bash "$@"', orphan = true, for = "unix" }
+]
+
+
+# name: Glob expression for matching the file name. Case-insensitive by default, add \s to the beginning to make it sensitive.
+# mime: Glob expression for matching the mime-type. Case-insensitive by default, add \s to the beginning to make it sensitive.
+# use: Opener name corresponding to the names in the [opener] section.
+
+# если использовать такой стиль https://yazi-rs.github.io/docs/configuration/yazi#open
+# тогда при вызове интерактивоного режима (O) помимо проигрывателя будут доступны другие опции
+[open]
+prepend_rules = [
+	# Multiple openers for a single rule
+	{ name = "*.mp4", use = [ "play" ] },
+	{ name = "*.mkv", use = [ "play" ] },
+	{ name = "*.avi", use = [ "play" ] },
+	{ name = "*.wmv", use = [ "play" ] },
+]
+
+# если предпочесть такой подход, то в интерактивном режиме будет показан лишь один проигрыватель
+# [open]
+# rules = [
+# 	{ name = "*.mp4", use = ["play"] },
+# ]
