@@ -39,6 +39,7 @@ int main(void) {
   Display *disp = NULL;
   Window *window_list = NULL;
   Window root = 0;
+  int key_code_index = XK_F;  // XK_A;
 
   disp = XOpenDisplay(connection_string);
   if (disp == NULL) {
@@ -47,11 +48,16 @@ int main(void) {
   }
 
   root = XDefaultRootWindow(disp);
-  unsigned int modifiers = ControlMask;
-  unsigned int keycode = XKeysymToKeycode(disp, XK_Y);
-  XGrabKey(disp, keycode, modifiers, root, False, GrabModeAsync, GrabModeAsync);
-  unsigned int keycode_f = XKeysymToKeycode(disp, XK_F);
-  XGrabKey(disp, keycode_f, modifiers, root, False, GrabModeAsync, GrabModeAsync);
+  unsigned int modifiers = ControlMask;  // AnyModifier ControlMask;
+
+  // unsigned int keycode = XKeysymToKeycode(disp, XK_Y);
+  // XGrabKey(disp, keycode, modifiers, root, False, GrabModeAsync, GrabModeAsync);
+  // unsigned int keycode_f = XKeysymToKeycode(disp, XK_F);
+  // XGrabKey(disp, keycode_f, modifiers, root, False, GrabModeAsync, GrabModeAsync);
+  // unsigned int keycode_x = XKeysymToKeycode(disp, XK_X);
+  // XGrabKey(disp, keycode_x, modifiers, root, False, GrabModeAsync, GrabModeAsync);
+  // unsigned int keycode_o = XKeysymToKeycode(disp, XK_O);
+  // XGrabKey(disp, keycode_o, modifiers, root, False, GrabModeAsync, GrabModeAsync);
 
   // настройки для дочерних окон
   int window_x = 0;
@@ -71,10 +77,18 @@ int main(void) {
   window_attributes.event_mask = StructureNotifyMask | KeyPressMask | KeyReleaseMask | ExposureMask | FocusChangeMask;
 
   window_list = getWindowList(disp, &len);
-  // char symbol_array_used[len];
-  char *symbol_array[] = {"a", "b", "c", "d", "e", "f", "g", "x", "x", "x", "x", "x", "x", "x", "x", "x"};
+  unsigned int keycode_array[len];
+  char *symbol_array[] = {"f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p"};  // "a", "b", "c", "d", "e",
 
   for (unsigned long i = 0; i < len; i++) {
+    // добавить описание
+    unsigned int keycode_i = XKeysymToKeycode(disp, key_code_index);
+    XGrabKey(disp, keycode_i, modifiers, root, False, GrabModeAsync, GrabModeAsync);
+    key_code_index++;
+
+    // добавить описание
+    keycode_array[i] = keycode_i;
+
     Window window_i = window_list[i];
     Window child_window = 0;
     GC gc; /* Графический контекст */
@@ -122,6 +136,7 @@ int main(void) {
   XEvent event;
   XEvent send_event;
   XWindowAttributes wattr;
+  Window switch_window = 0;
 
   while (done == 0) {
     XNextEvent(disp, &event);
@@ -134,42 +149,37 @@ int main(void) {
         //   break;
 
       case KeyPress:
-        assert(event.xkey.state == modifiers && (event.xkey.keycode == keycode || event.xkey.keycode == keycode_f));
-        printf("key_press\n");
+        assert(event.xkey.state == modifiers);  // && (event.xkey.keycode == keycode || event.xkey.keycode == keycode_f)
 
         printf(
-            "hot key pressed on subwindow %ld, window %ld root %ld keycode %u resending...\n", event.xkey.subwindow,
-            event.xkey.window, event.xkey.root, event.xkey.keycode);
-        // Window w = event.xkey.subwindow;
-        // ekey.display = dis;
-        // ekey.window = w;
-        // ekey.time = CurrentTime;
-        // ekey.type = KeyPress;  // ButtonPress  KeyPress;
-        // ekey.state = modifiers;
-        // ekey.keycode = keycode;
-        // XSendEvent(dis, w, True, KeyPressMask, (XEvent *)&ekey);
-        // ekey.type = KeyRelease;
-        // XSendEvent(dis, w, True, KeyPressMask, (XEvent *)&ekey);
+            "hot key pressed on subwindow %ld, window %ld, root %ld, state %d, keycode %d resending...\n",
+            event.xkey.subwindow, event.xkey.window, event.xkey.root, event.xkey.state, event.xkey.keycode);
+
+        for (unsigned int i = 0; i < len; i++) {
+          if (event.xkey.keycode == keycode_array[i]) {
+            switch_window = window_list[i];
+            break;
+          }
+        }
 
         // 2 - два окна заняты - это фоновые окна мониторов - для cinnamon
         // int r = (rand() % (len - 2)) + 2;
 
         // для bspwm
-        int r = rand() % len;
-        printf("rand index %d\n", r);
-
-        Window test_window = window_list[r];
+        // int r = rand() % len;
+        // printf("rand index %d\n", r);
+        // switch_window = window_list[r];
 
         memset(&send_event, 0, sizeof(send_event));
         send_event.type = ClientMessage;
         send_event.xclient.display = disp;
-        send_event.xclient.window = test_window;
+        send_event.xclient.window = switch_window;
         send_event.xclient.message_type = prop;
         send_event.xclient.format = 32;
         send_event.xclient.data.l[0] = 2L; /* 2 == Message from a window pager */
         send_event.xclient.data.l[1] = CurrentTime;
 
-        XGetWindowAttributes(disp, test_window, &wattr);
+        XGetWindowAttributes(disp, switch_window, &wattr);
         res_send_event =
             XSendEvent(disp, wattr.screen->root, False, SubstructureNotifyMask | SubstructureRedirectMask, &send_event);
 
