@@ -1,0 +1,28 @@
+gui:
+  # If true, show the number of lines changed per file in the Files view
+  showNumstatInFilesView: true
+
+  # If true, increase the height of the focused side window; creating an accordion effect.
+  expandFocusedSidePanel: true
+
+  # The weight of the expanded side panel, relative to the other panels. 2 means
+  # twice as tall as the other panels. Only relevant if `expandFocusedSidePanel` is true.
+  expandedSidePanelWeight: 4
+  # Length of author name in (non-expanded) commits view. 2 means show initials only.
+  commitAuthorShortLength: 3
+  # os:
+  #   editPreset: "nvim"
+  authorColors:
+    # use red for John Smith
+    "chernov.ig": "cyan"
+    # use blue for other authors,
+    "*": "#fbff00"
+  theme:
+    # Background color of selected line.
+    selectedLineBgColor:
+      - "#575859"
+
+    # Border color of focused window
+    activeBorderColor:
+      - blue
+      - bold
