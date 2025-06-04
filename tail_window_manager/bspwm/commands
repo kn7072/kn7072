@@ -55,6 +55,8 @@ bspc wm --get-status
     bspc rule -a librewolf state=floating sticky=on follow=off focus=on rectangle=640x360+2760+1040
 librewolf
 
+
+man bsps > man_bsps создать файл справки
 https://wiki.archlinux.org/title/Bspwm
 https://rzg.one/post/2021/05/09/floating-and-sticky-windows-in-bspwm/
 https://my-take-on.tech/2020/07/03/some-tricks-for-sxhkd-and-bspwm/
