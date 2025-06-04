@@ -3,7 +3,7 @@ show_hidden = true
 
 [opener]
 play = [
-	{ run = '/home/stepan/git_repos/kn7072/BASH/celluloid_size.bash "$@"', orphan = true, for = "unix" }
+	{ run = '/home/stepan/git_repos/kn7072/BASH/celluloid_size.bash "$@"', orphan = true, for = "linux" }
 ]
 
 
@@ -27,3 +27,18 @@ prepend_rules = [
 # rules = [
 # 	{ name = "*.mp4", use = ["play"] },
 # ]
+
+[plugin]
+  prepend_preloaders = [
+    # Replace magick, image, video with mediainfo
+    { mime = "{audio,video,image}/*", run = "mediainfo" },
+    { mime = "application/subrip", run = "mediainfo" },
+  ]
+  prepend_previewers = [
+    # Replace magick, image, video with mediainfo
+    { mime = "{audio,video,image}/*", run = "mediainfo"},
+    { mime = "application/subrip", run = "mediainfo" },
+  ]
+  # There are more extensions which are supported by mediainfo.
+  # Just add file's MIME type to `previewers`, `preloaders` above.
+  # https://mediaarea.net/en/MediaInfo/Support/Formats
