@@ -24,6 +24,8 @@ cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd   --для sxhkdrc ко
 cp /usr/share/doc/polybar/examples/config.ini ~/.config/polybar
 
 cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm
+готовый файл pspwm находится в текущем каталоге(в каталоге bspwm для упрощения создания символических ссылок, где находится данная инструкция)
+в конфиге используется файл .xprofile(также натодится в текущем каталоге) его нужно скопировать в домашнюю директорию
 
 polybar
 https://protesilaos.com/codelog/multihead-bspwm-polybar/
