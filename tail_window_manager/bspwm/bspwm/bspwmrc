@@ -35,9 +35,11 @@ bspc config gapless_monocle true
 bspc rule -a Io.github.celluloid_player.Celluloid state=floating manage=on layer=normal follow=on # rectangle=1248x790+2233+160
 bspc rule -a vlc state=floating manage=on layer=normal follow=on rectangle=1500x900+2000+100
 
-bspc config normal_border_color "#111111"
-bspc config active_border_color "#FFFFFF"
-bspc config focused_border_color "#ff5f00"
+bspc config normal_border_color "#111111" # простая рамка
+# Color of the border of a focused window of an unfocused monitor.
+bspc config active_border_color "#e5a50a"
+# Color of the border of a focused window of a focused monitor.
+bspc config focused_border_color "#ff5f00" # рамка в фокусе
 
 # Переключение раскладок клавиатуры
 setxkbmap -layout us,ru -option grp:alt_shift_toggle
