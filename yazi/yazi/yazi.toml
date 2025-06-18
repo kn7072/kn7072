@@ -1,11 +1,10 @@
-[mgr]
-show_hidden = true
+[mrg]
+ratio = [2,3,5]
 
 [opener]
 play = [
 	{ run = '/home/stepan/git_repos/kn7072/BASH/celluloid_size.bash "$@"', orphan = true, for = "linux" }
 ]
-
 
 # name: Glob expression for matching the file name. Case-insensitive by default, add \s to the beginning to make it sensitive.
 # mime: Glob expression for matching the mime-type. Case-insensitive by default, add \s to the beginning to make it sensitive.
@@ -22,12 +21,7 @@ prepend_rules = [
 	{ name = "*.wmv", use = [ "play" ] },
 ]
 
-# если предпочесть такой подход, то в интерактивном режиме будет показан лишь один проигрыватель
-# [open]
-# rules = [
-# 	{ name = "*.mp4", use = ["play"] },
-# ]
-
+# https://github.com/boydaihungst/mediainfo.yazi
 [plugin]
   prepend_preloaders = [
     # Replace magick, image, video with mediainfo
@@ -39,6 +33,4 @@ prepend_rules = [
     { mime = "{audio,video,image}/*", run = "mediainfo"},
     { mime = "application/subrip", run = "mediainfo" },
   ]
-  # There are more extensions which are supported by mediainfo.
-  # Just add file's MIME type to `previewers`, `preloaders` above.
-  # https://mediaarea.net/en/MediaInfo/Support/Formats
+

@@ -1,0 +1,20 @@
+[tabs]
+active = {fg = "#fcfafa", bg = "#cc0606" }
+inactive = {fg = "#fcfafa", bg = "#1613a1"}
+
+[status]
+# https://yazi-rs.github.io/docs/configuration/theme#status
+overall = {fg = "#fcfafa", bg = "#1c2f54"}
+sep_left  = { open = "", close = "" }
+sep_right = { open = "", close = "" }
+
+[mode]
+# https://yazi-rs.github.io/docs/configuration/theme#mode
+normal_main = { fg = "#ffffff", bg = "#163b87" }
+normal_alt = { fg = "#ffffff", bg = "#6b184f" }
+
+select_main = { fg = "#ffffff", bg = "#0f664c" }
+select_alt = { fg = "#ffffff", bg = "#6b184f" }
+
+unset_main = { fg = "#000000", bg = "#c4c4c4", bold = true }
+unset_alt = { fg = "#ffffff", bg = "#ad0a15"}
