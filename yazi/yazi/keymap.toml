@@ -12,4 +12,7 @@ prepend_keymap = [
     # https://github.com/orhnk/system-clipboard.yazi
     { on = "<C-y>", run = ["plugin system-clipboard"], desc = "Copy To system Clipboard"},
     { on = "<C-p>", run = "shell 'cb paste' --block", desc = "Paste from clipboard"}
+
+    # https://github.com/ndtoan96/ouch.yazi?tab=readme-ov-file
+    { on = ["C"], run = "plugin ouch", desc = "Compress with ouch"}
 ]
