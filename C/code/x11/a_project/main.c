@@ -144,10 +144,6 @@ int main(void) {
       case ButtonPress:
         printf("button press\n");
         break;
-        // case KeyPress:
-        //   printf("key press %d\n", event.xkey.keycode);
-        //   break;
-
       case KeyPress:
         assert(event.xkey.state == modifiers);  // && (event.xkey.keycode == keycode || event.xkey.keycode == keycode_f)
 
@@ -184,10 +180,7 @@ int main(void) {
             XSendEvent(disp, wattr.screen->root, False, SubstructureNotifyMask | SubstructureRedirectMask, &send_event);
 
         printf("res_send_event %d\n", res_send_event);
-        // XSetInputFocus(dis, test_window, RevertToNone, CurrentTime);
-        // XRaiseWindow(dis, test_window);
-        // XFlush(dis);
-
+        done = 1;
         break;
 
       case PropertyNotify:
