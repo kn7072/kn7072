@@ -27,6 +27,9 @@ cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm
 готовый файл pspwm находится в текущем каталоге(в каталоге bspwm для упрощения создания символических ссылок, где находится данная инструкция)
 в конфиге используется файл .xprofile(также натодится в текущем каталоге) его нужно скопировать в домашнюю директорию
 
+ln -sfd /home/stepan/git_repos/kn7072/tail_window_manager/bspwm/bspwm /home/stepan/.config/
+
+
 polybar
 https://protesilaos.com/codelog/multihead-bspwm-polybar/
 https://rosharp.github.io/posts/multiple-monitor-setup-bspwm-+-polybar/
