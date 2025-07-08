@@ -6,7 +6,7 @@
 pgrep -x sxhkd >/dev/null || sxhkd &
 
 # расставляем мониторы на нужные места
-"$HOME/.config/.xprofile"
+"$HOME/.xprofile"
 
 HDMI_MONITOR="HDMI-1"
 VGA_MONITOR=$(xrandr -q | grep -Ei "VGA.* connected" | awk '{print $1}')
@@ -16,6 +16,7 @@ VGA_MONITOR=$(xrandr -q | grep -Ei "VGA.* connected" | awk '{print $1}')
 # если нужно разделить рабочие столы по мониторам - работает не так как ожидается,
 # все цифры рабочих столов отображаются на обоих мониторах
 if [[ -n ${VGA_MONITOR} ]]; then
+  # порядок "$VGA_MONITOR" "$HDMI_MONITOR" имеет значение - первым должен идти основной монитор
   bspc wm -O "$VGA_MONITOR" "$HDMI_MONITOR"
   bspc monitor "$VGA_MONITOR" -d 1 2 3 [x]
   bspc monitor "$HDMI_MONITOR" -d 1
