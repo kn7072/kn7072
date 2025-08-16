@@ -19,3 +19,7 @@ curl -fsSL https://ollama.com/install.sh | sh  установка
 
 https://ollama.com/library/llama3.1
 ollama run llama3.1 запуск
+
+sudo systemctl restart ollama
+sudo systemctl stop ollama
+sudo systemctl disable ollama
