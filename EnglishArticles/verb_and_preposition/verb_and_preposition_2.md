@@ -4,27 +4,23 @@ boast about/of – хвастаться, кичиться
 decide about – решать по поводу чего-либо  
 dream about – видеть сны о  
 care about – заботиться, ухаживать о  
-complain to smb about smth – жаловаться  
-кому-либо о чем-либо  
+complain to smb about smth – жаловаться  кому-либо о чем-либо  
 forget about – забывать о  
 hear about (= be told) – узнать, получить  известие  
 know about/of – знать, быть в курсе дела  
 learn about – узнавать о чем-либо  
 protest about – протестовать, возражать  
-quarrel about smth with smb – спорить,  
-ругаться о чем-либо с кем-либо  
+quarrel about smth with smb – спорить,  ругаться о чем-либо с кем-либо  
 say about – сказать, рассказать  
 talk about/of – разговаривать о  
 think about – думать о  
-warn smb about/against/of – предупреждать  
-кого-либо о чем-либо  
+warn smb about/against/of – предупреждать  кого-либо о чем-либо  
 wonder about/at – удивляться  
 worry about/at – беспокоиться
 
 aim at – добиваться , стремиться к чему-либо  
-arrive at (a small place) – прибывать,  
-приходить, приезжать (например на вокзал,  станцию)  
-exclaim at - выразить крайнее удивление,  поднимать голос (протеста)  
+arrive at (a small place) – прибывать,  приходить, приезжать (например на вокзал,  станцию)  
+exclaim at – выразить крайнее удивление,  поднимать голос (протеста)  
 fire at – вести огонь, палить, стрелять  
 glance at – мельком взглянуть  
 glare at – свирепо смотреть  
@@ -38,7 +34,7 @@ stare at – пристально смотреть
 throw at (in order to hit) – кинуть в кого-либо  (чтобы ударить)  
 guess at – догадываться, предполагать,  предугадывать  
 hint at – намекать на что-либо  
-yell at - пронзительно кричать, ругаться,  наорать
+yell at – пронзительно кричать, ругаться,  наорать
 
 choose between – выбирать  
 decide between – решать  
@@ -74,7 +70,7 @@ watch for – ожидать, быть наготове
 wish for – желать, стремиться
 
 abstain from – воздерживаться от  
-benefit from - извлекать выгоду/пользу из  
+benefit from – извлекать выгоду/пользу из  
 borrow smth from smb – занимать/взять что-либо у кого-либо  
 differ from – отличаться от  
 distinguish from – отличать от  
@@ -88,8 +84,7 @@ expel smb from – исключать кого-либо из
 escape from – покидать, покинуть  
 hear from (= receive a letter/phone call) –  получать известия от
 learn from – узнавать от  
-prevent smb from – не позволять,  
-препятствовать, предотвращать от  
+prevent smb from – не позволять,  препятствовать, предотвращать от  
 prohibit smb from doing smth –  препятствовать, мешать  
 resign from – отказываться от, уходить (в  отставку), увольняться  
 receive from – получать от  
@@ -108,7 +103,7 @@ assure of – заверять, убеждать
 accuse smb of smth – обвинять кого-либо в  чем-либо  
 approve of – одобрять, утверждать  
 beware of – остерегаться  
-complain of - жаловаться на  
+complain of – жаловаться на  
 convince of – убедить, убеждать в  
 consist of – состоять из  
 disapprove of – выражать осуждение,  порицать, не одобрять  
@@ -125,7 +120,7 @@ advise on – советовать, рекомендовать
 agree with smb on smth – соглашаться с кем-либо по поводу чего-либо  
 base smth on smth – базировать, основывать  
 blame on – обвинять, винить, порицать
-bet on - держать пари против/за  
+bet on – держать пари против/за  
 concentrate on – сконцентрироваться,  сосредоточиться на  
 count on – рассчитывать на  
 comment on – высказываться по поводу,  комментировать  
@@ -147,8 +142,7 @@ impose on – налагать, возлагать, навязывать
 waste on – напрасно тратить, терять
 
 amount to – доходить до, составлять сумму в  
-appeal to/against – апеллировать,  
-обращаться с призывом, обжаловать  
+appeal to/against – апеллировать,  обращаться с призывом, обжаловать  
 attend to – заботиться, ухаживать, следить,  уделять внимание  
 answer to – нести ответственность перед кем-либо, отвечать перед
 admit to – признаваться в  
@@ -161,7 +155,7 @@ correspond to/with – переписываться с кем-либо, соот
 convert to/into – переделывать,  видоизменять, перестраивать  
 compare to (show the likeness between  smb/smth and smb/smth else)- по сравнению  с, в сравнении с  
 date back to – вести начало от  
-describe smb/smth to smb else - описывать  что-либо/кого-либо кому-либо  
+describe smb/smth to smb else – описывать  что-либо/кого-либо кому-либо  
 decline to – сокращаться, идти на убыль, идти  на спад  
 dedicate to – посвящать, предназначать  
 explain to – объяснять кому-либо  
@@ -169,7 +163,7 @@ happen to – случаться, происходить
 invite smb to smth – приглашать кого-либо  куда-либо  
 lend smth to smb – давать в долг  
 listen to – слушать  
-mention to - упоминать  
+mention to – упоминать  
 object to – возражать
 occur to – случаться, происходить  
 point to/at – указывать, направлять на  
@@ -180,7 +174,7 @@ react to – реагировать, действовать, отвечать
 resort to – прибегать, обращаться к  
 refer smb to smth – ссылаться, относиться,  направлять к  
 reply to – отвечать  
-respond to - отвечать  
+respond to – отвечать  
 sentence smb to smth – приговаривать кого-либо к чему-либо  
 say to – сказать кому-либо  
 subject to – подвергать  
@@ -193,8 +187,7 @@ write to smb about smth – писать кому-либо о  чем-либо
 argue with smb about smth – спорить с кем-либо о чем-либо  
 agree with – соглашаться с
 acquaint with – познакомить, ознакомить,  приобщить к  
-bear with – мириться с, терпиливо  
-относиться, относиться с пониманием  
+bear with – мириться с, терпиливо  относиться, относиться с пониманием  
 begin with – начинать(ся) с  
 charge smb with (a crime) – предъявить  обвинение в, обвинять в  
 coincide with – совпадать с, соответствовать  
@@ -222,10 +215,10 @@ provide smb with smth – обеспечивать кого-либо чем-ли
 reason with – уговорить, убедить,  доказывать, обосновывать, аргументировать  
 replace smth with smth else – заменить что-либо чем-либо  
 share smth with smb – делить что-либо с кем-либо  
-sympathise with - сочувствовать  
+sympathise with – сочувствовать  
 tamper with – вмешиваться в, подделать,  подкупать, фальсифицировать, искажать  
 trust smb with smth – доверять, вверять,  поручать  
-threaten smb with smth - угрожать
+threaten smb with smth – угрожать
 
 decide on/against – решить за/против  
 insure against – уберечь от чего-либо,  застраховать на случай
