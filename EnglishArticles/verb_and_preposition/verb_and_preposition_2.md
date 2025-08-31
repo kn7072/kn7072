@@ -128,7 +128,7 @@ compliment smb on – хвалить, польстить
 congratulate smb on smth - поздравлять с  
 depend on/upon – зависеть от  
 decide on – решить, выбрать, определить  
-experiment on/with - проводить опыты,  экспериментировать  
+experiment on/with – проводить опыты,  экспериментировать  
 focus on – сфокусироваться, сосредоточиться  на  
 operate on – оперировать/делать операцию  на  
 knock on/at – стучать  
@@ -153,7 +153,7 @@ confess to – признавать(ся), сознаваться,  призна
 contribute to – вкладывать в  
 correspond to/with – переписываться с кем-либо, соответствовать чему-либо  
 convert to/into – переделывать,  видоизменять, перестраивать  
-compare to (show the likeness between  smb/smth and smb/smth else)- по сравнению  с, в сравнении с  
+compare to (show the likeness between  smb/smth and smb/smth else) – по сравнению  с, в сравнении с  
 date back to – вести начало от  
 describe smb/smth to smb else – описывать  что-либо/кого-либо кому-либо  
 decline to – сокращаться, идти на убыль, идти  на спад  
@@ -242,6 +242,7 @@ specialise in – специализироваться в
 succeed in – преуспевать в
 
 clash over – конфликтовать из-за
+
 
 Примечание:
 *Глаголы говорения и мышления очень часто имеют после себя предлог about, чтобы показать
