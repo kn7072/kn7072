@@ -294,4 +294,4 @@ To get the ^M character, type Ctrl + V and hit Enter.
 wonder about
 wonder at
 
-%s/\(._\) \(._\)\/\(.\*\)/\1 \2^M\1 \3
+%s/\v(._) (._)\/(.\*)/\1 \2^M\1 \3
