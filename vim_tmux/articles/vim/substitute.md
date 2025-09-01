@@ -287,3 +287,11 @@ To get the ^M character, type Ctrl + V and hit Enter.
 :'<,'>s#xxxx#^M/g
 :'<,'>s/[`|-]//g | '<,'>s/<br>/^M/g
 '<,'>s/\v([\[\]])//g удалить скобки [,]
+
+создать несколько строк из одной
+текущая строка - wonder about/at
+необходимо создать две
+wonder about
+wonder at
+
+%s/\(._\) \(._\)\/\(.\*\)/\1 \2^M\1 \3
