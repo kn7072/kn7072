@@ -111,7 +111,7 @@
 
 `systemctl -l --type mount`
 
-[![fstab](fstab_images/fstab.jpeg)](https://losst.pro/wp-content/uploads/2016/10/fstab.jpeg)
+[![[Разное/fstab_images/696f47b3fff87704ebc8b50ba055ea1b_MD5.jpg]]
 
 Но нам ничего не мешает самим создать такой файл точки монтирования. Это очень просто, давайте рассмотрим синтаксис:
 
