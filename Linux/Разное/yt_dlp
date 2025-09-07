@@ -1,0 +1,93 @@
+## документация
+https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#usage-and-options
+
+## примеры
+https://wiki.archlinux.org/title/Yt-dlp
+
+## Extract audio
+Use -x for audio-only downloads (requires FFmpeg):
+
+$ yt-dlp -x -f bestaudio URL
+
+Depending on the available source streams, this will often correct the audio-only container. If an audio-only stream is not available, exclude -f bestaudio from the example above. This will download the video and copy its audio as post process. By default this will remove the downloaded video, include -k to keep it.
+
+To also include album art (requires atomicparsley):
+$ yt-dlp -x -f bestaudio[ext=m4a] --add-metadata --embed-thumbnail URL
+
+## Subtitles
+To see which languages are available:
+$ yt-dlp --list-subs URL
+
+To download a video with selected subtitles (comma separated):
+$ yt-dlp --write-sub --sub-lang LANG URL
+
+For auto-generated subtitles:
+$ yt-dlp --write-auto-sub --sub-lang LANG URL
+Add --skip-download to get only subtitles. 
+
+yt-dlp -vU --extractor-args "youtube:formats=dashy" URL
+
+
+## дополнительные примеры
+покажет все доступные форматы
+yt-dlp -vU --list-formats URL | grep mp4
+
+чтобы выкачать необходимый формат
+yt-dlp  -f 136 URL
+
+по умолчанию выбирает лучшее качество, но можно явно указать -f bestvideo+bestaudio/best
+yt-dlp  -f bestvideo+bestaudio/best URL
+
+-P, --paths [TYPES:]path
+yt-dlp  -f bestvideo+bestaudio/best -P path_to_dir URL
+
+https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#extractor-arguments
+yt-dlp  --list-extractors
+
+изменить имя файла
+yt-dlp -o '~/Downloads/name' URL
+
+To include additional details in the filename, such as the title, uploader name, upload date, and playlist name, use the following format:
+
+yt-dlp -o '%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s' URL 
+
+Here is a breakdown of the different options used in the above commands:
+
+    yt-dlp: The name of the command-line tool used to download videos and playlists.
+    -o: The flag used to specify the output filename or directory.
+    %(title)s: The title of the video or playlist.
+    %(uploader)s: The name of the video or playlist uploader.
+    %(upload_date)s: The date on which the video or playlist was uploaded.
+    %(playlist)s: The name of the playlist, if the video is part of a playlist.
+    %(ext)s: The file extension of the downloaded video or audio file.
+
+## Download Multiple Videos in Parallel
+
+There may be instances where you need to download multiple videos from a website or any other source. In such cases, you have a couple of convenient options:
+
+Option 1: Download by Mentioning URLs
+
+You can download multiple videos by specifying their URLs in the command, separated by spaces like so:
+
+yt-dlp <url1> <url2>
+
+This method allows you to fetch several videos in one go, simply by listing their URLs.
+
+Option 2: Use a Text File
+
+Alternatively, you can create a text file containing all the video URLs you want to download and then pass this file as an argument to Youtube-dl:
+
+yt-dlp -a url.txt
+
+By using this command, yt-dlp will automatically download all the videos listed in the url.txt file. This approach is particularly handy when dealing with numerous videos, as it streamlines the process for you.
+
+## Download Audio-only from a Video
+
+To download a video as Audio i.e. extract audio from a video, use -x flag like below.
+
+yt-dlp -x URL
+
+You can also specify the output audio format using the -x --audio-format flag.
+
+yt-dlp -x --audio-format mp3 URL
+
