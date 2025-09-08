@@ -1,6 +1,10 @@
 ## документация
 https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#usage-and-options
 
+## установка
+sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+sudo chmod a+rx /usr/local/bin/yt-dlp
+
 ## примеры
 https://wiki.archlinux.org/title/Yt-dlp
 
@@ -61,6 +65,8 @@ Here is a breakdown of the different options used in the above commands:
     %(playlist)s: The name of the playlist, if the video is part of a playlist.
     %(ext)s: The file extension of the downloaded video or audio file.
 
+выкачать по таймкодам(возможно лучше выкачть видео целиком а потом воспользоваться FFmpeg)
+yt-dlp --download-sections "*4:01-11:43"  -P /home/stepan/temp/youtube -o '%(title)s.f%(format_id)s.%(ext)s' https://www.youtube.com/watch?v=IVyWUYiZMnE
 ## Download Multiple Videos in Parallel
 
 There may be instances where you need to download multiple videos from a website or any other source. In such cases, you have a couple of convenient options:
@@ -90,4 +96,343 @@ yt-dlp -x URL
 You can also specify the output audio format using the -x --audio-format flag.
 
 yt-dlp -x --audio-format mp3 URL
+
+## Download a Video with Description, Metadata, Annotations, Subtitles, and Thumbnail
+
+To download a video along with its accompanying details, including description, metadata, annotations, subtitles, and thumbnail, use the following command:
+
+yt-dlp --write-description --write-info-json --write-annotations --write-sub --write-thumbnail <URL>
+
+With this command, you can capture not only the video itself but also all the associated elements that enhance your viewing experience.
+
+## Download Videos in Specific Quality and Format
+
+By default, yt-dlp will download videos in the best available quality if you don't pass any options. However, you have the flexibility to download a video or playlist in a specific quality or format as per your preferences.
+
+YouTube offers the following quality options for video downloads:
+
+    best: This selects the highest quality format available, including both video and audio.
+    worst: It picks the lowest quality format for both video and audio.
+    bestvideo: This option selects the best quality video-only format (e.g., DASH video).
+    worstvideo: Similar to bestvideo but chooses the lowest quality video-only format.
+    bestaudio: This selects the best quality audio-only format.
+    worstaudio: Similar to bestaudio but chooses the lowest quality audio-only format.
+
+For example, if you want to download the video in the best available quality for both audio and video, use this command:
+
+yt-dlp -f best URL
+
+Similarly, to download audio-only with the best quality:
+
+yt-dlp -f bestaudio <URL>
+
+To download the lowest quality video-only format, use this command:
+
+yt-dlp -f worstvideo <URL>
+
+You can also combine different format options, like this:
+
+yt-dlp -f bestvideo+bestaudio <URL>
+
+This command downloads the best quality video-only and audio-only formats and merges them using ffmpeg or avconv. Ensure you have one of these tools installed on your system.
+
+If you prefer not to merge the audio and video, replace the plus (+) operator with a comma (,) like this:
+
+yt-dlp -f 'bestvideo,bestaudio' URL -o '%(title)s.f%(format_id)s.%(ext)s'
+
+This command downloads the best quality video and audio separately, resulting in two files. In this case, it's recommended to use an output template (-o option) because bestvideo and bestaudio may have the same file name.
+
+You can even download a video or playlist in a specific quality with a defined resolution. For example, to download the best quality video with a resolution of 480 pixels or lower (less than or equal to 480p), use this command:
+
+yt-dlp -f "best[height<=480]" <URL>
+
+As mentioned earlier, you can combine format selectors to target a specific video quality. The following command downloads the best available format (both audio and video) but no better than 480p:
+
+yt-dlp -f 'bestvideo[height<=480]+bestaudio/best[height<=480]' <URL>
+
+You can confirm whether yt-dlp has downloaded the video in the desired quality by examining the media file information with tools like mediainfo.
+
+You also have the flexibility to use abbreviated flag names. For instance, instead of typing out "bestvideo," you can use "bv." Similarly, you can use "w" for "worst" and "wv" for "worstvideo."
+
+Examples:
+
+To download the best video-only format and best audio-only format or the best combined format if video-only is unavailable, run:
+
+yt-dlp -f "bv+ba/b" URL
+
+Download the worst video quality available:
+
+yt-dlp -f "wv*+wa/w" URL
+
+For more abbreviated flags examples, look at the Format Selection page.
+
+This shorthand notation simplifies your commands for more efficient usage.
+
+
+## Downloading Videos using Format IDs
+
+If you wish to download multiple formats of the same video, you can use a comma as a separator. For example, using -f 22,17,18 will download all three of these formats, provided they are available.
+
+The numbers 22, 17, and 18 correspond to the IDs of the respective video formats. These IDs are referred to as "Format codes" in youtube-dl's output.
+
+You can discover these IDs by listing the available formats using either of the following commands:
+
+yt-dlp --list-formats URL
+
+Or
+
+yt-dlp -F URL
+
+The IDs for the available formats are listed in the first column. The best quality format is typically found towards the end, often with an ID like 247. Therefore, to download the best quality format, you can use the following command:
+
+yt-dlp -f 247 URL
+
+If you intend to download multiple videos, and they do not share the same available formats, you can specify the order of preference using slashes. It's important to note that formats on the left-hand side are prioritized.
+
+For instance, using -f 22/17/18 means it will attempt to download format 22 if available, then format 17 if format 22 is not available, and so on. If none of the specified formats are available, it will notify you that no suitable formats for download are found.
+
+Please remember that the slash is left-associative, which means formats on the left-hand side are given preference during the selection process.
+
+
+## Download Videos by File Extension
+
+To download video(s) in your preferred format, such as MP4, simply execute the following command:
+
+yt-dlp --format mp4 URL
+
+Or, you can use the shorthand version:
+
+yt-dlp -f mp4 URL
+
+As mentioned in the previous section, it's essential to note that not all videos may be available in your desired formats. In such cases, yt-dlp will automatically download the best available format.
+
+For instance, the following command will download the best quality MP4 format file. If the MP4 format is unavailable for the given video, it will download the best alternative format:
+
+yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' URL
+
+If you prefer to save these files with custom filenames, you can do so using the following command:
+
+yt-dlp -f mp4 -o '%(title)s.f%(format_id)s.%(ext)s' URL
+
+## Set Size Limits for Video Downloads
+
+When downloading multiple videos from a playlist, you may have a preference for videos within a specific size range.
+
+For instance, to ensure that no videos smaller than a specified size, say 100MB, are downloaded, use the following command:
+
+yt-dlp --min-filesize 100M <playlist_url>
+
+Conversely, if you wish to avoid downloading videos larger than a given size, you can use:
+
+yt-dlp --max-filesize 100M <playlist_url>
+
+You also have the option to combine format selection operators to download videos of a particular size. The subsequent command, for instance, will download the best video-only format, as long as it doesn't exceed 100MB:
+
+yt-dlp -f 'best[filesize<100M]' URL
+
+## Download Videos by Date
+
+yt-dlp provides the capability to filter and download videos or playlists based on their upload date, which proves incredibly useful when dealing with extensive playlists containing hundreds of videos.
+
+For example, to download videos uploaded on an exact date, say September 30, 2023, you can use the following command:
+
+yt-dlp --date 20230930 <URL>
+
+To download videos uploaded on or before a specific date:
+
+yt-dlp --datebefore 20230930 <URL>
+
+If you want to fetch videos uploaded on or after a particular date:
+
+yt-dlp --dateafter 20230930 <URL>
+
+For downloading only the videos uploaded in the last 6 months:
+
+$ yt-dlp --dateafter now-6months <URL>
+
+To download videos within a specified date range, such as from September 30, 2022, to September 30, 2023, use the following command:
+
+yt-dlp --dateafter 20220930 --datebefore 20230930 <URL>
+
+## Download Specific Videos from a Playlist
+
+This is another valuable feature offered by yt-dlp, allowing you to download specific songs or videos from a playlist that might contain hundreds of entries.
+
+For instance, to download the 20th video from a playlist, execute the following command:
+
+yt-dlp --playlist-items 20 <playlist_url>
+
+You can also simultaneously download and convert the video to another format. In the following example, the command will download the first video from the playlist and convert it to .mp3 format:
+
+yt-dlp --playlist-items 1 -x --audio-format mp3 <playlist_url>
+
+Likewise, to download multiple random videos, simply specify the indices of the videos in the playlist separated by commas, as shown below:
+
+yt-dlp --playlist-items 2,3,7,10 <playlist_url>
+
+You can also define a range of videos to download. To download a video playlist starting from a specific video, say the 10th one, and continuing until the end:
+
+yt-dlp --playlist-start 10 <playlist_url>
+
+To download only the videos ranging from the 2nd to the 5th position in a playlist, use:
+
+yt-dlp --playlist-start 2 --playlist-end 5 <playlist_url>
+
+
+## Downloading Videos Based on Age Suitability
+
+yt-dlp offers another valuable feature that allows you to download videos suitable for a specific age group.
+
+For example, if you want to download all "Let's Play" videos that are not marked as "NSFW" or age-restricted for 7-year-olds from a playlist, you can use the following command:
+
+yt-dlp --match-title "let's play" --age-limit 7 --reject-title "nsfw" <playlist_url>
+
+This command ensures that only videos appropriate for a 7-year-old audience will be downloaded, filtering out any "NSFW" or age-restricted content.
+
+## Setting Download Speed Limits
+
+To control the download speed, you can utilize the -r option. For instance, the command below will restrict the speed to 50 kilobytes per second:
+
+yt-dlp -r 50K <URL>
+
+Keep in mind that the speed is specified in bytes per second.
+
+
+## Resuming Downloads
+
+Yt-dlp typically automatically resumes downloads from where they were previously interrupted. However, if for any reason it doesn't resume a download, you can forcefully continue downloading partially completed files using the -c or --continue flag:
+
+yt-dlp -c <URL>
+
+## Download YouTube Thumbnail Images
+
+To download thumbnail image of a given Youtube video, run:
+
+yt-dlp --ignore-errors --write-thumbnail --skip-download $1 $2 $3 https://www.youtube.com/watch?v=t5b20oLaIaw
+
+Here's what each part of the command does:
+
+    yt-dlp: This invokes the yt-dlp program.
+    --ignore-errors: This option tells yt-dlp to continue downloading even if some errors occur.
+    --write-thumbnail: This option instructs yt-dlp to download the thumbnail image for the video and save it to a file.
+    --skip-download: This option tells yt-dlp to skip downloading the actual video file.
+    $1 $2 $3: These are positional parameters that can be used to pass additional options or arguments to yt-dlp. However, in this command, they are not being used.
+    https://www.youtube.com/watch?v=t5b20oLaIaw: This is the URL of the YouTube video for which you want to download the thumbnail.
+
+So, when you run this command, yt-dlp will attempt to download the thumbnail image for the specified YouTube video and save it to a file in the current directory. It will skip downloading the actual video file, and it will continue even if some errors occur during the process.
+
+This command can be useful if you only need the thumbnail image of a YouTube video and don't want to download the entire video file, which can save time and disk space.
+
+## Stream Videos Directly to a Media Player
+
+To stream media directly to your media player, you need to instruct yt-dlp to stream to stdout using the '-o -' option. Additionally, your media player should be capable of reading from stdin.
+
+You can achieve this by piping the output of yt-dlp to your media player. For example, to stream to VLC, you can use the following command:
+
+yt-dlp -o - "https://www.youtube.com/watch?v=t5b20oLaIaw" | vlc -
+
+If you have ffmpeg installed, you can use the '-o - --downloader ffmpeg -f "bv*+ba/b"' options when streaming to stdout to get the best available quality."
+
+## Fix "Unable to download video data: HTTP Error 403: Forbidden" Error
+
+When downloading videos from YouTube, sometimes you will get an error like below.
+
+ERROR: unable to download video data: HTTP Error 403: Forbidden
+
+To fix this error, simply clear the yt-dlp cache using the following command:
+
+$ yt-dlp --rm-cache-dir
+Removing cache dir /home/ostechnix/.cache/yt-dlp …
+
+## Error: Unable to Open for Writing: [Errno 36] File Name Too Long
+
+If you encounter this error while attempting to download a YouTube video with a lengthy name, follow these steps to resolve it:
+
+You will likely see an error message similar to this one:
+
+ [youtube] _XEgknKEBws: Downloading webpage
+ ERROR: unable to open for writing: [Errno 36] File name too long: '\xe0\xae\xa8\xe0\xaf\x8b
+[...]
+\xe0\xaf\x8d\xe0\xae\x95\xe0\xae\xae\xe0\xaf\x8d-_XEgknKEBws.f136.mp4.part
+
+To resolve this error, simply download the video with a shorter name of your choice using the "-o" flag. For example:
+
+yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]' -o video.mp4 <URL>
+
+In this command, the "-o" flag allows you to specify a custom name for the downloaded video, ensuring it has a shorter filename.
+
+## yt-dlp Cheat Sheet
+
+This cheatsheet provides you with some essential yt-dlp commands to get you started on downloading videos and playlists efficiently.
+Basic Download:
+
+Download a Video:
+
+yt-dlp <video_url>
+
+Download a Playlist:
+
+yt-dlp <playlist_url>
+
+Format Selection:
+
+Select Best Quality:
+
+yt-dlp -f best <video_url>
+
+Select Specific Format:
+
+yt-dlp -f <format_id> <video_url>
+
+Audio-Only Format:
+
+yt-dlp -f bestaudio <video_url>
+
+Download Options:
+
+Limit Download Speed:
+
+yt-dlp -r 50K <video_url>
+
+Resume Download:
+
+yt-dlp -c <video_url>
+
+Filtering:
+
+Filter by Date:
+
+yt-dlp --date 20230101 <video_url>
+
+Filter by Age Limit:
+
+yt-dlp --age-limit 18 <video_url>
+
+Filter by Title:
+
+yt-dlp --match-title "keyword" <playlist_url>
+
+Advanced:
+
+Download by Format Codes:
+
+yt-dlp -f 22,17,18 <video_url>
+
+Download by File Extension:
+
+yt-dlp --format mp4 <video_url>
+
+Set Size Limit:
+
+yt-dlp --min-filesize 100M <playlist_url>
+
+Download Specific Videos from Playlist:
+
+yt-dlp --playlist-items 1,3,5 <playlist_url>
+
+Download Thumbnails:
+
+yt-dlp --ignore-errors --write-thumbnail --skip-download $1 $2 $3 <video_url>
+
+Remember to replace <video_url> and <playlist_url> with the actual URLs you want to download from.
 
