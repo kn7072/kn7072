@@ -5,14 +5,16 @@ import os
 from common import get_data_file, get_mnemo_list, path_anki, read_file
 
 data_all_words = read_file("ALL_WORDS.txt")
-dir_for_search_files = r"/home/stepan/GIT/kn7072/ANKI/WORDS"
+dir_for_search_files = r"/home/stepan/git_repos/kn7072/ANKI/WORDS"
 
 
 def get_path_file(word: str) -> str:
     """Возвращает путь до файла."""
     first_symbol = word[0].lower()
     path_file = None
-    path_file_temp = os.path.join(dir_for_search_files, first_symbol, word.lower() + ".json")
+    path_file_temp = os.path.join(
+        dir_for_search_files, first_symbol, word.lower() + ".json"
+    )
     if os.path.isfile(path_file_temp):
         path_file = path_file_temp
     else:
@@ -48,4 +50,6 @@ for word_i in data_all_words:
         error_list.append(word_i)
 else:
     file_name_all_words = "all_words.json"
-    write_file(file_name_all_words, json.dumps(god_object, ensure_ascii=False, indent=4))
+    write_file(
+        file_name_all_words, json.dumps(god_object, ensure_ascii=False, indent=4)
+    )
