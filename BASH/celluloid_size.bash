@@ -9,14 +9,14 @@ PID=$!
 # echo $#
 # echo $*
 
-# Window ID of the process...pray that there's     
+# Window ID of the process...pray that there's
 # only one window! Otherwise this might break.
 # We also need to wait for the process to spawn
 # a window.
 
 # echo $(wmctrl -lp | grep $(ps -C celluloid  -o pid=) | cut "-d " -f1)
 while [ "$WID" == "" ]; do
-        WID=$(wmctrl -lp | grep $PID | cut "-d " -f1)
+  WID=$(wmctrl -lp | grep $PID | cut "-d " -f1)
 done
 
 echo $WID
@@ -30,5 +30,6 @@ width=1500
 height=900
 position="${gravity},${X},${Y},${width},${height}"
 wmctrl -i -r $WID -e $position # чтобы окно открылось в нужном месте
-sleep 1 # чтобы дождаться пока прогрузится celluloid
+sleep 1                        # чтобы дождаться пока прогрузится celluloid
 wmctrl -i -r $WID -e $position # чтобы размеры окна сработали
+wmctrl -ia $WID                # фокус на окно
