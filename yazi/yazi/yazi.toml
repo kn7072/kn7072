@@ -3,8 +3,14 @@ ratio = [1, 2, 4]
 
 [opener]
 play = [
-	{ run = '/home/stepan/git_repos/kn7072/BASH/celluloid_size.bash "$@"', orphan = true, for = "linux" }
+	{ run = '/home/stepan/git_repos/kn7072/BASH/celluloid_size.bash "$@"', orphan = true, for = "linux", desc = "play to celluloid" },
+	{ run = '/home/stepan/git_repos/kn7072/BASH/vlc_size.bash "$@"', orphan = true, for = "linux", desc = "vlc to celluloid" }
 ]
+
+[preview]
+# Maximum preview width and height for images.
+max_width = 2560
+max_height = 1920
 
 # name: Glob expression for matching the file name. Case-insensitive by default, add \s to the beginning to make it sensitive.
 # mime: Glob expression for matching the mime-type. Case-insensitive by default, add \s to the beginning to make it sensitive.

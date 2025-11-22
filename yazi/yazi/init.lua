@@ -38,3 +38,6 @@ require("bookmarks"):setup({
         }
     }
 })
+
+-- https://github.com/uhs-robert/recycle-bin.yazi
+require("recycle-bin"):setup()

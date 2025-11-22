@@ -14,5 +14,29 @@ prepend_keymap = [
     { on = "<C-p>", run = "shell 'cb paste' --block", desc = "Paste from clipboard"},
 
     # https://github.com/ndtoan96/ouch.yazi?tab=readme-ov-file
-    { on = ["C"], run = "plugin ouch", desc = "Compress with ouch"}
+    { on = ["C"], run = "plugin ouch", desc = "Compress with ouch"},
+
+        # https://github.com/pirafrank/what-size.yazi
+    { on = [ "g", "s" ], run  = "plugin what-size", desc = "Calc size of selection or cwd"},
+
+    # https://github.com/yazi-rs/plugins/tree/main/mount.yazi-rs
+#    Key binding 	Alternate key 	Action
+#         q            -            Quit the plugin
+#         k            ↑            Move up
+#         j            ↓            Move down
+#         l            →            Enter the mount point
+#         m            -            Mount the partition
+#         u            -            Unmount the partition
+#         e            -            Eject the disk
+    { on  = "M", run = "plugin mount" },
+
+    # https://github.com/uhs-robert/recycle-bin.yazi
+    # The R b menu provides access to all trash management functions:
+    #
+    # o → Open Trash
+    # r → Restore from Trash
+    # d → Delete from Trash
+    # e → Empty Trash
+    # D → Empty by Days
+    { on = ["R","b"], run = "plugin recycle-bin", desc = "Open Recycle Bin menu" }
 ]
