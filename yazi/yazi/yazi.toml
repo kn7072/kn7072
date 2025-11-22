@@ -4,7 +4,7 @@ ratio = [1, 2, 4]
 [opener]
 play = [
 	{ run = '/home/stepan/git_repos/kn7072/BASH/celluloid_size.bash "$@"', orphan = true, for = "linux", desc = "play to celluloid" },
-	{ run = '/home/stepan/git_repos/kn7072/BASH/vlc_size.bash "$@"', orphan = true, for = "linux", desc = "vlc to celluloid" }
+	{ run = '/home/stepan/git_repos/kn7072/BASH/vlc_size.bash "$@"', orphan = true, for = "linux", desc = "play to vlc" }
 ]
 
 [preview]
