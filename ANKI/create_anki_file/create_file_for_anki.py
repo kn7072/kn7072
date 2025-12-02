@@ -9,13 +9,18 @@ from common import (
     get_sipmle_synonyms_html,
     read_file,
 )
-from config import comment_block, div_block, path_to_learnt_sentence, star_span_block
-
-data_all_words = read_file("ALL_WORDS.txt")  # ALL_WORDS.txt ПОВТОРИТЬ.txt
-path_dir_sound_files = (
-    "/home/stepan/GIT/kn7072/EnglishSimulate/Project/sound_longman_mono"
+from config import (
+    comment_block,
+    div_block,
+    path_dir_sound_files,
+    path_to_all_words,
+    path_to_learnt_sentence,
+    star_span_block,
 )
+
 path_anki_to_create = "/home/stepan/temp/anki/{i}_English_words.txt"
+
+data_all_words = read_file(path_to_all_words)  # ALL_WORDS.txt ПОВТОРИТЬ.txt
 
 delimeter = ";"
 ccs_class_even = "even"
@@ -85,16 +90,20 @@ def get_eng_rus_examples(list_examples_eng, list_examples_rus):
     :return:
     """
     temp_list = []
-    # temp_html = """<div class="phrase %s"><p>%s</p><p class="payload">%s</p></div>"""
-    temp_html = """<div class="phrase {odd_even}"><input type="checkbox" name="sentence" {is_learnt_class} onclick="checkedWord(this)"><label for="word">{eng}</label><p class="payload">{rus}</p><input type="button" value="learn" disabled="" class="learn  bottom-learn" onclick="sendSentence(this, '{eng}')"></div></div>"""
+    temp_html = """
+    <div class="phrase padding-container {odd_even} {is_learnt_class}">
+        <p>{eng}</p>
+        <p class="payload">{rus}</p>
+    </div>
+    """
     join_examples = zip(list_examples_eng, list_examples_rus)
 
     for ind, val_i in enumerate(join_examples):
         # если предложение найдено в learnt_sentence - помечаем его классом ouline-checbox
         is_learn = 0
-        is_learnt_class = 'class="mrg-right-15"'
+        is_learnt_class = ""
         if learnt_sentence.get(val_i[0]):
-            is_learnt_class = 'class="ouline-checbox mrg-right-15"'
+            is_learnt_class = "outline-container"
             is_learn = 1
 
         eng = val_i[0]
@@ -103,33 +112,28 @@ def get_eng_rus_examples(list_examples_eng, list_examples_rus):
             # экранирование апострофа
             eng = eng.replace("'", "\\'")
 
-        if ind % 2 != 0:
-            temp_list.append(
-                (
-                    is_learn,
-                    temp_html.format(
-                        odd_even=ccs_class_even,
-                        is_learnt_class=is_learnt_class,
-                        eng=eng,
-                        rus=rus,
-                    ),
-                )
-            )
-        else:
-            temp_list.append(
-                (
-                    is_learn,
-                    temp_html.format(
-                        odd_even=css_class_odd,
-                        is_learnt_class=is_learnt_class,
-                        eng=eng,
-                        rus=rus,
-                    ),
-                )
-            )
+        temp_list.append((is_learn, is_learnt_class, eng, rus))
 
     temp_list.sort(key=lambda x: x[0], reverse=True)
-    examples = "".join([v[1] for v in temp_list])
+    examples_list = []
+    for ind, val_i in enumerate(temp_list):
+        is_learnt_class = val_i[1]
+        eng = val_i[2]
+        rus = val_i[3]
+        odd_even = ccs_class_even
+
+        if ind % 2 == 0:
+            odd_even = css_class_odd
+        examples_list.append(
+            temp_html.format(
+                odd_even=odd_even,
+                is_learnt_class=is_learnt_class,
+                eng=eng,
+                rus=rus,
+            ),
+        )
+
+    examples = "".join(examples_list).replace("\n", "")
     return examples
 
 

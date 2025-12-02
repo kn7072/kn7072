@@ -212,6 +212,7 @@ def get_sipmle_synonyms_html(word):
                 [f"<div>{i}</div>" for i in translate_i.split("\n") if i]
             )
             temp.append(temp_translate)
+            temp.append("<br>")
         synonyms_translate = f"<div class='payload'>{separate_synonyms}</div>".join(
             temp
         )

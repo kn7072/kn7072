@@ -22,15 +22,17 @@ path_dir_mp3 = os.path.normpath(
 )
 dir_for_search_files = r"/home/stepan/git_repos/kn7072/ANKI/WORDS"
 
-
 path_file_words = os.path.join(path_script, "ПОВТОРИТЬ.txt")
 path_last_word = os.path.join(path_script, "last_word.txt")
 path_file_not_learn = os.path.join(path_script, "ПРОПУСТИТЬ.txt")
 path_synonyms_dir = os.path.join(path_anki, "Синонимы")
 path_word_building_dir = os.path.join(path_anki, "СловоОбразование")
 path_to_save_reports = "TEMP_REPORTS"
-# path_to_learnt_sentence = "Предложения.txt"
-path_to_learnt_sentence = "/home/stepan/GIT/kn7072/ANKI/Предложения.txt"
+path_to_learnt_sentence = os.path.join(path_anki, "Предложения.txt")
+path_to_all_words = os.path.join(path_anki, "TelegramBot", "ALL_WORDS.txt")
+path_dir_sound_files = (
+    "/home/stepan/git_repos/kn7072/EnglishSimulate/Project/sound_longman_mono"
+)
 
 word_block = """
  <div class="wrap_delete">

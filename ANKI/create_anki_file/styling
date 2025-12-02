@@ -1,0 +1,52 @@
+p {margin: 0 0 5px 0;}
+
+.wrap_delete {
+        display: flex;
+        align-items: center;
+    }
+.star::after {
+        content: "\f005";
+        font-family: awesome;
+        font-family: FontAwesome;
+        color: red;
+        margin-left: 5px;
+}
+
+.card {
+ font-family: arial;
+ font-size: 20px;
+ text-align: center;
+ color: black;
+ background-color: white;
+}
+.phrase {
+            background: #f2fbe7;
+            border: 1px solid #dff5c4;
+            border-radius: 6px;
+            color: #000
+        }
+        .phrase:hover {
+            background: #dff5c4;
+            border: 1px solid gray;
+            color: #000;
+            cursor: pointer;
+        }
+        .phrase .payload {
+            display: none;
+        }
+
+        .phrase:hover > p  {
+           display: block;
+        }
+
+ .phrase:hover > div  {
+           display: block;
+        }
+
+.odd  {   background-color: #ebffe3;}
+.even  {   background-color: #fff;}
+.pointer {cursor: pointer;}
+.red {outline: 2px solid red;}
+.padding-container { padding-bottom: 5px; padding-top: 5px;}
+.mrg-right-15 { margin-right: 15px; }
+.outline-container { outline: 2px solid pink; }
