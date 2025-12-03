@@ -74,21 +74,15 @@ def update_word_dict():
 
 list_new_words = get_list_words(path_file_to_save)
 for word_i in list_new_words:
-    # if word_i in all_words:
-    #     # print("Слово уже содержится в списке")
-    #     pass
-    # else:
-    #     print(f"{word_i}")
-    #     try:
-    #         create_json_word(word_i)
-    #     except Exception as e:
-    #         print(f"Проблемы {word_i}\n{e}")
-
-    print(f"{word_i}")
-    try:
-        create_json_word(word_i)
-    except Exception as e:
-        print(f"Проблемы {word_i}\n{e}")
+    if word_i in all_words:
+        # print("Слово уже содержится в списке")
+        pass
+    else:
+        print(f"{word_i}")
+        try:
+            create_json_word(word_i)
+        except Exception as e:
+            print(f"Проблемы {word_i}\n{e}")
 
 
 update_word_dict()
