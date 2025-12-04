@@ -11,6 +11,7 @@ from common import (
 )
 from config import (
     comment_block,
+    comment_header_block,
     div_block,
     path_dir_sound_files,
     path_to_all_words,
@@ -169,10 +170,13 @@ def get_content_word(data_all_words):
                     title_block="Мнемоника",
                     content_block=get_html_mnemonic(data_mnemonic),
                 ).replace("\n", "")
+                mnemonic = f"<br>{mnemonic}"
             if data_examples:
                 examples = get_eng_examples(data_examples)
             if data_comments:
-                comments = "".join(get_html_comments(data_comments)).replace("\n", "")
+                comments = "".join(get_html_comments(data_comments))
+                header_block = comment_header_block.format(content_block="Комментарии")
+                comments = f"<br>{header_block}{comments}".replace("\n", "")
 
             count_stars = data_word["stars"]
             stars_block = div_block.format(content=star_span_block * count_stars)

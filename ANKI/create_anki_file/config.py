@@ -53,6 +53,12 @@ comment_block = """
 </div>
 """
 
+comment_header_block = """
+<div class="phrase odd">
+    {content_block}
+</div>
+"""
+
 container_block = '<div class="wrap_delete">{content}</div>'
 div_block = "<div>{content}</div>"
 

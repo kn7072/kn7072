@@ -219,7 +219,8 @@ def get_sipmle_synonyms_html(word):
         synonyms_translate = comment_block.format(
             title_block="Синонимы", content_block="".join(temp)
         )
-        return synonyms_translate.replace("\n", "")
+        finish_block = f"<br>{synonyms_translate}"
+        return finish_block.replace("\n", "")
 
     if synonyms:
         synonyms_translate_html = create_html(synonyms)
