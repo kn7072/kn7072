@@ -285,7 +285,9 @@ Next, do:
 To get the ^M character, type Ctrl + V and hit Enter.
 
 :'<,'>s#xxxx#^M/g
+
 :'<,'>s/[`|-]//g | '<,'>s/<br>/^M/g
+
 '<,'>s/\v([\[\]])//g удалить скобки [,]
 
 создать несколько строк из одной
@@ -295,3 +297,51 @@ wonder about
 wonder at
 
 %s/\v(._) (._)\/(.\*)/\1 \2^M\1 \3
+
+If you have the following expressions:
+const arrayB = [
+"i",
+"g",
+"h",
+"b",
+"f",
+"d",
+"e",
+"c",
+"a",
+]
+
+const arrayA = [
+"h",
+"b",
+"f",
+"d",
+"e",
+"a",
+"c",
+]
+
+If you need to sort the elements inside the arrays, but not the arrays themselves, you can run this:
+:g/\[/+1,/\]/-1sort
+
+const arrayB = [
+"a",
+"b",
+"c",
+"d",
+"e",
+"f",
+"g",
+"h",
+"i",
+]
+
+const arrayA = [
+"a"
+"b",
+"c",
+"d",
+"e",
+"f",
+"h",
+]
