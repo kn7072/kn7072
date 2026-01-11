@@ -1,0 +1,17 @@
+https://netlabsdotin.wordpress.com/2014/04/06/%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-linux-network-namespaces-netns/
+
+https://ru.linux-console.net/?p=15130
+
+https://habr.com/ru/articles/549414/
+
+https://translated.turbopages.org/proxy_u/en-ru.ru.759c48a7-6942b1d3-f14e395d-74722d776562/https/www.baeldung.com/linux/block-access-process-network
+
+https://habr.com/ru/articles/82933/
+
+sudo ip netns add test
+sudo ip netns exec test su stepan -c "packettracer"
+sudo ip netns exec test su `id -un` -c "packettracer &"
+`id -un`
+
+sudo ip netns exec test bash
+su stepan -c "packettracer"

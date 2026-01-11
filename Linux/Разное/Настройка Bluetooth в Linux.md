@@ -210,7 +210,25 @@ bluetoothctl
 sudo apt install bluetooth
 ```
 
-Запустим утилиту. И для того, чтобы найти устройство запустим сканирование команды:
+список доступных bluetooth контроллеров
+
+```bash
+list
+```
+
+назначить контроллер по умолчанию(идентификатор взять из предыдущей команды list)
+
+```bash
+select id_ctrl
+```
+
+List available devices, with an optional property as the filte
+
+```bash
+devices [Paired/Bonded/Trusted/Connected]
+```
+
+начать сканировать доступные для подключения устройства
 
 ```bash
 scan on
@@ -224,6 +242,12 @@ scan on
 
 ```bash
 scan off
+```
+
+информация об устройстве
+
+```bash
+info 74:45:CE:15:F4:BB
 ```
 
 Cкопируем mac-адрес клавиатуры и для сопряжения воспользуемся командой pair:
@@ -315,3 +339,10 @@ hciconfig -a
 Если версия не отображается, то можно узнать версию воспользовавшись данной таблицей:
 
 ![Как узнать версию bluetooth у usb bluetooth адаптера в Linux](Настройка_Bluetooth_в_Linux_images/bt-table.jpg)
+
+dmesg | grep -i bluetooth
+
+rfkill list all
+
+gatttool -I
+connect 74:45:CE:15:F4:BB
