@@ -18,8 +18,8 @@ scp 'e:\SELENOID\TEST\entrypoint.sh' autotest@psdr-autotest9.unix.xxx.ru:/home/a
 
 scp 'e:\SELENOID\TEST\entrypoint.sh' autotest@psdr-autotest9.unix.xxx.ru:/home/autotest/images/selenium/android/
 
-скопировать файлы(все файлы *) с удаленного сервера в каталог /home/xxx/temp
-sudo scp user@89.203.105.238:/user/data/images/* /home/xxx/temp/
+скопировать файлы(все файлы \*) с удаленного сервера в каталог /home/xxx/temp
+sudo scp user@89.203.105.238:/user/data/images/\* /home/xxx/temp/
 
 ## ssh config
 
