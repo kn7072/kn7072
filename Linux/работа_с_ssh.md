@@ -29,7 +29,7 @@ sudo scp user@89.203.105.238:/user/data/images/* /home/xxx/temp/
 
 ## ssh config
 
-[https://www.cyberciti.biz/faq/create-ssh-config-file-on-linux-unix/]
+[ssh config](https://www.cyberciti.biz/faq/create-ssh-config-file-on-linux-unix/)
 
 ## Генерируем ключ
 
@@ -119,8 +119,8 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub user@host
 cat /var/log/secure | grep "Failed password for"
 ```
 
-// https://habr.com/ru/post/435546/
-// https://interface31.ru/tech_it/2017/04/ssh-tunneli-na-sluzhbe-sistemnogo-administratora.html
+[Практические советы, примеры и туннели SSH](https://habr.com/ru/post/435546/)
+[SSH-туннели на службе системного администратора](https://interface31.ru/tech_it/2017/04/ssh-tunneli-na-sluzhbe-sistemnogo-administratora.html)
 
 # 3 Туннель SSH (переадресация портов)
 
