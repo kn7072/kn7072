@@ -24,7 +24,7 @@ scp 'e:\SELENOID\TEST\entrypoint.sh' sg.chernov@usd-remote_machine.corp.xxx.ru:/
 скопировать файлы(все файлы \*) с удаленного сервера в каталог /home/xxx/temp
 
 ```bash
-sudo scp user@89.203.105.238:/user/data/images/\* /home/xxx/temp/
+sudo scp user@89.203.105.238:/user/data/images/* /home/xxx/temp/
 ```
 
 ## ssh config
@@ -33,7 +33,7 @@ sudo scp user@89.203.105.238:/user/data/images/\* /home/xxx/temp/
 
 ## Генерируем ключ
 
-[http://feanor184.ru/linux/kak-sozdat-otkryityiy-zakryityiy-ssh-klyuch-v-linux.html](генерируем ключ)
+[генерируем ключ](http://feanor184.ru/linux/kak-sozdat-otkryityiy-zakryityiy-ssh-klyuch-v-linux.html)
 
 ```bash
 ssh-keygen -t rsa
@@ -94,7 +94,7 @@ ssh -i /path-to-private-key username@remote-host-ip-address
 
 ## Аутентификация без пароля
 
-[https://losst.ru/kak-polzovatsya-ssh]
+[Аутентификация без пароля](https://losst.ru/kak-polzovatsya-ssh)
 Самый надежный и часто используемый способ аутентификации - с помощью пары ключей RSA. Секретный ключ хранится на компьютере, а публичный используется на сервере для удостоверения пользователя.
 Настроить такое поведение очень легко. Сначала создайте ключ командой:
 
