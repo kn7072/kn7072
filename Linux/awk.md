@@ -1,11 +1,11 @@
-cat file | awk  -F' — '  '{print "\"" $1 "\"" ","}'
-cat file | awk  -F' — '  '{print "if;" "    " $1 ";" "    " $2}'
+cat file | awk -F' — ' '{print "\"" $1 "\"" ","}'
+cat file | awk -F' — ' '{print "if;" " " $1 ";" " " $2}'
 
 [оригинал](https://losst.pro/ispolzovanie-awk-v-linux?ysclid=lrhtjaydfb138828597)
 
 Текст это сердце Unix. Философия "все есть файл" полностью пронизывает всю систему и  разработанные для нее инструменты. Вот почему работа с текстом является одним из обязательных навыков не только системного администратора, но и обычного пользователя Linux, который хочет поглубже разобраться в этой операционной системе.
 
-Команда awk - один из самых мощных инструментов для обработки и фильтрации текста, доступный даже для людей никак не связных с программированием. Это не просто утилита, а целый язык разработанный для обработки и извлечения данных. В этой статье мы разберемся как пользоваться awk.  
+Команда awk - один из самых мощных инструментов для обработки и фильтрации текста, доступный даже для людей никак не связных с программированием. Это не просто утилита, а целый язык разработанный для обработки и извлечения данных. В этой статье мы разберемся как пользоваться awk.
 
 ## Синтаксис команды awk
 
@@ -58,47 +58,47 @@ cat file | awk  -F' — '  '{print "if;" "    " $1 ";" "    " $2}'
 
 `echo 'one two three four' | awk '{print $1}'`
 
-[![[awk_images/f7f809ce548c13b7abf673b50285805b_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-35-20.png)
+![](awk_images/f7f809ce548c13b7abf673b50285805b_MD5.png)
 
 Да, использование фигурных скобок немного непривычно, но это только в первое время. Вы уже догадались как напечатать второе, третье, четвертое, или другие поля? Правильно это $2, $3, $4 соответственно.
 
 `echo 'one two three four' | awk '{print $3}'`
 
-[![[awk_images/68b7941ed85529a49e3dac9ace65e7ae_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-37-47.png)
+![](awk_images/68b7941ed85529a49e3dac9ace65e7ae_MD5.png)
 
 Иногда необходимо представить данные в определенном формате, например, выбрать несколько слов. AWK легко справляется с группировкой нескольких полей и даже позволяет включать статические данные:
 
 `echo 'one two three four' | awk '{print $3,$1}'`
 
-[![[awk_images/cfa8fcc9e60eaff5e52ab74a5e1c46c8_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-38-58.png)
+![](awk_images/cfa8fcc9e60eaff5e52ab74a5e1c46c8_MD5.png)
 
 `echo 'one two three four' | awk '{print "foo:",$3,"| bar:",$1}'   `
 
-[![[awk_images/06035739aeabe62a65aeab40b772f8b2_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-39-24.png)
+![](awk_images/06035739aeabe62a65aeab40b772f8b2_MD5.png)
 
 Если поля разделены не пробелами, а другим разделителем, просто укажите в параметре -F нужный разделитель в кавычках, например ":" :
 
 `echo 'one mississippi:two mississippi:three mississippi:four mississippi' | awk -F":" '{print $4}'   `
 
-[![[awk_images/dcb7475459777f01319bab6dd9cee79e_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-39-57.png)
+![](awk_images/dcb7475459777f01319bab6dd9cee79e_MD5.png)
 
 Но разделитель не обязательно заключать в кавычки. Следующий вывод аналогичен предыдущему:
 
 `echo 'one mississippi:two mississippi:three mississippi:four mississippi' | awk -F: '{print $4}'   `
 
-[![[awk_images/b1ba155043b861de383bfffeda004046_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-41-41.png)
+![](awk_images/b1ba155043b861de383bfffeda004046_MD5.png)
 
 Иногда нужно обработать данные с неизвестным количеством полей. Если вам нужно выбрать последнее поле можно воспользоваться переменной $NF. Вот так вы можете вывести последнее поле:
 
 `echo 'one two three four' | awk '{print $NF}'   `
 
-[![[awk_images/af6e31a2c48b17dcd9ebd98b9acc0bf4_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-42-42.png)
+![](awk_images/af6e31a2c48b17dcd9ebd98b9acc0bf4_MD5.png)
 
 Также вы можете использовать переменную $NF для получения предпоследнего поля:
 
 `echo 'one two three four' | awk '{print $(NF-1)}'   `
 
-[![[awk_images/2134de47a23fd35dca4435ee8978b9ad_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-43-26.png)
+![](awk_images/2134de47a23fd35dca4435ee8978b9ad_MD5.png)
 
 Или поля с середины:
 
@@ -106,7 +106,7 @@ cat file | awk  -F' — '  '{print "if;" "    " $1 ";" "    " $2}'
 
 `echo 'one two three four five' | awk '{print $((NF/2)+1)}'   `
 
-[![[awk_images/75c1c5bdbee9aa0ddb8da0accec48428_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-44-36.png)
+![](awk_images/75c1c5bdbee9aa0ddb8da0accec48428_MD5.png)
 
 Все это можно сделать с помощью таких утилит как sed, cut и grep но это будет намного сложнее.
 
@@ -114,36 +114,36 @@ cat file | awk  -F' — '  '{print "if;" "    " $1 ";" "    " $2}'
 
 `echo -e 'one 1\n two 2' | awk '{print $1}'   `
 
-[![[awk_images/b34ac9ad126435a1c2bf0982a7af7874_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-46-07.png)
+![](awk_images/b34ac9ad126435a1c2bf0982a7af7874_MD5.png)
 
 А вот пример фильтрации с помощью условия, выведем только строку, в которой содержится текст one:
 
 `echo -e 'one 1\n two 2' | awk '/one/ {print $1}'`
 
-[![[awk_images/02037ac7cd09f1a45ec762796598def5_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-46-46.png)
+![](awk_images/02037ac7cd09f1a45ec762796598def5_MD5.png)
 
 А вот пример использования операций с переменными:
 
 `echo -e 'one 1\n two 2' | awk '{sum+=$2} END {print sum}'`
 
-[![[awk_images/6553b694dc843a5f2f2c24b901b5e364_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-49-48.png)
+![](awk_images/6553b694dc843a5f2f2c24b901b5e364_MD5.png)
 
 Это означает что мы должны выполнять следующий блок кода для каждой строки. Это можно использовать, например, для подсчета количества переданных данных по запросам из журнала веб-сервера.
 
 Представьте себе, у нас есть журнал доступа, который выглядит так:
 
-[![[awk_images/75f9e0c3aebb5e8084b7df74a15bf521_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-55-04.png)
+![](awk_images/75f9e0c3aebb5e8084b7df74a15bf521_MD5.png)
 
 Мы можем подсчитать, что количество переданных байт, это десятое поле. Дальше идёт User-Agent пользователя и он нам не интересен:
 
 `cat /var/log/apache2/access.log | awk '{print $10}'   `
 
-[![[awk_images/43a705c7b11020c17a8cf8ff9872c22f_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-55-26.png)
+![](awk_images/43a705c7b11020c17a8cf8ff9872c22f_MD5.png)
 
 Вот так можно подсчитать количество байт:
 
 `< requests.log awk '{totalBytes+=$NF} END {print totalBytes}'   `
 
-[![[awk_images/40e4bd1949f64dcccbd29e7384ad428b_MD5.png]]](https://losst.pro/wp-content/uploads/2015/06/Snimok-ekrana-ot-2020-04-20-18-58-28.png)
+![](awk_images/40e4bd1949f64dcccbd29e7384ad428b_MD5.png)
 
 Это только несколько примеров показывающих использование awk в Linux , освоив awk один раз в получите очень мощный и полезный инструмент на всю жизнь.
