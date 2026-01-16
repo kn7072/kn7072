@@ -673,6 +673,7 @@ Fingerprint (отпечатки) ключей в gpg имеют примерно
 
 ## Источники: <a name="link_26"></a>
 
+- [encrypt-decrypt-files](https://www.baeldung.com/linux/encrypt-decrypt-files)
 - Шпаргалка по использованию GPG: [http://irtfweb.ifa.hawaii.edu/~lockhart/./](http://irtfweb.ifa.hawaii.edu/~lockhart/./)
 - **man gpg**
 - [https://superuser.com/questions/354890/how-do-i-symmetrically-encrypt-a-file-using-gpg](https://superuser.com/questions/354890/how-do-i-symmetrically-encrypt-a-file-using-gpg)
