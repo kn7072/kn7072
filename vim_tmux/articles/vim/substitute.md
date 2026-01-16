@@ -272,6 +272,22 @@ Useful when we want to strip some blocks from a patch, without patch having to c
 2. In normal mode, type `cgn` (change the next search hit) then immediately type the replacement. Press Esc to finish.
 3. From normal mode, search for the next occurrence that you want to replace (`n`) and press `.` to repeat the last change.
 
+## Substitute with ascending numbers
+
+Suppose you want to replace each occurrence of "abc" with "xyz_N" where N is an ascending number (xyz_1, xyz_2, xyz_3, and so on).
+
+One approach uses the following command:
+
+:let i=1 | g/abc/s//\='xyz\_'.i/ | let i=i+1
+
+However, this only changes the first abc on each line. Adding the g flag for a global substitute does not help as i is only incremented once per matching line.
+
+The following trick uses the a register which can be changed with the setreg() function:
+
+:let @a=1 | %s/abc/\='xyz\_'.(@a+setreg('a',@a+1))/g
+
+As setreg returns 0 rather than a useful value, the replacement expression (\=) calls setreg by adding it to register a.
+
 ## replace pattern and add new line
 
 First, set your Vi(m) session to allow pattern matching with special characters (i.e.: newline). It's probably worth putting this line in your .vimrc or .exrc file:
@@ -345,3 +361,36 @@ const arrayA = [
 "f",
 "h",
 ]
+
+## для obsidian
+
+преобразует ссылке на картинки
+
+```
+%s/\v(\[!\[\[)(.*)(\]\]\].*)/![](\2)
+```
+
+было
+[![[gpg/gpg_hackware_images/x.png]]](https://xxx/02/gpg1.png)
+станет
+![](gpg/gpg_hackware_images/x.png)
+
+```
+g/\v^(#{1,3})(.*)/copy$
+let @a=1  | %s/v^(#{1,3})(.*)/\=submatch(1).'  foo '.(@a+setreg('a',@a+1)). submatch(2)/
+
+%s/\v^(#{1,3})(.*)/\=submatch(1).submatch(2).' <a name="link_'.(@a+setreg('a',@a+1)).'"><\/a>'/
+
+
+let @a=1 | g/\v^(#{1,3})(.*)/s//\=submatch(1).submatch(2).' <a name="link_'.(@a+setreg('a',@a+1)).'"><\/a>'/g
+
+%s#\\/a#/a#g
+
+
+let @a=1 | g/\v^(#{1,3})(.*)/s//\='['.submatch(2).']'.'(#link_'.(@a+setreg('a',@a+1)).')'/g
+let i=1 | g/\V[/s//\=i.'. ['/ | let i=i+1
+
+
+| t$
+
+```
