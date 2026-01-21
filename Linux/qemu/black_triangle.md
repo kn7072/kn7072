@@ -1,3 +1,5 @@
+[manpage](https://www.qemu.org/docs/master/system/qemu-manpage.html)
+
 # создание диска
 
 qemu-img create -f qcow2 test.qcow 10G
