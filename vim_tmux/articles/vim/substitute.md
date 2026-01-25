@@ -362,6 +362,34 @@ const arrayA = [
 "h",
 ]
 
+## удаление символов \_
+
+пример до удаления
+
+```
+$ qemu-img create -o backing_file=_img1.raw_,backing_fmt=raw -f qcow2 _img1.cow_
+```
+
+фаблон для замены
+
+```
+%s/\v[=[:punct:][:space:]]\zs(_)([[:alnum:][:punct:]]{-})(_)\ze[[:punct:][:space:]\n]/\2/g
+
+```
+
+фаблон с дополнительной фильтрацией - отбираем строки начинающиеся с `$ qem` и к полученным строкам применяем фаблон выше,
+в примере в конце строрки указано /gc, что означает глобальная замена с подтверждением
+
+```
+g/\$ gemu/s/\v[=[:punct:][:space:]]\zs(_)([[:alnum:][:punct:]]{-})(_)\ze[[:punct:][:space:]\n]/\2/gc
+```
+
+после применения шаблона
+
+```
+$ qemu-img create -o backing_file=img1.raw,backing_fmt=raw -f qcow2 img1.cow
+```
+
 ## для obsidian
 
 преобразует ссылке на картинки
