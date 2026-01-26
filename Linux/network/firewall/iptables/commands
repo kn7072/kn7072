@@ -1,0 +1,16 @@
+sudo su
+
+вывести правила для filter по умолчанию
+iptables -L
+iptables -S
+детализированный вывод
+iptables -vnL
+
+для таблицы nat
+iptables -t nat -L
+
+заблокировать icmp запрос
+iptables -t filter -A INPUT -p icmp --icmp-type echo-request -j DROP
+
+iptables -t filter -A OUTPUT -p tcp --dport 80 -d www.ubuntu.com -j DROP
+iptables -t filter -A OUTPUT -p tcp --dport 443 -d www.ubuntu.com -j DROP
