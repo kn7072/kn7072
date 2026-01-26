@@ -421,7 +421,7 @@ let i=1 | g/\V[/s//\=i.'. ['/ | let i=i+1
 let @a=1 | let min_indent = 2 | g/\v^(#{1,5})(.*)/s//\=repeat(" ", (len(submatch(1))-min_indent)*2).'- '.'['.submatch(2).']'.'(#link_'.(@a+setreg('a',@a+1)).')'/g
 
 min_indent - минимальное число символов # в загаловках
-для примра ниже min_indent будет 2(## Running a virtualized system - начинается с двух символов #)
+для примра ниже min_indent будет 2(## Running a virtualized system - начинается с 2 символов #)
 
 
 ```
