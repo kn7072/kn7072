@@ -417,5 +417,26 @@ let @a=1 | g/\v^(#{1,3})(.*)/s//\=submatch(1).submatch(2).' <a name="link_'.(@a+
 let @a=1 | g/\v^(#{1,3})(.*)/s//\='['.submatch(2).']'.'(#link_'.(@a+setreg('a',@a+1)).')'/g
 let i=1 | g/\V[/s//\=i.'. ['/ | let i=i+1
 
+4. сделать иерархическое оглавление
+let @a=1 | let min_indent = 2 | g/\v^(#{1,5})(.*)/s//\=repeat(" ", (len(submatch(1))-min_indent)*2).'- '.'['.submatch(2).']'.'(#link_'.(@a+setreg('a',@a+1)).')'/g
 
+min_indent - минимальное число символов # в загаловках
+для примра ниже min_indent будет 2(## Running a virtualized system - начинается с двух символов #)
+
+
+```
+
+    ## Running a virtualized system
+    ### Enabling KVM
+    ### Enabling IOMMU (Intel VT-d/AMD-Vi) support
+    ### Booting in UEFI mode
+    #### Enabling Secure Boot
+    ### Trusted Platform Module emulation
+
+```
+
+Переменные
+https://jenyay.net/Programming/VimScript2?ysclid=mkuuuy3768999963849
+Работа со списками
+https://jenyay.net/Programming/VimScript3
 ```
