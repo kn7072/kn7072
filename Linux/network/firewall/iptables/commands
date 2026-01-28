@@ -14,3 +14,17 @@ iptables -t filter -A INPUT -p icmp --icmp-type echo-request -j DROP
 
 iptables -t filter -A OUTPUT -p tcp --dport 80 -d www.ubuntu.com -j DROP
 iptables -t filter -A OUTPUT -p tcp --dport 443 -d www.ubuntu.com -j DROP
+
+блокировать входящий запрос на 25 порт
+(nmap -p 25 192.168.0.10)
+iptables -A INPUT -p tcp --dport 25 -j DROP
+iptables -A INPUT -p tcp --dport 80 -j DROP
+
+https://wiki.archlinux.org/title/QEMU#Networking
+ip addr add 172.20.0.1/16 dev br0
+dnsmasq -C /dev/null --interface=br0 --bind-interfaces --dhcp-range=172.20.0.2,172.20.255.254
+
+https://www.linux.org.ru/forum/admin/10715506?ysclid=mkwng6t0fm762863993
+iptables -t nat -A POSTROUTING -s 172.20.0.0/16 -j MASQUERADE
+
+
