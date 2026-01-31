@@ -33,6 +33,11 @@ yt-dlp -vU --extractor-args "youtube:formats=dashy" URL
 
 
 ## дополнительные примеры
+работа через прокси
+URL="link to video"
+sudo yt-dlp --proxy socks5://127.0.0.1:8080 -vU --list-formats $URL
+sudo yt-dlp --proxy socks6://127.0.0.1:8080 -o '%(title)s.f%(format_id)s.%(ext)s' -f bestaudio $URL
+
 покажет все доступные форматы
 yt-dlp -vU --list-formats URL | grep mp4
 
