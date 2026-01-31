@@ -327,21 +327,21 @@ $ sudo systemctl restart ssh
 ```
 #Проброс соединения 192.168.110.2 ==L==> 192.168.110.8
 Host local-forward-ssh-server
-  HostName [grn]192.168.110.8[/grn]
+  HostName 192.168.110.8
   Port 2222
-  User [grn]evgeniy[/grn]
+  User evgeniy
   IdentityFile ~/.ssh/tcp-forward-ssh-server
-  LocalForward [red]3307 127.0.0.1:3306[/red]
+  LocalForward 3307 127.0.0.1:3306
 ```
 
 ```
 #Проброс соединения 192.168.110.2 <==R== 192.168.110.8
 Host remote-forward-ssh-server
-  HostName [grn]192.168.110.8[/grn]
+  HostName 192.168.110.8
   Port 2222
-  User [grn]evgeniy[/grn]
+  User evgeniy
   IdentityFile ~/.ssh/tcp-forward-ssh-server
-  RemoteForward [red]3306 127.0.0.1:3306[/red]
+  RemoteForward 3306 127.0.0.1:3306
 ```
 
 Теперь можно упростить команды построения туннелей:
@@ -375,21 +375,21 @@ $ ssh-copy-id -p 2222 -i ~/.ssh/tcp-forward-ssh-server.pub evgeniy@192.168.110.8
 ```
 #Проброс соединения 192.168.110.8 ==R==> 192.168.110.12
 Host remote-forward-ssh-server
-  HostName [grn]192.168.110.8[/grn]
+  HostName 192.168.110.8
   Port 2222
-  User [grn]evgeniy[/grn]
+  User evgeniy
   IdentityFile ~/.ssh/tcp-forward-ssh-server
-  RemoteForward [red]3306 127.0.0.1:3306[/red]
+  RemoteForward 3306 127.0.0.1:3306
 ```
 
 ```
 #Проброс соединения 192.168.110.8 <==L== 192.168.110.12
 Host local-forward-ssh-server
-  HostName [grn]192.168.110.8[/grn]
+  HostName 192.168.110.8
   Port 2222
-  User [grn]evgeniy[/grn]
+  User evgeniy
   IdentityFile ~/.ssh/tcp-forward-ssh-server
-  LocalForward [red]3307 127.0.0.1:3306[/red]
+  LocalForward 3307 127.0.0.1:3306
 ```
 
 Теперь можно упростить команды построения туннелей:
