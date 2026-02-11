@@ -57,3 +57,9 @@ exit
 ```bash
 curl localhost:8080
 ```
+
+## примеры unshare
+```bash
+unshare -mnp -f -R dir_for_root --mount-proc busybox sh
+unshare --mount --uts --ipc --net --pid --fork -R dir_for_root --mount-proc busybox sh
+```
