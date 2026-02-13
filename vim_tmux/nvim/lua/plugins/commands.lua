@@ -142,14 +142,20 @@ api.nvim_create_user_command('Eng', function(opts)
     -- local file_path = "/home/stepan/temp/саша/json"
     local file_path =
         "/home/stepan/git_repos/kn7072/ANKI/TelegramBot/all_words.json"
-    local cmd = string.format(
-                    [[jq 'to_entries[] | select(.key | test("^%s.*"))' "%s"]],
-                    opts.args, file_path)
-    -- local cmd = string.format(
+    local path_to_synonym =
+        "/home/stepan/git_repos/kn7072/ANKI/Синонимы/clear_dict.txt"
+    local cmd_for_all_words = string.format(
+                                  [[jq 'to_entries[] | select(.key | test("^%s.*"))' "%s"]],
+                                  opts.args, file_path)
+    local cmd_for_synonym = string.format(
+                                [[cat "%s" | grep -Ei -A 7 --color "%s"]],
+                                path_to_synonym, opts.args)
+
+    -- local cmd_for_all_words = string.format(
     --                 [[cat %s | jq 'to_entries[] | select(.key | test("%s.*"))']],
     --                 file_path, opts.args)
 
-    -- print(cmd)
+    -- print(cmd_for_all_words)
     -- local file_content = read_file(file_path)
     -- local file_content = get_data_file(file_path)
     -- local lines = lines_from(file_path)
@@ -158,13 +164,16 @@ api.nvim_create_user_command('Eng', function(opts)
     --     print(string.format("file %s not found", file_path))
     -- end
     -- print(file_content)
-    -- print("echo '" .. file_content .. cmd)
+    -- print("echo '" .. file_content .. cmd_for_all_words)
     -- local bufnr = api.nvim_get_current_buf()
     --
     --
-    -- local content = vim.fn.system("echo '" .. file_content .. cmd)
-    local content = vim.fn.system(cmd)
-    -- print(content)
+    -- local content_word = vim.fn.system("echo '" .. file_content .. cmd_for_all_words)
+    local content_word = vim.fn.system(cmd_for_all_words)
+    -- print(content_word)
+
+    local content_synonym = vim.fn.system(cmd_for_synonym)
+    content_word = content_word .. content_synonym
 
     local current_win = api.nvim_get_current_win()
     local current_win_width = api.nvim_win_get_width(current_win)
@@ -180,7 +189,7 @@ api.nvim_create_user_command('Eng', function(opts)
     -- print(string.format("%s", bufnr))
     -- api.nvim_buf_set_name(bufnr, 'English')
 
-    local lines = split(content, "\n")
+    local lines = split(content_word, "\n")
     -- for _, line in ipairs(lines) do
     --     print(line)
     -- end
@@ -215,8 +224,8 @@ api.nvim_create_user_command('Eng', function(opts)
     -- print(eng_win_id)
     vim.cmd('redraw')
 
-    -- print(type(content))
+    -- print(type(content_word))
 
-    -- print(vim.fn.executable("echo '" .. file_content .. cmd))
+    -- print(vim.fn.executable("echo '" .. file_content .. cmd_for_all_words))
 
 end, {desc = "English", nargs = 1})

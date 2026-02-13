@@ -1,0 +1,17 @@
+cat /proc/cgroups - посмотреть все контроллеры
+-g название контроллера(ов) через запятую
+
+cgcreate -t stepan:stepan -g memory,cpu:/firstcgroup
+
+## перенести процессы в группу
+cgclassify -g cpu:/firstcgroup 6433 3662  перенести процессы(6433 3662) в группу(1:12)
+или тоже самое, только по одному
+echo 6433 >/sys/fs/cgroup/cpu/firstcgroup/cgroup.procs
+echo 3662 >/sys/fs/cgroup/cpu/firstcgroup/cgroup.procs
+
+## выполнение процесса в группе
+cgexec -g memory:/firstcgroup firefox
+
+## cgget
+cgget -r cpu.max /firstcgroup
+cat /sys/fs/cgroup/firstcgroup/cpu.max

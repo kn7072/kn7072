@@ -68,3 +68,7 @@ kmap("n", "<leader>cp", ":cprev<CR>")
 
 -- экспериментальная опция для тестирования работы комманд
 -- kmap({"n"}, "mmm", ":Test<CR>") -- CapsLock Capslock
+
+kmap({"n"}, "<leader>w", function()
+    vim.cmd.Eng(vim.fn.expand("<cword>"))
+end)
