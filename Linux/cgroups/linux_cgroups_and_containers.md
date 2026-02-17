@@ -621,7 +621,8 @@ Docker is donating its container format and runtime, runC, to the OCI to serve a
   Containerd is built on top of the Open Container Initiative’s runC and specification. Containerd is a daemon providing a GRPC API to manage containers on the local system. Containerd leverages runC to provide advanced functionality like checkpoint and restore, seccomp, and user namespace support which will open the door for these features into Docker. [[11]](https://blog.codefarm.me/2021/11/23/linux-cgroups-containers/#containerd-daemon-to-control-runc)
   Containerd is designed to be embedded into a larger system, rather than being used directly by developers or end-users.
   Containerd was designed to be used by Docker and Kubernetes as well as any other container platform that wants to abstract away syscalls or OS specific functionality to run containers on linux, windows, solaris, or other OSes. [[12]](https://blog.codefarm.me/2021/11/23/linux-cgroups-containers/#docker-what-is-containerd-runtime)
-  ![containerd architecture diagram](https://containerd.io/img/architecture.png)
+
+![containerd architecture diagram](linux_cgroups_and_containers_images/architecture.png)
 
 ### 2.3. What is Docker? <a name="link_13"></a>
 
