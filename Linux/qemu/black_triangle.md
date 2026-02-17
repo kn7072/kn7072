@@ -70,4 +70,4 @@ alt + enter -открыть терминал
 alt + shift + q -закрыть окно
 alt + ctrcl + g -захват клавиатуры и мыши
 
-sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system virtinst bridge-utils, virt-manager
+sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system virtinst bridge-utils virt-manager
