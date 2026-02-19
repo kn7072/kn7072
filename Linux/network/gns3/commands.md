@@ -23,6 +23,14 @@
 /usr/bin/qemu-system-x86_64 -name Ubuntu-1 -m 2048M -smp cpus=2,sockets=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/stepan/GNS3/projects/nftables/project-files/qemu/2393e70b-a028-4185-8db5-0e9f7eaf3fd2/hda_disk.qcow2,if=virtio,index=0,media=disk,id=drive0 -uuid 2393e70b-a028-4185-8db5-0e9f7eaf3fd2 -device virtio-net-pci,mac=0c:93:e7:0b:00:00,speed=10000,duplex=full,netdev=gns3-0 -netdev user,id=gns3-0
 ```
 
+**логин и пароль для машины указаны во вкладке "usage"**
+сначала необходимо зайти в **"Configure"**
+![](./commands_images/configure.png)
+
+далее в **"Usage"**
+
+![](./commands_images/login.png)
+
 авторизуемся и выполняем
 
 ```bash
@@ -34,4 +42,11 @@ sudo apt upgrade
 
 ```bash
 sudo hostname ubuntu1
+```
+
+### смена пароля для пользователя **osboxes**
+
+```bash
+sudo passwd osboxes
+
 ```
