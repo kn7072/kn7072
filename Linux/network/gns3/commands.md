@@ -41,8 +41,10 @@ sudo apt upgrade
 ### смена hostname
 
 ```bash
-sudo hostname ubuntu1
+sudo hostnamectl set-hostname server01
 ```
+
+Изменение вступит в силу сразу, и сохранится после перезагрузки.
 
 ### смена пароля для пользователя **osboxes**
 
