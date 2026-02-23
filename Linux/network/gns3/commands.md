@@ -50,3 +50,22 @@ sudo hostname ubuntu1
 sudo passwd osboxes
 
 ```
+
+### tmux - ошибка: "missing or unsuitable terminal: xterm-titty"
+
+- открыть файл .bashrc
+- добавить строку
+
+```
+export TERM="xterm-256color"
+```
+
+сохранить и закрыть файл
+
+- перечитать .bashrc, выполнив команду
+
+```
+source .bashrc
+```
+
+- теперь можно запускать **tmux**
