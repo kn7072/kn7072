@@ -120,8 +120,8 @@ listening on enp4s0, link-type EN10MB (Ethernet), capture size 262144 bytes
 253     default
 0       unspec
 # добавляем новые таблицы
-[grn]101     enp2s0[/grn]
-[grn]102     enp4s0[/grn]
+101     enp2s0
+102     enp4s0
 ```
 
 Теперь добавляем два новых правила — какие таблицы просматривать при отправке пакета:

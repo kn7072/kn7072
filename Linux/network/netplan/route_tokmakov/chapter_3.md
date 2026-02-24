@@ -105,8 +105,8 @@ $ ip rule show
 253     default
 0       unspec
 # добавляем новые таблицы
-[grn]100     primary[/grn]
-[grn]200     secondary[/grn]
+100     primary
+200     secondary
 ```
 
 Каждая из таблиц маршрутизации содержит маршрут по умолчанию:
