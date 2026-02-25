@@ -1,5 +1,16 @@
 sudo su
 
+доступные расширения
+man iptables-extensions\(8\)
+для дальнейшего использования с ключом -m
+на пример 
+-m addrtype --dst-type MULTICAST
+
+посмотреть доступные типы адресов
+iptables -m addrtype --help
+
+
+
 вывести правила для filter по умолчанию
 iptables -L
 iptables -S
@@ -14,7 +25,13 @@ iptables -t filter -A INPUT -p icmp --icmp-type echo-request -j DROP
 отбросить все типы icmp
 iptables -A INPUT -p icmp -j DROP
 
-принять ssh с адреса 10.0.0.1
+запретить доступ к сети 8.0.0.0/8 с локальной машины
+iptables -A OUTPUT -d 8.0.0.0/8 -j DROP
+
+отклонить все запросы с адреса 10.0.0.1 к локальной машине
+iptables -A INPUT -p tcp -s 10.0.0.1 -j DROP
+
+принять ssh с адреса 10.0.0.1 на локальный порт 22
 iptables -A INPUT -p tcp --dport 22 -s 10.0.0.1 -j ACCEPT
 а все отстальные будут отброшены
 iptables -A INPUT -p tcp --dport 22 -j DROP
@@ -27,6 +44,28 @@ iptables -t filter -A OUTPUT -p tcp --dport 443 -d www.ubuntu.com -j DROP
 (nmap -p 25 192.168.0.10)
 iptables -A INPUT -p tcp --dport 25 -j DROP
 iptables -A INPUT -p tcp --dport 80 -j DROP
+
+работа с диапазонами адресов
+
+запрет multicast рассылки
+iptables -A OUTPUT -m addrtype --dst-type MULTICAST -j DROP
+
+запретить доступ для диапазона адресов 10.0.0.10-10.0.0.19, пытающихся установить соединение на локальный 25 порт
+iptables -A INPUT -p tcp --dport 25 -m iprange --src-range 10.0.0.10-10.0.0.19 -j DROP
+
+добавить правило в начало цепочки
+iptables -I INPUT -p udp --dport 69 -j DROP
+добавить правило в 3 позицию
+iptables -I INPUT 3 -p udp --dport 69 -j DROP
+
+сборос счетиков байт
+iptables -Z
+
+создать пользовательскую цепочку
+iptables -N MYCHAIN
+удалить цепочку
+iptables -X MYCHAIN
+
 
 посмотреть правила для INPUT
 iptables -L INPUT --line-numbers
