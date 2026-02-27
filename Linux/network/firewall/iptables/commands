@@ -1,5 +1,8 @@
 sudo su
 
+доступные протоколы и порты
+cat /etc/protocols
+
 доступные расширения
 man iptables-extensions\(8\)
 для дальнейшего использования с ключом -m
@@ -46,12 +49,42 @@ iptables -A INPUT -p tcp --dport 25 -j DROP
 iptables -A INPUT -p tcp --dport 80 -j DROP
 
 работа с диапазонами адресов
-
 запрет multicast рассылки
 iptables -A OUTPUT -m addrtype --dst-type MULTICAST -j DROP
 
 запретить доступ для диапазона адресов 10.0.0.10-10.0.0.19, пытающихся установить соединение на локальный 25 порт
 iptables -A INPUT -p tcp --dport 25 -m iprange --src-range 10.0.0.10-10.0.0.19 -j DROP
+запрет отправлять мультикаст рассылку
+iptables -A OUTPUT -m addrtype --dst-type MULTICAST -j DROP
+
+разрешить исходящий трафик на удаленные порты 80,443
+iptables -A OUTPUT -p tcp -m multiport --dports 80,433 -j ACCEPT
+nmap -p 80,443 192.168.1.33 -P0
+
+разрешить входящий трафик через интерфейс wlan0
+доступно для таблиц INPUT, FORWARD, PREROUTING
+знак + после имени интерфейса означает что имя будет начинаться с указанных симвлов, а дальше все что подходит (wlan0 подходит под wlan+)
+iptables -A INPUT -i wlan+ -j ACCEPT
+
+разрешить исходящий трафик через интерфейс wlan0
+доступно для таблиц FORWARD, OUTPUT, POSTROUTING
+iptables -A OUTPUT -o wlan0 -j ACCEPT
+
+отклонить весь трафик кроме трафика с 192.168.1.41 на локальный порт 433 
+iptables -A INPUT ! -s 192.168.1.41 -p tcp --dport 443 -j DROP
+
+блокировать tcp с флагом syn
+iptables -A INPUT -p tcp --dport 22 --syn -j DROP
+
+разрешить устанавливать новые ssh соединения только для машины 192.168.1.41
+iptables -A INPUT ! -s 192.168.1.41 -p tcp --dport 22 --syn -j DROP
+
+отбрасываем невалидные пакеты на входной и выходной цепочках
+iptables -m state --help
+iptables -A INPUT -m state --state INVALID -j DROP
+iptables -A OUTPUT -m state --state INVALID -j DROP
+
+
 
 добавить правило в начало цепочки
 iptables -I INPUT -p udp --dport 69 -j DROP
