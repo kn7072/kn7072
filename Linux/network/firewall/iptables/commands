@@ -91,6 +91,29 @@ iptables -A INPUT -i wlan0 -m mac --mac-source 08:00:27:55:6f:20 -j DROP
 фильтарация по времени
 iptables -m time --help
 
+ограничение числа подключений
+iptables -m connlimit --help
+
+ограничения
+iptables -m limit --help
+логируем только 1 пакет в минуту
+iptables -A FORWARD -m limit --limit 1/minute -p udp --dport 53 -j LOG
+два новых подключения не чаще чем 2 в секунду с общим ограничением 7
+iptables -A INPUT -p tcp --syn -m limit --limit 2/s --limit-burst 7 -j ACCEPT
+
+iptables -A INPUT -p icmp --icmp-type echo-request -m limit --limit 2/s --limit-burst 7 -j ACCEPT
+iptables -A INPUT -p icmp --icmp-type echo-request -j DROP
+tcpdump icmp -n на машине с установленными правилами(видно что все первые пакеты есть ответы
+а далее не на каждый запрос отправляется ответ)
+ping -i 0.1 192.168.1.41  пингуем машину с установленными правилами с интервалом 0.1 сек
+(первые 7 ответов получаем бысто а остальные каждые 2 секунды)
+
+работа с черными списками
+iptables -m recent --help
+cat /proc/net/xt_recent/badguys
+iptables -A FORWARD -m recent --name badguys --update --second 60 -j DROP
+iptables -A FORWARD -p tcp -i eth0 --dport 8080 -m recent --name badguys --set -j DROP
+
 добавить правило в начало цепочки
 iptables -I INPUT -p udp --dport 69 -j DROP
 добавить правило в 3 позицию
