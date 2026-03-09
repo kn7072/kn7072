@@ -84,7 +84,12 @@ iptables -m state --help
 iptables -A INPUT -m state --state INVALID -j DROP
 iptables -A OUTPUT -m state --state INVALID -j DROP
 
+фильтрация по mac address
+iptables -m mac --help
+iptables -A INPUT -i wlan0 -m mac --mac-source 08:00:27:55:6f:20 -j DROP
 
+фильтарация по времени
+iptables -m time --help
 
 добавить правило в начало цепочки
 iptables -I INPUT -p udp --dport 69 -j DROP
