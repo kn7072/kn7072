@@ -114,6 +114,15 @@ cat /proc/net/xt_recent/badguys
 iptables -A FORWARD -m recent --name badguys --update --second 60 -j DROP
 iptables -A FORWARD -p tcp -i eth0 --dport 8080 -m recent --name badguys --set -j DROP
 
+квоты
+quota в байтах - в примере разрешается примерно 1гигабайт исходящего трафика с текущей машины на 80.0.0.1 
+iptables -A OUTPUT -d 80.0.0.1 -p tcp --sport 80 -m quota --quota 1000000000 -j ACCEPT
+iptables -A OUTPUT -d 80.0.0.1 -p tcp --sport 80 -j DROP
+
+разрешить входящий трафик - 10мегабайт с адреса 192.168.1.33 по ssh
+iptables -A INPUT -s 192.168.1.33 -p tcp --dport 22 -m quota --quota 10000000 -j ACCEPT
+iptables -A INPUT -s 192.168.1.33 -p tcp --dport 22 -j DROP
+
 добавить правило в начало цепочки
 iptables -I INPUT -p udp --dport 69 -j DROP
 добавить правило в 3 позицию
