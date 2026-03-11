@@ -1,35 +1,34 @@
-# -*- coding:utf-8 -*-
-
-import time
+import json
 import os
 import re
-import json
+import time
+
 import requests
 
 url = "https://wooordhunt.ru"
 
-all_examples = "<div class=\"block\">(?P<text>.+?)</div>"
+all_examples = '<div class="block">(?P<text>.+?)</div>'
 compl_all_examples = re.compile(all_examples)
 
-eng_example = "<p class=\"ex_o\">(?P<text>.+?)<"
+eng_example = '<p class="ex_o">(?P<text>.+?)<'
 comp_eng_example = re.compile(eng_example)
 
-rus_example = "<p class=\"ex_t human\">(?P<text>.+?)<"
+rus_example = '<p class="ex_t human">(?P<text>.+?)<'
 comp_rus_example = re.compile(rus_example)
 
 
 ################################################
-temp_1 = "id=\"audio_us\"(?P<text>.+)id=\"audio_uk\""
-temp_1 = "id=\"us_tr_sound\"(?P<text>.+)id=\"uk_tr_sound\""
+temp_1 = 'id="audio_us"(?P<text>.+)id="audio_uk"'
+temp_1 = 'id="us_tr_sound"(?P<text>.+)id="uk_tr_sound"'
 compl_1 = re.compile(temp_1)
 
-temp_sound = "src=\"(?P<path_sound>.*?.mp3)\""
+temp_sound = 'src="(?P<path_sound>.*?.mp3)"'
 compl_sound = re.compile(temp_sound)
 
-temp_trans = "transcription\">(?P<transcription>.*?)<"
+temp_trans = 'transcription">(?P<transcription>.*?)<'
 compl_trans = re.compile(temp_trans)
 
-temp_translate = "t_inline_en\">(?P<translate>.+?)<"
+temp_translate = 't_inline_en">(?P<translate>.+?)<'
 compl_translate = re.compile(temp_translate)
 
 
@@ -78,7 +77,6 @@ def create_html(path_to_file, data_file):
 
 
 def get_example(path_to_html):
-
     name = os.path.split(path_to_html)[1].split(".")[0] + ".json"
     path_json = os.path.join(paht_json_obj, name)
     # if os.path.isfile(path_json):
@@ -88,26 +86,27 @@ def get_example(path_to_html):
         data_html = f.read()
 
     search = compl_all_examples.search(data_html)
-    dict_examples = {"examples_eng" : [],
-                     "examples_rus": []}
+    dict_examples = {"examples_eng": [], "examples_rus": []}
     try:
         all_text = search.group("text")
         all_text = all_text.replace("</b>", "").replace("<b>", "")
         search_eng = re.findall(comp_eng_example, all_text)
         search_rus = re.findall(comp_rus_example, all_text)
         if len(search_eng) == len(search_rus):
-
-            search_eng = [i.replace("&nbsp;", "").replace(";", ".,").strip() for i in search_eng]
-            search_rus = [i.replace("&nbsp;", "").replace(";", ".,").strip() for i in search_rus]
-            dict_examples = {"examples_eng" : search_eng,
-                             "examples_rus": search_rus}
+            search_eng = [
+                i.replace("&nbsp;", "").replace(";", ".,").strip() for i in search_eng
+            ]
+            search_rus = [
+                i.replace("&nbsp;", "").replace(";", ".,").strip() for i in search_rus
+            ]
+            dict_examples = {"examples_eng": search_eng, "examples_rus": search_rus}
             str_json = json.dumps(dict_examples, ensure_ascii=False, indent=4)
             with open(path_json, mode="w", encoding="utf-8") as f:
                 f.write(str_json)
         else:
             print("Количество примеров и переводов отличаются %s" % path_to_html)
     except AttributeError as e:
-        print("Проблемы с %s\ %s" % (path_to_html, e))
+        print("Проблемы с %s %s" % (path_to_html, e))
     return dict_examples
 
 
@@ -117,10 +116,10 @@ def create_sound_file(name, data_file, path_dir):
         f.write(data_file)
 
 
-def get_info_word(word, path_create_sound="audio"):
+def get_info_word(request_session, word, path_create_sound="audio"):
     url_word = "%s/word/%s" % (url, word)
-    r = requests.get(url_word)
-    data_html_bin = r.content # r.text
+    r = request_session.get(url_word)
+    data_html_bin = r.content  # r.text
     data_html = r.text
 
     path_to_file = os.path.join(path_html_words, "%s.html" % word)
@@ -140,15 +139,13 @@ def get_info_word(word, path_create_sound="audio"):
             path_dir_sounds = os.path.join(os.getcwd(), path_create_sound)
             create_sound_file(word, data_sound.content, path_dir_sounds)
         else:
-            print(f"Не найдет mp3 файл для {word}")  
+            print(f"Не найдет mp3 файл для {word}")
         search_transcription = compl_trans.search(all_test)
         if search_transcription:
             transcription = search_transcription.group("transcription")
-    
-    else:
-        print(f"Не найден перевод слова {word}")            
 
-    
+    else:
+        print(f"Не найден перевод слова {word}")
 
     translate = ""
     search_translate = compl_translate.search(data_html)

@@ -1,8 +1,8 @@
-# -*- coding:utf-8 -*-
 import json
 import os
 from copy import deepcopy
 
+import requests
 from common import create_file, get_info_word, get_list_words, get_origin_json
 
 path_script = os.getcwd()
@@ -33,8 +33,8 @@ path_file_to_save = os.path.join(os.getcwd(), "new_words.txt")
 temp_list_words = []
 
 
-def create_json_word(word_i):
-    translate, transcription, dict_examples = get_info_word(word_i)
+def create_json_word(request_session, word_i):
+    translate, transcription, dict_examples = get_info_word(request_session, word_i)
     copy_temp = deepcopy(examples_keys)
     copy_temp["transcription"] = transcription
     copy_temp["translate"] = translate
@@ -73,6 +73,14 @@ def update_word_dict():
 
 
 list_new_words = get_list_words(path_file_to_save)
+request_session = requests.Session()
+request_session.headers.update(
+    {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0"
+    }
+)
+
+
 for word_i in list_new_words:
     if word_i in all_words:
         # print("Слово уже содержится в списке")
@@ -80,7 +88,7 @@ for word_i in list_new_words:
     else:
         print(f"{word_i}")
         try:
-            create_json_word(word_i)
+            create_json_word(request_session, word_i)
         except Exception as e:
             print(f"Проблемы {word_i}\n{e}")
 
