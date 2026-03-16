@@ -123,6 +123,37 @@ iptables -A OUTPUT -d 80.0.0.1 -p tcp --sport 80 -j DROP
 iptables -A INPUT -s 192.168.1.33 -p tcp --dport 22 -m quota --quota 10000000 -j ACCEPT
 iptables -A INPUT -s 192.168.1.33 -p tcp --dport 22 -j DROP
 
+ipset
+можно использовать hash:net или nethash, hash:ip или iphash
+ipset -N china hash:net
+or
+ipset create romania hash:net -exist
+добавить адрес в созданный ipset
+ipset add china 1.0.0.0/8
+ipset -A china 2.0.0.0/8
+посмотреть список адресов в наборе
+ipset list china
+удалить адрес из набора
+ipset del china 1.0.0.0/8
+ipset -D china 2.0.0.0/8
+очистить весь набор
+ipset -F china
+ipset flash china
+удалить набор
+ipset destroy china
+
+ipset -N auto_blocked iphash -exist
+добавить ip адрес в таблицу auto_blocked если данный ip пытался подключиться к локальному 80 порту
+(man ipset -найти -j SET, 
+там пример 
+iptables -m set --match-set a src,dst -j SET --add-set b src,dst
+данный пример объясняет строку ниже)
+
+iptables -I INPUT -p tcp --dport 80 -j SET --add-set auto_blocked src
+это тоже самое, как если бы мы ввели ipset -A auto_blocked 1.1.1.1 (предполагая что запрос был с адреса 1.1.1.1)
+отбрасываем все пакеты для адресов из списка
+iptables -I INPUT -m set --match-set auto_blocked src -j DROP
+
 добавить правило в начало цепочки
 iptables -I INPUT -p udp --dport 69 -j DROP
 добавить правило в 3 позицию
