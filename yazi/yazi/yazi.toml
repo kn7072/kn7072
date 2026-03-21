@@ -25,6 +25,7 @@ prepend_rules = [
 	{ name = "*.mkv", use = [ "play" ] },
 	{ name = "*.avi", use = [ "play" ] },
 	{ name = "*.wmv", use = [ "play" ] },
+	{ name = "*.ts", use = [ "play" ] },
 ]
 
 # https://github.com/boydaihungst/mediainfo.yazi
