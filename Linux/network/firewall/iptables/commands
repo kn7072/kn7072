@@ -142,6 +142,7 @@ ipset flash china
 удалить набор
 ipset destroy china
 
+создаем отдельный набор для сохранения ip пытающихся подключиться к локальному 80 порту
 ipset -N auto_blocked iphash -exist
 добавить ip адрес в таблицу auto_blocked если данный ip пытался подключиться к локальному 80 порту
 (man ipset -найти -j SET, 
@@ -150,7 +151,7 @@ iptables -m set --match-set a src,dst -j SET --add-set b src,dst
 данный пример объясняет строку ниже)
 
 iptables -I INPUT -p tcp --dport 80 -j SET --add-set auto_blocked src
-это тоже самое, как если бы мы ввели ipset -A auto_blocked 1.1.1.1 (предполагая что запрос был с адреса 1.1.1.1)
+это тоже самое, как если бы мы ввели ipset -A auto_blocked 1.1.1.1 (предполагая, что запрос был с адреса 1.1.1.1)
 отбрасываем все пакеты для адресов из списка
 iptables -I INPUT -m set --match-set auto_blocked src -j DROP
 
