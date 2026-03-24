@@ -155,6 +155,35 @@ iptables -I INPUT -p tcp --dport 80 -j SET --add-set auto_blocked src
 отбрасываем все пакеты для адресов из списка
 iptables -I INPUT -m set --match-set auto_blocked src -j DROP
 
+reject
+iptables -j REJECT --help
+отбросить подключения с адреса 192.168.1.33 на локальный порт 22 
+iptables -A INPUT -p tcp --dport 22 -s 192.168.1.33 -j REJECT
+(по умолчанию, при отбрасывании сервер отвечает icmp сообщением - port 22 unreachable)
+(tcpdump host 192.168.1.33 -n)
+
+сбросить подключения с сообщинием - tcp-reset - flags[R] RST (сбросить соединение)
+iptables -A INPUT -p tcp --dport 22 -s 192.168.1.33 -j REJECT --reject-with tcp-reset
+(если просканировать порт 22 с помощью nmap, то статус порта будет - **closed**)
+если же просто дропать соединение, тогда статус порта будет - filtered
+iptables -A INPUT -p tcp --dport 22 -s 192.168.1.33 -j DROP
+
+logs
+логируем первый пакет(флаг syn) в трехэтапном рукопожатии
+iptables -A INPUT -p tcp --dport 22 --syn -j LOG --log-prefix="incoming ssh traffic:" --log-level info
+блокируем подключение
+iptables -A INPUT -p tcp --dport 22 -j DROP 
+(dmesg | grep "ssh traffic" -чтобы увидить логи)
+
+tee target
+перенаправление пакетов с локального интерфейса eth0 на интерфейс eth1 
+iptables -A FORWARD -i eth0 -o eth1 -p tcp -d 80.0.0.1 -j TEE --gateway 10.0.0.10
+перенаправить icmp запрос на машину 192.168.1.33 - запросы приходящие на локальную машину
+будут отображаться в tcpdump и на машине 192.168.1.33 так же будут отображаться эти пакеты
+iptables -A INPUT -p icmp --icmp-type echo-request -j TEE --gateway 192.168.1.33
+
+redirect tagret
+
 добавить правило в начало цепочки
 iptables -I INPUT -p udp --dport 69 -j DROP
 добавить правило в 3 позицию
