@@ -183,6 +183,49 @@ iptables -A FORWARD -i eth0 -o eth1 -p tcp -d 80.0.0.1 -j TEE --gateway 10.0.0.1
 iptables -A INPUT -p icmp --icmp-type echo-request -j TEE --gateway 192.168.1.33
 
 redirect tagret
+перенаправление с одного локального порта(80) на другой локальный порт(8080)
+iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8080
+при подключении по ssh на порт 1234(этот порт закрыт на удаленной машине) - запрос будет перенаправлен на 22 порт
+iptables -t nat -A PREROUTING -p tcp --dport 1234 -j REDIRECT --to-ports 22
+
+iptables -t nat -A POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
+(https://www.linux.org.ru/forum/admin/10715506?ysclid=mkwng6t0fm762863993)
+
+snat/MASQUERADE - перенапрвление запроса из локальной сети во внешнюю с подменой ip локальной 
+машины на адрес внешнего интерфейса
+enable the routing process
+echo "1" > /proc/sys/net/ipv4/ip_forward
+когда адрес внешнего интерфейса статический - не меняется (80.0.0.1)
+iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -o echo -j SNAT --to-source 80.0.0.1
+or
+в случае, если публичный адрес внешнего интерфейчаса динамический т.е меняющийся
+iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -o echo -j MASQUERADE
+
+dnat/port forwarding
+подключение к локальной машине(10.0.0.2) через адрес публичного интерфейса(белого ip роутера)
+запрос идущий на 80 порт машины-роутера будет перенаправлен на адрес в локальной сети 10.0.0.2 на 80 порт
+iptables -t nat -A PREROUTING -p tcp --dport 80 -j DNAT --to-destination 10.0.0.2
+
+запрос поступающий на 8080 порт роутер будет перенаправлен на 80 порт машины 10.0.0.2
+iptables -t nat -A PREROUTING -p tcp --dport 8080 -j DNAT --to-destination 10.0.0.2:80
+
+custom chain
+iptables -N MYCHAIN
+iptables -nvL
+отключаем запросы icmp, на данный момент от этого правила нет толку так как эта
+цепочка не включена в встроенные(на даннм этапе ping будет работать)
+iptables -A MYCHAIN -p icmp --icmp-type echo-request -j DROP
+после встраивания - ping больше не работает
+iptables -A INPUT -j MYCHAIN
+
+предже чему удалять цепочку необходимо очистить ее и удалить все ссылки на ее(иначе будут ошибки)
+iptables -D INPUT 2 (где 2 номер правила в цепочке INPUT,
+данное правило использует пользовательскую цепочку - это правило нужно удалить,
+чтобы пользовательскую цепочку можно было удалить)
+iptables -F MYCHAIN
+удалить цепочку
+iptables -X MYCHAIN (если не указывать имя цепочки будут удалены все пользовательские цепочки)
+
 
 добавить правило в начало цепочки
 iptables -I INPUT -p udp --dport 69 -j DROP
