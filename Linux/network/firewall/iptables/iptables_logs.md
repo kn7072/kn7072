@@ -11,7 +11,8 @@
 В качестве примера возьму правило логирования пингов и правило разрешающее их:
 
 ```
-iptables -A INPUT -p ICMP --icmp-type 8 -j LOG --log-prefix "Ping detected: "iptables -A INPUT -p ICMP --icmp-type 8 -j ACCEPT
+iptables -A INPUT -p ICMP --icmp-type 8 -j LOG --log-prefix "Ping detected: "
+iptables -A INPUT -p ICMP --icmp-type 8 -j ACCEPT
 ```
 
 Теперь по событию, подпадающее под это правило, будет писаться сообщение в `/var/log/messages` и `/var/log/syslog`:
@@ -27,7 +28,8 @@ kernel: [122972.300408] Ping detected: IN=eth0 OUT= MAC=00:64:d9:36:7b:d7:00:24:
 Для избежания вышеописанного необходимо изменить критерий в префиксе сообщения, например, так:
 
 ```
-iptables -A INPUT -p ICMP --icmp-type 8 -j LOG --log-prefix "Iptables: Ping detected: "iptables -A INPUT -p ICMP --icmp-type 8 -j ACCEPT
+iptables -A INPUT -p ICMP --icmp-type 8 -j LOG --log-prefix "Iptables: Ping detected: "
+iptables -A INPUT -p ICMP --icmp-type 8 -j ACCEPT
 ```
 
 И создать файл `/etc/rsyslog.d/iptables.conf` со следующим содержанием:
