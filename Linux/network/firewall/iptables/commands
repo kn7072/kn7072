@@ -1,5 +1,14 @@
 sudo su
 
+## Страховка от блокировки
+Перед серьёзными изменениями всегда создавайте точку восстановления:
+### Сохранить текущие правила
+iptables-save > /root/iptables_backup_$(date +%Y%m%d_%H%M%S).txt
+### Установить таймер для автоматического сброса (спасательный круг)
+(sleep 300; iptables -F; iptables -P INPUT ACCEPT; iptables -P OUTPUT ACCEPT; iptables -P FORWARD ACCEPT) &
+Теперь можно безопасно экспериментировать
+Если что-то пойдёт не так, через 5 минут правила сбросятся
+
 доступные протоколы и порты
 cat /etc/protocols
 
@@ -226,6 +235,8 @@ iptables -F MYCHAIN
 удалить цепочку
 iptables -X MYCHAIN (если не указывать имя цепочки будут удалены все пользовательские цепочки)
 
+Monitor what's going on(https://opensource.com/article/18/10/iptables-tips-and-tricks)
+watch --interval=5 'iptables -nvL | grep -v "0     0"'
 
 добавить правило в начало цепочки
 iptables -I INPUT -p udp --dport 69 -j DROP
@@ -254,3 +265,13 @@ https://www.linux.org.ru/forum/admin/10715506?ysclid=mkwng6t0fm762863993
 iptables -t nat -A POSTROUTING -s 172.20.0.0/16 -j MASQUERADE
 
 
+на машине 192.168.1.41
+Чтобы настройка сохранялась после перезагрузки используйте такую команду:
+sudo sysctl -w net.ipv4.ip_forward=1
+iptables -t nat -A PREROUTING -i ens3 -p tcp --dport 8080 -j DNAT --to-destination 192.168.1.33:80
+iptables -t nat -A POSTROUTING -p tcp -d 192.168.1.33 --dport 80 -j MASQUERADE
+
+iptables -nvL -t raw | grep -i chain | awk '{print$2}'
+iptables -nvL -t mangle | grep -i chain | awk '{print$2}'
+iptables -nvL -t nat | grep -i chain | awk '{print$2}'
+iptables -nvL -t filter | grep -i chain | awk '{print$2}'

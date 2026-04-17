@@ -39,6 +39,7 @@
 - `POSTROUTING` — применяются к пакетам, которые должны покинуть сетевой интерфейс данного хоста
 
 ![](iptables_2_images/e192f7f4cca8055be585a1bec2a7cf6f_MD5.jpg)
+![](iptables_2_images/iptables_trace.webp)
 
 ## Таблицы iptables <a name="link_3"></a>
 
