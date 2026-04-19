@@ -1,0 +1,2 @@
+# ssh log за сегодня
+journalctl -u ssh -t sshd --no-pager --since today > log_ssh

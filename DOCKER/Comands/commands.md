@@ -5,6 +5,7 @@ docker run hello-world -создает и запускает контейнер
 docker run --name myConrainer hello-world -создание контейнера с именем myConrainer
 docker inspect myConrainer -f "{{.State.Pid}}" идентификатор процесса на хостовой машине
 docker inspect f39a2a3d672 -f "{{.NetworkSettings.Networks.bridge.MacAddress}}" -mak адрес
+docker inspect f39a2a3d672 -f "{{.NetworkSettings.Networks.bridge.IPAddress}}" -ip адрес
 
 docker rm container_id -удалить контейнер
 

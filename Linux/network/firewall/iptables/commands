@@ -271,7 +271,45 @@ sudo sysctl -w net.ipv4.ip_forward=1
 iptables -t nat -A PREROUTING -i ens3 -p tcp --dport 8080 -j DNAT --to-destination 192.168.1.33:80
 iptables -t nat -A POSTROUTING -p tcp -d 192.168.1.33 --dport 80 -j MASQUERADE
 
+## команды для анализа
+
+man iptables-extensions   # раздел TARGETS и MATCHES
+### Если модуль доступен, iptables покажет справку. Если нет → ошибку.
+sudo iptables -t raw -j CT --help 2>&1
+sudo iptables -t raw -j TRACE --help 2>&1
+
 iptables -nvL -t raw | grep -i chain | awk '{print$2}'
 iptables -nvL -t mangle | grep -i chain | awk '{print$2}'
 iptables -nvL -t nat | grep -i chain | awk '{print$2}'
 iptables -nvL -t filter | grep -i chain | awk '{print$2}'
+
+Динамическая трассировка (реальный путь пакета)
+sudo iptables -t raw -A PREROUTING -j TRACE
+sudo iptables -t raw -A OUTPUT -j TRACE
+
+для docker
+1 Включите логирование во всех неймспейсах (иначе TRACE из контейнера не дойдёт до host-журнала)
+sudo sysctl -w net.netfilter.nf_log_all_netns=1
+2 Добавьте TRACE в raw таблицу контейнера:
+docker exec <container> iptables -t raw -A PREROUTING -j TRACE
+docker exec <container> iptables -t raw -A OUTPUT -j TRACE
+3 Или трассируйте только на хосте, перехватывая пакеты на docker0/veth:
+sudo iptables -t raw -I PREROUTING -i docker0 -j TRACE
+sudo iptables -t raw -I POSTROUTING -o docker0 -j TRACE
+
+Для Docker обязательно добавьте FORWARD
+Docker использует iptables-цепочку DOCKER-USER → FORWARD → POSTROUTING. Без трейса FORWARD вы не увидите, как пакет проходит через мост.
+# Полный минимальный набор для отладки контейнер ↔ хост
+sudo iptables -t raw -I PREROUTING -i docker0 -j TRACE
+sudo iptables -t raw -I FORWARD    -i docker0 -j TRACE
+sudo iptables -t raw -I FORWARD    -o docker0 -j TRACE
+sudo iptables -t raw -I POSTROUTING -o docker0 -j TRACE
+
+(Примечание: Для проброса портов Docker использует цепочку FORWARD, поэтому правила на PREROUTING/POSTROUTING с -i/-o docker0 могут не поймать сам факт проброса, если пакет не маршрутизируется как "чужой". Для проброса портов лучше трейсить FORWARD).
+
+Всегда добавляйте максимально специфичные фильтры. Вместо просто -i docker0, добавьте IP или порт:
+# Трейсим ТОЛЬКО пакеты от конкретного контейнера (IP 172.17.0.2)
+sudo iptables -t raw -I PREROUTING -i docker0 -s 172.17.0.2 -j TRACE
+
+# ИЛИ только TCP трафик на порт 80
+sudo iptables -t raw -I PREROUTING -i docker0 -p tcp --dport 80 -j TRACE
