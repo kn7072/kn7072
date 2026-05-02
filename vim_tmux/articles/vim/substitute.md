@@ -409,6 +409,30 @@ $ qemu-img create -o backing_file=img1.raw,backing_fmt=raw -f qcow2 img1.cow
 ### преобразование таблиц в блоки кода
 
 ````
+let x=3 | execute '%s/\v^\| {' . x . '}\| {' . x . '}\|\n\|-{' . x . '}\|-{' . x . '}\|\n//g'
+
+|   |   |
+|---|---|
+|1|yum install tcpdump|
+
+после применения
+
+|1|yum install tcpdump|
+
+-------
+
+g/^\|/s/\v\|[[:digit:]br\<\>]*\ze\|//g
+
+|1<br><br>2|`Data link types for wlp0s20f0u1 when not in monitor mode (use option -y to set):`<br><br>  `EN10MB (Ethernet)`|
+
+после преобразования
+
+|`Data link types for wlp0s20f0u1 when not in monitor mode (use option -y to set):`<br><br>  `EN10MB (Ethernet)`|
+
+-------
+
+финальная часть
+
 ^M - ctrl + v enter
 g/^\|/s/`//g | g/^\|/s/<br><br>/^M/g
 

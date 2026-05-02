@@ -1,3 +1,46 @@
+┌──────────────┬──────────────────────┬─────────────────────────────────────────────┐
+│ ДЕЙСТВИЕ (-j)│ ГДЕ ДОПУСТИМО        │ НАЗНАЧЕНИЕ / ПРИМЕЧАНИЕ                     │
+├──────────────┼──────────────────────┼─────────────────────────────────────────────┤
+│ ВЕРДИКТЫ (УПРАВЛЕНИЕ ПОТОКОМ)                                                     │
+├──────────────┼──────────────────────┼─────────────────────────────────────────────┤
+│ ACCEPT       │ Все таблицы/цепочки  │ Пропустить пакет дальше по стеку            │
+│ DROP         │ Все таблицы/цепочки  │ Тихо уничтожить пакет (обработка ─)         │
+│ RETURN       │ Все таблицы/цепочки  │ Вернуться в родительскую цепочку            │
+│ REJECT       │ filter (INPUT/FWD)   │ Отбросить + отправить ICMP/TCP RST ответ    │
+├──────────────┼──────────────────────┼─────────────────────────────────────────────┤
+│ NAT (ТРАНСЛЯЦИЯ АДРЕСОВ)                                                          │
+├──────────────┼──────────────────────┼─────────────────────────────────────────────┤
+│ DNAT         │ nat (PREROUTING, OUT)│ Изменить адрес/порт назначения (до роутинга)│
+│ REDIRECT     │ nat (PREROUTING, OUT)│ Перенаправить на локальный порт/IP          │
+│ SNAT         │ nat (POSTROUTING)    │ Изменить IP источника (статический)         │
+│ MASQUERADE   │ nat (POSTROUTING)    │ Изменить IP источника (динамический, DHCP)  │
+│ NETMAP       │ nat (все хуки)       │ Побайтовое отображение одной подсети на др. │
+├──────────────┼──────────────────────┼─────────────────────────────────────────────┤
+│ МОДИФИКАЦИЯ ЗАГОЛОВКОВ                                                            │
+├──────────────┼──────────────────────┼─────────────────────────────────────────────┤
+│ MARK         │ mangle               │ Установить fwmark для маршрутизации/QoS     │
+│ CONNMARK     │ mangle, nat, filter  │ Сохранить/восстановить маркер соединения    │
+│ TOS / DSCP   │ mangle               │ Изменить поле Quality of Service            │
+│ TTL          │ mangle               │ Изменить Time-To-Live                       │
+│ ECN          │ mangle               │ Изменить явное уведомление о перегрузке     │
+│ CLASSIFY     │ mangle               │ Установить класс для tc (traffic shaping)   │
+│ SECMARK      │ mangle, security     │ Назначить SELinux/AppArmor контекст пакету  │
+├──────────────┼──────────────────────┼─────────────────────────────────────────────┤
+│ ЛОГИРОВАНИЕ И USERSPACE                                                           │
+├──────────────┼──────────────────────┼─────────────────────────────────────────────┤
+│ LOG          │ Все таблицы          │ Запись в kern.log/dmesg (пакет идёт дальше) │
+│ TRACE        │ Все таблицы          │ Отладка: лог каждого шага (требует nf_log)  │
+│ NFLOG        │ Все таблицы          │ Передать метаданные демону (ulogd2, Wireshark)│
+│ NFQUEUE      │ Все таблицы          │ Передать пакет целиком в userspace-демон    │
+│ ULOG         │ filter, mangle       │ Legacy-аналог NFLOG (через multicast)       │
+├──────────────┼──────────────────────┼─────────────────────────────────────────────┤
+│ СПЕЦИАЛЬНЫЕ И СЛУЖЕБНЫЕ                                                           │
+├──────────────┼──────────────────────┼─────────────────────────────────────────────┤
+│ CT           │ raw                  │ Управление conntrack (--notrack, --zone)    │
+│ SYNPROXY     │ raw, mangle, filter  │ Защита от SYN-flood (проксирует TCP handshake)│
+│ ИМЯ_ЦЕПОЧКИ  │ filter, nat, mangle  │ Прыжок в пользовательскую цепочку (-j MY_CH)│
+└──────────────┴──────────────────────┴─────────────────────────────────────────────┘
+
 sudo su
 
 ## Страховка от блокировки
@@ -283,9 +326,24 @@ iptables -nvL -t mangle | grep -i chain | awk '{print$2}'
 iptables -nvL -t nat | grep -i chain | awk '{print$2}'
 iptables -nvL -t filter | grep -i chain | awk '{print$2}'
 
+xtables-monitor --trace !-устаревший способ
 Динамическая трассировка (реальный путь пакета)
 sudo iptables -t raw -A PREROUTING -j TRACE
 sudo iptables -t raw -A OUTPUT -j TRACE
+
+
+iptables -t nat -A PREROUTING -j TRACE
+nft monitor trace -современный трассировщик
+
+отключение трассировки ping для localhost
+iptables -t raw -A PREROUTING -i lo -d 127.0.0.1 -p icmp -m comment --comment "не будем отслеживать локальный ping" -j CT --notrack
+
+можно включить отслеживание(для conntrack) для всех  ping адресов
+iptables -t raw -A PREROUTING -p icmp -m comment --comment "ping" -j TRACE 
+iptables -t raw -A OUTPUT -p icmp -m comment --comment "ping_output" -j TRACE 
+# iptables -t raw -A PREROUTING -p icmp -m comment --comment "ping" -j ACCEPT
+
+iptables -t nat -A POSTROUTING -p icmp --icmp-type echo-request -m conntrack --ctstate NEW -m comment --comment "NEW ping" -j SNAT --to-source 192.168.1.58
 
 для docker
 1 Включите логирование во всех неймспейсах (иначе TRACE из контейнера не дойдёт до host-журнала)
