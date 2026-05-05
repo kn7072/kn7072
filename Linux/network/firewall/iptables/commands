@@ -52,6 +52,18 @@ iptables-save > /root/iptables_backup_$(date +%Y%m%d_%H%M%S).txt
 Теперь можно безопасно экспериментировать
 Если что-то пойдёт не так, через 5 минут правила сбросятся
 
+## сравнение после измениния
+iptables-save > ./before_change.txt
+удалить комментарии
+%g/\v^#.*/s///g
+обнулить все счетчики
+%s/\v\[.*]/\[0:0\]/g
+
+sdiff -w 200 after_change.txt before_sshutle.txt
+nvim -d after_change.txt before_sshutle.txt
+diff -y after_change.txt before_sshutle.txt
+
+
 доступные протоколы и порты
 cat /etc/protocols
 
