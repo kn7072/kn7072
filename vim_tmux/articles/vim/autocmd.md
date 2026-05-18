@@ -1,4 +1,5 @@
 # Рубрика "Секреты Вим". Автокоманды
+
 [источник](https://dzen.ru/a/YD8lsgY7ZFax8spy)
 Привет! Сегодня тема посложнее, и рядовому пользователю Вим, возможно, и не нужна. Но упомянуть о ней стоит. Можно использовать готовые автокоанды, и полезно хотя бы представлять, как они устроены, чтобы не нарваться на шутку, как минимум.
 
@@ -11,13 +12,9 @@
 Понятно, что средство очень мощное! Что можно делать? Ну, вот пример из [прошлой заметки](https://zen.yandex.ru/media/math_notebook/rubrika-sekrety-vim-fail-viminfo-603d3327bdd71022a2bb02f4?from=editor): можно сразу перейти на последнюю позицию курсора при открытии файла. При открытии файла выполнится автокоманда перехода на метку ", в которой сохранена эта позиция (а сохранена она в файле .viminfo).
 
 - Можно редактировать сжатые файлы, пример в конце заметки.
-    
 - Можно, например, просто сохранять файл в какой-нибудь recycle.bin на всякий случай.
-    
 - Можно проверить кодировку и переключить ее, если она cp1251, например.
-    
 - Да мало ли что можно.
-    
 
 К хорошему быстро привыкаешь, поэтому держите копию своего .vimrc в надежном месте, потому что в случае чего дико не хвататет настроенных удобств!
 
@@ -40,13 +37,30 @@
 При открытии файла различаются разные варианты:
 
 1. BufNewFile — создан новый файл
-    
 2. BufReadPre и BufReadPost — открытие существующего файла; одно событие ДО чтения, второе ПОСЛЕ.
-    
 3. FilterReadPre и FilterReadPost — перенаправление входного потока (временный файл). Такое бывает в ситуациях ls | vim -
-    
 4. FileReadPre и FileReadPost — все прочие ситуации чтения файла. Например, какой-нибудь /dev/random
-    
+
+| Событие        | Описание                          |
+| -------------- | --------------------------------- |
+| `BufWritePost` | После сохранения файла            |
+| `InsertLeave`  | При выходе из режима вставки      |
+| `BufNewFile`   | При создании нового файла         |
+| `BufReadPre`   | Перед чтением существующего файла |
+| `BufReadPost`  | После чтения файла, до modeline   |
+| `BufWritePre`  | Перед сохранением                 |
+| `BufEnter`     | При входе в буфер                 |
+| `BufLeave`     | При выходе из буфера              |
+| `BufWinEnter`  | При отображении буфера в окне     |
+| `BufWinLeave`  | При скрытии буфера из окна        |
+| `BufUnload`    | Перед выгрузкой буфера            |
+| `BufDelete`    | Перед удалением буфера            |
+| `FileType`     | При определении типа файла        |
+| `ColorScheme`  | После загрузки темы               |
+| `VimEnter`     | После запуска Neovim              |
+| `VimLeavePre`  | Перед выходом                     |
+| `TextYankPost` | После копирования текста          |
+| `CompleteDone` | После завершения дополнения       |
 
 Аналогично для записи, причем различаются события записи всего файла или его части.
 
@@ -58,7 +72,7 @@
 
 Список событий event в команде autocmd содержит имена событий, разделенные запятыми. Обычно там одно событие или два, скажем, для буфера и файла — это не одно и то же, но обычно идут в паре.
 
-Файловые шаблоны pattern содержат файловые шаблоны через запятую: команда будет применяться только к этим файлам. Если команда от файла не зависит, ставим *. Но удобно, например, распознать, что файл — исходник tex и поменять кодировку, а с другими файлами этого делать не нужно. Шаблоны могут быть простыми, от *.tex или * до disser.tex (да, одиночный файл), а могут быть сложными, с путями, масками * и ?, классами [abc] и т.п.
+Файловые шаблоны pattern содержат файловые шаблоны через запятую: команда будет применяться только к этим файлам. Если команда от файла не зависит, ставим _. Но удобно, например, распознать, что файл — исходник tex и поменять кодировку, а с другими файлами этого делать не нужно. Шаблоны могут быть простыми, от _.tex или _ до disser.tex (да, одиночный файл), а могут быть сложными, с путями, масками _ и ?, классами [abc] и т.п.
 
 **Группировка**
 
@@ -68,7 +82,7 @@
 
 > augroup mygroup  
 > au!  
-> au BufEnter * ...  
+> au BufEnter \* ...  
 > augroup END
 
 Команда au! удалит все автокоманды группы mygroup, если они есть, а потом мы создадим новые.
@@ -97,23 +111,23 @@
 
 > :augroup gzip  
 > : autocmd!  
-> : autocmd BufReadPre,FileReadPre *.gz set bin  
-> : autocmd BufReadPost,FileReadPost *.gz '[,']!gunzip  
-> : autocmd BufReadPost,FileReadPost *.gz set nobin  
-> : autocmd BufReadPost,FileReadPost *.gz execute ":doautocmd BufReadPost " . expand("%:r")  
-> : autocmd BufWritePost,FileWritePost *.gz !mv <afile> <afile>:r  
-> : autocmd BufWritePost,FileWritePost *.gz !gzip <afile>:r  
-> : autocmd FileAppendPre *.gz !gunzip <afile>  
-> : autocmd FileAppendPre *.gz !mv <afile>:r <afile>  
-> : autocmd FileAppendPost *.gz !mv <afile> <afile>:r  
-> : autocmd FileAppendPost *.gz !gzip <afile>:r  
+> : autocmd BufReadPre,FileReadPre _.gz set bin  
+> : autocmd BufReadPost,FileReadPost _.gz '[,']!gunzip  
+> : autocmd BufReadPost,FileReadPost _.gz set nobin  
+> : autocmd BufReadPost,FileReadPost _.gz execute ":doautocmd BufReadPost " . expand("%:r")  
+> : autocmd BufWritePost,FileWritePost _.gz !mv <afile> <afile>:r  
+> : autocmd BufWritePost,FileWritePost _.gz !gzip <afile>:r  
+> : autocmd FileAppendPre _.gz !gunzip <afile>  
+> : autocmd FileAppendPre _.gz !mv <afile>:r <afile>  
+> : autocmd FileAppendPost _.gz !mv <afile> <afile>:r  
+> : autocmd FileAppendPost _.gz !gzip <afile>:r  
 > :augroup END
 
 2. Команда для восстановления позиции курсора:
 
 > augroup vimrc_au  
 > au!  
-> autocmd BufReadPost *  
+> autocmd BufReadPost \*  
 > \ if line("'\"") > 0 && line("'\"") <= line("$") |  
 > \ exe "normal g`\"" |  
 > \ endif  
@@ -121,34 +135,34 @@
 
 3. Из справки Вим. Создать сокращения специально для Си:
 
-> :autocmd BufEnter *.c,*.h abbr FOR for (i = 0; i < 3; ++i)<CR>{<CR>}<Esc>O  
-> :autocmd BufLeave *.c,*.h unabbr FOR
+> :autocmd BufEnter _.c,_.h abbr FOR for (i = 0; i < 3; ++i)<CR>{<CR>}<Esc>O  
+> :autocmd BufLeave _.c,_.h unabbr FOR
 
 Открыли файл на Си — создали удобное сокращение. Вышли — удалили.
 
 4. Аналогично удобно включать замену "" на <<>> в техе, и потом удалять, потому что нигде больше это не нужно и будет мешать:
 
-> :autocmd BufEnter *.tex abbr "" <<>>  
-> :autocmd BufLeave *.tex unabbr ""
+> :autocmd BufEnter _.tex abbr "" <<>>  
+> :autocmd BufLeave _.tex unabbr ""
 
-  
 5. А еще можно открыть шаблон вместо пустого файла:
 
-> :autocmd BufNewFile *.tex 0r ~/template.tex
+> :autocmd BufNewFile \*.tex 0r ~/template.tex
 
 6. Вот пример, как автоматически менять строку "Last Modified":
 
-> :autocmd BufWritePre,FileWritePre *.html ms|call LastMod()|'s  
+> :autocmd BufWritePre,FileWritePre _.html ms|call LastMod()|'s  
 > :fun LastMod()  
 > : if line("$") > 20  
 > : let l = 20  
 > : else  
 > : let l = line("$")  
 > : endif  
-> : exe "1," . l . "g/Last modified: /s/Last modified: .*/Last modified: " .  
+> : exe "1," . l . "g/Last modified: /s/Last modified: ._/Last modified: " .  
 > : \ strftime("%Y %b %d")  
 > :endfun
 
 Обратите внимание на использование метки s для запоминания позиции и возврата к ней.
 
 Можно делать сложные вещи, например: при открытии тех-файла отыскать там строку \usepackage[...]{babel}, выяснить, какой там язык (есть ли russian) в квадратных скобках и включить соответствующую проверку орфографии.
+

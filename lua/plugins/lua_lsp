@@ -101,27 +101,27 @@ lua print(vim.inspect(vim.lsp.get_active_clients({name = "lua_ls"})[1].server_ca
 lua print(vim.inspect(vim.lsp.get_active_clients({name = "pyright"})[1].server_capabilities))
 lua local file = assert(io.open("lsp_log", "w")); file:write(vim.inspect(vim.lsp.get_clients())) - выгрузить в файл
 
-lua local client = vim.lsp.get_clients({name = "lua_ls"})[1]; print(client.supports_method('textDocument/implementation')) поддерживает ли метод textDocument/implementation
+lua local client = vim.lsp.get_clients({name = "lua_ls"})[1]; print(client:supports_method('textDocument/implementation')) поддерживает ли метод textDocument/implementation
 lua local client = vim.lsp.get_clients({name = "pyright"})[1]; print(client.supports_method('textDocument/callHierarchy'))
 
-Jumps to the definition of the symbol under the cursor. 
+Jumps to the definition of the symbol under the cursor.
 lua vim.lsp.buf.definition()
 
 lua print(vim.inspect(vim.lsp.util.make_formatting_params())) - информация о форматировании вида
-{                                                                                                                                       
-  options = {                                                                                                                                   
-    insertSpaces = true,                                                                                                                        
-    tabSize = 4                                                                                                                                 
-  },                                                                                                                                            
-  textDocument = {                                                                                                                              
-    uri = "file:///home/stepan/git_repos/kn7072/ANKI/TelegramBot/clear_exaples_for_leart.py"                                                    
-  }                                                                                                                                             
-}  
+{
+  options = {
+    insertSpaces = true,
+    tabSize = 4
+  },
+  textDocument = {
+    uri = "file:///home/stepan/git_repos/kn7072/ANKI/TelegramBot/clear_exaples_for_leart.py"
+  }
+}
 
 lua vim.lsp.codelens.refresh({ bufnr = 4 })
 lua print(vim.inspect(vim.lsp.codelens.get(4)))
 
-Lists all symbols in the current buffer in the location-list. 
+Lists all symbols in the current buffer in the location-list.
 vim.lsp.buf.document_symbol() список всех переменных в буфере, окрывается окно quifix
 
 Displays hover information about the symbol under the cursor in a floating window. The window will be dismissed on cursor move
@@ -156,7 +156,7 @@ Gets the path of the logfile used by the LSP client.
 
 
 lua print(vim.lsp.status())
-Consumes the latest progress messages from all clients and formats them as a string. Empty if there are no clients or if no new messages 
+Consumes the latest progress messages from all clients and formats them as a string. Empty if there are no clients or if no new messages
 
 подготовить параметры для дальнейшего использования
 lua print(vim.inspect(vim.lsp.util.make_range_params()))
