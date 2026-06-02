@@ -1,7 +1,5 @@
-# coding:utf-8
 import json
 import os
-from typing import Union
 
 dir_for_search_files = "/home/stepan/git_repos/kn7072/ANKI/WORDS"
 list_words = ["envelope", "envelop"]
@@ -19,7 +17,7 @@ def write_file(path_file: str, data_file: str) -> None:
         f.write(data_file)
 
 
-def get_path_file(word: str) -> Union[str, None]:
+def get_path_file(word: str) -> str | None:
     """Возвращает путь до файла."""
     first_symbol = word[0].lower()
     path_file = None
