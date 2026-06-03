@@ -15,8 +15,13 @@ find {a..z} — ищет всё внутри папок от a до z.
 -mindepth 1 — критически важный параметр: он говорит не применять команду к самим папкам верхнего уровня (глубина 0), а только к их содержимому.
 -exec rm -rf {} + — безжалостно удаляет всё найденное.
 """
-dir_create_files = "/home/stepan/temp/phrasal_verb"
-path_anki = "/home/stepan/temp/phrasal_verb"
+# отладочные пути
+# dir_create_files = "/home/stepan/temp/phrasal_verb"
+# path_anki = "/home/stepan/temp/phrasal_verb"
+
+# боевые пути
+dir_create_files = "/home/stepan/git_repos/kn7072/ANKI/WORDS"
+path_anki = "/home/stepan/git_repos/kn7072/ANKI"
 path_to_phrasal_verb_json = "/home/stepan/git_repos/kn7072/EnglishSimulate/Project/PhrasalVerbs/phrasal_verbs_300.json"
 examples_keys = {
     "comment": [],
