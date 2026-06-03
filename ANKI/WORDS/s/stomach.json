@@ -43,10 +43,6 @@
             "The nurse palpated the patient's stomach."
         ],
         "synonyms": [],
-        "grups": [
-            "all_words",
-            "ch = [k]"
-        ],
         "example_translate": [
             "Меня тошнит.",
             "Его беспокоит желудок.",
@@ -79,6 +75,10 @@
             "Это лекарство нейтрализует желудочный сок.",
             "Медсестра ощупала живот пациента."
         ],
-        "stars": 2
+        "stars": 2,
+        "groups": [
+            "all_words",
+            "ch_=_[k]"
+        ]
     }
 }
