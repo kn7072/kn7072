@@ -16,6 +16,7 @@ find {a..z} — ищет всё внутри папок от a до z.
 -exec rm -rf {} + — безжалостно удаляет всё найденное.
 """
 dir_create_files = "/home/stepan/temp/phrasal_verb"
+path_anki = "/home/stepan/temp/phrasal_verb"
 path_to_phrasal_verb_json = "/home/stepan/git_repos/kn7072/EnglishSimulate/Project/PhrasalVerbs/phrasal_verbs_300.json"
 examples_keys = {
     "comment": [],
@@ -84,6 +85,16 @@ def prepare_words_content(all_content: dict) -> None:
         temp_dict = {word_i: object_for_save}
         text_for_save = json.dumps(temp_dict, indent=4, ensure_ascii=False)
         write_file(path_word_i, text_for_save)
+
+        path_notebook = os.path.join(path_anki, "WORDS_NOTEPAD", f"{word_i}.txt")
+        if not os.path.isfile(path_notebook):
+            contant_head = f"{word_i} || {translate}"
+            temp_list = [
+                f"\n\n{i[0]}\n{i[1]}\n\n####" for i in zip(examples, example_translate)
+            ]
+            content_all = contant_head + "".join(temp_list)
+            with open(path_notebook, encoding="utf-8", mode="w") as f:
+                f.write(content_all)
 
 
 all_content = json.loads(get_data_file(path_to_phrasal_verb_json))
