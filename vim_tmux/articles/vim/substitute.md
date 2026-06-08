@@ -254,7 +254,7 @@ This has the advantage, that the buffer won't be marked modified and no extra un
 
 For substituting patterns with corresponding case-sensitive text, Michael Geddes's [keepcase](https://www.vim.org/scripts/script.php?script_id=6) plugin can be used, e.g.:
 
-`:%SubstituteCase/\cHello/goodBye/g`
+`:%SubstituteCase/\cello/goodBye/g`
 
 Substitute 'Hello hello helLo HELLO' by 'Goodbye goodbye goodBye GOODBYE'
 
@@ -312,7 +312,37 @@ To get the ^M character, type Ctrl + V and hit Enter.
 wonder about
 wonder at
 
+```
 %s/\v(._) (._)\/(.\*)/\1 \2^M\1 \3
+```
+
+## удалить содержимое(многострочное) между скобками [], при этом скобки останутся
+
+```
+%s/\v\[\zs(\_.{-})\ze\]//g
+```
+
+было
+"examples": [
+{
+"eng": "Her mother is American.",
+"ru": "Её мать — американка.",
+"learn": 1
+},
+{
+"eng": "American Exchange",
+"ru": "Американская фондовая биржа",
+"learn": 0
+},
+{
+"eng": "Native American ceremonial robes",
+"ru": "церемониальная одежда американских индейцев",
+"learn": 0
+}
+]
+станет
+"examples": [
+]
 
 If you have the following expressions:
 const arrayB = [
