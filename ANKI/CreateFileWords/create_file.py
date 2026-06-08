@@ -41,8 +41,6 @@ def create_json_word(request_session, word_i):
             dict_examples["examples_eng"], dict_examples["examples_rus"]
         )
     ]
-    # copy_temp["examples"] = dict_examples["examples_eng"]
-    # copy_temp["example_translate"] = dict_examples["examples_rus"]
     temp_dict = {word_i: copy_temp}
     dir_for_create_json = os.path.join(
         path_anki, "WORDS", word_i[0].lower(), f"{word_i}.json"
@@ -85,14 +83,14 @@ request_session.headers.update(
 
 
 for word_i in list_new_words:
-    # if word_i in all_words:
-    #     print(f"Слово {word_i} уже содержится в списке")
-    # else:
-    print(f"{word_i}")
-    try:
-        create_json_word(request_session, word_i)
-    except Exception as e:
-        print(f"Проблемы {word_i}\n{e}")
+    if word_i in all_words:
+        print(f"Слово {word_i} уже содержится в списке")
+    else:
+        print(f"{word_i}")
+        try:
+            create_json_word(request_session, word_i)
+        except Exception as e:
+            print(f"Проблемы {word_i}\n{e}")
 
 
 update_word_dict()
