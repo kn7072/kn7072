@@ -18,7 +18,7 @@ examples_keys = {
     "examples": [],
     "example_translate": [],
     "synonyms": [],
-    "grups": [
+    "groups": [
         "all_words",
     ],
 }
