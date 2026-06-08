@@ -1,48 +1,130 @@
 {
-    "fix up": {
-        "comment": [],
-        "translate": "1) Ремонтировать, приводить в порядок, улучшать 2) Организовывать, устраивать, обеспечивать 3) Знакомить кого-то с кем-то (с романтической целью) ",
-        "transcription": "|fɪks ʌp|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He fixed up the arrangements for the wedding.",
-            "She fixed him up with a nice girl from work.",
-            "Are you trying to fix me up on a blind date?",
-            "They fixed us up, and we've been dating ever since.",
-            "Let's fix up the garden this weekend.",
-            "He fixed up his car and sold it for a profit.",
-            "She fixed up her apartment with new furniture.",
-            "I don't need you to fix me up; I'll find someone myself.",
-            "My friend wants to fix me up with her cousin.",
-            "They are fixing up the park for the summer.",
-            "She fixed up a deal with the supplier.",
-            "We need to fix up the old house before selling it.",
-            "They fixed us up with tickets to the concert.",
-            "I'll fix you up with a place to stay.",
-            "Can you fix up a meeting for next week?"
-        ],
-        "example_translate": [
-            "Он организовал все приготовления к свадьбе.",
-            "Она познакомила его с хорошей девушкой с работы.",
-            "Ты пытаешься устроить мне свидание вслепую?",
-            "Они нас познакомили, и с тех пор мы встречаемся.",
-            "Давай приведем сад в порядок в эти выходные.",
-            "Он отремонтировал свою машину и продал её с прибылью.",
-            "Она обновила свою квартиру новой мебелью.",
-            "Мне не нужно, чтобы ты меня с кем-то знакомил, я сам найду кого-нибудь.",
-            "Моя подруга хочет познакомить меня со своим кузеном.",
-            "Они приводят парк в порядок к лету.",
-            "Она организовала сделку с поставщиком.",
-            "Нам нужно отремонтировать старый дом перед продажей.",
-            "Они достали нам билеты на концерт.",
-            "Я устрою тебе жилье.",
-            "Можешь организовать встречу на следующей неделе?"
-        ],
-        "synonyms": "Ремонтировать, приводить в порядок, улучшать - repair, renovate, restore, mend\nОрганизовывать, устраивать, обеспечивать - arrange, organize, provide, set up\nЗнакомить кого-то с кем-то (с романтической целью) - set up, matchmake, introduce\n",
-        "groups": [
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "fix up": {
+    "comment": [],
+    "translate": "1) Ремонтировать, приводить в порядок, улучшать 2) Организовывать, устраивать, обеспечивать 3) Знакомить кого-то с кем-то (с романтической целью) ",
+    "transcription": "|fɪks ʌp|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Ремонтировать, приводить в порядок, улучшать - repair, renovate, restore, mend",
+      "Организовывать, устраивать, обеспечивать - arrange, organize, provide, set up",
+      "Знакомить кого-то с кем-то (с романтической целью) - set up, matchmake, introduce"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "He fixed up the arrangements for the wedding.",
+        "ru": "Он организовал все приготовления к свадьбе.",
+        "learn": 1
+      },
+      {
+        "eng": "She fixed him up with a nice girl from work.",
+        "ru": "Она познакомила его с хорошей девушкой с работы.",
+        "learn": 1
+      },
+      {
+        "eng": "Are you trying to fix me up on a blind date?",
+        "ru": "Ты пытаешься устроить мне свидание вслепую?",
+        "learn": 1
+      },
+      {
+        "eng": "They fixed us up, and we've been dating ever since.",
+        "ru": "Они нас познакомили, и с тех пор мы встречаемся.",
+        "learn": 1
+      },
+      {
+        "eng": "Let's fix up the garden this weekend.",
+        "ru": "Давай приведем сад в порядок в эти выходные.",
+        "learn": 1
+      },
+      {
+        "eng": "He fixed up his car and sold it for a profit.",
+        "ru": "Он отремонтировал свою машину и продал её с прибылью.",
+        "learn": 1
+      },
+      {
+        "eng": "She fixed up her apartment with new furniture.",
+        "ru": "Она обновила свою квартиру новой мебелью.",
+        "learn": 1
+      },
+      {
+        "eng": "I don't need you to fix me up, I'll find someone myself.",
+        "ru": "Мне не нужно, чтобы ты меня с кем-то знакомил, я сам найду кого-нибудь.",
+        "learn": 1
+      },
+      {
+        "eng": "My friend wants to fix me up with her cousin.",
+        "ru": "Моя подруга хочет познакомить меня со своим кузеном.",
+        "learn": 1
+      },
+      {
+        "eng": "They are fixing up the park for the summer.",
+        "ru": "Они приводят парк в порядок к лету.",
+        "learn": 1
+      },
+      {
+        "eng": "She fixed up a deal with the supplier.",
+        "ru": "Она организовала сделку с поставщиком.",
+        "learn": 1
+      },
+      {
+        "eng": "We need to fix up the old house before selling it.",
+        "ru": "Нам нужно отремонтировать старый дом перед продажей.",
+        "learn": 1
+      },
+      {
+        "eng": "They fixed us up with tickets to the concert.",
+        "ru": "Они достали нам билеты на концерт.",
+        "learn": 1
+      },
+      {
+        "eng": "I'll fix you up with a place to stay.",
+        "ru": "Я устрою тебе жилье.",
+        "learn": 1
+      },
+      {
+        "eng": "Can you fix up a meeting for next week?",
+        "ru": "Можешь организовать встречу на следующей неделе?",
+        "learn": 1
+      },
+      {
+        "eng": "Can you fix up a meeting with the director?",
+        "ru": "Ты можешь договориться о встрече с директором?",
+        "learn": 0
+      },
+      {
+        "eng": "He fixed us up in a good hotel.",
+        "ru": "Он устроил нас в хорошей гостинице.",
+        "learn": 0
+      },
+      {
+        "eng": "I can fix you up with a good used car.",
+        "ru": "Я могу найти тебе хорошую подержанную машину.",
+        "learn": 0
+      },
+      {
+        "eng": "I have a friend who can fix me up for the weekend.",
+        "ru": "У меня есть друг, который может приютить меня на уик-энд.",
+        "learn": 0
+      },
+      {
+        "eng": "The garage man fixed up the old car and sold it at a profit.",
+        "ru": "Механик подлатал старый автомобиль и выгодно продал его.",
+        "learn": 0
+      },
+      {
+        "eng": "We shall have to fix the house up before we can sell it.",
+        "ru": "Нам придётся отремонтировать дом, прежде чем мы сможем продать его.",
+        "learn": 0
+      },
+      {
+        "eng": "Do I have to fix up to go to the Websters'?",
+        "ru": "Чтобы идти к Вебстерам, надо одеться парадно?",
+        "learn": 0
+      }
+    ]
+  }
 }

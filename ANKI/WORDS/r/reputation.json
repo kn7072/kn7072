@@ -1,84 +1,170 @@
 {
-    "reputation": {
-        "comment": [
-            "put",
-            "input",
-            "output",
-            "dispute",
-            "deputy"
-        ],
-        "translate": "репутация, реноме, слава, доброе имя",
-        "transcription": " |ˌrepjuˈteɪʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "His reputation was badly damaged.",
-            "His reputation was at hazard.",
-            "He had a reputation for being laconic.",
-            "He has an ace-high reputation.",
-            "His reputation survived intact.",
-            "a teacher with a reputation for patience",
-            "I can avouch for her reputation.",
-            "Party bosses have a reputation for corruption.",
-            "Sex scandals sink US Navy's reputation.",
-            "This gentleman is of a mixed reputation.",
-            "I will stake my good reputation for this.",
-            "the university's reputation for excellence",
-            "That judge has a reputation for being fair.",
-            "Party bosses have a reputation for corruption.",
-            "He had the reputation of being a heavy drinker.",
-            "She got a reputation as a frump.",
-            "He wants to redeem his reputation.",
-            "a writer with an inflated reputation",
-            "The scandal tarnished his reputation.",
-            "The club has an unsavoury reputation.",
-            "The scandal has dented his reputation.",
-            "This paper will add to her reputation.",
-            "The incident blemished his reputation.",
-            "The accusations stained his reputation.",
-            "His reputation was anything but savory.",
-            "a law firm with an unblemished reputation",
-            "I will stake my good reputation for this.",
-            "The army's actions dirtied its reputation.",
-            "He has a reputation for being unflappable.",
-            "The publicity has enhanced his reputation."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Его репутация сильно пострадала.",
-            "Его репутация была под угрозой.",
-            "Он был известен /славился/ своей немногословностью.",
-            "Все относятся к нему с глубоким уважением.",
-            "Его репутация не пострадала.",
-            "педагог, известный своим терпением",
-            "Могу поручиться за её репутацию.",
-            "Партийные боссы славятся коррумпированностью.",
-            "Скандалы на сексуальной почве позорят военно-морской флот США.",
-            "У этого джентльмена неоднозначная репутация.",
-            "Я поручусь за это своей репутацией.",
-            "репутация высоких стандартов обучения, которую снискал себе университет",
-            "Этот судья известен своей справедливостью.",
-            "Партийное руководство известно своей продажностью.",
-            "У него репутация горького пьяницы.",
-            "Она получила репутацию замухрышки.",
-            "Он хочет восстановить свою репутацию.",
-            "писатель с раздутой репутацией",
-            "Скандал запятнал его доброе имя /репутацию/.",
-            "У этого клуба сомнительная репутация.",
-            "Этот скандал подмочил его репутацию.",
-            "Эта работа поспособствует улучшению её репутации.",
-            "Инцидент запятнал /подмочил/ его репутацию.",
-            "Эти обвинения запятнали / подмочили его репутацию.",
-            "Его репутация была небезупречной.",
-            "юридическая фирма с безупречной репутацией",
-            "Ради этого я рискну своей хорошей репутацией.",
-            "Действия армии запятнали её репутацию.",
-            "У него репутация невозмутимого человека.",
-            "Реклама в СМИ укрепила его репутацию."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "reputation": {
+    "comment": [
+      "put",
+      "input",
+      "output",
+      "dispute",
+      "deputy"
+    ],
+    "translate": "репутация, реноме, слава, доброе имя",
+    "transcription": " |ˌrepjuˈteɪʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "His reputation was badly damaged.",
+        "ru": "Его репутация сильно пострадала.",
+        "learn": 0
+      },
+      {
+        "eng": "His reputation was at hazard.",
+        "ru": "Его репутация была под угрозой.",
+        "learn": 0
+      },
+      {
+        "eng": "He had a reputation for being laconic.",
+        "ru": "Он был известен /славился/ своей немногословностью.",
+        "learn": 0
+      },
+      {
+        "eng": "He has an ace-high reputation.",
+        "ru": "Все относятся к нему с глубоким уважением.",
+        "learn": 0
+      },
+      {
+        "eng": "His reputation survived intact.",
+        "ru": "Его репутация не пострадала.",
+        "learn": 0
+      },
+      {
+        "eng": "a teacher with a reputation for patience",
+        "ru": "педагог, известный своим терпением",
+        "learn": 0
+      },
+      {
+        "eng": "I can avouch for her reputation.",
+        "ru": "Могу поручиться за её репутацию.",
+        "learn": 0
+      },
+      {
+        "eng": "Party bosses have a reputation for corruption.",
+        "ru": "Партийные боссы славятся коррумпированностью.",
+        "learn": 0
+      },
+      {
+        "eng": "Sex scandals sink US Navy's reputation.",
+        "ru": "Скандалы на сексуальной почве позорят военно-морской флот США.",
+        "learn": 0
+      },
+      {
+        "eng": "This gentleman is of a mixed reputation.",
+        "ru": "У этого джентльмена неоднозначная репутация.",
+        "learn": 1
+      },
+      {
+        "eng": "I will stake my good reputation for this.",
+        "ru": "Я поручусь за это своей репутацией.",
+        "learn": 1
+      },
+      {
+        "eng": "the university's reputation for excellence",
+        "ru": "репутация высоких стандартов обучения, которую снискал себе университет",
+        "learn": 0
+      },
+      {
+        "eng": "That judge has a reputation for being fair.",
+        "ru": "Этот судья известен своей справедливостью.",
+        "learn": 1
+      },
+      {
+        "eng": "Party bosses have a reputation for corruption.",
+        "ru": "Партийное руководство известно своей продажностью.",
+        "learn": 0
+      },
+      {
+        "eng": "He had the reputation of being a heavy drinker.",
+        "ru": "У него репутация горького пьяницы.",
+        "learn": 0
+      },
+      {
+        "eng": "She got a reputation as a frump.",
+        "ru": "Она получила репутацию замухрышки.",
+        "learn": 0
+      },
+      {
+        "eng": "He wants to redeem his reputation.",
+        "ru": "Он хочет восстановить свою репутацию.",
+        "learn": 0
+      },
+      {
+        "eng": "a writer with an inflated reputation",
+        "ru": "писатель с раздутой репутацией",
+        "learn": 0
+      },
+      {
+        "eng": "The scandal tarnished his reputation.",
+        "ru": "Скандал запятнал его доброе имя /репутацию/.",
+        "learn": 0
+      },
+      {
+        "eng": "The club has an unsavoury reputation.",
+        "ru": "У этого клуба сомнительная репутация.",
+        "learn": 0
+      },
+      {
+        "eng": "The scandal has dented his reputation.",
+        "ru": "Этот скандал подмочил его репутацию.",
+        "learn": 0
+      },
+      {
+        "eng": "This paper will add to her reputation.",
+        "ru": "Эта работа поспособствует улучшению её репутации.",
+        "learn": 0
+      },
+      {
+        "eng": "The incident blemished his reputation.",
+        "ru": "Инцидент запятнал /подмочил/ его репутацию.",
+        "learn": 0
+      },
+      {
+        "eng": "The accusations stained his reputation.",
+        "ru": "Эти обвинения запятнали / подмочили его репутацию.",
+        "learn": 0
+      },
+      {
+        "eng": "His reputation was anything but savory.",
+        "ru": "Его репутация была небезупречной.",
+        "learn": 0
+      },
+      {
+        "eng": "a law firm with an unblemished reputation",
+        "ru": "юридическая фирма с безупречной репутацией",
+        "learn": 0
+      },
+      {
+        "eng": "I will stake my good reputation for this.",
+        "ru": "Ради этого я рискну своей хорошей репутацией.",
+        "learn": 1
+      },
+      {
+        "eng": "The army's actions dirtied its reputation.",
+        "ru": "Действия армии запятнали её репутацию.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a reputation for being unflappable.",
+        "ru": "У него репутация невозмутимого человека.",
+        "learn": 0
+      },
+      {
+        "eng": "The publicity has enhanced his reputation.",
+        "ru": "Реклама в СМИ укрепила его репутацию.",
+        "learn": 1
+      }
+    ]
+  }
 }

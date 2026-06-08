@@ -1,81 +1,167 @@
 {
-    "responsibility": {
-        "comment": [
-            "response",
-            "responsible"
-        ],
-        "translate": "ответственность, обязанность, обязанности, обязательство, вменяемость",
-        "transcription": " |rɪˌspɑːnsəˈbɪləti|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Responsibility lies with me.",
-            "He took the responsibility off me.",
-            "He has no sense of responsibility.",
-            "We all have a responsibility to protect the environment.",
-            "She takes her responsibilities as a nurse very seriously.",
-            "It's your responsibility to inform us of any changes.",
-            "He finds the responsibilities of being managing director too heavy.",
-            "It is outside my sphere of responsibility.",
-            "Be careful you don't take on too much responsibility.",
-            "It was an awesome responsibility.",
-            "I accept full responsibility for my actions.",
-            "She agreed to bear the responsibility.",
-            "He disclaimed any responsibility.",
-            "Who do you trust to take responsibility for Britain's defence?",
-            "The janitor has many responsibilities.",
-            "Mowing the lawn is your responsibility.",
-            "What do I care? It's your responsibility now!",
-            "The responsibility usually falls on the mother.",
-            "I absolve you from this responsibility.",
-            "We have a responsibility to protect the environment.",
-            "a child's conception of responsibility",
-            "She felt a great weight of responsibility.",
-            "The responsibility is yours and yours alone.",
-            "The responsibility rests with the Allies.",
-            "The responsibility has become burdensome.",
-            "not unmindful of the heavy responsibility",
-            "bowed down by the weight of responsibility",
-            "Responsibility goes with becoming a father.",
-            "The responsibility lies squarely with them.",
-            "an arid speech about duty and responsibility"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ответственность лежит на мне.",
-            "Он снял с меня ответственность.",
-            "У него нет чувства ответственности.",
-            "Наша общая обязанность — защита окружающей среды.",
-            "Она очень серьёзно относится к своим обязанностям медсестры.",
-            "Информировать нас о любых изменениях — ваша обязанность.",
-            "Он считает свои обязанности управляющего директора слишком тяжёлыми.",
-            "Это не входит в мои обязанности.",
-            "Старайтесь не брать на себя слишком много ответственности.",
-            "Это была огромная ответственность.",
-            "Я принимаю полную ответственность за свои поступки.",
-            "Она согласилась взять ответственность на себя.",
-            "Он отказался от каких-либо обязательств.",
-            "Кому вы доверяете взять на себя ответственность за оборону Британии?",
-            "У сторожа /дворника/ много обязанностей.",
-            "Стрижка газона — это твоя обязанность.",
-            "Мне-то что? Теперь это ваша обязанность!",
-            "Ответственность, как правило, возлагается на мать.",
-            "Я освобождаю тебя от этой обязанности.",
-            "Мы несём ответственность за защиту окружающей среды.",
-            "понятие ребёнка об ответственности",
-            "Она почувствовала огромный груз ответственности.",
-            "Это ваша, и только ваша обязанность.",
-            "Ответственность лежит на союзниках.",
-            "Эта обязанность стала тягостной.",
-            "не забыв об этой тяжёлой обязанности",
-            "согнулся под тяжестью ответственности",
-            "Отцовство означает ответственность.",
-            "Ответственность лежит непосредственно на них.",
-            "скучная речь о долге и ответственности"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "responsibility": {
+    "comment": [
+      "response",
+      "responsible"
+    ],
+    "translate": "ответственность, обязанность, обязанности, обязательство, вменяемость",
+    "transcription": " |rɪˌspɑːnsəˈbɪləti|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Responsibility lies with me.",
+        "ru": "Ответственность лежит на мне.",
+        "learn": 1
+      },
+      {
+        "eng": "He took the responsibility off me.",
+        "ru": "Он снял с меня ответственность.",
+        "learn": 0
+      },
+      {
+        "eng": "He has no sense of responsibility.",
+        "ru": "У него нет чувства ответственности.",
+        "learn": 0
+      },
+      {
+        "eng": "We all have a responsibility to protect the environment.",
+        "ru": "Наша общая обязанность — защита окружающей среды.",
+        "learn": 0
+      },
+      {
+        "eng": "She takes her responsibilities as a nurse very seriously.",
+        "ru": "Она очень серьёзно относится к своим обязанностям медсестры.",
+        "learn": 0
+      },
+      {
+        "eng": "It's your responsibility to inform us of any changes.",
+        "ru": "Информировать нас о любых изменениях — ваша обязанность.",
+        "learn": 0
+      },
+      {
+        "eng": "He finds the responsibilities of being managing director too heavy.",
+        "ru": "Он считает свои обязанности управляющего директора слишком тяжёлыми.",
+        "learn": 0
+      },
+      {
+        "eng": "It is outside my sphere of responsibility.",
+        "ru": "Это не входит в мои обязанности.",
+        "learn": 1
+      },
+      {
+        "eng": "Be careful you don't take on too much responsibility.",
+        "ru": "Старайтесь не брать на себя слишком много ответственности.",
+        "learn": 0
+      },
+      {
+        "eng": "It was an awesome responsibility.",
+        "ru": "Это была огромная ответственность.",
+        "learn": 0
+      },
+      {
+        "eng": "I accept full responsibility for my actions.",
+        "ru": "Я принимаю полную ответственность за свои поступки.",
+        "learn": 0
+      },
+      {
+        "eng": "She agreed to bear the responsibility.",
+        "ru": "Она согласилась взять ответственность на себя.",
+        "learn": 0
+      },
+      {
+        "eng": "He disclaimed any responsibility.",
+        "ru": "Он отказался от каких-либо обязательств.",
+        "learn": 0
+      },
+      {
+        "eng": "Who do you trust to take responsibility for Britain's defence?",
+        "ru": "Кому вы доверяете взять на себя ответственность за оборону Британии?",
+        "learn": 1
+      },
+      {
+        "eng": "The janitor has many responsibilities.",
+        "ru": "У сторожа /дворника/ много обязанностей.",
+        "learn": 0
+      },
+      {
+        "eng": "Mowing the lawn is your responsibility.",
+        "ru": "Стрижка газона — это твоя обязанность.",
+        "learn": 0
+      },
+      {
+        "eng": "What do I care? It's your responsibility now!",
+        "ru": "Мне-то что? Теперь это ваша обязанность!",
+        "learn": 0
+      },
+      {
+        "eng": "The responsibility usually falls on the mother.",
+        "ru": "Ответственность, как правило, возлагается на мать.",
+        "learn": 0
+      },
+      {
+        "eng": "I absolve you from this responsibility.",
+        "ru": "Я освобождаю тебя от этой обязанности.",
+        "learn": 0
+      },
+      {
+        "eng": "We have a responsibility to protect the environment.",
+        "ru": "Мы несём ответственность за защиту окружающей среды.",
+        "learn": 0
+      },
+      {
+        "eng": "a child's conception of responsibility",
+        "ru": "понятие ребёнка об ответственности",
+        "learn": 0
+      },
+      {
+        "eng": "She felt a great weight of responsibility.",
+        "ru": "Она почувствовала огромный груз ответственности.",
+        "learn": 1
+      },
+      {
+        "eng": "The responsibility is yours and yours alone.",
+        "ru": "Это ваша, и только ваша обязанность.",
+        "learn": 0
+      },
+      {
+        "eng": "The responsibility rests with the Allies.",
+        "ru": "Ответственность лежит на союзниках.",
+        "learn": 0
+      },
+      {
+        "eng": "The responsibility has become burdensome.",
+        "ru": "Эта обязанность стала тягостной.",
+        "learn": 0
+      },
+      {
+        "eng": "not unmindful of the heavy responsibility",
+        "ru": "не забыв об этой тяжёлой обязанности",
+        "learn": 0
+      },
+      {
+        "eng": "bowed down by the weight of responsibility",
+        "ru": "согнулся под тяжестью ответственности",
+        "learn": 0
+      },
+      {
+        "eng": "Responsibility goes with becoming a father.",
+        "ru": "Отцовство означает ответственность.",
+        "learn": 0
+      },
+      {
+        "eng": "The responsibility lies squarely with them.",
+        "ru": "Ответственность лежит непосредственно на них.",
+        "learn": 0
+      },
+      {
+        "eng": "an arid speech about duty and responsibility",
+        "ru": "скучная речь о долге и ответственности",
+        "learn": 0
+      }
+    ]
+  }
 }

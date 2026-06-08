@@ -1,81 +1,167 @@
 {
-    "detail": {
-        "comment": [
-            "tail",
-            "detailed"
-        ],
-        "translate": "подробный, детальный, подробность, деталь, наряд, детализировать",
-        "transcription": " |ˈdiːteɪl|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Don't pass any detail over.",
-            "He has a gimlet eye for detail.",
-            "He described the scene in meticulous detail.",
-            "An extra detail of police was made.",
-            "He described the process in detail (=using a lot of details).",
-            "He's a demon for detail and a lively writer.",
-            "His painting strikes with a wealth of detail.",
-            "It was perfect in all details.",
-            "This issue will be discussed in more detail in Chapter 5.",
-            "The novel is full of historical details.",
-            "The author narrates her story in great detail.",
-            "Two men were detailed to deal with the urgent order.",
-            "You can't distinguish the detail from this distance.",
-            "The job requires attention to detail.",
-            "The article provides further details.",
-            "a poem full of descriptive detail",
-            "Several of the details are similar.",
-            "They have detailed their grievances.",
-            "the writer's observant eye for detail",
-            "He told the story in elaborate detail.",
-            "He explained the plan in minute detail.",
-            "The novel is full of historical detail.",
-            "They designed every detail of the house.",
-            "The proposal was studied in great detail.",
-            "He described the house in perfect detail.",
-            "We admired the detail of the artist's work.",
-            "Editing requires great attention to detail.",
-            "She told him what happened in minute detail.",
-            "She wrote a letter detailing her complaints.",
-            "A detail was sent to remove the fallen trees."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Не упусти ни одной детали.",
-            "Он не упустит ни одной детали.",
-            "Он описал эпизод / происшествие в мельчайших подробностях",
-            "Был выделен дополнительный наряд полиции.",
-            "Он описал данный процесс детально (т.е. используя множество подробностей).",
-            "Он мастерски схватывает детали и очень живо пишет.",
-            "Его живопись поражает богатством деталей.",
-            "Это было идеально во всём, до мелочей.",
-            "Более подробно этот вопрос будет обсуждаться в главе 5.",
-            "Роман изобилует историческими подробностями.",
-            "Автор рассказывает свою историю в мельчайших подробностях.",
-            "Двоих работников отрядили на выполнение срочного заказа.",
-            "Вы не можете различить детали с такого расстояния.",
-            "Работа требует внимания к деталям.",
-            "В данной статье приводится более подробная информация.",
-            "стихотворение, в котором много описательных подробностей",
-            "Некоторые детали похожи.",
-            "Они подробно изложили свои жалобы.",
-            "внимательный к деталям глаз этого писателя",
-            "Он рассказал эту историю в мельчайших деталях /подробностях/.",
-            "Он объяснил этот план в мельчайших подробностях.",
-            "Роман полон исторических деталей.",
-            "Они разработали каждую деталь этого дома.",
-            "Это предложение было очень подробно рассмотрено.",
-            "Он в мельчайших подробностях описал этот дом.",
-            "Мы восхищались тем, насколько подробно художник выписал все детали.",
-            "Редактирование текстов требует большого внимания к деталям.",
-            "Она в мельчайших подробностях рассказала ему, что случилось.",
-            "Она написала письмо с подробным описанием своих претензий.",
-            "Для уборки поваленных деревьев отрядили бригаду рабочих."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "detail": {
+    "comment": [
+      "tail",
+      "detailed"
+    ],
+    "translate": "подробный, детальный, подробность, деталь, наряд, детализировать",
+    "transcription": " |ˈdiːteɪl|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Don't pass any detail over.",
+        "ru": "Не упусти ни одной детали.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a gimlet eye for detail.",
+        "ru": "Он не упустит ни одной детали.",
+        "learn": 0
+      },
+      {
+        "eng": "He described the scene in meticulous detail.",
+        "ru": "Он описал эпизод / происшествие в мельчайших подробностях",
+        "learn": 0
+      },
+      {
+        "eng": "An extra detail of police was made.",
+        "ru": "Был выделен дополнительный наряд полиции.",
+        "learn": 0
+      },
+      {
+        "eng": "He described the process in detail (=using a lot of details).",
+        "ru": "Он описал данный процесс детально (т.е. используя множество подробностей).",
+        "learn": 0
+      },
+      {
+        "eng": "He's a demon for detail and a lively writer.",
+        "ru": "Он мастерски схватывает детали и очень живо пишет.",
+        "learn": 0
+      },
+      {
+        "eng": "His painting strikes with a wealth of detail.",
+        "ru": "Его живопись поражает богатством деталей.",
+        "learn": 0
+      },
+      {
+        "eng": "It was perfect in all details.",
+        "ru": "Это было идеально во всём, до мелочей.",
+        "learn": 0
+      },
+      {
+        "eng": "This issue will be discussed in more detail in Chapter 5.",
+        "ru": "Более подробно этот вопрос будет обсуждаться в главе 5.",
+        "learn": 1
+      },
+      {
+        "eng": "The novel is full of historical details.",
+        "ru": "Роман изобилует историческими подробностями.",
+        "learn": 1
+      },
+      {
+        "eng": "The author narrates her story in great detail.",
+        "ru": "Автор рассказывает свою историю в мельчайших подробностях.",
+        "learn": 0
+      },
+      {
+        "eng": "Two men were detailed to deal with the urgent order.",
+        "ru": "Двоих работников отрядили на выполнение срочного заказа.",
+        "learn": 0
+      },
+      {
+        "eng": "You can't distinguish the detail from this distance.",
+        "ru": "Вы не можете различить детали с такого расстояния.",
+        "learn": 0
+      },
+      {
+        "eng": "The job requires attention to detail.",
+        "ru": "Работа требует внимания к деталям.",
+        "learn": 0
+      },
+      {
+        "eng": "The article provides further details.",
+        "ru": "В данной статье приводится более подробная информация.",
+        "learn": 0
+      },
+      {
+        "eng": "a poem full of descriptive detail",
+        "ru": "стихотворение, в котором много описательных подробностей",
+        "learn": 0
+      },
+      {
+        "eng": "Several of the details are similar.",
+        "ru": "Некоторые детали похожи.",
+        "learn": 0
+      },
+      {
+        "eng": "They have detailed their grievances.",
+        "ru": "Они подробно изложили свои жалобы.",
+        "learn": 0
+      },
+      {
+        "eng": "the writer's observant eye for detail",
+        "ru": "внимательный к деталям глаз этого писателя",
+        "learn": 0
+      },
+      {
+        "eng": "He told the story in elaborate detail.",
+        "ru": "Он рассказал эту историю в мельчайших деталях /подробностях/.",
+        "learn": 1
+      },
+      {
+        "eng": "He explained the plan in minute detail.",
+        "ru": "Он объяснил этот план в мельчайших подробностях.",
+        "learn": 0
+      },
+      {
+        "eng": "The novel is full of historical detail.",
+        "ru": "Роман полон исторических деталей.",
+        "learn": 0
+      },
+      {
+        "eng": "They designed every detail of the house.",
+        "ru": "Они разработали каждую деталь этого дома.",
+        "learn": 0
+      },
+      {
+        "eng": "The proposal was studied in great detail.",
+        "ru": "Это предложение было очень подробно рассмотрено.",
+        "learn": 0
+      },
+      {
+        "eng": "He described the house in perfect detail.",
+        "ru": "Он в мельчайших подробностях описал этот дом.",
+        "learn": 1
+      },
+      {
+        "eng": "We admired the detail of the artist's work.",
+        "ru": "Мы восхищались тем, насколько подробно художник выписал все детали.",
+        "learn": 0
+      },
+      {
+        "eng": "Editing requires great attention to detail.",
+        "ru": "Редактирование текстов требует большого внимания к деталям.",
+        "learn": 0
+      },
+      {
+        "eng": "She told him what happened in minute detail.",
+        "ru": "Она в мельчайших подробностях рассказала ему, что случилось.",
+        "learn": 0
+      },
+      {
+        "eng": "She wrote a letter detailing her complaints.",
+        "ru": "Она написала письмо с подробным описанием своих претензий.",
+        "learn": 0
+      },
+      {
+        "eng": "A detail was sent to remove the fallen trees.",
+        "ru": "Для уборки поваленных деревьев отрядили бригаду рабочих.",
+        "learn": 0
+      }
+    ]
+  }
 }

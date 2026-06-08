@@ -1,83 +1,169 @@
 {
-    "check": {
-        "comment": [
-            "cheque"
-        ],
-        "translate": "проверка, чек, контроль, проверять, контролировать, контрольный, клетчатый",
-        "transcription": " |tʃek|",
-        "antonyms": [],
-        "mnemonic": [
-            "check [чек] проверять - Проверять (чек).",
-            "check [ʧek]\n***\nПРОВЕРЯТЬ, сверять чек. (это)\nПроверка, контроль."
-        ],
-        "examples": [
-            "Can I pay by check?",
-            "Check your spelling and grammar.",
-            "Hey, check out that car!",
-            "Does his story check out?",
-            "Can you check these proofs?",
-            "Check the time of the class.",
-            "Check your baggage in at the desk.",
-            "These stories don't check!",
-            "You must check out of the hotel by 10 a.m.",
-            "Check to see if the meat is done.",
-            "The guards checked my passport.",
-            "Check the expiry date on your passport.",
-            "He hastily checked the impulse.",
-            "His task was to keep Jimmy in check.",
-            "You can check your suitcases in at the desk.",
-            "The king is in check.",
-            "She wore a skirt with checks.",
-            "The dog checked.",
-            "Check for signs of corrosion.",
-            "I'll check back tomorrow about that question.",
-            "What time do you have to check in?",
-            "Check this with sales.",
-            "Did you bank that check?",
-            "Check out this dope new song.",
-            "The police are checking out his alibi.",
-            "\"Should I send you a check?\" \"Why not just bring me the money when you come?\"",
-            "The heat checked the paint.",
-            "The description checks with the photograph.",
-            "Mr. Baldwin checked the enthusiasm of his visitors.",
-            "The bank dishonored my check."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Могу ли я расплатиться чеком?",
-            "Проверьте свои правописание и грамматику .",
-            "Эй, зацени ту машину!",
-            "Его рассказ подтверждается?",
-            "Вы можете проверить эти доказательства?",
-            "Уточните время начала занятия.",
-            "Зарегистрируйте багаж на стойке регистрации.",
-            "Эти рассказы не подтверждаются!",
-            "Вы должны выехать из гостиницы до 10 часов утра.",
-            "Проверьте, готово ли мясо.",
-            "Охрана проверила мой паспорт.",
-            "Проверьте срок действия вашего паспорта.",
-            "Он быстро подавил этот порыв.",
-            "Его задачей было держать Джима под контролем.",
-            "Вы можете сдать свои чемоданы на стойке.",
-            "Королю объявлен шах.",
-            "Она носила клетчатую юбку.",
-            "Собака сбилась со следа.",
-            "Проверьте, нет ли признаков коррозии.",
-            "Завтра я задам этот вопрос еще раз.",
-            "В какое время вам нужно приходить на работу?",
-            "Справься об этом в нашем отделе продаж.",
-            "Ты положил этот чек в банк?",
-            "Зацени эту новую улётную песню.",
-            "Полиция проверяет его алиби.",
-            "— Прислать вам чек? — А почему бы вам просто не принести мне деньги, когда придёте?",
-            "От жары краска потрескалась.",
-            "Описание соответствует фотографии.",
-            "Мистер Болдуин умерил энтузиазм своих гостей.",
-            "Банк опротестовал мой чек."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "check": {
+    "comment": [
+      "cheque"
+    ],
+    "translate": "проверка, чек, контроль, проверять, контролировать, контрольный, клетчатый",
+    "transcription": " |tʃek|",
+    "antonyms": [],
+    "mnemonic": [
+      "check [чек] проверять - Проверять (чек).",
+      "check [ʧek]\n***\nПРОВЕРЯТЬ, сверять чек. (это)\nПроверка, контроль."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Can I pay by check?",
+        "ru": "Могу ли я расплатиться чеком?",
+        "learn": 0
+      },
+      {
+        "eng": "Check your spelling and grammar.",
+        "ru": "Проверьте свои правописание и грамматику .",
+        "learn": 0
+      },
+      {
+        "eng": "Hey, check out that car!",
+        "ru": "Эй, зацени ту машину!",
+        "learn": 0
+      },
+      {
+        "eng": "Does his story check out?",
+        "ru": "Его рассказ подтверждается?",
+        "learn": 0
+      },
+      {
+        "eng": "Can you check these proofs?",
+        "ru": "Вы можете проверить эти доказательства?",
+        "learn": 1
+      },
+      {
+        "eng": "Check the time of the class.",
+        "ru": "Уточните время начала занятия.",
+        "learn": 0
+      },
+      {
+        "eng": "Check your baggage in at the desk.",
+        "ru": "Зарегистрируйте багаж на стойке регистрации.",
+        "learn": 0
+      },
+      {
+        "eng": "These stories don't check!",
+        "ru": "Эти рассказы не подтверждаются!",
+        "learn": 0
+      },
+      {
+        "eng": "You must check out of the hotel by 10 a.m.",
+        "ru": "Вы должны выехать из гостиницы до 10 часов утра.",
+        "learn": 0
+      },
+      {
+        "eng": "Check to see if the meat is done.",
+        "ru": "Проверьте, готово ли мясо.",
+        "learn": 1
+      },
+      {
+        "eng": "The guards checked my passport.",
+        "ru": "Охрана проверила мой паспорт.",
+        "learn": 1
+      },
+      {
+        "eng": "Check the expiry date on your passport.",
+        "ru": "Проверьте срок действия вашего паспорта.",
+        "learn": 0
+      },
+      {
+        "eng": "He hastily checked the impulse.",
+        "ru": "Он быстро подавил этот порыв.",
+        "learn": 0
+      },
+      {
+        "eng": "His task was to keep Jimmy in check.",
+        "ru": "Его задачей было держать Джима под контролем.",
+        "learn": 0
+      },
+      {
+        "eng": "You can check your suitcases in at the desk.",
+        "ru": "Вы можете сдать свои чемоданы на стойке.",
+        "learn": 0
+      },
+      {
+        "eng": "The king is in check.",
+        "ru": "Королю объявлен шах.",
+        "learn": 0
+      },
+      {
+        "eng": "She wore a skirt with checks.",
+        "ru": "Она носила клетчатую юбку.",
+        "learn": 0
+      },
+      {
+        "eng": "The dog checked.",
+        "ru": "Собака сбилась со следа.",
+        "learn": 0
+      },
+      {
+        "eng": "Check for signs of corrosion.",
+        "ru": "Проверьте, нет ли признаков коррозии.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll check back tomorrow about that question.",
+        "ru": "Завтра я задам этот вопрос еще раз.",
+        "learn": 0
+      },
+      {
+        "eng": "What time do you have to check in?",
+        "ru": "В какое время вам нужно приходить на работу?",
+        "learn": 0
+      },
+      {
+        "eng": "Check this with sales.",
+        "ru": "Справься об этом в нашем отделе продаж.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you bank that check?",
+        "ru": "Ты положил этот чек в банк?",
+        "learn": 0
+      },
+      {
+        "eng": "Check out this dope new song.",
+        "ru": "Зацени эту новую улётную песню.",
+        "learn": 0
+      },
+      {
+        "eng": "The police are checking out his alibi.",
+        "ru": "Полиция проверяет его алиби.",
+        "learn": 0
+      },
+      {
+        "eng": "\"Should I send you a check?\" \"Why not just bring me the money when you come?\"",
+        "ru": "— Прислать вам чек? — А почему бы вам просто не принести мне деньги, когда придёте?",
+        "learn": 0
+      },
+      {
+        "eng": "The heat checked the paint.",
+        "ru": "От жары краска потрескалась.",
+        "learn": 0
+      },
+      {
+        "eng": "The description checks with the photograph.",
+        "ru": "Описание соответствует фотографии.",
+        "learn": 1
+      },
+      {
+        "eng": "Mr. Baldwin checked the enthusiasm of his visitors.",
+        "ru": "Мистер Болдуин умерил энтузиазм своих гостей.",
+        "learn": 0
+      },
+      {
+        "eng": "The bank dishonored my check.",
+        "ru": "Банк опротестовал мой чек.",
+        "learn": 0
+      }
+    ]
+  }
 }

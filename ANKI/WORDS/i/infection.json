@@ -1,82 +1,168 @@
 {
-    "infection": {
-        "comment": [
-            "infectious",
-            "infect",
-            "infected"
-        ],
-        "translate": "инфекция, заражение, зараза, заразительность, пагубное влияние",
-        "transcription": " |ɪnˈfekʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The medicine reduces the risk of infection.",
-            "The drug helps combat infection.",
-            "trying to treat a stubborn infection",
-            "drugs that are used to inhibit infection",
-            "Poor hygiene can increase the danger of infection.",
-            "We localized the source of the infection.",
-            "an infection that's resistant to antibiotics",
-            "The infection is treatable with antibiotics.",
-            "The drug will help your body resist infection.",
-            "The infection has localized in the left eye.",
-            "The infection was traced to contaminated food.",
-            "Water and insects can be vehicles of infection.",
-            "Classically, infection appears in the lower jaw.",
-            "The wound has so far remained free of infection.",
-            "There's a nasty infection going round, so I hear.",
-            "Always sterilize the needle to prevent infection.",
-            "The infection is passed by the bite of a mosquito.",
-            "an infection that could cause rupture of the eardrum",
-            "The doctor took a throat swab to check for infection.",
-            "The doctor took steps to prevent perinatal infection.",
-            "anoint the wound with antiseptic to prevent infection",
-            "The most common means of virus infection is via email.",
-            "The risk of infection is confined to medical personnel.",
-            "Malaria can relapse years after the original infection.",
-            "an infection that can cause perforation of the intestine",
-            "The immune system is our body's shield against infection.",
-            "Working with sick people places him at risk for infection.",
-            "The immune system is the body's defence against infection.",
-            "Good eating habits are the best way of preventing infection.",
-            "a type of contact lens that proved to be a nidus of infection"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Это лекарство снижает опасность заражения.",
-            "Данный препарат помогает бороться с инфекцией.",
-            "пытаясь лечить неподдающуюся инфекцию",
-            "препараты, которые используются для подавления инфекции",
-            "Плохая гигиена может повысить риск заражения.",
-            "Мы локализовали источник инфекции.",
-            "инфекция, которая устойчива к антибиотикам",
-            "Инфекция поддаётся лечению антибиотиками.",
-            "Данный препарат поможет вашему организму противостоять инфекции.",
-            "Инфекция локализовалась в левом глазу.",
-            "Следы инфекции привели к зараженной пище.",
-            "Вода и насекомые могут выступать переносчиками инфекции.",
-            "Традиционно инфекция появляется в нижней челюсти.",
-            "Рана пока что свободна от инфекции.",
-            "Как я слышал, тут ходит какая-то мерзкая зараза.",
-            "Всегда стерилизуйте иглу, чтобы предотвратить заражение.",
-            "Эта инфекция передаётся через укус москита.",
-            "инфекция, которая может привести к разрыву барабанной перепонки",
-            "Доктор взял мазок зева для проверки на наличие инфекции.",
-            "Врач принял меры для предотвращения перинатальной инфекции.",
-            "помазать рану антисептиком для предотвращения заражения",
-            "Заражение вирусом чаще всего происходит через электронную почту.",
-            "Угроза заражения ограничивается медперсоналом.",
-            "Малярия может вернуться через несколько лет после первичного инфицирования.",
-            "инфекция, которая может привести к перфорации кишечника",
-            "Иммунная система является защитой нашего организма от инфекций.",
-            "Работа с больными людьми подвергает его опасности заражения.",
-            "Иммунная система является защитой организма от инфекции.",
-            "Правильный режим питания — лучший способ предотвращения заражения.",
-            "определённый вид контактных линз, который оказался источником инфекции"
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "infection": {
+    "comment": [
+      "infectious",
+      "infect",
+      "infected"
+    ],
+    "translate": "инфекция, заражение, зараза, заразительность, пагубное влияние",
+    "transcription": " |ɪnˈfekʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The medicine reduces the risk of infection.",
+        "ru": "Это лекарство снижает опасность заражения.",
+        "learn": 0
+      },
+      {
+        "eng": "The drug helps combat infection.",
+        "ru": "Данный препарат помогает бороться с инфекцией.",
+        "learn": 0
+      },
+      {
+        "eng": "trying to treat a stubborn infection",
+        "ru": "пытаясь лечить неподдающуюся инфекцию",
+        "learn": 0
+      },
+      {
+        "eng": "drugs that are used to inhibit infection",
+        "ru": "препараты, которые используются для подавления инфекции",
+        "learn": 0
+      },
+      {
+        "eng": "Poor hygiene can increase the danger of infection.",
+        "ru": "Плохая гигиена может повысить риск заражения.",
+        "learn": 1
+      },
+      {
+        "eng": "We localized the source of the infection.",
+        "ru": "Мы локализовали источник инфекции.",
+        "learn": 0
+      },
+      {
+        "eng": "an infection that's resistant to antibiotics",
+        "ru": "инфекция, которая устойчива к антибиотикам",
+        "learn": 0
+      },
+      {
+        "eng": "The infection is treatable with antibiotics.",
+        "ru": "Инфекция поддаётся лечению антибиотиками.",
+        "learn": 0
+      },
+      {
+        "eng": "The drug will help your body resist infection.",
+        "ru": "Данный препарат поможет вашему организму противостоять инфекции.",
+        "learn": 0
+      },
+      {
+        "eng": "The infection has localized in the left eye.",
+        "ru": "Инфекция локализовалась в левом глазу.",
+        "learn": 0
+      },
+      {
+        "eng": "The infection was traced to contaminated food.",
+        "ru": "Следы инфекции привели к зараженной пище.",
+        "learn": 0
+      },
+      {
+        "eng": "Water and insects can be vehicles of infection.",
+        "ru": "Вода и насекомые могут выступать переносчиками инфекции.",
+        "learn": 0
+      },
+      {
+        "eng": "Classically, infection appears in the lower jaw.",
+        "ru": "Традиционно инфекция появляется в нижней челюсти.",
+        "learn": 0
+      },
+      {
+        "eng": "The wound has so far remained free of infection.",
+        "ru": "Рана пока что свободна от инфекции.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a nasty infection going round, so I hear.",
+        "ru": "Как я слышал, тут ходит какая-то мерзкая зараза.",
+        "learn": 1
+      },
+      {
+        "eng": "Always sterilize the needle to prevent infection.",
+        "ru": "Всегда стерилизуйте иглу, чтобы предотвратить заражение.",
+        "learn": 0
+      },
+      {
+        "eng": "The infection is passed by the bite of a mosquito.",
+        "ru": "Эта инфекция передаётся через укус москита.",
+        "learn": 0
+      },
+      {
+        "eng": "an infection that could cause rupture of the eardrum",
+        "ru": "инфекция, которая может привести к разрыву барабанной перепонки",
+        "learn": 0
+      },
+      {
+        "eng": "The doctor took a throat swab to check for infection.",
+        "ru": "Доктор взял мазок зева для проверки на наличие инфекции.",
+        "learn": 0
+      },
+      {
+        "eng": "The doctor took steps to prevent perinatal infection.",
+        "ru": "Врач принял меры для предотвращения перинатальной инфекции.",
+        "learn": 0
+      },
+      {
+        "eng": "anoint the wound with antiseptic to prevent infection",
+        "ru": "помазать рану антисептиком для предотвращения заражения",
+        "learn": 0
+      },
+      {
+        "eng": "The most common means of virus infection is via email.",
+        "ru": "Заражение вирусом чаще всего происходит через электронную почту.",
+        "learn": 0
+      },
+      {
+        "eng": "The risk of infection is confined to medical personnel.",
+        "ru": "Угроза заражения ограничивается медперсоналом.",
+        "learn": 0
+      },
+      {
+        "eng": "Malaria can relapse years after the original infection.",
+        "ru": "Малярия может вернуться через несколько лет после первичного инфицирования.",
+        "learn": 0
+      },
+      {
+        "eng": "an infection that can cause perforation of the intestine",
+        "ru": "инфекция, которая может привести к перфорации кишечника",
+        "learn": 0
+      },
+      {
+        "eng": "The immune system is our body's shield against infection.",
+        "ru": "Иммунная система является защитой нашего организма от инфекций.",
+        "learn": 1
+      },
+      {
+        "eng": "Working with sick people places him at risk for infection.",
+        "ru": "Работа с больными людьми подвергает его опасности заражения.",
+        "learn": 0
+      },
+      {
+        "eng": "The immune system is the body's defence against infection.",
+        "ru": "Иммунная система является защитой организма от инфекции.",
+        "learn": 0
+      },
+      {
+        "eng": "Good eating habits are the best way of preventing infection.",
+        "ru": "Правильный режим питания — лучший способ предотвращения заражения.",
+        "learn": 0
+      },
+      {
+        "eng": "a type of contact lens that proved to be a nidus of infection",
+        "ru": "определённый вид контактных линз, который оказался источником инфекции",
+        "learn": 0
+      }
+    ]
+  }
 }

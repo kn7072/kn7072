@@ -1,87 +1,176 @@
 {
-    "lie": {
-        "comment": [
-            "tie",
-            "untie",
-            "die",
-            "underlying"
-        ],
-        "translate": "ложь, обман, положение, направление, логово, лежать, находиться, лгать, солгать",
-        "transcription": " |laɪ|",
-        "antonyms": [],
-        "mnemonic": [
-            "lie [лай] лгать - Собачий (лай) лжёт про опасность?.",
-            "fly [flaı]\nlie [laı]\nsly [slaɪ]\n***\nЛЕТИТ бабочка баттерфляй. (это) fly\nМуха., полёт.\n***\nЯ ЛЕЖУ и слышу лай. (это) lie\nХитрый, ловкий. лукавый."
-        ],
-        "examples": [
-            "I know he is lying.",
-            "She lied about her age.",
-            "The book lay open on the table.",
-            "I would never lie to you.",
-            "The town now lay in ruins.",
-            "I always know when he's telling lies.",
-            "I told her a lie about what I was doing.",
-            "It's so nice to have the time to lie about in the sun.",
-            "She lied to her husband.",
-            "The newspaper lay on the table.",
-            "Lie flat on the floor.",
-            "The route lay to the west.",
-            "Ireland lies to the west of England.",
-            "Don't lie to your parents!",
-            "The camera sometimes lies.",
-            "I had pillows lying by of no use.",
-            "Our country's economy lies in ruins.",
-            "For a few minutes he just lay there.",
-            "He realised his future lay elsewhere.",
-            "He lay awake watching her for a long time.",
-            "If it lies within my power to do it, I will.",
-            "My duty to my family lies before my own interests.",
-            "I wonder what lies behind his offer?",
-            "The claim does not lie.",
-            "The town lies in a small wooded valley.",
-            "Lie back, dear, you'll be more comfortable.",
-            "The injured man was lying motionless on his back.",
-            "I was going well and was lying fourth.",
-            "How long will he have to lie in prison?",
-            "The camera never lies."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я знаю, что он врёт.",
-            "Она лгала о своем возрасте.",
-            "Книга лежала открытой на столе.",
-            "Я бы никогда не стал тебе врать.",
-            "Теперь город лежит в руинах.",
-            "Я всегда знаю, когда он врет.",
-            "Я наврал ей о том, чем я занимаюсь.",
-            "Так замечательно, когда есть время понежиться на солнышке.",
-            "Она солгала мужу.",
-            "Газета лежала на столе.",
-            "Лягте плашмя на пол.",
-            "Дорога лежала на запад.",
-            "Ирландия находится к западу от Англии.",
-            "Не ври своим родителям!",
-            "Камера иногда лжёт.",
-            "У меня были подушки, которыми никто не пользовался.",
-            "Экономика нашей страны полностью разрушена.",
-            "Несколько минут он просто лежал там.",
-            "Он понимал, что здесь у него нет будущего.",
-            "Он долго лежал и наблюдал за ней.",
-            "Если это будет в моих силах, я сделаю это.",
-            "Мой долг перед семьёй значит для меня больше моих собственных интересов.",
-            "Интересно, что скрывается за его предложением?",
-            "Это незаконное требование.",
-            "Город расположен в небольшой лесистой долине.",
-            "Откинься назад, дорогая, тебе будет удобнее.",
-            "Раненый лежал на спине без движения.",
-            "Я неплохо шёл и был на четвёртом месте.",
-            "Сколько же ему придется быть в тюрьме?",
-            "Камера никогда не лжет."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ie_=_[aɪ]"
-        ]
-    }
+  "lie": {
+    "comment": [
+      "lay |leɪ|,                                          lain |leɪn|",
+      "tie",
+      "untie",
+      "die",
+      "underlying"
+    ],
+    "translate": "ложь, обман, положение, направление, логово, лежать, находиться, лгать, солгать",
+    "transcription": " |laɪ|",
+    "antonyms": [],
+    "mnemonic": [
+      "lie [лай] лгать - Собачий (лай) лжёт про опасность?.",
+      "fly [flaı]\nlie [laı]\nsly [slaɪ]\n***\nЛЕТИТ бабочка баттерфляй. (это) fly\nМуха., полёт.\n***\nЯ ЛЕЖУ и слышу лай. (это) lie\nХитрый, ловкий. лукавый."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ie_=_[aɪ]",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I know he is lying.",
+        "ru": "Я знаю, что он врёт.",
+        "learn": 0
+      },
+      {
+        "eng": "She lied about her age.",
+        "ru": "Она лгала о своем возрасте.",
+        "learn": 0
+      },
+      {
+        "eng": "The book lay open on the table.",
+        "ru": "Книга лежала открытой на столе.",
+        "learn": 0
+      },
+      {
+        "eng": "I would never lie to you.",
+        "ru": "Я бы никогда не стал тебе врать.",
+        "learn": 0
+      },
+      {
+        "eng": "The town now lay in ruins.",
+        "ru": "Теперь город лежит в руинах.",
+        "learn": 0
+      },
+      {
+        "eng": "I always know when he's telling lies.",
+        "ru": "Я всегда знаю, когда он врет.",
+        "learn": 0
+      },
+      {
+        "eng": "I told her a lie about what I was doing.",
+        "ru": "Я наврал ей о том, чем я занимаюсь.",
+        "learn": 0
+      },
+      {
+        "eng": "It's so nice to have the time to lie about in the sun.",
+        "ru": "Так замечательно, когда есть время понежиться на солнышке.",
+        "learn": 0
+      },
+      {
+        "eng": "She lied to her husband.",
+        "ru": "Она солгала мужу.",
+        "learn": 0
+      },
+      {
+        "eng": "The newspaper lay on the table.",
+        "ru": "Газета лежала на столе.",
+        "learn": 1
+      },
+      {
+        "eng": "Lie flat on the floor.",
+        "ru": "Лягте плашмя на пол.",
+        "learn": 0
+      },
+      {
+        "eng": "The route lay to the west.",
+        "ru": "Дорога лежала на запад.",
+        "learn": 1
+      },
+      {
+        "eng": "Ireland lies to the west of England.",
+        "ru": "Ирландия находится к западу от Англии.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't lie to your parents!",
+        "ru": "Не ври своим родителям!",
+        "learn": 1
+      },
+      {
+        "eng": "The camera sometimes lies.",
+        "ru": "Камера иногда лжёт.",
+        "learn": 0
+      },
+      {
+        "eng": "I had pillows lying by of no use.",
+        "ru": "У меня были подушки, которыми никто не пользовался.",
+        "learn": 0
+      },
+      {
+        "eng": "Our country's economy lies in ruins.",
+        "ru": "Экономика нашей страны полностью разрушена.",
+        "learn": 0
+      },
+      {
+        "eng": "For a few minutes he just lay there.",
+        "ru": "Несколько минут он просто лежал там.",
+        "learn": 0
+      },
+      {
+        "eng": "He realised his future lay elsewhere.",
+        "ru": "Он понимал, что здесь у него нет будущего.",
+        "learn": 1
+      },
+      {
+        "eng": "He lay awake watching her for a long time.",
+        "ru": "Он долго лежал и наблюдал за ней.",
+        "learn": 0
+      },
+      {
+        "eng": "If it lies within my power to do it, I will.",
+        "ru": "Если это будет в моих силах, я сделаю это.",
+        "learn": 0
+      },
+      {
+        "eng": "My duty to my family lies before my own interests.",
+        "ru": "Мой долг перед семьёй значит для меня больше моих собственных интересов.",
+        "learn": 0
+      },
+      {
+        "eng": "I wonder what lies behind his offer?",
+        "ru": "Интересно, что скрывается за его предложением?",
+        "learn": 0
+      },
+      {
+        "eng": "The claim does not lie.",
+        "ru": "Это незаконное требование.",
+        "learn": 0
+      },
+      {
+        "eng": "The town lies in a small wooded valley.",
+        "ru": "Город расположен в небольшой лесистой долине.",
+        "learn": 0
+      },
+      {
+        "eng": "Lie back, dear, you'll be more comfortable.",
+        "ru": "Откинься назад, дорогая, тебе будет удобнее.",
+        "learn": 0
+      },
+      {
+        "eng": "The injured man was lying motionless on his back.",
+        "ru": "Раненый лежал на спине без движения.",
+        "learn": 0
+      },
+      {
+        "eng": "I was going well and was lying fourth.",
+        "ru": "Я неплохо шёл и был на четвёртом месте.",
+        "learn": 0
+      },
+      {
+        "eng": "How long will he have to lie in prison?",
+        "ru": "Сколько же ему придется быть в тюрьме?",
+        "learn": 0
+      },
+      {
+        "eng": "The camera never lies.",
+        "ru": "Камера никогда не лжет.",
+        "learn": 0
+      }
+    ]
+  }
 }

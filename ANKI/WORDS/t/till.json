@@ -1,81 +1,167 @@
 {
-    "till": {
-        "comment": [
-            "still",
-            "until"
-        ],
-        "translate": "до, пока, не раньше, пахать, пока, касса, тилль",
-        "transcription": " |tɪl|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He read the book till its end.",
-            "I'll wait till you come back.",
-            "Light land is easily tilled.",
-            "Don't move till I give the word.",
-            "We won't finish till next week.",
-            "wait till the cows come home",
-            "We sat till the second cock.",
-            "I tew from morning till night.",
-            "Never put off till tomorrow what you can do today.",
-            "The matter will keep till tomorrow.",
-            "He had abode there till mid-day.",
-            "Wait till you see Gaby's new house!",
-            "We're going to shop till we drop!",
-            "They kept playing till it got dark.",
-            "Everyone worked till they dropped.",
-            "Till I break my ship against rocks.",
-            "Just wait till you hear this story.",
-            "The rain held off till the evening.",
-            "The event doesn't start till tomorrow.",
-            "Wait till I get my hooks on him.",
-            "He spun around till he was dizzy.",
-            "There's no shooting till September.",
-            "He did not write us till last week.",
-            "It's only eight days till Christmas.",
-            "He went from one place till another.",
-            "Just wait till I get my hands on you!",
-            "I slept right through till lunchtime.",
-            "Nobody interrupted me till I was done.",
-            "He could not rest till he got his wish.",
-            "I didn't have a boyfriend till I was 17."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он прочитал книгу до конца.",
-            "Я подожду, пока вы не вернётесь.",
-            "Рыхлую землю легко пахать.",
-            "Не двигайся, пока я не подам знак.",
-            "Мы не успеем закончить до следующей недели.",
-            "ждать до бесконечности",
-            "Мы сидели до вторых петухов.",
-            "Я тружусь с утра до ночи.",
-            "Никогда не откладывай на завтра то, что можешь сделать сегодня.",
-            "С этим можно подождать до завтра.",
-            "Он прождал там до полудня.",
-            "Ты ещё не видел новый дом Гэби!",
-            "Будем ходить по магазинам до упаду!",
-            "Они продолжали играть, пока не стемнело.",
-            "Все работали до изнеможения.",
-            "Пока мой корабль не разобьётся о скалы.",
-            "Подожди, пока не услышишь эту историю.",
-            "Дождь пошёл только вечером.",
-            "Данное мероприятие не начнётся раньше завтрашнего дня.",
-            "Пусть он только попадётся мне в лапы.",
-            "Он крутился до тех пор, пока у него не закружилась голова.",
-            "Охота запрещена до сентября.",
-            "До прошлой недели он ничего не писал нам.",
-            "До Рождества — всего восемь дней.",
-            "Он пошёл от одного места к другому.",
-            "Ну подожди, ты мне ещё попадёшься!",
-            "Я проспал аж до самого обеда.",
-            "Никто меня не перебивал до тех пор, пока я не закончил свой рассказ.",
-            "Он не мог успокоиться, пока не получил, что хотел.",
-            "До семнадцати лет парня у меня не было."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "till": {
+    "comment": [
+      "still",
+      "until"
+    ],
+    "translate": "до, пока, не раньше, пахать, пока, касса, тилль",
+    "transcription": " |tɪl|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He read the book till its end.",
+        "ru": "Он прочитал книгу до конца.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll wait till you come back.",
+        "ru": "Я подожду, пока вы не вернётесь.",
+        "learn": 0
+      },
+      {
+        "eng": "Light land is easily tilled.",
+        "ru": "Рыхлую землю легко пахать.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't move till I give the word.",
+        "ru": "Не двигайся, пока я не подам знак.",
+        "learn": 1
+      },
+      {
+        "eng": "We won't finish till next week.",
+        "ru": "Мы не успеем закончить до следующей недели.",
+        "learn": 1
+      },
+      {
+        "eng": "wait till the cows come home",
+        "ru": "ждать до бесконечности",
+        "learn": 0
+      },
+      {
+        "eng": "We sat till the second cock.",
+        "ru": "Мы сидели до вторых петухов.",
+        "learn": 0
+      },
+      {
+        "eng": "I tew from morning till night.",
+        "ru": "Я тружусь с утра до ночи.",
+        "learn": 0
+      },
+      {
+        "eng": "Never put off till tomorrow what you can do today.",
+        "ru": "Никогда не откладывай на завтра то, что можешь сделать сегодня.",
+        "learn": 0
+      },
+      {
+        "eng": "The matter will keep till tomorrow.",
+        "ru": "С этим можно подождать до завтра.",
+        "learn": 0
+      },
+      {
+        "eng": "He had abode there till mid-day.",
+        "ru": "Он прождал там до полудня.",
+        "learn": 0
+      },
+      {
+        "eng": "Wait till you see Gaby's new house!",
+        "ru": "Ты ещё не видел новый дом Гэби!",
+        "learn": 0
+      },
+      {
+        "eng": "We're going to shop till we drop!",
+        "ru": "Будем ходить по магазинам до упаду!",
+        "learn": 0
+      },
+      {
+        "eng": "They kept playing till it got dark.",
+        "ru": "Они продолжали играть, пока не стемнело.",
+        "learn": 0
+      },
+      {
+        "eng": "Everyone worked till they dropped.",
+        "ru": "Все работали до изнеможения.",
+        "learn": 0
+      },
+      {
+        "eng": "Till I break my ship against rocks.",
+        "ru": "Пока мой корабль не разобьётся о скалы.",
+        "learn": 0
+      },
+      {
+        "eng": "Just wait till you hear this story.",
+        "ru": "Подожди, пока не услышишь эту историю.",
+        "learn": 0
+      },
+      {
+        "eng": "The rain held off till the evening.",
+        "ru": "Дождь пошёл только вечером.",
+        "learn": 0
+      },
+      {
+        "eng": "The event doesn't start till tomorrow.",
+        "ru": "Данное мероприятие не начнётся раньше завтрашнего дня.",
+        "learn": 0
+      },
+      {
+        "eng": "Wait till I get my hooks on him.",
+        "ru": "Пусть он только попадётся мне в лапы.",
+        "learn": 0
+      },
+      {
+        "eng": "He spun around till he was dizzy.",
+        "ru": "Он крутился до тех пор, пока у него не закружилась голова.",
+        "learn": 0
+      },
+      {
+        "eng": "There's no shooting till September.",
+        "ru": "Охота запрещена до сентября.",
+        "learn": 1
+      },
+      {
+        "eng": "He did not write us till last week.",
+        "ru": "До прошлой недели он ничего не писал нам.",
+        "learn": 0
+      },
+      {
+        "eng": "It's only eight days till Christmas.",
+        "ru": "До Рождества — всего восемь дней.",
+        "learn": 1
+      },
+      {
+        "eng": "He went from one place till another.",
+        "ru": "Он пошёл от одного места к другому.",
+        "learn": 0
+      },
+      {
+        "eng": "Just wait till I get my hands on you!",
+        "ru": "Ну подожди, ты мне ещё попадёшься!",
+        "learn": 0
+      },
+      {
+        "eng": "I slept right through till lunchtime.",
+        "ru": "Я проспал аж до самого обеда.",
+        "learn": 0
+      },
+      {
+        "eng": "Nobody interrupted me till I was done.",
+        "ru": "Никто меня не перебивал до тех пор, пока я не закончил свой рассказ.",
+        "learn": 0
+      },
+      {
+        "eng": "He could not rest till he got his wish.",
+        "ru": "Он не мог успокоиться, пока не получил, что хотел.",
+        "learn": 0
+      },
+      {
+        "eng": "I didn't have a boyfriend till I was 17.",
+        "ru": "До семнадцати лет парня у меня не было.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,86 +1,173 @@
 {
-    "mother": {
-        "comment": [
-            "grandmother",
-            "grandfather",
-            "father"
-        ],
-        "translate": "мать, мама, матушка, мамаша, начало, источник, быть матерью, родить, лелеять, охранять",
-        "transcription": " |ˈmʌðər|",
-        "antonyms": [],
-        "mnemonic": [
-            "mother [ма'(вз)е] мать - Ее мать (под-мазы-вать) любит."
-        ],
-        "examples": [
-            "He misses his mother.",
-            "Her mother is American.",
-            "Mary pictures her mother.",
-            "Goodnight, Mother.",
-            "Mother sends her love.",
-            "She is an unfit mother.",
-            "His mother's very sick.",
-            "My mother asked after you.",
-            "Shannon sat on her mother's lap.",
-            "She was my mother, after all.",
-            "She's a friend of my mother's.",
-            "She's the mother of twins.",
-            "She wearies for her mother.",
-            "I don't like being mothered!",
-            "Her mother endlessly repeated the apothegm “cleanliness is next to godliness”.",
-            "a mother bear and her cubs",
-            "She's her mother's double.",
-            "I wrecked my mother's car.",
-            "He towered over his mother.",
-            "My mother has a hired help.",
-            "a mother hen and her chicks",
-            "My mother complains all day.",
-            "a mother hen with her chicks",
-            "My mother made my life hell.",
-            "Her mother looked concerned.",
-            "Shall I dry for you, mother?",
-            "My mother was in the kitchen.",
-            "a young mother's crowded days",
-            "Mother brought a pretty Poll.",
-            "Her mother is becoming senile."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он скучает по своей матери.",
-            "Её мать — американка.",
-            "Мэри — вылитая мать.",
-            "Спокойной ночи, мама.",
-            "Мама передаёт привет.",
-            "Она никудышная мать.",
-            "Его мать очень больна.",
-            "Моя мама спрашивала, как вы себя чувствуете.",
-            "Шеннон сидела у матери на коленях.",
-            "В конце концов, она была моей матерью.",
-            "Это подруга моей матери.",
-            "Она мать двойняшек.",
-            "Она тоскует по матери.",
-            "Я не люблю, когда со мной нянчатся!",
-            "Её мать бесконечно повторяла изречение “Чистота — залог благочестия”.",
-            "медведица и её медвежата",
-            "Она — копия своей матери. / Она — вылитая мать.",
-            "Я разбил машину матери.",
-            "Он возвышался над своей матерью.",
-            "Моя мама держит прислугу.",
-            "наседка и её цыплята",
-            "Моя мама весь день жалуется.",
-            "мать-наседка со своими цыплятами",
-            "Мать превратила мою жизнь в ад.",
-            "Её мать выглядела взволнованной.",
-            "Мама, мне вытереть посуду?",
-            "Моя мать была на кухне.",
-            "насыщенная жизнь молодой матери",
-            "Мама принесла премиленького попугайчика.",
-            "Её мать впадает в старческий маразм."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "o_=_[ʌ]",
-            "th_=_[ð]"
-        ]
-    }
+  "mother": {
+    "comment": [
+      "grandmother",
+      "grandfather",
+      "father"
+    ],
+    "translate": "мать, мама, матушка, мамаша, начало, источник, быть матерью, родить, лелеять, охранять",
+    "transcription": " |ˈmʌðər|",
+    "antonyms": [],
+    "mnemonic": [
+      "mother [ма'(вз)е] мать - Ее мать (под-мазы-вать) любит."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "o_=_[ʌ]",
+      "th_=_[ð]"
+    ],
+    "examples": [
+      {
+        "eng": "He misses his mother.",
+        "ru": "Он скучает по своей матери.",
+        "learn": 0
+      },
+      {
+        "eng": "Her mother is American.",
+        "ru": "Её мать — американка.",
+        "learn": 1
+      },
+      {
+        "eng": "Mary pictures her mother.",
+        "ru": "Мэри — вылитая мать.",
+        "learn": 0
+      },
+      {
+        "eng": "Goodnight, Mother.",
+        "ru": "Спокойной ночи, мама.",
+        "learn": 0
+      },
+      {
+        "eng": "Mother sends her love.",
+        "ru": "Мама передаёт привет.",
+        "learn": 0
+      },
+      {
+        "eng": "She is an unfit mother.",
+        "ru": "Она никудышная мать.",
+        "learn": 0
+      },
+      {
+        "eng": "His mother's very sick.",
+        "ru": "Его мать очень больна.",
+        "learn": 0
+      },
+      {
+        "eng": "My mother asked after you.",
+        "ru": "Моя мама спрашивала, как вы себя чувствуете.",
+        "learn": 0
+      },
+      {
+        "eng": "Shannon sat on her mother's lap.",
+        "ru": "Шеннон сидела у матери на коленях.",
+        "learn": 0
+      },
+      {
+        "eng": "She was my mother, after all.",
+        "ru": "В конце концов, она была моей матерью.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a friend of my mother's.",
+        "ru": "Это подруга моей матери.",
+        "learn": 0
+      },
+      {
+        "eng": "She's the mother of twins.",
+        "ru": "Она мать двойняшек.",
+        "learn": 0
+      },
+      {
+        "eng": "She wearies for her mother.",
+        "ru": "Она тоскует по матери.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't like being mothered!",
+        "ru": "Я не люблю, когда со мной нянчатся!",
+        "learn": 0
+      },
+      {
+        "eng": "Her mother endlessly repeated the apothegm “cleanliness is next to godliness”.",
+        "ru": "Её мать бесконечно повторяла изречение “Чистота — залог благочестия”.",
+        "learn": 0
+      },
+      {
+        "eng": "a mother bear and her cubs",
+        "ru": "медведица и её медвежата",
+        "learn": 0
+      },
+      {
+        "eng": "She's her mother's double.",
+        "ru": "Она — копия своей матери. / Она — вылитая мать.",
+        "learn": 0
+      },
+      {
+        "eng": "I wrecked my mother's car.",
+        "ru": "Я разбил машину матери.",
+        "learn": 0
+      },
+      {
+        "eng": "He towered over his mother.",
+        "ru": "Он возвышался над своей матерью.",
+        "learn": 0
+      },
+      {
+        "eng": "My mother has a hired help.",
+        "ru": "Моя мама держит прислугу.",
+        "learn": 0
+      },
+      {
+        "eng": "a mother hen and her chicks",
+        "ru": "наседка и её цыплята",
+        "learn": 0
+      },
+      {
+        "eng": "My mother complains all day.",
+        "ru": "Моя мама весь день жалуется.",
+        "learn": 0
+      },
+      {
+        "eng": "a mother hen with her chicks",
+        "ru": "мать-наседка со своими цыплятами",
+        "learn": 0
+      },
+      {
+        "eng": "My mother made my life hell.",
+        "ru": "Мать превратила мою жизнь в ад.",
+        "learn": 1
+      },
+      {
+        "eng": "Her mother looked concerned.",
+        "ru": "Её мать выглядела взволнованной.",
+        "learn": 1
+      },
+      {
+        "eng": "Shall I dry for you, mother?",
+        "ru": "Мама, мне вытереть посуду?",
+        "learn": 0
+      },
+      {
+        "eng": "My mother was in the kitchen.",
+        "ru": "Моя мать была на кухне.",
+        "learn": 0
+      },
+      {
+        "eng": "a young mother's crowded days",
+        "ru": "насыщенная жизнь молодой матери",
+        "learn": 0
+      },
+      {
+        "eng": "Mother brought a pretty Poll.",
+        "ru": "Мама принесла премиленького попугайчика.",
+        "learn": 0
+      },
+      {
+        "eng": "Her mother is becoming senile.",
+        "ru": "Её мать впадает в старческий маразм.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,92 +1,180 @@
 {
-    "miss": {
-        "comment": [
-            "dismiss",
-            "permission",
-            "missing",
-            "missile",
-            "mission",
-            "admission",
-            "omission",
-            "submission",
-            "emission",
-            "dismissal"
-        ],
-        "translate": "мисс, промах, отсутствие, барышня, потеря, скучать, пропускать, упускать",
-        "transcription": " |mɪs|",
-        "antonyms": [],
-        "mnemonic": [
-            "miss [мис] тосковать - (Мисс) тоскует о родине.",
-            "miss [mis]\nmissing - пропавший, недостающий\n***\nНЕУДАЧУ ТЕРПИТ мисс. (это) miss\nПотеря. Утрата."
-        ],
-        "examples": [
-            "Will you miss me?",
-            "She missed her train",
-            "I missed you so much.",
-            "I missed the point of the speech.",
-            "We felt the miss of you.",
-            "Hurry up or we'll miss the bus!",
-            "Fortunately, I missed the hurricane.",
-            "I missed that remark.",
-            "Quick! We'll miss the bus!",
-            "I missed the concert.",
-            "He missed school for a week.",
-            "We miss any attempt to explain.",
-            "He misses his mother.",
-            "I overslept and missed the train.",
-            "We both miss him, but life goes on.",
-            "She missed money from her pocket.",
-            "The engine missed.",
-            "She missed his point.",
-            "The arrow missed the target",
-            "She's a cheeky little miss.",
-            "How could I miss that typo?",
-            "She missed her family badly.",
-            "You miss a lot of office gossip when you have a day off work.",
-            "That miss Thing.",
-            "Miss Kelly plays Marie.",
-            "I know the answer, Miss.",
-            "Good afternoon, Miss Smith!",
-            "The batter swung and missed.",
-            "I really miss the old devil.",
-            "Miss Bennett, are you unwell?"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Вы будете по мне скучать?",
-            "Она опоздала на свой поезд.",
-            "Я так по тебе скучала.",
-            "Я потерял суть разговора /выступления/.",
-            "Мы чувствовали, как нам тебя не хватает.",
-            "Поспешите иначе мы пропустим автобус!",
-            "К счастью, я не попал в этот ураган.",
-            "Я пропустил это замечание.",
-            "Быстро! Мы опаздываем на автобус!",
-            "Я пропустил этот концерт.",
-            "Он неделю не ходил в школу.",
-            "Мы упускаем шанс что-либо объяснить.",
-            "Он скучает по своей матери.",
-            "Я проспал и опоздал на поезд.",
-            "Мы обе скучаем по нему /Нам обеим его не хватает/, но жизнь продолжается.",
-            "Она обнаружила, что у неё из кармана пропали деньги.",
-            "Двигатель заглох.",
-            "Она его не поняла. / Она упустила суть его слов.",
-            "Стрела не попала в мишень. / Стрела пролетела мимо цели.",
-            "Это нахальная девчонка.",
-            "Как я мог пропустить эту опечатку?",
-            "Она очень сильно скучала по своей семье.",
-            "Когда у тебя отгул, упускаешь целую кучу офисных сплетен.",
-            "Эта дама, ну как там её...",
-            "Мисс Келли играет роль Мари.",
-            "Я знаю ответ, мисс.",
-            "Добрый день, мисс Смит!",
-            "Отбивающий взмахнул битой и промахнулся (о бейсболе).",
-            "Я и в самом деле скучаю по этому старому чёрту.",
-            "Мисс Беннетт, вам нехорошо?"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "miss": {
+    "comment": [
+      "dismiss",
+      "permission",
+      "missing",
+      "missile",
+      "mission",
+      "admission",
+      "omission",
+      "submission",
+      "emission",
+      "dismissal"
+    ],
+    "translate": "мисс, промах, отсутствие, барышня, потеря, скучать, пропускать, упускать",
+    "transcription": " |mɪs|",
+    "antonyms": [],
+    "mnemonic": [
+      "miss [мис] тосковать - (Мисс) тоскует о родине.",
+      "miss [mis]\nmissing - пропавший, недостающий\n***\nНЕУДАЧУ ТЕРПИТ мисс. (это) miss\nПотеря. Утрата."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "gerund_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Will you miss me?",
+        "ru": "Вы будете по мне скучать?",
+        "learn": 0
+      },
+      {
+        "eng": "She missed her train",
+        "ru": "Она опоздала на свой поезд.",
+        "learn": 0
+      },
+      {
+        "eng": "I missed you so much.",
+        "ru": "Я так по тебе скучала.",
+        "learn": 0
+      },
+      {
+        "eng": "I missed the point of the speech.",
+        "ru": "Я потерял суть разговора /выступления/.",
+        "learn": 0
+      },
+      {
+        "eng": "We felt the miss of you.",
+        "ru": "Мы чувствовали, как нам тебя не хватает.",
+        "learn": 0
+      },
+      {
+        "eng": "Hurry up or we'll miss the bus!",
+        "ru": "Поспешите иначе мы пропустим автобус!",
+        "learn": 1
+      },
+      {
+        "eng": "Fortunately, I missed the hurricane.",
+        "ru": "К счастью, я не попал в этот ураган.",
+        "learn": 0
+      },
+      {
+        "eng": "I missed that remark.",
+        "ru": "Я пропустил это замечание.",
+        "learn": 0
+      },
+      {
+        "eng": "Quick! We'll miss the bus!",
+        "ru": "Быстро! Мы опаздываем на автобус!",
+        "learn": 0
+      },
+      {
+        "eng": "I missed the concert.",
+        "ru": "Я пропустил этот концерт.",
+        "learn": 0
+      },
+      {
+        "eng": "He missed school for a week.",
+        "ru": "Он неделю не ходил в школу.",
+        "learn": 0
+      },
+      {
+        "eng": "We miss any attempt to explain.",
+        "ru": "Мы упускаем шанс что-либо объяснить.",
+        "learn": 1
+      },
+      {
+        "eng": "He misses his mother.",
+        "ru": "Он скучает по своей матери.",
+        "learn": 0
+      },
+      {
+        "eng": "I overslept and missed the train.",
+        "ru": "Я проспал и опоздал на поезд.",
+        "learn": 0
+      },
+      {
+        "eng": "We both miss him, but life goes on.",
+        "ru": "Мы обе скучаем по нему /Нам обеим его не хватает/, но жизнь продолжается.",
+        "learn": 0
+      },
+      {
+        "eng": "She missed money from her pocket.",
+        "ru": "Она обнаружила, что у неё из кармана пропали деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "The engine missed.",
+        "ru": "Двигатель заглох.",
+        "learn": 0
+      },
+      {
+        "eng": "She missed his point.",
+        "ru": "Она его не поняла. / Она упустила суть его слов.",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow missed the target",
+        "ru": "Стрела не попала в мишень. / Стрела пролетела мимо цели.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a cheeky little miss.",
+        "ru": "Это нахальная девчонка.",
+        "learn": 0
+      },
+      {
+        "eng": "How could I miss that typo?",
+        "ru": "Как я мог пропустить эту опечатку?",
+        "learn": 0
+      },
+      {
+        "eng": "She missed her family badly.",
+        "ru": "Она очень сильно скучала по своей семье.",
+        "learn": 0
+      },
+      {
+        "eng": "You miss a lot of office gossip when you have a day off work.",
+        "ru": "Когда у тебя отгул, упускаешь целую кучу офисных сплетен.",
+        "learn": 0
+      },
+      {
+        "eng": "That miss Thing.",
+        "ru": "Эта дама, ну как там её...",
+        "learn": 0
+      },
+      {
+        "eng": "Miss Kelly plays Marie.",
+        "ru": "Мисс Келли играет роль Мари.",
+        "learn": 0
+      },
+      {
+        "eng": "I know the answer, Miss.",
+        "ru": "Я знаю ответ, мисс.",
+        "learn": 0
+      },
+      {
+        "eng": "Good afternoon, Miss Smith!",
+        "ru": "Добрый день, мисс Смит!",
+        "learn": 0
+      },
+      {
+        "eng": "The batter swung and missed.",
+        "ru": "Отбивающий взмахнул битой и промахнулся (о бейсболе).",
+        "learn": 0
+      },
+      {
+        "eng": "I really miss the old devil.",
+        "ru": "Я и в самом деле скучаю по этому старому чёрту.",
+        "learn": 1
+      },
+      {
+        "eng": "Miss Bennett, are you unwell?",
+        "ru": "Мисс Беннетт, вам нехорошо?",
+        "learn": 0
+      }
+    ]
+  }
 }

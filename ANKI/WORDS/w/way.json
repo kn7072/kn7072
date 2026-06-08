@@ -1,97 +1,184 @@
 {
-    "way": {
-        "comment": [
-            "away",
-            "highway",
-            "freeway",
-            "runway",
-            "no way",
-            "anyway",
-            "motorway",
-            "always",
-            "halfway",
-            "pathway",
-            "railway",
-            "subway",
-            "sway"
-        ],
-        "translate": "путь, способ, сторона, дорога, метод, далеко, значительно, чересчур",
-        "transcription": " |weɪ|",
-        "antonyms": [],
-        "mnemonic": [
-            "way [(ув)э'й] путь, способ - (Брод-вей) путь в большой бизнес.",
-            "away [ə'weɪ]\nway ['weɪ]\nsway [sweɪ]\nanyway ['ɛnɪweɪ] - всё равно\n***\nПРОЧЬ ушёл, бери - левей. (это) away\n***\nВ ПУТЬ (дорогу) с собой беру \"Милки вей\". (это) way\n***\nЧтоб ИМЕТЬ ВЛИЯНИЕ, ты гнездо свей. (это) sway\nТы не КАЧАЙСЯ, лучше гнездо свей. (это) sway"
-        ],
-        "examples": [
-            "I will find a way to do it.",
-            "Are you going my way?",
-            "I felt the same way.",
-            "We have walked a long way.",
-            "She didn't know the way home.",
-            "He drank way too much.",
-            "Holiday is a long way off.",
-            "Which is the way out?",
-            "He has changed in every way.",
-            "She lives way out of town.",
-            "Let me explain it this way.",
-            "Which way does the room face?",
-            "She is in the family way.",
-            "Get / keep / stay out of my way!",
-            "Which way is the town from here?",
-            "She smiled in a friendly way.",
-            "Could you look this way?",
-            "He had a strange way of talking.",
-            "The temperature is way below zero.",
-            "Sorry, am I in your way?",
-            "The back way was blocked.",
-            "It's a long way to Moscow.",
-            "He put her in the family way.",
-            "I live miles out of your way.",
-            "The way ahead was blocked.",
-            "The economy is in a bad way.",
-            "Just follow the Way Out signs.",
-            "The sign was the wrong way up.",
-            "I was still a long way from home.",
-            "I urged him to alter his ways."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я найду способ это сделать.",
-            "Нам по пути?",
-            "Я чувствовал себя точно так же.",
-            "Мы прошли пешком большое расстояние.",
-            "Она не знала дороги домой.",
-            "Он слишком много пил.",
-            "До отпуска далеко.",
-            "Где выход?",
-            "Он полностью изменился.",
-            "Она живёт далеко за городом.",
-            "Позвольте мне объяснить это так.",
-            "Куда выходят окна комнаты?",
-            "Она в интересном положении.",
-            "Не путайся у меня под ногами!",
-            "В какой стороне отсюда город?",
-            "Она дружески улыбнулась.",
-            "Посмотрите, пожалуйста, сюда (в эту сторону).",
-            "У него была странная манера говорить.",
-            "Температура значительно ниже нуля.",
-            "Простите, я у вас на пути?",
-            "Обратный путь был заблокирован.",
-            "До Москвы далеко.",
-            "Он её обрюхатил.",
-            "Мой дом тебе совсем не по пути.",
-            "Путь вперёд был заблокирован.",
-            "В экономике дела обстоят скверно.",
-            "Просто следуйте за указателями \"Выход\".",
-            "Вывеска висела вверх ногами.",
-            "Я всё еще был далеко от дома.",
-            "Я уговаривал его изменить свои привычки."
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив_с_to_после_сущ",
-            "Инфинитив",
-            "all_words"
-        ]
-    }
+  "way": {
+    "comment": [
+      "away",
+      "highway",
+      "freeway",
+      "runway",
+      "no way",
+      "anyway",
+      "motorway",
+      "always",
+      "halfway",
+      "pathway",
+      "railway",
+      "subway",
+      "sway"
+    ],
+    "translate": "путь, способ, сторона, дорога, метод, далеко, значительно, чересчур",
+    "transcription": " |weɪ|",
+    "antonyms": [],
+    "mnemonic": [
+      "way [(ув)э'й] путь, способ - (Брод-вей) путь в большой бизнес.",
+      "away [ə'weɪ]\nway ['weɪ]\nsway [sweɪ]\nanyway ['ɛnɪweɪ] - всё равно\n***\nПРОЧЬ ушёл, бери - левей. (это) away\n***\nВ ПУТЬ (дорогу) с собой беру \"Милки вей\". (это) way\n***\nЧтоб ИМЕТЬ ВЛИЯНИЕ, ты гнездо свей. (это) sway\nТы не КАЧАЙСЯ, лучше гнездо свей. (это) sway"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_с_to_после_сущ",
+      "Инфинитив"
+    ],
+    "examples": [
+      {
+        "eng": "I will find a way to do it.",
+        "ru": "Я найду способ это сделать.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you going my way?",
+        "ru": "Нам по пути?",
+        "learn": 0
+      },
+      {
+        "eng": "I felt the same way.",
+        "ru": "Я чувствовал себя точно так же.",
+        "learn": 0
+      },
+      {
+        "eng": "We have walked a long way.",
+        "ru": "Мы прошли пешком большое расстояние.",
+        "learn": 0
+      },
+      {
+        "eng": "She didn't know the way home.",
+        "ru": "Она не знала дороги домой.",
+        "learn": 0
+      },
+      {
+        "eng": "He drank way too much.",
+        "ru": "Он слишком много пил.",
+        "learn": 0
+      },
+      {
+        "eng": "Holiday is a long way off.",
+        "ru": "До отпуска далеко.",
+        "learn": 0
+      },
+      {
+        "eng": "Which is the way out?",
+        "ru": "Где выход?",
+        "learn": 0
+      },
+      {
+        "eng": "He has changed in every way.",
+        "ru": "Он полностью изменился.",
+        "learn": 0
+      },
+      {
+        "eng": "She lives way out of town.",
+        "ru": "Она живёт далеко за городом.",
+        "learn": 0
+      },
+      {
+        "eng": "Let me explain it this way.",
+        "ru": "Позвольте мне объяснить это так.",
+        "learn": 0
+      },
+      {
+        "eng": "Which way does the room face?",
+        "ru": "Куда выходят окна комнаты?",
+        "learn": 0
+      },
+      {
+        "eng": "She is in the family way.",
+        "ru": "Она в интересном положении.",
+        "learn": 0
+      },
+      {
+        "eng": "Get / keep / stay out of my way!",
+        "ru": "Не путайся у меня под ногами!",
+        "learn": 0
+      },
+      {
+        "eng": "Which way is the town from here?",
+        "ru": "В какой стороне отсюда город?",
+        "learn": 0
+      },
+      {
+        "eng": "She smiled in a friendly way.",
+        "ru": "Она дружески улыбнулась.",
+        "learn": 0
+      },
+      {
+        "eng": "Could you look this way?",
+        "ru": "Посмотрите, пожалуйста, сюда (в эту сторону).",
+        "learn": 0
+      },
+      {
+        "eng": "He had a strange way of talking.",
+        "ru": "У него была странная манера говорить.",
+        "learn": 0
+      },
+      {
+        "eng": "The temperature is way below zero.",
+        "ru": "Температура значительно ниже нуля.",
+        "learn": 0
+      },
+      {
+        "eng": "Sorry, am I in your way?",
+        "ru": "Простите, я у вас на пути?",
+        "learn": 0
+      },
+      {
+        "eng": "The back way was blocked.",
+        "ru": "Обратный путь был заблокирован.",
+        "learn": 1
+      },
+      {
+        "eng": "It's a long way to Moscow.",
+        "ru": "До Москвы далеко.",
+        "learn": 0
+      },
+      {
+        "eng": "He put her in the family way.",
+        "ru": "Он её обрюхатил.",
+        "learn": 0
+      },
+      {
+        "eng": "I live miles out of your way.",
+        "ru": "Мой дом тебе совсем не по пути.",
+        "learn": 0
+      },
+      {
+        "eng": "The way ahead was blocked.",
+        "ru": "Путь вперёд был заблокирован.",
+        "learn": 0
+      },
+      {
+        "eng": "The economy is in a bad way.",
+        "ru": "В экономике дела обстоят скверно.",
+        "learn": 0
+      },
+      {
+        "eng": "Just follow the Way Out signs.",
+        "ru": "Просто следуйте за указателями \"Выход\".",
+        "learn": 0
+      },
+      {
+        "eng": "The sign was the wrong way up.",
+        "ru": "Вывеска висела вверх ногами.",
+        "learn": 0
+      },
+      {
+        "eng": "I was still a long way from home.",
+        "ru": "Я всё еще был далеко от дома.",
+        "learn": 0
+      },
+      {
+        "eng": "I urged him to alter his ways.",
+        "ru": "Я уговаривал его изменить свои привычки.",
+        "learn": 0
+      }
+    ]
+  }
 }

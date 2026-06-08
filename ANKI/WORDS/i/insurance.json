@@ -1,81 +1,167 @@
 {
-    "insurance": {
-        "comment": [
-            "assurance",
-            "insure"
-        ],
-        "translate": "страхование, страховка, страховой",
-        "transcription": " |ɪnˈʃʊrəns|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She has a job in insurance.",
-            "The insurance business is built on trust.",
-            "He is in insurance.",
-            "Do I need to take out insurance on my vehicle?",
-            "His insurance covers the doctor's fee.",
-            "Our firm carries fire insurance.",
-            "You should claim against the car insurance.",
-            "The insurance won't cover this.",
-            "I work for an insurance company.",
-            "I carry a lot of life insurance.",
-            "How can I deal with problems about insurance?",
-            "Car insurance is compulsory.",
-            "She earns her living by selling insurance.",
-            "Federal Deposit Insurance Corporation",
-            "How much is the insurance on your car?",
-            "The insurance business is grounded on trust.",
-            "She put in an insurance claim.",
-            "My brother works in insurance.",
-            "You can purchase insurance on-line.",
-            "She was the victim of an insurance scam.",
-            "He drove an extra lap just for insurance.",
-            "The insurance protects you against flooding.",
-            "He canceled his insurance policy last month.",
-            "I am in the insurance racket.",
-            "Make a claim on your insurance policy.",
-            "An insurance policy is a good safeguard.",
-            "The car comes bundled with free insurance.",
-            "The insurance will replace the lost income.",
-            "He had tried to diddle his insurance agency.",
-            "He made his money in the insurance business."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она работает в сфере /области/ страхования.",
-            "Страховочный бизнес основан на доверии.",
-            "Он занимается страхованием.",
-            "Нужно ли мне приобретать страховку на мой автомобиль?",
-            "Его страховка покрывает гонорар врача.",
-            "У нашей фирмы есть страховой полис на случай пожара.",
-            "Ты должен подать иск против компании, страхующей автомобили.",
-            "Страховка этого не покроет.",
-            "Я работаю в страховой компании.",
-            "Моя жизнь застрахована на большую сумму.",
-            "Как я могу разобраться с проблемами, касающимися страхования?",
-            "Страхование автомобиля является обязательным.",
-            "Она зарабатывает на жизнь, продавая страховки.",
-            "Федеральная корпорация по страхованию депозитов, ФКСД",
-            "Сколько стоит страховка на вашу машину?",
-            "Страхование основывается на доверии.",
-            "Она подала заявление о выплате страхового возмещения.",
-            "Мой брат работает в сфере страхования.",
-            "Вы можете приобрести страхование онлайн.",
-            "Она стала жертвой мошенничества со страховкой.",
-            "Он проехал дополнительный круг, просто на всякий случай / для пущей уверенности.",
-            "Страховка защищает вас от затопления.",
-            "В прошлом месяце он аннулировал свой страховой полис.",
-            "Я занимаюсь страхованием.",
-            "Подайте заявку по вашему страховому полису.",
-            "Страховой полис — это хорошая мера предосторожности.",
-            "При покупке автомобиля предоставляется бесплатная страховка.",
-            "Страховка возместит эти недополученные доходы.",
-            "Он когда-то пытался надуть своё страховое агентство.",
-            "Он заработал свои деньги в страховом бизнесе."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "insurance": {
+    "comment": [
+      "assurance",
+      "insure"
+    ],
+    "translate": "страхование, страховка, страховой",
+    "transcription": " |ɪnˈʃʊrəns|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She has a job in insurance.",
+        "ru": "Она работает в сфере /области/ страхования.",
+        "learn": 0
+      },
+      {
+        "eng": "The insurance business is built on trust.",
+        "ru": "Страховочный бизнес основан на доверии.",
+        "learn": 0
+      },
+      {
+        "eng": "He is in insurance.",
+        "ru": "Он занимается страхованием.",
+        "learn": 0
+      },
+      {
+        "eng": "Do I need to take out insurance on my vehicle?",
+        "ru": "Нужно ли мне приобретать страховку на мой автомобиль?",
+        "learn": 0
+      },
+      {
+        "eng": "His insurance covers the doctor's fee.",
+        "ru": "Его страховка покрывает гонорар врача.",
+        "learn": 0
+      },
+      {
+        "eng": "Our firm carries fire insurance.",
+        "ru": "У нашей фирмы есть страховой полис на случай пожара.",
+        "learn": 0
+      },
+      {
+        "eng": "You should claim against the car insurance.",
+        "ru": "Ты должен подать иск против компании, страхующей автомобили.",
+        "learn": 0
+      },
+      {
+        "eng": "The insurance won't cover this.",
+        "ru": "Страховка этого не покроет.",
+        "learn": 0
+      },
+      {
+        "eng": "I work for an insurance company.",
+        "ru": "Я работаю в страховой компании.",
+        "learn": 0
+      },
+      {
+        "eng": "I carry a lot of life insurance.",
+        "ru": "Моя жизнь застрахована на большую сумму.",
+        "learn": 0
+      },
+      {
+        "eng": "How can I deal with problems about insurance?",
+        "ru": "Как я могу разобраться с проблемами, касающимися страхования?",
+        "learn": 0
+      },
+      {
+        "eng": "Car insurance is compulsory.",
+        "ru": "Страхование автомобиля является обязательным.",
+        "learn": 1
+      },
+      {
+        "eng": "She earns her living by selling insurance.",
+        "ru": "Она зарабатывает на жизнь, продавая страховки.",
+        "learn": 0
+      },
+      {
+        "eng": "Federal Deposit Insurance Corporation",
+        "ru": "Федеральная корпорация по страхованию депозитов, ФКСД",
+        "learn": 0
+      },
+      {
+        "eng": "How much is the insurance on your car?",
+        "ru": "Сколько стоит страховка на вашу машину?",
+        "learn": 0
+      },
+      {
+        "eng": "The insurance business is grounded on trust.",
+        "ru": "Страхование основывается на доверии.",
+        "learn": 0
+      },
+      {
+        "eng": "She put in an insurance claim.",
+        "ru": "Она подала заявление о выплате страхового возмещения.",
+        "learn": 0
+      },
+      {
+        "eng": "My brother works in insurance.",
+        "ru": "Мой брат работает в сфере страхования.",
+        "learn": 0
+      },
+      {
+        "eng": "You can purchase insurance on-line.",
+        "ru": "Вы можете приобрести страхование онлайн.",
+        "learn": 0
+      },
+      {
+        "eng": "She was the victim of an insurance scam.",
+        "ru": "Она стала жертвой мошенничества со страховкой.",
+        "learn": 0
+      },
+      {
+        "eng": "He drove an extra lap just for insurance.",
+        "ru": "Он проехал дополнительный круг, просто на всякий случай / для пущей уверенности.",
+        "learn": 1
+      },
+      {
+        "eng": "The insurance protects you against flooding.",
+        "ru": "Страховка защищает вас от затопления.",
+        "learn": 0
+      },
+      {
+        "eng": "He canceled his insurance policy last month.",
+        "ru": "В прошлом месяце он аннулировал свой страховой полис.",
+        "learn": 0
+      },
+      {
+        "eng": "I am in the insurance racket.",
+        "ru": "Я занимаюсь страхованием.",
+        "learn": 0
+      },
+      {
+        "eng": "Make a claim on your insurance policy.",
+        "ru": "Подайте заявку по вашему страховому полису.",
+        "learn": 0
+      },
+      {
+        "eng": "An insurance policy is a good safeguard.",
+        "ru": "Страховой полис — это хорошая мера предосторожности.",
+        "learn": 0
+      },
+      {
+        "eng": "The car comes bundled with free insurance.",
+        "ru": "При покупке автомобиля предоставляется бесплатная страховка.",
+        "learn": 0
+      },
+      {
+        "eng": "The insurance will replace the lost income.",
+        "ru": "Страховка возместит эти недополученные доходы.",
+        "learn": 1
+      },
+      {
+        "eng": "He had tried to diddle his insurance agency.",
+        "ru": "Он когда-то пытался надуть своё страховое агентство.",
+        "learn": 0
+      },
+      {
+        "eng": "He made his money in the insurance business.",
+        "ru": "Он заработал свои деньги в страховом бизнесе.",
+        "learn": 0
+      }
+    ]
+  }
 }

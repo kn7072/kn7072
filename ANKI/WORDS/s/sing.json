@@ -1,87 +1,176 @@
 {
-    "sing": {
-        "comment": [
-            "singular",
-            "singer",
-            "single",
-            "singing",
-            "sink",
-            "sin"
-        ],
-        "translate": "петь, спеть, воспевать, ликовать, пение, свист, спевка, шум, звон",
-        "transcription": " |sɪŋ|",
-        "antonyms": [],
-        "mnemonic": [
-            "sing [синг] петь - В (Сингапуре) петь запрещено."
-        ],
-        "examples": [
-            "I heard the birds sing.",
-            "Come on, sing us a song!",
-            "Sing up, boys, I can't hear you!",
-            "I think he'll sing.",
-            "I can't sing the high notes.",
-            "He made his violin sing.",
-            "Most children enjoy singing.",
-            "She can sing beautifully.",
-            "You sing like a real professional.",
-            "She sings in the choir.",
-            "'Sing' is a strong verb.",
-            "He can't sing for toffee!",
-            "Can you sing the baritone?",
-            "A bullet sang past my ear.",
-            "He sang softly to the baby.",
-            "We all crowded into her office to sing \"Happy Birthday\".",
-            "My brother sings very well.",
-            "The nightingale was singing.",
-            "The kettle sang on the stove.",
-            "The children danced and sang.",
-            "Do you hear the birds singing?",
-            "I like to sing to many people.",
-            "The bullet sang past his helmet.",
-            "Let's sing the last verse again.",
-            "Let's sing a few exercises first to warm up.",
-            "Her belief that she can sing is a mere fancy.",
-            "The director will cue you in when it's your turn to sing.",
-            "I knew she was happy again when I heard her singing away in the kitchen.",
-            "Sing those bars an octave lower.",
-            "He tried to sing the tenor part."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я слышал, как поют птицы.",
-            "Давай, спой нам песню!",
-            "Пойте громче, мальчики, я вас не слышу!",
-            "Я думаю, что он расколется. (т.е. сдаст подельников)",
-            "Я не могу взять (пропеть) высокие ноты.",
-            "Скрипка пела у него в руках.",
-            "Большинство детей поёт с удовольствием.",
-            "Она очень красиво поёт.",
-            "Вы поёте, как настоящий профессионал.",
-            "Она поёт в хоре.",
-            "\"Sing\" (петь) — это сильный глагол.",
-            "Он совершенно не умеет петь! (см. for toffee)",
-            "Вы можете петь баритоном?",
-            "Мимо моего уха пронеслась пуля.",
-            "Он негромко напевал ребёнку песню.",
-            "Мы всей толпой направились в ее кабинет, чтобы спеть ей песню \"С днем рожденья тебя\".",
-            "Мой брат очень хорошо поёт.",
-            "Пел соловей.",
-            "Чайник запел на плите.",
-            "Дети танцевали и пели.",
-            "Слышишь, как поют птицы?",
-            "Я люблю петь перед большой аудиторией.",
-            "Пуля пронеслась мимо его шлема.",
-            "Давайте споём последний куплет ещё раз.",
-            "Давайте споём несколько упражнений для распевки.",
-            "Её убеждённость в своём умении петь — не более чем фантазия.",
-            "Режиссер скажет, когда твоя очередь петь.",
-            "Я понял, что она снова счастлива, когда услышал, как она всё время поёт на кухне.",
-            "Спойте эти такты октавой ниже.",
-            "Он пытался петь партию тенора."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "sing": {
+    "comment": [
+      "sang |sæŋ|,                                          sung |sʌŋ|",
+      "singular",
+      "singer",
+      "single",
+      "singing",
+      "sink",
+      "sin"
+    ],
+    "translate": "петь, спеть, воспевать, ликовать, пение, свист, спевка, шум, звон",
+    "transcription": " |sɪŋ|",
+    "antonyms": [],
+    "mnemonic": [
+      "sing [синг] петь - В (Сингапуре) петь запрещено."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I heard the birds sing.",
+        "ru": "Я слышал, как поют птицы.",
+        "learn": 0
+      },
+      {
+        "eng": "Come on, sing us a song!",
+        "ru": "Давай, спой нам песню!",
+        "learn": 0
+      },
+      {
+        "eng": "Sing up, boys, I can't hear you!",
+        "ru": "Пойте громче, мальчики, я вас не слышу!",
+        "learn": 0
+      },
+      {
+        "eng": "I think he'll sing.",
+        "ru": "Я думаю, что он расколется. (т.е. сдаст подельников)",
+        "learn": 0
+      },
+      {
+        "eng": "I can't sing the high notes.",
+        "ru": "Я не могу взять (пропеть) высокие ноты.",
+        "learn": 0
+      },
+      {
+        "eng": "He made his violin sing.",
+        "ru": "Скрипка пела у него в руках.",
+        "learn": 0
+      },
+      {
+        "eng": "Most children enjoy singing.",
+        "ru": "Большинство детей поёт с удовольствием.",
+        "learn": 0
+      },
+      {
+        "eng": "She can sing beautifully.",
+        "ru": "Она очень красиво поёт.",
+        "learn": 0
+      },
+      {
+        "eng": "You sing like a real professional.",
+        "ru": "Вы поёте, как настоящий профессионал.",
+        "learn": 0
+      },
+      {
+        "eng": "She sings in the choir.",
+        "ru": "Она поёт в хоре.",
+        "learn": 1
+      },
+      {
+        "eng": "'Sing' is a strong verb.",
+        "ru": "\"Sing\" (петь) — это сильный глагол.",
+        "learn": 0
+      },
+      {
+        "eng": "He can't sing for toffee!",
+        "ru": "Он совершенно не умеет петь! (см. for toffee)",
+        "learn": 0
+      },
+      {
+        "eng": "Can you sing the baritone?",
+        "ru": "Вы можете петь баритоном?",
+        "learn": 0
+      },
+      {
+        "eng": "A bullet sang past my ear.",
+        "ru": "Мимо моего уха пронеслась пуля.",
+        "learn": 0
+      },
+      {
+        "eng": "He sang softly to the baby.",
+        "ru": "Он негромко напевал ребёнку песню.",
+        "learn": 0
+      },
+      {
+        "eng": "We all crowded into her office to sing \"Happy Birthday\".",
+        "ru": "Мы всей толпой направились в ее кабинет, чтобы спеть ей песню \"С днем рожденья тебя\".",
+        "learn": 0
+      },
+      {
+        "eng": "My brother sings very well.",
+        "ru": "Мой брат очень хорошо поёт.",
+        "learn": 0
+      },
+      {
+        "eng": "The nightingale was singing.",
+        "ru": "Пел соловей.",
+        "learn": 0
+      },
+      {
+        "eng": "The kettle sang on the stove.",
+        "ru": "Чайник запел на плите.",
+        "learn": 1
+      },
+      {
+        "eng": "The children danced and sang.",
+        "ru": "Дети танцевали и пели.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you hear the birds singing?",
+        "ru": "Слышишь, как поют птицы?",
+        "learn": 1
+      },
+      {
+        "eng": "I like to sing to many people.",
+        "ru": "Я люблю петь перед большой аудиторией.",
+        "learn": 0
+      },
+      {
+        "eng": "The bullet sang past his helmet.",
+        "ru": "Пуля пронеслась мимо его шлема.",
+        "learn": 1
+      },
+      {
+        "eng": "Let's sing the last verse again.",
+        "ru": "Давайте споём последний куплет ещё раз.",
+        "learn": 1
+      },
+      {
+        "eng": "Let's sing a few exercises first to warm up.",
+        "ru": "Давайте споём несколько упражнений для распевки.",
+        "learn": 0
+      },
+      {
+        "eng": "Her belief that she can sing is a mere fancy.",
+        "ru": "Её убеждённость в своём умении петь — не более чем фантазия.",
+        "learn": 1
+      },
+      {
+        "eng": "The director will cue you in when it's your turn to sing.",
+        "ru": "Режиссер скажет, когда твоя очередь петь.",
+        "learn": 0
+      },
+      {
+        "eng": "I knew she was happy again when I heard her singing away in the kitchen.",
+        "ru": "Я понял, что она снова счастлива, когда услышал, как она всё время поёт на кухне.",
+        "learn": 0
+      },
+      {
+        "eng": "Sing those bars an octave lower.",
+        "ru": "Спойте эти такты октавой ниже.",
+        "learn": 0
+      },
+      {
+        "eng": "He tried to sing the tenor part.",
+        "ru": "Он пытался петь партию тенора.",
+        "learn": 0
+      }
+    ]
+  }
 }

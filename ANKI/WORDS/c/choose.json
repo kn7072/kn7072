@@ -1,87 +1,177 @@
 {
-    "choose": {
-        "comment": [
-            "choice",
-            "choir",
-            "school"
-        ],
-        "translate": "выбирать, хотеть, избирать, решать, решаться, отбирать, предпочитать, приглядывать",
-        "transcription": " |tʃuːz|",
-        "antonyms": [],
-        "mnemonic": [
-            "choose [чу:з] выбирать, избирать - С (чуз-твом) выбирай желаемое.",
-            "choose [tʃu: z]\n***\nВЫБИРАТЬ пока учусь. (это) choose\nПредпочитать, избирать. (это) choose\n***\nЯ выбираю \"choose\" -\nбыть свободным \"loose\"."
-        ],
-        "examples": [
-            "They chose to go by train.",
-            "You may choose either answer.",
-            "It is not for you to choose.",
-            "They chose her as captain.",
-            "Which shirt would you choose?",
-            "He chose his words carefully.",
-            "A panel of judges will choose the winner.",
-            "Gift ideas to choose from.",
-            "Of two evils choose the less.",
-            "I chose to ignore his advice.",
-            "Let everyone choose for themselves.",
-            "She was chosen from a long list of people.",
-            "They chose her as the team captain.",
-            "It is difficult to choose among so many nice houses.",
-            "Jim chose Mary as his wife.",
-            "You have to choose the right answer from a list.",
-            "I hope you will choose a different path.",
-            "Why did you choose me for the job?",
-            "It took us ages to choose a new carpet.",
-            "Choose whichever one you want.",
-            "I choose these words advisedly.",
-            "She helped him choose some new clothes.",
-            "warriors who choose death before dishonor",
-            "He chose his words carefully as he spoke.",
-            "I don't mind which one we have — you choose.",
-            "How do women choose their mates?",
-            "You need to choose a team leader.",
-            "The political party chose a leader.",
-            "Choose what thing soever you please.",
-            "How I choose to live is my affair, not yours."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Они решили ехать поездом.",
-            "Вы можете выбрать один из двух вариантов ответа.",
-            "Выбирать не вам.",
-            "Её выбрали капитаном.",
-            "Какую рубашку вы бы выбрали?",
-            "Он тщательно подбирал слова.",
-            "Судейская коллегия выберет победителя.",
-            "Что подарить: идеи на выбор. (Рекламное предложение в интернет-магазине)",
-            "Из двух зол выбирай меньшее. (посл.)",
-            "Я решил не слушать его советов.",
-            "Пусть каждый решает сам за себя.",
-            "Её выбрали из длинного списка людей.",
-            "Они выбрали её капитаном команды.",
-            "Так трудно выбрать, тут столько прелестных домиков.",
-            "Джим выбрал себе в жёны Мэри.",
-            "Нужно выбрать правильный ответ из списка.",
-            "Надеюсь, что вы изберёте другой путь.",
-            "Почему вы выбрали меня для этого дела?",
-            "Нам потребовалось очень много времени, чтобы выбрать новый ковер. / Мы ужасно долго выбирали новый ковёр.",
-            "Выберите любой, какой угодно.",
-            "Я намеренно выбрал эти слова.",
-            "Она помогла ему подобрать новую одежду.",
-            "воины, которые предпочли смерть бесчестью",
-            "Он говорил, тщательно подбирая слова.",
-            "Мне всё равно, какой именно из них мы купим, — выбирать тебе.",
-            "По какому принципу женщины выбирают себе пару?",
-            "Вам нужно выбрать лидера команды.",
-            "Политическая партия выбрала руководителя.",
-            "Выбери любую вещь, какая тебе только понравится.",
-            "Как я живу — это моё дело, а не твоё."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Инфинитив_с_to_после_глаголов",
-            "Инфинитив"
-        ]
-    }
+  "choose": {
+    "comment": [
+      "chose |tʃoʊz|,                                          chosen |ˈtʃoʊzən|",
+      "choice",
+      "choir",
+      "school"
+    ],
+    "translate": "выбирать, хотеть, избирать, решать, решаться, отбирать, предпочитать, приглядывать",
+    "transcription": " |tʃuːz|",
+    "antonyms": [],
+    "mnemonic": [
+      "choose [чу:з] выбирать, избирать - С (чуз-твом) выбирай желаемое.",
+      "choose [tʃu: z]\n***\nВЫБИРАТЬ пока учусь. (это) choose\nПредпочитать, избирать. (это) choose\n***\nЯ выбираю \"choose\" -\nбыть свободным \"loose\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_с_to_после_глаголов",
+      "Инфинитив",
+      "infinitive_after_verb",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "They chose to go by train.",
+        "ru": "Они решили ехать поездом.",
+        "learn": 0
+      },
+      {
+        "eng": "You may choose either answer.",
+        "ru": "Вы можете выбрать один из двух вариантов ответа.",
+        "learn": 0
+      },
+      {
+        "eng": "It is not for you to choose.",
+        "ru": "Выбирать не вам.",
+        "learn": 0
+      },
+      {
+        "eng": "They chose her as captain.",
+        "ru": "Её выбрали капитаном.",
+        "learn": 0
+      },
+      {
+        "eng": "Which shirt would you choose?",
+        "ru": "Какую рубашку вы бы выбрали?",
+        "learn": 1
+      },
+      {
+        "eng": "He chose his words carefully.",
+        "ru": "Он тщательно подбирал слова.",
+        "learn": 0
+      },
+      {
+        "eng": "A panel of judges will choose the winner.",
+        "ru": "Судейская коллегия выберет победителя.",
+        "learn": 0
+      },
+      {
+        "eng": "Gift ideas to choose from.",
+        "ru": "Что подарить: идеи на выбор. (Рекламное предложение в интернет-магазине)",
+        "learn": 0
+      },
+      {
+        "eng": "Of two evils choose the less.",
+        "ru": "Из двух зол выбирай меньшее. (посл.)",
+        "learn": 0
+      },
+      {
+        "eng": "I chose to ignore his advice.",
+        "ru": "Я решил не слушать его советов.",
+        "learn": 0
+      },
+      {
+        "eng": "Let everyone choose for themselves.",
+        "ru": "Пусть каждый решает сам за себя.",
+        "learn": 0
+      },
+      {
+        "eng": "She was chosen from a long list of people.",
+        "ru": "Её выбрали из длинного списка людей.",
+        "learn": 0
+      },
+      {
+        "eng": "They chose her as the team captain.",
+        "ru": "Они выбрали её капитаном команды.",
+        "learn": 1
+      },
+      {
+        "eng": "It is difficult to choose among so many nice houses.",
+        "ru": "Так трудно выбрать, тут столько прелестных домиков.",
+        "learn": 0
+      },
+      {
+        "eng": "Jim chose Mary as his wife.",
+        "ru": "Джим выбрал себе в жёны Мэри.",
+        "learn": 0
+      },
+      {
+        "eng": "You have to choose the right answer from a list.",
+        "ru": "Нужно выбрать правильный ответ из списка.",
+        "learn": 0
+      },
+      {
+        "eng": "I hope you will choose a different path.",
+        "ru": "Надеюсь, что вы изберёте другой путь.",
+        "learn": 0
+      },
+      {
+        "eng": "Why did you choose me for the job?",
+        "ru": "Почему вы выбрали меня для этого дела?",
+        "learn": 0
+      },
+      {
+        "eng": "It took us ages to choose a new carpet.",
+        "ru": "Нам потребовалось очень много времени, чтобы выбрать новый ковер. / Мы ужасно долго выбирали новый ковёр.",
+        "learn": 0
+      },
+      {
+        "eng": "Choose whichever one you want.",
+        "ru": "Выберите любой, какой угодно.",
+        "learn": 0
+      },
+      {
+        "eng": "I choose these words advisedly.",
+        "ru": "Я намеренно выбрал эти слова.",
+        "learn": 0
+      },
+      {
+        "eng": "She helped him choose some new clothes.",
+        "ru": "Она помогла ему подобрать новую одежду.",
+        "learn": 0
+      },
+      {
+        "eng": "warriors who choose death before dishonor",
+        "ru": "воины, которые предпочли смерть бесчестью",
+        "learn": 0
+      },
+      {
+        "eng": "He chose his words carefully as he spoke.",
+        "ru": "Он говорил, тщательно подбирая слова.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't mind which one we have — you choose.",
+        "ru": "Мне всё равно, какой именно из них мы купим, — выбирать тебе.",
+        "learn": 0
+      },
+      {
+        "eng": "How do women choose their mates?",
+        "ru": "По какому принципу женщины выбирают себе пару?",
+        "learn": 1
+      },
+      {
+        "eng": "You need to choose a team leader.",
+        "ru": "Вам нужно выбрать лидера команды.",
+        "learn": 0
+      },
+      {
+        "eng": "The political party chose a leader.",
+        "ru": "Политическая партия выбрала руководителя.",
+        "learn": 0
+      },
+      {
+        "eng": "Choose what thing soever you please.",
+        "ru": "Выбери любую вещь, какая тебе только понравится.",
+        "learn": 0
+      },
+      {
+        "eng": "How I choose to live is my affair, not yours.",
+        "ru": "Как я живу — это моё дело, а не твоё.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,84 +1,170 @@
 {
-    "package": {
-        "comment": [
-            "packet",
-            "pack",
-            "packed",
-            "packaging",
-            "packing"
-        ],
-        "translate": "пакет, упаковка, посылка, сверток, пачка, тюк, упаковывать, фасовать, оформлять",
-        "transcription": " |ˈpækɪdʒ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She mailed the package to me.",
-            "Deliver the package to my home.",
-            "The package deal includes some nice extras.",
-            "She attached a note to the package.",
-            "Along with the package came a bill.",
-            "He ripped open the package.",
-            "The opened package lay on the table.",
-            "He threw the package roughly in the truck.",
-            "The package arrived January 6.",
-            "Your package is up at the front desk.",
-            "Can you take this package while I get my wallet?",
-            "They sent the package express.",
-            "Put the package there on the table.",
-            "We offer an excellent benefits package.",
-            "The package should be arriving late next week.",
-            "It took several days for the package to arrive.",
-            "The package was postmarked 13 February.",
-            "He was holding a large package in his arms.",
-            "According to the package, one serving size is 6 ounces.",
-            "Take advantage of off-peak reductions for package holidays.",
-            "You will receive an exceptional package with uncapped earnings.",
-            "I undid the package carefully.",
-            "Directions appear on the package.",
-            "How much is the postage for this package?",
-            "You can arrange as part of your package to hire a car.",
-            "TTL package",
-            "The package was sent by airmail.",
-            "I need a piece of string to tie this package.",
-            "They expressed the package to us.",
-            "He sent the package to us by express."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она послала мне посылку.",
-            "Доставьте пакет мне домой.",
-            "Пакет услуг включает в себя несколько приятных дополнений.",
-            "Она прикрепила к пакету записку.",
-            "Вместе с пакетом пришёл счёт.",
-            "Он разорвал упаковку.",
-            "Открытая посылка лежала на столе.",
-            "Он небрежно бросил пакет в грузовик.",
-            "Посылка была доставлена шестого января.",
-            "Ваш пакет — там, на стойке регистрации.",
-            "Ты не могла бы подержать этот пакет, пока я достану бумажник?",
-            "Посылку отправили экспресс-почтой.",
-            "Положите пакет вон туда, на стол.",
-            "Мы предлагаем отличный социальный пакет.",
-            "Пакет должен прибыть в конце следующей недели.",
-            "Посылка прибыла через несколько дней.",
-            "На посылке был почтовый штемпель от 13 февраля.",
-            "В руках он держал большой пакет.",
-            "Как написано на упаковке, размер одной порции — шесть унций.",
-            "Воспользуйтесь скидкой на турпутевки в мёртвый сезон.",
-            "Вам будут предложены исключительные условия с неограниченным уровнем заработка.",
-            "Я осторожно распаковал сверток.",
-            "Инструкцию можно найти на упаковке.",
-            "Сколько стоит пересылка этого пакета?",
-            "Вы можете включить в пакет услуг прокат автомобиля.",
-            "ТТЛ-модуль",
-            "Посылка была отправлена авиапочтой.",
-            "Мне нужен кусок верёвки, чтобы связать этот пакет.",
-            "Посылку они направили нам курьером.",
-            "Посылку он отправил нам курьерской почтой."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "package": {
+    "comment": [
+      "packet",
+      "pack",
+      "packed",
+      "packaging",
+      "packing"
+    ],
+    "translate": "пакет, упаковка, посылка, сверток, пачка, тюк, упаковывать, фасовать, оформлять",
+    "transcription": " |ˈpækɪdʒ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She mailed the package to me.",
+        "ru": "Она послала мне посылку.",
+        "learn": 0
+      },
+      {
+        "eng": "Deliver the package to my home.",
+        "ru": "Доставьте пакет мне домой.",
+        "learn": 0
+      },
+      {
+        "eng": "The package deal includes some nice extras.",
+        "ru": "Пакет услуг включает в себя несколько приятных дополнений.",
+        "learn": 0
+      },
+      {
+        "eng": "She attached a note to the package.",
+        "ru": "Она прикрепила к пакету записку.",
+        "learn": 1
+      },
+      {
+        "eng": "Along with the package came a bill.",
+        "ru": "Вместе с пакетом пришёл счёт.",
+        "learn": 1
+      },
+      {
+        "eng": "He ripped open the package.",
+        "ru": "Он разорвал упаковку.",
+        "learn": 0
+      },
+      {
+        "eng": "The opened package lay on the table.",
+        "ru": "Открытая посылка лежала на столе.",
+        "learn": 0
+      },
+      {
+        "eng": "He threw the package roughly in the truck.",
+        "ru": "Он небрежно бросил пакет в грузовик.",
+        "learn": 1
+      },
+      {
+        "eng": "The package arrived January 6.",
+        "ru": "Посылка была доставлена шестого января.",
+        "learn": 0
+      },
+      {
+        "eng": "Your package is up at the front desk.",
+        "ru": "Ваш пакет — там, на стойке регистрации.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you take this package while I get my wallet?",
+        "ru": "Ты не могла бы подержать этот пакет, пока я достану бумажник?",
+        "learn": 0
+      },
+      {
+        "eng": "They sent the package express.",
+        "ru": "Посылку отправили экспресс-почтой.",
+        "learn": 0
+      },
+      {
+        "eng": "Put the package there on the table.",
+        "ru": "Положите пакет вон туда, на стол.",
+        "learn": 0
+      },
+      {
+        "eng": "We offer an excellent benefits package.",
+        "ru": "Мы предлагаем отличный социальный пакет.",
+        "learn": 0
+      },
+      {
+        "eng": "The package should be arriving late next week.",
+        "ru": "Пакет должен прибыть в конце следующей недели.",
+        "learn": 0
+      },
+      {
+        "eng": "It took several days for the package to arrive.",
+        "ru": "Посылка прибыла через несколько дней.",
+        "learn": 0
+      },
+      {
+        "eng": "The package was postmarked 13 February.",
+        "ru": "На посылке был почтовый штемпель от 13 февраля.",
+        "learn": 0
+      },
+      {
+        "eng": "He was holding a large package in his arms.",
+        "ru": "В руках он держал большой пакет.",
+        "learn": 1
+      },
+      {
+        "eng": "According to the package, one serving size is 6 ounces.",
+        "ru": "Как написано на упаковке, размер одной порции — шесть унций.",
+        "learn": 0
+      },
+      {
+        "eng": "Take advantage of off-peak reductions for package holidays.",
+        "ru": "Воспользуйтесь скидкой на турпутевки в мёртвый сезон.",
+        "learn": 0
+      },
+      {
+        "eng": "You will receive an exceptional package with uncapped earnings.",
+        "ru": "Вам будут предложены исключительные условия с неограниченным уровнем заработка.",
+        "learn": 1
+      },
+      {
+        "eng": "I undid the package carefully.",
+        "ru": "Я осторожно распаковал сверток.",
+        "learn": 1
+      },
+      {
+        "eng": "Directions appear on the package.",
+        "ru": "Инструкцию можно найти на упаковке.",
+        "learn": 0
+      },
+      {
+        "eng": "How much is the postage for this package?",
+        "ru": "Сколько стоит пересылка этого пакета?",
+        "learn": 0
+      },
+      {
+        "eng": "You can arrange as part of your package to hire a car.",
+        "ru": "Вы можете включить в пакет услуг прокат автомобиля.",
+        "learn": 0
+      },
+      {
+        "eng": "TTL package",
+        "ru": "ТТЛ-модуль",
+        "learn": 0
+      },
+      {
+        "eng": "The package was sent by airmail.",
+        "ru": "Посылка была отправлена авиапочтой.",
+        "learn": 0
+      },
+      {
+        "eng": "I need a piece of string to tie this package.",
+        "ru": "Мне нужен кусок верёвки, чтобы связать этот пакет.",
+        "learn": 0
+      },
+      {
+        "eng": "They expressed the package to us.",
+        "ru": "Посылку они направили нам курьером.",
+        "learn": 0
+      },
+      {
+        "eng": "He sent the package to us by express.",
+        "ru": "Посылку он отправил нам курьерской почтой.",
+        "learn": 0
+      }
+    ]
+  }
 }

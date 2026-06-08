@@ -1,39 +1,139 @@
 {
-    "check out": {
-        "comment": [],
-        "translate": "1) Выписываться (из отеля) 2) Проверять, изучать (что-либо) ",
-        "transcription": " |ˈtʃek ˈaʊt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Have you checked out the website?",
-            "We need to check out by 11 AM.",
-            "I need to check out the details first.",
-            "You should check out that book.",
-            "Let me check out what happened.",
-            "What time is check-out?",
-            "Don't forget to check out before leaving.",
-            "They checked out early in the morning.",
-            "Check out this new restaurant!",
-            "She checked out of the hotel yesterday."
-        ],
-        "example_translate": [
-            "Ты посмотрел сайт?",
-            "Нам нужно выписаться до 11:00.",
-            "Мне нужно сначала проверить детали.",
-            "Тебе стоит посмотреть эту книгу.",
-            "Дай мне проверить, что случилось.",
-            "Во время выезда из отеля?",
-            "Не забудь выписаться перед уходом.",
-            "Они выписались рано утром.",
-            "Посмотри на этот новый ресторан!",
-            "Она выписалась из отеля вчера."
-        ],
-        "synonyms": "Выписываться (из отеля) - leave, depart\nПроверять, изучать (что-либо) - examine, investigate, look at\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "check out": {
+    "comment": [],
+    "translate": "1) Выписываться (из отеля) 2) Проверять, изучать (что-либо) ",
+    "transcription": " |ˈtʃek ˈaʊt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Выписываться (из отеля) - leave, depart",
+      "Проверять, изучать (что-либо) - examine, investigate, look at"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "Have you checked out the website?",
+        "ru": "Ты посмотрел сайт?",
+        "learn": 1
+      },
+      {
+        "eng": "We need to check out by 11 AM.",
+        "ru": "Нам нужно выписаться до 11:00.",
+        "learn": 1
+      },
+      {
+        "eng": "I need to check out the details first.",
+        "ru": "Мне нужно сначала проверить детали.",
+        "learn": 1
+      },
+      {
+        "eng": "You should check out that book.",
+        "ru": "Тебе стоит посмотреть эту книгу.",
+        "learn": 1
+      },
+      {
+        "eng": "Let me check out what happened.",
+        "ru": "Дай мне проверить, что случилось.",
+        "learn": 1
+      },
+      {
+        "eng": "What time is check-out?",
+        "ru": "Во время выезда из отеля?",
+        "learn": 1
+      },
+      {
+        "eng": "Don't forget to check out before leaving.",
+        "ru": "Не забудь выписаться перед уходом.",
+        "learn": 1
+      },
+      {
+        "eng": "They checked out early in the morning.",
+        "ru": "Они выписались рано утром.",
+        "learn": 1
+      },
+      {
+        "eng": "Check out this new restaurant!",
+        "ru": "Посмотри на этот новый ресторан!",
+        "learn": 1
+      },
+      {
+        "eng": "She checked out of the hotel yesterday.",
+        "ru": "Она выписалась из отеля вчера.",
+        "learn": 1
+      },
+      {
+        "eng": "You must check out of the hotel by 10 a.m.",
+        "ru": "Вы должны выехать из гостиницы до 10 часов утра.",
+        "learn": 0
+      },
+      {
+        "eng": "Hey, check out that car!",
+        "ru": "Эй, зацени ту машину!",
+        "learn": 0
+      },
+      {
+        "eng": "Does his story check out?",
+        "ru": "Его рассказ подтверждается?",
+        "learn": 0
+      },
+      {
+        "eng": "I made a phone call to check out his address.",
+        "ru": "Я позвонил, чтобы проверить его адрес.",
+        "learn": 0
+      },
+      {
+        "eng": "Check out this dope new song.",
+        "ru": "Зацени эту новую улётную песню.",
+        "learn": 0
+      },
+      {
+        "eng": "Check out this new game — it's bare hard.",
+        "ru": "Зацени эту новую игру — просто жесть.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid old Charlie has checked out.",
+        "ru": "Боюсь, старик Чарли уже концы отдал.",
+        "learn": 0
+      },
+      {
+        "eng": "The library allows you to check out six books at a time.",
+        "ru": "По правилам этой библиотеки вы можете взять за один раз не больше шести книг.",
+        "learn": 0
+      },
+      {
+        "eng": "We're supposed to check out of the hotel by 11 o'clock.",
+        "ru": "Мы должны выехать из гостиницы до одиннадцати часов вечера.",
+        "learn": 0
+      },
+      {
+        "eng": "There are a lot of sights around the world that I want to see before I check out.",
+        "ru": "В мире есть куча интересных мест, которые мне хотелось бы увидеть, пока я ещё жив.",
+        "learn": 0
+      },
+      {
+        "eng": "Check out these fat beats.",
+        "ru": "Зацени эти суперские басы.",
+        "learn": 0
+      },
+      {
+        "eng": "Check out Omar's new car. The brother must be makin' bank.",
+        "ru": "Зацени новую машину Омара. Братишка, наверное, золотые горы зашибает.",
+        "learn": 0
+      },
+      {
+        "eng": "Check out the house and let me know if you think it's worth buying.",
+        "ru": "Проверьте дом, и сообщите мне, если вам покажется, что его стоит купить.",
+        "learn": 0
+      },
+      {
+        "eng": "Police were called in to check out a suspect van.",
+        "ru": "Для проверки подозрительного микроавтобуса вызвали полицию.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,85 +1,172 @@
 {
-    "grant": {
-        "comment": [
-            "grand",
-            "granny"
-        ],
-        "translate": " грант, субсидия, дар, разрешение, стипендия, предоставлять, дарить, даровать",
-        "transcription": "  |ɡrænt|",
-        "antonyms": [],
-        "mnemonic": [
-            "grant [гра:нт] выдавать, назначать - (Грант-ы) надо выдавать достойным.",
-            "grant [grɑ: nt]\ngrunt [grʌnt]\n***\nПолучил ДАР эмигрант. (это) grant\nПолучил ГРАНТ. (это) grant\n***\nВОРЧИТ всё время эмигрант. (это) grunt"
-        ],
-        "examples": [
-            "I cannot grant you that wish.",
-            "This bill grants us new rights",
-            "He made a grant of land to his son.",
-            "I would love to be able to grant her wish.",
-            "The government granted a pension to her.",
-            "The genie will grant you three wishes.",
-            "The mayor refused to grant my request for an interview.",
-            "The university gets a government grant.",
-            "The country was granted independence in 1950.",
-            "The authorities at once cheerfully granted all that they asked.",
-            "We received a grant to attend the conference.",
-            "You may be able to get a grant from the local authority.",
-            "Many charities give grants for educational projects.",
-            "The grant covered a major part of the cost.",
-            "The house is not perfect, I grant you that.",
-            "If we can get that grant from the local authority, we'll be well away.",
-            "Britain could grant Spain's request.",
-            "Granting that you are correct, you may find it hard to prove your point.",
-            "The grant covered only a minor part of the cost.",
-            "The judge refused to grant an injunction.",
-            "Her study is being funded by a federal grant.",
-            "A licence to sell alcohol was granted to the club.",
-            "The judge granted custody of the children to their mother.",
-            "Anyone wishing to apply for a grant should write to the Treasurer.",
-            "The study was financed by a government grant.",
-            "Our grant has run out and we cannot keep you on.",
-            "We haven't yet been granted access to the archive.",
-            "They wrote a grant proposal to get funding for the project.",
-            "The governor was bombarded with requests to grant a pardon to the convicted killer",
-            "The court granted the motion for a new trial."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я не могу исполнить это желание.",
-            "Этот законопроект дает нам новые права",
-            "Он передал землю своему сыну.",
-            "Я хотел бы быть способным удовлетворить ее желание.",
-            "Государство выплачивает ей пенсию.",
-            "Джинн дарует тебе три желания.",
-            "Мэр отказался удовлетворить мою просьбу об интервью.",
-            "Университет получает государственную дотацию.",
-            "В 1950 году стране была предоставлена независимость.",
-            "Власти сразу же с готовностью предоставили им всё, о чём они просили.",
-            "Мы получили разрешение на участие в конференции.",
-            "Возможно, вы сумеете получить субсидию /грант, стипендию/ от местных властей.",
-            "Многие благотворительные организации выдают гранты на образовательные проекты.",
-            "Этот грант покрыл большую часть стоимости.",
-            "Дом не идеален, тут я с тобой согласен.",
-            "Если мы сможем получить этот грант от местных органов власти, это хорошо продвинет нас вперёд.",
-            "Великобритания могла бы удовлетворить просьбу Испании.",
-            "Даже если вы правы, вам может быть довольно трудно доказать свою точку зрения.",
-            "Этот грант покрыл лишь незначительную часть затрат.",
-            "Судья отказал в выдаче судебного запрета.",
-            "Её исследование финансируется за счёт субсидий федерального правительства.",
-            "Клубу была выдана лицензия на продажу спиртных напитков.",
-            "Судья предоставил право опеки над детьми их матери.",
-            "Всем желающим подать заявку на получение гранта следует обращаться к казначею.",
-            "Финансирование исследования осуществлялось за счёт гранта правительства.",
-            "Наш грант израсходован, и мы больше не можем вас содержать.",
-            "Пока что нам ещё не предоставили доступ к данному архиву.",
-            "Они написали заявку на грант, чтобы получить средства для финансирования проекта.",
-            "Губернатор был засыпан просьбами предоставить помилование осужденному убийце",
-            "Суд удовлетворил ходатайство о новом разбирательстве."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "a(закр_сл)_=_[ɑː]"
-        ]
-    }
+  "grant": {
+    "comment": [
+      "grand",
+      "granny"
+    ],
+    "translate": " грант, субсидия, дар, разрешение, стипендия, предоставлять, дарить, даровать",
+    "transcription": "  |ɡrænt|",
+    "antonyms": [],
+    "mnemonic": [
+      "grant [гра:нт] выдавать, назначать - (Грант-ы) надо выдавать достойным.",
+      "grant [grɑ: nt]\ngrunt [grʌnt]\n***\nПолучил ДАР эмигрант. (это) grant\nПолучил ГРАНТ. (это) grant\n***\nВОРЧИТ всё время эмигрант. (это) grunt"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "a(закр_сл)_=_[ɑː]"
+    ],
+    "examples": [
+      {
+        "eng": "I cannot grant you that wish.",
+        "ru": "Я не могу исполнить это желание.",
+        "learn": 0
+      },
+      {
+        "eng": "This bill grants us new rights",
+        "ru": "Этот законопроект дает нам новые права",
+        "learn": 0
+      },
+      {
+        "eng": "He made a grant of land to his son.",
+        "ru": "Он передал землю своему сыну.",
+        "learn": 0
+      },
+      {
+        "eng": "I would love to be able to grant her wish.",
+        "ru": "Я хотел бы быть способным удовлетворить ее желание.",
+        "learn": 0
+      },
+      {
+        "eng": "The government granted a pension to her.",
+        "ru": "Государство выплачивает ей пенсию.",
+        "learn": 1
+      },
+      {
+        "eng": "The genie will grant you three wishes.",
+        "ru": "Джинн дарует тебе три желания.",
+        "learn": 0
+      },
+      {
+        "eng": "The mayor refused to grant my request for an interview.",
+        "ru": "Мэр отказался удовлетворить мою просьбу об интервью.",
+        "learn": 0
+      },
+      {
+        "eng": "The university gets a government grant.",
+        "ru": "Университет получает государственную дотацию.",
+        "learn": 0
+      },
+      {
+        "eng": "The country was granted independence in 1950.",
+        "ru": "В 1950 году стране была предоставлена независимость.",
+        "learn": 1
+      },
+      {
+        "eng": "The authorities at once cheerfully granted all that they asked.",
+        "ru": "Власти сразу же с готовностью предоставили им всё, о чём они просили.",
+        "learn": 0
+      },
+      {
+        "eng": "We received a grant to attend the conference.",
+        "ru": "Мы получили разрешение на участие в конференции.",
+        "learn": 0
+      },
+      {
+        "eng": "You may be able to get a grant from the local authority.",
+        "ru": "Возможно, вы сумеете получить субсидию /грант, стипендию/ от местных властей.",
+        "learn": 0
+      },
+      {
+        "eng": "Many charities give grants for educational projects.",
+        "ru": "Многие благотворительные организации выдают гранты на образовательные проекты.",
+        "learn": 0
+      },
+      {
+        "eng": "The grant covered a major part of the cost.",
+        "ru": "Этот грант покрыл большую часть стоимости.",
+        "learn": 0
+      },
+      {
+        "eng": "The house is not perfect, I grant you that.",
+        "ru": "Дом не идеален, тут я с тобой согласен.",
+        "learn": 0
+      },
+      {
+        "eng": "If we can get that grant from the local authority, we'll be well away.",
+        "ru": "Если мы сможем получить этот грант от местных органов власти, это хорошо продвинет нас вперёд.",
+        "learn": 0
+      },
+      {
+        "eng": "Britain could grant Spain's request.",
+        "ru": "Великобритания могла бы удовлетворить просьбу Испании.",
+        "learn": 0
+      },
+      {
+        "eng": "Granting that you are correct, you may find it hard to prove your point.",
+        "ru": "Даже если вы правы, вам может быть довольно трудно доказать свою точку зрения.",
+        "learn": 0
+      },
+      {
+        "eng": "The grant covered only a minor part of the cost.",
+        "ru": "Этот грант покрыл лишь незначительную часть затрат.",
+        "learn": 0
+      },
+      {
+        "eng": "The judge refused to grant an injunction.",
+        "ru": "Судья отказал в выдаче судебного запрета.",
+        "learn": 0
+      },
+      {
+        "eng": "Her study is being funded by a federal grant.",
+        "ru": "Её исследование финансируется за счёт субсидий федерального правительства.",
+        "learn": 0
+      },
+      {
+        "eng": "A licence to sell alcohol was granted to the club.",
+        "ru": "Клубу была выдана лицензия на продажу спиртных напитков.",
+        "learn": 0
+      },
+      {
+        "eng": "The judge granted custody of the children to their mother.",
+        "ru": "Судья предоставил право опеки над детьми их матери.",
+        "learn": 0
+      },
+      {
+        "eng": "Anyone wishing to apply for a grant should write to the Treasurer.",
+        "ru": "Всем желающим подать заявку на получение гранта следует обращаться к казначею.",
+        "learn": 0
+      },
+      {
+        "eng": "The study was financed by a government grant.",
+        "ru": "Финансирование исследования осуществлялось за счёт гранта правительства.",
+        "learn": 0
+      },
+      {
+        "eng": "Our grant has run out and we cannot keep you on.",
+        "ru": "Наш грант израсходован, и мы больше не можем вас содержать.",
+        "learn": 0
+      },
+      {
+        "eng": "We haven't yet been granted access to the archive.",
+        "ru": "Пока что нам ещё не предоставили доступ к данному архиву.",
+        "learn": 1
+      },
+      {
+        "eng": "They wrote a grant proposal to get funding for the project.",
+        "ru": "Они написали заявку на грант, чтобы получить средства для финансирования проекта.",
+        "learn": 0
+      },
+      {
+        "eng": "The governor was bombarded with requests to grant a pardon to the convicted killer",
+        "ru": "Губернатор был засыпан просьбами предоставить помилование осужденному убийце",
+        "learn": 0
+      },
+      {
+        "eng": "The court granted the motion for a new trial.",
+        "ru": "Суд удовлетворил ходатайство о новом разбирательстве.",
+        "learn": 0
+      }
+    ]
+  }
 }

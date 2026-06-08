@@ -1,85 +1,174 @@
 {
-    "blow": {
-        "comment": [
-            "glow",
-            "low"
-        ],
-        "translate": "удар, дутье, дуновение, продувка, дуть, взрывать, дунуть, выдувать, раздувать",
-        "transcription": " |bloʊ|",
-        "antonyms": [],
-        "mnemonic": [
-            "blow [бло'у] удар, дуть - (Блоу-када) - дует на страну ударом.",
-            "blow [blɑʋ]\n***\nДУЮТ ветры - снега нагребло (в). (это) blow\nДУТЬ начнёт - начнём облов. (это) blow\nВ одно ДУНОВЕНИЕ снега нагребло (в). (это) blow\nУдар, ударять.\n***\nПосле удара \"blow\",\nначалась утечка \"flow\"."
-        ],
-        "examples": [
-            "He blew his chance.",
-            "He hit me a hard blow.",
-            "A cold breeze was blowing hard.",
-            "He blew $50 on lunch.",
-            "The blow got quite home.",
-            "He took a blow to the chin.",
-            "Blow me down if she didn't just run off!",
-            "My ticket blew away.",
-            "Blow on the soup to cool it down.",
-            "Blow out all the candles.",
-            "Give your nose a good blow.",
-            "One blow decided the fight.",
-            "Her hair was blowing in the breeze.",
-            "The bomb blew the windows out.",
-            "Blow it! I forgot to phone Jane.",
-            "Stop sniffing and blow your nose.",
-            "His mother's death was a cruel blow.",
-            "Martin received a blow on the nose.",
-            "The company blew in $52,000.",
-            "His arm broke the blow.",
-            "We'll soon blow up his plan.",
-            "The blow seemed to have dazed her.",
-            "A sudden draught blew the door shut.",
-            "The soldiers blew up the enemy bridge.",
-            "His death will be a terrible blow.",
-            "The leaves were blowing in the wind.",
-            "He gave the dog a smart blow.",
-            "He blew a whiff from his pipe.",
-            "The second blow makes the fray.",
-            "The explosion blew the door open."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он упустил свой шанс.",
-            "Он сильно ударил меня.",
-            "Дул сильный, холодный ветер.",
-            "Он выкинул 50 баксов на ланч.",
-            "Удар пришёлся точно в цель.",
-            "Он получил удар в челюсть.",
-            "Чтоб мне провалиться /чтоб я сдох/, да она просто удрала!",
-            "Мой билет сдуло (ветром).",
-            "Подуй на суп, чтобы его остудить.",
-            "Задуй /потуши/ все свечи.",
-            "Высморкайся хорошенько.",
-            "Исход боя решил один удар.",
-            "Ветерок раздувал ей волосы.",
-            "От взрыва бомбы вылетели стёкла.",
-            "Вот блин /Чёрт/! Я забыл позвонить Джейн.",
-            "Перестань шмыгать и высморкайся.",
-            "Смерть матери стала для него тяжёлым ударом.",
-            "Мартин получил удар в нос.",
-            "Руководство компании пустило на ветер пятьдесят две тысячи долларов.",
-            "Его рука ослабила силу удара.",
-            "Скоро мы расстроим его план.",
-            "Удар, кажется, оглушил её.",
-            "Внезапный сквозняк захлопнул дверь.",
-            "Солдаты взорвали мост противника.",
-            "Его смерть будет страшным ударом.",
-            "Листья носились на ветру.",
-            "Он нанёс собаке болезненный удар. / Он больно ударил собаку.",
-            "Он выпустил дымок из трубки.",
-            "Драка начинается со второго (ответного) удара.",
-            "Взрывной волной вынесло дверь."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ow_=_[ou]"
-        ]
-    }
+  "blow": {
+    "comment": [
+      "blew |bluː|,                                          blown |bloʊn|",
+      "glow",
+      "low"
+    ],
+    "translate": "удар, дутье, дуновение, продувка, дуть, взрывать, дунуть, выдувать, раздувать",
+    "transcription": " |bloʊ|",
+    "antonyms": [],
+    "mnemonic": [
+      "blow [бло'у] удар, дуть - (Блоу-када) - дует на страну ударом.",
+      "blow [blɑʋ]\n***\nДУЮТ ветры - снега нагребло (в). (это) blow\nДУТЬ начнёт - начнём облов. (это) blow\nВ одно ДУНОВЕНИЕ снега нагребло (в). (это) blow\nУдар, ударять.\n***\nПосле удара \"blow\",\nначалась утечка \"flow\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ow_=_[ou]",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "He blew his chance.",
+        "ru": "Он упустил свой шанс.",
+        "learn": 0
+      },
+      {
+        "eng": "He hit me a hard blow.",
+        "ru": "Он сильно ударил меня.",
+        "learn": 0
+      },
+      {
+        "eng": "A cold breeze was blowing hard.",
+        "ru": "Дул сильный, холодный ветер.",
+        "learn": 0
+      },
+      {
+        "eng": "He blew $50 on lunch.",
+        "ru": "Он выкинул 50 баксов на ланч.",
+        "learn": 0
+      },
+      {
+        "eng": "The blow got quite home.",
+        "ru": "Удар пришёлся точно в цель.",
+        "learn": 0
+      },
+      {
+        "eng": "He took a blow to the chin.",
+        "ru": "Он получил удар в челюсть.",
+        "learn": 1
+      },
+      {
+        "eng": "Blow me down if she didn't just run off!",
+        "ru": "Чтоб мне провалиться /чтоб я сдох/, да она просто удрала!",
+        "learn": 0
+      },
+      {
+        "eng": "My ticket blew away.",
+        "ru": "Мой билет сдуло (ветром).",
+        "learn": 0
+      },
+      {
+        "eng": "Blow on the soup to cool it down.",
+        "ru": "Подуй на суп, чтобы его остудить.",
+        "learn": 0
+      },
+      {
+        "eng": "Blow out all the candles.",
+        "ru": "Задуй /потуши/ все свечи.",
+        "learn": 0
+      },
+      {
+        "eng": "Give your nose a good blow.",
+        "ru": "Высморкайся хорошенько.",
+        "learn": 0
+      },
+      {
+        "eng": "One blow decided the fight.",
+        "ru": "Исход боя решил один удар.",
+        "learn": 0
+      },
+      {
+        "eng": "Her hair was blowing in the breeze.",
+        "ru": "Ветерок раздувал ей волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "The bomb blew the windows out.",
+        "ru": "От взрыва бомбы вылетели стёкла.",
+        "learn": 0
+      },
+      {
+        "eng": "Blow it! I forgot to phone Jane.",
+        "ru": "Вот блин /Чёрт/! Я забыл позвонить Джейн.",
+        "learn": 0
+      },
+      {
+        "eng": "Stop sniffing and blow your nose.",
+        "ru": "Перестань шмыгать и высморкайся.",
+        "learn": 0
+      },
+      {
+        "eng": "His mother's death was a cruel blow.",
+        "ru": "Смерть матери стала для него тяжёлым ударом.",
+        "learn": 1
+      },
+      {
+        "eng": "Martin received a blow on the nose.",
+        "ru": "Мартин получил удар в нос.",
+        "learn": 1
+      },
+      {
+        "eng": "The company blew in $52,000.",
+        "ru": "Руководство компании пустило на ветер пятьдесят две тысячи долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "His arm broke the blow.",
+        "ru": "Его рука ослабила силу удара.",
+        "learn": 0
+      },
+      {
+        "eng": "We'll soon blow up his plan.",
+        "ru": "Скоро мы расстроим его план.",
+        "learn": 0
+      },
+      {
+        "eng": "The blow seemed to have dazed her.",
+        "ru": "Удар, кажется, оглушил её.",
+        "learn": 0
+      },
+      {
+        "eng": "A sudden draught blew the door shut.",
+        "ru": "Внезапный сквозняк захлопнул дверь.",
+        "learn": 1
+      },
+      {
+        "eng": "The soldiers blew up the enemy bridge.",
+        "ru": "Солдаты взорвали мост противника.",
+        "learn": 0
+      },
+      {
+        "eng": "His death will be a terrible blow.",
+        "ru": "Его смерть будет страшным ударом.",
+        "learn": 0
+      },
+      {
+        "eng": "The leaves were blowing in the wind.",
+        "ru": "Листья носились на ветру.",
+        "learn": 0
+      },
+      {
+        "eng": "He gave the dog a smart blow.",
+        "ru": "Он нанёс собаке болезненный удар. / Он больно ударил собаку.",
+        "learn": 0
+      },
+      {
+        "eng": "He blew a whiff from his pipe.",
+        "ru": "Он выпустил дымок из трубки.",
+        "learn": 0
+      },
+      {
+        "eng": "The second blow makes the fray.",
+        "ru": "Драка начинается со второго (ответного) удара.",
+        "learn": 0
+      },
+      {
+        "eng": "The explosion blew the door open.",
+        "ru": "Взрывной волной вынесло дверь.",
+        "learn": 0
+      }
+    ]
+  }
 }

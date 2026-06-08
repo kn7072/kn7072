@@ -1,88 +1,174 @@
 {
-    "one": {
-        "comment": [
-            "none",
-            "no one",
-            "zone",
-            "ozone",
-            "oneself",
-            "prone",
-            "cone"
-        ],
-        "translate": "один, номер один, один, кто-то, единственный, единица, одиночка",
-        "transcription": " |wʌn|",
-        "antonyms": [],
-        "mnemonic": [
-            "one [(ув)а'н] один - (У Ван-и) один рубль всего."
-        ],
-        "examples": [
-            "It's half past one.",
-            "She is one year old.",
-            "I will see you again one day.",
-            "This is the one I ordered.",
-            "She wears a one.",
-            "They all went off in one direction.",
-            "They are both of one species.",
-            "Which one did you like better?",
-            "I'll be there at one.",
-            "This is one of my favourite books.",
-            "He is the one who called the police.",
-            "I like all the pictures except this one.",
-            "That's one funny boy.",
-            "She's one girl in a million.",
-            "the one and only Muhammad Ali",
-            "I don't have any ones. Can you break a five?",
-            "They had one daughter.",
-            "One from seven leaves six.",
-            "One can never be too careful.",
-            "There is one minute left in the game.",
-            "John will be one soon.",
-            "Your ones are too like sevens.",
-            "I have a few one-dollar bills in my purse.",
-            "That's one possible answer — but not the only one.",
-            "Chapter One.",
-            "Come back at one (=one o'clock).",
-            "Katie's almost one (=one year old).",
-            "The train arrives at one twenty five.",
-            "I'd like to see the ring next to that one.",
-            "The three chemicals combining into one solution."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Сейчас половина второго.",
-            "Ей сейчас один годик.",
-            "Когда-нибудь мы снова увидимся.",
-            "Это тот самый, что я заказал.",
-            "Она носит первый размер (\"единичку\").",
-            "Все они удалились в одном и том же направлении.",
-            "Оба они относятся к одному и тому же виду.",
-            "Какой вам больше понравился?",
-            "Я буду там в час.",
-            "Это одна из моих любимых книг.",
-            "Это он вызвал полицию.",
-            "Мне нравятся все фотографии, кроме вот этой.",
-            "Какой забавный паренёк.",
-            "Она одна такая девушка на миллион.",
-            "единственный и неповторимый Мохаммед Али",
-            "У меня нет купюр по одному доллару /фунту/. Пятёрку не разменяете? / С пятёрки сдача будет?",
-            "У них была одна дочь.",
-            "От семи отнять один будет шесть.",
-            "Невозможно быть слишком осторожным. / Излишняя осторожность не повредит.",
-            "До конца игры осталась одна минута.",
-            "Джону скоро исполнится годик.",
-            "Твои единички слишком похожи на семёрки.",
-            "У меня в кошельке есть несколько однодолларовых купюр.",
-            "Это один из возможных ответов — но не единственный.",
-            "Глава первая / Глава 1.",
-            "Возвращайся в час (т.е. в час дня или в час ночи).",
-            "Кэти уже почти год (т.е. ей скоро исполнится один год).",
-            "Поезд прибывает в час двадцать пять.",
-            "Я хотел бы посмотреть колечко, которое рядом с вот этим.",
-            "Эти три химических вещества объединяются в один раствор."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "one": {
+    "comment": [
+      "none",
+      "no one",
+      "zone",
+      "ozone",
+      "oneself",
+      "prone",
+      "cone"
+    ],
+    "translate": "один, номер один, один, кто-то, единственный, единица, одиночка",
+    "transcription": " |wʌn|",
+    "antonyms": [],
+    "mnemonic": [
+      "one [(ув)а'н] один - (У Ван-и) один рубль всего."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "It's half past one.",
+        "ru": "Сейчас половина второго.",
+        "learn": 1
+      },
+      {
+        "eng": "She is one year old.",
+        "ru": "Ей сейчас один годик.",
+        "learn": 0
+      },
+      {
+        "eng": "I will see you again one day.",
+        "ru": "Когда-нибудь мы снова увидимся.",
+        "learn": 0
+      },
+      {
+        "eng": "This is the one I ordered.",
+        "ru": "Это тот самый, что я заказал.",
+        "learn": 0
+      },
+      {
+        "eng": "She wears a one.",
+        "ru": "Она носит первый размер (\"единичку\").",
+        "learn": 0
+      },
+      {
+        "eng": "They all went off in one direction.",
+        "ru": "Все они удалились в одном и том же направлении.",
+        "learn": 0
+      },
+      {
+        "eng": "They are both of one species.",
+        "ru": "Оба они относятся к одному и тому же виду.",
+        "learn": 0
+      },
+      {
+        "eng": "Which one did you like better?",
+        "ru": "Какой вам больше понравился?",
+        "learn": 0
+      },
+      {
+        "eng": "I'll be there at one.",
+        "ru": "Я буду там в час.",
+        "learn": 0
+      },
+      {
+        "eng": "This is one of my favourite books.",
+        "ru": "Это одна из моих любимых книг.",
+        "learn": 0
+      },
+      {
+        "eng": "He is the one who called the police.",
+        "ru": "Это он вызвал полицию.",
+        "learn": 0
+      },
+      {
+        "eng": "I like all the pictures except this one.",
+        "ru": "Мне нравятся все фотографии, кроме вот этой.",
+        "learn": 0
+      },
+      {
+        "eng": "That's one funny boy.",
+        "ru": "Какой забавный паренёк.",
+        "learn": 0
+      },
+      {
+        "eng": "She's one girl in a million.",
+        "ru": "Она одна такая девушка на миллион.",
+        "learn": 1
+      },
+      {
+        "eng": "the one and only Muhammad Ali",
+        "ru": "единственный и неповторимый Мохаммед Али",
+        "learn": 0
+      },
+      {
+        "eng": "I don't have any ones. Can you break a five?",
+        "ru": "У меня нет купюр по одному доллару /фунту/. Пятёрку не разменяете? / С пятёрки сдача будет?",
+        "learn": 0
+      },
+      {
+        "eng": "They had one daughter.",
+        "ru": "У них была одна дочь.",
+        "learn": 0
+      },
+      {
+        "eng": "One from seven leaves six.",
+        "ru": "От семи отнять один будет шесть.",
+        "learn": 0
+      },
+      {
+        "eng": "One can never be too careful.",
+        "ru": "Невозможно быть слишком осторожным. / Излишняя осторожность не повредит.",
+        "learn": 0
+      },
+      {
+        "eng": "There is one minute left in the game.",
+        "ru": "До конца игры осталась одна минута.",
+        "learn": 0
+      },
+      {
+        "eng": "John will be one soon.",
+        "ru": "Джону скоро исполнится годик.",
+        "learn": 0
+      },
+      {
+        "eng": "Your ones are too like sevens.",
+        "ru": "Твои единички слишком похожи на семёрки.",
+        "learn": 0
+      },
+      {
+        "eng": "I have a few one-dollar bills in my purse.",
+        "ru": "У меня в кошельке есть несколько однодолларовых купюр.",
+        "learn": 0
+      },
+      {
+        "eng": "That's one possible answer — but not the only one.",
+        "ru": "Это один из возможных ответов — но не единственный.",
+        "learn": 0
+      },
+      {
+        "eng": "Chapter One.",
+        "ru": "Глава первая / Глава 1.",
+        "learn": 0
+      },
+      {
+        "eng": "Come back at one (=one o'clock).",
+        "ru": "Возвращайся в час (т.е. в час дня или в час ночи).",
+        "learn": 0
+      },
+      {
+        "eng": "Katie's almost one (=one year old).",
+        "ru": "Кэти уже почти год (т.е. ей скоро исполнится один год).",
+        "learn": 0
+      },
+      {
+        "eng": "The train arrives at one twenty five.",
+        "ru": "Поезд прибывает в час двадцать пять.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd like to see the ring next to that one.",
+        "ru": "Я хотел бы посмотреть колечко, которое рядом с вот этим.",
+        "learn": 0
+      },
+      {
+        "eng": "The three chemicals combining into one solution.",
+        "ru": "Эти три химических вещества объединяются в один раствор.",
+        "learn": 0
+      }
+    ]
+  }
 }

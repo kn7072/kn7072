@@ -1,73 +1,138 @@
 {
-    "appoint": {
-        "comment": [
-            "appointment",
-            "disappointed",
-            "disappointment",
-            "disappointing",
-            "disappoint"
-        ],
-        "translate": "назначать, определять, утверждать, предписывать, договариваться, оборудовать",
-        "transcription": " |əˈpɔɪnt|",
-        "antonyms": [],
-        "mnemonic": [
-            "appoint [эпо'инт] назначать - Дословнно «на точку», т.е. назначать на точку.",
-            "appoint [ə'pɔɪnt]\npoint [pоint]\n***\nЕго НАЗНАЧИЛИ - он нас напоит. (это) appoint\nОПРЕДЕЛИЛИ дату, когда он нас напоит. (это)\nappoint\n***\nУКАЗАЛ он на дверь, значит, я не понят. (это) point\nТочка, знак препинания, пункт, суть."
-        ],
-        "examples": [
-            "He was appointed manager.",
-            "He was appointed to the position.",
-            "The time appointed for the meeting was 7 p. m.",
-            "It was a mistake to appoint him manager.",
-            "He was appointed deputy manager.",
-            "The council has appoited a race relations adviser.",
-            "She was appointed professor of chemistry at the university.",
-            "They appointed him to conduct the negotiations.",
-            "They found it necessary to appoint the exact time and place of their meeting.",
-            "We must appoint our representative on the board.",
-            "The committee appointed a day in June for celebrations.",
-            "He's been appointed to the State Supreme Court.",
-            "The decision to appoint Matt was almost unanimous.",
-            "The President is empowered to appoint judges to the Supreme Court.",
-            "Everyone assembled in the hall at the appointed time (=at the time that had been arranged).",
-            "It was a calculated risk to appoint a man without management experience to such a senior post.",
-            "the company's newly appointed assistant director",
-            "A committee was appointed to consider the plans.",
-            "Whoever they appoint will assume responsibility for all financial matters.",
-            "They decided to break with tradition and appoint a Swede as the England manager.",
-            "The President would appoint the Council of Ministers, subject to the approval of the National Assembly.",
-            "O'Connell was appointed as chairman.",
-            "After his parents died, the boy's uncle was appointed as his guardian."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Его назначили управляющим.",
-            "Его назначили на эту должность.",
-            "Собрание было назначено на семь.",
-            "Ошибкой было назначить его управляющим.",
-            "Он был назначен заместителем управляющего.",
-            "Совет назначил советнка по вопросам расовых взаимоотношений.",
-            "Она был назначена преподавателем химии в университете.",
-            "Ему поручили вести эти переговоры.",
-            "Они посчитали необходимым назначить точное время и место встречи.",
-            "Мы должны выдвинуть своего представителя в совет.",
-            "Комитет назначил для проведения торжеств один из дней июня.",
-            "Он получил назначение в Верховный Суд штата.",
-            "Решение о назначении Мэтта было почти единодушным.",
-            "Президент уполномочен назначать судей Верховного Суда.",
-            "Все собрались в зале в назначенное время (т.е. в то время, которое было назначено заранее)",
-            "Назначить человека без опыта управления на такой высокий пост составляло оправданный риск.",
-            "недавно назначенный помощник директора данной компании",
-            "Для рассмотрения этих планов была назначена комиссия.",
-            "Любой, кого они назначат, возьмёт на себя ответственность за все финансовые вопросы.",
-            "Они решили нарушить традицию и назначить тренером сборной Англии шведа.",
-            "Президент назначит Совет министров при условии одобрения Национальным собранием.",
-            "О'Коннелл был назначен председателем.",
-            "После смерти родителей, опекуном мальчика был назначен его дядя."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "appoint": {
+    "comment": [
+      "appointment",
+      "disappointed",
+      "disappointment",
+      "disappointing",
+      "disappoint"
+    ],
+    "translate": "назначать, определять, утверждать, предписывать, договариваться, оборудовать",
+    "transcription": " |əˈpɔɪnt|",
+    "antonyms": [],
+    "mnemonic": [
+      "appoint [эпо'инт] назначать - Дословнно «на точку», т.е. назначать на точку.",
+      "appoint [ə'pɔɪnt]\npoint [pоint]\n***\nЕго НАЗНАЧИЛИ - он нас напоит. (это) appoint\nОПРЕДЕЛИЛИ дату, когда он нас напоит. (это)\nappoint\n***\nУКАЗАЛ он на дверь, значит, я не понят. (это) point\nТочка, знак препинания, пункт, суть."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He was appointed manager.",
+        "ru": "Его назначили управляющим.",
+        "learn": 0
+      },
+      {
+        "eng": "He was appointed to the position.",
+        "ru": "Его назначили на эту должность.",
+        "learn": 0
+      },
+      {
+        "eng": "The time appointed for the meeting was 7 p. m.",
+        "ru": "Собрание было назначено на семь.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a mistake to appoint him manager.",
+        "ru": "Ошибкой было назначить его управляющим.",
+        "learn": 0
+      },
+      {
+        "eng": "He was appointed deputy manager.",
+        "ru": "Он был назначен заместителем управляющего.",
+        "learn": 1
+      },
+      {
+        "eng": "The council has appoited a race relations adviser.",
+        "ru": "Совет назначил советнка по вопросам расовых взаимоотношений.",
+        "learn": 0
+      },
+      {
+        "eng": "She was appointed professor of chemistry at the university.",
+        "ru": "Она был назначена преподавателем химии в университете.",
+        "learn": 0
+      },
+      {
+        "eng": "They appointed him to conduct the negotiations.",
+        "ru": "Ему поручили вести эти переговоры.",
+        "learn": 0
+      },
+      {
+        "eng": "They found it necessary to appoint the exact time and place of their meeting.",
+        "ru": "Они посчитали необходимым назначить точное время и место встречи.",
+        "learn": 0
+      },
+      {
+        "eng": "We must appoint our representative on the board.",
+        "ru": "Мы должны выдвинуть своего представителя в совет.",
+        "learn": 1
+      },
+      {
+        "eng": "The committee appointed a day in June for celebrations.",
+        "ru": "Комитет назначил для проведения торжеств один из дней июня.",
+        "learn": 0
+      },
+      {
+        "eng": "He's been appointed to the State Supreme Court.",
+        "ru": "Он получил назначение в Верховный Суд штата.",
+        "learn": 0
+      },
+      {
+        "eng": "The decision to appoint Matt was almost unanimous.",
+        "ru": "Решение о назначении Мэтта было почти единодушным.",
+        "learn": 0
+      },
+      {
+        "eng": "The President is empowered to appoint judges to the Supreme Court.",
+        "ru": "Президент уполномочен назначать судей Верховного Суда.",
+        "learn": 0
+      },
+      {
+        "eng": "Everyone assembled in the hall at the appointed time (=at the time that had been arranged).",
+        "ru": "Все собрались в зале в назначенное время (т.е. в то время, которое было назначено заранее)",
+        "learn": 0
+      },
+      {
+        "eng": "It was a calculated risk to appoint a man without management experience to such a senior post.",
+        "ru": "Назначить человека без опыта управления на такой высокий пост составляло оправданный риск.",
+        "learn": 0
+      },
+      {
+        "eng": "the company's newly appointed assistant director",
+        "ru": "недавно назначенный помощник директора данной компании",
+        "learn": 0
+      },
+      {
+        "eng": "A committee was appointed to consider the plans.",
+        "ru": "Для рассмотрения этих планов была назначена комиссия.",
+        "learn": 0
+      },
+      {
+        "eng": "Whoever they appoint will assume responsibility for all financial matters.",
+        "ru": "Любой, кого они назначат, возьмёт на себя ответственность за все финансовые вопросы.",
+        "learn": 0
+      },
+      {
+        "eng": "They decided to break with tradition and appoint a Swede as the England manager.",
+        "ru": "Они решили нарушить традицию и назначить тренером сборной Англии шведа.",
+        "learn": 0
+      },
+      {
+        "eng": "The President would appoint the Council of Ministers, subject to the approval of the National Assembly.",
+        "ru": "Президент назначит Совет министров при условии одобрения Национальным собранием.",
+        "learn": 0
+      },
+      {
+        "eng": "O'Connell was appointed as chairman.",
+        "ru": "О'Коннелл был назначен председателем.",
+        "learn": 0
+      },
+      {
+        "eng": "After his parents died, the boy's uncle was appointed as his guardian.",
+        "ru": "После смерти родителей, опекуном мальчика был назначен его дядя.",
+        "learn": 0
+      }
+    ]
+  }
 }

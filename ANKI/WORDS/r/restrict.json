@@ -1,63 +1,119 @@
 {
-    "restrict": {
-        "comment": [
-            "restricted",
-            "restriction"
-        ],
-        "translate": "ограничивать, рестрикт",
-        "transcription": " |rɪˈstrɪkt|",
-        "antonyms": [],
-        "mnemonic": [
-            "strict [strɪkt]\nistrict ['dɪstrɪkt] - район, участок\nrestrict [rɪs'trɪkt] - ограничивать\nconstrict [kən'strɪkt] - сжимать, стеснять\n***\nСТРОГИЙ Снегг всё \"обострикт\". (это) strict\nНа ИСТИННОЙ правде внимание \"заострикт\". (это)\nstrict"
-        ],
-        "examples": [
-            "The new law restricts smoking in public places.",
-            "Her eye problem restricts her reading.",
-            "The agreement will restrict competition.",
-            "His power was restricted within narrow limits.",
-            "She was told to restrict the amount of salt she uses.",
-            "The new law restricts the sale of hand guns.",
-            "Certain information is restricted to government officials.",
-            "In future we will restrict class sizes to 20 students.",
-            "The Senate voted to restrict the funds. The Assembly voted the opposite.",
-            "The government was accused of using the law to restrict individual freedom",
-            "They say the government is trying to restrict them from speaking out.",
-            "The cramped living conditions severely restricted the children's freedom to play.",
-            "That area is restricted to security personnel only.",
-            "Enlarged adenoids may restrict the breathing of children.",
-            "Restrict the use of this parking lot.",
-            "an attempt to restrict governmental power",
-            "They have accused the government of trying to restrict free speech.",
-            "The rule presupposes a need to restrict student access to the library.",
-            "Would it make sense for the city authorities to further restrict parking?",
-            "You may need to restrict access to certain files (=limit the number of people who can read them)."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Новый закон ограничивает курение в общественных местах.",
-            "Из-за проблем со зрением она не может много читать.",
-            "Данное соглашение будет ограничивать конкуренцию.",
-            "Его полномочия были очень ограничены.",
-            "Ей было сказано ограничить количество потребляемой соли.",
-            "Новый закон ограничивает продажу ручного огнестрельного оружия.",
-            "Доступ к определённой информации разрешён только правительственным чиновникам.",
-            "В будущем мы ограничим размер класса двадцатью учениками.",
-            "Сенат постановил ограничить фонды. Законодательное собрание постановило обратное.",
-            "Правительство обвинили в использовании закона с целью ограничения свободы личности.",
-            "Они утверждают, что правительство пытается помешать им высказывать своё мнение.",
-            "Стеснённые жилищные условия серьёзно ограничивают детям возможность для игр.",
-            "На этой территории могут находиться только сотрудники службы охраны.",
-            "Иногда дыхание детей затрудняют увеличенные аденоиды.",
-            "Ограничьте пользование этой стоянкой.",
-            "попытка ограничения государственной власти",
-            "Они обвинили правительство в попытках ограничить свободу слова.",
-            "Данное правило основано на необходимости ограничения доступа студентов к библиотеке.",
-            "Имеет ли смысл для городских властей ещё больше ограничить парковку?",
-            "Вам может понадобиться ограничение доступа к определённым файлам (т.е. ограничить число людей, которые могут их прочитать)."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "restrict": {
+    "comment": [
+      "restricted",
+      "restriction"
+    ],
+    "translate": "ограничивать, рестрикт",
+    "transcription": " |rɪˈstrɪkt|",
+    "antonyms": [],
+    "mnemonic": [
+      "strict [strɪkt]\nistrict ['dɪstrɪkt] - район, участок\nrestrict [rɪs'trɪkt] - ограничивать\nconstrict [kən'strɪkt] - сжимать, стеснять\n***\nСТРОГИЙ Снегг всё \"обострикт\". (это) strict\nНа ИСТИННОЙ правде внимание \"заострикт\". (это)\nstrict"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The new law restricts smoking in public places.",
+        "ru": "Новый закон ограничивает курение в общественных местах.",
+        "learn": 0
+      },
+      {
+        "eng": "Her eye problem restricts her reading.",
+        "ru": "Из-за проблем со зрением она не может много читать.",
+        "learn": 0
+      },
+      {
+        "eng": "The agreement will restrict competition.",
+        "ru": "Данное соглашение будет ограничивать конкуренцию.",
+        "learn": 0
+      },
+      {
+        "eng": "His power was restricted within narrow limits.",
+        "ru": "Его полномочия были очень ограничены.",
+        "learn": 1
+      },
+      {
+        "eng": "She was told to restrict the amount of salt she uses.",
+        "ru": "Ей было сказано ограничить количество потребляемой соли.",
+        "learn": 0
+      },
+      {
+        "eng": "The new law restricts the sale of hand guns.",
+        "ru": "Новый закон ограничивает продажу ручного огнестрельного оружия.",
+        "learn": 0
+      },
+      {
+        "eng": "Certain information is restricted to government officials.",
+        "ru": "Доступ к определённой информации разрешён только правительственным чиновникам.",
+        "learn": 0
+      },
+      {
+        "eng": "In future we will restrict class sizes to 20 students.",
+        "ru": "В будущем мы ограничим размер класса двадцатью учениками.",
+        "learn": 0
+      },
+      {
+        "eng": "The Senate voted to restrict the funds. The Assembly voted the opposite.",
+        "ru": "Сенат постановил ограничить фонды. Законодательное собрание постановило обратное.",
+        "learn": 0
+      },
+      {
+        "eng": "The government was accused of using the law to restrict individual freedom",
+        "ru": "Правительство обвинили в использовании закона с целью ограничения свободы личности.",
+        "learn": 1
+      },
+      {
+        "eng": "They say the government is trying to restrict them from speaking out.",
+        "ru": "Они утверждают, что правительство пытается помешать им высказывать своё мнение.",
+        "learn": 0
+      },
+      {
+        "eng": "The cramped living conditions severely restricted the children's freedom to play.",
+        "ru": "Стеснённые жилищные условия серьёзно ограничивают детям возможность для игр.",
+        "learn": 0
+      },
+      {
+        "eng": "That area is restricted to security personnel only.",
+        "ru": "На этой территории могут находиться только сотрудники службы охраны.",
+        "learn": 1
+      },
+      {
+        "eng": "Enlarged adenoids may restrict the breathing of children.",
+        "ru": "Иногда дыхание детей затрудняют увеличенные аденоиды.",
+        "learn": 0
+      },
+      {
+        "eng": "Restrict the use of this parking lot.",
+        "ru": "Ограничьте пользование этой стоянкой.",
+        "learn": 0
+      },
+      {
+        "eng": "an attempt to restrict governmental power",
+        "ru": "попытка ограничения государственной власти",
+        "learn": 0
+      },
+      {
+        "eng": "They have accused the government of trying to restrict free speech.",
+        "ru": "Они обвинили правительство в попытках ограничить свободу слова.",
+        "learn": 0
+      },
+      {
+        "eng": "The rule presupposes a need to restrict student access to the library.",
+        "ru": "Данное правило основано на необходимости ограничения доступа студентов к библиотеке.",
+        "learn": 0
+      },
+      {
+        "eng": "Would it make sense for the city authorities to further restrict parking?",
+        "ru": "Имеет ли смысл для городских властей ещё больше ограничить парковку?",
+        "learn": 0
+      },
+      {
+        "eng": "You may need to restrict access to certain files (=limit the number of people who can read them).",
+        "ru": "Вам может понадобиться ограничение доступа к определённым файлам (т.е. ограничить число людей, которые могут их прочитать).",
+        "learn": 0
+      }
+    ]
+  }
 }

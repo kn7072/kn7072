@@ -1,80 +1,166 @@
 {
-    "distance": {
-        "comment": [
-            "distant"
-        ],
-        "translate": "расстояние, дистанция, дальность, даль, отдалять, обойти, владеть перспективой",
-        "transcription": " |ˈdɪstəns|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "We followed them at a distance.",
-            "I see an object in the distance.",
-            "We drove a long distance.",
-            "I heard thunder grumbling in the distance.",
-            "You can just make out the farm in the distance.",
-            "The distance covered was close on twenty miles.",
-            "Our oxen scented the water at a distance.",
-            "The better roads offset the greater distance.",
-            "We watched from a safe distance.",
-            "I heard someone calling in the distance.",
-            "The gas station is a short distance away.",
-            "The sign was hard to read from a distance.",
-            "The neighbours tend to keep their distance.",
-            "Can you express this distance in kilometers?",
-            "They looked off into the distance.",
-            "They sighted a ship in the distance.",
-            "Speed is measured in time and distance.",
-            "a dim figure in the distance",
-            "A cock crowed in the distance.",
-            "Thunder rolled in the distance.",
-            "the distance from birth to death",
-            "I heard cars purr in the distance.",
-            "Measure the distance between the two points.",
-            "We can hear thunder rumbling in the distance.",
-            "The lights of the city twinkled in the distance.",
-            "It was too hazy to see anything in the distance.",
-            "Guns boomed in the distance.",
-            "He was still some distance away.",
-            "Thunder rumbled in the distance.",
-            "We could just discern a town in the distance."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мы последовали за ними на расстоянии.",
-            "Я вижу вдали какой-то предмет.",
-            "Мы проехали большое расстояние.",
-            "Я слышал, как вдалеке грохочет гром.",
-            "Вдали можно разглядеть ферму.",
-            "Пройденное расстояние равнялось почти двадцати милям.",
-            "Наш скот издали почуял воду.",
-            "За счет хороших дорог сокращается расстояние.",
-            "Мы наблюдали с безопасного расстояния.",
-            "Я услышал, как вдалеке кто-то кричит.",
-            "Автозаправка находится совсем недалеко.",
-            "Вывеску было трудно прочесть издалека.",
-            "Соседи, как правило, предпочитают держать дистанцию /не хотят идти на сближение/.",
-            "Вы можете выразить это расстояние в километрах?",
-            "Они смотрели куда-то вдаль.",
-            "Где-то вдалеке они завидели корабль.",
-            "Скорость измеряется с помощью времени и расстояния.",
-            "тусклый силуэт где-то вдали",
-            "Где-то вдалеке прокукарекал петух.",
-            "Вдалеке послышался раскат грома.",
-            "расстояние от рождения до смерти",
-            "Я слышал, как вдали гудели машины.",
-            "Измерьте расстояние между двумя точками.",
-            "Мы слышим, как вдали грохочет гром.",
-            "Городские огни мерцали вдали.",
-            "Был слишком сильный туман, чтобы рассмотреть что-нибудь на расстоянии.",
-            "Где-то вдалеке гремели пушки.",
-            "Он всё ещё находился на некотором расстоянии.",
-            "Вдалеке прогремел гром.",
-            "Вдалеке мы едва различали /еле-еле виднелся/ какой-то город."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "distance": {
+    "comment": [
+      "distant"
+    ],
+    "translate": "расстояние, дистанция, дальность, даль, отдалять, обойти, владеть перспективой",
+    "transcription": " |ˈdɪstəns|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "We followed them at a distance.",
+        "ru": "Мы последовали за ними на расстоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "I see an object in the distance.",
+        "ru": "Я вижу вдали какой-то предмет.",
+        "learn": 1
+      },
+      {
+        "eng": "We drove a long distance.",
+        "ru": "Мы проехали большое расстояние.",
+        "learn": 0
+      },
+      {
+        "eng": "I heard thunder grumbling in the distance.",
+        "ru": "Я слышал, как вдалеке грохочет гром.",
+        "learn": 0
+      },
+      {
+        "eng": "You can just make out the farm in the distance.",
+        "ru": "Вдали можно разглядеть ферму.",
+        "learn": 0
+      },
+      {
+        "eng": "The distance covered was close on twenty miles.",
+        "ru": "Пройденное расстояние равнялось почти двадцати милям.",
+        "learn": 0
+      },
+      {
+        "eng": "Our oxen scented the water at a distance.",
+        "ru": "Наш скот издали почуял воду.",
+        "learn": 0
+      },
+      {
+        "eng": "The better roads offset the greater distance.",
+        "ru": "За счет хороших дорог сокращается расстояние.",
+        "learn": 0
+      },
+      {
+        "eng": "We watched from a safe distance.",
+        "ru": "Мы наблюдали с безопасного расстояния.",
+        "learn": 1
+      },
+      {
+        "eng": "I heard someone calling in the distance.",
+        "ru": "Я услышал, как вдалеке кто-то кричит.",
+        "learn": 0
+      },
+      {
+        "eng": "The gas station is a short distance away.",
+        "ru": "Автозаправка находится совсем недалеко.",
+        "learn": 1
+      },
+      {
+        "eng": "The sign was hard to read from a distance.",
+        "ru": "Вывеску было трудно прочесть издалека.",
+        "learn": 0
+      },
+      {
+        "eng": "The neighbours tend to keep their distance.",
+        "ru": "Соседи, как правило, предпочитают держать дистанцию /не хотят идти на сближение/.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you express this distance in kilometers?",
+        "ru": "Вы можете выразить это расстояние в километрах?",
+        "learn": 0
+      },
+      {
+        "eng": "They looked off into the distance.",
+        "ru": "Они смотрели куда-то вдаль.",
+        "learn": 0
+      },
+      {
+        "eng": "They sighted a ship in the distance.",
+        "ru": "Где-то вдалеке они завидели корабль.",
+        "learn": 0
+      },
+      {
+        "eng": "Speed is measured in time and distance.",
+        "ru": "Скорость измеряется с помощью времени и расстояния.",
+        "learn": 0
+      },
+      {
+        "eng": "a dim figure in the distance",
+        "ru": "тусклый силуэт где-то вдали",
+        "learn": 0
+      },
+      {
+        "eng": "A cock crowed in the distance.",
+        "ru": "Где-то вдалеке прокукарекал петух.",
+        "learn": 0
+      },
+      {
+        "eng": "Thunder rolled in the distance.",
+        "ru": "Вдалеке послышался раскат грома.",
+        "learn": 0
+      },
+      {
+        "eng": "the distance from birth to death",
+        "ru": "расстояние от рождения до смерти",
+        "learn": 0
+      },
+      {
+        "eng": "I heard cars purr in the distance.",
+        "ru": "Я слышал, как вдали гудели машины.",
+        "learn": 0
+      },
+      {
+        "eng": "Measure the distance between the two points.",
+        "ru": "Измерьте расстояние между двумя точками.",
+        "learn": 0
+      },
+      {
+        "eng": "We can hear thunder rumbling in the distance.",
+        "ru": "Мы слышим, как вдали грохочет гром.",
+        "learn": 0
+      },
+      {
+        "eng": "The lights of the city twinkled in the distance.",
+        "ru": "Городские огни мерцали вдали.",
+        "learn": 0
+      },
+      {
+        "eng": "It was too hazy to see anything in the distance.",
+        "ru": "Был слишком сильный туман, чтобы рассмотреть что-нибудь на расстоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "Guns boomed in the distance.",
+        "ru": "Где-то вдалеке гремели пушки.",
+        "learn": 0
+      },
+      {
+        "eng": "He was still some distance away.",
+        "ru": "Он всё ещё находился на некотором расстоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "Thunder rumbled in the distance.",
+        "ru": "Вдалеке прогремел гром.",
+        "learn": 0
+      },
+      {
+        "eng": "We could just discern a town in the distance.",
+        "ru": "Вдалеке мы едва различали /еле-еле виднелся/ какой-то город.",
+        "learn": 0
+      }
+    ]
+  }
 }

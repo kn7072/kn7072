@@ -1,86 +1,172 @@
 {
-    "defense": {
-        "comment": [
-            "defence",
-            "defend",
-            "defendant",
-            "defensive",
-            "defender"
-        ],
-        "translate": "оборона, защита, оправдание, укрепления, оборонительные сооружения",
-        "transcription": " |dɪˈfens|",
-        "antonyms": [],
-        "mnemonic": [
-            "defence = defense [dɪ'fens]\nfence [fens]\ndefend [dɪ'fend].,\ndefender [dɪ'fendə] - защитник\nfend [fend]\n***\nЗАЩИТА нужна, когда в воде|фен (с). (это) defense\n***\nfence - забор, ограда. фехтовать, парировать вопрос\n***\nЗАЩИЩАТЬСЯ нужно, когда в воде|фен (д). (это)\ndefend\nЯ тебя ЗАЩИЩАЮ - отойди|фрэнд. (это) defend\n***\nОТРАЗИТ удар мой фрэнд. (это) fend\n***\nДаже преступник \"offender\"\nимеет защитника \"defender\".\n***\nЧтоб иметь защиту \"defence\",\nстрой себе забор \"fence\"."
-        ],
-        "examples": [
-            "We need to improve our defenses.",
-            "They mounted a good defense.",
-            "The defense called only one witness.",
-            "He threw all his efforts into the child's defense.",
-            "These matters are vital to national defense.",
-            "A good boxer needs a good defense.",
-            "Defense Supply Agency",
-            "His teams are always good on defense.",
-            "Defense Trade Controls",
-            "Defense against hurricanes is an urgent problem.",
-            "He offered a persuasive defense of the theory.",
-            "The team plays a very aggressive style of defense.",
-            "New Zealand was weak in defense.",
-            "Sanitation is the best defense against disease.",
-            "They put up a good defense, but the city ultimately fell to the invaders.",
-            "Defense Production Act",
-            "The evidence was central to the defense's case.",
-            "The immune system is the body's defense against attack by germs.",
-            "Defense Trade Regulations",
-            "Defense Trade Working Group",
-            "Defense Trade Advisory Group",
-            "He gave evidence for the defense.",
-            "He carried a club in self defense.",
-            "the U.S. Undersecretary of Defense",
-            "Steve anchors the team's defense.",
-            "The defense called for a mistrial.",
-            "The team put up a spirited defense.",
-            "the nation's air and ground defenses",
-            "Defense Transportation Administration",
-            "fighting in defense of their firesides"
-        ],
-        "example_translate": [
-            "Мы должны укрепить свои оборонительные сооружения.",
-            "Они выстроили хорошую защиту.",
-            "Защита вызвала только одного свидетеля.",
-            "Он бросил все усилия на защиту ребёнка.",
-            "Эти вопросы имеют жизненно важное значение для национальной обороны.",
-            "Хорошему боксёру нужна хорошая защита.",
-            "Управление военного снабжения (Министерства обороны США)",
-            "Его команды всегда хороши в обороне.",
-            "Служба контроля за торговлей оборонными технологиями",
-            "Защита от ураганов является насущной проблемой.",
-            "Он предложил убедительное обоснование данной теории.",
-            "Команда очень агрессивно играет в обороне.",
-            "Новая Зеландия была слаба в обороне.",
-            "Лучшая защита от болезней — санитария.",
-            "Они выстроили хорошую оборону, но город всё-таки пал перед захватчиками.",
-            "Закон о военном производстве",
-            "Эти показания составляли основу аргументации стороны защиты.",
-            "Иммунная система является защитой организма от атак микробов.",
-            "Правила торговли оборонными технологиями",
-            "Рабочая группа по торговле оборонными технологиями",
-            "Консультативная группа по торговле оборонными технологиями",
-            "Он дал показания в пользу защиты.",
-            "Для самозащиты он носил с собой дубинку.",
-            "заместитель министра обороны США",
-            "Стив цементирует игру команды в обороне.",
-            "Защита потребовала пересмотра судебного разбирательства.",
-            "Команда организовала активную оборону.",
-            "воздушная и наземная оборона страны",
-            "Управление военных перевозок (в США)",
-            "обороняя свои домашние очаги"
-        ],
-        "synonyms": [],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "defense": {
+    "comment": [
+      "defence",
+      "defend",
+      "defendant",
+      "defensive",
+      "defender"
+    ],
+    "translate": "оборона, защита, оправдание, укрепления, оборонительные сооружения",
+    "transcription": " |dɪˈfens|",
+    "antonyms": [],
+    "mnemonic": [
+      "defence = defense [dɪ'fens]\nfence [fens]\ndefend [dɪ'fend].,\ndefender [dɪ'fendə] - защитник\nfend [fend]\n***\nЗАЩИТА нужна, когда в воде|фен (с). (это) defense\n***\nfence - забор, ограда. фехтовать, парировать вопрос\n***\nЗАЩИЩАТЬСЯ нужно, когда в воде|фен (д). (это)\ndefend\nЯ тебя ЗАЩИЩАЮ - отойди|фрэнд. (это) defend\n***\nОТРАЗИТ удар мой фрэнд. (это) fend\n***\nДаже преступник \"offender\"\nимеет защитника \"defender\".\n***\nЧтоб иметь защиту \"defence\",\nстрой себе забор \"fence\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "We need to improve our defenses.",
+        "ru": "Мы должны укрепить свои оборонительные сооружения.",
+        "learn": 0
+      },
+      {
+        "eng": "They mounted a good defense.",
+        "ru": "Они выстроили хорошую защиту.",
+        "learn": 0
+      },
+      {
+        "eng": "The defense called only one witness.",
+        "ru": "Защита вызвала только одного свидетеля.",
+        "learn": 1
+      },
+      {
+        "eng": "He threw all his efforts into the child's defense.",
+        "ru": "Он бросил все усилия на защиту ребёнка.",
+        "learn": 0
+      },
+      {
+        "eng": "These matters are vital to national defense.",
+        "ru": "Эти вопросы имеют жизненно важное значение для национальной обороны.",
+        "learn": 0
+      },
+      {
+        "eng": "A good boxer needs a good defense.",
+        "ru": "Хорошему боксёру нужна хорошая защита.",
+        "learn": 1
+      },
+      {
+        "eng": "Defense Supply Agency",
+        "ru": "Управление военного снабжения (Министерства обороны США)",
+        "learn": 0
+      },
+      {
+        "eng": "His teams are always good on defense.",
+        "ru": "Его команды всегда хороши в обороне.",
+        "learn": 0
+      },
+      {
+        "eng": "Defense Trade Controls",
+        "ru": "Служба контроля за торговлей оборонными технологиями",
+        "learn": 0
+      },
+      {
+        "eng": "Defense against hurricanes is an urgent problem.",
+        "ru": "Защита от ураганов является насущной проблемой.",
+        "learn": 0
+      },
+      {
+        "eng": "He offered a persuasive defense of the theory.",
+        "ru": "Он предложил убедительное обоснование данной теории.",
+        "learn": 1
+      },
+      {
+        "eng": "The team plays a very aggressive style of defense.",
+        "ru": "Команда очень агрессивно играет в обороне.",
+        "learn": 0
+      },
+      {
+        "eng": "New Zealand was weak in defense.",
+        "ru": "Новая Зеландия была слаба в обороне.",
+        "learn": 0
+      },
+      {
+        "eng": "Sanitation is the best defense against disease.",
+        "ru": "Лучшая защита от болезней — санитария.",
+        "learn": 0
+      },
+      {
+        "eng": "They put up a good defense, but the city ultimately fell to the invaders.",
+        "ru": "Они выстроили хорошую оборону, но город всё-таки пал перед захватчиками.",
+        "learn": 0
+      },
+      {
+        "eng": "Defense Production Act",
+        "ru": "Закон о военном производстве",
+        "learn": 0
+      },
+      {
+        "eng": "The evidence was central to the defense's case.",
+        "ru": "Эти показания составляли основу аргументации стороны защиты.",
+        "learn": 0
+      },
+      {
+        "eng": "The immune system is the body's defense against attack by germs.",
+        "ru": "Иммунная система является защитой организма от атак микробов.",
+        "learn": 0
+      },
+      {
+        "eng": "Defense Trade Regulations",
+        "ru": "Правила торговли оборонными технологиями",
+        "learn": 0
+      },
+      {
+        "eng": "Defense Trade Working Group",
+        "ru": "Рабочая группа по торговле оборонными технологиями",
+        "learn": 0
+      },
+      {
+        "eng": "Defense Trade Advisory Group",
+        "ru": "Консультативная группа по торговле оборонными технологиями",
+        "learn": 0
+      },
+      {
+        "eng": "He gave evidence for the defense.",
+        "ru": "Он дал показания в пользу защиты.",
+        "learn": 0
+      },
+      {
+        "eng": "He carried a club in self defense.",
+        "ru": "Для самозащиты он носил с собой дубинку.",
+        "learn": 0
+      },
+      {
+        "eng": "the U.S. Undersecretary of Defense",
+        "ru": "заместитель министра обороны США",
+        "learn": 0
+      },
+      {
+        "eng": "Steve anchors the team's defense.",
+        "ru": "Стив цементирует игру команды в обороне.",
+        "learn": 0
+      },
+      {
+        "eng": "The defense called for a mistrial.",
+        "ru": "Защита потребовала пересмотра судебного разбирательства.",
+        "learn": 0
+      },
+      {
+        "eng": "The team put up a spirited defense.",
+        "ru": "Команда организовала активную оборону.",
+        "learn": 0
+      },
+      {
+        "eng": "the nation's air and ground defenses",
+        "ru": "воздушная и наземная оборона страны",
+        "learn": 0
+      },
+      {
+        "eng": "Defense Transportation Administration",
+        "ru": "Управление военных перевозок (в США)",
+        "learn": 0
+      },
+      {
+        "eng": "fighting in defense of their firesides",
+        "ru": "обороняя свои домашние очаги",
+        "learn": 0
+      }
+    ]
+  }
 }

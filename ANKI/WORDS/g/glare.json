@@ -1,71 +1,139 @@
 {
-    "glare": {
-        "comment": [
-            "glad",
-            "glow"
-        ],
-        "translate": "яркий свет, ослепительно сверкать, гладкий и прозрачный",
-        "transcription": " |ɡler|",
-        "antonyms": [],
-        "mnemonic": [
-            "glare [глэ'я] свирепый взгляд, враждебный взгляд - Смазав лицо в (у-гле, я) свирепо посмотрел на врага."
-        ],
-        "examples": [
-            "She glared at him accusingly.",
-            "She gave me a resentful glare.",
-            "The sun glared down relentlessly.",
-            "He didn't shout, he just glared at me silently.",
-            "Hector glares revenge.",
-            "The fact glares, it is too ostensible.",
-            "The heat and glare were becoming intolerable.",
-            "He glared round the room as if expecting a challenge.",
-            "The girl glared at the man who tried to make a pass at her.",
-            "He looked at the waiter with a disdainful glare.",
-            "The sun glared down on us.",
-            "For a moment I was blinded by the glare of headlights coming towards me.",
-            "There was a glare coming off the water.",
-            "The white snow glared in the morning sunlight.",
-            "She responded to the reporters' questions with an angry glare.",
-            "He could make a glare on his face, by smearing it with some ointment.",
-            "She gave him a hostile glare.",
-            "The teacher glared at him as he walked in late.",
-            "His eyes were hollow, and shone with a feverish glare.",
-            "The sun glared down on us.",
-            "A leaden glare makes the snow and ice more lurid.",
-            "The moon glared back at itself from the lake's surface",
-            "The buteolike kite gyred up and up until lost in sun glare...",
-            "...she wondered why the salesclerk at the boutique had given her an icy glare..."
-        ],
-        "example_translate": [
-            "Она смерила его осуждающим взглядом.",
-            "Она посмотрела на меня обиженный взглядом.",
-            "Солнце палило нещадно.",
-            "Он не закричал, а лишь зло посмотрел на меня без единого слова.",
-            "Гектор горит жаждой мести.",
-            "Этот факт бросается в глаза, он слишком очевиден.",
-            "Жара и яркий свет становились невыносимыми.",
-            "Он окинул комнату свирепым взглядом, будто ожидая вызова.",
-            "Девушка уставилась на мужчину, который пытался за ней приударить.",
-            "Он с презрением посмотрел на официанта.",
-            "Солнце ярко светило на нас с небес.",
-            "Яркий свет приближающихся фар на мгновение ослепил меня.",
-            "От воды отражались яркие блики.",
-            "Белый снег засверкал в утреннем солнечном свете.",
-            "Она ответила на вопросы журналистов разгневанным взглядом.",
-            "Он придал блеск своему лицу, смазав его каким-то кремом.",
-            "Она уставилась на него недобрым взглядом.",
-            "Он опоздал, и учитель одарил его пристальным сердитым взглядом.",
-            "Его глаза запали и горели лихорадочным огнём.",
-            "Солнце ослепительно сияло на нас свысока.",
-            "Серый свет придаёт снегу и льду ещё более свинцовый оттенок.",
-            "Луна смотрела на своё отражение на поверхности озера.",
-            "Воздушный змей кружился ястребом, поднимаясь все выше, пока не пропал в лучах солнца...",
-            "...она недоумевала, почему продавец в бутике бросил на нее ледяной взгляд..."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "glare": {
+    "comment": [
+      "glad",
+      "glow"
+    ],
+    "translate": "яркий свет, ослепительно сверкать, гладкий и прозрачный",
+    "transcription": " |ɡler|",
+    "antonyms": [],
+    "mnemonic": [
+      "glare [глэ'я] свирепый взгляд, враждебный взгляд - Смазав лицо в (у-гле, я) свирепо посмотрел на врага."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She glared at him accusingly.",
+        "ru": "Она смерила его осуждающим взглядом.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave me a resentful glare.",
+        "ru": "Она посмотрела на меня обиженный взглядом.",
+        "learn": 0
+      },
+      {
+        "eng": "The sun glared down relentlessly.",
+        "ru": "Солнце палило нещадно.",
+        "learn": 0
+      },
+      {
+        "eng": "He didn't shout, he just glared at me silently.",
+        "ru": "Он не закричал, а лишь зло посмотрел на меня без единого слова.",
+        "learn": 0
+      },
+      {
+        "eng": "Hector glares revenge.",
+        "ru": "Гектор горит жаждой мести.",
+        "learn": 0
+      },
+      {
+        "eng": "The fact glares, it is too ostensible.",
+        "ru": "Этот факт бросается в глаза, он слишком очевиден.",
+        "learn": 0
+      },
+      {
+        "eng": "The heat and glare were becoming intolerable.",
+        "ru": "Жара и яркий свет становились невыносимыми.",
+        "learn": 1
+      },
+      {
+        "eng": "He glared round the room as if expecting a challenge.",
+        "ru": "Он окинул комнату свирепым взглядом, будто ожидая вызова.",
+        "learn": 0
+      },
+      {
+        "eng": "The girl glared at the man who tried to make a pass at her.",
+        "ru": "Девушка уставилась на мужчину, который пытался за ней приударить.",
+        "learn": 0
+      },
+      {
+        "eng": "He looked at the waiter with a disdainful glare.",
+        "ru": "Он с презрением посмотрел на официанта.",
+        "learn": 0
+      },
+      {
+        "eng": "The sun glared down on us.",
+        "ru": "Солнце ярко светило на нас с небес.",
+        "learn": 1
+      },
+      {
+        "eng": "For a moment I was blinded by the glare of headlights coming towards me.",
+        "ru": "Яркий свет приближающихся фар на мгновение ослепил меня.",
+        "learn": 0
+      },
+      {
+        "eng": "There was a glare coming off the water.",
+        "ru": "От воды отражались яркие блики.",
+        "learn": 0
+      },
+      {
+        "eng": "The white snow glared in the morning sunlight.",
+        "ru": "Белый снег засверкал в утреннем солнечном свете.",
+        "learn": 1
+      },
+      {
+        "eng": "She responded to the reporters' questions with an angry glare.",
+        "ru": "Она ответила на вопросы журналистов разгневанным взглядом.",
+        "learn": 0
+      },
+      {
+        "eng": "He could make a glare on his face, by smearing it with some ointment.",
+        "ru": "Он придал блеск своему лицу, смазав его каким-то кремом.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave him a hostile glare.",
+        "ru": "Она уставилась на него недобрым взглядом.",
+        "learn": 0
+      },
+      {
+        "eng": "The teacher glared at him as he walked in late.",
+        "ru": "Он опоздал, и учитель одарил его пристальным сердитым взглядом.",
+        "learn": 0
+      },
+      {
+        "eng": "His eyes were hollow, and shone with a feverish glare.",
+        "ru": "Его глаза запали и горели лихорадочным огнём.",
+        "learn": 0
+      },
+      {
+        "eng": "The sun glared down on us.",
+        "ru": "Солнце ослепительно сияло на нас свысока.",
+        "learn": 1
+      },
+      {
+        "eng": "A leaden glare makes the snow and ice more lurid.",
+        "ru": "Серый свет придаёт снегу и льду ещё более свинцовый оттенок.",
+        "learn": 0
+      },
+      {
+        "eng": "The moon glared back at itself from the lake's surface",
+        "ru": "Луна смотрела на своё отражение на поверхности озера.",
+        "learn": 0
+      },
+      {
+        "eng": "The buteolike kite gyred up and up until lost in sun glare...",
+        "ru": "Воздушный змей кружился ястребом, поднимаясь все выше, пока не пропал в лучах солнца...",
+        "learn": 0
+      },
+      {
+        "eng": "...she wondered why the salesclerk at the boutique had given her an icy glare...",
+        "ru": "...она недоумевала, почему продавец в бутике бросил на нее ледяной взгляд...",
+        "learn": 0
+      }
+    ]
+  }
 }

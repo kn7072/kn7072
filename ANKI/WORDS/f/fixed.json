@@ -1,80 +1,166 @@
 {
-    "fixed": {
-        "comment": [
-            "fix"
-        ],
-        "translate": "фиксированный, неподвижный, установленный, твердый, стационарный, постоянный",
-        "transcription": " |fɪkst|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The date was fixed.",
-            "They fixed the price at $10.",
-            "He fixed us up in a good hotel.",
-            "We've fixed on starting tomorrow.",
-            "How are you fixed for cash?",
-            "He fixed the hole in the roof.",
-            "Sarah fixed some food for us.",
-            "She fixed her gimlet eyes on me.",
-            "I fixed up an interview with him.",
-            "I need to get the washing machine fixed.",
-            "He kept his gaze fixed on the car ahead.",
-            "He fixed up an old jalopy.",
-            "His look was fixed on her eyes.",
-            "He fixed the fence last weekend.",
-            "a small mirror fixed to the wall",
-            "He fixed his paternal gaze on me.",
-            "The hired hand fixed the railing.",
-            "The dealer fixed the price at $50.",
-            "pensioners living on a fixed income",
-            "Rachel fixed him with an icy stare.",
-            "Rent was fixed at $1,750 per month.",
-            "The date of the election was fixed.",
-            "Who fixed your hair for the wedding?",
-            "Every eye was fixed on the new girl.",
-            "That day remains fixed in my memory.",
-            "Rents are fixed and cannot be put up.",
-            "A sonnet has a fixed rhyming pattern.",
-            "The enemy advanced with fixed bayonets.",
-            "He regarded her with a fixed attention.",
-            "The table was fixed firmly to the floor."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Дата была зафиксирована.",
-            "Они зафиксировали цену на уровне десяти долларов.",
-            "Он устроил нас в хорошей гостинице.",
-            "Мы решили, что начнём завтра.",
-            "Сколько у тебя наличных?",
-            "Он залатал дыру в крыше.",
-            "Сара состряпала нам кое-что поесть.",
-            "Она буравила меня взглядом.",
-            "Я устроил с ним интервью. / Я договорился о встрече с ним.",
-            "Мне нужно починить стиральную машину.",
-            "Он не сводил взгляда с идущей впереди машины.",
-            "Он отремонтировал старый драндулет.",
-            "Он не сводил взгляда с её глаз.",
-            "Он починил забор в прошлые выходные.",
-            "небольшое зеркало, прикреплённое к стене",
-            "Он остановил на мне отеческий взгляд.",
-            "Наёмный рабочий починил перила.",
-            "Торговец установил цену в 50 долларов.",
-            "пенсионеры, живущие на фиксированный доход",
-            "Рэйчел устремила на него ледяной взгляд.",
-            "Аренда была зафиксирована на уровне 1750 долларов в месяц.",
-            "Дата выборов была установлена.",
-            "Кто делал вам причёски на свадьбу?",
-            "Все устремили взгляды на новенькую.",
-            "Тот день прочно засел в моей памяти.",
-            "Установленная арендная плата не может быть повышена.",
-            "Сонет имеет фиксированный рисунок рифмовки.",
-            "Неприятель наступал с примкнутыми штыками.",
-            "Он смотрел на неё с пристальным вниманием.",
-            "Стол был крепко привинчен к полу."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "fixed": {
+    "comment": [
+      "fix"
+    ],
+    "translate": "фиксированный, неподвижный, установленный, твердый, стационарный, постоянный",
+    "transcription": " |fɪkst|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The date was fixed.",
+        "ru": "Дата была зафиксирована.",
+        "learn": 0
+      },
+      {
+        "eng": "They fixed the price at $10.",
+        "ru": "Они зафиксировали цену на уровне десяти долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "He fixed us up in a good hotel.",
+        "ru": "Он устроил нас в хорошей гостинице.",
+        "learn": 0
+      },
+      {
+        "eng": "We've fixed on starting tomorrow.",
+        "ru": "Мы решили, что начнём завтра.",
+        "learn": 0
+      },
+      {
+        "eng": "How are you fixed for cash?",
+        "ru": "Сколько у тебя наличных?",
+        "learn": 0
+      },
+      {
+        "eng": "He fixed the hole in the roof.",
+        "ru": "Он залатал дыру в крыше.",
+        "learn": 0
+      },
+      {
+        "eng": "Sarah fixed some food for us.",
+        "ru": "Сара состряпала нам кое-что поесть.",
+        "learn": 0
+      },
+      {
+        "eng": "She fixed her gimlet eyes on me.",
+        "ru": "Она буравила меня взглядом.",
+        "learn": 0
+      },
+      {
+        "eng": "I fixed up an interview with him.",
+        "ru": "Я устроил с ним интервью. / Я договорился о встрече с ним.",
+        "learn": 0
+      },
+      {
+        "eng": "I need to get the washing machine fixed.",
+        "ru": "Мне нужно починить стиральную машину.",
+        "learn": 0
+      },
+      {
+        "eng": "He kept his gaze fixed on the car ahead.",
+        "ru": "Он не сводил взгляда с идущей впереди машины.",
+        "learn": 0
+      },
+      {
+        "eng": "He fixed up an old jalopy.",
+        "ru": "Он отремонтировал старый драндулет.",
+        "learn": 0
+      },
+      {
+        "eng": "His look was fixed on her eyes.",
+        "ru": "Он не сводил взгляда с её глаз.",
+        "learn": 0
+      },
+      {
+        "eng": "He fixed the fence last weekend.",
+        "ru": "Он починил забор в прошлые выходные.",
+        "learn": 0
+      },
+      {
+        "eng": "a small mirror fixed to the wall",
+        "ru": "небольшое зеркало, прикреплённое к стене",
+        "learn": 0
+      },
+      {
+        "eng": "He fixed his paternal gaze on me.",
+        "ru": "Он остановил на мне отеческий взгляд.",
+        "learn": 0
+      },
+      {
+        "eng": "The hired hand fixed the railing.",
+        "ru": "Наёмный рабочий починил перила.",
+        "learn": 0
+      },
+      {
+        "eng": "The dealer fixed the price at $50.",
+        "ru": "Торговец установил цену в 50 долларов.",
+        "learn": 1
+      },
+      {
+        "eng": "pensioners living on a fixed income",
+        "ru": "пенсионеры, живущие на фиксированный доход",
+        "learn": 0
+      },
+      {
+        "eng": "Rachel fixed him with an icy stare.",
+        "ru": "Рэйчел устремила на него ледяной взгляд.",
+        "learn": 0
+      },
+      {
+        "eng": "Rent was fixed at $1,750 per month.",
+        "ru": "Аренда была зафиксирована на уровне 1750 долларов в месяц.",
+        "learn": 0
+      },
+      {
+        "eng": "The date of the election was fixed.",
+        "ru": "Дата выборов была установлена.",
+        "learn": 1
+      },
+      {
+        "eng": "Who fixed your hair for the wedding?",
+        "ru": "Кто делал вам причёски на свадьбу?",
+        "learn": 0
+      },
+      {
+        "eng": "Every eye was fixed on the new girl.",
+        "ru": "Все устремили взгляды на новенькую.",
+        "learn": 0
+      },
+      {
+        "eng": "That day remains fixed in my memory.",
+        "ru": "Тот день прочно засел в моей памяти.",
+        "learn": 0
+      },
+      {
+        "eng": "Rents are fixed and cannot be put up.",
+        "ru": "Установленная арендная плата не может быть повышена.",
+        "learn": 0
+      },
+      {
+        "eng": "A sonnet has a fixed rhyming pattern.",
+        "ru": "Сонет имеет фиксированный рисунок рифмовки.",
+        "learn": 0
+      },
+      {
+        "eng": "The enemy advanced with fixed bayonets.",
+        "ru": "Неприятель наступал с примкнутыми штыками.",
+        "learn": 0
+      },
+      {
+        "eng": "He regarded her with a fixed attention.",
+        "ru": "Он смотрел на неё с пристальным вниманием.",
+        "learn": 0
+      },
+      {
+        "eng": "The table was fixed firmly to the floor.",
+        "ru": "Стол был крепко привинчен к полу.",
+        "learn": 0
+      }
+    ]
+  }
 }

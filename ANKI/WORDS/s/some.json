@@ -1,88 +1,175 @@
 {
-    "some": {
-        "comment": [
-            "someone",
-            "something",
-            "somebody",
-            "somewhat",
-            "somehow"
-        ],
-        "translate": " некоторые, одни, другие, некоторый, какой-то, несколько, немного, около",
-        "transcription": "  |səm|",
-        "antonyms": [],
-        "mnemonic": [
-            "some [сам] некоторый - Проблемы некоторые (сам) реши.",
-            "some [sʌm]\n***\nНЕКОТОРЫЕ вещи сделаю я сам. (это) some\nКОЕ- КТО не может, а я решаю сам. (это) some\nОКОЛО половины задач я решаю сам. (это) some\nНЕСКОЛЬКО вопросов я решу сам. (это) some"
-        ],
-        "examples": [
-            "Please give me some milk.",
-            "Some hope(s)!",
-            "Can I have some water?",
-            "It was in some newspaper.",
-            "We met some years ago.",
-            "He felt some better.",
-            "That was some party!",
-            "There must be some mistake.",
-            "Some ran, some did not run.",
-            "I shall be away for some time.",
-            "He'll need some health.",
-            "They were here for some weeks.",
-            "I hope I've been of some help.",
-            "At first it was some difficult.",
-            "Ha! Ha! Some expert you are.",
-            "He has been here for some years now.",
-            "There are some cats in the garden.",
-            "We did not meet again for some years.",
-            "You think you're some, now, don't you?",
-            "Cut some of the meat into small pieces.",
-            "He spoke at some length about his problems.",
-            "I need to work on it some more.",
-            "He was still some distance away.",
-            "Would you like some more potatoes?",
-            "I have some money left, but not much.",
-            "She had some interest in the job.",
-            "The club consists of some 40 members.",
-            "The material of which the house is built looks some like marble.",
-            "He hunted some, and fished some.",
-            "It will take some time for the wounds to heal."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Дайте мне, пожалуйста, молока.",
-            "Мечтать не вредно!",
-            "Можно мне немного воды?",
-            "Это было в какой-то газете.",
-            "Мы встретились /познакомились/ несколько лет назад.",
-            "Он почувствовал себя немного лучше.",
-            "Вот это была вечеринка!",
-            "Там должна быть какая-то ошибка.",
-            "Одни побежали, другие нет.",
-            "Некоторое время меня здесь не будет.",
-            "Ему потребуется немало здоровья.",
-            "Они были здесь в течение нескольких недель.",
-            "Надеюсь, что я смог хоть как-то помочь.",
-            "Поначалу было довольно трудно.",
-            "Ха-ха-ха! Тоже мне, специалист!",
-            "Он живёт здесь уже несколько лет.",
-            "В саду несколько кошек.",
-            "Несколько лет мы больше не встречались.",
-            "Ты думаешь, что ты очень крутой, да?",
-            "Часть мяса порежьте на мелкие кусочки.",
-            "Он довольно долго говорил о своих проблемах.",
-            "Мне нужно поработать над этим ещё.",
-            "Он всё ещё находился на некотором расстоянии.",
-            "Хочешь ещё картошки?",
-            "У меня ещё остались деньги, но их немного.",
-            "Она имела некоторую заинтересованность в этой вакансии.",
-            "В клубе где-то около сорока членов.",
-            "Материал, из которого построен дом, немного похож на мрамор.",
-            "Он немного поохотился и порыбачил.",
-            "Потребуется некоторое время, чтобы раны зажили."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "o_=_[ʌ]"
-        ]
-    }
+  "some": {
+    "comment": [
+      "someone",
+      "something",
+      "somebody",
+      "somewhat",
+      "somehow"
+    ],
+    "translate": " некоторые, одни, другие, некоторый, какой-то, несколько, немного, около",
+    "transcription": "  |səm|",
+    "antonyms": [],
+    "mnemonic": [
+      "some [сам] некоторый - Проблемы некоторые (сам) реши.",
+      "some [sʌm]\n***\nНЕКОТОРЫЕ вещи сделаю я сам. (это) some\nКОЕ- КТО не может, а я решаю сам. (это) some\nОКОЛО половины задач я решаю сам. (это) some\nНЕСКОЛЬКО вопросов я решу сам. (это) some"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "o_=_[ʌ]"
+    ],
+    "examples": [
+      {
+        "eng": "Please give me some milk.",
+        "ru": "Дайте мне, пожалуйста, молока.",
+        "learn": 1
+      },
+      {
+        "eng": "Some hope(s)!",
+        "ru": "Мечтать не вредно!",
+        "learn": 0
+      },
+      {
+        "eng": "Can I have some water?",
+        "ru": "Можно мне немного воды?",
+        "learn": 0
+      },
+      {
+        "eng": "It was in some newspaper.",
+        "ru": "Это было в какой-то газете.",
+        "learn": 0
+      },
+      {
+        "eng": "We met some years ago.",
+        "ru": "Мы встретились /познакомились/ несколько лет назад.",
+        "learn": 0
+      },
+      {
+        "eng": "He felt some better.",
+        "ru": "Он почувствовал себя немного лучше.",
+        "learn": 0
+      },
+      {
+        "eng": "That was some party!",
+        "ru": "Вот это была вечеринка!",
+        "learn": 0
+      },
+      {
+        "eng": "There must be some mistake.",
+        "ru": "Там должна быть какая-то ошибка.",
+        "learn": 0
+      },
+      {
+        "eng": "Some ran, some did not run.",
+        "ru": "Одни побежали, другие нет.",
+        "learn": 0
+      },
+      {
+        "eng": "I shall be away for some time.",
+        "ru": "Некоторое время меня здесь не будет.",
+        "learn": 0
+      },
+      {
+        "eng": "He'll need some health.",
+        "ru": "Ему потребуется немало здоровья.",
+        "learn": 0
+      },
+      {
+        "eng": "They were here for some weeks.",
+        "ru": "Они были здесь в течение нескольких недель.",
+        "learn": 0
+      },
+      {
+        "eng": "I hope I've been of some help.",
+        "ru": "Надеюсь, что я смог хоть как-то помочь.",
+        "learn": 0
+      },
+      {
+        "eng": "At first it was some difficult.",
+        "ru": "Поначалу было довольно трудно.",
+        "learn": 0
+      },
+      {
+        "eng": "Ha! Ha! Some expert you are.",
+        "ru": "Ха-ха-ха! Тоже мне, специалист!",
+        "learn": 0
+      },
+      {
+        "eng": "He has been here for some years now.",
+        "ru": "Он живёт здесь уже несколько лет.",
+        "learn": 0
+      },
+      {
+        "eng": "There are some cats in the garden.",
+        "ru": "В саду несколько кошек.",
+        "learn": 0
+      },
+      {
+        "eng": "We did not meet again for some years.",
+        "ru": "Несколько лет мы больше не встречались.",
+        "learn": 0
+      },
+      {
+        "eng": "You think you're some, now, don't you?",
+        "ru": "Ты думаешь, что ты очень крутой, да?",
+        "learn": 0
+      },
+      {
+        "eng": "Cut some of the meat into small pieces.",
+        "ru": "Часть мяса порежьте на мелкие кусочки.",
+        "learn": 0
+      },
+      {
+        "eng": "He spoke at some length about his problems.",
+        "ru": "Он довольно долго говорил о своих проблемах.",
+        "learn": 0
+      },
+      {
+        "eng": "I need to work on it some more.",
+        "ru": "Мне нужно поработать над этим ещё.",
+        "learn": 0
+      },
+      {
+        "eng": "He was still some distance away.",
+        "ru": "Он всё ещё находился на некотором расстоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "Would you like some more potatoes?",
+        "ru": "Хочешь ещё картошки?",
+        "learn": 0
+      },
+      {
+        "eng": "I have some money left, but not much.",
+        "ru": "У меня ещё остались деньги, но их немного.",
+        "learn": 0
+      },
+      {
+        "eng": "She had some interest in the job.",
+        "ru": "Она имела некоторую заинтересованность в этой вакансии.",
+        "learn": 0
+      },
+      {
+        "eng": "The club consists of some 40 members.",
+        "ru": "В клубе где-то около сорока членов.",
+        "learn": 0
+      },
+      {
+        "eng": "The material of which the house is built looks some like marble.",
+        "ru": "Материал, из которого построен дом, немного похож на мрамор.",
+        "learn": 1
+      },
+      {
+        "eng": "He hunted some, and fished some.",
+        "ru": "Он немного поохотился и порыбачил.",
+        "learn": 0
+      },
+      {
+        "eng": "It will take some time for the wounds to heal.",
+        "ru": "Потребуется некоторое время, чтобы раны зажили.",
+        "learn": 1
+      }
+    ]
+  }
 }

@@ -1,85 +1,171 @@
 {
-    "fever": {
-        "comment": [
-            "ever",
-            "however",
-            "whoever",
-            "whatsoever"
-        ],
-        "translate": "лихорадка, жар, лихорадить, лихорадочный",
-        "transcription": " |ˈfiːvər|",
-        "antonyms": [],
-        "mnemonic": [
-            "fever [фи':вэ] жар, лихорадка - Климат Тель-(А-фива) к лихорадке мозгов приводит."
-        ],
-        "examples": [
-            "I was running a small fever.",
-            "Your forehead is burning. Have you got fever?",
-            "A quick pulse denotes fever.",
-            "I woke up this morning with a fever and an upset stomach.",
-            "I can't seem to shake off this fever.",
-            "Has the child rallied from her fever yet?",
-            "He is completely prostrated by the fever.",
-            "The fever weakened his body.",
-            "She's running a fever (=has a fever).",
-            "The disease is accompanied by sneezing and fever.",
-            "The sudden cold weather brought on his fever again.",
-            "He sweated plentifully during the night, and the fever left him.",
-            "He was delirious with fever.",
-            "a diagnostic sign of yellow fever",
-            "Her symptoms include chills and a fever.",
-            "Typhus fever decimated the school periodically.",
-            "Scarlet fever victims had to go to the isolation hospital.",
-            "You should always consult a physician if you develop a high fever.",
-            "Three of the five patients presented with fever and severe headaches.",
-            "The presence of pollen in the atmosphere causes hay fever in some people.",
-            "It will be good to get out after being imprisoned in my room with the fever.",
-            "The doctor has doped me up with all sorts of medicine to try to control the fever.",
-            "Fever left him weak on his sticks.",
-            "An attack of fever carried him off.",
-            "a rash symptomatic of scarlet fever",
-            "We vaccinate against scarlet fever.",
-            "The fever was beginning to take hold.",
-            "We waited in a fever of anticipation.",
-            "His high fever attested to his illness.",
-            "They develop a fever and a watery discharge from their eyes."
-        ],
-        "example_translate": [
-            "У меня была небольшая температура.",
-            "Лоб очень горячий. У тебя температура?",
-            "Частый пульс указывает на лихорадочное состояние.",
-            "Сегодня утром я проснулся с температурой и расстройством желудка.",
-            "Кажется, я никогда не избавлюсь от этой лихорадки.",
-            "Девочка уже оправилась от лихорадки?",
-            "Он совершенно истощён от лихорадки.",
-            "Из-за жара его тело ослабело.",
-            "У неё жар.",
-            "Заболевание сопровождается чиханием и высокой температурой.",
-            "Внезапное похолодание вызвало у него рецидив болезни.",
-            "Ночью он сильно пропотел, и температура спала.",
-            "Он бредил от жара.",
-            "диагностический признак жёлтой лихорадки",
-            "В числе её симптомов — озноб и высокая температура.",
-            "Время от времени школу опустошал сыпной тиф.",
-            "Жертвам скарлатины приходилось идти в инфекционную больницу.",
-            "Если поднимается высокая температура, всегда следует обращаться к врачу.",
-            "У трёх из пяти пациентов проявились высокая температура и сильные головные боли.",
-            "Наличие пыльцы в воздухе вызывает у некоторых людей сенную лихорадку.",
-            "Так хорошо выйти на улицу после того, как я просидел взаперти из-за температуры.",
-            "Доктор напичкал меня всевозможными лекарствами, чтобы снизить температуру.",
-            "От жара он плохо держался на ногах.",
-            "Приступ лихорадки свёл его в могилу.",
-            "сыпь, характерная для скарлатины",
-            "Мы делаем прививки от скарлатины.",
-            "Лихорадка начала давать о себе знать.",
-            "Мы ждали в лихорадочном предвкушении.",
-            "Высокая температура свидетельствовала о его болезни.",
-            "У них развивается лихорадка и появляются выделения из глаз."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "fever": {
+    "comment": [
+      "ever",
+      "however",
+      "whoever",
+      "whatsoever"
+    ],
+    "translate": "лихорадка, жар, лихорадить, лихорадочный",
+    "transcription": " |ˈfiːvər|",
+    "antonyms": [],
+    "mnemonic": [
+      "fever [фи':вэ] жар, лихорадка - Климат Тель-(А-фива) к лихорадке мозгов приводит."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I was running a small fever.",
+        "ru": "У меня была небольшая температура.",
+        "learn": 0
+      },
+      {
+        "eng": "Your forehead is burning. Have you got fever?",
+        "ru": "Лоб очень горячий. У тебя температура?",
+        "learn": 1
+      },
+      {
+        "eng": "A quick pulse denotes fever.",
+        "ru": "Частый пульс указывает на лихорадочное состояние.",
+        "learn": 0
+      },
+      {
+        "eng": "I woke up this morning with a fever and an upset stomach.",
+        "ru": "Сегодня утром я проснулся с температурой и расстройством желудка.",
+        "learn": 1
+      },
+      {
+        "eng": "I can't seem to shake off this fever.",
+        "ru": "Кажется, я никогда не избавлюсь от этой лихорадки.",
+        "learn": 0
+      },
+      {
+        "eng": "Has the child rallied from her fever yet?",
+        "ru": "Девочка уже оправилась от лихорадки?",
+        "learn": 0
+      },
+      {
+        "eng": "He is completely prostrated by the fever.",
+        "ru": "Он совершенно истощён от лихорадки.",
+        "learn": 0
+      },
+      {
+        "eng": "The fever weakened his body.",
+        "ru": "Из-за жара его тело ослабело.",
+        "learn": 1
+      },
+      {
+        "eng": "She's running a fever (=has a fever).",
+        "ru": "У неё жар.",
+        "learn": 0
+      },
+      {
+        "eng": "The disease is accompanied by sneezing and fever.",
+        "ru": "Заболевание сопровождается чиханием и высокой температурой.",
+        "learn": 0
+      },
+      {
+        "eng": "The sudden cold weather brought on his fever again.",
+        "ru": "Внезапное похолодание вызвало у него рецидив болезни.",
+        "learn": 0
+      },
+      {
+        "eng": "He sweated plentifully during the night, and the fever left him.",
+        "ru": "Ночью он сильно пропотел, и температура спала.",
+        "learn": 0
+      },
+      {
+        "eng": "He was delirious with fever.",
+        "ru": "Он бредил от жара.",
+        "learn": 0
+      },
+      {
+        "eng": "a diagnostic sign of yellow fever",
+        "ru": "диагностический признак жёлтой лихорадки",
+        "learn": 0
+      },
+      {
+        "eng": "Her symptoms include chills and a fever.",
+        "ru": "В числе её симптомов — озноб и высокая температура.",
+        "learn": 0
+      },
+      {
+        "eng": "Typhus fever decimated the school periodically.",
+        "ru": "Время от времени школу опустошал сыпной тиф.",
+        "learn": 0
+      },
+      {
+        "eng": "Scarlet fever victims had to go to the isolation hospital.",
+        "ru": "Жертвам скарлатины приходилось идти в инфекционную больницу.",
+        "learn": 1
+      },
+      {
+        "eng": "You should always consult a physician if you develop a high fever.",
+        "ru": "Если поднимается высокая температура, всегда следует обращаться к врачу.",
+        "learn": 0
+      },
+      {
+        "eng": "Three of the five patients presented with fever and severe headaches.",
+        "ru": "У трёх из пяти пациентов проявились высокая температура и сильные головные боли.",
+        "learn": 0
+      },
+      {
+        "eng": "The presence of pollen in the atmosphere causes hay fever in some people.",
+        "ru": "Наличие пыльцы в воздухе вызывает у некоторых людей сенную лихорадку.",
+        "learn": 0
+      },
+      {
+        "eng": "It will be good to get out after being imprisoned in my room with the fever.",
+        "ru": "Так хорошо выйти на улицу после того, как я просидел взаперти из-за температуры.",
+        "learn": 0
+      },
+      {
+        "eng": "The doctor has doped me up with all sorts of medicine to try to control the fever.",
+        "ru": "Доктор напичкал меня всевозможными лекарствами, чтобы снизить температуру.",
+        "learn": 0
+      },
+      {
+        "eng": "Fever left him weak on his sticks.",
+        "ru": "От жара он плохо держался на ногах.",
+        "learn": 0
+      },
+      {
+        "eng": "An attack of fever carried him off.",
+        "ru": "Приступ лихорадки свёл его в могилу.",
+        "learn": 0
+      },
+      {
+        "eng": "a rash symptomatic of scarlet fever",
+        "ru": "сыпь, характерная для скарлатины",
+        "learn": 0
+      },
+      {
+        "eng": "We vaccinate against scarlet fever.",
+        "ru": "Мы делаем прививки от скарлатины.",
+        "learn": 1
+      },
+      {
+        "eng": "The fever was beginning to take hold.",
+        "ru": "Лихорадка начала давать о себе знать.",
+        "learn": 0
+      },
+      {
+        "eng": "We waited in a fever of anticipation.",
+        "ru": "Мы ждали в лихорадочном предвкушении.",
+        "learn": 0
+      },
+      {
+        "eng": "His high fever attested to his illness.",
+        "ru": "Высокая температура свидетельствовала о его болезни.",
+        "learn": 0
+      },
+      {
+        "eng": "They develop a fever and a watery discharge from their eyes.",
+        "ru": "У них развивается лихорадка и появляются выделения из глаз.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,86 +1,173 @@
 {
-    "proud": {
-        "comment": [
-            "proudly",
-            "pride"
-        ],
-        "translate": "гордый, надменный, горделивый, высокомерный, великолепный, ретивый, самодовольный",
-        "transcription": " |praʊd|",
-        "antonyms": [],
-        "mnemonic": [
-            "crowd [kraud]\nproud [praud]\n***\nВсе ТОЛПЯТСЯ, а я с краю (д). (это) crowd\nТолпа, толкотня, давка.\n***\nИ в толпе \"crowd\"\nя гордый \"proud\"\nи говорю громко \"loud\".",
-            "proud [praud]\nproudly - гордо\n**\nГОРДЫМ я зовусь по праву. (это) proud\nЯ НАДМЕННЫЙ, но по праву. (это) proud\nСАМОДОВОЛЕН я по праву. (это) proud\n***\nЯ гордый \"proud\"\nи имею голос громкий \"loud\"."
-        ],
-        "examples": [
-            "I was proud that I never gave in.",
-            "He's very proud of his daughter's achievements.",
-            "She knows she's lost, but she is too proud to admit it.",
-            "My father was a proud spirit.",
-            "Most children want their parents to feel proud of them.",
-            "He's too proud to beg.",
-            "It was a proud moment when he was presented with a medal.",
-            "Her parents are very proud of her.",
-            "You should be proud of yourself.",
-            "The proud lift of her neck was gone.",
-            "He might be poor but he's also proud.",
-            "She's too proud to accept their charity.",
-            "She's the proud owner of a new car.",
-            "I am proud to number her among my friends.",
-            "She was proud that the magazine had agreed to publish one of her stories.",
-            "He has a proud manner.",
-            "She was fiercely proud of her children.",
-            "I am proud to count you among my friends.",
-            "I, for one, am proud of the team's effort.",
-            "Your father and I are mighty proud of you.",
-            "not too proud to wear hand-me-down clothes",
-            "He is proud of his working class background.",
-            "She is as pragmatic(al) and proud as the Pope.",
-            "proud of her tall stalwart son",
-            "I tried to do my country proud.",
-            "the proud townspeople of Semer Water",
-            "We Italians are proud of our history.",
-            "They are the proud parents of a hero.",
-            "He's fiercely proud of his native land.",
-            "He is too proud and should be pulled down."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я был горд тем, что я никогда не сдавался.",
-            "Он очень гордится успехами своей дочери.",
-            "Она знает, что проиграла, но она слишком гордая, чтобы признать это.",
-            "Мой отец был гордым по духу.",
-            "Большинство детей хотят, чтобы их родители гордились ими.",
-            "Он слишком горд, чтобы кого-то умолять.",
-            "Это был счастливый день, когда его наградили медалью.",
-            "Родители очень ею гордятся.",
-            "Ты должен гордиться собой.",
-            "От её гордой осанки не осталось и следа.",
-            "Он, может быть, бедный, но у него есть чувство собственного достоинства.",
-            "Она слишком горда, чтобы принять их подачку.",
-            "Она — гордая владелица новой машины.",
-            "Я горжусь тем, что она — моя подруга.",
-            "Она гордилась тем, что редакция журнала согласилась опубликовать один из её рассказов.",
-            "У него надменный нрав.",
-            "Она неистово гордилась своими детьми.",
-            "Я горжусь тем, что ты мой друг.",
-            "Лично я, например, горжусь тем, что сделала команда.",
-            "Мы с твоим отцом ужасно тобой гордимся.",
-            "не слишком горд, чтобы одеваться в обноски",
-            "Он гордится своим рабочим происхождением.",
-            "Она категорична и надменна, как римский папа.",
-            "горда своим высоким рослым сыном",
-            "Я пытался сделать так, чтобы страна мной гордилась.",
-            "гордые жители городка Семер Уотер",
-            "Мы, итальянцы, гордимся своей историей.",
-            "Они гордые родители героя.",
-            "Он отчаянно гордится своей родиной.",
-            "Он слишком гордый, надо сбить с него спесь."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "Инфинитив_с_to_после_прил((am,_is,_are_и_т._д.)_+_прилагательное_+_инфинитив)",
-            "Инфинитив"
-        ]
-    }
+  "proud": {
+    "comment": [
+      "proudly",
+      "pride"
+    ],
+    "translate": "гордый, надменный, горделивый, высокомерный, великолепный, ретивый, самодовольный",
+    "transcription": " |praʊd|",
+    "antonyms": [],
+    "mnemonic": [
+      "crowd [kraud]\nproud [praud]\n***\nВсе ТОЛПЯТСЯ, а я с краю (д). (это) crowd\nТолпа, толкотня, давка.\n***\nИ в толпе \"crowd\"\nя гордый \"proud\"\nи говорю громко \"loud\".",
+      "proud [praud]\nproudly - гордо\n**\nГОРДЫМ я зовусь по праву. (это) proud\nЯ НАДМЕННЫЙ, но по праву. (это) proud\nСАМОДОВОЛЕН я по праву. (это) proud\n***\nЯ гордый \"proud\"\nи имею голос громкий \"loud\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "Инфинитив_с_to_после_прил((am,_is,_are_и_т._д.)_+_прилагательное_+_инфинитив)",
+      "Инфинитив"
+    ],
+    "examples": [
+      {
+        "eng": "I was proud that I never gave in.",
+        "ru": "Я был горд тем, что я никогда не сдавался.",
+        "learn": 0
+      },
+      {
+        "eng": "He's very proud of his daughter's achievements.",
+        "ru": "Он очень гордится успехами своей дочери.",
+        "learn": 0
+      },
+      {
+        "eng": "She knows she's lost, but she is too proud to admit it.",
+        "ru": "Она знает, что проиграла, но она слишком гордая, чтобы признать это.",
+        "learn": 0
+      },
+      {
+        "eng": "My father was a proud spirit.",
+        "ru": "Мой отец был гордым по духу.",
+        "learn": 1
+      },
+      {
+        "eng": "Most children want their parents to feel proud of them.",
+        "ru": "Большинство детей хотят, чтобы их родители гордились ими.",
+        "learn": 0
+      },
+      {
+        "eng": "He's too proud to beg.",
+        "ru": "Он слишком горд, чтобы кого-то умолять.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a proud moment when he was presented with a medal.",
+        "ru": "Это был счастливый день, когда его наградили медалью.",
+        "learn": 0
+      },
+      {
+        "eng": "Her parents are very proud of her.",
+        "ru": "Родители очень ею гордятся.",
+        "learn": 0
+      },
+      {
+        "eng": "You should be proud of yourself.",
+        "ru": "Ты должен гордиться собой.",
+        "learn": 0
+      },
+      {
+        "eng": "The proud lift of her neck was gone.",
+        "ru": "От её гордой осанки не осталось и следа.",
+        "learn": 0
+      },
+      {
+        "eng": "He might be poor but he's also proud.",
+        "ru": "Он, может быть, бедный, но у него есть чувство собственного достоинства.",
+        "learn": 0
+      },
+      {
+        "eng": "She's too proud to accept their charity.",
+        "ru": "Она слишком горда, чтобы принять их подачку.",
+        "learn": 1
+      },
+      {
+        "eng": "She's the proud owner of a new car.",
+        "ru": "Она — гордая владелица новой машины.",
+        "learn": 0
+      },
+      {
+        "eng": "I am proud to number her among my friends.",
+        "ru": "Я горжусь тем, что она — моя подруга.",
+        "learn": 0
+      },
+      {
+        "eng": "She was proud that the magazine had agreed to publish one of her stories.",
+        "ru": "Она гордилась тем, что редакция журнала согласилась опубликовать один из её рассказов.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a proud manner.",
+        "ru": "У него надменный нрав.",
+        "learn": 0
+      },
+      {
+        "eng": "She was fiercely proud of her children.",
+        "ru": "Она неистово гордилась своими детьми.",
+        "learn": 0
+      },
+      {
+        "eng": "I am proud to count you among my friends.",
+        "ru": "Я горжусь тем, что ты мой друг.",
+        "learn": 0
+      },
+      {
+        "eng": "I, for one, am proud of the team's effort.",
+        "ru": "Лично я, например, горжусь тем, что сделала команда.",
+        "learn": 0
+      },
+      {
+        "eng": "Your father and I are mighty proud of you.",
+        "ru": "Мы с твоим отцом ужасно тобой гордимся.",
+        "learn": 0
+      },
+      {
+        "eng": "not too proud to wear hand-me-down clothes",
+        "ru": "не слишком горд, чтобы одеваться в обноски",
+        "learn": 0
+      },
+      {
+        "eng": "He is proud of his working class background.",
+        "ru": "Он гордится своим рабочим происхождением.",
+        "learn": 1
+      },
+      {
+        "eng": "She is as pragmatic(al) and proud as the Pope.",
+        "ru": "Она категорична и надменна, как римский папа.",
+        "learn": 1
+      },
+      {
+        "eng": "proud of her tall stalwart son",
+        "ru": "горда своим высоким рослым сыном",
+        "learn": 0
+      },
+      {
+        "eng": "I tried to do my country proud.",
+        "ru": "Я пытался сделать так, чтобы страна мной гордилась.",
+        "learn": 0
+      },
+      {
+        "eng": "the proud townspeople of Semer Water",
+        "ru": "гордые жители городка Семер Уотер",
+        "learn": 0
+      },
+      {
+        "eng": "We Italians are proud of our history.",
+        "ru": "Мы, итальянцы, гордимся своей историей.",
+        "learn": 1
+      },
+      {
+        "eng": "They are the proud parents of a hero.",
+        "ru": "Они гордые родители героя.",
+        "learn": 0
+      },
+      {
+        "eng": "He's fiercely proud of his native land.",
+        "ru": "Он отчаянно гордится своей родиной.",
+        "learn": 0
+      },
+      {
+        "eng": "He is too proud and should be pulled down.",
+        "ru": "Он слишком гордый, надо сбить с него спесь.",
+        "learn": 0
+      }
+    ]
+  }
 }

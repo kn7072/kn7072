@@ -1,96 +1,182 @@
 {
-    "baseball": {
-        "comment": [
-            "ball",
-            "basketball",
-            "football",
-            "recall",
-            "hall",
-            "tall",
-            "fall",
-            "all",
-            "small",
-            "call",
-            "wall",
-            "overall",
-            "install",
-            "shall",
-            "stall",
-            "mall",
-            "waterfall"
-        ],
-        "translate": "бейсбол",
-        "transcription": " |ˈbeɪsbɔːl|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He likes baseball, but he loves football.",
-            "She's a real baseball nut.",
-            "John's at baseball practice.",
-            "a Web portal for baseball fans",
-            "the regulars on a baseball team",
-            "He has become a baseball legend.",
-            "America is the home of baseball.",
-            "a crowd of delirious baseball fans",
-            "He played baseball in high school.",
-            "Her husband is a rabid baseball fan.",
-            "I bet you like baseball. Am I right?",
-            "The baseball rebounded off the wall.",
-            "They are the worst team in baseball.",
-            "an anemic attempt to hit the baseball",
-            "We watched baseball on TV last night.",
-            "a massive collection of baseball cards",
-            "You haven't got the heart for baseball.",
-            "He knocked the baseball over the fence.",
-            "a baseball star who hates the spotlight",
-            "Some baseball bats are made out of wood.",
-            "Nine players constitute a baseball team.",
-            "He has left his mark on baseball history.",
-            "A baseball pitcher with an unusual style.",
-            "I dislike basketball, but I enjoy baseball.",
-            "The baseball field neighbors a parking lot.",
-            "How many people attended the baseball game?",
-            "Baseball rightfully is the nation's pastime.",
-            "He played baseball in class D for two years.",
-            "the president of a major-league baseball club",
-            "a five-part series on the history of baseball"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он любит бейсбол, но футбол он просто обожает.",
-            "Она настоящая бейсбольная фанатка.",
-            "Джон — на бейсбольной тренировке.",
-            "Web-портал для поклонников бейсбола",
-            "постоянные члены бейсбольной команды",
-            "Он стал легендой бейсбола.",
-            "Америка является родиной бейсбола.",
-            "толпа ярых бейсбольных фанатов",
-            "В старшей школе он играл в бейсбол.",
-            "Её муж — ярый поклонник бейсбола.",
-            "Могу поспорить, что вы любите бейсбол. Я прав?",
-            "Бейсбольный мяч отскочил от стены.",
-            "Они являются худшей бейсбольной командой.",
-            "вялая попытка попасть по бейсбольному мячу",
-            "Вчера вечером мы смотрели по телевизору бейсбол.",
-            "богатейшая коллекция бейсбольных карточек",
-            "Тебе не хватает духу, чтобы играть в бейсбол.",
-            "Он перебил бейсбольный мяч через ограждение.",
-            "звезда бейсбола, которая терпеть не может быть в центре внимания",
-            "Некоторые бейсбольные биты сделаны из дерева.",
-            "Девять игроков составляют бейсбольную команду.",
-            "Он оставил свой след в истории бейсбола.",
-            "Бейсбольный питчер с необычным стилем игры.",
-            "Я не люблю баскетбол, но вот бейсбол мне нравится.",
-            "По соседству с бейсбольным полем находится автостоянка.",
-            "Сколько человек посетило этот бейсбольный матч?",
-            "Бейсбол по праву является национальным времяпрепровождением.",
-            "Он в течение двух лет играл в бейсбол в классе D.",
-            "президент бейсбольного клуба МЛБ",
-            "серия из пяти передач по истории бейсбола"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "baseball": {
+    "comment": [
+      "ball",
+      "basketball",
+      "football",
+      "recall",
+      "hall",
+      "tall",
+      "fall",
+      "all",
+      "small",
+      "call",
+      "wall",
+      "overall",
+      "install",
+      "shall",
+      "stall",
+      "mall",
+      "waterfall"
+    ],
+    "translate": "бейсбол",
+    "transcription": " |ˈbeɪsbɔːl|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He likes baseball, but he loves football.",
+        "ru": "Он любит бейсбол, но футбол он просто обожает.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a real baseball nut.",
+        "ru": "Она настоящая бейсбольная фанатка.",
+        "learn": 0
+      },
+      {
+        "eng": "John's at baseball practice.",
+        "ru": "Джон — на бейсбольной тренировке.",
+        "learn": 0
+      },
+      {
+        "eng": "a Web portal for baseball fans",
+        "ru": "Web-портал для поклонников бейсбола",
+        "learn": 0
+      },
+      {
+        "eng": "the regulars on a baseball team",
+        "ru": "постоянные члены бейсбольной команды",
+        "learn": 0
+      },
+      {
+        "eng": "He has become a baseball legend.",
+        "ru": "Он стал легендой бейсбола.",
+        "learn": 0
+      },
+      {
+        "eng": "America is the home of baseball.",
+        "ru": "Америка является родиной бейсбола.",
+        "learn": 0
+      },
+      {
+        "eng": "a crowd of delirious baseball fans",
+        "ru": "толпа ярых бейсбольных фанатов",
+        "learn": 0
+      },
+      {
+        "eng": "He played baseball in high school.",
+        "ru": "В старшей школе он играл в бейсбол.",
+        "learn": 0
+      },
+      {
+        "eng": "Her husband is a rabid baseball fan.",
+        "ru": "Её муж — ярый поклонник бейсбола.",
+        "learn": 0
+      },
+      {
+        "eng": "I bet you like baseball. Am I right?",
+        "ru": "Могу поспорить, что вы любите бейсбол. Я прав?",
+        "learn": 0
+      },
+      {
+        "eng": "The baseball rebounded off the wall.",
+        "ru": "Бейсбольный мяч отскочил от стены.",
+        "learn": 0
+      },
+      {
+        "eng": "They are the worst team in baseball.",
+        "ru": "Они являются худшей бейсбольной командой.",
+        "learn": 0
+      },
+      {
+        "eng": "an anemic attempt to hit the baseball",
+        "ru": "вялая попытка попасть по бейсбольному мячу",
+        "learn": 0
+      },
+      {
+        "eng": "We watched baseball on TV last night.",
+        "ru": "Вчера вечером мы смотрели по телевизору бейсбол.",
+        "learn": 0
+      },
+      {
+        "eng": "a massive collection of baseball cards",
+        "ru": "богатейшая коллекция бейсбольных карточек",
+        "learn": 0
+      },
+      {
+        "eng": "You haven't got the heart for baseball.",
+        "ru": "Тебе не хватает духу, чтобы играть в бейсбол.",
+        "learn": 0
+      },
+      {
+        "eng": "He knocked the baseball over the fence.",
+        "ru": "Он перебил бейсбольный мяч через ограждение.",
+        "learn": 0
+      },
+      {
+        "eng": "a baseball star who hates the spotlight",
+        "ru": "звезда бейсбола, которая терпеть не может быть в центре внимания",
+        "learn": 0
+      },
+      {
+        "eng": "Some baseball bats are made out of wood.",
+        "ru": "Некоторые бейсбольные биты сделаны из дерева.",
+        "learn": 0
+      },
+      {
+        "eng": "Nine players constitute a baseball team.",
+        "ru": "Девять игроков составляют бейсбольную команду.",
+        "learn": 1
+      },
+      {
+        "eng": "He has left his mark on baseball history.",
+        "ru": "Он оставил свой след в истории бейсбола.",
+        "learn": 0
+      },
+      {
+        "eng": "A baseball pitcher with an unusual style.",
+        "ru": "Бейсбольный питчер с необычным стилем игры.",
+        "learn": 0
+      },
+      {
+        "eng": "I dislike basketball, but I enjoy baseball.",
+        "ru": "Я не люблю баскетбол, но вот бейсбол мне нравится.",
+        "learn": 1
+      },
+      {
+        "eng": "The baseball field neighbors a parking lot.",
+        "ru": "По соседству с бейсбольным полем находится автостоянка.",
+        "learn": 0
+      },
+      {
+        "eng": "How many people attended the baseball game?",
+        "ru": "Сколько человек посетило этот бейсбольный матч?",
+        "learn": 0
+      },
+      {
+        "eng": "Baseball rightfully is the nation's pastime.",
+        "ru": "Бейсбол по праву является национальным времяпрепровождением.",
+        "learn": 0
+      },
+      {
+        "eng": "He played baseball in class D for two years.",
+        "ru": "Он в течение двух лет играл в бейсбол в классе D.",
+        "learn": 0
+      },
+      {
+        "eng": "the president of a major-league baseball club",
+        "ru": "президент бейсбольного клуба МЛБ",
+        "learn": 0
+      },
+      {
+        "eng": "a five-part series on the history of baseball",
+        "ru": "серия из пяти передач по истории бейсбола",
+        "learn": 0
+      }
+    ]
+  }
 }

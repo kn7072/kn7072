@@ -1,84 +1,170 @@
 {
-    "economic": {
-        "comment": [
-            "economics",
-            "economy",
-            "economical",
-            "economically",
-            "economist"
-        ],
-        "translate": "экономический, хозяйственный, экономичный, экономный, экономически выгодный",
-        "transcription": " |ˌiːkəˈnɑːmɪk|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Economic Support Fund",
-            "History is the product of social and economic forces.",
-            "There seems to be no cure for our economic ills.",
-            "International economic",
-            "The war has aggravated an acute economic crisis.",
-            "Economic plight is far worse than had been expected.",
-            "Economic Bulletin Board",
-            "Economic growth is slow.",
-            "Cutting taxes may facilitate economic recovery.",
-            "Economic reform is needed.",
-            "The recent economic crisis has led to massive layoffs.",
-            "People attach too much importance to economic forecasts.",
-            "Council of Economic Advisors",
-            "American Economic Association",
-            "The country is in economic stasis.",
-            "an economic use of home heating oil",
-            "The country is an economic backwater.",
-            "Economic Stabilization Fund",
-            "Economic and Social Council",
-            "an economical use of her time",
-            "Council of Economic Arab Unity",
-            "Economic Cooperation Organization",
-            "the economic vitality of our cities",
-            "Economic Cooperation Administration",
-            "He implemented a new economic plan.",
-            "Economic Development Administration",
-            "a critique of modern economic theory",
-            "They concluded an economic agreement.",
-            "the new industry's economic shakedown",
-            "the President's chief economic adviser"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Фонд экономической поддержки",
-            "История является результатом взаимодействия общественных и экономических факторов.",
-            "Кажется, от болезней нашей экономики нет лекарств.",
-            "Международная расчётная товарная палата",
-            "Война усугубила острый экономический кризис.",
-            "Экономическая ситуация намного хуже, чем ожидалось.",
-            "Экономическая доска объявлений (электронный источник экономической и экономико-статистической информации Министерства торговли США)",
-            "Экономический рост является медленным.",
-            "Снижение налогов может способствовать восстановлению экономики.",
-            "Необходимо провести экономическую реформу.",
-            "Последний экономический кризис повлёк за собой массовые увольнения.",
-            "Люди придают слишком большое значение экономическим прогнозам.",
-            "Совет экономических консультантов (при президенте США)",
-            "Американская экономическая ассоциация",
-            "Страна переживает экономический застой.",
-            "экономиченое использование мазута для домашнего отопления",
-            "Эта страна является захолустьем с точки зрения экономики.",
-            "Фонд экономической стабилизации",
-            "Экономический и Социальный Совет (в ООН)",
-            "экономное использование её времени",
-            "Совет арабского экономического единства",
-            "Организация экономического сотрудничества",
-            "экономическая жизнеспособность наших городов",
-            "Администрация экономического сотрудничества (в Великобритании)",
-            "Он реализовал новый экономический план.",
-            "Управление экономического развития (Министерства торговли США)",
-            "критика современной экономической теории",
-            "Они заключили экономическое соглашение.",
-            "экономическая перестройка новой отрасли промышленности",
-            "главный экономический советник президента"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "economic": {
+    "comment": [
+      "economics",
+      "economy",
+      "economical",
+      "economically",
+      "economist"
+    ],
+    "translate": "экономический, хозяйственный, экономичный, экономный, экономически выгодный",
+    "transcription": " |ˌiːkəˈnɑːmɪk|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Economic Support Fund",
+        "ru": "Фонд экономической поддержки",
+        "learn": 0
+      },
+      {
+        "eng": "History is the product of social and economic forces.",
+        "ru": "История является результатом взаимодействия общественных и экономических факторов.",
+        "learn": 0
+      },
+      {
+        "eng": "There seems to be no cure for our economic ills.",
+        "ru": "Кажется, от болезней нашей экономики нет лекарств.",
+        "learn": 1
+      },
+      {
+        "eng": "International economic",
+        "ru": "Международная расчётная товарная палата",
+        "learn": 0
+      },
+      {
+        "eng": "The war has aggravated an acute economic crisis.",
+        "ru": "Война усугубила острый экономический кризис.",
+        "learn": 0
+      },
+      {
+        "eng": "Economic plight is far worse than had been expected.",
+        "ru": "Экономическая ситуация намного хуже, чем ожидалось.",
+        "learn": 1
+      },
+      {
+        "eng": "Economic Bulletin Board",
+        "ru": "Экономическая доска объявлений (электронный источник экономической и экономико-статистической информации Министерства торговли США)",
+        "learn": 0
+      },
+      {
+        "eng": "Economic growth is slow.",
+        "ru": "Экономический рост является медленным.",
+        "learn": 0
+      },
+      {
+        "eng": "Cutting taxes may facilitate economic recovery.",
+        "ru": "Снижение налогов может способствовать восстановлению экономики.",
+        "learn": 1
+      },
+      {
+        "eng": "Economic reform is needed.",
+        "ru": "Необходимо провести экономическую реформу.",
+        "learn": 0
+      },
+      {
+        "eng": "The recent economic crisis has led to massive layoffs.",
+        "ru": "Последний экономический кризис повлёк за собой массовые увольнения.",
+        "learn": 0
+      },
+      {
+        "eng": "People attach too much importance to economic forecasts.",
+        "ru": "Люди придают слишком большое значение экономическим прогнозам.",
+        "learn": 0
+      },
+      {
+        "eng": "Council of Economic Advisors",
+        "ru": "Совет экономических консультантов (при президенте США)",
+        "learn": 0
+      },
+      {
+        "eng": "American Economic Association",
+        "ru": "Американская экономическая ассоциация",
+        "learn": 0
+      },
+      {
+        "eng": "The country is in economic stasis.",
+        "ru": "Страна переживает экономический застой.",
+        "learn": 0
+      },
+      {
+        "eng": "an economic use of home heating oil",
+        "ru": "экономиченое использование мазута для домашнего отопления",
+        "learn": 0
+      },
+      {
+        "eng": "The country is an economic backwater.",
+        "ru": "Эта страна является захолустьем с точки зрения экономики.",
+        "learn": 0
+      },
+      {
+        "eng": "Economic Stabilization Fund",
+        "ru": "Фонд экономической стабилизации",
+        "learn": 0
+      },
+      {
+        "eng": "Economic and Social Council",
+        "ru": "Экономический и Социальный Совет (в ООН)",
+        "learn": 0
+      },
+      {
+        "eng": "an economical use of her time",
+        "ru": "экономное использование её времени",
+        "learn": 0
+      },
+      {
+        "eng": "Council of Economic Arab Unity",
+        "ru": "Совет арабского экономического единства",
+        "learn": 1
+      },
+      {
+        "eng": "Economic Cooperation Organization",
+        "ru": "Организация экономического сотрудничества",
+        "learn": 0
+      },
+      {
+        "eng": "the economic vitality of our cities",
+        "ru": "экономическая жизнеспособность наших городов",
+        "learn": 0
+      },
+      {
+        "eng": "Economic Cooperation Administration",
+        "ru": "Администрация экономического сотрудничества (в Великобритании)",
+        "learn": 0
+      },
+      {
+        "eng": "He implemented a new economic plan.",
+        "ru": "Он реализовал новый экономический план.",
+        "learn": 1
+      },
+      {
+        "eng": "Economic Development Administration",
+        "ru": "Управление экономического развития (Министерства торговли США)",
+        "learn": 0
+      },
+      {
+        "eng": "a critique of modern economic theory",
+        "ru": "критика современной экономической теории",
+        "learn": 0
+      },
+      {
+        "eng": "They concluded an economic agreement.",
+        "ru": "Они заключили экономическое соглашение.",
+        "learn": 0
+      },
+      {
+        "eng": "the new industry's economic shakedown",
+        "ru": "экономическая перестройка новой отрасли промышленности",
+        "learn": 0
+      },
+      {
+        "eng": "the President's chief economic adviser",
+        "ru": "главный экономический советник президента",
+        "learn": 0
+      }
+    ]
+  }
 }

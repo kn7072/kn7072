@@ -1,83 +1,170 @@
 {
-    "cold": {
-        "comment": [
-            "coldly"
-        ],
-        "translate": "холодный, слабый, холодность, холод, простуда, точно, достоверно",
-        "transcription": " |koʊld|",
-        "antonyms": [],
-        "mnemonic": [
-            "cold [ко'улд] холодный - (Кольт) личности холоднее культа личности."
-        ],
-        "examples": [
-            "It is cold.",
-            "I have a cold.",
-            "I feel so cold!",
-            "It's rather cold.",
-            "I've got a bad cold.",
-            "I can't bear being cold.",
-            "Gosh, it's cold.",
-            "He has a slight cold.",
-            "The draft gave me a cold.",
-            "My tea's gone cold.",
-            "It's cold for July.",
-            "I have a terrible cold.",
-            "It was bitter cold.",
-            "The film left me cold.",
-            "You're getting colder!",
-            "Your hand feels cold.",
-            "I've got a stinking cold.",
-            "He has a cough and a cold.",
-            "Opera left him cold.",
-            "He got a cold reception.",
-            "I like cold weather.",
-            "They died of the cold.",
-            "cures for the common cold",
-            "The nights set very cold.",
-            "It feels very cold today.",
-            "She doesn't mind the cold.",
-            "It was piercingly cold.",
-            "Come in out of the cold.",
-            "The soup was stone cold.",
-            "Serve the potatoes cold."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Холодно.",
-            "Я простужен.",
-            "Мне так холодно! / Я так замёрз!",
-            "Довольно холодно.",
-            "Я сильно простыл.",
-            "Терпеть не могу мёрзнуть.",
-            "Боже, как холодно!",
-            "У него лёгкая простуда.",
-            "Я простудился от сквозняка.",
-            "Мой чай остыл.",
-            "Холодновато для июля. (обычно теплее)",
-            "У меня жуткий насморк.",
-            "Был пронизывающий холод.",
-            "Кино оставило меня равнодушным.",
-            "Ты замерзаешь!",
-            "У тебя холодная рука.",
-            "У меня ужасная простуда.",
-            "У него кашель и насморк. / Он простужен и у него насморк.",
-            "Опера оставила его равнодушным.",
-            "Ему оказали холодный приём.",
-            "Мне нравится холодная погода.",
-            "Они умерли от холода.",
-            "лекарства от простуды",
-            "Ночи стали очень холодными.",
-            "Сегодня очень холодно.",
-            "Она не обращает внимания на холод.",
-            "Было пронзительно холодно.",
-            "Заходи в дом, не мёрзни.",
-            "Суп был холодный, как лёд.",
-            "Картофель подайте холодным."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "o_+_Закр_сл_=_[ou]"
-        ]
-    }
+  "cold": {
+    "comment": [
+      "coldly"
+    ],
+    "translate": "холодный, слабый, холодность, холод, простуда, точно, достоверно",
+    "transcription": " |koʊld|",
+    "antonyms": [],
+    "mnemonic": [
+      "cold [ко'улд] холодный - (Кольт) личности холоднее культа личности."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "o_+_Закр_сл_=_[ou]"
+    ],
+    "examples": [
+      {
+        "eng": "It is cold.",
+        "ru": "Холодно.",
+        "learn": 0
+      },
+      {
+        "eng": "I have a cold.",
+        "ru": "Я простужен.",
+        "learn": 0
+      },
+      {
+        "eng": "I feel so cold!",
+        "ru": "Мне так холодно! / Я так замёрз!",
+        "learn": 0
+      },
+      {
+        "eng": "It's rather cold.",
+        "ru": "Довольно холодно.",
+        "learn": 0
+      },
+      {
+        "eng": "I've got a bad cold.",
+        "ru": "Я сильно простыл.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't bear being cold.",
+        "ru": "Терпеть не могу мёрзнуть.",
+        "learn": 0
+      },
+      {
+        "eng": "Gosh, it's cold.",
+        "ru": "Боже, как холодно!",
+        "learn": 0
+      },
+      {
+        "eng": "He has a slight cold.",
+        "ru": "У него лёгкая простуда.",
+        "learn": 0
+      },
+      {
+        "eng": "The draft gave me a cold.",
+        "ru": "Я простудился от сквозняка.",
+        "learn": 0
+      },
+      {
+        "eng": "My tea's gone cold.",
+        "ru": "Мой чай остыл.",
+        "learn": 0
+      },
+      {
+        "eng": "It's cold for July.",
+        "ru": "Холодновато для июля. (обычно теплее)",
+        "learn": 0
+      },
+      {
+        "eng": "I have a terrible cold.",
+        "ru": "У меня жуткий насморк.",
+        "learn": 0
+      },
+      {
+        "eng": "It was bitter cold.",
+        "ru": "Был пронизывающий холод.",
+        "learn": 0
+      },
+      {
+        "eng": "The film left me cold.",
+        "ru": "Кино оставило меня равнодушным.",
+        "learn": 0
+      },
+      {
+        "eng": "You're getting colder!",
+        "ru": "Ты замерзаешь!",
+        "learn": 0
+      },
+      {
+        "eng": "Your hand feels cold.",
+        "ru": "У тебя холодная рука.",
+        "learn": 0
+      },
+      {
+        "eng": "I've got a stinking cold.",
+        "ru": "У меня ужасная простуда.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a cough and a cold.",
+        "ru": "У него кашель и насморк. / Он простужен и у него насморк.",
+        "learn": 0
+      },
+      {
+        "eng": "Opera left him cold.",
+        "ru": "Опера оставила его равнодушным.",
+        "learn": 0
+      },
+      {
+        "eng": "He got a cold reception.",
+        "ru": "Ему оказали холодный приём.",
+        "learn": 0
+      },
+      {
+        "eng": "I like cold weather.",
+        "ru": "Мне нравится холодная погода.",
+        "learn": 0
+      },
+      {
+        "eng": "They died of the cold.",
+        "ru": "Они умерли от холода.",
+        "learn": 0
+      },
+      {
+        "eng": "cures for the common cold",
+        "ru": "лекарства от простуды",
+        "learn": 0
+      },
+      {
+        "eng": "The nights set very cold.",
+        "ru": "Ночи стали очень холодными.",
+        "learn": 0
+      },
+      {
+        "eng": "It feels very cold today.",
+        "ru": "Сегодня очень холодно.",
+        "learn": 1
+      },
+      {
+        "eng": "She doesn't mind the cold.",
+        "ru": "Она не обращает внимания на холод.",
+        "learn": 0
+      },
+      {
+        "eng": "It was piercingly cold.",
+        "ru": "Было пронзительно холодно.",
+        "learn": 0
+      },
+      {
+        "eng": "Come in out of the cold.",
+        "ru": "Заходи в дом, не мёрзни.",
+        "learn": 0
+      },
+      {
+        "eng": "The soup was stone cold.",
+        "ru": "Суп был холодный, как лёд.",
+        "learn": 0
+      },
+      {
+        "eng": "Serve the potatoes cold.",
+        "ru": "Картофель подайте холодным.",
+        "learn": 0
+      }
+    ]
+  }
 }

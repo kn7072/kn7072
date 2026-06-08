@@ -1,94 +1,183 @@
 {
-    "set": {
-        "comment": [
-            "closet",
-            "upset",
-            "setting",
-            "offset",
-            "outset",
-            "onset",
-            "cassette",
-            "sunset"
-        ],
-        "translate": "набор, комплект, сет, установившийся, устанавливать, заходить",
-        "transcription": " |set|",
-        "antonyms": [],
-        "mnemonic": [
-            "set [сэт] ставить - Ставить (сет-и).",
-            "set [set]\nasset ['æsɛt]\noutset - отправление, начало\nsetting - оправа, окружающая обстановка. закат, заход\n***\nУСТАНОВИМ пару кассет. (это) set\nКомплект, набор, сервиз, прибор.\n***\nВсе мои АКТИВЫ - пара кассет. (это) asset\nВсё моё ДОСТОИНСТВО - пара кассет. (это) asset\nВсё моё ИМУЩЕСТВО - пара кассет. (это) asset",
-            "settle ['set (ə) l]\n***\nУЛАДИМ всё и поедем Сиэтл. (это) settle\nЗАСЕЛИМСЯ мы в Сиэтл. (это) settle\nУСПОКОЙСЯ, ты выиграл сет. (это) settle\nСПОР РАЗРЕШЁН, ты выиграл сет. (это) settle\nРАЗРЕШИЛИ разногласия - ты выиграл сет (л). (это)\nsettle\nСкамья.\n***\nМы обосновались \"settle\"\nи купили чайник \"kettle\"."
-        ],
-        "examples": [
-            "Did you set the alarm?",
-            "The film is set in Africa.",
-            "A man with deep-set eyes",
-            "a house set on a hilltop",
-            "Her last remark has set me thinking.",
-            "Her college is set in the countryside.",
-            "The novel is set in France.",
-            "The hotel does a very good set menu.",
-            "We are set to go at any time.",
-            "I remember setting my bag right here.",
-            "We face a new set of problems.",
-            "We met on the set of Hamlet.",
-            "Are you all set for the trip?",
-            "The sun sets early these days.",
-            "'Damn you,' he said through set teeth.",
-            "Usually the heating is set on 'low'.",
-            "We were paid a set amount each week.",
-            "Their house is set back from the road.",
-            "Sasha performed a 3-hour set.",
-            "He tested the set of the glue.",
-            "He gave a final set to his hat.",
-            "Sampras won the second set 6 - 4.",
-            "the time set for the launching",
-            "Protestors set fire to two buses.",
-            "Rangers will set a trap to catch the bear.",
-            "He stared at her, his face set.",
-            "Adam's in the top set for maths.",
-            "Small children like a set routine.",
-            "The set of prime numbers is infinite.",
-            "The set (x, y) has two members."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ты поставила / завела будильник?",
-            "Действие фильма происходит в Африке.",
-            "Мужчина с глубоко посаженными глазами",
-            "дом, который находится на вершине холма",
-            "Ее последнее высказывание заставило меня задуматься.",
-            "Её колледж находится в сельской местности.",
-            "Действие романа разворачивается во Франции.",
-            "В этой гостинице очень хорошее комплексное меню.",
-            "Мы готовы отправиться в любое время.",
-            "Я помню, что поставил сумку вот здесь.",
-            "Мы стоим перед лицом новых проблем.",
-            "Мы познакомились на съёмочной площадке \"Гамлета\".",
-            "Все готовы к путешествию?",
-            "Солнце сейчас садится рано.",
-            "'Черт с тобой\", - сказал он сквозь зубы.",
-            "Обычно отопление установлено на низком уровне.",
-            "Каждую неделю нам платили одинаковую /установленную/ сумму.",
-            "Их дом находится в стороне от дороги.",
-            "Саша дал трёхчасовой концерт.",
-            "Он проверил, застыл ли клей.",
-            "Он закончил поправлять на голове шляпу.",
-            "Сампрас выиграл второй сет со счётом шесть — четыре.",
-            "время, назначенное для запуска",
-            "Протестующие подожгли два автобуса.",
-            "Лесничие устроят западню /поставят капкан/, чтобы поймать медведя.",
-            "Он уставился на неё с застывшим лицом.",
-            "Адам — среди лучших по математике.",
-            "Маленькие дети любят, когда всё идёт, как обычно /по установленному порядку/.",
-            "Множество всех простых чисел — бесконечно.",
-            "Множество (x, y) содержит два члена."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Сложное_дополнение_с_причастием_1",
-            "Причастие_-_сложное_дополнение_с_причастием_1(после_глаголов)",
-            "Причастие"
-        ]
-    }
+  "set": {
+    "comment": [
+      "set |sɛt|,                                          set |sɛt|",
+      "closet",
+      "upset",
+      "setting",
+      "offset",
+      "outset",
+      "onset",
+      "cassette",
+      "sunset"
+    ],
+    "translate": "набор, комплект, сет, установившийся, устанавливать, заходить",
+    "transcription": " |set|",
+    "antonyms": [],
+    "mnemonic": [
+      "set [сэт] ставить - Ставить (сет-и).",
+      "set [set]\nasset ['æsɛt]\noutset - отправление, начало\nsetting - оправа, окружающая обстановка. закат, заход\n***\nУСТАНОВИМ пару кассет. (это) set\nКомплект, набор, сервиз, прибор.\n***\nВсе мои АКТИВЫ - пара кассет. (это) asset\nВсё моё ДОСТОИНСТВО - пара кассет. (это) asset\nВсё моё ИМУЩЕСТВО - пара кассет. (это) asset",
+      "settle ['set (ə) l]\n***\nУЛАДИМ всё и поедем Сиэтл. (это) settle\nЗАСЕЛИМСЯ мы в Сиэтл. (это) settle\nУСПОКОЙСЯ, ты выиграл сет. (это) settle\nСПОР РАЗРЕШЁН, ты выиграл сет. (это) settle\nРАЗРЕШИЛИ разногласия - ты выиграл сет (л). (это)\nsettle\nСкамья.\n***\nМы обосновались \"settle\"\nи купили чайник \"kettle\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Сложное_дополнение_с_причастием_1",
+      "Причастие_-_сложное_дополнение_с_причастием_1(после_глаголов)",
+      "Причастие",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Did you set the alarm?",
+        "ru": "Ты поставила / завела будильник?",
+        "learn": 0
+      },
+      {
+        "eng": "The film is set in Africa.",
+        "ru": "Действие фильма происходит в Африке.",
+        "learn": 0
+      },
+      {
+        "eng": "A man with deep-set eyes",
+        "ru": "Мужчина с глубоко посаженными глазами",
+        "learn": 0
+      },
+      {
+        "eng": "a house set on a hilltop",
+        "ru": "дом, который находится на вершине холма",
+        "learn": 0
+      },
+      {
+        "eng": "Her last remark has set me thinking.",
+        "ru": "Ее последнее высказывание заставило меня задуматься.",
+        "learn": 1
+      },
+      {
+        "eng": "Her college is set in the countryside.",
+        "ru": "Её колледж находится в сельской местности.",
+        "learn": 1
+      },
+      {
+        "eng": "The novel is set in France.",
+        "ru": "Действие романа разворачивается во Франции.",
+        "learn": 0
+      },
+      {
+        "eng": "The hotel does a very good set menu.",
+        "ru": "В этой гостинице очень хорошее комплексное меню.",
+        "learn": 0
+      },
+      {
+        "eng": "We are set to go at any time.",
+        "ru": "Мы готовы отправиться в любое время.",
+        "learn": 0
+      },
+      {
+        "eng": "I remember setting my bag right here.",
+        "ru": "Я помню, что поставил сумку вот здесь.",
+        "learn": 1
+      },
+      {
+        "eng": "We face a new set of problems.",
+        "ru": "Мы стоим перед лицом новых проблем.",
+        "learn": 0
+      },
+      {
+        "eng": "We met on the set of Hamlet.",
+        "ru": "Мы познакомились на съёмочной площадке \"Гамлета\".",
+        "learn": 0
+      },
+      {
+        "eng": "Are you all set for the trip?",
+        "ru": "Все готовы к путешествию?",
+        "learn": 0
+      },
+      {
+        "eng": "The sun sets early these days.",
+        "ru": "Солнце сейчас садится рано.",
+        "learn": 0
+      },
+      {
+        "eng": "'Damn you,' he said through set teeth.",
+        "ru": "'Черт с тобой\", - сказал он сквозь зубы.",
+        "learn": 0
+      },
+      {
+        "eng": "Usually the heating is set on 'low'.",
+        "ru": "Обычно отопление установлено на низком уровне.",
+        "learn": 0
+      },
+      {
+        "eng": "We were paid a set amount each week.",
+        "ru": "Каждую неделю нам платили одинаковую /установленную/ сумму.",
+        "learn": 0
+      },
+      {
+        "eng": "Their house is set back from the road.",
+        "ru": "Их дом находится в стороне от дороги.",
+        "learn": 0
+      },
+      {
+        "eng": "Sasha performed a 3-hour set.",
+        "ru": "Саша дал трёхчасовой концерт.",
+        "learn": 0
+      },
+      {
+        "eng": "He tested the set of the glue.",
+        "ru": "Он проверил, застыл ли клей.",
+        "learn": 0
+      },
+      {
+        "eng": "He gave a final set to his hat.",
+        "ru": "Он закончил поправлять на голове шляпу.",
+        "learn": 0
+      },
+      {
+        "eng": "Sampras won the second set 6 - 4.",
+        "ru": "Сампрас выиграл второй сет со счётом шесть — четыре.",
+        "learn": 0
+      },
+      {
+        "eng": "the time set for the launching",
+        "ru": "время, назначенное для запуска",
+        "learn": 0
+      },
+      {
+        "eng": "Protestors set fire to two buses.",
+        "ru": "Протестующие подожгли два автобуса.",
+        "learn": 0
+      },
+      {
+        "eng": "Rangers will set a trap to catch the bear.",
+        "ru": "Лесничие устроят западню /поставят капкан/, чтобы поймать медведя.",
+        "learn": 0
+      },
+      {
+        "eng": "He stared at her, his face set.",
+        "ru": "Он уставился на неё с застывшим лицом.",
+        "learn": 0
+      },
+      {
+        "eng": "Adam's in the top set for maths.",
+        "ru": "Адам — среди лучших по математике.",
+        "learn": 0
+      },
+      {
+        "eng": "Small children like a set routine.",
+        "ru": "Маленькие дети любят, когда всё идёт, как обычно /по установленному порядку/.",
+        "learn": 0
+      },
+      {
+        "eng": "The set of prime numbers is infinite.",
+        "ru": "Множество всех простых чисел — бесконечно.",
+        "learn": 1
+      },
+      {
+        "eng": "The set (x, y) has two members.",
+        "ru": "Множество (x, y) содержит два члена.",
+        "learn": 0
+      }
+    ]
+  }
 }

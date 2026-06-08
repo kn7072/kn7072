@@ -1,86 +1,172 @@
 {
-    "standard": {
-        "comment": [
-            "stand",
-            "understand",
-            "understanding",
-            "outstanding",
-            "understandable",
-            "long-standing",
-            "misunderstanding"
-        ],
-        "translate": "стандартный, типовой, нормальный, стандарт, эталон, норма, норматив, знамя",
-        "transcription": " |ˈstændərd|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "We paid them the standard rate.",
-            "International standard",
-            "a window of standard width",
-            "The movie was a pretty standard romantic comedy.",
-            "Eastern Standard Time",
-            "Standard examples were drummed into students' heads.",
-            "His photographs set the standard for landscapes.",
-            "The format is fairly standard.",
-            "The rooms are of a good standard.",
-            "The program defaults to a standard font.",
-            "We have very high safety standards in this laboratory.",
-            "All parts of the machine were standard and transferable.",
-            "The standard of work has declined.",
-            "We make shoes in standard and wide sizes.",
-            "reduce one's standard of living",
-            "The word is considered standard.",
-            "setting a high standard of excellence",
-            "Kasparov opened with a standard opening.",
-            "Standards have slipped since I was a boy.",
-            "The schools comply with federal standards.",
-            "The airline has rigorous safety standards.",
-            "The standard of his work is barely adequate.",
-            "The work isn't up to the standard I require.",
-            "All these vans are made to a standard design.",
-            "They live by the standards of their community.",
-            "Safety measures failed to come up to standard.",
-            "Standard letters can be stored on floppy discs.",
-            "a word that has come to be accepted as standard",
-            "We were very impressed by the standard of work.",
-            "An identity check is standard police procedure."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мы заплатили им по стандартному тарифу.",
-            "Международный стандарт",
-            "окно стандартной ширины",
-            "Фильм оказался довольно шаблонной романтической комедией.",
-            "Восточное стандартное поясное время",
-            "В головы студентов вдалбливались типичные примеры.",
-            "Его снимки стали эталоном пейзажной фотографии.",
-            "Данный формат достаточно стандартен.",
-            "Уровень номеров — довольно хороший.",
-            "Эта программа использует по умолчанию стандартный шрифт.",
-            "В этой лаборатории очень строгие правила техники безопасности.",
-            "Все детали станка были стандартны и заменяемы.",
-            "Уровень исполнения работы упал.",
-            "Мы изготавливаем обувь как стандартной, так и большой полноты.",
-            "снизить чей-либо уровень жизни",
-            "Это слово считается литературным.",
-            "установление высочайшего уровня качества",
-            "Первый ход Каспарова был стандартным. (о шахматах)",
-            "Со времён моего детства нормы морали упали.",
-            "Школы работают в соответствии с федеральными нормами.",
-            "Авиакомпания придерживается строгих норм безопасности.",
-            "Уровень его работы едва ли достаточен.",
-            "Эта работа не соответствует предъявляемым мною стандартам.",
-            "Все эти фургоны изготавливаются в стандартном исполнении.",
-            "Они живут в соответствии с нормами своего сообщества.",
-            "Меры безопасности не соответствовали нормам.",
-            "Шаблоны писем можно хранить на дискетах.",
-            "слово, которое стало восприниматься в качестве литературного",
-            "Уровень работы произвёл на нас большое впечатление.",
-            "Проверка документов является стандартной полицейской процедурой."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "standard": {
+    "comment": [
+      "stand",
+      "understand",
+      "understanding",
+      "outstanding",
+      "understandable",
+      "long-standing",
+      "misunderstanding"
+    ],
+    "translate": "стандартный, типовой, нормальный, стандарт, эталон, норма, норматив, знамя",
+    "transcription": " |ˈstændərd|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "We paid them the standard rate.",
+        "ru": "Мы заплатили им по стандартному тарифу.",
+        "learn": 0
+      },
+      {
+        "eng": "International standard",
+        "ru": "Международный стандарт",
+        "learn": 0
+      },
+      {
+        "eng": "a window of standard width",
+        "ru": "окно стандартной ширины",
+        "learn": 0
+      },
+      {
+        "eng": "The movie was a pretty standard romantic comedy.",
+        "ru": "Фильм оказался довольно шаблонной романтической комедией.",
+        "learn": 1
+      },
+      {
+        "eng": "Eastern Standard Time",
+        "ru": "Восточное стандартное поясное время",
+        "learn": 0
+      },
+      {
+        "eng": "Standard examples were drummed into students' heads.",
+        "ru": "В головы студентов вдалбливались типичные примеры.",
+        "learn": 0
+      },
+      {
+        "eng": "His photographs set the standard for landscapes.",
+        "ru": "Его снимки стали эталоном пейзажной фотографии.",
+        "learn": 0
+      },
+      {
+        "eng": "The format is fairly standard.",
+        "ru": "Данный формат достаточно стандартен.",
+        "learn": 1
+      },
+      {
+        "eng": "The rooms are of a good standard.",
+        "ru": "Уровень номеров — довольно хороший.",
+        "learn": 0
+      },
+      {
+        "eng": "The program defaults to a standard font.",
+        "ru": "Эта программа использует по умолчанию стандартный шрифт.",
+        "learn": 0
+      },
+      {
+        "eng": "We have very high safety standards in this laboratory.",
+        "ru": "В этой лаборатории очень строгие правила техники безопасности.",
+        "learn": 0
+      },
+      {
+        "eng": "All parts of the machine were standard and transferable.",
+        "ru": "Все детали станка были стандартны и заменяемы.",
+        "learn": 0
+      },
+      {
+        "eng": "The standard of work has declined.",
+        "ru": "Уровень исполнения работы упал.",
+        "learn": 0
+      },
+      {
+        "eng": "We make shoes in standard and wide sizes.",
+        "ru": "Мы изготавливаем обувь как стандартной, так и большой полноты.",
+        "learn": 0
+      },
+      {
+        "eng": "reduce one's standard of living",
+        "ru": "снизить чей-либо уровень жизни",
+        "learn": 0
+      },
+      {
+        "eng": "The word is considered standard.",
+        "ru": "Это слово считается литературным.",
+        "learn": 0
+      },
+      {
+        "eng": "setting a high standard of excellence",
+        "ru": "установление высочайшего уровня качества",
+        "learn": 0
+      },
+      {
+        "eng": "Kasparov opened with a standard opening.",
+        "ru": "Первый ход Каспарова был стандартным. (о шахматах)",
+        "learn": 0
+      },
+      {
+        "eng": "Standards have slipped since I was a boy.",
+        "ru": "Со времён моего детства нормы морали упали.",
+        "learn": 0
+      },
+      {
+        "eng": "The schools comply with federal standards.",
+        "ru": "Школы работают в соответствии с федеральными нормами.",
+        "learn": 0
+      },
+      {
+        "eng": "The airline has rigorous safety standards.",
+        "ru": "Авиакомпания придерживается строгих норм безопасности.",
+        "learn": 1
+      },
+      {
+        "eng": "The standard of his work is barely adequate.",
+        "ru": "Уровень его работы едва ли достаточен.",
+        "learn": 0
+      },
+      {
+        "eng": "The work isn't up to the standard I require.",
+        "ru": "Эта работа не соответствует предъявляемым мною стандартам.",
+        "learn": 0
+      },
+      {
+        "eng": "All these vans are made to a standard design.",
+        "ru": "Все эти фургоны изготавливаются в стандартном исполнении.",
+        "learn": 0
+      },
+      {
+        "eng": "They live by the standards of their community.",
+        "ru": "Они живут в соответствии с нормами своего сообщества.",
+        "learn": 0
+      },
+      {
+        "eng": "Safety measures failed to come up to standard.",
+        "ru": "Меры безопасности не соответствовали нормам.",
+        "learn": 0
+      },
+      {
+        "eng": "Standard letters can be stored on floppy discs.",
+        "ru": "Шаблоны писем можно хранить на дискетах.",
+        "learn": 0
+      },
+      {
+        "eng": "a word that has come to be accepted as standard",
+        "ru": "слово, которое стало восприниматься в качестве литературного",
+        "learn": 0
+      },
+      {
+        "eng": "We were very impressed by the standard of work.",
+        "ru": "Уровень работы произвёл на нас большое впечатление.",
+        "learn": 0
+      },
+      {
+        "eng": "An identity check is standard police procedure.",
+        "ru": "Проверка документов является стандартной полицейской процедурой.",
+        "learn": 1
+      }
+    ]
+  }
 }

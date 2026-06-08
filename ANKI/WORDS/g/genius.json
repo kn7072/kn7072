@@ -1,82 +1,168 @@
 {
-    "genius": {
-        "comment": [
-            "ingenious"
-        ],
-        "translate": "гений, гениальность, одаренность, гениальный человек, гениальная личность",
-        "transcription": " |ˈdʒiːnɪəs|",
-        "antonyms": [],
-        "mnemonic": [
-            "genius [джи'ниэс] гений - (Джин из) бутылки - гений."
-        ],
-        "examples": [
-            "Shakespeare was a true genius.",
-            "Goethe had genius",
-            "My father was a genius at storytelling.",
-            "It was a stroke of genius.",
-            "Leonardo da Vinci was a universal genius",
-            "He's admired for his comic genius.",
-            "He's a genius at home decoration.",
-            "Mozart was a child genius.",
-            "The film reveals Fellini's genius.",
-            "He has a genius for getting into trouble.",
-            "Genius usually follows a revolutionary path",
-            "We venerate genius.",
-            "Wynford was an architect of genius.",
-            "He was a genius at handling the press.",
-            "Amy boasted that her son was a genius.",
-            "My plan is simple — that's the genius of it.",
-            "Freud was a genius.",
-            "You have talent, maybe even genius.",
-            "His genius flowered at the university.",
-            "He doesn't strike me as (being) genius.",
-            "'The man is a genius,' marvelled Claire.",
-            "That woman has a genius for organization.",
-            "He had a genius for getting along with boys.",
-            "How did you do that? You're an absolute genius.",
-            "Her lecture celebrated the genius of the artist.",
-            "Melancholy is a common attendant on poetic genius.",
-            "She's now widely recognized as an artist of genius.",
-            "Mr. Gladstone has an extraordinary genius for finance.",
-            "He isn't stupid, but he isn't exactly a genius either.",
-            "At the time, his appointment seemed a stroke of genius."
-        ],
-        "example_translate": [
-            "Шекспир был поистине гением.",
-            "Гёте был гениальным писателем",
-            "Мой отец был гениальным рассказчиком.",
-            "Это было гениально.",
-            "Леонардо да Винчи был гением-универсалом",
-            "Им восхищаются за его комедийный гений /талант/.",
-            "Он гений по части украшения дома.",
-            "Моцарт был гениальным ребёнком.",
-            "В этом фильме раскрывается гений Феллини.",
-            "У него особый талант попадать во всякие переделки.",
-            "Гений, как правило, идёт революционным путём.",
-            "Мы благоговеем перед проявлениями гениальности /большого таланта/.",
-            "Уинфорд был гениальным архитектором.",
-            "Он просто гениально обращался с прессой.",
-            "Эми хвасталась тем, что её сын был гением.",
-            "Мой план прост, и в этом-то вся его гениальность.",
-            "Фрейд был гением.",
-            "Вы талант, быть может, даже гений.",
-            "В университете его недюжинный талант проявился в полной мере.",
-            "Он не производит на меня впечатления гения.",
-            "— Этот человек — гений, — восхитилась Клэр.",
-            "У этой женщины — большой талант организатора. / Эта женщина — гениальный организатор.",
-            "Он обладал талантом прекрасно ладить с ребятами.",
-            "Как ты это сделал? Ты просто гений!",
-            "В своём докладе она прославляла гениальность этого художника.",
-            "Меланхолия - частая спутница поэтического гения.",
-            "Сейчас она широко известна как гениальная художница.",
-            "У мистера Гладстона выдающийся талант финансиста.",
-            "Он не дурак, но и гением его тоже не назовёшь.",
-            "В то время его назначение казалось гениальным."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "genius": {
+    "comment": [
+      "ingenious"
+    ],
+    "translate": "гений, гениальность, одаренность, гениальный человек, гениальная личность",
+    "transcription": " |ˈdʒiːnɪəs|",
+    "antonyms": [],
+    "mnemonic": [
+      "genius [джи'ниэс] гений - (Джин из) бутылки - гений."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Shakespeare was a true genius.",
+        "ru": "Шекспир был поистине гением.",
+        "learn": 0
+      },
+      {
+        "eng": "Goethe had genius",
+        "ru": "Гёте был гениальным писателем",
+        "learn": 0
+      },
+      {
+        "eng": "My father was a genius at storytelling.",
+        "ru": "Мой отец был гениальным рассказчиком.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a stroke of genius.",
+        "ru": "Это было гениально.",
+        "learn": 0
+      },
+      {
+        "eng": "Leonardo da Vinci was a universal genius",
+        "ru": "Леонардо да Винчи был гением-универсалом",
+        "learn": 1
+      },
+      {
+        "eng": "He's admired for his comic genius.",
+        "ru": "Им восхищаются за его комедийный гений /талант/.",
+        "learn": 1
+      },
+      {
+        "eng": "He's a genius at home decoration.",
+        "ru": "Он гений по части украшения дома.",
+        "learn": 1
+      },
+      {
+        "eng": "Mozart was a child genius.",
+        "ru": "Моцарт был гениальным ребёнком.",
+        "learn": 0
+      },
+      {
+        "eng": "The film reveals Fellini's genius.",
+        "ru": "В этом фильме раскрывается гений Феллини.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a genius for getting into trouble.",
+        "ru": "У него особый талант попадать во всякие переделки.",
+        "learn": 0
+      },
+      {
+        "eng": "Genius usually follows a revolutionary path",
+        "ru": "Гений, как правило, идёт революционным путём.",
+        "learn": 1
+      },
+      {
+        "eng": "We venerate genius.",
+        "ru": "Мы благоговеем перед проявлениями гениальности /большого таланта/.",
+        "learn": 0
+      },
+      {
+        "eng": "Wynford was an architect of genius.",
+        "ru": "Уинфорд был гениальным архитектором.",
+        "learn": 0
+      },
+      {
+        "eng": "He was a genius at handling the press.",
+        "ru": "Он просто гениально обращался с прессой.",
+        "learn": 0
+      },
+      {
+        "eng": "Amy boasted that her son was a genius.",
+        "ru": "Эми хвасталась тем, что её сын был гением.",
+        "learn": 0
+      },
+      {
+        "eng": "My plan is simple — that's the genius of it.",
+        "ru": "Мой план прост, и в этом-то вся его гениальность.",
+        "learn": 0
+      },
+      {
+        "eng": "Freud was a genius.",
+        "ru": "Фрейд был гением.",
+        "learn": 0
+      },
+      {
+        "eng": "You have talent, maybe even genius.",
+        "ru": "Вы талант, быть может, даже гений.",
+        "learn": 1
+      },
+      {
+        "eng": "His genius flowered at the university.",
+        "ru": "В университете его недюжинный талант проявился в полной мере.",
+        "learn": 0
+      },
+      {
+        "eng": "He doesn't strike me as (being) genius.",
+        "ru": "Он не производит на меня впечатления гения.",
+        "learn": 0
+      },
+      {
+        "eng": "'The man is a genius,' marvelled Claire.",
+        "ru": "— Этот человек — гений, — восхитилась Клэр.",
+        "learn": 0
+      },
+      {
+        "eng": "That woman has a genius for organization.",
+        "ru": "У этой женщины — большой талант организатора. / Эта женщина — гениальный организатор.",
+        "learn": 0
+      },
+      {
+        "eng": "He had a genius for getting along with boys.",
+        "ru": "Он обладал талантом прекрасно ладить с ребятами.",
+        "learn": 0
+      },
+      {
+        "eng": "How did you do that? You're an absolute genius.",
+        "ru": "Как ты это сделал? Ты просто гений!",
+        "learn": 0
+      },
+      {
+        "eng": "Her lecture celebrated the genius of the artist.",
+        "ru": "В своём докладе она прославляла гениальность этого художника.",
+        "learn": 0
+      },
+      {
+        "eng": "Melancholy is a common attendant on poetic genius.",
+        "ru": "Меланхолия - частая спутница поэтического гения.",
+        "learn": 1
+      },
+      {
+        "eng": "She's now widely recognized as an artist of genius.",
+        "ru": "Сейчас она широко известна как гениальная художница.",
+        "learn": 0
+      },
+      {
+        "eng": "Mr. Gladstone has an extraordinary genius for finance.",
+        "ru": "У мистера Гладстона выдающийся талант финансиста.",
+        "learn": 0
+      },
+      {
+        "eng": "He isn't stupid, but he isn't exactly a genius either.",
+        "ru": "Он не дурак, но и гением его тоже не назовёшь.",
+        "learn": 1
+      },
+      {
+        "eng": "At the time, his appointment seemed a stroke of genius.",
+        "ru": "В то время его назначение казалось гениальным.",
+        "learn": 0
+      }
+    ]
+  }
 }

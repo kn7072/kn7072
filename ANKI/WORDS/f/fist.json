@@ -1,70 +1,135 @@
 {
-    "fist": {
-        "comment": [
-            "mist",
-            "wist"
-        ],
-        "translate": "кулак, рука, почерк, ударить кулаком, зажимать в руке",
-        "transcription": " |fɪst|",
-        "antonyms": [],
-        "mnemonic": [
-            "fist [фист] кулак - Кулаками (фист-ашки) разобьем.",
-            "fist [fɪst]\n***\nКУЛАКОМ стучит телеграфист. (это) fist"
-        ],
-        "examples": [
-            "He hit his fist on the table.",
-            "She held the money tightly in her fist.",
-            "Don't shake your fist at me!",
-            "He struck me aside with his fist.",
-            "She banged her fist on the table.",
-            "She could empty a pub full of drunks just by lifting one fist.",
-            "He defiantly shook his fist at the policeman.",
-            "He runs the company with an iron fist.",
-            "The balled fist broke brow like thunderbolt.",
-            "She bunched her fingers into a fist.",
-            "I'll stave my fist right through you.",
-            "She pounded on the door with both fists.",
-            "Five years ago, the company was losing money hand over fist.",
-            "His fist cleft the air.",
-            "He pounded his fist on the table.",
-            "She thumped the table with her fist.",
-            "He smashed his fist down on the table.",
-            "He pounded his fist on the table in anger.",
-            "She rammed her fist against the wall in anger.",
-            "Dooley stood up and shook his fist in her face.",
-            "Nina pushed her fist into her mouth and bit down hard.",
-            "Varney slammed his fist down onto the table so hard the dishes jumped.",
-            "She gave the TV a good wham with her fist, and suddenly the picture came back on."
-        ],
-        "example_translate": [
-            "Он ударил кулаком по столу.",
-            "Она крепко держала деньги в своем кулаке.",
-            "Не грози мне своим кулаком!",
-            "Он отбросил меня ударом кулака.",
-            "Она стукнула кулаком по столу.",
-            "Она могла очистить пивнушку, полную пьяниц, всего лишь пригрозив кулаком.",
-            "Он демонстративно потряс кулаком перед полицейским.",
-            "Он руководит компанией железной рукой.",
-            "Сжатый кулак раскроил бровь подобно удару молнии.",
-            "Она сжала пальцы в кулак.",
-            "Я изобью тебя до смерти.",
-            "Она заколотила по двери обоими кулаками.",
-            "Пять лет назад эта компания теряла деньги с огромной скоростью.",
-            "Его кулак рассёк воздух.",
-            "Он стукнул кулаком по столу.",
-            "Она постучала по столу кулаком.",
-            "Он с силой ударил кулаком по столу.",
-            "Он в гневе ударил кулаком по столу.",
-            "Разозлившись, она с размаху треснула кулаком по стене.",
-            "Дули встал и потряс кулаком перед её лицом.",
-            "Нина засунула кулак в рот и сильно сжала зубы.",
-            "Варни так врезал кулаком по крышке стола, что подпрыгнула посуда.",
-            "Она хорошенько стукнула по телевизору кулаком, и изображение неожиданно восстановилось."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "fist": {
+    "comment": [
+      "mist",
+      "wist"
+    ],
+    "translate": "кулак, рука, почерк, ударить кулаком, зажимать в руке",
+    "transcription": " |fɪst|",
+    "antonyms": [],
+    "mnemonic": [
+      "fist [фист] кулак - Кулаками (фист-ашки) разобьем.",
+      "fist [fɪst]\n***\nКУЛАКОМ стучит телеграфист. (это) fist"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He hit his fist on the table.",
+        "ru": "Он ударил кулаком по столу.",
+        "learn": 1
+      },
+      {
+        "eng": "She held the money tightly in her fist.",
+        "ru": "Она крепко держала деньги в своем кулаке.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't shake your fist at me!",
+        "ru": "Не грози мне своим кулаком!",
+        "learn": 0
+      },
+      {
+        "eng": "He struck me aside with his fist.",
+        "ru": "Он отбросил меня ударом кулака.",
+        "learn": 1
+      },
+      {
+        "eng": "She banged her fist on the table.",
+        "ru": "Она стукнула кулаком по столу.",
+        "learn": 1
+      },
+      {
+        "eng": "She could empty a pub full of drunks just by lifting one fist.",
+        "ru": "Она могла очистить пивнушку, полную пьяниц, всего лишь пригрозив кулаком.",
+        "learn": 0
+      },
+      {
+        "eng": "He defiantly shook his fist at the policeman.",
+        "ru": "Он демонстративно потряс кулаком перед полицейским.",
+        "learn": 0
+      },
+      {
+        "eng": "He runs the company with an iron fist.",
+        "ru": "Он руководит компанией железной рукой.",
+        "learn": 0
+      },
+      {
+        "eng": "The balled fist broke brow like thunderbolt.",
+        "ru": "Сжатый кулак раскроил бровь подобно удару молнии.",
+        "learn": 0
+      },
+      {
+        "eng": "She bunched her fingers into a fist.",
+        "ru": "Она сжала пальцы в кулак.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll stave my fist right through you.",
+        "ru": "Я изобью тебя до смерти.",
+        "learn": 0
+      },
+      {
+        "eng": "She pounded on the door with both fists.",
+        "ru": "Она заколотила по двери обоими кулаками.",
+        "learn": 0
+      },
+      {
+        "eng": "Five years ago, the company was losing money hand over fist.",
+        "ru": "Пять лет назад эта компания теряла деньги с огромной скоростью.",
+        "learn": 0
+      },
+      {
+        "eng": "His fist cleft the air.",
+        "ru": "Его кулак рассёк воздух.",
+        "learn": 0
+      },
+      {
+        "eng": "He pounded his fist on the table.",
+        "ru": "Он стукнул кулаком по столу.",
+        "learn": 0
+      },
+      {
+        "eng": "She thumped the table with her fist.",
+        "ru": "Она постучала по столу кулаком.",
+        "learn": 0
+      },
+      {
+        "eng": "He smashed his fist down on the table.",
+        "ru": "Он с силой ударил кулаком по столу.",
+        "learn": 0
+      },
+      {
+        "eng": "He pounded his fist on the table in anger.",
+        "ru": "Он в гневе ударил кулаком по столу.",
+        "learn": 0
+      },
+      {
+        "eng": "She rammed her fist against the wall in anger.",
+        "ru": "Разозлившись, она с размаху треснула кулаком по стене.",
+        "learn": 0
+      },
+      {
+        "eng": "Dooley stood up and shook his fist in her face.",
+        "ru": "Дули встал и потряс кулаком перед её лицом.",
+        "learn": 0
+      },
+      {
+        "eng": "Nina pushed her fist into her mouth and bit down hard.",
+        "ru": "Нина засунула кулак в рот и сильно сжала зубы.",
+        "learn": 0
+      },
+      {
+        "eng": "Varney slammed his fist down onto the table so hard the dishes jumped.",
+        "ru": "Варни так врезал кулаком по крышке стола, что подпрыгнула посуда.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave the TV a good wham with her fist, and suddenly the picture came back on.",
+        "ru": "Она хорошенько стукнула по телевизору кулаком, и изображение неожиданно восстановилось.",
+        "learn": 0
+      }
+    ]
+  }
 }

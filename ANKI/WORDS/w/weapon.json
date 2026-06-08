@@ -1,73 +1,145 @@
 {
-    "weapon": {
-        "comment": [
-            "weapon, threat - оружие, угроза"
-        ],
-        "translate": "оружие, боевое средство, средства самозащиты",
-        "transcription": " |ˈwepən|",
-        "antonyms": [],
-        "mnemonic": [
-            "weapon [(ув)э'пэн] оружие - (Выпен-дриваешься) оружием своим?."
-        ],
-        "examples": [
-            "\"Stop! Drop your weapon!\" ordered the officer.",
-            "She learned how to handle a weapon.",
-            "The teacher had to confiscate a dangerous weapon from the child.",
-            "He had never handled a weapon before.",
-            "Satire is an intellectual weapon.",
-            "The attacker was ordered to hand over his weapon.",
-            "“Stop! Drop your weapon!” ordered the officer.",
-            "a new weapon in the fight against cancer",
-            "He charged his weapon at me.",
-            "A weapon was hidden on his person.",
-            "He was licensed to carry a weapon.",
-            "a weapon used in the commission of a crime",
-            "The said weapon was later found in the defendant's home.",
-            "He held his weapon gripped between his knees.",
-            "The new Russian weapon is clearly operational.",
-            "Reduced spending is our best weapon against inflation.",
-            "a weapon designed for use against enemy armor",
-            "A soldier accidentally discharged his weapon.",
-            "She was holding an extremely odd-looking weapon.",
-            "The pitcher's slider is his most effective weapon.",
-            "The UK should find another weapon to fill the same role.",
-            "The police will have to examine the weapon for fingerprints.",
-            "A good company pension scheme remains a potent weapon for attracting staff.",
-            "Truth is a weapon so powerful that the slowness of its fruition matters little in the end.",
-            "a fail-safe device in a nuclear weapon to deactivate it automatically in the event of accident"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "— Стоять! Оружие на пол! — приказал полисмен.",
-            "Она научилась обращаться с оружием.",
-            "Учителю пришлось отобрать у ученика опасный предмет.",
-            "До этого он никогда не брал в руки оружие.",
-            "Сатира — оружие интеллектуалов.",
-            "Нарушителю было приказано сдать свое оружие.",
-            "— Стой! Бросай оружие! — приказал офицер.",
-            "новое оружие в борьбе против рака",
-            "Он навёл на меня своё оружие.",
-            "У него на теле было спрятано оружие.",
-            "У него была лицензия на ношение оружия.",
-            "оружие, использованное при совершении преступления",
-            "Вышеупомянутое оружие позже было найдено в доме подсудимого.",
-            "Он зажал своё ружье между колен.",
-            "Новое оружие русских явно работает.",
-            "Снижение расходов - наше лучшее оружие против инфляции.",
-            "оружие, предназначенное для использования против бронетехники противника",
-            "Один солдат случайно выстрелил из своего оружия.",
-            "В руках она держала чрезвычайно странное на вид оружие.",
-            "Слайдер (вид броска) этого подающего является его самым действенным оружием.",
-            "Великобритания должна найти на эту роль другое оружие.",
-            "Полиции предстоит проверить оружие для снятия отпечатков пальцев.",
-            "Хорошая программа пенсионного обеспечения сотрудников компании по-прежнему остаётся мощным средством для привлечения кадров.",
-            "Истина – оружие настолько мощное, что время, необходимое для того, чтобы она восторжествовала, в итоге, не имеет большого значения.",
-            "предохранительное устройство в ядерном оружии, установленное с целью его автоматической деактивации в случае аварии"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ea_=_[e]"
-        ]
-    }
+  "weapon": {
+    "comment": [
+      "weapon, threat - оружие, угроза"
+    ],
+    "translate": "оружие, боевое средство, средства самозащиты",
+    "transcription": " |ˈwepən|",
+    "antonyms": [],
+    "mnemonic": [
+      "weapon [(ув)э'пэн] оружие - (Выпен-дриваешься) оружием своим?."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ea_=_[e]"
+    ],
+    "examples": [
+      {
+        "eng": "\"Stop! Drop your weapon!\" ordered the officer.",
+        "ru": "— Стоять! Оружие на пол! — приказал полисмен.",
+        "learn": 0
+      },
+      {
+        "eng": "She learned how to handle a weapon.",
+        "ru": "Она научилась обращаться с оружием.",
+        "learn": 0
+      },
+      {
+        "eng": "The teacher had to confiscate a dangerous weapon from the child.",
+        "ru": "Учителю пришлось отобрать у ученика опасный предмет.",
+        "learn": 0
+      },
+      {
+        "eng": "He had never handled a weapon before.",
+        "ru": "До этого он никогда не брал в руки оружие.",
+        "learn": 0
+      },
+      {
+        "eng": "Satire is an intellectual weapon.",
+        "ru": "Сатира — оружие интеллектуалов.",
+        "learn": 0
+      },
+      {
+        "eng": "The attacker was ordered to hand over his weapon.",
+        "ru": "Нарушителю было приказано сдать свое оружие.",
+        "learn": 0
+      },
+      {
+        "eng": "“Stop! Drop your weapon!” ordered the officer.",
+        "ru": "— Стой! Бросай оружие! — приказал офицер.",
+        "learn": 0
+      },
+      {
+        "eng": "a new weapon in the fight against cancer",
+        "ru": "новое оружие в борьбе против рака",
+        "learn": 0
+      },
+      {
+        "eng": "He charged his weapon at me.",
+        "ru": "Он навёл на меня своё оружие.",
+        "learn": 0
+      },
+      {
+        "eng": "A weapon was hidden on his person.",
+        "ru": "У него на теле было спрятано оружие.",
+        "learn": 0
+      },
+      {
+        "eng": "He was licensed to carry a weapon.",
+        "ru": "У него была лицензия на ношение оружия.",
+        "learn": 0
+      },
+      {
+        "eng": "a weapon used in the commission of a crime",
+        "ru": "оружие, использованное при совершении преступления",
+        "learn": 0
+      },
+      {
+        "eng": "The said weapon was later found in the defendant's home.",
+        "ru": "Вышеупомянутое оружие позже было найдено в доме подсудимого.",
+        "learn": 0
+      },
+      {
+        "eng": "He held his weapon gripped between his knees.",
+        "ru": "Он зажал своё ружье между колен.",
+        "learn": 0
+      },
+      {
+        "eng": "The new Russian weapon is clearly operational.",
+        "ru": "Новое оружие русских явно работает.",
+        "learn": 1
+      },
+      {
+        "eng": "Reduced spending is our best weapon against inflation.",
+        "ru": "Снижение расходов - наше лучшее оружие против инфляции.",
+        "learn": 1
+      },
+      {
+        "eng": "a weapon designed for use against enemy armor",
+        "ru": "оружие, предназначенное для использования против бронетехники противника",
+        "learn": 0
+      },
+      {
+        "eng": "A soldier accidentally discharged his weapon.",
+        "ru": "Один солдат случайно выстрелил из своего оружия.",
+        "learn": 1
+      },
+      {
+        "eng": "She was holding an extremely odd-looking weapon.",
+        "ru": "В руках она держала чрезвычайно странное на вид оружие.",
+        "learn": 0
+      },
+      {
+        "eng": "The pitcher's slider is his most effective weapon.",
+        "ru": "Слайдер (вид броска) этого подающего является его самым действенным оружием.",
+        "learn": 0
+      },
+      {
+        "eng": "The UK should find another weapon to fill the same role.",
+        "ru": "Великобритания должна найти на эту роль другое оружие.",
+        "learn": 0
+      },
+      {
+        "eng": "The police will have to examine the weapon for fingerprints.",
+        "ru": "Полиции предстоит проверить оружие для снятия отпечатков пальцев.",
+        "learn": 0
+      },
+      {
+        "eng": "A good company pension scheme remains a potent weapon for attracting staff.",
+        "ru": "Хорошая программа пенсионного обеспечения сотрудников компании по-прежнему остаётся мощным средством для привлечения кадров.",
+        "learn": 0
+      },
+      {
+        "eng": "Truth is a weapon so powerful that the slowness of its fruition matters little in the end.",
+        "ru": "Истина – оружие настолько мощное, что время, необходимое для того, чтобы она восторжествовала, в итоге, не имеет большого значения.",
+        "learn": 0
+      },
+      {
+        "eng": "a fail-safe device in a nuclear weapon to deactivate it automatically in the event of accident",
+        "ru": "предохранительное устройство в ядерном оружии, установленное с целью его автоматической деактивации в случае аварии",
+        "learn": 0
+      }
+    ]
+  }
 }

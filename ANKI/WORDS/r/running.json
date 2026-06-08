@@ -1,81 +1,167 @@
 {
-    "running": {
-        "comment": [
-            "run",
-            "runner"
-        ],
-        "translate": "бег, ход, работа, бега, работающий, бегущий, идущий, подряд",
-        "transcription": " |ˈrʌnɪŋ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I am winded by running.",
-            "My patience was running out.",
-            "Come on, time's running short!",
-            "We're running low on gas.",
-            "The bathwater is running over!",
-            "'Running away?' he mocked.",
-            "He received a running nose and a sore throat.",
-            "I spent the morning running errands.",
-            "He was running for dear life.",
-            "The trains aren't running now.",
-            "I went with him to the house he was running for.",
-            "I was running a small fever.",
-            "Did you leave the tap running?",
-            "They go running every evening.",
-            "He was running towards the door.",
-            "They came running down the stairs.",
-            "This would be running into a very absurd extreme.",
-            "Running a farm is hard work.",
-            "Jane kept the engine running.",
-            "Water was running off the roof.",
-            "Never add fuel to a running engine.",
-            "The dogs are running deer.",
-            "Inflation was running at 5%.",
-            "The party are running scared.",
-            "Is the engine running smoothly?",
-            "cost of lumber per running foot",
-            "hot and cold running water on tap",
-            "The coal industry is running down.",
-            "He was breathing hard from running.",
-            "Her nylons were running."
-        ],
-        "example_translate": [
-            "Я задыхаюсь от бега.",
-            "Мое терпение было на исходе.",
-            "Живее, времени у нас мало!",
-            "У нас заканчивается газ /горючее, бензин, топливо/.",
-            "Вода в ванной льется через край!",
-            "- Убежать? усмехнулся он.",
-            "Он заработал себе насморк и ангину.",
-            "Всё утро я бегал по делам.",
-            "Он бежал изо всех сил, спасая свою жизнь.",
-            "Поезда сейчас не ходят.",
-            "Я пошёл с ним к дому, который он так расхваливал.",
-            "У меня была небольшая температура.",
-            "Ты что, не закрыл кран?",
-            "Они отправляются на пробежку каждый вечер.",
-            "Он бежал по направлению к двери.",
-            "Они сбежали вниз по лестнице.",
-            "В таком случае это дойдёт просто до абсурда.",
-            "Работа на ферме — тяжёлый труд.",
-            "Джейн не стала глушить мотор.",
-            "Вода сбегала /стекала/ с крыши.",
-            "Никогда не добавляйте топливо в работающий двигатель.",
-            "Собаки бегут за оленями. / Собаки преследуют оленей.",
-            "Инфляция была на уровне пяти процентов.",
-            "Члены партии опасаются неудачи /паникуют/.",
-            "Двигатель работает нормально?",
-            "стоимость пиломатериалов на погонный фут",
-            "горячая и холодная вода из крана",
-            "Угольная промышленность находится на спаде.",
-            "Пробежавшись, он тяжело дышал.",
-            "На её колготках пошли стрелки."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "running": {
+    "comment": [
+      "run",
+      "runner"
+    ],
+    "translate": "бег, ход, работа, бега, работающий, бегущий, идущий, подряд",
+    "transcription": " |ˈrʌnɪŋ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I am winded by running.",
+        "ru": "Я задыхаюсь от бега.",
+        "learn": 0
+      },
+      {
+        "eng": "My patience was running out.",
+        "ru": "Мое терпение было на исходе.",
+        "learn": 0
+      },
+      {
+        "eng": "Come on, time's running short!",
+        "ru": "Живее, времени у нас мало!",
+        "learn": 0
+      },
+      {
+        "eng": "We're running low on gas.",
+        "ru": "У нас заканчивается газ /горючее, бензин, топливо/.",
+        "learn": 0
+      },
+      {
+        "eng": "The bathwater is running over!",
+        "ru": "Вода в ванной льется через край!",
+        "learn": 0
+      },
+      {
+        "eng": "'Running away?' he mocked.",
+        "ru": "- Убежать? усмехнулся он.",
+        "learn": 0
+      },
+      {
+        "eng": "He received a running nose and a sore throat.",
+        "ru": "Он заработал себе насморк и ангину.",
+        "learn": 0
+      },
+      {
+        "eng": "I spent the morning running errands.",
+        "ru": "Всё утро я бегал по делам.",
+        "learn": 0
+      },
+      {
+        "eng": "He was running for dear life.",
+        "ru": "Он бежал изо всех сил, спасая свою жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "The trains aren't running now.",
+        "ru": "Поезда сейчас не ходят.",
+        "learn": 0
+      },
+      {
+        "eng": "I went with him to the house he was running for.",
+        "ru": "Я пошёл с ним к дому, который он так расхваливал.",
+        "learn": 0
+      },
+      {
+        "eng": "I was running a small fever.",
+        "ru": "У меня была небольшая температура.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you leave the tap running?",
+        "ru": "Ты что, не закрыл кран?",
+        "learn": 0
+      },
+      {
+        "eng": "They go running every evening.",
+        "ru": "Они отправляются на пробежку каждый вечер.",
+        "learn": 0
+      },
+      {
+        "eng": "He was running towards the door.",
+        "ru": "Он бежал по направлению к двери.",
+        "learn": 0
+      },
+      {
+        "eng": "They came running down the stairs.",
+        "ru": "Они сбежали вниз по лестнице.",
+        "learn": 0
+      },
+      {
+        "eng": "This would be running into a very absurd extreme.",
+        "ru": "В таком случае это дойдёт просто до абсурда.",
+        "learn": 0
+      },
+      {
+        "eng": "Running a farm is hard work.",
+        "ru": "Работа на ферме — тяжёлый труд.",
+        "learn": 0
+      },
+      {
+        "eng": "Jane kept the engine running.",
+        "ru": "Джейн не стала глушить мотор.",
+        "learn": 0
+      },
+      {
+        "eng": "Water was running off the roof.",
+        "ru": "Вода сбегала /стекала/ с крыши.",
+        "learn": 0
+      },
+      {
+        "eng": "Never add fuel to a running engine.",
+        "ru": "Никогда не добавляйте топливо в работающий двигатель.",
+        "learn": 1
+      },
+      {
+        "eng": "The dogs are running deer.",
+        "ru": "Собаки бегут за оленями. / Собаки преследуют оленей.",
+        "learn": 0
+      },
+      {
+        "eng": "Inflation was running at 5%.",
+        "ru": "Инфляция была на уровне пяти процентов.",
+        "learn": 0
+      },
+      {
+        "eng": "The party are running scared.",
+        "ru": "Члены партии опасаются неудачи /паникуют/.",
+        "learn": 0
+      },
+      {
+        "eng": "Is the engine running smoothly?",
+        "ru": "Двигатель работает нормально?",
+        "learn": 0
+      },
+      {
+        "eng": "cost of lumber per running foot",
+        "ru": "стоимость пиломатериалов на погонный фут",
+        "learn": 0
+      },
+      {
+        "eng": "hot and cold running water on tap",
+        "ru": "горячая и холодная вода из крана",
+        "learn": 0
+      },
+      {
+        "eng": "The coal industry is running down.",
+        "ru": "Угольная промышленность находится на спаде.",
+        "learn": 1
+      },
+      {
+        "eng": "He was breathing hard from running.",
+        "ru": "Пробежавшись, он тяжело дышал.",
+        "learn": 1
+      },
+      {
+        "eng": "Her nylons were running.",
+        "ru": "На её колготках пошли стрелки.",
+        "learn": 0
+      }
+    ]
+  }
 }

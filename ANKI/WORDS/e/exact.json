@@ -1,83 +1,170 @@
 {
-    "exact": {
-        "comment": [
-            "exactly"
-        ],
-        "translate": "точный, строгий, аккуратный, взыскать, взыскивать, вымогать",
-        "transcription": " |ɪɡˈzækt|",
-        "antonyms": [],
-        "mnemonic": [
-            "exact [ɪg'zækt]\nexactly - точно\nexaction- домогательство, вымогательство\n***\nТРЕБОВАЛ много псих|за|акт. (это) exact\nАкт не ТОЧНЫЙ - получи фиг|за|акт. (это) exact\nТОЧНАЯ формула, значит - (X- Zekt). (это) exact\nВЕРНЫЙ расчёт - значит - (X- Zakt). (это) exact\nВерный, правильный, строгий. Требовать, взыскивать.\nВымогать."
-        ],
-        "examples": [
-            "The son was the exact image of his father.",
-            "The teacher exacts obedience from the class.",
-            "The timing had to be exact.",
-            "Return the book to its exact place.",
-            "I can't remember her exact words.",
-            "Their grey hair exacts of us a particular respect.",
-            "The poorer citizens were more exact in obedience.",
-            "What were his exact words?",
-            "That's the exact same thing my dad said.",
-            "The exact position is delineated on the plan.",
-            "Do you suppose this is the exact spot?",
-            "When you go before the judge, you must speak the exact truth.",
-            "Leonard was determined to exact revenge on his wife's killer.",
-            "Advertising is not an exact science - you're always taking a risk.",
-            "I don't remember her exact phrasing.",
-            "He tried to get an exacter expression for his thoughts.",
-            "Work out the exact design before you start construction.",
-            "Their positions are in fact the exact converses of each other.",
-            "The exact location of the hostages is unknown.",
-            "No exact description is given of the march of the spasms.",
-            "It is difficult to nail down the exact meaning of this verb.",
-            "When you come before the judge, you must speak the exact truth.",
-            "The monuments mark the exact / very spot where Columbus came ashore.",
-            "Investigators are still attempting to fix the exact time of the accident.",
-            "The government minister hinted at an early election, but refused to give an exact date.",
-            "an exact replica of the Taj Mahal",
-            "The exact terminology eludes me for the moment.",
-            "We may marshal her to the exact seat to which she is entitled.",
-            "They found it necessary to appoint the exact time and place of their meeting.",
-            "We calculated its exact coordinates."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Сын был точной копией своего отца.",
-            "Учитель требует от класса послушания.",
-            "Сроки должны были быть точными. / Расчет времени должен быть точен. / Расписание должно быть точным.",
-            "Поставь книгу обратно, на то же самое место.",
-            "Я не могу вспомнить, что она сказала дословно.",
-            "Их седины требуют от нас особого уважения.",
-            "Более бедные граждане были послушнее.",
-            "Что он сказал дословно?",
-            "Вот ровно то же самое говорил мой папа.",
-            "На плане отмечено точное местоположение.",
-            "Ты думаешь, что это то самое место?",
-            "Когда ты выступаешь в суде, ты должен говорить чистую правду.",
-            "Леонард был полон решимости отомстить убийце его жены.",
-            "Реклама - это не точная наука, - вы всегда рискуете.",
-            "Я не помню, как она выразилась дословно.",
-            "Он старался выразиться поточнее.",
-            "Перед началом строительства нужно разработать точный проект.",
-            "В действительности их позиции совершенно противоположны.",
-            "Точное местонахождение заложников неизвестно.",
-            "Нет точного описания протекания спазмов.",
-            "Определить точное значение этого глагола сложно.",
-            "Когда ты говоришь в суде, ты должен говорить чистую правду.",
-            "Монументы обозначают то самое место, где Колумб ступил на берег.",
-            "Следователи по-прежнему пытаются установить точное время аварии.",
-            "Министр намекнул на досрочные выборы, но не назвал точную дату.",
-            "точная копия Тадж-Махала",
-            "Я не могу сейчас вспомнить точную терминологию.",
-            "Мы можем посадить её на то место, которое ей полагается по званию.",
-            "Они посчитали необходимым назначить точное время и место встречи.",
-            "Мы вычислили его точные координаты."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "x_=_[gz]"
-        ]
-    }
+  "exact": {
+    "comment": [
+      "exactly"
+    ],
+    "translate": "точный, строгий, аккуратный, взыскать, взыскивать, вымогать",
+    "transcription": " |ɪɡˈzækt|",
+    "antonyms": [],
+    "mnemonic": [
+      "exact [ɪg'zækt]\nexactly - точно\nexaction- домогательство, вымогательство\n***\nТРЕБОВАЛ много псих|за|акт. (это) exact\nАкт не ТОЧНЫЙ - получи фиг|за|акт. (это) exact\nТОЧНАЯ формула, значит - (X- Zekt). (это) exact\nВЕРНЫЙ расчёт - значит - (X- Zakt). (это) exact\nВерный, правильный, строгий. Требовать, взыскивать.\nВымогать."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "x_=_[gz]"
+    ],
+    "examples": [
+      {
+        "eng": "The son was the exact image of his father.",
+        "ru": "Сын был точной копией своего отца.",
+        "learn": 0
+      },
+      {
+        "eng": "The teacher exacts obedience from the class.",
+        "ru": "Учитель требует от класса послушания.",
+        "learn": 0
+      },
+      {
+        "eng": "The timing had to be exact.",
+        "ru": "Сроки должны были быть точными. / Расчет времени должен быть точен. / Расписание должно быть точным.",
+        "learn": 1
+      },
+      {
+        "eng": "Return the book to its exact place.",
+        "ru": "Поставь книгу обратно, на то же самое место.",
+        "learn": 1
+      },
+      {
+        "eng": "I can't remember her exact words.",
+        "ru": "Я не могу вспомнить, что она сказала дословно.",
+        "learn": 0
+      },
+      {
+        "eng": "Their grey hair exacts of us a particular respect.",
+        "ru": "Их седины требуют от нас особого уважения.",
+        "learn": 0
+      },
+      {
+        "eng": "The poorer citizens were more exact in obedience.",
+        "ru": "Более бедные граждане были послушнее.",
+        "learn": 0
+      },
+      {
+        "eng": "What were his exact words?",
+        "ru": "Что он сказал дословно?",
+        "learn": 0
+      },
+      {
+        "eng": "That's the exact same thing my dad said.",
+        "ru": "Вот ровно то же самое говорил мой папа.",
+        "learn": 0
+      },
+      {
+        "eng": "The exact position is delineated on the plan.",
+        "ru": "На плане отмечено точное местоположение.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you suppose this is the exact spot?",
+        "ru": "Ты думаешь, что это то самое место?",
+        "learn": 1
+      },
+      {
+        "eng": "When you go before the judge, you must speak the exact truth.",
+        "ru": "Когда ты выступаешь в суде, ты должен говорить чистую правду.",
+        "learn": 0
+      },
+      {
+        "eng": "Leonard was determined to exact revenge on his wife's killer.",
+        "ru": "Леонард был полон решимости отомстить убийце его жены.",
+        "learn": 0
+      },
+      {
+        "eng": "Advertising is not an exact science - you're always taking a risk.",
+        "ru": "Реклама - это не точная наука, - вы всегда рискуете.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't remember her exact phrasing.",
+        "ru": "Я не помню, как она выразилась дословно.",
+        "learn": 0
+      },
+      {
+        "eng": "He tried to get an exacter expression for his thoughts.",
+        "ru": "Он старался выразиться поточнее.",
+        "learn": 0
+      },
+      {
+        "eng": "Work out the exact design before you start construction.",
+        "ru": "Перед началом строительства нужно разработать точный проект.",
+        "learn": 0
+      },
+      {
+        "eng": "Their positions are in fact the exact converses of each other.",
+        "ru": "В действительности их позиции совершенно противоположны.",
+        "learn": 0
+      },
+      {
+        "eng": "The exact location of the hostages is unknown.",
+        "ru": "Точное местонахождение заложников неизвестно.",
+        "learn": 0
+      },
+      {
+        "eng": "No exact description is given of the march of the spasms.",
+        "ru": "Нет точного описания протекания спазмов.",
+        "learn": 0
+      },
+      {
+        "eng": "It is difficult to nail down the exact meaning of this verb.",
+        "ru": "Определить точное значение этого глагола сложно.",
+        "learn": 0
+      },
+      {
+        "eng": "When you come before the judge, you must speak the exact truth.",
+        "ru": "Когда ты говоришь в суде, ты должен говорить чистую правду.",
+        "learn": 0
+      },
+      {
+        "eng": "The monuments mark the exact / very spot where Columbus came ashore.",
+        "ru": "Монументы обозначают то самое место, где Колумб ступил на берег.",
+        "learn": 0
+      },
+      {
+        "eng": "Investigators are still attempting to fix the exact time of the accident.",
+        "ru": "Следователи по-прежнему пытаются установить точное время аварии.",
+        "learn": 0
+      },
+      {
+        "eng": "The government minister hinted at an early election, but refused to give an exact date.",
+        "ru": "Министр намекнул на досрочные выборы, но не назвал точную дату.",
+        "learn": 0
+      },
+      {
+        "eng": "an exact replica of the Taj Mahal",
+        "ru": "точная копия Тадж-Махала",
+        "learn": 0
+      },
+      {
+        "eng": "The exact terminology eludes me for the moment.",
+        "ru": "Я не могу сейчас вспомнить точную терминологию.",
+        "learn": 1
+      },
+      {
+        "eng": "We may marshal her to the exact seat to which she is entitled.",
+        "ru": "Мы можем посадить её на то место, которое ей полагается по званию.",
+        "learn": 0
+      },
+      {
+        "eng": "They found it necessary to appoint the exact time and place of their meeting.",
+        "ru": "Они посчитали необходимым назначить точное время и место встречи.",
+        "learn": 0
+      },
+      {
+        "eng": "We calculated its exact coordinates.",
+        "ru": "Мы вычислили его точные координаты.",
+        "learn": 0
+      }
+    ]
+  }
 }

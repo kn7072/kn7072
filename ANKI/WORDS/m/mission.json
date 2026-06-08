@@ -1,89 +1,175 @@
 {
-    "mission": {
-        "comment": [
-            "dismiss",
-            "permission",
-            "missing",
-            "miss",
-            "missile",
-            "admission",
-            "omission",
-            "submission",
-            "emission",
-            "dismissal"
-        ],
-        "translate": "миссия, задание, цель, миссионерский, посылать с поручением",
-        "transcription": " |ˈmɪʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The mission had to be aborted.",
-            "His mission was a delicate one.",
-            "The mission was a washout.",
-            "He was sent on a secret mission.",
-            "a member of a trade mission",
-            "The rescue mission had to be aborted.",
-            "configure a plane for a combat mission",
-            "The mission is top secret.",
-            "a manned mission to the moon",
-            "The planes were on a bombing mission.",
-            "Her mission was to improve staff morale.",
-            "They assigned us a very difficult mission.",
-            "a special (or specific) role in the mission",
-            "Our mission was to recover the stolen plans.",
-            "His mission accomplished he took a vacation.",
-            "the troops who spearheaded the rescue mission",
-            "A mission carried him in early life to Italy.",
-            "Our mission was to work out a trade agreement.",
-            "The pilot reported two kills during the mission.",
-            "No one doubts that the mission will be a success.",
-            "US troops taking part in the peacekeeping mission",
-            "The cavalry were brought in to support the mission.",
-            "She considered teaching children to be her mission.",
-            "Their mission was the recovery of the space capsule.",
-            "a science-fiction novel about a mission to people Mars",
-            "The mission was scrubbed just minutes before blastoff.",
-            "The plane was on a mission to hunt out enemy submarines.",
-            "An exchange of fire occurred on a reconnaissance mission.",
-            "Mission accomplished (=we have done what we intended to do).",
-            "These aims were subordinate to the main aims of the mission."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Задание пришлось отменить.",
-            "У него было поручение деликатного характера.",
-            "Миссия окончилась полным провалом.",
-            "Его отправили на секретное задание.",
-            "представитель торговой миссии",
-            "Спасательную операцию пришлось прекратить.",
-            "оснастить самолет для боевого задания",
-            "Задание является совершенно секретным.",
-            "пилотируемый полёт на Луну",
-            "Самолёты выполняли задачу на бомбометание.",
-            "Её задача заключалась в улучшении морального климата в коллективе.",
-            "Нам поручили очень сложную задачу.",
-            "особая (или конкретная) роль в данной миссии",
-            "Наше задание состояло в том, чтобы вернуть похищенные планы.",
-            "Так как задача его была выполнена, он взял отпуск.",
-            "войска, которые возглавляли спасательную операцию",
-            "Призвание привело его в юные годы в Италию.",
-            "Нам было поручено разработать торговое соглашение.",
-            "Пилот доложил, что в ходе выполнения задания два человека были убиты.",
-            "Никто не сомневается, что миссия будет успешной.",
-            "американские войска, принимающие участие в миротворческой миссии",
-            "Кавалерия были привлечена для поддержки этой миссии.",
-            "Она считала преподавание своим призванием.",
-            "Их задачей было возвращение на землю космической капсулы.",
-            "научно-фантастический роман об экспедиции с целью заселения Марса людьми",
-            "Взлёт отменили всего за несколько минут до старта ракеты.",
-            "Самолет выполнял задачу по охоте на вражеские подводные лодки.",
-            "Во время разведывательной операции произошла перестрелка.",
-            "Задача выполнена (т.е. мы сделали то, что собирались).",
-            "Эти задачи были подчинены главной цели миссии."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "mission": {
+    "comment": [
+      "dismiss",
+      "permission",
+      "missing",
+      "miss",
+      "missile",
+      "admission",
+      "omission",
+      "submission",
+      "emission",
+      "dismissal"
+    ],
+    "translate": "миссия, задание, цель, миссионерский, посылать с поручением",
+    "transcription": " |ˈmɪʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The mission had to be aborted.",
+        "ru": "Задание пришлось отменить.",
+        "learn": 1
+      },
+      {
+        "eng": "His mission was a delicate one.",
+        "ru": "У него было поручение деликатного характера.",
+        "learn": 0
+      },
+      {
+        "eng": "The mission was a washout.",
+        "ru": "Миссия окончилась полным провалом.",
+        "learn": 0
+      },
+      {
+        "eng": "He was sent on a secret mission.",
+        "ru": "Его отправили на секретное задание.",
+        "learn": 0
+      },
+      {
+        "eng": "a member of a trade mission",
+        "ru": "представитель торговой миссии",
+        "learn": 0
+      },
+      {
+        "eng": "The rescue mission had to be aborted.",
+        "ru": "Спасательную операцию пришлось прекратить.",
+        "learn": 0
+      },
+      {
+        "eng": "configure a plane for a combat mission",
+        "ru": "оснастить самолет для боевого задания",
+        "learn": 0
+      },
+      {
+        "eng": "The mission is top secret.",
+        "ru": "Задание является совершенно секретным.",
+        "learn": 0
+      },
+      {
+        "eng": "a manned mission to the moon",
+        "ru": "пилотируемый полёт на Луну",
+        "learn": 0
+      },
+      {
+        "eng": "The planes were on a bombing mission.",
+        "ru": "Самолёты выполняли задачу на бомбометание.",
+        "learn": 0
+      },
+      {
+        "eng": "Her mission was to improve staff morale.",
+        "ru": "Её задача заключалась в улучшении морального климата в коллективе.",
+        "learn": 1
+      },
+      {
+        "eng": "They assigned us a very difficult mission.",
+        "ru": "Нам поручили очень сложную задачу.",
+        "learn": 0
+      },
+      {
+        "eng": "a special (or specific) role in the mission",
+        "ru": "особая (или конкретная) роль в данной миссии",
+        "learn": 0
+      },
+      {
+        "eng": "Our mission was to recover the stolen plans.",
+        "ru": "Наше задание состояло в том, чтобы вернуть похищенные планы.",
+        "learn": 0
+      },
+      {
+        "eng": "His mission accomplished he took a vacation.",
+        "ru": "Так как задача его была выполнена, он взял отпуск.",
+        "learn": 0
+      },
+      {
+        "eng": "the troops who spearheaded the rescue mission",
+        "ru": "войска, которые возглавляли спасательную операцию",
+        "learn": 0
+      },
+      {
+        "eng": "A mission carried him in early life to Italy.",
+        "ru": "Призвание привело его в юные годы в Италию.",
+        "learn": 0
+      },
+      {
+        "eng": "Our mission was to work out a trade agreement.",
+        "ru": "Нам было поручено разработать торговое соглашение.",
+        "learn": 0
+      },
+      {
+        "eng": "The pilot reported two kills during the mission.",
+        "ru": "Пилот доложил, что в ходе выполнения задания два человека были убиты.",
+        "learn": 0
+      },
+      {
+        "eng": "No one doubts that the mission will be a success.",
+        "ru": "Никто не сомневается, что миссия будет успешной.",
+        "learn": 0
+      },
+      {
+        "eng": "US troops taking part in the peacekeeping mission",
+        "ru": "американские войска, принимающие участие в миротворческой миссии",
+        "learn": 0
+      },
+      {
+        "eng": "The cavalry were brought in to support the mission.",
+        "ru": "Кавалерия были привлечена для поддержки этой миссии.",
+        "learn": 0
+      },
+      {
+        "eng": "She considered teaching children to be her mission.",
+        "ru": "Она считала преподавание своим призванием.",
+        "learn": 0
+      },
+      {
+        "eng": "Their mission was the recovery of the space capsule.",
+        "ru": "Их задачей было возвращение на землю космической капсулы.",
+        "learn": 0
+      },
+      {
+        "eng": "a science-fiction novel about a mission to people Mars",
+        "ru": "научно-фантастический роман об экспедиции с целью заселения Марса людьми",
+        "learn": 0
+      },
+      {
+        "eng": "The mission was scrubbed just minutes before blastoff.",
+        "ru": "Взлёт отменили всего за несколько минут до старта ракеты.",
+        "learn": 0
+      },
+      {
+        "eng": "The plane was on a mission to hunt out enemy submarines.",
+        "ru": "Самолет выполнял задачу по охоте на вражеские подводные лодки.",
+        "learn": 0
+      },
+      {
+        "eng": "An exchange of fire occurred on a reconnaissance mission.",
+        "ru": "Во время разведывательной операции произошла перестрелка.",
+        "learn": 0
+      },
+      {
+        "eng": "Mission accomplished (=we have done what we intended to do).",
+        "ru": "Задача выполнена (т.е. мы сделали то, что собирались).",
+        "learn": 0
+      },
+      {
+        "eng": "These aims were subordinate to the main aims of the mission.",
+        "ru": "Эти задачи были подчинены главной цели миссии.",
+        "learn": 1
+      }
+    ]
+  }
 }

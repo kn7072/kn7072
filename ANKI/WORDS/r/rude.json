@@ -1,83 +1,169 @@
 {
-    "rude": {
-        "comment": [
-            "intruder"
-        ],
-        "translate": "грубый, неприличный, невежливый, резкий, сырой, невоспитанный, внезапный",
-        "transcription": " |ruːd|",
-        "antonyms": [],
-        "mnemonic": [
-            "rude [ру:д] грубый, непристойный - Ганс (Руд-ель*) был груб и непристоен с советскими танками (*Немецкий ас, уничтоживший 519 советских танков).",
-            "rude [ru: d]\n***\nГРУБОМУ поможет труд. (это) rude\nНЕВОСПИТАННОГО исправит труд. (это) rude\nГРУБЫЕ люди глоткой берут. (это) rude"
-        ],
-        "examples": [
-            "He answered me very rudely.",
-            "I don't want to appear rude.",
-            "It's rude to stare.",
-            "It's rude to point at people.",
-            "I was shocked by her rude behavior.",
-            "She replied to me in a very rude manner.",
-            "How could you be so rude? Have you no shame?",
-            "I didn't mean to be rude, but I had to leave early.",
-            "I can't believe that he was so rude to me.",
-            "Why are you so rude to her?",
-            "He's rude and lacks polish.",
-            "Don't stick your tongue out, it's rude!",
-            "It's rude to put out your tongue at people.",
-            "I don't wish to be rude...",
-            "How rude of her to barge into the conversation.",
-            "I heard someone make a rude noise.",
-            "Don't use that rude tone of voice with me.",
-            "She expressed surprise at his rude behavior.",
-            "Don't take it personally., she's rude to everyone.",
-            "We were rudely awakened by the storm.",
-            "He insulted her with his rude remarks.",
-            "That rude man barged into me in the shop.",
-            "Don't bolt your food down like that, it's rude.",
-            "Rude language should be expurgated from classroom books.",
-            "He's just a rude, insensitive jerk.",
-            "an abrasive display of rude behavior",
-            "A rude circuit of stones, of unknown origin.",
-            "They are rude where they should be reverent.",
-            "He was rude and inconsiderate to the waiter.",
-            "There was no need to fling in that rude remark."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он ответил мне очень грубо.",
-            "Я не хочу показаться грубым.",
-            "Пялиться - нехорошо.",
-            "Некрасиво показывать на людей пальцем.",
-            "Я был потрясен её грубым /неприличным, оскорбительным/ поведением.",
-            "Она ответила мне очень грубо.",
-            "Как можно было себя так грубо /неприлично/ вести? Совесть у тебя есть?",
-            "Я не хотел показаться грубым, но мне нужно было уйти пораньше.",
-            "Не могу поверить, что он был так груб со мной.",
-            "Почему ты так груб с ней?",
-            "Он груб и неотёсан.",
-            "Не высовывай язык, это неприлично /некрасиво/!",
-            "Неприлично показывать людям язык.",
-            "Не хотелось бы показаться грубым... (в качестве извинения, предупреждения)",
-            "Как грубо с её стороны влезать в разговор.",
-            "Я услышал, как кто-то издал неприличный звук.",
-            "Не смей со мной разговаривать таким грубым тоном.",
-            "Она выразила удивление его грубым поведением.",
-            "Не принимайте это на свой счёт: она всем так грубит.",
-            "Нас внезапно разбудила гроза /буря, шторм/.",
-            "Он оскорбил её своими грубыми замечаниями.",
-            "Какой-то грубиян чуть не сбил меня с ног в магазине.",
-            "Не запихивай еду в рот с такой жадностью, это неприлично.",
-            "Грубые слова и выражения должны быть устранены из учебников.",
-            "Он просто грубый и бесчувственный придурок /урод, козёл и т.п./.",
-            "оскорбительное проявление грубого поведения",
-            "Неровный круг неизвестного происхождения, выложенный из камней.",
-            "Они грубы, тогда как должны быть почтительны.",
-            "Он был грубым и невнимательным к официанту.",
-            "Незачем было вставлять это грубое замечание."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "rude": {
+    "comment": [
+      "intruder"
+    ],
+    "translate": "грубый, неприличный, невежливый, резкий, сырой, невоспитанный, внезапный",
+    "transcription": " |ruːd|",
+    "antonyms": [],
+    "mnemonic": [
+      "rude [ру:д] грубый, непристойный - Ганс (Руд-ель*) был груб и непристоен с советскими танками (*Немецкий ас, уничтоживший 519 советских танков).",
+      "rude [ru: d]\n***\nГРУБОМУ поможет труд. (это) rude\nНЕВОСПИТАННОГО исправит труд. (это) rude\nГРУБЫЕ люди глоткой берут. (это) rude"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He answered me very rudely.",
+        "ru": "Он ответил мне очень грубо.",
+        "learn": 1
+      },
+      {
+        "eng": "I don't want to appear rude.",
+        "ru": "Я не хочу показаться грубым.",
+        "learn": 0
+      },
+      {
+        "eng": "It's rude to stare.",
+        "ru": "Пялиться - нехорошо.",
+        "learn": 0
+      },
+      {
+        "eng": "It's rude to point at people.",
+        "ru": "Некрасиво показывать на людей пальцем.",
+        "learn": 0
+      },
+      {
+        "eng": "I was shocked by her rude behavior.",
+        "ru": "Я был потрясен её грубым /неприличным, оскорбительным/ поведением.",
+        "learn": 0
+      },
+      {
+        "eng": "She replied to me in a very rude manner.",
+        "ru": "Она ответила мне очень грубо.",
+        "learn": 0
+      },
+      {
+        "eng": "How could you be so rude? Have you no shame?",
+        "ru": "Как можно было себя так грубо /неприлично/ вести? Совесть у тебя есть?",
+        "learn": 0
+      },
+      {
+        "eng": "I didn't mean to be rude, but I had to leave early.",
+        "ru": "Я не хотел показаться грубым, но мне нужно было уйти пораньше.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't believe that he was so rude to me.",
+        "ru": "Не могу поверить, что он был так груб со мной.",
+        "learn": 0
+      },
+      {
+        "eng": "Why are you so rude to her?",
+        "ru": "Почему ты так груб с ней?",
+        "learn": 0
+      },
+      {
+        "eng": "He's rude and lacks polish.",
+        "ru": "Он груб и неотёсан.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't stick your tongue out, it's rude!",
+        "ru": "Не высовывай язык, это неприлично /некрасиво/!",
+        "learn": 0
+      },
+      {
+        "eng": "It's rude to put out your tongue at people.",
+        "ru": "Неприлично показывать людям язык.",
+        "learn": 1
+      },
+      {
+        "eng": "I don't wish to be rude...",
+        "ru": "Не хотелось бы показаться грубым... (в качестве извинения, предупреждения)",
+        "learn": 0
+      },
+      {
+        "eng": "How rude of her to barge into the conversation.",
+        "ru": "Как грубо с её стороны влезать в разговор.",
+        "learn": 0
+      },
+      {
+        "eng": "I heard someone make a rude noise.",
+        "ru": "Я услышал, как кто-то издал неприличный звук.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't use that rude tone of voice with me.",
+        "ru": "Не смей со мной разговаривать таким грубым тоном.",
+        "learn": 1
+      },
+      {
+        "eng": "She expressed surprise at his rude behavior.",
+        "ru": "Она выразила удивление его грубым поведением.",
+        "learn": 1
+      },
+      {
+        "eng": "Don't take it personally., she's rude to everyone.",
+        "ru": "Не принимайте это на свой счёт: она всем так грубит.",
+        "learn": 0
+      },
+      {
+        "eng": "We were rudely awakened by the storm.",
+        "ru": "Нас внезапно разбудила гроза /буря, шторм/.",
+        "learn": 1
+      },
+      {
+        "eng": "He insulted her with his rude remarks.",
+        "ru": "Он оскорбил её своими грубыми замечаниями.",
+        "learn": 0
+      },
+      {
+        "eng": "That rude man barged into me in the shop.",
+        "ru": "Какой-то грубиян чуть не сбил меня с ног в магазине.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't bolt your food down like that, it's rude.",
+        "ru": "Не запихивай еду в рот с такой жадностью, это неприлично.",
+        "learn": 0
+      },
+      {
+        "eng": "Rude language should be expurgated from classroom books.",
+        "ru": "Грубые слова и выражения должны быть устранены из учебников.",
+        "learn": 0
+      },
+      {
+        "eng": "He's just a rude, insensitive jerk.",
+        "ru": "Он просто грубый и бесчувственный придурок /урод, козёл и т.п./.",
+        "learn": 0
+      },
+      {
+        "eng": "an abrasive display of rude behavior",
+        "ru": "оскорбительное проявление грубого поведения",
+        "learn": 0
+      },
+      {
+        "eng": "A rude circuit of stones, of unknown origin.",
+        "ru": "Неровный круг неизвестного происхождения, выложенный из камней.",
+        "learn": 0
+      },
+      {
+        "eng": "They are rude where they should be reverent.",
+        "ru": "Они грубы, тогда как должны быть почтительны.",
+        "learn": 0
+      },
+      {
+        "eng": "He was rude and inconsiderate to the waiter.",
+        "ru": "Он был грубым и невнимательным к официанту.",
+        "learn": 0
+      },
+      {
+        "eng": "There was no need to fling in that rude remark.",
+        "ru": "Незачем было вставлять это грубое замечание.",
+        "learn": 0
+      }
+    ]
+  }
 }

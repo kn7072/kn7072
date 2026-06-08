@@ -1,86 +1,172 @@
 {
-    "tooth": {
-        "comment": [
-            "toothache",
-            "tool",
-            "too",
-            "cartoon",
-            "stool"
-        ],
-        "translate": "зуб, зубец, зацеплять, зацепляться, нарезать зубцы",
-        "transcription": " |tuːθ|",
-        "antonyms": [],
-        "mnemonic": [
-            "tooth [ту:(фс)] зуб - Этот козырной (туз) тебе не по зубам."
-        ],
-        "examples": [
-            "I had my tooth out.",
-            "Which tooth aches?",
-            "He cut a tooth.",
-            "The baby cut a tooth.",
-            "My tooth still hurts me.",
-            "The dentist will have to pull that tooth.",
-            "Her tooth chipped.",
-            "The exterior of the tooth consists of very hard enamel.",
-            "I bit into something hard and chipped my tooth.",
-            "You should brush your teeth every morning and night.",
-            "The new tooth is cutting.",
-            "He has a set of false teeth.",
-            "My tooth has just come out.",
-            "This tooth feels very loose.",
-            "He is a bit long in the tooth.",
-            "She clenched her teeth in anger.",
-            "I had to have a tooth extracted.",
-            "When did she cut her first tooth?",
-            "The dog sank its teeth into my leg.",
-            "I may have to have this tooth drawn out.",
-            "You'll have to have that tooth extracted.",
-            "The dentist implanted a tooth in the gum.",
-            "The labor union showed that it has teeth.",
-            "I decided to have the offending tooth removed.",
-            "Her smile revealed a row of white, even teeth.",
-            "The children ran out of the water, teeth chattering.",
-            "We need an Environment Agency that really has teeth.",
-            "He's rich now, but he had to fight tooth and nail for it.",
-            "I'm getting a bit long in the tooth for this sort of thing.",
-            "Last time I went to the dentist I had to have two teeth out."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мне удалили зуб.",
-            "Какой зуб вас беспокоит?",
-            "У него прорезался зуб.",
-            "У малыша прорезался зуб.",
-            "(Мой) зуб все ещё болит.",
-            "Стоматологу придётся выдернуть этот зуб.",
-            "У неё сломался зуб.",
-            "Внешняя поверхность зуба состоит из очень твёрдой эмали.",
-            "Я укусил что-то твёрдое и отколол кусок зуба.",
-            "Чистить зубы нужно каждый день, утром и вечером.",
-            "Прорезывается новый зуб.",
-            "У него (есть) вставные зубы.",
-            "У меня только что выпал зуб.",
-            "Этот зуб очень сильно шатается.",
-            "Он уже далеко не мальчик.",
-            "Она стиснула зубы от злости.",
-            "Мне пришлось удалить зуб.",
-            "Когда у нее прорезался первый зуб?",
-            "Собака вонзила зубы в мою ногу.",
-            "Этот зуб мне возможно придётся удалить.",
-            "Вам придётся удалить этот зуб.",
-            "Стоматолог имплантировал в десну зуб.",
-            "Профсоюз показал свои зубы.",
-            "Я решил удалить больной /причиняющий боль, проблемный/ зуб.",
-            "Улыбнувшись, она обнажила ряд белых, ровных зубов.",
-            "Дети выбежали из воды, стуча зубами.",
-            "Нам нужно Агентство по делам охраны природы, наделённое реальными полномочиями.",
-            "Он теперь разбогател, но вынужден был сражаться за это, не жалея сил.",
-            "Я становлюсь немного староват для такого рода вещей.",
-            "Когда я в прошлый раз пошёл к стоматологу, мне пришлось вырвать два зуба."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "tooth": {
+    "comment": [
+      "toothache",
+      "tool",
+      "too",
+      "cartoon",
+      "stool"
+    ],
+    "translate": "зуб, зубец, зацеплять, зацепляться, нарезать зубцы",
+    "transcription": " |tuːθ|",
+    "antonyms": [],
+    "mnemonic": [
+      "tooth [ту:(фс)] зуб - Этот козырной (туз) тебе не по зубам."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I had my tooth out.",
+        "ru": "Мне удалили зуб.",
+        "learn": 0
+      },
+      {
+        "eng": "Which tooth aches?",
+        "ru": "Какой зуб вас беспокоит?",
+        "learn": 0
+      },
+      {
+        "eng": "He cut a tooth.",
+        "ru": "У него прорезался зуб.",
+        "learn": 0
+      },
+      {
+        "eng": "The baby cut a tooth.",
+        "ru": "У малыша прорезался зуб.",
+        "learn": 0
+      },
+      {
+        "eng": "My tooth still hurts me.",
+        "ru": "(Мой) зуб все ещё болит.",
+        "learn": 0
+      },
+      {
+        "eng": "The dentist will have to pull that tooth.",
+        "ru": "Стоматологу придётся выдернуть этот зуб.",
+        "learn": 0
+      },
+      {
+        "eng": "Her tooth chipped.",
+        "ru": "У неё сломался зуб.",
+        "learn": 1
+      },
+      {
+        "eng": "The exterior of the tooth consists of very hard enamel.",
+        "ru": "Внешняя поверхность зуба состоит из очень твёрдой эмали.",
+        "learn": 0
+      },
+      {
+        "eng": "I bit into something hard and chipped my tooth.",
+        "ru": "Я укусил что-то твёрдое и отколол кусок зуба.",
+        "learn": 0
+      },
+      {
+        "eng": "You should brush your teeth every morning and night.",
+        "ru": "Чистить зубы нужно каждый день, утром и вечером.",
+        "learn": 0
+      },
+      {
+        "eng": "The new tooth is cutting.",
+        "ru": "Прорезывается новый зуб.",
+        "learn": 1
+      },
+      {
+        "eng": "He has a set of false teeth.",
+        "ru": "У него (есть) вставные зубы.",
+        "learn": 0
+      },
+      {
+        "eng": "My tooth has just come out.",
+        "ru": "У меня только что выпал зуб.",
+        "learn": 0
+      },
+      {
+        "eng": "This tooth feels very loose.",
+        "ru": "Этот зуб очень сильно шатается.",
+        "learn": 1
+      },
+      {
+        "eng": "He is a bit long in the tooth.",
+        "ru": "Он уже далеко не мальчик.",
+        "learn": 0
+      },
+      {
+        "eng": "She clenched her teeth in anger.",
+        "ru": "Она стиснула зубы от злости.",
+        "learn": 0
+      },
+      {
+        "eng": "I had to have a tooth extracted.",
+        "ru": "Мне пришлось удалить зуб.",
+        "learn": 0
+      },
+      {
+        "eng": "When did she cut her first tooth?",
+        "ru": "Когда у нее прорезался первый зуб?",
+        "learn": 0
+      },
+      {
+        "eng": "The dog sank its teeth into my leg.",
+        "ru": "Собака вонзила зубы в мою ногу.",
+        "learn": 0
+      },
+      {
+        "eng": "I may have to have this tooth drawn out.",
+        "ru": "Этот зуб мне возможно придётся удалить.",
+        "learn": 0
+      },
+      {
+        "eng": "You'll have to have that tooth extracted.",
+        "ru": "Вам придётся удалить этот зуб.",
+        "learn": 0
+      },
+      {
+        "eng": "The dentist implanted a tooth in the gum.",
+        "ru": "Стоматолог имплантировал в десну зуб.",
+        "learn": 0
+      },
+      {
+        "eng": "The labor union showed that it has teeth.",
+        "ru": "Профсоюз показал свои зубы.",
+        "learn": 0
+      },
+      {
+        "eng": "I decided to have the offending tooth removed.",
+        "ru": "Я решил удалить больной /причиняющий боль, проблемный/ зуб.",
+        "learn": 1
+      },
+      {
+        "eng": "Her smile revealed a row of white, even teeth.",
+        "ru": "Улыбнувшись, она обнажила ряд белых, ровных зубов.",
+        "learn": 0
+      },
+      {
+        "eng": "The children ran out of the water, teeth chattering.",
+        "ru": "Дети выбежали из воды, стуча зубами.",
+        "learn": 0
+      },
+      {
+        "eng": "We need an Environment Agency that really has teeth.",
+        "ru": "Нам нужно Агентство по делам охраны природы, наделённое реальными полномочиями.",
+        "learn": 0
+      },
+      {
+        "eng": "He's rich now, but he had to fight tooth and nail for it.",
+        "ru": "Он теперь разбогател, но вынужден был сражаться за это, не жалея сил.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm getting a bit long in the tooth for this sort of thing.",
+        "ru": "Я становлюсь немного староват для такого рода вещей.",
+        "learn": 0
+      },
+      {
+        "eng": "Last time I went to the dentist I had to have two teeth out.",
+        "ru": "Когда я в прошлый раз пошёл к стоматологу, мне пришлось вырвать два зуба.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,85 +1,173 @@
 {
-    "determine": {
-        "comment": [
-            "determined",
-            "determination",
-            "terminal",
-            "terminology"
-        ],
-        "translate": "определять, устанавливать, решать, решаться, измерять, детерминировать",
-        "transcription": " |dɪˈtɜːrmɪn|",
-        "antonyms": [],
-        "mnemonic": [
-            "determine [dɪ'tɜ:mɪn]\n***\nОПРЕДЕЛИМ любовь \"дитями\" (н). (это) determine\nОПРЕДЕЛИ, кто сзади|Томин! (это) determine"
-        ],
-        "examples": [
-            "Demand determines the price.",
-            "We determined to leave / on leaving early in the morning.",
-            "Experts have determined that the signature was forged.",
-            "The demand for a product determines its price.",
-            "I determined upon an independent course of action.",
-            "I determined I should have one look through the cabin window.",
-            "The death of Edward III determined the crisis.",
-            "They determined to leave immediately.",
-            "I am trying to determine what happened and when.",
-            "Investigators are still trying to determine the cause of the accident.",
-            "We have to determine whether our fears are well-grounded.",
-            "At first it is necessary to determine the grade of the disease.",
-            "It was too dark to determine his identity.",
-            "The court determined that the taxpayer was not entitled to a refund.",
-            "They are determining if they should stay.",
-            "some of the parameters that determine the taste of wine",
-            "The tests will help the doctors determine what treatment to use.",
-            "The aim of the inquiry was to determine what had caused the accident.",
-            "She tried to determine the extent of the damage.",
-            "It only determines the action of chemical force.",
-            "The age of a wine is a determining factor as to how it tastes.",
-            "They are trying to determine the cause of the crash.",
-            "We determined on the latter route, it appearing to be the shortest.",
-            "The date of the court case has not yet been determined.",
-            "The tree determines the border of the property.",
-            "Tests were conducted to determine paternity.",
-            "The new policy will be determined by a special committee.",
-            "a test to determine the amount of unbound iron in the blood",
-            "They assayed the gold to determine its purity.",
-            "Cost will determine the methods of manufacture."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Цену определяет спрос.",
-            "Мы решили уехать рано утром.",
-            "Эксперты установили, что подпись была подделана.",
-            "Спрос на товар определяет его цену.",
-            "Я твёрдо решил действовать самостоятельно.",
-            "Я решил, что мне стоит разок посмотреть в иллюминатор.",
-            "Смерть Эдуарда III положила конец данному кризису.",
-            "Они решили немедленно уехать.",
-            "Я пытаюсь выяснить, что случилось, и когда.",
-            "Следователи всё ещё пытаются определить причину данной аварии.",
-            "Мы должны установить, обоснованны ли наши опасения.",
-            "Сначала необходимо определить стадию болезни.",
-            "Было слишком темно, чтобы установить его личность.",
-            "Суд решил, что у этого налогоплательщика нет права на обратную выплату.",
-            "Они сейчас решают, оставаться им или уезжать.",
-            "некоторые параметры, определяющие вкусовые качества вина",
-            "Анализы помогут врачам решить, какое лечение следует использовать.",
-            "Целью расследования было определить, что стало причиной аварии.",
-            "Она попыталась определить размер нанесённого ущерба.",
-            "Это только вызывает активный химический процесс.",
-            "Возраст вина является определяющим фактором его вкусовых качеств.",
-            "Они пытаются определить причину сбоя.",
-            "Мы выбрали последний из предложенных вариантов маршрута, потому что он казался наиболее коротким.",
-            "Дата судебного заседания пока что не определена.",
-            "Это дерево определяет границы данного объекта недвижимости.",
-            "Были проведены анализы для установления отцовства.",
-            "Новая политика будет определяться специальной комиссией.",
-            "анализ для измерения объёма несвязанного железа в крови",
-            "Они взяли пробу золота, чтобы измерить степень его чистоты.",
-            "Метод производства будет определяться стоимостью."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "determine": {
+    "comment": [
+      "determined",
+      "determination",
+      "terminal",
+      "terminology"
+    ],
+    "translate": "определять, устанавливать, решать, решаться, измерять, детерминировать",
+    "transcription": " |dɪˈtɜːrmɪn|",
+    "antonyms": [],
+    "mnemonic": [
+      "determine [dɪ'tɜ:mɪn]\n***\nОПРЕДЕЛИМ любовь \"дитями\" (н). (это) determine\nОПРЕДЕЛИ, кто сзади|Томин! (это) determine"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "infinitive_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Demand determines the price.",
+        "ru": "Цену определяет спрос.",
+        "learn": 0
+      },
+      {
+        "eng": "We determined to leave / on leaving early in the morning.",
+        "ru": "Мы решили уехать рано утром.",
+        "learn": 0
+      },
+      {
+        "eng": "Experts have determined that the signature was forged.",
+        "ru": "Эксперты установили, что подпись была подделана.",
+        "learn": 0
+      },
+      {
+        "eng": "The demand for a product determines its price.",
+        "ru": "Спрос на товар определяет его цену.",
+        "learn": 0
+      },
+      {
+        "eng": "I determined upon an independent course of action.",
+        "ru": "Я твёрдо решил действовать самостоятельно.",
+        "learn": 0
+      },
+      {
+        "eng": "I determined I should have one look through the cabin window.",
+        "ru": "Я решил, что мне стоит разок посмотреть в иллюминатор.",
+        "learn": 0
+      },
+      {
+        "eng": "The death of Edward III determined the crisis.",
+        "ru": "Смерть Эдуарда III положила конец данному кризису.",
+        "learn": 0
+      },
+      {
+        "eng": "They determined to leave immediately.",
+        "ru": "Они решили немедленно уехать.",
+        "learn": 0
+      },
+      {
+        "eng": "I am trying to determine what happened and when.",
+        "ru": "Я пытаюсь выяснить, что случилось, и когда.",
+        "learn": 0
+      },
+      {
+        "eng": "Investigators are still trying to determine the cause of the accident.",
+        "ru": "Следователи всё ещё пытаются определить причину данной аварии.",
+        "learn": 0
+      },
+      {
+        "eng": "We have to determine whether our fears are well-grounded.",
+        "ru": "Мы должны установить, обоснованны ли наши опасения.",
+        "learn": 0
+      },
+      {
+        "eng": "At first it is necessary to determine the grade of the disease.",
+        "ru": "Сначала необходимо определить стадию болезни.",
+        "learn": 0
+      },
+      {
+        "eng": "It was too dark to determine his identity.",
+        "ru": "Было слишком темно, чтобы установить его личность.",
+        "learn": 0
+      },
+      {
+        "eng": "The court determined that the taxpayer was not entitled to a refund.",
+        "ru": "Суд решил, что у этого налогоплательщика нет права на обратную выплату.",
+        "learn": 0
+      },
+      {
+        "eng": "They are determining if they should stay.",
+        "ru": "Они сейчас решают, оставаться им или уезжать.",
+        "learn": 0
+      },
+      {
+        "eng": "some of the parameters that determine the taste of wine",
+        "ru": "некоторые параметры, определяющие вкусовые качества вина",
+        "learn": 0
+      },
+      {
+        "eng": "The tests will help the doctors determine what treatment to use.",
+        "ru": "Анализы помогут врачам решить, какое лечение следует использовать.",
+        "learn": 0
+      },
+      {
+        "eng": "The aim of the inquiry was to determine what had caused the accident.",
+        "ru": "Целью расследования было определить, что стало причиной аварии.",
+        "learn": 1
+      },
+      {
+        "eng": "She tried to determine the extent of the damage.",
+        "ru": "Она попыталась определить размер нанесённого ущерба.",
+        "learn": 1
+      },
+      {
+        "eng": "It only determines the action of chemical force.",
+        "ru": "Это только вызывает активный химический процесс.",
+        "learn": 0
+      },
+      {
+        "eng": "The age of a wine is a determining factor as to how it tastes.",
+        "ru": "Возраст вина является определяющим фактором его вкусовых качеств.",
+        "learn": 0
+      },
+      {
+        "eng": "They are trying to determine the cause of the crash.",
+        "ru": "Они пытаются определить причину сбоя.",
+        "learn": 0
+      },
+      {
+        "eng": "We determined on the latter route, it appearing to be the shortest.",
+        "ru": "Мы выбрали последний из предложенных вариантов маршрута, потому что он казался наиболее коротким.",
+        "learn": 0
+      },
+      {
+        "eng": "The date of the court case has not yet been determined.",
+        "ru": "Дата судебного заседания пока что не определена.",
+        "learn": 0
+      },
+      {
+        "eng": "The tree determines the border of the property.",
+        "ru": "Это дерево определяет границы данного объекта недвижимости.",
+        "learn": 0
+      },
+      {
+        "eng": "Tests were conducted to determine paternity.",
+        "ru": "Были проведены анализы для установления отцовства.",
+        "learn": 0
+      },
+      {
+        "eng": "The new policy will be determined by a special committee.",
+        "ru": "Новая политика будет определяться специальной комиссией.",
+        "learn": 0
+      },
+      {
+        "eng": "a test to determine the amount of unbound iron in the blood",
+        "ru": "анализ для измерения объёма несвязанного железа в крови",
+        "learn": 0
+      },
+      {
+        "eng": "They assayed the gold to determine its purity.",
+        "ru": "Они взяли пробу золота, чтобы измерить степень его чистоты.",
+        "learn": 0
+      },
+      {
+        "eng": "Cost will determine the methods of manufacture.",
+        "ru": "Метод производства будет определяться стоимостью.",
+        "learn": 0
+      }
+    ]
+  }
 }

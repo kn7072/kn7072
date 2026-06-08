@@ -1,86 +1,172 @@
 {
-    "arm": {
-        "comment": [
-            "armed",
-            "army",
-            "arms",
-            "armour",
-            "armchair"
-        ],
-        "translate": "рука, рычаг, рукав, рукоятка, ветвь, вооружиться, вооружать, вооружаться",
-        "transcription": " |ɑːrm|",
-        "antonyms": [],
-        "mnemonic": [
-            "arm [арм] рука (от кисти до плеча) - У (арм-ян) руки золотые."
-        ],
-        "examples": [
-            "The army was well armed.",
-            "Dave has a broken arm.",
-            "He had a tattoo on his left arm.",
-            "I am well armed against rain.",
-            "She took me by the arm and hurried me out of the room.",
-            "You must be armed with answers to any question.",
-            "Tim's mother put her arms around him.",
-            "All available forces are under arms.",
-            "They armed the men for battle.",
-            "We must arm ourselves against the enemy.",
-            "We bought the house to arm against big price rises.",
-            "He had a pile of books in his arms.",
-            "Boys as young as 13 are taking up arms to defend the city.",
-            "the arm of the record player",
-            "arming women with the right to vote",
-            "Pat was carrying a box under his arm.",
-            "assiduously arming along the crowded street this shambling half-blind old woman",
-            "They numbered about 12,000 of all arms.",
-            "They arm people with accurate information.",
-            "The government is cutting arms expenditure.",
-            "The two opponents are arming for the fight.",
-            "Gerry took Fiona in his arms and kissed her.",
-            "There is a 15-foot arm supporting the antenna.",
-            "He folded his arms and leaned back in his chair.",
-            "The U.S. armed the freedom fighters in Afghanistan.",
-            "The old lady rushed to greet him, arms outstretched.",
-            "She took him by the arm and pushed him out of the door.",
-            "The group of fighters was armed by a foreign government.",
-            "The rebels armed a group of 2000 men to attack the city.",
-            "Epson America is the US marketing arm of a Japanese company."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Армия была хорошо вооружена.",
-            "У Дэйва сломана рука.",
-            "У него была татуировка на левой руке.",
-            "Я хорошо экипирован на случай дождя.",
-            "Она взяла меня за руку и поскорей вывела из комнаты.",
-            "У вас должны быть ответы на любой вопрос.",
-            "Мать Тима обняла его.",
-            "Все имеющиеся силы поставлены под ружьё.",
-            "Они вооружили людей для битвы.",
-            "Мы должны вооружиться для борьбы с врагом.",
-            "Мы купили этот дом, чтобы защититься от быстрого роста цен.",
-            "У него в руках была стопка книг.",
-            "Уже начиная с тринадцати лет, мальчики берут в руки оружие, чтобы защитить город.",
-            "тонарм проигрывателя",
-            "предоставление женщинам своего рода оружия в виде права голоса",
-            "Пэт несла под мышкой какую-то коробку.",
-            "старательно ведя под руку эту полуслепую, шаркающую старуху по запруженной толпой улице",
-            "Во всех воинских подразделениях насчитывалось около двенадцати тысяч человек.",
-            "Они вооружают людей точной информацией.",
-            "Правительство сокращает расходы на вооружения.",
-            "Оба соперника готовятся к дискуссии.",
-            "Джерри обнял Фиону и поцеловал её.",
-            "Антенну поддерживает опора длиной пятнадцать футов (ок. 4,5 м).",
-            "Он скрестил руки на груди и откинулся в кресле.",
-            "США вооружали борцов за свободу в Афганистане.",
-            "Старушка бросилась ему навстречу с распростёртыми объятиями.",
-            "Она взяла его за руку и вытолкала за двери.",
-            "Данная группа бойцов была вооружена правительством иностранного государства.",
-            "Повстанцы вооружили группу из двух тысяч человек для нападения на город.",
-            "\"Epson America\" представляет собой американское маркетинговое подразделение одной японской компании."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "arm": {
+    "comment": [
+      "armed",
+      "army",
+      "arms",
+      "armour",
+      "armchair"
+    ],
+    "translate": "рука, рычаг, рукав, рукоятка, ветвь, вооружиться, вооружать, вооружаться",
+    "transcription": " |ɑːrm|",
+    "antonyms": [],
+    "mnemonic": [
+      "arm [арм] рука (от кисти до плеча) - У (арм-ян) руки золотые."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The army was well armed.",
+        "ru": "Армия была хорошо вооружена.",
+        "learn": 0
+      },
+      {
+        "eng": "Dave has a broken arm.",
+        "ru": "У Дэйва сломана рука.",
+        "learn": 0
+      },
+      {
+        "eng": "He had a tattoo on his left arm.",
+        "ru": "У него была татуировка на левой руке.",
+        "learn": 0
+      },
+      {
+        "eng": "I am well armed against rain.",
+        "ru": "Я хорошо экипирован на случай дождя.",
+        "learn": 0
+      },
+      {
+        "eng": "She took me by the arm and hurried me out of the room.",
+        "ru": "Она взяла меня за руку и поскорей вывела из комнаты.",
+        "learn": 0
+      },
+      {
+        "eng": "You must be armed with answers to any question.",
+        "ru": "У вас должны быть ответы на любой вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "Tim's mother put her arms around him.",
+        "ru": "Мать Тима обняла его.",
+        "learn": 0
+      },
+      {
+        "eng": "All available forces are under arms.",
+        "ru": "Все имеющиеся силы поставлены под ружьё.",
+        "learn": 0
+      },
+      {
+        "eng": "They armed the men for battle.",
+        "ru": "Они вооружили людей для битвы.",
+        "learn": 0
+      },
+      {
+        "eng": "We must arm ourselves against the enemy.",
+        "ru": "Мы должны вооружиться для борьбы с врагом.",
+        "learn": 0
+      },
+      {
+        "eng": "We bought the house to arm against big price rises.",
+        "ru": "Мы купили этот дом, чтобы защититься от быстрого роста цен.",
+        "learn": 0
+      },
+      {
+        "eng": "He had a pile of books in his arms.",
+        "ru": "У него в руках была стопка книг.",
+        "learn": 1
+      },
+      {
+        "eng": "Boys as young as 13 are taking up arms to defend the city.",
+        "ru": "Уже начиная с тринадцати лет, мальчики берут в руки оружие, чтобы защитить город.",
+        "learn": 0
+      },
+      {
+        "eng": "the arm of the record player",
+        "ru": "тонарм проигрывателя",
+        "learn": 0
+      },
+      {
+        "eng": "arming women with the right to vote",
+        "ru": "предоставление женщинам своего рода оружия в виде права голоса",
+        "learn": 0
+      },
+      {
+        "eng": "Pat was carrying a box under his arm.",
+        "ru": "Пэт несла под мышкой какую-то коробку.",
+        "learn": 0
+      },
+      {
+        "eng": "assiduously arming along the crowded street this shambling half-blind old woman",
+        "ru": "старательно ведя под руку эту полуслепую, шаркающую старуху по запруженной толпой улице",
+        "learn": 0
+      },
+      {
+        "eng": "They numbered about 12,000 of all arms.",
+        "ru": "Во всех воинских подразделениях насчитывалось около двенадцати тысяч человек.",
+        "learn": 0
+      },
+      {
+        "eng": "They arm people with accurate information.",
+        "ru": "Они вооружают людей точной информацией.",
+        "learn": 0
+      },
+      {
+        "eng": "The government is cutting arms expenditure.",
+        "ru": "Правительство сокращает расходы на вооружения.",
+        "learn": 0
+      },
+      {
+        "eng": "The two opponents are arming for the fight.",
+        "ru": "Оба соперника готовятся к дискуссии.",
+        "learn": 0
+      },
+      {
+        "eng": "Gerry took Fiona in his arms and kissed her.",
+        "ru": "Джерри обнял Фиону и поцеловал её.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a 15-foot arm supporting the antenna.",
+        "ru": "Антенну поддерживает опора длиной пятнадцать футов (ок. 4,5 м).",
+        "learn": 1
+      },
+      {
+        "eng": "He folded his arms and leaned back in his chair.",
+        "ru": "Он скрестил руки на груди и откинулся в кресле.",
+        "learn": 0
+      },
+      {
+        "eng": "The U.S. armed the freedom fighters in Afghanistan.",
+        "ru": "США вооружали борцов за свободу в Афганистане.",
+        "learn": 0
+      },
+      {
+        "eng": "The old lady rushed to greet him, arms outstretched.",
+        "ru": "Старушка бросилась ему навстречу с распростёртыми объятиями.",
+        "learn": 0
+      },
+      {
+        "eng": "She took him by the arm and pushed him out of the door.",
+        "ru": "Она взяла его за руку и вытолкала за двери.",
+        "learn": 0
+      },
+      {
+        "eng": "The group of fighters was armed by a foreign government.",
+        "ru": "Данная группа бойцов была вооружена правительством иностранного государства.",
+        "learn": 1
+      },
+      {
+        "eng": "The rebels armed a group of 2000 men to attack the city.",
+        "ru": "Повстанцы вооружили группу из двух тысяч человек для нападения на город.",
+        "learn": 0
+      },
+      {
+        "eng": "Epson America is the US marketing arm of a Japanese company.",
+        "ru": "\"Epson America\" представляет собой американское маркетинговое подразделение одной японской компании.",
+        "learn": 0
+      }
+    ]
+  }
 }

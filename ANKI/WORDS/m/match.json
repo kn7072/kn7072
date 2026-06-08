@@ -1,88 +1,175 @@
 {
-    "match": {
-        "comment": [
-            "mathematics",
-            "maths",
-            "math",
-            "mathematical",
-            "matching"
-        ],
-        "translate": " матч, состязание, спичка, соответствовать, спичечный, равносильный",
-        "transcription": "  |mætʃ|",
-        "antonyms": [],
-        "mnemonic": [
-            "match [мэч] спички - Кто с (меч-ом) придёт, того спичкой сожги.",
-            "match [mæʧ]\n***\nПОДОБРАТЬ ПОД ПАРУ мяч. (это) match\nПОДОБРАТЬ ПОД ПАРУ меч. (это) match\nСостязание., спичка., пара., ровня.,\n***\nЯ поставил заплатку \"patch\",\nи нет ей ровни \"match\"."
-        ],
-        "examples": [
-            "They are no good match.",
-            "These colours don't match.",
-            "It is a match!",
-            "The two pieces match",
-            "They're a perfect match.",
-            "Have you got a match / light?",
-            "A suitable match for their daughter.",
-            "Your socks don't match.",
-            "May I trouble you for a match?",
-            "The match ended in a tie.",
-            "The match blew out in the wind.",
-            "She's a perfect match for him.",
-            "This color matches your skin tone.",
-            "He has met his match.",
-            "His story doesn't match the facts.",
-            "A match flared in the darkness.",
-            "No one can match him in shooting.",
-            "I am looking for a match for my new shoes.",
-            "Do you think this outfit matches?",
-            "The match was rained off.",
-            "The match ended in a draw.",
-            "Carlos was no match for the champion.",
-            "They tanked the match.",
-            "Who used the last match?",
-            "The upbeat music matched her mood.",
-            "Good teams win their home matches.",
-            "The boxer won the match by knockout.",
-            "Fischer challenged Spassky to a match.",
-            "He won with an ace on match point.",
-            "Your socks don't match each other."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Они совсем не подходят друг другу.",
-            "Эти цвета плохо сочетаются.",
-            "Идет!, По рукам!",
-            "Эти два куска подходят друг к другу.",
-            "Они идеальная пара. / Они идеально подходят друг другу.",
-            "У вас огоньку не найдется?, Не дадите прикурить?",
-            "Подходящая партия для их дочери.",
-            "У тебя непарные носки.",
-            "можно попросить у вас спичку?",
-            "Матч закончился в ничью.",
-            "Спичка потухла на ветру. / Ветер задул спичку.",
-            "Она ему идеально подходит.",
-            "Этот цвет подходит к оттенку вашей кожи.",
-            "Нашла коса на камень.",
-            "Его рассказ не совпадает с фактами.",
-            "Спичка ярко вспыхнула в темноте.",
-            "В стрельбе ему нет равных.",
-            "Я ищу что-нибудь подходящее к своим новым туфлям.",
-            "Ты думаешь, что эта одежда сочетается?",
-            "Матч был отменён /перенесён/ из-за дождя.",
-            "Матч закончился вничью.",
-            "Карлос был не ровня чемпиону.",
-            "Они нарочно проиграли матч.",
-            "Кто использовал последнюю спичку?",
-            "Жизнерадостная музыка соответствовала её настроению.",
-            "Хорошие команды выиграют свои домашние матчи.",
-            "Боксёр выиграл матч нокаутом.",
-            "Фишер вызвал Спасского на состязание.",
-            "Он победил, подав эйс на матчболе. (о теннисе, эйс — подача навылет)",
-            "У тебя разные носки."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "tch_=_[tʃ|]"
-        ]
-    }
+  "match": {
+    "comment": [
+      "mathematics",
+      "maths",
+      "math",
+      "mathematical",
+      "matching"
+    ],
+    "translate": " матч, состязание, спичка, соответствовать, спичечный, равносильный",
+    "transcription": "  |mætʃ|",
+    "antonyms": [],
+    "mnemonic": [
+      "match [мэч] спички - Кто с (меч-ом) придёт, того спичкой сожги.",
+      "match [mæʧ]\n***\nПОДОБРАТЬ ПОД ПАРУ мяч. (это) match\nПОДОБРАТЬ ПОД ПАРУ меч. (это) match\nСостязание., спичка., пара., ровня.,\n***\nЯ поставил заплатку \"patch\",\nи нет ей ровни \"match\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "tch_=_[tʃ|]"
+    ],
+    "examples": [
+      {
+        "eng": "They are no good match.",
+        "ru": "Они совсем не подходят друг другу.",
+        "learn": 0
+      },
+      {
+        "eng": "These colours don't match.",
+        "ru": "Эти цвета плохо сочетаются.",
+        "learn": 0
+      },
+      {
+        "eng": "It is a match!",
+        "ru": "Идет!, По рукам!",
+        "learn": 0
+      },
+      {
+        "eng": "The two pieces match",
+        "ru": "Эти два куска подходят друг к другу.",
+        "learn": 0
+      },
+      {
+        "eng": "They're a perfect match.",
+        "ru": "Они идеальная пара. / Они идеально подходят друг другу.",
+        "learn": 0
+      },
+      {
+        "eng": "Have you got a match / light?",
+        "ru": "У вас огоньку не найдется?, Не дадите прикурить?",
+        "learn": 0
+      },
+      {
+        "eng": "A suitable match for their daughter.",
+        "ru": "Подходящая партия для их дочери.",
+        "learn": 0
+      },
+      {
+        "eng": "Your socks don't match.",
+        "ru": "У тебя непарные носки.",
+        "learn": 0
+      },
+      {
+        "eng": "May I trouble you for a match?",
+        "ru": "можно попросить у вас спичку?",
+        "learn": 0
+      },
+      {
+        "eng": "The match ended in a tie.",
+        "ru": "Матч закончился в ничью.",
+        "learn": 0
+      },
+      {
+        "eng": "The match blew out in the wind.",
+        "ru": "Спичка потухла на ветру. / Ветер задул спичку.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a perfect match for him.",
+        "ru": "Она ему идеально подходит.",
+        "learn": 0
+      },
+      {
+        "eng": "This color matches your skin tone.",
+        "ru": "Этот цвет подходит к оттенку вашей кожи.",
+        "learn": 0
+      },
+      {
+        "eng": "He has met his match.",
+        "ru": "Нашла коса на камень.",
+        "learn": 0
+      },
+      {
+        "eng": "His story doesn't match the facts.",
+        "ru": "Его рассказ не совпадает с фактами.",
+        "learn": 0
+      },
+      {
+        "eng": "A match flared in the darkness.",
+        "ru": "Спичка ярко вспыхнула в темноте.",
+        "learn": 1
+      },
+      {
+        "eng": "No one can match him in shooting.",
+        "ru": "В стрельбе ему нет равных.",
+        "learn": 0
+      },
+      {
+        "eng": "I am looking for a match for my new shoes.",
+        "ru": "Я ищу что-нибудь подходящее к своим новым туфлям.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you think this outfit matches?",
+        "ru": "Ты думаешь, что эта одежда сочетается?",
+        "learn": 0
+      },
+      {
+        "eng": "The match was rained off.",
+        "ru": "Матч был отменён /перенесён/ из-за дождя.",
+        "learn": 0
+      },
+      {
+        "eng": "The match ended in a draw.",
+        "ru": "Матч закончился вничью.",
+        "learn": 0
+      },
+      {
+        "eng": "Carlos was no match for the champion.",
+        "ru": "Карлос был не ровня чемпиону.",
+        "learn": 0
+      },
+      {
+        "eng": "They tanked the match.",
+        "ru": "Они нарочно проиграли матч.",
+        "learn": 0
+      },
+      {
+        "eng": "Who used the last match?",
+        "ru": "Кто использовал последнюю спичку?",
+        "learn": 1
+      },
+      {
+        "eng": "The upbeat music matched her mood.",
+        "ru": "Жизнерадостная музыка соответствовала её настроению.",
+        "learn": 0
+      },
+      {
+        "eng": "Good teams win their home matches.",
+        "ru": "Хорошие команды выиграют свои домашние матчи.",
+        "learn": 0
+      },
+      {
+        "eng": "The boxer won the match by knockout.",
+        "ru": "Боксёр выиграл матч нокаутом.",
+        "learn": 1
+      },
+      {
+        "eng": "Fischer challenged Spassky to a match.",
+        "ru": "Фишер вызвал Спасского на состязание.",
+        "learn": 0
+      },
+      {
+        "eng": "He won with an ace on match point.",
+        "ru": "Он победил, подав эйс на матчболе. (о теннисе, эйс — подача навылет)",
+        "learn": 0
+      },
+      {
+        "eng": "Your socks don't match each other.",
+        "ru": "У тебя разные носки.",
+        "learn": 0
+      }
+    ]
+  }
 }

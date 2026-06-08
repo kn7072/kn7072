@@ -1,83 +1,169 @@
 {
-    "official": {
-        "comment": [
-            "office",
-            "officially",
-            "officer",
-            "coffin"
-        ],
-        "translate": "официальный, служебный, должностной, чиновник, должностное лицо, служащий",
-        "transcription": " |əˈfɪʃl|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I have no official business to bind me.",
-            "Customs official peered into the driver's window.",
-            "Unemployment is way above the official figure.",
-            "You can't get a ticket through official channels.",
-            "We were invited to attend the official opening.",
-            "Her official title is editor.",
-            "She has a distinguished record as a public official.",
-            "A company official responded to our request.",
-            "The government issued an official denial of the rumour.",
-            "The new official was warmly applauded.",
-            "The railway official punched a hole out of my ticket.",
-            "a fat official sweltering in his uniform under the burning sun",
-            "The official language of Ghana is English.",
-            "The property vests in the official receiver.",
-            "It must go through official channels.",
-            "I know not how his proper official title ran.",
-            "Despite protests, the official decision stood.",
-            "The country adopted an official policy of neutrality.",
-            "The election returns are now official.",
-            "He was the official timer for the race.",
-            "the official mascot of the 2002 World Cup",
-            "the official endorsement of his candidacy",
-            "The Vice President is on an official trip.",
-            "Many doubted the official version of events.",
-            "Our house passed under his official control.",
-            "You will have to get official permission first.",
-            "Your promotion to Senior Editor is now official.",
-            "The official opening of the institute was in May.",
-            "She was accused of destroying official documents.",
-            "The official enquiry was a long-drawn-out process."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я не связан никакими служебными делами.",
-            "Сотрудник таможни заглянул в окно водителя.",
-            "Безработица намного превышает официальные цифры.",
-            "Обычным способом билетов не достать.",
-            "Мы были приглашены на официальную церемонию открытия.",
-            "Её официальная должность — редактор.",
-            "Она блестяще проявила себя в роли должностного лица.",
-            "Один из служащих компании откликнулся на нашу просьбу.",
-            "Правительство официально опровергло этот слух.",
-            "Новое должностное лицо тепло приветствовали аплодисментами.",
-            "Контролёр проколол дырку в моём билете.",
-            "толстый чиновник, изнемогающий в своей униформе под палящим солнцем",
-            "Официальный язык Ганы — английский.",
-            "Имущество переходит к временному управляющему.",
-            "Это должно пойти по официальным каналам.",
-            "Я не знаю, каков был его официальный титул.",
-            "Несмотря на протесты, официальное решение осталось в силе.",
-            "Страна приняла официальную политику невмешательства.",
-            "Теперь результаты выборов оглашены официально.",
-            "Он был официальным хронометристом гонки.",
-            "официальный талисман Чемпионата мира по футболу 2002 года",
-            "официальная поддержка его кандидатуры",
-            "Вице-президент находится в официальной поездке.",
-            "Многие сомневались в официальной версии событий.",
-            "Наш дом официально перешёл под его контроль.",
-            "Сначала вам придётся получить официальное разрешение.",
-            "Теперь вы официально повышены на должность старшего редактора.",
-            "Официальное открытие института состоялось в мае.",
-            "Её обвинили в уничтожении официальных документов.",
-            "Процесс официального расследования чрезвычайно затянулся."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "official": {
+    "comment": [
+      "office",
+      "officially",
+      "officer",
+      "coffin"
+    ],
+    "translate": "официальный, служебный, должностной, чиновник, должностное лицо, служащий",
+    "transcription": " |əˈfɪʃl|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I have no official business to bind me.",
+        "ru": "Я не связан никакими служебными делами.",
+        "learn": 0
+      },
+      {
+        "eng": "Customs official peered into the driver's window.",
+        "ru": "Сотрудник таможни заглянул в окно водителя.",
+        "learn": 0
+      },
+      {
+        "eng": "Unemployment is way above the official figure.",
+        "ru": "Безработица намного превышает официальные цифры.",
+        "learn": 0
+      },
+      {
+        "eng": "You can't get a ticket through official channels.",
+        "ru": "Обычным способом билетов не достать.",
+        "learn": 0
+      },
+      {
+        "eng": "We were invited to attend the official opening.",
+        "ru": "Мы были приглашены на официальную церемонию открытия.",
+        "learn": 1
+      },
+      {
+        "eng": "Her official title is editor.",
+        "ru": "Её официальная должность — редактор.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a distinguished record as a public official.",
+        "ru": "Она блестяще проявила себя в роли должностного лица.",
+        "learn": 0
+      },
+      {
+        "eng": "A company official responded to our request.",
+        "ru": "Один из служащих компании откликнулся на нашу просьбу.",
+        "learn": 0
+      },
+      {
+        "eng": "The government issued an official denial of the rumour.",
+        "ru": "Правительство официально опровергло этот слух.",
+        "learn": 0
+      },
+      {
+        "eng": "The new official was warmly applauded.",
+        "ru": "Новое должностное лицо тепло приветствовали аплодисментами.",
+        "learn": 0
+      },
+      {
+        "eng": "The railway official punched a hole out of my ticket.",
+        "ru": "Контролёр проколол дырку в моём билете.",
+        "learn": 0
+      },
+      {
+        "eng": "a fat official sweltering in his uniform under the burning sun",
+        "ru": "толстый чиновник, изнемогающий в своей униформе под палящим солнцем",
+        "learn": 0
+      },
+      {
+        "eng": "The official language of Ghana is English.",
+        "ru": "Официальный язык Ганы — английский.",
+        "learn": 0
+      },
+      {
+        "eng": "The property vests in the official receiver.",
+        "ru": "Имущество переходит к временному управляющему.",
+        "learn": 0
+      },
+      {
+        "eng": "It must go through official channels.",
+        "ru": "Это должно пойти по официальным каналам.",
+        "learn": 0
+      },
+      {
+        "eng": "I know not how his proper official title ran.",
+        "ru": "Я не знаю, каков был его официальный титул.",
+        "learn": 0
+      },
+      {
+        "eng": "Despite protests, the official decision stood.",
+        "ru": "Несмотря на протесты, официальное решение осталось в силе.",
+        "learn": 0
+      },
+      {
+        "eng": "The country adopted an official policy of neutrality.",
+        "ru": "Страна приняла официальную политику невмешательства.",
+        "learn": 0
+      },
+      {
+        "eng": "The election returns are now official.",
+        "ru": "Теперь результаты выборов оглашены официально.",
+        "learn": 0
+      },
+      {
+        "eng": "He was the official timer for the race.",
+        "ru": "Он был официальным хронометристом гонки.",
+        "learn": 0
+      },
+      {
+        "eng": "the official mascot of the 2002 World Cup",
+        "ru": "официальный талисман Чемпионата мира по футболу 2002 года",
+        "learn": 0
+      },
+      {
+        "eng": "the official endorsement of his candidacy",
+        "ru": "официальная поддержка его кандидатуры",
+        "learn": 0
+      },
+      {
+        "eng": "The Vice President is on an official trip.",
+        "ru": "Вице-президент находится в официальной поездке.",
+        "learn": 0
+      },
+      {
+        "eng": "Many doubted the official version of events.",
+        "ru": "Многие сомневались в официальной версии событий.",
+        "learn": 0
+      },
+      {
+        "eng": "Our house passed under his official control.",
+        "ru": "Наш дом официально перешёл под его контроль.",
+        "learn": 0
+      },
+      {
+        "eng": "You will have to get official permission first.",
+        "ru": "Сначала вам придётся получить официальное разрешение.",
+        "learn": 0
+      },
+      {
+        "eng": "Your promotion to Senior Editor is now official.",
+        "ru": "Теперь вы официально повышены на должность старшего редактора.",
+        "learn": 0
+      },
+      {
+        "eng": "The official opening of the institute was in May.",
+        "ru": "Официальное открытие института состоялось в мае.",
+        "learn": 1
+      },
+      {
+        "eng": "She was accused of destroying official documents.",
+        "ru": "Её обвинили в уничтожении официальных документов.",
+        "learn": 1
+      },
+      {
+        "eng": "The official enquiry was a long-drawn-out process.",
+        "ru": "Процесс официального расследования чрезвычайно затянулся.",
+        "learn": 0
+      }
+    ]
+  }
 }

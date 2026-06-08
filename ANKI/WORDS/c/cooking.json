@@ -1,83 +1,169 @@
 {
-    "cooking": {
-        "comment": [
-            "cook",
-            "cooker",
-            "cookie",
-            "cookery"
-        ],
-        "translate": "готовка, варка, варение, кухонный",
-        "transcription": " |ˈkʊkɪŋ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I love cooking.",
-            "Cooking is a useful skill.",
-            "Cooking is not my department.",
-            "Indian cooking",
-            "I could smell dinner cooking.",
-            "French cooking",
-            "Creole cooking",
-            "I've been taking cooking classes.",
-            "I'm not overly fond of cooking.",
-            "She is an apprentice in cooking.",
-            "She showed her talent for cooking.",
-            "Italian cooking",
-            "He is skilled at cooking.",
-            "He's a novice in cooking.",
-            "Cooking can be a great art.",
-            "glorify one's spouse's cooking",
-            "My mother does all the cooking.",
-            "He was cooking rice for supper.",
-            "Cooking time is about 20 minutes.",
-            "She was singing while she was cooking.",
-            "Cooking every day is a thankless task.",
-            "Disjoint the chicken before cooking it.",
-            "I need you to help me with the cooking.",
-            "Condense the milk by cooking it slowly.",
-            "a cooking method used in French cuisine",
-            "Hamburgers were cooking in the kitchen.",
-            "Microwave ovens have simplified cooking.",
-            "Cooking smells wafted up from downstairs.",
-            "Starch is used in cooking as a thickening.",
-            "Continue cooking until the meat is tender."
-        ],
-        "example_translate": [
-            "Я обожаю готовить.",
-            "Умение готовить — это полезный навык.",
-            "Кулинария — это не для меня.",
-            "Индийская кухня",
-            "Я чувствовал запах готовящегося ужина.",
-            "Французская кухня",
-            "креольская кухня",
-            "Я беру уроки готовки. / Я хожу на кулинарные курсы.",
-            "Я не слишком люблю готовить.",
-            "Она еще только учится готовить.",
-            "Она проявила свой талант к готовке.",
-            "Итальянская кухня",
-            "Он мастерски готовит.",
-            "В кулинарии он новичок.",
-            "Приготовление пищи бывает великим искусством.",
-            "расхваливать готовку /стряпню/ своего супруга /своей супруги/",
-            "Моя мать готовит всю еду.",
-            "Он готовил рис на ужин.",
-            "Время приготовления — около двадцати минут.",
-            "Она пела, когда готовила.",
-            "Каждый день готовить — дело неблагодарное.",
-            "Разделайте курицу перед её приготовлением.",
-            "Нужно, чтобы вы помогли мне с готовкой.",
-            "Сгустите молоко, уварив его на медленном огне.",
-            "способ приготовления пищи, который используется во французской кухне",
-            "На кухне готовили гамбургеры.",
-            "Микроволновые печи упростили приготовление пищи.",
-            "Снизу доносились запахи готовящейся еды.",
-            "Крахмал используется в кулинарии в качестве загустителя.",
-            "Продолжайте варить до тех пор, пока мясо не станет мягким."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "cooking": {
+    "comment": [
+      "cook",
+      "cooker",
+      "cookie",
+      "cookery"
+    ],
+    "translate": "готовка, варка, варение, кухонный",
+    "transcription": " |ˈkʊkɪŋ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I love cooking.",
+        "ru": "Я обожаю готовить.",
+        "learn": 0
+      },
+      {
+        "eng": "Cooking is a useful skill.",
+        "ru": "Умение готовить — это полезный навык.",
+        "learn": 0
+      },
+      {
+        "eng": "Cooking is not my department.",
+        "ru": "Кулинария — это не для меня.",
+        "learn": 0
+      },
+      {
+        "eng": "Indian cooking",
+        "ru": "Индийская кухня",
+        "learn": 0
+      },
+      {
+        "eng": "I could smell dinner cooking.",
+        "ru": "Я чувствовал запах готовящегося ужина.",
+        "learn": 0
+      },
+      {
+        "eng": "French cooking",
+        "ru": "Французская кухня",
+        "learn": 0
+      },
+      {
+        "eng": "Creole cooking",
+        "ru": "креольская кухня",
+        "learn": 0
+      },
+      {
+        "eng": "I've been taking cooking classes.",
+        "ru": "Я беру уроки готовки. / Я хожу на кулинарные курсы.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm not overly fond of cooking.",
+        "ru": "Я не слишком люблю готовить.",
+        "learn": 0
+      },
+      {
+        "eng": "She is an apprentice in cooking.",
+        "ru": "Она еще только учится готовить.",
+        "learn": 0
+      },
+      {
+        "eng": "She showed her talent for cooking.",
+        "ru": "Она проявила свой талант к готовке.",
+        "learn": 0
+      },
+      {
+        "eng": "Italian cooking",
+        "ru": "Итальянская кухня",
+        "learn": 0
+      },
+      {
+        "eng": "He is skilled at cooking.",
+        "ru": "Он мастерски готовит.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a novice in cooking.",
+        "ru": "В кулинарии он новичок.",
+        "learn": 0
+      },
+      {
+        "eng": "Cooking can be a great art.",
+        "ru": "Приготовление пищи бывает великим искусством.",
+        "learn": 0
+      },
+      {
+        "eng": "glorify one's spouse's cooking",
+        "ru": "расхваливать готовку /стряпню/ своего супруга /своей супруги/",
+        "learn": 0
+      },
+      {
+        "eng": "My mother does all the cooking.",
+        "ru": "Моя мать готовит всю еду.",
+        "learn": 0
+      },
+      {
+        "eng": "He was cooking rice for supper.",
+        "ru": "Он готовил рис на ужин.",
+        "learn": 1
+      },
+      {
+        "eng": "Cooking time is about 20 minutes.",
+        "ru": "Время приготовления — около двадцати минут.",
+        "learn": 0
+      },
+      {
+        "eng": "She was singing while she was cooking.",
+        "ru": "Она пела, когда готовила.",
+        "learn": 0
+      },
+      {
+        "eng": "Cooking every day is a thankless task.",
+        "ru": "Каждый день готовить — дело неблагодарное.",
+        "learn": 0
+      },
+      {
+        "eng": "Disjoint the chicken before cooking it.",
+        "ru": "Разделайте курицу перед её приготовлением.",
+        "learn": 0
+      },
+      {
+        "eng": "I need you to help me with the cooking.",
+        "ru": "Нужно, чтобы вы помогли мне с готовкой.",
+        "learn": 0
+      },
+      {
+        "eng": "Condense the milk by cooking it slowly.",
+        "ru": "Сгустите молоко, уварив его на медленном огне.",
+        "learn": 0
+      },
+      {
+        "eng": "a cooking method used in French cuisine",
+        "ru": "способ приготовления пищи, который используется во французской кухне",
+        "learn": 0
+      },
+      {
+        "eng": "Hamburgers were cooking in the kitchen.",
+        "ru": "На кухне готовили гамбургеры.",
+        "learn": 0
+      },
+      {
+        "eng": "Microwave ovens have simplified cooking.",
+        "ru": "Микроволновые печи упростили приготовление пищи.",
+        "learn": 0
+      },
+      {
+        "eng": "Cooking smells wafted up from downstairs.",
+        "ru": "Снизу доносились запахи готовящейся еды.",
+        "learn": 0
+      },
+      {
+        "eng": "Starch is used in cooking as a thickening.",
+        "ru": "Крахмал используется в кулинарии в качестве загустителя.",
+        "learn": 0
+      },
+      {
+        "eng": "Continue cooking until the meat is tender.",
+        "ru": "Продолжайте варить до тех пор, пока мясо не станет мягким.",
+        "learn": 0
+      }
+    ]
+  }
 }

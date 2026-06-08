@@ -1,85 +1,174 @@
 {
-    "forget": {
-        "comment": [
-            "forgive",
-            "forge"
-        ],
-        "translate": "забывать, не помнить, позабывать, перезабыть",
-        "transcription": " |fərˈɡet|",
-        "antonyms": [],
-        "mnemonic": [
-            "forget [фоге'т] забыть - В (тре-воге т-ы) не забудь про врага.",
-            "get [get]\nforget [fə'get]\nbeget [bɪ'ɡɛt] - порождать, быть отцом\n***\nДОСТАЛ из кармана лангет. (это) get\nПриплод, потомство.\n***\nЗАБЫЛ, какой на вкус багет. (это) forget\nНЕ ПОМНЮ, какой на вкус багет. (это) forget"
-        ],
-        "examples": [
-            "Forget it!",
-            "Don't forget to write home.",
-            "Make him forget it!",
-            "I shall never forget this day.",
-            "He forgot his old friends.",
-            "I keep forgetting her name.",
-            "Don't forget to dot the i.",
-            "I know you told me, but I forgot.",
-            "I'm sorry, I've forgotten your name.",
-            "At my age, I think I can forget fashion.",
-            "Don't forget your sandwiches.",
-            "Don't forget to water the plants.",
-            "We will never forget what we saw.",
-            "“Did you pay the bill?” “I forgot.”",
-            "He's now a forgotten hero.",
-            "She forgot about the concert.",
-            "I'll never be able to forget about the accident.",
-            "Don't forget the minus sign.",
-            "Forget him, he's not worth it.",
-            "She forgot how to set up the tent.",
-            "Don't forget to send us a postcard!",
-            "Oh no, I've forgotten my wallet.",
-            "Forget about it. Life's too short.",
-            "Don't forget to enter your postcode.",
-            "'Sorry I didn't phone.' 'Forget it.'",
-            "Don't forget to turn off the faucet.",
-            "Don't forget to brush your teeth.",
-            "Karl says he forgot about our date.",
-            "They forget to solder the contacts.",
-            "After a while you'll forget you're wearing contact lenses."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "а) не стоит об этом говорить!, не за что!., не стоит благодарности!., б) (тогда) нам не о чём больше говорить., ≅ разговор кончен., ≅ всё равно не договоримся",
-            "Не забывай писать домой.",
-            "Заставь его забыть об этом!",
-            "Я никогда не забуду этот день.",
-            "Он позабыл своих старых друзей.",
-            "Постоянно забываю ее имя.",
-            "Не забудьте расставить все точки над i.",
-            "Я знаю, что ты мне говорила, но я забыл.",
-            "Извините, я забыл ваше имя.",
-            "Думаю, что в моём возрасте я могу забыть о моде.",
-            "Не забудь свои бутерброды.",
-            "Не забывайте поливать растения.",
-            "Мы никогда не забудем то, что увидели.",
-            "- Ты оплатил счет? - Я забыл.",
-            "Теперь он забытый герой.",
-            "Она забыла о концерте.",
-            "Я никогда не смогу забыть об этой аварии .",
-            "Не забудьте поставить знак \"минус\".",
-            "Забудь о нём, он того не стоит.",
-            "Она забыла, как ставить палатку.",
-            "Не забудьте отправить нам открытку!",
-            "Вот чёрт — я забыл свой бумажник.",
-            "Забудьте об этом. Жизнь слишком коротка.",
-            "Не забудьте ввести свой почтовый индекс.",
-            "— Прости, что не позвонил. — Пустяки, проехали.",
-            "Не забудьте закрыть кран.",
-            "Не забудь почистить зубы.",
-            "Карл говорит, что забыл о нашем свидании.",
-            "Они забывают припаять контакты.",
-            "Через некоторое время вы забудете, что на вас — контактные линзы."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "g_+_e,_i,_y_=_[g]_(исключения)"
-        ]
-    }
+  "forget": {
+    "comment": [
+      "forgot |fərˈɡɑːt|,                                          forgotten |fərˈɡɑːtən|",
+      "forgive",
+      "forge"
+    ],
+    "translate": "забывать, не помнить, позабывать, перезабыть",
+    "transcription": " |fərˈɡet|",
+    "antonyms": [],
+    "mnemonic": [
+      "forget [фоге'т] забыть - В (тре-воге т-ы) не забудь про врага.",
+      "get [get]\nforget [fə'get]\nbeget [bɪ'ɡɛt] - порождать, быть отцом\n***\nДОСТАЛ из кармана лангет. (это) get\nПриплод, потомство.\n***\nЗАБЫЛ, какой на вкус багет. (это) forget\nНЕ ПОМНЮ, какой на вкус багет. (это) forget"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "g_+_e,_i,_y_=_[g]_(исключения)",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Forget it!",
+        "ru": "а) не стоит об этом говорить!, не за что!., не стоит благодарности!., б) (тогда) нам не о чём больше говорить., ≅ разговор кончен., ≅ всё равно не договоримся",
+        "learn": 0
+      },
+      {
+        "eng": "Don't forget to write home.",
+        "ru": "Не забывай писать домой.",
+        "learn": 0
+      },
+      {
+        "eng": "Make him forget it!",
+        "ru": "Заставь его забыть об этом!",
+        "learn": 0
+      },
+      {
+        "eng": "I shall never forget this day.",
+        "ru": "Я никогда не забуду этот день.",
+        "learn": 0
+      },
+      {
+        "eng": "He forgot his old friends.",
+        "ru": "Он позабыл своих старых друзей.",
+        "learn": 0
+      },
+      {
+        "eng": "I keep forgetting her name.",
+        "ru": "Постоянно забываю ее имя.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't forget to dot the i.",
+        "ru": "Не забудьте расставить все точки над i.",
+        "learn": 0
+      },
+      {
+        "eng": "I know you told me, but I forgot.",
+        "ru": "Я знаю, что ты мне говорила, но я забыл.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm sorry, I've forgotten your name.",
+        "ru": "Извините, я забыл ваше имя.",
+        "learn": 0
+      },
+      {
+        "eng": "At my age, I think I can forget fashion.",
+        "ru": "Думаю, что в моём возрасте я могу забыть о моде.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't forget your sandwiches.",
+        "ru": "Не забудь свои бутерброды.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't forget to water the plants.",
+        "ru": "Не забывайте поливать растения.",
+        "learn": 0
+      },
+      {
+        "eng": "We will never forget what we saw.",
+        "ru": "Мы никогда не забудем то, что увидели.",
+        "learn": 1
+      },
+      {
+        "eng": "“Did you pay the bill?” “I forgot.”",
+        "ru": "- Ты оплатил счет? - Я забыл.",
+        "learn": 0
+      },
+      {
+        "eng": "He's now a forgotten hero.",
+        "ru": "Теперь он забытый герой.",
+        "learn": 1
+      },
+      {
+        "eng": "She forgot about the concert.",
+        "ru": "Она забыла о концерте.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll never be able to forget about the accident.",
+        "ru": "Я никогда не смогу забыть об этой аварии .",
+        "learn": 0
+      },
+      {
+        "eng": "Don't forget the minus sign.",
+        "ru": "Не забудьте поставить знак \"минус\".",
+        "learn": 0
+      },
+      {
+        "eng": "Forget him, he's not worth it.",
+        "ru": "Забудь о нём, он того не стоит.",
+        "learn": 1
+      },
+      {
+        "eng": "She forgot how to set up the tent.",
+        "ru": "Она забыла, как ставить палатку.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't forget to send us a postcard!",
+        "ru": "Не забудьте отправить нам открытку!",
+        "learn": 1
+      },
+      {
+        "eng": "Oh no, I've forgotten my wallet.",
+        "ru": "Вот чёрт — я забыл свой бумажник.",
+        "learn": 0
+      },
+      {
+        "eng": "Forget about it. Life's too short.",
+        "ru": "Забудьте об этом. Жизнь слишком коротка.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't forget to enter your postcode.",
+        "ru": "Не забудьте ввести свой почтовый индекс.",
+        "learn": 1
+      },
+      {
+        "eng": "'Sorry I didn't phone.' 'Forget it.'",
+        "ru": "— Прости, что не позвонил. — Пустяки, проехали.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't forget to turn off the faucet.",
+        "ru": "Не забудьте закрыть кран.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't forget to brush your teeth.",
+        "ru": "Не забудь почистить зубы.",
+        "learn": 1
+      },
+      {
+        "eng": "Karl says he forgot about our date.",
+        "ru": "Карл говорит, что забыл о нашем свидании.",
+        "learn": 0
+      },
+      {
+        "eng": "They forget to solder the contacts.",
+        "ru": "Они забывают припаять контакты.",
+        "learn": 0
+      },
+      {
+        "eng": "After a while you'll forget you're wearing contact lenses.",
+        "ru": "Через некоторое время вы забудете, что на вас — контактные линзы.",
+        "learn": 0
+      }
+    ]
+  }
 }

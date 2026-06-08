@@ -1,83 +1,169 @@
 {
-    "cell": {
-        "comment": [
-            "cellar"
-        ],
-        "translate": "ячейка, клетка, элемент, камера, клеточка, помещать в клетку",
-        "transcription": " |sel|",
-        "antonyms": [],
-        "mnemonic": [
-            "cell [сэл] камера, келья - (Сел) в камеру, а потом и в келью,",
-            "cell [sel]\nsell [sel]\n***\nПлохо себя вёл - в КАМЕРУ сел. (это) cell\nМой СОСТОВЫЙ телефон сел. (это) cell\nКлетка (физиол).\n***\nПришёл на рынок, ПРОДАВАТЬ сел. (это) sell\nУмение торговать.\n***\nРасскажу \"tell\",\nкак правильно продавать \"sell\",\nкак не попасть в камеру \"cell\"\nили в ад \"hell\"."
-        ],
-        "examples": [
-            "The air within the cell was foul.",
-            "Call me on my cell phone.",
-            "The virus will infect a cell and then it will begin to replicate.",
-            "The beaver makes its hole, the bee makes its cell.",
-            "He had died in his cell, the memo claimed, presumably of a heart attack.",
-            "B cell",
-            "The cell samples are analyzed by a lab.",
-            "The house was once a cell to the abbey.",
-            "Embryos grow by cell division (=the splitting of cells).",
-            "It is important to recall that not very long ago cell phones did not exist.",
-            "Corey hanged himself in his prison cell.",
-            "The police hustled the prisoner into a cell.",
-            "I don't know where she is. Try calling her on her cell phone.",
-            "Call me on my cell if you're running late.",
-            "There are many different cell types in the human body.",
-            "One of the prof's major irks is a cell phone that rings during a lecture.",
-            "International Society for Cell Biology",
-            "The egg and sperm fuse together as one cell.",
-            "The teacher confiscated all cell phones for the duration of the field trip.",
-            "DNA replicates in the cell nucleus.",
-            "a chemical that disrupts cell function",
-            "European Collection of Animal Cell Cultures",
-            "He was restrained and placed in a holding cell.",
-            "The use of cell phones is banned in the restaurant.",
-            "She pawed through her purse to find her cell phone.",
-            "a zonal pattern of cell structure",
-            "The cell has a permeable membrane.",
-            "a cell phone with internet facility",
-            "the genes that regulate cell division",
-            "Can you help me program my cell phone?"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Воздух в тюремной камере был спёртый.",
-            "Позвоните мне на сотовый телефон.",
-            "Вирус проникнет в клетку, а затем начнёт размножаться.",
-            "Бобёр строит себе нору, пчела — соты.",
-            "В докладной записке говорилось, что он умер в тюрьме, предположительно, от сердечного приступа.",
-            "В-клетка",
-            "Образцы клеток анализируются в лабораториях.",
-            "Когда-то этот дом был обителью при монастыре.",
-            "Рост эмбриона происходит путём деления (т.е. расщепления) клеток.",
-            "Важно напомнить, что не так давно сотовых телефонов ещё не существовало.",
-            "Кори повесился в своей камере.",
-            "Полицеские втолкнули заключённого в камеру.",
-            "Я не знаю, где она. Попробуйте позвонить ей на сотовый телефон.",
-            "Позвоните мне на сотовый, если будете опаздывать.",
-            "В организме человека есть много различных типов клеток.",
-            "Один из моментов, которые больше всего раздражают профессора — когда во время лекции звонит сотовый телефон.",
-            "Международное общество по изучению биологии клетки",
-            "Сливаясь вместе, яйцеклетка и сперматозоид образуют единую клетку.",
-            "На время экскурсии учитель конфисковал все сотовые телефоны.",
-            "Удвоение ДНК происходит в клеточном ядре.",
-            "химическое вещество, которое препятствует нормальной работе клеток",
-            "Европейская коллекция культивируемых клеток животных",
-            "Он был задержан и помещён в ИВС.",
-            "В этом ресторане запрещено пользоваться мобильными телефонами.",
-            "Она перерыла сумочку в поисках мобильника.",
-            "зональная модель строения клетки",
-            "В клетке имеется проницаемая мембрана.",
-            "сотовый телефон с выходом в интернет",
-            "гены, которые регулируют деление клеток",
-            "Вы можете мне помочь запрограммировать мой сотовый телефон?"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "cell": {
+    "comment": [
+      "cellar"
+    ],
+    "translate": "ячейка, клетка, элемент, камера, клеточка, помещать в клетку",
+    "transcription": " |sel|",
+    "antonyms": [],
+    "mnemonic": [
+      "cell [сэл] камера, келья - (Сел) в камеру, а потом и в келью,",
+      "cell [sel]\nsell [sel]\n***\nПлохо себя вёл - в КАМЕРУ сел. (это) cell\nМой СОСТОВЫЙ телефон сел. (это) cell\nКлетка (физиол).\n***\nПришёл на рынок, ПРОДАВАТЬ сел. (это) sell\nУмение торговать.\n***\nРасскажу \"tell\",\nкак правильно продавать \"sell\",\nкак не попасть в камеру \"cell\"\nили в ад \"hell\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The air within the cell was foul.",
+        "ru": "Воздух в тюремной камере был спёртый.",
+        "learn": 0
+      },
+      {
+        "eng": "Call me on my cell phone.",
+        "ru": "Позвоните мне на сотовый телефон.",
+        "learn": 0
+      },
+      {
+        "eng": "The virus will infect a cell and then it will begin to replicate.",
+        "ru": "Вирус проникнет в клетку, а затем начнёт размножаться.",
+        "learn": 0
+      },
+      {
+        "eng": "The beaver makes its hole, the bee makes its cell.",
+        "ru": "Бобёр строит себе нору, пчела — соты.",
+        "learn": 0
+      },
+      {
+        "eng": "He had died in his cell, the memo claimed, presumably of a heart attack.",
+        "ru": "В докладной записке говорилось, что он умер в тюрьме, предположительно, от сердечного приступа.",
+        "learn": 0
+      },
+      {
+        "eng": "B cell",
+        "ru": "В-клетка",
+        "learn": 0
+      },
+      {
+        "eng": "The cell samples are analyzed by a lab.",
+        "ru": "Образцы клеток анализируются в лабораториях.",
+        "learn": 0
+      },
+      {
+        "eng": "The house was once a cell to the abbey.",
+        "ru": "Когда-то этот дом был обителью при монастыре.",
+        "learn": 0
+      },
+      {
+        "eng": "Embryos grow by cell division (=the splitting of cells).",
+        "ru": "Рост эмбриона происходит путём деления (т.е. расщепления) клеток.",
+        "learn": 0
+      },
+      {
+        "eng": "It is important to recall that not very long ago cell phones did not exist.",
+        "ru": "Важно напомнить, что не так давно сотовых телефонов ещё не существовало.",
+        "learn": 0
+      },
+      {
+        "eng": "Corey hanged himself in his prison cell.",
+        "ru": "Кори повесился в своей камере.",
+        "learn": 0
+      },
+      {
+        "eng": "The police hustled the prisoner into a cell.",
+        "ru": "Полицеские втолкнули заключённого в камеру.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know where she is. Try calling her on her cell phone.",
+        "ru": "Я не знаю, где она. Попробуйте позвонить ей на сотовый телефон.",
+        "learn": 0
+      },
+      {
+        "eng": "Call me on my cell if you're running late.",
+        "ru": "Позвоните мне на сотовый, если будете опаздывать.",
+        "learn": 0
+      },
+      {
+        "eng": "There are many different cell types in the human body.",
+        "ru": "В организме человека есть много различных типов клеток.",
+        "learn": 1
+      },
+      {
+        "eng": "One of the prof's major irks is a cell phone that rings during a lecture.",
+        "ru": "Один из моментов, которые больше всего раздражают профессора — когда во время лекции звонит сотовый телефон.",
+        "learn": 0
+      },
+      {
+        "eng": "International Society for Cell Biology",
+        "ru": "Международное общество по изучению биологии клетки",
+        "learn": 0
+      },
+      {
+        "eng": "The egg and sperm fuse together as one cell.",
+        "ru": "Сливаясь вместе, яйцеклетка и сперматозоид образуют единую клетку.",
+        "learn": 0
+      },
+      {
+        "eng": "The teacher confiscated all cell phones for the duration of the field trip.",
+        "ru": "На время экскурсии учитель конфисковал все сотовые телефоны.",
+        "learn": 1
+      },
+      {
+        "eng": "DNA replicates in the cell nucleus.",
+        "ru": "Удвоение ДНК происходит в клеточном ядре.",
+        "learn": 0
+      },
+      {
+        "eng": "a chemical that disrupts cell function",
+        "ru": "химическое вещество, которое препятствует нормальной работе клеток",
+        "learn": 0
+      },
+      {
+        "eng": "European Collection of Animal Cell Cultures",
+        "ru": "Европейская коллекция культивируемых клеток животных",
+        "learn": 0
+      },
+      {
+        "eng": "He was restrained and placed in a holding cell.",
+        "ru": "Он был задержан и помещён в ИВС.",
+        "learn": 0
+      },
+      {
+        "eng": "The use of cell phones is banned in the restaurant.",
+        "ru": "В этом ресторане запрещено пользоваться мобильными телефонами.",
+        "learn": 1
+      },
+      {
+        "eng": "She pawed through her purse to find her cell phone.",
+        "ru": "Она перерыла сумочку в поисках мобильника.",
+        "learn": 0
+      },
+      {
+        "eng": "a zonal pattern of cell structure",
+        "ru": "зональная модель строения клетки",
+        "learn": 0
+      },
+      {
+        "eng": "The cell has a permeable membrane.",
+        "ru": "В клетке имеется проницаемая мембрана.",
+        "learn": 1
+      },
+      {
+        "eng": "a cell phone with internet facility",
+        "ru": "сотовый телефон с выходом в интернет",
+        "learn": 0
+      },
+      {
+        "eng": "the genes that regulate cell division",
+        "ru": "гены, которые регулируют деление клеток",
+        "learn": 0
+      },
+      {
+        "eng": "Can you help me program my cell phone?",
+        "ru": "Вы можете мне помочь запрограммировать мой сотовый телефон?",
+        "learn": 0
+      }
+    ]
+  }
 }

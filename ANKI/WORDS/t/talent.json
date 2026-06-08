@@ -1,84 +1,171 @@
 {
-    "talent": {
-        "comment": [
-            "tale",
-            "talented",
-            "stale",
-            "fairytale"
-        ],
-        "translate": "талант, талантливость, дар, одаренность, способность, талантливый человек",
-        "transcription": " |ˈtælənt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She is a real talent.",
-            "Your brother is a man of many talents.",
-            "Sadly, she inherited none of her father's musical talent.",
-            "His talent shines.",
-            "His latest book reveals hidden talents.",
-            "She showed a talent for acting at an early age.",
-            "She showed her talent for cooking.",
-            "She is an artist of immense talent.",
-            "She has an inborn talent for music.",
-            "She is a writer of tremendous talent.",
-            "a singer with an enormous amount of talent",
-            "I have no musical talent.",
-            "She has a wealth of talent.",
-            "Britain's footballing talent",
-            "Her talent is maturing slowly.",
-            "He shows real artistic talent.",
-            "She has an eye for fresh talent.",
-            "a writer with a talent for parody",
-            "Jan's regard for his great talent",
-            "The girl has a remarkable talent.",
-            "Musical talent runs in the family.",
-            "a tennis player of middling talent",
-            "I envied his talent for acquiring.",
-            "He has the least talent of anyone.",
-            "a galaxy of British artistic talent",
-            "You have talent, maybe even genius.",
-            "All human talent is a talent to do.",
-            "She is blessed with musical talent.",
-            "They sang a duet in the talent show .",
-            "a drain of young talent by emigration"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она — настоящий талант.",
-            "Ваш брат — человек многих талантов.",
-            "Жаль, что она не унаследовала и толики музыкального таланта своего отца.",
-            "У него блестящий /явный/ талант.",
-            "Его последняя книга раскрывает скрытые таланты.",
-            "Она проявила актёрский талант в раннем возрасте.",
-            "Она проявила свой талант к готовке.",
-            "Она потрясающе талантливая художница.",
-            "Она обладает врождённым талантом к музыке.",
-            "Она потрясающе талантливый писатель.",
-            "певец с огромным талантом",
-            "У меня нет музыкальных способностей.",
-            "У неё огромный талант. / Она безумно талантлива.",
-            "одаренный британский футболист",
-            "Её талант развивается медленно.",
-            "Он демонстрирует настоящий артистический талант.",
-            "У нее намётан глаз на новые таланты.",
-            "писатель с талантом пародиста",
-            "уважение и восхищение, которые Ян испытывал к его большому таланту",
-            "Девушка обладает недюжинным талантом.",
-            "Музыкальный талант там в роду.",
-            "не самый талантливый теннисист / теннисист средней руки",
-            "Я завидовал его способности приобретать /умению усваивать информацию/.",
-            "Кто угодно талантливее него. / Он самый бездарный человек на свете.",
-            "плеяда талантливых британских артистов",
-            "Вы талант, быть может, даже гений.",
-            "Самый большой талант человека — это способность трудиться. (Карлайл)",
-            "Она одарена музыкальными способностями.",
-            "Они спели дуэтом на шоу талантов .",
-            "отток молодых талантов путём эмиграции"
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "a(отк_сл)_=_[æ]"
-        ]
-    }
+  "talent": {
+    "comment": [
+      "tale",
+      "talented",
+      "stale",
+      "fairytale"
+    ],
+    "translate": "талант, талантливость, дар, одаренность, способность, талантливый человек",
+    "transcription": " |ˈtælənt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "a(отк_сл)_=_[æ]"
+    ],
+    "examples": [
+      {
+        "eng": "She is a real talent.",
+        "ru": "Она — настоящий талант.",
+        "learn": 0
+      },
+      {
+        "eng": "Your brother is a man of many talents.",
+        "ru": "Ваш брат — человек многих талантов.",
+        "learn": 0
+      },
+      {
+        "eng": "Sadly, she inherited none of her father's musical talent.",
+        "ru": "Жаль, что она не унаследовала и толики музыкального таланта своего отца.",
+        "learn": 1
+      },
+      {
+        "eng": "His talent shines.",
+        "ru": "У него блестящий /явный/ талант.",
+        "learn": 0
+      },
+      {
+        "eng": "His latest book reveals hidden talents.",
+        "ru": "Его последняя книга раскрывает скрытые таланты.",
+        "learn": 0
+      },
+      {
+        "eng": "She showed a talent for acting at an early age.",
+        "ru": "Она проявила актёрский талант в раннем возрасте.",
+        "learn": 0
+      },
+      {
+        "eng": "She showed her talent for cooking.",
+        "ru": "Она проявила свой талант к готовке.",
+        "learn": 0
+      },
+      {
+        "eng": "She is an artist of immense talent.",
+        "ru": "Она потрясающе талантливая художница.",
+        "learn": 0
+      },
+      {
+        "eng": "She has an inborn talent for music.",
+        "ru": "Она обладает врождённым талантом к музыке.",
+        "learn": 0
+      },
+      {
+        "eng": "She is a writer of tremendous talent.",
+        "ru": "Она потрясающе талантливый писатель.",
+        "learn": 0
+      },
+      {
+        "eng": "a singer with an enormous amount of talent",
+        "ru": "певец с огромным талантом",
+        "learn": 0
+      },
+      {
+        "eng": "I have no musical talent.",
+        "ru": "У меня нет музыкальных способностей.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a wealth of talent.",
+        "ru": "У неё огромный талант. / Она безумно талантлива.",
+        "learn": 0
+      },
+      {
+        "eng": "Britain's footballing talent",
+        "ru": "одаренный британский футболист",
+        "learn": 0
+      },
+      {
+        "eng": "Her talent is maturing slowly.",
+        "ru": "Её талант развивается медленно.",
+        "learn": 1
+      },
+      {
+        "eng": "He shows real artistic talent.",
+        "ru": "Он демонстрирует настоящий артистический талант.",
+        "learn": 1
+      },
+      {
+        "eng": "She has an eye for fresh talent.",
+        "ru": "У нее намётан глаз на новые таланты.",
+        "learn": 0
+      },
+      {
+        "eng": "a writer with a talent for parody",
+        "ru": "писатель с талантом пародиста",
+        "learn": 0
+      },
+      {
+        "eng": "Jan's regard for his great talent",
+        "ru": "уважение и восхищение, которые Ян испытывал к его большому таланту",
+        "learn": 0
+      },
+      {
+        "eng": "The girl has a remarkable talent.",
+        "ru": "Девушка обладает недюжинным талантом.",
+        "learn": 0
+      },
+      {
+        "eng": "Musical talent runs in the family.",
+        "ru": "Музыкальный талант там в роду.",
+        "learn": 0
+      },
+      {
+        "eng": "a tennis player of middling talent",
+        "ru": "не самый талантливый теннисист / теннисист средней руки",
+        "learn": 0
+      },
+      {
+        "eng": "I envied his talent for acquiring.",
+        "ru": "Я завидовал его способности приобретать /умению усваивать информацию/.",
+        "learn": 0
+      },
+      {
+        "eng": "He has the least talent of anyone.",
+        "ru": "Кто угодно талантливее него. / Он самый бездарный человек на свете.",
+        "learn": 1
+      },
+      {
+        "eng": "a galaxy of British artistic talent",
+        "ru": "плеяда талантливых британских артистов",
+        "learn": 0
+      },
+      {
+        "eng": "You have talent, maybe even genius.",
+        "ru": "Вы талант, быть может, даже гений.",
+        "learn": 1
+      },
+      {
+        "eng": "All human talent is a talent to do.",
+        "ru": "Самый большой талант человека — это способность трудиться. (Карлайл)",
+        "learn": 0
+      },
+      {
+        "eng": "She is blessed with musical talent.",
+        "ru": "Она одарена музыкальными способностями.",
+        "learn": 0
+      },
+      {
+        "eng": "They sang a duet in the talent show .",
+        "ru": "Они спели дуэтом на шоу талантов .",
+        "learn": 0
+      },
+      {
+        "eng": "a drain of young talent by emigration",
+        "ru": "отток молодых талантов путём эмиграции",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,85 +1,172 @@
 {
-    "design": {
-        "comment": [
-            "designer",
-            "designate"
-        ],
-        "translate": "дизайн, разработка, конструкция, проектировать, разрабатывать",
-        "transcription": " |dɪˈzaɪn|",
-        "antonyms": [],
-        "mnemonic": [
-            "design [dɪ'zaɪn]\ndesignate ['dɛzɪgneɪt] - назначать, обозначать\n***\nРазработай ПРОЕКТ - ДИЗАЙН. (это) design",
-            "sign [saɪn] - знак, символ, признак, примета\nassign [ə'saɪn]\nresign [rɪ'zaɪn]\ndesign [dɪ'zaɪn]\n***\nРАСПИШИСЬ или подпись набросай (н). (это) sign\nПРИМЕТА хорошая - этот \"дисайн\". (это) sign\nЗНАКИ дорожные - новый дизайн. (это) sign\n***\nТебя ещё НАЗНАЧАТ, и ты не раскисай (н) assign\nЕсли ты УЙДЁШЬ В ОТСТАВКУ - боль от сердца\nотрезай (н). (это) resign\n***\nРАЗРАБОТАЙ проект - дизайн. (это) design"
-        ],
-        "examples": [
-            "He designed the perfect crime.",
-            "This is the natural design of life.",
-            "She designed to excel in her studies.",
-            "He has ambitious designs for his son.",
-            "The machine has a complicated design.",
-            "This man designs dresses for the Queen.",
-            "Who designed the book's cover?",
-            "She designed a new logo for the company.",
-            "Design a strategy for battle.",
-            "This room is not designed for work.",
-            "a pendant engraved with a simple design",
-            "I had some experience in fashion design.",
-            "Chanel designed the famous suit.",
-            "He made no secret of his designs.",
-            "The design proved to be a success.",
-            "The book is designed as a reference manual.",
-            "The design is incised into the clay.",
-            "This guide will help you learn how to customize the design of your site.",
-            "The drill has a compact design.",
-            "a new design for rocket boosters",
-            "The machine had a flawed design.",
-            "I like the design of the textbook.",
-            "The gallery is a triumph of design.",
-            "the beauty of nature's grand design",
-            "a design that is pleasing to the eye",
-            "a number of design concepts",
-            "I love the sculpture's design.",
-            "She got a degree in graphic design.",
-            "The coach had a design on the doors.",
-            "MOS design"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он спланировал идеальное преступление.",
-            "Это естественный ход жизни.",
-            "Она намеревалась превзойти всех в учёбе.",
-            "У него амбициозные планы в отношении сына.",
-            "Машина имеет сложную конструкцию.",
-            "Этот человек придумывает наряды для королевы.",
-            "Кто занимался оформлением обложки этой книги?",
-            "Она разработала новый логотип для этой компании.",
-            "Разработайте стратегию боя.",
-            "Это помещение не предназначено для работы.",
-            "кулон с простой гравировкой",
-            "У меня был некоторый опыт в области дизайна моды.",
-            "Этот знаменитый костюм разработала Шанель.",
-            "Он не скрывал своих замыслов.",
-            "Замысел оказался успешным.",
-            "Книга задумана в качестве справочного пособия.",
-            "Этот узор вырезан в глине.",
-            "Это руководство поможет вам научиться подстраивать дизайн своего сайта под индивидуальные требования.",
-            "Дрель имеет компактный дизайн.",
-            "новая конструкция ракетных ускорителей",
-            "У этой машины были дефекты конструкции.",
-            "Мне нравится компоновка этого учебника.",
-            "Эта галерея представляет собой торжество конструкторской мысли.",
-            "красота великого замысла природы",
-            "дизайн, который радует глаз",
-            "ряд концепций дизайна",
-            "Мне нравится дизайн этой скульптуры.",
-            "Она получила образование по специальности \"графический дизайн\".",
-            "На дверях вагона был какой-то узор.",
-            "МОП-структура"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "g_+_n,_m_=_[n,_m]"
-        ]
-    }
+  "design": {
+    "comment": [
+      "designer",
+      "designate"
+    ],
+    "translate": "дизайн, разработка, конструкция, проектировать, разрабатывать",
+    "transcription": " |dɪˈzaɪn|",
+    "antonyms": [],
+    "mnemonic": [
+      "design [dɪ'zaɪn]\ndesignate ['dɛzɪgneɪt] - назначать, обозначать\n***\nРазработай ПРОЕКТ - ДИЗАЙН. (это) design",
+      "sign [saɪn] - знак, символ, признак, примета\nassign [ə'saɪn]\nresign [rɪ'zaɪn]\ndesign [dɪ'zaɪn]\n***\nРАСПИШИСЬ или подпись набросай (н). (это) sign\nПРИМЕТА хорошая - этот \"дисайн\". (это) sign\nЗНАКИ дорожные - новый дизайн. (это) sign\n***\nТебя ещё НАЗНАЧАТ, и ты не раскисай (н) assign\nЕсли ты УЙДЁШЬ В ОТСТАВКУ - боль от сердца\nотрезай (н). (это) resign\n***\nРАЗРАБОТАЙ проект - дизайн. (это) design"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "g_+_n,_m_=_[n,_m]"
+    ],
+    "examples": [
+      {
+        "eng": "He designed the perfect crime.",
+        "ru": "Он спланировал идеальное преступление.",
+        "learn": 1
+      },
+      {
+        "eng": "This is the natural design of life.",
+        "ru": "Это естественный ход жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "She designed to excel in her studies.",
+        "ru": "Она намеревалась превзойти всех в учёбе.",
+        "learn": 0
+      },
+      {
+        "eng": "He has ambitious designs for his son.",
+        "ru": "У него амбициозные планы в отношении сына.",
+        "learn": 0
+      },
+      {
+        "eng": "The machine has a complicated design.",
+        "ru": "Машина имеет сложную конструкцию.",
+        "learn": 0
+      },
+      {
+        "eng": "This man designs dresses for the Queen.",
+        "ru": "Этот человек придумывает наряды для королевы.",
+        "learn": 0
+      },
+      {
+        "eng": "Who designed the book's cover?",
+        "ru": "Кто занимался оформлением обложки этой книги?",
+        "learn": 0
+      },
+      {
+        "eng": "She designed a new logo for the company.",
+        "ru": "Она разработала новый логотип для этой компании.",
+        "learn": 1
+      },
+      {
+        "eng": "Design a strategy for battle.",
+        "ru": "Разработайте стратегию боя.",
+        "learn": 0
+      },
+      {
+        "eng": "This room is not designed for work.",
+        "ru": "Это помещение не предназначено для работы.",
+        "learn": 0
+      },
+      {
+        "eng": "a pendant engraved with a simple design",
+        "ru": "кулон с простой гравировкой",
+        "learn": 0
+      },
+      {
+        "eng": "I had some experience in fashion design.",
+        "ru": "У меня был некоторый опыт в области дизайна моды.",
+        "learn": 0
+      },
+      {
+        "eng": "Chanel designed the famous suit.",
+        "ru": "Этот знаменитый костюм разработала Шанель.",
+        "learn": 0
+      },
+      {
+        "eng": "He made no secret of his designs.",
+        "ru": "Он не скрывал своих замыслов.",
+        "learn": 0
+      },
+      {
+        "eng": "The design proved to be a success.",
+        "ru": "Замысел оказался успешным.",
+        "learn": 0
+      },
+      {
+        "eng": "The book is designed as a reference manual.",
+        "ru": "Книга задумана в качестве справочного пособия.",
+        "learn": 1
+      },
+      {
+        "eng": "The design is incised into the clay.",
+        "ru": "Этот узор вырезан в глине.",
+        "learn": 0
+      },
+      {
+        "eng": "This guide will help you learn how to customize the design of your site.",
+        "ru": "Это руководство поможет вам научиться подстраивать дизайн своего сайта под индивидуальные требования.",
+        "learn": 0
+      },
+      {
+        "eng": "The drill has a compact design.",
+        "ru": "Дрель имеет компактный дизайн.",
+        "learn": 0
+      },
+      {
+        "eng": "a new design for rocket boosters",
+        "ru": "новая конструкция ракетных ускорителей",
+        "learn": 0
+      },
+      {
+        "eng": "The machine had a flawed design.",
+        "ru": "У этой машины были дефекты конструкции.",
+        "learn": 0
+      },
+      {
+        "eng": "I like the design of the textbook.",
+        "ru": "Мне нравится компоновка этого учебника.",
+        "learn": 0
+      },
+      {
+        "eng": "The gallery is a triumph of design.",
+        "ru": "Эта галерея представляет собой торжество конструкторской мысли.",
+        "learn": 0
+      },
+      {
+        "eng": "the beauty of nature's grand design",
+        "ru": "красота великого замысла природы",
+        "learn": 0
+      },
+      {
+        "eng": "a design that is pleasing to the eye",
+        "ru": "дизайн, который радует глаз",
+        "learn": 0
+      },
+      {
+        "eng": "a number of design concepts",
+        "ru": "ряд концепций дизайна",
+        "learn": 0
+      },
+      {
+        "eng": "I love the sculpture's design.",
+        "ru": "Мне нравится дизайн этой скульптуры.",
+        "learn": 0
+      },
+      {
+        "eng": "She got a degree in graphic design.",
+        "ru": "Она получила образование по специальности \"графический дизайн\".",
+        "learn": 1
+      },
+      {
+        "eng": "The coach had a design on the doors.",
+        "ru": "На дверях вагона был какой-то узор.",
+        "learn": 0
+      },
+      {
+        "eng": "MOS design",
+        "ru": "МОП-структура",
+        "learn": 0
+      }
+    ]
+  }
 }

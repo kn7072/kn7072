@@ -1,83 +1,170 @@
 {
-    "fellow": {
-        "comment": [
-            "fellowship"
-        ],
-        "translate": "парень, товарищ, человек, дружески обращаться",
-        "transcription": " |ˈfeloʊ|",
-        "antonyms": [],
-        "mnemonic": [
-            "fellow [фе'лоу] парень, товарищ - Мой (феллоу-с*) парень что надо и товарищ отличный (*Фаллос)."
-        ],
-        "examples": [
-            "Say, fellow, what are you doing?",
-            "A tight fellow!",
-            "Oh, isn't he a duck of a fellow?",
-            "A better fellow does not breathe.",
-            "I'll warrant him an honest fellow.",
-            "I have a fellow feeling for others who are like me.",
-            "The fellow would cajole the devil.",
-            "fellows and girls at a party",
-            "He's a gassy old fellow.",
-            "Your son's a bright little fellow.",
-            "There's a fellow at the door.",
-            "She was raped by a fellow student.",
-            "This fellow charges $100 for a massage.",
-            "She's found herself a new fellow.",
-            "I wrote him down as a shrewd fellow.",
-            "a fellow of the American College of Surgeons",
-            "He's a kind fellow enough, but such a bouncer!",
-            "a Fellow of the Royal Society",
-            "This fellow had a readiness at improving any accident.",
-            "Haven't you heard, my dear fellow, we are stumped? (T. Hook)",
-            "An honest hater is often a better fellow than a cool friend.",
-            "Their teacher was a bookish fellow.",
-            "a saintly concern for his fellow men",
-            "Even in jail my fellow inmates treated me with kindness.",
-            "Paul's an easy-going sort of fellow.",
-            "Everyone knew him as an amiable fellow.",
-            "an empty chaffy book by a foolish chaffy fellow",
-            "While one leg was convulsed, its fellow remained quiet.",
-            "The craven fellow turned and ran.",
-            "He sent e-mail to his fellow hackers."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Слушай, парень, что ты делаешь?",
-            "Хороший парень!",
-            "Не правда ли, он просто прелесть?",
-            "Лучше него нет человека.",
-            "Ручаюсь, что он честный человек. [Я поручусь за его честность.]",
-            "Я чувствую симпатию к тем, кто похож на меня.",
-            "Этот парень одурачит самого дьявола.",
-            "парни и девушки на вечеринке",
-            "Он старый пустозвон.",
-            "Ваш сын — паренёк смышлёный.",
-            "Там у дверей стоит какой-то тип.",
-            "Она была изнасилована сокурсником.",
-            "Этот парень берёт сто долларов за массаж.",
-            "Она нашла себе нового парня.",
-            "Я считаю его хитрецом.",
-            "член Американской коллегии хирургов",
-            "Вообще-то он парень хороший, но такой хвастун!",
-            "член Королевского общества (в Великобритании соответствует званию академика)",
-            "У этого парня была способность быстро улаживать любой инцидент.",
-            "Разве вы не слышали, мой друг, что мы разорены?",
-            "Открытый враг часто лучше, чем равнодушный друг.",
-            "Их учитель был \"книжным червём\".",
-            "праведная забота о своих собратьях",
-            "Даже в тюрьме мои сокамерники относились ко мне хорошо.",
-            "Пол — человек добродушный /покладистый, неконфликтный/.",
-            "Все считали его добродушным парнем.",
-            "пустая и никчёмная книга, написанная глупым и никчёмным человеком",
-            "В то время, как одну ногу охватили судороги, вторая оставалась неподвижной.",
-            "Трус развернулся и побежал.",
-            "Он разослал друзьям-хакерам письмо по электронной почте."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "ow_без_удар._=_[ou]"
-        ]
-    }
+  "fellow": {
+    "comment": [
+      "fellowship"
+    ],
+    "translate": "парень, товарищ, человек, дружески обращаться",
+    "transcription": " |ˈfeloʊ|",
+    "antonyms": [],
+    "mnemonic": [
+      "fellow [фе'лоу] парень, товарищ - Мой (феллоу-с*) парень что надо и товарищ отличный (*Фаллос)."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "ow_без_удар._=_[ou]"
+    ],
+    "examples": [
+      {
+        "eng": "Say, fellow, what are you doing?",
+        "ru": "Слушай, парень, что ты делаешь?",
+        "learn": 1
+      },
+      {
+        "eng": "A tight fellow!",
+        "ru": "Хороший парень!",
+        "learn": 0
+      },
+      {
+        "eng": "Oh, isn't he a duck of a fellow?",
+        "ru": "Не правда ли, он просто прелесть?",
+        "learn": 0
+      },
+      {
+        "eng": "A better fellow does not breathe.",
+        "ru": "Лучше него нет человека.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll warrant him an honest fellow.",
+        "ru": "Ручаюсь, что он честный человек. [Я поручусь за его честность.]",
+        "learn": 0
+      },
+      {
+        "eng": "I have a fellow feeling for others who are like me.",
+        "ru": "Я чувствую симпатию к тем, кто похож на меня.",
+        "learn": 0
+      },
+      {
+        "eng": "The fellow would cajole the devil.",
+        "ru": "Этот парень одурачит самого дьявола.",
+        "learn": 0
+      },
+      {
+        "eng": "fellows and girls at a party",
+        "ru": "парни и девушки на вечеринке",
+        "learn": 0
+      },
+      {
+        "eng": "He's a gassy old fellow.",
+        "ru": "Он старый пустозвон.",
+        "learn": 0
+      },
+      {
+        "eng": "Your son's a bright little fellow.",
+        "ru": "Ваш сын — паренёк смышлёный.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a fellow at the door.",
+        "ru": "Там у дверей стоит какой-то тип.",
+        "learn": 1
+      },
+      {
+        "eng": "She was raped by a fellow student.",
+        "ru": "Она была изнасилована сокурсником.",
+        "learn": 1
+      },
+      {
+        "eng": "This fellow charges $100 for a massage.",
+        "ru": "Этот парень берёт сто долларов за массаж.",
+        "learn": 0
+      },
+      {
+        "eng": "She's found herself a new fellow.",
+        "ru": "Она нашла себе нового парня.",
+        "learn": 1
+      },
+      {
+        "eng": "I wrote him down as a shrewd fellow.",
+        "ru": "Я считаю его хитрецом.",
+        "learn": 0
+      },
+      {
+        "eng": "a fellow of the American College of Surgeons",
+        "ru": "член Американской коллегии хирургов",
+        "learn": 0
+      },
+      {
+        "eng": "He's a kind fellow enough, but such a bouncer!",
+        "ru": "Вообще-то он парень хороший, но такой хвастун!",
+        "learn": 0
+      },
+      {
+        "eng": "a Fellow of the Royal Society",
+        "ru": "член Королевского общества (в Великобритании соответствует званию академика)",
+        "learn": 0
+      },
+      {
+        "eng": "This fellow had a readiness at improving any accident.",
+        "ru": "У этого парня была способность быстро улаживать любой инцидент.",
+        "learn": 0
+      },
+      {
+        "eng": "Haven't you heard, my dear fellow, we are stumped? (T. Hook)",
+        "ru": "Разве вы не слышали, мой друг, что мы разорены?",
+        "learn": 0
+      },
+      {
+        "eng": "An honest hater is often a better fellow than a cool friend.",
+        "ru": "Открытый враг часто лучше, чем равнодушный друг.",
+        "learn": 0
+      },
+      {
+        "eng": "Their teacher was a bookish fellow.",
+        "ru": "Их учитель был \"книжным червём\".",
+        "learn": 0
+      },
+      {
+        "eng": "a saintly concern for his fellow men",
+        "ru": "праведная забота о своих собратьях",
+        "learn": 0
+      },
+      {
+        "eng": "Even in jail my fellow inmates treated me with kindness.",
+        "ru": "Даже в тюрьме мои сокамерники относились ко мне хорошо.",
+        "learn": 0
+      },
+      {
+        "eng": "Paul's an easy-going sort of fellow.",
+        "ru": "Пол — человек добродушный /покладистый, неконфликтный/.",
+        "learn": 0
+      },
+      {
+        "eng": "Everyone knew him as an amiable fellow.",
+        "ru": "Все считали его добродушным парнем.",
+        "learn": 0
+      },
+      {
+        "eng": "an empty chaffy book by a foolish chaffy fellow",
+        "ru": "пустая и никчёмная книга, написанная глупым и никчёмным человеком",
+        "learn": 0
+      },
+      {
+        "eng": "While one leg was convulsed, its fellow remained quiet.",
+        "ru": "В то время, как одну ногу охватили судороги, вторая оставалась неподвижной.",
+        "learn": 0
+      },
+      {
+        "eng": "The craven fellow turned and ran.",
+        "ru": "Трус развернулся и побежал.",
+        "learn": 0
+      },
+      {
+        "eng": "He sent e-mail to his fellow hackers.",
+        "ru": "Он разослал друзьям-хакерам письмо по электронной почте.",
+        "learn": 0
+      }
+    ]
+  }
 }

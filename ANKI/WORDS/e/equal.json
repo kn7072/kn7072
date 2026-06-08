@@ -1,90 +1,177 @@
 {
-    "equal": {
-        "comment": [
-            "equally",
-            "qualify",
-            "quality",
-            "qualification",
-            "qualified",
-            "equality",
-            "inequality"
-        ],
-        "translate": "равный, одинаковый, равняться, быть равным, ровня",
-        "transcription": " |ˈiːkwəl|",
-        "antonyms": [],
-        "mnemonic": [
-            "equal [иквэл] равный - Мой опыт (и квал-ификация) равных не имеют.",
-            "equal ['i: kwəl]\nequality [i:'kwɔlɪtɪ]\nequalize ['i:kwəlaɪz] - уравнивать, сравнивать,\nсравнять\n***\nОни СРАВНЯЛИСЬ - вместе путь их|вёл. (это) equal\nВ РАВНЫЕ условия путь их|вёл. (это) equal\nВ ОДИНАКОВЫЕ условия путь их|вёл. (это) equal\nРаз спокойный, значит и|well. (это) equal\n***\nВ РАВЕНСТВЕ вы жить изволите. (это) equality\nПри РАВНОПРАВИИ вы жить изволите. (это) equality"
-        ],
-        "examples": [
-            "We are all equals here.",
-            "Two plus two equals four.",
-            "He gave equal attention to all.",
-            "We are all equal in the sight of God.",
-            "My car equals yours in speed.",
-            "He treats all his staff as equals.",
-            "We want to ensure equal treatment for everyone.",
-            "They all are materially equal.",
-            "Are you equal to this challenge?",
-            "an equal number of apples and oranges",
-            "The two towns are roughly equal in size.",
-            "We will ensure equal opportunities for all.",
-            "I consider him my equal.",
-            "He was an appendage, not an equal.",
-            "Try to treat everyone as an equal.",
-            "The rent was equal to half his monthly income.",
-            "Women fighting for equal rights",
-            "All men are equal in the eyes of the law.",
-            "I was angry and embarrassed in equal measure.",
-            "Price elasticity is equal to unity.",
-            "Make X greater than or equal to zero.",
-            "He was equal to the task.",
-            "Nothing can ever equal that experience.",
-            "They say that three moves equal one fire.",
-            "They all started off on an equal footing.",
-            "The lot was split into two equal moieties.",
-            "Thompson equalled the world record.",
-            "European laws on equal opportunities",
-            "Divide the pie into six equal pieces.",
-            "Equal Employment Opportunity Commission"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мы все тут равные.",
-            "Два плюс два равно четыре.",
-            "Он каждому уделил равное внимание.",
-            "Перед Богом мы все равны.",
-            "Моя машина не уступает твоей.",
-            "Он обращается со всеми своими подчинёнными на равных.",
-            "Мы хотим обеспечить равные условия для всех.",
-            "Все они по существу равны между собой.",
-            "По плечу ли тебе этот вызов? / Справитесь ли вы с этой задачей?",
-            "равное количество яблок и апельсинов",
-            "Эти два города примерно одного размера.",
-            "Мы обеспечим равные возможности для всех.",
-            "Я считаю его себе ровней.",
-            "Он был зависимым, а не равным.",
-            "Старайтесь относиться ко всем, как к равным.",
-            "Квартплата составила половину его месячного дохода.",
-            "Женщины, которые борются за равные права",
-            "В глазах закона все люди равны.",
-            "Я был в равной мере и зол, и растерян.",
-            "Ценовая эластичность равна единице.",
-            "Пусть X больше или равно нулю.",
-            "Это задание было ему по плечу.",
-            "Ничто и никогда не сможет с этим сравниться.",
-            "Говорят, что три переезда равны одному пожару.",
-            "Они все начали (карьеру) в равных условиях.",
-            "Всё разделили на две равные части.",
-            "Томпсон повторил мировой рекорд.",
-            "европейские законы о равных возможностях",
-            "Разделите пирог на шесть равных частей.",
-            "Комиссия по вопросу равных возможностей занятости"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "qu_=_[kw]"
-        ]
-    }
+  "equal": {
+    "comment": [
+      "equally",
+      "qualify",
+      "quality",
+      "qualification",
+      "qualified",
+      "equality",
+      "inequality"
+    ],
+    "translate": "равный, одинаковый, равняться, быть равным, ровня",
+    "transcription": " |ˈiːkwəl|",
+    "antonyms": [],
+    "mnemonic": [
+      "equal [иквэл] равный - Мой опыт (и квал-ификация) равных не имеют.",
+      "equal ['i: kwəl]\nequality [i:'kwɔlɪtɪ]\nequalize ['i:kwəlaɪz] - уравнивать, сравнивать,\nсравнять\n***\nОни СРАВНЯЛИСЬ - вместе путь их|вёл. (это) equal\nВ РАВНЫЕ условия путь их|вёл. (это) equal\nВ ОДИНАКОВЫЕ условия путь их|вёл. (это) equal\nРаз спокойный, значит и|well. (это) equal\n***\nВ РАВЕНСТВЕ вы жить изволите. (это) equality\nПри РАВНОПРАВИИ вы жить изволите. (это) equality"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "qu_=_[kw]"
+    ],
+    "examples": [
+      {
+        "eng": "We are all equals here.",
+        "ru": "Мы все тут равные.",
+        "learn": 0
+      },
+      {
+        "eng": "Two plus two equals four.",
+        "ru": "Два плюс два равно четыре.",
+        "learn": 0
+      },
+      {
+        "eng": "He gave equal attention to all.",
+        "ru": "Он каждому уделил равное внимание.",
+        "learn": 0
+      },
+      {
+        "eng": "We are all equal in the sight of God.",
+        "ru": "Перед Богом мы все равны.",
+        "learn": 0
+      },
+      {
+        "eng": "My car equals yours in speed.",
+        "ru": "Моя машина не уступает твоей.",
+        "learn": 0
+      },
+      {
+        "eng": "He treats all his staff as equals.",
+        "ru": "Он обращается со всеми своими подчинёнными на равных.",
+        "learn": 0
+      },
+      {
+        "eng": "We want to ensure equal treatment for everyone.",
+        "ru": "Мы хотим обеспечить равные условия для всех.",
+        "learn": 1
+      },
+      {
+        "eng": "They all are materially equal.",
+        "ru": "Все они по существу равны между собой.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you equal to this challenge?",
+        "ru": "По плечу ли тебе этот вызов? / Справитесь ли вы с этой задачей?",
+        "learn": 0
+      },
+      {
+        "eng": "an equal number of apples and oranges",
+        "ru": "равное количество яблок и апельсинов",
+        "learn": 0
+      },
+      {
+        "eng": "The two towns are roughly equal in size.",
+        "ru": "Эти два города примерно одного размера.",
+        "learn": 1
+      },
+      {
+        "eng": "We will ensure equal opportunities for all.",
+        "ru": "Мы обеспечим равные возможности для всех.",
+        "learn": 0
+      },
+      {
+        "eng": "I consider him my equal.",
+        "ru": "Я считаю его себе ровней.",
+        "learn": 0
+      },
+      {
+        "eng": "He was an appendage, not an equal.",
+        "ru": "Он был зависимым, а не равным.",
+        "learn": 0
+      },
+      {
+        "eng": "Try to treat everyone as an equal.",
+        "ru": "Старайтесь относиться ко всем, как к равным.",
+        "learn": 0
+      },
+      {
+        "eng": "The rent was equal to half his monthly income.",
+        "ru": "Квартплата составила половину его месячного дохода.",
+        "learn": 0
+      },
+      {
+        "eng": "Women fighting for equal rights",
+        "ru": "Женщины, которые борются за равные права",
+        "learn": 0
+      },
+      {
+        "eng": "All men are equal in the eyes of the law.",
+        "ru": "В глазах закона все люди равны.",
+        "learn": 0
+      },
+      {
+        "eng": "I was angry and embarrassed in equal measure.",
+        "ru": "Я был в равной мере и зол, и растерян.",
+        "learn": 0
+      },
+      {
+        "eng": "Price elasticity is equal to unity.",
+        "ru": "Ценовая эластичность равна единице.",
+        "learn": 0
+      },
+      {
+        "eng": "Make X greater than or equal to zero.",
+        "ru": "Пусть X больше или равно нулю.",
+        "learn": 0
+      },
+      {
+        "eng": "He was equal to the task.",
+        "ru": "Это задание было ему по плечу.",
+        "learn": 0
+      },
+      {
+        "eng": "Nothing can ever equal that experience.",
+        "ru": "Ничто и никогда не сможет с этим сравниться.",
+        "learn": 0
+      },
+      {
+        "eng": "They say that three moves equal one fire.",
+        "ru": "Говорят, что три переезда равны одному пожару.",
+        "learn": 0
+      },
+      {
+        "eng": "They all started off on an equal footing.",
+        "ru": "Они все начали (карьеру) в равных условиях.",
+        "learn": 0
+      },
+      {
+        "eng": "The lot was split into two equal moieties.",
+        "ru": "Всё разделили на две равные части.",
+        "learn": 0
+      },
+      {
+        "eng": "Thompson equalled the world record.",
+        "ru": "Томпсон повторил мировой рекорд.",
+        "learn": 0
+      },
+      {
+        "eng": "European laws on equal opportunities",
+        "ru": "европейские законы о равных возможностях",
+        "learn": 0
+      },
+      {
+        "eng": "Divide the pie into six equal pieces.",
+        "ru": "Разделите пирог на шесть равных частей.",
+        "learn": 0
+      },
+      {
+        "eng": "Equal Employment Opportunity Commission",
+        "ru": "Комиссия по вопросу равных возможностей занятости",
+        "learn": 0
+      }
+    ]
+  }
 }

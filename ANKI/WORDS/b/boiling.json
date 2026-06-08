@@ -1,81 +1,167 @@
 {
-    "boiling": {
-        "comment": [
-            "boil",
-            "boiler"
-        ],
-        "translate": "кипение",
-        "transcription": " |ˈbɔɪlɪŋ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The kettle is boiling.",
-            "It is boiling in here.",
-            "I'm boiling in this suit.",
-            "He was boiling with rage.",
-            "It was a boiling hot morning.",
-            "Boiling water gives off steam.",
-            "Bring water to the boiling point.",
-            "The sun was boiling hot.",
-            "The boiling soup was frothing",
-            "Mix the powder with boiling water.",
-            "french fries cooked in boiling oil",
-            "We purified the water by boiling it.",
-            "Can I open a window? It's boiling in here.",
-            "The kettle's boiling — shall I turn it off?",
-            "Turn off the gas, the milk is boiling over.",
-            "He could feel the anger boiling up inside him.",
-            "Heat the water until it reaches boiling point.",
-            "Cook the pasta in a large pan of boiling water.",
-            "The water has been boiling away for ten minutes.",
-            "Pour boiling water over the rice and let it soak.",
-            "She could sense that trouble was boiling up at work.",
-            "Put the spaghetti into plenty of boiling salted water.",
-            "Don't put boiling water in the glass or it will crack.",
-            "Make the drink with boiling water in the same way as tea.",
-            "The cook reduced the sauce by boiling it for a long time.",
-            "The boiling point of water is 212° Fahrenheit or 100° Celsius.",
-            "A watched pot never boils. / A watched pot is long in boiling. посл.",
-            "Scald the tomatoes in boiling water so that you can peel them more easily.",
-            "After boiling the broccoli, submerge it in ice water to stop the cooking process.",
-            "Cook the sauce over a medium heat until it thickens. Meanwhile start boiling the water for the pasta."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Чайник кипит.",
-            "Здесь сильная /адская/ жара.",
-            "Мне в этом костюме ужасно жарко.",
-            "Он кипел от гнева.",
-            "Этим утром стояла адская жара.",
-            "От кипящей воды идет пар.",
-            "Доведите воду до кипения.",
-            "Нестерпимо палило солнце.",
-            "Кипящий суп пенился.",
-            "Добавьте порошок в кипяток /кипящую воду/.",
-            "картофель фри, приготовленный в кипящем масле",
-            "Мы очистили воду прокипятив её.",
-            "Можно я открою окно? Здесь ужасно жарко.",
-            "Чайник кипит, выключить?",
-            "Выключи газ, молоко убегает.",
-            "Он чувствовал, как внутри него закипает гнев.",
-            "Нагревайте воду до тех пор, пока она не достигнет точки кипения.",
-            "Отварите макароны в большой кастрюле с кипящей водой.",
-            "Вода кипит уже десять минут.",
-            "Залейте рис кипятком и дайте ему пропитаться водой.",
-            "Она чувствовала, что на работе постепенно назревают проблемы.",
-            "Положите спагетти в большое количество кипящей подсоленной воды.",
-            "Не наливай в бокал кипящую воду, а то он треснет.",
-            "Заваривайте этот напиток кипящей водой — точно так же, как чай.",
-            "Повар загустил соус, прокипятив его в течение длительного времени.",
-            "Точка кипения воды — двести двенадцать градусов по Фаренгейту или сто градусов по Цельсию.",
-            "Когда ждешь, время тянется медленно.",
-            "Ошпарьте помидоры кипятком, чтобы их было легче чистить.",
-            "После кипячения опустите брокколи в ледяную воду, чтобы остановить процесс приготовления.",
-            "Варите соус на среднем огне, пока не загустеет. В это же время вскипятите воду для макарон."
-        ],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "boiling": {
+    "comment": [
+      "boil",
+      "boiler"
+    ],
+    "translate": "кипение",
+    "transcription": " |ˈbɔɪlɪŋ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The kettle is boiling.",
+        "ru": "Чайник кипит.",
+        "learn": 0
+      },
+      {
+        "eng": "It is boiling in here.",
+        "ru": "Здесь сильная /адская/ жара.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm boiling in this suit.",
+        "ru": "Мне в этом костюме ужасно жарко.",
+        "learn": 0
+      },
+      {
+        "eng": "He was boiling with rage.",
+        "ru": "Он кипел от гнева.",
+        "learn": 1
+      },
+      {
+        "eng": "It was a boiling hot morning.",
+        "ru": "Этим утром стояла адская жара.",
+        "learn": 0
+      },
+      {
+        "eng": "Boiling water gives off steam.",
+        "ru": "От кипящей воды идет пар.",
+        "learn": 0
+      },
+      {
+        "eng": "Bring water to the boiling point.",
+        "ru": "Доведите воду до кипения.",
+        "learn": 0
+      },
+      {
+        "eng": "The sun was boiling hot.",
+        "ru": "Нестерпимо палило солнце.",
+        "learn": 0
+      },
+      {
+        "eng": "The boiling soup was frothing",
+        "ru": "Кипящий суп пенился.",
+        "learn": 0
+      },
+      {
+        "eng": "Mix the powder with boiling water.",
+        "ru": "Добавьте порошок в кипяток /кипящую воду/.",
+        "learn": 0
+      },
+      {
+        "eng": "french fries cooked in boiling oil",
+        "ru": "картофель фри, приготовленный в кипящем масле",
+        "learn": 0
+      },
+      {
+        "eng": "We purified the water by boiling it.",
+        "ru": "Мы очистили воду прокипятив её.",
+        "learn": 0
+      },
+      {
+        "eng": "Can I open a window? It's boiling in here.",
+        "ru": "Можно я открою окно? Здесь ужасно жарко.",
+        "learn": 0
+      },
+      {
+        "eng": "The kettle's boiling — shall I turn it off?",
+        "ru": "Чайник кипит, выключить?",
+        "learn": 0
+      },
+      {
+        "eng": "Turn off the gas, the milk is boiling over.",
+        "ru": "Выключи газ, молоко убегает.",
+        "learn": 0
+      },
+      {
+        "eng": "He could feel the anger boiling up inside him.",
+        "ru": "Он чувствовал, как внутри него закипает гнев.",
+        "learn": 0
+      },
+      {
+        "eng": "Heat the water until it reaches boiling point.",
+        "ru": "Нагревайте воду до тех пор, пока она не достигнет точки кипения.",
+        "learn": 1
+      },
+      {
+        "eng": "Cook the pasta in a large pan of boiling water.",
+        "ru": "Отварите макароны в большой кастрюле с кипящей водой.",
+        "learn": 1
+      },
+      {
+        "eng": "The water has been boiling away for ten minutes.",
+        "ru": "Вода кипит уже десять минут.",
+        "learn": 0
+      },
+      {
+        "eng": "Pour boiling water over the rice and let it soak.",
+        "ru": "Залейте рис кипятком и дайте ему пропитаться водой.",
+        "learn": 0
+      },
+      {
+        "eng": "She could sense that trouble was boiling up at work.",
+        "ru": "Она чувствовала, что на работе постепенно назревают проблемы.",
+        "learn": 0
+      },
+      {
+        "eng": "Put the spaghetti into plenty of boiling salted water.",
+        "ru": "Положите спагетти в большое количество кипящей подсоленной воды.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't put boiling water in the glass or it will crack.",
+        "ru": "Не наливай в бокал кипящую воду, а то он треснет.",
+        "learn": 0
+      },
+      {
+        "eng": "Make the drink with boiling water in the same way as tea.",
+        "ru": "Заваривайте этот напиток кипящей водой — точно так же, как чай.",
+        "learn": 0
+      },
+      {
+        "eng": "The cook reduced the sauce by boiling it for a long time.",
+        "ru": "Повар загустил соус, прокипятив его в течение длительного времени.",
+        "learn": 0
+      },
+      {
+        "eng": "The boiling point of water is 212° Fahrenheit or 100° Celsius.",
+        "ru": "Точка кипения воды — двести двенадцать градусов по Фаренгейту или сто градусов по Цельсию.",
+        "learn": 1
+      },
+      {
+        "eng": "A watched pot never boils. / A watched pot is long in boiling. посл.",
+        "ru": "Когда ждешь, время тянется медленно.",
+        "learn": 0
+      },
+      {
+        "eng": "Scald the tomatoes in boiling water so that you can peel them more easily.",
+        "ru": "Ошпарьте помидоры кипятком, чтобы их было легче чистить.",
+        "learn": 0
+      },
+      {
+        "eng": "After boiling the broccoli, submerge it in ice water to stop the cooking process.",
+        "ru": "После кипячения опустите брокколи в ледяную воду, чтобы остановить процесс приготовления.",
+        "learn": 0
+      },
+      {
+        "eng": "Cook the sauce over a medium heat until it thickens. Meanwhile start boiling the water for the pasta.",
+        "ru": "Варите соус на среднем огне, пока не загустеет. В это же время вскипятите воду для макарон.",
+        "learn": 0
+      }
+    ]
+  }
 }

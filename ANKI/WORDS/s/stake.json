@@ -1,82 +1,162 @@
 {
-    "stake": {
-        "comment": [
-            "take",
-            "mistake",
-            "mistaken",
-            "undertake",
-            "takeover",
-            "overtake",
-            "intake"
-        ],
-        "translate": "ставка, доля, кол, участие, столб, стойка, делать ставку, рисковать, сажать на кол",
-        "transcription": " |steɪk|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The stakes are too high.",
-            "Joan died at the stake",
-            "They were playing for high stakes.",
-            "I will stake my good reputation for this.",
-            "Heretics were burnt at the stake.",
-            "We found the garden completely fenced with stout stakes.",
-            "The government has cut its stake in the firm to 72% from 100%.",
-            "Young trees have to be staked.",
-            "Perhaps a million dollars are at stake.",
-            "She drove the end of the stake into the ground.",
-            "a poker game with high stakes",
-            "Joan of Arc was burned at the stake.",
-            "Jim staked his whole fortune on one card game.",
-            "He holds a 51% stake in the firm.",
-            "a stake in the company's future",
-            "Foolishly, he staked all his possessions on the result of the card game.",
-            "There is more at stake than your modesty.",
-            "Young people don't feel they have a stake in the country's future.",
-            "I will stake my good reputation for this.",
-            "National pride is at stake in next week's game against England.",
-            "A corner of the field has been staked off.",
-            "Drive two stakes into the ground about three feet apart.",
-            "Kevin is staking his reputation on the success of the project.",
-            "Heretics were burnt at the stake (=burnt in a fire as a punishment).",
-            "I'm sure that's Jesse — I'd stake my life on it.",
-            "That's my opinion, but I wouldn't go to the stake for it.",
-            "Joan of Arc was pinioned to a stake and burned as a heretic.",
-            "Tickets are on a 'first come, first served' basis, so stake your claim now."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ставки слишком высоки.",
-            "Жанну сожгли на костре",
-            "Они играли по крупному.",
-            "Ради этого я рискну своей хорошей репутацией.",
-            "Еретиков сжигали на костре.",
-            "Мы увидели, что сад был огорожен забором из крепких кольев.",
-            "Правительство уменьшило свою долю в капитале этой фирмы со 100% до 72%.",
-            "Молодые деревья следует подвязать.",
-            "На карту поставлено около миллиона долларов.",
-            "Она вогнала конец колышка в землю.",
-            "игра в покер с высокими ставками",
-            "Жанна д'Арк была сожжена на костре.",
-            "Джим поставил всё своё состояние на одну карточную игру.",
-            "Он владеет 51% акций данной компании.",
-            "финансовая заинтересованность в будущем компании",
-            "Он сглупил и поставил всё, что у него было, на кон в карточной игре.",
-            "Речь идёт не только о вашей скромности.",
-            "Молодые люди не чувствуют себя заинтересованными в будущем страны.",
-            "Я поручусь за это своей репутацией.",
-            "В матче следующего тура против Англии на карту поставлена национальная гордость.",
-            "Один из углов поля был отгорожен колышками.",
-            "Вбейте в землю два колышка, футах в трёх друг от друга.",
-            "Кевин ставит свою репутацию на успех этого проекта.",
-            "Еретики были сожжены на костре (т.е. их сожгли в качестве наказания).",
-            "Я уверен, что это Джесси — жизнью готов поклясться.",
-            "Таковы мои взгляды, но на костёр за них я не пойду.",
-            "Жанну д'Арк привязали к столбу и сожгли, как еретика.",
-            "Билеты распределяются в порядке очереди, поэтому делайте заявки прямо сейчас."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "stake": {
+    "comment": [
+      "take",
+      "mistake",
+      "mistaken",
+      "undertake",
+      "takeover",
+      "overtake",
+      "intake"
+    ],
+    "translate": "ставка, доля, кол, участие, столб, стойка, делать ставку, рисковать, сажать на кол",
+    "transcription": " |steɪk|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The stakes are too high.",
+        "ru": "Ставки слишком высоки.",
+        "learn": 0
+      },
+      {
+        "eng": "Joan died at the stake",
+        "ru": "Жанну сожгли на костре",
+        "learn": 0
+      },
+      {
+        "eng": "They were playing for high stakes.",
+        "ru": "Они играли по крупному.",
+        "learn": 0
+      },
+      {
+        "eng": "I will stake my good reputation for this.",
+        "ru": "Ради этого я рискну своей хорошей репутацией.",
+        "learn": 1
+      },
+      {
+        "eng": "Heretics were burnt at the stake.",
+        "ru": "Еретиков сжигали на костре.",
+        "learn": 0
+      },
+      {
+        "eng": "We found the garden completely fenced with stout stakes.",
+        "ru": "Мы увидели, что сад был огорожен забором из крепких кольев.",
+        "learn": 0
+      },
+      {
+        "eng": "The government has cut its stake in the firm to 72% from 100%.",
+        "ru": "Правительство уменьшило свою долю в капитале этой фирмы со 100% до 72%.",
+        "learn": 0
+      },
+      {
+        "eng": "Young trees have to be staked.",
+        "ru": "Молодые деревья следует подвязать.",
+        "learn": 0
+      },
+      {
+        "eng": "Perhaps a million dollars are at stake.",
+        "ru": "На карту поставлено около миллиона долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "She drove the end of the stake into the ground.",
+        "ru": "Она вогнала конец колышка в землю.",
+        "learn": 0
+      },
+      {
+        "eng": "a poker game with high stakes",
+        "ru": "игра в покер с высокими ставками",
+        "learn": 0
+      },
+      {
+        "eng": "Joan of Arc was burned at the stake.",
+        "ru": "Жанна д'Арк была сожжена на костре.",
+        "learn": 0
+      },
+      {
+        "eng": "Jim staked his whole fortune on one card game.",
+        "ru": "Джим поставил всё своё состояние на одну карточную игру.",
+        "learn": 0
+      },
+      {
+        "eng": "He holds a 51% stake in the firm.",
+        "ru": "Он владеет 51% акций данной компании.",
+        "learn": 0
+      },
+      {
+        "eng": "a stake in the company's future",
+        "ru": "финансовая заинтересованность в будущем компании",
+        "learn": 0
+      },
+      {
+        "eng": "Foolishly, he staked all his possessions on the result of the card game.",
+        "ru": "Он сглупил и поставил всё, что у него было, на кон в карточной игре.",
+        "learn": 0
+      },
+      {
+        "eng": "There is more at stake than your modesty.",
+        "ru": "Речь идёт не только о вашей скромности.",
+        "learn": 0
+      },
+      {
+        "eng": "Young people don't feel they have a stake in the country's future.",
+        "ru": "Молодые люди не чувствуют себя заинтересованными в будущем страны.",
+        "learn": 0
+      },
+      {
+        "eng": "I will stake my good reputation for this.",
+        "ru": "Я поручусь за это своей репутацией.",
+        "learn": 1
+      },
+      {
+        "eng": "National pride is at stake in next week's game against England.",
+        "ru": "В матче следующего тура против Англии на карту поставлена национальная гордость.",
+        "learn": 0
+      },
+      {
+        "eng": "A corner of the field has been staked off.",
+        "ru": "Один из углов поля был отгорожен колышками.",
+        "learn": 0
+      },
+      {
+        "eng": "Drive two stakes into the ground about three feet apart.",
+        "ru": "Вбейте в землю два колышка, футах в трёх друг от друга.",
+        "learn": 0
+      },
+      {
+        "eng": "Kevin is staking his reputation on the success of the project.",
+        "ru": "Кевин ставит свою репутацию на успех этого проекта.",
+        "learn": 0
+      },
+      {
+        "eng": "Heretics were burnt at the stake (=burnt in a fire as a punishment).",
+        "ru": "Еретики были сожжены на костре (т.е. их сожгли в качестве наказания).",
+        "learn": 0
+      },
+      {
+        "eng": "I'm sure that's Jesse — I'd stake my life on it.",
+        "ru": "Я уверен, что это Джесси — жизнью готов поклясться.",
+        "learn": 1
+      },
+      {
+        "eng": "That's my opinion, but I wouldn't go to the stake for it.",
+        "ru": "Таковы мои взгляды, но на костёр за них я не пойду.",
+        "learn": 0
+      },
+      {
+        "eng": "Joan of Arc was pinioned to a stake and burned as a heretic.",
+        "ru": "Жанну д'Арк привязали к столбу и сожгли, как еретика.",
+        "learn": 0
+      },
+      {
+        "eng": "Tickets are on a 'first come, first served' basis, so stake your claim now.",
+        "ru": "Билеты распределяются в порядке очереди, поэтому делайте заявки прямо сейчас.",
+        "learn": 0
+      }
+    ]
+  }
 }

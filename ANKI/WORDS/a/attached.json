@@ -1,84 +1,170 @@
 {
-    "attached": {
-        "comment": [
-            "attach",
-            "moustache",
-            "detached",
-            "detach",
-            "attachment"
-        ],
-        "translate": "прикрепленный, приложенный, привязанный, прикомандированный, преданный",
-        "transcription": " |əˈtætʃt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He was strongly attached to his family.",
-            "I attached the file to the e-mail.",
-            "Please complete the attached forms.",
-            "She attached a note to the package.",
-            "She was very attached to her father.",
-            "Attached to this contract is ...",
-            "To this treasure a curse is attached.",
-            "The fault is attached to the bus driver.",
-            "The house has an attached garage.",
-            "The handle is not very well attached.",
-            "The cheque was attached to our letter.",
-            "Please fill out the attached application.",
-            "There is a strong stigma attached to suicide.",
-            "The rope strained when the weight was attached.",
-            "the spider's thread attached to the window sill",
-            "a recliner chair with a padded footrest attached",
-            "No blame can be attached to Roy for the incident.",
-            "Please fill in and return the attached reply slip.",
-            "A young man from Canada had attached himself to Sam.",
-            "I've attached an application to the brochure for you.",
-            "The nation was firmly attached to hereditary monarchy.",
-            "The policy offers 15% interest with no strings attached.",
-            "It's easy to become attached to the children you work with.",
-            "Files can be attached to your email at the push of a button.",
-            "The Food Ministry is attached to the Ministry of Agriculture.",
-            "Paulina became excessively attached to her. (E. Bulwer-Lytton)",
-            "all art schools whether independent or attached to universities",
-            "There is a lot of ceremonial attached to the job of Lord Mayor.",
-            "A large atrium or portico is attached to two sides of the church.",
-            "The shell of a sessile barnacle is attached directly to a substrate."
-        ],
-        "example_translate": [
-            "Он был сильно привязан к своей семье.",
-            "Я прикрепил файл к электронному письму.",
-            "Заполните, пожалуйста, приложенные формы.",
-            "Она прикрепила к пакету записку.",
-            "Она была очень привязана к отцу.",
-            "В приложении к настоящему договору…",
-            "На этом богатстве лежит проклятие.",
-            "Вина лежит на водителе автобуса.",
-            "К дому пристроен гараж.",
-            "Ручка плохо прикреплена.",
-            "К нашему письму был приложен чек.",
-            "Заполните, пожалуйста, прилагаемую анкету.",
-            "После попытки самоубийства остался сильный шрам.",
-            "Когда прикрепили груз, верёвка натянулась.",
-            "паутинка, прикреплённая к подоконнику",
-            "кресло с откидывающейся спинкой и прилагающейся к нему мягкой подставкой для ног",
-            "Винить в этом происшествии Роя нельзя.",
-            "Пожалуйста, заполните и верните прилагаемый бланк ответа.",
-            "К Сэму привязался один молодой человек из Канады.",
-            "Для вас я приложил к брошюре анкету.",
-            "Весь народ решительно поддерживал наследственную монархию.",
-            "Полис предлагает пятнадцать процентов годовых без каких бы то ни было условий.",
-            "Легко привязаться к детям, с которыми работаешь.",
-            "К электронной почте можно прикрепить файлы одним нажатием кнопки.",
-            "Министерство пищевой промышленности является одним из подразделений Министерства сельского хозяйства.",
-            "Полина чрезвычайно привязалась к ней.",
-            "все художественные школы, будь то независимые или при университетах",
-            "Должность лорда-мэра сопряжена с многочисленными церемониальными обязанностями.",
-            "Большой атриум, или портик, присоединен к двум стенам церкви.",
-            "Раковина сидячего усоногого крепится непосредственно к основанию."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "attached": {
+    "comment": [
+      "attach",
+      "moustache",
+      "detached",
+      "detach",
+      "attachment"
+    ],
+    "translate": "прикрепленный, приложенный, привязанный, прикомандированный, преданный",
+    "transcription": " |əˈtætʃt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He was strongly attached to his family.",
+        "ru": "Он был сильно привязан к своей семье.",
+        "learn": 1
+      },
+      {
+        "eng": "I attached the file to the e-mail.",
+        "ru": "Я прикрепил файл к электронному письму.",
+        "learn": 0
+      },
+      {
+        "eng": "Please complete the attached forms.",
+        "ru": "Заполните, пожалуйста, приложенные формы.",
+        "learn": 0
+      },
+      {
+        "eng": "She attached a note to the package.",
+        "ru": "Она прикрепила к пакету записку.",
+        "learn": 1
+      },
+      {
+        "eng": "She was very attached to her father.",
+        "ru": "Она была очень привязана к отцу.",
+        "learn": 1
+      },
+      {
+        "eng": "Attached to this contract is ...",
+        "ru": "В приложении к настоящему договору…",
+        "learn": 0
+      },
+      {
+        "eng": "To this treasure a curse is attached.",
+        "ru": "На этом богатстве лежит проклятие.",
+        "learn": 0
+      },
+      {
+        "eng": "The fault is attached to the bus driver.",
+        "ru": "Вина лежит на водителе автобуса.",
+        "learn": 0
+      },
+      {
+        "eng": "The house has an attached garage.",
+        "ru": "К дому пристроен гараж.",
+        "learn": 0
+      },
+      {
+        "eng": "The handle is not very well attached.",
+        "ru": "Ручка плохо прикреплена.",
+        "learn": 0
+      },
+      {
+        "eng": "The cheque was attached to our letter.",
+        "ru": "К нашему письму был приложен чек.",
+        "learn": 0
+      },
+      {
+        "eng": "Please fill out the attached application.",
+        "ru": "Заполните, пожалуйста, прилагаемую анкету.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a strong stigma attached to suicide.",
+        "ru": "После попытки самоубийства остался сильный шрам.",
+        "learn": 0
+      },
+      {
+        "eng": "The rope strained when the weight was attached.",
+        "ru": "Когда прикрепили груз, верёвка натянулась.",
+        "learn": 0
+      },
+      {
+        "eng": "the spider's thread attached to the window sill",
+        "ru": "паутинка, прикреплённая к подоконнику",
+        "learn": 0
+      },
+      {
+        "eng": "a recliner chair with a padded footrest attached",
+        "ru": "кресло с откидывающейся спинкой и прилагающейся к нему мягкой подставкой для ног",
+        "learn": 0
+      },
+      {
+        "eng": "No blame can be attached to Roy for the incident.",
+        "ru": "Винить в этом происшествии Роя нельзя.",
+        "learn": 0
+      },
+      {
+        "eng": "Please fill in and return the attached reply slip.",
+        "ru": "Пожалуйста, заполните и верните прилагаемый бланк ответа.",
+        "learn": 0
+      },
+      {
+        "eng": "A young man from Canada had attached himself to Sam.",
+        "ru": "К Сэму привязался один молодой человек из Канады.",
+        "learn": 0
+      },
+      {
+        "eng": "I've attached an application to the brochure for you.",
+        "ru": "Для вас я приложил к брошюре анкету.",
+        "learn": 0
+      },
+      {
+        "eng": "The nation was firmly attached to hereditary monarchy.",
+        "ru": "Весь народ решительно поддерживал наследственную монархию.",
+        "learn": 0
+      },
+      {
+        "eng": "The policy offers 15% interest with no strings attached.",
+        "ru": "Полис предлагает пятнадцать процентов годовых без каких бы то ни было условий.",
+        "learn": 0
+      },
+      {
+        "eng": "It's easy to become attached to the children you work with.",
+        "ru": "Легко привязаться к детям, с которыми работаешь.",
+        "learn": 0
+      },
+      {
+        "eng": "Files can be attached to your email at the push of a button.",
+        "ru": "К электронной почте можно прикрепить файлы одним нажатием кнопки.",
+        "learn": 0
+      },
+      {
+        "eng": "The Food Ministry is attached to the Ministry of Agriculture.",
+        "ru": "Министерство пищевой промышленности является одним из подразделений Министерства сельского хозяйства.",
+        "learn": 0
+      },
+      {
+        "eng": "Paulina became excessively attached to her. (E. Bulwer-Lytton)",
+        "ru": "Полина чрезвычайно привязалась к ней.",
+        "learn": 0
+      },
+      {
+        "eng": "all art schools whether independent or attached to universities",
+        "ru": "все художественные школы, будь то независимые или при университетах",
+        "learn": 0
+      },
+      {
+        "eng": "There is a lot of ceremonial attached to the job of Lord Mayor.",
+        "ru": "Должность лорда-мэра сопряжена с многочисленными церемониальными обязанностями.",
+        "learn": 0
+      },
+      {
+        "eng": "A large atrium or portico is attached to two sides of the church.",
+        "ru": "Большой атриум, или портик, присоединен к двум стенам церкви.",
+        "learn": 0
+      },
+      {
+        "eng": "The shell of a sessile barnacle is attached directly to a substrate.",
+        "ru": "Раковина сидячего усоногого крепится непосредственно к основанию.",
+        "learn": 0
+      }
+    ]
+  }
 }

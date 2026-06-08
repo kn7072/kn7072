@@ -1,86 +1,173 @@
 {
-    "trust": {
-        "comment": [
-            "trustee"
-        ],
-        "translate": " доверять, доверяться, доверие, траст, трест, вера, доверенный",
-        "transcription": "  |trʌst|",
-        "antonyms": [],
-        "mnemonic": [
-            "trust [траст] доверие - Не доверяйте (траст-овым) компаниям, обманут.",
-            "trust [trʌst]\nentrust\nthrust [θrʌst]\nrust [rʌst]\ncrust [krʌst]\nДОВЕРЯТЬ - не ДОВЕРЯТЬ - вот такой контраст.\n(это)trust., entrust\nДоверять, поручать, возлагать. Доверие, вера.\n***\nТОЛКАТЬ - не ТОЛКАТЬ - вот такой контраст. (это)\nthrust\n***\nРЖАВЕТЬ - не РЖАВЕТЬ - вот такой контраст.\n(это) rust\n***\nПОКРЫВАТЬСЯ КОРКОЙ - такой контраст. (это) crust\n***\nДоверие и вера \"trust\"\nне заржавеют \"rust\"."
-        ],
-        "examples": [
-            "I just don't trust him.",
-            "I trust him implicitly.",
-            "I was a fool to trust him.",
-            "You can't trust the rumors.",
-            "I trust him to keep his word.",
-            "Each had to trust to himself.",
-            "I implicitly trust him.",
-            "Don't trust everything you read.",
-            "Can I trust you to keep a secret?",
-            "Our relationship is built on trust.",
-            "I'd trust her with my life.",
-            "It's naive to trust everyone.",
-            "I wouldn't trust him with the keys.",
-            "Charitable Remainder Trust",
-            "Can we trust these statistics?",
-            "We can trust in our government.",
-            "We need to trust him to do the work.",
-            "I don't trust him. He means no good.",
-            "You have to build up trust.",
-            "He puts trust in the future.",
-            "She abused her friend's trust.",
-            "We should trust our intuitions.",
-            "I should never have trusted him.",
-            "It was sheer nonsense to trust them.",
-            "She had betrayed her parents' trust.",
-            "National AIDS Trust",
-            "His trust had been misplaced.",
-            "The property is held on trust.",
-            "Our main trust was in our feet.",
-            "I trust his judgement completely."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я ему просто не доверяю.",
-            "Я ему полностью доверяю.",
-            "С моей стороны было глупостью доверять ему.",
-            "Нельзя доверять этим слухам.",
-            "Я верю /надеюсь/, что он сдержит своё слово.",
-            "Каждый должен был полагаться на самого себя.",
-            "Я доверяю ему безоговорочно.",
-            "Не доверяйте слепо всему, что читаете.",
-            "Тебе можно доверить тайну /секрет/?",
-            "Наши отношения построены на доверии.",
-            "Я готов доверить ей свою жизнь.",
-            "Наивно всем доверять.",
-            "Я бы не доверял ему ключи.",
-            "Благотворительный остаточный траст",
-            "Можем ли мы доверять этой статистике?",
-            "Мы можем довериться нашему правительству.",
-            "Мы должны доверить ему эту работу.",
-            "Я ему не доверяю: у него на уме что-то недоброе.",
-            "Вы должны построить доверительные отношения /научиться доверять друг другу/.",
-            "Он надеется на будущее.",
-            "Она злоупотребила доверием своей подруги.",
-            "Мы должны доверять своей интуиции.",
-            "Нельзя мне было ему доверять.",
-            "Что за ерунда, как можно было им доверять!",
-            "Она не оправдала доверия своих родителей.",
-            "Национальное управление по контролю за распространением СПИДа (США)",
-            "Он оказал доверие недостойному человеку. / Он оказал доверие человеку, который не мог его оправдать.",
-            "Имущество управляется по доверенности.",
-            "Мы полагались только на собственные ноги.",
-            "Я полностью доверяю его мнению."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Инфинитив_-_сложное_дополнение(умственной_деятельность,_обозначающая_знание,_мнение_или_предположение)",
-            "Сложное_дополнение",
-            "Инфинитив"
-        ]
-    }
+  "trust": {
+    "comment": [
+      "trustee"
+    ],
+    "translate": " доверять, доверяться, доверие, траст, трест, вера, доверенный",
+    "transcription": "  |trʌst|",
+    "antonyms": [],
+    "mnemonic": [
+      "trust [траст] доверие - Не доверяйте (траст-овым) компаниям, обманут.",
+      "trust [trʌst]\nentrust\nthrust [θrʌst]\nrust [rʌst]\ncrust [krʌst]\nДОВЕРЯТЬ - не ДОВЕРЯТЬ - вот такой контраст.\n(это)trust., entrust\nДоверять, поручать, возлагать. Доверие, вера.\n***\nТОЛКАТЬ - не ТОЛКАТЬ - вот такой контраст. (это)\nthrust\n***\nРЖАВЕТЬ - не РЖАВЕТЬ - вот такой контраст.\n(это) rust\n***\nПОКРЫВАТЬСЯ КОРКОЙ - такой контраст. (это) crust\n***\nДоверие и вера \"trust\"\nне заржавеют \"rust\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_-_сложное_дополнение(умственной_деятельность,_обозначающая_знание,_мнение_или_предположение)",
+      "Сложное_дополнение",
+      "Инфинитив"
+    ],
+    "examples": [
+      {
+        "eng": "I just don't trust him.",
+        "ru": "Я ему просто не доверяю.",
+        "learn": 0
+      },
+      {
+        "eng": "I trust him implicitly.",
+        "ru": "Я ему полностью доверяю.",
+        "learn": 0
+      },
+      {
+        "eng": "I was a fool to trust him.",
+        "ru": "С моей стороны было глупостью доверять ему.",
+        "learn": 0
+      },
+      {
+        "eng": "You can't trust the rumors.",
+        "ru": "Нельзя доверять этим слухам.",
+        "learn": 0
+      },
+      {
+        "eng": "I trust him to keep his word.",
+        "ru": "Я верю /надеюсь/, что он сдержит своё слово.",
+        "learn": 0
+      },
+      {
+        "eng": "Each had to trust to himself.",
+        "ru": "Каждый должен был полагаться на самого себя.",
+        "learn": 0
+      },
+      {
+        "eng": "I implicitly trust him.",
+        "ru": "Я доверяю ему безоговорочно.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't trust everything you read.",
+        "ru": "Не доверяйте слепо всему, что читаете.",
+        "learn": 0
+      },
+      {
+        "eng": "Can I trust you to keep a secret?",
+        "ru": "Тебе можно доверить тайну /секрет/?",
+        "learn": 0
+      },
+      {
+        "eng": "Our relationship is built on trust.",
+        "ru": "Наши отношения построены на доверии.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd trust her with my life.",
+        "ru": "Я готов доверить ей свою жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "It's naive to trust everyone.",
+        "ru": "Наивно всем доверять.",
+        "learn": 0
+      },
+      {
+        "eng": "I wouldn't trust him with the keys.",
+        "ru": "Я бы не доверял ему ключи.",
+        "learn": 0
+      },
+      {
+        "eng": "Charitable Remainder Trust",
+        "ru": "Благотворительный остаточный траст",
+        "learn": 0
+      },
+      {
+        "eng": "Can we trust these statistics?",
+        "ru": "Можем ли мы доверять этой статистике?",
+        "learn": 0
+      },
+      {
+        "eng": "We can trust in our government.",
+        "ru": "Мы можем довериться нашему правительству.",
+        "learn": 0
+      },
+      {
+        "eng": "We need to trust him to do the work.",
+        "ru": "Мы должны доверить ему эту работу.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't trust him. He means no good.",
+        "ru": "Я ему не доверяю: у него на уме что-то недоброе.",
+        "learn": 0
+      },
+      {
+        "eng": "You have to build up trust.",
+        "ru": "Вы должны построить доверительные отношения /научиться доверять друг другу/.",
+        "learn": 0
+      },
+      {
+        "eng": "He puts trust in the future.",
+        "ru": "Он надеется на будущее.",
+        "learn": 0
+      },
+      {
+        "eng": "She abused her friend's trust.",
+        "ru": "Она злоупотребила доверием своей подруги.",
+        "learn": 0
+      },
+      {
+        "eng": "We should trust our intuitions.",
+        "ru": "Мы должны доверять своей интуиции.",
+        "learn": 0
+      },
+      {
+        "eng": "I should never have trusted him.",
+        "ru": "Нельзя мне было ему доверять.",
+        "learn": 0
+      },
+      {
+        "eng": "It was sheer nonsense to trust them.",
+        "ru": "Что за ерунда, как можно было им доверять!",
+        "learn": 0
+      },
+      {
+        "eng": "She had betrayed her parents' trust.",
+        "ru": "Она не оправдала доверия своих родителей.",
+        "learn": 0
+      },
+      {
+        "eng": "National AIDS Trust",
+        "ru": "Национальное управление по контролю за распространением СПИДа (США)",
+        "learn": 0
+      },
+      {
+        "eng": "His trust had been misplaced.",
+        "ru": "Он оказал доверие недостойному человеку. / Он оказал доверие человеку, который не мог его оправдать.",
+        "learn": 0
+      },
+      {
+        "eng": "The property is held on trust.",
+        "ru": "Имущество управляется по доверенности.",
+        "learn": 0
+      },
+      {
+        "eng": "Our main trust was in our feet.",
+        "ru": "Мы полагались только на собственные ноги.",
+        "learn": 0
+      },
+      {
+        "eng": "I trust his judgement completely.",
+        "ru": "Я полностью доверяю его мнению.",
+        "learn": 1
+      }
+    ]
+  }
 }

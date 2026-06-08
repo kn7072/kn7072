@@ -1,76 +1,145 @@
 {
-    "ill": {
-        "comment": [
-            "illness",
-            "drill",
-            "grill",
-            "thriller",
-            "guerrilla"
-        ],
-        "translate": " больной, плохой, дурной, злой, плохо, дурно, худо, едва ли, зло, вред, несчастья",
-        "transcription": "  |ɪl|",
-        "antonyms": [],
-        "mnemonic": [
-            "ill [ил] больной - (Ильхам) - значит Больной хам!.",
-            "ill [ɪl]\nillness - болезнь\npill- таблетка., принимать таблетки\n***\nДУРНО было - врач исцелил. (это) ill\nНЕЗДОРОВЫЙ лекарство пил. (это) ill\nПЛОХО стало - значит, ел ил. (это) ill\n***\nТы был больной \"ill\"\nи пил лекарства \"pill\"."
-        ],
-        "examples": [
-            "Don't wish them ill.",
-            "Don't speak ill of the dead.",
-            "Bridget can't come — she's ill.",
-            "It was just ill fortune.",
-            "Please don't think ill of me.",
-            "She is ill with a tropical disease.",
-            "You certainly did me an ill turn.",
-            "He was a good man who never spoke ill of anyone.",
-            "I was feeling ill that day and decided to stay at home.",
-            "It's an ill wind that blows no good.",
-            "She was suddenly taken ill at school.",
-            "He is ill able to sustain the burden.",
-            "They tried not to speak ill of the dead.",
-            "We can ill afford to buy a new car just now.",
-            "That dog can eat almost anything with no ill effects.",
-            "A number of these patients are seriously ill.",
-            "There seems to be no cure for our economic ills.",
-            "He was unable to join the army because of ill health.",
-            "She did not like Matthew but she would never wish him ill.",
-            "It ill befits a man to betray old friends.",
-            "Her husband has been ill with bladder trouble.",
-            "Many people consumed the poisoned oil without ill effects.",
-            "They had been subjected to months of ill treatment.",
-            "idealistic people who try to cure all of our society's ills"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Не желай им зла.",
-            "Не говори плохо об умерших.",
-            "Бриджит не может прийти: она больна.",
-            "Это просто была неудача.",
-            "Пожалуйста, не думайте обо мне плохо.",
-            "Она больна тропической лихорадкой.",
-            "Вы мне, безусловно, навредили. / Несомненно, вы оказали мне медвежью услугу. / Ты мне, конечно, подкузьмил.",
-            "Он был хорошим человеком, который никогда ни о ком не отзывался плохо.",
-            "В тот день я плохо себя чувствовал, и решил остаться дома.",
-            "Нет худа без добра. / Что ни делается — всё к лучшему. (пословица)",
-            "В школе ей неожиданно стало плохо.",
-            "Он едва способен нести этот груз.",
-            "Они старались не говорить плохо о мертвых.",
-            "Мы прямо сейчас не можем позволить себе купить новый автомобиль.",
-            "Эта собака может съесть всё, что угодно, без всяких последствий.",
-            "Некоторые из этих пациентов серьёзно больны.",
-            "Кажется, от болезней нашей экономики нет лекарств.",
-            "Он был не в состоянии пойти в армию из-за плохого здоровья.",
-            "Она не любила Мэттью, но никогда бы не стала желать ему зла.",
-            "Не подобает человеку предавать старых друзей.",
-            "У её мужа — болезнь мочевого пузыря.",
-            "Многие люди потребляли отравленное масло без каких-либо пагубных последствий.",
-            "В течение долгих месяцев их подвергали жестокому обращению.",
-            "идеалисты, которые пытаются излечить все беды нашего общества"
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными"
-        ]
-    }
+  "ill": {
+    "comment": [
+      "illness",
+      "drill",
+      "grill",
+      "thriller",
+      "guerrilla"
+    ],
+    "translate": " больной, плохой, дурной, злой, плохо, дурно, худо, едва ли, зло, вред, несчастья",
+    "transcription": "  |ɪl|",
+    "antonyms": [],
+    "mnemonic": [
+      "ill [ил] больной - (Ильхам) - значит Больной хам!.",
+      "ill [ɪl]\nillness - болезнь\npill- таблетка., принимать таблетки\n***\nДУРНО было - врач исцелил. (это) ill\nНЕЗДОРОВЫЙ лекарство пил. (это) ill\nПЛОХО стало - значит, ел ил. (это) ill\n***\nТы был больной \"ill\"\nи пил лекарства \"pill\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными"
+    ],
+    "examples": [
+      {
+        "eng": "Don't wish them ill.",
+        "ru": "Не желай им зла.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't speak ill of the dead.",
+        "ru": "Не говори плохо об умерших.",
+        "learn": 0
+      },
+      {
+        "eng": "Bridget can't come — she's ill.",
+        "ru": "Бриджит не может прийти: она больна.",
+        "learn": 0
+      },
+      {
+        "eng": "It was just ill fortune.",
+        "ru": "Это просто была неудача.",
+        "learn": 0
+      },
+      {
+        "eng": "Please don't think ill of me.",
+        "ru": "Пожалуйста, не думайте обо мне плохо.",
+        "learn": 0
+      },
+      {
+        "eng": "She is ill with a tropical disease.",
+        "ru": "Она больна тропической лихорадкой.",
+        "learn": 1
+      },
+      {
+        "eng": "You certainly did me an ill turn.",
+        "ru": "Вы мне, безусловно, навредили. / Несомненно, вы оказали мне медвежью услугу. / Ты мне, конечно, подкузьмил.",
+        "learn": 0
+      },
+      {
+        "eng": "He was a good man who never spoke ill of anyone.",
+        "ru": "Он был хорошим человеком, который никогда ни о ком не отзывался плохо.",
+        "learn": 0
+      },
+      {
+        "eng": "I was feeling ill that day and decided to stay at home.",
+        "ru": "В тот день я плохо себя чувствовал, и решил остаться дома.",
+        "learn": 0
+      },
+      {
+        "eng": "It's an ill wind that blows no good.",
+        "ru": "Нет худа без добра. / Что ни делается — всё к лучшему. (пословица)",
+        "learn": 0
+      },
+      {
+        "eng": "She was suddenly taken ill at school.",
+        "ru": "В школе ей неожиданно стало плохо.",
+        "learn": 0
+      },
+      {
+        "eng": "He is ill able to sustain the burden.",
+        "ru": "Он едва способен нести этот груз.",
+        "learn": 0
+      },
+      {
+        "eng": "They tried not to speak ill of the dead.",
+        "ru": "Они старались не говорить плохо о мертвых.",
+        "learn": 0
+      },
+      {
+        "eng": "We can ill afford to buy a new car just now.",
+        "ru": "Мы прямо сейчас не можем позволить себе купить новый автомобиль.",
+        "learn": 0
+      },
+      {
+        "eng": "That dog can eat almost anything with no ill effects.",
+        "ru": "Эта собака может съесть всё, что угодно, без всяких последствий.",
+        "learn": 0
+      },
+      {
+        "eng": "A number of these patients are seriously ill.",
+        "ru": "Некоторые из этих пациентов серьёзно больны.",
+        "learn": 0
+      },
+      {
+        "eng": "There seems to be no cure for our economic ills.",
+        "ru": "Кажется, от болезней нашей экономики нет лекарств.",
+        "learn": 1
+      },
+      {
+        "eng": "He was unable to join the army because of ill health.",
+        "ru": "Он был не в состоянии пойти в армию из-за плохого здоровья.",
+        "learn": 0
+      },
+      {
+        "eng": "She did not like Matthew but she would never wish him ill.",
+        "ru": "Она не любила Мэттью, но никогда бы не стала желать ему зла.",
+        "learn": 0
+      },
+      {
+        "eng": "It ill befits a man to betray old friends.",
+        "ru": "Не подобает человеку предавать старых друзей.",
+        "learn": 0
+      },
+      {
+        "eng": "Her husband has been ill with bladder trouble.",
+        "ru": "У её мужа — болезнь мочевого пузыря.",
+        "learn": 0
+      },
+      {
+        "eng": "Many people consumed the poisoned oil without ill effects.",
+        "ru": "Многие люди потребляли отравленное масло без каких-либо пагубных последствий.",
+        "learn": 0
+      },
+      {
+        "eng": "They had been subjected to months of ill treatment.",
+        "ru": "В течение долгих месяцев их подвергали жестокому обращению.",
+        "learn": 0
+      },
+      {
+        "eng": "idealistic people who try to cure all of our society's ills",
+        "ru": "идеалисты, которые пытаются излечить все беды нашего общества",
+        "learn": 0
+      }
+    ]
+  }
 }

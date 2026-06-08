@@ -1,69 +1,138 @@
 {
-    "decade": {
-        "comment": [
-            "decay"
-        ],
-        "translate": "десятилетие, десяток, группа из десяти",
-        "transcription": " |ˈdekeɪd|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The bridge was built a decade ago.",
-            "the first decade of the 21st century",
-            "The war lasted nearly a decade.",
-            "The drug was banned a decade ago.",
-            "the greatest literary phenomenon of the decade",
-            "the most prolific goalscorer this decade",
-            "A guerrilla war has lingered into its fourth decade.",
-            "In the past decade, the city has been reborn.",
-            "He has been in office for a decade.",
-            "a slob of a professor whose office was littered with a decade's worth of notes and student papers",
-            "Real estate prices have doubled in value over the last decade.",
-            "During the last decade the right wing of the party has held the whip hand.",
-            "It's perhaps the most underrated film of the last decade.",
-            "With proper care, the machine should last a decade or more.",
-            "There have been a lot of changes during the past two decades.",
-            "The computer industry has expanded greatly over the last decade.",
-            "The anti-smoking lobby has steadily gained ground in the last decade.",
-            "Commercialism has been infiltrating universities for the past decade.",
-            "The decade of the 1920s runs from January 1, 1920 to December 31, 1929.",
-            "There have been significant computer developments during the last decade.",
-            "the phenomenal growth that the suburb has experienced over the last decade",
-            "People come and go, but the population of this town has remained approximately constant for the past decade.",
-            "In terms of social change, the 1960s are generally considered the most tempestuous decade in recent American history.",
-            "These new companies are parasites feeding off the success of those who spent the last decade establishing the industry."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мост был построен десять лет назад.",
-            "первое десятилетие двадцать первого века",
-            "Война продолжалась почти десять лет.",
-            "Данный препарат был запрещён десять лет назад.",
-            "величайший литературный феномен десятилетия",
-            "самый результативный игрок этого десятилетия",
-            "Партизанская война тянется уже четвёртый десяток лет.",
-            "В прошлом десятилетии город получил новую жизнь.",
-            "Он занимает этот пост уже десять лет.",
-            "неряха-профессор, чей кабинет был завален скопившимися за десяток лет записями и студенческими работами",
-            "За последнее десятилетие цены на недвижимость выросли в два раза.",
-            "На протяжении последних десяти лет тон в этой партии задаёт её правое крыло.",
-            "Это, пожалуй, самый недооценённый фильм последнего десятилетия.",
-            "При надлежащем уходе, эта машина должна прослужить десяток лет, а то и больше.",
-            "За последние два десятилетия изменилось очень многое.",
-            "За последнее десятилетие компьютерная индустрия значительно расширилась.",
-            "В последнее десятилетие антитабачное лобби неуклонно набирает силу.",
-            "В последние десять лет университеты всё больше проникаются духом торгашества.",
-            "Двадцатые годы двадцатого века начинаются 1 января 1920 года и заканчиваются 31 декабря 1929 года.",
-            "В последнее десятилетие было большое количество компьютерных разработок.",
-            "тот феноменальный рост, который пригородная зона пережила за последнее десятилетие",
-            "Люди рождаются и умирают, но в последние десять лет численность населения этого городка остаётся примерно постоянной.",
-            "С точки зрения социальных изменений, шестидесятые годы обычно считаются наиболее бурным десятилетием в новейшей американской истории.",
-            "Эти новые компании являются паразитами, которые питаются плодами успеха тех, кто последние десять лет занимался созданием данной отрасли."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "e_+_Отк_сл_=_[e]"
-        ]
-    }
+  "decade": {
+    "comment": [
+      "decay"
+    ],
+    "translate": "десятилетие, десяток, группа из десяти",
+    "transcription": " |ˈdekeɪd|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "e_+_Отк_сл_=_[e]"
+    ],
+    "examples": [
+      {
+        "eng": "The bridge was built a decade ago.",
+        "ru": "Мост был построен десять лет назад.",
+        "learn": 1
+      },
+      {
+        "eng": "the first decade of the 21st century",
+        "ru": "первое десятилетие двадцать первого века",
+        "learn": 1
+      },
+      {
+        "eng": "The war lasted nearly a decade.",
+        "ru": "Война продолжалась почти десять лет.",
+        "learn": 0
+      },
+      {
+        "eng": "The drug was banned a decade ago.",
+        "ru": "Данный препарат был запрещён десять лет назад.",
+        "learn": 0
+      },
+      {
+        "eng": "the greatest literary phenomenon of the decade",
+        "ru": "величайший литературный феномен десятилетия",
+        "learn": 1
+      },
+      {
+        "eng": "the most prolific goalscorer this decade",
+        "ru": "самый результативный игрок этого десятилетия",
+        "learn": 0
+      },
+      {
+        "eng": "A guerrilla war has lingered into its fourth decade.",
+        "ru": "Партизанская война тянется уже четвёртый десяток лет.",
+        "learn": 1
+      },
+      {
+        "eng": "In the past decade, the city has been reborn.",
+        "ru": "В прошлом десятилетии город получил новую жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "He has been in office for a decade.",
+        "ru": "Он занимает этот пост уже десять лет.",
+        "learn": 0
+      },
+      {
+        "eng": "a slob of a professor whose office was littered with a decade's worth of notes and student papers",
+        "ru": "неряха-профессор, чей кабинет был завален скопившимися за десяток лет записями и студенческими работами",
+        "learn": 0
+      },
+      {
+        "eng": "Real estate prices have doubled in value over the last decade.",
+        "ru": "За последнее десятилетие цены на недвижимость выросли в два раза.",
+        "learn": 0
+      },
+      {
+        "eng": "During the last decade the right wing of the party has held the whip hand.",
+        "ru": "На протяжении последних десяти лет тон в этой партии задаёт её правое крыло.",
+        "learn": 0
+      },
+      {
+        "eng": "It's perhaps the most underrated film of the last decade.",
+        "ru": "Это, пожалуй, самый недооценённый фильм последнего десятилетия.",
+        "learn": 0
+      },
+      {
+        "eng": "With proper care, the machine should last a decade or more.",
+        "ru": "При надлежащем уходе, эта машина должна прослужить десяток лет, а то и больше.",
+        "learn": 0
+      },
+      {
+        "eng": "There have been a lot of changes during the past two decades.",
+        "ru": "За последние два десятилетия изменилось очень многое.",
+        "learn": 0
+      },
+      {
+        "eng": "The computer industry has expanded greatly over the last decade.",
+        "ru": "За последнее десятилетие компьютерная индустрия значительно расширилась.",
+        "learn": 0
+      },
+      {
+        "eng": "The anti-smoking lobby has steadily gained ground in the last decade.",
+        "ru": "В последнее десятилетие антитабачное лобби неуклонно набирает силу.",
+        "learn": 0
+      },
+      {
+        "eng": "Commercialism has been infiltrating universities for the past decade.",
+        "ru": "В последние десять лет университеты всё больше проникаются духом торгашества.",
+        "learn": 0
+      },
+      {
+        "eng": "The decade of the 1920s runs from January 1, 1920 to December 31, 1929.",
+        "ru": "Двадцатые годы двадцатого века начинаются 1 января 1920 года и заканчиваются 31 декабря 1929 года.",
+        "learn": 0
+      },
+      {
+        "eng": "There have been significant computer developments during the last decade.",
+        "ru": "В последнее десятилетие было большое количество компьютерных разработок.",
+        "learn": 0
+      },
+      {
+        "eng": "the phenomenal growth that the suburb has experienced over the last decade",
+        "ru": "тот феноменальный рост, который пригородная зона пережила за последнее десятилетие",
+        "learn": 0
+      },
+      {
+        "eng": "People come and go, but the population of this town has remained approximately constant for the past decade.",
+        "ru": "Люди рождаются и умирают, но в последние десять лет численность населения этого городка остаётся примерно постоянной.",
+        "learn": 0
+      },
+      {
+        "eng": "In terms of social change, the 1960s are generally considered the most tempestuous decade in recent American history.",
+        "ru": "С точки зрения социальных изменений, шестидесятые годы обычно считаются наиболее бурным десятилетием в новейшей американской истории.",
+        "learn": 0
+      },
+      {
+        "eng": "These new companies are parasites feeding off the success of those who spent the last decade establishing the industry.",
+        "ru": "Эти новые компании являются паразитами, которые питаются плодами успеха тех, кто последние десять лет занимался созданием данной отрасли.",
+        "learn": 0
+      }
+    ]
+  }
 }

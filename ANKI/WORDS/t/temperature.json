@@ -1,83 +1,169 @@
 {
-    "temperature": {
-        "comment": [
-            "temper",
-            "temporary",
-            "temporarily",
-            "temple"
-        ],
-        "translate": "температура, повышенная температура, температурный",
-        "transcription": " |ˈtemprətʃər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Jane's temperature is up again.",
-            "The temperature is 10° above zero.",
-            "The temperature is way below zero.",
-            "The nurse took (=measured) my temperature.",
-            "the normal body temperature of 98.6°F",
-            "Water boils at a temperature of 212°F.",
-            "Are you controlling for the temperature?",
-            "Water boils at a certain temperature.",
-            "Water boils at a temperature of 100°C.",
-            "The temperature has fallen below zero.",
-            "The temperature has to be taken every hour.",
-            "The drop in temperature was a relief.",
-            "Temperature can be measured precisely.",
-            "The temperature is carefully monitored.",
-            "At night the temperature drops below zero.",
-            "The wine should be stored at room temperature.",
-            "Exercise raises your body temperature.",
-            "The temperature soared to 100 degrees.",
-            "Lead fuses at quite a low temperature.",
-            "The temperature was too low for comfort.",
-            "The room is kept at an even temperature.",
-            "The temperature rose to the high eighties.",
-            "I don't like her running this temperature.",
-            "an inappreciable change in the temperature",
-            "We noticed a gradual change in temperature.",
-            "The temperature was up in the high forties.",
-            "The acid distills at a specific temperature.",
-            "Water solidifies by reduction of temperature.",
-            "A thermostat controls the room's temperature.",
-            "The heater has variable temperature settings."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "У Джейн снова повышается температура.",
-            "Температура 10 градусов выше нуля.",
-            "Температура значительно ниже нуля.",
-            "Медсестра измерила мне температуру.",
-            "нормальная температура тела, 98,6 градусов Фаренгейта",
-            "Вода закипает при температуре двести двенадцать градусов Фаренгейта.",
-            "Вы контролируете температуру?",
-            "Вода кипит при определённой температуре.",
-            "Вода кипит при температуре сто градусов Цельсия.",
-            "Температура упала ниже нуля.",
-            "Температуру приходится проверять каждый час.",
-            "Снижение температуры привело к улучшению состояния.",
-            "Температуру можно измерить точно.",
-            "Температура тщательно отслеживается.",
-            "Ночью температура опускается ниже нуля.",
-            "Вино должно храниться при комнатной температуре.",
-            "В результате физических упражнений температура тела повышается.",
-            "Температура резко поднялась до 100 градусов.",
-            "Свинец плавится при достаточно низкой температуре.",
-            "Температура была ниже комфортной.",
-            "В помещении поддерживается равномерная температура.",
-            "Температура поднялась почти до девяноста градусов.",
-            "Мне не нравится, что у неё такая высокая температура.",
-            "незначительное изменение температуры",
-            "Мы заметили постепенное изменение температуры.",
-            "Температура была под пятьдесят градусов.",
-            "Кислота конденсируется при определённой температуре.",
-            "Вода застывает при понижении температуры.",
-            "Температура в комнате контролируется термостатом.",
-            "Нагреватель имеет вариабельные температурные настройки."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "temperature": {
+    "comment": [
+      "temper",
+      "temporary",
+      "temporarily",
+      "temple"
+    ],
+    "translate": "температура, повышенная температура, температурный",
+    "transcription": " |ˈtemprətʃər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Jane's temperature is up again.",
+        "ru": "У Джейн снова повышается температура.",
+        "learn": 1
+      },
+      {
+        "eng": "The temperature is 10° above zero.",
+        "ru": "Температура 10 градусов выше нуля.",
+        "learn": 1
+      },
+      {
+        "eng": "The temperature is way below zero.",
+        "ru": "Температура значительно ниже нуля.",
+        "learn": 0
+      },
+      {
+        "eng": "The nurse took (=measured) my temperature.",
+        "ru": "Медсестра измерила мне температуру.",
+        "learn": 0
+      },
+      {
+        "eng": "the normal body temperature of 98.6°F",
+        "ru": "нормальная температура тела, 98,6 градусов Фаренгейта",
+        "learn": 0
+      },
+      {
+        "eng": "Water boils at a temperature of 212°F.",
+        "ru": "Вода закипает при температуре двести двенадцать градусов Фаренгейта.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you controlling for the temperature?",
+        "ru": "Вы контролируете температуру?",
+        "learn": 0
+      },
+      {
+        "eng": "Water boils at a certain temperature.",
+        "ru": "Вода кипит при определённой температуре.",
+        "learn": 0
+      },
+      {
+        "eng": "Water boils at a temperature of 100°C.",
+        "ru": "Вода кипит при температуре сто градусов Цельсия.",
+        "learn": 0
+      },
+      {
+        "eng": "The temperature has fallen below zero.",
+        "ru": "Температура упала ниже нуля.",
+        "learn": 0
+      },
+      {
+        "eng": "The temperature has to be taken every hour.",
+        "ru": "Температуру приходится проверять каждый час.",
+        "learn": 1
+      },
+      {
+        "eng": "The drop in temperature was a relief.",
+        "ru": "Снижение температуры привело к улучшению состояния.",
+        "learn": 0
+      },
+      {
+        "eng": "Temperature can be measured precisely.",
+        "ru": "Температуру можно измерить точно.",
+        "learn": 0
+      },
+      {
+        "eng": "The temperature is carefully monitored.",
+        "ru": "Температура тщательно отслеживается.",
+        "learn": 0
+      },
+      {
+        "eng": "At night the temperature drops below zero.",
+        "ru": "Ночью температура опускается ниже нуля.",
+        "learn": 0
+      },
+      {
+        "eng": "The wine should be stored at room temperature.",
+        "ru": "Вино должно храниться при комнатной температуре.",
+        "learn": 0
+      },
+      {
+        "eng": "Exercise raises your body temperature.",
+        "ru": "В результате физических упражнений температура тела повышается.",
+        "learn": 0
+      },
+      {
+        "eng": "The temperature soared to 100 degrees.",
+        "ru": "Температура резко поднялась до 100 градусов.",
+        "learn": 0
+      },
+      {
+        "eng": "Lead fuses at quite a low temperature.",
+        "ru": "Свинец плавится при достаточно низкой температуре.",
+        "learn": 0
+      },
+      {
+        "eng": "The temperature was too low for comfort.",
+        "ru": "Температура была ниже комфортной.",
+        "learn": 0
+      },
+      {
+        "eng": "The room is kept at an even temperature.",
+        "ru": "В помещении поддерживается равномерная температура.",
+        "learn": 0
+      },
+      {
+        "eng": "The temperature rose to the high eighties.",
+        "ru": "Температура поднялась почти до девяноста градусов.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't like her running this temperature.",
+        "ru": "Мне не нравится, что у неё такая высокая температура.",
+        "learn": 0
+      },
+      {
+        "eng": "an inappreciable change in the temperature",
+        "ru": "незначительное изменение температуры",
+        "learn": 0
+      },
+      {
+        "eng": "We noticed a gradual change in temperature.",
+        "ru": "Мы заметили постепенное изменение температуры.",
+        "learn": 0
+      },
+      {
+        "eng": "The temperature was up in the high forties.",
+        "ru": "Температура была под пятьдесят градусов.",
+        "learn": 0
+      },
+      {
+        "eng": "The acid distills at a specific temperature.",
+        "ru": "Кислота конденсируется при определённой температуре.",
+        "learn": 0
+      },
+      {
+        "eng": "Water solidifies by reduction of temperature.",
+        "ru": "Вода застывает при понижении температуры.",
+        "learn": 0
+      },
+      {
+        "eng": "A thermostat controls the room's temperature.",
+        "ru": "Температура в комнате контролируется термостатом.",
+        "learn": 0
+      },
+      {
+        "eng": "The heater has variable temperature settings.",
+        "ru": "Нагреватель имеет вариабельные температурные настройки.",
+        "learn": 1
+      }
+    ]
+  }
 }

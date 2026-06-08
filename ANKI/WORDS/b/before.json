@@ -1,83 +1,170 @@
 {
-    "before": {
-        "comment": [
-            "beforehand"
-        ],
-        "translate": "перед, до, выше, впереди, до, прежде чем, прежде чем, раньше, выше",
-        "transcription": " |bɪˈfɔːr|",
-        "antonyms": [],
-        "mnemonic": [
-            "before [бифо':] перед, прежде - (Лю-би форель) прежде чем стать рыбаком."
-        ],
-        "examples": [
-            "Call me before you go.",
-            "I knew her from before.",
-            "He left long before morning came.",
-            "She regularly goes for a run before breakfast.",
-            "Haven't I met you before somewhere?",
-            "I saw her a few days before she died.",
-            "Never before had he seen so many people starving.",
-            "He would die before lying.",
-            "I had known her before.",
-            "Your whole life is before you.",
-            "Get out of here before I call a cop.",
-            "He left just before sunrise.",
-            "You were before me in the queue.",
-            "She arrived the day before yesterday.",
-            "I put my wife and kids before anyone else.",
-            "I usually take a shower before having my breakfast.",
-            "The sea stretched out before them.",
-            "It was not long before he arrived.",
-            "I've never seen her so happy before now.",
-            "Call me before your arrival.",
-            "The priest stood before the altar.",
-            "Get out of there before you get dirty.",
-            "Let's meet at our house before the show.",
-            "The files are in alphabetical order, so B1 comes before C1.",
-            "Italy will face Brazil this afternoon before a crowd of 100,000 spectators.",
-            "He would starve before he'd steal.",
-            "I think you were before me in the queue.",
-            "The proposal was put before the planning committee.",
-            "Put that money somewhere safe before it gets stolen.",
-            "The Great Plains stretched endlessly before them."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Позвони мне, прежде чем уедешь.",
-            "Я знал её до этого.",
-            "Он ушел задолго до того, как наступило утро.",
-            "Она регулярно делает пробежки перед завтраком.",
-            "Я вас раньше нигде не встречал?",
-            "Я видел её за несколько дней до смерти.",
-            "Никогда прежде он не видел столько людей, умирающих с голоду.",
-            "Он предпочтёт смерть лжи. Он скорее умрёт, чем солжёт.",
-            "Я был знаком с ней раньше.",
-            "У тебя вся жизнь впереди.",
-            "Убирайся отсюда, пока я не позвал полицейского.",
-            "Он ушёл как раз перед восходом солнца.",
-            "Вы были в очереди передо мной.",
-            "Она приехала позавчера.",
-            "Для меня жена и дети — гораздо важнее, чем кто-либо ещё.",
-            "Обычно я принимаю душ, прежде чем позавтракать.",
-            "Перед ними простиралось море.",
-            "Это было незадолго до его приезда.",
-            "Я никогда ещё не видел её такой счастливой, как теперь.",
-            "Позвоните мне, когда будете подъезжать.",
-            "Священник стоял перед алтарём.",
-            "Вылезай оттуда, пока ты не вымазался.",
-            "Давайте встретимся перед концертом у нас дома.",
-            "Файлы расположены в алфавитном порядке, так что B1 стоит перед C1.",
-            "Италия сегодня сразится с Бразилией перед стотысячной толпой зрителей.",
-            "Он скорее умрёт с голоду, чем украдёт.",
-            "Мне кажется, вы стояли передо мной в очереди.",
-            "Предложение было представлено в комитет по планированию.",
-            "Положите эти деньги в надёжное место, пока их не украли.",
-            "Перед ними лежали бесконечные просторы Великих Равнин."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ore_=_[ɔ:]"
-        ]
-    }
+  "before": {
+    "comment": [
+      "beforehand"
+    ],
+    "translate": "перед, до, выше, впереди, до, прежде чем, прежде чем, раньше, выше",
+    "transcription": " |bɪˈfɔːr|",
+    "antonyms": [],
+    "mnemonic": [
+      "before [бифо':] перед, прежде - (Лю-би форель) прежде чем стать рыбаком."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ore_=_[ɔ:]"
+    ],
+    "examples": [
+      {
+        "eng": "Call me before you go.",
+        "ru": "Позвони мне, прежде чем уедешь.",
+        "learn": 0
+      },
+      {
+        "eng": "I knew her from before.",
+        "ru": "Я знал её до этого.",
+        "learn": 0
+      },
+      {
+        "eng": "He left long before morning came.",
+        "ru": "Он ушел задолго до того, как наступило утро.",
+        "learn": 0
+      },
+      {
+        "eng": "She regularly goes for a run before breakfast.",
+        "ru": "Она регулярно делает пробежки перед завтраком.",
+        "learn": 0
+      },
+      {
+        "eng": "Haven't I met you before somewhere?",
+        "ru": "Я вас раньше нигде не встречал?",
+        "learn": 0
+      },
+      {
+        "eng": "I saw her a few days before she died.",
+        "ru": "Я видел её за несколько дней до смерти.",
+        "learn": 0
+      },
+      {
+        "eng": "Never before had he seen so many people starving.",
+        "ru": "Никогда прежде он не видел столько людей, умирающих с голоду.",
+        "learn": 0
+      },
+      {
+        "eng": "He would die before lying.",
+        "ru": "Он предпочтёт смерть лжи. Он скорее умрёт, чем солжёт.",
+        "learn": 0
+      },
+      {
+        "eng": "I had known her before.",
+        "ru": "Я был знаком с ней раньше.",
+        "learn": 0
+      },
+      {
+        "eng": "Your whole life is before you.",
+        "ru": "У тебя вся жизнь впереди.",
+        "learn": 0
+      },
+      {
+        "eng": "Get out of here before I call a cop.",
+        "ru": "Убирайся отсюда, пока я не позвал полицейского.",
+        "learn": 0
+      },
+      {
+        "eng": "He left just before sunrise.",
+        "ru": "Он ушёл как раз перед восходом солнца.",
+        "learn": 0
+      },
+      {
+        "eng": "You were before me in the queue.",
+        "ru": "Вы были в очереди передо мной.",
+        "learn": 0
+      },
+      {
+        "eng": "She arrived the day before yesterday.",
+        "ru": "Она приехала позавчера.",
+        "learn": 0
+      },
+      {
+        "eng": "I put my wife and kids before anyone else.",
+        "ru": "Для меня жена и дети — гораздо важнее, чем кто-либо ещё.",
+        "learn": 0
+      },
+      {
+        "eng": "I usually take a shower before having my breakfast.",
+        "ru": "Обычно я принимаю душ, прежде чем позавтракать.",
+        "learn": 1
+      },
+      {
+        "eng": "The sea stretched out before them.",
+        "ru": "Перед ними простиралось море.",
+        "learn": 0
+      },
+      {
+        "eng": "It was not long before he arrived.",
+        "ru": "Это было незадолго до его приезда.",
+        "learn": 0
+      },
+      {
+        "eng": "I've never seen her so happy before now.",
+        "ru": "Я никогда ещё не видел её такой счастливой, как теперь.",
+        "learn": 0
+      },
+      {
+        "eng": "Call me before your arrival.",
+        "ru": "Позвоните мне, когда будете подъезжать.",
+        "learn": 0
+      },
+      {
+        "eng": "The priest stood before the altar.",
+        "ru": "Священник стоял перед алтарём.",
+        "learn": 0
+      },
+      {
+        "eng": "Get out of there before you get dirty.",
+        "ru": "Вылезай оттуда, пока ты не вымазался.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's meet at our house before the show.",
+        "ru": "Давайте встретимся перед концертом у нас дома.",
+        "learn": 0
+      },
+      {
+        "eng": "The files are in alphabetical order, so B1 comes before C1.",
+        "ru": "Файлы расположены в алфавитном порядке, так что B1 стоит перед C1.",
+        "learn": 1
+      },
+      {
+        "eng": "Italy will face Brazil this afternoon before a crowd of 100,000 spectators.",
+        "ru": "Италия сегодня сразится с Бразилией перед стотысячной толпой зрителей.",
+        "learn": 0
+      },
+      {
+        "eng": "He would starve before he'd steal.",
+        "ru": "Он скорее умрёт с голоду, чем украдёт.",
+        "learn": 0
+      },
+      {
+        "eng": "I think you were before me in the queue.",
+        "ru": "Мне кажется, вы стояли передо мной в очереди.",
+        "learn": 1
+      },
+      {
+        "eng": "The proposal was put before the planning committee.",
+        "ru": "Предложение было представлено в комитет по планированию.",
+        "learn": 0
+      },
+      {
+        "eng": "Put that money somewhere safe before it gets stolen.",
+        "ru": "Положите эти деньги в надёжное место, пока их не украли.",
+        "learn": 0
+      },
+      {
+        "eng": "The Great Plains stretched endlessly before them.",
+        "ru": "Перед ними лежали бесконечные просторы Великих Равнин.",
+        "learn": 0
+      }
+    ]
+  }
 }

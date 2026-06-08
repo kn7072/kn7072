@@ -1,85 +1,171 @@
 {
-    "bush": {
-        "comment": [
-            "bus",
-            "busy",
-            "bust"
-        ],
-        "translate": "куст, втулка, кустарник, буш, вкладыш, гильза, обсаживать кустарником",
-        "transcription": " |bʊʃ|",
-        "antonyms": [],
-        "mnemonic": [
-            "bush [буш] куст - Джордж (Буш) в кустах пасётся.",
-            "bush [buʃ]\nambush ['æmbuʃ]\n***\nВ КУСТАХ прячется Джордж Буш. (это) bush\nВ КУСТАХ устроил он дебош. (это) bush\n***\nСидел в ЗАСАДЕ сам|Буш. (это) ambush"
-        ],
-        "examples": [
-            "The bush was transplanted to a different part of the garden.",
-            "The bush is six feet high.",
-            "I can't pull this bush up, it's firmly rooted in the ground.",
-            "The child was hiding in the bushes.",
-            "Good wine needs no (ivy) bush. посл.",
-            "Into that bush pop he goes.",
-            "pluck the flowers off the bush",
-            "He squatted behind the bush to avoid being seen.",
-            "The bush has put out some new branches.",
-            "President Bush",
-            "The bush put forth new branches.",
-            "The bush has plenty of buds but no flowers yet.",
-            "There's no point in beating about the bush, so I'll give it to you straight.",
-            "The next bush was fast beside me.",
-            "Louis fell out of the tree and landed in a holly bush.",
-            "He hopped the bush.",
-            "She leant the bush against the wall.",
-            "The lower branches of the bush began to rot off.",
-            "one of Bush's staunchest supporters",
-            "She used the nippers to prune the bush.",
-            "President Bush vetoed the bill on July 6.",
-            "Bush's tax plan gives the most to the rich.",
-            "President Bush has fired back at his critics.",
-            "Bush preceded Clinton as president of the US.",
-            "Bush is hoping to hit the right note again with voters.",
-            "The polls showed Clinton leading Bush 55 percent to 34 percent.",
-            "It's important to prune the bush every year to encourage new growth.",
-            "If you don't cut off some of the branches, that tree will bush out sideways.",
-            "The red stems of this bush provide a contrast to the drab brown of the winter garden.",
-            "Traditionally young Masai men are consigned to a period of isolation in the bush in order to turn them into strong, lionhearted warriors."
-        ],
-        "example_translate": [
-            "Куст пересадили в другую часть сада.",
-            "Высота этого куста — шесть футов.",
-            "Не могу вырвать этот куст, он слишком крепко сидит в земле.",
-            "Ребенок прятался в кустах.",
-            "Хороший товар сам себя хвалит.",
-            "И внезапно он скрылся в кустах.",
-            "срывать цветы с куста",
-            "Он присел за кустом, чтобы его не увидели.",
-            "Куст дал новые побеги.",
-            "Президент Буш",
-            "Куст пустил новые побеги.",
-            "У куста много почек, но ещё нет цветов.",
-            "Нет смысла ходить вокруг да около, так что я выскажу тебе всё напрямик.",
-            "Следующий куст был как раз рядом со мной.",
-            "Луи свалился с дерева прямо на заросли остролиста.",
-            "Он перепрыгнул через этот куст.",
-            "Она пригнула куст к стене.",
-            "Нижние ветви куста начали гнить и отмирать.",
-            "один из самых верных сторонников Буша",
-            "Чтобы подрезать кусты, она воспользовалась секатором.",
-            "Президент Буш наложил вето на законопроект шестого июля.",
-            "От налоговой реформы Буша выиграют в первую очередь богатые.",
-            "Президент Буш нанёс ответный удар своим критикам.",
-            "Буш был предшественником Клинтона на посту президента США.",
-            "Буш надеется вновь произвести нужное впечатление на избирателей.",
-            "Опросы показали, что Клинтон опережает Буша с пятидесяти пятью процентами против тридцати четырёх.",
-            "Важно ежегодно производить обрезку кустарника, чтобы стимулировать свежий прирост.",
-            "Если не спилить несколько веток, дерево очень сильно разрастётся.",
-            "Красные стебли этого куста создают контраст тускло-коричневому цвету зимнего сада.",
-            "По традиции, молодых мужчин племени масаи надолго оставляют в буше в полном одиночестве, чтобы превратить их в сильных, неустрашимых воинов."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "bush": {
+    "comment": [
+      "bus",
+      "busy",
+      "bust"
+    ],
+    "translate": "куст, втулка, кустарник, буш, вкладыш, гильза, обсаживать кустарником",
+    "transcription": " |bʊʃ|",
+    "antonyms": [],
+    "mnemonic": [
+      "bush [буш] куст - Джордж (Буш) в кустах пасётся.",
+      "bush [buʃ]\nambush ['æmbuʃ]\n***\nВ КУСТАХ прячется Джордж Буш. (это) bush\nВ КУСТАХ устроил он дебош. (это) bush\n***\nСидел в ЗАСАДЕ сам|Буш. (это) ambush"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The bush was transplanted to a different part of the garden.",
+        "ru": "Куст пересадили в другую часть сада.",
+        "learn": 0
+      },
+      {
+        "eng": "The bush is six feet high.",
+        "ru": "Высота этого куста — шесть футов.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't pull this bush up, it's firmly rooted in the ground.",
+        "ru": "Не могу вырвать этот куст, он слишком крепко сидит в земле.",
+        "learn": 0
+      },
+      {
+        "eng": "The child was hiding in the bushes.",
+        "ru": "Ребенок прятался в кустах.",
+        "learn": 0
+      },
+      {
+        "eng": "Good wine needs no (ivy) bush. посл.",
+        "ru": "Хороший товар сам себя хвалит.",
+        "learn": 0
+      },
+      {
+        "eng": "Into that bush pop he goes.",
+        "ru": "И внезапно он скрылся в кустах.",
+        "learn": 0
+      },
+      {
+        "eng": "pluck the flowers off the bush",
+        "ru": "срывать цветы с куста",
+        "learn": 0
+      },
+      {
+        "eng": "He squatted behind the bush to avoid being seen.",
+        "ru": "Он присел за кустом, чтобы его не увидели.",
+        "learn": 1
+      },
+      {
+        "eng": "The bush has put out some new branches.",
+        "ru": "Куст дал новые побеги.",
+        "learn": 0
+      },
+      {
+        "eng": "President Bush",
+        "ru": "Президент Буш",
+        "learn": 0
+      },
+      {
+        "eng": "The bush put forth new branches.",
+        "ru": "Куст пустил новые побеги.",
+        "learn": 0
+      },
+      {
+        "eng": "The bush has plenty of buds but no flowers yet.",
+        "ru": "У куста много почек, но ещё нет цветов.",
+        "learn": 1
+      },
+      {
+        "eng": "There's no point in beating about the bush, so I'll give it to you straight.",
+        "ru": "Нет смысла ходить вокруг да около, так что я выскажу тебе всё напрямик.",
+        "learn": 0
+      },
+      {
+        "eng": "The next bush was fast beside me.",
+        "ru": "Следующий куст был как раз рядом со мной.",
+        "learn": 0
+      },
+      {
+        "eng": "Louis fell out of the tree and landed in a holly bush.",
+        "ru": "Луи свалился с дерева прямо на заросли остролиста.",
+        "learn": 0
+      },
+      {
+        "eng": "He hopped the bush.",
+        "ru": "Он перепрыгнул через этот куст.",
+        "learn": 0
+      },
+      {
+        "eng": "She leant the bush against the wall.",
+        "ru": "Она пригнула куст к стене.",
+        "learn": 0
+      },
+      {
+        "eng": "The lower branches of the bush began to rot off.",
+        "ru": "Нижние ветви куста начали гнить и отмирать.",
+        "learn": 0
+      },
+      {
+        "eng": "one of Bush's staunchest supporters",
+        "ru": "один из самых верных сторонников Буша",
+        "learn": 0
+      },
+      {
+        "eng": "She used the nippers to prune the bush.",
+        "ru": "Чтобы подрезать кусты, она воспользовалась секатором.",
+        "learn": 0
+      },
+      {
+        "eng": "President Bush vetoed the bill on July 6.",
+        "ru": "Президент Буш наложил вето на законопроект шестого июля.",
+        "learn": 0
+      },
+      {
+        "eng": "Bush's tax plan gives the most to the rich.",
+        "ru": "От налоговой реформы Буша выиграют в первую очередь богатые.",
+        "learn": 0
+      },
+      {
+        "eng": "President Bush has fired back at his critics.",
+        "ru": "Президент Буш нанёс ответный удар своим критикам.",
+        "learn": 0
+      },
+      {
+        "eng": "Bush preceded Clinton as president of the US.",
+        "ru": "Буш был предшественником Клинтона на посту президента США.",
+        "learn": 0
+      },
+      {
+        "eng": "Bush is hoping to hit the right note again with voters.",
+        "ru": "Буш надеется вновь произвести нужное впечатление на избирателей.",
+        "learn": 0
+      },
+      {
+        "eng": "The polls showed Clinton leading Bush 55 percent to 34 percent.",
+        "ru": "Опросы показали, что Клинтон опережает Буша с пятидесяти пятью процентами против тридцати четырёх.",
+        "learn": 0
+      },
+      {
+        "eng": "It's important to prune the bush every year to encourage new growth.",
+        "ru": "Важно ежегодно производить обрезку кустарника, чтобы стимулировать свежий прирост.",
+        "learn": 0
+      },
+      {
+        "eng": "If you don't cut off some of the branches, that tree will bush out sideways.",
+        "ru": "Если не спилить несколько веток, дерево очень сильно разрастётся.",
+        "learn": 1
+      },
+      {
+        "eng": "The red stems of this bush provide a contrast to the drab brown of the winter garden.",
+        "ru": "Красные стебли этого куста создают контраст тускло-коричневому цвету зимнего сада.",
+        "learn": 0
+      },
+      {
+        "eng": "Traditionally young Masai men are consigned to a period of isolation in the bush in order to turn them into strong, lionhearted warriors.",
+        "ru": "По традиции, молодых мужчин племени масаи надолго оставляют в буше в полном одиночестве, чтобы превратить их в сильных, неустрашимых воинов.",
+        "learn": 0
+      }
+    ]
+  }
 }

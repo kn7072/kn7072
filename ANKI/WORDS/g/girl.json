@@ -1,84 +1,171 @@
 {
-    "girl": {
-        "comment": [
-            "girlfriend",
-            "giraffe"
-        ],
-        "translate": "девушка, девочка, молодая женщина, невеста, служанка, возлюбленная, хористка",
-        "transcription": " |ɡɜːrl|",
-        "antonyms": [],
-        "mnemonic": [
-            "girl [гёл] девушка - (Геологи) по девушкам тоскуют."
-        ],
-        "examples": [
-            "She is my best girl.",
-            "We had a little girl.",
-            "Girls! Please be quiet.",
-            "That girl's got class!",
-            "She's a really weird girl.",
-            "She plays the coy girl.",
-            "Stop annoying the girl.",
-            "Hey, girl. What's up?",
-            "a mere wisp of a girl",
-            "That girl is always hungry.",
-            "She's ever such a nice girl.",
-            "A small girl was eating an ice cream.",
-            "The girl pouted.",
-            "Time for bed, girls!",
-            "Listen to me, my girl!",
-            "a group of teenage girls",
-            "a genuine and artless girl",
-            "She's a tall, angular girl.",
-            "Is this your little girl?",
-            "Less of your sauce, my girl!",
-            "She's one girl in a million.",
-            "A small girl rushed past her.",
-            "Teri seemed like a nice girl.",
-            "The girl stuck her tongue out.",
-            "They have two girls and a boy.",
-            "the girl's dainty little hands",
-            "Bring me the stick. Good girl!",
-            "a little girl sucking her thumb",
-            "Ellen was a shy, reserved girl.",
-            "The girl was frantic with fear."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она — моя возлюбленная.",
-            "У нас была дочка.",
-            "Девочки! Потише, пожалуйста.",
-            "Классная девчонка!",
-            "Она очень странная девушка.",
-            "Она прикидывается скромницей.",
-            "Хватит надоедать девушке.",
-            "Привет, подруга. Как дела? (амер. разг., женщина обращается к хорошей знакомой)",
-            "тростинка, а не девочка",
-            "Эта девочка постоянно хочет есть.",
-            "Она очень славная девушка.",
-            "Какая-то девочка ела мороженое.",
-            "Девушка надулась /надула губки/.",
-            "Девочки, пора спать!",
-            "Послушай меня, девочка моя!",
-            "группа девушек-подростков",
-            "искренняя и простодушная девушка",
-            "Она высокая, угловатая девушка.",
-            "Это ваша дочка?",
-            "Поменьше дерзости, девочка моя!",
-            "Она одна такая девушка на миллион.",
-            "Мимо неё пронеслась девочка.",
-            "Тери показалась милой девушкой.",
-            "Девочка высунула язык.",
-            "У них две девочки и мальчик. / У них две дочери и сын.",
-            "изящные девичьи ручки",
-            "Принеси мне палку. Вот умница! (обращаясь к собаке)",
-            "девочка, которая сосёт большой палец.",
-            "Эллен была застенчивой и замкнутой девушкой.",
-            "Девушка обезумела от страха."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "g_+_e,_i,_y_=_[g]_(исключения)"
-        ]
-    }
+  "girl": {
+    "comment": [
+      "girlfriend",
+      "giraffe"
+    ],
+    "translate": "девушка, девочка, молодая женщина, невеста, служанка, возлюбленная, хористка",
+    "transcription": " |ɡɜːrl|",
+    "antonyms": [],
+    "mnemonic": [
+      "girl [гёл] девушка - (Геологи) по девушкам тоскуют."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "g_+_e,_i,_y_=_[g]_(исключения)"
+    ],
+    "examples": [
+      {
+        "eng": "She is my best girl.",
+        "ru": "Она — моя возлюбленная.",
+        "learn": 0
+      },
+      {
+        "eng": "We had a little girl.",
+        "ru": "У нас была дочка.",
+        "learn": 0
+      },
+      {
+        "eng": "Girls! Please be quiet.",
+        "ru": "Девочки! Потише, пожалуйста.",
+        "learn": 0
+      },
+      {
+        "eng": "That girl's got class!",
+        "ru": "Классная девчонка!",
+        "learn": 0
+      },
+      {
+        "eng": "She's a really weird girl.",
+        "ru": "Она очень странная девушка.",
+        "learn": 0
+      },
+      {
+        "eng": "She plays the coy girl.",
+        "ru": "Она прикидывается скромницей.",
+        "learn": 0
+      },
+      {
+        "eng": "Stop annoying the girl.",
+        "ru": "Хватит надоедать девушке.",
+        "learn": 1
+      },
+      {
+        "eng": "Hey, girl. What's up?",
+        "ru": "Привет, подруга. Как дела? (амер. разг., женщина обращается к хорошей знакомой)",
+        "learn": 0
+      },
+      {
+        "eng": "a mere wisp of a girl",
+        "ru": "тростинка, а не девочка",
+        "learn": 0
+      },
+      {
+        "eng": "That girl is always hungry.",
+        "ru": "Эта девочка постоянно хочет есть.",
+        "learn": 0
+      },
+      {
+        "eng": "She's ever such a nice girl.",
+        "ru": "Она очень славная девушка.",
+        "learn": 0
+      },
+      {
+        "eng": "A small girl was eating an ice cream.",
+        "ru": "Какая-то девочка ела мороженое.",
+        "learn": 0
+      },
+      {
+        "eng": "The girl pouted.",
+        "ru": "Девушка надулась /надула губки/.",
+        "learn": 0
+      },
+      {
+        "eng": "Time for bed, girls!",
+        "ru": "Девочки, пора спать!",
+        "learn": 0
+      },
+      {
+        "eng": "Listen to me, my girl!",
+        "ru": "Послушай меня, девочка моя!",
+        "learn": 0
+      },
+      {
+        "eng": "a group of teenage girls",
+        "ru": "группа девушек-подростков",
+        "learn": 0
+      },
+      {
+        "eng": "a genuine and artless girl",
+        "ru": "искренняя и простодушная девушка",
+        "learn": 0
+      },
+      {
+        "eng": "She's a tall, angular girl.",
+        "ru": "Она высокая, угловатая девушка.",
+        "learn": 0
+      },
+      {
+        "eng": "Is this your little girl?",
+        "ru": "Это ваша дочка?",
+        "learn": 0
+      },
+      {
+        "eng": "Less of your sauce, my girl!",
+        "ru": "Поменьше дерзости, девочка моя!",
+        "learn": 0
+      },
+      {
+        "eng": "She's one girl in a million.",
+        "ru": "Она одна такая девушка на миллион.",
+        "learn": 1
+      },
+      {
+        "eng": "A small girl rushed past her.",
+        "ru": "Мимо неё пронеслась девочка.",
+        "learn": 0
+      },
+      {
+        "eng": "Teri seemed like a nice girl.",
+        "ru": "Тери показалась милой девушкой.",
+        "learn": 0
+      },
+      {
+        "eng": "The girl stuck her tongue out.",
+        "ru": "Девочка высунула язык.",
+        "learn": 0
+      },
+      {
+        "eng": "They have two girls and a boy.",
+        "ru": "У них две девочки и мальчик. / У них две дочери и сын.",
+        "learn": 0
+      },
+      {
+        "eng": "the girl's dainty little hands",
+        "ru": "изящные девичьи ручки",
+        "learn": 0
+      },
+      {
+        "eng": "Bring me the stick. Good girl!",
+        "ru": "Принеси мне палку. Вот умница! (обращаясь к собаке)",
+        "learn": 0
+      },
+      {
+        "eng": "a little girl sucking her thumb",
+        "ru": "девочка, которая сосёт большой палец.",
+        "learn": 0
+      },
+      {
+        "eng": "Ellen was a shy, reserved girl.",
+        "ru": "Эллен была застенчивой и замкнутой девушкой.",
+        "learn": 0
+      },
+      {
+        "eng": "The girl was frantic with fear.",
+        "ru": "Девушка обезумела от страха.",
+        "learn": 1
+      }
+    ]
+  }
 }

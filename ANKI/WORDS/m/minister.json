@@ -1,82 +1,168 @@
 {
-    "minister": {
-        "comment": [
-            "ministerial",
-            "feminist",
-            "ministry"
-        ],
-        "translate": "министр, священник, слуга, посланник, служить, прислуживать, помогать",
-        "transcription": " |ˈmɪnɪstər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Russia's finance minister",
-            "The minister pronounced them man and wife.",
-            "The patient nurse ministered to the dying woman.",
-            "The minister said, “Let us pray.”",
-            "The minister evaded the question.",
-            "a meeting of EU foreign ministers",
-            "He always has access to the Prime Minister.",
-            "I have to minister to my mother all the time.",
-            "The minister delivered a long eulogy.",
-            "Have you ever heard that minister preach?",
-            "The minister spoke about death and damnation.",
-            "The minister was dismissed for taking bribes.",
-            "The minister was ordained only last month.",
-            "Church officials asked the minister to recant.",
-            "The minister was compromised in the bribery case.",
-            "The Minister fielded questions on the Middle East.",
-            "The deputy ragged the Prime Minister",
-            "We have a new prime minister at the helm.",
-            "Trujillo held office as finance minister.",
-            "The prime minister is a man of the people.",
-            "The minister was under pressure to resign.",
-            "The Prime Minister held a cabinet yesterday.",
-            "The minister served the King for many years.",
-            "The minister has called an emergency meeting.",
-            "The minister doesn't see anybody before noon.",
-            "The new Prime Minister reshuffled his cabinet.",
-            "a crisis which will test the minister's mettle",
-            "I think the Prime Minister is only half right.",
-            "At the Restoration Hyde became chief minister.",
-            "a groundswell of support for the Prime Minister"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "министр финансов России",
-            "Священник объявил их мужем и женой.",
-            "Терпеливая сестра ухаживала за умирающей женщиной.",
-            "Священник сказал: \"Помолимся\".",
-            "Министр уклонился от ответа на этот вопрос.",
-            "встреча министров иностранных дел ЕС",
-            "У него всегда есть доступ к премьер-министру.",
-            "Мне приходится всё время ухаживать за матерью.",
-            "Священник произнёс длинную надгробную речь.",
-            "Вы когда-нибудь слышали проповеди этого священника?",
-            "Священник говорил о смерти и проклятии.",
-            "Министр был отстранен от занимаемой должности за взяточничество.",
-            "Этот священник был рукоположен лишь в прошлом месяце.",
-            "Церковные чиновники попросили священника отречься от своих слов.",
-            "Дело о взяточничестве компрометировало министра.",
-            "Министр ответил на вопросы по Ближнему Востоку.",
-            "Заместитель / депутат отчитал премьер-министра.",
-            "Сейчас у нас во главе — новый премьер-министр.",
-            "Трухильо занимал должность министра финансов.",
-            "Премьер-министр — человек из народа.",
-            "На министра оказывалось давление с целью вынудить его уйти в отставку.",
-            "Премьер-министр провел вчера заседание кабинета министров.",
-            "Министр служил королю на протяжении многих лет.",
-            "Министр созвал экстренное заседание.",
-            "До полудня министр никого не принимает.",
-            "Новый премьер-министр произвёл перестановки в своём кабинете.",
-            "кризис, который станет проверкой характера этого министра",
-            "Мне кажется, что премьер-министр прав лишь наполовину.",
-            "В период Реставрации Хайд стал премьер-министром.",
-            "растущая общественная поддержка премьер-министра"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "minister": {
+    "comment": [
+      "ministerial",
+      "feminist",
+      "ministry"
+    ],
+    "translate": "министр, священник, слуга, посланник, служить, прислуживать, помогать",
+    "transcription": " |ˈmɪnɪstər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Russia's finance minister",
+        "ru": "министр финансов России",
+        "learn": 0
+      },
+      {
+        "eng": "The minister pronounced them man and wife.",
+        "ru": "Священник объявил их мужем и женой.",
+        "learn": 0
+      },
+      {
+        "eng": "The patient nurse ministered to the dying woman.",
+        "ru": "Терпеливая сестра ухаживала за умирающей женщиной.",
+        "learn": 1
+      },
+      {
+        "eng": "The minister said, “Let us pray.”",
+        "ru": "Священник сказал: \"Помолимся\".",
+        "learn": 0
+      },
+      {
+        "eng": "The minister evaded the question.",
+        "ru": "Министр уклонился от ответа на этот вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "a meeting of EU foreign ministers",
+        "ru": "встреча министров иностранных дел ЕС",
+        "learn": 0
+      },
+      {
+        "eng": "He always has access to the Prime Minister.",
+        "ru": "У него всегда есть доступ к премьер-министру.",
+        "learn": 0
+      },
+      {
+        "eng": "I have to minister to my mother all the time.",
+        "ru": "Мне приходится всё время ухаживать за матерью.",
+        "learn": 0
+      },
+      {
+        "eng": "The minister delivered a long eulogy.",
+        "ru": "Священник произнёс длинную надгробную речь.",
+        "learn": 0
+      },
+      {
+        "eng": "Have you ever heard that minister preach?",
+        "ru": "Вы когда-нибудь слышали проповеди этого священника?",
+        "learn": 0
+      },
+      {
+        "eng": "The minister spoke about death and damnation.",
+        "ru": "Священник говорил о смерти и проклятии.",
+        "learn": 0
+      },
+      {
+        "eng": "The minister was dismissed for taking bribes.",
+        "ru": "Министр был отстранен от занимаемой должности за взяточничество.",
+        "learn": 0
+      },
+      {
+        "eng": "The minister was ordained only last month.",
+        "ru": "Этот священник был рукоположен лишь в прошлом месяце.",
+        "learn": 0
+      },
+      {
+        "eng": "Church officials asked the minister to recant.",
+        "ru": "Церковные чиновники попросили священника отречься от своих слов.",
+        "learn": 0
+      },
+      {
+        "eng": "The minister was compromised in the bribery case.",
+        "ru": "Дело о взяточничестве компрометировало министра.",
+        "learn": 0
+      },
+      {
+        "eng": "The Minister fielded questions on the Middle East.",
+        "ru": "Министр ответил на вопросы по Ближнему Востоку.",
+        "learn": 0
+      },
+      {
+        "eng": "The deputy ragged the Prime Minister",
+        "ru": "Заместитель / депутат отчитал премьер-министра.",
+        "learn": 0
+      },
+      {
+        "eng": "We have a new prime minister at the helm.",
+        "ru": "Сейчас у нас во главе — новый премьер-министр.",
+        "learn": 0
+      },
+      {
+        "eng": "Trujillo held office as finance minister.",
+        "ru": "Трухильо занимал должность министра финансов.",
+        "learn": 0
+      },
+      {
+        "eng": "The prime minister is a man of the people.",
+        "ru": "Премьер-министр — человек из народа.",
+        "learn": 0
+      },
+      {
+        "eng": "The minister was under pressure to resign.",
+        "ru": "На министра оказывалось давление с целью вынудить его уйти в отставку.",
+        "learn": 0
+      },
+      {
+        "eng": "The Prime Minister held a cabinet yesterday.",
+        "ru": "Премьер-министр провел вчера заседание кабинета министров.",
+        "learn": 0
+      },
+      {
+        "eng": "The minister served the King for many years.",
+        "ru": "Министр служил королю на протяжении многих лет.",
+        "learn": 0
+      },
+      {
+        "eng": "The minister has called an emergency meeting.",
+        "ru": "Министр созвал экстренное заседание.",
+        "learn": 0
+      },
+      {
+        "eng": "The minister doesn't see anybody before noon.",
+        "ru": "До полудня министр никого не принимает.",
+        "learn": 1
+      },
+      {
+        "eng": "The new Prime Minister reshuffled his cabinet.",
+        "ru": "Новый премьер-министр произвёл перестановки в своём кабинете.",
+        "learn": 0
+      },
+      {
+        "eng": "a crisis which will test the minister's mettle",
+        "ru": "кризис, который станет проверкой характера этого министра",
+        "learn": 0
+      },
+      {
+        "eng": "I think the Prime Minister is only half right.",
+        "ru": "Мне кажется, что премьер-министр прав лишь наполовину.",
+        "learn": 0
+      },
+      {
+        "eng": "At the Restoration Hyde became chief minister.",
+        "ru": "В период Реставрации Хайд стал премьер-министром.",
+        "learn": 0
+      },
+      {
+        "eng": "a groundswell of support for the Prime Minister",
+        "ru": "растущая общественная поддержка премьер-министра",
+        "learn": 0
+      }
+    ]
+  }
 }

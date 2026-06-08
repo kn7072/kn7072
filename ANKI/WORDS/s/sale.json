@@ -1,84 +1,170 @@
 {
-    "sale": {
-        "comment": [
-            "salt",
-            "salty"
-        ],
-        "translate": "продажа, распродажа, сбыт, продажа с торгов, продажа с аукциона",
-        "transcription": " |seɪl|",
-        "antonyms": [],
-        "mnemonic": [
-            "sail [seɪl] - паруса\nsale [seɪl]\n***\nПЛАВАЛ - ПЛАВАЛ на мель сел. (это) sail\nКогда ты ПЛАВАЛ, ты панику сеял. (это) sail\nОТПЛЫВАЕТ Одиссей (л). (это) sail\nПродажа.\n***\nРаньше он плавал \"sail\",\nа потом попал в тюрьму \"jail\"\nи начал стонать. \"wail\"",
-            "sale [seɪl]\n***\nЧто будет ПРОДАЖА - слухи сеял. (это) salary\n***\nЯ написал рассказ \"tale\"\nкак делать продажи \"sale\"."
-        ],
-        "examples": [
-            "The house is up for sale.",
-            "She works in sales.",
-            "The books offered for sale are unpriced.",
-            "Retail sales fell in November by 5%.",
-            "They put their house up for sale.",
-            "We grossed $ 600,000 in sales last year.",
-            "The sale brought in over $250.",
-            "The sale starts on Tuesday.",
-            "The sale starts on Wednesday.",
-            "They profited from the sale of the house.",
-            "The sale of pirated cassets has been banned.",
-            "The conditions of sale are printed on the back of the invoice.",
-            "Check this with sales.",
-            "a featured item at the sale",
-            "Many houses in the area are for sale.",
-            "the prohibition of the sale of firearms",
-            "The sale was perfectly legal.",
-            "Excuse me, are these for sale?",
-            "The goods for sale were laid out attractively.",
-            "I'll set a discount in return for a speedy sale.",
-            "Sale items are not returnable.",
-            "This sale netted me $1 million",
-            "Remnants go on sale next week.",
-            "Laws limit the sale of handguns.",
-            "There are several items for sale.",
-            "The sale of the land went through.",
-            "Attractive, modern homes for sale.",
-            "Sales are up by $6,000 this month.",
-            "“Don't delay! Sale ends Saturday.”",
-            "New and second hand books for sale."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Дом выставлен на продажу.",
-            "Она работает в отделе продаж / менеджером по продажам.",
-            "На книгах, выставленных на продажу, не указана цена.",
-            "Объем розничных продаж в ноябре сократился на 5% / Розничные продажи в ноябре упали на 5%.",
-            "Они выставили свой дом на продажу.",
-            "В прошлом году доход от продаж составил 600000 долларов.",
-            "Прибыль от продаж составила более 250 долларов.",
-            "Распродажа начинается во вторник.",
-            "Распродажа начинается в среду.",
-            "Они получили прибыль от продажи дома.",
-            "Торговля пиратскими кассетами была запрещена.",
-            "Условия продажи напечатаны на оборотной стороне накладной.",
-            "Справься об этом в нашем отделе продаж.",
-            "популярный товар на распродаже",
-            "Многие дома в этом районе выставлены на продажу.",
-            "запрет продажи огнестрельного оружия",
-            "Продажа была совершенно легальной.",
-            "Простите, это продаётся?",
-            "Товары на продажу были выставлены так, что привлекали внимание.",
-            "Чтобы быстрее продать товар, я отдам его со скидкой.",
-            "Товары, проданные со скидкой /акционные товары/, возврату не подлежат.",
-            "Эта продажа принесла мне миллион долларов чистой прибыли.",
-            "Остатки поступят в продажу на следующей неделе.",
-            "Продажа короткоствольного оружия ограничена законом.",
-            "Продаётся несколько товаров.",
-            "Продажа земли состоялась.",
-            "Привлекательные, современные дома для продажи.",
-            "В этом месяце продажи выросли на шесть тысяч долларов.",
-            "Не мешкайте! Распродажа закончится в субботу.",
-            "Новые и подержанные книги для продажи."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "sale": {
+    "comment": [
+      "salt",
+      "salty"
+    ],
+    "translate": "продажа, распродажа, сбыт, продажа с торгов, продажа с аукциона",
+    "transcription": " |seɪl|",
+    "antonyms": [],
+    "mnemonic": [
+      "sail [seɪl] - паруса\nsale [seɪl]\n***\nПЛАВАЛ - ПЛАВАЛ на мель сел. (это) sail\nКогда ты ПЛАВАЛ, ты панику сеял. (это) sail\nОТПЛЫВАЕТ Одиссей (л). (это) sail\nПродажа.\n***\nРаньше он плавал \"sail\",\nа потом попал в тюрьму \"jail\"\nи начал стонать. \"wail\"",
+      "sale [seɪl]\n***\nЧто будет ПРОДАЖА - слухи сеял. (это) salary\n***\nЯ написал рассказ \"tale\"\nкак делать продажи \"sale\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The house is up for sale.",
+        "ru": "Дом выставлен на продажу.",
+        "learn": 0
+      },
+      {
+        "eng": "She works in sales.",
+        "ru": "Она работает в отделе продаж / менеджером по продажам.",
+        "learn": 0
+      },
+      {
+        "eng": "The books offered for sale are unpriced.",
+        "ru": "На книгах, выставленных на продажу, не указана цена.",
+        "learn": 0
+      },
+      {
+        "eng": "Retail sales fell in November by 5%.",
+        "ru": "Объем розничных продаж в ноябре сократился на 5% / Розничные продажи в ноябре упали на 5%.",
+        "learn": 0
+      },
+      {
+        "eng": "They put their house up for sale.",
+        "ru": "Они выставили свой дом на продажу.",
+        "learn": 0
+      },
+      {
+        "eng": "We grossed $ 600,000 in sales last year.",
+        "ru": "В прошлом году доход от продаж составил 600000 долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "The sale brought in over $250.",
+        "ru": "Прибыль от продаж составила более 250 долларов.",
+        "learn": 1
+      },
+      {
+        "eng": "The sale starts on Tuesday.",
+        "ru": "Распродажа начинается во вторник.",
+        "learn": 0
+      },
+      {
+        "eng": "The sale starts on Wednesday.",
+        "ru": "Распродажа начинается в среду.",
+        "learn": 0
+      },
+      {
+        "eng": "They profited from the sale of the house.",
+        "ru": "Они получили прибыль от продажи дома.",
+        "learn": 0
+      },
+      {
+        "eng": "The sale of pirated cassets has been banned.",
+        "ru": "Торговля пиратскими кассетами была запрещена.",
+        "learn": 0
+      },
+      {
+        "eng": "The conditions of sale are printed on the back of the invoice.",
+        "ru": "Условия продажи напечатаны на оборотной стороне накладной.",
+        "learn": 0
+      },
+      {
+        "eng": "Check this with sales.",
+        "ru": "Справься об этом в нашем отделе продаж.",
+        "learn": 0
+      },
+      {
+        "eng": "a featured item at the sale",
+        "ru": "популярный товар на распродаже",
+        "learn": 0
+      },
+      {
+        "eng": "Many houses in the area are for sale.",
+        "ru": "Многие дома в этом районе выставлены на продажу.",
+        "learn": 0
+      },
+      {
+        "eng": "the prohibition of the sale of firearms",
+        "ru": "запрет продажи огнестрельного оружия",
+        "learn": 0
+      },
+      {
+        "eng": "The sale was perfectly legal.",
+        "ru": "Продажа была совершенно легальной.",
+        "learn": 0
+      },
+      {
+        "eng": "Excuse me, are these for sale?",
+        "ru": "Простите, это продаётся?",
+        "learn": 0
+      },
+      {
+        "eng": "The goods for sale were laid out attractively.",
+        "ru": "Товары на продажу были выставлены так, что привлекали внимание.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll set a discount in return for a speedy sale.",
+        "ru": "Чтобы быстрее продать товар, я отдам его со скидкой.",
+        "learn": 0
+      },
+      {
+        "eng": "Sale items are not returnable.",
+        "ru": "Товары, проданные со скидкой /акционные товары/, возврату не подлежат.",
+        "learn": 0
+      },
+      {
+        "eng": "This sale netted me $1 million",
+        "ru": "Эта продажа принесла мне миллион долларов чистой прибыли.",
+        "learn": 0
+      },
+      {
+        "eng": "Remnants go on sale next week.",
+        "ru": "Остатки поступят в продажу на следующей неделе.",
+        "learn": 0
+      },
+      {
+        "eng": "Laws limit the sale of handguns.",
+        "ru": "Продажа короткоствольного оружия ограничена законом.",
+        "learn": 0
+      },
+      {
+        "eng": "There are several items for sale.",
+        "ru": "Продаётся несколько товаров.",
+        "learn": 0
+      },
+      {
+        "eng": "The sale of the land went through.",
+        "ru": "Продажа земли состоялась.",
+        "learn": 0
+      },
+      {
+        "eng": "Attractive, modern homes for sale.",
+        "ru": "Привлекательные, современные дома для продажи.",
+        "learn": 0
+      },
+      {
+        "eng": "Sales are up by $6,000 this month.",
+        "ru": "В этом месяце продажи выросли на шесть тысяч долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "“Don't delay! Sale ends Saturday.”",
+        "ru": "Не мешкайте! Распродажа закончится в субботу.",
+        "learn": 1
+      },
+      {
+        "eng": "New and second hand books for sale.",
+        "ru": "Новые и подержанные книги для продажи.",
+        "learn": 0
+      }
+    ]
+  }
 }

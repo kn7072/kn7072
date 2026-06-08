@@ -1,48 +1,130 @@
 {
-    "knock down": {
-        "comment": [],
-        "translate": "1) Сносить (здание, стену, постройку) 2) Сбивать с ног, валить (человека, кегли) 3) Сбивать цену, уступать в торге ",
-        "transcription": "|nɑːk daʊn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The abandoned houses were knocked down last year.",
-            "A strong wave knocked him down in the sea.",
-            "He knocked down the bowling pins with his first throw.",
-            "You can try to knock down the rent if you sign a long lease.",
-            "She was knocked down on the icy pavement.",
-            "The boxer knocked down his opponent in the third round.",
-            "The city decided to knock down the unsafe buildings.",
-            "They are going to knock down the old factory to build apartments.",
-            "Developers want to knock down the historic theater.",
-            "I managed to knock down the price of the car by $500.",
-            "The cyclist was knocked down by a speeding car.",
-            "She is good at knocking down prices at the market.",
-            "We had to knock down a wall to make the room bigger.",
-            "They refused to knock down the price any further.",
-            "He knocked the seller down to a much lower price."
-        ],
-        "example_translate": [
-            "Заброшенные дома снесли в прошлом году.",
-            "Сильная волна сбила его с ног в море.",
-            "Он сбил кегли первым же броском.",
-            "Ты можешь попробовать снизить арендную плату, если подпишешь долгий договор.",
-            "Она упала на обледенелом тротуаре.",
-            "Боксер отправил своего соперника в нокдаун в третьем раунде.",
-            "Город решил снести небезопасные здания.",
-            "Они собираются снести старую фабрику, чтобы построить квартиры.",
-            "Застройщики хотят снести исторический театр.",
-            "Мне удалось сбить цену на машину на 500 долларов.",
-            "Велосипедист был сбит мчащейся машиной.",
-            "Она умеет сбивать цены на рынке.",
-            "Нам пришлось снести стену, чтобы сделать комнату больше.",
-            "Они отказались снижать цену еще больше.",
-            "Он сбил цену продавца до гораздо более низкой."
-        ],
-        "synonyms": "Сносить (здание, стену, постройку) - demolish, tear down, raze, destroy\nСбивать с ног, валить (человека, кегли) - strike down, hit, bowl over, flatten\nСбивать цену, уступать в торге - reduce, lower, bargain down, bring down\n",
-        "groups": [
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "knock down": {
+    "comment": [],
+    "translate": "1) Сносить (здание, стену, постройку) 2) Сбивать с ног, валить (человека, кегли) 3) Сбивать цену, уступать в торге ",
+    "transcription": "|nɑːk daʊn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Сносить (здание, стену, постройку) - demolish, tear down, raze, destroy",
+      "Сбивать с ног, валить (человека, кегли) - strike down, hit, bowl over, flatten",
+      "Сбивать цену, уступать в торге - reduce, lower, bargain down, bring down"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "The abandoned houses were knocked down last year.",
+        "ru": "Заброшенные дома снесли в прошлом году.",
+        "learn": 1
+      },
+      {
+        "eng": "A strong wave knocked him down in the sea.",
+        "ru": "Сильная волна сбила его с ног в море.",
+        "learn": 1
+      },
+      {
+        "eng": "He knocked down the bowling pins with his first throw.",
+        "ru": "Он сбил кегли первым же броском.",
+        "learn": 1
+      },
+      {
+        "eng": "You can try to knock down the rent if you sign a long lease.",
+        "ru": "Ты можешь попробовать снизить арендную плату, если подпишешь долгий договор.",
+        "learn": 1
+      },
+      {
+        "eng": "She was knocked down on the icy pavement.",
+        "ru": "Она упала на обледенелом тротуаре.",
+        "learn": 1
+      },
+      {
+        "eng": "The boxer knocked down his opponent in the third round.",
+        "ru": "Боксер отправил своего соперника в нокдаун в третьем раунде.",
+        "learn": 1
+      },
+      {
+        "eng": "The city decided to knock down the unsafe buildings.",
+        "ru": "Город решил снести небезопасные здания.",
+        "learn": 1
+      },
+      {
+        "eng": "They are going to knock down the old factory to build apartments.",
+        "ru": "Они собираются снести старую фабрику, чтобы построить квартиры.",
+        "learn": 1
+      },
+      {
+        "eng": "Developers want to knock down the historic theater.",
+        "ru": "Застройщики хотят снести исторический театр.",
+        "learn": 1
+      },
+      {
+        "eng": "I managed to knock down the price of the car by $500.",
+        "ru": "Мне удалось сбить цену на машину на 500 долларов.",
+        "learn": 1
+      },
+      {
+        "eng": "The cyclist was knocked down by a speeding car.",
+        "ru": "Велосипедист был сбит мчащейся машиной.",
+        "learn": 1
+      },
+      {
+        "eng": "She is good at knocking down prices at the market.",
+        "ru": "Она умеет сбивать цены на рынке.",
+        "learn": 1
+      },
+      {
+        "eng": "We had to knock down a wall to make the room bigger.",
+        "ru": "Нам пришлось снести стену, чтобы сделать комнату больше.",
+        "learn": 1
+      },
+      {
+        "eng": "They refused to knock down the price any further.",
+        "ru": "Они отказались снижать цену еще больше.",
+        "learn": 1
+      },
+      {
+        "eng": "He knocked the seller down to a much lower price.",
+        "ru": "Он сбил цену продавца до гораздо более низкой.",
+        "learn": 1
+      },
+      {
+        "eng": "The price was knocked down to $3.",
+        "ru": "Цену сбили до трех долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "His speech was poorly prepared, and I soon knocked down his argument.",
+        "ru": "Он плохо подготовился к выступлению, так что я легко расправился с его аргументами.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a pity that the old theatre had to be knocked down to make way for the widening of the road.",
+        "ru": "Жалко, что пришлось снести старый театр, чтобы расширить дорогу.",
+        "learn": 0
+      },
+      {
+        "eng": "She's knocking down a good salary, but she has to work very hard.",
+        "ru": "Зарабатывает она хорошо, но ей приходится очень много работать.",
+        "learn": 0
+      },
+      {
+        "eng": "The furniture has been knocked down ready for the buyer to put it together himself.",
+        "ru": "Мебель разбирается на детали, а собирает её сам покупатель.",
+        "learn": 0
+      },
+      {
+        "eng": "Right after the holidays the stores start to knock down the window displays.",
+        "ru": "Cразу после окончания праздников магазины начинают убирать с витрин украшения.",
+        "learn": 0
+      },
+      {
+        "eng": "He walloped the branches of the pear tree with a stick in an effort to knock down some fruit.",
+        "ru": "Он лупил по ветвям дерева палкой, пытаясь сбить немного груш.",
+        "learn": 0
+      }
+    ]
+  }
 }

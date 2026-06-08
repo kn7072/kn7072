@@ -1,95 +1,182 @@
 {
-    "flight": {
-        "comment": [
-            "light",
-            "lighting",
-            "delight",
-            "lightly",
-            "highlight",
-            "moonlight",
-            "plight",
-            "delighted",
-            "delightful",
-            "daylight",
-            "sunlight",
-            "lightning"
-        ],
-        "translate": "рейс, полет, перелет, бегство, полетный, совершать перелет",
-        "transcription": " |flaɪt|",
-        "antonyms": [],
-        "mnemonic": [
-            "flight [флайт] полёт - (Масти-ф лает) на полёт птицы.",
-            "flight [flaɪt]\nlight [laɪt] - свет, бледный, лёгкий., освещать, зажигать\n***\nЯ и ночью \"night\",\nи при ярком свете \"light\"\nлюблю летать \"flight\"."
-        ],
-        "examples": [
-            "Our flight departs at 6:15 a.m.",
-            "Our flight was cancelled.",
-            "Our flight was very smooth.",
-            "When's her flight due in?",
-            "Their army was put to flight.",
-            "The flight home was uneventful.",
-            "The enemy was in full flight.",
-            "She verified her flight number.",
-            "There are 40 minutes before flight departure.",
-            "a nonstop flight to Los Angeles",
-            "He is taking a night flight.",
-            "Flight 846 landed five minutes ago.",
-            "I've booked you a flight on Saturday.",
-            "The flight is about to begin boarding.",
-            "We need to hurry or we'll miss our flight.",
-            "It is always advisable to check in early to get a good seat on your flight.",
-            "The flight was badly delayed because of fog.",
-            "I missed the connecting flight.",
-            "She booked the flight using a false name.",
-            "There is no way to stop the flight of time.",
-            "High inflation may cause a flight from money.",
-            "This flight is now proceeding from New York to London.",
-            "I was feeling grumpy after my long flight.",
-            "I was talking to a woman I met on the flight.",
-            "The bird is outspreading its wings for flight.",
-            "The flight was overbooked, and I got bumped off.",
-            "an airplane in level flight",
-            "Reserve me a seat on a flight.",
-            "the soul in its heavenward flight",
-            "The airline overbooked the flight."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Наш самолет отправляется в 6:15 утра.",
-            "Наш рейс был отменён.",
-            "Наш полёт прошел совершенно гладко.",
-            "Когда прилетает её рейс?",
-            "Их армии пришлось бежать.",
-            "Полет домой прошёл без осложнений.",
-            "Враг поспешно отступал.",
-            "Она проверила номер своего рейса.",
-            "До вылета (самолета) осталось сорок минут.",
-            "беспосадочный перелет в Лос-Анджелес",
-            "У него ночной рейс /перелёт/.",
-            "Рейс восемьсот сорок шесть приземлился пять минут назад.",
-            "Я забронировал тебе самолёт на субботу.",
-            "Посадка на этот рейс вот-вот начнётся.",
-            "Мы должны поторопиться, а то опоздаем на самолёт.",
-            "Всегда лучше регистрироваться на рейс пораньше, чтобы получить хорошее место в самолете.",
-            "Вылет был сильно задержан из-за тумана.",
-            "Я опоздал на стыковочный / пересадочный рейс.",
-            "Она забронировала место в самолёте на чужое имя.",
-            "Остановить течение времени невозможно.",
-            "Высокая инфляция может вызвать отказ от использования денег.",
-            "Наш рейс отправляется теперь из Нью-Йорка в Лондон.",
-            "После долгого перелёта я испытывал некоторое раздражение.",
-            "Я разговаривал с одной женщиной, которую встретил на самолёте.",
-            "Птица расправляет крылья для полёта.",
-            "Рейс был перебронирован, и меня с него сняли.",
-            "самолёт в режиме горизонтального полёта",
-            "Закажи мне билет на самолёт.",
-            "душа в своём полёте к небесам",
-            "Авиакомпания перебронировала этот рейс."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "gh_=_[_]_(ght_-_[t])"
-        ]
-    }
+  "flight": {
+    "comment": [
+      "light",
+      "lighting",
+      "delight",
+      "lightly",
+      "highlight",
+      "moonlight",
+      "plight",
+      "delighted",
+      "delightful",
+      "daylight",
+      "sunlight",
+      "lightning"
+    ],
+    "translate": "рейс, полет, перелет, бегство, полетный, совершать перелет",
+    "transcription": " |flaɪt|",
+    "antonyms": [],
+    "mnemonic": [
+      "flight [флайт] полёт - (Масти-ф лает) на полёт птицы.",
+      "flight [flaɪt]\nlight [laɪt] - свет, бледный, лёгкий., освещать, зажигать\n***\nЯ и ночью \"night\",\nи при ярком свете \"light\"\nлюблю летать \"flight\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "gh_=_[_]_(ght_-_[t])"
+    ],
+    "examples": [
+      {
+        "eng": "Our flight departs at 6:15 a.m.",
+        "ru": "Наш самолет отправляется в 6:15 утра.",
+        "learn": 1
+      },
+      {
+        "eng": "Our flight was cancelled.",
+        "ru": "Наш рейс был отменён.",
+        "learn": 0
+      },
+      {
+        "eng": "Our flight was very smooth.",
+        "ru": "Наш полёт прошел совершенно гладко.",
+        "learn": 1
+      },
+      {
+        "eng": "When's her flight due in?",
+        "ru": "Когда прилетает её рейс?",
+        "learn": 0
+      },
+      {
+        "eng": "Their army was put to flight.",
+        "ru": "Их армии пришлось бежать.",
+        "learn": 0
+      },
+      {
+        "eng": "The flight home was uneventful.",
+        "ru": "Полет домой прошёл без осложнений.",
+        "learn": 0
+      },
+      {
+        "eng": "The enemy was in full flight.",
+        "ru": "Враг поспешно отступал.",
+        "learn": 0
+      },
+      {
+        "eng": "She verified her flight number.",
+        "ru": "Она проверила номер своего рейса.",
+        "learn": 0
+      },
+      {
+        "eng": "There are 40 minutes before flight departure.",
+        "ru": "До вылета (самолета) осталось сорок минут.",
+        "learn": 0
+      },
+      {
+        "eng": "a nonstop flight to Los Angeles",
+        "ru": "беспосадочный перелет в Лос-Анджелес",
+        "learn": 0
+      },
+      {
+        "eng": "He is taking a night flight.",
+        "ru": "У него ночной рейс /перелёт/.",
+        "learn": 0
+      },
+      {
+        "eng": "Flight 846 landed five minutes ago.",
+        "ru": "Рейс восемьсот сорок шесть приземлился пять минут назад.",
+        "learn": 0
+      },
+      {
+        "eng": "I've booked you a flight on Saturday.",
+        "ru": "Я забронировал тебе самолёт на субботу.",
+        "learn": 0
+      },
+      {
+        "eng": "The flight is about to begin boarding.",
+        "ru": "Посадка на этот рейс вот-вот начнётся.",
+        "learn": 0
+      },
+      {
+        "eng": "We need to hurry or we'll miss our flight.",
+        "ru": "Мы должны поторопиться, а то опоздаем на самолёт.",
+        "learn": 0
+      },
+      {
+        "eng": "It is always advisable to check in early to get a good seat on your flight.",
+        "ru": "Всегда лучше регистрироваться на рейс пораньше, чтобы получить хорошее место в самолете.",
+        "learn": 0
+      },
+      {
+        "eng": "The flight was badly delayed because of fog.",
+        "ru": "Вылет был сильно задержан из-за тумана.",
+        "learn": 0
+      },
+      {
+        "eng": "I missed the connecting flight.",
+        "ru": "Я опоздал на стыковочный / пересадочный рейс.",
+        "learn": 0
+      },
+      {
+        "eng": "She booked the flight using a false name.",
+        "ru": "Она забронировала место в самолёте на чужое имя.",
+        "learn": 0
+      },
+      {
+        "eng": "There is no way to stop the flight of time.",
+        "ru": "Остановить течение времени невозможно.",
+        "learn": 1
+      },
+      {
+        "eng": "High inflation may cause a flight from money.",
+        "ru": "Высокая инфляция может вызвать отказ от использования денег.",
+        "learn": 0
+      },
+      {
+        "eng": "This flight is now proceeding from New York to London.",
+        "ru": "Наш рейс отправляется теперь из Нью-Йорка в Лондон.",
+        "learn": 0
+      },
+      {
+        "eng": "I was feeling grumpy after my long flight.",
+        "ru": "После долгого перелёта я испытывал некоторое раздражение.",
+        "learn": 0
+      },
+      {
+        "eng": "I was talking to a woman I met on the flight.",
+        "ru": "Я разговаривал с одной женщиной, которую встретил на самолёте.",
+        "learn": 0
+      },
+      {
+        "eng": "The bird is outspreading its wings for flight.",
+        "ru": "Птица расправляет крылья для полёта.",
+        "learn": 0
+      },
+      {
+        "eng": "The flight was overbooked, and I got bumped off.",
+        "ru": "Рейс был перебронирован, и меня с него сняли.",
+        "learn": 0
+      },
+      {
+        "eng": "an airplane in level flight",
+        "ru": "самолёт в режиме горизонтального полёта",
+        "learn": 0
+      },
+      {
+        "eng": "Reserve me a seat on a flight.",
+        "ru": "Закажи мне билет на самолёт.",
+        "learn": 0
+      },
+      {
+        "eng": "the soul in its heavenward flight",
+        "ru": "душа в своём полёте к небесам",
+        "learn": 0
+      },
+      {
+        "eng": "The airline overbooked the flight.",
+        "ru": "Авиакомпания перебронировала этот рейс.",
+        "learn": 1
+      }
+    ]
+  }
 }

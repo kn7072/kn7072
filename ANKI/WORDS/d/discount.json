@@ -1,89 +1,172 @@
 {
-    "discount": {
-        "comment": [
-            "encounter",
-            "count",
-            "account",
-            "counter",
-            "county",
-            "recount",
-            "countless",
-            "accounting",
-            "counterpart",
-            "accountant"
-        ],
-        "translate": "скидка, дисконт, процент скидки, дисконтировать, обесценивать, снижать",
-        "transcription": " |ˈdɪskaʊnt|",
-        "antonyms": [],
-        "mnemonic": [
-            "discount [диска'унт] скидка - С каждого (диска унт-ер) офицерам скидка."
-        ],
-        "examples": [
-            "You'd get a discount for paying cash.",
-            "If you buy a larger lot of goods, you are going to get a better discount.",
-            "Frequent guests receive a discount.",
-            "I'll set a discount in return for a speedy sale.",
-            "Any person who comes in the store today is eligible for the discount.",
-            "Patrons receive a $50 discount.",
-            "Patrons receive a $.50 discount.",
-            "Seniors can get a 10% discount.",
-            "Members get a 15% discount.",
-            "Employees can buy books at a discount.",
-            "a discount of 20% from the original price",
-            "You will receive a discount if you spend over $100.",
-            "She purchased her tickets at a substantial discount.",
-            "I never discount these books — they sell like hot cakes.",
-            "When you pay ahead (or in advance) you receive a discount.",
-            "The job's only redeeming feature is the employee discount.",
-            "The card entitles my grandmother to the discount for senior citizens.",
-            "Prepay for four months and receive a 50% discount on the installation fee.",
-            "Members will receive a discount in reward for getting friends or family to join.",
-            "The bank has advanced the rate of discount to 5%.",
-            "As the market tightens, the rate of discount rises.",
-            "Students can get discount tickets for all athletic events.",
-            "There is a discount of 10% off selected items in this store.",
-            "The Young Persons Railcard gives you a discount on rail travel.",
-            "The vacation plan included a discounted price on our hotel room.",
-            "All items were discounted about 20% from the suggested list prices.",
-            "Take into consideration general expenses, discount, regain, and waste.",
-            "General Hausken had not discounted the possibility of an aerial attack.",
-            "The shares are selling on a 25 per cent discount to assets and there is virtually no downside risk but at least 25 per cent upside potential."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "При оплате наличными вам дали бы скидку.",
-            "При покупке более крупных партий товара вы получите значительную скидку.",
-            "Постоянные гости (ресторана или гостиницы) получают скидку.",
-            "Чтобы быстрее продать товар, я отдам его со скидкой.",
-            "Любой, кто сегодня приходит в магазин, имеет право на скидку.",
-            "Постоянные покупатели получают скидку в размере пятидесяти долларов.",
-            "Постоянные покупатели получают скидку в размере пятидесяти долларов.",
-            "Пожилые люди могут получить десятипроцентную скидку.",
-            "Участники получают скидку пятнадцать процентов.",
-            "Сотрудники могут приобретать книги со скидкой.",
-            "двадцатипроцентная скидка от первоначальной цены",
-            "Вы получите скидку, если потратите более ста долларов.",
-            "Она приобрела билеты со значительной скидкой.",
-            "Я никогда не снижаю цену на эти книги: они продаются просто нарасхват.",
-            "Оплачивая вперёд (или заранее), вы получаете скидку.",
-            "Единственный плюс этой работы — скидка для сотрудников.",
-            "Эта карта дает моей бабушке право на скидку для пенсионеров.",
-            "Внесите предоплату за четыре месяца и получите пятидесятипроцентную скидку с платы за установку.",
-            "Участники получат скидку в награду за привлечение друзей или родственников.",
-            "Банк повысил процент учетной ставки до пяти.",
-            "По мере того как напряжение на рынке растет, учётная ставка поднимается.",
-            "Студенты могут получить скидки на билеты на все спортивные мероприятия.",
-            "Магазин предоставляет 10-процентную скидку на отдельные товары.",
-            "Молодёжная железнодорожная карточка даёт право на скидку на железнодорожные билеты.",
-            "План отпуска включал в себя скидку на наш номер в отеле.",
-            "Цена всех товаров была снижена на 20% по сравнению с рекомендованной прейскурантной ценой.",
-            "Примите во внимание общие расходы, скидку, возвращённую сумму и потери.",
-            "Генерал Хаускен не исключал возможность воздушной атаки.",
-            "Акции продают за 25 % реальной стоимости, поэтому риска практически никакого, а потенциальная выгода составляет как минимум 25 %."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "discount": {
+    "comment": [
+      "encounter",
+      "count",
+      "account",
+      "counter",
+      "county",
+      "recount",
+      "countless",
+      "accounting",
+      "counterpart",
+      "accountant"
+    ],
+    "translate": "скидка, дисконт, процент скидки, дисконтировать, обесценивать, снижать",
+    "transcription": " |ˈdɪskaʊnt|",
+    "antonyms": [],
+    "mnemonic": [
+      "discount [диска'унт] скидка - С каждого (диска унт-ер) офицерам скидка."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "You'd get a discount for paying cash.",
+        "ru": "При оплате наличными вам дали бы скидку.",
+        "learn": 0
+      },
+      {
+        "eng": "If you buy a larger lot of goods, you are going to get a better discount.",
+        "ru": "При покупке более крупных партий товара вы получите значительную скидку.",
+        "learn": 0
+      },
+      {
+        "eng": "Frequent guests receive a discount.",
+        "ru": "Постоянные гости (ресторана или гостиницы) получают скидку.",
+        "learn": 1
+      },
+      {
+        "eng": "I'll set a discount in return for a speedy sale.",
+        "ru": "Чтобы быстрее продать товар, я отдам его со скидкой.",
+        "learn": 0
+      },
+      {
+        "eng": "Any person who comes in the store today is eligible for the discount.",
+        "ru": "Любой, кто сегодня приходит в магазин, имеет право на скидку.",
+        "learn": 1
+      },
+      {
+        "eng": "Patrons receive a $50 discount.",
+        "ru": "Постоянные покупатели получают скидку в размере пятидесяти долларов.",
+        "learn": 1
+      },
+      {
+        "eng": "Patrons receive a $.50 discount.",
+        "ru": "Постоянные покупатели получают скидку в размере пятидесяти долларов.",
+        "learn": 1
+      },
+      {
+        "eng": "Seniors can get a 10% discount.",
+        "ru": "Пожилые люди могут получить десятипроцентную скидку.",
+        "learn": 0
+      },
+      {
+        "eng": "Members get a 15% discount.",
+        "ru": "Участники получают скидку пятнадцать процентов.",
+        "learn": 0
+      },
+      {
+        "eng": "Employees can buy books at a discount.",
+        "ru": "Сотрудники могут приобретать книги со скидкой.",
+        "learn": 0
+      },
+      {
+        "eng": "a discount of 20% from the original price",
+        "ru": "двадцатипроцентная скидка от первоначальной цены",
+        "learn": 0
+      },
+      {
+        "eng": "You will receive a discount if you spend over $100.",
+        "ru": "Вы получите скидку, если потратите более ста долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "She purchased her tickets at a substantial discount.",
+        "ru": "Она приобрела билеты со значительной скидкой.",
+        "learn": 1
+      },
+      {
+        "eng": "I never discount these books — they sell like hot cakes.",
+        "ru": "Я никогда не снижаю цену на эти книги: они продаются просто нарасхват.",
+        "learn": 0
+      },
+      {
+        "eng": "When you pay ahead (or in advance) you receive a discount.",
+        "ru": "Оплачивая вперёд (или заранее), вы получаете скидку.",
+        "learn": 0
+      },
+      {
+        "eng": "The job's only redeeming feature is the employee discount.",
+        "ru": "Единственный плюс этой работы — скидка для сотрудников.",
+        "learn": 0
+      },
+      {
+        "eng": "The card entitles my grandmother to the discount for senior citizens.",
+        "ru": "Эта карта дает моей бабушке право на скидку для пенсионеров.",
+        "learn": 0
+      },
+      {
+        "eng": "Prepay for four months and receive a 50% discount on the installation fee.",
+        "ru": "Внесите предоплату за четыре месяца и получите пятидесятипроцентную скидку с платы за установку.",
+        "learn": 0
+      },
+      {
+        "eng": "Members will receive a discount in reward for getting friends or family to join.",
+        "ru": "Участники получат скидку в награду за привлечение друзей или родственников.",
+        "learn": 0
+      },
+      {
+        "eng": "The bank has advanced the rate of discount to 5%.",
+        "ru": "Банк повысил процент учетной ставки до пяти.",
+        "learn": 0
+      },
+      {
+        "eng": "As the market tightens, the rate of discount rises.",
+        "ru": "По мере того как напряжение на рынке растет, учётная ставка поднимается.",
+        "learn": 0
+      },
+      {
+        "eng": "Students can get discount tickets for all athletic events.",
+        "ru": "Студенты могут получить скидки на билеты на все спортивные мероприятия.",
+        "learn": 1
+      },
+      {
+        "eng": "There is a discount of 10% off selected items in this store.",
+        "ru": "Магазин предоставляет 10-процентную скидку на отдельные товары.",
+        "learn": 0
+      },
+      {
+        "eng": "The Young Persons Railcard gives you a discount on rail travel.",
+        "ru": "Молодёжная железнодорожная карточка даёт право на скидку на железнодорожные билеты.",
+        "learn": 0
+      },
+      {
+        "eng": "The vacation plan included a discounted price on our hotel room.",
+        "ru": "План отпуска включал в себя скидку на наш номер в отеле.",
+        "learn": 0
+      },
+      {
+        "eng": "All items were discounted about 20% from the suggested list prices.",
+        "ru": "Цена всех товаров была снижена на 20% по сравнению с рекомендованной прейскурантной ценой.",
+        "learn": 0
+      },
+      {
+        "eng": "Take into consideration general expenses, discount, regain, and waste.",
+        "ru": "Примите во внимание общие расходы, скидку, возвращённую сумму и потери.",
+        "learn": 0
+      },
+      {
+        "eng": "General Hausken had not discounted the possibility of an aerial attack.",
+        "ru": "Генерал Хаускен не исключал возможность воздушной атаки.",
+        "learn": 0
+      },
+      {
+        "eng": "The shares are selling on a 25 per cent discount to assets and there is virtually no downside risk but at least 25 per cent upside potential.",
+        "ru": "Акции продают за 25 % реальной стоимости, поэтому риска практически никакого, а потенциальная выгода составляет как минимум 25 %.",
+        "learn": 0
+      }
+    ]
+  }
 }

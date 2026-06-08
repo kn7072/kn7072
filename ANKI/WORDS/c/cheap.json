@@ -1,86 +1,173 @@
 {
-    "cheap": {
-        "comment": [
-            "cheat",
-            "cheaply"
-        ],
-        "translate": "дешёвый, низкий, плохой, дешево, дешевка",
-        "transcription": " |tʃiːp|",
-        "antonyms": [],
-        "mnemonic": [
-            "cheap [чип] дешевый - (Чип-сы) - дешевая еда.",
-            "cheap [tʃi:p]\ncheapen ['tʃi:pən]\ncheaply ['tʃi:pli] - дёшево\n***\nДЕШЕВЫЕ чипсы. (это) cheap\nДЕШЕВО купили чип. (это) cheap\n***\nСНИЖАЛ ЦЕНЫ, так как беспринципен. (это) cheapen\n***\nМашины дешевеют \"cheap\",\nих сваливают в кучу \"heap\"."
-        ],
-        "examples": [
-            "Words are cheap.",
-            "In times of war, life is cheap.",
-            "It's not cheap to live in the city.",
-            "This old chair is cheap.",
-            "He got drunk on cheap wine.",
-            "That's a cheap jibe.",
-            "He felt cheap about his mistake.",
-            "Cheap wine gives me a headache.",
-            "We've been hunting down a good cheap house all over the city.",
-            "I always buy the cheapest brand of cereal.",
-            "The cheap room was dark, dirty, and crawling with spiders.",
-            "These cheap boots let the rain in.",
-            "The meal was so bad that we had to wash it down with cheap wine.",
-            "A flood of cheap import has come into the shops.",
-            "The fourth and cheap edition was much oversubscribeed before publication.",
-            "She got blotto on cheap wine.",
-            "She's too cheap to take a cab.",
-            "Search the Web for cheap flights.",
-            "The furniture looked cheap and nasty.",
-            "She has all the gen on cheap flights.",
-            "You can buy a cheap one-day bus pass.",
-            "They checked into a cheap hotel.",
-            "He began frequenting cheap bars.",
-            "She was tired of his cheap jibes.",
-            "The boys guzzled the cheap vodka.",
-            "These shoes were amazingly cheap.",
-            "a cheap shot to the back of the head",
-            "At £3 a go, the cards are not cheap.",
-            "Property is cheaper in Spain than here.",
-            "He took a cheap shot at the quarterback."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Слова ничего не стоят.",
-            "Во время войны жизнь ничего не стоит.",
-            "Жить в городе недёшево.",
-            "Этот старый стул — дешёвый.",
-            "Он напился допьяна дешёвым вином.",
-            "Это глупая шутка.",
-            "Он почувствовал себя глупо из-за своей ошибки.",
-            "От дешёвого вина у меня (всегда) болит голова.",
-            "Мы ищем хороший дешёвый дом по всему городу.",
-            "Я всегда покупаю самую дешёвую марку хлопьев.",
-            "Эта дешёвая комната была тёмная, грязная и кишела пауками.",
-            "Эти дешёвые ботинки промокают в дождь.",
-            "Еда была настолько плохой, что мы были вынуждены запить её дешёвым вином.",
-            "Огромное количество дешёвого импорта наводнило магазины.",
-            "Количество подписчиков на четвертое, дешевое издание превысило число экземпляров еще до публикации.",
-            "Она опьянела от дешёвого вина.",
-            "Она слишком жадная /скупая, прижимистая/, чтобы ездить на такси. (амер.)",
-            "Дешёвые авиабилеты ищите в интернете.",
-            "Мебель выглядела дёшево, да гнило.",
-            "У неё есть все данные по дешёвым авиарейсам. (брит.)",
-            "Можно купить дешевый однодневный проездной на автобус.",
-            "Они заселились в недорогой отель.",
-            "Он зачастил в дешёвые бары.",
-            "Она устала от его дешёвых насмешек.",
-            "Парни с жадностью выпили эту дешёвую водку.",
-            "Эти туфли были удивительно дёшевы.",
-            "подлый / нечестный удар по затылку",
-            "По три фунта, эти карты не дешёвые.",
-            "В Испании недвижимость дешевле, чем здесь.",
-            "Он подло нарушил правила при атаке на квотербэка. (об амер. футболе)"
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив",
-            "Инфинитив_с_to_после_прил(подлежащие_логическое_дополнение_инфинитива)",
-            "all_words"
-        ]
-    }
+  "cheap": {
+    "comment": [
+      "cheat",
+      "cheaply"
+    ],
+    "translate": "дешёвый, низкий, плохой, дешево, дешевка",
+    "transcription": " |tʃiːp|",
+    "antonyms": [],
+    "mnemonic": [
+      "cheap [чип] дешевый - (Чип-сы) - дешевая еда.",
+      "cheap [tʃi:p]\ncheapen ['tʃi:pən]\ncheaply ['tʃi:pli] - дёшево\n***\nДЕШЕВЫЕ чипсы. (это) cheap\nДЕШЕВО купили чип. (это) cheap\n***\nСНИЖАЛ ЦЕНЫ, так как беспринципен. (это) cheapen\n***\nМашины дешевеют \"cheap\",\nих сваливают в кучу \"heap\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив",
+      "Инфинитив_с_to_после_прил(подлежащие_логическое_дополнение_инфинитива)"
+    ],
+    "examples": [
+      {
+        "eng": "Words are cheap.",
+        "ru": "Слова ничего не стоят.",
+        "learn": 0
+      },
+      {
+        "eng": "In times of war, life is cheap.",
+        "ru": "Во время войны жизнь ничего не стоит.",
+        "learn": 0
+      },
+      {
+        "eng": "It's not cheap to live in the city.",
+        "ru": "Жить в городе недёшево.",
+        "learn": 0
+      },
+      {
+        "eng": "This old chair is cheap.",
+        "ru": "Этот старый стул — дешёвый.",
+        "learn": 0
+      },
+      {
+        "eng": "He got drunk on cheap wine.",
+        "ru": "Он напился допьяна дешёвым вином.",
+        "learn": 1
+      },
+      {
+        "eng": "That's a cheap jibe.",
+        "ru": "Это глупая шутка.",
+        "learn": 0
+      },
+      {
+        "eng": "He felt cheap about his mistake.",
+        "ru": "Он почувствовал себя глупо из-за своей ошибки.",
+        "learn": 0
+      },
+      {
+        "eng": "Cheap wine gives me a headache.",
+        "ru": "От дешёвого вина у меня (всегда) болит голова.",
+        "learn": 0
+      },
+      {
+        "eng": "We've been hunting down a good cheap house all over the city.",
+        "ru": "Мы ищем хороший дешёвый дом по всему городу.",
+        "learn": 0
+      },
+      {
+        "eng": "I always buy the cheapest brand of cereal.",
+        "ru": "Я всегда покупаю самую дешёвую марку хлопьев.",
+        "learn": 1
+      },
+      {
+        "eng": "The cheap room was dark, dirty, and crawling with spiders.",
+        "ru": "Эта дешёвая комната была тёмная, грязная и кишела пауками.",
+        "learn": 0
+      },
+      {
+        "eng": "These cheap boots let the rain in.",
+        "ru": "Эти дешёвые ботинки промокают в дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "The meal was so bad that we had to wash it down with cheap wine.",
+        "ru": "Еда была настолько плохой, что мы были вынуждены запить её дешёвым вином.",
+        "learn": 0
+      },
+      {
+        "eng": "A flood of cheap import has come into the shops.",
+        "ru": "Огромное количество дешёвого импорта наводнило магазины.",
+        "learn": 0
+      },
+      {
+        "eng": "The fourth and cheap edition was much oversubscribeed before publication.",
+        "ru": "Количество подписчиков на четвертое, дешевое издание превысило число экземпляров еще до публикации.",
+        "learn": 0
+      },
+      {
+        "eng": "She got blotto on cheap wine.",
+        "ru": "Она опьянела от дешёвого вина.",
+        "learn": 0
+      },
+      {
+        "eng": "She's too cheap to take a cab.",
+        "ru": "Она слишком жадная /скупая, прижимистая/, чтобы ездить на такси. (амер.)",
+        "learn": 0
+      },
+      {
+        "eng": "Search the Web for cheap flights.",
+        "ru": "Дешёвые авиабилеты ищите в интернете.",
+        "learn": 0
+      },
+      {
+        "eng": "The furniture looked cheap and nasty.",
+        "ru": "Мебель выглядела дёшево, да гнило.",
+        "learn": 0
+      },
+      {
+        "eng": "She has all the gen on cheap flights.",
+        "ru": "У неё есть все данные по дешёвым авиарейсам. (брит.)",
+        "learn": 0
+      },
+      {
+        "eng": "You can buy a cheap one-day bus pass.",
+        "ru": "Можно купить дешевый однодневный проездной на автобус.",
+        "learn": 0
+      },
+      {
+        "eng": "They checked into a cheap hotel.",
+        "ru": "Они заселились в недорогой отель.",
+        "learn": 0
+      },
+      {
+        "eng": "He began frequenting cheap bars.",
+        "ru": "Он зачастил в дешёвые бары.",
+        "learn": 0
+      },
+      {
+        "eng": "She was tired of his cheap jibes.",
+        "ru": "Она устала от его дешёвых насмешек.",
+        "learn": 0
+      },
+      {
+        "eng": "The boys guzzled the cheap vodka.",
+        "ru": "Парни с жадностью выпили эту дешёвую водку.",
+        "learn": 0
+      },
+      {
+        "eng": "These shoes were amazingly cheap.",
+        "ru": "Эти туфли были удивительно дёшевы.",
+        "learn": 0
+      },
+      {
+        "eng": "a cheap shot to the back of the head",
+        "ru": "подлый / нечестный удар по затылку",
+        "learn": 0
+      },
+      {
+        "eng": "At £3 a go, the cards are not cheap.",
+        "ru": "По три фунта, эти карты не дешёвые.",
+        "learn": 0
+      },
+      {
+        "eng": "Property is cheaper in Spain than here.",
+        "ru": "В Испании недвижимость дешевле, чем здесь.",
+        "learn": 0
+      },
+      {
+        "eng": "He took a cheap shot at the quarterback.",
+        "ru": "Он подло нарушил правила при атаке на квотербэка. (об амер. футболе)",
+        "learn": 0
+      }
+    ]
+  }
 }

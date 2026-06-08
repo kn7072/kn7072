@@ -1,71 +1,130 @@
 {
-    "chop": {
-        "comment": [
-            "shopping",
-            "shop",
-            "workshop",
-            "bishop",
-            "shopkeeper",
-            "shopper",
-            "bookshop"
-        ],
-        "translate": " рубить, отбивная, легкое волнение, нарезать, нарубить, привередливый",
-        "transcription": "  |tʃɑːp|",
-        "antonyms": [],
-        "mnemonic": [
-            "chop [чоп] рубить, резать - Весь (ЧОП*) был вырублен и вырезан бандитами (‘Частное охранное предприятие).",
-            "chop [tʃɔp]\n***\nПришлось дерево РУБИТЬ, чтоб сделать чоп.\n(это) chop\nУдар, рубящий удар, отбивная котлета.\n***\nВ магазине \"shop\"\nпродаются отбивные \"chop\"."
-        ],
-        "examples": [
-            "Chop the meat into small cubes.",
-            "Chop the onions finely.",
-            "Can you chop up some carrots for me?",
-            "The king's head was chopped off.",
-            "I'll hit him on the chops!",
-            "Chop the potato into bite-sized pieces.",
-            "The tree is too big, you'll have to chop back some of the branches.",
-            "She was full of chops and changes like fortune.",
-            "Chop the onions with a sharp knife.",
-            "He was continually chopping and changing his horses.",
-            "When the storm arose, the wind chopped about and the little boat nearly sank.",
-            "We were walking along the street together when suddenly he chopped round and ran the other way.",
-            "Ask the man in the shop to chop the meat into little bits.",
-            "Chop a hole in the ground.",
-            "The project might get the chop.",
-            "Add two finely chopped onions and a clove of garlic.",
-            "He suddenly found that his income had been chopped in half.",
-            "Chop the stalks into short segments.",
-            "Roughly chop and parboil the potatoes.",
-            "a sharp-edged implement used to chop wood",
-            "Six more staff got the chop last week."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Порежьте мясо небольшими кубиками.",
-            "Мелко нарежьте лук.",
-            "Вы можете нарезать /нашинковать/ мне моркови?",
-            "Королю отрубили голову.",
-            "Я набью ему морду!",
-            "Порежьте картофель на небольшие кусочки.",
-            "Дерево слишком большое, придётся срубить несколько ветвей.",
-            "Она была переменчива, как фортуна.",
-            "Нарежьте лук острым ножом.",
-            "Он без конца менял лошадей.",
-            "Когда начался шторм, ветер неожиданно изменил направление и лодка едва не затонула.",
-            "Мы вместе шли по улице, как вдруг он развернулся и побежал обратно.",
-            "Попроси в магазине, чтобы тебе порубили мясо.",
-            "Проделайте в земле отверстие .",
-            "Проект может остаться без финансирования.",
-            "Добавьте две мелко нарезанные луковицы и зубчик чеснока.",
-            "Он вдруг обнаружил, что его доход сократился вдвое.",
-            "Порубите стебли на маленькие кусочки.",
-            "Крупно порежь и обдай кипятком картофель.",
-            "острый инструмент, который используется для рубки дров.",
-            "На прошлой неделе уволили ещё шестерых сотрудников."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "chop": {
+    "comment": [
+      "shopping",
+      "shop",
+      "workshop",
+      "bishop",
+      "shopkeeper",
+      "shopper",
+      "bookshop"
+    ],
+    "translate": " рубить, отбивная, легкое волнение, нарезать, нарубить, привередливый",
+    "transcription": "  |tʃɑːp|",
+    "antonyms": [],
+    "mnemonic": [
+      "chop [чоп] рубить, резать - Весь (ЧОП*) был вырублен и вырезан бандитами (‘Частное охранное предприятие).",
+      "chop [tʃɔp]\n***\nПришлось дерево РУБИТЬ, чтоб сделать чоп.\n(это) chop\nУдар, рубящий удар, отбивная котлета.\n***\nВ магазине \"shop\"\nпродаются отбивные \"chop\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Chop the meat into small cubes.",
+        "ru": "Порежьте мясо небольшими кубиками.",
+        "learn": 0
+      },
+      {
+        "eng": "Chop the onions finely.",
+        "ru": "Мелко нарежьте лук.",
+        "learn": 1
+      },
+      {
+        "eng": "Can you chop up some carrots for me?",
+        "ru": "Вы можете нарезать /нашинковать/ мне моркови?",
+        "learn": 0
+      },
+      {
+        "eng": "The king's head was chopped off.",
+        "ru": "Королю отрубили голову.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll hit him on the chops!",
+        "ru": "Я набью ему морду!",
+        "learn": 0
+      },
+      {
+        "eng": "Chop the potato into bite-sized pieces.",
+        "ru": "Порежьте картофель на небольшие кусочки.",
+        "learn": 0
+      },
+      {
+        "eng": "The tree is too big, you'll have to chop back some of the branches.",
+        "ru": "Дерево слишком большое, придётся срубить несколько ветвей.",
+        "learn": 0
+      },
+      {
+        "eng": "She was full of chops and changes like fortune.",
+        "ru": "Она была переменчива, как фортуна.",
+        "learn": 0
+      },
+      {
+        "eng": "Chop the onions with a sharp knife.",
+        "ru": "Нарежьте лук острым ножом.",
+        "learn": 1
+      },
+      {
+        "eng": "He was continually chopping and changing his horses.",
+        "ru": "Он без конца менял лошадей.",
+        "learn": 0
+      },
+      {
+        "eng": "When the storm arose, the wind chopped about and the little boat nearly sank.",
+        "ru": "Когда начался шторм, ветер неожиданно изменил направление и лодка едва не затонула.",
+        "learn": 0
+      },
+      {
+        "eng": "We were walking along the street together when suddenly he chopped round and ran the other way.",
+        "ru": "Мы вместе шли по улице, как вдруг он развернулся и побежал обратно.",
+        "learn": 0
+      },
+      {
+        "eng": "Ask the man in the shop to chop the meat into little bits.",
+        "ru": "Попроси в магазине, чтобы тебе порубили мясо.",
+        "learn": 1
+      },
+      {
+        "eng": "Chop a hole in the ground.",
+        "ru": "Проделайте в земле отверстие .",
+        "learn": 0
+      },
+      {
+        "eng": "The project might get the chop.",
+        "ru": "Проект может остаться без финансирования.",
+        "learn": 0
+      },
+      {
+        "eng": "Add two finely chopped onions and a clove of garlic.",
+        "ru": "Добавьте две мелко нарезанные луковицы и зубчик чеснока.",
+        "learn": 0
+      },
+      {
+        "eng": "He suddenly found that his income had been chopped in half.",
+        "ru": "Он вдруг обнаружил, что его доход сократился вдвое.",
+        "learn": 0
+      },
+      {
+        "eng": "Chop the stalks into short segments.",
+        "ru": "Порубите стебли на маленькие кусочки.",
+        "learn": 0
+      },
+      {
+        "eng": "Roughly chop and parboil the potatoes.",
+        "ru": "Крупно порежь и обдай кипятком картофель.",
+        "learn": 0
+      },
+      {
+        "eng": "a sharp-edged implement used to chop wood",
+        "ru": "острый инструмент, который используется для рубки дров.",
+        "learn": 0
+      },
+      {
+        "eng": "Six more staff got the chop last week.",
+        "ru": "На прошлой неделе уволили ещё шестерых сотрудников.",
+        "learn": 0
+      }
+    ]
+  }
 }

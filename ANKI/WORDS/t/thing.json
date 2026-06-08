@@ -1,90 +1,177 @@
 {
-    "thing": {
-        "comment": [
-            "think",
-            "thinking",
-            "thin",
-            "nothing"
-        ],
-        "translate": "вещь, предмет, дело, штука, нечто, кое-что, существо, факт, обстоятельство, вещица",
-        "transcription": " |θɪŋ|",
-        "antonyms": [],
-        "mnemonic": [
-            "thing [(фс)инг] вещь - Вещи из ((Фс)инг-апура') ('Сингапура)."
-        ],
-        "examples": [
-            "I'll tell you a thing.",
-            "I left my swimming things at home.",
-            "Oh, you poor thing.",
-            "Things could be worse.",
-            "I can't see a blessed thing!",
-            "It's quite the thing to do.",
-            "That miss Thing.",
-            "This thing has got to end.",
-            "He did the same thing as you.",
-            "Don't worry about a thing.",
-            "It is now a thing of the past.",
-            "We're leaving first thing.",
-            "What a silly thing to say!",
-            "Are all your things packed?",
-            "the in thing to do",
-            "Why, what a strange thing to say!",
-            "Oh, you poor thing!",
-            "It is a silly thing to do.",
-            "She has a thing about him.",
-            "What a brainless thing to do!",
-            "The main thing is not to panic.",
-            "the thing I like about her is...",
-            "She's gone, and a good thing too.",
-            "He had opened his pants and was shaking what my circle called \"this thing\"",
-            "We drank some warm thing.",
-            "One thing is sure, though.",
-            "Choose what thing soever you please.",
-            "You poor old thing!",
-            "The thing is to stay in bounds.",
-            "You may actually be doing the right thing by walking out."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я тебе кое-что скажу.",
-            "Я оставил свои вещи для плавания дома.",
-            "Ах ты, бедняжка!",
-            "Все могло быть и хуже.",
-            "Ни черта не вижу!",
-            "Это именно то, что нужно сделать.",
-            "Эта дама, ну как там её...",
-            "Этому нужно положить конец.",
-            "Он сделал то же, что и ты.",
-            "Ни о чём не беспокойтесь.",
-            "Это дело прошлое.",
-            "Завтра утром сразу же уезжаем.",
-            "Что за глупости!",
-            "У вас все вещи упакованы?",
-            "самое модное увлечение",
-            "Да что за странные слова!",
-            "Ах ты, бедняжечка!",
-            "Глупо поступать так.",
-            "Она к нему неравнодушна.",
-            "Какой идиотский поступок! / Какой кретин так делает!",
-            "Самое главное — не паниковать.",
-            "мне в ней нравится то, что ... / что мне в ней нравится, так это...",
-            "Она ушла, и это тоже хорошо.",
-            "Он расстегнул штаны и помахал тем, что в моём кругу называют \"эта штука\".",
-            "Мы выпили чего-то тёплого.",
-            "Тем не менее, в одном можно не сомневаться.",
-            "Выбери любую вещь, какая тебе только понравится.",
-            "Ах ты бедняжка!",
-            "Самое главное — оставаться в рамках дозволенного.",
-            "На самом деле, может и правильно, что вы увольняетесь."
-        ],
-        "stars": 3,
-        "groups": [
-            "-ng_=_[ŋ]",
-            "th_=_[θ]",
-            "all_words",
-            "Инфинитивный_оборот_с_for",
-            "Инфинитив_-_инфинитивный_оборот_с_for(после_слов)",
-            "Инфинитив"
-        ]
-    }
+  "thing": {
+    "comment": [
+      "think",
+      "thinking",
+      "thin",
+      "nothing"
+    ],
+    "translate": "вещь, предмет, дело, штука, нечто, кое-что, существо, факт, обстоятельство, вещица",
+    "transcription": " |θɪŋ|",
+    "antonyms": [],
+    "mnemonic": [
+      "thing [(фс)инг] вещь - Вещи из ((Фс)инг-апура') ('Сингапура)."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "-ng_=_[ŋ]",
+      "th_=_[θ]",
+      "Инфинитивный_оборот_с_for",
+      "Инфинитив_-_инфинитивный_оборот_с_for(после_слов)",
+      "Инфинитив"
+    ],
+    "examples": [
+      {
+        "eng": "I'll tell you a thing.",
+        "ru": "Я тебе кое-что скажу.",
+        "learn": 0
+      },
+      {
+        "eng": "I left my swimming things at home.",
+        "ru": "Я оставил свои вещи для плавания дома.",
+        "learn": 0
+      },
+      {
+        "eng": "Oh, you poor thing.",
+        "ru": "Ах ты, бедняжка!",
+        "learn": 0
+      },
+      {
+        "eng": "Things could be worse.",
+        "ru": "Все могло быть и хуже.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't see a blessed thing!",
+        "ru": "Ни черта не вижу!",
+        "learn": 0
+      },
+      {
+        "eng": "It's quite the thing to do.",
+        "ru": "Это именно то, что нужно сделать.",
+        "learn": 0
+      },
+      {
+        "eng": "That miss Thing.",
+        "ru": "Эта дама, ну как там её...",
+        "learn": 0
+      },
+      {
+        "eng": "This thing has got to end.",
+        "ru": "Этому нужно положить конец.",
+        "learn": 0
+      },
+      {
+        "eng": "He did the same thing as you.",
+        "ru": "Он сделал то же, что и ты.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't worry about a thing.",
+        "ru": "Ни о чём не беспокойтесь.",
+        "learn": 0
+      },
+      {
+        "eng": "It is now a thing of the past.",
+        "ru": "Это дело прошлое.",
+        "learn": 0
+      },
+      {
+        "eng": "We're leaving first thing.",
+        "ru": "Завтра утром сразу же уезжаем.",
+        "learn": 0
+      },
+      {
+        "eng": "What a silly thing to say!",
+        "ru": "Что за глупости!",
+        "learn": 0
+      },
+      {
+        "eng": "Are all your things packed?",
+        "ru": "У вас все вещи упакованы?",
+        "learn": 0
+      },
+      {
+        "eng": "the in thing to do",
+        "ru": "самое модное увлечение",
+        "learn": 0
+      },
+      {
+        "eng": "Why, what a strange thing to say!",
+        "ru": "Да что за странные слова!",
+        "learn": 0
+      },
+      {
+        "eng": "Oh, you poor thing!",
+        "ru": "Ах ты, бедняжечка!",
+        "learn": 0
+      },
+      {
+        "eng": "It is a silly thing to do.",
+        "ru": "Глупо поступать так.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a thing about him.",
+        "ru": "Она к нему неравнодушна.",
+        "learn": 0
+      },
+      {
+        "eng": "What a brainless thing to do!",
+        "ru": "Какой идиотский поступок! / Какой кретин так делает!",
+        "learn": 0
+      },
+      {
+        "eng": "The main thing is not to panic.",
+        "ru": "Самое главное — не паниковать.",
+        "learn": 1
+      },
+      {
+        "eng": "the thing I like about her is...",
+        "ru": "мне в ней нравится то, что ... / что мне в ней нравится, так это...",
+        "learn": 0
+      },
+      {
+        "eng": "She's gone, and a good thing too.",
+        "ru": "Она ушла, и это тоже хорошо.",
+        "learn": 0
+      },
+      {
+        "eng": "He had opened his pants and was shaking what my circle called \"this thing\"",
+        "ru": "Он расстегнул штаны и помахал тем, что в моём кругу называют \"эта штука\".",
+        "learn": 0
+      },
+      {
+        "eng": "We drank some warm thing.",
+        "ru": "Мы выпили чего-то тёплого.",
+        "learn": 0
+      },
+      {
+        "eng": "One thing is sure, though.",
+        "ru": "Тем не менее, в одном можно не сомневаться.",
+        "learn": 0
+      },
+      {
+        "eng": "Choose what thing soever you please.",
+        "ru": "Выбери любую вещь, какая тебе только понравится.",
+        "learn": 0
+      },
+      {
+        "eng": "You poor old thing!",
+        "ru": "Ах ты бедняжка!",
+        "learn": 0
+      },
+      {
+        "eng": "The thing is to stay in bounds.",
+        "ru": "Самое главное — оставаться в рамках дозволенного.",
+        "learn": 0
+      },
+      {
+        "eng": "You may actually be doing the right thing by walking out.",
+        "ru": "На самом деле, может и правильно, что вы увольняетесь.",
+        "learn": 0
+      }
+    ]
+  }
 }

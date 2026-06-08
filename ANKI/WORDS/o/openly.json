@@ -1,83 +1,169 @@
 {
-    "openly": {
-        "comment": [
-            "open",
-            "opening",
-            "openness",
-            "opener"
-        ],
-        "translate": "открыто, откровенно, публично, начистоту",
-        "transcription": " |ˈoʊpənli|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "people who openly defy the law",
-            "They openly flaunted the rules.",
-            "He openly declared his love for her.",
-            "We talked openly and honestly.",
-            "You left the blinds wide open.",
-            "Don't chew with your mouth open.",
-            "Would you mind if I opened a window?",
-            "She opened her eyes and smiled at me.",
-            "The meat was roasted over an open fire.",
-            "They kept the road open throughout the winter.",
-            "We talk more openly when we feel easy and relaxed.",
-            "We have a complex about expressing our minds openly.",
-            "I was nonplussed by his openly expressed admiration of me.",
-            "Carr wouldn't meet Feng's stare, which was openly hostile.",
-            "His return to power was discussed openly as a probability.",
-            "There's already an open jar of pickles in the refrigerator.",
-            "This door is hard to open.",
-            "The door suddenly swung open.",
-            "staring with her eyes wide open",
-            "The union had openly flouted the law.",
-            "He was openly critical of his colleagues.",
-            "He was openly contemptuous of his father.",
-            "This drawer is stuck. It just won't open!",
-            "Extremists were openly advocating violence.",
-            "They are free to practice their religion openly.",
-            "I was so tired that I couldn't keep my eyes open.",
-            "I opened my umbrella and stepped out into the rain.",
-            "not openly liberal but that is the trend of the book",
-            "Phillips openly admits to having an alcohol problem.",
-            "The car door opened and a beautiful woman stepped out."
-        ],
-        "example_translate": [
-            "люди, которые открыто игнорируют закон",
-            "Они открыто пренебрегали правилами.",
-            "Он открыто признался в своей любви к ней.",
-            "Мы (по)говорили честно и откровенно.",
-            "Ты оставил шторы нараспашку.",
-            "Не жуй с открытым ртом. / Когда жуёшь, закрывай рот.",
-            "Не возражаете, если я открою окно?",
-            "Она открыла глаза и улыбнулась мне.",
-            "Мясо зажарили на открытом огне.",
-            "Они сохраняли путь открытым в течение всей зимы.",
-            "Мы говорим более открыто, когда чувствуем себя легко и раскованно.",
-            "Мы стесняемся открыто выражать свои мысли.",
-            "Меня смутило его откровенное восхищение мной.",
-            "Карр не мог посмотреть в глаза Фенгу, чей взгляд был откровенно враждебным.",
-            "Его возвращение к власти открыто обсуждалось как вполне вероятное.",
-            "В холодильнике уже стоит открытая банка маринованных огурцов.",
-            "Эта дверь открывается с большим трудом.",
-            "Дверь внезапно распахнулась.",
-            "уставилась широко распахнутыми глазами",
-            "Профсоюз открыто пренебрегал законом.",
-            "Он открыто критиковал своих коллег.",
-            "Его отец откровенно(открыто) презирал его.",
-            "Этот ящик застрял. Не открывается, и всё тут!",
-            "Экстремисты открыто пропагандировали насилие.",
-            "Они могут открыто исповедовать свою религию.",
-            "Я так устал, что глаза закрывались сами собой.",
-            "Я раскрыл свой зонтик и шагнул под дождь.",
-            "не откровенно либеральная, но такова общая направленность этой книги",
-            "Филлипс открыто признаёт, что у него проблемы с алкоголем.",
-            "Дверь машины открылась, и из неё вышла красивая женщина."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "openly": {
+    "comment": [
+      "open",
+      "opening",
+      "openness",
+      "opener"
+    ],
+    "translate": "открыто, откровенно, публично, начистоту",
+    "transcription": " |ˈoʊpənli|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "people who openly defy the law",
+        "ru": "люди, которые открыто игнорируют закон",
+        "learn": 0
+      },
+      {
+        "eng": "They openly flaunted the rules.",
+        "ru": "Они открыто пренебрегали правилами.",
+        "learn": 0
+      },
+      {
+        "eng": "He openly declared his love for her.",
+        "ru": "Он открыто признался в своей любви к ней.",
+        "learn": 1
+      },
+      {
+        "eng": "We talked openly and honestly.",
+        "ru": "Мы (по)говорили честно и откровенно.",
+        "learn": 1
+      },
+      {
+        "eng": "You left the blinds wide open.",
+        "ru": "Ты оставил шторы нараспашку.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't chew with your mouth open.",
+        "ru": "Не жуй с открытым ртом. / Когда жуёшь, закрывай рот.",
+        "learn": 1
+      },
+      {
+        "eng": "Would you mind if I opened a window?",
+        "ru": "Не возражаете, если я открою окно?",
+        "learn": 0
+      },
+      {
+        "eng": "She opened her eyes and smiled at me.",
+        "ru": "Она открыла глаза и улыбнулась мне.",
+        "learn": 0
+      },
+      {
+        "eng": "The meat was roasted over an open fire.",
+        "ru": "Мясо зажарили на открытом огне.",
+        "learn": 0
+      },
+      {
+        "eng": "They kept the road open throughout the winter.",
+        "ru": "Они сохраняли путь открытым в течение всей зимы.",
+        "learn": 0
+      },
+      {
+        "eng": "We talk more openly when we feel easy and relaxed.",
+        "ru": "Мы говорим более открыто, когда чувствуем себя легко и раскованно.",
+        "learn": 0
+      },
+      {
+        "eng": "We have a complex about expressing our minds openly.",
+        "ru": "Мы стесняемся открыто выражать свои мысли.",
+        "learn": 0
+      },
+      {
+        "eng": "I was nonplussed by his openly expressed admiration of me.",
+        "ru": "Меня смутило его откровенное восхищение мной.",
+        "learn": 0
+      },
+      {
+        "eng": "Carr wouldn't meet Feng's stare, which was openly hostile.",
+        "ru": "Карр не мог посмотреть в глаза Фенгу, чей взгляд был откровенно враждебным.",
+        "learn": 0
+      },
+      {
+        "eng": "His return to power was discussed openly as a probability.",
+        "ru": "Его возвращение к власти открыто обсуждалось как вполне вероятное.",
+        "learn": 0
+      },
+      {
+        "eng": "There's already an open jar of pickles in the refrigerator.",
+        "ru": "В холодильнике уже стоит открытая банка маринованных огурцов.",
+        "learn": 0
+      },
+      {
+        "eng": "This door is hard to open.",
+        "ru": "Эта дверь открывается с большим трудом.",
+        "learn": 0
+      },
+      {
+        "eng": "The door suddenly swung open.",
+        "ru": "Дверь внезапно распахнулась.",
+        "learn": 0
+      },
+      {
+        "eng": "staring with her eyes wide open",
+        "ru": "уставилась широко распахнутыми глазами",
+        "learn": 0
+      },
+      {
+        "eng": "The union had openly flouted the law.",
+        "ru": "Профсоюз открыто пренебрегал законом.",
+        "learn": 0
+      },
+      {
+        "eng": "He was openly critical of his colleagues.",
+        "ru": "Он открыто критиковал своих коллег.",
+        "learn": 0
+      },
+      {
+        "eng": "He was openly contemptuous of his father.",
+        "ru": "Его отец откровенно(открыто) презирал его.",
+        "learn": 0
+      },
+      {
+        "eng": "This drawer is stuck. It just won't open!",
+        "ru": "Этот ящик застрял. Не открывается, и всё тут!",
+        "learn": 0
+      },
+      {
+        "eng": "Extremists were openly advocating violence.",
+        "ru": "Экстремисты открыто пропагандировали насилие.",
+        "learn": 0
+      },
+      {
+        "eng": "They are free to practice their religion openly.",
+        "ru": "Они могут открыто исповедовать свою религию.",
+        "learn": 0
+      },
+      {
+        "eng": "I was so tired that I couldn't keep my eyes open.",
+        "ru": "Я так устал, что глаза закрывались сами собой.",
+        "learn": 0
+      },
+      {
+        "eng": "I opened my umbrella and stepped out into the rain.",
+        "ru": "Я раскрыл свой зонтик и шагнул под дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "not openly liberal but that is the trend of the book",
+        "ru": "не откровенно либеральная, но такова общая направленность этой книги",
+        "learn": 0
+      },
+      {
+        "eng": "Phillips openly admits to having an alcohol problem.",
+        "ru": "Филлипс открыто признаёт, что у него проблемы с алкоголем.",
+        "learn": 0
+      },
+      {
+        "eng": "The car door opened and a beautiful woman stepped out.",
+        "ru": "Дверь машины открылась, и из неё вышла красивая женщина.",
+        "learn": 0
+      }
+    ]
+  }
 }

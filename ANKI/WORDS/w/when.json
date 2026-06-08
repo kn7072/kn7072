@@ -1,82 +1,168 @@
 {
-    "when": {
-        "comment": [
-            "whenever"
-        ],
-        "translate": " когда, хотя, когда, если, как только, время, дата",
-        "transcription": "  |wen|",
-        "antonyms": [],
-        "mnemonic": [
-            "when [(ув)е'н] когда - Когда ты (вен-ик) купишь?."
-        ],
-        "examples": [
-            "When shall I see you again?",
-            "Call me when you get home.",
-            "I'll tell you when to stop.",
-            "When is the next performance?",
-            "She did not know when he would come.",
-            "I'll phone you again when I get home.",
-            "There are times when I hate him.",
-            "When are we leaving?",
-            "You need the report by when?",
-            "Stop writing when the bell rings.",
-            "You can go when the bell rings.",
-            "He used to go fishing when he was a boy.",
-            "When I was in school, we didn't have computers.",
-            "A contestant is disqualified when he disobeys the rules.",
-            "The happy days when we were together",
-            "It was a time when people didn't have to lock their doors.",
-            "When will the work be finished?",
-            "When did you first meet Dr Darnall?",
-            "He always wears glasses except when playing football.",
-            "Things were better when he got a job.",
-            "The detective asked me when I last saw her.",
-            "The best moment was when he scored the winning goal.",
-            "She remembered the day when Paula had first arrived.",
-            "It was the day when the world's first artificial satellite of the Earth was launched.",
-            "When he watches television, he falls asleep.",
-            "When mixed with water the powder forms a smooth paste.",
-            "Why does she steal things when she could easily afford to buy them?",
-            "I decided to quit politics when I might have had a great career in it.",
-            "When did the American Civil War begin?",
-            "When he finally showed up, he was drunk."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Когда мы опять встретимся?",
-            "Позвоните мне, когда придете домой.",
-            "Я скажу тебе, когда остановиться.",
-            "Когда будет следующее представление?",
-            "Она не знала, когда он вернётся.",
-            "Я перезвоню тебе ещё раз, когда доберусь домой.",
-            "Временами /иногда/ я его просто ненавижу.",
-            "Когда мы уезжаем?",
-            "К какому сроку вам нужен отчёт?",
-            "Прекращайте писать, как только прозвенит звонок.",
-            "Когда прозвенит звонок, можете идти.",
-            "Когда он был ребёнком, то часто ходил на рыбалку.",
-            "Когда я учился в школе, у нас не было компьютеров.",
-            "Когда участник соревнования нарушает правила, его дисквалифицируют.",
-            "То счастливое время /те счастливые дни/, когда мы были вместе",
-            "Это было время, когда людям не приходилось запирать двери.",
-            "Когда эта работа будет закончена?",
-            "Когда вы познакомились с доктором Дарнеллом?",
-            "Он всегда носит очки, если только не играет в футбол.",
-            "Дела стали получше, когда он нашёл работу.",
-            "Детектив спросил, когда я в последний раз её видел.",
-            "Лучший момент был, когда он забил победный гол.",
-            "Она вспомнила тот день, когда Пола впервые приехала.",
-            "Это был день, когда был запущен первый в мире искусственный спутник Земли.",
-            "Когда он смотрит телевизор, то засыпает.",
-            "При смешивании с водой порошок образует однородную пасту.",
-            "Почему она крадёт вещи, если спокойно может себе позволить их купить?",
-            "Я решил уйти из большой политики, даже несмотря на то, что я мог сделать хорошую карьеру.",
-            "Когда началась гражданская война в США?",
-            "Когда он наконец-то появился, то был пьян."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "when": {
+    "comment": [
+      "whenever"
+    ],
+    "translate": " когда, хотя, когда, если, как только, время, дата",
+    "transcription": "  |wen|",
+    "antonyms": [],
+    "mnemonic": [
+      "when [(ув)е'н] когда - Когда ты (вен-ик) купишь?."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "When shall I see you again?",
+        "ru": "Когда мы опять встретимся?",
+        "learn": 0
+      },
+      {
+        "eng": "Call me when you get home.",
+        "ru": "Позвоните мне, когда придете домой.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll tell you when to stop.",
+        "ru": "Я скажу тебе, когда остановиться.",
+        "learn": 0
+      },
+      {
+        "eng": "When is the next performance?",
+        "ru": "Когда будет следующее представление?",
+        "learn": 1
+      },
+      {
+        "eng": "She did not know when he would come.",
+        "ru": "Она не знала, когда он вернётся.",
+        "learn": 1
+      },
+      {
+        "eng": "I'll phone you again when I get home.",
+        "ru": "Я перезвоню тебе ещё раз, когда доберусь домой.",
+        "learn": 0
+      },
+      {
+        "eng": "There are times when I hate him.",
+        "ru": "Временами /иногда/ я его просто ненавижу.",
+        "learn": 0
+      },
+      {
+        "eng": "When are we leaving?",
+        "ru": "Когда мы уезжаем?",
+        "learn": 0
+      },
+      {
+        "eng": "You need the report by when?",
+        "ru": "К какому сроку вам нужен отчёт?",
+        "learn": 0
+      },
+      {
+        "eng": "Stop writing when the bell rings.",
+        "ru": "Прекращайте писать, как только прозвенит звонок.",
+        "learn": 0
+      },
+      {
+        "eng": "You can go when the bell rings.",
+        "ru": "Когда прозвенит звонок, можете идти.",
+        "learn": 0
+      },
+      {
+        "eng": "He used to go fishing when he was a boy.",
+        "ru": "Когда он был ребёнком, то часто ходил на рыбалку.",
+        "learn": 0
+      },
+      {
+        "eng": "When I was in school, we didn't have computers.",
+        "ru": "Когда я учился в школе, у нас не было компьютеров.",
+        "learn": 0
+      },
+      {
+        "eng": "A contestant is disqualified when he disobeys the rules.",
+        "ru": "Когда участник соревнования нарушает правила, его дисквалифицируют.",
+        "learn": 0
+      },
+      {
+        "eng": "The happy days when we were together",
+        "ru": "То счастливое время /те счастливые дни/, когда мы были вместе",
+        "learn": 0
+      },
+      {
+        "eng": "It was a time when people didn't have to lock their doors.",
+        "ru": "Это было время, когда людям не приходилось запирать двери.",
+        "learn": 0
+      },
+      {
+        "eng": "When will the work be finished?",
+        "ru": "Когда эта работа будет закончена?",
+        "learn": 1
+      },
+      {
+        "eng": "When did you first meet Dr Darnall?",
+        "ru": "Когда вы познакомились с доктором Дарнеллом?",
+        "learn": 0
+      },
+      {
+        "eng": "He always wears glasses except when playing football.",
+        "ru": "Он всегда носит очки, если только не играет в футбол.",
+        "learn": 0
+      },
+      {
+        "eng": "Things were better when he got a job.",
+        "ru": "Дела стали получше, когда он нашёл работу.",
+        "learn": 0
+      },
+      {
+        "eng": "The detective asked me when I last saw her.",
+        "ru": "Детектив спросил, когда я в последний раз её видел.",
+        "learn": 0
+      },
+      {
+        "eng": "The best moment was when he scored the winning goal.",
+        "ru": "Лучший момент был, когда он забил победный гол.",
+        "learn": 0
+      },
+      {
+        "eng": "She remembered the day when Paula had first arrived.",
+        "ru": "Она вспомнила тот день, когда Пола впервые приехала.",
+        "learn": 0
+      },
+      {
+        "eng": "It was the day when the world's first artificial satellite of the Earth was launched.",
+        "ru": "Это был день, когда был запущен первый в мире искусственный спутник Земли.",
+        "learn": 1
+      },
+      {
+        "eng": "When he watches television, he falls asleep.",
+        "ru": "Когда он смотрит телевизор, то засыпает.",
+        "learn": 0
+      },
+      {
+        "eng": "When mixed with water the powder forms a smooth paste.",
+        "ru": "При смешивании с водой порошок образует однородную пасту.",
+        "learn": 0
+      },
+      {
+        "eng": "Why does she steal things when she could easily afford to buy them?",
+        "ru": "Почему она крадёт вещи, если спокойно может себе позволить их купить?",
+        "learn": 0
+      },
+      {
+        "eng": "I decided to quit politics when I might have had a great career in it.",
+        "ru": "Я решил уйти из большой политики, даже несмотря на то, что я мог сделать хорошую карьеру.",
+        "learn": 0
+      },
+      {
+        "eng": "When did the American Civil War begin?",
+        "ru": "Когда началась гражданская война в США?",
+        "learn": 0
+      },
+      {
+        "eng": "When he finally showed up, he was drunk.",
+        "ru": "Когда он наконец-то появился, то был пьян.",
+        "learn": 0
+      }
+    ]
+  }
 }

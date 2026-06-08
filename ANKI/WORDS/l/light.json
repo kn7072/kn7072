@@ -1,96 +1,185 @@
 {
-    "light": {
-        "comment": [
-            "flight",
-            "lighting",
-            "delight",
-            "lightly",
-            "highlight",
-            "moonlight",
-            "plight",
-            "delighted",
-            "delightful",
-            "daylight",
-            "sunlight",
-            "lightning"
-        ],
-        "translate": "свет, светило, светить, зажигать, легкий, светлый, легко, налегке",
-        "transcription": " |laɪt|",
-        "antonyms": [],
-        "mnemonic": [
-            "light [лайт] свет, лёгкий - Легкие сигареты («Мальборо-лайт») свет дают в темноте.",
-            "flight [flaɪt]\nlight [laɪt] - свет, бледный, лёгкий., освещать, зажигать\n***\nЯ и ночью \"night\",\nи при ярком свете \"light\"\nлюблю летать \"flight\".",
-            "light [laıt]\n***\nСВЕТ - значит, лайт. (это) light\nЖить ЛЕГКО - значит, лайт. (это) light\nСВЕТЛЫЙ у врачей халат. (это) light\nОСВЕЩАЮТ - значит, лайт. (это) light\n***\nНам легко \"light\"\nи мы летаем \"flight\"."
-        ],
-        "examples": [
-            "Where's the light switch?",
-            "Her face lit.",
-            "She lit a candle.",
-            "The sun gives light.",
-            "Light goes on.",
-            "She's quite a light sleeper.",
-            "Light flickers.",
-            "A smile lit her face.",
-            "A light snow was falling.",
-            "The lights are off / out.",
-            "the light of the moon",
-            "The red light means 'Stop'.",
-            "You've left your lights on.",
-            "A light arced across the sky.",
-            "I fell into a light sleep.",
-            "She gave him a light kiss on the cheek.",
-            "She is a light dancer.",
-            "I had a light lunch in town.",
-            "It's a light, fresh wine.",
-            "Light flooded into the room.",
-            "The lights have fused.",
-            "the coil in a light bulb",
-            "a dim light beside the bed",
-            "A light rain began to fall.",
-            "The light rain had stopped.",
-            "The light focused.",
-            "He has very light coloring.",
-            "Light land is easily tilled.",
-            "Misfortune lighted upon him.",
-            "He murmured loverly something about \"the light of her jacinth hair\"."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Где выключатель?",
-            "Она просияла (от радости).",
-            "Она зажгла свечу.",
-            "Солнце — источник света.",
-            "Включается свет.",
-            "Спит она довольно чутко.",
-            "Свет мерцает.",
-            "Её лицо осветила улыбка.",
-            "Падал небольшой снег.",
-            "Свет выключен.",
-            "свет луны",
-            "Красный свет означает \"стоп\".",
-            "Ты не выключил фары.",
-            "На небе появилась световая дуга.",
-            "Я задремал.",
-            "Она легонько поцеловала его в щёку.",
-            "Она очень грациозно танцует.",
-            "Я слегка пообедал в городе.",
-            "Это лёгкое, свежее вино.",
-            "В комнату хлынул свет.",
-            "Свет погас. Пробки вышибло.",
-            "спираль в электрической лампочке",
-            "тусклый светильник рядом с кроватью",
-            "Начал накрапывать небольшой дождь.",
-            "К тому времени дождик уже перестал.",
-            "Свет сфокусировался.",
-            "У него очень светлая кожа и волосы.",
-            "Рыхлую землю легко пахать.",
-            "На него свалилось горе.",
-            "Он любовно прошептал что-то про \"блеск её гранатовых волос\"."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "gh_=_[_]_(ght_-_[t])"
-        ]
-    }
+  "light": {
+    "comment": [
+      "lit/lighted |lɪt| / |ˈlaɪtɪd|,                                          lit/lighted |lɪt| / |ˈlaɪtɪd|",
+      "flight",
+      "lighting",
+      "delight",
+      "lightly",
+      "highlight",
+      "moonlight",
+      "plight",
+      "delighted",
+      "delightful",
+      "daylight",
+      "sunlight",
+      "lightning"
+    ],
+    "translate": "свет, светило, светить, зажигать, легкий, светлый, легко, налегке",
+    "transcription": " |laɪt|",
+    "antonyms": [],
+    "mnemonic": [
+      "light [лайт] свет, лёгкий - Легкие сигареты («Мальборо-лайт») свет дают в темноте.",
+      "flight [flaɪt]\nlight [laɪt] - свет, бледный, лёгкий., освещать, зажигать\n***\nЯ и ночью \"night\",\nи при ярком свете \"light\"\nлюблю летать \"flight\".",
+      "light [laıt]\n***\nСВЕТ - значит, лайт. (это) light\nЖить ЛЕГКО - значит, лайт. (это) light\nСВЕТЛЫЙ у врачей халат. (это) light\nОСВЕЩАЮТ - значит, лайт. (это) light\n***\nНам легко \"light\"\nи мы летаем \"flight\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "gh_=_[_]_(ght_-_[t])",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Where's the light switch?",
+        "ru": "Где выключатель?",
+        "learn": 0
+      },
+      {
+        "eng": "Her face lit.",
+        "ru": "Она просияла (от радости).",
+        "learn": 0
+      },
+      {
+        "eng": "She lit a candle.",
+        "ru": "Она зажгла свечу.",
+        "learn": 0
+      },
+      {
+        "eng": "The sun gives light.",
+        "ru": "Солнце — источник света.",
+        "learn": 0
+      },
+      {
+        "eng": "Light goes on.",
+        "ru": "Включается свет.",
+        "learn": 0
+      },
+      {
+        "eng": "She's quite a light sleeper.",
+        "ru": "Спит она довольно чутко.",
+        "learn": 0
+      },
+      {
+        "eng": "Light flickers.",
+        "ru": "Свет мерцает.",
+        "learn": 0
+      },
+      {
+        "eng": "A smile lit her face.",
+        "ru": "Её лицо осветила улыбка.",
+        "learn": 0
+      },
+      {
+        "eng": "A light snow was falling.",
+        "ru": "Падал небольшой снег.",
+        "learn": 1
+      },
+      {
+        "eng": "The lights are off / out.",
+        "ru": "Свет выключен.",
+        "learn": 0
+      },
+      {
+        "eng": "the light of the moon",
+        "ru": "свет луны",
+        "learn": 0
+      },
+      {
+        "eng": "The red light means 'Stop'.",
+        "ru": "Красный свет означает \"стоп\".",
+        "learn": 0
+      },
+      {
+        "eng": "You've left your lights on.",
+        "ru": "Ты не выключил фары.",
+        "learn": 0
+      },
+      {
+        "eng": "A light arced across the sky.",
+        "ru": "На небе появилась световая дуга.",
+        "learn": 0
+      },
+      {
+        "eng": "I fell into a light sleep.",
+        "ru": "Я задремал.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave him a light kiss on the cheek.",
+        "ru": "Она легонько поцеловала его в щёку.",
+        "learn": 1
+      },
+      {
+        "eng": "She is a light dancer.",
+        "ru": "Она очень грациозно танцует.",
+        "learn": 0
+      },
+      {
+        "eng": "I had a light lunch in town.",
+        "ru": "Я слегка пообедал в городе.",
+        "learn": 1
+      },
+      {
+        "eng": "It's a light, fresh wine.",
+        "ru": "Это лёгкое, свежее вино.",
+        "learn": 0
+      },
+      {
+        "eng": "Light flooded into the room.",
+        "ru": "В комнату хлынул свет.",
+        "learn": 0
+      },
+      {
+        "eng": "The lights have fused.",
+        "ru": "Свет погас. Пробки вышибло.",
+        "learn": 0
+      },
+      {
+        "eng": "the coil in a light bulb",
+        "ru": "спираль в электрической лампочке",
+        "learn": 0
+      },
+      {
+        "eng": "a dim light beside the bed",
+        "ru": "тусклый светильник рядом с кроватью",
+        "learn": 0
+      },
+      {
+        "eng": "A light rain began to fall.",
+        "ru": "Начал накрапывать небольшой дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "The light rain had stopped.",
+        "ru": "К тому времени дождик уже перестал.",
+        "learn": 0
+      },
+      {
+        "eng": "The light focused.",
+        "ru": "Свет сфокусировался.",
+        "learn": 1
+      },
+      {
+        "eng": "He has very light coloring.",
+        "ru": "У него очень светлая кожа и волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "Light land is easily tilled.",
+        "ru": "Рыхлую землю легко пахать.",
+        "learn": 0
+      },
+      {
+        "eng": "Misfortune lighted upon him.",
+        "ru": "На него свалилось горе.",
+        "learn": 0
+      },
+      {
+        "eng": "He murmured loverly something about \"the light of her jacinth hair\".",
+        "ru": "Он любовно прошептал что-то про \"блеск её гранатовых волос\".",
+        "learn": 0
+      }
+    ]
+  }
 }

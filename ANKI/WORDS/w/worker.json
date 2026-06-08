@@ -1,93 +1,179 @@
 {
-    "worker": {
-        "comment": [
-            "workshop",
-            "work",
-            "homework",
-            "network",
-            "working",
-            "firework",
-            "workload",
-            "workplace",
-            "workforce",
-            "workman",
-            "paperwork",
-            "workstation",
-            "framework",
-            "housework"
-        ],
-        "translate": "работник, рабочий, рабочий, трудовой",
-        "transcription": " |ˈwɜːrkər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He comes of a worker's family.",
-            "The worker bee is neuter.",
-            "She is a very responsible worker.",
-            "The worker was dismissed for laziness.",
-            "The company is planning to hire 200 workers.",
-            "That new employee is really a hard worker.",
-            "He is a quick worker and good communicator.",
-            "He is a careless worker.",
-            "They are both hard workers.",
-            "She certainly is a hard worker.",
-            "Each worker receives an annual bonus.",
-            "He is retraining to become an IT worker.",
-            "a well deserved promotion for a hard worker",
-            "She established a reputation as a hard worker.",
-            "He is an industrious worker.",
-            "an industrious worker who never seems to sleep",
-            "The average worker earned $1,000 more this year.",
-            "She has always been a very conscientious worker.",
-            "He's a hard worker but he's not very intelligent.",
-            "The average worker takes home around $300 a week.",
-            "She's proved herself to be a very reliable worker.",
-            "She's a very hard worker and very eager to please.",
-            "Whilst a good worker, he's not a very good manager.",
-            "Don't be misled by appearances, he's a good worker.",
-            "She's a hard worker but she's no great intellectual.",
-            "new health and safety regulations for factory workers",
-            "an injured worker forced to live on invalidity benefit",
-            "The ardency in the social worker's voice surprised me.",
-            "He has a well-deserved reputation as a reliable worker.",
-            "His job combines the functions of a manager and a worker."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он из рабочей семьи.",
-            "Рабочая пчела бесплодна.",
-            "Она — очень ответственный работник.",
-            "Этого работника уволили за лень.",
-            "Компания планирует нанять двести работников.",
-            "Этот новый сотрудник действительно очень усерден.",
-            "Он энергично работает и хорошо ладит с людьми.",
-            "Он — нерадивый работник.",
-            "Они оба являются настоящими тружениками.",
-            "Она, конечно, труженица.",
-            "Каждый работник получает ежегодную премию.",
-            "Он проходит переподготовку, чтобы стать работником сферы информационных технологий.",
-            "заслуженное продвижение усердного работника по службе",
-            "Она закрепила за собой репутацию труженицы.",
-            "Он трудолюбивый работник.",
-            "прилежный работник, который, похоже, никогда не спит",
-            "В этом году средний работник заработал на тысячу долларов больше.",
-            "Она всегда была очень добросовестным работником.",
-            "Он работает хорошо, но не очень умён.",
-            "Обычный работник приносит домой около трёхсот долларов в неделю.",
-            "Она показала себя очень надёжным работником.",
-            "Она очень трудолюбивая, и очень хочет угодить.",
-            "Работник он хороший, но не очень хороший руководитель.",
-            "Пусть вас не смущает его внешний вид: работает он хорошо.",
-            "Она много работает, но интеллектом особо не блещет.",
-            "новых санитарные нормы для заводских работников",
-            "работник, который вследствие полученной травмы вынужден жить на пособие по инвалидности",
-            "Эта страсть в голосе социального работника меня удивила.",
-            "Он имеет заслуженную репутацию надёжного работника.",
-            "Его работа сочетает в себе функции руководителя и работника."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "worker": {
+    "comment": [
+      "workshop",
+      "work",
+      "homework",
+      "network",
+      "working",
+      "firework",
+      "workload",
+      "workplace",
+      "workforce",
+      "workman",
+      "paperwork",
+      "workstation",
+      "framework",
+      "housework"
+    ],
+    "translate": "работник, рабочий, рабочий, трудовой",
+    "transcription": " |ˈwɜːrkər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He comes of a worker's family.",
+        "ru": "Он из рабочей семьи.",
+        "learn": 0
+      },
+      {
+        "eng": "The worker bee is neuter.",
+        "ru": "Рабочая пчела бесплодна.",
+        "learn": 0
+      },
+      {
+        "eng": "She is a very responsible worker.",
+        "ru": "Она — очень ответственный работник.",
+        "learn": 0
+      },
+      {
+        "eng": "The worker was dismissed for laziness.",
+        "ru": "Этого работника уволили за лень.",
+        "learn": 1
+      },
+      {
+        "eng": "The company is planning to hire 200 workers.",
+        "ru": "Компания планирует нанять двести работников.",
+        "learn": 1
+      },
+      {
+        "eng": "That new employee is really a hard worker.",
+        "ru": "Этот новый сотрудник действительно очень усерден.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a quick worker and good communicator.",
+        "ru": "Он энергично работает и хорошо ладит с людьми.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a careless worker.",
+        "ru": "Он — нерадивый работник.",
+        "learn": 0
+      },
+      {
+        "eng": "They are both hard workers.",
+        "ru": "Они оба являются настоящими тружениками.",
+        "learn": 0
+      },
+      {
+        "eng": "She certainly is a hard worker.",
+        "ru": "Она, конечно, труженица.",
+        "learn": 0
+      },
+      {
+        "eng": "Each worker receives an annual bonus.",
+        "ru": "Каждый работник получает ежегодную премию.",
+        "learn": 1
+      },
+      {
+        "eng": "He is retraining to become an IT worker.",
+        "ru": "Он проходит переподготовку, чтобы стать работником сферы информационных технологий.",
+        "learn": 0
+      },
+      {
+        "eng": "a well deserved promotion for a hard worker",
+        "ru": "заслуженное продвижение усердного работника по службе",
+        "learn": 0
+      },
+      {
+        "eng": "She established a reputation as a hard worker.",
+        "ru": "Она закрепила за собой репутацию труженицы.",
+        "learn": 0
+      },
+      {
+        "eng": "He is an industrious worker.",
+        "ru": "Он трудолюбивый работник.",
+        "learn": 0
+      },
+      {
+        "eng": "an industrious worker who never seems to sleep",
+        "ru": "прилежный работник, который, похоже, никогда не спит",
+        "learn": 0
+      },
+      {
+        "eng": "The average worker earned $1,000 more this year.",
+        "ru": "В этом году средний работник заработал на тысячу долларов больше.",
+        "learn": 0
+      },
+      {
+        "eng": "She has always been a very conscientious worker.",
+        "ru": "Она всегда была очень добросовестным работником.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a hard worker but he's not very intelligent.",
+        "ru": "Он работает хорошо, но не очень умён.",
+        "learn": 1
+      },
+      {
+        "eng": "The average worker takes home around $300 a week.",
+        "ru": "Обычный работник приносит домой около трёхсот долларов в неделю.",
+        "learn": 0
+      },
+      {
+        "eng": "She's proved herself to be a very reliable worker.",
+        "ru": "Она показала себя очень надёжным работником.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a very hard worker and very eager to please.",
+        "ru": "Она очень трудолюбивая, и очень хочет угодить.",
+        "learn": 0
+      },
+      {
+        "eng": "Whilst a good worker, he's not a very good manager.",
+        "ru": "Работник он хороший, но не очень хороший руководитель.",
+        "learn": 1
+      },
+      {
+        "eng": "Don't be misled by appearances, he's a good worker.",
+        "ru": "Пусть вас не смущает его внешний вид: работает он хорошо.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a hard worker but she's no great intellectual.",
+        "ru": "Она много работает, но интеллектом особо не блещет.",
+        "learn": 1
+      },
+      {
+        "eng": "new health and safety regulations for factory workers",
+        "ru": "новых санитарные нормы для заводских работников",
+        "learn": 0
+      },
+      {
+        "eng": "an injured worker forced to live on invalidity benefit",
+        "ru": "работник, который вследствие полученной травмы вынужден жить на пособие по инвалидности",
+        "learn": 0
+      },
+      {
+        "eng": "The ardency in the social worker's voice surprised me.",
+        "ru": "Эта страсть в голосе социального работника меня удивила.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a well-deserved reputation as a reliable worker.",
+        "ru": "Он имеет заслуженную репутацию надёжного работника.",
+        "learn": 0
+      },
+      {
+        "eng": "His job combines the functions of a manager and a worker.",
+        "ru": "Его работа сочетает в себе функции руководителя и работника.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,91 +1,181 @@
 {
-    "keep": {
-        "comment": [
-            "keen",
-            "keeper",
-            "shopkeeper",
-            "goalkeeper"
-        ],
-        "translate": "держаться, держать, сохранять, становиться, содержание, прокорм, главная башня, пища",
-        "transcription": " |kiːp|",
-        "antonyms": [],
-        "mnemonic": [
-            "keep [ки:п] хранить - Храните на(Кип-ре)деньги.",
-            "keep [ki: p]\n***\nСОДЕРЖАТЬ семью будет Архип. (это) keep\nХРАНИТЬ секрет будет Архип. (это) keep\n***\nОвцам \"sheep\"\nя жизнь сохраню \"keep\".\n***\nЧтоб деньги сохранить \"keep\",\nя не сплю \"sleep\",\nя крадусь \"creep\"."
-        ],
-        "examples": [
-            "Keep moving!",
-            "Keep me informed.",
-            "I won't keep you long.",
-            "May God keep you",
-            "Keep him out of trouble.",
-            "Keep knives away from children.",
-            "I keep thinking about Joe, all alone in that place.",
-            "He kept me waiting.",
-            "Keep to the right!",
-            "Where do you keep?",
-            "I asked them to keep quiet.",
-            "Where do you keep your tea bags?",
-            "Keep your room tidy.",
-            "The weather keeps fine.",
-            "You are keeping something from me.",
-            "How do I know you'll keep your word?",
-            "What kept you from doing it?",
-            "You may keep the book for a month.",
-            "Will you keep a seat for me?",
-            "The matter will keep till tomorrow.",
-            "If I were you, I'd keep away from that area at night.",
-            "I kept his letters for years.",
-            "I was struggling to keep awake.",
-            "He kept laughing the whole evening.",
-            "Meat will keep in the cellar.",
-            "Do they keep postcards here?",
-            "He kept his anxiety from showing.",
-            "Jane kept the engine running.",
-            "He paid for his keep by doing odd jobs.",
-            "If there's shooting going on, keep down."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Проходите! Не задерживайтесь!",
-            "Держите меня в курсе.",
-            "Я вас долго не задержу.",
-            "Пусть Бог хранит вас",
-            "Держи его подальше от неприятностей.",
-            "Прячьте ножи от детей.",
-            "Я всё думаю о Джо, — он ведь там совсем один.",
-            "Он заставил меня ждать.",
-            "Держитесь правой стороны!",
-            "Где вы обретаетесь? / Где вы проживаете? (разг.)",
-            "Я попросил их не шуметь.",
-            "Где у вас чай в пакетиках?",
-            "Поддерживайте в комнате порядок.",
-            "Стоит хорошая погода.",
-            "Вы что-то от меня скрываете.",
-            "Откуда мне знать, что вы сдержите своё слово?",
-            "Почему вы этого не сделали?",
-            "Можете держать эту книгу месяц.",
-            "Вы не подержите мне место?",
-            "С этим можно подождать до завтра.",
-            "На твоём месте, я бы не совался ночью в тот район.",
-            "Я хранил его письма в течение многих лет.",
-            "Я изо всех сил старался не заснуть.",
-            "Он весь вечер не переставал смеяться.",
-            "В погребе мясо не испортится.",
-            "Здесь имеются в продаже открытки?",
-            "Он старался не выдать своего волнения.",
-            "Джейн не стала глушить мотор.",
-            "Он перебивался случайными заработками.",
-            "Если стрельба будет продолжаться, не вставай."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Причастие",
-            "Глаголы_состояния_и_чувственного_восприятия",
-            "Сложное_дополнение_с_причастием_1",
-            "Причастие_-_сложное_дополнение_с_причастием_1(после_глаголов)",
-            "Причастие_-_сложное_подлежащее"
-        ]
-    }
+  "keep": {
+    "comment": [
+      "kept |kɛpt|,                                          kept |kɛpt|",
+      "keen",
+      "keeper",
+      "shopkeeper",
+      "goalkeeper"
+    ],
+    "translate": "держаться, держать, сохранять, становиться, содержание, прокорм, главная башня, пища",
+    "transcription": " |kiːp|",
+    "antonyms": [],
+    "mnemonic": [
+      "keep [ки:п] хранить - Храните на(Кип-ре)деньги.",
+      "keep [ki: p]\n***\nСОДЕРЖАТЬ семью будет Архип. (это) keep\nХРАНИТЬ секрет будет Архип. (это) keep\n***\nОвцам \"sheep\"\nя жизнь сохраню \"keep\".\n***\nЧтоб деньги сохранить \"keep\",\nя не сплю \"sleep\",\nя крадусь \"creep\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Причастие",
+      "Глаголы_состояния_и_чувственного_восприятия",
+      "Сложное_дополнение_с_причастием_1",
+      "Причастие_-_сложное_дополнение_с_причастием_1(после_глаголов)",
+      "Причастие_-_сложное_подлежащее",
+      "gerund_after_verb",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Keep moving!",
+        "ru": "Проходите! Не задерживайтесь!",
+        "learn": 0
+      },
+      {
+        "eng": "Keep me informed.",
+        "ru": "Держите меня в курсе.",
+        "learn": 0
+      },
+      {
+        "eng": "I won't keep you long.",
+        "ru": "Я вас долго не задержу.",
+        "learn": 1
+      },
+      {
+        "eng": "May God keep you",
+        "ru": "Пусть Бог хранит вас",
+        "learn": 0
+      },
+      {
+        "eng": "Keep him out of trouble.",
+        "ru": "Держи его подальше от неприятностей.",
+        "learn": 0
+      },
+      {
+        "eng": "Keep knives away from children.",
+        "ru": "Прячьте ножи от детей.",
+        "learn": 0
+      },
+      {
+        "eng": "I keep thinking about Joe, all alone in that place.",
+        "ru": "Я всё думаю о Джо, — он ведь там совсем один.",
+        "learn": 0
+      },
+      {
+        "eng": "He kept me waiting.",
+        "ru": "Он заставил меня ждать.",
+        "learn": 0
+      },
+      {
+        "eng": "Keep to the right!",
+        "ru": "Держитесь правой стороны!",
+        "learn": 0
+      },
+      {
+        "eng": "Where do you keep?",
+        "ru": "Где вы обретаетесь? / Где вы проживаете? (разг.)",
+        "learn": 0
+      },
+      {
+        "eng": "I asked them to keep quiet.",
+        "ru": "Я попросил их не шуметь.",
+        "learn": 1
+      },
+      {
+        "eng": "Where do you keep your tea bags?",
+        "ru": "Где у вас чай в пакетиках?",
+        "learn": 0
+      },
+      {
+        "eng": "Keep your room tidy.",
+        "ru": "Поддерживайте в комнате порядок.",
+        "learn": 0
+      },
+      {
+        "eng": "The weather keeps fine.",
+        "ru": "Стоит хорошая погода.",
+        "learn": 0
+      },
+      {
+        "eng": "You are keeping something from me.",
+        "ru": "Вы что-то от меня скрываете.",
+        "learn": 0
+      },
+      {
+        "eng": "How do I know you'll keep your word?",
+        "ru": "Откуда мне знать, что вы сдержите своё слово?",
+        "learn": 0
+      },
+      {
+        "eng": "What kept you from doing it?",
+        "ru": "Почему вы этого не сделали?",
+        "learn": 0
+      },
+      {
+        "eng": "You may keep the book for a month.",
+        "ru": "Можете держать эту книгу месяц.",
+        "learn": 0
+      },
+      {
+        "eng": "Will you keep a seat for me?",
+        "ru": "Вы не подержите мне место?",
+        "learn": 0
+      },
+      {
+        "eng": "The matter will keep till tomorrow.",
+        "ru": "С этим можно подождать до завтра.",
+        "learn": 0
+      },
+      {
+        "eng": "If I were you, I'd keep away from that area at night.",
+        "ru": "На твоём месте, я бы не совался ночью в тот район.",
+        "learn": 0
+      },
+      {
+        "eng": "I kept his letters for years.",
+        "ru": "Я хранил его письма в течение многих лет.",
+        "learn": 0
+      },
+      {
+        "eng": "I was struggling to keep awake.",
+        "ru": "Я изо всех сил старался не заснуть.",
+        "learn": 0
+      },
+      {
+        "eng": "He kept laughing the whole evening.",
+        "ru": "Он весь вечер не переставал смеяться.",
+        "learn": 0
+      },
+      {
+        "eng": "Meat will keep in the cellar.",
+        "ru": "В погребе мясо не испортится.",
+        "learn": 1
+      },
+      {
+        "eng": "Do they keep postcards here?",
+        "ru": "Здесь имеются в продаже открытки?",
+        "learn": 0
+      },
+      {
+        "eng": "He kept his anxiety from showing.",
+        "ru": "Он старался не выдать своего волнения.",
+        "learn": 0
+      },
+      {
+        "eng": "Jane kept the engine running.",
+        "ru": "Джейн не стала глушить мотор.",
+        "learn": 0
+      },
+      {
+        "eng": "He paid for his keep by doing odd jobs.",
+        "ru": "Он перебивался случайными заработками.",
+        "learn": 0
+      },
+      {
+        "eng": "If there's shooting going on, keep down.",
+        "ru": "Если стрельба будет продолжаться, не вставай.",
+        "learn": 0
+      }
+    ]
+  }
 }

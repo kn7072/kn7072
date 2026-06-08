@@ -1,86 +1,154 @@
 {
-    "treasure": {
-        "comment": [
-            "measure",
-            "measurement",
-            "pleasure",
-            "pressure",
-            "ensure",
-            "sure",
-            "leisure",
-            "assure",
-            "surely",
-            "closure",
-            "insure",
-            "disclosure",
-            "reassure",
-            "exposure",
-            "unsure",
-            "treasury"
-        ],
-        "translate": "сокровище, хранить, хранить как сокровище",
-        "transcription": " |ˈtreʒər|",
-        "antonyms": [],
-        "mnemonic": [
-            "treasure [трэ'жэ] сокровище, высоко ценить - В животе (с-трежа*) сокровища Флинта спрятаны (*Стрижа).",
-            "treasure ['treʒə]\n***\nОт СОКРОВИЩА чуть- чуть отрежем. (это) treasure\nОн СОКРОВИЩА находит|реже. (это) treasure\nМы хлеб БЕРЕЖЁМ, но тебе отрежем. (это) treasure\n***\nИскал удовольствие \"pleasure\",\nа нашёл сокровища \"treasure\"."
-        ],
-        "examples": [
-            "My treasure!",
-            "I shall treasure it always.",
-            "He searched for treasure on the ocean bed",
-            "Our housekeeper is a real treasure.",
-            "It now becomes not only just a memory, but a treasure to my soul.",
-            "Grandmother's nurse has been a real treasure.",
-            "She dared not trust such a treasure to mortal.",
-            "Jim treasured the gold pocket watch that his grandfather had given him.",
-            "The treasure was buried deep within the ground.",
-            "The children returned from the seashore with their shells and other treasures.",
-            "To this treasure a curse is attached.",
-            "Your book is a treasure trove of unspeakable delights!",
-            "Central Park is one of New York City's many treasures.",
-            "Raiders had emptied the tomb of treasure.",
-            "The map indicates where the treasure is buried.",
-            "The war cost the country great sacrifices in blood and treasure.",
-            "A battered old guitar was his most treasured possession.",
-            "The Book of Kells is Trinity College's greatest treasure.",
-            "Stevenson's best-known work is probably 'Treasure Island'.",
-            "The treasure found in the ancient tomb was reposited in the museum.",
-            "The pirates hid their treasure on a small island in the West Indies.",
-            "Her book was a treasure trove of new ideas.",
-            "The treasure is 2 minutes and 45 seconds south of here.",
-            "Mother's attic was a treasure trove when we were looking for antiques."
-        ],
-        "example_translate": [
-            "Мой драгоценный!, Мое сокровище!",
-            "Я буду хранить это вечно.",
-            "Он искал сокровища на дне океана.",
-            "Наша домработница — настоящее сокровище.",
-            "Теперь это уже не просто воспоминание, а сокровище для души.",
-            "Медсестра бабушки была настоящим сокровищем.",
-            "Она не осмелилась доверить такое сокровище человеку.",
-            "Джим хранил, как зеницу ока, золотые карманные часы, подаренные ему дедом.",
-            "Сокровище было зарыто глубоко в землю.",
-            "Дети вернулись с берега моря с ракушками и другими сокровищами.",
-            "На этом богатстве лежит проклятие.",
-            "Читать вашу книгу – несказанное удовольствие.",
-            "Центральный парк является одним из многих сокровищ Нью-Йорка.",
-            "Грабители уже опустошили гробницу с сокровищами.",
-            "Карта указывает, где зарыт клад.",
-            "Война стоила стране больших человеческих и материальных жертв.",
-            "Самым дорогим его сокровищем была старая потёртая гитара.",
-            "Келлская Книга является величайшим сокровищем Тринити-колледжа.",
-            "Наверное, самым известным произведением Стивенсона является \"Остров сокровищ\".",
-            "Сокровища, найденные в древней гробнице, были переданы на хранение в этот музей.",
-            "Пираты спрятали свои сокровища на маленьком вест-индском островке.",
-            "Её книга оказалась кладезем новых идей.",
-            "Сокровище находится в двух минутах сорока пяти секундах к югу отсюда.",
-            "Когда мы искали старинные вещи, мамин чердак оказался настоящей сокровищницей."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "treasure": {
+    "comment": [
+      "measure",
+      "measurement",
+      "pleasure",
+      "pressure",
+      "ensure",
+      "sure",
+      "leisure",
+      "assure",
+      "surely",
+      "closure",
+      "insure",
+      "disclosure",
+      "reassure",
+      "exposure",
+      "unsure",
+      "treasury"
+    ],
+    "translate": "сокровище, хранить, хранить как сокровище",
+    "transcription": " |ˈtreʒər|",
+    "antonyms": [],
+    "mnemonic": [
+      "treasure [трэ'жэ] сокровище, высоко ценить - В животе (с-трежа*) сокровища Флинта спрятаны (*Стрижа).",
+      "treasure ['treʒə]\n***\nОт СОКРОВИЩА чуть- чуть отрежем. (это) treasure\nОн СОКРОВИЩА находит|реже. (это) treasure\nМы хлеб БЕРЕЖЁМ, но тебе отрежем. (это) treasure\n***\nИскал удовольствие \"pleasure\",\nа нашёл сокровища \"treasure\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "My treasure!",
+        "ru": "Мой драгоценный!, Мое сокровище!",
+        "learn": 0
+      },
+      {
+        "eng": "I shall treasure it always.",
+        "ru": "Я буду хранить это вечно.",
+        "learn": 0
+      },
+      {
+        "eng": "He searched for treasure on the ocean bed",
+        "ru": "Он искал сокровища на дне океана.",
+        "learn": 1
+      },
+      {
+        "eng": "Our housekeeper is a real treasure.",
+        "ru": "Наша домработница — настоящее сокровище.",
+        "learn": 0
+      },
+      {
+        "eng": "It now becomes not only just a memory, but a treasure to my soul.",
+        "ru": "Теперь это уже не просто воспоминание, а сокровище для души.",
+        "learn": 0
+      },
+      {
+        "eng": "Grandmother's nurse has been a real treasure.",
+        "ru": "Медсестра бабушки была настоящим сокровищем.",
+        "learn": 0
+      },
+      {
+        "eng": "She dared not trust such a treasure to mortal.",
+        "ru": "Она не осмелилась доверить такое сокровище человеку.",
+        "learn": 1
+      },
+      {
+        "eng": "Jim treasured the gold pocket watch that his grandfather had given him.",
+        "ru": "Джим хранил, как зеницу ока, золотые карманные часы, подаренные ему дедом.",
+        "learn": 0
+      },
+      {
+        "eng": "The treasure was buried deep within the ground.",
+        "ru": "Сокровище было зарыто глубоко в землю.",
+        "learn": 0
+      },
+      {
+        "eng": "The children returned from the seashore with their shells and other treasures.",
+        "ru": "Дети вернулись с берега моря с ракушками и другими сокровищами.",
+        "learn": 0
+      },
+      {
+        "eng": "To this treasure a curse is attached.",
+        "ru": "На этом богатстве лежит проклятие.",
+        "learn": 0
+      },
+      {
+        "eng": "Your book is a treasure trove of unspeakable delights!",
+        "ru": "Читать вашу книгу – несказанное удовольствие.",
+        "learn": 0
+      },
+      {
+        "eng": "Central Park is one of New York City's many treasures.",
+        "ru": "Центральный парк является одним из многих сокровищ Нью-Йорка.",
+        "learn": 0
+      },
+      {
+        "eng": "Raiders had emptied the tomb of treasure.",
+        "ru": "Грабители уже опустошили гробницу с сокровищами.",
+        "learn": 1
+      },
+      {
+        "eng": "The map indicates where the treasure is buried.",
+        "ru": "Карта указывает, где зарыт клад.",
+        "learn": 0
+      },
+      {
+        "eng": "The war cost the country great sacrifices in blood and treasure.",
+        "ru": "Война стоила стране больших человеческих и материальных жертв.",
+        "learn": 0
+      },
+      {
+        "eng": "A battered old guitar was his most treasured possession.",
+        "ru": "Самым дорогим его сокровищем была старая потёртая гитара.",
+        "learn": 0
+      },
+      {
+        "eng": "The Book of Kells is Trinity College's greatest treasure.",
+        "ru": "Келлская Книга является величайшим сокровищем Тринити-колледжа.",
+        "learn": 0
+      },
+      {
+        "eng": "Stevenson's best-known work is probably 'Treasure Island'.",
+        "ru": "Наверное, самым известным произведением Стивенсона является \"Остров сокровищ\".",
+        "learn": 0
+      },
+      {
+        "eng": "The treasure found in the ancient tomb was reposited in the museum.",
+        "ru": "Сокровища, найденные в древней гробнице, были переданы на хранение в этот музей.",
+        "learn": 1
+      },
+      {
+        "eng": "The pirates hid their treasure on a small island in the West Indies.",
+        "ru": "Пираты спрятали свои сокровища на маленьком вест-индском островке.",
+        "learn": 0
+      },
+      {
+        "eng": "Her book was a treasure trove of new ideas.",
+        "ru": "Её книга оказалась кладезем новых идей.",
+        "learn": 0
+      },
+      {
+        "eng": "The treasure is 2 minutes and 45 seconds south of here.",
+        "ru": "Сокровище находится в двух минутах сорока пяти секундах к югу отсюда.",
+        "learn": 0
+      },
+      {
+        "eng": "Mother's attic was a treasure trove when we were looking for antiques.",
+        "ru": "Когда мы искали старинные вещи, мамин чердак оказался настоящей сокровищницей.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,88 +1,174 @@
 {
-    "question": {
-        "comment": [
-            "request",
-            "questionable",
-            "questionnaire",
-            "conquest",
-            "questioning",
-            "query"
-        ],
-        "translate": "вопрос, сомнение, проблема, дело, спрашивать, сомневаться, допрашивать",
-        "transcription": " |ˈkwestʃən|",
-        "antonyms": [],
-        "mnemonic": [
-            "question [кве'счан] вопрос - Вопрос: «Зачем в (Мос-кве с чан-ом) ходить в туалет, когда есть бидэ?».",
-            "quest [kwest]\nrequest [rɪ'kwest]\nquestion ['kwestʃən] - вопрос, проблема, дело, задача\nconquest ['kɔŋkwest] - завоевание, покорение, победа\ninquest - дознание, следствие\n***\nПОИСКИ сокровищ в игре Квест. (это) quest\nИСКОМЫЙ ПРЕДМЕТ нашёл в игре Квест. (это) quest\nПРОСИТЬ и ТРЕБОВАТЬ в игре|Квест. (это) request\nПросьба, требование, запрос."
-        ],
-        "examples": [
-            "Reply to the question.",
-            "I need to ask a question.",
-            "What a dumb question.",
-            "Are you questioning what I'm saying?",
-            "It's true beyond question.",
-            "This question puzzles me.",
-            "Answer question number 4.",
-            "Let me reword my question.",
-            "Can you repeat your question?",
-            "The question is still open.",
-            "Can I put a question to you?",
-            "Can I ask you a question?",
-            "The question was well put.",
-            "Are there any more questions?",
-            "I don't understand the question.",
-            "OK. Let me rephrase the question.",
-            "Her question caught him off guard.",
-            "One question still nagged me.",
-            "Will you repeat the question?",
-            "But now to the main question.",
-            "The question wasn't very clear.",
-            "That's an interesting question.",
-            "There is no question of escape.",
-            "I will repeat the question once.",
-            "Nobody could answer my question.",
-            "He took offence at my question.",
-            "I think I got question 3 wrong.",
-            "Does anyone have any questions?",
-            "Answer this question truthfully.",
-            "The question admits of no delay."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Отвечай на вопрос.",
-            "Мне нужно задать вопрос.",
-            "Что за тупой вопрос. / Какой глупый вопрос.",
-            "Вы ставите мои слова под сомнение?",
-            "Вне всякого сомнения, это правда.",
-            "Этот вопрос ставит меня в тупик.",
-            "Ответьте на вопрос номер четыре.",
-            "Позвольте мне перефразировать свой вопрос.",
-            "Не могли бы вы повторить вопрос?",
-            "Этот вопрос по-прежнему открыт.",
-            "Можно задать вам вопрос?",
-            "Можно задать вам вопрос?",
-            "Вопрос был поставлен /задан, сформулирован/ правильно.",
-            "Ещё вопросы есть?",
-            "Я не понимаю вопроса.",
-            "Хорошо, позвольте мне перефразировать вопрос.",
-            "Её вопрос застал его врасплох.",
-            "Один вопрос по-прежнему не давал мне покоя.",
-            "Не могли бы вы повторить вопрос?",
-            "А сейчас обсудим главный вопрос.",
-            "Вопрос был не очень понятен.",
-            "Интересный вопрос.",
-            "Нет ни малейшего шанса сбежать.",
-            "Я повторю этот вопрос только один раз.",
-            "Никто не смог ответить на мой вопрос.",
-            "Он обиделся на мой вопрос.",
-            "По-моему, я неправильно понял вопрос номер три.",
-            "У кого-нибудь есть вопросы?",
-            "Ответь на этот вопрос честно.",
-            "Вопрос не терпит отлагательства."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "question": {
+    "comment": [
+      "request",
+      "questionable",
+      "questionnaire",
+      "conquest",
+      "questioning",
+      "query"
+    ],
+    "translate": "вопрос, сомнение, проблема, дело, спрашивать, сомневаться, допрашивать",
+    "transcription": " |ˈkwestʃən|",
+    "antonyms": [],
+    "mnemonic": [
+      "question [кве'счан] вопрос - Вопрос: «Зачем в (Мос-кве с чан-ом) ходить в туалет, когда есть бидэ?».",
+      "quest [kwest]\nrequest [rɪ'kwest]\nquestion ['kwestʃən] - вопрос, проблема, дело, задача\nconquest ['kɔŋkwest] - завоевание, покорение, победа\ninquest - дознание, следствие\n***\nПОИСКИ сокровищ в игре Квест. (это) quest\nИСКОМЫЙ ПРЕДМЕТ нашёл в игре Квест. (это) quest\nПРОСИТЬ и ТРЕБОВАТЬ в игре|Квест. (это) request\nПросьба, требование, запрос."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Reply to the question.",
+        "ru": "Отвечай на вопрос.",
+        "learn": 1
+      },
+      {
+        "eng": "I need to ask a question.",
+        "ru": "Мне нужно задать вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "What a dumb question.",
+        "ru": "Что за тупой вопрос. / Какой глупый вопрос.",
+        "learn": 1
+      },
+      {
+        "eng": "Are you questioning what I'm saying?",
+        "ru": "Вы ставите мои слова под сомнение?",
+        "learn": 1
+      },
+      {
+        "eng": "It's true beyond question.",
+        "ru": "Вне всякого сомнения, это правда.",
+        "learn": 0
+      },
+      {
+        "eng": "This question puzzles me.",
+        "ru": "Этот вопрос ставит меня в тупик.",
+        "learn": 0
+      },
+      {
+        "eng": "Answer question number 4.",
+        "ru": "Ответьте на вопрос номер четыре.",
+        "learn": 0
+      },
+      {
+        "eng": "Let me reword my question.",
+        "ru": "Позвольте мне перефразировать свой вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you repeat your question?",
+        "ru": "Не могли бы вы повторить вопрос?",
+        "learn": 0
+      },
+      {
+        "eng": "The question is still open.",
+        "ru": "Этот вопрос по-прежнему открыт.",
+        "learn": 0
+      },
+      {
+        "eng": "Can I put a question to you?",
+        "ru": "Можно задать вам вопрос?",
+        "learn": 1
+      },
+      {
+        "eng": "Can I ask you a question?",
+        "ru": "Можно задать вам вопрос?",
+        "learn": 0
+      },
+      {
+        "eng": "The question was well put.",
+        "ru": "Вопрос был поставлен /задан, сформулирован/ правильно.",
+        "learn": 0
+      },
+      {
+        "eng": "Are there any more questions?",
+        "ru": "Ещё вопросы есть?",
+        "learn": 0
+      },
+      {
+        "eng": "I don't understand the question.",
+        "ru": "Я не понимаю вопроса.",
+        "learn": 0
+      },
+      {
+        "eng": "OK. Let me rephrase the question.",
+        "ru": "Хорошо, позвольте мне перефразировать вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "Her question caught him off guard.",
+        "ru": "Её вопрос застал его врасплох.",
+        "learn": 0
+      },
+      {
+        "eng": "One question still nagged me.",
+        "ru": "Один вопрос по-прежнему не давал мне покоя.",
+        "learn": 0
+      },
+      {
+        "eng": "Will you repeat the question?",
+        "ru": "Не могли бы вы повторить вопрос?",
+        "learn": 0
+      },
+      {
+        "eng": "But now to the main question.",
+        "ru": "А сейчас обсудим главный вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "The question wasn't very clear.",
+        "ru": "Вопрос был не очень понятен.",
+        "learn": 1
+      },
+      {
+        "eng": "That's an interesting question.",
+        "ru": "Интересный вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "There is no question of escape.",
+        "ru": "Нет ни малейшего шанса сбежать.",
+        "learn": 0
+      },
+      {
+        "eng": "I will repeat the question once.",
+        "ru": "Я повторю этот вопрос только один раз.",
+        "learn": 1
+      },
+      {
+        "eng": "Nobody could answer my question.",
+        "ru": "Никто не смог ответить на мой вопрос.",
+        "learn": 1
+      },
+      {
+        "eng": "He took offence at my question.",
+        "ru": "Он обиделся на мой вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "I think I got question 3 wrong.",
+        "ru": "По-моему, я неправильно понял вопрос номер три.",
+        "learn": 0
+      },
+      {
+        "eng": "Does anyone have any questions?",
+        "ru": "У кого-нибудь есть вопросы?",
+        "learn": 0
+      },
+      {
+        "eng": "Answer this question truthfully.",
+        "ru": "Ответь на этот вопрос честно.",
+        "learn": 0
+      },
+      {
+        "eng": "The question admits of no delay.",
+        "ru": "Вопрос не терпит отлагательства.",
+        "learn": 0
+      }
+    ]
+  }
 }

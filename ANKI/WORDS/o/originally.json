@@ -1,78 +1,158 @@
 {
-    "originally": {
-        "comment": [
-            "origin",
-            "original",
-            "originate"
-        ],
-        "translate": "первоначально, оригинально, по происхождению",
-        "transcription": " |əˈrɪdʒənəli|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I come from London originally.",
-            "The building was originally a school.",
-            "He is originally German.",
-            "These dogs were originally bred in Scotland to round up sheep.",
-            "Originally the room had fitted carpets.",
-            "My family come from Scotland originally.",
-            "The family originally came from France.",
-            "Lead originally from your strongest suit.",
-            "Benjamin Franklin was originally a printer.",
-            "The bricks had originally been a deep dark red.",
-            "The act was originally passed as a safeguard against tax evasion.",
-            "That van originally belonged to us.",
-            "The author treats this subject very originally.",
-            "The song was originally written by Leonard Cohen.",
-            "The company was originally an offshoot of Bell Telephones.",
-            "The scheme cost a lot more than we had originally envisaged.",
-            "Originally, the word had a very different meaning from its current meaning.",
-            "We originally intended to stay for just a few days.",
-            "The firm originally quoted £6,000 for the whole job.",
-            "It turned out to be a worse idea than we originally thought.",
-            "The renovations will cost much more than we originally supposed.",
-            "She drives a red truck that was originally owned by her grandfather.",
-            "They originally asked for $5 million, but finally settled for a lesser sum.",
-            "She has shown an ability to think originally about ways to improve the company.",
-            "a story originally set in London that has been transposed to Paris for this film",
-            "He originally acted as a fence for another gang before turning to burglary himself.",
-            "This is a reprint of an article that was originally published in the New York Times.",
-            "The payment had originally been due on April 1 but we had a grace period which expired in June."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Изначально я родом из Лондона.",
-            "Это здание изначально было школой.",
-            "Он немец по происхождению.",
-            "Этих собак первоначально разводили в Шотландии для выгона овец. (чтобы они помогали пасти овец)",
-            "Поначалу в комнате было ковровое покрытие.",
-            "Моя семья родом из Шотландии.",
-            "Эта семья родом из Франции.",
-            "Сначала ходи с масти, которой у тебя больше всего.",
-            "Бенджамин Фраклин поначалу был работником типографии.",
-            "Кирпичи были сначала тёмно-красными.",
-            "Этот закон был изначально принят для того, чтобы предотвратить уклонение от уплаты налогов.",
-            "Изначально этот микроавтобус принадлежал нам.",
-            "Автор раскрывает эту тему очень необычно.",
-            "Эта песня была первоначально написана Леонардом Коэном.",
-            "Данная фирма изначально была дочерним предприятием /филиалом/ компании \"Bell Telephones\".",
-            "Эта программа стоила намного больше, чем мы себе изначально представляли.",
-            "Первоначально это слово имело совсем иной смысл, в отличие от его нынешнего значения.",
-            "Мы первоначально собирались остаться всего на несколько дней.",
-            "Сначала фирма запросила шесть тысяч фунтов стерлингов за всю работу.",
-            "Эта идея оказалась хуже, чем мы первоначально думали.",
-            "Реконструкция будет стоить гораздо больше, чем мы первоначально предполагали.",
-            "Она водит красный грузовик, который изначально принадлежал её деду.",
-            "Сначала они просили пять миллионов долларов, но в конечном итоге согласились на меньшую сумму.",
-            "Она проявила способность нестандартного мышления о способах повышения эффективности компании.",
-            "история, действие которой изначально произошло в Лондоне, но для этого фильма перенесено в Париж",
-            "Вначале он скупал награбленное у другой банды, а затем сам занялся грабежом.",
-            "Это перепечатка статьи, которая была изначально опубликована в газете \"Нью-Йорк Таймс\".",
-            "Первоначально оплату нужно было внести первого апреля, но мы получили период отсрочки, который истекал в июне."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "originally": {
+    "comment": [
+      "origin",
+      "original",
+      "originate"
+    ],
+    "translate": "первоначально, оригинально, по происхождению",
+    "transcription": " |əˈrɪdʒənəli|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I come from London originally.",
+        "ru": "Изначально я родом из Лондона.",
+        "learn": 0
+      },
+      {
+        "eng": "The building was originally a school.",
+        "ru": "Это здание изначально было школой.",
+        "learn": 0
+      },
+      {
+        "eng": "He is originally German.",
+        "ru": "Он немец по происхождению.",
+        "learn": 0
+      },
+      {
+        "eng": "These dogs were originally bred in Scotland to round up sheep.",
+        "ru": "Этих собак первоначально разводили в Шотландии для выгона овец. (чтобы они помогали пасти овец)",
+        "learn": 0
+      },
+      {
+        "eng": "Originally the room had fitted carpets.",
+        "ru": "Поначалу в комнате было ковровое покрытие.",
+        "learn": 0
+      },
+      {
+        "eng": "My family come from Scotland originally.",
+        "ru": "Моя семья родом из Шотландии.",
+        "learn": 0
+      },
+      {
+        "eng": "The family originally came from France.",
+        "ru": "Эта семья родом из Франции.",
+        "learn": 0
+      },
+      {
+        "eng": "Lead originally from your strongest suit.",
+        "ru": "Сначала ходи с масти, которой у тебя больше всего.",
+        "learn": 0
+      },
+      {
+        "eng": "Benjamin Franklin was originally a printer.",
+        "ru": "Бенджамин Фраклин поначалу был работником типографии.",
+        "learn": 0
+      },
+      {
+        "eng": "The bricks had originally been a deep dark red.",
+        "ru": "Кирпичи были сначала тёмно-красными.",
+        "learn": 0
+      },
+      {
+        "eng": "The act was originally passed as a safeguard against tax evasion.",
+        "ru": "Этот закон был изначально принят для того, чтобы предотвратить уклонение от уплаты налогов.",
+        "learn": 0
+      },
+      {
+        "eng": "That van originally belonged to us.",
+        "ru": "Изначально этот микроавтобус принадлежал нам.",
+        "learn": 0
+      },
+      {
+        "eng": "The author treats this subject very originally.",
+        "ru": "Автор раскрывает эту тему очень необычно.",
+        "learn": 0
+      },
+      {
+        "eng": "The song was originally written by Leonard Cohen.",
+        "ru": "Эта песня была первоначально написана Леонардом Коэном.",
+        "learn": 0
+      },
+      {
+        "eng": "The company was originally an offshoot of Bell Telephones.",
+        "ru": "Данная фирма изначально была дочерним предприятием /филиалом/ компании \"Bell Telephones\".",
+        "learn": 0
+      },
+      {
+        "eng": "The scheme cost a lot more than we had originally envisaged.",
+        "ru": "Эта программа стоила намного больше, чем мы себе изначально представляли.",
+        "learn": 1
+      },
+      {
+        "eng": "Originally, the word had a very different meaning from its current meaning.",
+        "ru": "Первоначально это слово имело совсем иной смысл, в отличие от его нынешнего значения.",
+        "learn": 0
+      },
+      {
+        "eng": "We originally intended to stay for just a few days.",
+        "ru": "Мы первоначально собирались остаться всего на несколько дней.",
+        "learn": 0
+      },
+      {
+        "eng": "The firm originally quoted £6,000 for the whole job.",
+        "ru": "Сначала фирма запросила шесть тысяч фунтов стерлингов за всю работу.",
+        "learn": 0
+      },
+      {
+        "eng": "It turned out to be a worse idea than we originally thought.",
+        "ru": "Эта идея оказалась хуже, чем мы первоначально думали.",
+        "learn": 0
+      },
+      {
+        "eng": "The renovations will cost much more than we originally supposed.",
+        "ru": "Реконструкция будет стоить гораздо больше, чем мы первоначально предполагали.",
+        "learn": 0
+      },
+      {
+        "eng": "She drives a red truck that was originally owned by her grandfather.",
+        "ru": "Она водит красный грузовик, который изначально принадлежал её деду.",
+        "learn": 1
+      },
+      {
+        "eng": "They originally asked for $5 million, but finally settled for a lesser sum.",
+        "ru": "Сначала они просили пять миллионов долларов, но в конечном итоге согласились на меньшую сумму.",
+        "learn": 1
+      },
+      {
+        "eng": "She has shown an ability to think originally about ways to improve the company.",
+        "ru": "Она проявила способность нестандартного мышления о способах повышения эффективности компании.",
+        "learn": 0
+      },
+      {
+        "eng": "a story originally set in London that has been transposed to Paris for this film",
+        "ru": "история, действие которой изначально произошло в Лондоне, но для этого фильма перенесено в Париж",
+        "learn": 0
+      },
+      {
+        "eng": "He originally acted as a fence for another gang before turning to burglary himself.",
+        "ru": "Вначале он скупал награбленное у другой банды, а затем сам занялся грабежом.",
+        "learn": 0
+      },
+      {
+        "eng": "This is a reprint of an article that was originally published in the New York Times.",
+        "ru": "Это перепечатка статьи, которая была изначально опубликована в газете \"Нью-Йорк Таймс\".",
+        "learn": 0
+      },
+      {
+        "eng": "The payment had originally been due on April 1 but we had a grace period which expired in June.",
+        "ru": "Первоначально оплату нужно было внести первого апреля, но мы получили период отсрочки, который истекал в июне.",
+        "learn": 0
+      }
+    ]
+  }
 }

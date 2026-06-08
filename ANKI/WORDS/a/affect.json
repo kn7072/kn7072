@@ -1,82 +1,168 @@
 {
-    "affect": {
-        "comment": [
-            "affection"
-        ],
-        "translate": "влиять, затрагивать, затронуть, аффект",
-        "transcription": " |əˈfekt|",
-        "antonyms": [],
-        "mnemonic": [
-            "affect [ə'fɛkt]\naffection [ə'fɛkʃən] - привязанность, любовь\neffect [ɪ'fɛkt] - эффект, результат, последствие\n***\nЧтобы ПОВЛИЯТЬ, нужен эффект. (это) affect\nЧтобы ПОРАЗИТЬ, нужен эффект. (это) affect"
-        ],
-        "examples": [
-            "Will the new rules affect me?",
-            "Global warming will affect all of us.",
-            "The medicine affects my heart rate.",
-            "We were all deeply affected by her death.",
-            "He used to affect a foreign accent.",
-            "He has never affected to be surprised.",
-            "Any body affects some regular shape.",
-            "An emotional upset can affect your physical health.",
-            "As usual, Simon affected complete boredom.",
-            "It's difficult to infer how these changes will affect ordinary citizens.",
-            "We know that greenhouse gases can affect the climate.",
-            "These problems affect people at all levels of society.",
-            "The warming of the Earth and the consequent climatic changes affect us all.",
-            "The constant privation of sleep was starting to affect my work.",
-            "This new ruling affects your business.",
-            "The scandal may affect his chances for election.",
-            "This would materially affect US security.",
-            "The drugs didn't seem to affect Anna in the same way.",
-            "The scratch didn't affect the car's overall appearance.",
-            "How far do those old, outdated laws affect today's legislation?",
-            "The new property tax law won't directly affect us.",
-            "It will affect farmers in Spain and to a lesser extent in France.",
-            "People should have more power over the decisions that affect their lives.",
-            "a study of health problems that can affect young infants",
-            "Some of these animals may harbor disease that could affect humans.",
-            "The changes will affect local authorities across the board.",
-            "Trading has been adversely affected by the downturn in consumer spending.",
-            "We deluded ourselves into thinking that the ice cream wouldn't affect our diet.",
-            "The molecules are absorbed into the bloodstream and consequently affect the organs.",
-            "The time you spend on it doesn't, for all practical purposes, affect the final result."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Коснутся ли меня новые правила? / Будут ли новые правила распространяться на меня?",
-            "Глобальное потепление затронет всех нас.",
-            "Это лекарство влияет на мой пульс.",
-            "Мы все были глубоко тронуты ее смертью.",
-            "Он имитировал иностранный акцент.",
-            "Он никогда не разыгрывал удивление.",
-            "Любое физическое тело стремится принять какую-то определённую форму.",
-            "Эмоциональное расстройство может повлиять на ваше физическое здоровье.",
-            "Саймон, как обычно, притворялся, что ему невыносимо скучно.",
-            "Трудно судить, как эти изменения повлияют на простых граждан.",
-            "Мы знаем, что парниковые газы могут повлиять на климат.",
-            "Эти проблемы затрагивают людей из всех слоёв общества.",
-            "Глобальное потепление и вызванные им климатические изменения затрагивают всех нас.",
-            "Постоянное недосыпание начало отражаться на моей работе.",
-            "Это новое постановление затрагивает ваш бизнес.",
-            "Этот скандал может повлиять на его шансы на избрание.",
-            "Это существенно повлияло бы на безопасность США.",
-            "Похоже, что эти наркотики действовали на Анну по-другому.",
-            "Царапина не испортила внешний вид автомобиля.",
-            "Насколько все эти старые, отжившие свой век законы влияют на нынешнее законодательство?",
-            "Новый закон о налогах на имущество напрямую на нас не повлияет.",
-            "Это затронет фермеров в Испании и, в меньшей степени, во Франции.",
-            "Людям следует иметь больше возможностей влиять на решения, которые затрагивают их жизнь.",
-            "исследование проблем со здоровьем, которые могут затрагивать детей раннего возраста",
-            "Внутри некоторых из этих животных, возможно, таятся заболевания, способные поражать людей.",
-            "Данные изменения в равной мере отразятся на всех местных органах власти.",
-            "На торговлю неблагоприятно повлиял спад потребительских расходов.",
-            "Мы заблуждались, думая, что мороженое не скажется на нашей диете.",
-            "Молекулы всасываются в кровь и в результате воздействуют на органы.",
-            "Время, потраченное на достижение конечного результата, фактически никак на него не влияет."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "affect": {
+    "comment": [
+      "affection"
+    ],
+    "translate": "влиять, затрагивать, затронуть, аффект",
+    "transcription": " |əˈfekt|",
+    "antonyms": [],
+    "mnemonic": [
+      "affect [ə'fɛkt]\naffection [ə'fɛkʃən] - привязанность, любовь\neffect [ɪ'fɛkt] - эффект, результат, последствие\n***\nЧтобы ПОВЛИЯТЬ, нужен эффект. (это) affect\nЧтобы ПОРАЗИТЬ, нужен эффект. (это) affect"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Will the new rules affect me?",
+        "ru": "Коснутся ли меня новые правила? / Будут ли новые правила распространяться на меня?",
+        "learn": 0
+      },
+      {
+        "eng": "Global warming will affect all of us.",
+        "ru": "Глобальное потепление затронет всех нас.",
+        "learn": 1
+      },
+      {
+        "eng": "The medicine affects my heart rate.",
+        "ru": "Это лекарство влияет на мой пульс.",
+        "learn": 0
+      },
+      {
+        "eng": "We were all deeply affected by her death.",
+        "ru": "Мы все были глубоко тронуты ее смертью.",
+        "learn": 0
+      },
+      {
+        "eng": "He used to affect a foreign accent.",
+        "ru": "Он имитировал иностранный акцент.",
+        "learn": 0
+      },
+      {
+        "eng": "He has never affected to be surprised.",
+        "ru": "Он никогда не разыгрывал удивление.",
+        "learn": 0
+      },
+      {
+        "eng": "Any body affects some regular shape.",
+        "ru": "Любое физическое тело стремится принять какую-то определённую форму.",
+        "learn": 0
+      },
+      {
+        "eng": "An emotional upset can affect your physical health.",
+        "ru": "Эмоциональное расстройство может повлиять на ваше физическое здоровье.",
+        "learn": 0
+      },
+      {
+        "eng": "As usual, Simon affected complete boredom.",
+        "ru": "Саймон, как обычно, притворялся, что ему невыносимо скучно.",
+        "learn": 0
+      },
+      {
+        "eng": "It's difficult to infer how these changes will affect ordinary citizens.",
+        "ru": "Трудно судить, как эти изменения повлияют на простых граждан.",
+        "learn": 1
+      },
+      {
+        "eng": "We know that greenhouse gases can affect the climate.",
+        "ru": "Мы знаем, что парниковые газы могут повлиять на климат.",
+        "learn": 0
+      },
+      {
+        "eng": "These problems affect people at all levels of society.",
+        "ru": "Эти проблемы затрагивают людей из всех слоёв общества.",
+        "learn": 0
+      },
+      {
+        "eng": "The warming of the Earth and the consequent climatic changes affect us all.",
+        "ru": "Глобальное потепление и вызванные им климатические изменения затрагивают всех нас.",
+        "learn": 1
+      },
+      {
+        "eng": "The constant privation of sleep was starting to affect my work.",
+        "ru": "Постоянное недосыпание начало отражаться на моей работе.",
+        "learn": 0
+      },
+      {
+        "eng": "This new ruling affects your business.",
+        "ru": "Это новое постановление затрагивает ваш бизнес.",
+        "learn": 0
+      },
+      {
+        "eng": "The scandal may affect his chances for election.",
+        "ru": "Этот скандал может повлиять на его шансы на избрание.",
+        "learn": 0
+      },
+      {
+        "eng": "This would materially affect US security.",
+        "ru": "Это существенно повлияло бы на безопасность США.",
+        "learn": 0
+      },
+      {
+        "eng": "The drugs didn't seem to affect Anna in the same way.",
+        "ru": "Похоже, что эти наркотики действовали на Анну по-другому.",
+        "learn": 0
+      },
+      {
+        "eng": "The scratch didn't affect the car's overall appearance.",
+        "ru": "Царапина не испортила внешний вид автомобиля.",
+        "learn": 1
+      },
+      {
+        "eng": "How far do those old, outdated laws affect today's legislation?",
+        "ru": "Насколько все эти старые, отжившие свой век законы влияют на нынешнее законодательство?",
+        "learn": 0
+      },
+      {
+        "eng": "The new property tax law won't directly affect us.",
+        "ru": "Новый закон о налогах на имущество напрямую на нас не повлияет.",
+        "learn": 0
+      },
+      {
+        "eng": "It will affect farmers in Spain and to a lesser extent in France.",
+        "ru": "Это затронет фермеров в Испании и, в меньшей степени, во Франции.",
+        "learn": 0
+      },
+      {
+        "eng": "People should have more power over the decisions that affect their lives.",
+        "ru": "Людям следует иметь больше возможностей влиять на решения, которые затрагивают их жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "a study of health problems that can affect young infants",
+        "ru": "исследование проблем со здоровьем, которые могут затрагивать детей раннего возраста",
+        "learn": 1
+      },
+      {
+        "eng": "Some of these animals may harbor disease that could affect humans.",
+        "ru": "Внутри некоторых из этих животных, возможно, таятся заболевания, способные поражать людей.",
+        "learn": 0
+      },
+      {
+        "eng": "The changes will affect local authorities across the board.",
+        "ru": "Данные изменения в равной мере отразятся на всех местных органах власти.",
+        "learn": 0
+      },
+      {
+        "eng": "Trading has been adversely affected by the downturn in consumer spending.",
+        "ru": "На торговлю неблагоприятно повлиял спад потребительских расходов.",
+        "learn": 0
+      },
+      {
+        "eng": "We deluded ourselves into thinking that the ice cream wouldn't affect our diet.",
+        "ru": "Мы заблуждались, думая, что мороженое не скажется на нашей диете.",
+        "learn": 0
+      },
+      {
+        "eng": "The molecules are absorbed into the bloodstream and consequently affect the organs.",
+        "ru": "Молекулы всасываются в кровь и в результате воздействуют на органы.",
+        "learn": 0
+      },
+      {
+        "eng": "The time you spend on it doesn't, for all practical purposes, affect the final result.",
+        "ru": "Время, потраченное на достижение конечного результата, фактически никак на него не влияет.",
+        "learn": 0
+      }
+    ]
+  }
 }

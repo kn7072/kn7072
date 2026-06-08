@@ -1,83 +1,169 @@
 {
-    "in": {
-        "comment": [
-            "into"
-        ],
-        "translate": "в, на, по, во, при, с, у, из, внутри, внутрь, связи, влияние",
-        "transcription": " |ɪn|",
-        "antonyms": [],
-        "mnemonic": [
-            "handle ['hænd (ə) l] - ручка, рукоятка., управляться,\nсправляться\nhand ['hænd] - рука, кисть. помощь, поддержка.\nподавать, передавать\nhandy ['hændɪ] - удобный, ловкий., поблизости\n***\nСПРАВЛЮСЬ я с заданием, которое хан|дал. (это)\nhandle\nРУЧКУ, РУКОЯТКУ хан|дал. (это) handle\nУПРАВЛЮСЬ я с задачей, которую хан|дал. (это)\nhandle\n***\nto come in handy - пригодиться",
-            "resort [rɪ'zɔ: t]\n***\nНа КУРОРТЕ был один эпизод. (это) resort\nВыбираешь КУРОРТ - посмотри|сорт. (это) resort\nВ крайнем случае посмотри|сорт. (это)\nin the last resort\nКак ПРИБЕГАЮТ к насилию - лишь один эпизод. (это)\nresort\nОБРАЩЕНИЕ в суд - лишь один эпизод. (это) resort\nЧтоб найти УТЕШЕНИЕ, посмотри|сорт. (это) resort"
-        ],
-        "examples": [
-            "She bathes in water.",
-            "Mind I'm in it.",
-            "I saw the in train.",
-            "All is in my sight.",
-            "I never went in pubs.",
-            "groping in the dark",
-            "Dread no thief in me!",
-            "Get in the car.",
-            "Come in and sit down.",
-            "Milk is very rich in calcium.",
-            "He died in three months.",
-            "It is in me to punish you.",
-            "I'll be with you in a minute.",
-            "It was in newspapers.",
-            "His life was in danger.",
-            "Is the train in yet?",
-            "They are in the open sea.",
-            "A long coat in green velvet.",
-            "My mother was in the kitchen.",
-            "the in thing to do",
-            "Our train's not in yet.",
-            "a statue of a horse in brass",
-            "in search of plunder",
-            "A word rings in my memory.",
-            "Common in times of famine.",
-            "I am to be hanged in chains.",
-            "He retired in October.",
-            "His chamber in Merton Coll.",
-            "Men may sail it in seven days.",
-            "All the Court was in a hubbub."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она купается в воде.",
-            "Помни, я в деле.",
-            "Я увидел прибывающий поезд.",
-            "Все доступно моему взору.",
-            "Я никогда не ходил в пабы.",
-            "двигаясь наощупь / блуждая в потёмках (в т.ч. фигурально)",
-            "Не бойся, я не вор!",
-            "Садись в машину.",
-            "Входите и садитесь.",
-            "Молоко очень богато кальцием.",
-            "Он умер через три месяца.",
-            "У меня есть право тебя наказывать.",
-            "Я сейчас. / Я буду через минуту.",
-            "Об этом писали в газетах.",
-            "Его жизнь была в опасности.",
-            "Поезд ещё не прибыл?",
-            "Они находятся в открытом море.",
-            "Длинное пальто из зелёного бархата.",
-            "Моя мать была на кухне.",
-            "самое модное увлечение",
-            "Наш поезд ещё не прибыл.",
-            "медная статуя лошади",
-            "в поисках, чего бы пограбить",
-            "Мне всё вспоминается одно слово.",
-            "Обычное дело в голодные времена.",
-            "Меня закуют в цепи и подвесят.",
-            "Он вышел в отставку /на пенсию/ в октябре.",
-            "Его комната в Мертон Колл.",
-            "За семь дней это можно переплыть.",
-            "В зале суда стоял гул."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "in": {
+    "comment": [
+      "into"
+    ],
+    "translate": "в, на, по, во, при, с, у, из, внутри, внутрь, связи, влияние",
+    "transcription": " |ɪn|",
+    "antonyms": [],
+    "mnemonic": [
+      "handle ['hænd (ə) l] - ручка, рукоятка., управляться,\nсправляться\nhand ['hænd] - рука, кисть. помощь, поддержка.\nподавать, передавать\nhandy ['hændɪ] - удобный, ловкий., поблизости\n***\nСПРАВЛЮСЬ я с заданием, которое хан|дал. (это)\nhandle\nРУЧКУ, РУКОЯТКУ хан|дал. (это) handle\nУПРАВЛЮСЬ я с задачей, которую хан|дал. (это)\nhandle\n***\nto come in handy - пригодиться",
+      "resort [rɪ'zɔ: t]\n***\nНа КУРОРТЕ был один эпизод. (это) resort\nВыбираешь КУРОРТ - посмотри|сорт. (это) resort\nВ крайнем случае посмотри|сорт. (это)\nin the last resort\nКак ПРИБЕГАЮТ к насилию - лишь один эпизод. (это)\nresort\nОБРАЩЕНИЕ в суд - лишь один эпизод. (это) resort\nЧтоб найти УТЕШЕНИЕ, посмотри|сорт. (это) resort"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She bathes in water.",
+        "ru": "Она купается в воде.",
+        "learn": 0
+      },
+      {
+        "eng": "Mind I'm in it.",
+        "ru": "Помни, я в деле.",
+        "learn": 1
+      },
+      {
+        "eng": "I saw the in train.",
+        "ru": "Я увидел прибывающий поезд.",
+        "learn": 0
+      },
+      {
+        "eng": "All is in my sight.",
+        "ru": "Все доступно моему взору.",
+        "learn": 0
+      },
+      {
+        "eng": "I never went in pubs.",
+        "ru": "Я никогда не ходил в пабы.",
+        "learn": 0
+      },
+      {
+        "eng": "groping in the dark",
+        "ru": "двигаясь наощупь / блуждая в потёмках (в т.ч. фигурально)",
+        "learn": 0
+      },
+      {
+        "eng": "Dread no thief in me!",
+        "ru": "Не бойся, я не вор!",
+        "learn": 0
+      },
+      {
+        "eng": "Get in the car.",
+        "ru": "Садись в машину.",
+        "learn": 0
+      },
+      {
+        "eng": "Come in and sit down.",
+        "ru": "Входите и садитесь.",
+        "learn": 1
+      },
+      {
+        "eng": "Milk is very rich in calcium.",
+        "ru": "Молоко очень богато кальцием.",
+        "learn": 1
+      },
+      {
+        "eng": "He died in three months.",
+        "ru": "Он умер через три месяца.",
+        "learn": 0
+      },
+      {
+        "eng": "It is in me to punish you.",
+        "ru": "У меня есть право тебя наказывать.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll be with you in a minute.",
+        "ru": "Я сейчас. / Я буду через минуту.",
+        "learn": 0
+      },
+      {
+        "eng": "It was in newspapers.",
+        "ru": "Об этом писали в газетах.",
+        "learn": 0
+      },
+      {
+        "eng": "His life was in danger.",
+        "ru": "Его жизнь была в опасности.",
+        "learn": 0
+      },
+      {
+        "eng": "Is the train in yet?",
+        "ru": "Поезд ещё не прибыл?",
+        "learn": 0
+      },
+      {
+        "eng": "They are in the open sea.",
+        "ru": "Они находятся в открытом море.",
+        "learn": 0
+      },
+      {
+        "eng": "A long coat in green velvet.",
+        "ru": "Длинное пальто из зелёного бархата.",
+        "learn": 0
+      },
+      {
+        "eng": "My mother was in the kitchen.",
+        "ru": "Моя мать была на кухне.",
+        "learn": 0
+      },
+      {
+        "eng": "the in thing to do",
+        "ru": "самое модное увлечение",
+        "learn": 0
+      },
+      {
+        "eng": "Our train's not in yet.",
+        "ru": "Наш поезд ещё не прибыл.",
+        "learn": 0
+      },
+      {
+        "eng": "a statue of a horse in brass",
+        "ru": "медная статуя лошади",
+        "learn": 0
+      },
+      {
+        "eng": "in search of plunder",
+        "ru": "в поисках, чего бы пограбить",
+        "learn": 0
+      },
+      {
+        "eng": "A word rings in my memory.",
+        "ru": "Мне всё вспоминается одно слово.",
+        "learn": 0
+      },
+      {
+        "eng": "Common in times of famine.",
+        "ru": "Обычное дело в голодные времена.",
+        "learn": 0
+      },
+      {
+        "eng": "I am to be hanged in chains.",
+        "ru": "Меня закуют в цепи и подвесят.",
+        "learn": 0
+      },
+      {
+        "eng": "He retired in October.",
+        "ru": "Он вышел в отставку /на пенсию/ в октябре.",
+        "learn": 0
+      },
+      {
+        "eng": "His chamber in Merton Coll.",
+        "ru": "Его комната в Мертон Колл.",
+        "learn": 0
+      },
+      {
+        "eng": "Men may sail it in seven days.",
+        "ru": "За семь дней это можно переплыть.",
+        "learn": 0
+      },
+      {
+        "eng": "All the Court was in a hubbub.",
+        "ru": "В зале суда стоял гул.",
+        "learn": 0
+      }
+    ]
+  }
 }

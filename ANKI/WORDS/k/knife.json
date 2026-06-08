@@ -1,83 +1,170 @@
 {
-    "knife": {
-        "comment": [
-            "sniff"
-        ],
-        "translate": "нож, скальпель, резец, ножевой, резать ножом",
-        "transcription": " |naɪf|",
-        "antonyms": [],
-        "mnemonic": [
-            "knife [найф] нож - (Найф-ные‘) люди нож в спину получают (‘Наивные)."
-        ],
-        "examples": [
-            "This knife cuts well.",
-            "The knife does not cut.",
-            "Give me the knife once.",
-            "Put an edge on this knife.",
-            "He had a knife in his right hand.",
-            "He trifled with his knife.",
-            "a knife with a horn handle",
-            "Jane cut the cord with a knife.",
-            "Remove the knife from the child!",
-            "He was holding a knife in one hand.",
-            "He held a knife to her throat.",
-            "He set down his knife and fork.",
-            "She had been knifed to death.",
-            "He took a knife from his pocket.",
-            "A boy traded his knife for a pup.",
-            "He knocked the knife from my hand.",
-            "She cut into the melon with a knife.",
-            "Suddenly, he came at me with a knife.",
-            "Make sure you use a good sharp knife.",
-            "He prodded at the meat with his knife.",
-            "The knife was dulled from use.",
-            "wrest the knife from his hands",
-            "She jabbed at him with a knife.",
-            "He lunged at me with his knife.",
-            "The victim was knifed to death.",
-            "He raised his knife for the kill.",
-            "Chop the onions with a sharp knife.",
-            "a knife with a carved wooden handle",
-            "He made a lunge at me with his knife.",
-            "The knife slipped and cut his finger."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Этот нож хорошо режет.",
-            "Нож не режет.",
-            "Дай-ка ножик.",
-            "Надо поточить этот нож.",
-            "В правой руке у него был нож.",
-            "Он вертел в руках нож.",
-            "нож с роговой ручкой",
-            "Джейн разрезала шнур /верёвку/ ножом.",
-            "Отбери нож у ребёнка!",
-            "Он держал нож в руке.",
-            "Он держал нож у ее горла.",
-            "Он отложил нож и вилку.",
-            "Её зарезали насмерть.",
-            "Он вынул из кармана нож.",
-            "Мальчик обменял ножик на щенка.",
-            "Он выбил нож из моей руки.",
-            "Она порезала/разрезала дыню ножом.",
-            "Внезапно он набросился на меня с ножом.",
-            "Убедитесь, что вы используете хороший острый нож.",
-            "Он ткнул ножом в кусок мяса.",
-            "Нож затупился от использования.",
-            "вырвать нож из его руки",
-            "Она пырнула его ножом.",
-            "Он бросился на меня с ножом.",
-            "Жертва была убита ножом.",
-            "Он поднял нож, чтобы прикончить добычу.",
-            "Нарежьте лук острым ножом.",
-            "нож с резной деревянной ручкой",
-            "Он сделал выпад ножом в мою сторону.",
-            "Нож выскользнул из его руки, порезав палец."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "kn-_=_[n]"
-        ]
-    }
+  "knife": {
+    "comment": [
+      "sniff"
+    ],
+    "translate": "нож, скальпель, резец, ножевой, резать ножом",
+    "transcription": " |naɪf|",
+    "antonyms": [],
+    "mnemonic": [
+      "knife [найф] нож - (Найф-ные‘) люди нож в спину получают (‘Наивные)."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "kn-_=_[n]"
+    ],
+    "examples": [
+      {
+        "eng": "This knife cuts well.",
+        "ru": "Этот нож хорошо режет.",
+        "learn": 0
+      },
+      {
+        "eng": "The knife does not cut.",
+        "ru": "Нож не режет.",
+        "learn": 0
+      },
+      {
+        "eng": "Give me the knife once.",
+        "ru": "Дай-ка ножик.",
+        "learn": 0
+      },
+      {
+        "eng": "Put an edge on this knife.",
+        "ru": "Надо поточить этот нож.",
+        "learn": 0
+      },
+      {
+        "eng": "He had a knife in his right hand.",
+        "ru": "В правой руке у него был нож.",
+        "learn": 0
+      },
+      {
+        "eng": "He trifled with his knife.",
+        "ru": "Он вертел в руках нож.",
+        "learn": 0
+      },
+      {
+        "eng": "a knife with a horn handle",
+        "ru": "нож с роговой ручкой",
+        "learn": 0
+      },
+      {
+        "eng": "Jane cut the cord with a knife.",
+        "ru": "Джейн разрезала шнур /верёвку/ ножом.",
+        "learn": 0
+      },
+      {
+        "eng": "Remove the knife from the child!",
+        "ru": "Отбери нож у ребёнка!",
+        "learn": 0
+      },
+      {
+        "eng": "He was holding a knife in one hand.",
+        "ru": "Он держал нож в руке.",
+        "learn": 0
+      },
+      {
+        "eng": "He held a knife to her throat.",
+        "ru": "Он держал нож у ее горла.",
+        "learn": 0
+      },
+      {
+        "eng": "He set down his knife and fork.",
+        "ru": "Он отложил нож и вилку.",
+        "learn": 0
+      },
+      {
+        "eng": "She had been knifed to death.",
+        "ru": "Её зарезали насмерть.",
+        "learn": 0
+      },
+      {
+        "eng": "He took a knife from his pocket.",
+        "ru": "Он вынул из кармана нож.",
+        "learn": 0
+      },
+      {
+        "eng": "A boy traded his knife for a pup.",
+        "ru": "Мальчик обменял ножик на щенка.",
+        "learn": 0
+      },
+      {
+        "eng": "He knocked the knife from my hand.",
+        "ru": "Он выбил нож из моей руки.",
+        "learn": 0
+      },
+      {
+        "eng": "She cut into the melon with a knife.",
+        "ru": "Она порезала/разрезала дыню ножом.",
+        "learn": 0
+      },
+      {
+        "eng": "Suddenly, he came at me with a knife.",
+        "ru": "Внезапно он набросился на меня с ножом.",
+        "learn": 0
+      },
+      {
+        "eng": "Make sure you use a good sharp knife.",
+        "ru": "Убедитесь, что вы используете хороший острый нож.",
+        "learn": 0
+      },
+      {
+        "eng": "He prodded at the meat with his knife.",
+        "ru": "Он ткнул ножом в кусок мяса.",
+        "learn": 0
+      },
+      {
+        "eng": "The knife was dulled from use.",
+        "ru": "Нож затупился от использования.",
+        "learn": 0
+      },
+      {
+        "eng": "wrest the knife from his hands",
+        "ru": "вырвать нож из его руки",
+        "learn": 0
+      },
+      {
+        "eng": "She jabbed at him with a knife.",
+        "ru": "Она пырнула его ножом.",
+        "learn": 0
+      },
+      {
+        "eng": "He lunged at me with his knife.",
+        "ru": "Он бросился на меня с ножом.",
+        "learn": 0
+      },
+      {
+        "eng": "The victim was knifed to death.",
+        "ru": "Жертва была убита ножом.",
+        "learn": 0
+      },
+      {
+        "eng": "He raised his knife for the kill.",
+        "ru": "Он поднял нож, чтобы прикончить добычу.",
+        "learn": 0
+      },
+      {
+        "eng": "Chop the onions with a sharp knife.",
+        "ru": "Нарежьте лук острым ножом.",
+        "learn": 1
+      },
+      {
+        "eng": "a knife with a carved wooden handle",
+        "ru": "нож с резной деревянной ручкой",
+        "learn": 0
+      },
+      {
+        "eng": "He made a lunge at me with his knife.",
+        "ru": "Он сделал выпад ножом в мою сторону.",
+        "learn": 0
+      },
+      {
+        "eng": "The knife slipped and cut his finger.",
+        "ru": "Нож выскользнул из его руки, порезав палец.",
+        "learn": 0
+      }
+    ]
+  }
 }

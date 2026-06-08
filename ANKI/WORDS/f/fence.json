@@ -1,85 +1,171 @@
 {
-    "fence": {
-        "comment": [
-            "hence",
-            "defence"
-        ],
-        "translate": "забор, ограждение, ограда, изгородь, фехтовать, огораживать, ограждать",
-        "transcription": " |fens|",
-        "antonyms": [],
-        "mnemonic": [
-            "fence [фене] забор, ограда - (Фен с) забора упал.",
-            "defence = defense [dɪ'fens]\nfence [fens]\ndefend [dɪ'fend].,\ndefender [dɪ'fendə] - защитник\nfend [fend]\n***\nЗАЩИТА нужна, когда в воде|фен (с). (это) defense\n***\nfence - забор, ограда. фехтовать, парировать вопрос\n***\nЗАЩИЩАТЬСЯ нужно, когда в воде|фен (д). (это)\ndefend\nЯ тебя ЗАЩИЩАЮ - отойди|фрэнд. (это) defend\n***\nОТРАЗИТ удар мой фрэнд. (это) fend\n***\nДаже преступник \"offender\"\nимеет защитника \"defender\".\n***\nЧтоб иметь защиту \"defence\",\nстрой себе забор \"fence\".",
-            "hence [hɛns]\nfence [fɛns] - забор, ограда, препятствие., огораживать\n***\nЕсли имя Чарльз, то, СЛЕДОВАТЕЛЬНО, Диккенс. (это)\nПоэтому, потому.\n***\nРаз построил забор \"fence\",\nбоишься, следовательно, \"hence\"."
-        ],
-        "examples": [
-            "He looked over the fence.",
-            "Two birds settled on the fence.",
-            "The kitchen was well fenced from the wind and rain.",
-            "The lions in the park are safely fenced in.",
-            "We put up a fence around our yard.",
-            "They climbed through a hole in the fence.",
-            "He knew where to fence the book.",
-            "He climbed over the fence.",
-            "He fixed the fence last weekend.",
-            "She leapt over the fence.",
-            "The dog was roped to the fence.",
-            "The more modern fence is faced with stone.",
-            "Can you jump over the fence?",
-            "a house with a fenced-in yard",
-            "Our fence blew over in the storm.",
-            "A tall fence divides the two yards.",
-            "The fence needs to be patched.",
-            "The old iron fence was rusted.",
-            "He ripped his left trouser on the fence",
-            "The camp was surrounded by a high fence.",
-            "He leapfrogged the fence.",
-            "The horse hurdled the fence.",
-            "The dog was tethered to the fence.",
-            "The fence is leaning to the right.",
-            "He leant his bicycle against the fence.",
-            "Lock the bike to the fence.",
-            "The fence was scarred by rust.",
-            "He wormed his way under the fence.",
-            "He knocked the baseball over the fence.",
-            "The fence has two broken slats."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он посмотрел через забор.",
-            "Две птицы уселись на заборе.",
-            "Кухня была хорошо защищена от ветра и дождя.",
-            "Львы в парке находятся за безопасным ограждением.",
-            "Мы поставили вокруг двора забор. / Мы огородили наш двор забором.",
-            "Они пролезли через дырку в заборе.",
-            "Он знал, где продать краденую книгу.",
-            "Он перелез через забор.",
-            "Он починил забор в прошлые выходные.",
-            "Она перемахнула через забор.",
-            "Собака была привязана к забору верёвкой.",
-            "Более современный забор облицован камнем.",
-            "Ты сможешь перепрыгнуть через забор?",
-            "дом с двором, обнесённым изгородью",
-            "Наш забор унесло бурей.",
-            "Эти два двора разделяет высокий забор.",
-            "Ограду /забор/ нужно починить.",
-            "Старая железная ограда была покрыта ржавчиной.",
-            "Он порвал свою левую штанину об забор / ограду.",
-            "Лагерь был обнесён высоким забором.",
-            "Он перепрыгнул через изгородь.",
-            "Лошадь перепрыгнула через препятствие.",
-            "Собака была привязана к забору.",
-            "Забор наклонился в правую сторону.",
-            "Он прислонил велосипед к забору.",
-            "Пристегните велосипед к ограде.",
-            "Забор был побит ржавчиной.",
-            "Он пролез /прополз/ под забором.",
-            "Он перебил бейсбольный мяч через ограждение.",
-            "На заборе сломаны две планки."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "fence": {
+    "comment": [
+      "hence",
+      "defence"
+    ],
+    "translate": "забор, ограждение, ограда, изгородь, фехтовать, огораживать, ограждать",
+    "transcription": " |fens|",
+    "antonyms": [],
+    "mnemonic": [
+      "fence [фене] забор, ограда - (Фен с) забора упал.",
+      "defence = defense [dɪ'fens]\nfence [fens]\ndefend [dɪ'fend].,\ndefender [dɪ'fendə] - защитник\nfend [fend]\n***\nЗАЩИТА нужна, когда в воде|фен (с). (это) defense\n***\nfence - забор, ограда. фехтовать, парировать вопрос\n***\nЗАЩИЩАТЬСЯ нужно, когда в воде|фен (д). (это)\ndefend\nЯ тебя ЗАЩИЩАЮ - отойди|фрэнд. (это) defend\n***\nОТРАЗИТ удар мой фрэнд. (это) fend\n***\nДаже преступник \"offender\"\nимеет защитника \"defender\".\n***\nЧтоб иметь защиту \"defence\",\nстрой себе забор \"fence\".",
+      "hence [hɛns]\nfence [fɛns] - забор, ограда, препятствие., огораживать\n***\nЕсли имя Чарльз, то, СЛЕДОВАТЕЛЬНО, Диккенс. (это)\nПоэтому, потому.\n***\nРаз построил забор \"fence\",\nбоишься, следовательно, \"hence\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He looked over the fence.",
+        "ru": "Он посмотрел через забор.",
+        "learn": 1
+      },
+      {
+        "eng": "Two birds settled on the fence.",
+        "ru": "Две птицы уселись на заборе.",
+        "learn": 0
+      },
+      {
+        "eng": "The kitchen was well fenced from the wind and rain.",
+        "ru": "Кухня была хорошо защищена от ветра и дождя.",
+        "learn": 0
+      },
+      {
+        "eng": "The lions in the park are safely fenced in.",
+        "ru": "Львы в парке находятся за безопасным ограждением.",
+        "learn": 1
+      },
+      {
+        "eng": "We put up a fence around our yard.",
+        "ru": "Мы поставили вокруг двора забор. / Мы огородили наш двор забором.",
+        "learn": 0
+      },
+      {
+        "eng": "They climbed through a hole in the fence.",
+        "ru": "Они пролезли через дырку в заборе.",
+        "learn": 0
+      },
+      {
+        "eng": "He knew where to fence the book.",
+        "ru": "Он знал, где продать краденую книгу.",
+        "learn": 0
+      },
+      {
+        "eng": "He climbed over the fence.",
+        "ru": "Он перелез через забор.",
+        "learn": 0
+      },
+      {
+        "eng": "He fixed the fence last weekend.",
+        "ru": "Он починил забор в прошлые выходные.",
+        "learn": 0
+      },
+      {
+        "eng": "She leapt over the fence.",
+        "ru": "Она перемахнула через забор.",
+        "learn": 0
+      },
+      {
+        "eng": "The dog was roped to the fence.",
+        "ru": "Собака была привязана к забору верёвкой.",
+        "learn": 0
+      },
+      {
+        "eng": "The more modern fence is faced with stone.",
+        "ru": "Более современный забор облицован камнем.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you jump over the fence?",
+        "ru": "Ты сможешь перепрыгнуть через забор?",
+        "learn": 1
+      },
+      {
+        "eng": "a house with a fenced-in yard",
+        "ru": "дом с двором, обнесённым изгородью",
+        "learn": 0
+      },
+      {
+        "eng": "Our fence blew over in the storm.",
+        "ru": "Наш забор унесло бурей.",
+        "learn": 0
+      },
+      {
+        "eng": "A tall fence divides the two yards.",
+        "ru": "Эти два двора разделяет высокий забор.",
+        "learn": 0
+      },
+      {
+        "eng": "The fence needs to be patched.",
+        "ru": "Ограду /забор/ нужно починить.",
+        "learn": 0
+      },
+      {
+        "eng": "The old iron fence was rusted.",
+        "ru": "Старая железная ограда была покрыта ржавчиной.",
+        "learn": 0
+      },
+      {
+        "eng": "He ripped his left trouser on the fence",
+        "ru": "Он порвал свою левую штанину об забор / ограду.",
+        "learn": 0
+      },
+      {
+        "eng": "The camp was surrounded by a high fence.",
+        "ru": "Лагерь был обнесён высоким забором.",
+        "learn": 0
+      },
+      {
+        "eng": "He leapfrogged the fence.",
+        "ru": "Он перепрыгнул через изгородь.",
+        "learn": 0
+      },
+      {
+        "eng": "The horse hurdled the fence.",
+        "ru": "Лошадь перепрыгнула через препятствие.",
+        "learn": 0
+      },
+      {
+        "eng": "The dog was tethered to the fence.",
+        "ru": "Собака была привязана к забору.",
+        "learn": 0
+      },
+      {
+        "eng": "The fence is leaning to the right.",
+        "ru": "Забор наклонился в правую сторону.",
+        "learn": 0
+      },
+      {
+        "eng": "He leant his bicycle against the fence.",
+        "ru": "Он прислонил велосипед к забору.",
+        "learn": 1
+      },
+      {
+        "eng": "Lock the bike to the fence.",
+        "ru": "Пристегните велосипед к ограде.",
+        "learn": 0
+      },
+      {
+        "eng": "The fence was scarred by rust.",
+        "ru": "Забор был побит ржавчиной.",
+        "learn": 0
+      },
+      {
+        "eng": "He wormed his way under the fence.",
+        "ru": "Он пролез /прополз/ под забором.",
+        "learn": 0
+      },
+      {
+        "eng": "He knocked the baseball over the fence.",
+        "ru": "Он перебил бейсбольный мяч через ограждение.",
+        "learn": 0
+      },
+      {
+        "eng": "The fence has two broken slats.",
+        "ru": "На заборе сломаны две планки.",
+        "learn": 0
+      }
+    ]
+  }
 }

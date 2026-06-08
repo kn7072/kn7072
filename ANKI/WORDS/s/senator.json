@@ -1,80 +1,166 @@
 {
-    "senator": {
-        "comment": [
-            "senate"
-        ],
-        "translate": "сенатор",
-        "transcription": " |ˈsenətər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I yield to the Senator.",
-            "He became Senator two years later.",
-            "The senator is loyal to his party.",
-            "The senator's eloquence is well known.",
-            "a transcript of the senator's speech",
-            "Next the Senator turned to education.",
-            "He is a senator who abuses his power.",
-            "The senator fielded all the questions.",
-            "The senator has changed political parties.",
-            "I yield the floor to the Senator from Maine.",
-            "The senator fielded the reporters' questions.",
-            "The senator proposed to abolish the sales tax.",
-            "The senator argued in favor of lowering taxes.",
-            "The senator was forced to resign his position.",
-            "The senator bridled at the reporter's question.",
-            "The senator issued a flat denial of all charges.",
-            "The senator is the voice of the religious right.",
-            "Senator Smith represents the state of Connecticut.",
-            "Our senator championed the idea of lowering taxes.",
-            "Senator O'Hare was caught off guard by the question.",
-            "She took a sideswipe at the senator's voting record.",
-            "We waited for the senator outside the Senate chamber.",
-            "She is a formidable opponent in the race for senator.",
-            "Blackening of the senator's good name disgusted voters.",
-            "The Senator arrived, surrounded by personal bodyguards.",
-            "The senator appeared on the CBS show 'Face the Nation'.",
-            "Senator O'Brian skillfully dodged the crucial question.",
-            "There was much public criticism directed at the senator.",
-            "Senator O'Brien just smiled, refusing to rise to the bait.",
-            "The senator may face a challenge from within her own party."
-        ],
-        "example_translate": [
-            "Я уступаю сенатору.",
-            "Он стал сенатором два года спустя.",
-            "Сенатор верен своей партии.",
-            "Красноречие сенатора хорошо известно.",
-            "стенограмма речи сенатора",
-            "Затем сенатор перешёл к образованию.",
-            "Он — сенатор, который злоупотребляет /злоупотребляющий/ своей властью.",
-            "Сенатор ответил на все вопросы.",
-            "Сенатор сменил свою политическую партию.",
-            "Я уступаю слово сенатору от штата Мэн.",
-            "Сенатор ответил на многочисленные вопросы журналистов.",
-            "Сенатор предложил отменить налог с продаж.",
-            "Сенатор высказался в пользу снижения налогов.",
-            "Cенатора заставили покинуть свой пост.",
-            "Сенатор взвился /пришёл в негодование/ от вопроса журналиста.",
-            "Сенатор решительно опроверг все обвинения.",
-            "Этот сенатор является голосом права на свободу вероисповедания.",
-            "Сенатор Смит представляет штат Коннектикут.",
-            "Наш сенатор отстаивал идею снижения налогов.",
-            "Вопрос застиг сенатора О'Хара врасплох.",
-            "Она мимоходом прошлась по результатам сенатора на прошлых выборах.",
-            "Мы ждали сенатора недалеко от палаты Сената.",
-            "Она — серьёзный соперник в гонке за пост сенатора.",
-            "Очернение доброго имени сенатора вызвало отвращение избирателей.",
-            "Сенатор прибыл в окружении личной охраны.",
-            "Сенатор появился на канале CBS в передаче \"Лицом к стране\".",
-            "Сенатор О'Брайен мастерски уклонился от этого важнейшего вопроса.",
-            "В адрес сенатора было направлено много общественной критики.",
-            "Сенатор О'Брайен лишь улыбнулся, отказываясь попадаться на удочку.",
-            "Сенатор может столкнуться с вызовом из рядов своей собственной партии."
-        ],
-        "synonyms": [],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "senator": {
+    "comment": [
+      "senate"
+    ],
+    "translate": "сенатор",
+    "transcription": " |ˈsenətər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I yield to the Senator.",
+        "ru": "Я уступаю сенатору.",
+        "learn": 0
+      },
+      {
+        "eng": "He became Senator two years later.",
+        "ru": "Он стал сенатором два года спустя.",
+        "learn": 0
+      },
+      {
+        "eng": "The senator is loyal to his party.",
+        "ru": "Сенатор верен своей партии.",
+        "learn": 1
+      },
+      {
+        "eng": "The senator's eloquence is well known.",
+        "ru": "Красноречие сенатора хорошо известно.",
+        "learn": 0
+      },
+      {
+        "eng": "a transcript of the senator's speech",
+        "ru": "стенограмма речи сенатора",
+        "learn": 0
+      },
+      {
+        "eng": "Next the Senator turned to education.",
+        "ru": "Затем сенатор перешёл к образованию.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a senator who abuses his power.",
+        "ru": "Он — сенатор, который злоупотребляет /злоупотребляющий/ своей властью.",
+        "learn": 0
+      },
+      {
+        "eng": "The senator fielded all the questions.",
+        "ru": "Сенатор ответил на все вопросы.",
+        "learn": 0
+      },
+      {
+        "eng": "The senator has changed political parties.",
+        "ru": "Сенатор сменил свою политическую партию.",
+        "learn": 0
+      },
+      {
+        "eng": "I yield the floor to the Senator from Maine.",
+        "ru": "Я уступаю слово сенатору от штата Мэн.",
+        "learn": 0
+      },
+      {
+        "eng": "The senator fielded the reporters' questions.",
+        "ru": "Сенатор ответил на многочисленные вопросы журналистов.",
+        "learn": 0
+      },
+      {
+        "eng": "The senator proposed to abolish the sales tax.",
+        "ru": "Сенатор предложил отменить налог с продаж.",
+        "learn": 1
+      },
+      {
+        "eng": "The senator argued in favor of lowering taxes.",
+        "ru": "Сенатор высказался в пользу снижения налогов.",
+        "learn": 0
+      },
+      {
+        "eng": "The senator was forced to resign his position.",
+        "ru": "Cенатора заставили покинуть свой пост.",
+        "learn": 0
+      },
+      {
+        "eng": "The senator bridled at the reporter's question.",
+        "ru": "Сенатор взвился /пришёл в негодование/ от вопроса журналиста.",
+        "learn": 0
+      },
+      {
+        "eng": "The senator issued a flat denial of all charges.",
+        "ru": "Сенатор решительно опроверг все обвинения.",
+        "learn": 0
+      },
+      {
+        "eng": "The senator is the voice of the religious right.",
+        "ru": "Этот сенатор является голосом права на свободу вероисповедания.",
+        "learn": 0
+      },
+      {
+        "eng": "Senator Smith represents the state of Connecticut.",
+        "ru": "Сенатор Смит представляет штат Коннектикут.",
+        "learn": 0
+      },
+      {
+        "eng": "Our senator championed the idea of lowering taxes.",
+        "ru": "Наш сенатор отстаивал идею снижения налогов.",
+        "learn": 1
+      },
+      {
+        "eng": "Senator O'Hare was caught off guard by the question.",
+        "ru": "Вопрос застиг сенатора О'Хара врасплох.",
+        "learn": 0
+      },
+      {
+        "eng": "She took a sideswipe at the senator's voting record.",
+        "ru": "Она мимоходом прошлась по результатам сенатора на прошлых выборах.",
+        "learn": 0
+      },
+      {
+        "eng": "We waited for the senator outside the Senate chamber.",
+        "ru": "Мы ждали сенатора недалеко от палаты Сената.",
+        "learn": 0
+      },
+      {
+        "eng": "She is a formidable opponent in the race for senator.",
+        "ru": "Она — серьёзный соперник в гонке за пост сенатора.",
+        "learn": 0
+      },
+      {
+        "eng": "Blackening of the senator's good name disgusted voters.",
+        "ru": "Очернение доброго имени сенатора вызвало отвращение избирателей.",
+        "learn": 0
+      },
+      {
+        "eng": "The Senator arrived, surrounded by personal bodyguards.",
+        "ru": "Сенатор прибыл в окружении личной охраны.",
+        "learn": 0
+      },
+      {
+        "eng": "The senator appeared on the CBS show 'Face the Nation'.",
+        "ru": "Сенатор появился на канале CBS в передаче \"Лицом к стране\".",
+        "learn": 0
+      },
+      {
+        "eng": "Senator O'Brian skillfully dodged the crucial question.",
+        "ru": "Сенатор О'Брайен мастерски уклонился от этого важнейшего вопроса.",
+        "learn": 0
+      },
+      {
+        "eng": "There was much public criticism directed at the senator.",
+        "ru": "В адрес сенатора было направлено много общественной критики.",
+        "learn": 0
+      },
+      {
+        "eng": "Senator O'Brien just smiled, refusing to rise to the bait.",
+        "ru": "Сенатор О'Брайен лишь улыбнулся, отказываясь попадаться на удочку.",
+        "learn": 0
+      },
+      {
+        "eng": "The senator may face a challenge from within her own party.",
+        "ru": "Сенатор может столкнуться с вызовом из рядов своей собственной партии.",
+        "learn": 0
+      }
+    ]
+  }
 }

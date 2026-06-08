@@ -1,77 +1,166 @@
 {
-    "arrest for": {
-        "comment": [],
-        "translate": "",
-        "transcription": "||",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She was arrested for robbery.",
-            "He was arrested for vandalism.",
-            "He has been arrested for homicide.",
-            "She was arrested for prostitution.",
-            "Her father was arrested for fraud.",
-            "The police arrested him for arson.",
-            "He was arrested for erratic driving.",
-            "I got arrested for careless driving.",
-            "He was arrested for extorting bribes.",
-            "She was arrested for contempt of court.",
-            "He was arrested for disturbing the peace.",
-            "Campbell was arrested for dangerous driving.",
-            "She was arrested for selling bootlegs online.",
-            "He was arrested for driving without a license.",
-            "He was arrested for assaulting a police officer.",
-            "She was arrested for attempting to bribe a judge.",
-            "He was arrested for lewd and lascivious behavior.",
-            "He was arrested for impersonating a police officer.",
-            "Collins was arrested for sheltering enemy soldiers.",
-            "He was arrested for smuggling drugs into the country.",
-            "Come on, you can't arrest somebody for being a wiseass.",
-            "She was arrested for trespassing on government property.",
-            "They were arrested for supplying drugs to street dealers.",
-            "He was arrested for selling illicit copies of the software.",
-            "There's been a rise in the number of arrests for drug offences.",
-            "White supremacists were arrested for painting racial slurs on a church.",
-            "Some nutcase was arrested for sending the threatening letters to the White House.",
-            "He was arrested for using a rod on his dogs in violation of the state's animal cruelty laws.",
-            "He was arrested for the sheer imbecility of speeding down a dark road with no headlights on.",
-            "He was arrested for carrying a switch."
-        ],
-        "example_translate": [
-            "Она была арестована за грабёж.",
-            "Он был арестован за вандализм.",
-            "Он арестован за убийство.",
-            "Её арестовали за занятие проституцией.",
-            "Её отец был арестован за мошенничество.",
-            "Полиция арестовала его за поджог.",
-            "Он был задержан за неаккуратное вождение автомобиля.",
-            "Меня арестовали /задержали/ за неосторожное вождение.",
-            "Он был арестован за вымогательство взяток.",
-            "Она была арестована за неуважение к суду.",
-            "Его арестовали за нарушение общественного порядка.",
-            "Кэмпбелл был арестован за опасное вождение.",
-            "Она была арестована за продажу контрабанды в интернете.",
-            "Он был арестован за вождение без прав.",
-            "Он был арестован за нападение на сотрудника полиции.",
-            "Она была арестована за попытку подкупа судьи.",
-            "Он был арестован за непристойное и похотливое поведение.",
-            "Он был арестован за то, что выдавал себя за офицера полиции.",
-            "Коллинз был арестован за то, что укрывал солдат противника.",
-            "Он был арестован за контрабанду наркотиков в страну.",
-            "Да ладно, вы не можете арестовать кого-то за то, что он умник.",
-            "Она была арестована за незаконное нахождение на государственной собственности.",
-            "Они были арестованы за поставку товара уличным наркодилерам.",
-            "Он был арестован за продажу нелегальных / пиратских копий программного обеспечения.",
-            "Наблюдается рост числа арестов за преступления, связанные с наркотиками.",
-            "За разрисовывание церкви оскорблениями на расовой почве было арестовано несколько белых расистов.",
-            "Какого-то психа арестовали за отправку писем с угрозами в адрес Белого Дома.",
-            "Он был арестован за избиение своих собак палкой, что является нарушением государственных законов о жестоком обращении с животными.",
-            "Его арестовали за явную глупость: он мчался по тёмной дороге с выключенными фарами.",
-            "Его арестовали за то, что он носил с собой складной нож."
-        ],
-        "synonyms": [],
-        "groups": [
-            "all_words", "verb_with_preposition"
-        ]
-    }
+  "arrest for": {
+    "comment": [],
+    "translate": "арестовать за",
+    "transcription": "",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "groups": [
+      "verb_with_preposition"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "She was arrested for robbery.",
+        "ru": "Она была арестована за грабёж.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested for vandalism.",
+        "ru": "Он был арестован за вандализм.",
+        "learn": 0
+      },
+      {
+        "eng": "He has been arrested for homicide.",
+        "ru": "Он арестован за убийство.",
+        "learn": 0
+      },
+      {
+        "eng": "She was arrested for prostitution.",
+        "ru": "Её арестовали за занятие проституцией.",
+        "learn": 0
+      },
+      {
+        "eng": "Her father was arrested for fraud.",
+        "ru": "Её отец был арестован за мошенничество.",
+        "learn": 1
+      },
+      {
+        "eng": "The police arrested him for arson.",
+        "ru": "Полиция арестовала его за поджог.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested for erratic driving.",
+        "ru": "Он был задержан за неаккуратное вождение автомобиля.",
+        "learn": 0
+      },
+      {
+        "eng": "I got arrested for careless driving.",
+        "ru": "Меня арестовали /задержали/ за неосторожное вождение.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested for extorting bribes.",
+        "ru": "Он был арестован за вымогательство взяток.",
+        "learn": 0
+      },
+      {
+        "eng": "She was arrested for contempt of court.",
+        "ru": "Она была арестована за неуважение к суду.",
+        "learn": 1
+      },
+      {
+        "eng": "He was arrested for disturbing the peace.",
+        "ru": "Его арестовали за нарушение общественного порядка.",
+        "learn": 0
+      },
+      {
+        "eng": "Campbell was arrested for dangerous driving.",
+        "ru": "Кэмпбелл был арестован за опасное вождение.",
+        "learn": 0
+      },
+      {
+        "eng": "She was arrested for selling bootlegs online.",
+        "ru": "Она была арестована за продажу контрабанды в интернете.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested for driving without a license.",
+        "ru": "Он был арестован за вождение без прав.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested for assaulting a police officer.",
+        "ru": "Он был арестован за нападение на сотрудника полиции.",
+        "learn": 1
+      },
+      {
+        "eng": "She was arrested for attempting to bribe a judge.",
+        "ru": "Она была арестована за попытку подкупа судьи.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested for lewd and lascivious behavior.",
+        "ru": "Он был арестован за непристойное и похотливое поведение.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested for impersonating a police officer.",
+        "ru": "Он был арестован за то, что выдавал себя за офицера полиции.",
+        "learn": 0
+      },
+      {
+        "eng": "Collins was arrested for sheltering enemy soldiers.",
+        "ru": "Коллинз был арестован за то, что укрывал солдат противника.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested for smuggling drugs into the country.",
+        "ru": "Он был арестован за контрабанду наркотиков в страну.",
+        "learn": 0
+      },
+      {
+        "eng": "Come on, you can't arrest somebody for being a wiseass.",
+        "ru": "Да ладно, вы не можете арестовать кого-то за то, что он умник.",
+        "learn": 0
+      },
+      {
+        "eng": "She was arrested for trespassing on government property.",
+        "ru": "Она была арестована за незаконное нахождение на государственной собственности.",
+        "learn": 0
+      },
+      {
+        "eng": "They were arrested for supplying drugs to street dealers.",
+        "ru": "Они были арестованы за поставку товара уличным наркодилерам.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested for selling illicit copies of the software.",
+        "ru": "Он был арестован за продажу нелегальных / пиратских копий программного обеспечения.",
+        "learn": 0
+      },
+      {
+        "eng": "There's been a rise in the number of arrests for drug offences.",
+        "ru": "Наблюдается рост числа арестов за преступления, связанные с наркотиками.",
+        "learn": 0
+      },
+      {
+        "eng": "White supremacists were arrested for painting racial slurs on a church.",
+        "ru": "За разрисовывание церкви оскорблениями на расовой почве было арестовано несколько белых расистов.",
+        "learn": 0
+      },
+      {
+        "eng": "Some nutcase was arrested for sending the threatening letters to the White House.",
+        "ru": "Какого-то психа арестовали за отправку писем с угрозами в адрес Белого Дома.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested for using a rod on his dogs in violation of the state's animal cruelty laws.",
+        "ru": "Он был арестован за избиение своих собак палкой, что является нарушением государственных законов о жестоком обращении с животными.",
+        "learn": 1
+      },
+      {
+        "eng": "He was arrested for the sheer imbecility of speeding down a dark road with no headlights on.",
+        "ru": "Его арестовали за явную глупость: он мчался по тёмной дороге с выключенными фарами.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested for carrying a switch.",
+        "ru": "Его арестовали за то, что он носил с собой складной нож.",
+        "learn": 0
+      }
+    ]
+  }
 }

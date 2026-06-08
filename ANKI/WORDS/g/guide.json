@@ -1,84 +1,171 @@
 {
-    "guide": {
-        "comment": [
-            "disguise"
-        ],
-        "translate": " руководство, путеводитель, гид, проводник, направлять, вести, руководить",
-        "transcription": "  |ɡaɪd|",
-        "antonyms": [],
-        "mnemonic": [
-            "guide [гайд] гид, экскурсовод - Гид провёл в (Гайд) парк.",
-            "guide [gaid] - проводник, гид., повести\n***\nЭКСКУРСОВОД всем помогает. (это) guide\nЭКСКУРСОВОД всегда пугает. (это) guide\nПОВЕДУ вас в гай (д). (это) guide"
-        ],
-        "examples": [
-            "The stars will guide us back.",
-            "The feelings are dangerous guides.",
-            "This handbook is a good guide to London.",
-            "Let your conscience guide you.",
-            "Have you seen the manner how they guided me?",
-            "She guided us through the busy streets to the cathedral.",
-            "We hovered around our guide.",
-            "Follow our step-by-step guide.",
-            "He guided us around the city.",
-            "She guided her team to victory.",
-            "Shall we take a guide in Rome?",
-            "Guide to the advisable best casinos.",
-            "Our guide conducted us along the path.",
-            "Nothing but the interest of this world guided him.",
-            "The travel guide is very readable.",
-            "Teenagers need adults to guide them.",
-            "The book is a practical guide to car care.",
-            "She had a guiding influence on my decision.",
-            "Paper qualifications are no guide to ability.",
-            "Our guide slowly conducted us through the museum.",
-            "They used the stars as a guide to find their way back.",
-            "Accompanied by our guide, we proceeded to the glacier.",
-            "Please follow the guide through the museum.",
-            "It's the clearest guide I've used.",
-            "A guide sculled alongside us and urged us to slow down.",
-            "The guide took us through the city, pointing interesting sights out.",
-            "The guide is crammed full of useful information.",
-            "The restaurant is rated highly in the food guide.",
-            "The guide offers information on local customs.",
-            "The tour guide was a wellspring of information."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "На обратном пути нашим проводником будут звезды.",
-            "Чувства - опасные советчики.",
-            "Это хороший путеводитель по Лондону.",
-            "Следуйте за своей совестью.",
-            "Ты видел, как они со мной обращались?",
-            "Она провела нас к собору по шумным улицам.",
-            "Мы толпились вокруг нашего экскурсовода.",
-            "Следуйте нашей пошаговой инструкции.",
-            "Он устроил нам экскурсию по городу.",
-            "Она привела свою команду к победе.",
-            "Мы будем брать в Риме гида?",
-            "Практический путеводитель по лучшим казино.",
-            "Проводник повёл нас по тропе.",
-            "Его вдохновлял только интерес к этому миру",
-            "Путеводитель очень легко читается.",
-            "Подростки нуждаются в руководстве взрослых.",
-            "Данная книга представляет собой практическое руководство по уходу за автомобилем.",
-            "Она оказала направляющее влияние на моё решение.",
-            "Дипломы — ещё не признак умения.",
-            "Наш гид медленно провёл нас через музей.",
-            "Они воспользовались звёздами, чтобы найти обратный путь.",
-            "В сопровождении нашего гида мы продолжили путь по направлению к леднику.",
-            "Просьба перемещаться по музею вслед за гидом.",
-            "Это самое ясное руководство, которым мне приходилось пользоваться.",
-            "К нам подплыл проводник и попросил нас снизить скорость.",
-            "Гид водил нас по городу, обращая наше внимание на достопримечательности.",
-            "В путеводителе полным-полно полезной информации.",
-            "Этот ресторан высоко оценивают в каталоге заведений общепита.",
-            "Данный путеводитель предоставляет информацию о местных обычаях.",
-            "Экскурсовод был настоящим кладезем информации."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ui_=_[aɪ]"
-        ]
-    }
+  "guide": {
+    "comment": [
+      "disguise"
+    ],
+    "translate": " руководство, путеводитель, гид, проводник, направлять, вести, руководить",
+    "transcription": "  |ɡaɪd|",
+    "antonyms": [],
+    "mnemonic": [
+      "guide [гайд] гид, экскурсовод - Гид провёл в (Гайд) парк.",
+      "guide [gaid] - проводник, гид., повести\n***\nЭКСКУРСОВОД всем помогает. (это) guide\nЭКСКУРСОВОД всегда пугает. (это) guide\nПОВЕДУ вас в гай (д). (это) guide"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ui_=_[aɪ]"
+    ],
+    "examples": [
+      {
+        "eng": "The stars will guide us back.",
+        "ru": "На обратном пути нашим проводником будут звезды.",
+        "learn": 0
+      },
+      {
+        "eng": "The feelings are dangerous guides.",
+        "ru": "Чувства - опасные советчики.",
+        "learn": 0
+      },
+      {
+        "eng": "This handbook is a good guide to London.",
+        "ru": "Это хороший путеводитель по Лондону.",
+        "learn": 0
+      },
+      {
+        "eng": "Let your conscience guide you.",
+        "ru": "Следуйте за своей совестью.",
+        "learn": 1
+      },
+      {
+        "eng": "Have you seen the manner how they guided me?",
+        "ru": "Ты видел, как они со мной обращались?",
+        "learn": 0
+      },
+      {
+        "eng": "She guided us through the busy streets to the cathedral.",
+        "ru": "Она провела нас к собору по шумным улицам.",
+        "learn": 0
+      },
+      {
+        "eng": "We hovered around our guide.",
+        "ru": "Мы толпились вокруг нашего экскурсовода.",
+        "learn": 0
+      },
+      {
+        "eng": "Follow our step-by-step guide.",
+        "ru": "Следуйте нашей пошаговой инструкции.",
+        "learn": 0
+      },
+      {
+        "eng": "He guided us around the city.",
+        "ru": "Он устроил нам экскурсию по городу.",
+        "learn": 0
+      },
+      {
+        "eng": "She guided her team to victory.",
+        "ru": "Она привела свою команду к победе.",
+        "learn": 1
+      },
+      {
+        "eng": "Shall we take a guide in Rome?",
+        "ru": "Мы будем брать в Риме гида?",
+        "learn": 0
+      },
+      {
+        "eng": "Guide to the advisable best casinos.",
+        "ru": "Практический путеводитель по лучшим казино.",
+        "learn": 0
+      },
+      {
+        "eng": "Our guide conducted us along the path.",
+        "ru": "Проводник повёл нас по тропе.",
+        "learn": 0
+      },
+      {
+        "eng": "Nothing but the interest of this world guided him.",
+        "ru": "Его вдохновлял только интерес к этому миру",
+        "learn": 0
+      },
+      {
+        "eng": "The travel guide is very readable.",
+        "ru": "Путеводитель очень легко читается.",
+        "learn": 0
+      },
+      {
+        "eng": "Teenagers need adults to guide them.",
+        "ru": "Подростки нуждаются в руководстве взрослых.",
+        "learn": 0
+      },
+      {
+        "eng": "The book is a practical guide to car care.",
+        "ru": "Данная книга представляет собой практическое руководство по уходу за автомобилем.",
+        "learn": 1
+      },
+      {
+        "eng": "She had a guiding influence on my decision.",
+        "ru": "Она оказала направляющее влияние на моё решение.",
+        "learn": 0
+      },
+      {
+        "eng": "Paper qualifications are no guide to ability.",
+        "ru": "Дипломы — ещё не признак умения.",
+        "learn": 0
+      },
+      {
+        "eng": "Our guide slowly conducted us through the museum.",
+        "ru": "Наш гид медленно провёл нас через музей.",
+        "learn": 0
+      },
+      {
+        "eng": "They used the stars as a guide to find their way back.",
+        "ru": "Они воспользовались звёздами, чтобы найти обратный путь.",
+        "learn": 0
+      },
+      {
+        "eng": "Accompanied by our guide, we proceeded to the glacier.",
+        "ru": "В сопровождении нашего гида мы продолжили путь по направлению к леднику.",
+        "learn": 0
+      },
+      {
+        "eng": "Please follow the guide through the museum.",
+        "ru": "Просьба перемещаться по музею вслед за гидом.",
+        "learn": 0
+      },
+      {
+        "eng": "It's the clearest guide I've used.",
+        "ru": "Это самое ясное руководство, которым мне приходилось пользоваться.",
+        "learn": 0
+      },
+      {
+        "eng": "A guide sculled alongside us and urged us to slow down.",
+        "ru": "К нам подплыл проводник и попросил нас снизить скорость.",
+        "learn": 0
+      },
+      {
+        "eng": "The guide took us through the city, pointing interesting sights out.",
+        "ru": "Гид водил нас по городу, обращая наше внимание на достопримечательности.",
+        "learn": 0
+      },
+      {
+        "eng": "The guide is crammed full of useful information.",
+        "ru": "В путеводителе полным-полно полезной информации.",
+        "learn": 0
+      },
+      {
+        "eng": "The restaurant is rated highly in the food guide.",
+        "ru": "Этот ресторан высоко оценивают в каталоге заведений общепита.",
+        "learn": 0
+      },
+      {
+        "eng": "The guide offers information on local customs.",
+        "ru": "Данный путеводитель предоставляет информацию о местных обычаях.",
+        "learn": 0
+      },
+      {
+        "eng": "The tour guide was a wellspring of information.",
+        "ru": "Экскурсовод был настоящим кладезем информации.",
+        "learn": 0
+      }
+    ]
+  }
 }

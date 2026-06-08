@@ -1,87 +1,173 @@
 {
-    "peak": {
-        "comment": [
-            "peace",
-            "peaceful",
-            "pea",
-            "peasant",
-            "pearl",
-            "peach"
-        ],
-        "translate": "пик, максимум, вершина, пиковый, максимальный, чахнуть, слабеть",
-        "transcription": " |piːk|",
-        "antonyms": [],
-        "mnemonic": [
-            "peak [pi: k]\n***\nЗАЧАХ совсем, попав на ПИК. (это) peak\nОСЛАБЕЛ, попав на ПИК. (это) peak"
-        ],
-        "examples": [
-            "Sales this month have reached a new peak.",
-            "Extra buses run at peak times.",
-            "The view from the peak was magnificent.",
-            "He's past his peak as a tennis player.",
-            "Earnings hit a peak in the early 1980s.",
-            "at the peak of the pyramid",
-            "Sales peaked in August, then fell sharply.",
-            "Wind speeds peaked at 105 mph yesterday.",
-            "Violence reached a peak just before the election.",
-            "Whisk the egg whites until they form stiff peaks.",
-            "The British Empire was at its peak in the mid 19th century.",
-            "If you phone during the day you pay the peak rate for calls.",
-            "Hotel rooms are difficult to find at the peak of the holiday season.",
-            "It's difficult to breathe in the rarefied air near the mountain's peak.",
-            "futile years after her artistic peak",
-            "Mount McKinley is Alaska's highest peak.",
-            "the most prominent peak in the mountain range",
-            "The factory was operating at peak efficiency.",
-            "Most athletes reach their peak in their mid 20s.",
-            "At her peak she was writing a new novel every year.",
-            "Oil production is down from its peak of two years ago.",
-            "The factory has been running at peak capacity for the past year.",
-            "Gasoline prices are 14% below the peak level they hit in November.",
-            "Adam's Peak геогр.",
-            "Hotel prices rise during the peak season.",
-            "The Peak District is good walking country.",
-            "The recipe says to beat the cream until it forms soft peaks.",
-            "The modal age at which American novelists reach their peak is 30.",
-            "BT at its profitable peak was coining it at the rate of £90 a second.",
-            "The rate of population growth reached a peak in 1999 and declined in subsequent years."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Продажи в этом месяце достигли нового пика.",
-            "В час пик ходят дополнительные автобусы.",
-            "Вид с вершины был великолепен.",
-            "Пик его теннисной карьеры уже позади.",
-            "В начале 1980х годов прибыль достигла своего пика.",
-            "на вершине пирамиды",
-            "Пик продаж пришелся на август, а затем они резко упали.",
-            "Вчера максимальная скорость ветра достигла ста пяти миль в час.",
-            "Насилие достигло пика непосредственно перед выборами.",
-            "Взбейте яичные белки до появления твёрдых пиков. (масса тянется за венчиком, оставаясь на нём в виде острых, не опадающих форм)",
-            "Британская империя достигла пика своего могущества в середине девятнадцатого века.",
-            "Звоня по телефону в дневное время, вы платите по максимально возможному тарифу.",
-            "В пик курортного сезона трудно найти гостиничные номера.",
-            "В разреженном воздухе вблизи вершины горы трудно дышать.",
-            "бесплодные годы после пика её мастерства",
-            "Гора Мак-Кинли — самая высокая точка Аляски.",
-            "самая высокая точка этого горного хребта",
-            "Завод работал с максимальной эффективностью.",
-            "Большинство спортсменов достигает пика своих возможностей в 25-26 лет.",
-            "На пике своего творчества она каждый год писала новый роман.",
-            "Добыча нефти упала по сравнению с пиком, имевшим место два года назад.",
-            "Последний год завод работает на пределе своих возможностей.",
-            "Цены на бензин находятся на четырнадцать процентов ниже пикового уровня, которого они достигли в ноябре.",
-            "Адамов Пик",
-            "В разгар сезона цены на гостиницы растут.",
-            "Пик-Дистрикт — местность, по которой хорошо гулять пешком.",
-            "В рецепте сказано: взбить сливки до образования мягких пиков.",
-            "Возраст, в котором американские писатели-романисты чаще всего достигают своего пика, составляет тридцать лет.",
-            "На пике своей доходности British Telecom зарабатывал девяносто фунтов стерлингов в секунду.",
-            "Прирост населения в 1999 году достиг своего пика, но в дальнейшие годы пошёл на убыль."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "peak": {
+    "comment": [
+      "peace",
+      "peaceful",
+      "pea",
+      "peasant",
+      "pearl",
+      "peach"
+    ],
+    "translate": "пик, максимум, вершина, пиковый, максимальный, чахнуть, слабеть",
+    "transcription": " |piːk|",
+    "antonyms": [],
+    "mnemonic": [
+      "peak [pi: k]\n***\nЗАЧАХ совсем, попав на ПИК. (это) peak\nОСЛАБЕЛ, попав на ПИК. (это) peak"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Sales this month have reached a new peak.",
+        "ru": "Продажи в этом месяце достигли нового пика.",
+        "learn": 0
+      },
+      {
+        "eng": "Extra buses run at peak times.",
+        "ru": "В час пик ходят дополнительные автобусы.",
+        "learn": 0
+      },
+      {
+        "eng": "The view from the peak was magnificent.",
+        "ru": "Вид с вершины был великолепен.",
+        "learn": 1
+      },
+      {
+        "eng": "He's past his peak as a tennis player.",
+        "ru": "Пик его теннисной карьеры уже позади.",
+        "learn": 0
+      },
+      {
+        "eng": "Earnings hit a peak in the early 1980s.",
+        "ru": "В начале 1980х годов прибыль достигла своего пика.",
+        "learn": 0
+      },
+      {
+        "eng": "at the peak of the pyramid",
+        "ru": "на вершине пирамиды",
+        "learn": 0
+      },
+      {
+        "eng": "Sales peaked in August, then fell sharply.",
+        "ru": "Пик продаж пришелся на август, а затем они резко упали.",
+        "learn": 1
+      },
+      {
+        "eng": "Wind speeds peaked at 105 mph yesterday.",
+        "ru": "Вчера максимальная скорость ветра достигла ста пяти миль в час.",
+        "learn": 0
+      },
+      {
+        "eng": "Violence reached a peak just before the election.",
+        "ru": "Насилие достигло пика непосредственно перед выборами.",
+        "learn": 0
+      },
+      {
+        "eng": "Whisk the egg whites until they form stiff peaks.",
+        "ru": "Взбейте яичные белки до появления твёрдых пиков. (масса тянется за венчиком, оставаясь на нём в виде острых, не опадающих форм)",
+        "learn": 0
+      },
+      {
+        "eng": "The British Empire was at its peak in the mid 19th century.",
+        "ru": "Британская империя достигла пика своего могущества в середине девятнадцатого века.",
+        "learn": 0
+      },
+      {
+        "eng": "If you phone during the day you pay the peak rate for calls.",
+        "ru": "Звоня по телефону в дневное время, вы платите по максимально возможному тарифу.",
+        "learn": 0
+      },
+      {
+        "eng": "Hotel rooms are difficult to find at the peak of the holiday season.",
+        "ru": "В пик курортного сезона трудно найти гостиничные номера.",
+        "learn": 0
+      },
+      {
+        "eng": "It's difficult to breathe in the rarefied air near the mountain's peak.",
+        "ru": "В разреженном воздухе вблизи вершины горы трудно дышать.",
+        "learn": 0
+      },
+      {
+        "eng": "futile years after her artistic peak",
+        "ru": "бесплодные годы после пика её мастерства",
+        "learn": 0
+      },
+      {
+        "eng": "Mount McKinley is Alaska's highest peak.",
+        "ru": "Гора Мак-Кинли — самая высокая точка Аляски.",
+        "learn": 0
+      },
+      {
+        "eng": "the most prominent peak in the mountain range",
+        "ru": "самая высокая точка этого горного хребта",
+        "learn": 0
+      },
+      {
+        "eng": "The factory was operating at peak efficiency.",
+        "ru": "Завод работал с максимальной эффективностью.",
+        "learn": 1
+      },
+      {
+        "eng": "Most athletes reach their peak in their mid 20s.",
+        "ru": "Большинство спортсменов достигает пика своих возможностей в 25-26 лет.",
+        "learn": 0
+      },
+      {
+        "eng": "At her peak she was writing a new novel every year.",
+        "ru": "На пике своего творчества она каждый год писала новый роман.",
+        "learn": 0
+      },
+      {
+        "eng": "Oil production is down from its peak of two years ago.",
+        "ru": "Добыча нефти упала по сравнению с пиком, имевшим место два года назад.",
+        "learn": 0
+      },
+      {
+        "eng": "The factory has been running at peak capacity for the past year.",
+        "ru": "Последний год завод работает на пределе своих возможностей.",
+        "learn": 0
+      },
+      {
+        "eng": "Gasoline prices are 14% below the peak level they hit in November.",
+        "ru": "Цены на бензин находятся на четырнадцать процентов ниже пикового уровня, которого они достигли в ноябре.",
+        "learn": 0
+      },
+      {
+        "eng": "Adam's Peak геогр.",
+        "ru": "Адамов Пик",
+        "learn": 0
+      },
+      {
+        "eng": "Hotel prices rise during the peak season.",
+        "ru": "В разгар сезона цены на гостиницы растут.",
+        "learn": 0
+      },
+      {
+        "eng": "The Peak District is good walking country.",
+        "ru": "Пик-Дистрикт — местность, по которой хорошо гулять пешком.",
+        "learn": 0
+      },
+      {
+        "eng": "The recipe says to beat the cream until it forms soft peaks.",
+        "ru": "В рецепте сказано: взбить сливки до образования мягких пиков.",
+        "learn": 0
+      },
+      {
+        "eng": "The modal age at which American novelists reach their peak is 30.",
+        "ru": "Возраст, в котором американские писатели-романисты чаще всего достигают своего пика, составляет тридцать лет.",
+        "learn": 0
+      },
+      {
+        "eng": "BT at its profitable peak was coining it at the rate of £90 a second.",
+        "ru": "На пике своей доходности British Telecom зарабатывал девяносто фунтов стерлингов в секунду.",
+        "learn": 0
+      },
+      {
+        "eng": "The rate of population growth reached a peak in 1999 and declined in subsequent years.",
+        "ru": "Прирост населения в 1999 году достиг своего пика, но в дальнейшие годы пошёл на убыль.",
+        "learn": 1
+      }
+    ]
+  }
 }

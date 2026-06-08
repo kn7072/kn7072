@@ -1,90 +1,177 @@
 {
-    "range": {
-        "comment": [
-            "arrange",
-            "arrangement",
-            "strange",
-            "orange",
-            "strangely",
-            "stranger",
-            "wide-ranging"
-        ],
-        "translate": "диапазон, ряд, пределы, простираться, любящий порядок",
-        "transcription": " |reɪndʒ|",
-        "antonyms": [],
-        "mnemonic": [
-            "range [рейндж] ряд, ассортимент, выбор, гамма - В Америке готовят (рейнджеров) с широким ассортиментом.",
-            "strange [streindʒ]\narrange [ə'reɪndʒ] - устраивать, приводить в порядок,\nдоговариваться\nrange [reɪndʒ] - ряд, ассортимент, пределы\n***\nОчень СТРАННЫЙ этот Стрейндж. (это) strange\nСТРАННО - стал нож острей|же. (это) strange"
-        ],
-        "examples": [
-            "He answered a range of questions.",
-            "His vocal range is amazing.",
-            "He ranges with the great writers.",
-            "The path ranges with the brook.",
-            "Prices range from £10,000 to over £100,000.",
-            "I'm surprised to hear that he has ranged himself with the workers.",
-            "You'll inevitably see something in the shop's range of goods.",
-            "We have a very large product range.",
-            "There is a wide range of choices.",
-            "He has a wide range of business interests.",
-            "The discussion ranged widely.",
-            "He dreamed of a home on the range.",
-            "We waited until the enemy was within range.",
-            "There's a good range of leisure facilities.",
-            "Students here study a broad range of subjects.",
-            "This gun ranges over two miles.",
-            "The plane has a range of 3,600 miles.",
-            "The plant once ranged across the island.",
-            "a car in the middle price range",
-            "the most prominent peak in the mountain range",
-            "An unbroken range of forest covers each bank of the river.",
-            "This shade coordinates with a wide range of other colours.",
-            "We sell a full range of sports apparel.",
-            "A wide range of financial services are available.",
-            "The Health Centre offers a full range of services.",
-            "We stock a wide range of kitchen equipment.",
-            "All the enemy's guns were ranged against us from both sides.",
-            "We offer our customers a comprehensive range of financial products.",
-            "the range of a supersonic jet",
-            "A piano has a greater range than the human voice."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он ответил на ряд вопросов.",
-            "Его вокальный диапозон поразителен.",
-            "Его можно поставить в один ряд с великими писателями.",
-            "Дорожка тянется вдоль ручья.",
-            "Диапазон цен — от десяти тысяч до более чем ста тысяч фунтов стерлингов.",
-            "Удивлён, что он ставит себя в один ряд с рабочими.",
-            "Вы обязательно что-нибудь найдёте среди ассортимента товаров магазина.",
-            "У нас очень большой ассортимент.",
-            "Присутствует широкий диапазон выбора.",
-            "У него широкий круг деловых интересов.",
-            "Обсуждались самые разные темы.",
-            "Он мечтал о доме на большом пастбище.",
-            "Мы подождали, пока враг не появился в пределах досягаемости.",
-            "Имеется большой выбор удобств для отдыха /возможностей проведения досуга/.",
-            "Здесь студенты изучают широкий круг дисциплин.",
-            "Дальность поражения данного оружия составляет более двух миль. / Это оружие бьёт больше чем на две мили.",
-            "Дальность полёта этого самолёта составляет три тысячи шестьсот миль.",
-            "Когда-то это растение произрастало по всему острову.",
-            "автомобиль средней ценовой категории",
-            "самая высокая точка этого горного хребта",
-            "Оба берега реки закрывает сплошная лесополоса.",
-            "Этот оттенок хорошо сочетается с очень многими цветами.",
-            "Мы продаём полный ассортимент спортивной одежды.",
-            "В наличии широкий спектр финансовых услуг.",
-            "Оздоровительный центр предлагает полный спектр услуг.",
-            "У нас имеется широкий ассортимент кухонных принадлежностей.",
-            "С обеих сторон на нас были нацелены выстроенные в ряд вражеские пушки.",
-            "Мы предлагаем нашим клиентам широкий спектр финансовых продуктов.",
-            "дальность полёта сверхзвукового реактивного самолёта",
-            "Пианино имеет более широкий диапазон, чем человеческий голос."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "a(закр_сл)_=_[eɪ]"
-        ]
-    }
+  "range": {
+    "comment": [
+      "arrange",
+      "arrangement",
+      "strange",
+      "orange",
+      "strangely",
+      "stranger",
+      "wide-ranging"
+    ],
+    "translate": "диапазон, ряд, пределы, простираться, любящий порядок",
+    "transcription": " |reɪndʒ|",
+    "antonyms": [],
+    "mnemonic": [
+      "range [рейндж] ряд, ассортимент, выбор, гамма - В Америке готовят (рейнджеров) с широким ассортиментом.",
+      "strange [streindʒ]\narrange [ə'reɪndʒ] - устраивать, приводить в порядок,\nдоговариваться\nrange [reɪndʒ] - ряд, ассортимент, пределы\n***\nОчень СТРАННЫЙ этот Стрейндж. (это) strange\nСТРАННО - стал нож острей|же. (это) strange"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "a(закр_сл)_=_[eɪ]"
+    ],
+    "examples": [
+      {
+        "eng": "He answered a range of questions.",
+        "ru": "Он ответил на ряд вопросов.",
+        "learn": 0
+      },
+      {
+        "eng": "His vocal range is amazing.",
+        "ru": "Его вокальный диапозон поразителен.",
+        "learn": 0
+      },
+      {
+        "eng": "He ranges with the great writers.",
+        "ru": "Его можно поставить в один ряд с великими писателями.",
+        "learn": 0
+      },
+      {
+        "eng": "The path ranges with the brook.",
+        "ru": "Дорожка тянется вдоль ручья.",
+        "learn": 0
+      },
+      {
+        "eng": "Prices range from £10,000 to over £100,000.",
+        "ru": "Диапазон цен — от десяти тысяч до более чем ста тысяч фунтов стерлингов.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm surprised to hear that he has ranged himself with the workers.",
+        "ru": "Удивлён, что он ставит себя в один ряд с рабочими.",
+        "learn": 0
+      },
+      {
+        "eng": "You'll inevitably see something in the shop's range of goods.",
+        "ru": "Вы обязательно что-нибудь найдёте среди ассортимента товаров магазина.",
+        "learn": 0
+      },
+      {
+        "eng": "We have a very large product range.",
+        "ru": "У нас очень большой ассортимент.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a wide range of choices.",
+        "ru": "Присутствует широкий диапазон выбора.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a wide range of business interests.",
+        "ru": "У него широкий круг деловых интересов.",
+        "learn": 0
+      },
+      {
+        "eng": "The discussion ranged widely.",
+        "ru": "Обсуждались самые разные темы.",
+        "learn": 0
+      },
+      {
+        "eng": "He dreamed of a home on the range.",
+        "ru": "Он мечтал о доме на большом пастбище.",
+        "learn": 0
+      },
+      {
+        "eng": "We waited until the enemy was within range.",
+        "ru": "Мы подождали, пока враг не появился в пределах досягаемости.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a good range of leisure facilities.",
+        "ru": "Имеется большой выбор удобств для отдыха /возможностей проведения досуга/.",
+        "learn": 0
+      },
+      {
+        "eng": "Students here study a broad range of subjects.",
+        "ru": "Здесь студенты изучают широкий круг дисциплин.",
+        "learn": 1
+      },
+      {
+        "eng": "This gun ranges over two miles.",
+        "ru": "Дальность поражения данного оружия составляет более двух миль. / Это оружие бьёт больше чем на две мили.",
+        "learn": 0
+      },
+      {
+        "eng": "The plane has a range of 3,600 miles.",
+        "ru": "Дальность полёта этого самолёта составляет три тысячи шестьсот миль.",
+        "learn": 0
+      },
+      {
+        "eng": "The plant once ranged across the island.",
+        "ru": "Когда-то это растение произрастало по всему острову.",
+        "learn": 0
+      },
+      {
+        "eng": "a car in the middle price range",
+        "ru": "автомобиль средней ценовой категории",
+        "learn": 1
+      },
+      {
+        "eng": "the most prominent peak in the mountain range",
+        "ru": "самая высокая точка этого горного хребта",
+        "learn": 0
+      },
+      {
+        "eng": "An unbroken range of forest covers each bank of the river.",
+        "ru": "Оба берега реки закрывает сплошная лесополоса.",
+        "learn": 0
+      },
+      {
+        "eng": "This shade coordinates with a wide range of other colours.",
+        "ru": "Этот оттенок хорошо сочетается с очень многими цветами.",
+        "learn": 0
+      },
+      {
+        "eng": "We sell a full range of sports apparel.",
+        "ru": "Мы продаём полный ассортимент спортивной одежды.",
+        "learn": 0
+      },
+      {
+        "eng": "A wide range of financial services are available.",
+        "ru": "В наличии широкий спектр финансовых услуг.",
+        "learn": 0
+      },
+      {
+        "eng": "The Health Centre offers a full range of services.",
+        "ru": "Оздоровительный центр предлагает полный спектр услуг.",
+        "learn": 0
+      },
+      {
+        "eng": "We stock a wide range of kitchen equipment.",
+        "ru": "У нас имеется широкий ассортимент кухонных принадлежностей.",
+        "learn": 0
+      },
+      {
+        "eng": "All the enemy's guns were ranged against us from both sides.",
+        "ru": "С обеих сторон на нас были нацелены выстроенные в ряд вражеские пушки.",
+        "learn": 0
+      },
+      {
+        "eng": "We offer our customers a comprehensive range of financial products.",
+        "ru": "Мы предлагаем нашим клиентам широкий спектр финансовых продуктов.",
+        "learn": 1
+      },
+      {
+        "eng": "the range of a supersonic jet",
+        "ru": "дальность полёта сверхзвукового реактивного самолёта",
+        "learn": 0
+      },
+      {
+        "eng": "A piano has a greater range than the human voice.",
+        "ru": "Пианино имеет более широкий диапазон, чем человеческий голос.",
+        "learn": 0
+      }
+    ]
+  }
 }

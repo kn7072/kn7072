@@ -1,91 +1,178 @@
 {
-    "want": {
-        "comment": [
-            "wanted"
-        ],
-        "translate": " хотеть, нужда, желание, необходимость, желать, хотеться, нуждаться",
-        "transcription": "  |wɑːnt|",
-        "antonyms": [],
-        "mnemonic": [
-            "want [(ув)о'нт] хотеть - Все(увонт-юристы*) хотят приключений (‘Авантюристы).",
-            "want [wɔnt]\n***\nЯ ЖЕЛАЮ сказать - вот! И вонт! (это) want\nНедостаток, отсутствие, потребность, нужда,\nнеобходимость."
-        ],
-        "examples": [
-            "I want my own room.",
-            "I really want a drink.",
-            "You're wanted on the phone.",
-            "I want you to be a good boy.",
-            "Let him want for nothing.",
-            "The chief wants you.",
-            "Want a game of chess?",
-            "What do you want for your birthday?",
-            "people who are living in want",
-            "I want to go home now!",
-            "Do you want a drink?",
-            "I want you here at noon!",
-            "Do you want more coffee?",
-            "You want to see a doctor.",
-            "I just wanted a chance to rest.",
-            "Do you want me to come with you?",
-            "He is wanted by the police.",
-            "The carpet really wants cleaning.",
-            "He never wants for friends.",
-            "You can order whatever you want.",
-            "They will never want for anything.",
-            "Uncle Sam wants you!",
-            "I tried to supply his wants",
-            "My goats wanted to be milked.",
-            "We can supply all yours wants.",
-            "What do you want for Christmas?",
-            "They desperately wanted a son.",
-            "I want that letter typed today.",
-            "the chronic want and deprivation in the townships",
-            "The motor wants a tune-up."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я хочу собственную комнату.",
-            "Я очень хочу пить.",
-            "Вас зовут к телефону.",
-            "Я хочу, чтобы ты был хорошим мальчиком.",
-            "Пусть он ни в чем не нуждается.",
-            "Шеф требует вас к себе.",
-            "Хотите партию в шахматы?",
-            "Что ты хочешь на день рождения?",
-            "люди, которые живут в нужде",
-            "Я хочу домой, прямо сейчас!",
-            "Хочешь чего-нибудь выпить?",
-            "Ты нужен мне здесь в полдень!",
-            "Хочешь ещё кофе?",
-            "Тебе следует пойти к врачу.",
-            "Я просто хотел хоть немного отдохнуть.",
-            "Хочешь, я пойду с тобой?",
-            "Его разыскивает полиция.",
-            "Этот ковёр очень нуждается в чистке.",
-            "У него всегда было много друзей.",
-            "Можешь заказать всё, что только пожелаешь.",
-            "Они никогда ни в чём не будут испытывать недостатка.",
-            "Ты нужен Америке! (знаменитый агитационный плакат)",
-            "Я пытался удовлетворить его желания.",
-            "Моих коз надо подоить.",
-            "Мы можем удовлетворить все ваши запросы.",
-            "Что ты хочешь на Рождество?",
-            "Они отчаянно хотели сына.",
-            "Я хочу, чтобы это письмо было напечатано сегодня.",
-            "хроническая нужда и лишения в посёлках",
-            "Мотор нуждается в регулировке."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Причастие",
-            "Сложное_дополнение",
-            "Инфинитив",
-            "Инфинитив_-_сложное_дополнение(сказуемое_выражено_глаголами,_обозначающими_чувство,_желание,_намерение)",
-            "Причастие_-_сложное_дополнение_с_причастием_2(после_глаголов)",
-            "Инфинитив_с_to_после_глаголов",
-            "Сложное_дополнение_с_причастием_2",
-            "wa(закр_сл)_=_[wɔ(ː)]"
-        ]
-    }
+  "want": {
+    "comment": [
+      "wanted"
+    ],
+    "translate": " хотеть, нужда, желание, необходимость, желать, хотеться, нуждаться",
+    "transcription": "  |wɑːnt|",
+    "antonyms": [],
+    "mnemonic": [
+      "want [(ув)о'нт] хотеть - Все(увонт-юристы*) хотят приключений (‘Авантюристы).",
+      "want [wɔnt]\n***\nЯ ЖЕЛАЮ сказать - вот! И вонт! (это) want\nНедостаток, отсутствие, потребность, нужда,\nнеобходимость."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Причастие",
+      "Сложное_дополнение",
+      "Инфинитив",
+      "Инфинитив_-_сложное_дополнение(сказуемое_выражено_глаголами,_обозначающими_чувство,_желание,_намерение)",
+      "Причастие_-_сложное_дополнение_с_причастием_2(после_глаголов)",
+      "Инфинитив_с_to_после_глаголов",
+      "Сложное_дополнение_с_причастием_2",
+      "wa(закр_сл)_=_[wɔ(ː)]"
+    ],
+    "examples": [
+      {
+        "eng": "I want my own room.",
+        "ru": "Я хочу собственную комнату.",
+        "learn": 0
+      },
+      {
+        "eng": "I really want a drink.",
+        "ru": "Я очень хочу пить.",
+        "learn": 0
+      },
+      {
+        "eng": "You're wanted on the phone.",
+        "ru": "Вас зовут к телефону.",
+        "learn": 0
+      },
+      {
+        "eng": "I want you to be a good boy.",
+        "ru": "Я хочу, чтобы ты был хорошим мальчиком.",
+        "learn": 0
+      },
+      {
+        "eng": "Let him want for nothing.",
+        "ru": "Пусть он ни в чем не нуждается.",
+        "learn": 0
+      },
+      {
+        "eng": "The chief wants you.",
+        "ru": "Шеф требует вас к себе.",
+        "learn": 0
+      },
+      {
+        "eng": "Want a game of chess?",
+        "ru": "Хотите партию в шахматы?",
+        "learn": 0
+      },
+      {
+        "eng": "What do you want for your birthday?",
+        "ru": "Что ты хочешь на день рождения?",
+        "learn": 0
+      },
+      {
+        "eng": "people who are living in want",
+        "ru": "люди, которые живут в нужде",
+        "learn": 0
+      },
+      {
+        "eng": "I want to go home now!",
+        "ru": "Я хочу домой, прямо сейчас!",
+        "learn": 0
+      },
+      {
+        "eng": "Do you want a drink?",
+        "ru": "Хочешь чего-нибудь выпить?",
+        "learn": 0
+      },
+      {
+        "eng": "I want you here at noon!",
+        "ru": "Ты нужен мне здесь в полдень!",
+        "learn": 0
+      },
+      {
+        "eng": "Do you want more coffee?",
+        "ru": "Хочешь ещё кофе?",
+        "learn": 0
+      },
+      {
+        "eng": "You want to see a doctor.",
+        "ru": "Тебе следует пойти к врачу.",
+        "learn": 0
+      },
+      {
+        "eng": "I just wanted a chance to rest.",
+        "ru": "Я просто хотел хоть немного отдохнуть.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you want me to come with you?",
+        "ru": "Хочешь, я пойду с тобой?",
+        "learn": 0
+      },
+      {
+        "eng": "He is wanted by the police.",
+        "ru": "Его разыскивает полиция.",
+        "learn": 1
+      },
+      {
+        "eng": "The carpet really wants cleaning.",
+        "ru": "Этот ковёр очень нуждается в чистке.",
+        "learn": 1
+      },
+      {
+        "eng": "He never wants for friends.",
+        "ru": "У него всегда было много друзей.",
+        "learn": 0
+      },
+      {
+        "eng": "You can order whatever you want.",
+        "ru": "Можешь заказать всё, что только пожелаешь.",
+        "learn": 0
+      },
+      {
+        "eng": "They will never want for anything.",
+        "ru": "Они никогда ни в чём не будут испытывать недостатка.",
+        "learn": 0
+      },
+      {
+        "eng": "Uncle Sam wants you!",
+        "ru": "Ты нужен Америке! (знаменитый агитационный плакат)",
+        "learn": 0
+      },
+      {
+        "eng": "I tried to supply his wants",
+        "ru": "Я пытался удовлетворить его желания.",
+        "learn": 0
+      },
+      {
+        "eng": "My goats wanted to be milked.",
+        "ru": "Моих коз надо подоить.",
+        "learn": 0
+      },
+      {
+        "eng": "We can supply all yours wants.",
+        "ru": "Мы можем удовлетворить все ваши запросы.",
+        "learn": 0
+      },
+      {
+        "eng": "What do you want for Christmas?",
+        "ru": "Что ты хочешь на Рождество?",
+        "learn": 0
+      },
+      {
+        "eng": "They desperately wanted a son.",
+        "ru": "Они отчаянно хотели сына.",
+        "learn": 1
+      },
+      {
+        "eng": "I want that letter typed today.",
+        "ru": "Я хочу, чтобы это письмо было напечатано сегодня.",
+        "learn": 0
+      },
+      {
+        "eng": "the chronic want and deprivation in the townships",
+        "ru": "хроническая нужда и лишения в посёлках",
+        "learn": 0
+      },
+      {
+        "eng": "The motor wants a tune-up.",
+        "ru": "Мотор нуждается в регулировке.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,97 +1,186 @@
 {
-    "leave": {
-        "comment": [
-            "wave",
-            "brave",
-            "slave",
-            "grave",
-            "cave",
-            "live",
-            "heave",
-            "weave"
-        ],
-        "translate": "отпуск, уход, разрешение, отъезд, оставлять, покидать, уходить, уезжать",
-        "transcription": " |liːv|",
-        "antonyms": [],
-        "mnemonic": [
-            "leave [ли:в] покидать - (Ливанцы) покинули свои дома.",
-            "leave [li: v]\n***\nОСТАВИЛ семью - ты несправедлив. (это) leave\nЯ ОСТАНУСЬ, так как день дождлив. (это) leave\nОтпуск, разрешение, отъезд, уход, прощание.\n***\nЕсли нас оставишь \"leave\" -\nты нас покоя лишишь \"reave\"."
-        ],
-        "examples": [
-            "Go away and leave me alone!",
-            "Did you leave a tip?",
-            "He was the last to leave.",
-            "I have got to leave early.",
-            "Leave the child with me!",
-            "The film left me cold.",
-            "“Leave me alone!” he hissed.",
-            "She wants to leave.",
-            "I leave each day at seven.",
-            "Leave your key at reception.",
-            "She left her books with us.",
-            "The plane leaves at 12.30.",
-            "Leave the last page blank.",
-            "Is it okay if I leave writing the results to you?",
-            "I leave each day at six.",
-            "The ship leaves at midnight.",
-            "The incident left her feeling confused and hurt.",
-            "She commanded us to leave.",
-            "Need we leave so soon?",
-            "Ten minus five leaves five.",
-            "I leave each day at four.",
-            "I leave each day at three.",
-            "The wound left a deep scar.",
-            "She left the report for me.",
-            "She was impatient to leave.",
-            "Leave it with me, I'll fix it for you.",
-            "He's not the sort to leave things to chance (=take no action and just wait to see what happens).",
-            "He left his estate to her.",
-            "He agreed to leave her alone.",
-            "I thought I heard him leave."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Уходи и оставь меня в покое!",
-            "Ты оставил чаевые?",
-            "Он уходил последним.",
-            "Мне надо уйти пораньше.",
-            "Оставьте ребёнка у меня!",
-            "Кино оставило меня равнодушным.",
-            "— Оставь меня в покое! — прошипел он.",
-            "Она хочет уйти.",
-            "Каждый день я ухожу в семь.",
-            "Оставь ключ у администратора.",
-            "Она оставила нам книги.",
-            "Самолет вылетает в двенадцать тридцать.",
-            "Оставьте последнюю страницу пустой.",
-            "Ничего, если я попрошу тебя записать результаты?",
-            "Каждый день я ухожу в шесть.",
-            "Судно уходит в полночь.",
-            "Это происшествие оставило её с чувством стыда и обиды.",
-            "Она приказала нам уйти.",
-            "Нам обязательно так рано уезжать?",
-            "От десяти отнять пять - останется пять.",
-            "Каждый день я ухожу в четыре.",
-            "Каждый день я ухожу в три.",
-            "После раны остался глубокий шрам.",
-            "Она поручила доклад мне.",
-            "Ей не терпелось уйти.",
-            "Оставьте это мне, я всё для вас устрою / я его для вас починю.",
-            "Он не из тех, кто пускает всё на самотек (т.е. ничего не предпринимает и просто ждёт, как всё обернётся).",
-            "Он оставил ей своё поместье.",
-            "Он согласился оставить её в покое.",
-            "По-моему, я слышал, как он ушёл."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Причастие",
-            "Причастие_-_сложное_дополнение_с_причастием_2(после_глаголов)",
-            "Сложное_дополнение_с_причастием_1",
-            "ea_=_[iː]",
-            "Причастие_-_сложное_дополнение_с_причастием_1(после_глаголов)",
-            "Сложное_дополнение_с_причастием_2",
-            "Причастие_-_сложное_подлежащее"
-        ]
-    }
+  "leave": {
+    "comment": [
+      "left |lɛft|,                                          left |lɛft|",
+      "wave",
+      "brave",
+      "slave",
+      "grave",
+      "cave",
+      "live",
+      "heave",
+      "weave"
+    ],
+    "translate": "отпуск, уход, разрешение, отъезд, оставлять, покидать, уходить, уезжать",
+    "transcription": " |liːv|",
+    "antonyms": [],
+    "mnemonic": [
+      "leave [ли:в] покидать - (Ливанцы) покинули свои дома.",
+      "leave [li: v]\n***\nОСТАВИЛ семью - ты несправедлив. (это) leave\nЯ ОСТАНУСЬ, так как день дождлив. (это) leave\nОтпуск, разрешение, отъезд, уход, прощание.\n***\nЕсли нас оставишь \"leave\" -\nты нас покоя лишишь \"reave\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Причастие",
+      "Причастие_-_сложное_дополнение_с_причастием_2(после_глаголов)",
+      "Сложное_дополнение_с_причастием_1",
+      "ea_=_[iː]",
+      "Причастие_-_сложное_дополнение_с_причастием_1(после_глаголов)",
+      "Сложное_дополнение_с_причастием_2",
+      "Причастие_-_сложное_подлежащее",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Go away and leave me alone!",
+        "ru": "Уходи и оставь меня в покое!",
+        "learn": 0
+      },
+      {
+        "eng": "Did you leave a tip?",
+        "ru": "Ты оставил чаевые?",
+        "learn": 0
+      },
+      {
+        "eng": "He was the last to leave.",
+        "ru": "Он уходил последним.",
+        "learn": 0
+      },
+      {
+        "eng": "I have got to leave early.",
+        "ru": "Мне надо уйти пораньше.",
+        "learn": 1
+      },
+      {
+        "eng": "Leave the child with me!",
+        "ru": "Оставьте ребёнка у меня!",
+        "learn": 0
+      },
+      {
+        "eng": "The film left me cold.",
+        "ru": "Кино оставило меня равнодушным.",
+        "learn": 0
+      },
+      {
+        "eng": "“Leave me alone!” he hissed.",
+        "ru": "— Оставь меня в покое! — прошипел он.",
+        "learn": 0
+      },
+      {
+        "eng": "She wants to leave.",
+        "ru": "Она хочет уйти.",
+        "learn": 0
+      },
+      {
+        "eng": "I leave each day at seven.",
+        "ru": "Каждый день я ухожу в семь.",
+        "learn": 0
+      },
+      {
+        "eng": "Leave your key at reception.",
+        "ru": "Оставь ключ у администратора.",
+        "learn": 0
+      },
+      {
+        "eng": "She left her books with us.",
+        "ru": "Она оставила нам книги.",
+        "learn": 0
+      },
+      {
+        "eng": "The plane leaves at 12.30.",
+        "ru": "Самолет вылетает в двенадцать тридцать.",
+        "learn": 0
+      },
+      {
+        "eng": "Leave the last page blank.",
+        "ru": "Оставьте последнюю страницу пустой.",
+        "learn": 1
+      },
+      {
+        "eng": "Is it okay if I leave writing the results to you?",
+        "ru": "Ничего, если я попрошу тебя записать результаты?",
+        "learn": 0
+      },
+      {
+        "eng": "I leave each day at six.",
+        "ru": "Каждый день я ухожу в шесть.",
+        "learn": 0
+      },
+      {
+        "eng": "The ship leaves at midnight.",
+        "ru": "Судно уходит в полночь.",
+        "learn": 0
+      },
+      {
+        "eng": "The incident left her feeling confused and hurt.",
+        "ru": "Это происшествие оставило её с чувством стыда и обиды.",
+        "learn": 0
+      },
+      {
+        "eng": "She commanded us to leave.",
+        "ru": "Она приказала нам уйти.",
+        "learn": 0
+      },
+      {
+        "eng": "Need we leave so soon?",
+        "ru": "Нам обязательно так рано уезжать?",
+        "learn": 0
+      },
+      {
+        "eng": "Ten minus five leaves five.",
+        "ru": "От десяти отнять пять - останется пять.",
+        "learn": 1
+      },
+      {
+        "eng": "I leave each day at four.",
+        "ru": "Каждый день я ухожу в четыре.",
+        "learn": 1
+      },
+      {
+        "eng": "I leave each day at three.",
+        "ru": "Каждый день я ухожу в три.",
+        "learn": 0
+      },
+      {
+        "eng": "The wound left a deep scar.",
+        "ru": "После раны остался глубокий шрам.",
+        "learn": 0
+      },
+      {
+        "eng": "She left the report for me.",
+        "ru": "Она поручила доклад мне.",
+        "learn": 0
+      },
+      {
+        "eng": "She was impatient to leave.",
+        "ru": "Ей не терпелось уйти.",
+        "learn": 0
+      },
+      {
+        "eng": "Leave it with me, I'll fix it for you.",
+        "ru": "Оставьте это мне, я всё для вас устрою / я его для вас починю.",
+        "learn": 0
+      },
+      {
+        "eng": "He's not the sort to leave things to chance (=take no action and just wait to see what happens).",
+        "ru": "Он не из тех, кто пускает всё на самотек (т.е. ничего не предпринимает и просто ждёт, как всё обернётся).",
+        "learn": 0
+      },
+      {
+        "eng": "He left his estate to her.",
+        "ru": "Он оставил ей своё поместье.",
+        "learn": 0
+      },
+      {
+        "eng": "He agreed to leave her alone.",
+        "ru": "Он согласился оставить её в покое.",
+        "learn": 0
+      },
+      {
+        "eng": "I thought I heard him leave.",
+        "ru": "По-моему, я слышал, как он ушёл.",
+        "learn": 1
+      }
+    ]
+  }
 }

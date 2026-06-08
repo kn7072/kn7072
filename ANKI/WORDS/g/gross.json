@@ -1,85 +1,166 @@
 {
-    "gross": {
-        "comment": [
-            "grocery",
-            "across",
-            "boss",
-            "cross",
-            "loss",
-            "toss"
-        ],
-        "translate": " валовой, брутто, грубый, гросс, масса, получать чистый доход",
-        "transcription": "  |ɡroʊs|",
-        "antonyms": [],
-        "mnemonic": [
-            "gross [грэ'ус] вульгарный, вопиющий - (Грэус) Адмирал Денниц был вульгарен.",
-            "engross [ɪn'grəus]\ngross [grəus]\n***\nЗАВЛАДЕЛ вниманием с помощью угроз. (это) engross\n***\nВАЛОВЫЙ доход = гросс. (это) gross\nБрутто = гросс.\nГрубый, вульгарный."
-        ],
-        "examples": [
-            "That sandwich looks gross.",
-            "Ooh, gross! I hate spinach!",
-            "What is the gross of your earnings?",
-            "She was fired for gross incompetence.",
-            "She has a gross habit of chewing on the ends of her hair.",
-            "His gross remarks made us cringe.",
-            "We earned a gross of 30 dollars.",
-            "They have suffered a gross injustice.",
-            "The accident was caused by gross negligence.",
-            "Lambert was grossly overweight.",
-            "The gross national product has reached an all-time high.",
-            "The man was so gross he could hardly get through the door.",
-            "The film went on to gross $8 million in the US.",
-            "The company grosses approximately $80 million a year.",
-            "He was found guilty of gross dereliction of duty.",
-            "They grossed $50,000 before taxes.",
-            "He was assailed for gross misconduct.",
-            "Here is an inexcusably gross misrepresentation.",
-            "The firm's gross profit was over a million dollars last year.",
-            "The company described reports of environmental disaster as gross exaggeration.",
-            "This Network will deliver over 133 million gross impressions per 4 week flight.",
-            "He was fired for gross insubordination.",
-            "The movie has already grossed over $10 million.",
-            "Trade accounts for half of our gross national product.",
-            "His gross income was enough that he had to file a tax return.",
-            "The shopping center's gross leasable area is currently 1,074,359 square feet.",
-            "Medical records were found to be grossly inadequate.",
-            "Within 10 years they had a gross profit margin of 50%."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Этот бутерброд выглядит страшно неаппетитно.",
-            "Фу, гадость какая! Ненавижу шпинат!",
-            "Что ты в сумме заработал?",
-            "Она была уволена с работы за вопиющий непрофессионализм.",
-            "У неё есть гадкая привычка жевать кончики своих волос.",
-            "Его грязные замечания вызвали у нас отвращение.",
-            "Мы заработали в общем [в сумме] тридцать долларов.",
-            "Они пострадали от вопиющей несправедливости.",
-            "Авария произошла из-за явной невнимательности.",
-            "Ламберт был чрезвычайно тучным.",
-            "Валовой национальный продукт достиг рекордно высокого уровня.",
-            "Мужчина был такой толстый, что едва мог протиснуться в дверь.",
-            "В США фильм собрал около восьми миллионов долларов.",
-            "В год компания получает валовую прибыль в размере примерно 80 млн. долл.",
-            "Его признали виновным в преступной халатности.",
-            "Они получили пятьдесят тысяч долларов дохода до уплаты налогов.",
-            "Он подвергся ожесточённой критике за грубое нарушение дисциплины.",
-            "Это непростительно грубое искажение.",
-            "Валовая прибыль фирмы составила в прошлом году свыше миллиона долларов.",
-            "Компания назвала сообщения об экологической катастрофе явным преувеличением.",
-            "Эта рекламная сеть обеспечит 133 миллиона валовых показов за четырехнедельный срок кампании.",
-            "Он был уволен за грубое нарушение субординации.",
-            "Фильм уже собрал в прокате более десяти миллионов долларов.",
-            "Торговля составляет половину валового национального продукта нашей страны.",
-            "Его общего дохода было достаточно для того, чтобы ему пришлось подавать налоговую декларацию.",
-            "Общая площадь сдаваемых в аренду помещений торгового центра в настоящее время составляет 1 074 359 кв. футов.",
-            "Медицинской документации оказалось явно недостаточно.",
-            "Не прошло и десяти лет, как их коэффициент валовой маржи составил пятьдесят процентов."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "o_+_Закр_сл_=_[ou]"
-        ]
-    }
+  "gross": {
+    "comment": [
+      "grocery",
+      "across",
+      "boss",
+      "cross",
+      "loss",
+      "toss"
+    ],
+    "translate": " валовой, брутто, грубый, гросс, масса, получать чистый доход",
+    "transcription": "  |ɡroʊs|",
+    "antonyms": [],
+    "mnemonic": [
+      "gross [грэ'ус] вульгарный, вопиющий - (Грэус) Адмирал Денниц был вульгарен.",
+      "engross [ɪn'grəus]\ngross [grəus]\n***\nЗАВЛАДЕЛ вниманием с помощью угроз. (это) engross\n***\nВАЛОВЫЙ доход = гросс. (это) gross\nБрутто = гросс.\nГрубый, вульгарный."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "o_+_Закр_сл_=_[ou]"
+    ],
+    "examples": [
+      {
+        "eng": "That sandwich looks gross.",
+        "ru": "Этот бутерброд выглядит страшно неаппетитно.",
+        "learn": 0
+      },
+      {
+        "eng": "Ooh, gross! I hate spinach!",
+        "ru": "Фу, гадость какая! Ненавижу шпинат!",
+        "learn": 0
+      },
+      {
+        "eng": "What is the gross of your earnings?",
+        "ru": "Что ты в сумме заработал?",
+        "learn": 1
+      },
+      {
+        "eng": "She was fired for gross incompetence.",
+        "ru": "Она была уволена с работы за вопиющий непрофессионализм.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a gross habit of chewing on the ends of her hair.",
+        "ru": "У неё есть гадкая привычка жевать кончики своих волос.",
+        "learn": 0
+      },
+      {
+        "eng": "His gross remarks made us cringe.",
+        "ru": "Его грязные замечания вызвали у нас отвращение.",
+        "learn": 0
+      },
+      {
+        "eng": "We earned a gross of 30 dollars.",
+        "ru": "Мы заработали в общем [в сумме] тридцать долларов.",
+        "learn": 1
+      },
+      {
+        "eng": "They have suffered a gross injustice.",
+        "ru": "Они пострадали от вопиющей несправедливости.",
+        "learn": 0
+      },
+      {
+        "eng": "The accident was caused by gross negligence.",
+        "ru": "Авария произошла из-за явной невнимательности.",
+        "learn": 0
+      },
+      {
+        "eng": "Lambert was grossly overweight.",
+        "ru": "Ламберт был чрезвычайно тучным.",
+        "learn": 0
+      },
+      {
+        "eng": "The gross national product has reached an all-time high.",
+        "ru": "Валовой национальный продукт достиг рекордно высокого уровня.",
+        "learn": 0
+      },
+      {
+        "eng": "The man was so gross he could hardly get through the door.",
+        "ru": "Мужчина был такой толстый, что едва мог протиснуться в дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "The film went on to gross $8 million in the US.",
+        "ru": "В США фильм собрал около восьми миллионов долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "The company grosses approximately $80 million a year.",
+        "ru": "В год компания получает валовую прибыль в размере примерно 80 млн. долл.",
+        "learn": 1
+      },
+      {
+        "eng": "He was found guilty of gross dereliction of duty.",
+        "ru": "Его признали виновным в преступной халатности.",
+        "learn": 0
+      },
+      {
+        "eng": "They grossed $50,000 before taxes.",
+        "ru": "Они получили пятьдесят тысяч долларов дохода до уплаты налогов.",
+        "learn": 0
+      },
+      {
+        "eng": "He was assailed for gross misconduct.",
+        "ru": "Он подвергся ожесточённой критике за грубое нарушение дисциплины.",
+        "learn": 0
+      },
+      {
+        "eng": "Here is an inexcusably gross misrepresentation.",
+        "ru": "Это непростительно грубое искажение.",
+        "learn": 0
+      },
+      {
+        "eng": "The firm's gross profit was over a million dollars last year.",
+        "ru": "Валовая прибыль фирмы составила в прошлом году свыше миллиона долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "The company described reports of environmental disaster as gross exaggeration.",
+        "ru": "Компания назвала сообщения об экологической катастрофе явным преувеличением.",
+        "learn": 0
+      },
+      {
+        "eng": "This Network will deliver over 133 million gross impressions per 4 week flight.",
+        "ru": "Эта рекламная сеть обеспечит 133 миллиона валовых показов за четырехнедельный срок кампании.",
+        "learn": 0
+      },
+      {
+        "eng": "He was fired for gross insubordination.",
+        "ru": "Он был уволен за грубое нарушение субординации.",
+        "learn": 0
+      },
+      {
+        "eng": "The movie has already grossed over $10 million.",
+        "ru": "Фильм уже собрал в прокате более десяти миллионов долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "Trade accounts for half of our gross national product.",
+        "ru": "Торговля составляет половину валового национального продукта нашей страны.",
+        "learn": 0
+      },
+      {
+        "eng": "His gross income was enough that he had to file a tax return.",
+        "ru": "Его общего дохода было достаточно для того, чтобы ему пришлось подавать налоговую декларацию.",
+        "learn": 0
+      },
+      {
+        "eng": "The shopping center's gross leasable area is currently 1,074,359 square feet.",
+        "ru": "Общая площадь сдаваемых в аренду помещений торгового центра в настоящее время составляет 1 074 359 кв. футов.",
+        "learn": 0
+      },
+      {
+        "eng": "Medical records were found to be grossly inadequate.",
+        "ru": "Медицинской документации оказалось явно недостаточно.",
+        "learn": 0
+      },
+      {
+        "eng": "Within 10 years they had a gross profit margin of 50%.",
+        "ru": "Не прошло и десяти лет, как их коэффициент валовой маржи составил пятьдесят процентов.",
+        "learn": 0
+      }
+    ]
+  }
 }

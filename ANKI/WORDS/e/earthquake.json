@@ -1,80 +1,166 @@
 {
-    "earthquake": {
-        "comment": [
-            "earth"
-        ],
-        "translate": "землетрясение, потрясение, катастрофа",
-        "transcription": " |ˈɜːrθkweɪk|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "An earthquake rocked the town.",
-            "The earthquake shook the ground.",
-            "The earthquake generated a tsunami",
-            "The city is in an earthquake zone.",
-            "A terrible tsunami followed the earthquake",
-            "The earthquake reduced the whole town to rubble.",
-            "We heard the appalling news about the earthquake.",
-            "That was the biggest earthquake in recent history .",
-            "The earthquake registered 7.2 on the Richter scale.",
-            "The earthquake caused extensive structural damage.",
-            "The earthquake shook the foundations of the house.",
-            "The earthquake leveled the city.",
-            "A severe earthquake struck the area.",
-            "The valley was convulsed by an earthquake.",
-            "Everyone helped out during the earthquake.",
-            "They tried to rebuild after the earthquake.",
-            "She forecast that an earthquake would occur.",
-            "Earthquake prediction is an inexact science.",
-            "We were alarmed at the news of the earthquake.",
-            "Earthquake shocks were recorded by a seismograph.",
-            "The earthquake was felt as far south as San Diego.",
-            "It's smack dab in the middle of an earthquake zone.",
-            "The earthquake took a heavy toll on several villages.",
-            "The earthquake triggered a landslide.",
-            "The ground shook during the earthquake.",
-            "Robert wrote a short piece on the earthquake.",
-            "The earthquake measured 6.5 on the Richter scale.",
-            "The earthquake has so far claimed over 3000 lives.",
-            "Thousands lost their lives (=died) in the earthquake.",
-            "Luckily the museum was not damaged by the earthquake."
-        ],
-        "example_translate": [
-            "Землетрясение потрясло этот городок.",
-            "Землетрясение сотрясло землю.",
-            "Землетрясение стало причиной цунами.",
-            "Город находится в сейсмически активной зоне.",
-            "За землетрясением последовало страшное цунами.",
-            "Землетрясение превратило весь город в руины.",
-            "Мы узнали страшную новость о землетрясении.",
-            "Это было самое крупное землетрясение в новейшей истории.",
-            "Зарегистрированная сила землетрясения составила 7,2 балла по шкале Рихтера.",
-            "Землетрясение вызвало масштабные структурные повреждения.",
-            "Землетрясение сотрясло фундамент этого дома.",
-            "Землетрясение сравняло этот город с землёй.",
-            "В этом районе произошло сильное землетрясение.",
-            "Долина пострадала от землетрясения.",
-            "Во время землетрясения помогали все.",
-            "Они попытались заново отстроиться после землетрясения.",
-            "Она предсказала, что произойдёт землетрясение.",
-            "Прогнозирование землетрясений — это неточная наука.",
-            "Мы были обеспокоены известием о землетрясении.",
-            "Подземные толчки были зафиксированы сейсмографом.",
-            "На юге землетрясение ощущалось даже в Сан-Диего.",
-            "Это точнёхонько в середине сейсмически активной зоны.",
-            "В нескольких деревнях землетрясение унесло много жизней.",
-            "Землетрясение вызвало оползень.",
-            "Во время землетрясения земля затряслась.",
-            "Роберт написал короткую статью об этом землетрясении.",
-            "Сила землетрясения составила шесть с половиной баллов по шкале Рихтера.",
-            "На данный момент землетрясение унесло более трёх тысяч жизней.",
-            "В результате землетрясения тысячи людей потеряли свои жизни (т.е. погибли).",
-            "К счастью, в результате землетрясения музей не пострадал."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "earthquake": {
+    "comment": [
+      "earth"
+    ],
+    "translate": "землетрясение, потрясение, катастрофа",
+    "transcription": " |ˈɜːrθkweɪk|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "An earthquake rocked the town.",
+        "ru": "Землетрясение потрясло этот городок.",
+        "learn": 0
+      },
+      {
+        "eng": "The earthquake shook the ground.",
+        "ru": "Землетрясение сотрясло землю.",
+        "learn": 0
+      },
+      {
+        "eng": "The earthquake generated a tsunami",
+        "ru": "Землетрясение стало причиной цунами.",
+        "learn": 0
+      },
+      {
+        "eng": "The city is in an earthquake zone.",
+        "ru": "Город находится в сейсмически активной зоне.",
+        "learn": 1
+      },
+      {
+        "eng": "A terrible tsunami followed the earthquake",
+        "ru": "За землетрясением последовало страшное цунами.",
+        "learn": 0
+      },
+      {
+        "eng": "The earthquake reduced the whole town to rubble.",
+        "ru": "Землетрясение превратило весь город в руины.",
+        "learn": 0
+      },
+      {
+        "eng": "We heard the appalling news about the earthquake.",
+        "ru": "Мы узнали страшную новость о землетрясении.",
+        "learn": 0
+      },
+      {
+        "eng": "That was the biggest earthquake in recent history .",
+        "ru": "Это было самое крупное землетрясение в новейшей истории.",
+        "learn": 0
+      },
+      {
+        "eng": "The earthquake registered 7.2 on the Richter scale.",
+        "ru": "Зарегистрированная сила землетрясения составила 7,2 балла по шкале Рихтера.",
+        "learn": 0
+      },
+      {
+        "eng": "The earthquake caused extensive structural damage.",
+        "ru": "Землетрясение вызвало масштабные структурные повреждения.",
+        "learn": 1
+      },
+      {
+        "eng": "The earthquake shook the foundations of the house.",
+        "ru": "Землетрясение сотрясло фундамент этого дома.",
+        "learn": 0
+      },
+      {
+        "eng": "The earthquake leveled the city.",
+        "ru": "Землетрясение сравняло этот город с землёй.",
+        "learn": 0
+      },
+      {
+        "eng": "A severe earthquake struck the area.",
+        "ru": "В этом районе произошло сильное землетрясение.",
+        "learn": 0
+      },
+      {
+        "eng": "The valley was convulsed by an earthquake.",
+        "ru": "Долина пострадала от землетрясения.",
+        "learn": 0
+      },
+      {
+        "eng": "Everyone helped out during the earthquake.",
+        "ru": "Во время землетрясения помогали все.",
+        "learn": 0
+      },
+      {
+        "eng": "They tried to rebuild after the earthquake.",
+        "ru": "Они попытались заново отстроиться после землетрясения.",
+        "learn": 1
+      },
+      {
+        "eng": "She forecast that an earthquake would occur.",
+        "ru": "Она предсказала, что произойдёт землетрясение.",
+        "learn": 0
+      },
+      {
+        "eng": "Earthquake prediction is an inexact science.",
+        "ru": "Прогнозирование землетрясений — это неточная наука.",
+        "learn": 0
+      },
+      {
+        "eng": "We were alarmed at the news of the earthquake.",
+        "ru": "Мы были обеспокоены известием о землетрясении.",
+        "learn": 0
+      },
+      {
+        "eng": "Earthquake shocks were recorded by a seismograph.",
+        "ru": "Подземные толчки были зафиксированы сейсмографом.",
+        "learn": 0
+      },
+      {
+        "eng": "The earthquake was felt as far south as San Diego.",
+        "ru": "На юге землетрясение ощущалось даже в Сан-Диего.",
+        "learn": 0
+      },
+      {
+        "eng": "It's smack dab in the middle of an earthquake zone.",
+        "ru": "Это точнёхонько в середине сейсмически активной зоны.",
+        "learn": 0
+      },
+      {
+        "eng": "The earthquake took a heavy toll on several villages.",
+        "ru": "В нескольких деревнях землетрясение унесло много жизней.",
+        "learn": 0
+      },
+      {
+        "eng": "The earthquake triggered a landslide.",
+        "ru": "Землетрясение вызвало оползень.",
+        "learn": 0
+      },
+      {
+        "eng": "The ground shook during the earthquake.",
+        "ru": "Во время землетрясения земля затряслась.",
+        "learn": 1
+      },
+      {
+        "eng": "Robert wrote a short piece on the earthquake.",
+        "ru": "Роберт написал короткую статью об этом землетрясении.",
+        "learn": 0
+      },
+      {
+        "eng": "The earthquake measured 6.5 on the Richter scale.",
+        "ru": "Сила землетрясения составила шесть с половиной баллов по шкале Рихтера.",
+        "learn": 0
+      },
+      {
+        "eng": "The earthquake has so far claimed over 3000 lives.",
+        "ru": "На данный момент землетрясение унесло более трёх тысяч жизней.",
+        "learn": 0
+      },
+      {
+        "eng": "Thousands lost their lives (=died) in the earthquake.",
+        "ru": "В результате землетрясения тысячи людей потеряли свои жизни (т.е. погибли).",
+        "learn": 0
+      },
+      {
+        "eng": "Luckily the museum was not damaged by the earthquake.",
+        "ru": "К счастью, в результате землетрясения музей не пострадал.",
+        "learn": 0
+      }
+    ]
+  }
 }

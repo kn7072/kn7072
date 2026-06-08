@@ -1,91 +1,179 @@
 {
-    "promise": {
-        "comment": [
-            "promising",
-            "compromise",
-            "prominent"
-        ],
-        "translate": "обещать, обещаться, посулить, сулить, обещание, перспектива, посул",
-        "transcription": " |ˈprɑːmɪs|",
-        "antonyms": [],
-        "mnemonic": [
-            "promise [про'мис] обещание, обещать - Обещаю хороший (промис-ел) рыбы.",
-            "promise ['prɒmɪs]\n***\nОБЕЩАЕШЬ, значит, компромисс. (это)\nОБЕЩАНИЕ - компромисс\nОбещание, перспектива."
-        ],
-        "examples": [
-            "She gave me her promise.",
-            "I promise to be careful.",
-            "I hate to break my promise.",
-            "Dark clouds promise rain.",
-            "I promise not to trouble you again.",
-            "I promise I will do my duty.",
-            "'I promise,' she repeated.",
-            "I promise not to tell anyone.",
-            "I promise you, it does work!",
-            "He acted up to his promise.",
-            "Don't make promises you can't keep.",
-            "She made a promise to write every week.",
-            "She's promised to do all she can to help.",
-            "I promise you my best effort.",
-            "I'll hold you by your promise.",
-            "I've promised the next dance to Jim.",
-            "Promise you won't say a word to anyone?",
-            "They ratted on their promise.",
-            "She didn't fulfil her early promise.",
-            "I promise I won't tell a soul.",
-            "I might have to break my promise.",
-            "He was released from his promise.",
-            "I promise not to disturb anything.",
-            "Hurry up — we promised we wouldn't be late.",
-            "She promised to announce the results tomorrow.",
-            "Those gray skies promise rain.",
-            "Her promise isn't worth a damn.",
-            "The company promised us a bonus this year.",
-            "His promise is not worth a damn.",
-            "the Christian promise of eternal life"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она дала мне обещание.",
-            "Я обещаю, что буду осторожен.",
-            "Терпеть не могу нарушать обещания.",
-            "Тёмные тучи предвещают дождь.",
-            "Я обещаю не беспокоить вас снова.",
-            "Я обещаю, я выполню свой долг.",
-            "— Я обещаю, — повторила она.",
-            "Я обещаю никому не рассказывать.",
-            "Честное слово /уверяю вас/, это работает!",
-            "Он сделал, как обещал.",
-            "Не давайте обещаний, которые вы не сможете сдержать.",
-            "Она обещала писать каждую неделю.",
-            "Она обещала сделать всё возможное, чтобы помочь.",
-            "Я обещаю вам, что приложу все усилия /что сделаю всё возможное/.",
-            "Ловлю тебя на слове.",
-            "Следующий танец я обещала Джиму.",
-            "Обещай, что не скажешь никому ни слова?",
-            "Они отказались от своих обещаний.",
-            "Она не выполнила своё предыдущее обещание.",
-            "Обещаю, я никому не скажу.",
-            "Возможно, мне придётся нарушить своё обещание.",
-            "Он был освобождён от своего обещания.",
-            "Обещаю ничего не трогать.",
-            "Давайте быстрее: мы обещали, что не опоздаем.",
-            "Она обещала огласить результаты завтра.",
-            "Это пасмурное небо предвещает дождь.",
-            "Её обещание ни черта не стоит.",
-            "Руководство компании обещало нам в этом году премию.",
-            "Его обещания ни черта не стоят.",
-            "христианские обещания вечной жизни"
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив_-_сложное_дополнение(после_глаголов,_выражающих_побуждение_(приказ,_просьбу,_разрешение,_предупреждение))",
-            "Инфинитив",
-            "o_+_Откр_сл_=_[ɔ]",
-            "all_words",
-            "Инфинитив_с_to_после_глаголов",
-            "Инфинитив_с_to_после_сущ",
-            "Сложное_дополнение"
-        ]
-    }
+  "promise": {
+    "comment": [
+      "promising",
+      "compromise",
+      "prominent"
+    ],
+    "translate": "обещать, обещаться, посулить, сулить, обещание, перспектива, посул",
+    "transcription": " |ˈprɑːmɪs|",
+    "antonyms": [],
+    "mnemonic": [
+      "promise [про'мис] обещание, обещать - Обещаю хороший (промис-ел) рыбы.",
+      "promise ['prɒmɪs]\n***\nОБЕЩАЕШЬ, значит, компромисс. (это)\nОБЕЩАНИЕ - компромисс\nОбещание, перспектива."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_-_сложное_дополнение(после_глаголов,_выражающих_побуждение_(приказ,_просьбу,_разрешение,_предупреждение))",
+      "Инфинитив",
+      "o_+_Откр_сл_=_[ɔ]",
+      "Инфинитив_с_to_после_глаголов",
+      "Инфинитив_с_to_после_сущ",
+      "Сложное_дополнение",
+      "infinitive_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "She gave me her promise.",
+        "ru": "Она дала мне обещание.",
+        "learn": 0
+      },
+      {
+        "eng": "I promise to be careful.",
+        "ru": "Я обещаю, что буду осторожен.",
+        "learn": 0
+      },
+      {
+        "eng": "I hate to break my promise.",
+        "ru": "Терпеть не могу нарушать обещания.",
+        "learn": 0
+      },
+      {
+        "eng": "Dark clouds promise rain.",
+        "ru": "Тёмные тучи предвещают дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "I promise not to trouble you again.",
+        "ru": "Я обещаю не беспокоить вас снова.",
+        "learn": 1
+      },
+      {
+        "eng": "I promise I will do my duty.",
+        "ru": "Я обещаю, я выполню свой долг.",
+        "learn": 0
+      },
+      {
+        "eng": "'I promise,' she repeated.",
+        "ru": "— Я обещаю, — повторила она.",
+        "learn": 0
+      },
+      {
+        "eng": "I promise not to tell anyone.",
+        "ru": "Я обещаю никому не рассказывать.",
+        "learn": 0
+      },
+      {
+        "eng": "I promise you, it does work!",
+        "ru": "Честное слово /уверяю вас/, это работает!",
+        "learn": 0
+      },
+      {
+        "eng": "He acted up to his promise.",
+        "ru": "Он сделал, как обещал.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't make promises you can't keep.",
+        "ru": "Не давайте обещаний, которые вы не сможете сдержать.",
+        "learn": 1
+      },
+      {
+        "eng": "She made a promise to write every week.",
+        "ru": "Она обещала писать каждую неделю.",
+        "learn": 0
+      },
+      {
+        "eng": "She's promised to do all she can to help.",
+        "ru": "Она обещала сделать всё возможное, чтобы помочь.",
+        "learn": 0
+      },
+      {
+        "eng": "I promise you my best effort.",
+        "ru": "Я обещаю вам, что приложу все усилия /что сделаю всё возможное/.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll hold you by your promise.",
+        "ru": "Ловлю тебя на слове.",
+        "learn": 0
+      },
+      {
+        "eng": "I've promised the next dance to Jim.",
+        "ru": "Следующий танец я обещала Джиму.",
+        "learn": 0
+      },
+      {
+        "eng": "Promise you won't say a word to anyone?",
+        "ru": "Обещай, что не скажешь никому ни слова?",
+        "learn": 0
+      },
+      {
+        "eng": "They ratted on their promise.",
+        "ru": "Они отказались от своих обещаний.",
+        "learn": 0
+      },
+      {
+        "eng": "She didn't fulfil her early promise.",
+        "ru": "Она не выполнила своё предыдущее обещание.",
+        "learn": 0
+      },
+      {
+        "eng": "I promise I won't tell a soul.",
+        "ru": "Обещаю, я никому не скажу.",
+        "learn": 0
+      },
+      {
+        "eng": "I might have to break my promise.",
+        "ru": "Возможно, мне придётся нарушить своё обещание.",
+        "learn": 0
+      },
+      {
+        "eng": "He was released from his promise.",
+        "ru": "Он был освобождён от своего обещания.",
+        "learn": 0
+      },
+      {
+        "eng": "I promise not to disturb anything.",
+        "ru": "Обещаю ничего не трогать.",
+        "learn": 1
+      },
+      {
+        "eng": "Hurry up — we promised we wouldn't be late.",
+        "ru": "Давайте быстрее: мы обещали, что не опоздаем.",
+        "learn": 0
+      },
+      {
+        "eng": "She promised to announce the results tomorrow.",
+        "ru": "Она обещала огласить результаты завтра.",
+        "learn": 0
+      },
+      {
+        "eng": "Those gray skies promise rain.",
+        "ru": "Это пасмурное небо предвещает дождь.",
+        "learn": 1
+      },
+      {
+        "eng": "Her promise isn't worth a damn.",
+        "ru": "Её обещание ни черта не стоит.",
+        "learn": 0
+      },
+      {
+        "eng": "The company promised us a bonus this year.",
+        "ru": "Руководство компании обещало нам в этом году премию.",
+        "learn": 0
+      },
+      {
+        "eng": "His promise is not worth a damn.",
+        "ru": "Его обещания ни черта не стоят.",
+        "learn": 0
+      },
+      {
+        "eng": "the Christian promise of eternal life",
+        "ru": "христианские обещания вечной жизни",
+        "learn": 0
+      }
+    ]
+  }
 }

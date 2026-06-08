@@ -1,64 +1,123 @@
 {
-    "dog": {
-        "comment": [
-            "dot"
-        ],
-        "translate": "собака, пес, собачка, кобель, псина, зажим, преследовать, выслеживать",
-        "transcription": " |dɔːɡ|",
-        "antonyms": [],
-        "mnemonic": [
-            "fog [fɒɡ]\ndog [dɒɡ] - собака\nfrog [frɒɡ] - лягушка\n***\nМоя собака - дог,\nво время тумана \"fog\"\nловит лягушек \"frog\"."
-        ],
-        "examples": [
-            "He dogged her every move.",
-            "He was dogged by bad luck.",
-            "You dirty dog!",
-            "They say she's a real dog.",
-            "That dog barks all day long.",
-            "I could hear a dog barking.",
-            "What breed of dog is she?",
-            "Let sleeping dogs lie. посл.",
-            "Boy, my dogs really hurt.",
-            "Her latest book turned out to be a real dog.",
-            "Creditors dogged him until he finally paid his bills.",
-            "None treated him better than a dog. (R. L. Stevenson, Treasure Island)",
-            "That was a dog of a movie.",
-            "He has been dogged by injury all season.",
-            "The dog was wagging its tail / barking loudly / gnawing at a bone.",
-            "children playing with the family dog",
-            "wild dogs such as the Australian dingo",
-            "His faithful dog shall bear him company.",
-            "Four puppies, that is 3 dogs and a bitch.",
-            "Spies and informers were dogging his footsteps.",
-            "We didn't want puppies so we had our dog neutered."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он следил за каждым её движением.",
-            "Его преследовала неудача.",
-            "Ты, грязный пес!",
-            "Говорят, она самая настоящая уродина.",
-            "Cобака лает весь день.",
-            "Я слышал собачий лай.",
-            "Какой она породы? / К какой породе собак она принадлежит?",
-            "Не будите спящую собаку.",
-            "Господи, мои ноги так болят!",
-            "Её последняя книга оказалась полным отстоем.",
-            "Кредиторы преследовали его, пока он всё-таки не заплатил по счетам.",
-            "Все обращались с ним как с собакой.",
-            "Фильм был отстойным.",
-            "Весь сезон его преследовали травмы.",
-            "Собака виляла хвостом / громко лаяла / грызла кость.",
-            "дети, которые играют с домашней собакой",
-            "дикие собаки вроде австралийских динго",
-            "Верный пёс скрасит его одиночество.",
-            "Четыре щенка, из них три кобеля и одна сука.",
-            "За каждым его шагом следили шпики и стукачи.",
-            "Мы не хотели щенков, поэтому мы стерилизовали свою собаку."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "dog": {
+    "comment": [
+      "dot"
+    ],
+    "translate": "собака, пес, собачка, кобель, псина, зажим, преследовать, выслеживать",
+    "transcription": " |dɔːɡ|",
+    "antonyms": [],
+    "mnemonic": [
+      "fog [fɒɡ]\ndog [dɒɡ] - собака\nfrog [frɒɡ] - лягушка\n***\nМоя собака - дог,\nво время тумана \"fog\"\nловит лягушек \"frog\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He dogged her every move.",
+        "ru": "Он следил за каждым её движением.",
+        "learn": 0
+      },
+      {
+        "eng": "He was dogged by bad luck.",
+        "ru": "Его преследовала неудача.",
+        "learn": 0
+      },
+      {
+        "eng": "You dirty dog!",
+        "ru": "Ты, грязный пес!",
+        "learn": 0
+      },
+      {
+        "eng": "They say she's a real dog.",
+        "ru": "Говорят, она самая настоящая уродина.",
+        "learn": 0
+      },
+      {
+        "eng": "That dog barks all day long.",
+        "ru": "Cобака лает весь день.",
+        "learn": 0
+      },
+      {
+        "eng": "I could hear a dog barking.",
+        "ru": "Я слышал собачий лай.",
+        "learn": 1
+      },
+      {
+        "eng": "What breed of dog is she?",
+        "ru": "Какой она породы? / К какой породе собак она принадлежит?",
+        "learn": 0
+      },
+      {
+        "eng": "Let sleeping dogs lie. посл.",
+        "ru": "Не будите спящую собаку.",
+        "learn": 0
+      },
+      {
+        "eng": "Boy, my dogs really hurt.",
+        "ru": "Господи, мои ноги так болят!",
+        "learn": 0
+      },
+      {
+        "eng": "Her latest book turned out to be a real dog.",
+        "ru": "Её последняя книга оказалась полным отстоем.",
+        "learn": 0
+      },
+      {
+        "eng": "Creditors dogged him until he finally paid his bills.",
+        "ru": "Кредиторы преследовали его, пока он всё-таки не заплатил по счетам.",
+        "learn": 0
+      },
+      {
+        "eng": "None treated him better than a dog. (R. L. Stevenson, Treasure Island)",
+        "ru": "Все обращались с ним как с собакой.",
+        "learn": 0
+      },
+      {
+        "eng": "That was a dog of a movie.",
+        "ru": "Фильм был отстойным.",
+        "learn": 0
+      },
+      {
+        "eng": "He has been dogged by injury all season.",
+        "ru": "Весь сезон его преследовали травмы.",
+        "learn": 0
+      },
+      {
+        "eng": "The dog was wagging its tail / barking loudly / gnawing at a bone.",
+        "ru": "Собака виляла хвостом / громко лаяла / грызла кость.",
+        "learn": 0
+      },
+      {
+        "eng": "children playing with the family dog",
+        "ru": "дети, которые играют с домашней собакой",
+        "learn": 0
+      },
+      {
+        "eng": "wild dogs such as the Australian dingo",
+        "ru": "дикие собаки вроде австралийских динго",
+        "learn": 0
+      },
+      {
+        "eng": "His faithful dog shall bear him company.",
+        "ru": "Верный пёс скрасит его одиночество.",
+        "learn": 0
+      },
+      {
+        "eng": "Four puppies, that is 3 dogs and a bitch.",
+        "ru": "Четыре щенка, из них три кобеля и одна сука.",
+        "learn": 0
+      },
+      {
+        "eng": "Spies and informers were dogging his footsteps.",
+        "ru": "За каждым его шагом следили шпики и стукачи.",
+        "learn": 0
+      },
+      {
+        "eng": "We didn't want puppies so we had our dog neutered.",
+        "ru": "Мы не хотели щенков, поэтому мы стерилизовали свою собаку.",
+        "learn": 0
+      }
+    ]
+  }
 }

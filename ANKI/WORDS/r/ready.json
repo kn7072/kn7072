@@ -1,91 +1,178 @@
 {
-    "ready": {
-        "comment": [
-            "read",
-            "reading",
-            "readily",
-            "reader"
-        ],
-        "translate": "готовый, быстрый, готовить, наготове, наличные деньги",
-        "transcription": " |ˈredi|",
-        "antonyms": [],
-        "mnemonic": [
-            "ready [рэдъи] готовый - Гостиница («Реди-сон») готовый объект для террористов.",
-            "already [ɔ:l'rɛdɪ]\nready ['rɛdɪ] - готов, склонный\n***\nУЖЕ властью король|бредит. (это) already\nУЖЕ заснул, во сне он|бредит. (это) already",
-            "read [ri: d]\nrid [rıd]\n***\nЧИТАТЬ книги про Мадрид. (это) read\n***\nОСВОБОЖДАЙСЯ и мотай в Мадрид. (это) rid\nПОКОНЧИШЬ с дурными привычками - поедешь\nв Мадрид. (это) rid\n***\nГОТОВ ко сну и уже бредит. (это) ready ['rɛdɪ]\nСогласный, склонный, желающий."
-        ],
-        "examples": [
-            "I am ready.",
-            "Dinner is ready.",
-            "He was always ready to help us.",
-            "We are ready to begin.",
-            "Ready, set, go!",
-            "I had no ready answer to his question.",
-            "I feel ready to drop.",
-            "Are you ready to order?",
-            "I'll be ready in 10 minutes.",
-            "We're about ready to go.",
-            "Are you ready? Off we go.",
-            "As you are ready, let's go.",
-            "I tried to ready him for the bad news.",
-            "Both daughters were ready to fly the nest.",
-            "I'd better go and get ready.",
-            "Is everything ready for the exhibition?",
-            "She was ready and willing to work hard.",
-            "Supper's almost ready.",
-            "When will supper be ready?",
-            "Are you ready to move out?",
-            "He was ready to believe her.",
-            "I've got to get a room ready for our guests.",
-            "He has a ready tongue.",
-            "They're ready for the off.",
-            "Have a pad and pencil ready.",
-            "She readied herself to speak.",
-            "The car was packed and we were ready to roll.",
-            "They need to have ready access to police files.",
-            "I had my calculator ready.",
-            "He is ready for retirement."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я готов.",
-            "Обед готов.",
-            "Он всегда был готов помочь нам.",
-            "Мы готовы начать.",
-            "На старт, внимание, марш!",
-            "У меня не было готового ответа на его вопрос.",
-            "Я падаю с ног от усталости.",
-            "Вы готовы сделать заказ?",
-            "Я буду готов через десять минут.",
-            "Мы почти готовы идти.",
-            "Готов? Тогда поехали.",
-            "Раз ты готов, пойдём.",
-            "Я попытался подготовить его к плохим новостям.",
-            "Обе дочери были готовы покинуть отчий дом.",
-            "Лучше пойду подготовлюсь.",
-            "Всё ли готово для выставки?",
-            "Она была готова и горела желанием усердно работать.",
-            "Ужин почти готов.",
-            "Когда будет готов ужин?",
-            "Готовы к выходу? / Готовы выдвигаться?.",
-            "Он был готов ей поверить.",
-            "Я должен подготовить комнату для наших гостей.",
-            "Он за словом в карман не полезет.",
-            "Они приготовились к старту.",
-            "Приготовьте блокнот и карандаш.",
-            "Она приготовилась выступать.",
-            "Вещи были уложены в машину, и мы были готовы отправиться в путь.",
-            "Они должны иметь свободный доступ к полицейским досье.",
-            "Я держал свой калькулятор наготове.",
-            "Ему пора на пенсию."
-        ],
-        "stars": 3,
-        "groups": [
-            "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными",
-            "Инфинитив_с_to_после_прил((am,_is,_are_и_т._д.)_+_прилагательное_+_инфинитив)",
-            "Инфинитив",
-            "Инфинитив_с_to_после_прил(подлежащие_логическое_дополнение_инфинитива)",
-            "all_words"
-        ]
-    }
+  "ready": {
+    "comment": [
+      "read",
+      "reading",
+      "readily",
+      "reader"
+    ],
+    "translate": "готовый, быстрый, готовить, наготове, наличные деньги",
+    "transcription": " |ˈredi|",
+    "antonyms": [],
+    "mnemonic": [
+      "ready [рэдъи] готовый - Гостиница («Реди-сон») готовый объект для террористов.",
+      "already [ɔ:l'rɛdɪ]\nready ['rɛdɪ] - готов, склонный\n***\nУЖЕ властью король|бредит. (это) already\nУЖЕ заснул, во сне он|бредит. (это) already",
+      "read [ri: d]\nrid [rıd]\n***\nЧИТАТЬ книги про Мадрид. (это) read\n***\nОСВОБОЖДАЙСЯ и мотай в Мадрид. (это) rid\nПОКОНЧИШЬ с дурными привычками - поедешь\nв Мадрид. (это) rid\n***\nГОТОВ ко сну и уже бредит. (это) ready ['rɛdɪ]\nСогласный, склонный, желающий."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными",
+      "Инфинитив_с_to_после_прил((am,_is,_are_и_т._д.)_+_прилагательное_+_инфинитив)",
+      "Инфинитив",
+      "Инфинитив_с_to_после_прил(подлежащие_логическое_дополнение_инфинитива)"
+    ],
+    "examples": [
+      {
+        "eng": "I am ready.",
+        "ru": "Я готов.",
+        "learn": 0
+      },
+      {
+        "eng": "Dinner is ready.",
+        "ru": "Обед готов.",
+        "learn": 0
+      },
+      {
+        "eng": "He was always ready to help us.",
+        "ru": "Он всегда был готов помочь нам.",
+        "learn": 0
+      },
+      {
+        "eng": "We are ready to begin.",
+        "ru": "Мы готовы начать.",
+        "learn": 0
+      },
+      {
+        "eng": "Ready, set, go!",
+        "ru": "На старт, внимание, марш!",
+        "learn": 0
+      },
+      {
+        "eng": "I had no ready answer to his question.",
+        "ru": "У меня не было готового ответа на его вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "I feel ready to drop.",
+        "ru": "Я падаю с ног от усталости.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you ready to order?",
+        "ru": "Вы готовы сделать заказ?",
+        "learn": 1
+      },
+      {
+        "eng": "I'll be ready in 10 minutes.",
+        "ru": "Я буду готов через десять минут.",
+        "learn": 0
+      },
+      {
+        "eng": "We're about ready to go.",
+        "ru": "Мы почти готовы идти.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you ready? Off we go.",
+        "ru": "Готов? Тогда поехали.",
+        "learn": 0
+      },
+      {
+        "eng": "As you are ready, let's go.",
+        "ru": "Раз ты готов, пойдём.",
+        "learn": 0
+      },
+      {
+        "eng": "I tried to ready him for the bad news.",
+        "ru": "Я попытался подготовить его к плохим новостям.",
+        "learn": 0
+      },
+      {
+        "eng": "Both daughters were ready to fly the nest.",
+        "ru": "Обе дочери были готовы покинуть отчий дом.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd better go and get ready.",
+        "ru": "Лучше пойду подготовлюсь.",
+        "learn": 0
+      },
+      {
+        "eng": "Is everything ready for the exhibition?",
+        "ru": "Всё ли готово для выставки?",
+        "learn": 0
+      },
+      {
+        "eng": "She was ready and willing to work hard.",
+        "ru": "Она была готова и горела желанием усердно работать.",
+        "learn": 0
+      },
+      {
+        "eng": "Supper's almost ready.",
+        "ru": "Ужин почти готов.",
+        "learn": 1
+      },
+      {
+        "eng": "When will supper be ready?",
+        "ru": "Когда будет готов ужин?",
+        "learn": 0
+      },
+      {
+        "eng": "Are you ready to move out?",
+        "ru": "Готовы к выходу? / Готовы выдвигаться?.",
+        "learn": 0
+      },
+      {
+        "eng": "He was ready to believe her.",
+        "ru": "Он был готов ей поверить.",
+        "learn": 0
+      },
+      {
+        "eng": "I've got to get a room ready for our guests.",
+        "ru": "Я должен подготовить комнату для наших гостей.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a ready tongue.",
+        "ru": "Он за словом в карман не полезет.",
+        "learn": 0
+      },
+      {
+        "eng": "They're ready for the off.",
+        "ru": "Они приготовились к старту.",
+        "learn": 0
+      },
+      {
+        "eng": "Have a pad and pencil ready.",
+        "ru": "Приготовьте блокнот и карандаш.",
+        "learn": 1
+      },
+      {
+        "eng": "She readied herself to speak.",
+        "ru": "Она приготовилась выступать.",
+        "learn": 0
+      },
+      {
+        "eng": "The car was packed and we were ready to roll.",
+        "ru": "Вещи были уложены в машину, и мы были готовы отправиться в путь.",
+        "learn": 0
+      },
+      {
+        "eng": "They need to have ready access to police files.",
+        "ru": "Они должны иметь свободный доступ к полицейским досье.",
+        "learn": 0
+      },
+      {
+        "eng": "I had my calculator ready.",
+        "ru": "Я держал свой калькулятор наготове.",
+        "learn": 0
+      },
+      {
+        "eng": "He is ready for retirement.",
+        "ru": "Ему пора на пенсию.",
+        "learn": 0
+      }
+    ]
+  }
 }

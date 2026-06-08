@@ -1,88 +1,174 @@
 {
-    "shop": {
-        "comment": [
-            "shopping",
-            "workshop",
-            "bishop",
-            "shopkeeper",
-            "shopper",
-            "bookshop",
-            "chop"
-        ],
-        "translate": "магазин, цех, мастерская, делать покупки, цеховой",
-        "transcription": " |ʃɑːp|",
-        "antonyms": [],
-        "mnemonic": [
-            "shop [шоп] магазин - Магазин в (жоп-е)."
-        ],
-        "examples": [
-            "She works in a shop.",
-            "It's not available in the shops.",
-            "Many people now shop online.",
-            "I'm just going down to the shops.",
-            "I spent a happy afternoon wandering around the shops.",
-            "The generators are put together in the machine shop.",
-            "The shop carries only name brands.",
-            "I made a table in shop.",
-            "Where do you like to shop?",
-            "Shop rents are extremely high.",
-            "She goes shopping every Friday.",
-            "They live next door to the shop.",
-            "I took the car to the shop to get new brakes.",
-            "Never shop on your friends.",
-            "He was shopped by his ex-wife.",
-            "I'm all over the shop this morning.",
-            "The shop was boarded up.",
-            "I built a birdhouse in shop.",
-            "She always shops at Tesco's.",
-            "I built a birdhouse in shop.",
-            "The shop sells local crafts.",
-            "The shop sells organic food.",
-            "Doug made this table in shop.",
-            "She is shopping for a new car.",
-            "We're going to shop till we drop!",
-            "He keeps the shop when I am gone.",
-            "I'm shopping for a safe investment.",
-            "The store where we shop is closing.",
-            "She's shopping her idea for a film.",
-            "Cut off now before the shop closes."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она работает в магазине.",
-            "Этого нет в магазинах.",
-            "Сегодня многие делают покупки через Интернет.",
-            "Я как раз собираюсь пойти по магазинам.",
-            "Я счастливо провела день, блуждая по магазинам.",
-            "Данные генераторы собирают в механическом цехе.",
-            "Магазин торгует только фирменными товарами.",
-            "На уроке труда я изготовил стол. (амер.)",
-            "Куда вы любите ходить за покупками?",
-            "Аренда магазинов чрезвычайно высока.",
-            "Она ходит за покупками каждую пятницу.",
-            "Они живут по соседству с магазином.",
-            "Я отдал машину в сервис, чтобы поставить новые тормозные колодки.",
-            "Никогда не доноси на своих друзей.",
-            "Его сдала /заложила/ бывшая жена.",
-            "Сегодня с утра у меня всё идёт, как попало. (брит. all over the shop — как попало, в беспорядке)",
-            "Окна магазина были заколочены досками.",
-            "Я сделал скворечник на уроке труда.",
-            "Она всегда скупается в Теско.",
-            "На уроке труда я изготовил скворечник.",
-            "Магазин торгует ремесленными изделиями местного производства.",
-            "В этом магазине можно приобрести органические продукты питания.",
-            "Даг сделал этот стол в школьной мастерской /на уроке труда/.",
-            "Она подыскивает себе новую машину.",
-            "Будем ходить по магазинам до упаду!",
-            "Он получит магазин, когда меня не станет.",
-            "Я присматриваюсь, куда бы понадёжнее поместить капитал.",
-            "(Тот) магазин, где мы обычно делаем покупки, закрывается.",
-            "Она пытается продать свой замысел фильма.",
-            "Бегите прямо сейчас, пока не закрылся магазин."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "shop": {
+    "comment": [
+      "shopping",
+      "workshop",
+      "bishop",
+      "shopkeeper",
+      "shopper",
+      "bookshop",
+      "chop"
+    ],
+    "translate": "магазин, цех, мастерская, делать покупки, цеховой",
+    "transcription": " |ʃɑːp|",
+    "antonyms": [],
+    "mnemonic": [
+      "shop [шоп] магазин - Магазин в (жоп-е)."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She works in a shop.",
+        "ru": "Она работает в магазине.",
+        "learn": 0
+      },
+      {
+        "eng": "It's not available in the shops.",
+        "ru": "Этого нет в магазинах.",
+        "learn": 0
+      },
+      {
+        "eng": "Many people now shop online.",
+        "ru": "Сегодня многие делают покупки через Интернет.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm just going down to the shops.",
+        "ru": "Я как раз собираюсь пойти по магазинам.",
+        "learn": 0
+      },
+      {
+        "eng": "I spent a happy afternoon wandering around the shops.",
+        "ru": "Я счастливо провела день, блуждая по магазинам.",
+        "learn": 0
+      },
+      {
+        "eng": "The generators are put together in the machine shop.",
+        "ru": "Данные генераторы собирают в механическом цехе.",
+        "learn": 0
+      },
+      {
+        "eng": "The shop carries only name brands.",
+        "ru": "Магазин торгует только фирменными товарами.",
+        "learn": 0
+      },
+      {
+        "eng": "I made a table in shop.",
+        "ru": "На уроке труда я изготовил стол. (амер.)",
+        "learn": 0
+      },
+      {
+        "eng": "Where do you like to shop?",
+        "ru": "Куда вы любите ходить за покупками?",
+        "learn": 0
+      },
+      {
+        "eng": "Shop rents are extremely high.",
+        "ru": "Аренда магазинов чрезвычайно высока.",
+        "learn": 1
+      },
+      {
+        "eng": "She goes shopping every Friday.",
+        "ru": "Она ходит за покупками каждую пятницу.",
+        "learn": 0
+      },
+      {
+        "eng": "They live next door to the shop.",
+        "ru": "Они живут по соседству с магазином.",
+        "learn": 0
+      },
+      {
+        "eng": "I took the car to the shop to get new brakes.",
+        "ru": "Я отдал машину в сервис, чтобы поставить новые тормозные колодки.",
+        "learn": 0
+      },
+      {
+        "eng": "Never shop on your friends.",
+        "ru": "Никогда не доноси на своих друзей.",
+        "learn": 0
+      },
+      {
+        "eng": "He was shopped by his ex-wife.",
+        "ru": "Его сдала /заложила/ бывшая жена.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm all over the shop this morning.",
+        "ru": "Сегодня с утра у меня всё идёт, как попало. (брит. all over the shop — как попало, в беспорядке)",
+        "learn": 0
+      },
+      {
+        "eng": "The shop was boarded up.",
+        "ru": "Окна магазина были заколочены досками.",
+        "learn": 0
+      },
+      {
+        "eng": "I built a birdhouse in shop.",
+        "ru": "Я сделал скворечник на уроке труда.",
+        "learn": 0
+      },
+      {
+        "eng": "She always shops at Tesco's.",
+        "ru": "Она всегда скупается в Теско.",
+        "learn": 0
+      },
+      {
+        "eng": "I built a birdhouse in shop.",
+        "ru": "На уроке труда я изготовил скворечник.",
+        "learn": 0
+      },
+      {
+        "eng": "The shop sells local crafts.",
+        "ru": "Магазин торгует ремесленными изделиями местного производства.",
+        "learn": 1
+      },
+      {
+        "eng": "The shop sells organic food.",
+        "ru": "В этом магазине можно приобрести органические продукты питания.",
+        "learn": 0
+      },
+      {
+        "eng": "Doug made this table in shop.",
+        "ru": "Даг сделал этот стол в школьной мастерской /на уроке труда/.",
+        "learn": 0
+      },
+      {
+        "eng": "She is shopping for a new car.",
+        "ru": "Она подыскивает себе новую машину.",
+        "learn": 0
+      },
+      {
+        "eng": "We're going to shop till we drop!",
+        "ru": "Будем ходить по магазинам до упаду!",
+        "learn": 0
+      },
+      {
+        "eng": "He keeps the shop when I am gone.",
+        "ru": "Он получит магазин, когда меня не станет.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm shopping for a safe investment.",
+        "ru": "Я присматриваюсь, куда бы понадёжнее поместить капитал.",
+        "learn": 0
+      },
+      {
+        "eng": "The store where we shop is closing.",
+        "ru": "(Тот) магазин, где мы обычно делаем покупки, закрывается.",
+        "learn": 0
+      },
+      {
+        "eng": "She's shopping her idea for a film.",
+        "ru": "Она пытается продать свой замысел фильма.",
+        "learn": 0
+      },
+      {
+        "eng": "Cut off now before the shop closes.",
+        "ru": "Бегите прямо сейчас, пока не закрылся магазин.",
+        "learn": 0
+      }
+    ]
+  }
 }

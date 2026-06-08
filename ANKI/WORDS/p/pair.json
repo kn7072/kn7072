@@ -1,85 +1,172 @@
 {
-    "pair": {
-        "comment": [
-            "affair, pair - роман(дело), пары",
-            "repair",
-            "despair"
-        ],
-        "translate": "пара, чета, партнеры, парный, спаривать, спариваться",
-        "transcription": " |per|",
-        "antonyms": [],
-        "mnemonic": [
-            "pair [лея] пара - Всего пара рюмок и он (пея-н)."
-        ],
-        "examples": [
-            "She bought a pair of shoes.",
-            "Just clear out, the pair of you! разг.",
-            "The company is run by a pair of brothers.",
-            "a good pair of walking shoes",
-            "They will make a lovely pair dancing together.",
-            "Now sod off, the pair of you!",
-            "Those two kids make quite a pair.",
-            "I need a new pair of glasses.",
-            "It's a different pair of shoes / boots!",
-            "Oh, get out, the pair of you.",
-            "I need a new pair of trousers for work.",
-            "Let us drink to the happy pair.",
-            "He slipped on a pair of blue jeans.",
-            "a pair of old worn-out walking boots",
-            "I threw on a pair of jeans and a T-shirt.",
-            "She bought a new pair of trainers especially for the trip.",
-            "a neatly creased pair of pants",
-            "She was wearing a cool pair of shades.",
-            "a pair of gloves trimmed with fake fur",
-            "He was wearing a pair of mirrored shades.",
-            "I've got a pair of aces.",
-            "A pair of posts marked the goal.",
-            "a pair of expensive handmade shoes",
-            "He got a pair of kings in the draw.",
-            "The pair had a baby, Josh, in August.",
-            "a pair of robins courting",
-            "a pair of verminous old cats",
-            "a fine pair of Chippendale chairs",
-            "I just saw a nice pair of halves.",
-            "The engaged couple make a charming pair."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она купила пару туфель.",
-            "А ну, убирайтесь, вы оба!",
-            "Компанией управляют два брата.",
-            "хорошая пара прогулочной обуви",
-            "Они будут прекрасной парой, когда будут танцевать вместе.",
-            "А теперь, вы двое, проваливайте!",
-            "Те двое детей – отличная пара. (речь может идти о детях, подростках, молодых людях)",
-            "Мне нужны новые очки.",
-            "Это же совсем другое дело! (идиома)",
-            "Убирайтесь отсюда оба.",
-            "Мне нужна новая пара брюк для работы.",
-            "Давайте выпьем за счастье молодых.",
-            "Он нацепил джинсы.",
-            "пара старых изношенных ботинок",
-            "Я набросила на себя джинсы и футболку.",
-            "Специально для этой поездки она купила новую пару кроссовок.",
-            "аккуратно выглаженные брюки",
-            "На ней были крутые солнечные очки.",
-            "Пара перчаток, отделанных (отороченных) искуственным мехом",
-            "На нём были зеркальные солнцезащитные очки.",
-            "Мне пришла пара тузов.",
-            "Ворота заменяла пара столбов.",
-            "пара дорогой обуви ручной работы",
-            "В прикупе он получил пару королей.",
-            "В августе у супругов родился ребёнок - Джош.",
-            "пара малиновок в процессе ухаживания",
-            "пара старых блохастых котов",
-            "отличная пара стульев в стиле \"чиппендейл\"",
-            "Только что мне попалась пара неплохих полуботинок.",
-            "Будущие жених и невеста — прекрасная пара."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "air_=_[er]"
-        ]
-    }
+  "pair": {
+    "comment": [
+      "affair, pair - роман(дело), пары",
+      "repair",
+      "despair"
+    ],
+    "translate": "пара, чета, партнеры, парный, спаривать, спариваться",
+    "transcription": " |per|",
+    "antonyms": [],
+    "mnemonic": [
+      "pair [лея] пара - Всего пара рюмок и он (пея-н)."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "air_=_[er]"
+    ],
+    "examples": [
+      {
+        "eng": "She bought a pair of shoes.",
+        "ru": "Она купила пару туфель.",
+        "learn": 0
+      },
+      {
+        "eng": "Just clear out, the pair of you! разг.",
+        "ru": "А ну, убирайтесь, вы оба!",
+        "learn": 0
+      },
+      {
+        "eng": "The company is run by a pair of brothers.",
+        "ru": "Компанией управляют два брата.",
+        "learn": 0
+      },
+      {
+        "eng": "a good pair of walking shoes",
+        "ru": "хорошая пара прогулочной обуви",
+        "learn": 0
+      },
+      {
+        "eng": "They will make a lovely pair dancing together.",
+        "ru": "Они будут прекрасной парой, когда будут танцевать вместе.",
+        "learn": 0
+      },
+      {
+        "eng": "Now sod off, the pair of you!",
+        "ru": "А теперь, вы двое, проваливайте!",
+        "learn": 0
+      },
+      {
+        "eng": "Those two kids make quite a pair.",
+        "ru": "Те двое детей – отличная пара. (речь может идти о детях, подростках, молодых людях)",
+        "learn": 0
+      },
+      {
+        "eng": "I need a new pair of glasses.",
+        "ru": "Мне нужны новые очки.",
+        "learn": 1
+      },
+      {
+        "eng": "It's a different pair of shoes / boots!",
+        "ru": "Это же совсем другое дело! (идиома)",
+        "learn": 0
+      },
+      {
+        "eng": "Oh, get out, the pair of you.",
+        "ru": "Убирайтесь отсюда оба.",
+        "learn": 0
+      },
+      {
+        "eng": "I need a new pair of trousers for work.",
+        "ru": "Мне нужна новая пара брюк для работы.",
+        "learn": 1
+      },
+      {
+        "eng": "Let us drink to the happy pair.",
+        "ru": "Давайте выпьем за счастье молодых.",
+        "learn": 0
+      },
+      {
+        "eng": "He slipped on a pair of blue jeans.",
+        "ru": "Он нацепил джинсы.",
+        "learn": 0
+      },
+      {
+        "eng": "a pair of old worn-out walking boots",
+        "ru": "пара старых изношенных ботинок",
+        "learn": 0
+      },
+      {
+        "eng": "I threw on a pair of jeans and a T-shirt.",
+        "ru": "Я набросила на себя джинсы и футболку.",
+        "learn": 0
+      },
+      {
+        "eng": "She bought a new pair of trainers especially for the trip.",
+        "ru": "Специально для этой поездки она купила новую пару кроссовок.",
+        "learn": 0
+      },
+      {
+        "eng": "a neatly creased pair of pants",
+        "ru": "аккуратно выглаженные брюки",
+        "learn": 0
+      },
+      {
+        "eng": "She was wearing a cool pair of shades.",
+        "ru": "На ней были крутые солнечные очки.",
+        "learn": 0
+      },
+      {
+        "eng": "a pair of gloves trimmed with fake fur",
+        "ru": "Пара перчаток, отделанных (отороченных) искуственным мехом",
+        "learn": 0
+      },
+      {
+        "eng": "He was wearing a pair of mirrored shades.",
+        "ru": "На нём были зеркальные солнцезащитные очки.",
+        "learn": 0
+      },
+      {
+        "eng": "I've got a pair of aces.",
+        "ru": "Мне пришла пара тузов.",
+        "learn": 0
+      },
+      {
+        "eng": "A pair of posts marked the goal.",
+        "ru": "Ворота заменяла пара столбов.",
+        "learn": 0
+      },
+      {
+        "eng": "a pair of expensive handmade shoes",
+        "ru": "пара дорогой обуви ручной работы",
+        "learn": 0
+      },
+      {
+        "eng": "He got a pair of kings in the draw.",
+        "ru": "В прикупе он получил пару королей.",
+        "learn": 0
+      },
+      {
+        "eng": "The pair had a baby, Josh, in August.",
+        "ru": "В августе у супругов родился ребёнок - Джош.",
+        "learn": 0
+      },
+      {
+        "eng": "a pair of robins courting",
+        "ru": "пара малиновок в процессе ухаживания",
+        "learn": 0
+      },
+      {
+        "eng": "a pair of verminous old cats",
+        "ru": "пара старых блохастых котов",
+        "learn": 0
+      },
+      {
+        "eng": "a fine pair of Chippendale chairs",
+        "ru": "отличная пара стульев в стиле \"чиппендейл\"",
+        "learn": 0
+      },
+      {
+        "eng": "I just saw a nice pair of halves.",
+        "ru": "Только что мне попалась пара неплохих полуботинок.",
+        "learn": 0
+      },
+      {
+        "eng": "The engaged couple make a charming pair.",
+        "ru": "Будущие жених и невеста — прекрасная пара.",
+        "learn": 0
+      }
+    ]
+  }
 }

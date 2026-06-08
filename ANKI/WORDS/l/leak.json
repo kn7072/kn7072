@@ -1,85 +1,171 @@
 {
-    "leak": {
-        "comment": [
-            "bleak",
-            "lick"
-        ],
-        "translate": "утечка, течь, утечка информации, просачиваться, подтекать, утечь",
-        "transcription": " |liːk|",
-        "antonyms": [],
-        "mnemonic": [
-            "leak [ли:к] утечка - Утечка (лик-ёра).",
-            "leak [li:k]\n***\nПосле УТЕЧКИ информации нет улик. (это) leak\nПротекать, просачиваться.\n***\nКартина мрачная \"bleak\",\nкогда в крыше течь \"leak\".",
-            "lick [lik]\nleak [li:k]\n***\nСЛИЗАЛ помаду Фаберлик. (это) lick\nОБЛИЗЫВАЕТ меня кулик. (это) lick\nЛИЗАЛ мороженое кулик. (это) lick\nОблизывание.\n***\nУТЕЧЁТ информация и нет улик. (это) leak\nУтечка.\n***\nКогда кот облизывается \"liсk\",\nты его не пинай \"kick\"."
-        ],
-        "examples": [
-            "The roof leaks (rain).",
-            "Water leaked into the basement.",
-            "He leaked information to newspapers.",
-            "Water was leaking from the pipe.",
-            "The roof is leaking.",
-            "The oil leaked out of the tank.",
-            "The boat sprung a leak.",
-            "The news were leaked to the paper.",
-            "He had to take a leak.",
-            "There is a leak in the ceiling.",
-            "It will probably never be known who leaked the story to the press.",
-            "Air leaked out of the tire.",
-            "There's a hole in the bucket and the water is leaking out.",
-            "Someone leaked the story to the press.",
-            "You'd better call someone to fix that leak.",
-            "Water dripped from a leak in the ceiling.",
-            "They traced the leak to a secretary.",
-            "The building blew up because of a gas leak.",
-            "The leak was caused by several small punctures in the rubber gasket.",
-            "The boat was leaking water.",
-            "The container leaked gasoline.",
-            "A gas leak caused the explosion.",
-            "I made a useless attempt at fixing the leak.",
-            "Water was leaking through a hole in the roof.",
-            "The report's findings had been leaked.",
-            "The cracked pipe leaked fumes into the room.",
-            "Water leaked out of the can into the backpack.",
-            "Drips of water fell from a leak in the ceiling.",
-            "A tanker is leaking oil off the coast of Scotland.",
-            "The explosion was caused by a gas leak from the water heater."
-        ],
-        "example_translate": [
-            "Крыша протекает.",
-            "Вода просочилась в подвал.",
-            "Он передавал информацию в газеты.",
-            "Из трубы подтекала вода.",
-            "Крыша протекает.",
-            "Масло вытекло из бака.",
-            "Лодка дала течь.",
-            "Новость просочилась в газету.",
-            "Ему нужно было отлить /пописать/.",
-            "Потолок протекает.",
-            "Наверное мы так никогда и не узнаем, от кого эта история просочилась в прессу.",
-            "Из шины начал выходить воздух.",
-            "В ведре дыра, и вода просачивается.",
-            "Кто-то слил эту историю прессе.",
-            "Надо бы позвать кого-нибудь, чтобы заделал эту течь.",
-            "Из течи в потолке капала вода.",
-            "Они выяснили, что утечка информации шла от секретарши.",
-            "Здание взорвалось из-за утечки газа.",
-            "Причиной протечки было несколько мелких отверстий в резиновой прокладке.",
-            "Лодка протекала. / В лодке была течь.",
-            "Из канистры протёк бензин.",
-            "Причиной взрыва стала утечка газа.",
-            "Я сделал бесплодную попытку устранить утечку.",
-            "Через отверстие в крыше протекала вода.",
-            "Выводы доклада были преднамеренно \"слиты\" прессе.",
-            "Из трещины в трубе в комнату произошла утечка паров.",
-            "Из банки в рюкзак просочилась вода.",
-            "Из течи в потолке падали капли воды.",
-            "У побережья Шотландии происходит утечка нефти из танкера.",
-            "Взрыв был вызван утечкой газа из водонагревателя."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "leak": {
+    "comment": [
+      "bleak",
+      "lick"
+    ],
+    "translate": "утечка, течь, утечка информации, просачиваться, подтекать, утечь",
+    "transcription": " |liːk|",
+    "antonyms": [],
+    "mnemonic": [
+      "leak [ли:к] утечка - Утечка (лик-ёра).",
+      "leak [li:k]\n***\nПосле УТЕЧКИ информации нет улик. (это) leak\nПротекать, просачиваться.\n***\nКартина мрачная \"bleak\",\nкогда в крыше течь \"leak\".",
+      "lick [lik]\nleak [li:k]\n***\nСЛИЗАЛ помаду Фаберлик. (это) lick\nОБЛИЗЫВАЕТ меня кулик. (это) lick\nЛИЗАЛ мороженое кулик. (это) lick\nОблизывание.\n***\nУТЕЧЁТ информация и нет улик. (это) leak\nУтечка.\n***\nКогда кот облизывается \"liсk\",\nты его не пинай \"kick\"."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The roof leaks (rain).",
+        "ru": "Крыша протекает.",
+        "learn": 1
+      },
+      {
+        "eng": "Water leaked into the basement.",
+        "ru": "Вода просочилась в подвал.",
+        "learn": 0
+      },
+      {
+        "eng": "He leaked information to newspapers.",
+        "ru": "Он передавал информацию в газеты.",
+        "learn": 0
+      },
+      {
+        "eng": "Water was leaking from the pipe.",
+        "ru": "Из трубы подтекала вода.",
+        "learn": 0
+      },
+      {
+        "eng": "The roof is leaking.",
+        "ru": "Крыша протекает.",
+        "learn": 1
+      },
+      {
+        "eng": "The oil leaked out of the tank.",
+        "ru": "Масло вытекло из бака.",
+        "learn": 0
+      },
+      {
+        "eng": "The boat sprung a leak.",
+        "ru": "Лодка дала течь.",
+        "learn": 0
+      },
+      {
+        "eng": "The news were leaked to the paper.",
+        "ru": "Новость просочилась в газету.",
+        "learn": 0
+      },
+      {
+        "eng": "He had to take a leak.",
+        "ru": "Ему нужно было отлить /пописать/.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a leak in the ceiling.",
+        "ru": "Потолок протекает.",
+        "learn": 1
+      },
+      {
+        "eng": "It will probably never be known who leaked the story to the press.",
+        "ru": "Наверное мы так никогда и не узнаем, от кого эта история просочилась в прессу.",
+        "learn": 0
+      },
+      {
+        "eng": "Air leaked out of the tire.",
+        "ru": "Из шины начал выходить воздух.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a hole in the bucket and the water is leaking out.",
+        "ru": "В ведре дыра, и вода просачивается.",
+        "learn": 1
+      },
+      {
+        "eng": "Someone leaked the story to the press.",
+        "ru": "Кто-то слил эту историю прессе.",
+        "learn": 0
+      },
+      {
+        "eng": "You'd better call someone to fix that leak.",
+        "ru": "Надо бы позвать кого-нибудь, чтобы заделал эту течь.",
+        "learn": 0
+      },
+      {
+        "eng": "Water dripped from a leak in the ceiling.",
+        "ru": "Из течи в потолке капала вода.",
+        "learn": 0
+      },
+      {
+        "eng": "They traced the leak to a secretary.",
+        "ru": "Они выяснили, что утечка информации шла от секретарши.",
+        "learn": 0
+      },
+      {
+        "eng": "The building blew up because of a gas leak.",
+        "ru": "Здание взорвалось из-за утечки газа.",
+        "learn": 0
+      },
+      {
+        "eng": "The leak was caused by several small punctures in the rubber gasket.",
+        "ru": "Причиной протечки было несколько мелких отверстий в резиновой прокладке.",
+        "learn": 0
+      },
+      {
+        "eng": "The boat was leaking water.",
+        "ru": "Лодка протекала. / В лодке была течь.",
+        "learn": 0
+      },
+      {
+        "eng": "The container leaked gasoline.",
+        "ru": "Из канистры протёк бензин.",
+        "learn": 1
+      },
+      {
+        "eng": "A gas leak caused the explosion.",
+        "ru": "Причиной взрыва стала утечка газа.",
+        "learn": 0
+      },
+      {
+        "eng": "I made a useless attempt at fixing the leak.",
+        "ru": "Я сделал бесплодную попытку устранить утечку.",
+        "learn": 1
+      },
+      {
+        "eng": "Water was leaking through a hole in the roof.",
+        "ru": "Через отверстие в крыше протекала вода.",
+        "learn": 0
+      },
+      {
+        "eng": "The report's findings had been leaked.",
+        "ru": "Выводы доклада были преднамеренно \"слиты\" прессе.",
+        "learn": 0
+      },
+      {
+        "eng": "The cracked pipe leaked fumes into the room.",
+        "ru": "Из трещины в трубе в комнату произошла утечка паров.",
+        "learn": 0
+      },
+      {
+        "eng": "Water leaked out of the can into the backpack.",
+        "ru": "Из банки в рюкзак просочилась вода.",
+        "learn": 0
+      },
+      {
+        "eng": "Drips of water fell from a leak in the ceiling.",
+        "ru": "Из течи в потолке падали капли воды.",
+        "learn": 0
+      },
+      {
+        "eng": "A tanker is leaking oil off the coast of Scotland.",
+        "ru": "У побережья Шотландии происходит утечка нефти из танкера.",
+        "learn": 0
+      },
+      {
+        "eng": "The explosion was caused by a gas leak from the water heater.",
+        "ru": "Взрыв был вызван утечкой газа из водонагревателя.",
+        "learn": 0
+      }
+    ]
+  }
 }

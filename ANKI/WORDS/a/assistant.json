@@ -1,81 +1,167 @@
 {
-    "assistant": {
-        "comment": [
-            "assist",
-            "assistance"
-        ],
-        "translate": "помощник, ассистент, лаборант, помогающий",
-        "transcription": " |əˈsɪstənt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She is looking for an assistant to help her answer e-mails.",
-            "The new assistant personnel manager has a diploma in human resources management.",
-            "The assistant will administer the test.",
-            "He's the director, no, the assistant director, of the company.",
-            "The shop assistant was very obliging.",
-            "She's now assistant marketing manager for the south east area.",
-            "an assistant to the store manager",
-            "He deputized me as his assistant.",
-            "an assistant to the college president",
-            "The lab assistant was wearing a white overall.",
-            "a wealthy executive who has a personal assistant",
-            "the company's newly appointed assistant director",
-            "He has recently been promoted to Assistant Manager.",
-            "The doctor's assistant was up a ladder in the stockroom.",
-            "Her smile \"wandered\" the assistant, he promptly lost grip.",
-            "'Would it help if you had an assistant?' 'It would indeed.'",
-            "Her assistant was accused of theft and fraud by the police.",
-            "a friendly warning to the new assistant about the office lecher",
-            "When the coach quit, her assistant inherited a last-place team.",
-            "Getting a new assistant will lighten the workload considerably.",
-            "The case is being prosecuted by the assistant district attorney.",
-            "The director moved more responsibilities onto his new assistant.",
-            "She complained that she was being bullied by the assistant manager.",
-            "Hiring an assistant has freed him to spend more time with his family.",
-            "They hired a supremely incapable assistant who only made a mess of things.",
-            "'Don't just stand there, give me a hand,' she barked at the shop assistant.",
-            "The assistant's job was to shield the president from such footling problems.",
-            "The assistant took my measurements and showed me what was available in my size.",
-            "They tried to figure out how the illusionist made his assistant disappear from the stage.",
-            "She was promoted from assistant editor to associate editor and may soon be promoted to senior editor."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она ищет помощника, который отвечал бы на электронную почту.",
-            "Новый помощник менеджера по персоналу имеет диплом по управлению кадрами.",
-            "Помощник проведет тестирование.",
-            "Он директор, — нет, помощник директора — этой компании.",
-            "Продавец (в магазине) был очень любезен /услужлив/.",
-            "Сейчас она является помощником руководителя отдела маркетинга по юго-восточному району.",
-            "помощник директора магазина",
-            "Он назначил меня своим ассистентом.",
-            "помощник президента колледжа",
-            "На лаборанте был белый халат.",
-            "богатый чиновник, у которого есть личный помощник",
-            "недавно назначенный помощник директора данной компании",
-            "Недавно его повысили до помощника управляющего.",
-            "Фельдшер стоял на лестнице в кладовой.",
-            "Её улыбка смутила помощника, и он сразу потерял контроль над ситуацией.",
-            "— Было бы лучше, если бы у вас был помощник? — Безусловно, да.",
-            "Полиция обвинила её помощника в воровстве и мошенничестве.",
-            "дружеское предупреждение новой помощнице по поводу местного развратника",
-            "Когда тренер подала в отставку, во главе шедшей на последнем месте команды встал её помощник.",
-            "Приход нового помощника существенно уменьшит нагрузку.",
-            "Обвинителем на этом процессе выступает помощник окружного прокурора.",
-            "Режиссер переложил больше обязанностей на своего нового помощника.",
-            "Она пожаловалась, что заместитель руководителя издевается на ней.",
-            "Приём на работу помощницы дал ему возможность проводить больше времени со своей семьёй.",
-            "Они наняли какого-то ужасно неумелого помощника, который только всё запутал.",
-            "— Что ты стоишь, помоги мне, — рявкнула она на продавца.",
-            "Задачей помощника было оградить президента от таких пустяковых проблем.",
-            "Продавец снял с меня мерку и показал мне то, что было в наличии в моём размере.",
-            "Они пытались понять, как иллюзионист заставил своего ассистента исчезнуть со сцены.",
-            "Она прошла путь от младшего редактора до ответственного редактора, и вскоре её, может быть, назначат на должность старшего редактора."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "assistant": {
+    "comment": [
+      "assist",
+      "assistance"
+    ],
+    "translate": "помощник, ассистент, лаборант, помогающий",
+    "transcription": " |əˈsɪstənt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She is looking for an assistant to help her answer e-mails.",
+        "ru": "Она ищет помощника, который отвечал бы на электронную почту.",
+        "learn": 0
+      },
+      {
+        "eng": "The new assistant personnel manager has a diploma in human resources management.",
+        "ru": "Новый помощник менеджера по персоналу имеет диплом по управлению кадрами.",
+        "learn": 1
+      },
+      {
+        "eng": "The assistant will administer the test.",
+        "ru": "Помощник проведет тестирование.",
+        "learn": 0
+      },
+      {
+        "eng": "He's the director, no, the assistant director, of the company.",
+        "ru": "Он директор, — нет, помощник директора — этой компании.",
+        "learn": 0
+      },
+      {
+        "eng": "The shop assistant was very obliging.",
+        "ru": "Продавец (в магазине) был очень любезен /услужлив/.",
+        "learn": 0
+      },
+      {
+        "eng": "She's now assistant marketing manager for the south east area.",
+        "ru": "Сейчас она является помощником руководителя отдела маркетинга по юго-восточному району.",
+        "learn": 0
+      },
+      {
+        "eng": "an assistant to the store manager",
+        "ru": "помощник директора магазина",
+        "learn": 0
+      },
+      {
+        "eng": "He deputized me as his assistant.",
+        "ru": "Он назначил меня своим ассистентом.",
+        "learn": 0
+      },
+      {
+        "eng": "an assistant to the college president",
+        "ru": "помощник президента колледжа",
+        "learn": 0
+      },
+      {
+        "eng": "The lab assistant was wearing a white overall.",
+        "ru": "На лаборанте был белый халат.",
+        "learn": 0
+      },
+      {
+        "eng": "a wealthy executive who has a personal assistant",
+        "ru": "богатый чиновник, у которого есть личный помощник",
+        "learn": 0
+      },
+      {
+        "eng": "the company's newly appointed assistant director",
+        "ru": "недавно назначенный помощник директора данной компании",
+        "learn": 0
+      },
+      {
+        "eng": "He has recently been promoted to Assistant Manager.",
+        "ru": "Недавно его повысили до помощника управляющего.",
+        "learn": 0
+      },
+      {
+        "eng": "The doctor's assistant was up a ladder in the stockroom.",
+        "ru": "Фельдшер стоял на лестнице в кладовой.",
+        "learn": 0
+      },
+      {
+        "eng": "Her smile \"wandered\" the assistant, he promptly lost grip.",
+        "ru": "Её улыбка смутила помощника, и он сразу потерял контроль над ситуацией.",
+        "learn": 0
+      },
+      {
+        "eng": "'Would it help if you had an assistant?' 'It would indeed.'",
+        "ru": "— Было бы лучше, если бы у вас был помощник? — Безусловно, да.",
+        "learn": 1
+      },
+      {
+        "eng": "Her assistant was accused of theft and fraud by the police.",
+        "ru": "Полиция обвинила её помощника в воровстве и мошенничестве.",
+        "learn": 1
+      },
+      {
+        "eng": "a friendly warning to the new assistant about the office lecher",
+        "ru": "дружеское предупреждение новой помощнице по поводу местного развратника",
+        "learn": 0
+      },
+      {
+        "eng": "When the coach quit, her assistant inherited a last-place team.",
+        "ru": "Когда тренер подала в отставку, во главе шедшей на последнем месте команды встал её помощник.",
+        "learn": 0
+      },
+      {
+        "eng": "Getting a new assistant will lighten the workload considerably.",
+        "ru": "Приход нового помощника существенно уменьшит нагрузку.",
+        "learn": 1
+      },
+      {
+        "eng": "The case is being prosecuted by the assistant district attorney.",
+        "ru": "Обвинителем на этом процессе выступает помощник окружного прокурора.",
+        "learn": 1
+      },
+      {
+        "eng": "The director moved more responsibilities onto his new assistant.",
+        "ru": "Режиссер переложил больше обязанностей на своего нового помощника.",
+        "learn": 0
+      },
+      {
+        "eng": "She complained that she was being bullied by the assistant manager.",
+        "ru": "Она пожаловалась, что заместитель руководителя издевается на ней.",
+        "learn": 1
+      },
+      {
+        "eng": "Hiring an assistant has freed him to spend more time with his family.",
+        "ru": "Приём на работу помощницы дал ему возможность проводить больше времени со своей семьёй.",
+        "learn": 0
+      },
+      {
+        "eng": "They hired a supremely incapable assistant who only made a mess of things.",
+        "ru": "Они наняли какого-то ужасно неумелого помощника, который только всё запутал.",
+        "learn": 0
+      },
+      {
+        "eng": "'Don't just stand there, give me a hand,' she barked at the shop assistant.",
+        "ru": "— Что ты стоишь, помоги мне, — рявкнула она на продавца.",
+        "learn": 0
+      },
+      {
+        "eng": "The assistant's job was to shield the president from such footling problems.",
+        "ru": "Задачей помощника было оградить президента от таких пустяковых проблем.",
+        "learn": 0
+      },
+      {
+        "eng": "The assistant took my measurements and showed me what was available in my size.",
+        "ru": "Продавец снял с меня мерку и показал мне то, что было в наличии в моём размере.",
+        "learn": 0
+      },
+      {
+        "eng": "They tried to figure out how the illusionist made his assistant disappear from the stage.",
+        "ru": "Они пытались понять, как иллюзионист заставил своего ассистента исчезнуть со сцены.",
+        "learn": 0
+      },
+      {
+        "eng": "She was promoted from assistant editor to associate editor and may soon be promoted to senior editor.",
+        "ru": "Она прошла путь от младшего редактора до ответственного редактора, и вскоре её, может быть, назначат на должность старшего редактора.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,84 +1,171 @@
 {
-    "decision": {
-        "comment": [
-            "decide",
-            "decisive",
-            "decision-making"
-        ],
-        "translate": "решение, определение, решимость, решительность",
-        "transcription": " |dɪˈsɪʒn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I need to think about it. It's a big decision.",
-            "Have you made a decision?",
-            "We made the decision to accept their offer.",
-            "I'll stick with my decision.",
-            "John applauded my decision.",
-            "We left this decision up to her.",
-            "The decision of the House of Lords is final.",
-            "It was a collective decision.",
-            "I think you've made the right decision.",
-            "Only you can make this decision.",
-            "They later regretted the decision.",
-            "We need someone who will act with decision even under pressure.",
-            "The decision is still hanging.",
-            "It was an easy decision to make.",
-            "That decision set off a cascade of events.",
-            "I can't make a decision just yet.",
-            "It seems a foolish decision now.",
-            "He had to make a decision on the spot.",
-            "Her decision to live overseas grieved her mother.",
-            "The judges' decision is final.",
-            "His decision was advantageous to us.",
-            "Can you hurry the decision along?",
-            "I've never regretted the decision.",
-            "I was strengthened in this decision.",
-            "We plan to appeal the court's decision.",
-            "He does not intend to rush his decision.",
-            "All of us had a share in making the decision.",
-            "I was confused to learn of his latest decision.",
-            "This decision caused a few raised eyebrows (=surprised some people).",
-            "The judge's decision is final"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мне нужно подумать. Это очень серьёзное решение.",
-            "Вы уже приняли решение?",
-            "Мы решили принять их предложение.",
-            "Я не отступлю от своего решения.",
-            "Джон одобрил моё решение.",
-            "Мы предоставили ей решать этот вопрос.",
-            "Решение Палаты лордов является окончательным.",
-            "Это было общее решение.",
-            "Мне кажется, ты принял правильное решение.",
-            "Только ты можешь принять это решение.",
-            "Впоследствии они пожалели об этом решении.",
-            "Нам нужен человек, который будет действовать решительно даже в условиях стресса.",
-            "Решение всё ещё не принято.",
-            "На это было легко решиться. / Решение это далось легко.",
-            "За этим решением последовала череда событий.",
-            "Я пока что не могу принять (какое-то) решение.",
-            "Сейчас это решение кажется глупым.",
-            "Ему пришлось принять решение на месте.",
-            "Её решение жить за границей глубоко опечалило её мать.",
-            "Решение судей является окончательным.",
-            "Его решение было благоприятно для нас.",
-            "Ты можешь ускорить принятие решения?",
-            "Я никогда не жалел об этом решении.",
-            "Меня поддержали в этом решении.",
-            "Мы намерены обжаловать данное решение суда.",
-            "Он не намерен торопиться с решением.",
-            "В принятии данного решения приняли участие все мы.",
-            "Я пришёл в замешательство, когда узнал о его последнем решении.",
-            "Это решение вызвало некоторое удивление (т.е. удивило некоторых людей).",
-            "Решение судьи является окончательным."
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив_с_to_после_сущ",
-            "Инфинитив",
-            "all_words"
-        ]
-    }
+  "decision": {
+    "comment": [
+      "decide",
+      "decisive",
+      "decision-making"
+    ],
+    "translate": "решение, определение, решимость, решительность",
+    "transcription": " |dɪˈsɪʒn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_с_to_после_сущ",
+      "Инфинитив"
+    ],
+    "examples": [
+      {
+        "eng": "I need to think about it. It's a big decision.",
+        "ru": "Мне нужно подумать. Это очень серьёзное решение.",
+        "learn": 0
+      },
+      {
+        "eng": "Have you made a decision?",
+        "ru": "Вы уже приняли решение?",
+        "learn": 0
+      },
+      {
+        "eng": "We made the decision to accept their offer.",
+        "ru": "Мы решили принять их предложение.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll stick with my decision.",
+        "ru": "Я не отступлю от своего решения.",
+        "learn": 0
+      },
+      {
+        "eng": "John applauded my decision.",
+        "ru": "Джон одобрил моё решение.",
+        "learn": 0
+      },
+      {
+        "eng": "We left this decision up to her.",
+        "ru": "Мы предоставили ей решать этот вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "The decision of the House of Lords is final.",
+        "ru": "Решение Палаты лордов является окончательным.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a collective decision.",
+        "ru": "Это было общее решение.",
+        "learn": 1
+      },
+      {
+        "eng": "I think you've made the right decision.",
+        "ru": "Мне кажется, ты принял правильное решение.",
+        "learn": 0
+      },
+      {
+        "eng": "Only you can make this decision.",
+        "ru": "Только ты можешь принять это решение.",
+        "learn": 1
+      },
+      {
+        "eng": "They later regretted the decision.",
+        "ru": "Впоследствии они пожалели об этом решении.",
+        "learn": 0
+      },
+      {
+        "eng": "We need someone who will act with decision even under pressure.",
+        "ru": "Нам нужен человек, который будет действовать решительно даже в условиях стресса.",
+        "learn": 0
+      },
+      {
+        "eng": "The decision is still hanging.",
+        "ru": "Решение всё ещё не принято.",
+        "learn": 0
+      },
+      {
+        "eng": "It was an easy decision to make.",
+        "ru": "На это было легко решиться. / Решение это далось легко.",
+        "learn": 0
+      },
+      {
+        "eng": "That decision set off a cascade of events.",
+        "ru": "За этим решением последовала череда событий.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't make a decision just yet.",
+        "ru": "Я пока что не могу принять (какое-то) решение.",
+        "learn": 0
+      },
+      {
+        "eng": "It seems a foolish decision now.",
+        "ru": "Сейчас это решение кажется глупым.",
+        "learn": 1
+      },
+      {
+        "eng": "He had to make a decision on the spot.",
+        "ru": "Ему пришлось принять решение на месте.",
+        "learn": 0
+      },
+      {
+        "eng": "Her decision to live overseas grieved her mother.",
+        "ru": "Её решение жить за границей глубоко опечалило её мать.",
+        "learn": 1
+      },
+      {
+        "eng": "The judges' decision is final.",
+        "ru": "Решение судей является окончательным.",
+        "learn": 0
+      },
+      {
+        "eng": "His decision was advantageous to us.",
+        "ru": "Его решение было благоприятно для нас.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you hurry the decision along?",
+        "ru": "Ты можешь ускорить принятие решения?",
+        "learn": 0
+      },
+      {
+        "eng": "I've never regretted the decision.",
+        "ru": "Я никогда не жалел об этом решении.",
+        "learn": 0
+      },
+      {
+        "eng": "I was strengthened in this decision.",
+        "ru": "Меня поддержали в этом решении.",
+        "learn": 0
+      },
+      {
+        "eng": "We plan to appeal the court's decision.",
+        "ru": "Мы намерены обжаловать данное решение суда.",
+        "learn": 1
+      },
+      {
+        "eng": "He does not intend to rush his decision.",
+        "ru": "Он не намерен торопиться с решением.",
+        "learn": 1
+      },
+      {
+        "eng": "All of us had a share in making the decision.",
+        "ru": "В принятии данного решения приняли участие все мы.",
+        "learn": 0
+      },
+      {
+        "eng": "I was confused to learn of his latest decision.",
+        "ru": "Я пришёл в замешательство, когда узнал о его последнем решении.",
+        "learn": 0
+      },
+      {
+        "eng": "This decision caused a few raised eyebrows (=surprised some people).",
+        "ru": "Это решение вызвало некоторое удивление (т.е. удивило некоторых людей).",
+        "learn": 0
+      },
+      {
+        "eng": "The judge's decision is final",
+        "ru": "Решение судьи является окончательным.",
+        "learn": 0
+      }
+    ]
+  }
 }

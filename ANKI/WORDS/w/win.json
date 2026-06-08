@@ -1,90 +1,179 @@
 {
-    "win": {
-        "comment": [
-            "wind",
-            "windy",
-            "window",
-            "winner",
-            "winning",
-            "twin",
-            "winter",
-            "wine"
-        ],
-        "translate": "победа, выигрыш, выигрывать, побеждать, заработать",
-        "transcription": " |wɪn|",
-        "antonyms": [],
-        "mnemonic": [
-            "win [(ув)и'н] выиграть - Я выиграл бутылку (вин-а).",
-            "win [wın]\nwing [wɪŋ]\n***\nПОБЕДУ ОДЕРЖАЛ пингвин! (это) win\nПОБЕДУ ОДЕРЖАЛ мордвин! Свин! (это) win\nПобеда, выигрыш.\n***\nПобедил \"win\"\nмой близнец \"twin\".\n***\nКРЫЛОМ махнул пингвин. (это) wing"
-        ],
-        "examples": [
-            "I never win at cards.",
-            "You have won me.",
-            "The home team has won.",
-            "They played well, but they didn't win.",
-            "They won him to their side.",
-            "We won by just one point.",
-            "He won the first prize in the contest.",
-            "He was happy to get the win.",
-            "Her courage won her many friends and admirers.",
-            "This won our compassion.",
-            "He won me to his party.",
-            "That kind of behaviour won't win you any friends.",
-            "She won a tennis trophy.",
-            "She won £160 on the lottery.",
-            "Davis hopes to win financial backing from a London investment firm.",
-            "Honesty won him much praise.",
-            "He wanted to win their sympathy.",
-            "We've had two wins so far this season.",
-            "Her book won the Pulitzer Prize.",
-            "She won praise for her hard work.",
-            "win someone's confidence and friendship",
-            "The chances of winning are 1 in 100,000.",
-            "Who do you think will win the next election?",
-            "In the under-16 event England had their first win over Germany.",
-            "a pitcher with 15 wins",
-            "Neither candidate won the debate.",
-            "The boxer won the match by knockout.",
-            "He won the Tour de France last year.",
-            "That performance won Hanks an Oscar.",
-            "How does it feel to have won the gold medal?"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я никогда не выигрываю в карты.",
-            "Вы меня уговорили.",
-            "Команда хозяев одержала победу.",
-            "Они хорошо играли, но не победили.",
-            "Они склонили его на свою сторону.",
-            "Мы выиграли с разницей всего в одно очко.",
-            "В этом состязании он выиграл первый приз.",
-            "Он был счастлив одержать эту победу.",
-            "Благодаря своему мужеству, она завоевала дружбу и восхищение многих людей.",
-            "Это пробудило в нас жалость.",
-            "Он убедил меня вступить в свою партию.",
-            "Если будешь так себя вести, друзей у тебя не прибавится.",
-            "Она выиграла теннисный трофей.",
-            "Она выиграла сто шестьдесят фунтов в лотерею.",
-            "Дэвис надеется получить финансирование от одной из лондонских инвестиционных компаний.",
-            "Его очень хвалили за честность.",
-            "Он хотел вызвать у них сочувствие.",
-            "В этом сезоне у нас пока что две победы.",
-            "Её книга была удостоена Пулитцеровской Премии.",
-            "Она заслужила похвалу за свой нелёгкий труд.",
-            "завоевать чьё-то доверие и дружбу",
-            "Шансы на выигрыш — один из ста тысяч.",
-            "Как вы думаете, кто победит на следующих выборах?",
-            "В этом матче молодёжных сборных Англия добыла свою первую победу над Германией.",
-            "питчер с пятнадцатью победами",
-            "В дебатах не победил ни один из кандидатов.",
-            "Боксёр выиграл матч нокаутом.",
-            "В прошлом году он выиграл (велогонку) \"Тур де Франс\".",
-            "За эту роль Хэнкс получил Оскар.",
-            "Каково это — завоевать золотую медаль?"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "win": {
+    "comment": [
+      "won |wʌn|,                                          won |wʌn|",
+      "wind",
+      "windy",
+      "window",
+      "winner",
+      "winning",
+      "twin",
+      "winter",
+      "wine"
+    ],
+    "translate": "победа, выигрыш, выигрывать, побеждать, заработать",
+    "transcription": " |wɪn|",
+    "antonyms": [],
+    "mnemonic": [
+      "win [(ув)и'н] выиграть - Я выиграл бутылку (вин-а).",
+      "win [wın]\nwing [wɪŋ]\n***\nПОБЕДУ ОДЕРЖАЛ пингвин! (это) win\nПОБЕДУ ОДЕРЖАЛ мордвин! Свин! (это) win\nПобеда, выигрыш.\n***\nПобедил \"win\"\nмой близнец \"twin\".\n***\nКРЫЛОМ махнул пингвин. (это) wing"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I never win at cards.",
+        "ru": "Я никогда не выигрываю в карты.",
+        "learn": 0
+      },
+      {
+        "eng": "You have won me.",
+        "ru": "Вы меня уговорили.",
+        "learn": 0
+      },
+      {
+        "eng": "The home team has won.",
+        "ru": "Команда хозяев одержала победу.",
+        "learn": 0
+      },
+      {
+        "eng": "They played well, but they didn't win.",
+        "ru": "Они хорошо играли, но не победили.",
+        "learn": 0
+      },
+      {
+        "eng": "They won him to their side.",
+        "ru": "Они склонили его на свою сторону.",
+        "learn": 0
+      },
+      {
+        "eng": "We won by just one point.",
+        "ru": "Мы выиграли с разницей всего в одно очко.",
+        "learn": 0
+      },
+      {
+        "eng": "He won the first prize in the contest.",
+        "ru": "В этом состязании он выиграл первый приз.",
+        "learn": 1
+      },
+      {
+        "eng": "He was happy to get the win.",
+        "ru": "Он был счастлив одержать эту победу.",
+        "learn": 0
+      },
+      {
+        "eng": "Her courage won her many friends and admirers.",
+        "ru": "Благодаря своему мужеству, она завоевала дружбу и восхищение многих людей.",
+        "learn": 0
+      },
+      {
+        "eng": "This won our compassion.",
+        "ru": "Это пробудило в нас жалость.",
+        "learn": 0
+      },
+      {
+        "eng": "He won me to his party.",
+        "ru": "Он убедил меня вступить в свою партию.",
+        "learn": 0
+      },
+      {
+        "eng": "That kind of behaviour won't win you any friends.",
+        "ru": "Если будешь так себя вести, друзей у тебя не прибавится.",
+        "learn": 0
+      },
+      {
+        "eng": "She won a tennis trophy.",
+        "ru": "Она выиграла теннисный трофей.",
+        "learn": 1
+      },
+      {
+        "eng": "She won £160 on the lottery.",
+        "ru": "Она выиграла сто шестьдесят фунтов в лотерею.",
+        "learn": 1
+      },
+      {
+        "eng": "Davis hopes to win financial backing from a London investment firm.",
+        "ru": "Дэвис надеется получить финансирование от одной из лондонских инвестиционных компаний.",
+        "learn": 0
+      },
+      {
+        "eng": "Honesty won him much praise.",
+        "ru": "Его очень хвалили за честность.",
+        "learn": 0
+      },
+      {
+        "eng": "He wanted to win their sympathy.",
+        "ru": "Он хотел вызвать у них сочувствие.",
+        "learn": 0
+      },
+      {
+        "eng": "We've had two wins so far this season.",
+        "ru": "В этом сезоне у нас пока что две победы.",
+        "learn": 0
+      },
+      {
+        "eng": "Her book won the Pulitzer Prize.",
+        "ru": "Её книга была удостоена Пулитцеровской Премии.",
+        "learn": 0
+      },
+      {
+        "eng": "She won praise for her hard work.",
+        "ru": "Она заслужила похвалу за свой нелёгкий труд.",
+        "learn": 0
+      },
+      {
+        "eng": "win someone's confidence and friendship",
+        "ru": "завоевать чьё-то доверие и дружбу",
+        "learn": 0
+      },
+      {
+        "eng": "The chances of winning are 1 in 100,000.",
+        "ru": "Шансы на выигрыш — один из ста тысяч.",
+        "learn": 0
+      },
+      {
+        "eng": "Who do you think will win the next election?",
+        "ru": "Как вы думаете, кто победит на следующих выборах?",
+        "learn": 0
+      },
+      {
+        "eng": "In the under-16 event England had their first win over Germany.",
+        "ru": "В этом матче молодёжных сборных Англия добыла свою первую победу над Германией.",
+        "learn": 0
+      },
+      {
+        "eng": "a pitcher with 15 wins",
+        "ru": "питчер с пятнадцатью победами",
+        "learn": 0
+      },
+      {
+        "eng": "Neither candidate won the debate.",
+        "ru": "В дебатах не победил ни один из кандидатов.",
+        "learn": 0
+      },
+      {
+        "eng": "The boxer won the match by knockout.",
+        "ru": "Боксёр выиграл матч нокаутом.",
+        "learn": 1
+      },
+      {
+        "eng": "He won the Tour de France last year.",
+        "ru": "В прошлом году он выиграл (велогонку) \"Тур де Франс\".",
+        "learn": 0
+      },
+      {
+        "eng": "That performance won Hanks an Oscar.",
+        "ru": "За эту роль Хэнкс получил Оскар.",
+        "learn": 0
+      },
+      {
+        "eng": "How does it feel to have won the gold medal?",
+        "ru": "Каково это — завоевать золотую медаль?",
+        "learn": 0
+      }
+    ]
+  }
 }

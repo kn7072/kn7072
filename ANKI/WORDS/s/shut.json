@@ -1,86 +1,175 @@
 {
-    "shut": {
-        "comment": [
-            "shuffle",
-            "shutter",
-            "shudder",
-            "hut"
-        ],
-        "translate": "закрытый, запертый, закрывать, закрываться, запирать",
-        "transcription": " |ʃʌt|",
-        "antonyms": [],
-        "mnemonic": [
-            "shut [шат] закрыть - Закрыть (шат-ёр).",
-            "shut [ʃʌt]\n***\nЗАКРОЕМ двери от мышат. (это) shut\nМы ЗАПРЁМСЯ от мышат. (это) shut\nДверца, крышка, клапан."
-        ],
-        "examples": [
-            "The post office shuts at 5 o'clock.",
-            "He shut his eyes and went to sleep.",
-            "He shut the drawer and turned the key.",
-            "At midday we shut the shop for lunch.",
-            "Shut the box to.",
-            "He lost his job when they shut the factory.",
-            "She walked quickly in and shut the door behind her.",
-            "Is the back door shut?",
-            "Sorry, but we're shut.",
-            "'Shut up,' he snarled.",
-            "Shut the fuck up!",
-            "I taped the box shut.",
-            "Is the door shut tight?",
-            "We shut off the valve",
-            "The lock snapped shut",
-            "The window won't shut.",
-            "The window banged shut",
-            "The door clicked shut.",
-            "Shut the window, Ellen!",
-            "I hooked the door shut.",
-            "Shut up, the lot of you!",
-            "Just shut up and listen.",
-            "She shut the book loudly.",
-            "He slammed the door shut.",
-            "Olsen zipped the bag shut.",
-            "For God's sake, shut up!",
-            "Just keep your trap shut.",
-            "The door was shut tight.",
-            "He yanked the door shut.",
-            "The window banged shut."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Почтовое отделение закрывается в 5 часов.",
-            "Он закрыл глаза и заснул.",
-            "Он захлопнул ящик и повернул ключ.",
-            "В полдень мы закрываем магазин на обед.",
-            "Закройте ящик.",
-            "Он потерял работу, когда они закрыли фабрику.",
-            "Она быстро вошла в комнату и закрыла за собой дверь.",
-            "Задняя дверь заперта?",
-            "Извините, но мы закрыты.",
-            "— Заткнись, — прорычал он.",
-            "Завали ебало! / Заткнись, блядь! Закрой пасть!",
-            "Я полностью обмотал коробку скотчем. (taped box shut: обмотать таким образом чтобы не осталось просветов)",
-            "Дверь хорошо /плотно/ закрыта?",
-            "Мы перекрыли клапан.",
-            "Замок защелкнулся",
-            "Окно никак не закрывается.",
-            "Окно с грохотом закрылось.",
-            "Дверь защёлкнулась.",
-            "Закрой окно, Эллен!",
-            "Я закрыл дверь на (дверной) крючок.",
-            "А ну все заткнулись!",
-            "Просто заткнись и слушай.",
-            "Она громко захлопнула книгу.",
-            "Он захлопнул дверь.",
-            "Ольсен застегнул сумку на молнию.",
-            "Ради Бога, заткнись!",
-            "Просто держи свою пасть закрытой.",
-            "Дверь была плотно закрыта.",
-            "Он резко захлопнул дверь.",
-            "Окно с грохотом закрылось."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "shut": {
+    "comment": [
+      "shut |ʃʌt|,                                          shut |ʃʌt|",
+      "shuffle",
+      "shutter",
+      "shudder",
+      "hut"
+    ],
+    "translate": "закрытый, запертый, закрывать, закрываться, запирать",
+    "transcription": " |ʃʌt|",
+    "antonyms": [],
+    "mnemonic": [
+      "shut [шат] закрыть - Закрыть (шат-ёр).",
+      "shut [ʃʌt]\n***\nЗАКРОЕМ двери от мышат. (это) shut\nМы ЗАПРЁМСЯ от мышат. (это) shut\nДверца, крышка, клапан."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "The post office shuts at 5 o'clock.",
+        "ru": "Почтовое отделение закрывается в 5 часов.",
+        "learn": 0
+      },
+      {
+        "eng": "He shut his eyes and went to sleep.",
+        "ru": "Он закрыл глаза и заснул.",
+        "learn": 0
+      },
+      {
+        "eng": "He shut the drawer and turned the key.",
+        "ru": "Он захлопнул ящик и повернул ключ.",
+        "learn": 0
+      },
+      {
+        "eng": "At midday we shut the shop for lunch.",
+        "ru": "В полдень мы закрываем магазин на обед.",
+        "learn": 1
+      },
+      {
+        "eng": "Shut the box to.",
+        "ru": "Закройте ящик.",
+        "learn": 0
+      },
+      {
+        "eng": "He lost his job when they shut the factory.",
+        "ru": "Он потерял работу, когда они закрыли фабрику.",
+        "learn": 0
+      },
+      {
+        "eng": "She walked quickly in and shut the door behind her.",
+        "ru": "Она быстро вошла в комнату и закрыла за собой дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "Is the back door shut?",
+        "ru": "Задняя дверь заперта?",
+        "learn": 0
+      },
+      {
+        "eng": "Sorry, but we're shut.",
+        "ru": "Извините, но мы закрыты.",
+        "learn": 0
+      },
+      {
+        "eng": "'Shut up,' he snarled.",
+        "ru": "— Заткнись, — прорычал он.",
+        "learn": 0
+      },
+      {
+        "eng": "Shut the fuck up!",
+        "ru": "Завали ебало! / Заткнись, блядь! Закрой пасть!",
+        "learn": 0
+      },
+      {
+        "eng": "I taped the box shut.",
+        "ru": "Я полностью обмотал коробку скотчем. (taped box shut: обмотать таким образом чтобы не осталось просветов)",
+        "learn": 0
+      },
+      {
+        "eng": "Is the door shut tight?",
+        "ru": "Дверь хорошо /плотно/ закрыта?",
+        "learn": 1
+      },
+      {
+        "eng": "We shut off the valve",
+        "ru": "Мы перекрыли клапан.",
+        "learn": 1
+      },
+      {
+        "eng": "The lock snapped shut",
+        "ru": "Замок защелкнулся",
+        "learn": 0
+      },
+      {
+        "eng": "The window won't shut.",
+        "ru": "Окно никак не закрывается.",
+        "learn": 0
+      },
+      {
+        "eng": "The window banged shut",
+        "ru": "Окно с грохотом закрылось.",
+        "learn": 0
+      },
+      {
+        "eng": "The door clicked shut.",
+        "ru": "Дверь защёлкнулась.",
+        "learn": 0
+      },
+      {
+        "eng": "Shut the window, Ellen!",
+        "ru": "Закрой окно, Эллен!",
+        "learn": 0
+      },
+      {
+        "eng": "I hooked the door shut.",
+        "ru": "Я закрыл дверь на (дверной) крючок.",
+        "learn": 0
+      },
+      {
+        "eng": "Shut up, the lot of you!",
+        "ru": "А ну все заткнулись!",
+        "learn": 0
+      },
+      {
+        "eng": "Just shut up and listen.",
+        "ru": "Просто заткнись и слушай.",
+        "learn": 1
+      },
+      {
+        "eng": "She shut the book loudly.",
+        "ru": "Она громко захлопнула книгу.",
+        "learn": 1
+      },
+      {
+        "eng": "He slammed the door shut.",
+        "ru": "Он захлопнул дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "Olsen zipped the bag shut.",
+        "ru": "Ольсен застегнул сумку на молнию.",
+        "learn": 0
+      },
+      {
+        "eng": "For God's sake, shut up!",
+        "ru": "Ради Бога, заткнись!",
+        "learn": 0
+      },
+      {
+        "eng": "Just keep your trap shut.",
+        "ru": "Просто держи свою пасть закрытой.",
+        "learn": 0
+      },
+      {
+        "eng": "The door was shut tight.",
+        "ru": "Дверь была плотно закрыта.",
+        "learn": 0
+      },
+      {
+        "eng": "He yanked the door shut.",
+        "ru": "Он резко захлопнул дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "The window banged shut.",
+        "ru": "Окно с грохотом закрылось.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,76 +1,150 @@
 {
-    "fork": {
-        "comment": [
-            "for",
-            "forth",
-            "forum"
-        ],
-        "translate": "вилка, вилы, развилка, ответвление, разветвляться, расходиться",
-        "transcription": " |fɔːrk|",
-        "antonyms": [],
-        "mnemonic": [
-            "fork [фок] вилка - Глотание вилок - (фок-ус), всего лишь."
-        ],
-        "examples": [
-            "The road forks.",
-            "He set down his knife and fork.",
-            "The meat is so tender you can cut it with a fork.",
-            "She forked her fingers",
-            "Use a fork to break up the soil.",
-            "She prodded the cake with her fork to see if it was cooked.",
-            "Spear a piece of fish with a fork and dip it in the batter.",
-            "Put the knives and forks on the table.",
-            "Every year the tax man expects us to fork up.",
-            "He poked at the meat with his fork, but it seemed undercooked.",
-            "Take the left fork then go straight on.",
-            "The spade and fork have longer shafts, providing better leverage.",
-            "He forked some bacon into his mouth.",
-            "The road forks to the north and south.",
-            "His wife behind him forks her fingers.",
-            "The path forked off in two directions.",
-            "The common household fork was nearly unknown in antiquity.",
-            "the north fork of the river",
-            "One of the fork's tines was bent.",
-            "When you reach the fork in the trail, bear left.",
-            "She sank her fork into the pie.",
-            "His fork clanged against the plate.",
-            "The arena won't be finished until private donors fork over more money.",
-            "the front fork of a bicycle",
-            "Fork left at the bottom of the hill.",
-            "Cover the bowl with aluminum foil, and then use a fork to perforate the foil."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Дорога разветвляется.",
-            "Он отложил нож и вилку.",
-            "Это мясо — настолько нежное, что его можно резать вилкой.",
-            "Она показала \"козу\". (положение пальцев при котором указательный палец и мизинец оттопырены, а средний и безымянный удерживаются большим пальцем)",
-            "Используйте вилы, чтобы разрыхлить почву.",
-            "Она проткнула пирог вилкой, чтобы проверить, пропёкся ли он.",
-            "Наколите кусочек рыбы на вилку и обмакните во взбитое тесто.",
-            "Положите ножи и вилки на стол.",
-            "Каждый год налоговый инспектор ожидает, что мы будем раскошеливаться.",
-            "Он потыкал в мясо вилкой, но оно казалось недожаренным.",
-            "На развилке сверните налево, затем идите прямо.",
-            "Лопата и вилы имеют длинные ручки, которые обеспечивают выигрыш в силе.",
-            "Он подцепил вилкой кусочек бекона и отправил его в рот.",
-            "Дорога раздваивается на север и юг.",
-            "Его жена за его спиной показывает ему \"козу\".",
-            "Дорожка разветвлялась в двух направлениях.",
-            "Обычная столовая вилка в древности была почти неизвестна.",
-            "северное ответвление реки",
-            "Один из зубцов вилки был погнут.",
-            "Когда дойдёте до развилки тропы, сверните налево.",
-            "Она погрузила в пирог свою вилку.",
-            "Его вилка звонко стукнула о тарелку.",
-            "Арена не будет закончена до тех пор, пока частные доноры не раскошелятся на дополнительные средства.",
-            "передняя вилка велосипеда",
-            "(На развилке) у подножия холма сверните налево.",
-            "Накройте миску алюминиевой фольгой, а затем проделайте в фольге отверстия с помощью вилки."
-        ],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "fork": {
+    "comment": [
+      "for",
+      "forth",
+      "forum"
+    ],
+    "translate": "вилка, вилы, развилка, ответвление, разветвляться, расходиться",
+    "transcription": " |fɔːrk|",
+    "antonyms": [],
+    "mnemonic": [
+      "fork [фок] вилка - Глотание вилок - (фок-ус), всего лишь."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The road forks.",
+        "ru": "Дорога разветвляется.",
+        "learn": 0
+      },
+      {
+        "eng": "He set down his knife and fork.",
+        "ru": "Он отложил нож и вилку.",
+        "learn": 0
+      },
+      {
+        "eng": "The meat is so tender you can cut it with a fork.",
+        "ru": "Это мясо — настолько нежное, что его можно резать вилкой.",
+        "learn": 0
+      },
+      {
+        "eng": "She forked her fingers",
+        "ru": "Она показала \"козу\". (положение пальцев при котором указательный палец и мизинец оттопырены, а средний и безымянный удерживаются большим пальцем)",
+        "learn": 0
+      },
+      {
+        "eng": "Use a fork to break up the soil.",
+        "ru": "Используйте вилы, чтобы разрыхлить почву.",
+        "learn": 0
+      },
+      {
+        "eng": "She prodded the cake with her fork to see if it was cooked.",
+        "ru": "Она проткнула пирог вилкой, чтобы проверить, пропёкся ли он.",
+        "learn": 0
+      },
+      {
+        "eng": "Spear a piece of fish with a fork and dip it in the batter.",
+        "ru": "Наколите кусочек рыбы на вилку и обмакните во взбитое тесто.",
+        "learn": 1
+      },
+      {
+        "eng": "Put the knives and forks on the table.",
+        "ru": "Положите ножи и вилки на стол.",
+        "learn": 0
+      },
+      {
+        "eng": "Every year the tax man expects us to fork up.",
+        "ru": "Каждый год налоговый инспектор ожидает, что мы будем раскошеливаться.",
+        "learn": 0
+      },
+      {
+        "eng": "He poked at the meat with his fork, but it seemed undercooked.",
+        "ru": "Он потыкал в мясо вилкой, но оно казалось недожаренным.",
+        "learn": 0
+      },
+      {
+        "eng": "Take the left fork then go straight on.",
+        "ru": "На развилке сверните налево, затем идите прямо.",
+        "learn": 0
+      },
+      {
+        "eng": "The spade and fork have longer shafts, providing better leverage.",
+        "ru": "Лопата и вилы имеют длинные ручки, которые обеспечивают выигрыш в силе.",
+        "learn": 0
+      },
+      {
+        "eng": "He forked some bacon into his mouth.",
+        "ru": "Он подцепил вилкой кусочек бекона и отправил его в рот.",
+        "learn": 1
+      },
+      {
+        "eng": "The road forks to the north and south.",
+        "ru": "Дорога раздваивается на север и юг.",
+        "learn": 1
+      },
+      {
+        "eng": "His wife behind him forks her fingers.",
+        "ru": "Его жена за его спиной показывает ему \"козу\".",
+        "learn": 0
+      },
+      {
+        "eng": "The path forked off in two directions.",
+        "ru": "Дорожка разветвлялась в двух направлениях.",
+        "learn": 0
+      },
+      {
+        "eng": "The common household fork was nearly unknown in antiquity.",
+        "ru": "Обычная столовая вилка в древности была почти неизвестна.",
+        "learn": 0
+      },
+      {
+        "eng": "the north fork of the river",
+        "ru": "северное ответвление реки",
+        "learn": 0
+      },
+      {
+        "eng": "One of the fork's tines was bent.",
+        "ru": "Один из зубцов вилки был погнут.",
+        "learn": 0
+      },
+      {
+        "eng": "When you reach the fork in the trail, bear left.",
+        "ru": "Когда дойдёте до развилки тропы, сверните налево.",
+        "learn": 0
+      },
+      {
+        "eng": "She sank her fork into the pie.",
+        "ru": "Она погрузила в пирог свою вилку.",
+        "learn": 1
+      },
+      {
+        "eng": "His fork clanged against the plate.",
+        "ru": "Его вилка звонко стукнула о тарелку.",
+        "learn": 0
+      },
+      {
+        "eng": "The arena won't be finished until private donors fork over more money.",
+        "ru": "Арена не будет закончена до тех пор, пока частные доноры не раскошелятся на дополнительные средства.",
+        "learn": 0
+      },
+      {
+        "eng": "the front fork of a bicycle",
+        "ru": "передняя вилка велосипеда",
+        "learn": 0
+      },
+      {
+        "eng": "Fork left at the bottom of the hill.",
+        "ru": "(На развилке) у подножия холма сверните налево.",
+        "learn": 0
+      },
+      {
+        "eng": "Cover the bowl with aluminum foil, and then use a fork to perforate the foil.",
+        "ru": "Накройте миску алюминиевой фольгой, а затем проделайте в фольге отверстия с помощью вилки.",
+        "learn": 0
+      }
+    ]
+  }
 }

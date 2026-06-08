@@ -1,83 +1,169 @@
 {
-    "essential": {
-        "comment": [
-            "essence",
-            "essentially"
-        ],
-        "translate": "необходимый, существенный, основной, сущность, неотъемлемость",
-        "transcription": " |ɪˈsenʃl|",
-        "antonyms": [],
-        "mnemonic": [
-            "essential [ɪ'senʃəl]\n***\nСУЩЕСТВЕННАЯ разница: как я шёл и|сын|шёл. (это)\nessential\nЗа НЕОБХОДИМОЙ книгой и|сын|шёл. (это) essential\nЗа ВАЖНЫМ поеду на \"Сейшел\". (это) essential\nОСНОВНОЕ купим на \"Сейшел\". (это) essential\nНепременный, необходимый, существенный.\nСущность."
-        ],
-        "examples": [
-            "It is essential to book in advance.",
-            "A good diet is essential for everyone.",
-            "Ability to sell is essential for the job.",
-            "The black is an essential color.",
-            "Essential Elements",
-            "Free speech is an essential right of citizenship.",
-            "I have a grip of the essential facts of the case.",
-            "the essentials of the good life",
-            "Vitamins are essential for healthy growth.",
-            "Attention to detail is essential in this job.",
-            "My personal experience does not corroborate your faith in the essential goodness of people.",
-            "Honesty is an essential ingredient of a successful marriage.",
-            "The ointment may be scented with any essential oil.",
-            "Even in small companies, computers are an essential tool.",
-            "The class system is essential to energetic common college life.",
-            "Computers are an essential part of modern life.",
-            "These foods have all of the essential proteins.",
-            "There's no essential difference between the two products.",
-            "A basic grounding in math is essential for the economics course.",
-            "It is essential to get good professional advice.",
-            "Languages are an essential part of the school curriculum.",
-            "A loving home is essential for a child's personal growth.",
-            "Nutrition and exercise are essential to fitness and health.",
-            "The essential problem with this plan is that it will cost too much.",
-            "The essential point of relay racing is that it is a team effort.",
-            "funds essential to the completion of the project",
-            "This form of conflict is essential to Mann's writing.",
-            "The computer laboratory is an essential resource for students.",
-            "Improved rail transport is essential for business.",
-            "Knowledge of human anatomy is essential to figure drawing."
-        ],
-        "example_translate": [
-            "Необходимо забронировать места заранее.",
-            "Правильное питание необходимо каждому.",
-            "Для этой работы важнейшее значение имеет умение продавать.",
-            "Чёрный относится к основным цветам.",
-            "Реквизиты",
-            "Свобода слова является неотъемлемым правом гражданина.",
-            "У меня сложилась картина основных фактов по этому делу.",
-            "необходимые составляющие хорошей жизни",
-            "Витамины необходимы для здорового роста.",
-            "Внимание к деталям очень важно в этой работе.",
-            "Мой личный опыт не подтверждает вашу веру в присущее людям великодушие /доброту/.",
-            "Честность — это важнейшая составляющая успешного брака.",
-            "Мазь может быть ароматизирована любым из эфирных масел.",
-            "Даже в небольших компаниях компьютеры являются важным рабочим инструментом.",
-            "Групповая система играет решающую роль в создании активной общественной жизни колледжа.",
-            "Компьютеры являются неотъемлемой частью современной жизни.",
-            "В этих продуктах имеются все необходимые белки.",
-            "Между этими двумя продуктами нет никакой существенной разницы.",
-            "Знание основ математики необходимо для обучения экономике.",
-            "Крайне важно получить хорошую профессиональную консультацию.",
-            "Языки являются неотъемлемой частью школьной программы.",
-            "Любящая семья жизненно важна для личностного роста ребёнка.",
-            "Правильное питание и занятия спортом необходимы для хорошей физической формы и здоровья.",
-            "Основная проблема этого проекта заключается в том, что он будет слишком дорого стоить.",
-            "Основным моментом в эстафетных гонках является то, что это — командная работа.",
-            "средства, необходимые для завершения данного проекта",
-            "Эта форма конфликта является основной для произведений Манна.",
-            "Компьютерная лаборатория является важным ресурсом для студентов.",
-            "Улучшение железнодорожного транспорта имеет важное значение для бизнеса.",
-            "Знание анатомии человека очень важно для рисования человеческой фигуры."
-        ],
-        "synonyms": [],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "essential": {
+    "comment": [
+      "essence",
+      "essentially"
+    ],
+    "translate": "необходимый, существенный, основной, сущность, неотъемлемость",
+    "transcription": " |ɪˈsenʃl|",
+    "antonyms": [],
+    "mnemonic": [
+      "essential [ɪ'senʃəl]\n***\nСУЩЕСТВЕННАЯ разница: как я шёл и|сын|шёл. (это)\nessential\nЗа НЕОБХОДИМОЙ книгой и|сын|шёл. (это) essential\nЗа ВАЖНЫМ поеду на \"Сейшел\". (это) essential\nОСНОВНОЕ купим на \"Сейшел\". (это) essential\nНепременный, необходимый, существенный.\nСущность."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "It is essential to book in advance.",
+        "ru": "Необходимо забронировать места заранее.",
+        "learn": 0
+      },
+      {
+        "eng": "A good diet is essential for everyone.",
+        "ru": "Правильное питание необходимо каждому.",
+        "learn": 0
+      },
+      {
+        "eng": "Ability to sell is essential for the job.",
+        "ru": "Для этой работы важнейшее значение имеет умение продавать.",
+        "learn": 0
+      },
+      {
+        "eng": "The black is an essential color.",
+        "ru": "Чёрный относится к основным цветам.",
+        "learn": 0
+      },
+      {
+        "eng": "Essential Elements",
+        "ru": "Реквизиты",
+        "learn": 0
+      },
+      {
+        "eng": "Free speech is an essential right of citizenship.",
+        "ru": "Свобода слова является неотъемлемым правом гражданина.",
+        "learn": 1
+      },
+      {
+        "eng": "I have a grip of the essential facts of the case.",
+        "ru": "У меня сложилась картина основных фактов по этому делу.",
+        "learn": 0
+      },
+      {
+        "eng": "the essentials of the good life",
+        "ru": "необходимые составляющие хорошей жизни",
+        "learn": 0
+      },
+      {
+        "eng": "Vitamins are essential for healthy growth.",
+        "ru": "Витамины необходимы для здорового роста.",
+        "learn": 0
+      },
+      {
+        "eng": "Attention to detail is essential in this job.",
+        "ru": "Внимание к деталям очень важно в этой работе.",
+        "learn": 0
+      },
+      {
+        "eng": "My personal experience does not corroborate your faith in the essential goodness of people.",
+        "ru": "Мой личный опыт не подтверждает вашу веру в присущее людям великодушие /доброту/.",
+        "learn": 0
+      },
+      {
+        "eng": "Honesty is an essential ingredient of a successful marriage.",
+        "ru": "Честность — это важнейшая составляющая успешного брака.",
+        "learn": 0
+      },
+      {
+        "eng": "The ointment may be scented with any essential oil.",
+        "ru": "Мазь может быть ароматизирована любым из эфирных масел.",
+        "learn": 0
+      },
+      {
+        "eng": "Even in small companies, computers are an essential tool.",
+        "ru": "Даже в небольших компаниях компьютеры являются важным рабочим инструментом.",
+        "learn": 0
+      },
+      {
+        "eng": "The class system is essential to energetic common college life.",
+        "ru": "Групповая система играет решающую роль в создании активной общественной жизни колледжа.",
+        "learn": 0
+      },
+      {
+        "eng": "Computers are an essential part of modern life.",
+        "ru": "Компьютеры являются неотъемлемой частью современной жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "These foods have all of the essential proteins.",
+        "ru": "В этих продуктах имеются все необходимые белки.",
+        "learn": 1
+      },
+      {
+        "eng": "There's no essential difference between the two products.",
+        "ru": "Между этими двумя продуктами нет никакой существенной разницы.",
+        "learn": 1
+      },
+      {
+        "eng": "A basic grounding in math is essential for the economics course.",
+        "ru": "Знание основ математики необходимо для обучения экономике.",
+        "learn": 0
+      },
+      {
+        "eng": "It is essential to get good professional advice.",
+        "ru": "Крайне важно получить хорошую профессиональную консультацию.",
+        "learn": 0
+      },
+      {
+        "eng": "Languages are an essential part of the school curriculum.",
+        "ru": "Языки являются неотъемлемой частью школьной программы.",
+        "learn": 1
+      },
+      {
+        "eng": "A loving home is essential for a child's personal growth.",
+        "ru": "Любящая семья жизненно важна для личностного роста ребёнка.",
+        "learn": 0
+      },
+      {
+        "eng": "Nutrition and exercise are essential to fitness and health.",
+        "ru": "Правильное питание и занятия спортом необходимы для хорошей физической формы и здоровья.",
+        "learn": 1
+      },
+      {
+        "eng": "The essential problem with this plan is that it will cost too much.",
+        "ru": "Основная проблема этого проекта заключается в том, что он будет слишком дорого стоить.",
+        "learn": 0
+      },
+      {
+        "eng": "The essential point of relay racing is that it is a team effort.",
+        "ru": "Основным моментом в эстафетных гонках является то, что это — командная работа.",
+        "learn": 0
+      },
+      {
+        "eng": "funds essential to the completion of the project",
+        "ru": "средства, необходимые для завершения данного проекта",
+        "learn": 0
+      },
+      {
+        "eng": "This form of conflict is essential to Mann's writing.",
+        "ru": "Эта форма конфликта является основной для произведений Манна.",
+        "learn": 0
+      },
+      {
+        "eng": "The computer laboratory is an essential resource for students.",
+        "ru": "Компьютерная лаборатория является важным ресурсом для студентов.",
+        "learn": 0
+      },
+      {
+        "eng": "Improved rail transport is essential for business.",
+        "ru": "Улучшение железнодорожного транспорта имеет важное значение для бизнеса.",
+        "learn": 0
+      },
+      {
+        "eng": "Knowledge of human anatomy is essential to figure drawing.",
+        "ru": "Знание анатомии человека очень важно для рисования человеческой фигуры.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,92 +1,179 @@
 {
-    "love": {
-        "comment": [
-            "lover",
-            "lovely",
-            "glove",
-            "loving"
-        ],
-        "translate": "любовь, влюбленность, любить, возлюбить, хотеть, любовный, возлюбленный",
-        "transcription": " |lʌv|",
-        "antonyms": [],
-        "mnemonic": [
-            "love [лав] любовь - (Лавина) любви."
-        ],
-        "examples": [
-            "I love cooking.",
-            "I love you so.",
-            "What a love!",
-            "She loves her husband deeply.",
-            "I love carrots.",
-            "I fell in love with Amsterdam the very first time I visited the city.",
-            "Give my love to Mary.",
-            "Sailing was her great love.",
-            "Children love to act.",
-            "He was her first love.",
-            "What's your name, love?",
-            "Are you in love with him?",
-            "I love you, Tracy.",
-            "I love French food.",
-            "We grew to love them.",
-            "She's a new love of mine.",
-            "Kashmiri love poems",
-            "My love's gone forever.",
-            "Love from Kathy XXX.",
-            "Mother sends her love.",
-            "He was blinded by love.",
-            "I will always love you.",
-            "Jeff loves his work.",
-            "He sang a love song.",
-            "She loves sunbathing.",
-            "Our love will never die.",
-            "She never told her love.",
-            "The love I had therefor.",
-            "Aunt Mary sends her love.",
-            "My deep love for him still remains."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я обожаю готовить.",
-            "Я так тебя люблю.",
-            "Что за прелесть!",
-            "Она сильно любит своего мужа.",
-            "Я обожаю морковку.",
-            "Я влюбился в Амстердам, как только в первый раз попал в этот город.",
-            "Передавай Мэри от меня привет.",
-            "Катание на яхте было её величайшей любовью.",
-            "Дети любят притворяться кем-то другим /играть в театр/.",
-            "Он был её первой любовью.",
-            "Как тебя зовут, дорогуша?",
-            "Ты в него влюблена?",
-            "Я люблю тебя, Трейси.",
-            "Я обожаю французскую кухню.",
-            "Со временем мы их полюбили.",
-            "Она моя новая подружка.",
-            "Кашмирские стихи о любви",
-            "Моя любимая ушла навсегда.",
-            "С любовью от Кэти. Целую.",
-            "Мама передаёт привет.",
-            "Он был ослеплён любовью.",
-            "Я всегда буду любить тебя.",
-            "Джефф обожает свою работу.",
-            "Он пел песню о любви.",
-            "Она обожает загорать на солнце.",
-            "Наша любовь никогда не умрёт.",
-            "Она никогда не говорила вслух о своей любви.",
-            "Любовь, которую я получил за это.",
-            "Тетя Мэри передаёт привет.",
-            "Я по-прежнему очень сильно его люблю."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Причастие",
-            "o_=_[ʌ]",
-            "Сложное_дополнение",
-            "Инфинитив",
-            "Инфинитив_-_сложное_дополнение(сказуемое_выражено_глаголами,_обозначающими_чувство,_желание,_намерение)",
-            "Причастие_-_сложное_дополнение_с_причастием_2(после_глаголов)",
-            "Сложное_дополнение_с_причастием_2"
-        ]
-    }
+  "love": {
+    "comment": [
+      "lover",
+      "lovely",
+      "glove",
+      "loving"
+    ],
+    "translate": "любовь, влюбленность, любить, возлюбить, хотеть, любовный, возлюбленный",
+    "transcription": " |lʌv|",
+    "antonyms": [],
+    "mnemonic": [
+      "love [лав] любовь - (Лавина) любви."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Причастие",
+      "o_=_[ʌ]",
+      "Сложное_дополнение",
+      "Инфинитив",
+      "Инфинитив_-_сложное_дополнение(сказуемое_выражено_глаголами,_обозначающими_чувство,_желание,_намерение)",
+      "Причастие_-_сложное_дополнение_с_причастием_2(после_глаголов)",
+      "Сложное_дополнение_с_причастием_2"
+    ],
+    "examples": [
+      {
+        "eng": "I love cooking.",
+        "ru": "Я обожаю готовить.",
+        "learn": 0
+      },
+      {
+        "eng": "I love you so.",
+        "ru": "Я так тебя люблю.",
+        "learn": 0
+      },
+      {
+        "eng": "What a love!",
+        "ru": "Что за прелесть!",
+        "learn": 0
+      },
+      {
+        "eng": "She loves her husband deeply.",
+        "ru": "Она сильно любит своего мужа.",
+        "learn": 0
+      },
+      {
+        "eng": "I love carrots.",
+        "ru": "Я обожаю морковку.",
+        "learn": 0
+      },
+      {
+        "eng": "I fell in love with Amsterdam the very first time I visited the city.",
+        "ru": "Я влюбился в Амстердам, как только в первый раз попал в этот город.",
+        "learn": 0
+      },
+      {
+        "eng": "Give my love to Mary.",
+        "ru": "Передавай Мэри от меня привет.",
+        "learn": 0
+      },
+      {
+        "eng": "Sailing was her great love.",
+        "ru": "Катание на яхте было её величайшей любовью.",
+        "learn": 1
+      },
+      {
+        "eng": "Children love to act.",
+        "ru": "Дети любят притворяться кем-то другим /играть в театр/.",
+        "learn": 0
+      },
+      {
+        "eng": "He was her first love.",
+        "ru": "Он был её первой любовью.",
+        "learn": 0
+      },
+      {
+        "eng": "What's your name, love?",
+        "ru": "Как тебя зовут, дорогуша?",
+        "learn": 0
+      },
+      {
+        "eng": "Are you in love with him?",
+        "ru": "Ты в него влюблена?",
+        "learn": 0
+      },
+      {
+        "eng": "I love you, Tracy.",
+        "ru": "Я люблю тебя, Трейси.",
+        "learn": 0
+      },
+      {
+        "eng": "I love French food.",
+        "ru": "Я обожаю французскую кухню.",
+        "learn": 0
+      },
+      {
+        "eng": "We grew to love them.",
+        "ru": "Со временем мы их полюбили.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a new love of mine.",
+        "ru": "Она моя новая подружка.",
+        "learn": 0
+      },
+      {
+        "eng": "Kashmiri love poems",
+        "ru": "Кашмирские стихи о любви",
+        "learn": 0
+      },
+      {
+        "eng": "My love's gone forever.",
+        "ru": "Моя любимая ушла навсегда.",
+        "learn": 0
+      },
+      {
+        "eng": "Love from Kathy XXX.",
+        "ru": "С любовью от Кэти. Целую.",
+        "learn": 0
+      },
+      {
+        "eng": "Mother sends her love.",
+        "ru": "Мама передаёт привет.",
+        "learn": 0
+      },
+      {
+        "eng": "He was blinded by love.",
+        "ru": "Он был ослеплён любовью.",
+        "learn": 1
+      },
+      {
+        "eng": "I will always love you.",
+        "ru": "Я всегда буду любить тебя.",
+        "learn": 0
+      },
+      {
+        "eng": "Jeff loves his work.",
+        "ru": "Джефф обожает свою работу.",
+        "learn": 0
+      },
+      {
+        "eng": "He sang a love song.",
+        "ru": "Он пел песню о любви.",
+        "learn": 1
+      },
+      {
+        "eng": "She loves sunbathing.",
+        "ru": "Она обожает загорать на солнце.",
+        "learn": 0
+      },
+      {
+        "eng": "Our love will never die.",
+        "ru": "Наша любовь никогда не умрёт.",
+        "learn": 1
+      },
+      {
+        "eng": "She never told her love.",
+        "ru": "Она никогда не говорила вслух о своей любви.",
+        "learn": 0
+      },
+      {
+        "eng": "The love I had therefor.",
+        "ru": "Любовь, которую я получил за это.",
+        "learn": 0
+      },
+      {
+        "eng": "Aunt Mary sends her love.",
+        "ru": "Тетя Мэри передаёт привет.",
+        "learn": 0
+      },
+      {
+        "eng": "My deep love for him still remains.",
+        "ru": "Я по-прежнему очень сильно его люблю.",
+        "learn": 0
+      }
+    ]
+  }
 }

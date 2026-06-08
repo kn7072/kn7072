@@ -1,57 +1,104 @@
 {
-    "persist": {
-        "comment": [
-            "persistent"
-        ],
-        "translate": "сохраняться, упорствовать, оставаться, продолжать существовать, настоять",
-        "transcription": " |pərˈsɪst|",
-        "antonyms": [],
-        "mnemonic": [
-            "persist [пэси'ст] настаивать - (По сист-еме) йоги наставники настаивают на выполнении асан.",
-            "assist [ə'sɪst]\ninsist [ɪn'sɪst]\ndesist [dɪ'zɪst]\npersist [pə'sɪst] - упорствовать, настаивать\n***\nПОМОЧЬ готов, но очень голосист. (это) assist\n***\nОн НАСТАИВАЕТ, он - голосист. (это) insist\n***\nПРЕКРАТИЛ работу геодезист. (это) desist"
-        ],
-        "examples": [
-            "It was folly to persist.",
-            "The tendency still persists.",
-            "The pain persisted until the morning.",
-            "He persisted to call me every night.",
-            "Why do you persist in interrupting me when I have repeatedly asked you to stop?",
-            "Rumors persist that they are dating.",
-            "If this behaviour is persisted in it could lead to serious trouble.",
-            "If the pain persists, see a doctor.",
-            "The child persisted and kept asking questions.",
-            "If you persist with this behavior, you will be punished.",
-            "If the symptoms persist, seek medical advice.",
-            "'I don't think it's right,' John persisted.",
-            "If you persist in that course you will surely fail.",
-            "Doubts about the defendant's story have persisted for some time now.",
-            "He persisted in his refusal to admit responsibility.",
-            "She persisted with her studies in spite of financial problems.",
-            "The reporter persisted with his questioning."
-        ],
-        "example_translate": [
-            "Было глупо настаивать.",
-            "Эта тенденция всё ещё сохраняется.",
-            "Боль продолжалась до утра.",
-            "Он упорно продолжал звонить мне каждый вечер.",
-            "Почему вы все время меня прерываете, хотя я несколько раз просил вас этого не делать?",
-            "Ходят упорные слухи, что они встречаются.",
-            "Если и дальше так себя вести, это может плохо кончиться.",
-            "Если боль не пройдёт, обратитесь к врачу.",
-            "Ребёнок не унимался и продолжал задавать вопросы.",
-            "Если вы будете упорствовать в подобном поведении, то будете наказаны.",
-            "Если симптомы не пройдут, обратитесь к врачу.",
-            "— По-моему, это неправильно, — упорствовал Джон.",
-            "Если вы не свернёте с этого пути, то наверняка потерпите неудачу.",
-            "С некоторых пор остаются сомнения по поводу правдивости версии обвиняемого.",
-            "Он продолжал упорно отказываться принять на себя ответственность.",
-            "Она продолжила свои исследования, несмотря на финансовые проблемы.",
-            "Журналист не отставал со своими вопросами."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "persist": {
+    "comment": [
+      "persistent"
+    ],
+    "translate": "сохраняться, упорствовать, оставаться, продолжать существовать, настоять",
+    "transcription": " |pərˈsɪst|",
+    "antonyms": [],
+    "mnemonic": [
+      "persist [пэси'ст] настаивать - (По сист-еме) йоги наставники настаивают на выполнении асан.",
+      "assist [ə'sɪst]\ninsist [ɪn'sɪst]\ndesist [dɪ'zɪst]\npersist [pə'sɪst] - упорствовать, настаивать\n***\nПОМОЧЬ готов, но очень голосист. (это) assist\n***\nОн НАСТАИВАЕТ, он - голосист. (это) insist\n***\nПРЕКРАТИЛ работу геодезист. (это) desist"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "It was folly to persist.",
+        "ru": "Было глупо настаивать.",
+        "learn": 0
+      },
+      {
+        "eng": "The tendency still persists.",
+        "ru": "Эта тенденция всё ещё сохраняется.",
+        "learn": 1
+      },
+      {
+        "eng": "The pain persisted until the morning.",
+        "ru": "Боль продолжалась до утра.",
+        "learn": 0
+      },
+      {
+        "eng": "He persisted to call me every night.",
+        "ru": "Он упорно продолжал звонить мне каждый вечер.",
+        "learn": 0
+      },
+      {
+        "eng": "Why do you persist in interrupting me when I have repeatedly asked you to stop?",
+        "ru": "Почему вы все время меня прерываете, хотя я несколько раз просил вас этого не делать?",
+        "learn": 1
+      },
+      {
+        "eng": "Rumors persist that they are dating.",
+        "ru": "Ходят упорные слухи, что они встречаются.",
+        "learn": 0
+      },
+      {
+        "eng": "If this behaviour is persisted in it could lead to serious trouble.",
+        "ru": "Если и дальше так себя вести, это может плохо кончиться.",
+        "learn": 0
+      },
+      {
+        "eng": "If the pain persists, see a doctor.",
+        "ru": "Если боль не пройдёт, обратитесь к врачу.",
+        "learn": 0
+      },
+      {
+        "eng": "The child persisted and kept asking questions.",
+        "ru": "Ребёнок не унимался и продолжал задавать вопросы.",
+        "learn": 0
+      },
+      {
+        "eng": "If you persist with this behavior, you will be punished.",
+        "ru": "Если вы будете упорствовать в подобном поведении, то будете наказаны.",
+        "learn": 1
+      },
+      {
+        "eng": "If the symptoms persist, seek medical advice.",
+        "ru": "Если симптомы не пройдут, обратитесь к врачу.",
+        "learn": 0
+      },
+      {
+        "eng": "'I don't think it's right,' John persisted.",
+        "ru": "— По-моему, это неправильно, — упорствовал Джон.",
+        "learn": 0
+      },
+      {
+        "eng": "If you persist in that course you will surely fail.",
+        "ru": "Если вы не свернёте с этого пути, то наверняка потерпите неудачу.",
+        "learn": 1
+      },
+      {
+        "eng": "Doubts about the defendant's story have persisted for some time now.",
+        "ru": "С некоторых пор остаются сомнения по поводу правдивости версии обвиняемого.",
+        "learn": 0
+      },
+      {
+        "eng": "He persisted in his refusal to admit responsibility.",
+        "ru": "Он продолжал упорно отказываться принять на себя ответственность.",
+        "learn": 0
+      },
+      {
+        "eng": "She persisted with her studies in spite of financial problems.",
+        "ru": "Она продолжила свои исследования, несмотря на финансовые проблемы.",
+        "learn": 0
+      },
+      {
+        "eng": "The reporter persisted with his questioning.",
+        "ru": "Журналист не отставал со своими вопросами.",
+        "learn": 1
+      }
+    ]
+  }
 }

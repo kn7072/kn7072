@@ -1,83 +1,169 @@
 {
-    "hungry": {
-        "comment": [
-            "hunger"
-        ],
-        "translate": "голодный, голодающий, жаждущий, неплодородный, скудный, сильно желающий",
-        "transcription": " |ˈhʌŋɡri|",
-        "antonyms": [],
-        "mnemonic": [
-            "hungry [ha'Hrpn] голодный - Голодный (хан гри-ль) из курицы ел.",
-            "hungry ['hʌŋgrɪ]\nhunger ['hʌŋgə]\n***\nГОЛОДАЮЩИЙ Хагрид. (это) hungry\nГОЛОДАТЬ не будет Хангрид. (это) hungry\n***\nВ ГОЛОДЕ живёт Елена Ханга. (это) hunger"
-        ],
-        "examples": [
-            "Are you hungry?",
-            "Do you still feel hungry?",
-            "'Hungry?' 'Nope, I just ate.'",
-            "I ate a big breakfast so I'm not very hungry.",
-            "I'd sooner go hungry than eat junk food.",
-            "'I'm hungry!' 'Me too.'",
-            "I'm blasted hungry!",
-            "I was woundy hungry.",
-            "Stan was hungry to learn.",
-            "'I'm feeling hungry.' 'Me too.'",
-            "She is hungry for success.",
-            "He is both tired and hungry.",
-            "They were hungry to learn more.",
-            "She gave food and drink to the hungry travelers.",
-            "It's hours till lunch and I already feel hungry.",
-            "It's hard to be in a good temper when you're hungry.",
-            "I was ravenously hungry.",
-            "That girl is always hungry.",
-            "I returned hungry, weary and dry.",
-            "The hungry children fell on the food.",
-            "It's no use preaching to a hungry man.",
-            "Many families are forced to go hungry.",
-            "Now you mention it, I am kind of hungry.",
-            "I'll just snack on an apple if I'm hungry.",
-            "He was hungry as he had not been in months.",
-            "By the time we got home we were tired and hungry.",
-            "I was feeling hungry, so I made myself a sandwich.",
-            "I was so hungry that you could hear my stomach gurgling.",
-            "The prisoners' families were hungry for more information.",
-            "When our order finally arrived we were very hungry indeed."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Есть хочешь? / Ты голоден?",
-            "Вы всё ещё голодны? / Всё ещё хочешь есть? / Ты ещё не наелся?",
-            "'Голоден? 'Нет, я только что поел.'",
-            "Я хорошо позавтракал, так что не очень хочу есть.",
-            "Я лучше буду ходить голодным, чем есть, что попало.",
-            "— Я хочу есть! — Я тоже!",
-            "Я чертовски голоден!",
-            "Я был очень голоден.",
-            "Стэн жаждал знаний.",
-            "— Я проголодался. — Я тоже.",
-            "Она жаждет успеха.",
-            "Он устал и к тому же голоден.",
-            "Они жаждали узнать больше.",
-            "Она дала голодным путешественникам еду и питьё.",
-            "До обеда ещё далеко, а я уже проголодался.",
-            "Трудно быть в хорошем настроении, когда ты голоден.",
-            "Я был голоден как волк.",
-            "Эта девочка постоянно хочет есть.",
-            "Я вернулся голодный, уставший, и вдобавок очень хотелось пить.",
-            "Голодные дети набросились на еду.",
-            "Пустое брюхо к учению глухо.",
-            "Многие семьи вынуждены голодать.",
-            "Раз уж ты об этом заговорила — я вроде как голодный.",
-            "Я просто перекушу яблоком, если буду голоден.",
-            "Ни разу за все прошедшие месяцы он не был так голоден, как сейчас.",
-            "К моменту возвращения домой мы устали и проголодались.",
-            "Я был голодным, и поэтому сделал себе бутерброд.",
-            "Я так хотел есть, что было слышно, как у меня булькает в животе.",
-            "Семьи заключенных жаждали получения дополнительной информации.",
-            "Когда наш заказ наконец-то прибыл, мы уже были очень голодны."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "hungry": {
+    "comment": [
+      "hunger"
+    ],
+    "translate": "голодный, голодающий, жаждущий, неплодородный, скудный, сильно желающий",
+    "transcription": " |ˈhʌŋɡri|",
+    "antonyms": [],
+    "mnemonic": [
+      "hungry [ha'Hrpn] голодный - Голодный (хан гри-ль) из курицы ел.",
+      "hungry ['hʌŋgrɪ]\nhunger ['hʌŋgə]\n***\nГОЛОДАЮЩИЙ Хагрид. (это) hungry\nГОЛОДАТЬ не будет Хангрид. (это) hungry\n***\nВ ГОЛОДЕ живёт Елена Ханга. (это) hunger"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Are you hungry?",
+        "ru": "Есть хочешь? / Ты голоден?",
+        "learn": 0
+      },
+      {
+        "eng": "Do you still feel hungry?",
+        "ru": "Вы всё ещё голодны? / Всё ещё хочешь есть? / Ты ещё не наелся?",
+        "learn": 0
+      },
+      {
+        "eng": "'Hungry?' 'Nope, I just ate.'",
+        "ru": "'Голоден? 'Нет, я только что поел.'",
+        "learn": 0
+      },
+      {
+        "eng": "I ate a big breakfast so I'm not very hungry.",
+        "ru": "Я хорошо позавтракал, так что не очень хочу есть.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd sooner go hungry than eat junk food.",
+        "ru": "Я лучше буду ходить голодным, чем есть, что попало.",
+        "learn": 1
+      },
+      {
+        "eng": "'I'm hungry!' 'Me too.'",
+        "ru": "— Я хочу есть! — Я тоже!",
+        "learn": 0
+      },
+      {
+        "eng": "I'm blasted hungry!",
+        "ru": "Я чертовски голоден!",
+        "learn": 0
+      },
+      {
+        "eng": "I was woundy hungry.",
+        "ru": "Я был очень голоден.",
+        "learn": 0
+      },
+      {
+        "eng": "Stan was hungry to learn.",
+        "ru": "Стэн жаждал знаний.",
+        "learn": 0
+      },
+      {
+        "eng": "'I'm feeling hungry.' 'Me too.'",
+        "ru": "— Я проголодался. — Я тоже.",
+        "learn": 0
+      },
+      {
+        "eng": "She is hungry for success.",
+        "ru": "Она жаждет успеха.",
+        "learn": 0
+      },
+      {
+        "eng": "He is both tired and hungry.",
+        "ru": "Он устал и к тому же голоден.",
+        "learn": 1
+      },
+      {
+        "eng": "They were hungry to learn more.",
+        "ru": "Они жаждали узнать больше.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave food and drink to the hungry travelers.",
+        "ru": "Она дала голодным путешественникам еду и питьё.",
+        "learn": 0
+      },
+      {
+        "eng": "It's hours till lunch and I already feel hungry.",
+        "ru": "До обеда ещё далеко, а я уже проголодался.",
+        "learn": 0
+      },
+      {
+        "eng": "It's hard to be in a good temper when you're hungry.",
+        "ru": "Трудно быть в хорошем настроении, когда ты голоден.",
+        "learn": 0
+      },
+      {
+        "eng": "I was ravenously hungry.",
+        "ru": "Я был голоден как волк.",
+        "learn": 0
+      },
+      {
+        "eng": "That girl is always hungry.",
+        "ru": "Эта девочка постоянно хочет есть.",
+        "learn": 0
+      },
+      {
+        "eng": "I returned hungry, weary and dry.",
+        "ru": "Я вернулся голодный, уставший, и вдобавок очень хотелось пить.",
+        "learn": 0
+      },
+      {
+        "eng": "The hungry children fell on the food.",
+        "ru": "Голодные дети набросились на еду.",
+        "learn": 0
+      },
+      {
+        "eng": "It's no use preaching to a hungry man.",
+        "ru": "Пустое брюхо к учению глухо.",
+        "learn": 0
+      },
+      {
+        "eng": "Many families are forced to go hungry.",
+        "ru": "Многие семьи вынуждены голодать.",
+        "learn": 0
+      },
+      {
+        "eng": "Now you mention it, I am kind of hungry.",
+        "ru": "Раз уж ты об этом заговорила — я вроде как голодный.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll just snack on an apple if I'm hungry.",
+        "ru": "Я просто перекушу яблоком, если буду голоден.",
+        "learn": 1
+      },
+      {
+        "eng": "He was hungry as he had not been in months.",
+        "ru": "Ни разу за все прошедшие месяцы он не был так голоден, как сейчас.",
+        "learn": 0
+      },
+      {
+        "eng": "By the time we got home we were tired and hungry.",
+        "ru": "К моменту возвращения домой мы устали и проголодались.",
+        "learn": 0
+      },
+      {
+        "eng": "I was feeling hungry, so I made myself a sandwich.",
+        "ru": "Я был голодным, и поэтому сделал себе бутерброд.",
+        "learn": 1
+      },
+      {
+        "eng": "I was so hungry that you could hear my stomach gurgling.",
+        "ru": "Я так хотел есть, что было слышно, как у меня булькает в животе.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoners' families were hungry for more information.",
+        "ru": "Семьи заключенных жаждали получения дополнительной информации.",
+        "learn": 0
+      },
+      {
+        "eng": "When our order finally arrived we were very hungry indeed.",
+        "ru": "Когда наш заказ наконец-то прибыл, мы уже были очень голодны.",
+        "learn": 0
+      }
+    ]
+  }
 }

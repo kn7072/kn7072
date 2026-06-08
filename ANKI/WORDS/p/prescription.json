@@ -1,58 +1,105 @@
 {
-    "prescription": {
-        "comment": [
-            "script",
-            "description",
-            "manuscript",
-            "transcript",
-            "subscription"
-        ],
-        "translate": "рецепт, рекомендация, установка, предписывание, право давности, неписаный закон",
-        "transcription": " |prɪˈskrɪpʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The doctor wrote me a prescription for sleeping pills.",
-            "I tried to follow her prescription for success.",
-            "I have to pick up my prescription.",
-            "He got a refill of his prescription.",
-            "The drug is only sold with a prescription.",
-            "Travellers must declare their prescription drugs.",
-            "The pharmacist prepared the prescription.",
-            "I got the prescription filled on the way home.",
-            "If you're pregnant, you can get free prescriptions.",
-            "Your prescription will be ready in about 20 minutes.",
-            "We are trying to cut the price of prescription drugs.",
-            "The pharmacist caught an error in the prescription's dosage.",
-            "Your local druggist can fill the prescription.",
-            "The black market in prescription drugs is thriving.",
-            "She got her prescription for antibiotics filled by the druggist.",
-            "The party's main prescription for educational problems was to give schools more money.",
-            "To cut down on competition, the government passed price controls on prescription drugs."
-        ],
-        "example_translate": [
-            "Доктор выписал мне рецепт на снотворное.",
-            "Я старалась следовать её рецепту успеха.",
-            "Мне необходимо забрать/взять свой рецепт.",
-            "Он повторно получил лекарство по своему рецепту.",
-            "Данный препарат отпускается только по рецепту.",
-            "Туристы должны декларировать сильнодействующие лекарства.",
-            "Фармацевт приготовил лекарство согласно рецепту.",
-            "По дороге домой я купила по рецепту лекарства.",
-            "Если вы беременны, то можете получить лекарства бесплатно.",
-            "Ваш рецепт будет готов примерно через двадцать минут.",
-            "Мы пытаемся снизить цену лекарств, отпускаемых по рецептам.",
-            "Фармацевт нашёл в дозировке рецепта ошибку.",
-            "Рецепт может заполнить ваш местный аптекарь.",
-            "Чёрный рынок рецептурных препаратов процветает.",
-            "Она получила рецепт на антибиотики, заполненный фармацевтом.",
-            "Основной рекомендацией данной партии для решения образовательных проблем было дать школам больше денег.",
-            "Чтобы снизить конкуренцию, правительство ввело ценовой контроль на выписываемые лекарства."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "prescription": {
+    "comment": [
+      "script",
+      "description",
+      "manuscript",
+      "transcript",
+      "subscription"
+    ],
+    "translate": "рецепт, рекомендация, установка, предписывание, право давности, неписаный закон",
+    "transcription": " |prɪˈskrɪpʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The doctor wrote me a prescription for sleeping pills.",
+        "ru": "Доктор выписал мне рецепт на снотворное.",
+        "learn": 0
+      },
+      {
+        "eng": "I tried to follow her prescription for success.",
+        "ru": "Я старалась следовать её рецепту успеха.",
+        "learn": 0
+      },
+      {
+        "eng": "I have to pick up my prescription.",
+        "ru": "Мне необходимо забрать/взять свой рецепт.",
+        "learn": 0
+      },
+      {
+        "eng": "He got a refill of his prescription.",
+        "ru": "Он повторно получил лекарство по своему рецепту.",
+        "learn": 0
+      },
+      {
+        "eng": "The drug is only sold with a prescription.",
+        "ru": "Данный препарат отпускается только по рецепту.",
+        "learn": 0
+      },
+      {
+        "eng": "Travellers must declare their prescription drugs.",
+        "ru": "Туристы должны декларировать сильнодействующие лекарства.",
+        "learn": 1
+      },
+      {
+        "eng": "The pharmacist prepared the prescription.",
+        "ru": "Фармацевт приготовил лекарство согласно рецепту.",
+        "learn": 0
+      },
+      {
+        "eng": "I got the prescription filled on the way home.",
+        "ru": "По дороге домой я купила по рецепту лекарства.",
+        "learn": 0
+      },
+      {
+        "eng": "If you're pregnant, you can get free prescriptions.",
+        "ru": "Если вы беременны, то можете получить лекарства бесплатно.",
+        "learn": 1
+      },
+      {
+        "eng": "Your prescription will be ready in about 20 minutes.",
+        "ru": "Ваш рецепт будет готов примерно через двадцать минут.",
+        "learn": 0
+      },
+      {
+        "eng": "We are trying to cut the price of prescription drugs.",
+        "ru": "Мы пытаемся снизить цену лекарств, отпускаемых по рецептам.",
+        "learn": 1
+      },
+      {
+        "eng": "The pharmacist caught an error in the prescription's dosage.",
+        "ru": "Фармацевт нашёл в дозировке рецепта ошибку.",
+        "learn": 0
+      },
+      {
+        "eng": "Your local druggist can fill the prescription.",
+        "ru": "Рецепт может заполнить ваш местный аптекарь.",
+        "learn": 0
+      },
+      {
+        "eng": "The black market in prescription drugs is thriving.",
+        "ru": "Чёрный рынок рецептурных препаратов процветает.",
+        "learn": 0
+      },
+      {
+        "eng": "She got her prescription for antibiotics filled by the druggist.",
+        "ru": "Она получила рецепт на антибиотики, заполненный фармацевтом.",
+        "learn": 0
+      },
+      {
+        "eng": "The party's main prescription for educational problems was to give schools more money.",
+        "ru": "Основной рекомендацией данной партии для решения образовательных проблем было дать школам больше денег.",
+        "learn": 0
+      },
+      {
+        "eng": "To cut down on competition, the government passed price controls on prescription drugs.",
+        "ru": "Чтобы снизить конкуренцию, правительство ввело ценовой контроль на выписываемые лекарства.",
+        "learn": 0
+      }
+    ]
+  }
 }

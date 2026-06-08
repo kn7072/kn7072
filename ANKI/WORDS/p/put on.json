@@ -1,49 +1,170 @@
 {
-    "put on": {
-        "comment": [],
-        "translate": "1) Надевать (одежду) 2) Включать (устройство, музыку) 3) Притворяться, изображать(Приблизительные синонимы) ",
-        "transcription": " |ˈpʊt ɑːn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Don't put on that act with me.",
-            "Put on some music, please.",
-            "He put on a movie for the kids.",
-            "I need to put on some makeup.",
-            "Put on the heater — it's freezing.",
-            "He put on innocence but we knew the truth.",
-            "She put on a brave face despite the pain.",
-            "They put on their uniforms before work.",
-            "She put on her dress for the party.",
-            "He's just putting on an accent.",
-            "Put on your coat — it's cold outside.",
-            "She's putting on a show for the cameras.",
-            "She put on the radio while cooking.",
-            "They put on the lights when it got dark.",
-            "He put on his shoes quickly."
-        ],
-        "example_translate": [
-            "Не притворяйся со мной.",
-            "Включи музыку, пожалуйста.",
-            "Он включил фильм для детей.",
-            "Мне нужно нанести макияж.",
-            "Включи обогреватель — здесь очень холодно.",
-            "Он изображал невинность, но мы знали правду.",
-            "Она сделала вид, что всё в порядке, несмотря на боль.",
-            "Они надевают форму перед работой.",
-            "Она надела платье для вечеринки.",
-            "Он просто изображает акцент.",
-            "Надень пальто — на улице холодно.",
-            "Она устраивает представление для камер.",
-            "Она включила радио во время готовки.",
-            "Они включили свет, когда стемнело.",
-            "Он быстро надел обувь."
-        ],
-        "synonyms": "Надевать (одежду) - wear, don\nВключать (устройство, музыку) - turn on, play\nПритворяться, изображать - pretend, feign, affect\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "put on": {
+    "comment": [],
+    "translate": "1) Надевать (одежду) 2) Включать (устройство, музыку) 3) Притворяться, изображать(Приблизительные синонимы) ",
+    "transcription": " |ˈpʊt ɑːn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Надевать (одежду) - wear, don",
+      "Включать (устройство, музыку) - turn on, play",
+      "Притворяться, изображать - pretend, feign, affect"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "Don't put on that act with me.",
+        "ru": "Не притворяйся со мной.",
+        "learn": 1
+      },
+      {
+        "eng": "Put on some music, please.",
+        "ru": "Включи музыку, пожалуйста.",
+        "learn": 1
+      },
+      {
+        "eng": "He put on a movie for the kids.",
+        "ru": "Он включил фильм для детей.",
+        "learn": 1
+      },
+      {
+        "eng": "I need to put on some makeup.",
+        "ru": "Мне нужно нанести макияж.",
+        "learn": 1
+      },
+      {
+        "eng": "Put on the heater — it's freezing.",
+        "ru": "Включи обогреватель — здесь очень холодно.",
+        "learn": 1
+      },
+      {
+        "eng": "He put on innocence but we knew the truth.",
+        "ru": "Он изображал невинность, но мы знали правду.",
+        "learn": 1
+      },
+      {
+        "eng": "She put on a brave face despite the pain.",
+        "ru": "Она сделала вид, что всё в порядке, несмотря на боль.",
+        "learn": 1
+      },
+      {
+        "eng": "They put on their uniforms before work.",
+        "ru": "Они надевают форму перед работой.",
+        "learn": 1
+      },
+      {
+        "eng": "She put on her dress for the party.",
+        "ru": "Она надела платье для вечеринки.",
+        "learn": 1
+      },
+      {
+        "eng": "He's just putting on an accent.",
+        "ru": "Он просто изображает акцент.",
+        "learn": 1
+      },
+      {
+        "eng": "Put on your coat — it's cold outside.",
+        "ru": "Надень пальто — на улице холодно.",
+        "learn": 1
+      },
+      {
+        "eng": "She's putting on a show for the cameras.",
+        "ru": "Она устраивает представление для камер.",
+        "learn": 1
+      },
+      {
+        "eng": "She put on the radio while cooking.",
+        "ru": "Она включила радио во время готовки.",
+        "learn": 1
+      },
+      {
+        "eng": "They put on the lights when it got dark.",
+        "ru": "Они включили свет, когда стемнело.",
+        "learn": 1
+      },
+      {
+        "eng": "He put on his shoes quickly.",
+        "ru": "Он быстро надел обувь.",
+        "learn": 1
+      },
+      {
+        "eng": "He put on his best suit for the wedding",
+        "ru": "На свадьбу он надел свой самый лучший костюм.",
+        "learn": 0
+      },
+      {
+        "eng": "The train put on speed.",
+        "ru": "Поезд прибавил скорость.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't believe you, you're just putting me on!",
+        "ru": "Я тебе не верю, ты шутишь!",
+        "learn": 0
+      },
+      {
+        "eng": "Please put the light on, it's getting dark.",
+        "ru": "Пожалуйста, включите свет, уже темнеет.",
+        "learn": 0
+      },
+      {
+        "eng": "Why are you trying to put the blame on me?",
+        "ru": "Почему ты пытаешься свалить вину на меня?",
+        "learn": 0
+      },
+      {
+        "eng": "...I put on a coat and shoes to go outside....",
+        "ru": "...я надел пальто и обувь, чтобы выйти на улицу....",
+        "learn": 0
+      },
+      {
+        "eng": "His modesty is all put on.",
+        "ru": "Его скромность напускная.",
+        "learn": 0
+      },
+      {
+        "eng": "Which play is the Theatre Group putting on next?",
+        "ru": "Какую следующую пьесу ставит Сиета Груп?",
+        "learn": 0
+      },
+      {
+        "eng": "He put his coat on hurriedly and ran out of the house.",
+        "ru": "Он в спешке набросил пальто и выбежал из дома.",
+        "learn": 0
+      },
+      {
+        "eng": "He put on 1,000 miles on this trip",
+        "ru": "Он преодолел 1000 миль в ходе этой поездки.",
+        "learn": 0
+      },
+      {
+        "eng": "The government has put yet another tax on cigarettes.",
+        "ru": "Правительство ввело очередной налог на сигареты.",
+        "learn": 0
+      },
+      {
+        "eng": "How much are you prepared to put on this horse?",
+        "ru": "Сколько ты хочешь поставить на эту лошадь?",
+        "learn": 0
+      },
+      {
+        "eng": "Which play is the Globe putting on next?",
+        "ru": "Какую следующую пьесу ставит Глобус?",
+        "learn": 0
+      },
+      {
+        "eng": "She put on a sun room.",
+        "ru": "Она добавила зимний сад /солярий/.",
+        "learn": 0
+      },
+      {
+        "eng": "...some critics are putting it on when they say it's the best comedy ever made...",
+        "ru": "...некоторые критики кривят душой, когда говорят, что это лучшая комедия из тех, что когда-либо были сделаны / сняты...",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,88 +1,177 @@
 {
-    "awake": {
-        "comment": [
-            "award",
-            "aware",
-            "awareness",
-            "away",
-            "unaware",
-            "wake"
-        ],
-        "translate": "просыпаться, проснуться, пробудиться, бодрствующий, бдительный, настороженный",
-        "transcription": " |əˈweɪk|",
-        "antonyms": [],
-        "mnemonic": [
-            "wake [weık]\nawake [ə'weɪk] - будить, пробуждать, просыпаться.,\nбодрствующий, проснувшийся\nfake - подделка, подделывать\n***\nПРОСЫПАЮСЬ, вижу - фейк. (это) wake\nПРОБУЖДАЮСЬ, вижу - фейк. (это) wake\nБодрствование."
-        ],
-        "examples": [
-            "I hope he's awake now.",
-            "The alarm awoke me early.",
-            "It was midday when she awoke.",
-            "It was hard to stay awake.",
-            "The traffic noise kept me awake.",
-            "She fell asleep immediately but awoke an hour later.",
-            "She was lying awake, tossing and turning.",
-            "“Are you asleep?” “No, I'm awake.”",
-            "I awoke several times during the night.",
-            "I was awake all through the night.",
-            "At 2 a.m. I was still wide awake.",
-            "Drinking coffee keeps him awake.",
-            "They were awoken by a loud bang.",
-            "She lay awake all night in torment.",
-            "How do you stay awake during boring lectures?",
-            "She was still only half awake when I brought her a cup of coffee.",
-            "I am so tired I can barely stay awake.",
-            "He was awake now, as was everyone else.",
-            "Emma lay awake half the night, worrying.",
-            "He lay awake watching her for a long time.",
-            "He always drinks mugs of coffee to keep himself awake.",
-            "The phone jolted him awake.",
-            "It required a supreme effort to stay awake.",
-            "She was awake to the dangers of her situation.",
-            "I couldn't sleep last night. I was awake all night long.",
-            "...the only way he can stay awake at his night job is by constantly swigging drinks containing caffeine...",
-            "The loud bang jolted me awake.",
-            "I was struggling to keep awake.",
-            "The loud noise startled him awake.",
-            "She lay awake thinking about the money."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я надеюсь, что он не спит сейчас.",
-            "Будильник разбудил меня рано.",
-            "Был полдень, когда она проснулась.",
-            "Было трудно не заснуть.",
-            "Шум уличного движения не давал мне уснуть.",
-            "Она сразу заснула, но через час проснулась.",
-            "Она не могла уснуть и лежала ворочаясь с боку на бок.",
-            "“Ты спишь?” “Нет, я проснулся.”",
-            "Я просыпался несколько раз за ночь.",
-            "Я не спал всю ночь.",
-            "В два часа ночи я всё ещё не спал.",
-            "Кофе не даёт ему заснуть.",
-            "Их разбудил громкий взрыв.",
-            "Она пролежала всю ночь в муках без сна.",
-            "Как тебе удаётся не заснуть во время скучных лекций?",
-            "Она ещё до конца не проснулась, когда я принёс ей чашку кофе.",
-            "Я так устал, что с трудом сдерживаюсь, чтобы не заснуть.",
-            "Он уже проснулся, как и все остальные.",
-            "Эмма полночи провела без сна, волнуясь.",
-            "Он долго лежал и наблюдал за ней.",
-            "Он всегда выпивает много кружек кофе, чтобы не заснуть.",
-            "Он резко проснулся от телефонного звонка.",
-            "Потребовалось приложить невероятное усилие, чтобы не заснуть.",
-            "Она хорошо понимала всю опасность своего положения.",
-            "Я прошлой ночью не мог заснуть. Всю ночь не спал.",
-            "...единственный способ не уснуть на его ночной работе - это всё время потягивать напитки, содержащие кофеин...",
-            "От громкого хлопка я вздрогнул и проснулся.",
-            "Я изо всех сил старался не заснуть.",
-            "От этого громкого шума он вздрогнул и проснулся.",
-            "Она лежала без сна и думала о деньгах."
-        ],
-        "stars": 1,
-        "groups": [
-            "all_words",
-            "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными"
-        ]
-    }
+  "awake": {
+    "comment": [
+      "awoke |əˈwoʊk|,                                          awoken |əˈwoʊkən|",
+      "award",
+      "aware",
+      "awareness",
+      "away",
+      "unaware",
+      "wake"
+    ],
+    "translate": "просыпаться, проснуться, пробудиться, бодрствующий, бдительный, настороженный",
+    "transcription": " |əˈweɪk|",
+    "antonyms": [],
+    "mnemonic": [
+      "wake [weık]\nawake [ə'weɪk] - будить, пробуждать, просыпаться.,\nбодрствующий, проснувшийся\nfake - подделка, подделывать\n***\nПРОСЫПАЮСЬ, вижу - фейк. (это) wake\nПРОБУЖДАЮСЬ, вижу - фейк. (это) wake\nБодрствование."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [
+      "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I hope he's awake now.",
+        "ru": "Я надеюсь, что он не спит сейчас.",
+        "learn": 0
+      },
+      {
+        "eng": "The alarm awoke me early.",
+        "ru": "Будильник разбудил меня рано.",
+        "learn": 0
+      },
+      {
+        "eng": "It was midday when she awoke.",
+        "ru": "Был полдень, когда она проснулась.",
+        "learn": 1
+      },
+      {
+        "eng": "It was hard to stay awake.",
+        "ru": "Было трудно не заснуть.",
+        "learn": 0
+      },
+      {
+        "eng": "The traffic noise kept me awake.",
+        "ru": "Шум уличного движения не давал мне уснуть.",
+        "learn": 0
+      },
+      {
+        "eng": "She fell asleep immediately but awoke an hour later.",
+        "ru": "Она сразу заснула, но через час проснулась.",
+        "learn": 0
+      },
+      {
+        "eng": "She was lying awake, tossing and turning.",
+        "ru": "Она не могла уснуть и лежала ворочаясь с боку на бок.",
+        "learn": 0
+      },
+      {
+        "eng": "“Are you asleep?” “No, I'm awake.”",
+        "ru": "“Ты спишь?” “Нет, я проснулся.”",
+        "learn": 0
+      },
+      {
+        "eng": "I awoke several times during the night.",
+        "ru": "Я просыпался несколько раз за ночь.",
+        "learn": 0
+      },
+      {
+        "eng": "I was awake all through the night.",
+        "ru": "Я не спал всю ночь.",
+        "learn": 0
+      },
+      {
+        "eng": "At 2 a.m. I was still wide awake.",
+        "ru": "В два часа ночи я всё ещё не спал.",
+        "learn": 0
+      },
+      {
+        "eng": "Drinking coffee keeps him awake.",
+        "ru": "Кофе не даёт ему заснуть.",
+        "learn": 0
+      },
+      {
+        "eng": "They were awoken by a loud bang.",
+        "ru": "Их разбудил громкий взрыв.",
+        "learn": 1
+      },
+      {
+        "eng": "She lay awake all night in torment.",
+        "ru": "Она пролежала всю ночь в муках без сна.",
+        "learn": 0
+      },
+      {
+        "eng": "How do you stay awake during boring lectures?",
+        "ru": "Как тебе удаётся не заснуть во время скучных лекций?",
+        "learn": 0
+      },
+      {
+        "eng": "She was still only half awake when I brought her a cup of coffee.",
+        "ru": "Она ещё до конца не проснулась, когда я принёс ей чашку кофе.",
+        "learn": 0
+      },
+      {
+        "eng": "I am so tired I can barely stay awake.",
+        "ru": "Я так устал, что с трудом сдерживаюсь, чтобы не заснуть.",
+        "learn": 0
+      },
+      {
+        "eng": "He was awake now, as was everyone else.",
+        "ru": "Он уже проснулся, как и все остальные.",
+        "learn": 0
+      },
+      {
+        "eng": "Emma lay awake half the night, worrying.",
+        "ru": "Эмма полночи провела без сна, волнуясь.",
+        "learn": 0
+      },
+      {
+        "eng": "He lay awake watching her for a long time.",
+        "ru": "Он долго лежал и наблюдал за ней.",
+        "learn": 0
+      },
+      {
+        "eng": "He always drinks mugs of coffee to keep himself awake.",
+        "ru": "Он всегда выпивает много кружек кофе, чтобы не заснуть.",
+        "learn": 1
+      },
+      {
+        "eng": "The phone jolted him awake.",
+        "ru": "Он резко проснулся от телефонного звонка.",
+        "learn": 0
+      },
+      {
+        "eng": "It required a supreme effort to stay awake.",
+        "ru": "Потребовалось приложить невероятное усилие, чтобы не заснуть.",
+        "learn": 0
+      },
+      {
+        "eng": "She was awake to the dangers of her situation.",
+        "ru": "Она хорошо понимала всю опасность своего положения.",
+        "learn": 0
+      },
+      {
+        "eng": "I couldn't sleep last night. I was awake all night long.",
+        "ru": "Я прошлой ночью не мог заснуть. Всю ночь не спал.",
+        "learn": 0
+      },
+      {
+        "eng": "...the only way he can stay awake at his night job is by constantly swigging drinks containing caffeine...",
+        "ru": "...единственный способ не уснуть на его ночной работе - это всё время потягивать напитки, содержащие кофеин...",
+        "learn": 0
+      },
+      {
+        "eng": "The loud bang jolted me awake.",
+        "ru": "От громкого хлопка я вздрогнул и проснулся.",
+        "learn": 0
+      },
+      {
+        "eng": "I was struggling to keep awake.",
+        "ru": "Я изо всех сил старался не заснуть.",
+        "learn": 0
+      },
+      {
+        "eng": "The loud noise startled him awake.",
+        "ru": "От этого громкого шума он вздрогнул и проснулся.",
+        "learn": 0
+      },
+      {
+        "eng": "She lay awake thinking about the money.",
+        "ru": "Она лежала без сна и думала о деньгах.",
+        "learn": 0
+      }
+    ]
+  }
 }

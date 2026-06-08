@@ -1,84 +1,170 @@
 {
-    "engine": {
-        "comment": [
-            "engineering",
-            "engineer"
-        ],
-        "translate": "двигатель, мотор, машина, паровоз, средство, локомотив, инструмент, орудие",
-        "transcription": " |ˈendʒɪn|",
-        "antonyms": [],
-        "mnemonic": [
-            "engine [энджи':н] мотор - (Энджин-ер*) - создатель мотора (‘Инженер).",
-            "engine ['ɛndʒɪn]\n***\nМне нужен ДВИГАТЕЛЬ, а на обен|джин. (это) engine\nМне нужен МОТОР, а на обен|джин. (это) engine"
-        ],
-        "examples": [
-            "The engine missed.",
-            "The engine won't start.",
-            "Gun the engine!",
-            "The engine has burned out.",
-            "He got into the driving seat and started the engine.",
-            "The engine works with labour.",
-            "The engine failed unexpectedly.",
-            "Wait! Don't start the engine yet.",
-            "He bent low over the engine.",
-            "Jane kept the engine running.",
-            "I stripped down the engine completely.",
-            "The engine burst into flame.",
-            "The engine's not quite right.",
-            "Is the engine running smoothly?",
-            "The engine will need to be completely checked.",
-            "The car has a four-cylinder engine.",
-            "This engine has got only three moving parts.",
-            "The job of repairing the engine took several hours.",
-            "Rome's deadly war engine",
-            "The engine juddered to life.",
-            "the moan of the car's engine",
-            "an exploded view of an engine",
-            "The engine thrummed into life.",
-            "the car engine was running at idle",
-            "Joe pulled in and killed the engine.",
-            "He is a natural with any kind of engine.",
-            "a car with a snappy engine",
-            "The engine abruptly cut out.",
-            "the soft purr of a car engine",
-            "The old engine was juddering."
-        ],
-        "example_translate": [
-            "Двигатель заглох.",
-            "Двигатель не запускается. / Мотор не заводится.",
-            "Давай газу!",
-            "Двигатель перегрелся.",
-            "Он сел за руль и завел двигатель.",
-            "Двигатель работает с трудом.",
-            "Двигатель неожиданно отказал.",
-            "Подождите! Не запускайте пока мотор.",
-            "Он склонился над двигателем.",
-            "Джейн не стала глушить мотор.",
-            "Я полностью разобрал двигатель.",
-            "Двигатель воспламенился.",
-            "Двигатель не вполне исправен.",
-            "Двигатель работает нормально?",
-            "Двигатель нужно будет полностью проверить.",
-            "Автомобиль оснащён четырёхцилиндровым двигателем.",
-            "У этого двигателя только три движущиеся части.",
-            "На ремонт этого двигателя ушло несколько часов.",
-            "смертоносная военная машина Рима",
-            "Двигатель вздрогнул и завёлся.",
-            "гул автомобильного двигателя",
-            "изображение двигателя в разобранном виде",
-            "Двигатель загудел и завёлся.",
-            "двигатель автомобиля работал на холостом ходу",
-            "Джо остановился и заглушил двигатель.",
-            "Он легко обращается с любыми механизмами.",
-            "автомобиль с мощным двигателем",
-            "Двигатель внезапно заглох.",
-            "тихое урчание автомобильного двигателя",
-            "Старый двигатель сильно вибрировал."
-        ],
-        "synonyms": [],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "engine": {
+    "comment": [
+      "engineering",
+      "engineer"
+    ],
+    "translate": "двигатель, мотор, машина, паровоз, средство, локомотив, инструмент, орудие",
+    "transcription": " |ˈendʒɪn|",
+    "antonyms": [],
+    "mnemonic": [
+      "engine [энджи':н] мотор - (Энджин-ер*) - создатель мотора (‘Инженер).",
+      "engine ['ɛndʒɪn]\n***\nМне нужен ДВИГАТЕЛЬ, а на обен|джин. (это) engine\nМне нужен МОТОР, а на обен|джин. (это) engine"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The engine missed.",
+        "ru": "Двигатель заглох.",
+        "learn": 0
+      },
+      {
+        "eng": "The engine won't start.",
+        "ru": "Двигатель не запускается. / Мотор не заводится.",
+        "learn": 0
+      },
+      {
+        "eng": "Gun the engine!",
+        "ru": "Давай газу!",
+        "learn": 0
+      },
+      {
+        "eng": "The engine has burned out.",
+        "ru": "Двигатель перегрелся.",
+        "learn": 0
+      },
+      {
+        "eng": "He got into the driving seat and started the engine.",
+        "ru": "Он сел за руль и завел двигатель.",
+        "learn": 0
+      },
+      {
+        "eng": "The engine works with labour.",
+        "ru": "Двигатель работает с трудом.",
+        "learn": 0
+      },
+      {
+        "eng": "The engine failed unexpectedly.",
+        "ru": "Двигатель неожиданно отказал.",
+        "learn": 1
+      },
+      {
+        "eng": "Wait! Don't start the engine yet.",
+        "ru": "Подождите! Не запускайте пока мотор.",
+        "learn": 0
+      },
+      {
+        "eng": "He bent low over the engine.",
+        "ru": "Он склонился над двигателем.",
+        "learn": 0
+      },
+      {
+        "eng": "Jane kept the engine running.",
+        "ru": "Джейн не стала глушить мотор.",
+        "learn": 0
+      },
+      {
+        "eng": "I stripped down the engine completely.",
+        "ru": "Я полностью разобрал двигатель.",
+        "learn": 0
+      },
+      {
+        "eng": "The engine burst into flame.",
+        "ru": "Двигатель воспламенился.",
+        "learn": 0
+      },
+      {
+        "eng": "The engine's not quite right.",
+        "ru": "Двигатель не вполне исправен.",
+        "learn": 0
+      },
+      {
+        "eng": "Is the engine running smoothly?",
+        "ru": "Двигатель работает нормально?",
+        "learn": 0
+      },
+      {
+        "eng": "The engine will need to be completely checked.",
+        "ru": "Двигатель нужно будет полностью проверить.",
+        "learn": 0
+      },
+      {
+        "eng": "The car has a four-cylinder engine.",
+        "ru": "Автомобиль оснащён четырёхцилиндровым двигателем.",
+        "learn": 0
+      },
+      {
+        "eng": "This engine has got only three moving parts.",
+        "ru": "У этого двигателя только три движущиеся части.",
+        "learn": 0
+      },
+      {
+        "eng": "The job of repairing the engine took several hours.",
+        "ru": "На ремонт этого двигателя ушло несколько часов.",
+        "learn": 0
+      },
+      {
+        "eng": "Rome's deadly war engine",
+        "ru": "смертоносная военная машина Рима",
+        "learn": 0
+      },
+      {
+        "eng": "The engine juddered to life.",
+        "ru": "Двигатель вздрогнул и завёлся.",
+        "learn": 0
+      },
+      {
+        "eng": "the moan of the car's engine",
+        "ru": "гул автомобильного двигателя",
+        "learn": 0
+      },
+      {
+        "eng": "an exploded view of an engine",
+        "ru": "изображение двигателя в разобранном виде",
+        "learn": 0
+      },
+      {
+        "eng": "The engine thrummed into life.",
+        "ru": "Двигатель загудел и завёлся.",
+        "learn": 0
+      },
+      {
+        "eng": "the car engine was running at idle",
+        "ru": "двигатель автомобиля работал на холостом ходу",
+        "learn": 0
+      },
+      {
+        "eng": "Joe pulled in and killed the engine.",
+        "ru": "Джо остановился и заглушил двигатель.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a natural with any kind of engine.",
+        "ru": "Он легко обращается с любыми механизмами.",
+        "learn": 0
+      },
+      {
+        "eng": "a car with a snappy engine",
+        "ru": "автомобиль с мощным двигателем",
+        "learn": 0
+      },
+      {
+        "eng": "The engine abruptly cut out.",
+        "ru": "Двигатель внезапно заглох.",
+        "learn": 0
+      },
+      {
+        "eng": "the soft purr of a car engine",
+        "ru": "тихое урчание автомобильного двигателя",
+        "learn": 0
+      },
+      {
+        "eng": "The old engine was juddering.",
+        "ru": "Старый двигатель сильно вибрировал.",
+        "learn": 0
+      }
+    ]
+  }
 }

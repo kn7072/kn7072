@@ -1,90 +1,177 @@
 {
-    "spirit": {
-        "comment": [
-            "spiritual",
-            "inspire",
-            "conspiracy",
-            "spiral",
-            "aspire",
-            "aspiration",
-            "inspiration",
-            "aspirin"
-        ],
-        "translate": "дух, спирт, душа, настроение, спиртовой, спиритический, воодушевлять",
-        "transcription": " |ˈspɪrɪt|",
-        "antonyms": [],
-        "mnemonic": [
-            "spirit [спи'рит] душа, вдохновение - (Спирит-измом) занимаясь, духов вызывают."
-        ],
-        "examples": [
-            "Her spirit was broken.",
-            "Try to keep up your spirits.",
-            "That's the spirit!",
-            "His spirit is catching.",
-            "Holy Spirit",
-            "His spirit was daunted.",
-            "Nothing could retrieve his spirit.",
-            "They could not break her spirit.",
-            "the Father, the Son and the Holy Spirit",
-            "There is a spirit of cooperation at / in our university",
-            "European nations can live together in a spirit of mutual trust.",
-            "The company spirited him up.",
-            "She is a strong and independent spirit.",
-            "My father was a proud spirit.",
-            "the verge of matter and spirit",
-            "We will all miss her generous spirit.",
-            "Her spirit rebounded after talking to me.",
-            "I'm 85, but I still feel young in spirit.",
-            "Tourism has not destroyed the spirit of Bali.",
-            "The princess was spirited off to a desert island by the evil magician.",
-            "She claims to have occult powers, given to her by some mysterious spirit.",
-            "a lusty spirit of adventure",
-            "Alice was a woman of indomitable spirit.",
-            "He is a dauntless / hardy spirit.",
-            "She was loved for her blithe spirit.",
-            "The warm morning sun lifted our spirits.",
-            "You don't go about it in the right spirit.",
-            "His beliefs conflicted with the spirit of the age.",
-            "the emanation of the Holy Spirit",
-            "She breathes the Christian spirit."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Её дух был сломлен.",
-            "Старайтесь не падать духом.",
-            "Вот молодец! / Так держать!",
-            "Его настрой заразителен.",
-            "Святой Дух",
-            "Он пал духом.",
-            "Ничто не могло поднять ему настроение.",
-            "Они не смогли сломить её дух.",
-            "Отец, Сын и Святой Дух",
-            "В нашем университете присутствует дух единения.",
-            "Европейские народы могут жить вместе в духе взаимного доверия.",
-            "Беседа воодушевила его.",
-            "У неё сильный и независимый характер.",
-            "Мой отец был гордым по духу.",
-            "грань между материей и духом",
-            "Нам всем будет не хватать её щедрой души.",
-            "После разговора со мной её настроение улучшилось.",
-            "Мне восемьдесят пять лет, но я всё ещё молод душой.",
-            "Туризм ещё не уничтожил дух Бали.",
-            "Злой волшебник тайно похитил принцессу и увёз её на необитаемый остров.",
-            "Она утверждает, будто обладает мистическими силами, которые получила от некоего таинственного духа.",
-            "здоровый /весёлый/ дух авантюризма",
-            "Алиса была женщиной неукротимого духа.",
-            "Он бесстрашный человек.",
-            "Её любили за весёлый и беззаботный характер.",
-            "Тёплое утреннее солнце подняло нам настроение.",
-            "У вас к этому неправильный подход.",
-            "Его убеждения противоречили духу времени.",
-            "исхождение Святого Духа",
-            "Она дышит христианским духом."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "i_+_Откр_сл_=_[i(:)]"
-        ]
-    }
+  "spirit": {
+    "comment": [
+      "spiritual",
+      "inspire",
+      "conspiracy",
+      "spiral",
+      "aspire",
+      "aspiration",
+      "inspiration",
+      "aspirin"
+    ],
+    "translate": "дух, спирт, душа, настроение, спиртовой, спиритический, воодушевлять",
+    "transcription": " |ˈspɪrɪt|",
+    "antonyms": [],
+    "mnemonic": [
+      "spirit [спи'рит] душа, вдохновение - (Спирит-измом) занимаясь, духов вызывают."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "i_+_Откр_сл_=_[i(:)]"
+    ],
+    "examples": [
+      {
+        "eng": "Her spirit was broken.",
+        "ru": "Её дух был сломлен.",
+        "learn": 0
+      },
+      {
+        "eng": "Try to keep up your spirits.",
+        "ru": "Старайтесь не падать духом.",
+        "learn": 0
+      },
+      {
+        "eng": "That's the spirit!",
+        "ru": "Вот молодец! / Так держать!",
+        "learn": 0
+      },
+      {
+        "eng": "His spirit is catching.",
+        "ru": "Его настрой заразителен.",
+        "learn": 0
+      },
+      {
+        "eng": "Holy Spirit",
+        "ru": "Святой Дух",
+        "learn": 0
+      },
+      {
+        "eng": "His spirit was daunted.",
+        "ru": "Он пал духом.",
+        "learn": 0
+      },
+      {
+        "eng": "Nothing could retrieve his spirit.",
+        "ru": "Ничто не могло поднять ему настроение.",
+        "learn": 0
+      },
+      {
+        "eng": "They could not break her spirit.",
+        "ru": "Они не смогли сломить её дух.",
+        "learn": 0
+      },
+      {
+        "eng": "the Father, the Son and the Holy Spirit",
+        "ru": "Отец, Сын и Святой Дух",
+        "learn": 1
+      },
+      {
+        "eng": "There is a spirit of cooperation at / in our university",
+        "ru": "В нашем университете присутствует дух единения.",
+        "learn": 0
+      },
+      {
+        "eng": "European nations can live together in a spirit of mutual trust.",
+        "ru": "Европейские народы могут жить вместе в духе взаимного доверия.",
+        "learn": 0
+      },
+      {
+        "eng": "The company spirited him up.",
+        "ru": "Беседа воодушевила его.",
+        "learn": 0
+      },
+      {
+        "eng": "She is a strong and independent spirit.",
+        "ru": "У неё сильный и независимый характер.",
+        "learn": 1
+      },
+      {
+        "eng": "My father was a proud spirit.",
+        "ru": "Мой отец был гордым по духу.",
+        "learn": 1
+      },
+      {
+        "eng": "the verge of matter and spirit",
+        "ru": "грань между материей и духом",
+        "learn": 0
+      },
+      {
+        "eng": "We will all miss her generous spirit.",
+        "ru": "Нам всем будет не хватать её щедрой души.",
+        "learn": 0
+      },
+      {
+        "eng": "Her spirit rebounded after talking to me.",
+        "ru": "После разговора со мной её настроение улучшилось.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm 85, but I still feel young in spirit.",
+        "ru": "Мне восемьдесят пять лет, но я всё ещё молод душой.",
+        "learn": 0
+      },
+      {
+        "eng": "Tourism has not destroyed the spirit of Bali.",
+        "ru": "Туризм ещё не уничтожил дух Бали.",
+        "learn": 0
+      },
+      {
+        "eng": "The princess was spirited off to a desert island by the evil magician.",
+        "ru": "Злой волшебник тайно похитил принцессу и увёз её на необитаемый остров.",
+        "learn": 0
+      },
+      {
+        "eng": "She claims to have occult powers, given to her by some mysterious spirit.",
+        "ru": "Она утверждает, будто обладает мистическими силами, которые получила от некоего таинственного духа.",
+        "learn": 0
+      },
+      {
+        "eng": "a lusty spirit of adventure",
+        "ru": "здоровый /весёлый/ дух авантюризма",
+        "learn": 0
+      },
+      {
+        "eng": "Alice was a woman of indomitable spirit.",
+        "ru": "Алиса была женщиной неукротимого духа.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a dauntless / hardy spirit.",
+        "ru": "Он бесстрашный человек.",
+        "learn": 0
+      },
+      {
+        "eng": "She was loved for her blithe spirit.",
+        "ru": "Её любили за весёлый и беззаботный характер.",
+        "learn": 0
+      },
+      {
+        "eng": "The warm morning sun lifted our spirits.",
+        "ru": "Тёплое утреннее солнце подняло нам настроение.",
+        "learn": 0
+      },
+      {
+        "eng": "You don't go about it in the right spirit.",
+        "ru": "У вас к этому неправильный подход.",
+        "learn": 0
+      },
+      {
+        "eng": "His beliefs conflicted with the spirit of the age.",
+        "ru": "Его убеждения противоречили духу времени.",
+        "learn": 0
+      },
+      {
+        "eng": "the emanation of the Holy Spirit",
+        "ru": "исхождение Святого Духа",
+        "learn": 0
+      },
+      {
+        "eng": "She breathes the Christian spirit.",
+        "ru": "Она дышит христианским духом.",
+        "learn": 0
+      }
+    ]
+  }
 }

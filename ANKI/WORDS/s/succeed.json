@@ -1,89 +1,175 @@
 {
-    "succeed": {
-        "comment": [
-            "successfully",
-            "unsuccessful",
-            "successful",
-            "success",
-            "successive",
-            "successor",
-            "succession"
-        ],
-        "translate": "преуспевать, иметь успех, следовать за, наследовать, сменять, достигать цели",
-        "transcription": " |səkˈsiːd|",
-        "antonyms": [],
-        "mnemonic": [
-            "succeed [сэкси':д] удаваться, везти - (Секс идиотов) очень удачен.",
-            "proceed [prə'si:d]\nsucceed [sək'si:d] - преуспевать\nexceed [ɪk'si:d] - превосходить\n***\nПРОДОЛЖАТЬ стал нас просúть. (это) proceed\nДЕЙСТВОВАТЬ осторожно - стал просúть. (это)\nproceed\nПЕРЕХОДИТЕ и будьте смелыми - стал просúть. (это)\nproceed\nИДТИ медленно - стал просúть. (это) proceed\nВОЗОБНОВИТЬ игру ты стал просúть. (это) proceed\nРАЗВИВАТЬСЯ дальше я устал тебя просúть. (это)\nproceed"
-        ],
-        "examples": [
-            "She doubted his ability to succeed.",
-            "There is little probability that he will succeed",
-            "I admire her gritty determination to succeed.",
-            "He hasn't enough push to succeed.",
-            "I don't think you'll succeed in changing his mind - he's very obstinate.",
-            "He is apt to succeed.",
-            "All I want is a legit chance to succeed.",
-            "You have to work hard in order to succeed.",
-            "Who will succeed him to the throne?",
-            "He always tries, but he doesn't always succeed.",
-            "Scientists claim they have succeeded in finding a cure for cancer.",
-            "She will succeed in the end.",
-            "Very few people succeed in losing weight and keeping it off.",
-            "She succeeded me as treasurer.",
-            "He had perfect confidence in her ability to succeed.",
-            "You can succeed where others failed.",
-            "We succeeded in getting tickets to the show.",
-            "She had the ingenuity to succeed where everyone else had failed.",
-            "He lacked the confidence to succeed.",
-            "You'll never succeed as a writer if you let a little bit of criticism faze you.",
-            "That class will never succeed in putting anything over the new teacher, he's too experienced.",
-            "Young people today are under intense pressure to succeed.",
-            "Will Charles succeed to the throne?",
-            "I am sure that we'll succeed eventually.",
-            "Their attempt seemed unlikely to succeed.",
-            "He had a steely determination to succeed.",
-            "His opposition acted as a goad to her determination to succeed.",
-            "We don't know with absolute certainty that the project will succeed.",
-            "To succeed one must be adaptable.",
-            "This car is intended to succeed the popular Fiesta."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она усомнилась в его способности добиться успеха.",
-            "Маловероятно, что он преуспеет.",
-            "Я восхищаюсь ее твердой решимостью добиться успеха.",
-            "Он недостаточно предприимчив [энергичен], чтобы преуспеть.",
-            "Не думаю, что тебе удастся его переубедить - он очень упрямый.",
-            "Он, вероятно, будет иметь успех.",
-            "Всё, чего я хочу — это законный шанс преуспеть.",
-            "Придётся как следует потрудиться, чтобы добиться успеха.",
-            "Кто унаследует трон после него?",
-            "Он всегда старается, но не всегда у него получается.",
-            "Ученые утверждают, что им удалось найти лекарство от рака.",
-            "В конце концов у неё всё получится.",
-            "Очень мало кому удаётся не только сбросить вес, но и удержать его на том же уровне.",
-            "Она сменила меня на посту казначея.",
-            "Он совершенно не сомневался в её способности добиться успеха.",
-            "Вы можете добиться успеха там, где другие потерпели неудачу.",
-            "Нам удалось достать билеты на это представление.",
-            "У неё хватило ловкости преуспеть там, где другие потерпели неудачу.",
-            "Чтобы добиться успеха, ему не хватало уверенности в себе.",
-            "Вам никогда не стать успешным писателем, если небольшая критика (в ваш адрес) будет расстраивать вас.",
-            "Этому классу ни за что не обмануть нового учителя, он слишком опытен.",
-            "Сегодня на молодёжь очень сильно давит необходимость добиться успеха.",
-            "Будет ли Чарльз наследником престола?",
-            "Я уверен, что со временем у нас всё получится.",
-            "Казалось, что их попытка, скорее всего, будет неудачной.",
-            "Он обладал твёрдой решимостью добиться успеха.",
-            "Сопротивление с его стороны только подстегнуло её стремление добиться успеха.",
-            "Мы не можем с абсолютной уверенностью сказать, что проект окажется успешным.",
-            "Чтобы добиться успеха, нужно уметь приспосабливаться.",
-            "Этот автомобиль должен прийти на замену популярной модели \"Fiesta\"."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "succeed": {
+    "comment": [
+      "successfully",
+      "unsuccessful",
+      "successful",
+      "success",
+      "successive",
+      "successor",
+      "succession"
+    ],
+    "translate": "преуспевать, иметь успех, следовать за, наследовать, сменять, достигать цели",
+    "transcription": " |səkˈsiːd|",
+    "antonyms": [],
+    "mnemonic": [
+      "succeed [сэкси':д] удаваться, везти - (Секс идиотов) очень удачен.",
+      "proceed [prə'si:d]\nsucceed [sək'si:d] - преуспевать\nexceed [ɪk'si:d] - превосходить\n***\nПРОДОЛЖАТЬ стал нас просúть. (это) proceed\nДЕЙСТВОВАТЬ осторожно - стал просúть. (это)\nproceed\nПЕРЕХОДИТЕ и будьте смелыми - стал просúть. (это)\nproceed\nИДТИ медленно - стал просúть. (это) proceed\nВОЗОБНОВИТЬ игру ты стал просúть. (это) proceed\nРАЗВИВАТЬСЯ дальше я устал тебя просúть. (это)\nproceed"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She doubted his ability to succeed.",
+        "ru": "Она усомнилась в его способности добиться успеха.",
+        "learn": 1
+      },
+      {
+        "eng": "There is little probability that he will succeed",
+        "ru": "Маловероятно, что он преуспеет.",
+        "learn": 0
+      },
+      {
+        "eng": "I admire her gritty determination to succeed.",
+        "ru": "Я восхищаюсь ее твердой решимостью добиться успеха.",
+        "learn": 1
+      },
+      {
+        "eng": "He hasn't enough push to succeed.",
+        "ru": "Он недостаточно предприимчив [энергичен], чтобы преуспеть.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't think you'll succeed in changing his mind - he's very obstinate.",
+        "ru": "Не думаю, что тебе удастся его переубедить - он очень упрямый.",
+        "learn": 0
+      },
+      {
+        "eng": "He is apt to succeed.",
+        "ru": "Он, вероятно, будет иметь успех.",
+        "learn": 0
+      },
+      {
+        "eng": "All I want is a legit chance to succeed.",
+        "ru": "Всё, чего я хочу — это законный шанс преуспеть.",
+        "learn": 0
+      },
+      {
+        "eng": "You have to work hard in order to succeed.",
+        "ru": "Придётся как следует потрудиться, чтобы добиться успеха.",
+        "learn": 0
+      },
+      {
+        "eng": "Who will succeed him to the throne?",
+        "ru": "Кто унаследует трон после него?",
+        "learn": 0
+      },
+      {
+        "eng": "He always tries, but he doesn't always succeed.",
+        "ru": "Он всегда старается, но не всегда у него получается.",
+        "learn": 0
+      },
+      {
+        "eng": "Scientists claim they have succeeded in finding a cure for cancer.",
+        "ru": "Ученые утверждают, что им удалось найти лекарство от рака.",
+        "learn": 0
+      },
+      {
+        "eng": "She will succeed in the end.",
+        "ru": "В конце концов у неё всё получится.",
+        "learn": 0
+      },
+      {
+        "eng": "Very few people succeed in losing weight and keeping it off.",
+        "ru": "Очень мало кому удаётся не только сбросить вес, но и удержать его на том же уровне.",
+        "learn": 0
+      },
+      {
+        "eng": "She succeeded me as treasurer.",
+        "ru": "Она сменила меня на посту казначея.",
+        "learn": 0
+      },
+      {
+        "eng": "He had perfect confidence in her ability to succeed.",
+        "ru": "Он совершенно не сомневался в её способности добиться успеха.",
+        "learn": 0
+      },
+      {
+        "eng": "You can succeed where others failed.",
+        "ru": "Вы можете добиться успеха там, где другие потерпели неудачу.",
+        "learn": 0
+      },
+      {
+        "eng": "We succeeded in getting tickets to the show.",
+        "ru": "Нам удалось достать билеты на это представление.",
+        "learn": 0
+      },
+      {
+        "eng": "She had the ingenuity to succeed where everyone else had failed.",
+        "ru": "У неё хватило ловкости преуспеть там, где другие потерпели неудачу.",
+        "learn": 0
+      },
+      {
+        "eng": "He lacked the confidence to succeed.",
+        "ru": "Чтобы добиться успеха, ему не хватало уверенности в себе.",
+        "learn": 0
+      },
+      {
+        "eng": "You'll never succeed as a writer if you let a little bit of criticism faze you.",
+        "ru": "Вам никогда не стать успешным писателем, если небольшая критика (в ваш адрес) будет расстраивать вас.",
+        "learn": 0
+      },
+      {
+        "eng": "That class will never succeed in putting anything over the new teacher, he's too experienced.",
+        "ru": "Этому классу ни за что не обмануть нового учителя, он слишком опытен.",
+        "learn": 0
+      },
+      {
+        "eng": "Young people today are under intense pressure to succeed.",
+        "ru": "Сегодня на молодёжь очень сильно давит необходимость добиться успеха.",
+        "learn": 1
+      },
+      {
+        "eng": "Will Charles succeed to the throne?",
+        "ru": "Будет ли Чарльз наследником престола?",
+        "learn": 0
+      },
+      {
+        "eng": "I am sure that we'll succeed eventually.",
+        "ru": "Я уверен, что со временем у нас всё получится.",
+        "learn": 0
+      },
+      {
+        "eng": "Their attempt seemed unlikely to succeed.",
+        "ru": "Казалось, что их попытка, скорее всего, будет неудачной.",
+        "learn": 0
+      },
+      {
+        "eng": "He had a steely determination to succeed.",
+        "ru": "Он обладал твёрдой решимостью добиться успеха.",
+        "learn": 0
+      },
+      {
+        "eng": "His opposition acted as a goad to her determination to succeed.",
+        "ru": "Сопротивление с его стороны только подстегнуло её стремление добиться успеха.",
+        "learn": 0
+      },
+      {
+        "eng": "We don't know with absolute certainty that the project will succeed.",
+        "ru": "Мы не можем с абсолютной уверенностью сказать, что проект окажется успешным.",
+        "learn": 1
+      },
+      {
+        "eng": "To succeed one must be adaptable.",
+        "ru": "Чтобы добиться успеха, нужно уметь приспосабливаться.",
+        "learn": 0
+      },
+      {
+        "eng": "This car is intended to succeed the popular Fiesta.",
+        "ru": "Этот автомобиль должен прийти на замену популярной модели \"Fiesta\".",
+        "learn": 0
+      }
+    ]
+  }
 }

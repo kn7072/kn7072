@@ -1,67 +1,127 @@
 {
-    "aid": {
-        "comment": [
-            "afraid",
-            "paid"
-        ],
-        "translate": "помощь, пособия, поддержка, содействие, помогать, способствовать",
-        "transcription": " |eɪd|",
-        "antonyms": [],
-        "mnemonic": [
-            "aid [эйд] помощь - Всем помощь (Фр-ейд) Зигмунд окажет.",
-            "aid [eɪd]\n***\nПОМОЖЕТ вам врач \"логопейд\". (это) aid\nПОМОГУ вам от всех \"бейд\". (это) aid\nПОМОЩЬ от всех \"бейд\". (это) aid\n*** Помощь \"aid\"\nвам окажет служанка \"maid\"."
-        ],
-        "examples": [
-            "She aided him in his work.",
-            "The poorer countries depend on aid from richer nations.",
-            "I didn't speak any French, but a nice man came to my aid.",
-            "He jumped into the water to aid the drowning child.",
-            "They gave money in order to aid the cause.",
-            "She applied for financial aid in order to go to college.",
-            "Congress passes debt relief measure to aid poor countries.",
-            "She aided the government in the attempt to fight illiteracy.",
-            "A video is a useful aid in the classroom.",
-            "The work was done with the aid of a computer.",
-            "Rescue party went to their aid.",
-            "The project was completed with the aid of several students.",
-            "Welfare spending aids economic development in three ways.",
-            "Mrs Coxen was aided in looking after the children by her niece.",
-            "The government has given millions of dollars in economic aid to these nations.",
-            "He teaches art with visual aids.",
-            "a home run that was aided by the wind",
-            "The computer is an aid to keeping costs down.",
-            "Father Poole walked painfully, with the aid of a stick.",
-            "He has been granted legal aid (=free legal services).",
-            "Foreign aid from many countries poured into the famine area."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она оказывала ему помощь в работе.",
-            "Более бедные страны зависят от помощи более богатых стран.",
-            "Я совсем не говорю по-французски, но один добрый человек пришёл мне на помощь.",
-            "Он прыгнул в воду, чтобы помочь тонущему ребенку.",
-            "Они давали деньги, чтобы оказать помощь делу.",
-            "Она обратилась за финансовой помощью для того, чтобы поступить в колледж.",
-            "Конгресс пошел на облегчение долгового бремени, чтобы помочь бедным странам.",
-            "Она содействовала правительству в попытке побороть неграмотность.",
-            "Видео является полезным помощником на уроках.",
-            "Работа была выполнена с помощью компьютера.",
-            "Команда спасателей отправилась им на помощь.",
-            "Проект был окончен с помощью нескольких студентов.",
-            "Расходы на соцобеспечение способствуют экономическому развитию тремя способами.",
-            "Племянница миссис Хоксен помогала ей присматривать за детьми.",
-            "Правительство предоставило этим странам миллионы долларов в качестве экономической помощи.",
-            "Он преподаёт искусство с помощью наглядных пособий.",
-            "хоумран, которому помог ветер",
-            "Данный компьютер способствует снижению затрат.",
-            "Отец Пул передвигался с большим трудом, с помощью палки.",
-            "Ему была предоставлена юридическая помощь (т.е. бесплатные юридические услуги).",
-            "В голодающие районы потекла иностранная помощь из многих государств."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "ai(/y)_=_[ei]"
-        ]
-    }
+  "aid": {
+    "comment": [
+      "afraid",
+      "paid"
+    ],
+    "translate": "помощь, пособия, поддержка, содействие, помогать, способствовать",
+    "transcription": " |eɪd|",
+    "antonyms": [],
+    "mnemonic": [
+      "aid [эйд] помощь - Всем помощь (Фр-ейд) Зигмунд окажет.",
+      "aid [eɪd]\n***\nПОМОЖЕТ вам врач \"логопейд\". (это) aid\nПОМОГУ вам от всех \"бейд\". (это) aid\nПОМОЩЬ от всех \"бейд\". (это) aid\n*** Помощь \"aid\"\nвам окажет служанка \"maid\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "ai(/y)_=_[ei]"
+    ],
+    "examples": [
+      {
+        "eng": "She aided him in his work.",
+        "ru": "Она оказывала ему помощь в работе.",
+        "learn": 0
+      },
+      {
+        "eng": "The poorer countries depend on aid from richer nations.",
+        "ru": "Более бедные страны зависят от помощи более богатых стран.",
+        "learn": 0
+      },
+      {
+        "eng": "I didn't speak any French, but a nice man came to my aid.",
+        "ru": "Я совсем не говорю по-французски, но один добрый человек пришёл мне на помощь.",
+        "learn": 0
+      },
+      {
+        "eng": "He jumped into the water to aid the drowning child.",
+        "ru": "Он прыгнул в воду, чтобы помочь тонущему ребенку.",
+        "learn": 1
+      },
+      {
+        "eng": "They gave money in order to aid the cause.",
+        "ru": "Они давали деньги, чтобы оказать помощь делу.",
+        "learn": 0
+      },
+      {
+        "eng": "She applied for financial aid in order to go to college.",
+        "ru": "Она обратилась за финансовой помощью для того, чтобы поступить в колледж.",
+        "learn": 0
+      },
+      {
+        "eng": "Congress passes debt relief measure to aid poor countries.",
+        "ru": "Конгресс пошел на облегчение долгового бремени, чтобы помочь бедным странам.",
+        "learn": 0
+      },
+      {
+        "eng": "She aided the government in the attempt to fight illiteracy.",
+        "ru": "Она содействовала правительству в попытке побороть неграмотность.",
+        "learn": 0
+      },
+      {
+        "eng": "A video is a useful aid in the classroom.",
+        "ru": "Видео является полезным помощником на уроках.",
+        "learn": 1
+      },
+      {
+        "eng": "The work was done with the aid of a computer.",
+        "ru": "Работа была выполнена с помощью компьютера.",
+        "learn": 0
+      },
+      {
+        "eng": "Rescue party went to their aid.",
+        "ru": "Команда спасателей отправилась им на помощь.",
+        "learn": 0
+      },
+      {
+        "eng": "The project was completed with the aid of several students.",
+        "ru": "Проект был окончен с помощью нескольких студентов.",
+        "learn": 0
+      },
+      {
+        "eng": "Welfare spending aids economic development in three ways.",
+        "ru": "Расходы на соцобеспечение способствуют экономическому развитию тремя способами.",
+        "learn": 0
+      },
+      {
+        "eng": "Mrs Coxen was aided in looking after the children by her niece.",
+        "ru": "Племянница миссис Хоксен помогала ей присматривать за детьми.",
+        "learn": 0
+      },
+      {
+        "eng": "The government has given millions of dollars in economic aid to these nations.",
+        "ru": "Правительство предоставило этим странам миллионы долларов в качестве экономической помощи.",
+        "learn": 0
+      },
+      {
+        "eng": "He teaches art with visual aids.",
+        "ru": "Он преподаёт искусство с помощью наглядных пособий.",
+        "learn": 0
+      },
+      {
+        "eng": "a home run that was aided by the wind",
+        "ru": "хоумран, которому помог ветер",
+        "learn": 0
+      },
+      {
+        "eng": "The computer is an aid to keeping costs down.",
+        "ru": "Данный компьютер способствует снижению затрат.",
+        "learn": 0
+      },
+      {
+        "eng": "Father Poole walked painfully, with the aid of a stick.",
+        "ru": "Отец Пул передвигался с большим трудом, с помощью палки.",
+        "learn": 1
+      },
+      {
+        "eng": "He has been granted legal aid (=free legal services).",
+        "ru": "Ему была предоставлена юридическая помощь (т.е. бесплатные юридические услуги).",
+        "learn": 0
+      },
+      {
+        "eng": "Foreign aid from many countries poured into the famine area.",
+        "ru": "В голодающие районы потекла иностранная помощь из многих государств.",
+        "learn": 1
+      }
+    ]
+  }
 }

@@ -1,82 +1,168 @@
 {
-    "increased": {
-        "comment": [
-            "increase",
-            "decrease",
-            "increasingly"
-        ],
-        "translate": "увеличенный",
-        "transcription": " |ˌɪnˈkriːst|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The amount of work increased.",
-            "The house increased in value.",
-            "The amount has increased twelvefold.",
-            "The world's population has increased greatly.",
-            "Public borrowing has increased.",
-            "Output has increased dramatically.",
-            "Attacks on women increased last year.",
-            "The market demand curve has increased.",
-            "The price increased twofold last year.",
-            "The boss finally increased her salary.",
-            "She increased her wealth substantially.",
-            "Our yield of wheat increased this year.",
-            "The value has increased half a percent.",
-            "We grumbled about the increased work load.",
-            "Serious crimes have increased dramatically.",
-            "The number of homicides increased last year.",
-            "Increased expenses put a squeeze on profits.",
-            "The demands on their budgets have increased.",
-            "The radius might be increased a millionfold.",
-            "Prices have increased at an exponential rate.",
-            "Business has steadily increased year by year.",
-            "Payrolls increased by 340,000 jobs last month.",
-            "Crime has increased on an unprecedented scale.",
-            "Membership fees are being increased this year.",
-            "The group returned increased profits last year.",
-            "The compressed gas exerts an increased pressure.",
-            "The dispute began again with increased acrimony.",
-            "The company increased production to meet demand.",
-            "The consumption of energy has increased steadily.",
-            "Food prices increased by 10% in less than a year."
-        ],
-        "example_translate": [
-            "Объём работы возрос.",
-            "Дом вырос в цене.",
-            "Сумма увеличилась в двенадцать раз.",
-            "Мировое население значительно выросло.",
-            "Объём государственных заимствований вырос.",
-            "Объём выпуска продукции резко увеличился.",
-            "В прошлом году число нападений на женщин увеличилось.",
-            "Кривая рыночного спроса возросла.",
-            "В прошлом году цена увеличилась вдвое.",
-            "Начальник наконец-то повысил ей зарплату.",
-            "Она существенно увеличила своё благосостояние.",
-            "В этом году наш урожай пшеницы вырос.",
-            "Значение выросло на половину процента.",
-            "Мы жаловались на увеличение рабочей нагрузки.",
-            "Количество тяжких преступлений значительно возросло.",
-            "Количество убийств в прошлом году увеличилось.",
-            "Увеличение расходов давит на прибыль.",
-            "Их расходы возросли.",
-            "Радиус может быть увеличен в миллион раз.",
-            "Цены выросли в геометрической прогрессии.",
-            "Бизнес неуклонно увеличивается с каждым годом.",
-            "В платежных ведомостях за прошлый месяц числится на 340 тыс. рабочих мест больше, чем за предыдущий.",
-            "Уровень преступности поднялся до беспрецедентного уровня.",
-            "Членские взносы в этом году увеличиваются.",
-            "В прошлом году группа получила увеличенную прибыль.",
-            "Сжатый газ оказывает повышенное давление.",
-            "Спор возобновился с повышенной злостью.",
-            "Компания увеличила производство, чтобы удовлетворить спрос.",
-            "Потребление энергии неуклонно растёт.",
-            "Менее, чем за год, цены на продовольственные товары выросли на десять процентов."
-        ],
-        "synonyms": [],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "increased": {
+    "comment": [
+      "increase",
+      "decrease",
+      "increasingly"
+    ],
+    "translate": "увеличенный",
+    "transcription": " |ˌɪnˈkriːst|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The amount of work increased.",
+        "ru": "Объём работы возрос.",
+        "learn": 1
+      },
+      {
+        "eng": "The house increased in value.",
+        "ru": "Дом вырос в цене.",
+        "learn": 0
+      },
+      {
+        "eng": "The amount has increased twelvefold.",
+        "ru": "Сумма увеличилась в двенадцать раз.",
+        "learn": 0
+      },
+      {
+        "eng": "The world's population has increased greatly.",
+        "ru": "Мировое население значительно выросло.",
+        "learn": 0
+      },
+      {
+        "eng": "Public borrowing has increased.",
+        "ru": "Объём государственных заимствований вырос.",
+        "learn": 0
+      },
+      {
+        "eng": "Output has increased dramatically.",
+        "ru": "Объём выпуска продукции резко увеличился.",
+        "learn": 0
+      },
+      {
+        "eng": "Attacks on women increased last year.",
+        "ru": "В прошлом году число нападений на женщин увеличилось.",
+        "learn": 0
+      },
+      {
+        "eng": "The market demand curve has increased.",
+        "ru": "Кривая рыночного спроса возросла.",
+        "learn": 0
+      },
+      {
+        "eng": "The price increased twofold last year.",
+        "ru": "В прошлом году цена увеличилась вдвое.",
+        "learn": 0
+      },
+      {
+        "eng": "The boss finally increased her salary.",
+        "ru": "Начальник наконец-то повысил ей зарплату.",
+        "learn": 0
+      },
+      {
+        "eng": "She increased her wealth substantially.",
+        "ru": "Она существенно увеличила своё благосостояние.",
+        "learn": 1
+      },
+      {
+        "eng": "Our yield of wheat increased this year.",
+        "ru": "В этом году наш урожай пшеницы вырос.",
+        "learn": 0
+      },
+      {
+        "eng": "The value has increased half a percent.",
+        "ru": "Значение выросло на половину процента.",
+        "learn": 0
+      },
+      {
+        "eng": "We grumbled about the increased work load.",
+        "ru": "Мы жаловались на увеличение рабочей нагрузки.",
+        "learn": 0
+      },
+      {
+        "eng": "Serious crimes have increased dramatically.",
+        "ru": "Количество тяжких преступлений значительно возросло.",
+        "learn": 0
+      },
+      {
+        "eng": "The number of homicides increased last year.",
+        "ru": "Количество убийств в прошлом году увеличилось.",
+        "learn": 0
+      },
+      {
+        "eng": "Increased expenses put a squeeze on profits.",
+        "ru": "Увеличение расходов давит на прибыль.",
+        "learn": 0
+      },
+      {
+        "eng": "The demands on their budgets have increased.",
+        "ru": "Их расходы возросли.",
+        "learn": 0
+      },
+      {
+        "eng": "The radius might be increased a millionfold.",
+        "ru": "Радиус может быть увеличен в миллион раз.",
+        "learn": 0
+      },
+      {
+        "eng": "Prices have increased at an exponential rate.",
+        "ru": "Цены выросли в геометрической прогрессии.",
+        "learn": 0
+      },
+      {
+        "eng": "Business has steadily increased year by year.",
+        "ru": "Бизнес неуклонно увеличивается с каждым годом.",
+        "learn": 0
+      },
+      {
+        "eng": "Payrolls increased by 340,000 jobs last month.",
+        "ru": "В платежных ведомостях за прошлый месяц числится на 340 тыс. рабочих мест больше, чем за предыдущий.",
+        "learn": 0
+      },
+      {
+        "eng": "Crime has increased on an unprecedented scale.",
+        "ru": "Уровень преступности поднялся до беспрецедентного уровня.",
+        "learn": 1
+      },
+      {
+        "eng": "Membership fees are being increased this year.",
+        "ru": "Членские взносы в этом году увеличиваются.",
+        "learn": 0
+      },
+      {
+        "eng": "The group returned increased profits last year.",
+        "ru": "В прошлом году группа получила увеличенную прибыль.",
+        "learn": 0
+      },
+      {
+        "eng": "The compressed gas exerts an increased pressure.",
+        "ru": "Сжатый газ оказывает повышенное давление.",
+        "learn": 0
+      },
+      {
+        "eng": "The dispute began again with increased acrimony.",
+        "ru": "Спор возобновился с повышенной злостью.",
+        "learn": 0
+      },
+      {
+        "eng": "The company increased production to meet demand.",
+        "ru": "Компания увеличила производство, чтобы удовлетворить спрос.",
+        "learn": 0
+      },
+      {
+        "eng": "The consumption of energy has increased steadily.",
+        "ru": "Потребление энергии неуклонно растёт.",
+        "learn": 1
+      },
+      {
+        "eng": "Food prices increased by 10% in less than a year.",
+        "ru": "Менее, чем за год, цены на продовольственные товары выросли на десять процентов.",
+        "learn": 0
+      }
+    ]
+  }
 }

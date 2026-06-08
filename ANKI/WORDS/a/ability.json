@@ -1,96 +1,183 @@
 {
-    "ability": {
-        "comment": [
-            "inability",
-            "disability",
-            "probability",
-            "capability",
-            "stability",
-            "availability",
-            "profitability",
-            "liability"
-        ],
-        "translate": "способность, возможность, умение, ловкость, дарование, компетенция",
-        "transcription": " |əˈbɪləti|",
-        "antonyms": [
-            "inability"
-        ],
-        "mnemonic": [
-            "ability [эбилити] способность - (А билеты) ты способен достать?.",
-            "ability [ə'bɪlɪtɪ]\ndebility [dɪ'bɪlɪti] - слабость, бессилие, болезненность\ninability, disability - неспособность, бессилие\n***\nУМЕНИЯ у меня в \"изобилити\". (это) ability\nСПОСОБНОСТЬ у меня в \"изобилити\". (это) ability\nСПОСОБНОСТЬ есть, а|били|те. (это) ability\n***\nЛучше способность \"ability\", чем бессилие \"debility\"."
-        ],
-        "examples": [
-            "to the limit of his ability",
-            "He lost the ability to reason.",
-            "Ability to sell is essential for the job.",
-            "Each man will be paid according to his ability.",
-            "From each according to his abilities, to each according to his needs.",
-            "The test measures verbal and mathematical ability.",
-            "The success attests his ability.",
-            "I don't have the ability to say 'no'.",
-            "She has great athletic ability.",
-            "She was a woman of unusual ability.",
-            "She has a native ability to learn quickly.",
-            "Musical ability runs in my family.",
-            "She doubted his ability to succeed.",
-            "I have grave doubts about his ability.",
-            "He was known for his ability to charm voters.",
-            "I am confident about my ability to do the job.",
-            "the grouping of students by ability",
-            "Your ability to speak six languages amazes me!",
-            "The students are sorted into three ability groups.",
-            "The poet's ability burned out before he was thirty.",
-            "He had perfect confidence in her ability to succeed.",
-            "This is predicated upon my confidence in his ability.",
-            "The ability to adapt is a definite asset in this job.",
-            "You shouldn't do yourself down — you've got a lot of ability.",
-            "He's a writer of remarkable ability.",
-            "She underrated her student's ability.",
-            "a young woman of great musical ability",
-            "She had unique ability in raising funds.",
-            "He was not equipped with enough ability for the job.",
-            "The schizophrenic loses ability to abstract or do conceptual thinking."
-        ],
-        "synonyms": [
-            "opportunity"
-        ],
-        "example_translate": [
-            "до предела его возможностей",
-            "Он потерял способность трезво мыслить.",
-            "Для этой работы важнейшее значение имеет умение продавать.",
-            "Каждому рабочему будут платить в соответствии с его квалификацией.",
-            "От каждого — по способностям, каждому — по потребностям. (К. Маркс)",
-            "Этот тест измеряет вербальные и математические способности.",
-            "Подобный успех свидетельствует о его таланте.",
-            "У меня нет возможности сказать \" нет\".",
-            "У неё выдающиеся спортивные способности.",
-            "Она была женщиной необыкновенного таланта.",
-            "У неё врождённая способность быстро учиться.",
-            "В нашей семье ярко выражены музыкальные способности.",
-            "Она усомнилась в его способности добиться успеха.",
-            "У меня есть серьёзные сомнения в его компетенции.",
-            "Он был известен своим умением очаровывать избирателей.",
-            "Я уверен, что способен выполнить эту работу.",
-            "группирование (разделение) студентов по способностям",
-            "Ваша способность говорить на шести языках меня поражает!",
-            "Студенты распределены по трём группам в зависимости от их способностей.",
-            "Поэт исчерпал свой талант к тридцати годам.",
-            "Он совершенно не сомневался в её способности добиться успеха.",
-            "Это основывается на моей уверенности в его способностях.",
-            "Способность к адаптации определённо является ценным качеством для этой работы.",
-            "Не нужно себя недооценивать: ты очень способный.",
-            "Это удивительно талантливый писатель.",
-            "Она недооценивала способности своего ученика.",
-            "молодая женщина с выдающимися музыкальными способностями",
-            "У неё был редкий талант привлекать денежные средства.",
-            "У него не хватало способностей для такой работы.",
-            "Шизофреники теряют способность абстрагироваться или концептуально мыслить."
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив_с_to_после_сущ",
-            "Инфинитив",
-            "all_words"
-        ]
-    }
+  "ability": {
+    "comment": [
+      "inability",
+      "disability",
+      "probability",
+      "capability",
+      "stability",
+      "availability",
+      "profitability",
+      "liability"
+    ],
+    "translate": "способность, возможность, умение, ловкость, дарование, компетенция",
+    "transcription": " |əˈbɪləti|",
+    "antonyms": [
+      "inability"
+    ],
+    "mnemonic": [
+      "ability [эбилити] способность - (А билеты) ты способен достать?.",
+      "ability [ə'bɪlɪtɪ]\ndebility [dɪ'bɪlɪti] - слабость, бессилие, болезненность\ninability, disability - неспособность, бессилие\n***\nУМЕНИЯ у меня в \"изобилити\". (это) ability\nСПОСОБНОСТЬ у меня в \"изобилити\". (это) ability\nСПОСОБНОСТЬ есть, а|били|те. (это) ability\n***\nЛучше способность \"ability\", чем бессилие \"debility\"."
+    ],
+    "synonyms": [
+      "opportunity"
+    ],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_с_to_после_сущ",
+      "Инфинитив"
+    ],
+    "examples": [
+      {
+        "eng": "to the limit of his ability",
+        "ru": "до предела его возможностей",
+        "learn": 0
+      },
+      {
+        "eng": "He lost the ability to reason.",
+        "ru": "Он потерял способность трезво мыслить.",
+        "learn": 0
+      },
+      {
+        "eng": "Ability to sell is essential for the job.",
+        "ru": "Для этой работы важнейшее значение имеет умение продавать.",
+        "learn": 0
+      },
+      {
+        "eng": "Each man will be paid according to his ability.",
+        "ru": "Каждому рабочему будут платить в соответствии с его квалификацией.",
+        "learn": 1
+      },
+      {
+        "eng": "From each according to his abilities, to each according to his needs.",
+        "ru": "От каждого — по способностям, каждому — по потребностям. (К. Маркс)",
+        "learn": 0
+      },
+      {
+        "eng": "The test measures verbal and mathematical ability.",
+        "ru": "Этот тест измеряет вербальные и математические способности.",
+        "learn": 1
+      },
+      {
+        "eng": "The success attests his ability.",
+        "ru": "Подобный успех свидетельствует о его таланте.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't have the ability to say 'no'.",
+        "ru": "У меня нет возможности сказать \" нет\".",
+        "learn": 0
+      },
+      {
+        "eng": "She has great athletic ability.",
+        "ru": "У неё выдающиеся спортивные способности.",
+        "learn": 1
+      },
+      {
+        "eng": "She was a woman of unusual ability.",
+        "ru": "Она была женщиной необыкновенного таланта.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a native ability to learn quickly.",
+        "ru": "У неё врождённая способность быстро учиться.",
+        "learn": 0
+      },
+      {
+        "eng": "Musical ability runs in my family.",
+        "ru": "В нашей семье ярко выражены музыкальные способности.",
+        "learn": 0
+      },
+      {
+        "eng": "She doubted his ability to succeed.",
+        "ru": "Она усомнилась в его способности добиться успеха.",
+        "learn": 1
+      },
+      {
+        "eng": "I have grave doubts about his ability.",
+        "ru": "У меня есть серьёзные сомнения в его компетенции.",
+        "learn": 0
+      },
+      {
+        "eng": "He was known for his ability to charm voters.",
+        "ru": "Он был известен своим умением очаровывать избирателей.",
+        "learn": 0
+      },
+      {
+        "eng": "I am confident about my ability to do the job.",
+        "ru": "Я уверен, что способен выполнить эту работу.",
+        "learn": 1
+      },
+      {
+        "eng": "the grouping of students by ability",
+        "ru": "группирование (разделение) студентов по способностям",
+        "learn": 0
+      },
+      {
+        "eng": "Your ability to speak six languages amazes me!",
+        "ru": "Ваша способность говорить на шести языках меня поражает!",
+        "learn": 1
+      },
+      {
+        "eng": "The students are sorted into three ability groups.",
+        "ru": "Студенты распределены по трём группам в зависимости от их способностей.",
+        "learn": 0
+      },
+      {
+        "eng": "The poet's ability burned out before he was thirty.",
+        "ru": "Поэт исчерпал свой талант к тридцати годам.",
+        "learn": 0
+      },
+      {
+        "eng": "He had perfect confidence in her ability to succeed.",
+        "ru": "Он совершенно не сомневался в её способности добиться успеха.",
+        "learn": 0
+      },
+      {
+        "eng": "This is predicated upon my confidence in his ability.",
+        "ru": "Это основывается на моей уверенности в его способностях.",
+        "learn": 0
+      },
+      {
+        "eng": "The ability to adapt is a definite asset in this job.",
+        "ru": "Способность к адаптации определённо является ценным качеством для этой работы.",
+        "learn": 0
+      },
+      {
+        "eng": "You shouldn't do yourself down — you've got a lot of ability.",
+        "ru": "Не нужно себя недооценивать: ты очень способный.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a writer of remarkable ability.",
+        "ru": "Это удивительно талантливый писатель.",
+        "learn": 0
+      },
+      {
+        "eng": "She underrated her student's ability.",
+        "ru": "Она недооценивала способности своего ученика.",
+        "learn": 0
+      },
+      {
+        "eng": "a young woman of great musical ability",
+        "ru": "молодая женщина с выдающимися музыкальными способностями",
+        "learn": 0
+      },
+      {
+        "eng": "She had unique ability in raising funds.",
+        "ru": "У неё был редкий талант привлекать денежные средства.",
+        "learn": 0
+      },
+      {
+        "eng": "He was not equipped with enough ability for the job.",
+        "ru": "У него не хватало способностей для такой работы.",
+        "learn": 0
+      },
+      {
+        "eng": "The schizophrenic loses ability to abstract or do conceptual thinking.",
+        "ru": "Шизофреники теряют способность абстрагироваться или концептуально мыслить.",
+        "learn": 0
+      }
+    ]
+  }
 }

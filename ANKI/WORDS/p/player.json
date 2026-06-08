@@ -1,82 +1,168 @@
 {
-    "player": {
-        "comment": [
-            "play",
-            "display",
-            "playground"
-        ],
-        "translate": "игрок, плеер, музыкант, спортсмен, актер, картежник",
-        "transcription": " |ˈpleɪər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He's a very fine player.",
-            "He's a keen chess player.",
-            "She's a very good player.",
-            "The CD player's broken again.",
-            "The player dropped the ball.",
-            "Connect the speakers to the CD player.",
-            "a hot young guitar player",
-            "Each player throws one die.",
-            "the worst player on the team",
-            "the arm of the record player",
-            "He is an adept guitar player.",
-            "a key player in world affairs",
-            "a ball player thrown for a loss",
-            "Each player is dealt five cards.",
-            "He is the best player on his team.",
-            "He's an amazing player to watch.",
-            "a tennis player of middling talent",
-            "a book for the novice chess player",
-            "Piano players are called pianists.",
-            "a basketball player with deadly aim",
-            "an enthusiastic player, full of pep",
-            "a tennis player with a booming serve",
-            "John was the best player on the park.",
-            "She's one of the team's best players.",
-            "He's a key player in the organization.",
-            "He's past his peak as a tennis player.",
-            "She's the team's most consistent player.",
-            "The rookie player displayed great skill.",
-            "The injured player limped off the court.",
-            "We nominated her for player of the year."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он очень хороший игрок.",
-            "Он фанатичный шахматист.",
-            "Она – очень хороший игрок.",
-            "CD-плеер опять сломался.",
-            "Игрок уронил мяч.",
-            "Подключите колонки к CD-плееру.",
-            "страстный молодой гитарист",
-            "Каждый игрок бросает одну кость.",
-            "худший игрок в команде",
-            "тонарм проигрывателя",
-            "Он хороший гитарист.",
-            "ключевой игрок в мировой политике",
-            "игрок, остановленный с потерей ярдов (об американском футболе)",
-            "Каждому игроку сдаётся по пять карт.",
-            "Он — лучший игрок в своей команде.",
-            "Он великолепный игрок в гляделки. (игра в которой нужно смотреть друг на друга не моргая)",
-            "не самый талантливый теннисист / теннисист средней руки",
-            "книга для начинающих шахматистов",
-            "Игроки на фортепьяно называются пианистами.",
-            "баскетболист с убийственным броском",
-            "игрок, полный энтузиазма и энергии",
-            "теннисист с пушечной подачей",
-            "Джон был лучшим игроком на поле.",
-            "Она — одна из лучших игроков в команде.",
-            "Он – ключевая фигура в этой организации.",
-            "Пик его теннисной карьеры уже позади.",
-            "Она — самый стабильный игрок в команде.",
-            "Новичок продемонстрировал мастерскую игру.",
-            "Травмированный игрок, хромая, покинул корт.",
-            "Мы выдвинули её кандидатуру на звание игрока года."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "player": {
+    "comment": [
+      "play",
+      "display",
+      "playground"
+    ],
+    "translate": "игрок, плеер, музыкант, спортсмен, актер, картежник",
+    "transcription": " |ˈpleɪər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He's a very fine player.",
+        "ru": "Он очень хороший игрок.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a keen chess player.",
+        "ru": "Он фанатичный шахматист.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a very good player.",
+        "ru": "Она – очень хороший игрок.",
+        "learn": 0
+      },
+      {
+        "eng": "The CD player's broken again.",
+        "ru": "CD-плеер опять сломался.",
+        "learn": 0
+      },
+      {
+        "eng": "The player dropped the ball.",
+        "ru": "Игрок уронил мяч.",
+        "learn": 0
+      },
+      {
+        "eng": "Connect the speakers to the CD player.",
+        "ru": "Подключите колонки к CD-плееру.",
+        "learn": 0
+      },
+      {
+        "eng": "a hot young guitar player",
+        "ru": "страстный молодой гитарист",
+        "learn": 0
+      },
+      {
+        "eng": "Each player throws one die.",
+        "ru": "Каждый игрок бросает одну кость.",
+        "learn": 0
+      },
+      {
+        "eng": "the worst player on the team",
+        "ru": "худший игрок в команде",
+        "learn": 0
+      },
+      {
+        "eng": "the arm of the record player",
+        "ru": "тонарм проигрывателя",
+        "learn": 0
+      },
+      {
+        "eng": "He is an adept guitar player.",
+        "ru": "Он хороший гитарист.",
+        "learn": 0
+      },
+      {
+        "eng": "a key player in world affairs",
+        "ru": "ключевой игрок в мировой политике",
+        "learn": 0
+      },
+      {
+        "eng": "a ball player thrown for a loss",
+        "ru": "игрок, остановленный с потерей ярдов (об американском футболе)",
+        "learn": 0
+      },
+      {
+        "eng": "Each player is dealt five cards.",
+        "ru": "Каждому игроку сдаётся по пять карт.",
+        "learn": 0
+      },
+      {
+        "eng": "He is the best player on his team.",
+        "ru": "Он — лучший игрок в своей команде.",
+        "learn": 0
+      },
+      {
+        "eng": "He's an amazing player to watch.",
+        "ru": "Он великолепный игрок в гляделки. (игра в которой нужно смотреть друг на друга не моргая)",
+        "learn": 0
+      },
+      {
+        "eng": "a tennis player of middling talent",
+        "ru": "не самый талантливый теннисист / теннисист средней руки",
+        "learn": 0
+      },
+      {
+        "eng": "a book for the novice chess player",
+        "ru": "книга для начинающих шахматистов",
+        "learn": 0
+      },
+      {
+        "eng": "Piano players are called pianists.",
+        "ru": "Игроки на фортепьяно называются пианистами.",
+        "learn": 0
+      },
+      {
+        "eng": "a basketball player with deadly aim",
+        "ru": "баскетболист с убийственным броском",
+        "learn": 0
+      },
+      {
+        "eng": "an enthusiastic player, full of pep",
+        "ru": "игрок, полный энтузиазма и энергии",
+        "learn": 0
+      },
+      {
+        "eng": "a tennis player with a booming serve",
+        "ru": "теннисист с пушечной подачей",
+        "learn": 0
+      },
+      {
+        "eng": "John was the best player on the park.",
+        "ru": "Джон был лучшим игроком на поле.",
+        "learn": 0
+      },
+      {
+        "eng": "She's one of the team's best players.",
+        "ru": "Она — одна из лучших игроков в команде.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a key player in the organization.",
+        "ru": "Он – ключевая фигура в этой организации.",
+        "learn": 1
+      },
+      {
+        "eng": "He's past his peak as a tennis player.",
+        "ru": "Пик его теннисной карьеры уже позади.",
+        "learn": 0
+      },
+      {
+        "eng": "She's the team's most consistent player.",
+        "ru": "Она — самый стабильный игрок в команде.",
+        "learn": 0
+      },
+      {
+        "eng": "The rookie player displayed great skill.",
+        "ru": "Новичок продемонстрировал мастерскую игру.",
+        "learn": 0
+      },
+      {
+        "eng": "The injured player limped off the court.",
+        "ru": "Травмированный игрок, хромая, покинул корт.",
+        "learn": 0
+      },
+      {
+        "eng": "We nominated her for player of the year.",
+        "ru": "Мы выдвинули её кандидатуру на звание игрока года.",
+        "learn": 0
+      }
+    ]
+  }
 }

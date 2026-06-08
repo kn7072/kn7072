@@ -1,83 +1,172 @@
 {
-    "sell": {
-        "comment": [
-            "seller"
-        ],
-        "translate": "продавать, продаваться, торговать, надувательство, обман",
-        "transcription": " |sel|",
-        "antonyms": [],
-        "mnemonic": [
-            "sell [сэл] продавать - Наркоту продал и (сел) в тюрьму.",
-            "cell [sel]\nsell [sel]\n***\nПлохо себя вёл - в КАМЕРУ сел. (это) cell\nМой СОСТОВЫЙ телефон сел. (это) cell\nКлетка (физиол).\n***\nПришёл на рынок, ПРОДАВАТЬ сел. (это) sell\nУмение торговать.\n***\nРасскажу \"tell\",\nкак правильно продавать \"sell\",\nкак не попасть в камеру \"cell\"\nили в ад \"hell\"."
-        ],
-        "examples": [
-            "She sold me again.",
-            "Do you sell cigarettes?",
-            "The brothers sell shoes.",
-            "Buy low and sell high.",
-            "How can I sell the idea to my boss?",
-            "Don't sell me that love shit.",
-            "Toni's selling her car for £700.",
-            "All the new houses have been sold.",
-            "Her last book sold millions of copies.",
-            "They sell all kinds of things.",
-            "We had a licence to sell beer.",
-            "Joe's completely sold on the concept.",
-            "I strongly advise you to sell your old car.",
-            "These books sell like hot cakes",
-            "I can sell it to you wholesale.",
-            "Take my advice and sell your old car.",
-            "The store is licensed to sell beer and wine.",
-            "They sold their lives dearly.",
-            "We produce more cars than we can sell.",
-            "They sell 20 different flavors of ice cream.",
-            "The vase was sold to a Dutch buyer.",
-            "He regrets selling all his old records.",
-            "I don't want to sell the house at a loss.",
-            "Anti-age creams always sell well.",
-            "Ability to sell is essential for the job.",
-            "I won't sell you my shares!",
-            "I'll sell it to you retail only.",
-            "He was trying to sell stolen property.",
-            "I hope to sell my movie and get out of hock.",
-            "Scandal sells newspapers."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Опять она меня надула.",
-            "Вы продаёте сигареты?",
-            "Братья продают обувь.",
-            "Покупай дёшево, продавай дорого.",
-            "Как мне убедить в этом своего начальника?",
-            "Хватит мне тут гнать про любовь.",
-            "Тони продаёт свою машину за семьсот фунтов.",
-            "Все новые дома уже проданы.",
-            "Её последняя книга продавалась миллионными тиражами.",
-            "Они продают всякую всячину.",
-            "У нас была лицензия на продажу пива.",
-            "Джо полностью проникся этой идеей.",
-            "Я настоятельно советую продать ваш старый автомобиль.",
-            "Эти книги раскупают, как горячие пирожки.",
-            "Я могу продать вам это оптом.",
-            "Послушай моего совета: продай свой старый автомобиль.",
-            "У магазина есть лицензия на продажу пива и вина.",
-            "Они дорого продали свою жизнь.",
-            "Мы производим больше автомобилей, чем можем продать.",
-            "Они продают мороженое двадцати различных вкусов.",
-            "Ваза была продана покупателю из Голландии.",
-            "Он жалеет, что продал все свои старые пластинки.",
-            "Я не хочу продавать этот дом себе в убыток.",
-            "Антивозрастные кремы всегда хорошо продаются.",
-            "Для этой работы важнейшее значение имеет умение продавать.",
-            "Я не продам тебе свои акции!",
-            "Я продам тебе это только в розницу.",
-            "Он пытался сбыть краденое имущество.",
-            "Я надеюсь продать свой фильм и расплатиться с долгами.",
-            "Скандалы способствуют продаже газет."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "sell": {
+    "comment": [
+      "sold |soʊld|,                                          sold |soʊld|",
+      "seller"
+    ],
+    "translate": "продавать, продаваться, торговать, надувательство, обман",
+    "transcription": " |sel|",
+    "antonyms": [],
+    "mnemonic": [
+      "sell [сэл] продавать - Наркоту продал и (сел) в тюрьму.",
+      "cell [sel]\nsell [sel]\n***\nПлохо себя вёл - в КАМЕРУ сел. (это) cell\nМой СОСТОВЫЙ телефон сел. (это) cell\nКлетка (физиол).\n***\nПришёл на рынок, ПРОДАВАТЬ сел. (это) sell\nУмение торговать.\n***\nРасскажу \"tell\",\nкак правильно продавать \"sell\",\nкак не попасть в камеру \"cell\"\nили в ад \"hell\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "She sold me again.",
+        "ru": "Опять она меня надула.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you sell cigarettes?",
+        "ru": "Вы продаёте сигареты?",
+        "learn": 0
+      },
+      {
+        "eng": "The brothers sell shoes.",
+        "ru": "Братья продают обувь.",
+        "learn": 0
+      },
+      {
+        "eng": "Buy low and sell high.",
+        "ru": "Покупай дёшево, продавай дорого.",
+        "learn": 0
+      },
+      {
+        "eng": "How can I sell the idea to my boss?",
+        "ru": "Как мне убедить в этом своего начальника?",
+        "learn": 0
+      },
+      {
+        "eng": "Don't sell me that love shit.",
+        "ru": "Хватит мне тут гнать про любовь.",
+        "learn": 0
+      },
+      {
+        "eng": "Toni's selling her car for £700.",
+        "ru": "Тони продаёт свою машину за семьсот фунтов.",
+        "learn": 0
+      },
+      {
+        "eng": "All the new houses have been sold.",
+        "ru": "Все новые дома уже проданы.",
+        "learn": 0
+      },
+      {
+        "eng": "Her last book sold millions of copies.",
+        "ru": "Её последняя книга продавалась миллионными тиражами.",
+        "learn": 0
+      },
+      {
+        "eng": "They sell all kinds of things.",
+        "ru": "Они продают всякую всячину.",
+        "learn": 0
+      },
+      {
+        "eng": "We had a licence to sell beer.",
+        "ru": "У нас была лицензия на продажу пива.",
+        "learn": 0
+      },
+      {
+        "eng": "Joe's completely sold on the concept.",
+        "ru": "Джо полностью проникся этой идеей.",
+        "learn": 0
+      },
+      {
+        "eng": "I strongly advise you to sell your old car.",
+        "ru": "Я настоятельно советую продать ваш старый автомобиль.",
+        "learn": 1
+      },
+      {
+        "eng": "These books sell like hot cakes",
+        "ru": "Эти книги раскупают, как горячие пирожки.",
+        "learn": 0
+      },
+      {
+        "eng": "I can sell it to you wholesale.",
+        "ru": "Я могу продать вам это оптом.",
+        "learn": 0
+      },
+      {
+        "eng": "Take my advice and sell your old car.",
+        "ru": "Послушай моего совета: продай свой старый автомобиль.",
+        "learn": 0
+      },
+      {
+        "eng": "The store is licensed to sell beer and wine.",
+        "ru": "У магазина есть лицензия на продажу пива и вина.",
+        "learn": 0
+      },
+      {
+        "eng": "They sold their lives dearly.",
+        "ru": "Они дорого продали свою жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "We produce more cars than we can sell.",
+        "ru": "Мы производим больше автомобилей, чем можем продать.",
+        "learn": 1
+      },
+      {
+        "eng": "They sell 20 different flavors of ice cream.",
+        "ru": "Они продают мороженое двадцати различных вкусов.",
+        "learn": 0
+      },
+      {
+        "eng": "The vase was sold to a Dutch buyer.",
+        "ru": "Ваза была продана покупателю из Голландии.",
+        "learn": 0
+      },
+      {
+        "eng": "He regrets selling all his old records.",
+        "ru": "Он жалеет, что продал все свои старые пластинки.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't want to sell the house at a loss.",
+        "ru": "Я не хочу продавать этот дом себе в убыток.",
+        "learn": 0
+      },
+      {
+        "eng": "Anti-age creams always sell well.",
+        "ru": "Антивозрастные кремы всегда хорошо продаются.",
+        "learn": 0
+      },
+      {
+        "eng": "Ability to sell is essential for the job.",
+        "ru": "Для этой работы важнейшее значение имеет умение продавать.",
+        "learn": 0
+      },
+      {
+        "eng": "I won't sell you my shares!",
+        "ru": "Я не продам тебе свои акции!",
+        "learn": 0
+      },
+      {
+        "eng": "I'll sell it to you retail only.",
+        "ru": "Я продам тебе это только в розницу.",
+        "learn": 0
+      },
+      {
+        "eng": "He was trying to sell stolen property.",
+        "ru": "Он пытался сбыть краденое имущество.",
+        "learn": 1
+      },
+      {
+        "eng": "I hope to sell my movie and get out of hock.",
+        "ru": "Я надеюсь продать свой фильм и расплатиться с долгами.",
+        "learn": 0
+      },
+      {
+        "eng": "Scandal sells newspapers.",
+        "ru": "Скандалы способствуют продаже газет.",
+        "learn": 0
+      }
+    ]
+  }
 }

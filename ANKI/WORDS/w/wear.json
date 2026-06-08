@@ -1,84 +1,173 @@
 {
-    "wear": {
-        "comment": [
-            "weave",
-            "underwear"
-        ],
-        "translate": "износ, одежда, ношение, изнашивание, платье, носиться, носить, одевать, изнашиваться",
-        "transcription": " |wer|",
-        "antonyms": [],
-        "mnemonic": [
-            "wear [weə]\nswear [swɛə] - клятва, присяга, зарок., клясться\n***\nНОСИТЬ с одеждой нужно веер. (это). wear\nНошение, носка, одежда, платье, износ.\n***\nКот сапоги носит \"wear\",\nи что он барон, клянётся \"swear\""
-        ],
-        "examples": [
-            "He doesn't wear a watch.",
-            "What size do you wear?",
-            "What should I wear today?",
-            "He wears me out.",
-            "She was wearing yellow that day",
-            "The rope has worn out.",
-            "His jeans have worn thin at the knees.",
-            "She wears her hair short.",
-            "She wore her hair loose.",
-            "He always wears a smile.",
-            "I used to wear my hair long.",
-            "Wear your coat or you'll catch cold.",
-            "Usually I wear black, grey, or brown.",
-            "He wore glasses for reading.",
-            "My patience is wearing thin.",
-            "He wore a hole in his pants.",
-            "I never wear bright colours.",
-            "The day wears towards its end.",
-            "It's not necessary to wear a tie.",
-            "He was wearing blue jeans.",
-            "She's too young to wear makeup.",
-            "She bought it for everyday wear.",
-            "Were you wearing a seat belt?",
-            "She wore a red blouse to work.",
-            "a badge worn by police officers",
-            "This shirt is too creased to wear.",
-            "Don't be a nitwit — wear a seat belt!...",
-            "The shock began to wear off.",
-            "You've worn a hole in your sock.",
-            "Dates on coins effaced by wear."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он не носит часы.",
-            "Какой размер вы носите?",
-            "Что мне сегодня надеть?",
-            "Он меня утомляет.",
-            "В тот день она была вся в жёлтом (на ней была одежда жёлтого цвета)",
-            "Верёвка износилась.",
-            "Его джинсы износились в коленях.",
-            "Она носит короткую стрижку.",
-            "У неё были распущенные волосы.",
-            "На его лице всегда улыбка. (досл. \"Он всегда носит улыбку\")",
-            "Раньше у меня были длинные волосы.",
-            "Надень пальто иначе схватишь простуду.",
-            "Обычно я ношу чёрное, серое или коричневое.",
-            "Для чтения он надевал очки.",
-            "Моему терпению приходит конец.",
-            "У него была дырка на штанах.",
-            "Я никогда не ношу яркие цвета.",
-            "День близится к концу.",
-            "Галстук надевать необязательно.",
-            "Он был одет в голубые джинсы.",
-            "Ей ещё слишком рано носить косметику / краситься.",
-            "Это она купила для повседневной носки.",
-            "Вы были пристёгнуты ремнём безопасности?",
-            "На ней была красная блузка для работы.",
-            "значок, который носят полицейские",
-            "Эта рубашка слишком мятая, чтобы её надевать.",
-            "Не будь идиотом — пристегнись!",
-            "Шок начал проходить.",
-            "У вас носок изношен до дырки.",
-            "Даты на монетах стёрлись из-за постоянного использования."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ear_=_[er]"
-        ]
-    }
+  "wear": {
+    "comment": [
+      "wore |wɔːr|,                                          worn |wɔːrn|",
+      "weave",
+      "underwear"
+    ],
+    "translate": "износ, одежда, ношение, изнашивание, платье, носиться, носить, одевать, изнашиваться",
+    "transcription": " |wer|",
+    "antonyms": [],
+    "mnemonic": [
+      "wear [weə]\nswear [swɛə] - клятва, присяга, зарок., клясться\n***\nНОСИТЬ с одеждой нужно веер. (это). wear\nНошение, носка, одежда, платье, износ.\n***\nКот сапоги носит \"wear\",\nи что он барон, клянётся \"swear\""
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ear_=_[er]",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "He doesn't wear a watch.",
+        "ru": "Он не носит часы.",
+        "learn": 0
+      },
+      {
+        "eng": "What size do you wear?",
+        "ru": "Какой размер вы носите?",
+        "learn": 0
+      },
+      {
+        "eng": "What should I wear today?",
+        "ru": "Что мне сегодня надеть?",
+        "learn": 0
+      },
+      {
+        "eng": "He wears me out.",
+        "ru": "Он меня утомляет.",
+        "learn": 0
+      },
+      {
+        "eng": "She was wearing yellow that day",
+        "ru": "В тот день она была вся в жёлтом (на ней была одежда жёлтого цвета)",
+        "learn": 0
+      },
+      {
+        "eng": "The rope has worn out.",
+        "ru": "Верёвка износилась.",
+        "learn": 0
+      },
+      {
+        "eng": "His jeans have worn thin at the knees.",
+        "ru": "Его джинсы износились в коленях.",
+        "learn": 0
+      },
+      {
+        "eng": "She wears her hair short.",
+        "ru": "Она носит короткую стрижку.",
+        "learn": 1
+      },
+      {
+        "eng": "She wore her hair loose.",
+        "ru": "У неё были распущенные волосы.",
+        "learn": 1
+      },
+      {
+        "eng": "He always wears a smile.",
+        "ru": "На его лице всегда улыбка. (досл. \"Он всегда носит улыбку\")",
+        "learn": 0
+      },
+      {
+        "eng": "I used to wear my hair long.",
+        "ru": "Раньше у меня были длинные волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "Wear your coat or you'll catch cold.",
+        "ru": "Надень пальто иначе схватишь простуду.",
+        "learn": 0
+      },
+      {
+        "eng": "Usually I wear black, grey, or brown.",
+        "ru": "Обычно я ношу чёрное, серое или коричневое.",
+        "learn": 1
+      },
+      {
+        "eng": "He wore glasses for reading.",
+        "ru": "Для чтения он надевал очки.",
+        "learn": 0
+      },
+      {
+        "eng": "My patience is wearing thin.",
+        "ru": "Моему терпению приходит конец.",
+        "learn": 0
+      },
+      {
+        "eng": "He wore a hole in his pants.",
+        "ru": "У него была дырка на штанах.",
+        "learn": 0
+      },
+      {
+        "eng": "I never wear bright colours.",
+        "ru": "Я никогда не ношу яркие цвета.",
+        "learn": 0
+      },
+      {
+        "eng": "The day wears towards its end.",
+        "ru": "День близится к концу.",
+        "learn": 0
+      },
+      {
+        "eng": "It's not necessary to wear a tie.",
+        "ru": "Галстук надевать необязательно.",
+        "learn": 0
+      },
+      {
+        "eng": "He was wearing blue jeans.",
+        "ru": "Он был одет в голубые джинсы.",
+        "learn": 0
+      },
+      {
+        "eng": "She's too young to wear makeup.",
+        "ru": "Ей ещё слишком рано носить косметику / краситься.",
+        "learn": 0
+      },
+      {
+        "eng": "She bought it for everyday wear.",
+        "ru": "Это она купила для повседневной носки.",
+        "learn": 1
+      },
+      {
+        "eng": "Were you wearing a seat belt?",
+        "ru": "Вы были пристёгнуты ремнём безопасности?",
+        "learn": 1
+      },
+      {
+        "eng": "She wore a red blouse to work.",
+        "ru": "На ней была красная блузка для работы.",
+        "learn": 0
+      },
+      {
+        "eng": "a badge worn by police officers",
+        "ru": "значок, который носят полицейские",
+        "learn": 0
+      },
+      {
+        "eng": "This shirt is too creased to wear.",
+        "ru": "Эта рубашка слишком мятая, чтобы её надевать.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't be a nitwit — wear a seat belt!...",
+        "ru": "Не будь идиотом — пристегнись!",
+        "learn": 0
+      },
+      {
+        "eng": "The shock began to wear off.",
+        "ru": "Шок начал проходить.",
+        "learn": 0
+      },
+      {
+        "eng": "You've worn a hole in your sock.",
+        "ru": "У вас носок изношен до дырки.",
+        "learn": 1
+      },
+      {
+        "eng": "Dates on coins effaced by wear.",
+        "ru": "Даты на монетах стёрлись из-за постоянного использования.",
+        "learn": 0
+      }
+    ]
+  }
 }

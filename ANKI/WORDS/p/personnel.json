@@ -1,72 +1,140 @@
 {
-    "personnel": {
-        "comment": [
-            "personality",
-            "person",
-            "personal",
-            "personally",
-            "impersonal"
-        ],
-        "translate": "персонал, кадры, личный состав",
-        "transcription": " |ˌpɜːrsəˈnel|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She has a diploma in personnel management.",
-            "Danger! High voltage! Authorized personnel only!",
-            "The department was reinforced with skilled personnel.",
-            "All personnel are to receive security badges.",
-            "The new assistant personnel manager has a diploma in human resources management.",
-            "Ex-forces personnel could be the manna from heaven employers are seeking.",
-            "There were armoured personnel carriers and tanks on the street.",
-            "A commanding officer has complete authority over his personnel.",
-            "She's the director of personnel.",
-            "The training is obligatory for all personnel.",
-            "The risk of infection is confined to medical personnel.",
-            "The company upgraded their personnel.",
-            "That area is restricted to security personnel only.",
-            "No Entry — restricted area for army personnel only.",
-            "the forwarding of resumes to the personnel department",
-            "For further details, contact the personnel department.",
-            "The report form is available on disc from Personnel.",
-            "Over 10,000 military personnel were stationed in the country.",
-            "On no condition should untrained personnel use the equipment.",
-            "They've reduced the number of personnel working on the project.",
-            "All personnel, captain and below, were ordered to report for duty.",
-            "Talk to personnel if you have any questions about your health insurance.",
-            "The only firm rule is: Armored personnel carriers have the right of way.",
-            "A statement of your terms and conditions of employment can be found in the Personnel Handbook."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она дипломированный специалист в области управления персоналом.",
-            "Опасно для жизни! Высокое напряжение! Посторонним вход воспрещен! (предупредительная надпись)",
-            "Отдел был укреплён квалифицированными кадрами.",
-            "Все сотрудники получат индивидуальные пропуска.",
-            "Новый помощник менеджера по персоналу имеет диплом по управлению кадрами.",
-            "Бывшие военные могли оказаться той самой манной небесной, которую так ищут работодатели.",
-            "На улицах были бронетранспортёры и танки.",
-            "Начальник обладает неограниченной властью над подчинёнными.",
-            "Она является директором по персоналу.",
-            "Тренинг обязателен для всех сотрудников.",
-            "Угроза заражения ограничивается медперсоналом.",
-            "Компания обновила свой кадровый состав.",
-            "На этой территории могут находиться только сотрудники службы охраны.",
-            "Вход воспрещён: запретная зона. Допускаются только военнослужащие.",
-            "отправка резюме в отдел кадров",
-            "За дополнительной информацией обращайтесь в отдел кадров.",
-            "Форма отчета доступна на диске из отдела кадров.",
-            "Более десяти тысяч военнослужащих были дислоцированы в данной стране.",
-            "Ни при каких условиях необученный персонал не должен использовать данное оборудование.",
-            "Они сократили количество сотрудников, работающих над проектом.",
-            "Всему личному составу, от рядового до капитана включительно, было приказано явиться на призывной пункт.",
-            "Если у вас возникнут какие-либо вопросы по медицинскому страхованию, поговорите с персоналом.",
-            "Единственное жёсткое правило: бронетранспортеры имеют преимущественное право проезда.",
-            "Изложение ваших условий трудового найма можно найти в \"Памятке для сотрудников\"."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "personnel": {
+    "comment": [
+      "personality",
+      "person",
+      "personal",
+      "personally",
+      "impersonal"
+    ],
+    "translate": "персонал, кадры, личный состав",
+    "transcription": " |ˌpɜːrsəˈnel|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She has a diploma in personnel management.",
+        "ru": "Она дипломированный специалист в области управления персоналом.",
+        "learn": 0
+      },
+      {
+        "eng": "Danger! High voltage! Authorized personnel only!",
+        "ru": "Опасно для жизни! Высокое напряжение! Посторонним вход воспрещен! (предупредительная надпись)",
+        "learn": 0
+      },
+      {
+        "eng": "The department was reinforced with skilled personnel.",
+        "ru": "Отдел был укреплён квалифицированными кадрами.",
+        "learn": 1
+      },
+      {
+        "eng": "All personnel are to receive security badges.",
+        "ru": "Все сотрудники получат индивидуальные пропуска.",
+        "learn": 0
+      },
+      {
+        "eng": "The new assistant personnel manager has a diploma in human resources management.",
+        "ru": "Новый помощник менеджера по персоналу имеет диплом по управлению кадрами.",
+        "learn": 1
+      },
+      {
+        "eng": "Ex-forces personnel could be the manna from heaven employers are seeking.",
+        "ru": "Бывшие военные могли оказаться той самой манной небесной, которую так ищут работодатели.",
+        "learn": 0
+      },
+      {
+        "eng": "There were armoured personnel carriers and tanks on the street.",
+        "ru": "На улицах были бронетранспортёры и танки.",
+        "learn": 0
+      },
+      {
+        "eng": "A commanding officer has complete authority over his personnel.",
+        "ru": "Начальник обладает неограниченной властью над подчинёнными.",
+        "learn": 0
+      },
+      {
+        "eng": "She's the director of personnel.",
+        "ru": "Она является директором по персоналу.",
+        "learn": 0
+      },
+      {
+        "eng": "The training is obligatory for all personnel.",
+        "ru": "Тренинг обязателен для всех сотрудников.",
+        "learn": 0
+      },
+      {
+        "eng": "The risk of infection is confined to medical personnel.",
+        "ru": "Угроза заражения ограничивается медперсоналом.",
+        "learn": 0
+      },
+      {
+        "eng": "The company upgraded their personnel.",
+        "ru": "Компания обновила свой кадровый состав.",
+        "learn": 1
+      },
+      {
+        "eng": "That area is restricted to security personnel only.",
+        "ru": "На этой территории могут находиться только сотрудники службы охраны.",
+        "learn": 1
+      },
+      {
+        "eng": "No Entry — restricted area for army personnel only.",
+        "ru": "Вход воспрещён: запретная зона. Допускаются только военнослужащие.",
+        "learn": 0
+      },
+      {
+        "eng": "the forwarding of resumes to the personnel department",
+        "ru": "отправка резюме в отдел кадров",
+        "learn": 0
+      },
+      {
+        "eng": "For further details, contact the personnel department.",
+        "ru": "За дополнительной информацией обращайтесь в отдел кадров.",
+        "learn": 0
+      },
+      {
+        "eng": "The report form is available on disc from Personnel.",
+        "ru": "Форма отчета доступна на диске из отдела кадров.",
+        "learn": 0
+      },
+      {
+        "eng": "Over 10,000 military personnel were stationed in the country.",
+        "ru": "Более десяти тысяч военнослужащих были дислоцированы в данной стране.",
+        "learn": 0
+      },
+      {
+        "eng": "On no condition should untrained personnel use the equipment.",
+        "ru": "Ни при каких условиях необученный персонал не должен использовать данное оборудование.",
+        "learn": 0
+      },
+      {
+        "eng": "They've reduced the number of personnel working on the project.",
+        "ru": "Они сократили количество сотрудников, работающих над проектом.",
+        "learn": 0
+      },
+      {
+        "eng": "All personnel, captain and below, were ordered to report for duty.",
+        "ru": "Всему личному составу, от рядового до капитана включительно, было приказано явиться на призывной пункт.",
+        "learn": 0
+      },
+      {
+        "eng": "Talk to personnel if you have any questions about your health insurance.",
+        "ru": "Если у вас возникнут какие-либо вопросы по медицинскому страхованию, поговорите с персоналом.",
+        "learn": 0
+      },
+      {
+        "eng": "The only firm rule is: Armored personnel carriers have the right of way.",
+        "ru": "Единственное жёсткое правило: бронетранспортеры имеют преимущественное право проезда.",
+        "learn": 0
+      },
+      {
+        "eng": "A statement of your terms and conditions of employment can be found in the Personnel Handbook.",
+        "ru": "Изложение ваших условий трудового найма можно найти в \"Памятке для сотрудников\".",
+        "learn": 0
+      }
+    ]
+  }
 }

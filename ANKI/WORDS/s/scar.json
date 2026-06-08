@@ -1,71 +1,139 @@
 {
-    "scar": {
-        "comment": [
-            "scarf",
-            "scare"
-        ],
-        "translate": "шрам, рубец, след, отпечаток, утес, скала, рубцеваться, зарубцеваться",
-        "transcription": " |skɑːr|",
-        "antonyms": [],
-        "mnemonic": [
-            "scar [ска] шрам, рубец - Шрамы и рубцы на лице (маска) спрячет."
-        ],
-        "examples": [
-            "The wound left a deep scar.",
-            "Use a cosmetic to hide the scar.",
-            "His face was disfigured by a scar.",
-            "Her mental scars will take time to heal.",
-            "She will probably be scarred for life.",
-            "A large scar marred his face.",
-            "She was scarred by her father's suicide.",
-            "The fence was scarred by rust.",
-            "His hands were badly scarred by the fire.",
-            "Her scar doesn't show, because her hair covers it.",
-            "His skin puckered a little around the scar.",
-            "He had a long, curved scar on his right cheek.",
-            "The skin disease scarred his face permanently.",
-            "The war has left a deep scar on this community.",
-            "A scar slanted across his face.",
-            "Your shoes are scarring the floor.",
-            "The tragedy left her emotionally scarred.",
-            "He had a scar running right the way down his side.",
-            "He was minus a big toenail, and plus a scar upon the nose.",
-            "The doctor will put some stitches in that cut to prevent it from scarring over.",
-            "He bared his chest to show the scar.",
-            "The scar serves as a constant reminder of the accident.",
-            "He had surgery to remove fibrous scar tissue in his knee.",
-            "He lifted his T-shirt to expose a jagged scar across his chest."
-        ],
-        "example_translate": [
-            "После раны остался глубокий шрам.",
-            "Используйте косметику, чтобы скрыть рубец / шрам.",
-            "Его лицо было обезображено шрамом.",
-            "Её душевные раны затянутся не сразу.",
-            "Вероятно, у неё останется травма на всю жизнь.",
-            "Большой шрам исказил /изуродовал/ его лицо.",
-            "Самоубийство отца глубоко её травмировало.",
-            "Забор был побит ржавчиной.",
-            "Его руки были сильно обожжены огнём.",
-            "Её шрам не видно, потому что он скрыт под волосами.",
-            "Вокруг шрама его кожа немного сморщилась.",
-            "У него был длинный, кривой шрам на правой щеке.",
-            "Это заболевание кожи навсегда покрыло его лицо шрамами.",
-            "Война оставила глубокий шрам на теле этого сообщества.",
-            "Его лицо пересекал косой шрам.",
-            "Твои ботинки царапают пол.",
-            "Эта трагедия причинила ей эмоциональную травму.",
-            "У него был шрам, идущий сверху вниз через весь бок.",
-            "Он лишился ногтя на большом пальце ноги и заработал шрам на носу.",
-            "Врач наложит на эту рану несколько швов, чтобы потом не остался шрам.",
-            "Он обнажил свою грудь, чтобы показать шрам.",
-            "Этот шрам служит постоянным напоминанием о той аварии.",
-            "Он перенёс операцию по удалению фиброзной рубцовой ткани в колене.",
-            "Он задрал футболку, чтобы показать неровный шрам на своей груди."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "scar": {
+    "comment": [
+      "scarf",
+      "scare"
+    ],
+    "translate": "шрам, рубец, след, отпечаток, утес, скала, рубцеваться, зарубцеваться",
+    "transcription": " |skɑːr|",
+    "antonyms": [],
+    "mnemonic": [
+      "scar [ска] шрам, рубец - Шрамы и рубцы на лице (маска) спрячет."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The wound left a deep scar.",
+        "ru": "После раны остался глубокий шрам.",
+        "learn": 0
+      },
+      {
+        "eng": "Use a cosmetic to hide the scar.",
+        "ru": "Используйте косметику, чтобы скрыть рубец / шрам.",
+        "learn": 0
+      },
+      {
+        "eng": "His face was disfigured by a scar.",
+        "ru": "Его лицо было обезображено шрамом.",
+        "learn": 0
+      },
+      {
+        "eng": "Her mental scars will take time to heal.",
+        "ru": "Её душевные раны затянутся не сразу.",
+        "learn": 1
+      },
+      {
+        "eng": "She will probably be scarred for life.",
+        "ru": "Вероятно, у неё останется травма на всю жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "A large scar marred his face.",
+        "ru": "Большой шрам исказил /изуродовал/ его лицо.",
+        "learn": 0
+      },
+      {
+        "eng": "She was scarred by her father's suicide.",
+        "ru": "Самоубийство отца глубоко её травмировало.",
+        "learn": 0
+      },
+      {
+        "eng": "The fence was scarred by rust.",
+        "ru": "Забор был побит ржавчиной.",
+        "learn": 0
+      },
+      {
+        "eng": "His hands were badly scarred by the fire.",
+        "ru": "Его руки были сильно обожжены огнём.",
+        "learn": 0
+      },
+      {
+        "eng": "Her scar doesn't show, because her hair covers it.",
+        "ru": "Её шрам не видно, потому что он скрыт под волосами.",
+        "learn": 0
+      },
+      {
+        "eng": "His skin puckered a little around the scar.",
+        "ru": "Вокруг шрама его кожа немного сморщилась.",
+        "learn": 0
+      },
+      {
+        "eng": "He had a long, curved scar on his right cheek.",
+        "ru": "У него был длинный, кривой шрам на правой щеке.",
+        "learn": 1
+      },
+      {
+        "eng": "The skin disease scarred his face permanently.",
+        "ru": "Это заболевание кожи навсегда покрыло его лицо шрамами.",
+        "learn": 0
+      },
+      {
+        "eng": "The war has left a deep scar on this community.",
+        "ru": "Война оставила глубокий шрам на теле этого сообщества.",
+        "learn": 0
+      },
+      {
+        "eng": "A scar slanted across his face.",
+        "ru": "Его лицо пересекал косой шрам.",
+        "learn": 0
+      },
+      {
+        "eng": "Your shoes are scarring the floor.",
+        "ru": "Твои ботинки царапают пол.",
+        "learn": 0
+      },
+      {
+        "eng": "The tragedy left her emotionally scarred.",
+        "ru": "Эта трагедия причинила ей эмоциональную травму.",
+        "learn": 0
+      },
+      {
+        "eng": "He had a scar running right the way down his side.",
+        "ru": "У него был шрам, идущий сверху вниз через весь бок.",
+        "learn": 0
+      },
+      {
+        "eng": "He was minus a big toenail, and plus a scar upon the nose.",
+        "ru": "Он лишился ногтя на большом пальце ноги и заработал шрам на носу.",
+        "learn": 0
+      },
+      {
+        "eng": "The doctor will put some stitches in that cut to prevent it from scarring over.",
+        "ru": "Врач наложит на эту рану несколько швов, чтобы потом не остался шрам.",
+        "learn": 0
+      },
+      {
+        "eng": "He bared his chest to show the scar.",
+        "ru": "Он обнажил свою грудь, чтобы показать шрам.",
+        "learn": 1
+      },
+      {
+        "eng": "The scar serves as a constant reminder of the accident.",
+        "ru": "Этот шрам служит постоянным напоминанием о той аварии.",
+        "learn": 1
+      },
+      {
+        "eng": "He had surgery to remove fibrous scar tissue in his knee.",
+        "ru": "Он перенёс операцию по удалению фиброзной рубцовой ткани в колене.",
+        "learn": 0
+      },
+      {
+        "eng": "He lifted his T-shirt to expose a jagged scar across his chest.",
+        "ru": "Он задрал футболку, чтобы показать неровный шрам на своей груди.",
+        "learn": 0
+      }
+    ]
+  }
 }

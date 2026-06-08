@@ -1,84 +1,170 @@
 {
-    "chair": {
-        "comment": [
-            "chairman",
-            "chairwoman",
-            "armchair"
-        ],
-        "translate": "председатель, стул, кресло, кафедра, председательствовать, возглавлять",
-        "transcription": " |tʃer|",
-        "antonyms": [],
-        "mnemonic": [
-            "chair [че'я] стул - (Чей я) стул взял?."
-        ],
-        "examples": [
-            "He sat down in a chair.",
-            "I'll get you a chair.",
-            "He was sitting in a chair.",
-            "A chair made of cedar",
-            "He sank into a chair.",
-            "She acts as the chair.",
-            "Chair!",
-            "He hurled a chair at me.",
-            "He dropped into a chair.",
-            "Mr Jones took the chair.",
-            "She was voted into the chair.",
-            "He flopped into a chair.",
-            "He sat back in his chair.",
-            "He crafted the chair lovingly.",
-            "One leg of the chair is cracked.",
-            "This old chair is cheap.",
-            "a chair with a broken leg",
-            "He sank back into his chair.",
-            "She bounced out of the chair.",
-            "He eased himself into a chair.",
-            "The offices were newly chaired.",
-            "She subsided into the easy chair.",
-            "She sat the toddler in the chair.",
-            "He put his feet on an empty chair.",
-            "I lapsed into a low chair.",
-            "She bid for a desk and a chair.",
-            "He flumped down into the chair.",
-            "Jimmy slouched back in his chair.",
-            "She subsided into the chair",
-            "a chair made of wrought iron"
-        ],
-        "example_translate": [
-            "Он сел в кресло.",
-            "Я принесу вам стул.",
-            "Он сидел в кресле.",
-            "Стул сделанный из кедра.",
-            "Он опустился в кресло.",
-            "Она выполняет обязанности председателя.",
-            "К порядку!",
-            "Он швырнул в меня стулом.",
-            "Он плюхнулся в кресло.",
-            "М-р Джонс председательствовал на собрании.",
-            "Ее выбрали председателем.",
-            "Он плюхнулся в кресло.",
-            "Он снова сел в кресло.",
-            "Он смастерил этот стул с любовью.",
-            "Одна из ножек стула треснула.",
-            "Этот старый стул — дешёвый.",
-            "стул со сломанной ножкой",
-            "Он откинулся на спинку кресла.",
-            "Она вскочила со стула.",
-            "Он наконец то уселся в кресло и расслабился.",
-            "В офисах были поставлены новые стулья.",
-            "Она опустилась в мягкое кресло.",
-            "Она посадила малыша в кресло.",
-            "Он положил ноги на пустой стул.",
-            "Я опустился в низкое кресло.",
-            "Она предложила купить у неё стол и стул.",
-            "Он тяжело опустился в кресло.",
-            "Джимми развалился в своём кресле.",
-            "Она погрузилась (села) в кресло.",
-            "стул из кованого железа"
-        ],
-        "synonyms": [],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "chair": {
+    "comment": [
+      "chairman",
+      "chairwoman",
+      "armchair"
+    ],
+    "translate": "председатель, стул, кресло, кафедра, председательствовать, возглавлять",
+    "transcription": " |tʃer|",
+    "antonyms": [],
+    "mnemonic": [
+      "chair [че'я] стул - (Чей я) стул взял?."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He sat down in a chair.",
+        "ru": "Он сел в кресло.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll get you a chair.",
+        "ru": "Я принесу вам стул.",
+        "learn": 1
+      },
+      {
+        "eng": "He was sitting in a chair.",
+        "ru": "Он сидел в кресле.",
+        "learn": 0
+      },
+      {
+        "eng": "A chair made of cedar",
+        "ru": "Стул сделанный из кедра.",
+        "learn": 0
+      },
+      {
+        "eng": "He sank into a chair.",
+        "ru": "Он опустился в кресло.",
+        "learn": 0
+      },
+      {
+        "eng": "She acts as the chair.",
+        "ru": "Она выполняет обязанности председателя.",
+        "learn": 0
+      },
+      {
+        "eng": "Chair!",
+        "ru": "К порядку!",
+        "learn": 0
+      },
+      {
+        "eng": "He hurled a chair at me.",
+        "ru": "Он швырнул в меня стулом.",
+        "learn": 0
+      },
+      {
+        "eng": "He dropped into a chair.",
+        "ru": "Он плюхнулся в кресло.",
+        "learn": 0
+      },
+      {
+        "eng": "Mr Jones took the chair.",
+        "ru": "М-р Джонс председательствовал на собрании.",
+        "learn": 0
+      },
+      {
+        "eng": "She was voted into the chair.",
+        "ru": "Ее выбрали председателем.",
+        "learn": 0
+      },
+      {
+        "eng": "He flopped into a chair.",
+        "ru": "Он плюхнулся в кресло.",
+        "learn": 0
+      },
+      {
+        "eng": "He sat back in his chair.",
+        "ru": "Он снова сел в кресло.",
+        "learn": 0
+      },
+      {
+        "eng": "He crafted the chair lovingly.",
+        "ru": "Он смастерил этот стул с любовью.",
+        "learn": 0
+      },
+      {
+        "eng": "One leg of the chair is cracked.",
+        "ru": "Одна из ножек стула треснула.",
+        "learn": 1
+      },
+      {
+        "eng": "This old chair is cheap.",
+        "ru": "Этот старый стул — дешёвый.",
+        "learn": 0
+      },
+      {
+        "eng": "a chair with a broken leg",
+        "ru": "стул со сломанной ножкой",
+        "learn": 1
+      },
+      {
+        "eng": "He sank back into his chair.",
+        "ru": "Он откинулся на спинку кресла.",
+        "learn": 0
+      },
+      {
+        "eng": "She bounced out of the chair.",
+        "ru": "Она вскочила со стула.",
+        "learn": 0
+      },
+      {
+        "eng": "He eased himself into a chair.",
+        "ru": "Он наконец то уселся в кресло и расслабился.",
+        "learn": 0
+      },
+      {
+        "eng": "The offices were newly chaired.",
+        "ru": "В офисах были поставлены новые стулья.",
+        "learn": 0
+      },
+      {
+        "eng": "She subsided into the easy chair.",
+        "ru": "Она опустилась в мягкое кресло.",
+        "learn": 0
+      },
+      {
+        "eng": "She sat the toddler in the chair.",
+        "ru": "Она посадила малыша в кресло.",
+        "learn": 1
+      },
+      {
+        "eng": "He put his feet on an empty chair.",
+        "ru": "Он положил ноги на пустой стул.",
+        "learn": 0
+      },
+      {
+        "eng": "I lapsed into a low chair.",
+        "ru": "Я опустился в низкое кресло.",
+        "learn": 0
+      },
+      {
+        "eng": "She bid for a desk and a chair.",
+        "ru": "Она предложила купить у неё стол и стул.",
+        "learn": 0
+      },
+      {
+        "eng": "He flumped down into the chair.",
+        "ru": "Он тяжело опустился в кресло.",
+        "learn": 0
+      },
+      {
+        "eng": "Jimmy slouched back in his chair.",
+        "ru": "Джимми развалился в своём кресле.",
+        "learn": 0
+      },
+      {
+        "eng": "She subsided into the chair",
+        "ru": "Она погрузилась (села) в кресло.",
+        "learn": 0
+      },
+      {
+        "eng": "a chair made of wrought iron",
+        "ru": "стул из кованого железа",
+        "learn": 0
+      }
+    ]
+  }
 }

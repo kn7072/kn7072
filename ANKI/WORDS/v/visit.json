@@ -1,83 +1,170 @@
 {
-    "visit": {
-        "comment": [
-            "vision",
-            "visitor",
-            "visible"
-        ],
-        "translate": "посещение, визит, поездка, осмотр, посещать, побывать, навещать, гостить",
-        "transcription": " |ˈvɪzɪt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Did you ever visit Paris?",
-            "Be sure to visit our Web site.",
-            "I'll visit him if I have time.",
-            "I'd like to visit Japan someday.",
-            "May I visit him? Yes, certainly.",
-            "She doesn't visit her family much.",
-            "I decided to pay my folks a visit.",
-            "When are you coming to visit?",
-            "She visits her doctor regularly.",
-            "She doesn't visit very often.",
-            "Our son came home for a visit.",
-            "The local museum is worth a visit.",
-            "The governor visited the prison.",
-            "Tourists visit the city in shoals.",
-            "What is the purpose of your visit?",
-            "We hardly ever visit your parents.",
-            "The park is a fun place to visit.",
-            "John came up to visit his brother.",
-            "Can you sit for a while and visit?",
-            "I would like to visit Rome someday.",
-            "He is visiting a client in Phoenix.",
-            "He dropped by for a visit.",
-            "The town is well worth a visit.",
-            "my semiannual visit to my cousin",
-            "They visit New York on occasion.",
-            "Her parents will visit her soon.",
-            "His visit was highly publicized.",
-            "We're just here on a short visit.",
-            "My neighbor popped in for a visit.",
-            "She expressed a desire to visit us."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Вы когда-нибудь бывали в Париже?",
-            "Обязательно посетите наш веб-сайт.",
-            "Я навещу его, если у меня будет время.",
-            "Я бы хотел когда-нибудь побывать в Японии.",
-            "Можно его навестить? Да, конечно.",
-            "Она нечасто навещает свою семью.",
-            "Я решил навестить родителей /родных, своих, родню/.",
-            "Когда вы придёте в гости?",
-            "Она регулярно посещает своего врача.",
-            "Она не очень часто у кого-нибудь гостит /делает визиты/.",
-            "Наш сын зашёл домой погостить.",
-            "Местный музей стоит того, чтобы его посетить.",
-            "Губернатор посетил тюрьму.",
-            "Город посещает множество туристов.",
-            "Какова цель вашего визита?",
-            "Мы почти никогда не навещаем твоих родителей.",
-            "Парк — это интересное место для посещения.",
-            "Джон приехал (с юга) навестить брата.",
-            "Можешь ещё немного посидеть и поболтать?",
-            "Мне бы хотелось когда-нибудь побывать в Риме.",
-            "Он навещает клиента в Фениксе.",
-            "Он заглянул в гости.",
-            "Этот город стоит посетить.",
-            "моё посещение родственника, происходящее раз в полгода",
-            "Они при случае посещают Нью-Йорк.",
-            "Её родители скоро приедут к ней в гости.",
-            "Его визит был широко разрекламирован.",
-            "Мы здесь совсем ненадолго.",
-            "Моя соседка заскочила поболтать.",
-            "Она выразила желание посетить нас."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "i_+_Откр_сл_=_[i(:)]"
-        ]
-    }
+  "visit": {
+    "comment": [
+      "vision",
+      "visitor",
+      "visible"
+    ],
+    "translate": "посещение, визит, поездка, осмотр, посещать, побывать, навещать, гостить",
+    "transcription": " |ˈvɪzɪt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "i_+_Откр_сл_=_[i(:)]"
+    ],
+    "examples": [
+      {
+        "eng": "Did you ever visit Paris?",
+        "ru": "Вы когда-нибудь бывали в Париже?",
+        "learn": 0
+      },
+      {
+        "eng": "Be sure to visit our Web site.",
+        "ru": "Обязательно посетите наш веб-сайт.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll visit him if I have time.",
+        "ru": "Я навещу его, если у меня будет время.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd like to visit Japan someday.",
+        "ru": "Я бы хотел когда-нибудь побывать в Японии.",
+        "learn": 0
+      },
+      {
+        "eng": "May I visit him? Yes, certainly.",
+        "ru": "Можно его навестить? Да, конечно.",
+        "learn": 0
+      },
+      {
+        "eng": "She doesn't visit her family much.",
+        "ru": "Она нечасто навещает свою семью.",
+        "learn": 0
+      },
+      {
+        "eng": "I decided to pay my folks a visit.",
+        "ru": "Я решил навестить родителей /родных, своих, родню/.",
+        "learn": 0
+      },
+      {
+        "eng": "When are you coming to visit?",
+        "ru": "Когда вы придёте в гости?",
+        "learn": 0
+      },
+      {
+        "eng": "She visits her doctor regularly.",
+        "ru": "Она регулярно посещает своего врача.",
+        "learn": 0
+      },
+      {
+        "eng": "She doesn't visit very often.",
+        "ru": "Она не очень часто у кого-нибудь гостит /делает визиты/.",
+        "learn": 0
+      },
+      {
+        "eng": "Our son came home for a visit.",
+        "ru": "Наш сын зашёл домой погостить.",
+        "learn": 0
+      },
+      {
+        "eng": "The local museum is worth a visit.",
+        "ru": "Местный музей стоит того, чтобы его посетить.",
+        "learn": 0
+      },
+      {
+        "eng": "The governor visited the prison.",
+        "ru": "Губернатор посетил тюрьму.",
+        "learn": 0
+      },
+      {
+        "eng": "Tourists visit the city in shoals.",
+        "ru": "Город посещает множество туристов.",
+        "learn": 0
+      },
+      {
+        "eng": "What is the purpose of your visit?",
+        "ru": "Какова цель вашего визита?",
+        "learn": 1
+      },
+      {
+        "eng": "We hardly ever visit your parents.",
+        "ru": "Мы почти никогда не навещаем твоих родителей.",
+        "learn": 0
+      },
+      {
+        "eng": "The park is a fun place to visit.",
+        "ru": "Парк — это интересное место для посещения.",
+        "learn": 0
+      },
+      {
+        "eng": "John came up to visit his brother.",
+        "ru": "Джон приехал (с юга) навестить брата.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you sit for a while and visit?",
+        "ru": "Можешь ещё немного посидеть и поболтать?",
+        "learn": 0
+      },
+      {
+        "eng": "I would like to visit Rome someday.",
+        "ru": "Мне бы хотелось когда-нибудь побывать в Риме.",
+        "learn": 0
+      },
+      {
+        "eng": "He is visiting a client in Phoenix.",
+        "ru": "Он навещает клиента в Фениксе.",
+        "learn": 0
+      },
+      {
+        "eng": "He dropped by for a visit.",
+        "ru": "Он заглянул в гости.",
+        "learn": 0
+      },
+      {
+        "eng": "The town is well worth a visit.",
+        "ru": "Этот город стоит посетить.",
+        "learn": 0
+      },
+      {
+        "eng": "my semiannual visit to my cousin",
+        "ru": "моё посещение родственника, происходящее раз в полгода",
+        "learn": 0
+      },
+      {
+        "eng": "They visit New York on occasion.",
+        "ru": "Они при случае посещают Нью-Йорк.",
+        "learn": 0
+      },
+      {
+        "eng": "Her parents will visit her soon.",
+        "ru": "Её родители скоро приедут к ней в гости.",
+        "learn": 1
+      },
+      {
+        "eng": "His visit was highly publicized.",
+        "ru": "Его визит был широко разрекламирован.",
+        "learn": 0
+      },
+      {
+        "eng": "We're just here on a short visit.",
+        "ru": "Мы здесь совсем ненадолго.",
+        "learn": 0
+      },
+      {
+        "eng": "My neighbor popped in for a visit.",
+        "ru": "Моя соседка заскочила поболтать.",
+        "learn": 0
+      },
+      {
+        "eng": "She expressed a desire to visit us.",
+        "ru": "Она выразила желание посетить нас.",
+        "learn": 0
+      }
+    ]
+  }
 }

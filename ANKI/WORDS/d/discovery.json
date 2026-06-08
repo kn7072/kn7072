@@ -1,90 +1,176 @@
 {
-    "discovery": {
-        "comment": [
-            "recover",
-            "cover",
-            "discover",
-            "recovery",
-            "covering",
-            "covered",
-            "coverage",
-            "uncover"
-        ],
-        "translate": "открытие, обнаружение, раскрытие, развертывание",
-        "transcription": " |dɪˈskʌvəri|",
-        "antonyms": [],
-        "mnemonic": [
-            "cover [\"k∧və]\nrecover [rɪ'kʌvə] - возвращать себе, выздоравливать\nrecovery [rɪ'kʌvəri] - выздоровление\ndiscover [dɪ'skʌvə] - совершать открытие,\nобнаруживать\ndiscovery [dɪ'skʌvəri] - открытие, раскрытие\n***\nЗАКРОЙ глаза - они лукавы. (это) cover\nПРИКРОЙ глаза - они лукавы. (это) cover\nКрышка, покрывало, конверт, обложка.",
-            "discover [di'sk∧və]\ndiscovery [dɪ'skʌvəri] - открытие, раскрытие,\nобнаружение\n***\nЯОБНАРУЖИЛ диск|\"Аве....\" (это) discover\nУзнавать, раскрывать."
-        ],
-        "examples": [
-            "He made a startling discovery.",
-            "Discovery Day",
-            "Scientists have made an important discovery.",
-            "The scientists announced their discovery to the world.",
-            "With the discovery of oil in the region, the situation changed.",
-            "the discovery of a hoard of gold coins",
-            "How historically significant is this discovery?",
-            "It's impossible to exaggerate the importance of this discovery.",
-            "The discovery has elated researchers.",
-            "The discovery of DNA was a major scientific achievement.",
-            "Scientists announced the discovery of a new species of plant.",
-            "The end of the police search was the discovery of a corpse.",
-            "He went under the name of Baker, to avoid discovery by the police.",
-            "This discovery has revolutionized our understanding of how the human brain works.",
-            "Researchers have made a stunning discovery.",
-            "events that occurred long before the discovery of America",
-            "The discovery of gold brought thousands of people to the Transvaal.",
-            "The thieves thought that they had concealed the jewels from discovery.",
-            "She exulted in her new discovery.",
-            "the discovery of pollution in the river",
-            "The discovery was made almost by accident.",
-            "What a wondrous discovery fire must have been.",
-            "The discovery gave fresh impetus to the research.",
-            "The discovery has great significance to researchers.",
-            "She received belated recognition for her scientific discovery.",
-            "The invention of the microscope led to the discovery of the cell.",
-            "Her research led to a number of important discoveries about the disease.",
-            "It was one of the most important discoveries in the history of medicine.",
-            "You have a duty as a scientist to communicate your discovery to the world.",
-            "Hikers made a grim discovery when they came across a dead body in the woods."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он сделал потрясающее / поразительное открытие.",
-            "День открытия Америки (отмечается 12 октября)",
-            "Учёные сделали важное открытие.",
-            "Учёные сообщили общественности о своём открытии.",
-            "После того как в регионе нашли нефть, ситуация изменилась.",
-            "обнаружение клада с золотыми монетами",
-            "Насколько значимо это открытие для истории?",
-            "Невозможно переоценить важность этого открытия.",
-            "Открытие воодушевило исследователей.",
-            "Открытие ДНК стало крупным научным достижением.",
-            "Учёные объявили об открытии нового вида растений.",
-            "Поиски полиции закончились обнаружением трупа.",
-            "Скрываясь от полиции, он жил под именем Бейкера.",
-            "Это открытие коренным образом изменило наше понимание того, как работает человеческий мозг.",
-            "Исследователи сделали ошеломляющее открытие.",
-            "события, которые произошли задолго до открытия Америки",
-            "Обнаружение золота привело в Трансвааль тысячи людей.",
-            "Воры думали, что надёжно спрятали драгоценности.",
-            "Она возрадовалась своему новому открытию.",
-            "обнаружение наличия загрязнений в реке",
-            "Это открытие было сделано почти случайно.",
-            "Какое дивное открытие, должно быть, представлял собой огонь.",
-            "Это открытие дало новый толчок развитию исследований.",
-            "Это открытие имеет большое значение для исследователей.",
-            "Она получила запоздалое признание за своё научное открытие.",
-            "Изобретение микроскопа привело к открытию клетки.",
-            "Её исследования привели к ряду важных открытий касательно данной болезни.",
-            "Это было одним из самых важных открытий в истории медицины.",
-            "Как учёный, вы обязаны сообщить миру о своём открытии.",
-            "Путешественники обнаружили страшную находку, когда наткнулись в лесу на труп."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "discovery": {
+    "comment": [
+      "recover",
+      "cover",
+      "discover",
+      "recovery",
+      "covering",
+      "covered",
+      "coverage",
+      "uncover"
+    ],
+    "translate": "открытие, обнаружение, раскрытие, развертывание",
+    "transcription": " |dɪˈskʌvəri|",
+    "antonyms": [],
+    "mnemonic": [
+      "cover [\"k∧və]\nrecover [rɪ'kʌvə] - возвращать себе, выздоравливать\nrecovery [rɪ'kʌvəri] - выздоровление\ndiscover [dɪ'skʌvə] - совершать открытие,\nобнаруживать\ndiscovery [dɪ'skʌvəri] - открытие, раскрытие\n***\nЗАКРОЙ глаза - они лукавы. (это) cover\nПРИКРОЙ глаза - они лукавы. (это) cover\nКрышка, покрывало, конверт, обложка.",
+      "discover [di'sk∧və]\ndiscovery [dɪ'skʌvəri] - открытие, раскрытие,\nобнаружение\n***\nЯОБНАРУЖИЛ диск|\"Аве....\" (это) discover\nУзнавать, раскрывать."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He made a startling discovery.",
+        "ru": "Он сделал потрясающее / поразительное открытие.",
+        "learn": 0
+      },
+      {
+        "eng": "Discovery Day",
+        "ru": "День открытия Америки (отмечается 12 октября)",
+        "learn": 0
+      },
+      {
+        "eng": "Scientists have made an important discovery.",
+        "ru": "Учёные сделали важное открытие.",
+        "learn": 0
+      },
+      {
+        "eng": "The scientists announced their discovery to the world.",
+        "ru": "Учёные сообщили общественности о своём открытии.",
+        "learn": 0
+      },
+      {
+        "eng": "With the discovery of oil in the region, the situation changed.",
+        "ru": "После того как в регионе нашли нефть, ситуация изменилась.",
+        "learn": 0
+      },
+      {
+        "eng": "the discovery of a hoard of gold coins",
+        "ru": "обнаружение клада с золотыми монетами",
+        "learn": 0
+      },
+      {
+        "eng": "How historically significant is this discovery?",
+        "ru": "Насколько значимо это открытие для истории?",
+        "learn": 1
+      },
+      {
+        "eng": "It's impossible to exaggerate the importance of this discovery.",
+        "ru": "Невозможно переоценить важность этого открытия.",
+        "learn": 0
+      },
+      {
+        "eng": "The discovery has elated researchers.",
+        "ru": "Открытие воодушевило исследователей.",
+        "learn": 0
+      },
+      {
+        "eng": "The discovery of DNA was a major scientific achievement.",
+        "ru": "Открытие ДНК стало крупным научным достижением.",
+        "learn": 0
+      },
+      {
+        "eng": "Scientists announced the discovery of a new species of plant.",
+        "ru": "Учёные объявили об открытии нового вида растений.",
+        "learn": 0
+      },
+      {
+        "eng": "The end of the police search was the discovery of a corpse.",
+        "ru": "Поиски полиции закончились обнаружением трупа.",
+        "learn": 0
+      },
+      {
+        "eng": "He went under the name of Baker, to avoid discovery by the police.",
+        "ru": "Скрываясь от полиции, он жил под именем Бейкера.",
+        "learn": 0
+      },
+      {
+        "eng": "This discovery has revolutionized our understanding of how the human brain works.",
+        "ru": "Это открытие коренным образом изменило наше понимание того, как работает человеческий мозг.",
+        "learn": 0
+      },
+      {
+        "eng": "Researchers have made a stunning discovery.",
+        "ru": "Исследователи сделали ошеломляющее открытие.",
+        "learn": 1
+      },
+      {
+        "eng": "events that occurred long before the discovery of America",
+        "ru": "события, которые произошли задолго до открытия Америки",
+        "learn": 0
+      },
+      {
+        "eng": "The discovery of gold brought thousands of people to the Transvaal.",
+        "ru": "Обнаружение золота привело в Трансвааль тысячи людей.",
+        "learn": 0
+      },
+      {
+        "eng": "The thieves thought that they had concealed the jewels from discovery.",
+        "ru": "Воры думали, что надёжно спрятали драгоценности.",
+        "learn": 0
+      },
+      {
+        "eng": "She exulted in her new discovery.",
+        "ru": "Она возрадовалась своему новому открытию.",
+        "learn": 0
+      },
+      {
+        "eng": "the discovery of pollution in the river",
+        "ru": "обнаружение наличия загрязнений в реке",
+        "learn": 0
+      },
+      {
+        "eng": "The discovery was made almost by accident.",
+        "ru": "Это открытие было сделано почти случайно.",
+        "learn": 0
+      },
+      {
+        "eng": "What a wondrous discovery fire must have been.",
+        "ru": "Какое дивное открытие, должно быть, представлял собой огонь.",
+        "learn": 0
+      },
+      {
+        "eng": "The discovery gave fresh impetus to the research.",
+        "ru": "Это открытие дало новый толчок развитию исследований.",
+        "learn": 0
+      },
+      {
+        "eng": "The discovery has great significance to researchers.",
+        "ru": "Это открытие имеет большое значение для исследователей.",
+        "learn": 0
+      },
+      {
+        "eng": "She received belated recognition for her scientific discovery.",
+        "ru": "Она получила запоздалое признание за своё научное открытие.",
+        "learn": 0
+      },
+      {
+        "eng": "The invention of the microscope led to the discovery of the cell.",
+        "ru": "Изобретение микроскопа привело к открытию клетки.",
+        "learn": 0
+      },
+      {
+        "eng": "Her research led to a number of important discoveries about the disease.",
+        "ru": "Её исследования привели к ряду важных открытий касательно данной болезни.",
+        "learn": 0
+      },
+      {
+        "eng": "It was one of the most important discoveries in the history of medicine.",
+        "ru": "Это было одним из самых важных открытий в истории медицины.",
+        "learn": 0
+      },
+      {
+        "eng": "You have a duty as a scientist to communicate your discovery to the world.",
+        "ru": "Как учёный, вы обязаны сообщить миру о своём открытии.",
+        "learn": 1
+      },
+      {
+        "eng": "Hikers made a grim discovery when they came across a dead body in the woods.",
+        "ru": "Путешественники обнаружили страшную находку, когда наткнулись в лесу на труп.",
+        "learn": 0
+      }
+    ]
+  }
 }

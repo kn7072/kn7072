@@ -1,84 +1,171 @@
 {
-    "tired": {
-        "comment": [
-            "tiring – утомительный  tired – уставший",
-            "tire",
-            "tiring",
-            "tyre"
-        ],
-        "translate": "уставший, усталый, утомленный, истомленный, выдохшийся, пресыщенный",
-        "transcription": " |ˈtaɪərd|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I'm tired. Let's go home.",
-            "She was tired and sleepy.",
-            "I was really tired after the long trip.",
-            "He is both tired and hungry.",
-            "'I'm so tired,' she said.",
-            "He felt very heady and tired.",
-            "If only I weren't so tired!",
-            "I'm tired of watching silly movies.",
-            "He was too tired to argue.",
-            "I don't wonder you're tired.",
-            "'No,' Frank said in a tired voice.",
-            "I was feeling hot and tired.",
-            "I was tired and bathed in sweat.",
-            "Are you okay? You sound tired.",
-            "Sit down, Amy — you look tired.",
-            "I'm tired of picking up after you!",
-            "The truth is that I am very tired.",
-            "I'm getting tired of your silly tricks.",
-            "I'm tired of working for peanuts.",
-            "I'm feeling tired and achy.",
-            "She was all tired and nervy.",
-            "I get grouchy when I'm tired.",
-            "She looked tired and haggard.",
-            "She felt tired and a bit fed up.",
-            "I can spell you if you get tired.",
-            "Please go now, I'm getting tired.",
-            "I'm tired of his lies and evasions.",
-            "Sam looked tired and haggard.",
-            "I was feeling tired and cranky.",
-            "the heavy tread of tired troops"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я устал. Пойдём домой.",
-            "Она очень устала, и ей очень хотелось спать.",
-            "Я очень устал после длительной поездки.",
-            "Он устал и к тому же голоден.",
-            "— Я так устала, — сказала она.",
-            "У него болела голова, и он чувствовал себя уставшим.",
-            "Если бы только я не был таким уставшим!",
-            "Мне надоело смотреть глупые фильмы.",
-            "Он слишком устал, чтобы спорить.",
-            "Не удивляюсь, что вы устали.",
-            "— Нет, — устало ответил Фрэнк.",
-            "Мне было жарко, и я устал.",
-            "Я устал и весь обливался потом.",
-            "С вами все в порядке? У вас какой-то усталый голос.",
-            "Садись, Эми — ты выглядишь усталой.",
-            "Мне надоело за тобой убирать!",
-            "По правде сказать, я очень устал.",
-            "Я уже устал от твоих дурацких фокусов.",
-            "Мне надоело работать за гроши.",
-            "Я устал, и мне нездоровится.",
-            "Она очень устала и была вся на нервах.",
-            "Я становлюсь ворчливым, когда устаю.",
-            "Вид у неё был усталый и измученный.",
-            "Она чувствовала себя уставшей, её все немного достало.",
-            "Я могу сменить вас, если вы устали.",
-            "Теперь, пожалуйста, уходи, я устал.",
-            "Я устал от его лжи и увёрток.",
-            "Сэм выглядел усталым и измученным.",
-            "Я чувствовал себя усталым и раздражительным.",
-            "тяжелая поступь усталых солдат"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Прилагательные,_оканчивающиеся_на_-ing_и_-ed"
-        ]
-    }
+  "tired": {
+    "comment": [
+      "tiring – утомительный  tired – уставший",
+      "tire",
+      "tiring",
+      "tyre"
+    ],
+    "translate": "уставший, усталый, утомленный, истомленный, выдохшийся, пресыщенный",
+    "transcription": " |ˈtaɪərd|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Прилагательные,_оканчивающиеся_на_-ing_и_-ed"
+    ],
+    "examples": [
+      {
+        "eng": "I'm tired. Let's go home.",
+        "ru": "Я устал. Пойдём домой.",
+        "learn": 0
+      },
+      {
+        "eng": "She was tired and sleepy.",
+        "ru": "Она очень устала, и ей очень хотелось спать.",
+        "learn": 1
+      },
+      {
+        "eng": "I was really tired after the long trip.",
+        "ru": "Я очень устал после длительной поездки.",
+        "learn": 0
+      },
+      {
+        "eng": "He is both tired and hungry.",
+        "ru": "Он устал и к тому же голоден.",
+        "learn": 1
+      },
+      {
+        "eng": "'I'm so tired,' she said.",
+        "ru": "— Я так устала, — сказала она.",
+        "learn": 0
+      },
+      {
+        "eng": "He felt very heady and tired.",
+        "ru": "У него болела голова, и он чувствовал себя уставшим.",
+        "learn": 0
+      },
+      {
+        "eng": "If only I weren't so tired!",
+        "ru": "Если бы только я не был таким уставшим!",
+        "learn": 0
+      },
+      {
+        "eng": "I'm tired of watching silly movies.",
+        "ru": "Мне надоело смотреть глупые фильмы.",
+        "learn": 0
+      },
+      {
+        "eng": "He was too tired to argue.",
+        "ru": "Он слишком устал, чтобы спорить.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't wonder you're tired.",
+        "ru": "Не удивляюсь, что вы устали.",
+        "learn": 0
+      },
+      {
+        "eng": "'No,' Frank said in a tired voice.",
+        "ru": "— Нет, — устало ответил Фрэнк.",
+        "learn": 0
+      },
+      {
+        "eng": "I was feeling hot and tired.",
+        "ru": "Мне было жарко, и я устал.",
+        "learn": 1
+      },
+      {
+        "eng": "I was tired and bathed in sweat.",
+        "ru": "Я устал и весь обливался потом.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you okay? You sound tired.",
+        "ru": "С вами все в порядке? У вас какой-то усталый голос.",
+        "learn": 0
+      },
+      {
+        "eng": "Sit down, Amy — you look tired.",
+        "ru": "Садись, Эми — ты выглядишь усталой.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm tired of picking up after you!",
+        "ru": "Мне надоело за тобой убирать!",
+        "learn": 0
+      },
+      {
+        "eng": "The truth is that I am very tired.",
+        "ru": "По правде сказать, я очень устал.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm getting tired of your silly tricks.",
+        "ru": "Я уже устал от твоих дурацких фокусов.",
+        "learn": 1
+      },
+      {
+        "eng": "I'm tired of working for peanuts.",
+        "ru": "Мне надоело работать за гроши.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm feeling tired and achy.",
+        "ru": "Я устал, и мне нездоровится.",
+        "learn": 0
+      },
+      {
+        "eng": "She was all tired and nervy.",
+        "ru": "Она очень устала и была вся на нервах.",
+        "learn": 0
+      },
+      {
+        "eng": "I get grouchy when I'm tired.",
+        "ru": "Я становлюсь ворчливым, когда устаю.",
+        "learn": 0
+      },
+      {
+        "eng": "She looked tired and haggard.",
+        "ru": "Вид у неё был усталый и измученный.",
+        "learn": 0
+      },
+      {
+        "eng": "She felt tired and a bit fed up.",
+        "ru": "Она чувствовала себя уставшей, её все немного достало.",
+        "learn": 0
+      },
+      {
+        "eng": "I can spell you if you get tired.",
+        "ru": "Я могу сменить вас, если вы устали.",
+        "learn": 0
+      },
+      {
+        "eng": "Please go now, I'm getting tired.",
+        "ru": "Теперь, пожалуйста, уходи, я устал.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm tired of his lies and evasions.",
+        "ru": "Я устал от его лжи и увёрток.",
+        "learn": 0
+      },
+      {
+        "eng": "Sam looked tired and haggard.",
+        "ru": "Сэм выглядел усталым и измученным.",
+        "learn": 0
+      },
+      {
+        "eng": "I was feeling tired and cranky.",
+        "ru": "Я чувствовал себя усталым и раздражительным.",
+        "learn": 0
+      },
+      {
+        "eng": "the heavy tread of tired troops",
+        "ru": "тяжелая поступь усталых солдат",
+        "learn": 0
+      }
+    ]
+  }
 }

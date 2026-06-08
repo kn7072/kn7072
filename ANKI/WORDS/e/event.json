@@ -1,90 +1,176 @@
 {
-    "event": {
-        "comment": [
-            "prevent",
-            "evening",
-            "even",
-            "evenly",
-            "eventually",
-            "prevention",
-            "uneven",
-            "eventual"
-        ],
-        "translate": "событие, случай, происшествие, результат, исход, такт, ядерное превращение, номер",
-        "transcription": " |ɪˈvent|",
-        "antonyms": [],
-        "mnemonic": [
-            "event [иве'нт] событие - (И вент-илятор)купить, это событие, что ли?.",
-            "event [ɪ'vent]\neventually [ɪ'vɛntʃuəlɪ] - в конце концов, в конечном\nсчёте\n***\nВо время СОБЫТИЯ Адвент пришёл интервент. (это)\nevent\nНе ожидал такого ИСХОДА интервент. (это) event"
-        ],
-        "examples": [
-            "the last major event of the summer",
-            "He acted very wise after the event.",
-            "The event is limited to invited guests.",
-            "He had made up his mind to the event.",
-            "I cannot trace any connection to the event.",
-            "The event happens every October.",
-            "an event back in the last century",
-            "It's easy to be wise after the event.",
-            "Coming events cast their shadows before.",
-            "She likes to arrive at social events early.",
-            "The event doesn't start till tomorrow.",
-            "Gelding, 6 years, evented.",
-            "The play is based on a real-life event.",
-            "I have marked the event on my calendar.",
-            "The school trip has become an annual event.",
-            "Leaving home was a major event in his life.",
-            "The event of his enterprise was doubtful.",
-            "The conference was an important social event (=an event at which people can meet each other).",
-            "The 800 metres is not his best event.",
-            "When she was only thirteen she was eventing with a horse called Foxtrot.",
-            "Media coverage of the event was mixed.",
-            "This event disrupted the orderly process.",
-            "a major televisual event like the Olympics",
-            "The importance of this event comes into historical prominence.",
-            "The film festival is acknowledged as an event of international importance.",
-            "The event evades explanation.",
-            "Diviners foretold of the event.",
-            "recoverable truth of a past event",
-            "She orchestrated the entire event.",
-            "Each event will be scored separately."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "последнее крупное событие этого лета",
-            "После этого случая он поступил очень мудро.",
-            "Мероприятие предназначено только для приглашённых гостей.",
-            "Он настроился на это дело.",
-            "Я не нахожу никакой связи с этим событием.",
-            "Это происходит в октябре каждого года.",
-            "событие, которое произошло ещё в прошлом веке",
-            "Легко быть умным задним числом.",
-            "Будущие события отбрасывают тень на настоящее.",
-            "Она любит приезжать на светские мероприятия пораньше.",
-            "Данное мероприятие не начнётся раньше завтрашнего дня.",
-            "Мерин, 6 лет, выступал на скачках.",
-            "Пьеса написана на основе реальных событий.",
-            "Я отметил это событие в своём календаре.",
-            "Школьный поход стал проводиться ежегодно.",
-            "Уход из дома стал крупным событием в его жизни.",
-            "Неясно было, чем кончится его предприятие.",
-            "Данная конференция была важным общественным мероприятием (т.е. мероприятием, на котором люди могут встретиться друг с другом).",
-            "Восемьсот метров не являются его основной дистанцией /дисциплиной/. (о спорте)",
-            "Когда ей было всего тринадцать, она уже выступала на лошади по кличке Фокстрот.",
-            "Освещение данного события в СМИ было неоднозначным.",
-            "Это событие нарушило упорядоченный процесс.",
-            "крупное телевизионное событие, например, Олимпийские игры",
-            "Это событие занимает выдающееся место в истории.",
-            "Кинофестиваль признан событием международного масштаба.",
-            "Этот факт не поддаётся объяснению.",
-            "Это событие было предсказано прорицателями.",
-            "истинный ход прошедшего события, который можно восстановить",
-            "Она организовала всё это мероприятие.",
-            "Каждое событие будет оцениваться отдельно."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "event": {
+    "comment": [
+      "prevent",
+      "evening",
+      "even",
+      "evenly",
+      "eventually",
+      "prevention",
+      "uneven",
+      "eventual"
+    ],
+    "translate": "событие, случай, происшествие, результат, исход, такт, ядерное превращение, номер",
+    "transcription": " |ɪˈvent|",
+    "antonyms": [],
+    "mnemonic": [
+      "event [иве'нт] событие - (И вент-илятор)купить, это событие, что ли?.",
+      "event [ɪ'vent]\neventually [ɪ'vɛntʃuəlɪ] - в конце концов, в конечном\nсчёте\n***\nВо время СОБЫТИЯ Адвент пришёл интервент. (это)\nevent\nНе ожидал такого ИСХОДА интервент. (это) event"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "the last major event of the summer",
+        "ru": "последнее крупное событие этого лета",
+        "learn": 1
+      },
+      {
+        "eng": "He acted very wise after the event.",
+        "ru": "После этого случая он поступил очень мудро.",
+        "learn": 0
+      },
+      {
+        "eng": "The event is limited to invited guests.",
+        "ru": "Мероприятие предназначено только для приглашённых гостей.",
+        "learn": 0
+      },
+      {
+        "eng": "He had made up his mind to the event.",
+        "ru": "Он настроился на это дело.",
+        "learn": 0
+      },
+      {
+        "eng": "I cannot trace any connection to the event.",
+        "ru": "Я не нахожу никакой связи с этим событием.",
+        "learn": 1
+      },
+      {
+        "eng": "The event happens every October.",
+        "ru": "Это происходит в октябре каждого года.",
+        "learn": 0
+      },
+      {
+        "eng": "an event back in the last century",
+        "ru": "событие, которое произошло ещё в прошлом веке",
+        "learn": 0
+      },
+      {
+        "eng": "It's easy to be wise after the event.",
+        "ru": "Легко быть умным задним числом.",
+        "learn": 0
+      },
+      {
+        "eng": "Coming events cast their shadows before.",
+        "ru": "Будущие события отбрасывают тень на настоящее.",
+        "learn": 0
+      },
+      {
+        "eng": "She likes to arrive at social events early.",
+        "ru": "Она любит приезжать на светские мероприятия пораньше.",
+        "learn": 0
+      },
+      {
+        "eng": "The event doesn't start till tomorrow.",
+        "ru": "Данное мероприятие не начнётся раньше завтрашнего дня.",
+        "learn": 0
+      },
+      {
+        "eng": "Gelding, 6 years, evented.",
+        "ru": "Мерин, 6 лет, выступал на скачках.",
+        "learn": 0
+      },
+      {
+        "eng": "The play is based on a real-life event.",
+        "ru": "Пьеса написана на основе реальных событий.",
+        "learn": 0
+      },
+      {
+        "eng": "I have marked the event on my calendar.",
+        "ru": "Я отметил это событие в своём календаре.",
+        "learn": 1
+      },
+      {
+        "eng": "The school trip has become an annual event.",
+        "ru": "Школьный поход стал проводиться ежегодно.",
+        "learn": 0
+      },
+      {
+        "eng": "Leaving home was a major event in his life.",
+        "ru": "Уход из дома стал крупным событием в его жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "The event of his enterprise was doubtful.",
+        "ru": "Неясно было, чем кончится его предприятие.",
+        "learn": 0
+      },
+      {
+        "eng": "The conference was an important social event (=an event at which people can meet each other).",
+        "ru": "Данная конференция была важным общественным мероприятием (т.е. мероприятием, на котором люди могут встретиться друг с другом).",
+        "learn": 0
+      },
+      {
+        "eng": "The 800 metres is not his best event.",
+        "ru": "Восемьсот метров не являются его основной дистанцией /дисциплиной/. (о спорте)",
+        "learn": 0
+      },
+      {
+        "eng": "When she was only thirteen she was eventing with a horse called Foxtrot.",
+        "ru": "Когда ей было всего тринадцать, она уже выступала на лошади по кличке Фокстрот.",
+        "learn": 0
+      },
+      {
+        "eng": "Media coverage of the event was mixed.",
+        "ru": "Освещение данного события в СМИ было неоднозначным.",
+        "learn": 0
+      },
+      {
+        "eng": "This event disrupted the orderly process.",
+        "ru": "Это событие нарушило упорядоченный процесс.",
+        "learn": 0
+      },
+      {
+        "eng": "a major televisual event like the Olympics",
+        "ru": "крупное телевизионное событие, например, Олимпийские игры",
+        "learn": 0
+      },
+      {
+        "eng": "The importance of this event comes into historical prominence.",
+        "ru": "Это событие занимает выдающееся место в истории.",
+        "learn": 0
+      },
+      {
+        "eng": "The film festival is acknowledged as an event of international importance.",
+        "ru": "Кинофестиваль признан событием международного масштаба.",
+        "learn": 0
+      },
+      {
+        "eng": "The event evades explanation.",
+        "ru": "Этот факт не поддаётся объяснению.",
+        "learn": 0
+      },
+      {
+        "eng": "Diviners foretold of the event.",
+        "ru": "Это событие было предсказано прорицателями.",
+        "learn": 0
+      },
+      {
+        "eng": "recoverable truth of a past event",
+        "ru": "истинный ход прошедшего события, который можно восстановить",
+        "learn": 0
+      },
+      {
+        "eng": "She orchestrated the entire event.",
+        "ru": "Она организовала всё это мероприятие.",
+        "learn": 0
+      },
+      {
+        "eng": "Each event will be scored separately.",
+        "ru": "Каждое событие будет оцениваться отдельно.",
+        "learn": 1
+      }
+    ]
+  }
 }

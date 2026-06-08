@@ -1,88 +1,175 @@
 {
-    "hair": {
-        "comment": [
-            "hair, air - волосы, на воздухе",
-            "hairdresser",
-            "haircut",
-            "hairy",
-            "heir",
-            "hail"
-        ],
-        "translate": "волосы, волос, шерсть, волосок, шевелюра, волосяной",
-        "transcription": " |her|",
-        "antonyms": [],
-        "mnemonic": [
-            "hair [бе'я] волосы, шерсть - Его (тра-хея) волосами забита."
-        ],
-        "examples": [
-            "My hair is still wet.",
-            "Fix your hair!",
-            "She has dark hair.",
-            "His hair needs a wash.",
-            "My hair is a mess.",
-            "She pinned up her hair.",
-            "Her hair began to grey",
-            "People lose their hair.",
-            "She wore her hair loose.",
-            "She wore a hair ornament.",
-            "I am allergic to cat hair.",
-            "There is a hair in my soup",
-            "She wore her hair in a bun.",
-            "I singed my hair.",
-            "She loosened her hair.",
-            "The wind fluffed his hair.",
-            "She used to have long hair.",
-            "She had shining black hair.",
-            "His hair was long and snaky.",
-            "She perms her hair",
-            "He has dark, wiry hair.",
-            "She has wavy blond hair.",
-            "He combed back his hair.",
-            "She had hair to die for.",
-            "She wears her hair short.",
-            "His hair stuck up on end.",
-            "My hair tangles easily.",
-            "His hair was dyed blond.",
-            "Animals shed their hair.",
-            "Her hair was in curlers."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мои волосы ещё мокрые.",
-            "Причеши волосы!",
-            "У неё темные волосы.",
-            "Ему нужно помыть голову.",
-            "У меня на голове творится бог знает что.",
-            "Она заколола свои волосы.",
-            "Ее волосы начали седеть",
-            "Люди лысеют.",
-            "У неё были распущенные волосы.",
-            "Она носила украшения для волос.",
-            "У меня аллергия на шерсть кошек.",
-            "В моем супе волос.",
-            "Она убирала волосы в пучок.",
-            "Я опалил волосы.",
-            "Она распустила волосы.",
-            "Ветер взъерошил его волосы.",
-            "Раньше у неё были длинные волосы.",
-            "У неё были чёрные блестящие волосы.",
-            "Его волосы были длинные и вьющиеся.",
-            "Она делает химическую завивку волос.",
-            "У него темные, жесткие волосы.",
-            "У неё волнистые белокурые волосы.",
-            "Он зачесывал свои волосы назад.",
-            "У неё были волосы, за которые можно отдать жизнь. / У неё была шевелюра, за которую можно умереть.",
-            "Она носит короткую стрижку.",
-            "У него волосы стояли торчком.",
-            "Мои волосы легко путаются.",
-            "Его волосы были окрашены в светлый цвет.",
-            "Животные линяют.",
-            "Её волосы были в бигуди."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "air_=_[er]"
-        ]
-    }
+  "hair": {
+    "comment": [
+      "hair, air - волосы, на воздухе",
+      "hairdresser",
+      "haircut",
+      "hairy",
+      "heir",
+      "hail"
+    ],
+    "translate": "волосы, волос, шерсть, волосок, шевелюра, волосяной",
+    "transcription": " |her|",
+    "antonyms": [],
+    "mnemonic": [
+      "hair [бе'я] волосы, шерсть - Его (тра-хея) волосами забита."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "air_=_[er]"
+    ],
+    "examples": [
+      {
+        "eng": "My hair is still wet.",
+        "ru": "Мои волосы ещё мокрые.",
+        "learn": 0
+      },
+      {
+        "eng": "Fix your hair!",
+        "ru": "Причеши волосы!",
+        "learn": 0
+      },
+      {
+        "eng": "She has dark hair.",
+        "ru": "У неё темные волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "His hair needs a wash.",
+        "ru": "Ему нужно помыть голову.",
+        "learn": 1
+      },
+      {
+        "eng": "My hair is a mess.",
+        "ru": "У меня на голове творится бог знает что.",
+        "learn": 0
+      },
+      {
+        "eng": "She pinned up her hair.",
+        "ru": "Она заколола свои волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "Her hair began to grey",
+        "ru": "Ее волосы начали седеть",
+        "learn": 0
+      },
+      {
+        "eng": "People lose their hair.",
+        "ru": "Люди лысеют.",
+        "learn": 0
+      },
+      {
+        "eng": "She wore her hair loose.",
+        "ru": "У неё были распущенные волосы.",
+        "learn": 1
+      },
+      {
+        "eng": "She wore a hair ornament.",
+        "ru": "Она носила украшения для волос.",
+        "learn": 0
+      },
+      {
+        "eng": "I am allergic to cat hair.",
+        "ru": "У меня аллергия на шерсть кошек.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a hair in my soup",
+        "ru": "В моем супе волос.",
+        "learn": 0
+      },
+      {
+        "eng": "She wore her hair in a bun.",
+        "ru": "Она убирала волосы в пучок.",
+        "learn": 1
+      },
+      {
+        "eng": "I singed my hair.",
+        "ru": "Я опалил волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "She loosened her hair.",
+        "ru": "Она распустила волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind fluffed his hair.",
+        "ru": "Ветер взъерошил его волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "She used to have long hair.",
+        "ru": "Раньше у неё были длинные волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "She had shining black hair.",
+        "ru": "У неё были чёрные блестящие волосы.",
+        "learn": 1
+      },
+      {
+        "eng": "His hair was long and snaky.",
+        "ru": "Его волосы были длинные и вьющиеся.",
+        "learn": 0
+      },
+      {
+        "eng": "She perms her hair",
+        "ru": "Она делает химическую завивку волос.",
+        "learn": 0
+      },
+      {
+        "eng": "He has dark, wiry hair.",
+        "ru": "У него темные, жесткие волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "She has wavy blond hair.",
+        "ru": "У неё волнистые белокурые волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "He combed back his hair.",
+        "ru": "Он зачесывал свои волосы назад.",
+        "learn": 0
+      },
+      {
+        "eng": "She had hair to die for.",
+        "ru": "У неё были волосы, за которые можно отдать жизнь. / У неё была шевелюра, за которую можно умереть.",
+        "learn": 0
+      },
+      {
+        "eng": "She wears her hair short.",
+        "ru": "Она носит короткую стрижку.",
+        "learn": 1
+      },
+      {
+        "eng": "His hair stuck up on end.",
+        "ru": "У него волосы стояли торчком.",
+        "learn": 0
+      },
+      {
+        "eng": "My hair tangles easily.",
+        "ru": "Мои волосы легко путаются.",
+        "learn": 0
+      },
+      {
+        "eng": "His hair was dyed blond.",
+        "ru": "Его волосы были окрашены в светлый цвет.",
+        "learn": 0
+      },
+      {
+        "eng": "Animals shed their hair.",
+        "ru": "Животные линяют.",
+        "learn": 0
+      },
+      {
+        "eng": "Her hair was in curlers.",
+        "ru": "Её волосы были в бигуди.",
+        "learn": 0
+      }
+    ]
+  }
 }

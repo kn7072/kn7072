@@ -1,83 +1,169 @@
 {
-    "tune": {
-        "comment": [
-            "fortune",
-            "misfortune"
-        ],
-        "translate": "настроить, настраивать, регулировать, мелодия, мотив, гармония, тон, напев, строй",
-        "transcription": " |tuːn|",
-        "antonyms": [],
-        "mnemonic": [
-            "tune [тъюн] настраивать, налаживать, мотив - У мастеров (тюн-инга) есть мотив настраивать двигатели."
-        ],
-        "examples": [
-            "The piano is out of tune.",
-            "The tune is pretty.",
-            "The place tuned me to a solemn mood.",
-            "The musician piped a tune.",
-            "I know the tune, but not the words.",
-            "The tune haunted her all day long.",
-            "Someone's coming tomorrow to tune the piano.",
-            "The mechanic tuned the engine.",
-            "He whistled a happy tune.",
-            "He who pays the piper calls the tune. посл.",
-            "My piano needs to be tuned.",
-            "We tuned our bikes before the road trip.",
-            "There is an old song, to the tune of La Belle Catharine.",
-            "I can hear Jane from here, hammering out a tune on the piano.",
-            "The clarinet was out of tune.",
-            "He cannot carry a tune.",
-            "The tune haunted me all day.",
-            "They sang perfectly in tune.",
-            "A bored child may simply tune out.",
-            "All his life was religiously tuned.",
-            "That tune fairly gives me the hump.",
-            "I learned to tune out the background noise.",
-            "This is the tone and tune of men in distress.",
-            "I have this tune going round in my head, driving me mad!",
-            "He began to hum a tune.",
-            "Beat out this tune on a drum.",
-            "He scraped out a tune at a cello.",
-            "He strummed a tune on the guitar.",
-            "Greg's bass guitar was out of tune.",
-            "You're singing a different tune now!"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Пианино расстроено.",
-            "Эта мелодия прелестна.",
-            "Это место настроило меня на торжественный лад.",
-            "Музыкант насвистел мелодию.",
-            "Я знаю мелодию, но не слова.",
-            "Эта мелодия целый день преследовала её.",
-            "Завтра придёт человек настраивать пианино.",
-            "Механик настроил двигатель.",
-            "Он насвистывал какую-то весёлую песенку.",
-            "Кто платит, тот и музыку заказывает.",
-            "Моё пианино нужно настроить.",
-            "Перед поездкой мы отрегулировали свои велосипеды.",
-            "Есть старая песенка, на мелодию \"Прекрасной Катарины\".",
-            "Даже отсюда слышно, как Джейн барабанит на пианино.",
-            "Кларнет был расстроен.",
-            "Он не может петь без фальши. (ему не хватаем музыкальных способностей)",
-            "Эта мелодия весь день не выходила у меня из головы.",
-            "Они пели совершенно чисто (без фальши).",
-            "Иногда дети, которым скучно, просто перестают слушать.",
-            "Вся его жизнь была пропитана религиозностью.",
-            "Эта мелодия прямо нагоняет на меня тоску.",
-            "Я научился не замечать фонового шума.",
-            "Таково настроение и состояние страдающих людей.",
-            "Эта мелодия вертится у меня в голове, она меня с ума сводит!",
-            "Он начал тихонько напевать мелодию.",
-            "Выстучи эту мелодию на барабане.",
-            "Он пропиликал какую-то мелодию на виолончели.",
-            "Он бренчал на гитаре какую-то мелодию.",
-            "Бас-гитара Грега была расстроена.",
-            "Теперь ты запел по-другому!"
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "tune": {
+    "comment": [
+      "fortune",
+      "misfortune"
+    ],
+    "translate": "настроить, настраивать, регулировать, мелодия, мотив, гармония, тон, напев, строй",
+    "transcription": " |tuːn|",
+    "antonyms": [],
+    "mnemonic": [
+      "tune [тъюн] настраивать, налаживать, мотив - У мастеров (тюн-инга) есть мотив настраивать двигатели."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The piano is out of tune.",
+        "ru": "Пианино расстроено.",
+        "learn": 0
+      },
+      {
+        "eng": "The tune is pretty.",
+        "ru": "Эта мелодия прелестна.",
+        "learn": 0
+      },
+      {
+        "eng": "The place tuned me to a solemn mood.",
+        "ru": "Это место настроило меня на торжественный лад.",
+        "learn": 0
+      },
+      {
+        "eng": "The musician piped a tune.",
+        "ru": "Музыкант насвистел мелодию.",
+        "learn": 0
+      },
+      {
+        "eng": "I know the tune, but not the words.",
+        "ru": "Я знаю мелодию, но не слова.",
+        "learn": 1
+      },
+      {
+        "eng": "The tune haunted her all day long.",
+        "ru": "Эта мелодия целый день преследовала её.",
+        "learn": 0
+      },
+      {
+        "eng": "Someone's coming tomorrow to tune the piano.",
+        "ru": "Завтра придёт человек настраивать пианино.",
+        "learn": 1
+      },
+      {
+        "eng": "The mechanic tuned the engine.",
+        "ru": "Механик настроил двигатель.",
+        "learn": 0
+      },
+      {
+        "eng": "He whistled a happy tune.",
+        "ru": "Он насвистывал какую-то весёлую песенку.",
+        "learn": 1
+      },
+      {
+        "eng": "He who pays the piper calls the tune. посл.",
+        "ru": "Кто платит, тот и музыку заказывает.",
+        "learn": 0
+      },
+      {
+        "eng": "My piano needs to be tuned.",
+        "ru": "Моё пианино нужно настроить.",
+        "learn": 0
+      },
+      {
+        "eng": "We tuned our bikes before the road trip.",
+        "ru": "Перед поездкой мы отрегулировали свои велосипеды.",
+        "learn": 0
+      },
+      {
+        "eng": "There is an old song, to the tune of La Belle Catharine.",
+        "ru": "Есть старая песенка, на мелодию \"Прекрасной Катарины\".",
+        "learn": 0
+      },
+      {
+        "eng": "I can hear Jane from here, hammering out a tune on the piano.",
+        "ru": "Даже отсюда слышно, как Джейн барабанит на пианино.",
+        "learn": 0
+      },
+      {
+        "eng": "The clarinet was out of tune.",
+        "ru": "Кларнет был расстроен.",
+        "learn": 0
+      },
+      {
+        "eng": "He cannot carry a tune.",
+        "ru": "Он не может петь без фальши. (ему не хватаем музыкальных способностей)",
+        "learn": 0
+      },
+      {
+        "eng": "The tune haunted me all day.",
+        "ru": "Эта мелодия весь день не выходила у меня из головы.",
+        "learn": 1
+      },
+      {
+        "eng": "They sang perfectly in tune.",
+        "ru": "Они пели совершенно чисто (без фальши).",
+        "learn": 0
+      },
+      {
+        "eng": "A bored child may simply tune out.",
+        "ru": "Иногда дети, которым скучно, просто перестают слушать.",
+        "learn": 0
+      },
+      {
+        "eng": "All his life was religiously tuned.",
+        "ru": "Вся его жизнь была пропитана религиозностью.",
+        "learn": 0
+      },
+      {
+        "eng": "That tune fairly gives me the hump.",
+        "ru": "Эта мелодия прямо нагоняет на меня тоску.",
+        "learn": 0
+      },
+      {
+        "eng": "I learned to tune out the background noise.",
+        "ru": "Я научился не замечать фонового шума.",
+        "learn": 0
+      },
+      {
+        "eng": "This is the tone and tune of men in distress.",
+        "ru": "Таково настроение и состояние страдающих людей.",
+        "learn": 0
+      },
+      {
+        "eng": "I have this tune going round in my head, driving me mad!",
+        "ru": "Эта мелодия вертится у меня в голове, она меня с ума сводит!",
+        "learn": 0
+      },
+      {
+        "eng": "He began to hum a tune.",
+        "ru": "Он начал тихонько напевать мелодию.",
+        "learn": 0
+      },
+      {
+        "eng": "Beat out this tune on a drum.",
+        "ru": "Выстучи эту мелодию на барабане.",
+        "learn": 0
+      },
+      {
+        "eng": "He scraped out a tune at a cello.",
+        "ru": "Он пропиликал какую-то мелодию на виолончели.",
+        "learn": 0
+      },
+      {
+        "eng": "He strummed a tune on the guitar.",
+        "ru": "Он бренчал на гитаре какую-то мелодию.",
+        "learn": 0
+      },
+      {
+        "eng": "Greg's bass guitar was out of tune.",
+        "ru": "Бас-гитара Грега была расстроена.",
+        "learn": 1
+      },
+      {
+        "eng": "You're singing a different tune now!",
+        "ru": "Теперь ты запел по-другому!",
+        "learn": 0
+      }
+    ]
+  }
 }

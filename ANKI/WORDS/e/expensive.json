@@ -1,88 +1,175 @@
 {
-    "expensive": {
-        "comment": [
-            "expense",
-            "expenditure"
-        ],
-        "translate": "дорогой, дорогостоящий",
-        "transcription": " |ɪkˈspensɪv|",
-        "antonyms": [],
-        "mnemonic": [
-            "expensive [икспе'нсив] дорогой (в смысле цены) - (Экспансив-ные) устремления империалистов дорого обходятся людям.",
-            "expensive [ɪks'pensɪv]\n***\nДОРОГИЕ часы - куплю их|с|пенсии. (это) expensive\nДОРОГИЕ услуги, не хватит их|пенсии. (это)\nexpensive"
-        ],
-        "examples": [
-            "It's bleeding expensive.",
-            "She's always expensively dressed.",
-            "It's more expensive to live in the city than in the country.",
-            "Petrol is becoming more and more expensive.",
-            "Don't worry about the expensive wine--I'm treating",
-            "Photography is an expensive hobby.",
-            "Everything is so damn expensive.",
-            "He owns a most expensive car.",
-            "My wife has very expensive tastes.",
-            "The house was too big and expensive to run.",
-            "The car is far too expensive.",
-            "The curtains are made of expensive fabric.",
-            "The house is expensive because it's in a prime location.",
-            "They furnished the room with very expensive tables and chairs.",
-            "Everything was so damn expensive.",
-            "The tickets were wicked expensive.",
-            "The car was an expensive purchase.",
-            "The best grades of tea are expensive.",
-            "Do you have another one that's less expensive?",
-            "Her husband had expensive tastes (=liked expensive things).",
-            "a pair of expensive handmade shoes",
-            "He drives an expensive automobile.",
-            "The discs are expensive to fabricate.",
-            "The lights were expensive to install.",
-            "Either way, it's going to be expensive.",
-            "an expensive piece of medical equipment",
-            "She was decked out in expensive clothes.",
-            "It's rather expensive, but what the heck.",
-            "women wearing expensive jewelry and minks",
-            "I have a fondness for expensive chocolate."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Это чертовски дорого.",
-            "Она всегда дорого одета. (одета в дорогую одежду)",
-            "В городе жить намного дороже, чем в деревне.",
-            "Бензин становится всё дороже и дороже.",
-            "Не беспокойся, что вино дорогое ... я угощаю.",
-            "Фотографирование — это дорогое увлечение.",
-            "Всё чертовски дорого.",
-            "Его машина стоит бешеных денег. / Ему принадлежит очень дорогой автомобиль.",
-            "У моей жены очень дорогие вкусы.",
-            "Дом был слишком велик и дорог в эксплуатации.",
-            "Этот автомобиль — слишком уж дорогой.",
-            "Эти шторы сшиты из дорогой ткани.",
-            "Дом стоит дорого, потому что располагается в отличном месте.",
-            "Они обставили комнату очень дорогими столами и стульями.",
-            "Всё было так чертовски дорого.",
-            "Билеты были чрезвычайно дорогими.",
-            "Этот автомобиль был дорогостоящей покупкой / дорогим приобретением.",
-            "Лучшие сорта чая стоят дорого.",
-            "У вас есть другой, подешевле /не такой дорогой/?",
-            "У её мужа были изысканные вкусы (т.е. он любил дорогие вещи).",
-            "пара дорогой обуви ручной работы",
-            "Он ездит на дорогом автомобиле.",
-            "Изготовление таких дисков стоит дорого.",
-            "Установка освещения была дорогостоящей.",
-            "В любом случае, это будет дорого.",
-            "дорогое медицинское оборудование",
-            "На ней была дорогая одежда.",
-            "Это, конечно, дороговато, но чёрт с ним. (всё равно куплю)",
-            "женщины в дорогих украшениях и норковых шубах",
-            "Я питаю слабость к дорогому шоколаду."
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитивный_оборот_с_for",
-            "Инфинитив_-_инфинитивный_оборот_с_for(После_сочетания_It_is_(was,_will_be)_с_некоторыми_прилагательными)",
-            "Инфинитив_с_to_после_прил(подлежащие_логическое_дополнение_инфинитива)",
-            "Инфинитив",
-            "all_words"
-        ]
-    }
+  "expensive": {
+    "comment": [
+      "expense",
+      "expenditure"
+    ],
+    "translate": "дорогой, дорогостоящий",
+    "transcription": " |ɪkˈspensɪv|",
+    "antonyms": [],
+    "mnemonic": [
+      "expensive [икспе'нсив] дорогой (в смысле цены) - (Экспансив-ные) устремления империалистов дорого обходятся людям.",
+      "expensive [ɪks'pensɪv]\n***\nДОРОГИЕ часы - куплю их|с|пенсии. (это) expensive\nДОРОГИЕ услуги, не хватит их|пенсии. (это)\nexpensive"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитивный_оборот_с_for",
+      "Инфинитив_-_инфинитивный_оборот_с_for(После_сочетания_It_is_(was,_will_be)_с_некоторыми_прилагательными)",
+      "Инфинитив_с_to_после_прил(подлежащие_логическое_дополнение_инфинитива)",
+      "Инфинитив"
+    ],
+    "examples": [
+      {
+        "eng": "It's bleeding expensive.",
+        "ru": "Это чертовски дорого.",
+        "learn": 0
+      },
+      {
+        "eng": "She's always expensively dressed.",
+        "ru": "Она всегда дорого одета. (одета в дорогую одежду)",
+        "learn": 0
+      },
+      {
+        "eng": "It's more expensive to live in the city than in the country.",
+        "ru": "В городе жить намного дороже, чем в деревне.",
+        "learn": 0
+      },
+      {
+        "eng": "Petrol is becoming more and more expensive.",
+        "ru": "Бензин становится всё дороже и дороже.",
+        "learn": 1
+      },
+      {
+        "eng": "Don't worry about the expensive wine--I'm treating",
+        "ru": "Не беспокойся, что вино дорогое ... я угощаю.",
+        "learn": 0
+      },
+      {
+        "eng": "Photography is an expensive hobby.",
+        "ru": "Фотографирование — это дорогое увлечение.",
+        "learn": 1
+      },
+      {
+        "eng": "Everything is so damn expensive.",
+        "ru": "Всё чертовски дорого.",
+        "learn": 0
+      },
+      {
+        "eng": "He owns a most expensive car.",
+        "ru": "Его машина стоит бешеных денег. / Ему принадлежит очень дорогой автомобиль.",
+        "learn": 0
+      },
+      {
+        "eng": "My wife has very expensive tastes.",
+        "ru": "У моей жены очень дорогие вкусы.",
+        "learn": 0
+      },
+      {
+        "eng": "The house was too big and expensive to run.",
+        "ru": "Дом был слишком велик и дорог в эксплуатации.",
+        "learn": 0
+      },
+      {
+        "eng": "The car is far too expensive.",
+        "ru": "Этот автомобиль — слишком уж дорогой.",
+        "learn": 1
+      },
+      {
+        "eng": "The curtains are made of expensive fabric.",
+        "ru": "Эти шторы сшиты из дорогой ткани.",
+        "learn": 0
+      },
+      {
+        "eng": "The house is expensive because it's in a prime location.",
+        "ru": "Дом стоит дорого, потому что располагается в отличном месте.",
+        "learn": 0
+      },
+      {
+        "eng": "They furnished the room with very expensive tables and chairs.",
+        "ru": "Они обставили комнату очень дорогими столами и стульями.",
+        "learn": 0
+      },
+      {
+        "eng": "Everything was so damn expensive.",
+        "ru": "Всё было так чертовски дорого.",
+        "learn": 0
+      },
+      {
+        "eng": "The tickets were wicked expensive.",
+        "ru": "Билеты были чрезвычайно дорогими.",
+        "learn": 0
+      },
+      {
+        "eng": "The car was an expensive purchase.",
+        "ru": "Этот автомобиль был дорогостоящей покупкой / дорогим приобретением.",
+        "learn": 0
+      },
+      {
+        "eng": "The best grades of tea are expensive.",
+        "ru": "Лучшие сорта чая стоят дорого.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you have another one that's less expensive?",
+        "ru": "У вас есть другой, подешевле /не такой дорогой/?",
+        "learn": 0
+      },
+      {
+        "eng": "Her husband had expensive tastes (=liked expensive things).",
+        "ru": "У её мужа были изысканные вкусы (т.е. он любил дорогие вещи).",
+        "learn": 0
+      },
+      {
+        "eng": "a pair of expensive handmade shoes",
+        "ru": "пара дорогой обуви ручной работы",
+        "learn": 0
+      },
+      {
+        "eng": "He drives an expensive automobile.",
+        "ru": "Он ездит на дорогом автомобиле.",
+        "learn": 0
+      },
+      {
+        "eng": "The discs are expensive to fabricate.",
+        "ru": "Изготовление таких дисков стоит дорого.",
+        "learn": 0
+      },
+      {
+        "eng": "The lights were expensive to install.",
+        "ru": "Установка освещения была дорогостоящей.",
+        "learn": 0
+      },
+      {
+        "eng": "Either way, it's going to be expensive.",
+        "ru": "В любом случае, это будет дорого.",
+        "learn": 0
+      },
+      {
+        "eng": "an expensive piece of medical equipment",
+        "ru": "дорогое медицинское оборудование",
+        "learn": 0
+      },
+      {
+        "eng": "She was decked out in expensive clothes.",
+        "ru": "На ней была дорогая одежда.",
+        "learn": 0
+      },
+      {
+        "eng": "It's rather expensive, but what the heck.",
+        "ru": "Это, конечно, дороговато, но чёрт с ним. (всё равно куплю)",
+        "learn": 0
+      },
+      {
+        "eng": "women wearing expensive jewelry and minks",
+        "ru": "женщины в дорогих украшениях и норковых шубах",
+        "learn": 0
+      },
+      {
+        "eng": "I have a fondness for expensive chocolate.",
+        "ru": "Я питаю слабость к дорогому шоколаду.",
+        "learn": 0
+      }
+    ]
+  }
 }

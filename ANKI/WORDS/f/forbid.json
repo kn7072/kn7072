@@ -1,63 +1,116 @@
 {
-    "forbid": {
-        "comment": [
-            "bid",
-            "forbidden"
-        ],
-        "translate": "запрещать",
-        "transcription": "|fərˈbɪd|",
-        "antonyms": [],
-        "mnemonic": [
-            "forbid [фэ'бид] запретить - (В обид-у) кошку не дам, запрещаю её усыплять.",
-            "bid [bıd]., forbid [fə'bıd]\n***\nПРЕДЛОЖУ я цену - без обид. (это) bid\nЯ ПРИГЛАШАЮ - давай без обид. (это) bid\nМы ПРОСТИМСЯ без обид. (это) bid\nМоя ставка, цена выиграла - без обид. (это) bid\n***\nНе будешь ЗАПРЕЩАТЬ - не будет обид. (это) forbid"
-        ],
-        "examples": [
-            "I forbid you to go!",
-            "Time forbids to do it.",
-            "I am forbidden tobacco.",
-            "She was forbidden by her parents to marry him.",
-            "I forbid you to call me late at night.",
-            "God forbid!",
-            "My religious beliefs forbid the drinking of alcohol.",
-            "My sense of tact forbids an honest answer.",
-            "God forbid that this should ever happen again.",
-            "Women are forbidden from going out without a veil.",
-            "He was forbidden to leave the house, as a punishment.",
-            "They were strictly forbidden to engage in any business.",
-            "The museum forbids flash photography.",
-            "Lack of space forbids listing the names of all those who contributed.",
-            "She was forbidden from marrying him.",
-            "The by-laws forbid playing ball games in the public gardens.",
-            "College statutes forbid drinking on campus.",
-            "'Supposing I had an accident.' 'God forbid!'"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я запрещаю тебе идти!",
-            "Время не позволяет этого сделать.",
-            "Мне запретили табак.",
-            "Её родители не позволили ей выйти за него замуж.",
-            "Я запрещаю тебе звонить мне поздно ночью.",
-            "избави бог!",
-            "Мои религиозные убеждения запрещают употреблять алкоголь.",
-            "Чувство такта не позволяет мне ответить честно.",
-            "Не дай Бог, если это когда-нибудь случится снова.",
-            "Женщинам запрещено выходить на улицу без вуали.",
-            "В качестве наказания, ему было запрещено покидать дом.",
-            "Им было строго запрещено заниматься любым бизнесом.",
-            "В музее запрещается фотографировать со вспышкой.",
-            "Недостаток места (на табличке, листе) не позволяет перечислить имена всех, кто внес свой вклад.",
-            "Ей было запрещено выходить за него замуж.",
-            "Местные законы запрещают игры с мячом в общественных парках.",
-            "Устав колледжа запрещает распитие спиртных напитков на его территории.",
-            "— Предположим, я попал в аварию... — Боже упаси!"
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "Инфинитив_-_сложное_дополнение(после_глаголов,_выражающих_побуждение_(приказ,_просьбу,_разрешение,_предупреждение))",
-            "Инфинитив",
-            "Сложное_дополнение"
-        ]
-    }
+  "forbid": {
+    "comment": [
+      "forbade |fərˈbæd|,                                          forbidden |fərˈbɪdən|",
+      "bid",
+      "forbidden"
+    ],
+    "translate": "запрещать",
+    "transcription": "|fərˈbɪd|",
+    "antonyms": [],
+    "mnemonic": [
+      "forbid [фэ'бид] запретить - (В обид-у) кошку не дам, запрещаю её усыплять.",
+      "bid [bıd]., forbid [fə'bıd]\n***\nПРЕДЛОЖУ я цену - без обид. (это) bid\nЯ ПРИГЛАШАЮ - давай без обид. (это) bid\nМы ПРОСТИМСЯ без обид. (это) bid\nМоя ставка, цена выиграла - без обид. (это) bid\n***\nНе будешь ЗАПРЕЩАТЬ - не будет обид. (это) forbid"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "Инфинитив_-_сложное_дополнение(после_глаголов,_выражающих_побуждение_(приказ,_просьбу,_разрешение,_предупреждение))",
+      "Инфинитив",
+      "Сложное_дополнение",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I forbid you to go!",
+        "ru": "Я запрещаю тебе идти!",
+        "learn": 0
+      },
+      {
+        "eng": "Time forbids to do it.",
+        "ru": "Время не позволяет этого сделать.",
+        "learn": 0
+      },
+      {
+        "eng": "I am forbidden tobacco.",
+        "ru": "Мне запретили табак.",
+        "learn": 1
+      },
+      {
+        "eng": "She was forbidden by her parents to marry him.",
+        "ru": "Её родители не позволили ей выйти за него замуж.",
+        "learn": 0
+      },
+      {
+        "eng": "I forbid you to call me late at night.",
+        "ru": "Я запрещаю тебе звонить мне поздно ночью.",
+        "learn": 0
+      },
+      {
+        "eng": "God forbid!",
+        "ru": "избави бог!",
+        "learn": 0
+      },
+      {
+        "eng": "My religious beliefs forbid the drinking of alcohol.",
+        "ru": "Мои религиозные убеждения запрещают употреблять алкоголь.",
+        "learn": 1
+      },
+      {
+        "eng": "My sense of tact forbids an honest answer.",
+        "ru": "Чувство такта не позволяет мне ответить честно.",
+        "learn": 1
+      },
+      {
+        "eng": "God forbid that this should ever happen again.",
+        "ru": "Не дай Бог, если это когда-нибудь случится снова.",
+        "learn": 0
+      },
+      {
+        "eng": "Women are forbidden from going out without a veil.",
+        "ru": "Женщинам запрещено выходить на улицу без вуали.",
+        "learn": 1
+      },
+      {
+        "eng": "He was forbidden to leave the house, as a punishment.",
+        "ru": "В качестве наказания, ему было запрещено покидать дом.",
+        "learn": 1
+      },
+      {
+        "eng": "They were strictly forbidden to engage in any business.",
+        "ru": "Им было строго запрещено заниматься любым бизнесом.",
+        "learn": 1
+      },
+      {
+        "eng": "The museum forbids flash photography.",
+        "ru": "В музее запрещается фотографировать со вспышкой.",
+        "learn": 1
+      },
+      {
+        "eng": "Lack of space forbids listing the names of all those who contributed.",
+        "ru": "Недостаток места (на табличке, листе) не позволяет перечислить имена всех, кто внес свой вклад.",
+        "learn": 0
+      },
+      {
+        "eng": "She was forbidden from marrying him.",
+        "ru": "Ей было запрещено выходить за него замуж.",
+        "learn": 0
+      },
+      {
+        "eng": "The by-laws forbid playing ball games in the public gardens.",
+        "ru": "Местные законы запрещают игры с мячом в общественных парках.",
+        "learn": 0
+      },
+      {
+        "eng": "College statutes forbid drinking on campus.",
+        "ru": "Устав колледжа запрещает распитие спиртных напитков на его территории.",
+        "learn": 1
+      },
+      {
+        "eng": "'Supposing I had an accident.' 'God forbid!'",
+        "ru": "— Предположим, я попал в аварию... — Боже упаси!",
+        "learn": 0
+      }
+    ]
+  }
 }

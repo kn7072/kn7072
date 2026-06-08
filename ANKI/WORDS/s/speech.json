@@ -1,84 +1,170 @@
 {
-    "speech": {
-        "comment": [
-            "speed",
-            "peer",
-            "peel"
-        ],
-        "translate": "речь, выступление, слова, язык, спич, речевой",
-        "transcription": " |spiːtʃ|",
-        "antonyms": [],
-        "mnemonic": [
-            "speech [спи:ч] речь - В своей речи он призвал (спичками) поджечь их село."
-        ],
-        "examples": [
-            "I lost my power of speech.",
-            "I understood little in his speech.",
-            "His speech was gappy.",
-            "He is foreigner by his speech.",
-            "He spiked the speech with humour.",
-            "Did his speech come across?",
-            "Only humans are capable of speech.",
-            "She has to make a speech at the convention.",
-            "His speech was all rot.",
-            "I detected a slight accent in his speech.",
-            "Hamlet's longest speech",
-            "How did your speech go down?",
-            "He gave a long, flowery speech.",
-            "He had to shorten the speech.",
-            "I had to interpret the speech to them.",
-            "She worked a few jokes into her speech.",
-            "The speech crowned the meeting.",
-            "I missed the point of the speech.",
-            "Bob's speech was slurred, and he sounded drunk.",
-            "Music tricked his speech.",
-            "His speech was inarticulate.",
-            "He gave an effective speech.",
-            "His speech swayed the voters.",
-            "He was startled beyond speech.",
-            "His speech needed gingering up.",
-            "He has lost the power of speech.",
-            "a staunch defender of free speech",
-            "The speech drew out interminably.",
-            "The noise drowned out her speech.",
-            "His angry speech inflamed the mob."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я потерял дар речи.",
-            "Я мало что понял в его речи.",
-            "Он не выговаривал некоторые звуки.",
-            "Судя по произношению, он иностранец.",
-            "Он оживил свою речь шутками.",
-            "Его речь была понятна?",
-            "Только люди способны разговаривать.",
-            "Она должна выступить на съезде.",
-            "Он нёс абсолютнейшую чепуху.",
-            "Я уловил в его речи лёгкий акцент.",
-            "самый длинный монолог Гамлета",
-            "Как приняли твою речь?",
-            "Он выступил с длинной, цветистой речью.",
-            "Ему пришлось сократить речь.",
-            "Мне пришлось перевести им эту речь.",
-            "Она вставила несколько шуток в свою речь.",
-            "Это выступление увенчало встречу.",
-            "Я потерял суть разговора /выступления/.",
-            "Речь Боба была невнятной и как будто нетрезвой.",
-            "Своё выступление он украсил музыкальными фрагментами.",
-            "Его речь была невразумительной.",
-            "Он произнёс эффектную речь.",
-            "Его речь оказала влияние на избирателей.",
-            "От изумления он потерял дар речи.",
-            "Его речь нужно было немного оживить.",
-            "Он потерял дар речи.",
-            "стойкий защитник свободы слова",
-            "Речь тянулась без конца.",
-            "Шум заглушил её речь.",
-            "Его гневная речь распалила толпу."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "speech": {
+    "comment": [
+      "speed",
+      "peer",
+      "peel"
+    ],
+    "translate": "речь, выступление, слова, язык, спич, речевой",
+    "transcription": " |spiːtʃ|",
+    "antonyms": [],
+    "mnemonic": [
+      "speech [спи:ч] речь - В своей речи он призвал (спичками) поджечь их село."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I lost my power of speech.",
+        "ru": "Я потерял дар речи.",
+        "learn": 0
+      },
+      {
+        "eng": "I understood little in his speech.",
+        "ru": "Я мало что понял в его речи.",
+        "learn": 1
+      },
+      {
+        "eng": "His speech was gappy.",
+        "ru": "Он не выговаривал некоторые звуки.",
+        "learn": 0
+      },
+      {
+        "eng": "He is foreigner by his speech.",
+        "ru": "Судя по произношению, он иностранец.",
+        "learn": 1
+      },
+      {
+        "eng": "He spiked the speech with humour.",
+        "ru": "Он оживил свою речь шутками.",
+        "learn": 0
+      },
+      {
+        "eng": "Did his speech come across?",
+        "ru": "Его речь была понятна?",
+        "learn": 0
+      },
+      {
+        "eng": "Only humans are capable of speech.",
+        "ru": "Только люди способны разговаривать.",
+        "learn": 0
+      },
+      {
+        "eng": "She has to make a speech at the convention.",
+        "ru": "Она должна выступить на съезде.",
+        "learn": 0
+      },
+      {
+        "eng": "His speech was all rot.",
+        "ru": "Он нёс абсолютнейшую чепуху.",
+        "learn": 0
+      },
+      {
+        "eng": "I detected a slight accent in his speech.",
+        "ru": "Я уловил в его речи лёгкий акцент.",
+        "learn": 1
+      },
+      {
+        "eng": "Hamlet's longest speech",
+        "ru": "самый длинный монолог Гамлета",
+        "learn": 0
+      },
+      {
+        "eng": "How did your speech go down?",
+        "ru": "Как приняли твою речь?",
+        "learn": 0
+      },
+      {
+        "eng": "He gave a long, flowery speech.",
+        "ru": "Он выступил с длинной, цветистой речью.",
+        "learn": 0
+      },
+      {
+        "eng": "He had to shorten the speech.",
+        "ru": "Ему пришлось сократить речь.",
+        "learn": 0
+      },
+      {
+        "eng": "I had to interpret the speech to them.",
+        "ru": "Мне пришлось перевести им эту речь.",
+        "learn": 0
+      },
+      {
+        "eng": "She worked a few jokes into her speech.",
+        "ru": "Она вставила несколько шуток в свою речь.",
+        "learn": 0
+      },
+      {
+        "eng": "The speech crowned the meeting.",
+        "ru": "Это выступление увенчало встречу.",
+        "learn": 0
+      },
+      {
+        "eng": "I missed the point of the speech.",
+        "ru": "Я потерял суть разговора /выступления/.",
+        "learn": 0
+      },
+      {
+        "eng": "Bob's speech was slurred, and he sounded drunk.",
+        "ru": "Речь Боба была невнятной и как будто нетрезвой.",
+        "learn": 0
+      },
+      {
+        "eng": "Music tricked his speech.",
+        "ru": "Своё выступление он украсил музыкальными фрагментами.",
+        "learn": 0
+      },
+      {
+        "eng": "His speech was inarticulate.",
+        "ru": "Его речь была невразумительной.",
+        "learn": 0
+      },
+      {
+        "eng": "He gave an effective speech.",
+        "ru": "Он произнёс эффектную речь.",
+        "learn": 0
+      },
+      {
+        "eng": "His speech swayed the voters.",
+        "ru": "Его речь оказала влияние на избирателей.",
+        "learn": 0
+      },
+      {
+        "eng": "He was startled beyond speech.",
+        "ru": "От изумления он потерял дар речи.",
+        "learn": 0
+      },
+      {
+        "eng": "His speech needed gingering up.",
+        "ru": "Его речь нужно было немного оживить.",
+        "learn": 0
+      },
+      {
+        "eng": "He has lost the power of speech.",
+        "ru": "Он потерял дар речи.",
+        "learn": 1
+      },
+      {
+        "eng": "a staunch defender of free speech",
+        "ru": "стойкий защитник свободы слова",
+        "learn": 0
+      },
+      {
+        "eng": "The speech drew out interminably.",
+        "ru": "Речь тянулась без конца.",
+        "learn": 0
+      },
+      {
+        "eng": "The noise drowned out her speech.",
+        "ru": "Шум заглушил её речь.",
+        "learn": 0
+      },
+      {
+        "eng": "His angry speech inflamed the mob.",
+        "ru": "Его гневная речь распалила толпу.",
+        "learn": 0
+      }
+    ]
+  }
 }

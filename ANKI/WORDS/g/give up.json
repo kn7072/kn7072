@@ -1,39 +1,220 @@
 {
-    "give up": {
-        "comment": [],
-        "translate": "1) Сдаваться, прекращать попытки 2) Бросать (привычку, деятельность) ",
-        "transcription": " |ˈɡɪv ʌp|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He never gives up on his dreams.",
-            "He gave up smoking last year.",
-            "Don't give up — keep trying!",
-            "I gave up sugar six months ago.",
-            "They gave up looking for the keys.",
-            "They gave up their seats for the elderly.",
-            "She gave up coffee for health reasons.",
-            "I'm not giving up without a fight.",
-            "He gave up his job to travel.",
-            "She gave up after three attempts."
-        ],
-        "example_translate": [
-            "Он никогда не сдаётся в своих мечтах.",
-            "Он бросил курить в прошлом году.",
-            "Не сдавайся — продолжай пытаться!",
-            "Я отказался от сахара шесть месяцев назад.",
-            "Они прекратили искать ключи.",
-            "Они уступили свои места пожилым.",
-            "Она отказалась от кофе по состоянию здоровья.",
-            "Я не сдамся без борьбы.",
-            "Он оставил работу, чтобы путешествовать.",
-            "Она сдалась после трёх попыток."
-        ],
-        "synonyms": "Сдаваться, прекращать попытки - surrender, quit, abandon\nБросать (привычку, деятельность) - quit, stop, abandon\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "give up": {
+    "comment": [],
+    "translate": "1) Сдаваться, прекращать попытки 2) Бросать (привычку, деятельность) ",
+    "transcription": " |ˈɡɪv ʌp|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Сдаваться, прекращать попытки - surrender, quit, abandon",
+      "Бросать (привычку, деятельность) - quit, stop, abandon"
+    ],
+    "groups": [
+      "phrasal_verb",
+      "gerund_after_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "He never gives up on his dreams.",
+        "ru": "Он никогда не сдаётся в своих мечтах.",
+        "learn": 1
+      },
+      {
+        "eng": "He gave up smoking last year.",
+        "ru": "Он бросил курить в прошлом году.",
+        "learn": 1
+      },
+      {
+        "eng": "Don't give up — keep trying!",
+        "ru": "Не сдавайся — продолжай пытаться!",
+        "learn": 1
+      },
+      {
+        "eng": "I gave up sugar six months ago.",
+        "ru": "Я отказался от сахара шесть месяцев назад.",
+        "learn": 1
+      },
+      {
+        "eng": "They gave up looking for the keys.",
+        "ru": "Они прекратили искать ключи.",
+        "learn": 1
+      },
+      {
+        "eng": "They gave up their seats for the elderly.",
+        "ru": "Они уступили свои места пожилым.",
+        "learn": 1
+      },
+      {
+        "eng": "She gave up coffee for health reasons.",
+        "ru": "Она отказалась от кофе по состоянию здоровья.",
+        "learn": 1
+      },
+      {
+        "eng": "I'm not giving up without a fight.",
+        "ru": "Я не сдамся без борьбы.",
+        "learn": 1
+      },
+      {
+        "eng": "He gave up his job to travel.",
+        "ru": "Он оставил работу, чтобы путешествовать.",
+        "learn": 1
+      },
+      {
+        "eng": "She gave up after three attempts.",
+        "ru": "Она сдалась после трёх попыток.",
+        "learn": 1
+      },
+      {
+        "eng": "Don't give up without even trying.",
+        "ru": "Не сдавайся, даже не попробовав.",
+        "learn": 0
+      },
+      {
+        "eng": "It is never too late to give up smoking.",
+        "ru": "Никогда не поздно бросить курить.",
+        "learn": 1
+      },
+      {
+        "eng": "I give up. What's the answer?",
+        "ru": "Я сдаюсь. Какой ответ?",
+        "learn": 0
+      },
+      {
+        "eng": "He is given up by the doctors.",
+        "ru": "Врачи от него отказались.",
+        "learn": 0
+      },
+      {
+        "eng": "I hope you won't give up playing the piano.",
+        "ru": "Я надеюсь, что Вы не прекратите играть на пианино.",
+        "learn": 0
+      },
+      {
+        "eng": "It's hard to give up the drinking habit without help.",
+        "ru": "Без посторонней помощи трудно бросить пить.",
+        "learn": 0
+      },
+      {
+        "eng": "She could not give up her canaries.",
+        "ru": "Она не могла оставить своих канареек.",
+        "learn": 0
+      },
+      {
+        "eng": "You can't give up yet!",
+        "ru": "Тебе ещё рано сдаваться!",
+        "learn": 0
+      },
+      {
+        "eng": "Why don't you give up smoking?",
+        "ru": "Почему бы тебе не бросить курить?",
+        "learn": 0
+      },
+      {
+        "eng": "I'd sooner die than give up.",
+        "ru": "Я скорее умру, чем сдамся.",
+        "learn": 0
+      },
+      {
+        "eng": "Come along! Don't give up yet!",
+        "ru": "Идёмте! Рано ещё сдаваться!",
+        "learn": 0
+      },
+      {
+        "eng": "The woman gave up her lover to save her marriage.",
+        "ru": "Женщина порвала с любовником ради сохранения брака.",
+        "learn": 0
+      },
+      {
+        "eng": "I did want a holiday abroad, but we've had to give up the idea.",
+        "ru": "Я действительно хотел провести отпуск за границей, но нам пришлось отказаться от этой идеи.",
+        "learn": 0
+      },
+      {
+        "eng": "Pride would not allow her to give up.",
+        "ru": "Гордость не позволит ей сдаться.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a burnt-out case and had to give up his job.",
+        "ru": "Он, что называется, сгорел на работе и был вынужден уволиться.",
+        "learn": 0
+      },
+      {
+        "eng": "You shouldn't give up so easily.",
+        "ru": "Вам не стоит так легко сдаваться.",
+        "learn": 0
+      },
+      {
+        "eng": "You can't give up your job just like that!",
+        "ru": "Нельзя же вот так просто взять и бросить работу!",
+        "learn": 0
+      },
+      {
+        "eng": "We had to give up the castle to the enemy.",
+        "ru": "Нам пришлось сдать крепость неприятелю.",
+        "learn": 0
+      },
+      {
+        "eng": "The forenoons were given up to business.",
+        "ru": "Время до полудня было посвящено делам.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll never give up as long as I'm still breathing.",
+        "ru": "Я не ни за что не сдамся, пока ещё дышу.",
+        "learn": 0
+      },
+      {
+        "eng": "He refuses to give up his quest to discover the truth.",
+        "ru": "Он не желает отказываться от поисков истины.",
+        "learn": 0
+      },
+      {
+        "eng": "We give up our cruise, then, after all?",
+        "ru": "Значит, в итоге мы отказываемся от нашего путешествия?",
+        "learn": 0
+      },
+      {
+        "eng": "He won't give up until he's won the argument.",
+        "ru": "Он не сдаётся до тех пор, пока не выиграет спор.",
+        "learn": 0
+      },
+      {
+        "eng": "Sheer exhaustion forced him to give up.",
+        "ru": "Крайнее изнеможение заставило его сдаться.",
+        "learn": 0
+      },
+      {
+        "eng": "He had an inclination to give up too easily",
+        "ru": "Он имел склонность сдаваться слишком легко",
+        "learn": 1
+      },
+      {
+        "eng": "We do not give up the names of our contributors.",
+        "ru": "Мы не раскрываем имена наших спонсоров.",
+        "learn": 0
+      },
+      {
+        "eng": "Many people were forced to give up working the land.",
+        "ru": "Многие люди вынуждены были отказаться от обработки земли.",
+        "learn": 0
+      },
+      {
+        "eng": "I can only go so far before I have to give up.",
+        "ru": "Я могу дойти лишь до этих пор, а потом мне придётся сдаться.",
+        "learn": 0
+      },
+      {
+        "eng": "The family refused to give up any of their land.",
+        "ru": "Семья не захотела уступать ни пяди своей земли.",
+        "learn": 0
+      },
+      {
+        "eng": "The expense was the clincher that persuaded us to give up the enterprise.",
+        "ru": "Расходы стали решающим фактором, убедившим нас закрыть предприятие.",
+        "learn": 0
+      }
+    ]
+  }
 }

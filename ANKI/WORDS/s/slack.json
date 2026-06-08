@@ -1,70 +1,144 @@
 {
-    "slack": {
-        "comment": [],
-        "translate": "слабина, зазор, затишье, люфт, вялый, слабый, несильный, ослаблять, бить баклуши",
-        "transcription": " |slæk|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I slacked my pace.",
-            "The rain slacked and died.",
-            "He slacks his attention.",
-            "The wind slacked off a bit.",
-            "After such a trip he felt absolutely slack.",
-            "He showed himself as a very slack workman.",
-            "Take up the slack of a rope!",
-            "The rope suddenly went slack.",
-            "His broken arm hung slack at his side.",
-            "The negotiations slack, that's quite dangerous.",
-            "They need to stop slacking and get down to work.",
-            "Keep the rope slack until I tell you to pull it.",
-            "If Sue gets a job, Mike will have to take up the slack at home.",
-            "Hey, cut me some slack, man, I'm only a few bucks short.",
-            "At the end of the academic year he felt very tired and slacked his efforts in his studies.",
-            "He slackened his pace as he got tired.",
-            "Business remained slack throughout the day.",
-            "Take the horse to the stable, and slack his girths.",
-            "There is still some slack in the budget.",
-            "Suddenly they were in a slack and the water was motionless.",
-            "She had changed into a green knitted slack suit.",
-            "He was accused of slacking and taking too many holidays.",
-            "He accused the government of slack supervision of nuclear technology.",
-            "He hadn't counted on the slackness of the rope.",
-            "The skipper ordered the crew to slack off the sheets on the mainsail.",
-            "Slack defending by Real Madrid allowed Manchester United to score."
-        ],
-        "example_translate": [
-            "Я замедлил шаг.",
-            "Дождь пошёл реже, а потом совсем прекратился.",
-            "Он не обращает внимания. / Он невнимателен.",
-            "Ветер немного стих.",
-            "После такой поездки он чувствовал себя совершенно разбитым.",
-            "Он оказался очень нерадивым работником.",
-            "Подтяни провисшую часть каната!",
-            "Канат внезапно ослаб.",
-            "Его сломанная рука вяло болталась сбоку.",
-            "Переговоры идут вяло, и это довольно опасно.",
-            "Им нужно перестать лениться /филонить, сачковать/ и взяться за работу.",
-            "Не натягивай пока верёвку., потянешь, когда я скажу.",
-            "Если Сью устроится на работу, Майку придётся вести домашнее хозяйство.",
-            "Слушай, мужик, ну войди в положение: мне всего-то несколько баксов не хватает.",
-            "К концу учебного года он очень устал и снизил интенсивность занятий.",
-            "Устав, он замедлил шаг.",
-            "Весь день дела по-прежнему шли вяло.",
-            "Отведи лошадь в конюшню и ослабь подпругу.",
-            "В бюджете ещё есть кое-какой неиспользованный резерв.",
-            "Внезапно они оказались в застое, и вода стала неподвижной.",
-            "Она переоделась в трикотажный брючный костюм зелёного цвета.",
-            "Его обвинили в том, что он бездельничает и берёт слишком много отпусков.",
-            "Он обвинил правительство в слабом надзоре за ядерными технологиями.",
-            "Он совсем не рассчитывал, что канат провиснет.",
-            "Капитан приказал экипажу ослабить /травить/ шкоты на гроте.",
-            "Слабая защита \"Реала\" позволила \"Манчестер Юнайтед\" забить."
-        ],
-        "synonyms": [],
-        "groups": [
-            "all_words"
-        ],
-        "stars": 0
-    }
+  "slack": {
+    "comment": [],
+    "translate": "слабина, зазор, затишье, люфт, вялый, слабый, несильный, ослаблять, бить баклуши",
+    "transcription": " |slæk|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "groups": [],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "I slacked my pace.",
+        "ru": "Я замедлил шаг.",
+        "learn": 0
+      },
+      {
+        "eng": "The rain slacked and died.",
+        "ru": "Дождь пошёл реже, а потом совсем прекратился.",
+        "learn": 0
+      },
+      {
+        "eng": "He slacks his attention.",
+        "ru": "Он не обращает внимания. / Он невнимателен.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind slacked off a bit.",
+        "ru": "Ветер немного стих.",
+        "learn": 0
+      },
+      {
+        "eng": "After such a trip he felt absolutely slack.",
+        "ru": "После такой поездки он чувствовал себя совершенно разбитым.",
+        "learn": 0
+      },
+      {
+        "eng": "He showed himself as a very slack workman.",
+        "ru": "Он оказался очень нерадивым работником.",
+        "learn": 1
+      },
+      {
+        "eng": "Take up the slack of a rope!",
+        "ru": "Подтяни провисшую часть каната!",
+        "learn": 0
+      },
+      {
+        "eng": "The rope suddenly went slack.",
+        "ru": "Канат внезапно ослаб.",
+        "learn": 0
+      },
+      {
+        "eng": "His broken arm hung slack at his side.",
+        "ru": "Его сломанная рука вяло болталась сбоку.",
+        "learn": 0
+      },
+      {
+        "eng": "The negotiations slack, that's quite dangerous.",
+        "ru": "Переговоры идут вяло, и это довольно опасно.",
+        "learn": 0
+      },
+      {
+        "eng": "They need to stop slacking and get down to work.",
+        "ru": "Им нужно перестать лениться /филонить, сачковать/ и взяться за работу.",
+        "learn": 0
+      },
+      {
+        "eng": "Keep the rope slack until I tell you to pull it.",
+        "ru": "Не натягивай пока верёвку., потянешь, когда я скажу.",
+        "learn": 0
+      },
+      {
+        "eng": "If Sue gets a job, Mike will have to take up the slack at home.",
+        "ru": "Если Сью устроится на работу, Майку придётся вести домашнее хозяйство.",
+        "learn": 0
+      },
+      {
+        "eng": "Hey, cut me some slack, man, I'm only a few bucks short.",
+        "ru": "Слушай, мужик, ну войди в положение: мне всего-то несколько баксов не хватает.",
+        "learn": 0
+      },
+      {
+        "eng": "At the end of the academic year he felt very tired and slacked his efforts in his studies.",
+        "ru": "К концу учебного года он очень устал и снизил интенсивность занятий.",
+        "learn": 0
+      },
+      {
+        "eng": "He slackened his pace as he got tired.",
+        "ru": "Устав, он замедлил шаг.",
+        "learn": 0
+      },
+      {
+        "eng": "Business remained slack throughout the day.",
+        "ru": "Весь день дела по-прежнему шли вяло.",
+        "learn": 0
+      },
+      {
+        "eng": "Take the horse to the stable, and slack his girths.",
+        "ru": "Отведи лошадь в конюшню и ослабь подпругу.",
+        "learn": 0
+      },
+      {
+        "eng": "There is still some slack in the budget.",
+        "ru": "В бюджете ещё есть кое-какой неиспользованный резерв.",
+        "learn": 0
+      },
+      {
+        "eng": "Suddenly they were in a slack and the water was motionless.",
+        "ru": "Внезапно они оказались в застое, и вода стала неподвижной.",
+        "learn": 0
+      },
+      {
+        "eng": "She had changed into a green knitted slack suit.",
+        "ru": "Она переоделась в трикотажный брючный костюм зелёного цвета.",
+        "learn": 0
+      },
+      {
+        "eng": "He was accused of slacking and taking too many holidays.",
+        "ru": "Его обвинили в том, что он бездельничает и берёт слишком много отпусков.",
+        "learn": 0
+      },
+      {
+        "eng": "He accused the government of slack supervision of nuclear technology.",
+        "ru": "Он обвинил правительство в слабом надзоре за ядерными технологиями.",
+        "learn": 0
+      },
+      {
+        "eng": "He hadn't counted on the slackness of the rope.",
+        "ru": "Он совсем не рассчитывал, что канат провиснет.",
+        "learn": 0
+      },
+      {
+        "eng": "The skipper ordered the crew to slack off the sheets on the mainsail.",
+        "ru": "Капитан приказал экипажу ослабить /травить/ шкоты на гроте.",
+        "learn": 0
+      },
+      {
+        "eng": "Slack defending by Real Madrid allowed Manchester United to score.",
+        "ru": "Слабая защита \"Реала\" позволила \"Манчестер Юнайтед\" забить.",
+        "learn": 0
+      }
+    ]
+  }
 }

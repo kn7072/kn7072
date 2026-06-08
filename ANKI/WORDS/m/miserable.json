@@ -1,78 +1,155 @@
 {
-    "miserable": {
-        "comment": [
-            "premise",
-            "premises",
-            "misery"
-        ],
-        "translate": "несчастный, жалкий, убогий, плохой, печальный, скудный",
-        "transcription": " |ˈmɪzrəbl|",
-        "antonyms": [],
-        "mnemonic": [
-            "miser ['maɪzə]\nmiserable ['mɪzərəb (ə) l] - несчастный, скверный,\nпозорный, жалкий.\nmiserably ['mɪzərəblɪ] - скудно, жалко, позорно.\nmiserly ['maɪzəlɪ] - скупой, мизерный.\nmisery ['mɪzərɪ] - страдание, беда, невзгоды.\n***\nКупил СКУПОЙ экономайзер. (это) miser"
-        ],
-        "examples": [
-            "Jan looks really miserable.",
-            "It was a miserable grey day.",
-            "I've been so miserable since she left me.",
-            "He's a miserable old devil.",
-            "She still looks pretty miserable.",
-            "He felt lonely and miserable after his divorce.",
-            "I hate that miserable SOB.",
-            "He had a miserable childhood.",
-            "The waterfall was reduced to a miserable trickle.",
-            "You look utterly miserable.",
-            "She sat feeling thoroughly miserable.",
-            "I've had a miserable cold for the past week.",
-            "You miserable skunk!",
-            "What a miserable bloody spin he was having. (D. Ballantyne)",
-            "Why do you make yourself miserable by taking on too much work?",
-            "It would be the miserablest and most despicable of all mistakes.",
-            "The team gave a miserable performance.",
-            "Mosquito bites can make life miserable.",
-            "I saw Margaret this morning looking as miserable as sin.",
-            "Many couples make themselves miserable by not communicating.",
-            "He was a lonely, miserable wretch.",
-            "He lived in a miserable little shack.",
-            "Her attempts to learn to drive had been a miserable failure.",
-            "I can hardly afford the rent on my miserable income.",
-            "That miserable toad is lucky to have even a single friend.",
-            "A sudden access of hay fever was making him feel miserable.",
-            "Would it be presumptuous of me to ask why you are so miserable?"
-        ],
-        "example_translate": [
-            "Джен выглядит очень несчастным. / У Яна такой жалкий вид.",
-            "Это был печальный серый день.",
-            "Я был так несчастен, c тех пор как она оставила меня.",
-            "Он несчастный старый бедняга.",
-            "Она по-прежнему выглядит довольно несчастной.",
-            "После развода он чувствовал себя одиноким и несчастным.",
-            "Ненавижу этого жалкого сукина сына /козла, урода и т.п./.",
-            "У него было несчастное детство.",
-            "Водопад превратился в тоненькую струйку.",
-            "Ты выглядишь совершенно несчастным.",
-            "Она сидела, чувствуя себя совершенно несчастной.",
-            "Всю прошлую неделю я был ужасно простужен.",
-            "Подлец ты несчастный!",
-            "Через какие жуткие испытания ему приходилось проходить!",
-            "Зачем ты берёшь на себя столько работы и портишь себе жизнь?",
-            "Это была бы самая непростительная из всех возможных ошибок.",
-            "Команда играла очень плохо.",
-            "Из-за комариных укусов жизнь может стать невыносимой.",
-            "Я сегодня утром видел Маргарет, и выглядела она просто ужасно.",
-            "Многие пары делают друг друга несчастными тем, что не общаются.",
-            "Он был одиноким, несчастным бедолагой.",
-            "Он жил в убогой лачужке.",
-            "Её попытки научиться водить автомобиль потерпели позорную неудачу.",
-            "Моего жалкого заработка едва хватает на квартплату.",
-            "Этому жалкому мерзавцу повезло, что у него есть хотя бы один друг.",
-            "Внезапный приступ сенной лихорадки заставлял его чувствовать себя жалко.",
-            "Не будет ли наглостью с моей стороны спросить, почему вы так печальны?"
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "miserable": {
+    "comment": [
+      "premise",
+      "premises",
+      "misery"
+    ],
+    "translate": "несчастный, жалкий, убогий, плохой, печальный, скудный",
+    "transcription": " |ˈmɪzrəbl|",
+    "antonyms": [],
+    "mnemonic": [
+      "miser ['maɪzə]\nmiserable ['mɪzərəb (ə) l] - несчастный, скверный,\nпозорный, жалкий.\nmiserably ['mɪzərəblɪ] - скудно, жалко, позорно.\nmiserly ['maɪzəlɪ] - скупой, мизерный.\nmisery ['mɪzərɪ] - страдание, беда, невзгоды.\n***\nКупил СКУПОЙ экономайзер. (это) miser"
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Jan looks really miserable.",
+        "ru": "Джен выглядит очень несчастным. / У Яна такой жалкий вид.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a miserable grey day.",
+        "ru": "Это был печальный серый день.",
+        "learn": 1
+      },
+      {
+        "eng": "I've been so miserable since she left me.",
+        "ru": "Я был так несчастен, c тех пор как она оставила меня.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a miserable old devil.",
+        "ru": "Он несчастный старый бедняга.",
+        "learn": 0
+      },
+      {
+        "eng": "She still looks pretty miserable.",
+        "ru": "Она по-прежнему выглядит довольно несчастной.",
+        "learn": 0
+      },
+      {
+        "eng": "He felt lonely and miserable after his divorce.",
+        "ru": "После развода он чувствовал себя одиноким и несчастным.",
+        "learn": 0
+      },
+      {
+        "eng": "I hate that miserable SOB.",
+        "ru": "Ненавижу этого жалкого сукина сына /козла, урода и т.п./.",
+        "learn": 0
+      },
+      {
+        "eng": "He had a miserable childhood.",
+        "ru": "У него было несчастное детство.",
+        "learn": 1
+      },
+      {
+        "eng": "The waterfall was reduced to a miserable trickle.",
+        "ru": "Водопад превратился в тоненькую струйку.",
+        "learn": 0
+      },
+      {
+        "eng": "You look utterly miserable.",
+        "ru": "Ты выглядишь совершенно несчастным.",
+        "learn": 1
+      },
+      {
+        "eng": "She sat feeling thoroughly miserable.",
+        "ru": "Она сидела, чувствуя себя совершенно несчастной.",
+        "learn": 1
+      },
+      {
+        "eng": "I've had a miserable cold for the past week.",
+        "ru": "Всю прошлую неделю я был ужасно простужен.",
+        "learn": 1
+      },
+      {
+        "eng": "You miserable skunk!",
+        "ru": "Подлец ты несчастный!",
+        "learn": 0
+      },
+      {
+        "eng": "What a miserable bloody spin he was having. (D. Ballantyne)",
+        "ru": "Через какие жуткие испытания ему приходилось проходить!",
+        "learn": 0
+      },
+      {
+        "eng": "Why do you make yourself miserable by taking on too much work?",
+        "ru": "Зачем ты берёшь на себя столько работы и портишь себе жизнь?",
+        "learn": 0
+      },
+      {
+        "eng": "It would be the miserablest and most despicable of all mistakes.",
+        "ru": "Это была бы самая непростительная из всех возможных ошибок.",
+        "learn": 0
+      },
+      {
+        "eng": "The team gave a miserable performance.",
+        "ru": "Команда играла очень плохо.",
+        "learn": 0
+      },
+      {
+        "eng": "Mosquito bites can make life miserable.",
+        "ru": "Из-за комариных укусов жизнь может стать невыносимой.",
+        "learn": 0
+      },
+      {
+        "eng": "I saw Margaret this morning looking as miserable as sin.",
+        "ru": "Я сегодня утром видел Маргарет, и выглядела она просто ужасно.",
+        "learn": 0
+      },
+      {
+        "eng": "Many couples make themselves miserable by not communicating.",
+        "ru": "Многие пары делают друг друга несчастными тем, что не общаются.",
+        "learn": 1
+      },
+      {
+        "eng": "He was a lonely, miserable wretch.",
+        "ru": "Он был одиноким, несчастным бедолагой.",
+        "learn": 0
+      },
+      {
+        "eng": "He lived in a miserable little shack.",
+        "ru": "Он жил в убогой лачужке.",
+        "learn": 0
+      },
+      {
+        "eng": "Her attempts to learn to drive had been a miserable failure.",
+        "ru": "Её попытки научиться водить автомобиль потерпели позорную неудачу.",
+        "learn": 0
+      },
+      {
+        "eng": "I can hardly afford the rent on my miserable income.",
+        "ru": "Моего жалкого заработка едва хватает на квартплату.",
+        "learn": 0
+      },
+      {
+        "eng": "That miserable toad is lucky to have even a single friend.",
+        "ru": "Этому жалкому мерзавцу повезло, что у него есть хотя бы один друг.",
+        "learn": 0
+      },
+      {
+        "eng": "A sudden access of hay fever was making him feel miserable.",
+        "ru": "Внезапный приступ сенной лихорадки заставлял его чувствовать себя жалко.",
+        "learn": 0
+      },
+      {
+        "eng": "Would it be presumptuous of me to ask why you are so miserable?",
+        "ru": "Не будет ли наглостью с моей стороны спросить, почему вы так печальны?",
+        "learn": 0
+      }
+    ]
+  }
 }

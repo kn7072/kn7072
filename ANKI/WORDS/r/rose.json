@@ -1,80 +1,166 @@
 {
-    "rose": {
-        "comment": [
-            "arise"
-        ],
-        "translate": "розовый, роза, розетка, розовый цвет",
-        "transcription": " |roʊz|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "White Rose",
-            "The price of milk rose.",
-            "A wind rose.",
-            "Red Rose",
-            "She rose to the level of manager.",
-            "The team rose to the challenge.",
-            "He rose to the rank of major.",
-            "His voice rose in frustration.",
-            "The tide rose and fell.",
-            "Christ rose from the dead.",
-            "His voice rose to a bellow.",
-            "a becoming new shade of rose",
-            "She pinned a rose to her dress.",
-            "She rose gracefully to her feet.",
-            "There is no rose without a thorn.",
-            "The lights dimmed and the curtain rose.",
-            "Growl rose from the mob.",
-            "The waves rose and fell.",
-            "The cliffs rose above them.",
-            "Smoke rose from the chimney.",
-            "He rose up and down sat she.",
-            "Prices rose at a dizzy rate.",
-            "The hail got the rose bushes.",
-            "The noise rose to a crescendo.",
-            "The road gradually rose upward.",
-            "The peasants rose in rebellion.",
-            "The wind rose in the afternoon.",
-            "a yellow rose with a lovely scent",
-            "'I don't understand,' whined Rose.",
-            "The noise rose to a deafening pitch."
-        ],
-        "example_translate": [
-            "Белая роза (эмблема династии Йорков)",
-            "Цена молока выросла.",
-            "Поднялся ветер.",
-            "Алая роза (эмблема династии Ланкастеров)",
-            "Она поднялась до уровня управляющего.",
-            "Команда приняла этот вызов.",
-            "Он дослужился до звания майора.",
-            "В отчаянии он повысил голос.",
-            "Морские волны то поднимались, то опускались.",
-            "Христос воскрес из мёртвых.",
-            "Его голос превратился в звериный рёв. / Он уже не говорил, а орал.",
-            "привлекательный /симпатичный/ новый оттенок розового",
-            "Она приколола к платью розу.",
-            "Она грациозно /изящно/ поднялась на ноги.",
-            "Не бывает роз без шипов.",
-            "Свет (в зале) погас, и занавес поднялся.",
-            "Из толпы был слышен недовольный гул.",
-            "Волны то поднимались, то опускались.",
-            "Скалы возвышались над ними.",
-            "Из трубы поднимался дым.",
-            "Он встал и села она.",
-            "Цены взлетели с головокружительной скоростью.",
-            "Град побил кусты роз.",
-            "Шум достиг своего пика.",
-            "Дорога постепенно поднималась всё выше.",
-            "Крестьяне подняли восстание.",
-            "После полудня поднялся ветер.",
-            "желтая Роза с прекрасным ароматом",
-            "— Я не понимаю, — захныкала Роза.",
-            "Шум сделался оглушительным."
-        ],
-        "synonyms": [],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "rose": {
+    "comment": [
+      "arise"
+    ],
+    "translate": "розовый, роза, розетка, розовый цвет",
+    "transcription": " |roʊz|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "White Rose",
+        "ru": "Белая роза (эмблема династии Йорков)",
+        "learn": 0
+      },
+      {
+        "eng": "The price of milk rose.",
+        "ru": "Цена молока выросла.",
+        "learn": 0
+      },
+      {
+        "eng": "A wind rose.",
+        "ru": "Поднялся ветер.",
+        "learn": 0
+      },
+      {
+        "eng": "Red Rose",
+        "ru": "Алая роза (эмблема династии Ланкастеров)",
+        "learn": 0
+      },
+      {
+        "eng": "She rose to the level of manager.",
+        "ru": "Она поднялась до уровня управляющего.",
+        "learn": 0
+      },
+      {
+        "eng": "The team rose to the challenge.",
+        "ru": "Команда приняла этот вызов.",
+        "learn": 0
+      },
+      {
+        "eng": "He rose to the rank of major.",
+        "ru": "Он дослужился до звания майора.",
+        "learn": 0
+      },
+      {
+        "eng": "His voice rose in frustration.",
+        "ru": "В отчаянии он повысил голос.",
+        "learn": 1
+      },
+      {
+        "eng": "The tide rose and fell.",
+        "ru": "Морские волны то поднимались, то опускались.",
+        "learn": 0
+      },
+      {
+        "eng": "Christ rose from the dead.",
+        "ru": "Христос воскрес из мёртвых.",
+        "learn": 0
+      },
+      {
+        "eng": "His voice rose to a bellow.",
+        "ru": "Его голос превратился в звериный рёв. / Он уже не говорил, а орал.",
+        "learn": 0
+      },
+      {
+        "eng": "a becoming new shade of rose",
+        "ru": "привлекательный /симпатичный/ новый оттенок розового",
+        "learn": 0
+      },
+      {
+        "eng": "She pinned a rose to her dress.",
+        "ru": "Она приколола к платью розу.",
+        "learn": 0
+      },
+      {
+        "eng": "She rose gracefully to her feet.",
+        "ru": "Она грациозно /изящно/ поднялась на ноги.",
+        "learn": 1
+      },
+      {
+        "eng": "There is no rose without a thorn.",
+        "ru": "Не бывает роз без шипов.",
+        "learn": 1
+      },
+      {
+        "eng": "The lights dimmed and the curtain rose.",
+        "ru": "Свет (в зале) погас, и занавес поднялся.",
+        "learn": 0
+      },
+      {
+        "eng": "Growl rose from the mob.",
+        "ru": "Из толпы был слышен недовольный гул.",
+        "learn": 0
+      },
+      {
+        "eng": "The waves rose and fell.",
+        "ru": "Волны то поднимались, то опускались.",
+        "learn": 1
+      },
+      {
+        "eng": "The cliffs rose above them.",
+        "ru": "Скалы возвышались над ними.",
+        "learn": 0
+      },
+      {
+        "eng": "Smoke rose from the chimney.",
+        "ru": "Из трубы поднимался дым.",
+        "learn": 0
+      },
+      {
+        "eng": "He rose up and down sat she.",
+        "ru": "Он встал и села она.",
+        "learn": 0
+      },
+      {
+        "eng": "Prices rose at a dizzy rate.",
+        "ru": "Цены взлетели с головокружительной скоростью.",
+        "learn": 0
+      },
+      {
+        "eng": "The hail got the rose bushes.",
+        "ru": "Град побил кусты роз.",
+        "learn": 0
+      },
+      {
+        "eng": "The noise rose to a crescendo.",
+        "ru": "Шум достиг своего пика.",
+        "learn": 0
+      },
+      {
+        "eng": "The road gradually rose upward.",
+        "ru": "Дорога постепенно поднималась всё выше.",
+        "learn": 0
+      },
+      {
+        "eng": "The peasants rose in rebellion.",
+        "ru": "Крестьяне подняли восстание.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind rose in the afternoon.",
+        "ru": "После полудня поднялся ветер.",
+        "learn": 0
+      },
+      {
+        "eng": "a yellow rose with a lovely scent",
+        "ru": "желтая Роза с прекрасным ароматом",
+        "learn": 1
+      },
+      {
+        "eng": "'I don't understand,' whined Rose.",
+        "ru": "— Я не понимаю, — захныкала Роза.",
+        "learn": 0
+      },
+      {
+        "eng": "The noise rose to a deafening pitch.",
+        "ru": "Шум сделался оглушительным.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,80 +1,166 @@
 {
-    "register": {
-        "comment": [
-            "registration"
-        ],
-        "translate": "регистр, реестр, запись, список, журнал, регистрировать, регистрироваться",
-        "transcription": " |ˈredʒɪstər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "We registered at a hotel.",
-            "We registered our luggage while checking in.",
-            "The clerk recorded their names in the register.",
-            "She registered her new car.",
-            "Did you register the parcel?",
-            "The parts register perfectly.",
-            "The class is full, but you can register for next term.",
-            "She registered as a Republican.",
-            "Such an entry shall be denoted in the register by an asterisk.",
-            "I'd like to register this letter.",
-            "Have you signed the hotel register?",
-            "He registered the birth of his child.",
-            "A surprise that he was unable to hide registered on his face.",
-            "Did you register to vote?",
-            "Her surprise did not register.",
-            "They register an impressive victory.",
-            "The company registered its trademark.",
-            "Police want a national register of DNA samples.",
-            "Did you register any change when I pressed the button?",
-            "Am I listed in your register?",
-            "The thermometer registered 98.6°.",
-            "The car was registered under my name.",
-            "Only 32 cases of the disease have been registered.",
-            "Housebound voters should register early for a postal vote.",
-            "She had told me her name before, but I guess it didn't register.",
-            "In former times, only property owners could be registered as voters.",
-            "He was caught red-handed (=as he was doing something wrong) taking money from the cash register.",
-            "Register of Shipping of the USSR",
-            "Her face registered shock and anger.",
-            "Did this event register in your parents' minds?"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мы зарегистрировались в гостинице.",
-            "Мы сдали свои вещи в багаж во время регистрации.",
-            "Клерк записал их имена в журнал.",
-            "Она зарегистрировала свой новый автомобиль.",
-            "Вы зарегистрировали посылку?",
-            "Детали совпадают с идеальной точностью.",
-            "Все места в классе уже заполнены, но вы можете зарегистрироваться на следующий срок.",
-            "Она записалась в республиканцы.",
-            "Такая запись отмечается в журнале звёздочкой.",
-            "Я бы хотел зарегистрировать это письмо.",
-            "Вы уже расписались в журнале регистрации отеля?",
-            "Он зарегистрировал рождение своего ребёнка.",
-            "На его лице отразилось удивление, которого он не мог скрыть.",
-            "Вы записались на голосование?",
-            "Она не подала виду, что удивлена.",
-            "На их счету — впечатляющая победа.",
-            "Компания зарегистрировала свой товарный знак.",
-            "Полиция хочет создания национального реестра образцов ДНК.",
-            "Зарегистрировали ли вы какие-либо изменения, когда я нажал на кнопку?",
-            "Я указан в твоём списке?",
-            "Термометр показал 98,6°.",
-            "Автомобиль был зарегистрирован на моё имя.",
-            "Зарегистрировано всего тридцать два случая данного заболевания.",
-            "Прикованные к дому избиратели должны зарегистрироваться как можно раньше для голосования по почте.",
-            "Она уже говорила мне своё имя, но я его, наверное, просто не запомнил.",
-            "В прежние времена голосовать могли только землевладельцы.",
-            "Он был пойман с поличным (т.е. в момент совершения преступления), когда воровал деньги из кассы.",
-            "Регистр СССР",
-            "На её лице отразились потрясение и гнев.",
-            "Запечатлелся ли этот случай в памяти ваших родителей?"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "register": {
+    "comment": [
+      "registration"
+    ],
+    "translate": "регистр, реестр, запись, список, журнал, регистрировать, регистрироваться",
+    "transcription": " |ˈredʒɪstər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "We registered at a hotel.",
+        "ru": "Мы зарегистрировались в гостинице.",
+        "learn": 0
+      },
+      {
+        "eng": "We registered our luggage while checking in.",
+        "ru": "Мы сдали свои вещи в багаж во время регистрации.",
+        "learn": 0
+      },
+      {
+        "eng": "The clerk recorded their names in the register.",
+        "ru": "Клерк записал их имена в журнал.",
+        "learn": 1
+      },
+      {
+        "eng": "She registered her new car.",
+        "ru": "Она зарегистрировала свой новый автомобиль.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you register the parcel?",
+        "ru": "Вы зарегистрировали посылку?",
+        "learn": 1
+      },
+      {
+        "eng": "The parts register perfectly.",
+        "ru": "Детали совпадают с идеальной точностью.",
+        "learn": 0
+      },
+      {
+        "eng": "The class is full, but you can register for next term.",
+        "ru": "Все места в классе уже заполнены, но вы можете зарегистрироваться на следующий срок.",
+        "learn": 0
+      },
+      {
+        "eng": "She registered as a Republican.",
+        "ru": "Она записалась в республиканцы.",
+        "learn": 0
+      },
+      {
+        "eng": "Such an entry shall be denoted in the register by an asterisk.",
+        "ru": "Такая запись отмечается в журнале звёздочкой.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd like to register this letter.",
+        "ru": "Я бы хотел зарегистрировать это письмо.",
+        "learn": 0
+      },
+      {
+        "eng": "Have you signed the hotel register?",
+        "ru": "Вы уже расписались в журнале регистрации отеля?",
+        "learn": 0
+      },
+      {
+        "eng": "He registered the birth of his child.",
+        "ru": "Он зарегистрировал рождение своего ребёнка.",
+        "learn": 0
+      },
+      {
+        "eng": "A surprise that he was unable to hide registered on his face.",
+        "ru": "На его лице отразилось удивление, которого он не мог скрыть.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you register to vote?",
+        "ru": "Вы записались на голосование?",
+        "learn": 0
+      },
+      {
+        "eng": "Her surprise did not register.",
+        "ru": "Она не подала виду, что удивлена.",
+        "learn": 0
+      },
+      {
+        "eng": "They register an impressive victory.",
+        "ru": "На их счету — впечатляющая победа.",
+        "learn": 0
+      },
+      {
+        "eng": "The company registered its trademark.",
+        "ru": "Компания зарегистрировала свой товарный знак.",
+        "learn": 0
+      },
+      {
+        "eng": "Police want a national register of DNA samples.",
+        "ru": "Полиция хочет создания национального реестра образцов ДНК.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you register any change when I pressed the button?",
+        "ru": "Зарегистрировали ли вы какие-либо изменения, когда я нажал на кнопку?",
+        "learn": 1
+      },
+      {
+        "eng": "Am I listed in your register?",
+        "ru": "Я указан в твоём списке?",
+        "learn": 0
+      },
+      {
+        "eng": "The thermometer registered 98.6°.",
+        "ru": "Термометр показал 98,6°.",
+        "learn": 0
+      },
+      {
+        "eng": "The car was registered under my name.",
+        "ru": "Автомобиль был зарегистрирован на моё имя.",
+        "learn": 1
+      },
+      {
+        "eng": "Only 32 cases of the disease have been registered.",
+        "ru": "Зарегистрировано всего тридцать два случая данного заболевания.",
+        "learn": 0
+      },
+      {
+        "eng": "Housebound voters should register early for a postal vote.",
+        "ru": "Прикованные к дому избиратели должны зарегистрироваться как можно раньше для голосования по почте.",
+        "learn": 0
+      },
+      {
+        "eng": "She had told me her name before, but I guess it didn't register.",
+        "ru": "Она уже говорила мне своё имя, но я его, наверное, просто не запомнил.",
+        "learn": 0
+      },
+      {
+        "eng": "In former times, only property owners could be registered as voters.",
+        "ru": "В прежние времена голосовать могли только землевладельцы.",
+        "learn": 0
+      },
+      {
+        "eng": "He was caught red-handed (=as he was doing something wrong) taking money from the cash register.",
+        "ru": "Он был пойман с поличным (т.е. в момент совершения преступления), когда воровал деньги из кассы.",
+        "learn": 0
+      },
+      {
+        "eng": "Register of Shipping of the USSR",
+        "ru": "Регистр СССР",
+        "learn": 0
+      },
+      {
+        "eng": "Her face registered shock and anger.",
+        "ru": "На её лице отразились потрясение и гнев.",
+        "learn": 0
+      },
+      {
+        "eng": "Did this event register in your parents' minds?",
+        "ru": "Запечатлелся ли этот случай в памяти ваших родителей?",
+        "learn": 0
+      }
+    ]
+  }
 }

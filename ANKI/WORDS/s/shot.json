@@ -1,84 +1,170 @@
 {
-    "shot": {
-        "comment": [
-            "hot",
-            "hotel",
-            "red-hot"
-        ],
-        "translate": "выстрел, удар, бросок, кадр, переливчатый, потрепанный, заряжать ружье",
-        "transcription": " |ʃɑːt|",
-        "antonyms": [],
-        "mnemonic": [
-            "shot [шот] выстрел, удар - (Шот-а) Руставели выстрелом убит."
-        ],
-        "examples": [
-            "Good shot!",
-            "He shot straight.",
-            "She took a shot at him.",
-            "His nerves are shot.",
-            "His morale is shot.",
-            "His hair was shot with gray.",
-            "My back tires are shot.",
-            "What a beautiful shot!",
-            "He shot the bird with a catapult.",
-            "He shot at the deer.",
-            "He poured a shot of whiskey.",
-            "I tossed my shot of \"builder-upper\".",
-            "The shot found him in the head.",
-            "The cat shot across the garden.",
-            "A jet of ink shot onto the paper.",
-            "A second shot hit her in the back.",
-            "I shot five rolls of film on vacation.",
-            "He was shot in the chest.",
-            "The shot did no great execution.",
-            "She shot past me into the house.",
-            "Flames of desire shot through her.",
-            "The police shot the suspect in the leg.",
-            "He shot him point-blank.",
-            "The horse is a 10 – 1 shot.",
-            "The sound of a shot rang out.",
-            "Flames shot up and burned my face.",
-            "Sheets of flame shot into the air.",
-            "The castle tower has been shot away.",
-            "a cheap shot to the back of the head",
-            "She timed the shot perfectly."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Хороший выстрел! / Отличный удар /бросок/!",
-            "Он метко выстрелил.",
-            "Она выстрелила в него.",
-            "Его нервы совершенно расшатаны.",
-            "Он окончательно пал духом.",
-            "В его волосах поблёскивали седые нити.",
-            "У меня сдохли задние покрышки.",
-            "Какой прекрасный снимок! (фотоснимок)",
-            "Он убил птичку из рогатки.",
-            "Он выстрелил в оленя.",
-            "Он налил немного /стопку/ виски.",
-            "Я залпом опрокинул свою стопку \"тонизирующего\".",
-            "Пуля попала ему в голову.",
-            "Кот пулей пролетел через сад.",
-            "На бумагу брызнули чернила.",
-            "Второй выстрел попал ей в спину.",
-            "В отпуске я отщёлкал пять катушек плёнки.",
-            "Его уложили выстрелом в грудь.",
-            "Залп не нанёс больших повреждений.",
-            "Она пулей пронеслась мимо меня в дом.",
-            "Пламя желания пронзило её.",
-            "Полицейский выстрелил подозреваемому в ногу.",
-            "Он выстрелил в него в упор.",
-            "У этой лошади шансы на выигрыш 10 к 1-му.",
-            "Раздался звук выстрела.",
-            "Языки пламени взлетели вверх и опалили моё лицо.",
-            "Языки пламени взметались в небо.",
-            "Башня замка была разрушена орудийным залпом.",
-            "подлый / нечестный удар по затылку",
-            "Она великолепно рассчитала время выстрела /броска, удара по воротам/."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "shot": {
+    "comment": [
+      "hot",
+      "hotel",
+      "red-hot"
+    ],
+    "translate": "выстрел, удар, бросок, кадр, переливчатый, потрепанный, заряжать ружье",
+    "transcription": " |ʃɑːt|",
+    "antonyms": [],
+    "mnemonic": [
+      "shot [шот] выстрел, удар - (Шот-а) Руставели выстрелом убит."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Good shot!",
+        "ru": "Хороший выстрел! / Отличный удар /бросок/!",
+        "learn": 0
+      },
+      {
+        "eng": "He shot straight.",
+        "ru": "Он метко выстрелил.",
+        "learn": 0
+      },
+      {
+        "eng": "She took a shot at him.",
+        "ru": "Она выстрелила в него.",
+        "learn": 0
+      },
+      {
+        "eng": "His nerves are shot.",
+        "ru": "Его нервы совершенно расшатаны.",
+        "learn": 0
+      },
+      {
+        "eng": "His morale is shot.",
+        "ru": "Он окончательно пал духом.",
+        "learn": 0
+      },
+      {
+        "eng": "His hair was shot with gray.",
+        "ru": "В его волосах поблёскивали седые нити.",
+        "learn": 0
+      },
+      {
+        "eng": "My back tires are shot.",
+        "ru": "У меня сдохли задние покрышки.",
+        "learn": 0
+      },
+      {
+        "eng": "What a beautiful shot!",
+        "ru": "Какой прекрасный снимок! (фотоснимок)",
+        "learn": 0
+      },
+      {
+        "eng": "He shot the bird with a catapult.",
+        "ru": "Он убил птичку из рогатки.",
+        "learn": 0
+      },
+      {
+        "eng": "He shot at the deer.",
+        "ru": "Он выстрелил в оленя.",
+        "learn": 0
+      },
+      {
+        "eng": "He poured a shot of whiskey.",
+        "ru": "Он налил немного /стопку/ виски.",
+        "learn": 0
+      },
+      {
+        "eng": "I tossed my shot of \"builder-upper\".",
+        "ru": "Я залпом опрокинул свою стопку \"тонизирующего\".",
+        "learn": 0
+      },
+      {
+        "eng": "The shot found him in the head.",
+        "ru": "Пуля попала ему в голову.",
+        "learn": 0
+      },
+      {
+        "eng": "The cat shot across the garden.",
+        "ru": "Кот пулей пролетел через сад.",
+        "learn": 0
+      },
+      {
+        "eng": "A jet of ink shot onto the paper.",
+        "ru": "На бумагу брызнули чернила.",
+        "learn": 1
+      },
+      {
+        "eng": "A second shot hit her in the back.",
+        "ru": "Второй выстрел попал ей в спину.",
+        "learn": 0
+      },
+      {
+        "eng": "I shot five rolls of film on vacation.",
+        "ru": "В отпуске я отщёлкал пять катушек плёнки.",
+        "learn": 0
+      },
+      {
+        "eng": "He was shot in the chest.",
+        "ru": "Его уложили выстрелом в грудь.",
+        "learn": 0
+      },
+      {
+        "eng": "The shot did no great execution.",
+        "ru": "Залп не нанёс больших повреждений.",
+        "learn": 0
+      },
+      {
+        "eng": "She shot past me into the house.",
+        "ru": "Она пулей пронеслась мимо меня в дом.",
+        "learn": 0
+      },
+      {
+        "eng": "Flames of desire shot through her.",
+        "ru": "Пламя желания пронзило её.",
+        "learn": 0
+      },
+      {
+        "eng": "The police shot the suspect in the leg.",
+        "ru": "Полицейский выстрелил подозреваемому в ногу.",
+        "learn": 1
+      },
+      {
+        "eng": "He shot him point-blank.",
+        "ru": "Он выстрелил в него в упор.",
+        "learn": 0
+      },
+      {
+        "eng": "The horse is a 10 – 1 shot.",
+        "ru": "У этой лошади шансы на выигрыш 10 к 1-му.",
+        "learn": 0
+      },
+      {
+        "eng": "The sound of a shot rang out.",
+        "ru": "Раздался звук выстрела.",
+        "learn": 0
+      },
+      {
+        "eng": "Flames shot up and burned my face.",
+        "ru": "Языки пламени взлетели вверх и опалили моё лицо.",
+        "learn": 0
+      },
+      {
+        "eng": "Sheets of flame shot into the air.",
+        "ru": "Языки пламени взметались в небо.",
+        "learn": 0
+      },
+      {
+        "eng": "The castle tower has been shot away.",
+        "ru": "Башня замка была разрушена орудийным залпом.",
+        "learn": 0
+      },
+      {
+        "eng": "a cheap shot to the back of the head",
+        "ru": "подлый / нечестный удар по затылку",
+        "learn": 0
+      },
+      {
+        "eng": "She timed the shot perfectly.",
+        "ru": "Она великолепно рассчитала время выстрела /броска, удара по воротам/.",
+        "learn": 0
+      }
+    ]
+  }
 }

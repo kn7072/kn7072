@@ -1,84 +1,171 @@
 {
-    "wash": {
-        "comment": [
-            "washing"
-        ],
-        "translate": " мытьё, стирка, промывка, мыть, мыться, вымыться, стирающийся, нелиняющий",
-        "transcription": "  |wɑːʃ|",
-        "antonyms": [],
-        "mnemonic": [
-            "wash [уво'ш] мыть - Помойся, а не то (вош-ь) замучит.",
-            "wash [wɔʃ]\nawash [ə'wɒʃ] - затопленный\n***\nНе будешь МЫТЬСЯ - появится вошь. (это) wash\nСтирка, мытьё."
-        ],
-        "examples": [
-            "Go wash your hands.",
-            "You wash, I'll wipe.",
-            "His hair needs a wash.",
-            "You wash and I'll dry.",
-            "Warranted to wash.",
-            "Will this paint wash off?",
-            "The cat washes several times a day",
-            "Strip the beds and wash the sheets.",
-            "My jeans are in the wash.",
-            "Ray paid some kids to wash the car.",
-            "How many plates are there to wash up?",
-            "The waves washed against the base of the cliff.",
-            "I want you to wash my car down.",
-            "The nurse washed away the blood.",
-            "The cape is washed by two oceans.",
-            "It's your turn to wash the dishes.",
-            "Pure soft water is the truest beauty wash.",
-            "Silk doesn't wash well.",
-            "Does this material wash?",
-            "This shirt needs washing.",
-            "Go wash up before dinner.",
-            "That excuse simply won't wash.",
-            "She was too lazy to wash the dishes.",
-            "Please wash your hands before dinner.",
-            "The swollen river washed away the footbridge",
-            "We have to wash the dishes.",
-            "The cat washes several times a day.",
-            "Will you wash the breakfast dishes, please?",
-            "Did you wash your hands?",
-            "Amy washed and went to bed."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Иди мой руки.",
-            "Ты моешь посуду, я буду её вытирать.",
-            "Ему нужно помыть голову.",
-            "Ты моешь (посуду), а я буду вытирать.",
-            "При стирке не линяет.",
-            "Эта краска смоется?",
-            "Этот кот умывается несколько раз в день.",
-            "Сними простыни с кровати и постирай.",
-            "Мои джинсы — в стирке.",
-            "Рэй заплатил каким-то детям, чтобы они помыли машину.",
-            "Сколько там немытой посуды?",
-            "Волны с шумом бились о подножие утёса.",
-            "Я хочу, чтобы вы вымыли мою машину.",
-            "Медсестра смыла кровь.",
-            "Этот мыс омывается водами двух океанов.",
-            "Твоя очередь мыть посуду.",
-            "Чистая мягкая вода - вот самый лучший лосьон.",
-            "Шёлк плохо отстирывается.",
-            "Эту ткань можно стирать?",
-            "Эта рубашка нуждается в стирке.",
-            "Иди помой руки перед ужином.",
-            "Такое оправдание неубедительно.",
-            "Ей было лень мыть посуду.",
-            "Пожалуйста, помойте руки перед ужином.",
-            "Вышедшая из берегов река смыла пешеходный мост",
-            "Мы должны /нам нужно/ помыть посуду.",
-            "Кошка умывается несколько раз в день.",
-            "Вымой, пожалуйста, посуду после завтрака.",
-            "Вы помыли руки?",
-            "Эми помылась и легла спать."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "wa(закр_сл)_=_[wɔ(ː)]"
-        ]
-    }
+  "wash": {
+    "comment": [
+      "washing"
+    ],
+    "translate": " мытьё, стирка, промывка, мыть, мыться, вымыться, стирающийся, нелиняющий",
+    "transcription": "  |wɑːʃ|",
+    "antonyms": [],
+    "mnemonic": [
+      "wash [уво'ш] мыть - Помойся, а не то (вош-ь) замучит.",
+      "wash [wɔʃ]\nawash [ə'wɒʃ] - затопленный\n***\nНе будешь МЫТЬСЯ - появится вошь. (это) wash\nСтирка, мытьё."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "wa(закр_сл)_=_[wɔ(ː)]"
+    ],
+    "examples": [
+      {
+        "eng": "Go wash your hands.",
+        "ru": "Иди мой руки.",
+        "learn": 0
+      },
+      {
+        "eng": "You wash, I'll wipe.",
+        "ru": "Ты моешь посуду, я буду её вытирать.",
+        "learn": 0
+      },
+      {
+        "eng": "His hair needs a wash.",
+        "ru": "Ему нужно помыть голову.",
+        "learn": 1
+      },
+      {
+        "eng": "You wash and I'll dry.",
+        "ru": "Ты моешь (посуду), а я буду вытирать.",
+        "learn": 0
+      },
+      {
+        "eng": "Warranted to wash.",
+        "ru": "При стирке не линяет.",
+        "learn": 0
+      },
+      {
+        "eng": "Will this paint wash off?",
+        "ru": "Эта краска смоется?",
+        "learn": 0
+      },
+      {
+        "eng": "The cat washes several times a day",
+        "ru": "Этот кот умывается несколько раз в день.",
+        "learn": 0
+      },
+      {
+        "eng": "Strip the beds and wash the sheets.",
+        "ru": "Сними простыни с кровати и постирай.",
+        "learn": 1
+      },
+      {
+        "eng": "My jeans are in the wash.",
+        "ru": "Мои джинсы — в стирке.",
+        "learn": 1
+      },
+      {
+        "eng": "Ray paid some kids to wash the car.",
+        "ru": "Рэй заплатил каким-то детям, чтобы они помыли машину.",
+        "learn": 0
+      },
+      {
+        "eng": "How many plates are there to wash up?",
+        "ru": "Сколько там немытой посуды?",
+        "learn": 0
+      },
+      {
+        "eng": "The waves washed against the base of the cliff.",
+        "ru": "Волны с шумом бились о подножие утёса.",
+        "learn": 0
+      },
+      {
+        "eng": "I want you to wash my car down.",
+        "ru": "Я хочу, чтобы вы вымыли мою машину.",
+        "learn": 0
+      },
+      {
+        "eng": "The nurse washed away the blood.",
+        "ru": "Медсестра смыла кровь.",
+        "learn": 0
+      },
+      {
+        "eng": "The cape is washed by two oceans.",
+        "ru": "Этот мыс омывается водами двух океанов.",
+        "learn": 0
+      },
+      {
+        "eng": "It's your turn to wash the dishes.",
+        "ru": "Твоя очередь мыть посуду.",
+        "learn": 0
+      },
+      {
+        "eng": "Pure soft water is the truest beauty wash.",
+        "ru": "Чистая мягкая вода - вот самый лучший лосьон.",
+        "learn": 0
+      },
+      {
+        "eng": "Silk doesn't wash well.",
+        "ru": "Шёлк плохо отстирывается.",
+        "learn": 0
+      },
+      {
+        "eng": "Does this material wash?",
+        "ru": "Эту ткань можно стирать?",
+        "learn": 1
+      },
+      {
+        "eng": "This shirt needs washing.",
+        "ru": "Эта рубашка нуждается в стирке.",
+        "learn": 0
+      },
+      {
+        "eng": "Go wash up before dinner.",
+        "ru": "Иди помой руки перед ужином.",
+        "learn": 0
+      },
+      {
+        "eng": "That excuse simply won't wash.",
+        "ru": "Такое оправдание неубедительно.",
+        "learn": 0
+      },
+      {
+        "eng": "She was too lazy to wash the dishes.",
+        "ru": "Ей было лень мыть посуду.",
+        "learn": 1
+      },
+      {
+        "eng": "Please wash your hands before dinner.",
+        "ru": "Пожалуйста, помойте руки перед ужином.",
+        "learn": 0
+      },
+      {
+        "eng": "The swollen river washed away the footbridge",
+        "ru": "Вышедшая из берегов река смыла пешеходный мост",
+        "learn": 0
+      },
+      {
+        "eng": "We have to wash the dishes.",
+        "ru": "Мы должны /нам нужно/ помыть посуду.",
+        "learn": 0
+      },
+      {
+        "eng": "The cat washes several times a day.",
+        "ru": "Кошка умывается несколько раз в день.",
+        "learn": 0
+      },
+      {
+        "eng": "Will you wash the breakfast dishes, please?",
+        "ru": "Вымой, пожалуйста, посуду после завтрака.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you wash your hands?",
+        "ru": "Вы помыли руки?",
+        "learn": 0
+      },
+      {
+        "eng": "Amy washed and went to bed.",
+        "ru": "Эми помылась и легла спать.",
+        "learn": 0
+      }
+    ]
+  }
 }

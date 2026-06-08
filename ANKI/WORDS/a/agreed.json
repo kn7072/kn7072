@@ -1,83 +1,169 @@
 {
-    "agreed": {
-        "comment": [
-            "agree",
-            "disagree",
-            "agreement",
-            "disagreement"
-        ],
-        "translate": "согласованный, договорный, решенный",
-        "transcription": " |əˈɡriːd|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He readily agreed to help us.",
-            "He agreed to leave her alone.",
-            "Reluctantly, he agreed.",
-            "Jack readily agreed to help.",
-            "He agreed with neither side.",
-            "The entire staff agreed.",
-            "She agreed to all my conditions.",
-            "He cheerfully agreed to do it",
-            "He agreed to my plan.",
-            "An amount was finally agreed upon.",
-            "All parties are now agreed on the plan.",
-            "Wait a minute! That's not what we agreed!",
-            "Agreed!",
-            "They agreed to call a truce.",
-            "We agreed to split the cost.",
-            "Has she agreed to do the work?",
-            "We agreed on a price for the bike.",
-            "He agreed without hesitation.",
-            "He agreed to join the debate.",
-            "I agreed to this without demur.",
-            "They've already agreed to come.",
-            "They agreed to a trial separation.",
-            "Her smile denoted that she agreed.",
-            "They agreed of their own volition.",
-            "We agreed a new four-year contract.",
-            "The company agreed to bear the costs.",
-            "She foolishly agreed to go with them.",
-            "Kate agreed to let me photograph her.",
-            "She agreed to bear the responsibility.",
-            "Staff have agreed to take a 2% pay cut."
-        ],
-        "example_translate": [
-            "Он охотно согласился помочь нам.",
-            "Он согласился оставить её в покое.",
-            "Скрепя сердце (неохотно, без желания), он согласился.",
-            "Джек с готовностью согласился помочь.",
-            "Он не согласился ни с одной из сторон.",
-            "Все сотрудники согласились.",
-            "Она согласилась на все мои условия.",
-            "Он с готовностью согласился сделать это.",
-            "Он согласился с моим планом.",
-            "Наконец-то была согласована некая сумма.",
-            "В настоящее время все участники согласовали данный план.",
-            "Подождите-ка! Мы так не договаривались!",
-            "Решено! / По рукам! / Согласен!",
-            "Они согласились объявить перемирие. / Они договорились о перемирии.",
-            "Мы договорились поделить расходы.",
-            "Она согласилась выполнить эту работу?",
-            "Мы договорились о цене на велосипед.",
-            "Он согласился без колебаний.",
-            "Он согласился присоединиться к дискуссии.",
-            "Я согласился на это без возражений.",
-            "Они уже согласились прийти.",
-            "Они решили пожить отдельно друг от друга, но пока не разводиться.",
-            "Её улыбка означала согласие.",
-            "Они добровольно согласились.",
-            "Мы согласовали новый четырёхлетний контракт.",
-            "Компания согласилась оплатить расходы.",
-            "Она сдуру согласилась пойти с ними.",
-            "Кейт согласилась на то, чтобы я её сфотографировал.",
-            "Она согласилась взять ответственность на себя.",
-            "Сотрудники решили согласиться с двухпроцентным сокращением зарплаты."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "agreed": {
+    "comment": [
+      "agree",
+      "disagree",
+      "agreement",
+      "disagreement"
+    ],
+    "translate": "согласованный, договорный, решенный",
+    "transcription": " |əˈɡriːd|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He readily agreed to help us.",
+        "ru": "Он охотно согласился помочь нам.",
+        "learn": 0
+      },
+      {
+        "eng": "He agreed to leave her alone.",
+        "ru": "Он согласился оставить её в покое.",
+        "learn": 0
+      },
+      {
+        "eng": "Reluctantly, he agreed.",
+        "ru": "Скрепя сердце (неохотно, без желания), он согласился.",
+        "learn": 0
+      },
+      {
+        "eng": "Jack readily agreed to help.",
+        "ru": "Джек с готовностью согласился помочь.",
+        "learn": 0
+      },
+      {
+        "eng": "He agreed with neither side.",
+        "ru": "Он не согласился ни с одной из сторон.",
+        "learn": 1
+      },
+      {
+        "eng": "The entire staff agreed.",
+        "ru": "Все сотрудники согласились.",
+        "learn": 1
+      },
+      {
+        "eng": "She agreed to all my conditions.",
+        "ru": "Она согласилась на все мои условия.",
+        "learn": 0
+      },
+      {
+        "eng": "He cheerfully agreed to do it",
+        "ru": "Он с готовностью согласился сделать это.",
+        "learn": 0
+      },
+      {
+        "eng": "He agreed to my plan.",
+        "ru": "Он согласился с моим планом.",
+        "learn": 0
+      },
+      {
+        "eng": "An amount was finally agreed upon.",
+        "ru": "Наконец-то была согласована некая сумма.",
+        "learn": 0
+      },
+      {
+        "eng": "All parties are now agreed on the plan.",
+        "ru": "В настоящее время все участники согласовали данный план.",
+        "learn": 0
+      },
+      {
+        "eng": "Wait a minute! That's not what we agreed!",
+        "ru": "Подождите-ка! Мы так не договаривались!",
+        "learn": 0
+      },
+      {
+        "eng": "Agreed!",
+        "ru": "Решено! / По рукам! / Согласен!",
+        "learn": 0
+      },
+      {
+        "eng": "They agreed to call a truce.",
+        "ru": "Они согласились объявить перемирие. / Они договорились о перемирии.",
+        "learn": 0
+      },
+      {
+        "eng": "We agreed to split the cost.",
+        "ru": "Мы договорились поделить расходы.",
+        "learn": 0
+      },
+      {
+        "eng": "Has she agreed to do the work?",
+        "ru": "Она согласилась выполнить эту работу?",
+        "learn": 0
+      },
+      {
+        "eng": "We agreed on a price for the bike.",
+        "ru": "Мы договорились о цене на велосипед.",
+        "learn": 0
+      },
+      {
+        "eng": "He agreed without hesitation.",
+        "ru": "Он согласился без колебаний.",
+        "learn": 0
+      },
+      {
+        "eng": "He agreed to join the debate.",
+        "ru": "Он согласился присоединиться к дискуссии.",
+        "learn": 0
+      },
+      {
+        "eng": "I agreed to this without demur.",
+        "ru": "Я согласился на это без возражений.",
+        "learn": 0
+      },
+      {
+        "eng": "They've already agreed to come.",
+        "ru": "Они уже согласились прийти.",
+        "learn": 1
+      },
+      {
+        "eng": "They agreed to a trial separation.",
+        "ru": "Они решили пожить отдельно друг от друга, но пока не разводиться.",
+        "learn": 0
+      },
+      {
+        "eng": "Her smile denoted that she agreed.",
+        "ru": "Её улыбка означала согласие.",
+        "learn": 0
+      },
+      {
+        "eng": "They agreed of their own volition.",
+        "ru": "Они добровольно согласились.",
+        "learn": 0
+      },
+      {
+        "eng": "We agreed a new four-year contract.",
+        "ru": "Мы согласовали новый четырёхлетний контракт.",
+        "learn": 0
+      },
+      {
+        "eng": "The company agreed to bear the costs.",
+        "ru": "Компания согласилась оплатить расходы.",
+        "learn": 0
+      },
+      {
+        "eng": "She foolishly agreed to go with them.",
+        "ru": "Она сдуру согласилась пойти с ними.",
+        "learn": 0
+      },
+      {
+        "eng": "Kate agreed to let me photograph her.",
+        "ru": "Кейт согласилась на то, чтобы я её сфотографировал.",
+        "learn": 0
+      },
+      {
+        "eng": "She agreed to bear the responsibility.",
+        "ru": "Она согласилась взять ответственность на себя.",
+        "learn": 0
+      },
+      {
+        "eng": "Staff have agreed to take a 2% pay cut.",
+        "ru": "Сотрудники решили согласиться с двухпроцентным сокращением зарплаты.",
+        "learn": 0
+      }
+    ]
+  }
 }

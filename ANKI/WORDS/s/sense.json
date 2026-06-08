@@ -1,93 +1,180 @@
 {
-    "sense": {
-        "comment": [
-            "sensible",
-            "sensitive",
-            "sensation",
-            "sensitivity",
-            "nonsense"
-        ],
-        "translate": "смысл, чувство, ощущение, значение, чувствовать, ощущать, понимать",
-        "transcription": " |sens|",
-        "antonyms": [],
-        "mnemonic": [
-            "dense [dɛns]\ntense [tɛns] - напряжённый, натянутый. Напрягать\nsense [sɛns] - чувство, ощущение, смысл\n***\nГУСТЫЕ волосы у Лады Дэнс. (это) dense\nВ НЕПРОХОДИМЫЙ лес пошла Лада Дэнс. (это) dense\nНе любит ТУПЫХ Лада Дэнс. (это) dense\n***\nНет смысла \"sense\"\nидти в лес густой \"dense\".",
-            "sense [sens]\nsenseless - бессмысленный\nessence ['ɛs (ə) ns] - сущность, основа, существо,\nэкстракт, существование, эссенция\nsensitive - чувствительный\n***\nСМЫСЛ понимал экстрасенс. (это) sense\nИНТУИЦИЮ имеет экстрасенс. (это) sense\nОЩУЩАЛ чужую боль экстрасенс. (это) sense\nЧУВСТВО юмора имеет экстрасенс. (это) sense"
-        ],
-        "examples": [
-            "I sense his hostility.",
-            "I sensed the real meaning of his letter",
-            "Common sense is not so common.",
-            "She has a good sense of smell.",
-            "Have you no sense of decency?",
-            "In theory their plan makes sense.",
-            "They don't have the sense to admit defeat.",
-            "I don't get it — it doesn't make sense.",
-            "He has no sense of responsibility.",
-            "the narrow sense of a word",
-            "He is lacking in common sense.",
-            "Dogs have a keen sense of smell.",
-            "What he says is right in a sense.",
-            "Oh, sod it! I'm not making any sense, am I?",
-            "I could sense her disapproval.",
-            "There's a deal of sense in that.",
-            "This is true in a general sense.",
-            "She felt a great sense of betrayal.",
-            "She began to feel a sense of panic.",
-            "He felt a deep sense of shame.",
-            "Yoga gives me a sense of inner calm.",
-            "Read this and tell me if it makes sense.",
-            "He felt a sense of insecurity.",
-            "a very juvenile sense of humour",
-            "He has a strong sense of irony.",
-            "Dogs have a very good sense of smell.",
-            "Perhaps he sensed your distrust.",
-            "He has no sense of decorum.",
-            "She has a keen sense of honor.",
-            "He hasn't got an ounce of sense."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я чувствую его враждебность.",
-            "Я понял истинный смысл его письма.",
-            "Здравый смысл встречается не так уж часто.",
-            "Она обладает хорошим обонянием.",
-            "У вас что, нет никакого чувства приличия?",
-            "Теоретически их план вполне разумен.",
-            "У них не хватает здравого смысла, чтобы признать поражение.",
-            "Не понимаю — это бессмыслица какая-то.",
-            "У него нет чувства ответственности.",
-            "узкий смысл слова",
-            "Ему не хватает здравого смысла.",
-            "У собак очень развито обоняние.",
-            "В каком-то смысле он прав.",
-            "Черт возьми, я говорю ерунду, да?",
-            "Я ощущал её осуждение.",
-            "В этом есть большая доля правды.",
-            "В общем-то, это правда.",
-            "Она ощутила сильное чувство предательства.",
-            "Она начала испытывать чувство паники.",
-            "Он ощущал глубокое чувство стыда /досады/. / Ему было очень стыдно.",
-            "Йога дает мне ощущение внутреннего покоя.",
-            "Прочитайте это и скажите, есть ли в этом смысл.",
-            "Он испытывал чувство тревоги.",
-            "ребяческое чувство юмора",
-            "Он обладает сильным чувством иронии. / Он очень ироничный человек.",
-            "У собак очень хорошее обоняние.",
-            "Возможно, он почувствовал твоё недоверие.",
-            "У него нет чувства приличия.",
-            "У неё обостренное чувство собственного достоинства.",
-            "У него нет ни капли здравого смысла."
-        ],
-        "stars": 3,
-        "groups": [
-            "Причастие_-_сложное_дополнение_с_причастием_1(после_глаголов)",
-            "Сложное_дополнение",
-            "Инфинитив",
-            "all_words",
-            "Сложное_дополнение_с_причастием_1",
-            "Причастие",
-            "Инфинитив_-_сложное_дополнение(восприятие_посредством_органов_чувств)"
-        ]
-    }
+  "sense": {
+    "comment": [
+      "sensible",
+      "sensitive",
+      "sensation",
+      "sensitivity",
+      "nonsense"
+    ],
+    "translate": "смысл, чувство, ощущение, значение, чувствовать, ощущать, понимать",
+    "transcription": " |sens|",
+    "antonyms": [],
+    "mnemonic": [
+      "dense [dɛns]\ntense [tɛns] - напряжённый, натянутый. Напрягать\nsense [sɛns] - чувство, ощущение, смысл\n***\nГУСТЫЕ волосы у Лады Дэнс. (это) dense\nВ НЕПРОХОДИМЫЙ лес пошла Лада Дэнс. (это) dense\nНе любит ТУПЫХ Лада Дэнс. (это) dense\n***\nНет смысла \"sense\"\nидти в лес густой \"dense\".",
+      "sense [sens]\nsenseless - бессмысленный\nessence ['ɛs (ə) ns] - сущность, основа, существо,\nэкстракт, существование, эссенция\nsensitive - чувствительный\n***\nСМЫСЛ понимал экстрасенс. (это) sense\nИНТУИЦИЮ имеет экстрасенс. (это) sense\nОЩУЩАЛ чужую боль экстрасенс. (это) sense\nЧУВСТВО юмора имеет экстрасенс. (это) sense"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Причастие_-_сложное_дополнение_с_причастием_1(после_глаголов)",
+      "Сложное_дополнение",
+      "Инфинитив",
+      "Сложное_дополнение_с_причастием_1",
+      "Причастие",
+      "Инфинитив_-_сложное_дополнение(восприятие_посредством_органов_чувств)"
+    ],
+    "examples": [
+      {
+        "eng": "I sense his hostility.",
+        "ru": "Я чувствую его враждебность.",
+        "learn": 0
+      },
+      {
+        "eng": "I sensed the real meaning of his letter",
+        "ru": "Я понял истинный смысл его письма.",
+        "learn": 0
+      },
+      {
+        "eng": "Common sense is not so common.",
+        "ru": "Здравый смысл встречается не так уж часто.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a good sense of smell.",
+        "ru": "Она обладает хорошим обонянием.",
+        "learn": 0
+      },
+      {
+        "eng": "Have you no sense of decency?",
+        "ru": "У вас что, нет никакого чувства приличия?",
+        "learn": 0
+      },
+      {
+        "eng": "In theory their plan makes sense.",
+        "ru": "Теоретически их план вполне разумен.",
+        "learn": 0
+      },
+      {
+        "eng": "They don't have the sense to admit defeat.",
+        "ru": "У них не хватает здравого смысла, чтобы признать поражение.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't get it — it doesn't make sense.",
+        "ru": "Не понимаю — это бессмыслица какая-то.",
+        "learn": 0
+      },
+      {
+        "eng": "He has no sense of responsibility.",
+        "ru": "У него нет чувства ответственности.",
+        "learn": 0
+      },
+      {
+        "eng": "the narrow sense of a word",
+        "ru": "узкий смысл слова",
+        "learn": 0
+      },
+      {
+        "eng": "He is lacking in common sense.",
+        "ru": "Ему не хватает здравого смысла.",
+        "learn": 0
+      },
+      {
+        "eng": "Dogs have a keen sense of smell.",
+        "ru": "У собак очень развито обоняние.",
+        "learn": 0
+      },
+      {
+        "eng": "What he says is right in a sense.",
+        "ru": "В каком-то смысле он прав.",
+        "learn": 0
+      },
+      {
+        "eng": "Oh, sod it! I'm not making any sense, am I?",
+        "ru": "Черт возьми, я говорю ерунду, да?",
+        "learn": 0
+      },
+      {
+        "eng": "I could sense her disapproval.",
+        "ru": "Я ощущал её осуждение.",
+        "learn": 1
+      },
+      {
+        "eng": "There's a deal of sense in that.",
+        "ru": "В этом есть большая доля правды.",
+        "learn": 0
+      },
+      {
+        "eng": "This is true in a general sense.",
+        "ru": "В общем-то, это правда.",
+        "learn": 1
+      },
+      {
+        "eng": "She felt a great sense of betrayal.",
+        "ru": "Она ощутила сильное чувство предательства.",
+        "learn": 0
+      },
+      {
+        "eng": "She began to feel a sense of panic.",
+        "ru": "Она начала испытывать чувство паники.",
+        "learn": 0
+      },
+      {
+        "eng": "He felt a deep sense of shame.",
+        "ru": "Он ощущал глубокое чувство стыда /досады/. / Ему было очень стыдно.",
+        "learn": 0
+      },
+      {
+        "eng": "Yoga gives me a sense of inner calm.",
+        "ru": "Йога дает мне ощущение внутреннего покоя.",
+        "learn": 1
+      },
+      {
+        "eng": "Read this and tell me if it makes sense.",
+        "ru": "Прочитайте это и скажите, есть ли в этом смысл.",
+        "learn": 0
+      },
+      {
+        "eng": "He felt a sense of insecurity.",
+        "ru": "Он испытывал чувство тревоги.",
+        "learn": 0
+      },
+      {
+        "eng": "a very juvenile sense of humour",
+        "ru": "ребяческое чувство юмора",
+        "learn": 0
+      },
+      {
+        "eng": "He has a strong sense of irony.",
+        "ru": "Он обладает сильным чувством иронии. / Он очень ироничный человек.",
+        "learn": 1
+      },
+      {
+        "eng": "Dogs have a very good sense of smell.",
+        "ru": "У собак очень хорошее обоняние.",
+        "learn": 0
+      },
+      {
+        "eng": "Perhaps he sensed your distrust.",
+        "ru": "Возможно, он почувствовал твоё недоверие.",
+        "learn": 0
+      },
+      {
+        "eng": "He has no sense of decorum.",
+        "ru": "У него нет чувства приличия.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a keen sense of honor.",
+        "ru": "У неё обостренное чувство собственного достоинства.",
+        "learn": 1
+      },
+      {
+        "eng": "He hasn't got an ounce of sense.",
+        "ru": "У него нет ни капли здравого смысла.",
+        "learn": 0
+      }
+    ]
+  }
 }

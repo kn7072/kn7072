@@ -1,88 +1,176 @@
 {
-    "ask": {
-        "comment": [
-            "task"
-        ],
-        "translate": "просить, проситься, спрашивать, запрашивать, требовать, испрашивать, приглашать",
-        "transcription": " |æsk|",
-        "antonyms": [],
-        "mnemonic": [
-            "ask [аск] спрашивать, просить - Я прошу (аскорбинки) и спрашиваю, почему (аск-орбили) вы меня?.",
-            "ask [a: sk]\n***\nСПРАШИВАЛ про Сирию и Дамаск. (это) ask\nПросить.\n***\nЯ тебя прошу \"ask\"\nрешить одну задачу \"task\"."
-        ],
-        "examples": [
-            "Has anybody asked for me?",
-            "You ask too much.",
-            "How much is he asking?",
-            "He asked to speak.",
-            "Ask your mom if you can come with us.",
-            "Don't ask so loud.",
-            "Some people find it difficult to ask for help.",
-            "I need to ask a question.",
-            "Ask John to mail those letters tomorrow.",
-            "May I ask the time?",
-            "Did you ask her yet?",
-            "He asked me a favour.",
-            "He asked to open the window.",
-            "I asked him where he lived.",
-            "The guest asked for the manager.",
-            "'What's your name?' she asked.",
-            "He is asking $200 for the table.",
-            "He's asking £2,000 for his car.",
-            "We had to stop and ask directions.",
-            "The job asks time.",
-            "She asked him for a loan.",
-            "Don't ask him — he won't know.",
-            "Did you ask permission to leave?",
-            "Has he asked you out yet?",
-            "Karen asked to see the doctor.",
-            "Jerry's too scared to ask her out.",
-            "When the doctor arrives, ask him up.",
-            "He asked me about my work.",
-            "My mother asked after you.",
-            "The salesperson asked $100 for it."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Кто-нибудь меня спрашивал?",
-            "Вы просите слишком много.",
-            "Сколько он просит?",
-            "Он попросил слова.",
-            "Спроси маму, можешь ли ты пойти с нами.",
-            "Не задавайте вопросов так громко.",
-            "Некоторым людям тяжело просить о помощи.",
-            "Мне нужно задать вопрос.",
-            "Попросите Джона отправить эти письма завтра.",
-            "Могу я спросить, сколько времени? / Можно узнать, который час?",
-            "Ты её уже спрашивал?",
-            "Он попросил меня об услуге.",
-            "Он попросил открыть окно.",
-            "Я спросил его, где он живёт.",
-            "Гость попросил позвать управляющего.",
-            "— Как тебя зовут? — спросила она.",
-            "Он просит за этот стол двести долларов.",
-            "Он просит за свою машину две тысячи фунтов стерлингов.",
-            "Нам пришлось остановиться и спросить дорогу.",
-            "Эта работа требует времени.",
-            "Она попросила у него денег взаймы.",
-            "Его не спрашивай: он не знает.",
-            "Ты спросил разрешения уйти? / Вы запрашивали разрешение на выезд?",
-            "Он тебя уже пригласил на свидание?",
-            "Карен попросила показать её врачу.",
-            "Джерри слишком боится, чтобы пригласить её на свидание.",
-            "Когда придёт врач, попроси его подняться наверх.",
-            "Он осведомился о моей работе.",
-            "Моя мама спрашивала, как вы себя чувствуете.",
-            "Торговец попросил за товар $100."
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив_-_сложное_дополнение(после_глаголов,_выражающих_побуждение_(приказ,_просьбу,_разрешение,_предупреждение))",
-            "Инфинитив",
-            "a(закр_сл)_=_[ɑː]",
-            "all_words",
-            "Инфинитив_с_to_после_глаголов",
-            "Сложное_дополнение"
-        ]
-    }
+  "ask": {
+    "comment": [
+      "task"
+    ],
+    "translate": "просить, проситься, спрашивать, запрашивать, требовать, испрашивать, приглашать",
+    "transcription": " |æsk|",
+    "antonyms": [],
+    "mnemonic": [
+      "ask [аск] спрашивать, просить - Я прошу (аскорбинки) и спрашиваю, почему (аск-орбили) вы меня?.",
+      "ask [a: sk]\n***\nСПРАШИВАЛ про Сирию и Дамаск. (это) ask\nПросить.\n***\nЯ тебя прошу \"ask\"\nрешить одну задачу \"task\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_-_сложное_дополнение(после_глаголов,_выражающих_побуждение_(приказ,_просьбу,_разрешение,_предупреждение))",
+      "Инфинитив",
+      "a(закр_сл)_=_[ɑː]",
+      "Инфинитив_с_to_после_глаголов",
+      "Сложное_дополнение",
+      "infinitive_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Has anybody asked for me?",
+        "ru": "Кто-нибудь меня спрашивал?",
+        "learn": 0
+      },
+      {
+        "eng": "You ask too much.",
+        "ru": "Вы просите слишком много.",
+        "learn": 0
+      },
+      {
+        "eng": "How much is he asking?",
+        "ru": "Сколько он просит?",
+        "learn": 0
+      },
+      {
+        "eng": "He asked to speak.",
+        "ru": "Он попросил слова.",
+        "learn": 0
+      },
+      {
+        "eng": "Ask your mom if you can come with us.",
+        "ru": "Спроси маму, можешь ли ты пойти с нами.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't ask so loud.",
+        "ru": "Не задавайте вопросов так громко.",
+        "learn": 0
+      },
+      {
+        "eng": "Some people find it difficult to ask for help.",
+        "ru": "Некоторым людям тяжело просить о помощи.",
+        "learn": 0
+      },
+      {
+        "eng": "I need to ask a question.",
+        "ru": "Мне нужно задать вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "Ask John to mail those letters tomorrow.",
+        "ru": "Попросите Джона отправить эти письма завтра.",
+        "learn": 0
+      },
+      {
+        "eng": "May I ask the time?",
+        "ru": "Могу я спросить, сколько времени? / Можно узнать, который час?",
+        "learn": 0
+      },
+      {
+        "eng": "Did you ask her yet?",
+        "ru": "Ты её уже спрашивал?",
+        "learn": 0
+      },
+      {
+        "eng": "He asked me a favour.",
+        "ru": "Он попросил меня об услуге.",
+        "learn": 0
+      },
+      {
+        "eng": "He asked to open the window.",
+        "ru": "Он попросил открыть окно.",
+        "learn": 0
+      },
+      {
+        "eng": "I asked him where he lived.",
+        "ru": "Я спросил его, где он живёт.",
+        "learn": 0
+      },
+      {
+        "eng": "The guest asked for the manager.",
+        "ru": "Гость попросил позвать управляющего.",
+        "learn": 0
+      },
+      {
+        "eng": "'What's your name?' she asked.",
+        "ru": "— Как тебя зовут? — спросила она.",
+        "learn": 0
+      },
+      {
+        "eng": "He is asking $200 for the table.",
+        "ru": "Он просит за этот стол двести долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "He's asking £2,000 for his car.",
+        "ru": "Он просит за свою машину две тысячи фунтов стерлингов.",
+        "learn": 0
+      },
+      {
+        "eng": "We had to stop and ask directions.",
+        "ru": "Нам пришлось остановиться и спросить дорогу.",
+        "learn": 0
+      },
+      {
+        "eng": "The job asks time.",
+        "ru": "Эта работа требует времени.",
+        "learn": 0
+      },
+      {
+        "eng": "She asked him for a loan.",
+        "ru": "Она попросила у него денег взаймы.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't ask him — he won't know.",
+        "ru": "Его не спрашивай: он не знает.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you ask permission to leave?",
+        "ru": "Ты спросил разрешения уйти? / Вы запрашивали разрешение на выезд?",
+        "learn": 1
+      },
+      {
+        "eng": "Has he asked you out yet?",
+        "ru": "Он тебя уже пригласил на свидание?",
+        "learn": 0
+      },
+      {
+        "eng": "Karen asked to see the doctor.",
+        "ru": "Карен попросила показать её врачу.",
+        "learn": 0
+      },
+      {
+        "eng": "Jerry's too scared to ask her out.",
+        "ru": "Джерри слишком боится, чтобы пригласить её на свидание.",
+        "learn": 0
+      },
+      {
+        "eng": "When the doctor arrives, ask him up.",
+        "ru": "Когда придёт врач, попроси его подняться наверх.",
+        "learn": 0
+      },
+      {
+        "eng": "He asked me about my work.",
+        "ru": "Он осведомился о моей работе.",
+        "learn": 0
+      },
+      {
+        "eng": "My mother asked after you.",
+        "ru": "Моя мама спрашивала, как вы себя чувствуете.",
+        "learn": 0
+      },
+      {
+        "eng": "The salesperson asked $100 for it.",
+        "ru": "Торговец попросил за товар $100.",
+        "learn": 0
+      }
+    ]
+  }
 }

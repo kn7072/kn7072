@@ -1,87 +1,174 @@
 {
-    "state": {
-        "comment": [
-            "statement",
-            "station"
-        ],
-        "translate": "государственный, состояние, государство, констатировать",
-        "transcription": " |steɪt|",
-        "antonyms": [],
-        "mnemonic": [
-            "state [стэйт] состояние, государство - Их состояние и го- судаство (стоят) на трёх китах.",
-            "state [steɪt]\nestate [ɪs'teɪt] - поместье, имущество, имение\nstation - станция, размещение. размещать, помещать\n***\nПОЛОЖЕНИЕ дел - борьба против \"властей (т)\". (это)\nВ ГОСУДАРСТВЕ всё зависит от \"властей (т)\". (это)\nГосударство, страна, структура, состояние. Заявлять."
-        ],
-        "examples": [
-            "Please state your name and address.",
-            "The price of the tickets is stated on the back.",
-            "What a state you are in!",
-            "The witness stated that he had not seen the woman before.",
-            "Water exists in three states: liquid, gaseous, and solid.",
-            "She lay in a comatose state.",
-            "The country was in a state of war (=officially fighting a war).",
-            "State your name and occupation.",
-            "State is me.",
-            "Don't get into a state!",
-            "His mind was in a state of surcharge.",
-            "We crossed the state border hours ago.",
-            "A state of emergency has been declared.",
-            "Things were in an untidy state.",
-            "a substance in a fluid state",
-            "the biggest city in the state",
-            "the separation of church and state",
-            "Fine, but aren't you just stating the obvious here?",
-            "The state has allocated special funds for the emergency.",
-            "They were wards of the state.",
-            "Lakes cover much of the state.",
-            "in no fit state to continue",
-            "Rembert again stated his intention to resign from Parliament.",
-            "State Seal",
-            "The house is in a state of neglect.",
-            "The government needs to clearly state its policy on UN intervention.",
-            "The state's business is booming.",
-            "Queensland is one of the states of Australia.",
-            "water in a gaseous state",
-            "the western part of the state"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Пожалуйста, укажите ваше имя и адрес.",
-            "Стоимость билетов указана на обратной стороне.",
-            "В каком вы виде! (разг.)",
-            "Свидетель заявил, что никогда не видел эту женщину раньше.",
-            "Вода существует в трёх состояниях: жидком, газообразном и твёрдом.",
-            "Она лежала в коматозном состоянии.",
-            "Страна находилась в состоянии войны (т.е. официально вступила в войну).",
-            "Назовите своё имя и род занятий.",
-            "Государство — это я. (король Франции Людовик XIV)",
-            "Не заводись! (разг.)",
-            "Его мозг был перегружен.",
-            "Мы пересекли государственную границу несколько часов назад.",
-            "Было объявлено чрезвычайное положение.",
-            "Все вещи были в беспорядке.",
-            "вещество в жидком состоянии",
-            "крупнейший город в штате",
-            "отделение церкви от государства",
-            "Хорошо, но разве вы здесь не занимаетесь констатацией очевидного?",
-            "Государство выделило специальные средства для неотложной помощи.",
-            "Они были под опекой /защитой/ государства.",
-            "Озёра занимают большую часть этого штата.",
-            "не в состоянии продолжать",
-            "Ремберт снова заявил о своём намерении уйти из парламента.",
-            "Большая государственная печать",
-            "Дом находится в запущенном /заброшенном/ состоянии.",
-            "Правительство должно чётко сформулировать свою политику в отношении посредничества ООН.",
-            "Деловая активность в штате быстро растёт.",
-            "Квинсленд является одним из штатов Австралии.",
-            "вода в газообразном состоянии",
-            "западная часть штата"
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив_-_сложное_подлежащее(страдательный_залог)",
-            "Инфинитив",
-            "all_words",
-            "Сложное_подлежащее"
-        ]
-    }
+  "state": {
+    "comment": [
+      "statement",
+      "station"
+    ],
+    "translate": "государственный, состояние, государство, констатировать",
+    "transcription": " |steɪt|",
+    "antonyms": [],
+    "mnemonic": [
+      "state [стэйт] состояние, государство - Их состояние и го- судаство (стоят) на трёх китах.",
+      "state [steɪt]\nestate [ɪs'teɪt] - поместье, имущество, имение\nstation - станция, размещение. размещать, помещать\n***\nПОЛОЖЕНИЕ дел - борьба против \"властей (т)\". (это)\nВ ГОСУДАРСТВЕ всё зависит от \"властей (т)\". (это)\nГосударство, страна, структура, состояние. Заявлять."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_-_сложное_подлежащее(страдательный_залог)",
+      "Инфинитив",
+      "Сложное_подлежащее"
+    ],
+    "examples": [
+      {
+        "eng": "Please state your name and address.",
+        "ru": "Пожалуйста, укажите ваше имя и адрес.",
+        "learn": 0
+      },
+      {
+        "eng": "The price of the tickets is stated on the back.",
+        "ru": "Стоимость билетов указана на обратной стороне.",
+        "learn": 0
+      },
+      {
+        "eng": "What a state you are in!",
+        "ru": "В каком вы виде! (разг.)",
+        "learn": 0
+      },
+      {
+        "eng": "The witness stated that he had not seen the woman before.",
+        "ru": "Свидетель заявил, что никогда не видел эту женщину раньше.",
+        "learn": 1
+      },
+      {
+        "eng": "Water exists in three states: liquid, gaseous, and solid.",
+        "ru": "Вода существует в трёх состояниях: жидком, газообразном и твёрдом.",
+        "learn": 0
+      },
+      {
+        "eng": "She lay in a comatose state.",
+        "ru": "Она лежала в коматозном состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "The country was in a state of war (=officially fighting a war).",
+        "ru": "Страна находилась в состоянии войны (т.е. официально вступила в войну).",
+        "learn": 0
+      },
+      {
+        "eng": "State your name and occupation.",
+        "ru": "Назовите своё имя и род занятий.",
+        "learn": 0
+      },
+      {
+        "eng": "State is me.",
+        "ru": "Государство — это я. (король Франции Людовик XIV)",
+        "learn": 0
+      },
+      {
+        "eng": "Don't get into a state!",
+        "ru": "Не заводись! (разг.)",
+        "learn": 0
+      },
+      {
+        "eng": "His mind was in a state of surcharge.",
+        "ru": "Его мозг был перегружен.",
+        "learn": 0
+      },
+      {
+        "eng": "We crossed the state border hours ago.",
+        "ru": "Мы пересекли государственную границу несколько часов назад.",
+        "learn": 1
+      },
+      {
+        "eng": "A state of emergency has been declared.",
+        "ru": "Было объявлено чрезвычайное положение.",
+        "learn": 0
+      },
+      {
+        "eng": "Things were in an untidy state.",
+        "ru": "Все вещи были в беспорядке.",
+        "learn": 1
+      },
+      {
+        "eng": "a substance in a fluid state",
+        "ru": "вещество в жидком состоянии",
+        "learn": 0
+      },
+      {
+        "eng": "the biggest city in the state",
+        "ru": "крупнейший город в штате",
+        "learn": 0
+      },
+      {
+        "eng": "the separation of church and state",
+        "ru": "отделение церкви от государства",
+        "learn": 0
+      },
+      {
+        "eng": "Fine, but aren't you just stating the obvious here?",
+        "ru": "Хорошо, но разве вы здесь не занимаетесь констатацией очевидного?",
+        "learn": 0
+      },
+      {
+        "eng": "The state has allocated special funds for the emergency.",
+        "ru": "Государство выделило специальные средства для неотложной помощи.",
+        "learn": 0
+      },
+      {
+        "eng": "They were wards of the state.",
+        "ru": "Они были под опекой /защитой/ государства.",
+        "learn": 1
+      },
+      {
+        "eng": "Lakes cover much of the state.",
+        "ru": "Озёра занимают большую часть этого штата.",
+        "learn": 0
+      },
+      {
+        "eng": "in no fit state to continue",
+        "ru": "не в состоянии продолжать",
+        "learn": 0
+      },
+      {
+        "eng": "Rembert again stated his intention to resign from Parliament.",
+        "ru": "Ремберт снова заявил о своём намерении уйти из парламента.",
+        "learn": 0
+      },
+      {
+        "eng": "State Seal",
+        "ru": "Большая государственная печать",
+        "learn": 0
+      },
+      {
+        "eng": "The house is in a state of neglect.",
+        "ru": "Дом находится в запущенном /заброшенном/ состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "The government needs to clearly state its policy on UN intervention.",
+        "ru": "Правительство должно чётко сформулировать свою политику в отношении посредничества ООН.",
+        "learn": 0
+      },
+      {
+        "eng": "The state's business is booming.",
+        "ru": "Деловая активность в штате быстро растёт.",
+        "learn": 0
+      },
+      {
+        "eng": "Queensland is one of the states of Australia.",
+        "ru": "Квинсленд является одним из штатов Австралии.",
+        "learn": 0
+      },
+      {
+        "eng": "water in a gaseous state",
+        "ru": "вода в газообразном состоянии",
+        "learn": 0
+      },
+      {
+        "eng": "the western part of the state",
+        "ru": "западная часть штата",
+        "learn": 0
+      }
+    ]
+  }
 }

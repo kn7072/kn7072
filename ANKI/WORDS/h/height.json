@@ -1,85 +1,172 @@
 {
-    "height": {
-        "comment": [
-            "freight"
-        ],
-        "translate": "высота, рост, верх, вышина, возвышенность, высь, холм, высшая степень",
-        "transcription": " |haɪt|",
-        "antonyms": [],
-        "mnemonic": [
-            "height [байт] высота - (Отдых-байт-е) на высоте большой.",
-            "height [haɪt]\n***\nЕго РОСТ она обхает. (это) height\nНа ВЫСОТУ она чихает, забралась и отдыхает. (это)\nheight\nВершина."
-        ],
-        "examples": [
-            "Height is a function of age.",
-            "What's the height of the building?",
-            "He is about average in height.",
-            "State your age, height, and weight.",
-            "He died at the height of his fame.",
-            "He drew himself up to his full height.",
-            "Weight increases in proportion to height.",
-            "She's of medium height.",
-            "The plane was rapidly losing height.",
-            "It's the height of chic this year.",
-            "We were measured for height and weight.",
-            "There is no evidence correlating height and intelligence.",
-            "at the height of her career",
-            "Height is a function of age.",
-            "Rachel had always been scared of heights.",
-            "It was a miracle that he survived the drop from that height.",
-            "I was surprised by his height.",
-            "Rome at the height of its glory",
-            "Dick has already passed his father in height.",
-            "He was in his late twenties and of average height.",
-            "Its minimum height from the sea is 900 feet.",
-            "In the driving seat sat a man of average height.",
-            "They did not carry this tower to the height it now is.",
-            "At that time, the Beatles were at the height of their fame.",
-            "of average height for his age",
-            "I make the height about 100 feet.",
-            "The Beatles were at the height of their fame.",
-            "Sam's about the same height as his sister now.",
-            "Her feet are small in proportion to her height.",
-            "Sunflowers can grow to a height of fifteen feet."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Рост человека зависит от возраста.",
-            "Какова высота этого здания?",
-            "Роста он примерно среднего.",
-            "Укажите ваш возраст, рост и вес.",
-            "Он умер на вершине своей славы.",
-            "Он выпрямился во весь рост.",
-            "Вес увеличивается пропорционально росту.",
-            "Она среднего роста.",
-            "Самолёт быстро терял высоту.",
-            "В этом году это писк моды.",
-            "Они измерили наш рост и вес.",
-            "Нет никаких доказательств связи роста с уровнем интеллекта.",
-            "на пике своей карьеры",
-            "Рост зависит от возраста.",
-            "Рэйчел всегда боялась высоты.",
-            "Просто чудо, что он выжил после падения с такой высоты.",
-            "Я была удивлена его ростом.",
-            "Рим в апогее своей славы",
-            "Дик уже выше своего отца.",
-            "Роста он был среднего, чуть младше тридцати лет.",
-            "Его минимальная высота над уровнем моря - 900 футов.",
-            "На месте водителя сидел мужчина среднего роста.",
-            "Они не достроили башню до той высоты, какую она имеет сейчас.",
-            "В то время \"Битлз\" были на пике своей славы.",
-            "среднего роста для своего возраста",
-            "По моим расчётам /прикидкам/, высота — около ста футов.",
-            "Группа \"Битлз\" была на вершине своей славы.",
-            "Сэм сейчас примерно одного роста со своей сестрой.",
-            "Её ступни небольшие по соотношению с ростом.",
-            "Подсолнухи могут вырасти до высоты в пятнадцать футов."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "gh_=_[_]_(ght_-_[t])",
-            "ei(y)_=_[aɪ]"
-        ]
-    }
+  "height": {
+    "comment": [
+      "freight"
+    ],
+    "translate": "высота, рост, верх, вышина, возвышенность, высь, холм, высшая степень",
+    "transcription": " |haɪt|",
+    "antonyms": [],
+    "mnemonic": [
+      "height [байт] высота - (Отдых-байт-е) на высоте большой.",
+      "height [haɪt]\n***\nЕго РОСТ она обхает. (это) height\nНа ВЫСОТУ она чихает, забралась и отдыхает. (это)\nheight\nВершина."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "gh_=_[_]_(ght_-_[t])",
+      "ei(y)_=_[aɪ]"
+    ],
+    "examples": [
+      {
+        "eng": "Height is a function of age.",
+        "ru": "Рост человека зависит от возраста.",
+        "learn": 0
+      },
+      {
+        "eng": "What's the height of the building?",
+        "ru": "Какова высота этого здания?",
+        "learn": 0
+      },
+      {
+        "eng": "He is about average in height.",
+        "ru": "Роста он примерно среднего.",
+        "learn": 0
+      },
+      {
+        "eng": "State your age, height, and weight.",
+        "ru": "Укажите ваш возраст, рост и вес.",
+        "learn": 0
+      },
+      {
+        "eng": "He died at the height of his fame.",
+        "ru": "Он умер на вершине своей славы.",
+        "learn": 1
+      },
+      {
+        "eng": "He drew himself up to his full height.",
+        "ru": "Он выпрямился во весь рост.",
+        "learn": 0
+      },
+      {
+        "eng": "Weight increases in proportion to height.",
+        "ru": "Вес увеличивается пропорционально росту.",
+        "learn": 0
+      },
+      {
+        "eng": "She's of medium height.",
+        "ru": "Она среднего роста.",
+        "learn": 1
+      },
+      {
+        "eng": "The plane was rapidly losing height.",
+        "ru": "Самолёт быстро терял высоту.",
+        "learn": 0
+      },
+      {
+        "eng": "It's the height of chic this year.",
+        "ru": "В этом году это писк моды.",
+        "learn": 0
+      },
+      {
+        "eng": "We were measured for height and weight.",
+        "ru": "Они измерили наш рост и вес.",
+        "learn": 0
+      },
+      {
+        "eng": "There is no evidence correlating height and intelligence.",
+        "ru": "Нет никаких доказательств связи роста с уровнем интеллекта.",
+        "learn": 1
+      },
+      {
+        "eng": "at the height of her career",
+        "ru": "на пике своей карьеры",
+        "learn": 0
+      },
+      {
+        "eng": "Height is a function of age.",
+        "ru": "Рост зависит от возраста.",
+        "learn": 0
+      },
+      {
+        "eng": "Rachel had always been scared of heights.",
+        "ru": "Рэйчел всегда боялась высоты.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a miracle that he survived the drop from that height.",
+        "ru": "Просто чудо, что он выжил после падения с такой высоты.",
+        "learn": 0
+      },
+      {
+        "eng": "I was surprised by his height.",
+        "ru": "Я была удивлена его ростом.",
+        "learn": 0
+      },
+      {
+        "eng": "Rome at the height of its glory",
+        "ru": "Рим в апогее своей славы",
+        "learn": 0
+      },
+      {
+        "eng": "Dick has already passed his father in height.",
+        "ru": "Дик уже выше своего отца.",
+        "learn": 0
+      },
+      {
+        "eng": "He was in his late twenties and of average height.",
+        "ru": "Роста он был среднего, чуть младше тридцати лет.",
+        "learn": 0
+      },
+      {
+        "eng": "Its minimum height from the sea is 900 feet.",
+        "ru": "Его минимальная высота над уровнем моря - 900 футов.",
+        "learn": 0
+      },
+      {
+        "eng": "In the driving seat sat a man of average height.",
+        "ru": "На месте водителя сидел мужчина среднего роста.",
+        "learn": 0
+      },
+      {
+        "eng": "They did not carry this tower to the height it now is.",
+        "ru": "Они не достроили башню до той высоты, какую она имеет сейчас.",
+        "learn": 0
+      },
+      {
+        "eng": "At that time, the Beatles were at the height of their fame.",
+        "ru": "В то время \"Битлз\" были на пике своей славы.",
+        "learn": 0
+      },
+      {
+        "eng": "of average height for his age",
+        "ru": "среднего роста для своего возраста",
+        "learn": 0
+      },
+      {
+        "eng": "I make the height about 100 feet.",
+        "ru": "По моим расчётам /прикидкам/, высота — около ста футов.",
+        "learn": 0
+      },
+      {
+        "eng": "The Beatles were at the height of their fame.",
+        "ru": "Группа \"Битлз\" была на вершине своей славы.",
+        "learn": 0
+      },
+      {
+        "eng": "Sam's about the same height as his sister now.",
+        "ru": "Сэм сейчас примерно одного роста со своей сестрой.",
+        "learn": 0
+      },
+      {
+        "eng": "Her feet are small in proportion to her height.",
+        "ru": "Её ступни небольшие по соотношению с ростом.",
+        "learn": 1
+      },
+      {
+        "eng": "Sunflowers can grow to a height of fifteen feet.",
+        "ru": "Подсолнухи могут вырасти до высоты в пятнадцать футов.",
+        "learn": 0
+      }
+    ]
+  }
 }

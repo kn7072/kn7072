@@ -1,84 +1,171 @@
 {
-    "guess": {
-        "comment": [
-            "guest"
-        ],
-        "translate": "предположение, догадка, предполагать, полагать, догадываться",
-        "transcription": " |ɡes|",
-        "antonyms": [],
-        "mnemonic": [
-            "guess [гэс] угадать - Можешь угадать (Днепро-ГЭС) кто построил?.",
-            "guess [ges] - предположение, догадка., угадывать\n***\nУГАДАЙ, где ДнепроГЭС. (это) guess"
-        ],
-        "examples": [
-            "You have three guesses!",
-            "Guess where the money is.",
-            "I guess that he'll be late.",
-            "We may only guess when it all began.",
-            "Your guess is as good as mine.",
-            "You can guess what happened next.",
-            "What star sign are you? No, let me guess.",
-            "I don't know. I'm only hazarding a guess.",
-            "I'd guess she is thirty-something.",
-            "You have another guess coming!",
-            "I guess it's payback time.",
-            "We can only guess at the cause of the crash.",
-            "Um, yeah, I guess so.",
-            "Guess who I bumped into on the way home.",
-            "I guessed you not to be here that late.",
-            "You could guess by the look of his face.",
-            "I'd say he's around 50, but I'm only guessing.",
-            "I'm tired, so I guess I'll stay home tonight.",
-            "His guess was on the nose.",
-            "If you guess correctly, you have another turn.",
-            "He is Russian as you might have guessed from his name.",
-            "I had to choose one, and I guessed right.",
-            "It's hard to guess his age because he dyes his hair.",
-            "Guess who happened along while I was waiting for the bus?",
-            "A man, without being a conjurer, might guess.",
-            "Guess whom I ran against in London the other day?",
-            "I guess I've just the right amount of brains for that.",
-            "I guess it's not just a useless \"widget\" after all.",
-            "Her guess came a little too close to the truth for my liking.",
-            "...judging from your surname, I'd guess that your family is Italian..."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Отгадай с трех раз!",
-            "Отгадай, где деньги.",
-            "Думаю, что он опоздает.",
-            "Можно только догадываться, когда всё это началось.",
-            "Я знаю не больше вашего.",
-            "Вы можете догадаться, что произошло дальше.",
-            "Какой у тебя знак зодиака? Нет, давай я сама угадаю.",
-            "Я не знаю. Я только рискну предположить.",
-            "Ей, наверное, немного за тридцать.",
-            "А вот и нет, не угадал!",
-            "Я полагаю, настало время платить по счетам. (настал час расплаты за совершённое ранее)",
-            "Мы можем только догадываться о причинах аварии.",
-            "Ну, да, я тоже так думаю.",
-            "Угадай, с кем я столкнулся по дороге домой.",
-            "Я не ожидал застать тебя в столь поздний час.",
-            "У него всё на лице было написано.",
-            "Я бы сказал, что ему около 50, но это только моё предположение.",
-            "Я устал, так что, наверное, сегодня вечером останусь дома.",
-            "Его догадка была совершенно правильной.",
-            "Если угадаете правильно, получите ещё одну возможность.",
-            "Он русский, как можно было догадаться по имени.",
-            "Надо было какой-то из них выбрать, и я угадал.",
-            "Сложно предположить его возраст, потому что он красит свои волосы.",
-            "Угадай, кого я встретил, пока ждал автобус?",
-            "Даже не слишком умный человек мог догадаться.",
-            "Угадай, с кем я на днях столкнулся в Лондоне?",
-            "Уж на это-то мозгов мне, наверное, хватит.",
-            "Я не думаю, что это очередной бесполезный прибамбас.",
-            "На мой взгляд, её догадка оказалась слишком близкой к истине.",
-            "Судя по вашей фамилии, я думаю, что вы из итальянской семьи."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ue_=_[e]"
-        ]
-    }
+  "guess": {
+    "comment": [
+      "guest"
+    ],
+    "translate": "предположение, догадка, предполагать, полагать, догадываться",
+    "transcription": " |ɡes|",
+    "antonyms": [],
+    "mnemonic": [
+      "guess [гэс] угадать - Можешь угадать (Днепро-ГЭС) кто построил?.",
+      "guess [ges] - предположение, догадка., угадывать\n***\nУГАДАЙ, где ДнепроГЭС. (это) guess"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ue_=_[e]"
+    ],
+    "examples": [
+      {
+        "eng": "You have three guesses!",
+        "ru": "Отгадай с трех раз!",
+        "learn": 0
+      },
+      {
+        "eng": "Guess where the money is.",
+        "ru": "Отгадай, где деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "I guess that he'll be late.",
+        "ru": "Думаю, что он опоздает.",
+        "learn": 0
+      },
+      {
+        "eng": "We may only guess when it all began.",
+        "ru": "Можно только догадываться, когда всё это началось.",
+        "learn": 1
+      },
+      {
+        "eng": "Your guess is as good as mine.",
+        "ru": "Я знаю не больше вашего.",
+        "learn": 0
+      },
+      {
+        "eng": "You can guess what happened next.",
+        "ru": "Вы можете догадаться, что произошло дальше.",
+        "learn": 1
+      },
+      {
+        "eng": "What star sign are you? No, let me guess.",
+        "ru": "Какой у тебя знак зодиака? Нет, давай я сама угадаю.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know. I'm only hazarding a guess.",
+        "ru": "Я не знаю. Я только рискну предположить.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd guess she is thirty-something.",
+        "ru": "Ей, наверное, немного за тридцать.",
+        "learn": 0
+      },
+      {
+        "eng": "You have another guess coming!",
+        "ru": "А вот и нет, не угадал!",
+        "learn": 0
+      },
+      {
+        "eng": "I guess it's payback time.",
+        "ru": "Я полагаю, настало время платить по счетам. (настал час расплаты за совершённое ранее)",
+        "learn": 0
+      },
+      {
+        "eng": "We can only guess at the cause of the crash.",
+        "ru": "Мы можем только догадываться о причинах аварии.",
+        "learn": 0
+      },
+      {
+        "eng": "Um, yeah, I guess so.",
+        "ru": "Ну, да, я тоже так думаю.",
+        "learn": 0
+      },
+      {
+        "eng": "Guess who I bumped into on the way home.",
+        "ru": "Угадай, с кем я столкнулся по дороге домой.",
+        "learn": 0
+      },
+      {
+        "eng": "I guessed you not to be here that late.",
+        "ru": "Я не ожидал застать тебя в столь поздний час.",
+        "learn": 0
+      },
+      {
+        "eng": "You could guess by the look of his face.",
+        "ru": "У него всё на лице было написано.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd say he's around 50, but I'm only guessing.",
+        "ru": "Я бы сказал, что ему около 50, но это только моё предположение.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm tired, so I guess I'll stay home tonight.",
+        "ru": "Я устал, так что, наверное, сегодня вечером останусь дома.",
+        "learn": 0
+      },
+      {
+        "eng": "His guess was on the nose.",
+        "ru": "Его догадка была совершенно правильной.",
+        "learn": 0
+      },
+      {
+        "eng": "If you guess correctly, you have another turn.",
+        "ru": "Если угадаете правильно, получите ещё одну возможность.",
+        "learn": 0
+      },
+      {
+        "eng": "He is Russian as you might have guessed from his name.",
+        "ru": "Он русский, как можно было догадаться по имени.",
+        "learn": 0
+      },
+      {
+        "eng": "I had to choose one, and I guessed right.",
+        "ru": "Надо было какой-то из них выбрать, и я угадал.",
+        "learn": 1
+      },
+      {
+        "eng": "It's hard to guess his age because he dyes his hair.",
+        "ru": "Сложно предположить его возраст, потому что он красит свои волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "Guess who happened along while I was waiting for the bus?",
+        "ru": "Угадай, кого я встретил, пока ждал автобус?",
+        "learn": 0
+      },
+      {
+        "eng": "A man, without being a conjurer, might guess.",
+        "ru": "Даже не слишком умный человек мог догадаться.",
+        "learn": 0
+      },
+      {
+        "eng": "Guess whom I ran against in London the other day?",
+        "ru": "Угадай, с кем я на днях столкнулся в Лондоне?",
+        "learn": 0
+      },
+      {
+        "eng": "I guess I've just the right amount of brains for that.",
+        "ru": "Уж на это-то мозгов мне, наверное, хватит.",
+        "learn": 0
+      },
+      {
+        "eng": "I guess it's not just a useless \"widget\" after all.",
+        "ru": "Я не думаю, что это очередной бесполезный прибамбас.",
+        "learn": 0
+      },
+      {
+        "eng": "Her guess came a little too close to the truth for my liking.",
+        "ru": "На мой взгляд, её догадка оказалась слишком близкой к истине.",
+        "learn": 0
+      },
+      {
+        "eng": "...judging from your surname, I'd guess that your family is Italian...",
+        "ru": "Судя по вашей фамилии, я думаю, что вы из итальянской семьи.",
+        "learn": 1
+      }
+    ]
+  }
 }

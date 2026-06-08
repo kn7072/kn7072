@@ -1,73 +1,144 @@
 {
-    "wool": {
-        "comment": [
-            "woollen"
-        ],
-        "translate": "шерсть, шерстяные изделия, волосы, руно, шерстяной",
-        "transcription": " |wʊl|",
-        "antonyms": [],
-        "mnemonic": [
-            "wool [(ув)у'л] шерсть - (Вул-кан) из шерсти.",
-            "wool [wul]\n***\nВ ШЕРСТЬ уткнулся и сладко уснул. (это) wool\n***\nМоя шерсть \"wool\" классная \"cool\"."
-        ],
-        "examples": [
-            "She wants to weave a scarf from this wool.",
-            "She doesn't like wool because it can be itchy.",
-            "Wool has more body than rayon.",
-            "The wool sweater prickled my skin.",
-            "She was cloaked in red wool.",
-            "A cotton wool mist descended.",
-            "The virtue of wool as a clothing material is that it can provide insulation from the cold even when wet.",
-            "This fabric has a nasty wool pickup.",
-            "If you swathe the baby in too many wool covers, he will get overheated.",
-            "Shear the wool off the lamb.",
-            "This wool makes into a nice sweater.",
-            "The farmers sheared the wool from the sheep.",
-            "Wool socks will pull moisture away from your skin.",
-            "Press on the wound with a large pad of cotton wool.",
-            "Some wool has been interwoven with the silk, to make the cloth heavier and stronger.",
-            "They spun the wool into yarn.",
-            "a wool skirt and matching blazer",
-            "The sheep's wool will be spun into yarn.",
-            "She felt the fabric to see if it was wool.",
-            "Can you disentangle the loose threads from this wool?",
-            "Good carpet wool needs to combine softness with strength.",
-            "The wool has got all snarled up, so I shall have to cut it.",
-            "I asked the lady in the wool shop to lay away the rest of the red wool.",
-            "On Eric's chin was a scrap of cotton wool where he'd cut himself shaving.",
-            "The different dispositions of wool, silk, etc. to unite with the colouring particles."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она хочет связать шарф из этой шерсти.",
-            "Она не любит, шерсть, потому что от нее может быть зуд.",
-            "Шерсть плотнее, чем вискоза.",
-            "Шерстяной свитер покалывал мне кожу.",
-            "На ней был плащ из красной шерсти.",
-            "Опустился густой мягкий туман.",
-            "Достоинством шерсти как материала для одежды является то, что она может обеспечить изоляцию от холода даже при намокании.",
-            "На эту ткань очень сильно налипает шерсть.",
-            "Если вы будете сильно кутать малыша, он вспотеет.",
-            "Состригите с ягнёнка шерсть.",
-            "Из этой шерсти выйдет хороший свитер.",
-            "Фермеры состригли шерсть с овец.",
-            "Шерстяные носки будут впитывать влагу с кожи.",
-            "Прижмите к ране большой ватный тампон.",
-            "В шёлковую ткань вплели немного шерсти, чтобы сделать материал тяжелее и прочнее.",
-            "Они прядут из шерсти пряжу.",
-            "шерстяная юбка и сочетающийся с ней блейзер",
-            "Из овечьей шерсти спрядут пряжу.",
-            "Она пощупала ткань, чтобы убедиться, что это действительно шерсть.",
-            "Можешь распутать эту шерсть?",
-            "Хорошая ковровая шерсть должна сочетать мягкость с прочностью.",
-            "Вся шерсть спуталась, придется мне её резать.",
-            "Я попросила в магазине, чтобы мне отложили остаток красной шерсти.",
-            "На подбородке Эрика был клочок ваты, в том месте, где он порезался при бритье.",
-            "Разные свойства шерсти, шёлка и т. п. воспринимать красители."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "wool": {
+    "comment": [
+      "woollen"
+    ],
+    "translate": "шерсть, шерстяные изделия, волосы, руно, шерстяной",
+    "transcription": " |wʊl|",
+    "antonyms": [],
+    "mnemonic": [
+      "wool [(ув)у'л] шерсть - (Вул-кан) из шерсти.",
+      "wool [wul]\n***\nВ ШЕРСТЬ уткнулся и сладко уснул. (это) wool\n***\nМоя шерсть \"wool\" классная \"cool\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She wants to weave a scarf from this wool.",
+        "ru": "Она хочет связать шарф из этой шерсти.",
+        "learn": 1
+      },
+      {
+        "eng": "She doesn't like wool because it can be itchy.",
+        "ru": "Она не любит, шерсть, потому что от нее может быть зуд.",
+        "learn": 0
+      },
+      {
+        "eng": "Wool has more body than rayon.",
+        "ru": "Шерсть плотнее, чем вискоза.",
+        "learn": 0
+      },
+      {
+        "eng": "The wool sweater prickled my skin.",
+        "ru": "Шерстяной свитер покалывал мне кожу.",
+        "learn": 0
+      },
+      {
+        "eng": "She was cloaked in red wool.",
+        "ru": "На ней был плащ из красной шерсти.",
+        "learn": 1
+      },
+      {
+        "eng": "A cotton wool mist descended.",
+        "ru": "Опустился густой мягкий туман.",
+        "learn": 0
+      },
+      {
+        "eng": "The virtue of wool as a clothing material is that it can provide insulation from the cold even when wet.",
+        "ru": "Достоинством шерсти как материала для одежды является то, что она может обеспечить изоляцию от холода даже при намокании.",
+        "learn": 0
+      },
+      {
+        "eng": "This fabric has a nasty wool pickup.",
+        "ru": "На эту ткань очень сильно налипает шерсть.",
+        "learn": 0
+      },
+      {
+        "eng": "If you swathe the baby in too many wool covers, he will get overheated.",
+        "ru": "Если вы будете сильно кутать малыша, он вспотеет.",
+        "learn": 0
+      },
+      {
+        "eng": "Shear the wool off the lamb.",
+        "ru": "Состригите с ягнёнка шерсть.",
+        "learn": 0
+      },
+      {
+        "eng": "This wool makes into a nice sweater.",
+        "ru": "Из этой шерсти выйдет хороший свитер.",
+        "learn": 0
+      },
+      {
+        "eng": "The farmers sheared the wool from the sheep.",
+        "ru": "Фермеры состригли шерсть с овец.",
+        "learn": 0
+      },
+      {
+        "eng": "Wool socks will pull moisture away from your skin.",
+        "ru": "Шерстяные носки будут впитывать влагу с кожи.",
+        "learn": 0
+      },
+      {
+        "eng": "Press on the wound with a large pad of cotton wool.",
+        "ru": "Прижмите к ране большой ватный тампон.",
+        "learn": 1
+      },
+      {
+        "eng": "Some wool has been interwoven with the silk, to make the cloth heavier and stronger.",
+        "ru": "В шёлковую ткань вплели немного шерсти, чтобы сделать материал тяжелее и прочнее.",
+        "learn": 0
+      },
+      {
+        "eng": "They spun the wool into yarn.",
+        "ru": "Они прядут из шерсти пряжу.",
+        "learn": 0
+      },
+      {
+        "eng": "a wool skirt and matching blazer",
+        "ru": "шерстяная юбка и сочетающийся с ней блейзер",
+        "learn": 1
+      },
+      {
+        "eng": "The sheep's wool will be spun into yarn.",
+        "ru": "Из овечьей шерсти спрядут пряжу.",
+        "learn": 0
+      },
+      {
+        "eng": "She felt the fabric to see if it was wool.",
+        "ru": "Она пощупала ткань, чтобы убедиться, что это действительно шерсть.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you disentangle the loose threads from this wool?",
+        "ru": "Можешь распутать эту шерсть?",
+        "learn": 0
+      },
+      {
+        "eng": "Good carpet wool needs to combine softness with strength.",
+        "ru": "Хорошая ковровая шерсть должна сочетать мягкость с прочностью.",
+        "learn": 0
+      },
+      {
+        "eng": "The wool has got all snarled up, so I shall have to cut it.",
+        "ru": "Вся шерсть спуталась, придется мне её резать.",
+        "learn": 0
+      },
+      {
+        "eng": "I asked the lady in the wool shop to lay away the rest of the red wool.",
+        "ru": "Я попросила в магазине, чтобы мне отложили остаток красной шерсти.",
+        "learn": 0
+      },
+      {
+        "eng": "On Eric's chin was a scrap of cotton wool where he'd cut himself shaving.",
+        "ru": "На подбородке Эрика был клочок ваты, в том месте, где он порезался при бритье.",
+        "learn": 0
+      },
+      {
+        "eng": "The different dispositions of wool, silk, etc. to unite with the colouring particles.",
+        "ru": "Разные свойства шерсти, шёлка и т. п. воспринимать красители.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,100 +1,187 @@
 {
-    "wall": {
-        "comment": [
-            "ball",
-            "baseball",
-            "basketball",
-            "football",
-            "recall",
-            "hall",
-            "tall",
-            "fall",
-            "all",
-            "small",
-            "call",
-            "overall",
-            "install",
-            "shall",
-            "stall",
-            "mall",
-            "waterfall",
-            "wallet"
-        ],
-        "translate": " стена, стенной, настенный, стенка, вал, барьер, бок, обносить стеной",
-        "transcription": "  |wɔːl|",
-        "antonyms": [],
-        "mnemonic": [
-            "wall [(ув)о'л] стена - Грехи (Уол) Стрита замаливаются у Стены плача."
-        ],
-        "examples": [
-            "Walls have ears. посл.",
-            "He sat facing the wall.",
-            "The Great Wall of China",
-            "Nail the picture to the wall.",
-            "He stood up to the wall.",
-            "The horse leaped the stone wall.",
-            "a small mirror fixed to the wall",
-            "The wall collapsed",
-            "a mouse hole in the wall",
-            "She tacked a poster on the wall.",
-            "His back was to the wall.",
-            "The container's walls were blue.",
-            "Turn your face to the wall",
-            "Bob leaned against the wall.",
-            "He pinned a sign on the wall.",
-            "He smashed into the wall.",
-            "The garden was walled in during the 18th century.",
-            "a wall with a stone veneer",
-            "Drill a hole into the wall.",
-            "He brushed the wall lightly.",
-            "He cowered against the wall.",
-            "the walls of the ancient city",
-            "Nail the board onto the wall!",
-            "The roses ramped over the wall",
-            "A wall surrounds the old city.",
-            "The wall was imperfectly ruined.",
-            "The car went wham into the wall.",
-            "The blood sprayed onto the wall.",
-            "He hung the painting on the wall.",
-            "a door flush with the wall"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "И у стен есть уши.",
-            "Он сидел лицом к стене.",
-            "Великая китайская стена",
-            "Прибей картину к стене.",
-            "Он стоял, прислонившись к стене.",
-            "Лошадь перепрыгнула каменную стену.",
-            "небольшое зеркало, прикреплённое к стене",
-            "Стена рухнула.",
-            "мышиная норка в стене",
-            "Она повесила плакат на стене.",
-            "Он стоял /сидел/ спиной к стене.",
-            "Стенки контейнера были синие.",
-            "Поверните лицо к стене.",
-            "Боб прислонился к стене.",
-            "Он прикрепил к стене какой-то знак.",
-            "Он врезался в стену.",
-            "Стена вокруг сада была воздвигнута в восемнадцатом веке.",
-            "стена, облицованная камнем",
-            "Просверлите в стене отверстие.",
-            "Он легонько коснулся стены.",
-            "Он съёжился у стены.",
-            "стены этого древнего города",
-            "Прибейте эту доску на стену!",
-            "Розы обвили стену.",
-            "Старый город окружает стена.",
-            "Стена была разрушена не полностью.",
-            "Бах! - машина врезалась прямо в стену.",
-            "Кровь брызнула на стену.",
-            "Он повесил картину на стену.",
-            "дверь заподлицо со стеной"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "al_+_Сг_=_[ɔːl]"
-        ]
-    }
+  "wall": {
+    "comment": [
+      "ball",
+      "baseball",
+      "basketball",
+      "football",
+      "recall",
+      "hall",
+      "tall",
+      "fall",
+      "all",
+      "small",
+      "call",
+      "overall",
+      "install",
+      "shall",
+      "stall",
+      "mall",
+      "waterfall",
+      "wallet"
+    ],
+    "translate": " стена, стенной, настенный, стенка, вал, барьер, бок, обносить стеной",
+    "transcription": "  |wɔːl|",
+    "antonyms": [],
+    "mnemonic": [
+      "wall [(ув)о'л] стена - Грехи (Уол) Стрита замаливаются у Стены плача."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "al_+_Сг_=_[ɔːl]"
+    ],
+    "examples": [
+      {
+        "eng": "Walls have ears. посл.",
+        "ru": "И у стен есть уши.",
+        "learn": 0
+      },
+      {
+        "eng": "He sat facing the wall.",
+        "ru": "Он сидел лицом к стене.",
+        "learn": 0
+      },
+      {
+        "eng": "The Great Wall of China",
+        "ru": "Великая китайская стена",
+        "learn": 0
+      },
+      {
+        "eng": "Nail the picture to the wall.",
+        "ru": "Прибей картину к стене.",
+        "learn": 0
+      },
+      {
+        "eng": "He stood up to the wall.",
+        "ru": "Он стоял, прислонившись к стене.",
+        "learn": 0
+      },
+      {
+        "eng": "The horse leaped the stone wall.",
+        "ru": "Лошадь перепрыгнула каменную стену.",
+        "learn": 0
+      },
+      {
+        "eng": "a small mirror fixed to the wall",
+        "ru": "небольшое зеркало, прикреплённое к стене",
+        "learn": 0
+      },
+      {
+        "eng": "The wall collapsed",
+        "ru": "Стена рухнула.",
+        "learn": 0
+      },
+      {
+        "eng": "a mouse hole in the wall",
+        "ru": "мышиная норка в стене",
+        "learn": 0
+      },
+      {
+        "eng": "She tacked a poster on the wall.",
+        "ru": "Она повесила плакат на стене.",
+        "learn": 1
+      },
+      {
+        "eng": "His back was to the wall.",
+        "ru": "Он стоял /сидел/ спиной к стене.",
+        "learn": 0
+      },
+      {
+        "eng": "The container's walls were blue.",
+        "ru": "Стенки контейнера были синие.",
+        "learn": 0
+      },
+      {
+        "eng": "Turn your face to the wall",
+        "ru": "Поверните лицо к стене.",
+        "learn": 0
+      },
+      {
+        "eng": "Bob leaned against the wall.",
+        "ru": "Боб прислонился к стене.",
+        "learn": 0
+      },
+      {
+        "eng": "He pinned a sign on the wall.",
+        "ru": "Он прикрепил к стене какой-то знак.",
+        "learn": 0
+      },
+      {
+        "eng": "He smashed into the wall.",
+        "ru": "Он врезался в стену.",
+        "learn": 0
+      },
+      {
+        "eng": "The garden was walled in during the 18th century.",
+        "ru": "Стена вокруг сада была воздвигнута в восемнадцатом веке.",
+        "learn": 0
+      },
+      {
+        "eng": "a wall with a stone veneer",
+        "ru": "стена, облицованная камнем",
+        "learn": 0
+      },
+      {
+        "eng": "Drill a hole into the wall.",
+        "ru": "Просверлите в стене отверстие.",
+        "learn": 0
+      },
+      {
+        "eng": "He brushed the wall lightly.",
+        "ru": "Он легонько коснулся стены.",
+        "learn": 0
+      },
+      {
+        "eng": "He cowered against the wall.",
+        "ru": "Он съёжился у стены.",
+        "learn": 0
+      },
+      {
+        "eng": "the walls of the ancient city",
+        "ru": "стены этого древнего города",
+        "learn": 0
+      },
+      {
+        "eng": "Nail the board onto the wall!",
+        "ru": "Прибейте эту доску на стену!",
+        "learn": 0
+      },
+      {
+        "eng": "The roses ramped over the wall",
+        "ru": "Розы обвили стену.",
+        "learn": 0
+      },
+      {
+        "eng": "A wall surrounds the old city.",
+        "ru": "Старый город окружает стена.",
+        "learn": 0
+      },
+      {
+        "eng": "The wall was imperfectly ruined.",
+        "ru": "Стена была разрушена не полностью.",
+        "learn": 0
+      },
+      {
+        "eng": "The car went wham into the wall.",
+        "ru": "Бах! - машина врезалась прямо в стену.",
+        "learn": 0
+      },
+      {
+        "eng": "The blood sprayed onto the wall.",
+        "ru": "Кровь брызнула на стену.",
+        "learn": 0
+      },
+      {
+        "eng": "He hung the painting on the wall.",
+        "ru": "Он повесил картину на стену.",
+        "learn": 1
+      },
+      {
+        "eng": "a door flush with the wall",
+        "ru": "дверь заподлицо со стеной",
+        "learn": 0
+      }
+    ]
+  }
 }

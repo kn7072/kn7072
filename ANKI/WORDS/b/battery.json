@@ -1,78 +1,155 @@
 {
-    "battery": {
-        "comment": [
-            "batch",
-            "debate",
-            "battle",
-            "battered",
-            "bat"
-        ],
-        "translate": "батарея, аккумулятор, батарейка, побои, батарейный",
-        "transcription": " |ˈbætri|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The battery is charging.",
-            "The battery is dead / flat.",
-            "The car's got a flat battery.",
-            "I need to charge my car battery.",
-            "Connect the cable to the battery.",
-            "They bagged 9,000 PWs and a battery of 15-inch guns.",
-            "The battery had a short life.",
-            "We need a new battery for the radio.",
-            "We tried to charge the car's battery.",
-            "Leave the battery on charge all night.",
-            "The battery was dead and the car wouldn't start.",
-            "When the red light comes on, you should recharge the battery .",
-            "the battery needed a fresh charge",
-            "The camcorder needs a new battery.",
-            "The battery in this watch is going.",
-            "How much energy can this battery store?",
-            "Installing a car battery is a simple procedure.",
-            "When the computer beeps, you need to recharge the battery.",
-            "Disconnecting the battery will silence the alarm.",
-            "It takes about an hour for the battery to recharge.",
-            "The operation was performed by a battery of doctors.",
-            "You have to take the top off to change the batteries.",
-            "A neighbouring battery of guns were being worked into position.",
-            "They left the lights on and came back to find the battery drained.",
-            "His camera ran out of juice because he forgot to replace the battery.",
-            "He was collared by two French soldiers, and dragged back into the battery.",
-            "Marlborough erected another battery to play upon the south-eastern bastion."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Батарея сейчас заряжается.",
-            "Батарея села.",
-            "У автомобиля сел аккумулятор.",
-            "Мне нужно зарядить аккумулятор в автомобиле.",
-            "Подключите кабель к батарее / аккумулятору.",
-            "Они взяли захватили 9 тысяч человек и целую батарею 15-дюймовых орудий.",
-            "Этот аккумулятор прослужил недолго. / Жизнь этой батареи была недолгой.",
-            "Нам нужна новая батарейка для радио.",
-            "Мы пытались зарядить аккумулятор автомобиля.",
-            "Оставьте аккумулятор заряжаться на всю ночь.",
-            "Аккумулятор сел, и машина никак не заводилась.",
-            "Когда загорается красный огонёк, следует зарядить батарею .",
-            "аккумулятор нужен свежий заряд",
-            "Видеокамере нужен новый аккумулятор.",
-            "Батарейка в часах садится.",
-            "Какова энергоёмкость этой батареи?",
-            "Процедура установки аккумулятора проста.",
-            "Когда компьютер запищит, нужно будет зарядить аккумулятор.",
-            "Будильник замолчит, если вынуть из него батарейку.",
-            "Батарея заряжается примерно за час. / Подзарядка батареи занимает около часа.",
-            "Операция была проведена командой /группой/ врачей.",
-            "Чтобы поменять батарейки, вам придётся снять крышку.",
-            "Соседняя артиллерийская батарея выдвигалась на позицию.",
-            "Они не выключили фары и ушли, а когда вернулись, то оказалось, что аккумулятор полностью разряжен.",
-            "Его камера разрядилась (села батарейка), потому что он забыл заменить батарею.",
-            "Двое французских солдат схватили его за воротник и оттащили обратно на батарею.",
-            "Мальборо соорудил ещё одну батарею, чтобы обстреливать юго-восточный бастион."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "battery": {
+    "comment": [
+      "batch",
+      "debate",
+      "battle",
+      "battered",
+      "bat"
+    ],
+    "translate": "батарея, аккумулятор, батарейка, побои, батарейный",
+    "transcription": " |ˈbætri|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The battery is charging.",
+        "ru": "Батарея сейчас заряжается.",
+        "learn": 0
+      },
+      {
+        "eng": "The battery is dead / flat.",
+        "ru": "Батарея села.",
+        "learn": 0
+      },
+      {
+        "eng": "The car's got a flat battery.",
+        "ru": "У автомобиля сел аккумулятор.",
+        "learn": 0
+      },
+      {
+        "eng": "I need to charge my car battery.",
+        "ru": "Мне нужно зарядить аккумулятор в автомобиле.",
+        "learn": 1
+      },
+      {
+        "eng": "Connect the cable to the battery.",
+        "ru": "Подключите кабель к батарее / аккумулятору.",
+        "learn": 1
+      },
+      {
+        "eng": "They bagged 9,000 PWs and a battery of 15-inch guns.",
+        "ru": "Они взяли захватили 9 тысяч человек и целую батарею 15-дюймовых орудий.",
+        "learn": 0
+      },
+      {
+        "eng": "The battery had a short life.",
+        "ru": "Этот аккумулятор прослужил недолго. / Жизнь этой батареи была недолгой.",
+        "learn": 0
+      },
+      {
+        "eng": "We need a new battery for the radio.",
+        "ru": "Нам нужна новая батарейка для радио.",
+        "learn": 0
+      },
+      {
+        "eng": "We tried to charge the car's battery.",
+        "ru": "Мы пытались зарядить аккумулятор автомобиля.",
+        "learn": 0
+      },
+      {
+        "eng": "Leave the battery on charge all night.",
+        "ru": "Оставьте аккумулятор заряжаться на всю ночь.",
+        "learn": 1
+      },
+      {
+        "eng": "The battery was dead and the car wouldn't start.",
+        "ru": "Аккумулятор сел, и машина никак не заводилась.",
+        "learn": 0
+      },
+      {
+        "eng": "When the red light comes on, you should recharge the battery .",
+        "ru": "Когда загорается красный огонёк, следует зарядить батарею .",
+        "learn": 0
+      },
+      {
+        "eng": "the battery needed a fresh charge",
+        "ru": "аккумулятор нужен свежий заряд",
+        "learn": 0
+      },
+      {
+        "eng": "The camcorder needs a new battery.",
+        "ru": "Видеокамере нужен новый аккумулятор.",
+        "learn": 0
+      },
+      {
+        "eng": "The battery in this watch is going.",
+        "ru": "Батарейка в часах садится.",
+        "learn": 0
+      },
+      {
+        "eng": "How much energy can this battery store?",
+        "ru": "Какова энергоёмкость этой батареи?",
+        "learn": 0
+      },
+      {
+        "eng": "Installing a car battery is a simple procedure.",
+        "ru": "Процедура установки аккумулятора проста.",
+        "learn": 0
+      },
+      {
+        "eng": "When the computer beeps, you need to recharge the battery.",
+        "ru": "Когда компьютер запищит, нужно будет зарядить аккумулятор.",
+        "learn": 0
+      },
+      {
+        "eng": "Disconnecting the battery will silence the alarm.",
+        "ru": "Будильник замолчит, если вынуть из него батарейку.",
+        "learn": 0
+      },
+      {
+        "eng": "It takes about an hour for the battery to recharge.",
+        "ru": "Батарея заряжается примерно за час. / Подзарядка батареи занимает около часа.",
+        "learn": 0
+      },
+      {
+        "eng": "The operation was performed by a battery of doctors.",
+        "ru": "Операция была проведена командой /группой/ врачей.",
+        "learn": 0
+      },
+      {
+        "eng": "You have to take the top off to change the batteries.",
+        "ru": "Чтобы поменять батарейки, вам придётся снять крышку.",
+        "learn": 0
+      },
+      {
+        "eng": "A neighbouring battery of guns were being worked into position.",
+        "ru": "Соседняя артиллерийская батарея выдвигалась на позицию.",
+        "learn": 1
+      },
+      {
+        "eng": "They left the lights on and came back to find the battery drained.",
+        "ru": "Они не выключили фары и ушли, а когда вернулись, то оказалось, что аккумулятор полностью разряжен.",
+        "learn": 0
+      },
+      {
+        "eng": "His camera ran out of juice because he forgot to replace the battery.",
+        "ru": "Его камера разрядилась (села батарейка), потому что он забыл заменить батарею.",
+        "learn": 0
+      },
+      {
+        "eng": "He was collared by two French soldiers, and dragged back into the battery.",
+        "ru": "Двое французских солдат схватили его за воротник и оттащили обратно на батарею.",
+        "learn": 0
+      },
+      {
+        "eng": "Marlborough erected another battery to play upon the south-eastern bastion.",
+        "ru": "Мальборо соорудил ещё одну батарею, чтобы обстреливать юго-восточный бастион.",
+        "learn": 0
+      }
+    ]
+  }
 }

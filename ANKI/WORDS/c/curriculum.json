@@ -1,68 +1,124 @@
 {
-    "curriculum": {
-        "comment": [
-            "lump",
-            "volume",
-            "column",
-            "asylum",
-            "aluminium",
-            "clumsy"
-        ],
-        "translate": "учебный план, курс обучения",
-        "transcription": " |kəˈrɪkjələm|",
-        "antonyms": [],
-        "mnemonic": [
-            "curriculum [кэри'кьюлэм] учебный план - Джим (Керри к юлам) обратился за составлением учебного плана:",
-            "curriculum [kə'rɪkjuləm]\n***\nЗа УЧЕБНЫЙ ПЛАН не кори|кулем. (это) curriculum\nКурс обучения."
-        ],
-        "examples": [
-            "Has computer studies been introduced into the school curriculum?",
-            "The college has a liberal arts curriculum.",
-            "We have to build computers into the school curriculum.",
-            "The sciences are a vital part of the school curriculum.",
-            "Languages are an essential part of the school curriculum.",
-            "The curriculum includes courses in computing.",
-            "The school board strongly endorsed a curriculum that reflected a multicultural education.",
-            "IT is now on the curriculum in most schools.",
-            "We need to provide more breadth in the college curriculum.",
-            "The curriculum makes great demands on the teacher.",
-            "Many pupils follow an imbalanced curriculum.",
-            "The course curriculum is geared to span three years.",
-            "All schools must follow the prescribed curriculum.",
-            "Students are exempt from some classes in the curriculum for religious reasons.",
-            "With these aims in mind, the school operates a broad-based curriculum.",
-            "The school's curriculum encourages independent thinking.",
-            "A committee was appointed to oversee the reorganization of the curriculum.",
-            "The new curriculum is an attempt to homogenize education throughout the county.",
-            "Teachers feel they have little room for manoeuvre when the curriculum is so demanding.",
-            "Teachers are expected to teach a range of subjects right across the curriculum."
-        ],
-        "example_translate": [
-            "Изучение компьютера уже внесено в учебный план?",
-            "В этом колледже есть курс гуманитарных дисциплин.",
-            "Мы должны ввести в школьный курс компьютерное обучение.",
-            "Естественные науки являются важнейшей частью школьной программы.",
-            "Языки являются неотъемлемой частью школьной программы.",
-            "Учебная программа включает в себя курс по вычислительной технике.",
-            "Правление школы строго порекомендовало учебный план, включающий мультикультуральное обучение.",
-            "Сейчас информатика входит в учебный план большинства школ.",
-            "Учебные программы колледжа нуждаются в расширении.",
-            "Данный учебный план предъявляет большие требования к преподавателям.",
-            "Многие ученики учатся по несбалансированной учебной программе.",
-            "Учебная программа данного курса рассчитана на три года.",
-            "Все школы должны следовать предписанному учебному плану.",
-            "Студенты могут освобождаться от некоторых занятий в учебной программе по религиозным причинам.",
-            "Имея в виду эти цели, в школе функционирует обширная учебная программа.",
-            "Учебный план этой школы развивает самостоятельное мышление.",
-            "Была назначена комиссия по надзору за реорганизацией учебных программ.",
-            "Новый учебный план является попыткой сделать однородной систему образования по всему округу.",
-            "Учителя считают, что с таким тяжёлым учебным планом у них почти нет места для манёвра.",
-            "Ожидается, что учителя будут преподавать целый ряд предметов по всей ширине учебной программы."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "curriculum": {
+    "comment": [
+      "lump",
+      "volume",
+      "column",
+      "asylum",
+      "aluminium",
+      "clumsy"
+    ],
+    "translate": "учебный план, курс обучения",
+    "transcription": " |kəˈrɪkjələm|",
+    "antonyms": [],
+    "mnemonic": [
+      "curriculum [кэри'кьюлэм] учебный план - Джим (Керри к юлам) обратился за составлением учебного плана:",
+      "curriculum [kə'rɪkjuləm]\n***\nЗа УЧЕБНЫЙ ПЛАН не кори|кулем. (это) curriculum\nКурс обучения."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Has computer studies been introduced into the school curriculum?",
+        "ru": "Изучение компьютера уже внесено в учебный план?",
+        "learn": 0
+      },
+      {
+        "eng": "The college has a liberal arts curriculum.",
+        "ru": "В этом колледже есть курс гуманитарных дисциплин.",
+        "learn": 0
+      },
+      {
+        "eng": "We have to build computers into the school curriculum.",
+        "ru": "Мы должны ввести в школьный курс компьютерное обучение.",
+        "learn": 0
+      },
+      {
+        "eng": "The sciences are a vital part of the school curriculum.",
+        "ru": "Естественные науки являются важнейшей частью школьной программы.",
+        "learn": 0
+      },
+      {
+        "eng": "Languages are an essential part of the school curriculum.",
+        "ru": "Языки являются неотъемлемой частью школьной программы.",
+        "learn": 1
+      },
+      {
+        "eng": "The curriculum includes courses in computing.",
+        "ru": "Учебная программа включает в себя курс по вычислительной технике.",
+        "learn": 1
+      },
+      {
+        "eng": "The school board strongly endorsed a curriculum that reflected a multicultural education.",
+        "ru": "Правление школы строго порекомендовало учебный план, включающий мультикультуральное обучение.",
+        "learn": 0
+      },
+      {
+        "eng": "IT is now on the curriculum in most schools.",
+        "ru": "Сейчас информатика входит в учебный план большинства школ.",
+        "learn": 0
+      },
+      {
+        "eng": "We need to provide more breadth in the college curriculum.",
+        "ru": "Учебные программы колледжа нуждаются в расширении.",
+        "learn": 1
+      },
+      {
+        "eng": "The curriculum makes great demands on the teacher.",
+        "ru": "Данный учебный план предъявляет большие требования к преподавателям.",
+        "learn": 0
+      },
+      {
+        "eng": "Many pupils follow an imbalanced curriculum.",
+        "ru": "Многие ученики учатся по несбалансированной учебной программе.",
+        "learn": 1
+      },
+      {
+        "eng": "The course curriculum is geared to span three years.",
+        "ru": "Учебная программа данного курса рассчитана на три года.",
+        "learn": 0
+      },
+      {
+        "eng": "All schools must follow the prescribed curriculum.",
+        "ru": "Все школы должны следовать предписанному учебному плану.",
+        "learn": 0
+      },
+      {
+        "eng": "Students are exempt from some classes in the curriculum for religious reasons.",
+        "ru": "Студенты могут освобождаться от некоторых занятий в учебной программе по религиозным причинам.",
+        "learn": 0
+      },
+      {
+        "eng": "With these aims in mind, the school operates a broad-based curriculum.",
+        "ru": "Имея в виду эти цели, в школе функционирует обширная учебная программа.",
+        "learn": 0
+      },
+      {
+        "eng": "The school's curriculum encourages independent thinking.",
+        "ru": "Учебный план этой школы развивает самостоятельное мышление.",
+        "learn": 0
+      },
+      {
+        "eng": "A committee was appointed to oversee the reorganization of the curriculum.",
+        "ru": "Была назначена комиссия по надзору за реорганизацией учебных программ.",
+        "learn": 0
+      },
+      {
+        "eng": "The new curriculum is an attempt to homogenize education throughout the county.",
+        "ru": "Новый учебный план является попыткой сделать однородной систему образования по всему округу.",
+        "learn": 0
+      },
+      {
+        "eng": "Teachers feel they have little room for manoeuvre when the curriculum is so demanding.",
+        "ru": "Учителя считают, что с таким тяжёлым учебным планом у них почти нет места для манёвра.",
+        "learn": 0
+      },
+      {
+        "eng": "Teachers are expected to teach a range of subjects right across the curriculum.",
+        "ru": "Ожидается, что учителя будут преподавать целый ряд предметов по всей ширине учебной программы.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,80 +1,160 @@
 {
-    "blanket": {
-        "comment": [
-            "blank",
-            "blade",
-            "blaze"
-        ],
-        "translate": "одеяло, покров, общий, полный, охватывать, заглушать",
-        "transcription": " |ˈblæŋkɪt|",
-        "antonyms": [],
-        "mnemonic": [
-            "blanket [бла'нкит] одеяло - (Бланк кит) вместо одеяла использовал."
-        ],
-        "examples": [
-            "The blanket will warm you",
-            "Cover the child with a blanket.",
-            "Where is this blanket to go?",
-            "The whole garden was blanketed in leaves.",
-            "A blanket of fog covered the fields.",
-            "Stop being a wet blanket and come and dance.",
-            "The hillside was blanketed with flowers.",
-            "The rooftops were blanketed in snow.",
-            "There was a blanket of snow.",
-            "I peeped my head out from under the blanket.",
-            "She pulled the blanket over her head.",
-            "He burrowed down beneath the blanket.",
-            "Ice was blanketing the bay.",
-            "Mommy, this blanket tickles.",
-            "He swaddled the baby in a blanket.",
-            "She smothered the fire with a blanket.",
-            "...please take up the blanket so I can look underneath it...",
-            "The child is always dragging his blanket.",
-            "She was using a blanket to keep her tootsies warm.",
-            "Her baby just slobbered on the blanket.",
-            "Joseph was shrouded under a dark blanket.",
-            "Gingerly I raised the edge of the blanket.",
-            "Ella looked at the tiny face poking out of the blanket.",
-            "She felt snug under the warm blanket.",
-            "The edges of the blanket were bound with ribbon.",
-            "A blanket of fog concealed the view of the harbor.",
-            "A sea of white tents, brown blanket shelters, and nondescript hutments.",
-            "I'd love to go to the party, but with my cold, I'm afraid I'd just be a wet blanket."
-        ],
-        "example_translate": [
-            "Одеяло согреет вас",
-            "Укрой ребёнка одеялом.",
-            "Куда положить это одеяло?",
-            "Весь сад был засыпан листьями.",
-            "Туман плотным слоем окутал поля.",
-            "Да не будь таким занудой, иди и потанцуй.",
-            "Склон холма был сплошь усыпан цветами.",
-            "На крышах лежал снег.",
-            "Всё было покрыто снегом /снежным одеялом/.",
-            "Я высунул голову из-под одеяла",
-            "Она натянула одеяло на голову.",
-            "Он зарылся в одеяло.",
-            "Бухта была покрыта льдом.",
-            "Мамочка, это одеяло колется.",
-            "Он завернул младенца в одеяло.",
-            "Она потушила огонь одеялом.",
-            "...пожалуйста, подними одеяло, чтобы я мог заглянуть под него...",
-            "Этот ребёнок постоянно волочит за собой одеяло.",
-            "Она согревала свои ножки одеялом.",
-            "Её малыш только что обслюнявил одеяло.",
-            "Джозеф был укрыт тёмным одеялом.",
-            "Я осторожно поднял край одеяла.",
-            "Элла взглянула /посмотрела/ на крохотное личико, выглядывающее из-под одеяла.",
-            "Ей было уютно под этим тёплым одеялом.",
-            "Края одеяла были обшиты тесьмой.",
-            "Вид на гавань был скрыт под пеленой тумана.",
-            "Море белых палаток, сооружений из коричневых шерстяных одеял и группки невзрачных хижин.",
-            "Я бы с радостью пошла на праздник, но боюсь, что своим насморком буду только портить всем настроение."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "blanket": {
+    "comment": [
+      "blank",
+      "blade",
+      "blaze"
+    ],
+    "translate": "одеяло, покров, общий, полный, охватывать, заглушать",
+    "transcription": " |ˈblæŋkɪt|",
+    "antonyms": [],
+    "mnemonic": [
+      "blanket [бла'нкит] одеяло - (Бланк кит) вместо одеяла использовал."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The blanket will warm you",
+        "ru": "Одеяло согреет вас",
+        "learn": 1
+      },
+      {
+        "eng": "Cover the child with a blanket.",
+        "ru": "Укрой ребёнка одеялом.",
+        "learn": 1
+      },
+      {
+        "eng": "Where is this blanket to go?",
+        "ru": "Куда положить это одеяло?",
+        "learn": 0
+      },
+      {
+        "eng": "The whole garden was blanketed in leaves.",
+        "ru": "Весь сад был засыпан листьями.",
+        "learn": 0
+      },
+      {
+        "eng": "A blanket of fog covered the fields.",
+        "ru": "Туман плотным слоем окутал поля.",
+        "learn": 0
+      },
+      {
+        "eng": "Stop being a wet blanket and come and dance.",
+        "ru": "Да не будь таким занудой, иди и потанцуй.",
+        "learn": 0
+      },
+      {
+        "eng": "The hillside was blanketed with flowers.",
+        "ru": "Склон холма был сплошь усыпан цветами.",
+        "learn": 0
+      },
+      {
+        "eng": "The rooftops were blanketed in snow.",
+        "ru": "На крышах лежал снег.",
+        "learn": 0
+      },
+      {
+        "eng": "There was a blanket of snow.",
+        "ru": "Всё было покрыто снегом /снежным одеялом/.",
+        "learn": 0
+      },
+      {
+        "eng": "I peeped my head out from under the blanket.",
+        "ru": "Я высунул голову из-под одеяла",
+        "learn": 0
+      },
+      {
+        "eng": "She pulled the blanket over her head.",
+        "ru": "Она натянула одеяло на голову.",
+        "learn": 0
+      },
+      {
+        "eng": "He burrowed down beneath the blanket.",
+        "ru": "Он зарылся в одеяло.",
+        "learn": 0
+      },
+      {
+        "eng": "Ice was blanketing the bay.",
+        "ru": "Бухта была покрыта льдом.",
+        "learn": 0
+      },
+      {
+        "eng": "Mommy, this blanket tickles.",
+        "ru": "Мамочка, это одеяло колется.",
+        "learn": 0
+      },
+      {
+        "eng": "He swaddled the baby in a blanket.",
+        "ru": "Он завернул младенца в одеяло.",
+        "learn": 0
+      },
+      {
+        "eng": "She smothered the fire with a blanket.",
+        "ru": "Она потушила огонь одеялом.",
+        "learn": 0
+      },
+      {
+        "eng": "...please take up the blanket so I can look underneath it...",
+        "ru": "...пожалуйста, подними одеяло, чтобы я мог заглянуть под него...",
+        "learn": 0
+      },
+      {
+        "eng": "The child is always dragging his blanket.",
+        "ru": "Этот ребёнок постоянно волочит за собой одеяло.",
+        "learn": 0
+      },
+      {
+        "eng": "She was using a blanket to keep her tootsies warm.",
+        "ru": "Она согревала свои ножки одеялом.",
+        "learn": 0
+      },
+      {
+        "eng": "Her baby just slobbered on the blanket.",
+        "ru": "Её малыш только что обслюнявил одеяло.",
+        "learn": 0
+      },
+      {
+        "eng": "Joseph was shrouded under a dark blanket.",
+        "ru": "Джозеф был укрыт тёмным одеялом.",
+        "learn": 0
+      },
+      {
+        "eng": "Gingerly I raised the edge of the blanket.",
+        "ru": "Я осторожно поднял край одеяла.",
+        "learn": 0
+      },
+      {
+        "eng": "Ella looked at the tiny face poking out of the blanket.",
+        "ru": "Элла взглянула /посмотрела/ на крохотное личико, выглядывающее из-под одеяла.",
+        "learn": 0
+      },
+      {
+        "eng": "She felt snug under the warm blanket.",
+        "ru": "Ей было уютно под этим тёплым одеялом.",
+        "learn": 0
+      },
+      {
+        "eng": "The edges of the blanket were bound with ribbon.",
+        "ru": "Края одеяла были обшиты тесьмой.",
+        "learn": 1
+      },
+      {
+        "eng": "A blanket of fog concealed the view of the harbor.",
+        "ru": "Вид на гавань был скрыт под пеленой тумана.",
+        "learn": 0
+      },
+      {
+        "eng": "A sea of white tents, brown blanket shelters, and nondescript hutments.",
+        "ru": "Море белых палаток, сооружений из коричневых шерстяных одеял и группки невзрачных хижин.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd love to go to the party, but with my cold, I'm afraid I'd just be a wet blanket.",
+        "ru": "Я бы с радостью пошла на праздник, но боюсь, что своим насморком буду только портить всем настроение.",
+        "learn": 0
+      }
+    ]
+  }
 }

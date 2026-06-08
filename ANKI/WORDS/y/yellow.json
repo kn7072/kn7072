@@ -1,83 +1,170 @@
 {
-    "yellow": {
-        "comment": [
-            "yellowish"
-        ],
-        "translate": "жёлтый, трусливый, ревнивый, желтить, желтеть, жёлтый цвет, желтизна",
-        "transcription": " |ˈjeloʊ|",
-        "antonyms": [],
-        "mnemonic": [
-            "yellow [е'лоу] жёлтый - Жёлтая кошка рыбу (ела у) реки."
-        ],
-        "examples": [
-            "The leaves turned yellow.",
-            "He was too yellow to stand up and fight.",
-            "New York's yellow cabs",
-            "a yellow rose with a lovely scent",
-            "Yellow leaves floated down.",
-            "too yellow to stand and fight",
-            "He has a yellow streak in him.",
-            "Yellow doesn't suit me at all.",
-            "The leaves were turning yellow.",
-            "a diagnostic sign of yellow fever",
-            "The lamp shed a harsh yellow light.",
-            "We're going to paint the room yellow.",
-            "The pages of the book began to yellow.",
-            "She was wearing yellow that day",
-            "The paper had yellowed with age.",
-            "Leaves margined with bright yellow.",
-            "The leaves were yellowed by disease.",
-            "Yellow knotted silk square at the throat.",
-            "She was trussed up with yellow nylon rope.",
-            "We painted the rooms yellow.",
-            "a fabric with a blue and yellow check",
-            "The uniform was red faced with yellow.",
-            "a room decorated in yellows and greens",
-            "She prefers a pastel like light yellow.",
-            "The yellow leaf is margined with green.",
-            "I don't think pink and yellow really go.",
-            "The labels bear a yellow and black symbol.",
-            "The meadows, spangled with yellow flowers.",
-            "Insolated paper may turn yellow and crumble.",
-            "the bright yellow coloration of the curtains"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Листья пожелтели.",
-            "Он был слишком труслив, чтобы встать и бороться.",
-            "нью-йоркские желтые такси / жёлтые такси Нью-Йорка",
-            "желтая Роза с прекрасным ароматом",
-            "Жёлтые листья плыли вниз по течению.",
-            "слишком трусливые, чтобы встать и бороться",
-            "Он трусоват.",
-            "Желтый цвет мне совсем не идёт / подходит.",
-            "Листья становились жёлтыми.",
-            "диагностический признак жёлтой лихорадки",
-            "Лампа светилась резким жёлтым светом.",
-            "Мы собираемся покрасить эту комнату в жёлтый цвет.",
-            "Страницы книги начали желтеть.",
-            "В тот день она была вся в жёлтом (на ней была одежда жёлтого цвета)",
-            "Бумаги были старые, с пожелтевшими страницами.",
-            "Листья с ярко-желтой каймой.",
-            "Листья пожелтели от болезней.",
-            "Жёлтый, завязанный узлом, галстук на шее.",
-            "Она была связана жёлтой нейлоновой верёвкой.",
-            "Мы покрасили помещения в жёлтый цвет.",
-            "ткань в синюю и жёлтую клетку",
-            "Форма была красная с жёлтой отделкой.",
-            "комната, оформленная в жёлтых и зелёных тонах",
-            "Она предпочитает пастельные тона, например светло-желтый тон.",
-            "Листок с зелёной каёмкой.",
-            "Я не думаю, что розовый и жёлтый хорошо сочетаются.",
-            "На этикетки нанесена жёлто-черная эмблема.",
-            "Луга, усеянные жёлтыми цветами.",
-            "На солнце бумага может пожелтеть и раскрошиться.",
-            "ярко-жёлтая расцветка штор"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ow_без_удар._=_[ou]"
-        ]
-    }
+  "yellow": {
+    "comment": [
+      "yellowish"
+    ],
+    "translate": "жёлтый, трусливый, ревнивый, желтить, желтеть, жёлтый цвет, желтизна",
+    "transcription": " |ˈjeloʊ|",
+    "antonyms": [],
+    "mnemonic": [
+      "yellow [е'лоу] жёлтый - Жёлтая кошка рыбу (ела у) реки."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ow_без_удар._=_[ou]"
+    ],
+    "examples": [
+      {
+        "eng": "The leaves turned yellow.",
+        "ru": "Листья пожелтели.",
+        "learn": 0
+      },
+      {
+        "eng": "He was too yellow to stand up and fight.",
+        "ru": "Он был слишком труслив, чтобы встать и бороться.",
+        "learn": 0
+      },
+      {
+        "eng": "New York's yellow cabs",
+        "ru": "нью-йоркские желтые такси / жёлтые такси Нью-Йорка",
+        "learn": 0
+      },
+      {
+        "eng": "a yellow rose with a lovely scent",
+        "ru": "желтая Роза с прекрасным ароматом",
+        "learn": 1
+      },
+      {
+        "eng": "Yellow leaves floated down.",
+        "ru": "Жёлтые листья плыли вниз по течению.",
+        "learn": 0
+      },
+      {
+        "eng": "too yellow to stand and fight",
+        "ru": "слишком трусливые, чтобы встать и бороться",
+        "learn": 0
+      },
+      {
+        "eng": "He has a yellow streak in him.",
+        "ru": "Он трусоват.",
+        "learn": 0
+      },
+      {
+        "eng": "Yellow doesn't suit me at all.",
+        "ru": "Желтый цвет мне совсем не идёт / подходит.",
+        "learn": 0
+      },
+      {
+        "eng": "The leaves were turning yellow.",
+        "ru": "Листья становились жёлтыми.",
+        "learn": 0
+      },
+      {
+        "eng": "a diagnostic sign of yellow fever",
+        "ru": "диагностический признак жёлтой лихорадки",
+        "learn": 0
+      },
+      {
+        "eng": "The lamp shed a harsh yellow light.",
+        "ru": "Лампа светилась резким жёлтым светом.",
+        "learn": 0
+      },
+      {
+        "eng": "We're going to paint the room yellow.",
+        "ru": "Мы собираемся покрасить эту комнату в жёлтый цвет.",
+        "learn": 0
+      },
+      {
+        "eng": "The pages of the book began to yellow.",
+        "ru": "Страницы книги начали желтеть.",
+        "learn": 0
+      },
+      {
+        "eng": "She was wearing yellow that day",
+        "ru": "В тот день она была вся в жёлтом (на ней была одежда жёлтого цвета)",
+        "learn": 0
+      },
+      {
+        "eng": "The paper had yellowed with age.",
+        "ru": "Бумаги были старые, с пожелтевшими страницами.",
+        "learn": 0
+      },
+      {
+        "eng": "Leaves margined with bright yellow.",
+        "ru": "Листья с ярко-желтой каймой.",
+        "learn": 0
+      },
+      {
+        "eng": "The leaves were yellowed by disease.",
+        "ru": "Листья пожелтели от болезней.",
+        "learn": 0
+      },
+      {
+        "eng": "Yellow knotted silk square at the throat.",
+        "ru": "Жёлтый, завязанный узлом, галстук на шее.",
+        "learn": 0
+      },
+      {
+        "eng": "She was trussed up with yellow nylon rope.",
+        "ru": "Она была связана жёлтой нейлоновой верёвкой.",
+        "learn": 0
+      },
+      {
+        "eng": "We painted the rooms yellow.",
+        "ru": "Мы покрасили помещения в жёлтый цвет.",
+        "learn": 0
+      },
+      {
+        "eng": "a fabric with a blue and yellow check",
+        "ru": "ткань в синюю и жёлтую клетку",
+        "learn": 0
+      },
+      {
+        "eng": "The uniform was red faced with yellow.",
+        "ru": "Форма была красная с жёлтой отделкой.",
+        "learn": 0
+      },
+      {
+        "eng": "a room decorated in yellows and greens",
+        "ru": "комната, оформленная в жёлтых и зелёных тонах",
+        "learn": 0
+      },
+      {
+        "eng": "She prefers a pastel like light yellow.",
+        "ru": "Она предпочитает пастельные тона, например светло-желтый тон.",
+        "learn": 0
+      },
+      {
+        "eng": "The yellow leaf is margined with green.",
+        "ru": "Листок с зелёной каёмкой.",
+        "learn": 1
+      },
+      {
+        "eng": "I don't think pink and yellow really go.",
+        "ru": "Я не думаю, что розовый и жёлтый хорошо сочетаются.",
+        "learn": 0
+      },
+      {
+        "eng": "The labels bear a yellow and black symbol.",
+        "ru": "На этикетки нанесена жёлто-черная эмблема.",
+        "learn": 0
+      },
+      {
+        "eng": "The meadows, spangled with yellow flowers.",
+        "ru": "Луга, усеянные жёлтыми цветами.",
+        "learn": 0
+      },
+      {
+        "eng": "Insolated paper may turn yellow and crumble.",
+        "ru": "На солнце бумага может пожелтеть и раскрошиться.",
+        "learn": 0
+      },
+      {
+        "eng": "the bright yellow coloration of the curtains",
+        "ru": "ярко-жёлтая расцветка штор",
+        "learn": 0
+      }
+    ]
+  }
 }

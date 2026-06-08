@@ -1,82 +1,168 @@
 {
-    "eye": {
-        "comment": [
-            "eyebrow"
-        ],
-        "translate": "глаз, взгляд, взгляды, око, глазок, взор, наблюдать, смотреть, рассматривать",
-        "transcription": " |aɪ|",
-        "antonyms": [],
-        "mnemonic": [
-            "eye [ай] глаз - (Ай,ай,ай!) в глаз кому-то дали."
-        ],
-        "examples": [
-            "I have something in my eye.",
-            "Emily opened her eyes.",
-            "All the men eyed the beautiful girl with interest.",
-            "He has an artist's eye.",
-            "He tried to catch her eye.",
-            "She has an artist's eye.",
-            "Louise's eyes widened.",
-            "Four eyes see more than two.",
-            "Ow! I've got something in my eye!",
-            "The picture quality, to my eye, is excellent.",
-            "It was a sight for sore eyes.",
-            "He wears a patch over one eye.",
-            "She has an eye for fresh talent.",
-            "They were in the eye of the storm.",
-            "The thread wouldn't go through the eye.",
-            "Jessica's eyes sparkled with excitement.",
-            "The man behind the desk eyed us suspiciously.",
-            "He yawned, closed his eyes again, and turned over.",
-            "Clark's eyes narrowed as he saw the man approaching.",
-            "Are your eyes good enough for you to drive without glasses?",
-            "He has an artist's eye for color.",
-            "He's got brown eyes and a cheerful smile.",
-            "The shopkeeper eyed the cheque with doubt.",
-            "The meteor could be seen with the naked eye.",
-            "Her eyes slowly became accustomed to the dark.",
-            "I saw someone eyeing me from across the street.",
-            "Carl could do no wrong in the eyes of his parents.",
-            "The biographer cast a cold eye on the artist's life.",
-            "The story is told through the eyes of a refugee child.",
-            "She has a good eye for distances."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "У меня что-то в глазу. / Что-то попало мне в глаз.",
-            "Эмили открыла глаза.",
-            "Все мужчины с интересом разглядывали эту симпатичную девушку.",
-            "У него глаз художника.",
-            "Он пытался поймать ее взгляд /заглянуть ей в глаза/.",
-            "У неё взгляд художника.",
-            "Глаза Луизы округлились /расширились/.",
-            "Ум хорошо, а два лучше. (посл.)",
-            "Ой! Что-то попало мне в глаз!",
-            "Качество изображения, на мой взгляд, превосходное.",
-            "Это было отрадой для глаз.",
-            "Он носит на одном глазу повязку.",
-            "У нее намётан глаз на новые таланты.",
-            "Они были в самом центре урагана.",
-            "Нитка никак не продевалась в игольное ушко.",
-            "Глаза Джессики азартно засверкали.",
-            "Человек за столом подозрительно нас оглядел.",
-            "Зевнув, он снова закрыл глаза и перевернулся на другой бок.",
-            "Увидев идущего навстречу человека, Кларк сощурился.",
-            "Достаточно ли у тебя хорошее зрение, чтобы ты мог водить машину без очков?",
-            "У него намётанный на цвета глаз художника.",
-            "У него карие глаза и весёлая улыбка.",
-            "Хозяин магазина с сомнением рассматривал чек.",
-            "Метеор можно увидеть невооружённым глазом.",
-            "Её глаза постепенно привыкли к темноте.",
-            "Я увидел, что кто-то наблюдает за мной с другой стороны улицы.",
-            "В глазах своих родителей Карл не мог сделать ничего плохого.",
-            "Биограф окинул холодным взглядом жизнь этого художника.",
-            "Данная история рассказана от имени ребёнка-беженца.",
-            "У неё хороший глазомер."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "eye": {
+    "comment": [
+      "eyebrow"
+    ],
+    "translate": "глаз, взгляд, взгляды, око, глазок, взор, наблюдать, смотреть, рассматривать",
+    "transcription": " |aɪ|",
+    "antonyms": [],
+    "mnemonic": [
+      "eye [ай] глаз - (Ай,ай,ай!) в глаз кому-то дали."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I have something in my eye.",
+        "ru": "У меня что-то в глазу. / Что-то попало мне в глаз.",
+        "learn": 0
+      },
+      {
+        "eng": "Emily opened her eyes.",
+        "ru": "Эмили открыла глаза.",
+        "learn": 0
+      },
+      {
+        "eng": "All the men eyed the beautiful girl with interest.",
+        "ru": "Все мужчины с интересом разглядывали эту симпатичную девушку.",
+        "learn": 0
+      },
+      {
+        "eng": "He has an artist's eye.",
+        "ru": "У него глаз художника.",
+        "learn": 0
+      },
+      {
+        "eng": "He tried to catch her eye.",
+        "ru": "Он пытался поймать ее взгляд /заглянуть ей в глаза/.",
+        "learn": 1
+      },
+      {
+        "eng": "She has an artist's eye.",
+        "ru": "У неё взгляд художника.",
+        "learn": 0
+      },
+      {
+        "eng": "Louise's eyes widened.",
+        "ru": "Глаза Луизы округлились /расширились/.",
+        "learn": 0
+      },
+      {
+        "eng": "Four eyes see more than two.",
+        "ru": "Ум хорошо, а два лучше. (посл.)",
+        "learn": 0
+      },
+      {
+        "eng": "Ow! I've got something in my eye!",
+        "ru": "Ой! Что-то попало мне в глаз!",
+        "learn": 0
+      },
+      {
+        "eng": "The picture quality, to my eye, is excellent.",
+        "ru": "Качество изображения, на мой взгляд, превосходное.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a sight for sore eyes.",
+        "ru": "Это было отрадой для глаз.",
+        "learn": 0
+      },
+      {
+        "eng": "He wears a patch over one eye.",
+        "ru": "Он носит на одном глазу повязку.",
+        "learn": 0
+      },
+      {
+        "eng": "She has an eye for fresh talent.",
+        "ru": "У нее намётан глаз на новые таланты.",
+        "learn": 0
+      },
+      {
+        "eng": "They were in the eye of the storm.",
+        "ru": "Они были в самом центре урагана.",
+        "learn": 0
+      },
+      {
+        "eng": "The thread wouldn't go through the eye.",
+        "ru": "Нитка никак не продевалась в игольное ушко.",
+        "learn": 0
+      },
+      {
+        "eng": "Jessica's eyes sparkled with excitement.",
+        "ru": "Глаза Джессики азартно засверкали.",
+        "learn": 0
+      },
+      {
+        "eng": "The man behind the desk eyed us suspiciously.",
+        "ru": "Человек за столом подозрительно нас оглядел.",
+        "learn": 0
+      },
+      {
+        "eng": "He yawned, closed his eyes again, and turned over.",
+        "ru": "Зевнув, он снова закрыл глаза и перевернулся на другой бок.",
+        "learn": 0
+      },
+      {
+        "eng": "Clark's eyes narrowed as he saw the man approaching.",
+        "ru": "Увидев идущего навстречу человека, Кларк сощурился.",
+        "learn": 0
+      },
+      {
+        "eng": "Are your eyes good enough for you to drive without glasses?",
+        "ru": "Достаточно ли у тебя хорошее зрение, чтобы ты мог водить машину без очков?",
+        "learn": 0
+      },
+      {
+        "eng": "He has an artist's eye for color.",
+        "ru": "У него намётанный на цвета глаз художника.",
+        "learn": 0
+      },
+      {
+        "eng": "He's got brown eyes and a cheerful smile.",
+        "ru": "У него карие глаза и весёлая улыбка.",
+        "learn": 0
+      },
+      {
+        "eng": "The shopkeeper eyed the cheque with doubt.",
+        "ru": "Хозяин магазина с сомнением рассматривал чек.",
+        "learn": 1
+      },
+      {
+        "eng": "The meteor could be seen with the naked eye.",
+        "ru": "Метеор можно увидеть невооружённым глазом.",
+        "learn": 0
+      },
+      {
+        "eng": "Her eyes slowly became accustomed to the dark.",
+        "ru": "Её глаза постепенно привыкли к темноте.",
+        "learn": 0
+      },
+      {
+        "eng": "I saw someone eyeing me from across the street.",
+        "ru": "Я увидел, что кто-то наблюдает за мной с другой стороны улицы.",
+        "learn": 0
+      },
+      {
+        "eng": "Carl could do no wrong in the eyes of his parents.",
+        "ru": "В глазах своих родителей Карл не мог сделать ничего плохого.",
+        "learn": 0
+      },
+      {
+        "eng": "The biographer cast a cold eye on the artist's life.",
+        "ru": "Биограф окинул холодным взглядом жизнь этого художника.",
+        "learn": 0
+      },
+      {
+        "eng": "The story is told through the eyes of a refugee child.",
+        "ru": "Данная история рассказана от имени ребёнка-беженца.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a good eye for distances.",
+        "ru": "У неё хороший глазомер.",
+        "learn": 0
+      }
+    ]
+  }
 }

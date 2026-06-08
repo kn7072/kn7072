@@ -1,86 +1,173 @@
 {
-    "southern": {
-        "comment": [
-            "south",
-            "southeast",
-            "southwest"
-        ],
-        "translate": "южный, южанин, житель Юга",
-        "transcription": " |ˈsʌðərn|",
-        "antonyms": [],
-        "mnemonic": [
-            "south [sauθ]\nsouthern - южный., южанин\n***\nНа ЮГЕ живёт страус. (это) south\nЮЖНЫЙ ветер любит страус. (это) south"
-        ],
-        "examples": [
-            "The house has a southern aspect.",
-            "These Southern girls are the very devil.",
-            "Southern Hemisphere",
-            "She speaks with a Southern accent.",
-            "The river takes a southern course.",
-            "Dark hair is a note of the foreigner of southern extraction.",
-            "My bedroom has a southern exposure.",
-            "He has a heavy southern accent.",
-            "Venus was also seen in the southern quarter.",
-            "the southern shore of the lake",
-            "The islands lie at the southern end of the Kurile chain.",
-            "The birds will winter in the southern part of the country.",
-            "the southern part of the state",
-            "They speak a southern dialect of French.",
-            "He drawled his name in a Southern accent.",
-            "I was stereotyped as a lazy Southern European",
-            "Hospitality is a cherished Southern heritage.",
-            "He owns a group of hotels in southern England.",
-            "There's no way you can disguise that southern accent.",
-            "I had been running around southern England in a whirlwind of activity.",
-            "The Empty Quarter stretches for nine hundred miles across southern Arabia.",
-            "the dank climate of southern Wales",
-            "a Southern girl who married a Yankee",
-            "The southern extremity of New Zealand.",
-            "the southern verge of the national park",
-            "He speaks with a soft Southern cadence.",
-            "The company sells mainly to the Southern market.",
-            "the Union action of emancipating Southern slaves",
-            "Her southern accent lent authority to her performance.",
-            "The southern state became more nationalist in character."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Фасад дома выходит на южную сторону.",
-            "Эти южанки - сущие ведьмы.",
-            "Южное полушарие",
-            "Она говорит с южным акцентом.",
-            "Река течёт в южном направлении.",
-            "Тёмные волосы - это характерный признак иностранца южного происхождения.",
-            "Моя спальня выходит на юг.",
-            "У него сильный южный акцент.",
-            "Венера была также видна в южной части (небосвода).",
-            "южный берег озера",
-            "Острова расположены на юге Курильской гряды.",
-            "Птицы перезимуют в южной части страны.",
-            "южная часть штата",
-            "Они говорят на южном диалекте французского языка.",
-            "Он произнёс своё имя нараспев, с характерным южным акцентом.",
-            "Меня шаблонно воспринимали ленивым жителем Южной Европы.",
-            "Гостеприимство — заветная традиция жителей Юга.",
-            "Он владеет группой гостиниц в Южной Англии.",
-            "Южный акцент скрыть никак невозможно.",
-            "Я мотался по югу Англии, втянутый в водоворот дел.",
-            "Нежилая зона простирается на девятьсот миль на юге Аравийского полуострова.",
-            "сырой / влажный климат Южного Уэльса",
-            "южанка, которая вышла замуж за янки",
-            "Южная оконечность Новой Зеландии.",
-            "южная граница национального парка",
-            "Он разговаривает с мягкими южными интонациями.",
-            "Компания продает в основном на южном рынке.",
-            "действия Союза (т.е. северян) по освобождению рабов Юга (о гражданской войне в США)",
-            "Южный акцент придал её игре достоверности.",
-            "Характер этого южного государства стал более националистическим."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "th_=_[ð]",
-            "ou_=_[ʌ]"
-        ]
-    }
+  "southern": {
+    "comment": [
+      "south",
+      "southeast",
+      "southwest"
+    ],
+    "translate": "южный, южанин, житель Юга",
+    "transcription": " |ˈsʌðərn|",
+    "antonyms": [],
+    "mnemonic": [
+      "south [sauθ]\nsouthern - южный., южанин\n***\nНа ЮГЕ живёт страус. (это) south\nЮЖНЫЙ ветер любит страус. (это) south"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "th_=_[ð]",
+      "ou_=_[ʌ]"
+    ],
+    "examples": [
+      {
+        "eng": "The house has a southern aspect.",
+        "ru": "Фасад дома выходит на южную сторону.",
+        "learn": 0
+      },
+      {
+        "eng": "These Southern girls are the very devil.",
+        "ru": "Эти южанки - сущие ведьмы.",
+        "learn": 1
+      },
+      {
+        "eng": "Southern Hemisphere",
+        "ru": "Южное полушарие",
+        "learn": 0
+      },
+      {
+        "eng": "She speaks with a Southern accent.",
+        "ru": "Она говорит с южным акцентом.",
+        "learn": 0
+      },
+      {
+        "eng": "The river takes a southern course.",
+        "ru": "Река течёт в южном направлении.",
+        "learn": 0
+      },
+      {
+        "eng": "Dark hair is a note of the foreigner of southern extraction.",
+        "ru": "Тёмные волосы - это характерный признак иностранца южного происхождения.",
+        "learn": 1
+      },
+      {
+        "eng": "My bedroom has a southern exposure.",
+        "ru": "Моя спальня выходит на юг.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a heavy southern accent.",
+        "ru": "У него сильный южный акцент.",
+        "learn": 0
+      },
+      {
+        "eng": "Venus was also seen in the southern quarter.",
+        "ru": "Венера была также видна в южной части (небосвода).",
+        "learn": 0
+      },
+      {
+        "eng": "the southern shore of the lake",
+        "ru": "южный берег озера",
+        "learn": 0
+      },
+      {
+        "eng": "The islands lie at the southern end of the Kurile chain.",
+        "ru": "Острова расположены на юге Курильской гряды.",
+        "learn": 0
+      },
+      {
+        "eng": "The birds will winter in the southern part of the country.",
+        "ru": "Птицы перезимуют в южной части страны.",
+        "learn": 0
+      },
+      {
+        "eng": "the southern part of the state",
+        "ru": "южная часть штата",
+        "learn": 0
+      },
+      {
+        "eng": "They speak a southern dialect of French.",
+        "ru": "Они говорят на южном диалекте французского языка.",
+        "learn": 1
+      },
+      {
+        "eng": "He drawled his name in a Southern accent.",
+        "ru": "Он произнёс своё имя нараспев, с характерным южным акцентом.",
+        "learn": 0
+      },
+      {
+        "eng": "I was stereotyped as a lazy Southern European",
+        "ru": "Меня шаблонно воспринимали ленивым жителем Южной Европы.",
+        "learn": 0
+      },
+      {
+        "eng": "Hospitality is a cherished Southern heritage.",
+        "ru": "Гостеприимство — заветная традиция жителей Юга.",
+        "learn": 0
+      },
+      {
+        "eng": "He owns a group of hotels in southern England.",
+        "ru": "Он владеет группой гостиниц в Южной Англии.",
+        "learn": 0
+      },
+      {
+        "eng": "There's no way you can disguise that southern accent.",
+        "ru": "Южный акцент скрыть никак невозможно.",
+        "learn": 1
+      },
+      {
+        "eng": "I had been running around southern England in a whirlwind of activity.",
+        "ru": "Я мотался по югу Англии, втянутый в водоворот дел.",
+        "learn": 0
+      },
+      {
+        "eng": "The Empty Quarter stretches for nine hundred miles across southern Arabia.",
+        "ru": "Нежилая зона простирается на девятьсот миль на юге Аравийского полуострова.",
+        "learn": 0
+      },
+      {
+        "eng": "the dank climate of southern Wales",
+        "ru": "сырой / влажный климат Южного Уэльса",
+        "learn": 0
+      },
+      {
+        "eng": "a Southern girl who married a Yankee",
+        "ru": "южанка, которая вышла замуж за янки",
+        "learn": 0
+      },
+      {
+        "eng": "The southern extremity of New Zealand.",
+        "ru": "Южная оконечность Новой Зеландии.",
+        "learn": 0
+      },
+      {
+        "eng": "the southern verge of the national park",
+        "ru": "южная граница национального парка",
+        "learn": 0
+      },
+      {
+        "eng": "He speaks with a soft Southern cadence.",
+        "ru": "Он разговаривает с мягкими южными интонациями.",
+        "learn": 0
+      },
+      {
+        "eng": "The company sells mainly to the Southern market.",
+        "ru": "Компания продает в основном на южном рынке.",
+        "learn": 1
+      },
+      {
+        "eng": "the Union action of emancipating Southern slaves",
+        "ru": "действия Союза (т.е. северян) по освобождению рабов Юга (о гражданской войне в США)",
+        "learn": 0
+      },
+      {
+        "eng": "Her southern accent lent authority to her performance.",
+        "ru": "Южный акцент придал её игре достоверности.",
+        "learn": 0
+      },
+      {
+        "eng": "The southern state became more nationalist in character.",
+        "ru": "Характер этого южного государства стал более националистическим.",
+        "learn": 1
+      }
+    ]
+  }
 }

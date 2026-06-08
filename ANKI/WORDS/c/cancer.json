@@ -1,90 +1,176 @@
 {
-    "cancer": {
-        "comment": [
-            "candy",
-            "candidate",
-            "candle",
-            "cancel",
-            "canvas",
-            "cane",
-            "canoe",
-            "canal",
-            "canteen"
-        ],
-        "translate": "рак, карцинома, бедствие, бич",
-        "transcription": " |ˈkænsər|",
-        "antonyms": [],
-        "mnemonic": [
-            "cancer [кэ'нсэ] рак, бич - (Кин-ь са-мые) большие деньги на борьбу с раком."
-        ],
-        "examples": [
-            "He died of cancer.",
-            "He died of cancer last month.",
-            "\"How did she die?\" \"She had cancer.\"",
-            "She died from cancer.",
-            "She works in the cancer ward.",
-            "He was diagnosed with cancer.",
-            "She has been diagnosed with breast cancer.",
-            "Smoking causes lung cancer.",
-            "Sugary foods promote breast cancer.",
-            "Smoking can cause lung cancer.",
-            "Most distressingly, he died of cancer.",
-            "Our target is to raise $20,000 for cancer research.",
-            "Incidence of lung cancer has plateaued out.",
-            "a rare form of cancer",
-            "She had battled against cancer.",
-            "The cancer has gone into remission.",
-            "Lung cancer death rates are up.",
-            "She learned that she has cancer.",
-            "He is undergoing cancer therapy.",
-            "In March, his cancer reappeared.",
-            "a highly malignant form of cancer",
-            "The cancer had invaded her lungs.",
-            "The cancer had spread to her liver.",
-            "“How did she die?” “She had cancer.”",
-            "The cancer has spread to her throat.",
-            "She was diagnosed with breast cancer.",
-            "She is receiving treatment for cancer.",
-            "Many types of cancer can now be cured.",
-            "a noteworthy advance in cancer research",
-            "powerful drugs that attack cancer cells"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он умер от рака.",
-            "В прошлом месяце он умер от рака.",
-            "— Как она умерла? — У неё был рак.",
-            "Она умерла от рака.",
-            "Она работает в онкологическом отделении.",
-            "У него диагностировали рак.",
-            "Ей диагностировали рак молочной железы.",
-            "Курение приводит к раку лёгких.",
-            "Продукты с высоким содержанием сахара провоцируют рак молочной железы.",
-            "Курение может стать причиной рака лёгких.",
-            "К большому сожалению, он умер от рака.",
-            "Наша задача — собрать двадцать тысяч долларов на онкологические исследования.",
-            "Заболеваемость раком лёгких остаётся на прежнем уровне.",
-            "редкая форма рака",
-            "Она вела борьбу с раком.",
-            "Рак находится в состоянии ремиссии.",
-            "Показатели смертности от рака лёгких выросли.",
-            "Она узнала, что у неё рак.",
-            "Он проходит курс лечения от рака.",
-            "В марте у него вновь обнаружили рак.",
-            "чрезвычайно злокачественная форма рака",
-            "Рак поразил её легкие.",
-            "Рак распространился на её печень.",
-            "— Как она умерла? — У неё был рак.",
-            "Рак распространился на её горло.",
-            "Ей диагностировали рак молочной железы.",
-            "Она проходит курс лечения от рака.",
-            "Многие типы рака уже излечимы.",
-            "заметное достижение в исследовании рака",
-            "сильнодействующие препараты, которые атакуют раковые клетки"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "cancer": {
+    "comment": [
+      "candy",
+      "candidate",
+      "candle",
+      "cancel",
+      "canvas",
+      "cane",
+      "canoe",
+      "canal",
+      "canteen"
+    ],
+    "translate": "рак, карцинома, бедствие, бич",
+    "transcription": " |ˈkænsər|",
+    "antonyms": [],
+    "mnemonic": [
+      "cancer [кэ'нсэ] рак, бич - (Кин-ь са-мые) большие деньги на борьбу с раком."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He died of cancer.",
+        "ru": "Он умер от рака.",
+        "learn": 1
+      },
+      {
+        "eng": "He died of cancer last month.",
+        "ru": "В прошлом месяце он умер от рака.",
+        "learn": 0
+      },
+      {
+        "eng": "\"How did she die?\" \"She had cancer.\"",
+        "ru": "— Как она умерла? — У неё был рак.",
+        "learn": 0
+      },
+      {
+        "eng": "She died from cancer.",
+        "ru": "Она умерла от рака.",
+        "learn": 0
+      },
+      {
+        "eng": "She works in the cancer ward.",
+        "ru": "Она работает в онкологическом отделении.",
+        "learn": 1
+      },
+      {
+        "eng": "He was diagnosed with cancer.",
+        "ru": "У него диагностировали рак.",
+        "learn": 0
+      },
+      {
+        "eng": "She has been diagnosed with breast cancer.",
+        "ru": "Ей диагностировали рак молочной железы.",
+        "learn": 0
+      },
+      {
+        "eng": "Smoking causes lung cancer.",
+        "ru": "Курение приводит к раку лёгких.",
+        "learn": 0
+      },
+      {
+        "eng": "Sugary foods promote breast cancer.",
+        "ru": "Продукты с высоким содержанием сахара провоцируют рак молочной железы.",
+        "learn": 0
+      },
+      {
+        "eng": "Smoking can cause lung cancer.",
+        "ru": "Курение может стать причиной рака лёгких.",
+        "learn": 0
+      },
+      {
+        "eng": "Most distressingly, he died of cancer.",
+        "ru": "К большому сожалению, он умер от рака.",
+        "learn": 0
+      },
+      {
+        "eng": "Our target is to raise $20,000 for cancer research.",
+        "ru": "Наша задача — собрать двадцать тысяч долларов на онкологические исследования.",
+        "learn": 0
+      },
+      {
+        "eng": "Incidence of lung cancer has plateaued out.",
+        "ru": "Заболеваемость раком лёгких остаётся на прежнем уровне.",
+        "learn": 0
+      },
+      {
+        "eng": "a rare form of cancer",
+        "ru": "редкая форма рака",
+        "learn": 0
+      },
+      {
+        "eng": "She had battled against cancer.",
+        "ru": "Она вела борьбу с раком.",
+        "learn": 0
+      },
+      {
+        "eng": "The cancer has gone into remission.",
+        "ru": "Рак находится в состоянии ремиссии.",
+        "learn": 0
+      },
+      {
+        "eng": "Lung cancer death rates are up.",
+        "ru": "Показатели смертности от рака лёгких выросли.",
+        "learn": 0
+      },
+      {
+        "eng": "She learned that she has cancer.",
+        "ru": "Она узнала, что у неё рак.",
+        "learn": 0
+      },
+      {
+        "eng": "He is undergoing cancer therapy.",
+        "ru": "Он проходит курс лечения от рака.",
+        "learn": 1
+      },
+      {
+        "eng": "In March, his cancer reappeared.",
+        "ru": "В марте у него вновь обнаружили рак.",
+        "learn": 0
+      },
+      {
+        "eng": "a highly malignant form of cancer",
+        "ru": "чрезвычайно злокачественная форма рака",
+        "learn": 0
+      },
+      {
+        "eng": "The cancer had invaded her lungs.",
+        "ru": "Рак поразил её легкие.",
+        "learn": 0
+      },
+      {
+        "eng": "The cancer had spread to her liver.",
+        "ru": "Рак распространился на её печень.",
+        "learn": 0
+      },
+      {
+        "eng": "“How did she die?” “She had cancer.”",
+        "ru": "— Как она умерла? — У неё был рак.",
+        "learn": 0
+      },
+      {
+        "eng": "The cancer has spread to her throat.",
+        "ru": "Рак распространился на её горло.",
+        "learn": 0
+      },
+      {
+        "eng": "She was diagnosed with breast cancer.",
+        "ru": "Ей диагностировали рак молочной железы.",
+        "learn": 1
+      },
+      {
+        "eng": "She is receiving treatment for cancer.",
+        "ru": "Она проходит курс лечения от рака.",
+        "learn": 0
+      },
+      {
+        "eng": "Many types of cancer can now be cured.",
+        "ru": "Многие типы рака уже излечимы.",
+        "learn": 0
+      },
+      {
+        "eng": "a noteworthy advance in cancer research",
+        "ru": "заметное достижение в исследовании рака",
+        "learn": 0
+      },
+      {
+        "eng": "powerful drugs that attack cancer cells",
+        "ru": "сильнодействующие препараты, которые атакуют раковые клетки",
+        "learn": 0
+      }
+    ]
+  }
 }

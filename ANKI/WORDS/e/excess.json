@@ -1,78 +1,155 @@
 {
-    "excess": {
-        "comment": [
-            "excessive"
-        ],
-        "translate": "превышение, избыток, избыточный, лишний",
-        "transcription": " |ɪkˈses|",
-        "antonyms": [],
-        "mnemonic": [
-            "excess [иксэ'с] избыток, превышение - Из-за избытка тараканов (и к СЭС*) обратись и к судье (‘Санэпидстанция).",
-            "access ['ækses]\nexcess [ɪk'sɛs] - избыток, превышение, свыше\n***\nДОСТУП есть и есть \"áксцесс\". (это) access\nЕсть ПОДХОД и есть эксцесс. (это) access\n***\nНе бывает в избытке \"excess\"\nуспеха \"success\".",
-            "excess [ɪk'sɛs\nexcessive [ɪk'sɛsɪv] - чрезмерный\n***\nЭто ПРЕВЫШЕНИЕ, если видишь XS. (это) excess"
-        ],
-        "examples": [
-            "I'm trying to run off some of my excess fat!",
-            "He lived a life of excess.",
-            "All excess is vicious.",
-            "The charge for excess baggage was disgusting. I shall complain.",
-            "The tests found an excess of sodium in his blood.",
-            "The excess dirt was carefully excavated.",
-            "It is also in his power to forbear excess in eating.",
-            "Cut any excess fat from the meat.",
-            "Simplicity is considered as the general corrector of excess.",
-            "The excess water was sponged off the top of the fabric.",
-            "Drinking is OK as long as you don't do it to excess.",
-            "He apologized for his past excesses.",
-            "The car reached speeds in excess of 100 miles per hour.",
-            "Jogging works off my excess energy.",
-            "Trim away any excess glue with a knife.",
-            "The new thriller clocked up box office receipts in excess of $100 million.",
-            "Basketball provided an outlet for their excess energy.",
-            "The Metropolitan Club verges dangerously toward a silliness of excess.",
-            "After you apply the oil, wait 20 minutes before wiping off any excess.",
-            "The movie embraces all the worst excesses of popular American culture.",
-            "She is trying to eliminate excess fat and calories from her diet.",
-            "After cooking the meat, drain off the excess fat.",
-            "The editor removed some of the excess verbiage from the article.",
-            "He became the personification of the financial excess of the 1980s.",
-            "No excess was too monstrous for them to commit.",
-            "It was an excess of enthusiasm that caused the problem.",
-            "The accident was caused by an 18-wheeler with a loading in excess of the legal limit."
-        ],
-        "example_translate": [
-            "Я пытаюсь согнать лишний жирок.",
-            "Жизнь его была полна излишеств.",
-            "Любая чрезмерность порочна.",
-            "Плата за лишний вес багажа просто возмутительна. Я буду жаловаться.",
-            "Тесты обнаружили избыток натрия в крови.",
-            "Лишний грунт был осторожно выкопан.",
-            "Воздержаться от переедания тоже в его силах.",
-            "Срежьте с мяса весь лишний жир.",
-            "Простота считается лучшим средством от излишеств.",
-            "Остаток воды был собран с поверхности ткани губкой.",
-            "В выпивке нет ничего плохого, если только не злоупотреблять.",
-            "Он извинился за свои прошлые выходки.",
-            "Автомобиль достиг скорости свыше ста миль в час.",
-            "Бег помогает мне сбросить излишек энергии.",
-            "Срежьте излишки клея ножом.",
-            "Кассовые сборы нового триллера превысили сто миллионов долларов.",
-            "Баскетбол дал им возможность выплеснуть избыточную энергию.",
-            "Интерьер клуба \"Метрополитен\" имеет опасную склонность к дурацким излишествам.",
-            "После нанесения масла, подождите 20 минут, а затем протрите всё лишнее.",
-            "В этом фильме содержатся все худшие излишества американской массовой культуры.",
-            "Она пытается убрать из своего рациона излишки жира и калорий.",
-            "После варки мяса, слейте лишний жир.",
-            "Редактор убрал из статьи немного лишнего словоблудия.",
-            "Он стал олицетворением финансовых злоупотреблений восьмидесятых годов.",
-            "Не было столь безобразного бесчинства, которого они не совершили бы.",
-            "Проблема была в избытке энтузиазма.",
-            "Авария произошла по вине грузовой фуры, нагруженной свыше установленного законом предела."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "excess": {
+    "comment": [
+      "excessive"
+    ],
+    "translate": "превышение, избыток, избыточный, лишний",
+    "transcription": " |ɪkˈses|",
+    "antonyms": [],
+    "mnemonic": [
+      "excess [иксэ'с] избыток, превышение - Из-за избытка тараканов (и к СЭС*) обратись и к судье (‘Санэпидстанция).",
+      "access ['ækses]\nexcess [ɪk'sɛs] - избыток, превышение, свыше\n***\nДОСТУП есть и есть \"áксцесс\". (это) access\nЕсть ПОДХОД и есть эксцесс. (это) access\n***\nНе бывает в избытке \"excess\"\nуспеха \"success\".",
+      "excess [ɪk'sɛs\nexcessive [ɪk'sɛsɪv] - чрезмерный\n***\nЭто ПРЕВЫШЕНИЕ, если видишь XS. (это) excess"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I'm trying to run off some of my excess fat!",
+        "ru": "Я пытаюсь согнать лишний жирок.",
+        "learn": 0
+      },
+      {
+        "eng": "He lived a life of excess.",
+        "ru": "Жизнь его была полна излишеств.",
+        "learn": 0
+      },
+      {
+        "eng": "All excess is vicious.",
+        "ru": "Любая чрезмерность порочна.",
+        "learn": 1
+      },
+      {
+        "eng": "The charge for excess baggage was disgusting. I shall complain.",
+        "ru": "Плата за лишний вес багажа просто возмутительна. Я буду жаловаться.",
+        "learn": 1
+      },
+      {
+        "eng": "The tests found an excess of sodium in his blood.",
+        "ru": "Тесты обнаружили избыток натрия в крови.",
+        "learn": 0
+      },
+      {
+        "eng": "The excess dirt was carefully excavated.",
+        "ru": "Лишний грунт был осторожно выкопан.",
+        "learn": 0
+      },
+      {
+        "eng": "It is also in his power to forbear excess in eating.",
+        "ru": "Воздержаться от переедания тоже в его силах.",
+        "learn": 0
+      },
+      {
+        "eng": "Cut any excess fat from the meat.",
+        "ru": "Срежьте с мяса весь лишний жир.",
+        "learn": 0
+      },
+      {
+        "eng": "Simplicity is considered as the general corrector of excess.",
+        "ru": "Простота считается лучшим средством от излишеств.",
+        "learn": 0
+      },
+      {
+        "eng": "The excess water was sponged off the top of the fabric.",
+        "ru": "Остаток воды был собран с поверхности ткани губкой.",
+        "learn": 0
+      },
+      {
+        "eng": "Drinking is OK as long as you don't do it to excess.",
+        "ru": "В выпивке нет ничего плохого, если только не злоупотреблять.",
+        "learn": 0
+      },
+      {
+        "eng": "He apologized for his past excesses.",
+        "ru": "Он извинился за свои прошлые выходки.",
+        "learn": 0
+      },
+      {
+        "eng": "The car reached speeds in excess of 100 miles per hour.",
+        "ru": "Автомобиль достиг скорости свыше ста миль в час.",
+        "learn": 0
+      },
+      {
+        "eng": "Jogging works off my excess energy.",
+        "ru": "Бег помогает мне сбросить излишек энергии.",
+        "learn": 0
+      },
+      {
+        "eng": "Trim away any excess glue with a knife.",
+        "ru": "Срежьте излишки клея ножом.",
+        "learn": 0
+      },
+      {
+        "eng": "The new thriller clocked up box office receipts in excess of $100 million.",
+        "ru": "Кассовые сборы нового триллера превысили сто миллионов долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "Basketball provided an outlet for their excess energy.",
+        "ru": "Баскетбол дал им возможность выплеснуть избыточную энергию.",
+        "learn": 1
+      },
+      {
+        "eng": "The Metropolitan Club verges dangerously toward a silliness of excess.",
+        "ru": "Интерьер клуба \"Метрополитен\" имеет опасную склонность к дурацким излишествам.",
+        "learn": 0
+      },
+      {
+        "eng": "After you apply the oil, wait 20 minutes before wiping off any excess.",
+        "ru": "После нанесения масла, подождите 20 минут, а затем протрите всё лишнее.",
+        "learn": 0
+      },
+      {
+        "eng": "The movie embraces all the worst excesses of popular American culture.",
+        "ru": "В этом фильме содержатся все худшие излишества американской массовой культуры.",
+        "learn": 0
+      },
+      {
+        "eng": "She is trying to eliminate excess fat and calories from her diet.",
+        "ru": "Она пытается убрать из своего рациона излишки жира и калорий.",
+        "learn": 1
+      },
+      {
+        "eng": "After cooking the meat, drain off the excess fat.",
+        "ru": "После варки мяса, слейте лишний жир.",
+        "learn": 0
+      },
+      {
+        "eng": "The editor removed some of the excess verbiage from the article.",
+        "ru": "Редактор убрал из статьи немного лишнего словоблудия.",
+        "learn": 0
+      },
+      {
+        "eng": "He became the personification of the financial excess of the 1980s.",
+        "ru": "Он стал олицетворением финансовых злоупотреблений восьмидесятых годов.",
+        "learn": 0
+      },
+      {
+        "eng": "No excess was too monstrous for them to commit.",
+        "ru": "Не было столь безобразного бесчинства, которого они не совершили бы.",
+        "learn": 0
+      },
+      {
+        "eng": "It was an excess of enthusiasm that caused the problem.",
+        "ru": "Проблема была в избытке энтузиазма.",
+        "learn": 0
+      },
+      {
+        "eng": "The accident was caused by an 18-wheeler with a loading in excess of the legal limit.",
+        "ru": "Авария произошла по вине грузовой фуры, нагруженной свыше установленного законом предела.",
+        "learn": 0
+      }
+    ]
+  }
 }

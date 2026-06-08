@@ -1,80 +1,166 @@
 {
-    "dirty": {
-        "comment": [
-            "dirt"
-        ],
-        "translate": "грязный, нечистый, подлый, пачкать, загрязнять, лахудра",
-        "transcription": " |ˈdɜːrti|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "All my socks are dirty.",
-            "You dirty dog!",
-            "It's a dirty shame.",
-            "What a dirty trick!",
-            "He gave me a dirty look.",
-            "You've dirtied up your dress in that mud!",
-            "The army's actions dirtied its reputation.",
-            "You're a dirty liar!",
-            "Please excuse my dirty hands.",
-            "He had to do the dirty jobs.",
-            "I can't breathe this dirty city air.",
-            "How did you get so dirty?",
-            "Get out of there before you get dirty.",
-            "Try not to get your clothes dirty.",
-            "Her fingers were dirtied with ink.",
-            "a sink full of dirty dishes",
-            "Who cares what the dirty sheets say?",
-            "dirty clothes lying around (or about)",
-            "The water was dirty and smelled yucky.",
-            "The dirty side will show.",
-            "She called him a dirty liar.",
-            "a cat with a dirty matted coat",
-            "The mirror was cracked and dirty.",
-            "They looked dirty and disheveled.",
-            "I hate listening to his dirty jokes.",
-            "Can you clean the coat of these dirty marks?",
-            "The baby has a dirty diaper.",
-            "He is a dirty little stinker.",
-            "This offer was a dirty trick.",
-            "Watch out for her. She plays dirty."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Все мои носки - грязные.",
-            "Ты, грязный пес!",
-            "Это страшный позор.",
-            "Какая пакость!",
-            "Он бросил на меня косой взгляд.",
-            "Ты запачкала платье в этой грязи!",
-            "Действия армии запятнали её репутацию.",
-            "Ты грязный лжец!",
-            "Прошу прощения за грязные руки.",
-            "Он был вынужден выполнять всю грязную работу.",
-            "Я не могу дышать этим грязным городским воздухом.",
-            "Как же ты умудрился так вымазаться?",
-            "Вылезай оттуда, пока ты не вымазался.",
-            "Постарайся не испачкать свою одежду.",
-            "Её пальцы были испачканы чернилами.",
-            "раковина, полная грязной посуды.",
-            "Кому интересно, что там пишут в каких-то ничтожных газетенках?",
-            "грязная одежда, разбросанная вокруг",
-            "Вода была грязной и противно пахла.",
-            "Грязь обязательно выйдет наружу. / Шила в мешке не утаишь.",
-            "Она назвала его грязным лжецом.",
-            "кошка с грязной спутанной шерстью",
-            "Зеркало было треснутое и грязное.",
-            "Они выглядели грязными и растрепанными.",
-            "Терпеть не могу слушать его грязные шутки.",
-            "Ты можешь вывести эти грязные пятна?",
-            "У ребёнка грязный подгузник.",
-            "Он — грязный мерзкий тип.",
-            "Это предложение оказалось уловкой.",
-            "Остерегайся её. Она грязно играет. (Использует запрещённые приёмы игры / жульничает)"
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "dirty": {
+    "comment": [
+      "dirt"
+    ],
+    "translate": "грязный, нечистый, подлый, пачкать, загрязнять, лахудра",
+    "transcription": " |ˈdɜːrti|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "All my socks are dirty.",
+        "ru": "Все мои носки - грязные.",
+        "learn": 0
+      },
+      {
+        "eng": "You dirty dog!",
+        "ru": "Ты, грязный пес!",
+        "learn": 0
+      },
+      {
+        "eng": "It's a dirty shame.",
+        "ru": "Это страшный позор.",
+        "learn": 0
+      },
+      {
+        "eng": "What a dirty trick!",
+        "ru": "Какая пакость!",
+        "learn": 0
+      },
+      {
+        "eng": "He gave me a dirty look.",
+        "ru": "Он бросил на меня косой взгляд.",
+        "learn": 0
+      },
+      {
+        "eng": "You've dirtied up your dress in that mud!",
+        "ru": "Ты запачкала платье в этой грязи!",
+        "learn": 0
+      },
+      {
+        "eng": "The army's actions dirtied its reputation.",
+        "ru": "Действия армии запятнали её репутацию.",
+        "learn": 0
+      },
+      {
+        "eng": "You're a dirty liar!",
+        "ru": "Ты грязный лжец!",
+        "learn": 0
+      },
+      {
+        "eng": "Please excuse my dirty hands.",
+        "ru": "Прошу прощения за грязные руки.",
+        "learn": 0
+      },
+      {
+        "eng": "He had to do the dirty jobs.",
+        "ru": "Он был вынужден выполнять всю грязную работу.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't breathe this dirty city air.",
+        "ru": "Я не могу дышать этим грязным городским воздухом.",
+        "learn": 0
+      },
+      {
+        "eng": "How did you get so dirty?",
+        "ru": "Как же ты умудрился так вымазаться?",
+        "learn": 0
+      },
+      {
+        "eng": "Get out of there before you get dirty.",
+        "ru": "Вылезай оттуда, пока ты не вымазался.",
+        "learn": 0
+      },
+      {
+        "eng": "Try not to get your clothes dirty.",
+        "ru": "Постарайся не испачкать свою одежду.",
+        "learn": 0
+      },
+      {
+        "eng": "Her fingers were dirtied with ink.",
+        "ru": "Её пальцы были испачканы чернилами.",
+        "learn": 0
+      },
+      {
+        "eng": "a sink full of dirty dishes",
+        "ru": "раковина, полная грязной посуды.",
+        "learn": 0
+      },
+      {
+        "eng": "Who cares what the dirty sheets say?",
+        "ru": "Кому интересно, что там пишут в каких-то ничтожных газетенках?",
+        "learn": 0
+      },
+      {
+        "eng": "dirty clothes lying around (or about)",
+        "ru": "грязная одежда, разбросанная вокруг",
+        "learn": 0
+      },
+      {
+        "eng": "The water was dirty and smelled yucky.",
+        "ru": "Вода была грязной и противно пахла.",
+        "learn": 0
+      },
+      {
+        "eng": "The dirty side will show.",
+        "ru": "Грязь обязательно выйдет наружу. / Шила в мешке не утаишь.",
+        "learn": 0
+      },
+      {
+        "eng": "She called him a dirty liar.",
+        "ru": "Она назвала его грязным лжецом.",
+        "learn": 0
+      },
+      {
+        "eng": "a cat with a dirty matted coat",
+        "ru": "кошка с грязной спутанной шерстью",
+        "learn": 0
+      },
+      {
+        "eng": "The mirror was cracked and dirty.",
+        "ru": "Зеркало было треснутое и грязное.",
+        "learn": 0
+      },
+      {
+        "eng": "They looked dirty and disheveled.",
+        "ru": "Они выглядели грязными и растрепанными.",
+        "learn": 0
+      },
+      {
+        "eng": "I hate listening to his dirty jokes.",
+        "ru": "Терпеть не могу слушать его грязные шутки.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you clean the coat of these dirty marks?",
+        "ru": "Ты можешь вывести эти грязные пятна?",
+        "learn": 0
+      },
+      {
+        "eng": "The baby has a dirty diaper.",
+        "ru": "У ребёнка грязный подгузник.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a dirty little stinker.",
+        "ru": "Он — грязный мерзкий тип.",
+        "learn": 0
+      },
+      {
+        "eng": "This offer was a dirty trick.",
+        "ru": "Это предложение оказалось уловкой.",
+        "learn": 1
+      },
+      {
+        "eng": "Watch out for her. She plays dirty.",
+        "ru": "Остерегайся её. Она грязно играет. (Использует запрещённые приёмы игры / жульничает)",
+        "learn": 0
+      }
+    ]
+  }
 }

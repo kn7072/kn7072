@@ -1,83 +1,169 @@
 {
-    "jump": {
-        "comment": [
-            "jumper"
-        ],
-        "translate": "прыгать, переходить, вскочить, прыжок, скачок, переход, резкий переход",
-        "transcription": " |dʒʌmp|",
-        "antonyms": [],
-        "mnemonic": [
-            "jump [джамп] прыгать - Он (джамп-ион‘) по прыжкам в унитаз (‘Чемпион).",
-            "jump [ʤ∧mp]\n***\nПРЫГАТЬ и скакать по этажам (п). (это) jump\nПрыжок, скачок."
-        ],
-        "examples": [
-            "How high can you jump?",
-            "Jump up!",
-            "Don't jump the camera.",
-            "We all jumped in a taxi.",
-            "He jumped his horse.",
-            "Can you jump over the fence?",
-            "He jumped on his opponent.",
-            "It's important not to jump to conclusions.",
-            "Prices jumped overnight.",
-            "He jumped over the wall and ran off.",
-            "Why does the video keep jumping like this?",
-            "He jumped off the roof.",
-            "He jumped into the game.",
-            "The child jumped into bed.",
-            "The dog jumped onto the sofa.",
-            "She jumped to her feet and left.",
-            "The cat jumped down off the table.",
-            "The cat then seized it with a jump.",
-            "Our humors jump together completely.",
-            "He was jumped into buying the house.",
-            "The guests all jumped at the invitation.",
-            "Don't be soft — just jump!",
-            "So jump, then. I dare you.",
-            "The runner jumped a hurdle.",
-            "Everyone jumped into the pool.",
-            "I dare you to jump the stream!",
-            "jump from one thing to another",
-            "She backed the horse at a jump.",
-            "He advanced in a series of jumps.",
-            "I jump when she snaps her fingers."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Как высоко ты можешь прыгнуть?",
-            "Влезайте! Садитесь! (в транспорт)",
-            "Не трясите фотоаппарат.",
-            "Мы все запрыгнули в такси.",
-            "Он заставил лошадь прыгнуть.",
-            "Ты сможешь перепрыгнуть через забор?",
-            "Он накинулся на своего оппонента.",
-            "Важно не спешить с выводами.",
-            "Цены резко подскочили.",
-            "Он перепрыгнул через стену и убежал.",
-            "Почему видео (на экране) продолжает дёргаться, таким образом?",
-            "Он спрыгнул с крыши.",
-            "Он ворвался в игру.",
-            "Ребёнок запрыгнул в постель.",
-            "Собака прыгнула на диван.",
-            "Она вскочила на ноги и ушла.",
-            "Кот спрыгнул со стола.",
-            "Сделав прыжок, кошка схватила её.",
-            "Наши наклонности полностью совпадают.",
-            "Его обманом заставили купить этот дом.",
-            "Все гости ухватились за приглашение.",
-            "Не будь слабаком — прыгай!",
-            "Тогда прыгай. Ну, давай же, рискни. / Слабо? / Спорим, не прыгнешь?",
-            "Бегун перепрыгнул через барьер.",
-            "Все запрыгнули в бассейн.",
-            "Держу пари, ты не перепрыгнешь через этот ручей!",
-            "прыгать от одного дела к другому",
-            "Она вскочила на лошадь одним прыжком.",
-            "Он продвинулся вперёд, совершив несколько прыжков.",
-            "Я подчиняюсь ей беспрекословно."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "jump": {
+    "comment": [
+      "jumper"
+    ],
+    "translate": "прыгать, переходить, вскочить, прыжок, скачок, переход, резкий переход",
+    "transcription": " |dʒʌmp|",
+    "antonyms": [],
+    "mnemonic": [
+      "jump [джамп] прыгать - Он (джамп-ион‘) по прыжкам в унитаз (‘Чемпион).",
+      "jump [ʤ∧mp]\n***\nПРЫГАТЬ и скакать по этажам (п). (это) jump\nПрыжок, скачок."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "How high can you jump?",
+        "ru": "Как высоко ты можешь прыгнуть?",
+        "learn": 1
+      },
+      {
+        "eng": "Jump up!",
+        "ru": "Влезайте! Садитесь! (в транспорт)",
+        "learn": 0
+      },
+      {
+        "eng": "Don't jump the camera.",
+        "ru": "Не трясите фотоаппарат.",
+        "learn": 0
+      },
+      {
+        "eng": "We all jumped in a taxi.",
+        "ru": "Мы все запрыгнули в такси.",
+        "learn": 1
+      },
+      {
+        "eng": "He jumped his horse.",
+        "ru": "Он заставил лошадь прыгнуть.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you jump over the fence?",
+        "ru": "Ты сможешь перепрыгнуть через забор?",
+        "learn": 1
+      },
+      {
+        "eng": "He jumped on his opponent.",
+        "ru": "Он накинулся на своего оппонента.",
+        "learn": 1
+      },
+      {
+        "eng": "It's important not to jump to conclusions.",
+        "ru": "Важно не спешить с выводами.",
+        "learn": 0
+      },
+      {
+        "eng": "Prices jumped overnight.",
+        "ru": "Цены резко подскочили.",
+        "learn": 0
+      },
+      {
+        "eng": "He jumped over the wall and ran off.",
+        "ru": "Он перепрыгнул через стену и убежал.",
+        "learn": 0
+      },
+      {
+        "eng": "Why does the video keep jumping like this?",
+        "ru": "Почему видео (на экране) продолжает дёргаться, таким образом?",
+        "learn": 0
+      },
+      {
+        "eng": "He jumped off the roof.",
+        "ru": "Он спрыгнул с крыши.",
+        "learn": 0
+      },
+      {
+        "eng": "He jumped into the game.",
+        "ru": "Он ворвался в игру.",
+        "learn": 0
+      },
+      {
+        "eng": "The child jumped into bed.",
+        "ru": "Ребёнок запрыгнул в постель.",
+        "learn": 0
+      },
+      {
+        "eng": "The dog jumped onto the sofa.",
+        "ru": "Собака прыгнула на диван.",
+        "learn": 0
+      },
+      {
+        "eng": "She jumped to her feet and left.",
+        "ru": "Она вскочила на ноги и ушла.",
+        "learn": 0
+      },
+      {
+        "eng": "The cat jumped down off the table.",
+        "ru": "Кот спрыгнул со стола.",
+        "learn": 0
+      },
+      {
+        "eng": "The cat then seized it with a jump.",
+        "ru": "Сделав прыжок, кошка схватила её.",
+        "learn": 0
+      },
+      {
+        "eng": "Our humors jump together completely.",
+        "ru": "Наши наклонности полностью совпадают.",
+        "learn": 0
+      },
+      {
+        "eng": "He was jumped into buying the house.",
+        "ru": "Его обманом заставили купить этот дом.",
+        "learn": 0
+      },
+      {
+        "eng": "The guests all jumped at the invitation.",
+        "ru": "Все гости ухватились за приглашение.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't be soft — just jump!",
+        "ru": "Не будь слабаком — прыгай!",
+        "learn": 0
+      },
+      {
+        "eng": "So jump, then. I dare you.",
+        "ru": "Тогда прыгай. Ну, давай же, рискни. / Слабо? / Спорим, не прыгнешь?",
+        "learn": 0
+      },
+      {
+        "eng": "The runner jumped a hurdle.",
+        "ru": "Бегун перепрыгнул через барьер.",
+        "learn": 0
+      },
+      {
+        "eng": "Everyone jumped into the pool.",
+        "ru": "Все запрыгнули в бассейн.",
+        "learn": 0
+      },
+      {
+        "eng": "I dare you to jump the stream!",
+        "ru": "Держу пари, ты не перепрыгнешь через этот ручей!",
+        "learn": 0
+      },
+      {
+        "eng": "jump from one thing to another",
+        "ru": "прыгать от одного дела к другому",
+        "learn": 0
+      },
+      {
+        "eng": "She backed the horse at a jump.",
+        "ru": "Она вскочила на лошадь одним прыжком.",
+        "learn": 0
+      },
+      {
+        "eng": "He advanced in a series of jumps.",
+        "ru": "Он продвинулся вперёд, совершив несколько прыжков.",
+        "learn": 0
+      },
+      {
+        "eng": "I jump when she snaps her fingers.",
+        "ru": "Я подчиняюсь ей беспрекословно.",
+        "learn": 0
+      }
+    ]
+  }
 }

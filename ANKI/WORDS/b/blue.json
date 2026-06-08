@@ -1,83 +1,169 @@
 {
-    "blue": {
-        "comment": [
-            "blues",
-            "blurred"
-        ],
-        "translate": "синий, голубой, лазурный, синить, воронить, синий цвет, голубой цвет",
-        "transcription": " |bluː|",
-        "antonyms": [],
-        "mnemonic": [
-            "blue [блу] голубой - Голубой (блу-д)."
-        ],
-        "examples": [
-            "We painted the door blue.",
-            "Why is the sky blue?",
-            "I need more blue paint.",
-            "I've been feeling kind of blue.",
-            "Blue really becomes her.",
-            "A blue bus lumbered past.",
-            "Blue Ribbon Army",
-            "Picasso's blue period",
-            "Blue sky crested with rainbow.",
-            "He was wearing blue jeans.",
-            "He had eyes of bright blue.",
-            "the blue waters of the lake",
-            "Her dress was a smoky blue.",
-            "Her favorite color is blue.",
-            "His new tie is a dusty blue.",
-            "What has come of my blue bag?",
-            "a blue and white striped shirt",
-            "The blue coat belongs to Mary.",
-            "The skies were clear and blue.",
-            "a blue rinse for grey hair",
-            "the harsh cry of a blue jay",
-            "Gershwin's Rhapsody in Blue",
-            "This top coat would blue it.",
-            "the judge's steely blue eyes",
-            "There's a blue car out front.",
-            "a mixture of blues and greens",
-            "They sailed off into the blue.",
-            "She wore a matronly blue dress.",
-            "The Union army was a vast blue.",
-            "He shot an arrow into the blue."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мы покрасили дверь в синий цвет.",
-            "Почему небо голубое?",
-            "Мне нужно больше синей краски.",
-            "Я как-то грустно себя чувствую.",
-            "Синий действительно ей идёт.",
-            "Мимо не спеша прогромыхал голубой автобус.",
-            "Общество трезвенников",
-            "голубой период творчества Пикассо",
-            "Голубое небо, увенчанное радугой.",
-            "Он был одет в голубые джинсы.",
-            "Глаза у него были ярко-синего цвета.",
-            "голубые воды озера",
-            "Её платье было дымчато-голубого цвета.",
-            "Ее любимый цвет — голубой (синий).",
-            "Его новый галстук — серовато-голубого цвета.",
-            "Что сталось с моей синей сумкой?",
-            "сине-белая рубашка в полоску",
-            "Это синее пальто принадлежит Мэри.",
-            "Небо было ясное и голубое.",
-            "оттеночная краска для седых волос",
-            "резкий крик сойки",
-            "Голубая рапсодия Гершвина",
-            "Это пальто совершенно не идёт к остальному костюму, оно всё портит.",
-            "сине-стальные глаза судьи",
-            "Там у входа стоит синий автомобиль.",
-            "смесь голубого и зелёного",
-            "Они отплыли в дальние края.",
-            "На ней было солидное синее платье.",
-            "Войска северян были словно огромное синее море. (мундиры северян во время Гражданской войны в США были синего цвета)",
-            "Он пустил стрелу в синее небо."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "blue": {
+    "comment": [
+      "blues",
+      "blurred"
+    ],
+    "translate": "синий, голубой, лазурный, синить, воронить, синий цвет, голубой цвет",
+    "transcription": " |bluː|",
+    "antonyms": [],
+    "mnemonic": [
+      "blue [блу] голубой - Голубой (блу-д)."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "We painted the door blue.",
+        "ru": "Мы покрасили дверь в синий цвет.",
+        "learn": 0
+      },
+      {
+        "eng": "Why is the sky blue?",
+        "ru": "Почему небо голубое?",
+        "learn": 0
+      },
+      {
+        "eng": "I need more blue paint.",
+        "ru": "Мне нужно больше синей краски.",
+        "learn": 0
+      },
+      {
+        "eng": "I've been feeling kind of blue.",
+        "ru": "Я как-то грустно себя чувствую.",
+        "learn": 0
+      },
+      {
+        "eng": "Blue really becomes her.",
+        "ru": "Синий действительно ей идёт.",
+        "learn": 1
+      },
+      {
+        "eng": "A blue bus lumbered past.",
+        "ru": "Мимо не спеша прогромыхал голубой автобус.",
+        "learn": 0
+      },
+      {
+        "eng": "Blue Ribbon Army",
+        "ru": "Общество трезвенников",
+        "learn": 0
+      },
+      {
+        "eng": "Picasso's blue period",
+        "ru": "голубой период творчества Пикассо",
+        "learn": 0
+      },
+      {
+        "eng": "Blue sky crested with rainbow.",
+        "ru": "Голубое небо, увенчанное радугой.",
+        "learn": 0
+      },
+      {
+        "eng": "He was wearing blue jeans.",
+        "ru": "Он был одет в голубые джинсы.",
+        "learn": 0
+      },
+      {
+        "eng": "He had eyes of bright blue.",
+        "ru": "Глаза у него были ярко-синего цвета.",
+        "learn": 0
+      },
+      {
+        "eng": "the blue waters of the lake",
+        "ru": "голубые воды озера",
+        "learn": 0
+      },
+      {
+        "eng": "Her dress was a smoky blue.",
+        "ru": "Её платье было дымчато-голубого цвета.",
+        "learn": 0
+      },
+      {
+        "eng": "Her favorite color is blue.",
+        "ru": "Ее любимый цвет — голубой (синий).",
+        "learn": 0
+      },
+      {
+        "eng": "His new tie is a dusty blue.",
+        "ru": "Его новый галстук — серовато-голубого цвета.",
+        "learn": 1
+      },
+      {
+        "eng": "What has come of my blue bag?",
+        "ru": "Что сталось с моей синей сумкой?",
+        "learn": 0
+      },
+      {
+        "eng": "a blue and white striped shirt",
+        "ru": "сине-белая рубашка в полоску",
+        "learn": 0
+      },
+      {
+        "eng": "The blue coat belongs to Mary.",
+        "ru": "Это синее пальто принадлежит Мэри.",
+        "learn": 0
+      },
+      {
+        "eng": "The skies were clear and blue.",
+        "ru": "Небо было ясное и голубое.",
+        "learn": 0
+      },
+      {
+        "eng": "a blue rinse for grey hair",
+        "ru": "оттеночная краска для седых волос",
+        "learn": 0
+      },
+      {
+        "eng": "the harsh cry of a blue jay",
+        "ru": "резкий крик сойки",
+        "learn": 0
+      },
+      {
+        "eng": "Gershwin's Rhapsody in Blue",
+        "ru": "Голубая рапсодия Гершвина",
+        "learn": 0
+      },
+      {
+        "eng": "This top coat would blue it.",
+        "ru": "Это пальто совершенно не идёт к остальному костюму, оно всё портит.",
+        "learn": 0
+      },
+      {
+        "eng": "the judge's steely blue eyes",
+        "ru": "сине-стальные глаза судьи",
+        "learn": 0
+      },
+      {
+        "eng": "There's a blue car out front.",
+        "ru": "Там у входа стоит синий автомобиль.",
+        "learn": 0
+      },
+      {
+        "eng": "a mixture of blues and greens",
+        "ru": "смесь голубого и зелёного",
+        "learn": 1
+      },
+      {
+        "eng": "They sailed off into the blue.",
+        "ru": "Они отплыли в дальние края.",
+        "learn": 0
+      },
+      {
+        "eng": "She wore a matronly blue dress.",
+        "ru": "На ней было солидное синее платье.",
+        "learn": 0
+      },
+      {
+        "eng": "The Union army was a vast blue.",
+        "ru": "Войска северян были словно огромное синее море. (мундиры северян во время Гражданской войны в США были синего цвета)",
+        "learn": 0
+      },
+      {
+        "eng": "He shot an arrow into the blue.",
+        "ru": "Он пустил стрелу в синее небо.",
+        "learn": 0
+      }
+    ]
+  }
 }

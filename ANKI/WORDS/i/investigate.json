@@ -1,57 +1,107 @@
 {
-    "investigate": {
-        "comment": [
-            "investigation",
-            "investigator"
-        ],
-        "translate": "исследовать, расследовать, изучать, разузнавать, разведывать, наводить справки",
-        "transcription": " |ɪnˈvestɪɡeɪt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The police are still investigating the murder.",
-            "The accident was thoroughly investigated.",
-            "Let's investigate the syntax of Chinese",
-            "We heard a lot of shouting and went to investigate.",
-            "Their object is to investigate the matter thoroughly.",
-            "The police were brought in to investigate the matter.",
-            "Teachers simply do not have the time or the inclination to investigate these matters.",
-            "The organization petitioned the government to investigate the issue.",
-            "Health and safety officers will investigate the site and prepare a report.",
-            "The manager promised to investigate when we pointed out an error on our bill.",
-            "The Army has detailed him to investigate the complaints.",
-            "A committee will investigate allegations of racial discrimination.",
-            "The study investigates the impact of violent TV programming on children.",
-            "Madison was assigned to investigate a balloon accident.",
-            "The district attorney's office investigated reports of possible irregularities.",
-            "The Government set up a commission to investigate allegations of police violence.",
-            "She hired a private detective to investigate her husband's extracurricular activities.",
-            "University zoologists and government vets are combining forces (=working together) to investigate the disease."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Полиция все еще расследует убийство.",
-            "Авария была тщательно расследована.",
-            "Давайте изучим синтаксис китайского языка.",
-            "Мы услышали громкие крики, и отправились разузнать, в чём дело.",
-            "Их цель — тщательно расследовать это дело.",
-            "Полиция была привлечена к расследованию этого дела.",
-            "У учителей нет ни времени, ни желания на изучение /исследование/ этих вопросов.",
-            "Данная организация обратилась в правительство с просьбой расследовать этот вопрос.",
-            "Инженеры по технике безопасности обследуют стройплощадку и подготовят отчёт.",
-            "Администратор пообещал разобраться, когда мы указали на ошибку в нашем счёте.",
-            "Армия откомандировала его расследовать эти жалобы.",
-            "Обвинения в расовой дискриминации будут расследоваться комиссией.",
-            "Исследование посвящено изучению влияния на детей насилия в телевизионных программах.",
-            "Мэдисону было поручено расследовать аварию на воздушном шаре.",
-            "Окружная прокуратура расследовала сообщения о возможных нарушениях.",
-            "Правительство создало комиссию по расследованию обвинений в полицейском насилии.",
-            "Она наняла частного детектива, чтобы расследовать, чем занимается её муж вне работы.",
-            "Университетские зоологи и правительственные ветеринары объединяют усилия (т.е. работают вместе) над исследованием данного заболевания."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "investigate": {
+    "comment": [
+      "investigation",
+      "investigator"
+    ],
+    "translate": "исследовать, расследовать, изучать, разузнавать, разведывать, наводить справки",
+    "transcription": " |ɪnˈvestɪɡeɪt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The police are still investigating the murder.",
+        "ru": "Полиция все еще расследует убийство.",
+        "learn": 1
+      },
+      {
+        "eng": "The accident was thoroughly investigated.",
+        "ru": "Авария была тщательно расследована.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's investigate the syntax of Chinese",
+        "ru": "Давайте изучим синтаксис китайского языка.",
+        "learn": 0
+      },
+      {
+        "eng": "We heard a lot of shouting and went to investigate.",
+        "ru": "Мы услышали громкие крики, и отправились разузнать, в чём дело.",
+        "learn": 0
+      },
+      {
+        "eng": "Their object is to investigate the matter thoroughly.",
+        "ru": "Их цель — тщательно расследовать это дело.",
+        "learn": 0
+      },
+      {
+        "eng": "The police were brought in to investigate the matter.",
+        "ru": "Полиция была привлечена к расследованию этого дела.",
+        "learn": 0
+      },
+      {
+        "eng": "Teachers simply do not have the time or the inclination to investigate these matters.",
+        "ru": "У учителей нет ни времени, ни желания на изучение /исследование/ этих вопросов.",
+        "learn": 1
+      },
+      {
+        "eng": "The organization petitioned the government to investigate the issue.",
+        "ru": "Данная организация обратилась в правительство с просьбой расследовать этот вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "Health and safety officers will investigate the site and prepare a report.",
+        "ru": "Инженеры по технике безопасности обследуют стройплощадку и подготовят отчёт.",
+        "learn": 0
+      },
+      {
+        "eng": "The manager promised to investigate when we pointed out an error on our bill.",
+        "ru": "Администратор пообещал разобраться, когда мы указали на ошибку в нашем счёте.",
+        "learn": 0
+      },
+      {
+        "eng": "The Army has detailed him to investigate the complaints.",
+        "ru": "Армия откомандировала его расследовать эти жалобы.",
+        "learn": 0
+      },
+      {
+        "eng": "A committee will investigate allegations of racial discrimination.",
+        "ru": "Обвинения в расовой дискриминации будут расследоваться комиссией.",
+        "learn": 1
+      },
+      {
+        "eng": "The study investigates the impact of violent TV programming on children.",
+        "ru": "Исследование посвящено изучению влияния на детей насилия в телевизионных программах.",
+        "learn": 1
+      },
+      {
+        "eng": "Madison was assigned to investigate a balloon accident.",
+        "ru": "Мэдисону было поручено расследовать аварию на воздушном шаре.",
+        "learn": 0
+      },
+      {
+        "eng": "The district attorney's office investigated reports of possible irregularities.",
+        "ru": "Окружная прокуратура расследовала сообщения о возможных нарушениях.",
+        "learn": 0
+      },
+      {
+        "eng": "The Government set up a commission to investigate allegations of police violence.",
+        "ru": "Правительство создало комиссию по расследованию обвинений в полицейском насилии.",
+        "learn": 0
+      },
+      {
+        "eng": "She hired a private detective to investigate her husband's extracurricular activities.",
+        "ru": "Она наняла частного детектива, чтобы расследовать, чем занимается её муж вне работы.",
+        "learn": 0
+      },
+      {
+        "eng": "University zoologists and government vets are combining forces (=working together) to investigate the disease.",
+        "ru": "Университетские зоологи и правительственные ветеринары объединяют усилия (т.е. работают вместе) над исследованием данного заболевания.",
+        "learn": 0
+      }
+    ]
+  }
 }

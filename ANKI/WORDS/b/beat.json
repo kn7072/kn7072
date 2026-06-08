@@ -1,93 +1,182 @@
 {
-    "beat": {
-        "comment": [
-            "beautiful",
-            "beauty",
-            "beak",
-            "bear",
-            "beach",
-            "bean",
-            "beard",
-            "beating",
-            "beam",
-            "bearing",
-            "beast"
-        ],
-        "translate": "бить, биться, отбивать, удар, ритм, биение, бой, такт, усталый, измотавшийся",
-        "transcription": " |biːt|",
-        "antonyms": [],
-        "mnemonic": [
-            "beat [bi: t]\nbit [bɪt]\n***\nОн сегодня будет БИТ. (это) beat\n***\nНЕМНОГО, КУСОЧЕК, ЧУТЬ- ЧУТЬ краешек отбит.\n(это) bit\n***\nЕсли будешь много есть \"eat\",\nтебя побьют \"beat\"."
-        ],
-        "examples": [
-            "You look dead beat.",
-            "You can't beat the system.",
-            "The drums beat all night.",
-            "He was questioned and beaten.",
-            "Beat the eggs into the flour.",
-            "I beat the traffic.",
-            "Beat the eggs, then add the milk.",
-            "This beats me!",
-            "The rain beat against the windows.",
-            "Her heart was beating fast.",
-            "Let me sit down. I'm absolutely beat!",
-            "He beat his breast in anger.",
-            "I've never seen his beat.",
-            "It's raining to beat the band.",
-            "I'm beat.",
-            "They're a hard team to beat.",
-            "The waves beat against the rocks.",
-            "This sure beats work!",
-            "The rain beat on the roof.",
-            "The team was beaten for the second time.",
-            "The even beat of the drum",
-            "We beat them ten to nothing.",
-            "We beat 'em good and proper.",
-            "Nothing beats homemade cake.",
-            "They beat us good and proper.",
-            "Sid beat on the door with his hand.",
-            "We beat the competition.",
-            "Gradually beat in the sugar.",
-            "Beat out this tune on a drum.",
-            "Shop now and beat the Christmas rush!"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ты выглядишь очень усталой.",
-            "Против системы не попрешь.",
-            "Барабаны били всю ночь.",
-            "Его допрашивали и избивали.",
-            "Смешайте взбитые яйца с мукой.",
-            "Мне удалось проскочить без пробок.",
-            "Взбейте яйца, затем добавьте молоко.",
-            "Понятия не имею!",
-            "Дождь стучал в окна.",
-            "Её сердце быстро билось.",
-            "Позвольте мне сесть. Я совершенно измотан!",
-            "Разозлившись, он ударил себя в грудь.",
-            "Он бесподобен. / Никогда не видел никого, подобного ему.",
-            "Дождь льет как из ведра.",
-            "Я жутко устал. / Я вымотался.",
-            "Их команду трудно победить.",
-            "Волны бьются о скалы.",
-            "Конечно, это лучше, чем работать!",
-            "Дождь барабанил по крыше.",
-            "Команда вторично потерпела поражение.",
-            "Равномерный ритм барабана.",
-            "Мы разгромили их со счётом десять — ноль.",
-            "Мы задали им хорошую трёпку. / Мы разбили их в пух и прах.",
-            "С домашним пирогом ничто не сравнится.",
-            "Они разбили нас в пух и прах.",
-            "Сид постучал в дверь рукой.",
-            "Мы победили конкурентов.",
-            "Продолжайте взбивать, постепенно добавляя сахар.",
-            "Выстучи эту мелодию на барабане.",
-            "Купите подарки прямо сейчас, успейте до Рождественской лихорадки!"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ea_=_[iː]"
-        ]
-    }
+  "beat": {
+    "comment": [
+      "beat |biːt|,                                          beaten |ˈbiːtən|",
+      "beautiful",
+      "beauty",
+      "beak",
+      "bear",
+      "beach",
+      "bean",
+      "beard",
+      "beating",
+      "beam",
+      "bearing",
+      "beast"
+    ],
+    "translate": "бить, биться, отбивать, удар, ритм, биение, бой, такт, усталый, измотавшийся",
+    "transcription": " |biːt|",
+    "antonyms": [],
+    "mnemonic": [
+      "beat [bi: t]\nbit [bɪt]\n***\nОн сегодня будет БИТ. (это) beat\n***\nНЕМНОГО, КУСОЧЕК, ЧУТЬ- ЧУТЬ краешек отбит.\n(это) bit\n***\nЕсли будешь много есть \"eat\",\nтебя побьют \"beat\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ea_=_[iː]",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "You look dead beat.",
+        "ru": "Ты выглядишь очень усталой.",
+        "learn": 0
+      },
+      {
+        "eng": "You can't beat the system.",
+        "ru": "Против системы не попрешь.",
+        "learn": 0
+      },
+      {
+        "eng": "The drums beat all night.",
+        "ru": "Барабаны били всю ночь.",
+        "learn": 0
+      },
+      {
+        "eng": "He was questioned and beaten.",
+        "ru": "Его допрашивали и избивали.",
+        "learn": 0
+      },
+      {
+        "eng": "Beat the eggs into the flour.",
+        "ru": "Смешайте взбитые яйца с мукой.",
+        "learn": 0
+      },
+      {
+        "eng": "I beat the traffic.",
+        "ru": "Мне удалось проскочить без пробок.",
+        "learn": 0
+      },
+      {
+        "eng": "Beat the eggs, then add the milk.",
+        "ru": "Взбейте яйца, затем добавьте молоко.",
+        "learn": 0
+      },
+      {
+        "eng": "This beats me!",
+        "ru": "Понятия не имею!",
+        "learn": 0
+      },
+      {
+        "eng": "The rain beat against the windows.",
+        "ru": "Дождь стучал в окна.",
+        "learn": 0
+      },
+      {
+        "eng": "Her heart was beating fast.",
+        "ru": "Её сердце быстро билось.",
+        "learn": 1
+      },
+      {
+        "eng": "Let me sit down. I'm absolutely beat!",
+        "ru": "Позвольте мне сесть. Я совершенно измотан!",
+        "learn": 0
+      },
+      {
+        "eng": "He beat his breast in anger.",
+        "ru": "Разозлившись, он ударил себя в грудь.",
+        "learn": 0
+      },
+      {
+        "eng": "I've never seen his beat.",
+        "ru": "Он бесподобен. / Никогда не видел никого, подобного ему.",
+        "learn": 0
+      },
+      {
+        "eng": "It's raining to beat the band.",
+        "ru": "Дождь льет как из ведра.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm beat.",
+        "ru": "Я жутко устал. / Я вымотался.",
+        "learn": 0
+      },
+      {
+        "eng": "They're a hard team to beat.",
+        "ru": "Их команду трудно победить.",
+        "learn": 0
+      },
+      {
+        "eng": "The waves beat against the rocks.",
+        "ru": "Волны бьются о скалы.",
+        "learn": 0
+      },
+      {
+        "eng": "This sure beats work!",
+        "ru": "Конечно, это лучше, чем работать!",
+        "learn": 0
+      },
+      {
+        "eng": "The rain beat on the roof.",
+        "ru": "Дождь барабанил по крыше.",
+        "learn": 0
+      },
+      {
+        "eng": "The team was beaten for the second time.",
+        "ru": "Команда вторично потерпела поражение.",
+        "learn": 0
+      },
+      {
+        "eng": "The even beat of the drum",
+        "ru": "Равномерный ритм барабана.",
+        "learn": 1
+      },
+      {
+        "eng": "We beat them ten to nothing.",
+        "ru": "Мы разгромили их со счётом десять — ноль.",
+        "learn": 1
+      },
+      {
+        "eng": "We beat 'em good and proper.",
+        "ru": "Мы задали им хорошую трёпку. / Мы разбили их в пух и прах.",
+        "learn": 0
+      },
+      {
+        "eng": "Nothing beats homemade cake.",
+        "ru": "С домашним пирогом ничто не сравнится.",
+        "learn": 0
+      },
+      {
+        "eng": "They beat us good and proper.",
+        "ru": "Они разбили нас в пух и прах.",
+        "learn": 0
+      },
+      {
+        "eng": "Sid beat on the door with his hand.",
+        "ru": "Сид постучал в дверь рукой.",
+        "learn": 0
+      },
+      {
+        "eng": "We beat the competition.",
+        "ru": "Мы победили конкурентов.",
+        "learn": 0
+      },
+      {
+        "eng": "Gradually beat in the sugar.",
+        "ru": "Продолжайте взбивать, постепенно добавляя сахар.",
+        "learn": 0
+      },
+      {
+        "eng": "Beat out this tune on a drum.",
+        "ru": "Выстучи эту мелодию на барабане.",
+        "learn": 0
+      },
+      {
+        "eng": "Shop now and beat the Christmas rush!",
+        "ru": "Купите подарки прямо сейчас, успейте до Рождественской лихорадки!",
+        "learn": 0
+      }
+    ]
+  }
 }

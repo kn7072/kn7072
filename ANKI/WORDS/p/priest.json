@@ -1,86 +1,173 @@
 {
-    "priest": {
-        "comment": [
-            "price",
-            "prize",
-            "preach"
-        ],
-        "translate": "священник, жрец, посвящать в священники",
-        "transcription": " |priːst|",
-        "antonyms": [],
-        "mnemonic": [
-            "priest [прист] священник, поп - Священники (прист-ают) к прихожанкам.",
-            "priest [pri: st]\n***\nУ СВЯЩЕННИКА посох серебрист. (это) priest"
-        ],
-        "examples": [
-            "The priest gave the blessing.",
-            "We thanked the priest for his kind words.",
-            "The priest baptized the baby.",
-            "I confessed my sins to the priest.",
-            "The priest stood before the altar.",
-            "A priest, vested in surplice.",
-            "the high priest of modern jazz",
-            "The priest blessed the marriage.",
-            "A priest has eased me of my sins.",
-            "a priest who had taken a vow of celibacy",
-            "He was ordained as a Roman Catholic priest.",
-            "The priest will perform the ritual.",
-            "His clothes proclaimed him a priest.",
-            "Many Christians regularly confess to a priest.",
-            "I suggest that you keep off religion while the priest is here.",
-            "The priest addressed the congregation.",
-            "The priest was always buzzing about him.",
-            "The priest anointed the new king with oil.",
-            "Then the priest blesses the bread and wine.",
-            "The priest closed the meeting with a prayer.",
-            "The priest was a mild-mannered inoffensive fellow.",
-            "He searched for a priest who could perform an exorcism.",
-            "The priest urged the people to repent of their wickedness.",
-            "At the wedding ceremony, the priest said, \"Say after me...\"",
-            "The priest has been translated from his old church to this area.",
-            "A priest has to arrange funerals, marriages, that sort of thing.",
-            "The priest visited the Rogers to condole with them on the loss of their son.",
-            "A priest celebrates Mass at the church daily.",
-            "The priest returned the chalice to the vestry.",
-            "But I dare not absolve him of robbing a priest."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Священник дал своё благословение.",
-            "Мы поблагодарили священника за тёплые слова.",
-            "Священник окрестил младенца.",
-            "Я исповедовался священнику в своих грехах.",
-            "Священник стоял перед алтарём.",
-            "Священник, облачённый в стихарь.",
-            "корифей современного джаза",
-            "Священник благословил этот брачный союз.",
-            "Священник отпустил мне грехи.",
-            "священник, который дал обет безбрачия",
-            "Он был рукоположен в сан католического священника.",
-            "Священник совершит этот обряд.",
-            "Одежда выдавала в нём священнослужителя.",
-            "Многие христиане регулярно исповедуются перед священником.",
-            "Не говори о религии, пока у нас в гостях священник.",
-            "Священник обратился к пастве.",
-            "Священник всегда суетился вокруг него.",
-            "Священник совершил над новым королём обряд миропомазания.",
-            "Затем священник благословляет хлеб и вино.",
-            "Священник завершил собрание молитвой.",
-            "Священник был человеком кротким и безобидным.",
-            "Он искал священника, который мог бы изгнать нечистую силу.",
-            "Священник призвал народ раскаяться в своей злобе.",
-            "Во время свадебной церемонии священник сказал: \"Повторяйте за мной...\"",
-            "Священника перевели из его старого прихода в эту область.",
-            "Священнику приходится организовывать похороны, свадьбы и тому подобное.",
-            "Священник навестил Роджеров, чтобы выразить им свои соболезнования в связи с потерей сына.",
-            "Ежедневно один из священников совершает в церкви мессу.",
-            "Священник вернул чашу в ризницу.",
-            "Но я не могу отпустить ему грех ограбления священнослужителя."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "ie_=_[iː]"
-        ]
-    }
+  "priest": {
+    "comment": [
+      "price",
+      "prize",
+      "preach"
+    ],
+    "translate": "священник, жрец, посвящать в священники",
+    "transcription": " |priːst|",
+    "antonyms": [],
+    "mnemonic": [
+      "priest [прист] священник, поп - Священники (прист-ают) к прихожанкам.",
+      "priest [pri: st]\n***\nУ СВЯЩЕННИКА посох серебрист. (это) priest"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "ie_=_[iː]"
+    ],
+    "examples": [
+      {
+        "eng": "The priest gave the blessing.",
+        "ru": "Священник дал своё благословение.",
+        "learn": 1
+      },
+      {
+        "eng": "We thanked the priest for his kind words.",
+        "ru": "Мы поблагодарили священника за тёплые слова.",
+        "learn": 0
+      },
+      {
+        "eng": "The priest baptized the baby.",
+        "ru": "Священник окрестил младенца.",
+        "learn": 0
+      },
+      {
+        "eng": "I confessed my sins to the priest.",
+        "ru": "Я исповедовался священнику в своих грехах.",
+        "learn": 0
+      },
+      {
+        "eng": "The priest stood before the altar.",
+        "ru": "Священник стоял перед алтарём.",
+        "learn": 0
+      },
+      {
+        "eng": "A priest, vested in surplice.",
+        "ru": "Священник, облачённый в стихарь.",
+        "learn": 0
+      },
+      {
+        "eng": "the high priest of modern jazz",
+        "ru": "корифей современного джаза",
+        "learn": 0
+      },
+      {
+        "eng": "The priest blessed the marriage.",
+        "ru": "Священник благословил этот брачный союз.",
+        "learn": 1
+      },
+      {
+        "eng": "A priest has eased me of my sins.",
+        "ru": "Священник отпустил мне грехи.",
+        "learn": 0
+      },
+      {
+        "eng": "a priest who had taken a vow of celibacy",
+        "ru": "священник, который дал обет безбрачия",
+        "learn": 0
+      },
+      {
+        "eng": "He was ordained as a Roman Catholic priest.",
+        "ru": "Он был рукоположен в сан католического священника.",
+        "learn": 0
+      },
+      {
+        "eng": "The priest will perform the ritual.",
+        "ru": "Священник совершит этот обряд.",
+        "learn": 1
+      },
+      {
+        "eng": "His clothes proclaimed him a priest.",
+        "ru": "Одежда выдавала в нём священнослужителя.",
+        "learn": 0
+      },
+      {
+        "eng": "Many Christians regularly confess to a priest.",
+        "ru": "Многие христиане регулярно исповедуются перед священником.",
+        "learn": 0
+      },
+      {
+        "eng": "I suggest that you keep off religion while the priest is here.",
+        "ru": "Не говори о религии, пока у нас в гостях священник.",
+        "learn": 0
+      },
+      {
+        "eng": "The priest addressed the congregation.",
+        "ru": "Священник обратился к пастве.",
+        "learn": 1
+      },
+      {
+        "eng": "The priest was always buzzing about him.",
+        "ru": "Священник всегда суетился вокруг него.",
+        "learn": 0
+      },
+      {
+        "eng": "The priest anointed the new king with oil.",
+        "ru": "Священник совершил над новым королём обряд миропомазания.",
+        "learn": 0
+      },
+      {
+        "eng": "Then the priest blesses the bread and wine.",
+        "ru": "Затем священник благословляет хлеб и вино.",
+        "learn": 0
+      },
+      {
+        "eng": "The priest closed the meeting with a prayer.",
+        "ru": "Священник завершил собрание молитвой.",
+        "learn": 0
+      },
+      {
+        "eng": "The priest was a mild-mannered inoffensive fellow.",
+        "ru": "Священник был человеком кротким и безобидным.",
+        "learn": 0
+      },
+      {
+        "eng": "He searched for a priest who could perform an exorcism.",
+        "ru": "Он искал священника, который мог бы изгнать нечистую силу.",
+        "learn": 0
+      },
+      {
+        "eng": "The priest urged the people to repent of their wickedness.",
+        "ru": "Священник призвал народ раскаяться в своей злобе.",
+        "learn": 0
+      },
+      {
+        "eng": "At the wedding ceremony, the priest said, \"Say after me...\"",
+        "ru": "Во время свадебной церемонии священник сказал: \"Повторяйте за мной...\"",
+        "learn": 0
+      },
+      {
+        "eng": "The priest has been translated from his old church to this area.",
+        "ru": "Священника перевели из его старого прихода в эту область.",
+        "learn": 0
+      },
+      {
+        "eng": "A priest has to arrange funerals, marriages, that sort of thing.",
+        "ru": "Священнику приходится организовывать похороны, свадьбы и тому подобное.",
+        "learn": 0
+      },
+      {
+        "eng": "The priest visited the Rogers to condole with them on the loss of their son.",
+        "ru": "Священник навестил Роджеров, чтобы выразить им свои соболезнования в связи с потерей сына.",
+        "learn": 0
+      },
+      {
+        "eng": "A priest celebrates Mass at the church daily.",
+        "ru": "Ежедневно один из священников совершает в церкви мессу.",
+        "learn": 0
+      },
+      {
+        "eng": "The priest returned the chalice to the vestry.",
+        "ru": "Священник вернул чашу в ризницу.",
+        "learn": 0
+      },
+      {
+        "eng": "But I dare not absolve him of robbing a priest.",
+        "ru": "Но я не могу отпустить ему грех ограбления священнослужителя.",
+        "learn": 0
+      }
+    ]
+  }
 }

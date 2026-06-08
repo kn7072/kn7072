@@ -1,89 +1,176 @@
 {
-    "book": {
-        "comment": [
-            "booklet",
-            "bookcase",
-            "notebook",
-            "bookshelf",
-            "bookshop",
-            "booking",
-            "guidebook"
-        ],
-        "translate": " книга, книжка, журнал, том, заказывать, книжный",
-        "transcription": "  |bʊk|",
-        "antonyms": [],
-        "mnemonic": [
-            "book [buk]\n***\nЧтоб КНИГУ сделать, взял бамбук. (это) book"
-        ],
-        "examples": [
-            "Take this book too.",
-            "I'll book you in at the Hilton.",
-            "He is an open book.",
-            "Give that book to me.",
-            "I brought him a book.",
-            "Book Centre",
-            "The policeman booked her when she tried to solicit a man.",
-            "Let me see the book.",
-            "You can book seats online.",
-            "The books of the Bible",
-            "She shut the book loudly.",
-            "What is your new book about?",
-            "This book upset me",
-            "She gave me her book.",
-            "Is this book yours or mine?",
-            "This book is not available.",
-            "I haven't read the book yet.",
-            "This book belongs to me.",
-            "Put the book on the table!",
-            "This book is out of place.",
-            "turn a page of a book",
-            "She laid the book aside.",
-            "The book is very humorous.",
-            "It is a hard book to read.",
-            "His book will be published.",
-            "Smith was booked on suspicion of attempted murder.",
-            "This book goes here.",
-            "He socked me a book.",
-            "B-O-O-K spells 'book'.",
-            "a book for young people"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Возьмите и эту книгу.",
-            "Я забронирую Вам номер в отеле Hilton.",
-            "Его легко понять.",
-            "Дайте мне ту книгу.",
-            "Я принёс ему книгу.",
-            "Дом книги",
-            "Полицейский задержал её при попытке приставать к мужчине на улице.",
-            "Покажите мне эту книгу. / Дайте мне взглянуть на эту книгу.",
-            "Вы можете забронировать места через Интернет /онлайн/.",
-            "Книги Библии (Библия состоит из 66 канонических книг для всех христианских течений: протестанты признают каноническими 66 книг, католики - 73, православные - 77.)",
-            "Она громко захлопнула книгу.",
-            "О чем ваша новая книга?",
-            "Эта книга меня расстроила.",
-            "Она дала мне свою книгу.",
-            "Это твоя книга или моя?",
-            "Эту книгу нельзя достать.",
-            "Я ещё не прочёл эту книгу.",
-            "Эта книга принадлежит мне.",
-            "Положите книгу на стол!",
-            "Эта книга стоит не на месте.",
-            "перевернуть страницу книги",
-            "Она отложила книгу в сторону.",
-            "Книга очень смешная.",
-            "Эта книга трудна для чтения.",
-            "Его книга будет опубликована.",
-            "Смита арестовали по подозрению в покушении на убийство.",
-            "Эту книгу — сюда.",
-            "Он подарил мне книгу.",
-            "B-O-O-K читается как \"book\".",
-            "книга для молодёжи"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "oo_=_[uː]"
-        ]
-    }
+  "book": {
+    "comment": [
+      "booklet",
+      "bookcase",
+      "notebook",
+      "bookshelf",
+      "bookshop",
+      "booking",
+      "guidebook"
+    ],
+    "translate": " книга, книжка, журнал, том, заказывать, книжный",
+    "transcription": "  |bʊk|",
+    "antonyms": [],
+    "mnemonic": [
+      "book [buk]\n***\nЧтоб КНИГУ сделать, взял бамбук. (это) book"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "oo_=_[uː]"
+    ],
+    "examples": [
+      {
+        "eng": "Take this book too.",
+        "ru": "Возьмите и эту книгу.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll book you in at the Hilton.",
+        "ru": "Я забронирую Вам номер в отеле Hilton.",
+        "learn": 0
+      },
+      {
+        "eng": "He is an open book.",
+        "ru": "Его легко понять.",
+        "learn": 0
+      },
+      {
+        "eng": "Give that book to me.",
+        "ru": "Дайте мне ту книгу.",
+        "learn": 0
+      },
+      {
+        "eng": "I brought him a book.",
+        "ru": "Я принёс ему книгу.",
+        "learn": 0
+      },
+      {
+        "eng": "Book Centre",
+        "ru": "Дом книги",
+        "learn": 0
+      },
+      {
+        "eng": "The policeman booked her when she tried to solicit a man.",
+        "ru": "Полицейский задержал её при попытке приставать к мужчине на улице.",
+        "learn": 0
+      },
+      {
+        "eng": "Let me see the book.",
+        "ru": "Покажите мне эту книгу. / Дайте мне взглянуть на эту книгу.",
+        "learn": 0
+      },
+      {
+        "eng": "You can book seats online.",
+        "ru": "Вы можете забронировать места через Интернет /онлайн/.",
+        "learn": 0
+      },
+      {
+        "eng": "The books of the Bible",
+        "ru": "Книги Библии (Библия состоит из 66 канонических книг для всех христианских течений: протестанты признают каноническими 66 книг, католики - 73, православные - 77.)",
+        "learn": 0
+      },
+      {
+        "eng": "She shut the book loudly.",
+        "ru": "Она громко захлопнула книгу.",
+        "learn": 1
+      },
+      {
+        "eng": "What is your new book about?",
+        "ru": "О чем ваша новая книга?",
+        "learn": 0
+      },
+      {
+        "eng": "This book upset me",
+        "ru": "Эта книга меня расстроила.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave me her book.",
+        "ru": "Она дала мне свою книгу.",
+        "learn": 0
+      },
+      {
+        "eng": "Is this book yours or mine?",
+        "ru": "Это твоя книга или моя?",
+        "learn": 1
+      },
+      {
+        "eng": "This book is not available.",
+        "ru": "Эту книгу нельзя достать.",
+        "learn": 0
+      },
+      {
+        "eng": "I haven't read the book yet.",
+        "ru": "Я ещё не прочёл эту книгу.",
+        "learn": 0
+      },
+      {
+        "eng": "This book belongs to me.",
+        "ru": "Эта книга принадлежит мне.",
+        "learn": 1
+      },
+      {
+        "eng": "Put the book on the table!",
+        "ru": "Положите книгу на стол!",
+        "learn": 0
+      },
+      {
+        "eng": "This book is out of place.",
+        "ru": "Эта книга стоит не на месте.",
+        "learn": 0
+      },
+      {
+        "eng": "turn a page of a book",
+        "ru": "перевернуть страницу книги",
+        "learn": 0
+      },
+      {
+        "eng": "She laid the book aside.",
+        "ru": "Она отложила книгу в сторону.",
+        "learn": 0
+      },
+      {
+        "eng": "The book is very humorous.",
+        "ru": "Книга очень смешная.",
+        "learn": 1
+      },
+      {
+        "eng": "It is a hard book to read.",
+        "ru": "Эта книга трудна для чтения.",
+        "learn": 0
+      },
+      {
+        "eng": "His book will be published.",
+        "ru": "Его книга будет опубликована.",
+        "learn": 0
+      },
+      {
+        "eng": "Smith was booked on suspicion of attempted murder.",
+        "ru": "Смита арестовали по подозрению в покушении на убийство.",
+        "learn": 0
+      },
+      {
+        "eng": "This book goes here.",
+        "ru": "Эту книгу — сюда.",
+        "learn": 0
+      },
+      {
+        "eng": "He socked me a book.",
+        "ru": "Он подарил мне книгу.",
+        "learn": 0
+      },
+      {
+        "eng": "B-O-O-K spells 'book'.",
+        "ru": "B-O-O-K читается как \"book\".",
+        "learn": 0
+      },
+      {
+        "eng": "a book for young people",
+        "ru": "книга для молодёжи",
+        "learn": 0
+      }
+    ]
+  }
 }

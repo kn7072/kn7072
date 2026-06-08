@@ -1,86 +1,175 @@
 {
-    "read": {
-        "comment": [
-            "ready",
-            "reading",
-            "readily",
-            "reader"
-        ],
-        "translate": "читать, прочесть, считывать, чтение, чтиво, начитанный, образованный",
-        "transcription": " |riːd|",
-        "antonyms": [],
-        "mnemonic": [
-            "read [ри:д] читать - (Рид- актор) читает статью.",
-            "read [ri: d]\nrid [rıd]\n***\nЧИТАТЬ книги про Мадрид. (это) read\n***\nОСВОБОЖДАЙСЯ и мотай в Мадрид. (это) rid\nПОКОНЧИШЬ с дурными привычками - поедешь\nв Мадрид. (это) rid\n***\nГОТОВ ко сну и уже бредит. (это) ready ['rɛdɪ]\nСогласный, склонный, желающий."
-        ],
-        "examples": [
-            "I will read it.",
-            "He likes to read.",
-            "Can you read French?",
-            "He read the poem aloud.",
-            "' No vacancies ', the sign read.",
-            "It was too dark to read.",
-            "Can you read Greek?",
-            "How can you read that trash?",
-            "I like to read the classics.",
-            "I haven't read the book yet.",
-            "We read from left to right.",
-            "I read history at Cambridge.",
-            "He likes reading the newspaper.",
-            "What does the speedometer read?",
-            "The gauge read 'empty'.",
-            "Did you read my note? — Uh-huh.",
-            "The passage reads as follows ...",
-            "I wear specs to read.",
-            "Why do you read this muck?",
-            "I'll read to you if you like.",
-            "I couldn't read his scribble.",
-            "He read the book till its end.",
-            "All of you must read this book.",
-            "They can read therein what our plans are.",
-            "I never read my stars.",
-            "He read from the scroll.",
-            "Have you read Salman Rushdie?",
-            "At night, he read by firelight.",
-            "The poet syllabized the verses he read.",
-            "Please read £50 as £15."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я прочитаю это.",
-            "Он любит читать.",
-            "Ты умеешь читать по-французски?",
-            "Он прочитал стихотворение вслух.",
-            "Табличка гласила: \"Свободных мест нет\".",
-            "Для чтения было слишком темно.",
-            "Умеете читать по-гречески?",
-            "Как вы можете читать этот бред?",
-            "Я люблю читать классическую литературу.",
-            "Я ещё не прочёл эту книгу.",
-            "Мы читаем слева направо.",
-            "Я изучал историю в Кембридже.",
-            "Он любит читать эту газету.",
-            "что на спидометре?., какая у нас сейчас скорость?",
-            "Датчик показывал \"пусто\".",
-            "— Ты читала мою записку? — Ага.",
-            "Этот отрывок гласит: ...",
-            "Чтобы что-то прочесть, я надеваю очки.",
-            "Зачем ты читаешь эту дрянь?",
-            "Я почитаю вам, если хотите.",
-            "Я не смог прочитать его каракули.",
-            "Он прочитал книгу до конца.",
-            "Вам всем следует прочитать эту книгу.",
-            "Там они могут прочитать, в чём заключаются наши планы.",
-            "Я никогда не читаю свой гороскоп. (брит. the stars — гороскоп в газете или журнале)",
-            "Он читал из свитка.",
-            "Ты читал Салмана Рушди?",
-            "По ночам он читал при свете огня.",
-            "Поэт прочёл вслух стихи, чётко выговаривая каждый слог.",
-            "Вместо пятидесяти фунтов стерлингов прошу читать \"пятнадцать\"."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "read": {
+    "comment": [
+      "read |rɛd|,                                          read |rɛd|",
+      "ready",
+      "reading",
+      "readily",
+      "reader"
+    ],
+    "translate": "читать, прочесть, считывать, чтение, чтиво, начитанный, образованный",
+    "transcription": " |riːd|",
+    "antonyms": [],
+    "mnemonic": [
+      "read [ри:д] читать - (Рид- актор) читает статью.",
+      "read [ri: d]\nrid [rıd]\n***\nЧИТАТЬ книги про Мадрид. (это) read\n***\nОСВОБОЖДАЙСЯ и мотай в Мадрид. (это) rid\nПОКОНЧИШЬ с дурными привычками - поедешь\nв Мадрид. (это) rid\n***\nГОТОВ ко сну и уже бредит. (это) ready ['rɛdɪ]\nСогласный, склонный, желающий."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I will read it.",
+        "ru": "Я прочитаю это.",
+        "learn": 0
+      },
+      {
+        "eng": "He likes to read.",
+        "ru": "Он любит читать.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you read French?",
+        "ru": "Ты умеешь читать по-французски?",
+        "learn": 0
+      },
+      {
+        "eng": "He read the poem aloud.",
+        "ru": "Он прочитал стихотворение вслух.",
+        "learn": 1
+      },
+      {
+        "eng": "' No vacancies ', the sign read.",
+        "ru": "Табличка гласила: \"Свободных мест нет\".",
+        "learn": 0
+      },
+      {
+        "eng": "It was too dark to read.",
+        "ru": "Для чтения было слишком темно.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you read Greek?",
+        "ru": "Умеете читать по-гречески?",
+        "learn": 0
+      },
+      {
+        "eng": "How can you read that trash?",
+        "ru": "Как вы можете читать этот бред?",
+        "learn": 0
+      },
+      {
+        "eng": "I like to read the classics.",
+        "ru": "Я люблю читать классическую литературу.",
+        "learn": 0
+      },
+      {
+        "eng": "I haven't read the book yet.",
+        "ru": "Я ещё не прочёл эту книгу.",
+        "learn": 0
+      },
+      {
+        "eng": "We read from left to right.",
+        "ru": "Мы читаем слева направо.",
+        "learn": 0
+      },
+      {
+        "eng": "I read history at Cambridge.",
+        "ru": "Я изучал историю в Кембридже.",
+        "learn": 0
+      },
+      {
+        "eng": "He likes reading the newspaper.",
+        "ru": "Он любит читать эту газету.",
+        "learn": 0
+      },
+      {
+        "eng": "What does the speedometer read?",
+        "ru": "что на спидометре?., какая у нас сейчас скорость?",
+        "learn": 0
+      },
+      {
+        "eng": "The gauge read 'empty'.",
+        "ru": "Датчик показывал \"пусто\".",
+        "learn": 0
+      },
+      {
+        "eng": "Did you read my note? — Uh-huh.",
+        "ru": "— Ты читала мою записку? — Ага.",
+        "learn": 0
+      },
+      {
+        "eng": "The passage reads as follows ...",
+        "ru": "Этот отрывок гласит: ...",
+        "learn": 0
+      },
+      {
+        "eng": "I wear specs to read.",
+        "ru": "Чтобы что-то прочесть, я надеваю очки.",
+        "learn": 0
+      },
+      {
+        "eng": "Why do you read this muck?",
+        "ru": "Зачем ты читаешь эту дрянь?",
+        "learn": 0
+      },
+      {
+        "eng": "I'll read to you if you like.",
+        "ru": "Я почитаю вам, если хотите.",
+        "learn": 0
+      },
+      {
+        "eng": "I couldn't read his scribble.",
+        "ru": "Я не смог прочитать его каракули.",
+        "learn": 0
+      },
+      {
+        "eng": "He read the book till its end.",
+        "ru": "Он прочитал книгу до конца.",
+        "learn": 0
+      },
+      {
+        "eng": "All of you must read this book.",
+        "ru": "Вам всем следует прочитать эту книгу.",
+        "learn": 1
+      },
+      {
+        "eng": "They can read therein what our plans are.",
+        "ru": "Там они могут прочитать, в чём заключаются наши планы.",
+        "learn": 0
+      },
+      {
+        "eng": "I never read my stars.",
+        "ru": "Я никогда не читаю свой гороскоп. (брит. the stars — гороскоп в газете или журнале)",
+        "learn": 0
+      },
+      {
+        "eng": "He read from the scroll.",
+        "ru": "Он читал из свитка.",
+        "learn": 0
+      },
+      {
+        "eng": "Have you read Salman Rushdie?",
+        "ru": "Ты читал Салмана Рушди?",
+        "learn": 0
+      },
+      {
+        "eng": "At night, he read by firelight.",
+        "ru": "По ночам он читал при свете огня.",
+        "learn": 0
+      },
+      {
+        "eng": "The poet syllabized the verses he read.",
+        "ru": "Поэт прочёл вслух стихи, чётко выговаривая каждый слог.",
+        "learn": 0
+      },
+      {
+        "eng": "Please read £50 as £15.",
+        "ru": "Вместо пятидесяти фунтов стерлингов прошу читать \"пятнадцать\".",
+        "learn": 0
+      }
+    ]
+  }
 }

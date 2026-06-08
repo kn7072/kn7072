@@ -1,99 +1,186 @@
 {
-    "all": {
-        "comment": [
-            "ball",
-            "baseball",
-            "basketball",
-            "football",
-            "recall",
-            "hall",
-            "tall",
-            "fall",
-            "small",
-            "call",
-            "wall",
-            "overall",
-            "install",
-            "shall",
-            "stall",
-            "mall",
-            "waterfall"
-        ],
-        "translate": "все, весь, целый, все, целое, все, весь, вся, совершенно, всецело",
-        "transcription": " |ɔːl|",
-        "antonyms": [],
-        "mnemonic": [
-            "all [ол] всё - (Алл-ax) это всё!."
-        ],
-        "examples": [
-            "All agree.",
-            "We all know him.",
-            "All of them must come.",
-            "The pie is all.",
-            "He sat up all night.",
-            "They sat all alone.",
-            "He was all ears.",
-            "We drank all the coffee.",
-            "She works all year round.",
-            "He spoke in all seriousness.",
-            "Someone took all the candy.",
-            "I forgot all about paying the bill.",
-            "They needed all the courage they had.",
-            "I've been waiting all week to see her.",
-            "The score was one all.",
-            "This shirt is all worn out.",
-            "All this is distasteful to me.",
-            "They had watched all his motions.",
-            "Whatever it was, it was their all.",
-            "He took down the names of all of us.",
-            "He spent his income all on pleasure.",
-            "This money will be all yours when I die.",
-            "He gave his all for the cause.",
-            "Did you eat all of the peanuts?",
-            "He had to walk all the way home.",
-            "She has traveled all around the world.",
-            "She's all excited about going to the party.",
-            "All children must be asleep before Santa Claus comes.",
-            "He'll need all the help he can get.",
-            "The kids got all excited when they saw Santa Claus."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Все согласны.",
-            "Мы все его знаем.",
-            "Они все должны прийти.",
-            "Весь пирог съеден.",
-            "Он не ложился спать всю ночь.",
-            "Они сидели совершенно одни.",
-            "Он весь обратился в слух.",
-            "Мы выпили весь кофе.",
-            "Она работает круглый год.",
-            "Он говорил со всей серьёзностью.",
-            "Кто-то взял все конфеты.",
-            "Я совсем забыла оплатить счёт.",
-            "Им потребовалась вся храбрость, которая у них была.",
-            "Я всю неделю ждала, чтобы её увидеть.",
-            "Счёт был \"один — один\".",
-            "Рубашка совсем износилась.",
-            "Всё это мне противно.",
-            "Они следили за всеми его движениями.",
-            "Как бы то ни было, это было всё, что они имели.",
-            "Он записал все наши фамилии.",
-            "Он тратил деньги только на развлечения.",
-            "Когда я умру, все эти деньги будут ваши.",
-            "Он для дела отдал всё.",
-            "Ты что, съел весь арахис?",
-            "Ему пришлось всю дорогу домой идти пешком.",
-            "Она путешествовала по всему миру.",
-            "Она вся в возбуждении от предстоящей вечеринки.",
-            "Все дети должны уже спать, когда придёт Санта-Клаус.",
-            "Ему понадобится вся возможная помощь.",
-            "Дети пришли в восторг, когда увидели Санта-Клауса."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "al_+_Сг_=_[ɔːl]"
-        ]
-    }
+  "all": {
+    "comment": [
+      "ball",
+      "baseball",
+      "basketball",
+      "football",
+      "recall",
+      "hall",
+      "tall",
+      "fall",
+      "small",
+      "call",
+      "wall",
+      "overall",
+      "install",
+      "shall",
+      "stall",
+      "mall",
+      "waterfall"
+    ],
+    "translate": "все, весь, целый, все, целое, все, весь, вся, совершенно, всецело",
+    "transcription": " |ɔːl|",
+    "antonyms": [],
+    "mnemonic": [
+      "all [ол] всё - (Алл-ax) это всё!."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "al_+_Сг_=_[ɔːl]"
+    ],
+    "examples": [
+      {
+        "eng": "All agree.",
+        "ru": "Все согласны.",
+        "learn": 0
+      },
+      {
+        "eng": "We all know him.",
+        "ru": "Мы все его знаем.",
+        "learn": 1
+      },
+      {
+        "eng": "All of them must come.",
+        "ru": "Они все должны прийти.",
+        "learn": 1
+      },
+      {
+        "eng": "The pie is all.",
+        "ru": "Весь пирог съеден.",
+        "learn": 0
+      },
+      {
+        "eng": "He sat up all night.",
+        "ru": "Он не ложился спать всю ночь.",
+        "learn": 0
+      },
+      {
+        "eng": "They sat all alone.",
+        "ru": "Они сидели совершенно одни.",
+        "learn": 0
+      },
+      {
+        "eng": "He was all ears.",
+        "ru": "Он весь обратился в слух.",
+        "learn": 0
+      },
+      {
+        "eng": "We drank all the coffee.",
+        "ru": "Мы выпили весь кофе.",
+        "learn": 0
+      },
+      {
+        "eng": "She works all year round.",
+        "ru": "Она работает круглый год.",
+        "learn": 0
+      },
+      {
+        "eng": "He spoke in all seriousness.",
+        "ru": "Он говорил со всей серьёзностью.",
+        "learn": 0
+      },
+      {
+        "eng": "Someone took all the candy.",
+        "ru": "Кто-то взял все конфеты.",
+        "learn": 1
+      },
+      {
+        "eng": "I forgot all about paying the bill.",
+        "ru": "Я совсем забыла оплатить счёт.",
+        "learn": 0
+      },
+      {
+        "eng": "They needed all the courage they had.",
+        "ru": "Им потребовалась вся храбрость, которая у них была.",
+        "learn": 0
+      },
+      {
+        "eng": "I've been waiting all week to see her.",
+        "ru": "Я всю неделю ждала, чтобы её увидеть.",
+        "learn": 1
+      },
+      {
+        "eng": "The score was one all.",
+        "ru": "Счёт был \"один — один\".",
+        "learn": 0
+      },
+      {
+        "eng": "This shirt is all worn out.",
+        "ru": "Рубашка совсем износилась.",
+        "learn": 0
+      },
+      {
+        "eng": "All this is distasteful to me.",
+        "ru": "Всё это мне противно.",
+        "learn": 0
+      },
+      {
+        "eng": "They had watched all his motions.",
+        "ru": "Они следили за всеми его движениями.",
+        "learn": 0
+      },
+      {
+        "eng": "Whatever it was, it was their all.",
+        "ru": "Как бы то ни было, это было всё, что они имели.",
+        "learn": 0
+      },
+      {
+        "eng": "He took down the names of all of us.",
+        "ru": "Он записал все наши фамилии.",
+        "learn": 0
+      },
+      {
+        "eng": "He spent his income all on pleasure.",
+        "ru": "Он тратил деньги только на развлечения.",
+        "learn": 1
+      },
+      {
+        "eng": "This money will be all yours when I die.",
+        "ru": "Когда я умру, все эти деньги будут ваши.",
+        "learn": 0
+      },
+      {
+        "eng": "He gave his all for the cause.",
+        "ru": "Он для дела отдал всё.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you eat all of the peanuts?",
+        "ru": "Ты что, съел весь арахис?",
+        "learn": 0
+      },
+      {
+        "eng": "He had to walk all the way home.",
+        "ru": "Ему пришлось всю дорогу домой идти пешком.",
+        "learn": 1
+      },
+      {
+        "eng": "She has traveled all around the world.",
+        "ru": "Она путешествовала по всему миру.",
+        "learn": 0
+      },
+      {
+        "eng": "She's all excited about going to the party.",
+        "ru": "Она вся в возбуждении от предстоящей вечеринки.",
+        "learn": 1
+      },
+      {
+        "eng": "All children must be asleep before Santa Claus comes.",
+        "ru": "Все дети должны уже спать, когда придёт Санта-Клаус.",
+        "learn": 1
+      },
+      {
+        "eng": "He'll need all the help he can get.",
+        "ru": "Ему понадобится вся возможная помощь.",
+        "learn": 0
+      },
+      {
+        "eng": "The kids got all excited when they saw Santa Claus.",
+        "ru": "Дети пришли в восторг, когда увидели Санта-Клауса.",
+        "learn": 0
+      }
+    ]
+  }
 }

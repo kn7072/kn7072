@@ -1,86 +1,174 @@
 {
-    "prepare": {
-        "comment": [
-            "preparation",
-            "prepared"
-        ],
-        "translate": "готовить, готовиться, подготавливать, подготавливаться, составлять, заготовить",
-        "transcription": " |prɪˈper|",
-        "antonyms": [],
-        "mnemonic": [
-            "prepare [припе'я] готовить - (При пия-вках) подготовь больного к операции.",
-            "prepare [pri'pɛə]\n***\nПРИГОТОВЬТЕСЬ петь припев. (это) prepare\nПОДГОТОВИЛСЯ к уроку музыки и пою припев. (это)\nprepare"
-        ],
-        "examples": [
-            "This dish is very quick to prepare.",
-            "You need to prepare yourself for a long wait.",
-            "You'd better prepare for mother's arrival.",
-            "Buy the album, and prepare to be amazed.",
-            "The meal took two hours to prepare.",
-            "We were assigned to prepare a meal.",
-            "Can you just give me a couple more moments to prepare myself?",
-            "Is the meal prepared for our guests?",
-            "The teacher prepared the students for the test.",
-            "I'm preparing a speech for the meeting on Thursday.",
-            "The cook will prepare whatever you wish.",
-            "The letter arrived, and we prepared ourselves for bad news.",
-            "Prepare the soil, then plant the seedlings 8 inches apart.",
-            "What does a coach do to prepare his team for the Superbowl?",
-            "My mom was helping me prepare the meal.",
-            "We should prepare for a time of troubles.",
-            "Prepare the sauce while the pasta is cooking.",
-            "You'll need to prepare a portfolio of your work.",
-            "The players are prepared to play a tough game.",
-            "The king ordered his people to prepare for war.",
-            "When we got home, Stephano was busy preparing dinner.",
-            "Schools should do more to prepare children for the world of work.",
-            "The prince was prepared to become King one day.",
-            "The Chicago Bears are busy preparing themselves for the big game.",
-            "Coulthard's team were up all night preparing the car for the race.",
-            "Jim went to answer the phone. Meanwhile Pete started to prepare lunch.",
-            "I will prepare some comicality for it.",
-            "Her parents were busy preparing to go on holiday.",
-            "Farmers are busy preparing the soil for planting.",
-            "If you don't prepare the surface properly, the paint will rub off."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Приготовление этого блюда занимает совсем немного времени.",
-            "Тебе нужно приготовиться к долгому ожиданию.",
-            "Советую подготовиться к приезду матери.",
-            "Купите этот альбом (музыкального исполнителя), и приготовьтесь к приятным сюрпризам.",
-            "Приготовление пищи заняло два часа.",
-            "Нам поручили приготовить еду.",
-            "Не могли бы вы дать мне ещё пару минут на подготовку?",
-            "Еда для наших гостей готова?",
-            "Учитель подготовил студентов к тестированию.",
-            "Я готовлюсь выступить на собрании в четверг.",
-            "Повар приготовит всё, что только пожелаете.",
-            "Получив это письмо, мы приготовились узнать плохие новости.",
-            "Подготовьте почву, а затем высадите саженцы на расстоянии в восемь дюймов друг от друга.",
-            "Что именно делает тренер для подготовки команды к игре за Супербоул? (об американском футболе)",
-            "Мама помогала мне приготовить еду.",
-            "Нам следует готовиться к трудным временам.",
-            "Пока варятся макароны, приготовьте соус.",
-            "Вам нужно будет подготовить портфолио своих работ.",
-            "Игроков готовят к трудной игре.",
-            "Король приказал своим людям готовиться к войне.",
-            "Когда мы вернулись домой, Стефано занимался приготовлением ужина.",
-            "Школы должны прилагать больше усилий для подготовки детей к вступлению в трудовую жизнь.",
-            "Принца готовили к тому, что однажды он станет королём.",
-            "Команда \"Чикаго Бэрз\" занята подготовкой к этому важному матчу.",
-            "Команда Култхарда всю ночь готовила его автомобиль к гонке.",
-            "Джим пошёл ответить на звонок, а Пит тем временем начал готовить обед.",
-            "Для этого я приготовлю что-нибудь смешное.",
-            "Её родители были заняты подготовкой к поездке в отпуск.",
-            "Фермеры заняты подготовкой почвы для посадки.",
-            "Если соответствующим образом не подготовить поверхность, краска будет отваливаться."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Инфинитив_с_to_после_глаголов",
-            "Инфинитив"
-        ]
-    }
+  "prepare": {
+    "comment": [
+      "preparation",
+      "prepared"
+    ],
+    "translate": "готовить, готовиться, подготавливать, подготавливаться, составлять, заготовить",
+    "transcription": " |prɪˈper|",
+    "antonyms": [],
+    "mnemonic": [
+      "prepare [припе'я] готовить - (При пия-вках) подготовь больного к операции.",
+      "prepare [pri'pɛə]\n***\nПРИГОТОВЬТЕСЬ петь припев. (это) prepare\nПОДГОТОВИЛСЯ к уроку музыки и пою припев. (это)\nprepare"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_с_to_после_глаголов",
+      "Инфинитив",
+      "infinitive_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "This dish is very quick to prepare.",
+        "ru": "Приготовление этого блюда занимает совсем немного времени.",
+        "learn": 1
+      },
+      {
+        "eng": "You need to prepare yourself for a long wait.",
+        "ru": "Тебе нужно приготовиться к долгому ожиданию.",
+        "learn": 0
+      },
+      {
+        "eng": "You'd better prepare for mother's arrival.",
+        "ru": "Советую подготовиться к приезду матери.",
+        "learn": 0
+      },
+      {
+        "eng": "Buy the album, and prepare to be amazed.",
+        "ru": "Купите этот альбом (музыкального исполнителя), и приготовьтесь к приятным сюрпризам.",
+        "learn": 0
+      },
+      {
+        "eng": "The meal took two hours to prepare.",
+        "ru": "Приготовление пищи заняло два часа.",
+        "learn": 0
+      },
+      {
+        "eng": "We were assigned to prepare a meal.",
+        "ru": "Нам поручили приготовить еду.",
+        "learn": 1
+      },
+      {
+        "eng": "Can you just give me a couple more moments to prepare myself?",
+        "ru": "Не могли бы вы дать мне ещё пару минут на подготовку?",
+        "learn": 0
+      },
+      {
+        "eng": "Is the meal prepared for our guests?",
+        "ru": "Еда для наших гостей готова?",
+        "learn": 0
+      },
+      {
+        "eng": "The teacher prepared the students for the test.",
+        "ru": "Учитель подготовил студентов к тестированию.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm preparing a speech for the meeting on Thursday.",
+        "ru": "Я готовлюсь выступить на собрании в четверг.",
+        "learn": 0
+      },
+      {
+        "eng": "The cook will prepare whatever you wish.",
+        "ru": "Повар приготовит всё, что только пожелаете.",
+        "learn": 1
+      },
+      {
+        "eng": "The letter arrived, and we prepared ourselves for bad news.",
+        "ru": "Получив это письмо, мы приготовились узнать плохие новости.",
+        "learn": 0
+      },
+      {
+        "eng": "Prepare the soil, then plant the seedlings 8 inches apart.",
+        "ru": "Подготовьте почву, а затем высадите саженцы на расстоянии в восемь дюймов друг от друга.",
+        "learn": 0
+      },
+      {
+        "eng": "What does a coach do to prepare his team for the Superbowl?",
+        "ru": "Что именно делает тренер для подготовки команды к игре за Супербоул? (об американском футболе)",
+        "learn": 0
+      },
+      {
+        "eng": "My mom was helping me prepare the meal.",
+        "ru": "Мама помогала мне приготовить еду.",
+        "learn": 0
+      },
+      {
+        "eng": "We should prepare for a time of troubles.",
+        "ru": "Нам следует готовиться к трудным временам.",
+        "learn": 0
+      },
+      {
+        "eng": "Prepare the sauce while the pasta is cooking.",
+        "ru": "Пока варятся макароны, приготовьте соус.",
+        "learn": 1
+      },
+      {
+        "eng": "You'll need to prepare a portfolio of your work.",
+        "ru": "Вам нужно будет подготовить портфолио своих работ.",
+        "learn": 1
+      },
+      {
+        "eng": "The players are prepared to play a tough game.",
+        "ru": "Игроков готовят к трудной игре.",
+        "learn": 0
+      },
+      {
+        "eng": "The king ordered his people to prepare for war.",
+        "ru": "Король приказал своим людям готовиться к войне.",
+        "learn": 0
+      },
+      {
+        "eng": "When we got home, Stephano was busy preparing dinner.",
+        "ru": "Когда мы вернулись домой, Стефано занимался приготовлением ужина.",
+        "learn": 0
+      },
+      {
+        "eng": "Schools should do more to prepare children for the world of work.",
+        "ru": "Школы должны прилагать больше усилий для подготовки детей к вступлению в трудовую жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "The prince was prepared to become King one day.",
+        "ru": "Принца готовили к тому, что однажды он станет королём.",
+        "learn": 0
+      },
+      {
+        "eng": "The Chicago Bears are busy preparing themselves for the big game.",
+        "ru": "Команда \"Чикаго Бэрз\" занята подготовкой к этому важному матчу.",
+        "learn": 0
+      },
+      {
+        "eng": "Coulthard's team were up all night preparing the car for the race.",
+        "ru": "Команда Култхарда всю ночь готовила его автомобиль к гонке.",
+        "learn": 0
+      },
+      {
+        "eng": "Jim went to answer the phone. Meanwhile Pete started to prepare lunch.",
+        "ru": "Джим пошёл ответить на звонок, а Пит тем временем начал готовить обед.",
+        "learn": 0
+      },
+      {
+        "eng": "I will prepare some comicality for it.",
+        "ru": "Для этого я приготовлю что-нибудь смешное.",
+        "learn": 0
+      },
+      {
+        "eng": "Her parents were busy preparing to go on holiday.",
+        "ru": "Её родители были заняты подготовкой к поездке в отпуск.",
+        "learn": 0
+      },
+      {
+        "eng": "Farmers are busy preparing the soil for planting.",
+        "ru": "Фермеры заняты подготовкой почвы для посадки.",
+        "learn": 0
+      },
+      {
+        "eng": "If you don't prepare the surface properly, the paint will rub off.",
+        "ru": "Если соответствующим образом не подготовить поверхность, краска будет отваливаться.",
+        "learn": 0
+      }
+    ]
+  }
 }

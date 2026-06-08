@@ -1,83 +1,170 @@
 {
-    "organization": {
-        "comment": [
-            "organize",
-            "organized",
-            "organizer"
-        ],
-        "translate": "организация, структура, формирование, организационный",
-        "transcription": " |ˌɔːrɡənəˈzeɪʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "United Nations Organization (UNO)",
-            "He's a key player in the organization.",
-            "Economic Cooperation Organization",
-            "He was the mainstay of the organization.",
-            "We must try to instil some order into the organization.",
-            "World Health Organization",
-            "UN Organization",
-            "European Organization for Testing and Certification",
-            "Anyone who opposes our organization will get rubbed out.",
-            "The committee is charting out the future of the organization.",
-            "Our talk gradually rounded into a plan for improving the organization.",
-            "The monitoring organization is warning of thick mist and blowing snow on high ground.",
-            "She is the leader of an international organization devoted to the protection of natural resources.",
-            "The organization is very right-wing.",
-            "The organization helps poor families.",
-            "The organization is large and diffuse.",
-            "The organization is not run for profit.",
-            "The organization claims 10,000 members.",
-            "He belonged to a fraternal organization.",
-            "That woman has a genius for organization.",
-            "a loose organization of the local farmers",
-            "The organization has very limited resources.",
-            "The new organization will be based in Dallas.",
-            "The organization is soliciting for donations.",
-            "We need more young blood in this organization.",
-            "The organization operates a recycling program.",
-            "his career progression through the organization",
-            "The organization has been hijacked by radicals.",
-            "The organization is soliciting new memberships.",
-            "The organization is funded by private donations."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Организация Объединённых Наций (ООН)",
-            "Он – ключевая фигура в этой организации.",
-            "Организация экономического сотрудничества",
-            "На нём держалась вся организация.",
-            "Мы должны попытаться привнести некоторый порядок в эту организацию.",
-            "Всемирная организация здравоохранения (ВОЗ)",
-            "Организация Объединённых Наций",
-            "Европейская организация тестирования и сертификации",
-            "Всякий, кто встанет на пути нашей организации, умрёт.",
-            "Комитет занимается планированием будущего организации.",
-            "Наш разговор плавно перешёл в беседу о плане улучшения работы фирмы.",
-            "Служба наблюдения предупреждает о густых туманах и сильном снегопаде.",
-            "Она возглавляет международную организацию, которая занимается охраной природных ресурсов.",
-            "Эта организация — крайне правого толка.",
-            "Эта организация помогает бедным семьям.",
-            "Эта организация — большая и широко разветвлённая.",
-            "Эта организация работает не ради прибыли.",
-            "Организация утверждает, что в её рядах состоят десять тысяч членов.",
-            "Он был членом братства.",
-            "У этой женщины — большой талант организатора. / Эта женщина — гениальный организатор.",
-            "свободная организация местных фермеров",
-            "Ресурсы этой организации весьма ограниченны.",
-            "Новая организация будет основана в Далласе.",
-            "Организация обращается с просьбой о пожертвованиях.",
-            "Нам нужно больше молодой крови в этой организации.",
-            "Данная организация управляет программой утилизации.",
-            "его карьерный рост в этой организации",
-            "Организация захвачена радикалами.",
-            "Эта организация привлекает новых членов.",
-            "Организация финансируется за счёт частных пожертвований."
-        ],
-        "stars": 0,
-        "groups": [
-            "all_words",
-            "i_+_без_удар_=_[ai]"
-        ]
-    }
+  "organization": {
+    "comment": [
+      "organize",
+      "organized",
+      "organizer"
+    ],
+    "translate": "организация, структура, формирование, организационный",
+    "transcription": " |ˌɔːrɡənəˈzeɪʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [
+      "i_+_без_удар_=_[ai]"
+    ],
+    "examples": [
+      {
+        "eng": "United Nations Organization (UNO)",
+        "ru": "Организация Объединённых Наций (ООН)",
+        "learn": 0
+      },
+      {
+        "eng": "He's a key player in the organization.",
+        "ru": "Он – ключевая фигура в этой организации.",
+        "learn": 1
+      },
+      {
+        "eng": "Economic Cooperation Organization",
+        "ru": "Организация экономического сотрудничества",
+        "learn": 0
+      },
+      {
+        "eng": "He was the mainstay of the organization.",
+        "ru": "На нём держалась вся организация.",
+        "learn": 0
+      },
+      {
+        "eng": "We must try to instil some order into the organization.",
+        "ru": "Мы должны попытаться привнести некоторый порядок в эту организацию.",
+        "learn": 0
+      },
+      {
+        "eng": "World Health Organization",
+        "ru": "Всемирная организация здравоохранения (ВОЗ)",
+        "learn": 0
+      },
+      {
+        "eng": "UN Organization",
+        "ru": "Организация Объединённых Наций",
+        "learn": 0
+      },
+      {
+        "eng": "European Organization for Testing and Certification",
+        "ru": "Европейская организация тестирования и сертификации",
+        "learn": 0
+      },
+      {
+        "eng": "Anyone who opposes our organization will get rubbed out.",
+        "ru": "Всякий, кто встанет на пути нашей организации, умрёт.",
+        "learn": 0
+      },
+      {
+        "eng": "The committee is charting out the future of the organization.",
+        "ru": "Комитет занимается планированием будущего организации.",
+        "learn": 0
+      },
+      {
+        "eng": "Our talk gradually rounded into a plan for improving the organization.",
+        "ru": "Наш разговор плавно перешёл в беседу о плане улучшения работы фирмы.",
+        "learn": 0
+      },
+      {
+        "eng": "The monitoring organization is warning of thick mist and blowing snow on high ground.",
+        "ru": "Служба наблюдения предупреждает о густых туманах и сильном снегопаде.",
+        "learn": 0
+      },
+      {
+        "eng": "She is the leader of an international organization devoted to the protection of natural resources.",
+        "ru": "Она возглавляет международную организацию, которая занимается охраной природных ресурсов.",
+        "learn": 0
+      },
+      {
+        "eng": "The organization is very right-wing.",
+        "ru": "Эта организация — крайне правого толка.",
+        "learn": 0
+      },
+      {
+        "eng": "The organization helps poor families.",
+        "ru": "Эта организация помогает бедным семьям.",
+        "learn": 0
+      },
+      {
+        "eng": "The organization is large and diffuse.",
+        "ru": "Эта организация — большая и широко разветвлённая.",
+        "learn": 0
+      },
+      {
+        "eng": "The organization is not run for profit.",
+        "ru": "Эта организация работает не ради прибыли.",
+        "learn": 0
+      },
+      {
+        "eng": "The organization claims 10,000 members.",
+        "ru": "Организация утверждает, что в её рядах состоят десять тысяч членов.",
+        "learn": 0
+      },
+      {
+        "eng": "He belonged to a fraternal organization.",
+        "ru": "Он был членом братства.",
+        "learn": 0
+      },
+      {
+        "eng": "That woman has a genius for organization.",
+        "ru": "У этой женщины — большой талант организатора. / Эта женщина — гениальный организатор.",
+        "learn": 0
+      },
+      {
+        "eng": "a loose organization of the local farmers",
+        "ru": "свободная организация местных фермеров",
+        "learn": 0
+      },
+      {
+        "eng": "The organization has very limited resources.",
+        "ru": "Ресурсы этой организации весьма ограниченны.",
+        "learn": 0
+      },
+      {
+        "eng": "The new organization will be based in Dallas.",
+        "ru": "Новая организация будет основана в Далласе.",
+        "learn": 0
+      },
+      {
+        "eng": "The organization is soliciting for donations.",
+        "ru": "Организация обращается с просьбой о пожертвованиях.",
+        "learn": 0
+      },
+      {
+        "eng": "We need more young blood in this organization.",
+        "ru": "Нам нужно больше молодой крови в этой организации.",
+        "learn": 0
+      },
+      {
+        "eng": "The organization operates a recycling program.",
+        "ru": "Данная организация управляет программой утилизации.",
+        "learn": 0
+      },
+      {
+        "eng": "his career progression through the organization",
+        "ru": "его карьерный рост в этой организации",
+        "learn": 0
+      },
+      {
+        "eng": "The organization has been hijacked by radicals.",
+        "ru": "Организация захвачена радикалами.",
+        "learn": 0
+      },
+      {
+        "eng": "The organization is soliciting new memberships.",
+        "ru": "Эта организация привлекает новых членов.",
+        "learn": 0
+      },
+      {
+        "eng": "The organization is funded by private donations.",
+        "ru": "Организация финансируется за счёт частных пожертвований.",
+        "learn": 0
+      }
+    ]
+  }
 }

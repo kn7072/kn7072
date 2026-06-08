@@ -1,85 +1,174 @@
 {
-    "bite": {
-        "comment": [
-            "bit",
-            "orbit",
-            "arbitrary"
-        ],
-        "translate": "укус, прикус, клев, кусок, сцепление, укусить, кусаться, кусать, клевать, жалить",
-        "transcription": " |baɪt|",
-        "antonyms": [],
-        "mnemonic": [
-            "bite [байт] кусать, клевать - При мощности в 100 (кило-байт)кусает и клюёт программиста компьютер.",
-            "bite [baıt]\nbide [baɪd]\nabide [ə'baɪd]\n***\nОса КУСАЕТ и погибает. (это) bite\nХлеб КУСАЕТ и щи хлебает. (это) bite\nУкус.\n***\nПока ты ВЫЖИДАЕШЬ, кто- то погибает. (это) bide\n***\nКто правила СОБЛЮДАЕТ, тот не погибает. (это) abide\nНе смог ВЫНЕСТИ беды и сам погибает. (это) abide\n***\nСам кусается \"bite\",\nа на других ссылается \"cite\"."
-        ],
-        "examples": [
-            "He was bitten by a snake.",
-            "Does your dog bite?",
-            "Mosquitos bite.",
-            "Fish bite at bait.",
-            "He took a bite of the apple.",
-            "The anchor bit.",
-            "Fleas bite.",
-            "Can I have a bite of your apple?",
-            "Once bitten twice shy.",
-            "The wheels do not bite.",
-            "Can I bite you for ten bucks?",
-            "Don't scratch that mosquito bite.",
-            "She took a couple of bites of the sandwich.",
-            "Acid bites into metals.",
-            "The hamster bit the child.",
-            "I wish I could stop biting my nails.",
-            "The mosquitoes are biting tonight.",
-            "Well go and ask him — he won't bite!",
-            "She gave her lip a gentle bite.",
-            "The dog seized the meat and bit a piece off.",
-            "This novel lacks any real bite.",
-            "Gunny invariably tried to bite her.",
-            "I'll pop up and see what's biting him now.",
-            "Shall we nip in to the cafe for a bite to eat?",
-            "He screamed as the sword bit deep into his arm.",
-            "His plough bit.",
-            "The insect bite produced a rash.",
-            "He nodded, shivering at the bite of the wind.",
-            "Goat's cheese adds extra bite to any pasta dish.",
-            "Let's grab a bite to eat before the movie starts."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Его укусила змея.",
-            "Твоя собака кусается?",
-            "Комары кусаются.",
-            "Рыба клюёт на приманку.",
-            "Он откусил от яблока.",
-            "Якорь прочно зацепился за дно.",
-            "Блохи кусают.",
-            "Я могу откусить твоё яблоко?",
-            "Пуганая ворона (и) куста боится.",
-            "Колеса буксуют. / Нет сцепления с дорогой.",
-            "Можно занять у тебя десять баксов?",
-            "Не чешите этот комариный укус.",
-            "Она откусила от сэндвича пару кусочков.",
-            "Кислота разъедает металлы.",
-            "Хомяк укусил ребёнка.",
-            "Никак не могу отучиться грызть ногти.",
-            "Комары сегодня кусаются.",
-            "Ну, так иди и спроси его, он не кусается!",
-            "Она нежно прикусила свою губу.",
-            "Собака схватила мясо и откусила кусок.",
-            "В этом романе нет ничего особенного.",
-            "Ганни неизменно пытался её укусить.",
-            "Я заскочу к нему и выясню, чем это он занят.",
-            "Заскочим в кафе перекусить?",
-            "Он закричал, когда меч вонзился в его руку.",
-            "Он глубоко вогнал плуг в землю.",
-            "От укуса насекомого появилась сыпь.",
-            "Он кивнул, поёживаясь от обжигающе холодного ветра.",
-            "Козий сыр придаёт особый вкус любому блюду из макарон.",
-            "Давайте перекусим прежде чем начнётся фильм."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "bite": {
+    "comment": [
+      "bit |bɪt|,                                          bitten |ˈbɪtən|",
+      "bit",
+      "orbit",
+      "arbitrary"
+    ],
+    "translate": "укус, прикус, клев, кусок, сцепление, укусить, кусаться, кусать, клевать, жалить",
+    "transcription": " |baɪt|",
+    "antonyms": [],
+    "mnemonic": [
+      "bite [байт] кусать, клевать - При мощности в 100 (кило-байт)кусает и клюёт программиста компьютер.",
+      "bite [baıt]\nbide [baɪd]\nabide [ə'baɪd]\n***\nОса КУСАЕТ и погибает. (это) bite\nХлеб КУСАЕТ и щи хлебает. (это) bite\nУкус.\n***\nПока ты ВЫЖИДАЕШЬ, кто- то погибает. (это) bide\n***\nКто правила СОБЛЮДАЕТ, тот не погибает. (это) abide\nНе смог ВЫНЕСТИ беды и сам погибает. (это) abide\n***\nСам кусается \"bite\",\nа на других ссылается \"cite\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "He was bitten by a snake.",
+        "ru": "Его укусила змея.",
+        "learn": 0
+      },
+      {
+        "eng": "Does your dog bite?",
+        "ru": "Твоя собака кусается?",
+        "learn": 0
+      },
+      {
+        "eng": "Mosquitos bite.",
+        "ru": "Комары кусаются.",
+        "learn": 0
+      },
+      {
+        "eng": "Fish bite at bait.",
+        "ru": "Рыба клюёт на приманку.",
+        "learn": 0
+      },
+      {
+        "eng": "He took a bite of the apple.",
+        "ru": "Он откусил от яблока.",
+        "learn": 0
+      },
+      {
+        "eng": "The anchor bit.",
+        "ru": "Якорь прочно зацепился за дно.",
+        "learn": 0
+      },
+      {
+        "eng": "Fleas bite.",
+        "ru": "Блохи кусают.",
+        "learn": 0
+      },
+      {
+        "eng": "Can I have a bite of your apple?",
+        "ru": "Я могу откусить твоё яблоко?",
+        "learn": 0
+      },
+      {
+        "eng": "Once bitten twice shy.",
+        "ru": "Пуганая ворона (и) куста боится.",
+        "learn": 0
+      },
+      {
+        "eng": "The wheels do not bite.",
+        "ru": "Колеса буксуют. / Нет сцепления с дорогой.",
+        "learn": 0
+      },
+      {
+        "eng": "Can I bite you for ten bucks?",
+        "ru": "Можно занять у тебя десять баксов?",
+        "learn": 0
+      },
+      {
+        "eng": "Don't scratch that mosquito bite.",
+        "ru": "Не чешите этот комариный укус.",
+        "learn": 0
+      },
+      {
+        "eng": "She took a couple of bites of the sandwich.",
+        "ru": "Она откусила от сэндвича пару кусочков.",
+        "learn": 1
+      },
+      {
+        "eng": "Acid bites into metals.",
+        "ru": "Кислота разъедает металлы.",
+        "learn": 0
+      },
+      {
+        "eng": "The hamster bit the child.",
+        "ru": "Хомяк укусил ребёнка.",
+        "learn": 0
+      },
+      {
+        "eng": "I wish I could stop biting my nails.",
+        "ru": "Никак не могу отучиться грызть ногти.",
+        "learn": 0
+      },
+      {
+        "eng": "The mosquitoes are biting tonight.",
+        "ru": "Комары сегодня кусаются.",
+        "learn": 0
+      },
+      {
+        "eng": "Well go and ask him — he won't bite!",
+        "ru": "Ну, так иди и спроси его, он не кусается!",
+        "learn": 0
+      },
+      {
+        "eng": "She gave her lip a gentle bite.",
+        "ru": "Она нежно прикусила свою губу.",
+        "learn": 0
+      },
+      {
+        "eng": "The dog seized the meat and bit a piece off.",
+        "ru": "Собака схватила мясо и откусила кусок.",
+        "learn": 0
+      },
+      {
+        "eng": "This novel lacks any real bite.",
+        "ru": "В этом романе нет ничего особенного.",
+        "learn": 0
+      },
+      {
+        "eng": "Gunny invariably tried to bite her.",
+        "ru": "Ганни неизменно пытался её укусить.",
+        "learn": 1
+      },
+      {
+        "eng": "I'll pop up and see what's biting him now.",
+        "ru": "Я заскочу к нему и выясню, чем это он занят.",
+        "learn": 0
+      },
+      {
+        "eng": "Shall we nip in to the cafe for a bite to eat?",
+        "ru": "Заскочим в кафе перекусить?",
+        "learn": 0
+      },
+      {
+        "eng": "He screamed as the sword bit deep into his arm.",
+        "ru": "Он закричал, когда меч вонзился в его руку.",
+        "learn": 0
+      },
+      {
+        "eng": "His plough bit.",
+        "ru": "Он глубоко вогнал плуг в землю.",
+        "learn": 0
+      },
+      {
+        "eng": "The insect bite produced a rash.",
+        "ru": "От укуса насекомого появилась сыпь.",
+        "learn": 1
+      },
+      {
+        "eng": "He nodded, shivering at the bite of the wind.",
+        "ru": "Он кивнул, поёживаясь от обжигающе холодного ветра.",
+        "learn": 0
+      },
+      {
+        "eng": "Goat's cheese adds extra bite to any pasta dish.",
+        "ru": "Козий сыр придаёт особый вкус любому блюду из макарон.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's grab a bite to eat before the movie starts.",
+        "ru": "Давайте перекусим прежде чем начнётся фильм.",
+        "learn": 0
+      }
+    ]
+  }
 }

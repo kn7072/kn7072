@@ -1,82 +1,168 @@
 {
-    "advertising": {
-        "comment": [
-            "advertisement",
-            "advertise",
-            "advert"
-        ],
-        "translate": "реклама, рекламирование, рекламное дело, рекламный",
-        "transcription": " |ˈædvərtaɪzɪŋ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He is in advertising.",
-            "Advertising that tries to be different.",
-            "The whole idea of advertising is to make people buy things.",
-            "advertising aimed at 18-25 year olds",
-            "Our company spent £ 50,000 on advertising last month.",
-            "a total ban on cigarette advertising",
-            "Cigarette advertising should be banned outright.",
-            "He is looking for a job in advertising.",
-            "Advertising is a powerful medium.",
-            "He thought it was an advertising dodger.",
-            "the unreal world of advertising art",
-            "advertising inserts in the Sunday paper",
-            "All advertising sales messages are offers.",
-            "He organized a big advertising campaign.",
-            "I suppose I could go in for advertising.",
-            "The company is advertising for a secretary.",
-            "The advertising campaign has improved sales.",
-            "The advertising campaign was a total failure.",
-            "The advertising campaign proved very profitable.",
-            "Advertising you pay for, publicity you pray for.",
-            "The job requires prior experience in advertising.",
-            "Advertising is an intensely competitive business.",
-            "They are advertising the new edition of the book.",
-            "an opportunity to rethink our policy on advertising",
-            "The magazine devotes a lot of space to advertising.",
-            "I see they're advertising for a new Sales Director.",
-            "People were giving out flyers advertising the event.",
-            "advertising that strives continually to be different",
-            "We have good connections in the advertising industry.",
-            "We shall have to refine on our methods of advertising."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он работает в рекламном бизнесе.",
-            "Реклама, которая пытается быть непохожей на другие.",
-            "Основное назначение рекламы - заставить людей покупать вещи.",
-            "реклама, нацеленная на 18-25-летних",
-            "В прошлом месяце наша компания потратила пятьдесят тысяч фунтов на рекламу.",
-            "полный запрет на рекламу сигарет",
-            "Рекламу сигарет следует немедленно запретить.",
-            "Он ищет работу в рекламной сфере.",
-            "Реклама представляет собой мощное средство информации.",
-            "Он подумал, что это рекламная листовка.",
-            "воображаемый мир рекламного искусства",
-            "рекламные вкладыши в воскресной газете",
-            "Все рекламные сообщения представляют собой торговые предложения [предложения купить товар].",
-            "Он организовал большую рекламную кампанию.",
-            "Я полагаю, что мог бы заняться рекламой.",
-            "Компания ищет по объявлениям секретаря.",
-            "Эта рекламная кампания увеличила продажи.",
-            "Рекламная кампания полностью провалилась.",
-            "Рекламная кампания оказалась весьма прибыльной.",
-            "Реклама – то, за что платишь., внимание общества – то, за что молишься. / Платят за рекламу, а молятся об известности.",
-            "Эта должность требует предварительного опыта работы в рекламном бизнесе.",
-            "Рекламный бизнес сопряжён с острейшей конкуренцией.",
-            "Они рекламируют новое издание данной книги.",
-            "возможность пересмотреть нашу политику по рекламе",
-            "Этот журнал уделяет много места рекламе.",
-            "Я вижу, что они ищут по объявлениям нового директора по продажам.",
-            "Люди раздавали листовки с рекламой данного события.",
-            "реклама, которая постоянно стремится быть непохожей на другие",
-            "У нас есть хорошие связи в рекламной индустрии.",
-            "Мы должны сделать наши методы рекламы более действенными."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "advertising": {
+    "comment": [
+      "advertisement",
+      "advertise",
+      "advert"
+    ],
+    "translate": "реклама, рекламирование, рекламное дело, рекламный",
+    "transcription": " |ˈædvərtaɪzɪŋ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He is in advertising.",
+        "ru": "Он работает в рекламном бизнесе.",
+        "learn": 0
+      },
+      {
+        "eng": "Advertising that tries to be different.",
+        "ru": "Реклама, которая пытается быть непохожей на другие.",
+        "learn": 1
+      },
+      {
+        "eng": "The whole idea of advertising is to make people buy things.",
+        "ru": "Основное назначение рекламы - заставить людей покупать вещи.",
+        "learn": 0
+      },
+      {
+        "eng": "advertising aimed at 18-25 year olds",
+        "ru": "реклама, нацеленная на 18-25-летних",
+        "learn": 0
+      },
+      {
+        "eng": "Our company spent £ 50,000 on advertising last month.",
+        "ru": "В прошлом месяце наша компания потратила пятьдесят тысяч фунтов на рекламу.",
+        "learn": 0
+      },
+      {
+        "eng": "a total ban on cigarette advertising",
+        "ru": "полный запрет на рекламу сигарет",
+        "learn": 1
+      },
+      {
+        "eng": "Cigarette advertising should be banned outright.",
+        "ru": "Рекламу сигарет следует немедленно запретить.",
+        "learn": 0
+      },
+      {
+        "eng": "He is looking for a job in advertising.",
+        "ru": "Он ищет работу в рекламной сфере.",
+        "learn": 1
+      },
+      {
+        "eng": "Advertising is a powerful medium.",
+        "ru": "Реклама представляет собой мощное средство информации.",
+        "learn": 1
+      },
+      {
+        "eng": "He thought it was an advertising dodger.",
+        "ru": "Он подумал, что это рекламная листовка.",
+        "learn": 0
+      },
+      {
+        "eng": "the unreal world of advertising art",
+        "ru": "воображаемый мир рекламного искусства",
+        "learn": 0
+      },
+      {
+        "eng": "advertising inserts in the Sunday paper",
+        "ru": "рекламные вкладыши в воскресной газете",
+        "learn": 0
+      },
+      {
+        "eng": "All advertising sales messages are offers.",
+        "ru": "Все рекламные сообщения представляют собой торговые предложения [предложения купить товар].",
+        "learn": 0
+      },
+      {
+        "eng": "He organized a big advertising campaign.",
+        "ru": "Он организовал большую рекламную кампанию.",
+        "learn": 0
+      },
+      {
+        "eng": "I suppose I could go in for advertising.",
+        "ru": "Я полагаю, что мог бы заняться рекламой.",
+        "learn": 0
+      },
+      {
+        "eng": "The company is advertising for a secretary.",
+        "ru": "Компания ищет по объявлениям секретаря.",
+        "learn": 0
+      },
+      {
+        "eng": "The advertising campaign has improved sales.",
+        "ru": "Эта рекламная кампания увеличила продажи.",
+        "learn": 1
+      },
+      {
+        "eng": "The advertising campaign was a total failure.",
+        "ru": "Рекламная кампания полностью провалилась.",
+        "learn": 0
+      },
+      {
+        "eng": "The advertising campaign proved very profitable.",
+        "ru": "Рекламная кампания оказалась весьма прибыльной.",
+        "learn": 1
+      },
+      {
+        "eng": "Advertising you pay for, publicity you pray for.",
+        "ru": "Реклама – то, за что платишь., внимание общества – то, за что молишься. / Платят за рекламу, а молятся об известности.",
+        "learn": 0
+      },
+      {
+        "eng": "The job requires prior experience in advertising.",
+        "ru": "Эта должность требует предварительного опыта работы в рекламном бизнесе.",
+        "learn": 0
+      },
+      {
+        "eng": "Advertising is an intensely competitive business.",
+        "ru": "Рекламный бизнес сопряжён с острейшей конкуренцией.",
+        "learn": 0
+      },
+      {
+        "eng": "They are advertising the new edition of the book.",
+        "ru": "Они рекламируют новое издание данной книги.",
+        "learn": 1
+      },
+      {
+        "eng": "an opportunity to rethink our policy on advertising",
+        "ru": "возможность пересмотреть нашу политику по рекламе",
+        "learn": 0
+      },
+      {
+        "eng": "The magazine devotes a lot of space to advertising.",
+        "ru": "Этот журнал уделяет много места рекламе.",
+        "learn": 0
+      },
+      {
+        "eng": "I see they're advertising for a new Sales Director.",
+        "ru": "Я вижу, что они ищут по объявлениям нового директора по продажам.",
+        "learn": 0
+      },
+      {
+        "eng": "People were giving out flyers advertising the event.",
+        "ru": "Люди раздавали листовки с рекламой данного события.",
+        "learn": 0
+      },
+      {
+        "eng": "advertising that strives continually to be different",
+        "ru": "реклама, которая постоянно стремится быть непохожей на другие",
+        "learn": 0
+      },
+      {
+        "eng": "We have good connections in the advertising industry.",
+        "ru": "У нас есть хорошие связи в рекламной индустрии.",
+        "learn": 0
+      },
+      {
+        "eng": "We shall have to refine on our methods of advertising.",
+        "ru": "Мы должны сделать наши методы рекламы более действенными.",
+        "learn": 0
+      }
+    ]
+  }
 }

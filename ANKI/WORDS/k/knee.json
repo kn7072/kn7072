@@ -1,83 +1,170 @@
 {
-    "knee": {
-        "comment": [
-            "kneel"
-        ],
-        "translate": "колено, коленка, наколенник, кница, подкос, ударить коленом, касаться коленом",
-        "transcription": " |niː|",
-        "antonyms": [],
-        "mnemonic": [
-            "knee [ни:] колено - В (НИИ) ортопедии колено прооперировали."
-        ],
-        "examples": [
-            "I fell down and hurt my knee.",
-            "Daddy, can I sit on your knee?",
-            "I bruised my knee.",
-            "He fell down and hurt his knee.",
-            "I think I've wrenched my knee.",
-            "He struck his knee with his hand.",
-            "he had a nasty chafe on his knee",
-            "Her jeans had holes at the knees.",
-            "She has been having trouble with her knee.",
-            "She fell and skinned her knee.",
-            "I kneed him in the groin.",
-            "He grazed his knee when he fell.",
-            "The hemline falls just above the knee.",
-            "Skirts this year are just above knee level.",
-            "He hurt his knee playing football.",
-            "I skinned my knee when I fell.",
-            "I had crocked my knee at hockey.",
-            "Lucy had a bandage round her knee.",
-            "She aggravated an old knee injury.",
-            "He tore a ligament in his left knee.",
-            "The boy skinned his knee when he fell.",
-            "He wrapped a bandage around his knee.",
-            "I scraped my knee when I fell.",
-            "He sprained ligaments in his knee.",
-            "a stress fracture in his left knee",
-            "Lizzie fell down and hurt her knee.",
-            "She bruised her knee when she fell.",
-            "The fall severely damaged her knee.",
-            "the obscene massacre at Wounded Knee",
-            "The nurse dressed the cut on my knee."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я упал и повредил колено.",
-            "Папа, могу я посидеть у тебя на коленях?",
-            "Я ушиб колено.",
-            "Он упал и повредил колено.",
-            "Я думаю, что я вывихнул колено.",
-            "Он ударил рукой по колену.",
-            "на колене у него была серьёзная ссадина",
-            "На коленях её джинсов были дыры.",
-            "Она испытывала проблемы с коленом.",
-            "Она упала и ободрала колено.",
-            "Я ударил его коленом в пах.",
-            "Он оцарапал коленку, когда упал.",
-            "Линия низа — чуть выше колена.",
-            "Длина юбок в этом году находится чуть выше уровня колен.",
-            "Он ушиб колено, играя в футбол.",
-            "Я ободрал колено и, когда падал.",
-            "Я повредил колено, играя в хоккей.",
-            "У Люси было забинтовано колено.",
-            "Она усугубила старую травму колена.",
-            "Он порвал связку в левом колене.",
-            "Мальчик поранил себе колено, когда упал.",
-            "Он наложил на колено повязку.",
-            "Я ободрал коленку, когда упал.",
-            "Он растянул связки в колене.",
-            "усталостный /стрессовый/ перелом его левого колена",
-            "Лиззи упала и повредила колено.",
-            "Она ушибла колено, когда упала.",
-            "Упав, она сильно ушибла колено.",
-            "отвратительная бойня на ручье Вундед-Ни",
-            "Медсестра обработала порез у меня на колене."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "kn-_=_[n]"
-        ]
-    }
+  "knee": {
+    "comment": [
+      "kneel"
+    ],
+    "translate": "колено, коленка, наколенник, кница, подкос, ударить коленом, касаться коленом",
+    "transcription": " |niː|",
+    "antonyms": [],
+    "mnemonic": [
+      "knee [ни:] колено - В (НИИ) ортопедии колено прооперировали."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "kn-_=_[n]"
+    ],
+    "examples": [
+      {
+        "eng": "I fell down and hurt my knee.",
+        "ru": "Я упал и повредил колено.",
+        "learn": 0
+      },
+      {
+        "eng": "Daddy, can I sit on your knee?",
+        "ru": "Папа, могу я посидеть у тебя на коленях?",
+        "learn": 0
+      },
+      {
+        "eng": "I bruised my knee.",
+        "ru": "Я ушиб колено.",
+        "learn": 0
+      },
+      {
+        "eng": "He fell down and hurt his knee.",
+        "ru": "Он упал и повредил колено.",
+        "learn": 0
+      },
+      {
+        "eng": "I think I've wrenched my knee.",
+        "ru": "Я думаю, что я вывихнул колено.",
+        "learn": 0
+      },
+      {
+        "eng": "He struck his knee with his hand.",
+        "ru": "Он ударил рукой по колену.",
+        "learn": 0
+      },
+      {
+        "eng": "he had a nasty chafe on his knee",
+        "ru": "на колене у него была серьёзная ссадина",
+        "learn": 0
+      },
+      {
+        "eng": "Her jeans had holes at the knees.",
+        "ru": "На коленях её джинсов были дыры.",
+        "learn": 1
+      },
+      {
+        "eng": "She has been having trouble with her knee.",
+        "ru": "Она испытывала проблемы с коленом.",
+        "learn": 0
+      },
+      {
+        "eng": "She fell and skinned her knee.",
+        "ru": "Она упала и ободрала колено.",
+        "learn": 0
+      },
+      {
+        "eng": "I kneed him in the groin.",
+        "ru": "Я ударил его коленом в пах.",
+        "learn": 0
+      },
+      {
+        "eng": "He grazed his knee when he fell.",
+        "ru": "Он оцарапал коленку, когда упал.",
+        "learn": 0
+      },
+      {
+        "eng": "The hemline falls just above the knee.",
+        "ru": "Линия низа — чуть выше колена.",
+        "learn": 0
+      },
+      {
+        "eng": "Skirts this year are just above knee level.",
+        "ru": "Длина юбок в этом году находится чуть выше уровня колен.",
+        "learn": 0
+      },
+      {
+        "eng": "He hurt his knee playing football.",
+        "ru": "Он ушиб колено, играя в футбол.",
+        "learn": 1
+      },
+      {
+        "eng": "I skinned my knee when I fell.",
+        "ru": "Я ободрал колено и, когда падал.",
+        "learn": 0
+      },
+      {
+        "eng": "I had crocked my knee at hockey.",
+        "ru": "Я повредил колено, играя в хоккей.",
+        "learn": 0
+      },
+      {
+        "eng": "Lucy had a bandage round her knee.",
+        "ru": "У Люси было забинтовано колено.",
+        "learn": 0
+      },
+      {
+        "eng": "She aggravated an old knee injury.",
+        "ru": "Она усугубила старую травму колена.",
+        "learn": 0
+      },
+      {
+        "eng": "He tore a ligament in his left knee.",
+        "ru": "Он порвал связку в левом колене.",
+        "learn": 0
+      },
+      {
+        "eng": "The boy skinned his knee when he fell.",
+        "ru": "Мальчик поранил себе колено, когда упал.",
+        "learn": 0
+      },
+      {
+        "eng": "He wrapped a bandage around his knee.",
+        "ru": "Он наложил на колено повязку.",
+        "learn": 0
+      },
+      {
+        "eng": "I scraped my knee when I fell.",
+        "ru": "Я ободрал коленку, когда упал.",
+        "learn": 0
+      },
+      {
+        "eng": "He sprained ligaments in his knee.",
+        "ru": "Он растянул связки в колене.",
+        "learn": 0
+      },
+      {
+        "eng": "a stress fracture in his left knee",
+        "ru": "усталостный /стрессовый/ перелом его левого колена",
+        "learn": 0
+      },
+      {
+        "eng": "Lizzie fell down and hurt her knee.",
+        "ru": "Лиззи упала и повредила колено.",
+        "learn": 0
+      },
+      {
+        "eng": "She bruised her knee when she fell.",
+        "ru": "Она ушибла колено, когда упала.",
+        "learn": 1
+      },
+      {
+        "eng": "The fall severely damaged her knee.",
+        "ru": "Упав, она сильно ушибла колено.",
+        "learn": 0
+      },
+      {
+        "eng": "the obscene massacre at Wounded Knee",
+        "ru": "отвратительная бойня на ручье Вундед-Ни",
+        "learn": 0
+      },
+      {
+        "eng": "The nurse dressed the cut on my knee.",
+        "ru": "Медсестра обработала порез у меня на колене.",
+        "learn": 0
+      }
+    ]
+  }
 }

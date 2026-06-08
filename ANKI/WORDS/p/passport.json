@@ -1,89 +1,175 @@
 {
-    "passport": {
-        "comment": [
-            "passage",
-            "passion",
-            "passenger",
-            "passive",
-            "password",
-            "pass",
-            "passing",
-            "compass",
-            "passionate",
-            "bypass"
-        ],
-        "translate": "паспорт, паспортный",
-        "transcription": " |ˈpæspɔːrt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The guards checked my passport.",
-            "I can't find my passport anywhere.",
-            "Is your passport in order?",
-            "My passport expires next year.",
-            "I need to renew my passport this year.",
-            "Check the expiry date on your passport.",
-            "I need to check that your passport is in order.",
-            "She saw a good diet as a passport to good health.",
-            "You must present your passport to the customs officer.",
-            "'Passport?' 'Check.' 'Ticket?' ' Check'.",
-            "'I think I've lost my passport.' 'What?'",
-            "Your passport is good for another three years.",
-            "You'll need your passport as proof of identity.",
-            "It took us ages to get through passport control.",
-            "To cross the border, you will need a valid passport.",
-            "British passport holders",
-            "Do you hold a valid passport?",
-            "the bearer of a U.S. passport",
-            "My passport expires next week.",
-            "The police pulled his passport.",
-            "Do you hold a British passport?",
-            "Please stop at passport control.",
-            "Keep your passport in a secure place.",
-            "He got into Europe with a false passport.",
-            "The woman at the desk stamped my passport.",
-            "You'd better bring your passport with you.",
-            "The old type of passport is on its way out.",
-            "Any cautious tourist will guard her passport.",
-            "She forwarded them a copy of her British passport.",
-            "She was born in New York and has an American passport."
-        ],
-        "example_translate": [
-            "Охрана проверила мой паспорт.",
-            "Нигде не могу найти свой паспорт.",
-            "Паспорт у тебя в порядке?",
-            "Срок действия моего паспорта истекает в следующем году.",
-            "В этом году мне нужно обновить паспорт .",
-            "Проверьте срок действия вашего паспорта.",
-            "Мне нужно убедиться, что ваш паспорт в порядке.",
-            "Она считала хорошее питание ключом к хорошему здоровью.",
-            "Вы должны предъявить паспорт сотруднику таможни.",
-            "'Паспорт?' 'Взял.' 'Билет?' 'Взял'.",
-            "- Кажется, я потерял паспорт. — Что?",
-            "Ваш паспорт действителен ещё три года.",
-            "Вам понадобится паспорт в качестве удостоверения личности.",
-            "Мы очень долго /целую вечность/ проходили паспортный контроль.",
-            "Чтобы пересечь границу, вам понадобится действительный паспорт.",
-            "обладатели британского паспорта",
-            "У тебя есть действующий паспорт?",
-            "предъявитель паспорта США",
-            "Срок действия моего паспорта истекает на следующей неделе.",
-            "Полиция отобрала у него паспорт.",
-            "У тебя есть британский паспорт?",
-            "Пожалуйста, остановитесь у паспортного контроля.",
-            "Храните свой паспорт в безопасном месте.",
-            "Он попал в Европу по поддельному паспорту.",
-            "Женщина за столом проштамповала мой паспорт.",
-            "Не забудьте взять с собой паспорт.",
-            "Старый тип паспорта уже выходит из употребления.",
-            "Любая осмотрительная туристка будет беречь свой паспорт.",
-            "Она отправила им копию своего британского паспорта.",
-            "Она родилась в Нью-Йорке и имеет американский паспорт."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "passport": {
+    "comment": [
+      "passage",
+      "passion",
+      "passenger",
+      "passive",
+      "password",
+      "pass",
+      "passing",
+      "compass",
+      "passionate",
+      "bypass"
+    ],
+    "translate": "паспорт, паспортный",
+    "transcription": " |ˈpæspɔːrt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The guards checked my passport.",
+        "ru": "Охрана проверила мой паспорт.",
+        "learn": 1
+      },
+      {
+        "eng": "I can't find my passport anywhere.",
+        "ru": "Нигде не могу найти свой паспорт.",
+        "learn": 0
+      },
+      {
+        "eng": "Is your passport in order?",
+        "ru": "Паспорт у тебя в порядке?",
+        "learn": 1
+      },
+      {
+        "eng": "My passport expires next year.",
+        "ru": "Срок действия моего паспорта истекает в следующем году.",
+        "learn": 0
+      },
+      {
+        "eng": "I need to renew my passport this year.",
+        "ru": "В этом году мне нужно обновить паспорт .",
+        "learn": 1
+      },
+      {
+        "eng": "Check the expiry date on your passport.",
+        "ru": "Проверьте срок действия вашего паспорта.",
+        "learn": 0
+      },
+      {
+        "eng": "I need to check that your passport is in order.",
+        "ru": "Мне нужно убедиться, что ваш паспорт в порядке.",
+        "learn": 0
+      },
+      {
+        "eng": "She saw a good diet as a passport to good health.",
+        "ru": "Она считала хорошее питание ключом к хорошему здоровью.",
+        "learn": 0
+      },
+      {
+        "eng": "You must present your passport to the customs officer.",
+        "ru": "Вы должны предъявить паспорт сотруднику таможни.",
+        "learn": 0
+      },
+      {
+        "eng": "'Passport?' 'Check.' 'Ticket?' ' Check'.",
+        "ru": "'Паспорт?' 'Взял.' 'Билет?' 'Взял'.",
+        "learn": 0
+      },
+      {
+        "eng": "'I think I've lost my passport.' 'What?'",
+        "ru": "- Кажется, я потерял паспорт. — Что?",
+        "learn": 0
+      },
+      {
+        "eng": "Your passport is good for another three years.",
+        "ru": "Ваш паспорт действителен ещё три года.",
+        "learn": 0
+      },
+      {
+        "eng": "You'll need your passport as proof of identity.",
+        "ru": "Вам понадобится паспорт в качестве удостоверения личности.",
+        "learn": 0
+      },
+      {
+        "eng": "It took us ages to get through passport control.",
+        "ru": "Мы очень долго /целую вечность/ проходили паспортный контроль.",
+        "learn": 0
+      },
+      {
+        "eng": "To cross the border, you will need a valid passport.",
+        "ru": "Чтобы пересечь границу, вам понадобится действительный паспорт.",
+        "learn": 1
+      },
+      {
+        "eng": "British passport holders",
+        "ru": "обладатели британского паспорта",
+        "learn": 0
+      },
+      {
+        "eng": "Do you hold a valid passport?",
+        "ru": "У тебя есть действующий паспорт?",
+        "learn": 0
+      },
+      {
+        "eng": "the bearer of a U.S. passport",
+        "ru": "предъявитель паспорта США",
+        "learn": 0
+      },
+      {
+        "eng": "My passport expires next week.",
+        "ru": "Срок действия моего паспорта истекает на следующей неделе.",
+        "learn": 1
+      },
+      {
+        "eng": "The police pulled his passport.",
+        "ru": "Полиция отобрала у него паспорт.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you hold a British passport?",
+        "ru": "У тебя есть британский паспорт?",
+        "learn": 1
+      },
+      {
+        "eng": "Please stop at passport control.",
+        "ru": "Пожалуйста, остановитесь у паспортного контроля.",
+        "learn": 0
+      },
+      {
+        "eng": "Keep your passport in a secure place.",
+        "ru": "Храните свой паспорт в безопасном месте.",
+        "learn": 0
+      },
+      {
+        "eng": "He got into Europe with a false passport.",
+        "ru": "Он попал в Европу по поддельному паспорту.",
+        "learn": 0
+      },
+      {
+        "eng": "The woman at the desk stamped my passport.",
+        "ru": "Женщина за столом проштамповала мой паспорт.",
+        "learn": 0
+      },
+      {
+        "eng": "You'd better bring your passport with you.",
+        "ru": "Не забудьте взять с собой паспорт.",
+        "learn": 0
+      },
+      {
+        "eng": "The old type of passport is on its way out.",
+        "ru": "Старый тип паспорта уже выходит из употребления.",
+        "learn": 0
+      },
+      {
+        "eng": "Any cautious tourist will guard her passport.",
+        "ru": "Любая осмотрительная туристка будет беречь свой паспорт.",
+        "learn": 0
+      },
+      {
+        "eng": "She forwarded them a copy of her British passport.",
+        "ru": "Она отправила им копию своего британского паспорта.",
+        "learn": 0
+      },
+      {
+        "eng": "She was born in New York and has an American passport.",
+        "ru": "Она родилась в Нью-Йорке и имеет американский паспорт.",
+        "learn": 0
+      }
+    ]
+  }
 }

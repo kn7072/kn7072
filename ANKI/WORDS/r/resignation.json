@@ -1,80 +1,166 @@
 {
-    "resignation": {
-        "comment": [
-            "resign"
-        ],
-        "translate": "отставка, заявление об отставке, смирение, покорность, отказ от должности",
-        "transcription": " |ˌrezɪɡˈneɪʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She showed an attitude of quiet resignation to her fate.",
-            "The scandal forced his resignation.",
-            "His loss of credibility led to his resignation.",
-            "His pale face was lined with melancholy resignation.",
-            "It is with deep regret that he is announcing his resignation.",
-            "News of his resignation broke yesterday.",
-            "I heard about his resignation on the grapevine.",
-            "Religion consists in submission and resignation to the divine will.",
-            "She gave a sigh of resignation.",
-            "Tom has handed in his resignation.",
-            "The ostensible reason for his resignation was ill health.",
-            "He is the latest person to announce his resignation.",
-            "His resignation has left some important questions hanging in the air.",
-            "He accepted her decision with resignation.",
-            "He submitted his resignation as of next month.",
-            "The governor refused to accept Cox's resignation.",
-            "Rumours abound as to the reasons for his resignation.",
-            "a company left rudderless by the resignation of its CEO",
-            "His resignation was front page news (=was important news).",
-            "Angry demonstrators demanded the resignation of two senior officials.",
-            "His resignation triggered a chain of events (=series of events which each cause the next one to happen) that led eventually to the downfall of the government.",
-            "They refused to accept his resignation.",
-            "Minton tendered her resignation on Friday.",
-            "reacted to the crisis with listless resignation",
-            "Cordon announced his resignation to staff members on Wednesday.",
-            "In an official statement, she formally announced her resignation.",
-            "The manager received resignations from three members of the staff.",
-            "The decision set off a train of events which led to his resignation.",
-            "The government has accepted the resignation of a senior army commander.",
-            "They accused the President of incompetence, but stopped short of calling for his resignation."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она проявляла полную покорность своей судьбе.",
-            "Скандал вынудил его уйти в отставку.",
-            "Потеря к нему доверия привела к его отставке.",
-            "Его бледное лицо было отмечено унылой покорностью.",
-            "С глубоким сожалением он объявляет о своей отставке.",
-            "О его отставке стало известно вчера.",
-            "До меня дошли слухи, что он ушёл в отставку.",
-            "Суть религии заключается в повиновении и покорности божественной воле.",
-            "Она покорно вздохнула.",
-            "Том подал в отставку.",
-            "Формальной причиной его отставки было плохое состояние здоровья.",
-            "Он является последним человеком, который объявил о своей отставке.",
-            "В результате его отставки кое-какие важные вопросы остались без ответа /зависли в воздухе/.",
-            "Он покорно принял её решение.",
-            "Он подал в отставку, начиная со следующего месяца.",
-            "Губернатор отказался принять отставку Кокса.",
-            "По поводу причин его увольнения ходит множество слухов.",
-            "компания, которая после отставки генерального директора осталась без руководства",
-            "Новость о его отставке попала на первые страницы газет (т.е. была очень важной).",
-            "Разгневанные демонстранты требовали отставки двух высокопоставленных чиновников.",
-            "Его отставка запустила цепочку событий (т.е. ряд событий, каждое из которых вызывало следующее), которая в конечном итоге привела к падению правительства.",
-            "Они отказались принять его отставку.",
-            "Минтон подала прошение об отставке в пятницу.",
-            "отреагировали на кризис с вялой покорностью",
-            "В среду Кордон объявил сотрудникам о своей отставке.",
-            "В своём заявлении она официально объявила об уходе в отставку.",
-            "Руководитель получил заявления об отставке от трёх членов персонала.",
-            "Данное решение стало началом цепи событий, приведших к его отставке.",
-            "Правительство приняло отставку одного из высокопоставленных армейских начальников.",
-            "Они обвинили президента в некомпетентности, но не стали требовать его отставки."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "resignation": {
+    "comment": [
+      "resign"
+    ],
+    "translate": "отставка, заявление об отставке, смирение, покорность, отказ от должности",
+    "transcription": " |ˌrezɪɡˈneɪʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She showed an attitude of quiet resignation to her fate.",
+        "ru": "Она проявляла полную покорность своей судьбе.",
+        "learn": 0
+      },
+      {
+        "eng": "The scandal forced his resignation.",
+        "ru": "Скандал вынудил его уйти в отставку.",
+        "learn": 0
+      },
+      {
+        "eng": "His loss of credibility led to his resignation.",
+        "ru": "Потеря к нему доверия привела к его отставке.",
+        "learn": 1
+      },
+      {
+        "eng": "His pale face was lined with melancholy resignation.",
+        "ru": "Его бледное лицо было отмечено унылой покорностью.",
+        "learn": 0
+      },
+      {
+        "eng": "It is with deep regret that he is announcing his resignation.",
+        "ru": "С глубоким сожалением он объявляет о своей отставке.",
+        "learn": 0
+      },
+      {
+        "eng": "News of his resignation broke yesterday.",
+        "ru": "О его отставке стало известно вчера.",
+        "learn": 0
+      },
+      {
+        "eng": "I heard about his resignation on the grapevine.",
+        "ru": "До меня дошли слухи, что он ушёл в отставку.",
+        "learn": 0
+      },
+      {
+        "eng": "Religion consists in submission and resignation to the divine will.",
+        "ru": "Суть религии заключается в повиновении и покорности божественной воле.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave a sigh of resignation.",
+        "ru": "Она покорно вздохнула.",
+        "learn": 0
+      },
+      {
+        "eng": "Tom has handed in his resignation.",
+        "ru": "Том подал в отставку.",
+        "learn": 0
+      },
+      {
+        "eng": "The ostensible reason for his resignation was ill health.",
+        "ru": "Формальной причиной его отставки было плохое состояние здоровья.",
+        "learn": 0
+      },
+      {
+        "eng": "He is the latest person to announce his resignation.",
+        "ru": "Он является последним человеком, который объявил о своей отставке.",
+        "learn": 0
+      },
+      {
+        "eng": "His resignation has left some important questions hanging in the air.",
+        "ru": "В результате его отставки кое-какие важные вопросы остались без ответа /зависли в воздухе/.",
+        "learn": 0
+      },
+      {
+        "eng": "He accepted her decision with resignation.",
+        "ru": "Он покорно принял её решение.",
+        "learn": 1
+      },
+      {
+        "eng": "He submitted his resignation as of next month.",
+        "ru": "Он подал в отставку, начиная со следующего месяца.",
+        "learn": 0
+      },
+      {
+        "eng": "The governor refused to accept Cox's resignation.",
+        "ru": "Губернатор отказался принять отставку Кокса.",
+        "learn": 0
+      },
+      {
+        "eng": "Rumours abound as to the reasons for his resignation.",
+        "ru": "По поводу причин его увольнения ходит множество слухов.",
+        "learn": 0
+      },
+      {
+        "eng": "a company left rudderless by the resignation of its CEO",
+        "ru": "компания, которая после отставки генерального директора осталась без руководства",
+        "learn": 0
+      },
+      {
+        "eng": "His resignation was front page news (=was important news).",
+        "ru": "Новость о его отставке попала на первые страницы газет (т.е. была очень важной).",
+        "learn": 0
+      },
+      {
+        "eng": "Angry demonstrators demanded the resignation of two senior officials.",
+        "ru": "Разгневанные демонстранты требовали отставки двух высокопоставленных чиновников.",
+        "learn": 0
+      },
+      {
+        "eng": "His resignation triggered a chain of events (=series of events which each cause the next one to happen) that led eventually to the downfall of the government.",
+        "ru": "Его отставка запустила цепочку событий (т.е. ряд событий, каждое из которых вызывало следующее), которая в конечном итоге привела к падению правительства.",
+        "learn": 0
+      },
+      {
+        "eng": "They refused to accept his resignation.",
+        "ru": "Они отказались принять его отставку.",
+        "learn": 1
+      },
+      {
+        "eng": "Minton tendered her resignation on Friday.",
+        "ru": "Минтон подала прошение об отставке в пятницу.",
+        "learn": 0
+      },
+      {
+        "eng": "reacted to the crisis with listless resignation",
+        "ru": "отреагировали на кризис с вялой покорностью",
+        "learn": 0
+      },
+      {
+        "eng": "Cordon announced his resignation to staff members on Wednesday.",
+        "ru": "В среду Кордон объявил сотрудникам о своей отставке.",
+        "learn": 0
+      },
+      {
+        "eng": "In an official statement, she formally announced her resignation.",
+        "ru": "В своём заявлении она официально объявила об уходе в отставку.",
+        "learn": 1
+      },
+      {
+        "eng": "The manager received resignations from three members of the staff.",
+        "ru": "Руководитель получил заявления об отставке от трёх членов персонала.",
+        "learn": 0
+      },
+      {
+        "eng": "The decision set off a train of events which led to his resignation.",
+        "ru": "Данное решение стало началом цепи событий, приведших к его отставке.",
+        "learn": 0
+      },
+      {
+        "eng": "The government has accepted the resignation of a senior army commander.",
+        "ru": "Правительство приняло отставку одного из высокопоставленных армейских начальников.",
+        "learn": 1
+      },
+      {
+        "eng": "They accused the President of incompetence, but stopped short of calling for his resignation.",
+        "ru": "Они обвинили президента в некомпетентности, но не стали требовать его отставки.",
+        "learn": 0
+      }
+    ]
+  }
 }

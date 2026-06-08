@@ -1,86 +1,174 @@
 {
-    "demand": {
-        "comment": [
-            "demanding"
-        ],
-        "translate": "спрос, требование, потребность, запрос, требовать, нуждаться, спрашивать",
-        "transcription": " |dɪˈmænd|",
-        "antonyms": [],
-        "mnemonic": [
-            "demand [дима'нд] требовать - (Диманд-странты) требуют хлеба и зрелищ.",
-            "demand [dɪ'mɑ: nd]\n***\nЯ ТРЕБУЮ в подарок диамант. (это) demand\nТребование, запрос, спрос.\n***\nЯ требую \"demand\"\nвыполнить команду \"command\"."
-        ],
-        "examples": [
-            "I demand an explanation.",
-            "I demand my money back.",
-            "I demand to see the manager.",
-            "His books are in high demand.",
-            "Demand is slackening.",
-            "Demand may overtake the supply.",
-            "World oil demand is booming.",
-            "This job demands a lot of time.",
-            "I demand to know what's going on.",
-            "Small cars are in great demand.",
-            "There is a demand for jobs.",
-            "The situation demands immediate action.",
-            "'Where are you going?' she demanded angrily.",
-            "Demand determines the price.",
-            "Prices change according to demand and supply.",
-            "There is a huge demand for new cars.",
-            "The bank demanded payment of the loan.",
-            "The demand for a product determines its price.",
-            "Demand has outreached supply.",
-            "She demanded to see the manager.",
-            "Supply and demand were in equilibrium.",
-            "The supply is inadequate to meet the demand.",
-            "As the demand rises, so do prices.",
-            "They demand freedom from constraint.",
-            "He had the impertinence to demand a raise.",
-            "There is a brisk demand for home computers.",
-            "The demands on their budgets have increased.",
-            "He had the effrontery to demand more money.",
-            "Typewriters were in persistent demand.",
-            "Developing questionnaires demands great care."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я требую объяснения.",
-            "Я требую свои деньги назад.",
-            "Я хочу видеть управляющего.",
-            "Его книги пользуются большим спросом.",
-            "Спрос падает.",
-            "Спрос может обогнать предложение.",
-            "Мировой спрос на нефть быстро растёт.",
-            "Эта работа требует много времени.",
-            "Я требую, чтобы мне объяснили, что происходит.",
-            "Малогабаритные машины пользуются большим спросом.",
-            "Есть спрос на рабочие места.",
-            "Ситуация требует немедленного вмешательства.",
-            "— Куда это ты собрался? — сердито спросила она.",
-            "Цену определяет спрос.",
-            "Цены меняются в зависимости от спроса и предложения.",
-            "Существует огромный спрос на новые автомобили.",
-            "Банк потребовал выплаты кредита.",
-            "Спрос на товар определяет его цену.",
-            "Спрос превысил предложение.",
-            "Она потребовала встречи с директором.",
-            "Спрос и предложение находились в равновесии.",
-            "Предложение не удовлетворяет спрос.",
-            "Поскольку спрос растёт, растут и цены.",
-            "Они требуют свободы от ограничений.",
-            "У него хватило наглости потребовать повышения зарплаты.",
-            "Сейчас большой спрос на домашние компьютеры.",
-            "Их расходы возросли.",
-            "У него хватило бесстыдства требовать ещё денег.",
-            "Пишущие машинки неизменно пользовались спросом.",
-            "Составление вопросников требует большой тщательности."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "a(закр_сл)_=_[ɑː]",
-            "Инфинитив_с_to_после_глаголов",
-            "Инфинитив"
-        ]
-    }
+  "demand": {
+    "comment": [
+      "demanding"
+    ],
+    "translate": "спрос, требование, потребность, запрос, требовать, нуждаться, спрашивать",
+    "transcription": " |dɪˈmænd|",
+    "antonyms": [],
+    "mnemonic": [
+      "demand [дима'нд] требовать - (Диманд-странты) требуют хлеба и зрелищ.",
+      "demand [dɪ'mɑ: nd]\n***\nЯ ТРЕБУЮ в подарок диамант. (это) demand\nТребование, запрос, спрос.\n***\nЯ требую \"demand\"\nвыполнить команду \"command\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "a(закр_сл)_=_[ɑː]",
+      "Инфинитив_с_to_после_глаголов",
+      "Инфинитив",
+      "infinitive_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I demand an explanation.",
+        "ru": "Я требую объяснения.",
+        "learn": 1
+      },
+      {
+        "eng": "I demand my money back.",
+        "ru": "Я требую свои деньги назад.",
+        "learn": 0
+      },
+      {
+        "eng": "I demand to see the manager.",
+        "ru": "Я хочу видеть управляющего.",
+        "learn": 0
+      },
+      {
+        "eng": "His books are in high demand.",
+        "ru": "Его книги пользуются большим спросом.",
+        "learn": 0
+      },
+      {
+        "eng": "Demand is slackening.",
+        "ru": "Спрос падает.",
+        "learn": 0
+      },
+      {
+        "eng": "Demand may overtake the supply.",
+        "ru": "Спрос может обогнать предложение.",
+        "learn": 1
+      },
+      {
+        "eng": "World oil demand is booming.",
+        "ru": "Мировой спрос на нефть быстро растёт.",
+        "learn": 0
+      },
+      {
+        "eng": "This job demands a lot of time.",
+        "ru": "Эта работа требует много времени.",
+        "learn": 0
+      },
+      {
+        "eng": "I demand to know what's going on.",
+        "ru": "Я требую, чтобы мне объяснили, что происходит.",
+        "learn": 0
+      },
+      {
+        "eng": "Small cars are in great demand.",
+        "ru": "Малогабаритные машины пользуются большим спросом.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a demand for jobs.",
+        "ru": "Есть спрос на рабочие места.",
+        "learn": 0
+      },
+      {
+        "eng": "The situation demands immediate action.",
+        "ru": "Ситуация требует немедленного вмешательства.",
+        "learn": 1
+      },
+      {
+        "eng": "'Where are you going?' she demanded angrily.",
+        "ru": "— Куда это ты собрался? — сердито спросила она.",
+        "learn": 0
+      },
+      {
+        "eng": "Demand determines the price.",
+        "ru": "Цену определяет спрос.",
+        "learn": 0
+      },
+      {
+        "eng": "Prices change according to demand and supply.",
+        "ru": "Цены меняются в зависимости от спроса и предложения.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a huge demand for new cars.",
+        "ru": "Существует огромный спрос на новые автомобили.",
+        "learn": 0
+      },
+      {
+        "eng": "The bank demanded payment of the loan.",
+        "ru": "Банк потребовал выплаты кредита.",
+        "learn": 0
+      },
+      {
+        "eng": "The demand for a product determines its price.",
+        "ru": "Спрос на товар определяет его цену.",
+        "learn": 0
+      },
+      {
+        "eng": "Demand has outreached supply.",
+        "ru": "Спрос превысил предложение.",
+        "learn": 0
+      },
+      {
+        "eng": "She demanded to see the manager.",
+        "ru": "Она потребовала встречи с директором.",
+        "learn": 0
+      },
+      {
+        "eng": "Supply and demand were in equilibrium.",
+        "ru": "Спрос и предложение находились в равновесии.",
+        "learn": 1
+      },
+      {
+        "eng": "The supply is inadequate to meet the demand.",
+        "ru": "Предложение не удовлетворяет спрос.",
+        "learn": 0
+      },
+      {
+        "eng": "As the demand rises, so do prices.",
+        "ru": "Поскольку спрос растёт, растут и цены.",
+        "learn": 0
+      },
+      {
+        "eng": "They demand freedom from constraint.",
+        "ru": "Они требуют свободы от ограничений.",
+        "learn": 1
+      },
+      {
+        "eng": "He had the impertinence to demand a raise.",
+        "ru": "У него хватило наглости потребовать повышения зарплаты.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a brisk demand for home computers.",
+        "ru": "Сейчас большой спрос на домашние компьютеры.",
+        "learn": 0
+      },
+      {
+        "eng": "The demands on their budgets have increased.",
+        "ru": "Их расходы возросли.",
+        "learn": 0
+      },
+      {
+        "eng": "He had the effrontery to demand more money.",
+        "ru": "У него хватило бесстыдства требовать ещё денег.",
+        "learn": 0
+      },
+      {
+        "eng": "Typewriters were in persistent demand.",
+        "ru": "Пишущие машинки неизменно пользовались спросом.",
+        "learn": 0
+      },
+      {
+        "eng": "Developing questionnaires demands great care.",
+        "ru": "Составление вопросников требует большой тщательности.",
+        "learn": 0
+      }
+    ]
+  }
 }

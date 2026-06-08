@@ -1,87 +1,173 @@
 {
-    "device": {
-        "comment": [
-            "ice",
-            "juice",
-            "voice",
-            "twice",
-            "devise"
-        ],
-        "translate": "устройство, прибор, аппарат, приспособление, средство, прием, механизм, способ",
-        "transcription": " |dɪˈvaɪs|",
-        "antonyms": [],
-        "mnemonic": [
-            "device [дива'йс] прибор,устройство - Ты (о-дивайс-я) так, чтобы прибор свой не простудить.",
-            "device [dɪ'vaɪs]\nvice [vaɪs] - зло, порок. вице\nadvice [əd'vaɪs] - совет, консультация\n***\nУСТРОЙСТВО и ПРИБОР для|вас. (это) device\nСПОСОБ и СРЕДСТВО для|вас, одевайсь. (это) device\n***\nУ меня есть совет \"advice\" и\nустройство \"device\"\nот мышей \"mice\"."
-        ],
-        "examples": [
-            "the conception of a new device",
-            "Metaphor is a common literary device.",
-            "The device has a single button, allowing for easy operation.",
-            "The shield bears the device of a dolphin.",
-            "The device can discriminate between the cancerous and the normal cells.",
-            "The store sells TVs, VCRs, and other electronic devices.",
-            "He bought a device to digitize the data.",
-            "The device meets safety standards.",
-            "The device has lowered the rate of car accidence significantly.",
-            "My teenage daughter wears a special device at night to correct her bite.",
-            "a device intended to conserve water",
-            "He would stoop to any device to win a point.",
-            "a cunning little device for keeping out draughts",
-            "The device is small enough to wear on your wrist.",
-            "The safety device cuts in automatically.",
-            "a device that filters impurities from water",
-            "This device drives the disks for the computer.",
-            "He was recognized by the device on his shield.",
-            "Police carried out a controlled explosion of the device.",
-            "agreeing to dismantle all nuclear devices",
-            "The device assists those who can't climb stairs.",
-            "a device that makes it possible to couple the pieces",
-            "The company makes devices to detect carbon monoxide.",
-            "Cover the entire device to prevent water penetration.",
-            "This device permits detection of defects in the lungs.",
-            "Their proposal was only a device to confuse the opposition.",
-            "The car's security device will immobilize the ignition system.",
-            "The manufacturers say the device will be on the market by May.",
-            "a device that protects your computer against electrical surges",
-            "The device was thrown at an army patrol but failed to explode."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "концепция нового устройства",
-            "Метафора — это распространённый литературный приём.",
-            "Это устройство снабжено только одной кнопкой для простоты управления.",
-            "На щите изображён дельфин.",
-            "Этот прибор умеет отличать раковые клетки от нормальных.",
-            "В магазине продаются телевизоры, видеомагнитофоны, и другие электронные устройства.",
-            "Он купил устройство для оцифровки данных.",
-            "Прибор соответствует стандартам безопасности.",
-            "Это устройство существенно сократило количество автомобильных аварий.",
-            "Моя дочь-подросток на ночь надевает специальное устройство для исправления прикуса.",
-            "устройство, предназначенное для экономии воды",
-            "Ради выигрыша очка он не гнушался никакими уловками.",
-            "хитрый приёмчик для предотвращения сквозняков",
-            "Малая величина этого аппарата позволяет носить его на запястье.",
-            "Предохранительное устройство включается автоматически.",
-            "устройство, которое отфильтровывает из воды примеси",
-            "Это устройство управляет дисками для компьютера.",
-            "Его узнали по эмблеме, изображённой на щите.",
-            "Полиция осуществила управляемый подрыв этого устройства.",
-            "соглашаясь на демонтаж всех ядерных устройств",
-            "Данное приспособление помогает тем, кто не может подняться по лестнице.",
-            "устройство, которое обеспечивает возможность соединения этих деталей",
-            "Компания производит приборы для обнаружения угарного газа.",
-            "Укройте весь механизм для предотвращения проникновения туда воды.",
-            "Этот прибор позволяет обнаружить дефекты в лёгких.",
-            "Их предложение было всего лишь средством запутать представителей оппозиции.",
-            "Противоугонное устройство автомобиля будет блокировать его систему зажигания.",
-            "По словам производителей, устройство появится на рынке уже в мае.",
-            "устройство, которое защищает компьютер от бросков напряжения",
-            "Взрывное устройство было брошено в армейский патруль, но не взорвалось."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "device": {
+    "comment": [
+      "ice",
+      "juice",
+      "voice",
+      "twice",
+      "devise"
+    ],
+    "translate": "устройство, прибор, аппарат, приспособление, средство, прием, механизм, способ",
+    "transcription": " |dɪˈvaɪs|",
+    "antonyms": [],
+    "mnemonic": [
+      "device [дива'йс] прибор,устройство - Ты (о-дивайс-я) так, чтобы прибор свой не простудить.",
+      "device [dɪ'vaɪs]\nvice [vaɪs] - зло, порок. вице\nadvice [əd'vaɪs] - совет, консультация\n***\nУСТРОЙСТВО и ПРИБОР для|вас. (это) device\nСПОСОБ и СРЕДСТВО для|вас, одевайсь. (это) device\n***\nУ меня есть совет \"advice\" и\nустройство \"device\"\nот мышей \"mice\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "the conception of a new device",
+        "ru": "концепция нового устройства",
+        "learn": 0
+      },
+      {
+        "eng": "Metaphor is a common literary device.",
+        "ru": "Метафора — это распространённый литературный приём.",
+        "learn": 1
+      },
+      {
+        "eng": "The device has a single button, allowing for easy operation.",
+        "ru": "Это устройство снабжено только одной кнопкой для простоты управления.",
+        "learn": 0
+      },
+      {
+        "eng": "The shield bears the device of a dolphin.",
+        "ru": "На щите изображён дельфин.",
+        "learn": 0
+      },
+      {
+        "eng": "The device can discriminate between the cancerous and the normal cells.",
+        "ru": "Этот прибор умеет отличать раковые клетки от нормальных.",
+        "learn": 0
+      },
+      {
+        "eng": "The store sells TVs, VCRs, and other electronic devices.",
+        "ru": "В магазине продаются телевизоры, видеомагнитофоны, и другие электронные устройства.",
+        "learn": 0
+      },
+      {
+        "eng": "He bought a device to digitize the data.",
+        "ru": "Он купил устройство для оцифровки данных.",
+        "learn": 0
+      },
+      {
+        "eng": "The device meets safety standards.",
+        "ru": "Прибор соответствует стандартам безопасности.",
+        "learn": 0
+      },
+      {
+        "eng": "The device has lowered the rate of car accidence significantly.",
+        "ru": "Это устройство существенно сократило количество автомобильных аварий.",
+        "learn": 0
+      },
+      {
+        "eng": "My teenage daughter wears a special device at night to correct her bite.",
+        "ru": "Моя дочь-подросток на ночь надевает специальное устройство для исправления прикуса.",
+        "learn": 0
+      },
+      {
+        "eng": "a device intended to conserve water",
+        "ru": "устройство, предназначенное для экономии воды",
+        "learn": 0
+      },
+      {
+        "eng": "He would stoop to any device to win a point.",
+        "ru": "Ради выигрыша очка он не гнушался никакими уловками.",
+        "learn": 0
+      },
+      {
+        "eng": "a cunning little device for keeping out draughts",
+        "ru": "хитрый приёмчик для предотвращения сквозняков",
+        "learn": 0
+      },
+      {
+        "eng": "The device is small enough to wear on your wrist.",
+        "ru": "Малая величина этого аппарата позволяет носить его на запястье.",
+        "learn": 0
+      },
+      {
+        "eng": "The safety device cuts in automatically.",
+        "ru": "Предохранительное устройство включается автоматически.",
+        "learn": 0
+      },
+      {
+        "eng": "a device that filters impurities from water",
+        "ru": "устройство, которое отфильтровывает из воды примеси",
+        "learn": 0
+      },
+      {
+        "eng": "This device drives the disks for the computer.",
+        "ru": "Это устройство управляет дисками для компьютера.",
+        "learn": 0
+      },
+      {
+        "eng": "He was recognized by the device on his shield.",
+        "ru": "Его узнали по эмблеме, изображённой на щите.",
+        "learn": 0
+      },
+      {
+        "eng": "Police carried out a controlled explosion of the device.",
+        "ru": "Полиция осуществила управляемый подрыв этого устройства.",
+        "learn": 0
+      },
+      {
+        "eng": "agreeing to dismantle all nuclear devices",
+        "ru": "соглашаясь на демонтаж всех ядерных устройств",
+        "learn": 0
+      },
+      {
+        "eng": "The device assists those who can't climb stairs.",
+        "ru": "Данное приспособление помогает тем, кто не может подняться по лестнице.",
+        "learn": 0
+      },
+      {
+        "eng": "a device that makes it possible to couple the pieces",
+        "ru": "устройство, которое обеспечивает возможность соединения этих деталей",
+        "learn": 0
+      },
+      {
+        "eng": "The company makes devices to detect carbon monoxide.",
+        "ru": "Компания производит приборы для обнаружения угарного газа.",
+        "learn": 0
+      },
+      {
+        "eng": "Cover the entire device to prevent water penetration.",
+        "ru": "Укройте весь механизм для предотвращения проникновения туда воды.",
+        "learn": 0
+      },
+      {
+        "eng": "This device permits detection of defects in the lungs.",
+        "ru": "Этот прибор позволяет обнаружить дефекты в лёгких.",
+        "learn": 0
+      },
+      {
+        "eng": "Their proposal was only a device to confuse the opposition.",
+        "ru": "Их предложение было всего лишь средством запутать представителей оппозиции.",
+        "learn": 1
+      },
+      {
+        "eng": "The car's security device will immobilize the ignition system.",
+        "ru": "Противоугонное устройство автомобиля будет блокировать его систему зажигания.",
+        "learn": 0
+      },
+      {
+        "eng": "The manufacturers say the device will be on the market by May.",
+        "ru": "По словам производителей, устройство появится на рынке уже в мае.",
+        "learn": 0
+      },
+      {
+        "eng": "a device that protects your computer against electrical surges",
+        "ru": "устройство, которое защищает компьютер от бросков напряжения",
+        "learn": 0
+      },
+      {
+        "eng": "The device was thrown at an army patrol but failed to explode.",
+        "ru": "Взрывное устройство было брошено в армейский патруль, но не взорвалось.",
+        "learn": 0
+      }
+    ]
+  }
 }

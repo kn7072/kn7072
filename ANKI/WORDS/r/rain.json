@@ -1,91 +1,177 @@
 {
-    "rain": {
-        "comment": [
-            "strain",
-            "grain",
-            "brain",
-            "restrain",
-            "restraint",
-            "drain",
-            "rainforest",
-            "reign"
-        ],
-        "translate": "дождь, град, поток, потоки, дождевой, литься, лить, сыпаться",
-        "transcription": " |reɪn|",
-        "antonyms": [],
-        "mnemonic": [
-            "rain [рейн] дождь - На реке (Рейн) дождь идет.",
-            "grain [greɪn] - зерно, злаки, песчинка., раздроблять\nrain [reɪn]\n***\nПосле дождя \"rain\",\nпочву высуши \"drain\",\nи сажай по зёрнышку \"grain\".",
-            "rain [rein]\ntrain [treɪn] - поезд., тренироваться\n***\nОт ДОЖДЕЙ полно пузырей (н). (это) rain\nДОЖДЬ идёт, а мы - на Рейн. (это) rain\n***\nПоезду \"train\"\nне страшен дождь \"rain\"."
-        ],
-        "examples": [
-            "Let it rain!",
-            "It is raining.",
-            "It is sure to rain.",
-            "It feels like rain.",
-            "The rain ceased.",
-            "The rain set in.",
-            "\"Will it rain tomorrow?\" \"Most likely.\"",
-            "Then fell thick rain.",
-            "A red sky means rain.",
-            "The rain is on again.",
-            "It's starting to rain.",
-            "I suspect it will rain.",
-            "The rain is slackening.",
-            "It looks like rain(ing).",
-            "It is spotting with rain.",
-            "I imagine it will rain.",
-            "Heavy rain held us back.",
-            "Indeed, the rain may still come.",
-            "Rain fell from the sky.",
-            "Dark clouds promise rain.",
-            "It's going to rain later.",
-            "We've had a week of rain.",
-            "It was teeming with rain.",
-            "The clouds threaten rain.",
-            "Wait for the rain to pass.",
-            "Gradually the rain ceased.",
-            "There is a threat of rain.",
-            "Banked clouds promised rain.",
-            "They huddled outside in the rain.",
-            "Bring your rain gear."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Пусть будет дождь!",
-            "Идёт дождь.",
-            "Наверняка пойдёт дождь.",
-            "Вероятно, будет дождь.",
-            "Дождь прекратился.",
-            "Установилась дождливая погода",
-            "— Будет ли завтра дождь? — Вероятнее всего.",
-            "Потом пошел сильный (сплошной стеной) дождь.",
-            "Красное небо — к дождю.",
-            "Опять идёт дождь.",
-            "Начинается дождь.",
-            "Подозреваю /полагаю/, что будет дождь.",
-            "Дождь стихает.",
-            "Похоже, что будет дождь.",
-            "Идёт мелкий дождь.",
-            "Думаю, пойдёт дождь.",
-            "Нас задержал сильный дождь.",
-            "На самом деле, дождь ещё может пойти.",
-            "Дождь падал с неба.",
-            "Тёмные тучи предвещают дождь.",
-            "Позже пойдёт дождь.",
-            "У нас неделю лил дождь.",
-            "Шёл проливной дождь.",
-            "Тучи предвещают дождь.",
-            "Подожди, пока пройдёт дождь.",
-            "Постепенно дождь прекратился.",
-            "Есть угроза дождя.",
-            "Кучевые облака обещали дождь.",
-            "Они съёжились на улице под дождём.",
-            "Возьмите с собой дождевик."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "rain": {
+    "comment": [
+      "strain",
+      "grain",
+      "brain",
+      "restrain",
+      "restraint",
+      "drain",
+      "rainforest",
+      "reign"
+    ],
+    "translate": "дождь, град, поток, потоки, дождевой, литься, лить, сыпаться",
+    "transcription": " |reɪn|",
+    "antonyms": [],
+    "mnemonic": [
+      "rain [рейн] дождь - На реке (Рейн) дождь идет.",
+      "grain [greɪn] - зерно, злаки, песчинка., раздроблять\nrain [reɪn]\n***\nПосле дождя \"rain\",\nпочву высуши \"drain\",\nи сажай по зёрнышку \"grain\".",
+      "rain [rein]\ntrain [treɪn] - поезд., тренироваться\n***\nОт ДОЖДЕЙ полно пузырей (н). (это) rain\nДОЖДЬ идёт, а мы - на Рейн. (это) rain\n***\nПоезду \"train\"\nне страшен дождь \"rain\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Let it rain!",
+        "ru": "Пусть будет дождь!",
+        "learn": 0
+      },
+      {
+        "eng": "It is raining.",
+        "ru": "Идёт дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "It is sure to rain.",
+        "ru": "Наверняка пойдёт дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "It feels like rain.",
+        "ru": "Вероятно, будет дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "The rain ceased.",
+        "ru": "Дождь прекратился.",
+        "learn": 0
+      },
+      {
+        "eng": "The rain set in.",
+        "ru": "Установилась дождливая погода",
+        "learn": 0
+      },
+      {
+        "eng": "\"Will it rain tomorrow?\" \"Most likely.\"",
+        "ru": "— Будет ли завтра дождь? — Вероятнее всего.",
+        "learn": 0
+      },
+      {
+        "eng": "Then fell thick rain.",
+        "ru": "Потом пошел сильный (сплошной стеной) дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "A red sky means rain.",
+        "ru": "Красное небо — к дождю.",
+        "learn": 0
+      },
+      {
+        "eng": "The rain is on again.",
+        "ru": "Опять идёт дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "It's starting to rain.",
+        "ru": "Начинается дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "I suspect it will rain.",
+        "ru": "Подозреваю /полагаю/, что будет дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "The rain is slackening.",
+        "ru": "Дождь стихает.",
+        "learn": 0
+      },
+      {
+        "eng": "It looks like rain(ing).",
+        "ru": "Похоже, что будет дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "It is spotting with rain.",
+        "ru": "Идёт мелкий дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "I imagine it will rain.",
+        "ru": "Думаю, пойдёт дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "Heavy rain held us back.",
+        "ru": "Нас задержал сильный дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "Indeed, the rain may still come.",
+        "ru": "На самом деле, дождь ещё может пойти.",
+        "learn": 1
+      },
+      {
+        "eng": "Rain fell from the sky.",
+        "ru": "Дождь падал с неба.",
+        "learn": 0
+      },
+      {
+        "eng": "Dark clouds promise rain.",
+        "ru": "Тёмные тучи предвещают дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "It's going to rain later.",
+        "ru": "Позже пойдёт дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "We've had a week of rain.",
+        "ru": "У нас неделю лил дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "It was teeming with rain.",
+        "ru": "Шёл проливной дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "The clouds threaten rain.",
+        "ru": "Тучи предвещают дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "Wait for the rain to pass.",
+        "ru": "Подожди, пока пройдёт дождь.",
+        "learn": 1
+      },
+      {
+        "eng": "Gradually the rain ceased.",
+        "ru": "Постепенно дождь прекратился.",
+        "learn": 1
+      },
+      {
+        "eng": "There is a threat of rain.",
+        "ru": "Есть угроза дождя.",
+        "learn": 0
+      },
+      {
+        "eng": "Banked clouds promised rain.",
+        "ru": "Кучевые облака обещали дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "They huddled outside in the rain.",
+        "ru": "Они съёжились на улице под дождём.",
+        "learn": 0
+      },
+      {
+        "eng": "Bring your rain gear.",
+        "ru": "Возьмите с собой дождевик.",
+        "learn": 0
+      }
+    ]
+  }
 }

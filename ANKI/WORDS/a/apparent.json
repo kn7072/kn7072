@@ -1,80 +1,158 @@
 {
-    "apparent": {
-        "comment": [
-            "parent",
-            "parental",
-            "apparently"
-        ],
-        "translate": " очевидный, видимый, кажущийся, явный, несомненный, бесспорный",
-        "transcription": "  |əˈpærənt|",
-        "antonyms": [],
-        "mnemonic": [
-            "apparent [ə'pærənt]\nparent ['pærənt] - родитель\n***\nЯВНЫЙ факт - не парень|ты. (это) apparent\nПО- ВИДИМОМУ, не парень|ты. (это) apparent"
-        ],
-        "examples": [
-            "He left suddenly, for no apparent reason.",
-            "The difference in quality was immediately apparent.",
-            "It soon became apparent that we had a major problem.",
-            "His symptoms had no apparent physical causes.",
-            "The fallacy of their ideas about medicine soon became apparent.",
-            "It was immediately and indubitably apparent that I had interrupted a scene of lovers.",
-            "The great apparent discrepancy between the two Chroniclers is merely evident.",
-            "It was apparent to everyone that he was seriously ill.",
-            "He started yelling and throwing things for no apparent reason.",
-            "What was the apparent cause of the accident?",
-            "This did not explain his apparent loss of interest in his wife.",
-            "We could see through her apparent calm.",
-            "He was annoyed by her apparent indifference.",
-            "his apparent indifference to material luxuries",
-            "The novel's intricate ordonnance might not be apparent to the casual reader.",
-            "The irony of the situation was apparent to everyone.",
-            "The folly of such an action should be apparent to everyone.",
-            "It is apparent from scientific studies that the drug has some fairly nasty side effects.",
-            "He did well in his exams, despite his apparent lack of interest in his work.",
-            "apparent contradictions in the defendant's testimony",
-            "Britain's apparent lack of enthusiasm for such a scheme",
-            "The committee investigated some apparent discrepancies.",
-            "For all his apparent wealth he had no money to pay the rent.",
-            "Does their apparent lack of progress mean they are not doing their job properly?",
-            "Never has the ephemerality of fame been more apparent than in today's pop culture.",
-            "Her apparent dominance of her husband was really her attempt to make him pay attention to her.",
-            "The collection is a gallimaufry of poems, essays, and short stories that have no apparent unifying theme."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он ушел внезапно, без какой-либо видимой причины.",
-            "Разница в качестве сразу бросилась в глаза.",
-            "Вскоре стало ясно, что у нас большая проблема.",
-            "У его симптомов не было явных физических причин.",
-            "Ошибочность их представлений о медицине вскоре стала очевидной.",
-            "Сразу стало совершенно очевидно что я прервала любовную сцену.",
-            "Вопиющее несоответствие между тем, что говорят эти два летописца, просто очевидно.",
-            "Всем было ясно, что он серьёзно болен.",
-            "Он начал кричать и швыряться вещами, ни с того ни с сего.",
-            "Что было видимой причиной аварии?",
-            "Это не объясняло явную потерю его интереса к жене.",
-            "Её видимое спокойствие нас не обмануло.",
-            "Его раздражало её напускное безразличие.",
-            "его видимое безразличие к материальным излишествам",
-            "Замысловатая структура этого романа может быть неочевидной для случайного читателя.",
-            "Трагикомичность такой ситуации была очевидна всем.",
-            "Глупость такого поступка должна быть очевидной для всех.",
-            "Научные исследования ясно показывают, что данный препарат имеет несколько довольно неприятных побочных эффектов.",
-            "Он хорошо сдал экзамены, несмотря на видимое отсутствие интереса к работе.",
-            "очевидные противоречия в показаниях ответчика",
-            "явное отсутствие восторга от такого плана со стороны Великобритании",
-            "Комиссия провела расследования некоторых явных несоответствий.",
-            "При всём своём видимом богатстве, у него не было денег, чтобы заплатить за квартиру.",
-            "Означает ли видимое отсутствие их прогресса, что они плохо выполняют свою работу?",
-            "Никогда ещё эфемерность славы не была более очевидной, чем в сегодняшней поп-культуре.",
-            "Помыкая мужем, она на самом деле пыталась таким образом заставить его обратить на неё внимание.",
-            "Сборник представляет собой мешанину из стихов, очерков и рассказов, которые не имеют очевидной объединяющей темы."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ar_+_Гл_!=_[er]",
-            "ar_+_Гл_!=_[e(r)]"
-        ]
-    }
+  "apparent": {
+    "comment": [
+      "parent",
+      "parental",
+      "apparently"
+    ],
+    "translate": " очевидный, видимый, кажущийся, явный, несомненный, бесспорный",
+    "transcription": "  |əˈpærənt|",
+    "antonyms": [],
+    "mnemonic": [
+      "apparent [ə'pærənt]\nparent ['pærənt] - родитель\n***\nЯВНЫЙ факт - не парень|ты. (это) apparent\nПО- ВИДИМОМУ, не парень|ты. (это) apparent"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ar_+_Гл_!=_[er]",
+      "ar_+_Гл_!=_[e(r)]"
+    ],
+    "examples": [
+      {
+        "eng": "He left suddenly, for no apparent reason.",
+        "ru": "Он ушел внезапно, без какой-либо видимой причины.",
+        "learn": 0
+      },
+      {
+        "eng": "The difference in quality was immediately apparent.",
+        "ru": "Разница в качестве сразу бросилась в глаза.",
+        "learn": 1
+      },
+      {
+        "eng": "It soon became apparent that we had a major problem.",
+        "ru": "Вскоре стало ясно, что у нас большая проблема.",
+        "learn": 0
+      },
+      {
+        "eng": "His symptoms had no apparent physical causes.",
+        "ru": "У его симптомов не было явных физических причин.",
+        "learn": 0
+      },
+      {
+        "eng": "The fallacy of their ideas about medicine soon became apparent.",
+        "ru": "Ошибочность их представлений о медицине вскоре стала очевидной.",
+        "learn": 0
+      },
+      {
+        "eng": "It was immediately and indubitably apparent that I had interrupted a scene of lovers.",
+        "ru": "Сразу стало совершенно очевидно что я прервала любовную сцену.",
+        "learn": 0
+      },
+      {
+        "eng": "The great apparent discrepancy between the two Chroniclers is merely evident.",
+        "ru": "Вопиющее несоответствие между тем, что говорят эти два летописца, просто очевидно.",
+        "learn": 0
+      },
+      {
+        "eng": "It was apparent to everyone that he was seriously ill.",
+        "ru": "Всем было ясно, что он серьёзно болен.",
+        "learn": 0
+      },
+      {
+        "eng": "He started yelling and throwing things for no apparent reason.",
+        "ru": "Он начал кричать и швыряться вещами, ни с того ни с сего.",
+        "learn": 0
+      },
+      {
+        "eng": "What was the apparent cause of the accident?",
+        "ru": "Что было видимой причиной аварии?",
+        "learn": 0
+      },
+      {
+        "eng": "This did not explain his apparent loss of interest in his wife.",
+        "ru": "Это не объясняло явную потерю его интереса к жене.",
+        "learn": 1
+      },
+      {
+        "eng": "We could see through her apparent calm.",
+        "ru": "Её видимое спокойствие нас не обмануло.",
+        "learn": 0
+      },
+      {
+        "eng": "He was annoyed by her apparent indifference.",
+        "ru": "Его раздражало её напускное безразличие.",
+        "learn": 1
+      },
+      {
+        "eng": "his apparent indifference to material luxuries",
+        "ru": "его видимое безразличие к материальным излишествам",
+        "learn": 0
+      },
+      {
+        "eng": "The novel's intricate ordonnance might not be apparent to the casual reader.",
+        "ru": "Замысловатая структура этого романа может быть неочевидной для случайного читателя.",
+        "learn": 0
+      },
+      {
+        "eng": "The irony of the situation was apparent to everyone.",
+        "ru": "Трагикомичность такой ситуации была очевидна всем.",
+        "learn": 1
+      },
+      {
+        "eng": "The folly of such an action should be apparent to everyone.",
+        "ru": "Глупость такого поступка должна быть очевидной для всех.",
+        "learn": 0
+      },
+      {
+        "eng": "It is apparent from scientific studies that the drug has some fairly nasty side effects.",
+        "ru": "Научные исследования ясно показывают, что данный препарат имеет несколько довольно неприятных побочных эффектов.",
+        "learn": 0
+      },
+      {
+        "eng": "He did well in his exams, despite his apparent lack of interest in his work.",
+        "ru": "Он хорошо сдал экзамены, несмотря на видимое отсутствие интереса к работе.",
+        "learn": 0
+      },
+      {
+        "eng": "apparent contradictions in the defendant's testimony",
+        "ru": "очевидные противоречия в показаниях ответчика",
+        "learn": 0
+      },
+      {
+        "eng": "Britain's apparent lack of enthusiasm for such a scheme",
+        "ru": "явное отсутствие восторга от такого плана со стороны Великобритании",
+        "learn": 0
+      },
+      {
+        "eng": "The committee investigated some apparent discrepancies.",
+        "ru": "Комиссия провела расследования некоторых явных несоответствий.",
+        "learn": 0
+      },
+      {
+        "eng": "For all his apparent wealth he had no money to pay the rent.",
+        "ru": "При всём своём видимом богатстве, у него не было денег, чтобы заплатить за квартиру.",
+        "learn": 0
+      },
+      {
+        "eng": "Does their apparent lack of progress mean they are not doing their job properly?",
+        "ru": "Означает ли видимое отсутствие их прогресса, что они плохо выполняют свою работу?",
+        "learn": 0
+      },
+      {
+        "eng": "Never has the ephemerality of fame been more apparent than in today's pop culture.",
+        "ru": "Никогда ещё эфемерность славы не была более очевидной, чем в сегодняшней поп-культуре.",
+        "learn": 0
+      },
+      {
+        "eng": "Her apparent dominance of her husband was really her attempt to make him pay attention to her.",
+        "ru": "Помыкая мужем, она на самом деле пыталась таким образом заставить его обратить на неё внимание.",
+        "learn": 1
+      },
+      {
+        "eng": "The collection is a gallimaufry of poems, essays, and short stories that have no apparent unifying theme.",
+        "ru": "Сборник представляет собой мешанину из стихов, очерков и рассказов, которые не имеют очевидной объединяющей темы.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,83 +1,169 @@
 {
-    "anger": {
-        "comment": [
-            "angry",
-            "angrily"
-        ],
-        "translate": "гнев, злость, ярость, раздражение, злить, раздражать, сердить, вызывать гнев",
-        "transcription": " |ˈæŋɡər|",
-        "antonyms": [],
-        "mnemonic": [
-            "anger [э'нга] озлобить, рассердить - Не озлобляй (б-енга-льского)тигра."
-        ],
-        "examples": [
-            "Anger flooded him.",
-            "'It's a lie!' he shouted in anger.",
-            "He angers easily",
-            "His face was filled with anger.",
-            "You could hear the anger in his voice.",
-            "He learnt to moderate his anger.",
-            "Her anger melted at his kind words.",
-            "The news angered him.",
-            "He could barely restrain his anger.",
-            "She could burst for anger.",
-            "She was burning with anger.",
-            "She struck back in anger.",
-            "grate one's teeth in anger",
-            "Their anger died.",
-            "He gave vent to his anger.",
-            "She conceals her anger well",
-            "Don't vent your anger on me.",
-            "His anger exploded.",
-            "She vented her anger",
-            "She was shaking in anger.",
-            "He choked down his anger.",
-            "Anger welled up within him.",
-            "Her eyes flashed with anger.",
-            "His voice vibrated with anger.",
-            "She choked her anger.",
-            "He was wild with anger.",
-            "She expressed her anger.",
-            "Anger smoldered in my heart.",
-            "He stamped his foot in anger.",
-            "He clenched his fists in anger."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Гнев переполнял его.",
-            "'Это ложь! - закричал он в гневе.",
-            "Он быстро выходит из себя",
-            "Его лицо было наполнено яростью.",
-            "По голосу было слышно, что он сердится.",
-            "Он научился сдерживать свой гнев.",
-            "От его ласковых слов вся её злость испарилась.",
-            "Эта новость разозлила его.",
-            "Он едва мог сдерживать свой гнев.",
-            "Она была готова взорваться от гнева.",
-            "Она кипела от ярости.",
-            "В гневе она нанесла ответный удар.",
-            "скрипеть зубами от злости",
-            "Их гнев утих.",
-            "Он дал волю своей злости.",
-            "Она хорошо скрывает свой гнев.",
-            "Не срывай свою злость на мне.",
-            "Его гнев вырвался наружу. / Он разразился гневом.",
-            "Она выпустила свой гнев.",
-            "Её трясло от злости.",
-            "Он с трудом поборол свой гнев.",
-            "В его душе закипел гнев.",
-            "Ее глаза сверкнули гневом.",
-            "Его голос дрожал от гнева.",
-            "Она подавила свой гнев.",
-            "Он был вне себя от гнева.",
-            "Она выразила свой гнев.",
-            "Гнев вспыхнул в моём сердце.",
-            "Он рассерженно топнул ногой.",
-            "Он в гневе сжал кулаки."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "anger": {
+    "comment": [
+      "angry",
+      "angrily"
+    ],
+    "translate": "гнев, злость, ярость, раздражение, злить, раздражать, сердить, вызывать гнев",
+    "transcription": " |ˈæŋɡər|",
+    "antonyms": [],
+    "mnemonic": [
+      "anger [э'нга] озлобить, рассердить - Не озлобляй (б-енга-льского)тигра."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Anger flooded him.",
+        "ru": "Гнев переполнял его.",
+        "learn": 0
+      },
+      {
+        "eng": "'It's a lie!' he shouted in anger.",
+        "ru": "'Это ложь! - закричал он в гневе.",
+        "learn": 0
+      },
+      {
+        "eng": "He angers easily",
+        "ru": "Он быстро выходит из себя",
+        "learn": 0
+      },
+      {
+        "eng": "His face was filled with anger.",
+        "ru": "Его лицо было наполнено яростью.",
+        "learn": 0
+      },
+      {
+        "eng": "You could hear the anger in his voice.",
+        "ru": "По голосу было слышно, что он сердится.",
+        "learn": 0
+      },
+      {
+        "eng": "He learnt to moderate his anger.",
+        "ru": "Он научился сдерживать свой гнев.",
+        "learn": 0
+      },
+      {
+        "eng": "Her anger melted at his kind words.",
+        "ru": "От его ласковых слов вся её злость испарилась.",
+        "learn": 0
+      },
+      {
+        "eng": "The news angered him.",
+        "ru": "Эта новость разозлила его.",
+        "learn": 0
+      },
+      {
+        "eng": "He could barely restrain his anger.",
+        "ru": "Он едва мог сдерживать свой гнев.",
+        "learn": 1
+      },
+      {
+        "eng": "She could burst for anger.",
+        "ru": "Она была готова взорваться от гнева.",
+        "learn": 1
+      },
+      {
+        "eng": "She was burning with anger.",
+        "ru": "Она кипела от ярости.",
+        "learn": 0
+      },
+      {
+        "eng": "She struck back in anger.",
+        "ru": "В гневе она нанесла ответный удар.",
+        "learn": 0
+      },
+      {
+        "eng": "grate one's teeth in anger",
+        "ru": "скрипеть зубами от злости",
+        "learn": 0
+      },
+      {
+        "eng": "Their anger died.",
+        "ru": "Их гнев утих.",
+        "learn": 0
+      },
+      {
+        "eng": "He gave vent to his anger.",
+        "ru": "Он дал волю своей злости.",
+        "learn": 0
+      },
+      {
+        "eng": "She conceals her anger well",
+        "ru": "Она хорошо скрывает свой гнев.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't vent your anger on me.",
+        "ru": "Не срывай свою злость на мне.",
+        "learn": 0
+      },
+      {
+        "eng": "His anger exploded.",
+        "ru": "Его гнев вырвался наружу. / Он разразился гневом.",
+        "learn": 0
+      },
+      {
+        "eng": "She vented her anger",
+        "ru": "Она выпустила свой гнев.",
+        "learn": 0
+      },
+      {
+        "eng": "She was shaking in anger.",
+        "ru": "Её трясло от злости.",
+        "learn": 0
+      },
+      {
+        "eng": "He choked down his anger.",
+        "ru": "Он с трудом поборол свой гнев.",
+        "learn": 0
+      },
+      {
+        "eng": "Anger welled up within him.",
+        "ru": "В его душе закипел гнев.",
+        "learn": 0
+      },
+      {
+        "eng": "Her eyes flashed with anger.",
+        "ru": "Ее глаза сверкнули гневом.",
+        "learn": 0
+      },
+      {
+        "eng": "His voice vibrated with anger.",
+        "ru": "Его голос дрожал от гнева.",
+        "learn": 0
+      },
+      {
+        "eng": "She choked her anger.",
+        "ru": "Она подавила свой гнев.",
+        "learn": 0
+      },
+      {
+        "eng": "He was wild with anger.",
+        "ru": "Он был вне себя от гнева.",
+        "learn": 0
+      },
+      {
+        "eng": "She expressed her anger.",
+        "ru": "Она выразила свой гнев.",
+        "learn": 0
+      },
+      {
+        "eng": "Anger smoldered in my heart.",
+        "ru": "Гнев вспыхнул в моём сердце.",
+        "learn": 0
+      },
+      {
+        "eng": "He stamped his foot in anger.",
+        "ru": "Он рассерженно топнул ногой.",
+        "learn": 1
+      },
+      {
+        "eng": "He clenched his fists in anger.",
+        "ru": "Он в гневе сжал кулаки.",
+        "learn": 0
+      }
+    ]
+  }
 }

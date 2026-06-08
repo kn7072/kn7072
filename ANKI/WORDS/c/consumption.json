@@ -1,57 +1,107 @@
 {
-    "consumption": {
-        "comment": [
-            "consume",
-            "consumer"
-        ],
-        "translate": "потребление, расход, расходование, чахотка, истощение, сфера потребления",
-        "transcription": " |kənˈsʌmpʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The Government wants to reduce tobacco consumption by 40%.",
-            "The food was not fit for human consumption.",
-            "The meat was declared unfit for human consumption.",
-            "Vigorous exercise increases oxygen consumption.",
-            "Ethiopia has almost the lowest oil consumption per capita in the world.",
-            "The consumption of energy has increased steadily.",
-            "The question is whether pulmonary consumption can be cured.",
-            "The consumption of alcohol on the premises is forbidden.",
-            "the health benefits of moderate wine consumption",
-            "This lavish consumption of our natural resources simply cannot continue.",
-            "A restaurant bill presumes the consumption of food.",
-            "This figure approximates to a quarter of the UK's annual consumption.",
-            "Butter sales have fallen because margarine has improved in flavor. Further, butter consumption has decreased because of links to heart disease.",
-            "The jet's high fuel consumption makes it expensive to operate.",
-            "The meat was declared unfit for human consumption (=not suitable to eat).",
-            "A vast system of production and distribution and consumption keep the country going.",
-            "There's a firm distinction between the moderate consumption of alcoholic beverages and overindulgence to the point of intoxication.",
-            "The North's share of the world's energy consumption is expected to decrease from 70% to 60%."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Правительство намерено сократить потребление табачных изделий на сорок процентов.",
-            "Пища была непригодной для употребления. / Такой едой нельзя было кормить людей.",
-            "Мясо было объявленo непригодным для потребления человеком.",
-            "Энергичные физические упражнения увеличивают потребление кислорода.",
-            "В Эфиопии практически самый низкий в мире уровень расхода нефти на душу населения.",
-            "Потребление энергии неуклонно растёт.",
-            "Вопрос в том, можно ли излечить чахотку.",
-            "Употреблять спиртные напитки на территории запрещено.",
-            "польза умеренного употребления вина",
-            "Столь расточительное потребление природных ресурсов просто не может продолжаться на том же уровне.",
-            "Счёт из ресторана предполагает потребление пищи.",
-            "Эта цифра составляет приблизительно четверть годового потребления Великобритании.",
-            "Продажи сливочного масла упали, поскольку улучшился вкус маргарина. Более того, его потребление уменьшилось в связи с заболеваниями сердца.",
-            "Из-за высокого расхода топлива этот реактивный самолёт дорог в эксплуатации.",
-            "Мясо был объявлено непригодным для употребления в пищу (т.е. неподходящим для еды).",
-            "Жизнедеятельность страны поддерживает огромная система производства, распределения и потребления.",
-            "Существует чёткое различие между умеренным потреблением спиртных напитков, и злоупотреблением ими вплоть до отравления.",
-            "Как ожидается, доля Севера в мировом энергопотреблении снизится с семидесяти до шестидесяти процентов."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "consumption": {
+    "comment": [
+      "consume",
+      "consumer"
+    ],
+    "translate": "потребление, расход, расходование, чахотка, истощение, сфера потребления",
+    "transcription": " |kənˈsʌmpʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The Government wants to reduce tobacco consumption by 40%.",
+        "ru": "Правительство намерено сократить потребление табачных изделий на сорок процентов.",
+        "learn": 0
+      },
+      {
+        "eng": "The food was not fit for human consumption.",
+        "ru": "Пища была непригодной для употребления. / Такой едой нельзя было кормить людей.",
+        "learn": 0
+      },
+      {
+        "eng": "The meat was declared unfit for human consumption.",
+        "ru": "Мясо было объявленo непригодным для потребления человеком.",
+        "learn": 1
+      },
+      {
+        "eng": "Vigorous exercise increases oxygen consumption.",
+        "ru": "Энергичные физические упражнения увеличивают потребление кислорода.",
+        "learn": 0
+      },
+      {
+        "eng": "Ethiopia has almost the lowest oil consumption per capita in the world.",
+        "ru": "В Эфиопии практически самый низкий в мире уровень расхода нефти на душу населения.",
+        "learn": 0
+      },
+      {
+        "eng": "The consumption of energy has increased steadily.",
+        "ru": "Потребление энергии неуклонно растёт.",
+        "learn": 1
+      },
+      {
+        "eng": "The question is whether pulmonary consumption can be cured.",
+        "ru": "Вопрос в том, можно ли излечить чахотку.",
+        "learn": 0
+      },
+      {
+        "eng": "The consumption of alcohol on the premises is forbidden.",
+        "ru": "Употреблять спиртные напитки на территории запрещено.",
+        "learn": 1
+      },
+      {
+        "eng": "the health benefits of moderate wine consumption",
+        "ru": "польза умеренного употребления вина",
+        "learn": 0
+      },
+      {
+        "eng": "This lavish consumption of our natural resources simply cannot continue.",
+        "ru": "Столь расточительное потребление природных ресурсов просто не может продолжаться на том же уровне.",
+        "learn": 1
+      },
+      {
+        "eng": "A restaurant bill presumes the consumption of food.",
+        "ru": "Счёт из ресторана предполагает потребление пищи.",
+        "learn": 0
+      },
+      {
+        "eng": "This figure approximates to a quarter of the UK's annual consumption.",
+        "ru": "Эта цифра составляет приблизительно четверть годового потребления Великобритании.",
+        "learn": 0
+      },
+      {
+        "eng": "Butter sales have fallen because margarine has improved in flavor. Further, butter consumption has decreased because of links to heart disease.",
+        "ru": "Продажи сливочного масла упали, поскольку улучшился вкус маргарина. Более того, его потребление уменьшилось в связи с заболеваниями сердца.",
+        "learn": 0
+      },
+      {
+        "eng": "The jet's high fuel consumption makes it expensive to operate.",
+        "ru": "Из-за высокого расхода топлива этот реактивный самолёт дорог в эксплуатации.",
+        "learn": 0
+      },
+      {
+        "eng": "The meat was declared unfit for human consumption (=not suitable to eat).",
+        "ru": "Мясо был объявлено непригодным для употребления в пищу (т.е. неподходящим для еды).",
+        "learn": 0
+      },
+      {
+        "eng": "A vast system of production and distribution and consumption keep the country going.",
+        "ru": "Жизнедеятельность страны поддерживает огромная система производства, распределения и потребления.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a firm distinction between the moderate consumption of alcoholic beverages and overindulgence to the point of intoxication.",
+        "ru": "Существует чёткое различие между умеренным потреблением спиртных напитков, и злоупотреблением ими вплоть до отравления.",
+        "learn": 0
+      },
+      {
+        "eng": "The North's share of the world's energy consumption is expected to decrease from 70% to 60%.",
+        "ru": "Как ожидается, доля Севера в мировом энергопотреблении снизится с семидесяти до шестидесяти процентов.",
+        "learn": 0
+      }
+    ]
+  }
 }

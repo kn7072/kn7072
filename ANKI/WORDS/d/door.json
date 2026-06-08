@@ -1,87 +1,174 @@
 {
-    "door": {
-        "comment": [
-            "indoor",
-            "outdoor",
-            "outdoors",
-            "indoors",
-            "doorway"
-        ],
-        "translate": "дверь, дверца, вход, путь, дом, дверной проем, дверной",
-        "transcription": " |dɔːr|",
-        "antonyms": [],
-        "mnemonic": [
-            "door [до:] дверь - (До) двери дойди."
-        ],
-        "examples": [
-            "The door opened.",
-            "He barred the door",
-            "Back from the door!",
-            "I heard a knock on the door.",
-            "The door burst open.",
-            "The door is ajar.",
-            "The door clapped to.",
-            "Who locked the door?",
-            "He stood at the door.",
-            "How wide is the door?",
-            "The door snapped to.",
-            "The door clicked shut.",
-            "Is the back door shut?",
-            "Close the door tightly.",
-            "She left the door ajar.",
-            "The door was wide open.",
-            "The door opens outward.",
-            "The door will not open.",
-            "The door will not lock.",
-            "This door goes outside.",
-            "The bear pawed the door",
-            "The door was half open.",
-            "The door creaked open.",
-            "Is the door shut tight?",
-            "The door squeaked open.",
-            "I hooked the door shut.",
-            "The door was shut tight.",
-            "She swung the door open.",
-            "He yanked the door shut.",
-            "a loud knock at the door"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Дверь открылась.",
-            "Он запер дверь.",
-            "Отойдите от двери!",
-            "Я услышала стук в дверь.",
-            "Дверь распахнулась.",
-            "Дверь приоткрыта.",
-            "Хлопнула дверь.",
-            "Кто запер дверь?",
-            "Он стоял у двери.",
-            "Какой ширины эта дверь?",
-            "Дверь захлопнулась.",
-            "Дверь защёлкнулась.",
-            "Задняя дверь заперта?",
-            "Закрой плотно дверь.",
-            "Она оставила дверь приоткрытой.",
-            "Дверь была распахнута настежь.",
-            "Дверь открывается наружу.",
-            "Эта дверь никак не открывается.",
-            "Дверь не запирается.",
-            "Эта дверь выходит наружу.",
-            "Медведь скрёб лапами по двери.",
-            "Дверь была приоткрыта.",
-            "Дверь со скрипом открылась.",
-            "Дверь хорошо /плотно/ закрыта?",
-            "Дверь скрипнула и открылась.",
-            "Я закрыл дверь на (дверной) крючок.",
-            "Дверь была плотно закрыта.",
-            "Она распахнула дверь настежь.",
-            "Он резко захлопнул дверь.",
-            "громкий стук в дверь"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "oor_=_[ɔː]"
-        ]
-    }
+  "door": {
+    "comment": [
+      "indoor",
+      "outdoor",
+      "outdoors",
+      "indoors",
+      "doorway"
+    ],
+    "translate": "дверь, дверца, вход, путь, дом, дверной проем, дверной",
+    "transcription": " |dɔːr|",
+    "antonyms": [],
+    "mnemonic": [
+      "door [до:] дверь - (До) двери дойди."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "oor_=_[ɔː]"
+    ],
+    "examples": [
+      {
+        "eng": "The door opened.",
+        "ru": "Дверь открылась.",
+        "learn": 0
+      },
+      {
+        "eng": "He barred the door",
+        "ru": "Он запер дверь.",
+        "learn": 1
+      },
+      {
+        "eng": "Back from the door!",
+        "ru": "Отойдите от двери!",
+        "learn": 0
+      },
+      {
+        "eng": "I heard a knock on the door.",
+        "ru": "Я услышала стук в дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "The door burst open.",
+        "ru": "Дверь распахнулась.",
+        "learn": 0
+      },
+      {
+        "eng": "The door is ajar.",
+        "ru": "Дверь приоткрыта.",
+        "learn": 0
+      },
+      {
+        "eng": "The door clapped to.",
+        "ru": "Хлопнула дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "Who locked the door?",
+        "ru": "Кто запер дверь?",
+        "learn": 0
+      },
+      {
+        "eng": "He stood at the door.",
+        "ru": "Он стоял у двери.",
+        "learn": 0
+      },
+      {
+        "eng": "How wide is the door?",
+        "ru": "Какой ширины эта дверь?",
+        "learn": 0
+      },
+      {
+        "eng": "The door snapped to.",
+        "ru": "Дверь захлопнулась.",
+        "learn": 0
+      },
+      {
+        "eng": "The door clicked shut.",
+        "ru": "Дверь защёлкнулась.",
+        "learn": 0
+      },
+      {
+        "eng": "Is the back door shut?",
+        "ru": "Задняя дверь заперта?",
+        "learn": 0
+      },
+      {
+        "eng": "Close the door tightly.",
+        "ru": "Закрой плотно дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "She left the door ajar.",
+        "ru": "Она оставила дверь приоткрытой.",
+        "learn": 0
+      },
+      {
+        "eng": "The door was wide open.",
+        "ru": "Дверь была распахнута настежь.",
+        "learn": 0
+      },
+      {
+        "eng": "The door opens outward.",
+        "ru": "Дверь открывается наружу.",
+        "learn": 1
+      },
+      {
+        "eng": "The door will not open.",
+        "ru": "Эта дверь никак не открывается.",
+        "learn": 0
+      },
+      {
+        "eng": "The door will not lock.",
+        "ru": "Дверь не запирается.",
+        "learn": 0
+      },
+      {
+        "eng": "This door goes outside.",
+        "ru": "Эта дверь выходит наружу.",
+        "learn": 0
+      },
+      {
+        "eng": "The bear pawed the door",
+        "ru": "Медведь скрёб лапами по двери.",
+        "learn": 1
+      },
+      {
+        "eng": "The door was half open.",
+        "ru": "Дверь была приоткрыта.",
+        "learn": 0
+      },
+      {
+        "eng": "The door creaked open.",
+        "ru": "Дверь со скрипом открылась.",
+        "learn": 0
+      },
+      {
+        "eng": "Is the door shut tight?",
+        "ru": "Дверь хорошо /плотно/ закрыта?",
+        "learn": 1
+      },
+      {
+        "eng": "The door squeaked open.",
+        "ru": "Дверь скрипнула и открылась.",
+        "learn": 0
+      },
+      {
+        "eng": "I hooked the door shut.",
+        "ru": "Я закрыл дверь на (дверной) крючок.",
+        "learn": 0
+      },
+      {
+        "eng": "The door was shut tight.",
+        "ru": "Дверь была плотно закрыта.",
+        "learn": 0
+      },
+      {
+        "eng": "She swung the door open.",
+        "ru": "Она распахнула дверь настежь.",
+        "learn": 1
+      },
+      {
+        "eng": "He yanked the door shut.",
+        "ru": "Он резко захлопнул дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "a loud knock at the door",
+        "ru": "громкий стук в дверь",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,81 +1,169 @@
 {
-    "decline": {
-        "comment": [
-            "declare",
-            "declaration"
-        ],
-        "translate": "снижение, спад, падение, упадок, уменьшение, уменьшаться, отказывать, отказываться",
-        "transcription": " |dɪˈklaɪn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Profits declined by 10%.",
-            "His health was declining.",
-            "Mary declined Jay's invitation to dinner.",
-            "I am sorry I must decline your invitation.",
-            "The day declined.",
-            "She declined to address the delegates.",
-            "The car industry is in terminal decline.",
-            "the decline of a mighty empire",
-            "The company's stock continues to decline in value.",
-            "The animal's numbers are declining rapidly.",
-            "I must regretfully decline your kind invitation.",
-            "There has been a decline in the size of families.",
-            "We saw a sharp decline in sales this month.",
-            "The court declined to review her case.",
-            "He declined to join the group on a hike.",
-            "Inflation is rampant and industry is in decline.",
-            "Spending on information technology has declined.",
-            "the decline in standards of personal morality",
-            "The government has failed to halt economic decline.",
-            "The roof declines here.",
-            "After the war, the city declined in importance.",
-            "Further economic decline set in during the 1930s.",
-            "He changed his mind and declined the company's offer.",
-            "The frightful precipitation of a railway train down a decline.",
-            "For the total year 2001, management anticipates a moderate decline in sales.",
-            "Britain's progressive decline as a world power",
-            "The economy experienced a decline of two million jobs.",
-            "It is with great regret that I must decline your offer.",
-            "She rightly anticipated a decline in the value of the stock.",
-            "There has been a precipitous decline in home sales recently."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Прибыль уменьшилась на десять процентов.",
-            "Его здоровье ухудшалось.",
-            "Мэри отклонила приглашение Джея на ужин.",
-            "К сожалению, я не могу принять ваше приглашение.",
-            "День клонился к вечеру.",
-            "Она отказалась выступить перед делегатами.",
-            "Автомобильная промышленность умирает.",
-            "упадок могущественной империи",
-            "Акции компании продолжают падать в цене.",
-            "Количество животных стремительно уменьшается.",
-            "К сожалению, я должен отклонить ваше любезное приглашение.",
-            "Наблюдается уменьшение размера семей.",
-            "В этом месяце мы увидели резкое падение продаж.",
-            "Суд отказался пересмотреть её дело.",
-            "Он отказался присоединиться к группе на экскурсию.",
-            "Инфляция свирепствует, в промышленности спад.",
-            "Расходы на информационные технологии снизились.",
-            "снижение норм личной морали",
-            "Правительству не удалось остановить экономический спад.",
-            "Здесь крыша идёт под уклон.",
-            "После войны значение города снизилось.",
-            "Дальнейший экономический спад производства наступил в тридцатых годах.",
-            "Он передумал и отказался от предложения компании.",
-            "Ужасное зрелище: поезд, спускающийся на полной скорости с холма.",
-            "Руководство предполагает умеренное снижение продаж на протяжении всего 2001 г.",
-            "постепенный упадок Великобритании в качестве мировой державы",
-            "Экономика испытала сокращение двух миллионов рабочих мест.",
-            "С огромным сожалением я должен отклонить ваше предложение.",
-            "Она справедливо ожидала падения стоимости акций.",
-            "В последнее время наблюдается стремительный спад продаж жилья."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "decline": {
+    "comment": [
+      "declare",
+      "declaration"
+    ],
+    "translate": "снижение, спад, падение, упадок, уменьшение, уменьшаться, отказывать, отказываться",
+    "transcription": " |dɪˈklaɪn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "infinitive_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Profits declined by 10%.",
+        "ru": "Прибыль уменьшилась на десять процентов.",
+        "learn": 0
+      },
+      {
+        "eng": "His health was declining.",
+        "ru": "Его здоровье ухудшалось.",
+        "learn": 0
+      },
+      {
+        "eng": "Mary declined Jay's invitation to dinner.",
+        "ru": "Мэри отклонила приглашение Джея на ужин.",
+        "learn": 0
+      },
+      {
+        "eng": "I am sorry I must decline your invitation.",
+        "ru": "К сожалению, я не могу принять ваше приглашение.",
+        "learn": 0
+      },
+      {
+        "eng": "The day declined.",
+        "ru": "День клонился к вечеру.",
+        "learn": 0
+      },
+      {
+        "eng": "She declined to address the delegates.",
+        "ru": "Она отказалась выступить перед делегатами.",
+        "learn": 0
+      },
+      {
+        "eng": "The car industry is in terminal decline.",
+        "ru": "Автомобильная промышленность умирает.",
+        "learn": 1
+      },
+      {
+        "eng": "the decline of a mighty empire",
+        "ru": "упадок могущественной империи",
+        "learn": 0
+      },
+      {
+        "eng": "The company's stock continues to decline in value.",
+        "ru": "Акции компании продолжают падать в цене.",
+        "learn": 0
+      },
+      {
+        "eng": "The animal's numbers are declining rapidly.",
+        "ru": "Количество животных стремительно уменьшается.",
+        "learn": 0
+      },
+      {
+        "eng": "I must regretfully decline your kind invitation.",
+        "ru": "К сожалению, я должен отклонить ваше любезное приглашение.",
+        "learn": 0
+      },
+      {
+        "eng": "There has been a decline in the size of families.",
+        "ru": "Наблюдается уменьшение размера семей.",
+        "learn": 0
+      },
+      {
+        "eng": "We saw a sharp decline in sales this month.",
+        "ru": "В этом месяце мы увидели резкое падение продаж.",
+        "learn": 0
+      },
+      {
+        "eng": "The court declined to review her case.",
+        "ru": "Суд отказался пересмотреть её дело.",
+        "learn": 1
+      },
+      {
+        "eng": "He declined to join the group on a hike.",
+        "ru": "Он отказался присоединиться к группе на экскурсию.",
+        "learn": 0
+      },
+      {
+        "eng": "Inflation is rampant and industry is in decline.",
+        "ru": "Инфляция свирепствует, в промышленности спад.",
+        "learn": 0
+      },
+      {
+        "eng": "Spending on information technology has declined.",
+        "ru": "Расходы на информационные технологии снизились.",
+        "learn": 1
+      },
+      {
+        "eng": "the decline in standards of personal morality",
+        "ru": "снижение норм личной морали",
+        "learn": 0
+      },
+      {
+        "eng": "The government has failed to halt economic decline.",
+        "ru": "Правительству не удалось остановить экономический спад.",
+        "learn": 1
+      },
+      {
+        "eng": "The roof declines here.",
+        "ru": "Здесь крыша идёт под уклон.",
+        "learn": 0
+      },
+      {
+        "eng": "After the war, the city declined in importance.",
+        "ru": "После войны значение города снизилось.",
+        "learn": 0
+      },
+      {
+        "eng": "Further economic decline set in during the 1930s.",
+        "ru": "Дальнейший экономический спад производства наступил в тридцатых годах.",
+        "learn": 0
+      },
+      {
+        "eng": "He changed his mind and declined the company's offer.",
+        "ru": "Он передумал и отказался от предложения компании.",
+        "learn": 0
+      },
+      {
+        "eng": "The frightful precipitation of a railway train down a decline.",
+        "ru": "Ужасное зрелище: поезд, спускающийся на полной скорости с холма.",
+        "learn": 0
+      },
+      {
+        "eng": "For the total year 2001, management anticipates a moderate decline in sales.",
+        "ru": "Руководство предполагает умеренное снижение продаж на протяжении всего 2001 г.",
+        "learn": 0
+      },
+      {
+        "eng": "Britain's progressive decline as a world power",
+        "ru": "постепенный упадок Великобритании в качестве мировой державы",
+        "learn": 1
+      },
+      {
+        "eng": "The economy experienced a decline of two million jobs.",
+        "ru": "Экономика испытала сокращение двух миллионов рабочих мест.",
+        "learn": 0
+      },
+      {
+        "eng": "It is with great regret that I must decline your offer.",
+        "ru": "С огромным сожалением я должен отклонить ваше предложение.",
+        "learn": 0
+      },
+      {
+        "eng": "She rightly anticipated a decline in the value of the stock.",
+        "ru": "Она справедливо ожидала падения стоимости акций.",
+        "learn": 1
+      },
+      {
+        "eng": "There has been a precipitous decline in home sales recently.",
+        "ru": "В последнее время наблюдается стремительный спад продаж жилья.",
+        "learn": 0
+      }
+    ]
+  }
 }

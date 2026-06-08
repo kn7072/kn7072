@@ -1,90 +1,176 @@
 {
-    "factory": {
-        "comment": [
-            "factor",
-            "satisfaction",
-            "satisfactory",
-            "fact",
-            "manufacturing",
-            "manufacture",
-            "manufacturer",
-            "factual",
-            "artefact"
-        ],
-        "translate": "завод, фабрика, фактория, заводской, фабричный",
-        "transcription": " |ˈfæktri|",
-        "antonyms": [],
-        "mnemonic": [
-            "factory [фэ'ктори] фабрика, завод - Из (ману-фактуры) фабрики появились."
-        ],
-        "examples": [
-            "It was he who got the factory working.",
-            "The factory pollutes the air and water.",
-            "He lost his job when they shut the factory.",
-            "The factory employs over 2000 people.",
-            "This factory rolls out 200 boxes every day.",
-            "The factory has been retooled.",
-            "He spent all his working life in a factory.",
-            "She got a job in the factory.",
-            "The factory went down during the strike.",
-            "Wood-carvings are a speciality of this factory.",
-            "The union is picketing the factory.",
-            "a gaunt factory on the edge of town",
-            "The factory is under new management.",
-            "The factory ceased operations last year.",
-            "The whole factory stank of decaying fish.",
-            "The pilot managed to pinpoint the factory.",
-            "The factory's production has been cut back.",
-            "The factory had been driven into bankruptcy.",
-            "The factory poisoned the air with its fumes.",
-            "The factory may shut down if supplies cease.",
-            "The factory has had to slow down production.",
-            "The factory was operating at peak efficiency.",
-            "Production at the factory is being scaled up.",
-            "He works in a factory that makes jet engines.",
-            "The workers in this factory clock off at 5.00.",
-            "The work was outsourced to a factory in China.",
-            "The new factory will create thousands of jobs.",
-            "the preponderantly female staff at the factory",
-            "We have reluctantly decided to close the factory.",
-            "The government forced the closure of the factory."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Именно благодаря ему завод начал работать.",
-            "Завод загрязняет воздух и воду.",
-            "Он потерял работу, когда они закрыли фабрику.",
-            "На заводе работает более двух тысяч человек.",
-            "Эта фабрика выпускает 200 коробок в день.",
-            "Фабрика была переоборудована.",
-            "Он провел всю свою трудовую жизнь на заводе.",
-            "Она получила работу на заводе.",
-            "Во время забастовки завод встал.",
-            "Этот завод специализируется на резьбе по дереву.",
-            "Профсоюз пикетирует фабрику.",
-            "заброшенный завод на окраине города",
-            "На заводе — новое руководство.",
-            "В прошлом году завод прекратил свою деятельность.",
-            "По всему заводу распространился запах тухлой рыбы.",
-            "Лётчику удалось нанести точный удар по заводу.",
-            "Завод сократил количество выпускаемой продукции.",
-            "К тому времени завод довели до банкротства.",
-            "Фабрика отравила воздух своими выхлопами.",
-            "Завод может остановиться, если прекратятся поставки.",
-            "Предприятию пришлось снизить темпы производства.",
-            "Завод работал с максимальной эффективностью.",
-            "В данный момент производство на заводе расширяется.",
-            "Он работает на заводе, который производит реактивные двигатели.",
-            "Рабочий день на этой фабрике кончается в пять часов.",
-            "Работа была передана заводу в Китае.",
-            "Новый завод позволит создать тысячи рабочих мест.",
-            "в основном женский персонал данного завода",
-            "Мы вынужденно приняли решение закрыть завод.",
-            "Правительство форсировало закрытие этого завода."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "factory": {
+    "comment": [
+      "factor",
+      "satisfaction",
+      "satisfactory",
+      "fact",
+      "manufacturing",
+      "manufacture",
+      "manufacturer",
+      "factual",
+      "artefact"
+    ],
+    "translate": "завод, фабрика, фактория, заводской, фабричный",
+    "transcription": " |ˈfæktri|",
+    "antonyms": [],
+    "mnemonic": [
+      "factory [фэ'ктори] фабрика, завод - Из (ману-фактуры) фабрики появились."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "It was he who got the factory working.",
+        "ru": "Именно благодаря ему завод начал работать.",
+        "learn": 0
+      },
+      {
+        "eng": "The factory pollutes the air and water.",
+        "ru": "Завод загрязняет воздух и воду.",
+        "learn": 0
+      },
+      {
+        "eng": "He lost his job when they shut the factory.",
+        "ru": "Он потерял работу, когда они закрыли фабрику.",
+        "learn": 0
+      },
+      {
+        "eng": "The factory employs over 2000 people.",
+        "ru": "На заводе работает более двух тысяч человек.",
+        "learn": 0
+      },
+      {
+        "eng": "This factory rolls out 200 boxes every day.",
+        "ru": "Эта фабрика выпускает 200 коробок в день.",
+        "learn": 0
+      },
+      {
+        "eng": "The factory has been retooled.",
+        "ru": "Фабрика была переоборудована.",
+        "learn": 0
+      },
+      {
+        "eng": "He spent all his working life in a factory.",
+        "ru": "Он провел всю свою трудовую жизнь на заводе.",
+        "learn": 0
+      },
+      {
+        "eng": "She got a job in the factory.",
+        "ru": "Она получила работу на заводе.",
+        "learn": 0
+      },
+      {
+        "eng": "The factory went down during the strike.",
+        "ru": "Во время забастовки завод встал.",
+        "learn": 0
+      },
+      {
+        "eng": "Wood-carvings are a speciality of this factory.",
+        "ru": "Этот завод специализируется на резьбе по дереву.",
+        "learn": 0
+      },
+      {
+        "eng": "The union is picketing the factory.",
+        "ru": "Профсоюз пикетирует фабрику.",
+        "learn": 0
+      },
+      {
+        "eng": "a gaunt factory on the edge of town",
+        "ru": "заброшенный завод на окраине города",
+        "learn": 0
+      },
+      {
+        "eng": "The factory is under new management.",
+        "ru": "На заводе — новое руководство.",
+        "learn": 0
+      },
+      {
+        "eng": "The factory ceased operations last year.",
+        "ru": "В прошлом году завод прекратил свою деятельность.",
+        "learn": 0
+      },
+      {
+        "eng": "The whole factory stank of decaying fish.",
+        "ru": "По всему заводу распространился запах тухлой рыбы.",
+        "learn": 0
+      },
+      {
+        "eng": "The pilot managed to pinpoint the factory.",
+        "ru": "Лётчику удалось нанести точный удар по заводу.",
+        "learn": 0
+      },
+      {
+        "eng": "The factory's production has been cut back.",
+        "ru": "Завод сократил количество выпускаемой продукции.",
+        "learn": 0
+      },
+      {
+        "eng": "The factory had been driven into bankruptcy.",
+        "ru": "К тому времени завод довели до банкротства.",
+        "learn": 1
+      },
+      {
+        "eng": "The factory poisoned the air with its fumes.",
+        "ru": "Фабрика отравила воздух своими выхлопами.",
+        "learn": 1
+      },
+      {
+        "eng": "The factory may shut down if supplies cease.",
+        "ru": "Завод может остановиться, если прекратятся поставки.",
+        "learn": 0
+      },
+      {
+        "eng": "The factory has had to slow down production.",
+        "ru": "Предприятию пришлось снизить темпы производства.",
+        "learn": 0
+      },
+      {
+        "eng": "The factory was operating at peak efficiency.",
+        "ru": "Завод работал с максимальной эффективностью.",
+        "learn": 1
+      },
+      {
+        "eng": "Production at the factory is being scaled up.",
+        "ru": "В данный момент производство на заводе расширяется.",
+        "learn": 0
+      },
+      {
+        "eng": "He works in a factory that makes jet engines.",
+        "ru": "Он работает на заводе, который производит реактивные двигатели.",
+        "learn": 0
+      },
+      {
+        "eng": "The workers in this factory clock off at 5.00.",
+        "ru": "Рабочий день на этой фабрике кончается в пять часов.",
+        "learn": 0
+      },
+      {
+        "eng": "The work was outsourced to a factory in China.",
+        "ru": "Работа была передана заводу в Китае.",
+        "learn": 0
+      },
+      {
+        "eng": "The new factory will create thousands of jobs.",
+        "ru": "Новый завод позволит создать тысячи рабочих мест.",
+        "learn": 1
+      },
+      {
+        "eng": "the preponderantly female staff at the factory",
+        "ru": "в основном женский персонал данного завода",
+        "learn": 0
+      },
+      {
+        "eng": "We have reluctantly decided to close the factory.",
+        "ru": "Мы вынужденно приняли решение закрыть завод.",
+        "learn": 0
+      },
+      {
+        "eng": "The government forced the closure of the factory.",
+        "ru": "Правительство форсировало закрытие этого завода.",
+        "learn": 0
+      }
+    ]
+  }
 }

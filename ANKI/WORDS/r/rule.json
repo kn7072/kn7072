@@ -1,83 +1,169 @@
 {
-    "rule": {
-        "comment": [
-            "ruler"
-        ],
-        "translate": "правило, правление, власть, норма, править, управлять, господствовать",
-        "transcription": " |ruːl|",
-        "antonyms": [],
-        "mnemonic": [
-            "rule [рул] правило - Не зная правил за (рул-ь) не садись.",
-            "rule [ru: l]\n***\nПРАВИТЬ, значит, крутить руль. (это) ruin\nПравило, норма."
-        ],
-        "examples": [
-            "It is a rule with them.",
-            "This rule applies to all.",
-            "Queen Victoria ruled England for 64 years.",
-            "Unfortunately there is an exception to every rule.",
-            "He is ruled by his passions.",
-            "Alexander the Great ruled over a huge empire.",
-            "The judge ruled that she should have custody of the children.",
-            "This rule does not always apply.",
-            "The rules of the game are quite simple.",
-            "I apply this rule to get good results.",
-            "Is it against the rules to talk?",
-            "My cardinal rule is to always be honest.",
-            "The rule does not apply to this case.",
-            "If you break the rules, you'll be asked to leave.",
-            "African tribal societies were traditionally ruled by a council of elders.",
-            "Rule a line under each answer.",
-            "He ruled his appetites firmly.",
-            "the arbitrary rule of a dictator",
-            "It was his rule to take a walk before breakfast.",
-            "There are two basic rules of survival.",
-            "The whole process was ruled by my wife.",
-            "The physical did not rule in her nature.",
-            "He knew the rules of chess.",
-            "The queen ruled for 25 years.",
-            "Killing animals never was my rule.",
-            "I hate paperwork as a general rule.",
-            "Fair weather was the rule yesterday.",
-            "Rule off each exercise as you finish it.",
-            "It's our rule not to smoke at staff conferences.",
-            "I'm afraid that the judge might rule against you."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "У них так заведено.",
-            "Это правило относится ко всем.",
-            "Королева Виктория правила Англией шестьдесят четыре года.",
-            "К сожалению, для каждого правила существует исключение.",
-            "Он подвержен страстям.",
-            "Александр Великий правил огромной империей.",
-            "Судья постановил, что право опеки над детьми следует отдать ей.",
-            "Это правило не всегда применимо.",
-            "Правила этой игры довольно просты.",
-            "Я применяю это правило, чтобы получить хорошие результаты.",
-            "Разговаривать не запрещено?",
-            "Моё главное правило — всегда будь честным.",
-            "Это правило неприменимо к данному случаю.",
-            "Если нарушить правила, вас попросят уйти.",
-            "Африканские племенные общества традиционно управлялись советом старейшин.",
-            "Подведите черту под каждым ответом.",
-            "Он сурово сдерживал свои желания.",
-            "произвол диктатора",
-            "У него было правило: перед завтраком нужно прогуляться.",
-            "Есть два основных правила выживания.",
-            "Всем процессом управляла моя жена.",
-            "Материальное не доминировало в ее натуре.",
-            "Он знал правила шахмат.",
-            "Королева правила двадцать пять лет.",
-            "Я старался не убивать животных.",
-            "Как правило, я терпеть не могу бумажную работу.",
-            "Вчера целый день была ясная погода.",
-            "Отделяй чертой каждое сделанное упражнение.",
-            "У нас не принято курить на встречах персонала.",
-            "Боюсь, судья будет настроен против тебя."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "rule": {
+    "comment": [
+      "ruler"
+    ],
+    "translate": "правило, правление, власть, норма, править, управлять, господствовать",
+    "transcription": " |ruːl|",
+    "antonyms": [],
+    "mnemonic": [
+      "rule [рул] правило - Не зная правил за (рул-ь) не садись.",
+      "rule [ru: l]\n***\nПРАВИТЬ, значит, крутить руль. (это) ruin\nПравило, норма."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "It is a rule with them.",
+        "ru": "У них так заведено.",
+        "learn": 0
+      },
+      {
+        "eng": "This rule applies to all.",
+        "ru": "Это правило относится ко всем.",
+        "learn": 0
+      },
+      {
+        "eng": "Queen Victoria ruled England for 64 years.",
+        "ru": "Королева Виктория правила Англией шестьдесят четыре года.",
+        "learn": 0
+      },
+      {
+        "eng": "Unfortunately there is an exception to every rule.",
+        "ru": "К сожалению, для каждого правила существует исключение.",
+        "learn": 1
+      },
+      {
+        "eng": "He is ruled by his passions.",
+        "ru": "Он подвержен страстям.",
+        "learn": 0
+      },
+      {
+        "eng": "Alexander the Great ruled over a huge empire.",
+        "ru": "Александр Великий правил огромной империей.",
+        "learn": 0
+      },
+      {
+        "eng": "The judge ruled that she should have custody of the children.",
+        "ru": "Судья постановил, что право опеки над детьми следует отдать ей.",
+        "learn": 0
+      },
+      {
+        "eng": "This rule does not always apply.",
+        "ru": "Это правило не всегда применимо.",
+        "learn": 0
+      },
+      {
+        "eng": "The rules of the game are quite simple.",
+        "ru": "Правила этой игры довольно просты.",
+        "learn": 0
+      },
+      {
+        "eng": "I apply this rule to get good results.",
+        "ru": "Я применяю это правило, чтобы получить хорошие результаты.",
+        "learn": 1
+      },
+      {
+        "eng": "Is it against the rules to talk?",
+        "ru": "Разговаривать не запрещено?",
+        "learn": 0
+      },
+      {
+        "eng": "My cardinal rule is to always be honest.",
+        "ru": "Моё главное правило — всегда будь честным.",
+        "learn": 0
+      },
+      {
+        "eng": "The rule does not apply to this case.",
+        "ru": "Это правило неприменимо к данному случаю.",
+        "learn": 0
+      },
+      {
+        "eng": "If you break the rules, you'll be asked to leave.",
+        "ru": "Если нарушить правила, вас попросят уйти.",
+        "learn": 0
+      },
+      {
+        "eng": "African tribal societies were traditionally ruled by a council of elders.",
+        "ru": "Африканские племенные общества традиционно управлялись советом старейшин.",
+        "learn": 0
+      },
+      {
+        "eng": "Rule a line under each answer.",
+        "ru": "Подведите черту под каждым ответом.",
+        "learn": 0
+      },
+      {
+        "eng": "He ruled his appetites firmly.",
+        "ru": "Он сурово сдерживал свои желания.",
+        "learn": 0
+      },
+      {
+        "eng": "the arbitrary rule of a dictator",
+        "ru": "произвол диктатора",
+        "learn": 0
+      },
+      {
+        "eng": "It was his rule to take a walk before breakfast.",
+        "ru": "У него было правило: перед завтраком нужно прогуляться.",
+        "learn": 0
+      },
+      {
+        "eng": "There are two basic rules of survival.",
+        "ru": "Есть два основных правила выживания.",
+        "learn": 1
+      },
+      {
+        "eng": "The whole process was ruled by my wife.",
+        "ru": "Всем процессом управляла моя жена.",
+        "learn": 0
+      },
+      {
+        "eng": "The physical did not rule in her nature.",
+        "ru": "Материальное не доминировало в ее натуре.",
+        "learn": 0
+      },
+      {
+        "eng": "He knew the rules of chess.",
+        "ru": "Он знал правила шахмат.",
+        "learn": 0
+      },
+      {
+        "eng": "The queen ruled for 25 years.",
+        "ru": "Королева правила двадцать пять лет.",
+        "learn": 0
+      },
+      {
+        "eng": "Killing animals never was my rule.",
+        "ru": "Я старался не убивать животных.",
+        "learn": 0
+      },
+      {
+        "eng": "I hate paperwork as a general rule.",
+        "ru": "Как правило, я терпеть не могу бумажную работу.",
+        "learn": 1
+      },
+      {
+        "eng": "Fair weather was the rule yesterday.",
+        "ru": "Вчера целый день была ясная погода.",
+        "learn": 0
+      },
+      {
+        "eng": "Rule off each exercise as you finish it.",
+        "ru": "Отделяй чертой каждое сделанное упражнение.",
+        "learn": 0
+      },
+      {
+        "eng": "It's our rule not to smoke at staff conferences.",
+        "ru": "У нас не принято курить на встречах персонала.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid that the judge might rule against you.",
+        "ru": "Боюсь, судья будет настроен против тебя.",
+        "learn": 0
+      }
+    ]
+  }
 }

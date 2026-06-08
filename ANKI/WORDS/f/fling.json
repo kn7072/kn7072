@@ -1,83 +1,172 @@
 {
-    "fling": {
-        "comment": [
-            "flick"
-        ],
-        "translate": "бросать, бросаться, швырять, швыряться, бросок, бурная жизнь, швыряние, бросание",
-        "transcription": " |flɪŋ|",
-        "antonyms": [],
-        "mnemonic": [
-            "fling [флинг] швырять, кидаться - (В лингафонном) кабинете студенты швырялись друг в друга чем-то.",
-            "fling [flıŋ]\ncling [klɪŋ] - вцепиться, цепляться\n***\nБРОСИЛСЯ на нас павлин. (это) fling\nБросание, швыряние.\n***\nЯ собаке кость бросил \"fling\",\nона в неё вцепилась \"cling\"."
-        ],
-        "examples": [
-            "He flung the books aside angrily.",
-            "Why did you fling in your job?",
-            "The horse flung his rider off.",
-            "He flung himself down on the bed.",
-            "If it doesn't work, just fling it out.",
-            "Don't fling away your education by leaving now.",
-            "I can fling off a poem in half an hour.",
-            "She had a fling with her boss.",
-            "They flung their hats into the air.",
-            "You shouldn't fling away a chance like that.",
-            "The flowers fling their fragrance around.",
-            "She flung the door open and stormed into the room.",
-            "He flung his arms around her.",
-            "You shouldn't fling up a chance like that.",
-            "I flung back my head and laughed.",
-            "Your remarks have flung her into a temper.",
-            "The criminal was flung into prison as soon as he was found guilty.",
-            "His own words were flung back at him.",
-            "His speech flung the meeting into confusion.",
-            "There was no need to fling in that rude remark.",
-            "They had time for one last fling before going back to school.",
-            "She sat silently, flinging the odd word into the conversation from time to time.",
-            "Don't fling your arms and legs about like that, make the proper swimming strokes.",
-            "I hope you won't fling away this money that you've won.",
-            "I wasn't able to fling a word into the argument the whole time.",
-            "Before you fling off a remark like that, think what you're frying.",
-            "The young tennis player will never be able to fling off the experienced competitors.",
-            "Maidens and youths fling their wild arms in air.",
-            "She had flung all her energies into the rebellion.",
-            "There are huge beeches that fling their cool shade over the grass."
-        ],
-        "example_translate": [
-            "В гневе он швырнул книги в сторону.",
-            "Почему ты бросил работу?",
-            "Лошадь сбросила седока.",
-            "Он бросился на кровать.",
-            "Если эта штуковина не работает, просто выбрось её.",
-            "Не уезжай, не бросай образование.",
-            "Я за полчаса могу написать стихотворение.",
-            "У неё была короткая интрижка с начальником.",
-            "Они бросили свои шапки в воздух.",
-            "Тебе не стоит упускать такой шанс.",
-            "Цветы распространяют благоухание.",
-            "Она распахнула дверь и ворвалась в комнату.",
-            "Он крепко обнял её.",
-            "Не следует упускать такой шанс.",
-            "Я запрокинул голову назад и рассмеялся.",
-            "Ваши слова разозлили её.",
-            "Как только преступника признали виновным, его бросили в тюрьму.",
-            "Ему швырнули в лицо его же собственные слова.",
-            "Его речь привела всех в замешательство.",
-            "Незачем было вставлять это грубое замечание.",
-            "У них ещё оставалось время повеселиться в последний раз перед возвращением в школу.",
-            "Она сидела всё больше молча, время от времени вставляя в разговор редкое словечко.",
-            "Не колоти руками и ногами по воде, а греби, как полагается.",
-            "Я надеюсь, ты не пустишь на ветер выигранные тобой деньги?",
-            "За всё это время мне не удалось вставить в спор ни слова.",
-            "Прежде чем ляпнуть такое, хорошо подумайте.",
-            "Этот юный теннисист никогда не сможет победить своих опытных соперников.",
-            "Девушки и юноши энергично размахивают руками в воздухе.",
-            "Со всей своей энергией она бросилась на помощь восставшим.",
-            "Там стоят огромные буки, отбрасывающие свою прохладную тень на траву."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "fling": {
+    "comment": [
+      "flung |flʌŋ|,                                          flung |flʌŋ|",
+      "flick"
+    ],
+    "translate": "бросать, бросаться, швырять, швыряться, бросок, бурная жизнь, швыряние, бросание",
+    "transcription": " |flɪŋ|",
+    "antonyms": [],
+    "mnemonic": [
+      "fling [флинг] швырять, кидаться - (В лингафонном) кабинете студенты швырялись друг в друга чем-то.",
+      "fling [flıŋ]\ncling [klɪŋ] - вцепиться, цепляться\n***\nБРОСИЛСЯ на нас павлин. (это) fling\nБросание, швыряние.\n***\nЯ собаке кость бросил \"fling\",\nона в неё вцепилась \"cling\"."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "He flung the books aside angrily.",
+        "ru": "В гневе он швырнул книги в сторону.",
+        "learn": 1
+      },
+      {
+        "eng": "Why did you fling in your job?",
+        "ru": "Почему ты бросил работу?",
+        "learn": 1
+      },
+      {
+        "eng": "The horse flung his rider off.",
+        "ru": "Лошадь сбросила седока.",
+        "learn": 0
+      },
+      {
+        "eng": "He flung himself down on the bed.",
+        "ru": "Он бросился на кровать.",
+        "learn": 0
+      },
+      {
+        "eng": "If it doesn't work, just fling it out.",
+        "ru": "Если эта штуковина не работает, просто выбрось её.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't fling away your education by leaving now.",
+        "ru": "Не уезжай, не бросай образование.",
+        "learn": 0
+      },
+      {
+        "eng": "I can fling off a poem in half an hour.",
+        "ru": "Я за полчаса могу написать стихотворение.",
+        "learn": 0
+      },
+      {
+        "eng": "She had a fling with her boss.",
+        "ru": "У неё была короткая интрижка с начальником.",
+        "learn": 0
+      },
+      {
+        "eng": "They flung their hats into the air.",
+        "ru": "Они бросили свои шапки в воздух.",
+        "learn": 0
+      },
+      {
+        "eng": "You shouldn't fling away a chance like that.",
+        "ru": "Тебе не стоит упускать такой шанс.",
+        "learn": 0
+      },
+      {
+        "eng": "The flowers fling their fragrance around.",
+        "ru": "Цветы распространяют благоухание.",
+        "learn": 0
+      },
+      {
+        "eng": "She flung the door open and stormed into the room.",
+        "ru": "Она распахнула дверь и ворвалась в комнату.",
+        "learn": 0
+      },
+      {
+        "eng": "He flung his arms around her.",
+        "ru": "Он крепко обнял её.",
+        "learn": 0
+      },
+      {
+        "eng": "You shouldn't fling up a chance like that.",
+        "ru": "Не следует упускать такой шанс.",
+        "learn": 0
+      },
+      {
+        "eng": "I flung back my head and laughed.",
+        "ru": "Я запрокинул голову назад и рассмеялся.",
+        "learn": 0
+      },
+      {
+        "eng": "Your remarks have flung her into a temper.",
+        "ru": "Ваши слова разозлили её.",
+        "learn": 0
+      },
+      {
+        "eng": "The criminal was flung into prison as soon as he was found guilty.",
+        "ru": "Как только преступника признали виновным, его бросили в тюрьму.",
+        "learn": 0
+      },
+      {
+        "eng": "His own words were flung back at him.",
+        "ru": "Ему швырнули в лицо его же собственные слова.",
+        "learn": 0
+      },
+      {
+        "eng": "His speech flung the meeting into confusion.",
+        "ru": "Его речь привела всех в замешательство.",
+        "learn": 1
+      },
+      {
+        "eng": "There was no need to fling in that rude remark.",
+        "ru": "Незачем было вставлять это грубое замечание.",
+        "learn": 0
+      },
+      {
+        "eng": "They had time for one last fling before going back to school.",
+        "ru": "У них ещё оставалось время повеселиться в последний раз перед возвращением в школу.",
+        "learn": 0
+      },
+      {
+        "eng": "She sat silently, flinging the odd word into the conversation from time to time.",
+        "ru": "Она сидела всё больше молча, время от времени вставляя в разговор редкое словечко.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't fling your arms and legs about like that, make the proper swimming strokes.",
+        "ru": "Не колоти руками и ногами по воде, а греби, как полагается.",
+        "learn": 0
+      },
+      {
+        "eng": "I hope you won't fling away this money that you've won.",
+        "ru": "Я надеюсь, ты не пустишь на ветер выигранные тобой деньги?",
+        "learn": 1
+      },
+      {
+        "eng": "I wasn't able to fling a word into the argument the whole time.",
+        "ru": "За всё это время мне не удалось вставить в спор ни слова.",
+        "learn": 0
+      },
+      {
+        "eng": "Before you fling off a remark like that, think what you're frying.",
+        "ru": "Прежде чем ляпнуть такое, хорошо подумайте.",
+        "learn": 0
+      },
+      {
+        "eng": "The young tennis player will never be able to fling off the experienced competitors.",
+        "ru": "Этот юный теннисист никогда не сможет победить своих опытных соперников.",
+        "learn": 0
+      },
+      {
+        "eng": "Maidens and youths fling their wild arms in air.",
+        "ru": "Девушки и юноши энергично размахивают руками в воздухе.",
+        "learn": 0
+      },
+      {
+        "eng": "She had flung all her energies into the rebellion.",
+        "ru": "Со всей своей энергией она бросилась на помощь восставшим.",
+        "learn": 0
+      },
+      {
+        "eng": "There are huge beeches that fling their cool shade over the grass.",
+        "ru": "Там стоят огромные буки, отбрасывающие свою прохладную тень на траву.",
+        "learn": 0
+      }
+    ]
+  }
 }

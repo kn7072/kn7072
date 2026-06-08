@@ -1,87 +1,174 @@
 {
-    "river": {
-        "comment": [
-            "derive",
-            "driver",
-            "drive",
-            "strive",
-            "thrive"
-        ],
-        "translate": "река, поток, речной",
-        "transcription": " |ˈrɪvər|",
-        "antonyms": [],
-        "mnemonic": [
-            "river [ри'вэ] река - (Риво- люция) реки крови пролила."
-        ],
-        "examples": [
-            "The river is 2 km across.",
-            "They sailed down the river.",
-            "We went for a walk along the river.",
-            "The river floods.",
-            "The river recedes.",
-            "the winding of the river",
-            "The great river rolled on.",
-            "The river flows into the sea.",
-            "The river overflows its banks.",
-            "The River Elbe flows through the Czech Republic.",
-            "He lives high up the river.",
-            "The river is rushing forward.",
-            "The river is silted up long ago.",
-            "Seines were set in the water just before the ice \"took\" on the lake or river.",
-            "The river silted up.",
-            "The river was cobalt.",
-            "the course of a river",
-            "the widest part of the river",
-            "The river was foaming.",
-            "The road hugs the river.",
-            "a boat on a twilit river",
-            "A bridge spans the river.",
-            "The river thundered below.",
-            "The river sucked him under.",
-            "the north fork of the river",
-            "The river is very low today.",
-            "The river widens and splits.",
-            "She sculled along the river.",
-            "The river crested last night.",
-            "Their land reaches the river."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ширина реки составляет два километра.",
-            "Они поплыли вниз по реке.",
-            "Мы отправились на прогулку вдоль реки.",
-            "Река поднимается.",
-            "Вода отступает.",
-            "поворот реки",
-            "Великая река не спеша несла свои воды.",
-            "Река впадает в море.",
-            "Река выходит из берегов.",
-            "Река Эльба протекает через Чехию.",
-            "Он живёт высоко вверх по реке.",
-            "Река бежит вперёд.",
-            "Эта река уже давно засорена илом.",
-            "Перед самым замерзанием озера или реки в воду ставились сети.",
-            "Река заилилась.",
-            "Река была зеленовато-синего цвета.",
-            "течение реки",
-            "самая широкая часть реки",
-            "Река пенилась.",
-            "Дорога огибает реку.",
-            "лодка на сумеречной реке",
-            "Реку перекрывает мост. / Через реку стоит мост.",
-            "Внизу грохотала река.",
-            "Река затянула его под воду.",
-            "северное ответвление реки",
-            "Сегодня в реке очень низкий уровень воды.",
-            "Река расширяется и разделяется на два рукава.",
-            "Она поплыла по реке на вёслах.",
-            "Прошлой ночью уровень воды в реке достиг высшей точки.",
-            "Их земля доходит до реки."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "i_+_Откр_сл_=_[i(:)]"
-        ]
-    }
+  "river": {
+    "comment": [
+      "derive",
+      "driver",
+      "drive",
+      "strive",
+      "thrive"
+    ],
+    "translate": "река, поток, речной",
+    "transcription": " |ˈrɪvər|",
+    "antonyms": [],
+    "mnemonic": [
+      "river [ри'вэ] река - (Риво- люция) реки крови пролила."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "i_+_Откр_сл_=_[i(:)]"
+    ],
+    "examples": [
+      {
+        "eng": "The river is 2 km across.",
+        "ru": "Ширина реки составляет два километра.",
+        "learn": 0
+      },
+      {
+        "eng": "They sailed down the river.",
+        "ru": "Они поплыли вниз по реке.",
+        "learn": 0
+      },
+      {
+        "eng": "We went for a walk along the river.",
+        "ru": "Мы отправились на прогулку вдоль реки.",
+        "learn": 0
+      },
+      {
+        "eng": "The river floods.",
+        "ru": "Река поднимается.",
+        "learn": 0
+      },
+      {
+        "eng": "The river recedes.",
+        "ru": "Вода отступает.",
+        "learn": 0
+      },
+      {
+        "eng": "the winding of the river",
+        "ru": "поворот реки",
+        "learn": 0
+      },
+      {
+        "eng": "The great river rolled on.",
+        "ru": "Великая река не спеша несла свои воды.",
+        "learn": 0
+      },
+      {
+        "eng": "The river flows into the sea.",
+        "ru": "Река впадает в море.",
+        "learn": 0
+      },
+      {
+        "eng": "The river overflows its banks.",
+        "ru": "Река выходит из берегов.",
+        "learn": 0
+      },
+      {
+        "eng": "The River Elbe flows through the Czech Republic.",
+        "ru": "Река Эльба протекает через Чехию.",
+        "learn": 0
+      },
+      {
+        "eng": "He lives high up the river.",
+        "ru": "Он живёт высоко вверх по реке.",
+        "learn": 0
+      },
+      {
+        "eng": "The river is rushing forward.",
+        "ru": "Река бежит вперёд.",
+        "learn": 1
+      },
+      {
+        "eng": "The river is silted up long ago.",
+        "ru": "Эта река уже давно засорена илом.",
+        "learn": 0
+      },
+      {
+        "eng": "Seines were set in the water just before the ice \"took\" on the lake or river.",
+        "ru": "Перед самым замерзанием озера или реки в воду ставились сети.",
+        "learn": 0
+      },
+      {
+        "eng": "The river silted up.",
+        "ru": "Река заилилась.",
+        "learn": 0
+      },
+      {
+        "eng": "The river was cobalt.",
+        "ru": "Река была зеленовато-синего цвета.",
+        "learn": 0
+      },
+      {
+        "eng": "the course of a river",
+        "ru": "течение реки",
+        "learn": 0
+      },
+      {
+        "eng": "the widest part of the river",
+        "ru": "самая широкая часть реки",
+        "learn": 0
+      },
+      {
+        "eng": "The river was foaming.",
+        "ru": "Река пенилась.",
+        "learn": 0
+      },
+      {
+        "eng": "The road hugs the river.",
+        "ru": "Дорога огибает реку.",
+        "learn": 0
+      },
+      {
+        "eng": "a boat on a twilit river",
+        "ru": "лодка на сумеречной реке",
+        "learn": 0
+      },
+      {
+        "eng": "A bridge spans the river.",
+        "ru": "Реку перекрывает мост. / Через реку стоит мост.",
+        "learn": 0
+      },
+      {
+        "eng": "The river thundered below.",
+        "ru": "Внизу грохотала река.",
+        "learn": 0
+      },
+      {
+        "eng": "The river sucked him under.",
+        "ru": "Река затянула его под воду.",
+        "learn": 0
+      },
+      {
+        "eng": "the north fork of the river",
+        "ru": "северное ответвление реки",
+        "learn": 0
+      },
+      {
+        "eng": "The river is very low today.",
+        "ru": "Сегодня в реке очень низкий уровень воды.",
+        "learn": 1
+      },
+      {
+        "eng": "The river widens and splits.",
+        "ru": "Река расширяется и разделяется на два рукава.",
+        "learn": 0
+      },
+      {
+        "eng": "She sculled along the river.",
+        "ru": "Она поплыла по реке на вёслах.",
+        "learn": 0
+      },
+      {
+        "eng": "The river crested last night.",
+        "ru": "Прошлой ночью уровень воды в реке достиг высшей точки.",
+        "learn": 0
+      },
+      {
+        "eng": "Their land reaches the river.",
+        "ru": "Их земля доходит до реки.",
+        "learn": 0
+      }
+    ]
+  }
 }

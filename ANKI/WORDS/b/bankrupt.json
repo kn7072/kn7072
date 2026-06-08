@@ -1,72 +1,137 @@
 {
-    "bankrupt": {
-        "comment": [
-            "interrupt",
-            "interruption",
-            "corrupt",
-            "disrupt",
-            "corruption",
-            "disruption",
-            "bankruptcy"
-        ],
-        "translate": "банкрот, несостоятельный, лишенный, доводить до банкротства",
-        "transcription": " |ˈbæŋkrʌpt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He went bankrupt.",
-            "The company went bankrupt last year.",
-            "His losses bankrupted the firm.",
-            "Many companies go bankrupt due to bad management.",
-            "Several risky deals bankrupted the company.",
-            "Going bankrupt was a heavy blow to his pride.",
-            "The lawsuit could leave them bankrupt.",
-            "They went bankrupt during the economic crisis.",
-            "They have plans to reconstitute the bankrupt company.",
-            "She's a kind soul, but bankrupt of all common sense, I'm afraid.",
-            "A bankrupt must deliver up all his books to the official receiver.",
-            "Loss of livestock left the rancher bankrupt.",
-            "Seventeen years of war left the country bankrupt.",
-            "Mr Trent lost his house when he was made bankrupt.",
-            "The indebtedness of the bankrupt amounted to $1000.",
-            "He was adjudicated a bankrupt yesterday by Mr. Spring Rice.",
-            "The firm went bankrupt before the building work was completed.",
-            "One company went bankrupt, and a similar fate befell the other.",
-            "They must face the likelihood that the newspaper might go bankrupt.",
-            "A ruinous miscalculation of the financial markets left them bankrupt.",
-            "Despite heroic efforts to save the business, it ultimately went bankrupt.",
-            "Their accounts showed lots of paper profits, but they went bankrupt anyway.",
-            "His father told him of the wicked, rascally, shameful conduct of the bankrupt."
-        ],
-        "example_translate": [
-            "Он обанкротился.",
-            "В прошлом году эта компания обанкротилась.",
-            "Его убытки привели фирму к банкротству.",
-            "Многие компании разоряются из-за непрофессионального управления.",
-            "Несколько рискованных сделок привели компанию к банкротству.",
-            "Банкротство оказалось очень тяжёлым ударом по его самолюбию.",
-            "Этот судебный процесс может оставить их без гроша.",
-            "Они обанкротились в период экономического кризиса.",
-            "У них есть планы возрождения обанкротившейся компании.",
-            "Она очень добрая, но, к сожалению, полностью лишена здравого смысла.",
-            "Банкрот должен передать официальному ликвидатору все бухгалтерские книги.",
-            "Потеря скота привела к банкротству хозяина ранчо.",
-            "После семнадцати лет войны страна оказалась банкротом.",
-            "Мистер Трент потерял свой дом, когда стал банкротом.",
-            "Задолженность банкрота составляла 1000 долларов.",
-            "Вчера Мистер Спринг Райс вынес решение объявить его банкротом.",
-            "Фирма обанкротилась до того, как были завершены строительные работы.",
-            "Одна из компаний обанкротилась, такая же участь постигла и другую.",
-            "Они должны принять к сведению существующую вероятность того, что газета может обанкротиться.",
-            "К их банкротству привела губительная ошибка в расчёте поведения финансовых рынков.",
-            "Несмотря на героические усилия по спасению бизнеса, в конечном счёте он обанкротился.",
-            "Их расчёты показали кучу бумажной прибыли, но они всё равно обанкротились.",
-            "Отец рассказал ему о злостном, мошенническом и бесстыдном поведении банкрота. (У. Теккерей, \"Ярмарка тщеславия\")"
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "bankrupt": {
+    "comment": [
+      "interrupt",
+      "interruption",
+      "corrupt",
+      "disrupt",
+      "corruption",
+      "disruption",
+      "bankruptcy"
+    ],
+    "translate": "банкрот, несостоятельный, лишенный, доводить до банкротства",
+    "transcription": " |ˈbæŋkrʌpt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He went bankrupt.",
+        "ru": "Он обанкротился.",
+        "learn": 0
+      },
+      {
+        "eng": "The company went bankrupt last year.",
+        "ru": "В прошлом году эта компания обанкротилась.",
+        "learn": 0
+      },
+      {
+        "eng": "His losses bankrupted the firm.",
+        "ru": "Его убытки привели фирму к банкротству.",
+        "learn": 0
+      },
+      {
+        "eng": "Many companies go bankrupt due to bad management.",
+        "ru": "Многие компании разоряются из-за непрофессионального управления.",
+        "learn": 0
+      },
+      {
+        "eng": "Several risky deals bankrupted the company.",
+        "ru": "Несколько рискованных сделок привели компанию к банкротству.",
+        "learn": 0
+      },
+      {
+        "eng": "Going bankrupt was a heavy blow to his pride.",
+        "ru": "Банкротство оказалось очень тяжёлым ударом по его самолюбию.",
+        "learn": 0
+      },
+      {
+        "eng": "The lawsuit could leave them bankrupt.",
+        "ru": "Этот судебный процесс может оставить их без гроша.",
+        "learn": 1
+      },
+      {
+        "eng": "They went bankrupt during the economic crisis.",
+        "ru": "Они обанкротились в период экономического кризиса.",
+        "learn": 0
+      },
+      {
+        "eng": "They have plans to reconstitute the bankrupt company.",
+        "ru": "У них есть планы возрождения обанкротившейся компании.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a kind soul, but bankrupt of all common sense, I'm afraid.",
+        "ru": "Она очень добрая, но, к сожалению, полностью лишена здравого смысла.",
+        "learn": 0
+      },
+      {
+        "eng": "A bankrupt must deliver up all his books to the official receiver.",
+        "ru": "Банкрот должен передать официальному ликвидатору все бухгалтерские книги.",
+        "learn": 1
+      },
+      {
+        "eng": "Loss of livestock left the rancher bankrupt.",
+        "ru": "Потеря скота привела к банкротству хозяина ранчо.",
+        "learn": 0
+      },
+      {
+        "eng": "Seventeen years of war left the country bankrupt.",
+        "ru": "После семнадцати лет войны страна оказалась банкротом.",
+        "learn": 0
+      },
+      {
+        "eng": "Mr Trent lost his house when he was made bankrupt.",
+        "ru": "Мистер Трент потерял свой дом, когда стал банкротом.",
+        "learn": 0
+      },
+      {
+        "eng": "The indebtedness of the bankrupt amounted to $1000.",
+        "ru": "Задолженность банкрота составляла 1000 долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "He was adjudicated a bankrupt yesterday by Mr. Spring Rice.",
+        "ru": "Вчера Мистер Спринг Райс вынес решение объявить его банкротом.",
+        "learn": 0
+      },
+      {
+        "eng": "The firm went bankrupt before the building work was completed.",
+        "ru": "Фирма обанкротилась до того, как были завершены строительные работы.",
+        "learn": 0
+      },
+      {
+        "eng": "One company went bankrupt, and a similar fate befell the other.",
+        "ru": "Одна из компаний обанкротилась, такая же участь постигла и другую.",
+        "learn": 0
+      },
+      {
+        "eng": "They must face the likelihood that the newspaper might go bankrupt.",
+        "ru": "Они должны принять к сведению существующую вероятность того, что газета может обанкротиться.",
+        "learn": 0
+      },
+      {
+        "eng": "A ruinous miscalculation of the financial markets left them bankrupt.",
+        "ru": "К их банкротству привела губительная ошибка в расчёте поведения финансовых рынков.",
+        "learn": 0
+      },
+      {
+        "eng": "Despite heroic efforts to save the business, it ultimately went bankrupt.",
+        "ru": "Несмотря на героические усилия по спасению бизнеса, в конечном счёте он обанкротился.",
+        "learn": 1
+      },
+      {
+        "eng": "Their accounts showed lots of paper profits, but they went bankrupt anyway.",
+        "ru": "Их расчёты показали кучу бумажной прибыли, но они всё равно обанкротились.",
+        "learn": 0
+      },
+      {
+        "eng": "His father told him of the wicked, rascally, shameful conduct of the bankrupt.",
+        "ru": "Отец рассказал ему о злостном, мошенническом и бесстыдном поведении банкрота. (У. Теккерей, \"Ярмарка тщеславия\")",
+        "learn": 0
+      }
+    ]
+  }
 }

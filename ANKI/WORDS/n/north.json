@@ -1,85 +1,172 @@
 {
-    "north": {
-        "comment": [
-            "northern",
-            "northeast",
-            "northwest"
-        ],
-        "translate": "север, норд, к северу, на север, северный",
-        "transcription": " |nɔːrθ|",
-        "antonyms": [],
-        "mnemonic": [
-            "north [но(фс)] север - Водку (Смир-ноф) на севере лучше пить."
-        ],
-        "examples": [
-            "North pole",
-            "North Star",
-            "Let's go north!",
-            "They live up north.",
-            "regions far to the north",
-            "Turn north onto Elm Street.",
-            "I'm headed north.",
-            "I grew up in the North.",
-            "The compass needle points north.",
-            "North Britain",
-            "Which way is north?",
-            "The house looks north.",
-            "They've moved up north.",
-            "Chicago is four hours north of Indianapolis.",
-            "North Atlantic Drift",
-            "He lives in North Wales.",
-            "a poor boy from the north",
-            "The wind was veering north.",
-            "North Downs",
-            "North Sea oil fields",
-            "The army was pushing north.",
-            "the north fork of the river",
-            "The arrow always points north.",
-            "The weather vane points North.",
-            "Who discovered the North Pole?",
-            "The birds fly north in summer.",
-            "Scotland lies north of England.",
-            "We travelled North on Rte. 508.",
-            "It's a few miles north of here.",
-            "Good fish teem in the North Sea."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Северный полюс",
-            "Полярная звезда",
-            "Давайте пойдем на север!",
-            "Они живут там, на севере.",
-            "области далеко на севере",
-            "Поверните на север, на улицу Вязов.",
-            "Я направляюсь на север.",
-            "Я вырос на Севере.",
-            "Стрелка компаса указывает на север.",
-            "Северная Британия",
-            "Где тут север?",
-            "Дом смотрит на север.",
-            "Они переехали на север.",
-            "Чикаго находится в четырех часах езды на север от Индианаполиса.",
-            "Североатлантическое течение",
-            "Он живёт в Северном Уэльсе.",
-            "бедный парень с Севера",
-            "Ветер менял направление к северу.",
-            "Северный Даунс",
-            "нефтяные месторождения Северного моря",
-            "Армия продвигалась на север.",
-            "северное ответвление реки",
-            "Стрелка всегда указывает на север.",
-            "Флюгер указывает на север.",
-            "Кто открыл Северный полюс?",
-            "Летом птицы летят на север.",
-            "Шотландия расположена к северу от Англии.",
-            "Мы поехали на север по трассе 508.",
-            "Это в нескольких милях к северу отсюда.",
-            "Северное море изобилует хорошей рыбой."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "th_=_[θ]"
-        ]
-    }
+  "north": {
+    "comment": [
+      "northern",
+      "northeast",
+      "northwest"
+    ],
+    "translate": "север, норд, к северу, на север, северный",
+    "transcription": " |nɔːrθ|",
+    "antonyms": [],
+    "mnemonic": [
+      "north [но(фс)] север - Водку (Смир-ноф) на севере лучше пить."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "th_=_[θ]"
+    ],
+    "examples": [
+      {
+        "eng": "North pole",
+        "ru": "Северный полюс",
+        "learn": 0
+      },
+      {
+        "eng": "North Star",
+        "ru": "Полярная звезда",
+        "learn": 0
+      },
+      {
+        "eng": "Let's go north!",
+        "ru": "Давайте пойдем на север!",
+        "learn": 1
+      },
+      {
+        "eng": "They live up north.",
+        "ru": "Они живут там, на севере.",
+        "learn": 0
+      },
+      {
+        "eng": "regions far to the north",
+        "ru": "области далеко на севере",
+        "learn": 0
+      },
+      {
+        "eng": "Turn north onto Elm Street.",
+        "ru": "Поверните на север, на улицу Вязов.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm headed north.",
+        "ru": "Я направляюсь на север.",
+        "learn": 0
+      },
+      {
+        "eng": "I grew up in the North.",
+        "ru": "Я вырос на Севере.",
+        "learn": 0
+      },
+      {
+        "eng": "The compass needle points north.",
+        "ru": "Стрелка компаса указывает на север.",
+        "learn": 1
+      },
+      {
+        "eng": "North Britain",
+        "ru": "Северная Британия",
+        "learn": 0
+      },
+      {
+        "eng": "Which way is north?",
+        "ru": "Где тут север?",
+        "learn": 0
+      },
+      {
+        "eng": "The house looks north.",
+        "ru": "Дом смотрит на север.",
+        "learn": 0
+      },
+      {
+        "eng": "They've moved up north.",
+        "ru": "Они переехали на север.",
+        "learn": 0
+      },
+      {
+        "eng": "Chicago is four hours north of Indianapolis.",
+        "ru": "Чикаго находится в четырех часах езды на север от Индианаполиса.",
+        "learn": 0
+      },
+      {
+        "eng": "North Atlantic Drift",
+        "ru": "Североатлантическое течение",
+        "learn": 0
+      },
+      {
+        "eng": "He lives in North Wales.",
+        "ru": "Он живёт в Северном Уэльсе.",
+        "learn": 0
+      },
+      {
+        "eng": "a poor boy from the north",
+        "ru": "бедный парень с Севера",
+        "learn": 0
+      },
+      {
+        "eng": "The wind was veering north.",
+        "ru": "Ветер менял направление к северу.",
+        "learn": 0
+      },
+      {
+        "eng": "North Downs",
+        "ru": "Северный Даунс",
+        "learn": 0
+      },
+      {
+        "eng": "North Sea oil fields",
+        "ru": "нефтяные месторождения Северного моря",
+        "learn": 0
+      },
+      {
+        "eng": "The army was pushing north.",
+        "ru": "Армия продвигалась на север.",
+        "learn": 0
+      },
+      {
+        "eng": "the north fork of the river",
+        "ru": "северное ответвление реки",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow always points north.",
+        "ru": "Стрелка всегда указывает на север.",
+        "learn": 1
+      },
+      {
+        "eng": "The weather vane points North.",
+        "ru": "Флюгер указывает на север.",
+        "learn": 0
+      },
+      {
+        "eng": "Who discovered the North Pole?",
+        "ru": "Кто открыл Северный полюс?",
+        "learn": 1
+      },
+      {
+        "eng": "The birds fly north in summer.",
+        "ru": "Летом птицы летят на север.",
+        "learn": 0
+      },
+      {
+        "eng": "Scotland lies north of England.",
+        "ru": "Шотландия расположена к северу от Англии.",
+        "learn": 0
+      },
+      {
+        "eng": "We travelled North on Rte. 508.",
+        "ru": "Мы поехали на север по трассе 508.",
+        "learn": 0
+      },
+      {
+        "eng": "It's a few miles north of here.",
+        "ru": "Это в нескольких милях к северу отсюда.",
+        "learn": 0
+      },
+      {
+        "eng": "Good fish teem in the North Sea.",
+        "ru": "Северное море изобилует хорошей рыбой.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,83 +1,169 @@
 {
-    "favour": {
-        "comment": [
-            "favor",
-            "favorite",
-            "favourite",
-            "favourable"
-        ],
-        "translate": "польза, интерес, одолжение, поддерживать, благоволить",
-        "transcription": " |ˈfeɪvər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He asked me a favour.",
-            "May I ask a favour of you?",
-            "Those in favour?",
-            "I am all in favour of the smoking ban.",
-            "The wind favoured us.",
-            "All in favour say aye.",
-            "He favours you in the face.",
-            "Do me a favour - turn the radio down, will you?",
-            "The odds are in our favour.",
-            "I am much favoured with this.",
-            "He is back in favour with the boss.",
-            "God favour and preserve him.",
-            "Paul, can I ask you a favor?",
-            "This hound favours his leg.",
-            "Do me a favour and get off my back!",
-            "I would like to ask a favour of you.",
-            "The new law doesn't operate in our favour.",
-            "We set all other offers aside in favour of yours.",
-            "Do us a favour, Mike, and shut up!",
-            "I owed him a favour so I couldn't say no.",
-            "The tribunal ruled in her favour.",
-            "Fountain pens have come back in favour.",
-            "He hired John as a favour to his father.",
-            "She favored him with a seat next to her.",
-            "He engaged them to declare in his favour.",
-            "The idea may find favor with older people.",
-            "She returned our favour with interest.",
-            "It is a mere fetch to favour his retreat.",
-            "Once-popular composers drop out of favour.",
-            "I knew her by favour, as soon as I saw her."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он попросил меня об услуге.",
-            "Разрешите попросить вас об одолжении?",
-            "Кто за?",
-            "Я полностью поддерживаю запрет на курение.",
-            "Ветер был попутный.",
-            "Все, кто поддерживают, скажите \"за\".",
-            "Лицом он похож на тебя.",
-            "Будь любезен, сделай радио потише.",
-            "Перевес на нашей стороне.",
-            "Это для меня большая честь.",
-            "Начальник к нему снова благоволит.",
-            "Беже, спаси и сохрани его.",
-            "Пол, можно попросить тебя об одолжении?",
-            "Этот пёс хромает на одну лапу. (зд. to favour — беречь, щадить)",
-            "Сделай одолжение, отстань от меня!",
-            "Я хотел бы попросить тебя об одолжении.",
-            "Новый закон работает не в наших интересах.",
-            "Ради вашего предложения мы отказались от рассмотрения всех остальных.",
-            "Сделай нам одолжение, Майк — заткнись! / Ради бога, Майк, закрой рот!",
-            "Я был перед ним в долгу, поэтому не мог отказать.",
-            "Трибунал вынес решение в её пользу.",
-            "Перьевые ручки снова вошли в моду.",
-            "Он нанял Джона в качестве одолжения отцу.",
-            "Она любезно позволила ему сесть рядом с ней.",
-            "Он уговорил их высказаться в его пользу.",
-            "Этот план может найти поддержку у пожилых людей.",
-            "Она щедро отблагодарила нас за оказанную ей любезность.",
-            "Это не более чем уловка, чтобы прикрыть отступление.",
-            "Некогда популярные сочинители предаются забвению.",
-            "Я сразу узнал её, как только увидел, по их характерной семейной черте."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "favour": {
+    "comment": [
+      "favor",
+      "favorite",
+      "favourite",
+      "favourable"
+    ],
+    "translate": "польза, интерес, одолжение, поддерживать, благоволить",
+    "transcription": " |ˈfeɪvər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He asked me a favour.",
+        "ru": "Он попросил меня об услуге.",
+        "learn": 0
+      },
+      {
+        "eng": "May I ask a favour of you?",
+        "ru": "Разрешите попросить вас об одолжении?",
+        "learn": 0
+      },
+      {
+        "eng": "Those in favour?",
+        "ru": "Кто за?",
+        "learn": 0
+      },
+      {
+        "eng": "I am all in favour of the smoking ban.",
+        "ru": "Я полностью поддерживаю запрет на курение.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind favoured us.",
+        "ru": "Ветер был попутный.",
+        "learn": 0
+      },
+      {
+        "eng": "All in favour say aye.",
+        "ru": "Все, кто поддерживают, скажите \"за\".",
+        "learn": 0
+      },
+      {
+        "eng": "He favours you in the face.",
+        "ru": "Лицом он похож на тебя.",
+        "learn": 0
+      },
+      {
+        "eng": "Do me a favour - turn the radio down, will you?",
+        "ru": "Будь любезен, сделай радио потише.",
+        "learn": 0
+      },
+      {
+        "eng": "The odds are in our favour.",
+        "ru": "Перевес на нашей стороне.",
+        "learn": 1
+      },
+      {
+        "eng": "I am much favoured with this.",
+        "ru": "Это для меня большая честь.",
+        "learn": 0
+      },
+      {
+        "eng": "He is back in favour with the boss.",
+        "ru": "Начальник к нему снова благоволит.",
+        "learn": 0
+      },
+      {
+        "eng": "God favour and preserve him.",
+        "ru": "Беже, спаси и сохрани его.",
+        "learn": 0
+      },
+      {
+        "eng": "Paul, can I ask you a favor?",
+        "ru": "Пол, можно попросить тебя об одолжении?",
+        "learn": 0
+      },
+      {
+        "eng": "This hound favours his leg.",
+        "ru": "Этот пёс хромает на одну лапу. (зд. to favour — беречь, щадить)",
+        "learn": 0
+      },
+      {
+        "eng": "Do me a favour and get off my back!",
+        "ru": "Сделай одолжение, отстань от меня!",
+        "learn": 0
+      },
+      {
+        "eng": "I would like to ask a favour of you.",
+        "ru": "Я хотел бы попросить тебя об одолжении.",
+        "learn": 0
+      },
+      {
+        "eng": "The new law doesn't operate in our favour.",
+        "ru": "Новый закон работает не в наших интересах.",
+        "learn": 0
+      },
+      {
+        "eng": "We set all other offers aside in favour of yours.",
+        "ru": "Ради вашего предложения мы отказались от рассмотрения всех остальных.",
+        "learn": 0
+      },
+      {
+        "eng": "Do us a favour, Mike, and shut up!",
+        "ru": "Сделай нам одолжение, Майк — заткнись! / Ради бога, Майк, закрой рот!",
+        "learn": 0
+      },
+      {
+        "eng": "I owed him a favour so I couldn't say no.",
+        "ru": "Я был перед ним в долгу, поэтому не мог отказать.",
+        "learn": 0
+      },
+      {
+        "eng": "The tribunal ruled in her favour.",
+        "ru": "Трибунал вынес решение в её пользу.",
+        "learn": 1
+      },
+      {
+        "eng": "Fountain pens have come back in favour.",
+        "ru": "Перьевые ручки снова вошли в моду.",
+        "learn": 0
+      },
+      {
+        "eng": "He hired John as a favour to his father.",
+        "ru": "Он нанял Джона в качестве одолжения отцу.",
+        "learn": 0
+      },
+      {
+        "eng": "She favored him with a seat next to her.",
+        "ru": "Она любезно позволила ему сесть рядом с ней.",
+        "learn": 0
+      },
+      {
+        "eng": "He engaged them to declare in his favour.",
+        "ru": "Он уговорил их высказаться в его пользу.",
+        "learn": 1
+      },
+      {
+        "eng": "The idea may find favor with older people.",
+        "ru": "Этот план может найти поддержку у пожилых людей.",
+        "learn": 0
+      },
+      {
+        "eng": "She returned our favour with interest.",
+        "ru": "Она щедро отблагодарила нас за оказанную ей любезность.",
+        "learn": 0
+      },
+      {
+        "eng": "It is a mere fetch to favour his retreat.",
+        "ru": "Это не более чем уловка, чтобы прикрыть отступление.",
+        "learn": 0
+      },
+      {
+        "eng": "Once-popular composers drop out of favour.",
+        "ru": "Некогда популярные сочинители предаются забвению.",
+        "learn": 0
+      },
+      {
+        "eng": "I knew her by favour, as soon as I saw her.",
+        "ru": "Я сразу узнал её, как только увидел, по их характерной семейной черте.",
+        "learn": 0
+      }
+    ]
+  }
 }

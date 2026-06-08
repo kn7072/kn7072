@@ -1,83 +1,169 @@
 {
-    "extra": {
-        "comment": [
-            "extraordinary",
-            "extraordinarily",
-            "extract",
-            "external"
-        ],
-        "translate": "дополнительный, лишний, дополнительно, особо, высший сорт, статист",
-        "transcription": " |ˈekstrə|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I'd have to be extra careful.",
-            "The food was extra good.",
-            "The cost of packing is $75 extra.",
-            "The price of your meal is extra.",
-            "They need to offer something extra to attract customers.",
-            "Technical service will be charged extra.",
-            "This is an extra special occasion.",
-            "There's no extra charge for breakfast.",
-            "The extra expenses were negligible.",
-            "Extra buses run at peak times.",
-            "You're going to have to work extra hard to pass the exam.",
-            "I earn extra for working on Sunday.",
-            "I don't want to give you any extra bother.",
-            "She requested an extra bed in her room.",
-            "We really need that extra money.",
-            "You caused us a lot of extra work.",
-            "He started his acting career as an extra.",
-            "He kicked the extra point after touchdown.",
-            "The roof may need extra support.",
-            "Allow extra time for your journey.",
-            "extra duties incidental to the job",
-            "The extra weight slowed the truck.",
-            "I'll be making $400 extra a month.",
-            "The dining area has extra windows.",
-            "An extra detail of police was made.",
-            "I think I'll freeze that extra meat.",
-            "Could you get an extra loaf of bread?",
-            "It's got lots of useful little extras.",
-            "Drivers are advised to take extra care.",
-            "You have to pay extra for a single room."
-        ],
-        "example_translate": [
-            "Я должен быть особенно осторожным.",
-            "Еда была высший сорт.",
-            "Стоимость упаковки — семьдесят пять долларов дополнительно.",
-            "За еду взимается дополнительная плата.",
-            "Им нужно предложить что-то особенное, чтобы привлечь клиентов.",
-            "Техническое обслуживание будет оплачиваться дополнительно.",
-            "Это исключительное событие.",
-            "За завтрак нет дополнительной платы.",
-            "Дополнительных затрат практически не возникло.",
-            "В час пик ходят дополнительные автобусы.",
-            "Вам придется очень усердно работать, чтобы сдать этот экзамен.",
-            "За работу в воскресенье мне доплачивают /платят дополнительно/.",
-            "Я не хочу причинять вам какие-либо дополнительные беспокойства.",
-            "Она попросила дополнительную кровать в свою комнату.",
-            "Нам действительно нужны эти лишние деньги.",
-            "Из-за тебя нам пришлось делать кучу лишней работы.",
-            "Свою актёрскую карьеру он начал в качестве статиста.",
-            "Он забил экстра-пойнт /реализацию/ после тачдауна. (об американском футболе)",
-            "Возможно, крышу придётся дополнительно подпереть.",
-            "Выделяйте на поездку время с запасом.",
-            "дополнительные обязанности, сопутствующие данной работе",
-            "Из-за лишнего груза автомобиль шёл медленнее.",
-            "Я буду зарабатывать по четыреста долларов в месяц дополнительно.",
-            "В столовой есть дополнительные окна.",
-            "Был выделен дополнительный наряд полиции.",
-            "Я, наверное, это лишнее мясо заморожу.",
-            "Можешь купить одну лишнюю буханку хлеба?",
-            "У этого продукта есть куча полезных дополнений.",
-            "Водителям рекомендуется соблюдать максимальную осторожность.",
-            "За одноместный номер придётся доплатить."
-        ],
-        "synonyms": [],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "extra": {
+    "comment": [
+      "extraordinary",
+      "extraordinarily",
+      "extract",
+      "external"
+    ],
+    "translate": "дополнительный, лишний, дополнительно, особо, высший сорт, статист",
+    "transcription": " |ˈekstrə|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I'd have to be extra careful.",
+        "ru": "Я должен быть особенно осторожным.",
+        "learn": 0
+      },
+      {
+        "eng": "The food was extra good.",
+        "ru": "Еда была высший сорт.",
+        "learn": 0
+      },
+      {
+        "eng": "The cost of packing is $75 extra.",
+        "ru": "Стоимость упаковки — семьдесят пять долларов дополнительно.",
+        "learn": 0
+      },
+      {
+        "eng": "The price of your meal is extra.",
+        "ru": "За еду взимается дополнительная плата.",
+        "learn": 0
+      },
+      {
+        "eng": "They need to offer something extra to attract customers.",
+        "ru": "Им нужно предложить что-то особенное, чтобы привлечь клиентов.",
+        "learn": 1
+      },
+      {
+        "eng": "Technical service will be charged extra.",
+        "ru": "Техническое обслуживание будет оплачиваться дополнительно.",
+        "learn": 0
+      },
+      {
+        "eng": "This is an extra special occasion.",
+        "ru": "Это исключительное событие.",
+        "learn": 0
+      },
+      {
+        "eng": "There's no extra charge for breakfast.",
+        "ru": "За завтрак нет дополнительной платы.",
+        "learn": 0
+      },
+      {
+        "eng": "The extra expenses were negligible.",
+        "ru": "Дополнительных затрат практически не возникло.",
+        "learn": 0
+      },
+      {
+        "eng": "Extra buses run at peak times.",
+        "ru": "В час пик ходят дополнительные автобусы.",
+        "learn": 0
+      },
+      {
+        "eng": "You're going to have to work extra hard to pass the exam.",
+        "ru": "Вам придется очень усердно работать, чтобы сдать этот экзамен.",
+        "learn": 0
+      },
+      {
+        "eng": "I earn extra for working on Sunday.",
+        "ru": "За работу в воскресенье мне доплачивают /платят дополнительно/.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't want to give you any extra bother.",
+        "ru": "Я не хочу причинять вам какие-либо дополнительные беспокойства.",
+        "learn": 0
+      },
+      {
+        "eng": "She requested an extra bed in her room.",
+        "ru": "Она попросила дополнительную кровать в свою комнату.",
+        "learn": 1
+      },
+      {
+        "eng": "We really need that extra money.",
+        "ru": "Нам действительно нужны эти лишние деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "You caused us a lot of extra work.",
+        "ru": "Из-за тебя нам пришлось делать кучу лишней работы.",
+        "learn": 0
+      },
+      {
+        "eng": "He started his acting career as an extra.",
+        "ru": "Свою актёрскую карьеру он начал в качестве статиста.",
+        "learn": 0
+      },
+      {
+        "eng": "He kicked the extra point after touchdown.",
+        "ru": "Он забил экстра-пойнт /реализацию/ после тачдауна. (об американском футболе)",
+        "learn": 0
+      },
+      {
+        "eng": "The roof may need extra support.",
+        "ru": "Возможно, крышу придётся дополнительно подпереть.",
+        "learn": 0
+      },
+      {
+        "eng": "Allow extra time for your journey.",
+        "ru": "Выделяйте на поездку время с запасом.",
+        "learn": 0
+      },
+      {
+        "eng": "extra duties incidental to the job",
+        "ru": "дополнительные обязанности, сопутствующие данной работе",
+        "learn": 0
+      },
+      {
+        "eng": "The extra weight slowed the truck.",
+        "ru": "Из-за лишнего груза автомобиль шёл медленнее.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll be making $400 extra a month.",
+        "ru": "Я буду зарабатывать по четыреста долларов в месяц дополнительно.",
+        "learn": 0
+      },
+      {
+        "eng": "The dining area has extra windows.",
+        "ru": "В столовой есть дополнительные окна.",
+        "learn": 0
+      },
+      {
+        "eng": "An extra detail of police was made.",
+        "ru": "Был выделен дополнительный наряд полиции.",
+        "learn": 0
+      },
+      {
+        "eng": "I think I'll freeze that extra meat.",
+        "ru": "Я, наверное, это лишнее мясо заморожу.",
+        "learn": 1
+      },
+      {
+        "eng": "Could you get an extra loaf of bread?",
+        "ru": "Можешь купить одну лишнюю буханку хлеба?",
+        "learn": 0
+      },
+      {
+        "eng": "It's got lots of useful little extras.",
+        "ru": "У этого продукта есть куча полезных дополнений.",
+        "learn": 0
+      },
+      {
+        "eng": "Drivers are advised to take extra care.",
+        "ru": "Водителям рекомендуется соблюдать максимальную осторожность.",
+        "learn": 0
+      },
+      {
+        "eng": "You have to pay extra for a single room.",
+        "ru": "За одноместный номер придётся доплатить.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,60 +1,107 @@
 {
-    "mask": {
-        "comment": [
-            "smash",
-            "mass",
-            "massive",
-            "pyjamas",
-            "masculine",
-            "massacre",
-            "massage"
-        ],
-        "translate": "маска, противогаз, личина, слепок, маскировать, скрывать, надевать маску",
-        "transcription": " |mæsk|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The house was masked by trees.",
-            "She ripped off her mask.",
-            "He masked his disappointment",
-            "The child was badly frightened by the mask.",
-            "No mask could conceal his ignorance.",
-            "Our oatmeal face mask absorbs impurities from your skin.",
-            "They tried to mask their real purpose.",
-            "Her sarcasm is a mask for her insecurity.",
-            "The herb masks the garlic taste.",
-            "The passenger grabbed for the oxygen mask.",
-            "Liz turned on a radio to mask the noise.",
-            "Men often mask their true feelings with humour.",
-            "They made a mask from a wax cast of her face.",
-            "Doctors wear surgical masks in the operating room.",
-            "He wore a hirsute mask as part of his werewolf costume.",
-            "The new accommodation block has all but masked the original building.",
-            "Doctors and nurses working in an operating theatre have to mask their noses and mouths with a specially clean cloth."
-        ],
-        "example_translate": [
-            "Дом был спрятан за деревьями.",
-            "Она сорвала свою маску.",
-            "Он скрыл своё разочарование.",
-            "Ребенок был сильно напуган маской.",
-            "Ни одна маска не могла скрыть его невежество. / Его невежество нельзя было скрыть ничем.",
-            "Наша овсяная маска для лица впитывает загрязнения с вашей кожи.",
-            "Они пытались скрыть свою настоящую цель.",
-            "Ее сарказм - это маска скрывающая её беспомощность и незащищённость.",
-            "Эта приправа смягчает /скрывает/ привкус чеснока.",
-            "Пассажир схватился за кислородную маску.",
-            "Лиз включила радио, чтобы заглушить шум.",
-            "Мужчины часто маскируют свои истинные чувства с помощью юмора.",
-            "Они сделали маску из воскового слепка с ее лица.",
-            "В операционной врачи носят хирургические маски.",
-            "На нём была косматая маска — часть костюма оборотня.",
-            "Новый жилой блок почти полностью прикрыл собой первоначальное здание.",
-            "Врачи и сёстры, делающие операцию, должны закрывать нос и рот стерильной тканью."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "mask": {
+    "comment": [
+      "smash",
+      "mass",
+      "massive",
+      "pyjamas",
+      "masculine",
+      "massacre",
+      "massage"
+    ],
+    "translate": "маска, противогаз, личина, слепок, маскировать, скрывать, надевать маску",
+    "transcription": " |mæsk|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The house was masked by trees.",
+        "ru": "Дом был спрятан за деревьями.",
+        "learn": 0
+      },
+      {
+        "eng": "She ripped off her mask.",
+        "ru": "Она сорвала свою маску.",
+        "learn": 0
+      },
+      {
+        "eng": "He masked his disappointment",
+        "ru": "Он скрыл своё разочарование.",
+        "learn": 0
+      },
+      {
+        "eng": "The child was badly frightened by the mask.",
+        "ru": "Ребенок был сильно напуган маской.",
+        "learn": 1
+      },
+      {
+        "eng": "No mask could conceal his ignorance.",
+        "ru": "Ни одна маска не могла скрыть его невежество. / Его невежество нельзя было скрыть ничем.",
+        "learn": 0
+      },
+      {
+        "eng": "Our oatmeal face mask absorbs impurities from your skin.",
+        "ru": "Наша овсяная маска для лица впитывает загрязнения с вашей кожи.",
+        "learn": 0
+      },
+      {
+        "eng": "They tried to mask their real purpose.",
+        "ru": "Они пытались скрыть свою настоящую цель.",
+        "learn": 0
+      },
+      {
+        "eng": "Her sarcasm is a mask for her insecurity.",
+        "ru": "Ее сарказм - это маска скрывающая её беспомощность и незащищённость.",
+        "learn": 0
+      },
+      {
+        "eng": "The herb masks the garlic taste.",
+        "ru": "Эта приправа смягчает /скрывает/ привкус чеснока.",
+        "learn": 1
+      },
+      {
+        "eng": "The passenger grabbed for the oxygen mask.",
+        "ru": "Пассажир схватился за кислородную маску.",
+        "learn": 0
+      },
+      {
+        "eng": "Liz turned on a radio to mask the noise.",
+        "ru": "Лиз включила радио, чтобы заглушить шум.",
+        "learn": 0
+      },
+      {
+        "eng": "Men often mask their true feelings with humour.",
+        "ru": "Мужчины часто маскируют свои истинные чувства с помощью юмора.",
+        "learn": 0
+      },
+      {
+        "eng": "They made a mask from a wax cast of her face.",
+        "ru": "Они сделали маску из воскового слепка с ее лица.",
+        "learn": 0
+      },
+      {
+        "eng": "Doctors wear surgical masks in the operating room.",
+        "ru": "В операционной врачи носят хирургические маски.",
+        "learn": 1
+      },
+      {
+        "eng": "He wore a hirsute mask as part of his werewolf costume.",
+        "ru": "На нём была косматая маска — часть костюма оборотня.",
+        "learn": 0
+      },
+      {
+        "eng": "The new accommodation block has all but masked the original building.",
+        "ru": "Новый жилой блок почти полностью прикрыл собой первоначальное здание.",
+        "learn": 0
+      },
+      {
+        "eng": "Doctors and nurses working in an operating theatre have to mask their noses and mouths with a specially clean cloth.",
+        "ru": "Врачи и сёстры, делающие операцию, должны закрывать нос и рот стерильной тканью.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,84 +1,170 @@
 {
-    "union": {
-        "comment": [
-            "junior",
-            "opinion",
-            "onion"
-        ],
-        "translate": "союз, объединение, соединение, единение, союзный",
-        "transcription": " |ˈjuːniən|",
-        "antonyms": [],
-        "mnemonic": [
-            "union [ю'нион] союз - (Я ни он), чтобы о союзе нашем забыть."
-        ],
-        "examples": [
-            "Soviet Union",
-            "They live in perfect union.",
-            "Their union was blessed with three children.",
-            "Universal Postal Union",
-            "God bless this union!",
-            "Consumers Union",
-            "Are you planning to join the union?",
-            "The union had openly flouted the law.",
-            "Union of Myanmar",
-            "Arab Maghreb Union",
-            "European Payments Union",
-            "International Union of Biochemistry",
-            "The union has blacked a trucking firm.",
-            "The union refused to accept a wage cut.",
-            "Pan-American Union",
-            "Asian Clearing Union",
-            "Trade Union Congress",
-            "Latin Monetary Union",
-            "National Farmers Union",
-            "National Taxpayers' Union",
-            "Scandinavian Monetary Union",
-            "Scottish Trades Union Congress",
-            "International Union of Tenants",
-            "fought to keep the union intact",
-            "The Union army was a vast blue.",
-            "She joined the teachers' union.",
-            "He joined the tradesmen's union.",
-            "European Trade Union Confederation",
-            "The union is picketing the factory.",
-            "a union of loosely federated states"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Советский Союз",
-            "Они живут в полном согласии.",
-            "Бог послал им троих детей.",
-            "Международный почтовый союз",
-            "Благослови, господи, этот союз!",
-            "Союз потребителей (США)",
-            "Вы планируете вступить в профсоюз?",
-            "Профсоюз открыто пренебрегал законом.",
-            "Союз Мьянма",
-            "Арабский Магрибский союз",
-            "Европейский платёжный союз",
-            "Международный биохимический союз",
-            "Профсоюз объявил бойкот одной автотранспортной компании.",
-            "Профсоюз отказался согласиться со снижением заработной платы.",
-            "Панамериканский союз",
-            "Азиатский клиринговый союз",
-            "Британский конгресс профсоюзов",
-            "Латинский валютный союз",
-            "Национальный союз фермеров",
-            "Национальный союз налогоплательщиков (США)",
-            "Скандинавский валютный союз",
-            "Шотландский конгресс профсоюзов",
-            "Международный союз арендаторов",
-            "боролись за сохранение союза в целости и сохранности",
-            "Войска северян были словно огромное синее море. (мундиры северян во время Гражданской войны в США были синего цвета)",
-            "Она вступила в профсоюз учителей.",
-            "Он присоединился к профсоюзу работников торговли.",
-            "Европейская конфедерация профсоюзов",
-            "Профсоюз пикетирует фабрику.",
-            "объединение свободно интегрированных штатов"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "union": {
+    "comment": [
+      "junior",
+      "opinion",
+      "onion"
+    ],
+    "translate": "союз, объединение, соединение, единение, союзный",
+    "transcription": " |ˈjuːniən|",
+    "antonyms": [],
+    "mnemonic": [
+      "union [ю'нион] союз - (Я ни он), чтобы о союзе нашем забыть."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Soviet Union",
+        "ru": "Советский Союз",
+        "learn": 0
+      },
+      {
+        "eng": "They live in perfect union.",
+        "ru": "Они живут в полном согласии.",
+        "learn": 0
+      },
+      {
+        "eng": "Their union was blessed with three children.",
+        "ru": "Бог послал им троих детей.",
+        "learn": 0
+      },
+      {
+        "eng": "Universal Postal Union",
+        "ru": "Международный почтовый союз",
+        "learn": 0
+      },
+      {
+        "eng": "God bless this union!",
+        "ru": "Благослови, господи, этот союз!",
+        "learn": 0
+      },
+      {
+        "eng": "Consumers Union",
+        "ru": "Союз потребителей (США)",
+        "learn": 0
+      },
+      {
+        "eng": "Are you planning to join the union?",
+        "ru": "Вы планируете вступить в профсоюз?",
+        "learn": 0
+      },
+      {
+        "eng": "The union had openly flouted the law.",
+        "ru": "Профсоюз открыто пренебрегал законом.",
+        "learn": 0
+      },
+      {
+        "eng": "Union of Myanmar",
+        "ru": "Союз Мьянма",
+        "learn": 0
+      },
+      {
+        "eng": "Arab Maghreb Union",
+        "ru": "Арабский Магрибский союз",
+        "learn": 0
+      },
+      {
+        "eng": "European Payments Union",
+        "ru": "Европейский платёжный союз",
+        "learn": 0
+      },
+      {
+        "eng": "International Union of Biochemistry",
+        "ru": "Международный биохимический союз",
+        "learn": 0
+      },
+      {
+        "eng": "The union has blacked a trucking firm.",
+        "ru": "Профсоюз объявил бойкот одной автотранспортной компании.",
+        "learn": 0
+      },
+      {
+        "eng": "The union refused to accept a wage cut.",
+        "ru": "Профсоюз отказался согласиться со снижением заработной платы.",
+        "learn": 1
+      },
+      {
+        "eng": "Pan-American Union",
+        "ru": "Панамериканский союз",
+        "learn": 0
+      },
+      {
+        "eng": "Asian Clearing Union",
+        "ru": "Азиатский клиринговый союз",
+        "learn": 0
+      },
+      {
+        "eng": "Trade Union Congress",
+        "ru": "Британский конгресс профсоюзов",
+        "learn": 0
+      },
+      {
+        "eng": "Latin Monetary Union",
+        "ru": "Латинский валютный союз",
+        "learn": 0
+      },
+      {
+        "eng": "National Farmers Union",
+        "ru": "Национальный союз фермеров",
+        "learn": 0
+      },
+      {
+        "eng": "National Taxpayers' Union",
+        "ru": "Национальный союз налогоплательщиков (США)",
+        "learn": 0
+      },
+      {
+        "eng": "Scandinavian Monetary Union",
+        "ru": "Скандинавский валютный союз",
+        "learn": 0
+      },
+      {
+        "eng": "Scottish Trades Union Congress",
+        "ru": "Шотландский конгресс профсоюзов",
+        "learn": 0
+      },
+      {
+        "eng": "International Union of Tenants",
+        "ru": "Международный союз арендаторов",
+        "learn": 0
+      },
+      {
+        "eng": "fought to keep the union intact",
+        "ru": "боролись за сохранение союза в целости и сохранности",
+        "learn": 0
+      },
+      {
+        "eng": "The Union army was a vast blue.",
+        "ru": "Войска северян были словно огромное синее море. (мундиры северян во время Гражданской войны в США были синего цвета)",
+        "learn": 0
+      },
+      {
+        "eng": "She joined the teachers' union.",
+        "ru": "Она вступила в профсоюз учителей.",
+        "learn": 0
+      },
+      {
+        "eng": "He joined the tradesmen's union.",
+        "ru": "Он присоединился к профсоюзу работников торговли.",
+        "learn": 0
+      },
+      {
+        "eng": "European Trade Union Confederation",
+        "ru": "Европейская конфедерация профсоюзов",
+        "learn": 0
+      },
+      {
+        "eng": "The union is picketing the factory.",
+        "ru": "Профсоюз пикетирует фабрику.",
+        "learn": 0
+      },
+      {
+        "eng": "a union of loosely federated states",
+        "ru": "объединение свободно интегрированных штатов",
+        "learn": 0
+      }
+    ]
+  }
 }

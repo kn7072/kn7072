@@ -1,71 +1,130 @@
 {
-    "terrorism": {
-        "comment": [
-            "terribly",
-            "terrible",
-            "territory",
-            "terror",
-            "terrorist",
-            "deterrent",
-            "terrific",
-            "terrify",
-            "terrace",
-            "error"
-        ],
-        "translate": "терроризм",
-        "transcription": " |ˈterərɪzəm|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Acts of terrorism must not escape justice.",
-            "Their actions were shown to abet terrorism.",
-            "We will fight terrorism, wherever it exists.",
-            "I am utterly opposed to any form of terrorism.",
-            "He proposed a new plan for dealing with terrorism.",
-            "Intellectuals have initiated a debate on terrorism.",
-            "their alleged involvement in international terrorism",
-            "The U.S. took the lead in declaring war on terrorism.",
-            "Measures to combat terrorism will be high on the agenda.",
-            "No silver bullet can make the world safe from terrorism.",
-            "The nations covenanted to fight terrorism around the world.",
-            "He used a party conference fringe meeting to defend terrorism.",
-            "Does this policy provide coverage for acts of war or terrorism?",
-            "The establishment of the regional government did not end terrorism.",
-            "The powers could not allow such an act of terrorism to go unpunished.",
-            "He urged the whole community to stand united and to reject terrorism.",
-            "The government's statement was a condemnation of all acts of terrorism.",
-            "The government must not lose the initiative in the fight against terrorism.",
-            "The police have been given special powers to help them in the fight against terrorism.",
-            "The new international agreement opens up the possibility of much greater co-operation against terrorism.",
-            "The two agencies will need to intercommunicate better if the nation is ever to become truly secure from international terrorism."
-        ],
-        "example_translate": [
-            "Акты терроризма не должны ускользать от правосудия.",
-            "Как было показано, их действия поощряют терроризм.",
-            "Мы будем бороться с терроризмом везде, где он существует.",
-            "Я категорически против любых форм терроризма.",
-            "Он предложил новый план борьбы с терроризмом.",
-            "Интеллигенция инициировала дебаты по вопросу терроризма.",
-            "их предполагаемая причастность к международному терроризму",
-            "США первыми объявили войну терроризму.",
-            "Одним из первых пунктов повестки дня будет обсуждение мер борьбы с терроризмом.",
-            "Нет такого волшебного средства, чтобы можно было одним махом обезопасить мир от терроризма.",
-            "Народы заключили соглашение бороться с терроризмом по всему миру.",
-            "Он воспользовался дополнительным совещанием партконференции для поддержки терроризма.",
-            "Предоставляет ли этот полис страховое покрытие на случай военных действий или терроризма?",
-            "Создание регионального правительства не привело к уничтожению терроризма.",
-            "Власти не могут допустить, чтобы террористический акт прошёл безнаказанно.",
-            "Он призвал все сообщество объединиться и отвергнуть терроризм.",
-            "Заявление правительства сводилось к осуждению любых террористических действий.",
-            "Правительство не должно потерять инициативу в борьбе против терроризма.",
-            "Полицейским были даны особые полномочия, чтобы помочь им в борьбе с терроризмом.",
-            "Новое международное соглашение открывает возможности для гораздо более тесного сотрудничества в борьбе с терроризмом.",
-            "Если страна когда-нибудь хочет стать по-настоящему защищённой от международного терроризма, этим агентствам придётся наладить более тесное взаимодействие."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "terrorism": {
+    "comment": [
+      "terribly",
+      "terrible",
+      "territory",
+      "terror",
+      "terrorist",
+      "deterrent",
+      "terrific",
+      "terrify",
+      "terrace",
+      "error"
+    ],
+    "translate": "терроризм",
+    "transcription": " |ˈterərɪzəm|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Acts of terrorism must not escape justice.",
+        "ru": "Акты терроризма не должны ускользать от правосудия.",
+        "learn": 1
+      },
+      {
+        "eng": "Their actions were shown to abet terrorism.",
+        "ru": "Как было показано, их действия поощряют терроризм.",
+        "learn": 0
+      },
+      {
+        "eng": "We will fight terrorism, wherever it exists.",
+        "ru": "Мы будем бороться с терроризмом везде, где он существует.",
+        "learn": 1
+      },
+      {
+        "eng": "I am utterly opposed to any form of terrorism.",
+        "ru": "Я категорически против любых форм терроризма.",
+        "learn": 0
+      },
+      {
+        "eng": "He proposed a new plan for dealing with terrorism.",
+        "ru": "Он предложил новый план борьбы с терроризмом.",
+        "learn": 1
+      },
+      {
+        "eng": "Intellectuals have initiated a debate on terrorism.",
+        "ru": "Интеллигенция инициировала дебаты по вопросу терроризма.",
+        "learn": 0
+      },
+      {
+        "eng": "their alleged involvement in international terrorism",
+        "ru": "их предполагаемая причастность к международному терроризму",
+        "learn": 0
+      },
+      {
+        "eng": "The U.S. took the lead in declaring war on terrorism.",
+        "ru": "США первыми объявили войну терроризму.",
+        "learn": 0
+      },
+      {
+        "eng": "Measures to combat terrorism will be high on the agenda.",
+        "ru": "Одним из первых пунктов повестки дня будет обсуждение мер борьбы с терроризмом.",
+        "learn": 0
+      },
+      {
+        "eng": "No silver bullet can make the world safe from terrorism.",
+        "ru": "Нет такого волшебного средства, чтобы можно было одним махом обезопасить мир от терроризма.",
+        "learn": 0
+      },
+      {
+        "eng": "The nations covenanted to fight terrorism around the world.",
+        "ru": "Народы заключили соглашение бороться с терроризмом по всему миру.",
+        "learn": 0
+      },
+      {
+        "eng": "He used a party conference fringe meeting to defend terrorism.",
+        "ru": "Он воспользовался дополнительным совещанием партконференции для поддержки терроризма.",
+        "learn": 0
+      },
+      {
+        "eng": "Does this policy provide coverage for acts of war or terrorism?",
+        "ru": "Предоставляет ли этот полис страховое покрытие на случай военных действий или терроризма?",
+        "learn": 0
+      },
+      {
+        "eng": "The establishment of the regional government did not end terrorism.",
+        "ru": "Создание регионального правительства не привело к уничтожению терроризма.",
+        "learn": 0
+      },
+      {
+        "eng": "The powers could not allow such an act of terrorism to go unpunished.",
+        "ru": "Власти не могут допустить, чтобы террористический акт прошёл безнаказанно.",
+        "learn": 0
+      },
+      {
+        "eng": "He urged the whole community to stand united and to reject terrorism.",
+        "ru": "Он призвал все сообщество объединиться и отвергнуть терроризм.",
+        "learn": 0
+      },
+      {
+        "eng": "The government's statement was a condemnation of all acts of terrorism.",
+        "ru": "Заявление правительства сводилось к осуждению любых террористических действий.",
+        "learn": 0
+      },
+      {
+        "eng": "The government must not lose the initiative in the fight against terrorism.",
+        "ru": "Правительство не должно потерять инициативу в борьбе против терроризма.",
+        "learn": 1
+      },
+      {
+        "eng": "The police have been given special powers to help them in the fight against terrorism.",
+        "ru": "Полицейским были даны особые полномочия, чтобы помочь им в борьбе с терроризмом.",
+        "learn": 0
+      },
+      {
+        "eng": "The new international agreement opens up the possibility of much greater co-operation against terrorism.",
+        "ru": "Новое международное соглашение открывает возможности для гораздо более тесного сотрудничества в борьбе с терроризмом.",
+        "learn": 0
+      },
+      {
+        "eng": "The two agencies will need to intercommunicate better if the nation is ever to become truly secure from international terrorism.",
+        "ru": "Если страна когда-нибудь хочет стать по-настоящему защищённой от международного терроризма, этим агентствам придётся наладить более тесное взаимодействие.",
+        "learn": 0
+      }
+    ]
+  }
 }

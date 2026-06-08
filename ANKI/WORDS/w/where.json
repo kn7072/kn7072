@@ -1,90 +1,177 @@
 {
-    "where": {
-        "comment": [
-            "everywhere",
-            "elsewhere",
-            "anywhere",
-            "nowhere",
-            "somewhere",
-            "wherever",
-            "whereas",
-            "whereby"
-        ],
-        "translate": "где, куда, где, туда, туда где, место происшествия",
-        "transcription": " |wer|",
-        "antonyms": [],
-        "mnemonic": [
-            "where [(ув)е'я] где - (У Виа-гры) где родина? ."
-        ],
-        "examples": [
-            "Where are you going?",
-            "Where do they live?",
-            "Stay where you are.",
-            "Where did you meet her?",
-            "I am where I should be.",
-            "You can sit where you like.",
-            "Where is she taking us?",
-            "Where did you hear that?",
-            "Do you know where we're going?",
-            "Do you know where my glasses are?",
-            "I wonder where he gets these strange ideas.",
-            "Where have you come from?",
-            "Send him where he wants.",
-            "The store where we shop is closing.",
-            "Now where was I? Oh yes, I was telling you about my journey.",
-            "Please stay where you are.",
-            "Where would you like to sit?",
-            "I don't know where that came from.",
-            "You're free to go where you please.",
-            "Where does the story get interesting?",
-            "I have to know the where and the when.",
-            "They are rude where they should be reverent.",
-            "He put the note where she could easily see it.",
-            "They're easy to find, if you know where to look.",
-            "She was standing exactly where you are standing now.",
-            "I know where their house is.",
-            "He doesn't know where he is going.",
-            "It doesn't matter to me where we eat.",
-            "This is the room where the children sleep.",
-            "Where does the word 'super' come from?"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Куда вы идёте? / Куда ты?",
-            "Где они живут?",
-            "Стой, где стоишь. / Никуда не уходи.",
-            "Где ты её встретил? / Где вы с ней познакомились?",
-            "Я там, где я должен быть.",
-            "Садитесь, где вам больше нравится.",
-            "Куда она нас везёт /ведёт/?",
-            "Где ты это слышал?",
-            "Ты знаешь, куда мы идём?",
-            "Вы не знаете, где мои очки?",
-            "Интересно, откуда у него эти странные мысли.",
-            "Откуда вы пришли?",
-            "Пошлите его туда, куда он хочет.",
-            "(Тот) магазин, где мы обычно делаем покупки, закрывается.",
-            "Так на чем я остановился? Ах, да, я рассказывал тебе о своем путешествии.",
-            "Пожалуйста, оставайтесь там, где вы находитесь.",
-            "Где бы вы хотели сидеть?",
-            "Я не знаю, откуда это взялось.",
-            "Можешь идти, куда пожелаешь.",
-            "На каком моменте сюжет становится интересным?",
-            "Я должен знать место и время (когда это случилось).",
-            "Они грубы, тогда как должны быть почтительны.",
-            "Он положил эту записку у неё на виду.",
-            "Их легко найти, если знаешь, где искать.",
-            "Она стояла именно там, где стоите сейчас вы.",
-            "Я знаю, где их дом.",
-            "Он не знает, куда идёт.",
-            "Для меня не имеет значения, где именно мы едим.",
-            "Это комната, где спят дети. / Вот в этой комнате спят дети.",
-            "Откуда произошло слово \"супер\"?"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "-ere_=_[eə]"
-        ]
-    }
+  "where": {
+    "comment": [
+      "everywhere",
+      "elsewhere",
+      "anywhere",
+      "nowhere",
+      "somewhere",
+      "wherever",
+      "whereas",
+      "whereby"
+    ],
+    "translate": "где, куда, где, туда, туда где, место происшествия",
+    "transcription": " |wer|",
+    "antonyms": [],
+    "mnemonic": [
+      "where [(ув)е'я] где - (У Виа-гры) где родина? ."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "-ere_=_[eə]"
+    ],
+    "examples": [
+      {
+        "eng": "Where are you going?",
+        "ru": "Куда вы идёте? / Куда ты?",
+        "learn": 1
+      },
+      {
+        "eng": "Where do they live?",
+        "ru": "Где они живут?",
+        "learn": 0
+      },
+      {
+        "eng": "Stay where you are.",
+        "ru": "Стой, где стоишь. / Никуда не уходи.",
+        "learn": 0
+      },
+      {
+        "eng": "Where did you meet her?",
+        "ru": "Где ты её встретил? / Где вы с ней познакомились?",
+        "learn": 0
+      },
+      {
+        "eng": "I am where I should be.",
+        "ru": "Я там, где я должен быть.",
+        "learn": 0
+      },
+      {
+        "eng": "You can sit where you like.",
+        "ru": "Садитесь, где вам больше нравится.",
+        "learn": 0
+      },
+      {
+        "eng": "Where is she taking us?",
+        "ru": "Куда она нас везёт /ведёт/?",
+        "learn": 0
+      },
+      {
+        "eng": "Where did you hear that?",
+        "ru": "Где ты это слышал?",
+        "learn": 0
+      },
+      {
+        "eng": "Do you know where we're going?",
+        "ru": "Ты знаешь, куда мы идём?",
+        "learn": 0
+      },
+      {
+        "eng": "Do you know where my glasses are?",
+        "ru": "Вы не знаете, где мои очки?",
+        "learn": 0
+      },
+      {
+        "eng": "I wonder where he gets these strange ideas.",
+        "ru": "Интересно, откуда у него эти странные мысли.",
+        "learn": 0
+      },
+      {
+        "eng": "Where have you come from?",
+        "ru": "Откуда вы пришли?",
+        "learn": 0
+      },
+      {
+        "eng": "Send him where he wants.",
+        "ru": "Пошлите его туда, куда он хочет.",
+        "learn": 0
+      },
+      {
+        "eng": "The store where we shop is closing.",
+        "ru": "(Тот) магазин, где мы обычно делаем покупки, закрывается.",
+        "learn": 0
+      },
+      {
+        "eng": "Now where was I? Oh yes, I was telling you about my journey.",
+        "ru": "Так на чем я остановился? Ах, да, я рассказывал тебе о своем путешествии.",
+        "learn": 0
+      },
+      {
+        "eng": "Please stay where you are.",
+        "ru": "Пожалуйста, оставайтесь там, где вы находитесь.",
+        "learn": 1
+      },
+      {
+        "eng": "Where would you like to sit?",
+        "ru": "Где бы вы хотели сидеть?",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know where that came from.",
+        "ru": "Я не знаю, откуда это взялось.",
+        "learn": 0
+      },
+      {
+        "eng": "You're free to go where you please.",
+        "ru": "Можешь идти, куда пожелаешь.",
+        "learn": 0
+      },
+      {
+        "eng": "Where does the story get interesting?",
+        "ru": "На каком моменте сюжет становится интересным?",
+        "learn": 0
+      },
+      {
+        "eng": "I have to know the where and the when.",
+        "ru": "Я должен знать место и время (когда это случилось).",
+        "learn": 0
+      },
+      {
+        "eng": "They are rude where they should be reverent.",
+        "ru": "Они грубы, тогда как должны быть почтительны.",
+        "learn": 0
+      },
+      {
+        "eng": "He put the note where she could easily see it.",
+        "ru": "Он положил эту записку у неё на виду.",
+        "learn": 0
+      },
+      {
+        "eng": "They're easy to find, if you know where to look.",
+        "ru": "Их легко найти, если знаешь, где искать.",
+        "learn": 0
+      },
+      {
+        "eng": "She was standing exactly where you are standing now.",
+        "ru": "Она стояла именно там, где стоите сейчас вы.",
+        "learn": 1
+      },
+      {
+        "eng": "I know where their house is.",
+        "ru": "Я знаю, где их дом.",
+        "learn": 0
+      },
+      {
+        "eng": "He doesn't know where he is going.",
+        "ru": "Он не знает, куда идёт.",
+        "learn": 0
+      },
+      {
+        "eng": "It doesn't matter to me where we eat.",
+        "ru": "Для меня не имеет значения, где именно мы едим.",
+        "learn": 0
+      },
+      {
+        "eng": "This is the room where the children sleep.",
+        "ru": "Это комната, где спят дети. / Вот в этой комнате спят дети.",
+        "learn": 0
+      },
+      {
+        "eng": "Where does the word 'super' come from?",
+        "ru": "Откуда произошло слово \"супер\"?",
+        "learn": 0
+      }
+    ]
+  }
 }

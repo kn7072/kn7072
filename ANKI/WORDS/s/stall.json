@@ -1,87 +1,155 @@
 {
-    "stall": {
-        "comment": [
-            "ball",
-            "baseball",
-            "basketball",
-            "football",
-            "recall",
-            "hall",
-            "tall",
-            "fall",
-            "all",
-            "small",
-            "call",
-            "wall",
-            "overall",
-            "install",
-            "shall",
-            "mall",
-            "waterfall"
-        ],
-        "translate": " стойло, киоск, ларек, кабинка, прилавок, глохнуть, ставить в стойло, задерживать",
-        "transcription": "  |stɔːl|",
-        "antonyms": [],
-        "mnemonic": [
-            "stall [сто:л] ларёк, киоск, прилавок - Ларёк, киоск и прилавок объединяет (стол).",
-            "install [ɪn'stɔ:l]\nstall [stɔ:l] - ларёк, киоск, прилавок, партер\n***\nУСТАНОВИЛ программу на рабочий стол. (это) install\nПОМЕСТИЛИ всех за один|стол. install"
-        ],
-        "examples": [
-            "He was just stalling for time.",
-            "His career stalled.",
-            "He is 62 and has a fruit and vegetables stall at the market.",
-            "Where is the best place for a stall?",
-            "The car kept stalling.",
-            "He panicked when the car stalled.",
-            "While his career has stalled, hers has taken off.",
-            "The stall took £25 on Saturday.",
-            "She made two purchases from my stall.",
-            "Quit stalling! амер.",
-            "They are still stalling on a deal.",
-            "The car stalled in the driveway.",
-            "Maybe we can stall the sale until the prices go up.",
-            "Legal battles have stalled the project.",
-            "I'll try and stall them to give you time to get clear.",
-            "We've got to stall him somehow.",
-            "Quit stalling and answer my question!",
-            "The stableboy closed the horse in the stall.",
-            "The peace process remained stalled.",
-            "The boxes were empty, and only a few of the orchestra stalls were taken.",
-            "She doesn't want to write the report, so she is stalling.",
-            "The inexperienced driver kept stalling the car.",
-            "Her car was in its stall in the subterranean garage. (C. Weston)",
-            "An inexperienced pilot may easily stall a plane."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он просто тянул / хотел выиграть / время.",
-            "Его карьера застопорилась.",
-            "Ему 62 года, и у него есть место на рынке для продажи фруктов и овощей.",
-            "Где наилучшее местоположение для конюшни?",
-            "Автомобиль продолжает терять скорость.",
-            "Его охватила паника, когда машина заглохла.",
-            "Его карьера переживает застой, её же — явно набирает обороты.",
-            "В субботу выручка в ларьке составила 25 фунтов.",
-            "Она сделала в моём ларьке две покупки.",
-            "Хватит вилять.",
-            "Они всё ещё тянут с заключением сделки.",
-            "Автомобиль заглох на подъездной дороге.",
-            "Может быть, нам удастся приостановить продажу до тех пор, пока цены не вырастут.",
-            "Из-за юридических баталий проект застопорился.",
-            "Я попытаюсь их задержать, чтобы дать тебе время уйти.",
-            "Мы должны его как-то остановить.",
-            "Брось тянуть время и отвечай на мой вопрос!",
-            "Помощник конюха запер лошадь в конюшне.",
-            "Мирный процесс по-прежнему оставался в тупике.",
-            "Ложи пустовали, в первых рядах партера было занято всего несколько мест.",
-            "Она не хочет писать этот отчёт, вот и тянет резину.",
-            "У этого неопытного водителя машина постоянно глохла.",
-            "Ее машина стояла на своем месте в подземном гараже.",
-            "Неопытный пилот запросто может свалить самолёт в штопор."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "stall": {
+    "comment": [
+      "ball",
+      "baseball",
+      "basketball",
+      "football",
+      "recall",
+      "hall",
+      "tall",
+      "fall",
+      "all",
+      "small",
+      "call",
+      "wall",
+      "overall",
+      "install",
+      "shall",
+      "mall",
+      "waterfall"
+    ],
+    "translate": " стойло, киоск, ларек, кабинка, прилавок, глохнуть, ставить в стойло, задерживать",
+    "transcription": "  |stɔːl|",
+    "antonyms": [],
+    "mnemonic": [
+      "stall [сто:л] ларёк, киоск, прилавок - Ларёк, киоск и прилавок объединяет (стол).",
+      "install [ɪn'stɔ:l]\nstall [stɔ:l] - ларёк, киоск, прилавок, партер\n***\nУСТАНОВИЛ программу на рабочий стол. (это) install\nПОМЕСТИЛИ всех за один|стол. install"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He was just stalling for time.",
+        "ru": "Он просто тянул / хотел выиграть / время.",
+        "learn": 0
+      },
+      {
+        "eng": "His career stalled.",
+        "ru": "Его карьера застопорилась.",
+        "learn": 1
+      },
+      {
+        "eng": "He is 62 and has a fruit and vegetables stall at the market.",
+        "ru": "Ему 62 года, и у него есть место на рынке для продажи фруктов и овощей.",
+        "learn": 0
+      },
+      {
+        "eng": "Where is the best place for a stall?",
+        "ru": "Где наилучшее местоположение для конюшни?",
+        "learn": 0
+      },
+      {
+        "eng": "The car kept stalling.",
+        "ru": "Автомобиль продолжает терять скорость.",
+        "learn": 0
+      },
+      {
+        "eng": "He panicked when the car stalled.",
+        "ru": "Его охватила паника, когда машина заглохла.",
+        "learn": 0
+      },
+      {
+        "eng": "While his career has stalled, hers has taken off.",
+        "ru": "Его карьера переживает застой, её же — явно набирает обороты.",
+        "learn": 0
+      },
+      {
+        "eng": "The stall took £25 on Saturday.",
+        "ru": "В субботу выручка в ларьке составила 25 фунтов.",
+        "learn": 0
+      },
+      {
+        "eng": "She made two purchases from my stall.",
+        "ru": "Она сделала в моём ларьке две покупки.",
+        "learn": 1
+      },
+      {
+        "eng": "Quit stalling! амер.",
+        "ru": "Хватит вилять.",
+        "learn": 0
+      },
+      {
+        "eng": "They are still stalling on a deal.",
+        "ru": "Они всё ещё тянут с заключением сделки.",
+        "learn": 0
+      },
+      {
+        "eng": "The car stalled in the driveway.",
+        "ru": "Автомобиль заглох на подъездной дороге.",
+        "learn": 0
+      },
+      {
+        "eng": "Maybe we can stall the sale until the prices go up.",
+        "ru": "Может быть, нам удастся приостановить продажу до тех пор, пока цены не вырастут.",
+        "learn": 0
+      },
+      {
+        "eng": "Legal battles have stalled the project.",
+        "ru": "Из-за юридических баталий проект застопорился.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll try and stall them to give you time to get clear.",
+        "ru": "Я попытаюсь их задержать, чтобы дать тебе время уйти.",
+        "learn": 0
+      },
+      {
+        "eng": "We've got to stall him somehow.",
+        "ru": "Мы должны его как-то остановить.",
+        "learn": 0
+      },
+      {
+        "eng": "Quit stalling and answer my question!",
+        "ru": "Брось тянуть время и отвечай на мой вопрос!",
+        "learn": 0
+      },
+      {
+        "eng": "The stableboy closed the horse in the stall.",
+        "ru": "Помощник конюха запер лошадь в конюшне.",
+        "learn": 0
+      },
+      {
+        "eng": "The peace process remained stalled.",
+        "ru": "Мирный процесс по-прежнему оставался в тупике.",
+        "learn": 1
+      },
+      {
+        "eng": "The boxes were empty, and only a few of the orchestra stalls were taken.",
+        "ru": "Ложи пустовали, в первых рядах партера было занято всего несколько мест.",
+        "learn": 0
+      },
+      {
+        "eng": "She doesn't want to write the report, so she is stalling.",
+        "ru": "Она не хочет писать этот отчёт, вот и тянет резину.",
+        "learn": 0
+      },
+      {
+        "eng": "The inexperienced driver kept stalling the car.",
+        "ru": "У этого неопытного водителя машина постоянно глохла.",
+        "learn": 0
+      },
+      {
+        "eng": "Her car was in its stall in the subterranean garage. (C. Weston)",
+        "ru": "Ее машина стояла на своем месте в подземном гараже.",
+        "learn": 0
+      },
+      {
+        "eng": "An inexperienced pilot may easily stall a plane.",
+        "ru": "Неопытный пилот запросто может свалить самолёт в штопор.",
+        "learn": 1
+      }
+    ]
+  }
 }

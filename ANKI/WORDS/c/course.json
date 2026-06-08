@@ -1,90 +1,177 @@
 {
-    "course": {
-        "comment": [
-            "of course",
-            "couple",
-            "could",
-            "cousin",
-            "discourse",
-            "coarse",
-            "curse"
-        ],
-        "translate": "курс, блюдо, направление, курсовой, бежать, течь, преследовать",
-        "transcription": " |kɔːrs|",
-        "antonyms": [],
-        "mnemonic": [
-            "course [ко:с] курс, ход, направление - Курс на (кос-мос)!.",
-            "course [kɔ: s]\ncurse [kɜ: s]\n***\nКУРС плохой, когда под откос. (это) course\nТЕЧЕНИЕ под откос. (это) course\n***\nВ этом направлении \"course\"\nесть воды источник \"source\".\n***\nПРОКЛИНАЕТ жизнь черкес. (это) curse\nПроклятие, ругательство, бич, бедствие"
-        ],
-        "examples": [
-            "the course of a river",
-            "I could feel the warm blood coursing through my veins.",
-            "In the course of the discussion many views were heard.",
-            "Your best course would be to accept his offer.",
-            "The ship was 200 miles off course.",
-            "The ship was blown off course.",
-            "We had fish for the main course.",
-            "Tears coursed down his cheeks.",
-            "She prepared a three course meal.",
-            "The race was run on the turf course.",
-            "Wild ideas came coursing through my brain as I read the letter.",
-            "The course was less than a mile.",
-            "The country club has a golf course.",
-            "The college offers courses in science and in the humanities.",
-            "The course had only nine holes.",
-            "Tears were coursing down his cheeks.",
-            "We then coursed down a considerable stream.",
-            "The government took a firm course.",
-            "the blood coursing through my veins",
-            "Relax and let nature take its course.",
-            "He often courses hares.",
-            "Students earn the degree after a two-year course of study.",
-            "He took a course in basket weaving.",
-            "Gorbachev changed the course of Soviet history.",
-            "The ticket includes entry and a four-course meal.",
-            "Meeting Sally changed the whole course of his life.",
-            "The river takes a southern course.",
-            "73 candidates enrolled on the course.",
-            "If you persist in that course you will surely fail.",
-            "It seems the boom in World Music has run its course."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "течение реки",
-            "Я чувствовал, как кровь бежит у меня по жилам.",
-            "В ходе дискуссии было выслушано много разных точек зрения.",
-            "Лучше всего для тебя будет это принять его предложение.",
-            "Судно на двести миль отклонилось от курса.",
-            "Из-за ветра корабль сбился с намеченного курса.",
-            "На второе у нас была рыба.",
-            "По его щекам потекли слёзы.",
-            "Она приготовила обед из трёх блюд.",
-            "Скачки проходили на травяной скаковой дорожке.",
-            "Когда я читал письмо, у меня в голове проносились странные мысли.",
-            "Дистанция была меньше мили длиной.",
-            "В этом загородном клубе есть поле для гольфа.",
-            "Колледж предлагает курсы по естественным и гуманитарным наукам.",
-            "На поле для гольфа было только девять лунок.",
-            "По его щекам стекали слёзы.",
-            "Затем мы направились вниз по большой реке.",
-            "Правительством был взят твёрдый курс.",
-            "кровь, которая течёт в моих венах",
-            "Расслабься, и пусть всё идёт своим чередом.",
-            "Он часто охотится на зайцев с гончими.",
-            "Студенты получают диплом после двухгодичного курса обучения.",
-            "Он прошёл курс плетения корзин.",
-            "Горбачёв изменил курс советской истории.",
-            "Стоимость билета включает в себя плату за вход и обед из четырёх блюд.",
-            "Встреча с Салли изменила весь ход его жизни.",
-            "Река течёт в южном направлении.",
-            "На курс записалось семьдесят три кандидата.",
-            "Если вы не свернёте с этого пути, то наверняка потерпите неудачу.",
-            "Кажется, повальное увлечение этнической музыкой исчерпало свой потенциал."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "our_=_[ɔː]"
-        ]
-    }
+  "course": {
+    "comment": [
+      "of course",
+      "couple",
+      "could",
+      "cousin",
+      "discourse",
+      "coarse",
+      "curse"
+    ],
+    "translate": "курс, блюдо, направление, курсовой, бежать, течь, преследовать",
+    "transcription": " |kɔːrs|",
+    "antonyms": [],
+    "mnemonic": [
+      "course [ко:с] курс, ход, направление - Курс на (кос-мос)!.",
+      "course [kɔ: s]\ncurse [kɜ: s]\n***\nКУРС плохой, когда под откос. (это) course\nТЕЧЕНИЕ под откос. (это) course\n***\nВ этом направлении \"course\"\nесть воды источник \"source\".\n***\nПРОКЛИНАЕТ жизнь черкес. (это) curse\nПроклятие, ругательство, бич, бедствие"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "our_=_[ɔː]"
+    ],
+    "examples": [
+      {
+        "eng": "the course of a river",
+        "ru": "течение реки",
+        "learn": 0
+      },
+      {
+        "eng": "I could feel the warm blood coursing through my veins.",
+        "ru": "Я чувствовал, как кровь бежит у меня по жилам.",
+        "learn": 0
+      },
+      {
+        "eng": "In the course of the discussion many views were heard.",
+        "ru": "В ходе дискуссии было выслушано много разных точек зрения.",
+        "learn": 0
+      },
+      {
+        "eng": "Your best course would be to accept his offer.",
+        "ru": "Лучше всего для тебя будет это принять его предложение.",
+        "learn": 0
+      },
+      {
+        "eng": "The ship was 200 miles off course.",
+        "ru": "Судно на двести миль отклонилось от курса.",
+        "learn": 0
+      },
+      {
+        "eng": "The ship was blown off course.",
+        "ru": "Из-за ветра корабль сбился с намеченного курса.",
+        "learn": 0
+      },
+      {
+        "eng": "We had fish for the main course.",
+        "ru": "На второе у нас была рыба.",
+        "learn": 0
+      },
+      {
+        "eng": "Tears coursed down his cheeks.",
+        "ru": "По его щекам потекли слёзы.",
+        "learn": 0
+      },
+      {
+        "eng": "She prepared a three course meal.",
+        "ru": "Она приготовила обед из трёх блюд.",
+        "learn": 0
+      },
+      {
+        "eng": "The race was run on the turf course.",
+        "ru": "Скачки проходили на травяной скаковой дорожке.",
+        "learn": 0
+      },
+      {
+        "eng": "Wild ideas came coursing through my brain as I read the letter.",
+        "ru": "Когда я читал письмо, у меня в голове проносились странные мысли.",
+        "learn": 0
+      },
+      {
+        "eng": "The course was less than a mile.",
+        "ru": "Дистанция была меньше мили длиной.",
+        "learn": 0
+      },
+      {
+        "eng": "The country club has a golf course.",
+        "ru": "В этом загородном клубе есть поле для гольфа.",
+        "learn": 0
+      },
+      {
+        "eng": "The college offers courses in science and in the humanities.",
+        "ru": "Колледж предлагает курсы по естественным и гуманитарным наукам.",
+        "learn": 0
+      },
+      {
+        "eng": "The course had only nine holes.",
+        "ru": "На поле для гольфа было только девять лунок.",
+        "learn": 0
+      },
+      {
+        "eng": "Tears were coursing down his cheeks.",
+        "ru": "По его щекам стекали слёзы.",
+        "learn": 0
+      },
+      {
+        "eng": "We then coursed down a considerable stream.",
+        "ru": "Затем мы направились вниз по большой реке.",
+        "learn": 0
+      },
+      {
+        "eng": "The government took a firm course.",
+        "ru": "Правительством был взят твёрдый курс.",
+        "learn": 0
+      },
+      {
+        "eng": "the blood coursing through my veins",
+        "ru": "кровь, которая течёт в моих венах",
+        "learn": 0
+      },
+      {
+        "eng": "Relax and let nature take its course.",
+        "ru": "Расслабься, и пусть всё идёт своим чередом.",
+        "learn": 0
+      },
+      {
+        "eng": "He often courses hares.",
+        "ru": "Он часто охотится на зайцев с гончими.",
+        "learn": 0
+      },
+      {
+        "eng": "Students earn the degree after a two-year course of study.",
+        "ru": "Студенты получают диплом после двухгодичного курса обучения.",
+        "learn": 0
+      },
+      {
+        "eng": "He took a course in basket weaving.",
+        "ru": "Он прошёл курс плетения корзин.",
+        "learn": 0
+      },
+      {
+        "eng": "Gorbachev changed the course of Soviet history.",
+        "ru": "Горбачёв изменил курс советской истории.",
+        "learn": 0
+      },
+      {
+        "eng": "The ticket includes entry and a four-course meal.",
+        "ru": "Стоимость билета включает в себя плату за вход и обед из четырёх блюд.",
+        "learn": 1
+      },
+      {
+        "eng": "Meeting Sally changed the whole course of his life.",
+        "ru": "Встреча с Салли изменила весь ход его жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "The river takes a southern course.",
+        "ru": "Река течёт в южном направлении.",
+        "learn": 0
+      },
+      {
+        "eng": "73 candidates enrolled on the course.",
+        "ru": "На курс записалось семьдесят три кандидата.",
+        "learn": 0
+      },
+      {
+        "eng": "If you persist in that course you will surely fail.",
+        "ru": "Если вы не свернёте с этого пути, то наверняка потерпите неудачу.",
+        "learn": 1
+      },
+      {
+        "eng": "It seems the boom in World Music has run its course.",
+        "ru": "Кажется, повальное увлечение этнической музыкой исчерпало свой потенциал.",
+        "learn": 0
+      }
+    ]
+  }
 }

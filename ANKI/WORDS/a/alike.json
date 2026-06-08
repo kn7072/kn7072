@@ -1,69 +1,125 @@
 {
-    "alike": {
-        "comment": [
-            "unlikely",
-            "likely",
-            "dislike",
-            "like",
-            "would like",
-            "unlike",
-            "likelihood",
-            "likewise"
-        ],
-        "translate": "подобный, одинаковый, похожий, подобно, одинаково, точно так же",
-        "transcription": " |əˈlaɪk|",
-        "antonyms": [],
-        "mnemonic": [
-            "alike [эла'йк] похожий, одинаковый - (А лайк-и) похожи на волков."
-        ],
-        "examples": [
-            "People say we look alike.",
-            "I always confuse you with your sister - you look so alike.",
-            "The two cars are much alike.",
-            "To complain, or not complain, alike is unavailable.",
-            "I learned a lot from teachers and students alike.",
-            "Many men, many minds. / No two minds think alike. посл.",
-            "The skin doesn't feel alike everywhere.",
-            "My mother and I are alike in many ways.",
-            "Young and old alike will enjoy the movie.",
-            "The twins were dressed alike.",
-            "The two brothers are so much alike, it is difficult to discriminate between them.",
-            "The students all recreate alike.",
-            "Friends are generally alike in background and taste.",
-            "Our two cats are so alike, I can never tell one from the other.",
-            "The words “made” and “maid” sound alike but have different spellings.",
-            "The President's visit to the school was a real happening for teachers and students alike.",
-            "Her ability was acknowledged by friend and foe alike.",
-            "The twins are so alike that it's easy to muddle them up.",
-            "The film has won praise from audiences and critics alike.",
-            "The issue of whether a person's nature or upbringing is more important continues to be mooted by experts and laymen alike."
-        ],
-        "example_translate": [
-            "Говорят, что мы похожи.",
-            "Я всегда путаю вас с вашей сестрой – вы очень похожи.",
-            "Эти две машины во многом похожи.",
-            "Жалуйся, не жалуйся - всё бесполезно.",
-            "Я многому научился — как у преподавателей, так и у студентов.",
-            "Сколько голов, столько умов.",
-            "Кожа не везде имеет одинаковую чувствительность.",
-            "Мы с мамой во многом похожи.",
-            "Этот фильм понравится и старикам, и молодёжи.",
-            "Близнецы были одеты одинаково.",
-            "Братья так похожи, едва отличишь одного от другого.",
-            "Все студенты отдыхают одинаково.",
-            "У друзей обычно сходятся происхождение и вкусы.",
-            "Наши коты так похожи — я не могу отличить одного от другого.",
-            "Слова \"made\" (сделано) и \"maid\" (дева, горничная) звучат одинаково, но пишутся по-разному.",
-            "Визит президента стал настоящим событием как для преподавателей, так и для учеников этой школы.",
-            "Её талант был признан как друзьями, так и врагами.",
-            "Близнецы так похожи, что их легко перепутать.",
-            "Фильм удостоился похвалы как критиков, так и зрителей.",
-            "Вопрос о том, что является более важным — природные данные человека или его воспитание, продолжает обсуждаться как специалистами, так и дилетантами."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "alike": {
+    "comment": [
+      "unlikely",
+      "likely",
+      "dislike",
+      "like",
+      "would like",
+      "unlike",
+      "likelihood",
+      "likewise"
+    ],
+    "translate": "подобный, одинаковый, похожий, подобно, одинаково, точно так же",
+    "transcription": " |əˈlaɪk|",
+    "antonyms": [],
+    "mnemonic": [
+      "alike [эла'йк] похожий, одинаковый - (А лайк-и) похожи на волков."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "People say we look alike.",
+        "ru": "Говорят, что мы похожи.",
+        "learn": 0
+      },
+      {
+        "eng": "I always confuse you with your sister - you look so alike.",
+        "ru": "Я всегда путаю вас с вашей сестрой – вы очень похожи.",
+        "learn": 1
+      },
+      {
+        "eng": "The two cars are much alike.",
+        "ru": "Эти две машины во многом похожи.",
+        "learn": 0
+      },
+      {
+        "eng": "To complain, or not complain, alike is unavailable.",
+        "ru": "Жалуйся, не жалуйся - всё бесполезно.",
+        "learn": 0
+      },
+      {
+        "eng": "I learned a lot from teachers and students alike.",
+        "ru": "Я многому научился — как у преподавателей, так и у студентов.",
+        "learn": 0
+      },
+      {
+        "eng": "Many men, many minds. / No two minds think alike. посл.",
+        "ru": "Сколько голов, столько умов.",
+        "learn": 0
+      },
+      {
+        "eng": "The skin doesn't feel alike everywhere.",
+        "ru": "Кожа не везде имеет одинаковую чувствительность.",
+        "learn": 0
+      },
+      {
+        "eng": "My mother and I are alike in many ways.",
+        "ru": "Мы с мамой во многом похожи.",
+        "learn": 0
+      },
+      {
+        "eng": "Young and old alike will enjoy the movie.",
+        "ru": "Этот фильм понравится и старикам, и молодёжи.",
+        "learn": 1
+      },
+      {
+        "eng": "The twins were dressed alike.",
+        "ru": "Близнецы были одеты одинаково.",
+        "learn": 0
+      },
+      {
+        "eng": "The two brothers are so much alike, it is difficult to discriminate between them.",
+        "ru": "Братья так похожи, едва отличишь одного от другого.",
+        "learn": 1
+      },
+      {
+        "eng": "The students all recreate alike.",
+        "ru": "Все студенты отдыхают одинаково.",
+        "learn": 0
+      },
+      {
+        "eng": "Friends are generally alike in background and taste.",
+        "ru": "У друзей обычно сходятся происхождение и вкусы.",
+        "learn": 0
+      },
+      {
+        "eng": "Our two cats are so alike, I can never tell one from the other.",
+        "ru": "Наши коты так похожи — я не могу отличить одного от другого.",
+        "learn": 0
+      },
+      {
+        "eng": "The words “made” and “maid” sound alike but have different spellings.",
+        "ru": "Слова \"made\" (сделано) и \"maid\" (дева, горничная) звучат одинаково, но пишутся по-разному.",
+        "learn": 0
+      },
+      {
+        "eng": "The President's visit to the school was a real happening for teachers and students alike.",
+        "ru": "Визит президента стал настоящим событием как для преподавателей, так и для учеников этой школы.",
+        "learn": 0
+      },
+      {
+        "eng": "Her ability was acknowledged by friend and foe alike.",
+        "ru": "Её талант был признан как друзьями, так и врагами.",
+        "learn": 0
+      },
+      {
+        "eng": "The twins are so alike that it's easy to muddle them up.",
+        "ru": "Близнецы так похожи, что их легко перепутать.",
+        "learn": 0
+      },
+      {
+        "eng": "The film has won praise from audiences and critics alike.",
+        "ru": "Фильм удостоился похвалы как критиков, так и зрителей.",
+        "learn": 0
+      },
+      {
+        "eng": "The issue of whether a person's nature or upbringing is more important continues to be mooted by experts and laymen alike.",
+        "ru": "Вопрос о том, что является более важным — природные данные человека или его воспитание, продолжает обсуждаться как специалистами, так и дилетантами.",
+        "learn": 0
+      }
+    ]
+  }
 }

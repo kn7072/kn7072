@@ -1,84 +1,170 @@
 {
-    "shout": {
-        "comment": [
-            "should",
-            "shoulder"
-        ],
-        "translate": "крик, окрик, возглас, громкий крик, кричать, покричать, накричать, звать",
-        "transcription": " |ʃaʊt|",
-        "antonyms": [],
-        "mnemonic": [
-            "shout [ша'ут] крик - Что за крик, (Гри-ша, ут-ро) ведь пока?!.",
-            "shout [ʃaut]\n***\nКРИКИ ничего не решают. (это) shout\nОни КРИЧАТ, но ничего не решают. (это) shout\nКрик, возглас."
-        ],
-        "examples": [
-            "Do not shout at me.",
-            "He shouted out in pain.",
-            "Mother shouted for the children.",
-            "There's no need to shout at me.",
-            "A shout arose from the crowd.",
-            "When I call your name, shout out so that we know you're here.",
-            "I wish you'd stop shouting at the children.",
-            "Give me a shout when you're ready to go.",
-            "All our supporters were shouting for the home team.",
-            "The sailors gave a shout of joy when they sighted land.",
-            "The angry mother shouted at the teacher.",
-            "You don't have to shout at me.",
-            "There's no need to shout! I can hear you!",
-            "Tom gave a shout of laughter when he saw them.",
-            "'Watch out!' she shouted, as the car started to move.",
-            "We could hear them shouting for help.",
-            "He didn't shout, he just glared at me silently.",
-            "I know I'm late, but that's no reason to shout at me.",
-            "Don't shout out the answer in class, put up your hand.",
-            "'He's down here!' she shouted to Alison.",
-            "They began to curse and shout in a babble of language.",
-            "Joe shouted for joy when he heard he'd passed the exam.",
-            "I've never known him to shout (=he never shouts).",
-            "I had to shout to make myself heard above the music.",
-            "My grandmother is hard of hearing — you'll have to shout.",
-            "I gave a sudden shout of surprise when the shower abruptly turned ice-cold.",
-            "The crowd set up a shout as the winner neared the post.",
-            "The voices of dissentients were drowned by the predominant shout.",
-            "With a shout of victory, he thrust his sword into his enemy's body.",
-            "There was a triumphant shout which accompanied his awkward sprawl on the carpet."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Не кричи на меня.",
-            "Он громко закричал от боли.",
-            "Мама громко позвала детей.",
-            "Не надо на меня орать.",
-            "Из толпы раздались крики.",
-            "Когда называют вашу фамилию, громко отзывайтесь, чтобы мы знали, что вы здесь.",
-            "Я хочу, чтобы ты прекратил кричать на детей.",
-            "Крикните мне, когда будете готовы идти.",
-            "Все наши болельщики поддерживали местную команду.",
-            "Матросы закричали от радости, когда увидели землю.",
-            "Разгневанная мать накричала на учителя.",
-            "Необязательно на меня кричать.",
-            "Не надо орать! Я тебя слышу!",
-            "Увидев их, Том разразился громким смехом.",
-            "— Осторожно! — закричала она, когда машина начала двигаться.",
-            "Мы слышали, как они зовут на помощь.",
-            "Он не закричал, а лишь зло посмотрел на меня без единого слова.",
-            "Я знаю, что опоздал, но это не повод на меня орать.",
-            "На уроках не выкрикивай ответ с места, — поднимай руку.",
-            "— Он здесь, внизу! — крикнула она Элисон.",
-            "Они начали кричать и ругаться, но ничего нельзя было разобрать.",
-            "Джо закричал от радости, когда услышал, что сдал экзамен.",
-            "Я никогда не слышала, чтобы он кричал (т.е. он никогда не кричит).",
-            "Мне пришлось перекрикивать музыку, чтобы меня было слышно.",
-            "Моя бабушка плохо слышит — вам придётся кричать.",
-            "Я вскрикнула от удивления, когда вода в душе внезапно стала холодной, как лёд /ледяной/.",
-            "Когда победитель вышел на финишную прямую, толпа закричала.",
-            "Голоса несогласных утонули в криках большинства.",
-            "С победным криком он вонзил меч в тело врага.",
-            "С ликующим криком он неуклюже растянулся на ковре."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "shout": {
+    "comment": [
+      "should",
+      "shoulder"
+    ],
+    "translate": "крик, окрик, возглас, громкий крик, кричать, покричать, накричать, звать",
+    "transcription": " |ʃaʊt|",
+    "antonyms": [],
+    "mnemonic": [
+      "shout [ша'ут] крик - Что за крик, (Гри-ша, ут-ро) ведь пока?!.",
+      "shout [ʃaut]\n***\nКРИКИ ничего не решают. (это) shout\nОни КРИЧАТ, но ничего не решают. (это) shout\nКрик, возглас."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Do not shout at me.",
+        "ru": "Не кричи на меня.",
+        "learn": 1
+      },
+      {
+        "eng": "He shouted out in pain.",
+        "ru": "Он громко закричал от боли.",
+        "learn": 0
+      },
+      {
+        "eng": "Mother shouted for the children.",
+        "ru": "Мама громко позвала детей.",
+        "learn": 1
+      },
+      {
+        "eng": "There's no need to shout at me.",
+        "ru": "Не надо на меня орать.",
+        "learn": 0
+      },
+      {
+        "eng": "A shout arose from the crowd.",
+        "ru": "Из толпы раздались крики.",
+        "learn": 0
+      },
+      {
+        "eng": "When I call your name, shout out so that we know you're here.",
+        "ru": "Когда называют вашу фамилию, громко отзывайтесь, чтобы мы знали, что вы здесь.",
+        "learn": 0
+      },
+      {
+        "eng": "I wish you'd stop shouting at the children.",
+        "ru": "Я хочу, чтобы ты прекратил кричать на детей.",
+        "learn": 1
+      },
+      {
+        "eng": "Give me a shout when you're ready to go.",
+        "ru": "Крикните мне, когда будете готовы идти.",
+        "learn": 1
+      },
+      {
+        "eng": "All our supporters were shouting for the home team.",
+        "ru": "Все наши болельщики поддерживали местную команду.",
+        "learn": 0
+      },
+      {
+        "eng": "The sailors gave a shout of joy when they sighted land.",
+        "ru": "Матросы закричали от радости, когда увидели землю.",
+        "learn": 0
+      },
+      {
+        "eng": "The angry mother shouted at the teacher.",
+        "ru": "Разгневанная мать накричала на учителя.",
+        "learn": 0
+      },
+      {
+        "eng": "You don't have to shout at me.",
+        "ru": "Необязательно на меня кричать.",
+        "learn": 0
+      },
+      {
+        "eng": "There's no need to shout! I can hear you!",
+        "ru": "Не надо орать! Я тебя слышу!",
+        "learn": 0
+      },
+      {
+        "eng": "Tom gave a shout of laughter when he saw them.",
+        "ru": "Увидев их, Том разразился громким смехом.",
+        "learn": 0
+      },
+      {
+        "eng": "'Watch out!' she shouted, as the car started to move.",
+        "ru": "— Осторожно! — закричала она, когда машина начала двигаться.",
+        "learn": 0
+      },
+      {
+        "eng": "We could hear them shouting for help.",
+        "ru": "Мы слышали, как они зовут на помощь.",
+        "learn": 0
+      },
+      {
+        "eng": "He didn't shout, he just glared at me silently.",
+        "ru": "Он не закричал, а лишь зло посмотрел на меня без единого слова.",
+        "learn": 0
+      },
+      {
+        "eng": "I know I'm late, but that's no reason to shout at me.",
+        "ru": "Я знаю, что опоздал, но это не повод на меня орать.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't shout out the answer in class, put up your hand.",
+        "ru": "На уроках не выкрикивай ответ с места, — поднимай руку.",
+        "learn": 0
+      },
+      {
+        "eng": "'He's down here!' she shouted to Alison.",
+        "ru": "— Он здесь, внизу! — крикнула она Элисон.",
+        "learn": 0
+      },
+      {
+        "eng": "They began to curse and shout in a babble of language.",
+        "ru": "Они начали кричать и ругаться, но ничего нельзя было разобрать.",
+        "learn": 0
+      },
+      {
+        "eng": "Joe shouted for joy when he heard he'd passed the exam.",
+        "ru": "Джо закричал от радости, когда услышал, что сдал экзамен.",
+        "learn": 0
+      },
+      {
+        "eng": "I've never known him to shout (=he never shouts).",
+        "ru": "Я никогда не слышала, чтобы он кричал (т.е. он никогда не кричит).",
+        "learn": 0
+      },
+      {
+        "eng": "I had to shout to make myself heard above the music.",
+        "ru": "Мне пришлось перекрикивать музыку, чтобы меня было слышно.",
+        "learn": 0
+      },
+      {
+        "eng": "My grandmother is hard of hearing — you'll have to shout.",
+        "ru": "Моя бабушка плохо слышит — вам придётся кричать.",
+        "learn": 0
+      },
+      {
+        "eng": "I gave a sudden shout of surprise when the shower abruptly turned ice-cold.",
+        "ru": "Я вскрикнула от удивления, когда вода в душе внезапно стала холодной, как лёд /ледяной/.",
+        "learn": 0
+      },
+      {
+        "eng": "The crowd set up a shout as the winner neared the post.",
+        "ru": "Когда победитель вышел на финишную прямую, толпа закричала.",
+        "learn": 0
+      },
+      {
+        "eng": "The voices of dissentients were drowned by the predominant shout.",
+        "ru": "Голоса несогласных утонули в криках большинства.",
+        "learn": 0
+      },
+      {
+        "eng": "With a shout of victory, he thrust his sword into his enemy's body.",
+        "ru": "С победным криком он вонзил меч в тело врага.",
+        "learn": 1
+      },
+      {
+        "eng": "There was a triumphant shout which accompanied his awkward sprawl on the carpet.",
+        "ru": "С ликующим криком он неуклюже растянулся на ковре.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,91 +1,178 @@
 {
-    "career": {
-        "comment": [
-            "careless",
-            "carelessness",
-            "carelessly",
-            "care",
-            "carefully",
-            "careful",
-            "scare",
-            "scared"
-        ],
-        "translate": "карьера, карьер, профессия, нестись, быстро двигаться",
-        "transcription": " |kəˈrɪr|",
-        "antonyms": [],
-        "mnemonic": [
-            "career [кэри'э] карьера - Соус (кери я) даю начальнику для карьеры моей."
-        ],
-        "examples": [
-            "His career went into overdrive.",
-            "He chose banking as a career.",
-            "His career stalled.",
-            "The cars careered down the road.",
-            "The accident cut short her career.",
-            "at the height of her career",
-            "He ended his ring career.",
-            "She's very career orientated.",
-            "He had a long career in the law.",
-            "My career has hit a dead end.",
-            "His career is in the doldrums.",
-            "He was casing the field for a career.",
-            "She embarked upon a new career.",
-            "He has had a long military career.",
-            "Her career has gone into overdrive.",
-            "She's been busy building her career.",
-            "My career had already taken a new turn.",
-            "We give him latitude when choosing a career.",
-            "She hopes to pursue a career in medicine.",
-            "A career was less easy once I was lumbered with a husband and children.",
-            "Incidentally, I wanted to have a word with you about your academic career.",
-            "There goes my career.",
-            "His career would be ruined.",
-            "His career was in the gutter.",
-            "her budding career as a lawyer",
-            "the climax of his naval career",
-            "You have shipwrecked my career.",
-            "Her career is heading downhill.",
-            "an ignominious end to his career",
-            "the climax of the artist's career"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Его карьера резко пошла в гору.",
-            "Он решил строить карьеру в банковской сфере.",
-            "Его карьера застопорилась.",
-            "Машины помчались по дороге на полной скорости.",
-            "Это происшествие положило конец её карьере.",
-            "на пике своей карьеры",
-            "Он попрощался с большим боксом. / Он завершил карьеру на ринге.",
-            "Карьера для неё значит очень много.",
-            "Он долго работал в правовой сфере.",
-            "Моя карьера зашла в тупик.",
-            "В его карьере полный штиль.",
-            "Он присматривался, каким бы делом ему заняться.",
-            "Она сделала первые шаги в новой для себя профессии.",
-            "Он долго служил в армии.",
-            "Её карьера набрала полные обороты.",
-            "Она в последнее время с головой ушла в карьеру.",
-            "К тому времени моя карьера уже приняла новый оборот.",
-            "Мы предоставляем ему свободу в выборе профессии.",
-            "Она надеется продолжить карьеру в медицине.",
-            "Построение карьеры стало делом менее лёгким, как только я стала обременённой мужем и детьми.",
-            "Кстати, я хотел поговорить с тобой по поводу твоей научной карьеры.",
-            "Прощай, моя карьера.",
-            "Его карьере пришёл бы конец.",
-            "Его карьера пошла коту под хвост.",
-            "её многообещающая карьера в качестве юриста",
-            "высшая точка его карьеры на флоте",
-            "Вы погубили мою карьеру.",
-            "Её карьера катится под гору.",
-            "бесславный конец его карьеры",
-            "вершина карьеры этого художника"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ar_+_Гл_!=_[e(r)]",
-            "eer_=_[ɪr]"
-        ]
-    }
+  "career": {
+    "comment": [
+      "careless",
+      "carelessness",
+      "carelessly",
+      "care",
+      "carefully",
+      "careful",
+      "scare",
+      "scared"
+    ],
+    "translate": "карьера, карьер, профессия, нестись, быстро двигаться",
+    "transcription": " |kəˈrɪr|",
+    "antonyms": [],
+    "mnemonic": [
+      "career [кэри'э] карьера - Соус (кери я) даю начальнику для карьеры моей."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ar_+_Гл_!=_[e(r)]",
+      "eer_=_[ɪr]"
+    ],
+    "examples": [
+      {
+        "eng": "His career went into overdrive.",
+        "ru": "Его карьера резко пошла в гору.",
+        "learn": 0
+      },
+      {
+        "eng": "He chose banking as a career.",
+        "ru": "Он решил строить карьеру в банковской сфере.",
+        "learn": 0
+      },
+      {
+        "eng": "His career stalled.",
+        "ru": "Его карьера застопорилась.",
+        "learn": 1
+      },
+      {
+        "eng": "The cars careered down the road.",
+        "ru": "Машины помчались по дороге на полной скорости.",
+        "learn": 0
+      },
+      {
+        "eng": "The accident cut short her career.",
+        "ru": "Это происшествие положило конец её карьере.",
+        "learn": 0
+      },
+      {
+        "eng": "at the height of her career",
+        "ru": "на пике своей карьеры",
+        "learn": 0
+      },
+      {
+        "eng": "He ended his ring career.",
+        "ru": "Он попрощался с большим боксом. / Он завершил карьеру на ринге.",
+        "learn": 0
+      },
+      {
+        "eng": "She's very career orientated.",
+        "ru": "Карьера для неё значит очень много.",
+        "learn": 0
+      },
+      {
+        "eng": "He had a long career in the law.",
+        "ru": "Он долго работал в правовой сфере.",
+        "learn": 0
+      },
+      {
+        "eng": "My career has hit a dead end.",
+        "ru": "Моя карьера зашла в тупик.",
+        "learn": 0
+      },
+      {
+        "eng": "His career is in the doldrums.",
+        "ru": "В его карьере полный штиль.",
+        "learn": 0
+      },
+      {
+        "eng": "He was casing the field for a career.",
+        "ru": "Он присматривался, каким бы делом ему заняться.",
+        "learn": 0
+      },
+      {
+        "eng": "She embarked upon a new career.",
+        "ru": "Она сделала первые шаги в новой для себя профессии.",
+        "learn": 0
+      },
+      {
+        "eng": "He has had a long military career.",
+        "ru": "Он долго служил в армии.",
+        "learn": 0
+      },
+      {
+        "eng": "Her career has gone into overdrive.",
+        "ru": "Её карьера набрала полные обороты.",
+        "learn": 0
+      },
+      {
+        "eng": "She's been busy building her career.",
+        "ru": "Она в последнее время с головой ушла в карьеру.",
+        "learn": 1
+      },
+      {
+        "eng": "My career had already taken a new turn.",
+        "ru": "К тому времени моя карьера уже приняла новый оборот.",
+        "learn": 0
+      },
+      {
+        "eng": "We give him latitude when choosing a career.",
+        "ru": "Мы предоставляем ему свободу в выборе профессии.",
+        "learn": 0
+      },
+      {
+        "eng": "She hopes to pursue a career in medicine.",
+        "ru": "Она надеется продолжить карьеру в медицине.",
+        "learn": 1
+      },
+      {
+        "eng": "A career was less easy once I was lumbered with a husband and children.",
+        "ru": "Построение карьеры стало делом менее лёгким, как только я стала обременённой мужем и детьми.",
+        "learn": 0
+      },
+      {
+        "eng": "Incidentally, I wanted to have a word with you about your academic career.",
+        "ru": "Кстати, я хотел поговорить с тобой по поводу твоей научной карьеры.",
+        "learn": 1
+      },
+      {
+        "eng": "There goes my career.",
+        "ru": "Прощай, моя карьера.",
+        "learn": 0
+      },
+      {
+        "eng": "His career would be ruined.",
+        "ru": "Его карьере пришёл бы конец.",
+        "learn": 0
+      },
+      {
+        "eng": "His career was in the gutter.",
+        "ru": "Его карьера пошла коту под хвост.",
+        "learn": 0
+      },
+      {
+        "eng": "her budding career as a lawyer",
+        "ru": "её многообещающая карьера в качестве юриста",
+        "learn": 0
+      },
+      {
+        "eng": "the climax of his naval career",
+        "ru": "высшая точка его карьеры на флоте",
+        "learn": 0
+      },
+      {
+        "eng": "You have shipwrecked my career.",
+        "ru": "Вы погубили мою карьеру.",
+        "learn": 0
+      },
+      {
+        "eng": "Her career is heading downhill.",
+        "ru": "Её карьера катится под гору.",
+        "learn": 0
+      },
+      {
+        "eng": "an ignominious end to his career",
+        "ru": "бесславный конец его карьеры",
+        "learn": 0
+      },
+      {
+        "eng": "the climax of the artist's career",
+        "ru": "вершина карьеры этого художника",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,84 +1,170 @@
 {
-    "hunt": {
-        "comment": [
-            "hunting",
-            "hunter"
-        ],
-        "translate": "охота, поиски, охотиться, преследовать, травить, гнать",
-        "transcription": " |hʌnt|",
-        "antonyms": [],
-        "mnemonic": [
-            "hunt [бант] охота - Племена (хант-ов) охотой живут.",
-            "hunt [h∧nt]\n***\nНа ОХОТУ пошёл Эммануил Кант. (это) hunt\nОХОТИТСЯ Эммануил Кант. (это) hunt\nОхота."
-        ],
-        "examples": [
-            "The hunt is on.",
-            "They went on a hunt.",
-            "The police are still hunting the killer.",
-            "Wolves hunt in packs.",
-            "He likes to hunt and fish.",
-            "I'll have to hunt out her address.",
-            "The kids were hunting for shells on the beach.",
-            "She is still hunting for a new job.",
-            "Many animals hunt by night.",
-            "I'll have a hunt around for it in my desk.",
-            "The colonials were hunted from their homes.",
-            "Owls usually sleep by day and hunt by night.",
-            "The wolf was hunting its prey.",
-            "The King used to hunt these forests.",
-            "Do you approve of hunting after foxes?",
-            "Is it lawful to hunt deer in this state?",
-            "She hunted around in the closet for a pair of shoes.",
-            "Parent birds began to hunt for food for their young.",
-            "Wolves tend to hunt in packs.",
-            "Police are leading the murder hunt.",
-            "Detectives are busy hunting for clues.",
-            "Goering often hunted wild boars in Poland",
-            "I'll have a hunt around for it in my room.",
-            "Many people hunt after fame in their lives but never find it.",
-            "Hiring somebody to do the legwork in the hunt for a property can make sense.",
-            "the hunt for the missing child",
-            "The Duke hunted in these woods.",
-            "a gun used for hunting squirrels",
-            "The FBI were called in to hunt for the spy.",
-            "She likes to hunt for bargains when she shops."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ведутся поиски.",
-            "Они пошли на охоту.",
-            "Полиция все еще разыскивает убийцу",
-            "Волки охотятся стаями.",
-            "Он любит охотиться и ловить рыбу.",
-            "Мне придётся где-то откопать её адрес.",
-            "Дети разыскивали ракушки на пляже.",
-            "Она всё ещё ищет новую работу.",
-            "Многие животные охотятся ночью.",
-            "Я поищу это в своем столе.",
-            "Жители колоний были изгнаны из своих домов.",
-            "Совы обычно спят днём и охотятся ночью.",
-            "Волк преследовал свою добычу.",
-            "В этих лесах когда-то охотился король.",
-            "Вы одобряете охоту на лис?",
-            "Не запрещено ли охотиться на оленей в этом штате?",
-            "Она рылась в шкафу в поисках пары туфель.",
-            "Птицы-родители начали добывать пищу для своих птенцов.",
-            "Волки, как правило, охотятся стаями.",
-            "Полиция ведёт поиск убийцы.",
-            "Сыщики занимаются поиском улик.",
-            "Геринг часто охотился на диких кабанов в Польше.",
-            "Я поищу это у себя в комнате.",
-            "Многие люди гоняются за славой, но никогда не находят её.",
-            "При покупке недвижимости неплохо иметь под рукой человека, который бы взял на себя всю беготню.",
-            "поиски пропавшего ребенка",
-            "Герцог охотился в этих лесах.",
-            "ружьё для охоты на белок",
-            "К розыску шпиона было привлечено ФБР.",
-            "Она не прочь прикупить что-нибудь по дешёвке во время похода по магазинам."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "hunt": {
+    "comment": [
+      "hunting",
+      "hunter"
+    ],
+    "translate": "охота, поиски, охотиться, преследовать, травить, гнать",
+    "transcription": " |hʌnt|",
+    "antonyms": [],
+    "mnemonic": [
+      "hunt [бант] охота - Племена (хант-ов) охотой живут.",
+      "hunt [h∧nt]\n***\nНа ОХОТУ пошёл Эммануил Кант. (это) hunt\nОХОТИТСЯ Эммануил Кант. (это) hunt\nОхота."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The hunt is on.",
+        "ru": "Ведутся поиски.",
+        "learn": 0
+      },
+      {
+        "eng": "They went on a hunt.",
+        "ru": "Они пошли на охоту.",
+        "learn": 0
+      },
+      {
+        "eng": "The police are still hunting the killer.",
+        "ru": "Полиция все еще разыскивает убийцу",
+        "learn": 0
+      },
+      {
+        "eng": "Wolves hunt in packs.",
+        "ru": "Волки охотятся стаями.",
+        "learn": 0
+      },
+      {
+        "eng": "He likes to hunt and fish.",
+        "ru": "Он любит охотиться и ловить рыбу.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll have to hunt out her address.",
+        "ru": "Мне придётся где-то откопать её адрес.",
+        "learn": 0
+      },
+      {
+        "eng": "The kids were hunting for shells on the beach.",
+        "ru": "Дети разыскивали ракушки на пляже.",
+        "learn": 1
+      },
+      {
+        "eng": "She is still hunting for a new job.",
+        "ru": "Она всё ещё ищет новую работу.",
+        "learn": 0
+      },
+      {
+        "eng": "Many animals hunt by night.",
+        "ru": "Многие животные охотятся ночью.",
+        "learn": 1
+      },
+      {
+        "eng": "I'll have a hunt around for it in my desk.",
+        "ru": "Я поищу это в своем столе.",
+        "learn": 0
+      },
+      {
+        "eng": "The colonials were hunted from their homes.",
+        "ru": "Жители колоний были изгнаны из своих домов.",
+        "learn": 0
+      },
+      {
+        "eng": "Owls usually sleep by day and hunt by night.",
+        "ru": "Совы обычно спят днём и охотятся ночью.",
+        "learn": 0
+      },
+      {
+        "eng": "The wolf was hunting its prey.",
+        "ru": "Волк преследовал свою добычу.",
+        "learn": 1
+      },
+      {
+        "eng": "The King used to hunt these forests.",
+        "ru": "В этих лесах когда-то охотился король.",
+        "learn": 1
+      },
+      {
+        "eng": "Do you approve of hunting after foxes?",
+        "ru": "Вы одобряете охоту на лис?",
+        "learn": 0
+      },
+      {
+        "eng": "Is it lawful to hunt deer in this state?",
+        "ru": "Не запрещено ли охотиться на оленей в этом штате?",
+        "learn": 0
+      },
+      {
+        "eng": "She hunted around in the closet for a pair of shoes.",
+        "ru": "Она рылась в шкафу в поисках пары туфель.",
+        "learn": 0
+      },
+      {
+        "eng": "Parent birds began to hunt for food for their young.",
+        "ru": "Птицы-родители начали добывать пищу для своих птенцов.",
+        "learn": 0
+      },
+      {
+        "eng": "Wolves tend to hunt in packs.",
+        "ru": "Волки, как правило, охотятся стаями.",
+        "learn": 0
+      },
+      {
+        "eng": "Police are leading the murder hunt.",
+        "ru": "Полиция ведёт поиск убийцы.",
+        "learn": 0
+      },
+      {
+        "eng": "Detectives are busy hunting for clues.",
+        "ru": "Сыщики занимаются поиском улик.",
+        "learn": 0
+      },
+      {
+        "eng": "Goering often hunted wild boars in Poland",
+        "ru": "Геринг часто охотился на диких кабанов в Польше.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll have a hunt around for it in my room.",
+        "ru": "Я поищу это у себя в комнате.",
+        "learn": 0
+      },
+      {
+        "eng": "Many people hunt after fame in their lives but never find it.",
+        "ru": "Многие люди гоняются за славой, но никогда не находят её.",
+        "learn": 1
+      },
+      {
+        "eng": "Hiring somebody to do the legwork in the hunt for a property can make sense.",
+        "ru": "При покупке недвижимости неплохо иметь под рукой человека, который бы взял на себя всю беготню.",
+        "learn": 0
+      },
+      {
+        "eng": "the hunt for the missing child",
+        "ru": "поиски пропавшего ребенка",
+        "learn": 0
+      },
+      {
+        "eng": "The Duke hunted in these woods.",
+        "ru": "Герцог охотился в этих лесах.",
+        "learn": 0
+      },
+      {
+        "eng": "a gun used for hunting squirrels",
+        "ru": "ружьё для охоты на белок",
+        "learn": 0
+      },
+      {
+        "eng": "The FBI were called in to hunt for the spy.",
+        "ru": "К розыску шпиона было привлечено ФБР.",
+        "learn": 0
+      },
+      {
+        "eng": "She likes to hunt for bargains when she shops.",
+        "ru": "Она не прочь прикупить что-нибудь по дешёвке во время похода по магазинам.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,87 +1,173 @@
 {
-    "conversation": {
-        "comment": [
-            "conversion",
-            "conversely",
-            "convert",
-            "universal",
-            "anniversary",
-            "versatile"
-        ],
-        "translate": "разговор, беседа, переговоры, жанровая картина",
-        "transcription": " |ˌkɑːnvərˈseɪʃn|",
-        "antonyms": [],
-        "mnemonic": [
-            "conversation [ка'нвэсейшан] разговор - В (канаве сыщен*) чей-то разговор ('Слышен)."
-        ],
-        "examples": [
-            "We had a pleasant conversation.",
-            "We had a conversation by e-mail.",
-            "Do you remember our conversation about that new movie?",
-            "He kept trying to engage me in conversation.",
-            "She's skilled in the art of conversation.",
-            "He was lively in conversation.",
-            "We were engaged in conversation.",
-            "I was not attending to the conversation.",
-            "A few drinks should help the conversation on.",
-            "Would you mind if I taped this conversation?",
-            "We had to cut short the conversation.",
-            "The conversation lapsed.",
-            "How dare you listen to a private conversation?",
-            "a brief lull in the conversation",
-            "Her loud voice cut across the conversation.",
-            "How rude of her to barge into the conversation.",
-            "They had a serious conversation about their relationship.",
-            "I overheard part of their conversation.",
-            "He was in earnest conversation with a young girl.",
-            "I fell into conversation with an interesting man.",
-            "It was so noisy it was hard to carry on a conversation.",
-            "He is a real conversation stifler.",
-            "Clearly she had no wish for conversation.",
-            "Nobody asked you to horn in on our conversation.",
-            "We made stilted conversation.",
-            "Conversation was the great staple there.",
-            "The conversation centred on the election.",
-            "She waited for a break in the conversation.",
-            "He struck into the conversation again.",
-            "The rambling of conversation gradually died down."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мы славно побеседовали. / У нас состоялась приятная беседа.",
-            "У нас был разговор по электронной почте. (Они обсудили дела в переписке по электронной почте)",
-            "Вы помните наш разговор о новом фильме?",
-            "Он не оставлял попыток вовлечь меня в разговор.",
-            "Она искусная собеседница.",
-            "В разговоре он очень оживлялся.",
-            "Мы были поглощены разговором.",
-            "Я не следил за беседой.",
-            "Несколько рюмочек могли бы поддержать разговор.",
-            "Вы не возражаете, если я запишу этот разговор?",
-            "Нам пришлось прервать /прекратить/ разговор.",
-            "Разговор затих.",
-            "Как вы смеете подслушивать чужой разговор!",
-            "небольшая пауза в разговоре",
-            "Её громкий голос прервал нашу беседу.",
-            "Как грубо с её стороны влезать в разговор.",
-            "У них был серьёзный разговор об их отношениях.",
-            "Я подслушал часть их разговора.",
-            "У него был серьёзный разговор с девушкой.",
-            "Я вступил в разговор с интересным собеседником.",
-            "Было так шумно, что сложно было продолжать беседу.",
-            "С ним просто невозможно разговаривать.",
-            "Было очевидно, что у неё не было желания разговаривать.",
-            "Никто не просил тебя встревать в разговор.",
-            "Мы вели натянутый разговор.",
-            "Болтовня была там основным времяпрепровождением.",
-            "Разговор шёл о выборах.",
-            "Она ждала, что когда наступит пауза в разговоре.",
-            "Он снова ввязался в разговор.",
-            "Гул разговора постепенно стих."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "conversation": {
+    "comment": [
+      "conversion",
+      "conversely",
+      "convert",
+      "universal",
+      "anniversary",
+      "versatile"
+    ],
+    "translate": "разговор, беседа, переговоры, жанровая картина",
+    "transcription": " |ˌkɑːnvərˈseɪʃn|",
+    "antonyms": [],
+    "mnemonic": [
+      "conversation [ка'нвэсейшан] разговор - В (канаве сыщен*) чей-то разговор ('Слышен)."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "We had a pleasant conversation.",
+        "ru": "Мы славно побеседовали. / У нас состоялась приятная беседа.",
+        "learn": 1
+      },
+      {
+        "eng": "We had a conversation by e-mail.",
+        "ru": "У нас был разговор по электронной почте. (Они обсудили дела в переписке по электронной почте)",
+        "learn": 0
+      },
+      {
+        "eng": "Do you remember our conversation about that new movie?",
+        "ru": "Вы помните наш разговор о новом фильме?",
+        "learn": 0
+      },
+      {
+        "eng": "He kept trying to engage me in conversation.",
+        "ru": "Он не оставлял попыток вовлечь меня в разговор.",
+        "learn": 0
+      },
+      {
+        "eng": "She's skilled in the art of conversation.",
+        "ru": "Она искусная собеседница.",
+        "learn": 0
+      },
+      {
+        "eng": "He was lively in conversation.",
+        "ru": "В разговоре он очень оживлялся.",
+        "learn": 0
+      },
+      {
+        "eng": "We were engaged in conversation.",
+        "ru": "Мы были поглощены разговором.",
+        "learn": 0
+      },
+      {
+        "eng": "I was not attending to the conversation.",
+        "ru": "Я не следил за беседой.",
+        "learn": 0
+      },
+      {
+        "eng": "A few drinks should help the conversation on.",
+        "ru": "Несколько рюмочек могли бы поддержать разговор.",
+        "learn": 0
+      },
+      {
+        "eng": "Would you mind if I taped this conversation?",
+        "ru": "Вы не возражаете, если я запишу этот разговор?",
+        "learn": 0
+      },
+      {
+        "eng": "We had to cut short the conversation.",
+        "ru": "Нам пришлось прервать /прекратить/ разговор.",
+        "learn": 0
+      },
+      {
+        "eng": "The conversation lapsed.",
+        "ru": "Разговор затих.",
+        "learn": 0
+      },
+      {
+        "eng": "How dare you listen to a private conversation?",
+        "ru": "Как вы смеете подслушивать чужой разговор!",
+        "learn": 1
+      },
+      {
+        "eng": "a brief lull in the conversation",
+        "ru": "небольшая пауза в разговоре",
+        "learn": 0
+      },
+      {
+        "eng": "Her loud voice cut across the conversation.",
+        "ru": "Её громкий голос прервал нашу беседу.",
+        "learn": 0
+      },
+      {
+        "eng": "How rude of her to barge into the conversation.",
+        "ru": "Как грубо с её стороны влезать в разговор.",
+        "learn": 0
+      },
+      {
+        "eng": "They had a serious conversation about their relationship.",
+        "ru": "У них был серьёзный разговор об их отношениях.",
+        "learn": 1
+      },
+      {
+        "eng": "I overheard part of their conversation.",
+        "ru": "Я подслушал часть их разговора.",
+        "learn": 0
+      },
+      {
+        "eng": "He was in earnest conversation with a young girl.",
+        "ru": "У него был серьёзный разговор с девушкой.",
+        "learn": 0
+      },
+      {
+        "eng": "I fell into conversation with an interesting man.",
+        "ru": "Я вступил в разговор с интересным собеседником.",
+        "learn": 0
+      },
+      {
+        "eng": "It was so noisy it was hard to carry on a conversation.",
+        "ru": "Было так шумно, что сложно было продолжать беседу.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a real conversation stifler.",
+        "ru": "С ним просто невозможно разговаривать.",
+        "learn": 0
+      },
+      {
+        "eng": "Clearly she had no wish for conversation.",
+        "ru": "Было очевидно, что у неё не было желания разговаривать.",
+        "learn": 0
+      },
+      {
+        "eng": "Nobody asked you to horn in on our conversation.",
+        "ru": "Никто не просил тебя встревать в разговор.",
+        "learn": 0
+      },
+      {
+        "eng": "We made stilted conversation.",
+        "ru": "Мы вели натянутый разговор.",
+        "learn": 0
+      },
+      {
+        "eng": "Conversation was the great staple there.",
+        "ru": "Болтовня была там основным времяпрепровождением.",
+        "learn": 0
+      },
+      {
+        "eng": "The conversation centred on the election.",
+        "ru": "Разговор шёл о выборах.",
+        "learn": 0
+      },
+      {
+        "eng": "She waited for a break in the conversation.",
+        "ru": "Она ждала, что когда наступит пауза в разговоре.",
+        "learn": 0
+      },
+      {
+        "eng": "He struck into the conversation again.",
+        "ru": "Он снова ввязался в разговор.",
+        "learn": 0
+      },
+      {
+        "eng": "The rambling of conversation gradually died down.",
+        "ru": "Гул разговора постепенно стих.",
+        "learn": 0
+      }
+    ]
+  }
 }

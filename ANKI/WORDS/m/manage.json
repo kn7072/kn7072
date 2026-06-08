@@ -1,86 +1,174 @@
 {
-    "manage": {
-        "comment": [
-            "manager",
-            "management",
-            "managing",
-            "manageable",
-            "managerial"
-        ],
-        "translate": "управлять, руководить, справляться, школа верховой езды",
-        "transcription": " |ˈmænɪdʒ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "How do you manage to stay so slim?",
-            "She can't manage her child.",
-            "Did you manage to sleep on the plane?",
-            "It is a hard thing to manage.",
-            "The business is managed by the owner's daughter.",
-            "He'll never manage such a big garden on his own.",
-            "I finally managed to push the huge animal away.",
-            "I can manage on my own, thanks.",
-            "Did you manage to get through to her?",
-            "You always manage to impress us with your ideas.",
-            "He failed / didn't manage to persuade me.",
-            "You need to learn to manage your time more effectively.",
-            "He managed to escape from prison.",
-            "How did you manage to produce a meal so quickly?",
-            "I don't know how I managed to arrive so late.",
-            "The company is badly managed.",
-            "Will you manage to get away this summer?",
-            "Could you manage another drink?",
-            "Managing a football team is harder than you think.",
-            "There's enough food if we manage it well.",
-            "Please don't trouble yourself. I can manage.",
-            "I managed to carry the box upstairs.",
-            "He was asked to manage a new department.",
-            "The company had been very badly managed.",
-            "The young violinist didn't manage her bow very well",
-            "'How did you manage to be so late?' 'Just bad planning.'",
-            "We somehow managed to persuade him.",
-            "Can you manage dinner tonight?",
-            "I don't know how I'll manage it, but I'll be there.",
-            "Most companies manage to get round the restrictions."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Как вам удается оставаться такой стройной?",
-            "Она не может справиться со своим ребёнком.",
-            "Тебе удалось поспать в самолёте?",
-            "Это дело трудно выполнить. / Такое трудно осуществить.",
-            "Бизнесом управляет дочь владельца.",
-            "Он никогда не справится с таким большим садом самостоятельно.",
-            "В конце концов, мне удалось оттолкнуть этого огромного зверя.",
-            "Я и сам справлюсь, спасибо.",
-            "Вам удалось с ней связаться?",
-            "Вам всегда удается произвести на нас впечатление своими идеями.",
-            "Ему не удалось меня убедить.",
-            "Вам нужно научиться распоряжаться своим временем более эффективно.",
-            "Ему удалось сбежать из тюрьмы.",
-            "Как тебе удалось так быстро приготовить еду?",
-            "Я не знаю, как мне удалось приехать так поздно.",
-            "Компания плохо управляется.",
-            "У вас летом получится куда-нибудь вырваться? (на отдых)",
-            "Выпьешь ещё стаканчик /рюмочку/?",
-            "Управлять футбольной командой — сложнее, чем вы думаете.",
-            "Еды хватит, если мы будем правильно с ней обращаться.",
-            "Пожалуйста, не утруждай себя. Я могу и сам справиться.",
-            "Мне удалось затащить этот ящик наверх.",
-            "Ему было поручено управлять новым отделом.",
-            "Компанией очень плохо управляли.",
-            "У молодой скрипачки, не очень хорошо, получилось справится со смычком.",
-            "— Как же ты умудрился так опоздать? — Просто неправильно рассчитал.",
-            "Каким-то образом нам удалось его убедить.",
-            "У тебя получится сегодня со мной поужинать?",
-            "Не знаю как, но я там буду.",
-            "Большинству компаний удаётся обойти ограничения"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Инфинитив_с_to_после_глаголов",
-            "Инфинитив"
-        ]
-    }
+  "manage": {
+    "comment": [
+      "manager",
+      "management",
+      "managing",
+      "manageable",
+      "managerial"
+    ],
+    "translate": "управлять, руководить, справляться, школа верховой езды",
+    "transcription": " |ˈmænɪdʒ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_с_to_после_глаголов",
+      "Инфинитив",
+      "infinitive_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "How do you manage to stay so slim?",
+        "ru": "Как вам удается оставаться такой стройной?",
+        "learn": 0
+      },
+      {
+        "eng": "She can't manage her child.",
+        "ru": "Она не может справиться со своим ребёнком.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you manage to sleep on the plane?",
+        "ru": "Тебе удалось поспать в самолёте?",
+        "learn": 0
+      },
+      {
+        "eng": "It is a hard thing to manage.",
+        "ru": "Это дело трудно выполнить. / Такое трудно осуществить.",
+        "learn": 0
+      },
+      {
+        "eng": "The business is managed by the owner's daughter.",
+        "ru": "Бизнесом управляет дочь владельца.",
+        "learn": 0
+      },
+      {
+        "eng": "He'll never manage such a big garden on his own.",
+        "ru": "Он никогда не справится с таким большим садом самостоятельно.",
+        "learn": 0
+      },
+      {
+        "eng": "I finally managed to push the huge animal away.",
+        "ru": "В конце концов, мне удалось оттолкнуть этого огромного зверя.",
+        "learn": 0
+      },
+      {
+        "eng": "I can manage on my own, thanks.",
+        "ru": "Я и сам справлюсь, спасибо.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you manage to get through to her?",
+        "ru": "Вам удалось с ней связаться?",
+        "learn": 0
+      },
+      {
+        "eng": "You always manage to impress us with your ideas.",
+        "ru": "Вам всегда удается произвести на нас впечатление своими идеями.",
+        "learn": 1
+      },
+      {
+        "eng": "He failed / didn't manage to persuade me.",
+        "ru": "Ему не удалось меня убедить.",
+        "learn": 0
+      },
+      {
+        "eng": "You need to learn to manage your time more effectively.",
+        "ru": "Вам нужно научиться распоряжаться своим временем более эффективно.",
+        "learn": 1
+      },
+      {
+        "eng": "He managed to escape from prison.",
+        "ru": "Ему удалось сбежать из тюрьмы.",
+        "learn": 1
+      },
+      {
+        "eng": "How did you manage to produce a meal so quickly?",
+        "ru": "Как тебе удалось так быстро приготовить еду?",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know how I managed to arrive so late.",
+        "ru": "Я не знаю, как мне удалось приехать так поздно.",
+        "learn": 0
+      },
+      {
+        "eng": "The company is badly managed.",
+        "ru": "Компания плохо управляется.",
+        "learn": 0
+      },
+      {
+        "eng": "Will you manage to get away this summer?",
+        "ru": "У вас летом получится куда-нибудь вырваться? (на отдых)",
+        "learn": 0
+      },
+      {
+        "eng": "Could you manage another drink?",
+        "ru": "Выпьешь ещё стаканчик /рюмочку/?",
+        "learn": 0
+      },
+      {
+        "eng": "Managing a football team is harder than you think.",
+        "ru": "Управлять футбольной командой — сложнее, чем вы думаете.",
+        "learn": 0
+      },
+      {
+        "eng": "There's enough food if we manage it well.",
+        "ru": "Еды хватит, если мы будем правильно с ней обращаться.",
+        "learn": 0
+      },
+      {
+        "eng": "Please don't trouble yourself. I can manage.",
+        "ru": "Пожалуйста, не утруждай себя. Я могу и сам справиться.",
+        "learn": 0
+      },
+      {
+        "eng": "I managed to carry the box upstairs.",
+        "ru": "Мне удалось затащить этот ящик наверх.",
+        "learn": 0
+      },
+      {
+        "eng": "He was asked to manage a new department.",
+        "ru": "Ему было поручено управлять новым отделом.",
+        "learn": 0
+      },
+      {
+        "eng": "The company had been very badly managed.",
+        "ru": "Компанией очень плохо управляли.",
+        "learn": 0
+      },
+      {
+        "eng": "The young violinist didn't manage her bow very well",
+        "ru": "У молодой скрипачки, не очень хорошо, получилось справится со смычком.",
+        "learn": 0
+      },
+      {
+        "eng": "'How did you manage to be so late?' 'Just bad planning.'",
+        "ru": "— Как же ты умудрился так опоздать? — Просто неправильно рассчитал.",
+        "learn": 0
+      },
+      {
+        "eng": "We somehow managed to persuade him.",
+        "ru": "Каким-то образом нам удалось его убедить.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you manage dinner tonight?",
+        "ru": "У тебя получится сегодня со мной поужинать?",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know how I'll manage it, but I'll be there.",
+        "ru": "Не знаю как, но я там буду.",
+        "learn": 0
+      },
+      {
+        "eng": "Most companies manage to get round the restrictions.",
+        "ru": "Большинству компаний удаётся обойти ограничения",
+        "learn": 0
+      }
+    ]
+  }
 }

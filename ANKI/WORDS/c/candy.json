@@ -1,90 +1,176 @@
 {
-    "candy": {
-        "comment": [
-            "cancer",
-            "candidate",
-            "candle",
-            "cancel",
-            "canvas",
-            "cane",
-            "canoe",
-            "canal",
-            "canteen"
-        ],
-        "translate": "конфета, конфеты, леденец, сласти, засахаривать, засахариваться",
-        "transcription": " |ˈkændi|",
-        "antonyms": [],
-        "mnemonic": [
-            "candy [кэ'ндъи] карамель, леденец, конфета - (Кенди-дат) в президенты всем конфеты и леденцы обещал."
-        ],
-        "examples": [
-            "Candy will rot your teeth.",
-            "That candy is too sweet.",
-            "Someone took all the candy.",
-            "We bribed the children with candy.",
-            "You greedy pig, you ate all the candy!",
-            "The brook candied with ice.",
-            "The candy is chewy inside.",
-            "Do you want a piece of candy?",
-            "He stuffed his mouth with candy.",
-            "The candy is down on the bottom shelf.",
-            "The sea-salt water candied by the sun.",
-            "He swapped his cupcake for a candy bar.",
-            "She worked as a packer for a candy company.",
-            "This box holds a pound of candy.",
-            "His pockets were bulging with candy.",
-            "They swiped some candy from the store.",
-            "The child stuffed candy into his pockets.",
-            "The kids shoplifted candy from the store.",
-            "This candy is so hard no one can chew it.",
-            "The candy was hard outside but chewy inside.",
-            "It was greedy of him to eat up all the candy.",
-            "I had to break a $100 bill just to buy the candy.",
-            "The candy melts in your mouth.",
-            "The candy is up on the top shelf.",
-            "The cough syrup tastes like candy.",
-            "Quiet a crying toddler with candy.",
-            "The candy left him with a bad taste.",
-            "Most video games are just brain candy.",
-            "The boy stuffed his pockets with candy.",
-            "He ate the candy bar in three quick bites."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Из за конфет гниют зубы. / Конфеты испортят твои зубы.",
-            "Эти конфеты слишком сладкие.",
-            "Кто-то взял все конфеты.",
-            "Мы подкупили детей конфетами.",
-            "Ты жадная свинья, ты съел все конфеты!",
-            "Ручей покрылся льдом.",
-            "У этих конфет — жевательная начинка.",
-            "Хочешь конфету?",
-            "Он набил рот конфетами.",
-            "Конфеты внизу, на нижней полке.",
-            "Морская вода, которую солнце превратило в кристаллы.",
-            "Он поменял свой кекс на шоколадный батончик.",
-            "Она работала упаковщицей в кондитерской компании.",
-            "В этой коробке помещается один фунт конфет.",
-            "Его карманы были набиты конфетами.",
-            "Они свистнули из магазина немного конфет.",
-            "Ребенок набил карманы конфетами /сладостями/.",
-            "Дети воровали конфеты из магазина.",
-            "Конфета такая твёрдая, что никто её не разжуёт.",
-            "Конфета был твёрдая снаружи, но тягучая внутри.",
-            "Он пожадничал и съел все леденцы.",
-            "Мне пришлось разменять сто долларов только ради того, чтобы купить конфет.",
-            "Эти конфеты тают во рту.",
-            "Конфеты там, на верхней полке.",
-            "Этот сироп от кашля на вкус похож на конфету.",
-            "Успокойте плачущего малыша конфетой.",
-            "После конфеты у него осталось неприятное послевкусие.",
-            "Большинство компьютерных игр — всего лишь жвачка для мозгов.",
-            "Мальчик набил карманы конфетами.",
-            "Он съел шоколадный батончик в три быстрых укуса."
-        ],
-        "stars": 0,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "candy": {
+    "comment": [
+      "cancer",
+      "candidate",
+      "candle",
+      "cancel",
+      "canvas",
+      "cane",
+      "canoe",
+      "canal",
+      "canteen"
+    ],
+    "translate": "конфета, конфеты, леденец, сласти, засахаривать, засахариваться",
+    "transcription": " |ˈkændi|",
+    "antonyms": [],
+    "mnemonic": [
+      "candy [кэ'ндъи] карамель, леденец, конфета - (Кенди-дат) в президенты всем конфеты и леденцы обещал."
+    ],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Candy will rot your teeth.",
+        "ru": "Из за конфет гниют зубы. / Конфеты испортят твои зубы.",
+        "learn": 0
+      },
+      {
+        "eng": "That candy is too sweet.",
+        "ru": "Эти конфеты слишком сладкие.",
+        "learn": 0
+      },
+      {
+        "eng": "Someone took all the candy.",
+        "ru": "Кто-то взял все конфеты.",
+        "learn": 1
+      },
+      {
+        "eng": "We bribed the children with candy.",
+        "ru": "Мы подкупили детей конфетами.",
+        "learn": 0
+      },
+      {
+        "eng": "You greedy pig, you ate all the candy!",
+        "ru": "Ты жадная свинья, ты съел все конфеты!",
+        "learn": 1
+      },
+      {
+        "eng": "The brook candied with ice.",
+        "ru": "Ручей покрылся льдом.",
+        "learn": 0
+      },
+      {
+        "eng": "The candy is chewy inside.",
+        "ru": "У этих конфет — жевательная начинка.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you want a piece of candy?",
+        "ru": "Хочешь конфету?",
+        "learn": 0
+      },
+      {
+        "eng": "He stuffed his mouth with candy.",
+        "ru": "Он набил рот конфетами.",
+        "learn": 0
+      },
+      {
+        "eng": "The candy is down on the bottom shelf.",
+        "ru": "Конфеты внизу, на нижней полке.",
+        "learn": 0
+      },
+      {
+        "eng": "The sea-salt water candied by the sun.",
+        "ru": "Морская вода, которую солнце превратило в кристаллы.",
+        "learn": 0
+      },
+      {
+        "eng": "He swapped his cupcake for a candy bar.",
+        "ru": "Он поменял свой кекс на шоколадный батончик.",
+        "learn": 0
+      },
+      {
+        "eng": "She worked as a packer for a candy company.",
+        "ru": "Она работала упаковщицей в кондитерской компании.",
+        "learn": 0
+      },
+      {
+        "eng": "This box holds a pound of candy.",
+        "ru": "В этой коробке помещается один фунт конфет.",
+        "learn": 0
+      },
+      {
+        "eng": "His pockets were bulging with candy.",
+        "ru": "Его карманы были набиты конфетами.",
+        "learn": 0
+      },
+      {
+        "eng": "They swiped some candy from the store.",
+        "ru": "Они свистнули из магазина немного конфет.",
+        "learn": 0
+      },
+      {
+        "eng": "The child stuffed candy into his pockets.",
+        "ru": "Ребенок набил карманы конфетами /сладостями/.",
+        "learn": 1
+      },
+      {
+        "eng": "The kids shoplifted candy from the store.",
+        "ru": "Дети воровали конфеты из магазина.",
+        "learn": 0
+      },
+      {
+        "eng": "This candy is so hard no one can chew it.",
+        "ru": "Конфета такая твёрдая, что никто её не разжуёт.",
+        "learn": 0
+      },
+      {
+        "eng": "The candy was hard outside but chewy inside.",
+        "ru": "Конфета был твёрдая снаружи, но тягучая внутри.",
+        "learn": 0
+      },
+      {
+        "eng": "It was greedy of him to eat up all the candy.",
+        "ru": "Он пожадничал и съел все леденцы.",
+        "learn": 1
+      },
+      {
+        "eng": "I had to break a $100 bill just to buy the candy.",
+        "ru": "Мне пришлось разменять сто долларов только ради того, чтобы купить конфет.",
+        "learn": 0
+      },
+      {
+        "eng": "The candy melts in your mouth.",
+        "ru": "Эти конфеты тают во рту.",
+        "learn": 1
+      },
+      {
+        "eng": "The candy is up on the top shelf.",
+        "ru": "Конфеты там, на верхней полке.",
+        "learn": 0
+      },
+      {
+        "eng": "The cough syrup tastes like candy.",
+        "ru": "Этот сироп от кашля на вкус похож на конфету.",
+        "learn": 0
+      },
+      {
+        "eng": "Quiet a crying toddler with candy.",
+        "ru": "Успокойте плачущего малыша конфетой.",
+        "learn": 1
+      },
+      {
+        "eng": "The candy left him with a bad taste.",
+        "ru": "После конфеты у него осталось неприятное послевкусие.",
+        "learn": 0
+      },
+      {
+        "eng": "Most video games are just brain candy.",
+        "ru": "Большинство компьютерных игр — всего лишь жвачка для мозгов.",
+        "learn": 0
+      },
+      {
+        "eng": "The boy stuffed his pockets with candy.",
+        "ru": "Мальчик набил карманы конфетами.",
+        "learn": 0
+      },
+      {
+        "eng": "He ate the candy bar in three quick bites.",
+        "ru": "Он съел шоколадный батончик в три быстрых укуса.",
+        "learn": 0
+      }
+    ]
+  }
 }

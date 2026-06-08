@@ -1,82 +1,168 @@
 {
-    "truck": {
-        "comment": [
-            "trunk"
-        ],
-        "translate": "грузовик, грузовой автомобиль, тележка, платить натурой, обменивать",
-        "transcription": " |trʌk|",
-        "antonyms": [],
-        "mnemonic": [
-            "truck [трак] грузовик - (Трак-тор) грузовик раздавил."
-        ],
-        "examples": [
-            "My new truck drives well.",
-            "A shiny red fire truck",
-            "The dog rode in the back of the truck.",
-            "He has trucked all his equipment.",
-            "The truck laboured up the hill.",
-            "The truck lurched down the road.",
-            "This truck can stop on a dime!",
-            "The men loaded the truck with strawberries.",
-            "The truck ran out of control and hit a house.",
-            "He drives a bread truck.",
-            "Would you please send tow truck.",
-            "The truck was almost on top of us.",
-            "He jumped into his truck and drove away.",
-            "There was extensive damage to the truck's body.",
-            "This old truck is good for another 100,000 miles.",
-            "The truck can hold an astonishing amount of stuff.",
-            "It took an hour to couple the trailer to the truck.",
-            "a whale of a pickup truck",
-            "The truck's engine was racing.",
-            "The truck labored up the hill.",
-            "The bank repossessed her truck.",
-            "There was a big truck in the way.",
-            "The extra weight slowed the truck.",
-            "The truck skidded on the icy road.",
-            "work the body onto the flatbed truck",
-            "Can you drive this four-wheel truck?",
-            "The truck jackknifed on the icy road.",
-            "A Samaritan called a tow truck for us.",
-            "The crowd parted to let the truck pass.",
-            "We were trucking on down to Jack's place."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мой новый грузовик хорошо слушается руля.",
-            "Блестящая красная пожарная машина",
-            "Собака ехала в кузове грузовика.",
-            "Он привёз на грузовике всё своё оборудование.",
-            "Грузовик с трудом взбирался вверх по склону.",
-            "Грузовик покатился вниз по дороге.",
-            "Этот грузовик может остановиться, как вкопанный!",
-            "Рабочие нагрузили грузовик клубникой.",
-            "Грузовик потерял управление и врезался в дом.",
-            "Он водит хлебный фургон.",
-            "Пришлите, пожалуйста, эвакуатор /тягач, буксир/.",
-            "Грузовик уже почти настиг нас.",
-            "Он вскочил в свой грузовик и уехал.",
-            "Корпусу грузовика были нанесены обширные повреждения.",
-            "Этого старого грузовика хватит ещё на сто тысяч миль.",
-            "В этот грузовик помещается невероятное количество вещей.",
-            "Потребовался час, чтобы прицепить трейлер к грузовику",
-            "здоровенный такой пикап",
-            "Двигатель грузовика работал на высоких оборотах.",
-            "Грузовик с трудом взбирался на гору.",
-            "Банк изъял её грузовик (за неплатёж).",
-            "Дорогу загораживал большой грузовик.",
-            "Из-за лишнего груза автомобиль шёл медленнее.",
-            "Грузовик занесло на обледеневшей дороге.",
-            "поместить тело на безбортовой грузовик",
-            "Умеешь водить этот полноприводный грузовик?",
-            "На обледеневшей дороге заднюю часть грузовика сильно занесло.",
-            "Какая-то добрая душа вызвала для нас тягач.",
-            "Толпа расступилась, чтобы дать грузовику проехать.",
-            "Мы ехали к Джеку домой."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "truck": {
+    "comment": [
+      "trunk"
+    ],
+    "translate": "грузовик, грузовой автомобиль, тележка, платить натурой, обменивать",
+    "transcription": " |trʌk|",
+    "antonyms": [],
+    "mnemonic": [
+      "truck [трак] грузовик - (Трак-тор) грузовик раздавил."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "My new truck drives well.",
+        "ru": "Мой новый грузовик хорошо слушается руля.",
+        "learn": 0
+      },
+      {
+        "eng": "A shiny red fire truck",
+        "ru": "Блестящая красная пожарная машина",
+        "learn": 0
+      },
+      {
+        "eng": "The dog rode in the back of the truck.",
+        "ru": "Собака ехала в кузове грузовика.",
+        "learn": 0
+      },
+      {
+        "eng": "He has trucked all his equipment.",
+        "ru": "Он привёз на грузовике всё своё оборудование.",
+        "learn": 0
+      },
+      {
+        "eng": "The truck laboured up the hill.",
+        "ru": "Грузовик с трудом взбирался вверх по склону.",
+        "learn": 0
+      },
+      {
+        "eng": "The truck lurched down the road.",
+        "ru": "Грузовик покатился вниз по дороге.",
+        "learn": 0
+      },
+      {
+        "eng": "This truck can stop on a dime!",
+        "ru": "Этот грузовик может остановиться, как вкопанный!",
+        "learn": 0
+      },
+      {
+        "eng": "The men loaded the truck with strawberries.",
+        "ru": "Рабочие нагрузили грузовик клубникой.",
+        "learn": 1
+      },
+      {
+        "eng": "The truck ran out of control and hit a house.",
+        "ru": "Грузовик потерял управление и врезался в дом.",
+        "learn": 0
+      },
+      {
+        "eng": "He drives a bread truck.",
+        "ru": "Он водит хлебный фургон.",
+        "learn": 0
+      },
+      {
+        "eng": "Would you please send tow truck.",
+        "ru": "Пришлите, пожалуйста, эвакуатор /тягач, буксир/.",
+        "learn": 0
+      },
+      {
+        "eng": "The truck was almost on top of us.",
+        "ru": "Грузовик уже почти настиг нас.",
+        "learn": 0
+      },
+      {
+        "eng": "He jumped into his truck and drove away.",
+        "ru": "Он вскочил в свой грузовик и уехал.",
+        "learn": 0
+      },
+      {
+        "eng": "There was extensive damage to the truck's body.",
+        "ru": "Корпусу грузовика были нанесены обширные повреждения.",
+        "learn": 0
+      },
+      {
+        "eng": "This old truck is good for another 100,000 miles.",
+        "ru": "Этого старого грузовика хватит ещё на сто тысяч миль.",
+        "learn": 0
+      },
+      {
+        "eng": "The truck can hold an astonishing amount of stuff.",
+        "ru": "В этот грузовик помещается невероятное количество вещей.",
+        "learn": 1
+      },
+      {
+        "eng": "It took an hour to couple the trailer to the truck.",
+        "ru": "Потребовался час, чтобы прицепить трейлер к грузовику",
+        "learn": 1
+      },
+      {
+        "eng": "a whale of a pickup truck",
+        "ru": "здоровенный такой пикап",
+        "learn": 0
+      },
+      {
+        "eng": "The truck's engine was racing.",
+        "ru": "Двигатель грузовика работал на высоких оборотах.",
+        "learn": 0
+      },
+      {
+        "eng": "The truck labored up the hill.",
+        "ru": "Грузовик с трудом взбирался на гору.",
+        "learn": 0
+      },
+      {
+        "eng": "The bank repossessed her truck.",
+        "ru": "Банк изъял её грузовик (за неплатёж).",
+        "learn": 0
+      },
+      {
+        "eng": "There was a big truck in the way.",
+        "ru": "Дорогу загораживал большой грузовик.",
+        "learn": 0
+      },
+      {
+        "eng": "The extra weight slowed the truck.",
+        "ru": "Из-за лишнего груза автомобиль шёл медленнее.",
+        "learn": 0
+      },
+      {
+        "eng": "The truck skidded on the icy road.",
+        "ru": "Грузовик занесло на обледеневшей дороге.",
+        "learn": 0
+      },
+      {
+        "eng": "work the body onto the flatbed truck",
+        "ru": "поместить тело на безбортовой грузовик",
+        "learn": 0
+      },
+      {
+        "eng": "Can you drive this four-wheel truck?",
+        "ru": "Умеешь водить этот полноприводный грузовик?",
+        "learn": 0
+      },
+      {
+        "eng": "The truck jackknifed on the icy road.",
+        "ru": "На обледеневшей дороге заднюю часть грузовика сильно занесло.",
+        "learn": 0
+      },
+      {
+        "eng": "A Samaritan called a tow truck for us.",
+        "ru": "Какая-то добрая душа вызвала для нас тягач.",
+        "learn": 0
+      },
+      {
+        "eng": "The crowd parted to let the truck pass.",
+        "ru": "Толпа расступилась, чтобы дать грузовику проехать.",
+        "learn": 0
+      },
+      {
+        "eng": "We were trucking on down to Jack's place.",
+        "ru": "Мы ехали к Джеку домой.",
+        "learn": 0
+      }
+    ]
+  }
 }

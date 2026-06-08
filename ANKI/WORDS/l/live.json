@@ -1,90 +1,177 @@
 {
-    "live": {
-        "comment": [
-            "liver",
-            "lively",
-            "alive",
-            "olive",
-            "living",
-            "leave"
-        ],
-        "translate": "живой, под напряжением, житься, жить, дожить, в прямом эфире, прямо",
-        "transcription": " |lɪv|",
-        "antonyms": [],
-        "mnemonic": [
-            "live [лив] жить - Он не может жить без ее (лив-чика).",
-            "live [lɪv]\nrelive [ri:'lɪv] - пережить, возродиться\n***\nЖИТЬ поехал на Разлив. (это) live\nЖивой, горящий, полный сил. Непосредственно.\nПрямо.\n***\nМы живём \"live\",\nчтобы отдавать \"give\"\nи прощать \"forgive\"."
-        ],
-        "examples": [
-            "Live and learn!",
-            "They live well.",
-            "Live and let live.",
-            "Do you live nearby?",
-            "We live on a modest budget.",
-            "The program was shown live.",
-            "They live in dire poverty.",
-            "We live outside the city.",
-            "They live in a small house.",
-            "Where do they live?",
-            "We lived in the city.",
-            "What street does Ann live?",
-            "Long live the King!",
-            "He lived to the age of 92.",
-            "His name will live forever.",
-            "They live near London.",
-            "Where do these cups live?",
-            "My grandmother lived to 85.",
-            "They live on a busy street.",
-            "Monkeys live in trees.",
-            "I used to live near there.",
-            "I can live here rent-free.",
-            "They live in perfect union.",
-            "She lives a very busy life.",
-            "They live up north.",
-            "They live in this block.",
-            "I live about 10 miles away.",
-            "Long live free education!",
-            "Does Paul still live here?",
-            "We live on a rural route."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Век живи, век учись!",
-            "Они живут хорошо.",
-            "Живи сам и не мешай другим.",
-            "Вы живёте поблизости?",
-            "Мы живём на скромный бюджет.",
-            "Эта программа была показана в прямом эфире.",
-            "Они живут в крайней нищете.",
-            "Мы живём за городом.",
-            "Они живут в небольшом домике.",
-            "Где они живут?",
-            "Мы жили в городе.",
-            "На какой улице живёт Энн?",
-            "Да здравствует Король!",
-            "Он дожил до девяносто двух лет.",
-            "Его имя будет жить вечно.",
-            "Они живут недалеко от Лондона.",
-            "Где обычно стоят эти чашки?",
-            "Моя бабушка дожила до 85 лет.",
-            "Они живут на оживлённой улице.",
-            "Обезьяны живут на деревьях.",
-            "Я когда-то жил там поблизости.",
-            "Я могу жить здесь бесплатно.",
-            "Они живут в полном согласии.",
-            "У неё очень насыщенная жизнь.",
-            "Они живут там, на севере.",
-            "Они живут в этом районе.",
-            "Я живу примерно в десяти милях отсюда.",
-            "Да здравствует бесплатное образование!",
-            "Пол всё ещё здесь живёт?",
-            "Мы живём в сельской местности."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "i_+_Откр_сл_=_[i(:)]",
-            "Прилагательные_которые_употребляются_только_перед_существительными"
-        ]
-    }
+  "live": {
+    "comment": [
+      "liver",
+      "lively",
+      "alive",
+      "olive",
+      "living",
+      "leave"
+    ],
+    "translate": "живой, под напряжением, житься, жить, дожить, в прямом эфире, прямо",
+    "transcription": " |lɪv|",
+    "antonyms": [],
+    "mnemonic": [
+      "live [лив] жить - Он не может жить без ее (лив-чика).",
+      "live [lɪv]\nrelive [ri:'lɪv] - пережить, возродиться\n***\nЖИТЬ поехал на Разлив. (это) live\nЖивой, горящий, полный сил. Непосредственно.\nПрямо.\n***\nМы живём \"live\",\nчтобы отдавать \"give\"\nи прощать \"forgive\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "i_+_Откр_сл_=_[i(:)]",
+      "Прилагательные_которые_употребляются_только_перед_существительными"
+    ],
+    "examples": [
+      {
+        "eng": "Live and learn!",
+        "ru": "Век живи, век учись!",
+        "learn": 0
+      },
+      {
+        "eng": "They live well.",
+        "ru": "Они живут хорошо.",
+        "learn": 0
+      },
+      {
+        "eng": "Live and let live.",
+        "ru": "Живи сам и не мешай другим.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you live nearby?",
+        "ru": "Вы живёте поблизости?",
+        "learn": 1
+      },
+      {
+        "eng": "We live on a modest budget.",
+        "ru": "Мы живём на скромный бюджет.",
+        "learn": 1
+      },
+      {
+        "eng": "The program was shown live.",
+        "ru": "Эта программа была показана в прямом эфире.",
+        "learn": 0
+      },
+      {
+        "eng": "They live in dire poverty.",
+        "ru": "Они живут в крайней нищете.",
+        "learn": 0
+      },
+      {
+        "eng": "We live outside the city.",
+        "ru": "Мы живём за городом.",
+        "learn": 1
+      },
+      {
+        "eng": "They live in a small house.",
+        "ru": "Они живут в небольшом домике.",
+        "learn": 0
+      },
+      {
+        "eng": "Where do they live?",
+        "ru": "Где они живут?",
+        "learn": 0
+      },
+      {
+        "eng": "We lived in the city.",
+        "ru": "Мы жили в городе.",
+        "learn": 0
+      },
+      {
+        "eng": "What street does Ann live?",
+        "ru": "На какой улице живёт Энн?",
+        "learn": 0
+      },
+      {
+        "eng": "Long live the King!",
+        "ru": "Да здравствует Король!",
+        "learn": 0
+      },
+      {
+        "eng": "He lived to the age of 92.",
+        "ru": "Он дожил до девяносто двух лет.",
+        "learn": 0
+      },
+      {
+        "eng": "His name will live forever.",
+        "ru": "Его имя будет жить вечно.",
+        "learn": 0
+      },
+      {
+        "eng": "They live near London.",
+        "ru": "Они живут недалеко от Лондона.",
+        "learn": 0
+      },
+      {
+        "eng": "Where do these cups live?",
+        "ru": "Где обычно стоят эти чашки?",
+        "learn": 0
+      },
+      {
+        "eng": "My grandmother lived to 85.",
+        "ru": "Моя бабушка дожила до 85 лет.",
+        "learn": 0
+      },
+      {
+        "eng": "They live on a busy street.",
+        "ru": "Они живут на оживлённой улице.",
+        "learn": 0
+      },
+      {
+        "eng": "Monkeys live in trees.",
+        "ru": "Обезьяны живут на деревьях.",
+        "learn": 0
+      },
+      {
+        "eng": "I used to live near there.",
+        "ru": "Я когда-то жил там поблизости.",
+        "learn": 1
+      },
+      {
+        "eng": "I can live here rent-free.",
+        "ru": "Я могу жить здесь бесплатно.",
+        "learn": 0
+      },
+      {
+        "eng": "They live in perfect union.",
+        "ru": "Они живут в полном согласии.",
+        "learn": 0
+      },
+      {
+        "eng": "She lives a very busy life.",
+        "ru": "У неё очень насыщенная жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "They live up north.",
+        "ru": "Они живут там, на севере.",
+        "learn": 0
+      },
+      {
+        "eng": "They live in this block.",
+        "ru": "Они живут в этом районе.",
+        "learn": 0
+      },
+      {
+        "eng": "I live about 10 miles away.",
+        "ru": "Я живу примерно в десяти милях отсюда.",
+        "learn": 0
+      },
+      {
+        "eng": "Long live free education!",
+        "ru": "Да здравствует бесплатное образование!",
+        "learn": 0
+      },
+      {
+        "eng": "Does Paul still live here?",
+        "ru": "Пол всё ещё здесь живёт?",
+        "learn": 0
+      },
+      {
+        "eng": "We live on a rural route.",
+        "ru": "Мы живём в сельской местности.",
+        "learn": 0
+      }
+    ]
+  }
 }

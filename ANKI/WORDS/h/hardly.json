@@ -1,84 +1,170 @@
 {
-    "hardly": {
-        "comment": [
-            "hard",
-            "harden",
-            "hardness"
-        ],
-        "translate": "вряд ли, едва, едва ли, чуть, с трудом, еле, насилу, резко, сурово, несправедливо",
-        "transcription": " |ˈhɑːrdli|",
-        "antonyms": [],
-        "mnemonic": [
-            "hard [hɑ:d]\nharden - твердеть\nhardly - едва ли, вряд ли\n***\nНа ЖЕСТКОМ диске держит свои правила джихад.\n(это) hard\nТРУДНЫЙ выбор сделал джихад. (это) hard\nКРЕПКИЙ орешек - джихад. (это) hard\n***\nУ меня есть карта \"card\",\nона твёрдая \"hard\"."
-        ],
-        "examples": [
-            "I hardly ran away.",
-            "I can hardly believe it!",
-            "That news is hardly surprising.",
-            "You hardly ever tell me anything!",
-            "We hardly ever visit your parents.",
-            "They could hardly move.",
-            "Life pushed him hardly.",
-            "I can hardly hear what she is saying.",
-            "I can hardly believe it.",
-            "It hardly matters what I think.",
-            "The building work has hardly begun.",
-            "You hardly know me, how can you be sure?",
-            "Hardly a month goes by without another factory closing down.",
-            "It's almost new - hardly a scratch on it!",
-            "The money hardly earned must be utilized well.",
-            "Hardly had I lit a cigarette as the wind blew it out of my hands.",
-            "“Is this a new idea for a movie?” “Hardly! I've seen dozens of movies just like it.”",
-            "Dad ate hardly anything (=almost nothing).",
-            "This is hardly the place to discuss the matter.",
-            "He was so dizzy he could hardly stand up straight.",
-            "The children were so excited they could hardly speak.",
-            "The spelling alone made some words hardly pronounceable.",
-            "My parents divorced when I was six, and I hardly knew my father.",
-            "This is hardly a new idea for a movie.",
-            "Hardly anyone showed up for the meeting.",
-            "There was hardly any (=very little) traffic.",
-            "My boss could hardly be described as handsome.",
-            "The changes in service have hardly been noticed.",
-            "There are hardly any new features in this software.",
-            "It's hardly surprising that she won't answer his calls after the way he's treated her."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я еле ноги унёс.",
-            "В это невозможно поверить!",
-            "Вряд ли это неожиданная новость.",
-            "Ты мне почти никогда ничего не говоришь!",
-            "Мы почти никогда не навещаем твоих родителей.",
-            "Они едва могли пошевельнуться.",
-            "Жизнь жестоко с ним обошлась.",
-            "Я почти не слышу, что она говорит.",
-            "С трудом в это верю.",
-            "Вряд ли имеет значение, что я думаю.",
-            "Строительные работы едва начались.",
-            "Как вы можете быть уверены - ведь вы меня почти не знаете?",
-            "Едва ли не каждый месяц закрывается очередная фабрика.",
-            "Вещь-то почти совсем новая, почти без царапинки!",
-            "Деньги, заработанные с трудом, должны быть потрачены разумно.",
-            "Не успел я зажечь сигарету, как ветром её выбило у меня из рук.",
-            "“Это оригинальная идея для фильма?” “Вряд ли! Я видел десятки таких фильмов, как этот.”",
-            "Папа почти ничего не ел.",
-            "Здесь не место обсуждению этого вопроса.",
-            "У него так кружилась голова, что он едва мог стоять прямо.",
-            "Дети были так взволнованы, что с трудом могли говорить.",
-            "Уже само по себе написание делало некоторые слова совершенно неудобопроизносимыми.",
-            "Мои родители развелись, когда мне было шесть лет, и отца я почти не знал.",
-            "Это далеко не новая идея для фильма.",
-            "На митинг почти никто не пришёл.",
-            "Машин на дороге почти не было (т.е. их было очень мало).",
-            "Моего начальника едва ли можно назвать красивым.",
-            "Изменений в обслуживании почти никто не заметил.",
-            "В этом программном обеспечении почти нет новых функций.",
-            "Едва ли удивительно, что она не отвечает на его звонки, после того, как он с ней обошёлся."
-        ],
-        "stars": 0,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "hardly": {
+    "comment": [
+      "hard",
+      "harden",
+      "hardness"
+    ],
+    "translate": "вряд ли, едва, едва ли, чуть, с трудом, еле, насилу, резко, сурово, несправедливо",
+    "transcription": " |ˈhɑːrdli|",
+    "antonyms": [],
+    "mnemonic": [
+      "hard [hɑ:d]\nharden - твердеть\nhardly - едва ли, вряд ли\n***\nНа ЖЕСТКОМ диске держит свои правила джихад.\n(это) hard\nТРУДНЫЙ выбор сделал джихад. (это) hard\nКРЕПКИЙ орешек - джихад. (это) hard\n***\nУ меня есть карта \"card\",\nона твёрдая \"hard\"."
+    ],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I hardly ran away.",
+        "ru": "Я еле ноги унёс.",
+        "learn": 1
+      },
+      {
+        "eng": "I can hardly believe it!",
+        "ru": "В это невозможно поверить!",
+        "learn": 0
+      },
+      {
+        "eng": "That news is hardly surprising.",
+        "ru": "Вряд ли это неожиданная новость.",
+        "learn": 1
+      },
+      {
+        "eng": "You hardly ever tell me anything!",
+        "ru": "Ты мне почти никогда ничего не говоришь!",
+        "learn": 0
+      },
+      {
+        "eng": "We hardly ever visit your parents.",
+        "ru": "Мы почти никогда не навещаем твоих родителей.",
+        "learn": 0
+      },
+      {
+        "eng": "They could hardly move.",
+        "ru": "Они едва могли пошевельнуться.",
+        "learn": 0
+      },
+      {
+        "eng": "Life pushed him hardly.",
+        "ru": "Жизнь жестоко с ним обошлась.",
+        "learn": 1
+      },
+      {
+        "eng": "I can hardly hear what she is saying.",
+        "ru": "Я почти не слышу, что она говорит.",
+        "learn": 1
+      },
+      {
+        "eng": "I can hardly believe it.",
+        "ru": "С трудом в это верю.",
+        "learn": 1
+      },
+      {
+        "eng": "It hardly matters what I think.",
+        "ru": "Вряд ли имеет значение, что я думаю.",
+        "learn": 0
+      },
+      {
+        "eng": "The building work has hardly begun.",
+        "ru": "Строительные работы едва начались.",
+        "learn": 0
+      },
+      {
+        "eng": "You hardly know me, how can you be sure?",
+        "ru": "Как вы можете быть уверены - ведь вы меня почти не знаете?",
+        "learn": 0
+      },
+      {
+        "eng": "Hardly a month goes by without another factory closing down.",
+        "ru": "Едва ли не каждый месяц закрывается очередная фабрика.",
+        "learn": 0
+      },
+      {
+        "eng": "It's almost new - hardly a scratch on it!",
+        "ru": "Вещь-то почти совсем новая, почти без царапинки!",
+        "learn": 0
+      },
+      {
+        "eng": "The money hardly earned must be utilized well.",
+        "ru": "Деньги, заработанные с трудом, должны быть потрачены разумно.",
+        "learn": 0
+      },
+      {
+        "eng": "Hardly had I lit a cigarette as the wind blew it out of my hands.",
+        "ru": "Не успел я зажечь сигарету, как ветром её выбило у меня из рук.",
+        "learn": 0
+      },
+      {
+        "eng": "“Is this a new idea for a movie?” “Hardly! I've seen dozens of movies just like it.”",
+        "ru": "“Это оригинальная идея для фильма?” “Вряд ли! Я видел десятки таких фильмов, как этот.”",
+        "learn": 0
+      },
+      {
+        "eng": "Dad ate hardly anything (=almost nothing).",
+        "ru": "Папа почти ничего не ел.",
+        "learn": 0
+      },
+      {
+        "eng": "This is hardly the place to discuss the matter.",
+        "ru": "Здесь не место обсуждению этого вопроса.",
+        "learn": 1
+      },
+      {
+        "eng": "He was so dizzy he could hardly stand up straight.",
+        "ru": "У него так кружилась голова, что он едва мог стоять прямо.",
+        "learn": 0
+      },
+      {
+        "eng": "The children were so excited they could hardly speak.",
+        "ru": "Дети были так взволнованы, что с трудом могли говорить.",
+        "learn": 0
+      },
+      {
+        "eng": "The spelling alone made some words hardly pronounceable.",
+        "ru": "Уже само по себе написание делало некоторые слова совершенно неудобопроизносимыми.",
+        "learn": 0
+      },
+      {
+        "eng": "My parents divorced when I was six, and I hardly knew my father.",
+        "ru": "Мои родители развелись, когда мне было шесть лет, и отца я почти не знал.",
+        "learn": 0
+      },
+      {
+        "eng": "This is hardly a new idea for a movie.",
+        "ru": "Это далеко не новая идея для фильма.",
+        "learn": 0
+      },
+      {
+        "eng": "Hardly anyone showed up for the meeting.",
+        "ru": "На митинг почти никто не пришёл.",
+        "learn": 0
+      },
+      {
+        "eng": "There was hardly any (=very little) traffic.",
+        "ru": "Машин на дороге почти не было (т.е. их было очень мало).",
+        "learn": 0
+      },
+      {
+        "eng": "My boss could hardly be described as handsome.",
+        "ru": "Моего начальника едва ли можно назвать красивым.",
+        "learn": 0
+      },
+      {
+        "eng": "The changes in service have hardly been noticed.",
+        "ru": "Изменений в обслуживании почти никто не заметил.",
+        "learn": 0
+      },
+      {
+        "eng": "There are hardly any new features in this software.",
+        "ru": "В этом программном обеспечении почти нет новых функций.",
+        "learn": 0
+      },
+      {
+        "eng": "It's hardly surprising that she won't answer his calls after the way he's treated her.",
+        "ru": "Едва ли удивительно, что она не отвечает на его звонки, после того, как он с ней обошёлся.",
+        "learn": 0
+      }
+    ]
+  }
 }

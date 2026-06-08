@@ -1,83 +1,170 @@
 {
-    "town": {
-        "comment": [
-            "downtown"
-        ],
-        "translate": "город, городок, местечко, городской, превращать в город",
-        "transcription": " |taʊn|",
-        "antonyms": [],
-        "mnemonic": [
-            "town [та'ун] город (небольшой) - (Джордж-таун) небольшой город."
-        ],
-        "examples": [
-            "I walked around town.",
-            "I hear he's leaving town.",
-            "I caught a bus into town.",
-            "He tore off into town.",
-            "She lives way out of town.",
-            "I thumbed a lift into town.",
-            "the town of Jackson, Florida",
-            "It is in the center of town.",
-            "a town not far from Chicago",
-            "She moved to a smaller town.",
-            "This town is jinxed.",
-            "Take Route 2 into town.",
-            "The news ran all over town.",
-            "He lives in a nearby town.",
-            "The town now lay in ruins.",
-            "The road leads back to town.",
-            "The town became a speck.",
-            "The army seized the town.",
-            "The town is very touristy.",
-            "The town is close at hand.",
-            "The town peopled very fast.",
-            "The planes strafed the town.",
-            "The enemy pillaged the town.",
-            "This town likes to regulate.",
-            "render the town to the enemy",
-            "He rode his cycle into town.",
-            "Invaders ransacked the town.",
-            "They were heading into town.",
-            "I bumped into my ex in town.",
-            "I had a light lunch in town."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я побродил по городу.",
-            "Я слышал, что он уезжает из города.",
-            "Я сел на автобус, идущий в город.",
-            "Он рванул в город.",
-            "Она живёт далеко за городом.",
-            "Я поймал машину в город.",
-            "город Джексон, штат Флорида",
-            "Это в центре города.",
-            "городок недалеко от Чикаго",
-            "Она переехала в город поменьше.",
-            "На этом городе лежит проклятие.",
-            "Поезжайте в город по второму шоссе.",
-            "Это известие быстро распространилось по всему городу.",
-            "Он живёт в соседнем городке.",
-            "Теперь город лежит в руинах.",
-            "Эта дорога ведёт обратно в город.",
-            "Город превратился в точку.",
-            "Армия захватила город.",
-            "В городе очень много туристов.",
-            "Город — совсем рядом, на расстоянии вытянутой руки.",
-            "Население города выросло очень быстро.",
-            "Самолёты обстреляли город.",
-            "Враги разграбили город.",
-            "В этом городе любят всё контролировать.",
-            "уступить город врагу",
-            "Он поехал в город на своём велосипеде /мотоцикле/.",
-            "Город разграбили захватчики.",
-            "Они направлялись в город.",
-            "В городе я наткнулся на свою бывшую.",
-            "Я слегка пообедал в городе."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ow_=_[aʊ]"
-        ]
-    }
+  "town": {
+    "comment": [
+      "downtown"
+    ],
+    "translate": "город, городок, местечко, городской, превращать в город",
+    "transcription": " |taʊn|",
+    "antonyms": [],
+    "mnemonic": [
+      "town [та'ун] город (небольшой) - (Джордж-таун) небольшой город."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ow_=_[aʊ]"
+    ],
+    "examples": [
+      {
+        "eng": "I walked around town.",
+        "ru": "Я побродил по городу.",
+        "learn": 0
+      },
+      {
+        "eng": "I hear he's leaving town.",
+        "ru": "Я слышал, что он уезжает из города.",
+        "learn": 0
+      },
+      {
+        "eng": "I caught a bus into town.",
+        "ru": "Я сел на автобус, идущий в город.",
+        "learn": 0
+      },
+      {
+        "eng": "He tore off into town.",
+        "ru": "Он рванул в город.",
+        "learn": 0
+      },
+      {
+        "eng": "She lives way out of town.",
+        "ru": "Она живёт далеко за городом.",
+        "learn": 0
+      },
+      {
+        "eng": "I thumbed a lift into town.",
+        "ru": "Я поймал машину в город.",
+        "learn": 0
+      },
+      {
+        "eng": "the town of Jackson, Florida",
+        "ru": "город Джексон, штат Флорида",
+        "learn": 0
+      },
+      {
+        "eng": "It is in the center of town.",
+        "ru": "Это в центре города.",
+        "learn": 1
+      },
+      {
+        "eng": "a town not far from Chicago",
+        "ru": "городок недалеко от Чикаго",
+        "learn": 0
+      },
+      {
+        "eng": "She moved to a smaller town.",
+        "ru": "Она переехала в город поменьше.",
+        "learn": 0
+      },
+      {
+        "eng": "This town is jinxed.",
+        "ru": "На этом городе лежит проклятие.",
+        "learn": 0
+      },
+      {
+        "eng": "Take Route 2 into town.",
+        "ru": "Поезжайте в город по второму шоссе.",
+        "learn": 0
+      },
+      {
+        "eng": "The news ran all over town.",
+        "ru": "Это известие быстро распространилось по всему городу.",
+        "learn": 0
+      },
+      {
+        "eng": "He lives in a nearby town.",
+        "ru": "Он живёт в соседнем городке.",
+        "learn": 0
+      },
+      {
+        "eng": "The town now lay in ruins.",
+        "ru": "Теперь город лежит в руинах.",
+        "learn": 0
+      },
+      {
+        "eng": "The road leads back to town.",
+        "ru": "Эта дорога ведёт обратно в город.",
+        "learn": 0
+      },
+      {
+        "eng": "The town became a speck.",
+        "ru": "Город превратился в точку.",
+        "learn": 0
+      },
+      {
+        "eng": "The army seized the town.",
+        "ru": "Армия захватила город.",
+        "learn": 0
+      },
+      {
+        "eng": "The town is very touristy.",
+        "ru": "В городе очень много туристов.",
+        "learn": 0
+      },
+      {
+        "eng": "The town is close at hand.",
+        "ru": "Город — совсем рядом, на расстоянии вытянутой руки.",
+        "learn": 0
+      },
+      {
+        "eng": "The town peopled very fast.",
+        "ru": "Население города выросло очень быстро.",
+        "learn": 0
+      },
+      {
+        "eng": "The planes strafed the town.",
+        "ru": "Самолёты обстреляли город.",
+        "learn": 0
+      },
+      {
+        "eng": "The enemy pillaged the town.",
+        "ru": "Враги разграбили город.",
+        "learn": 0
+      },
+      {
+        "eng": "This town likes to regulate.",
+        "ru": "В этом городе любят всё контролировать.",
+        "learn": 0
+      },
+      {
+        "eng": "render the town to the enemy",
+        "ru": "уступить город врагу",
+        "learn": 0
+      },
+      {
+        "eng": "He rode his cycle into town.",
+        "ru": "Он поехал в город на своём велосипеде /мотоцикле/.",
+        "learn": 1
+      },
+      {
+        "eng": "Invaders ransacked the town.",
+        "ru": "Город разграбили захватчики.",
+        "learn": 0
+      },
+      {
+        "eng": "They were heading into town.",
+        "ru": "Они направлялись в город.",
+        "learn": 1
+      },
+      {
+        "eng": "I bumped into my ex in town.",
+        "ru": "В городе я наткнулся на свою бывшую.",
+        "learn": 0
+      },
+      {
+        "eng": "I had a light lunch in town.",
+        "ru": "Я слегка пообедал в городе.",
+        "learn": 1
+      }
+    ]
+  }
 }

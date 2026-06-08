@@ -1,86 +1,172 @@
 {
-    "predict": {
-        "comment": [
-            "predictor",
-            "unpredictable",
-            "predictable",
-            "prediction"
-        ],
-        "translate": "предсказывать",
-        "transcription": " |prɪˈdɪkt|",
-        "antonyms": [],
-        "mnemonic": [
-            "predict [приди'кт] предсказывать - (Придика т-ы) и предскажи судьбу.",
-            "predict [prɪ'dɪkt]\nprediction [prɪ'dɪkʃən] - прогноз\n***\nЯ НАПРОРОЧИЛ, и ты приди (кт). (это) predict\nПРОРОЧАТ оправдательный вердикт. (это) predict\n***\nЯ спрогнозировал \"predict\",\nа ты издал указ \"edict\"."
-        ],
-        "examples": [
-            "We cannot predict future events.",
-            "It's hard to predict how the election will turn out.",
-            "It's impossible to predict the future.",
-            "I predict that someone tall, dark, and handsome is going to come into your life.",
-            "How often an observer can predict man's actions better than the man himself.",
-            "It's hard to predict voters' whims.",
-            "Sales are predicted to be the same as last year.",
-            "The test can accurately predict what a bigger explosion would do.",
-            "It's impossible to predict what will happen next.",
-            "We are now more able to predict future patterns of climate change.",
-            "Analysts predict that rates will rise by almost 40 percent.",
-            "It's difficult to predict who will come out on top.",
-            "It's practically impossible to predict what will happen.",
-            "Many people predicted that the store would fail, but it has done very well.",
-            "She claims that she can predict future events.",
-            "Earthquakes are extremely difficult to predict.",
-            "There is no surefire way to predict the outcome.",
-            "You can't predict the future with absolute certainty.",
-            "It was impossible to predict the outcome of the election.",
-            "an uncanny ability to predict the weather",
-            "It's impossible to predict the weather accurately.",
-            "We cannot predict the outcome with absolute certainty.",
-            "They use computer simulation to predict weather conditions.",
-            "All the local forecasters are predicting rain for this afternoon.",
-            "The result is impossible to predict with any degree of certainty.",
-            "Forecasters predict the region's economy is heading for disaster.",
-            "Unemployment is predicted to increase to 700,000 by the end of the year.",
-            "Economists predict that house prices will remain static for a long period.",
-            "It is difficult to predict what the long-term effects of the accident will be.",
-            "Most analysts predict that the country will revalue before the end of the year."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мы не можем предсказать будущие события.",
-            "Трудно предсказать, чем обернутся выборы.",
-            "Будущее предсказать невозможно.",
-            "Я предсказываю, что в вашей жизни появится кто-то высокий, темноволосый и красивый.",
-            "Как часто наблюдатель может предсказать действия человека лучше, чем сам человек.",
-            "Трудно предсказать желания избирателей.",
-            "Предполагают, что продажи будут такими же, как и в прошлом году.",
-            "Тест может точно предсказать, что произойдёт при более мощном взрыве.",
-            "Невозможно предугадать, что будет дальше.",
-            "Теперь мы лучше умеем предсказывать будущие сценарии изменения климата.",
-            "По прогнозам аналитиков, тарифы увеличатся почти на сорок процентов.",
-            "Трудно предсказать, кто выйдет на первое место.",
-            "Что будет дальше, предсказать практически невозможно.",
-            "Хотя многие предсказывали, что магазин разорится, но дела там идут очень хорошо.",
-            "Она утверждает, что может предсказывать будущие события.",
-            "Землетрясения крайне трудно прогнозировать.",
-            "Стопроцентно верного способа предсказать результат не существует.",
-            "Будущее нельзя предсказать с абсолютной уверенностью.",
-            "Предсказать исход выборов было невозможно.",
-            "невероятная способность предсказывать погоду",
-            "Невозможно точно предсказать погоду.",
-            "Мы не можем предсказать результат с абсолютной уверенностью.",
-            "Они используют компьютерное моделирование для прогнозирования погодных условий.",
-            "Все местные синоптики прогнозируют дождь во второй половине дня.",
-            "Результат невозможно предсказать с какой-либо степенью определённости.",
-            "Согласно прогнозам экспертов, экономика данного региона движется к катастрофе.",
-            "К концу года число безработных, согласно прогнозам, вырастет до семисот тысяч человек.",
-            "Экономисты прогнозируют, что цены на жильё в течение длительного периода будут оставаться неизменными.",
-            "Трудно предсказать, каковы будут долгосрочные последствия данной аварии.",
-            "Большинство аналитиков предсказывает, что страна проведёт ревальвацию своей валюты до конца года."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "predict": {
+    "comment": [
+      "predictor",
+      "unpredictable",
+      "predictable",
+      "prediction"
+    ],
+    "translate": "предсказывать",
+    "transcription": " |prɪˈdɪkt|",
+    "antonyms": [],
+    "mnemonic": [
+      "predict [приди'кт] предсказывать - (Придика т-ы) и предскажи судьбу.",
+      "predict [prɪ'dɪkt]\nprediction [prɪ'dɪkʃən] - прогноз\n***\nЯ НАПРОРОЧИЛ, и ты приди (кт). (это) predict\nПРОРОЧАТ оправдательный вердикт. (это) predict\n***\nЯ спрогнозировал \"predict\",\nа ты издал указ \"edict\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "We cannot predict future events.",
+        "ru": "Мы не можем предсказать будущие события.",
+        "learn": 1
+      },
+      {
+        "eng": "It's hard to predict how the election will turn out.",
+        "ru": "Трудно предсказать, чем обернутся выборы.",
+        "learn": 1
+      },
+      {
+        "eng": "It's impossible to predict the future.",
+        "ru": "Будущее предсказать невозможно.",
+        "learn": 0
+      },
+      {
+        "eng": "I predict that someone tall, dark, and handsome is going to come into your life.",
+        "ru": "Я предсказываю, что в вашей жизни появится кто-то высокий, темноволосый и красивый.",
+        "learn": 0
+      },
+      {
+        "eng": "How often an observer can predict man's actions better than the man himself.",
+        "ru": "Как часто наблюдатель может предсказать действия человека лучше, чем сам человек.",
+        "learn": 0
+      },
+      {
+        "eng": "It's hard to predict voters' whims.",
+        "ru": "Трудно предсказать желания избирателей.",
+        "learn": 0
+      },
+      {
+        "eng": "Sales are predicted to be the same as last year.",
+        "ru": "Предполагают, что продажи будут такими же, как и в прошлом году.",
+        "learn": 0
+      },
+      {
+        "eng": "The test can accurately predict what a bigger explosion would do.",
+        "ru": "Тест может точно предсказать, что произойдёт при более мощном взрыве.",
+        "learn": 0
+      },
+      {
+        "eng": "It's impossible to predict what will happen next.",
+        "ru": "Невозможно предугадать, что будет дальше.",
+        "learn": 0
+      },
+      {
+        "eng": "We are now more able to predict future patterns of climate change.",
+        "ru": "Теперь мы лучше умеем предсказывать будущие сценарии изменения климата.",
+        "learn": 0
+      },
+      {
+        "eng": "Analysts predict that rates will rise by almost 40 percent.",
+        "ru": "По прогнозам аналитиков, тарифы увеличатся почти на сорок процентов.",
+        "learn": 0
+      },
+      {
+        "eng": "It's difficult to predict who will come out on top.",
+        "ru": "Трудно предсказать, кто выйдет на первое место.",
+        "learn": 0
+      },
+      {
+        "eng": "It's practically impossible to predict what will happen.",
+        "ru": "Что будет дальше, предсказать практически невозможно.",
+        "learn": 0
+      },
+      {
+        "eng": "Many people predicted that the store would fail, but it has done very well.",
+        "ru": "Хотя многие предсказывали, что магазин разорится, но дела там идут очень хорошо.",
+        "learn": 0
+      },
+      {
+        "eng": "She claims that she can predict future events.",
+        "ru": "Она утверждает, что может предсказывать будущие события.",
+        "learn": 0
+      },
+      {
+        "eng": "Earthquakes are extremely difficult to predict.",
+        "ru": "Землетрясения крайне трудно прогнозировать.",
+        "learn": 0
+      },
+      {
+        "eng": "There is no surefire way to predict the outcome.",
+        "ru": "Стопроцентно верного способа предсказать результат не существует.",
+        "learn": 0
+      },
+      {
+        "eng": "You can't predict the future with absolute certainty.",
+        "ru": "Будущее нельзя предсказать с абсолютной уверенностью.",
+        "learn": 0
+      },
+      {
+        "eng": "It was impossible to predict the outcome of the election.",
+        "ru": "Предсказать исход выборов было невозможно.",
+        "learn": 0
+      },
+      {
+        "eng": "an uncanny ability to predict the weather",
+        "ru": "невероятная способность предсказывать погоду",
+        "learn": 0
+      },
+      {
+        "eng": "It's impossible to predict the weather accurately.",
+        "ru": "Невозможно точно предсказать погоду.",
+        "learn": 1
+      },
+      {
+        "eng": "We cannot predict the outcome with absolute certainty.",
+        "ru": "Мы не можем предсказать результат с абсолютной уверенностью.",
+        "learn": 1
+      },
+      {
+        "eng": "They use computer simulation to predict weather conditions.",
+        "ru": "Они используют компьютерное моделирование для прогнозирования погодных условий.",
+        "learn": 1
+      },
+      {
+        "eng": "All the local forecasters are predicting rain for this afternoon.",
+        "ru": "Все местные синоптики прогнозируют дождь во второй половине дня.",
+        "learn": 0
+      },
+      {
+        "eng": "The result is impossible to predict with any degree of certainty.",
+        "ru": "Результат невозможно предсказать с какой-либо степенью определённости.",
+        "learn": 0
+      },
+      {
+        "eng": "Forecasters predict the region's economy is heading for disaster.",
+        "ru": "Согласно прогнозам экспертов, экономика данного региона движется к катастрофе.",
+        "learn": 0
+      },
+      {
+        "eng": "Unemployment is predicted to increase to 700,000 by the end of the year.",
+        "ru": "К концу года число безработных, согласно прогнозам, вырастет до семисот тысяч человек.",
+        "learn": 0
+      },
+      {
+        "eng": "Economists predict that house prices will remain static for a long period.",
+        "ru": "Экономисты прогнозируют, что цены на жильё в течение длительного периода будут оставаться неизменными.",
+        "learn": 0
+      },
+      {
+        "eng": "It is difficult to predict what the long-term effects of the accident will be.",
+        "ru": "Трудно предсказать, каковы будут долгосрочные последствия данной аварии.",
+        "learn": 1
+      },
+      {
+        "eng": "Most analysts predict that the country will revalue before the end of the year.",
+        "ru": "Большинство аналитиков предсказывает, что страна проведёт ревальвацию своей валюты до конца года.",
+        "learn": 0
+      }
+    ]
+  }
 }

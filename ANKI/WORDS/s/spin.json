@@ -1,87 +1,176 @@
 {
-    "spin": {
-        "comment": [
-            "pin",
-            "spine",
-            "pint",
-            "pink",
-            "opinion"
-        ],
-        "translate": " вращение, штопор, кружение, верчение, крутиться, крутить, прясть, вертеться",
-        "transcription": "  |spɪn|",
-        "antonyms": [],
-        "mnemonic": [
-            "spin [спин] крутить, вертеть, вращение - (Спин-ингом) крутят на рыбалке.",
-            "spin [spın]\n***\nБуду я ВЕРТЕТЬСЯ возле ваших спин. (это) spin\nБуду я КРУТИТЬСЯ возле ваших спин. (это) spin\nНе КРУТИСЬ, а спи (н). (это) spin\n***\nТы не крутись \"spin\",\nа то уколешься булавкой \"pin\"."
-        ],
-        "examples": [
-            "My head is spinning.",
-            "The propeller was spinning slowly.",
-            "He spun round at the sound of his name.",
-            "he took the new car for a spin",
-            "Give the washing another spin.",
-            "Silkworms spin cocoons.",
-            "She put spin on the ball.",
-            "He took me for a spin in his new car.",
-            "The room started to spin.",
-            "Their stores will have to be spun out.",
-            "Let's go for a spin in the country.",
-            "the direction of the Earth's spin",
-            "The ice-skater executed graceful jumps and spins.",
-            "The plane went into (came out of) a spin.",
-            "The administration is relentlessly spinning the war.",
-            "They claim to report the news with no spin.",
-            "The car was spinning along nicely when suddenly the engine stopped.",
-            "Do you want to take my car for a spin?",
-            "Could you take me for a spin through the country?",
-            "It happened so fast that her mind went into a spin.",
-            "I'm paid by the hour, so I spin the work out as long as I can.",
-            "Politicians are often accused of spin by their political opponents.",
-            "the spin of the Earth on its axis",
-            "Our wheels were spinning on the ice.",
-            "I tried to stand up but the room was spinning.",
-            "The campaign put a favorable spin on the story.",
-            "She grabbed Norm's arm and spun him around to face her.",
-            "Shakespeare, Spenser, Milton: the list could be spun out.",
-            "The President's spokesmen had to spin the story to make it less embarrassing.",
-            "They spun the wool into yarn."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "У меня кружится голова.",
-            "Пропеллер вращался медленно.",
-            "Он обернулся, услышав своё имя.",
-            "он взял новую машину чтобы покататься",
-            "Прокрути постиранное белье еще раз (в центрифуге).",
-            "Шелкопряды плетут коконы.",
-            "Она придала мячу вращение. / Она закрутила мяч.",
-            "Он взял меня прокатиться на своей новой машине.",
-            "Комната завертелась.",
-            "Им придется растягивать свои запасы (продовольствия).",
-            "Поехали за город, покатаемся.",
-            "направление вращения Земли",
-            "Фигурист выполнил изящные прыжки и вращения.",
-            "Самолет вошел в штопор (вышел из штопора).",
-            "Администрация настойчиво пиарит войну.",
-            "Они утверждают, что в их репортажах новостей нет никакой пропаганды.",
-            "Машина плавно шла на хорошей скорости, и вдруг заглох двигатель.",
-            "Ты хочешь взять мою машину покататься?",
-            "Покатаешь меня по окрестностям?",
-            "Это произошло так быстро, что она пришла в смятение.",
-            "Мне платят по часам, поэтому я растягиваю работу, как только могу. (брит.)",
-            "Политики часто обвиняют своих оппонентов в манипулировании фактами.",
-            "вращение Земли вокруг своей оси",
-            "Мы забуксовали на льду.",
-            "Я попытался было встать, но комната закружилась.",
-            "Предвыборный штаб подал эту историю под благоприятным углом.",
-            "Она схватила Норма за руку и развернула его к себе лицом.",
-            "Шекспир, Спенсер, Милтон - список можно было бы продолжить.",
-            "Представителям президента пришлось приукрасить эту историю, чтобы она казалась не такой позорной.",
-            "Они прядут из шерсти пряжу."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "spin": {
+    "comment": [
+      "spun |spʌn|,                                          spun |spʌn|",
+      "pin",
+      "spine",
+      "pint",
+      "pink",
+      "opinion"
+    ],
+    "translate": " вращение, штопор, кружение, верчение, крутиться, крутить, прясть, вертеться",
+    "transcription": "  |spɪn|",
+    "antonyms": [],
+    "mnemonic": [
+      "spin [спин] крутить, вертеть, вращение - (Спин-ингом) крутят на рыбалке.",
+      "spin [spın]\n***\nБуду я ВЕРТЕТЬСЯ возле ваших спин. (это) spin\nБуду я КРУТИТЬСЯ возле ваших спин. (это) spin\nНе КРУТИСЬ, а спи (н). (это) spin\n***\nТы не крутись \"spin\",\nа то уколешься булавкой \"pin\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "My head is spinning.",
+        "ru": "У меня кружится голова.",
+        "learn": 0
+      },
+      {
+        "eng": "The propeller was spinning slowly.",
+        "ru": "Пропеллер вращался медленно.",
+        "learn": 0
+      },
+      {
+        "eng": "He spun round at the sound of his name.",
+        "ru": "Он обернулся, услышав своё имя.",
+        "learn": 0
+      },
+      {
+        "eng": "he took the new car for a spin",
+        "ru": "он взял новую машину чтобы покататься",
+        "learn": 0
+      },
+      {
+        "eng": "Give the washing another spin.",
+        "ru": "Прокрути постиранное белье еще раз (в центрифуге).",
+        "learn": 0
+      },
+      {
+        "eng": "Silkworms spin cocoons.",
+        "ru": "Шелкопряды плетут коконы.",
+        "learn": 0
+      },
+      {
+        "eng": "She put spin on the ball.",
+        "ru": "Она придала мячу вращение. / Она закрутила мяч.",
+        "learn": 0
+      },
+      {
+        "eng": "He took me for a spin in his new car.",
+        "ru": "Он взял меня прокатиться на своей новой машине.",
+        "learn": 0
+      },
+      {
+        "eng": "The room started to spin.",
+        "ru": "Комната завертелась.",
+        "learn": 1
+      },
+      {
+        "eng": "Their stores will have to be spun out.",
+        "ru": "Им придется растягивать свои запасы (продовольствия).",
+        "learn": 0
+      },
+      {
+        "eng": "Let's go for a spin in the country.",
+        "ru": "Поехали за город, покатаемся.",
+        "learn": 0
+      },
+      {
+        "eng": "the direction of the Earth's spin",
+        "ru": "направление вращения Земли",
+        "learn": 0
+      },
+      {
+        "eng": "The ice-skater executed graceful jumps and spins.",
+        "ru": "Фигурист выполнил изящные прыжки и вращения.",
+        "learn": 0
+      },
+      {
+        "eng": "The plane went into (came out of) a spin.",
+        "ru": "Самолет вошел в штопор (вышел из штопора).",
+        "learn": 0
+      },
+      {
+        "eng": "The administration is relentlessly spinning the war.",
+        "ru": "Администрация настойчиво пиарит войну.",
+        "learn": 0
+      },
+      {
+        "eng": "They claim to report the news with no spin.",
+        "ru": "Они утверждают, что в их репортажах новостей нет никакой пропаганды.",
+        "learn": 0
+      },
+      {
+        "eng": "The car was spinning along nicely when suddenly the engine stopped.",
+        "ru": "Машина плавно шла на хорошей скорости, и вдруг заглох двигатель.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you want to take my car for a spin?",
+        "ru": "Ты хочешь взять мою машину покататься?",
+        "learn": 1
+      },
+      {
+        "eng": "Could you take me for a spin through the country?",
+        "ru": "Покатаешь меня по окрестностям?",
+        "learn": 0
+      },
+      {
+        "eng": "It happened so fast that her mind went into a spin.",
+        "ru": "Это произошло так быстро, что она пришла в смятение.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm paid by the hour, so I spin the work out as long as I can.",
+        "ru": "Мне платят по часам, поэтому я растягиваю работу, как только могу. (брит.)",
+        "learn": 0
+      },
+      {
+        "eng": "Politicians are often accused of spin by their political opponents.",
+        "ru": "Политики часто обвиняют своих оппонентов в манипулировании фактами.",
+        "learn": 0
+      },
+      {
+        "eng": "the spin of the Earth on its axis",
+        "ru": "вращение Земли вокруг своей оси",
+        "learn": 0
+      },
+      {
+        "eng": "Our wheels were spinning on the ice.",
+        "ru": "Мы забуксовали на льду.",
+        "learn": 1
+      },
+      {
+        "eng": "I tried to stand up but the room was spinning.",
+        "ru": "Я попытался было встать, но комната закружилась.",
+        "learn": 0
+      },
+      {
+        "eng": "The campaign put a favorable spin on the story.",
+        "ru": "Предвыборный штаб подал эту историю под благоприятным углом.",
+        "learn": 0
+      },
+      {
+        "eng": "She grabbed Norm's arm and spun him around to face her.",
+        "ru": "Она схватила Норма за руку и развернула его к себе лицом.",
+        "learn": 0
+      },
+      {
+        "eng": "Shakespeare, Spenser, Milton: the list could be spun out.",
+        "ru": "Шекспир, Спенсер, Милтон - список можно было бы продолжить.",
+        "learn": 0
+      },
+      {
+        "eng": "The President's spokesmen had to spin the story to make it less embarrassing.",
+        "ru": "Представителям президента пришлось приукрасить эту историю, чтобы она казалась не такой позорной.",
+        "learn": 0
+      },
+      {
+        "eng": "They spun the wool into yarn.",
+        "ru": "Они прядут из шерсти пряжу.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,81 +1,167 @@
 {
-    "student": {
-        "comment": [
-            "study",
-            "studio"
-        ],
-        "translate": "студент, учащийся, изучающий, обучающийся, учёный",
-        "transcription": " |ˈstuːdnt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The student studied hard.",
-            "This student heads the class.",
-            "a group of college students",
-            "She was an average student.",
-            "He's an extremely gifted student.",
-            "He is a student of the occult.",
-            "He befriended the new student.",
-            "Each student has to learn it by heart.",
-            "Assign each student a partner.",
-            "She was raped by a fellow student.",
-            "I've let my spare room to a student.",
-            "Police broke up the student demonstration.",
-            "The student's grades were woeful.",
-            "a student pilot's first solo flight",
-            "The lazy student promised to reform.",
-            "She inclined her head to the student.",
-            "She underrated her student's ability.",
-            "A lot of art students live in this dorm.",
-            "There are obvious gains for the student.",
-            "The dean of student affairs is the proper arbiter when a student disputes a grade.",
-            "She's the best student in her class.",
-            "This student somehow doesn't belong.",
-            "The student looked at him, perplexed.",
-            "She disparaged her student's efforts.",
-            "This student knows her irregular verbs.",
-            "The shy student lingered in the corner.",
-            "a student with a passion for literature",
-            "I can only go so far with this student.",
-            "She was the prototypal student activist.",
-            "He took the arrogant student down a peg."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Студент усердно занимался.",
-            "Этот ученик — первый в классе.",
-            "группа студентов колледжа",
-            "Она была обычной студенткой.",
-            "Это чрезвычайно одарённый ученик.",
-            "Он изучает оккультизм.",
-            "Он подружился с новым студентом.",
-            "Каждый студент должен выучить это наизусть.",
-            "Назначьте каждому студенту напарника.",
-            "Она была изнасилована сокурсником.",
-            "Я сдал свободную комнату студенту.",
-            "Полиция разогнала студенческую демонстрацию.",
-            "Оценки студента были удручающими.",
-            "первый самостоятельный полёт пилота-курсанта",
-            "Этот ленивый студент пообещал исправиться.",
-            "Она наклонила голову к студенту.",
-            "Она недооценивала способности своего ученика.",
-            "В этой общаге живёт куча студентов-гуманитариев.",
-            "Для студентов есть очевидные выгоды.",
-            "В случае, когда студент оспаривает правильность полученной оценки, арбитром надлежит выступить декану по студенческим вопросам.",
-            "Она лучшая ученица в своём классе.",
-            "Этот студент по какой-то причине сюда не вписывается.",
-            "Студент в изумлении посмотрел на него.",
-            "Она принизила усилия своего ученика.",
-            "Эта студентка знает неправильные глаголы.",
-            "Робкий студент топтался в уголке.",
-            "студент, страстно увлечённый литературой",
-            "С этим студентом у меня дальше продвинуться не получится.",
-            "Она была типичной студенткой-активисткой.",
-            "Он поставил заносчивого студента на место."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "student": {
+    "comment": [
+      "study",
+      "studio"
+    ],
+    "translate": "студент, учащийся, изучающий, обучающийся, учёный",
+    "transcription": " |ˈstuːdnt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The student studied hard.",
+        "ru": "Студент усердно занимался.",
+        "learn": 0
+      },
+      {
+        "eng": "This student heads the class.",
+        "ru": "Этот ученик — первый в классе.",
+        "learn": 0
+      },
+      {
+        "eng": "a group of college students",
+        "ru": "группа студентов колледжа",
+        "learn": 0
+      },
+      {
+        "eng": "She was an average student.",
+        "ru": "Она была обычной студенткой.",
+        "learn": 0
+      },
+      {
+        "eng": "He's an extremely gifted student.",
+        "ru": "Это чрезвычайно одарённый ученик.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a student of the occult.",
+        "ru": "Он изучает оккультизм.",
+        "learn": 0
+      },
+      {
+        "eng": "He befriended the new student.",
+        "ru": "Он подружился с новым студентом.",
+        "learn": 0
+      },
+      {
+        "eng": "Each student has to learn it by heart.",
+        "ru": "Каждый студент должен выучить это наизусть.",
+        "learn": 1
+      },
+      {
+        "eng": "Assign each student a partner.",
+        "ru": "Назначьте каждому студенту напарника.",
+        "learn": 0
+      },
+      {
+        "eng": "She was raped by a fellow student.",
+        "ru": "Она была изнасилована сокурсником.",
+        "learn": 1
+      },
+      {
+        "eng": "I've let my spare room to a student.",
+        "ru": "Я сдал свободную комнату студенту.",
+        "learn": 0
+      },
+      {
+        "eng": "Police broke up the student demonstration.",
+        "ru": "Полиция разогнала студенческую демонстрацию.",
+        "learn": 0
+      },
+      {
+        "eng": "The student's grades were woeful.",
+        "ru": "Оценки студента были удручающими.",
+        "learn": 0
+      },
+      {
+        "eng": "a student pilot's first solo flight",
+        "ru": "первый самостоятельный полёт пилота-курсанта",
+        "learn": 0
+      },
+      {
+        "eng": "The lazy student promised to reform.",
+        "ru": "Этот ленивый студент пообещал исправиться.",
+        "learn": 0
+      },
+      {
+        "eng": "She inclined her head to the student.",
+        "ru": "Она наклонила голову к студенту.",
+        "learn": 0
+      },
+      {
+        "eng": "She underrated her student's ability.",
+        "ru": "Она недооценивала способности своего ученика.",
+        "learn": 0
+      },
+      {
+        "eng": "A lot of art students live in this dorm.",
+        "ru": "В этой общаге живёт куча студентов-гуманитариев.",
+        "learn": 0
+      },
+      {
+        "eng": "There are obvious gains for the student.",
+        "ru": "Для студентов есть очевидные выгоды.",
+        "learn": 0
+      },
+      {
+        "eng": "The dean of student affairs is the proper arbiter when a student disputes a grade.",
+        "ru": "В случае, когда студент оспаривает правильность полученной оценки, арбитром надлежит выступить декану по студенческим вопросам.",
+        "learn": 0
+      },
+      {
+        "eng": "She's the best student in her class.",
+        "ru": "Она лучшая ученица в своём классе.",
+        "learn": 0
+      },
+      {
+        "eng": "This student somehow doesn't belong.",
+        "ru": "Этот студент по какой-то причине сюда не вписывается.",
+        "learn": 0
+      },
+      {
+        "eng": "The student looked at him, perplexed.",
+        "ru": "Студент в изумлении посмотрел на него.",
+        "learn": 0
+      },
+      {
+        "eng": "She disparaged her student's efforts.",
+        "ru": "Она принизила усилия своего ученика.",
+        "learn": 0
+      },
+      {
+        "eng": "This student knows her irregular verbs.",
+        "ru": "Эта студентка знает неправильные глаголы.",
+        "learn": 1
+      },
+      {
+        "eng": "The shy student lingered in the corner.",
+        "ru": "Робкий студент топтался в уголке.",
+        "learn": 1
+      },
+      {
+        "eng": "a student with a passion for literature",
+        "ru": "студент, страстно увлечённый литературой",
+        "learn": 0
+      },
+      {
+        "eng": "I can only go so far with this student.",
+        "ru": "С этим студентом у меня дальше продвинуться не получится.",
+        "learn": 0
+      },
+      {
+        "eng": "She was the prototypal student activist.",
+        "ru": "Она была типичной студенткой-активисткой.",
+        "learn": 1
+      },
+      {
+        "eng": "He took the arrogant student down a peg.",
+        "ru": "Он поставил заносчивого студента на место.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,87 +1,174 @@
 {
-    "return": {
-        "comment": [
-            "turn",
-            "turn out",
-            "turnover",
-            "turning"
-        ],
-        "translate": "возвращение, возврат, ответ, возвращать, возвращаться, обратный, вернувшийся",
-        "transcription": " |rɪˈtɜːrn|",
-        "antonyms": [],
-        "mnemonic": [
-            "return [рита':н] вернуть (-ся)- (Пу-ритан)вернуться заставили.",
-            "turn [tɛ: n]\nreturn [rɪ'tɛ:n]\n***\nПОВОРАЧИВАТЬ назад - плохой тон. (это) turn\nОТВЕРНУТЬСЯ спиной - плохой тон. (это) turn\nОборот колеса, перемена, изменение состояние, услуга.\n***\nВОЗВРАЩАЕТСЯ тритон. (это) return\nВозвращение. Возврат. Отчёт.\nОбратный, ответный."
-        ],
-        "examples": [
-            "Alison decided to return home.",
-            "We waited for you to return.",
-            "Return the book to its exact place.",
-            "I have to return a book to the library.",
-            "He left his country, never to return.",
-            "Let's return to our muttons.",
-            "Have him return it at once.",
-            "I'm leaving but will return at 2 p.m.",
-            "She is returning home tomorrow.",
-            "She telephoned us to return home.",
-            "He decided to delay his return to York.",
-            "Are you planning to return to Spain?",
-            "We must return good for evil.",
-            "He desired to return to Mexico.",
-            "Her old vigor returned.",
-            "The land returned to the family.",
-            "In return we gave them as good as we got.",
-            "His family celebrated his safe return home.",
-            "at the return from the army",
-            "She swore never to return home.",
-            "Soon she returned to her old habit.",
-            "'Yes,' he returned. 'I'm a lucky man.'",
-            "I'll set a discount in return for a speedy sale.",
-            "The old merchant joyed at the return of his son.",
-            "We are looking forward to your return.",
-            "You may return the book within 30 days.",
-            "She answered my letter by return of post.",
-            "She longed for him to return.",
-            "the department's return to normal",
-            "The return journey was uneventful."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Элисон решила вернуться домой.",
-            "Мы ждали твоего возвращения.",
-            "Поставь книгу обратно, на то же самое место.",
-            "Я должен вернуть в библиотеку одну книгу.",
-            "Он покинул свою страну, чтобы никогда уже не вернуться.",
-            "Вернёмся к нашим баранам.",
-            "Заставь его немедленно это вернуть.",
-            "Я ухожу, но вернусь в два часа дня.",
-            "Она возвращается домой завтра.",
-            "Она позвонила и попросила нас вернуться домой.",
-            "Он решил отложить своё возвращение в Йорк.",
-            "Планируете ли вы вернуться в Испанию?",
-            "Надо платить добром за зло.",
-            "Он желал вернуться в Мексику.",
-            "К ней вернулась былая сила /энергия, бодрость/.",
-            "Земля вернулась к семье.",
-            "Мы отплатили им той же монетой. / Мы дали им сдачи сполна.",
-            "Семья отпраздновала его благополучное возвращение домой.",
-            "после возвращения из армии",
-            "Она поклялась никогда не возвращаться домой.",
-            "Вскоре она возвратилась к своей старой привычке.",
-            "— Да, — ответил он. — Я — счастливчик!",
-            "Чтобы быстрее продать товар, я отдам его со скидкой.",
-            "Старый купец обрадовался возвращению сына.",
-            "Мы с нетерпением ждём твоего возвращения.",
-            "Книгу можно вернуть в течение тридцати дней.",
-            "Она ответила на моё письмо сразу же, с обратной почтой.",
-            "Она страстно желала его возвращения.",
-            "возвращение отдела в своё обычное состояние",
-            "На обратном пути не было ничего интересного."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Глаголы_состояния_и_чувственного_восприятия"
-        ]
-    }
+  "return": {
+    "comment": [
+      "turn",
+      "turn out",
+      "turnover",
+      "turning"
+    ],
+    "translate": "возвращение, возврат, ответ, возвращать, возвращаться, обратный, вернувшийся",
+    "transcription": " |rɪˈtɜːrn|",
+    "antonyms": [],
+    "mnemonic": [
+      "return [рита':н] вернуть (-ся)- (Пу-ритан)вернуться заставили.",
+      "turn [tɛ: n]\nreturn [rɪ'tɛ:n]\n***\nПОВОРАЧИВАТЬ назад - плохой тон. (это) turn\nОТВЕРНУТЬСЯ спиной - плохой тон. (это) turn\nОборот колеса, перемена, изменение состояние, услуга.\n***\nВОЗВРАЩАЕТСЯ тритон. (это) return\nВозвращение. Возврат. Отчёт.\nОбратный, ответный."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Глаголы_состояния_и_чувственного_восприятия"
+    ],
+    "examples": [
+      {
+        "eng": "Alison decided to return home.",
+        "ru": "Элисон решила вернуться домой.",
+        "learn": 0
+      },
+      {
+        "eng": "We waited for you to return.",
+        "ru": "Мы ждали твоего возвращения.",
+        "learn": 0
+      },
+      {
+        "eng": "Return the book to its exact place.",
+        "ru": "Поставь книгу обратно, на то же самое место.",
+        "learn": 1
+      },
+      {
+        "eng": "I have to return a book to the library.",
+        "ru": "Я должен вернуть в библиотеку одну книгу.",
+        "learn": 0
+      },
+      {
+        "eng": "He left his country, never to return.",
+        "ru": "Он покинул свою страну, чтобы никогда уже не вернуться.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's return to our muttons.",
+        "ru": "Вернёмся к нашим баранам.",
+        "learn": 0
+      },
+      {
+        "eng": "Have him return it at once.",
+        "ru": "Заставь его немедленно это вернуть.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm leaving but will return at 2 p.m.",
+        "ru": "Я ухожу, но вернусь в два часа дня.",
+        "learn": 0
+      },
+      {
+        "eng": "She is returning home tomorrow.",
+        "ru": "Она возвращается домой завтра.",
+        "learn": 1
+      },
+      {
+        "eng": "She telephoned us to return home.",
+        "ru": "Она позвонила и попросила нас вернуться домой.",
+        "learn": 0
+      },
+      {
+        "eng": "He decided to delay his return to York.",
+        "ru": "Он решил отложить своё возвращение в Йорк.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you planning to return to Spain?",
+        "ru": "Планируете ли вы вернуться в Испанию?",
+        "learn": 0
+      },
+      {
+        "eng": "We must return good for evil.",
+        "ru": "Надо платить добром за зло.",
+        "learn": 0
+      },
+      {
+        "eng": "He desired to return to Mexico.",
+        "ru": "Он желал вернуться в Мексику.",
+        "learn": 0
+      },
+      {
+        "eng": "Her old vigor returned.",
+        "ru": "К ней вернулась былая сила /энергия, бодрость/.",
+        "learn": 0
+      },
+      {
+        "eng": "The land returned to the family.",
+        "ru": "Земля вернулась к семье.",
+        "learn": 0
+      },
+      {
+        "eng": "In return we gave them as good as we got.",
+        "ru": "Мы отплатили им той же монетой. / Мы дали им сдачи сполна.",
+        "learn": 0
+      },
+      {
+        "eng": "His family celebrated his safe return home.",
+        "ru": "Семья отпраздновала его благополучное возвращение домой.",
+        "learn": 0
+      },
+      {
+        "eng": "at the return from the army",
+        "ru": "после возвращения из армии",
+        "learn": 0
+      },
+      {
+        "eng": "She swore never to return home.",
+        "ru": "Она поклялась никогда не возвращаться домой.",
+        "learn": 0
+      },
+      {
+        "eng": "Soon she returned to her old habit.",
+        "ru": "Вскоре она возвратилась к своей старой привычке.",
+        "learn": 0
+      },
+      {
+        "eng": "'Yes,' he returned. 'I'm a lucky man.'",
+        "ru": "— Да, — ответил он. — Я — счастливчик!",
+        "learn": 0
+      },
+      {
+        "eng": "I'll set a discount in return for a speedy sale.",
+        "ru": "Чтобы быстрее продать товар, я отдам его со скидкой.",
+        "learn": 0
+      },
+      {
+        "eng": "The old merchant joyed at the return of his son.",
+        "ru": "Старый купец обрадовался возвращению сына.",
+        "learn": 1
+      },
+      {
+        "eng": "We are looking forward to your return.",
+        "ru": "Мы с нетерпением ждём твоего возвращения.",
+        "learn": 0
+      },
+      {
+        "eng": "You may return the book within 30 days.",
+        "ru": "Книгу можно вернуть в течение тридцати дней.",
+        "learn": 1
+      },
+      {
+        "eng": "She answered my letter by return of post.",
+        "ru": "Она ответила на моё письмо сразу же, с обратной почтой.",
+        "learn": 0
+      },
+      {
+        "eng": "She longed for him to return.",
+        "ru": "Она страстно желала его возвращения.",
+        "learn": 0
+      },
+      {
+        "eng": "the department's return to normal",
+        "ru": "возвращение отдела в своё обычное состояние",
+        "learn": 0
+      },
+      {
+        "eng": "The return journey was uneventful.",
+        "ru": "На обратном пути не было ничего интересного.",
+        "learn": 0
+      }
+    ]
+  }
 }

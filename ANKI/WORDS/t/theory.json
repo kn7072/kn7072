@@ -1,82 +1,168 @@
 {
-    "theory": {
-        "comment": [
-            "theoretical"
-        ],
-        "translate": "теория, необоснованное предположение",
-        "transcription": " |ˈθɪri|",
-        "antonyms": [],
-        "mnemonic": [
-            "theory ['θɪərɪ]\n***\nТЕОРИЯ развития всё шире. (это) theory"
-        ],
-        "examples": [
-            "The theory is full of holes.",
-            "Their theory was proved right.",
-            "In theory their plan makes sense.",
-            "His theory is awry.",
-            "His theory didn't take on.",
-            "The theory fits the facts.",
-            "The scientists proposed a new theory.",
-            "He was formulating his theory.",
-            "She proposed a theory of her own.",
-            "These discoveries vindicate their theory.",
-            "We have developed a new theory of evolution.",
-            "He offered a persuasive defense of the theory.",
-            "This theory still holds.",
-            "In theory, the scheme sounds fine.",
-            "There is no hard evidence to support this theory.",
-            "It seems that the so-called new theory is likely to sink into oblivion.",
-            "Darwin's theory of evolution",
-            "They showed the theory to be faulty.",
-            "Later findings invalidated the theory.",
-            "in theory false and pernicious in praxis",
-            "The results of the study debunk his theory.",
-            "Even from this it cannot be fairly construed that his theory was right.",
-            "a resurrection of an old theory",
-            "a hard theory to put into practice",
-            "a widely accepted scientific theory",
-            "a simplistic theory of the universe",
-            "a theory filled with arcane details",
-            "a critique of modern economic theory",
-            "His theory is the antithesis of mine.",
-            "one theory taught alongside the other"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Эта теория полна недостатков.",
-            "Их теория подтвердилась.",
-            "Теоретически их план вполне разумен.",
-            "Его теория неверна.",
-            "Его теория не имела успеха.",
-            "Данная теория согласуется с фактами.",
-            "Учёные выдвинули новую теорию.",
-            "Он излагал свою теорию.",
-            "Она выдвинула собственное предположение.",
-            "Эти открытия подтверждают их теорию.",
-            "Мы разработали новую теорию эволюции.",
-            "Он предложил убедительное обоснование данной теории.",
-            "Эта теория по-прежнему состоятельна.",
-            "В теории весь этот замысел как будто неплох.",
-            "Убедительных свидетельств в поддержку этой теории не существует.",
-            "Похоже, что так называемая новая теория будет предана забвению.",
-            "теория эволюции Дарвина",
-            "Они продемонстрировали, что данная теория ошибочна.",
-            "Более поздние данные опровергли это предположение.",
-            "ложный в теории и вредный на практике",
-            "Результаты данного исследования развенчивают его теорию.",
-            "Даже из этого нельзя со всей ясностью заключить, что его теория правильная.",
-            "возрождение старой теории",
-            "труднореализуемая на практике теория",
-            "общепризнанная научная теория",
-            "упрощенная теория мироздания",
-            "теория, полная загадочных деталей",
-            "критика современной экономической теории",
-            "Его теория является полной противоположностью моей.",
-            "одна теория, которая преподаётся наряду с другой"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "theory": {
+    "comment": [
+      "theoretical"
+    ],
+    "translate": "теория, необоснованное предположение",
+    "transcription": " |ˈθɪri|",
+    "antonyms": [],
+    "mnemonic": [
+      "theory ['θɪərɪ]\n***\nТЕОРИЯ развития всё шире. (это) theory"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The theory is full of holes.",
+        "ru": "Эта теория полна недостатков.",
+        "learn": 1
+      },
+      {
+        "eng": "Their theory was proved right.",
+        "ru": "Их теория подтвердилась.",
+        "learn": 0
+      },
+      {
+        "eng": "In theory their plan makes sense.",
+        "ru": "Теоретически их план вполне разумен.",
+        "learn": 0
+      },
+      {
+        "eng": "His theory is awry.",
+        "ru": "Его теория неверна.",
+        "learn": 0
+      },
+      {
+        "eng": "His theory didn't take on.",
+        "ru": "Его теория не имела успеха.",
+        "learn": 0
+      },
+      {
+        "eng": "The theory fits the facts.",
+        "ru": "Данная теория согласуется с фактами.",
+        "learn": 0
+      },
+      {
+        "eng": "The scientists proposed a new theory.",
+        "ru": "Учёные выдвинули новую теорию.",
+        "learn": 0
+      },
+      {
+        "eng": "He was formulating his theory.",
+        "ru": "Он излагал свою теорию.",
+        "learn": 1
+      },
+      {
+        "eng": "She proposed a theory of her own.",
+        "ru": "Она выдвинула собственное предположение.",
+        "learn": 0
+      },
+      {
+        "eng": "These discoveries vindicate their theory.",
+        "ru": "Эти открытия подтверждают их теорию.",
+        "learn": 0
+      },
+      {
+        "eng": "We have developed a new theory of evolution.",
+        "ru": "Мы разработали новую теорию эволюции.",
+        "learn": 1
+      },
+      {
+        "eng": "He offered a persuasive defense of the theory.",
+        "ru": "Он предложил убедительное обоснование данной теории.",
+        "learn": 1
+      },
+      {
+        "eng": "This theory still holds.",
+        "ru": "Эта теория по-прежнему состоятельна.",
+        "learn": 0
+      },
+      {
+        "eng": "In theory, the scheme sounds fine.",
+        "ru": "В теории весь этот замысел как будто неплох.",
+        "learn": 0
+      },
+      {
+        "eng": "There is no hard evidence to support this theory.",
+        "ru": "Убедительных свидетельств в поддержку этой теории не существует.",
+        "learn": 0
+      },
+      {
+        "eng": "It seems that the so-called new theory is likely to sink into oblivion.",
+        "ru": "Похоже, что так называемая новая теория будет предана забвению.",
+        "learn": 1
+      },
+      {
+        "eng": "Darwin's theory of evolution",
+        "ru": "теория эволюции Дарвина",
+        "learn": 0
+      },
+      {
+        "eng": "They showed the theory to be faulty.",
+        "ru": "Они продемонстрировали, что данная теория ошибочна.",
+        "learn": 0
+      },
+      {
+        "eng": "Later findings invalidated the theory.",
+        "ru": "Более поздние данные опровергли это предположение.",
+        "learn": 0
+      },
+      {
+        "eng": "in theory false and pernicious in praxis",
+        "ru": "ложный в теории и вредный на практике",
+        "learn": 0
+      },
+      {
+        "eng": "The results of the study debunk his theory.",
+        "ru": "Результаты данного исследования развенчивают его теорию.",
+        "learn": 0
+      },
+      {
+        "eng": "Even from this it cannot be fairly construed that his theory was right.",
+        "ru": "Даже из этого нельзя со всей ясностью заключить, что его теория правильная.",
+        "learn": 0
+      },
+      {
+        "eng": "a resurrection of an old theory",
+        "ru": "возрождение старой теории",
+        "learn": 0
+      },
+      {
+        "eng": "a hard theory to put into practice",
+        "ru": "труднореализуемая на практике теория",
+        "learn": 0
+      },
+      {
+        "eng": "a widely accepted scientific theory",
+        "ru": "общепризнанная научная теория",
+        "learn": 0
+      },
+      {
+        "eng": "a simplistic theory of the universe",
+        "ru": "упрощенная теория мироздания",
+        "learn": 0
+      },
+      {
+        "eng": "a theory filled with arcane details",
+        "ru": "теория, полная загадочных деталей",
+        "learn": 0
+      },
+      {
+        "eng": "a critique of modern economic theory",
+        "ru": "критика современной экономической теории",
+        "learn": 0
+      },
+      {
+        "eng": "His theory is the antithesis of mine.",
+        "ru": "Его теория является полной противоположностью моей.",
+        "learn": 0
+      },
+      {
+        "eng": "one theory taught alongside the other",
+        "ru": "одна теория, которая преподаётся наряду с другой",
+        "learn": 0
+      }
+    ]
+  }
 }

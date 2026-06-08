@@ -1,80 +1,166 @@
 {
-    "fabric": {
-        "comment": [
-            "brick"
-        ],
-        "translate": "ткань, материал, материя, структура, тканый, матерчатый",
-        "transcription": " |ˈfæbrɪk|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The fabric stretches",
-            "This fabric won't wrinkle",
-            "The curtains are made of expensive fabric.",
-            "The fabric felt soft to the touch.",
-            "The fabric was of a close weave.",
-            "This fabric has a nasty wool pickup.",
-            "She ripped the fabric in half.",
-            "I scrunched the fabric in my hand.",
-            "The fabric is very fine and frays easily.",
-            "Plunge the fabric into a bath of black dye.",
-            "It looks like fabric, but it's really a knit.",
-            "I bought two widths of fabric.",
-            "The fabric was dyed a vivid red.",
-            "The fabric was frayed at the edge.",
-            "It is part of the fabric of society.",
-            "Lay the fabric carefully on the table.",
-            "It's nice fabric - it feels like velvet.",
-            "She felt the fabric to see if it was wool.",
-            "The country's social fabric is disintegrating.",
-            "The fabric will fade unless you protect it from the sunlight.",
-            "Drug abuse poses a major threat to the fabric of our society.",
-            "She soaked the fabric in blue dye.",
-            "Immerse the fabric completely in the dye.",
-            "The fabric is bleached, dyed, and then washed.",
-            "The natural fibers allow the fabric to breathe.",
-            "Cut small notches at the corners of the fabric.",
-            "...the silken texture of the synthetic fabric...",
-            "The fabric is decorated with circles and squares.",
-            "The fabric comes in different colors and patterns.",
-            "This fabric can withstand steam and high temperatures."
-        ],
-        "example_translate": [
-            "Эта ткань тянется.",
-            "Эта ткань не будет мяться.",
-            "Эти шторы сшиты из дорогой ткани.",
-            "Ткань была мягкой на ощупь.",
-            "Ткань была плотная.",
-            "На эту ткань очень сильно налипает шерсть.",
-            "Она разорвала ткань пополам.",
-            "Я смяла кусок ткани в руке.",
-            "Эта материя очень тонкая и легко изнашивается.",
-            "Окуните ткань в ванну с черным красителем.",
-            "Это выглядит, как ткань, но на самом деле это вязка.",
-            "Я купил два отреза ткани.",
-            "Ткань была окрашена в ярко-красный цвет.",
-            "Ткань истрепалась по краям.",
-            "Это является частью структуры общества /общественного строя/.",
-            "Аккуратно разложите ткань на столе.",
-            "Приятная ткань, наощупь как бархат.",
-            "Она пощупала ткань, чтобы убедиться, что это действительно шерсть.",
-            "Социальная структура страны распадается.",
-            "Ткань выгорит, если не защитить её от солнечного света.",
-            "Наркомания представляет собой серьёзную угрозу для структуры нашего общества.",
-            "Она намочила ткань в синем красителе.",
-            "Полностью погрузите ткань в краску.",
-            "Ткани отбеливают, окрашивают, а затем стирают.",
-            "Натуральные волокна позволяют ткани дышать.",
-            "Сделайте небольшие надрезы по углам ткани.",
-            "...шелковая текстура синтетической ткани...",
-            "Эта ткань украшена кругами и квадратами.",
-            "Ткань поставляется в различных цветах и рисунках.",
-            "Эта ткань устойчива к воздействию пара и высоких температур."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "fabric": {
+    "comment": [
+      "brick"
+    ],
+    "translate": "ткань, материал, материя, структура, тканый, матерчатый",
+    "transcription": " |ˈfæbrɪk|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The fabric stretches",
+        "ru": "Эта ткань тянется.",
+        "learn": 1
+      },
+      {
+        "eng": "This fabric won't wrinkle",
+        "ru": "Эта ткань не будет мяться.",
+        "learn": 0
+      },
+      {
+        "eng": "The curtains are made of expensive fabric.",
+        "ru": "Эти шторы сшиты из дорогой ткани.",
+        "learn": 0
+      },
+      {
+        "eng": "The fabric felt soft to the touch.",
+        "ru": "Ткань была мягкой на ощупь.",
+        "learn": 1
+      },
+      {
+        "eng": "The fabric was of a close weave.",
+        "ru": "Ткань была плотная.",
+        "learn": 0
+      },
+      {
+        "eng": "This fabric has a nasty wool pickup.",
+        "ru": "На эту ткань очень сильно налипает шерсть.",
+        "learn": 0
+      },
+      {
+        "eng": "She ripped the fabric in half.",
+        "ru": "Она разорвала ткань пополам.",
+        "learn": 1
+      },
+      {
+        "eng": "I scrunched the fabric in my hand.",
+        "ru": "Я смяла кусок ткани в руке.",
+        "learn": 0
+      },
+      {
+        "eng": "The fabric is very fine and frays easily.",
+        "ru": "Эта материя очень тонкая и легко изнашивается.",
+        "learn": 0
+      },
+      {
+        "eng": "Plunge the fabric into a bath of black dye.",
+        "ru": "Окуните ткань в ванну с черным красителем.",
+        "learn": 0
+      },
+      {
+        "eng": "It looks like fabric, but it's really a knit.",
+        "ru": "Это выглядит, как ткань, но на самом деле это вязка.",
+        "learn": 0
+      },
+      {
+        "eng": "I bought two widths of fabric.",
+        "ru": "Я купил два отреза ткани.",
+        "learn": 0
+      },
+      {
+        "eng": "The fabric was dyed a vivid red.",
+        "ru": "Ткань была окрашена в ярко-красный цвет.",
+        "learn": 0
+      },
+      {
+        "eng": "The fabric was frayed at the edge.",
+        "ru": "Ткань истрепалась по краям.",
+        "learn": 0
+      },
+      {
+        "eng": "It is part of the fabric of society.",
+        "ru": "Это является частью структуры общества /общественного строя/.",
+        "learn": 0
+      },
+      {
+        "eng": "Lay the fabric carefully on the table.",
+        "ru": "Аккуратно разложите ткань на столе.",
+        "learn": 0
+      },
+      {
+        "eng": "It's nice fabric - it feels like velvet.",
+        "ru": "Приятная ткань, наощупь как бархат.",
+        "learn": 0
+      },
+      {
+        "eng": "She felt the fabric to see if it was wool.",
+        "ru": "Она пощупала ткань, чтобы убедиться, что это действительно шерсть.",
+        "learn": 0
+      },
+      {
+        "eng": "The country's social fabric is disintegrating.",
+        "ru": "Социальная структура страны распадается.",
+        "learn": 0
+      },
+      {
+        "eng": "The fabric will fade unless you protect it from the sunlight.",
+        "ru": "Ткань выгорит, если не защитить её от солнечного света.",
+        "learn": 0
+      },
+      {
+        "eng": "Drug abuse poses a major threat to the fabric of our society.",
+        "ru": "Наркомания представляет собой серьёзную угрозу для структуры нашего общества.",
+        "learn": 0
+      },
+      {
+        "eng": "She soaked the fabric in blue dye.",
+        "ru": "Она намочила ткань в синем красителе.",
+        "learn": 0
+      },
+      {
+        "eng": "Immerse the fabric completely in the dye.",
+        "ru": "Полностью погрузите ткань в краску.",
+        "learn": 0
+      },
+      {
+        "eng": "The fabric is bleached, dyed, and then washed.",
+        "ru": "Ткани отбеливают, окрашивают, а затем стирают.",
+        "learn": 0
+      },
+      {
+        "eng": "The natural fibers allow the fabric to breathe.",
+        "ru": "Натуральные волокна позволяют ткани дышать.",
+        "learn": 0
+      },
+      {
+        "eng": "Cut small notches at the corners of the fabric.",
+        "ru": "Сделайте небольшие надрезы по углам ткани.",
+        "learn": 0
+      },
+      {
+        "eng": "...the silken texture of the synthetic fabric...",
+        "ru": "...шелковая текстура синтетической ткани...",
+        "learn": 0
+      },
+      {
+        "eng": "The fabric is decorated with circles and squares.",
+        "ru": "Эта ткань украшена кругами и квадратами.",
+        "learn": 0
+      },
+      {
+        "eng": "The fabric comes in different colors and patterns.",
+        "ru": "Ткань поставляется в различных цветах и рисунках.",
+        "learn": 0
+      },
+      {
+        "eng": "This fabric can withstand steam and high temperatures.",
+        "ru": "Эта ткань устойчива к воздействию пара и высоких температур.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,82 +1,155 @@
 {
-    "dislike": {
-        "comment": [
-            "unlikely",
-            "likely",
-            "like",
-            "would like",
-            "unlike",
-            "likelihood",
-            "likewise",
-            "alike"
-        ],
-        "translate": "не любить",
-        "transcription": "|dɪsˈlaɪk|",
-        "antonyms": [],
-        "mnemonic": [
-            "like [laik]\ndislike [dɪs'laɪk] - испытывать неприязнь, нелюбовь\n***\nЕсли НРАВИТСЯ - ставь \"лайк\". (это) like\nПодобный. Похожий.\n***\nМне нравится \"like\"\nна велосипеде \"bike\"\nходить в поход \"hike\"."
-        ],
-        "examples": [
-            "I really dislike this salesman",
-            "He dislikes going to the opera.",
-            "I dislike basketball, but I enjoy baseball.",
-            "We naturally dislike being hurt.",
-            "She has an intense dislike for her husband's friend.",
-            "She immediately sensed my dislike.",
-            "He had taken an instant dislike to John.",
-            "She shared her mother's dislike of housework.",
-            "We have a strong dislike for olives and wouldn't eat them even if we were paid.",
-            "She gave him a sweet smile, totally at odds with the look of dislike in her eyes.",
-            "Truman had a strong dislike for communism.",
-            "I do dislike the way she slobbers over those cats.",
-            "Please stop making groundless accusations against people you happen to dislike.",
-            "Why do you dislike her so much?",
-            "I dislike being the centre of attention.",
-            "His dislike for raw fish only deepened in Japan",
-            "What is it that you like or dislike about him most?",
-            "She never let her dislike for him come out into the open.",
-            "“Dislike” is too feeble a word for how she feels about him.",
-            "You mustn't allow your dislike of her to warp your judgement.",
-            "Her distaste for books was equalled only by her dislike of people.",
-            "The divorce was painfully public, feeding her dislike of the press.",
-            "The decorator's client has an unaccountable dislike for that color.",
-            "All over the world military men view any civilian interference with dislike.",
-            "Voters dislike opportunists — politicians who change their policies according to opinion polls."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мне категорически не нравится этот продавец.",
-            "Он не любит ходить в оперу.",
-            "Я не люблю баскетбол, но вот бейсбол мне нравится.",
-            "Разумеется, нам не нравится, когда нас обижают.",
-            "Она питает сильную неприязнь к другу мужа.",
-            "Она сразу почувствовала мою неприязнь.",
-            "Он сразу же невзлюбил Джона.",
-            "Она, как и мать, не любила работать по дому.",
-            "Мы очень не любим оливки, и не станем их есть, даже если нам за это приплатят.",
-            "Она подарила ему очаровательную улыбку, совершенно несочетающуюся с неприязнью, которая читалась в ее глазах.",
-            "Трумэн чувствовал сильную неприязнь к коммунизму.",
-            "Не нравится мне, как она сюсюкает с этими кошками.",
-            "Прошу прекратить беспочвенные обвинения в адрес тех, кому не посчастливилось вам не понравиться.",
-            "Почему ты так сильно её не любишь?",
-            "Я не люблю быть в центре внимания.",
-            "Его нелюбовь к сырой рыбе, в Японии только усилилась.",
-            "Что вам в нём больше всего нравится, или наоборот, не нравится?",
-            "Она никогда не позволяла своей к нему неприязни выходить наружу.",
-            "“Неприязнь” — это слишком слабое слово для обозначения того, что она к нему чувствует.",
-            "Нельзя допустить, чтобы ваша к ней неприязнь влияла на ваше решение.",
-            "Её отвращение к книгам могло сравниться лишь с её нелюбовью к людям.",
-            "Развод широко освещался в газетах, что было неприятно и усиливало ее нелюбовь к прессе.",
-            "У клиента этого декоратора есть необъяснимая неприязнь к этому цвету.",
-            "Во всём мире военные относятся с неодобрением к любому вмешательству штатских.",
-            "Избиратели не любят оппортунистов — политиков, которые меняют свой курс в соответствии с опросами общественного мнения."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "Инфинитив_-_сложное_дополнение(сказуемое_выражено_глаголами,_обозначающими_чувство,_желание,_намерение)",
-            "Инфинитив",
-            "Сложное_дополнение"
-        ]
-    }
+  "dislike": {
+    "comment": [
+      "unlikely",
+      "likely",
+      "like",
+      "would like",
+      "unlike",
+      "likelihood",
+      "likewise",
+      "alike"
+    ],
+    "translate": "не любить",
+    "transcription": "|dɪsˈlaɪk|",
+    "antonyms": [],
+    "mnemonic": [
+      "like [laik]\ndislike [dɪs'laɪk] - испытывать неприязнь, нелюбовь\n***\nЕсли НРАВИТСЯ - ставь \"лайк\". (это) like\nПодобный. Похожий.\n***\nМне нравится \"like\"\nна велосипеде \"bike\"\nходить в поход \"hike\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "Инфинитив_-_сложное_дополнение(сказуемое_выражено_глаголами,_обозначающими_чувство,_желание,_намерение)",
+      "Инфинитив",
+      "Сложное_дополнение",
+      "gerund_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I really dislike this salesman",
+        "ru": "Мне категорически не нравится этот продавец.",
+        "learn": 0
+      },
+      {
+        "eng": "He dislikes going to the opera.",
+        "ru": "Он не любит ходить в оперу.",
+        "learn": 0
+      },
+      {
+        "eng": "I dislike basketball, but I enjoy baseball.",
+        "ru": "Я не люблю баскетбол, но вот бейсбол мне нравится.",
+        "learn": 1
+      },
+      {
+        "eng": "We naturally dislike being hurt.",
+        "ru": "Разумеется, нам не нравится, когда нас обижают.",
+        "learn": 1
+      },
+      {
+        "eng": "She has an intense dislike for her husband's friend.",
+        "ru": "Она питает сильную неприязнь к другу мужа.",
+        "learn": 1
+      },
+      {
+        "eng": "She immediately sensed my dislike.",
+        "ru": "Она сразу почувствовала мою неприязнь.",
+        "learn": 1
+      },
+      {
+        "eng": "He had taken an instant dislike to John.",
+        "ru": "Он сразу же невзлюбил Джона.",
+        "learn": 0
+      },
+      {
+        "eng": "She shared her mother's dislike of housework.",
+        "ru": "Она, как и мать, не любила работать по дому.",
+        "learn": 0
+      },
+      {
+        "eng": "We have a strong dislike for olives and wouldn't eat them even if we were paid.",
+        "ru": "Мы очень не любим оливки, и не станем их есть, даже если нам за это приплатят.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave him a sweet smile, totally at odds with the look of dislike in her eyes.",
+        "ru": "Она подарила ему очаровательную улыбку, совершенно несочетающуюся с неприязнью, которая читалась в ее глазах.",
+        "learn": 0
+      },
+      {
+        "eng": "Truman had a strong dislike for communism.",
+        "ru": "Трумэн чувствовал сильную неприязнь к коммунизму.",
+        "learn": 1
+      },
+      {
+        "eng": "I do dislike the way she slobbers over those cats.",
+        "ru": "Не нравится мне, как она сюсюкает с этими кошками.",
+        "learn": 0
+      },
+      {
+        "eng": "Please stop making groundless accusations against people you happen to dislike.",
+        "ru": "Прошу прекратить беспочвенные обвинения в адрес тех, кому не посчастливилось вам не понравиться.",
+        "learn": 0
+      },
+      {
+        "eng": "Why do you dislike her so much?",
+        "ru": "Почему ты так сильно её не любишь?",
+        "learn": 0
+      },
+      {
+        "eng": "I dislike being the centre of attention.",
+        "ru": "Я не люблю быть в центре внимания.",
+        "learn": 0
+      },
+      {
+        "eng": "His dislike for raw fish only deepened in Japan",
+        "ru": "Его нелюбовь к сырой рыбе, в Японии только усилилась.",
+        "learn": 0
+      },
+      {
+        "eng": "What is it that you like or dislike about him most?",
+        "ru": "Что вам в нём больше всего нравится, или наоборот, не нравится?",
+        "learn": 0
+      },
+      {
+        "eng": "She never let her dislike for him come out into the open.",
+        "ru": "Она никогда не позволяла своей к нему неприязни выходить наружу.",
+        "learn": 0
+      },
+      {
+        "eng": "“Dislike” is too feeble a word for how she feels about him.",
+        "ru": "“Неприязнь” — это слишком слабое слово для обозначения того, что она к нему чувствует.",
+        "learn": 0
+      },
+      {
+        "eng": "You mustn't allow your dislike of her to warp your judgement.",
+        "ru": "Нельзя допустить, чтобы ваша к ней неприязнь влияла на ваше решение.",
+        "learn": 0
+      },
+      {
+        "eng": "Her distaste for books was equalled only by her dislike of people.",
+        "ru": "Её отвращение к книгам могло сравниться лишь с её нелюбовью к людям.",
+        "learn": 0
+      },
+      {
+        "eng": "The divorce was painfully public, feeding her dislike of the press.",
+        "ru": "Развод широко освещался в газетах, что было неприятно и усиливало ее нелюбовь к прессе.",
+        "learn": 0
+      },
+      {
+        "eng": "The decorator's client has an unaccountable dislike for that color.",
+        "ru": "У клиента этого декоратора есть необъяснимая неприязнь к этому цвету.",
+        "learn": 0
+      },
+      {
+        "eng": "All over the world military men view any civilian interference with dislike.",
+        "ru": "Во всём мире военные относятся с неодобрением к любому вмешательству штатских.",
+        "learn": 0
+      },
+      {
+        "eng": "Voters dislike opportunists — politicians who change their policies according to opinion polls.",
+        "ru": "Избиратели не любят оппортунистов — политиков, которые меняют свой курс в соответствии с опросами общественного мнения.",
+        "learn": 0
+      }
+    ]
+  }
 }

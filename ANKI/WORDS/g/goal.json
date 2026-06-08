@@ -1,83 +1,170 @@
 {
-    "goal": {
-        "comment": [
-            "coal",
-            "coalition",
-            "goalkeeper"
-        ],
-        "translate": " цель, ворота, гол, задача, финиш, мета, место назначения",
-        "transcription": "  |ɡoʊl|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Is this a realizable goal?",
-            "Their goal is out of reach.",
-            "She finally realized her goal.",
-            "We all share a common goal.",
-            "The goal is zero population growth.",
-            "She achieved her goal despite setbacks.",
-            "I scored the first goal.",
-            "the ultimate goal of all our investigations and observations",
-            "His goal put Leeds back in front.",
-            "That was a cracker of a goal.",
-            "Beckham scored the winning goal.",
-            "He kicked the ball into the goal.",
-            "Her primary goal is to get a college degree.",
-            "the goal of a classless society",
-            "She scored a goal to tie the game.",
-            "the long-range goal of the project",
-            "United were a goal up at half time.",
-            "His goal broke a 3–3 deadlock.",
-            "The penalty nullified the goal.",
-            "Smith's goal sealed the victory.",
-            "The shot missed the goal by inches.",
-            "The third goal was an absolute gift.",
-            "Owen's goal kept England in contention.",
-            "He scored the second goal four minutes from time.",
-            "She refused to let the injury keep her from attaining her goal of being in the Olympics.",
-            "She scored the winning goal.",
-            "A pair of posts marked the goal.",
-            "He kicked the winning field goal.",
-            "He scored a goal on a lucky shot.",
-            "Anderton scored a peach of a goal."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Это выполнимая задача?",
-            "Их цель находится вне досягаемости.",
-            "Она наконец осуществила свою цель.",
-            "У всех нас — общая цель.",
-            "Целью является нулевой рост населения.",
-            "Она добилась своей цели, несмотря на неудачи.",
-            "Я забил первый гол.",
-            "конечная цель всех наших исследований и наблюдений",
-            "Его гол снова вывел \"Лидс\" вперёд.",
-            "Это был гол-красавец.",
-            "Бекхэм забил победный гол.",
-            "Он послал мяч в ворота ударом ноги.",
-            "Её основная цель — получить высшее образование.",
-            "цель бесклассового общества",
-            "Она забила гол, сравняв счёт в матче.",
-            "долгосрочная цель данного проекта",
-            "К перерыву \"Юнайтед\" были впереди с разницей в один гол /вели один мяч/.",
-            "Его гол при счёте 3:3 нарушил установившееся равновесие.",
-            "Из-за этого нарушения правил гол не был засчитан.",
-            "Гол Смита закрепил победу.",
-            "Мяч разминулся с воротами всего на несколько дюймов.",
-            "Третий гол был чистой воды подарком.",
-            "Гол Оуэна позволил Англии продолжить борьбу за победу в матче /в турнире/.",
-            "Он забил второй гол за четыре минуты до конца игры.",
-            "Она решила, что не допустит, чтобы травма помешала ей достигнуть своей цели — участвовать в Олимпийских играх.",
-            "Она забила победный гол.",
-            "Ворота заменяла пара столбов.",
-            "Он забил победный филд-гол. (об американском футболе)",
-            "Он забил гол ударом наудачу.",
-            "Андертон забил красивейший гол."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "oa_=_[ou]"
-        ]
-    }
+  "goal": {
+    "comment": [
+      "coal",
+      "coalition",
+      "goalkeeper"
+    ],
+    "translate": " цель, ворота, гол, задача, финиш, мета, место назначения",
+    "transcription": "  |ɡoʊl|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "oa_=_[ou]"
+    ],
+    "examples": [
+      {
+        "eng": "Is this a realizable goal?",
+        "ru": "Это выполнимая задача?",
+        "learn": 0
+      },
+      {
+        "eng": "Their goal is out of reach.",
+        "ru": "Их цель находится вне досягаемости.",
+        "learn": 0
+      },
+      {
+        "eng": "She finally realized her goal.",
+        "ru": "Она наконец осуществила свою цель.",
+        "learn": 1
+      },
+      {
+        "eng": "We all share a common goal.",
+        "ru": "У всех нас — общая цель.",
+        "learn": 0
+      },
+      {
+        "eng": "The goal is zero population growth.",
+        "ru": "Целью является нулевой рост населения.",
+        "learn": 0
+      },
+      {
+        "eng": "She achieved her goal despite setbacks.",
+        "ru": "Она добилась своей цели, несмотря на неудачи.",
+        "learn": 0
+      },
+      {
+        "eng": "I scored the first goal.",
+        "ru": "Я забил первый гол.",
+        "learn": 0
+      },
+      {
+        "eng": "the ultimate goal of all our investigations and observations",
+        "ru": "конечная цель всех наших исследований и наблюдений",
+        "learn": 0
+      },
+      {
+        "eng": "His goal put Leeds back in front.",
+        "ru": "Его гол снова вывел \"Лидс\" вперёд.",
+        "learn": 0
+      },
+      {
+        "eng": "That was a cracker of a goal.",
+        "ru": "Это был гол-красавец.",
+        "learn": 0
+      },
+      {
+        "eng": "Beckham scored the winning goal.",
+        "ru": "Бекхэм забил победный гол.",
+        "learn": 0
+      },
+      {
+        "eng": "He kicked the ball into the goal.",
+        "ru": "Он послал мяч в ворота ударом ноги.",
+        "learn": 0
+      },
+      {
+        "eng": "Her primary goal is to get a college degree.",
+        "ru": "Её основная цель — получить высшее образование.",
+        "learn": 1
+      },
+      {
+        "eng": "the goal of a classless society",
+        "ru": "цель бесклассового общества",
+        "learn": 0
+      },
+      {
+        "eng": "She scored a goal to tie the game.",
+        "ru": "Она забила гол, сравняв счёт в матче.",
+        "learn": 0
+      },
+      {
+        "eng": "the long-range goal of the project",
+        "ru": "долгосрочная цель данного проекта",
+        "learn": 0
+      },
+      {
+        "eng": "United were a goal up at half time.",
+        "ru": "К перерыву \"Юнайтед\" были впереди с разницей в один гол /вели один мяч/.",
+        "learn": 0
+      },
+      {
+        "eng": "His goal broke a 3–3 deadlock.",
+        "ru": "Его гол при счёте 3:3 нарушил установившееся равновесие.",
+        "learn": 0
+      },
+      {
+        "eng": "The penalty nullified the goal.",
+        "ru": "Из-за этого нарушения правил гол не был засчитан.",
+        "learn": 0
+      },
+      {
+        "eng": "Smith's goal sealed the victory.",
+        "ru": "Гол Смита закрепил победу.",
+        "learn": 0
+      },
+      {
+        "eng": "The shot missed the goal by inches.",
+        "ru": "Мяч разминулся с воротами всего на несколько дюймов.",
+        "learn": 0
+      },
+      {
+        "eng": "The third goal was an absolute gift.",
+        "ru": "Третий гол был чистой воды подарком.",
+        "learn": 1
+      },
+      {
+        "eng": "Owen's goal kept England in contention.",
+        "ru": "Гол Оуэна позволил Англии продолжить борьбу за победу в матче /в турнире/.",
+        "learn": 0
+      },
+      {
+        "eng": "He scored the second goal four minutes from time.",
+        "ru": "Он забил второй гол за четыре минуты до конца игры.",
+        "learn": 0
+      },
+      {
+        "eng": "She refused to let the injury keep her from attaining her goal of being in the Olympics.",
+        "ru": "Она решила, что не допустит, чтобы травма помешала ей достигнуть своей цели — участвовать в Олимпийских играх.",
+        "learn": 0
+      },
+      {
+        "eng": "She scored the winning goal.",
+        "ru": "Она забила победный гол.",
+        "learn": 0
+      },
+      {
+        "eng": "A pair of posts marked the goal.",
+        "ru": "Ворота заменяла пара столбов.",
+        "learn": 0
+      },
+      {
+        "eng": "He kicked the winning field goal.",
+        "ru": "Он забил победный филд-гол. (об американском футболе)",
+        "learn": 0
+      },
+      {
+        "eng": "He scored a goal on a lucky shot.",
+        "ru": "Он забил гол ударом наудачу.",
+        "learn": 0
+      },
+      {
+        "eng": "Anderton scored a peach of a goal.",
+        "ru": "Андертон забил красивейший гол.",
+        "learn": 0
+      }
+    ]
+  }
 }

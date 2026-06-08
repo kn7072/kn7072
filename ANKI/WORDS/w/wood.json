@@ -1,84 +1,170 @@
 {
-    "wood": {
-        "comment": [
-            "wooden",
-            "woodland"
-        ],
-        "translate": "дерево, древесина, лес, дрова, деревянный, лесной, сажать лес",
-        "transcription": " |wʊd|",
-        "antonyms": [],
-        "mnemonic": [
-            "wood [(ув)у':д] дрова - Магов (Вуд-у) дровами надо забить!.",
-            "wood [wud]\nwoody - лесной\n***\nИз ДЕРЕВА дом, в нем живут. (это) wood\nИз ЛЕСА дом, а в нем живут. (это) wood\n***\nДятел лесной \"woody\"\nвсегда угрюмый \"moody\"."
-        ],
-        "examples": [
-            "Pine is a soft wood.",
-            "Her house was made of wood.",
-            "Maple wood burns well.",
-            "Put some more wood on the fire.",
-            "Heap on more wood.",
-            "Some baseball bats are made out of wood.",
-            "Pine wood saws easily.",
-            "Paper is made from wood.",
-            "The wood had rotted away.",
-            "The wood is easily worked.",
-            "the wood splintered",
-            "Cut away all the dead wood.",
-            "He uses the ax to cut wood.",
-            "Wood makes good furniture",
-            "The water swells the wood.",
-            "a table made of blond wood",
-            "the pale wood of the table",
-            "Wood is a durable material.",
-            "a charred bit of burnt wood",
-            "Paper is produced from wood.",
-            "The oil soaked into the wood.",
-            "smooth the surface of the wood",
-            "The surface of wood was rough.",
-            "the sweet savour of wood smoke",
-            "Their dishes were made of wood.",
-            "All the wood has been burnt up.",
-            "Wood is an excellent insulator.",
-            "The wood will darken as it ages.",
-            "The wood was warped by moisture.",
-            "He fell asleep in a desert wood."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "У сосны мягкая древесина. / Сосна — дерево мягкое.",
-            "Её дом был деревянным.",
-            "Древесина клёна хорошо горит.",
-            "Подложи/подбрось ещё немного дров в огонь.",
-            "Подложи ещё дров.",
-            "Некоторые бейсбольные биты сделаны из дерева.",
-            "Сосновая древесина хорошо пилится.",
-            "Бумага делается из древесины.",
-            "Дерево сгнило.",
-            "Дерево легко поддаётся обработке.",
-            "древесина раскололась",
-            "Срежьте все сухие ветки.",
-            "С помощью этого топора он рубит дрова.",
-            "Из древесины получается хорошая мебель.",
-            "От воды эта древесина разбухает.",
-            "стол из светлого дерева",
-            "светлое дерево стола",
-            "Дерево — это прочный /долговечный, износостойкий/ материал.",
-            "обугленный кусочек горелого дерева",
-            "Бумагу делают из дерева.",
-            "Масло впиталось в дерево.",
-            "выровнять поверхность дерева",
-            "Поверхность древесины была неровной.",
-            "сладковатый аромат древесного дыма",
-            "Их тарелки были сделаны из дерева.",
-            "Мы сожгли все дрова.",
-            "Дерево является отличным изолятором.",
-            "Со временем эта древесина потемнеет.",
-            "Древесина покоробилась от влаги.",
-            "Он заснул в глухом лесу."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "wood": {
+    "comment": [
+      "wooden",
+      "woodland"
+    ],
+    "translate": "дерево, древесина, лес, дрова, деревянный, лесной, сажать лес",
+    "transcription": " |wʊd|",
+    "antonyms": [],
+    "mnemonic": [
+      "wood [(ув)у':д] дрова - Магов (Вуд-у) дровами надо забить!.",
+      "wood [wud]\nwoody - лесной\n***\nИз ДЕРЕВА дом, в нем живут. (это) wood\nИз ЛЕСА дом, а в нем живут. (это) wood\n***\nДятел лесной \"woody\"\nвсегда угрюмый \"moody\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Pine is a soft wood.",
+        "ru": "У сосны мягкая древесина. / Сосна — дерево мягкое.",
+        "learn": 1
+      },
+      {
+        "eng": "Her house was made of wood.",
+        "ru": "Её дом был деревянным.",
+        "learn": 0
+      },
+      {
+        "eng": "Maple wood burns well.",
+        "ru": "Древесина клёна хорошо горит.",
+        "learn": 0
+      },
+      {
+        "eng": "Put some more wood on the fire.",
+        "ru": "Подложи/подбрось ещё немного дров в огонь.",
+        "learn": 1
+      },
+      {
+        "eng": "Heap on more wood.",
+        "ru": "Подложи ещё дров.",
+        "learn": 0
+      },
+      {
+        "eng": "Some baseball bats are made out of wood.",
+        "ru": "Некоторые бейсбольные биты сделаны из дерева.",
+        "learn": 0
+      },
+      {
+        "eng": "Pine wood saws easily.",
+        "ru": "Сосновая древесина хорошо пилится.",
+        "learn": 0
+      },
+      {
+        "eng": "Paper is made from wood.",
+        "ru": "Бумага делается из древесины.",
+        "learn": 0
+      },
+      {
+        "eng": "The wood had rotted away.",
+        "ru": "Дерево сгнило.",
+        "learn": 0
+      },
+      {
+        "eng": "The wood is easily worked.",
+        "ru": "Дерево легко поддаётся обработке.",
+        "learn": 0
+      },
+      {
+        "eng": "the wood splintered",
+        "ru": "древесина раскололась",
+        "learn": 0
+      },
+      {
+        "eng": "Cut away all the dead wood.",
+        "ru": "Срежьте все сухие ветки.",
+        "learn": 0
+      },
+      {
+        "eng": "He uses the ax to cut wood.",
+        "ru": "С помощью этого топора он рубит дрова.",
+        "learn": 0
+      },
+      {
+        "eng": "Wood makes good furniture",
+        "ru": "Из древесины получается хорошая мебель.",
+        "learn": 0
+      },
+      {
+        "eng": "The water swells the wood.",
+        "ru": "От воды эта древесина разбухает.",
+        "learn": 0
+      },
+      {
+        "eng": "a table made of blond wood",
+        "ru": "стол из светлого дерева",
+        "learn": 0
+      },
+      {
+        "eng": "the pale wood of the table",
+        "ru": "светлое дерево стола",
+        "learn": 0
+      },
+      {
+        "eng": "Wood is a durable material.",
+        "ru": "Дерево — это прочный /долговечный, износостойкий/ материал.",
+        "learn": 0
+      },
+      {
+        "eng": "a charred bit of burnt wood",
+        "ru": "обугленный кусочек горелого дерева",
+        "learn": 0
+      },
+      {
+        "eng": "Paper is produced from wood.",
+        "ru": "Бумагу делают из дерева.",
+        "learn": 0
+      },
+      {
+        "eng": "The oil soaked into the wood.",
+        "ru": "Масло впиталось в дерево.",
+        "learn": 0
+      },
+      {
+        "eng": "smooth the surface of the wood",
+        "ru": "выровнять поверхность дерева",
+        "learn": 0
+      },
+      {
+        "eng": "The surface of wood was rough.",
+        "ru": "Поверхность древесины была неровной.",
+        "learn": 0
+      },
+      {
+        "eng": "the sweet savour of wood smoke",
+        "ru": "сладковатый аромат древесного дыма",
+        "learn": 0
+      },
+      {
+        "eng": "Their dishes were made of wood.",
+        "ru": "Их тарелки были сделаны из дерева.",
+        "learn": 0
+      },
+      {
+        "eng": "All the wood has been burnt up.",
+        "ru": "Мы сожгли все дрова.",
+        "learn": 0
+      },
+      {
+        "eng": "Wood is an excellent insulator.",
+        "ru": "Дерево является отличным изолятором.",
+        "learn": 0
+      },
+      {
+        "eng": "The wood will darken as it ages.",
+        "ru": "Со временем эта древесина потемнеет.",
+        "learn": 0
+      },
+      {
+        "eng": "The wood was warped by moisture.",
+        "ru": "Древесина покоробилась от влаги.",
+        "learn": 0
+      },
+      {
+        "eng": "He fell asleep in a desert wood.",
+        "ru": "Он заснул в глухом лесу.",
+        "learn": 1
+      }
+    ]
+  }
 }

@@ -1,49 +1,245 @@
 {
-    "make up": {
-        "comment": [],
-        "translate": "1) Выдумывать, сочинять 2) Мириться после ссоры 3) Составлять, образовывать (часть целого) ",
-        "transcription": " |ˈmeɪk ʌp|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She made up with her sister.",
-            "These chapters make up the first part.",
-            "They made up a song together.",
-            "Ten players make up the team.",
-            "She made up a story to explain it.",
-            "Let's make up and move on.",
-            "They always make up quickly.",
-            "The parts make up the whole.",
-            "How long did it take them to make up?",
-            "They had a fight but made up later.",
-            "Women make up 50% of the workforce.",
-            "Is that true or did you make it up?",
-            "Don't make things up!",
-            "What percentage do they make up?",
-            "He made up an excuse for being late."
-        ],
-        "example_translate": [
-            "Она помирилась с сестрой.",
-            "Эти главы составляют первую часть.",
-            "Они вместе сочинили песню.",
-            "Десять игроков составляют команду.",
-            "Она сочинила историю, чтобы объяснить это.",
-            "Давай помиримся и двинемся дальше.",
-            "Они всегда быстро мирятся.",
-            "Части составляют целое.",
-            "Сколько времени им понадобилось, чтобы помириться?",
-            "Они поссорились, но потом помирились.",
-            "Женщины составляют 50% рабочей силы.",
-            "Это правда или ты это выдумал?",
-            "Не выдумывай!",
-            "Какой процент они составляют?",
-            "Он придумал оправдание опозданию."
-        ],
-        "synonyms": "Выдумывать, сочинять - invent, fabricate, create\nМириться после ссоры - reconcile, patch up\nСоставлять, образовывать (часть целого) - constitute, form, comprise\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "make up": {
+    "comment": [],
+    "translate": "1) Выдумывать, сочинять 2) Мириться после ссоры 3) Составлять, образовывать (часть целого) ",
+    "transcription": " |ˈmeɪk ʌp|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Выдумывать, сочинять - invent, fabricate, create",
+      "Мириться после ссоры - reconcile, patch up",
+      "Составлять, образовывать (часть целого) - constitute, form, comprise"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "She made up with her sister.",
+        "ru": "Она помирилась с сестрой.",
+        "learn": 1
+      },
+      {
+        "eng": "These chapters make up the first part.",
+        "ru": "Эти главы составляют первую часть.",
+        "learn": 1
+      },
+      {
+        "eng": "They made up a song together.",
+        "ru": "Они вместе сочинили песню.",
+        "learn": 1
+      },
+      {
+        "eng": "Ten players make up the team.",
+        "ru": "Десять игроков составляют команду.",
+        "learn": 1
+      },
+      {
+        "eng": "She made up a story to explain it.",
+        "ru": "Она сочинила историю, чтобы объяснить это.",
+        "learn": 1
+      },
+      {
+        "eng": "Let's make up and move on.",
+        "ru": "Давай помиримся и двинемся дальше.",
+        "learn": 1
+      },
+      {
+        "eng": "They always make up quickly.",
+        "ru": "Они всегда быстро мирятся.",
+        "learn": 1
+      },
+      {
+        "eng": "The parts make up the whole.",
+        "ru": "Части составляют целое.",
+        "learn": 1
+      },
+      {
+        "eng": "How long did it take them to make up?",
+        "ru": "Сколько времени им понадобилось, чтобы помириться?",
+        "learn": 1
+      },
+      {
+        "eng": "They had a fight but made up later.",
+        "ru": "Они поссорились, но потом помирились.",
+        "learn": 1
+      },
+      {
+        "eng": "Women make up 50% of the workforce.",
+        "ru": "Женщины составляют 50% рабочей силы.",
+        "learn": 1
+      },
+      {
+        "eng": "Is that true or did you make it up?",
+        "ru": "Это правда или ты это выдумал?",
+        "learn": 1
+      },
+      {
+        "eng": "Don't make things up!",
+        "ru": "Не выдумывай!",
+        "learn": 1
+      },
+      {
+        "eng": "What percentage do they make up?",
+        "ru": "Какой процент они составляют?",
+        "learn": 1
+      },
+      {
+        "eng": "He made up an excuse for being late.",
+        "ru": "Он придумал оправдание опозданию.",
+        "learn": 1
+      },
+      {
+        "eng": "Let us make it up!",
+        "ru": "Давайте помиримся!",
+        "learn": 0
+      },
+      {
+        "eng": "I have to make up a French exam",
+        "ru": "Мне нужно сдать экзамен по французскому.",
+        "learn": 0
+      },
+      {
+        "eng": "Ask the servant to make up your room.",
+        "ru": "Попроси прислугу убрать твою комнату.",
+        "learn": 0
+      },
+      {
+        "eng": "These three articles make up the whole book.",
+        "ru": "Из этих трёх статей получается целая книга.",
+        "learn": 0
+      },
+      {
+        "eng": "I could make up a bed for you on the sofa.",
+        "ru": "Я мог бы постелить вам на диване.",
+        "learn": 0
+      },
+      {
+        "eng": "Leave the boy alone, he can make up his own mind.",
+        "ru": "Оставьте мальчика в покое, он сам может принять решение.",
+        "learn": 0
+      },
+      {
+        "eng": "Fewer women are making up these days.",
+        "ru": "Всё меньше и меньше женщин пользуются косметикой в наше время.",
+        "learn": 0
+      },
+      {
+        "eng": "When you're the boss you can make up your own rules.",
+        "ru": "Когда ты начальник, можно выдумывать собственные правила.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't eat breakfast but I make up for it at lunch.",
+        "ru": "Я не завтракаю, но компенсирую это за обедом.",
+        "learn": 0
+      },
+      {
+        "eng": "It'll be impossible to make up the lost time.",
+        "ru": "Наверстать упущенное время будет невозможно.",
+        "learn": 0
+      },
+      {
+        "eng": "Oh come on! Why don't you just kiss and make up?",
+        "ru": "Да ладно вам! Просто взяли бы да помирились, а?",
+        "learn": 0
+      },
+      {
+        "eng": "The book is made up of 20 chapters.",
+        "ru": "Книга состоит из двадцати глав.",
+        "learn": 0
+      },
+      {
+        "eng": "Make up your mind then, for the time of deliberation is over.",
+        "ru": "Ну, что ж, принимайте решение, так как время на размышление уже истекло.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm trying to make up the time I lost while I was sick.",
+        "ru": "Я пытаюсь наверстать время, которое я потерял, пока болел.",
+        "learn": 0
+      },
+      {
+        "eng": "He couldn't make up his mind about what to do with the money.",
+        "ru": "Он не мог принять решение о том, что делать с деньгами.",
+        "learn": 0
+      },
+      {
+        "eng": "We rehearsed all day Saturday, to make up for lost time.",
+        "ru": "Мы репетировали всю субботу, чтобы наверстать упущенное время.",
+        "learn": 0
+      },
+      {
+        "eng": "The salary's not great, but the perks make up for it.",
+        "ru": "Зарплата — не очень, но льготы это компенсируют.",
+        "learn": 0
+      },
+      {
+        "eng": "My grandmother used to make up her own medicines.",
+        "ru": "Моя бабушка сама готовила лекарства.",
+        "learn": 0
+      },
+      {
+        "eng": "Beautiful scenery does not make up for the flaws of this film.",
+        "ru": "Красивые декорации не компенсируют недостатков этого фильма.",
+        "learn": 0
+      },
+      {
+        "eng": "Entitlements make up the major part of the federal budget.",
+        "ru": "Субсидии составляют большую часть федерального бюджета.",
+        "learn": 0
+      },
+      {
+        "eng": "The board of directors is made up of men and women.",
+        "ru": "В Совете директоров есть мужчины и женщины.",
+        "learn": 0
+      },
+      {
+        "eng": "Women make up only a small proportion of the prison population.",
+        "ru": "Женщины составляют лишь небольшую долю от общей численности заключённых.",
+        "learn": 0
+      },
+      {
+        "eng": "We've got quite a lot of leeway to make up.",
+        "ru": "Нам ещё довольно многое нужно наверстать.",
+        "learn": 0
+      },
+      {
+        "eng": "Retired employees make up the nucleus of the club.",
+        "ru": "Удалившиеся от дел служащие составляют ядро клуба.",
+        "learn": 0
+      },
+      {
+        "eng": "In California, Hispanics make up 19.2 percent of the population.",
+        "ru": "В Калифорнии латиноамериканцы составляют 19,2% населения.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you make up a bottle of milk for the baby?",
+        "ru": "Вы можете навести бутылочку молока для ребенка? (make up a bottle - развести бутылочку сухого молока )",
+        "learn": 0
+      },
+      {
+        "eng": "This shop will make up a customer's own material.",
+        "ru": "Это ателье шьёт из материала клиента.",
+        "learn": 0
+      },
+      {
+        "eng": "Entitlements make up the major part of the federal budget",
+        "ru": "Субсидии составляют основную часть федерального бюджета.",
+        "learn": 0
+      },
+      {
+        "eng": "This wood burns so quickly that we have to make the fire up every hour.",
+        "ru": "Это дерево так быстро горит, что нам приходится подбрасывать дрова каждый час.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you make up these papers into parcels of about twenty each?",
+        "ru": "Можете уложить эти бумаги в бандероли по двадцать единиц в каждой?",
+        "learn": 0
+      }
+    ]
+  }
 }

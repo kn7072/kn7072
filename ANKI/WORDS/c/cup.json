@@ -1,80 +1,166 @@
 {
-    "cup": {
-        "comment": [
-            "cupboard"
-        ],
-        "translate": "чашка, кубок, чаша, чашечка, манжета, чарка, придавать чашевидную форму",
-        "transcription": " |kʌp|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He drank a cup of coffee",
-            "Would you like another cup?",
-            "Will you stay for a cup of tea?",
-            "Would you like another cup of tea?",
-            "Let's go and have a cup of coffee.",
-            "I sat with my chin cupped in my hand.",
-            "He cupped her face in his hands and kissed her.",
-            "Germany's World Cup team",
-            "Think you're winning a cup, Sir.",
-            "They've won the European Cup twice.",
-            "He cupped his mouth with his hands and shouted at us.",
-            "The dispatcher cupped his hand to my ear and shouted.",
-            "Jazz just isn't my cup of tea - I prefer classical music.",
-            "He borrowed a cup of sugar.",
-            "put the flag back in the cup",
-            "He put the cup back in the saucer.",
-            "The handle of the cup was missing.",
-            "The winner will take home the cup.",
-            "She held it in the cup of her hand.",
-            "He's gone to get me some fruit cup.",
-            "Bees filled the waxen cups with honey.",
-            "He wore a jock strap with a metal cup.",
-            "They drank cheap wine from plastic cups.",
-            "Helen took the coffee cups into the kitchen.",
-            "She put her cup and saucer down on the table.",
-            "Mathew picked up the cup and sipped his coffee.",
-            "The school kept the cups is a special glass case.",
-            "I had to cup my hand to my ear in order to hear him.",
-            "He cupped his hands around his mouth and shouted at us.",
-            "Luke was sitting at his desk, one hand cupping his chin."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он выпил чашку кофе",
-            "Хотите еще чашечку?",
-            "Вы останетесь на чашечку чая?",
-            "Хотите ещё чашечку чая?",
-            "Давайте пойдём выпьем по чашечке кофе.",
-            "Я сидел, обхватив рукой подбородок.",
-            "Он обхватил её лицо руками и поцеловал.",
-            "сборная Германии на чемпионате мира",
-            "Думаю, сэр, Вы выиграете кубок.",
-            "Они дважды выиграли Кубок Европы.",
-            "Он сложил ладони рупором и закричал на нас.",
-            "Диспетчер приложил руку к моему уху и закричал.",
-            "Джаз не в моём вкусе, я предпочитаю классическую музыку.",
-            "Он взял взаймы стакан сахара.",
-            "поставить флаг обратно в лунку (о гольфе)",
-            "Он поставил чашку обратно на блюдце.",
-            "У чашки не хватало ручки.",
-            "Победитель увезёт этот кубок домой.",
-            "Она держала это на ладони.",
-            "Он отошёл, чтобы принести мне коктейль \"фрут-кап\" /фруктовый коктейль/. (брит. fruit cup — коктейль с фруктами на основе джина или водки)",
-            "Пчёлы наполнили эти восковые \"чашечки\" мёдом.",
-            "Он носил спортивный бандаж /\"ракушку\"/ с металлической чашкой.",
-            "Они выпили дешёвое вино из пластиковых стаканчиков.",
-            "Елена отнесла кофейные чашки на кухню.",
-            "Она поставила чашку с блюдцем на стол.",
-            "Мэтью поднял чашку и отпил кофе.",
-            "В школе эти кубки хранились на специальной витрине.",
-            "Мне пришлось приставить к уху руку, чтобы его услышать.",
-            "Он сложил руки рупором и заорал на нас.",
-            "Люк сидел за своим столом, обхватив рукой подбородок."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "cup": {
+    "comment": [
+      "cupboard"
+    ],
+    "translate": "чашка, кубок, чаша, чашечка, манжета, чарка, придавать чашевидную форму",
+    "transcription": " |kʌp|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He drank a cup of coffee",
+        "ru": "Он выпил чашку кофе",
+        "learn": 0
+      },
+      {
+        "eng": "Would you like another cup?",
+        "ru": "Хотите еще чашечку?",
+        "learn": 0
+      },
+      {
+        "eng": "Will you stay for a cup of tea?",
+        "ru": "Вы останетесь на чашечку чая?",
+        "learn": 0
+      },
+      {
+        "eng": "Would you like another cup of tea?",
+        "ru": "Хотите ещё чашечку чая?",
+        "learn": 0
+      },
+      {
+        "eng": "Let's go and have a cup of coffee.",
+        "ru": "Давайте пойдём выпьем по чашечке кофе.",
+        "learn": 0
+      },
+      {
+        "eng": "I sat with my chin cupped in my hand.",
+        "ru": "Я сидел, обхватив рукой подбородок.",
+        "learn": 0
+      },
+      {
+        "eng": "He cupped her face in his hands and kissed her.",
+        "ru": "Он обхватил её лицо руками и поцеловал.",
+        "learn": 0
+      },
+      {
+        "eng": "Germany's World Cup team",
+        "ru": "сборная Германии на чемпионате мира",
+        "learn": 0
+      },
+      {
+        "eng": "Think you're winning a cup, Sir.",
+        "ru": "Думаю, сэр, Вы выиграете кубок.",
+        "learn": 0
+      },
+      {
+        "eng": "They've won the European Cup twice.",
+        "ru": "Они дважды выиграли Кубок Европы.",
+        "learn": 0
+      },
+      {
+        "eng": "He cupped his mouth with his hands and shouted at us.",
+        "ru": "Он сложил ладони рупором и закричал на нас.",
+        "learn": 0
+      },
+      {
+        "eng": "The dispatcher cupped his hand to my ear and shouted.",
+        "ru": "Диспетчер приложил руку к моему уху и закричал.",
+        "learn": 0
+      },
+      {
+        "eng": "Jazz just isn't my cup of tea - I prefer classical music.",
+        "ru": "Джаз не в моём вкусе, я предпочитаю классическую музыку.",
+        "learn": 0
+      },
+      {
+        "eng": "He borrowed a cup of sugar.",
+        "ru": "Он взял взаймы стакан сахара.",
+        "learn": 0
+      },
+      {
+        "eng": "put the flag back in the cup",
+        "ru": "поставить флаг обратно в лунку (о гольфе)",
+        "learn": 0
+      },
+      {
+        "eng": "He put the cup back in the saucer.",
+        "ru": "Он поставил чашку обратно на блюдце.",
+        "learn": 1
+      },
+      {
+        "eng": "The handle of the cup was missing.",
+        "ru": "У чашки не хватало ручки.",
+        "learn": 0
+      },
+      {
+        "eng": "The winner will take home the cup.",
+        "ru": "Победитель увезёт этот кубок домой.",
+        "learn": 0
+      },
+      {
+        "eng": "She held it in the cup of her hand.",
+        "ru": "Она держала это на ладони.",
+        "learn": 0
+      },
+      {
+        "eng": "He's gone to get me some fruit cup.",
+        "ru": "Он отошёл, чтобы принести мне коктейль \"фрут-кап\" /фруктовый коктейль/. (брит. fruit cup — коктейль с фруктами на основе джина или водки)",
+        "learn": 0
+      },
+      {
+        "eng": "Bees filled the waxen cups with honey.",
+        "ru": "Пчёлы наполнили эти восковые \"чашечки\" мёдом.",
+        "learn": 0
+      },
+      {
+        "eng": "He wore a jock strap with a metal cup.",
+        "ru": "Он носил спортивный бандаж /\"ракушку\"/ с металлической чашкой.",
+        "learn": 0
+      },
+      {
+        "eng": "They drank cheap wine from plastic cups.",
+        "ru": "Они выпили дешёвое вино из пластиковых стаканчиков.",
+        "learn": 0
+      },
+      {
+        "eng": "Helen took the coffee cups into the kitchen.",
+        "ru": "Елена отнесла кофейные чашки на кухню.",
+        "learn": 0
+      },
+      {
+        "eng": "She put her cup and saucer down on the table.",
+        "ru": "Она поставила чашку с блюдцем на стол.",
+        "learn": 0
+      },
+      {
+        "eng": "Mathew picked up the cup and sipped his coffee.",
+        "ru": "Мэтью поднял чашку и отпил кофе.",
+        "learn": 0
+      },
+      {
+        "eng": "The school kept the cups is a special glass case.",
+        "ru": "В школе эти кубки хранились на специальной витрине.",
+        "learn": 0
+      },
+      {
+        "eng": "I had to cup my hand to my ear in order to hear him.",
+        "ru": "Мне пришлось приставить к уху руку, чтобы его услышать.",
+        "learn": 0
+      },
+      {
+        "eng": "He cupped his hands around his mouth and shouted at us.",
+        "ru": "Он сложил руки рупором и заорал на нас.",
+        "learn": 0
+      },
+      {
+        "eng": "Luke was sitting at his desk, one hand cupping his chin.",
+        "ru": "Люк сидел за своим столом, обхватив рукой подбородок.",
+        "learn": 0
+      }
+    ]
+  }
 }

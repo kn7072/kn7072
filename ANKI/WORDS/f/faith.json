@@ -1,84 +1,170 @@
 {
-    "faith": {
-        "comment": [
-            "faithfully",
-            "faithful"
-        ],
-        "translate": "вера, доверие, верность, религия, вероисповедание, слово, честность, лояльность",
-        "transcription": " |feɪθ|",
-        "antonyms": [],
-        "mnemonic": [
-            "faith [фе'й(фс)] вера - У этих (фей с) верой в Бога всё в порядке.",
-            "faith [feɪθ]\nfaithful - верный, преданный.\n***\nДаёт мне ВЕРУ Его фейс. (это) faith\nДаёт мне ВЕРНОСТЬ Его фейс. (это) faith"
-        ],
-        "examples": [
-            "By my faith / in faith!",
-            "I still have faith in him.",
-            "She is a Buddhist by faith.",
-            "Nothing is more important to her than her faith in God.",
-            "We have discarded our faith in astrology and witches.",
-            "Punic faith",
-            "Keep the faith of our forefathers.",
-            "Nothing could shake his faith in God.",
-            "He abjured the Protestant faith.",
-            "They have little faith in doctors or vets.",
-            "I have the uttermost faith in your abilities.",
-            "They adopted the Jewish faith.",
-            "He needs no props to support his faith.",
-            "The men's courage and faith is a lesson to us all.",
-            "In Poland, the faith has always meant more than mere religion.",
-            "Catherine was martyred for her faith.",
-            "Lewis' ideas were grounded in his Christian faith.",
-            "My personal experience does not corroborate your faith in the essential goodness of people.",
-            "Defender of the Faith",
-            "People from all faiths are welcome.",
-            "'Have faith, Alexandra,' he said.",
-            "They had implicit faith in his powers.",
-            "Christians must be daily practitioners of Faith.",
-            "Make every effort to supplement your faith with virtue.",
-            "He's very strong and he has a strong faith in God and the justice system.",
-            "He reaffirmed his faith in the church.",
-            "His faith was all the support he needed.",
-            "Any deviation from the party's faith is seen as betrayal.",
-            "They seemed to have rather slim faith in the stability of the structure.",
-            "Gordy's parents instilled in their children the gospel of hard work and religious faith."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Клянусь (честью)!",
-            "Я по-прежнему в него верю.",
-            "Она исповедует буддизм.",
-            "Для неё нет ничего важнее веры в Бога.",
-            "Мы покончили с нашей верой в астрологию, ведьм и колдуний.",
-            "вероломство., предательство, измена",
-            "Сохраните веру наших отцов.",
-            "Ничто не могло поколебать его веру в Бога.",
-            "Он отрёкся от протестантской веры.",
-            "Они мало доверяют врачам и ветеринарам.",
-            "Я обладаю безграничной верой в твои способности.",
-            "Они приняли иудаизм.",
-            "Его вера не нуждается ни в какой поддержке.",
-            "Мужество и вера этих людей — пример всем нам.",
-            "В Польше вера всегда означала нечто большее, чем простая религиозность.",
-            "Екатерина приняла мученическую смерть за свою веру.",
-            "Идеи Льюиса были основаны на его христианской вере.",
-            "Мой личный опыт не подтверждает вашу веру в присущее людям великодушие /доброту/.",
-            "Защитник веры ( брит. — титул, который носят все британские монархи, начиная с Генриха Восьмого)",
-            "Здесь рады людям любых вероисповеданий.",
-            "— Поверь, Александра, — сказал он.",
-            "Они безоговорочно верили в его могущество.",
-            "Христиане должны ежедневно упражняться в вере.",
-            "Делай всё, чтобы дополнить свою веру добродетелью.",
-            "Он человек очень сильный, и непоколебимо верит в бога и в систему правосудия.",
-            "Он ещё раз подтвердил свою веру в церковь.",
-            "Ему не нужно было другой поддержки, кроме собственной веры.",
-            "Любое отклонение от политики партии рассматривается как измена.",
-            "Видимо, они слабо верили в прочность этого сооружения.",
-            "Родители Горди привили своим детям любовь к усердному труду и религиозную веру."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "faith": {
+    "comment": [
+      "faithfully",
+      "faithful"
+    ],
+    "translate": "вера, доверие, верность, религия, вероисповедание, слово, честность, лояльность",
+    "transcription": " |feɪθ|",
+    "antonyms": [],
+    "mnemonic": [
+      "faith [фе'й(фс)] вера - У этих (фей с) верой в Бога всё в порядке.",
+      "faith [feɪθ]\nfaithful - верный, преданный.\n***\nДаёт мне ВЕРУ Его фейс. (это) faith\nДаёт мне ВЕРНОСТЬ Его фейс. (это) faith"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "By my faith / in faith!",
+        "ru": "Клянусь (честью)!",
+        "learn": 0
+      },
+      {
+        "eng": "I still have faith in him.",
+        "ru": "Я по-прежнему в него верю.",
+        "learn": 0
+      },
+      {
+        "eng": "She is a Buddhist by faith.",
+        "ru": "Она исповедует буддизм.",
+        "learn": 0
+      },
+      {
+        "eng": "Nothing is more important to her than her faith in God.",
+        "ru": "Для неё нет ничего важнее веры в Бога.",
+        "learn": 0
+      },
+      {
+        "eng": "We have discarded our faith in astrology and witches.",
+        "ru": "Мы покончили с нашей верой в астрологию, ведьм и колдуний.",
+        "learn": 1
+      },
+      {
+        "eng": "Punic faith",
+        "ru": "вероломство., предательство, измена",
+        "learn": 0
+      },
+      {
+        "eng": "Keep the faith of our forefathers.",
+        "ru": "Сохраните веру наших отцов.",
+        "learn": 0
+      },
+      {
+        "eng": "Nothing could shake his faith in God.",
+        "ru": "Ничто не могло поколебать его веру в Бога.",
+        "learn": 0
+      },
+      {
+        "eng": "He abjured the Protestant faith.",
+        "ru": "Он отрёкся от протестантской веры.",
+        "learn": 1
+      },
+      {
+        "eng": "They have little faith in doctors or vets.",
+        "ru": "Они мало доверяют врачам и ветеринарам.",
+        "learn": 1
+      },
+      {
+        "eng": "I have the uttermost faith in your abilities.",
+        "ru": "Я обладаю безграничной верой в твои способности.",
+        "learn": 0
+      },
+      {
+        "eng": "They adopted the Jewish faith.",
+        "ru": "Они приняли иудаизм.",
+        "learn": 1
+      },
+      {
+        "eng": "He needs no props to support his faith.",
+        "ru": "Его вера не нуждается ни в какой поддержке.",
+        "learn": 0
+      },
+      {
+        "eng": "The men's courage and faith is a lesson to us all.",
+        "ru": "Мужество и вера этих людей — пример всем нам.",
+        "learn": 1
+      },
+      {
+        "eng": "In Poland, the faith has always meant more than mere religion.",
+        "ru": "В Польше вера всегда означала нечто большее, чем простая религиозность.",
+        "learn": 0
+      },
+      {
+        "eng": "Catherine was martyred for her faith.",
+        "ru": "Екатерина приняла мученическую смерть за свою веру.",
+        "learn": 0
+      },
+      {
+        "eng": "Lewis' ideas were grounded in his Christian faith.",
+        "ru": "Идеи Льюиса были основаны на его христианской вере.",
+        "learn": 0
+      },
+      {
+        "eng": "My personal experience does not corroborate your faith in the essential goodness of people.",
+        "ru": "Мой личный опыт не подтверждает вашу веру в присущее людям великодушие /доброту/.",
+        "learn": 0
+      },
+      {
+        "eng": "Defender of the Faith",
+        "ru": "Защитник веры ( брит. — титул, который носят все британские монархи, начиная с Генриха Восьмого)",
+        "learn": 0
+      },
+      {
+        "eng": "People from all faiths are welcome.",
+        "ru": "Здесь рады людям любых вероисповеданий.",
+        "learn": 0
+      },
+      {
+        "eng": "'Have faith, Alexandra,' he said.",
+        "ru": "— Поверь, Александра, — сказал он.",
+        "learn": 0
+      },
+      {
+        "eng": "They had implicit faith in his powers.",
+        "ru": "Они безоговорочно верили в его могущество.",
+        "learn": 1
+      },
+      {
+        "eng": "Christians must be daily practitioners of Faith.",
+        "ru": "Христиане должны ежедневно упражняться в вере.",
+        "learn": 0
+      },
+      {
+        "eng": "Make every effort to supplement your faith with virtue.",
+        "ru": "Делай всё, чтобы дополнить свою веру добродетелью.",
+        "learn": 1
+      },
+      {
+        "eng": "He's very strong and he has a strong faith in God and the justice system.",
+        "ru": "Он человек очень сильный, и непоколебимо верит в бога и в систему правосудия.",
+        "learn": 0
+      },
+      {
+        "eng": "He reaffirmed his faith in the church.",
+        "ru": "Он ещё раз подтвердил свою веру в церковь.",
+        "learn": 0
+      },
+      {
+        "eng": "His faith was all the support he needed.",
+        "ru": "Ему не нужно было другой поддержки, кроме собственной веры.",
+        "learn": 0
+      },
+      {
+        "eng": "Any deviation from the party's faith is seen as betrayal.",
+        "ru": "Любое отклонение от политики партии рассматривается как измена.",
+        "learn": 0
+      },
+      {
+        "eng": "They seemed to have rather slim faith in the stability of the structure.",
+        "ru": "Видимо, они слабо верили в прочность этого сооружения.",
+        "learn": 0
+      },
+      {
+        "eng": "Gordy's parents instilled in their children the gospel of hard work and religious faith.",
+        "ru": "Родители Горди привили своим детям любовь к усердному труду и религиозную веру.",
+        "learn": 0
+      }
+    ]
+  }
 }

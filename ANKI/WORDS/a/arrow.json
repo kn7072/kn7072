@@ -1,86 +1,169 @@
 {
-    "arrow": {
-        "comment": [
-            "crown",
-            "row",
-            "tomorrow",
-            "browse",
-            "drown",
-            "frown"
-        ],
-        "translate": "стрелка, стрела, стрелка-указатель, пускать стрелы, пронзать",
-        "transcription": " |ˈæroʊ|",
-        "antonyms": [],
-        "mnemonic": [
-            "arrow [эро'у] стрела, стрелка - (П-еро у) стрелы затупилось.",
-            "row [rəʊ]\narrow ['ærəu]\n***\nВ РЯД поставил я коров. (это) row\nНа УЛИЦЕ полно коров. (это) row\nНА ЛОДКЕ ПЕРЕВЁЗ корову. (это) row\nГРЁБ на лодке - вёз корову. (это) row\nСТРОКИ в таблице с номерами и без номеров.\n(это) row\n***\nСТРЕЛА попала прям в корову. (это) arrow"
-        ],
-        "examples": [
-            "The arrow missed the target",
-            "The arrow always points north.",
-            "The arrow pierced his back.",
-            "The arrow overreached the target.",
-            "The plane arrowed upward to 5000 m.",
-            "Draw not your bow till your arrow is fixed.",
-            "The arrow penetrated to a considerable depth.",
-            "The third arrow struck the dummy dragon.",
-            "He bent the bow and shot an arrow from it.",
-            "One arrow very narrowly missed my left eye.",
-            "The arrow hit the dead centre of the target.",
-            "They were the common butts of every fool's arrow.",
-            "Do not look from the mark to the arrow and back again.",
-            "The direction of the Earth's motion is represented by the arrow A.",
-            "The arrow was wide of the mark.",
-            "The arrow on the map points north.",
-            "Tip the arrow with the small stone.",
-            "The point of the arrow was due north.",
-            "He doesn't drink or smoke. He's a real straight arrow.",
-            "The arrow that appears on the screen is called a cursor.",
-            "Loosing off his last arrow, the hunter prayed that the deer would fall.",
-            "He shot an arrow into the blue.",
-            "The arrow went wide of the mark.",
-            "She shot the arrow into the air.",
-            "She fired the arrow at the target.",
-            "Follow the arrows to the X-ray department.",
-            "The arrow hit the outermost ring on the target.",
-            "The arrow flew straight and true to its target.",
-            "The arrow hit the dead centre of the target (=the exact centre)."
-        ],
-        "example_translate": [
-            "Стрела не попала в мишень. / Стрела пролетела мимо цели.",
-            "Стрелка всегда указывает на север.",
-            "Его спину пронзила стрела.",
-            "Стрела пролетела дальше цели.",
-            "Самолет стремительно поднялся на высоту 5000 метров.",
-            "Не следует поступать поспешно, не подготовившись как следует.",
-            "Стрела проникла на значительную глубину.",
-            "Третья стрела попала в чучело дракона.",
-            "Он натянул лук и пустил стрелу.",
-            "Одна из стрел чуть не попала мне в левый глаз.",
-            "Стрела попала точно в яблочко.",
-            "Они были общей мишенью для всех дураков.",
-            "Не переводи взгляд с мишени на стрелу и обратно.",
-            "Направление движения Земли указано стрелкой А.",
-            "Стрела прошла мимо цели.",
-            "Стрелка на карте указывает на север.",
-            "Снабдите стрелу наконечником из небольшого камушка.",
-            "Кончик стрелки указывал строго на север.",
-            "Он не пьет и не курит — что называется, правильный.",
-            "Стрелочка, которая появляется на экране, называется курсором.",
-            "Выпуская последнюю стрелу, охотник молился о том, чтобы олень упал.",
-            "Он пустил стрелу в синее небо.",
-            "Стрела прошла мимо цели.",
-            "Она выпустила стрелу в воздух.",
-            "Она выпустила стрелу в цель.",
-            "Идите по указателям в рентгенологическое отделение.",
-            "Стрела попала во внешнее кольцо мишени.",
-            "Стрела пролетела прямо и верно к цели.",
-            "Стрела попала прямёхонько в центр мишени (т.е. точно по центру)."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "arrow": {
+    "comment": [
+      "crown",
+      "row",
+      "tomorrow",
+      "browse",
+      "drown",
+      "frown"
+    ],
+    "translate": "стрелка, стрела, стрелка-указатель, пускать стрелы, пронзать",
+    "transcription": " |ˈæroʊ|",
+    "antonyms": [],
+    "mnemonic": [
+      "arrow [эро'у] стрела, стрелка - (П-еро у) стрелы затупилось.",
+      "row [rəʊ]\narrow ['ærəu]\n***\nВ РЯД поставил я коров. (это) row\nНа УЛИЦЕ полно коров. (это) row\nНА ЛОДКЕ ПЕРЕВЁЗ корову. (это) row\nГРЁБ на лодке - вёз корову. (это) row\nСТРОКИ в таблице с номерами и без номеров.\n(это) row\n***\nСТРЕЛА попала прям в корову. (это) arrow"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The arrow missed the target",
+        "ru": "Стрела не попала в мишень. / Стрела пролетела мимо цели.",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow always points north.",
+        "ru": "Стрелка всегда указывает на север.",
+        "learn": 1
+      },
+      {
+        "eng": "The arrow pierced his back.",
+        "ru": "Его спину пронзила стрела.",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow overreached the target.",
+        "ru": "Стрела пролетела дальше цели.",
+        "learn": 0
+      },
+      {
+        "eng": "The plane arrowed upward to 5000 m.",
+        "ru": "Самолет стремительно поднялся на высоту 5000 метров.",
+        "learn": 0
+      },
+      {
+        "eng": "Draw not your bow till your arrow is fixed.",
+        "ru": "Не следует поступать поспешно, не подготовившись как следует.",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow penetrated to a considerable depth.",
+        "ru": "Стрела проникла на значительную глубину.",
+        "learn": 1
+      },
+      {
+        "eng": "The third arrow struck the dummy dragon.",
+        "ru": "Третья стрела попала в чучело дракона.",
+        "learn": 0
+      },
+      {
+        "eng": "He bent the bow and shot an arrow from it.",
+        "ru": "Он натянул лук и пустил стрелу.",
+        "learn": 0
+      },
+      {
+        "eng": "One arrow very narrowly missed my left eye.",
+        "ru": "Одна из стрел чуть не попала мне в левый глаз.",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow hit the dead centre of the target.",
+        "ru": "Стрела попала точно в яблочко.",
+        "learn": 0
+      },
+      {
+        "eng": "They were the common butts of every fool's arrow.",
+        "ru": "Они были общей мишенью для всех дураков.",
+        "learn": 0
+      },
+      {
+        "eng": "Do not look from the mark to the arrow and back again.",
+        "ru": "Не переводи взгляд с мишени на стрелу и обратно.",
+        "learn": 0
+      },
+      {
+        "eng": "The direction of the Earth's motion is represented by the arrow A.",
+        "ru": "Направление движения Земли указано стрелкой А.",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow was wide of the mark.",
+        "ru": "Стрела прошла мимо цели.",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow on the map points north.",
+        "ru": "Стрелка на карте указывает на север.",
+        "learn": 0
+      },
+      {
+        "eng": "Tip the arrow with the small stone.",
+        "ru": "Снабдите стрелу наконечником из небольшого камушка.",
+        "learn": 0
+      },
+      {
+        "eng": "The point of the arrow was due north.",
+        "ru": "Кончик стрелки указывал строго на север.",
+        "learn": 0
+      },
+      {
+        "eng": "He doesn't drink or smoke. He's a real straight arrow.",
+        "ru": "Он не пьет и не курит — что называется, правильный.",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow that appears on the screen is called a cursor.",
+        "ru": "Стрелочка, которая появляется на экране, называется курсором.",
+        "learn": 0
+      },
+      {
+        "eng": "Loosing off his last arrow, the hunter prayed that the deer would fall.",
+        "ru": "Выпуская последнюю стрелу, охотник молился о том, чтобы олень упал.",
+        "learn": 0
+      },
+      {
+        "eng": "He shot an arrow into the blue.",
+        "ru": "Он пустил стрелу в синее небо.",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow went wide of the mark.",
+        "ru": "Стрела прошла мимо цели.",
+        "learn": 0
+      },
+      {
+        "eng": "She shot the arrow into the air.",
+        "ru": "Она выпустила стрелу в воздух.",
+        "learn": 1
+      },
+      {
+        "eng": "She fired the arrow at the target.",
+        "ru": "Она выпустила стрелу в цель.",
+        "learn": 0
+      },
+      {
+        "eng": "Follow the arrows to the X-ray department.",
+        "ru": "Идите по указателям в рентгенологическое отделение.",
+        "learn": 1
+      },
+      {
+        "eng": "The arrow hit the outermost ring on the target.",
+        "ru": "Стрела попала во внешнее кольцо мишени.",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow flew straight and true to its target.",
+        "ru": "Стрела пролетела прямо и верно к цели.",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow hit the dead centre of the target (=the exact centre).",
+        "ru": "Стрела попала прямёхонько в центр мишени (т.е. точно по центру).",
+        "learn": 0
+      }
+    ]
+  }
 }

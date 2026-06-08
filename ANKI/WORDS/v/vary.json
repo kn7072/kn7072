@@ -1,76 +1,145 @@
 {
-    "vary": {
-        "comment": [
-            "various",
-            "variety",
-            "variation",
-            "varied",
-            "variable"
-        ],
-        "translate": "изменять, изменяться, варьировать, менять, меняться, разнообразить, разниться",
-        "transcription": " |ˈveri|",
-        "antonyms": [],
-        "mnemonic": [
-            "vary ['vɛ (ə) rɪ]\n***\nМы сможем ПОМЕНЯТЬСЯ, мы ж не звери. (это) vary\nИЗМЕНИМ привычки - мы ж не звери. (это) vary\nВарьироваться."
-        ],
-        "examples": [
-            "Opinions vary on this point.",
-            "The diamonds vary in size.",
-            "They vary in their opinions.",
-            "My doctor said I should vary my diet more.",
-            "Prices vary from ten to fifteen dollars.",
-            "Colors vary from light to dark.",
-            "Levels of job satisfaction vary between departments.",
-            "Prices vary.",
-            "Burial practices vary around the world.",
-            "The treatment will vary from patient to patient.",
-            "Medical treatment varies greatly from state to state.",
-            "The cost of a room at the hotel varies with the season.",
-            "Cooking time will vary depending on the thickness of the steak.",
-            "Charges vary according to size.",
-            "In a broadband, work may vary in complexity and require a wide range of skills.",
-            "Test scores vary from school to school.",
-            "His moods vary depending on the weather.",
-            "The tests vary in difficulty.",
-            "I try to vary my diet by eating different kinds of foods.",
-            "She has tried different diets with varying degrees of success.",
-            "They've tried to improve their procedures, with varying degrees of success.",
-            "Car prices can vary a lot. For example, in Belgium the VW Golf costs $1000 less than in Britain.",
-            "observing how the survival techniques of primates vary with the ambient",
-            "Newspapers vary in the degree to which they emphasize propaganda rather than information."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мнения по этому вопросу расходятся.",
-            "Алмазы различаются по размерам.",
-            "У них разные точки зрения.",
-            "Мой врач сказал, что мне следует ещё больше разнообразить мой рацион.",
-            "Цены варьируются в пределах от десяти до пятнадцати долларов.",
-            "Цвета изменяются от светлого до тёмного.",
-            "Степень удовлетворения от работы различается от отдела к отделу.",
-            "Цены колеблются.",
-            "Ритуалы погребения во всём мире различаются.",
-            "Лечение будет изменяться в зависимости от пациента.",
-            "Медицинское обслуживание значительно отличается в зависимости от штата.",
-            "Стоимость номера в этой гостинице варьируется в зависимости от сезона.",
-            "Время приготовления меняется в зависимости от толщины стейка.",
-            "Расценки варьируются в зависимости от размера.",
-            "Отдельная работа, выполняемая в рамках широкого тарифного разряда может иметь различную сложность и требовать разного уровня профессиональных навыков.",
-            "Результаты тестирования в разных школах различные.",
-            "Его настроение меняется в зависимости от погоды.",
-            "Тесты различаются по сложности.",
-            "Я стараюсь разнообразить свой рацион разными продуктами.",
-            "Она пробовала различные диеты с разной степенью успеха.",
-            "Они попытались улучшить свой внутренний распорядок, с разной степенью успеха.",
-            "Цены на автомобили могут сильно варьироваться. Например, в Бельгии Фольксваген Гольф стоит на тысячу долларов меньше, чем в Великобритании.",
-            "наблюдая, как методы выживания приматов варьируются в зависимости от окружающей среды",
-            "Степень, в которой газеты напирают на пропаганду, а не на голые факты, неодинакова."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ar_+_Гл_=_[er]",
-            "ar_+_Гл_!=_[er]"
-        ]
-    }
+  "vary": {
+    "comment": [
+      "various",
+      "variety",
+      "variation",
+      "varied",
+      "variable"
+    ],
+    "translate": "изменять, изменяться, варьировать, менять, меняться, разнообразить, разниться",
+    "transcription": " |ˈveri|",
+    "antonyms": [],
+    "mnemonic": [
+      "vary ['vɛ (ə) rɪ]\n***\nМы сможем ПОМЕНЯТЬСЯ, мы ж не звери. (это) vary\nИЗМЕНИМ привычки - мы ж не звери. (это) vary\nВарьироваться."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ar_+_Гл_=_[er]",
+      "ar_+_Гл_!=_[er]"
+    ],
+    "examples": [
+      {
+        "eng": "Opinions vary on this point.",
+        "ru": "Мнения по этому вопросу расходятся.",
+        "learn": 0
+      },
+      {
+        "eng": "The diamonds vary in size.",
+        "ru": "Алмазы различаются по размерам.",
+        "learn": 0
+      },
+      {
+        "eng": "They vary in their opinions.",
+        "ru": "У них разные точки зрения.",
+        "learn": 0
+      },
+      {
+        "eng": "My doctor said I should vary my diet more.",
+        "ru": "Мой врач сказал, что мне следует ещё больше разнообразить мой рацион.",
+        "learn": 1
+      },
+      {
+        "eng": "Prices vary from ten to fifteen dollars.",
+        "ru": "Цены варьируются в пределах от десяти до пятнадцати долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "Colors vary from light to dark.",
+        "ru": "Цвета изменяются от светлого до тёмного.",
+        "learn": 0
+      },
+      {
+        "eng": "Levels of job satisfaction vary between departments.",
+        "ru": "Степень удовлетворения от работы различается от отдела к отделу.",
+        "learn": 0
+      },
+      {
+        "eng": "Prices vary.",
+        "ru": "Цены колеблются.",
+        "learn": 0
+      },
+      {
+        "eng": "Burial practices vary around the world.",
+        "ru": "Ритуалы погребения во всём мире различаются.",
+        "learn": 0
+      },
+      {
+        "eng": "The treatment will vary from patient to patient.",
+        "ru": "Лечение будет изменяться в зависимости от пациента.",
+        "learn": 0
+      },
+      {
+        "eng": "Medical treatment varies greatly from state to state.",
+        "ru": "Медицинское обслуживание значительно отличается в зависимости от штата.",
+        "learn": 0
+      },
+      {
+        "eng": "The cost of a room at the hotel varies with the season.",
+        "ru": "Стоимость номера в этой гостинице варьируется в зависимости от сезона.",
+        "learn": 0
+      },
+      {
+        "eng": "Cooking time will vary depending on the thickness of the steak.",
+        "ru": "Время приготовления меняется в зависимости от толщины стейка.",
+        "learn": 0
+      },
+      {
+        "eng": "Charges vary according to size.",
+        "ru": "Расценки варьируются в зависимости от размера.",
+        "learn": 0
+      },
+      {
+        "eng": "In a broadband, work may vary in complexity and require a wide range of skills.",
+        "ru": "Отдельная работа, выполняемая в рамках широкого тарифного разряда может иметь различную сложность и требовать разного уровня профессиональных навыков.",
+        "learn": 0
+      },
+      {
+        "eng": "Test scores vary from school to school.",
+        "ru": "Результаты тестирования в разных школах различные.",
+        "learn": 0
+      },
+      {
+        "eng": "His moods vary depending on the weather.",
+        "ru": "Его настроение меняется в зависимости от погоды.",
+        "learn": 0
+      },
+      {
+        "eng": "The tests vary in difficulty.",
+        "ru": "Тесты различаются по сложности.",
+        "learn": 1
+      },
+      {
+        "eng": "I try to vary my diet by eating different kinds of foods.",
+        "ru": "Я стараюсь разнообразить свой рацион разными продуктами.",
+        "learn": 1
+      },
+      {
+        "eng": "She has tried different diets with varying degrees of success.",
+        "ru": "Она пробовала различные диеты с разной степенью успеха.",
+        "learn": 0
+      },
+      {
+        "eng": "They've tried to improve their procedures, with varying degrees of success.",
+        "ru": "Они попытались улучшить свой внутренний распорядок, с разной степенью успеха.",
+        "learn": 0
+      },
+      {
+        "eng": "Car prices can vary a lot. For example, in Belgium the VW Golf costs $1000 less than in Britain.",
+        "ru": "Цены на автомобили могут сильно варьироваться. Например, в Бельгии Фольксваген Гольф стоит на тысячу долларов меньше, чем в Великобритании.",
+        "learn": 0
+      },
+      {
+        "eng": "observing how the survival techniques of primates vary with the ambient",
+        "ru": "наблюдая, как методы выживания приматов варьируются в зависимости от окружающей среды",
+        "learn": 0
+      },
+      {
+        "eng": "Newspapers vary in the degree to which they emphasize propaganda rather than information.",
+        "ru": "Степень, в которой газеты напирают на пропаганду, а не на голые факты, неодинакова.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,83 +1,169 @@
 {
-    "repair": {
-        "comment": [
-            "pair",
-            "despair"
-        ],
-        "translate": "ремонт, восстановление, исправление, ремонтировать, восстанавливать, чинить",
-        "transcription": " |rɪˈper|",
-        "antonyms": [],
-        "mnemonic": [
-            "repair [rɪ'pɛə]\ndespair - отчаиваться\nimpair - ослаблять, уменьшать, портить\n***\nРЕМОНТИРОВАЛ здоровье репеем. (это) repair\nРЕМОНТ машины сделал, так как тормоза скрипели.\n(это) repair\nРЕМОНТИРОВАЛ тормоза, так как они скрипели. (это)\nrepair\n***\nТы башмаки испортил \"impair\",\nи не одну пару \"pair\"\nно я не отчаялся \"despair\",\nи их починил \"repair\"."
-        ],
-        "examples": [
-            "She repaired her TV set.",
-            "We have done the necessary repairs.",
-            "Is the bridge still under repair?",
-            "The repairs to our roof cost one hundred dollars.",
-            "They called in a TV repair man.",
-            "They did a good repair job on the roof.",
-            "Dad was up the ladder, repairing the roof.",
-            "She repaired to him for help.",
-            "The building was in good repair.",
-            "They repaired daily to the park.",
-            "That's a repair shop of good repute.",
-            "The building is sorely in need of repair.",
-            "Can you give me the approximate cost of the repair?",
-            "This treatment repaired my health.",
-            "I have to wait in for the repair man.",
-            "He got an estimate from the car repair shop.",
-            "SOS DNA repair response",
-            "DNA cut and patch repair",
-            "bridges in urgent need of repair",
-            "Where can I get my shoes repaired?",
-            "The house is sadly in want of repair.",
-            "The church tower is in need of repair.",
-            "The boat was in a good state of repair.",
-            "Garden tools should be kept in good repair.",
-            "They opened a repair yard on the edge of town.",
-            "The mechanic dismantled the engine to repair it.",
-            "The lessee also covenanted to repair and maintain the premises.",
-            "They repaired to the judge's chambers.",
-            "feckless attempts to repair the plumbing",
-            "Scott's equipment was damaged beyond repair."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она починила /отремонтировала/ свой телевизор.",
-            "Мы починили всё, что нужно.",
-            "Мост всё ещё в ремонте?",
-            "Починка нашей крыши обошлась в сто долларов.",
-            "Они вызвали телевизионного мастера.",
-            "Они прекрасно справились с ремонтом крыши.",
-            "Папа ремонтировал кровлю /чинил крышу/, забравшись на лестницу.",
-            "Она попросила его помочь.",
-            "Здание было в хорошем состоянии.",
-            "Они каждый день собирались в парке",
-            "У этой ремонтной мастерской хорошая репутация.",
-            "Здание остро нуждается в ремонте.",
-            "Не могли бы вы сообщить мне примерную стоимость ремонта?",
-            "Это лечение восстановило моё здоровье.",
-            "Мне приходится сидеть дома и ждать ремонтника.",
-            "Он получил счет из автосервиса.",
-            "ДНК-репарационная SOS-реакция (форма примитивного иммунного ответа у прокариот)",
-            "ДНК-репарация за счет иссечения и заполнения брешей",
-            "мосты, которые нуждаются в срочном ремонте",
-            "Где я могу отремонтировать свои туфли?",
-            "Этот дом, к сожалению, нуждается в ремонте.",
-            "Церковная башня нуждается в ремонте.",
-            "Лодка была в отличном состоянии.",
-            "Садовый инвентарь должен содержаться в исправном состоянии.",
-            "Они открыли на краю города ремонтную мастерскую.",
-            "Механик разобрал двигатель, чтобы отремонтировать.",
-            "Арендатор также принял на себя обязательства по ремонту и текущему обслуживанию помещений.",
-            "Они направились в кабинет судьи.",
-            "беспомощные /тщетные/ попытки починить водопровод",
-            "Снаряжение Скотта пришло в полную негодность /восстановлению не подлежало/."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "repair": {
+    "comment": [
+      "pair",
+      "despair"
+    ],
+    "translate": "ремонт, восстановление, исправление, ремонтировать, восстанавливать, чинить",
+    "transcription": " |rɪˈper|",
+    "antonyms": [],
+    "mnemonic": [
+      "repair [rɪ'pɛə]\ndespair - отчаиваться\nimpair - ослаблять, уменьшать, портить\n***\nРЕМОНТИРОВАЛ здоровье репеем. (это) repair\nРЕМОНТ машины сделал, так как тормоза скрипели.\n(это) repair\nРЕМОНТИРОВАЛ тормоза, так как они скрипели. (это)\nrepair\n***\nТы башмаки испортил \"impair\",\nи не одну пару \"pair\"\nно я не отчаялся \"despair\",\nи их починил \"repair\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She repaired her TV set.",
+        "ru": "Она починила /отремонтировала/ свой телевизор.",
+        "learn": 0
+      },
+      {
+        "eng": "We have done the necessary repairs.",
+        "ru": "Мы починили всё, что нужно.",
+        "learn": 1
+      },
+      {
+        "eng": "Is the bridge still under repair?",
+        "ru": "Мост всё ещё в ремонте?",
+        "learn": 0
+      },
+      {
+        "eng": "The repairs to our roof cost one hundred dollars.",
+        "ru": "Починка нашей крыши обошлась в сто долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "They called in a TV repair man.",
+        "ru": "Они вызвали телевизионного мастера.",
+        "learn": 0
+      },
+      {
+        "eng": "They did a good repair job on the roof.",
+        "ru": "Они прекрасно справились с ремонтом крыши.",
+        "learn": 0
+      },
+      {
+        "eng": "Dad was up the ladder, repairing the roof.",
+        "ru": "Папа ремонтировал кровлю /чинил крышу/, забравшись на лестницу.",
+        "learn": 0
+      },
+      {
+        "eng": "She repaired to him for help.",
+        "ru": "Она попросила его помочь.",
+        "learn": 0
+      },
+      {
+        "eng": "The building was in good repair.",
+        "ru": "Здание было в хорошем состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "They repaired daily to the park.",
+        "ru": "Они каждый день собирались в парке",
+        "learn": 0
+      },
+      {
+        "eng": "That's a repair shop of good repute.",
+        "ru": "У этой ремонтной мастерской хорошая репутация.",
+        "learn": 0
+      },
+      {
+        "eng": "The building is sorely in need of repair.",
+        "ru": "Здание остро нуждается в ремонте.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you give me the approximate cost of the repair?",
+        "ru": "Не могли бы вы сообщить мне примерную стоимость ремонта?",
+        "learn": 1
+      },
+      {
+        "eng": "This treatment repaired my health.",
+        "ru": "Это лечение восстановило моё здоровье.",
+        "learn": 0
+      },
+      {
+        "eng": "I have to wait in for the repair man.",
+        "ru": "Мне приходится сидеть дома и ждать ремонтника.",
+        "learn": 0
+      },
+      {
+        "eng": "He got an estimate from the car repair shop.",
+        "ru": "Он получил счет из автосервиса.",
+        "learn": 1
+      },
+      {
+        "eng": "SOS DNA repair response",
+        "ru": "ДНК-репарационная SOS-реакция (форма примитивного иммунного ответа у прокариот)",
+        "learn": 0
+      },
+      {
+        "eng": "DNA cut and patch repair",
+        "ru": "ДНК-репарация за счет иссечения и заполнения брешей",
+        "learn": 0
+      },
+      {
+        "eng": "bridges in urgent need of repair",
+        "ru": "мосты, которые нуждаются в срочном ремонте",
+        "learn": 0
+      },
+      {
+        "eng": "Where can I get my shoes repaired?",
+        "ru": "Где я могу отремонтировать свои туфли?",
+        "learn": 0
+      },
+      {
+        "eng": "The house is sadly in want of repair.",
+        "ru": "Этот дом, к сожалению, нуждается в ремонте.",
+        "learn": 0
+      },
+      {
+        "eng": "The church tower is in need of repair.",
+        "ru": "Церковная башня нуждается в ремонте.",
+        "learn": 0
+      },
+      {
+        "eng": "The boat was in a good state of repair.",
+        "ru": "Лодка была в отличном состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "Garden tools should be kept in good repair.",
+        "ru": "Садовый инвентарь должен содержаться в исправном состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "They opened a repair yard on the edge of town.",
+        "ru": "Они открыли на краю города ремонтную мастерскую.",
+        "learn": 0
+      },
+      {
+        "eng": "The mechanic dismantled the engine to repair it.",
+        "ru": "Механик разобрал двигатель, чтобы отремонтировать.",
+        "learn": 0
+      },
+      {
+        "eng": "The lessee also covenanted to repair and maintain the premises.",
+        "ru": "Арендатор также принял на себя обязательства по ремонту и текущему обслуживанию помещений.",
+        "learn": 0
+      },
+      {
+        "eng": "They repaired to the judge's chambers.",
+        "ru": "Они направились в кабинет судьи.",
+        "learn": 0
+      },
+      {
+        "eng": "feckless attempts to repair the plumbing",
+        "ru": "беспомощные /тщетные/ попытки починить водопровод",
+        "learn": 0
+      },
+      {
+        "eng": "Scott's equipment was damaged beyond repair.",
+        "ru": "Снаряжение Скотта пришло в полную негодность /восстановлению не подлежало/.",
+        "learn": 0
+      }
+    ]
+  }
 }

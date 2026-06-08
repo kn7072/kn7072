@@ -1,66 +1,125 @@
 {
-    "intelligent": {
-        "comment": [
-            "tell",
-            "telly",
-            "satellite",
-            "intelligence",
-            "intellectual"
-        ],
-        "translate": "умный, разумный, смышленый, понимающий, понятливый",
-        "transcription": " |ɪnˈtelɪdʒənt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He is an intelligent guy.",
-            "Man is a highly intelligent animal.",
-            "He's a hardworking but not very intelligent boy.",
-            "She asked some intelligent questions.",
-            "It would not be intelligent to provoke her.",
-            "Are there intelligent beings on other planets?",
-            "He is reputed to be intelligent.",
-            "Jack is an intelligent pupil, but he lacks motivation.",
-            "Hubert never experienced any fear, and this was partly because he was not particularly intelligent.",
-            "She's an intelligent and articulate speaker.",
-            "No genuinely intelligent and educated person would believe such tommyrot.",
-            "She had a bony intelligent face.",
-            "a futile search for intelligent nightlife",
-            "She is intelligent and extremely well-read.",
-            "He's a hard worker but he's not very intelligent.",
-            "He comes across as a very intelligent, sensitive man.",
-            "She is easily the most intelligent person in the class.",
-            "The eldest son was highly intelligent, if somewhat lazy.",
-            "The study disproves any notion that dolphins are not intelligent.",
-            "Sontag was once famously described as the most intelligent woman in America.",
-            "It doesn't necessarily follow that you're going to do well academically even if you're highly intelligent."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он парень смышлёный.",
-            "Человек — очень умное животное.",
-            "Он трудолюбивый, но не очень умный мальчик.",
-            "Она задала несколько умных вопросов.",
-            "Неразумно провоцировать её.",
-            "Есть ли разумные существа на других планетах?",
-            "Он слывёт интеллектуалом. / У него репутация разумного человека.",
-            "Джек смышлёный ученик, но ему не хватает мотивации.",
-            "Хьюберт никогда ничего не боялся — отчасти потому, что был не особенно умён.",
-            "Она — умный и умеющий ясно выражать свои мысли оратор.",
-            "Ни один по-настоящему интеллигентный и образованный человек не поверит в такую чушь.",
-            "У неё было худощавое умное лицо.",
-            "бесплодные поиски интеллектуальных ночных развлечений",
-            "Она умна и очень начитана.",
-            "Он работает хорошо, но не очень умён.",
-            "Он производит впечатление очень умного и деликатного человека.",
-            "Она намного умнее всех остальных в этом классе.",
-            "Старший сын был очень умный, вот только немного ленивый.",
-            "Данное исследование опровергает представление о том, что дельфины не являются разумными.",
-            "Как всем хорошо известно, когда-то Зонтаг назвали самой умной женщиной в Америке.",
-            "Даже высокий интеллект не обязательно означает, что вы будете хорошо успевать в учёбе."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "intelligent": {
+    "comment": [
+      "tell",
+      "telly",
+      "satellite",
+      "intelligence",
+      "intellectual"
+    ],
+    "translate": "умный, разумный, смышленый, понимающий, понятливый",
+    "transcription": " |ɪnˈtelɪdʒənt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He is an intelligent guy.",
+        "ru": "Он парень смышлёный.",
+        "learn": 0
+      },
+      {
+        "eng": "Man is a highly intelligent animal.",
+        "ru": "Человек — очень умное животное.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a hardworking but not very intelligent boy.",
+        "ru": "Он трудолюбивый, но не очень умный мальчик.",
+        "learn": 0
+      },
+      {
+        "eng": "She asked some intelligent questions.",
+        "ru": "Она задала несколько умных вопросов.",
+        "learn": 0
+      },
+      {
+        "eng": "It would not be intelligent to provoke her.",
+        "ru": "Неразумно провоцировать её.",
+        "learn": 1
+      },
+      {
+        "eng": "Are there intelligent beings on other planets?",
+        "ru": "Есть ли разумные существа на других планетах?",
+        "learn": 0
+      },
+      {
+        "eng": "He is reputed to be intelligent.",
+        "ru": "Он слывёт интеллектуалом. / У него репутация разумного человека.",
+        "learn": 0
+      },
+      {
+        "eng": "Jack is an intelligent pupil, but he lacks motivation.",
+        "ru": "Джек смышлёный ученик, но ему не хватает мотивации.",
+        "learn": 1
+      },
+      {
+        "eng": "Hubert never experienced any fear, and this was partly because he was not particularly intelligent.",
+        "ru": "Хьюберт никогда ничего не боялся — отчасти потому, что был не особенно умён.",
+        "learn": 0
+      },
+      {
+        "eng": "She's an intelligent and articulate speaker.",
+        "ru": "Она — умный и умеющий ясно выражать свои мысли оратор.",
+        "learn": 0
+      },
+      {
+        "eng": "No genuinely intelligent and educated person would believe such tommyrot.",
+        "ru": "Ни один по-настоящему интеллигентный и образованный человек не поверит в такую чушь.",
+        "learn": 0
+      },
+      {
+        "eng": "She had a bony intelligent face.",
+        "ru": "У неё было худощавое умное лицо.",
+        "learn": 0
+      },
+      {
+        "eng": "a futile search for intelligent nightlife",
+        "ru": "бесплодные поиски интеллектуальных ночных развлечений",
+        "learn": 0
+      },
+      {
+        "eng": "She is intelligent and extremely well-read.",
+        "ru": "Она умна и очень начитана.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a hard worker but he's not very intelligent.",
+        "ru": "Он работает хорошо, но не очень умён.",
+        "learn": 1
+      },
+      {
+        "eng": "He comes across as a very intelligent, sensitive man.",
+        "ru": "Он производит впечатление очень умного и деликатного человека.",
+        "learn": 0
+      },
+      {
+        "eng": "She is easily the most intelligent person in the class.",
+        "ru": "Она намного умнее всех остальных в этом классе.",
+        "learn": 0
+      },
+      {
+        "eng": "The eldest son was highly intelligent, if somewhat lazy.",
+        "ru": "Старший сын был очень умный, вот только немного ленивый.",
+        "learn": 0
+      },
+      {
+        "eng": "The study disproves any notion that dolphins are not intelligent.",
+        "ru": "Данное исследование опровергает представление о том, что дельфины не являются разумными.",
+        "learn": 0
+      },
+      {
+        "eng": "Sontag was once famously described as the most intelligent woman in America.",
+        "ru": "Как всем хорошо известно, когда-то Зонтаг назвали самой умной женщиной в Америке.",
+        "learn": 0
+      },
+      {
+        "eng": "It doesn't necessarily follow that you're going to do well academically even if you're highly intelligent.",
+        "ru": "Даже высокий интеллект не обязательно означает, что вы будете хорошо успевать в учёбе.",
+        "learn": 0
+      }
+    ]
+  }
 }

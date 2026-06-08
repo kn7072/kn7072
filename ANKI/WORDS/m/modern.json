@@ -1,83 +1,169 @@
 {
-    "modern": {
-        "comment": [
-            "model",
-            "mode",
-            "modest",
-            "moderate"
-        ],
-        "translate": "современный, новый, модерн, человек нового времени",
-        "transcription": " |ˈmɑːdərn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She is learning Modern Greek.",
-            "Do you care for modern music?",
-            "Attractive, modern homes for sale.",
-            "He had no use for modern art.",
-            "the department of modern languages",
-            "I can't relate to loud modern music.",
-            "Modern education is all cram.",
-            "He thinks modern art is bosh.",
-            "Modern art just doesn't speak to me.",
-            "the destructive power of modern weapons",
-            "a feature of modern jazz idiom",
-            "the follies of the modern world",
-            "an archetype of the modern family",
-            "Modern music is just noise to me.",
-            "a precursor of the modern eggplant",
-            "My wife objects to modern furniture.",
-            "Modern cameras are very simple to use.",
-            "a book on modern English usage",
-            "the high priest of modern jazz",
-            "a discerning critic of modern art",
-            "a serious novel about modern life",
-            "Modern man evolved a long time ago.",
-            "The way-out world of modern physics.",
-            "the very picture of a modern general",
-            "a critique of modern economic theory",
-            "a Copernican revolution in modern art",
-            "an astringent critic of modern movies",
-            "I'm out of touch with modern medicine.",
-            "The room was decorated in modern style.",
-            "a modern hotel with a homely atmosphere"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она учит современный греческий язык.",
-            "Тебе нравится современная музыка?",
-            "Привлекательные, современные дома для продажи.",
-            "Ему совершенно не нравилось современное искусство.",
-            "кафедра современных языков",
-            "Я не признаю современную громкую музыку.",
-            "Современное образование порождает лишь кашу в голове.",
-            "Он считает, что современное искусство — это чушь.",
-            "Современное искусство мне просто не нравится.",
-            "разрушительная мощь современного оружия",
-            "особенность современного джазового стиля",
-            "безрассудство современного мира",
-            "архетип современной семьи",
-            "Для меня современная музыка — просто шум.",
-            "предок современного баклажана",
-            "Моей жене не нравится современная мебель.",
-            "Современные камеры очень просты в использовании.",
-            "книга о современном словоупотреблении в английском языке",
-            "корифей современного джаза",
-            "разборчивый критик современного искусства",
-            "серьёзный роман о современной жизни",
-            "Современный человек появился /выделился/ давным-давно.",
-            "Невероятный мир современной физики.",
-            "наиболее типичный образец современного полководца",
-            "критика современной экономической теории",
-            "коперниканская революция в современном искусстве",
-            "строгий критик современного кино",
-            "Я не в курсе событий современной медицины.",
-            "Помещение было оформлено в современном стиле.",
-            "современный отель с домашней обстановкой"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "modern": {
+    "comment": [
+      "model",
+      "mode",
+      "modest",
+      "moderate"
+    ],
+    "translate": "современный, новый, модерн, человек нового времени",
+    "transcription": " |ˈmɑːdərn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She is learning Modern Greek.",
+        "ru": "Она учит современный греческий язык.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you care for modern music?",
+        "ru": "Тебе нравится современная музыка?",
+        "learn": 0
+      },
+      {
+        "eng": "Attractive, modern homes for sale.",
+        "ru": "Привлекательные, современные дома для продажи.",
+        "learn": 0
+      },
+      {
+        "eng": "He had no use for modern art.",
+        "ru": "Ему совершенно не нравилось современное искусство.",
+        "learn": 0
+      },
+      {
+        "eng": "the department of modern languages",
+        "ru": "кафедра современных языков",
+        "learn": 0
+      },
+      {
+        "eng": "I can't relate to loud modern music.",
+        "ru": "Я не признаю современную громкую музыку.",
+        "learn": 0
+      },
+      {
+        "eng": "Modern education is all cram.",
+        "ru": "Современное образование порождает лишь кашу в голове.",
+        "learn": 0
+      },
+      {
+        "eng": "He thinks modern art is bosh.",
+        "ru": "Он считает, что современное искусство — это чушь.",
+        "learn": 0
+      },
+      {
+        "eng": "Modern art just doesn't speak to me.",
+        "ru": "Современное искусство мне просто не нравится.",
+        "learn": 0
+      },
+      {
+        "eng": "the destructive power of modern weapons",
+        "ru": "разрушительная мощь современного оружия",
+        "learn": 0
+      },
+      {
+        "eng": "a feature of modern jazz idiom",
+        "ru": "особенность современного джазового стиля",
+        "learn": 0
+      },
+      {
+        "eng": "the follies of the modern world",
+        "ru": "безрассудство современного мира",
+        "learn": 0
+      },
+      {
+        "eng": "an archetype of the modern family",
+        "ru": "архетип современной семьи",
+        "learn": 0
+      },
+      {
+        "eng": "Modern music is just noise to me.",
+        "ru": "Для меня современная музыка — просто шум.",
+        "learn": 0
+      },
+      {
+        "eng": "a precursor of the modern eggplant",
+        "ru": "предок современного баклажана",
+        "learn": 0
+      },
+      {
+        "eng": "My wife objects to modern furniture.",
+        "ru": "Моей жене не нравится современная мебель.",
+        "learn": 0
+      },
+      {
+        "eng": "Modern cameras are very simple to use.",
+        "ru": "Современные камеры очень просты в использовании.",
+        "learn": 0
+      },
+      {
+        "eng": "a book on modern English usage",
+        "ru": "книга о современном словоупотреблении в английском языке",
+        "learn": 0
+      },
+      {
+        "eng": "the high priest of modern jazz",
+        "ru": "корифей современного джаза",
+        "learn": 0
+      },
+      {
+        "eng": "a discerning critic of modern art",
+        "ru": "разборчивый критик современного искусства",
+        "learn": 0
+      },
+      {
+        "eng": "a serious novel about modern life",
+        "ru": "серьёзный роман о современной жизни",
+        "learn": 0
+      },
+      {
+        "eng": "Modern man evolved a long time ago.",
+        "ru": "Современный человек появился /выделился/ давным-давно.",
+        "learn": 0
+      },
+      {
+        "eng": "The way-out world of modern physics.",
+        "ru": "Невероятный мир современной физики.",
+        "learn": 0
+      },
+      {
+        "eng": "the very picture of a modern general",
+        "ru": "наиболее типичный образец современного полководца",
+        "learn": 0
+      },
+      {
+        "eng": "a critique of modern economic theory",
+        "ru": "критика современной экономической теории",
+        "learn": 0
+      },
+      {
+        "eng": "a Copernican revolution in modern art",
+        "ru": "коперниканская революция в современном искусстве",
+        "learn": 0
+      },
+      {
+        "eng": "an astringent critic of modern movies",
+        "ru": "строгий критик современного кино",
+        "learn": 0
+      },
+      {
+        "eng": "I'm out of touch with modern medicine.",
+        "ru": "Я не в курсе событий современной медицины.",
+        "learn": 0
+      },
+      {
+        "eng": "The room was decorated in modern style.",
+        "ru": "Помещение было оформлено в современном стиле.",
+        "learn": 1
+      },
+      {
+        "eng": "a modern hotel with a homely atmosphere",
+        "ru": "современный отель с домашней обстановкой",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,54 +1,104 @@
 {
-    "intent": {
-        "comment": [],
-        "translate": "намерение, цель, пристальный, внимательный",
-        "transcription": " |ɪnˈtent|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He was intent on leaving the country.",
-            "Jake listened intently.",
-            "What was the writer's intent?",
-            "They were intent on their work.",
-            "Intent upon her work, she didn't notice the cold.",
-            "She behaved foolishly but with good intent.",
-            "She thinks I'm trying to make things difficult for her, but that's not my intent.",
-            "The intent of the law is to protect consumers.",
-            "She was intent on pursuing a career in business.",
-            "His intent was to provide a new translation.",
-            "He was so intent on his work that he didn't hear the dog bark.",
-            "The original intent of the committee was to raise funds.",
-            "He was charged with assault with intent to kill.",
-            "The intent of sending men hither was to protect the frontier inhabitants.",
-            "The new administration seems intent on disannulling every social program instituted by its predecessor.",
-            "They took to the water intent on netting the $250,000 offered reward.",
-            "Jones was found guilty of wounding with intent.",
-            "The obvious intent of the documentary was to impassion viewers to do something about global warming."
-        ],
-        "example_translate": [
-            "Он стремился уехать из страны.",
-            "Джейк слушал внимательно.",
-            "Каков был замысел автора?",
-            "Они были сосредоточены на своей работе.",
-            "Сосредоточившись на работе, она не замечала холода",
-            "Она вела себя по-дурацки, но благонамеренно.",
-            "Она думает, что я намеренно усложняю ей жизнь, но это не так. (он это делает не специально, у него нет такой цели)",
-            "Целью данного закона является защита потребителей.",
-            "Она была полна решимости сделать карьеру в бизнесе.",
-            "Его целью было сделать новый перевод.",
-            "Он настолько увлёкся работой, что не услышал, как залаяла собака.",
-            "Изначальной целью комитета было найти финансирование.",
-            "Ему предъявили обвинение в нападении с целью убийства.",
-            "Намерение отправить туда солдат было связано с тем, что нужно было защитить приграничных жителей.",
-            "Похоже, что новая администрация намеревается полностью отменить все социальные программы, инициированные своими предшественниками.",
-            "Они бросились в воду, намереваясь получить обещанное вознаграждение в 250 000 долларов.",
-            "Джонса признали виновным в умышленном нанесении телесных повреждений.",
-            "Очевидной целью документального фильма было было побудить зрителей принять какие-то действия касательно глобального потепления"
-        ],
-        "synonyms": [],
-        "groups": [
-            "all_words"
-        ],
-        "stars": 0
-    }
+  "intent": {
+    "comment": [],
+    "translate": "намерение, цель, пристальный, внимательный",
+    "transcription": " |ɪnˈtent|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "groups": [],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "He was intent on leaving the country.",
+        "ru": "Он стремился уехать из страны.",
+        "learn": 0
+      },
+      {
+        "eng": "Jake listened intently.",
+        "ru": "Джейк слушал внимательно.",
+        "learn": 0
+      },
+      {
+        "eng": "What was the writer's intent?",
+        "ru": "Каков был замысел автора?",
+        "learn": 0
+      },
+      {
+        "eng": "They were intent on their work.",
+        "ru": "Они были сосредоточены на своей работе.",
+        "learn": 0
+      },
+      {
+        "eng": "Intent upon her work, she didn't notice the cold.",
+        "ru": "Сосредоточившись на работе, она не замечала холода",
+        "learn": 0
+      },
+      {
+        "eng": "She behaved foolishly but with good intent.",
+        "ru": "Она вела себя по-дурацки, но благонамеренно.",
+        "learn": 0
+      },
+      {
+        "eng": "She thinks I'm trying to make things difficult for her, but that's not my intent.",
+        "ru": "Она думает, что я намеренно усложняю ей жизнь, но это не так. (он это делает не специально, у него нет такой цели)",
+        "learn": 0
+      },
+      {
+        "eng": "The intent of the law is to protect consumers.",
+        "ru": "Целью данного закона является защита потребителей.",
+        "learn": 0
+      },
+      {
+        "eng": "She was intent on pursuing a career in business.",
+        "ru": "Она была полна решимости сделать карьеру в бизнесе.",
+        "learn": 0
+      },
+      {
+        "eng": "His intent was to provide a new translation.",
+        "ru": "Его целью было сделать новый перевод.",
+        "learn": 0
+      },
+      {
+        "eng": "He was so intent on his work that he didn't hear the dog bark.",
+        "ru": "Он настолько увлёкся работой, что не услышал, как залаяла собака.",
+        "learn": 1
+      },
+      {
+        "eng": "The original intent of the committee was to raise funds.",
+        "ru": "Изначальной целью комитета было найти финансирование.",
+        "learn": 0
+      },
+      {
+        "eng": "He was charged with assault with intent to kill.",
+        "ru": "Ему предъявили обвинение в нападении с целью убийства.",
+        "learn": 0
+      },
+      {
+        "eng": "The intent of sending men hither was to protect the frontier inhabitants.",
+        "ru": "Намерение отправить туда солдат было связано с тем, что нужно было защитить приграничных жителей.",
+        "learn": 0
+      },
+      {
+        "eng": "The new administration seems intent on disannulling every social program instituted by its predecessor.",
+        "ru": "Похоже, что новая администрация намеревается полностью отменить все социальные программы, инициированные своими предшественниками.",
+        "learn": 1
+      },
+      {
+        "eng": "They took to the water intent on netting the $250,000 offered reward.",
+        "ru": "Они бросились в воду, намереваясь получить обещанное вознаграждение в 250 000 долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "Jones was found guilty of wounding with intent.",
+        "ru": "Джонса признали виновным в умышленном нанесении телесных повреждений.",
+        "learn": 0
+      },
+      {
+        "eng": "The obvious intent of the documentary was to impassion viewers to do something about global warming.",
+        "ru": "Очевидной целью документального фильма было было побудить зрителей принять какие-то действия касательно глобального потепления",
+        "learn": 0
+      }
+    ]
+  }
 }

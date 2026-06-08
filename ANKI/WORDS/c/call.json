@@ -1,102 +1,189 @@
 {
-    "call": {
-        "comment": [
-            "ball",
-            "baseball",
-            "basketball",
-            "football",
-            "recall",
-            "hall",
-            "tall",
-            "fall",
-            "all",
-            "small",
-            "wall",
-            "overall",
-            "install",
-            "shall",
-            "stall",
-            "mall",
-            "waterfall",
-            "so-called",
-            "caller"
-        ],
-        "translate": " называть, вызов, призыв, требование, позывной",
-        "transcription": "  |kɔːl|",
-        "antonyms": [],
-        "mnemonic": [
-            "call [ко:л] называть, звонить, вызывать - (Кол-окол) звонит и зовёт на молитву.",
-            "call [kɔ: l]\nrecall [rɪ'kɔ:l]\n***\nЗОВУТ, ОКЛИКАЮТ на укол. (это) call\nЗов, оклик, призыв.\n***\nНужно ВСПОМНИТЬ, в чём прикол. (это) recall\nОТОЗВАЛИ депутата - вот прикол! (это) recall\nВОЗВРАЩАТЬ назад - вот прикол! (это) recall\nОтзыв, отозвание.\n***\nЕсли упадёшь \"fall\", на помощь зови \"call\".\n***\nЕсли можешь на помощь звать \"call\",\nзначит, ещё не всё \"all\"."
-        ],
-        "examples": [
-            "Did you call?",
-            "Did anyone call?",
-            "He is called Tom.",
-            "He called to her.",
-            "Who will take her call?",
-            "I call that a shame.",
-            "If only he'd call!",
-            "I'll call you soon.",
-            "Call me before you go.",
-            "Why didn't you call me?",
-            "He called my name.",
-            "He calls him his son.",
-            "Call me when you get home.",
-            "I'm gonna call the cops!",
-            "What is this flower called?",
-            "Call me on my cell phone.",
-            "What do you call this in English?",
-            "It's your turn to call.",
-            "Call your dog off.",
-            "He called me a bastard.",
-            "He called his trump.",
-            "May I say who's calling?",
-            "I call this a good house.",
-            "Our son is called Matthew.",
-            "From the bottom of the stairs Jane called up \"Have you seen my blue bag?\"",
-            "He called me from New York.",
-            "One call was for me.",
-            "They call it ten miles.",
-            "the complex whole which we call \"civilization\"",
-            "the call of a trumpet"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Вы меня звали? / Вы звонили?",
-            "Кто-нибудь звонил?",
-            "Его зовут Том.",
-            "Он окликнул её.",
-            "Кто ответит на ее звонок?",
-            "По-моему, это стыдно.",
-            "Только бы он позвонил!",
-            "Я тебе скоро позвоню.",
-            "Позвони мне, прежде чем уедешь.",
-            "Почему ты мне не позвонил?",
-            "Он назвал моё имя.",
-            "Он считает его своим сыном.",
-            "Позвоните мне, когда придете домой.",
-            "Я вызову полицию!",
-            "Как называется этот цветок?",
-            "Позвоните мне на сотовый телефон.",
-            "как это по-английски?",
-            "Твоя очередь звонить.",
-            "Уберите /отзовите/ свою собаку.",
-            "Он назвал меня сволочью /выродком, ублюдком/.",
-            "Он назвал свой козырь.",
-            "Могу я сказать, кто звонит?",
-            "Я нахожу, что это хороший дом.",
-            "Нашего сына зовут Матвей.",
-            "С самого низа лестницы Джейн крикнула наверх: \"Ты не видел моей синей сумки?\"",
-            "Он позвонил мне из Нью-Йорка.",
-            "Один раз звонили мне.",
-            "Считается, что здесь десять миль.",
-            "сложное целое, которое мы называем \"цивилизацией\"",
-            "зов трубы"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "al_+_Сг_=_[ɔːl]"
-        ]
-    }
+  "call": {
+    "comment": [
+      "ball",
+      "baseball",
+      "basketball",
+      "football",
+      "recall",
+      "hall",
+      "tall",
+      "fall",
+      "all",
+      "small",
+      "wall",
+      "overall",
+      "install",
+      "shall",
+      "stall",
+      "mall",
+      "waterfall",
+      "so-called",
+      "caller"
+    ],
+    "translate": " называть, вызов, призыв, требование, позывной",
+    "transcription": "  |kɔːl|",
+    "antonyms": [],
+    "mnemonic": [
+      "call [ко:л] называть, звонить, вызывать - (Кол-окол) звонит и зовёт на молитву.",
+      "call [kɔ: l]\nrecall [rɪ'kɔ:l]\n***\nЗОВУТ, ОКЛИКАЮТ на укол. (это) call\nЗов, оклик, призыв.\n***\nНужно ВСПОМНИТЬ, в чём прикол. (это) recall\nОТОЗВАЛИ депутата - вот прикол! (это) recall\nВОЗВРАЩАТЬ назад - вот прикол! (это) recall\nОтзыв, отозвание.\n***\nЕсли упадёшь \"fall\", на помощь зови \"call\".\n***\nЕсли можешь на помощь звать \"call\",\nзначит, ещё не всё \"all\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "al_+_Сг_=_[ɔːl]"
+    ],
+    "examples": [
+      {
+        "eng": "Did you call?",
+        "ru": "Вы меня звали? / Вы звонили?",
+        "learn": 0
+      },
+      {
+        "eng": "Did anyone call?",
+        "ru": "Кто-нибудь звонил?",
+        "learn": 0
+      },
+      {
+        "eng": "He is called Tom.",
+        "ru": "Его зовут Том.",
+        "learn": 0
+      },
+      {
+        "eng": "He called to her.",
+        "ru": "Он окликнул её.",
+        "learn": 0
+      },
+      {
+        "eng": "Who will take her call?",
+        "ru": "Кто ответит на ее звонок?",
+        "learn": 0
+      },
+      {
+        "eng": "I call that a shame.",
+        "ru": "По-моему, это стыдно.",
+        "learn": 0
+      },
+      {
+        "eng": "If only he'd call!",
+        "ru": "Только бы он позвонил!",
+        "learn": 0
+      },
+      {
+        "eng": "I'll call you soon.",
+        "ru": "Я тебе скоро позвоню.",
+        "learn": 0
+      },
+      {
+        "eng": "Call me before you go.",
+        "ru": "Позвони мне, прежде чем уедешь.",
+        "learn": 0
+      },
+      {
+        "eng": "Why didn't you call me?",
+        "ru": "Почему ты мне не позвонил?",
+        "learn": 1
+      },
+      {
+        "eng": "He called my name.",
+        "ru": "Он назвал моё имя.",
+        "learn": 0
+      },
+      {
+        "eng": "He calls him his son.",
+        "ru": "Он считает его своим сыном.",
+        "learn": 0
+      },
+      {
+        "eng": "Call me when you get home.",
+        "ru": "Позвоните мне, когда придете домой.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm gonna call the cops!",
+        "ru": "Я вызову полицию!",
+        "learn": 0
+      },
+      {
+        "eng": "What is this flower called?",
+        "ru": "Как называется этот цветок?",
+        "learn": 0
+      },
+      {
+        "eng": "Call me on my cell phone.",
+        "ru": "Позвоните мне на сотовый телефон.",
+        "learn": 0
+      },
+      {
+        "eng": "What do you call this in English?",
+        "ru": "как это по-английски?",
+        "learn": 0
+      },
+      {
+        "eng": "It's your turn to call.",
+        "ru": "Твоя очередь звонить.",
+        "learn": 0
+      },
+      {
+        "eng": "Call your dog off.",
+        "ru": "Уберите /отзовите/ свою собаку.",
+        "learn": 0
+      },
+      {
+        "eng": "He called me a bastard.",
+        "ru": "Он назвал меня сволочью /выродком, ублюдком/.",
+        "learn": 0
+      },
+      {
+        "eng": "He called his trump.",
+        "ru": "Он назвал свой козырь.",
+        "learn": 0
+      },
+      {
+        "eng": "May I say who's calling?",
+        "ru": "Могу я сказать, кто звонит?",
+        "learn": 0
+      },
+      {
+        "eng": "I call this a good house.",
+        "ru": "Я нахожу, что это хороший дом.",
+        "learn": 0
+      },
+      {
+        "eng": "Our son is called Matthew.",
+        "ru": "Нашего сына зовут Матвей.",
+        "learn": 0
+      },
+      {
+        "eng": "From the bottom of the stairs Jane called up \"Have you seen my blue bag?\"",
+        "ru": "С самого низа лестницы Джейн крикнула наверх: \"Ты не видел моей синей сумки?\"",
+        "learn": 1
+      },
+      {
+        "eng": "He called me from New York.",
+        "ru": "Он позвонил мне из Нью-Йорка.",
+        "learn": 0
+      },
+      {
+        "eng": "One call was for me.",
+        "ru": "Один раз звонили мне.",
+        "learn": 0
+      },
+      {
+        "eng": "They call it ten miles.",
+        "ru": "Считается, что здесь десять миль.",
+        "learn": 0
+      },
+      {
+        "eng": "the complex whole which we call \"civilization\"",
+        "ru": "сложное целое, которое мы называем \"цивилизацией\"",
+        "learn": 0
+      },
+      {
+        "eng": "the call of a trumpet",
+        "ru": "зов трубы",
+        "learn": 0
+      }
+    ]
+  }
 }

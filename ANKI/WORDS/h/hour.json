@@ -1,83 +1,170 @@
 {
-    "hour": {
-        "comment": [
-            "ours",
-            "our"
-        ],
-        "translate": "час, определенное время дня",
-        "transcription": " |ˈaʊər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I waited a good hour.",
-            "He left after an hour.",
-            "I may be an hour.",
-            "The hour invites.",
-            "Your hour has struck.",
-            "Her mood changes every hour.",
-            "It hailed for an hour.",
-            "You're half an hour late.",
-            "I'll be back in three hours.",
-            "The hour of sunset was near.",
-            "It saves you one hour.",
-            "I spoke to him only an hour ago.",
-            "We're paid by the hour.",
-            "She was half an hour late.",
-            "Trains depart every half hour.",
-            "He had spoken towards an hour.",
-            "Rain held up play for an hour.",
-            "The rent was only $20 an hour.",
-            "They arrived a few hours later.",
-            "We live an hour from the airport.",
-            "Rest your men for an hour.",
-            "Keep that hour open for me.",
-            "I've only had an hour's kip.",
-            "Set the clocks back an hour.",
-            "I waited a half hour in line.",
-            "Every hour a train goes past.",
-            "Three hours later he was back.",
-            "We'll be back inside the hour.",
-            "a morning hour sacred to study",
-            "Jim blew in about an hour ago."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я прождал целый час.",
-            "Он ушёл через час.",
-            "Мне, может быть, понадобится час.",
-            "Время зовёт.",
-            "Твой час пробил.",
-            "Её настроение меняется каждый час.",
-            "Целый час шёл град.",
-            "Ты на полчаса опоздал.",
-            "Я вернусь через три часа.",
-            "Приближался час заката.",
-            "Ты экономишь на этом час времени.",
-            "Я говорил с ним всего час назад.",
-            "У нас почасовая оплата труда.",
-            "Она опоздала на полчаса.",
-            "Поезда отправляются каждые полчаса.",
-            "Он выступал около часа.",
-            "Дождь задержал игру на час.",
-            "Арендная плата составляла всего двадцать долларов в час.",
-            "Они приехали на несколько часов позже.",
-            "Мы живём в часе езды от аэропорта.",
-            "Дайте людям часок передохнуть.",
-            "Оставь, пожалуйста, этот час для нашей встречи (нашего разговора).",
-            "Я всего час покемарил.",
-            "Переведите часы на час назад.",
-            "Я полчаса прождал в очереди.",
-            "Каждый час мимо проходит поезд.",
-            "Три часа спустя он вернулся.",
-            "Мы вернёмся в течение часа.",
-            "утренний час, посвящённый учёбе",
-            "Джим заявился сюда около часа назад."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "h_=_[_]",
-            "our_=_[aʊə]"
-        ]
-    }
+  "hour": {
+    "comment": [
+      "ours",
+      "our"
+    ],
+    "translate": "час, определенное время дня",
+    "transcription": " |ˈaʊər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "h_=_[_]",
+      "our_=_[aʊə]"
+    ],
+    "examples": [
+      {
+        "eng": "I waited a good hour.",
+        "ru": "Я прождал целый час.",
+        "learn": 0
+      },
+      {
+        "eng": "He left after an hour.",
+        "ru": "Он ушёл через час.",
+        "learn": 0
+      },
+      {
+        "eng": "I may be an hour.",
+        "ru": "Мне, может быть, понадобится час.",
+        "learn": 0
+      },
+      {
+        "eng": "The hour invites.",
+        "ru": "Время зовёт.",
+        "learn": 0
+      },
+      {
+        "eng": "Your hour has struck.",
+        "ru": "Твой час пробил.",
+        "learn": 0
+      },
+      {
+        "eng": "Her mood changes every hour.",
+        "ru": "Её настроение меняется каждый час.",
+        "learn": 0
+      },
+      {
+        "eng": "It hailed for an hour.",
+        "ru": "Целый час шёл град.",
+        "learn": 1
+      },
+      {
+        "eng": "You're half an hour late.",
+        "ru": "Ты на полчаса опоздал.",
+        "learn": 1
+      },
+      {
+        "eng": "I'll be back in three hours.",
+        "ru": "Я вернусь через три часа.",
+        "learn": 0
+      },
+      {
+        "eng": "The hour of sunset was near.",
+        "ru": "Приближался час заката.",
+        "learn": 0
+      },
+      {
+        "eng": "It saves you one hour.",
+        "ru": "Ты экономишь на этом час времени.",
+        "learn": 0
+      },
+      {
+        "eng": "I spoke to him only an hour ago.",
+        "ru": "Я говорил с ним всего час назад.",
+        "learn": 0
+      },
+      {
+        "eng": "We're paid by the hour.",
+        "ru": "У нас почасовая оплата труда.",
+        "learn": 1
+      },
+      {
+        "eng": "She was half an hour late.",
+        "ru": "Она опоздала на полчаса.",
+        "learn": 0
+      },
+      {
+        "eng": "Trains depart every half hour.",
+        "ru": "Поезда отправляются каждые полчаса.",
+        "learn": 0
+      },
+      {
+        "eng": "He had spoken towards an hour.",
+        "ru": "Он выступал около часа.",
+        "learn": 0
+      },
+      {
+        "eng": "Rain held up play for an hour.",
+        "ru": "Дождь задержал игру на час.",
+        "learn": 0
+      },
+      {
+        "eng": "The rent was only $20 an hour.",
+        "ru": "Арендная плата составляла всего двадцать долларов в час.",
+        "learn": 0
+      },
+      {
+        "eng": "They arrived a few hours later.",
+        "ru": "Они приехали на несколько часов позже.",
+        "learn": 0
+      },
+      {
+        "eng": "We live an hour from the airport.",
+        "ru": "Мы живём в часе езды от аэропорта.",
+        "learn": 0
+      },
+      {
+        "eng": "Rest your men for an hour.",
+        "ru": "Дайте людям часок передохнуть.",
+        "learn": 0
+      },
+      {
+        "eng": "Keep that hour open for me.",
+        "ru": "Оставь, пожалуйста, этот час для нашей встречи (нашего разговора).",
+        "learn": 0
+      },
+      {
+        "eng": "I've only had an hour's kip.",
+        "ru": "Я всего час покемарил.",
+        "learn": 0
+      },
+      {
+        "eng": "Set the clocks back an hour.",
+        "ru": "Переведите часы на час назад.",
+        "learn": 0
+      },
+      {
+        "eng": "I waited a half hour in line.",
+        "ru": "Я полчаса прождал в очереди.",
+        "learn": 1
+      },
+      {
+        "eng": "Every hour a train goes past.",
+        "ru": "Каждый час мимо проходит поезд.",
+        "learn": 0
+      },
+      {
+        "eng": "Three hours later he was back.",
+        "ru": "Три часа спустя он вернулся.",
+        "learn": 0
+      },
+      {
+        "eng": "We'll be back inside the hour.",
+        "ru": "Мы вернёмся в течение часа.",
+        "learn": 0
+      },
+      {
+        "eng": "a morning hour sacred to study",
+        "ru": "утренний час, посвящённый учёбе",
+        "learn": 0
+      },
+      {
+        "eng": "Jim blew in about an hour ago.",
+        "ru": "Джим заявился сюда около часа назад.",
+        "learn": 0
+      }
+    ]
+  }
 }

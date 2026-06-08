@@ -1,76 +1,153 @@
 {
-    "adjust": {
-        "comment": [
-            "adjustment"
-        ],
-        "translate": "регулировать, устанавливать, приспосабливать, выверять, приводить в порядок",
-        "transcription": " |əˈdʒʌst|",
-        "antonyms": [],
-        "mnemonic": [
-            "adjust [ə'dʒʌst]\njust [dʒʌst] - только, просто., справедливый, честный\nunjust [ʌn'dʒʌst] - несправедливый, неверный,\nнеточный\n***\nСтул ПРИЛАДИТ, вам не|даст. (это) adjust\nРЕГУЛИРОВАТЬ стул не|даст. (это) adjust\n***\nВсё очень просто \"just\",\nветра порыв \"gust\"\nвсё запылил \"dust\"."
-        ],
-        "examples": [
-            "I adjusted the volume on the radio.",
-            "He had to adjust to the new climate.",
-            "It took a few minutes for his eyes to adjust to the dark.",
-            "He paused to adjust his spectacles.",
-            "Check and adjust the brakes regularly.",
-            "We adjusted our watches to local time.",
-            "It is difficult to adjust one's habits to someone else's.",
-            "We must adjust to the bad economic situation.",
-            "It took time to adjust myself to motherhood.",
-            "Taste the soup and adjust the seasoning.",
-            "They'll soon settle in — kids are very good at adjusting.",
-            "She adjusted the car seat so she could reach the pedals.",
-            "It's hard to adjust myself to the idea that she's gone.",
-            "Some visitors find it difficult to adjust to the city's high altitude.",
-            "Four were named on each side to adjust their differences.",
-            "You can adjust the incline of the ramp.",
-            "My parents had trouble adjusting to living in an apartment.",
-            "The insurer has a duty to adjust claims fairly and promptly.",
-            "It took a few seconds for her eyes to adjust to the darkness.",
-            "Going to a new school can be difficult, but the kids will eventually adjust.",
-            "The new cameras adjust the diaphragm automatically.",
-            "If your employment status changes, your tax code will be adjusted accordingly.",
-            "Adjust the driver's seat so that all the controls are within reach (=close enough to touch).",
-            "The car is easier to drive since the clutch was adjusted.",
-            "He designed the chair to adjust automatically.",
-            "You can adjust the slope of the ramp.",
-            "He makes less money now, when you adjust for inflation, than he did 10 years ago."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я отрегулировал громкость радио.",
-            "Ему пришлось приспосабливаться к новому климату.",
-            "Несколько минут ушло на то, чтобы его глаза привыкли к темноте.",
-            "Он остановился, чтобы поправить свои очки.",
-            "Проверяйте и регулируйте тормоза регулярно.",
-            "Мы перевели свои часы на местное время.",
-            "Трудно подгонять свои привычки под чьи-либо другие.",
-            "Мы должны приспособиться к плохой экономической ситуации.",
-            "Потребовалось время, чтобы привыкнуть к материнству.",
-            "Попробуйте суп и добавьте приправы по вкусу.",
-            "Скоро они пообвыкнутся — дети вообще очень быстро приспосабливаются.",
-            "Она отрегулировала водительское сиденье так, чтобы можно было дотянуться до педалей.",
-            "Трудно привыкнуть к мысли о том, что она ушла /что её больше нет/.",
-            "Некоторым приезжим сложно адаптироваться к тому, что город находиться на большой высоте.",
-            "С каждой стороны были названы четверо, чтобы уладить разногласия.",
-            "Вы можете регулировать наклон пандуса.",
-            "Моим родителям было сложно приспособиться к жизни в квартире.",
-            "Страховщик обязан урегулировать страховые требования добросовестно и быстро.",
-            "Несколько секунд её глаза привыкали к темноте.",
-            "Переходить в новую школу порой нелегко, но дети со временем освоятся.",
-            "В новые камерах диафрагма регулируется автоматически.",
-            "Если ваш статус занятости изменится, ваш налоговый код будет соответствующим образом скорректирован.",
-            "Отрегулируйте водительское сиденье так, чтобы все элементы управления находились в пределах досягаемости (т.е. были достаточно близко, чтобы их можно было коснуться).",
-            "С тех пор, как отрегулировали сцепление, автомобилем стало легче управлять.",
-            "Он разработал кресло с автоматической подстройкой.",
-            "Наклон пандуса можно отрегулировать.",
-            "Учитывая инфляцию, сейчас он зарабатывает меньше, чем десять лет назад."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "adjust": {
+    "comment": [
+      "adjustment"
+    ],
+    "translate": "регулировать, устанавливать, приспосабливать, выверять, приводить в порядок",
+    "transcription": " |əˈdʒʌst|",
+    "antonyms": [],
+    "mnemonic": [
+      "adjust [ə'dʒʌst]\njust [dʒʌst] - только, просто., справедливый, честный\nunjust [ʌn'dʒʌst] - несправедливый, неверный,\nнеточный\n***\nСтул ПРИЛАДИТ, вам не|даст. (это) adjust\nРЕГУЛИРОВАТЬ стул не|даст. (это) adjust\n***\nВсё очень просто \"just\",\nветра порыв \"gust\"\nвсё запылил \"dust\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I adjusted the volume on the radio.",
+        "ru": "Я отрегулировал громкость радио.",
+        "learn": 1
+      },
+      {
+        "eng": "He had to adjust to the new climate.",
+        "ru": "Ему пришлось приспосабливаться к новому климату.",
+        "learn": 1
+      },
+      {
+        "eng": "It took a few minutes for his eyes to adjust to the dark.",
+        "ru": "Несколько минут ушло на то, чтобы его глаза привыкли к темноте.",
+        "learn": 0
+      },
+      {
+        "eng": "He paused to adjust his spectacles.",
+        "ru": "Он остановился, чтобы поправить свои очки.",
+        "learn": 0
+      },
+      {
+        "eng": "Check and adjust the brakes regularly.",
+        "ru": "Проверяйте и регулируйте тормоза регулярно.",
+        "learn": 0
+      },
+      {
+        "eng": "We adjusted our watches to local time.",
+        "ru": "Мы перевели свои часы на местное время.",
+        "learn": 0
+      },
+      {
+        "eng": "It is difficult to adjust one's habits to someone else's.",
+        "ru": "Трудно подгонять свои привычки под чьи-либо другие.",
+        "learn": 0
+      },
+      {
+        "eng": "We must adjust to the bad economic situation.",
+        "ru": "Мы должны приспособиться к плохой экономической ситуации.",
+        "learn": 0
+      },
+      {
+        "eng": "It took time to adjust myself to motherhood.",
+        "ru": "Потребовалось время, чтобы привыкнуть к материнству.",
+        "learn": 0
+      },
+      {
+        "eng": "Taste the soup and adjust the seasoning.",
+        "ru": "Попробуйте суп и добавьте приправы по вкусу.",
+        "learn": 0
+      },
+      {
+        "eng": "They'll soon settle in — kids are very good at adjusting.",
+        "ru": "Скоро они пообвыкнутся — дети вообще очень быстро приспосабливаются.",
+        "learn": 0
+      },
+      {
+        "eng": "She adjusted the car seat so she could reach the pedals.",
+        "ru": "Она отрегулировала водительское сиденье так, чтобы можно было дотянуться до педалей.",
+        "learn": 0
+      },
+      {
+        "eng": "It's hard to adjust myself to the idea that she's gone.",
+        "ru": "Трудно привыкнуть к мысли о том, что она ушла /что её больше нет/.",
+        "learn": 0
+      },
+      {
+        "eng": "Some visitors find it difficult to adjust to the city's high altitude.",
+        "ru": "Некоторым приезжим сложно адаптироваться к тому, что город находиться на большой высоте.",
+        "learn": 0
+      },
+      {
+        "eng": "Four were named on each side to adjust their differences.",
+        "ru": "С каждой стороны были названы четверо, чтобы уладить разногласия.",
+        "learn": 0
+      },
+      {
+        "eng": "You can adjust the incline of the ramp.",
+        "ru": "Вы можете регулировать наклон пандуса.",
+        "learn": 0
+      },
+      {
+        "eng": "My parents had trouble adjusting to living in an apartment.",
+        "ru": "Моим родителям было сложно приспособиться к жизни в квартире.",
+        "learn": 0
+      },
+      {
+        "eng": "The insurer has a duty to adjust claims fairly and promptly.",
+        "ru": "Страховщик обязан урегулировать страховые требования добросовестно и быстро.",
+        "learn": 0
+      },
+      {
+        "eng": "It took a few seconds for her eyes to adjust to the darkness.",
+        "ru": "Несколько секунд её глаза привыкали к темноте.",
+        "learn": 0
+      },
+      {
+        "eng": "Going to a new school can be difficult, but the kids will eventually adjust.",
+        "ru": "Переходить в новую школу порой нелегко, но дети со временем освоятся.",
+        "learn": 0
+      },
+      {
+        "eng": "The new cameras adjust the diaphragm automatically.",
+        "ru": "В новые камерах диафрагма регулируется автоматически.",
+        "learn": 0
+      },
+      {
+        "eng": "If your employment status changes, your tax code will be adjusted accordingly.",
+        "ru": "Если ваш статус занятости изменится, ваш налоговый код будет соответствующим образом скорректирован.",
+        "learn": 0
+      },
+      {
+        "eng": "Adjust the driver's seat so that all the controls are within reach (=close enough to touch).",
+        "ru": "Отрегулируйте водительское сиденье так, чтобы все элементы управления находились в пределах досягаемости (т.е. были достаточно близко, чтобы их можно было коснуться).",
+        "learn": 0
+      },
+      {
+        "eng": "The car is easier to drive since the clutch was adjusted.",
+        "ru": "С тех пор, как отрегулировали сцепление, автомобилем стало легче управлять.",
+        "learn": 1
+      },
+      {
+        "eng": "He designed the chair to adjust automatically.",
+        "ru": "Он разработал кресло с автоматической подстройкой.",
+        "learn": 1
+      },
+      {
+        "eng": "You can adjust the slope of the ramp.",
+        "ru": "Наклон пандуса можно отрегулировать.",
+        "learn": 0
+      },
+      {
+        "eng": "He makes less money now, when you adjust for inflation, than he did 10 years ago.",
+        "ru": "Учитывая инфляцию, сейчас он зарабатывает меньше, чем десять лет назад.",
+        "learn": 0
+      }
+    ]
+  }
 }

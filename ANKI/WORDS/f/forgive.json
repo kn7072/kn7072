@@ -1,86 +1,176 @@
 {
-    "forgive": {
-        "comment": [
-            "forget",
-            "give",
-            "given",
-            "forge"
-        ],
-        "translate": "прощать, не взыскивать, не требовать",
-        "transcription": " |fərˈɡɪv|",
-        "antonyms": [],
-        "mnemonic": [
-            "forgive [фоги'в] простить - Лётчик Покрышкин («Фоги В-ульфам»*) не мог простить (* Самолётам «Фоке-Вульф»).",
-            "give [gıv]\nforgive [fə'gıv] - прощать\n***\nНе ОТДАМ тебе я шкив. (это) give\nПодатливость, уступчивость.\n***\nМы живём \"live\",\nчтобы отдавать \"give\"\nи прощать \"forgive\"."
-        ],
-        "examples": [
-            "Forgive me, I didn't mean to insult you.",
-            "Forgive us our sins.",
-            "I'll never ever forgive him for leaving me.",
-            "It is difficult to forgive anyone for cruelty.",
-            "To err is human, to forgive divine.",
-            "Please, forgive me my too bearish manners.",
-            "If my letter is very stupid, forgive me.",
-            "Forgive my phoning you so late.",
-            "God forgives us our sins.",
-            "Can you ever forgive me for forgetting your birthday?",
-            "I've tried to forgive him for what he said.",
-            "I forgive you your debt.",
-            "I could never forgive her for making a mock of me.",
-            "He never forgave her for walking out on him.",
-            "Can you ever forgive me for being so selfish?",
-            "She could easily forgive these little peccadillos.",
-            "You must forgive her — she's not herself at present.",
-            "To forgive is the most arduous pitch human nature can arrive at.",
-            "'I'm really sorry.' 'It's okay, you're forgiven.'",
-            "She just couldn't find it in her heart to forgive them.",
-            "I could forgive him for what he did if he showed some remorse.",
-            "Teddy was immediately contrite. “That was stupid of me. Forgive me.\"",
-            "Forgive me, for I have sinned.",
-            "Do please forgive this tardy reply.",
-            "He begged that she would forgive him.",
-            "He finds it hard to forgive an insult.",
-            "Forgive me, but I don't think that is relevant.",
-            "Forgive us our trespasses as we forgive those who trespass against us.",
-            "When he feels he's been insulted, he finds it hard to forgive and forget.",
-            "She began her letter by entreating me to forgive the belatedness of her reply."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Простите, я не хотел Вас обидеть.",
-            "Прости нам грехи наши.",
-            "Я никогда не прощу его за то, что он меня бросил.",
-            "Трудно простить жестокость.",
-            "Человеку свойственно ошибаться, Богу — прощать.",
-            "Прошу простить мне мои слишком грубые манеры.",
-            "Если моё письмо неинтересно, прости меня.",
-            "Простите, что звоню так поздно.",
-            "Бог прощает нам наши грехи.",
-            "Сможете ли вы простить мне то, что я забыл о Вашем дне рождения?",
-            "Я попыталась простить его за то, что он сказал.",
-            "Я прощаю тебе твой долг.",
-            "Я никогда не мог простить ей того, что она сделала из меня посмешище.",
-            "Он так и не простил её за то, что она от него ушла.",
-            "Простишь ли ты мне когда-нибудь мой эгоизм?",
-            "Она легко могла простить эти грешки.",
-            "Вы должны простить её: она сейчас сама не своя.",
-            "Прощение - самая труднодоступная вершина, которую может достигнуть человек.",
-            "— Прости меня, ради бога. — Ладно, прощаю.",
-            "Она просто не смогла найти в себе силы простить их.",
-            "Я бы могла простить его за содеянное, если бы он проявил раскаяние.",
-            "Тедди тут же раскаялся. — Это было глупо с моей стороны. Прости меня.",
-            "Прости меня, ибо я согрешил.",
-            "Прошу простить меня за запоздалый ответ.",
-            "Он умолял, чтобы она его простила.",
-            "Ему трудно прощать оскорбления.",
-            "Простите, но я не считаю это уместным.",
-            "Прости нам прегрешения наши, яко же и мы прощаем грешащих противу нас.",
-            "Если он чувствует, что его оскорбили, то ему тяжело простить и забыть.",
-            "Своё письмо она начала с того, что умоляла меня простить её за запоздавший ответ."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "forgive": {
+    "comment": [
+      "forgave |fərˈɡeɪv|,                                          forgiven |fərˈɡɪvən|",
+      "forget",
+      "give",
+      "given",
+      "forge"
+    ],
+    "translate": "прощать, не взыскивать, не требовать",
+    "transcription": " |fərˈɡɪv|",
+    "antonyms": [],
+    "mnemonic": [
+      "forgive [фоги'в] простить - Лётчик Покрышкин («Фоги В-ульфам»*) не мог простить (* Самолётам «Фоке-Вульф»).",
+      "give [gıv]\nforgive [fə'gıv] - прощать\n***\nНе ОТДАМ тебе я шкив. (это) give\nПодатливость, уступчивость.\n***\nМы живём \"live\",\nчтобы отдавать \"give\"\nи прощать \"forgive\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "gerund_after_verb",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Forgive me, I didn't mean to insult you.",
+        "ru": "Простите, я не хотел Вас обидеть.",
+        "learn": 0
+      },
+      {
+        "eng": "Forgive us our sins.",
+        "ru": "Прости нам грехи наши.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll never ever forgive him for leaving me.",
+        "ru": "Я никогда не прощу его за то, что он меня бросил.",
+        "learn": 1
+      },
+      {
+        "eng": "It is difficult to forgive anyone for cruelty.",
+        "ru": "Трудно простить жестокость.",
+        "learn": 1
+      },
+      {
+        "eng": "To err is human, to forgive divine.",
+        "ru": "Человеку свойственно ошибаться, Богу — прощать.",
+        "learn": 0
+      },
+      {
+        "eng": "Please, forgive me my too bearish manners.",
+        "ru": "Прошу простить мне мои слишком грубые манеры.",
+        "learn": 0
+      },
+      {
+        "eng": "If my letter is very stupid, forgive me.",
+        "ru": "Если моё письмо неинтересно, прости меня.",
+        "learn": 0
+      },
+      {
+        "eng": "Forgive my phoning you so late.",
+        "ru": "Простите, что звоню так поздно.",
+        "learn": 0
+      },
+      {
+        "eng": "God forgives us our sins.",
+        "ru": "Бог прощает нам наши грехи.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you ever forgive me for forgetting your birthday?",
+        "ru": "Сможете ли вы простить мне то, что я забыл о Вашем дне рождения?",
+        "learn": 0
+      },
+      {
+        "eng": "I've tried to forgive him for what he said.",
+        "ru": "Я попыталась простить его за то, что он сказал.",
+        "learn": 0
+      },
+      {
+        "eng": "I forgive you your debt.",
+        "ru": "Я прощаю тебе твой долг.",
+        "learn": 0
+      },
+      {
+        "eng": "I could never forgive her for making a mock of me.",
+        "ru": "Я никогда не мог простить ей того, что она сделала из меня посмешище.",
+        "learn": 0
+      },
+      {
+        "eng": "He never forgave her for walking out on him.",
+        "ru": "Он так и не простил её за то, что она от него ушла.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you ever forgive me for being so selfish?",
+        "ru": "Простишь ли ты мне когда-нибудь мой эгоизм?",
+        "learn": 0
+      },
+      {
+        "eng": "She could easily forgive these little peccadillos.",
+        "ru": "Она легко могла простить эти грешки.",
+        "learn": 0
+      },
+      {
+        "eng": "You must forgive her — she's not herself at present.",
+        "ru": "Вы должны простить её: она сейчас сама не своя.",
+        "learn": 0
+      },
+      {
+        "eng": "To forgive is the most arduous pitch human nature can arrive at.",
+        "ru": "Прощение - самая труднодоступная вершина, которую может достигнуть человек.",
+        "learn": 0
+      },
+      {
+        "eng": "'I'm really sorry.' 'It's okay, you're forgiven.'",
+        "ru": "— Прости меня, ради бога. — Ладно, прощаю.",
+        "learn": 0
+      },
+      {
+        "eng": "She just couldn't find it in her heart to forgive them.",
+        "ru": "Она просто не смогла найти в себе силы простить их.",
+        "learn": 0
+      },
+      {
+        "eng": "I could forgive him for what he did if he showed some remorse.",
+        "ru": "Я бы могла простить его за содеянное, если бы он проявил раскаяние.",
+        "learn": 0
+      },
+      {
+        "eng": "Teddy was immediately contrite. “That was stupid of me. Forgive me.\"",
+        "ru": "Тедди тут же раскаялся. — Это было глупо с моей стороны. Прости меня.",
+        "learn": 0
+      },
+      {
+        "eng": "Forgive me, for I have sinned.",
+        "ru": "Прости меня, ибо я согрешил.",
+        "learn": 0
+      },
+      {
+        "eng": "Do please forgive this tardy reply.",
+        "ru": "Прошу простить меня за запоздалый ответ.",
+        "learn": 0
+      },
+      {
+        "eng": "He begged that she would forgive him.",
+        "ru": "Он умолял, чтобы она его простила.",
+        "learn": 1
+      },
+      {
+        "eng": "He finds it hard to forgive an insult.",
+        "ru": "Ему трудно прощать оскорбления.",
+        "learn": 0
+      },
+      {
+        "eng": "Forgive me, but I don't think that is relevant.",
+        "ru": "Простите, но я не считаю это уместным.",
+        "learn": 1
+      },
+      {
+        "eng": "Forgive us our trespasses as we forgive those who trespass against us.",
+        "ru": "Прости нам прегрешения наши, яко же и мы прощаем грешащих противу нас.",
+        "learn": 0
+      },
+      {
+        "eng": "When he feels he's been insulted, he finds it hard to forgive and forget.",
+        "ru": "Если он чувствует, что его оскорбили, то ему тяжело простить и забыть.",
+        "learn": 0
+      },
+      {
+        "eng": "She began her letter by entreating me to forgive the belatedness of her reply.",
+        "ru": "Своё письмо она начала с того, что умоляла меня простить её за запоздавший ответ.",
+        "learn": 0
+      }
+    ]
+  }
 }

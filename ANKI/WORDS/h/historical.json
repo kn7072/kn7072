@@ -1,82 +1,168 @@
 {
-    "historical": {
-        "comment": [
-            "history",
-            "historian",
-            "historically"
-        ],
-        "translate": " исторический, исторически установленный",
-        "transcription": "  |hɪˈstɔːrɪkl|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "It's not a straight historical novel.",
-            "The historical details add depth to his story.",
-            "He hit pay dirt with his historical novels.",
-            "How historically significant is this discovery?",
-            "They were in the right about this historical question.",
-            "It's an area of considerable historical interest.",
-            "One should not treat any historical document as gospel.",
-            "The novel is full of historical detail.",
-            "She found a lacuna in the historical record.",
-            "He strove for historical accuracy in the movie.",
-            "The novel is full of historical details.",
-            "Was King Arthur a real historical figure?",
-            "a faithful rendering of historical events",
-            "The kings are listed in historical order.",
-            "The author novelized the historical event.",
-            "an abecedarian approach to historical study",
-            "His books mix historical fact with fantasy.",
-            "doubt that a historical Camelot ever existed",
-            "a chronological arrangement of historical events",
-            "The battlefield is a national historical landmark.",
-            "She got a job in the historical section of the Treasury.",
-            "Many of the historical proverbs have a doubtful paternity.",
-            "The family went on a pilgrimage to historical battlefields.",
-            "The importance of this event comes into historical prominence.",
-            "It is important to look at the novel in its historical context.",
-            "The collection includes an eclectic mix of historical artifacts.",
-            "The book set the pattern for over 40 similar historical romances.",
-            "Everyone had to dress the same as a well-known historical figure.",
-            "Defoe has plausibly circumstantiated his false historical record.",
-            "Real historical events figure in Tolstoy's novel \"War and Peace\"."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Это недостоверный исторический роман.",
-            "Исторические детали добавляют его рассказу глубины.",
-            "Он напал на золотую жилу, начав писать исторические романы.",
-            "Насколько значимо это открытие для истории?",
-            "Они были правы относительно этого исторического вопроса.",
-            "Эта территория представляет значительный исторический интерес.",
-            "Ни один исторический документ нельзя слепо принимать на веру.",
-            "Роман полон исторических деталей.",
-            "Она обнаружила пробел в этих исторических документах.",
-            "Он стремился к исторической достоверности своего фильма.",
-            "Роман изобилует историческими подробностями.",
-            "Был ли король Артур реальной исторической личностью?",
-            "точное изображение исторических событий",
-            "Короли перечислены в историческом порядке.",
-            "Автор рассказал об этом историческом событии в своём романе.",
-            "тривиальный подход к изучению истории",
-            "В его книгах исторические факты смешиваются с вымыслом.",
-            "сомнения в том, что исторический Камелот когда-либо существовал",
-            "расположение исторических событий в хронологическом порядке",
-            "Данное поле битвы является национальным историческим памятником.",
-            "Она устроилась на работу в исторический отдел казначейства.",
-            "Многие известные исторические выражения имеют сомнительное авторство.",
-            "Семья отправилась в паломничество по местам исторических сражений.",
-            "Это событие занимает выдающееся место в истории.",
-            "Важно рассматривать этот роман в его историческом контексте.",
-            "Коллекция включает в себя эклектическую мешанину из исторических артефактов.",
-            "Эта книга стала образцом для более сорока подобных исторических романов.",
-            "Каждый должен был нарядиться какой-нибудь известной исторической личностью.",
-            "Дефо подкрепил свой исторический вымысел убедительными подробностями.",
-            "В романе Толстого \"Война и мир\" фигурируют реальные исторические события."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "historical": {
+    "comment": [
+      "history",
+      "historian",
+      "historically"
+    ],
+    "translate": " исторический, исторически установленный",
+    "transcription": "  |hɪˈstɔːrɪkl|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "It's not a straight historical novel.",
+        "ru": "Это недостоверный исторический роман.",
+        "learn": 0
+      },
+      {
+        "eng": "The historical details add depth to his story.",
+        "ru": "Исторические детали добавляют его рассказу глубины.",
+        "learn": 0
+      },
+      {
+        "eng": "He hit pay dirt with his historical novels.",
+        "ru": "Он напал на золотую жилу, начав писать исторические романы.",
+        "learn": 0
+      },
+      {
+        "eng": "How historically significant is this discovery?",
+        "ru": "Насколько значимо это открытие для истории?",
+        "learn": 1
+      },
+      {
+        "eng": "They were in the right about this historical question.",
+        "ru": "Они были правы относительно этого исторического вопроса.",
+        "learn": 0
+      },
+      {
+        "eng": "It's an area of considerable historical interest.",
+        "ru": "Эта территория представляет значительный исторический интерес.",
+        "learn": 0
+      },
+      {
+        "eng": "One should not treat any historical document as gospel.",
+        "ru": "Ни один исторический документ нельзя слепо принимать на веру.",
+        "learn": 0
+      },
+      {
+        "eng": "The novel is full of historical detail.",
+        "ru": "Роман полон исторических деталей.",
+        "learn": 0
+      },
+      {
+        "eng": "She found a lacuna in the historical record.",
+        "ru": "Она обнаружила пробел в этих исторических документах.",
+        "learn": 0
+      },
+      {
+        "eng": "He strove for historical accuracy in the movie.",
+        "ru": "Он стремился к исторической достоверности своего фильма.",
+        "learn": 0
+      },
+      {
+        "eng": "The novel is full of historical details.",
+        "ru": "Роман изобилует историческими подробностями.",
+        "learn": 1
+      },
+      {
+        "eng": "Was King Arthur a real historical figure?",
+        "ru": "Был ли король Артур реальной исторической личностью?",
+        "learn": 0
+      },
+      {
+        "eng": "a faithful rendering of historical events",
+        "ru": "точное изображение исторических событий",
+        "learn": 0
+      },
+      {
+        "eng": "The kings are listed in historical order.",
+        "ru": "Короли перечислены в историческом порядке.",
+        "learn": 0
+      },
+      {
+        "eng": "The author novelized the historical event.",
+        "ru": "Автор рассказал об этом историческом событии в своём романе.",
+        "learn": 0
+      },
+      {
+        "eng": "an abecedarian approach to historical study",
+        "ru": "тривиальный подход к изучению истории",
+        "learn": 0
+      },
+      {
+        "eng": "His books mix historical fact with fantasy.",
+        "ru": "В его книгах исторические факты смешиваются с вымыслом.",
+        "learn": 0
+      },
+      {
+        "eng": "doubt that a historical Camelot ever existed",
+        "ru": "сомнения в том, что исторический Камелот когда-либо существовал",
+        "learn": 0
+      },
+      {
+        "eng": "a chronological arrangement of historical events",
+        "ru": "расположение исторических событий в хронологическом порядке",
+        "learn": 0
+      },
+      {
+        "eng": "The battlefield is a national historical landmark.",
+        "ru": "Данное поле битвы является национальным историческим памятником.",
+        "learn": 0
+      },
+      {
+        "eng": "She got a job in the historical section of the Treasury.",
+        "ru": "Она устроилась на работу в исторический отдел казначейства.",
+        "learn": 0
+      },
+      {
+        "eng": "Many of the historical proverbs have a doubtful paternity.",
+        "ru": "Многие известные исторические выражения имеют сомнительное авторство.",
+        "learn": 0
+      },
+      {
+        "eng": "The family went on a pilgrimage to historical battlefields.",
+        "ru": "Семья отправилась в паломничество по местам исторических сражений.",
+        "learn": 0
+      },
+      {
+        "eng": "The importance of this event comes into historical prominence.",
+        "ru": "Это событие занимает выдающееся место в истории.",
+        "learn": 0
+      },
+      {
+        "eng": "It is important to look at the novel in its historical context.",
+        "ru": "Важно рассматривать этот роман в его историческом контексте.",
+        "learn": 1
+      },
+      {
+        "eng": "The collection includes an eclectic mix of historical artifacts.",
+        "ru": "Коллекция включает в себя эклектическую мешанину из исторических артефактов.",
+        "learn": 0
+      },
+      {
+        "eng": "The book set the pattern for over 40 similar historical romances.",
+        "ru": "Эта книга стала образцом для более сорока подобных исторических романов.",
+        "learn": 0
+      },
+      {
+        "eng": "Everyone had to dress the same as a well-known historical figure.",
+        "ru": "Каждый должен был нарядиться какой-нибудь известной исторической личностью.",
+        "learn": 0
+      },
+      {
+        "eng": "Defoe has plausibly circumstantiated his false historical record.",
+        "ru": "Дефо подкрепил свой исторический вымысел убедительными подробностями.",
+        "learn": 0
+      },
+      {
+        "eng": "Real historical events figure in Tolstoy's novel \"War and Peace\".",
+        "ru": "В романе Толстого \"Война и мир\" фигурируют реальные исторические события.",
+        "learn": 0
+      }
+    ]
+  }
 }

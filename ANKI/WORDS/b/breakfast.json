@@ -1,94 +1,181 @@
 {
-    "breakfast": {
-        "comment": [
-            "bread, measure, breakfast - хлеб, мера, завтрак(обед)",
-            "break",
-            "break in",
-            "breath",
-            "breast",
-            "bread",
-            "breathe",
-            "breathing",
-            "breach",
-            "breakdown",
-            "breathtaking",
-            "breakthrough"
-        ],
-        "translate": "завтрак, утренний завтрак, завтракать",
-        "transcription": " |ˈbrekfəst|",
-        "antonyms": [],
-        "mnemonic": [
-            "breakfast [брэ'кфаст] завтрак - Завтрак лучше есть на морском (брег-у с фест- ашками)."
-        ],
-        "examples": [
-            "Did you have breakfast before you left?",
-            "They're eating breakfast.",
-            "We breakfast at seven.",
-            "I never eat breakfast.",
-            "I had toast for breakfast.",
-            "What did you discuss at breakfast?",
-            "I had pancakes for breakfast.",
-            "He read his newspaper at breakfast.",
-            "I haven't eaten since breakfast.",
-            "He eats the same breakfast every day.",
-            "I start my day with a good breakfast.",
-            "He ate cold pizza for breakfast.",
-            "We had bacon and eggs for breakfast.",
-            "Breakfast is served until 9 a.m.",
-            "We ate bacon and eggs for breakfast.",
-            "We drank orange juice with breakfast.",
-            "I had a piece of toast for breakfast.",
-            "There's no extra charge for breakfast.",
-            "Breakfast was set out in a small room.",
-            "I'll scramble some eggs for breakfast.",
-            "We had fried eggs and ham for breakfast.",
-            "He perused the newspaper over breakfast.",
-            "He bolted down his breakfast.",
-            "Breakfast passed very heavily.",
-            "the table in the breakfast nook",
-            "The breakfast room is a good size.",
-            "We had cheese Danish for breakfast.",
-            "They arrived too late for breakfast.",
-            "Fix breakfast for the guests, please.",
-            "Ha'n't we got a buster of a breakfast!"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ты позавтракал перед уходом?",
-            "Они завтракают .",
-            "Мы завтракаем в семь. / В семь у нас завтрак.",
-            "Я никогда не завтракаю.",
-            "На завтрак у меня был поджаренный хлеб.",
-            "О чём вы говорили за завтраком?",
-            "На завтрак я ел блинчики.",
-            "За завтраком он читал газету.",
-            "Я с завтрака ничего не ел.",
-            "Каждый день он завтракает одним и тем же.",
-            "Я начинаю день с плотного завтрака.",
-            "Он позавтракал холодной пиццей.",
-            "На завтрак у нас была яичница с беконом.",
-            "Завтрак подаётся до девяти часов утра.",
-            "На завтрак мы ели яичницу с беконом.",
-            "За завтраком мы пили апельсиновый сок.",
-            "Я позавтракала кусочком поджаренного хлеба /тоста, гренки/.",
-            "За завтрак нет дополнительной платы.",
-            "Завтрак подавали в маленькой комнате.",
-            "Я поджарю на завтрак омлет из нескольких яиц.",
-            "На завтрак у нас была яичница с ветчиной.",
-            "За завтраком он внимательно просмотрел газету.",
-            "Он съел свой завтрак очень быстро. / Он проглотил свой завтрак.",
-            "Завтрак прошёл очень уныло.",
-            "стол в уголке для завтрака",
-            "Зал для завтраков — приличного размера /довольно большой/.",
-            "На завтрак у нас были слойки с творогом.",
-            "Они прибыли слишком поздно для завтрака.",
-            "Приготовьте завтрак для гостей, пожалуйста.",
-            "Что за завтрак у нас сегодня!"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ea_=_[e]"
-        ]
-    }
+  "breakfast": {
+    "comment": [
+      "bread, measure, breakfast - хлеб, мера, завтрак(обед)",
+      "break",
+      "break in",
+      "breath",
+      "breast",
+      "bread",
+      "breathe",
+      "breathing",
+      "breach",
+      "breakdown",
+      "breathtaking",
+      "breakthrough"
+    ],
+    "translate": "завтрак, утренний завтрак, завтракать",
+    "transcription": " |ˈbrekfəst|",
+    "antonyms": [],
+    "mnemonic": [
+      "breakfast [брэ'кфаст] завтрак - Завтрак лучше есть на морском (брег-у с фест- ашками)."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ea_=_[e]"
+    ],
+    "examples": [
+      {
+        "eng": "Did you have breakfast before you left?",
+        "ru": "Ты позавтракал перед уходом?",
+        "learn": 0
+      },
+      {
+        "eng": "They're eating breakfast.",
+        "ru": "Они завтракают .",
+        "learn": 0
+      },
+      {
+        "eng": "We breakfast at seven.",
+        "ru": "Мы завтракаем в семь. / В семь у нас завтрак.",
+        "learn": 0
+      },
+      {
+        "eng": "I never eat breakfast.",
+        "ru": "Я никогда не завтракаю.",
+        "learn": 0
+      },
+      {
+        "eng": "I had toast for breakfast.",
+        "ru": "На завтрак у меня был поджаренный хлеб.",
+        "learn": 0
+      },
+      {
+        "eng": "What did you discuss at breakfast?",
+        "ru": "О чём вы говорили за завтраком?",
+        "learn": 0
+      },
+      {
+        "eng": "I had pancakes for breakfast.",
+        "ru": "На завтрак я ел блинчики.",
+        "learn": 0
+      },
+      {
+        "eng": "He read his newspaper at breakfast.",
+        "ru": "За завтраком он читал газету.",
+        "learn": 0
+      },
+      {
+        "eng": "I haven't eaten since breakfast.",
+        "ru": "Я с завтрака ничего не ел.",
+        "learn": 0
+      },
+      {
+        "eng": "He eats the same breakfast every day.",
+        "ru": "Каждый день он завтракает одним и тем же.",
+        "learn": 0
+      },
+      {
+        "eng": "I start my day with a good breakfast.",
+        "ru": "Я начинаю день с плотного завтрака.",
+        "learn": 0
+      },
+      {
+        "eng": "He ate cold pizza for breakfast.",
+        "ru": "Он позавтракал холодной пиццей.",
+        "learn": 0
+      },
+      {
+        "eng": "We had bacon and eggs for breakfast.",
+        "ru": "На завтрак у нас была яичница с беконом.",
+        "learn": 0
+      },
+      {
+        "eng": "Breakfast is served until 9 a.m.",
+        "ru": "Завтрак подаётся до девяти часов утра.",
+        "learn": 0
+      },
+      {
+        "eng": "We ate bacon and eggs for breakfast.",
+        "ru": "На завтрак мы ели яичницу с беконом.",
+        "learn": 1
+      },
+      {
+        "eng": "We drank orange juice with breakfast.",
+        "ru": "За завтраком мы пили апельсиновый сок.",
+        "learn": 0
+      },
+      {
+        "eng": "I had a piece of toast for breakfast.",
+        "ru": "Я позавтракала кусочком поджаренного хлеба /тоста, гренки/.",
+        "learn": 1
+      },
+      {
+        "eng": "There's no extra charge for breakfast.",
+        "ru": "За завтрак нет дополнительной платы.",
+        "learn": 0
+      },
+      {
+        "eng": "Breakfast was set out in a small room.",
+        "ru": "Завтрак подавали в маленькой комнате.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll scramble some eggs for breakfast.",
+        "ru": "Я поджарю на завтрак омлет из нескольких яиц.",
+        "learn": 0
+      },
+      {
+        "eng": "We had fried eggs and ham for breakfast.",
+        "ru": "На завтрак у нас была яичница с ветчиной.",
+        "learn": 1
+      },
+      {
+        "eng": "He perused the newspaper over breakfast.",
+        "ru": "За завтраком он внимательно просмотрел газету.",
+        "learn": 0
+      },
+      {
+        "eng": "He bolted down his breakfast.",
+        "ru": "Он съел свой завтрак очень быстро. / Он проглотил свой завтрак.",
+        "learn": 0
+      },
+      {
+        "eng": "Breakfast passed very heavily.",
+        "ru": "Завтрак прошёл очень уныло.",
+        "learn": 0
+      },
+      {
+        "eng": "the table in the breakfast nook",
+        "ru": "стол в уголке для завтрака",
+        "learn": 0
+      },
+      {
+        "eng": "The breakfast room is a good size.",
+        "ru": "Зал для завтраков — приличного размера /довольно большой/.",
+        "learn": 0
+      },
+      {
+        "eng": "We had cheese Danish for breakfast.",
+        "ru": "На завтрак у нас были слойки с творогом.",
+        "learn": 0
+      },
+      {
+        "eng": "They arrived too late for breakfast.",
+        "ru": "Они прибыли слишком поздно для завтрака.",
+        "learn": 0
+      },
+      {
+        "eng": "Fix breakfast for the guests, please.",
+        "ru": "Приготовьте завтрак для гостей, пожалуйста.",
+        "learn": 0
+      },
+      {
+        "eng": "Ha'n't we got a buster of a breakfast!",
+        "ru": "Что за завтрак у нас сегодня!",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,83 +1,169 @@
 {
-    "left": {
-        "comment": [
-            "left-hand",
-            "left-wing"
-        ],
-        "translate": "слева, налево, левый, левые, левая сторона",
-        "transcription": " |left|",
-        "antonyms": [],
-        "mnemonic": [
-            "left [лефт] левый - (А-лефт- ина) налево идёт от мужа."
-        ],
-        "examples": [
-            "He left two days ago.",
-            "He left after an hour.",
-            "I have two years left.",
-            "the friend at your left hand",
-            "Opera left him cold.",
-            "We left home at noon.",
-            "The film left me cold.",
-            "Turn left after the hotel.",
-            "the left side of the street",
-            "I wonder why they left.",
-            "He paid his bill and left.",
-            "She has no juice left.",
-            "He left without a word.",
-            "Turn left at the church.",
-            "He took a sharp left turn.",
-            "Steer toward the left.",
-            "She left the door ajar.",
-            "I left my bags right here.",
-            "The news left her aghast.",
-            "Take a left at the corner.",
-            "He left the secret untold.",
-            "the third house on the left",
-            "Is there any milk left?",
-            "a quick dart to the left",
-            "Take the next left turn.",
-            "I left my music at home.",
-            "The wine left a dark stain.",
-            "a hard left to the chin",
-            "We left by the back gate.",
-            "He left in great disgust."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он уехал два дня назад.",
-            "Он ушёл через час.",
-            "У меня осталось два года.",
-            "друг, находящийся слева от вас",
-            "Опера оставила его равнодушным.",
-            "Мы вышли из дома в полдень.",
-            "Кино оставило меня равнодушным.",
-            "После гостиницы поверните налево.",
-            "левая сторона улицы",
-            "Интересно, почему они ушли.",
-            "Он оплатил счёт и ушёл.",
-            "Она совсем без сил.",
-            "Он ушёл, не сказав ни слова.",
-            "У церкви поверните налево.",
-            "Он резко повернул налево.",
-            "Держите курс левее.",
-            "Она оставила дверь приоткрытой.",
-            "Я оставил сумки вот здесь.",
-            "Новость повергла её в ужас.",
-            "На перекрёстке поверните налево.",
-            "Он не раскрыл этой тайны.",
-            "третий дом слева",
-            "Молока совсем не осталось? / Осталось ли хоть немного молока?",
-            "быстрый бросок влево",
-            "На следующем повороте — налево.",
-            "Я оставил ноты дома.",
-            "От вина осталось тёмное пятно.",
-            "сильный удар с левой в челюсть",
-            "Мы вышли через задние ворота.",
-            "Он ушёл в сильном раздражении."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "left": {
+    "comment": [
+      "left-hand",
+      "left-wing"
+    ],
+    "translate": "слева, налево, левый, левые, левая сторона",
+    "transcription": " |left|",
+    "antonyms": [],
+    "mnemonic": [
+      "left [лефт] левый - (А-лефт- ина) налево идёт от мужа."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He left two days ago.",
+        "ru": "Он уехал два дня назад.",
+        "learn": 0
+      },
+      {
+        "eng": "He left after an hour.",
+        "ru": "Он ушёл через час.",
+        "learn": 0
+      },
+      {
+        "eng": "I have two years left.",
+        "ru": "У меня осталось два года.",
+        "learn": 0
+      },
+      {
+        "eng": "the friend at your left hand",
+        "ru": "друг, находящийся слева от вас",
+        "learn": 0
+      },
+      {
+        "eng": "Opera left him cold.",
+        "ru": "Опера оставила его равнодушным.",
+        "learn": 0
+      },
+      {
+        "eng": "We left home at noon.",
+        "ru": "Мы вышли из дома в полдень.",
+        "learn": 0
+      },
+      {
+        "eng": "The film left me cold.",
+        "ru": "Кино оставило меня равнодушным.",
+        "learn": 0
+      },
+      {
+        "eng": "Turn left after the hotel.",
+        "ru": "После гостиницы поверните налево.",
+        "learn": 1
+      },
+      {
+        "eng": "the left side of the street",
+        "ru": "левая сторона улицы",
+        "learn": 0
+      },
+      {
+        "eng": "I wonder why they left.",
+        "ru": "Интересно, почему они ушли.",
+        "learn": 0
+      },
+      {
+        "eng": "He paid his bill and left.",
+        "ru": "Он оплатил счёт и ушёл.",
+        "learn": 1
+      },
+      {
+        "eng": "She has no juice left.",
+        "ru": "Она совсем без сил.",
+        "learn": 0
+      },
+      {
+        "eng": "He left without a word.",
+        "ru": "Он ушёл, не сказав ни слова.",
+        "learn": 0
+      },
+      {
+        "eng": "Turn left at the church.",
+        "ru": "У церкви поверните налево.",
+        "learn": 0
+      },
+      {
+        "eng": "He took a sharp left turn.",
+        "ru": "Он резко повернул налево.",
+        "learn": 0
+      },
+      {
+        "eng": "Steer toward the left.",
+        "ru": "Держите курс левее.",
+        "learn": 0
+      },
+      {
+        "eng": "She left the door ajar.",
+        "ru": "Она оставила дверь приоткрытой.",
+        "learn": 0
+      },
+      {
+        "eng": "I left my bags right here.",
+        "ru": "Я оставил сумки вот здесь.",
+        "learn": 0
+      },
+      {
+        "eng": "The news left her aghast.",
+        "ru": "Новость повергла её в ужас.",
+        "learn": 0
+      },
+      {
+        "eng": "Take a left at the corner.",
+        "ru": "На перекрёстке поверните налево.",
+        "learn": 0
+      },
+      {
+        "eng": "He left the secret untold.",
+        "ru": "Он не раскрыл этой тайны.",
+        "learn": 0
+      },
+      {
+        "eng": "the third house on the left",
+        "ru": "третий дом слева",
+        "learn": 1
+      },
+      {
+        "eng": "Is there any milk left?",
+        "ru": "Молока совсем не осталось? / Осталось ли хоть немного молока?",
+        "learn": 0
+      },
+      {
+        "eng": "a quick dart to the left",
+        "ru": "быстрый бросок влево",
+        "learn": 0
+      },
+      {
+        "eng": "Take the next left turn.",
+        "ru": "На следующем повороте — налево.",
+        "learn": 0
+      },
+      {
+        "eng": "I left my music at home.",
+        "ru": "Я оставил ноты дома.",
+        "learn": 0
+      },
+      {
+        "eng": "The wine left a dark stain.",
+        "ru": "От вина осталось тёмное пятно.",
+        "learn": 1
+      },
+      {
+        "eng": "a hard left to the chin",
+        "ru": "сильный удар с левой в челюсть",
+        "learn": 0
+      },
+      {
+        "eng": "We left by the back gate.",
+        "ru": "Мы вышли через задние ворота.",
+        "learn": 0
+      },
+      {
+        "eng": "He left in great disgust.",
+        "ru": "Он ушёл в сильном раздражении.",
+        "learn": 0
+      }
+    ]
+  }
 }

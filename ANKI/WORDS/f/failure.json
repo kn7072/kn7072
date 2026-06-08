@@ -1,84 +1,171 @@
 {
-    "failure": {
-        "comment": [
-            "fail"
-        ],
-        "translate": " неудача, провал, отказ, недостаточность, сбой, неспособность, отсутствие",
-        "transcription": "  |ˈfeɪljər|",
-        "antonyms": [],
-        "mnemonic": [
-            "failure ['feɪljə]\n***\nЗа НЕУСПЕХ винил Офелью. (это) failure\nЗа ПРОВАЛ винил Офелью. (это) failure\nНЕУДАЧА - не получил трюфель|я. (это) failure"
-        ],
-        "examples": [
-            "He was a failure in politics.",
-            "She has a dread of failure.",
-            "The play was voted a failure.",
-            "The failure dashed his spirits.",
-            "He died from kidney failure.",
-            "What if you elect me and I'll turn out a failure?",
-            "Engine failure cracked the plane up.",
-            "He saw himself as a failure.",
-            "Harry's plans ended in failure.",
-            "His efforts were foredoomed to failure.",
-            "The show was a dismal failure.",
-            "The scheme was pronounced a failure.",
-            "He specified the reasons of their failure.",
-            "His failure may have been due to greenness.",
-            "The failure of the talks could have catastrophic consequences.",
-            "You should not let one failure discourage you.",
-            "He was unbowed by failure.",
-            "He became discouraged by his repeated failures in business.",
-            "The storm caused an abrupt power failure.",
-            "Her doubts spring from too much experience of failure.",
-            "It's no good sighing over a failure, it is better to start again.",
-            "This failure should have been designed.",
-            "The patient was suffering from heart failure.",
-            "The drought caused crop failure.",
-            "The scheme was a complete failure.",
-            "The travel company's failure bust up our holiday.",
-            "his failure to pass the test",
-            "This ambitious attempt ended in failure.",
-            "The house had become uninhabitable through the failure of the water-supply.",
-            "Don't you think it's a little unkind to gloat over your competitor's failure?"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "В политике он потерпел неудачу.",
-            "Она боится возможной неудачи.",
-            "Пьеса была признана неудачной.",
-            "Неудача охладила его пыл.",
-            "Он умер от почечной недостаточности.",
-            "Что если вы изберёте меня, а я окажусь неудачником?",
-            "Самолёт потерпел катастрофу из-за отказа двигателя.",
-            "Он считал себя неудачником.",
-            "Планы Гарри закончились неудачей.",
-            "Его усилия были обречены на провал.",
-            "Шоу позорно провалилось.",
-            "План был признан неудачным.",
-            "Он установил причины их неудачи.",
-            "Его неудача может быть отнесена на счёт неопытности.",
-            "Провал данных переговоров мог иметь катастрофические последствия.",
-            "Нельзя позволять единственной неудаче вас обескуражить.",
-            "Неудачи не сломили его.",
-            "Многочисленные неудачи в делах обескуражили его.",
-            "Шторм привёл к внезапному отключению электроэнергии.",
-            "Её сомнения происходят оттого, что она слишком много потерпела в жизни неудач.",
-            "Нет смысла вздыхать по поводу неудачи, лучше начать всё заново.",
-            "Этот провал, должно быть, был предумышленным.",
-            "Пациент страдал от сердечной недостаточности.",
-            "Засуха вызвала неурожай.",
-            "План полностью провалился.",
-            "Плохая работа турфирмы испортила нам отпуск.",
-            "его провал на экзамене / непрохождение им теста",
-            "Это честолюбивое предприятие закончилось неудачей.",
-            "Дом стал непригоден для жилья в результате аварии в системе водоснабжения.",
-            "Ты не находишь, что радоваться поражению своего конкурента не очень хорошо?"
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив_с_to_после_сущ",
-            "Инфинитив",
-            "all_words"
-        ]
-    }
+  "failure": {
+    "comment": [
+      "fail"
+    ],
+    "translate": " неудача, провал, отказ, недостаточность, сбой, неспособность, отсутствие",
+    "transcription": "  |ˈfeɪljər|",
+    "antonyms": [],
+    "mnemonic": [
+      "failure ['feɪljə]\n***\nЗа НЕУСПЕХ винил Офелью. (это) failure\nЗа ПРОВАЛ винил Офелью. (это) failure\nНЕУДАЧА - не получил трюфель|я. (это) failure"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_с_to_после_сущ",
+      "Инфинитив"
+    ],
+    "examples": [
+      {
+        "eng": "He was a failure in politics.",
+        "ru": "В политике он потерпел неудачу.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a dread of failure.",
+        "ru": "Она боится возможной неудачи.",
+        "learn": 1
+      },
+      {
+        "eng": "The play was voted a failure.",
+        "ru": "Пьеса была признана неудачной.",
+        "learn": 0
+      },
+      {
+        "eng": "The failure dashed his spirits.",
+        "ru": "Неудача охладила его пыл.",
+        "learn": 0
+      },
+      {
+        "eng": "He died from kidney failure.",
+        "ru": "Он умер от почечной недостаточности.",
+        "learn": 0
+      },
+      {
+        "eng": "What if you elect me and I'll turn out a failure?",
+        "ru": "Что если вы изберёте меня, а я окажусь неудачником?",
+        "learn": 1
+      },
+      {
+        "eng": "Engine failure cracked the plane up.",
+        "ru": "Самолёт потерпел катастрофу из-за отказа двигателя.",
+        "learn": 0
+      },
+      {
+        "eng": "He saw himself as a failure.",
+        "ru": "Он считал себя неудачником.",
+        "learn": 0
+      },
+      {
+        "eng": "Harry's plans ended in failure.",
+        "ru": "Планы Гарри закончились неудачей.",
+        "learn": 0
+      },
+      {
+        "eng": "His efforts were foredoomed to failure.",
+        "ru": "Его усилия были обречены на провал.",
+        "learn": 0
+      },
+      {
+        "eng": "The show was a dismal failure.",
+        "ru": "Шоу позорно провалилось.",
+        "learn": 0
+      },
+      {
+        "eng": "The scheme was pronounced a failure.",
+        "ru": "План был признан неудачным.",
+        "learn": 0
+      },
+      {
+        "eng": "He specified the reasons of their failure.",
+        "ru": "Он установил причины их неудачи.",
+        "learn": 1
+      },
+      {
+        "eng": "His failure may have been due to greenness.",
+        "ru": "Его неудача может быть отнесена на счёт неопытности.",
+        "learn": 0
+      },
+      {
+        "eng": "The failure of the talks could have catastrophic consequences.",
+        "ru": "Провал данных переговоров мог иметь катастрофические последствия.",
+        "learn": 0
+      },
+      {
+        "eng": "You should not let one failure discourage you.",
+        "ru": "Нельзя позволять единственной неудаче вас обескуражить.",
+        "learn": 1
+      },
+      {
+        "eng": "He was unbowed by failure.",
+        "ru": "Неудачи не сломили его.",
+        "learn": 0
+      },
+      {
+        "eng": "He became discouraged by his repeated failures in business.",
+        "ru": "Многочисленные неудачи в делах обескуражили его.",
+        "learn": 0
+      },
+      {
+        "eng": "The storm caused an abrupt power failure.",
+        "ru": "Шторм привёл к внезапному отключению электроэнергии.",
+        "learn": 0
+      },
+      {
+        "eng": "Her doubts spring from too much experience of failure.",
+        "ru": "Её сомнения происходят оттого, что она слишком много потерпела в жизни неудач.",
+        "learn": 0
+      },
+      {
+        "eng": "It's no good sighing over a failure, it is better to start again.",
+        "ru": "Нет смысла вздыхать по поводу неудачи, лучше начать всё заново.",
+        "learn": 0
+      },
+      {
+        "eng": "This failure should have been designed.",
+        "ru": "Этот провал, должно быть, был предумышленным.",
+        "learn": 0
+      },
+      {
+        "eng": "The patient was suffering from heart failure.",
+        "ru": "Пациент страдал от сердечной недостаточности.",
+        "learn": 0
+      },
+      {
+        "eng": "The drought caused crop failure.",
+        "ru": "Засуха вызвала неурожай.",
+        "learn": 0
+      },
+      {
+        "eng": "The scheme was a complete failure.",
+        "ru": "План полностью провалился.",
+        "learn": 0
+      },
+      {
+        "eng": "The travel company's failure bust up our holiday.",
+        "ru": "Плохая работа турфирмы испортила нам отпуск.",
+        "learn": 0
+      },
+      {
+        "eng": "his failure to pass the test",
+        "ru": "его провал на экзамене / непрохождение им теста",
+        "learn": 0
+      },
+      {
+        "eng": "This ambitious attempt ended in failure.",
+        "ru": "Это честолюбивое предприятие закончилось неудачей.",
+        "learn": 0
+      },
+      {
+        "eng": "The house had become uninhabitable through the failure of the water-supply.",
+        "ru": "Дом стал непригоден для жилья в результате аварии в системе водоснабжения.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't you think it's a little unkind to gloat over your competitor's failure?",
+        "ru": "Ты не находишь, что радоваться поражению своего конкурента не очень хорошо?",
+        "learn": 0
+      }
+    ]
+  }
 }

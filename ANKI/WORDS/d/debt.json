@@ -1,84 +1,171 @@
 {
-    "debt": {
-        "comment": [
-            "debtor"
-        ],
-        "translate": "долг",
-        "transcription": " |det|",
-        "antonyms": [],
-        "mnemonic": [
-            "debt [дэт] долг (денежный) - Долги (дэт-и) отдадут.",
-            "debt [dɛt]\n***\nДОЛГ большой, поэтому он раздет. (это) debt"
-        ],
-        "examples": [
-            "I am deep in debt.",
-            "I am very much in your debt.",
-            "He is deeply in debt.",
-            "At last the firm is out of debt.",
-            "Score up a debt to Tom.",
-            "They are heavily in debt.",
-            "The bulk of the debt was paid.",
-            "I forgive you your debt.",
-            "He is in debt to me for a large sum.",
-            "He was ruined by debt.",
-            "The debt is paid, the score is crossed.",
-            "The debt must be paid in full.",
-            "We are trying to reduce our debt.",
-            "We must work off the debt.",
-            "His speech comes to this: the country is deeply in debt.",
-            "Their debts are piling up.",
-            "London Debt Agreement",
-            "Jim's up to his neck in debt.",
-            "I'm thousands of dollars in debt.",
-            "a payment plan to reduce your debt",
-            "They found themselves in a mire of debt.",
-            "Their credit card debt isn't hay. It'll take years to pay it off.",
-            "the buyer's assumption of debt",
-            "He is trying to pay off gambling debts.",
-            "I owe a debt of gratitude to my tutors.",
-            "She soon got into difficulty with debt.",
-            "The firm had to charge off the debt as hopeless.",
-            "They kept their promise that the debt would be repaid promptly.",
-            "He had begun to slip into debt.",
-            "The club sank deeper into debt."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я по уши в долгах.",
-            "Я вам очень обязан.",
-            "У него большие долги.",
-            "Наконец-то фирма расплатилась с долгами.",
-            "Запишите долг на счёт Тома.",
-            "Они глубоко увязли в долгах.",
-            "Основная часть долга выплачена.",
-            "Я прощаю тебе твой долг.",
-            "Я дал ему в долг большую сумму.",
-            "Долги разорили его.",
-            "Долг уплачен, счёт закрыт.",
-            "Долг должен быть выплачен в полном объёме.",
-            "Мы пытаемся уменьшить свою задолженность.",
-            "Мы обязаны отработать долг.",
-            "Вся его речь сводится к одному: страна увязла в долгах.",
-            "Их долги растут /накапливаются/.",
-            "Лондонское соглашение о долгах ФРГ другим западным странам",
-            "Джим по уши в долгах.",
-            "У меня долгов на несколько тысяч долларов.",
-            "план выплат с целью уменьшения вашей задолженности",
-            "Они обнаружили, что находятся в трясине долгов.",
-            "Их долг по кредитной карте внушителен. Уйдут годы, чтобы расплатиться.",
-            "признание (принятие на себя) долга покупателем",
-            "Он пытается погасить игорные долги.",
-            "Я выражаю признательность моим наставникам.",
-            "Вскоре она попала в трудную ситуацию из-за долгов.",
-            "Компании пришлось списать этот долг как безнадежный.",
-            "Они сдержали слово и выплатили долг вовремя.",
-            "К тому времени он уже начал влезать в долги.",
-            "Клуб всё глубже увязал в долгах."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "bt_=_[t]"
-        ]
-    }
+  "debt": {
+    "comment": [
+      "debtor"
+    ],
+    "translate": "долг",
+    "transcription": " |det|",
+    "antonyms": [],
+    "mnemonic": [
+      "debt [дэт] долг (денежный) - Долги (дэт-и) отдадут.",
+      "debt [dɛt]\n***\nДОЛГ большой, поэтому он раздет. (это) debt"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "bt_=_[t]"
+    ],
+    "examples": [
+      {
+        "eng": "I am deep in debt.",
+        "ru": "Я по уши в долгах.",
+        "learn": 0
+      },
+      {
+        "eng": "I am very much in your debt.",
+        "ru": "Я вам очень обязан.",
+        "learn": 0
+      },
+      {
+        "eng": "He is deeply in debt.",
+        "ru": "У него большие долги.",
+        "learn": 1
+      },
+      {
+        "eng": "At last the firm is out of debt.",
+        "ru": "Наконец-то фирма расплатилась с долгами.",
+        "learn": 0
+      },
+      {
+        "eng": "Score up a debt to Tom.",
+        "ru": "Запишите долг на счёт Тома.",
+        "learn": 0
+      },
+      {
+        "eng": "They are heavily in debt.",
+        "ru": "Они глубоко увязли в долгах.",
+        "learn": 0
+      },
+      {
+        "eng": "The bulk of the debt was paid.",
+        "ru": "Основная часть долга выплачена.",
+        "learn": 1
+      },
+      {
+        "eng": "I forgive you your debt.",
+        "ru": "Я прощаю тебе твой долг.",
+        "learn": 0
+      },
+      {
+        "eng": "He is in debt to me for a large sum.",
+        "ru": "Я дал ему в долг большую сумму.",
+        "learn": 0
+      },
+      {
+        "eng": "He was ruined by debt.",
+        "ru": "Долги разорили его.",
+        "learn": 0
+      },
+      {
+        "eng": "The debt is paid, the score is crossed.",
+        "ru": "Долг уплачен, счёт закрыт.",
+        "learn": 0
+      },
+      {
+        "eng": "The debt must be paid in full.",
+        "ru": "Долг должен быть выплачен в полном объёме.",
+        "learn": 0
+      },
+      {
+        "eng": "We are trying to reduce our debt.",
+        "ru": "Мы пытаемся уменьшить свою задолженность.",
+        "learn": 0
+      },
+      {
+        "eng": "We must work off the debt.",
+        "ru": "Мы обязаны отработать долг.",
+        "learn": 0
+      },
+      {
+        "eng": "His speech comes to this: the country is deeply in debt.",
+        "ru": "Вся его речь сводится к одному: страна увязла в долгах.",
+        "learn": 1
+      },
+      {
+        "eng": "Their debts are piling up.",
+        "ru": "Их долги растут /накапливаются/.",
+        "learn": 0
+      },
+      {
+        "eng": "London Debt Agreement",
+        "ru": "Лондонское соглашение о долгах ФРГ другим западным странам",
+        "learn": 0
+      },
+      {
+        "eng": "Jim's up to his neck in debt.",
+        "ru": "Джим по уши в долгах.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm thousands of dollars in debt.",
+        "ru": "У меня долгов на несколько тысяч долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "a payment plan to reduce your debt",
+        "ru": "план выплат с целью уменьшения вашей задолженности",
+        "learn": 0
+      },
+      {
+        "eng": "They found themselves in a mire of debt.",
+        "ru": "Они обнаружили, что находятся в трясине долгов.",
+        "learn": 0
+      },
+      {
+        "eng": "Their credit card debt isn't hay. It'll take years to pay it off.",
+        "ru": "Их долг по кредитной карте внушителен. Уйдут годы, чтобы расплатиться.",
+        "learn": 0
+      },
+      {
+        "eng": "the buyer's assumption of debt",
+        "ru": "признание (принятие на себя) долга покупателем",
+        "learn": 0
+      },
+      {
+        "eng": "He is trying to pay off gambling debts.",
+        "ru": "Он пытается погасить игорные долги.",
+        "learn": 0
+      },
+      {
+        "eng": "I owe a debt of gratitude to my tutors.",
+        "ru": "Я выражаю признательность моим наставникам.",
+        "learn": 0
+      },
+      {
+        "eng": "She soon got into difficulty with debt.",
+        "ru": "Вскоре она попала в трудную ситуацию из-за долгов.",
+        "learn": 0
+      },
+      {
+        "eng": "The firm had to charge off the debt as hopeless.",
+        "ru": "Компании пришлось списать этот долг как безнадежный.",
+        "learn": 0
+      },
+      {
+        "eng": "They kept their promise that the debt would be repaid promptly.",
+        "ru": "Они сдержали слово и выплатили долг вовремя.",
+        "learn": 0
+      },
+      {
+        "eng": "He had begun to slip into debt.",
+        "ru": "К тому времени он уже начал влезать в долги.",
+        "learn": 0
+      },
+      {
+        "eng": "The club sank deeper into debt.",
+        "ru": "Клуб всё глубже увязал в долгах.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,89 +1,175 @@
 {
-    "bond": {
-        "comment": [
-            "bone",
-            "bonus",
-            "carbon",
-            "bonnet",
-            "bonfire",
-            "ribbon",
-            "backbone"
-        ],
-        "translate": "связь, облигация, узы, связывать, скреплять, крепостной",
-        "transcription": " |bɑːnd|",
-        "antonyms": [],
-        "mnemonic": [
-            "bond [бонд] обязательство, облигация - Все обязательства и облигации обеспечит Джеймс (Бонд).",
-            "fond [fɔnd] - связь, сближаться\nbond [bɔnd]\n***\nНЕЖНЫЕ чувства вызывает и собака, и гос. фонд.\n(это) fond\nТолько ДОВЕРЧИВЫЙ создаёт денежный фонд.\n(это) fond\nЛЮБЛЮ я гос. фонд. (это) fond\n***\nУ нас крепкая связь \"bond\"\nи чувства нежные \"fond\"."
-        ],
-        "examples": [
-            "a daughter's bond with her mother",
-            "He was so kind and sincere. No wonder I bonded to him.",
-            "The grandparents want to bond with the child.",
-            "Time must be given for the mother to bond with her baby.",
-            "This bond rates highly.",
-            "The bond is trading flat at $80.",
-            "She has invested most of her money in stocks and bonds.",
-            "Tight money supply tends to curb both the economy and the bond market.",
-            "Heat was used to bond the sheets of plastic together.",
-            "His word is his bond (=he always does what he promises to do).",
-            "He was suffered to redeem himself by giving a bond for forty thousand pounds.",
-            "The two women had forged a close bond.",
-            "Thanks to James Bond, martini is one badass drink.",
-            "The bond yields seven percent annually.",
-            "The bond will reach maturity in 10 years.",
-            "Recent events have helped to strengthen the bonds between our two countries.",
-            "The issuer will pay the bond holder a premium if the bond is called away from him or her.",
-            "Use a glue gun to form a strong bond on wood or china.",
-            "My father put all his money into stock market bonds.",
-            "It takes less than 10 minutes for the two surfaces to bond.",
-            "that special bond that has existed between mother and child from everlasting",
-            "My roommate and I share a common bond because we both grew up in the Midwest.",
-            "The bond matures in 10 years.",
-            "a peculiar bond of sympathy between them",
-            "Association of International Bond Dealers",
-            "Stock and bond markets have gyrated in recent weeks.",
-            "the fictive world of James Bond",
-            "The bond is subject to taxation.",
-            "Edward Bond's play about class war",
-            "They discussed plans for a new bond issue."
-        ],
-        "example_translate": [
-            "связь дочери с матерью",
-            "Он был таким добрым и искренним. Нет ничего удивительного в том, что я привязалась к нему.",
-            "Бабушка и дедушка хотят сблизиться с ребёнком.",
-            "Матери нужно дать время для формирования тесной связи с ребёнком.",
-            "Эта облигация ценится высоко.",
-            "Эта облигация продается с учетом невыплаченных процентов за 80 долл.",
-            "Она вложила большую часть своих денег в акции и облигации.",
-            "Жесткая денежная политика обычно сдерживает экономику и рынок облигаций от перегрева.",
-            "Листы пластика соединили вместе при помощи нагрева.",
-            "Его слово — закон (т.е. он всегда выполняет то, что обещает).",
-            "Ему было позволено выйти на свободу при условии, что он внесет залог в сорок тысяч фунтов.",
-            "К тому времени женщины уже наладили между собой тесную связь.",
-            "Благодаря Джеймсу Бонду, пить мартини - это круто.",
-            "Ежегодно эта облигация приносит доход в размере семи процентов.",
-            "Срок выплат по облигации наступит через десять лет.",
-            "Недавние события способствовали укреплению связей между нашими двумя странами.",
-            "Эмитент выплатит держателю облигации премию, если облигация будет выкуплена у данного облигационера досрочно.",
-            "Для образования прочной связи с деревом или фарфором используйте клеевой пистолет.",
-            "Мой отец вложил все свои деньги в фондовый рынок облигаций.",
-            "Склеивание двух поверхностей занимает менее десяти минут.",
-            "особая связь, которая существует между матерью и ребёнком с незапамятных времён",
-            "У меня с соседом по комнате есть нечто общее, ведь мы оба выросли на Среднем Западе.",
-            "Облигация погашается через 10 лет.",
-            "особые узы взаимопонимания между ними",
-            "Ассоциация дилеров по международным облигациям (в Цюрихе)",
-            "В последние недели рынки акций и облигаций испытывали сильные колебания.",
-            "вымышленный мир Джеймса Бонда",
-            "Данные облигации подлежат налогообложению.",
-            "пьеса Эдварда Бонда о классовой войне",
-            "Они обсудили планы на новый выпуск облигаций."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "bond": {
+    "comment": [
+      "bone",
+      "bonus",
+      "carbon",
+      "bonnet",
+      "bonfire",
+      "ribbon",
+      "backbone"
+    ],
+    "translate": "связь, облигация, узы, связывать, скреплять, крепостной",
+    "transcription": " |bɑːnd|",
+    "antonyms": [],
+    "mnemonic": [
+      "bond [бонд] обязательство, облигация - Все обязательства и облигации обеспечит Джеймс (Бонд).",
+      "fond [fɔnd] - связь, сближаться\nbond [bɔnd]\n***\nНЕЖНЫЕ чувства вызывает и собака, и гос. фонд.\n(это) fond\nТолько ДОВЕРЧИВЫЙ создаёт денежный фонд.\n(это) fond\nЛЮБЛЮ я гос. фонд. (это) fond\n***\nУ нас крепкая связь \"bond\"\nи чувства нежные \"fond\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "a daughter's bond with her mother",
+        "ru": "связь дочери с матерью",
+        "learn": 1
+      },
+      {
+        "eng": "He was so kind and sincere. No wonder I bonded to him.",
+        "ru": "Он был таким добрым и искренним. Нет ничего удивительного в том, что я привязалась к нему.",
+        "learn": 0
+      },
+      {
+        "eng": "The grandparents want to bond with the child.",
+        "ru": "Бабушка и дедушка хотят сблизиться с ребёнком.",
+        "learn": 0
+      },
+      {
+        "eng": "Time must be given for the mother to bond with her baby.",
+        "ru": "Матери нужно дать время для формирования тесной связи с ребёнком.",
+        "learn": 0
+      },
+      {
+        "eng": "This bond rates highly.",
+        "ru": "Эта облигация ценится высоко.",
+        "learn": 0
+      },
+      {
+        "eng": "The bond is trading flat at $80.",
+        "ru": "Эта облигация продается с учетом невыплаченных процентов за 80 долл.",
+        "learn": 0
+      },
+      {
+        "eng": "She has invested most of her money in stocks and bonds.",
+        "ru": "Она вложила большую часть своих денег в акции и облигации.",
+        "learn": 1
+      },
+      {
+        "eng": "Tight money supply tends to curb both the economy and the bond market.",
+        "ru": "Жесткая денежная политика обычно сдерживает экономику и рынок облигаций от перегрева.",
+        "learn": 0
+      },
+      {
+        "eng": "Heat was used to bond the sheets of plastic together.",
+        "ru": "Листы пластика соединили вместе при помощи нагрева.",
+        "learn": 0
+      },
+      {
+        "eng": "His word is his bond (=he always does what he promises to do).",
+        "ru": "Его слово — закон (т.е. он всегда выполняет то, что обещает).",
+        "learn": 0
+      },
+      {
+        "eng": "He was suffered to redeem himself by giving a bond for forty thousand pounds.",
+        "ru": "Ему было позволено выйти на свободу при условии, что он внесет залог в сорок тысяч фунтов.",
+        "learn": 0
+      },
+      {
+        "eng": "The two women had forged a close bond.",
+        "ru": "К тому времени женщины уже наладили между собой тесную связь.",
+        "learn": 0
+      },
+      {
+        "eng": "Thanks to James Bond, martini is one badass drink.",
+        "ru": "Благодаря Джеймсу Бонду, пить мартини - это круто.",
+        "learn": 0
+      },
+      {
+        "eng": "The bond yields seven percent annually.",
+        "ru": "Ежегодно эта облигация приносит доход в размере семи процентов.",
+        "learn": 1
+      },
+      {
+        "eng": "The bond will reach maturity in 10 years.",
+        "ru": "Срок выплат по облигации наступит через десять лет.",
+        "learn": 0
+      },
+      {
+        "eng": "Recent events have helped to strengthen the bonds between our two countries.",
+        "ru": "Недавние события способствовали укреплению связей между нашими двумя странами.",
+        "learn": 0
+      },
+      {
+        "eng": "The issuer will pay the bond holder a premium if the bond is called away from him or her.",
+        "ru": "Эмитент выплатит держателю облигации премию, если облигация будет выкуплена у данного облигационера досрочно.",
+        "learn": 0
+      },
+      {
+        "eng": "Use a glue gun to form a strong bond on wood or china.",
+        "ru": "Для образования прочной связи с деревом или фарфором используйте клеевой пистолет.",
+        "learn": 0
+      },
+      {
+        "eng": "My father put all his money into stock market bonds.",
+        "ru": "Мой отец вложил все свои деньги в фондовый рынок облигаций.",
+        "learn": 0
+      },
+      {
+        "eng": "It takes less than 10 minutes for the two surfaces to bond.",
+        "ru": "Склеивание двух поверхностей занимает менее десяти минут.",
+        "learn": 0
+      },
+      {
+        "eng": "that special bond that has existed between mother and child from everlasting",
+        "ru": "особая связь, которая существует между матерью и ребёнком с незапамятных времён",
+        "learn": 0
+      },
+      {
+        "eng": "My roommate and I share a common bond because we both grew up in the Midwest.",
+        "ru": "У меня с соседом по комнате есть нечто общее, ведь мы оба выросли на Среднем Западе.",
+        "learn": 0
+      },
+      {
+        "eng": "The bond matures in 10 years.",
+        "ru": "Облигация погашается через 10 лет.",
+        "learn": 0
+      },
+      {
+        "eng": "a peculiar bond of sympathy between them",
+        "ru": "особые узы взаимопонимания между ними",
+        "learn": 0
+      },
+      {
+        "eng": "Association of International Bond Dealers",
+        "ru": "Ассоциация дилеров по международным облигациям (в Цюрихе)",
+        "learn": 0
+      },
+      {
+        "eng": "Stock and bond markets have gyrated in recent weeks.",
+        "ru": "В последние недели рынки акций и облигаций испытывали сильные колебания.",
+        "learn": 0
+      },
+      {
+        "eng": "the fictive world of James Bond",
+        "ru": "вымышленный мир Джеймса Бонда",
+        "learn": 0
+      },
+      {
+        "eng": "The bond is subject to taxation.",
+        "ru": "Данные облигации подлежат налогообложению.",
+        "learn": 0
+      },
+      {
+        "eng": "Edward Bond's play about class war",
+        "ru": "пьеса Эдварда Бонда о классовой войне",
+        "learn": 0
+      },
+      {
+        "eng": "They discussed plans for a new bond issue.",
+        "ru": "Они обсудили планы на новый выпуск облигаций.",
+        "learn": 0
+      }
+    ]
+  }
 }

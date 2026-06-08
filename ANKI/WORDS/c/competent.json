@@ -1,64 +1,114 @@
 {
-    "competent": {
-        "comment": [
-            "compete",
-            "competition",
-            "competitive",
-            "competing",
-            "competitor",
-            "compensation",
-            "competence",
-            "compel",
-            "compensate"
-        ],
-        "translate": "компетентный, правомочный, авторитетный, знающий, полноправный, достаточный",
-        "transcription": " |ˈkɑːmpɪtənt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The court is not competent to deal with this case.",
-            "This piano wants the attention of a competent tuner.",
-            "She is a competent secretary [manager].",
-            "I don't feel competent to give an opinion at the moment.",
-            "We believe the patient was not mentally competent.",
-            "He is the only party leader competent enough to govern this country.",
-            "Competent scientific men would be taken on board and left with the wintering party.",
-            "Any competent science reporter knows anecdotes are not data and that one dramatic story proves nothing.",
-            "She's a highly competent linguist.",
-            "The testimony of the two veracious and competent witnesses.",
-            "I need competent people for this job, and all they send me are prats.",
-            "A psychiatrist said McKibben was competent to stand trial.",
-            "This court is not competent to hear your case.",
-            "He's a competent writer, but he lacks imagination.",
-            "The defendant was declared competent to stand trial.",
-            "The defence argued that a regional court was not competent to try their case.",
-            "It was clear that the party was scraping the barrel for competent politicians.",
-            "Few competent local lawyers are willing to take on capital defendants for $20 an hour."
-        ],
-        "example_translate": [
-            "Суд не вправе рассматривать это дело.",
-            "Этот рояль нужно показать грамотному настройщику.",
-            "Она компетентный секретарь [менеджер].",
-            "В данный момент я не чувствую себя достаточно компетентным, чтобы высказывать какое-то мнение.",
-            "Мы считаем, что пациент не был психически вменяемым.",
-            "Он — единственный лидер партии, который достаточно компетентен для того, чтобы управлять этой страной.",
-            "Вместе с полярниками на зимовку отправятся ученые специалисты.",
-            "Любой грамотный научный журналист знает, что анекдоты не являются фактами, и что одна эффектная история ничего не доказывает.",
-            "Она является очень знающим лингвистом.",
-            "Показания двух правдивых и компетентных свидетелей.",
-            "Мне для этой работы нужны знающие люди, а присылают исключительно идиотов.",
-            "По словам психиатра, МакКиббен был достаточно вменяем, чтобы предстать перед судом.",
-            "Этот суд не компетентен рассматривать ваше дело.",
-            "Он грамотный писатель, но ему не хватает воображения.",
-            "Было объявлено, что обвиняемый достаточно вменяем, чтобы предстать перед судом.",
-            "Представители защиты утверждали, что расследование этого дела не в компетенции областного суда.",
-            "Было ясно, что в партии практически не осталось грамотных политиков.",
-            "Мало кто из компетентных местных юристов готов взять на себя защиту подсудимых по особо тяжким преступлениям всего за двадцать долларов в час."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "competent": {
+    "comment": [
+      "compete",
+      "competition",
+      "competitive",
+      "competing",
+      "competitor",
+      "compensation",
+      "competence",
+      "compel",
+      "compensate"
+    ],
+    "translate": "компетентный, правомочный, авторитетный, знающий, полноправный, достаточный",
+    "transcription": " |ˈkɑːmpɪtənt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The court is not competent to deal with this case.",
+        "ru": "Суд не вправе рассматривать это дело.",
+        "learn": 0
+      },
+      {
+        "eng": "This piano wants the attention of a competent tuner.",
+        "ru": "Этот рояль нужно показать грамотному настройщику.",
+        "learn": 0
+      },
+      {
+        "eng": "She is a competent secretary [manager].",
+        "ru": "Она компетентный секретарь [менеджер].",
+        "learn": 0
+      },
+      {
+        "eng": "I don't feel competent to give an opinion at the moment.",
+        "ru": "В данный момент я не чувствую себя достаточно компетентным, чтобы высказывать какое-то мнение.",
+        "learn": 0
+      },
+      {
+        "eng": "We believe the patient was not mentally competent.",
+        "ru": "Мы считаем, что пациент не был психически вменяемым.",
+        "learn": 0
+      },
+      {
+        "eng": "He is the only party leader competent enough to govern this country.",
+        "ru": "Он — единственный лидер партии, который достаточно компетентен для того, чтобы управлять этой страной.",
+        "learn": 1
+      },
+      {
+        "eng": "Competent scientific men would be taken on board and left with the wintering party.",
+        "ru": "Вместе с полярниками на зимовку отправятся ученые специалисты.",
+        "learn": 0
+      },
+      {
+        "eng": "Any competent science reporter knows anecdotes are not data and that one dramatic story proves nothing.",
+        "ru": "Любой грамотный научный журналист знает, что анекдоты не являются фактами, и что одна эффектная история ничего не доказывает.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a highly competent linguist.",
+        "ru": "Она является очень знающим лингвистом.",
+        "learn": 1
+      },
+      {
+        "eng": "The testimony of the two veracious and competent witnesses.",
+        "ru": "Показания двух правдивых и компетентных свидетелей.",
+        "learn": 0
+      },
+      {
+        "eng": "I need competent people for this job, and all they send me are prats.",
+        "ru": "Мне для этой работы нужны знающие люди, а присылают исключительно идиотов.",
+        "learn": 0
+      },
+      {
+        "eng": "A psychiatrist said McKibben was competent to stand trial.",
+        "ru": "По словам психиатра, МакКиббен был достаточно вменяем, чтобы предстать перед судом.",
+        "learn": 0
+      },
+      {
+        "eng": "This court is not competent to hear your case.",
+        "ru": "Этот суд не компетентен рассматривать ваше дело.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a competent writer, but he lacks imagination.",
+        "ru": "Он грамотный писатель, но ему не хватает воображения.",
+        "learn": 1
+      },
+      {
+        "eng": "The defendant was declared competent to stand trial.",
+        "ru": "Было объявлено, что обвиняемый достаточно вменяем, чтобы предстать перед судом.",
+        "learn": 0
+      },
+      {
+        "eng": "The defence argued that a regional court was not competent to try their case.",
+        "ru": "Представители защиты утверждали, что расследование этого дела не в компетенции областного суда.",
+        "learn": 1
+      },
+      {
+        "eng": "It was clear that the party was scraping the barrel for competent politicians.",
+        "ru": "Было ясно, что в партии практически не осталось грамотных политиков.",
+        "learn": 0
+      },
+      {
+        "eng": "Few competent local lawyers are willing to take on capital defendants for $20 an hour.",
+        "ru": "Мало кто из компетентных местных юристов готов взять на себя защиту подсудимых по особо тяжким преступлениям всего за двадцать долларов в час.",
+        "learn": 0
+      }
+    ]
+  }
 }

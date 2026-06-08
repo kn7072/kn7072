@@ -1,99 +1,186 @@
 {
-    "ball": {
-        "comment": [
-            "baseball",
-            "basketball",
-            "football",
-            "recall",
-            "hall",
-            "tall",
-            "fall",
-            "all",
-            "small",
-            "call",
-            "wall",
-            "overall",
-            "install",
-            "shall",
-            "stall",
-            "mall",
-            "waterfall"
-        ],
-        "translate": "мяч, шар, бал, шарик, удар, шаровой, свивать, свиваться",
-        "transcription": " |bɔːl|",
-        "antonyms": [],
-        "mnemonic": [
-            "ball [бол] мяч - (Фут-бол. волей-бол, ганд-бол) везде мяч."
-        ],
-        "examples": [
-            "This ball is his.",
-            "Hit the ball hard.",
-            "She rolled the ball",
-            "The ball fell short.",
-            "He dunked the ball.",
-            "She killed the ball.",
-            "He killed the ball.",
-            "She put spin on the ball.",
-            "Dad likes college ball.",
-            "The rubber ball bounced.",
-            "He hit the ball squarely.",
-            "Shape the dough into balls.",
-            "The ball hit the bar.",
-            "He hit the ball hard.",
-            "He hit the ball flush.",
-            "He threw the ball long.",
-            "The ball hit the house.",
-            "He threw the ball short.",
-            "the dimples on a golf ball",
-            "She kicked the ball to me.",
-            "She gave the ball a whack.",
-            "The ball was still in play.",
-            "He threw the ball underarm.",
-            "The ball rolled into touch.",
-            "He smote the ball mightily.",
-            "The ball landed with a thud.",
-            "He punted the ball 40 yards.",
-            "The ball smashed the window.",
-            "The player dropped the ball.",
-            "The catcher bobbled the ball."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Это его мяч.",
-            "Сильно ударь по мячу.",
-            "Она выкатила мяч",
-            "Мяч недолетел.",
-            "Он забил мяч в кольцо сверху (о баскетболе).",
-            "Она пробила мячом навылет. / Она загасила мяч. (о теннисе или волейболе)",
-            "Он пробил мячом навылет. / Он загасил мяч. (о теннисе или волейболе)",
-            "Она придала мячу вращение. / Она закрутила мяч.",
-            "Папа любит университетский спорт (бейсбол, футбол или баскетбол).",
-            "Резиновый мяч отскочил.",
-            "Он точно попал по мячу.",
-            "Сделайте из теста шарики.",
-            "Мяч попал /ударился/ в перекладину ворот.",
-            "Он нанёс сильный удар по мячу.",
-            "Он сильно и точно ударил по мячу.",
-            "Он бросил мяч далеко.",
-            "Мяч угодил в дом.",
-            "Он недобросил мяч.",
-            "углубления / ямочки на мяче для гольфа",
-            "Она пнула мяч мне.",
-            "Она сильно ударила по мячу.",
-            "Мяч был все ещё в игре.",
-            "Он бросил мяч движением руки снизу.",
-            "Мяч выкатился в аут /за пределы поля/.",
-            "Он сильно ударил по мячу.",
-            "Мяч приземлился с глухим стуком.",
-            "Он выбил мяч ногой на 40 ярдов. / Он выполнил пант (вид розыгрыша в американском футболе) на 40 ярдов.",
-            "Мяч разбил окно.",
-            "Игрок уронил мяч.",
-            "Кэтчер выронил мяч (о бейсболе)."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "al_+_Сг_=_[ɔːl]"
-        ]
-    }
+  "ball": {
+    "comment": [
+      "baseball",
+      "basketball",
+      "football",
+      "recall",
+      "hall",
+      "tall",
+      "fall",
+      "all",
+      "small",
+      "call",
+      "wall",
+      "overall",
+      "install",
+      "shall",
+      "stall",
+      "mall",
+      "waterfall"
+    ],
+    "translate": "мяч, шар, бал, шарик, удар, шаровой, свивать, свиваться",
+    "transcription": " |bɔːl|",
+    "antonyms": [],
+    "mnemonic": [
+      "ball [бол] мяч - (Фут-бол. волей-бол, ганд-бол) везде мяч."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "al_+_Сг_=_[ɔːl]"
+    ],
+    "examples": [
+      {
+        "eng": "This ball is his.",
+        "ru": "Это его мяч.",
+        "learn": 1
+      },
+      {
+        "eng": "Hit the ball hard.",
+        "ru": "Сильно ударь по мячу.",
+        "learn": 0
+      },
+      {
+        "eng": "She rolled the ball",
+        "ru": "Она выкатила мяч",
+        "learn": 0
+      },
+      {
+        "eng": "The ball fell short.",
+        "ru": "Мяч недолетел.",
+        "learn": 0
+      },
+      {
+        "eng": "He dunked the ball.",
+        "ru": "Он забил мяч в кольцо сверху (о баскетболе).",
+        "learn": 0
+      },
+      {
+        "eng": "She killed the ball.",
+        "ru": "Она пробила мячом навылет. / Она загасила мяч. (о теннисе или волейболе)",
+        "learn": 0
+      },
+      {
+        "eng": "He killed the ball.",
+        "ru": "Он пробил мячом навылет. / Он загасил мяч. (о теннисе или волейболе)",
+        "learn": 0
+      },
+      {
+        "eng": "She put spin on the ball.",
+        "ru": "Она придала мячу вращение. / Она закрутила мяч.",
+        "learn": 0
+      },
+      {
+        "eng": "Dad likes college ball.",
+        "ru": "Папа любит университетский спорт (бейсбол, футбол или баскетбол).",
+        "learn": 0
+      },
+      {
+        "eng": "The rubber ball bounced.",
+        "ru": "Резиновый мяч отскочил.",
+        "learn": 1
+      },
+      {
+        "eng": "He hit the ball squarely.",
+        "ru": "Он точно попал по мячу.",
+        "learn": 0
+      },
+      {
+        "eng": "Shape the dough into balls.",
+        "ru": "Сделайте из теста шарики.",
+        "learn": 0
+      },
+      {
+        "eng": "The ball hit the bar.",
+        "ru": "Мяч попал /ударился/ в перекладину ворот.",
+        "learn": 0
+      },
+      {
+        "eng": "He hit the ball hard.",
+        "ru": "Он нанёс сильный удар по мячу.",
+        "learn": 0
+      },
+      {
+        "eng": "He hit the ball flush.",
+        "ru": "Он сильно и точно ударил по мячу.",
+        "learn": 0
+      },
+      {
+        "eng": "He threw the ball long.",
+        "ru": "Он бросил мяч далеко.",
+        "learn": 0
+      },
+      {
+        "eng": "The ball hit the house.",
+        "ru": "Мяч угодил в дом.",
+        "learn": 0
+      },
+      {
+        "eng": "He threw the ball short.",
+        "ru": "Он недобросил мяч.",
+        "learn": 0
+      },
+      {
+        "eng": "the dimples on a golf ball",
+        "ru": "углубления / ямочки на мяче для гольфа",
+        "learn": 0
+      },
+      {
+        "eng": "She kicked the ball to me.",
+        "ru": "Она пнула мяч мне.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave the ball a whack.",
+        "ru": "Она сильно ударила по мячу.",
+        "learn": 0
+      },
+      {
+        "eng": "The ball was still in play.",
+        "ru": "Мяч был все ещё в игре.",
+        "learn": 0
+      },
+      {
+        "eng": "He threw the ball underarm.",
+        "ru": "Он бросил мяч движением руки снизу.",
+        "learn": 0
+      },
+      {
+        "eng": "The ball rolled into touch.",
+        "ru": "Мяч выкатился в аут /за пределы поля/.",
+        "learn": 0
+      },
+      {
+        "eng": "He smote the ball mightily.",
+        "ru": "Он сильно ударил по мячу.",
+        "learn": 0
+      },
+      {
+        "eng": "The ball landed with a thud.",
+        "ru": "Мяч приземлился с глухим стуком.",
+        "learn": 0
+      },
+      {
+        "eng": "He punted the ball 40 yards.",
+        "ru": "Он выбил мяч ногой на 40 ярдов. / Он выполнил пант (вид розыгрыша в американском футболе) на 40 ярдов.",
+        "learn": 0
+      },
+      {
+        "eng": "The ball smashed the window.",
+        "ru": "Мяч разбил окно.",
+        "learn": 0
+      },
+      {
+        "eng": "The player dropped the ball.",
+        "ru": "Игрок уронил мяч.",
+        "learn": 0
+      },
+      {
+        "eng": "The catcher bobbled the ball.",
+        "ru": "Кэтчер выронил мяч (о бейсболе).",
+        "learn": 0
+      }
+    ]
+  }
 }

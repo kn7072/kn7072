@@ -1,91 +1,177 @@
 {
-    "coal": {
-        "comment": [
-            "goal",
-            "coalition",
-            "goalkeeper",
-            "coach",
-            "coast",
-            "coat",
-            "coastal",
-            "cocoa",
-            "coarse"
-        ],
-        "translate": "уголь, каменный уголь, каменноугольный, грузить углем",
-        "transcription": " |koʊl|",
-        "antonyms": [],
-        "mnemonic": [
-            "coal [ко'ул] уголь - Останки древних (а-коул*) в углях нашли (*Акул).",
-            "coal [kəul]\n***\nГРУЗИМ УГОЛЬ мы для школ. (это) coal\nУголь.\n***\nПоставлена задача \"coal\" -\nразгрузить уголь \"goal\"."
-        ],
-        "examples": [
-            "Coal advanced.",
-            "Put some coal on the fire.",
-            "Coal is a form of carbon.",
-            "Coal is shipped by rail.",
-            "The big ship coaled.",
-            "The coal train ran off the rails.",
-            "National Coal Board",
-            "The coal industry is running down.",
-            "We have now finished coaling at the site.",
-            "Coal is a hard black material.",
-            "Siberian coal miners",
-            "he worked in the coal beds",
-            "They use 10 tons of coal a month.",
-            "In this harbour a vessel can coal.",
-            "The decision is a hammer blow for the coal industry.",
-            "Measures need to be taken to mitigate the environmental effects of burning more coal.",
-            "The increase in gas-fired power stations means traditional coal ones are becoming surplus to requirements.",
-            "the annual production of coal",
-            "a coal ration of 4 kg a month",
-            "European Coal and Steel Community",
-            "The ship's bunkers were full of coal.",
-            "We combust coal and other fossil fuels",
-            "toiling coal miners in the black deeps",
-            "These are troubled times for the coal industry.",
-            "Coal forms by a slow process of chemical change.",
-            "The power station burns coal from the Ruhr region.",
-            "The coal industry was plagued by industrial disputes.",
-            "Coal has been displaced by natural gas as a major source of energy.",
-            "Coal is one of the cheapest fuels.",
-            "The miners were soon smothered in coal dust."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Цена на уголь повысилась.",
-            "Подбрось в камин угля.",
-            "Уголь — это форма углерода.",
-            "Уголь перевозят по железной дороге.",
-            "Большой корабль загрузился углём.",
-            "Поезд с углём сошёл с рельсов.",
-            "Национальное управление угольной промышленности (в Англии)",
-            "Угольная промышленность находится на спаде.",
-            "Мы уже закончили добычу угля в этом месторождении.",
-            "Уголь — это твёрдое чёрное вещество.",
-            "сибирские шахтёры",
-            "он работал на угольных пластах / на залежах угля",
-            "Они расходуют десять тонн угля в месяц.",
-            "В этом порту корабль может заправиться углем.",
-            "Это решение является сокрушительным ударом по угольной промышленности. (брит.)",
-            "Необходимо принять меры по смягчению экологических последствий сжигания большего количества угля.",
-            "Увеличение количества газовых электростанций означает, что традиционные угольные становятся излишними.",
-            "годовая добыча угля",
-            "угольный \"паёк\" размером четыре килограмма в месяц",
-            "Европейское объединение угля и стали",
-            "Угольные ямы судна были заполнены.",
-            "Мы сжигаем уголь и другие виды ископаемого топлива.",
-            "шахтёры, трудящиеся в чёрных глубинах недр",
-            "Сейчас непростое время для угольной промышленности.",
-            "Уголь формируется в процессе медленного изменения химического состава.",
-            "Данная электростанция использует в качестве топлива уголь из Рурского района.",
-            "Угольная промышленность была измучена трудовыми спорами.",
-            "Природный газ уже заместил уголь в качестве основного источника энергии.",
-            "Уголь является одним из самых дешёвых видов топлива.",
-            "Шахтёры были густо покрыты угольной пылью."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "coal": {
+    "comment": [
+      "goal",
+      "coalition",
+      "goalkeeper",
+      "coach",
+      "coast",
+      "coat",
+      "coastal",
+      "cocoa",
+      "coarse"
+    ],
+    "translate": "уголь, каменный уголь, каменноугольный, грузить углем",
+    "transcription": " |koʊl|",
+    "antonyms": [],
+    "mnemonic": [
+      "coal [ко'ул] уголь - Останки древних (а-коул*) в углях нашли (*Акул).",
+      "coal [kəul]\n***\nГРУЗИМ УГОЛЬ мы для школ. (это) coal\nУголь.\n***\nПоставлена задача \"coal\" -\nразгрузить уголь \"goal\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Coal advanced.",
+        "ru": "Цена на уголь повысилась.",
+        "learn": 0
+      },
+      {
+        "eng": "Put some coal on the fire.",
+        "ru": "Подбрось в камин угля.",
+        "learn": 0
+      },
+      {
+        "eng": "Coal is a form of carbon.",
+        "ru": "Уголь — это форма углерода.",
+        "learn": 1
+      },
+      {
+        "eng": "Coal is shipped by rail.",
+        "ru": "Уголь перевозят по железной дороге.",
+        "learn": 0
+      },
+      {
+        "eng": "The big ship coaled.",
+        "ru": "Большой корабль загрузился углём.",
+        "learn": 0
+      },
+      {
+        "eng": "The coal train ran off the rails.",
+        "ru": "Поезд с углём сошёл с рельсов.",
+        "learn": 0
+      },
+      {
+        "eng": "National Coal Board",
+        "ru": "Национальное управление угольной промышленности (в Англии)",
+        "learn": 0
+      },
+      {
+        "eng": "The coal industry is running down.",
+        "ru": "Угольная промышленность находится на спаде.",
+        "learn": 1
+      },
+      {
+        "eng": "We have now finished coaling at the site.",
+        "ru": "Мы уже закончили добычу угля в этом месторождении.",
+        "learn": 0
+      },
+      {
+        "eng": "Coal is a hard black material.",
+        "ru": "Уголь — это твёрдое чёрное вещество.",
+        "learn": 0
+      },
+      {
+        "eng": "Siberian coal miners",
+        "ru": "сибирские шахтёры",
+        "learn": 0
+      },
+      {
+        "eng": "he worked in the coal beds",
+        "ru": "он работал на угольных пластах / на залежах угля",
+        "learn": 0
+      },
+      {
+        "eng": "They use 10 tons of coal a month.",
+        "ru": "Они расходуют десять тонн угля в месяц.",
+        "learn": 0
+      },
+      {
+        "eng": "In this harbour a vessel can coal.",
+        "ru": "В этом порту корабль может заправиться углем.",
+        "learn": 0
+      },
+      {
+        "eng": "The decision is a hammer blow for the coal industry.",
+        "ru": "Это решение является сокрушительным ударом по угольной промышленности. (брит.)",
+        "learn": 0
+      },
+      {
+        "eng": "Measures need to be taken to mitigate the environmental effects of burning more coal.",
+        "ru": "Необходимо принять меры по смягчению экологических последствий сжигания большего количества угля.",
+        "learn": 0
+      },
+      {
+        "eng": "The increase in gas-fired power stations means traditional coal ones are becoming surplus to requirements.",
+        "ru": "Увеличение количества газовых электростанций означает, что традиционные угольные становятся излишними.",
+        "learn": 0
+      },
+      {
+        "eng": "the annual production of coal",
+        "ru": "годовая добыча угля",
+        "learn": 0
+      },
+      {
+        "eng": "a coal ration of 4 kg a month",
+        "ru": "угольный \"паёк\" размером четыре килограмма в месяц",
+        "learn": 0
+      },
+      {
+        "eng": "European Coal and Steel Community",
+        "ru": "Европейское объединение угля и стали",
+        "learn": 0
+      },
+      {
+        "eng": "The ship's bunkers were full of coal.",
+        "ru": "Угольные ямы судна были заполнены.",
+        "learn": 0
+      },
+      {
+        "eng": "We combust coal and other fossil fuels",
+        "ru": "Мы сжигаем уголь и другие виды ископаемого топлива.",
+        "learn": 0
+      },
+      {
+        "eng": "toiling coal miners in the black deeps",
+        "ru": "шахтёры, трудящиеся в чёрных глубинах недр",
+        "learn": 0
+      },
+      {
+        "eng": "These are troubled times for the coal industry.",
+        "ru": "Сейчас непростое время для угольной промышленности.",
+        "learn": 0
+      },
+      {
+        "eng": "Coal forms by a slow process of chemical change.",
+        "ru": "Уголь формируется в процессе медленного изменения химического состава.",
+        "learn": 0
+      },
+      {
+        "eng": "The power station burns coal from the Ruhr region.",
+        "ru": "Данная электростанция использует в качестве топлива уголь из Рурского района.",
+        "learn": 0
+      },
+      {
+        "eng": "The coal industry was plagued by industrial disputes.",
+        "ru": "Угольная промышленность была измучена трудовыми спорами.",
+        "learn": 0
+      },
+      {
+        "eng": "Coal has been displaced by natural gas as a major source of energy.",
+        "ru": "Природный газ уже заместил уголь в качестве основного источника энергии.",
+        "learn": 0
+      },
+      {
+        "eng": "Coal is one of the cheapest fuels.",
+        "ru": "Уголь является одним из самых дешёвых видов топлива.",
+        "learn": 0
+      },
+      {
+        "eng": "The miners were soon smothered in coal dust.",
+        "ru": "Шахтёры были густо покрыты угольной пылью.",
+        "learn": 0
+      }
+    ]
+  }
 }

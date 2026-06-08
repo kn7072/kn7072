@@ -1,39 +1,219 @@
 {
-    "break into": {
-        "comment": [],
-        "translate": "1) Вламываться (в здание, помещение) 2) Внезапно начинать (смех, пение, бег) ",
-        "transcription": "||",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The crowd broke into applause.",
-            "Don't leave valuables where someone can break in.",
-            "The safe was broken into.",
-            "He broke into a run when he saw the dog.",
-            "She broke into a smile.",
-            "Thieves broke into the house last night.",
-            "They broke into the office after hours.",
-            "They broke into song at the party.",
-            "She broke into laughter.",
-            "Someone broke into my car."
-        ],
-        "example_translate": [
-            "Толпа внезапно начала аплодировать.",
-            "Не оставляй ценности там, где кто-то может вломиться.",
-            "В сейф вломились.",
-            "Он внезапно побежал, когда увидел собаку.",
-            "Она внезапно улыбнулась.",
-            "Воры вломились в дом прошлой ночью.",
-            "Они вломились в офис после рабочего времени.",
-            "Они внезапно запели на вечеринке.",
-            "Она внезапно рассмеялась.",
-            "Кто-то вломился в мою машину."
-        ],
-        "synonyms": "Вламываться (в здание, помещение) - burglarize, force entry\nВнезапно начинать (смех, пение, бег) - burst into, start suddenly\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "break into": {
+    "comment": [],
+    "translate": "1) Вламываться (в здание, помещение) 2) Внезапно начинать (смех, пение, бег) ",
+    "transcription": "",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Вламываться (в здание, помещение) - burglarize, force entry",
+      "Внезапно начинать (смех, пение, бег) - burst into, start suddenly"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "The crowd broke into applause.",
+        "ru": "Толпа внезапно начала аплодировать.",
+        "learn": 1
+      },
+      {
+        "eng": "Don't leave valuables where someone can break in.",
+        "ru": "Не оставляй ценности там, где кто-то может вломиться.",
+        "learn": 1
+      },
+      {
+        "eng": "The safe was broken into.",
+        "ru": "В сейф вломились.",
+        "learn": 1
+      },
+      {
+        "eng": "He broke into a run when he saw the dog.",
+        "ru": "Он внезапно побежал, когда увидел собаку.",
+        "learn": 1
+      },
+      {
+        "eng": "She broke into a smile.",
+        "ru": "Она внезапно улыбнулась.",
+        "learn": 1
+      },
+      {
+        "eng": "Thieves broke into the house last night.",
+        "ru": "Воры вломились в дом прошлой ночью.",
+        "learn": 1
+      },
+      {
+        "eng": "They broke into the office after hours.",
+        "ru": "Они вломились в офис после рабочего времени.",
+        "learn": 1
+      },
+      {
+        "eng": "They broke into song at the party.",
+        "ru": "Они внезапно запели на вечеринке.",
+        "learn": 1
+      },
+      {
+        "eng": "She broke into laughter.",
+        "ru": "Она внезапно рассмеялась.",
+        "learn": 1
+      },
+      {
+        "eng": "Someone broke into my car.",
+        "ru": "Кто-то вломился в мою машину.",
+        "learn": 1
+      },
+      {
+        "eng": "She made an attempt to break into journalism.",
+        "ru": "Она сделала попытку заняться журналистикой. (здесь break into = заняться чем-то новым, букв. \"прорваться куда-то\")",
+        "learn": 0
+      },
+      {
+        "eng": "It's a profession that is very hard to break into.",
+        "ru": "Это профессия, в которой очень трудно пробиться. (трудно стать заметной фигурой в данной профессии)",
+        "learn": 0
+      },
+      {
+        "eng": "In those days, actors would kill to break into film.",
+        "ru": "В те дни, актеры готовы были убить, чтобы пробиться в кино. (чтобы получить роль в кино)",
+        "learn": 0
+      },
+      {
+        "eng": "I don't want to break into my savings unless I have to.",
+        "ru": "Я не хочу тратить свои сбережения, пока не буду вынужден. (аналог: не хочу разбивать свою копилку)",
+        "learn": 0
+      },
+      {
+        "eng": "I shall have to break into my savings to pay for the holiday.",
+        "ru": "Мне придётся залезть в мои сбережения, чтобы оплатить отпуск.",
+        "learn": 0
+      },
+      {
+        "eng": "Many British firms have failed in their attempts to break into the American market.",
+        "ru": "Многие британские фирмы потерпели неудачу в своих попытках прорваться на американский рынок.",
+        "learn": 0
+      },
+      {
+        "eng": "Mary broke into laughter.",
+        "ru": "Мэри расхохоталась.",
+        "learn": 0
+      },
+      {
+        "eng": "The men broke into a run.",
+        "ru": "Мужчины бросились бежать.",
+        "learn": 0
+      },
+      {
+        "eng": "Her face broke into a smile.",
+        "ru": "Её лицо расплылось в улыбке.",
+        "learn": 0
+      },
+      {
+        "eng": "The audience broke into applause.",
+        "ru": "Аудитория взорвалась аплодисментами.",
+        "learn": 0
+      },
+      {
+        "eng": "The plane broke into three pieces.",
+        "ru": "Самолёт разломился на три части.",
+        "learn": 0
+      },
+      {
+        "eng": "Her house was broken into last week.",
+        "ru": "На прошлой неделе к ней в дом кто-то вломился.",
+        "learn": 0
+      },
+      {
+        "eng": "The flute broke into a light lilting air.",
+        "ru": "Флейта завела лёгкую весёлую мелодию.",
+        "learn": 0
+      },
+      {
+        "eng": "This box looks as if it's been broken into.",
+        "ru": "Кажется, эту коробку вскрывали.",
+        "learn": 0
+      },
+      {
+        "eng": "The search party broke up into smaller units.",
+        "ru": "Поисковая партия разбилась на более мелкие группы.",
+        "learn": 0
+      },
+      {
+        "eng": "Someone broke into my car and stole the radio.",
+        "ru": "Кто-то вломился в мою машину и украл радиоприёмник.",
+        "learn": 0
+      },
+      {
+        "eng": "Boys broke into a shop and stole £45 in cash.",
+        "ru": "Парни вломились в магазин и украли сорок пять фунтов наличными.",
+        "learn": 0
+      },
+      {
+        "eng": "The question can be broken down into two parts.",
+        "ru": "Данный вопрос можно разбить на две части.",
+        "learn": 0
+      },
+      {
+        "eng": "The discussion was broken up into subject areas.",
+        "ru": "Дискуссия была разбита на предметные области.",
+        "learn": 0
+      },
+      {
+        "eng": "As I grew more afraid, I broke into a cold sweat.",
+        "ru": "Мне стало ещё страшнее, я покрылся холодным потом.",
+        "learn": 0
+      },
+      {
+        "eng": "As he ran toward me, his face broke into a wide grin.",
+        "ru": "Когда он подбежал ко мне, лицо его расплылось в широкой ухмылке.",
+        "learn": 0
+      },
+      {
+        "eng": "He was still following me, and in a panic I broke into a run.",
+        "ru": "Он по-прежнему шёл за мной следом, и я в панике перешла на бег.",
+        "learn": 0
+      },
+      {
+        "eng": "The city is broken into two parts which will never knit again.",
+        "ru": "Город разделился на две части, которые уже никогда не смогут воссоединиться.",
+        "learn": 1
+      },
+      {
+        "eng": "If he lay on his right side, he broke into a paroxysm of coughing.",
+        "ru": "Если он лежал на правом боку, то у него начинался приступ кашля.",
+        "learn": 0
+      },
+      {
+        "eng": "Armed robbers broke into the shop and demanded money from the till.",
+        "ru": "В магазин ворвались вооруженные грабители и потребовали отдать им деньги из кассы.",
+        "learn": 0
+      },
+      {
+        "eng": "Having your house broken into is terrible. I wouldn't wish it on anybody.",
+        "ru": "Когда в твой дом вламываются — это ужасно. Никому бы такого не пожелала.",
+        "learn": 0
+      },
+      {
+        "eng": "A group of vandals broke into the school and painted graffiti on the walls.",
+        "ru": "В школу ворвалась группа хулиганов и разрисовала её стены граффити.",
+        "learn": 0
+      },
+      {
+        "eng": "She broke into a trot (=started running slowly) and hurried on ahead of us.",
+        "ru": "Она перешла на рысь (т.е. начала медленно бежать) и опередила нас.",
+        "learn": 0
+      },
+      {
+        "eng": "The shower head just came to pieces (=broke into separate parts) in my hand.",
+        "ru": "Насадка для душа у меня в руках просто развалилась на куски (т.е. распалась на отдельные части).",
+        "learn": 0
+      },
+      {
+        "eng": "The job can be broken up into several activities, which provides some variety.",
+        "ru": "Работу можно разделить на разные виды деятельности, что внесет в неё некоторое разнообразие.",
+        "learn": 0
+      }
+    ]
+  }
 }

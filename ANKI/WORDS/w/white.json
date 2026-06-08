@@ -1,92 +1,179 @@
 {
-    "white": {
-        "comment": [
-            "while",
-            "which",
-            "whip",
-            "whisper",
-            "whistle",
-            "whirl",
-            "whichever",
-            "white-collar",
-            "whiskey",
-            "whilst"
-        ],
-        "translate": "белый, седой, бледный, серебристый, чистый, белый, белила, белизна, белый цвет, белок",
-        "transcription": " |waɪt|",
-        "antonyms": [],
-        "mnemonic": [
-            "white [(ув)а'йт] белый - (Да- вайт-е) только белые краски."
-        ],
-        "examples": [
-            "He had a long, white beard.",
-            "He came out dressed in white.",
-            "I prefer red wine to white.",
-            "The white horse is a planter.",
-            "White carpet showed every mark.",
-            "The columns were of white marble.",
-            "His beard was white with eld.",
-            "He was wearing white sneakers.",
-            "White Rose",
-            "an old black and white TV",
-            "bones bleached white by the sun",
-            "The movie was in black and white.",
-            "The white dress accentuated her tan.",
-            "The bathroom is done out in white marble.",
-            "the whites of his eyes",
-            "the white hairs of old age",
-            "The male has a white breast.",
-            "Her teeth were pearly white.",
-            "Her face was white with fear.",
-            "It is put in black and white!",
-            "a red and white spotted blouse",
-            "a white-hot center of the fire",
-            "the beach's powdery white sand",
-            "his white hair and craggy face",
-            "a blue and white striped shirt",
-            "Her lips were white with fear.",
-            "Snow White and the seven dwarfs",
-            "Snow White and the Seven Dwarfs",
-            "He had lovely white, even teeth.",
-            "a ghostly figure in a white dress"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "У него была длинная белая борода.",
-            "Он вышел, одетый во всё белое.",
-            "Я предпочитаю красное вино белому.",
-            "Белая лошадь — с норовом.",
-            "На белом ковре было заметно каждое пятно.",
-            "Колонны были из белого мрамора.",
-            "С возрастом его борода поседела.",
-            "Он был в белых кроссовках.",
-            "Белая роза (эмблема династии Йорков)",
-            "старый чёрно-белый телевизор",
-            "кости, выбеленные солнцем",
-            "Фильм был чёрно-белый.",
-            "Белое платье подчёркивало её загар.",
-            "Стены и пол в ванной покрыты белым мрамором.",
-            "белки его глаз",
-            "старческие седины",
-            "У самцов грудка белая.",
-            "Её зубы были жемчужно-белыми.",
-            "Лицо её побелело от страха.",
-            "Да ведь это же написано чёрным по белому!",
-            "красно-белая в горошек блузка",
-            "раскалённый добела центр пламени",
-            "мелкий белый песок на этом пляже",
-            "его белые волосы и резкие черты лица",
-            "сине-белая рубашка в полоску",
-            "Её губы побелели от страха.",
-            "Белоснежка и семь гномов",
-            "Белоснежка и Семь Гномов",
-            "У него были прекрасные белые ровные зубы.",
-            "призрачная фигура в белом платье"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "wh_+_(Гл._кр._o)_=_[h]"
-        ]
-    }
+  "white": {
+    "comment": [
+      "while",
+      "which",
+      "whip",
+      "whisper",
+      "whistle",
+      "whirl",
+      "whichever",
+      "white-collar",
+      "whiskey",
+      "whilst"
+    ],
+    "translate": "белый, седой, бледный, серебристый, чистый, белый, белила, белизна, белый цвет, белок",
+    "transcription": " |waɪt|",
+    "antonyms": [],
+    "mnemonic": [
+      "white [(ув)а'йт] белый - (Да- вайт-е) только белые краски."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "wh_+_(Гл._кр._o)_=_[h]"
+    ],
+    "examples": [
+      {
+        "eng": "He had a long, white beard.",
+        "ru": "У него была длинная белая борода.",
+        "learn": 1
+      },
+      {
+        "eng": "He came out dressed in white.",
+        "ru": "Он вышел, одетый во всё белое.",
+        "learn": 0
+      },
+      {
+        "eng": "I prefer red wine to white.",
+        "ru": "Я предпочитаю красное вино белому.",
+        "learn": 1
+      },
+      {
+        "eng": "The white horse is a planter.",
+        "ru": "Белая лошадь — с норовом.",
+        "learn": 0
+      },
+      {
+        "eng": "White carpet showed every mark.",
+        "ru": "На белом ковре было заметно каждое пятно.",
+        "learn": 0
+      },
+      {
+        "eng": "The columns were of white marble.",
+        "ru": "Колонны были из белого мрамора.",
+        "learn": 0
+      },
+      {
+        "eng": "His beard was white with eld.",
+        "ru": "С возрастом его борода поседела.",
+        "learn": 0
+      },
+      {
+        "eng": "He was wearing white sneakers.",
+        "ru": "Он был в белых кроссовках.",
+        "learn": 0
+      },
+      {
+        "eng": "White Rose",
+        "ru": "Белая роза (эмблема династии Йорков)",
+        "learn": 0
+      },
+      {
+        "eng": "an old black and white TV",
+        "ru": "старый чёрно-белый телевизор",
+        "learn": 0
+      },
+      {
+        "eng": "bones bleached white by the sun",
+        "ru": "кости, выбеленные солнцем",
+        "learn": 0
+      },
+      {
+        "eng": "The movie was in black and white.",
+        "ru": "Фильм был чёрно-белый.",
+        "learn": 0
+      },
+      {
+        "eng": "The white dress accentuated her tan.",
+        "ru": "Белое платье подчёркивало её загар.",
+        "learn": 0
+      },
+      {
+        "eng": "The bathroom is done out in white marble.",
+        "ru": "Стены и пол в ванной покрыты белым мрамором.",
+        "learn": 0
+      },
+      {
+        "eng": "the whites of his eyes",
+        "ru": "белки его глаз",
+        "learn": 0
+      },
+      {
+        "eng": "the white hairs of old age",
+        "ru": "старческие седины",
+        "learn": 0
+      },
+      {
+        "eng": "The male has a white breast.",
+        "ru": "У самцов грудка белая.",
+        "learn": 0
+      },
+      {
+        "eng": "Her teeth were pearly white.",
+        "ru": "Её зубы были жемчужно-белыми.",
+        "learn": 0
+      },
+      {
+        "eng": "Her face was white with fear.",
+        "ru": "Лицо её побелело от страха.",
+        "learn": 0
+      },
+      {
+        "eng": "It is put in black and white!",
+        "ru": "Да ведь это же написано чёрным по белому!",
+        "learn": 0
+      },
+      {
+        "eng": "a red and white spotted blouse",
+        "ru": "красно-белая в горошек блузка",
+        "learn": 0
+      },
+      {
+        "eng": "a white-hot center of the fire",
+        "ru": "раскалённый добела центр пламени",
+        "learn": 0
+      },
+      {
+        "eng": "the beach's powdery white sand",
+        "ru": "мелкий белый песок на этом пляже",
+        "learn": 0
+      },
+      {
+        "eng": "his white hair and craggy face",
+        "ru": "его белые волосы и резкие черты лица",
+        "learn": 0
+      },
+      {
+        "eng": "a blue and white striped shirt",
+        "ru": "сине-белая рубашка в полоску",
+        "learn": 0
+      },
+      {
+        "eng": "Her lips were white with fear.",
+        "ru": "Её губы побелели от страха.",
+        "learn": 0
+      },
+      {
+        "eng": "Snow White and the seven dwarfs",
+        "ru": "Белоснежка и семь гномов",
+        "learn": 0
+      },
+      {
+        "eng": "Snow White and the Seven Dwarfs",
+        "ru": "Белоснежка и Семь Гномов",
+        "learn": 0
+      },
+      {
+        "eng": "He had lovely white, even teeth.",
+        "ru": "У него были прекрасные белые ровные зубы.",
+        "learn": 1
+      },
+      {
+        "eng": "a ghostly figure in a white dress",
+        "ru": "призрачная фигура в белом платье",
+        "learn": 0
+      }
+    ]
+  }
 }

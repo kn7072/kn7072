@@ -1,86 +1,173 @@
 {
-    "tower": {
-        "comment": [
-            "lower",
-            "owe",
-            "vowel",
-            "towel"
-        ],
-        "translate": "башня, вышка, крепость, опора, возвышаться, выситься, башенный",
-        "transcription": " |ˈtaʊər|",
-        "antonyms": [],
-        "mnemonic": [
-            "tower [та'уэ] башня - Тюрьма (Тауэ-р) - ещё и башня."
-        ],
-        "examples": [
-            "He towered over his mother.",
-            "How high is the Eiffel Tower?",
-            "The tower offers a panorama of the city.",
-            "a tower rising above the little town",
-            "The castle tower has been shot away.",
-            "The tower is tilting",
-            "He stood at the foot of the tower.",
-            "The church tower is in need of repair.",
-            "Mozart towers over all other composers.",
-            "The tower predominates over every object.",
-            "The clock on the church tower said nine o'clock.",
-            "a little church with a squat tower",
-            "a tower aspiring towards the heavens",
-            "She had a tower of lace on her head.",
-            "He was closely confined in the Tower.",
-            "The base of the tower was below grade.",
-            "From the tower, you can see for miles.",
-            "The tower was designed by Gilbert Scott.",
-            "There is a door at the base of the tower.",
-            "The pilot radioed in to the control tower.",
-            "The tower is closed for reasons of safety.",
-            "Only the medieval tower had remained intact.",
-            "The next stop is Main Street and Tower Square.",
-            "the confusion of tongues at the Tower of Babel",
-            "The bell tower was added to the church in 1848.",
-            "We went to see the Eiffel Tower in the morning.",
-            "The Tower, Tower of London, His Majesty's Tower",
-            "'Tower block' is the British term for 'high-rise'.",
-            "The wall of the tower is still staunch and strong.",
-            "They did not carry this tower to the height it now is."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он возвышался над своей матерью.",
-            "Какова высота Эйфелевой башни?",
-            "С башни открывается панорама города.",
-            "башня, возвышающаяся над городком",
-            "Башня замка была разрушена орудийным залпом.",
-            "Башня наклоняется /падает/. (например, Пизанская башня)",
-            "Он стоял у подножия башни.",
-            "Церковная башня нуждается в ремонте.",
-            "Моцарт возвышается над всеми другими композиторами.",
-            "Башня возвышается над остальными постройками.",
-            "Часы на церковной башне показывали девяти часов.",
-            "маленькая церковь с приземистой башней",
-            "башня, устремленная к небесам /в небеса/",
-            "У неё на голове была целая гора из кружев.",
-            "Он находился в Тауэре в строгой изоляции.",
-            "Основание башни было ниже поверхности земли.",
-            "Из башни видно на много миль.",
-            "Башня была спроектирована Гилбертом Скоттом.",
-            "У основания башни есть дверь.",
-            "Пилот радировал в диспетчерскую вышку.",
-            "Башня закрыта по соображениям безопасности.",
-            "Неповреждённой осталась лишь средневековая башня.",
-            "Следующая остановка — Мэйн-стрит и Тауэр-Сквер.",
-            "смешение языков у Вавилонской башни",
-            "Колокольня была добавлена к церкви в 1848 году.",
-            "Утром мы пошли смотреть на Эйфелеву башню.",
-            "Лондонский Тауэр",
-            "Словом \"tower block\" британцы называют многоэтажки.",
-            "Стена башни ещё не потеряла своей прочности.",
-            "Они не достроили башню до той высоты, какую она имеет сейчас."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "ow_=_[aʊ]"
-        ]
-    }
+  "tower": {
+    "comment": [
+      "lower",
+      "owe",
+      "vowel",
+      "towel"
+    ],
+    "translate": "башня, вышка, крепость, опора, возвышаться, выситься, башенный",
+    "transcription": " |ˈtaʊər|",
+    "antonyms": [],
+    "mnemonic": [
+      "tower [та'уэ] башня - Тюрьма (Тауэ-р) - ещё и башня."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "ow_=_[aʊ]"
+    ],
+    "examples": [
+      {
+        "eng": "He towered over his mother.",
+        "ru": "Он возвышался над своей матерью.",
+        "learn": 0
+      },
+      {
+        "eng": "How high is the Eiffel Tower?",
+        "ru": "Какова высота Эйфелевой башни?",
+        "learn": 0
+      },
+      {
+        "eng": "The tower offers a panorama of the city.",
+        "ru": "С башни открывается панорама города.",
+        "learn": 0
+      },
+      {
+        "eng": "a tower rising above the little town",
+        "ru": "башня, возвышающаяся над городком",
+        "learn": 0
+      },
+      {
+        "eng": "The castle tower has been shot away.",
+        "ru": "Башня замка была разрушена орудийным залпом.",
+        "learn": 0
+      },
+      {
+        "eng": "The tower is tilting",
+        "ru": "Башня наклоняется /падает/. (например, Пизанская башня)",
+        "learn": 0
+      },
+      {
+        "eng": "He stood at the foot of the tower.",
+        "ru": "Он стоял у подножия башни.",
+        "learn": 0
+      },
+      {
+        "eng": "The church tower is in need of repair.",
+        "ru": "Церковная башня нуждается в ремонте.",
+        "learn": 0
+      },
+      {
+        "eng": "Mozart towers over all other composers.",
+        "ru": "Моцарт возвышается над всеми другими композиторами.",
+        "learn": 0
+      },
+      {
+        "eng": "The tower predominates over every object.",
+        "ru": "Башня возвышается над остальными постройками.",
+        "learn": 0
+      },
+      {
+        "eng": "The clock on the church tower said nine o'clock.",
+        "ru": "Часы на церковной башне показывали девяти часов.",
+        "learn": 0
+      },
+      {
+        "eng": "a little church with a squat tower",
+        "ru": "маленькая церковь с приземистой башней",
+        "learn": 0
+      },
+      {
+        "eng": "a tower aspiring towards the heavens",
+        "ru": "башня, устремленная к небесам /в небеса/",
+        "learn": 0
+      },
+      {
+        "eng": "She had a tower of lace on her head.",
+        "ru": "У неё на голове была целая гора из кружев.",
+        "learn": 1
+      },
+      {
+        "eng": "He was closely confined in the Tower.",
+        "ru": "Он находился в Тауэре в строгой изоляции.",
+        "learn": 0
+      },
+      {
+        "eng": "The base of the tower was below grade.",
+        "ru": "Основание башни было ниже поверхности земли.",
+        "learn": 0
+      },
+      {
+        "eng": "From the tower, you can see for miles.",
+        "ru": "Из башни видно на много миль.",
+        "learn": 0
+      },
+      {
+        "eng": "The tower was designed by Gilbert Scott.",
+        "ru": "Башня была спроектирована Гилбертом Скоттом.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a door at the base of the tower.",
+        "ru": "У основания башни есть дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "The pilot radioed in to the control tower.",
+        "ru": "Пилот радировал в диспетчерскую вышку.",
+        "learn": 0
+      },
+      {
+        "eng": "The tower is closed for reasons of safety.",
+        "ru": "Башня закрыта по соображениям безопасности.",
+        "learn": 0
+      },
+      {
+        "eng": "Only the medieval tower had remained intact.",
+        "ru": "Неповреждённой осталась лишь средневековая башня.",
+        "learn": 1
+      },
+      {
+        "eng": "The next stop is Main Street and Tower Square.",
+        "ru": "Следующая остановка — Мэйн-стрит и Тауэр-Сквер.",
+        "learn": 0
+      },
+      {
+        "eng": "the confusion of tongues at the Tower of Babel",
+        "ru": "смешение языков у Вавилонской башни",
+        "learn": 0
+      },
+      {
+        "eng": "The bell tower was added to the church in 1848.",
+        "ru": "Колокольня была добавлена к церкви в 1848 году.",
+        "learn": 1
+      },
+      {
+        "eng": "We went to see the Eiffel Tower in the morning.",
+        "ru": "Утром мы пошли смотреть на Эйфелеву башню.",
+        "learn": 0
+      },
+      {
+        "eng": "The Tower, Tower of London, His Majesty's Tower",
+        "ru": "Лондонский Тауэр",
+        "learn": 0
+      },
+      {
+        "eng": "'Tower block' is the British term for 'high-rise'.",
+        "ru": "Словом \"tower block\" британцы называют многоэтажки.",
+        "learn": 0
+      },
+      {
+        "eng": "The wall of the tower is still staunch and strong.",
+        "ru": "Стена башни ещё не потеряла своей прочности.",
+        "learn": 0
+      },
+      {
+        "eng": "They did not carry this tower to the height it now is.",
+        "ru": "Они не достроили башню до той высоты, какую она имеет сейчас.",
+        "learn": 0
+      }
+    ]
+  }
 }

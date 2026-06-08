@@ -1,82 +1,168 @@
 {
-    "rotten": {
-        "comment": [
-            "trot",
-            "rotate",
-            "rotation"
-        ],
-        "translate": "гнилой, тухлый, прогнивший, испорченный, отвратительный, прелый, негодный",
-        "transcription": " |ˈrɑːtn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I was feeling rotten.",
-            "It smells like rotten eggs.",
-            "You rotten bastard!",
-            "He's a rotten driver.",
-            "What rotten luck!",
-            "He's spoilt rotten.",
-            "The room seemed very damp and had a rotten smell.",
-            "I don't want your rotten money!",
-            "The pear was rotten right through.",
-            "What rotten weather we're having.",
-            "The apple's rotten on the inside.",
-            "They showered him with rotten eggs.",
-            "It was rotten cold that winter.",
-            "That woman is rotten to the core!",
-            "You'll make me bate if you say rotten caddish things like that.",
-            "I felt rotten about lying to him.",
-            "They did a rotten job.",
-            "The rotten meat was infested with maggots.",
-            "The smell of rotten meat assailed her nostrils.",
-            "The floor's rotten and likely to give way.",
-            "Those kids were spoiled rotten by their mother.",
-            "He's a rotten excuse for a lawyer. Why on earth did you hire him?",
-            "The service was rotten.",
-            "Why are you being so rotten?",
-            "She says her boss is a rotten fink.",
-            "The apples went rotten very quickly.",
-            "Some of the wood was completely rotten.",
-            "He was the favorite, and his mother spoiled him rotten.",
-            "The smell of rotten cabbage makes me retch.",
-            "The whole government is rotten to the core."
-        ],
-        "example_translate": [
-            "Я чувствовал себя просто отвратительно.",
-            "Воняет как тухлые яйца.",
-            "Ты — мерзкий ублюдок!",
-            "Водитель из него никакой.",
-            "какое невезение!, какое несчастье! (выражение сочувствия)",
-            "Он вконец испорчен / избалован.",
-            "В комнате было очень влажно и пахло гнилью.",
-            "Я не хочу ваших поганых денег!",
-            "Груша была целиком сгнившей.",
-            "Что за мерзкая сегодня погода.",
-            "Яблоко внутри гнилое.",
-            "Они забросали его тухлыми яйцами.",
-            "В ту зиму стояли ужасные холода.",
-            "Эта женщина испорчена до мозга костей!",
-            "Ты сильно разозлишь меня, если будешь говорить такие ужасные вульгарные вещи.",
-            "Я солгал ему, и поэтому чувствовал себя мерзко.",
-            "Они сделали дрянную работу.",
-            "Протухшее мясо кишело опарышами.",
-            "Запах гнилого мяса ударил ей в ноздри.",
-            "Пол — гнилой, и, вероятно, проломится.",
-            "Эти дети были до крайности избалованы матерью.",
-            "Это же не адвокат, а позор один. На кой ляд вы его нанимали?",
-            "Обслуживание было тухлое. (разг.)",
-            "Почему ты так мерзко себя ведёшь?",
-            "Она говорит, что её начальник — подлый прохвост.",
-            "Яблоки прогнили очень быстро.",
-            "Часть древесины полностью сгнила.",
-            "Он был любимчиком, и мать ужасно его разбаловала.",
-            "От запаха гнилой капусты меня тянет блевать.",
-            "Вся власть прогнила насквозь."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "rotten": {
+    "comment": [
+      "trot",
+      "rotate",
+      "rotation"
+    ],
+    "translate": "гнилой, тухлый, прогнивший, испорченный, отвратительный, прелый, негодный",
+    "transcription": " |ˈrɑːtn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I was feeling rotten.",
+        "ru": "Я чувствовал себя просто отвратительно.",
+        "learn": 0
+      },
+      {
+        "eng": "It smells like rotten eggs.",
+        "ru": "Воняет как тухлые яйца.",
+        "learn": 0
+      },
+      {
+        "eng": "You rotten bastard!",
+        "ru": "Ты — мерзкий ублюдок!",
+        "learn": 0
+      },
+      {
+        "eng": "He's a rotten driver.",
+        "ru": "Водитель из него никакой.",
+        "learn": 0
+      },
+      {
+        "eng": "What rotten luck!",
+        "ru": "какое невезение!, какое несчастье! (выражение сочувствия)",
+        "learn": 0
+      },
+      {
+        "eng": "He's spoilt rotten.",
+        "ru": "Он вконец испорчен / избалован.",
+        "learn": 0
+      },
+      {
+        "eng": "The room seemed very damp and had a rotten smell.",
+        "ru": "В комнате было очень влажно и пахло гнилью.",
+        "learn": 1
+      },
+      {
+        "eng": "I don't want your rotten money!",
+        "ru": "Я не хочу ваших поганых денег!",
+        "learn": 0
+      },
+      {
+        "eng": "The pear was rotten right through.",
+        "ru": "Груша была целиком сгнившей.",
+        "learn": 1
+      },
+      {
+        "eng": "What rotten weather we're having.",
+        "ru": "Что за мерзкая сегодня погода.",
+        "learn": 0
+      },
+      {
+        "eng": "The apple's rotten on the inside.",
+        "ru": "Яблоко внутри гнилое.",
+        "learn": 0
+      },
+      {
+        "eng": "They showered him with rotten eggs.",
+        "ru": "Они забросали его тухлыми яйцами.",
+        "learn": 0
+      },
+      {
+        "eng": "It was rotten cold that winter.",
+        "ru": "В ту зиму стояли ужасные холода.",
+        "learn": 0
+      },
+      {
+        "eng": "That woman is rotten to the core!",
+        "ru": "Эта женщина испорчена до мозга костей!",
+        "learn": 1
+      },
+      {
+        "eng": "You'll make me bate if you say rotten caddish things like that.",
+        "ru": "Ты сильно разозлишь меня, если будешь говорить такие ужасные вульгарные вещи.",
+        "learn": 0
+      },
+      {
+        "eng": "I felt rotten about lying to him.",
+        "ru": "Я солгал ему, и поэтому чувствовал себя мерзко.",
+        "learn": 0
+      },
+      {
+        "eng": "They did a rotten job.",
+        "ru": "Они сделали дрянную работу.",
+        "learn": 0
+      },
+      {
+        "eng": "The rotten meat was infested with maggots.",
+        "ru": "Протухшее мясо кишело опарышами.",
+        "learn": 0
+      },
+      {
+        "eng": "The smell of rotten meat assailed her nostrils.",
+        "ru": "Запах гнилого мяса ударил ей в ноздри.",
+        "learn": 0
+      },
+      {
+        "eng": "The floor's rotten and likely to give way.",
+        "ru": "Пол — гнилой, и, вероятно, проломится.",
+        "learn": 0
+      },
+      {
+        "eng": "Those kids were spoiled rotten by their mother.",
+        "ru": "Эти дети были до крайности избалованы матерью.",
+        "learn": 1
+      },
+      {
+        "eng": "He's a rotten excuse for a lawyer. Why on earth did you hire him?",
+        "ru": "Это же не адвокат, а позор один. На кой ляд вы его нанимали?",
+        "learn": 0
+      },
+      {
+        "eng": "The service was rotten.",
+        "ru": "Обслуживание было тухлое. (разг.)",
+        "learn": 0
+      },
+      {
+        "eng": "Why are you being so rotten?",
+        "ru": "Почему ты так мерзко себя ведёшь?",
+        "learn": 0
+      },
+      {
+        "eng": "She says her boss is a rotten fink.",
+        "ru": "Она говорит, что её начальник — подлый прохвост.",
+        "learn": 0
+      },
+      {
+        "eng": "The apples went rotten very quickly.",
+        "ru": "Яблоки прогнили очень быстро.",
+        "learn": 0
+      },
+      {
+        "eng": "Some of the wood was completely rotten.",
+        "ru": "Часть древесины полностью сгнила.",
+        "learn": 0
+      },
+      {
+        "eng": "He was the favorite, and his mother spoiled him rotten.",
+        "ru": "Он был любимчиком, и мать ужасно его разбаловала.",
+        "learn": 0
+      },
+      {
+        "eng": "The smell of rotten cabbage makes me retch.",
+        "ru": "От запаха гнилой капусты меня тянет блевать.",
+        "learn": 0
+      },
+      {
+        "eng": "The whole government is rotten to the core.",
+        "ru": "Вся власть прогнила насквозь.",
+        "learn": 0
+      }
+    ]
+  }
 }

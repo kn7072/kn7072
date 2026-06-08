@@ -1,89 +1,175 @@
 {
-    "even": {
-        "comment": [
-            "prevent",
-            "event",
-            "evening",
-            "evenly",
-            "eventually",
-            "prevention",
-            "uneven"
-        ],
-        "translate": "даже, ровно, точно, выровнять, четный, ровный, вечер, склон дня",
-        "transcription": " |ˈiːvn|",
-        "antonyms": [],
-        "mnemonic": [
-            "even [и':вэн] чётный, даже - По чётным дням даже (Иван) пил водку.",
-            "even ['i: vən]\n***\nДАЖЕ нету и двух гривен. (это) even\nЯ ДАЖЕ не знал, что ты наивен. (это) even\nВЫРАВНЯЛИ пол за 10 гривен. (это) even\nРОВНЫЙ путь имеет Сигал Стивен. (это) even\nТОЧНО стóит 10 гривен. (это) even"
-        ],
-        "examples": [
-            "He did even better.",
-            "Don't even try.",
-            "He looked content, even happy.",
-            "His disposition was even.",
-            "The even beat of the drum",
-            "He read most of the speech in an even tone.",
-            "The first half was very even, and neither side scored.",
-            "2, 4, 6 and 8 are even numbers.",
-            "Even when he is sick, he works.",
-            "I don't have even a dollar!",
-            "Things were beginning to even out a little.",
-            "She spoke with a calm, even voice.",
-            "At the end of the first half the score is even.",
-            "He had lovely white, even teeth.",
-            "The sky was of an even lead colour.",
-            "She did not even bother to phone us.",
-            "even amounts of butter and sugar",
-            "He now had a wonderful chance to even old scores.",
-            "We must even out the differences between social classes.",
-            "Even as Jane said this, she knew it was not true.",
-            "Prices should even off when the crops are gathered.",
-            "I feel that I can never get quite even with him again.",
-            "If you two sit at the other table, that should even up the groups.",
-            "She looked sick and felt even worse.",
-            "We finally reached even ground after the long climb.",
-            "the even rhythm of his breathing",
-            "an even (or still) more interesting problem",
-            "The ground evens out on the other side of the mountain.",
-            "The horses went at a steady even trot.",
-            "During his second day Edward looked even more pale and quiet than on his first."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он поступил даже лучше.",
-            "Даже не пытайся.",
-            "Он выглядел довольным, и даже счастливым.",
-            "Он отличался ровным характером.",
-            "Равномерный ритм барабана.",
-            "Большую часть речи он прочитал монотонно.",
-            "Первый тайм был очень равным, и ни одна из команд не забила.",
-            "Два, четыре, шесть и восемь являются чётными числами.",
-            "Он работает, даже когда болеет.",
-            "У меня нет ни доллара!",
-            "Ситуация начала потихоньку выправляться.",
-            "Она говорила спокойным, ровным голосом.",
-            "После первой половины игры /после первого тайма/ счёт — равный.",
-            "У него были прекрасные белые ровные зубы.",
-            "Небо было ровного свинцового цвета.",
-            "Она даже не удосужилась нам позвонить.",
-            "равное количество масла и сахара",
-            "Ему предоставился прекрасный шанс свести старые счёты.",
-            "Нужно сгладить разницу между социальными группами.",
-            "Даже когда Джейн говорила об этом, она знала, что это неправда.",
-            "Цены должны выровняться, когда соберут урожай.",
-            "Я чувствую, что никогда не смогу с ним расквитаться.",
-            "Если вы двое сядете за другой стол, это уравновесит группы.",
-            "Она выглядела ужасно, а чувствовала себя ещё хуже.",
-            "После долгого подъёма мы наконец-то добрались до равнины.",
-            "его ровное дыхание",
-            "даже (или ещё) более интересная проблема",
-            "На другой стороне горы начинается равнина.",
-            "Лошади шли спокойной, ровной рысью.",
-            "На второй день Эдвард был ещё более бледным и молчаливым, чем в первый."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "even": {
+    "comment": [
+      "prevent",
+      "event",
+      "evening",
+      "evenly",
+      "eventually",
+      "prevention",
+      "uneven"
+    ],
+    "translate": "даже, ровно, точно, выровнять, четный, ровный, вечер, склон дня",
+    "transcription": " |ˈiːvn|",
+    "antonyms": [],
+    "mnemonic": [
+      "even [и':вэн] чётный, даже - По чётным дням даже (Иван) пил водку.",
+      "even ['i: vən]\n***\nДАЖЕ нету и двух гривен. (это) even\nЯ ДАЖЕ не знал, что ты наивен. (это) even\nВЫРАВНЯЛИ пол за 10 гривен. (это) even\nРОВНЫЙ путь имеет Сигал Стивен. (это) even\nТОЧНО стóит 10 гривен. (это) even"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He did even better.",
+        "ru": "Он поступил даже лучше.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't even try.",
+        "ru": "Даже не пытайся.",
+        "learn": 0
+      },
+      {
+        "eng": "He looked content, even happy.",
+        "ru": "Он выглядел довольным, и даже счастливым.",
+        "learn": 0
+      },
+      {
+        "eng": "His disposition was even.",
+        "ru": "Он отличался ровным характером.",
+        "learn": 0
+      },
+      {
+        "eng": "The even beat of the drum",
+        "ru": "Равномерный ритм барабана.",
+        "learn": 1
+      },
+      {
+        "eng": "He read most of the speech in an even tone.",
+        "ru": "Большую часть речи он прочитал монотонно.",
+        "learn": 0
+      },
+      {
+        "eng": "The first half was very even, and neither side scored.",
+        "ru": "Первый тайм был очень равным, и ни одна из команд не забила.",
+        "learn": 0
+      },
+      {
+        "eng": "2, 4, 6 and 8 are even numbers.",
+        "ru": "Два, четыре, шесть и восемь являются чётными числами.",
+        "learn": 0
+      },
+      {
+        "eng": "Even when he is sick, he works.",
+        "ru": "Он работает, даже когда болеет.",
+        "learn": 1
+      },
+      {
+        "eng": "I don't have even a dollar!",
+        "ru": "У меня нет ни доллара!",
+        "learn": 0
+      },
+      {
+        "eng": "Things were beginning to even out a little.",
+        "ru": "Ситуация начала потихоньку выправляться.",
+        "learn": 0
+      },
+      {
+        "eng": "She spoke with a calm, even voice.",
+        "ru": "Она говорила спокойным, ровным голосом.",
+        "learn": 1
+      },
+      {
+        "eng": "At the end of the first half the score is even.",
+        "ru": "После первой половины игры /после первого тайма/ счёт — равный.",
+        "learn": 0
+      },
+      {
+        "eng": "He had lovely white, even teeth.",
+        "ru": "У него были прекрасные белые ровные зубы.",
+        "learn": 1
+      },
+      {
+        "eng": "The sky was of an even lead colour.",
+        "ru": "Небо было ровного свинцового цвета.",
+        "learn": 0
+      },
+      {
+        "eng": "She did not even bother to phone us.",
+        "ru": "Она даже не удосужилась нам позвонить.",
+        "learn": 0
+      },
+      {
+        "eng": "even amounts of butter and sugar",
+        "ru": "равное количество масла и сахара",
+        "learn": 0
+      },
+      {
+        "eng": "He now had a wonderful chance to even old scores.",
+        "ru": "Ему предоставился прекрасный шанс свести старые счёты.",
+        "learn": 0
+      },
+      {
+        "eng": "We must even out the differences between social classes.",
+        "ru": "Нужно сгладить разницу между социальными группами.",
+        "learn": 0
+      },
+      {
+        "eng": "Even as Jane said this, she knew it was not true.",
+        "ru": "Даже когда Джейн говорила об этом, она знала, что это неправда.",
+        "learn": 0
+      },
+      {
+        "eng": "Prices should even off when the crops are gathered.",
+        "ru": "Цены должны выровняться, когда соберут урожай.",
+        "learn": 0
+      },
+      {
+        "eng": "I feel that I can never get quite even with him again.",
+        "ru": "Я чувствую, что никогда не смогу с ним расквитаться.",
+        "learn": 0
+      },
+      {
+        "eng": "If you two sit at the other table, that should even up the groups.",
+        "ru": "Если вы двое сядете за другой стол, это уравновесит группы.",
+        "learn": 0
+      },
+      {
+        "eng": "She looked sick and felt even worse.",
+        "ru": "Она выглядела ужасно, а чувствовала себя ещё хуже.",
+        "learn": 0
+      },
+      {
+        "eng": "We finally reached even ground after the long climb.",
+        "ru": "После долгого подъёма мы наконец-то добрались до равнины.",
+        "learn": 1
+      },
+      {
+        "eng": "the even rhythm of his breathing",
+        "ru": "его ровное дыхание",
+        "learn": 0
+      },
+      {
+        "eng": "an even (or still) more interesting problem",
+        "ru": "даже (или ещё) более интересная проблема",
+        "learn": 0
+      },
+      {
+        "eng": "The ground evens out on the other side of the mountain.",
+        "ru": "На другой стороне горы начинается равнина.",
+        "learn": 0
+      },
+      {
+        "eng": "The horses went at a steady even trot.",
+        "ru": "Лошади шли спокойной, ровной рысью.",
+        "learn": 0
+      },
+      {
+        "eng": "During his second day Edward looked even more pale and quiet than on his first.",
+        "ru": "На второй день Эдвард был ещё более бледным и молчаливым, чем в первый.",
+        "learn": 0
+      }
+    ]
+  }
 }

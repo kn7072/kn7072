@@ -1,89 +1,176 @@
 {
-    "post": {
-        "comment": [
-            "poster",
-            "postman",
-            "postpone",
-            "postcard",
-            "postal",
-            "post-war",
-            "apostrophe"
-        ],
-        "translate": "пост, должность, после, почтой, вывешивать, почтовый",
-        "transcription": " |poʊst|",
-        "antonyms": [],
-        "mnemonic": [
-            "post [по'уст] почта - Почта у (поуст-а) милиции находится."
-        ],
-        "examples": [
-            "I'll send the book to you by post.",
-            "The car crashed into the lamp post",
-            "I took the letter to the post.",
-            "He acceded to this post in 1998.",
-            "The letter came by the first post.",
-            "She kept us posted on the latest gossip.",
-            "Army Post Office",
-            "The ball took off from the post.",
-            "I'll post the news on the bulletin board",
-            "Could you post this letter for me?",
-            "The officer refused to abandon his post.",
-            "He's overjoyed at his new post.",
-            "The prisoner was bound to a post and shot.",
-            "A parcel arrived through the post.",
-            "The letter had gone astray in the post.",
-            "His shot on goal rebounded off the post.",
-            "On the way, I stopped by the post office.",
-            "Has the post come?",
-            "Is there any post for me?",
-            "A pair of posts marked the goal.",
-            "The post office shuts at 5 o'clock.",
-            "They were to travel post.",
-            "I haven't opened my post yet.",
-            "Mr Magic was first past the post.",
-            "She's just gone to post a letter.",
-            "I'll beat you to the winning post!",
-            "In England they call mail 'the post'.",
-            "She answered my letter by return of post.",
-            "Are you going out to the post?",
-            "Was there any post for me today?"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я пошлю тебе эту книгу по почте.",
-            "Машина врезалась в фонарный столб",
-            "Я отнёс письмо на почту.",
-            "Он вступил на этот пост в 1998 г.",
-            "Письмо пришло с утренней почтой.",
-            "Она держала нас в курсе последних сплетен.",
-            "Армейское почтовое отделение",
-            "Мяч отскочил от штанги.",
-            "Я вывешу эту новость на доске объявлений.",
-            "Вы не могли бы отправить это письмо вместо меня? (брит.)",
-            "Офицер отказался покинуть свой пост.",
-            "Он в восторге от своей новой должности.",
-            "Приговорённого привязали к столбу и расстреляли.",
-            "По почте пришла какая-то посылка.",
-            "Письмо затерялось на почте.",
-            "После его удара мяч отскочил от стойки ворот.",
-            "По пути я зашёл на почту.",
-            "Почта уже пришла?",
-            "Для меня есть почта?",
-            "Ворота заменяла пара столбов.",
-            "Почтовое отделение закрывается в 5 часов.",
-            "Им было предписано отправиться на почтовых лошадях.",
-            "Я ещё не открывал свою почту.",
-            "Мистер Мэджик финишировал первым.",
-            "Она только что вышла, чтобы отправить письмо.",
-            "Я у тебя выиграю!",
-            "В Англии почту называют словом \"post\".",
-            "Она ответила на моё письмо сразу же, с обратной почтой.",
-            "Ты собираешься выйти на почту?",
-            "Почта для меня сегодня была?"
-        ],
-        "stars": 1,
-        "groups": [
-            "all_words",
-            "o_+_Закр_сл_=_[ou]"
-        ]
-    }
+  "post": {
+    "comment": [
+      "poster",
+      "postman",
+      "postpone",
+      "postcard",
+      "postal",
+      "post-war",
+      "apostrophe"
+    ],
+    "translate": "пост, должность, после, почтой, вывешивать, почтовый",
+    "transcription": " |poʊst|",
+    "antonyms": [],
+    "mnemonic": [
+      "post [по'уст] почта - Почта у (поуст-а) милиции находится."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [
+      "o_+_Закр_сл_=_[ou]"
+    ],
+    "examples": [
+      {
+        "eng": "I'll send the book to you by post.",
+        "ru": "Я пошлю тебе эту книгу по почте.",
+        "learn": 0
+      },
+      {
+        "eng": "The car crashed into the lamp post",
+        "ru": "Машина врезалась в фонарный столб",
+        "learn": 1
+      },
+      {
+        "eng": "I took the letter to the post.",
+        "ru": "Я отнёс письмо на почту.",
+        "learn": 0
+      },
+      {
+        "eng": "He acceded to this post in 1998.",
+        "ru": "Он вступил на этот пост в 1998 г.",
+        "learn": 0
+      },
+      {
+        "eng": "The letter came by the first post.",
+        "ru": "Письмо пришло с утренней почтой.",
+        "learn": 0
+      },
+      {
+        "eng": "She kept us posted on the latest gossip.",
+        "ru": "Она держала нас в курсе последних сплетен.",
+        "learn": 0
+      },
+      {
+        "eng": "Army Post Office",
+        "ru": "Армейское почтовое отделение",
+        "learn": 0
+      },
+      {
+        "eng": "The ball took off from the post.",
+        "ru": "Мяч отскочил от штанги.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll post the news on the bulletin board",
+        "ru": "Я вывешу эту новость на доске объявлений.",
+        "learn": 1
+      },
+      {
+        "eng": "Could you post this letter for me?",
+        "ru": "Вы не могли бы отправить это письмо вместо меня? (брит.)",
+        "learn": 0
+      },
+      {
+        "eng": "The officer refused to abandon his post.",
+        "ru": "Офицер отказался покинуть свой пост.",
+        "learn": 1
+      },
+      {
+        "eng": "He's overjoyed at his new post.",
+        "ru": "Он в восторге от своей новой должности.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner was bound to a post and shot.",
+        "ru": "Приговорённого привязали к столбу и расстреляли.",
+        "learn": 1
+      },
+      {
+        "eng": "A parcel arrived through the post.",
+        "ru": "По почте пришла какая-то посылка.",
+        "learn": 0
+      },
+      {
+        "eng": "The letter had gone astray in the post.",
+        "ru": "Письмо затерялось на почте.",
+        "learn": 0
+      },
+      {
+        "eng": "His shot on goal rebounded off the post.",
+        "ru": "После его удара мяч отскочил от стойки ворот.",
+        "learn": 0
+      },
+      {
+        "eng": "On the way, I stopped by the post office.",
+        "ru": "По пути я зашёл на почту.",
+        "learn": 0
+      },
+      {
+        "eng": "Has the post come?",
+        "ru": "Почта уже пришла?",
+        "learn": 0
+      },
+      {
+        "eng": "Is there any post for me?",
+        "ru": "Для меня есть почта?",
+        "learn": 0
+      },
+      {
+        "eng": "A pair of posts marked the goal.",
+        "ru": "Ворота заменяла пара столбов.",
+        "learn": 0
+      },
+      {
+        "eng": "The post office shuts at 5 o'clock.",
+        "ru": "Почтовое отделение закрывается в 5 часов.",
+        "learn": 0
+      },
+      {
+        "eng": "They were to travel post.",
+        "ru": "Им было предписано отправиться на почтовых лошадях.",
+        "learn": 0
+      },
+      {
+        "eng": "I haven't opened my post yet.",
+        "ru": "Я ещё не открывал свою почту.",
+        "learn": 0
+      },
+      {
+        "eng": "Mr Magic was first past the post.",
+        "ru": "Мистер Мэджик финишировал первым.",
+        "learn": 0
+      },
+      {
+        "eng": "She's just gone to post a letter.",
+        "ru": "Она только что вышла, чтобы отправить письмо.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll beat you to the winning post!",
+        "ru": "Я у тебя выиграю!",
+        "learn": 0
+      },
+      {
+        "eng": "In England they call mail 'the post'.",
+        "ru": "В Англии почту называют словом \"post\".",
+        "learn": 0
+      },
+      {
+        "eng": "She answered my letter by return of post.",
+        "ru": "Она ответила на моё письмо сразу же, с обратной почтой.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you going out to the post?",
+        "ru": "Ты собираешься выйти на почту?",
+        "learn": 0
+      },
+      {
+        "eng": "Was there any post for me today?",
+        "ru": "Почта для меня сегодня была?",
+        "learn": 0
+      }
+    ]
+  }
 }

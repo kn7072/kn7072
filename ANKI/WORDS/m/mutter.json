@@ -1,55 +1,96 @@
 {
-    "mutter": {
-        "comment": [
-            "utter",
-            "utterly",
-            "utterance"
-        ],
-        "translate": "бормотать, бурчать, ворчать, бормотание, ворчание",
-        "transcription": " |ˈmʌtər|",
-        "antonyms": [],
-        "mnemonic": [
-            "mutter [ма'тэ] бормотать - Любители (мата) бормочут о чём-то.",
-            "mutter ['mʌtə]\n***\nБОРМОЧУТ, только обормоты. (это) mutter\nНе БОРМОЧУТ бегемоты. (это) mutter\nЕго ВОРЧАНЬЕ - сплошные маты. (это) mutter\n***\nТы бормотал \"mutter\",\nпросил масла \"butter\"."
-        ],
-        "examples": [
-            "What are you two muttering about?",
-            "She angrily muttered something about her bad luck.",
-            "'He's such an unpleasant man,' Alyssia muttered under her breath.",
-            "Elsie muttered something I couldn't catch and walked off.",
-            "His voice subsided to a mutter.",
-            "She sat practicing her speech, muttering to herself.",
-            "I gave an inaudible mutter.",
-            "'I never want to come here again,' he muttered to himself.",
-            "I misheard “mother” as “mutter”.",
-            "She began to mutter incoherently.",
-            "I heard him mutter a mild swear word.",
-            "The mutterings about his leadership continued to grow.",
-            "Some employees are muttering about the changes in the pension plan.",
-            "The woman next in line began to mutter to herself.",
-            "Some senators muttered darkly about the threat to national security."
-        ],
-        "example_translate": [
-            "О чем вы тут вдвоем бормочете?",
-            "Она сердито пробормотала что-то о ее невезенье/несчастье.",
-            "\"Он такой неприятный человек,\" - пробормотала Алисия себе под нос.",
-            "Элси что-то пробормотала, я не смог понять её и ушел.",
-            "Его голос утих до шепота.",
-            "Она сидела и репетировала свою речь, бормоча её себе под нос.",
-            "Я что-то еле слышно пробормотал.",
-            "— Ноги моей больше здесь не будет, — пробормотал он себе под нос.",
-            "Мне послышалось не \"mother\" (мать), а “mutter” (бормотать).",
-            "Она начала что-то бессвязно бормотать.",
-            "Я услышал, как он пробормотал мягкое ругательство.",
-            "Недовольство его руководством продолжало расти.",
-            "Некоторые сотрудники высказывают скрытое недовольство изменениями в пенсионном плане.",
-            "Следующая в очереди женщина начала что-то про себя бормотать.",
-            "Некоторые сенаторы пробормотали нечто неразборчивое по поводу угрозы национальной безопасности."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "mutter": {
+    "comment": [
+      "utter",
+      "utterly",
+      "utterance"
+    ],
+    "translate": "бормотать, бурчать, ворчать, бормотание, ворчание",
+    "transcription": " |ˈmʌtər|",
+    "antonyms": [],
+    "mnemonic": [
+      "mutter [ма'тэ] бормотать - Любители (мата) бормочут о чём-то.",
+      "mutter ['mʌtə]\n***\nБОРМОЧУТ, только обормоты. (это) mutter\nНе БОРМОЧУТ бегемоты. (это) mutter\nЕго ВОРЧАНЬЕ - сплошные маты. (это) mutter\n***\nТы бормотал \"mutter\",\nпросил масла \"butter\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "What are you two muttering about?",
+        "ru": "О чем вы тут вдвоем бормочете?",
+        "learn": 1
+      },
+      {
+        "eng": "She angrily muttered something about her bad luck.",
+        "ru": "Она сердито пробормотала что-то о ее невезенье/несчастье.",
+        "learn": 1
+      },
+      {
+        "eng": "'He's such an unpleasant man,' Alyssia muttered under her breath.",
+        "ru": "\"Он такой неприятный человек,\" - пробормотала Алисия себе под нос.",
+        "learn": 0
+      },
+      {
+        "eng": "Elsie muttered something I couldn't catch and walked off.",
+        "ru": "Элси что-то пробормотала, я не смог понять её и ушел.",
+        "learn": 0
+      },
+      {
+        "eng": "His voice subsided to a mutter.",
+        "ru": "Его голос утих до шепота.",
+        "learn": 0
+      },
+      {
+        "eng": "She sat practicing her speech, muttering to herself.",
+        "ru": "Она сидела и репетировала свою речь, бормоча её себе под нос.",
+        "learn": 0
+      },
+      {
+        "eng": "I gave an inaudible mutter.",
+        "ru": "Я что-то еле слышно пробормотал.",
+        "learn": 0
+      },
+      {
+        "eng": "'I never want to come here again,' he muttered to himself.",
+        "ru": "— Ноги моей больше здесь не будет, — пробормотал он себе под нос.",
+        "learn": 1
+      },
+      {
+        "eng": "I misheard “mother” as “mutter”.",
+        "ru": "Мне послышалось не \"mother\" (мать), а “mutter” (бормотать).",
+        "learn": 0
+      },
+      {
+        "eng": "She began to mutter incoherently.",
+        "ru": "Она начала что-то бессвязно бормотать.",
+        "learn": 0
+      },
+      {
+        "eng": "I heard him mutter a mild swear word.",
+        "ru": "Я услышал, как он пробормотал мягкое ругательство.",
+        "learn": 0
+      },
+      {
+        "eng": "The mutterings about his leadership continued to grow.",
+        "ru": "Недовольство его руководством продолжало расти.",
+        "learn": 0
+      },
+      {
+        "eng": "Some employees are muttering about the changes in the pension plan.",
+        "ru": "Некоторые сотрудники высказывают скрытое недовольство изменениями в пенсионном плане.",
+        "learn": 0
+      },
+      {
+        "eng": "The woman next in line began to mutter to herself.",
+        "ru": "Следующая в очереди женщина начала что-то про себя бормотать.",
+        "learn": 0
+      },
+      {
+        "eng": "Some senators muttered darkly about the threat to national security.",
+        "ru": "Некоторые сенаторы пробормотали нечто неразборчивое по поводу угрозы национальной безопасности.",
+        "learn": 0
+      }
+    ]
+  }
 }

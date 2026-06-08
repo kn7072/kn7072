@@ -1,87 +1,173 @@
 {
-    "lesson": {
-        "comment": [
-            "unless",
-            "less",
-            "lessen",
-            "lesser",
-            "endless"
-        ],
-        "translate": "урок, нотация, поучать, обучать, давать урок",
-        "transcription": " |ˈlesn|",
-        "antonyms": [],
-        "mnemonic": [
-            "lesson [лэ'сан] урок - От уроков у него (лысин-а) на голове.",
-            "lessen ['lɛs (ə) n]\nless ['lɛs]\nendless- бесконечный\nlesson ['lɛs (ə) n] - урок\n***\nУМЕНЬШИМ число деревьев и мир станет безлесен.\n(это) lessen\nНЕДООЦЕНИМ природу и мир станет безлесен. (это)\nlessen\n***\nНамного МЕНЬШЕ станет лес. (это) less"
-        ],
-        "examples": [
-            "The lesson is over.",
-            "Lessons start at 9 o'clock.",
-            "The episode taught me a lesson I'll never forget.",
-            "Turn to lesson 25.",
-            "I skived off a lesson once.",
-            "He did the lesson for today.",
-            "I learned a valuable lesson.",
-            "He has learned a hard lesson.",
-            "Ed has his music lesson today.",
-            "She took piano lessons for years.",
-            "a teacher planning her next lesson",
-            "a lesson on French verb conjugation",
-            "The book is divided into 12 lessons.",
-            "I've got a double maths lesson next.",
-            "One lesson's not much good — you need five or six.",
-            "Has this class got beyond lesson five?",
-            "Andrew gives private lessons in Spanish.",
-            "The accident taught him an important lesson.",
-            "Each story teaches an important moral lesson.",
-            "After a pause the teacher continued the lesson.",
-            "The men's courage and faith is a lesson to us all.",
-            "My words implicate the first lesson of civilization.",
-            "The lesson of this sad story should be well rubbed in.",
-            "The soldiers were put on fatigue to teach them a lesson.",
-            "We can learn / draw important lesson from this disaster.",
-            "a hardhead who has to learn every life lesson the hard way",
-            "The government has failed to learn the lessons of history.",
-            "You can't go out to play until you've finished your lessons.",
-            "The accident should be a salutary lesson to be more careful.",
-            "We hurried through the lesson so that we could finish early."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Урок окончен.",
-            "Уроки начинаются в девять часов.",
-            "Этот случай стал для меня уроком, который я никогда не забуду.",
-            "Перейдём к двадцать пятому уроку.",
-            "Однажды я прогулял урок.",
-            "Он выполнил урок на сегодня.",
-            "Я получил (выучил) ценный урок.",
-            "Он усвоил непростой урок. / Жизнь преподнесла ему тяжёлый урок.",
-            "У Эда сегодня урок музыки.",
-            "В течение многих лет она брала уроки игры на фортепиано.",
-            "учительница, которая составляет план своего следующего урока",
-            "урок о спряжении французских глаголов",
-            "Книга состоит из двенадцати уроков.",
-            "Дальше у меня спаренный урок математики.",
-            "Один урок почти бесполезен, нужно пять или шесть.",
-            "Это класс уже прошел пятый урок?",
-            "Эндрю даёт частные уроки испанского языка.",
-            "Этот несчастный случай преподал ему важный урок.",
-            "Каждая история преподаёт важный нравственный урок.",
-            "После паузы учитель продолжил урок.",
-            "Мужество и вера этих людей — пример всем нам.",
-            "В моих словах заключается первый урок цивилизованности.",
-            "Урок от этой прискорбной истории следует хорошо запомнить.",
-            "В наказание этим солдатам дали наряд на выполнение хозяйственных работ.",
-            "Мы можем вынести важный урок из этой катастрофы.",
-            "упрямец, которому непременно нужно учить любой жизненный урок на собственной шкуре",
-            "Правительство не смогло усвоить уроки истории.",
-            "Ты не пойдёшь играть на улицу, пока не закончишь делать уроки.",
-            "Эта авария должна послужить хорошим уроком о том, что нужно быть осторожнее /внимательнее/.",
-            "Мы быстро пробежались по уроку, чтобы можно было закончить пораньше."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "lesson": {
+    "comment": [
+      "unless",
+      "less",
+      "lessen",
+      "lesser",
+      "endless"
+    ],
+    "translate": "урок, нотация, поучать, обучать, давать урок",
+    "transcription": " |ˈlesn|",
+    "antonyms": [],
+    "mnemonic": [
+      "lesson [лэ'сан] урок - От уроков у него (лысин-а) на голове.",
+      "lessen ['lɛs (ə) n]\nless ['lɛs]\nendless- бесконечный\nlesson ['lɛs (ə) n] - урок\n***\nУМЕНЬШИМ число деревьев и мир станет безлесен.\n(это) lessen\nНЕДООЦЕНИМ природу и мир станет безлесен. (это)\nlessen\n***\nНамного МЕНЬШЕ станет лес. (это) less"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The lesson is over.",
+        "ru": "Урок окончен.",
+        "learn": 0
+      },
+      {
+        "eng": "Lessons start at 9 o'clock.",
+        "ru": "Уроки начинаются в девять часов.",
+        "learn": 0
+      },
+      {
+        "eng": "The episode taught me a lesson I'll never forget.",
+        "ru": "Этот случай стал для меня уроком, который я никогда не забуду.",
+        "learn": 1
+      },
+      {
+        "eng": "Turn to lesson 25.",
+        "ru": "Перейдём к двадцать пятому уроку.",
+        "learn": 0
+      },
+      {
+        "eng": "I skived off a lesson once.",
+        "ru": "Однажды я прогулял урок.",
+        "learn": 0
+      },
+      {
+        "eng": "He did the lesson for today.",
+        "ru": "Он выполнил урок на сегодня.",
+        "learn": 0
+      },
+      {
+        "eng": "I learned a valuable lesson.",
+        "ru": "Я получил (выучил) ценный урок.",
+        "learn": 0
+      },
+      {
+        "eng": "He has learned a hard lesson.",
+        "ru": "Он усвоил непростой урок. / Жизнь преподнесла ему тяжёлый урок.",
+        "learn": 0
+      },
+      {
+        "eng": "Ed has his music lesson today.",
+        "ru": "У Эда сегодня урок музыки.",
+        "learn": 0
+      },
+      {
+        "eng": "She took piano lessons for years.",
+        "ru": "В течение многих лет она брала уроки игры на фортепиано.",
+        "learn": 0
+      },
+      {
+        "eng": "a teacher planning her next lesson",
+        "ru": "учительница, которая составляет план своего следующего урока",
+        "learn": 0
+      },
+      {
+        "eng": "a lesson on French verb conjugation",
+        "ru": "урок о спряжении французских глаголов",
+        "learn": 0
+      },
+      {
+        "eng": "The book is divided into 12 lessons.",
+        "ru": "Книга состоит из двенадцати уроков.",
+        "learn": 0
+      },
+      {
+        "eng": "I've got a double maths lesson next.",
+        "ru": "Дальше у меня спаренный урок математики.",
+        "learn": 0
+      },
+      {
+        "eng": "One lesson's not much good — you need five or six.",
+        "ru": "Один урок почти бесполезен, нужно пять или шесть.",
+        "learn": 0
+      },
+      {
+        "eng": "Has this class got beyond lesson five?",
+        "ru": "Это класс уже прошел пятый урок?",
+        "learn": 0
+      },
+      {
+        "eng": "Andrew gives private lessons in Spanish.",
+        "ru": "Эндрю даёт частные уроки испанского языка.",
+        "learn": 0
+      },
+      {
+        "eng": "The accident taught him an important lesson.",
+        "ru": "Этот несчастный случай преподал ему важный урок.",
+        "learn": 0
+      },
+      {
+        "eng": "Each story teaches an important moral lesson.",
+        "ru": "Каждая история преподаёт важный нравственный урок.",
+        "learn": 1
+      },
+      {
+        "eng": "After a pause the teacher continued the lesson.",
+        "ru": "После паузы учитель продолжил урок.",
+        "learn": 0
+      },
+      {
+        "eng": "The men's courage and faith is a lesson to us all.",
+        "ru": "Мужество и вера этих людей — пример всем нам.",
+        "learn": 1
+      },
+      {
+        "eng": "My words implicate the first lesson of civilization.",
+        "ru": "В моих словах заключается первый урок цивилизованности.",
+        "learn": 0
+      },
+      {
+        "eng": "The lesson of this sad story should be well rubbed in.",
+        "ru": "Урок от этой прискорбной истории следует хорошо запомнить.",
+        "learn": 0
+      },
+      {
+        "eng": "The soldiers were put on fatigue to teach them a lesson.",
+        "ru": "В наказание этим солдатам дали наряд на выполнение хозяйственных работ.",
+        "learn": 0
+      },
+      {
+        "eng": "We can learn / draw important lesson from this disaster.",
+        "ru": "Мы можем вынести важный урок из этой катастрофы.",
+        "learn": 0
+      },
+      {
+        "eng": "a hardhead who has to learn every life lesson the hard way",
+        "ru": "упрямец, которому непременно нужно учить любой жизненный урок на собственной шкуре",
+        "learn": 0
+      },
+      {
+        "eng": "The government has failed to learn the lessons of history.",
+        "ru": "Правительство не смогло усвоить уроки истории.",
+        "learn": 0
+      },
+      {
+        "eng": "You can't go out to play until you've finished your lessons.",
+        "ru": "Ты не пойдёшь играть на улицу, пока не закончишь делать уроки.",
+        "learn": 0
+      },
+      {
+        "eng": "The accident should be a salutary lesson to be more careful.",
+        "ru": "Эта авария должна послужить хорошим уроком о том, что нужно быть осторожнее /внимательнее/.",
+        "learn": 0
+      },
+      {
+        "eng": "We hurried through the lesson so that we could finish early.",
+        "ru": "Мы быстро пробежались по уроку, чтобы можно было закончить пораньше.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,90 +1,179 @@
 {
-    "upset": {
-        "comment": [
-            "closet",
-            "set",
-            "setting",
-            "offset",
-            "outset",
-            "onset",
-            "cassette",
-            "sunset"
-        ],
-        "translate": "расстройство, осадка, нарушать, расстраивать, расстроенный, опрокинутый",
-        "transcription": " |ʌpˈset|",
-        "antonyms": [],
-        "mnemonic": [
-            "upset [апеэ'т] опрокидывать - Враг наш (обссыт) и опрокинут."
-        ],
-        "examples": [
-            "Don't get upset.",
-            "I'm sorry if I upset you.",
-            "This book upset me",
-            "He was upset but never let it show.",
-            "He upset a bowl of soup.",
-            "I didn't mean to upset you.",
-            "Don't get upset. I was only teasing.",
-            "Spicy foods can cause stomach upset.",
-            "I can't see why he's so upset.",
-            "You're not still upset with me, are you?",
-            "Joe was a little upset, and so was I.",
-            "We had only one upset there.",
-            "The revolution and the upset of opinions created a new order of taste.",
-            "She's upset about missing the party.",
-            "I'm a teeny bit upset.",
-            "I'm upset that you didn't call.",
-            "I felt very upset, you know?",
-            "Don't upset yourself over it.",
-            "They were understandably upset.",
-            "There, there, don't get so upset!",
-            "She was too upset to speak to him.",
-            "I try not to let her make me upset.",
-            "It upset me to learn of their attitude.",
-            "That remark you made really upset me.",
-            "She was evidently upset by what she saw.",
-            "The foreign team upset the local team.",
-            "She was upset to learn of their attitude.",
-            "My baby gets upset when I leave the room.",
-            "The children seemed upset. One was crying.",
-            "I can always tell when he's upset."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Не надо расстраиваться.",
-            "Прости, если я тебя расстроил.",
-            "Эта книга меня расстроила.",
-            "Он был расстроен, но не показывал виду.",
-            "Он опрокинул миску с супом.",
-            "Я не хотел тебя расстраивать.",
-            "Не расстраивайся. Я просто пошутил.",
-            "Острая пища может вызвать расстройство желудка.",
-            "Не могу понять, почему он так расстроился.",
-            "Ты уже не злишься на меня, правда?",
-            "Джо был немного расстроен, и я тоже.",
-            "У нас там была только одна ссора.",
-            "Революция и разрушение общепринятых взглядов привели к новым склонностям и пристрастиям.",
-            "Она расстроена тем, что не пошла на вечеринку.",
-            "Я самую малость /чуточку/ расстроен.",
-            "Я расстроен тем, что ты не позвонила.",
-            "Я, знаешь ли, очень расстроился.",
-            "Не надо из-за этого расстраиваться.",
-            "Они, по понятным причинам, были расстроены.",
-            "Ничего, ничего, не расстраивайся!",
-            "Она была слишком расстроена, чтобы с ним разговаривать.",
-            "Я стараюсь не позволять ей себя расстраивать.",
-            "Я огорчился, узнав их мнение.",
-            "Замечание, которое вы сделали, очень меня расстроило.",
-            "Она была явно расстроена тем, что видела.",
-            "Иностранная команда неожиданно выиграла у местной.",
-            "Узнав их мнение, она очень расстроилась.",
-            "Мой малыш расстраивается, когда я выхожу из комнаты.",
-            "Дети выглядели расстроенными. Один из них плакал.",
-            "Я всегда знаю, когда он расстроен."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными"
-        ]
-    }
+  "upset": {
+    "comment": [
+      "upset |ʌpˈsɛt|,                                          upset |ʌpˈsɛt|",
+      "closet",
+      "set",
+      "setting",
+      "offset",
+      "outset",
+      "onset",
+      "cassette",
+      "sunset"
+    ],
+    "translate": "расстройство, осадка, нарушать, расстраивать, расстроенный, опрокинутый",
+    "transcription": " |ʌpˈset|",
+    "antonyms": [],
+    "mnemonic": [
+      "upset [апеэ'т] опрокидывать - Враг наш (обссыт) и опрокинут."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Don't get upset.",
+        "ru": "Не надо расстраиваться.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm sorry if I upset you.",
+        "ru": "Прости, если я тебя расстроил.",
+        "learn": 0
+      },
+      {
+        "eng": "This book upset me",
+        "ru": "Эта книга меня расстроила.",
+        "learn": 0
+      },
+      {
+        "eng": "He was upset but never let it show.",
+        "ru": "Он был расстроен, но не показывал виду.",
+        "learn": 0
+      },
+      {
+        "eng": "He upset a bowl of soup.",
+        "ru": "Он опрокинул миску с супом.",
+        "learn": 0
+      },
+      {
+        "eng": "I didn't mean to upset you.",
+        "ru": "Я не хотел тебя расстраивать.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't get upset. I was only teasing.",
+        "ru": "Не расстраивайся. Я просто пошутил.",
+        "learn": 1
+      },
+      {
+        "eng": "Spicy foods can cause stomach upset.",
+        "ru": "Острая пища может вызвать расстройство желудка.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't see why he's so upset.",
+        "ru": "Не могу понять, почему он так расстроился.",
+        "learn": 0
+      },
+      {
+        "eng": "You're not still upset with me, are you?",
+        "ru": "Ты уже не злишься на меня, правда?",
+        "learn": 0
+      },
+      {
+        "eng": "Joe was a little upset, and so was I.",
+        "ru": "Джо был немного расстроен, и я тоже.",
+        "learn": 0
+      },
+      {
+        "eng": "We had only one upset there.",
+        "ru": "У нас там была только одна ссора.",
+        "learn": 0
+      },
+      {
+        "eng": "The revolution and the upset of opinions created a new order of taste.",
+        "ru": "Революция и разрушение общепринятых взглядов привели к новым склонностям и пристрастиям.",
+        "learn": 0
+      },
+      {
+        "eng": "She's upset about missing the party.",
+        "ru": "Она расстроена тем, что не пошла на вечеринку.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm a teeny bit upset.",
+        "ru": "Я самую малость /чуточку/ расстроен.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm upset that you didn't call.",
+        "ru": "Я расстроен тем, что ты не позвонила.",
+        "learn": 0
+      },
+      {
+        "eng": "I felt very upset, you know?",
+        "ru": "Я, знаешь ли, очень расстроился.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't upset yourself over it.",
+        "ru": "Не надо из-за этого расстраиваться.",
+        "learn": 0
+      },
+      {
+        "eng": "They were understandably upset.",
+        "ru": "Они, по понятным причинам, были расстроены.",
+        "learn": 1
+      },
+      {
+        "eng": "There, there, don't get so upset!",
+        "ru": "Ничего, ничего, не расстраивайся!",
+        "learn": 0
+      },
+      {
+        "eng": "She was too upset to speak to him.",
+        "ru": "Она была слишком расстроена, чтобы с ним разговаривать.",
+        "learn": 0
+      },
+      {
+        "eng": "I try not to let her make me upset.",
+        "ru": "Я стараюсь не позволять ей себя расстраивать.",
+        "learn": 0
+      },
+      {
+        "eng": "It upset me to learn of their attitude.",
+        "ru": "Я огорчился, узнав их мнение.",
+        "learn": 0
+      },
+      {
+        "eng": "That remark you made really upset me.",
+        "ru": "Замечание, которое вы сделали, очень меня расстроило.",
+        "learn": 0
+      },
+      {
+        "eng": "She was evidently upset by what she saw.",
+        "ru": "Она была явно расстроена тем, что видела.",
+        "learn": 0
+      },
+      {
+        "eng": "The foreign team upset the local team.",
+        "ru": "Иностранная команда неожиданно выиграла у местной.",
+        "learn": 0
+      },
+      {
+        "eng": "She was upset to learn of their attitude.",
+        "ru": "Узнав их мнение, она очень расстроилась.",
+        "learn": 0
+      },
+      {
+        "eng": "My baby gets upset when I leave the room.",
+        "ru": "Мой малыш расстраивается, когда я выхожу из комнаты.",
+        "learn": 0
+      },
+      {
+        "eng": "The children seemed upset. One was crying.",
+        "ru": "Дети выглядели расстроенными. Один из них плакал.",
+        "learn": 0
+      },
+      {
+        "eng": "I can always tell when he's upset.",
+        "ru": "Я всегда знаю, когда он расстроен.",
+        "learn": 1
+      }
+    ]
+  }
 }

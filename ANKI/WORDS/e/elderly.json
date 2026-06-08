@@ -1,81 +1,168 @@
 {
-    "elderly": {
-        "comment": [
-            "old"
-        ],
-        "translate": "пожилой, немолодой, почтенный, престарелые",
-        "transcription": " |ˈeldərli|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Elderly people tend to repeat themselves.",
-            "He's been nursing an elderly relative.",
-            "The hotel was all alive with elderly ladies.",
-            "an elderly couple and their adult children",
-            "She does some voluntary work caring for the elderly.",
-            "Her grandmother is elderly and infirm.",
-            "Care facilities for the elderly are inadequate.",
-            "We work mainly with the elderly and other vulnerable groups.",
-            "Millions of elderly people live in poverty.",
-            "The program is intended to provide medical care for elderly people.",
-            "technology to help the elderly and the disabled",
-            "The charity exists to meet the needs of elderly people.",
-            "In 2000 almost 50% of the income of the elderly came from the state pension.",
-            "Too often elderly people are easy prey for swindlers and other criminals.",
-            "Hand the elderly lady into the taxi.",
-            "an elderly Russian woman with a babushka",
-            "Keep a watchful eye on elderly residents.",
-            "The actor portrays an elderly, lonely man.",
-            "an elderly woman living in genteel poverty",
-            "the vagaries of a rather eccentric, elderly lady",
-            "An elderly gentleman was asleep next to the fire.",
-            "The elderly professor was always seen in his tweeds.",
-            "Crimes against the elderly are becoming more common.",
-            "a deeply enrooted tradition of respect for the elderly",
-            "Many elderly people feel imprisoned in their own homes.",
-            "an elderly widow who was attacked and robbed last month",
-            "entitlements such as medical aid for the elderly and poor",
-            "She stood feeling lost until an elderly man took pity on her.",
-            "Most elderly people prefer to live independently if they can.",
-            "She had elderly parents who could no longer live independently."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Пожилые люди имеют привычку повторяться.",
-            "Он присматривает за престарелым родственником.",
-            "Отель был переполнен снующими туда-сюда пожилыми дамами.",
-            "пожилая супружеская пара и их взрослые дети",
-            "Она добровольно помогает ухаживать за престарелыми.",
-            "Её бабушка — пожилая и немощная.",
-            "Учреждений по уходу за престарелыми недостаточно.",
-            "Мы работаем в основном с пожилыми людьми и другими уязвимыми группами.",
-            "Миллионы пожилых людей живут в нищете.",
-            "Данная программа предназначена для оказания медицинской помощи пожилым людям.",
-            "технология оказания помощи пожилым людям и инвалидам",
-            "Дом престарелых существует для удовлетворения потребностей пожилых людей.",
-            "В 2000 г. почти половину доходов пожилых людей составляла государственная пенсия.",
-            "Зачастую пожилые люди становятся лёгкой добычей мошенников и других преступников.",
-            "Помоги старушке сесть в такси.",
-            "русская старушка в платочке",
-            "Внимательно следите за пожилыми пациентами.",
-            "Актёр изображает пожилого, одинокого человека.",
-            "пожилая женщина, живущая в благородной бедности",
-            "капризы довольно эксцентричной / чудаковатой пожилой дамы",
-            "У огня спал пожилой джентльмен.",
-            "Пожилого профессора постоянно видели в твидовом костюме.",
-            "Преступления в отношении пожилых людей становятся все более распространёнными.",
-            "глубоко укоренившаяся традиция уважения к старикам",
-            "Многие пожилые люди чувствуют себя заключёнными в собственных домах.",
-            "пожилая вдова, на которую в прошлом месяце напали и которую ограбили",
-            "правительственные пособия для пожилых и бедных, например, медицинская помощь",
-            "Так она растерянно стояла, пока какой-то пожилой мужчина не сжалился над ней.",
-            "Большинство пожилых людей по возможности предпочитают жить самостоятельно.",
-            "У неё были престарелые родители, которые больше не могли жить одни."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Слова,_которые_внешне_напоминают_наречие,_но_на_самом_деле_являются_прилагательными"
-        ]
-    }
+  "elderly": {
+    "comment": [
+      "old"
+    ],
+    "translate": "пожилой, немолодой, почтенный, престарелые",
+    "transcription": " |ˈeldərli|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Слова,_которые_внешне_напоминают_наречие,_но_на_самом_деле_являются_прилагательными"
+    ],
+    "examples": [
+      {
+        "eng": "Elderly people tend to repeat themselves.",
+        "ru": "Пожилые люди имеют привычку повторяться.",
+        "learn": 0
+      },
+      {
+        "eng": "He's been nursing an elderly relative.",
+        "ru": "Он присматривает за престарелым родственником.",
+        "learn": 0
+      },
+      {
+        "eng": "The hotel was all alive with elderly ladies.",
+        "ru": "Отель был переполнен снующими туда-сюда пожилыми дамами.",
+        "learn": 0
+      },
+      {
+        "eng": "an elderly couple and their adult children",
+        "ru": "пожилая супружеская пара и их взрослые дети",
+        "learn": 0
+      },
+      {
+        "eng": "She does some voluntary work caring for the elderly.",
+        "ru": "Она добровольно помогает ухаживать за престарелыми.",
+        "learn": 0
+      },
+      {
+        "eng": "Her grandmother is elderly and infirm.",
+        "ru": "Её бабушка — пожилая и немощная.",
+        "learn": 0
+      },
+      {
+        "eng": "Care facilities for the elderly are inadequate.",
+        "ru": "Учреждений по уходу за престарелыми недостаточно.",
+        "learn": 0
+      },
+      {
+        "eng": "We work mainly with the elderly and other vulnerable groups.",
+        "ru": "Мы работаем в основном с пожилыми людьми и другими уязвимыми группами.",
+        "learn": 1
+      },
+      {
+        "eng": "Millions of elderly people live in poverty.",
+        "ru": "Миллионы пожилых людей живут в нищете.",
+        "learn": 0
+      },
+      {
+        "eng": "The program is intended to provide medical care for elderly people.",
+        "ru": "Данная программа предназначена для оказания медицинской помощи пожилым людям.",
+        "learn": 0
+      },
+      {
+        "eng": "technology to help the elderly and the disabled",
+        "ru": "технология оказания помощи пожилым людям и инвалидам",
+        "learn": 0
+      },
+      {
+        "eng": "The charity exists to meet the needs of elderly people.",
+        "ru": "Дом престарелых существует для удовлетворения потребностей пожилых людей.",
+        "learn": 0
+      },
+      {
+        "eng": "In 2000 almost 50% of the income of the elderly came from the state pension.",
+        "ru": "В 2000 г. почти половину доходов пожилых людей составляла государственная пенсия.",
+        "learn": 0
+      },
+      {
+        "eng": "Too often elderly people are easy prey for swindlers and other criminals.",
+        "ru": "Зачастую пожилые люди становятся лёгкой добычей мошенников и других преступников.",
+        "learn": 0
+      },
+      {
+        "eng": "Hand the elderly lady into the taxi.",
+        "ru": "Помоги старушке сесть в такси.",
+        "learn": 0
+      },
+      {
+        "eng": "an elderly Russian woman with a babushka",
+        "ru": "русская старушка в платочке",
+        "learn": 0
+      },
+      {
+        "eng": "Keep a watchful eye on elderly residents.",
+        "ru": "Внимательно следите за пожилыми пациентами.",
+        "learn": 0
+      },
+      {
+        "eng": "The actor portrays an elderly, lonely man.",
+        "ru": "Актёр изображает пожилого, одинокого человека.",
+        "learn": 1
+      },
+      {
+        "eng": "an elderly woman living in genteel poverty",
+        "ru": "пожилая женщина, живущая в благородной бедности",
+        "learn": 0
+      },
+      {
+        "eng": "the vagaries of a rather eccentric, elderly lady",
+        "ru": "капризы довольно эксцентричной / чудаковатой пожилой дамы",
+        "learn": 0
+      },
+      {
+        "eng": "An elderly gentleman was asleep next to the fire.",
+        "ru": "У огня спал пожилой джентльмен.",
+        "learn": 0
+      },
+      {
+        "eng": "The elderly professor was always seen in his tweeds.",
+        "ru": "Пожилого профессора постоянно видели в твидовом костюме.",
+        "learn": 0
+      },
+      {
+        "eng": "Crimes against the elderly are becoming more common.",
+        "ru": "Преступления в отношении пожилых людей становятся все более распространёнными.",
+        "learn": 0
+      },
+      {
+        "eng": "a deeply enrooted tradition of respect for the elderly",
+        "ru": "глубоко укоренившаяся традиция уважения к старикам",
+        "learn": 0
+      },
+      {
+        "eng": "Many elderly people feel imprisoned in their own homes.",
+        "ru": "Многие пожилые люди чувствуют себя заключёнными в собственных домах.",
+        "learn": 0
+      },
+      {
+        "eng": "an elderly widow who was attacked and robbed last month",
+        "ru": "пожилая вдова, на которую в прошлом месяце напали и которую ограбили",
+        "learn": 0
+      },
+      {
+        "eng": "entitlements such as medical aid for the elderly and poor",
+        "ru": "правительственные пособия для пожилых и бедных, например, медицинская помощь",
+        "learn": 0
+      },
+      {
+        "eng": "She stood feeling lost until an elderly man took pity on her.",
+        "ru": "Так она растерянно стояла, пока какой-то пожилой мужчина не сжалился над ней.",
+        "learn": 0
+      },
+      {
+        "eng": "Most elderly people prefer to live independently if they can.",
+        "ru": "Большинство пожилых людей по возможности предпочитают жить самостоятельно.",
+        "learn": 0
+      },
+      {
+        "eng": "She had elderly parents who could no longer live independently.",
+        "ru": "У неё были престарелые родители, которые больше не могли жить одни.",
+        "learn": 0
+      }
+    ]
+  }
 }

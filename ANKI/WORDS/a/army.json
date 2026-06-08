@@ -1,84 +1,170 @@
 {
-    "army": {
-        "comment": [
-            "armed",
-            "arm",
-            "arms",
-            "armour",
-            "armchair"
-        ],
-        "translate": "армия, войско, масса, множество, армейский, войсковой",
-        "transcription": " |ˈɑːrmi|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Salvation Army",
-            "Blue Ribbon Army",
-            "The army struck at dawn.",
-            "at the return from the army",
-            "Royal Army",
-            "Army Post Office",
-            "The army was disranked.",
-            "The army was well armed.",
-            "The army seized the town.",
-            "The army was pushing north.",
-            "I decided to join the army.",
-            "Their army was put to flight.",
-            "The army surged forward.",
-            "They have the army behind them.",
-            "Both the boys entered the army.",
-            "He entered the army at nineteen.",
-            "The army sustained heavy losses.",
-            "The army will make a man of you.",
-            "A friend of mine is in the army.",
-            "Don't let the army grind you down!",
-            "I was an army brat.",
-            "the leader of an army",
-            "The army is on maneuvers.",
-            "the army's plan of attack",
-            "the middle ranks of the army",
-            "She dropped into army jargon.",
-            "Army patrols combed the area.",
-            "The army besieged the castle.",
-            "He was too soft for the army.",
-            "Both my sons are in the army."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Армия Спасения",
-            "Общество трезвенников",
-            "Армия атаковала на рассвете.",
-            "после возвращения из армии",
-            "Британские Вооружённые Силы",
-            "Армейское почтовое отделение",
-            "Армия была дезорганизована.",
-            "Армия была хорошо вооружена.",
-            "Армия захватила город.",
-            "Армия продвигалась на север.",
-            "Я решил поступить на военную службу.",
-            "Их армии пришлось бежать.",
-            "Армия рванулась вперёд.",
-            "За их спиной стоит армия.",
-            "Оба парня пошли в армию.",
-            "Он пошёл в армию в девятнадцать лет.",
-            "Армия понесла тяжёлые потери.",
-            "Армия сделает из тебя мужчину.",
-            "Один мой друг служит в армии.",
-            "Не дай армии себя сломать!",
-            "Я родился в семье военного.",
-            "командующий армией",
-            "Армия находится на манёврах /на учениях/.",
-            "план наступления армии",
-            "средние армейские чины",
-            "Она перешла на армейский жаргон.",
-            "Район был прочёсан армейскими патрулями.",
-            "Армия осадила замок.",
-            "Для армии он был слишком слаб.",
-            "Оба моих сына служат в армии."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "army": {
+    "comment": [
+      "armed",
+      "arm",
+      "arms",
+      "armour",
+      "armchair"
+    ],
+    "translate": "армия, войско, масса, множество, армейский, войсковой",
+    "transcription": " |ˈɑːrmi|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Salvation Army",
+        "ru": "Армия Спасения",
+        "learn": 0
+      },
+      {
+        "eng": "Blue Ribbon Army",
+        "ru": "Общество трезвенников",
+        "learn": 0
+      },
+      {
+        "eng": "The army struck at dawn.",
+        "ru": "Армия атаковала на рассвете.",
+        "learn": 1
+      },
+      {
+        "eng": "at the return from the army",
+        "ru": "после возвращения из армии",
+        "learn": 0
+      },
+      {
+        "eng": "Royal Army",
+        "ru": "Британские Вооружённые Силы",
+        "learn": 0
+      },
+      {
+        "eng": "Army Post Office",
+        "ru": "Армейское почтовое отделение",
+        "learn": 0
+      },
+      {
+        "eng": "The army was disranked.",
+        "ru": "Армия была дезорганизована.",
+        "learn": 0
+      },
+      {
+        "eng": "The army was well armed.",
+        "ru": "Армия была хорошо вооружена.",
+        "learn": 0
+      },
+      {
+        "eng": "The army seized the town.",
+        "ru": "Армия захватила город.",
+        "learn": 0
+      },
+      {
+        "eng": "The army was pushing north.",
+        "ru": "Армия продвигалась на север.",
+        "learn": 0
+      },
+      {
+        "eng": "I decided to join the army.",
+        "ru": "Я решил поступить на военную службу.",
+        "learn": 1
+      },
+      {
+        "eng": "Their army was put to flight.",
+        "ru": "Их армии пришлось бежать.",
+        "learn": 0
+      },
+      {
+        "eng": "The army surged forward.",
+        "ru": "Армия рванулась вперёд.",
+        "learn": 0
+      },
+      {
+        "eng": "They have the army behind them.",
+        "ru": "За их спиной стоит армия.",
+        "learn": 0
+      },
+      {
+        "eng": "Both the boys entered the army.",
+        "ru": "Оба парня пошли в армию.",
+        "learn": 0
+      },
+      {
+        "eng": "He entered the army at nineteen.",
+        "ru": "Он пошёл в армию в девятнадцать лет.",
+        "learn": 0
+      },
+      {
+        "eng": "The army sustained heavy losses.",
+        "ru": "Армия понесла тяжёлые потери.",
+        "learn": 0
+      },
+      {
+        "eng": "The army will make a man of you.",
+        "ru": "Армия сделает из тебя мужчину.",
+        "learn": 0
+      },
+      {
+        "eng": "A friend of mine is in the army.",
+        "ru": "Один мой друг служит в армии.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't let the army grind you down!",
+        "ru": "Не дай армии себя сломать!",
+        "learn": 0
+      },
+      {
+        "eng": "I was an army brat.",
+        "ru": "Я родился в семье военного.",
+        "learn": 0
+      },
+      {
+        "eng": "the leader of an army",
+        "ru": "командующий армией",
+        "learn": 0
+      },
+      {
+        "eng": "The army is on maneuvers.",
+        "ru": "Армия находится на манёврах /на учениях/.",
+        "learn": 0
+      },
+      {
+        "eng": "the army's plan of attack",
+        "ru": "план наступления армии",
+        "learn": 0
+      },
+      {
+        "eng": "the middle ranks of the army",
+        "ru": "средние армейские чины",
+        "learn": 0
+      },
+      {
+        "eng": "She dropped into army jargon.",
+        "ru": "Она перешла на армейский жаргон.",
+        "learn": 0
+      },
+      {
+        "eng": "Army patrols combed the area.",
+        "ru": "Район был прочёсан армейскими патрулями.",
+        "learn": 0
+      },
+      {
+        "eng": "The army besieged the castle.",
+        "ru": "Армия осадила замок.",
+        "learn": 0
+      },
+      {
+        "eng": "He was too soft for the army.",
+        "ru": "Для армии он был слишком слаб.",
+        "learn": 0
+      },
+      {
+        "eng": "Both my sons are in the army.",
+        "ru": "Оба моих сына служат в армии.",
+        "learn": 0
+      }
+    ]
+  }
 }

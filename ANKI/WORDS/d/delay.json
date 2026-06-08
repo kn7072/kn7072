@@ -1,86 +1,174 @@
 {
-    "delay": {
-        "comment": [
-            "clay",
-            "layout",
-            "layer",
-            "lay"
-        ],
-        "translate": "задержка, промедление, замедление, задерживать, откладывать, медлить",
-        "transcription": " |dɪˈleɪ|",
-        "antonyms": [],
-        "mnemonic": [
-            "delay [дилэ'й] задержка - У (Мен-дилей-ева) задержка при мочеиспускании.",
-            "slay [sleı]\nlay [leı] - класть, положить, ложиться\ndelay [dɪ'leɪ] - задержка, задерживать\nslayer - убийца\n***\nНе надо УБИВАТЬ, когда станешь взрослей. (это) slay\nТех, кто УБИВАЕТ, ты милиции слей. (это) slay\n***\nТы соперника сразил \"slay\",\nна лопатки положил \"lay\".\n***\nИ в игре \"play\"\nмогут убить \"slay\"."
-        ],
-        "examples": [
-            "We decided to delay the trip.",
-            "I was delayed by the traffic.",
-            "Delays are dangerous.",
-            "Sorry for the delay in answering",
-            "The delay will be minor.",
-            "The flight was badly delayed because of fog.",
-            "He's mad about the delay.",
-            "Do you know what's causing the delay?",
-            "The train was delayed for two hours.",
-            "The matter allows of no delay.",
-            "Sorry for the delay, Mr Weaver.",
-            "We delayed sending the telegram.",
-            "He delayed my calling the police.",
-            "He didn't delay an instant.",
-            "The delay is only temporary.",
-            "The question admits of no delay.",
-            "Another delay is the last thing I need!",
-            "He decided to delay his return to York.",
-            "The long delay had put us all in a bad mood.",
-            "They were vexed to learn of the delay.",
-            "She apologized for the delay in answering my letter.",
-            "All flights are subject to delay.",
-            "All the passengers were fuming at the delay.",
-            "This delay has killed our chances of finishing the project on schedule.",
-            "Additional expenses arose from your delay.",
-            "Don't delay, you're only putting off the evil hour.",
-            "We've had one delay after another, and I'm starting to feel pretty fed up.",
-            "In vain the captain fretted over the delay.",
-            "A brakesman told me this delay was not very unusual.",
-            "The fact-finding team will start its work without delay."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мы решили отложить поездку.",
-            "Я опоздал из-за того, что попал в пробку.",
-            "Промедления опасны.",
-            "Извините за задержку с ответом",
-            "Задержка будет незначительной.",
-            "Вылет был сильно задержан из-за тумана.",
-            "Он раздражён из-за задержки.",
-            "Вы не в курсе, из-за чего эта задержка?",
-            "Поезд опоздал на два часа.",
-            "Дело не терпит отлагательства.",
-            "Простите, что заставил вас ждать, мистер Уивер.",
-            "Мы решили пока не посылать телеграмму.",
-            "Он не давал мне позвонить в полицию.",
-            "Он не мешкал [не медлил] ни минуты.",
-            "Это всего лишь временная заминка.",
-            "Вопрос не терпит отлагательства.",
-            "Вот только ещё одной задержки мне не хватало!",
-            "Он решил отложить своё возвращение в Йорк.",
-            "Длительная задержка испортила нам всем настроение.",
-            "Они очень расстроились, узнав о задержке.",
-            "Она извинилась, что не ответила на моё письмо сразу.",
-            "Возможно, все рейсы будут задерживаться.",
-            "Все пассажиры нервничали из-за задержки.",
-            "Эта задержка уничтожила наши шансы завершить проект в установленные сроки.",
-            "Ваша задержка привела к дополнительным расходам.",
-            "Не стоит (с этим) тянуть: вы всего лишь откладываете неприятную минуту.",
-            "У нас одна задержка за другой, и это уже начинает порядком надоедать.",
-            "Напрасно капитан волновался из-за задержки.",
-            "Тормозной кондуктор сказал мне, что эта отсрочка была довольно обычным делом.",
-            "Комиссия по расследованию начнет работать немедленно."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "delay": {
+    "comment": [
+      "clay",
+      "layout",
+      "layer",
+      "lay"
+    ],
+    "translate": "задержка, промедление, замедление, задерживать, откладывать, медлить",
+    "transcription": " |dɪˈleɪ|",
+    "antonyms": [],
+    "mnemonic": [
+      "delay [дилэ'й] задержка - У (Мен-дилей-ева) задержка при мочеиспускании.",
+      "slay [sleı]\nlay [leı] - класть, положить, ложиться\ndelay [dɪ'leɪ] - задержка, задерживать\nslayer - убийца\n***\nНе надо УБИВАТЬ, когда станешь взрослей. (это) slay\nТех, кто УБИВАЕТ, ты милиции слей. (это) slay\n***\nТы соперника сразил \"slay\",\nна лопатки положил \"lay\".\n***\nИ в игре \"play\"\nмогут убить \"slay\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "gerund_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "We decided to delay the trip.",
+        "ru": "Мы решили отложить поездку.",
+        "learn": 0
+      },
+      {
+        "eng": "I was delayed by the traffic.",
+        "ru": "Я опоздал из-за того, что попал в пробку.",
+        "learn": 0
+      },
+      {
+        "eng": "Delays are dangerous.",
+        "ru": "Промедления опасны.",
+        "learn": 0
+      },
+      {
+        "eng": "Sorry for the delay in answering",
+        "ru": "Извините за задержку с ответом",
+        "learn": 0
+      },
+      {
+        "eng": "The delay will be minor.",
+        "ru": "Задержка будет незначительной.",
+        "learn": 0
+      },
+      {
+        "eng": "The flight was badly delayed because of fog.",
+        "ru": "Вылет был сильно задержан из-за тумана.",
+        "learn": 0
+      },
+      {
+        "eng": "He's mad about the delay.",
+        "ru": "Он раздражён из-за задержки.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you know what's causing the delay?",
+        "ru": "Вы не в курсе, из-за чего эта задержка?",
+        "learn": 0
+      },
+      {
+        "eng": "The train was delayed for two hours.",
+        "ru": "Поезд опоздал на два часа.",
+        "learn": 0
+      },
+      {
+        "eng": "The matter allows of no delay.",
+        "ru": "Дело не терпит отлагательства.",
+        "learn": 0
+      },
+      {
+        "eng": "Sorry for the delay, Mr Weaver.",
+        "ru": "Простите, что заставил вас ждать, мистер Уивер.",
+        "learn": 0
+      },
+      {
+        "eng": "We delayed sending the telegram.",
+        "ru": "Мы решили пока не посылать телеграмму.",
+        "learn": 0
+      },
+      {
+        "eng": "He delayed my calling the police.",
+        "ru": "Он не давал мне позвонить в полицию.",
+        "learn": 0
+      },
+      {
+        "eng": "He didn't delay an instant.",
+        "ru": "Он не мешкал [не медлил] ни минуты.",
+        "learn": 0
+      },
+      {
+        "eng": "The delay is only temporary.",
+        "ru": "Это всего лишь временная заминка.",
+        "learn": 0
+      },
+      {
+        "eng": "The question admits of no delay.",
+        "ru": "Вопрос не терпит отлагательства.",
+        "learn": 0
+      },
+      {
+        "eng": "Another delay is the last thing I need!",
+        "ru": "Вот только ещё одной задержки мне не хватало!",
+        "learn": 0
+      },
+      {
+        "eng": "He decided to delay his return to York.",
+        "ru": "Он решил отложить своё возвращение в Йорк.",
+        "learn": 0
+      },
+      {
+        "eng": "The long delay had put us all in a bad mood.",
+        "ru": "Длительная задержка испортила нам всем настроение.",
+        "learn": 0
+      },
+      {
+        "eng": "They were vexed to learn of the delay.",
+        "ru": "Они очень расстроились, узнав о задержке.",
+        "learn": 0
+      },
+      {
+        "eng": "She apologized for the delay in answering my letter.",
+        "ru": "Она извинилась, что не ответила на моё письмо сразу.",
+        "learn": 0
+      },
+      {
+        "eng": "All flights are subject to delay.",
+        "ru": "Возможно, все рейсы будут задерживаться.",
+        "learn": 0
+      },
+      {
+        "eng": "All the passengers were fuming at the delay.",
+        "ru": "Все пассажиры нервничали из-за задержки.",
+        "learn": 0
+      },
+      {
+        "eng": "This delay has killed our chances of finishing the project on schedule.",
+        "ru": "Эта задержка уничтожила наши шансы завершить проект в установленные сроки.",
+        "learn": 1
+      },
+      {
+        "eng": "Additional expenses arose from your delay.",
+        "ru": "Ваша задержка привела к дополнительным расходам.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't delay, you're only putting off the evil hour.",
+        "ru": "Не стоит (с этим) тянуть: вы всего лишь откладываете неприятную минуту.",
+        "learn": 0
+      },
+      {
+        "eng": "We've had one delay after another, and I'm starting to feel pretty fed up.",
+        "ru": "У нас одна задержка за другой, и это уже начинает порядком надоедать.",
+        "learn": 0
+      },
+      {
+        "eng": "In vain the captain fretted over the delay.",
+        "ru": "Напрасно капитан волновался из-за задержки.",
+        "learn": 0
+      },
+      {
+        "eng": "A brakesman told me this delay was not very unusual.",
+        "ru": "Тормозной кондуктор сказал мне, что эта отсрочка была довольно обычным делом.",
+        "learn": 0
+      },
+      {
+        "eng": "The fact-finding team will start its work without delay.",
+        "ru": "Комиссия по расследованию начнет работать немедленно.",
+        "learn": 0
+      }
+    ]
+  }
 }

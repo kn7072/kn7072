@@ -1,106 +1,193 @@
 {
-    "pleasure": {
-        "comment": [
-            "pleasant, pleasure - приятный, удовольствие",
-            "measure",
-            "measurement",
-            "pressure",
-            "ensure",
-            "sure",
-            "leisure",
-            "assure",
-            "surely",
-            "closure",
-            "insure",
-            "disclosure",
-            "reassure",
-            "exposure",
-            "treasure",
-            "unsure",
-            "pleasant",
-            "please",
-            "pleased",
-            "plead",
-            "unpleasant"
-        ],
-        "translate": "удовольствие, наслаждение, доставлять удовольствие, увеселительный",
-        "transcription": " |ˈpleʒər|",
-        "antonyms": [],
-        "mnemonic": [
-            "pleasure [плэ'жэ] удовольствие - Удовольствия на (плэже*) ищи ('Пляже).",
-            "pleasure ['pleʒə]\n***\nРАЗВЛЕЧЕНИЕ на пляже. (это) pleasure\nРАЗВЛЕКУ тебя на пляже. (это) pleasure\nНАСЛАЖДЕНИЕ на пляже. (это) pleasure\nУДОВОЛЬСТВИЕ на пляже. (это) pleasure\n***\nЭто наслаждение \"pleasure\" -\nискать сокровища \"treasure\"."
-        ],
-        "examples": [
-            "He laughed his pleasure.",
-            "It's been a pleasure to meet you.",
-            "It is my pleasure to announce that ...",
-            "He beamed with pleasure.",
-            "It's always a pleasure to see you.",
-            "He spent his income all on pleasure.",
-            "Her face lit up with pleasure.",
-            "You will always pleasure me with your company.",
-            "May I have the pleasure of seeing you again?",
-            "May I have the pleasure of a dance?",
-            "I paint for the sheer pleasure of it.",
-            "“I can't ask you to do that.” “Don't be silly. It is my pleasure.”",
-            "It pleasured him to see the smoke.",
-            "derive pleasure from one's garden",
-            "She gets a lot of pleasure from her garden.",
-            "Teddy managed to mix business with pleasure.",
-            "It gave me great pleasure to make your acquaintance.",
-            "Men always choose the life which exceeds in pleasure.",
-            "He means to extract the utmost possible amount of pleasure out of this life.",
-            "Carol was a pleasure to work with.",
-            "It takes greatly from the pleasure.",
-            "There are weird things I can pleasure in.",
-            "The beauty of the garden was a pleasure to behold.",
-            "I make it a rule never to mix business with pleasure.",
-            "It gives me great pleasure to present the next speaker.",
-            "I had the pleasure of a delightful tete-a-tete with him.",
-            "a feeling of pure unadulterated pleasure",
-            "She was the first one he ever pleasured.",
-            "The judges were removable at the royal pleasure.",
-            "I will be no sponge to be squeezed for any man's pleasure. (James)"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он рассмеялся от удовольствия.",
-            "Приятно было с вами познакомиться.",
-            "Имею удовольствие сообщить, что...",
-            "Он сиял от удовольствия.",
-            "Всегда рад вас видеть.",
-            "Он тратил деньги только на развлечения.",
-            "Ее лицо вспыхнуло от удовольствия.",
-            "Ваша компания всегда мне будет приятна.",
-            "Могу ли я иметь удовольствие видеть вас снова?",
-            "Могу ли я удостоиться чести танцевать с вами?",
-            "Я рисую только ради удовольствия.",
-            "“Я не могу тебя просить это сделать”. — \"Не глупи. Я рад помочь.\"",
-            "Вид дыма порадовал его.",
-            "получать удовольствие от собственного сада",
-            "Сад доставляет ей массу удовольствия.",
-            "Тедди удавалось сочетать дело с развлечениями.",
-            "Я был очень рад познакомиться с вами.",
-            "Люди всегда выбирают жизнь, в которой преобладают удовольствия.",
-            "Он хочет извлечь все возможные удовольствия из этой жизни.",
-            "С Кэрол было приятно работать.",
-            "Это сильно уменьшает удовольствие.",
-            "Есть странные вещи, которые мне нравится делать.",
-            "Созерцать красоту сада было удовольствием.",
-            "Я взял себе за правило никогда не смешивать бизнес с удовольствием.",
-            "Я с большим удовольствием представлю следующего выступающего.",
-            "Я имел удовольствие беседовать с ним наедине.",
-            "Чувство истинного удовольствия",
-            "Она была первой, кого он смог удовлетворить.",
-            "Судьи могли быть смещены по желанию короля.",
-            "Я не стану источником, из которого всякий ради своего удовольствия сможет выдавливать деньги."
-        ],
-        "stars": 3,
-        "groups": [
-            "ea_=_[e]",
-            "Инфинитив_с_to_после_сущ",
-            "Инфинитив",
-            "all_words"
-        ]
-    }
+  "pleasure": {
+    "comment": [
+      "pleasant, pleasure - приятный, удовольствие",
+      "measure",
+      "measurement",
+      "pressure",
+      "ensure",
+      "sure",
+      "leisure",
+      "assure",
+      "surely",
+      "closure",
+      "insure",
+      "disclosure",
+      "reassure",
+      "exposure",
+      "treasure",
+      "unsure",
+      "pleasant",
+      "please",
+      "pleased",
+      "plead",
+      "unpleasant"
+    ],
+    "translate": "удовольствие, наслаждение, доставлять удовольствие, увеселительный",
+    "transcription": " |ˈpleʒər|",
+    "antonyms": [],
+    "mnemonic": [
+      "pleasure [плэ'жэ] удовольствие - Удовольствия на (плэже*) ищи ('Пляже).",
+      "pleasure ['pleʒə]\n***\nРАЗВЛЕЧЕНИЕ на пляже. (это) pleasure\nРАЗВЛЕКУ тебя на пляже. (это) pleasure\nНАСЛАЖДЕНИЕ на пляже. (это) pleasure\nУДОВОЛЬСТВИЕ на пляже. (это) pleasure\n***\nЭто наслаждение \"pleasure\" -\nискать сокровища \"treasure\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ea_=_[e]",
+      "Инфинитив_с_to_после_сущ",
+      "Инфинитив"
+    ],
+    "examples": [
+      {
+        "eng": "He laughed his pleasure.",
+        "ru": "Он рассмеялся от удовольствия.",
+        "learn": 0
+      },
+      {
+        "eng": "It's been a pleasure to meet you.",
+        "ru": "Приятно было с вами познакомиться.",
+        "learn": 0
+      },
+      {
+        "eng": "It is my pleasure to announce that ...",
+        "ru": "Имею удовольствие сообщить, что...",
+        "learn": 0
+      },
+      {
+        "eng": "He beamed with pleasure.",
+        "ru": "Он сиял от удовольствия.",
+        "learn": 0
+      },
+      {
+        "eng": "It's always a pleasure to see you.",
+        "ru": "Всегда рад вас видеть.",
+        "learn": 0
+      },
+      {
+        "eng": "He spent his income all on pleasure.",
+        "ru": "Он тратил деньги только на развлечения.",
+        "learn": 1
+      },
+      {
+        "eng": "Her face lit up with pleasure.",
+        "ru": "Ее лицо вспыхнуло от удовольствия.",
+        "learn": 0
+      },
+      {
+        "eng": "You will always pleasure me with your company.",
+        "ru": "Ваша компания всегда мне будет приятна.",
+        "learn": 0
+      },
+      {
+        "eng": "May I have the pleasure of seeing you again?",
+        "ru": "Могу ли я иметь удовольствие видеть вас снова?",
+        "learn": 0
+      },
+      {
+        "eng": "May I have the pleasure of a dance?",
+        "ru": "Могу ли я удостоиться чести танцевать с вами?",
+        "learn": 0
+      },
+      {
+        "eng": "I paint for the sheer pleasure of it.",
+        "ru": "Я рисую только ради удовольствия.",
+        "learn": 0
+      },
+      {
+        "eng": "“I can't ask you to do that.” “Don't be silly. It is my pleasure.”",
+        "ru": "“Я не могу тебя просить это сделать”. — \"Не глупи. Я рад помочь.\"",
+        "learn": 0
+      },
+      {
+        "eng": "It pleasured him to see the smoke.",
+        "ru": "Вид дыма порадовал его.",
+        "learn": 0
+      },
+      {
+        "eng": "derive pleasure from one's garden",
+        "ru": "получать удовольствие от собственного сада",
+        "learn": 1
+      },
+      {
+        "eng": "She gets a lot of pleasure from her garden.",
+        "ru": "Сад доставляет ей массу удовольствия.",
+        "learn": 0
+      },
+      {
+        "eng": "Teddy managed to mix business with pleasure.",
+        "ru": "Тедди удавалось сочетать дело с развлечениями.",
+        "learn": 0
+      },
+      {
+        "eng": "It gave me great pleasure to make your acquaintance.",
+        "ru": "Я был очень рад познакомиться с вами.",
+        "learn": 0
+      },
+      {
+        "eng": "Men always choose the life which exceeds in pleasure.",
+        "ru": "Люди всегда выбирают жизнь, в которой преобладают удовольствия.",
+        "learn": 0
+      },
+      {
+        "eng": "He means to extract the utmost possible amount of pleasure out of this life.",
+        "ru": "Он хочет извлечь все возможные удовольствия из этой жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "Carol was a pleasure to work with.",
+        "ru": "С Кэрол было приятно работать.",
+        "learn": 1
+      },
+      {
+        "eng": "It takes greatly from the pleasure.",
+        "ru": "Это сильно уменьшает удовольствие.",
+        "learn": 0
+      },
+      {
+        "eng": "There are weird things I can pleasure in.",
+        "ru": "Есть странные вещи, которые мне нравится делать.",
+        "learn": 0
+      },
+      {
+        "eng": "The beauty of the garden was a pleasure to behold.",
+        "ru": "Созерцать красоту сада было удовольствием.",
+        "learn": 0
+      },
+      {
+        "eng": "I make it a rule never to mix business with pleasure.",
+        "ru": "Я взял себе за правило никогда не смешивать бизнес с удовольствием.",
+        "learn": 0
+      },
+      {
+        "eng": "It gives me great pleasure to present the next speaker.",
+        "ru": "Я с большим удовольствием представлю следующего выступающего.",
+        "learn": 0
+      },
+      {
+        "eng": "I had the pleasure of a delightful tete-a-tete with him.",
+        "ru": "Я имел удовольствие беседовать с ним наедине.",
+        "learn": 0
+      },
+      {
+        "eng": "a feeling of pure unadulterated pleasure",
+        "ru": "Чувство истинного удовольствия",
+        "learn": 0
+      },
+      {
+        "eng": "She was the first one he ever pleasured.",
+        "ru": "Она была первой, кого он смог удовлетворить.",
+        "learn": 0
+      },
+      {
+        "eng": "The judges were removable at the royal pleasure.",
+        "ru": "Судьи могли быть смещены по желанию короля.",
+        "learn": 0
+      },
+      {
+        "eng": "I will be no sponge to be squeezed for any man's pleasure. (James)",
+        "ru": "Я не стану источником, из которого всякий ради своего удовольствия сможет выдавливать деньги.",
+        "learn": 0
+      }
+    ]
+  }
 }

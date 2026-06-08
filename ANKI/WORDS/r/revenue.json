@@ -1,73 +1,141 @@
 {
-    "revenue": {
-        "comment": [
-            "revenge",
-            "reveal",
-            "avenue",
-            "venue"
-        ],
-        "translate": "доход, годовой доход",
-        "transcription": " |ˈrevənuː|",
-        "antonyms": [],
-        "mnemonic": [
-            "reveal [rɪ'vi: l]\n***\nТебя РАЗОБЛАЧИЛИ, и ты рожу скривил. (это) reveal\nТебя ОБНАРУЖИЛИ, и ты рожу скривил. (это) reveal\nВсё ВСПЛЫЛО, и ты рожу скривил. (это) reveal\n***\nrevenue ['revɪnju: ]\n***\nДОХОД получил, подметая бульвар|авеню. (это)\nrevenue\nГОДОВОЙ ДОХОД мал, но я никого не|\"винью\". (это)\nrevenue\nПолучению ДОХОДА я обязан ревеню. (это) revenue"
-        ],
-        "examples": [
-            "This business should generate a lot of revenue.",
-            "It is plain that we do overspend our revenue.",
-            "The revenue figures may be slightly exaggerated.",
-            "I received a notification from the Revenue.",
-            "Internal Revenue Service",
-            "The factory lost revenue because of the strike by the workers.",
-            "Poor revenue figures have stoked concerns about possible layoffs.",
-            "a slice of the company's revenue",
-            "Which caused no drain on the revenue of the state.",
-            "The firm is looking for another source of revenue.",
-            "Strikes have cost £20 million in lost revenues.",
-            "The fines and amercements were another branch of the king's revenue.",
-            "This new product will be a major revenue generator.",
-            "The Puritans were strongly bent to circumcise the Church both in authority and revenue.",
-            "The Internal Revenue Service audited him twice in 10 years.",
-            "an increase in tax revenues of 8.4%",
-            "Bureau of Internal Revenue",
-            "Advertising revenue fell from $98.5 million to $93.3 million.",
-            "The Inland Revenue wrote off £900 million in unpaid taxes.",
-            "The project's boosters claim it will generate $2.9 million in tax revenue for the city.",
-            "The Web site's popularity increased exponentially, resulting in a proportional increase in advertising revenue.",
-            "The estate renders some revenue for the family.",
-            "The Internal Revenue Service selected us for an audit.",
-            "The strike has cost the company £2 million in lost revenue."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Этот бизнес должен принести большие доходы.",
-            "Ясно, что мы тратим больше, чем получаем.",
-            "Показатели выручки могут быть слегка преувеличены.",
-            "Я получил извещение от Налогового управления.",
-            "Налоговое управление (США)",
-            "Из-за забастовки рабочих завод лишился прибыли",
-            "Плохие показатели доходов породили опасения относительно возможных увольнений.",
-            "часть доходов компании",
-            "Что никак не уменьшило доходов штата.",
-            "Фирма ищет другой источник дохода.",
-            "Забастовки обошлись в двадцать миллионов фунтов стерлингов потерянных доходов.",
-            "Налоги и денежные штрафы были ещё одним источником дохода королевской казны.",
-            "Этот новый продукт станет основным источником доходов.",
-            "Пуритане были серьёзно настроены на то, чтобы ограничить власть и доходы церкви.",
-            "Налоговая служба США проверяла его два раза за десять лет.",
-            "увеличение налоговых поступлений в бюджет на 8,4%",
-            "Налоговое управление (в США)",
-            "Доходы от рекламы упали с 98,5 до 93,3 миллионов долларов.",
-            "Управление налоговых сборов списало девятьсот миллионов фунтов стерлингов в виде неоплаченных налогов.",
-            "Сторонники проекта заявляют, что он принесёт городу два миллиона девятьсот тысяч долларов в виде налоговых поступлений.",
-            "Популярность веб-сайта выросла в геометрической прогрессии, в результате чего произошёл пропорциональный рост доходов от рекламы.",
-            "Поместье приносит семье некоторый доход.",
-            "Налоговая служба выбрала нас для проверки отчётности.",
-            "Забастовка обошлась компании в два миллиона фунтов стерлингов недополученной прибыли."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "revenue": {
+    "comment": [
+      "revenge",
+      "reveal",
+      "avenue",
+      "venue"
+    ],
+    "translate": "доход, годовой доход",
+    "transcription": " |ˈrevənuː|",
+    "antonyms": [],
+    "mnemonic": [
+      "reveal [rɪ'vi: l]\n***\nТебя РАЗОБЛАЧИЛИ, и ты рожу скривил. (это) reveal\nТебя ОБНАРУЖИЛИ, и ты рожу скривил. (это) reveal\nВсё ВСПЛЫЛО, и ты рожу скривил. (это) reveal\n***\nrevenue ['revɪnju: ]\n***\nДОХОД получил, подметая бульвар|авеню. (это)\nrevenue\nГОДОВОЙ ДОХОД мал, но я никого не|\"винью\". (это)\nrevenue\nПолучению ДОХОДА я обязан ревеню. (это) revenue"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "This business should generate a lot of revenue.",
+        "ru": "Этот бизнес должен принести большие доходы.",
+        "learn": 1
+      },
+      {
+        "eng": "It is plain that we do overspend our revenue.",
+        "ru": "Ясно, что мы тратим больше, чем получаем.",
+        "learn": 0
+      },
+      {
+        "eng": "The revenue figures may be slightly exaggerated.",
+        "ru": "Показатели выручки могут быть слегка преувеличены.",
+        "learn": 1
+      },
+      {
+        "eng": "I received a notification from the Revenue.",
+        "ru": "Я получил извещение от Налогового управления.",
+        "learn": 0
+      },
+      {
+        "eng": "Internal Revenue Service",
+        "ru": "Налоговое управление (США)",
+        "learn": 0
+      },
+      {
+        "eng": "The factory lost revenue because of the strike by the workers.",
+        "ru": "Из-за забастовки рабочих завод лишился прибыли",
+        "learn": 0
+      },
+      {
+        "eng": "Poor revenue figures have stoked concerns about possible layoffs.",
+        "ru": "Плохие показатели доходов породили опасения относительно возможных увольнений.",
+        "learn": 0
+      },
+      {
+        "eng": "a slice of the company's revenue",
+        "ru": "часть доходов компании",
+        "learn": 0
+      },
+      {
+        "eng": "Which caused no drain on the revenue of the state.",
+        "ru": "Что никак не уменьшило доходов штата.",
+        "learn": 0
+      },
+      {
+        "eng": "The firm is looking for another source of revenue.",
+        "ru": "Фирма ищет другой источник дохода.",
+        "learn": 0
+      },
+      {
+        "eng": "Strikes have cost £20 million in lost revenues.",
+        "ru": "Забастовки обошлись в двадцать миллионов фунтов стерлингов потерянных доходов.",
+        "learn": 0
+      },
+      {
+        "eng": "The fines and amercements were another branch of the king's revenue.",
+        "ru": "Налоги и денежные штрафы были ещё одним источником дохода королевской казны.",
+        "learn": 0
+      },
+      {
+        "eng": "This new product will be a major revenue generator.",
+        "ru": "Этот новый продукт станет основным источником доходов.",
+        "learn": 1
+      },
+      {
+        "eng": "The Puritans were strongly bent to circumcise the Church both in authority and revenue.",
+        "ru": "Пуритане были серьёзно настроены на то, чтобы ограничить власть и доходы церкви.",
+        "learn": 0
+      },
+      {
+        "eng": "The Internal Revenue Service audited him twice in 10 years.",
+        "ru": "Налоговая служба США проверяла его два раза за десять лет.",
+        "learn": 0
+      },
+      {
+        "eng": "an increase in tax revenues of 8.4%",
+        "ru": "увеличение налоговых поступлений в бюджет на 8,4%",
+        "learn": 0
+      },
+      {
+        "eng": "Bureau of Internal Revenue",
+        "ru": "Налоговое управление (в США)",
+        "learn": 0
+      },
+      {
+        "eng": "Advertising revenue fell from $98.5 million to $93.3 million.",
+        "ru": "Доходы от рекламы упали с 98,5 до 93,3 миллионов долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "The Inland Revenue wrote off £900 million in unpaid taxes.",
+        "ru": "Управление налоговых сборов списало девятьсот миллионов фунтов стерлингов в виде неоплаченных налогов.",
+        "learn": 0
+      },
+      {
+        "eng": "The project's boosters claim it will generate $2.9 million in tax revenue for the city.",
+        "ru": "Сторонники проекта заявляют, что он принесёт городу два миллиона девятьсот тысяч долларов в виде налоговых поступлений.",
+        "learn": 0
+      },
+      {
+        "eng": "The Web site's popularity increased exponentially, resulting in a proportional increase in advertising revenue.",
+        "ru": "Популярность веб-сайта выросла в геометрической прогрессии, в результате чего произошёл пропорциональный рост доходов от рекламы.",
+        "learn": 0
+      },
+      {
+        "eng": "The estate renders some revenue for the family.",
+        "ru": "Поместье приносит семье некоторый доход.",
+        "learn": 0
+      },
+      {
+        "eng": "The Internal Revenue Service selected us for an audit.",
+        "ru": "Налоговая служба выбрала нас для проверки отчётности.",
+        "learn": 0
+      },
+      {
+        "eng": "The strike has cost the company £2 million in lost revenue.",
+        "ru": "Забастовка обошлась компании в два миллиона фунтов стерлингов недополученной прибыли.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,80 +1,166 @@
 {
-    "hospital": {
-        "comment": [
-            "hospitality"
-        ],
-        "translate": "больница, госпиталь, богадельня, благотворительное заведение",
-        "transcription": " |ˈhɑːspɪtl|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She phoned the hospital daily.",
-            "She works at / in the hospital.",
-            "Hurry them to the hospital!",
-            "The new hospital opens on July 1st.",
-            "the orthopedic ward in the hospital",
-            "He spent five days in the hospital.",
-            "His wife isn't out of hospital yet.",
-            "She was raced to hospital.",
-            "She was born in a hospital.",
-            "a grievous shortage of hospital beds",
-            "He was taken to hospital by ambulance.",
-            "He was taken to the hospital by ambulance.",
-            "She recovered consciousness in the hospital.",
-            "The hospital has an excellent nursing staff.",
-            "She's ill and has been in (the) hospital for a week.",
-            "Watford General Hospital",
-            "I drove myself to hospital.",
-            "I trained at that hospital.",
-            "a short stay in the hospital",
-            "We tore down to the hospital.",
-            "volunteer work at the hospital",
-            "the endowment of a hospital wing",
-            "the hospital's board of governors",
-            "He went to hospital with concussion.",
-            "I had to go to hospital for an X-ray.",
-            "He does voluntary work in a hospital.",
-            "Curtains separated the hospital beds.",
-            "a large number of hospital admissions",
-            "An ambulance sped her to the hospital.",
-            "At the hospital they put me on a drip."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она звонила в больницу каждый день.",
-            "Она работает в больнице.",
-            "Быстро отправьте их в больницу!",
-            "Новая больница открывается первого июля.",
-            "ортопедическое отделение в больнице",
-            "Он провёл в больнице пять дней.",
-            "Его жена еще не выписалась из больницы.",
-            "Её спешно отправили в больницу.",
-            "Она родилась в больнице.",
-            "ужасная нехватка больничных коек",
-            "В больницу его привезли на скорой помощи.",
-            "Его доставили в больницу на машине скорой помощи.",
-            "Она пришла в сознание в больнице.",
-            "В этой больнице замечательные медсёстры.",
-            "Она больна и уже неделю лежит в больнице.",
-            "Уотфордская больница общего профиля",
-            "Я поехал в больницу.",
-            "Я проходил обучение в этой больнице.",
-            "кратковременное пребывание в больнице",
-            "Мы рванули в больницу.",
-            "работа волонтёром в больнице",
-            "пожертвование на строительство больничного крыла",
-            "совет управляющих этой больницы",
-            "Он попал в больницу с сотрясением мозга.",
-            "Мне пришлось пойти в больницу, чтобы сделать рентген.",
-            "Он работает в больнице на добровольных началах.",
-            "Больничные койки были отделены друг от друга занавесками.",
-            "большое количество госпитализаций",
-            "В больницу её примчала \"скорая\".",
-            "В больнице мне поставили капельницу."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "hospital": {
+    "comment": [
+      "hospitality"
+    ],
+    "translate": "больница, госпиталь, богадельня, благотворительное заведение",
+    "transcription": " |ˈhɑːspɪtl|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She phoned the hospital daily.",
+        "ru": "Она звонила в больницу каждый день.",
+        "learn": 0
+      },
+      {
+        "eng": "She works at / in the hospital.",
+        "ru": "Она работает в больнице.",
+        "learn": 0
+      },
+      {
+        "eng": "Hurry them to the hospital!",
+        "ru": "Быстро отправьте их в больницу!",
+        "learn": 0
+      },
+      {
+        "eng": "The new hospital opens on July 1st.",
+        "ru": "Новая больница открывается первого июля.",
+        "learn": 0
+      },
+      {
+        "eng": "the orthopedic ward in the hospital",
+        "ru": "ортопедическое отделение в больнице",
+        "learn": 0
+      },
+      {
+        "eng": "He spent five days in the hospital.",
+        "ru": "Он провёл в больнице пять дней.",
+        "learn": 0
+      },
+      {
+        "eng": "His wife isn't out of hospital yet.",
+        "ru": "Его жена еще не выписалась из больницы.",
+        "learn": 0
+      },
+      {
+        "eng": "She was raced to hospital.",
+        "ru": "Её спешно отправили в больницу.",
+        "learn": 0
+      },
+      {
+        "eng": "She was born in a hospital.",
+        "ru": "Она родилась в больнице.",
+        "learn": 0
+      },
+      {
+        "eng": "a grievous shortage of hospital beds",
+        "ru": "ужасная нехватка больничных коек",
+        "learn": 0
+      },
+      {
+        "eng": "He was taken to hospital by ambulance.",
+        "ru": "В больницу его привезли на скорой помощи.",
+        "learn": 1
+      },
+      {
+        "eng": "He was taken to the hospital by ambulance.",
+        "ru": "Его доставили в больницу на машине скорой помощи.",
+        "learn": 0
+      },
+      {
+        "eng": "She recovered consciousness in the hospital.",
+        "ru": "Она пришла в сознание в больнице.",
+        "learn": 1
+      },
+      {
+        "eng": "The hospital has an excellent nursing staff.",
+        "ru": "В этой больнице замечательные медсёстры.",
+        "learn": 0
+      },
+      {
+        "eng": "She's ill and has been in (the) hospital for a week.",
+        "ru": "Она больна и уже неделю лежит в больнице.",
+        "learn": 0
+      },
+      {
+        "eng": "Watford General Hospital",
+        "ru": "Уотфордская больница общего профиля",
+        "learn": 0
+      },
+      {
+        "eng": "I drove myself to hospital.",
+        "ru": "Я поехал в больницу.",
+        "learn": 0
+      },
+      {
+        "eng": "I trained at that hospital.",
+        "ru": "Я проходил обучение в этой больнице.",
+        "learn": 0
+      },
+      {
+        "eng": "a short stay in the hospital",
+        "ru": "кратковременное пребывание в больнице",
+        "learn": 0
+      },
+      {
+        "eng": "We tore down to the hospital.",
+        "ru": "Мы рванули в больницу.",
+        "learn": 0
+      },
+      {
+        "eng": "volunteer work at the hospital",
+        "ru": "работа волонтёром в больнице",
+        "learn": 0
+      },
+      {
+        "eng": "the endowment of a hospital wing",
+        "ru": "пожертвование на строительство больничного крыла",
+        "learn": 0
+      },
+      {
+        "eng": "the hospital's board of governors",
+        "ru": "совет управляющих этой больницы",
+        "learn": 0
+      },
+      {
+        "eng": "He went to hospital with concussion.",
+        "ru": "Он попал в больницу с сотрясением мозга.",
+        "learn": 0
+      },
+      {
+        "eng": "I had to go to hospital for an X-ray.",
+        "ru": "Мне пришлось пойти в больницу, чтобы сделать рентген.",
+        "learn": 0
+      },
+      {
+        "eng": "He does voluntary work in a hospital.",
+        "ru": "Он работает в больнице на добровольных началах.",
+        "learn": 1
+      },
+      {
+        "eng": "Curtains separated the hospital beds.",
+        "ru": "Больничные койки были отделены друг от друга занавесками.",
+        "learn": 0
+      },
+      {
+        "eng": "a large number of hospital admissions",
+        "ru": "большое количество госпитализаций",
+        "learn": 0
+      },
+      {
+        "eng": "An ambulance sped her to the hospital.",
+        "ru": "В больницу её примчала \"скорая\".",
+        "learn": 0
+      },
+      {
+        "eng": "At the hospital they put me on a drip.",
+        "ru": "В больнице мне поставили капельницу.",
+        "learn": 0
+      }
+    ]
+  }
 }

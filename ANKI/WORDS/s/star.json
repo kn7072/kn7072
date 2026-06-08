@@ -1,87 +1,173 @@
 {
-    "star": {
-        "comment": [
-            "stare",
-            "starve",
-            "start",
-            "started",
-            "starter"
-        ],
-        "translate": "звезда, звездочка, светило, звездный, выдающийся, играть главные роли",
-        "transcription": " |stɑːr|",
-        "antonyms": [],
-        "mnemonic": [
-            "star [ста:] звезда - (Старая) звезда.",
-            "star [stɑ: ]\n***\nЗВЕЗДЫ светят неспроста. (это) star\n***\nСтал он звездой \"star\",\nно получил шрам \"scar\"."
-        ],
-        "examples": [
-            "North Star",
-            "Her star was rising.",
-            "His star has set.",
-            "The sky was filled with stars.",
-            "a rock star and teen idol",
-            "The star captured a comet.",
-            "A black star absorbs all matter.",
-            "a star of stage and screen",
-            "She was the star of the show.",
-            "Silver Star",
-            "His star set / waned.",
-            "British pop star Elton John",
-            "Perry was the star of the show.",
-            "Julia Roberts became a big star.",
-            "She was born under a lucky star.",
-            "A new star appeared on the horizon.",
-            "a star in the constellation of Orion",
-            "the pop star and his harem",
-            "What time is 'Star Trek' on?",
-            "She became a star overnight.",
-            "the glimmer of a distant star",
-            "The starred items are available.",
-            "a brilliant star in the sky",
-            "They gazed up at the stars.",
-            "He coaches the tennis star.",
-            "What star outshines the sun?",
-            "a rock star's most devoted fans",
-            "the plasma that makes up a star",
-            "A star tops the Christmas Tree.",
-            "a star pupil (=a very good one)"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Полярная звезда",
-            "Её звезда восходила.",
-            "Его звезда закатилась.",
-            "Небо было усыпано звёздами.",
-            "рок-звезда и кумир подростков",
-            "Звезда захватила комету.",
-            "Чёрная звезда поглощает всю материю.",
-            "звезда театра и кино",
-            "Она была звездой этого шоу.",
-            "Серебряная Звезда (орден)",
-            "Его звезда закатилась.",
-            "английская поп-звезда Элтон Джон",
-            "Перри был звездой этого шоу.",
-            "Джулия Робертс стала большой звездой.",
-            "Она родилась под счастливой звездой.",
-            "На горизонте появилась новая звезда.",
-            "звезда в созвездии Ориона",
-            "поп-звезда и его гарем",
-            "Во сколько начинается (сериал) \"Звёздный путь\"?",
-            "Она мгновенно стала звездой.",
-            "мерцание далёкой звезды",
-            "В наличии — товары, помеченные звёздочкой.",
-            "яркая звезда на небе",
-            "Они посмотрели на звёзды.",
-            "Он тренирует эту звезду тенниса.",
-            "Какая звезда сияет ярче солнца?",
-            "самые преданные фанаты одной рок-звезды",
-            "плазма, из которой состоит звезда",
-            "Рождественскую ёлку венчает звезда.",
-            "\"звёздный\" (т.е. очень хороший) ученик"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "star": {
+    "comment": [
+      "stare",
+      "starve",
+      "start",
+      "started",
+      "starter"
+    ],
+    "translate": "звезда, звездочка, светило, звездный, выдающийся, играть главные роли",
+    "transcription": " |stɑːr|",
+    "antonyms": [],
+    "mnemonic": [
+      "star [ста:] звезда - (Старая) звезда.",
+      "star [stɑ: ]\n***\nЗВЕЗДЫ светят неспроста. (это) star\n***\nСтал он звездой \"star\",\nно получил шрам \"scar\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "North Star",
+        "ru": "Полярная звезда",
+        "learn": 0
+      },
+      {
+        "eng": "Her star was rising.",
+        "ru": "Её звезда восходила.",
+        "learn": 0
+      },
+      {
+        "eng": "His star has set.",
+        "ru": "Его звезда закатилась.",
+        "learn": 0
+      },
+      {
+        "eng": "The sky was filled with stars.",
+        "ru": "Небо было усыпано звёздами.",
+        "learn": 1
+      },
+      {
+        "eng": "a rock star and teen idol",
+        "ru": "рок-звезда и кумир подростков",
+        "learn": 0
+      },
+      {
+        "eng": "The star captured a comet.",
+        "ru": "Звезда захватила комету.",
+        "learn": 0
+      },
+      {
+        "eng": "A black star absorbs all matter.",
+        "ru": "Чёрная звезда поглощает всю материю.",
+        "learn": 0
+      },
+      {
+        "eng": "a star of stage and screen",
+        "ru": "звезда театра и кино",
+        "learn": 0
+      },
+      {
+        "eng": "She was the star of the show.",
+        "ru": "Она была звездой этого шоу.",
+        "learn": 1
+      },
+      {
+        "eng": "Silver Star",
+        "ru": "Серебряная Звезда (орден)",
+        "learn": 0
+      },
+      {
+        "eng": "His star set / waned.",
+        "ru": "Его звезда закатилась.",
+        "learn": 0
+      },
+      {
+        "eng": "British pop star Elton John",
+        "ru": "английская поп-звезда Элтон Джон",
+        "learn": 0
+      },
+      {
+        "eng": "Perry was the star of the show.",
+        "ru": "Перри был звездой этого шоу.",
+        "learn": 0
+      },
+      {
+        "eng": "Julia Roberts became a big star.",
+        "ru": "Джулия Робертс стала большой звездой.",
+        "learn": 0
+      },
+      {
+        "eng": "She was born under a lucky star.",
+        "ru": "Она родилась под счастливой звездой.",
+        "learn": 1
+      },
+      {
+        "eng": "A new star appeared on the horizon.",
+        "ru": "На горизонте появилась новая звезда.",
+        "learn": 0
+      },
+      {
+        "eng": "a star in the constellation of Orion",
+        "ru": "звезда в созвездии Ориона",
+        "learn": 0
+      },
+      {
+        "eng": "the pop star and his harem",
+        "ru": "поп-звезда и его гарем",
+        "learn": 0
+      },
+      {
+        "eng": "What time is 'Star Trek' on?",
+        "ru": "Во сколько начинается (сериал) \"Звёздный путь\"?",
+        "learn": 0
+      },
+      {
+        "eng": "She became a star overnight.",
+        "ru": "Она мгновенно стала звездой.",
+        "learn": 0
+      },
+      {
+        "eng": "the glimmer of a distant star",
+        "ru": "мерцание далёкой звезды",
+        "learn": 0
+      },
+      {
+        "eng": "The starred items are available.",
+        "ru": "В наличии — товары, помеченные звёздочкой.",
+        "learn": 0
+      },
+      {
+        "eng": "a brilliant star in the sky",
+        "ru": "яркая звезда на небе",
+        "learn": 0
+      },
+      {
+        "eng": "They gazed up at the stars.",
+        "ru": "Они посмотрели на звёзды.",
+        "learn": 0
+      },
+      {
+        "eng": "He coaches the tennis star.",
+        "ru": "Он тренирует эту звезду тенниса.",
+        "learn": 0
+      },
+      {
+        "eng": "What star outshines the sun?",
+        "ru": "Какая звезда сияет ярче солнца?",
+        "learn": 0
+      },
+      {
+        "eng": "a rock star's most devoted fans",
+        "ru": "самые преданные фанаты одной рок-звезды",
+        "learn": 0
+      },
+      {
+        "eng": "the plasma that makes up a star",
+        "ru": "плазма, из которой состоит звезда",
+        "learn": 0
+      },
+      {
+        "eng": "A star tops the Christmas Tree.",
+        "ru": "Рождественскую ёлку венчает звезда.",
+        "learn": 0
+      },
+      {
+        "eng": "a star pupil (=a very good one)",
+        "ru": "\"звёздный\" (т.е. очень хороший) ученик",
+        "learn": 0
+      }
+    ]
+  }
 }

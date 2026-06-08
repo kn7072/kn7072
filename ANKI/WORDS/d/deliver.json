@@ -1,82 +1,168 @@
 {
-    "deliver": {
-        "comment": [
-            "delivery"
-        ],
-        "translate": "поставлять, доставлять, передавать, наносить, выпускать, избавлять, производить",
-        "transcription": " |dɪˈlɪvər|",
-        "antonyms": [],
-        "mnemonic": [
-            "deliver [dɪ'lɪvə]\ndelivery [dɪ'lɪvəri]\n**\nМне ДОСТАВИЛИ пиццу с подливой. (это) deliver\nПЕРЕДАЙТЕ мне\" подливы\". (это) deliver\nДОСТАВИЛИ продукты, а где|ливер? (это) deliver\n***\nВсе ПОСТАВКИ дели|very. (это) delivery\nСегодня ДОСТАВКА вроде|ливеры. (это) delivery\n***\nПрямо на речку \"river\",\nты мне доставил \"deliver\"\nнемного ливера \"liver\"."
-        ],
-        "examples": [
-            "Deliver the package to my home.",
-            "We will deliver them up to the police.",
-            "After two days, a bouquet was delivered to her mother.",
-            "They were delivered from slavery.",
-            "The doctor delivered her of twins.",
-            "Stand and deliver! уст.",
-            "They will deliver him up to death.",
-            "I can't deliver on all these promises.",
-            "She gave me her word that she would deliver the message.",
-            "She delivered a baby boy this morning.",
-            "The baby was delivered by Caesarean section.",
-            "His charge was deliver a message.",
-            "The jury delivered a verdict of not guilty.",
-            "The store is more than happy to deliver goods to your home.",
-            "Deliver your sword!",
-            "The students delivered a cry of joy.",
-            "I am having some flowers delivered for her birthday.",
-            "The package was delivered to the office this morning.",
-            "We need a strong leader to deliver the country from the dangers of falling money values.",
-            "He will deliver the speech at noon.",
-            "And lead us not into temptation, but deliver us from evil. (Bible)",
-            "The pitcher delivered the ball.",
-            "The queen was in due time safely delivered of a prince.",
-            "This Network will deliver over 133 million gross impressions per 4 week flight.",
-            "Schools have to deliver the core skills.",
-            "This group of billboards will deliver a 25 showing.",
-            "The thieves delivered the passengers of their money.",
-            "She delivers the mail on my street.",
-            "Mrs Parish was delivered into Mr David's care.",
-            "The guard delivered the criminal to the police."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Доставьте пакет мне домой.",
-            "Мы передадим их в руки полиции.",
-            "Через два дня букет был доставлен её маме.",
-            "Они были освобождены из рабства.",
-            "Врач принял двойню.",
-            "Кошелек или жизнь!",
-            "Они предадут его смерти.",
-            "Я не смогу выполнить все эти обещания.",
-            "Она дала мне слово, что доставит сообщение.",
-            "Сегодня утром она родила мальчика.",
-            "Младенец родился с помощью кесарева сечения.",
-            "Его обязанностью было доставить сообщение.",
-            "Присяжные вынесли вердикт о невиновности.",
-            "Магазин будет очень счастлив доставить товар вам на дом.",
-            "Попрошу (отдать мне) Вашу шпагу!",
-            "Студенты издали радостный вопль.",
-            "Мне сейчас доставят цветы для её дня рождения.",
-            "Пакет был доставлен в контору сегодня утром.",
-            "Нам нужен сильный лидер, который мог бы справиться с угрозой инфляции.",
-            "Он произнесёт эту речь в полдень.",
-            "И не введи нас во искушение, но избави нас от лукавого. (Библия, Евангелие от Матфея, гл. 6, ст. 13)",
-            "Питчер бросил /подал/ мяч.",
-            "В положенный срок королева благополучно родила принца.",
-            "Эта рекламная сеть обеспечит 133 миллиона валовых показов за четырехнедельный срок кампании.",
-            "Школы должны прививать (ученикам) базовые навыки.",
-            "Эта группа щитов обеспечит 25%-ный показ.",
-            "Воры украли у пассажиров все деньги.",
-            "Она разносит почту на моей улице.",
-            "Миссис Париш была препоручена заботам мистера Дэвида.",
-            "Охранник передал преступника полиции."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "deliver": {
+    "comment": [
+      "delivery"
+    ],
+    "translate": "поставлять, доставлять, передавать, наносить, выпускать, избавлять, производить",
+    "transcription": " |dɪˈlɪvər|",
+    "antonyms": [],
+    "mnemonic": [
+      "deliver [dɪ'lɪvə]\ndelivery [dɪ'lɪvəri]\n**\nМне ДОСТАВИЛИ пиццу с подливой. (это) deliver\nПЕРЕДАЙТЕ мне\" подливы\". (это) deliver\nДОСТАВИЛИ продукты, а где|ливер? (это) deliver\n***\nВсе ПОСТАВКИ дели|very. (это) delivery\nСегодня ДОСТАВКА вроде|ливеры. (это) delivery\n***\nПрямо на речку \"river\",\nты мне доставил \"deliver\"\nнемного ливера \"liver\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Deliver the package to my home.",
+        "ru": "Доставьте пакет мне домой.",
+        "learn": 0
+      },
+      {
+        "eng": "We will deliver them up to the police.",
+        "ru": "Мы передадим их в руки полиции.",
+        "learn": 0
+      },
+      {
+        "eng": "After two days, a bouquet was delivered to her mother.",
+        "ru": "Через два дня букет был доставлен её маме.",
+        "learn": 0
+      },
+      {
+        "eng": "They were delivered from slavery.",
+        "ru": "Они были освобождены из рабства.",
+        "learn": 0
+      },
+      {
+        "eng": "The doctor delivered her of twins.",
+        "ru": "Врач принял двойню.",
+        "learn": 0
+      },
+      {
+        "eng": "Stand and deliver! уст.",
+        "ru": "Кошелек или жизнь!",
+        "learn": 0
+      },
+      {
+        "eng": "They will deliver him up to death.",
+        "ru": "Они предадут его смерти.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't deliver on all these promises.",
+        "ru": "Я не смогу выполнить все эти обещания.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave me her word that she would deliver the message.",
+        "ru": "Она дала мне слово, что доставит сообщение.",
+        "learn": 0
+      },
+      {
+        "eng": "She delivered a baby boy this morning.",
+        "ru": "Сегодня утром она родила мальчика.",
+        "learn": 0
+      },
+      {
+        "eng": "The baby was delivered by Caesarean section.",
+        "ru": "Младенец родился с помощью кесарева сечения.",
+        "learn": 0
+      },
+      {
+        "eng": "His charge was deliver a message.",
+        "ru": "Его обязанностью было доставить сообщение.",
+        "learn": 0
+      },
+      {
+        "eng": "The jury delivered a verdict of not guilty.",
+        "ru": "Присяжные вынесли вердикт о невиновности.",
+        "learn": 0
+      },
+      {
+        "eng": "The store is more than happy to deliver goods to your home.",
+        "ru": "Магазин будет очень счастлив доставить товар вам на дом.",
+        "learn": 0
+      },
+      {
+        "eng": "Deliver your sword!",
+        "ru": "Попрошу (отдать мне) Вашу шпагу!",
+        "learn": 0
+      },
+      {
+        "eng": "The students delivered a cry of joy.",
+        "ru": "Студенты издали радостный вопль.",
+        "learn": 0
+      },
+      {
+        "eng": "I am having some flowers delivered for her birthday.",
+        "ru": "Мне сейчас доставят цветы для её дня рождения.",
+        "learn": 0
+      },
+      {
+        "eng": "The package was delivered to the office this morning.",
+        "ru": "Пакет был доставлен в контору сегодня утром.",
+        "learn": 0
+      },
+      {
+        "eng": "We need a strong leader to deliver the country from the dangers of falling money values.",
+        "ru": "Нам нужен сильный лидер, который мог бы справиться с угрозой инфляции.",
+        "learn": 0
+      },
+      {
+        "eng": "He will deliver the speech at noon.",
+        "ru": "Он произнесёт эту речь в полдень.",
+        "learn": 0
+      },
+      {
+        "eng": "And lead us not into temptation, but deliver us from evil. (Bible)",
+        "ru": "И не введи нас во искушение, но избави нас от лукавого. (Библия, Евангелие от Матфея, гл. 6, ст. 13)",
+        "learn": 0
+      },
+      {
+        "eng": "The pitcher delivered the ball.",
+        "ru": "Питчер бросил /подал/ мяч.",
+        "learn": 0
+      },
+      {
+        "eng": "The queen was in due time safely delivered of a prince.",
+        "ru": "В положенный срок королева благополучно родила принца.",
+        "learn": 0
+      },
+      {
+        "eng": "This Network will deliver over 133 million gross impressions per 4 week flight.",
+        "ru": "Эта рекламная сеть обеспечит 133 миллиона валовых показов за четырехнедельный срок кампании.",
+        "learn": 0
+      },
+      {
+        "eng": "Schools have to deliver the core skills.",
+        "ru": "Школы должны прививать (ученикам) базовые навыки.",
+        "learn": 0
+      },
+      {
+        "eng": "This group of billboards will deliver a 25 showing.",
+        "ru": "Эта группа щитов обеспечит 25%-ный показ.",
+        "learn": 0
+      },
+      {
+        "eng": "The thieves delivered the passengers of their money.",
+        "ru": "Воры украли у пассажиров все деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "She delivers the mail on my street.",
+        "ru": "Она разносит почту на моей улице.",
+        "learn": 1
+      },
+      {
+        "eng": "Mrs Parish was delivered into Mr David's care.",
+        "ru": "Миссис Париш была препоручена заботам мистера Дэвида.",
+        "learn": 0
+      },
+      {
+        "eng": "The guard delivered the criminal to the police.",
+        "ru": "Охранник передал преступника полиции.",
+        "learn": 1
+      }
+    ]
+  }
 }

@@ -1,83 +1,169 @@
 {
-    "office": {
-        "comment": [
-            "officially",
-            "officer",
-            "official",
-            "coffin"
-        ],
-        "translate": "офис, служба, должность, бюро, управление, пост, контора, ведомство, канцелярия",
-        "transcription": " |ˈɔːfɪs|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He was removed from office.",
-            "Record Office",
-            "Office of Education",
-            "His office was bugged.",
-            "Please call during office hours.",
-            "Foreign Office",
-            "Come into the office.",
-            "She works at our office.",
-            "during his first year in office",
-            "I'm due at his office at 4.30.",
-            "I welcome you to my office.",
-            "Her office was her sanctum.",
-            "make a mess in one's office",
-            "She stormed into the office.",
-            "What level is the office on?",
-            "He had a bad day at the office.",
-            "Foreign and Commonwealth Office",
-            "Welsh Office",
-            "Army Post Office",
-            "Public Record Office",
-            "Central Statistic Office",
-            "Her office is minuscule.",
-            "a trying day at the office",
-            "International Labour Office",
-            "He was the office factotum.",
-            "He was voted out of office.",
-            "Her office is just next door.",
-            "a transfer to the home office",
-            "the dull grind of office work",
-            "Office of International Trade"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он был отстранён от должности.",
-            "Государственный архив",
-            "управление /комитет/ по вопросам образования",
-            "Его кабинет прослушивался.",
-            "Просьба звонить в рабочее время.",
-            "Министерство иностранных дел (в Великобритании)",
-            "Заходите в кабинет.",
-            "Она работает в нашем бюро.",
-            "во время своего первого года пребывания в должности",
-            "Я должен быть у него в кабинете в четыре тридцать.",
-            "Рад вас видеть у себя в конторе.",
-            "Кабинет был для неё святыней.",
-            "устроить беспорядок в чьём-то кабинете",
-            "Она ворвалась в кабинет.",
-            "На каком уровне находится это бюро?",
-            "У него был плохой /тяжёлый/ день на работе.",
-            "Министерство иностранных дел и по делам Содружества (в Великобритании)",
-            "Министерство по делам Уэльса",
-            "Армейское почтовое отделение",
-            "государственный архив",
-            "Центральное статистическое управление",
-            "Её кабинет совсем крошечный.",
-            "тяжелый /хлопотный/ день на работе",
-            "Международное бюро труда",
-            "В бюро он выполнял самую разную работу.",
-            "Он лишился своего поста в результате голосования.",
-            "Её кабинет как раз по соседству.",
-            "перевод в главное представительство",
-            "тупая однообразная офисная работа",
-            "Управление по внешнеторговым связям"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "office": {
+    "comment": [
+      "officially",
+      "officer",
+      "official",
+      "coffin"
+    ],
+    "translate": "офис, служба, должность, бюро, управление, пост, контора, ведомство, канцелярия",
+    "transcription": " |ˈɔːfɪs|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He was removed from office.",
+        "ru": "Он был отстранён от должности.",
+        "learn": 0
+      },
+      {
+        "eng": "Record Office",
+        "ru": "Государственный архив",
+        "learn": 0
+      },
+      {
+        "eng": "Office of Education",
+        "ru": "управление /комитет/ по вопросам образования",
+        "learn": 0
+      },
+      {
+        "eng": "His office was bugged.",
+        "ru": "Его кабинет прослушивался.",
+        "learn": 0
+      },
+      {
+        "eng": "Please call during office hours.",
+        "ru": "Просьба звонить в рабочее время.",
+        "learn": 0
+      },
+      {
+        "eng": "Foreign Office",
+        "ru": "Министерство иностранных дел (в Великобритании)",
+        "learn": 0
+      },
+      {
+        "eng": "Come into the office.",
+        "ru": "Заходите в кабинет.",
+        "learn": 0
+      },
+      {
+        "eng": "She works at our office.",
+        "ru": "Она работает в нашем бюро.",
+        "learn": 0
+      },
+      {
+        "eng": "during his first year in office",
+        "ru": "во время своего первого года пребывания в должности",
+        "learn": 0
+      },
+      {
+        "eng": "I'm due at his office at 4.30.",
+        "ru": "Я должен быть у него в кабинете в четыре тридцать.",
+        "learn": 1
+      },
+      {
+        "eng": "I welcome you to my office.",
+        "ru": "Рад вас видеть у себя в конторе.",
+        "learn": 1
+      },
+      {
+        "eng": "Her office was her sanctum.",
+        "ru": "Кабинет был для неё святыней.",
+        "learn": 0
+      },
+      {
+        "eng": "make a mess in one's office",
+        "ru": "устроить беспорядок в чьём-то кабинете",
+        "learn": 0
+      },
+      {
+        "eng": "She stormed into the office.",
+        "ru": "Она ворвалась в кабинет.",
+        "learn": 0
+      },
+      {
+        "eng": "What level is the office on?",
+        "ru": "На каком уровне находится это бюро?",
+        "learn": 1
+      },
+      {
+        "eng": "He had a bad day at the office.",
+        "ru": "У него был плохой /тяжёлый/ день на работе.",
+        "learn": 1
+      },
+      {
+        "eng": "Foreign and Commonwealth Office",
+        "ru": "Министерство иностранных дел и по делам Содружества (в Великобритании)",
+        "learn": 0
+      },
+      {
+        "eng": "Welsh Office",
+        "ru": "Министерство по делам Уэльса",
+        "learn": 0
+      },
+      {
+        "eng": "Army Post Office",
+        "ru": "Армейское почтовое отделение",
+        "learn": 0
+      },
+      {
+        "eng": "Public Record Office",
+        "ru": "государственный архив",
+        "learn": 0
+      },
+      {
+        "eng": "Central Statistic Office",
+        "ru": "Центральное статистическое управление",
+        "learn": 0
+      },
+      {
+        "eng": "Her office is minuscule.",
+        "ru": "Её кабинет совсем крошечный.",
+        "learn": 0
+      },
+      {
+        "eng": "a trying day at the office",
+        "ru": "тяжелый /хлопотный/ день на работе",
+        "learn": 0
+      },
+      {
+        "eng": "International Labour Office",
+        "ru": "Международное бюро труда",
+        "learn": 0
+      },
+      {
+        "eng": "He was the office factotum.",
+        "ru": "В бюро он выполнял самую разную работу.",
+        "learn": 0
+      },
+      {
+        "eng": "He was voted out of office.",
+        "ru": "Он лишился своего поста в результате голосования.",
+        "learn": 0
+      },
+      {
+        "eng": "Her office is just next door.",
+        "ru": "Её кабинет как раз по соседству.",
+        "learn": 0
+      },
+      {
+        "eng": "a transfer to the home office",
+        "ru": "перевод в главное представительство",
+        "learn": 0
+      },
+      {
+        "eng": "the dull grind of office work",
+        "ru": "тупая однообразная офисная работа",
+        "learn": 0
+      },
+      {
+        "eng": "Office of International Trade",
+        "ru": "Управление по внешнеторговым связям",
+        "learn": 0
+      }
+    ]
+  }
 }

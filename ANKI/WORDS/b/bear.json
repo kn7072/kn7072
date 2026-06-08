@@ -1,94 +1,183 @@
 {
-    "bear": {
-        "comment": [
-            "beautiful",
-            "beauty",
-            "beak",
-            "beat",
-            "beach",
-            "bean",
-            "beard",
-            "beating",
-            "beam",
-            "bearing",
-            "beast"
-        ],
-        "translate": "медведь, медведка, козел, нести, иметь, носить, переносить, терпеть",
-        "transcription": " |ber|",
-        "antonyms": [],
-        "mnemonic": [
-            "bear [бе'я] медведь - (Робея) перед медведем, волк сохраняет жизнь.",
-            "bare [bɛə]\nbear [bɛə]\n***\nГОЛЫЙ король - ещё глупее и слабее. (это) bare\nРАСКРЫЛ ДУШУ - стал слабее. (это) bare\n***\nВЫНЕСТИ беду не сможет тот, кто слабее. (это) bear\nМЕДВЕДЬ не может быть слабее. (это) bear"
-        ],
-        "examples": [
-            "I can't bear him.",
-            "She is bearing his child.",
-            "I'll bear the idea in mind.",
-            "I can't bear being cold.",
-            "She is unable to bear.",
-            "He bore the name 'Magnus'.",
-            "He bore her no malice.",
-            "Great Bear",
-            "I can't bear to see her cry.",
-            "Will the ice bear today?",
-            "She bore him three sons.",
-            "This bears no comparison.",
-            "Bear right when the road divides.",
-            "He couldn't bear the humiliation.",
-            "He couldn't bear the pain.",
-            "She bore herself with dignity.",
-            "a teddy bear with soft fur",
-            "Oh, I really can't bear him.",
-            "I will bear your message.",
-            "That is his cross to bear.",
-            "The letter bore no signature.",
-            "The chemistry test was a bear.",
-            "It's boring, but please bear with it.",
-            "How does your story bear on this case?",
-            "I can't bear the suspense.",
-            "The four pillars bear the arch.",
-            "This plank will not bear your weight.",
-            "This letter bears no date.",
-            "His story does not bear scrutiny.",
-            "They bore the title Count of Nassau."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я его не выношу.",
-            "Она носит его ребёнка. / Она беременна от него.",
-            "Я буду иметь это в виду.",
-            "Терпеть не могу мёрзнуть.",
-            "Она не может иметь детей.",
-            "Он носил имя \"Магнус\".",
-            "Он не питал к ней никакой злобы.",
-            "Большая Медведица (созвездие)",
-            "Не выношу, когда она плачет.",
-            "Достаточно ли крепкий сегодня лёд?",
-            "Она родила ему трех сыновей.",
-            "Это не выдерживает сравнения.",
-            "У развилки возьмите направо.",
-            "Он не мог пережить этого унижения.",
-            "Он не мог выдержать боли.",
-            "Она держалась с достоинством.",
-            "плюшевый медведь с мягким мехом",
-            "Как же я его не перевариваю! / Просто терпеть его не могу.",
-            "Я передам вашу информацию.",
-            "Это его крест.",
-            "Письмо не содержало никакой подписи.",
-            "Тест по химии был очень трудным.",
-            "Это, конечно, скучно, но я прошу вас потерпеть.",
-            "Какое отношение имеет ваша история к данному случаю?",
-            "Поскорей бы узнать! / Терпеть не могу ждать. / Сгораю от нетерпения.",
-            "Четыре колонны поддерживают арку.",
-            "Эта доска не выдержит вашего веса.",
-            "На этом письме нет даты.",
-            "Его рассказ не выдерживает никакой критики.",
-            "Они носили титул графов Нассау."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ear_=_[er]"
-        ]
-    }
+  "bear": {
+    "comment": [
+      "bore |bɔr|,                                          borne |bɔrn|",
+      "beautiful",
+      "beauty",
+      "beak",
+      "beat",
+      "beach",
+      "bean",
+      "beard",
+      "beating",
+      "beam",
+      "bearing",
+      "beast"
+    ],
+    "translate": "медведь, медведка, козел, нести, иметь, носить, переносить, терпеть",
+    "transcription": " |ber|",
+    "antonyms": [],
+    "mnemonic": [
+      "bear [бе'я] медведь - (Робея) перед медведем, волк сохраняет жизнь.",
+      "bare [bɛə]\nbear [bɛə]\n***\nГОЛЫЙ король - ещё глупее и слабее. (это) bare\nРАСКРЫЛ ДУШУ - стал слабее. (это) bare\n***\nВЫНЕСТИ беду не сможет тот, кто слабее. (это) bear\nМЕДВЕДЬ не может быть слабее. (это) bear"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ear_=_[er]",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I can't bear him.",
+        "ru": "Я его не выношу.",
+        "learn": 0
+      },
+      {
+        "eng": "She is bearing his child.",
+        "ru": "Она носит его ребёнка. / Она беременна от него.",
+        "learn": 1
+      },
+      {
+        "eng": "I'll bear the idea in mind.",
+        "ru": "Я буду иметь это в виду.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't bear being cold.",
+        "ru": "Терпеть не могу мёрзнуть.",
+        "learn": 0
+      },
+      {
+        "eng": "She is unable to bear.",
+        "ru": "Она не может иметь детей.",
+        "learn": 0
+      },
+      {
+        "eng": "He bore the name 'Magnus'.",
+        "ru": "Он носил имя \"Магнус\".",
+        "learn": 0
+      },
+      {
+        "eng": "He bore her no malice.",
+        "ru": "Он не питал к ней никакой злобы.",
+        "learn": 0
+      },
+      {
+        "eng": "Great Bear",
+        "ru": "Большая Медведица (созвездие)",
+        "learn": 0
+      },
+      {
+        "eng": "I can't bear to see her cry.",
+        "ru": "Не выношу, когда она плачет.",
+        "learn": 0
+      },
+      {
+        "eng": "Will the ice bear today?",
+        "ru": "Достаточно ли крепкий сегодня лёд?",
+        "learn": 0
+      },
+      {
+        "eng": "She bore him three sons.",
+        "ru": "Она родила ему трех сыновей.",
+        "learn": 0
+      },
+      {
+        "eng": "This bears no comparison.",
+        "ru": "Это не выдерживает сравнения.",
+        "learn": 0
+      },
+      {
+        "eng": "Bear right when the road divides.",
+        "ru": "У развилки возьмите направо.",
+        "learn": 0
+      },
+      {
+        "eng": "He couldn't bear the humiliation.",
+        "ru": "Он не мог пережить этого унижения.",
+        "learn": 0
+      },
+      {
+        "eng": "He couldn't bear the pain.",
+        "ru": "Он не мог выдержать боли.",
+        "learn": 0
+      },
+      {
+        "eng": "She bore herself with dignity.",
+        "ru": "Она держалась с достоинством.",
+        "learn": 1
+      },
+      {
+        "eng": "a teddy bear with soft fur",
+        "ru": "плюшевый медведь с мягким мехом",
+        "learn": 0
+      },
+      {
+        "eng": "Oh, I really can't bear him.",
+        "ru": "Как же я его не перевариваю! / Просто терпеть его не могу.",
+        "learn": 0
+      },
+      {
+        "eng": "I will bear your message.",
+        "ru": "Я передам вашу информацию.",
+        "learn": 0
+      },
+      {
+        "eng": "That is his cross to bear.",
+        "ru": "Это его крест.",
+        "learn": 0
+      },
+      {
+        "eng": "The letter bore no signature.",
+        "ru": "Письмо не содержало никакой подписи.",
+        "learn": 0
+      },
+      {
+        "eng": "The chemistry test was a bear.",
+        "ru": "Тест по химии был очень трудным.",
+        "learn": 0
+      },
+      {
+        "eng": "It's boring, but please bear with it.",
+        "ru": "Это, конечно, скучно, но я прошу вас потерпеть.",
+        "learn": 0
+      },
+      {
+        "eng": "How does your story bear on this case?",
+        "ru": "Какое отношение имеет ваша история к данному случаю?",
+        "learn": 0
+      },
+      {
+        "eng": "I can't bear the suspense.",
+        "ru": "Поскорей бы узнать! / Терпеть не могу ждать. / Сгораю от нетерпения.",
+        "learn": 0
+      },
+      {
+        "eng": "The four pillars bear the arch.",
+        "ru": "Четыре колонны поддерживают арку.",
+        "learn": 0
+      },
+      {
+        "eng": "This plank will not bear your weight.",
+        "ru": "Эта доска не выдержит вашего веса.",
+        "learn": 0
+      },
+      {
+        "eng": "This letter bears no date.",
+        "ru": "На этом письме нет даты.",
+        "learn": 0
+      },
+      {
+        "eng": "His story does not bear scrutiny.",
+        "ru": "Его рассказ не выдерживает никакой критики.",
+        "learn": 1
+      },
+      {
+        "eng": "They bore the title Count of Nassau.",
+        "ru": "Они носили титул графов Нассау.",
+        "learn": 0
+      }
+    ]
+  }
 }

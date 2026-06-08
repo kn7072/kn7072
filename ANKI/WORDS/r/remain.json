@@ -1,86 +1,172 @@
 {
-    "remain": {
-        "comment": [
-            "remaining",
-            "remains",
-            "remainder"
-        ],
-        "translate": "оставаться, продержаться, остаток, остальное",
-        "transcription": " |rɪˈmeɪn|",
-        "antonyms": [],
-        "mnemonic": [
-            "remain [риме'йн] остаться - Даже (ремен-ь) остаться не заставит меня здесь.",
-            "main [meɪn]\ndomain [də'meɪn] - область, сфера, владение\nremain [rɪ'meɪn] - оставаться, сохраниться\n***\nГЛАВНУЮ идею выделить сумей (н). (это) main\nОСНОВНОЕ найти сумей (н). (это) main\n***\nВыбери путь главный \"main\"\nи получи владение \"domain\".",
-            "remain [ri'mein]\n***\nОСТАНЕТСЯ пусть без перемен. (это) remain\nСОХРАНИМ мы всё без \"перемейн\". (это) remain\nЕсли ты ОСТАНЕШЬСЯ, я подарю ремень. (это) remain"
-        ],
-        "examples": [
-            "My parents remained in England.",
-            "We remained friends.",
-            "It was wise of you to remain silent.",
-            "Mother was advised to remain indoors for a week.",
-            "Many other questions remain unanswered.",
-            "Little remained after the fire.",
-            "Several points remain to be settled.",
-            "Please remain seated during takeoff.",
-            "The boy remained silent.",
-            "They struggled to remain alive.",
-            "They're happy and I hope they will remain so.",
-            "We took his advice to remain silent.",
-            "He endeavoured to remain calm.",
-            "I have chosen to remain in the shade.",
-            "My parents remain as obstinate as ever.",
-            "She was too ill to remain at home.",
-            "She desires to remain neutral in the dispute.",
-            "He forced his voice to remain level.",
-            "He remained with the team.",
-            "I remain unconvinced.",
-            "They remain clueless to the fact.",
-            "The lessons remain fresh in her memory.",
-            "Words remain the dress of our thoughts.",
-            "Only two minutes still remain in the game.",
-            "It must remain a secret until the day I die.",
-            "They remain the main providers of sports facilities.",
-            "I remain, my dear friend, affectionately yours.",
-            "The rescuers urged that we remain calm.",
-            "The Middle East will remain a powder keg.",
-            "Carter has been refused bail and will remain in custody."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мои родители остались в Англии.",
-            "Мы остались друзьями.",
-            "С твоей стороны было мудро сохранять молчание. / Вы правильно поступили, что промолчали.",
-            "Маме посоветовали посидеть недельку дома.",
-            "Многие другие вопросы остаются без ответа.",
-            "После пожара осталось немногое.",
-            "Остаётся уладить ещё несколько вопросов.",
-            "Во время взлёта просьба оставаться на своих местах.",
-            "Мальчик молчал.",
-            "Они боролись за жизнь.",
-            "Они счастливы, и я надеюсь, что так будет и впредь.",
-            "Мы последовали его совету хранить молчание.",
-            "Он пытался сохранять спокойствие.",
-            "Я предпочёл остаться в тени.",
-            "Мои родители остаются такими же упрямыми как и прежде.",
-            "Она была слишком больна, чтобы оставаться дома.",
-            "Она не хочет принимать чью-либо сторону в споре.",
-            "Он заставил себя говорить спокойным тоном.",
-            "Он остался с командой.",
-            "Я по-прежнему не убеждён.",
-            "До них не доходит.",
-            "Эти уроки по-прежнему свежи в её памяти.",
-            "Слова остаются оболочкой для наших мыслей.",
-            "До конца игры осталось всего две минуты.",
-            "Это должно оставаться в секрете вплоть до того дня, когда я умру.",
-            "Они остаются основными поставщиками спортивного оборудования.",
-            "По-прежнему любящий вас друг. (формула вежливости в конце письма)",
-            "Спасатели призвали нас сохранять спокойствие.",
-            "Ближний Восток останется взрывоопасным регионом /\"пороховой бочкой\"/.",
-            "Картеру было отказано в освобождении под залог, и он останется под арестом /в заключении/."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "remain": {
+    "comment": [
+      "remaining",
+      "remains",
+      "remainder"
+    ],
+    "translate": "оставаться, продержаться, остаток, остальное",
+    "transcription": " |rɪˈmeɪn|",
+    "antonyms": [],
+    "mnemonic": [
+      "remain [риме'йн] остаться - Даже (ремен-ь) остаться не заставит меня здесь.",
+      "main [meɪn]\ndomain [də'meɪn] - область, сфера, владение\nremain [rɪ'meɪn] - оставаться, сохраниться\n***\nГЛАВНУЮ идею выделить сумей (н). (это) main\nОСНОВНОЕ найти сумей (н). (это) main\n***\nВыбери путь главный \"main\"\nи получи владение \"domain\".",
+      "remain [ri'mein]\n***\nОСТАНЕТСЯ пусть без перемен. (это) remain\nСОХРАНИМ мы всё без \"перемейн\". (это) remain\nЕсли ты ОСТАНЕШЬСЯ, я подарю ремень. (это) remain"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "My parents remained in England.",
+        "ru": "Мои родители остались в Англии.",
+        "learn": 0
+      },
+      {
+        "eng": "We remained friends.",
+        "ru": "Мы остались друзьями.",
+        "learn": 0
+      },
+      {
+        "eng": "It was wise of you to remain silent.",
+        "ru": "С твоей стороны было мудро сохранять молчание. / Вы правильно поступили, что промолчали.",
+        "learn": 0
+      },
+      {
+        "eng": "Mother was advised to remain indoors for a week.",
+        "ru": "Маме посоветовали посидеть недельку дома.",
+        "learn": 1
+      },
+      {
+        "eng": "Many other questions remain unanswered.",
+        "ru": "Многие другие вопросы остаются без ответа.",
+        "learn": 0
+      },
+      {
+        "eng": "Little remained after the fire.",
+        "ru": "После пожара осталось немногое.",
+        "learn": 0
+      },
+      {
+        "eng": "Several points remain to be settled.",
+        "ru": "Остаётся уладить ещё несколько вопросов.",
+        "learn": 0
+      },
+      {
+        "eng": "Please remain seated during takeoff.",
+        "ru": "Во время взлёта просьба оставаться на своих местах.",
+        "learn": 0
+      },
+      {
+        "eng": "The boy remained silent.",
+        "ru": "Мальчик молчал.",
+        "learn": 0
+      },
+      {
+        "eng": "They struggled to remain alive.",
+        "ru": "Они боролись за жизнь.",
+        "learn": 1
+      },
+      {
+        "eng": "They're happy and I hope they will remain so.",
+        "ru": "Они счастливы, и я надеюсь, что так будет и впредь.",
+        "learn": 0
+      },
+      {
+        "eng": "We took his advice to remain silent.",
+        "ru": "Мы последовали его совету хранить молчание.",
+        "learn": 0
+      },
+      {
+        "eng": "He endeavoured to remain calm.",
+        "ru": "Он пытался сохранять спокойствие.",
+        "learn": 0
+      },
+      {
+        "eng": "I have chosen to remain in the shade.",
+        "ru": "Я предпочёл остаться в тени.",
+        "learn": 0
+      },
+      {
+        "eng": "My parents remain as obstinate as ever.",
+        "ru": "Мои родители остаются такими же упрямыми как и прежде.",
+        "learn": 0
+      },
+      {
+        "eng": "She was too ill to remain at home.",
+        "ru": "Она была слишком больна, чтобы оставаться дома.",
+        "learn": 0
+      },
+      {
+        "eng": "She desires to remain neutral in the dispute.",
+        "ru": "Она не хочет принимать чью-либо сторону в споре.",
+        "learn": 1
+      },
+      {
+        "eng": "He forced his voice to remain level.",
+        "ru": "Он заставил себя говорить спокойным тоном.",
+        "learn": 0
+      },
+      {
+        "eng": "He remained with the team.",
+        "ru": "Он остался с командой.",
+        "learn": 0
+      },
+      {
+        "eng": "I remain unconvinced.",
+        "ru": "Я по-прежнему не убеждён.",
+        "learn": 0
+      },
+      {
+        "eng": "They remain clueless to the fact.",
+        "ru": "До них не доходит.",
+        "learn": 0
+      },
+      {
+        "eng": "The lessons remain fresh in her memory.",
+        "ru": "Эти уроки по-прежнему свежи в её памяти.",
+        "learn": 0
+      },
+      {
+        "eng": "Words remain the dress of our thoughts.",
+        "ru": "Слова остаются оболочкой для наших мыслей.",
+        "learn": 0
+      },
+      {
+        "eng": "Only two minutes still remain in the game.",
+        "ru": "До конца игры осталось всего две минуты.",
+        "learn": 0
+      },
+      {
+        "eng": "It must remain a secret until the day I die.",
+        "ru": "Это должно оставаться в секрете вплоть до того дня, когда я умру.",
+        "learn": 0
+      },
+      {
+        "eng": "They remain the main providers of sports facilities.",
+        "ru": "Они остаются основными поставщиками спортивного оборудования.",
+        "learn": 1
+      },
+      {
+        "eng": "I remain, my dear friend, affectionately yours.",
+        "ru": "По-прежнему любящий вас друг. (формула вежливости в конце письма)",
+        "learn": 0
+      },
+      {
+        "eng": "The rescuers urged that we remain calm.",
+        "ru": "Спасатели призвали нас сохранять спокойствие.",
+        "learn": 0
+      },
+      {
+        "eng": "The Middle East will remain a powder keg.",
+        "ru": "Ближний Восток останется взрывоопасным регионом /\"пороховой бочкой\"/.",
+        "learn": 0
+      },
+      {
+        "eng": "Carter has been refused bail and will remain in custody.",
+        "ru": "Картеру было отказано в освобождении под залог, и он останется под арестом /в заключении/.",
+        "learn": 0
+      }
+    ]
+  }
 }

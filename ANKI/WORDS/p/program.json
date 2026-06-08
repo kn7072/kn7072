@@ -1,86 +1,173 @@
 {
-    "program": {
-        "comment": [
-            "progress",
-            "programme",
-            "progressive",
-            "programmer",
-            "programming",
-            "progression"
-        ],
-        "translate": "программа, план, спектакль, программировать, программный",
-        "transcription": " |ˈproʊɡræm|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The program is aired daily.",
-            "The program was shown live.",
-            "This new program is a must-be for me.",
-            "They will repeat the program tomorrow.",
-            "a program of regular dental checkups",
-            "The program is a cinch to install.",
-            "WHO Immunology Program",
-            "Did you see his program last night?",
-            "Which font is the default in that computer program?",
-            "He initiated a new program.",
-            "The program takes a while to load.",
-            "The program is for people over age 50.",
-            "This adds a light note to the program.",
-            "Drop-down menus make the program very easy to use.",
-            "Due to high costs, the program was never fully implemented.",
-            "run a new program on the Mac",
-            "She set up a literacy program.",
-            "a transcript of a radio program",
-            "The program is written in BASIC.",
-            "Expanded Program on Immunization",
-            "a program with a sunset provision",
-            "Stanford University's MBA program",
-            "the program's first airing in 2000",
-            "in an accelerated program in school",
-            "a program that is currently in beta",
-            "The TV program has a new time slot.",
-            "The program uses 350K of disk space.",
-            "Funding for the program was slashed.",
-            "The group conducted a pilot program.",
-            "The program is due to air next month."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Эта программа выходит ежедневно.",
-            "Эта программа была показана в прямом эфире.",
-            "Эта программа мне просто необходима.",
-            "Завтра будет повторный показ этой передачи.",
-            "программа регулярных стоматологических осмотров",
-            "Эта программа проста в установке.",
-            "программа ВОЗ по развитию иммунологии",
-            "Видели его вчерашнюю программу?",
-            "Какой шрифт используется по умолчанию в этой компьютерной программе?",
-            "Он инициировал новую программу.",
-            "Загрузка программы занимает некоторое время. / Программа загружается не сразу.",
-            "Данная программа предназначена для людей старше пятидесяти лет.",
-            "Это добавляет программе лёгкую нотку.",
-            "Раскрывающиеся меню делают программу очень простой в использовании.",
-            "Из-за высокой стоимости программа так и не была полностью реализована.",
-            "запустить новую программу на \"макинтоше\"",
-            "Она создала программу повышения грамотности.",
-            "расшифровка радиопередачи",
-            "Программа написана на языке BASIC.",
-            "Расширенная программа вакцинации (программа ВОЗ)",
-            "программа с явно указанным сроком окончания действия",
-            "программа MДA (магистр делового администрирования) Стэнфордского университета",
-            "первый выход в эфир данной программы, состоявшийся в 2000 году",
-            "по ускоренной программе в школе",
-            "программа, которая в настоящее время находится в бета-версии",
-            "Эта телепрограмма теперь идёт в другое время.",
-            "Программа использует 350 килобайт дискового пространства.",
-            "Финансирование программы было сокращено.",
-            "Группа провела пробную /пилотную/ программу.",
-            "Программа должна выйти в эфир в следующем месяце."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "o_+_Закр_сл_=_[ou]"
-        ]
-    }
+  "program": {
+    "comment": [
+      "progress",
+      "programme",
+      "progressive",
+      "programmer",
+      "programming",
+      "progression"
+    ],
+    "translate": "программа, план, спектакль, программировать, программный",
+    "transcription": " |ˈproʊɡræm|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "o_+_Закр_сл_=_[ou]"
+    ],
+    "examples": [
+      {
+        "eng": "The program is aired daily.",
+        "ru": "Эта программа выходит ежедневно.",
+        "learn": 0
+      },
+      {
+        "eng": "The program was shown live.",
+        "ru": "Эта программа была показана в прямом эфире.",
+        "learn": 0
+      },
+      {
+        "eng": "This new program is a must-be for me.",
+        "ru": "Эта программа мне просто необходима.",
+        "learn": 0
+      },
+      {
+        "eng": "They will repeat the program tomorrow.",
+        "ru": "Завтра будет повторный показ этой передачи.",
+        "learn": 1
+      },
+      {
+        "eng": "a program of regular dental checkups",
+        "ru": "программа регулярных стоматологических осмотров",
+        "learn": 0
+      },
+      {
+        "eng": "The program is a cinch to install.",
+        "ru": "Эта программа проста в установке.",
+        "learn": 0
+      },
+      {
+        "eng": "WHO Immunology Program",
+        "ru": "программа ВОЗ по развитию иммунологии",
+        "learn": 0
+      },
+      {
+        "eng": "Did you see his program last night?",
+        "ru": "Видели его вчерашнюю программу?",
+        "learn": 0
+      },
+      {
+        "eng": "Which font is the default in that computer program?",
+        "ru": "Какой шрифт используется по умолчанию в этой компьютерной программе?",
+        "learn": 1
+      },
+      {
+        "eng": "He initiated a new program.",
+        "ru": "Он инициировал новую программу.",
+        "learn": 0
+      },
+      {
+        "eng": "The program takes a while to load.",
+        "ru": "Загрузка программы занимает некоторое время. / Программа загружается не сразу.",
+        "learn": 0
+      },
+      {
+        "eng": "The program is for people over age 50.",
+        "ru": "Данная программа предназначена для людей старше пятидесяти лет.",
+        "learn": 0
+      },
+      {
+        "eng": "This adds a light note to the program.",
+        "ru": "Это добавляет программе лёгкую нотку.",
+        "learn": 0
+      },
+      {
+        "eng": "Drop-down menus make the program very easy to use.",
+        "ru": "Раскрывающиеся меню делают программу очень простой в использовании.",
+        "learn": 0
+      },
+      {
+        "eng": "Due to high costs, the program was never fully implemented.",
+        "ru": "Из-за высокой стоимости программа так и не была полностью реализована.",
+        "learn": 1
+      },
+      {
+        "eng": "run a new program on the Mac",
+        "ru": "запустить новую программу на \"макинтоше\"",
+        "learn": 0
+      },
+      {
+        "eng": "She set up a literacy program.",
+        "ru": "Она создала программу повышения грамотности.",
+        "learn": 0
+      },
+      {
+        "eng": "a transcript of a radio program",
+        "ru": "расшифровка радиопередачи",
+        "learn": 0
+      },
+      {
+        "eng": "The program is written in BASIC.",
+        "ru": "Программа написана на языке BASIC.",
+        "learn": 0
+      },
+      {
+        "eng": "Expanded Program on Immunization",
+        "ru": "Расширенная программа вакцинации (программа ВОЗ)",
+        "learn": 0
+      },
+      {
+        "eng": "a program with a sunset provision",
+        "ru": "программа с явно указанным сроком окончания действия",
+        "learn": 0
+      },
+      {
+        "eng": "Stanford University's MBA program",
+        "ru": "программа MДA (магистр делового администрирования) Стэнфордского университета",
+        "learn": 0
+      },
+      {
+        "eng": "the program's first airing in 2000",
+        "ru": "первый выход в эфир данной программы, состоявшийся в 2000 году",
+        "learn": 0
+      },
+      {
+        "eng": "in an accelerated program in school",
+        "ru": "по ускоренной программе в школе",
+        "learn": 0
+      },
+      {
+        "eng": "a program that is currently in beta",
+        "ru": "программа, которая в настоящее время находится в бета-версии",
+        "learn": 0
+      },
+      {
+        "eng": "The TV program has a new time slot.",
+        "ru": "Эта телепрограмма теперь идёт в другое время.",
+        "learn": 0
+      },
+      {
+        "eng": "The program uses 350K of disk space.",
+        "ru": "Программа использует 350 килобайт дискового пространства.",
+        "learn": 0
+      },
+      {
+        "eng": "Funding for the program was slashed.",
+        "ru": "Финансирование программы было сокращено.",
+        "learn": 0
+      },
+      {
+        "eng": "The group conducted a pilot program.",
+        "ru": "Группа провела пробную /пилотную/ программу.",
+        "learn": 0
+      },
+      {
+        "eng": "The program is due to air next month.",
+        "ru": "Программа должна выйти в эфир в следующем месяце.",
+        "learn": 0
+      }
+    ]
+  }
 }

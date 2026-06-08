@@ -1,64 +1,111 @@
 {
-    "array": {
-        "comment": [
-            "prayer",
-            "pray",
-            "spray",
-            "tray",
-            "ray",
-            "portray",
-            "betray",
-            "stray",
-            "x-ray"
-        ],
-        "translate": "масса, множество, матрица, таблица, строй, выстраивать",
-        "transcription": " |əˈreɪ|",
-        "antonyms": [],
-        "mnemonic": [
-            "array [эр'эй] массив, множество - Отряд (ег-ерей) целый массив волков отстрелил."
-        ],
-        "examples": [
-            "He faced a whole array of problems.",
-            "The long array of bright helmets.",
-            "It was a bewildering array of books.",
-            "Security cameras were arrayed at every angle around the entrance.",
-            "She arrayed herself in rich velvets and satins.",
-            "She came in arrayed in all her finery.",
-            "He supported his argument with an impressive array of facts.",
-            "He has a full array of stereo equipment.",
-            "Counsel for the parties may challenge the array.",
-            "There was a vast array of colours to choose from.",
-            "The display case held an impressive array of military medals from World War II.",
-            "The cafeteria's self-serve table has a full array of condiments.",
-            "MOS array",
-            "The learned professor can speak knowledgeably on a wide array of subjects.",
-            "They anthologized an impressive array of essays championing freedom of the press.",
-            "The store sells an array of whatnots for the do-it-yourself plumber.",
-            "The rise of cable television ramified the audience, creating ever smaller segments for an ever growing array of programming choices."
-        ],
-        "example_translate": [
-            "Он столкнулся с массой проблем.",
-            "Длинный ряд сияющих шлемов.",
-            "Это было невероятное множество книг.",
-            "На каждом углу у входа были расставлены камеры видеонаблюдения.",
-            "Она нарядилась в дорогой бархат и атлас.",
-            "Она вошла, разодетая в пух и прах.",
-            "Он подкрепил свои аргументы впечатляющим набором фактов.",
-            "У него есть полный комплект стереооборудования.",
-            "Представители сторон могут дать отвод всему составу коллегии присяжных.",
-            "На выбор предлагалось большое разнообразие расцветок.",
-            "На витрине был выставлен впечатляющий набор боевых наград времён второй Мировой Войны.",
-            "На столике самообслуживания этого кафетерия имеется полный набор приправ.",
-            "ИС на МОП-транзисторах или МОП-структурах",
-            "Этот эрудированный профессор может говорить со знанием дела по широкому кругу вопросов.",
-            "Они составили внушительный сборник сочинений в защиту свободы прессы.",
-            "В магазине продаётся множество всякой всячины для сантехников-непрофессионалов.",
-            "Подъём кабельного телевидения разделил аудиторию, создавая всё более мелкие её сегменты для постоянно растущего ассортимента телепрограмм."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "array": {
+    "comment": [
+      "prayer",
+      "pray",
+      "spray",
+      "tray",
+      "ray",
+      "portray",
+      "betray",
+      "stray",
+      "x-ray"
+    ],
+    "translate": "масса, множество, матрица, таблица, строй, выстраивать",
+    "transcription": " |əˈreɪ|",
+    "antonyms": [],
+    "mnemonic": [
+      "array [эр'эй] массив, множество - Отряд (ег-ерей) целый массив волков отстрелил."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He faced a whole array of problems.",
+        "ru": "Он столкнулся с массой проблем.",
+        "learn": 1
+      },
+      {
+        "eng": "The long array of bright helmets.",
+        "ru": "Длинный ряд сияющих шлемов.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a bewildering array of books.",
+        "ru": "Это было невероятное множество книг.",
+        "learn": 0
+      },
+      {
+        "eng": "Security cameras were arrayed at every angle around the entrance.",
+        "ru": "На каждом углу у входа были расставлены камеры видеонаблюдения.",
+        "learn": 0
+      },
+      {
+        "eng": "She arrayed herself in rich velvets and satins.",
+        "ru": "Она нарядилась в дорогой бархат и атлас.",
+        "learn": 0
+      },
+      {
+        "eng": "She came in arrayed in all her finery.",
+        "ru": "Она вошла, разодетая в пух и прах.",
+        "learn": 0
+      },
+      {
+        "eng": "He supported his argument with an impressive array of facts.",
+        "ru": "Он подкрепил свои аргументы впечатляющим набором фактов.",
+        "learn": 1
+      },
+      {
+        "eng": "He has a full array of stereo equipment.",
+        "ru": "У него есть полный комплект стереооборудования.",
+        "learn": 0
+      },
+      {
+        "eng": "Counsel for the parties may challenge the array.",
+        "ru": "Представители сторон могут дать отвод всему составу коллегии присяжных.",
+        "learn": 0
+      },
+      {
+        "eng": "There was a vast array of colours to choose from.",
+        "ru": "На выбор предлагалось большое разнообразие расцветок.",
+        "learn": 1
+      },
+      {
+        "eng": "The display case held an impressive array of military medals from World War II.",
+        "ru": "На витрине был выставлен впечатляющий набор боевых наград времён второй Мировой Войны.",
+        "learn": 0
+      },
+      {
+        "eng": "The cafeteria's self-serve table has a full array of condiments.",
+        "ru": "На столике самообслуживания этого кафетерия имеется полный набор приправ.",
+        "learn": 0
+      },
+      {
+        "eng": "MOS array",
+        "ru": "ИС на МОП-транзисторах или МОП-структурах",
+        "learn": 0
+      },
+      {
+        "eng": "The learned professor can speak knowledgeably on a wide array of subjects.",
+        "ru": "Этот эрудированный профессор может говорить со знанием дела по широкому кругу вопросов.",
+        "learn": 1
+      },
+      {
+        "eng": "They anthologized an impressive array of essays championing freedom of the press.",
+        "ru": "Они составили внушительный сборник сочинений в защиту свободы прессы.",
+        "learn": 0
+      },
+      {
+        "eng": "The store sells an array of whatnots for the do-it-yourself plumber.",
+        "ru": "В магазине продаётся множество всякой всячины для сантехников-непрофессионалов.",
+        "learn": 0
+      },
+      {
+        "eng": "The rise of cable television ramified the audience, creating ever smaller segments for an ever growing array of programming choices.",
+        "ru": "Подъём кабельного телевидения разделил аудиторию, создавая всё более мелкие её сегменты для постоянно растущего ассортимента телепрограмм.",
+        "learn": 0
+      }
+    ]
+  }
 }

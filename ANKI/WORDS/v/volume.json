@@ -1,89 +1,176 @@
 {
-    "volume": {
-        "comment": [
-            "lump",
-            "column",
-            "curriculum",
-            "asylum",
-            "aluminium",
-            "clumsy"
-        ],
-        "translate": " объем, громкость, емкость, книга, масса, объемный, крупномасштабный",
-        "transcription": "  |ˈvɑːljuːm|",
-        "antonyms": [],
-        "mnemonic": [
-            "volume [во'люм] том - Все том-a Ленина (вольюм*) обратно в его башку ('Вольём).",
-            "volume ['vɔljum]\n***\nЗаполню ОБЪЁМЫ - воду волью (м). (это) volume\n5 ТОМОВ прочту - начитаюсь вволю (м). (это) volume\nНа высокой ГРОМКОСТИ наслушался вволю. (это)\nvolume"
-        ],
-        "examples": [
-            "Turn down the volume of a radio",
-            "The volume is too loud.",
-            "There was a parallel passage in the second volume.",
-            "Can you turn the volume up?",
-            "The roar decreased in volume.",
-            "I adjusted the volume knob and sat down.",
-            "The volume of the container is 100 cubic meters.",
-            "The volume is closed by a carefully-written excursus.",
-            "calculate the volume of a cylinder",
-            "The box has a volume of three cubic meters.",
-            "Another book is a twelvemo volume.",
-            "The volume is too low — turn it up.",
-            "The period from 1940-45 is in volume 9.",
-            "I adjusted the volume on the radio.",
-            "the kids played their music at full volume",
-            "We measure the items by weight, not by volume.",
-            "measuring the volume of air expired from the lungs",
-            "After heavy rains, the volume of water was twentyfold as great.",
-            "She leafed through the volume.",
-            "The gas expanded to twice its original volume.",
-            "Would you turn the volume up a little? I can't hear.",
-            "The volume of the container measures 10,000 cubic metres.",
-            "It would take a volume to follow out all the peripeteias of the drama.",
-            "Another book is a twentymo volume.",
-            "detractive influences on the volume of investment",
-            "He controlled the volume by turning the radio's knob.",
-            "Commanders may disperse troops to offset a high volume of fire.",
-            "Each volume contains the Acts for the year arranged by chapter number.",
-            "She fiddled with the volume on the stereo.",
-            "He asked for the 1989 volume of the Annual Review."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Убавь громкость радио.",
-            "Слишком громко.",
-            "Во втором томе был похожий абзац.",
-            "Можете увеличить громкость?",
-            "Рёв стал тише.",
-            "Я отрегулировал ручку громкости и сел.",
-            "Ёмкость контейнера 100 м3.",
-            "Книга заканчивалась подробно написанным приложением с пояснениями к тексту.",
-            "вычислить объём цилиндра",
-            "Объём коробки составляет три кубических метра.",
-            "Другая книга - том в двенадцатую долю листа.",
-            "Это слишком тихо, добавьте громкости.",
-            "Период времени с 1940 по 1945 год описан в девятом томе.",
-            "Я отрегулировал громкость радио.",
-            "Дети слушали музыку на полной громкости.",
-            "Мы измеряем элементы по весу, а не по объёму.",
-            "измерение объёма воздуха, выдыхаемого из лёгких",
-            "После сильных дождей объем воды увеличился в двадцать раз.",
-            "Она пролистала этот том.",
-            "Объём газа увеличился вдвое относительно первоначального.",
-            "Вы не могли бы сделать немного погромче? Мне не слышно.",
-            "Объем контейнера измеряется 10-ю тысячами кубических метров.",
-            "Для того, чтобы проследить все перипетии этой драмы, мне бы потребовался целый том.",
-            "Другая книга - том в двадцатую долю листа.",
-            "деструктивное влияние на объём инвестиций",
-            "Он регулировал громкость, поворачивая ручку радиоприёмника.",
-            "При массированном обстреле командиры могут принять решение рассредоточить силы.",
-            "Каждый том содержит законы конкретного года, расположенные по номерам.",
-            "Она покрутила регулятор звука на магнитофоне.",
-            "Он попросил ежегодный обзор за 1989 год."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "o_+_Откр_сл_=_[ɔ]"
-        ]
-    }
+  "volume": {
+    "comment": [
+      "lump",
+      "column",
+      "curriculum",
+      "asylum",
+      "aluminium",
+      "clumsy"
+    ],
+    "translate": " объем, громкость, емкость, книга, масса, объемный, крупномасштабный",
+    "transcription": "  |ˈvɑːljuːm|",
+    "antonyms": [],
+    "mnemonic": [
+      "volume [во'люм] том - Все том-a Ленина (вольюм*) обратно в его башку ('Вольём).",
+      "volume ['vɔljum]\n***\nЗаполню ОБЪЁМЫ - воду волью (м). (это) volume\n5 ТОМОВ прочту - начитаюсь вволю (м). (это) volume\nНа высокой ГРОМКОСТИ наслушался вволю. (это)\nvolume"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "o_+_Откр_сл_=_[ɔ]"
+    ],
+    "examples": [
+      {
+        "eng": "Turn down the volume of a radio",
+        "ru": "Убавь громкость радио.",
+        "learn": 1
+      },
+      {
+        "eng": "The volume is too loud.",
+        "ru": "Слишком громко.",
+        "learn": 0
+      },
+      {
+        "eng": "There was a parallel passage in the second volume.",
+        "ru": "Во втором томе был похожий абзац.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you turn the volume up?",
+        "ru": "Можете увеличить громкость?",
+        "learn": 1
+      },
+      {
+        "eng": "The roar decreased in volume.",
+        "ru": "Рёв стал тише.",
+        "learn": 0
+      },
+      {
+        "eng": "I adjusted the volume knob and sat down.",
+        "ru": "Я отрегулировал ручку громкости и сел.",
+        "learn": 0
+      },
+      {
+        "eng": "The volume of the container is 100 cubic meters.",
+        "ru": "Ёмкость контейнера 100 м3.",
+        "learn": 0
+      },
+      {
+        "eng": "The volume is closed by a carefully-written excursus.",
+        "ru": "Книга заканчивалась подробно написанным приложением с пояснениями к тексту.",
+        "learn": 0
+      },
+      {
+        "eng": "calculate the volume of a cylinder",
+        "ru": "вычислить объём цилиндра",
+        "learn": 0
+      },
+      {
+        "eng": "The box has a volume of three cubic meters.",
+        "ru": "Объём коробки составляет три кубических метра.",
+        "learn": 0
+      },
+      {
+        "eng": "Another book is a twelvemo volume.",
+        "ru": "Другая книга - том в двенадцатую долю листа.",
+        "learn": 0
+      },
+      {
+        "eng": "The volume is too low — turn it up.",
+        "ru": "Это слишком тихо, добавьте громкости.",
+        "learn": 0
+      },
+      {
+        "eng": "The period from 1940-45 is in volume 9.",
+        "ru": "Период времени с 1940 по 1945 год описан в девятом томе.",
+        "learn": 0
+      },
+      {
+        "eng": "I adjusted the volume on the radio.",
+        "ru": "Я отрегулировал громкость радио.",
+        "learn": 1
+      },
+      {
+        "eng": "the kids played their music at full volume",
+        "ru": "Дети слушали музыку на полной громкости.",
+        "learn": 0
+      },
+      {
+        "eng": "We measure the items by weight, not by volume.",
+        "ru": "Мы измеряем элементы по весу, а не по объёму.",
+        "learn": 0
+      },
+      {
+        "eng": "measuring the volume of air expired from the lungs",
+        "ru": "измерение объёма воздуха, выдыхаемого из лёгких",
+        "learn": 0
+      },
+      {
+        "eng": "After heavy rains, the volume of water was twentyfold as great.",
+        "ru": "После сильных дождей объем воды увеличился в двадцать раз.",
+        "learn": 0
+      },
+      {
+        "eng": "She leafed through the volume.",
+        "ru": "Она пролистала этот том.",
+        "learn": 0
+      },
+      {
+        "eng": "The gas expanded to twice its original volume.",
+        "ru": "Объём газа увеличился вдвое относительно первоначального.",
+        "learn": 0
+      },
+      {
+        "eng": "Would you turn the volume up a little? I can't hear.",
+        "ru": "Вы не могли бы сделать немного погромче? Мне не слышно.",
+        "learn": 1
+      },
+      {
+        "eng": "The volume of the container measures 10,000 cubic metres.",
+        "ru": "Объем контейнера измеряется 10-ю тысячами кубических метров.",
+        "learn": 0
+      },
+      {
+        "eng": "It would take a volume to follow out all the peripeteias of the drama.",
+        "ru": "Для того, чтобы проследить все перипетии этой драмы, мне бы потребовался целый том.",
+        "learn": 0
+      },
+      {
+        "eng": "Another book is a twentymo volume.",
+        "ru": "Другая книга - том в двадцатую долю листа.",
+        "learn": 0
+      },
+      {
+        "eng": "detractive influences on the volume of investment",
+        "ru": "деструктивное влияние на объём инвестиций",
+        "learn": 0
+      },
+      {
+        "eng": "He controlled the volume by turning the radio's knob.",
+        "ru": "Он регулировал громкость, поворачивая ручку радиоприёмника.",
+        "learn": 0
+      },
+      {
+        "eng": "Commanders may disperse troops to offset a high volume of fire.",
+        "ru": "При массированном обстреле командиры могут принять решение рассредоточить силы.",
+        "learn": 0
+      },
+      {
+        "eng": "Each volume contains the Acts for the year arranged by chapter number.",
+        "ru": "Каждый том содержит законы конкретного года, расположенные по номерам.",
+        "learn": 0
+      },
+      {
+        "eng": "She fiddled with the volume on the stereo.",
+        "ru": "Она покрутила регулятор звука на магнитофоне.",
+        "learn": 0
+      },
+      {
+        "eng": "He asked for the 1989 volume of the Annual Review.",
+        "ru": "Он попросил ежегодный обзор за 1989 год.",
+        "learn": 0
+      }
+    ]
+  }
 }

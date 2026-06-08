@@ -1,71 +1,136 @@
 {
-    "shell": {
-        "comment": [
-            "she",
-            "shelter",
-            "shed"
-        ],
-        "translate": "оболочка, корпус, раковина, скорлупа, шелушить, шелушиться, лущить, лущиться",
-        "transcription": " |ʃel|",
-        "antonyms": [],
-        "mnemonic": [
-            "shell [шэл] раковина, скорлупа - Символ фирмы («Шелл») - раковина.",
-            "shell [ʃɛl]\n***\nПод ПАНЦИРЕМ я хорошел. (это) shell\nРаковина, скорлупа, шелуха.\nОчищать, лущиться. Снимать скорлупу.\n***\nЛучше спрятаться в раковине \"shell\",\nчем попасть в ад \"hell\"."
-        ],
-        "examples": [
-            "Never buy eggs with cracked shells.",
-            "They cracked the nuts and removed their shells.",
-            "Her normally shy son has come out of his shell.",
-            "A dim mist shelled the god.",
-            "The enemy has been shelling us all day",
-            "The town was shelled during the battle.",
-            "Josie was shelling peas in the kitchen.",
-            "The children were collecting shells on the beach.",
-            "We collected shells at the beach.",
-            "They shelled the enemy troops.",
-            "The shell exposed to heat crisps.",
-            "He was a shell of the man he had been previously.",
-            "Black walnut kernels are difficult to get out of the shell.",
-            "An arch is a curved shell of firm materials.",
-            "gullible tourists taken in by the shell game",
-            "We ran for cover as shells dropped all around us.",
-            "The army has been shelling the town since yesterday.",
-            "Our artillery was lobbing shells into enemy positions.",
-            "I had hoped that university would bring him out of his shell.",
-            "shell out pocket money for the children",
-            "A couple sculled past in a racing shell.",
-            "The shell of a sessile barnacle is attached directly to a substrate.",
-            "I think I'll buy fruit this year to shell out when the children come round."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Никогда не покупайте яйца с треснувшей скорлупой.",
-            "Они кололи орехи и очищали их от скорлупы.",
-            "Её обычно замкнутый сын вышел из своей скорлупы.",
-            "Лёгкий туман окружал божество.",
-            "Противник весь день нас обстреливает.",
-            "Во время боя город подвергся обстрелу.",
-            "Джози лущила горох на кухне.",
-            "Дети собирали ракушки на берегу моря.",
-            "Мы собирали ракушки на пляже.",
-            "Они обстреляли вражеские войска.",
-            "Если раковину оставить на солнце, она станет волнистой.",
-            "Он лишь по виду был таким, как прежде.",
-            "Чёрные ядра грецких орехов трудно добыть из скорлупы.",
-            "Арка представляет собой изогнутое полукруглое сооружение из твёрдых материалов.",
-            "доверчивые туристы, которых вовлекают в игру в напёрстки",
-            "Мы побежали в укрытие среди рвущихся вокруг нас снарядов.",
-            "Войска обстреливают город со вчерашнего дня.",
-            "Наша артиллерия обстреливала позиции врага.",
-            "Я надеялся на то, что учеба в университете поможет ему справиться с застенчивостью.",
-            "раскошелиться на карманные деньги для детей",
-            "Мимо прошли на вёслах двое в гоночной лодке.",
-            "Раковина сидячего усоногого крепится непосредственно к основанию.",
-            "Думаю, я на этот раз запасусь фруктами, чтобы раздавать детям на Хэллоуин."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "shell": {
+    "comment": [
+      "she",
+      "shelter",
+      "shed"
+    ],
+    "translate": "оболочка, корпус, раковина, скорлупа, шелушить, шелушиться, лущить, лущиться",
+    "transcription": " |ʃel|",
+    "antonyms": [],
+    "mnemonic": [
+      "shell [шэл] раковина, скорлупа - Символ фирмы («Шелл») - раковина.",
+      "shell [ʃɛl]\n***\nПод ПАНЦИРЕМ я хорошел. (это) shell\nРаковина, скорлупа, шелуха.\nОчищать, лущиться. Снимать скорлупу.\n***\nЛучше спрятаться в раковине \"shell\",\nчем попасть в ад \"hell\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Never buy eggs with cracked shells.",
+        "ru": "Никогда не покупайте яйца с треснувшей скорлупой.",
+        "learn": 0
+      },
+      {
+        "eng": "They cracked the nuts and removed their shells.",
+        "ru": "Они кололи орехи и очищали их от скорлупы.",
+        "learn": 0
+      },
+      {
+        "eng": "Her normally shy son has come out of his shell.",
+        "ru": "Её обычно замкнутый сын вышел из своей скорлупы.",
+        "learn": 0
+      },
+      {
+        "eng": "A dim mist shelled the god.",
+        "ru": "Лёгкий туман окружал божество.",
+        "learn": 0
+      },
+      {
+        "eng": "The enemy has been shelling us all day",
+        "ru": "Противник весь день нас обстреливает.",
+        "learn": 0
+      },
+      {
+        "eng": "The town was shelled during the battle.",
+        "ru": "Во время боя город подвергся обстрелу.",
+        "learn": 0
+      },
+      {
+        "eng": "Josie was shelling peas in the kitchen.",
+        "ru": "Джози лущила горох на кухне.",
+        "learn": 0
+      },
+      {
+        "eng": "The children were collecting shells on the beach.",
+        "ru": "Дети собирали ракушки на берегу моря.",
+        "learn": 1
+      },
+      {
+        "eng": "We collected shells at the beach.",
+        "ru": "Мы собирали ракушки на пляже.",
+        "learn": 1
+      },
+      {
+        "eng": "They shelled the enemy troops.",
+        "ru": "Они обстреляли вражеские войска.",
+        "learn": 0
+      },
+      {
+        "eng": "The shell exposed to heat crisps.",
+        "ru": "Если раковину оставить на солнце, она станет волнистой.",
+        "learn": 0
+      },
+      {
+        "eng": "He was a shell of the man he had been previously.",
+        "ru": "Он лишь по виду был таким, как прежде.",
+        "learn": 1
+      },
+      {
+        "eng": "Black walnut kernels are difficult to get out of the shell.",
+        "ru": "Чёрные ядра грецких орехов трудно добыть из скорлупы.",
+        "learn": 0
+      },
+      {
+        "eng": "An arch is a curved shell of firm materials.",
+        "ru": "Арка представляет собой изогнутое полукруглое сооружение из твёрдых материалов.",
+        "learn": 0
+      },
+      {
+        "eng": "gullible tourists taken in by the shell game",
+        "ru": "доверчивые туристы, которых вовлекают в игру в напёрстки",
+        "learn": 0
+      },
+      {
+        "eng": "We ran for cover as shells dropped all around us.",
+        "ru": "Мы побежали в укрытие среди рвущихся вокруг нас снарядов.",
+        "learn": 0
+      },
+      {
+        "eng": "The army has been shelling the town since yesterday.",
+        "ru": "Войска обстреливают город со вчерашнего дня.",
+        "learn": 0
+      },
+      {
+        "eng": "Our artillery was lobbing shells into enemy positions.",
+        "ru": "Наша артиллерия обстреливала позиции врага.",
+        "learn": 0
+      },
+      {
+        "eng": "I had hoped that university would bring him out of his shell.",
+        "ru": "Я надеялся на то, что учеба в университете поможет ему справиться с застенчивостью.",
+        "learn": 0
+      },
+      {
+        "eng": "shell out pocket money for the children",
+        "ru": "раскошелиться на карманные деньги для детей",
+        "learn": 0
+      },
+      {
+        "eng": "A couple sculled past in a racing shell.",
+        "ru": "Мимо прошли на вёслах двое в гоночной лодке.",
+        "learn": 0
+      },
+      {
+        "eng": "The shell of a sessile barnacle is attached directly to a substrate.",
+        "ru": "Раковина сидячего усоногого крепится непосредственно к основанию.",
+        "learn": 0
+      },
+      {
+        "eng": "I think I'll buy fruit this year to shell out when the children come round.",
+        "ru": "Думаю, я на этот раз запасусь фруктами, чтобы раздавать детям на Хэллоуин.",
+        "learn": 0
+      }
+    ]
+  }
 }

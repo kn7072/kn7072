@@ -1,77 +1,151 @@
 {
-    "signature": {
-        "comment": [
-            "natural",
-            "nature",
-            "naturally",
-            "unnatural"
-        ],
-        "translate": "подпись, подписание, автограф, ключ, ставить подпись",
-        "transcription": " |ˈsɪɡnətʃər|",
-        "antonyms": [],
-        "mnemonic": [
-            "signature [си'гничэ] подпись - (При-сигни че-му то) и подпись свою поставь."
-        ],
-        "examples": [
-            "The signature is genuine.",
-            "The signature is a forgery.",
-            "Don't forget to put your signature on the check.",
-            "We will send you a copy of the agreement for signature.",
-            "Experts have determined that the signature was forged.",
-            "He pushed the letter at me so that I could read the signature.",
-            "We had to have the signature notarized.",
-            "The letter bore no signature.",
-            "Experts have confirmed that the signature on the letter is authentic.",
-            "Smith's signature singing style",
-            "She faked her father's signature on the cheque.",
-            "Will you witness my signature?",
-            "The form has a blank for your signature.",
-            "She scrawled her signature on the receipt.",
-            "The book was inscribed with the author's signature.",
-            "Someone stole my credit card and forged my signature.",
-            "This Agreement commences on the date of signature hereof.",
-            "Each child must obtain the signature of his or her parents.",
-            "We presented the document to the president for her signature.",
-            "The bill passed and went to the governor for signature a week ago.",
-            "His signature was just a squiggle but only he could make that squiggle.",
-            "There are two kinds of signature, the time signature and the key signature.",
-            "Even after peering at the letter, I still could not recognize the signature.",
-            "He put his signature to the contract (=he signed it to show he agreed with it).",
-            "a ludicrous and easily detected attempt to forge his father's signature on a note to school",
-            "If we can collect 200,000 signatures on our petition, then our candidate will be included on the ballot."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Подпись подлинная.",
-            "Эта подпись поддельная.",
-            "Не забудьте расписаться на чеке.",
-            "Мы вышлем вам копию договора для подписания.",
-            "Эксперты установили, что подпись была подделана.",
-            "Он сунул мне письмо в лицо, чтобы я мог прочесть подпись.",
-            "Мы должны были заверить подпись у нотариуса.",
-            "Письмо не содержало никакой подписи.",
-            "Эксперты подтвердили, что подпись на письме подлинна.",
-            "характерная манера пения Смита",
-            "Она подделала подпись своего отца на чеке.",
-            "Вы заверите мою подпись?",
-            "На этом бланке есть место для вашей подписи.",
-            "Она быстро и неразборчиво расписалась на чеке.",
-            "Книга была подписана автографом автора.",
-            "Кто-то украл мою кредитную карту и подделал мою подпись.",
-            "Этот Договор вступает в силу, начиная с даты его подписания.",
-            "Каждый ребёнок должен получить подпись своих родителей.",
-            "Мы представили данный документ на подпись президенту.",
-            "Законопроект был принят, и пришёл к губернатору на подпись неделю назад.",
-            "Его подпись была просто закорючкой, но эту закорючку мог сделать только он сам.",
-            "Имеется два типа знаков при ключе: для размера и тональности.",
-            "Сколько я ни рассматривал это письмо, а узнать подпись всё равно не смог.",
-            "Он поставил свою подпись на договоре (т.е. он подписал его, чтобы показать, что он с ним согласен).",
-            "смешная и легко обнаруженная попытка подделать подпись своего отца на записке в школу",
-            "Если нам удастся собрать под петицией двести тысяч подписей, то наш кандидат будет внесён в бюллетень для голосования."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "signature": {
+    "comment": [
+      "natural",
+      "nature",
+      "naturally",
+      "unnatural"
+    ],
+    "translate": "подпись, подписание, автограф, ключ, ставить подпись",
+    "transcription": " |ˈsɪɡnətʃər|",
+    "antonyms": [],
+    "mnemonic": [
+      "signature [си'гничэ] подпись - (При-сигни че-му то) и подпись свою поставь."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The signature is genuine.",
+        "ru": "Подпись подлинная.",
+        "learn": 0
+      },
+      {
+        "eng": "The signature is a forgery.",
+        "ru": "Эта подпись поддельная.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't forget to put your signature on the check.",
+        "ru": "Не забудьте расписаться на чеке.",
+        "learn": 1
+      },
+      {
+        "eng": "We will send you a copy of the agreement for signature.",
+        "ru": "Мы вышлем вам копию договора для подписания.",
+        "learn": 0
+      },
+      {
+        "eng": "Experts have determined that the signature was forged.",
+        "ru": "Эксперты установили, что подпись была подделана.",
+        "learn": 0
+      },
+      {
+        "eng": "He pushed the letter at me so that I could read the signature.",
+        "ru": "Он сунул мне письмо в лицо, чтобы я мог прочесть подпись.",
+        "learn": 0
+      },
+      {
+        "eng": "We had to have the signature notarized.",
+        "ru": "Мы должны были заверить подпись у нотариуса.",
+        "learn": 0
+      },
+      {
+        "eng": "The letter bore no signature.",
+        "ru": "Письмо не содержало никакой подписи.",
+        "learn": 0
+      },
+      {
+        "eng": "Experts have confirmed that the signature on the letter is authentic.",
+        "ru": "Эксперты подтвердили, что подпись на письме подлинна.",
+        "learn": 1
+      },
+      {
+        "eng": "Smith's signature singing style",
+        "ru": "характерная манера пения Смита",
+        "learn": 0
+      },
+      {
+        "eng": "She faked her father's signature on the cheque.",
+        "ru": "Она подделала подпись своего отца на чеке.",
+        "learn": 0
+      },
+      {
+        "eng": "Will you witness my signature?",
+        "ru": "Вы заверите мою подпись?",
+        "learn": 1
+      },
+      {
+        "eng": "The form has a blank for your signature.",
+        "ru": "На этом бланке есть место для вашей подписи.",
+        "learn": 0
+      },
+      {
+        "eng": "She scrawled her signature on the receipt.",
+        "ru": "Она быстро и неразборчиво расписалась на чеке.",
+        "learn": 0
+      },
+      {
+        "eng": "The book was inscribed with the author's signature.",
+        "ru": "Книга была подписана автографом автора.",
+        "learn": 0
+      },
+      {
+        "eng": "Someone stole my credit card and forged my signature.",
+        "ru": "Кто-то украл мою кредитную карту и подделал мою подпись.",
+        "learn": 0
+      },
+      {
+        "eng": "This Agreement commences on the date of signature hereof.",
+        "ru": "Этот Договор вступает в силу, начиная с даты его подписания.",
+        "learn": 0
+      },
+      {
+        "eng": "Each child must obtain the signature of his or her parents.",
+        "ru": "Каждый ребёнок должен получить подпись своих родителей.",
+        "learn": 0
+      },
+      {
+        "eng": "We presented the document to the president for her signature.",
+        "ru": "Мы представили данный документ на подпись президенту.",
+        "learn": 0
+      },
+      {
+        "eng": "The bill passed and went to the governor for signature a week ago.",
+        "ru": "Законопроект был принят, и пришёл к губернатору на подпись неделю назад.",
+        "learn": 0
+      },
+      {
+        "eng": "His signature was just a squiggle but only he could make that squiggle.",
+        "ru": "Его подпись была просто закорючкой, но эту закорючку мог сделать только он сам.",
+        "learn": 0
+      },
+      {
+        "eng": "There are two kinds of signature, the time signature and the key signature.",
+        "ru": "Имеется два типа знаков при ключе: для размера и тональности.",
+        "learn": 0
+      },
+      {
+        "eng": "Even after peering at the letter, I still could not recognize the signature.",
+        "ru": "Сколько я ни рассматривал это письмо, а узнать подпись всё равно не смог.",
+        "learn": 1
+      },
+      {
+        "eng": "He put his signature to the contract (=he signed it to show he agreed with it).",
+        "ru": "Он поставил свою подпись на договоре (т.е. он подписал его, чтобы показать, что он с ним согласен).",
+        "learn": 0
+      },
+      {
+        "eng": "a ludicrous and easily detected attempt to forge his father's signature on a note to school",
+        "ru": "смешная и легко обнаруженная попытка подделать подпись своего отца на записке в школу",
+        "learn": 0
+      },
+      {
+        "eng": "If we can collect 200,000 signatures on our petition, then our candidate will be included on the ballot.",
+        "ru": "Если нам удастся собрать под петицией двести тысяч подписей, то наш кандидат будет внесён в бюллетень для голосования.",
+        "learn": 1
+      }
+    ]
+  }
 }

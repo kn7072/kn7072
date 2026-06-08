@@ -1,49 +1,210 @@
 {
-    "come out": {
-        "comment": [],
-        "translate": "1) Выходить, появляться (из помещения) 2) Выходить (о книге, фильме, продукте) 3) Признаваться (о сексуальной ориентации)(Специфическое значение) ",
-        "transcription": " |ˈkəm ˈaʊt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "When does the movie come out?",
-            "The new album comes out next week.",
-            "He came out to his family last year.",
-            "Her book came out last year.",
-            "The report will come out tomorrow.",
-            "She came out of the house smiling.",
-            "The sun came out after the rain.",
-            "They came out of the meeting tired.",
-            "The flowers come out in spring.",
-            "Many celebrities have come out publicly.",
-            "She came out as gay at age 25.",
-            "He came out in a magazine interview.",
-            "He came out to greet us.",
-            "Coming out can be difficult.",
-            "Their new product came out in January."
-        ],
-        "example_translate": [
-            "Когда выйдет фильм?",
-            "Новый альбом выйдет на следующей неделе.",
-            "Он признался своей семье в прошлом году.",
-            "Её книга вышла в прошлом году.",
-            "Отчёт выйдет завтра.",
-            "Она вышла из дома с улыбкой.",
-            "Солнце вышло после дождя.",
-            "Они вышли со встречи уставшими.",
-            "Цветы появляются весной.",
-            "Многие знаменитости открылись публично.",
-            "Она открылась как лесбиянка в 25 лет.",
-            "Он открылся в интервью журналу.",
-            "Он вышел поприветствовать нас.",
-            "Признание может быть трудным.",
-            "Их новый продукт вышел в январе."
-        ],
-        "synonyms": "Выходить, появляться (из помещения) - emerge, appear\nВыходить (о книге, фильме, продукте) - be released, be published\nПризнаваться (о сексуальной ориентации) - disclose, reveal\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "come out": {
+    "comment": [],
+    "translate": "1) Выходить, появляться (из помещения) 2) Выходить (о книге, фильме, продукте) 3) Признаваться (о сексуальной ориентации)(Специфическое значение) ",
+    "transcription": " |ˈkəm ˈaʊt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Выходить, появляться (из помещения) - emerge, appear",
+      "Выходить (о книге, фильме, продукте) - be released, be published",
+      "Признаваться (о сексуальной ориентации) - disclose, reveal"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "When does the movie come out?",
+        "ru": "Когда выйдет фильм?",
+        "learn": 1
+      },
+      {
+        "eng": "The new album comes out next week.",
+        "ru": "Новый альбом выйдет на следующей неделе.",
+        "learn": 1
+      },
+      {
+        "eng": "He came out to his family last year.",
+        "ru": "Он признался своей семье в прошлом году.",
+        "learn": 1
+      },
+      {
+        "eng": "Her book came out last year.",
+        "ru": "Её книга вышла в прошлом году.",
+        "learn": 1
+      },
+      {
+        "eng": "The report will come out tomorrow.",
+        "ru": "Отчёт выйдет завтра.",
+        "learn": 1
+      },
+      {
+        "eng": "She came out of the house smiling.",
+        "ru": "Она вышла из дома с улыбкой.",
+        "learn": 1
+      },
+      {
+        "eng": "The sun came out after the rain.",
+        "ru": "Солнце вышло после дождя.",
+        "learn": 1
+      },
+      {
+        "eng": "They came out of the meeting tired.",
+        "ru": "Они вышли со встречи уставшими.",
+        "learn": 1
+      },
+      {
+        "eng": "The flowers come out in spring.",
+        "ru": "Цветы появляются весной.",
+        "learn": 1
+      },
+      {
+        "eng": "Many celebrities have come out publicly.",
+        "ru": "Многие знаменитости открылись публично.",
+        "learn": 1
+      },
+      {
+        "eng": "She came out as gay at age 25.",
+        "ru": "Она открылась как лесбиянка в 25 лет.",
+        "learn": 1
+      },
+      {
+        "eng": "He came out in a magazine interview.",
+        "ru": "Он открылся в интервью журналу.",
+        "learn": 1
+      },
+      {
+        "eng": "He came out to greet us.",
+        "ru": "Он вышел поприветствовать нас.",
+        "learn": 1
+      },
+      {
+        "eng": "Coming out can be difficult.",
+        "ru": "Признание может быть трудным.",
+        "learn": 1
+      },
+      {
+        "eng": "Their new product came out in January.",
+        "ru": "Их новый продукт вышел в январе.",
+        "learn": 1
+      },
+      {
+        "eng": "The secret came out.",
+        "ru": "Секрет раскрылся.",
+        "learn": 0
+      },
+      {
+        "eng": "When does Tom's new book come out?",
+        "ru": "Когда выходит новая книга Тома?",
+        "learn": 0
+      },
+      {
+        "eng": "Mary always comes out well in her pictures.",
+        "ru": "Мэри всегда хорошо получается на фотографиях.",
+        "learn": 0
+      },
+      {
+        "eng": "The new Woody Allen film hasn't come out yet",
+        "ru": "Новый фильм Вуди Аллена до сих пор не вышел",
+        "learn": 0
+      },
+      {
+        "eng": "Would you like to come out to the theatre with me?",
+        "ru": "Ты не хочешь сходить со мной в театр?",
+        "learn": 0
+      },
+      {
+        "eng": "The flowers are coming out in everyone's gardens.",
+        "ru": "В каждом саду распускаются цветы.",
+        "learn": 0
+      },
+      {
+        "eng": "She came out well in the last game.",
+        "ru": "Она добилась хорошего результата в последнем гейме.",
+        "learn": 0
+      },
+      {
+        "eng": "He came out against the government.",
+        "ru": "Он выступил с критикой в адрес правительства.",
+        "learn": 0
+      },
+      {
+        "eng": "When the last test results came out, she was quite disappointed.",
+        "ru": "Она была совершенно разочарована, когда появились результаты последнего теста.",
+        "learn": 0
+      },
+      {
+        "eng": "I opened my mouth, but no words came out.",
+        "ru": "Я открыл рот, но слова не шли.",
+        "learn": 0
+      },
+      {
+        "eng": "My tooth has just come out.",
+        "ru": "У меня только что выпал зуб.",
+        "learn": 0
+      },
+      {
+        "eng": "You never know what he'll come out with next.",
+        "ru": "Никогда не знаешь, что он ляпнет в следующую минуту.",
+        "learn": 0
+      },
+      {
+        "eng": "The last words came out in a whisper.",
+        "ru": "Последние слова были произнесены шёпотом.",
+        "learn": 0
+      },
+      {
+        "eng": "Jane came out in spots this morning.",
+        "ru": "Утром у Джейн выскочили прыщики.",
+        "learn": 0
+      },
+      {
+        "eng": "The government is to come out with concrete proposals.",
+        "ru": "Правительство должно выступить с конкретными предложениями.",
+        "learn": 0
+      },
+      {
+        "eng": "When is your family coming out to join you?",
+        "ru": "Когда ваша семья планирует приехать к вам?",
+        "learn": 0
+      },
+      {
+        "eng": "The words seemed to come out by themselves.",
+        "ru": "Казалось, эти слова сорвались с губ сами.",
+        "learn": 0
+      },
+      {
+        "eng": "Our company came out well from the recent survey.",
+        "ru": "Наша компания получила хорошую оценку в недавнем обзоре.",
+        "learn": 0
+      },
+      {
+        "eng": "I met them when they came out to Singapore at Christmas last year.",
+        "ru": "Я встретил их в прошлом году, на Рождество, когда они приехали в Сингапур.",
+        "learn": 0
+      },
+      {
+        "eng": "He was sentenced to 25 years in prison. He'll be an old man when he comes out.",
+        "ru": "Его приговорили к 25-ти годам лишения свободы. Он будет стариком, когда выйдет из тюрьмы.",
+        "learn": 0
+      },
+      {
+        "eng": "Is Mrs Brown's daughter coming out this year?",
+        "ru": "Что слышно на счет дочери миссис Браун: будет ли она выезжать в этом году?",
+        "learn": 0
+      },
+      {
+        "eng": "The Post Office workers have come out in support of their pay claim.",
+        "ru": "Почтовые работники объявили забастовку, требуя повышения заработной платы.",
+        "learn": 0
+      },
+      {
+        "eng": "When doing the calculation by hand, the sum came out as a different figure.",
+        "ru": "При вычислении без помощи технических средств получился другой результат.",
+        "learn": 0
+      }
+    ]
+  }
 }

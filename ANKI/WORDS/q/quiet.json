@@ -1,94 +1,181 @@
 {
-    "quiet": {
-        "comment": [
-            "quit",
-            "quite",
-            "quietly",
-            "acquisition",
-            "liquid",
-            "quick",
-            "quickly",
-            "quid",
-            "colloquial",
-            "equilibrium",
-            "quiz"
-        ],
-        "translate": " тихий, спокойный, тихо, тайком, успокаивать, покой, спокойствие",
-        "transcription": "  |ˈkwaɪət|",
-        "antonyms": [],
-        "mnemonic": [
-            "quiet [куа'йэт] тихий, спокойный - Он тихо, спокойно (к-и-вает)головой в знак согласия.",
-            "quiet ['kwaɪət]\nquite [kwait] - вполне, совершенно, полностью\n***\nЕго УСПОКАИВАЮТ, а он кивает. (это) quiet\nСПОКОЙНЫЙ только кивает. (это) quiet\nТишина, безмолвие.\n***\nЧтобы быть спокойным \"quiet\",\nсадитесь на диету \"diet\"."
-        ],
-        "examples": [
-            "Please be quiet!",
-            "Can I have some quiet, please?",
-            "He led a quiet life.",
-            "We were enjoying the quiet of the forest.",
-            "Quiet, you lot!",
-            "He was a quiet, shy man.",
-            "I've had an awful day - now I just want some peace and quiet.",
-            "Quiet! The baby's asleep.",
-            "He's a very quiet person.",
-            "He spoke in a very quiet voice.",
-            "Girls! Please be quiet.",
-            "I asked them to keep quiet.",
-            "I did what was possible to quiet her.",
-            "Quiet down and get ready for bed!",
-            "August is a quiet time of year for the retail trade.",
-            "They were curiously quiet.",
-            "He was a quiet, pious man.",
-            "They're being ever so quiet.",
-            "She warned him to be quiet.",
-            "the quiet waters of a lagoon",
-            "Sit here as quiet as you can.",
-            "The church was dark and quiet.",
-            "They lived a quiet, pious life.",
-            "Be quiet, Jim. This is serious.",
-            "At twelve he was a quiet boy.",
-            "The street was unnaturally quiet.",
-            "She hissed at me to be quiet.",
-            "the quiet of a wooded trail",
-            "She has a quiet disposition.",
-            "Jack's air of quiet authority"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Потише, пожалуйста!",
-            "Можете ли оставить меня не надолго в покое, пожалуйста?",
-            "Он вёл спокойную жизнь. / Он жил тихо.",
-            "Мы наслаждались тишиной леса.",
-            "А ну все успокоились! / А ну всем тише!",
-            "Он был тихим, застенчивым человеком.",
-            "У меня был ужасный день, и сейчас я просто хочу тишины и покоя.",
-            "Тихо! Ребенок спит.",
-            "Он очень спокойный человек.",
-            "Он говорил очень тихим голосом.",
-            "Девочки! Потише, пожалуйста.",
-            "Я попросил их не шуметь.",
-            "Я сделал всё возможное, чтобы успокоить её.",
-            "Успокойтесь и приготовьтесь ложиться спать!",
-            "Август — сезон затишья в розничной торговле.",
-            "Они были на удивление спокойны.",
-            "Человек он был тихий и набожный.",
-            "Они всегда такие спокойные!",
-            "Она предупредила его, чтобы вёл себя тихо.",
-            "тихие воды лагуны",
-            "Сидите здесь как можно тише.",
-            "В церкви было темно и тихо.",
-            "Они жили тихой, благочестивой жизнью.",
-            "Успокойся, Джим. Это важно.",
-            "В двенадцать лет он был тихим, спокойным мальчиком.",
-            "На улице было неестественно тихо.",
-            "Она шикнула на меня, чтобы я успокоилась.",
-            "тишина лесной тропинки",
-            "У неё тихий нрав.",
-            "исходящее от Джека ощущение спокойного авторитета"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ie_=_[aɪə]"
-        ]
-    }
+  "quiet": {
+    "comment": [
+      "quit",
+      "quite",
+      "quietly",
+      "acquisition",
+      "liquid",
+      "quick",
+      "quickly",
+      "quid",
+      "colloquial",
+      "equilibrium",
+      "quiz"
+    ],
+    "translate": " тихий, спокойный, тихо, тайком, успокаивать, покой, спокойствие",
+    "transcription": "  |ˈkwaɪət|",
+    "antonyms": [],
+    "mnemonic": [
+      "quiet [куа'йэт] тихий, спокойный - Он тихо, спокойно (к-и-вает)головой в знак согласия.",
+      "quiet ['kwaɪət]\nquite [kwait] - вполне, совершенно, полностью\n***\nЕго УСПОКАИВАЮТ, а он кивает. (это) quiet\nСПОКОЙНЫЙ только кивает. (это) quiet\nТишина, безмолвие.\n***\nЧтобы быть спокойным \"quiet\",\nсадитесь на диету \"diet\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ie_=_[aɪə]"
+    ],
+    "examples": [
+      {
+        "eng": "Please be quiet!",
+        "ru": "Потише, пожалуйста!",
+        "learn": 0
+      },
+      {
+        "eng": "Can I have some quiet, please?",
+        "ru": "Можете ли оставить меня не надолго в покое, пожалуйста?",
+        "learn": 0
+      },
+      {
+        "eng": "He led a quiet life.",
+        "ru": "Он вёл спокойную жизнь. / Он жил тихо.",
+        "learn": 1
+      },
+      {
+        "eng": "We were enjoying the quiet of the forest.",
+        "ru": "Мы наслаждались тишиной леса.",
+        "learn": 0
+      },
+      {
+        "eng": "Quiet, you lot!",
+        "ru": "А ну все успокоились! / А ну всем тише!",
+        "learn": 0
+      },
+      {
+        "eng": "He was a quiet, shy man.",
+        "ru": "Он был тихим, застенчивым человеком.",
+        "learn": 0
+      },
+      {
+        "eng": "I've had an awful day - now I just want some peace and quiet.",
+        "ru": "У меня был ужасный день, и сейчас я просто хочу тишины и покоя.",
+        "learn": 1
+      },
+      {
+        "eng": "Quiet! The baby's asleep.",
+        "ru": "Тихо! Ребенок спит.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a very quiet person.",
+        "ru": "Он очень спокойный человек.",
+        "learn": 0
+      },
+      {
+        "eng": "He spoke in a very quiet voice.",
+        "ru": "Он говорил очень тихим голосом.",
+        "learn": 0
+      },
+      {
+        "eng": "Girls! Please be quiet.",
+        "ru": "Девочки! Потише, пожалуйста.",
+        "learn": 0
+      },
+      {
+        "eng": "I asked them to keep quiet.",
+        "ru": "Я попросил их не шуметь.",
+        "learn": 1
+      },
+      {
+        "eng": "I did what was possible to quiet her.",
+        "ru": "Я сделал всё возможное, чтобы успокоить её.",
+        "learn": 0
+      },
+      {
+        "eng": "Quiet down and get ready for bed!",
+        "ru": "Успокойтесь и приготовьтесь ложиться спать!",
+        "learn": 0
+      },
+      {
+        "eng": "August is a quiet time of year for the retail trade.",
+        "ru": "Август — сезон затишья в розничной торговле.",
+        "learn": 0
+      },
+      {
+        "eng": "They were curiously quiet.",
+        "ru": "Они были на удивление спокойны.",
+        "learn": 1
+      },
+      {
+        "eng": "He was a quiet, pious man.",
+        "ru": "Человек он был тихий и набожный.",
+        "learn": 0
+      },
+      {
+        "eng": "They're being ever so quiet.",
+        "ru": "Они всегда такие спокойные!",
+        "learn": 0
+      },
+      {
+        "eng": "She warned him to be quiet.",
+        "ru": "Она предупредила его, чтобы вёл себя тихо.",
+        "learn": 0
+      },
+      {
+        "eng": "the quiet waters of a lagoon",
+        "ru": "тихие воды лагуны",
+        "learn": 0
+      },
+      {
+        "eng": "Sit here as quiet as you can.",
+        "ru": "Сидите здесь как можно тише.",
+        "learn": 0
+      },
+      {
+        "eng": "The church was dark and quiet.",
+        "ru": "В церкви было темно и тихо.",
+        "learn": 0
+      },
+      {
+        "eng": "They lived a quiet, pious life.",
+        "ru": "Они жили тихой, благочестивой жизнью.",
+        "learn": 0
+      },
+      {
+        "eng": "Be quiet, Jim. This is serious.",
+        "ru": "Успокойся, Джим. Это важно.",
+        "learn": 0
+      },
+      {
+        "eng": "At twelve he was a quiet boy.",
+        "ru": "В двенадцать лет он был тихим, спокойным мальчиком.",
+        "learn": 0
+      },
+      {
+        "eng": "The street was unnaturally quiet.",
+        "ru": "На улице было неестественно тихо.",
+        "learn": 0
+      },
+      {
+        "eng": "She hissed at me to be quiet.",
+        "ru": "Она шикнула на меня, чтобы я успокоилась.",
+        "learn": 1
+      },
+      {
+        "eng": "the quiet of a wooded trail",
+        "ru": "тишина лесной тропинки",
+        "learn": 0
+      },
+      {
+        "eng": "She has a quiet disposition.",
+        "ru": "У неё тихий нрав.",
+        "learn": 0
+      },
+      {
+        "eng": "Jack's air of quiet authority",
+        "ru": "исходящее от Джека ощущение спокойного авторитета",
+        "learn": 0
+      }
+    ]
+  }
 }

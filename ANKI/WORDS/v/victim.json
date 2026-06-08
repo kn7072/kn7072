@@ -1,84 +1,170 @@
 {
-    "victim": {
-        "comment": [
-            "witness",
-            "victory"
-        ],
-        "translate": "жертва, потерпевший",
-        "transcription": " |ˈvɪktɪm|",
-        "antonyms": [],
-        "mnemonic": [
-            "victim [ви'ктъим] жертва - (Вык-а-тим) жертву в яму.",
-            "victim ['vɪktɪm]\n***\nЖЕРТВАМИ стали родители Вити. (это) victim"
-        ],
-        "examples": [
-            "He was the victim of a freak accident.",
-            "He was the victim of an error.",
-            "She was a victim of blackmail.",
-            "He was a victim of circumstance.",
-            "All these people are innocent victims.",
-            "He was a victim of circumstances.",
-            "The victim was hit by a hail of bullets.",
-            "The police have not yet ID'd the victim.",
-            "One crash victim died, the other lived.",
-            "The murder victim was asphyxiated.",
-            "She claimed to have been a victim of child abuse.",
-            "The snake slimed his victim.",
-            "Our hearts go out to the victim's family.",
-            "The victim was pronounced dead on arrival.",
-            "He slit the throat of the victim.",
-            "She was the victim of an insurance scam.",
-            "an accident victim with severe head trauma",
-            "He was the victim of an administrative error.",
-            "The nurse quickly undressed the accident victim.",
-            "the victim of a racist attack",
-            "The victim was knifed to death.",
-            "the victim of a fraudulent scheme",
-            "Most homicide victims are under 30.",
-            "She was the victim of a cruel hoax.",
-            "'Help,' the stabbing victim gurgled.",
-            "He was the victim of a savage attack.",
-            "He skewered his victim through the neck.",
-            "The mugger pulled a knife on his victim.",
-            "How did the murderer poison the victim?",
-            "He was the victim of an elaborate fraud."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он стал жертвой странного происшествия.",
-            "Он был жертвой ошибки.",
-            "Она была /стала/ жертвой шантажа.",
-            "Он был /стал/ жертвой обстоятельств.",
-            "Все эти люди являются невинными жертвами.",
-            "Он был жертвой обстоятельств.",
-            "Жертву изрешетили градом пуль.",
-            "Полиция еще не установила личность жертвы.",
-            "Один из потерпевших в аварии скончался, другой выжил.",
-            "Жертва убийства была задушена.",
-            "Она заявила, что в детстве была жертвой жестокого обращения.",
-            "Змея покрыла свою жертву слизью.",
-            "Мы выражаем наши соболезнования семье погибшего.",
-            "Потерпевший был объявлен мёртвым по прибытии (в госпиталь).",
-            "Он перерезал горло жертвы.",
-            "Она стала жертвой мошенничества со страховкой.",
-            "пострадавший в аварии с тяжёлой травмой головы",
-            "Он стал жертвой управленческой ошибки.",
-            "Медсестра быстро раздела пострадавшего.",
-            "жертва расистского нападения",
-            "Жертва была убита ножом.",
-            "жертва мошеннической схемы",
-            "Возраст большинства жертв убийств — меньше тридцати лет.",
-            "Она стала жертвой жестокого розыгрыша.",
-            "— Помогите, — пробулькала жертва ножевого ранения.",
-            "Он стал жертвой жестокого нападения.",
-            "Он пронзил шею своей жертвы.",
-            "Грабитель угрожал своей жертве ножом.",
-            "Каким образом убийца отравил жертву?",
-            "Он пал жертвой искусно продуманного обмана."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "victim": {
+    "comment": [
+      "witness",
+      "victory"
+    ],
+    "translate": "жертва, потерпевший",
+    "transcription": " |ˈvɪktɪm|",
+    "antonyms": [],
+    "mnemonic": [
+      "victim [ви'ктъим] жертва - (Вык-а-тим) жертву в яму.",
+      "victim ['vɪktɪm]\n***\nЖЕРТВАМИ стали родители Вити. (это) victim"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He was the victim of a freak accident.",
+        "ru": "Он стал жертвой странного происшествия.",
+        "learn": 0
+      },
+      {
+        "eng": "He was the victim of an error.",
+        "ru": "Он был жертвой ошибки.",
+        "learn": 0
+      },
+      {
+        "eng": "She was a victim of blackmail.",
+        "ru": "Она была /стала/ жертвой шантажа.",
+        "learn": 1
+      },
+      {
+        "eng": "He was a victim of circumstance.",
+        "ru": "Он был /стал/ жертвой обстоятельств.",
+        "learn": 1
+      },
+      {
+        "eng": "All these people are innocent victims.",
+        "ru": "Все эти люди являются невинными жертвами.",
+        "learn": 0
+      },
+      {
+        "eng": "He was a victim of circumstances.",
+        "ru": "Он был жертвой обстоятельств.",
+        "learn": 0
+      },
+      {
+        "eng": "The victim was hit by a hail of bullets.",
+        "ru": "Жертву изрешетили градом пуль.",
+        "learn": 0
+      },
+      {
+        "eng": "The police have not yet ID'd the victim.",
+        "ru": "Полиция еще не установила личность жертвы.",
+        "learn": 0
+      },
+      {
+        "eng": "One crash victim died, the other lived.",
+        "ru": "Один из потерпевших в аварии скончался, другой выжил.",
+        "learn": 0
+      },
+      {
+        "eng": "The murder victim was asphyxiated.",
+        "ru": "Жертва убийства была задушена.",
+        "learn": 0
+      },
+      {
+        "eng": "She claimed to have been a victim of child abuse.",
+        "ru": "Она заявила, что в детстве была жертвой жестокого обращения.",
+        "learn": 0
+      },
+      {
+        "eng": "The snake slimed his victim.",
+        "ru": "Змея покрыла свою жертву слизью.",
+        "learn": 0
+      },
+      {
+        "eng": "Our hearts go out to the victim's family.",
+        "ru": "Мы выражаем наши соболезнования семье погибшего.",
+        "learn": 0
+      },
+      {
+        "eng": "The victim was pronounced dead on arrival.",
+        "ru": "Потерпевший был объявлен мёртвым по прибытии (в госпиталь).",
+        "learn": 0
+      },
+      {
+        "eng": "He slit the throat of the victim.",
+        "ru": "Он перерезал горло жертвы.",
+        "learn": 0
+      },
+      {
+        "eng": "She was the victim of an insurance scam.",
+        "ru": "Она стала жертвой мошенничества со страховкой.",
+        "learn": 0
+      },
+      {
+        "eng": "an accident victim with severe head trauma",
+        "ru": "пострадавший в аварии с тяжёлой травмой головы",
+        "learn": 0
+      },
+      {
+        "eng": "He was the victim of an administrative error.",
+        "ru": "Он стал жертвой управленческой ошибки.",
+        "learn": 1
+      },
+      {
+        "eng": "The nurse quickly undressed the accident victim.",
+        "ru": "Медсестра быстро раздела пострадавшего.",
+        "learn": 0
+      },
+      {
+        "eng": "the victim of a racist attack",
+        "ru": "жертва расистского нападения",
+        "learn": 0
+      },
+      {
+        "eng": "The victim was knifed to death.",
+        "ru": "Жертва была убита ножом.",
+        "learn": 0
+      },
+      {
+        "eng": "the victim of a fraudulent scheme",
+        "ru": "жертва мошеннической схемы",
+        "learn": 0
+      },
+      {
+        "eng": "Most homicide victims are under 30.",
+        "ru": "Возраст большинства жертв убийств — меньше тридцати лет.",
+        "learn": 0
+      },
+      {
+        "eng": "She was the victim of a cruel hoax.",
+        "ru": "Она стала жертвой жестокого розыгрыша.",
+        "learn": 0
+      },
+      {
+        "eng": "'Help,' the stabbing victim gurgled.",
+        "ru": "— Помогите, — пробулькала жертва ножевого ранения.",
+        "learn": 0
+      },
+      {
+        "eng": "He was the victim of a savage attack.",
+        "ru": "Он стал жертвой жестокого нападения.",
+        "learn": 1
+      },
+      {
+        "eng": "He skewered his victim through the neck.",
+        "ru": "Он пронзил шею своей жертвы.",
+        "learn": 0
+      },
+      {
+        "eng": "The mugger pulled a knife on his victim.",
+        "ru": "Грабитель угрожал своей жертве ножом.",
+        "learn": 0
+      },
+      {
+        "eng": "How did the murderer poison the victim?",
+        "ru": "Каким образом убийца отравил жертву?",
+        "learn": 0
+      },
+      {
+        "eng": "He was the victim of an elaborate fraud.",
+        "ru": "Он пал жертвой искусно продуманного обмана.",
+        "learn": 1
+      }
+    ]
+  }
 }

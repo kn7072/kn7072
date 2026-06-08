@@ -1,49 +1,200 @@
 {
-    "break down": {
-        "comment": [],
-        "translate": "1) Ломаться (о машине, технике) 2) Распадаться, разрушаться (о переговорах, отношениях) 3) Терять контроль над эмоциями(Приблизительные синонимы) ",
-        "transcription": " |ˈbreɪk ˈdaʊn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The car broke down on the highway.",
-            "He broke down when he heard the news.",
-            "Our washing machine broke down yesterday.",
-            "Communication broke down between the teams.",
-            "She broke down in tears.",
-            "The system broke down under pressure.",
-            "She broke down during the interview.",
-            "The witness broke down on the stand.",
-            "I broke down after the loss.",
-            "The elevator broke down again.",
-            "The negotiations broke down completely.",
-            "The truck broke down in the middle of nowhere.",
-            "The peace talks broke down.",
-            "Their marriage broke down after 10 years.",
-            "My computer broke down during the presentation."
-        ],
-        "example_translate": [
-            "Машина сломалась на шоссе.",
-            "Он потерял контроль, когда услышал новость.",
-            "Наша стиральная машина сломалась вчера.",
-            "Коммуникация между командами нарушилась.",
-            "Она расплакалась.",
-            "Система рухнула под давлением.",
-            "Она расплакалась во время интервью.",
-            "Свидетель расплакался на свидетельском месте.",
-            "Я потерял контроль после поражения.",
-            "Лифт снова сломался.",
-            "Переговоры полностью провалились.",
-            "Грузовик сломался посреди nowhere.",
-            "Мирные переговоры провалились.",
-            "Их брак распался после 10 лет.",
-            "Мой компьютер сломался во время презентации."
-        ],
-        "synonyms": "Ломаться (о машине, технике) - malfunction, fail\nРаспадаться, разрушаться (о переговорах, отношениях) - collapse, fail\nТерять контроль над эмоциями - collapse emotionally, crumble\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "break down": {
+    "comment": [],
+    "translate": "1) Ломаться (о машине, технике) 2) Распадаться, разрушаться (о переговорах, отношениях) 3) Терять контроль над эмоциями(Приблизительные синонимы) ",
+    "transcription": " |ˈbreɪk ˈdaʊn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Ломаться (о машине, технике) - malfunction, fail",
+      "Распадаться, разрушаться (о переговорах, отношениях) - collapse, fail",
+      "Терять контроль над эмоциями - collapse emotionally, crumble"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "The car broke down on the highway.",
+        "ru": "Машина сломалась на шоссе.",
+        "learn": 1
+      },
+      {
+        "eng": "He broke down when he heard the news.",
+        "ru": "Он потерял контроль, когда услышал новость.",
+        "learn": 1
+      },
+      {
+        "eng": "Our washing machine broke down yesterday.",
+        "ru": "Наша стиральная машина сломалась вчера.",
+        "learn": 1
+      },
+      {
+        "eng": "Communication broke down between the teams.",
+        "ru": "Коммуникация между командами нарушилась.",
+        "learn": 1
+      },
+      {
+        "eng": "She broke down in tears.",
+        "ru": "Она расплакалась.",
+        "learn": 1
+      },
+      {
+        "eng": "The system broke down under pressure.",
+        "ru": "Система рухнула под давлением.",
+        "learn": 1
+      },
+      {
+        "eng": "She broke down during the interview.",
+        "ru": "Она расплакалась во время интервью.",
+        "learn": 1
+      },
+      {
+        "eng": "The witness broke down on the stand.",
+        "ru": "Свидетель расплакался на свидетельском месте.",
+        "learn": 1
+      },
+      {
+        "eng": "I broke down after the loss.",
+        "ru": "Я потерял контроль после поражения.",
+        "learn": 1
+      },
+      {
+        "eng": "The elevator broke down again.",
+        "ru": "Лифт снова сломался.",
+        "learn": 1
+      },
+      {
+        "eng": "The negotiations broke down completely.",
+        "ru": "Переговоры полностью провалились.",
+        "learn": 1
+      },
+      {
+        "eng": "The truck broke down in the middle of nowhere.",
+        "ru": "Грузовик сломался посреди nowhere.",
+        "learn": 1
+      },
+      {
+        "eng": "The peace talks broke down.",
+        "ru": "Мирные переговоры провалились.",
+        "learn": 1
+      },
+      {
+        "eng": "Their marriage broke down after 10 years.",
+        "ru": "Их брак распался после 10 лет.",
+        "learn": 1
+      },
+      {
+        "eng": "My computer broke down during the presentation.",
+        "ru": "Мой компьютер сломался во время презентации.",
+        "learn": 1
+      },
+      {
+        "eng": "Her car broke down.",
+        "ru": "Ее машина сломалась.",
+        "learn": 0
+      },
+      {
+        "eng": "My health broke down.",
+        "ru": "Моё здоровье пошатнулось.",
+        "learn": 0
+      },
+      {
+        "eng": "Both plans broke down.",
+        "ru": "Оба плана провалились.",
+        "learn": 0
+      },
+      {
+        "eng": "She suddenly broke down and cried.",
+        "ru": "Она вдруг не выдержала и расплакалась.",
+        "learn": 0
+      },
+      {
+        "eng": "The negotiations broke down.",
+        "ru": "Переговоры сорвались.",
+        "learn": 0
+      },
+      {
+        "eng": "The police broke the door down.",
+        "ru": "Полицейские вышибли дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "You will break down if you work too hard.",
+        "ru": "Если ты будешь слишком много работать, ты потеряешь здоровье.",
+        "learn": 0
+      },
+      {
+        "eng": "It takes a long time to break down prejudices.",
+        "ru": "Чтобы преодолеть предрассудки, нужно много времени. / Преодоление предрассудков — дело небыстрое.",
+        "learn": 0
+      },
+      {
+        "eng": "They said the car would break down and indeed it did.",
+        "ru": "Они говорили, что автомобиль сломается, и это действительно случилось.",
+        "learn": 0
+      },
+      {
+        "eng": "The figures break down into several kinds, showing us different ways of looking at the firm's activities.",
+        "ru": "Цифры можно сгруппировать по-разному и с разных точек зрения смотреть на деятельность фирмы.",
+        "learn": 0
+      },
+      {
+        "eng": "Police had to break down the door to get into the flat.",
+        "ru": "Чтобы попасть в квартиру, полиции пришлось взломать дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "Peace talks have broken down in the Middle East.",
+        "ru": "Мирные переговоры на Ближнем Востоке потерпели неудачу.",
+        "learn": 0
+      },
+      {
+        "eng": "Chemicals in the body break down our food into useful substances.",
+        "ru": "Химические вещества нашего тела расщепляют пищу на полезные составляющие.",
+        "learn": 0
+      },
+      {
+        "eng": "Peter broke down and wept when he saw the deer that he had shot.",
+        "ru": "Питер не перенёс вида застреленного им оленя и зарыдал.",
+        "learn": 0
+      },
+      {
+        "eng": "Getting young people together will help to break down the barriers between them.",
+        "ru": "Встреча молодых людей поможет сломать имеющиеся между ними барьеры.",
+        "learn": 0
+      },
+      {
+        "eng": "The enamel of a human tooth will begin to break down when exposed to sugar for too long.",
+        "ru": "Эмаль человеческих зубов начнёт разрушаться при слишком долгом воздействии сахара.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner's opposition broke down under repeated questioning.",
+        "ru": "Повторный допрос сломил сопротивление арестованного.",
+        "learn": 0
+      },
+      {
+        "eng": "The old class divisions had begun to break down.",
+        "ru": "Старые классовые различия уже начали уничтожаться.",
+        "learn": 0
+      },
+      {
+        "eng": "Martin Luther King tried to break down racial discrimination.",
+        "ru": "Мартин Лютер Кинг пытался положить конец расовой дискриминации.",
+        "learn": 0
+      },
+      {
+        "eng": "It's ironic that computers break down so often, since they're meant to save people time.",
+        "ru": "Нелепо, что компьютеры так часто выходят из строя, ведь они предназначены для того, чтобы экономить людям время.",
+        "learn": 0
+      },
+      {
+        "eng": "Bacteria are added to help break down the sewage.",
+        "ru": "Чтобы ускорить процесс разложения /осаждения/ сточных вод, в них добавляют бактерии.",
+        "learn": 0
+      }
+    ]
+  }
 }

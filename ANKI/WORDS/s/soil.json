@@ -1,85 +1,171 @@
 {
-    "soil": {
-        "comment": [
-            "oil",
-            "coil",
-            "toilet",
-            "spoil"
-        ],
-        "translate": "почва, грунт, земля, территория, удобрение, пачкать, пачкаться, запятнать, грязнить",
-        "transcription": " |sɔɪl|",
-        "antonyms": [],
-        "mnemonic": [
-            "soil [со'ил] почва, земля, пачкать - Любители (сои ил) должны с почвой смешивать и пачкать руки."
-        ],
-        "examples": [
-            "Flowers will not do in this soil.",
-            "The soil here is very poor.",
-            "This soil retains water.",
-            "The soil has been skinned.",
-            "In the summer months the soil dries out quickly.",
-            "Jerusalem's hallowed soil",
-            "The soil in this area is very poor.",
-            "The soil in my garden is very sandy.",
-            "Trees struck roots deep into the soil.",
-            "Use a fork to break up the soil.",
-            "Blueberry bushes need a very acid soil.",
-            "He used a spade to loosen the soil.",
-            "Water can easily infiltrate the soil.",
-            "The soil has been poisoned with chemical waste from the factory.",
-            "There are many patches of a foxy soil.",
-            "These plants suck moisture from the soil.",
-            "The rain will permeate through the soil and reach the roots.",
-            "Pack the soil down firmly.",
-            "the garden's crumbly black soil",
-            "Plants draw nourishment from the soil.",
-            "Scientists study the composition of the soil.",
-            "a chemical analysis of the soil",
-            "Turn over the soil for aeration.",
-            "Good soil promotes plant growth.",
-            "The heavy rain guttered the soil.",
-            "This soil should yield good crops.",
-            "Add fertilizer to enrich the soil.",
-            "He used manure to enrich the soil.",
-            "Soil provides nourishment to plants.",
-            "The rain permeated through the soil."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Цветы не будут расти на этой почве.",
-            "Почва здесь очень бедная.",
-            "Эта почва удерживает воду.",
-            "Почва была истощена.",
-            "В летние месяцы почва высыхает быстро.",
-            "Священная земля Иерусалима",
-            "Почва в этом районе очень бедная.",
-            "Почва в моём саду — очень песчаная.",
-            "Деревья пускают корни глубоко в почву.",
-            "Используйте вилы, чтобы разрыхлить почву.",
-            "Черничным кустам нужна очень кислая почва.",
-            "Он использовал лопату, чтобы разрыхлить почву.",
-            "Вода может легко просачиваться в почву.",
-            "Почва была отравлена химическими отходами предприятия.",
-            "Имеется много участков с красно-бурой почвой.",
-            "Эти растения всасывают влагу из почвы.",
-            "Дождь просочится через почву и дойдёт до корней.",
-            "Хорошенько утрамбуйте землю.",
-            "рассыпчатый чернозём в этом саду",
-            "Растения берут питательные вещества из почвы.",
-            "Учёные исследуют состав почвы.",
-            "химический анализ почвы",
-            "Взрыхлите почву для обеспечения аэрации.",
-            "Хорошая почва способствует росту растений.",
-            "Сильный ливень проделал в земле канавы.",
-            "Эта земля должна принести хороший урожай.",
-            "Добавьте удобрение, чтобы обогатить почву.",
-            "Он удобрял почву с помощью навоза.",
-            "Почвы обеспечивает питание растений.",
-            "Дождевая вода просочилась сквозь почву."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "soil": {
+    "comment": [
+      "oil",
+      "coil",
+      "toilet",
+      "spoil"
+    ],
+    "translate": "почва, грунт, земля, территория, удобрение, пачкать, пачкаться, запятнать, грязнить",
+    "transcription": " |sɔɪl|",
+    "antonyms": [],
+    "mnemonic": [
+      "soil [со'ил] почва, земля, пачкать - Любители (сои ил) должны с почвой смешивать и пачкать руки."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Flowers will not do in this soil.",
+        "ru": "Цветы не будут расти на этой почве.",
+        "learn": 0
+      },
+      {
+        "eng": "The soil here is very poor.",
+        "ru": "Почва здесь очень бедная.",
+        "learn": 0
+      },
+      {
+        "eng": "This soil retains water.",
+        "ru": "Эта почва удерживает воду.",
+        "learn": 0
+      },
+      {
+        "eng": "The soil has been skinned.",
+        "ru": "Почва была истощена.",
+        "learn": 0
+      },
+      {
+        "eng": "In the summer months the soil dries out quickly.",
+        "ru": "В летние месяцы почва высыхает быстро.",
+        "learn": 0
+      },
+      {
+        "eng": "Jerusalem's hallowed soil",
+        "ru": "Священная земля Иерусалима",
+        "learn": 0
+      },
+      {
+        "eng": "The soil in this area is very poor.",
+        "ru": "Почва в этом районе очень бедная.",
+        "learn": 0
+      },
+      {
+        "eng": "The soil in my garden is very sandy.",
+        "ru": "Почва в моём саду — очень песчаная.",
+        "learn": 1
+      },
+      {
+        "eng": "Trees struck roots deep into the soil.",
+        "ru": "Деревья пускают корни глубоко в почву.",
+        "learn": 0
+      },
+      {
+        "eng": "Use a fork to break up the soil.",
+        "ru": "Используйте вилы, чтобы разрыхлить почву.",
+        "learn": 0
+      },
+      {
+        "eng": "Blueberry bushes need a very acid soil.",
+        "ru": "Черничным кустам нужна очень кислая почва.",
+        "learn": 0
+      },
+      {
+        "eng": "He used a spade to loosen the soil.",
+        "ru": "Он использовал лопату, чтобы разрыхлить почву.",
+        "learn": 0
+      },
+      {
+        "eng": "Water can easily infiltrate the soil.",
+        "ru": "Вода может легко просачиваться в почву.",
+        "learn": 0
+      },
+      {
+        "eng": "The soil has been poisoned with chemical waste from the factory.",
+        "ru": "Почва была отравлена химическими отходами предприятия.",
+        "learn": 0
+      },
+      {
+        "eng": "There are many patches of a foxy soil.",
+        "ru": "Имеется много участков с красно-бурой почвой.",
+        "learn": 0
+      },
+      {
+        "eng": "These plants suck moisture from the soil.",
+        "ru": "Эти растения всасывают влагу из почвы.",
+        "learn": 0
+      },
+      {
+        "eng": "The rain will permeate through the soil and reach the roots.",
+        "ru": "Дождь просочится через почву и дойдёт до корней.",
+        "learn": 0
+      },
+      {
+        "eng": "Pack the soil down firmly.",
+        "ru": "Хорошенько утрамбуйте землю.",
+        "learn": 0
+      },
+      {
+        "eng": "the garden's crumbly black soil",
+        "ru": "рассыпчатый чернозём в этом саду",
+        "learn": 0
+      },
+      {
+        "eng": "Plants draw nourishment from the soil.",
+        "ru": "Растения берут питательные вещества из почвы.",
+        "learn": 0
+      },
+      {
+        "eng": "Scientists study the composition of the soil.",
+        "ru": "Учёные исследуют состав почвы.",
+        "learn": 1
+      },
+      {
+        "eng": "a chemical analysis of the soil",
+        "ru": "химический анализ почвы",
+        "learn": 0
+      },
+      {
+        "eng": "Turn over the soil for aeration.",
+        "ru": "Взрыхлите почву для обеспечения аэрации.",
+        "learn": 0
+      },
+      {
+        "eng": "Good soil promotes plant growth.",
+        "ru": "Хорошая почва способствует росту растений.",
+        "learn": 1
+      },
+      {
+        "eng": "The heavy rain guttered the soil.",
+        "ru": "Сильный ливень проделал в земле канавы.",
+        "learn": 0
+      },
+      {
+        "eng": "This soil should yield good crops.",
+        "ru": "Эта земля должна принести хороший урожай.",
+        "learn": 1
+      },
+      {
+        "eng": "Add fertilizer to enrich the soil.",
+        "ru": "Добавьте удобрение, чтобы обогатить почву.",
+        "learn": 0
+      },
+      {
+        "eng": "He used manure to enrich the soil.",
+        "ru": "Он удобрял почву с помощью навоза.",
+        "learn": 0
+      },
+      {
+        "eng": "Soil provides nourishment to plants.",
+        "ru": "Почвы обеспечивает питание растений.",
+        "learn": 0
+      },
+      {
+        "eng": "The rain permeated through the soil.",
+        "ru": "Дождевая вода просочилась сквозь почву.",
+        "learn": 0
+      }
+    ]
+  }
 }

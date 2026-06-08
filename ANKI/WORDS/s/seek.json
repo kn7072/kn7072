@@ -1,86 +1,176 @@
 {
-    "seek": {
-        "comment": [
-            "see",
-            "seed",
-            "seem",
-            "seemingly"
-        ],
-        "translate": "искать, стремиться, добиваться, обращаться, просить, пытаться, разыскивать",
-        "transcription": " |siːk|",
-        "antonyms": [],
-        "mnemonic": [
-            "seek [си:к] искать - (Сикхи) ищут золото.",
-            "thick [θɪk].,\nseek [si: k]\n***\nВ ГУСТОЙ лес пойдёт лишь псих. (это) thick\nВ ГУЩЕ леса бродит псих. (это) thick\nТОЛСТУЮ книгу не читает псих. (это) thick\n***\nИСКАТЬ правду любит псих. (это) seek\n***\nВ лесу густом \"thick\"\nзаблудился цыплёнок \"chick\"."
-        ],
-        "examples": [
-            "She sought consolation.",
-            "The prince is seeking a wife.",
-            "How can we seek out a really good person for the job?",
-            "She knew the end., the means were to seek.",
-            "For over 100 years, men have sought for gold in these hills.",
-            "Men seek for money as the complement of all their desires.",
-            "They sought brake and thicket, in vain.",
-            "Water seeks its own level.",
-            "I set off to seek my fortune in another country.",
-            "Doctors seek to eliminate the causes of the epidemic.",
-            "You should seek professional advice.",
-            "A liquid seeks its own level.",
-            "The church is seeking donations.",
-            "Attractive woman, 27, seeks male, 25-35, for fun and friendship.",
-            "He had to seek odd corners for his safety.",
-            "They had begun to seek a possible accommodation.",
-            "He sought revenge for his son's murder.",
-            "The company is seeking new ways to improve service.",
-            "She always seeks to do good in the world.",
-            "The office is seeking a salesperson.",
-            "It is thus that mediocre people seek to lower great men.",
-            "Snakes seek the sun to warm their bodies.",
-            "You may need to seek professional help.",
-            "If the symptoms persist, seek medical advice.",
-            "You should visit your doctor and seek his advice.",
-            "We seek to avoid military confrontation at all costs.",
-            "Children seek out regularities and rules in acquiring language.",
-            "Stop the way of those that seek my bane! (Ph. Sidney)",
-            "In order to maximize profit the firm would seek to maximize output.",
-            "They will seek to increase their take by selling vegetables from their own garden."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она искала утешения.",
-            "Принц ищет себе жену.",
-            "Как нам разыскать по-настоящему толкового работника на эту должность?",
-            "Цель она видела, а средства предстояло найти.",
-            "Более ста лет люди искали золото в этих горах.",
-            "Люди ищут денег как единственного средства для удовлетворения всех своих желаний.",
-            "Они обыскали чащу и заросли, но всё было напрасно.",
-            "Вода стремится выровнять свой уровень.",
-            "Я отправился искать счастья в другой стране.",
-            "Врачи стремятся устранить причины эпидемии.",
-            "Вам следует обратиться за профессиональной консультацией.",
-            "Жидкость стремится к своему уровню.",
-            "Церковь собирает пожертвования.",
-            "Привлекательная женщина, 27 лет, ищет мужчину 25-35 лет, для развлечения и дружбы.",
-            "Он был вынужден забиваться в самые дальние углы, чтобы оставаться в безопасности.",
-            "Они начали искать возможный компромисс.",
-            "Он жаждал отомстить за убийство сына.",
-            "Компания ищет новые способы улучшения сервиса.",
-            "Она всегда стремится делать в мире добро.",
-            "Офис ищет менеджера по продажам.",
-            "Это верно, что заурядные люди стараются принизить великих.",
-            "Змеи стремятся на солнце, чтобы согреть свои тела.",
-            "Возможно, вам нужно будет обратиться за профессиональной помощью.",
-            "Если симптомы не пройдут, обратитесь к врачу.",
-            "Вам следует обратиться к своему личному врачу и попросить его совета.",
-            "Мы стремимся любой ценой избежать военного противостояния.",
-            "Дети ищут в усваиваемом языке закономерности и правила.",
-            "Остановите тех, кто ищет моей смерти!",
-            "Для максимального увеличения прибыли фирма намерена максимально увеличить выпуск продукции.",
-            "Они попытаются увеличить выручку, продавая овощи из своего сада."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "seek": {
+    "comment": [
+      "sought |sɔːt|,                                          sought |sɔːt|",
+      "see",
+      "seed",
+      "seem",
+      "seemingly"
+    ],
+    "translate": "искать, стремиться, добиваться, обращаться, просить, пытаться, разыскивать",
+    "transcription": " |siːk|",
+    "antonyms": [],
+    "mnemonic": [
+      "seek [си:к] искать - (Сикхи) ищут золото.",
+      "thick [θɪk].,\nseek [si: k]\n***\nВ ГУСТОЙ лес пойдёт лишь псих. (это) thick\nВ ГУЩЕ леса бродит псих. (это) thick\nТОЛСТУЮ книгу не читает псих. (это) thick\n***\nИСКАТЬ правду любит псих. (это) seek\n***\nВ лесу густом \"thick\"\nзаблудился цыплёнок \"chick\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "infinitive_after_verb",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "She sought consolation.",
+        "ru": "Она искала утешения.",
+        "learn": 0
+      },
+      {
+        "eng": "The prince is seeking a wife.",
+        "ru": "Принц ищет себе жену.",
+        "learn": 0
+      },
+      {
+        "eng": "How can we seek out a really good person for the job?",
+        "ru": "Как нам разыскать по-настоящему толкового работника на эту должность?",
+        "learn": 0
+      },
+      {
+        "eng": "She knew the end., the means were to seek.",
+        "ru": "Цель она видела, а средства предстояло найти.",
+        "learn": 0
+      },
+      {
+        "eng": "For over 100 years, men have sought for gold in these hills.",
+        "ru": "Более ста лет люди искали золото в этих горах.",
+        "learn": 0
+      },
+      {
+        "eng": "Men seek for money as the complement of all their desires.",
+        "ru": "Люди ищут денег как единственного средства для удовлетворения всех своих желаний.",
+        "learn": 0
+      },
+      {
+        "eng": "They sought brake and thicket, in vain.",
+        "ru": "Они обыскали чащу и заросли, но всё было напрасно.",
+        "learn": 1
+      },
+      {
+        "eng": "Water seeks its own level.",
+        "ru": "Вода стремится выровнять свой уровень.",
+        "learn": 0
+      },
+      {
+        "eng": "I set off to seek my fortune in another country.",
+        "ru": "Я отправился искать счастья в другой стране.",
+        "learn": 0
+      },
+      {
+        "eng": "Doctors seek to eliminate the causes of the epidemic.",
+        "ru": "Врачи стремятся устранить причины эпидемии.",
+        "learn": 0
+      },
+      {
+        "eng": "You should seek professional advice.",
+        "ru": "Вам следует обратиться за профессиональной консультацией.",
+        "learn": 0
+      },
+      {
+        "eng": "A liquid seeks its own level.",
+        "ru": "Жидкость стремится к своему уровню.",
+        "learn": 0
+      },
+      {
+        "eng": "The church is seeking donations.",
+        "ru": "Церковь собирает пожертвования.",
+        "learn": 0
+      },
+      {
+        "eng": "Attractive woman, 27, seeks male, 25-35, for fun and friendship.",
+        "ru": "Привлекательная женщина, 27 лет, ищет мужчину 25-35 лет, для развлечения и дружбы.",
+        "learn": 0
+      },
+      {
+        "eng": "He had to seek odd corners for his safety.",
+        "ru": "Он был вынужден забиваться в самые дальние углы, чтобы оставаться в безопасности.",
+        "learn": 0
+      },
+      {
+        "eng": "They had begun to seek a possible accommodation.",
+        "ru": "Они начали искать возможный компромисс.",
+        "learn": 0
+      },
+      {
+        "eng": "He sought revenge for his son's murder.",
+        "ru": "Он жаждал отомстить за убийство сына.",
+        "learn": 0
+      },
+      {
+        "eng": "The company is seeking new ways to improve service.",
+        "ru": "Компания ищет новые способы улучшения сервиса.",
+        "learn": 1
+      },
+      {
+        "eng": "She always seeks to do good in the world.",
+        "ru": "Она всегда стремится делать в мире добро.",
+        "learn": 0
+      },
+      {
+        "eng": "The office is seeking a salesperson.",
+        "ru": "Офис ищет менеджера по продажам.",
+        "learn": 0
+      },
+      {
+        "eng": "It is thus that mediocre people seek to lower great men.",
+        "ru": "Это верно, что заурядные люди стараются принизить великих.",
+        "learn": 0
+      },
+      {
+        "eng": "Snakes seek the sun to warm their bodies.",
+        "ru": "Змеи стремятся на солнце, чтобы согреть свои тела.",
+        "learn": 0
+      },
+      {
+        "eng": "You may need to seek professional help.",
+        "ru": "Возможно, вам нужно будет обратиться за профессиональной помощью.",
+        "learn": 0
+      },
+      {
+        "eng": "If the symptoms persist, seek medical advice.",
+        "ru": "Если симптомы не пройдут, обратитесь к врачу.",
+        "learn": 0
+      },
+      {
+        "eng": "You should visit your doctor and seek his advice.",
+        "ru": "Вам следует обратиться к своему личному врачу и попросить его совета.",
+        "learn": 0
+      },
+      {
+        "eng": "We seek to avoid military confrontation at all costs.",
+        "ru": "Мы стремимся любой ценой избежать военного противостояния.",
+        "learn": 1
+      },
+      {
+        "eng": "Children seek out regularities and rules in acquiring language.",
+        "ru": "Дети ищут в усваиваемом языке закономерности и правила.",
+        "learn": 0
+      },
+      {
+        "eng": "Stop the way of those that seek my bane! (Ph. Sidney)",
+        "ru": "Остановите тех, кто ищет моей смерти!",
+        "learn": 0
+      },
+      {
+        "eng": "In order to maximize profit the firm would seek to maximize output.",
+        "ru": "Для максимального увеличения прибыли фирма намерена максимально увеличить выпуск продукции.",
+        "learn": 0
+      },
+      {
+        "eng": "They will seek to increase their take by selling vegetables from their own garden.",
+        "ru": "Они попытаются увеличить выручку, продавая овощи из своего сада.",
+        "learn": 0
+      }
+    ]
+  }
 }

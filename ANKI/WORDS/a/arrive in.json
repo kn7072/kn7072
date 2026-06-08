@@ -1,73 +1,156 @@
 {
-    "arrive in": {
-        "comment": [],
-        "translate": "",
-        "transcription": "||",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "They will arrive in a month.",
-            "We failed to arrive in time.",
-            "When do you expect them to arrive in Boston?",
-            "What time does the plane arrive in New York?",
-            "We should arrive in New York with time to spare.",
-            "I expect my students to arrive in time for their lessons",
-            "There was no certainty that the package would arrive in time.",
-            "The shirt you ordered should arrive in the mail in a couple of days.",
-            "Action stations, everyone, the boss will arrive in the office in a few minutes.",
-            "Take it easy. There aren't any ambulances and she'll prefer you to arrive in one piece.",
-            "The train arrives / pulls in.",
-            "She had arrived dressed in pink.",
-            "Ben arrived in good time for dinner.",
-            "I arrived just in time to see him win.",
-            "The Norse arrived in the ninth century.",
-            "The guests arrived in all their finery.",
-            "Luckily, help arrived in the nick of time.",
-            "Her pension arrives in the mail every month.",
-            "The ambulance arrived in a matter of minutes.",
-            "The wedding party arrived in sartorial splendor.",
-            "Jake arrived in his brand new (=completely new) car.",
-            "The new version of the software has finally arrived in stores.",
-            "They befriended me when I first arrived in London as a student.",
-            "Walker had arrived in London. His face was in every print shop.",
-            "Dutch settlers planted the first vineyard when they arrived in 1652.",
-            "The sailors were glad to be arriving in port after their long voyage.",
-            "The species may have arrived in North America through human mediation.",
-            "Her father blew up when she arrived home in the morning."
-        ],
-        "example_translate": [
-            "Они приедут через месяц.",
-            "Мы не смогли приехать вовремя.",
-            "Когда можно ожидать их прибытия в Бостон?",
-            "Во сколько самолёт прибывает в Нью-Йорк?",
-            "Мы должны прибыть в Нью-Йорк, имея запас времени.",
-            "Я требую, чтобы мои студенты приходили на занятия вовремя.",
-            "Не было никакой уверенности, что посылка будет доставлена вовремя.",
-            "Заказанная вами рубашка должна прибыть по почте через пару дней.",
-            "Всем по местам! Шеф будет с минуты на минуту.",
-            "Не спеши. Скорой помощи здесь нет, а она хотела бы, чтобы ты приехал целым и невредимым.",
-            "Поезд прибывает.",
-            "Она пришла, одетая в розовое.",
-            "Бен приехал как раз к ужину.",
-            "Я прибыл как раз вовремя, чтобы увидеть его победу.",
-            "Скандинавы прибыли в девятом веке.",
-            "Гости приехали, разодетые в пух и прах.",
-            "К счастью, помощь прибыла вовремя.",
-            "Её пенсия приходит по почте каждый месяц.",
-            "Скорая приехала через считанные минуты.",
-            "Свита молодожёнов прибыла в изысканных нарядах.",
-            "Джейк приехал на своей новенькой (т.е. совершенно новой) машине.",
-            "Новая версия программного обеспечения наконец-то появилась в магазинах.",
-            "Они по-дружески ко мне отнеслись, когда я впервые приехала в Лондон в качестве студентки.",
-            "Уокер прибыл в Лондон. Его изображение красовалось в каждом магазине гравюр и эстампов.",
-            "Голландские поселенцы посадили первый виноградник, когда прибыли сюда в 1652 году.",
-            "Моряки были рады прибыть в порт после длительного плавания.",
-            "Возможно, этот вид попал в Северную Америку при посредничестве человека.",
-            "Ее отец пришел в ярость, когда она заявилась домой только утром."
-        ],
-        "synonyms": [],
-        "groups": [
-            "all_words", "verb_with_preposition"
-        ]
-    }
+  "arrive in": {
+    "comment": [],
+    "translate": "прибывать в (город, страну)",
+    "transcription": "",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "groups": [
+      "verb_with_preposition"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "They will arrive in a month.",
+        "ru": "Они приедут через месяц.",
+        "learn": 0
+      },
+      {
+        "eng": "We failed to arrive in time.",
+        "ru": "Мы не смогли приехать вовремя.",
+        "learn": 0
+      },
+      {
+        "eng": "When do you expect them to arrive in Boston?",
+        "ru": "Когда можно ожидать их прибытия в Бостон?",
+        "learn": 0
+      },
+      {
+        "eng": "What time does the plane arrive in New York?",
+        "ru": "Во сколько самолёт прибывает в Нью-Йорк?",
+        "learn": 0
+      },
+      {
+        "eng": "We should arrive in New York with time to spare.",
+        "ru": "Мы должны прибыть в Нью-Йорк, имея запас времени.",
+        "learn": 0
+      },
+      {
+        "eng": "I expect my students to arrive in time for their lessons",
+        "ru": "Я требую, чтобы мои студенты приходили на занятия вовремя.",
+        "learn": 0
+      },
+      {
+        "eng": "There was no certainty that the package would arrive in time.",
+        "ru": "Не было никакой уверенности, что посылка будет доставлена вовремя.",
+        "learn": 0
+      },
+      {
+        "eng": "The shirt you ordered should arrive in the mail in a couple of days.",
+        "ru": "Заказанная вами рубашка должна прибыть по почте через пару дней.",
+        "learn": 0
+      },
+      {
+        "eng": "Action stations, everyone, the boss will arrive in the office in a few minutes.",
+        "ru": "Всем по местам! Шеф будет с минуты на минуту.",
+        "learn": 0
+      },
+      {
+        "eng": "Take it easy. There aren't any ambulances and she'll prefer you to arrive in one piece.",
+        "ru": "Не спеши. Скорой помощи здесь нет, а она хотела бы, чтобы ты приехал целым и невредимым.",
+        "learn": 0
+      },
+      {
+        "eng": "The train arrives / pulls in.",
+        "ru": "Поезд прибывает.",
+        "learn": 0
+      },
+      {
+        "eng": "She had arrived dressed in pink.",
+        "ru": "Она пришла, одетая в розовое.",
+        "learn": 0
+      },
+      {
+        "eng": "Ben arrived in good time for dinner.",
+        "ru": "Бен приехал как раз к ужину.",
+        "learn": 0
+      },
+      {
+        "eng": "I arrived just in time to see him win.",
+        "ru": "Я прибыл как раз вовремя, чтобы увидеть его победу.",
+        "learn": 0
+      },
+      {
+        "eng": "The Norse arrived in the ninth century.",
+        "ru": "Скандинавы прибыли в девятом веке.",
+        "learn": 0
+      },
+      {
+        "eng": "The guests arrived in all their finery.",
+        "ru": "Гости приехали, разодетые в пух и прах.",
+        "learn": 0
+      },
+      {
+        "eng": "Luckily, help arrived in the nick of time.",
+        "ru": "К счастью, помощь прибыла вовремя.",
+        "learn": 0
+      },
+      {
+        "eng": "Her pension arrives in the mail every month.",
+        "ru": "Её пенсия приходит по почте каждый месяц.",
+        "learn": 0
+      },
+      {
+        "eng": "The ambulance arrived in a matter of minutes.",
+        "ru": "Скорая приехала через считанные минуты.",
+        "learn": 0
+      },
+      {
+        "eng": "The wedding party arrived in sartorial splendor.",
+        "ru": "Свита молодожёнов прибыла в изысканных нарядах.",
+        "learn": 0
+      },
+      {
+        "eng": "Jake arrived in his brand new (=completely new) car.",
+        "ru": "Джейк приехал на своей новенькой (т.е. совершенно новой) машине.",
+        "learn": 0
+      },
+      {
+        "eng": "The new version of the software has finally arrived in stores.",
+        "ru": "Новая версия программного обеспечения наконец-то появилась в магазинах.",
+        "learn": 0
+      },
+      {
+        "eng": "They befriended me when I first arrived in London as a student.",
+        "ru": "Они по-дружески ко мне отнеслись, когда я впервые приехала в Лондон в качестве студентки.",
+        "learn": 0
+      },
+      {
+        "eng": "Walker had arrived in London. His face was in every print shop.",
+        "ru": "Уокер прибыл в Лондон. Его изображение красовалось в каждом магазине гравюр и эстампов.",
+        "learn": 0
+      },
+      {
+        "eng": "Dutch settlers planted the first vineyard when they arrived in 1652.",
+        "ru": "Голландские поселенцы посадили первый виноградник, когда прибыли сюда в 1652 году.",
+        "learn": 0
+      },
+      {
+        "eng": "The sailors were glad to be arriving in port after their long voyage.",
+        "ru": "Моряки были рады прибыть в порт после длительного плавания.",
+        "learn": 1
+      },
+      {
+        "eng": "The species may have arrived in North America through human mediation.",
+        "ru": "Возможно, этот вид попал в Северную Америку при посредничестве человека.",
+        "learn": 0
+      },
+      {
+        "eng": "Her father blew up when she arrived home in the morning.",
+        "ru": "Ее отец пришел в ярость, когда она заявилась домой только утром.",
+        "learn": 0
+      }
+    ]
+  }
 }

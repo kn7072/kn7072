@@ -1,38 +1,204 @@
 {
-    "head for": {
-        "comment": [],
-        "translate": "1) Направляться куда-либо, двигаться в определенном направлении 2) Двигаться к неприятностям, быть близким к чему-то плохому ",
-        "transcription": "|hed fɔːr|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "We are heading for the coast this weekend.",
-            "The company is heading for bankruptcy.",
-            "The negotiations are heading for a deadlock.",
-            "If you keep spending like that, you're heading for trouble.",
-            "They headed for the exit as soon as the alarm sounded.",
-            "The ship was heading for the port.",
-            "He is heading for a breakdown if he doesn't take a break.",
-            "After work, I usually head for the gym.",
-            "Let's head for home before it gets dark.",
-            "We are heading for a disaster if we don't change our plans."
-        ],
-        "example_translate": [
-            "В эти выходные мы направляемся на побережье.",
-            "Компания движется к банкротству.",
-            "Переговоры движутся к тупику.",
-            "Если ты продолжишь так тратить, ты наживешь себе неприятности.",
-            "Они направились к выходу, как только прозвучала сигнализация.",
-            "Корабль направлялся в порт.",
-            "Он на грани нервного срыва, если не сделает перерыв.",
-            "После работы я обычно направляюсь в спортзал.",
-            "Давай направимся домой, пока не стемнело.",
-            "Мы движемся к катастрофе, если не изменим наши планы."
-        ],
-        "synonyms": "Направляться куда-либо, двигаться в определенном направлении - make for, go towards, travel to, proceed to\nДвигаться к неприятностям, быть близким к чему-то плохому - be heading for, be on course for, be destined for\n",
-        "groups": [
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "head for": {
+    "comment": [],
+    "translate": "1) Направляться куда-либо, двигаться в определенном направлении 2) Двигаться к неприятностям, быть близким к чему-то плохому ",
+    "transcription": "|hed fɔːr|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Направляться куда-либо, двигаться в определенном направлении - make for, go towards, travel to, proceed to",
+      "Двигаться к неприятностям, быть близким к чему-то плохому - be heading for, be on course for, be destined for"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "We are heading for the coast this weekend.",
+        "ru": "В эти выходные мы направляемся на побережье.",
+        "learn": 1
+      },
+      {
+        "eng": "The company is heading for bankruptcy.",
+        "ru": "Компания движется к банкротству.",
+        "learn": 1
+      },
+      {
+        "eng": "The negotiations are heading for a deadlock.",
+        "ru": "Переговоры движутся к тупику.",
+        "learn": 1
+      },
+      {
+        "eng": "If you keep spending like that, you're heading for trouble.",
+        "ru": "Если ты продолжишь так тратить, ты наживешь себе неприятности.",
+        "learn": 1
+      },
+      {
+        "eng": "They headed for the exit as soon as the alarm sounded.",
+        "ru": "Они направились к выходу, как только прозвучала сигнализация.",
+        "learn": 1
+      },
+      {
+        "eng": "The ship was heading for the port.",
+        "ru": "Корабль направлялся в порт.",
+        "learn": 1
+      },
+      {
+        "eng": "He is heading for a breakdown if he doesn't take a break.",
+        "ru": "Он на грани нервного срыва, если не сделает перерыв.",
+        "learn": 1
+      },
+      {
+        "eng": "After work, I usually head for the gym.",
+        "ru": "После работы я обычно направляюсь в спортзал.",
+        "learn": 1
+      },
+      {
+        "eng": "Let's head for home before it gets dark.",
+        "ru": "Давай направимся домой, пока не стемнело.",
+        "learn": 1
+      },
+      {
+        "eng": "We are heading for a disaster if we don't change our plans.",
+        "ru": "Мы движемся к катастрофе, если не изменим наши планы.",
+        "learn": 1
+      },
+      {
+        "eng": "He has a good [strong] head for drink.",
+        "ru": "Он может много выпить.",
+        "learn": 0
+      },
+      {
+        "eng": "He examined the child's head for vermin.",
+        "ru": "Он осмотрел голову ребёнка в поисках паразитов.",
+        "learn": 0
+      },
+      {
+        "eng": "Try to put it out of your head for the time being.",
+        "ru": "Пока что постарайся выбросить это из головы.",
+        "learn": 0
+      },
+      {
+        "eng": "When the rain stops let's head for the picnic grounds.",
+        "ru": "Когда дождь прекратится, давай отправимся к месту пикника.",
+        "learn": 0
+      },
+      {
+        "eng": "Head for 44th Street, a few blocks east of Sixth Avenue.",
+        "ru": "Отправляйтесь на Сорок Четвёртую улицу, в нескольких кварталах к востоку от Шестой авеню.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm glad I followed my heart rather than my head for once.",
+        "ru": "Я рад, что хоть в этот раз послушался сердца, а не головы.",
+        "learn": 0
+      },
+      {
+        "eng": "It is not your fault that you have no head for politics. (G. B. Shaw)",
+        "ru": "Не ваша вина, что вы совершенно не годитесь для политики.",
+        "learn": 0
+      },
+      {
+        "eng": "The guy's gone wrong in the head for sure.",
+        "ru": "У него точно с головой что-то не в порядке.",
+        "learn": 0
+      },
+      {
+        "eng": "What the hell are you bonking him on the head for?",
+        "ru": "Какого черта ты бьешь его по голове?!",
+        "learn": 0
+      },
+      {
+        "eng": "He hardly opened his head for the rest of the evening.",
+        "ru": "За весь вечер он почти не проронил ни слова.",
+        "learn": 0
+      },
+      {
+        "eng": "We were headed for the mountains.",
+        "ru": "Мы направлялись в сторону гор.",
+        "learn": 0
+      },
+      {
+        "eng": "The company is headed for financial disaster.",
+        "ru": "Компания — на пути к финансовой катастрофе.",
+        "learn": 0
+      },
+      {
+        "eng": "The driver doubled back and headed for Howard Bay.",
+        "ru": "Водитель развернулся в противоположную сторону и направился к Ховард-Бэй.",
+        "learn": 0
+      },
+      {
+        "eng": "The meal cost $25 per head (=for or by each person).",
+        "ru": "Еда обойдётся по двадцать пять долларов с носа (т.е. с каждого человека).",
+        "learn": 0
+      },
+      {
+        "eng": "We need a quick-thinking, cool-headed person for the job.",
+        "ru": "Для этой работы нам нужен человек быстро соображающий и хладнокровный.",
+        "learn": 0
+      },
+      {
+        "eng": "Equipped with a hoe and a shovel, I headed for the garden.",
+        "ru": "Вооружившись тяпкой и лопатой, я направился в сад.",
+        "learn": 0
+      },
+      {
+        "eng": "They crossed the mountains and headed for the valleys beyond.",
+        "ru": "Они пересекли горы и направились в лежащие за ними долины.",
+        "learn": 0
+      },
+      {
+        "eng": "At the end of the race, the boats veered round and headed for home.",
+        "ru": "В конце гонки лодки развернулись и направились к старту.",
+        "learn": 0
+      },
+      {
+        "eng": "That blue blob in the corner of the map is the lake we're headed for.",
+        "ru": "Это голубое пятно в углу карты и есть озеро, к которому мы направляемся.",
+        "learn": 0
+      },
+      {
+        "eng": "He had only one thing in mid as he headed straight for the goalmouth.",
+        "ru": "У него было только одно преимущество в середине, когда он направился прямо к воротам.",
+        "learn": 0
+      },
+      {
+        "eng": "Stacy winked mischievously at his sister and headed quickly for the door.",
+        "ru": "Стейси озорно подмигнул сестре и быстро направился к двери.",
+        "learn": 0
+      },
+      {
+        "eng": "They weighted the car with a ton of furniture and then headed off for college.",
+        "ru": "Они нагрузили в автомобиль целую тонну мебели, а затем отправились в колледж.",
+        "learn": 0
+      },
+      {
+        "eng": "Like books, board games appear headed for imminent demise at the hands of cathode-ray terminals.",
+        "ru": "Похоже, что настольные игры, как и книги, обречены на неминуемую гибель от \"рук\" терминалов с экранным дисплеем.",
+        "learn": 0
+      },
+      {
+        "eng": "He's headed for the last roundup.",
+        "ru": "Его дни сочтены.",
+        "learn": 0
+      },
+      {
+        "eng": "I ought to bust your head open for that.",
+        "ru": "Я тебе за это должен башку оторвать.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll have to get my head down for a bit.",
+        "ru": "Мне нужно немного поспать.",
+        "learn": 0
+      },
+      {
+        "eng": "We're headed for a place called Santa Clara Valley way to hell and gone up north.",
+        "ru": "Мы направляемся в местечко под названием Долина Санта Клара, где-то там на севере.",
+        "learn": 0
+      }
+    ]
+  }
 }

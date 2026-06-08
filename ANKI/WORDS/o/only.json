@@ -1,85 +1,172 @@
 {
-    "only": {
-        "comment": [
-            "commonly"
-        ],
-        "translate": "только, лишь, всего, только, но, единственный",
-        "transcription": " |ˈoʊnli|",
-        "antonyms": [],
-        "mnemonic": [
-            "only [о'нли] только - Муж жене: «(Он ли) только твой любовник?».",
-            "only ['əunlɪ]\n***\nЕДИНСТВЕННЫЙ друг - ТОЛЬКО он|ли? (это) only"
-        ],
-        "examples": [
-            "It was only a joke.",
-            "He is our only child.",
-            "It's only eight o'clock.",
-            "The club is for women only.",
-            "I was the only woman there.",
-            "The car park is for staff only.",
-            "You may leave, only come back early.",
-            "He has only just talked to her.",
-            "I spoke to him only an hour ago.",
-            "I was the only one who disagreed.",
-            "Leave her alone. She's only a kid.",
-            "He was only a baby when his father died.",
-            "She is only partly to blame.",
-            "She had been there only twice in her life.",
-            "We use only the best ingredients.",
-            "She's the only person for this job.",
-            "There are only a few cars on the island.",
-            "The building is only about 10 years old.",
-            "These news will only make you more upset.",
-            "They did have a radio, only it was broken.",
-            "I'd offer to help, only I'm really busy just now.",
-            "Call me only if your cold gets worse.",
-            "He arrived only to find his wife dead.",
-            "Naomi was only 17 when she got married.",
-            "We won only to lose again in the next round.",
-            "'When did you e-mail her?' 'Only yesterday.'",
-            "It's an interesting job, but it's only temporary.",
-            "a privilege granted only to him",
-            "Cutting costs is the only solution.",
-            "I'll have this car and this car only."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Это была всего лишь шутка.",
-            "Он — наш единственный ребёнок.",
-            "Сейчас только восемь часов.",
-            "Этот клуб — только для женщин.",
-            "Я была там единственной женщиной.",
-            "Парковка — только для сотрудников.",
-            "Можете идти, только возвращайтесь пораньше.",
-            "Он буквально только что поговорил с ней.",
-            "Я говорил с ним всего час назад.",
-            "Я был единственным, кто не согласился.",
-            "Оставь её в покое. Она всего лишь ребёнок.",
-            "Он был всего лишь младенцем, когда умер его отец.",
-            "Она виновата только отчасти.",
-            "Она была там всего дважды в своей жизни.",
-            "Мы используем только лучшие ингредиенты.",
-            "Только ей эта работа по плечу. / Только она подходит на эту должность.",
-            "На острове всего лишь несколько машин.",
-            "Этому зданию всего лишь лет десять.",
-            "Эти новости только ещё сильнее вас расстроят.",
-            "Приемник-то у них был, только сломанный.",
-            "Я бы предложил вам помощь, вот только сейчас я очень сильно занят.",
-            "Звоните мне только в том случае, если ваша простуда станет хуже.",
-            "Когда он приехал, его жена уже умерла.",
-            "Наоми было всего 17 лет, когда она вышла замуж.",
-            "Мы выиграли, но уже в следующем круге /туре, раунде/ проиграли снова.",
-            "— Когда ты ей писал на e-mail? — Только вчера.",
-            "Это интересная работа, вот только временная.",
-            "привилегия, предоставленная только ему",
-            "Единственное решение — снизить издержки.",
-            "Мне нужен этот и только этот автомобиль."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "o_+_Закр_сл_=_[ou]",
-            "Прилагательные_которые_употребляются_только_перед_существительными"
-        ]
-    }
+  "only": {
+    "comment": [
+      "commonly"
+    ],
+    "translate": "только, лишь, всего, только, но, единственный",
+    "transcription": " |ˈoʊnli|",
+    "antonyms": [],
+    "mnemonic": [
+      "only [о'нли] только - Муж жене: «(Он ли) только твой любовник?».",
+      "only ['əunlɪ]\n***\nЕДИНСТВЕННЫЙ друг - ТОЛЬКО он|ли? (это) only"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "o_+_Закр_сл_=_[ou]",
+      "Прилагательные_которые_употребляются_только_перед_существительными"
+    ],
+    "examples": [
+      {
+        "eng": "It was only a joke.",
+        "ru": "Это была всего лишь шутка.",
+        "learn": 0
+      },
+      {
+        "eng": "He is our only child.",
+        "ru": "Он — наш единственный ребёнок.",
+        "learn": 0
+      },
+      {
+        "eng": "It's only eight o'clock.",
+        "ru": "Сейчас только восемь часов.",
+        "learn": 0
+      },
+      {
+        "eng": "The club is for women only.",
+        "ru": "Этот клуб — только для женщин.",
+        "learn": 0
+      },
+      {
+        "eng": "I was the only woman there.",
+        "ru": "Я была там единственной женщиной.",
+        "learn": 0
+      },
+      {
+        "eng": "The car park is for staff only.",
+        "ru": "Парковка — только для сотрудников.",
+        "learn": 1
+      },
+      {
+        "eng": "You may leave, only come back early.",
+        "ru": "Можете идти, только возвращайтесь пораньше.",
+        "learn": 0
+      },
+      {
+        "eng": "He has only just talked to her.",
+        "ru": "Он буквально только что поговорил с ней.",
+        "learn": 0
+      },
+      {
+        "eng": "I spoke to him only an hour ago.",
+        "ru": "Я говорил с ним всего час назад.",
+        "learn": 0
+      },
+      {
+        "eng": "I was the only one who disagreed.",
+        "ru": "Я был единственным, кто не согласился.",
+        "learn": 0
+      },
+      {
+        "eng": "Leave her alone. She's only a kid.",
+        "ru": "Оставь её в покое. Она всего лишь ребёнок.",
+        "learn": 0
+      },
+      {
+        "eng": "He was only a baby when his father died.",
+        "ru": "Он был всего лишь младенцем, когда умер его отец.",
+        "learn": 0
+      },
+      {
+        "eng": "She is only partly to blame.",
+        "ru": "Она виновата только отчасти.",
+        "learn": 0
+      },
+      {
+        "eng": "She had been there only twice in her life.",
+        "ru": "Она была там всего дважды в своей жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "We use only the best ingredients.",
+        "ru": "Мы используем только лучшие ингредиенты.",
+        "learn": 0
+      },
+      {
+        "eng": "She's the only person for this job.",
+        "ru": "Только ей эта работа по плечу. / Только она подходит на эту должность.",
+        "learn": 0
+      },
+      {
+        "eng": "There are only a few cars on the island.",
+        "ru": "На острове всего лишь несколько машин.",
+        "learn": 0
+      },
+      {
+        "eng": "The building is only about 10 years old.",
+        "ru": "Этому зданию всего лишь лет десять.",
+        "learn": 0
+      },
+      {
+        "eng": "These news will only make you more upset.",
+        "ru": "Эти новости только ещё сильнее вас расстроят.",
+        "learn": 0
+      },
+      {
+        "eng": "They did have a radio, only it was broken.",
+        "ru": "Приемник-то у них был, только сломанный.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd offer to help, only I'm really busy just now.",
+        "ru": "Я бы предложил вам помощь, вот только сейчас я очень сильно занят.",
+        "learn": 0
+      },
+      {
+        "eng": "Call me only if your cold gets worse.",
+        "ru": "Звоните мне только в том случае, если ваша простуда станет хуже.",
+        "learn": 0
+      },
+      {
+        "eng": "He arrived only to find his wife dead.",
+        "ru": "Когда он приехал, его жена уже умерла.",
+        "learn": 0
+      },
+      {
+        "eng": "Naomi was only 17 when she got married.",
+        "ru": "Наоми было всего 17 лет, когда она вышла замуж.",
+        "learn": 0
+      },
+      {
+        "eng": "We won only to lose again in the next round.",
+        "ru": "Мы выиграли, но уже в следующем круге /туре, раунде/ проиграли снова.",
+        "learn": 0
+      },
+      {
+        "eng": "'When did you e-mail her?' 'Only yesterday.'",
+        "ru": "— Когда ты ей писал на e-mail? — Только вчера.",
+        "learn": 0
+      },
+      {
+        "eng": "It's an interesting job, but it's only temporary.",
+        "ru": "Это интересная работа, вот только временная.",
+        "learn": 1
+      },
+      {
+        "eng": "a privilege granted only to him",
+        "ru": "привилегия, предоставленная только ему",
+        "learn": 0
+      },
+      {
+        "eng": "Cutting costs is the only solution.",
+        "ru": "Единственное решение — снизить издержки.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll have this car and this car only.",
+        "ru": "Мне нужен этот и только этот автомобиль.",
+        "learn": 0
+      }
+    ]
+  }
 }

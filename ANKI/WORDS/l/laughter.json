@@ -1,81 +1,167 @@
 {
-    "laughter": {
-        "comment": [
-            "laugh",
-            "slaughter"
-        ],
-        "translate": "смех, хохот",
-        "transcription": " |ˈlæftər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Laughter is the best medicine.",
-            "Mary broke into laughter.",
-            "He wobbled with laughter.",
-            "He shook with laughter.",
-            "Mary pealed with laughter.",
-            "The audience roared with laughter.",
-            "I split my sides with laughter.",
-            "Laughter is a vent of any sudden joy.",
-            "Laughter rippled over the audience.",
-            "He went into paroxysms of laughter.",
-            "She snorted with laughter.",
-            "She gave a squeal of laughter.",
-            "I tried to stifle my laughter.",
-            "Audiences roared with laughter.",
-            "The room reverberated with laughter.",
-            "The crowd was helpless with laughter.",
-            "He makes audiences howl with laughter.",
-            "even in laughter the heart is sorrowful",
-            "Laughter animated his face for a moment.",
-            "Suddenly, the group burst into laughter.",
-            "Theirs was a house filled with laughter.",
-            "The room was filled with giddy laughter.",
-            "The children's laughter was still ringing in my ears.",
-            "Laughter is one of the most infectious expressions of emotion.",
-            "He let out a roar of laughter.",
-            "Foster joined in the laughter.",
-            "He burst into raucous laughter.",
-            "He enjoyed the laughter of the crowd.",
-            "Alex gave another bellow of laughter.",
-            "The whole room rang with their laughter."
-        ],
-        "example_translate": [
-            "Смех — это лучшее лекарство.",
-            "Мэри расхохоталась.",
-            "Он затрясся от смеха.",
-            "Он затрясся от смеха.",
-            "Мэри громко расхохоталась.",
-            "Зрители покатились со смеху.",
-            "Я животики надорвал от смеха.",
-            "Смех — выражение всякой внезапной радости.",
-            "По залу прокатился смех.",
-            "Он зашёлся в припадке смеха.",
-            "Она фыркнула от смеха.",
-            "Она визгливо рассмеялась.",
-            "Я попытался сдержать смех.",
-            "Слушатели так и покатились со смеху.",
-            "Комната содрогнулась от смеха.",
-            "Народ изнемогал от смеха.",
-            "Он заставляет зрителей покатиться со смеху.",
-            "даже смеясь, сердце плачет от горя",
-            "От смеха лицо его на мгновение оживилось.",
-            "Неожиданно вся группа расхохоталась.",
-            "Был их дом наполнен смехом.",
-            "В комнате раздавался легкомысленный смех.",
-            "Детский смех всё ещё звучал в моих ушах.",
-            "Смех — это одно из наиболее заразительных проявлений эмоций.",
-            "Он покатился со смеху.",
-            "Фостер засмеялся вместе со всеми.",
-            "Он разразился хриплым смехом. / Он громко расхохотался.",
-            "Он наслаждался смехом толпы.",
-            "Алекс разразился смехом еще раз.",
-            "Вся комната наполнилась их смехом."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "laughter": {
+    "comment": [
+      "laugh",
+      "slaughter"
+    ],
+    "translate": "смех, хохот",
+    "transcription": " |ˈlæftər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Laughter is the best medicine.",
+        "ru": "Смех — это лучшее лекарство.",
+        "learn": 1
+      },
+      {
+        "eng": "Mary broke into laughter.",
+        "ru": "Мэри расхохоталась.",
+        "learn": 0
+      },
+      {
+        "eng": "He wobbled with laughter.",
+        "ru": "Он затрясся от смеха.",
+        "learn": 0
+      },
+      {
+        "eng": "He shook with laughter.",
+        "ru": "Он затрясся от смеха.",
+        "learn": 1
+      },
+      {
+        "eng": "Mary pealed with laughter.",
+        "ru": "Мэри громко расхохоталась.",
+        "learn": 0
+      },
+      {
+        "eng": "The audience roared with laughter.",
+        "ru": "Зрители покатились со смеху.",
+        "learn": 0
+      },
+      {
+        "eng": "I split my sides with laughter.",
+        "ru": "Я животики надорвал от смеха.",
+        "learn": 0
+      },
+      {
+        "eng": "Laughter is a vent of any sudden joy.",
+        "ru": "Смех — выражение всякой внезапной радости.",
+        "learn": 0
+      },
+      {
+        "eng": "Laughter rippled over the audience.",
+        "ru": "По залу прокатился смех.",
+        "learn": 0
+      },
+      {
+        "eng": "He went into paroxysms of laughter.",
+        "ru": "Он зашёлся в припадке смеха.",
+        "learn": 0
+      },
+      {
+        "eng": "She snorted with laughter.",
+        "ru": "Она фыркнула от смеха.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave a squeal of laughter.",
+        "ru": "Она визгливо рассмеялась.",
+        "learn": 0
+      },
+      {
+        "eng": "I tried to stifle my laughter.",
+        "ru": "Я попытался сдержать смех.",
+        "learn": 0
+      },
+      {
+        "eng": "Audiences roared with laughter.",
+        "ru": "Слушатели так и покатились со смеху.",
+        "learn": 0
+      },
+      {
+        "eng": "The room reverberated with laughter.",
+        "ru": "Комната содрогнулась от смеха.",
+        "learn": 0
+      },
+      {
+        "eng": "The crowd was helpless with laughter.",
+        "ru": "Народ изнемогал от смеха.",
+        "learn": 0
+      },
+      {
+        "eng": "He makes audiences howl with laughter.",
+        "ru": "Он заставляет зрителей покатиться со смеху.",
+        "learn": 0
+      },
+      {
+        "eng": "even in laughter the heart is sorrowful",
+        "ru": "даже смеясь, сердце плачет от горя",
+        "learn": 0
+      },
+      {
+        "eng": "Laughter animated his face for a moment.",
+        "ru": "От смеха лицо его на мгновение оживилось.",
+        "learn": 0
+      },
+      {
+        "eng": "Suddenly, the group burst into laughter.",
+        "ru": "Неожиданно вся группа расхохоталась.",
+        "learn": 0
+      },
+      {
+        "eng": "Theirs was a house filled with laughter.",
+        "ru": "Был их дом наполнен смехом.",
+        "learn": 0
+      },
+      {
+        "eng": "The room was filled with giddy laughter.",
+        "ru": "В комнате раздавался легкомысленный смех.",
+        "learn": 0
+      },
+      {
+        "eng": "The children's laughter was still ringing in my ears.",
+        "ru": "Детский смех всё ещё звучал в моих ушах.",
+        "learn": 0
+      },
+      {
+        "eng": "Laughter is one of the most infectious expressions of emotion.",
+        "ru": "Смех — это одно из наиболее заразительных проявлений эмоций.",
+        "learn": 1
+      },
+      {
+        "eng": "He let out a roar of laughter.",
+        "ru": "Он покатился со смеху.",
+        "learn": 0
+      },
+      {
+        "eng": "Foster joined in the laughter.",
+        "ru": "Фостер засмеялся вместе со всеми.",
+        "learn": 0
+      },
+      {
+        "eng": "He burst into raucous laughter.",
+        "ru": "Он разразился хриплым смехом. / Он громко расхохотался.",
+        "learn": 0
+      },
+      {
+        "eng": "He enjoyed the laughter of the crowd.",
+        "ru": "Он наслаждался смехом толпы.",
+        "learn": 0
+      },
+      {
+        "eng": "Alex gave another bellow of laughter.",
+        "ru": "Алекс разразился смехом еще раз.",
+        "learn": 0
+      },
+      {
+        "eng": "The whole room rang with their laughter.",
+        "ru": "Вся комната наполнилась их смехом.",
+        "learn": 0
+      }
+    ]
+  }
 }

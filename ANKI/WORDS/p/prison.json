@@ -1,85 +1,172 @@
 {
-    "prison": {
-        "comment": [
-            "prisoner",
-            "imprisonment"
-        ],
-        "translate": "тюрьма, острог, тюремный, заключать в тюрьму",
-        "transcription": " |ˈprɪzn|",
-        "antonyms": [],
-        "mnemonic": [
-            "prison [при'зон] тюрьма - Была ещё одна тюрьма (при зон-е) тюремной.",
-            "prison ['prɪz (ə) n]\n***\nЗАКЛЮЧЁН в тюрьму, и ты капризен. (это) prison\nВ тюрьме сидишь и ты - капризен. (это) prison\nТюремный."
-        ],
-        "examples": [
-            "He ended his days in prison.",
-            "He's done two terms in prison.",
-            "Her children were sent to prison.",
-            "He was in prison at the time.",
-            "The judge gave her two years in prison.",
-            "He was released from prison.",
-            "He was given a life sentence in prison.",
-            "Three terrorists escaped from Brixton Prison.",
-            "He did a spell in prison.",
-            "Three men broke out of prison yesterday.",
-            "The state plans to build two more prisons.",
-            "The prison door clanged shut.",
-            "The prison is close to anarchy.",
-            "He managed to escape from prison",
-            "The governor visited the prison.",
-            "Miller found religion in prison.",
-            "He is in prison for tax evasion.",
-            "He managed to escape from prison.",
-            "He escaped from prison in October.",
-            "She was sent to prison for robbery.",
-            "the grim actualities of prison life",
-            "He is in prison awaiting execution.",
-            "Hundreds lay languishing in prison.",
-            "They put her in prison for forgery.",
-            "The prison guard neglected his duty.",
-            "She was freed from prison last week.",
-            "He was sent to prison for five years.",
-            "Manson spent fifteen years in prison.",
-            "He was sent to prison on a murder rap.",
-            "He was coarsened by his time in prison."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он закончил свои дни /свою жизнь/ в тюрьме.",
-            "Он дважды сидел в тюрьме.",
-            "Её детей отправили за решётку.",
-            "В то время он находился в тюрьме.",
-            "Судья дал ей два года тюрьмы.",
-            "Его выпустили из тюрьмы.",
-            "Он получил пожизненное заключение в тюрьме.",
-            "Из брикстонской тюрьмы сбежали трое террористов.",
-            "Он провёл некоторое время в тюрьме.",
-            "Три человека сбежали вчера из тюрьмы.",
-            "Власти штата планируют построить ещё две тюрьмы.",
-            "Двери тюрьмы с лязгом захлопнулись.",
-            "Обстановка в тюрьме близка к анархии.",
-            "Ему удалось сбежать из тюрьмы.",
-            "Губернатор посетил тюрьму.",
-            "Миллер стал набожным в тюрьме.",
-            "Он отбывает наказание / сидит в тюрьме за неуплату налогов.",
-            "Ему удалось сбежать из тюрьмы.",
-            "В октябре он сбежал из тюрьмы.",
-            "Её посадили в тюрьму за ограбление.",
-            "суровая действительность тюремной жизни",
-            "Он ожидает исполнение приговора в тюрьме.",
-            "Сотни (людей) гнили в тюрьме.",
-            "Её посадили в тюрьму за подлог.",
-            "Тюремщик пренебрегал своим долгом / обязанностью.",
-            "На прошлой неделе она освободилась из тюрьмы.",
-            "Его посадили в тюрьму на пять лет.",
-            "Мэнсон провел пятнадцать лет в тюрьме.",
-            "Он попал за решётку по обвинению в убийстве.",
-            "Срок, проведённый им в тюрьме, сделал его грубым."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "i_+_Откр_сл_=_[i(:)]"
-        ]
-    }
+  "prison": {
+    "comment": [
+      "prisoner",
+      "imprisonment"
+    ],
+    "translate": "тюрьма, острог, тюремный, заключать в тюрьму",
+    "transcription": " |ˈprɪzn|",
+    "antonyms": [],
+    "mnemonic": [
+      "prison [при'зон] тюрьма - Была ещё одна тюрьма (при зон-е) тюремной.",
+      "prison ['prɪz (ə) n]\n***\nЗАКЛЮЧЁН в тюрьму, и ты капризен. (это) prison\nВ тюрьме сидишь и ты - капризен. (это) prison\nТюремный."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "i_+_Откр_сл_=_[i(:)]"
+    ],
+    "examples": [
+      {
+        "eng": "He ended his days in prison.",
+        "ru": "Он закончил свои дни /свою жизнь/ в тюрьме.",
+        "learn": 0
+      },
+      {
+        "eng": "He's done two terms in prison.",
+        "ru": "Он дважды сидел в тюрьме.",
+        "learn": 0
+      },
+      {
+        "eng": "Her children were sent to prison.",
+        "ru": "Её детей отправили за решётку.",
+        "learn": 1
+      },
+      {
+        "eng": "He was in prison at the time.",
+        "ru": "В то время он находился в тюрьме.",
+        "learn": 0
+      },
+      {
+        "eng": "The judge gave her two years in prison.",
+        "ru": "Судья дал ей два года тюрьмы.",
+        "learn": 0
+      },
+      {
+        "eng": "He was released from prison.",
+        "ru": "Его выпустили из тюрьмы.",
+        "learn": 0
+      },
+      {
+        "eng": "He was given a life sentence in prison.",
+        "ru": "Он получил пожизненное заключение в тюрьме.",
+        "learn": 1
+      },
+      {
+        "eng": "Three terrorists escaped from Brixton Prison.",
+        "ru": "Из брикстонской тюрьмы сбежали трое террористов.",
+        "learn": 0
+      },
+      {
+        "eng": "He did a spell in prison.",
+        "ru": "Он провёл некоторое время в тюрьме.",
+        "learn": 0
+      },
+      {
+        "eng": "Three men broke out of prison yesterday.",
+        "ru": "Три человека сбежали вчера из тюрьмы.",
+        "learn": 0
+      },
+      {
+        "eng": "The state plans to build two more prisons.",
+        "ru": "Власти штата планируют построить ещё две тюрьмы.",
+        "learn": 0
+      },
+      {
+        "eng": "The prison door clanged shut.",
+        "ru": "Двери тюрьмы с лязгом захлопнулись.",
+        "learn": 0
+      },
+      {
+        "eng": "The prison is close to anarchy.",
+        "ru": "Обстановка в тюрьме близка к анархии.",
+        "learn": 0
+      },
+      {
+        "eng": "He managed to escape from prison",
+        "ru": "Ему удалось сбежать из тюрьмы.",
+        "learn": 0
+      },
+      {
+        "eng": "The governor visited the prison.",
+        "ru": "Губернатор посетил тюрьму.",
+        "learn": 0
+      },
+      {
+        "eng": "Miller found religion in prison.",
+        "ru": "Миллер стал набожным в тюрьме.",
+        "learn": 0
+      },
+      {
+        "eng": "He is in prison for tax evasion.",
+        "ru": "Он отбывает наказание / сидит в тюрьме за неуплату налогов.",
+        "learn": 0
+      },
+      {
+        "eng": "He managed to escape from prison.",
+        "ru": "Ему удалось сбежать из тюрьмы.",
+        "learn": 1
+      },
+      {
+        "eng": "He escaped from prison in October.",
+        "ru": "В октябре он сбежал из тюрьмы.",
+        "learn": 0
+      },
+      {
+        "eng": "She was sent to prison for robbery.",
+        "ru": "Её посадили в тюрьму за ограбление.",
+        "learn": 0
+      },
+      {
+        "eng": "the grim actualities of prison life",
+        "ru": "суровая действительность тюремной жизни",
+        "learn": 0
+      },
+      {
+        "eng": "He is in prison awaiting execution.",
+        "ru": "Он ожидает исполнение приговора в тюрьме.",
+        "learn": 1
+      },
+      {
+        "eng": "Hundreds lay languishing in prison.",
+        "ru": "Сотни (людей) гнили в тюрьме.",
+        "learn": 0
+      },
+      {
+        "eng": "They put her in prison for forgery.",
+        "ru": "Её посадили в тюрьму за подлог.",
+        "learn": 0
+      },
+      {
+        "eng": "The prison guard neglected his duty.",
+        "ru": "Тюремщик пренебрегал своим долгом / обязанностью.",
+        "learn": 1
+      },
+      {
+        "eng": "She was freed from prison last week.",
+        "ru": "На прошлой неделе она освободилась из тюрьмы.",
+        "learn": 0
+      },
+      {
+        "eng": "He was sent to prison for five years.",
+        "ru": "Его посадили в тюрьму на пять лет.",
+        "learn": 0
+      },
+      {
+        "eng": "Manson spent fifteen years in prison.",
+        "ru": "Мэнсон провел пятнадцать лет в тюрьме.",
+        "learn": 0
+      },
+      {
+        "eng": "He was sent to prison on a murder rap.",
+        "ru": "Он попал за решётку по обвинению в убийстве.",
+        "learn": 0
+      },
+      {
+        "eng": "He was coarsened by his time in prison.",
+        "ru": "Срок, проведённый им в тюрьме, сделал его грубым.",
+        "learn": 0
+      }
+    ]
+  }
 }

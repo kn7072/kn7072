@@ -1,87 +1,174 @@
 {
-    "worth": {
-        "comment": [
-            "worthwhile",
-            "worthy",
-            "worse",
-            "worst"
-        ],
-        "translate": " стоимость, ценность, достоинства, цена, заслуживающий, обладающий, стоящий",
-        "transcription": "  |wɜːrθ|",
-        "antonyms": [],
-        "mnemonic": [
-            "worth [wɛ: θ]\n***\nСТОИТ нам купить овёс. (это) worth\nСТОИТ рубль весь овёс. (это) worth\nЦЕНА - рубль за овёс. (это) worth\nЦЕННОСТЬ - рубль за овёс. (это) worth\n***\nНам ничего не стоит \"worth\"\nидти вперёд \"forth\"."
-        ],
-        "examples": [
-            "What is it worth?",
-            "It's not worth the risk.",
-            "The game is not worth the candle.",
-            "This play is worth seeing.",
-            "He is worth over a million.",
-            "If a job is worth doing, it is worth doing properly.",
-            "It is not worth a rush.",
-            "The film is well worth seeing.",
-            "The town is well worth a visit.",
-            "Forget him, he's not worth it.",
-            "The plan is not worth our notice.",
-            "Do you think the car is worth buying?",
-            "The local museum is worth a visit.",
-            "It is worth much more than I paid for it.",
-            "An hour in the morning is worth two in the evening. посл.",
-            "He has proved his worth to the team.",
-            "They're worth quite a bit more than I thought.",
-            "A diamond's worth is determined partly by its cut and clarity.",
-            "It's not worth a farthing.",
-            "The necklace is of no real worth.",
-            "This book is not worth reading.",
-            "It would be worth your while to talk to the editor.",
-            "It is not worth a red cent.",
-            "The book is worth revisiting.",
-            "The touchdown is worth six points.",
-            "to seize and book every object worth noticing",
-            "It's worth a thousand pounds, a bonny sum.",
-            "The property is worth, say, four million dollars.",
-            "One of the pictures is worth £50,000.",
-            "That beer mug was a rare piece from 1880 worth $ 4,000."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "сколько это стоит?",
-            "Это не стоит того риска.",
-            "Игра не стоит свеч.",
-            "Эту пьесу стоит посмотреть.",
-            "Его состояние больше миллиона.",
-            "Если дело стоит делать, его стоит делать как следует.",
-            "Это гроша ломаного не стоит.",
-            "Этот фильм стоит посмотреть.",
-            "Этот город стоит посетить.",
-            "Забудь о нём, он того не стоит.",
-            "Этот план не стоит нашего внимания.",
-            "Думаете, эту машину стоит покупать?",
-            "Местный музей стоит того, чтобы его посетить.",
-            "Это стоит намного больше, чем я заплатил.",
-            "Утро вечера мудренее.",
-            "Он доказал команде свою пользу.",
-            "Они стоят немного больше, чем я думал.",
-            "Ценность бриллианта частично определяется его огранкой и чистотой.",
-            "Гроша ломаного не стоит.",
-            "Ожерелье на самом деле ничего не стоит.",
-            "Эту книгу не стоит читать.",
-            "Тебе стоит поговорить с редактором.",
-            "Гроша ломаного не стоит.",
-            "К этой книге стоит вернуться. / Эту книгу стоит перечитать.",
-            "Тачдаун оценивается в шесть очков.",
-            "схватить и описать любой предмет, достойный внимания",
-            "Это стоит добрую тысячу фунтов - приличные деньги!",
-            "Собственность оценивается миллиона , этак, в четыре долларов.",
-            "Одна из этих картин стоит пятьдесят тысяч фунтов.",
-            "Эта пивная кружка была раритетом, датировалась 1880 годом и стоила четыре тысячи долларов."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "(w)_+_or_+_Сг_=_[ə:]",
-            "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными"
-        ]
-    }
+  "worth": {
+    "comment": [
+      "worthwhile",
+      "worthy",
+      "worse",
+      "worst"
+    ],
+    "translate": " стоимость, ценность, достоинства, цена, заслуживающий, обладающий, стоящий",
+    "transcription": "  |wɜːrθ|",
+    "antonyms": [],
+    "mnemonic": [
+      "worth [wɛ: θ]\n***\nСТОИТ нам купить овёс. (это) worth\nСТОИТ рубль весь овёс. (это) worth\nЦЕНА - рубль за овёс. (это) worth\nЦЕННОСТЬ - рубль за овёс. (это) worth\n***\nНам ничего не стоит \"worth\"\nидти вперёд \"forth\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "(w)_+_or_+_Сг_=_[ə:]",
+      "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными"
+    ],
+    "examples": [
+      {
+        "eng": "What is it worth?",
+        "ru": "сколько это стоит?",
+        "learn": 0
+      },
+      {
+        "eng": "It's not worth the risk.",
+        "ru": "Это не стоит того риска.",
+        "learn": 0
+      },
+      {
+        "eng": "The game is not worth the candle.",
+        "ru": "Игра не стоит свеч.",
+        "learn": 1
+      },
+      {
+        "eng": "This play is worth seeing.",
+        "ru": "Эту пьесу стоит посмотреть.",
+        "learn": 0
+      },
+      {
+        "eng": "He is worth over a million.",
+        "ru": "Его состояние больше миллиона.",
+        "learn": 0
+      },
+      {
+        "eng": "If a job is worth doing, it is worth doing properly.",
+        "ru": "Если дело стоит делать, его стоит делать как следует.",
+        "learn": 0
+      },
+      {
+        "eng": "It is not worth a rush.",
+        "ru": "Это гроша ломаного не стоит.",
+        "learn": 0
+      },
+      {
+        "eng": "The film is well worth seeing.",
+        "ru": "Этот фильм стоит посмотреть.",
+        "learn": 0
+      },
+      {
+        "eng": "The town is well worth a visit.",
+        "ru": "Этот город стоит посетить.",
+        "learn": 0
+      },
+      {
+        "eng": "Forget him, he's not worth it.",
+        "ru": "Забудь о нём, он того не стоит.",
+        "learn": 1
+      },
+      {
+        "eng": "The plan is not worth our notice.",
+        "ru": "Этот план не стоит нашего внимания.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you think the car is worth buying?",
+        "ru": "Думаете, эту машину стоит покупать?",
+        "learn": 0
+      },
+      {
+        "eng": "The local museum is worth a visit.",
+        "ru": "Местный музей стоит того, чтобы его посетить.",
+        "learn": 0
+      },
+      {
+        "eng": "It is worth much more than I paid for it.",
+        "ru": "Это стоит намного больше, чем я заплатил.",
+        "learn": 0
+      },
+      {
+        "eng": "An hour in the morning is worth two in the evening. посл.",
+        "ru": "Утро вечера мудренее.",
+        "learn": 0
+      },
+      {
+        "eng": "He has proved his worth to the team.",
+        "ru": "Он доказал команде свою пользу.",
+        "learn": 0
+      },
+      {
+        "eng": "They're worth quite a bit more than I thought.",
+        "ru": "Они стоят немного больше, чем я думал.",
+        "learn": 0
+      },
+      {
+        "eng": "A diamond's worth is determined partly by its cut and clarity.",
+        "ru": "Ценность бриллианта частично определяется его огранкой и чистотой.",
+        "learn": 0
+      },
+      {
+        "eng": "It's not worth a farthing.",
+        "ru": "Гроша ломаного не стоит.",
+        "learn": 0
+      },
+      {
+        "eng": "The necklace is of no real worth.",
+        "ru": "Ожерелье на самом деле ничего не стоит.",
+        "learn": 0
+      },
+      {
+        "eng": "This book is not worth reading.",
+        "ru": "Эту книгу не стоит читать.",
+        "learn": 0
+      },
+      {
+        "eng": "It would be worth your while to talk to the editor.",
+        "ru": "Тебе стоит поговорить с редактором.",
+        "learn": 0
+      },
+      {
+        "eng": "It is not worth a red cent.",
+        "ru": "Гроша ломаного не стоит.",
+        "learn": 0
+      },
+      {
+        "eng": "The book is worth revisiting.",
+        "ru": "К этой книге стоит вернуться. / Эту книгу стоит перечитать.",
+        "learn": 0
+      },
+      {
+        "eng": "The touchdown is worth six points.",
+        "ru": "Тачдаун оценивается в шесть очков.",
+        "learn": 0
+      },
+      {
+        "eng": "to seize and book every object worth noticing",
+        "ru": "схватить и описать любой предмет, достойный внимания",
+        "learn": 0
+      },
+      {
+        "eng": "It's worth a thousand pounds, a bonny sum.",
+        "ru": "Это стоит добрую тысячу фунтов - приличные деньги!",
+        "learn": 0
+      },
+      {
+        "eng": "The property is worth, say, four million dollars.",
+        "ru": "Собственность оценивается миллиона , этак, в четыре долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "One of the pictures is worth £50,000.",
+        "ru": "Одна из этих картин стоит пятьдесят тысяч фунтов.",
+        "learn": 0
+      },
+      {
+        "eng": "That beer mug was a rare piece from 1880 worth $ 4,000.",
+        "ru": "Эта пивная кружка была раритетом, датировалась 1880 годом и стоила четыре тысячи долларов.",
+        "learn": 0
+      }
+    ]
+  }
 }

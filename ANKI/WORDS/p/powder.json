@@ -1,83 +1,169 @@
 {
-    "powder": {
-        "comment": [
-            "power",
-            "powerful"
-        ],
-        "translate": "порошок, пудра, порох, пыль, присыпка, пудриться, напудрить, припудривать",
-        "transcription": " |ˈpaʊdər|",
-        "antonyms": [],
-        "mnemonic": [
-            "powder [па'удэ] порошок, пудра - Его (па-па удовольствие) от порошка одного получал."
-        ],
-        "examples": [
-            "This machine will pound the rocks into powder.",
-            "She powdered her nose.",
-            "The powder is mixed with cold water to form a paste.",
-            "Are your guns primed with powder?",
-            "Grind the sugar into a powder.",
-            "The paint is supplied in powder form.",
-            "Sieve the flour and cocoa powder into a bowl.",
-            "washing powder and other household products",
-            "The recipe calls for a teaspoon of baking powder.",
-            "She was powdering her face.",
-            "Our washing powder now has a new improved formula.",
-            "The Middle East will remain a powder keg.",
-            "She roasted red veal, and powdered lean beef.",
-            "She crushed the peppercorns into a fine powder.",
-            "Soon the whole country becomes powdered with ruins.",
-            "...musketeers carrying their gunpowder in powder horns...",
-            "The blasting had succeeded., five pounds of powder uplifted two hundred square yards of ice.",
-            "Mix the powder with boiling water.",
-            "She's just gone to powder her nose.",
-            "There's a foot of powder on the slopes.",
-            "She powdered her face and put on lipstick.",
-            "The test tube held a column of white powder.",
-            "The powder is made from the roots of the plant.",
-            "When mixed with water the powder forms a smooth paste.",
-            "You have to powder the antibiotic tablet and mix it with food.",
-            "The chemical reaction begins as soon as the powder is moistened.",
-            "Scatter some of this powder round the roots to help the plant grow.",
-            "This powder compacts easily.",
-            "He scattered gun powder under the wagon.",
-            "We're running low on baby powder and diapers."
-        ],
-        "example_translate": [
-            "Эта машина перемалывает камень в порошок.",
-            "Она припудрила нос.",
-            "Этот порошок перемешивается в холодной воде до образования пасты.",
-            "Ваши ружья заряжены порохом?",
-            "Разотрите сахар в порошок /пудру/.",
-            "Краска поставляется в виде порошка.",
-            "Просейте муку и какао-порошок в миску.",
-            "стиральный порошок и другие товары для дома",
-            "Для этого рецепта понадобится чайная ложка разрыхлителя.",
-            "Она припудривала лицо.",
-            "Теперь наш стиральный порошок обладает новой, улучшенной формулой.",
-            "Ближний Восток останется взрывоопасным регионом /\"пороховой бочкой\"/.",
-            "Она зажарила свежую телятину и засолила постную говядину.",
-            "Она размолола перчинки в мелкий порошок.",
-            "А вскоре вся страна будет усеяна руинами и обломками.",
-            "...мушкетеры носили свой порох в пороховницах (пороховой рог)...",
-            "Взрыв достиг цели, с помощью пяти фунтов взрывчатки двести квадратных ярдов льда было поднято на воздух.",
-            "Добавьте порошок в кипяток /кипящую воду/.",
-            "Она только что ушла припудрить носик.",
-            "На склонах лежит тридцатисантиметровый слой свежего рыхлого снега.",
-            "Она припудрила лицо и накрасила губы помадой.",
-            "Пробирка содержала столбик белого порошка.",
-            "Этот порошок делается из корней данного растения.",
-            "При смешивании с водой порошок образует однородную пасту.",
-            "Нужно будет размолоть таблетку антибиотика в порошок и смешать его с едой.",
-            "Химическая реакция начинается, как только порошок становится влажным.",
-            "Растения будут лучше расти, если посыпать этим порошком у основания стебля.",
-            "Этот порошок легко уплотняется /спрессовывается/.",
-            "Он насыпал под фургон пороху.",
-            "У нас заканчиваются детская присыпка и подгузники."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "powder": {
+    "comment": [
+      "power",
+      "powerful"
+    ],
+    "translate": "порошок, пудра, порох, пыль, присыпка, пудриться, напудрить, припудривать",
+    "transcription": " |ˈpaʊdər|",
+    "antonyms": [],
+    "mnemonic": [
+      "powder [па'удэ] порошок, пудра - Его (па-па удовольствие) от порошка одного получал."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "This machine will pound the rocks into powder.",
+        "ru": "Эта машина перемалывает камень в порошок.",
+        "learn": 1
+      },
+      {
+        "eng": "She powdered her nose.",
+        "ru": "Она припудрила нос.",
+        "learn": 0
+      },
+      {
+        "eng": "The powder is mixed with cold water to form a paste.",
+        "ru": "Этот порошок перемешивается в холодной воде до образования пасты.",
+        "learn": 1
+      },
+      {
+        "eng": "Are your guns primed with powder?",
+        "ru": "Ваши ружья заряжены порохом?",
+        "learn": 0
+      },
+      {
+        "eng": "Grind the sugar into a powder.",
+        "ru": "Разотрите сахар в порошок /пудру/.",
+        "learn": 1
+      },
+      {
+        "eng": "The paint is supplied in powder form.",
+        "ru": "Краска поставляется в виде порошка.",
+        "learn": 0
+      },
+      {
+        "eng": "Sieve the flour and cocoa powder into a bowl.",
+        "ru": "Просейте муку и какао-порошок в миску.",
+        "learn": 0
+      },
+      {
+        "eng": "washing powder and other household products",
+        "ru": "стиральный порошок и другие товары для дома",
+        "learn": 0
+      },
+      {
+        "eng": "The recipe calls for a teaspoon of baking powder.",
+        "ru": "Для этого рецепта понадобится чайная ложка разрыхлителя.",
+        "learn": 0
+      },
+      {
+        "eng": "She was powdering her face.",
+        "ru": "Она припудривала лицо.",
+        "learn": 0
+      },
+      {
+        "eng": "Our washing powder now has a new improved formula.",
+        "ru": "Теперь наш стиральный порошок обладает новой, улучшенной формулой.",
+        "learn": 0
+      },
+      {
+        "eng": "The Middle East will remain a powder keg.",
+        "ru": "Ближний Восток останется взрывоопасным регионом /\"пороховой бочкой\"/.",
+        "learn": 0
+      },
+      {
+        "eng": "She roasted red veal, and powdered lean beef.",
+        "ru": "Она зажарила свежую телятину и засолила постную говядину.",
+        "learn": 0
+      },
+      {
+        "eng": "She crushed the peppercorns into a fine powder.",
+        "ru": "Она размолола перчинки в мелкий порошок.",
+        "learn": 0
+      },
+      {
+        "eng": "Soon the whole country becomes powdered with ruins.",
+        "ru": "А вскоре вся страна будет усеяна руинами и обломками.",
+        "learn": 0
+      },
+      {
+        "eng": "...musketeers carrying their gunpowder in powder horns...",
+        "ru": "...мушкетеры носили свой порох в пороховницах (пороховой рог)...",
+        "learn": 0
+      },
+      {
+        "eng": "The blasting had succeeded., five pounds of powder uplifted two hundred square yards of ice.",
+        "ru": "Взрыв достиг цели, с помощью пяти фунтов взрывчатки двести квадратных ярдов льда было поднято на воздух.",
+        "learn": 0
+      },
+      {
+        "eng": "Mix the powder with boiling water.",
+        "ru": "Добавьте порошок в кипяток /кипящую воду/.",
+        "learn": 0
+      },
+      {
+        "eng": "She's just gone to powder her nose.",
+        "ru": "Она только что ушла припудрить носик.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a foot of powder on the slopes.",
+        "ru": "На склонах лежит тридцатисантиметровый слой свежего рыхлого снега.",
+        "learn": 0
+      },
+      {
+        "eng": "She powdered her face and put on lipstick.",
+        "ru": "Она припудрила лицо и накрасила губы помадой.",
+        "learn": 0
+      },
+      {
+        "eng": "The test tube held a column of white powder.",
+        "ru": "Пробирка содержала столбик белого порошка.",
+        "learn": 0
+      },
+      {
+        "eng": "The powder is made from the roots of the plant.",
+        "ru": "Этот порошок делается из корней данного растения.",
+        "learn": 0
+      },
+      {
+        "eng": "When mixed with water the powder forms a smooth paste.",
+        "ru": "При смешивании с водой порошок образует однородную пасту.",
+        "learn": 0
+      },
+      {
+        "eng": "You have to powder the antibiotic tablet and mix it with food.",
+        "ru": "Нужно будет размолоть таблетку антибиотика в порошок и смешать его с едой.",
+        "learn": 1
+      },
+      {
+        "eng": "The chemical reaction begins as soon as the powder is moistened.",
+        "ru": "Химическая реакция начинается, как только порошок становится влажным.",
+        "learn": 0
+      },
+      {
+        "eng": "Scatter some of this powder round the roots to help the plant grow.",
+        "ru": "Растения будут лучше расти, если посыпать этим порошком у основания стебля.",
+        "learn": 0
+      },
+      {
+        "eng": "This powder compacts easily.",
+        "ru": "Этот порошок легко уплотняется /спрессовывается/.",
+        "learn": 0
+      },
+      {
+        "eng": "He scattered gun powder under the wagon.",
+        "ru": "Он насыпал под фургон пороху.",
+        "learn": 1
+      },
+      {
+        "eng": "We're running low on baby powder and diapers.",
+        "ru": "У нас заканчиваются детская присыпка и подгузники.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,88 +1,175 @@
 {
-    "wheel": {
-        "comment": [
-            "sheet",
-            "sheep",
-            "heel",
-            "sheer",
-            "spreadsheet"
-        ],
-        "translate": "колесо, колесико, круг, велосипед, штурвал, катить, поворачивать, поворачиваться",
-        "transcription": " |wiːl|",
-        "antonyms": [],
-        "mnemonic": [
-            "wheel [(ув)и':л] колесо - (Вил-ку) в колесо воткнули.",
-            "wheel [wi: l]\nwill [wɪl] - сила воли, воля\n***\nКАТИЛ колесо - удачу ловил. (это) wheel\nВРАЩАЛ колесо - удачу ловил. (это) wheel\nКолесо крутил - удачу ловил. (это) wheel\n***\nКрутил колесо \"wheel\",\nтеперь болит пятка \"heel\"."
-        ],
-        "examples": [
-            "The wheel turns round.",
-            "Don't reinvent wheel.",
-            "The wheel began to revolve.",
-            "Birds wheeled above us in the sky.",
-            "He wheeled round from the window.",
-            "She wheeled around and started yelling at us.",
-            "Kate wheeled her bike into the garage.",
-            "The driver must have fallen asleep at the wheel.",
-            "Shall I take the wheel (=drive instead of someone else)?",
-            "Give the wheel another turn.",
-            "He gripped the steering wheel.",
-            "The wheel squeaks when it turns.",
-            "the circular motion of the wheel",
-            "She wheeled her bike into the garage.",
-            "The Ferris wheel is my favorite ride.",
-            "It was difficult to detach the tyre from the wheel.",
-            "You have to jack up the car in order to change a wheel.",
-            "Turn the clay on the wheel.",
-            "Has the wheel been properly trued up?",
-            "They'd made her feel like a fifth wheel.",
-            "Fortune's wheel made suddenly a great cant.",
-            "Our waiter wheeled out a small dessert cart.",
-            "We are powerless to stop the wheel of history.",
-            "The crash pinned the driver against the wheel.",
-            "the rotary action of the wheel",
-            "She spelled her husband at the wheel.",
-            "The wheel had been bent out of shape.",
-            "Ray continued to wrestle with the wheel.",
-            "They wheeled their horses around and left.",
-            "The pressure of the water turns the wheel."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Колесо вращается.",
-            "Не нужно изобретать колесо.",
-            "Колесо начало вращаться.",
-            "В небе над нами кружили птицы.",
-            "Он отвернулся от окна.",
-            "Она резко обернулась и закричала на нас.",
-            "Кейт закатила свой велосипед / мотоцикл в гараж.",
-            "Должно быть, водитель заснул за рулём.",
-            "Давай я сяду за руль (т.е. поведу машину вместо кого-то другого)?",
-            "Крутани-ка колесо ещё раз.",
-            "Он ухватился за руль.",
-            "Это колесо скрипит, когда вертится.",
-            "круговое движение колеса",
-            "Она завела велосипед в гараж.",
-            "Колесо обозрения /чёртово колесо/ — это мой любимый вид аттракциона.",
-            "Снять покрышку с колеса было трудно.",
-            "Для того чтобы поменять колесо, машину необходимо поднять домкратом.",
-            "Сформируйте глину на гончарном круге.",
-            "Колесо было точно подогнано?",
-            "Её заставили чувствовать себя пятым колесом.",
-            "Колесо фортуны сделало неожиданно резкий поворот.",
-            "Наш официант выкатил небольшую десертную тележку.",
-            "Мы бессильны остановить колесо истории.",
-            "В результате аварии водителя бросило на руль.",
-            "поворотное действие этого колеса",
-            "Она сменила мужа за рулём.",
-            "Колесо было искорёжено.",
-            "Рэй продолжил сражаться с колесом.",
-            "Они развернули лошадей и уехали.",
-            "Колесо вращается под давлением воды."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "wh_+_(Гл._кр._o)_=_[h]"
-        ]
-    }
+  "wheel": {
+    "comment": [
+      "sheet",
+      "sheep",
+      "heel",
+      "sheer",
+      "spreadsheet"
+    ],
+    "translate": "колесо, колесико, круг, велосипед, штурвал, катить, поворачивать, поворачиваться",
+    "transcription": " |wiːl|",
+    "antonyms": [],
+    "mnemonic": [
+      "wheel [(ув)и':л] колесо - (Вил-ку) в колесо воткнули.",
+      "wheel [wi: l]\nwill [wɪl] - сила воли, воля\n***\nКАТИЛ колесо - удачу ловил. (это) wheel\nВРАЩАЛ колесо - удачу ловил. (это) wheel\nКолесо крутил - удачу ловил. (это) wheel\n***\nКрутил колесо \"wheel\",\nтеперь болит пятка \"heel\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "wh_+_(Гл._кр._o)_=_[h]"
+    ],
+    "examples": [
+      {
+        "eng": "The wheel turns round.",
+        "ru": "Колесо вращается.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't reinvent wheel.",
+        "ru": "Не нужно изобретать колесо.",
+        "learn": 0
+      },
+      {
+        "eng": "The wheel began to revolve.",
+        "ru": "Колесо начало вращаться.",
+        "learn": 1
+      },
+      {
+        "eng": "Birds wheeled above us in the sky.",
+        "ru": "В небе над нами кружили птицы.",
+        "learn": 0
+      },
+      {
+        "eng": "He wheeled round from the window.",
+        "ru": "Он отвернулся от окна.",
+        "learn": 0
+      },
+      {
+        "eng": "She wheeled around and started yelling at us.",
+        "ru": "Она резко обернулась и закричала на нас.",
+        "learn": 0
+      },
+      {
+        "eng": "Kate wheeled her bike into the garage.",
+        "ru": "Кейт закатила свой велосипед / мотоцикл в гараж.",
+        "learn": 0
+      },
+      {
+        "eng": "The driver must have fallen asleep at the wheel.",
+        "ru": "Должно быть, водитель заснул за рулём.",
+        "learn": 0
+      },
+      {
+        "eng": "Shall I take the wheel (=drive instead of someone else)?",
+        "ru": "Давай я сяду за руль (т.е. поведу машину вместо кого-то другого)?",
+        "learn": 0
+      },
+      {
+        "eng": "Give the wheel another turn.",
+        "ru": "Крутани-ка колесо ещё раз.",
+        "learn": 0
+      },
+      {
+        "eng": "He gripped the steering wheel.",
+        "ru": "Он ухватился за руль.",
+        "learn": 0
+      },
+      {
+        "eng": "The wheel squeaks when it turns.",
+        "ru": "Это колесо скрипит, когда вертится.",
+        "learn": 0
+      },
+      {
+        "eng": "the circular motion of the wheel",
+        "ru": "круговое движение колеса",
+        "learn": 1
+      },
+      {
+        "eng": "She wheeled her bike into the garage.",
+        "ru": "Она завела велосипед в гараж.",
+        "learn": 1
+      },
+      {
+        "eng": "The Ferris wheel is my favorite ride.",
+        "ru": "Колесо обозрения /чёртово колесо/ — это мой любимый вид аттракциона.",
+        "learn": 0
+      },
+      {
+        "eng": "It was difficult to detach the tyre from the wheel.",
+        "ru": "Снять покрышку с колеса было трудно.",
+        "learn": 1
+      },
+      {
+        "eng": "You have to jack up the car in order to change a wheel.",
+        "ru": "Для того чтобы поменять колесо, машину необходимо поднять домкратом.",
+        "learn": 0
+      },
+      {
+        "eng": "Turn the clay on the wheel.",
+        "ru": "Сформируйте глину на гончарном круге.",
+        "learn": 0
+      },
+      {
+        "eng": "Has the wheel been properly trued up?",
+        "ru": "Колесо было точно подогнано?",
+        "learn": 0
+      },
+      {
+        "eng": "They'd made her feel like a fifth wheel.",
+        "ru": "Её заставили чувствовать себя пятым колесом.",
+        "learn": 0
+      },
+      {
+        "eng": "Fortune's wheel made suddenly a great cant.",
+        "ru": "Колесо фортуны сделало неожиданно резкий поворот.",
+        "learn": 0
+      },
+      {
+        "eng": "Our waiter wheeled out a small dessert cart.",
+        "ru": "Наш официант выкатил небольшую десертную тележку.",
+        "learn": 1
+      },
+      {
+        "eng": "We are powerless to stop the wheel of history.",
+        "ru": "Мы бессильны остановить колесо истории.",
+        "learn": 0
+      },
+      {
+        "eng": "The crash pinned the driver against the wheel.",
+        "ru": "В результате аварии водителя бросило на руль.",
+        "learn": 0
+      },
+      {
+        "eng": "the rotary action of the wheel",
+        "ru": "поворотное действие этого колеса",
+        "learn": 0
+      },
+      {
+        "eng": "She spelled her husband at the wheel.",
+        "ru": "Она сменила мужа за рулём.",
+        "learn": 0
+      },
+      {
+        "eng": "The wheel had been bent out of shape.",
+        "ru": "Колесо было искорёжено.",
+        "learn": 0
+      },
+      {
+        "eng": "Ray continued to wrestle with the wheel.",
+        "ru": "Рэй продолжил сражаться с колесом.",
+        "learn": 0
+      },
+      {
+        "eng": "They wheeled their horses around and left.",
+        "ru": "Они развернули лошадей и уехали.",
+        "learn": 0
+      },
+      {
+        "eng": "The pressure of the water turns the wheel.",
+        "ru": "Колесо вращается под давлением воды.",
+        "learn": 0
+      }
+    ]
+  }
 }

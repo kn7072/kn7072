@@ -1,77 +1,154 @@
 {
-    "parallel": {
-        "comment": [
-            "paragraph",
-            "paradise",
-            "parade",
-            "parameter"
-        ],
-        "translate": "параллельный, параллельно, параллель, аналогия",
-        "transcription": " |ˈpærəlel|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "There are significant parallels with 1980s.",
-            "Two parallel bridges span the river.",
-            "The river splits into its two parallel ranges.",
-            "This trail was parallel to the border.",
-            "She is convinced that parallel universes exist.",
-            "Lines AB and CD are parallel.",
-            "There are many parallels between the stories.",
-            "These two sentences are parallel in structure.",
-            "The boundary here goes parallel with the river.",
-            "The highway parallels the river.",
-            "The railway is parallel with the canal.",
-            "His career parallels that of his father.",
-            "The gymnast dismounted from the parallel bars.",
-            "There was a parallel passage in the second volume.",
-            "Notice the parallel development of the two technologies.",
-            "Spending is paralleled by an increase in the number of loans given.",
-            "The cases are quite parallel, except that A. is a younger man than B.",
-            "Take the road running parallel to the main road just after the village.",
-            "a movie in which otherworldly beings live among us in a parallel universe",
-            "Their test results parallel our own.",
-            "She was travelling parallel to her previous route.",
-            "The main body of the sound ran parallel to the coast.",
-            "Most of the United States is south of the 49th parallel.",
-            "Often there are emotional reasons paralleling the financial ones.",
-            "She wanted to pursue her own career in parallel with her husband's.",
-            "The rise in greenhouse gases parallels the reduction in the ozone layer.",
-            "a gymnast who can handle even the most demanding moves on the parallel bars with total ease"
-        ],
-        "example_translate": [
-            "Всё очень похоже на то, как было в восьмидесятых.",
-            "Два моста, расположенных параллельно друг другу, соединяют берега реки.",
-            "Река разделяется на два параллельных русла.",
-            "След шёл параллельно границе.",
-            "Она уверена в том, что параллельные миры существуют.",
-            "Прямые AB и CD параллельны.",
-            "Между этими историями есть множество параллелей.",
-            "Структуры обоих предложений весьма схожи.",
-            "Граница идёт здесь вдоль реки.",
-            "Шоссе идёт параллельно реке.",
-            "Железная дорога идёт параллельно каналу.",
-            "Его карьера повторяет карьеру отца.",
-            "Гимнаст выполнил соскок с брусьев.",
-            "Во втором томе был похожий абзац.",
-            "Обратите внимание на параллельное развитие этих двух технологий.",
-            "Затраты сопровождаются увеличением количества выданных займов.",
-            "Эти случаи совершенно аналогичны, за исключением того, что А. моложе Б.",
-            "Сразу за деревней сверните на дорогу, идущую параллельно магистрали.",
-            "кино, в котором потусторонние существа живут среди нас, в параллельной вселенной",
-            "Их тестовые результаты идут вровень с нашими собственными.",
-            "Она ехала параллельно своему прежнему маршруту.",
-            "Основная часть лагуны шла параллельно побережью.",
-            "Большая часть территории США находится южнее сорок девятой параллели.",
-            "Часто к эмоциональным причинам примешиваются финансовые.",
-            "Ей захотелось продолжить свою карьеру параллельно с мужем.",
-            "Параллельно росту выбросов парниковых газов идёт уменьшение озонового слоя.",
-            "гимнаст, который с лёгкостью может выполнять даже самые сложные элементы на брусьях"
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "parallel": {
+    "comment": [
+      "paragraph",
+      "paradise",
+      "parade",
+      "parameter"
+    ],
+    "translate": "параллельный, параллельно, параллель, аналогия",
+    "transcription": " |ˈpærəlel|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "There are significant parallels with 1980s.",
+        "ru": "Всё очень похоже на то, как было в восьмидесятых.",
+        "learn": 0
+      },
+      {
+        "eng": "Two parallel bridges span the river.",
+        "ru": "Два моста, расположенных параллельно друг другу, соединяют берега реки.",
+        "learn": 0
+      },
+      {
+        "eng": "The river splits into its two parallel ranges.",
+        "ru": "Река разделяется на два параллельных русла.",
+        "learn": 0
+      },
+      {
+        "eng": "This trail was parallel to the border.",
+        "ru": "След шёл параллельно границе.",
+        "learn": 0
+      },
+      {
+        "eng": "She is convinced that parallel universes exist.",
+        "ru": "Она уверена в том, что параллельные миры существуют.",
+        "learn": 1
+      },
+      {
+        "eng": "Lines AB and CD are parallel.",
+        "ru": "Прямые AB и CD параллельны.",
+        "learn": 0
+      },
+      {
+        "eng": "There are many parallels between the stories.",
+        "ru": "Между этими историями есть множество параллелей.",
+        "learn": 1
+      },
+      {
+        "eng": "These two sentences are parallel in structure.",
+        "ru": "Структуры обоих предложений весьма схожи.",
+        "learn": 0
+      },
+      {
+        "eng": "The boundary here goes parallel with the river.",
+        "ru": "Граница идёт здесь вдоль реки.",
+        "learn": 0
+      },
+      {
+        "eng": "The highway parallels the river.",
+        "ru": "Шоссе идёт параллельно реке.",
+        "learn": 0
+      },
+      {
+        "eng": "The railway is parallel with the canal.",
+        "ru": "Железная дорога идёт параллельно каналу.",
+        "learn": 1
+      },
+      {
+        "eng": "His career parallels that of his father.",
+        "ru": "Его карьера повторяет карьеру отца.",
+        "learn": 0
+      },
+      {
+        "eng": "The gymnast dismounted from the parallel bars.",
+        "ru": "Гимнаст выполнил соскок с брусьев.",
+        "learn": 0
+      },
+      {
+        "eng": "There was a parallel passage in the second volume.",
+        "ru": "Во втором томе был похожий абзац.",
+        "learn": 0
+      },
+      {
+        "eng": "Notice the parallel development of the two technologies.",
+        "ru": "Обратите внимание на параллельное развитие этих двух технологий.",
+        "learn": 0
+      },
+      {
+        "eng": "Spending is paralleled by an increase in the number of loans given.",
+        "ru": "Затраты сопровождаются увеличением количества выданных займов.",
+        "learn": 0
+      },
+      {
+        "eng": "The cases are quite parallel, except that A. is a younger man than B.",
+        "ru": "Эти случаи совершенно аналогичны, за исключением того, что А. моложе Б.",
+        "learn": 0
+      },
+      {
+        "eng": "Take the road running parallel to the main road just after the village.",
+        "ru": "Сразу за деревней сверните на дорогу, идущую параллельно магистрали.",
+        "learn": 0
+      },
+      {
+        "eng": "a movie in which otherworldly beings live among us in a parallel universe",
+        "ru": "кино, в котором потусторонние существа живут среди нас, в параллельной вселенной",
+        "learn": 0
+      },
+      {
+        "eng": "Their test results parallel our own.",
+        "ru": "Их тестовые результаты идут вровень с нашими собственными.",
+        "learn": 1
+      },
+      {
+        "eng": "She was travelling parallel to her previous route.",
+        "ru": "Она ехала параллельно своему прежнему маршруту.",
+        "learn": 0
+      },
+      {
+        "eng": "The main body of the sound ran parallel to the coast.",
+        "ru": "Основная часть лагуны шла параллельно побережью.",
+        "learn": 0
+      },
+      {
+        "eng": "Most of the United States is south of the 49th parallel.",
+        "ru": "Большая часть территории США находится южнее сорок девятой параллели.",
+        "learn": 0
+      },
+      {
+        "eng": "Often there are emotional reasons paralleling the financial ones.",
+        "ru": "Часто к эмоциональным причинам примешиваются финансовые.",
+        "learn": 0
+      },
+      {
+        "eng": "She wanted to pursue her own career in parallel with her husband's.",
+        "ru": "Ей захотелось продолжить свою карьеру параллельно с мужем.",
+        "learn": 0
+      },
+      {
+        "eng": "The rise in greenhouse gases parallels the reduction in the ozone layer.",
+        "ru": "Параллельно росту выбросов парниковых газов идёт уменьшение озонового слоя.",
+        "learn": 0
+      },
+      {
+        "eng": "a gymnast who can handle even the most demanding moves on the parallel bars with total ease",
+        "ru": "гимнаст, который с лёгкостью может выполнять даже самые сложные элементы на брусьях",
+        "learn": 0
+      }
+    ]
+  }
 }

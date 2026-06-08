@@ -1,86 +1,172 @@
 {
-    "chain": {
-        "comment": [
-            "channel",
-            "challenge",
-            "chat",
-            "chaos"
-        ],
-        "translate": "цепь, сеть, цепочка, цепной, сковать, сковывать",
-        "transcription": " |tʃeɪn|",
-        "antonyms": [],
-        "mnemonic": [
-            "chain [чейн] цепочка- Цепочку на (ни-чейн-ой) полосе нашли.",
-            "chain [tʃeɪn]\n***\nДержат его на ЦЕПИ, но он ничеен. (это) chain\nПРИВЯЗАЛИ, думали - ничеен. (это) chain\nСкреплять цепью. Цепь, цепочка. Цепной (опр.)."
-        ],
-        "examples": [
-            "He wears the key at his watch chain.",
-            "a length of chain",
-            "The elephants were chained up by their legs.",
-            "the weak link in the chain",
-            "I can't say that I entirely approve of chain restaurants.",
-            "Of course the dog makes such a noise, the poor creature is chained up all day.",
-            "The islands lie at the southern end of the Kurile chain.",
-            "She had a gold chain around her neck.",
-            "The jewels are strung together on a fine silver chain.",
-            "A chain will break at its weakest link.",
-            "The company runs a chain of restaurants.",
-            "a buyer for a chain store",
-            "The bicycle chain needs oiling.",
-            "He owned a chain of restaurants branded under his own name.",
-            "Increased oil prices could trigger a chain reaction in the economy.",
-            "In former times, prisoners were chained to the wall or to one another.",
-            "A gold chain swung free around his neck.",
-            "The poor dog threshed against his chain.",
-            "Everyone held hands and formed a human chain.",
-            "Special earplugs dulled the sound of the chain saw.",
-            "The glasses were dangling around her neck on a jewelled chain.",
-            "The big company's newest acquisition is a small chain of clothing stores.",
-            "Since its inception, the business has expanded to become a national retail chain.",
-            "a trophic level on the food chain",
-            "The island chain arcs from north to south.",
-            "They own a chain of organic grocery stores.",
-            "A little bit of oil will help lubricate the chain.",
-            "The hotel chain recently opened a new hotel in Hong Kong.",
-            "It is easiest to break a chain at its weakest link.",
-            "Firefighters formed a human chain to carry the brothers to safety."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он носит этот ключ на цепочке своих часов.",
-            "длина цепочки",
-            "Слоны были скованы цепями прикреплёнными к их ногам.",
-            "слабое звено в цепи",
-            "Я не могу сказать, что полностью одобряю сетевые рестораны.",
-            "Еще бы этот пес так не лаял: он, бедный, весь день на цепи.",
-            "Острова расположены на юге Курильской гряды.",
-            "На шее у неё была золотая цепочка.",
-            "Драгоценные камни нанизаны на красивую серебряную цепочку.",
-            "Где тонко — там и рвётся. (букв. цепь рвётся на самом слабом звене)",
-            "Компания управляет сетью ресторанов.",
-            "закупщик для фирменного /сетевого/ магазина",
-            "Нужно смазать цепь велосипеда.",
-            "Ему принадлежала сеть ресторанов, названная его собственной фамилией.",
-            "Повышение цен на нефть может вызвать цепную реакцию в экономике.",
-            "В прошлом узников приковывали к стенам или друг к другу.",
-            "С его шеи свободно свисала золотая цепь.",
-            "Бедный пёс бился о свою цепь.",
-            "Все взялись за руки и образовали живую цепь.",
-            "Звук цепной пилы заглушали специальные беруши.",
-            "Очки висели у неё на шее на цепочке, украшенной драгоценными камнями.",
-            "Последнее приобретение компании — небольшая сеть магазинов одежды.",
-            "С момента своего основания компания расширилась и стала национальной розничной сетью.",
-            "трофический уровень в пищевой цепочке",
-            "Цепь островов вытягивается дугой с севера на юг.",
-            "Они владеют сетью магазинов \"здоровой пищи\".",
-            "Цепь можно будет смазать небольшим количеством масла.",
-            "Недавно эта гостиничная сеть открыла новый отель в Гонконге.",
-            "Цепь легче всего рвётся на самом слабом звене.",
-            "Пожарные образовали живую цепь, чтобы отнести братьев в безопасное место."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "chain": {
+    "comment": [
+      "channel",
+      "challenge",
+      "chat",
+      "chaos"
+    ],
+    "translate": "цепь, сеть, цепочка, цепной, сковать, сковывать",
+    "transcription": " |tʃeɪn|",
+    "antonyms": [],
+    "mnemonic": [
+      "chain [чейн] цепочка- Цепочку на (ни-чейн-ой) полосе нашли.",
+      "chain [tʃeɪn]\n***\nДержат его на ЦЕПИ, но он ничеен. (это) chain\nПРИВЯЗАЛИ, думали - ничеен. (это) chain\nСкреплять цепью. Цепь, цепочка. Цепной (опр.)."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He wears the key at his watch chain.",
+        "ru": "Он носит этот ключ на цепочке своих часов.",
+        "learn": 0
+      },
+      {
+        "eng": "a length of chain",
+        "ru": "длина цепочки",
+        "learn": 0
+      },
+      {
+        "eng": "The elephants were chained up by their legs.",
+        "ru": "Слоны были скованы цепями прикреплёнными к их ногам.",
+        "learn": 0
+      },
+      {
+        "eng": "the weak link in the chain",
+        "ru": "слабое звено в цепи",
+        "learn": 0
+      },
+      {
+        "eng": "I can't say that I entirely approve of chain restaurants.",
+        "ru": "Я не могу сказать, что полностью одобряю сетевые рестораны.",
+        "learn": 0
+      },
+      {
+        "eng": "Of course the dog makes such a noise, the poor creature is chained up all day.",
+        "ru": "Еще бы этот пес так не лаял: он, бедный, весь день на цепи.",
+        "learn": 0
+      },
+      {
+        "eng": "The islands lie at the southern end of the Kurile chain.",
+        "ru": "Острова расположены на юге Курильской гряды.",
+        "learn": 0
+      },
+      {
+        "eng": "She had a gold chain around her neck.",
+        "ru": "На шее у неё была золотая цепочка.",
+        "learn": 0
+      },
+      {
+        "eng": "The jewels are strung together on a fine silver chain.",
+        "ru": "Драгоценные камни нанизаны на красивую серебряную цепочку.",
+        "learn": 0
+      },
+      {
+        "eng": "A chain will break at its weakest link.",
+        "ru": "Где тонко — там и рвётся. (букв. цепь рвётся на самом слабом звене)",
+        "learn": 0
+      },
+      {
+        "eng": "The company runs a chain of restaurants.",
+        "ru": "Компания управляет сетью ресторанов.",
+        "learn": 0
+      },
+      {
+        "eng": "a buyer for a chain store",
+        "ru": "закупщик для фирменного /сетевого/ магазина",
+        "learn": 0
+      },
+      {
+        "eng": "The bicycle chain needs oiling.",
+        "ru": "Нужно смазать цепь велосипеда.",
+        "learn": 1
+      },
+      {
+        "eng": "He owned a chain of restaurants branded under his own name.",
+        "ru": "Ему принадлежала сеть ресторанов, названная его собственной фамилией.",
+        "learn": 1
+      },
+      {
+        "eng": "Increased oil prices could trigger a chain reaction in the economy.",
+        "ru": "Повышение цен на нефть может вызвать цепную реакцию в экономике.",
+        "learn": 0
+      },
+      {
+        "eng": "In former times, prisoners were chained to the wall or to one another.",
+        "ru": "В прошлом узников приковывали к стенам или друг к другу.",
+        "learn": 0
+      },
+      {
+        "eng": "A gold chain swung free around his neck.",
+        "ru": "С его шеи свободно свисала золотая цепь.",
+        "learn": 0
+      },
+      {
+        "eng": "The poor dog threshed against his chain.",
+        "ru": "Бедный пёс бился о свою цепь.",
+        "learn": 0
+      },
+      {
+        "eng": "Everyone held hands and formed a human chain.",
+        "ru": "Все взялись за руки и образовали живую цепь.",
+        "learn": 0
+      },
+      {
+        "eng": "Special earplugs dulled the sound of the chain saw.",
+        "ru": "Звук цепной пилы заглушали специальные беруши.",
+        "learn": 0
+      },
+      {
+        "eng": "The glasses were dangling around her neck on a jewelled chain.",
+        "ru": "Очки висели у неё на шее на цепочке, украшенной драгоценными камнями.",
+        "learn": 0
+      },
+      {
+        "eng": "The big company's newest acquisition is a small chain of clothing stores.",
+        "ru": "Последнее приобретение компании — небольшая сеть магазинов одежды.",
+        "learn": 0
+      },
+      {
+        "eng": "Since its inception, the business has expanded to become a national retail chain.",
+        "ru": "С момента своего основания компания расширилась и стала национальной розничной сетью.",
+        "learn": 0
+      },
+      {
+        "eng": "a trophic level on the food chain",
+        "ru": "трофический уровень в пищевой цепочке",
+        "learn": 0
+      },
+      {
+        "eng": "The island chain arcs from north to south.",
+        "ru": "Цепь островов вытягивается дугой с севера на юг.",
+        "learn": 1
+      },
+      {
+        "eng": "They own a chain of organic grocery stores.",
+        "ru": "Они владеют сетью магазинов \"здоровой пищи\".",
+        "learn": 0
+      },
+      {
+        "eng": "A little bit of oil will help lubricate the chain.",
+        "ru": "Цепь можно будет смазать небольшим количеством масла.",
+        "learn": 0
+      },
+      {
+        "eng": "The hotel chain recently opened a new hotel in Hong Kong.",
+        "ru": "Недавно эта гостиничная сеть открыла новый отель в Гонконге.",
+        "learn": 0
+      },
+      {
+        "eng": "It is easiest to break a chain at its weakest link.",
+        "ru": "Цепь легче всего рвётся на самом слабом звене.",
+        "learn": 0
+      },
+      {
+        "eng": "Firefighters formed a human chain to carry the brothers to safety.",
+        "ru": "Пожарные образовали живую цепь, чтобы отнести братьев в безопасное место.",
+        "learn": 0
+      }
+    ]
+  }
 }

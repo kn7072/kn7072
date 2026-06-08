@@ -1,83 +1,166 @@
 {
-    "tide": {
-        "comment": [
-            "tidy",
-            "tidily",
-            "untidy"
-        ],
-        "translate": "волна, поток, течение, время, море, период, плыть по течению",
-        "transcription": " |taɪd|",
-        "antonyms": [],
-        "mnemonic": [
-            "tide [тайд] поток, течение - Порошок («Тайд») потоком хлынул на рынок.",
-            "tide [taɪd]\ntidy ['taɪdɪ] - опрятный, аккуратный., значительный\n***\nПОТОКОМ хлынул в страну к нам Тайд. (это) tide\nВОЛНОЙ большой идёт к нам Тайд. (это) tide\n***\nОПРЯТНЫМИ и АККУРАТНЫМИ вырастайте.\n(это) tidy\nВ доме ПРИБИРАЙТЕ и подметайте. (это) tidy"
-        ],
-        "examples": [
-            "The tide set in.",
-            "The tide is coming in.",
-            "Is the tide going out or coming in?",
-            "In the autumn of 1918 the tide finally turned.",
-            "You can walk across the sands when the tide is out.",
-            "The tide leaves this bank dry.",
-            "The crisis prompted a rising tide of protest.",
-            "She swallowed back a tide of emotion.",
-            "The tide rose and fell.",
-            "Strong tides make swimming dangerous.",
-            "The tide ebbs and flows.",
-            "The tide almost sucked us out to sea.",
-            "When the tide is out, the sand stretches for a long way.",
-            "The measures are meant to stem the tide of illegal immigration.",
-            "The tide was lapping the harbour wall.",
-            "The tide of battle turned against the Mexican army.",
-            "We moved back from the encroaching tide.",
-            "The boat got swept away in the tide.",
-            "The boat was impelled toward the shore by the tide.",
-            "The victory turned the tide of the war in North Africa.",
-            "The fast-moving tide sometimes surprises unwary swimmers.",
-            "It was their first major victory. The tide had turned (=changed).",
-            "With the tide of public opinion against him, the president may lose.",
-            "Red tide had a particularly devastating effect on nearshore shellfisheries.",
-            "We walked out onto the sandbar at low tide.",
-            "An aggressive tide sluiced across the barrier reef.",
-            "At the turn of the tide the boats began to drop down the harbour.",
-            "Nineteenth century scientists were swept along on the tide of Darwin's theories.",
-            "The police seem unable to cope with the rising tide of (=large increase in) car crime."
-        ],
-        "example_translate": [
-            "Начался прилив.",
-            "Начинается прилив.",
-            "Сейчас отлив или прилив?",
-            "Осенью 1918 года ход событий принял наконец другой оборот.",
-            "Во время отлива можно прогуляться по песчаной отмели.",
-            "Прилив до этого места не доходит.",
-            "Кризис стал причиной растущей волны протеста.",
-            "Она с трудом сдержала прилив эмоций.",
-            "Морские волны то поднимались, то опускались.",
-            "Сильные приливы-отливы делают плавание опасным.",
-            "Вода во время прилива убывает и прибывает.",
-            "Прилив чуть не вынес нас в открытое море.",
-            "Когда происходит отлив (когда вода отступает), песок простирается на очень большие расстояния.",
-            "Эти меры были приняты с целью остановить поток нелегальной иммиграции.",
-            "Волны прилива плескались о портовую стенку.",
-            "Ход битвы обернулся против мексиканской армии.",
-            "Мы отступили от надвигающейся волны.",
-            "Лодку унесло в море.",
-            "Прилив подгонял лодку к берегу.",
-            "Эта победа переломила ход войны в Северной Африке.",
-            "Стремительный прилив иногда удивляет неосторожных пловцов.",
-            "Это была их первая крупная победа. Ситуация изменилась: наступил перелом.",
-            "Если общественное мнение повернётся против него, президент может проиграть.",
-            "Красный прилив оказал особенно разрушительное воздействие на прибрежные фермы, занимающиеся разведением моллюсков.",
-            "Мы вышли на песчаную отмель во время отлива.",
-            "Через барьерный риф хлынула энергичная приливная волна.",
-            "При отливе лодки начали спускаться к гавани.",
-            "Учёные девятнадцатого века были увлечены теорией Дарвина.",
-            "Полиция кажется неспособной справиться с растущей волной (т.е. большим ростом) автомобильной преступности."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "tide": {
+    "comment": [
+      "tidy",
+      "tidily",
+      "untidy"
+    ],
+    "translate": "волна, поток, течение, время, море, период, плыть по течению",
+    "transcription": " |taɪd|",
+    "antonyms": [],
+    "mnemonic": [
+      "tide [тайд] поток, течение - Порошок («Тайд») потоком хлынул на рынок.",
+      "tide [taɪd]\ntidy ['taɪdɪ] - опрятный, аккуратный., значительный\n***\nПОТОКОМ хлынул в страну к нам Тайд. (это) tide\nВОЛНОЙ большой идёт к нам Тайд. (это) tide\n***\nОПРЯТНЫМИ и АККУРАТНЫМИ вырастайте.\n(это) tidy\nВ доме ПРИБИРАЙТЕ и подметайте. (это) tidy"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The tide set in.",
+        "ru": "Начался прилив.",
+        "learn": 0
+      },
+      {
+        "eng": "The tide is coming in.",
+        "ru": "Начинается прилив.",
+        "learn": 1
+      },
+      {
+        "eng": "Is the tide going out or coming in?",
+        "ru": "Сейчас отлив или прилив?",
+        "learn": 0
+      },
+      {
+        "eng": "In the autumn of 1918 the tide finally turned.",
+        "ru": "Осенью 1918 года ход событий принял наконец другой оборот.",
+        "learn": 0
+      },
+      {
+        "eng": "You can walk across the sands when the tide is out.",
+        "ru": "Во время отлива можно прогуляться по песчаной отмели.",
+        "learn": 0
+      },
+      {
+        "eng": "The tide leaves this bank dry.",
+        "ru": "Прилив до этого места не доходит.",
+        "learn": 0
+      },
+      {
+        "eng": "The crisis prompted a rising tide of protest.",
+        "ru": "Кризис стал причиной растущей волны протеста.",
+        "learn": 0
+      },
+      {
+        "eng": "She swallowed back a tide of emotion.",
+        "ru": "Она с трудом сдержала прилив эмоций.",
+        "learn": 0
+      },
+      {
+        "eng": "The tide rose and fell.",
+        "ru": "Морские волны то поднимались, то опускались.",
+        "learn": 0
+      },
+      {
+        "eng": "Strong tides make swimming dangerous.",
+        "ru": "Сильные приливы-отливы делают плавание опасным.",
+        "learn": 1
+      },
+      {
+        "eng": "The tide ebbs and flows.",
+        "ru": "Вода во время прилива убывает и прибывает.",
+        "learn": 0
+      },
+      {
+        "eng": "The tide almost sucked us out to sea.",
+        "ru": "Прилив чуть не вынес нас в открытое море.",
+        "learn": 0
+      },
+      {
+        "eng": "When the tide is out, the sand stretches for a long way.",
+        "ru": "Когда происходит отлив (когда вода отступает), песок простирается на очень большие расстояния.",
+        "learn": 1
+      },
+      {
+        "eng": "The measures are meant to stem the tide of illegal immigration.",
+        "ru": "Эти меры были приняты с целью остановить поток нелегальной иммиграции.",
+        "learn": 1
+      },
+      {
+        "eng": "The tide was lapping the harbour wall.",
+        "ru": "Волны прилива плескались о портовую стенку.",
+        "learn": 0
+      },
+      {
+        "eng": "The tide of battle turned against the Mexican army.",
+        "ru": "Ход битвы обернулся против мексиканской армии.",
+        "learn": 0
+      },
+      {
+        "eng": "We moved back from the encroaching tide.",
+        "ru": "Мы отступили от надвигающейся волны.",
+        "learn": 0
+      },
+      {
+        "eng": "The boat got swept away in the tide.",
+        "ru": "Лодку унесло в море.",
+        "learn": 0
+      },
+      {
+        "eng": "The boat was impelled toward the shore by the tide.",
+        "ru": "Прилив подгонял лодку к берегу.",
+        "learn": 0
+      },
+      {
+        "eng": "The victory turned the tide of the war in North Africa.",
+        "ru": "Эта победа переломила ход войны в Северной Африке.",
+        "learn": 0
+      },
+      {
+        "eng": "The fast-moving tide sometimes surprises unwary swimmers.",
+        "ru": "Стремительный прилив иногда удивляет неосторожных пловцов.",
+        "learn": 0
+      },
+      {
+        "eng": "It was their first major victory. The tide had turned (=changed).",
+        "ru": "Это была их первая крупная победа. Ситуация изменилась: наступил перелом.",
+        "learn": 0
+      },
+      {
+        "eng": "With the tide of public opinion against him, the president may lose.",
+        "ru": "Если общественное мнение повернётся против него, президент может проиграть.",
+        "learn": 0
+      },
+      {
+        "eng": "Red tide had a particularly devastating effect on nearshore shellfisheries.",
+        "ru": "Красный прилив оказал особенно разрушительное воздействие на прибрежные фермы, занимающиеся разведением моллюсков.",
+        "learn": 0
+      },
+      {
+        "eng": "We walked out onto the sandbar at low tide.",
+        "ru": "Мы вышли на песчаную отмель во время отлива.",
+        "learn": 0
+      },
+      {
+        "eng": "An aggressive tide sluiced across the barrier reef.",
+        "ru": "Через барьерный риф хлынула энергичная приливная волна.",
+        "learn": 0
+      },
+      {
+        "eng": "At the turn of the tide the boats began to drop down the harbour.",
+        "ru": "При отливе лодки начали спускаться к гавани.",
+        "learn": 0
+      },
+      {
+        "eng": "Nineteenth century scientists were swept along on the tide of Darwin's theories.",
+        "ru": "Учёные девятнадцатого века были увлечены теорией Дарвина.",
+        "learn": 0
+      },
+      {
+        "eng": "The police seem unable to cope with the rising tide of (=large increase in) car crime.",
+        "ru": "Полиция кажется неспособной справиться с растущей волной (т.е. большим ростом) автомобильной преступности.",
+        "learn": 0
+      }
+    ]
+  }
 }

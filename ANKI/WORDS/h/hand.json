@@ -1,92 +1,178 @@
 {
-    "hand": {
-        "comment": [
-            "handbag",
-            "handle",
-            "handy",
-            "handsome",
-            "handful",
-            "handling",
-            "handwriting",
-            "handkerchief",
-            "handicap",
-            "hang"
-        ],
-        "translate": "рука, сторона, стрелка, ручной, подручный, передавать, помочь, вручать",
-        "transcription": " |hænd|",
-        "antonyms": [],
-        "mnemonic": [
-            "hand [бэнд] рука - От слова (бэнд-бол*) - рука-мяч (‘Гандбол).",
-            "handle ['hænd (ə) l] - ручка, рукоятка., управляться,\nсправляться\nhand ['hænd] - рука, кисть. помощь, поддержка.\nподавать, передавать\nhandy ['hændɪ] - удобный, ловкий., поблизости\n***\nСПРАВЛЮСЬ я с заданием, которое хан|дал. (это)\nhandle\nРУЧКУ, РУКОЯТКУ хан|дал. (это) handle\nУПРАВЛЮСЬ я с задачей, которую хан|дал. (это)\nhandle\n***\nto come in handy - пригодиться"
-        ],
-        "examples": [
-            "Do you need a hand?",
-            "My hand still hurts.",
-            "He handed the teacher a slip of paper.",
-            "The young couple were holding hands.",
-            "Can you give me a hand?",
-            "He squeezed my hand.",
-            "He has a stiff hand.",
-            "Hand me the newspaper, please.",
-            "Go wash your hands.",
-            "The town is close at hand.",
-            "This dress is sewn by hand.",
-            "He took him by the hand.",
-            "He held up his hand.",
-            "Defeat seemed hard at hand.",
-            "He waved his hand hospitably.",
-            "Your hand feels cold.",
-            "The horse nosed my hand.",
-            "His hand was over his heart.",
-            "He squeezed my hand.",
-            "the fine hand of a master",
-            "She handed him a surprise.",
-            "The President has strengthened the hand of the gun lobby.",
-            "\"He is about so tall,\" she said, raising her hand about six feet in the air.",
-            "This matter is too important to be left in the hands of an inexperienced lawyer.",
-            "He shook my hand warmly.",
-            "the firm clasp of her hand",
-            "The riots got out of hand.",
-            "a languid wave of the hand",
-            "I gave the toddler my hand.",
-            "the gentle touch of her hand"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Вам помочь? (досл. Вам нужна рука? Как правило, такой фразой предлагают физическую помощь, например перенести что-нибудь)",
-            "Рука всё ещё болит.",
-            "Он протянул учителю клочок бумаги.",
-            "Молодая пара держалась за руки.",
-            "Помоги мне, пожалуйста. / Ты мне не поможешь?",
-            "Он крепко пожал мне руку.",
-            "У него онемела рука.",
-            "Подай мне, пожалуйста, газету.",
-            "Иди мой руки.",
-            "Город — совсем рядом, на расстоянии вытянутой руки.",
-            "Это платье сшито вручную.",
-            "Он схватил его за руку.",
-            "Он поднял руку.",
-            "Поражение казалось совсем близко.",
-            "Он гостеприимно помахал рукой.",
-            "У тебя холодная рука.",
-            "Лошадь уткнулась носом в мою руку.",
-            "Он прижал руку к сердцу.",
-            "Он крепко пожал мне руку.",
-            "искусная рука мастера",
-            "Она поразила его.",
-            "Президент усилил влияние оружейного лобби.",
-            "— Он примерно такого роста, — сказала она, показав рукой высоту около шести футов.",
-            "Этот вопрос слишком важен, чтобы оставлять его в руках неопытного адвоката.",
-            "Он сердечно пожал мне руку.",
-            "её крепкая хватка",
-            "Беспорядки вышли из-под контроля.",
-            "вялый взмах руки",
-            "Я подал ребёнку руку.",
-            "нежное прикосновение её руки"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "hand": {
+    "comment": [
+      "handbag",
+      "handle",
+      "handy",
+      "handsome",
+      "handful",
+      "handling",
+      "handwriting",
+      "handkerchief",
+      "handicap",
+      "hang"
+    ],
+    "translate": "рука, сторона, стрелка, ручной, подручный, передавать, помочь, вручать",
+    "transcription": " |hænd|",
+    "antonyms": [],
+    "mnemonic": [
+      "hand [бэнд] рука - От слова (бэнд-бол*) - рука-мяч (‘Гандбол).",
+      "handle ['hænd (ə) l] - ручка, рукоятка., управляться,\nсправляться\nhand ['hænd] - рука, кисть. помощь, поддержка.\nподавать, передавать\nhandy ['hændɪ] - удобный, ловкий., поблизости\n***\nСПРАВЛЮСЬ я с заданием, которое хан|дал. (это)\nhandle\nРУЧКУ, РУКОЯТКУ хан|дал. (это) handle\nУПРАВЛЮСЬ я с задачей, которую хан|дал. (это)\nhandle\n***\nto come in handy - пригодиться"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Do you need a hand?",
+        "ru": "Вам помочь? (досл. Вам нужна рука? Как правило, такой фразой предлагают физическую помощь, например перенести что-нибудь)",
+        "learn": 0
+      },
+      {
+        "eng": "My hand still hurts.",
+        "ru": "Рука всё ещё болит.",
+        "learn": 1
+      },
+      {
+        "eng": "He handed the teacher a slip of paper.",
+        "ru": "Он протянул учителю клочок бумаги.",
+        "learn": 1
+      },
+      {
+        "eng": "The young couple were holding hands.",
+        "ru": "Молодая пара держалась за руки.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you give me a hand?",
+        "ru": "Помоги мне, пожалуйста. / Ты мне не поможешь?",
+        "learn": 0
+      },
+      {
+        "eng": "He squeezed my hand.",
+        "ru": "Он крепко пожал мне руку.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a stiff hand.",
+        "ru": "У него онемела рука.",
+        "learn": 0
+      },
+      {
+        "eng": "Hand me the newspaper, please.",
+        "ru": "Подай мне, пожалуйста, газету.",
+        "learn": 0
+      },
+      {
+        "eng": "Go wash your hands.",
+        "ru": "Иди мой руки.",
+        "learn": 0
+      },
+      {
+        "eng": "The town is close at hand.",
+        "ru": "Город — совсем рядом, на расстоянии вытянутой руки.",
+        "learn": 0
+      },
+      {
+        "eng": "This dress is sewn by hand.",
+        "ru": "Это платье сшито вручную.",
+        "learn": 0
+      },
+      {
+        "eng": "He took him by the hand.",
+        "ru": "Он схватил его за руку.",
+        "learn": 0
+      },
+      {
+        "eng": "He held up his hand.",
+        "ru": "Он поднял руку.",
+        "learn": 0
+      },
+      {
+        "eng": "Defeat seemed hard at hand.",
+        "ru": "Поражение казалось совсем близко.",
+        "learn": 0
+      },
+      {
+        "eng": "He waved his hand hospitably.",
+        "ru": "Он гостеприимно помахал рукой.",
+        "learn": 0
+      },
+      {
+        "eng": "Your hand feels cold.",
+        "ru": "У тебя холодная рука.",
+        "learn": 0
+      },
+      {
+        "eng": "The horse nosed my hand.",
+        "ru": "Лошадь уткнулась носом в мою руку.",
+        "learn": 0
+      },
+      {
+        "eng": "His hand was over his heart.",
+        "ru": "Он прижал руку к сердцу.",
+        "learn": 0
+      },
+      {
+        "eng": "He squeezed my hand.",
+        "ru": "Он крепко пожал мне руку.",
+        "learn": 0
+      },
+      {
+        "eng": "the fine hand of a master",
+        "ru": "искусная рука мастера",
+        "learn": 0
+      },
+      {
+        "eng": "She handed him a surprise.",
+        "ru": "Она поразила его.",
+        "learn": 0
+      },
+      {
+        "eng": "The President has strengthened the hand of the gun lobby.",
+        "ru": "Президент усилил влияние оружейного лобби.",
+        "learn": 0
+      },
+      {
+        "eng": "\"He is about so tall,\" she said, raising her hand about six feet in the air.",
+        "ru": "— Он примерно такого роста, — сказала она, показав рукой высоту около шести футов.",
+        "learn": 0
+      },
+      {
+        "eng": "This matter is too important to be left in the hands of an inexperienced lawyer.",
+        "ru": "Этот вопрос слишком важен, чтобы оставлять его в руках неопытного адвоката.",
+        "learn": 1
+      },
+      {
+        "eng": "He shook my hand warmly.",
+        "ru": "Он сердечно пожал мне руку.",
+        "learn": 0
+      },
+      {
+        "eng": "the firm clasp of her hand",
+        "ru": "её крепкая хватка",
+        "learn": 0
+      },
+      {
+        "eng": "The riots got out of hand.",
+        "ru": "Беспорядки вышли из-под контроля.",
+        "learn": 0
+      },
+      {
+        "eng": "a languid wave of the hand",
+        "ru": "вялый взмах руки",
+        "learn": 0
+      },
+      {
+        "eng": "I gave the toddler my hand.",
+        "ru": "Я подал ребёнку руку.",
+        "learn": 1
+      },
+      {
+        "eng": "the gentle touch of her hand",
+        "ru": "нежное прикосновение её руки",
+        "learn": 0
+      }
+    ]
+  }
 }

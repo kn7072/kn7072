@@ -1,87 +1,174 @@
 {
-    "kind": {
-        "comment": [
-            "kindness",
-            "unkind",
-            "kindly",
-            "mankind"
-        ],
-        "translate": "вид, род, тип, разновидность, сорт, класс, добрый, любезный, хороший, сердечный",
-        "transcription": " |kaɪnd|",
-        "antonyms": [],
-        "mnemonic": [
-            "kind [кайнд] добрый - (Каин д-обрый).",
-            "kind [kaɪnd]\nmind [maɪnd] - мозг, разум., считаться, заботиться,\nпомнить, возражать\nremind [rɪ'maɪnd] - напоминать\n***\nТакой ЛЮБЕЗНЫЙ \"музыкаинд\". (это) kind\nПесни на КЛАССЫ делил \"музыкаинд\". (это) kind\nДобрый. Класс, сорт, разряд, вид.\n***\nХочу напомнить \"remind\",\nчто, если есть разум \"mind\",\nзначит, ты добрый \"kind\"."
-        ],
-        "examples": [
-            "Thank you for your kind offer.",
-            "She's a very kind and generous person.",
-            "I accept your kind offer.",
-            "It's kind of you to say that.",
-            "Life has been very kind to me.",
-            "What kind of work do you do?",
-            "We thanked the priest for his kind words.",
-            "He developed a new kind of apple.",
-            "He's a very kind man.",
-            "It was a kind of magic.",
-            "They've been very kind to me.",
-            "Ms Jarvis is unable to accept your kind invitation.",
-            "Thank you for your kind words.",
-            "That's very kind of you.",
-            "Paul is an OK kind of guy.",
-            "What kind of food do you want?",
-            "She is very kind at heart.",
-            "Each acted after his kind.",
-            "Thank you. You are too kind.",
-            "Encourage each other with kind words.",
-            "She pays him back in kind.",
-            "This kind of work exhausts me.",
-            "What are you, some kind of nut?",
-            "I am an outdoorsy kind of person.",
-            "Apples, oranges, this kind of stuff.",
-            "It's really kind of them to let us use their pool.",
-            "They sell all kinds of things.",
-            "Thank you for your help. You've been most kind (=said when thanking someone very politely).",
-            "That book was kind of freaky.",
-            "Give my kind remembrances to her."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Благодарю вас за любезное предложение.",
-            "Она очень добрый и щедрый человек.",
-            "Я принимаю ваше любезное предложение.",
-            "Вы очень добры, что так говорите. / Спасибо на добром слове. / Приятно от вас это слышать.",
-            "Мне очень повезло в жизни.",
-            "Кем вы работаете? / Какую работу вы выполняете?",
-            "Мы поблагодарили священника за тёплые слова.",
-            "Он вывел новый сорт яблок.",
-            "Он человек очень добрый.",
-            "Это было своего рода волшебство.",
-            "Они были очень добры ко мне.",
-            "Мисс Джарвис не может принять ваше любезное приглашение.",
-            "Спасибо за добрые слова.",
-            "Вы очень любезны.",
-            "Пол — нормальный парень.",
-            "Какую еду ты хочешь?",
-            "У неё очень доброе сердце.",
-            "Каждый действовал по-своему.",
-            "Спасибо. Вы очень добры.",
-            "Воодушевляйте друг друга добрыми словами.",
-            "Она платит ему той же монетой.",
-            "Такая работа меня изматывает.",
-            "Ты что, псих какой-то?",
-            "Я из тех, кто любит бывать на свежем воздухе.",
-            "Апельсины, яблоки, всякое такое.",
-            "С их стороны было очень любезно разрешить нам пользоваться их бассейном.",
-            "Они продают всякую всячину.",
-            "Благодарю за помощь, вы очень добры (так говорят, когда очень вежливо кого-то благодарят).",
-            "Эта книга была какая-то странная.",
-            "Передайте ей мой сердечный привет."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "i(y)_+_Закр_сл_=_[ai]"
-        ]
-    }
+  "kind": {
+    "comment": [
+      "kindness",
+      "unkind",
+      "kindly",
+      "mankind"
+    ],
+    "translate": "вид, род, тип, разновидность, сорт, класс, добрый, любезный, хороший, сердечный",
+    "transcription": " |kaɪnd|",
+    "antonyms": [],
+    "mnemonic": [
+      "kind [кайнд] добрый - (Каин д-обрый).",
+      "kind [kaɪnd]\nmind [maɪnd] - мозг, разум., считаться, заботиться,\nпомнить, возражать\nremind [rɪ'maɪnd] - напоминать\n***\nТакой ЛЮБЕЗНЫЙ \"музыкаинд\". (это) kind\nПесни на КЛАССЫ делил \"музыкаинд\". (это) kind\nДобрый. Класс, сорт, разряд, вид.\n***\nХочу напомнить \"remind\",\nчто, если есть разум \"mind\",\nзначит, ты добрый \"kind\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "i(y)_+_Закр_сл_=_[ai]"
+    ],
+    "examples": [
+      {
+        "eng": "Thank you for your kind offer.",
+        "ru": "Благодарю вас за любезное предложение.",
+        "learn": 1
+      },
+      {
+        "eng": "She's a very kind and generous person.",
+        "ru": "Она очень добрый и щедрый человек.",
+        "learn": 0
+      },
+      {
+        "eng": "I accept your kind offer.",
+        "ru": "Я принимаю ваше любезное предложение.",
+        "learn": 0
+      },
+      {
+        "eng": "It's kind of you to say that.",
+        "ru": "Вы очень добры, что так говорите. / Спасибо на добром слове. / Приятно от вас это слышать.",
+        "learn": 0
+      },
+      {
+        "eng": "Life has been very kind to me.",
+        "ru": "Мне очень повезло в жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "What kind of work do you do?",
+        "ru": "Кем вы работаете? / Какую работу вы выполняете?",
+        "learn": 0
+      },
+      {
+        "eng": "We thanked the priest for his kind words.",
+        "ru": "Мы поблагодарили священника за тёплые слова.",
+        "learn": 0
+      },
+      {
+        "eng": "He developed a new kind of apple.",
+        "ru": "Он вывел новый сорт яблок.",
+        "learn": 1
+      },
+      {
+        "eng": "He's a very kind man.",
+        "ru": "Он человек очень добрый.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a kind of magic.",
+        "ru": "Это было своего рода волшебство.",
+        "learn": 0
+      },
+      {
+        "eng": "They've been very kind to me.",
+        "ru": "Они были очень добры ко мне.",
+        "learn": 0
+      },
+      {
+        "eng": "Ms Jarvis is unable to accept your kind invitation.",
+        "ru": "Мисс Джарвис не может принять ваше любезное приглашение.",
+        "learn": 0
+      },
+      {
+        "eng": "Thank you for your kind words.",
+        "ru": "Спасибо за добрые слова.",
+        "learn": 0
+      },
+      {
+        "eng": "That's very kind of you.",
+        "ru": "Вы очень любезны.",
+        "learn": 0
+      },
+      {
+        "eng": "Paul is an OK kind of guy.",
+        "ru": "Пол — нормальный парень.",
+        "learn": 0
+      },
+      {
+        "eng": "What kind of food do you want?",
+        "ru": "Какую еду ты хочешь?",
+        "learn": 0
+      },
+      {
+        "eng": "She is very kind at heart.",
+        "ru": "У неё очень доброе сердце.",
+        "learn": 0
+      },
+      {
+        "eng": "Each acted after his kind.",
+        "ru": "Каждый действовал по-своему.",
+        "learn": 0
+      },
+      {
+        "eng": "Thank you. You are too kind.",
+        "ru": "Спасибо. Вы очень добры.",
+        "learn": 0
+      },
+      {
+        "eng": "Encourage each other with kind words.",
+        "ru": "Воодушевляйте друг друга добрыми словами.",
+        "learn": 1
+      },
+      {
+        "eng": "She pays him back in kind.",
+        "ru": "Она платит ему той же монетой.",
+        "learn": 0
+      },
+      {
+        "eng": "This kind of work exhausts me.",
+        "ru": "Такая работа меня изматывает.",
+        "learn": 0
+      },
+      {
+        "eng": "What are you, some kind of nut?",
+        "ru": "Ты что, псих какой-то?",
+        "learn": 0
+      },
+      {
+        "eng": "I am an outdoorsy kind of person.",
+        "ru": "Я из тех, кто любит бывать на свежем воздухе.",
+        "learn": 0
+      },
+      {
+        "eng": "Apples, oranges, this kind of stuff.",
+        "ru": "Апельсины, яблоки, всякое такое.",
+        "learn": 0
+      },
+      {
+        "eng": "It's really kind of them to let us use their pool.",
+        "ru": "С их стороны было очень любезно разрешить нам пользоваться их бассейном.",
+        "learn": 0
+      },
+      {
+        "eng": "They sell all kinds of things.",
+        "ru": "Они продают всякую всячину.",
+        "learn": 0
+      },
+      {
+        "eng": "Thank you for your help. You've been most kind (=said when thanking someone very politely).",
+        "ru": "Благодарю за помощь, вы очень добры (так говорят, когда очень вежливо кого-то благодарят).",
+        "learn": 0
+      },
+      {
+        "eng": "That book was kind of freaky.",
+        "ru": "Эта книга была какая-то странная.",
+        "learn": 0
+      },
+      {
+        "eng": "Give my kind remembrances to her.",
+        "ru": "Передайте ей мой сердечный привет.",
+        "learn": 0
+      }
+    ]
+  }
 }

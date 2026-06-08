@@ -1,84 +1,170 @@
 {
-    "familiar": {
-        "comment": [
-            "family",
-            "unfamiliar"
-        ],
-        "translate": " привычный, хорошо знакомый, близкий, близкий друг",
-        "transcription": "  |fəˈmɪliər|",
-        "antonyms": [],
-        "mnemonic": [
-            "familiar [фэми'лиа] знакомый - Даже со знакомыми (фамилиа-рно) не веди себя.",
-            "familiar [fə'mɪlɪə]\n***\nЗНАКОМА мне твоя фамилия. (это) familiar\nПривычный, обычный."
-        ],
-        "examples": [
-            "It's nice to see so many familiar faces!",
-            "Her face seemed familiar to me.",
-            "I'm not familiar with her poetry.",
-            "She is familiar with basic concepts of psychology.",
-            "I must have seen you somewhere, your face is very familiar to me.",
-            "He looked vaguely familiar to her.",
-            "His voice had a strangely familiar ring.",
-            "Have we met? You look familiar.",
-            "It was a relief to be back in familiar surroundings.",
-            "His eyes lighted on a familiar face in the crowd.",
-            "The novel is written in an easy, familiar style.",
-            "He was familiar with those roads.",
-            "Are you familiar with this type of machine?",
-            "I thought he was being a bit familiar with my wife.",
-            "I should be knowing to and familiar with the whole circumstances.",
-            "The voice on the phone sounded familiar.",
-            "I enjoyed seeing all the old familiar faces.",
-            "The signs of drug addiction are familiar to most doctors.",
-            "I'm only familiar with the subject at an elementary level.",
-            "stories that begin with the familiar line \"once upon a time there was a beautiful maiden\"",
-            "He was a familiar sight on the television.",
-            "His face is familiar but I can't remember his name.",
-            "Beggars on the street are becoming a familiar sight.",
-            "By now, Usha and I were on familiar terms.",
-            "They felt the waiter was being overly familiar.",
-            "She has become a familiar figure in the world of politics.",
-            "The essay covers familiar ground.",
-            "She spoke in a familiar way about her past.",
-            "There was something vaguely familiar about him.",
-            "an essay written in a familiar style"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Приятно видеть знакомые лица!",
-            "Её лицо показалось мне знакомым.",
-            "Я не знаком с её поэзией.",
-            "Она знакома с основными принципами психологии.",
-            "Должно быть, я вас где-то видел: ваше лицо мне очень знакомо.",
-            "Он казался ей смутно знакомым.",
-            "Его голос имел поразительно знакомое звучание. / Его голос был поразительно знакомым.",
-            "Мы раньше не встречались? Я как будто вас знаю. / У вас знакомое лицо.",
-            "Было облегчением вернуться в привычную обстановку.",
-            "Неожиданно он увидел в толпе знакомое лицо.",
-            "Роман написан в простой, свойской манере.",
-            "Он хорошо знал те дороги.",
-            "Вы знакомы с такого рода аппаратами?",
-            "Я подумал, что он слишком фамильярно разговаривает с моей женой.",
-            "Я должен быть хорошо осведомлён и находиться в курсе всех обстоятельств.",
-            "Голос в трубке показался знакомым.",
-            "Мне было очень приятно увидеть все старые знакомые лица.",
-            "Признаки наркомании знакомы большинству врачей.",
-            "Я знаком с данной темой лишь на элементарном уровне.",
-            "истории, которые начинаются с привычных строк \"жила-была когда-то девица-красавица\"",
-            "Он примелькался на телевидении.",
-            "Его лицо мне знакомо, но я не могу вспомнить его имя.",
-            "Нищие на улице становятся привычным зрелищем.",
-            "К этому времени мы с Ушей были в приятельских отношениях.",
-            "Им показалось, что официант чересчур фамильярен.",
-            "Она стала известным в мире политики человеком.",
-            "Сочинение охватывает хорошо знакомую тему.",
-            "Она по-простецки заговорила о своём прошлом.",
-            "В нём было что-то отдалённо / смутно знакомое.",
-            "очерк, написанный в привычном стиле"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "familiar": {
+    "comment": [
+      "family",
+      "unfamiliar"
+    ],
+    "translate": " привычный, хорошо знакомый, близкий, близкий друг",
+    "transcription": "  |fəˈmɪliər|",
+    "antonyms": [],
+    "mnemonic": [
+      "familiar [фэми'лиа] знакомый - Даже со знакомыми (фамилиа-рно) не веди себя.",
+      "familiar [fə'mɪlɪə]\n***\nЗНАКОМА мне твоя фамилия. (это) familiar\nПривычный, обычный."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "It's nice to see so many familiar faces!",
+        "ru": "Приятно видеть знакомые лица!",
+        "learn": 1
+      },
+      {
+        "eng": "Her face seemed familiar to me.",
+        "ru": "Её лицо показалось мне знакомым.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm not familiar with her poetry.",
+        "ru": "Я не знаком с её поэзией.",
+        "learn": 0
+      },
+      {
+        "eng": "She is familiar with basic concepts of psychology.",
+        "ru": "Она знакома с основными принципами психологии.",
+        "learn": 1
+      },
+      {
+        "eng": "I must have seen you somewhere, your face is very familiar to me.",
+        "ru": "Должно быть, я вас где-то видел: ваше лицо мне очень знакомо.",
+        "learn": 1
+      },
+      {
+        "eng": "He looked vaguely familiar to her.",
+        "ru": "Он казался ей смутно знакомым.",
+        "learn": 0
+      },
+      {
+        "eng": "His voice had a strangely familiar ring.",
+        "ru": "Его голос имел поразительно знакомое звучание. / Его голос был поразительно знакомым.",
+        "learn": 1
+      },
+      {
+        "eng": "Have we met? You look familiar.",
+        "ru": "Мы раньше не встречались? Я как будто вас знаю. / У вас знакомое лицо.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a relief to be back in familiar surroundings.",
+        "ru": "Было облегчением вернуться в привычную обстановку.",
+        "learn": 1
+      },
+      {
+        "eng": "His eyes lighted on a familiar face in the crowd.",
+        "ru": "Неожиданно он увидел в толпе знакомое лицо.",
+        "learn": 0
+      },
+      {
+        "eng": "The novel is written in an easy, familiar style.",
+        "ru": "Роман написан в простой, свойской манере.",
+        "learn": 0
+      },
+      {
+        "eng": "He was familiar with those roads.",
+        "ru": "Он хорошо знал те дороги.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you familiar with this type of machine?",
+        "ru": "Вы знакомы с такого рода аппаратами?",
+        "learn": 0
+      },
+      {
+        "eng": "I thought he was being a bit familiar with my wife.",
+        "ru": "Я подумал, что он слишком фамильярно разговаривает с моей женой.",
+        "learn": 0
+      },
+      {
+        "eng": "I should be knowing to and familiar with the whole circumstances.",
+        "ru": "Я должен быть хорошо осведомлён и находиться в курсе всех обстоятельств.",
+        "learn": 0
+      },
+      {
+        "eng": "The voice on the phone sounded familiar.",
+        "ru": "Голос в трубке показался знакомым.",
+        "learn": 0
+      },
+      {
+        "eng": "I enjoyed seeing all the old familiar faces.",
+        "ru": "Мне было очень приятно увидеть все старые знакомые лица.",
+        "learn": 0
+      },
+      {
+        "eng": "The signs of drug addiction are familiar to most doctors.",
+        "ru": "Признаки наркомании знакомы большинству врачей.",
+        "learn": 1
+      },
+      {
+        "eng": "I'm only familiar with the subject at an elementary level.",
+        "ru": "Я знаком с данной темой лишь на элементарном уровне.",
+        "learn": 0
+      },
+      {
+        "eng": "stories that begin with the familiar line \"once upon a time there was a beautiful maiden\"",
+        "ru": "истории, которые начинаются с привычных строк \"жила-была когда-то девица-красавица\"",
+        "learn": 0
+      },
+      {
+        "eng": "He was a familiar sight on the television.",
+        "ru": "Он примелькался на телевидении.",
+        "learn": 0
+      },
+      {
+        "eng": "His face is familiar but I can't remember his name.",
+        "ru": "Его лицо мне знакомо, но я не могу вспомнить его имя.",
+        "learn": 0
+      },
+      {
+        "eng": "Beggars on the street are becoming a familiar sight.",
+        "ru": "Нищие на улице становятся привычным зрелищем.",
+        "learn": 0
+      },
+      {
+        "eng": "By now, Usha and I were on familiar terms.",
+        "ru": "К этому времени мы с Ушей были в приятельских отношениях.",
+        "learn": 0
+      },
+      {
+        "eng": "They felt the waiter was being overly familiar.",
+        "ru": "Им показалось, что официант чересчур фамильярен.",
+        "learn": 0
+      },
+      {
+        "eng": "She has become a familiar figure in the world of politics.",
+        "ru": "Она стала известным в мире политики человеком.",
+        "learn": 0
+      },
+      {
+        "eng": "The essay covers familiar ground.",
+        "ru": "Сочинение охватывает хорошо знакомую тему.",
+        "learn": 0
+      },
+      {
+        "eng": "She spoke in a familiar way about her past.",
+        "ru": "Она по-простецки заговорила о своём прошлом.",
+        "learn": 0
+      },
+      {
+        "eng": "There was something vaguely familiar about him.",
+        "ru": "В нём было что-то отдалённо / смутно знакомое.",
+        "learn": 0
+      },
+      {
+        "eng": "an essay written in a familiar style",
+        "ru": "очерк, написанный в привычном стиле",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,83 +1,169 @@
 {
-    "reading": {
-        "comment": [
-            "read",
-            "ready",
-            "readily",
-            "reader"
-        ],
-        "translate": "чтение, считывание, понимание, знания, начитанность, толкование, лекция",
-        "transcription": " |ˈriːdɪŋ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I need glasses for reading.",
-            "She loves reading.",
-            "a book that is must reading",
-            "He likes reading the newspaper.",
-            "He does so enjoy reading your letters.",
-            "He turned the page and went on reading.",
-            "He wore glasses for reading.",
-            "Don't interrupt me when I'm reading",
-            "She gave him her reading of the matter.",
-            "The family attended the reading of her will.",
-            "Reading and writing are two different skills.",
-            "He needs help in reading.",
-            "Reading makes my head whizz.",
-            "a cozy nook perfect for reading",
-            "This book is not worth reading.",
-            "Are you any good at map reading?",
-            "She is reading for the bar exam.",
-            "Reading was her favourite pastime.",
-            "She's been reading my private mail.",
-            "I spent my summer reading fantasies.",
-            "Your report made fascinating reading.",
-            "He is reading an ancient Greek drama.",
-            "I've always had a liking for reading.",
-            "You will gain by reading these books.",
-            "Reading is an interpretative process.",
-            "I'm reading this novel for amusement.",
-            "I am reading a good book on economics.",
-            "Her eye problem restricts her reading.",
-            "She enjoys reading about remote lands.",
-            "He counts reading among his interests."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Для чтения мне нужны очки.",
-            "Она очень любит читать.",
-            "книга, которую необходимо прочитать (всем)",
-            "Он любит читать эту газету.",
-            "Он так любит читать твои письма!",
-            "Он перевернул страницу и стал читать дальше.",
-            "Для чтения он надевал очки.",
-            "Не перебивай меня, когда я читаю.",
-            "Она изложила ему своё видение проблемы.",
-            "При чтении её завещания присутствовали члены семьи.",
-            "Чтение и письмо — это два различных навыка.",
-            "Он нуждается в помощи по чтению.",
-            "От чтения у меня голова кружится.",
-            "уютный уголок, идеальный для чтения",
-            "Эту книгу не стоит читать.",
-            "Вы хоть немного умеете читать карту?",
-            "Она готовится к поступлению в коллегию адвокатов.",
-            "Чтение было её любимым занятием.",
-            "Она уже давненько читает мою личную почту.",
-            "Я провёл лето, читая фантастику.",
-            "Читать ваш доклад было очень увлекательно.",
-            "Он читает древнегреческую драму.",
-            "Я всегда испытывал склонность к чтению.",
-            "Тебе будет полезно прочитать эти книги.",
-            "Чтение является процессом толкования.",
-            "Я читаю этот роман ради забавы.",
-            "Я читаю хорошую книгу по экономике.",
-            "Из-за проблем со зрением она не может много читать.",
-            "Она любит читать про дальние страны",
-            "Он причисляет к своим интересам чтение."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "reading": {
+    "comment": [
+      "read",
+      "ready",
+      "readily",
+      "reader"
+    ],
+    "translate": "чтение, считывание, понимание, знания, начитанность, толкование, лекция",
+    "transcription": " |ˈriːdɪŋ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I need glasses for reading.",
+        "ru": "Для чтения мне нужны очки.",
+        "learn": 0
+      },
+      {
+        "eng": "She loves reading.",
+        "ru": "Она очень любит читать.",
+        "learn": 0
+      },
+      {
+        "eng": "a book that is must reading",
+        "ru": "книга, которую необходимо прочитать (всем)",
+        "learn": 0
+      },
+      {
+        "eng": "He likes reading the newspaper.",
+        "ru": "Он любит читать эту газету.",
+        "learn": 0
+      },
+      {
+        "eng": "He does so enjoy reading your letters.",
+        "ru": "Он так любит читать твои письма!",
+        "learn": 0
+      },
+      {
+        "eng": "He turned the page and went on reading.",
+        "ru": "Он перевернул страницу и стал читать дальше.",
+        "learn": 0
+      },
+      {
+        "eng": "He wore glasses for reading.",
+        "ru": "Для чтения он надевал очки.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't interrupt me when I'm reading",
+        "ru": "Не перебивай меня, когда я читаю.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave him her reading of the matter.",
+        "ru": "Она изложила ему своё видение проблемы.",
+        "learn": 0
+      },
+      {
+        "eng": "The family attended the reading of her will.",
+        "ru": "При чтении её завещания присутствовали члены семьи.",
+        "learn": 0
+      },
+      {
+        "eng": "Reading and writing are two different skills.",
+        "ru": "Чтение и письмо — это два различных навыка.",
+        "learn": 0
+      },
+      {
+        "eng": "He needs help in reading.",
+        "ru": "Он нуждается в помощи по чтению.",
+        "learn": 0
+      },
+      {
+        "eng": "Reading makes my head whizz.",
+        "ru": "От чтения у меня голова кружится.",
+        "learn": 0
+      },
+      {
+        "eng": "a cozy nook perfect for reading",
+        "ru": "уютный уголок, идеальный для чтения",
+        "learn": 0
+      },
+      {
+        "eng": "This book is not worth reading.",
+        "ru": "Эту книгу не стоит читать.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you any good at map reading?",
+        "ru": "Вы хоть немного умеете читать карту?",
+        "learn": 0
+      },
+      {
+        "eng": "She is reading for the bar exam.",
+        "ru": "Она готовится к поступлению в коллегию адвокатов.",
+        "learn": 0
+      },
+      {
+        "eng": "Reading was her favourite pastime.",
+        "ru": "Чтение было её любимым занятием.",
+        "learn": 0
+      },
+      {
+        "eng": "She's been reading my private mail.",
+        "ru": "Она уже давненько читает мою личную почту.",
+        "learn": 0
+      },
+      {
+        "eng": "I spent my summer reading fantasies.",
+        "ru": "Я провёл лето, читая фантастику.",
+        "learn": 0
+      },
+      {
+        "eng": "Your report made fascinating reading.",
+        "ru": "Читать ваш доклад было очень увлекательно.",
+        "learn": 0
+      },
+      {
+        "eng": "He is reading an ancient Greek drama.",
+        "ru": "Он читает древнегреческую драму.",
+        "learn": 1
+      },
+      {
+        "eng": "I've always had a liking for reading.",
+        "ru": "Я всегда испытывал склонность к чтению.",
+        "learn": 0
+      },
+      {
+        "eng": "You will gain by reading these books.",
+        "ru": "Тебе будет полезно прочитать эти книги.",
+        "learn": 0
+      },
+      {
+        "eng": "Reading is an interpretative process.",
+        "ru": "Чтение является процессом толкования.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm reading this novel for amusement.",
+        "ru": "Я читаю этот роман ради забавы.",
+        "learn": 1
+      },
+      {
+        "eng": "I am reading a good book on economics.",
+        "ru": "Я читаю хорошую книгу по экономике.",
+        "learn": 1
+      },
+      {
+        "eng": "Her eye problem restricts her reading.",
+        "ru": "Из-за проблем со зрением она не может много читать.",
+        "learn": 0
+      },
+      {
+        "eng": "She enjoys reading about remote lands.",
+        "ru": "Она любит читать про дальние страны",
+        "learn": 0
+      },
+      {
+        "eng": "He counts reading among his interests.",
+        "ru": "Он причисляет к своим интересам чтение.",
+        "learn": 0
+      }
+    ]
+  }
 }

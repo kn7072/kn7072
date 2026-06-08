@@ -1,84 +1,173 @@
 {
-    "speak": {
-        "comment": [
-            "speaker",
-            "spoken"
-        ],
-        "translate": "говорить, выступать, разговаривать, высказываться, высказывать, изъясняться",
-        "transcription": " |spiːk|",
-        "antonyms": [],
-        "mnemonic": [
-            "speak [спик] разговаривать - От слова (спик-ер), т.е. говорун.",
-            "speak [spi: k]\n***\nТы не РАЗГОВАРИВАЙ, а спи (к). (это) speak"
-        ],
-        "examples": [
-            "Let him speak.",
-            "She spoke her mind.",
-            "Please speak clearly.",
-            "I know whereof I speak.",
-            "English is spoken here.",
-            "I do not speak French.",
-            "The baby is learning to speak.",
-            "Speak for yourself!",
-            "Do you speak English?",
-            "She and I spoke this morning.",
-            "Speak not so grossly.",
-            "You speak too broad!",
-            "Could you speak up, please?",
-            "I spoke to her last Wednesday.",
-            "I'm fixing to speak to her.",
-            "I've no money to speak of.",
-            "He did not deign to speak.",
-            "I'll speak to you at break.",
-            "Hello — may I speak to Anne?",
-            "I speak for all my colleagues.",
-            "He is well spoken of.",
-            "They speak the same tongue.",
-            "Is this dance spoken for?",
-            "She could scarcely speak.",
-            "He learned to speak Czech.",
-            "He asked to speak.",
-            "Don't speak ill of the dead.",
-            "You can speak frankly to us.",
-            "She readied herself to speak.",
-            "It's wrong to speak ill of the dead."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Дай ему сказать. / Пусть говорит.",
-            "Она высказала своё мнение.",
-            "Пожалуйста, говори яснее.",
-            "Я знаю, о чём говорю.",
-            "Здесь говорят по-английски.",
-            "Я не говорю по-французски.",
-            "Ребёнок учится говорить.",
-            "Говорите за себя!",
-            "Вы говорите по-английски?",
-            "Утром мы с ней поговорили.",
-            "Не говори так грубо.",
-            "Ты заговариваешься! / Тебя заносит! / Говори, да не заговаривайся!",
-            "Вы не могли бы говорить погромче?",
-            "Я говорил с ней в прошлую среду.",
-            "Я намерен поговорить с ней.",
-            "У меня почти нет денег.",
-            "Он не соизволил заговорить.",
-            "Я поговорю с тобой в перерыве.",
-            "Алло, можно Энн к телефону?",
-            "Я говорю от имени всех моих коллег.",
-            "О нём хорошо отзываются.",
-            "Они говорят на одном языке.",
-            "Этот танец уже кому-нибудь обещан?",
-            "Она едва могла говорить.",
-            "Он научился говорить по-чешски.",
-            "Он попросил слова.",
-            "Не говори плохо об умерших.",
-            "С нами можно говорить откровенно.",
-            "Она приготовилась выступать.",
-            "Говорить плохо о мёртвых — неправильно."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "speak": {
+    "comment": [
+      "spoke |spoʊk|,                                          spoken |ˈspoʊkən|",
+      "speaker",
+      "spoken"
+    ],
+    "translate": "говорить, выступать, разговаривать, высказываться, высказывать, изъясняться",
+    "transcription": " |spiːk|",
+    "antonyms": [],
+    "mnemonic": [
+      "speak [спик] разговаривать - От слова (спик-ер), т.е. говорун.",
+      "speak [spi: k]\n***\nТы не РАЗГОВАРИВАЙ, а спи (к). (это) speak"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Let him speak.",
+        "ru": "Дай ему сказать. / Пусть говорит.",
+        "learn": 0
+      },
+      {
+        "eng": "She spoke her mind.",
+        "ru": "Она высказала своё мнение.",
+        "learn": 0
+      },
+      {
+        "eng": "Please speak clearly.",
+        "ru": "Пожалуйста, говори яснее.",
+        "learn": 0
+      },
+      {
+        "eng": "I know whereof I speak.",
+        "ru": "Я знаю, о чём говорю.",
+        "learn": 0
+      },
+      {
+        "eng": "English is spoken here.",
+        "ru": "Здесь говорят по-английски.",
+        "learn": 1
+      },
+      {
+        "eng": "I do not speak French.",
+        "ru": "Я не говорю по-французски.",
+        "learn": 0
+      },
+      {
+        "eng": "The baby is learning to speak.",
+        "ru": "Ребёнок учится говорить.",
+        "learn": 0
+      },
+      {
+        "eng": "Speak for yourself!",
+        "ru": "Говорите за себя!",
+        "learn": 0
+      },
+      {
+        "eng": "Do you speak English?",
+        "ru": "Вы говорите по-английски?",
+        "learn": 1
+      },
+      {
+        "eng": "She and I spoke this morning.",
+        "ru": "Утром мы с ней поговорили.",
+        "learn": 0
+      },
+      {
+        "eng": "Speak not so grossly.",
+        "ru": "Не говори так грубо.",
+        "learn": 0
+      },
+      {
+        "eng": "You speak too broad!",
+        "ru": "Ты заговариваешься! / Тебя заносит! / Говори, да не заговаривайся!",
+        "learn": 1
+      },
+      {
+        "eng": "Could you speak up, please?",
+        "ru": "Вы не могли бы говорить погромче?",
+        "learn": 0
+      },
+      {
+        "eng": "I spoke to her last Wednesday.",
+        "ru": "Я говорил с ней в прошлую среду.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm fixing to speak to her.",
+        "ru": "Я намерен поговорить с ней.",
+        "learn": 0
+      },
+      {
+        "eng": "I've no money to speak of.",
+        "ru": "У меня почти нет денег.",
+        "learn": 0
+      },
+      {
+        "eng": "He did not deign to speak.",
+        "ru": "Он не соизволил заговорить.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll speak to you at break.",
+        "ru": "Я поговорю с тобой в перерыве.",
+        "learn": 0
+      },
+      {
+        "eng": "Hello — may I speak to Anne?",
+        "ru": "Алло, можно Энн к телефону?",
+        "learn": 0
+      },
+      {
+        "eng": "I speak for all my colleagues.",
+        "ru": "Я говорю от имени всех моих коллег.",
+        "learn": 0
+      },
+      {
+        "eng": "He is well spoken of.",
+        "ru": "О нём хорошо отзываются.",
+        "learn": 0
+      },
+      {
+        "eng": "They speak the same tongue.",
+        "ru": "Они говорят на одном языке.",
+        "learn": 1
+      },
+      {
+        "eng": "Is this dance spoken for?",
+        "ru": "Этот танец уже кому-нибудь обещан?",
+        "learn": 0
+      },
+      {
+        "eng": "She could scarcely speak.",
+        "ru": "Она едва могла говорить.",
+        "learn": 0
+      },
+      {
+        "eng": "He learned to speak Czech.",
+        "ru": "Он научился говорить по-чешски.",
+        "learn": 0
+      },
+      {
+        "eng": "He asked to speak.",
+        "ru": "Он попросил слова.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't speak ill of the dead.",
+        "ru": "Не говори плохо об умерших.",
+        "learn": 0
+      },
+      {
+        "eng": "You can speak frankly to us.",
+        "ru": "С нами можно говорить откровенно.",
+        "learn": 1
+      },
+      {
+        "eng": "She readied herself to speak.",
+        "ru": "Она приготовилась выступать.",
+        "learn": 0
+      },
+      {
+        "eng": "It's wrong to speak ill of the dead.",
+        "ru": "Говорить плохо о мёртвых — неправильно.",
+        "learn": 0
+      }
+    ]
+  }
 }

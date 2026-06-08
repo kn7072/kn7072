@@ -1,84 +1,170 @@
 {
-    "treaty": {
-        "comment": [
-            "treatment",
-            "treat",
-            "retreat"
-        ],
-        "translate": "договор, переговоры, договорный",
-        "transcription": " |ˈtriːti|",
-        "antonyms": [],
-        "mnemonic": [
-            "treaty [тритъи] договор (международный) - (Три ты) договора с ними заключи, а не четыре."
-        ],
-        "examples": [
-            "The treaty carries the force of law.",
-            "A treaty united the independent nations.",
-            "There was speculation that a treaty would be signed.",
-            "The senate confirms all treaties.",
-            "They signed a treaty to settle all border disputes by arbitration.",
-            "The treaty is a pillar of arms control in the nuclear age.",
-            "Strategic Arms Reduction Treaty",
-            "the conclusion of the peace treaty",
-            "'NATO' is an initialism for North Atlantic Treaty Organization.",
-            "His vote blocked the treaty.",
-            "The meeting is seen as a decisive step toward a peace treaty.",
-            "The treaty was imposed by force, and therein lay the cause of its ineffectiveness.",
-            "The President executed the treaty.",
-            "The treaty will come into force on the stroke of midnight tonight.",
-            "The treaty ran to 248 pages.",
-            "The terms of the treaty were generous.",
-            "The two countries are drafting a treaty.",
-            "Is not this tantamount to a disavowal of the first treaty?",
-            "Finally, the two sides compromised and a treaty was signed.",
-            "We refuse to sign any treaty that is against our national interests.",
-            "The treaty restored an uneasy peace to the country.",
-            "American forces will remain to verify compliance with the treaty.",
-            "The North Atlantic Treaty Organization is known by the acronym “NATO.”",
-            "This treaty marks an important stage in our two countries' relationship.",
-            "He will make a treaty according to the appetite and pleasure of his Highness.",
-            "an initiatory step toward a treaty",
-            "They refused to recognize the treaty.",
-            "The treaty forbids the country to rearm.",
-            "The treaty neutralized the small republic.",
-            "They discussed the working draft of a peace treaty."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Данный договор имеет силу закона.",
-            "Независимые государства объединил договор.",
-            "Ходили слухи о том, что будет подписан договор.",
-            "Ратификация любых договоров - прерогатива Сената.",
-            "Они подписали договор о решении всех пограничных конфликтов через арбитраж.",
-            "Данные соглашения представляют собой ключевой момент в вопросах сдерживания вооружений в ядерную эпоху.",
-            "Договор о сокращении стратегических вооружений",
-            "заключение мирного договора",
-            "\"НАТО\" — это аббревиатура, которая в переводе с английского расшифровывается как \"Организация Североатлантического договора\".",
-            "Его голос воспрепятствовал заключению договора.",
-            "Эта встреча рассматривается как решительный шаг в направлении мирного договора.",
-            "Договор был навязан силой, в этом и заключается причина его неэффективности.",
-            "Президент выполнил договор.",
-            "Договор вступит в силу сегодня в полночь.",
-            "Объём договора достиг двухсот сорока восьми страниц.",
-            "Условия договора были щедрыми.",
-            "Две страны разрабатывают проект соглашения.",
-            "Разве это не равносильно отказу от первого договора?",
-            "Наконец, обе стороны пошли на компромисс, и договор был подписан.",
-            "Мы отказываемся подписывать какие-либо договора, которые противоречат нашим национальным интересам.",
-            "Этот договор восстановил неустойчивый мир в данной стране.",
-            "Американские войска останутся для проверки соблюдения договора.",
-            "Организация Североатлантического договора известна под аббревиатурой “НАТО”.",
-            "Этот договор знаменует собой важный этап в отношениях наших двух стран.",
-            "Он составит мирный договор в соответствии с желанием Его Высочества.",
-            "первый шаг в направлении договора",
-            "Они отказались признавать договор.",
-            "Договор запрещает перевооружение страны.",
-            "Договор сделал эту маленькую республику нейтральной.",
-            "Они рассмотрели рабочий проект мирного договора."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "treaty": {
+    "comment": [
+      "treatment",
+      "treat",
+      "retreat"
+    ],
+    "translate": "договор, переговоры, договорный",
+    "transcription": " |ˈtriːti|",
+    "antonyms": [],
+    "mnemonic": [
+      "treaty [тритъи] договор (международный) - (Три ты) договора с ними заключи, а не четыре."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The treaty carries the force of law.",
+        "ru": "Данный договор имеет силу закона.",
+        "learn": 0
+      },
+      {
+        "eng": "A treaty united the independent nations.",
+        "ru": "Независимые государства объединил договор.",
+        "learn": 1
+      },
+      {
+        "eng": "There was speculation that a treaty would be signed.",
+        "ru": "Ходили слухи о том, что будет подписан договор.",
+        "learn": 1
+      },
+      {
+        "eng": "The senate confirms all treaties.",
+        "ru": "Ратификация любых договоров - прерогатива Сената.",
+        "learn": 0
+      },
+      {
+        "eng": "They signed a treaty to settle all border disputes by arbitration.",
+        "ru": "Они подписали договор о решении всех пограничных конфликтов через арбитраж.",
+        "learn": 0
+      },
+      {
+        "eng": "The treaty is a pillar of arms control in the nuclear age.",
+        "ru": "Данные соглашения представляют собой ключевой момент в вопросах сдерживания вооружений в ядерную эпоху.",
+        "learn": 0
+      },
+      {
+        "eng": "Strategic Arms Reduction Treaty",
+        "ru": "Договор о сокращении стратегических вооружений",
+        "learn": 0
+      },
+      {
+        "eng": "the conclusion of the peace treaty",
+        "ru": "заключение мирного договора",
+        "learn": 1
+      },
+      {
+        "eng": "'NATO' is an initialism for North Atlantic Treaty Organization.",
+        "ru": "\"НАТО\" — это аббревиатура, которая в переводе с английского расшифровывается как \"Организация Североатлантического договора\".",
+        "learn": 0
+      },
+      {
+        "eng": "His vote blocked the treaty.",
+        "ru": "Его голос воспрепятствовал заключению договора.",
+        "learn": 0
+      },
+      {
+        "eng": "The meeting is seen as a decisive step toward a peace treaty.",
+        "ru": "Эта встреча рассматривается как решительный шаг в направлении мирного договора.",
+        "learn": 0
+      },
+      {
+        "eng": "The treaty was imposed by force, and therein lay the cause of its ineffectiveness.",
+        "ru": "Договор был навязан силой, в этом и заключается причина его неэффективности.",
+        "learn": 0
+      },
+      {
+        "eng": "The President executed the treaty.",
+        "ru": "Президент выполнил договор.",
+        "learn": 0
+      },
+      {
+        "eng": "The treaty will come into force on the stroke of midnight tonight.",
+        "ru": "Договор вступит в силу сегодня в полночь.",
+        "learn": 0
+      },
+      {
+        "eng": "The treaty ran to 248 pages.",
+        "ru": "Объём договора достиг двухсот сорока восьми страниц.",
+        "learn": 0
+      },
+      {
+        "eng": "The terms of the treaty were generous.",
+        "ru": "Условия договора были щедрыми.",
+        "learn": 0
+      },
+      {
+        "eng": "The two countries are drafting a treaty.",
+        "ru": "Две страны разрабатывают проект соглашения.",
+        "learn": 0
+      },
+      {
+        "eng": "Is not this tantamount to a disavowal of the first treaty?",
+        "ru": "Разве это не равносильно отказу от первого договора?",
+        "learn": 0
+      },
+      {
+        "eng": "Finally, the two sides compromised and a treaty was signed.",
+        "ru": "Наконец, обе стороны пошли на компромисс, и договор был подписан.",
+        "learn": 0
+      },
+      {
+        "eng": "We refuse to sign any treaty that is against our national interests.",
+        "ru": "Мы отказываемся подписывать какие-либо договора, которые противоречат нашим национальным интересам.",
+        "learn": 0
+      },
+      {
+        "eng": "The treaty restored an uneasy peace to the country.",
+        "ru": "Этот договор восстановил неустойчивый мир в данной стране.",
+        "learn": 1
+      },
+      {
+        "eng": "American forces will remain to verify compliance with the treaty.",
+        "ru": "Американские войска останутся для проверки соблюдения договора.",
+        "learn": 0
+      },
+      {
+        "eng": "The North Atlantic Treaty Organization is known by the acronym “NATO.”",
+        "ru": "Организация Североатлантического договора известна под аббревиатурой “НАТО”.",
+        "learn": 0
+      },
+      {
+        "eng": "This treaty marks an important stage in our two countries' relationship.",
+        "ru": "Этот договор знаменует собой важный этап в отношениях наших двух стран.",
+        "learn": 0
+      },
+      {
+        "eng": "He will make a treaty according to the appetite and pleasure of his Highness.",
+        "ru": "Он составит мирный договор в соответствии с желанием Его Высочества.",
+        "learn": 0
+      },
+      {
+        "eng": "an initiatory step toward a treaty",
+        "ru": "первый шаг в направлении договора",
+        "learn": 0
+      },
+      {
+        "eng": "They refused to recognize the treaty.",
+        "ru": "Они отказались признавать договор.",
+        "learn": 0
+      },
+      {
+        "eng": "The treaty forbids the country to rearm.",
+        "ru": "Договор запрещает перевооружение страны.",
+        "learn": 0
+      },
+      {
+        "eng": "The treaty neutralized the small republic.",
+        "ru": "Договор сделал эту маленькую республику нейтральной.",
+        "learn": 0
+      },
+      {
+        "eng": "They discussed the working draft of a peace treaty.",
+        "ru": "Они рассмотрели рабочий проект мирного договора.",
+        "learn": 0
+      }
+    ]
+  }
 }

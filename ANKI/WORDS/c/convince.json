@@ -1,77 +1,146 @@
 {
-    "convince": {
-        "comment": [
-            "convincing",
-            "convinced",
-            "conviction",
-            "convict"
-        ],
-        "translate": "убеждать, уверять, доводить до сознания",
-        "transcription": " |kənˈvɪns|",
-        "antonyms": [],
-        "mnemonic": [
-            "convince [кэнви'нс] убеждать, уверять - Женевская (конвенц-ия) убедила нас быть хорошими.",
-            "convince [kən'vɪns]\n***\nЯ УБЕДИЛ, что полон балкон|вин (с). (это) convince\nЯ УВЕРЯЮ, что полон балкон|вин (с). (это) convince"
-        ],
-        "examples": [
-            "I'm convinced (that) she's lying.",
-            "It's useless to try to convince her.",
-            "He convinced me that the story was true.",
-            "I was unable to convince her to stay.",
-            "They convinced us of their innocence.",
-            "I've been trying to convince him to come with me.",
-            "To declaim is easier than to convince.",
-            "We convinced them to go along with our scheme.",
-            "If you can convince a child you love him, you can teach him anything.",
-            "I couldn't convince him no matter how hard I tried.",
-            "I managed to convince myself that I was doing the right thing.",
-            "The money she dangled in front of him wasn't enough to convince him to sell.",
-            "His argument did not convince his opponents.",
-            "Both candidates are working hard to convince voters to switch allegiances.",
-            "You won't convince them, and, in fact, I don't agree either!",
-            "He managed to convince the jury of his innocence.",
-            "He had finally convinced several customers of the advantages of his product.",
-            "He tried to use argumentation to convince his opponents, rather than force.",
-            "The loan shark sent a couple of gorillas to “convince” him to pay up.",
-            "He has to convince a judge that he wasn't going to abscond with the money.",
-            "The officials were eager to convince us of the safety of the nuclear reactors.",
-            "Baker had to convince jurors that his client had been nowhere near the scene of the murder.",
-            "She has labored in vain to convince them to accept her proposal.",
-            "The group's failed efforts demonstrate how difficult it is to convince people to change their habits."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я уверен, что она лжёт.",
-            "Бесполезно пытаться её убедить.",
-            "Он убедил меня, что история была настоящей / правдивой.",
-            "Я не смог убедить ее остаться.",
-            "Они убедили нас в своей невиновности.",
-            "Я пытался убедить его пойти со мной.",
-            "Разглагольствовать намного легче, чем убеждать.",
-            "Мы убедили их следовать нашему плану.",
-            "Если убедить ребёнка в том, что его любят, его можно научить чему угодно.",
-            "Я не мог убедить его, как ни старался.",
-            "Мне удалось убедить себя, что я поступаю правильно.",
-            "Денег, которыми она соблазняла, было недостаточно, чтобы убедить его продать.",
-            "Его доводы не убедили оппонентов.",
-            "Оба кандидата очень стараются убедить избирателей поменять свои предпочтения.",
-            "Вам их не убедить — да и я, в общем-то, тоже не согласен!",
-            "Ему удалось убедить присяжных в своей невиновности.",
-            "В конце концов, он убедил нескольких клиентов в преимуществах своего продукта.",
-            "Чтобы убедить своих оппонентов, он старался использовать аргументы, а не силу.",
-            "Этот бандит-ростовщик подослал парочку \"горилл\", чтобы убедить его выплатить всё сполна.",
-            "Ему приходится убеждать судью в том, что он не собирался скрыться с деньгами.",
-            "Чиновники стремились убедить нас в безопасности ядерных реакторов.",
-            "Бейкер должен был убедить присяжных, что его клиент был далеко от места убийства.",
-            "Она приложила столько усилий, чтобы убедить их принять её предложение, но всё зря.",
-            "Неудачные попытки этой группы демонстрируют, насколько трудно убедить людей изменить свои привычки."
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив_-_сложное_дополнение(после_глаголов,_выражающих_побуждение_(приказ,_просьбу,_разрешение,_предупреждение))",
-            "Сложное_дополнение",
-            "Инфинитив",
-            "all_words"
-        ]
-    }
+  "convince": {
+    "comment": [
+      "convincing",
+      "convinced",
+      "conviction",
+      "convict"
+    ],
+    "translate": "убеждать, уверять, доводить до сознания",
+    "transcription": " |kənˈvɪns|",
+    "antonyms": [],
+    "mnemonic": [
+      "convince [кэнви'нс] убеждать, уверять - Женевская (конвенц-ия) убедила нас быть хорошими.",
+      "convince [kən'vɪns]\n***\nЯ УБЕДИЛ, что полон балкон|вин (с). (это) convince\nЯ УВЕРЯЮ, что полон балкон|вин (с). (это) convince"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_-_сложное_дополнение(после_глаголов,_выражающих_побуждение_(приказ,_просьбу,_разрешение,_предупреждение))",
+      "Сложное_дополнение",
+      "Инфинитив"
+    ],
+    "examples": [
+      {
+        "eng": "I'm convinced (that) she's lying.",
+        "ru": "Я уверен, что она лжёт.",
+        "learn": 0
+      },
+      {
+        "eng": "It's useless to try to convince her.",
+        "ru": "Бесполезно пытаться её убедить.",
+        "learn": 1
+      },
+      {
+        "eng": "He convinced me that the story was true.",
+        "ru": "Он убедил меня, что история была настоящей / правдивой.",
+        "learn": 0
+      },
+      {
+        "eng": "I was unable to convince her to stay.",
+        "ru": "Я не смог убедить ее остаться.",
+        "learn": 0
+      },
+      {
+        "eng": "They convinced us of their innocence.",
+        "ru": "Они убедили нас в своей невиновности.",
+        "learn": 0
+      },
+      {
+        "eng": "I've been trying to convince him to come with me.",
+        "ru": "Я пытался убедить его пойти со мной.",
+        "learn": 0
+      },
+      {
+        "eng": "To declaim is easier than to convince.",
+        "ru": "Разглагольствовать намного легче, чем убеждать.",
+        "learn": 0
+      },
+      {
+        "eng": "We convinced them to go along with our scheme.",
+        "ru": "Мы убедили их следовать нашему плану.",
+        "learn": 0
+      },
+      {
+        "eng": "If you can convince a child you love him, you can teach him anything.",
+        "ru": "Если убедить ребёнка в том, что его любят, его можно научить чему угодно.",
+        "learn": 1
+      },
+      {
+        "eng": "I couldn't convince him no matter how hard I tried.",
+        "ru": "Я не мог убедить его, как ни старался.",
+        "learn": 0
+      },
+      {
+        "eng": "I managed to convince myself that I was doing the right thing.",
+        "ru": "Мне удалось убедить себя, что я поступаю правильно.",
+        "learn": 0
+      },
+      {
+        "eng": "The money she dangled in front of him wasn't enough to convince him to sell.",
+        "ru": "Денег, которыми она соблазняла, было недостаточно, чтобы убедить его продать.",
+        "learn": 0
+      },
+      {
+        "eng": "His argument did not convince his opponents.",
+        "ru": "Его доводы не убедили оппонентов.",
+        "learn": 0
+      },
+      {
+        "eng": "Both candidates are working hard to convince voters to switch allegiances.",
+        "ru": "Оба кандидата очень стараются убедить избирателей поменять свои предпочтения.",
+        "learn": 0
+      },
+      {
+        "eng": "You won't convince them, and, in fact, I don't agree either!",
+        "ru": "Вам их не убедить — да и я, в общем-то, тоже не согласен!",
+        "learn": 1
+      },
+      {
+        "eng": "He managed to convince the jury of his innocence.",
+        "ru": "Ему удалось убедить присяжных в своей невиновности.",
+        "learn": 1
+      },
+      {
+        "eng": "He had finally convinced several customers of the advantages of his product.",
+        "ru": "В конце концов, он убедил нескольких клиентов в преимуществах своего продукта.",
+        "learn": 0
+      },
+      {
+        "eng": "He tried to use argumentation to convince his opponents, rather than force.",
+        "ru": "Чтобы убедить своих оппонентов, он старался использовать аргументы, а не силу.",
+        "learn": 0
+      },
+      {
+        "eng": "The loan shark sent a couple of gorillas to “convince” him to pay up.",
+        "ru": "Этот бандит-ростовщик подослал парочку \"горилл\", чтобы убедить его выплатить всё сполна.",
+        "learn": 0
+      },
+      {
+        "eng": "He has to convince a judge that he wasn't going to abscond with the money.",
+        "ru": "Ему приходится убеждать судью в том, что он не собирался скрыться с деньгами.",
+        "learn": 0
+      },
+      {
+        "eng": "The officials were eager to convince us of the safety of the nuclear reactors.",
+        "ru": "Чиновники стремились убедить нас в безопасности ядерных реакторов.",
+        "learn": 0
+      },
+      {
+        "eng": "Baker had to convince jurors that his client had been nowhere near the scene of the murder.",
+        "ru": "Бейкер должен был убедить присяжных, что его клиент был далеко от места убийства.",
+        "learn": 0
+      },
+      {
+        "eng": "She has labored in vain to convince them to accept her proposal.",
+        "ru": "Она приложила столько усилий, чтобы убедить их принять её предложение, но всё зря.",
+        "learn": 0
+      },
+      {
+        "eng": "The group's failed efforts demonstrate how difficult it is to convince people to change their habits.",
+        "ru": "Неудачные попытки этой группы демонстрируют, насколько трудно убедить людей изменить свои привычки.",
+        "learn": 0
+      }
+    ]
+  }
 }

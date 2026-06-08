@@ -1,58 +1,105 @@
 {
-    "circulation": {
-        "comment": [
-            "circular",
-            "circle",
-            "circumstance",
-            "circuit",
-            "circulate"
-        ],
-        "translate": "тираж, циркуляция, обращение, кровообращение, распространение, круговорот",
-        "transcription": " |ˌsɜːrkjəˈleɪʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The book was taken out of circulation.",
-            "Exercise improves the circulation.",
-            "The attic has poor air circulation.",
-            "He has bad circulation in his legs.",
-            "The newspaper has a daily circulation of 55,000.",
-            "The waters of the Earth are in a state of constant circulation.",
-            "The drug improves blood circulation.",
-            "Ocean circulation is an important part of global climate.",
-            "The coins have recently entered circulation.",
-            "Under her leadership, the magazine's circulation doubled in less than a year.",
-            "This memo is not meant for circulation.",
-            "Breathing and circulation are involuntary processes.",
-            "Let's open the windows to get some circulation in here.",
-            "Let's open the windows and get some circulation in here.",
-            "Doctors had to remove her leg because of bad circulation.",
-            "Breathing and the circulation of blood are life processes.",
-            "The Treasury Department plans to remove older coins from circulation and replace them with new ones."
-        ],
-        "example_translate": [
-            "Книга была изъята из обращения.",
-            "Физические упражнения улучшают кровообращение.",
-            "На этом чердаке плохая циркуляция воздуха.",
-            "У него плохое кровообращение в ногах.",
-            "Ежедневный тираж газеты составляет пятьдесят пять тысяч экземпляров.",
-            "Водяные массы Земли находятся в состоянии постоянной циркуляции.",
-            "Данный препарат улучшает кровообращение.",
-            "Циркуляция океана является важной частью мирового климата.",
-            "Эти монеты недавно вошли в обращение.",
-            "Под ее руководством меньше, чем за год тираж журнала увеличился вдвое.",
-            "Данная докладная предназначена для ограниченного круга лиц.",
-            "Дыхание и кровообращение — непроизвольные процессы.",
-            "Давайте откроем окна, чтобы здесь появился свежий воздух.",
-            "Давайте откроем окна и впустим сюда немного свежего воздуха.",
-            "Врачи были вынуждены ампутировать ей ногу из-за плохого кровообращения.",
-            "Дыхание и кровообращение являются жизненными процессами.",
-            "Казначейство планирует удалить из обращения старые монеты и заменить их новыми."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "circulation": {
+    "comment": [
+      "circular",
+      "circle",
+      "circumstance",
+      "circuit",
+      "circulate"
+    ],
+    "translate": "тираж, циркуляция, обращение, кровообращение, распространение, круговорот",
+    "transcription": " |ˌsɜːrkjəˈleɪʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The book was taken out of circulation.",
+        "ru": "Книга была изъята из обращения.",
+        "learn": 0
+      },
+      {
+        "eng": "Exercise improves the circulation.",
+        "ru": "Физические упражнения улучшают кровообращение.",
+        "learn": 0
+      },
+      {
+        "eng": "The attic has poor air circulation.",
+        "ru": "На этом чердаке плохая циркуляция воздуха.",
+        "learn": 0
+      },
+      {
+        "eng": "He has bad circulation in his legs.",
+        "ru": "У него плохое кровообращение в ногах.",
+        "learn": 1
+      },
+      {
+        "eng": "The newspaper has a daily circulation of 55,000.",
+        "ru": "Ежедневный тираж газеты составляет пятьдесят пять тысяч экземпляров.",
+        "learn": 0
+      },
+      {
+        "eng": "The waters of the Earth are in a state of constant circulation.",
+        "ru": "Водяные массы Земли находятся в состоянии постоянной циркуляции.",
+        "learn": 0
+      },
+      {
+        "eng": "The drug improves blood circulation.",
+        "ru": "Данный препарат улучшает кровообращение.",
+        "learn": 1
+      },
+      {
+        "eng": "Ocean circulation is an important part of global climate.",
+        "ru": "Циркуляция океана является важной частью мирового климата.",
+        "learn": 0
+      },
+      {
+        "eng": "The coins have recently entered circulation.",
+        "ru": "Эти монеты недавно вошли в обращение.",
+        "learn": 1
+      },
+      {
+        "eng": "Under her leadership, the magazine's circulation doubled in less than a year.",
+        "ru": "Под ее руководством меньше, чем за год тираж журнала увеличился вдвое.",
+        "learn": 0
+      },
+      {
+        "eng": "This memo is not meant for circulation.",
+        "ru": "Данная докладная предназначена для ограниченного круга лиц.",
+        "learn": 0
+      },
+      {
+        "eng": "Breathing and circulation are involuntary processes.",
+        "ru": "Дыхание и кровообращение — непроизвольные процессы.",
+        "learn": 1
+      },
+      {
+        "eng": "Let's open the windows to get some circulation in here.",
+        "ru": "Давайте откроем окна, чтобы здесь появился свежий воздух.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's open the windows and get some circulation in here.",
+        "ru": "Давайте откроем окна и впустим сюда немного свежего воздуха.",
+        "learn": 0
+      },
+      {
+        "eng": "Doctors had to remove her leg because of bad circulation.",
+        "ru": "Врачи были вынуждены ампутировать ей ногу из-за плохого кровообращения.",
+        "learn": 0
+      },
+      {
+        "eng": "Breathing and the circulation of blood are life processes.",
+        "ru": "Дыхание и кровообращение являются жизненными процессами.",
+        "learn": 0
+      },
+      {
+        "eng": "The Treasury Department plans to remove older coins from circulation and replace them with new ones.",
+        "ru": "Казначейство планирует удалить из обращения старые монеты и заменить их новыми.",
+        "learn": 0
+      }
+    ]
+  }
 }

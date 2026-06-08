@@ -1,81 +1,167 @@
 {
-    "coming": {
-        "comment": [
-            "forthcoming",
-            "comic"
-        ],
-        "translate": "приход, прибытие, приезд, предстоящий, приходящий, грядущий",
-        "transcription": " |ˈkʌmɪŋ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Coming through!",
-            "Wait a minute, I'm just coming.",
-            "When are you coming home tonight?",
-            "The tide is coming in.",
-            "A storm is coming on.",
-            "The time is coming up to 10 o'clock.",
-            "\"Are you coming with us?\" \"Yeah, I'm coming.\"",
-            "John is definitely coming.",
-            "When are you coming to visit?",
-            "Will you be coming by train?",
-            "What is the world coming to?",
-            "What time are you coming home?",
-            "Are you coming in for a dip?",
-            "You have another guess coming!",
-            "Leg it, the police are coming!",
-            "But now shhh! Company is coming.",
-            "I can feel a headache coming on.",
-            "He's coming for a couple of days.",
-            "What time will you be coming home?",
-            "I think I'm coming down with a cold.",
-            "When is your family coming out to join you?",
-            "Did you thank him for coming?",
-            "Look out — sir's coming back!",
-            "I got wind that you were coming.",
-            "You've got another think coming.",
-            "I saw a big dog coming after me.",
-            "The rain was coming down in sheets.",
-            "It's coming in very cold for September.",
-            "I haven't a lot of money coming in just now.",
-            "Monsoon season is coming soon."
-        ],
-        "example_translate": [
-            "Разрешите пройти!",
-            "Подожди минутку, я сейчас вернусь.",
-            "Когда ты сегодня вернешься домой?",
-            "Начинается прилив.",
-            "Надвигается шторм.",
-            "Время приближается к десяти.",
-            "\"Ты пойдешь с нами?\" \"Да, я иду.\"",
-            "Джон точно придёт.",
-            "Когда вы придёте в гости?",
-            "Вы приедете на поезде?",
-            "К чему катится мир?",
-            "В котором часу вы приходите домой?",
-            "Ты идёшь купаться?",
-            "А вот и нет, не угадал!",
-            "Сматываемся, полиция!",
-            "Но теперь тихо! Сюда идут.",
-            "Я чувствую что у меня начинает болеть голова",
-            "Он приезжает на пару дней.",
-            "В котором часу ты вернёшься домой?",
-            "Мне кажется, что я заболеваю.",
-            "Когда ваша семья планирует приехать к вам?",
-            "Вы поблагодарили его за то, что он пришел?",
-            "Шухер — учитель возвращается! (брит.)",
-            "До меня дошёл слух, что вы приезжаете.",
-            "Тебе придётся ещё раз подумать.",
-            "Я увидел, что за мной гонится огромная собака.",
-            "Дождь лил сплошным потоком. / Дождь стоял стеной.",
-            "Для начала сентября уж очень холодно.",
-            "У меня сейчас не очень большие доходы.",
-            "Приближается сезон муссонных дождей."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "coming": {
+    "comment": [
+      "forthcoming",
+      "comic"
+    ],
+    "translate": "приход, прибытие, приезд, предстоящий, приходящий, грядущий",
+    "transcription": " |ˈkʌmɪŋ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Coming through!",
+        "ru": "Разрешите пройти!",
+        "learn": 1
+      },
+      {
+        "eng": "Wait a minute, I'm just coming.",
+        "ru": "Подожди минутку, я сейчас вернусь.",
+        "learn": 0
+      },
+      {
+        "eng": "When are you coming home tonight?",
+        "ru": "Когда ты сегодня вернешься домой?",
+        "learn": 1
+      },
+      {
+        "eng": "The tide is coming in.",
+        "ru": "Начинается прилив.",
+        "learn": 1
+      },
+      {
+        "eng": "A storm is coming on.",
+        "ru": "Надвигается шторм.",
+        "learn": 0
+      },
+      {
+        "eng": "The time is coming up to 10 o'clock.",
+        "ru": "Время приближается к десяти.",
+        "learn": 0
+      },
+      {
+        "eng": "\"Are you coming with us?\" \"Yeah, I'm coming.\"",
+        "ru": "\"Ты пойдешь с нами?\" \"Да, я иду.\"",
+        "learn": 0
+      },
+      {
+        "eng": "John is definitely coming.",
+        "ru": "Джон точно придёт.",
+        "learn": 0
+      },
+      {
+        "eng": "When are you coming to visit?",
+        "ru": "Когда вы придёте в гости?",
+        "learn": 0
+      },
+      {
+        "eng": "Will you be coming by train?",
+        "ru": "Вы приедете на поезде?",
+        "learn": 1
+      },
+      {
+        "eng": "What is the world coming to?",
+        "ru": "К чему катится мир?",
+        "learn": 0
+      },
+      {
+        "eng": "What time are you coming home?",
+        "ru": "В котором часу вы приходите домой?",
+        "learn": 0
+      },
+      {
+        "eng": "Are you coming in for a dip?",
+        "ru": "Ты идёшь купаться?",
+        "learn": 0
+      },
+      {
+        "eng": "You have another guess coming!",
+        "ru": "А вот и нет, не угадал!",
+        "learn": 0
+      },
+      {
+        "eng": "Leg it, the police are coming!",
+        "ru": "Сматываемся, полиция!",
+        "learn": 0
+      },
+      {
+        "eng": "But now shhh! Company is coming.",
+        "ru": "Но теперь тихо! Сюда идут.",
+        "learn": 0
+      },
+      {
+        "eng": "I can feel a headache coming on.",
+        "ru": "Я чувствую что у меня начинает болеть голова",
+        "learn": 0
+      },
+      {
+        "eng": "He's coming for a couple of days.",
+        "ru": "Он приезжает на пару дней.",
+        "learn": 0
+      },
+      {
+        "eng": "What time will you be coming home?",
+        "ru": "В котором часу ты вернёшься домой?",
+        "learn": 0
+      },
+      {
+        "eng": "I think I'm coming down with a cold.",
+        "ru": "Мне кажется, что я заболеваю.",
+        "learn": 0
+      },
+      {
+        "eng": "When is your family coming out to join you?",
+        "ru": "Когда ваша семья планирует приехать к вам?",
+        "learn": 0
+      },
+      {
+        "eng": "Did you thank him for coming?",
+        "ru": "Вы поблагодарили его за то, что он пришел?",
+        "learn": 1
+      },
+      {
+        "eng": "Look out — sir's coming back!",
+        "ru": "Шухер — учитель возвращается! (брит.)",
+        "learn": 0
+      },
+      {
+        "eng": "I got wind that you were coming.",
+        "ru": "До меня дошёл слух, что вы приезжаете.",
+        "learn": 0
+      },
+      {
+        "eng": "You've got another think coming.",
+        "ru": "Тебе придётся ещё раз подумать.",
+        "learn": 0
+      },
+      {
+        "eng": "I saw a big dog coming after me.",
+        "ru": "Я увидел, что за мной гонится огромная собака.",
+        "learn": 0
+      },
+      {
+        "eng": "The rain was coming down in sheets.",
+        "ru": "Дождь лил сплошным потоком. / Дождь стоял стеной.",
+        "learn": 0
+      },
+      {
+        "eng": "It's coming in very cold for September.",
+        "ru": "Для начала сентября уж очень холодно.",
+        "learn": 0
+      },
+      {
+        "eng": "I haven't a lot of money coming in just now.",
+        "ru": "У меня сейчас не очень большие доходы.",
+        "learn": 0
+      },
+      {
+        "eng": "Monsoon season is coming soon.",
+        "ru": "Приближается сезон муссонных дождей.",
+        "learn": 0
+      }
+    ]
+  }
 }

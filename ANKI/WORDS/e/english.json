@@ -1,80 +1,166 @@
 {
-    "English": {
-        "comment": [
-            "british"
-        ],
-        "translate": "английский, английский язык",
-        "transcription": " |ˈɪŋɡlɪʃ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Do you speak English?",
-            "English usage",
-            "English humour",
-            "English grammar",
-            "English is spoken here.",
-            "His English was perfect.",
-            "English history",
-            "American English",
-            "English literature",
-            "His English is very poor.",
-            "English is my native tongue.",
-            "He was concerned with English.",
-            "She speaks English fairly well.",
-            "He speaks both English and French.",
-            "He is well-read in English literature.",
-            "Arsenal rules OK.",
-            "We can go Wednesday.",
-            "I'll see you Tuesday.",
-            "Her English is idiomatic.",
-            "She has an MA in English.",
-            "She was working Thursday.",
-            "English landscape artists",
-            "What are you doing Sunday?",
-            "Who takes you for English?",
-            "Diane won't be here Friday.",
-            "He swam the English Channel.",
-            "a book on modern English usage",
-            "Did you get a pass in English?",
-            "The festivities begin Saturday.",
-            "She doesn't understand English."
-        ],
-        "example_translate": [
-            "Вы говорите по-английски?",
-            "использование выражений английского языка",
-            "английский юмор",
-            "английская грамматика",
-            "Здесь говорят по-английски.",
-            "Он безупречно говорил по-английски.",
-            "Английская история",
-            "Американский вариант английского языка., английский язык в США",
-            "английская литература",
-            "По-английски он говорит очень плохо.",
-            "Английский — мой родной язык.",
-            "Он занимался английским языком.",
-            "Она говорит по-английски достаточно хорошо.",
-            "Он говорит и по-английски, и по-французски.",
-            "Он хорошо знает английскую литературу.",
-            "\"Арсенал\" — круче всех!",
-            "Мы можем пойти в среду. (амер.)",
-            "Увидимся во вторник. (амер.)",
-            "Она говорит по-английски практически как англичанка.",
-            "У неё степень магистра в области английского языка.",
-            "Она работала в четверг. (амер.)",
-            "английские художники-пейзажисты",
-            "Что ты делаешь в воскресенье? (амер.)",
-            "Кто у вас по английскому? / Кто у вас ведёт английский?",
-            "В пятницу Дианы здесь не будет. (амер.)",
-            "Он переплыл Ла-Манш.",
-            "книга о современном словоупотреблении в английском языке",
-            "Ты сдал английский?",
-            "Праздник начинается в субботу.",
-            "Она не понимает английского языка."
-        ],
-        "synonyms": [],
-        "stars": 0,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "English": {
+    "comment": [
+      "british"
+    ],
+    "translate": "английский, английский язык",
+    "transcription": " |ˈɪŋɡlɪʃ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Do you speak English?",
+        "ru": "Вы говорите по-английски?",
+        "learn": 1
+      },
+      {
+        "eng": "English usage",
+        "ru": "использование выражений английского языка",
+        "learn": 0
+      },
+      {
+        "eng": "English humour",
+        "ru": "английский юмор",
+        "learn": 0
+      },
+      {
+        "eng": "English grammar",
+        "ru": "английская грамматика",
+        "learn": 0
+      },
+      {
+        "eng": "English is spoken here.",
+        "ru": "Здесь говорят по-английски.",
+        "learn": 1
+      },
+      {
+        "eng": "His English was perfect.",
+        "ru": "Он безупречно говорил по-английски.",
+        "learn": 0
+      },
+      {
+        "eng": "English history",
+        "ru": "Английская история",
+        "learn": 0
+      },
+      {
+        "eng": "American English",
+        "ru": "Американский вариант английского языка., английский язык в США",
+        "learn": 0
+      },
+      {
+        "eng": "English literature",
+        "ru": "английская литература",
+        "learn": 0
+      },
+      {
+        "eng": "His English is very poor.",
+        "ru": "По-английски он говорит очень плохо.",
+        "learn": 0
+      },
+      {
+        "eng": "English is my native tongue.",
+        "ru": "Английский — мой родной язык.",
+        "learn": 0
+      },
+      {
+        "eng": "He was concerned with English.",
+        "ru": "Он занимался английским языком.",
+        "learn": 0
+      },
+      {
+        "eng": "She speaks English fairly well.",
+        "ru": "Она говорит по-английски достаточно хорошо.",
+        "learn": 0
+      },
+      {
+        "eng": "He speaks both English and French.",
+        "ru": "Он говорит и по-английски, и по-французски.",
+        "learn": 1
+      },
+      {
+        "eng": "He is well-read in English literature.",
+        "ru": "Он хорошо знает английскую литературу.",
+        "learn": 0
+      },
+      {
+        "eng": "Arsenal rules OK.",
+        "ru": "\"Арсенал\" — круче всех!",
+        "learn": 0
+      },
+      {
+        "eng": "We can go Wednesday.",
+        "ru": "Мы можем пойти в среду. (амер.)",
+        "learn": 0
+      },
+      {
+        "eng": "I'll see you Tuesday.",
+        "ru": "Увидимся во вторник. (амер.)",
+        "learn": 0
+      },
+      {
+        "eng": "Her English is idiomatic.",
+        "ru": "Она говорит по-английски практически как англичанка.",
+        "learn": 0
+      },
+      {
+        "eng": "She has an MA in English.",
+        "ru": "У неё степень магистра в области английского языка.",
+        "learn": 0
+      },
+      {
+        "eng": "She was working Thursday.",
+        "ru": "Она работала в четверг. (амер.)",
+        "learn": 0
+      },
+      {
+        "eng": "English landscape artists",
+        "ru": "английские художники-пейзажисты",
+        "learn": 0
+      },
+      {
+        "eng": "What are you doing Sunday?",
+        "ru": "Что ты делаешь в воскресенье? (амер.)",
+        "learn": 1
+      },
+      {
+        "eng": "Who takes you for English?",
+        "ru": "Кто у вас по английскому? / Кто у вас ведёт английский?",
+        "learn": 0
+      },
+      {
+        "eng": "Diane won't be here Friday.",
+        "ru": "В пятницу Дианы здесь не будет. (амер.)",
+        "learn": 0
+      },
+      {
+        "eng": "He swam the English Channel.",
+        "ru": "Он переплыл Ла-Манш.",
+        "learn": 0
+      },
+      {
+        "eng": "a book on modern English usage",
+        "ru": "книга о современном словоупотреблении в английском языке",
+        "learn": 0
+      },
+      {
+        "eng": "Did you get a pass in English?",
+        "ru": "Ты сдал английский?",
+        "learn": 0
+      },
+      {
+        "eng": "The festivities begin Saturday.",
+        "ru": "Праздник начинается в субботу.",
+        "learn": 0
+      },
+      {
+        "eng": "She doesn't understand English.",
+        "ru": "Она не понимает английского языка.",
+        "learn": 0
+      }
+    ]
+  }
 }

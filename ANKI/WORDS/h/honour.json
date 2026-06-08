@@ -1,90 +1,177 @@
 {
-    "honour": {
-        "comment": [
-            "honor",
-            "honest",
-            "dishonest",
-            "dishonestly",
-            "honestly",
-            "honesty",
-            "honourable"
-        ],
-        "translate": "честь, почести, почтение, уважение, почет, соблюдать, почтить, чтить, почитать",
-        "transcription": " |ˈɑːnər|",
-        "antonyms": [],
-        "mnemonic": [
-            "honour [о'на] честь - (Она) честь потеряла.",
-            "honor = honour ['ɒnə]\n***\nСегодня ЧЕСТВУЮТ тихоню. (это) honor\nСЛАВА - слава фараону. (это) honor\nЧесть, слава, хорошая репутация."
-        ],
-        "examples": [
-            "He is an honour to his school.",
-            "She brought honour to her family.",
-            "But my honour is engaged.",
-            "No, Your Honour.",
-            "He well deserved the honour.",
-            "Legion of Honour",
-            "He is an honour to his school.",
-            "I consider it a great honour to be invited.",
-            "He has honoured us with his presence.",
-            "Yes, I honour Sparta, but I love Athens.",
-            "Will you do me the honour of becoming my wife?",
-            "The defence rests, Your Honour.",
-            "It is an honour to have you here.",
-            "I won't try to see you again. I give you my word of honour.",
-            "I was treated like an honored guest.",
-            "She was honoured as a community leader.",
-            "Honour is sometimes found among thieves.",
-            "True wealth I hold in great honour.",
-            "The fountains played in his honour.",
-            "Love weakens strength and bases honour.",
-            "A special dinner will be held in her honour.",
-            "He's an honour to his family and his country.",
-            "My father was a man of honour and great integrity.",
-            "Two firefighters have been honoured for their courage.",
-            "We three will draw cuts for the honour of going with him.",
-            "It had become a point of honour not to tell him about Lori.",
-            "Earlier this year, I had the honor of meeting the President.",
-            "It is an honour to be invited to contribute to your magazine.",
-            "The medal is the highest honour the association can bestow (=give).",
-            "An oak tree was planted in honour of the occasion."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он — гордость своей школы.",
-            "Она принесла славу своей семье.",
-            "Но затронута моя честь.",
-            "Нет, Ваша Честь.",
-            "Он действительно заслуживал такой чести.",
-            "Орден почётного легиона (во Франции)",
-            "Он гордость школы.",
-            "Я считаю, что получить приглашение — это великая честь.",
-            "Он почтил нас своим присутствием.",
-            "Да, я уважаю Спарту, но я люблю Афины.",
-            "Ты окажешь мне честь стать моей женой?",
-            "Ваша честь, защите нечего добавить.",
-            "Видеть вас здесь — большая честь.",
-            "Я не буду пытаться снова вас увидеть. Даю вам честное слово.",
-            "Меня принимали как почётного гостя.",
-            "Её уважали как общественного лидера.",
-            "И среди воров порой встречаются благородные люди.",
-            "Истинное богатство я очень уважаю.",
-            "В его честь били фонтаны.",
-            "Любовь лишает сил и унижает достоинство.",
-            "В её честь пройдёт специальный ужин.",
-            "Он — гордость своей семьи и своей страны.",
-            "Мой отец был человеком честным и очень порядочным.",
-            "За проявленное мужество награждены двое пожарных.",
-            "Мы трое будем тянуть жребий, кому выпадет честь сопровождать его.",
-            "Не рассказывать ему о Лори стало делом чести.",
-            "В этом году я уже имел честь встретиться с президентом.",
-            "Получить предложение писать статьи для вашего журнала — большая честь.",
-            "Данная медаль является высшей наградой, которую может даровать (т.е. дать) эта ассоциация.",
-            "В честь этого события был посажен дуб."
-        ],
-        "stars": 0,
-        "groups": [
-            "all_words",
-            "h_=_[_]"
-        ]
-    }
+  "honour": {
+    "comment": [
+      "honor",
+      "honest",
+      "dishonest",
+      "dishonestly",
+      "honestly",
+      "honesty",
+      "honourable"
+    ],
+    "translate": "честь, почести, почтение, уважение, почет, соблюдать, почтить, чтить, почитать",
+    "transcription": " |ˈɑːnər|",
+    "antonyms": [],
+    "mnemonic": [
+      "honour [о'на] честь - (Она) честь потеряла.",
+      "honor = honour ['ɒnə]\n***\nСегодня ЧЕСТВУЮТ тихоню. (это) honor\nСЛАВА - слава фараону. (это) honor\nЧесть, слава, хорошая репутация."
+    ],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [
+      "h_=_[_]"
+    ],
+    "examples": [
+      {
+        "eng": "He is an honour to his school.",
+        "ru": "Он — гордость своей школы.",
+        "learn": 1
+      },
+      {
+        "eng": "She brought honour to her family.",
+        "ru": "Она принесла славу своей семье.",
+        "learn": 1
+      },
+      {
+        "eng": "But my honour is engaged.",
+        "ru": "Но затронута моя честь.",
+        "learn": 0
+      },
+      {
+        "eng": "No, Your Honour.",
+        "ru": "Нет, Ваша Честь.",
+        "learn": 0
+      },
+      {
+        "eng": "He well deserved the honour.",
+        "ru": "Он действительно заслуживал такой чести.",
+        "learn": 0
+      },
+      {
+        "eng": "Legion of Honour",
+        "ru": "Орден почётного легиона (во Франции)",
+        "learn": 0
+      },
+      {
+        "eng": "He is an honour to his school.",
+        "ru": "Он гордость школы.",
+        "learn": 1
+      },
+      {
+        "eng": "I consider it a great honour to be invited.",
+        "ru": "Я считаю, что получить приглашение — это великая честь.",
+        "learn": 0
+      },
+      {
+        "eng": "He has honoured us with his presence.",
+        "ru": "Он почтил нас своим присутствием.",
+        "learn": 0
+      },
+      {
+        "eng": "Yes, I honour Sparta, but I love Athens.",
+        "ru": "Да, я уважаю Спарту, но я люблю Афины.",
+        "learn": 0
+      },
+      {
+        "eng": "Will you do me the honour of becoming my wife?",
+        "ru": "Ты окажешь мне честь стать моей женой?",
+        "learn": 0
+      },
+      {
+        "eng": "The defence rests, Your Honour.",
+        "ru": "Ваша честь, защите нечего добавить.",
+        "learn": 0
+      },
+      {
+        "eng": "It is an honour to have you here.",
+        "ru": "Видеть вас здесь — большая честь.",
+        "learn": 0
+      },
+      {
+        "eng": "I won't try to see you again. I give you my word of honour.",
+        "ru": "Я не буду пытаться снова вас увидеть. Даю вам честное слово.",
+        "learn": 0
+      },
+      {
+        "eng": "I was treated like an honored guest.",
+        "ru": "Меня принимали как почётного гостя.",
+        "learn": 0
+      },
+      {
+        "eng": "She was honoured as a community leader.",
+        "ru": "Её уважали как общественного лидера.",
+        "learn": 1
+      },
+      {
+        "eng": "Honour is sometimes found among thieves.",
+        "ru": "И среди воров порой встречаются благородные люди.",
+        "learn": 0
+      },
+      {
+        "eng": "True wealth I hold in great honour.",
+        "ru": "Истинное богатство я очень уважаю.",
+        "learn": 0
+      },
+      {
+        "eng": "The fountains played in his honour.",
+        "ru": "В его честь били фонтаны.",
+        "learn": 0
+      },
+      {
+        "eng": "Love weakens strength and bases honour.",
+        "ru": "Любовь лишает сил и унижает достоинство.",
+        "learn": 0
+      },
+      {
+        "eng": "A special dinner will be held in her honour.",
+        "ru": "В её честь пройдёт специальный ужин.",
+        "learn": 0
+      },
+      {
+        "eng": "He's an honour to his family and his country.",
+        "ru": "Он — гордость своей семьи и своей страны.",
+        "learn": 0
+      },
+      {
+        "eng": "My father was a man of honour and great integrity.",
+        "ru": "Мой отец был человеком честным и очень порядочным.",
+        "learn": 0
+      },
+      {
+        "eng": "Two firefighters have been honoured for their courage.",
+        "ru": "За проявленное мужество награждены двое пожарных.",
+        "learn": 0
+      },
+      {
+        "eng": "We three will draw cuts for the honour of going with him.",
+        "ru": "Мы трое будем тянуть жребий, кому выпадет честь сопровождать его.",
+        "learn": 0
+      },
+      {
+        "eng": "It had become a point of honour not to tell him about Lori.",
+        "ru": "Не рассказывать ему о Лори стало делом чести.",
+        "learn": 0
+      },
+      {
+        "eng": "Earlier this year, I had the honor of meeting the President.",
+        "ru": "В этом году я уже имел честь встретиться с президентом.",
+        "learn": 0
+      },
+      {
+        "eng": "It is an honour to be invited to contribute to your magazine.",
+        "ru": "Получить предложение писать статьи для вашего журнала — большая честь.",
+        "learn": 0
+      },
+      {
+        "eng": "The medal is the highest honour the association can bestow (=give).",
+        "ru": "Данная медаль является высшей наградой, которую может даровать (т.е. дать) эта ассоциация.",
+        "learn": 0
+      },
+      {
+        "eng": "An oak tree was planted in honour of the occasion.",
+        "ru": "В честь этого события был посажен дуб.",
+        "learn": 0
+      }
+    ]
+  }
 }

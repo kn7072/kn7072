@@ -1,87 +1,174 @@
 {
-    "eager": {
-        "comment": [
-            "colleague",
-            "league",
-            "eagle"
-        ],
-        "translate": "нетерпеливый",
-        "transcription": "|ˈiːɡər|",
-        "antonyms": [],
-        "mnemonic": [
-            "eager [и'гэ] страстный - Женщины монголо-татарского (ига) были страстны.",
-            "eager ['i: gə]\neagerness- рвение\n***\nМонгол - СТРАСТНЫЙ любитель установить ИГО.\n(это) eager\nТатарин имел ГОРЯЧЕЕ ЖЕЛАНИЕ установить ИГО.\n(это) eager"
-        ],
-        "examples": [
-            "She was eager to get started.",
-            "She is eager to see his new apartment.",
-            "I was eager to get back to work as soon as possible.",
-            "The low prices still pull in crowds of eager buyers.",
-            "He's a bright kid and eager to learn.",
-            "He was eager to talk about life in the Army.",
-            "Our men are ready, sir, all armed and eager to be at the enemy.",
-            "Most children are eager to please.",
-            "The crowd was eager for more.",
-            "I skipped through the first part of the book, eager to get to the exciting bits.",
-            "His students were docile and eager to learn.",
-            "The government is eager to attract foreign capital.",
-            "She waited in eager anticipation for Robert to arrive.",
-            "Marion spoke, eager to break the tense silence.",
-            "The children quickly hooked onto the suggestion and were eager to go for a swim.",
-            "At last the chairman flung out his own suggestion, which the committee were eager to accept.",
-            "The new men were eager to fight.",
-            "Rome was eager to christianize the pagan world.",
-            "eager to participate in the city's cultural life",
-            "He was eager to conceal his immixture in that affair.",
-            "She was eager to mingle with the other guests.",
-            "The speaker was peppered with questions by a crowd of eager students.",
-            "a footloose young man eager to see the big city",
-            "She's a very hard worker and very eager to please.",
-            "The size of his offer indicates that he is eager to buy the house.",
-            "a young salesman eager to clinch the deal",
-            "students who are teachable and eager to learn",
-            "She was eager to face off with her longtime tennis rival.",
-            "carnival sharpers eager to relieve the yokels of their money",
-            "A crowd of eager young students were already waiting outside."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ей не терпелось начать.",
-            "Ей не терпится увидеть его новую квартиру.",
-            "Мне не терпелось как можно скорее вернуться к работе.",
-            "Низкие цены по-прежнему привлекают толпы жаждущих покупателей.",
-            "Он — парень способный, и тянется к знаниям.",
-            "Ему страстно хотелось поговорить об армейской жизни.",
-            "Солдаты находятся в боевой готовности, сэр, они все вооружены и жаждут броситься в бой.",
-            "Большинство детей стремится понравиться.",
-            "Толпа жаждала большего.",
-            "Я прочитал по диагонали первую часть книги, чтобы поскорее добраться до интересных эпизодов.",
-            "Его ученики были понятливы и стремились получать знания.",
-            "Правительство стремится к привлечению иностранного капитала.",
-            "Она с нетерпением ждала, когда приедет Роберт.",
-            "Марион заговорила, стремясь нарушить напряженное молчание.",
-            "Ребята быстро поняли намёк и просто горели желанием искупаться.",
-            "Наконец председатель внёс своё предложение, которое комитет с радостью принял.",
-            "Новички рвались в бой.",
-            "Рим стремился обратить языческий мир в христианство.",
-            "страстно желая участвовать в культурной жизни города",
-            "Он стремился скрыть свою причастность к тому делу.",
-            "Она горела желанием пообщаться с другими гостями.",
-            "Толпа увлечённых студентов засыпала лектора вопросами.",
-            "независимый молодой человек, жаждущий увидеть большой город",
-            "Она очень трудолюбивая, и очень хочет угодить.",
-            "Размер его предложения указывает на то, что ему не терпится купить этотдом.",
-            "молодой торговец, которому не терпится заключить сделку",
-            "студенты, которые являются обучаемыми и жаждут знаний",
-            "Ей не терпелось встретиться лицом к лицу со своей давней соперницей по теннису.",
-            "ярмарочные шулера, страстно желающие освободить этих деревенских простаков от их денег",
-            "Снаружи уже ждала толпа горячих молодых студентов."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "Инфинитив_с_to_после_прил((am,_is,_are_и_т._д.)_+_прилагательное_+_инфинитив)",
-            "Инфинитив"
-        ]
-    }
+  "eager": {
+    "comment": [
+      "colleague",
+      "league",
+      "eagle"
+    ],
+    "translate": "нетерпеливый",
+    "transcription": "|ˈiːɡər|",
+    "antonyms": [],
+    "mnemonic": [
+      "eager [и'гэ] страстный - Женщины монголо-татарского (ига) были страстны.",
+      "eager ['i: gə]\neagerness- рвение\n***\nМонгол - СТРАСТНЫЙ любитель установить ИГО.\n(это) eager\nТатарин имел ГОРЯЧЕЕ ЖЕЛАНИЕ установить ИГО.\n(это) eager"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "Инфинитив_с_to_после_прил((am,_is,_are_и_т._д.)_+_прилагательное_+_инфинитив)",
+      "Инфинитив"
+    ],
+    "examples": [
+      {
+        "eng": "She was eager to get started.",
+        "ru": "Ей не терпелось начать.",
+        "learn": 0
+      },
+      {
+        "eng": "She is eager to see his new apartment.",
+        "ru": "Ей не терпится увидеть его новую квартиру.",
+        "learn": 1
+      },
+      {
+        "eng": "I was eager to get back to work as soon as possible.",
+        "ru": "Мне не терпелось как можно скорее вернуться к работе.",
+        "learn": 0
+      },
+      {
+        "eng": "The low prices still pull in crowds of eager buyers.",
+        "ru": "Низкие цены по-прежнему привлекают толпы жаждущих покупателей.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a bright kid and eager to learn.",
+        "ru": "Он — парень способный, и тянется к знаниям.",
+        "learn": 0
+      },
+      {
+        "eng": "He was eager to talk about life in the Army.",
+        "ru": "Ему страстно хотелось поговорить об армейской жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "Our men are ready, sir, all armed and eager to be at the enemy.",
+        "ru": "Солдаты находятся в боевой готовности, сэр, они все вооружены и жаждут броситься в бой.",
+        "learn": 0
+      },
+      {
+        "eng": "Most children are eager to please.",
+        "ru": "Большинство детей стремится понравиться.",
+        "learn": 0
+      },
+      {
+        "eng": "The crowd was eager for more.",
+        "ru": "Толпа жаждала большего.",
+        "learn": 0
+      },
+      {
+        "eng": "I skipped through the first part of the book, eager to get to the exciting bits.",
+        "ru": "Я прочитал по диагонали первую часть книги, чтобы поскорее добраться до интересных эпизодов.",
+        "learn": 0
+      },
+      {
+        "eng": "His students were docile and eager to learn.",
+        "ru": "Его ученики были понятливы и стремились получать знания.",
+        "learn": 0
+      },
+      {
+        "eng": "The government is eager to attract foreign capital.",
+        "ru": "Правительство стремится к привлечению иностранного капитала.",
+        "learn": 0
+      },
+      {
+        "eng": "She waited in eager anticipation for Robert to arrive.",
+        "ru": "Она с нетерпением ждала, когда приедет Роберт.",
+        "learn": 1
+      },
+      {
+        "eng": "Marion spoke, eager to break the tense silence.",
+        "ru": "Марион заговорила, стремясь нарушить напряженное молчание.",
+        "learn": 0
+      },
+      {
+        "eng": "The children quickly hooked onto the suggestion and were eager to go for a swim.",
+        "ru": "Ребята быстро поняли намёк и просто горели желанием искупаться.",
+        "learn": 0
+      },
+      {
+        "eng": "At last the chairman flung out his own suggestion, which the committee were eager to accept.",
+        "ru": "Наконец председатель внёс своё предложение, которое комитет с радостью принял.",
+        "learn": 0
+      },
+      {
+        "eng": "The new men were eager to fight.",
+        "ru": "Новички рвались в бой.",
+        "learn": 0
+      },
+      {
+        "eng": "Rome was eager to christianize the pagan world.",
+        "ru": "Рим стремился обратить языческий мир в христианство.",
+        "learn": 0
+      },
+      {
+        "eng": "eager to participate in the city's cultural life",
+        "ru": "страстно желая участвовать в культурной жизни города",
+        "learn": 0
+      },
+      {
+        "eng": "He was eager to conceal his immixture in that affair.",
+        "ru": "Он стремился скрыть свою причастность к тому делу.",
+        "learn": 0
+      },
+      {
+        "eng": "She was eager to mingle with the other guests.",
+        "ru": "Она горела желанием пообщаться с другими гостями.",
+        "learn": 0
+      },
+      {
+        "eng": "The speaker was peppered with questions by a crowd of eager students.",
+        "ru": "Толпа увлечённых студентов засыпала лектора вопросами.",
+        "learn": 0
+      },
+      {
+        "eng": "a footloose young man eager to see the big city",
+        "ru": "независимый молодой человек, жаждущий увидеть большой город",
+        "learn": 0
+      },
+      {
+        "eng": "She's a very hard worker and very eager to please.",
+        "ru": "Она очень трудолюбивая, и очень хочет угодить.",
+        "learn": 0
+      },
+      {
+        "eng": "The size of his offer indicates that he is eager to buy the house.",
+        "ru": "Размер его предложения указывает на то, что ему не терпится купить этотдом.",
+        "learn": 0
+      },
+      {
+        "eng": "a young salesman eager to clinch the deal",
+        "ru": "молодой торговец, которому не терпится заключить сделку",
+        "learn": 0
+      },
+      {
+        "eng": "students who are teachable and eager to learn",
+        "ru": "студенты, которые являются обучаемыми и жаждут знаний",
+        "learn": 0
+      },
+      {
+        "eng": "She was eager to face off with her longtime tennis rival.",
+        "ru": "Ей не терпелось встретиться лицом к лицу со своей давней соперницей по теннису.",
+        "learn": 0
+      },
+      {
+        "eng": "carnival sharpers eager to relieve the yokels of their money",
+        "ru": "ярмарочные шулера, страстно желающие освободить этих деревенских простаков от их денег",
+        "learn": 0
+      },
+      {
+        "eng": "A crowd of eager young students were already waiting outside.",
+        "ru": "Снаружи уже ждала толпа горячих молодых студентов.",
+        "learn": 0
+      }
+    ]
+  }
 }

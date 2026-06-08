@@ -1,85 +1,172 @@
 {
-    "walk": {
-        "comment": [
-            "walking",
-            "walker"
-        ],
-        "translate": "ходьба, шаг, походка, тропа, расстояние, ходить, идти, гулять, идти пешком, обходить",
-        "transcription": " |wɔːk|",
-        "antonyms": [],
-        "mnemonic": [
-            "walk [(ув)о'к] ходить - Перестань ходить (вок-руг) да около.",
-            "walk [wɔ: k]\n***\nГУЛЯТЬ опасно - бродит волк. (это) walk\nХОДИТ гулять на островок. (это) walk\nИДЁТ пешком на островок. (это) walk\nХодьба, прогулка, походка."
-        ],
-        "examples": [
-            "Let's go for a walk.",
-            "Walk this way.",
-            "I'll walk you to your car.",
-            "Is it safe to walk here?",
-            "He walked to the store.",
-            "It's a long walk. Maybe we should get the bus.",
-            "Would you care for a walk?",
-            "I'll join you in your walk.",
-            "Don't walk on the wet floor!",
-            "Is your grandson walking yet?",
-            "We went for a walk in the park.",
-            "We took a walk after supper.",
-            "We like to walk every Sunday",
-            "Grandma's out walking the dog.",
-            "Don't look back while you walk.",
-            "He had a jaunty walk.",
-            "Let's walk round the block.",
-            "He walked into the ambush.",
-            "He took a walk after lunch.",
-            "My shoes squeak when I walk.",
-            "She walks with a slight limp",
-            "The patient cannot walk yet.",
-            "She took a walk in the snow.",
-            "The branches roofed the walk.",
-            "She can no longer walk unaided.",
-            "Does God walk among us?",
-            "a brisk walk in the park",
-            "She walks 3 miles every day.",
-            "My pen seems to have walked.",
-            "I could not walk any farther."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Давай прогуляемся. / Пойдём на прогулку. / Пошли погуляем.",
-            "Идите сюда. / Пройдёмте со мной.",
-            "Я провожу вас до машины.",
-            "Тут безопасно гулять?",
-            "Он пошёл в магазин пешком.",
-            "Идти пешком очень долго. Наверное, нам надо сесть на автобус.",
-            "Не хотите пройтись?",
-            "Я пройдусь с вами.",
-            "Не ходите по мокрому полу!",
-            "Твой внук уже ходит?",
-            "Мы пошли в парк прогуляться.",
-            "Мы совершили прогулку после ужина.",
-            "Нам нравится гулять каждое воскресенье.",
-            "Бабушка вышла погулять с собакой.",
-            "Не оглядывайся, когда идёшь.",
-            "У него была бодрая походка.",
-            "Давайте прогуляемся вокруг квартала.",
-            "Он натолкнулся на засаду.",
-            "Он вышел прогуляться после обеда.",
-            "Мои туфли скрипят при ходьбе.",
-            "Она ходит слегка прихрамывая",
-            "Пациент пока что не может ходить.",
-            "Она прогулялась под снегом.",
-            "Ветви образовывали свод над тропинкой.",
-            "Она больше не может ходить без посторонней помощи.",
-            "Идёт ли Бог с нами? / Живёт ли Бог среди нас?",
-            "прогулка в парке быстрым шагом / энергичная прогулка в парке",
-            "Каждый день она проходит пешком три мили.",
-            "Похоже, моей ручке кто-то приделал ноги.",
-            "Дальше идти я уже не мог. / Я не мог больше ступить ни шагу."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "al_+_Сг_=_[ɔːl]"
-        ]
-    }
+  "walk": {
+    "comment": [
+      "walking",
+      "walker"
+    ],
+    "translate": "ходьба, шаг, походка, тропа, расстояние, ходить, идти, гулять, идти пешком, обходить",
+    "transcription": " |wɔːk|",
+    "antonyms": [],
+    "mnemonic": [
+      "walk [(ув)о'к] ходить - Перестань ходить (вок-руг) да около.",
+      "walk [wɔ: k]\n***\nГУЛЯТЬ опасно - бродит волк. (это) walk\nХОДИТ гулять на островок. (это) walk\nИДЁТ пешком на островок. (это) walk\nХодьба, прогулка, походка."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "al_+_Сг_=_[ɔːl]"
+    ],
+    "examples": [
+      {
+        "eng": "Let's go for a walk.",
+        "ru": "Давай прогуляемся. / Пойдём на прогулку. / Пошли погуляем.",
+        "learn": 1
+      },
+      {
+        "eng": "Walk this way.",
+        "ru": "Идите сюда. / Пройдёмте со мной.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll walk you to your car.",
+        "ru": "Я провожу вас до машины.",
+        "learn": 0
+      },
+      {
+        "eng": "Is it safe to walk here?",
+        "ru": "Тут безопасно гулять?",
+        "learn": 0
+      },
+      {
+        "eng": "He walked to the store.",
+        "ru": "Он пошёл в магазин пешком.",
+        "learn": 0
+      },
+      {
+        "eng": "It's a long walk. Maybe we should get the bus.",
+        "ru": "Идти пешком очень долго. Наверное, нам надо сесть на автобус.",
+        "learn": 0
+      },
+      {
+        "eng": "Would you care for a walk?",
+        "ru": "Не хотите пройтись?",
+        "learn": 0
+      },
+      {
+        "eng": "I'll join you in your walk.",
+        "ru": "Я пройдусь с вами.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't walk on the wet floor!",
+        "ru": "Не ходите по мокрому полу!",
+        "learn": 0
+      },
+      {
+        "eng": "Is your grandson walking yet?",
+        "ru": "Твой внук уже ходит?",
+        "learn": 1
+      },
+      {
+        "eng": "We went for a walk in the park.",
+        "ru": "Мы пошли в парк прогуляться.",
+        "learn": 0
+      },
+      {
+        "eng": "We took a walk after supper.",
+        "ru": "Мы совершили прогулку после ужина.",
+        "learn": 0
+      },
+      {
+        "eng": "We like to walk every Sunday",
+        "ru": "Нам нравится гулять каждое воскресенье.",
+        "learn": 1
+      },
+      {
+        "eng": "Grandma's out walking the dog.",
+        "ru": "Бабушка вышла погулять с собакой.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't look back while you walk.",
+        "ru": "Не оглядывайся, когда идёшь.",
+        "learn": 0
+      },
+      {
+        "eng": "He had a jaunty walk.",
+        "ru": "У него была бодрая походка.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's walk round the block.",
+        "ru": "Давайте прогуляемся вокруг квартала.",
+        "learn": 1
+      },
+      {
+        "eng": "He walked into the ambush.",
+        "ru": "Он натолкнулся на засаду.",
+        "learn": 0
+      },
+      {
+        "eng": "He took a walk after lunch.",
+        "ru": "Он вышел прогуляться после обеда.",
+        "learn": 0
+      },
+      {
+        "eng": "My shoes squeak when I walk.",
+        "ru": "Мои туфли скрипят при ходьбе.",
+        "learn": 0
+      },
+      {
+        "eng": "She walks with a slight limp",
+        "ru": "Она ходит слегка прихрамывая",
+        "learn": 0
+      },
+      {
+        "eng": "The patient cannot walk yet.",
+        "ru": "Пациент пока что не может ходить.",
+        "learn": 0
+      },
+      {
+        "eng": "She took a walk in the snow.",
+        "ru": "Она прогулялась под снегом.",
+        "learn": 0
+      },
+      {
+        "eng": "The branches roofed the walk.",
+        "ru": "Ветви образовывали свод над тропинкой.",
+        "learn": 0
+      },
+      {
+        "eng": "She can no longer walk unaided.",
+        "ru": "Она больше не может ходить без посторонней помощи.",
+        "learn": 0
+      },
+      {
+        "eng": "Does God walk among us?",
+        "ru": "Идёт ли Бог с нами? / Живёт ли Бог среди нас?",
+        "learn": 0
+      },
+      {
+        "eng": "a brisk walk in the park",
+        "ru": "прогулка в парке быстрым шагом / энергичная прогулка в парке",
+        "learn": 0
+      },
+      {
+        "eng": "She walks 3 miles every day.",
+        "ru": "Каждый день она проходит пешком три мили.",
+        "learn": 0
+      },
+      {
+        "eng": "My pen seems to have walked.",
+        "ru": "Похоже, моей ручке кто-то приделал ноги.",
+        "learn": 0
+      },
+      {
+        "eng": "I could not walk any farther.",
+        "ru": "Дальше идти я уже не мог. / Я не мог больше ступить ни шагу.",
+        "learn": 1
+      }
+    ]
+  }
 }

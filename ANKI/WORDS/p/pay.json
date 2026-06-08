@@ -1,90 +1,179 @@
 {
-    "pay": {
-        "comment": [
-            "paid",
-            "payment",
-            "payable",
-            "taxpayer",
-            "repay"
-        ],
-        "translate": "платный, рентабельный, плата, зарплата, выплата, платить, платиться",
-        "transcription": " |peɪ|",
-        "antonyms": [],
-        "mnemonic": [
-            "pay [пэй] платить - (Пей) и плати.",
-            "pay [peı]\nrepay [ri:'peɪ] - уплачивать, выплачивать\npaying - выгодный, доходный\n***\nКак ОПЛАТИШЬ, так и пей. (это) pay\nЗарплата, выплата.\n***\nЯ хочу сказать \"say\",\nчтобы выдавали зарплату \"pay\"\nкаждый день \"day\"."
-        ],
-        "examples": [
-            "It has been paid for.",
-            "Can I pay by credit card?",
-            "I'll make him pay!",
-            "You'll pay for this!",
-            "How much do they pay you?",
-            "I am well / badly paid.",
-            "Crime doesn't pay.",
-            "We paid L500 for this car.",
-            "Mum paid for my driving lessons.",
-            "Don't pay him any mind.",
-            "My parents paid for my education.",
-            "I am paid weekly / monthly.",
-            "He wanted to be paid in dollars.",
-            "How would you like to pay?",
-            "I forgot to pay the gas bill!",
-            "They paid dearly for their mistakes.",
-            "She had to pay a £35 fine for speeding.",
-            "You can't pay me to do that.",
-            "We get paid weekly on Fridays.",
-            "I paid him $5 to cut the grass.",
-            "He wasted his pay on drink.",
-            "They paid themselves with words.",
-            "I came by to pay my respects (=visit or send a polite greeting to someone) to Mrs Owens.",
-            "It pays to go through the trouble.",
-            "They're only paid about £4 an hour.",
-            "You'd get a discount for paying cash.",
-            "I was just trying to pay her a compliment.",
-            "The shares pay 2 per cent.",
-            "You pay tax at the basic rate.",
-            "You'll pay for this opinion later."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "За это уже уплачено.",
-            "Могу ли я заплатить кредитной картой?",
-            "Я заставлю его заплатить!",
-            "Ты за это ещё поплатишься!",
-            "Сколько (они) тебе платят?",
-            "Мне платят хорошо / плохо.",
-            "Преступление никогда не оправдывает себя. (расхожее выражение)",
-            "Мы заплатили за эту машину пятьсот фунтов.",
-            "Мама оплатила мои уроки вождения.",
-            "Не обращайте на него внимания.",
-            "За моё образование платили родители.",
-            "Мне платят еженедельно / ежемесячно.",
-            "Он хотел, чтобы ему заплатили в долларах.",
-            "Каким способом вы бы хотели заплатить?",
-            "Я забыл оплатить счёт за газ!",
-            "Они дорого заплатили за свои ошибки.",
-            "Ей пришлось заплатить тридцать пять фунтов штрафа за превышение скорости.",
-            "Нет, ты не можешь нанять меня для этого дела.",
-            "Нам платят каждую неделю, по пятницам.",
-            "Я дал ему пять долларов, чтобы он подстриг траву.",
-            "Он потратил всю зарплату на выпивку.",
-            "Они отомстили за себя словами.",
-            "Я пришёл засвидетельствовать своё почтение (т.е. навестить или вежливо поприветствовать) миссис Оуэнс.",
-            "Это стоит затраченных усилий.",
-            "Им платят всего около четырёх фунтов в час.",
-            "При оплате наличными вам дали бы скидку.",
-            "Я просто пытался сделать ей комплимент.",
-            "Акции приносят два процента дохода.",
-            "Вы платите налог по базовой ставке.",
-            "Ты ещё заплатишь за такой отзыв."
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитивный_оборот_с_for",
-            "Инфинитив_-_инфинитивный_оборот_с_for(после_слов)",
-            "Инфинитив",
-            "all_words"
-        ]
-    }
+  "pay": {
+    "comment": [
+      "paid |peɪd|,                                          paid |peɪd|",
+      "paid",
+      "payment",
+      "payable",
+      "taxpayer",
+      "repay"
+    ],
+    "translate": "платный, рентабельный, плата, зарплата, выплата, платить, платиться",
+    "transcription": " |peɪ|",
+    "antonyms": [],
+    "mnemonic": [
+      "pay [пэй] платить - (Пей) и плати.",
+      "pay [peı]\nrepay [ri:'peɪ] - уплачивать, выплачивать\npaying - выгодный, доходный\n***\nКак ОПЛАТИШЬ, так и пей. (это) pay\nЗарплата, выплата.\n***\nЯ хочу сказать \"say\",\nчтобы выдавали зарплату \"pay\"\nкаждый день \"day\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитивный_оборот_с_for",
+      "Инфинитив_-_инфинитивный_оборот_с_for(после_слов)",
+      "Инфинитив",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "It has been paid for.",
+        "ru": "За это уже уплачено.",
+        "learn": 0
+      },
+      {
+        "eng": "Can I pay by credit card?",
+        "ru": "Могу ли я заплатить кредитной картой?",
+        "learn": 1
+      },
+      {
+        "eng": "I'll make him pay!",
+        "ru": "Я заставлю его заплатить!",
+        "learn": 0
+      },
+      {
+        "eng": "You'll pay for this!",
+        "ru": "Ты за это ещё поплатишься!",
+        "learn": 0
+      },
+      {
+        "eng": "How much do they pay you?",
+        "ru": "Сколько (они) тебе платят?",
+        "learn": 0
+      },
+      {
+        "eng": "I am well / badly paid.",
+        "ru": "Мне платят хорошо / плохо.",
+        "learn": 0
+      },
+      {
+        "eng": "Crime doesn't pay.",
+        "ru": "Преступление никогда не оправдывает себя. (расхожее выражение)",
+        "learn": 0
+      },
+      {
+        "eng": "We paid L500 for this car.",
+        "ru": "Мы заплатили за эту машину пятьсот фунтов.",
+        "learn": 0
+      },
+      {
+        "eng": "Mum paid for my driving lessons.",
+        "ru": "Мама оплатила мои уроки вождения.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't pay him any mind.",
+        "ru": "Не обращайте на него внимания.",
+        "learn": 0
+      },
+      {
+        "eng": "My parents paid for my education.",
+        "ru": "За моё образование платили родители.",
+        "learn": 0
+      },
+      {
+        "eng": "I am paid weekly / monthly.",
+        "ru": "Мне платят еженедельно / ежемесячно.",
+        "learn": 1
+      },
+      {
+        "eng": "He wanted to be paid in dollars.",
+        "ru": "Он хотел, чтобы ему заплатили в долларах.",
+        "learn": 0
+      },
+      {
+        "eng": "How would you like to pay?",
+        "ru": "Каким способом вы бы хотели заплатить?",
+        "learn": 0
+      },
+      {
+        "eng": "I forgot to pay the gas bill!",
+        "ru": "Я забыл оплатить счёт за газ!",
+        "learn": 0
+      },
+      {
+        "eng": "They paid dearly for their mistakes.",
+        "ru": "Они дорого заплатили за свои ошибки.",
+        "learn": 0
+      },
+      {
+        "eng": "She had to pay a £35 fine for speeding.",
+        "ru": "Ей пришлось заплатить тридцать пять фунтов штрафа за превышение скорости.",
+        "learn": 0
+      },
+      {
+        "eng": "You can't pay me to do that.",
+        "ru": "Нет, ты не можешь нанять меня для этого дела.",
+        "learn": 0
+      },
+      {
+        "eng": "We get paid weekly on Fridays.",
+        "ru": "Нам платят каждую неделю, по пятницам.",
+        "learn": 0
+      },
+      {
+        "eng": "I paid him $5 to cut the grass.",
+        "ru": "Я дал ему пять долларов, чтобы он подстриг траву.",
+        "learn": 0
+      },
+      {
+        "eng": "He wasted his pay on drink.",
+        "ru": "Он потратил всю зарплату на выпивку.",
+        "learn": 0
+      },
+      {
+        "eng": "They paid themselves with words.",
+        "ru": "Они отомстили за себя словами.",
+        "learn": 0
+      },
+      {
+        "eng": "I came by to pay my respects (=visit or send a polite greeting to someone) to Mrs Owens.",
+        "ru": "Я пришёл засвидетельствовать своё почтение (т.е. навестить или вежливо поприветствовать) миссис Оуэнс.",
+        "learn": 0
+      },
+      {
+        "eng": "It pays to go through the trouble.",
+        "ru": "Это стоит затраченных усилий.",
+        "learn": 0
+      },
+      {
+        "eng": "They're only paid about £4 an hour.",
+        "ru": "Им платят всего около четырёх фунтов в час.",
+        "learn": 0
+      },
+      {
+        "eng": "You'd get a discount for paying cash.",
+        "ru": "При оплате наличными вам дали бы скидку.",
+        "learn": 0
+      },
+      {
+        "eng": "I was just trying to pay her a compliment.",
+        "ru": "Я просто пытался сделать ей комплимент.",
+        "learn": 0
+      },
+      {
+        "eng": "The shares pay 2 per cent.",
+        "ru": "Акции приносят два процента дохода.",
+        "learn": 0
+      },
+      {
+        "eng": "You pay tax at the basic rate.",
+        "ru": "Вы платите налог по базовой ставке.",
+        "learn": 0
+      },
+      {
+        "eng": "You'll pay for this opinion later.",
+        "ru": "Ты ещё заплатишь за такой отзыв.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,84 +1,172 @@
 {
-    "resolve": {
-        "comment": [
-            "resolution",
-            "solve",
-            "dissolve"
-        ],
-        "translate": "решимость, решение, решительность, решать, разрешать, решаться",
-        "transcription": " |rɪˈzɑːlv|",
-        "antonyms": [],
-        "mnemonic": [
-            "solve [sɔlv]\nresolve [rɪ'zɒlv]\nabsolve [əb'zɔlv]\nРЕШИМ проблему словом. (это) solve\nРЕШИЛ проблему - выпил рассол (в). (это) solve\n***\nЯ РЕШИЛСЯ, хоть и до дури|зол (в). (это) resolve\n***\nОн не ПРОСТИТ - он на особ|зол (в). (это) absolve"
-        ],
-        "examples": [
-            "She resolved to work harder.",
-            "I am resolved on leaving this country.",
-            "We must not falter in our resolve.",
-            "The brothers finally resolved their conflict.",
-            "Success is gained by resolving on winning.",
-            "The resolve has slowly worn away.",
-            "Any misunderstanding can resolve itself into a quarrel.",
-            "Mary resolved that she would stop smoking.",
-            "Recent events strengthened her resolve to find out the truth.",
-            "Sometimes islands resolved into headlands.",
-            "This chemical substance can he resolved into an acid and oxygen.",
-            "He resolved that he would start dating again.",
-            "Barnet was desperate for money to resolve his financial problems.",
-            "The committee resolved to authorize this step.",
-            "I'd rather resolve our differences without going to court.",
-            "The crisis was resolved by negotiations.",
-            "The authorities have made no move to resolve the conflict.",
-            "We need to resolve our conflicts without resorting to war.",
-            "We hope they will be able to resolve the situation without resort to force.",
-            "The recent setbacks have not weakened our resolve.",
-            "The company must first resolve questions of strategy.",
-            "The Senate resolved to accept the President's proposals.",
-            "Civic leaders powwowed for hours trying to resolve the issue.",
-            "His speech did nothing to resolve doubts about the company's future.",
-            "a naval pilot who has been unwavering in his resolve to become an astronaut",
-            "The committee resolved to override the veto.",
-            "The issue of the book's authorship was never resolved.",
-            "Such policies weaken the resolve of potential troublemakers.",
-            "The treaty is the latest attempt to resolve the ten-year conflagration.",
-            "If you two cannot resolve this argument on your own, we'll have to bring in a mediator."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она решила работать усерднее.",
-            "Я окончательно решил уехать из этой страны.",
-            "Мы не должны сомневаться в своем решении.",
-            "Братья, наконец, уладили конфликт.",
-            "Успех достигается, когда ты твёрдо решил победить.",
-            "Постепенно от решительности не осталось и следа.",
-            "Любое непонимание может кончиться ссорой.",
-            "Мэри решила, что бросит курить.",
-            "Последние события укрепили её решимость докопаться до истины.",
-            "Иногда острова становились мысами.",
-            "Это вещество распадается на кислоту и кислород.",
-            "Он решил, что снова начнёт ходить на свидания.",
-            "Барнет отчаянно нуждался в деньгах, чтобы решить свои финансовые проблемы.",
-            "Комитет принял решение разрешить это действие.",
-            "Я предпочел бы уладить наши разногласия без обращения в суд.",
-            "Кризис был урегулирован путём переговоров.",
-            "Власти не сделали никаких шагов для улаживания данного конфликта.",
-            "Мы должны решать наши противоречия, не прибегая к войне.",
-            "Мы надеемся, что они смогут разрешить ситуацию, не прибегая к силе.",
-            "Последние неудачи не ослабили нашей решимости.",
-            "Компания должна сначала решить стратегические вопросы.",
-            "Сенат постановил принять предложения президента.",
-            "Общественные лидеры совещались несколько часов, пытаясь решить этот вопрос.",
-            "Его речь нисколько не развеяла сомнения относительно будущего компании.",
-            "военно-морской лётчик, непоколебимый в своей решимости стать космонавтом",
-            "Комиссия приняла решение отменить вето.",
-            "Вопрос о том, кто же является автором книги, так и не был решён.",
-            "Такая стратегия ослабляет решимость потенциальных нарушителей спокойствия.",
-            "Данный договор является последней попыткой потушить этот десятилетний конфликт.",
-            "Если вы не cможете разрешить этот спор самостоятельно, нам придётся задействовать посредника."
-        ],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "resolve": {
+    "comment": [
+      "resolution",
+      "solve",
+      "dissolve"
+    ],
+    "translate": "решимость, решение, решительность, решать, разрешать, решаться",
+    "transcription": " |rɪˈzɑːlv|",
+    "antonyms": [],
+    "mnemonic": [
+      "solve [sɔlv]\nresolve [rɪ'zɒlv]\nabsolve [əb'zɔlv]\nРЕШИМ проблему словом. (это) solve\nРЕШИЛ проблему - выпил рассол (в). (это) solve\n***\nЯ РЕШИЛСЯ, хоть и до дури|зол (в). (это) resolve\n***\nОн не ПРОСТИТ - он на особ|зол (в). (это) absolve"
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [
+      "infinitive_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "She resolved to work harder.",
+        "ru": "Она решила работать усерднее.",
+        "learn": 0
+      },
+      {
+        "eng": "I am resolved on leaving this country.",
+        "ru": "Я окончательно решил уехать из этой страны.",
+        "learn": 0
+      },
+      {
+        "eng": "We must not falter in our resolve.",
+        "ru": "Мы не должны сомневаться в своем решении.",
+        "learn": 0
+      },
+      {
+        "eng": "The brothers finally resolved their conflict.",
+        "ru": "Братья, наконец, уладили конфликт.",
+        "learn": 0
+      },
+      {
+        "eng": "Success is gained by resolving on winning.",
+        "ru": "Успех достигается, когда ты твёрдо решил победить.",
+        "learn": 0
+      },
+      {
+        "eng": "The resolve has slowly worn away.",
+        "ru": "Постепенно от решительности не осталось и следа.",
+        "learn": 0
+      },
+      {
+        "eng": "Any misunderstanding can resolve itself into a quarrel.",
+        "ru": "Любое непонимание может кончиться ссорой.",
+        "learn": 0
+      },
+      {
+        "eng": "Mary resolved that she would stop smoking.",
+        "ru": "Мэри решила, что бросит курить.",
+        "learn": 0
+      },
+      {
+        "eng": "Recent events strengthened her resolve to find out the truth.",
+        "ru": "Последние события укрепили её решимость докопаться до истины.",
+        "learn": 0
+      },
+      {
+        "eng": "Sometimes islands resolved into headlands.",
+        "ru": "Иногда острова становились мысами.",
+        "learn": 0
+      },
+      {
+        "eng": "This chemical substance can he resolved into an acid and oxygen.",
+        "ru": "Это вещество распадается на кислоту и кислород.",
+        "learn": 0
+      },
+      {
+        "eng": "He resolved that he would start dating again.",
+        "ru": "Он решил, что снова начнёт ходить на свидания.",
+        "learn": 0
+      },
+      {
+        "eng": "Barnet was desperate for money to resolve his financial problems.",
+        "ru": "Барнет отчаянно нуждался в деньгах, чтобы решить свои финансовые проблемы.",
+        "learn": 0
+      },
+      {
+        "eng": "The committee resolved to authorize this step.",
+        "ru": "Комитет принял решение разрешить это действие.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd rather resolve our differences without going to court.",
+        "ru": "Я предпочел бы уладить наши разногласия без обращения в суд.",
+        "learn": 0
+      },
+      {
+        "eng": "The crisis was resolved by negotiations.",
+        "ru": "Кризис был урегулирован путём переговоров.",
+        "learn": 0
+      },
+      {
+        "eng": "The authorities have made no move to resolve the conflict.",
+        "ru": "Власти не сделали никаких шагов для улаживания данного конфликта.",
+        "learn": 0
+      },
+      {
+        "eng": "We need to resolve our conflicts without resorting to war.",
+        "ru": "Мы должны решать наши противоречия, не прибегая к войне.",
+        "learn": 0
+      },
+      {
+        "eng": "We hope they will be able to resolve the situation without resort to force.",
+        "ru": "Мы надеемся, что они смогут разрешить ситуацию, не прибегая к силе.",
+        "learn": 0
+      },
+      {
+        "eng": "The recent setbacks have not weakened our resolve.",
+        "ru": "Последние неудачи не ослабили нашей решимости.",
+        "learn": 0
+      },
+      {
+        "eng": "The company must first resolve questions of strategy.",
+        "ru": "Компания должна сначала решить стратегические вопросы.",
+        "learn": 1
+      },
+      {
+        "eng": "The Senate resolved to accept the President's proposals.",
+        "ru": "Сенат постановил принять предложения президента.",
+        "learn": 0
+      },
+      {
+        "eng": "Civic leaders powwowed for hours trying to resolve the issue.",
+        "ru": "Общественные лидеры совещались несколько часов, пытаясь решить этот вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "His speech did nothing to resolve doubts about the company's future.",
+        "ru": "Его речь нисколько не развеяла сомнения относительно будущего компании.",
+        "learn": 0
+      },
+      {
+        "eng": "a naval pilot who has been unwavering in his resolve to become an astronaut",
+        "ru": "военно-морской лётчик, непоколебимый в своей решимости стать космонавтом",
+        "learn": 0
+      },
+      {
+        "eng": "The committee resolved to override the veto.",
+        "ru": "Комиссия приняла решение отменить вето.",
+        "learn": 1
+      },
+      {
+        "eng": "The issue of the book's authorship was never resolved.",
+        "ru": "Вопрос о том, кто же является автором книги, так и не был решён.",
+        "learn": 0
+      },
+      {
+        "eng": "Such policies weaken the resolve of potential troublemakers.",
+        "ru": "Такая стратегия ослабляет решимость потенциальных нарушителей спокойствия.",
+        "learn": 0
+      },
+      {
+        "eng": "The treaty is the latest attempt to resolve the ten-year conflagration.",
+        "ru": "Данный договор является последней попыткой потушить этот десятилетний конфликт.",
+        "learn": 0
+      },
+      {
+        "eng": "If you two cannot resolve this argument on your own, we'll have to bring in a mediator.",
+        "ru": "Если вы не cможете разрешить этот спор самостоятельно, нам придётся задействовать посредника.",
+        "learn": 0
+      }
+    ]
+  }
 }

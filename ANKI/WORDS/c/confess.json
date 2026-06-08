@@ -1,65 +1,126 @@
 {
-    "confess": {
-        "comment": [
-            "confession",
-            "conference"
-        ],
-        "translate": "исповедовать, исповедоваться, признавать, признаваться, покаяться, сознаваться",
-        "transcription": " |kənˈfes|",
-        "antonyms": [],
-        "mnemonic": [
-            "confess [kən'fes]\n***\nПРИЗНАЛСЯ, что украл конфет (с). (это) confess"
-        ],
-        "examples": [
-            "I must confess I don't visit my parents as often as I should.",
-            "I confessed my sins to the priest.",
-            "You should confess and redress your errors.",
-            "He willingly confessed his crime.",
-            "She confessed that she had taken the money.",
-            "I have to confess that I was afraid at first.",
-            "I must confess it has given me a stomach-ache.",
-            "The prisoner confessed to his part in the crime.",
-            "He used terror to make them confess.",
-            "Many Christians regularly confess to a priest.",
-            "He felt a desperate urge to confess.",
-            "Father, I'd like to confess a sin I thought I could live with.",
-            "I have to confess to a hatred of modern music.",
-            "He knelt and confessed his sin.",
-            "Torture was used and Fian confessed.",
-            "My husband confessed he'd been having an affair with a woman in his office.",
-            "Edwards confessed to being a spy for the KGB.",
-            "Occasionally people confess to crimes they haven't committed just to get attention.",
-            "He confessed after being questioned for many hours.",
-            "She needed to confess her sins and ask for forgiveness.",
-            "Marsha confessed that she didn't really know how to work the computer."
-        ],
-        "example_translate": [
-            "Я должен признаться, что навещаю родителей не так часто, как надо бы.",
-            "Я исповедовался священнику в своих грехах.",
-            "Вам следует признать и исправить ваши ошибки.",
-            "Он добровольно признался в своем преступлении.",
-            "Она призналась, что взяла эти деньги.",
-            "Должен признаться, что сначала мне было страшно.",
-            "Должен признаться, что это вызвало у меня боли в животе.",
-            "Обвиняемый признался, что был замешан в преступлении.",
-            "Он запугивал их, чтобы заставить сознаться.",
-            "Многие христиане регулярно исповедуются перед священником.",
-            "Он почувствовал отчаянное желание во всём признаться.",
-            "Отец мой, я хотел бы исповедаться в грехе, с которым, как мне казалось, вполне мог жить.",
-            "Должен признаться, я ненавижу современную музыку.",
-            "Он опустился на колени и исповедался.",
-            "Были применены пытки, и Фиан признался.",
-            "Мой муж признался, что у него был роман с одной из сослуживиц.",
-            "Эдвардс признался в том, что он является агентом КГБ.",
-            "Иногда люди сознаются в преступлениях, которых не совершали, просто чтобы привлечь к себе внимание.",
-            "После многочасового допроса он сознался.",
-            "Ей нужно было признаться в своих грехах и попросить прощения.",
-            "Марша призналась, что на самом деле не умеет работать на компьютере."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "confess": {
+    "comment": [
+      "confession",
+      "conference"
+    ],
+    "translate": "исповедовать, исповедоваться, признавать, признаваться, покаяться, сознаваться",
+    "transcription": " |kənˈfes|",
+    "antonyms": [],
+    "mnemonic": [
+      "confess [kən'fes]\n***\nПРИЗНАЛСЯ, что украл конфет (с). (это) confess"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "gerund_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I must confess I don't visit my parents as often as I should.",
+        "ru": "Я должен признаться, что навещаю родителей не так часто, как надо бы.",
+        "learn": 0
+      },
+      {
+        "eng": "I confessed my sins to the priest.",
+        "ru": "Я исповедовался священнику в своих грехах.",
+        "learn": 0
+      },
+      {
+        "eng": "You should confess and redress your errors.",
+        "ru": "Вам следует признать и исправить ваши ошибки.",
+        "learn": 0
+      },
+      {
+        "eng": "He willingly confessed his crime.",
+        "ru": "Он добровольно признался в своем преступлении.",
+        "learn": 0
+      },
+      {
+        "eng": "She confessed that she had taken the money.",
+        "ru": "Она призналась, что взяла эти деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "I have to confess that I was afraid at first.",
+        "ru": "Должен признаться, что сначала мне было страшно.",
+        "learn": 0
+      },
+      {
+        "eng": "I must confess it has given me a stomach-ache.",
+        "ru": "Должен признаться, что это вызвало у меня боли в животе.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner confessed to his part in the crime.",
+        "ru": "Обвиняемый признался, что был замешан в преступлении.",
+        "learn": 0
+      },
+      {
+        "eng": "He used terror to make them confess.",
+        "ru": "Он запугивал их, чтобы заставить сознаться.",
+        "learn": 0
+      },
+      {
+        "eng": "Many Christians regularly confess to a priest.",
+        "ru": "Многие христиане регулярно исповедуются перед священником.",
+        "learn": 0
+      },
+      {
+        "eng": "He felt a desperate urge to confess.",
+        "ru": "Он почувствовал отчаянное желание во всём признаться.",
+        "learn": 1
+      },
+      {
+        "eng": "Father, I'd like to confess a sin I thought I could live with.",
+        "ru": "Отец мой, я хотел бы исповедаться в грехе, с которым, как мне казалось, вполне мог жить.",
+        "learn": 0
+      },
+      {
+        "eng": "I have to confess to a hatred of modern music.",
+        "ru": "Должен признаться, я ненавижу современную музыку.",
+        "learn": 0
+      },
+      {
+        "eng": "He knelt and confessed his sin.",
+        "ru": "Он опустился на колени и исповедался.",
+        "learn": 0
+      },
+      {
+        "eng": "Torture was used and Fian confessed.",
+        "ru": "Были применены пытки, и Фиан признался.",
+        "learn": 0
+      },
+      {
+        "eng": "My husband confessed he'd been having an affair with a woman in his office.",
+        "ru": "Мой муж признался, что у него был роман с одной из сослуживиц.",
+        "learn": 0
+      },
+      {
+        "eng": "Edwards confessed to being a spy for the KGB.",
+        "ru": "Эдвардс признался в том, что он является агентом КГБ.",
+        "learn": 1
+      },
+      {
+        "eng": "Occasionally people confess to crimes they haven't committed just to get attention.",
+        "ru": "Иногда люди сознаются в преступлениях, которых не совершали, просто чтобы привлечь к себе внимание.",
+        "learn": 1
+      },
+      {
+        "eng": "He confessed after being questioned for many hours.",
+        "ru": "После многочасового допроса он сознался.",
+        "learn": 0
+      },
+      {
+        "eng": "She needed to confess her sins and ask for forgiveness.",
+        "ru": "Ей нужно было признаться в своих грехах и попросить прощения.",
+        "learn": 1
+      },
+      {
+        "eng": "Marsha confessed that she didn't really know how to work the computer.",
+        "ru": "Марша призналась, что на самом деле не умеет работать на компьютере.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,84 +1,172 @@
 {
-    "excuse": {
-        "comment": [
-            "accuse",
-            "accusation"
-        ],
-        "translate": "оправдание, предлог, извинение, оправдывать, служить оправданием",
-        "transcription": " |ɪkˈskjuːs|",
-        "antonyms": [],
-        "mnemonic": [
-            "excuse [икскью'с] извинение, оправдание - Мистер (Икс к юз-ерам) обратился с извинениями.",
-            "accuse [ə'kju: z]\nexcuse [iks'kju: s] - извинение, извинять\nrecuse [rɪ'kju:z] - отказываться\n***\nОБВИНЯЛ меня не|Круз. (это) accuse"
-        ],
-        "examples": [
-            "I need an excuse to call her.",
-            "That excuse simply won't wash.",
-            "Nothing can excuse such neglect.",
-            "Excuse my ignorance, but how does it actually work?",
-            "Excuse / pardon my French!",
-            "He gave a flimsy excuse.",
-            "He excused the class.",
-            "She invented a clever excuse.",
-            "I'm tired of listening to his excuses.",
-            "There is no excuse for such rudeness.",
-            "What's your excuse for being so late?",
-            "He's always making excuses for himself.",
-            "May I please be excused from the table?",
-            "Excuse me, I have to use the facilities.",
-            "My teacher rejected my excuse for being late.",
-            "That's a lame excuse.",
-            "Say “excuse me” when you burp.",
-            "He kept finding excuses to stay.",
-            "She was trying to think up an excuse.",
-            "Is that the best excuse you can come up with?",
-            "They were looking for any excuse to start a fight.",
-            "Excuse me, have you got change for a pound?",
-            "What kind of excuse can you scrape up this time?",
-            "Please excuse my dirty hands.",
-            "Please excuse me from this class",
-            "Please excuse my bad handwriting.",
-            "a fabricated excuse for his absence",
-            "That's the sorriest excuse I've heard.",
-            "There's no excuse, you know.",
-            "I was excused from jury duty."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мне нужен предлог, чтобы ей позвонить.",
-            "Такое оправдание неубедительно.",
-            "Ничто не может служить оправданием такой небрежности.",
-            "Простите мое невежество, но как это работает на практике?",
-            "Извините за выражение!",
-            "Он привёл слабую отговорку.",
-            "С позволения (преподавателя) он ушел с урока.",
-            "Она выдумала хитрую отговорку.",
-            "Я устала /мне надоело/ выслушивать его оправдания.",
-            "Подобному хамству нет никакого оправдания.",
-            "По какому это поводу ты так поздно? / И какова же причина такого опоздания?",
-            "Он вечно находит себе какие-то оправдания.",
-            "Разрешите мне, пожалуйста, выйти из-за стола.",
-            "Простите, мне нужно в уборную.",
-            "Учитель не принял мою отговорку по поводу опоздания.",
-            "Это неубедительная отговорка. / Это просто отмазка.",
-            "Скажи \"извините\", когда ты срыгиваешь. (наставление ребёнку)",
-            "Он постоянно находил какие-то отговорки, чтобы остаться.",
-            "Она пыталась придумать оправдание.",
-            "Это лучшее оправдание до которого ты смог додуматься?",
-            "Они искали любой предлог, чтобы начать драку.",
-            "Извините, вы не могли бы разменять фунт (стерлингов)?",
-            "Какое извинение ты придумаешь на этот раз?",
-            "Прошу прощения за грязные руки.",
-            "Прошу отпустить меня с этого урока.",
-            "Прошу извинить меня за плохой почерк.",
-            "выдуманное оправдание его отсутствия",
-            "Это самое жалкое оправдание, которое я когда-либо слышал.",
-            "Знаешь, этому нет оправдания.",
-            "Меня освободили от исполнения обязанностей присяжного."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "excuse": {
+    "comment": [
+      "accuse",
+      "accusation"
+    ],
+    "translate": "оправдание, предлог, извинение, оправдывать, служить оправданием",
+    "transcription": " |ɪkˈskjuːs|",
+    "antonyms": [],
+    "mnemonic": [
+      "excuse [икскью'с] извинение, оправдание - Мистер (Икс к юз-ерам) обратился с извинениями.",
+      "accuse [ə'kju: z]\nexcuse [iks'kju: s] - извинение, извинять\nrecuse [rɪ'kju:z] - отказываться\n***\nОБВИНЯЛ меня не|Круз. (это) accuse"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "gerund_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I need an excuse to call her.",
+        "ru": "Мне нужен предлог, чтобы ей позвонить.",
+        "learn": 0
+      },
+      {
+        "eng": "That excuse simply won't wash.",
+        "ru": "Такое оправдание неубедительно.",
+        "learn": 0
+      },
+      {
+        "eng": "Nothing can excuse such neglect.",
+        "ru": "Ничто не может служить оправданием такой небрежности.",
+        "learn": 1
+      },
+      {
+        "eng": "Excuse my ignorance, but how does it actually work?",
+        "ru": "Простите мое невежество, но как это работает на практике?",
+        "learn": 0
+      },
+      {
+        "eng": "Excuse / pardon my French!",
+        "ru": "Извините за выражение!",
+        "learn": 0
+      },
+      {
+        "eng": "He gave a flimsy excuse.",
+        "ru": "Он привёл слабую отговорку.",
+        "learn": 0
+      },
+      {
+        "eng": "He excused the class.",
+        "ru": "С позволения (преподавателя) он ушел с урока.",
+        "learn": 0
+      },
+      {
+        "eng": "She invented a clever excuse.",
+        "ru": "Она выдумала хитрую отговорку.",
+        "learn": 1
+      },
+      {
+        "eng": "I'm tired of listening to his excuses.",
+        "ru": "Я устала /мне надоело/ выслушивать его оправдания.",
+        "learn": 0
+      },
+      {
+        "eng": "There is no excuse for such rudeness.",
+        "ru": "Подобному хамству нет никакого оправдания.",
+        "learn": 0
+      },
+      {
+        "eng": "What's your excuse for being so late?",
+        "ru": "По какому это поводу ты так поздно? / И какова же причина такого опоздания?",
+        "learn": 0
+      },
+      {
+        "eng": "He's always making excuses for himself.",
+        "ru": "Он вечно находит себе какие-то оправдания.",
+        "learn": 0
+      },
+      {
+        "eng": "May I please be excused from the table?",
+        "ru": "Разрешите мне, пожалуйста, выйти из-за стола.",
+        "learn": 0
+      },
+      {
+        "eng": "Excuse me, I have to use the facilities.",
+        "ru": "Простите, мне нужно в уборную.",
+        "learn": 0
+      },
+      {
+        "eng": "My teacher rejected my excuse for being late.",
+        "ru": "Учитель не принял мою отговорку по поводу опоздания.",
+        "learn": 1
+      },
+      {
+        "eng": "That's a lame excuse.",
+        "ru": "Это неубедительная отговорка. / Это просто отмазка.",
+        "learn": 0
+      },
+      {
+        "eng": "Say “excuse me” when you burp.",
+        "ru": "Скажи \"извините\", когда ты срыгиваешь. (наставление ребёнку)",
+        "learn": 0
+      },
+      {
+        "eng": "He kept finding excuses to stay.",
+        "ru": "Он постоянно находил какие-то отговорки, чтобы остаться.",
+        "learn": 0
+      },
+      {
+        "eng": "She was trying to think up an excuse.",
+        "ru": "Она пыталась придумать оправдание.",
+        "learn": 0
+      },
+      {
+        "eng": "Is that the best excuse you can come up with?",
+        "ru": "Это лучшее оправдание до которого ты смог додуматься?",
+        "learn": 0
+      },
+      {
+        "eng": "They were looking for any excuse to start a fight.",
+        "ru": "Они искали любой предлог, чтобы начать драку.",
+        "learn": 0
+      },
+      {
+        "eng": "Excuse me, have you got change for a pound?",
+        "ru": "Извините, вы не могли бы разменять фунт (стерлингов)?",
+        "learn": 0
+      },
+      {
+        "eng": "What kind of excuse can you scrape up this time?",
+        "ru": "Какое извинение ты придумаешь на этот раз?",
+        "learn": 0
+      },
+      {
+        "eng": "Please excuse my dirty hands.",
+        "ru": "Прошу прощения за грязные руки.",
+        "learn": 0
+      },
+      {
+        "eng": "Please excuse me from this class",
+        "ru": "Прошу отпустить меня с этого урока.",
+        "learn": 0
+      },
+      {
+        "eng": "Please excuse my bad handwriting.",
+        "ru": "Прошу извинить меня за плохой почерк.",
+        "learn": 0
+      },
+      {
+        "eng": "a fabricated excuse for his absence",
+        "ru": "выдуманное оправдание его отсутствия",
+        "learn": 0
+      },
+      {
+        "eng": "That's the sorriest excuse I've heard.",
+        "ru": "Это самое жалкое оправдание, которое я когда-либо слышал.",
+        "learn": 0
+      },
+      {
+        "eng": "There's no excuse, you know.",
+        "ru": "Знаешь, этому нет оправдания.",
+        "learn": 1
+      },
+      {
+        "eng": "I was excused from jury duty.",
+        "ru": "Меня освободили от исполнения обязанностей присяжного.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,49 +1,205 @@
 {
-    "work out": {
-        "comment": [],
-        "translate": "1) Тренироваться, заниматься спортом 2) Разрешаться, складываться (о ситуации) 3) Вычислять, решать (проблему) ",
-        "transcription": " |ˈwɜːk ˈaʊt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "They work out together on weekends.",
-            "She works out every morning before work.",
-            "The plan worked out perfectly.",
-            "Can you work out the total cost?",
-            "I hope things work out for you.",
-            "Do you work out regularly?",
-            "Everything worked out in the end.",
-            "They worked out a solution together.",
-            "She worked out the math problem quickly.",
-            "I can't work out this equation.",
-            "How did your meeting work out?",
-            "Don't worry, it will work out.",
-            "He started working out to lose weight.",
-            "I work out at the gym three times a week.",
-            "Let me work out the details."
-        ],
-        "example_translate": [
-            "Они тренируются вместе по выходным.",
-            "Она занимается спортом каждое утро перед работой.",
-            "План сработал идеально.",
-            "Ты можешь вычислить общую стоимость?",
-            "Надеюсь, у тебя всё сложится хорошо.",
-            "Ты регулярно занимаешься спортом?",
-            "Всё разрешилось в конце концов.",
-            "Они вместе нашли решение.",
-            "Она быстро решила математическую задачу.",
-            "Я не могу решить это уравнение.",
-            "Как прошла твоя встреча?",
-            "Не волнуйся, всё получится.",
-            "Он начал тренироваться, чтобы похудеть.",
-            "Я тренируюсь в спортзале три раза в неделю.",
-            "Дай мне проработать детали."
-        ],
-        "synonyms": "Тренироваться, заниматься спортом - exercise, train\nРазрешаться, складываться (о ситуации) - resolve, turn out, end well\nВычислять, решать (проблему) - calculate, solve, figure out\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "work out": {
+    "comment": [],
+    "translate": "1) Тренироваться, заниматься спортом 2) Разрешаться, складываться (о ситуации) 3) Вычислять, решать (проблему) ",
+    "transcription": " |ˈwɜːk ˈaʊt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Тренироваться, заниматься спортом - exercise, train",
+      "Разрешаться, складываться (о ситуации) - resolve, turn out, end well",
+      "Вычислять, решать (проблему) - calculate, solve, figure out"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "They work out together on weekends.",
+        "ru": "Они тренируются вместе по выходным.",
+        "learn": 1
+      },
+      {
+        "eng": "She works out every morning before work.",
+        "ru": "Она занимается спортом каждое утро перед работой.",
+        "learn": 1
+      },
+      {
+        "eng": "The plan worked out perfectly.",
+        "ru": "План сработал идеально.",
+        "learn": 1
+      },
+      {
+        "eng": "Can you work out the total cost?",
+        "ru": "Ты можешь вычислить общую стоимость?",
+        "learn": 1
+      },
+      {
+        "eng": "I hope things work out for you.",
+        "ru": "Надеюсь, у тебя всё сложится хорошо.",
+        "learn": 1
+      },
+      {
+        "eng": "Do you work out regularly?",
+        "ru": "Ты регулярно занимаешься спортом?",
+        "learn": 1
+      },
+      {
+        "eng": "Everything worked out in the end.",
+        "ru": "Всё разрешилось в конце концов.",
+        "learn": 1
+      },
+      {
+        "eng": "They worked out a solution together.",
+        "ru": "Они вместе нашли решение.",
+        "learn": 1
+      },
+      {
+        "eng": "She worked out the math problem quickly.",
+        "ru": "Она быстро решила математическую задачу.",
+        "learn": 1
+      },
+      {
+        "eng": "I can't work out this equation.",
+        "ru": "Я не могу решить это уравнение.",
+        "learn": 1
+      },
+      {
+        "eng": "How did your meeting work out?",
+        "ru": "Как прошла твоя встреча?",
+        "learn": 1
+      },
+      {
+        "eng": "Don't worry, it will work out.",
+        "ru": "Не волнуйся, всё получится.",
+        "learn": 1
+      },
+      {
+        "eng": "He started working out to lose weight.",
+        "ru": "Он начал тренироваться, чтобы похудеть.",
+        "learn": 1
+      },
+      {
+        "eng": "I work out at the gym three times a week.",
+        "ru": "Я тренируюсь в спортзале три раза в неделю.",
+        "learn": 1
+      },
+      {
+        "eng": "Let me work out the details.",
+        "ru": "Дай мне проработать детали.",
+        "learn": 1
+      },
+      {
+        "eng": "The plan worked out.",
+        "ru": "План сработал.",
+        "learn": 0
+      },
+      {
+        "eng": "It will all work out somehow.",
+        "ru": "Всё как-нибудь образуется.",
+        "learn": 0
+      },
+      {
+        "eng": "It'll work out right in the end.",
+        "ru": "В конце концов, всё получится как надо. / Всё закончится хорошо.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't work out how to put this table together.",
+        "ru": "Я не могу разобраться /понять/, как собрать этот стол.",
+        "learn": 0
+      },
+      {
+        "eng": "We need to work out how we're going to get there.",
+        "ru": "Нужно придумать, как нам туда попасть /добраться/.",
+        "learn": 0
+      },
+      {
+        "eng": "Use your head to work out the answer.",
+        "ru": "Чтобы найти ответ, хорошо подумайте.",
+        "learn": 0
+      },
+      {
+        "eng": "Our mission was to work out a trade agreement.",
+        "ru": "Нам было поручено разработать торговое соглашение.",
+        "learn": 0
+      },
+      {
+        "eng": "Things will work out, you'll see.",
+        "ru": "Всё получится, вот увидишь.",
+        "learn": 0
+      },
+      {
+        "eng": "I try and work out at the local gym once a week.",
+        "ru": "Я стараюсь заниматься в местном спортзале раз в неделю.",
+        "learn": 0
+      },
+      {
+        "eng": "Work out the maximum amount you can afford to spend.",
+        "ru": "Вычислите максимальную сумму, которую вы можете потратить.",
+        "learn": 0
+      },
+      {
+        "eng": "Every night he goes to work out with the other gym rats.",
+        "ru": "Каждый вечер он вместе с другими качками ходит /идёт/ заниматься спортом.",
+        "learn": 0
+      },
+      {
+        "eng": "Sit down and work out just what you spend.",
+        "ru": "Сядь и подсчитай, сколько именно ты тратишь.",
+        "learn": 0
+      },
+      {
+        "eng": "If we go by taxi, it's going to work out very expensive.",
+        "ru": "Если мы поедем на такси, это получится очень дорого.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm sorry it didn't work out, but no hard feelings, eh?",
+        "ru": "Прости, что ничего не получилось. Только без обид, ладно?",
+        "learn": 0
+      },
+      {
+        "eng": "We'll have to work out how much food we'll need for the party.",
+        "ru": "Нам нужно будет подсчитать, сколько еды нам понадобится для вечеринки.",
+        "learn": 0
+      },
+      {
+        "eng": "Work out the exact design before you start construction.",
+        "ru": "Перед началом строительства нужно разработать точный проект.",
+        "learn": 0
+      },
+      {
+        "eng": "We'll have to work out a budget so we can buy a new car.",
+        "ru": "Нам придётся составить бюджет так, чтобы можно было купить новый автомобиль.",
+        "learn": 0
+      },
+      {
+        "eng": "The costs work out at L 50.",
+        "ru": "Издержки составляют пятьдесят фунтов стерлингов.",
+        "learn": 0
+      },
+      {
+        "eng": "Things will work out, you'll see (=you will find out that I am right).",
+        "ru": "Все получится, вот увидите (т.е. вы поймете, что я права).",
+        "learn": 0
+      },
+      {
+        "eng": "Perplexed investors tried to work out what the deal meant.",
+        "ru": "Озадаченные вкладчики попытались разобраться в том, что же означала эта сделка.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm paid by the hour, so I spin the work out as long as I can.",
+        "ru": "Мне платят по часам, поэтому я растягиваю работу, как только могу. (брит.)",
+        "learn": 0
+      },
+      {
+        "eng": "The fees work out to less than $1,000.",
+        "ru": "Гонорары составляют менее 1000 долларов.",
+        "learn": 0
+      }
+    ]
+  }
 }

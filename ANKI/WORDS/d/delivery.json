@@ -1,82 +1,168 @@
 {
-    "delivery": {
-        "comment": [
-            "deliver"
-        ],
-        "translate": "доставка, поставка, передача, роды, подача, нагнетательный, питающий",
-        "transcription": " |dɪˈlɪvəri|",
-        "antonyms": [],
-        "mnemonic": [
-            "deliver [dɪ'lɪvə]\ndelivery [dɪ'lɪvəri]\n**\nМне ДОСТАВИЛИ пиццу с подливой. (это) deliver\nПЕРЕДАЙТЕ мне\" подливы\". (это) deliver\nДОСТАВИЛИ продукты, а где|ливер? (это) deliver\n***\nВсе ПОСТАВКИ дели|very. (это) delivery\nСегодня ДОСТАВКА вроде|ливеры. (это) delivery\n***\nПрямо на речку \"river\",\nты мне доставил \"deliver\"\nнемного ливера \"liver\"."
-        ],
-        "examples": [
-            "Allow six weeks for delivery.",
-            "The last delivery was damaged.",
-            "Midwife is a woman who assists in delivery.",
-            "I got a delivery of fresh eggs this morning.",
-            "Most Indian restaurants offer free delivery.",
-            "Mrs Howell had an easy delivery.",
-            "You'll have to work on your delivery.",
-            "The speech occupied some five hours in delivery.",
-            "The joke was funny, but his delivery was terrible.",
-            "It's usual to charge a fee for delivery.",
-            "his reluctant delivery of bad news",
-            "The pitcher has a sidearm delivery.",
-            "A delivery charge for the refrigerator",
-            "The doctor has had three deliveries today.",
-            "That letter should go by special delivery.",
-            "You can expect delivery in a week to ten days.",
-            "Allow three clear days for delivery.",
-            "The expected delivery date is next month.",
-            "We received advice of delivery next Tuesday.",
-            "Delivery is within the terms of this contract.",
-            "We have a number of queries regarding delivery.",
-            "Delivery times are arranged at your convenience.",
-            "We took delivery of three more Boeing 737s in February.",
-            "The company offers free delivery with orders over $100.",
-            "Phone orders filled for city and suburban delivery only.",
-            "The delivery system was very inefficient.",
-            "We won't charge for delivery if you pay now.",
-            "Integrated Food Safety Information Delivery System",
-            "Payment for delivery can be made directly in cash.",
-            "Fix a definite date for the delivery of your computer."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "На доставку отводится шесть недель.",
-            "Последняя партия была повреждена.",
-            "Акушерка - это женщина, принимающая роды.",
-            "Сегодня утром мне доставили партию свежих яиц.",
-            "Большинство индийских ресторанов предлагают бесплатную доставку.",
-            "У миссис Хауэлл были лёгкие роды.",
-            "Вам придётся поработать над манерой речи.",
-            "Речь заняла около пяти часов.",
-            "Шутка была забавная, но рассказана была ужасно.",
-            "Обычно за доставку взимают плату.",
-            "то, с какой неохотой он рассказывал о чём-то плохом",
-            "Этот питчер владеет боковым броском.",
-            "Стоимость доставки холодильника",
-            "Врач сегодня принял уже трое родов.",
-            "Это письмо нужно отправить специальной доставкой /заказной почтой/.",
-            "Доставку можно ожидать в течение семи-десяти дней.",
-            "На доставку отводится три полных дня.",
-            "Ожидаемая дата поставки — в следующем месяце.",
-            "Мы получили извещение о том, что товар будет доставлен в следующий вторник.",
-            "Доставка входит в условия настоящего договора.",
-            "У нас есть несколько вопросов по доставке.",
-            "Доставка будет организована в удобное для вас время.",
-            "В феврале нам поставили еще три самолета Боинг 737.",
-            "Компания предлагает бесплатную доставку заказов, стоимость которых превышает сто долларов.",
-            "Заказы по телефону выполняются только для города и пригородов.",
-            "Система доставки была очень неэффективной.",
-            "Если расплатитесь прямо сейчас, доставка будет бесплатной.",
-            "Интегрированная система предоставления информации о безопасности пищевых продуктов",
-            "Оплату доставки можно произвести непосредственно наличными деньгами.",
-            "Назначьте определённую дату для доставки вашего компьютера."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "delivery": {
+    "comment": [
+      "deliver"
+    ],
+    "translate": "доставка, поставка, передача, роды, подача, нагнетательный, питающий",
+    "transcription": " |dɪˈlɪvəri|",
+    "antonyms": [],
+    "mnemonic": [
+      "deliver [dɪ'lɪvə]\ndelivery [dɪ'lɪvəri]\n**\nМне ДОСТАВИЛИ пиццу с подливой. (это) deliver\nПЕРЕДАЙТЕ мне\" подливы\". (это) deliver\nДОСТАВИЛИ продукты, а где|ливер? (это) deliver\n***\nВсе ПОСТАВКИ дели|very. (это) delivery\nСегодня ДОСТАВКА вроде|ливеры. (это) delivery\n***\nПрямо на речку \"river\",\nты мне доставил \"deliver\"\nнемного ливера \"liver\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Allow six weeks for delivery.",
+        "ru": "На доставку отводится шесть недель.",
+        "learn": 0
+      },
+      {
+        "eng": "The last delivery was damaged.",
+        "ru": "Последняя партия была повреждена.",
+        "learn": 1
+      },
+      {
+        "eng": "Midwife is a woman who assists in delivery.",
+        "ru": "Акушерка - это женщина, принимающая роды.",
+        "learn": 0
+      },
+      {
+        "eng": "I got a delivery of fresh eggs this morning.",
+        "ru": "Сегодня утром мне доставили партию свежих яиц.",
+        "learn": 0
+      },
+      {
+        "eng": "Most Indian restaurants offer free delivery.",
+        "ru": "Большинство индийских ресторанов предлагают бесплатную доставку.",
+        "learn": 1
+      },
+      {
+        "eng": "Mrs Howell had an easy delivery.",
+        "ru": "У миссис Хауэлл были лёгкие роды.",
+        "learn": 0
+      },
+      {
+        "eng": "You'll have to work on your delivery.",
+        "ru": "Вам придётся поработать над манерой речи.",
+        "learn": 0
+      },
+      {
+        "eng": "The speech occupied some five hours in delivery.",
+        "ru": "Речь заняла около пяти часов.",
+        "learn": 0
+      },
+      {
+        "eng": "The joke was funny, but his delivery was terrible.",
+        "ru": "Шутка была забавная, но рассказана была ужасно.",
+        "learn": 0
+      },
+      {
+        "eng": "It's usual to charge a fee for delivery.",
+        "ru": "Обычно за доставку взимают плату.",
+        "learn": 0
+      },
+      {
+        "eng": "his reluctant delivery of bad news",
+        "ru": "то, с какой неохотой он рассказывал о чём-то плохом",
+        "learn": 0
+      },
+      {
+        "eng": "The pitcher has a sidearm delivery.",
+        "ru": "Этот питчер владеет боковым броском.",
+        "learn": 0
+      },
+      {
+        "eng": "A delivery charge for the refrigerator",
+        "ru": "Стоимость доставки холодильника",
+        "learn": 0
+      },
+      {
+        "eng": "The doctor has had three deliveries today.",
+        "ru": "Врач сегодня принял уже трое родов.",
+        "learn": 0
+      },
+      {
+        "eng": "That letter should go by special delivery.",
+        "ru": "Это письмо нужно отправить специальной доставкой /заказной почтой/.",
+        "learn": 0
+      },
+      {
+        "eng": "You can expect delivery in a week to ten days.",
+        "ru": "Доставку можно ожидать в течение семи-десяти дней.",
+        "learn": 0
+      },
+      {
+        "eng": "Allow three clear days for delivery.",
+        "ru": "На доставку отводится три полных дня.",
+        "learn": 0
+      },
+      {
+        "eng": "The expected delivery date is next month.",
+        "ru": "Ожидаемая дата поставки — в следующем месяце.",
+        "learn": 0
+      },
+      {
+        "eng": "We received advice of delivery next Tuesday.",
+        "ru": "Мы получили извещение о том, что товар будет доставлен в следующий вторник.",
+        "learn": 0
+      },
+      {
+        "eng": "Delivery is within the terms of this contract.",
+        "ru": "Доставка входит в условия настоящего договора.",
+        "learn": 0
+      },
+      {
+        "eng": "We have a number of queries regarding delivery.",
+        "ru": "У нас есть несколько вопросов по доставке.",
+        "learn": 0
+      },
+      {
+        "eng": "Delivery times are arranged at your convenience.",
+        "ru": "Доставка будет организована в удобное для вас время.",
+        "learn": 0
+      },
+      {
+        "eng": "We took delivery of three more Boeing 737s in February.",
+        "ru": "В феврале нам поставили еще три самолета Боинг 737.",
+        "learn": 0
+      },
+      {
+        "eng": "The company offers free delivery with orders over $100.",
+        "ru": "Компания предлагает бесплатную доставку заказов, стоимость которых превышает сто долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "Phone orders filled for city and suburban delivery only.",
+        "ru": "Заказы по телефону выполняются только для города и пригородов.",
+        "learn": 0
+      },
+      {
+        "eng": "The delivery system was very inefficient.",
+        "ru": "Система доставки была очень неэффективной.",
+        "learn": 0
+      },
+      {
+        "eng": "We won't charge for delivery if you pay now.",
+        "ru": "Если расплатитесь прямо сейчас, доставка будет бесплатной.",
+        "learn": 0
+      },
+      {
+        "eng": "Integrated Food Safety Information Delivery System",
+        "ru": "Интегрированная система предоставления информации о безопасности пищевых продуктов",
+        "learn": 0
+      },
+      {
+        "eng": "Payment for delivery can be made directly in cash.",
+        "ru": "Оплату доставки можно произвести непосредственно наличными деньгами.",
+        "learn": 1
+      },
+      {
+        "eng": "Fix a definite date for the delivery of your computer.",
+        "ru": "Назначьте определённую дату для доставки вашего компьютера.",
+        "learn": 0
+      }
+    ]
+  }
 }

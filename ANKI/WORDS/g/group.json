@@ -1,81 +1,168 @@
 {
-    "group": {
-        "comment": [
-            "grouping"
-        ],
-        "translate": "группа, группировка, группировать, групповой",
-        "transcription": " |ɡruːp|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "a little group of people",
-            "a group of teenage boys",
-            "Different flowers can be grouped together to make a colourful display.",
-            "It'll be easier if we go there as a group.",
-            "a group of college students",
-            "We were grouped into six age bands.",
-            "The photo shows four men grouped round a jeep.",
-            "Get into groups of four.",
-            "Spectators grouped in twos.",
-            "a representative of her age group",
-            "The median age of the group is 42.",
-            "Can you group these things together?",
-            "The scouts grouped around their leader.",
-            "a group of political activists",
-            "This should cover everyone in the group.",
-            "The group has just recorded a new album.",
-            "The rest of the group set off without him.",
-            "The family grouped together for the photograph.",
-            "a group of teenage girls",
-            "Defense Trade Working Group",
-            "a very mixed group of women",
-            "a group of hunters on safari",
-            "Defense Trade Advisory Group",
-            "He takes the lead in any group.",
-            "The group threatened to revolt.",
-            "the blurred aims of the group",
-            "The group has quite a history.",
-            "She joined a discussion group.",
-            "The group started a revolution.",
-            "The group epitomized the genre."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "маленькая группа людей",
-            "группа мальчиков подросткового возраста (13-19 лет)",
-            "Различные цветы можно собрать вместе, чтобы составить красочную витрину.",
-            "Будет проще, если мы пойдем туда вместе, как группа.",
-            "группа студентов колледжа",
-            "Нас сгруппировали в шесть возрастных групп.",
-            "На фото показаны четверо мужчин, собравшихся вокруг джипа.",
-            "Разбейтесь в группы по четыре человека.",
-            "Зрители встали парами.",
-            "представитель её возрастной группы",
-            "Средний возраст этой группы — 42 года.",
-            "Ты можешь объединить эти предметы?",
-            "Скауты собрались вокруг своего лидера.",
-            "группа политических активистов",
-            "Это должно касаться всех членов группы.",
-            "Группа только что записала новый альбом.",
-            "Остальная группа отправилась без него.",
-            "Вся семья собралась вместе для групповой фотографии.",
-            "группа девушек-подростков",
-            "Рабочая группа по торговле оборонными технологиями",
-            "весьма неоднородная группа женщин",
-            "группа охотников на сафари",
-            "Консультативная группа по торговле оборонными технологиями",
-            "Он становится лидером в любой группе.",
-            "Коллектив пригрозил поднять бунт.",
-            "размытые цели этой группы",
-            "Группа имеет богатое прошлое.",
-            "Она присоединилась к дискуссионной группе.",
-            "Эта группа начала революцию.",
-            "Эта группа была типичной для своего жанра."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ou_=_[uː]"
-        ]
-    }
+  "group": {
+    "comment": [
+      "grouping"
+    ],
+    "translate": "группа, группировка, группировать, групповой",
+    "transcription": " |ɡruːp|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ou_=_[uː]"
+    ],
+    "examples": [
+      {
+        "eng": "a little group of people",
+        "ru": "маленькая группа людей",
+        "learn": 0
+      },
+      {
+        "eng": "a group of teenage boys",
+        "ru": "группа мальчиков подросткового возраста (13-19 лет)",
+        "learn": 0
+      },
+      {
+        "eng": "Different flowers can be grouped together to make a colourful display.",
+        "ru": "Различные цветы можно собрать вместе, чтобы составить красочную витрину.",
+        "learn": 1
+      },
+      {
+        "eng": "It'll be easier if we go there as a group.",
+        "ru": "Будет проще, если мы пойдем туда вместе, как группа.",
+        "learn": 0
+      },
+      {
+        "eng": "a group of college students",
+        "ru": "группа студентов колледжа",
+        "learn": 0
+      },
+      {
+        "eng": "We were grouped into six age bands.",
+        "ru": "Нас сгруппировали в шесть возрастных групп.",
+        "learn": 0
+      },
+      {
+        "eng": "The photo shows four men grouped round a jeep.",
+        "ru": "На фото показаны четверо мужчин, собравшихся вокруг джипа.",
+        "learn": 0
+      },
+      {
+        "eng": "Get into groups of four.",
+        "ru": "Разбейтесь в группы по четыре человека.",
+        "learn": 0
+      },
+      {
+        "eng": "Spectators grouped in twos.",
+        "ru": "Зрители встали парами.",
+        "learn": 0
+      },
+      {
+        "eng": "a representative of her age group",
+        "ru": "представитель её возрастной группы",
+        "learn": 0
+      },
+      {
+        "eng": "The median age of the group is 42.",
+        "ru": "Средний возраст этой группы — 42 года.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you group these things together?",
+        "ru": "Ты можешь объединить эти предметы?",
+        "learn": 0
+      },
+      {
+        "eng": "The scouts grouped around their leader.",
+        "ru": "Скауты собрались вокруг своего лидера.",
+        "learn": 0
+      },
+      {
+        "eng": "a group of political activists",
+        "ru": "группа политических активистов",
+        "learn": 0
+      },
+      {
+        "eng": "This should cover everyone in the group.",
+        "ru": "Это должно касаться всех членов группы.",
+        "learn": 0
+      },
+      {
+        "eng": "The group has just recorded a new album.",
+        "ru": "Группа только что записала новый альбом.",
+        "learn": 0
+      },
+      {
+        "eng": "The rest of the group set off without him.",
+        "ru": "Остальная группа отправилась без него.",
+        "learn": 0
+      },
+      {
+        "eng": "The family grouped together for the photograph.",
+        "ru": "Вся семья собралась вместе для групповой фотографии.",
+        "learn": 0
+      },
+      {
+        "eng": "a group of teenage girls",
+        "ru": "группа девушек-подростков",
+        "learn": 0
+      },
+      {
+        "eng": "Defense Trade Working Group",
+        "ru": "Рабочая группа по торговле оборонными технологиями",
+        "learn": 0
+      },
+      {
+        "eng": "a very mixed group of women",
+        "ru": "весьма неоднородная группа женщин",
+        "learn": 0
+      },
+      {
+        "eng": "a group of hunters on safari",
+        "ru": "группа охотников на сафари",
+        "learn": 0
+      },
+      {
+        "eng": "Defense Trade Advisory Group",
+        "ru": "Консультативная группа по торговле оборонными технологиями",
+        "learn": 0
+      },
+      {
+        "eng": "He takes the lead in any group.",
+        "ru": "Он становится лидером в любой группе.",
+        "learn": 0
+      },
+      {
+        "eng": "The group threatened to revolt.",
+        "ru": "Коллектив пригрозил поднять бунт.",
+        "learn": 0
+      },
+      {
+        "eng": "the blurred aims of the group",
+        "ru": "размытые цели этой группы",
+        "learn": 0
+      },
+      {
+        "eng": "The group has quite a history.",
+        "ru": "Группа имеет богатое прошлое.",
+        "learn": 0
+      },
+      {
+        "eng": "She joined a discussion group.",
+        "ru": "Она присоединилась к дискуссионной группе.",
+        "learn": 1
+      },
+      {
+        "eng": "The group started a revolution.",
+        "ru": "Эта группа начала революцию.",
+        "learn": 1
+      },
+      {
+        "eng": "The group epitomized the genre.",
+        "ru": "Эта группа была типичной для своего жанра.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,86 +1,173 @@
 {
-    "village": {
-        "comment": [
-            "villager",
-            "villain",
-            "villa"
-        ],
-        "translate": "деревня, село, городок, деревенские жители",
-        "transcription": " |ˈvɪlɪdʒ|",
-        "antonyms": [],
-        "mnemonic": [
-            "village [ви'лидж] деревня - Всю деревню мы (вылечим) от холеры.",
-            "village ['vɪlɪdʒ]\n***\nВ ДЕРЕВНЕ, прямо, как на вилле (дж). (это) village"
-        ],
-        "examples": [
-            "I have lived recluse in a village.",
-            "Morning azured the village.",
-            "The fishing village was very quaint.",
-            "The whole village was early astir.",
-            "A terrible storm swept down on the village.",
-            "a village on the south coast",
-            "The whole village was engulfed in the flood.",
-            "Tthey went to the village afoot.",
-            "The village was cut off by floods.",
-            "Entire villages come to see the parade.",
-            "The Serbs attacked the village at night.",
-            "The church antedates the village itself.",
-            "The village is astir with sea-faring men.",
-            "The village centred on its market square.",
-            "The whole village commiserated with the farmer's family in their sorrow.",
-            "We meandered around the village.",
-            "a village to the west of Brussels",
-            "A village nestled in the foothills.",
-            "a village of barely a hundred souls",
-            "The village is well below sea level.",
-            "a quaint little village in Yorkshire",
-            "The bomb blast destroyed the village.",
-            "The swollen river flooded the village",
-            "We rode cross-country to the village.",
-            "He raced into the village on his bike.",
-            "The train clanked through the village.",
-            "Carry on straight through the village.",
-            "Each village has its own special charm.",
-            "We strolled the streets of the village.",
-            "The road rises steeply from the village."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я жил уединённо в деревне.",
-            "Утро окрасило деревню в лазурный цвет.",
-            "Рыбацкая деревня была очень необычной.",
-            "С раннего утра вся деревня была на ногах.",
-            "На селение обрушился ураган.",
-            "деревня на Южном побережье",
-            "Разливом затопило всю деревню.",
-            "Они пошли в деревню пешком.",
-            "Деревня была отрезана из-за наводнения.",
-            "На это шествие приходят посмотреть целыми деревнями.",
-            "Сербы напали на деревню ночью.",
-            "Церковь старше самой деревни.",
-            "Деревня была взволнована появлением моряков.",
-            "Центром деревни был рынок.",
-            "Вся деревня скорбела вместе с семьёй фермера.",
-            "Мы бесцельно бродили по деревне.",
-            "городок к западу от Брюсселя",
-            "Деревня расположилась в предгорье.",
-            "деревня, в которой едва ли наберётся сотня жителей",
-            "Деревня находится ниже уровня моря.",
-            "маленькая причудливая деревня в Йоркшире",
-            "Взрывом этой бомбы деревня была уничтожена.",
-            "Река, вышедшая из берегов, затопила деревню.",
-            "Мы поехали в деревню по бездорожью.",
-            "Он помчался в деревню на своём мотоцикле /на велосипеде/.",
-            "Поезд с лязгом прокатился /прогрохотал/ через деревню.",
-            "Продолжайте движение прямо через деревню.",
-            "В каждой деревне есть свой особый шарм.",
-            "Мы побродили /прогулялись/ по улицам деревни.",
-            "От деревни дорога круто идёт вверх."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными"
-        ]
-    }
+  "village": {
+    "comment": [
+      "villager",
+      "villain",
+      "villa"
+    ],
+    "translate": "деревня, село, городок, деревенские жители",
+    "transcription": " |ˈvɪlɪdʒ|",
+    "antonyms": [],
+    "mnemonic": [
+      "village [ви'лидж] деревня - Всю деревню мы (вылечим) от холеры.",
+      "village ['vɪlɪdʒ]\n***\nВ ДЕРЕВНЕ, прямо, как на вилле (дж). (это) village"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными"
+    ],
+    "examples": [
+      {
+        "eng": "I have lived recluse in a village.",
+        "ru": "Я жил уединённо в деревне.",
+        "learn": 0
+      },
+      {
+        "eng": "Morning azured the village.",
+        "ru": "Утро окрасило деревню в лазурный цвет.",
+        "learn": 0
+      },
+      {
+        "eng": "The fishing village was very quaint.",
+        "ru": "Рыбацкая деревня была очень необычной.",
+        "learn": 0
+      },
+      {
+        "eng": "The whole village was early astir.",
+        "ru": "С раннего утра вся деревня была на ногах.",
+        "learn": 0
+      },
+      {
+        "eng": "A terrible storm swept down on the village.",
+        "ru": "На селение обрушился ураган.",
+        "learn": 0
+      },
+      {
+        "eng": "a village on the south coast",
+        "ru": "деревня на Южном побережье",
+        "learn": 0
+      },
+      {
+        "eng": "The whole village was engulfed in the flood.",
+        "ru": "Разливом затопило всю деревню.",
+        "learn": 0
+      },
+      {
+        "eng": "Tthey went to the village afoot.",
+        "ru": "Они пошли в деревню пешком.",
+        "learn": 0
+      },
+      {
+        "eng": "The village was cut off by floods.",
+        "ru": "Деревня была отрезана из-за наводнения.",
+        "learn": 0
+      },
+      {
+        "eng": "Entire villages come to see the parade.",
+        "ru": "На это шествие приходят посмотреть целыми деревнями.",
+        "learn": 0
+      },
+      {
+        "eng": "The Serbs attacked the village at night.",
+        "ru": "Сербы напали на деревню ночью.",
+        "learn": 0
+      },
+      {
+        "eng": "The church antedates the village itself.",
+        "ru": "Церковь старше самой деревни.",
+        "learn": 0
+      },
+      {
+        "eng": "The village is astir with sea-faring men.",
+        "ru": "Деревня была взволнована появлением моряков.",
+        "learn": 0
+      },
+      {
+        "eng": "The village centred on its market square.",
+        "ru": "Центром деревни был рынок.",
+        "learn": 0
+      },
+      {
+        "eng": "The whole village commiserated with the farmer's family in their sorrow.",
+        "ru": "Вся деревня скорбела вместе с семьёй фермера.",
+        "learn": 0
+      },
+      {
+        "eng": "We meandered around the village.",
+        "ru": "Мы бесцельно бродили по деревне.",
+        "learn": 0
+      },
+      {
+        "eng": "a village to the west of Brussels",
+        "ru": "городок к западу от Брюсселя",
+        "learn": 0
+      },
+      {
+        "eng": "A village nestled in the foothills.",
+        "ru": "Деревня расположилась в предгорье.",
+        "learn": 0
+      },
+      {
+        "eng": "a village of barely a hundred souls",
+        "ru": "деревня, в которой едва ли наберётся сотня жителей",
+        "learn": 0
+      },
+      {
+        "eng": "The village is well below sea level.",
+        "ru": "Деревня находится ниже уровня моря.",
+        "learn": 0
+      },
+      {
+        "eng": "a quaint little village in Yorkshire",
+        "ru": "маленькая причудливая деревня в Йоркшире",
+        "learn": 0
+      },
+      {
+        "eng": "The bomb blast destroyed the village.",
+        "ru": "Взрывом этой бомбы деревня была уничтожена.",
+        "learn": 1
+      },
+      {
+        "eng": "The swollen river flooded the village",
+        "ru": "Река, вышедшая из берегов, затопила деревню.",
+        "learn": 0
+      },
+      {
+        "eng": "We rode cross-country to the village.",
+        "ru": "Мы поехали в деревню по бездорожью.",
+        "learn": 0
+      },
+      {
+        "eng": "He raced into the village on his bike.",
+        "ru": "Он помчался в деревню на своём мотоцикле /на велосипеде/.",
+        "learn": 0
+      },
+      {
+        "eng": "The train clanked through the village.",
+        "ru": "Поезд с лязгом прокатился /прогрохотал/ через деревню.",
+        "learn": 0
+      },
+      {
+        "eng": "Carry on straight through the village.",
+        "ru": "Продолжайте движение прямо через деревню.",
+        "learn": 0
+      },
+      {
+        "eng": "Each village has its own special charm.",
+        "ru": "В каждой деревне есть свой особый шарм.",
+        "learn": 0
+      },
+      {
+        "eng": "We strolled the streets of the village.",
+        "ru": "Мы побродили /прогулялись/ по улицам деревни.",
+        "learn": 0
+      },
+      {
+        "eng": "The road rises steeply from the village.",
+        "ru": "От деревни дорога круто идёт вверх.",
+        "learn": 0
+      }
+    ]
+  }
 }

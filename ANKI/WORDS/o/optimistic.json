@@ -1,63 +1,119 @@
 {
-    "optimistic": {
-        "comment": [
-            "option",
-            "optical",
-            "optimism",
-            "optional"
-        ],
-        "translate": "оптимистичный, оптимистический",
-        "transcription": " |ˌɑːptɪˈmɪstɪk|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He has an optimistic turn of mind.",
-            "We were young and thence optimistic.",
-            "Andrew took a more optimistic view.",
-            "What's the opposite of 'optimistic'?",
-            "Ever optimistic, I decided to take the exam again.",
-            "The early sales reports are cause for optimism.",
-            "The meeting ended on an optimistic note.",
-            "The timeline for the project is optimistic.",
-            "She still has an optimistic outlook for the future.",
-            "We are optimistic that the results will be favorable.",
-            "Ferguson is optimistic about the future of the business.",
-            "We must not give in to defeatism. We must be optimistic.",
-            "Both of them expressed optimism about the future of the town.",
-            "He maintains a sense of optimism, despite all that has happened.",
-            "We are still relatively optimistic that the factory can be saved.",
-            "The rising generation of students are optimistic about the future.",
-            "Most observers were optimistic, yet some sounded a cautionary note.",
-            "Bankers are cautiously optimistic about the country's economic future.",
-            "Foreign bankers are cautiously optimistic about the country's economic future.",
-            "We can't figure out why our very happy and optimistic friend is dating that chronic growler."
-        ],
-        "example_translate": [
-            "Он оптимист.",
-            "Мы были молоды, и потому — полны оптимизма.",
-            "Эндрю принял более оптимистическую точку зрения.",
-            "Какое слово является противоположным для слова \"оптимистичный\"?",
-            "Будучи вечным оптимистом, я решил сдать экзамен ещё раз.",
-            "Первые отчёты о продажах дают повод для оптимизма.",
-            "Встреча закончилась на оптимистической ноте.",
-            "График выполнения работ по данному проекту оптимистичен.",
-            "Её взгляд на будущее по-прежнему оптимистичен.",
-            "Мы надеемся на благоприятные результаты.",
-            "Фергюсон с оптимизмом смотрит в будущее данного бизнеса.",
-            "Нам ни в коем случае нельзя поддаваться пораженческому настрою. Мы обязаны быть оптимистами.",
-            "Оба они выразили оптимизм относительно будущего данного города.",
-            "Он сохраняет оптимизм несмотря на всё, что произошло.",
-            "Мы по-прежнему надеемся, что фабрику удастся спасти.",
-            "Подрастающее поколение студентов смотрит в будущее с оптимизмом.",
-            "Большинство наблюдателей были настроены оптимистично, однако в словах некоторых прозвучало предостережение.",
-            "Банкиры выражают осторожный оптимизм по поводу экономических перспектив страны.",
-            "Иностранные банкиры не проявляют особого оптимизма в отношении экономического будущего страны.",
-            "Мы никак не можем взять в толк, почему наша очень весёлая подруга-оптимистка встречается с этим хроническим ворчуном."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "optimistic": {
+    "comment": [
+      "option",
+      "optical",
+      "optimism",
+      "optional"
+    ],
+    "translate": "оптимистичный, оптимистический",
+    "transcription": " |ˌɑːptɪˈmɪstɪk|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He has an optimistic turn of mind.",
+        "ru": "Он оптимист.",
+        "learn": 0
+      },
+      {
+        "eng": "We were young and thence optimistic.",
+        "ru": "Мы были молоды, и потому — полны оптимизма.",
+        "learn": 1
+      },
+      {
+        "eng": "Andrew took a more optimistic view.",
+        "ru": "Эндрю принял более оптимистическую точку зрения.",
+        "learn": 0
+      },
+      {
+        "eng": "What's the opposite of 'optimistic'?",
+        "ru": "Какое слово является противоположным для слова \"оптимистичный\"?",
+        "learn": 0
+      },
+      {
+        "eng": "Ever optimistic, I decided to take the exam again.",
+        "ru": "Будучи вечным оптимистом, я решил сдать экзамен ещё раз.",
+        "learn": 0
+      },
+      {
+        "eng": "The early sales reports are cause for optimism.",
+        "ru": "Первые отчёты о продажах дают повод для оптимизма.",
+        "learn": 0
+      },
+      {
+        "eng": "The meeting ended on an optimistic note.",
+        "ru": "Встреча закончилась на оптимистической ноте.",
+        "learn": 1
+      },
+      {
+        "eng": "The timeline for the project is optimistic.",
+        "ru": "График выполнения работ по данному проекту оптимистичен.",
+        "learn": 0
+      },
+      {
+        "eng": "She still has an optimistic outlook for the future.",
+        "ru": "Её взгляд на будущее по-прежнему оптимистичен.",
+        "learn": 1
+      },
+      {
+        "eng": "We are optimistic that the results will be favorable.",
+        "ru": "Мы надеемся на благоприятные результаты.",
+        "learn": 0
+      },
+      {
+        "eng": "Ferguson is optimistic about the future of the business.",
+        "ru": "Фергюсон с оптимизмом смотрит в будущее данного бизнеса.",
+        "learn": 0
+      },
+      {
+        "eng": "We must not give in to defeatism. We must be optimistic.",
+        "ru": "Нам ни в коем случае нельзя поддаваться пораженческому настрою. Мы обязаны быть оптимистами.",
+        "learn": 0
+      },
+      {
+        "eng": "Both of them expressed optimism about the future of the town.",
+        "ru": "Оба они выразили оптимизм относительно будущего данного города.",
+        "learn": 0
+      },
+      {
+        "eng": "He maintains a sense of optimism, despite all that has happened.",
+        "ru": "Он сохраняет оптимизм несмотря на всё, что произошло.",
+        "learn": 0
+      },
+      {
+        "eng": "We are still relatively optimistic that the factory can be saved.",
+        "ru": "Мы по-прежнему надеемся, что фабрику удастся спасти.",
+        "learn": 0
+      },
+      {
+        "eng": "The rising generation of students are optimistic about the future.",
+        "ru": "Подрастающее поколение студентов смотрит в будущее с оптимизмом.",
+        "learn": 0
+      },
+      {
+        "eng": "Most observers were optimistic, yet some sounded a cautionary note.",
+        "ru": "Большинство наблюдателей были настроены оптимистично, однако в словах некоторых прозвучало предостережение.",
+        "learn": 0
+      },
+      {
+        "eng": "Bankers are cautiously optimistic about the country's economic future.",
+        "ru": "Банкиры выражают осторожный оптимизм по поводу экономических перспектив страны.",
+        "learn": 0
+      },
+      {
+        "eng": "Foreign bankers are cautiously optimistic about the country's economic future.",
+        "ru": "Иностранные банкиры не проявляют особого оптимизма в отношении экономического будущего страны.",
+        "learn": 0
+      },
+      {
+        "eng": "We can't figure out why our very happy and optimistic friend is dating that chronic growler.",
+        "ru": "Мы никак не можем взять в толк, почему наша очень весёлая подруга-оптимистка встречается с этим хроническим ворчуном.",
+        "learn": 0
+      }
+    ]
+  }
 }

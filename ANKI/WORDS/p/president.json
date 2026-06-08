@@ -1,81 +1,167 @@
 {
-    "president": {
-        "comment": [
-            "presidency",
-            "presidential"
-        ],
-        "translate": "президент, председатель, ректор, губернатор, директор компании, директор банка",
-        "transcription": " |ˈprezɪdənt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The President declared war.",
-            "He could end up as President.",
-            "The President was impeached.",
-            "The President of the United States",
-            "The president is to arrive at 9.30.",
-            "How does one address the president?",
-            "The President will hold a news conference tomorrow.",
-            "President Bush",
-            "The press savaged the new President.",
-            "He was appointed senior adviser to the president.",
-            "He was president in name only.",
-            "The President vetoed the bill.",
-            "I'm backing him for President.",
-            "President Hoover's inauguration",
-            "Ireland's first woman president",
-            "Executive Office of the President",
-            "Critics took aim at the President.",
-            "The president saluted her bravery.",
-            "the president of the international conference on genocide",
-            "He is the president pro tem.",
-            "The President vetoed the bill.",
-            "the President's ascent to power",
-            "He is, after all, our president.",
-            "the dynamic president of the firm",
-            "The President executed the treaty.",
-            "How shall I address the President?",
-            "The Icelandic president is a woman.",
-            "a plot to assassinate the President",
-            "a member of the President's Cabinet",
-            "I cannot envision him as President."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Президент объявил войну.",
-            "Он мог бы в итоге стать президентом.",
-            "Президенту был объявлен импичмент.",
-            "Президент Соединённых Штатов Америки",
-            "Президент должен приехать в 9-30.",
-            "Как следует обращаться к президенту?",
-            "Завтра президент проведёт пресс-конференцию.",
-            "Президент Буш",
-            "Пресса жёстко раскритиковала нового президента.",
-            "Он был назначен старшим советником президента.",
-            "Он был президентом лишь номинально.",
-            "Президент наложил на этот законопроект вето.",
-            "Я поддерживаю его в борьбе за пост президента.",
-            "инаугурация президента Гувера",
-            "первая женщина-президент Ирландии",
-            "Исполнительное управление президента США",
-            "Критика была направлена на президента.",
-            "Президент приветствовал её мужество.",
-            "президент международной конференции по вопросам геноцида",
-            "Он является Временным президентом Сената США.",
-            "Президент наложил вето на данный законопроект.",
-            "восхождение президента к власти",
-            "Он всё-таки наш президент.",
-            "энергичный президент этой фирмы",
-            "Президент выполнил договор.",
-            "Как мне обращаться к президенту?",
-            "Исландский президент — женщина.",
-            "заговор с целью убийства президента",
-            "представитель президентского кабинета",
-            "Я не могу представить себе его в качестве президента."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "president": {
+    "comment": [
+      "presidency",
+      "presidential"
+    ],
+    "translate": "президент, председатель, ректор, губернатор, директор компании, директор банка",
+    "transcription": " |ˈprezɪdənt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The President declared war.",
+        "ru": "Президент объявил войну.",
+        "learn": 0
+      },
+      {
+        "eng": "He could end up as President.",
+        "ru": "Он мог бы в итоге стать президентом.",
+        "learn": 0
+      },
+      {
+        "eng": "The President was impeached.",
+        "ru": "Президенту был объявлен импичмент.",
+        "learn": 0
+      },
+      {
+        "eng": "The President of the United States",
+        "ru": "Президент Соединённых Штатов Америки",
+        "learn": 0
+      },
+      {
+        "eng": "The president is to arrive at 9.30.",
+        "ru": "Президент должен приехать в 9-30.",
+        "learn": 0
+      },
+      {
+        "eng": "How does one address the president?",
+        "ru": "Как следует обращаться к президенту?",
+        "learn": 0
+      },
+      {
+        "eng": "The President will hold a news conference tomorrow.",
+        "ru": "Завтра президент проведёт пресс-конференцию.",
+        "learn": 0
+      },
+      {
+        "eng": "President Bush",
+        "ru": "Президент Буш",
+        "learn": 0
+      },
+      {
+        "eng": "The press savaged the new President.",
+        "ru": "Пресса жёстко раскритиковала нового президента.",
+        "learn": 0
+      },
+      {
+        "eng": "He was appointed senior adviser to the president.",
+        "ru": "Он был назначен старшим советником президента.",
+        "learn": 1
+      },
+      {
+        "eng": "He was president in name only.",
+        "ru": "Он был президентом лишь номинально.",
+        "learn": 1
+      },
+      {
+        "eng": "The President vetoed the bill.",
+        "ru": "Президент наложил на этот законопроект вето.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm backing him for President.",
+        "ru": "Я поддерживаю его в борьбе за пост президента.",
+        "learn": 1
+      },
+      {
+        "eng": "President Hoover's inauguration",
+        "ru": "инаугурация президента Гувера",
+        "learn": 0
+      },
+      {
+        "eng": "Ireland's first woman president",
+        "ru": "первая женщина-президент Ирландии",
+        "learn": 0
+      },
+      {
+        "eng": "Executive Office of the President",
+        "ru": "Исполнительное управление президента США",
+        "learn": 0
+      },
+      {
+        "eng": "Critics took aim at the President.",
+        "ru": "Критика была направлена на президента.",
+        "learn": 0
+      },
+      {
+        "eng": "The president saluted her bravery.",
+        "ru": "Президент приветствовал её мужество.",
+        "learn": 0
+      },
+      {
+        "eng": "the president of the international conference on genocide",
+        "ru": "президент международной конференции по вопросам геноцида",
+        "learn": 0
+      },
+      {
+        "eng": "He is the president pro tem.",
+        "ru": "Он является Временным президентом Сената США.",
+        "learn": 0
+      },
+      {
+        "eng": "The President vetoed the bill.",
+        "ru": "Президент наложил вето на данный законопроект.",
+        "learn": 0
+      },
+      {
+        "eng": "the President's ascent to power",
+        "ru": "восхождение президента к власти",
+        "learn": 0
+      },
+      {
+        "eng": "He is, after all, our president.",
+        "ru": "Он всё-таки наш президент.",
+        "learn": 0
+      },
+      {
+        "eng": "the dynamic president of the firm",
+        "ru": "энергичный президент этой фирмы",
+        "learn": 0
+      },
+      {
+        "eng": "The President executed the treaty.",
+        "ru": "Президент выполнил договор.",
+        "learn": 0
+      },
+      {
+        "eng": "How shall I address the President?",
+        "ru": "Как мне обращаться к президенту?",
+        "learn": 0
+      },
+      {
+        "eng": "The Icelandic president is a woman.",
+        "ru": "Исландский президент — женщина.",
+        "learn": 0
+      },
+      {
+        "eng": "a plot to assassinate the President",
+        "ru": "заговор с целью убийства президента",
+        "learn": 0
+      },
+      {
+        "eng": "a member of the President's Cabinet",
+        "ru": "представитель президентского кабинета",
+        "learn": 0
+      },
+      {
+        "eng": "I cannot envision him as President.",
+        "ru": "Я не могу представить себе его в качестве президента.",
+        "learn": 0
+      }
+    ]
+  }
 }

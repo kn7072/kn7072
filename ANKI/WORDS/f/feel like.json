@@ -1,39 +1,220 @@
 {
-    "feel like": {
-        "comment": [],
-        "translate": "1) Хотеть, иметь желание 2) Ощущать себя (как будто) ",
-        "transcription": "||",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She feels like she's forgotten something.",
-            "She doesn't feel like working today.",
-            "He feels like he's getting sick.",
-            "I feel like I'm being watched.",
-            "I feel like watching a movie.",
-            "It feels like we've met before.",
-            "I feel like having pizza tonight.",
-            "We feel like celebrating.",
-            "Do you feel like going for a walk?",
-            "It feels like summer already."
-        ],
-        "example_translate": [
-            "У неё ощущение, что она что-то забыла.",
-            "Ей не хочется работать сегодня.",
-            "У него ощущение, что он заболевает.",
-            "У меня ощущение, что за мной следят.",
-            "Мне хочется посмотреть фильм.",
-            "Ощущение, что мы уже встречались.",
-            "Мне хочется пиццы сегодня вечером.",
-            "Нам хочется отпраздновать.",
-            "Тебе хочется пойти на прогулку?",
-            "Ощущение, что уже лето."
-        ],
-        "synonyms": "Хотеть, иметь желание - want, desire, be in the mood for\nОщущать себя (как будто) - seem, appear\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "feel like": {
+    "comment": [],
+    "translate": "1) Хотеть, иметь желание 2) Ощущать себя (как будто) ",
+    "transcription": "",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Хотеть, иметь желание - want, desire, be in the mood for",
+      "Ощущать себя (как будто) - seem, appear"
+    ],
+    "groups": [
+      "phrasal_verb",
+      "gerund_after_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "She feels like she's forgotten something.",
+        "ru": "У неё ощущение, что она что-то забыла.",
+        "learn": 1
+      },
+      {
+        "eng": "She doesn't feel like working today.",
+        "ru": "Ей не хочется работать сегодня.",
+        "learn": 1
+      },
+      {
+        "eng": "He feels like he's getting sick.",
+        "ru": "У него ощущение, что он заболевает.",
+        "learn": 1
+      },
+      {
+        "eng": "I feel like I'm being watched.",
+        "ru": "У меня ощущение, что за мной следят.",
+        "learn": 1
+      },
+      {
+        "eng": "I feel like watching a movie.",
+        "ru": "Мне хочется посмотреть фильм.",
+        "learn": 1
+      },
+      {
+        "eng": "It feels like we've met before.",
+        "ru": "Ощущение, что мы уже встречались.",
+        "learn": 1
+      },
+      {
+        "eng": "I feel like having pizza tonight.",
+        "ru": "Мне хочется пиццы сегодня вечером.",
+        "learn": 1
+      },
+      {
+        "eng": "We feel like celebrating.",
+        "ru": "Нам хочется отпраздновать.",
+        "learn": 1
+      },
+      {
+        "eng": "Do you feel like going for a walk?",
+        "ru": "Тебе хочется пойти на прогулку?",
+        "learn": 1
+      },
+      {
+        "eng": "It feels like summer already.",
+        "ru": "Ощущение, что уже лето.",
+        "learn": 1
+      },
+      {
+        "eng": "I feel like a complete dodo.",
+        "ru": "Я чувствую себя полным кретином.",
+        "learn": 0
+      },
+      {
+        "eng": "I feel like I'm being watched.",
+        "ru": "Я чувствую, будто за мной следят.",
+        "learn": 1
+      },
+      {
+        "eng": "I feel like going back to bed.",
+        "ru": "Я хочу обратно в постель.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you feel like another drink?",
+        "ru": "Хотите ли вы еще что-нибудь выпить?",
+        "learn": 0
+      },
+      {
+        "eng": "I feel like my life is unraveling.",
+        "ru": "Я чувствую, что моя жизнь разваливается на куски.",
+        "learn": 0
+      },
+      {
+        "eng": "He didn't feel like going to work.",
+        "ru": "Ему не хотелось идти на работу.",
+        "learn": 0
+      },
+      {
+        "eng": "I feel like a nerd in these shoes.",
+        "ru": "В этих туфлях я чувствую себя болваном.",
+        "learn": 0
+      },
+      {
+        "eng": "They'd made her feel like a fifth wheel.",
+        "ru": "Её заставили чувствовать себя пятым колесом.",
+        "learn": 0
+      },
+      {
+        "eng": "I feel like our culture is being commodified.",
+        "ru": "Я чувствую, что наша культура превращается в товар.",
+        "learn": 0
+      },
+      {
+        "eng": "I feel like I've been offered a new beginning.",
+        "ru": "Чувствую себя так, словно мне предложили начать все сначала.",
+        "learn": 0
+      },
+      {
+        "eng": "She didn't feel like discussing weighty matters.",
+        "ru": "Ей не хотелось обсуждать какие-то важные вопросы.",
+        "learn": 0
+      },
+      {
+        "eng": "Jim was beginning to feel like his old self again.",
+        "ru": "Джим начал чувствовать, что снова приходит в себя.",
+        "learn": 0
+      },
+      {
+        "eng": "The bonobo had to feel like it had a mother again.",
+        "ru": "Бонобо должен был почувствовать, что у него снова есть мать.",
+        "learn": 0
+      },
+      {
+        "eng": "You'll feel like yourself again after some time away.",
+        "ru": "Проведя некоторое время в отъезде, вы снова придёте в себя.",
+        "learn": 0
+      },
+      {
+        "eng": "Howard was beginning to feel like his old self again.",
+        "ru": "Говард снова становился самим собой.",
+        "learn": 0
+      },
+      {
+        "eng": "I feel like a dumbbell for making such a stupid mistake.",
+        "ru": "Я чувствую себя полным болваном за то, что сделал такую глупую ошибку.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't feel like cooking tonight, it's too much hassle.",
+        "ru": "У меня нет желания готовить сегодня вечером, это слишком хлопотно.",
+        "learn": 0
+      },
+      {
+        "eng": "Exercise is great. I feel like there's a new bounce in my step.",
+        "ru": "Тренировка — это здорово. Я чувствую себя полным сил и энергии.",
+        "learn": 0
+      },
+      {
+        "eng": "Sometimes I feel like packing it all in and going off travelling.",
+        "ru": "Иногда мне хочется всё это бросить и отправиться в путешествие.",
+        "learn": 0
+      },
+      {
+        "eng": "She was the first teacher who'd made Paul feel like he was somebody.",
+        "ru": "Она была первым учителем, который заставил Пола почувствовать себя человеком.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't believe I did something so stupid. I feel like a complete moron.",
+        "ru": "Я не могу поверить, что совершил такую глупость. Чувствую себя полным дебилом.",
+        "learn": 0
+      },
+      {
+        "eng": "I love to cook, but I don't feel like spending the energy every evening.",
+        "ru": "Готовить я люблю, но мне не хочется каждый вечер тратить на это силы.",
+        "learn": 0
+      },
+      {
+        "eng": "I didn't want my son to feel like he was second-best or he was an appendage.",
+        "ru": "Я не хотел, чтобы мой сын чувствовал себя второсортным или был каким-то довеском.",
+        "learn": 0
+      },
+      {
+        "eng": "Their words made me feel like one of the helium balloons that some families had brought.",
+        "ru": "Их слова заставили меня почувствовать себя одним из тех гелиевых шариков, которые принесли некоторые семьи.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't be cross with them. Try to put yourself in their shoes (=imagine what it would feel like to be in their situation).",
+        "ru": "Не сердитесь на них. Попробуйте поставить себя на их место (т.е. представьте себе, каково это — быть в их ситуации).",
+        "learn": 0
+      },
+      {
+        "eng": "I feel like hell.",
+        "ru": "Я отвратительно себя чувствую.",
+        "learn": 0
+      },
+      {
+        "eng": "I feel like a walk.",
+        "ru": "Я хотел бы прогуляться.",
+        "learn": 0
+      },
+      {
+        "eng": "I feel like a splurge.",
+        "ru": "Мне деньги ляжку жгут.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't feel like eating.",
+        "ru": "Мне что-то не хочется есть.",
+        "learn": 0
+      },
+      {
+        "eng": "I feel like such a zombie.",
+        "ru": "Я еле ноги передвигаю.",
+        "learn": 0
+      }
+    ]
+  }
 }

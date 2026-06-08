@@ -1,84 +1,170 @@
 {
-    "noise": {
-        "comment": [
-            "noisy",
-            "noisily"
-        ],
-        "translate": "шум, помеха, звук, грохот, крик, гам, гвалт, слух, шуметь, кричать, разглашать",
-        "transcription": " |nɔɪz|",
-        "antonyms": [],
-        "mnemonic": [
-            "noise [но'ис] шум - Этот шум (наиз-нанку) выворачивает нас.",
-            "noise [nɔɪz]\nnoisy ['nɔɪzɪ] - шумный\n***\nШУМ прекрати и не ной (з). (это) noise\nЗвук, шум, гам, толки, разговоры. Разглашать,\nраспространять.\n***\nОт сильного шума \"noise\",\nможно потерять равновесие \"poise\"."
-        ],
-        "examples": [
-            "What's that noise?",
-            "Hold your noise!",
-            "What noise was that?",
-            "I heard a weird noise.",
-            "This noise is just intolerable!",
-            "We heard a faint noise.",
-            "All the noise drove me bananas.",
-            "The noise made sleep impossible.",
-            "I couldn't hear him over all the noise.",
-            "The traffic noise kept me awake.",
-            "Modern music is just noise to me.",
-            "All this noise is driving me potty!",
-            "Noise levels have been reduced by 20%.",
-            "I was distracted by a loud noise.",
-            "The noise disturbed my concentration.",
-            "The noise spooked the cat.",
-            "A loud noise awakened her.",
-            "The noise drove me up the wall.",
-            "The noise spooked the horse.",
-            "I heard a low moaning noise.",
-            "I can't tolerate that noise.",
-            "The dog cringed at the noise.",
-            "I could hear a beeping noise.",
-            "The noise rose to a crescendo.",
-            "What's the bird noising yonder?",
-            "They tried to muffle the noise.",
-            "Do you hear that rattling noise?",
-            "The noise drowned out her speech.",
-            "The noise goes on 24 hours a day.",
-            "I can't relax with all this noise!"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Что это за шум?",
-            "Перестань(те) шуметь!",
-            "Что это был за шум?",
-            "Я услышал странный шум.",
-            "Этот шум просто невыносим!",
-            "Мы услышали слабый шум.",
-            "Весь этот шум свел меня с ума.",
-            "Из-за шума было невозможно спать.",
-            "Я не слышал его из-за этого шума.",
-            "Шум уличного движения не давал мне уснуть.",
-            "Для меня современная музыка — просто шум.",
-            "Весь этот шум сводит меня с ума!",
-            "Уровень шума уменьшен на 20%.",
-            "Меня отвлёк громкий шум.",
-            "Этот шум мешал мне сосредоточиться.",
-            "Шум испугал кота.",
-            "Её разбудил какой-то громкий шум..",
-            "От этого шума я не находил себе места.",
-            "Шум напугал лошадь.",
-            "Я услышал слабый стон.",
-            "Терпеть не могу этот звук. / Не выношу этот шум.",
-            "Услышав этот звук, собака съёжилась.",
-            "Я слышал, как что-то пикает.",
-            "Шум достиг своего пика.",
-            "Что это за птица там кричит?",
-            "Они попытались заглушить шум.",
-            "Слышишь этот грохот?",
-            "Шум заглушил её речь.",
-            "Этот шум не смолкает круглые сутки.",
-            "Я не могу расслабиться из-за этого шума!"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "noise": {
+    "comment": [
+      "noisy",
+      "noisily"
+    ],
+    "translate": "шум, помеха, звук, грохот, крик, гам, гвалт, слух, шуметь, кричать, разглашать",
+    "transcription": " |nɔɪz|",
+    "antonyms": [],
+    "mnemonic": [
+      "noise [но'ис] шум - Этот шум (наиз-нанку) выворачивает нас.",
+      "noise [nɔɪz]\nnoisy ['nɔɪzɪ] - шумный\n***\nШУМ прекрати и не ной (з). (это) noise\nЗвук, шум, гам, толки, разговоры. Разглашать,\nраспространять.\n***\nОт сильного шума \"noise\",\nможно потерять равновесие \"poise\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "What's that noise?",
+        "ru": "Что это за шум?",
+        "learn": 0
+      },
+      {
+        "eng": "Hold your noise!",
+        "ru": "Перестань(те) шуметь!",
+        "learn": 0
+      },
+      {
+        "eng": "What noise was that?",
+        "ru": "Что это был за шум?",
+        "learn": 0
+      },
+      {
+        "eng": "I heard a weird noise.",
+        "ru": "Я услышал странный шум.",
+        "learn": 0
+      },
+      {
+        "eng": "This noise is just intolerable!",
+        "ru": "Этот шум просто невыносим!",
+        "learn": 1
+      },
+      {
+        "eng": "We heard a faint noise.",
+        "ru": "Мы услышали слабый шум.",
+        "learn": 0
+      },
+      {
+        "eng": "All the noise drove me bananas.",
+        "ru": "Весь этот шум свел меня с ума.",
+        "learn": 0
+      },
+      {
+        "eng": "The noise made sleep impossible.",
+        "ru": "Из-за шума было невозможно спать.",
+        "learn": 0
+      },
+      {
+        "eng": "I couldn't hear him over all the noise.",
+        "ru": "Я не слышал его из-за этого шума.",
+        "learn": 0
+      },
+      {
+        "eng": "The traffic noise kept me awake.",
+        "ru": "Шум уличного движения не давал мне уснуть.",
+        "learn": 0
+      },
+      {
+        "eng": "Modern music is just noise to me.",
+        "ru": "Для меня современная музыка — просто шум.",
+        "learn": 0
+      },
+      {
+        "eng": "All this noise is driving me potty!",
+        "ru": "Весь этот шум сводит меня с ума!",
+        "learn": 0
+      },
+      {
+        "eng": "Noise levels have been reduced by 20%.",
+        "ru": "Уровень шума уменьшен на 20%.",
+        "learn": 0
+      },
+      {
+        "eng": "I was distracted by a loud noise.",
+        "ru": "Меня отвлёк громкий шум.",
+        "learn": 1
+      },
+      {
+        "eng": "The noise disturbed my concentration.",
+        "ru": "Этот шум мешал мне сосредоточиться.",
+        "learn": 1
+      },
+      {
+        "eng": "The noise spooked the cat.",
+        "ru": "Шум испугал кота.",
+        "learn": 0
+      },
+      {
+        "eng": "A loud noise awakened her.",
+        "ru": "Её разбудил какой-то громкий шум..",
+        "learn": 0
+      },
+      {
+        "eng": "The noise drove me up the wall.",
+        "ru": "От этого шума я не находил себе места.",
+        "learn": 0
+      },
+      {
+        "eng": "The noise spooked the horse.",
+        "ru": "Шум напугал лошадь.",
+        "learn": 0
+      },
+      {
+        "eng": "I heard a low moaning noise.",
+        "ru": "Я услышал слабый стон.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't tolerate that noise.",
+        "ru": "Терпеть не могу этот звук. / Не выношу этот шум.",
+        "learn": 0
+      },
+      {
+        "eng": "The dog cringed at the noise.",
+        "ru": "Услышав этот звук, собака съёжилась.",
+        "learn": 0
+      },
+      {
+        "eng": "I could hear a beeping noise.",
+        "ru": "Я слышал, как что-то пикает.",
+        "learn": 0
+      },
+      {
+        "eng": "The noise rose to a crescendo.",
+        "ru": "Шум достиг своего пика.",
+        "learn": 0
+      },
+      {
+        "eng": "What's the bird noising yonder?",
+        "ru": "Что это за птица там кричит?",
+        "learn": 0
+      },
+      {
+        "eng": "They tried to muffle the noise.",
+        "ru": "Они попытались заглушить шум.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you hear that rattling noise?",
+        "ru": "Слышишь этот грохот?",
+        "learn": 0
+      },
+      {
+        "eng": "The noise drowned out her speech.",
+        "ru": "Шум заглушил её речь.",
+        "learn": 0
+      },
+      {
+        "eng": "The noise goes on 24 hours a day.",
+        "ru": "Этот шум не смолкает круглые сутки.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't relax with all this noise!",
+        "ru": "Я не могу расслабиться из-за этого шума!",
+        "learn": 0
+      }
+    ]
+  }
 }

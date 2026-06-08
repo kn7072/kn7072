@@ -1,85 +1,172 @@
 {
-    "whole": {
-        "comment": [
-            "wholly"
-        ],
-        "translate": "целый, весь, цельный, здоровый, родной, целое, все",
-        "transcription": " |hoʊl|",
-        "antonyms": [],
-        "mnemonic": [
-            "whole [бо'ул] весь, целый - Целый (аул) накрыт оползнем.",
-            "whole [həul]\nwholly ['həulɪ] - полностью, целиком\n***\nЦЕЛЬНЫМ молоком заменим колу. (это) whole\nОПТОВАЯ торговля - дело неплохое (л). (это) whole\nЦЕЛЬНОЕ зерно неплохое. (это) whole"
-        ],
-        "examples": [
-            "Two halves make a whole.",
-            "We cooked a whole chicken.",
-            "I cannot tell you the whole (of it).",
-            "On the whole, the book is outstanding.",
-            "The whole evening was a great success.",
-            "The situation is, on the whole, satisfactory.",
-            "I don't believe she's telling us the whole story (=all the facts).",
-            "The whole town came out for the parade.",
-            "We ate the whole cake in about ten minutes.",
-            "Some of the statues were broken, but others were still whole.",
-            "Europe considered as a whole",
-            "His whole attitude bugs me.",
-            "We decided to forget the whole thing.",
-            "Place a whole onion inside the chicken.",
-            "He related his whole adventure from beginning to end.",
-            "She read the whole book in one day.",
-            "We cooked the chicken whole.",
-            "You have your whole life ahead of you!",
-            "It's been a whole week since I've seen him.",
-            "How big is that part compared to the whole?",
-            "the complex whole which we call \"civilization\"",
-            "One whole man is enough to take care of a wounded one.",
-            "It was months before the whole truth came out.",
-            "The whole place was remodeled. It looks great now.",
-            "There is a whole range of therapies that may be suitable.",
-            "The whole thing (=everything about the situation) just makes me sick.",
-            "I've been waiting my whole life for this.",
-            "I spent the whole summer traveling through Europe.",
-            "We just sat around and watched TV the whole time (=the only thing we did was watch television).",
-            "The frog swallowed the fly whole."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Две половинки составляют целое.",
-            "Мы приготовили курицу целиком.",
-            "Я не могу сказать вам всего.",
-            "В целом, книга — выдающаяся.",
-            "Весь вечер прошёл с большим успехом.",
-            "В целом, ситуация удовлетворительная.",
-            "По-моему, она рассказывает нам не всю историю (т.е. не всё).",
-            "На парад вышел весь город.",
-            "Мы съели весь торт минут за десять.",
-            "Некоторые статуи разбились, но другие были по-прежнему целы.",
-            "Европа как единое целое",
-            "Меня бесит весь этот его гонор.",
-            "Мы решили всё это позабыть.",
-            "Поместите внутрь курицы целую луковицу.",
-            "Он поведал нам всё о своих приключениях, от начала и до конца.",
-            "Она прочла всю книгу за один день.",
-            "Мы приготовили курицу целиком.",
-            "У вас вся жизнь впереди!",
-            "Я не видела его уже целую неделю.",
-            "Как велика эта часть по сравнению с целым?",
-            "сложное целое, которое мы называем \"цивилизацией\"",
-            "Чтобы позаботиться о раненом, достаточно одного здорового человека.",
-            "Вся правда вышла наружу только через несколько месяцев.",
-            "Весь дом был перестроен. Теперь он выглядит прекрасно.",
-            "Существует целый ряд лечебных курсов, которые могут подойти (в данном случае).",
-            "Меня от всего этого (т.е. от всей этой ситуации) просто тошнит.",
-            "Я ждал этого всю свою жизнь.",
-            "Всё лето я путешествовал по Европе.",
-            "Всё это время мы просто сидели и смотрели телевизор (и больше ничего не делали).",
-            "Лягушка проглотила муху целиком."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "wh_+_o_=_[h]",
-            "Прилагательные_которые_употребляются_только_перед_существительными"
-        ]
-    }
+  "whole": {
+    "comment": [
+      "wholly"
+    ],
+    "translate": "целый, весь, цельный, здоровый, родной, целое, все",
+    "transcription": " |hoʊl|",
+    "antonyms": [],
+    "mnemonic": [
+      "whole [бо'ул] весь, целый - Целый (аул) накрыт оползнем.",
+      "whole [həul]\nwholly ['həulɪ] - полностью, целиком\n***\nЦЕЛЬНЫМ молоком заменим колу. (это) whole\nОПТОВАЯ торговля - дело неплохое (л). (это) whole\nЦЕЛЬНОЕ зерно неплохое. (это) whole"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "wh_+_o_=_[h]",
+      "Прилагательные_которые_употребляются_только_перед_существительными"
+    ],
+    "examples": [
+      {
+        "eng": "Two halves make a whole.",
+        "ru": "Две половинки составляют целое.",
+        "learn": 0
+      },
+      {
+        "eng": "We cooked a whole chicken.",
+        "ru": "Мы приготовили курицу целиком.",
+        "learn": 1
+      },
+      {
+        "eng": "I cannot tell you the whole (of it).",
+        "ru": "Я не могу сказать вам всего.",
+        "learn": 1
+      },
+      {
+        "eng": "On the whole, the book is outstanding.",
+        "ru": "В целом, книга — выдающаяся.",
+        "learn": 0
+      },
+      {
+        "eng": "The whole evening was a great success.",
+        "ru": "Весь вечер прошёл с большим успехом.",
+        "learn": 0
+      },
+      {
+        "eng": "The situation is, on the whole, satisfactory.",
+        "ru": "В целом, ситуация удовлетворительная.",
+        "learn": 1
+      },
+      {
+        "eng": "I don't believe she's telling us the whole story (=all the facts).",
+        "ru": "По-моему, она рассказывает нам не всю историю (т.е. не всё).",
+        "learn": 0
+      },
+      {
+        "eng": "The whole town came out for the parade.",
+        "ru": "На парад вышел весь город.",
+        "learn": 1
+      },
+      {
+        "eng": "We ate the whole cake in about ten minutes.",
+        "ru": "Мы съели весь торт минут за десять.",
+        "learn": 0
+      },
+      {
+        "eng": "Some of the statues were broken, but others were still whole.",
+        "ru": "Некоторые статуи разбились, но другие были по-прежнему целы.",
+        "learn": 0
+      },
+      {
+        "eng": "Europe considered as a whole",
+        "ru": "Европа как единое целое",
+        "learn": 0
+      },
+      {
+        "eng": "His whole attitude bugs me.",
+        "ru": "Меня бесит весь этот его гонор.",
+        "learn": 0
+      },
+      {
+        "eng": "We decided to forget the whole thing.",
+        "ru": "Мы решили всё это позабыть.",
+        "learn": 0
+      },
+      {
+        "eng": "Place a whole onion inside the chicken.",
+        "ru": "Поместите внутрь курицы целую луковицу.",
+        "learn": 0
+      },
+      {
+        "eng": "He related his whole adventure from beginning to end.",
+        "ru": "Он поведал нам всё о своих приключениях, от начала и до конца.",
+        "learn": 1
+      },
+      {
+        "eng": "She read the whole book in one day.",
+        "ru": "Она прочла всю книгу за один день.",
+        "learn": 0
+      },
+      {
+        "eng": "We cooked the chicken whole.",
+        "ru": "Мы приготовили курицу целиком.",
+        "learn": 0
+      },
+      {
+        "eng": "You have your whole life ahead of you!",
+        "ru": "У вас вся жизнь впереди!",
+        "learn": 0
+      },
+      {
+        "eng": "It's been a whole week since I've seen him.",
+        "ru": "Я не видела его уже целую неделю.",
+        "learn": 0
+      },
+      {
+        "eng": "How big is that part compared to the whole?",
+        "ru": "Как велика эта часть по сравнению с целым?",
+        "learn": 0
+      },
+      {
+        "eng": "the complex whole which we call \"civilization\"",
+        "ru": "сложное целое, которое мы называем \"цивилизацией\"",
+        "learn": 0
+      },
+      {
+        "eng": "One whole man is enough to take care of a wounded one.",
+        "ru": "Чтобы позаботиться о раненом, достаточно одного здорового человека.",
+        "learn": 0
+      },
+      {
+        "eng": "It was months before the whole truth came out.",
+        "ru": "Вся правда вышла наружу только через несколько месяцев.",
+        "learn": 0
+      },
+      {
+        "eng": "The whole place was remodeled. It looks great now.",
+        "ru": "Весь дом был перестроен. Теперь он выглядит прекрасно.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a whole range of therapies that may be suitable.",
+        "ru": "Существует целый ряд лечебных курсов, которые могут подойти (в данном случае).",
+        "learn": 0
+      },
+      {
+        "eng": "The whole thing (=everything about the situation) just makes me sick.",
+        "ru": "Меня от всего этого (т.е. от всей этой ситуации) просто тошнит.",
+        "learn": 0
+      },
+      {
+        "eng": "I've been waiting my whole life for this.",
+        "ru": "Я ждал этого всю свою жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "I spent the whole summer traveling through Europe.",
+        "ru": "Всё лето я путешествовал по Европе.",
+        "learn": 0
+      },
+      {
+        "eng": "We just sat around and watched TV the whole time (=the only thing we did was watch television).",
+        "ru": "Всё это время мы просто сидели и смотрели телевизор (и больше ничего не делали).",
+        "learn": 0
+      },
+      {
+        "eng": "The frog swallowed the fly whole.",
+        "ru": "Лягушка проглотила муху целиком.",
+        "learn": 1
+      }
+    ]
+  }
 }

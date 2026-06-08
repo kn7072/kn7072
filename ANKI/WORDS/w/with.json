@@ -1,86 +1,173 @@
 {
-    "with": {
-        "comment": [
-            "within",
-            "without",
-            "withdraw",
-            "withdrawal"
-        ],
-        "translate": "с, вместе с, от, несмотря на, напихать",
-        "transcription": " |wɪð|",
-        "antonyms": [],
-        "mnemonic": [
-            "with [(ув)и'(вз)] вместе, с - (Увиз-ите) его с вещами."
-        ],
-        "examples": [
-            "Leave the child with me!",
-            "Great Britain fought with France.",
-            "Off to bed with you!",
-            "I hope you're not angry with me.",
-            "It is different with me.",
-            "Down with school!",
-            "She stood with her back to me.",
-            "He was concerned with English.",
-            "Be careful with that glass.",
-            "She had her husband with her.",
-            "Fill the bowl with sugar.",
-            "Britain's trade with Japan",
-            "Put this bag with the others.",
-            "With all his faults, I still like him.",
-            "I used to play chess with him.",
-            "We need someone with new ideas.",
-            "I was too weak with hunger to cry.",
-            "You're either with me or against me.",
-            "We sailed with the wind.",
-            "What will you buy with the money?",
-            "The pressure varies with the depth.",
-            "We lay in bed with the window open.",
-            "I saw Bob in town with his girlfriend.",
-            "He prepared everything with great care.",
-            "I amused myself with crossword puzzles.",
-            "They were trembling with fear.",
-            "Her boots were covered with mud.",
-            "I left your keys with the janitor.",
-            "Stop fighting with your brother!",
-            "She's delighted with her new car."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Оставьте ребёнка у меня!",
-            "Великобритания воевала на стороне Франции.",
-            "А ну давай живо в кровать!",
-            "Надеюсь, ты на меня не сердишься.",
-            "Со мной дело обстоит иначе.",
-            "К чёрту школу! / Долой школу!",
-            "Она стояла ко мне спиной.",
-            "Он занимался английским языком.",
-            "Будьте осторожны с этим стеклом.",
-            "С ней был её муж.",
-            "Наполните миску сахаром.",
-            "торговля Великобритании с Японией",
-            "Поставьте этот мешок к остальным.",
-            "При всех недостатках, он всё равно мне нравится.",
-            "Когда-то я играл с ним в шахматы.",
-            "Нам нужен человек с новыми идеями.",
-            "Я слишком ослаб от голода, чтобы плакать.",
-            "Ты либо со мной, либо против меня.",
-            "Мы плыли по ветру.",
-            "Что ты купишь на эти деньги?",
-            "Давление меняется в зависимости от глубины.",
-            "Мы лежали в постели, с открытым окном.",
-            "В городе я видел Боба с его подругой /девушкой/.",
-            "Он всё очень тщательно подготовил.",
-            "Я развлекался кроссвордами.",
-            "Они дрожали от страха.",
-            "Её сапоги были покрыты грязью.",
-            "Я оставил твои ключи вахтёру /дворнику/.",
-            "Прекрати драться со своим братом!",
-            "Она в восторге от своего нового автомобиля."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "th_=_[ð]"
-        ]
-    }
+  "with": {
+    "comment": [
+      "within",
+      "without",
+      "withdraw",
+      "withdrawal"
+    ],
+    "translate": "с, вместе с, от, несмотря на, напихать",
+    "transcription": " |wɪð|",
+    "antonyms": [],
+    "mnemonic": [
+      "with [(ув)и'(вз)] вместе, с - (Увиз-ите) его с вещами."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "th_=_[ð]"
+    ],
+    "examples": [
+      {
+        "eng": "Leave the child with me!",
+        "ru": "Оставьте ребёнка у меня!",
+        "learn": 0
+      },
+      {
+        "eng": "Great Britain fought with France.",
+        "ru": "Великобритания воевала на стороне Франции.",
+        "learn": 0
+      },
+      {
+        "eng": "Off to bed with you!",
+        "ru": "А ну давай живо в кровать!",
+        "learn": 0
+      },
+      {
+        "eng": "I hope you're not angry with me.",
+        "ru": "Надеюсь, ты на меня не сердишься.",
+        "learn": 0
+      },
+      {
+        "eng": "It is different with me.",
+        "ru": "Со мной дело обстоит иначе.",
+        "learn": 0
+      },
+      {
+        "eng": "Down with school!",
+        "ru": "К чёрту школу! / Долой школу!",
+        "learn": 0
+      },
+      {
+        "eng": "She stood with her back to me.",
+        "ru": "Она стояла ко мне спиной.",
+        "learn": 0
+      },
+      {
+        "eng": "He was concerned with English.",
+        "ru": "Он занимался английским языком.",
+        "learn": 0
+      },
+      {
+        "eng": "Be careful with that glass.",
+        "ru": "Будьте осторожны с этим стеклом.",
+        "learn": 0
+      },
+      {
+        "eng": "She had her husband with her.",
+        "ru": "С ней был её муж.",
+        "learn": 1
+      },
+      {
+        "eng": "Fill the bowl with sugar.",
+        "ru": "Наполните миску сахаром.",
+        "learn": 0
+      },
+      {
+        "eng": "Britain's trade with Japan",
+        "ru": "торговля Великобритании с Японией",
+        "learn": 0
+      },
+      {
+        "eng": "Put this bag with the others.",
+        "ru": "Поставьте этот мешок к остальным.",
+        "learn": 0
+      },
+      {
+        "eng": "With all his faults, I still like him.",
+        "ru": "При всех недостатках, он всё равно мне нравится.",
+        "learn": 0
+      },
+      {
+        "eng": "I used to play chess with him.",
+        "ru": "Когда-то я играл с ним в шахматы.",
+        "learn": 1
+      },
+      {
+        "eng": "We need someone with new ideas.",
+        "ru": "Нам нужен человек с новыми идеями.",
+        "learn": 0
+      },
+      {
+        "eng": "I was too weak with hunger to cry.",
+        "ru": "Я слишком ослаб от голода, чтобы плакать.",
+        "learn": 0
+      },
+      {
+        "eng": "You're either with me or against me.",
+        "ru": "Ты либо со мной, либо против меня.",
+        "learn": 0
+      },
+      {
+        "eng": "We sailed with the wind.",
+        "ru": "Мы плыли по ветру.",
+        "learn": 0
+      },
+      {
+        "eng": "What will you buy with the money?",
+        "ru": "Что ты купишь на эти деньги?",
+        "learn": 0
+      },
+      {
+        "eng": "The pressure varies with the depth.",
+        "ru": "Давление меняется в зависимости от глубины.",
+        "learn": 0
+      },
+      {
+        "eng": "We lay in bed with the window open.",
+        "ru": "Мы лежали в постели, с открытым окном.",
+        "learn": 0
+      },
+      {
+        "eng": "I saw Bob in town with his girlfriend.",
+        "ru": "В городе я видел Боба с его подругой /девушкой/.",
+        "learn": 0
+      },
+      {
+        "eng": "He prepared everything with great care.",
+        "ru": "Он всё очень тщательно подготовил.",
+        "learn": 0
+      },
+      {
+        "eng": "I amused myself with crossword puzzles.",
+        "ru": "Я развлекался кроссвордами.",
+        "learn": 1
+      },
+      {
+        "eng": "They were trembling with fear.",
+        "ru": "Они дрожали от страха.",
+        "learn": 0
+      },
+      {
+        "eng": "Her boots were covered with mud.",
+        "ru": "Её сапоги были покрыты грязью.",
+        "learn": 0
+      },
+      {
+        "eng": "I left your keys with the janitor.",
+        "ru": "Я оставил твои ключи вахтёру /дворнику/.",
+        "learn": 0
+      },
+      {
+        "eng": "Stop fighting with your brother!",
+        "ru": "Прекрати драться со своим братом!",
+        "learn": 1
+      },
+      {
+        "eng": "She's delighted with her new car.",
+        "ru": "Она в восторге от своего нового автомобиля.",
+        "learn": 1
+      }
+    ]
+  }
 }

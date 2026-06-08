@@ -1,86 +1,172 @@
 {
-    "kill": {
-        "comment": [
-            "skilled",
-            "skill",
-            "killing",
-            "killer"
-        ],
-        "translate": "убийство, добыча, убивать, уничтожать, прикончить",
-        "transcription": " |kɪl|",
-        "antonyms": [],
-        "mnemonic": [
-            "bill [bɪl]\nkill [kil]\n***\nТы ВЫСТАВИЛ СЧЁТ - ты им меня убил. (это) bill\nЗАКОНОПРОЕКТ писал дебил. (это) bill\nСЧЁТ большой выставил дебил. (это) bill\nПтенец КЛЮВОМ мошку бил. (это) bill\n***\nКот мышку УБИЛ. (это) kill\nСтал УБИВАТЬ, выпив текилы. (это) kill\n***\nСуммой счета \"bill\"\nофициант меня убил \"kill\"",
-            "kill [kil]\n***\nКот мышку УБИЛ. (это) kill\nСтал УБИВАТЬ, выпив текилы (это) kill\nДобыча, убийство.\n***\nЕсли ты убиваешь \"kill\",\nзначит, ты больной \"ill\"."
-        ],
-        "examples": [
-            "Let's kill these beers and go.",
-            "Smoking kills.",
-            "The lion made the kill.",
-            "Mom will kill me if I'm late.",
-            "It nearly killed me.",
-            "He killed the ball.",
-            "The snake closed in for the kill.",
-            "He went crazy and tried to kill her.",
-            "I killed the pain with drugs.",
-            "I could kill for a smoke right now.",
-            "She killed the ball.",
-            "a disease that can kill",
-            "A chemical that kills weeds",
-            "Bleach kills household germs.",
-            "She just killed the audience.",
-            "Taking drugs to kill the pain",
-            "The drums killed the strings.",
-            "Why did she kill her husband?",
-            "What led him to kill his wife?",
-            "The committee killed the bill.",
-            "These new shoes are killing me!",
-            "She told him to kill the lights.",
-            "The driver was killed instantly.",
-            "He raised his knife for the kill.",
-            "Did you kill many pirates? - Tons.",
-            "She schemed to kill him with poison.",
-            "Joe pulled in and killed the engine.",
-            "AIDS has killed thousands in Africa.",
-            "chemicals could kill all the wildlife",
-            "'I'll kill you,' Anne shrieked at him."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Давайте допьём пиво и уйдём.",
-            "Курение убивает.",
-            "Лев охотился.",
-            "Мама убьёт меня, если опоздаю.",
-            "Я чуть не умер со смеху.",
-            "Он пробил мячом навылет. / Он загасил мяч. (о теннисе или волейболе)",
-            "Змея приблизилась, чтобы добить жертву.",
-            "Он сошёл с ума и пытался её убить.",
-            "Я лекарствами заглушил боль.",
-            "Всё бы отдал сейчас за сигарету.",
-            "Она пробила мячом навылет. / Она загасила мяч. (о теннисе или волейболе)",
-            "болезнь, которая может убить",
-            "Химическое вещество, которое убивает сорняки",
-            "Отбеливатель убивает бытовых микробов.",
-            "Она просто поразила аудиторию.",
-            "Употребление наркотиков с целью заглушить боль",
-            "Барабаны заглушили струнные инструменты.",
-            "Почему она убила мужа?",
-            "Что его заставило убить свою жену? / Что привело его к убийству жены?",
-            "Комитет не принял этот законопроект.",
-            "Эти новые туфли меня доконают!",
-            "Она велела ему выключить свет.",
-            "Водитель был убит мгновенно.",
-            "Он поднял нож, чтобы прикончить добычу.",
-            "Вы убили много пиратов? - Кучу.",
-            "Она задумала убить его ядом.",
-            "Джо остановился и заглушил двигатель.",
-            "В Африке СПИД убил тысячи людей.",
-            "химикаты могут убить всё живое",
-            "— Я убью тебя, — закричала на него Энн."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "kill": {
+    "comment": [
+      "skilled",
+      "skill",
+      "killing",
+      "killer"
+    ],
+    "translate": "убийство, добыча, убивать, уничтожать, прикончить",
+    "transcription": " |kɪl|",
+    "antonyms": [],
+    "mnemonic": [
+      "bill [bɪl]\nkill [kil]\n***\nТы ВЫСТАВИЛ СЧЁТ - ты им меня убил. (это) bill\nЗАКОНОПРОЕКТ писал дебил. (это) bill\nСЧЁТ большой выставил дебил. (это) bill\nПтенец КЛЮВОМ мошку бил. (это) bill\n***\nКот мышку УБИЛ. (это) kill\nСтал УБИВАТЬ, выпив текилы. (это) kill\n***\nСуммой счета \"bill\"\nофициант меня убил \"kill\"",
+      "kill [kil]\n***\nКот мышку УБИЛ. (это) kill\nСтал УБИВАТЬ, выпив текилы (это) kill\nДобыча, убийство.\n***\nЕсли ты убиваешь \"kill\",\nзначит, ты больной \"ill\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Let's kill these beers and go.",
+        "ru": "Давайте допьём пиво и уйдём.",
+        "learn": 0
+      },
+      {
+        "eng": "Smoking kills.",
+        "ru": "Курение убивает.",
+        "learn": 0
+      },
+      {
+        "eng": "The lion made the kill.",
+        "ru": "Лев охотился.",
+        "learn": 0
+      },
+      {
+        "eng": "Mom will kill me if I'm late.",
+        "ru": "Мама убьёт меня, если опоздаю.",
+        "learn": 0
+      },
+      {
+        "eng": "It nearly killed me.",
+        "ru": "Я чуть не умер со смеху.",
+        "learn": 0
+      },
+      {
+        "eng": "He killed the ball.",
+        "ru": "Он пробил мячом навылет. / Он загасил мяч. (о теннисе или волейболе)",
+        "learn": 0
+      },
+      {
+        "eng": "The snake closed in for the kill.",
+        "ru": "Змея приблизилась, чтобы добить жертву.",
+        "learn": 1
+      },
+      {
+        "eng": "He went crazy and tried to kill her.",
+        "ru": "Он сошёл с ума и пытался её убить.",
+        "learn": 0
+      },
+      {
+        "eng": "I killed the pain with drugs.",
+        "ru": "Я лекарствами заглушил боль.",
+        "learn": 0
+      },
+      {
+        "eng": "I could kill for a smoke right now.",
+        "ru": "Всё бы отдал сейчас за сигарету.",
+        "learn": 0
+      },
+      {
+        "eng": "She killed the ball.",
+        "ru": "Она пробила мячом навылет. / Она загасила мяч. (о теннисе или волейболе)",
+        "learn": 0
+      },
+      {
+        "eng": "a disease that can kill",
+        "ru": "болезнь, которая может убить",
+        "learn": 0
+      },
+      {
+        "eng": "A chemical that kills weeds",
+        "ru": "Химическое вещество, которое убивает сорняки",
+        "learn": 0
+      },
+      {
+        "eng": "Bleach kills household germs.",
+        "ru": "Отбеливатель убивает бытовых микробов.",
+        "learn": 0
+      },
+      {
+        "eng": "She just killed the audience.",
+        "ru": "Она просто поразила аудиторию.",
+        "learn": 0
+      },
+      {
+        "eng": "Taking drugs to kill the pain",
+        "ru": "Употребление наркотиков с целью заглушить боль",
+        "learn": 0
+      },
+      {
+        "eng": "The drums killed the strings.",
+        "ru": "Барабаны заглушили струнные инструменты.",
+        "learn": 0
+      },
+      {
+        "eng": "Why did she kill her husband?",
+        "ru": "Почему она убила мужа?",
+        "learn": 0
+      },
+      {
+        "eng": "What led him to kill his wife?",
+        "ru": "Что его заставило убить свою жену? / Что привело его к убийству жены?",
+        "learn": 0
+      },
+      {
+        "eng": "The committee killed the bill.",
+        "ru": "Комитет не принял этот законопроект.",
+        "learn": 0
+      },
+      {
+        "eng": "These new shoes are killing me!",
+        "ru": "Эти новые туфли меня доконают!",
+        "learn": 0
+      },
+      {
+        "eng": "She told him to kill the lights.",
+        "ru": "Она велела ему выключить свет.",
+        "learn": 0
+      },
+      {
+        "eng": "The driver was killed instantly.",
+        "ru": "Водитель был убит мгновенно.",
+        "learn": 0
+      },
+      {
+        "eng": "He raised his knife for the kill.",
+        "ru": "Он поднял нож, чтобы прикончить добычу.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you kill many pirates? - Tons.",
+        "ru": "Вы убили много пиратов? - Кучу.",
+        "learn": 1
+      },
+      {
+        "eng": "She schemed to kill him with poison.",
+        "ru": "Она задумала убить его ядом.",
+        "learn": 1
+      },
+      {
+        "eng": "Joe pulled in and killed the engine.",
+        "ru": "Джо остановился и заглушил двигатель.",
+        "learn": 0
+      },
+      {
+        "eng": "AIDS has killed thousands in Africa.",
+        "ru": "В Африке СПИД убил тысячи людей.",
+        "learn": 0
+      },
+      {
+        "eng": "chemicals could kill all the wildlife",
+        "ru": "химикаты могут убить всё живое",
+        "learn": 0
+      },
+      {
+        "eng": "'I'll kill you,' Anne shrieked at him.",
+        "ru": "— Я убью тебя, — закричала на него Энн.",
+        "learn": 0
+      }
+    ]
+  }
 }

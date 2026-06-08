@@ -1,67 +1,132 @@
 {
-    "emotion": {
-        "comment": [
-            "emotional",
-            "motion"
-        ],
-        "translate": "эмоция, чувство, волнение, душевное волнение, возбуждение",
-        "transcription": " |ɪˈmoʊʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She was good at hiding her emotions.",
-            "Her voice was full of emotion.",
-            "Jealousy is an ugly emotion.",
-            "Mind reluctates any emotion.",
-            "His face worked with emotion.",
-            "His face twitched with emotion.",
-            "She was overtaken by emotion and started to cry.",
-            "She saw the emotion in her father's face and knew her words had struck home.",
-            "My breast heaved with emotion.",
-            "a wave of emotion swept over him",
-            "I was too choked with emotion to speak.",
-            "Laughter is one of the most infectious expressions of emotion.",
-            "She was overcome with emotion at the news of her friend's death.",
-            "She swallowed back a tide of emotion.",
-            "He was in the grip of a powerful emotion.",
-            "She displayed no emotion on the witness stand.",
-            "The stadium was a seething cauldron of emotion.",
-            "He conducts the choir with great skill and emotion.",
-            "The reliving of a strong emotion can be therapeutic.",
-            "The defendant showed no emotion when the verdict was read.",
-            "He searched her face, hoping to see some glimmer of emotion.",
-            "For the actors, the goal was a paradox: real emotion, produced on cue.",
-            "Such displays of emotion were once considered womanish and unseemly for a man."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она хорошо умела скрывать свои чувства.",
-            "Её голос был полон эмоций.",
-            "Ревность — это неприятное чувство.",
-            "Разум сопротивляется какому-либо проявлению эмоций.",
-            "Его лицо подёргивалось от волнения.",
-            "У него дёргалось лицо от волнения.",
-            "Чувства овладели ей, она начала плакать.",
-            "По выражению на лице отца она поняла, что ее слова попали в цель.",
-            "Моя грудь потяжелела от волнения.",
-            "волна эмоций накрыла его",
-            "Я задыхался от эмоций, и не мог говорить.",
-            "Смех — это одно из наиболее заразительных проявлений эмоций.",
-            "Новость о смерти подруги переполнила её эмоциями.",
-            "Она с трудом сдержала прилив эмоций.",
-            "Им овладело сильное чувство.",
-            "Она проявила никаких эмоций, выступая в суде в качестве свидетеля.",
-            "На стадионе кипели страсти.",
-            "Он дирижирует хором с чувством и большим мастерством.",
-            "Повторное переживание сильной эмоции может оказать оздоровительный эффект.",
-            "Когда зачитывали приговор, подсудимый не выказал никаких эмоций.",
-            "Он всмотрелся в её лицо, надеясь увидеть хоть какой-то проблеск чувств.",
-            "Задача этих актёров была парадоксальна: настоящие эмоции, воспроизводимые по заказу.",
-            "Когда-то такие проявления эмоций считались бабскими, и мужчинам не подобали."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "emotion": {
+    "comment": [
+      "emotional",
+      "motion"
+    ],
+    "translate": "эмоция, чувство, волнение, душевное волнение, возбуждение",
+    "transcription": " |ɪˈmoʊʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She was good at hiding her emotions.",
+        "ru": "Она хорошо умела скрывать свои чувства.",
+        "learn": 0
+      },
+      {
+        "eng": "Her voice was full of emotion.",
+        "ru": "Её голос был полон эмоций.",
+        "learn": 0
+      },
+      {
+        "eng": "Jealousy is an ugly emotion.",
+        "ru": "Ревность — это неприятное чувство.",
+        "learn": 1
+      },
+      {
+        "eng": "Mind reluctates any emotion.",
+        "ru": "Разум сопротивляется какому-либо проявлению эмоций.",
+        "learn": 0
+      },
+      {
+        "eng": "His face worked with emotion.",
+        "ru": "Его лицо подёргивалось от волнения.",
+        "learn": 0
+      },
+      {
+        "eng": "His face twitched with emotion.",
+        "ru": "У него дёргалось лицо от волнения.",
+        "learn": 0
+      },
+      {
+        "eng": "She was overtaken by emotion and started to cry.",
+        "ru": "Чувства овладели ей, она начала плакать.",
+        "learn": 0
+      },
+      {
+        "eng": "She saw the emotion in her father's face and knew her words had struck home.",
+        "ru": "По выражению на лице отца она поняла, что ее слова попали в цель.",
+        "learn": 0
+      },
+      {
+        "eng": "My breast heaved with emotion.",
+        "ru": "Моя грудь потяжелела от волнения.",
+        "learn": 0
+      },
+      {
+        "eng": "a wave of emotion swept over him",
+        "ru": "волна эмоций накрыла его",
+        "learn": 0
+      },
+      {
+        "eng": "I was too choked with emotion to speak.",
+        "ru": "Я задыхался от эмоций, и не мог говорить.",
+        "learn": 0
+      },
+      {
+        "eng": "Laughter is one of the most infectious expressions of emotion.",
+        "ru": "Смех — это одно из наиболее заразительных проявлений эмоций.",
+        "learn": 1
+      },
+      {
+        "eng": "She was overcome with emotion at the news of her friend's death.",
+        "ru": "Новость о смерти подруги переполнила её эмоциями.",
+        "learn": 0
+      },
+      {
+        "eng": "She swallowed back a tide of emotion.",
+        "ru": "Она с трудом сдержала прилив эмоций.",
+        "learn": 0
+      },
+      {
+        "eng": "He was in the grip of a powerful emotion.",
+        "ru": "Им овладело сильное чувство.",
+        "learn": 0
+      },
+      {
+        "eng": "She displayed no emotion on the witness stand.",
+        "ru": "Она проявила никаких эмоций, выступая в суде в качестве свидетеля.",
+        "learn": 0
+      },
+      {
+        "eng": "The stadium was a seething cauldron of emotion.",
+        "ru": "На стадионе кипели страсти.",
+        "learn": 0
+      },
+      {
+        "eng": "He conducts the choir with great skill and emotion.",
+        "ru": "Он дирижирует хором с чувством и большим мастерством.",
+        "learn": 1
+      },
+      {
+        "eng": "The reliving of a strong emotion can be therapeutic.",
+        "ru": "Повторное переживание сильной эмоции может оказать оздоровительный эффект.",
+        "learn": 0
+      },
+      {
+        "eng": "The defendant showed no emotion when the verdict was read.",
+        "ru": "Когда зачитывали приговор, подсудимый не выказал никаких эмоций.",
+        "learn": 1
+      },
+      {
+        "eng": "He searched her face, hoping to see some glimmer of emotion.",
+        "ru": "Он всмотрелся в её лицо, надеясь увидеть хоть какой-то проблеск чувств.",
+        "learn": 0
+      },
+      {
+        "eng": "For the actors, the goal was a paradox: real emotion, produced on cue.",
+        "ru": "Задача этих актёров была парадоксальна: настоящие эмоции, воспроизводимые по заказу.",
+        "learn": 0
+      },
+      {
+        "eng": "Such displays of emotion were once considered womanish and unseemly for a man.",
+        "ru": "Когда-то такие проявления эмоций считались бабскими, и мужчинам не подобали.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,80 +1,166 @@
 {
-    "senior": {
-        "comment": [],
-        "translate": " старший, выпускной, последний, пожилой человек, старшеклассник",
-        "transcription": "  |ˈsiːniər|",
-        "antonyms": [],
-        "mnemonic": [
-            "senior ['si:nɪə]\n***\nУ СТАРШИХ носы синие. (это) senior\nУ СТАРШЕКЛАССНИКОВ носы синие. (это) senior"
-        ],
-        "examples": [
-            "She was his senior in rank.",
-            "She is five years my senior.",
-            "All senior management were told to leave.",
-            "He was appointed senior adviser to the president.",
-            "a senior editor for the magazine",
-            "Edward Smith, Senior",
-            "Seniors can get a 10% discount.",
-            "The senior partner has retired.",
-            "Jen will be a senior this year.",
-            "The card entitles my grandmother to the discount for senior citizens.",
-            "John Brown Senior was a busy man",
-            "Helen was promoted to senior manager.",
-            "Douglas Fairbanks Senior",
-            "the senior vice president of marketing",
-            "She is a senior aide to the president.",
-            "Women fill 35% of senior management positions.",
-            "Your promotion to Senior Editor is now official.",
-            "I won the 60 metre race, my first senior success.",
-            "White men hold most of the jobs in senior management.",
-            "He bribed a senior civil servant to get the import licence passed.",
-            "Senior officials will be discussing how the volume of sales might be reduced.",
-            "He was promoted to senior editor.",
-            "the remit of a senior member of staff",
-            "He was tapped for an exclusive Senior Society.",
-            "his ascension to the ranks of senior management",
-            "She was a senior partner at the Wall Street firm.",
-            "Senior ministers spoke in favour of the proposal.",
-            "precedential treatment for senior members of the firm",
-            "His natural authority fitted him for a senior position.",
-            "A senior army officer was held hostage for four months."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она была старше его по чину.",
-            "Она старше меня на пять лет.",
-            "Всему высшему руководству указали на дверь.",
-            "Он был назначен старшим советником президента.",
-            "старший редактор журнала",
-            "Кевин Смит старший",
-            "Пожилые люди могут получить десятипроцентную скидку.",
-            "Старший партнер ушёл на пенсию.",
-            "В этом году Джен будет учиться в выпускном классе /на последнем курсе/.",
-            "Эта карта дает моей бабушке право на скидку для пенсионеров.",
-            "Джон Браун старший (отец - в отличие от сына) был занятым человеком",
-            "Хелен повысили до старшего менеджера.",
-            "Дуглас Фэрбенкс-старший (актер эпохи немого кино)",
-            "старший вице-президент по маркетингу",
-            "Она является старшим помощником президента.",
-            "Тридцать пять процентов руководящих должностей занимают женщины.",
-            "Теперь вы официально повышены на должность старшего редактора.",
-            "Я выиграл забег на 60 метров, что стало моим первым успехом в соревнованиях для ветеранов /для выпускников/.",
-            "Белые люди занимают большинство должностей в высшем руководстве.",
-            "Он дал взятку высшему должностному лицу, чтобы получить разрешение на ввоз товаров.",
-            "Начальство будет обсуждать, каким образом можно снизить объёмы продаж.",
-            "Его повысили, назначив на должность старшего редактора.",
-            "обязанности руководящего сотрудника",
-            "Он был избран в члены почётнейшего Совета Старейшин.",
-            "его подъём в ряды высшего руководства",
-            "Она была старшим партнёром в фирме на Уолл-Стрит.",
-            "Главные /старшие/ министры высказались в пользу этого предложения.",
-            "приоритетное отношение к старшим членам фирмы",
-            "Благодаря своему природному авторитету он хорошо подходил на руководящую должность.",
-            "Один из старших офицеров армии был заложником в течение четырёх месяцев."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "senior": {
+    "comment": [],
+    "translate": " старший, выпускной, последний, пожилой человек, старшеклассник",
+    "transcription": "  |ˈsiːniər|",
+    "antonyms": [],
+    "mnemonic": [
+      "senior ['si:nɪə]\n***\nУ СТАРШИХ носы синие. (это) senior\nУ СТАРШЕКЛАССНИКОВ носы синие. (это) senior"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She was his senior in rank.",
+        "ru": "Она была старше его по чину.",
+        "learn": 0
+      },
+      {
+        "eng": "She is five years my senior.",
+        "ru": "Она старше меня на пять лет.",
+        "learn": 0
+      },
+      {
+        "eng": "All senior management were told to leave.",
+        "ru": "Всему высшему руководству указали на дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "He was appointed senior adviser to the president.",
+        "ru": "Он был назначен старшим советником президента.",
+        "learn": 1
+      },
+      {
+        "eng": "a senior editor for the magazine",
+        "ru": "старший редактор журнала",
+        "learn": 0
+      },
+      {
+        "eng": "Edward Smith, Senior",
+        "ru": "Кевин Смит старший",
+        "learn": 0
+      },
+      {
+        "eng": "Seniors can get a 10% discount.",
+        "ru": "Пожилые люди могут получить десятипроцентную скидку.",
+        "learn": 0
+      },
+      {
+        "eng": "The senior partner has retired.",
+        "ru": "Старший партнер ушёл на пенсию.",
+        "learn": 0
+      },
+      {
+        "eng": "Jen will be a senior this year.",
+        "ru": "В этом году Джен будет учиться в выпускном классе /на последнем курсе/.",
+        "learn": 0
+      },
+      {
+        "eng": "The card entitles my grandmother to the discount for senior citizens.",
+        "ru": "Эта карта дает моей бабушке право на скидку для пенсионеров.",
+        "learn": 0
+      },
+      {
+        "eng": "John Brown Senior was a busy man",
+        "ru": "Джон Браун старший (отец - в отличие от сына) был занятым человеком",
+        "learn": 0
+      },
+      {
+        "eng": "Helen was promoted to senior manager.",
+        "ru": "Хелен повысили до старшего менеджера.",
+        "learn": 0
+      },
+      {
+        "eng": "Douglas Fairbanks Senior",
+        "ru": "Дуглас Фэрбенкс-старший (актер эпохи немого кино)",
+        "learn": 0
+      },
+      {
+        "eng": "the senior vice president of marketing",
+        "ru": "старший вице-президент по маркетингу",
+        "learn": 0
+      },
+      {
+        "eng": "She is a senior aide to the president.",
+        "ru": "Она является старшим помощником президента.",
+        "learn": 0
+      },
+      {
+        "eng": "Women fill 35% of senior management positions.",
+        "ru": "Тридцать пять процентов руководящих должностей занимают женщины.",
+        "learn": 0
+      },
+      {
+        "eng": "Your promotion to Senior Editor is now official.",
+        "ru": "Теперь вы официально повышены на должность старшего редактора.",
+        "learn": 0
+      },
+      {
+        "eng": "I won the 60 metre race, my first senior success.",
+        "ru": "Я выиграл забег на 60 метров, что стало моим первым успехом в соревнованиях для ветеранов /для выпускников/.",
+        "learn": 1
+      },
+      {
+        "eng": "White men hold most of the jobs in senior management.",
+        "ru": "Белые люди занимают большинство должностей в высшем руководстве.",
+        "learn": 0
+      },
+      {
+        "eng": "He bribed a senior civil servant to get the import licence passed.",
+        "ru": "Он дал взятку высшему должностному лицу, чтобы получить разрешение на ввоз товаров.",
+        "learn": 0
+      },
+      {
+        "eng": "Senior officials will be discussing how the volume of sales might be reduced.",
+        "ru": "Начальство будет обсуждать, каким образом можно снизить объёмы продаж.",
+        "learn": 0
+      },
+      {
+        "eng": "He was promoted to senior editor.",
+        "ru": "Его повысили, назначив на должность старшего редактора.",
+        "learn": 0
+      },
+      {
+        "eng": "the remit of a senior member of staff",
+        "ru": "обязанности руководящего сотрудника",
+        "learn": 0
+      },
+      {
+        "eng": "He was tapped for an exclusive Senior Society.",
+        "ru": "Он был избран в члены почётнейшего Совета Старейшин.",
+        "learn": 0
+      },
+      {
+        "eng": "his ascension to the ranks of senior management",
+        "ru": "его подъём в ряды высшего руководства",
+        "learn": 0
+      },
+      {
+        "eng": "She was a senior partner at the Wall Street firm.",
+        "ru": "Она была старшим партнёром в фирме на Уолл-Стрит.",
+        "learn": 0
+      },
+      {
+        "eng": "Senior ministers spoke in favour of the proposal.",
+        "ru": "Главные /старшие/ министры высказались в пользу этого предложения.",
+        "learn": 0
+      },
+      {
+        "eng": "precedential treatment for senior members of the firm",
+        "ru": "приоритетное отношение к старшим членам фирмы",
+        "learn": 0
+      },
+      {
+        "eng": "His natural authority fitted him for a senior position.",
+        "ru": "Благодаря своему природному авторитету он хорошо подходил на руководящую должность.",
+        "learn": 0
+      },
+      {
+        "eng": "A senior army officer was held hostage for four months.",
+        "ru": "Один из старших офицеров армии был заложником в течение четырёх месяцев.",
+        "learn": 1
+      }
+    ]
+  }
 }

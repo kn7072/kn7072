@@ -1,68 +1,124 @@
 {
-    "downstairs": {
-        "comment": [
-            "stair",
-            "upstairs",
-            "staircase",
-            "downward",
-            "downwards",
-            "download",
-            "down",
-            "downtown",
-            "breakdown"
-        ],
-        "translate": " вниз, внизу, нижний этаж",
-        "transcription": "  |ˌdaʊnˈsterz|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She went downstairs to the kitchen.",
-            "The bed was removed downstairs.",
-            "Go downstairs and wait for me at the bottom.",
-            "She fancied she heard a noise downstairs.",
-            "A ring at the bell called him downstairs.",
-            "They heard a commotion downstairs.",
-            "I dossed down on the couch downstairs.",
-            "I could hear Jonathan acting up downstairs.",
-            "He ran downstairs to answer the door.",
-            "Can you turn the light out downstairs?",
-            "She fell downstairs and broke her hip.",
-            "There are five downstairs rooms.",
-            "She fell downstairs and broke her leg.",
-            "The children came thundering downstairs.",
-            "Cooking smells wafted up from downstairs.",
-            "Some running downstairs and some upstairs.",
-            "Amy slipped downstairs and out of the house.",
-            "I nearly fell in my anxiety to get downstairs quickly.",
-            "Hastily tumbling into my clothes, I rushed downstairs.",
-            "Sorry to interrupt, but I need to ask you to come downstairs."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она спустилась по лестнице на кухню.",
-            "Кровать переставили вниз, на первый этаж.",
-            "Спускайся по лестнице и жди меня внизу.",
-            "Ей показалось, что она услышала шум внизу.",
-            "Звук дверного колокольчика заставил его спуститься вниз.",
-            "Они услышали внизу какой-то шум.",
-            "Переночевал я на диване внизу.",
-            "Я слышал, как внизу капризничал Джонатан.",
-            "Он сбежал вниз по лестнице, чтобы открыть дверь.",
-            "Можешь выключить свет внизу?",
-            "Она упала с лестницы и сломала бедро.",
-            "На нижнем этаже — пять комнат.",
-            "Она упала с лестницы и сломала ногу.",
-            "Дети с оглушительным шумом спустились по лестнице.",
-            "Снизу доносились запахи готовящейся еды.",
-            "Кто-то бежит вниз по лестнице, а кто-то — вверх.",
-            "Эми тихонько спустилась по лестнице и выскользнула из дома.",
-            "Я так хотела побыстрее спуститься по лестнице, что чуть не упала.",
-            "Стремительно одевшись, я кинулся вниз по лестнице.",
-            "Извините, что перебиваю, но я вынужден просить вас спуститься вниз."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "downstairs": {
+    "comment": [
+      "stair",
+      "upstairs",
+      "staircase",
+      "downward",
+      "downwards",
+      "download",
+      "down",
+      "downtown",
+      "breakdown"
+    ],
+    "translate": " вниз, внизу, нижний этаж",
+    "transcription": "  |ˌdaʊnˈsterz|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She went downstairs to the kitchen.",
+        "ru": "Она спустилась по лестнице на кухню.",
+        "learn": 1
+      },
+      {
+        "eng": "The bed was removed downstairs.",
+        "ru": "Кровать переставили вниз, на первый этаж.",
+        "learn": 0
+      },
+      {
+        "eng": "Go downstairs and wait for me at the bottom.",
+        "ru": "Спускайся по лестнице и жди меня внизу.",
+        "learn": 0
+      },
+      {
+        "eng": "She fancied she heard a noise downstairs.",
+        "ru": "Ей показалось, что она услышала шум внизу.",
+        "learn": 0
+      },
+      {
+        "eng": "A ring at the bell called him downstairs.",
+        "ru": "Звук дверного колокольчика заставил его спуститься вниз.",
+        "learn": 0
+      },
+      {
+        "eng": "They heard a commotion downstairs.",
+        "ru": "Они услышали внизу какой-то шум.",
+        "learn": 0
+      },
+      {
+        "eng": "I dossed down on the couch downstairs.",
+        "ru": "Переночевал я на диване внизу.",
+        "learn": 0
+      },
+      {
+        "eng": "I could hear Jonathan acting up downstairs.",
+        "ru": "Я слышал, как внизу капризничал Джонатан.",
+        "learn": 0
+      },
+      {
+        "eng": "He ran downstairs to answer the door.",
+        "ru": "Он сбежал вниз по лестнице, чтобы открыть дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you turn the light out downstairs?",
+        "ru": "Можешь выключить свет внизу?",
+        "learn": 0
+      },
+      {
+        "eng": "She fell downstairs and broke her hip.",
+        "ru": "Она упала с лестницы и сломала бедро.",
+        "learn": 1
+      },
+      {
+        "eng": "There are five downstairs rooms.",
+        "ru": "На нижнем этаже — пять комнат.",
+        "learn": 0
+      },
+      {
+        "eng": "She fell downstairs and broke her leg.",
+        "ru": "Она упала с лестницы и сломала ногу.",
+        "learn": 0
+      },
+      {
+        "eng": "The children came thundering downstairs.",
+        "ru": "Дети с оглушительным шумом спустились по лестнице.",
+        "learn": 0
+      },
+      {
+        "eng": "Cooking smells wafted up from downstairs.",
+        "ru": "Снизу доносились запахи готовящейся еды.",
+        "learn": 0
+      },
+      {
+        "eng": "Some running downstairs and some upstairs.",
+        "ru": "Кто-то бежит вниз по лестнице, а кто-то — вверх.",
+        "learn": 0
+      },
+      {
+        "eng": "Amy slipped downstairs and out of the house.",
+        "ru": "Эми тихонько спустилась по лестнице и выскользнула из дома.",
+        "learn": 0
+      },
+      {
+        "eng": "I nearly fell in my anxiety to get downstairs quickly.",
+        "ru": "Я так хотела побыстрее спуститься по лестнице, что чуть не упала.",
+        "learn": 0
+      },
+      {
+        "eng": "Hastily tumbling into my clothes, I rushed downstairs.",
+        "ru": "Стремительно одевшись, я кинулся вниз по лестнице.",
+        "learn": 0
+      },
+      {
+        "eng": "Sorry to interrupt, but I need to ask you to come downstairs.",
+        "ru": "Извините, что перебиваю, но я вынужден просить вас спуститься вниз.",
+        "learn": 1
+      }
+    ]
+  }
 }

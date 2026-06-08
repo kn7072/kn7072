@@ -1,83 +1,169 @@
 {
-    "favorite": {
-        "comment": [
-            "favor",
-            "favourite",
-            "favour",
-            "favourable"
-        ],
-        "translate": "любимый, излюбленный, фаворит, любимец, любимая вещь",
-        "transcription": " |ˈfeɪvərɪt, ˈfeɪvrɪt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Her favorite color is blue.",
-            "July is my favorite month.",
-            "This is my favorite T-shirt.",
-            "What is your favorite food?",
-            "That movie is my favorite.",
-            "Her favorite game is darts.",
-            "He put $20 on the favorite.",
-            "My favorite sport is wrestling.",
-            "She is my favorite French writer.",
-            "That book is one of my favorites.",
-            "Music is my favorite mood booster.",
-            "I'll play you my favorite record.",
-            "Her favorite handicraft is sewing.",
-            "This is one of my favorite ballets.",
-            "His favorite hobby was woodworking.",
-            "The park was their favorite hangout.",
-            "Dominoes is one of my favorite games.",
-            "The Ferris wheel is my favorite ride.",
-            "Skiing is my favorite winter activity.",
-            "Springtime is her favorite time of year.",
-            "Swimming is my favorite kind of exercise.",
-            "My favorite TV show was on last night.",
-            "Blue and green are my favorite colors.",
-            "I bet against the favorite and I lost.",
-            "Grape is my favorite bubble gum flavor.",
-            "This artist's favorite medium is pencil.",
-            "Her book is a homage to her favorite city.",
-            "He always bets that the favorite will win.",
-            "He made a big fuss over his favorite niece.",
-            "This is one of my favorite pieces of music."
-        ],
-        "example_translate": [
-            "Ее любимый цвет — голубой (синий).",
-            "Июль — это мой любимый месяц.",
-            "Это моя любимая футболка.",
-            "Что вы любите есть?",
-            "Этот фильм — мой любимый.",
-            "Её любимая игра — это дартс.",
-            "Он поставил двадцать долларов на фаворита.",
-            "Мой любимый вид спорта — вольная борьба /рестлинг/.",
-            "Она — моя любимая французская писательница.",
-            "Эта книга — одна из моих любимых.",
-            "Музыка лучше всего поднимает мне настроение.",
-            "Я поставлю вам свою любимую запись.",
-            "Её любимым видом рукоделия является шитьё.",
-            "Это один из моих любимых балетов.",
-            "Его любимым занятием была обработка дерева.",
-            "Парк был их излюбленным местом встреч.",
-            "Домино — одна из моих самых любимых игр.",
-            "Колесо обозрения /чёртово колесо/ — это мой любимый вид аттракциона.",
-            "Катание на лыжах — это мой любимый зимний вид отдыха.",
-            "Весна — её любимое время года.",
-            "Плавание — мой любимый вид физических упражнений.",
-            "Вчера вечером показывали мою любимую передачу.",
-            "Синий и зелёный — мои любимые цвета.",
-            "Я поставил против фаворита и проиграл.",
-            "Мой любимый вкус жевательной резинки — виноградный.",
-            "Любимым инструментом этого художника является карандаш.",
-            "Ее книга - это дань ее любимому городу.",
-            "Он всегда ставит на выигрыш фаворита.",
-            "Он создал большой ажиотаж вокруг своей обожаемой племянницы.",
-            "Это одно из моих любимых музыкальных произведений."
-        ],
-        "synonyms": [],
-        "stars": 0,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "favorite": {
+    "comment": [
+      "favor",
+      "favourite",
+      "favour",
+      "favourable"
+    ],
+    "translate": "любимый, излюбленный, фаворит, любимец, любимая вещь",
+    "transcription": " |ˈfeɪvərɪt, ˈfeɪvrɪt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Her favorite color is blue.",
+        "ru": "Ее любимый цвет — голубой (синий).",
+        "learn": 0
+      },
+      {
+        "eng": "July is my favorite month.",
+        "ru": "Июль — это мой любимый месяц.",
+        "learn": 0
+      },
+      {
+        "eng": "This is my favorite T-shirt.",
+        "ru": "Это моя любимая футболка.",
+        "learn": 0
+      },
+      {
+        "eng": "What is your favorite food?",
+        "ru": "Что вы любите есть?",
+        "learn": 0
+      },
+      {
+        "eng": "That movie is my favorite.",
+        "ru": "Этот фильм — мой любимый.",
+        "learn": 0
+      },
+      {
+        "eng": "Her favorite game is darts.",
+        "ru": "Её любимая игра — это дартс.",
+        "learn": 1
+      },
+      {
+        "eng": "He put $20 on the favorite.",
+        "ru": "Он поставил двадцать долларов на фаворита.",
+        "learn": 0
+      },
+      {
+        "eng": "My favorite sport is wrestling.",
+        "ru": "Мой любимый вид спорта — вольная борьба /рестлинг/.",
+        "learn": 0
+      },
+      {
+        "eng": "She is my favorite French writer.",
+        "ru": "Она — моя любимая французская писательница.",
+        "learn": 0
+      },
+      {
+        "eng": "That book is one of my favorites.",
+        "ru": "Эта книга — одна из моих любимых.",
+        "learn": 1
+      },
+      {
+        "eng": "Music is my favorite mood booster.",
+        "ru": "Музыка лучше всего поднимает мне настроение.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll play you my favorite record.",
+        "ru": "Я поставлю вам свою любимую запись.",
+        "learn": 0
+      },
+      {
+        "eng": "Her favorite handicraft is sewing.",
+        "ru": "Её любимым видом рукоделия является шитьё.",
+        "learn": 1
+      },
+      {
+        "eng": "This is one of my favorite ballets.",
+        "ru": "Это один из моих любимых балетов.",
+        "learn": 1
+      },
+      {
+        "eng": "His favorite hobby was woodworking.",
+        "ru": "Его любимым занятием была обработка дерева.",
+        "learn": 0
+      },
+      {
+        "eng": "The park was their favorite hangout.",
+        "ru": "Парк был их излюбленным местом встреч.",
+        "learn": 0
+      },
+      {
+        "eng": "Dominoes is one of my favorite games.",
+        "ru": "Домино — одна из моих самых любимых игр.",
+        "learn": 0
+      },
+      {
+        "eng": "The Ferris wheel is my favorite ride.",
+        "ru": "Колесо обозрения /чёртово колесо/ — это мой любимый вид аттракциона.",
+        "learn": 0
+      },
+      {
+        "eng": "Skiing is my favorite winter activity.",
+        "ru": "Катание на лыжах — это мой любимый зимний вид отдыха.",
+        "learn": 0
+      },
+      {
+        "eng": "Springtime is her favorite time of year.",
+        "ru": "Весна — её любимое время года.",
+        "learn": 0
+      },
+      {
+        "eng": "Swimming is my favorite kind of exercise.",
+        "ru": "Плавание — мой любимый вид физических упражнений.",
+        "learn": 0
+      },
+      {
+        "eng": "My favorite TV show was on last night.",
+        "ru": "Вчера вечером показывали мою любимую передачу.",
+        "learn": 0
+      },
+      {
+        "eng": "Blue and green are my favorite colors.",
+        "ru": "Синий и зелёный — мои любимые цвета.",
+        "learn": 0
+      },
+      {
+        "eng": "I bet against the favorite and I lost.",
+        "ru": "Я поставил против фаворита и проиграл.",
+        "learn": 0
+      },
+      {
+        "eng": "Grape is my favorite bubble gum flavor.",
+        "ru": "Мой любимый вкус жевательной резинки — виноградный.",
+        "learn": 1
+      },
+      {
+        "eng": "This artist's favorite medium is pencil.",
+        "ru": "Любимым инструментом этого художника является карандаш.",
+        "learn": 0
+      },
+      {
+        "eng": "Her book is a homage to her favorite city.",
+        "ru": "Ее книга - это дань ее любимому городу.",
+        "learn": 0
+      },
+      {
+        "eng": "He always bets that the favorite will win.",
+        "ru": "Он всегда ставит на выигрыш фаворита.",
+        "learn": 0
+      },
+      {
+        "eng": "He made a big fuss over his favorite niece.",
+        "ru": "Он создал большой ажиотаж вокруг своей обожаемой племянницы.",
+        "learn": 1
+      },
+      {
+        "eng": "This is one of my favorite pieces of music.",
+        "ru": "Это одно из моих любимых музыкальных произведений.",
+        "learn": 0
+      }
+    ]
+  }
 }

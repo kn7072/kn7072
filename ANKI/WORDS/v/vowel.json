@@ -1,35 +1,49 @@
 {
-    "vowel": {
-        "comment": [
-            "tower",
-            "lower",
-            "owe",
-            "towel"
-        ],
-        "translate": "гласный, гласный звук",
-        "transcription": " |ˈvaʊəl|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "This vowel is usually elided before a single consonant",
-            "The consonant reduplicates after a short vowel.",
-            "Men differ greatly in their appreciation of varieties of vowel sound.",
-            "A syllable that ends in a short vowel is a light syllable.",
-            "To mark plurality, one language may add an extra syllable to the word whereas another may simply change the vowel in the existing final syllable",
-            "Tokens of this vowel varied on dimensions of height, rounding and length."
-        ],
-        "example_translate": [
-            "Этот гласный звук обычно выпадает перед одиночным согласным.",
-            "Согласный звук удваивается после короткого гласного (звука).",
-            "Люди сильно отличаются по способности улавливать отличия гласных звуков.",
-            "Слог, который заканчивается на короткий гласный, называется лёгким.",
-            "Чтобы обозначить множественное число, в одном языке могут добавить к концу слова ещё один слог, в то время как другом могут просто поменять гласную в последнем слоге.",
-            "Реализации этой гласной фонемы различались по параметрам высоты, лабиализации и долготы."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "vowel": {
+    "comment": [
+      "tower",
+      "lower",
+      "owe",
+      "towel"
+    ],
+    "translate": "гласный, гласный звук",
+    "transcription": " |ˈvaʊəl|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "This vowel is usually elided before a single consonant",
+        "ru": "Этот гласный звук обычно выпадает перед одиночным согласным.",
+        "learn": 1
+      },
+      {
+        "eng": "The consonant reduplicates after a short vowel.",
+        "ru": "Согласный звук удваивается после короткого гласного (звука).",
+        "learn": 1
+      },
+      {
+        "eng": "Men differ greatly in their appreciation of varieties of vowel sound.",
+        "ru": "Люди сильно отличаются по способности улавливать отличия гласных звуков.",
+        "learn": 0
+      },
+      {
+        "eng": "A syllable that ends in a short vowel is a light syllable.",
+        "ru": "Слог, который заканчивается на короткий гласный, называется лёгким.",
+        "learn": 1
+      },
+      {
+        "eng": "To mark plurality, one language may add an extra syllable to the word whereas another may simply change the vowel in the existing final syllable",
+        "ru": "Чтобы обозначить множественное число, в одном языке могут добавить к концу слова ещё один слог, в то время как другом могут просто поменять гласную в последнем слоге.",
+        "learn": 0
+      },
+      {
+        "eng": "Tokens of this vowel varied on dimensions of height, rounding and length.",
+        "ru": "Реализации этой гласной фонемы различались по параметрам высоты, лабиализации и долготы.",
+        "learn": 0
+      }
+    ]
+  }
 }

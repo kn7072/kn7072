@@ -1,86 +1,172 @@
 {
-    "climate": {
-        "comment": [
-            "mate",
-            "estimate",
-            "legitimate",
-            "inmate",
-            "intimate",
-            "ultimate",
-            "underestimate"
-        ],
-        "translate": "климат, атмосфера, состояние общественного мнения, настроение",
-        "transcription": " |ˈklaɪmət|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The climate there is very harsh.",
-            "a country with a cold climate",
-            "a climate marked by heavy fogs",
-            "This climate doesn't agree with her.",
-            "a country with a very dry climate",
-            "He had to adjust to the new climate.",
-            "a dry climate kind to asthmatics",
-            "He got accustomed to the warm climate.",
-            "These trees only grow in humid climates.",
-            "the country's changing economic climate",
-            "We need to assess the impact on climate change.",
-            "We know that greenhouse gases can affect the climate.",
-            "the dank climate of southern Wales",
-            "a place with a pleasant, equable climate",
-            "There has been a gradual change in climate.",
-            "These flowers will not grow in cold climates.",
-            "Small businesses are finding it hard to survive in the present economic climate.",
-            "a world authority on climate change",
-            "A climate of fear prevails in the city.",
-            "The climate here is like that of France.",
-            "This climate is apt to disorder the liver.",
-            "The perfect climate here develops the grain.",
-            "the beneficial effects of a temperate climate",
-            "There is growing concern about climate change.",
-            "The area's dry climate discourages agriculture.",
-            "The country's climate is ideal for growing grapes.",
-            "What do these fossils tell us about climate change?",
-            "The climate had the softness of the south of France.",
-            "The climate was mild and conducive to life or growth.",
-            "The indirect effects of climate change may be profound."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Климат там — очень суровый.",
-            "страна с холодным климатом",
-            "климат, который отличается сильными туманами",
-            "Этот климат ей не подходит.",
-            "страна с очень сухим климатом",
-            "Ему пришлось приспосабливаться к новому климату.",
-            "сухой климат, благоприятный для астматиков",
-            "Он привык к жаркому климату.",
-            "Эти деревья растут только в условиях влажного климата.",
-            "меняющийся экономический климат страны",
-            "Нам необходимо оценить влияние на климатические изменения.",
-            "Мы знаем, что парниковые газы могут повлиять на климат.",
-            "сырой / влажный климат Южного Уэльса",
-            "место с приятным, ровным климатом",
-            "Наблюдается постепенное изменение климата.",
-            "Эти цветы не растут в холодном климате.",
-            "Малым предприятиям трудно выжить в сложившейся экономической ситуации.",
-            "эксперт с мировым именем по вопросам изменения климата",
-            "В городе царит атмосфера страха.",
-            "Здешний климат похож на климат во Франции.",
-            "Этот тип климата обычно вызывает нарушение работы печени.",
-            "Идеальный здешний климат способствует росту зерен.",
-            "благотворное влияние умеренного климата",
-            "Растёт озабоченность по поводу изменения климата.",
-            "Засушливый климат, характерный для этого района, не способствует развитию сельского хозяйства.",
-            "Климат страны идеально подходит для выращивания винограда.",
-            "Что эти окаменелости говорят нам об изменении климата?",
-            "Своей мягкостью климат напоминал климат юга Франции.",
-            "Климат был мягкий и благоприятный для жизни или роста.",
-            "Косвенные последствия изменения климата могут быть глубокими."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "climate": {
+    "comment": [
+      "mate",
+      "estimate",
+      "legitimate",
+      "inmate",
+      "intimate",
+      "ultimate",
+      "underestimate"
+    ],
+    "translate": "климат, атмосфера, состояние общественного мнения, настроение",
+    "transcription": " |ˈklaɪmət|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The climate there is very harsh.",
+        "ru": "Климат там — очень суровый.",
+        "learn": 0
+      },
+      {
+        "eng": "a country with a cold climate",
+        "ru": "страна с холодным климатом",
+        "learn": 0
+      },
+      {
+        "eng": "a climate marked by heavy fogs",
+        "ru": "климат, который отличается сильными туманами",
+        "learn": 0
+      },
+      {
+        "eng": "This climate doesn't agree with her.",
+        "ru": "Этот климат ей не подходит.",
+        "learn": 0
+      },
+      {
+        "eng": "a country with a very dry climate",
+        "ru": "страна с очень сухим климатом",
+        "learn": 0
+      },
+      {
+        "eng": "He had to adjust to the new climate.",
+        "ru": "Ему пришлось приспосабливаться к новому климату.",
+        "learn": 1
+      },
+      {
+        "eng": "a dry climate kind to asthmatics",
+        "ru": "сухой климат, благоприятный для астматиков",
+        "learn": 0
+      },
+      {
+        "eng": "He got accustomed to the warm climate.",
+        "ru": "Он привык к жаркому климату.",
+        "learn": 0
+      },
+      {
+        "eng": "These trees only grow in humid climates.",
+        "ru": "Эти деревья растут только в условиях влажного климата.",
+        "learn": 0
+      },
+      {
+        "eng": "the country's changing economic climate",
+        "ru": "меняющийся экономический климат страны",
+        "learn": 0
+      },
+      {
+        "eng": "We need to assess the impact on climate change.",
+        "ru": "Нам необходимо оценить влияние на климатические изменения.",
+        "learn": 1
+      },
+      {
+        "eng": "We know that greenhouse gases can affect the climate.",
+        "ru": "Мы знаем, что парниковые газы могут повлиять на климат.",
+        "learn": 0
+      },
+      {
+        "eng": "the dank climate of southern Wales",
+        "ru": "сырой / влажный климат Южного Уэльса",
+        "learn": 0
+      },
+      {
+        "eng": "a place with a pleasant, equable climate",
+        "ru": "место с приятным, ровным климатом",
+        "learn": 0
+      },
+      {
+        "eng": "There has been a gradual change in climate.",
+        "ru": "Наблюдается постепенное изменение климата.",
+        "learn": 0
+      },
+      {
+        "eng": "These flowers will not grow in cold climates.",
+        "ru": "Эти цветы не растут в холодном климате.",
+        "learn": 0
+      },
+      {
+        "eng": "Small businesses are finding it hard to survive in the present economic climate.",
+        "ru": "Малым предприятиям трудно выжить в сложившейся экономической ситуации.",
+        "learn": 0
+      },
+      {
+        "eng": "a world authority on climate change",
+        "ru": "эксперт с мировым именем по вопросам изменения климата",
+        "learn": 0
+      },
+      {
+        "eng": "A climate of fear prevails in the city.",
+        "ru": "В городе царит атмосфера страха.",
+        "learn": 0
+      },
+      {
+        "eng": "The climate here is like that of France.",
+        "ru": "Здешний климат похож на климат во Франции.",
+        "learn": 1
+      },
+      {
+        "eng": "This climate is apt to disorder the liver.",
+        "ru": "Этот тип климата обычно вызывает нарушение работы печени.",
+        "learn": 1
+      },
+      {
+        "eng": "The perfect climate here develops the grain.",
+        "ru": "Идеальный здешний климат способствует росту зерен.",
+        "learn": 0
+      },
+      {
+        "eng": "the beneficial effects of a temperate climate",
+        "ru": "благотворное влияние умеренного климата",
+        "learn": 0
+      },
+      {
+        "eng": "There is growing concern about climate change.",
+        "ru": "Растёт озабоченность по поводу изменения климата.",
+        "learn": 0
+      },
+      {
+        "eng": "The area's dry climate discourages agriculture.",
+        "ru": "Засушливый климат, характерный для этого района, не способствует развитию сельского хозяйства.",
+        "learn": 1
+      },
+      {
+        "eng": "The country's climate is ideal for growing grapes.",
+        "ru": "Климат страны идеально подходит для выращивания винограда.",
+        "learn": 0
+      },
+      {
+        "eng": "What do these fossils tell us about climate change?",
+        "ru": "Что эти окаменелости говорят нам об изменении климата?",
+        "learn": 0
+      },
+      {
+        "eng": "The climate had the softness of the south of France.",
+        "ru": "Своей мягкостью климат напоминал климат юга Франции.",
+        "learn": 0
+      },
+      {
+        "eng": "The climate was mild and conducive to life or growth.",
+        "ru": "Климат был мягкий и благоприятный для жизни или роста.",
+        "learn": 0
+      },
+      {
+        "eng": "The indirect effects of climate change may be profound.",
+        "ru": "Косвенные последствия изменения климата могут быть глубокими.",
+        "learn": 1
+      }
+    ]
+  }
 }

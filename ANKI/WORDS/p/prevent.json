@@ -1,89 +1,175 @@
 {
-    "prevent": {
-        "comment": [
-            "prevention",
-            "event",
-            "evening",
-            "even",
-            "evenly",
-            "eventually",
-            "uneven"
-        ],
-        "translate": "предотвращать, препятствовать, предупреждать, не допускать, мешать, предохранять",
-        "transcription": " |prɪˈvent|",
-        "antonyms": [],
-        "mnemonic": [
-            "prevent [привэ'нт] предотвратить, упредить - (Превент ивный), т.е. упреждающий.",
-            "prevent [pri'vent]\n***\nЧтоб ПРЕДУПРЕДИТЬ болезнь, скажу доктору:\n\"Привет\". (это) prevent\nЧтоб ПРЕПЯТСТВОВАТЬ войне, скажу Америке:\n\"Привент!\". (это) prevent\nЧтоб НЕ ДОПУСТИТЬ войны, скажу Америке:\n\"Привент!\". (это) prevent"
-        ],
-        "examples": [
-            "This will help to prevent accidents.",
-            "Nothing shall prevent us from reaching our aim!",
-            "He wore gloves to prevent frostbite.",
-            "We must prevent the cancer from spreading.",
-            "The gas pipe has been blocked off to prevent escapes.",
-            "Vitamin C is popularly believed to prevent colds.",
-            "using garlic as a nostrum to prevent disease",
-            "Bad weather prevented us from leaving.",
-            "She wanted to prevent other children from meeting the same fate.",
-            "Seatbelts in cars often prevent serious injuries.",
-            "Use sunscreen to prevent sunburn.",
-            "We were prevented from entering the site.",
-            "The new laws are supposed to prevent crime.",
-            "He grabbed my arm to prevent me from falling.",
-            "The law stepped in to prevent such a proceeding.",
-            "The accident could have been prevented.",
-            "The gas pipe has been sealed off to prevent escapes.",
-            "Muzzle the dog to prevent it from biting strangers.",
-            "a law designed to prevent money laundering",
-            "trying to prevent further escape of liquid",
-            "He stepped tactfully in to prevent trouble.",
-            "The river was deviated to prevent flooding.",
-            "Judicious planning now can prevent problems later.",
-            "We pack the goods neatly to prevent the damage during delivery.",
-            "The cruel owners used to pinion the birds' wings together to prevent them from flying.",
-            "Every one of these deaths is preventable.",
-            "medications that prevent blood from clotting",
-            "A good upright posture will prevent backaches.",
-            "a program to prevent inflation and economic collapse",
-            "The bride's family were scheming to prevent a wedding."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Это поможет предотвратить несчастные случаи.",
-            "Ничто не сможет помешать нам достичь цели!",
-            "Он носил перчатки, чтобы не обморозить руки.",
-            "Мы должны предотвратить распространение рака. (у пациента)",
-            "Газовую трубу перекрыли, чтобы не допустить утечки.",
-            "Считается, что витамин C предотвращает простудные заболевания.",
-            "использование чеснока в качестве панацеи для предотвращения заболеваний",
-            "Плохая погода не позволила нам уехать.",
-            "Она хотела, чтобы другие дети избежали той же участи.",
-            "Часто автомобильные ремни безопасности предотвращают серьёзные травмы.",
-            "Для предотвращения солнечных ожогов используйте солнцезащитный крем .",
-            "Нам помешали войти на эту территорию.",
-            "Новые законы призваны предотвращать преступления.",
-            "Он схватил меня за руку, чтобы не дать мне упасть.",
-            "Закон вмешался для того, чтобы предупредить поступки такого рода.",
-            "Аварии можно было избежать.",
-            "Газовая труба была перекрыта во избежание утечки.",
-            "Наденьте на собаку намордник, чтобы она не покусала посторонних.",
-            "закон, разработанный с целью предотвращения отмывания денег",
-            "попытки предотвратить дальнейшую утечку жидкости",
-            "Он тактично вмешался, чтобы предотвратить беду.",
-            "Русло этой реки изменили, чтобы предотвратить наводнения.",
-            "Продуманное планирование сейчас может предотвратить проблемы в будущем.",
-            "Мы тщательно упаковываем товары, чтобы избежать их повреждения во время доставки.",
-            "Жестокие хозяева обычно подрезали птицам крылья, чтобы те не могли улететь.",
-            "В каждом из этих случаев смерти можно было избежать.",
-            "лекарства, которые предотвращают свёртывание крови",
-            "Хорошая прямая осанка позволит предотвратить боли в спине.",
-            "программа по предотвращению инфляции и экономического краха",
-            "Родственники невесты плели интриги, чтобы расстроить свадьбу."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "prevent": {
+    "comment": [
+      "prevention",
+      "event",
+      "evening",
+      "even",
+      "evenly",
+      "eventually",
+      "uneven"
+    ],
+    "translate": "предотвращать, препятствовать, предупреждать, не допускать, мешать, предохранять",
+    "transcription": " |prɪˈvent|",
+    "antonyms": [],
+    "mnemonic": [
+      "prevent [привэ'нт] предотвратить, упредить - (Превент ивный), т.е. упреждающий.",
+      "prevent [pri'vent]\n***\nЧтоб ПРЕДУПРЕДИТЬ болезнь, скажу доктору:\n\"Привет\". (это) prevent\nЧтоб ПРЕПЯТСТВОВАТЬ войне, скажу Америке:\n\"Привент!\". (это) prevent\nЧтоб НЕ ДОПУСТИТЬ войны, скажу Америке:\n\"Привент!\". (это) prevent"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "This will help to prevent accidents.",
+        "ru": "Это поможет предотвратить несчастные случаи.",
+        "learn": 0
+      },
+      {
+        "eng": "Nothing shall prevent us from reaching our aim!",
+        "ru": "Ничто не сможет помешать нам достичь цели!",
+        "learn": 0
+      },
+      {
+        "eng": "He wore gloves to prevent frostbite.",
+        "ru": "Он носил перчатки, чтобы не обморозить руки.",
+        "learn": 0
+      },
+      {
+        "eng": "We must prevent the cancer from spreading.",
+        "ru": "Мы должны предотвратить распространение рака. (у пациента)",
+        "learn": 0
+      },
+      {
+        "eng": "The gas pipe has been blocked off to prevent escapes.",
+        "ru": "Газовую трубу перекрыли, чтобы не допустить утечки.",
+        "learn": 0
+      },
+      {
+        "eng": "Vitamin C is popularly believed to prevent colds.",
+        "ru": "Считается, что витамин C предотвращает простудные заболевания.",
+        "learn": 0
+      },
+      {
+        "eng": "using garlic as a nostrum to prevent disease",
+        "ru": "использование чеснока в качестве панацеи для предотвращения заболеваний",
+        "learn": 0
+      },
+      {
+        "eng": "Bad weather prevented us from leaving.",
+        "ru": "Плохая погода не позволила нам уехать.",
+        "learn": 0
+      },
+      {
+        "eng": "She wanted to prevent other children from meeting the same fate.",
+        "ru": "Она хотела, чтобы другие дети избежали той же участи.",
+        "learn": 1
+      },
+      {
+        "eng": "Seatbelts in cars often prevent serious injuries.",
+        "ru": "Часто автомобильные ремни безопасности предотвращают серьёзные травмы.",
+        "learn": 0
+      },
+      {
+        "eng": "Use sunscreen to prevent sunburn.",
+        "ru": "Для предотвращения солнечных ожогов используйте солнцезащитный крем .",
+        "learn": 0
+      },
+      {
+        "eng": "We were prevented from entering the site.",
+        "ru": "Нам помешали войти на эту территорию.",
+        "learn": 0
+      },
+      {
+        "eng": "The new laws are supposed to prevent crime.",
+        "ru": "Новые законы призваны предотвращать преступления.",
+        "learn": 1
+      },
+      {
+        "eng": "He grabbed my arm to prevent me from falling.",
+        "ru": "Он схватил меня за руку, чтобы не дать мне упасть.",
+        "learn": 0
+      },
+      {
+        "eng": "The law stepped in to prevent such a proceeding.",
+        "ru": "Закон вмешался для того, чтобы предупредить поступки такого рода.",
+        "learn": 0
+      },
+      {
+        "eng": "The accident could have been prevented.",
+        "ru": "Аварии можно было избежать.",
+        "learn": 0
+      },
+      {
+        "eng": "The gas pipe has been sealed off to prevent escapes.",
+        "ru": "Газовая труба была перекрыта во избежание утечки.",
+        "learn": 1
+      },
+      {
+        "eng": "Muzzle the dog to prevent it from biting strangers.",
+        "ru": "Наденьте на собаку намордник, чтобы она не покусала посторонних.",
+        "learn": 0
+      },
+      {
+        "eng": "a law designed to prevent money laundering",
+        "ru": "закон, разработанный с целью предотвращения отмывания денег",
+        "learn": 0
+      },
+      {
+        "eng": "trying to prevent further escape of liquid",
+        "ru": "попытки предотвратить дальнейшую утечку жидкости",
+        "learn": 0
+      },
+      {
+        "eng": "He stepped tactfully in to prevent trouble.",
+        "ru": "Он тактично вмешался, чтобы предотвратить беду.",
+        "learn": 0
+      },
+      {
+        "eng": "The river was deviated to prevent flooding.",
+        "ru": "Русло этой реки изменили, чтобы предотвратить наводнения.",
+        "learn": 0
+      },
+      {
+        "eng": "Judicious planning now can prevent problems later.",
+        "ru": "Продуманное планирование сейчас может предотвратить проблемы в будущем.",
+        "learn": 0
+      },
+      {
+        "eng": "We pack the goods neatly to prevent the damage during delivery.",
+        "ru": "Мы тщательно упаковываем товары, чтобы избежать их повреждения во время доставки.",
+        "learn": 0
+      },
+      {
+        "eng": "The cruel owners used to pinion the birds' wings together to prevent them from flying.",
+        "ru": "Жестокие хозяева обычно подрезали птицам крылья, чтобы те не могли улететь.",
+        "learn": 0
+      },
+      {
+        "eng": "Every one of these deaths is preventable.",
+        "ru": "В каждом из этих случаев смерти можно было избежать.",
+        "learn": 0
+      },
+      {
+        "eng": "medications that prevent blood from clotting",
+        "ru": "лекарства, которые предотвращают свёртывание крови",
+        "learn": 0
+      },
+      {
+        "eng": "A good upright posture will prevent backaches.",
+        "ru": "Хорошая прямая осанка позволит предотвратить боли в спине.",
+        "learn": 0
+      },
+      {
+        "eng": "a program to prevent inflation and economic collapse",
+        "ru": "программа по предотвращению инфляции и экономического краха",
+        "learn": 0
+      },
+      {
+        "eng": "The bride's family were scheming to prevent a wedding.",
+        "ru": "Родственники невесты плели интриги, чтобы расстроить свадьбу.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,71 +1,139 @@
 {
-    "seriousness": {
-        "comment": [
-            "serious",
-            "seriously",
-            "series",
-            "serial"
-        ],
-        "translate": "серьезность, важность",
-        "transcription": " |ˈsɪriəsnəs|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He spoke in all seriousness.",
-            "The lightness of his speech hid his seriousness.",
-            "Don't trivialize the seriousness of the issue!",
-            "He spoke with deadly seriousness.",
-            "a serious novel about modern life",
-            "Dog shows are a serious business.",
-            "Crime is a serious problem in this neighborhood.",
-            "The team is a serious contender for the championship.",
-            "He failed to comprehend the seriousness of the problem.",
-            "She is a serious cyclist who rides 200 miles each week.",
-            "Baldwin treated the matter with the utmost seriousness.",
-            "The college treated the allegation with just seriousness.",
-            "They had a serious conversation about their relationship.",
-            "For my brother, not going to college was a serious mistake.",
-            "He fails to mention, however, the seriousness of the crime.",
-            "A lack of solemnity is not necessarily a lack of seriousness.",
-            "“You sound terrible.” “It's just a bad cold. Nothing serious.”",
-            "If you want to quit smoking, you have to make a serious effort.",
-            "The story raises serious questions about our system of justice.",
-            "Jenny screwed her face up into an expression of utmost seriousness",
-            "She cited a series of statistics to dramatize the seriousness of the problem.",
-            "Only the chairman's strong control was able to impart some sense of seriousness to the meeting.",
-            "The city government has been heavily criticized for its denial of the seriousness of the situation.",
-            "In a medical situation of this seriousness we don't need some rattlebrain running around in a panic."
-        ],
-        "example_translate": [
-            "Он говорил со всей серьёзностью.",
-            "За легковесностью его слов скрывалась серьёзность.",
-            "Не смейте преуменьшать серьёзность данного вопроса!",
-            "Он говорил совершенно серьёзно.",
-            "серьёзный роман о современной жизни",
-            "Выставки собак — это серьёзный бизнес.",
-            "В этом районе преступность представляет собой серьёзную проблему.",
-            "Эта команда — серьёзный претендент на чемпионство.",
-            "Он не понимал всей серьёзности проблемы.",
-            "Она серьёзно занимается велосипедом, и каждую неделю проезжает по двести миль.",
-            "Болдуин отнёсся к делу с предельной серьёзностью.",
-            "В колледже отнеслись к этому обвинению со всей серьёзностью.",
-            "У них был серьёзный разговор об их отношениях.",
-            "Для моего брата непоступление в колледж было серьёзной ошибкой.",
-            "Он, однако, не упоминает серьезности этого преступления.",
-            "Отсутствие торжественности не обязательно означает несерьёзность.",
-            "— Мне очень не нравится твой голос. — Просто сильная простуда, ничего страшного.",
-            "Если хотите бросить курить, придётся приложить серьёзные усилия.",
-            "Эта повесть поднимает серьёзные вопросы о нашей системе правосудия.",
-            "Дженни сумела придать своему лицу выражение полной серьёзности",
-            "Она привела ряд статистических данных, чтобы преувеличить серьёзность данной проблемы.",
-            "Только строгость председателя могла придать серьёзность заседанию.",
-            "Городские власти подверглись резкой критике за отрицание серьёзности данной ситуации.",
-            "В столь серьёзной медицинской ситуации нам не нужно, чтобы какой-то олух в панике бегал вокруг."
-        ],
-        "synonyms": [],
-        "stars": 0,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "seriousness": {
+    "comment": [
+      "serious",
+      "seriously",
+      "series",
+      "serial"
+    ],
+    "translate": "серьезность, важность",
+    "transcription": " |ˈsɪriəsnəs|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He spoke in all seriousness.",
+        "ru": "Он говорил со всей серьёзностью.",
+        "learn": 0
+      },
+      {
+        "eng": "The lightness of his speech hid his seriousness.",
+        "ru": "За легковесностью его слов скрывалась серьёзность.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't trivialize the seriousness of the issue!",
+        "ru": "Не смейте преуменьшать серьёзность данного вопроса!",
+        "learn": 0
+      },
+      {
+        "eng": "He spoke with deadly seriousness.",
+        "ru": "Он говорил совершенно серьёзно.",
+        "learn": 0
+      },
+      {
+        "eng": "a serious novel about modern life",
+        "ru": "серьёзный роман о современной жизни",
+        "learn": 0
+      },
+      {
+        "eng": "Dog shows are a serious business.",
+        "ru": "Выставки собак — это серьёзный бизнес.",
+        "learn": 0
+      },
+      {
+        "eng": "Crime is a serious problem in this neighborhood.",
+        "ru": "В этом районе преступность представляет собой серьёзную проблему.",
+        "learn": 0
+      },
+      {
+        "eng": "The team is a serious contender for the championship.",
+        "ru": "Эта команда — серьёзный претендент на чемпионство.",
+        "learn": 0
+      },
+      {
+        "eng": "He failed to comprehend the seriousness of the problem.",
+        "ru": "Он не понимал всей серьёзности проблемы.",
+        "learn": 0
+      },
+      {
+        "eng": "She is a serious cyclist who rides 200 miles each week.",
+        "ru": "Она серьёзно занимается велосипедом, и каждую неделю проезжает по двести миль.",
+        "learn": 1
+      },
+      {
+        "eng": "Baldwin treated the matter with the utmost seriousness.",
+        "ru": "Болдуин отнёсся к делу с предельной серьёзностью.",
+        "learn": 0
+      },
+      {
+        "eng": "The college treated the allegation with just seriousness.",
+        "ru": "В колледже отнеслись к этому обвинению со всей серьёзностью.",
+        "learn": 0
+      },
+      {
+        "eng": "They had a serious conversation about their relationship.",
+        "ru": "У них был серьёзный разговор об их отношениях.",
+        "learn": 1
+      },
+      {
+        "eng": "For my brother, not going to college was a serious mistake.",
+        "ru": "Для моего брата непоступление в колледж было серьёзной ошибкой.",
+        "learn": 0
+      },
+      {
+        "eng": "He fails to mention, however, the seriousness of the crime.",
+        "ru": "Он, однако, не упоминает серьезности этого преступления.",
+        "learn": 0
+      },
+      {
+        "eng": "A lack of solemnity is not necessarily a lack of seriousness.",
+        "ru": "Отсутствие торжественности не обязательно означает несерьёзность.",
+        "learn": 0
+      },
+      {
+        "eng": "“You sound terrible.” “It's just a bad cold. Nothing serious.”",
+        "ru": "— Мне очень не нравится твой голос. — Просто сильная простуда, ничего страшного.",
+        "learn": 0
+      },
+      {
+        "eng": "If you want to quit smoking, you have to make a serious effort.",
+        "ru": "Если хотите бросить курить, придётся приложить серьёзные усилия.",
+        "learn": 0
+      },
+      {
+        "eng": "The story raises serious questions about our system of justice.",
+        "ru": "Эта повесть поднимает серьёзные вопросы о нашей системе правосудия.",
+        "learn": 0
+      },
+      {
+        "eng": "Jenny screwed her face up into an expression of utmost seriousness",
+        "ru": "Дженни сумела придать своему лицу выражение полной серьёзности",
+        "learn": 0
+      },
+      {
+        "eng": "She cited a series of statistics to dramatize the seriousness of the problem.",
+        "ru": "Она привела ряд статистических данных, чтобы преувеличить серьёзность данной проблемы.",
+        "learn": 0
+      },
+      {
+        "eng": "Only the chairman's strong control was able to impart some sense of seriousness to the meeting.",
+        "ru": "Только строгость председателя могла придать серьёзность заседанию.",
+        "learn": 0
+      },
+      {
+        "eng": "The city government has been heavily criticized for its denial of the seriousness of the situation.",
+        "ru": "Городские власти подверглись резкой критике за отрицание серьёзности данной ситуации.",
+        "learn": 1
+      },
+      {
+        "eng": "In a medical situation of this seriousness we don't need some rattlebrain running around in a panic.",
+        "ru": "В столь серьёзной медицинской ситуации нам не нужно, чтобы какой-то олух в панике бегал вокруг.",
+        "learn": 0
+      }
+    ]
+  }
 }

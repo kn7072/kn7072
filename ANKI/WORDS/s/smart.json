@@ -1,81 +1,167 @@
 {
-    "smart": {
-        "comment": [
-            "martial",
-            "smack"
-        ],
-        "translate": "умный, элегантный, изящно, щеголевато, саднить, болеть, жгучая боль, печаль",
-        "transcription": " |smɑːrt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "You look smart.",
-            "You're looking very smart.",
-            "She was smart to refuse.",
-            "I dress smarter than she does.",
-            "I think he is very smart.",
-            "His eyes were smarting from the dust.",
-            "Poodles are said to be smart dogs.",
-            "She was still smarting from the insult.",
-            "He gave her a smart answer.",
-            "She is pretty, bubbly, and smart.",
-            "He is still smarting from a put-down.",
-            "He gave him a smart stroke on the cheek.",
-            "Don't get smart with me, young man.",
-            "You're a smart ass!",
-            "I hope you'll smart for your carelessness!",
-            "I believe her to be very smart.",
-            "He turned smartly and walked away.",
-            "My eyes were smarting with the smoke.",
-            "I was smart enough to wait for a week.",
-            "You are one smart cookie.",
-            "We walked at a smart pace.",
-            "She set off at a smart pace (=fairly fast).",
-            "A smart house, prefaced with white rails.",
-            "It was smart of him to reinvest his money.",
-            "I gave him a smart salute.",
-            "He made some smart remark.",
-            "That was a smart investment.",
-            "He plays smart and the fans appreciate that.",
-            "Smart children talk earlier than the average.",
-            "The toddler was whining over the smart from the cut."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Вы выглядите очень элегантно.",
-            "Вы выглядите очень умным.",
-            "У неё хватило ума отказать.",
-            "Я одеваюсь элегантней чем она.",
-            "Я думаю, что он очень умён.",
-            "У него глаза резало от пыли.",
-            "Как говорят, пудели — умные собаки.",
-            "Она всё ещё страдала от оскорбления.",
-            "Он дал ей остроумный ответ.",
-            "Она милая, энергичная и умная.",
-            "Он всё ещё переживает из-за нанесённого ему оскорбления.",
-            "Он отвесил ему звонкую пощёчину.",
-            "Не нужно со мной умничать, молодой человек.",
-            "Да ты умный сукин сын!",
-            "Надеюсь, ты поплатишься за свою беспечность.",
-            "Я убеждён, что она очень умна.",
-            "Он резко развернулся и зашагал прочь.",
-            "Мои глаза резало от дыма.",
-            "У меня хватило ума неделю подождать.",
-            "Вы большая умница. / Вы большой ловкач.",
-            "Мы прогуливались энергичным шагом.",
-            "Она энергично (=довольно быстро) зашагала.",
-            "Симпатичный домик с белой оградой перед ним.",
-            "Он поступил мудро, снова вложив свой капитал.",
-            "Я энергично его поприветствовал.",
-            "Он сделал весьма умное замечание.",
-            "Это была разумная инвестиция.",
-            "Он играет в умный и болельщики ценят.",
-            "Одарённые дети начинают разговаривать раньше, чем среднестатистические.",
-            "Малыш хныкал от жгучей боли пореза."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "smart": {
+    "comment": [
+      "martial",
+      "smack"
+    ],
+    "translate": "умный, элегантный, изящно, щеголевато, саднить, болеть, жгучая боль, печаль",
+    "transcription": " |smɑːrt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "You look smart.",
+        "ru": "Вы выглядите очень элегантно.",
+        "learn": 0
+      },
+      {
+        "eng": "You're looking very smart.",
+        "ru": "Вы выглядите очень умным.",
+        "learn": 0
+      },
+      {
+        "eng": "She was smart to refuse.",
+        "ru": "У неё хватило ума отказать.",
+        "learn": 1
+      },
+      {
+        "eng": "I dress smarter than she does.",
+        "ru": "Я одеваюсь элегантней чем она.",
+        "learn": 0
+      },
+      {
+        "eng": "I think he is very smart.",
+        "ru": "Я думаю, что он очень умён.",
+        "learn": 0
+      },
+      {
+        "eng": "His eyes were smarting from the dust.",
+        "ru": "У него глаза резало от пыли.",
+        "learn": 0
+      },
+      {
+        "eng": "Poodles are said to be smart dogs.",
+        "ru": "Как говорят, пудели — умные собаки.",
+        "learn": 0
+      },
+      {
+        "eng": "She was still smarting from the insult.",
+        "ru": "Она всё ещё страдала от оскорбления.",
+        "learn": 0
+      },
+      {
+        "eng": "He gave her a smart answer.",
+        "ru": "Он дал ей остроумный ответ.",
+        "learn": 0
+      },
+      {
+        "eng": "She is pretty, bubbly, and smart.",
+        "ru": "Она милая, энергичная и умная.",
+        "learn": 0
+      },
+      {
+        "eng": "He is still smarting from a put-down.",
+        "ru": "Он всё ещё переживает из-за нанесённого ему оскорбления.",
+        "learn": 0
+      },
+      {
+        "eng": "He gave him a smart stroke on the cheek.",
+        "ru": "Он отвесил ему звонкую пощёчину.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't get smart with me, young man.",
+        "ru": "Не нужно со мной умничать, молодой человек.",
+        "learn": 1
+      },
+      {
+        "eng": "You're a smart ass!",
+        "ru": "Да ты умный сукин сын!",
+        "learn": 0
+      },
+      {
+        "eng": "I hope you'll smart for your carelessness!",
+        "ru": "Надеюсь, ты поплатишься за свою беспечность.",
+        "learn": 0
+      },
+      {
+        "eng": "I believe her to be very smart.",
+        "ru": "Я убеждён, что она очень умна.",
+        "learn": 1
+      },
+      {
+        "eng": "He turned smartly and walked away.",
+        "ru": "Он резко развернулся и зашагал прочь.",
+        "learn": 0
+      },
+      {
+        "eng": "My eyes were smarting with the smoke.",
+        "ru": "Мои глаза резало от дыма.",
+        "learn": 0
+      },
+      {
+        "eng": "I was smart enough to wait for a week.",
+        "ru": "У меня хватило ума неделю подождать.",
+        "learn": 1
+      },
+      {
+        "eng": "You are one smart cookie.",
+        "ru": "Вы большая умница. / Вы большой ловкач.",
+        "learn": 0
+      },
+      {
+        "eng": "We walked at a smart pace.",
+        "ru": "Мы прогуливались энергичным шагом.",
+        "learn": 0
+      },
+      {
+        "eng": "She set off at a smart pace (=fairly fast).",
+        "ru": "Она энергично (=довольно быстро) зашагала.",
+        "learn": 0
+      },
+      {
+        "eng": "A smart house, prefaced with white rails.",
+        "ru": "Симпатичный домик с белой оградой перед ним.",
+        "learn": 0
+      },
+      {
+        "eng": "It was smart of him to reinvest his money.",
+        "ru": "Он поступил мудро, снова вложив свой капитал.",
+        "learn": 0
+      },
+      {
+        "eng": "I gave him a smart salute.",
+        "ru": "Я энергично его поприветствовал.",
+        "learn": 0
+      },
+      {
+        "eng": "He made some smart remark.",
+        "ru": "Он сделал весьма умное замечание.",
+        "learn": 1
+      },
+      {
+        "eng": "That was a smart investment.",
+        "ru": "Это была разумная инвестиция.",
+        "learn": 0
+      },
+      {
+        "eng": "He plays smart and the fans appreciate that.",
+        "ru": "Он играет в умный и болельщики ценят.",
+        "learn": 0
+      },
+      {
+        "eng": "Smart children talk earlier than the average.",
+        "ru": "Одарённые дети начинают разговаривать раньше, чем среднестатистические.",
+        "learn": 0
+      },
+      {
+        "eng": "The toddler was whining over the smart from the cut.",
+        "ru": "Малыш хныкал от жгучей боли пореза.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,72 +1,149 @@
 {
-    "bump": {
-        "comment": [],
-        "translate": "удар, шишка, столкновение, ударяться, ударять, толкать, вдруг, внезапно",
-        "transcription": " |bʌmp|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "My car bumped into the tree.",
-            "I bumped into an old friend in town today.",
-            "Did you feel a bump?",
-            "I've bumped into the door and hurt my knee.",
-            "She has a bump on the back of her head.",
-            "Two more good results will bump up your average.",
-            "The bump threw him off the bicycle",
-            "They bumped into us from behind.",
-            "Then he bumped me against the wall.",
-            "Be careful not to bump the vase.",
-            "She bumped her arm on the table.",
-            "I ran after him, bumping against people in my hurry.",
-            "I have a bruise from where I bumped my head.",
-            "The loss bumped us out of first place.",
-            "Tim was a clumsy boy, always bumping into the furniture.",
-            "His mood of exaltation fell with a bump into the trough of melancholy.",
-            "She walked home the long way round so as not to bump into anybody.",
-            "And it comes bump on the head.",
-            "We heard a bump in the next room.",
-            "The car shook as it went over a bump.",
-            "Gingerly she explored the bump on her head with her fingers.",
-            "These drug dealers mean business, and they'll bump off anyone who gets in their way.",
-            "He wound up with a few minor bumps and bruises from the fight.",
-            "The reforms bumped many families off the state-provided healthcare list.",
-            "Every bump in the road swashed a little more of my soda on the car's upholstery.",
-            "The TV show will be bumped to a new time.",
-            "The roof was so low he bumped his head (=his head hit the roof)."
-        ],
-        "example_translate": [
-            "Моя машина врезалась в дерево.",
-            "Сегодня в городе я столкнулся со старым приятелем.",
-            "Ты почувствовал удар /толчок/?",
-            "Я стукнулся о дверь и поранил колено.",
-            "У неё шишка на затылке.",
-            "Еще два неплохих результата поднимут твой средний балл.",
-            "От удара он упал с велосипеда.",
-            "Они налетели на нас /врезались в нас/ сзади.",
-            "Тогда он схватил меня и как шарахнет о стену.",
-            "Осторожно, не стукни вазу.",
-            "Она ударилась рукой о стол.",
-            "Я погнался за ним, в спешке налетая на людей.",
-            "У меня синяк на том месте, где я ударился головой.",
-            "Это поражение выбило нас с первого места.",
-            "Тим был неуклюжим мальчиком, постоянно натыкающимся на мебель.",
-            "Его хорошее настроение с грохотом обрушилось в дыру меланхолии.",
-            "По дороге домой она сделала крюк, чтобы случайно на кого-нибудь не наткнуться.",
-            "И эта штуковина с треском ударяет по голове.",
-            "Мы услышали, как в соседней комнате что-то глухо стукнуло.",
-            "Автомобиль тряхнуло, когда он наехал на кочку.",
-            "Она осторожно потрогала шишку у себя на голове.",
-            "Эти наркодельцы не шутят, и замочат любого, кто встанет у них на пути.",
-            "Он вырвался из драки с несколькими небольшими синяками и ушибами.",
-            "Из-за этих реформ многие семьи оказались вычеркнуты из списка лиц, медицинское обслуживание которых осуществляется за государственный счёт.",
-            "С каждым дорожным ухабом на обивку машины выплескивалось ещё немного моей газировки.",
-            "Показ этого телешоу передвинут на новое время.",
-            "Потолок был настолько низким, что он стукнулся головой (т.е. ударился головой о потолок)."
-        ],
-        "synonyms": [],
-        "groups": [
-            "all_words"
-        ],
-        "stars": 0
-    }
+  "bump": {
+    "comment": [],
+    "translate": "удар, шишка, столкновение, ударяться, ударять, толкать, вдруг, внезапно",
+    "transcription": " |bʌmp|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "groups": [],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "My car bumped into the tree.",
+        "ru": "Моя машина врезалась в дерево.",
+        "learn": 0
+      },
+      {
+        "eng": "I bumped into an old friend in town today.",
+        "ru": "Сегодня в городе я столкнулся со старым приятелем.",
+        "learn": 1
+      },
+      {
+        "eng": "Did you feel a bump?",
+        "ru": "Ты почувствовал удар /толчок/?",
+        "learn": 1
+      },
+      {
+        "eng": "I've bumped into the door and hurt my knee.",
+        "ru": "Я стукнулся о дверь и поранил колено.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a bump on the back of her head.",
+        "ru": "У неё шишка на затылке.",
+        "learn": 0
+      },
+      {
+        "eng": "Two more good results will bump up your average.",
+        "ru": "Еще два неплохих результата поднимут твой средний балл.",
+        "learn": 0
+      },
+      {
+        "eng": "The bump threw him off the bicycle",
+        "ru": "От удара он упал с велосипеда.",
+        "learn": 0
+      },
+      {
+        "eng": "They bumped into us from behind.",
+        "ru": "Они налетели на нас /врезались в нас/ сзади.",
+        "learn": 1
+      },
+      {
+        "eng": "Then he bumped me against the wall.",
+        "ru": "Тогда он схватил меня и как шарахнет о стену.",
+        "learn": 0
+      },
+      {
+        "eng": "Be careful not to bump the vase.",
+        "ru": "Осторожно, не стукни вазу.",
+        "learn": 1
+      },
+      {
+        "eng": "She bumped her arm on the table.",
+        "ru": "Она ударилась рукой о стол.",
+        "learn": 0
+      },
+      {
+        "eng": "I ran after him, bumping against people in my hurry.",
+        "ru": "Я погнался за ним, в спешке налетая на людей.",
+        "learn": 0
+      },
+      {
+        "eng": "I have a bruise from where I bumped my head.",
+        "ru": "У меня синяк на том месте, где я ударился головой.",
+        "learn": 0
+      },
+      {
+        "eng": "The loss bumped us out of first place.",
+        "ru": "Это поражение выбило нас с первого места.",
+        "learn": 0
+      },
+      {
+        "eng": "Tim was a clumsy boy, always bumping into the furniture.",
+        "ru": "Тим был неуклюжим мальчиком, постоянно натыкающимся на мебель.",
+        "learn": 0
+      },
+      {
+        "eng": "His mood of exaltation fell with a bump into the trough of melancholy.",
+        "ru": "Его хорошее настроение с грохотом обрушилось в дыру меланхолии.",
+        "learn": 0
+      },
+      {
+        "eng": "She walked home the long way round so as not to bump into anybody.",
+        "ru": "По дороге домой она сделала крюк, чтобы случайно на кого-нибудь не наткнуться.",
+        "learn": 0
+      },
+      {
+        "eng": "And it comes bump on the head.",
+        "ru": "И эта штуковина с треском ударяет по голове.",
+        "learn": 0
+      },
+      {
+        "eng": "We heard a bump in the next room.",
+        "ru": "Мы услышали, как в соседней комнате что-то глухо стукнуло.",
+        "learn": 0
+      },
+      {
+        "eng": "The car shook as it went over a bump.",
+        "ru": "Автомобиль тряхнуло, когда он наехал на кочку.",
+        "learn": 0
+      },
+      {
+        "eng": "Gingerly she explored the bump on her head with her fingers.",
+        "ru": "Она осторожно потрогала шишку у себя на голове.",
+        "learn": 0
+      },
+      {
+        "eng": "These drug dealers mean business, and they'll bump off anyone who gets in their way.",
+        "ru": "Эти наркодельцы не шутят, и замочат любого, кто встанет у них на пути.",
+        "learn": 0
+      },
+      {
+        "eng": "He wound up with a few minor bumps and bruises from the fight.",
+        "ru": "Он вырвался из драки с несколькими небольшими синяками и ушибами.",
+        "learn": 0
+      },
+      {
+        "eng": "The reforms bumped many families off the state-provided healthcare list.",
+        "ru": "Из-за этих реформ многие семьи оказались вычеркнуты из списка лиц, медицинское обслуживание которых осуществляется за государственный счёт.",
+        "learn": 0
+      },
+      {
+        "eng": "Every bump in the road swashed a little more of my soda on the car's upholstery.",
+        "ru": "С каждым дорожным ухабом на обивку машины выплескивалось ещё немного моей газировки.",
+        "learn": 0
+      },
+      {
+        "eng": "The TV show will be bumped to a new time.",
+        "ru": "Показ этого телешоу передвинут на новое время.",
+        "learn": 0
+      },
+      {
+        "eng": "The roof was so low he bumped his head (=his head hit the roof).",
+        "ru": "Потолок был настолько низким, что он стукнулся головой (т.е. ударился головой о потолок).",
+        "learn": 0
+      }
+    ]
+  }
 }

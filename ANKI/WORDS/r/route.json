@@ -1,84 +1,171 @@
 {
-    "route": {
-        "comment": [
-            "routine",
-            "outer"
-        ],
-        "translate": "маршрут, путь, направление, направлять, распределять, наголову",
-        "transcription": " |ruːt|",
-        "antonyms": [],
-        "mnemonic": [
-            "route [ru: t]\n***\nОпределяем свой МАРШРУТ. (это) route\nРАСПОРЯДОК СЛУЖБЫ вновь сопрут. (это) route\nКУРС новый, но старый маршрут. (это) route"
-        ],
-        "examples": [
-            "I drive this route every day.",
-            "He had marked the route on the map in red.",
-            "He took his usual route to work.",
-            "The route lay to the west.",
-            "What's the best route to Cambridge?",
-            "We took the faster route.",
-            "The route is very well signposted.",
-            "Is your office on a bus route?",
-            "Approaching cars will be routed into two lanes.",
-            "The coastal path is a popular route for walkers.",
-            "They went by the shortest route, across the fields.",
-            "Take Route 2 into town.",
-            "It's quicker to go by the country route.",
-            "We took an indirect route.",
-            "She takes Route 1 to Newark.",
-            "The route then heads west over Gerrick Moor.",
-            "I've been this route a thousand times before.",
-            "The port stands astride an international route.",
-            "Some 80 miles of the route already holed for telegraph posts.",
-            "There's a better chance of losing him if we take the back route.",
-            "The entire length of our route is assumed to be about thirty-two miles.",
-            "an escape route in case of fire",
-            "I drive on this route every day.",
-            "I found a more direct route to the city.",
-            "He took us by a devious route to the center of the city.",
-            "We determined on the latter route, it appearing to be the shortest.",
-            "We took a cross-country route instead of the motorway.",
-            "We live on a rural route.",
-            "He took a roundabout route to town.",
-            "Crowds lined the route to the palace."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я езжу по этому маршруту каждый день.",
-            "Он отметил маршрут на карте красным цветом.",
-            "Он пошёл на работу привычным маршрутом.",
-            "Дорога лежала на запад.",
-            "Как лучше всего добраться до Кэмбриджа?",
-            "Мы выбрали самый быстрый маршрут.",
-            "Маршрут ясно обозначен.",
-            "До вашего бюро можно добраться на автобусе?",
-            "Подъезжающие автомобили будут направлены в два переулка.",
-            "Прибрежная линия является популярным маршрутом среди пеших туристов.",
-            "Они пошли кратчайшим путем, через поля.",
-            "Поезжайте в город по второму шоссе.",
-            "Быстрее будет доехать по загородной трассе.",
-            "Мы выбрали окольный путь.",
-            "Она следует по Первому шоссе в направлении Ньюарка.",
-            "Затем маршрут идёт на запад через Геррик-Мур.",
-            "Я по этому маршруту уже тысячу раз ездил.",
-            "Порт расположен на пути международных маршрутов.",
-            "Ямы для телеграфных столбов уже вырыты на протяжении приблизительно 80 миль.",
-            "Если мы поедем по обратному маршруту, будет больше шансов от него оторваться.",
-            "Общая длина нашего маршрута предположительно составляет около тридцати двух миль.",
-            "путь эвакуации в случае пожара",
-            "Я езжу по этому маршруту каждый день.",
-            "Я нашел более прямой путь в город.",
-            "Он вывел нас окольным путём к центру города.",
-            "Мы выбрали последний из предложенных вариантов маршрута, потому что он казался наиболее коротким.",
-            "Вместо автострады мы поехали по бездорожью.",
-            "Мы живём в сельской местности.",
-            "Он поехал в город окольным путём.",
-            "Вдоль пути следования к дворцу выстроилась толпа народа."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ou_=_[uː]"
-        ]
-    }
+  "route": {
+    "comment": [
+      "routine",
+      "outer"
+    ],
+    "translate": "маршрут, путь, направление, направлять, распределять, наголову",
+    "transcription": " |ruːt|",
+    "antonyms": [],
+    "mnemonic": [
+      "route [ru: t]\n***\nОпределяем свой МАРШРУТ. (это) route\nРАСПОРЯДОК СЛУЖБЫ вновь сопрут. (это) route\nКУРС новый, но старый маршрут. (это) route"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ou_=_[uː]"
+    ],
+    "examples": [
+      {
+        "eng": "I drive this route every day.",
+        "ru": "Я езжу по этому маршруту каждый день.",
+        "learn": 0
+      },
+      {
+        "eng": "He had marked the route on the map in red.",
+        "ru": "Он отметил маршрут на карте красным цветом.",
+        "learn": 0
+      },
+      {
+        "eng": "He took his usual route to work.",
+        "ru": "Он пошёл на работу привычным маршрутом.",
+        "learn": 0
+      },
+      {
+        "eng": "The route lay to the west.",
+        "ru": "Дорога лежала на запад.",
+        "learn": 1
+      },
+      {
+        "eng": "What's the best route to Cambridge?",
+        "ru": "Как лучше всего добраться до Кэмбриджа?",
+        "learn": 0
+      },
+      {
+        "eng": "We took the faster route.",
+        "ru": "Мы выбрали самый быстрый маршрут.",
+        "learn": 0
+      },
+      {
+        "eng": "The route is very well signposted.",
+        "ru": "Маршрут ясно обозначен.",
+        "learn": 0
+      },
+      {
+        "eng": "Is your office on a bus route?",
+        "ru": "До вашего бюро можно добраться на автобусе?",
+        "learn": 0
+      },
+      {
+        "eng": "Approaching cars will be routed into two lanes.",
+        "ru": "Подъезжающие автомобили будут направлены в два переулка.",
+        "learn": 0
+      },
+      {
+        "eng": "The coastal path is a popular route for walkers.",
+        "ru": "Прибрежная линия является популярным маршрутом среди пеших туристов.",
+        "learn": 1
+      },
+      {
+        "eng": "They went by the shortest route, across the fields.",
+        "ru": "Они пошли кратчайшим путем, через поля.",
+        "learn": 0
+      },
+      {
+        "eng": "Take Route 2 into town.",
+        "ru": "Поезжайте в город по второму шоссе.",
+        "learn": 0
+      },
+      {
+        "eng": "It's quicker to go by the country route.",
+        "ru": "Быстрее будет доехать по загородной трассе.",
+        "learn": 0
+      },
+      {
+        "eng": "We took an indirect route.",
+        "ru": "Мы выбрали окольный путь.",
+        "learn": 0
+      },
+      {
+        "eng": "She takes Route 1 to Newark.",
+        "ru": "Она следует по Первому шоссе в направлении Ньюарка.",
+        "learn": 0
+      },
+      {
+        "eng": "The route then heads west over Gerrick Moor.",
+        "ru": "Затем маршрут идёт на запад через Геррик-Мур.",
+        "learn": 0
+      },
+      {
+        "eng": "I've been this route a thousand times before.",
+        "ru": "Я по этому маршруту уже тысячу раз ездил.",
+        "learn": 0
+      },
+      {
+        "eng": "The port stands astride an international route.",
+        "ru": "Порт расположен на пути международных маршрутов.",
+        "learn": 0
+      },
+      {
+        "eng": "Some 80 miles of the route already holed for telegraph posts.",
+        "ru": "Ямы для телеграфных столбов уже вырыты на протяжении приблизительно 80 миль.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a better chance of losing him if we take the back route.",
+        "ru": "Если мы поедем по обратному маршруту, будет больше шансов от него оторваться.",
+        "learn": 0
+      },
+      {
+        "eng": "The entire length of our route is assumed to be about thirty-two miles.",
+        "ru": "Общая длина нашего маршрута предположительно составляет около тридцати двух миль.",
+        "learn": 0
+      },
+      {
+        "eng": "an escape route in case of fire",
+        "ru": "путь эвакуации в случае пожара",
+        "learn": 0
+      },
+      {
+        "eng": "I drive on this route every day.",
+        "ru": "Я езжу по этому маршруту каждый день.",
+        "learn": 0
+      },
+      {
+        "eng": "I found a more direct route to the city.",
+        "ru": "Я нашел более прямой путь в город.",
+        "learn": 1
+      },
+      {
+        "eng": "He took us by a devious route to the center of the city.",
+        "ru": "Он вывел нас окольным путём к центру города.",
+        "learn": 0
+      },
+      {
+        "eng": "We determined on the latter route, it appearing to be the shortest.",
+        "ru": "Мы выбрали последний из предложенных вариантов маршрута, потому что он казался наиболее коротким.",
+        "learn": 0
+      },
+      {
+        "eng": "We took a cross-country route instead of the motorway.",
+        "ru": "Вместо автострады мы поехали по бездорожью.",
+        "learn": 0
+      },
+      {
+        "eng": "We live on a rural route.",
+        "ru": "Мы живём в сельской местности.",
+        "learn": 0
+      },
+      {
+        "eng": "He took a roundabout route to town.",
+        "ru": "Он поехал в город окольным путём.",
+        "learn": 0
+      },
+      {
+        "eng": "Crowds lined the route to the palace.",
+        "ru": "Вдоль пути следования к дворцу выстроилась толпа народа.",
+        "learn": 0
+      }
+    ]
+  }
 }

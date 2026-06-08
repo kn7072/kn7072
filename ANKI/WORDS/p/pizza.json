@@ -1,78 +1,164 @@
 {
-    "pizza": {
-        "comment": [],
-        "translate": "пицца",
-        "transcription": " |ˈpiːtsə|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He likes pizza with thin crust.",
-            "I ordered pizza for supper.",
-            "I can't eat any more pizza.",
-            "This pizza needs more sauce.",
-            "We ordered a pizza for supper.",
-            "He ate cold pizza for breakfast.",
-            "Could you cut the pizza up, please?",
-            "Pizza is a sure crowd pleaser.",
-            "The teenager wolfed down the pizza",
-            "Pizza dough should be rolled thinly.",
-            "What toppings do you want on the pizza?",
-            "I'm afraid I've burnt the pizza.",
-            "Where can we get some good pizza?",
-            "Pop the pizza into the microwave oven.",
-            "$15 should buy us a pizza and a drink.",
-            "Please take the pizza out of the oven.",
-            "Pizza parlors proliferate in this area.",
-            "She was partial to pizza and chocolate.",
-            "I have dibs on that last slice of pizza",
-            "Does anyone want the rest of this pizza?",
-            "Frozen pizza is a popular convenience food.",
-            "Oh, go and pick up pizza, for heaven's sake!",
-            "Brush a little oil over the top of the pizza.",
-            "We'll take out pizza, since I am too tired to cook",
-            "a heated discussion about who should pay for the pizza",
-            "I despise anchovies on pizza, and I refuse to eat them!",
-            "I despise anchovies on pizza, and I refuse to eat them!",
-            "One of their favorite after-school haunts is Joe's Pizza.",
-            "He bit into a hot slice of pizza and burned the roof of his mouth.",
-            "We have to decide what to do about dinner. I vote that we get a pizza."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он любит пиццу с тонкой корочкой.",
-            "Я заказал на ужин пиццу.",
-            "Я не могу больше съесть ни куска пиццы.",
-            "В эту пиццу нужно добавить больше соуса.",
-            "Мы заказали на ужин пиццу.",
-            "Он позавтракал холодной пиццей.",
-            "Не мог бы ты разрезать пиццу, пожалуйста?",
-            "Пицца — это блюдо, которое наверняка понравится всем.",
-            "Подросток с жадностью уплетал пиццу",
-            "Тесто для пиццы нужно раскатывать тонко.",
-            "Пиццу с какой начинкой ты хочешь?",
-            "Кажется, я сожгла пиццу.",
-            "Где бы нам достать хорошую пиццу?",
-            "Засуньте пиццу в микроволновую печь.",
-            "Нам должно хватить пятнадцати долларов на пиццу и напиток /выпивку/.",
-            "Вытащи, пожалуйста, пиццу из духовки.",
-            "Количество пиццерий в этом районе быстро увеличивается.",
-            "Она сходила с ума по пицце и шоколаду.",
-            "У меня есть деньжата на тот последний кусок пиццы.",
-            "Кто-нибудь хочет остаток пиццы?",
-            "Замороженная пицца — популярная еда быстрого приготовления.",
-            "Ради бога, пойди купи, наконец, пиццу.",
-            "Верх пиццы смажьте небольшим количеством масла.",
-            "Мы закажем с собой пиццу, так как я слишком устала, чтобы готовить.",
-            "жаркий спор по поводу того, кто же должен платить за пиццу",
-            "Я терпеть не могу анчоусы в пицце, и отказываюсь есть их!",
-            "Я терпеть не могу анчоусы в пицце, и отказываюсь есть их!",
-            "Одним из тех мест, куда они особенно любят приходить после школы, является пиццерия \"У Джо\".",
-            "Он откусил горячий кусок пиццы и обжёг нёбо.",
-            "Мы должны решить, что делать с ужином. Я голосую за то, чтобы заказать пиццу."
-        ],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "pizza": {
+    "comment": [],
+    "translate": "пицца",
+    "transcription": " |ˈpiːtsə|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He likes pizza with thin crust.",
+        "ru": "Он любит пиццу с тонкой корочкой.",
+        "learn": 1
+      },
+      {
+        "eng": "I ordered pizza for supper.",
+        "ru": "Я заказал на ужин пиццу.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't eat any more pizza.",
+        "ru": "Я не могу больше съесть ни куска пиццы.",
+        "learn": 0
+      },
+      {
+        "eng": "This pizza needs more sauce.",
+        "ru": "В эту пиццу нужно добавить больше соуса.",
+        "learn": 1
+      },
+      {
+        "eng": "We ordered a pizza for supper.",
+        "ru": "Мы заказали на ужин пиццу.",
+        "learn": 0
+      },
+      {
+        "eng": "He ate cold pizza for breakfast.",
+        "ru": "Он позавтракал холодной пиццей.",
+        "learn": 0
+      },
+      {
+        "eng": "Could you cut the pizza up, please?",
+        "ru": "Не мог бы ты разрезать пиццу, пожалуйста?",
+        "learn": 0
+      },
+      {
+        "eng": "Pizza is a sure crowd pleaser.",
+        "ru": "Пицца — это блюдо, которое наверняка понравится всем.",
+        "learn": 0
+      },
+      {
+        "eng": "The teenager wolfed down the pizza",
+        "ru": "Подросток с жадностью уплетал пиццу",
+        "learn": 0
+      },
+      {
+        "eng": "Pizza dough should be rolled thinly.",
+        "ru": "Тесто для пиццы нужно раскатывать тонко.",
+        "learn": 0
+      },
+      {
+        "eng": "What toppings do you want on the pizza?",
+        "ru": "Пиццу с какой начинкой ты хочешь?",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid I've burnt the pizza.",
+        "ru": "Кажется, я сожгла пиццу.",
+        "learn": 1
+      },
+      {
+        "eng": "Where can we get some good pizza?",
+        "ru": "Где бы нам достать хорошую пиццу?",
+        "learn": 0
+      },
+      {
+        "eng": "Pop the pizza into the microwave oven.",
+        "ru": "Засуньте пиццу в микроволновую печь.",
+        "learn": 0
+      },
+      {
+        "eng": "$15 should buy us a pizza and a drink.",
+        "ru": "Нам должно хватить пятнадцати долларов на пиццу и напиток /выпивку/.",
+        "learn": 0
+      },
+      {
+        "eng": "Please take the pizza out of the oven.",
+        "ru": "Вытащи, пожалуйста, пиццу из духовки.",
+        "learn": 0
+      },
+      {
+        "eng": "Pizza parlors proliferate in this area.",
+        "ru": "Количество пиццерий в этом районе быстро увеличивается.",
+        "learn": 0
+      },
+      {
+        "eng": "She was partial to pizza and chocolate.",
+        "ru": "Она сходила с ума по пицце и шоколаду.",
+        "learn": 0
+      },
+      {
+        "eng": "I have dibs on that last slice of pizza",
+        "ru": "У меня есть деньжата на тот последний кусок пиццы.",
+        "learn": 0
+      },
+      {
+        "eng": "Does anyone want the rest of this pizza?",
+        "ru": "Кто-нибудь хочет остаток пиццы?",
+        "learn": 0
+      },
+      {
+        "eng": "Frozen pizza is a popular convenience food.",
+        "ru": "Замороженная пицца — популярная еда быстрого приготовления.",
+        "learn": 0
+      },
+      {
+        "eng": "Oh, go and pick up pizza, for heaven's sake!",
+        "ru": "Ради бога, пойди купи, наконец, пиццу.",
+        "learn": 0
+      },
+      {
+        "eng": "Brush a little oil over the top of the pizza.",
+        "ru": "Верх пиццы смажьте небольшим количеством масла.",
+        "learn": 0
+      },
+      {
+        "eng": "We'll take out pizza, since I am too tired to cook",
+        "ru": "Мы закажем с собой пиццу, так как я слишком устала, чтобы готовить.",
+        "learn": 0
+      },
+      {
+        "eng": "a heated discussion about who should pay for the pizza",
+        "ru": "жаркий спор по поводу того, кто же должен платить за пиццу",
+        "learn": 0
+      },
+      {
+        "eng": "I despise anchovies on pizza, and I refuse to eat them!",
+        "ru": "Я терпеть не могу анчоусы в пицце, и отказываюсь есть их!",
+        "learn": 0
+      },
+      {
+        "eng": "I despise anchovies on pizza, and I refuse to eat them!",
+        "ru": "Я терпеть не могу анчоусы в пицце, и отказываюсь есть их!",
+        "learn": 0
+      },
+      {
+        "eng": "One of their favorite after-school haunts is Joe's Pizza.",
+        "ru": "Одним из тех мест, куда они особенно любят приходить после школы, является пиццерия \"У Джо\".",
+        "learn": 0
+      },
+      {
+        "eng": "He bit into a hot slice of pizza and burned the roof of his mouth.",
+        "ru": "Он откусил горячий кусок пиццы и обжёг нёбо.",
+        "learn": 0
+      },
+      {
+        "eng": "We have to decide what to do about dinner. I vote that we get a pizza.",
+        "ru": "Мы должны решить, что делать с ужином. Я голосую за то, чтобы заказать пиццу.",
+        "learn": 0
+      }
+    ]
+  }
 }

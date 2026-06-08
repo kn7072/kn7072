@@ -1,86 +1,173 @@
 {
-    "food": {
-        "comment": [
-            "fool",
-            "foot",
-            "footstep",
-            "foolish"
-        ],
-        "translate": "еда, питание, пища, продовольствие, корм, съестные припасы, провизия",
-        "transcription": " |fuːd|",
-        "antonyms": [],
-        "mnemonic": [
-            "food [фу:д] пища - (Фуд- болисты) - моя любимая пища."
-        ],
-        "examples": [
-            "The food ran out.",
-            "Food was short.",
-            "I love French food.",
-            "Mexican food",
-            "Chinese food",
-            "Food sustains life.",
-            "a farmer who grows his own food",
-            "What is your favorite food?",
-            "The food was lousy.",
-            "Mexican food is hot.",
-            "The food was yucky.",
-            "I hate Mexican food.",
-            "Food was in abundance.",
-            "The food was extra good.",
-            "Do you have whatever food?",
-            "Food is necessary for life.",
-            "The food was heavy and greasy.",
-            "The food was lavish.",
-            "Don't bolt your food!",
-            "The food was pure salt.",
-            "Do you like Mexican food?",
-            "The food wouldn't go down.",
-            "He left his food untouched.",
-            "I buy food wholesale.",
-            "The food was revolting!",
-            "Don't gobble your food!",
-            "Food was in scant supply.",
-            "They tore into their food.",
-            "Animals depend on plant material for food.",
-            "There was food aplenty."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Еда закончилась.",
-            "Еды было мало.",
-            "Я обожаю французскую кухню.",
-            "Мексиканская кухня",
-            "китайская кухня",
-            "Пища поддерживает жизненные силы.",
-            "фермер, который питается тем, что вырастил сам",
-            "Что вы любите есть?",
-            "Еда была паршивая.",
-            "Мексиканская еда — острая.",
-            "Еда была отвратительной.",
-            "Терпеть не могу мексиканскую кухню.",
-            "Еды было в изобилии.",
-            "Еда была высший сорт.",
-            "У вас есть хоть какая-нибудь еда?",
-            "Еда необходима для жизни.",
-            "Еда была тяжёлой и жирной.",
-            "Угощение было щедрым.",
-            "Не давись едой!",
-            "Это была не пища, а сплошная соль.",
-            "Ты любишь мексиканскую кухню?",
-            "Кусок в горло не лезет.",
-            "Он не притронулся к еде.",
-            "Я покупаю продукты питания оптом.",
-            "Еда была просто отвратительная!",
-            "Не запихивайся едой!",
-            "Запасы еды были скудными.",
-            "Они накинулись на еду.",
-            "Животные зависят от растительной пищи.",
-            "Еды было предостаточно /хоть отбавляй/."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "oo_=_[uː]"
-        ]
-    }
+  "food": {
+    "comment": [
+      "fool",
+      "foot",
+      "footstep",
+      "foolish"
+    ],
+    "translate": "еда, питание, пища, продовольствие, корм, съестные припасы, провизия",
+    "transcription": " |fuːd|",
+    "antonyms": [],
+    "mnemonic": [
+      "food [фу:д] пища - (Фуд- болисты) - моя любимая пища."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "oo_=_[uː]"
+    ],
+    "examples": [
+      {
+        "eng": "The food ran out.",
+        "ru": "Еда закончилась.",
+        "learn": 0
+      },
+      {
+        "eng": "Food was short.",
+        "ru": "Еды было мало.",
+        "learn": 0
+      },
+      {
+        "eng": "I love French food.",
+        "ru": "Я обожаю французскую кухню.",
+        "learn": 0
+      },
+      {
+        "eng": "Mexican food",
+        "ru": "Мексиканская кухня",
+        "learn": 0
+      },
+      {
+        "eng": "Chinese food",
+        "ru": "китайская кухня",
+        "learn": 0
+      },
+      {
+        "eng": "Food sustains life.",
+        "ru": "Пища поддерживает жизненные силы.",
+        "learn": 1
+      },
+      {
+        "eng": "a farmer who grows his own food",
+        "ru": "фермер, который питается тем, что вырастил сам",
+        "learn": 0
+      },
+      {
+        "eng": "What is your favorite food?",
+        "ru": "Что вы любите есть?",
+        "learn": 0
+      },
+      {
+        "eng": "The food was lousy.",
+        "ru": "Еда была паршивая.",
+        "learn": 0
+      },
+      {
+        "eng": "Mexican food is hot.",
+        "ru": "Мексиканская еда — острая.",
+        "learn": 0
+      },
+      {
+        "eng": "The food was yucky.",
+        "ru": "Еда была отвратительной.",
+        "learn": 0
+      },
+      {
+        "eng": "I hate Mexican food.",
+        "ru": "Терпеть не могу мексиканскую кухню.",
+        "learn": 0
+      },
+      {
+        "eng": "Food was in abundance.",
+        "ru": "Еды было в изобилии.",
+        "learn": 0
+      },
+      {
+        "eng": "The food was extra good.",
+        "ru": "Еда была высший сорт.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you have whatever food?",
+        "ru": "У вас есть хоть какая-нибудь еда?",
+        "learn": 1
+      },
+      {
+        "eng": "Food is necessary for life.",
+        "ru": "Еда необходима для жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "The food was heavy and greasy.",
+        "ru": "Еда была тяжёлой и жирной.",
+        "learn": 1
+      },
+      {
+        "eng": "The food was lavish.",
+        "ru": "Угощение было щедрым.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't bolt your food!",
+        "ru": "Не давись едой!",
+        "learn": 0
+      },
+      {
+        "eng": "The food was pure salt.",
+        "ru": "Это была не пища, а сплошная соль.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you like Mexican food?",
+        "ru": "Ты любишь мексиканскую кухню?",
+        "learn": 0
+      },
+      {
+        "eng": "The food wouldn't go down.",
+        "ru": "Кусок в горло не лезет.",
+        "learn": 0
+      },
+      {
+        "eng": "He left his food untouched.",
+        "ru": "Он не притронулся к еде.",
+        "learn": 1
+      },
+      {
+        "eng": "I buy food wholesale.",
+        "ru": "Я покупаю продукты питания оптом.",
+        "learn": 0
+      },
+      {
+        "eng": "The food was revolting!",
+        "ru": "Еда была просто отвратительная!",
+        "learn": 0
+      },
+      {
+        "eng": "Don't gobble your food!",
+        "ru": "Не запихивайся едой!",
+        "learn": 0
+      },
+      {
+        "eng": "Food was in scant supply.",
+        "ru": "Запасы еды были скудными.",
+        "learn": 0
+      },
+      {
+        "eng": "They tore into their food.",
+        "ru": "Они накинулись на еду.",
+        "learn": 0
+      },
+      {
+        "eng": "Animals depend on plant material for food.",
+        "ru": "Животные зависят от растительной пищи.",
+        "learn": 0
+      },
+      {
+        "eng": "There was food aplenty.",
+        "ru": "Еды было предостаточно /хоть отбавляй/.",
+        "learn": 0
+      }
+    ]
+  }
 }

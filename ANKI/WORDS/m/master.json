@@ -1,81 +1,168 @@
 {
-    "master": {
-        "comment": [
-            "masterpiece"
-        ],
-        "translate": "мастер, хозяин, магистр, главный, основной, ведущий, управлять, владеть",
-        "transcription": " |ˈmæstər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "You must learn to master your temper.",
-            "Such master, such servant.",
-            "He could never master mathematics.",
-            "He is a master liar.",
-            "He had learned to master his fear of heights.",
-            "Deep grief masters me.",
-            "the fine hand of a master",
-            "His master threw him out.",
-            "I never quite mastered the art of walking in high heels.",
-            "We work for a hard master.",
-            "He is a master of disguise.",
-            "She mastered French in college.",
-            "She is a master of her craft.",
-            "The dog saved its master's life.",
-            "She's a master of deadpan.",
-            "She's a master at manipulating people.",
-            "Whether we like him or lump him, he is master of the situation.",
-            "She apprenticed with the great master.",
-            "We've lost the master disk.",
-            "He is a master of diplomacy.",
-            "He served his master devotedly",
-            "He was a stern yet fair master.",
-            "He's a master of the business deal.",
-            "the master and mistress of the house",
-            "She apprenticed with the great master",
-            "English grammar can be hard to master.",
-            "Master believes all the crams we tell.",
-            "How's young Master Toby today?",
-            "the master control center at NASA",
-            "A master coup, which decides the game."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ты должен учиться справляться со своим характером.",
-            "Каков хозяин, таков и слуга. / Каков поп, таков и приход. (посл.)",
-            "Он никогда не мог справиться с математикой.",
-            "Он законченный лгун.",
-            "Он научился контролировать свой страх высоты.",
-            "Меня одолевает глубокая печаль.",
-            "искусная рука мастера",
-            "Хозяин выгнал его.",
-            "Я так и не смогла полностью овладеть умением ходить на высоких каблуках.",
-            "Мы работаем на требовательного хозяина.",
-            "Он мастер перевоплощения.",
-            "В университете она в совершенстве овладела французским языком.",
-            "Она — мастер своего дела.",
-            "Собака спасла жизнь своему хозяину.",
-            "Она королева невозмутимости. (дословно: мастер невозмутимости. значение: она совершенно невозмутима / очень серьёзна)",
-            "Она мастерски манипулирует людьми.",
-            "Нравится он нам или нет, он всё равно хозяин положения.",
-            "Она училась у большого мастера.",
-            "Мы потеряли мастер-диск /оригинал диска/.",
-            "Он хороший дипломат.",
-            "Он преданно служил своему хозяину.",
-            "Он был строгим, но справедливым хозяином.",
-            "Он является мастером сделки.",
-            "хозяин и хозяйка дома",
-            "Она была ученицей у этого великого мастера.",
-            "Английская грамматика порой даётся нелегко.",
-            "Хозяин верит любой чуши, которую мы ему рассказываем.",
-            "Как сегодня поживает молодой господин Тоби?",
-            "главный центр управления НАСА",
-            "Мастерский ход, решивший исход игры."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "a(закр_сл)_=_[ɑː]"
-        ]
-    }
+  "master": {
+    "comment": [
+      "masterpiece"
+    ],
+    "translate": "мастер, хозяин, магистр, главный, основной, ведущий, управлять, владеть",
+    "transcription": " |ˈmæstər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "a(закр_сл)_=_[ɑː]"
+    ],
+    "examples": [
+      {
+        "eng": "You must learn to master your temper.",
+        "ru": "Ты должен учиться справляться со своим характером.",
+        "learn": 0
+      },
+      {
+        "eng": "Such master, such servant.",
+        "ru": "Каков хозяин, таков и слуга. / Каков поп, таков и приход. (посл.)",
+        "learn": 1
+      },
+      {
+        "eng": "He could never master mathematics.",
+        "ru": "Он никогда не мог справиться с математикой.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a master liar.",
+        "ru": "Он законченный лгун.",
+        "learn": 0
+      },
+      {
+        "eng": "He had learned to master his fear of heights.",
+        "ru": "Он научился контролировать свой страх высоты.",
+        "learn": 0
+      },
+      {
+        "eng": "Deep grief masters me.",
+        "ru": "Меня одолевает глубокая печаль.",
+        "learn": 0
+      },
+      {
+        "eng": "the fine hand of a master",
+        "ru": "искусная рука мастера",
+        "learn": 0
+      },
+      {
+        "eng": "His master threw him out.",
+        "ru": "Хозяин выгнал его.",
+        "learn": 0
+      },
+      {
+        "eng": "I never quite mastered the art of walking in high heels.",
+        "ru": "Я так и не смогла полностью овладеть умением ходить на высоких каблуках.",
+        "learn": 0
+      },
+      {
+        "eng": "We work for a hard master.",
+        "ru": "Мы работаем на требовательного хозяина.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a master of disguise.",
+        "ru": "Он мастер перевоплощения.",
+        "learn": 0
+      },
+      {
+        "eng": "She mastered French in college.",
+        "ru": "В университете она в совершенстве овладела французским языком.",
+        "learn": 0
+      },
+      {
+        "eng": "She is a master of her craft.",
+        "ru": "Она — мастер своего дела.",
+        "learn": 1
+      },
+      {
+        "eng": "The dog saved its master's life.",
+        "ru": "Собака спасла жизнь своему хозяину.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a master of deadpan.",
+        "ru": "Она королева невозмутимости. (дословно: мастер невозмутимости. значение: она совершенно невозмутима / очень серьёзна)",
+        "learn": 0
+      },
+      {
+        "eng": "She's a master at manipulating people.",
+        "ru": "Она мастерски манипулирует людьми.",
+        "learn": 0
+      },
+      {
+        "eng": "Whether we like him or lump him, he is master of the situation.",
+        "ru": "Нравится он нам или нет, он всё равно хозяин положения.",
+        "learn": 0
+      },
+      {
+        "eng": "She apprenticed with the great master.",
+        "ru": "Она училась у большого мастера.",
+        "learn": 0
+      },
+      {
+        "eng": "We've lost the master disk.",
+        "ru": "Мы потеряли мастер-диск /оригинал диска/.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a master of diplomacy.",
+        "ru": "Он хороший дипломат.",
+        "learn": 0
+      },
+      {
+        "eng": "He served his master devotedly",
+        "ru": "Он преданно служил своему хозяину.",
+        "learn": 0
+      },
+      {
+        "eng": "He was a stern yet fair master.",
+        "ru": "Он был строгим, но справедливым хозяином.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a master of the business deal.",
+        "ru": "Он является мастером сделки.",
+        "learn": 0
+      },
+      {
+        "eng": "the master and mistress of the house",
+        "ru": "хозяин и хозяйка дома",
+        "learn": 0
+      },
+      {
+        "eng": "She apprenticed with the great master",
+        "ru": "Она была ученицей у этого великого мастера.",
+        "learn": 0
+      },
+      {
+        "eng": "English grammar can be hard to master.",
+        "ru": "Английская грамматика порой даётся нелегко.",
+        "learn": 1
+      },
+      {
+        "eng": "Master believes all the crams we tell.",
+        "ru": "Хозяин верит любой чуши, которую мы ему рассказываем.",
+        "learn": 0
+      },
+      {
+        "eng": "How's young Master Toby today?",
+        "ru": "Как сегодня поживает молодой господин Тоби?",
+        "learn": 0
+      },
+      {
+        "eng": "the master control center at NASA",
+        "ru": "главный центр управления НАСА",
+        "learn": 0
+      },
+      {
+        "eng": "A master coup, which decides the game.",
+        "ru": "Мастерский ход, решивший исход игры.",
+        "learn": 0
+      }
+    ]
+  }
 }

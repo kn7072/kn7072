@@ -1,75 +1,147 @@
 {
-    "ashamed": {
-        "comment": [
-            "shame"
-        ],
-        "translate": "совестно, пристыженный",
-        "transcription": " |əˈʃeɪmd|",
-        "antonyms": [],
-        "mnemonic": [
-            "shame [ʃeɪm]\nashamed [ə'ʃeɪmd] - стыдиться. пристыженный\n***\nКакой СТЫД бить по шеям. (это) shame\nКакая ЖАЛОСТЬ, что ты бил по шеям. (это) shame\nСТЫДИЛ нас и бил по шеям. (это) shame\nСтыд, позор, бесчестие.\n***\nЭто позор \"shame\" -\nсебя прославлять \"fame\"\nи своё имя \"name\"."
-        ],
-        "examples": [
-            "She was ashamed to admit her mistake.",
-            "You ought to be ashamed!",
-            "I began to be ashamed of sitting idle.",
-            "He was ashamed that his family was poor.",
-            "Their behaviour makes me ashamed to be British.",
-            "I can't believe that you behaved so rudely. I'm ashamed to be seen with you!",
-            "I am ashamed of myself.",
-            "His trousers were patched up, and he was ashamed of them.",
-            "You should be ashamed of yourself.",
-            "I'm ashamed that I haven't replied to your letter yet.",
-            "Are you ashamed for having lied?",
-            "There's absolutely nothing to be ashamed of.",
-            "Everyone cries sometimes — it's nothing to be ashamed of.",
-            "Many children feel ashamed of their parents.",
-            "I felt ashamed of the things I'd said to him.",
-            "He grew to be somewhat ashamed of himself.",
-            "She's not ashamed of her humble beginnings.",
-            "I would be ashamed to beg from my neighbours.",
-            "Are you ashamed already of sorrow and contrition?",
-            "I'm ashamed to admit that I've never read any of his books.",
-            "Anna felt thoroughly ashamed when she realized what she'd said.",
-            "The family were so ashamed when the youngest son was expelled from his school.",
-            "I felt ashamed of my torn coat.",
-            "I had no reason to hang my head. I had nothing to be ashamed of.",
-            "The family were so ashamed of the youngest son that they bundled him off to Canada."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ей было стыдно признать свою ошибку.",
-            "Вам должно быть стыдно!",
-            "Я начал стыдиться того, что сидел без дела.",
-            "Ему было стыдно, что его семья бедна.",
-            "Их поведение заставляет меня стыдиться того, что я британец.",
-            "Я не могу поверить, что вы вели себя так грубо. Мне стыдно находиться рядом с вами!",
-            "Мне стыдно за себя.",
-            "Его штаны были все в заплатках, ему было стыдно их носить.",
-            "Тебе должно быть стыдно. / Как же тебе не стыдно.",
-            "Мне стыдно, что я до сих пор не ответил на ваше письмо.",
-            "Тебе стыдно за свою ложь?",
-            "Тут абсолютно нечего стыдиться.",
-            "Все иногда плачут, здесь нечего стыдиться.",
-            "Многим детям стыдно за своих родителей.",
-            "Мне стало стыдно за то, что я ему наговорил.",
-            "Он даже стал как-то стыдиться себя.",
-            "Она не стесняется своего скромного происхождения.",
-            "Я бы сгорел от стыда, если бы мне пришлось просить денег у соседей.",
-            "Вы стыдитесь печали и раскаяния?",
-            "Мне стыдно признаться, что я никогда не читал его книг.",
-            "Анне стало ужасно стыдно, когда она поняла, что сказала.",
-            "Семья не знала, куда деться от стыда, когда младшего сына выгнали из школы.",
-            "Мне стало стыдно за своё рваное пальто.",
-            "У меня не было причин вешать голову: мне нечего было стыдиться.",
-            "Семья была так оскорблена поступком младшего сына, что отправила его в Канаду."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными",
-            "Инфинитив_с_to_после_прил((am,_is,_are_и_т._д.)_+_прилагательное_+_инфинитив)",
-            "Инфинитив"
-        ]
-    }
+  "ashamed": {
+    "comment": [
+      "shame"
+    ],
+    "translate": "совестно, пристыженный",
+    "transcription": " |əˈʃeɪmd|",
+    "antonyms": [],
+    "mnemonic": [
+      "shame [ʃeɪm]\nashamed [ə'ʃeɪmd] - стыдиться. пристыженный\n***\nКакой СТЫД бить по шеям. (это) shame\nКакая ЖАЛОСТЬ, что ты бил по шеям. (это) shame\nСТЫДИЛ нас и бил по шеям. (это) shame\nСтыд, позор, бесчестие.\n***\nЭто позор \"shame\" -\nсебя прославлять \"fame\"\nи своё имя \"name\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными",
+      "Инфинитив_с_to_после_прил((am,_is,_are_и_т._д.)_+_прилагательное_+_инфинитив)",
+      "Инфинитив"
+    ],
+    "examples": [
+      {
+        "eng": "She was ashamed to admit her mistake.",
+        "ru": "Ей было стыдно признать свою ошибку.",
+        "learn": 1
+      },
+      {
+        "eng": "You ought to be ashamed!",
+        "ru": "Вам должно быть стыдно!",
+        "learn": 0
+      },
+      {
+        "eng": "I began to be ashamed of sitting idle.",
+        "ru": "Я начал стыдиться того, что сидел без дела.",
+        "learn": 0
+      },
+      {
+        "eng": "He was ashamed that his family was poor.",
+        "ru": "Ему было стыдно, что его семья бедна.",
+        "learn": 1
+      },
+      {
+        "eng": "Their behaviour makes me ashamed to be British.",
+        "ru": "Их поведение заставляет меня стыдиться того, что я британец.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't believe that you behaved so rudely. I'm ashamed to be seen with you!",
+        "ru": "Я не могу поверить, что вы вели себя так грубо. Мне стыдно находиться рядом с вами!",
+        "learn": 1
+      },
+      {
+        "eng": "I am ashamed of myself.",
+        "ru": "Мне стыдно за себя.",
+        "learn": 0
+      },
+      {
+        "eng": "His trousers were patched up, and he was ashamed of them.",
+        "ru": "Его штаны были все в заплатках, ему было стыдно их носить.",
+        "learn": 0
+      },
+      {
+        "eng": "You should be ashamed of yourself.",
+        "ru": "Тебе должно быть стыдно. / Как же тебе не стыдно.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm ashamed that I haven't replied to your letter yet.",
+        "ru": "Мне стыдно, что я до сих пор не ответил на ваше письмо.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you ashamed for having lied?",
+        "ru": "Тебе стыдно за свою ложь?",
+        "learn": 0
+      },
+      {
+        "eng": "There's absolutely nothing to be ashamed of.",
+        "ru": "Тут абсолютно нечего стыдиться.",
+        "learn": 1
+      },
+      {
+        "eng": "Everyone cries sometimes — it's nothing to be ashamed of.",
+        "ru": "Все иногда плачут, здесь нечего стыдиться.",
+        "learn": 0
+      },
+      {
+        "eng": "Many children feel ashamed of their parents.",
+        "ru": "Многим детям стыдно за своих родителей.",
+        "learn": 1
+      },
+      {
+        "eng": "I felt ashamed of the things I'd said to him.",
+        "ru": "Мне стало стыдно за то, что я ему наговорил.",
+        "learn": 0
+      },
+      {
+        "eng": "He grew to be somewhat ashamed of himself.",
+        "ru": "Он даже стал как-то стыдиться себя.",
+        "learn": 0
+      },
+      {
+        "eng": "She's not ashamed of her humble beginnings.",
+        "ru": "Она не стесняется своего скромного происхождения.",
+        "learn": 0
+      },
+      {
+        "eng": "I would be ashamed to beg from my neighbours.",
+        "ru": "Я бы сгорел от стыда, если бы мне пришлось просить денег у соседей.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you ashamed already of sorrow and contrition?",
+        "ru": "Вы стыдитесь печали и раскаяния?",
+        "learn": 0
+      },
+      {
+        "eng": "I'm ashamed to admit that I've never read any of his books.",
+        "ru": "Мне стыдно признаться, что я никогда не читал его книг.",
+        "learn": 0
+      },
+      {
+        "eng": "Anna felt thoroughly ashamed when she realized what she'd said.",
+        "ru": "Анне стало ужасно стыдно, когда она поняла, что сказала.",
+        "learn": 0
+      },
+      {
+        "eng": "The family were so ashamed when the youngest son was expelled from his school.",
+        "ru": "Семья не знала, куда деться от стыда, когда младшего сына выгнали из школы.",
+        "learn": 0
+      },
+      {
+        "eng": "I felt ashamed of my torn coat.",
+        "ru": "Мне стало стыдно за своё рваное пальто.",
+        "learn": 0
+      },
+      {
+        "eng": "I had no reason to hang my head. I had nothing to be ashamed of.",
+        "ru": "У меня не было причин вешать голову: мне нечего было стыдиться.",
+        "learn": 0
+      },
+      {
+        "eng": "The family were so ashamed of the youngest son that they bundled him off to Canada.",
+        "ru": "Семья была так оскорблена поступком младшего сына, что отправила его в Канаду.",
+        "learn": 0
+      }
+    ]
+  }
 }

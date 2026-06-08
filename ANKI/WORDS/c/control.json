@@ -1,84 +1,171 @@
 {
-    "control": {
-        "comment": [
-            "uncontrolled",
-            "controlled",
-            "controller"
-        ],
-        "translate": "управление, контроль, контролировать, управлять, управляющий",
-        "transcription": " |kənˈtroʊl|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He was in full control of the situation.",
-            "Do you control these data?",
-            "She lost control of the car.",
-            "She never lost control of herself.",
-            "She regains control.",
-            "He reached for the remote control and pressed the \"play\" button.",
-            "The committee brushed off his enquiries with their usual \"It's under control, don't worry\".",
-            "Center for Disease Control",
-            "I felt calm and in control.",
-            "He tried to control his voice.",
-            "We need better cost control.",
-            "The police controlled the crowd.",
-            "Her family controls the business.",
-            "control the quality of the product",
-            "Press control and F2 to exit.",
-            "To cut text, press Control + C.",
-            "the master control center at NASA",
-            "Water Pollution Control Federation",
-            "The army has seized control of the city.",
-            "I felt a need to take control of the situation.",
-            "He controlled the urge to laugh.",
-            "She regained control of herself.",
-            "The ship careened out of control.",
-            "Crime has spiraled out of control.",
-            "He could scarcely control his joy.",
-            "Henceforth I obey and you control.",
-            "Teachers need to be seen to be in control.",
-            "You'll be briefed at Control.",
-            "a chemical used in pest control",
-            "Please stop at passport control."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он полностью контролировал ситуацию.",
-            "Вы обладаете этими данными?",
-            "Она не справилась с управлением.",
-            "Она никогда не теряла контроль над собой.",
-            "Она приходит в себя.",
-            "Он потянулся за пультом и нажал кнопку \"воспроизведение\".",
-            "Комитет отмахнулся от его вопросов обычным \"всё под контролем, не беспокойтесь\".",
-            "Центр по контролю заболеваемости (в США)",
-            "Я чувствовал спокойствие и самообладание.",
-            "Он старался контролировать свой голос.",
-            "Нам необходимо улучшение контроля затрат.",
-            "Полиция контролировала толпу.",
-            "Её семья контролирует этот бизнес.",
-            "контроль качества продукта",
-            "Для выхода нажмите Ctrl + F2.",
-            "Чтобы скопировать текст в буфер обмена, нажмите Control + C.",
-            "главный центр управления НАСА",
-            "Федерация по контролю над загрязнением вод (США)",
-            "Военные захватили контроль над городом.",
-            "Я почувствовал необходимость взять ситуацию под контроль.",
-            "Он сдержал приступ смеха.",
-            "Она взяла себя в руки.",
-            "Корабль накренился на борт и потерял управление.",
-            "Преступность постепенно вышла из-под контроля.",
-            "Он с трудом сдерживал радость.",
-            "Отныне я подчиняюсь, а ты командуешь.",
-            "С учителями нужно встречаться, чтобы владеть ситуацией.",
-            "Инструкции получите на командном пункте.",
-            "химикат, который используют для борьбы с вредителями",
-            "Пожалуйста, остановитесь у паспортного контроля."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "o_+_Закр_сл_=_[ou]",
-            "o_+_Закр_сл_=_[ou]"
-        ]
-    }
+  "control": {
+    "comment": [
+      "uncontrolled",
+      "controlled",
+      "controller"
+    ],
+    "translate": "управление, контроль, контролировать, управлять, управляющий",
+    "transcription": " |kənˈtroʊl|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "o_+_Закр_сл_=_[ou]",
+      "o_+_Закр_сл_=_[ou]"
+    ],
+    "examples": [
+      {
+        "eng": "He was in full control of the situation.",
+        "ru": "Он полностью контролировал ситуацию.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you control these data?",
+        "ru": "Вы обладаете этими данными?",
+        "learn": 0
+      },
+      {
+        "eng": "She lost control of the car.",
+        "ru": "Она не справилась с управлением.",
+        "learn": 0
+      },
+      {
+        "eng": "She never lost control of herself.",
+        "ru": "Она никогда не теряла контроль над собой.",
+        "learn": 1
+      },
+      {
+        "eng": "She regains control.",
+        "ru": "Она приходит в себя.",
+        "learn": 0
+      },
+      {
+        "eng": "He reached for the remote control and pressed the \"play\" button.",
+        "ru": "Он потянулся за пультом и нажал кнопку \"воспроизведение\".",
+        "learn": 0
+      },
+      {
+        "eng": "The committee brushed off his enquiries with their usual \"It's under control, don't worry\".",
+        "ru": "Комитет отмахнулся от его вопросов обычным \"всё под контролем, не беспокойтесь\".",
+        "learn": 0
+      },
+      {
+        "eng": "Center for Disease Control",
+        "ru": "Центр по контролю заболеваемости (в США)",
+        "learn": 0
+      },
+      {
+        "eng": "I felt calm and in control.",
+        "ru": "Я чувствовал спокойствие и самообладание.",
+        "learn": 0
+      },
+      {
+        "eng": "He tried to control his voice.",
+        "ru": "Он старался контролировать свой голос.",
+        "learn": 1
+      },
+      {
+        "eng": "We need better cost control.",
+        "ru": "Нам необходимо улучшение контроля затрат.",
+        "learn": 0
+      },
+      {
+        "eng": "The police controlled the crowd.",
+        "ru": "Полиция контролировала толпу.",
+        "learn": 0
+      },
+      {
+        "eng": "Her family controls the business.",
+        "ru": "Её семья контролирует этот бизнес.",
+        "learn": 0
+      },
+      {
+        "eng": "control the quality of the product",
+        "ru": "контроль качества продукта",
+        "learn": 0
+      },
+      {
+        "eng": "Press control and F2 to exit.",
+        "ru": "Для выхода нажмите Ctrl + F2.",
+        "learn": 0
+      },
+      {
+        "eng": "To cut text, press Control + C.",
+        "ru": "Чтобы скопировать текст в буфер обмена, нажмите Control + C.",
+        "learn": 0
+      },
+      {
+        "eng": "the master control center at NASA",
+        "ru": "главный центр управления НАСА",
+        "learn": 0
+      },
+      {
+        "eng": "Water Pollution Control Federation",
+        "ru": "Федерация по контролю над загрязнением вод (США)",
+        "learn": 0
+      },
+      {
+        "eng": "The army has seized control of the city.",
+        "ru": "Военные захватили контроль над городом.",
+        "learn": 0
+      },
+      {
+        "eng": "I felt a need to take control of the situation.",
+        "ru": "Я почувствовал необходимость взять ситуацию под контроль.",
+        "learn": 1
+      },
+      {
+        "eng": "He controlled the urge to laugh.",
+        "ru": "Он сдержал приступ смеха.",
+        "learn": 0
+      },
+      {
+        "eng": "She regained control of herself.",
+        "ru": "Она взяла себя в руки.",
+        "learn": 0
+      },
+      {
+        "eng": "The ship careened out of control.",
+        "ru": "Корабль накренился на борт и потерял управление.",
+        "learn": 0
+      },
+      {
+        "eng": "Crime has spiraled out of control.",
+        "ru": "Преступность постепенно вышла из-под контроля.",
+        "learn": 1
+      },
+      {
+        "eng": "He could scarcely control his joy.",
+        "ru": "Он с трудом сдерживал радость.",
+        "learn": 0
+      },
+      {
+        "eng": "Henceforth I obey and you control.",
+        "ru": "Отныне я подчиняюсь, а ты командуешь.",
+        "learn": 0
+      },
+      {
+        "eng": "Teachers need to be seen to be in control.",
+        "ru": "С учителями нужно встречаться, чтобы владеть ситуацией.",
+        "learn": 0
+      },
+      {
+        "eng": "You'll be briefed at Control.",
+        "ru": "Инструкции получите на командном пункте.",
+        "learn": 0
+      },
+      {
+        "eng": "a chemical used in pest control",
+        "ru": "химикат, который используют для борьбы с вредителями",
+        "learn": 0
+      },
+      {
+        "eng": "Please stop at passport control.",
+        "ru": "Пожалуйста, остановитесь у паспортного контроля.",
+        "learn": 0
+      }
+    ]
+  }
 }

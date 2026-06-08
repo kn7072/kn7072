@@ -1,83 +1,169 @@
 {
-    "support": {
-        "comment": [
-            "supporter",
-            "supporting"
-        ],
-        "translate": "поддержка, помощь, опора, суппорт, поддерживать, содействовать",
-        "transcription": " |səˈpɔːrt|",
-        "antonyms": [],
-        "mnemonic": [
-            "support [sə'pɔ: t]\n***\nПОДДЕРЖКУ требует сей|спорт. (это) support\nПОДДЕРЖИМ мы сей|спóрт. (это) support\nПоддержка., кормилец."
-        ],
-        "examples": [
-            "Which team do you support?",
-            "My wife supported me enormously.",
-            "I am going to call tech support.",
-            "He supported his story with facts.",
-            "I cannot support even the idea of it.",
-            "I don't have the means to support a family.",
-            "We need to support our teachers.",
-            "Economic Support Fund",
-            "We look to you for support.",
-            "I got to my feet, supporting myself on the side of the table.",
-            "He has a duty to support his family.",
-            "He has support from the Left.",
-            "What football team do you support?",
-            "Your support helped the team on to victory.",
-            "The roof may need extra support.",
-            "I heartily support your efforts.",
-            "He was the sole support of his father.",
-            "He needs no props to support his faith.",
-            "They reassured us of their support.",
-            "We need support at grass-roots level.",
-            "Comrades, please support this motion.",
-            "The characters were admirably supported.",
-            "The vast majority of people will support us.",
-            "Some public support might help the movement along.",
-            "There is no convincing evidence to support his theory.",
-            "Afrikaner support",
-            "You have my unqualified support.",
-            "The bill has bipartisan support.",
-            "the building's steel support beams",
-            "I urge you to support this motion."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "За какую команду вы болеете?",
-            "Моя жена оказала мне огромную поддержку.",
-            "Я собираюсь позвонить в службу технической поддержки.",
-            "Он подтвердил свой рассказ фактами.",
-            "Я не могу выносить даже мысли об этом.",
-            "У меня нет средств, чтобы содержать семью.",
-            "Мы должны поддержать наших учителей.",
-            "Фонд экономической поддержки",
-            "Мы обращаемся к вам за поддержкой.",
-            "Я поднялся на ноги, оперевшись о край стола.",
-            "Он обязан содержать свою семью.",
-            "Он пользуется поддержкой со стороны \"левых\".",
-            "За какую футбольную команду вы болеете?",
-            "Ваша поддержка помогла команде одержать победу.",
-            "Возможно, крышу придётся дополнительно подпереть.",
-            "Я полностью поддерживаю ваши усилия.",
-            "Он был единственным кормильцем своего отца.",
-            "Его вера не нуждается ни в какой поддержке.",
-            "Они заверили нас в своей поддержке.",
-            "Нам нужна поддержка рядовых избирателей.",
-            "Товарищи, пожалуйста, поддержите это движение.",
-            "Роли героев были блестяще исполнены.",
-            "Подавляющее большинство людей нас поддержит.",
-            "Поддержка со стороны общественности могла бы сдвинуть дело с мёртвой точки.",
-            "Нет никаких убедительных доказательств в поддержку его теории.",
-            "техподдержка на языке африкаанс",
-            "Я вас безоговорочно поддерживаю.",
-            "Этот законопроект поддерживают обе партии.",
-            "стальные балки, поддерживающие здание",
-            "Я призываю вас поддержать данное предложение."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "support": {
+    "comment": [
+      "supporter",
+      "supporting"
+    ],
+    "translate": "поддержка, помощь, опора, суппорт, поддерживать, содействовать",
+    "transcription": " |səˈpɔːrt|",
+    "antonyms": [],
+    "mnemonic": [
+      "support [sə'pɔ: t]\n***\nПОДДЕРЖКУ требует сей|спорт. (это) support\nПОДДЕРЖИМ мы сей|спóрт. (это) support\nПоддержка., кормилец."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Which team do you support?",
+        "ru": "За какую команду вы болеете?",
+        "learn": 0
+      },
+      {
+        "eng": "My wife supported me enormously.",
+        "ru": "Моя жена оказала мне огромную поддержку.",
+        "learn": 0
+      },
+      {
+        "eng": "I am going to call tech support.",
+        "ru": "Я собираюсь позвонить в службу технической поддержки.",
+        "learn": 1
+      },
+      {
+        "eng": "He supported his story with facts.",
+        "ru": "Он подтвердил свой рассказ фактами.",
+        "learn": 0
+      },
+      {
+        "eng": "I cannot support even the idea of it.",
+        "ru": "Я не могу выносить даже мысли об этом.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't have the means to support a family.",
+        "ru": "У меня нет средств, чтобы содержать семью.",
+        "learn": 1
+      },
+      {
+        "eng": "We need to support our teachers.",
+        "ru": "Мы должны поддержать наших учителей.",
+        "learn": 0
+      },
+      {
+        "eng": "Economic Support Fund",
+        "ru": "Фонд экономической поддержки",
+        "learn": 0
+      },
+      {
+        "eng": "We look to you for support.",
+        "ru": "Мы обращаемся к вам за поддержкой.",
+        "learn": 0
+      },
+      {
+        "eng": "I got to my feet, supporting myself on the side of the table.",
+        "ru": "Я поднялся на ноги, оперевшись о край стола.",
+        "learn": 1
+      },
+      {
+        "eng": "He has a duty to support his family.",
+        "ru": "Он обязан содержать свою семью.",
+        "learn": 0
+      },
+      {
+        "eng": "He has support from the Left.",
+        "ru": "Он пользуется поддержкой со стороны \"левых\".",
+        "learn": 0
+      },
+      {
+        "eng": "What football team do you support?",
+        "ru": "За какую футбольную команду вы болеете?",
+        "learn": 0
+      },
+      {
+        "eng": "Your support helped the team on to victory.",
+        "ru": "Ваша поддержка помогла команде одержать победу.",
+        "learn": 0
+      },
+      {
+        "eng": "The roof may need extra support.",
+        "ru": "Возможно, крышу придётся дополнительно подпереть.",
+        "learn": 0
+      },
+      {
+        "eng": "I heartily support your efforts.",
+        "ru": "Я полностью поддерживаю ваши усилия.",
+        "learn": 0
+      },
+      {
+        "eng": "He was the sole support of his father.",
+        "ru": "Он был единственным кормильцем своего отца.",
+        "learn": 0
+      },
+      {
+        "eng": "He needs no props to support his faith.",
+        "ru": "Его вера не нуждается ни в какой поддержке.",
+        "learn": 0
+      },
+      {
+        "eng": "They reassured us of their support.",
+        "ru": "Они заверили нас в своей поддержке.",
+        "learn": 1
+      },
+      {
+        "eng": "We need support at grass-roots level.",
+        "ru": "Нам нужна поддержка рядовых избирателей.",
+        "learn": 0
+      },
+      {
+        "eng": "Comrades, please support this motion.",
+        "ru": "Товарищи, пожалуйста, поддержите это движение.",
+        "learn": 0
+      },
+      {
+        "eng": "The characters were admirably supported.",
+        "ru": "Роли героев были блестяще исполнены.",
+        "learn": 0
+      },
+      {
+        "eng": "The vast majority of people will support us.",
+        "ru": "Подавляющее большинство людей нас поддержит.",
+        "learn": 0
+      },
+      {
+        "eng": "Some public support might help the movement along.",
+        "ru": "Поддержка со стороны общественности могла бы сдвинуть дело с мёртвой точки.",
+        "learn": 0
+      },
+      {
+        "eng": "There is no convincing evidence to support his theory.",
+        "ru": "Нет никаких убедительных доказательств в поддержку его теории.",
+        "learn": 1
+      },
+      {
+        "eng": "Afrikaner support",
+        "ru": "техподдержка на языке африкаанс",
+        "learn": 0
+      },
+      {
+        "eng": "You have my unqualified support.",
+        "ru": "Я вас безоговорочно поддерживаю.",
+        "learn": 0
+      },
+      {
+        "eng": "The bill has bipartisan support.",
+        "ru": "Этот законопроект поддерживают обе партии.",
+        "learn": 0
+      },
+      {
+        "eng": "the building's steel support beams",
+        "ru": "стальные балки, поддерживающие здание",
+        "learn": 0
+      },
+      {
+        "eng": "I urge you to support this motion.",
+        "ru": "Я призываю вас поддержать данное предложение.",
+        "learn": 1
+      }
+    ]
+  }
 }

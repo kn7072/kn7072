@@ -1,84 +1,170 @@
 {
-    "tone": {
-        "comment": [
-            "stone",
-            "ton",
-            "tonne",
-            "tonic",
-            "skeleton"
-        ],
-        "translate": "тон, тонус, оттенок, характер, интонация, настраивать, гармонировать, изменять",
-        "transcription": " |toʊn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Don't take that tone with me.",
-            "She softened her tone.",
-            "Pianos are toned.",
-            "His tone was bland.",
-            "Her tone was mocking.",
-            "Don't use that rude tone of voice with me.",
-            "John's tone was sharp.",
-            "Her hat tones with the dress.",
-            "His tone was censorious.",
-            "Their tone was friendly.",
-            "Her tone of voice was curt.",
-            "He sang or toned his verses.",
-            "the soft tones of the painting",
-            "Her peremptory tone angered me.",
-            "He spoke in an apologetic tone.",
-            "The tone of the market is dull.",
-            "Her tone was petulant and angry.",
-            "He spoke with a magisterial tone.",
-            "The article was moderate in tone.",
-            "This color matches your skin tone.",
-            "The tone of the report was radical.",
-            "His tone shifted",
-            "They spoke in hushed tones.",
-            "His tone grew more menacing.",
-            "He replied in a friendly tone.",
-            "the Beijing dialect uses four tones",
-            "She had that superior tone of voice.",
-            "The speech had religious tones to it.",
-            "a bright, dark, or light tone of blue",
-            "Please leave a message after the tone."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Не веди себя так со мной.",
-            "Она смягчила тон.",
-            "Фортепиано настроены.",
-            "Его тон был равнодушным.",
-            "Её тон был насмешливым.",
-            "Не смей со мной разговаривать таким грубым тоном.",
-            "Тон Джона был резким.",
-            "Её шляпка подобрана в тон платью.",
-            "Его тон был осуждающим.",
-            "Они вели себя дружелюбно.",
-            "Она говорила отрывисто и резко.",
-            "Он или пел, или произносил нараспев свои стихи.",
-            "мягкие тона этой картины",
-            "Её властная манера разговора разозлила меня.",
-            "Он говорил примирительным тоном.",
-            "Настроение рынка вялое.",
-            "Её тон был раздраженным и сердитым.",
-            "Он говорил повелительным тоном",
-            "Тон статьи был сдержанным.",
-            "Этот цвет подходит к оттенку вашей кожи.",
-            "Тон доклада был радикален.",
-            "Его тон изменился.",
-            "Они разговаривали вполголоса.",
-            "Его голос стал более угрожающим.",
-            "Он ответил дружелюбно.",
-            "В Пекинском диалекте используется четыре тона.",
-            "Она разговаривала как будто свысока.",
-            "В выступлении звучали религиозные нотки.",
-            "яркий, тёмные или светлый оттенок синего",
-            "Пожалуйста, оставьте сообщение после звукового сигнала."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "tone": {
+    "comment": [
+      "stone",
+      "ton",
+      "tonne",
+      "tonic",
+      "skeleton"
+    ],
+    "translate": "тон, тонус, оттенок, характер, интонация, настраивать, гармонировать, изменять",
+    "transcription": " |toʊn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Don't take that tone with me.",
+        "ru": "Не веди себя так со мной.",
+        "learn": 0
+      },
+      {
+        "eng": "She softened her tone.",
+        "ru": "Она смягчила тон.",
+        "learn": 0
+      },
+      {
+        "eng": "Pianos are toned.",
+        "ru": "Фортепиано настроены.",
+        "learn": 0
+      },
+      {
+        "eng": "His tone was bland.",
+        "ru": "Его тон был равнодушным.",
+        "learn": 0
+      },
+      {
+        "eng": "Her tone was mocking.",
+        "ru": "Её тон был насмешливым.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't use that rude tone of voice with me.",
+        "ru": "Не смей со мной разговаривать таким грубым тоном.",
+        "learn": 1
+      },
+      {
+        "eng": "John's tone was sharp.",
+        "ru": "Тон Джона был резким.",
+        "learn": 0
+      },
+      {
+        "eng": "Her hat tones with the dress.",
+        "ru": "Её шляпка подобрана в тон платью.",
+        "learn": 0
+      },
+      {
+        "eng": "His tone was censorious.",
+        "ru": "Его тон был осуждающим.",
+        "learn": 0
+      },
+      {
+        "eng": "Their tone was friendly.",
+        "ru": "Они вели себя дружелюбно.",
+        "learn": 0
+      },
+      {
+        "eng": "Her tone of voice was curt.",
+        "ru": "Она говорила отрывисто и резко.",
+        "learn": 0
+      },
+      {
+        "eng": "He sang or toned his verses.",
+        "ru": "Он или пел, или произносил нараспев свои стихи.",
+        "learn": 0
+      },
+      {
+        "eng": "the soft tones of the painting",
+        "ru": "мягкие тона этой картины",
+        "learn": 0
+      },
+      {
+        "eng": "Her peremptory tone angered me.",
+        "ru": "Её властная манера разговора разозлила меня.",
+        "learn": 0
+      },
+      {
+        "eng": "He spoke in an apologetic tone.",
+        "ru": "Он говорил примирительным тоном.",
+        "learn": 0
+      },
+      {
+        "eng": "The tone of the market is dull.",
+        "ru": "Настроение рынка вялое.",
+        "learn": 0
+      },
+      {
+        "eng": "Her tone was petulant and angry.",
+        "ru": "Её тон был раздраженным и сердитым.",
+        "learn": 0
+      },
+      {
+        "eng": "He spoke with a magisterial tone.",
+        "ru": "Он говорил повелительным тоном",
+        "learn": 0
+      },
+      {
+        "eng": "The article was moderate in tone.",
+        "ru": "Тон статьи был сдержанным.",
+        "learn": 0
+      },
+      {
+        "eng": "This color matches your skin tone.",
+        "ru": "Этот цвет подходит к оттенку вашей кожи.",
+        "learn": 0
+      },
+      {
+        "eng": "The tone of the report was radical.",
+        "ru": "Тон доклада был радикален.",
+        "learn": 0
+      },
+      {
+        "eng": "His tone shifted",
+        "ru": "Его тон изменился.",
+        "learn": 0
+      },
+      {
+        "eng": "They spoke in hushed tones.",
+        "ru": "Они разговаривали вполголоса.",
+        "learn": 0
+      },
+      {
+        "eng": "His tone grew more menacing.",
+        "ru": "Его голос стал более угрожающим.",
+        "learn": 0
+      },
+      {
+        "eng": "He replied in a friendly tone.",
+        "ru": "Он ответил дружелюбно.",
+        "learn": 0
+      },
+      {
+        "eng": "the Beijing dialect uses four tones",
+        "ru": "В Пекинском диалекте используется четыре тона.",
+        "learn": 0
+      },
+      {
+        "eng": "She had that superior tone of voice.",
+        "ru": "Она разговаривала как будто свысока.",
+        "learn": 1
+      },
+      {
+        "eng": "The speech had religious tones to it.",
+        "ru": "В выступлении звучали религиозные нотки.",
+        "learn": 0
+      },
+      {
+        "eng": "a bright, dark, or light tone of blue",
+        "ru": "яркий, тёмные или светлый оттенок синего",
+        "learn": 0
+      },
+      {
+        "eng": "Please leave a message after the tone.",
+        "ru": "Пожалуйста, оставьте сообщение после звукового сигнала.",
+        "learn": 1
+      }
+    ]
+  }
 }

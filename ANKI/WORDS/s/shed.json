@@ -1,84 +1,173 @@
 {
-    "shed": {
-        "comment": [
-            "she",
-            "shell",
-            "shelter"
-        ],
-        "translate": "сарай, навес, депо, ангар, пролить, проливать, лить, пролитый",
-        "transcription": " |ʃed|",
-        "antonyms": [],
-        "mnemonic": [
-            "shed [ʃed]\n***\nПРОЛИЛ воду на планшет. (это) shed\nНе ЛЕЙ слёзы - купят планшет. (это) shed\nВ САРАЕ я храню планшет. (это) shed\nСарай, навес.\n***\nСлёзы не проливай \"shed\",\nпросто носи красное \"red\"."
-        ],
-        "examples": [
-            "Trees shed their leaves.",
-            "So much blood has been shed in this war.",
-            "Animals shed their hair.",
-            "Can you shed light on this problem?",
-            "Look, you're shedding tears on my best coat!",
-            "They ran down to the sea, shedding clothes as they went.",
-            "Animals shed their thicker winter coats.",
-            "Psychotherapy helped him to shed some of his insecurity.",
-            "The shed is where we keep our tools and things.",
-            "That old bike has been mouldering away in the shed for ages.",
-            "We propped the shed's roof with poles.",
-            "As it grows, a snake will regularly shed its skin.",
-            "The tears he shed were tears of joy.",
-            "The company is planning to shed about a quarter of its workforce.",
-            "The findings may shed light on the mechanisms and functions of sleep.",
-            "Can you shed any light on the mysterious disappearance of these papers?",
-            "The nail loosened and was shed in fragments.",
-            "Michael knocked up a shed in the back garden.",
-            "God shed His grace on thee.",
-            "He shed his image as a pushy boss.",
-            "She had not shed a single tear during the funeral.",
-            "Bushes blotted out the shed from our view.",
-            "Melanie was able to shed some light on the situation.",
-            "I must admit I shed a few tears when the school closed.",
-            "The lamp shed a harsh yellow light.",
-            "The trees have all shed their leaves.",
-            "Recent research has shed light on the causes of the disease.",
-            "Tie up the old newspapers and bring them to the recycling shed.",
-            "These snakes shed their skins once a year.",
-            "The trees were starting to shed their leaves."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Деревья сбрасывают листья.",
-            "В этой войне было пролито столько крови.",
-            "Животные линяют.",
-            "Не могли бы вы осветить /прояснить/ эту проблему?",
-            "Господи, ты мне залила слезами мое лучшее пальто!",
-            "Они бежали к морю, сбрасывая на ходу одежду.",
-            "Животные линяют, сбрасывая тёплый зимний мех.",
-            "Психотерапия помогла ему частично избавиться от чувства неуверенности.",
-            "Сарай — это место, где мы держим наши инструменты и всё такое прочее.",
-            "Этот старый велосипед разрушался в сарае много лет.",
-            "Мы подпёрли крышу сарая жердями.",
-            "По мере того как она растет, змея буде постоянно сбрасывать свою кожу.",
-            "Пролитые им слёзы были слезами радости.",
-            "Компания планирует сократить около четверти рабочей силы.",
-            "Результаты исследований, возможно, прольют свет на физиологические механизмы и функции сна.",
-            "Можешь ты как-нибудь объяснить таинственное исчезновение этих бумаг?",
-            "Ноготь расшатался и был удалён по частям.",
-            "Майкл на скорую руку сколотил в саду за домом сарай.",
-            "Бог излил на тебя свою благодать. / Бог благословил тебя. (строка из песни \"America the Beautiful\")",
-            "Он избавился от своего образа напористого начальника.",
-            "Во время похорон она не пролила ни слезинки.",
-            "Навес был скрыт от наших глаз кустами.",
-            "Мелани смогла пролить немного света на эту ситуацию.",
-            "Должна признаться, что я даже немного всплакнула, когда школа закрылась.",
-            "Лампа светилась резким жёлтым светом.",
-            "Все деревья сбросили свои листья.",
-            "Недавние исследования пролили свет на причины данного заболевания.",
-            "Перевяжи верёвкой старые газеты и отнеси их в сарай для вторсырья.",
-            "Эти змеи сбрасывают кожу один раз в год.",
-            "Деревья начали сбрасывать листья."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "shed": {
+    "comment": [
+      "shed |ʃɛd|,                                          shed |ʃɛd|",
+      "she",
+      "shell",
+      "shelter"
+    ],
+    "translate": "сарай, навес, депо, ангар, пролить, проливать, лить, пролитый",
+    "transcription": " |ʃed|",
+    "antonyms": [],
+    "mnemonic": [
+      "shed [ʃed]\n***\nПРОЛИЛ воду на планшет. (это) shed\nНе ЛЕЙ слёзы - купят планшет. (это) shed\nВ САРАЕ я храню планшет. (это) shed\nСарай, навес.\n***\nСлёзы не проливай \"shed\",\nпросто носи красное \"red\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Trees shed their leaves.",
+        "ru": "Деревья сбрасывают листья.",
+        "learn": 0
+      },
+      {
+        "eng": "So much blood has been shed in this war.",
+        "ru": "В этой войне было пролито столько крови.",
+        "learn": 0
+      },
+      {
+        "eng": "Animals shed their hair.",
+        "ru": "Животные линяют.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you shed light on this problem?",
+        "ru": "Не могли бы вы осветить /прояснить/ эту проблему?",
+        "learn": 0
+      },
+      {
+        "eng": "Look, you're shedding tears on my best coat!",
+        "ru": "Господи, ты мне залила слезами мое лучшее пальто!",
+        "learn": 0
+      },
+      {
+        "eng": "They ran down to the sea, shedding clothes as they went.",
+        "ru": "Они бежали к морю, сбрасывая на ходу одежду.",
+        "learn": 0
+      },
+      {
+        "eng": "Animals shed their thicker winter coats.",
+        "ru": "Животные линяют, сбрасывая тёплый зимний мех.",
+        "learn": 0
+      },
+      {
+        "eng": "Psychotherapy helped him to shed some of his insecurity.",
+        "ru": "Психотерапия помогла ему частично избавиться от чувства неуверенности.",
+        "learn": 0
+      },
+      {
+        "eng": "The shed is where we keep our tools and things.",
+        "ru": "Сарай — это место, где мы держим наши инструменты и всё такое прочее.",
+        "learn": 0
+      },
+      {
+        "eng": "That old bike has been mouldering away in the shed for ages.",
+        "ru": "Этот старый велосипед разрушался в сарае много лет.",
+        "learn": 0
+      },
+      {
+        "eng": "We propped the shed's roof with poles.",
+        "ru": "Мы подпёрли крышу сарая жердями.",
+        "learn": 0
+      },
+      {
+        "eng": "As it grows, a snake will regularly shed its skin.",
+        "ru": "По мере того как она растет, змея буде постоянно сбрасывать свою кожу.",
+        "learn": 0
+      },
+      {
+        "eng": "The tears he shed were tears of joy.",
+        "ru": "Пролитые им слёзы были слезами радости.",
+        "learn": 0
+      },
+      {
+        "eng": "The company is planning to shed about a quarter of its workforce.",
+        "ru": "Компания планирует сократить около четверти рабочей силы.",
+        "learn": 0
+      },
+      {
+        "eng": "The findings may shed light on the mechanisms and functions of sleep.",
+        "ru": "Результаты исследований, возможно, прольют свет на физиологические механизмы и функции сна.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you shed any light on the mysterious disappearance of these papers?",
+        "ru": "Можешь ты как-нибудь объяснить таинственное исчезновение этих бумаг?",
+        "learn": 0
+      },
+      {
+        "eng": "The nail loosened and was shed in fragments.",
+        "ru": "Ноготь расшатался и был удалён по частям.",
+        "learn": 0
+      },
+      {
+        "eng": "Michael knocked up a shed in the back garden.",
+        "ru": "Майкл на скорую руку сколотил в саду за домом сарай.",
+        "learn": 1
+      },
+      {
+        "eng": "God shed His grace on thee.",
+        "ru": "Бог излил на тебя свою благодать. / Бог благословил тебя. (строка из песни \"America the Beautiful\")",
+        "learn": 0
+      },
+      {
+        "eng": "He shed his image as a pushy boss.",
+        "ru": "Он избавился от своего образа напористого начальника.",
+        "learn": 0
+      },
+      {
+        "eng": "She had not shed a single tear during the funeral.",
+        "ru": "Во время похорон она не пролила ни слезинки.",
+        "learn": 1
+      },
+      {
+        "eng": "Bushes blotted out the shed from our view.",
+        "ru": "Навес был скрыт от наших глаз кустами.",
+        "learn": 0
+      },
+      {
+        "eng": "Melanie was able to shed some light on the situation.",
+        "ru": "Мелани смогла пролить немного света на эту ситуацию.",
+        "learn": 0
+      },
+      {
+        "eng": "I must admit I shed a few tears when the school closed.",
+        "ru": "Должна признаться, что я даже немного всплакнула, когда школа закрылась.",
+        "learn": 0
+      },
+      {
+        "eng": "The lamp shed a harsh yellow light.",
+        "ru": "Лампа светилась резким жёлтым светом.",
+        "learn": 0
+      },
+      {
+        "eng": "The trees have all shed their leaves.",
+        "ru": "Все деревья сбросили свои листья.",
+        "learn": 1
+      },
+      {
+        "eng": "Recent research has shed light on the causes of the disease.",
+        "ru": "Недавние исследования пролили свет на причины данного заболевания.",
+        "learn": 0
+      },
+      {
+        "eng": "Tie up the old newspapers and bring them to the recycling shed.",
+        "ru": "Перевяжи верёвкой старые газеты и отнеси их в сарай для вторсырья.",
+        "learn": 0
+      },
+      {
+        "eng": "These snakes shed their skins once a year.",
+        "ru": "Эти змеи сбрасывают кожу один раз в год.",
+        "learn": 0
+      },
+      {
+        "eng": "The trees were starting to shed their leaves.",
+        "ru": "Деревья начали сбрасывать листья.",
+        "learn": 0
+      }
+    ]
+  }
 }

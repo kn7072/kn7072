@@ -1,77 +1,148 @@
 {
-    "seed": {
-        "comment": [
-            "see",
-            "seek",
-            "seem",
-            "seemingly",
-            "weed",
-            "exceed"
-        ],
-        "translate": "семя, семена, зерно, потомство, источник, семениться, сеять, засевать",
-        "transcription": " |siːd|",
-        "antonyms": [],
-        "mnemonic": [
-            "seed [си:д] семя, семена - (Сид-и) и семена очищай."
-        ],
-        "examples": [
-            "We seeded the field with corn.",
-            "This tall tree developed from a small seed.",
-            "She sowed sunflower seeds.",
-            "I'm proud of having raised these bushes from seed.",
-            "Add 1 lime, seeded and sliced.",
-            "the alae of a maple seed",
-            "The olive not being successfully propagable by seed.",
-            "These plants will seed late in the fall.",
-            "The seed which is sown shall one day sprout and quicken.",
-            "Our team is the number one seed.",
-            "Sow the seeds one inch deep in the soil.",
-            "You will stop all bloom if you let the flowers go to seed.",
-            "The top seed won the tournament.",
-            "It's hard to believe that a tree can develop from a small seed.",
-            "Canary seed exhibits a sudden upward jump of several shillings.",
-            "Even if you plant the seed upside down, the roots will still grow down.",
-            "Steffi Graf was seeded fifth at Wimbledon.",
-            "He's been top seed for the past two years.",
-            "The bird cracked the seed on a tree branch.",
-            "The old central bus station is going to seed.",
-            "his head fuzzed like a dandelion gone to seed",
-            "Growing plants from seed can produce disappointing results.",
-            "For drying grass seed, the in-sack drier had many advantages.",
-            "In all cases where the seed does not spring, the contractor is to re-sow the same.",
-            "As soon as the capsules containing the seed are dried, the flax is ready for being rippled."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мы засеяли поле кукурузой.",
-            "Это высокое дерево выросло из маленького семени.",
-            "Она посадила семена подсолнечника.",
-            "Я горжусь, что вырастил эти кусты из семян.",
-            "Добавьте один лайм, очищенный от семян и нарезанный кольцами.",
-            "крылья кленового семени",
-            "Оливы плохо размножаются семенами.",
-            "Эти растения дадут семена поздней осенью.",
-            "Посеянные семена однажды прорастут и оживут.",
-            "Наша команда посеяна под первым номером.",
-            "Посадите семена на один дюйм в землю.",
-            "Если позволишь цветам обсемениться, то всё цветение прекратится.",
-            "Турнир выиграл спортсмен, \"посеянный\" под первым номером.",
-            "Трудно поверить, что дерево может вырасти из маленького семечка.",
-            "Зерно для канареек неожиданно подорожало на несколько шиллингов.",
-            "Даже если ты посадишь семя нижним концом вверх, корни всё равно будут расти вниз.",
-            "Штеффи Граф была посеяна под пятым номером на Уимблдоне.",
-            "Последние два года он является первым сеянным на турнире.",
-            "Птица расколола семечко, сидя на ветке дерева.",
-            "Старый центральный автовокзал постепенно приходит в упадок.",
-            "его голова, покрытая белым пухом, напоминавшим готовые улететь семена одуванчика",
-            "Выращивание растений из семян может привести к неутешительным результатам.",
-            "Что касается сушки травяных семян, внутримешочная сушка имеет много преимуществ.",
-            "В любом случае, если семена не взойдут, подрядчик обязан вновь произвести посадку.",
-            "Как только оболочка семян станет сухой, лён можно чесать."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "seed": {
+    "comment": [
+      "see",
+      "seek",
+      "seem",
+      "seemingly",
+      "weed",
+      "exceed"
+    ],
+    "translate": "семя, семена, зерно, потомство, источник, семениться, сеять, засевать",
+    "transcription": " |siːd|",
+    "antonyms": [],
+    "mnemonic": [
+      "seed [си:д] семя, семена - (Сид-и) и семена очищай."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "We seeded the field with corn.",
+        "ru": "Мы засеяли поле кукурузой.",
+        "learn": 0
+      },
+      {
+        "eng": "This tall tree developed from a small seed.",
+        "ru": "Это высокое дерево выросло из маленького семени.",
+        "learn": 0
+      },
+      {
+        "eng": "She sowed sunflower seeds.",
+        "ru": "Она посадила семена подсолнечника.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm proud of having raised these bushes from seed.",
+        "ru": "Я горжусь, что вырастил эти кусты из семян.",
+        "learn": 0
+      },
+      {
+        "eng": "Add 1 lime, seeded and sliced.",
+        "ru": "Добавьте один лайм, очищенный от семян и нарезанный кольцами.",
+        "learn": 1
+      },
+      {
+        "eng": "the alae of a maple seed",
+        "ru": "крылья кленового семени",
+        "learn": 0
+      },
+      {
+        "eng": "The olive not being successfully propagable by seed.",
+        "ru": "Оливы плохо размножаются семенами.",
+        "learn": 0
+      },
+      {
+        "eng": "These plants will seed late in the fall.",
+        "ru": "Эти растения дадут семена поздней осенью.",
+        "learn": 0
+      },
+      {
+        "eng": "The seed which is sown shall one day sprout and quicken.",
+        "ru": "Посеянные семена однажды прорастут и оживут.",
+        "learn": 0
+      },
+      {
+        "eng": "Our team is the number one seed.",
+        "ru": "Наша команда посеяна под первым номером.",
+        "learn": 0
+      },
+      {
+        "eng": "Sow the seeds one inch deep in the soil.",
+        "ru": "Посадите семена на один дюйм в землю.",
+        "learn": 0
+      },
+      {
+        "eng": "You will stop all bloom if you let the flowers go to seed.",
+        "ru": "Если позволишь цветам обсемениться, то всё цветение прекратится.",
+        "learn": 0
+      },
+      {
+        "eng": "The top seed won the tournament.",
+        "ru": "Турнир выиграл спортсмен, \"посеянный\" под первым номером.",
+        "learn": 0
+      },
+      {
+        "eng": "It's hard to believe that a tree can develop from a small seed.",
+        "ru": "Трудно поверить, что дерево может вырасти из маленького семечка.",
+        "learn": 0
+      },
+      {
+        "eng": "Canary seed exhibits a sudden upward jump of several shillings.",
+        "ru": "Зерно для канареек неожиданно подорожало на несколько шиллингов.",
+        "learn": 0
+      },
+      {
+        "eng": "Even if you plant the seed upside down, the roots will still grow down.",
+        "ru": "Даже если ты посадишь семя нижним концом вверх, корни всё равно будут расти вниз.",
+        "learn": 1
+      },
+      {
+        "eng": "Steffi Graf was seeded fifth at Wimbledon.",
+        "ru": "Штеффи Граф была посеяна под пятым номером на Уимблдоне.",
+        "learn": 0
+      },
+      {
+        "eng": "He's been top seed for the past two years.",
+        "ru": "Последние два года он является первым сеянным на турнире.",
+        "learn": 0
+      },
+      {
+        "eng": "The bird cracked the seed on a tree branch.",
+        "ru": "Птица расколола семечко, сидя на ветке дерева.",
+        "learn": 0
+      },
+      {
+        "eng": "The old central bus station is going to seed.",
+        "ru": "Старый центральный автовокзал постепенно приходит в упадок.",
+        "learn": 0
+      },
+      {
+        "eng": "his head fuzzed like a dandelion gone to seed",
+        "ru": "его голова, покрытая белым пухом, напоминавшим готовые улететь семена одуванчика",
+        "learn": 0
+      },
+      {
+        "eng": "Growing plants from seed can produce disappointing results.",
+        "ru": "Выращивание растений из семян может привести к неутешительным результатам.",
+        "learn": 1
+      },
+      {
+        "eng": "For drying grass seed, the in-sack drier had many advantages.",
+        "ru": "Что касается сушки травяных семян, внутримешочная сушка имеет много преимуществ.",
+        "learn": 0
+      },
+      {
+        "eng": "In all cases where the seed does not spring, the contractor is to re-sow the same.",
+        "ru": "В любом случае, если семена не взойдут, подрядчик обязан вновь произвести посадку.",
+        "learn": 0
+      },
+      {
+        "eng": "As soon as the capsules containing the seed are dried, the flax is ready for being rippled.",
+        "ru": "Как только оболочка семян станет сухой, лён можно чесать.",
+        "learn": 0
+      }
+    ]
+  }
 }

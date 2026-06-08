@@ -1,87 +1,173 @@
 {
-    "college": {
-        "comment": [
-            "colleague",
-            "collect",
-            "collection",
-            "collector",
-            "collectively",
-            "collective",
-            "allege",
-            "privilege"
-        ],
-        "translate": "колледж, коллегия, университет, высшее учебное заведение, корпорация, тюрьма",
-        "transcription": " |ˈkɑːlɪdʒ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Ted's a college professor.",
-            "She had three years of college.",
-            "a group of college students",
-            "I'm sure he has a college education.",
-            "He got in with a wild set at college.",
-            "I went to Mount Holyoke College.",
-            "Royal Naval College",
-            "He studied art in college.",
-            "Her college is set in the countryside.",
-            "Dad likes college ball.",
-            "She recently graduated from college.",
-            "The college is named for George Washington.",
-            "They were able to send their kids to college.",
-            "On graduation from college, she got a good job.",
-            "She dropped out of college.",
-            "She mastered French in college.",
-            "What was your major in college?",
-            "The house is situated near the college.",
-            "Trinity College, Cambridge",
-            "He studied film in college.",
-            "I started college last week.",
-            "She studied dance in college.",
-            "We met each other in college.",
-            "He just scraped into college.",
-            "She studied drama in college.",
-            "She studied music in college.",
-            "I studied history in college.",
-            "She is floundering in college.",
-            "He studied theology at college.",
-            "I worked my butt off in college."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Тед — преподаватель колледжа.",
-            "Она проучилась три года в колледже.",
-            "группа студентов колледжа",
-            "Я уверен, что у него высшее образование.",
-            "В колледже он попал в дурную компанию.",
-            "Я пошёл в колледж Маунт-Холиок.",
-            "Военно-морской колледж Великобритании",
-            "Он изучал искусство в колледже.",
-            "Её колледж находится в сельской местности.",
-            "Папа любит университетский спорт (бейсбол, футбол или баскетбол).",
-            "Она недавно закончила колледж.",
-            "Колледж назван в честь Джорджа Вашингтона.",
-            "Они смогли отправить своих детей в колледж.",
-            "Окончив колледж, она получила хорошую работу.",
-            "Она бросила колледж.",
-            "В университете она в совершенстве овладела французским языком.",
-            "Какова была ваша специальность в колледже?",
-            "Дом находится недалеко от колледжа.",
-            "Тринити-Колледж /колледж Святой Троицы/, Кембридж",
-            "Он изучал кино в колледже.",
-            "На прошлой неделе я пошёл в колледж.",
-            "Она изучала танцы в университете.",
-            "Мы встретились /познакомились/ в колледже.",
-            "Он еле-еле поступил в вуз.",
-            "Она изучала актёрское мастерство в колледже.",
-            "Она изучала музыку в колледже.",
-            "Я изучал историю в колледже.",
-            "Она испытывает трудности в колледже.",
-            "Он изучал теологию в колледже.",
-            "В колледже я работал, как вол."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "college": {
+    "comment": [
+      "colleague",
+      "collect",
+      "collection",
+      "collector",
+      "collectively",
+      "collective",
+      "allege",
+      "privilege"
+    ],
+    "translate": "колледж, коллегия, университет, высшее учебное заведение, корпорация, тюрьма",
+    "transcription": " |ˈkɑːlɪdʒ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Ted's a college professor.",
+        "ru": "Тед — преподаватель колледжа.",
+        "learn": 0
+      },
+      {
+        "eng": "She had three years of college.",
+        "ru": "Она проучилась три года в колледже.",
+        "learn": 0
+      },
+      {
+        "eng": "a group of college students",
+        "ru": "группа студентов колледжа",
+        "learn": 0
+      },
+      {
+        "eng": "I'm sure he has a college education.",
+        "ru": "Я уверен, что у него высшее образование.",
+        "learn": 0
+      },
+      {
+        "eng": "He got in with a wild set at college.",
+        "ru": "В колледже он попал в дурную компанию.",
+        "learn": 0
+      },
+      {
+        "eng": "I went to Mount Holyoke College.",
+        "ru": "Я пошёл в колледж Маунт-Холиок.",
+        "learn": 0
+      },
+      {
+        "eng": "Royal Naval College",
+        "ru": "Военно-морской колледж Великобритании",
+        "learn": 0
+      },
+      {
+        "eng": "He studied art in college.",
+        "ru": "Он изучал искусство в колледже.",
+        "learn": 0
+      },
+      {
+        "eng": "Her college is set in the countryside.",
+        "ru": "Её колледж находится в сельской местности.",
+        "learn": 1
+      },
+      {
+        "eng": "Dad likes college ball.",
+        "ru": "Папа любит университетский спорт (бейсбол, футбол или баскетбол).",
+        "learn": 0
+      },
+      {
+        "eng": "She recently graduated from college.",
+        "ru": "Она недавно закончила колледж.",
+        "learn": 0
+      },
+      {
+        "eng": "The college is named for George Washington.",
+        "ru": "Колледж назван в честь Джорджа Вашингтона.",
+        "learn": 0
+      },
+      {
+        "eng": "They were able to send their kids to college.",
+        "ru": "Они смогли отправить своих детей в колледж.",
+        "learn": 0
+      },
+      {
+        "eng": "On graduation from college, she got a good job.",
+        "ru": "Окончив колледж, она получила хорошую работу.",
+        "learn": 0
+      },
+      {
+        "eng": "She dropped out of college.",
+        "ru": "Она бросила колледж.",
+        "learn": 0
+      },
+      {
+        "eng": "She mastered French in college.",
+        "ru": "В университете она в совершенстве овладела французским языком.",
+        "learn": 0
+      },
+      {
+        "eng": "What was your major in college?",
+        "ru": "Какова была ваша специальность в колледже?",
+        "learn": 0
+      },
+      {
+        "eng": "The house is situated near the college.",
+        "ru": "Дом находится недалеко от колледжа.",
+        "learn": 0
+      },
+      {
+        "eng": "Trinity College, Cambridge",
+        "ru": "Тринити-Колледж /колледж Святой Троицы/, Кембридж",
+        "learn": 0
+      },
+      {
+        "eng": "He studied film in college.",
+        "ru": "Он изучал кино в колледже.",
+        "learn": 0
+      },
+      {
+        "eng": "I started college last week.",
+        "ru": "На прошлой неделе я пошёл в колледж.",
+        "learn": 0
+      },
+      {
+        "eng": "She studied dance in college.",
+        "ru": "Она изучала танцы в университете.",
+        "learn": 1
+      },
+      {
+        "eng": "We met each other in college.",
+        "ru": "Мы встретились /познакомились/ в колледже.",
+        "learn": 0
+      },
+      {
+        "eng": "He just scraped into college.",
+        "ru": "Он еле-еле поступил в вуз.",
+        "learn": 0
+      },
+      {
+        "eng": "She studied drama in college.",
+        "ru": "Она изучала актёрское мастерство в колледже.",
+        "learn": 0
+      },
+      {
+        "eng": "She studied music in college.",
+        "ru": "Она изучала музыку в колледже.",
+        "learn": 0
+      },
+      {
+        "eng": "I studied history in college.",
+        "ru": "Я изучал историю в колледже.",
+        "learn": 0
+      },
+      {
+        "eng": "She is floundering in college.",
+        "ru": "Она испытывает трудности в колледже.",
+        "learn": 0
+      },
+      {
+        "eng": "He studied theology at college.",
+        "ru": "Он изучал теологию в колледже.",
+        "learn": 0
+      },
+      {
+        "eng": "I worked my butt off in college.",
+        "ru": "В колледже я работал, как вол.",
+        "learn": 0
+      }
+    ]
+  }
 }

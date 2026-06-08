@@ -1,68 +1,133 @@
 {
-    "wicked": {
-        "comment": [
-            "wicket"
-        ],
-        "translate": "злой, безнравственный, грешный, озорной, нечестивцы",
-        "transcription": " |ˈwɪkɪd|",
-        "antonyms": [],
-        "mnemonic": [
-            "wicked [(ув)и'кид] злой, гадкий - Все (викид-ыши) злые и гадкие люди."
-        ],
-        "examples": [
-            "That was wicked of him.",
-            "It's wicked to lie.",
-            "That's a wicked bike!",
-            "The wicked old woman charmed the princess with magic words.",
-            "His car goes wicked fast.",
-            "It is wicked to entice a man from his family.",
-            "However wicked a man may be, he is sure to find a wickeder.",
-            "She played the part of the wicked stepmother in the play.",
-            "Carl had a wicked grin on his face as he crept up behind Ellen.",
-            "She's known for having a wicked sense of humor.",
-            "The tickets were wicked expensive.",
-            "However you look at it, it was a wicked thing to do.",
-            "The wicked magician imprecated a curse on the young princess.",
-            "She had a wicked case of food poisoning.",
-            "Tara hasn't lost her wicked sense of humour.",
-            "The lad had uttered many wicked things, which I pretermitted in my narrative.",
-            "Some religions teach that wicked people will suffer eternal punishment in hell after they die.",
-            "Batman is the Joker's main nemesis and always foils his wicked plots.",
-            "She had stood petrified before him, as if affected by some wicked spell.",
-            "under wicked fire from the enemy's guns",
-            "the disclosed purpose of their wicked plan",
-            "All his friends thought he was wicked cool.",
-            "His father told him of the wicked, rascally, shameful conduct of the bankrupt."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Это было подло с его стороны.",
-            "Лгать безнравственно.",
-            "Какой крутой мотоцикл/велик!",
-            "Зловредная старуха заколдовала принцессу с помощью волшебных слов.",
-            "Его автомобиль едет угрожающе быстро.",
-            "Нехорошо соблазнять мужчину, у которого есть семья.",
-            "Сколь бы ни был грешен человек, он всегда уверен, что найдётся другой, ещё грешнее.",
-            "Она сыграла в пьесе роль злой мачехи.",
-            "У Карла была злая усмешка на лице, когда он подкрадывался сзади к Эллен.",
-            "Она известна своим озорным чувством юмора.",
-            "Билеты были чрезвычайно дорогими.",
-            "Этот поступок был безнравственным, с какой стороны на него ни посмотри.",
-            "Злой волшебник наложил на принцессу проклятие.",
-            "У неё был серьёзный случай пищевого отравления.",
-            "Тара не потеряла своего озорного чувства юмора.",
-            "Парень произнёс много гадостей, которые я пропустил в моем рассказе.",
-            "Некоторые религии учат, что злых людей постигнет вечное наказание в аду после смерти.",
-            "Бэтмен является главным /заклятым/ врагом Джокера, и всегда срывает его злые планы.",
-            "Она стояла, как окаменевшая, перед ним, как будто на нее наложили какое-то ужасное проклятие.",
-            "под нешуточным огнём вражеских пушек",
-            "раскрытая цель их коварного плана",
-            "Все друзья считали его офигенно крутым.",
-            "Отец рассказал ему о злостном, мошенническом и бесстыдном поведении банкрота. (У. Теккерей, \"Ярмарка тщеславия\")"
-        ],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "wicked": {
+    "comment": [
+      "wicket"
+    ],
+    "translate": "злой, безнравственный, грешный, озорной, нечестивцы",
+    "transcription": " |ˈwɪkɪd|",
+    "antonyms": [],
+    "mnemonic": [
+      "wicked [(ув)и'кид] злой, гадкий - Все (викид-ыши) злые и гадкие люди."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "That was wicked of him.",
+        "ru": "Это было подло с его стороны.",
+        "learn": 1
+      },
+      {
+        "eng": "It's wicked to lie.",
+        "ru": "Лгать безнравственно.",
+        "learn": 0
+      },
+      {
+        "eng": "That's a wicked bike!",
+        "ru": "Какой крутой мотоцикл/велик!",
+        "learn": 0
+      },
+      {
+        "eng": "The wicked old woman charmed the princess with magic words.",
+        "ru": "Зловредная старуха заколдовала принцессу с помощью волшебных слов.",
+        "learn": 1
+      },
+      {
+        "eng": "His car goes wicked fast.",
+        "ru": "Его автомобиль едет угрожающе быстро.",
+        "learn": 0
+      },
+      {
+        "eng": "It is wicked to entice a man from his family.",
+        "ru": "Нехорошо соблазнять мужчину, у которого есть семья.",
+        "learn": 0
+      },
+      {
+        "eng": "However wicked a man may be, he is sure to find a wickeder.",
+        "ru": "Сколь бы ни был грешен человек, он всегда уверен, что найдётся другой, ещё грешнее.",
+        "learn": 0
+      },
+      {
+        "eng": "She played the part of the wicked stepmother in the play.",
+        "ru": "Она сыграла в пьесе роль злой мачехи.",
+        "learn": 0
+      },
+      {
+        "eng": "Carl had a wicked grin on his face as he crept up behind Ellen.",
+        "ru": "У Карла была злая усмешка на лице, когда он подкрадывался сзади к Эллен.",
+        "learn": 0
+      },
+      {
+        "eng": "She's known for having a wicked sense of humor.",
+        "ru": "Она известна своим озорным чувством юмора.",
+        "learn": 0
+      },
+      {
+        "eng": "The tickets were wicked expensive.",
+        "ru": "Билеты были чрезвычайно дорогими.",
+        "learn": 0
+      },
+      {
+        "eng": "However you look at it, it was a wicked thing to do.",
+        "ru": "Этот поступок был безнравственным, с какой стороны на него ни посмотри.",
+        "learn": 0
+      },
+      {
+        "eng": "The wicked magician imprecated a curse on the young princess.",
+        "ru": "Злой волшебник наложил на принцессу проклятие.",
+        "learn": 0
+      },
+      {
+        "eng": "She had a wicked case of food poisoning.",
+        "ru": "У неё был серьёзный случай пищевого отравления.",
+        "learn": 0
+      },
+      {
+        "eng": "Tara hasn't lost her wicked sense of humour.",
+        "ru": "Тара не потеряла своего озорного чувства юмора.",
+        "learn": 1
+      },
+      {
+        "eng": "The lad had uttered many wicked things, which I pretermitted in my narrative.",
+        "ru": "Парень произнёс много гадостей, которые я пропустил в моем рассказе.",
+        "learn": 0
+      },
+      {
+        "eng": "Some religions teach that wicked people will suffer eternal punishment in hell after they die.",
+        "ru": "Некоторые религии учат, что злых людей постигнет вечное наказание в аду после смерти.",
+        "learn": 0
+      },
+      {
+        "eng": "Batman is the Joker's main nemesis and always foils his wicked plots.",
+        "ru": "Бэтмен является главным /заклятым/ врагом Джокера, и всегда срывает его злые планы.",
+        "learn": 0
+      },
+      {
+        "eng": "She had stood petrified before him, as if affected by some wicked spell.",
+        "ru": "Она стояла, как окаменевшая, перед ним, как будто на нее наложили какое-то ужасное проклятие.",
+        "learn": 0
+      },
+      {
+        "eng": "under wicked fire from the enemy's guns",
+        "ru": "под нешуточным огнём вражеских пушек",
+        "learn": 0
+      },
+      {
+        "eng": "the disclosed purpose of their wicked plan",
+        "ru": "раскрытая цель их коварного плана",
+        "learn": 0
+      },
+      {
+        "eng": "All his friends thought he was wicked cool.",
+        "ru": "Все друзья считали его офигенно крутым.",
+        "learn": 0
+      },
+      {
+        "eng": "His father told him of the wicked, rascally, shameful conduct of the bankrupt.",
+        "ru": "Отец рассказал ему о злостном, мошенническом и бесстыдном поведении банкрота. (У. Теккерей, \"Ярмарка тщеславия\")",
+        "learn": 0
+      }
+    ]
+  }
 }

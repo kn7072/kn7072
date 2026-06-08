@@ -1,87 +1,176 @@
 {
-    "creep": {
-        "comment": [
-            "breed",
-            "breeding",
-            "tree",
-            "breeze",
-            "reef"
-        ],
-        "translate": "ползучесть, мурашки, крип, донный трал, ползать, ползти, подкрадываться, красться",
-        "transcription": " |kriːp|",
-        "antonyms": [],
-        "mnemonic": [
-            "creep [кри:п] красться, виться, подхалим - Услышав (с-крип) он вился и крался к ней как подхалим.",
-            "creep [kri: p]\n***\nЯ ПОЛЗУ, и слышен скрип. (это) creep\nСодрогание, мурашки, ползучесть.\n***\nНе надо плакать \"weep\",\nнадо ползти \"creep\",\nты ведь крутой \"steep\"."
-        ],
-        "examples": [
-            "It makes my blood creep.",
-            "Old age creeps on without being noticed.",
-            "Get lost, you little creep!",
-            "The hours crept by as we waited for morning.",
-            "Fog was creeping into the valley.",
-            "Before children learn to walk they creep on all fours.",
-            "Doubt crept up on me about his truthfulness.",
-            "I get the creeps every time he walks by.",
-            "That guy gives me the creeps.",
-            "I caught him creeping down the stairs to the kitchen.",
-            "Time is creeping on and we have done so little!",
-            "It gives you the creeps all down the small of the back.",
-            "She crept into bed next to her sleeping husband.",
-            "She crept toward the edge of the roof and looked over.",
-            "Don't creep up on me like that - you made me jump!",
-            "Reptiles crawl / creep / slither.",
-            "The weakness of extreme old age crept upon her.",
-            "Somehow the deadline crept up on me.",
-            "Sleepiness crept over the children as night came.",
-            "Fear crept over me as I stood in the empty house.",
-            "Doubt began to creep in as the man kept me talking at the door.",
-            "Don't try and flatter her — she doesn't approve of creeps.",
-            "Darkness was creeping up as the travellers left the forest.",
-            "Johann would creep into the gallery to listen to the singers.",
-            "He crept back up the stairs, trying to avoid the ones that creaked.",
-            "The worst thing about stress is how it creeps up on people.",
-            "Funny how religion is creeping into the environmental debate.",
-            "After I've been writing for two hours, mistakes start creeping into my work.",
-            "The mists crept upward chill and damp.",
-            "The price of gasoline has crept back up to three dollars a gallon."
-        ],
-        "example_translate": [
-            "У меня от этого кровь стынет.",
-            "Старость подкрадывается незаметно.",
-            "Отвали, зануда!",
-            "Время еле ползло, пока мы ждали наступления утра.",
-            "Туман окутывал долину.",
-            "До того как научиться ходить, дети ползают на четвереньках.",
-            "Я постепенно засомневался в его правдивости.",
-            "У меня мурашки по коже, каждый раз, когда он проходит мимо.",
-            "От того парня /мужика/ у меня мурашки по коже.",
-            "Я поймал его крадущимся вниз по лестнице на кухню.",
-            "Время идет, а мы так мало сделали!",
-            "Так страшно, что спина покрывается мурашками.",
-            "Она забралась в кровать поближе к своему спящему мужу.",
-            "Она подползла к краю крыши и посмотрела вниз.",
-            "Не подкрадывайся ко мне так, я аж вздрогнул(а) от неожиданности!",
-            "Пресмыкающиеся ползают.",
-            "К ней незаметно подкралась беспомощная дряхлая старость.",
-            "Так получилось, что я оказался неготовым к сроку.",
-            "Когда наступила ночь, детей сморил сон.",
-            "Страх овладел мною, когда я очутился в пустом доме.",
-            "Сомнение закралось в мою душу, так как человек говорил со мной в дверях, не приглашая в дом.",
-            "Не пытайся льстить ей — она не любит подхалимов.",
-            "Сгущалась тьма, когда путешественники вышли из леса.",
-            "Иоганн прокрадывался в галерею, чтобы послушать певцов.",
-            "Он прокрался обратно наверх по ступенькам лестницы, стараясь не наступать на те, которые скрипели.",
-            "Самое ужасное в стрессе то, как незаметно он овладевает людьми.",
-            "Забавно, как религия вмешивается в споры о загрязнении окружающей среды.",
-            "После двух часов непрерывной письма, в мою работу стали вкрадываться ошибки.",
-            "Холодные, влажные туманы поднимались вверх.",
-            "Стоимость бензина уже вновь доползла до трёх долларов за галлон."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "creep": {
+    "comment": [
+      "crept |krɛpt|,                                          crept |krɛpt|",
+      "breed",
+      "breeding",
+      "tree",
+      "breeze",
+      "reef"
+    ],
+    "translate": "ползучесть, мурашки, крип, донный трал, ползать, ползти, подкрадываться, красться",
+    "transcription": " |kriːp|",
+    "antonyms": [],
+    "mnemonic": [
+      "creep [кри:п] красться, виться, подхалим - Услышав (с-крип) он вился и крался к ней как подхалим.",
+      "creep [kri: p]\n***\nЯ ПОЛЗУ, и слышен скрип. (это) creep\nСодрогание, мурашки, ползучесть.\n***\nНе надо плакать \"weep\",\nнадо ползти \"creep\",\nты ведь крутой \"steep\"."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "It makes my blood creep.",
+        "ru": "У меня от этого кровь стынет.",
+        "learn": 0
+      },
+      {
+        "eng": "Old age creeps on without being noticed.",
+        "ru": "Старость подкрадывается незаметно.",
+        "learn": 1
+      },
+      {
+        "eng": "Get lost, you little creep!",
+        "ru": "Отвали, зануда!",
+        "learn": 0
+      },
+      {
+        "eng": "The hours crept by as we waited for morning.",
+        "ru": "Время еле ползло, пока мы ждали наступления утра.",
+        "learn": 0
+      },
+      {
+        "eng": "Fog was creeping into the valley.",
+        "ru": "Туман окутывал долину.",
+        "learn": 0
+      },
+      {
+        "eng": "Before children learn to walk they creep on all fours.",
+        "ru": "До того как научиться ходить, дети ползают на четвереньках.",
+        "learn": 1
+      },
+      {
+        "eng": "Doubt crept up on me about his truthfulness.",
+        "ru": "Я постепенно засомневался в его правдивости.",
+        "learn": 0
+      },
+      {
+        "eng": "I get the creeps every time he walks by.",
+        "ru": "У меня мурашки по коже, каждый раз, когда он проходит мимо.",
+        "learn": 0
+      },
+      {
+        "eng": "That guy gives me the creeps.",
+        "ru": "От того парня /мужика/ у меня мурашки по коже.",
+        "learn": 0
+      },
+      {
+        "eng": "I caught him creeping down the stairs to the kitchen.",
+        "ru": "Я поймал его крадущимся вниз по лестнице на кухню.",
+        "learn": 0
+      },
+      {
+        "eng": "Time is creeping on and we have done so little!",
+        "ru": "Время идет, а мы так мало сделали!",
+        "learn": 0
+      },
+      {
+        "eng": "It gives you the creeps all down the small of the back.",
+        "ru": "Так страшно, что спина покрывается мурашками.",
+        "learn": 0
+      },
+      {
+        "eng": "She crept into bed next to her sleeping husband.",
+        "ru": "Она забралась в кровать поближе к своему спящему мужу.",
+        "learn": 0
+      },
+      {
+        "eng": "She crept toward the edge of the roof and looked over.",
+        "ru": "Она подползла к краю крыши и посмотрела вниз.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't creep up on me like that - you made me jump!",
+        "ru": "Не подкрадывайся ко мне так, я аж вздрогнул(а) от неожиданности!",
+        "learn": 0
+      },
+      {
+        "eng": "Reptiles crawl / creep / slither.",
+        "ru": "Пресмыкающиеся ползают.",
+        "learn": 0
+      },
+      {
+        "eng": "The weakness of extreme old age crept upon her.",
+        "ru": "К ней незаметно подкралась беспомощная дряхлая старость.",
+        "learn": 0
+      },
+      {
+        "eng": "Somehow the deadline crept up on me.",
+        "ru": "Так получилось, что я оказался неготовым к сроку.",
+        "learn": 0
+      },
+      {
+        "eng": "Sleepiness crept over the children as night came.",
+        "ru": "Когда наступила ночь, детей сморил сон.",
+        "learn": 0
+      },
+      {
+        "eng": "Fear crept over me as I stood in the empty house.",
+        "ru": "Страх овладел мною, когда я очутился в пустом доме.",
+        "learn": 0
+      },
+      {
+        "eng": "Doubt began to creep in as the man kept me talking at the door.",
+        "ru": "Сомнение закралось в мою душу, так как человек говорил со мной в дверях, не приглашая в дом.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't try and flatter her — she doesn't approve of creeps.",
+        "ru": "Не пытайся льстить ей — она не любит подхалимов.",
+        "learn": 0
+      },
+      {
+        "eng": "Darkness was creeping up as the travellers left the forest.",
+        "ru": "Сгущалась тьма, когда путешественники вышли из леса.",
+        "learn": 0
+      },
+      {
+        "eng": "Johann would creep into the gallery to listen to the singers.",
+        "ru": "Иоганн прокрадывался в галерею, чтобы послушать певцов.",
+        "learn": 0
+      },
+      {
+        "eng": "He crept back up the stairs, trying to avoid the ones that creaked.",
+        "ru": "Он прокрался обратно наверх по ступенькам лестницы, стараясь не наступать на те, которые скрипели.",
+        "learn": 0
+      },
+      {
+        "eng": "The worst thing about stress is how it creeps up on people.",
+        "ru": "Самое ужасное в стрессе то, как незаметно он овладевает людьми.",
+        "learn": 0
+      },
+      {
+        "eng": "Funny how religion is creeping into the environmental debate.",
+        "ru": "Забавно, как религия вмешивается в споры о загрязнении окружающей среды.",
+        "learn": 0
+      },
+      {
+        "eng": "After I've been writing for two hours, mistakes start creeping into my work.",
+        "ru": "После двух часов непрерывной письма, в мою работу стали вкрадываться ошибки.",
+        "learn": 1
+      },
+      {
+        "eng": "The mists crept upward chill and damp.",
+        "ru": "Холодные, влажные туманы поднимались вверх.",
+        "learn": 0
+      },
+      {
+        "eng": "The price of gasoline has crept back up to three dollars a gallon.",
+        "ru": "Стоимость бензина уже вновь доползла до трёх долларов за галлон.",
+        "learn": 1
+      }
+    ]
+  }
 }

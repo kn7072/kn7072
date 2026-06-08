@@ -1,69 +1,136 @@
 {
-    "tolerate": {
-        "comment": [
-            "stolen",
-            "tolerance",
-            "intolerable",
-            "toll"
-        ],
-        "translate": "терпеть, допускать, быть толерантным, дозволять, выносить",
-        "transcription": " |ˈtɑːləreɪt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I can't tolerate that noise.",
-            "I can't tolerate people of his ilk.",
-            "My mother would not tolerate impudence from any of us.",
-            "These plants tolerate drought well.",
-            "I couldn't tolerate the long hours.",
-            "My mom will not tolerate profanity.",
-            "We will not tolerate racism in any shape or form.",
-            "Our teacher will not tolerate bad grammar.",
-            "We cannot tolerate smoking in the hospital.",
-            "We won't tolerate such inappropriate behavior.",
-            "The government cannot tolerate lawlessness.",
-            "...could tolerate my uncle's foibles because we loved him dearly...",
-            "I will not tolerate such vulgar language in my home.",
-            "...amazed that parents would tolerate such insolence from their teenaged children...",
-            "Faugh! I will not tolerate such ill-mannered behavior in my house!",
-            "The patient does not tolerate the anti-inflammatory drugs we gave him.",
-            "As a journalist you simply cannot tolerate inaccuracy.",
-            "We simply will not tolerate vigilante groups on our streets.",
-            "We will not tolerate such deplorable behavior in a house of worship.",
-            "The new nanny will not tolerate such monkey business from her charges.",
-            "Their parents simply wouldn't tolerate any roughhouse in the living room.",
-            "I won't tolerate incivility, and that includes text messaging while I'm speaking.",
-            "She will not tolerate any uncouth behavior, such as eating with one's mouth open."
-        ],
-        "example_translate": [
-            "Терпеть не могу этот звук. / Не выношу этот шум.",
-            "Терпеть не могу таких, как он.",
-            "Моя мама не потерпит /не терпела/ дерзости ни от кого из нас.",
-            "Эти растения, устойчивы к засухе.",
-            "Я терпеть не мог долго задерживаться на работе.",
-            "Моя мама не потерпит сквернословия.",
-            "Мы не потерпим расизма в любой форме.",
-            "Наш учитель не будет мириться с грамматическими ошибками.",
-            "Мы не можем допустить курение в больнице.",
-            "Мы не потерпим такого неподобающего поведения.",
-            "Правительство не может мириться с беззаконием.",
-            "...мы снисходительно относились к дядиным причудам, потому что нежно его любили...",
-            "Я не потерплю в своём доме таких вульгарных выражений.",
-            "...поражённый тем, что родители собираются терпеть подобную наглость от своих детей подросткового возраста...",
-            "Фу! Я не потерплю в своем доме такого грубого поведения!",
-            "Пациент не переносит противовоспалительные препараты, которые мы ему дали.",
-            "Как журналист, вы просто терпеть не можете неточность.",
-            "Мы просто не потерпим самосуд на наших улицах.",
-            "Мы не потерпим столь недостойного поведения в храме.",
-            "Новая няня не потерпит таких шалостей от своих подопечных.",
-            "Их родители просто не терпели никаких шумных игр в гостиной.",
-            "Я не потерплю грубости, в том числе написания текстовых сообщений, когда я говорю.",
-            "Она не потерпит неотёсанного поведения, например, еды с открытым ртом."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "tolerate": {
+    "comment": [
+      "stolen",
+      "tolerance",
+      "intolerable",
+      "toll"
+    ],
+    "translate": "терпеть, допускать, быть толерантным, дозволять, выносить",
+    "transcription": " |ˈtɑːləreɪt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [
+      "gerund_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I can't tolerate that noise.",
+        "ru": "Терпеть не могу этот звук. / Не выношу этот шум.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't tolerate people of his ilk.",
+        "ru": "Терпеть не могу таких, как он.",
+        "learn": 0
+      },
+      {
+        "eng": "My mother would not tolerate impudence from any of us.",
+        "ru": "Моя мама не потерпит /не терпела/ дерзости ни от кого из нас.",
+        "learn": 0
+      },
+      {
+        "eng": "These plants tolerate drought well.",
+        "ru": "Эти растения, устойчивы к засухе.",
+        "learn": 0
+      },
+      {
+        "eng": "I couldn't tolerate the long hours.",
+        "ru": "Я терпеть не мог долго задерживаться на работе.",
+        "learn": 0
+      },
+      {
+        "eng": "My mom will not tolerate profanity.",
+        "ru": "Моя мама не потерпит сквернословия.",
+        "learn": 0
+      },
+      {
+        "eng": "We will not tolerate racism in any shape or form.",
+        "ru": "Мы не потерпим расизма в любой форме.",
+        "learn": 1
+      },
+      {
+        "eng": "Our teacher will not tolerate bad grammar.",
+        "ru": "Наш учитель не будет мириться с грамматическими ошибками.",
+        "learn": 1
+      },
+      {
+        "eng": "We cannot tolerate smoking in the hospital.",
+        "ru": "Мы не можем допустить курение в больнице.",
+        "learn": 0
+      },
+      {
+        "eng": "We won't tolerate such inappropriate behavior.",
+        "ru": "Мы не потерпим такого неподобающего поведения.",
+        "learn": 1
+      },
+      {
+        "eng": "The government cannot tolerate lawlessness.",
+        "ru": "Правительство не может мириться с беззаконием.",
+        "learn": 0
+      },
+      {
+        "eng": "...could tolerate my uncle's foibles because we loved him dearly...",
+        "ru": "...мы снисходительно относились к дядиным причудам, потому что нежно его любили...",
+        "learn": 0
+      },
+      {
+        "eng": "I will not tolerate such vulgar language in my home.",
+        "ru": "Я не потерплю в своём доме таких вульгарных выражений.",
+        "learn": 0
+      },
+      {
+        "eng": "...amazed that parents would tolerate such insolence from their teenaged children...",
+        "ru": "...поражённый тем, что родители собираются терпеть подобную наглость от своих детей подросткового возраста...",
+        "learn": 0
+      },
+      {
+        "eng": "Faugh! I will not tolerate such ill-mannered behavior in my house!",
+        "ru": "Фу! Я не потерплю в своем доме такого грубого поведения!",
+        "learn": 0
+      },
+      {
+        "eng": "The patient does not tolerate the anti-inflammatory drugs we gave him.",
+        "ru": "Пациент не переносит противовоспалительные препараты, которые мы ему дали.",
+        "learn": 0
+      },
+      {
+        "eng": "As a journalist you simply cannot tolerate inaccuracy.",
+        "ru": "Как журналист, вы просто терпеть не можете неточность.",
+        "learn": 0
+      },
+      {
+        "eng": "We simply will not tolerate vigilante groups on our streets.",
+        "ru": "Мы просто не потерпим самосуд на наших улицах.",
+        "learn": 0
+      },
+      {
+        "eng": "We will not tolerate such deplorable behavior in a house of worship.",
+        "ru": "Мы не потерпим столь недостойного поведения в храме.",
+        "learn": 0
+      },
+      {
+        "eng": "The new nanny will not tolerate such monkey business from her charges.",
+        "ru": "Новая няня не потерпит таких шалостей от своих подопечных.",
+        "learn": 0
+      },
+      {
+        "eng": "Their parents simply wouldn't tolerate any roughhouse in the living room.",
+        "ru": "Их родители просто не терпели никаких шумных игр в гостиной.",
+        "learn": 0
+      },
+      {
+        "eng": "I won't tolerate incivility, and that includes text messaging while I'm speaking.",
+        "ru": "Я не потерплю грубости, в том числе написания текстовых сообщений, когда я говорю.",
+        "learn": 0
+      },
+      {
+        "eng": "She will not tolerate any uncouth behavior, such as eating with one's mouth open.",
+        "ru": "Она не потерпит неотёсанного поведения, например, еды с открытым ртом.",
+        "learn": 0
+      }
+    ]
+  }
 }

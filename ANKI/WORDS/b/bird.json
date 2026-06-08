@@ -1,82 +1,168 @@
 {
-    "bird": {
-        "comment": [
-            "third"
-        ],
-        "translate": "птица, пташка, парень, человек, бабенка, тюрьма",
-        "transcription": " |bɜːrd|",
-        "antonyms": [],
-        "mnemonic": [
-            "bird [бёд] птица - Птица (бьёт)козу."
-        ],
-        "examples": [
-            "The bird spread its wings.",
-            "The sweet voice of a bird.",
-            "He is a cagey old bird.",
-            "The bird landed in a tree.",
-            "The bird sat on the ledge.",
-            "He's a tough old bird.",
-            "The bird vanished from sight.",
-            "a bird with a barred tail",
-            "Its song completes the charm of this bird.",
-            "The bird flapped its wings",
-            "The cat was stalking a bird.",
-            "The big bird clapped its wings",
-            "The bird's underparts were white.",
-            "Can you see the bird in that tree?",
-            "The bird took fright and flew away.",
-            "He's an expert at doing bird calls.",
-            "The bird has a conspicuous red head.",
-            "The small bird was tweeting in the tree",
-            "The bird spread its wings and flew off.",
-            "A bird with a spotted back",
-            "A large bird flew overhead.",
-            "a bird with an orange breast",
-            "This bird should be caged in.",
-            "What's the bird noising yonder?",
-            "The island is rich in bird life.",
-            "He shot the bird with a catapult.",
-            "The bird's wings were fluttering.",
-            "tracks made by the feet of a bird",
-            "The bird was fluttering its wings.",
-            "an unattractive, awkward baby bird"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Птица расправила крылья.",
-            "Мелодичное пение птички.",
-            "Он - стреляный воробей. / Его на мякине не проведешь.",
-            "Птица села на дерево.",
-            "Птица сидела на подоконнике.",
-            "Он воробей стреляный.",
-            "Птица исчезла /скрылась/ из виду.",
-            "птица с полосатым хвостом",
-            "Пение этой птицы довершает её очарование.",
-            "Птица хлопала крыльями",
-            "Кошка подкрадывалась к птице.",
-            "Большая птица хлопала крыльями.",
-            "Нижняя часть этой птицы была белой.",
-            "Видишь птицу на том дереве?",
-            "Птица испугалась и улетела.",
-            "Он мастерски имитирует птичьи голоса.",
-            "У этой птицы хорошо заметная голова красного окраса.",
-            "Маленькая птичка чирикала на дереве",
-            "Птица расправила крылья и улетела.",
-            "Птица с пятнистой спинкой",
-            "Над головой пролетела крупная птица.",
-            "птица с оранжевой грудкой",
-            "Эту птицу следует держать в клетке.",
-            "Что это за птица там кричит?",
-            "Остров богат разнообразными птицами.",
-            "Он убил птичку из рогатки.",
-            "Крылья птицы трепетали.",
-            "следы, оставленные лапами какой-то птицы",
-            "Птица трепетала крыльями.",
-            "невзрачный, неуклюжий птенец"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "bird": {
+    "comment": [
+      "third"
+    ],
+    "translate": "птица, пташка, парень, человек, бабенка, тюрьма",
+    "transcription": " |bɜːrd|",
+    "antonyms": [],
+    "mnemonic": [
+      "bird [бёд] птица - Птица (бьёт)козу."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The bird spread its wings.",
+        "ru": "Птица расправила крылья.",
+        "learn": 1
+      },
+      {
+        "eng": "The sweet voice of a bird.",
+        "ru": "Мелодичное пение птички.",
+        "learn": 1
+      },
+      {
+        "eng": "He is a cagey old bird.",
+        "ru": "Он - стреляный воробей. / Его на мякине не проведешь.",
+        "learn": 0
+      },
+      {
+        "eng": "The bird landed in a tree.",
+        "ru": "Птица села на дерево.",
+        "learn": 0
+      },
+      {
+        "eng": "The bird sat on the ledge.",
+        "ru": "Птица сидела на подоконнике.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a tough old bird.",
+        "ru": "Он воробей стреляный.",
+        "learn": 0
+      },
+      {
+        "eng": "The bird vanished from sight.",
+        "ru": "Птица исчезла /скрылась/ из виду.",
+        "learn": 1
+      },
+      {
+        "eng": "a bird with a barred tail",
+        "ru": "птица с полосатым хвостом",
+        "learn": 0
+      },
+      {
+        "eng": "Its song completes the charm of this bird.",
+        "ru": "Пение этой птицы довершает её очарование.",
+        "learn": 0
+      },
+      {
+        "eng": "The bird flapped its wings",
+        "ru": "Птица хлопала крыльями",
+        "learn": 0
+      },
+      {
+        "eng": "The cat was stalking a bird.",
+        "ru": "Кошка подкрадывалась к птице.",
+        "learn": 0
+      },
+      {
+        "eng": "The big bird clapped its wings",
+        "ru": "Большая птица хлопала крыльями.",
+        "learn": 0
+      },
+      {
+        "eng": "The bird's underparts were white.",
+        "ru": "Нижняя часть этой птицы была белой.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you see the bird in that tree?",
+        "ru": "Видишь птицу на том дереве?",
+        "learn": 0
+      },
+      {
+        "eng": "The bird took fright and flew away.",
+        "ru": "Птица испугалась и улетела.",
+        "learn": 0
+      },
+      {
+        "eng": "He's an expert at doing bird calls.",
+        "ru": "Он мастерски имитирует птичьи голоса.",
+        "learn": 0
+      },
+      {
+        "eng": "The bird has a conspicuous red head.",
+        "ru": "У этой птицы хорошо заметная голова красного окраса.",
+        "learn": 0
+      },
+      {
+        "eng": "The small bird was tweeting in the tree",
+        "ru": "Маленькая птичка чирикала на дереве",
+        "learn": 0
+      },
+      {
+        "eng": "The bird spread its wings and flew off.",
+        "ru": "Птица расправила крылья и улетела.",
+        "learn": 0
+      },
+      {
+        "eng": "A bird with a spotted back",
+        "ru": "Птица с пятнистой спинкой",
+        "learn": 0
+      },
+      {
+        "eng": "A large bird flew overhead.",
+        "ru": "Над головой пролетела крупная птица.",
+        "learn": 0
+      },
+      {
+        "eng": "a bird with an orange breast",
+        "ru": "птица с оранжевой грудкой",
+        "learn": 0
+      },
+      {
+        "eng": "This bird should be caged in.",
+        "ru": "Эту птицу следует держать в клетке.",
+        "learn": 0
+      },
+      {
+        "eng": "What's the bird noising yonder?",
+        "ru": "Что это за птица там кричит?",
+        "learn": 0
+      },
+      {
+        "eng": "The island is rich in bird life.",
+        "ru": "Остров богат разнообразными птицами.",
+        "learn": 0
+      },
+      {
+        "eng": "He shot the bird with a catapult.",
+        "ru": "Он убил птичку из рогатки.",
+        "learn": 0
+      },
+      {
+        "eng": "The bird's wings were fluttering.",
+        "ru": "Крылья птицы трепетали.",
+        "learn": 0
+      },
+      {
+        "eng": "tracks made by the feet of a bird",
+        "ru": "следы, оставленные лапами какой-то птицы",
+        "learn": 0
+      },
+      {
+        "eng": "The bird was fluttering its wings.",
+        "ru": "Птица трепетала крыльями.",
+        "learn": 0
+      },
+      {
+        "eng": "an unattractive, awkward baby bird",
+        "ru": "невзрачный, неуклюжий птенец",
+        "learn": 0
+      }
+    ]
+  }
 }

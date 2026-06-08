@@ -1,88 +1,177 @@
 {
-    "put": {
-        "comment": [
-            "input",
-            "output",
-            "dispute",
-            "deputy",
-            "reputation"
-        ],
-        "translate": "класть, ставить, помещать, положенный, толкание, толчок, метание",
-        "transcription": " |pʊt|",
-        "antonyms": [],
-        "mnemonic": [
-            "put [пут] класть, дожить - (Пут-аны) кладутся и ложатся.",
-            "put [pʋt]\noutput - вывод, выпуск. выходной. выпускать\n***\nПОМЕСТИЛИ в тюрьму, значит капут! (это) put\nМетание, лёгкий удар в гольфе."
-        ],
-        "examples": [
-            "Put the book on the table!",
-            "I put her age at 33.",
-            "Put the car in the garage.",
-            "He put it mildly.",
-            "Why are you trying to put the blame on me?",
-            "He put $20 on the favorite.",
-            "She put her mind to the problem.",
-            "Can I put a question to you?",
-            "Please put your toys away.",
-            "He put the coffee on the table.",
-            "I wouldn't put it that way.",
-            "He tried to put me at my ease.",
-            "Put up your hand if you know the answer.",
-            "The question was well put.",
-            "I put the keys on the table.",
-            "He put his money into land.",
-            "It is put in black and white!",
-            "Put the book back where you found it.",
-            "It's time he was put to school.",
-            "The notice was put above the door.",
-            "I don't want to put you in danger.",
-            "Politics puts me to sleep.",
-            "He put the proposal to his wife.",
-            "He put his heavy bag down on the ground.",
-            "Who put the police onto our plan?",
-            "His new invention was put to use.",
-            "He put his phone number on a napkin.",
-            "He put her to the torture.",
-            "Where did you put the programmes?",
-            "Some companies put profit before safety."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Положите книгу на стол!",
-            "Думаю, ей тридцать три.",
-            "Поставь машину в гараж.",
-            "Он очень мягко выразился.",
-            "Почему ты пытаешься свалить вину на меня?",
-            "Он поставил двадцать долларов на фаворита.",
-            "Она начала размышлять над проблемой.",
-            "Можно задать вам вопрос?",
-            "Пожалуйста, убери игрушки.",
-            "Он поставил кофе на стол.",
-            "Я бы так не говорил. / Я бы выразился иначе.",
-            "Он попытался успокоить меня.",
-            "Кто знает ответ, пусть поднимет руку.",
-            "Вопрос был поставлен /задан, сформулирован/ правильно.",
-            "Я положил ключи на стол.",
-            "Он вложил свои деньги в земельную собственность.",
-            "Да ведь это же написано чёрным по белому!",
-            "Положи эту книгу туда, где ты её нашёл.",
-            "Пора определить его в школу.",
-            "Объявление было приклеено над дверью.",
-            "Я не хочу подвергать вас опасности.",
-            "От политики меня клонит в сон /я засыпаю/.",
-            "Он изложил это предложение своей жене.",
-            "Он поставил свою тяжёлую сумку на пол.",
-            "Кто рассказал полиции о наших планах?",
-            "Его новое изобретение было внедрено в практику.",
-            "Он написал номер своего телефона на салфетке.",
-            "Он подверг её пытке.",
-            "Куда ты положил телепрограмму?",
-            "Некоторые компании ставят прибыль выше безопасности /пренебрегают безопасностью ради прибыли/."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "u_+_Закр_сл_=_[u]"
-        ]
-    }
+  "put": {
+    "comment": [
+      "put |pʊt|,                                          put |pʊt|",
+      "input",
+      "output",
+      "dispute",
+      "deputy",
+      "reputation"
+    ],
+    "translate": "класть, ставить, помещать, положенный, толкание, толчок, метание",
+    "transcription": " |pʊt|",
+    "antonyms": [],
+    "mnemonic": [
+      "put [пут] класть, дожить - (Пут-аны) кладутся и ложатся.",
+      "put [pʋt]\noutput - вывод, выпуск. выходной. выпускать\n***\nПОМЕСТИЛИ в тюрьму, значит капут! (это) put\nМетание, лёгкий удар в гольфе."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "u_+_Закр_сл_=_[u]",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Put the book on the table!",
+        "ru": "Положите книгу на стол!",
+        "learn": 0
+      },
+      {
+        "eng": "I put her age at 33.",
+        "ru": "Думаю, ей тридцать три.",
+        "learn": 0
+      },
+      {
+        "eng": "Put the car in the garage.",
+        "ru": "Поставь машину в гараж.",
+        "learn": 1
+      },
+      {
+        "eng": "He put it mildly.",
+        "ru": "Он очень мягко выразился.",
+        "learn": 0
+      },
+      {
+        "eng": "Why are you trying to put the blame on me?",
+        "ru": "Почему ты пытаешься свалить вину на меня?",
+        "learn": 0
+      },
+      {
+        "eng": "He put $20 on the favorite.",
+        "ru": "Он поставил двадцать долларов на фаворита.",
+        "learn": 0
+      },
+      {
+        "eng": "She put her mind to the problem.",
+        "ru": "Она начала размышлять над проблемой.",
+        "learn": 0
+      },
+      {
+        "eng": "Can I put a question to you?",
+        "ru": "Можно задать вам вопрос?",
+        "learn": 1
+      },
+      {
+        "eng": "Please put your toys away.",
+        "ru": "Пожалуйста, убери игрушки.",
+        "learn": 1
+      },
+      {
+        "eng": "He put the coffee on the table.",
+        "ru": "Он поставил кофе на стол.",
+        "learn": 0
+      },
+      {
+        "eng": "I wouldn't put it that way.",
+        "ru": "Я бы так не говорил. / Я бы выразился иначе.",
+        "learn": 0
+      },
+      {
+        "eng": "He tried to put me at my ease.",
+        "ru": "Он попытался успокоить меня.",
+        "learn": 0
+      },
+      {
+        "eng": "Put up your hand if you know the answer.",
+        "ru": "Кто знает ответ, пусть поднимет руку.",
+        "learn": 0
+      },
+      {
+        "eng": "The question was well put.",
+        "ru": "Вопрос был поставлен /задан, сформулирован/ правильно.",
+        "learn": 0
+      },
+      {
+        "eng": "I put the keys on the table.",
+        "ru": "Я положил ключи на стол.",
+        "learn": 0
+      },
+      {
+        "eng": "He put his money into land.",
+        "ru": "Он вложил свои деньги в земельную собственность.",
+        "learn": 0
+      },
+      {
+        "eng": "It is put in black and white!",
+        "ru": "Да ведь это же написано чёрным по белому!",
+        "learn": 0
+      },
+      {
+        "eng": "Put the book back where you found it.",
+        "ru": "Положи эту книгу туда, где ты её нашёл.",
+        "learn": 0
+      },
+      {
+        "eng": "It's time he was put to school.",
+        "ru": "Пора определить его в школу.",
+        "learn": 0
+      },
+      {
+        "eng": "The notice was put above the door.",
+        "ru": "Объявление было приклеено над дверью.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't want to put you in danger.",
+        "ru": "Я не хочу подвергать вас опасности.",
+        "learn": 0
+      },
+      {
+        "eng": "Politics puts me to sleep.",
+        "ru": "От политики меня клонит в сон /я засыпаю/.",
+        "learn": 0
+      },
+      {
+        "eng": "He put the proposal to his wife.",
+        "ru": "Он изложил это предложение своей жене.",
+        "learn": 0
+      },
+      {
+        "eng": "He put his heavy bag down on the ground.",
+        "ru": "Он поставил свою тяжёлую сумку на пол.",
+        "learn": 0
+      },
+      {
+        "eng": "Who put the police onto our plan?",
+        "ru": "Кто рассказал полиции о наших планах?",
+        "learn": 0
+      },
+      {
+        "eng": "His new invention was put to use.",
+        "ru": "Его новое изобретение было внедрено в практику.",
+        "learn": 0
+      },
+      {
+        "eng": "He put his phone number on a napkin.",
+        "ru": "Он написал номер своего телефона на салфетке.",
+        "learn": 0
+      },
+      {
+        "eng": "He put her to the torture.",
+        "ru": "Он подверг её пытке.",
+        "learn": 0
+      },
+      {
+        "eng": "Where did you put the programmes?",
+        "ru": "Куда ты положил телепрограмму?",
+        "learn": 0
+      },
+      {
+        "eng": "Some companies put profit before safety.",
+        "ru": "Некоторые компании ставят прибыль выше безопасности /пренебрегают безопасностью ради прибыли/.",
+        "learn": 0
+      }
+    ]
+  }
 }

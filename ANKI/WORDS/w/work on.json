@@ -1,38 +1,219 @@
 {
-    "work on": {
-        "comment": [],
-        "translate": "1) Работать над чем-либо, заниматься чем-либо 2) Воздействовать на кого-либо, убеждать, обрабатывать ",
-        "transcription": "|wɜːrk ɑːn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "We need to work on improving our skills.",
-            "They are working on a new marketing strategy.",
-            "She is working on her thesis right now.",
-            "I'll work on him to change his mind.",
-            "He's been working on the boss to get a raise.",
-            "He's working on fixing the car.",
-            "Let me work on her; I think I can convince her.",
-            "I've been working on this project for months.",
-            "The salesman worked on the customer for an hour.",
-            "She worked on her parents to let her go to the party."
-        ],
-        "example_translate": [
-            "Нам нужно работать над улучшением наших навыков.",
-            "Они работают над новой маркетинговой стратегией.",
-            "Она сейчас работает над своей диссертацией.",
-            "Я поработаю над ним, чтобы он передумал.",
-            "Он воздействует на начальника, чтобы получить повышение зарплаты.",
-            "Он работает над починкой машины.",
-            "Позволь мне поработать над ней, думаю, я смогу её убедить.",
-            "Я работаю над этим проектом уже несколько месяцев.",
-            "Продавец обрабатывал клиента в течение часа.",
-            "Она воздействовала на родителей, чтобы они отпустили её на вечеринку."
-        ],
-        "synonyms": "Работать над чем-либо, заниматься чем-либо - be busy with, be engaged in, labor on, focus on\nВоздействовать на кого-либо, убеждать, обрабатывать - influence, persuade, manipulate, pressure\n",
-        "groups": [
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "work on": {
+    "comment": [],
+    "translate": "1) Работать над чем-либо, заниматься чем-либо 2) Воздействовать на кого-либо, убеждать, обрабатывать ",
+    "transcription": "|wɜːrk ɑːn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Работать над чем-либо, заниматься чем-либо - be busy with, be engaged in, labor on, focus on",
+      "Воздействовать на кого-либо, убеждать, обрабатывать - influence, persuade, manipulate, pressure"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "We need to work on improving our skills.",
+        "ru": "Нам нужно работать над улучшением наших навыков.",
+        "learn": 1
+      },
+      {
+        "eng": "They are working on a new marketing strategy.",
+        "ru": "Они работают над новой маркетинговой стратегией.",
+        "learn": 1
+      },
+      {
+        "eng": "She is working on her thesis right now.",
+        "ru": "Она сейчас работает над своей диссертацией.",
+        "learn": 1
+      },
+      {
+        "eng": "I'll work on him to change his mind.",
+        "ru": "Я поработаю над ним, чтобы он передумал.",
+        "learn": 1
+      },
+      {
+        "eng": "He's been working on the boss to get a raise.",
+        "ru": "Он воздействует на начальника, чтобы получить повышение зарплаты.",
+        "learn": 1
+      },
+      {
+        "eng": "He's working on fixing the car.",
+        "ru": "Он работает над починкой машины.",
+        "learn": 1
+      },
+      {
+        "eng": "Let me work on her, I think I can convince her.",
+        "ru": "Позволь мне поработать над ней, думаю, я смогу её убедить.",
+        "learn": 1
+      },
+      {
+        "eng": "I've been working on this project for months.",
+        "ru": "Я работаю над этим проектом уже несколько месяцев.",
+        "learn": 1
+      },
+      {
+        "eng": "The salesman worked on the customer for an hour.",
+        "ru": "Продавец обрабатывал клиента в течение часа.",
+        "learn": 1
+      },
+      {
+        "eng": "She worked on her parents to let her go to the party.",
+        "ru": "Она воздействовала на родителей, чтобы они отпустили её на вечеринку.",
+        "learn": 1
+      },
+      {
+        "eng": "I need to work on it some more.",
+        "ru": "Мне нужно поработать над этим ещё.",
+        "learn": 0
+      },
+      {
+        "eng": "You leave him to me. I'll work on him.",
+        "ru": "Оставьте его мне, я на него повлияю / я с ним поговорю.",
+        "learn": 0
+      },
+      {
+        "eng": "He foisted his work on me",
+        "ru": "Он спихнул свою работу на меня",
+        "learn": 0
+      },
+      {
+        "eng": "Work on a clean, flat surface.",
+        "ru": "Работайте на чистой, ровной поверхности.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't try to saddle your dirty work on me!",
+        "ru": "Не перекладывай на меня свою грязную работу!",
+        "learn": 0
+      },
+      {
+        "eng": "Director decided to load more work on him.",
+        "ru": "Директор решил ещё больше загрузить его работой.",
+        "learn": 0
+      },
+      {
+        "eng": "He's about to set to work on a second book.",
+        "ru": "Он вот-вот приступит к работе над второй книгой.",
+        "learn": 0
+      },
+      {
+        "eng": "I set the whole afternoon by for work on the book.",
+        "ru": "Я освободил всё время после обеда, чтобы поработать над моей книгой.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a real hardship for her to get to work on time.",
+        "ru": "Ей было действительно трудно приходить на работу вовремя.",
+        "learn": 0
+      },
+      {
+        "eng": "She wished to work on her novel in solitude.",
+        "ru": "Она хотела в одиночестве поработать над своим романом.",
+        "learn": 0
+      },
+      {
+        "eng": "Her work on the project should clinch her a promotion.",
+        "ru": "Работа над проектом должна гарантировать ей повышение.",
+        "learn": 0
+      },
+      {
+        "eng": "Does it work on mains electricity?",
+        "ru": "Это работает от электросети?",
+        "learn": 0
+      },
+      {
+        "eng": "Work on the ship progressed quickly.",
+        "ru": "Работа на корабле быстро продвигалась.",
+        "learn": 0
+      },
+      {
+        "eng": "Most of our sales staff now work on line.",
+        "ru": "Большинство наших сотрудников отдела продаж теперь работает в интернете.",
+        "learn": 0
+      },
+      {
+        "eng": "I got the job and I begin work on Monday!",
+        "ru": "Меня взяли, и в понедельник я выхожу на работу!",
+        "learn": 0
+      },
+      {
+        "eng": "Most consultants do private work on the side.",
+        "ru": "Большинство консультантов подрабатывает на стороне.",
+        "learn": 0
+      },
+      {
+        "eng": "I need to work on my delivery before I give the speech.",
+        "ru": "Прежде чем выступить с речью, мне нужно поработать над манерой публичных выступлений.",
+        "learn": 0
+      },
+      {
+        "eng": "There's no work on the land any more.",
+        "ru": "Работы в сельском хозяйстве больше нет.",
+        "learn": 0
+      },
+      {
+        "eng": "You'll have to work on your delivery.",
+        "ru": "Вам придётся поработать над манерой речи.",
+        "learn": 0
+      },
+      {
+        "eng": "The team needs some work on its offense.",
+        "ru": "Команде нужно немного поработать над атакой /над нападением/.",
+        "learn": 0
+      },
+      {
+        "eng": "You need a flat, even surface to work on.",
+        "ru": "Для работы вам понадобится плоская ровная поверхность.",
+        "learn": 0
+      },
+      {
+        "eng": "Dan found work on one of the farms nearby.",
+        "ru": "Дэн нашёл работу на одной из близлежащих ферм.",
+        "learn": 0
+      },
+      {
+        "eng": "We are resolved to finish the work on time.",
+        "ru": "Мы твёрдо решили закончить работу вовремя.",
+        "learn": 0
+      },
+      {
+        "eng": "Work on the new building is nearly complete.",
+        "ru": "Работы по строительству нового здания практически завершены.",
+        "learn": 0
+      },
+      {
+        "eng": "If you have holes in your game, work on them.",
+        "ru": "Если в игре есть пробелы, нужно над ними работать.",
+        "learn": 0
+      },
+      {
+        "eng": "Work on the project has crawled to a standstill.",
+        "ru": "Работы по проекту постепенно застопорились.",
+        "learn": 0
+      },
+      {
+        "eng": "I bust a gut trying to finish that work on time.",
+        "ru": "Я из кожи вон лезу, чтобы закончить эту работу вовремя.",
+        "learn": 0
+      },
+      {
+        "eng": "Isn't it time you settled to work on your paper?",
+        "ru": "Тебе не пора сесть за твою письменную работу?",
+        "learn": 0
+      },
+      {
+        "eng": "He demurred at my suggestion to work on Saturday.",
+        "ru": "Он не согласился с моим предложением поработать в субботу.",
+        "learn": 0
+      },
+      {
+        "eng": "The men who work on the oil rigs are a tough bunch.",
+        "ru": "Мужики, работающие на буровых — народ суровый.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,85 +1,171 @@
 {
-    "waiter": {
-        "comment": [
-            "wait",
-            "await",
-            "waitress"
-        ],
-        "translate": "официант, поднос, подавальщик, кухонный лифт, вращающийся столик для закусок",
-        "transcription": " |ˈweɪtər|",
-        "antonyms": [],
-        "mnemonic": [
-            "waiter [(ув)е'йтэ] официант - Официанты (К-увейта) чаевых не берут.",
-            "waitress ['weɪtrɪs]\nwaiter ['weɪtə]\n***\nОФИЦИАНТКА просит: \"Проветрись!\" (это) waitress\n***\nОФИЦИАНТ сказал: \"Трезвейте.\" (это) waiter\nОФИЦИАНТ носится, как ветер. (это) waiter"
-        ],
-        "examples": [
-            "Did you tip the waiter?",
-            "He took a job as a waiter.",
-            "Has the waiter taken your order?",
-            "I gave the waiter my order.",
-            "I tipped the waiter $3.00.",
-            "Remember to tip the waiter.",
-            "The waiter brought drinks on a tray.",
-            "Robert summoned the waiter for the bill.",
-            "The waiter took our orders.",
-            "Our waiter was very attentive.",
-            "The waiter brought the next dish on.",
-            "Henry called for the waiter in a loud voice.",
-            "The waiter was serving another table.",
-            "He was rude and inconsiderate to the waiter.",
-            "Robert asked the waiter to bring him the check.",
-            "The waiter was discourteous to me.",
-            "The waiter who served us was very nice.",
-            "The waiter filled our glasses with water.",
-            "The waiter served our meals quickly.",
-            "She beckoned the waiter to come over.",
-            "She hustled a free lunch from the waiter.",
-            "A waiter looked askance at Ellis's jeans.",
-            "The waiter made a show of wiping the table.",
-            "The waiter carried our drinks to the table.",
-            "Our waiter wheeled out a small dessert cart.",
-            "He slipped some money into the waiter's hand.",
-            "She was so angry she struck out at the waiter.",
-            "The waiter tried to soothe the angry customer.",
-            "They felt the waiter was being overly familiar.",
-            "He looked at the waiter with a disdainful glare."
-        ],
-        "example_translate": [
-            "Ты оставил официанту чаевые?",
-            "Он устроился на работу в качестве официанта.",
-            "Официант уже принял ваш заказ?",
-            "Я сделал официанту свой заказ.",
-            "Я дал официанту на чай $3.00.",
-            "Не забудь оставить официанту чаевые /дать официанту на чай/.",
-            "Официант разносил напитки на подносе.",
-            "Роберт потребовал у официанта счёт.",
-            "Официант принял у нас заказы.",
-            "Наш официант был очень предупредителен.",
-            "Официант подал следующее блюдо.",
-            "Генри громко потребовал официанта.",
-            "Официант обслуживал другой столик.",
-            "Он был грубым и невнимательным к официанту.",
-            "Роберт попросил официанта принести ему чек.",
-            "Этот официант был со мной невежлив.",
-            "Официант, который нас обслуживал, был очень любезен.",
-            "Официант наполнил наши бокалы водой.",
-            "Официант быстро подал нам еду.",
-            "Она жестом подозвала официанта к себе.",
-            "Она как-то вымутила у официанта бесплатный обед.",
-            "Один из официантов покосился на джинсы Эллис.",
-            "Официант сделал вид, что вытирает стол.",
-            "Официант принёс к столу наши напитки.",
-            "Наш официант выкатил небольшую десертную тележку.",
-            "Он сунул деньги в руку официанта.",
-            "Она была так сердита, что буквально напала на официанта.",
-            "Официант попытался успокоить разгневанного посетителя.",
-            "Им показалось, что официант чересчур фамильярен.",
-            "Он с презрением посмотрел на официанта."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "waiter": {
+    "comment": [
+      "wait",
+      "await",
+      "waitress"
+    ],
+    "translate": "официант, поднос, подавальщик, кухонный лифт, вращающийся столик для закусок",
+    "transcription": " |ˈweɪtər|",
+    "antonyms": [],
+    "mnemonic": [
+      "waiter [(ув)е'йтэ] официант - Официанты (К-увейта) чаевых не берут.",
+      "waitress ['weɪtrɪs]\nwaiter ['weɪtə]\n***\nОФИЦИАНТКА просит: \"Проветрись!\" (это) waitress\n***\nОФИЦИАНТ сказал: \"Трезвейте.\" (это) waiter\nОФИЦИАНТ носится, как ветер. (это) waiter"
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Did you tip the waiter?",
+        "ru": "Ты оставил официанту чаевые?",
+        "learn": 1
+      },
+      {
+        "eng": "He took a job as a waiter.",
+        "ru": "Он устроился на работу в качестве официанта.",
+        "learn": 0
+      },
+      {
+        "eng": "Has the waiter taken your order?",
+        "ru": "Официант уже принял ваш заказ?",
+        "learn": 0
+      },
+      {
+        "eng": "I gave the waiter my order.",
+        "ru": "Я сделал официанту свой заказ.",
+        "learn": 0
+      },
+      {
+        "eng": "I tipped the waiter $3.00.",
+        "ru": "Я дал официанту на чай $3.00.",
+        "learn": 0
+      },
+      {
+        "eng": "Remember to tip the waiter.",
+        "ru": "Не забудь оставить официанту чаевые /дать официанту на чай/.",
+        "learn": 1
+      },
+      {
+        "eng": "The waiter brought drinks on a tray.",
+        "ru": "Официант разносил напитки на подносе.",
+        "learn": 0
+      },
+      {
+        "eng": "Robert summoned the waiter for the bill.",
+        "ru": "Роберт потребовал у официанта счёт.",
+        "learn": 0
+      },
+      {
+        "eng": "The waiter took our orders.",
+        "ru": "Официант принял у нас заказы.",
+        "learn": 0
+      },
+      {
+        "eng": "Our waiter was very attentive.",
+        "ru": "Наш официант был очень предупредителен.",
+        "learn": 0
+      },
+      {
+        "eng": "The waiter brought the next dish on.",
+        "ru": "Официант подал следующее блюдо.",
+        "learn": 0
+      },
+      {
+        "eng": "Henry called for the waiter in a loud voice.",
+        "ru": "Генри громко потребовал официанта.",
+        "learn": 0
+      },
+      {
+        "eng": "The waiter was serving another table.",
+        "ru": "Официант обслуживал другой столик.",
+        "learn": 0
+      },
+      {
+        "eng": "He was rude and inconsiderate to the waiter.",
+        "ru": "Он был грубым и невнимательным к официанту.",
+        "learn": 0
+      },
+      {
+        "eng": "Robert asked the waiter to bring him the check.",
+        "ru": "Роберт попросил официанта принести ему чек.",
+        "learn": 0
+      },
+      {
+        "eng": "The waiter was discourteous to me.",
+        "ru": "Этот официант был со мной невежлив.",
+        "learn": 0
+      },
+      {
+        "eng": "The waiter who served us was very nice.",
+        "ru": "Официант, который нас обслуживал, был очень любезен.",
+        "learn": 0
+      },
+      {
+        "eng": "The waiter filled our glasses with water.",
+        "ru": "Официант наполнил наши бокалы водой.",
+        "learn": 0
+      },
+      {
+        "eng": "The waiter served our meals quickly.",
+        "ru": "Официант быстро подал нам еду.",
+        "learn": 0
+      },
+      {
+        "eng": "She beckoned the waiter to come over.",
+        "ru": "Она жестом подозвала официанта к себе.",
+        "learn": 0
+      },
+      {
+        "eng": "She hustled a free lunch from the waiter.",
+        "ru": "Она как-то вымутила у официанта бесплатный обед.",
+        "learn": 0
+      },
+      {
+        "eng": "A waiter looked askance at Ellis's jeans.",
+        "ru": "Один из официантов покосился на джинсы Эллис.",
+        "learn": 0
+      },
+      {
+        "eng": "The waiter made a show of wiping the table.",
+        "ru": "Официант сделал вид, что вытирает стол.",
+        "learn": 0
+      },
+      {
+        "eng": "The waiter carried our drinks to the table.",
+        "ru": "Официант принёс к столу наши напитки.",
+        "learn": 0
+      },
+      {
+        "eng": "Our waiter wheeled out a small dessert cart.",
+        "ru": "Наш официант выкатил небольшую десертную тележку.",
+        "learn": 1
+      },
+      {
+        "eng": "He slipped some money into the waiter's hand.",
+        "ru": "Он сунул деньги в руку официанта.",
+        "learn": 0
+      },
+      {
+        "eng": "She was so angry she struck out at the waiter.",
+        "ru": "Она была так сердита, что буквально напала на официанта.",
+        "learn": 0
+      },
+      {
+        "eng": "The waiter tried to soothe the angry customer.",
+        "ru": "Официант попытался успокоить разгневанного посетителя.",
+        "learn": 0
+      },
+      {
+        "eng": "They felt the waiter was being overly familiar.",
+        "ru": "Им показалось, что официант чересчур фамильярен.",
+        "learn": 0
+      },
+      {
+        "eng": "He looked at the waiter with a disdainful glare.",
+        "ru": "Он с презрением посмотрел на официанта.",
+        "learn": 0
+      }
+    ]
+  }
 }

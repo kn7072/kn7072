@@ -1,84 +1,171 @@
 {
-    "ruin": {
-        "comment": [
-            "ruined"
-        ],
-        "translate": "руина, руины, разорение, гибель, крушение, разрушать, портить, губить, разорять",
-        "transcription": " |ˈruːɪn|",
-        "antonyms": [],
-        "mnemonic": [
-            "ruin ['ru: in]\n***\nВсё РАЗРУШЕНО - полно руин. (это)\nЛучше б не было руин.",
-            "rule [ru: l]\n***\nПРАВИТЬ, значит, крутить руль. (это) ruin\nПравило, норма."
-        ],
-        "examples": [
-            "Drinking was the ruin of him.",
-            "The wall was imperfectly ruined.",
-            "The scandal ruined the mayor.",
-            "You can count on Dean to ruin any party.",
-            "The tears ruined her make-up.",
-            "It hurts me to see her ruin her life.",
-            "He was ruined by debt.",
-            "The bad weather ruined the party.",
-            "His career would be ruined.",
-            "Jerusalem is a city of ruins.",
-            "Poor customer service ruined the company's reputation.",
-            "The castle is now a ruin.",
-            "The abandoned town had gone to ruin.",
-            "The country lay ruined after the war.",
-            "Why should some stupid pimple ruin my self-confidence?",
-            "Peter let the bottle ruin his life.",
-            "Our economy precipitated into complete ruin.",
-            "I saw the mouldering ruin of an abbey overrun with ivy.",
-            "The ruin of the empire was caused by the loss of freedom and the growth of despotism.",
-            "This illness has ruined my life.",
-            "All this mud's going to ruin my shoes.",
-            "I ruined the sauce by adding too much garlic.",
-            "The incident led to the ruin of their relationship.",
-            "Only great efforts can retrieve the firm from ruin.",
-            "This behavior will ruin your chances of winning the election.",
-            "He had let the farm go to ruin.",
-            "Jefferson was ruined by the lawsuit.",
-            "the ruins of a bombed-out office block",
-            "He must face the prospect of financial ruin.",
-            "The once elegant temple lay in virtual ruin."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Пьянство погубило его.",
-            "Стена была разрушена не полностью.",
-            "Скандал погубил мэра.",
-            "Вы можете рассчитывать на Дина, если хотите испортить любую вечеринку.",
-            "Слёзы испортили ей макияж. / От слёз её макияж размазался.",
-            "Мне больно смотреть, как она ломает себе жизнь.",
-            "Долги разорили его.",
-            "Плохая погода испортила вечеринку.",
-            "Его карьере пришёл бы конец.",
-            "Иерусалим - город развалин.",
-            "Плохое обслуживание клиентов погубило репутацию компании.",
-            "Теперь на месте этого замка одни развалины.",
-            "Заброшенный город превратился в руины.",
-            "После войны страна лежала в руинах.",
-            "Почему это любой дебильный недомерок может покушаться на мое самоуважение?",
-            "Питер позволил пьянству разрушить свою жизнь.",
-            "Наша экономика устремилась к полной разрухе.",
-            "Я увидел развалины монастыря, увитые плющом.",
-            "Крушение империи было вызвано потерей свободы и усилением деспотической власти.",
-            "Эта болезнь погубила мою жизнь.",
-            "Вся эта грязь испортит мне обувь.",
-            "Я испортил соус, добавив слишком много чеснока.",
-            "Это происшествие привело к гибели их отношений.",
-            "Лишь титанические усилия могут спасти фирму от разорения.",
-            "Такое поведение разрушит ваши шансы на победу на выборах.",
-            "Он позволил ферме превратиться в руины.",
-            "Эта судебная тяжба разорила Джефферсона.",
-            "руины разрушенного бомбёжкой административного здания",
-            "Он должен осознать перспективу финансового краха.",
-            "Этот когда-то изящный храм фактически лежал в руинах."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "ui_=_[uːɪ]"
-        ]
-    }
+  "ruin": {
+    "comment": [
+      "ruined"
+    ],
+    "translate": "руина, руины, разорение, гибель, крушение, разрушать, портить, губить, разорять",
+    "transcription": " |ˈruːɪn|",
+    "antonyms": [],
+    "mnemonic": [
+      "ruin ['ru: in]\n***\nВсё РАЗРУШЕНО - полно руин. (это)\nЛучше б не было руин.",
+      "rule [ru: l]\n***\nПРАВИТЬ, значит, крутить руль. (это) ruin\nПравило, норма."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "ui_=_[uːɪ]"
+    ],
+    "examples": [
+      {
+        "eng": "Drinking was the ruin of him.",
+        "ru": "Пьянство погубило его.",
+        "learn": 0
+      },
+      {
+        "eng": "The wall was imperfectly ruined.",
+        "ru": "Стена была разрушена не полностью.",
+        "learn": 0
+      },
+      {
+        "eng": "The scandal ruined the mayor.",
+        "ru": "Скандал погубил мэра.",
+        "learn": 1
+      },
+      {
+        "eng": "You can count on Dean to ruin any party.",
+        "ru": "Вы можете рассчитывать на Дина, если хотите испортить любую вечеринку.",
+        "learn": 0
+      },
+      {
+        "eng": "The tears ruined her make-up.",
+        "ru": "Слёзы испортили ей макияж. / От слёз её макияж размазался.",
+        "learn": 0
+      },
+      {
+        "eng": "It hurts me to see her ruin her life.",
+        "ru": "Мне больно смотреть, как она ломает себе жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "He was ruined by debt.",
+        "ru": "Долги разорили его.",
+        "learn": 0
+      },
+      {
+        "eng": "The bad weather ruined the party.",
+        "ru": "Плохая погода испортила вечеринку.",
+        "learn": 0
+      },
+      {
+        "eng": "His career would be ruined.",
+        "ru": "Его карьере пришёл бы конец.",
+        "learn": 0
+      },
+      {
+        "eng": "Jerusalem is a city of ruins.",
+        "ru": "Иерусалим - город развалин.",
+        "learn": 0
+      },
+      {
+        "eng": "Poor customer service ruined the company's reputation.",
+        "ru": "Плохое обслуживание клиентов погубило репутацию компании.",
+        "learn": 0
+      },
+      {
+        "eng": "The castle is now a ruin.",
+        "ru": "Теперь на месте этого замка одни развалины.",
+        "learn": 0
+      },
+      {
+        "eng": "The abandoned town had gone to ruin.",
+        "ru": "Заброшенный город превратился в руины.",
+        "learn": 0
+      },
+      {
+        "eng": "The country lay ruined after the war.",
+        "ru": "После войны страна лежала в руинах.",
+        "learn": 0
+      },
+      {
+        "eng": "Why should some stupid pimple ruin my self-confidence?",
+        "ru": "Почему это любой дебильный недомерок может покушаться на мое самоуважение?",
+        "learn": 0
+      },
+      {
+        "eng": "Peter let the bottle ruin his life.",
+        "ru": "Питер позволил пьянству разрушить свою жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "Our economy precipitated into complete ruin.",
+        "ru": "Наша экономика устремилась к полной разрухе.",
+        "learn": 0
+      },
+      {
+        "eng": "I saw the mouldering ruin of an abbey overrun with ivy.",
+        "ru": "Я увидел развалины монастыря, увитые плющом.",
+        "learn": 0
+      },
+      {
+        "eng": "The ruin of the empire was caused by the loss of freedom and the growth of despotism.",
+        "ru": "Крушение империи было вызвано потерей свободы и усилением деспотической власти.",
+        "learn": 0
+      },
+      {
+        "eng": "This illness has ruined my life.",
+        "ru": "Эта болезнь погубила мою жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "All this mud's going to ruin my shoes.",
+        "ru": "Вся эта грязь испортит мне обувь.",
+        "learn": 0
+      },
+      {
+        "eng": "I ruined the sauce by adding too much garlic.",
+        "ru": "Я испортил соус, добавив слишком много чеснока.",
+        "learn": 1
+      },
+      {
+        "eng": "The incident led to the ruin of their relationship.",
+        "ru": "Это происшествие привело к гибели их отношений.",
+        "learn": 0
+      },
+      {
+        "eng": "Only great efforts can retrieve the firm from ruin.",
+        "ru": "Лишь титанические усилия могут спасти фирму от разорения.",
+        "learn": 0
+      },
+      {
+        "eng": "This behavior will ruin your chances of winning the election.",
+        "ru": "Такое поведение разрушит ваши шансы на победу на выборах.",
+        "learn": 0
+      },
+      {
+        "eng": "He had let the farm go to ruin.",
+        "ru": "Он позволил ферме превратиться в руины.",
+        "learn": 0
+      },
+      {
+        "eng": "Jefferson was ruined by the lawsuit.",
+        "ru": "Эта судебная тяжба разорила Джефферсона.",
+        "learn": 0
+      },
+      {
+        "eng": "the ruins of a bombed-out office block",
+        "ru": "руины разрушенного бомбёжкой административного здания",
+        "learn": 0
+      },
+      {
+        "eng": "He must face the prospect of financial ruin.",
+        "ru": "Он должен осознать перспективу финансового краха.",
+        "learn": 1
+      },
+      {
+        "eng": "The once elegant temple lay in virtual ruin.",
+        "ru": "Этот когда-то изящный храм фактически лежал в руинах.",
+        "learn": 1
+      }
+    ]
+  }
 }

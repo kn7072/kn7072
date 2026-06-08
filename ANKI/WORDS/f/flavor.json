@@ -1,81 +1,167 @@
 {
-    "flavor": {
-        "comment": [
-            "flavour",
-            "favor"
-        ],
-        "translate": "вкус, аромат, привкус, букет, особенность, сдабривать, приправлять, придавать вкус",
-        "transcription": " |ˈfleɪvər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Cocoa beans have a bitter flavor.",
-            "They sell 20 different flavors of ice cream.",
-            "I flavored the salad with herbs.",
-            "This dish has an unusual flavor.",
-            "We flavored the cookies with cinnamon.",
-            "the robust flavor of fresh-brewed coffee",
-            "The soup was watery and had no flavor.",
-            "Which flavor do you want - chocolate or vanilla?",
-            "This sauce will enhance the flavor of the meat.",
-            "the delicate flavor of the wine",
-            "The cheese has a buttery flavor.",
-            "The film has an avant-garde flavor.",
-            "Her performance adds flavor to the show.",
-            "The addition of cinnamon improved the flavor",
-            "The wine has a nutty flavor and a pleasant finish.",
-            "You can enhance the flavor of the dish by using fresh herbs.",
-            "the hot, spicy flavors of Mexican food",
-            "Jerusalem has a distinctive Middle East flavor.",
-            "The oil imparts a distinctive flavor to the sauce.",
-            "Whatever the flavor or color of your local paper, do remember that these are read avidly for local information.",
-            "The stew is full of flavor.",
-            "the delicacy of the wine's flavor",
-            "Grape is my favorite bubble gum flavor.",
-            "She added vanilla flavor to the custard.",
-            "Each flavor of quarks comes in three colors.",
-            "Add a little more vanilla, to give the flavor a boost.",
-            "In this dish, fresh herbs add lots of color and flavor.",
-            "an unsavory blend of spices that simply overwhelmed the fish's delicate flavor",
-            "Corn syrup can be used to moisten and flavor baked foods.",
-            "Critics claim the building would destroy the flavor of the neighborhood."
-        ],
-        "example_translate": [
-            "Какао-бобы имеют горький вкус.",
-            "Они продают мороженое двадцати различных вкусов.",
-            "Я приправил салат зеленью.",
-            "Это блюдо имеет необычный вкус.",
-            "Мы приправили печенье корицей.",
-            "крепкий аромат свежесваренного кофе",
-            "Суп был водянистый и безвкусный.",
-            "С каким вкусом вы хотите - шоколадным или ванильным?",
-            "Этот соус усилит /улучшит/ вкус мяса.",
-            "утончённый вкус вина",
-            "У этого сыра привкус масла.",
-            "Фильм пропитан авангардистским духом.",
-            "Её игра добавляет представлению колорита.",
-            "Добавление корицы улучшило вкус.",
-            "Данное вино имеет ореховый привкус и приятное послевкусие.",
-            "Вы можете улучшить вкус блюда, используя свежие травы / зелень.",
-            "острые, пряные ароматы мексиканской кухни",
-            "Иерусалим обладает характерным ближневосточным колоритом.",
-            "Это масло придает особый вкус соусу.",
-            "Какого бы цвета или запаха не были ваши местные газеты, помните, что их жадно прочитывают ради местных новостей.",
-            "Рагу имеет насыщенный вкус.",
-            "изысканный букет этого вина",
-            "Мой любимый вкус жевательной резинки — виноградный.",
-            "Она добавила в крем ванилин.",
-            "Каждый аромат кварков бывает трёх цветов.",
-            "Добавьте ещё немного ванили, чтобы усилить аромат.",
-            "Зелень придаёт этому блюду особый цвет и вкус.",
-            "отвратительная смесь специй, которая просто забила собой нежный вкус рыбы",
-            "Кукурузный сироп можно использовать для того, чтобы увлажнять и придавать вкус запечённой еде.",
-            "Противники строительства данного здания утверждают, что оно разрушит уникальный колорит этого района."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "flavor": {
+    "comment": [
+      "flavour",
+      "favor"
+    ],
+    "translate": "вкус, аромат, привкус, букет, особенность, сдабривать, приправлять, придавать вкус",
+    "transcription": " |ˈfleɪvər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Cocoa beans have a bitter flavor.",
+        "ru": "Какао-бобы имеют горький вкус.",
+        "learn": 1
+      },
+      {
+        "eng": "They sell 20 different flavors of ice cream.",
+        "ru": "Они продают мороженое двадцати различных вкусов.",
+        "learn": 0
+      },
+      {
+        "eng": "I flavored the salad with herbs.",
+        "ru": "Я приправил салат зеленью.",
+        "learn": 0
+      },
+      {
+        "eng": "This dish has an unusual flavor.",
+        "ru": "Это блюдо имеет необычный вкус.",
+        "learn": 1
+      },
+      {
+        "eng": "We flavored the cookies with cinnamon.",
+        "ru": "Мы приправили печенье корицей.",
+        "learn": 0
+      },
+      {
+        "eng": "the robust flavor of fresh-brewed coffee",
+        "ru": "крепкий аромат свежесваренного кофе",
+        "learn": 0
+      },
+      {
+        "eng": "The soup was watery and had no flavor.",
+        "ru": "Суп был водянистый и безвкусный.",
+        "learn": 0
+      },
+      {
+        "eng": "Which flavor do you want - chocolate or vanilla?",
+        "ru": "С каким вкусом вы хотите - шоколадным или ванильным?",
+        "learn": 1
+      },
+      {
+        "eng": "This sauce will enhance the flavor of the meat.",
+        "ru": "Этот соус усилит /улучшит/ вкус мяса.",
+        "learn": 0
+      },
+      {
+        "eng": "the delicate flavor of the wine",
+        "ru": "утончённый вкус вина",
+        "learn": 0
+      },
+      {
+        "eng": "The cheese has a buttery flavor.",
+        "ru": "У этого сыра привкус масла.",
+        "learn": 0
+      },
+      {
+        "eng": "The film has an avant-garde flavor.",
+        "ru": "Фильм пропитан авангардистским духом.",
+        "learn": 0
+      },
+      {
+        "eng": "Her performance adds flavor to the show.",
+        "ru": "Её игра добавляет представлению колорита.",
+        "learn": 0
+      },
+      {
+        "eng": "The addition of cinnamon improved the flavor",
+        "ru": "Добавление корицы улучшило вкус.",
+        "learn": 0
+      },
+      {
+        "eng": "The wine has a nutty flavor and a pleasant finish.",
+        "ru": "Данное вино имеет ореховый привкус и приятное послевкусие.",
+        "learn": 0
+      },
+      {
+        "eng": "You can enhance the flavor of the dish by using fresh herbs.",
+        "ru": "Вы можете улучшить вкус блюда, используя свежие травы / зелень.",
+        "learn": 0
+      },
+      {
+        "eng": "the hot, spicy flavors of Mexican food",
+        "ru": "острые, пряные ароматы мексиканской кухни",
+        "learn": 0
+      },
+      {
+        "eng": "Jerusalem has a distinctive Middle East flavor.",
+        "ru": "Иерусалим обладает характерным ближневосточным колоритом.",
+        "learn": 0
+      },
+      {
+        "eng": "The oil imparts a distinctive flavor to the sauce.",
+        "ru": "Это масло придает особый вкус соусу.",
+        "learn": 0
+      },
+      {
+        "eng": "Whatever the flavor or color of your local paper, do remember that these are read avidly for local information.",
+        "ru": "Какого бы цвета или запаха не были ваши местные газеты, помните, что их жадно прочитывают ради местных новостей.",
+        "learn": 0
+      },
+      {
+        "eng": "The stew is full of flavor.",
+        "ru": "Рагу имеет насыщенный вкус.",
+        "learn": 0
+      },
+      {
+        "eng": "the delicacy of the wine's flavor",
+        "ru": "изысканный букет этого вина",
+        "learn": 0
+      },
+      {
+        "eng": "Grape is my favorite bubble gum flavor.",
+        "ru": "Мой любимый вкус жевательной резинки — виноградный.",
+        "learn": 1
+      },
+      {
+        "eng": "She added vanilla flavor to the custard.",
+        "ru": "Она добавила в крем ванилин.",
+        "learn": 0
+      },
+      {
+        "eng": "Each flavor of quarks comes in three colors.",
+        "ru": "Каждый аромат кварков бывает трёх цветов.",
+        "learn": 0
+      },
+      {
+        "eng": "Add a little more vanilla, to give the flavor a boost.",
+        "ru": "Добавьте ещё немного ванили, чтобы усилить аромат.",
+        "learn": 0
+      },
+      {
+        "eng": "In this dish, fresh herbs add lots of color and flavor.",
+        "ru": "Зелень придаёт этому блюду особый цвет и вкус.",
+        "learn": 0
+      },
+      {
+        "eng": "an unsavory blend of spices that simply overwhelmed the fish's delicate flavor",
+        "ru": "отвратительная смесь специй, которая просто забила собой нежный вкус рыбы",
+        "learn": 0
+      },
+      {
+        "eng": "Corn syrup can be used to moisten and flavor baked foods.",
+        "ru": "Кукурузный сироп можно использовать для того, чтобы увлажнять и придавать вкус запечённой еде.",
+        "learn": 0
+      },
+      {
+        "eng": "Critics claim the building would destroy the flavor of the neighborhood.",
+        "ru": "Противники строительства данного здания утверждают, что оно разрушит уникальный колорит этого района.",
+        "learn": 0
+      }
+    ]
+  }
 }

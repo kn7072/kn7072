@@ -1,80 +1,157 @@
 {
-    "mild": {
-        "comment": [
-            "smile",
-            "mile",
-            "milk",
-            "mildly"
-        ],
-        "translate": "мягкий, легкий, умеренный, слабый, кроткий, тихий, неострый, незлобивый",
-        "transcription": " |maɪld|",
-        "antonyms": [],
-        "mnemonic": [
-            "mild [майлд] мягкий - (Майлд-оване) мягкие люди.",
-            "mild [maɪld]\n***\nМЯГКИЙ климат - значит май (лд). (это) mild\n***\nПрирода дикая \"wild\",\nа воздух мягкий \"mild\"."
-        ],
-        "examples": [
-            "Draw it mild!",
-            "He has a mild disposition.",
-            "His voice was soft and mild.",
-            "He has a mild manner.",
-            "He is a mild inoffensive man.",
-            "She has a mild case of the flu.",
-            "The weather this month has been mostly mild.",
-            "Mint is a mild antiseptic.",
-            "But this language is too mild for the occasion.",
-            "I saw him placable and mild.",
-            "We had an exceptionally mild winter last year.",
-            "The climate was mild and conducive to life or growth.",
-            "I heard him mutter a mild swear word.",
-            "Some mild attempts were made to green me.",
-            "He was always so meek and mild.",
-            "This shampoo is mild enough to use every day if you want.",
-            "The weather has been very mild during the past two Septembers.",
-            "He suffered a mild heart attack.",
-            "The selection of food ranged from mild to very spicy.",
-            "She may seem meek and mild but it is all an act.",
-            "The poet is imagined as a mild and amiable amorist.",
-            "He was a mild-mannered man who rarely became angry.",
-            "Many employees find it hard to take even mild criticism.",
-            "New mothers often complain of lethargy and mild depression.",
-            "One important diagnostic feature of this condition is a mild rash.",
-            "Mild cardiomegaly is common in athletes.",
-            "a surface stain on the wood that can easily be removed with a mild detergent"
-        ],
-        "example_translate": [
-            "Не преувеличивай! / Не перебарщивай! (разг.)",
-            "У него мягкий, спокойный характер.",
-            "Голос его был тихим и мягким.",
-            "У него мягкая / кроткая манера поведения.",
-            "Он мягкий, безобидный человек.",
-            "У неё слабая /неопасная/ форма гриппа.",
-            "Погода в этом месяце главным образом мягкая.",
-            "Мята является мягким антисептиком.",
-            "Но для этого случая эти слова слишком мягкие.",
-            "Я видел его в благодушном и кротком настроении.",
-            "В прошлом году у нас была исключительно мягкая зима.",
-            "Климат был мягкий и благоприятный для жизни или роста.",
-            "Я услышал, как он пробормотал мягкое ругательство.",
-            "Предпринимались какие-то невразумительные попытки обмануть меня.",
-            "Он всегда был таким кротким и смиренным.",
-            "Этот шампунь достаточно мягкий, чтобы пользоваться им, если хотите, хоть каждый день.",
-            "За последние два года погода в сентябре была очень мягкая.",
-            "Он пережил лёгкий сердечный приступ.",
-            "Еда была самая разная, от лёгкой и неострой до очень пряной.",
-            "Она может показаться кроткой и мягкой, но всё это — лишь притворство.",
-            "Поэта представляют себе автором нежных и приятных стихов о любви.",
-            "Это был кроткий человек, который редко сердился.",
-            "Многим сотрудникам трудно воспринимать даже мягкую критику.",
-            "Молодые мамы часто жалуются на вялость и легкую депрессию.",
-            "Одним из важных диагностических признаков этого заболевания является лёгкая сыпь.",
-            "У спортсменов распространена умеренная кардиомегалия.",
-            "пятно на поверхности древесины, которое легко удалить с помощью мягкого моющего средства"
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "mild": {
+    "comment": [
+      "smile",
+      "mile",
+      "milk",
+      "mildly"
+    ],
+    "translate": "мягкий, легкий, умеренный, слабый, кроткий, тихий, неострый, незлобивый",
+    "transcription": " |maɪld|",
+    "antonyms": [],
+    "mnemonic": [
+      "mild [майлд] мягкий - (Майлд-оване) мягкие люди.",
+      "mild [maɪld]\n***\nМЯГКИЙ климат - значит май (лд). (это) mild\n***\nПрирода дикая \"wild\",\nа воздух мягкий \"mild\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Draw it mild!",
+        "ru": "Не преувеличивай! / Не перебарщивай! (разг.)",
+        "learn": 0
+      },
+      {
+        "eng": "He has a mild disposition.",
+        "ru": "У него мягкий, спокойный характер.",
+        "learn": 0
+      },
+      {
+        "eng": "His voice was soft and mild.",
+        "ru": "Голос его был тихим и мягким.",
+        "learn": 1
+      },
+      {
+        "eng": "He has a mild manner.",
+        "ru": "У него мягкая / кроткая манера поведения.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a mild inoffensive man.",
+        "ru": "Он мягкий, безобидный человек.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a mild case of the flu.",
+        "ru": "У неё слабая /неопасная/ форма гриппа.",
+        "learn": 0
+      },
+      {
+        "eng": "The weather this month has been mostly mild.",
+        "ru": "Погода в этом месяце главным образом мягкая.",
+        "learn": 1
+      },
+      {
+        "eng": "Mint is a mild antiseptic.",
+        "ru": "Мята является мягким антисептиком.",
+        "learn": 0
+      },
+      {
+        "eng": "But this language is too mild for the occasion.",
+        "ru": "Но для этого случая эти слова слишком мягкие.",
+        "learn": 0
+      },
+      {
+        "eng": "I saw him placable and mild.",
+        "ru": "Я видел его в благодушном и кротком настроении.",
+        "learn": 0
+      },
+      {
+        "eng": "We had an exceptionally mild winter last year.",
+        "ru": "В прошлом году у нас была исключительно мягкая зима.",
+        "learn": 0
+      },
+      {
+        "eng": "The climate was mild and conducive to life or growth.",
+        "ru": "Климат был мягкий и благоприятный для жизни или роста.",
+        "learn": 0
+      },
+      {
+        "eng": "I heard him mutter a mild swear word.",
+        "ru": "Я услышал, как он пробормотал мягкое ругательство.",
+        "learn": 0
+      },
+      {
+        "eng": "Some mild attempts were made to green me.",
+        "ru": "Предпринимались какие-то невразумительные попытки обмануть меня.",
+        "learn": 0
+      },
+      {
+        "eng": "He was always so meek and mild.",
+        "ru": "Он всегда был таким кротким и смиренным.",
+        "learn": 0
+      },
+      {
+        "eng": "This shampoo is mild enough to use every day if you want.",
+        "ru": "Этот шампунь достаточно мягкий, чтобы пользоваться им, если хотите, хоть каждый день.",
+        "learn": 0
+      },
+      {
+        "eng": "The weather has been very mild during the past two Septembers.",
+        "ru": "За последние два года погода в сентябре была очень мягкая.",
+        "learn": 1
+      },
+      {
+        "eng": "He suffered a mild heart attack.",
+        "ru": "Он пережил лёгкий сердечный приступ.",
+        "learn": 0
+      },
+      {
+        "eng": "The selection of food ranged from mild to very spicy.",
+        "ru": "Еда была самая разная, от лёгкой и неострой до очень пряной.",
+        "learn": 0
+      },
+      {
+        "eng": "She may seem meek and mild but it is all an act.",
+        "ru": "Она может показаться кроткой и мягкой, но всё это — лишь притворство.",
+        "learn": 0
+      },
+      {
+        "eng": "The poet is imagined as a mild and amiable amorist.",
+        "ru": "Поэта представляют себе автором нежных и приятных стихов о любви.",
+        "learn": 0
+      },
+      {
+        "eng": "He was a mild-mannered man who rarely became angry.",
+        "ru": "Это был кроткий человек, который редко сердился.",
+        "learn": 0
+      },
+      {
+        "eng": "Many employees find it hard to take even mild criticism.",
+        "ru": "Многим сотрудникам трудно воспринимать даже мягкую критику.",
+        "learn": 0
+      },
+      {
+        "eng": "New mothers often complain of lethargy and mild depression.",
+        "ru": "Молодые мамы часто жалуются на вялость и легкую депрессию.",
+        "learn": 0
+      },
+      {
+        "eng": "One important diagnostic feature of this condition is a mild rash.",
+        "ru": "Одним из важных диагностических признаков этого заболевания является лёгкая сыпь.",
+        "learn": 0
+      },
+      {
+        "eng": "Mild cardiomegaly is common in athletes.",
+        "ru": "У спортсменов распространена умеренная кардиомегалия.",
+        "learn": 0
+      },
+      {
+        "eng": "a surface stain on the wood that can easily be removed with a mild detergent",
+        "ru": "пятно на поверхности древесины, которое легко удалить с помощью мягкого моющего средства",
+        "learn": 0
+      }
+    ]
+  }
 }

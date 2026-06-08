@@ -1,87 +1,176 @@
 {
-    "say": {
-        "comment": [
-            "saying",
-            "essay"
-        ],
-        "translate": "говорить, сказать, утверждать, слово, мнение, высказывание, влияние",
-        "transcription": " |seɪ|",
-        "antonyms": [],
-        "mnemonic": [
-            "say [сей] говорить, сказать - На(сей)раз говори меньше.",
-            "say [seı]\nsaying - высказывание, поговорка\n***\nРАССКАЖИ, как ловил карасей. (это) say\nРАССКАЖУ про Енисей. (это) say\nВысказывание, мнение, слово.\nПриблизительно, примерно., например."
-        ],
-        "examples": [
-            "What did you say to her?",
-            "Let's say you are right.",
-            "What does the law say?",
-            "Say, haven't I seen you before somewhere?",
-            "No sooner said than done.",
-            "'So what are your plans now?' ' I'd rather not say.'",
-            "The label says to take one tablet before meals.",
-            "How do you say your last name?",
-            "I just stopped by to say hello.",
-            "Are you saying I'm fat?",
-            "'I'm so tired,' she said.",
-            "What a silly thing to say!",
-            "Did she say what happened?",
-            "I'm not saying it's a bad idea.",
-            "The clock says noon.",
-            "Don't believe a word he says.",
-            "What do you say to going to a cinema tonight?",
-            "I cannot say 'zip wire'.",
-            "I'll say a prayer for you.",
-            "His expression said it all.",
-            "What does this painting say?",
-            "He left without saying goodbye.",
-            "What makes you say that (=why do you think that)?",
-            "'Why did she leave?' 'I don't know — she didn't say.'",
-            "Did his face say anything about how he felt?",
-            "She left without saying goodbye.",
-            "It says here they have live music.",
-            "It is said that he was a spy during the war.",
-            "He looked as if he was going to say something.",
-            "America, or, better said, the United States of America"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Что вы ей сказали?",
-            "Допустим, что вы правы.",
-            "Что говорит закон?",
-            "Скажите, не видел ли я вас где-то раньше?",
-            "Сказано — сделано. / Слушаюсь. / Сию секунду будет сделано.",
-            "— Итак, какие сейчас у вас планы? — Я бы предпочёл об этом не говорить.",
-            "На этикетке написано: принимать по одной таблетке перед едой.",
-            "Как, вы сказали, ваша фамилия?",
-            "Я просто заглянул, чтобы поздороваться.",
-            "Ты говоришь, что я толстая?",
-            "— Я так устала, — сказала она.",
-            "Что за глупости!",
-            "Она сказала, что произошло?",
-            "Я не говорю, что это плохая идея.",
-            "На часах — полдень.",
-            "Не верь ни одному его слову.",
-            "Что ты скажешь по поводу того, чтобы сходить вечером в кино?",
-            "Я не могу произнести \"zip wire\" (тарзанка, канатная дорога, зип-лайн).",
-            "Я помолюсь за вас.",
-            "У него всё было написано на лице.",
-            "Что означает /о чём говорит/ эта картина?",
-            "Он ушёл, не попрощавшись.",
-            "Почему вы говорите, что... (=, почему вы думаете, что...)?",
-            "— Почему она ушла? — Не знаю, она не сказала.",
-            "Выражение его лица говорило что-нибудь о том, что он чувствовал?",
-            "Она ушла, не попрощавшись.",
-            "Тут сказано, что у них есть живая музыка.",
-            "Говорят, что он был шпионом во время войны.",
-            "Он выглядел так, как будто он собирался что-то сказать.",
-            "Америка, или, правильнее сказать, Соединённые Штаты Америки"
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив_-_сложное_подлежащее(страдательный_залог)",
-            "Инфинитив",
-            "all_words",
-            "Сложное_подлежащее"
-        ]
-    }
+  "say": {
+    "comment": [
+      "said |sɛd|,                                          said |sɛd|",
+      "saying",
+      "essay"
+    ],
+    "translate": "говорить, сказать, утверждать, слово, мнение, высказывание, влияние",
+    "transcription": " |seɪ|",
+    "antonyms": [],
+    "mnemonic": [
+      "say [сей] говорить, сказать - На(сей)раз говори меньше.",
+      "say [seı]\nsaying - высказывание, поговорка\n***\nРАССКАЖИ, как ловил карасей. (это) say\nРАССКАЖУ про Енисей. (это) say\nВысказывание, мнение, слово.\nПриблизительно, примерно., например."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_-_сложное_подлежащее(страдательный_залог)",
+      "Инфинитив",
+      "Сложное_подлежащее",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "What did you say to her?",
+        "ru": "Что вы ей сказали?",
+        "learn": 1
+      },
+      {
+        "eng": "Let's say you are right.",
+        "ru": "Допустим, что вы правы.",
+        "learn": 0
+      },
+      {
+        "eng": "What does the law say?",
+        "ru": "Что говорит закон?",
+        "learn": 0
+      },
+      {
+        "eng": "Say, haven't I seen you before somewhere?",
+        "ru": "Скажите, не видел ли я вас где-то раньше?",
+        "learn": 0
+      },
+      {
+        "eng": "No sooner said than done.",
+        "ru": "Сказано — сделано. / Слушаюсь. / Сию секунду будет сделано.",
+        "learn": 0
+      },
+      {
+        "eng": "'So what are your plans now?' ' I'd rather not say.'",
+        "ru": "— Итак, какие сейчас у вас планы? — Я бы предпочёл об этом не говорить.",
+        "learn": 0
+      },
+      {
+        "eng": "The label says to take one tablet before meals.",
+        "ru": "На этикетке написано: принимать по одной таблетке перед едой.",
+        "learn": 1
+      },
+      {
+        "eng": "How do you say your last name?",
+        "ru": "Как, вы сказали, ваша фамилия?",
+        "learn": 0
+      },
+      {
+        "eng": "I just stopped by to say hello.",
+        "ru": "Я просто заглянул, чтобы поздороваться.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you saying I'm fat?",
+        "ru": "Ты говоришь, что я толстая?",
+        "learn": 0
+      },
+      {
+        "eng": "'I'm so tired,' she said.",
+        "ru": "— Я так устала, — сказала она.",
+        "learn": 0
+      },
+      {
+        "eng": "What a silly thing to say!",
+        "ru": "Что за глупости!",
+        "learn": 0
+      },
+      {
+        "eng": "Did she say what happened?",
+        "ru": "Она сказала, что произошло?",
+        "learn": 0
+      },
+      {
+        "eng": "I'm not saying it's a bad idea.",
+        "ru": "Я не говорю, что это плохая идея.",
+        "learn": 1
+      },
+      {
+        "eng": "The clock says noon.",
+        "ru": "На часах — полдень.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't believe a word he says.",
+        "ru": "Не верь ни одному его слову.",
+        "learn": 0
+      },
+      {
+        "eng": "What do you say to going to a cinema tonight?",
+        "ru": "Что ты скажешь по поводу того, чтобы сходить вечером в кино?",
+        "learn": 0
+      },
+      {
+        "eng": "I cannot say 'zip wire'.",
+        "ru": "Я не могу произнести \"zip wire\" (тарзанка, канатная дорога, зип-лайн).",
+        "learn": 0
+      },
+      {
+        "eng": "I'll say a prayer for you.",
+        "ru": "Я помолюсь за вас.",
+        "learn": 0
+      },
+      {
+        "eng": "His expression said it all.",
+        "ru": "У него всё было написано на лице.",
+        "learn": 0
+      },
+      {
+        "eng": "What does this painting say?",
+        "ru": "Что означает /о чём говорит/ эта картина?",
+        "learn": 0
+      },
+      {
+        "eng": "He left without saying goodbye.",
+        "ru": "Он ушёл, не попрощавшись.",
+        "learn": 0
+      },
+      {
+        "eng": "What makes you say that (=why do you think that)?",
+        "ru": "Почему вы говорите, что... (=, почему вы думаете, что...)?",
+        "learn": 0
+      },
+      {
+        "eng": "'Why did she leave?' 'I don't know — she didn't say.'",
+        "ru": "— Почему она ушла? — Не знаю, она не сказала.",
+        "learn": 0
+      },
+      {
+        "eng": "Did his face say anything about how he felt?",
+        "ru": "Выражение его лица говорило что-нибудь о том, что он чувствовал?",
+        "learn": 0
+      },
+      {
+        "eng": "She left without saying goodbye.",
+        "ru": "Она ушла, не попрощавшись.",
+        "learn": 0
+      },
+      {
+        "eng": "It says here they have live music.",
+        "ru": "Тут сказано, что у них есть живая музыка.",
+        "learn": 0
+      },
+      {
+        "eng": "It is said that he was a spy during the war.",
+        "ru": "Говорят, что он был шпионом во время войны.",
+        "learn": 0
+      },
+      {
+        "eng": "He looked as if he was going to say something.",
+        "ru": "Он выглядел так, как будто он собирался что-то сказать.",
+        "learn": 0
+      },
+      {
+        "eng": "America, or, better said, the United States of America",
+        "ru": "Америка, или, правильнее сказать, Соединённые Штаты Америки",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,95 +1,184 @@
 {
-    "know": {
-        "comment": [
-            "knowledge",
-            "known",
-            "acknowledge",
-            "unknown",
-            "well-known",
-            "now",
-            "snow"
-        ],
-        "translate": "знать, узнавать, уметь, иметь представление, испытывать, пережить, быть знакомым",
-        "transcription": " |noʊ|",
-        "antonyms": [],
-        "mnemonic": [
-            "know [но'у] знать - От слова (ноу-хау), что означает знать как."
-        ],
-        "examples": [
-            "I know this voice!",
-            "I wouldn't know!",
-            "I knew him at once.",
-            "I know Latin.",
-            "I know I won't get the job.",
-            "You know nothing of this business.",
-            "Do you know all the words to 'As Time Goes By'?",
-            "I don't know him very well.",
-            "Do you know what time it is?",
-            "I don't know her name.",
-            "I don't know where to go.",
-            "Do you know the answer?",
-            "We know this movie.",
-            "Do you know my sister?",
-            "I know it's time.",
-            "I don't know the words to that song.",
-            "I know the feeling!",
-            "Who knows the answer?",
-            "I know her from school.",
-            "I know some French.",
-            "Didn't you know that?",
-            "Those lads knew real trouble.",
-            "She knows the rules of the game.",
-            "Does your husband know how to cook?",
-            "I should have known it wouldn't be easy.",
-            "I know that I left the key on the table.",
-            "He is always in the know.",
-            "I don't know if I'll be able to come.",
-            "I didn't know how difficult it would be.",
-            "Do you know how to change a fuse?"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я узнаю этот голос! / Мне знаком этот голос!",
-            "Откуда мне знать!",
-            "Я его тотчас узнал.",
-            "Я знаю латынь /латинский язык/.",
-            "Я знаю, что не получу эту работу.",
-            "Вы ничего не смыслите в этом бизнесе.",
-            "Ты знаешь весь текст песни \"As Time Goes By\"?",
-            "Я не знаю его достаточно хорошо.",
-            "Ты знаешь, сколько сейчас времени?",
-            "Я не знаю её имени /как её зовут/.",
-            "Я не знаю, куда идти.",
-            "Вы знаете ответ?",
-            "Мы знаем этот фильм.",
-            "Вы знаете мою сестру?",
-            "Знаю, что пора.",
-            "Я не знаю слов этой песни.",
-            "Мне знакомо это чувство! / Как я тебя понимаю!",
-            "Кто знает ответ?",
-            "Я знаю её со школы.",
-            "Я немного знаю французский.",
-            "Разве вы этого не знали?",
-            "Эти ребята испытали настоящие лишения.",
-            "Она знает правила игры.",
-            "Ваш муж умеет готовить?",
-            "Мне следовало знать, что это будет непросто.",
-            "Я точно помню, что оставил ключ на столе.",
-            "Он всегда в курсе событий.",
-            "Не знаю, смогу ли я прийти.",
-            "Я не понимал, насколько это сложно.",
-            "Вы знаете, как заменить предохранитель?"
-        ],
-        "stars": 3,
-        "groups": [
-            "ow_=_[ou]",
-            "Сложное_дополнение",
-            "Сложное_подлежащее",
-            "Инфинитив",
-            "all_words",
-            "Инфинитив_-_сложное_дополнение(умственной_деятельность,_обозначающая_знание,_мнение_или_предположение)",
-            "Инфинитив_-_сложное_подлежащее(страдательный_залог)",
-            "kn-_=_[n]"
-        ]
-    }
+  "know": {
+    "comment": [
+      "knew |nuː|,                                          known |noʊn|",
+      "knowledge",
+      "known",
+      "acknowledge",
+      "unknown",
+      "well-known",
+      "now",
+      "snow"
+    ],
+    "translate": "знать, узнавать, уметь, иметь представление, испытывать, пережить, быть знакомым",
+    "transcription": " |noʊ|",
+    "antonyms": [],
+    "mnemonic": [
+      "know [но'у] знать - От слова (ноу-хау), что означает знать как."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ow_=_[ou]",
+      "Сложное_дополнение",
+      "Сложное_подлежащее",
+      "Инфинитив",
+      "Инфинитив_-_сложное_дополнение(умственной_деятельность,_обозначающая_знание,_мнение_или_предположение)",
+      "Инфинитив_-_сложное_подлежащее(страдательный_залог)",
+      "kn-_=_[n]",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I know this voice!",
+        "ru": "Я узнаю этот голос! / Мне знаком этот голос!",
+        "learn": 0
+      },
+      {
+        "eng": "I wouldn't know!",
+        "ru": "Откуда мне знать!",
+        "learn": 0
+      },
+      {
+        "eng": "I knew him at once.",
+        "ru": "Я его тотчас узнал.",
+        "learn": 0
+      },
+      {
+        "eng": "I know Latin.",
+        "ru": "Я знаю латынь /латинский язык/.",
+        "learn": 0
+      },
+      {
+        "eng": "I know I won't get the job.",
+        "ru": "Я знаю, что не получу эту работу.",
+        "learn": 0
+      },
+      {
+        "eng": "You know nothing of this business.",
+        "ru": "Вы ничего не смыслите в этом бизнесе.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you know all the words to 'As Time Goes By'?",
+        "ru": "Ты знаешь весь текст песни \"As Time Goes By\"?",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know him very well.",
+        "ru": "Я не знаю его достаточно хорошо.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you know what time it is?",
+        "ru": "Ты знаешь, сколько сейчас времени?",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know her name.",
+        "ru": "Я не знаю её имени /как её зовут/.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know where to go.",
+        "ru": "Я не знаю, куда идти.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you know the answer?",
+        "ru": "Вы знаете ответ?",
+        "learn": 0
+      },
+      {
+        "eng": "We know this movie.",
+        "ru": "Мы знаем этот фильм.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you know my sister?",
+        "ru": "Вы знаете мою сестру?",
+        "learn": 0
+      },
+      {
+        "eng": "I know it's time.",
+        "ru": "Знаю, что пора.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know the words to that song.",
+        "ru": "Я не знаю слов этой песни.",
+        "learn": 0
+      },
+      {
+        "eng": "I know the feeling!",
+        "ru": "Мне знакомо это чувство! / Как я тебя понимаю!",
+        "learn": 0
+      },
+      {
+        "eng": "Who knows the answer?",
+        "ru": "Кто знает ответ?",
+        "learn": 0
+      },
+      {
+        "eng": "I know her from school.",
+        "ru": "Я знаю её со школы.",
+        "learn": 1
+      },
+      {
+        "eng": "I know some French.",
+        "ru": "Я немного знаю французский.",
+        "learn": 0
+      },
+      {
+        "eng": "Didn't you know that?",
+        "ru": "Разве вы этого не знали?",
+        "learn": 0
+      },
+      {
+        "eng": "Those lads knew real trouble.",
+        "ru": "Эти ребята испытали настоящие лишения.",
+        "learn": 0
+      },
+      {
+        "eng": "She knows the rules of the game.",
+        "ru": "Она знает правила игры.",
+        "learn": 0
+      },
+      {
+        "eng": "Does your husband know how to cook?",
+        "ru": "Ваш муж умеет готовить?",
+        "learn": 0
+      },
+      {
+        "eng": "I should have known it wouldn't be easy.",
+        "ru": "Мне следовало знать, что это будет непросто.",
+        "learn": 0
+      },
+      {
+        "eng": "I know that I left the key on the table.",
+        "ru": "Я точно помню, что оставил ключ на столе.",
+        "learn": 0
+      },
+      {
+        "eng": "He is always in the know.",
+        "ru": "Он всегда в курсе событий.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know if I'll be able to come.",
+        "ru": "Не знаю, смогу ли я прийти.",
+        "learn": 0
+      },
+      {
+        "eng": "I didn't know how difficult it would be.",
+        "ru": "Я не понимал, насколько это сложно.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you know how to change a fuse?",
+        "ru": "Вы знаете, как заменить предохранитель?",
+        "learn": 1
+      }
+    ]
+  }
 }

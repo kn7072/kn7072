@@ -1,80 +1,166 @@
 {
-    "virus": {
-        "comment": [
-            "virgin"
-        ],
-        "translate": "вирус, зараза, яд, вирусный",
-        "transcription": " |ˈvaɪrəs|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Your computer has been infected with a virus.",
-            "The virus has infected many people.",
-            "It's a highly contagious virus.",
-            "The illness is caused by a virus.",
-            "The virus will disable your computer.",
-            "The virus is transferred by mosquitoes.",
-            "There are many different strains of flu virus.",
-            "Screen the blood for the HIV virus.",
-            "The virus of jealousy is latent in everyone.",
-            "The virus is highly transmissible to humans.",
-            "The virus is active even at low temperatures.",
-            "an attenuated form of the polio virus",
-            "The virus rendered the computer useless.",
-            "What is the main transmitter of the virus?",
-            "The software checks your hard drive for viruses.",
-            "If your computer is unprotected, you're likely to get a virus.",
-            "All the computers in the office were infected by the same virus.",
-            "The virus has infected many computers.",
-            "The virus can infect susceptible individuals.",
-            "The virus debilitates the body's immune system.",
-            "A single drop of blood can transport the virus.",
-            "The virus remains latent in the body for many years.",
-            "Bigotry is a virus that must not be allowed to spread.",
-            "One catches the virus and they pass it on to the rest.",
-            "The most common means of virus infection is via email.",
-            "Hackers are said to have started a new computer virus.",
-            "He received blood that was infected with the AIDS virus.",
-            "The virus can only be transmitted through intimate contact.",
-            "It might be prudent to get a virus detector for the network.",
-            "The official number of people carrying the AIDS virus is low."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ваш компьютер заражён вирусом.",
-            "Вирус заразил многих людей.",
-            "Это чрезвычайно заразный вирус.",
-            "Причиной этой болезни является вирус.",
-            "Этот вирус выведет ваш компьютер из строя.",
-            "Этот вирус переносится комарами.",
-            "Существует множество различных штаммов вируса гриппа.",
-            "Проверьте кровь на наличие ВИЧ.",
-            "Вирус зависти таится в каждом человеке.",
-            "Данный вирус очень легко передаётся человеку",
-            "Данный вирус активен даже при низких температурах.",
-            "ослабленная форма вируса полиомиелита",
-            "Вирус сделал компьютер бесполезным.",
-            "Что является основным переносчиком вируса?",
-            "Программа проверяет ваш жёсткий диск на наличие вирусов.",
-            "Если ваш компьютер не защищён, то, вероятно, вы поймаете какой-нибудь вирус.",
-            "Все компьютеры в офисе были заражены одним и тем же вирусом.",
-            "Этот вирус заразил многие компьютеры.",
-            "Вирус может инфицировать индивидуально восприимчивых к нему людей.",
-            "Вирус истощает иммунную систему организма.",
-            "Вирус может переноситься одной-единственной каплей крови.",
-            "Вирус остается латентным в организме в течение многих лет.",
-            "Фанатизм подобен вирусу, распространение которого нельзя допускать.",
-            "Кто-то подхватывает вирус, и они передают его дальше всем остальным.",
-            "Заражение вирусом чаще всего происходит через электронную почту.",
-            "Говорят, что хакеры запустили новый компьютерный вирус.",
-            "Ему перелили кровь, которая была инфицирована вирусом СПИДа.",
-            "Вирус может передаваться только половым путём.",
-            "Возможно, было бы разумно купить для сети антивирус.",
-            "По официальным данным, число людей, являющихся носителями вируса СПИД, невелико."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "virus": {
+    "comment": [
+      "virgin"
+    ],
+    "translate": "вирус, зараза, яд, вирусный",
+    "transcription": " |ˈvaɪrəs|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Your computer has been infected with a virus.",
+        "ru": "Ваш компьютер заражён вирусом.",
+        "learn": 1
+      },
+      {
+        "eng": "The virus has infected many people.",
+        "ru": "Вирус заразил многих людей.",
+        "learn": 1
+      },
+      {
+        "eng": "It's a highly contagious virus.",
+        "ru": "Это чрезвычайно заразный вирус.",
+        "learn": 0
+      },
+      {
+        "eng": "The illness is caused by a virus.",
+        "ru": "Причиной этой болезни является вирус.",
+        "learn": 1
+      },
+      {
+        "eng": "The virus will disable your computer.",
+        "ru": "Этот вирус выведет ваш компьютер из строя.",
+        "learn": 0
+      },
+      {
+        "eng": "The virus is transferred by mosquitoes.",
+        "ru": "Этот вирус переносится комарами.",
+        "learn": 0
+      },
+      {
+        "eng": "There are many different strains of flu virus.",
+        "ru": "Существует множество различных штаммов вируса гриппа.",
+        "learn": 0
+      },
+      {
+        "eng": "Screen the blood for the HIV virus.",
+        "ru": "Проверьте кровь на наличие ВИЧ.",
+        "learn": 0
+      },
+      {
+        "eng": "The virus of jealousy is latent in everyone.",
+        "ru": "Вирус зависти таится в каждом человеке.",
+        "learn": 0
+      },
+      {
+        "eng": "The virus is highly transmissible to humans.",
+        "ru": "Данный вирус очень легко передаётся человеку",
+        "learn": 0
+      },
+      {
+        "eng": "The virus is active even at low temperatures.",
+        "ru": "Данный вирус активен даже при низких температурах.",
+        "learn": 0
+      },
+      {
+        "eng": "an attenuated form of the polio virus",
+        "ru": "ослабленная форма вируса полиомиелита",
+        "learn": 0
+      },
+      {
+        "eng": "The virus rendered the computer useless.",
+        "ru": "Вирус сделал компьютер бесполезным.",
+        "learn": 0
+      },
+      {
+        "eng": "What is the main transmitter of the virus?",
+        "ru": "Что является основным переносчиком вируса?",
+        "learn": 0
+      },
+      {
+        "eng": "The software checks your hard drive for viruses.",
+        "ru": "Программа проверяет ваш жёсткий диск на наличие вирусов.",
+        "learn": 0
+      },
+      {
+        "eng": "If your computer is unprotected, you're likely to get a virus.",
+        "ru": "Если ваш компьютер не защищён, то, вероятно, вы поймаете какой-нибудь вирус.",
+        "learn": 0
+      },
+      {
+        "eng": "All the computers in the office were infected by the same virus.",
+        "ru": "Все компьютеры в офисе были заражены одним и тем же вирусом.",
+        "learn": 0
+      },
+      {
+        "eng": "The virus has infected many computers.",
+        "ru": "Этот вирус заразил многие компьютеры.",
+        "learn": 0
+      },
+      {
+        "eng": "The virus can infect susceptible individuals.",
+        "ru": "Вирус может инфицировать индивидуально восприимчивых к нему людей.",
+        "learn": 0
+      },
+      {
+        "eng": "The virus debilitates the body's immune system.",
+        "ru": "Вирус истощает иммунную систему организма.",
+        "learn": 0
+      },
+      {
+        "eng": "A single drop of blood can transport the virus.",
+        "ru": "Вирус может переноситься одной-единственной каплей крови.",
+        "learn": 0
+      },
+      {
+        "eng": "The virus remains latent in the body for many years.",
+        "ru": "Вирус остается латентным в организме в течение многих лет.",
+        "learn": 0
+      },
+      {
+        "eng": "Bigotry is a virus that must not be allowed to spread.",
+        "ru": "Фанатизм подобен вирусу, распространение которого нельзя допускать.",
+        "learn": 0
+      },
+      {
+        "eng": "One catches the virus and they pass it on to the rest.",
+        "ru": "Кто-то подхватывает вирус, и они передают его дальше всем остальным.",
+        "learn": 0
+      },
+      {
+        "eng": "The most common means of virus infection is via email.",
+        "ru": "Заражение вирусом чаще всего происходит через электронную почту.",
+        "learn": 0
+      },
+      {
+        "eng": "Hackers are said to have started a new computer virus.",
+        "ru": "Говорят, что хакеры запустили новый компьютерный вирус.",
+        "learn": 0
+      },
+      {
+        "eng": "He received blood that was infected with the AIDS virus.",
+        "ru": "Ему перелили кровь, которая была инфицирована вирусом СПИДа.",
+        "learn": 0
+      },
+      {
+        "eng": "The virus can only be transmitted through intimate contact.",
+        "ru": "Вирус может передаваться только половым путём.",
+        "learn": 0
+      },
+      {
+        "eng": "It might be prudent to get a virus detector for the network.",
+        "ru": "Возможно, было бы разумно купить для сети антивирус.",
+        "learn": 1
+      },
+      {
+        "eng": "The official number of people carrying the AIDS virus is low.",
+        "ru": "По официальным данным, число людей, являющихся носителями вируса СПИД, невелико.",
+        "learn": 0
+      }
+    ]
+  }
 }

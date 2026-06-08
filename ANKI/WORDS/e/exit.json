@@ -1,79 +1,159 @@
 {
-    "exit": {
-        "comment": [
-            "complexity",
-            "excite"
-        ],
-        "translate": "выход, выезд, уход, смерть, выходить, уходить, умереть, выходной",
-        "transcription": " |ˈeksɪt|",
-        "antonyms": [],
-        "mnemonic": [
-            "exit [и'ксит] выход - (И к сит-у) чайному выход продырявь."
-        ],
-        "examples": [
-            "Press F3 to exit.",
-            "The crowd swept me to the exit.",
-            "Take the second exit after the bridge.",
-            "Press the ESCAPE key to exit.",
-            "Use the emergency exit in case of fire.",
-            "Save your work and then exit the program.",
-            "He exited the courtroom in a fury.",
-            "When he saw the sign, he exited the freeway.",
-            "I exited through a side window.",
-            "Two men were blocking her exit.",
-            "Hannah slipped out through a side exit.",
-            "Exit Caliban.",
-            "We made a dash for the exit.",
-            "We made for the nearest exit.",
-            "Take the next exit for Lynchburg.",
-            "There are 12 exits in the building.",
-            "The team exited the tournament early.",
-            "France's early exit from the World Cup",
-            "The exit is right this way. Just follow me.",
-            "They managed to dodge the reporters by leaving through the back exit.",
-            "The police were moving through the crowd telling people to move toward the exit.",
-            "Exit the highway, take a right off the ramp, then continue down the street until you get to the first traffic light.",
-            "Press control and F2 to exit.",
-            "The crowd was milling outside the exit.",
-            "Exit Hamlet, bearing the body of Polonius.",
-            "She gulped down her drink and made a hasty exit.",
-            "The way to shut the machine down is to type EXIT.",
-            "There is gas, food, and lodging at the next highway exit."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Для выхода (из программы) нажмите клавишу F3.",
-            "Толпа вынесла меня к выходу.",
-            "Тебе нужен второй выезд после моста.",
-            "Для выхода из программы нажмите клавишу Esc.",
-            "В случае возникновения пожара, воспользуйтесь запасным выходом.",
-            "Сохраните сделанные вами изменения и выйдите из программы.",
-            "Он покинул зал суда в ярости.",
-            "Увидев знак, он свернул с автострады.",
-            "Я вышел через боковое окно.",
-            "Выход ей загораживали двое мужчин.",
-            "Ханна выскользнула наружу через боковой выход.",
-            "Калибан уходит.",
-            "Мы бросились к выходу.",
-            "Мы направились к ближайшему выходу.",
-            "Сверните на следующем повороте на Линчберг.",
-            "В здании двенадцать выходов.",
-            "Команда рано вылетела из турнира.",
-            "ранний вылет Франции с чемпионата мира",
-            "Выход — это прямо вот сюда. Просто идите за мной.",
-            "Им удалось ускользнуть от журналистов через задний выход.",
-            "Полицейские пробирались сквозь толпу, приказывая людям двигаться к выходу.",
-            "Съезжайте с шоссе, поверните направо от съезда, а затем продолжайте движение по этой улице, пока не доедете до первого светофора.",
-            "Для выхода нажмите Ctrl + F2.",
-            "У выхода бродила толпа.",
-            "Выход Гамлета, несущего тело Полония.",
-            "Она разом проглотила свой напиток и поспешно вышла.",
-            "Чтобы остановить машину, нужно ввести EXIT.",
-            "На следующем выезде с шоссе есть бензин, продукты и ночлег."
-        ],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "exit": {
+    "comment": [
+      "complexity",
+      "excite"
+    ],
+    "translate": "выход, выезд, уход, смерть, выходить, уходить, умереть, выходной",
+    "transcription": " |ˈeksɪt|",
+    "antonyms": [],
+    "mnemonic": [
+      "exit [и'ксит] выход - (И к сит-у) чайному выход продырявь."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Press F3 to exit.",
+        "ru": "Для выхода (из программы) нажмите клавишу F3.",
+        "learn": 0
+      },
+      {
+        "eng": "The crowd swept me to the exit.",
+        "ru": "Толпа вынесла меня к выходу.",
+        "learn": 1
+      },
+      {
+        "eng": "Take the second exit after the bridge.",
+        "ru": "Тебе нужен второй выезд после моста.",
+        "learn": 0
+      },
+      {
+        "eng": "Press the ESCAPE key to exit.",
+        "ru": "Для выхода из программы нажмите клавишу Esc.",
+        "learn": 0
+      },
+      {
+        "eng": "Use the emergency exit in case of fire.",
+        "ru": "В случае возникновения пожара, воспользуйтесь запасным выходом.",
+        "learn": 1
+      },
+      {
+        "eng": "Save your work and then exit the program.",
+        "ru": "Сохраните сделанные вами изменения и выйдите из программы.",
+        "learn": 0
+      },
+      {
+        "eng": "He exited the courtroom in a fury.",
+        "ru": "Он покинул зал суда в ярости.",
+        "learn": 1
+      },
+      {
+        "eng": "When he saw the sign, he exited the freeway.",
+        "ru": "Увидев знак, он свернул с автострады.",
+        "learn": 1
+      },
+      {
+        "eng": "I exited through a side window.",
+        "ru": "Я вышел через боковое окно.",
+        "learn": 0
+      },
+      {
+        "eng": "Two men were blocking her exit.",
+        "ru": "Выход ей загораживали двое мужчин.",
+        "learn": 0
+      },
+      {
+        "eng": "Hannah slipped out through a side exit.",
+        "ru": "Ханна выскользнула наружу через боковой выход.",
+        "learn": 0
+      },
+      {
+        "eng": "Exit Caliban.",
+        "ru": "Калибан уходит.",
+        "learn": 0
+      },
+      {
+        "eng": "We made a dash for the exit.",
+        "ru": "Мы бросились к выходу.",
+        "learn": 0
+      },
+      {
+        "eng": "We made for the nearest exit.",
+        "ru": "Мы направились к ближайшему выходу.",
+        "learn": 0
+      },
+      {
+        "eng": "Take the next exit for Lynchburg.",
+        "ru": "Сверните на следующем повороте на Линчберг.",
+        "learn": 0
+      },
+      {
+        "eng": "There are 12 exits in the building.",
+        "ru": "В здании двенадцать выходов.",
+        "learn": 0
+      },
+      {
+        "eng": "The team exited the tournament early.",
+        "ru": "Команда рано вылетела из турнира.",
+        "learn": 0
+      },
+      {
+        "eng": "France's early exit from the World Cup",
+        "ru": "ранний вылет Франции с чемпионата мира",
+        "learn": 0
+      },
+      {
+        "eng": "The exit is right this way. Just follow me.",
+        "ru": "Выход — это прямо вот сюда. Просто идите за мной.",
+        "learn": 0
+      },
+      {
+        "eng": "They managed to dodge the reporters by leaving through the back exit.",
+        "ru": "Им удалось ускользнуть от журналистов через задний выход.",
+        "learn": 0
+      },
+      {
+        "eng": "The police were moving through the crowd telling people to move toward the exit.",
+        "ru": "Полицейские пробирались сквозь толпу, приказывая людям двигаться к выходу.",
+        "learn": 0
+      },
+      {
+        "eng": "Exit the highway, take a right off the ramp, then continue down the street until you get to the first traffic light.",
+        "ru": "Съезжайте с шоссе, поверните направо от съезда, а затем продолжайте движение по этой улице, пока не доедете до первого светофора.",
+        "learn": 0
+      },
+      {
+        "eng": "Press control and F2 to exit.",
+        "ru": "Для выхода нажмите Ctrl + F2.",
+        "learn": 0
+      },
+      {
+        "eng": "The crowd was milling outside the exit.",
+        "ru": "У выхода бродила толпа.",
+        "learn": 0
+      },
+      {
+        "eng": "Exit Hamlet, bearing the body of Polonius.",
+        "ru": "Выход Гамлета, несущего тело Полония.",
+        "learn": 0
+      },
+      {
+        "eng": "She gulped down her drink and made a hasty exit.",
+        "ru": "Она разом проглотила свой напиток и поспешно вышла.",
+        "learn": 0
+      },
+      {
+        "eng": "The way to shut the machine down is to type EXIT.",
+        "ru": "Чтобы остановить машину, нужно ввести EXIT.",
+        "learn": 0
+      },
+      {
+        "eng": "There is gas, food, and lodging at the next highway exit.",
+        "ru": "На следующем выезде с шоссе есть бензин, продукты и ночлег.",
+        "learn": 0
+      }
+    ]
+  }
 }

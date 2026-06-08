@@ -1,87 +1,173 @@
 {
-    "remove": {
-        "comment": [
-            "ceremony",
-            "removal",
-            "remote",
-            "move",
-            "movement"
-        ],
-        "translate": "удаление, шаг, ступень, перевод, колено, удалять, снимать, убирать, устранять",
-        "transcription": " |rɪˈmuːv|",
-        "antonyms": [],
-        "mnemonic": [
-            "remove [риму':в] убрать, снять, удалить, устранять - (Рим ув-ажает) тех, кто убирает за собой.",
-            "move [mu:v]\nremove [rɪ'mu:v] - удалять, убирать, выносить\n***\nБуду ДВИГАТЬСЯ к нему (в). (это) move\nДвижение, перемена места.\n***\nНичего не доказывай \"prove\",\nпросто вперёд двигайся \"move\"."
-        ],
-        "examples": [
-            "He was removed from office.",
-            "Remove the pan from the heat.",
-            "He removed his hat and gloves.",
-            "Remove the knife from the child!",
-            "The bed was removed downstairs.",
-            "He has not got his remove.",
-            "After 10 minutes remove the cake from the oven.",
-            "Remove the mushrooms and set them aside.",
-            "Remove the trash from the front yard.",
-            "Wash them in cold water to remove all traces of sand.",
-            "What's a good way to remove stains from a silk dress?",
-            "I can't remove this photograph, it's been stuck down.",
-            "Please remove your slimy boots before coming into the house.",
-            "This soap will remove the most obstinate stains.",
-            "He removed his children to the countryside.",
-            "Remove the dough from the bowl and put it on a floured surface.",
-            "We have to remove personalities of doubtful ethics.",
-            "Remove the cores, and bake the apples for 40 minutes.",
-            "Remove and discard the stems.",
-            "Cut open the chillies and remove the seeds.",
-            "Ideally, this will remove all problems.",
-            "Doctors had to operate to remove the bullet.",
-            "My tonsils were removed when I was five years old.",
-            "Boil the chicken and use a spoon to remove any scum that floats to the surface.",
-            "Blanch the peaches and remove the skins.",
-            "Congress could remove the President from office.",
-            "Strain the custard to remove lumps.",
-            "He underwent surgery to remove a blood clot.",
-            "Mr. Green was removed from the chairmanship of the club.",
-            "remove a case to another court"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он был отстранён от должности.",
-            "Снимите кастрюлю с огня.",
-            "Он снял шляпу и перчатки.",
-            "Отбери нож у ребёнка!",
-            "Кровать переставили вниз, на первый этаж.",
-            "Он остался на второй год.",
-            "Через десять минут достаньте пирог из духовки.",
-            "Выньте грибы и отложите их в сторону.",
-            "Убери мусор со двора.",
-            "Вымойте их в холодной воде, чтобы удалить все следы песка.",
-            "Какой есть хороший способ для удаления пятен с шёлкового платья?",
-            "Я не могу убрать эту фотографию, её приклеили.",
-            "Сними, пожалуйста, свои грязные ботинки, перед тем, как заходить в дом.",
-            "Это мыло отстирает самые трудновыводимые пятна.",
-            "Он перевёз своих детей в деревню.",
-            "Выложите тесто из миски на посыпанную мукой поверхность.",
-            "Мы должны избавиться от людей с сомнительными моральными качествами.",
-            "Удалив сердцевину, запекайте яблоки в течение сорока минут.",
-            "Стебли удалить и выбросить.",
-            "Разрежьте стручки перца чили и удалите семена.",
-            "В идеале, это позволит устранить все проблемы.",
-            "Врачам пришлось провести операцию, чтобы извлечь пулю.",
-            "Миндалины мне удалили в пять лет.",
-            "Сварите курицу, а всю всплывшую на поверхность пену удалите ложкой.",
-            "Персики бланшируйте и очистите от кожицы.",
-            "Конгресс мог отстранить президента от должности.",
-            "Процедите крем, чтобы удалить комки.",
-            "Он перенёс операцию по удалению тромба.",
-            "Мистера Грина освободили от обязанностей председателя клуба.",
-            "передавать дело в другой суд"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "remove": {
+    "comment": [
+      "ceremony",
+      "removal",
+      "remote",
+      "move",
+      "movement"
+    ],
+    "translate": "удаление, шаг, ступень, перевод, колено, удалять, снимать, убирать, устранять",
+    "transcription": " |rɪˈmuːv|",
+    "antonyms": [],
+    "mnemonic": [
+      "remove [риму':в] убрать, снять, удалить, устранять - (Рим ув-ажает) тех, кто убирает за собой.",
+      "move [mu:v]\nremove [rɪ'mu:v] - удалять, убирать, выносить\n***\nБуду ДВИГАТЬСЯ к нему (в). (это) move\nДвижение, перемена места.\n***\nНичего не доказывай \"prove\",\nпросто вперёд двигайся \"move\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He was removed from office.",
+        "ru": "Он был отстранён от должности.",
+        "learn": 0
+      },
+      {
+        "eng": "Remove the pan from the heat.",
+        "ru": "Снимите кастрюлю с огня.",
+        "learn": 0
+      },
+      {
+        "eng": "He removed his hat and gloves.",
+        "ru": "Он снял шляпу и перчатки.",
+        "learn": 0
+      },
+      {
+        "eng": "Remove the knife from the child!",
+        "ru": "Отбери нож у ребёнка!",
+        "learn": 0
+      },
+      {
+        "eng": "The bed was removed downstairs.",
+        "ru": "Кровать переставили вниз, на первый этаж.",
+        "learn": 0
+      },
+      {
+        "eng": "He has not got his remove.",
+        "ru": "Он остался на второй год.",
+        "learn": 0
+      },
+      {
+        "eng": "After 10 minutes remove the cake from the oven.",
+        "ru": "Через десять минут достаньте пирог из духовки.",
+        "learn": 0
+      },
+      {
+        "eng": "Remove the mushrooms and set them aside.",
+        "ru": "Выньте грибы и отложите их в сторону.",
+        "learn": 0
+      },
+      {
+        "eng": "Remove the trash from the front yard.",
+        "ru": "Убери мусор со двора.",
+        "learn": 1
+      },
+      {
+        "eng": "Wash them in cold water to remove all traces of sand.",
+        "ru": "Вымойте их в холодной воде, чтобы удалить все следы песка.",
+        "learn": 0
+      },
+      {
+        "eng": "What's a good way to remove stains from a silk dress?",
+        "ru": "Какой есть хороший способ для удаления пятен с шёлкового платья?",
+        "learn": 0
+      },
+      {
+        "eng": "I can't remove this photograph, it's been stuck down.",
+        "ru": "Я не могу убрать эту фотографию, её приклеили.",
+        "learn": 0
+      },
+      {
+        "eng": "Please remove your slimy boots before coming into the house.",
+        "ru": "Сними, пожалуйста, свои грязные ботинки, перед тем, как заходить в дом.",
+        "learn": 0
+      },
+      {
+        "eng": "This soap will remove the most obstinate stains.",
+        "ru": "Это мыло отстирает самые трудновыводимые пятна.",
+        "learn": 0
+      },
+      {
+        "eng": "He removed his children to the countryside.",
+        "ru": "Он перевёз своих детей в деревню.",
+        "learn": 0
+      },
+      {
+        "eng": "Remove the dough from the bowl and put it on a floured surface.",
+        "ru": "Выложите тесто из миски на посыпанную мукой поверхность.",
+        "learn": 0
+      },
+      {
+        "eng": "We have to remove personalities of doubtful ethics.",
+        "ru": "Мы должны избавиться от людей с сомнительными моральными качествами.",
+        "learn": 0
+      },
+      {
+        "eng": "Remove the cores, and bake the apples for 40 minutes.",
+        "ru": "Удалив сердцевину, запекайте яблоки в течение сорока минут.",
+        "learn": 0
+      },
+      {
+        "eng": "Remove and discard the stems.",
+        "ru": "Стебли удалить и выбросить.",
+        "learn": 1
+      },
+      {
+        "eng": "Cut open the chillies and remove the seeds.",
+        "ru": "Разрежьте стручки перца чили и удалите семена.",
+        "learn": 0
+      },
+      {
+        "eng": "Ideally, this will remove all problems.",
+        "ru": "В идеале, это позволит устранить все проблемы.",
+        "learn": 1
+      },
+      {
+        "eng": "Doctors had to operate to remove the bullet.",
+        "ru": "Врачам пришлось провести операцию, чтобы извлечь пулю.",
+        "learn": 0
+      },
+      {
+        "eng": "My tonsils were removed when I was five years old.",
+        "ru": "Миндалины мне удалили в пять лет.",
+        "learn": 0
+      },
+      {
+        "eng": "Boil the chicken and use a spoon to remove any scum that floats to the surface.",
+        "ru": "Сварите курицу, а всю всплывшую на поверхность пену удалите ложкой.",
+        "learn": 0
+      },
+      {
+        "eng": "Blanch the peaches and remove the skins.",
+        "ru": "Персики бланшируйте и очистите от кожицы.",
+        "learn": 0
+      },
+      {
+        "eng": "Congress could remove the President from office.",
+        "ru": "Конгресс мог отстранить президента от должности.",
+        "learn": 0
+      },
+      {
+        "eng": "Strain the custard to remove lumps.",
+        "ru": "Процедите крем, чтобы удалить комки.",
+        "learn": 0
+      },
+      {
+        "eng": "He underwent surgery to remove a blood clot.",
+        "ru": "Он перенёс операцию по удалению тромба.",
+        "learn": 0
+      },
+      {
+        "eng": "Mr. Green was removed from the chairmanship of the club.",
+        "ru": "Мистера Грина освободили от обязанностей председателя клуба.",
+        "learn": 0
+      },
+      {
+        "eng": "remove a case to another court",
+        "ru": "передавать дело в другой суд",
+        "learn": 0
+      }
+    ]
+  }
 }

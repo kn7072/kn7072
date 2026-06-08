@@ -1,88 +1,177 @@
 {
-    "grow": {
-        "comment": [
-            "growth",
-            "growl",
-            "grown-up",
-            "growing"
-        ],
-        "translate": "расти, выращивать, увеличиваться, возрасти, становиться, вырастать, отрастить",
-        "transcription": " |ɡroʊ|",
-        "antonyms": [],
-        "mnemonic": [
-            "grow [гро'у] расти - От слова (у-гроу-пняться*) (‘Укрупняться).",
-            "grow [grəʋ] - вырастать\nrow [rəʋ] - ряд, подряд. ставить в ряд\ngrowth [grəuθ] - рост\n***\nВЫРОСЛИ до больших бугров. (это) grow\n***\nМы уже выросли \"grow\",\nвстали мы в ряд \"row\"."
-        ],
-        "examples": [
-            "Rice grows in water.",
-            "We grew to love them.",
-            "This place grows on me.",
-            "The sound was growing louder.",
-            "You need time to grow into a new job.",
-            "Habit grows on a person.",
-            "Her tastes have changed as she's grown older.",
-            "The small shop grew into a large firm.",
-            "Kids grow up fast these days.",
-            "He decided to grow a mustache.",
-            "Oaks grow from acorns.",
-            "The flowers grow in profusion.",
-            "These plants grow well in shade.",
-            "I've decided to grow my hair long.",
-            "The economy has grown steadily.",
-            "Carrots grow well in light soils.",
-            "We grow wheat here.",
-            "Ill weeds grow apace.",
-            "The city is growing rapidly.",
-            "He grows vegetables in his backyard.",
-            "Some fish can grow to a length of four feet.",
-            "The old tree has grown into the wall of the building.",
-            "Wrinkles deepen as we grow old.",
-            "The tree trunks had grown together.",
-            "Support for Mr Thompson is growing.",
-            "Corn doesn't grow here.",
-            "Great oaks grow from little acorns.",
-            "He grew to be somewhat ashamed of himself.",
-            "Cornflowers grow in profusion in the fields.",
-            "Apples grow in profusion in this valley."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Рис растёт в воде.",
-            "Со временем мы их полюбили.",
-            "Это место мне всё больше нравится.",
-            "Звук становился всё громче.",
-            "Тебе нужно время, чтобы свыкнуться с новой работой.",
-            "Привычка овладевает человеком.",
-            "С возрастом её вкусы изменились.",
-            "Маленький магазинчик разросся в большую фирму.",
-            "В наше время дети растут быстро.",
-            "Он решил отрастить усы.",
-            "Дубы вырастают из желудей.",
-            "Эти цветы растут в изобилии.",
-            "Эти растения хорошо растут в тени.",
-            "Я решила отрастить длинные волосы.",
-            "Экономика стабильно растёт.",
-            "Морковь хорошо растёт на лёгких почвах.",
-            "Мы выращиваем здесь пшеницу.",
-            "Дурная трава в рост идёт. / Сорная трава хорошо растёт. (посл.)",
-            "Город стремительно растёт.",
-            "На заднем дворе он выращивает овощи.",
-            "Некоторые рыбы могут вырастать до четырёх футов в длину.",
-            "Это старое дерево вросло в стену здания.",
-            "Мы стареем, и морщины становятся глубже.",
-            "Стволы этих деревьев срослись вместе.",
-            "Поддержка мистера Томпсона растёт.",
-            "Кукуруза здесь не растёт.",
-            "Большое вырастает из малого. / Большие дубы вырастают из маленьких желудей. (поговорка)",
-            "Он даже стал как-то стыдиться себя.",
-            "В этих полях в изобилии растут васильки.",
-            "В этой долине в изобилии растут яблоки."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ow_=_[ou]",
-            "Глаголы_состояния_и_чувственного_восприятия"
-        ]
-    }
+  "grow": {
+    "comment": [
+      "grew |ɡruː|,                                          grown |ɡroʊn|",
+      "growth",
+      "growl",
+      "grown-up",
+      "growing"
+    ],
+    "translate": "расти, выращивать, увеличиваться, возрасти, становиться, вырастать, отрастить",
+    "transcription": " |ɡroʊ|",
+    "antonyms": [],
+    "mnemonic": [
+      "grow [гро'у] расти - От слова (у-гроу-пняться*) (‘Укрупняться).",
+      "grow [grəʋ] - вырастать\nrow [rəʋ] - ряд, подряд. ставить в ряд\ngrowth [grəuθ] - рост\n***\nВЫРОСЛИ до больших бугров. (это) grow\n***\nМы уже выросли \"grow\",\nвстали мы в ряд \"row\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ow_=_[ou]",
+      "Глаголы_состояния_и_чувственного_восприятия",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Rice grows in water.",
+        "ru": "Рис растёт в воде.",
+        "learn": 1
+      },
+      {
+        "eng": "We grew to love them.",
+        "ru": "Со временем мы их полюбили.",
+        "learn": 0
+      },
+      {
+        "eng": "This place grows on me.",
+        "ru": "Это место мне всё больше нравится.",
+        "learn": 0
+      },
+      {
+        "eng": "The sound was growing louder.",
+        "ru": "Звук становился всё громче.",
+        "learn": 0
+      },
+      {
+        "eng": "You need time to grow into a new job.",
+        "ru": "Тебе нужно время, чтобы свыкнуться с новой работой.",
+        "learn": 0
+      },
+      {
+        "eng": "Habit grows on a person.",
+        "ru": "Привычка овладевает человеком.",
+        "learn": 0
+      },
+      {
+        "eng": "Her tastes have changed as she's grown older.",
+        "ru": "С возрастом её вкусы изменились.",
+        "learn": 0
+      },
+      {
+        "eng": "The small shop grew into a large firm.",
+        "ru": "Маленький магазинчик разросся в большую фирму.",
+        "learn": 0
+      },
+      {
+        "eng": "Kids grow up fast these days.",
+        "ru": "В наше время дети растут быстро.",
+        "learn": 0
+      },
+      {
+        "eng": "He decided to grow a mustache.",
+        "ru": "Он решил отрастить усы.",
+        "learn": 0
+      },
+      {
+        "eng": "Oaks grow from acorns.",
+        "ru": "Дубы вырастают из желудей.",
+        "learn": 0
+      },
+      {
+        "eng": "The flowers grow in profusion.",
+        "ru": "Эти цветы растут в изобилии.",
+        "learn": 0
+      },
+      {
+        "eng": "These plants grow well in shade.",
+        "ru": "Эти растения хорошо растут в тени.",
+        "learn": 0
+      },
+      {
+        "eng": "I've decided to grow my hair long.",
+        "ru": "Я решила отрастить длинные волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "The economy has grown steadily.",
+        "ru": "Экономика стабильно растёт.",
+        "learn": 1
+      },
+      {
+        "eng": "Carrots grow well in light soils.",
+        "ru": "Морковь хорошо растёт на лёгких почвах.",
+        "learn": 0
+      },
+      {
+        "eng": "We grow wheat here.",
+        "ru": "Мы выращиваем здесь пшеницу.",
+        "learn": 0
+      },
+      {
+        "eng": "Ill weeds grow apace.",
+        "ru": "Дурная трава в рост идёт. / Сорная трава хорошо растёт. (посл.)",
+        "learn": 0
+      },
+      {
+        "eng": "The city is growing rapidly.",
+        "ru": "Город стремительно растёт.",
+        "learn": 1
+      },
+      {
+        "eng": "He grows vegetables in his backyard.",
+        "ru": "На заднем дворе он выращивает овощи.",
+        "learn": 0
+      },
+      {
+        "eng": "Some fish can grow to a length of four feet.",
+        "ru": "Некоторые рыбы могут вырастать до четырёх футов в длину.",
+        "learn": 0
+      },
+      {
+        "eng": "The old tree has grown into the wall of the building.",
+        "ru": "Это старое дерево вросло в стену здания.",
+        "learn": 0
+      },
+      {
+        "eng": "Wrinkles deepen as we grow old.",
+        "ru": "Мы стареем, и морщины становятся глубже.",
+        "learn": 0
+      },
+      {
+        "eng": "The tree trunks had grown together.",
+        "ru": "Стволы этих деревьев срослись вместе.",
+        "learn": 0
+      },
+      {
+        "eng": "Support for Mr Thompson is growing.",
+        "ru": "Поддержка мистера Томпсона растёт.",
+        "learn": 0
+      },
+      {
+        "eng": "Corn doesn't grow here.",
+        "ru": "Кукуруза здесь не растёт.",
+        "learn": 0
+      },
+      {
+        "eng": "Great oaks grow from little acorns.",
+        "ru": "Большое вырастает из малого. / Большие дубы вырастают из маленьких желудей. (поговорка)",
+        "learn": 0
+      },
+      {
+        "eng": "He grew to be somewhat ashamed of himself.",
+        "ru": "Он даже стал как-то стыдиться себя.",
+        "learn": 0
+      },
+      {
+        "eng": "Cornflowers grow in profusion in the fields.",
+        "ru": "В этих полях в изобилии растут васильки.",
+        "learn": 0
+      },
+      {
+        "eng": "Apples grow in profusion in this valley.",
+        "ru": "В этой долине в изобилии растут яблоки.",
+        "learn": 0
+      }
+    ]
+  }
 }

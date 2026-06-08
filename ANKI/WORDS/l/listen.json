@@ -1,85 +1,172 @@
 {
-    "listen": {
-        "comment": [
-            "list",
-            "listener"
-        ],
-        "translate": "слушать, слушаться, прослушать, прислушиваться, заслушивать",
-        "transcription": " |ˈlɪsn|",
-        "antonyms": [],
-        "mnemonic": [
-            "listen [лисен] слушать - (Лысин-а) из-за слушания шума возникла.",
-            "listen [lɪs (ə) n]\n***\nСЛУШАЛ журавль обман лисий. (это) listen\nСЛУШАЛ обман \"лисин\". (это) listen\nСЛУШАЛ шорох листьев. (это) listen"
-        ],
-        "examples": [
-            "Don't listen to him!",
-            "Let me have a listen too.",
-            "Listen to this!",
-            "Listen to me good!",
-            "Listen, I beg of you.",
-            "Honestly! Do you ever listen?",
-            "How does it listen to you?",
-            "Listen, I want you to come with me.",
-            "Hey everybody, listen up!",
-            "He was in no humour to listen.",
-            "Be quiet. I want to listen to the news.",
-            "I wish I'd listened to Dad.",
-            "You must all listen carefully.",
-            "I listened as hard as I could, but I couldn't hear a word of what he said over all that noise.",
-            "Listen up, people!",
-            "Listen to me, my girl!",
-            "Stop mucking about and listen!",
-            "She refused to listen to reason (=accept sensible advice).",
-            "Just shut up and listen.",
-            "They don't really listen to us.",
-            "Have a listen to this new album!",
-            "We sat around listening to music.",
-            "OK, wise guy, shut up and listen!",
-            "Now, you listen to me, young man!",
-            "It's fascinating to listen to her.",
-            "It doesn't listen reasonable to me.",
-            "Now you listen to me, sonny.",
-            "I'll listen to the tape tomorrow.",
-            "Listen to the voice of the people.",
-            "Listen squirt, I'm in charge here."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Не слушайте его!",
-            "Дай мне тоже послушать.",
-            "Только послушай!",
-            "Слушай меня хорошенько!",
-            "Послушай, прошу тебя.",
-            "Честно! Ты вообще слушаешь?",
-            "Что ты на это скажешь?",
-            "Слушай, я хочу, чтобы ты пошёл со мной.",
-            "Слушайте все! / Внимание всем!",
-            "Он был не в настроении слушать.",
-            "Тихо! Я хочу послушать новости.",
-            "Зря я папу не послушалась.",
-            "Все вы должны слушать внимательно.",
-            "Я прислушивался, как мог, но из-за этого шума не услышал ни слова из того, что он сказал.",
-            "Внимание, народ! / Послушайте, люди!",
-            "Послушай меня, девочка моя!",
-            "Перестань валять дурака и слушай!",
-            "Она отказалась прислушаться к голосу разума (т.е. внять разумному совету).",
-            "Просто заткнись и слушай.",
-            "Они не особо к нам прислушиваются.",
-            "Послушай этот новый альбом!",
-            "Мы сидели и слушали музыку.",
-            "Ну ладно умник, заткнись и слушай!",
-            "А теперь послушайте меня, молодой человек!",
-            "Её очень приятно слушать.",
-            "Мне это не кажется разумным.",
-            "А теперь послушай меня, сынок.",
-            "Я послушаю эту кассету завтра.",
-            "Прислушайтесь к голосу народа.",
-            "Слушай выскочка, я тут главный!"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "t_=_[_]"
-        ]
-    }
+  "listen": {
+    "comment": [
+      "list",
+      "listener"
+    ],
+    "translate": "слушать, слушаться, прослушать, прислушиваться, заслушивать",
+    "transcription": " |ˈlɪsn|",
+    "antonyms": [],
+    "mnemonic": [
+      "listen [лисен] слушать - (Лысин-а) из-за слушания шума возникла.",
+      "listen [lɪs (ə) n]\n***\nСЛУШАЛ журавль обман лисий. (это) listen\nСЛУШАЛ обман \"лисин\". (это) listen\nСЛУШАЛ шорох листьев. (это) listen"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "t_=_[_]"
+    ],
+    "examples": [
+      {
+        "eng": "Don't listen to him!",
+        "ru": "Не слушайте его!",
+        "learn": 0
+      },
+      {
+        "eng": "Let me have a listen too.",
+        "ru": "Дай мне тоже послушать.",
+        "learn": 0
+      },
+      {
+        "eng": "Listen to this!",
+        "ru": "Только послушай!",
+        "learn": 0
+      },
+      {
+        "eng": "Listen to me good!",
+        "ru": "Слушай меня хорошенько!",
+        "learn": 0
+      },
+      {
+        "eng": "Listen, I beg of you.",
+        "ru": "Послушай, прошу тебя.",
+        "learn": 0
+      },
+      {
+        "eng": "Honestly! Do you ever listen?",
+        "ru": "Честно! Ты вообще слушаешь?",
+        "learn": 0
+      },
+      {
+        "eng": "How does it listen to you?",
+        "ru": "Что ты на это скажешь?",
+        "learn": 0
+      },
+      {
+        "eng": "Listen, I want you to come with me.",
+        "ru": "Слушай, я хочу, чтобы ты пошёл со мной.",
+        "learn": 0
+      },
+      {
+        "eng": "Hey everybody, listen up!",
+        "ru": "Слушайте все! / Внимание всем!",
+        "learn": 0
+      },
+      {
+        "eng": "He was in no humour to listen.",
+        "ru": "Он был не в настроении слушать.",
+        "learn": 0
+      },
+      {
+        "eng": "Be quiet. I want to listen to the news.",
+        "ru": "Тихо! Я хочу послушать новости.",
+        "learn": 0
+      },
+      {
+        "eng": "I wish I'd listened to Dad.",
+        "ru": "Зря я папу не послушалась.",
+        "learn": 0
+      },
+      {
+        "eng": "You must all listen carefully.",
+        "ru": "Все вы должны слушать внимательно.",
+        "learn": 0
+      },
+      {
+        "eng": "I listened as hard as I could, but I couldn't hear a word of what he said over all that noise.",
+        "ru": "Я прислушивался, как мог, но из-за этого шума не услышал ни слова из того, что он сказал.",
+        "learn": 0
+      },
+      {
+        "eng": "Listen up, people!",
+        "ru": "Внимание, народ! / Послушайте, люди!",
+        "learn": 0
+      },
+      {
+        "eng": "Listen to me, my girl!",
+        "ru": "Послушай меня, девочка моя!",
+        "learn": 0
+      },
+      {
+        "eng": "Stop mucking about and listen!",
+        "ru": "Перестань валять дурака и слушай!",
+        "learn": 0
+      },
+      {
+        "eng": "She refused to listen to reason (=accept sensible advice).",
+        "ru": "Она отказалась прислушаться к голосу разума (т.е. внять разумному совету).",
+        "learn": 0
+      },
+      {
+        "eng": "Just shut up and listen.",
+        "ru": "Просто заткнись и слушай.",
+        "learn": 1
+      },
+      {
+        "eng": "They don't really listen to us.",
+        "ru": "Они не особо к нам прислушиваются.",
+        "learn": 0
+      },
+      {
+        "eng": "Have a listen to this new album!",
+        "ru": "Послушай этот новый альбом!",
+        "learn": 0
+      },
+      {
+        "eng": "We sat around listening to music.",
+        "ru": "Мы сидели и слушали музыку.",
+        "learn": 0
+      },
+      {
+        "eng": "OK, wise guy, shut up and listen!",
+        "ru": "Ну ладно умник, заткнись и слушай!",
+        "learn": 0
+      },
+      {
+        "eng": "Now, you listen to me, young man!",
+        "ru": "А теперь послушайте меня, молодой человек!",
+        "learn": 0
+      },
+      {
+        "eng": "It's fascinating to listen to her.",
+        "ru": "Её очень приятно слушать.",
+        "learn": 1
+      },
+      {
+        "eng": "It doesn't listen reasonable to me.",
+        "ru": "Мне это не кажется разумным.",
+        "learn": 0
+      },
+      {
+        "eng": "Now you listen to me, sonny.",
+        "ru": "А теперь послушай меня, сынок.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll listen to the tape tomorrow.",
+        "ru": "Я послушаю эту кассету завтра.",
+        "learn": 0
+      },
+      {
+        "eng": "Listen to the voice of the people.",
+        "ru": "Прислушайтесь к голосу народа.",
+        "learn": 0
+      },
+      {
+        "eng": "Listen squirt, I'm in charge here.",
+        "ru": "Слушай выскочка, я тут главный!",
+        "learn": 0
+      }
+    ]
+  }
 }

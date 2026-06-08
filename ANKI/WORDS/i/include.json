@@ -1,86 +1,174 @@
 {
-    "include": {
-        "comment": [
-            "including",
-            "inclusion",
-            "conclude",
-            "exclude"
-        ],
-        "translate": "включать, заключать, содержать в себе",
-        "transcription": " |ɪnˈkluːd|",
-        "antonyms": [],
-        "mnemonic": [
-            "include [инклу':д] включать - (Инк люд-ей) включил в своё меню.",
-            "include [in'klu: d]\ninclusion [ɪn'klu:ʒən] - включение\nexclude [ɪks'klu:d] - исключать\nexclusion [ɪks'klu:ʒən] - исключение\n***\nВКЛЮЧАЛ обед в себя 5 блюд. (это) include"
-        ],
-        "examples": [
-            "Service is included in the bill.",
-            "The price of dinner includes dessert.",
-            "The price does not include tax added on.",
-            "His recreations include gardening and travel.",
-            "All prices shown include VAT and carriage.",
-            "Do you include walking among your amusements?",
-            "Bear in mind that the price does not include flights.",
-            "Have you included the chairman in your list of committee members?",
-            "The list includes the names of many famous writers.",
-            "Her hobbies include diving and surfing.",
-            "Does your rent include utilities?",
-            "His interests include walking and golf.",
-            "Include people in your picture for added interest.",
-            "Does the price include postage?",
-            "The drug's side effects include headache and fatigue.",
-            "She hurt me when she did not include me among her guests.",
-            "Symptoms include itchy, burning eyes.",
-            "Her interests include theater and poetry.",
-            "Should I include some visuals in my presentation?",
-            "The speakers will include several experts on the subject.",
-            "Included among the guests were a number of famous musicians.",
-            "I include you in the list of culprits.",
-            "The symptoms include fever and headache.",
-            "Her symptoms include chills and a fever.",
-            "Her hobbies include knitting and quilting.",
-            "American divisional coins include the dime and the nickel.",
-            "The law was amended to include women.",
-            "His hobbies include hunting and fishing.",
-            "Her hobbies include knitting and needlepoint.",
-            "Symptoms include enlargement of the lymph nodes."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Обслуживание включено в счёт.",
-            "Цена ужина включает десерт.",
-            "В цену не включается дополнительный сбор.",
-            "В числе его увлечений — садоводство и путешествия.",
-            "Все указанные цены включают НДС и стоимость доставки.",
-            "Считаете ли вы, что пешие прогулки относятся к вещям, от которых вы получаете удовольствие?",
-            "Учтите также, что цена не включает авиаперелёт.",
-            "Вы включили председателя в ваш список членов комитета?",
-            "В этом списке — имена многих знаменитых писателей.",
-            "В числе её увлечений — дайвинг и сёрфинг.",
-            "Включает ли арендная плата стоимость коммунальных услуг?",
-            "В числе его интересов — пешие прогулки и игра в гольф.",
-            "Для пущего интереса включите в свою картину людей.",
-            "Включены ли в цену почтовые расходы?",
-            "Среди побочных эффектов данного препарата — головная боль и усталость.",
-            "Она обидела меня, когда не включила в число своих гостей.",
-            "В числе симптомов — зуд и жжение в глазах.",
-            "Среди её интересов — театр и поэзия.",
-            "Следует ли мне включить в презентацию какие-то наглядные пособия?",
-            "Среди докладчиков будут несколько специалистов по данному вопросу.",
-            "Среди гостей было несколько известных музыкантов.",
-            "Я включаю вас в список виновных.",
-            "В числе симптомов — высокая температура и головная боль.",
-            "В числе её симптомов — озноб и высокая температура.",
-            "В числе её хобби — вязание и шитьё лоскутных одеял.",
-            "К американским разменным монетам относятся монеты в 5 и 10 центов.",
-            "В закон были внесены поправки, включающие женщин.",
-            "Среди его увлечений — охота и рыбалка.",
-            "Среди её увлечений — вязание спицами и крючком.",
-            "В числе симптомов — увеличение лимфатических узлов."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "include": {
+    "comment": [
+      "including",
+      "inclusion",
+      "conclude",
+      "exclude"
+    ],
+    "translate": "включать, заключать, содержать в себе",
+    "transcription": " |ɪnˈkluːd|",
+    "antonyms": [],
+    "mnemonic": [
+      "include [инклу':д] включать - (Инк люд-ей) включил в своё меню.",
+      "include [in'klu: d]\ninclusion [ɪn'klu:ʒən] - включение\nexclude [ɪks'klu:d] - исключать\nexclusion [ɪks'klu:ʒən] - исключение\n***\nВКЛЮЧАЛ обед в себя 5 блюд. (это) include"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "gerund_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Service is included in the bill.",
+        "ru": "Обслуживание включено в счёт.",
+        "learn": 0
+      },
+      {
+        "eng": "The price of dinner includes dessert.",
+        "ru": "Цена ужина включает десерт.",
+        "learn": 1
+      },
+      {
+        "eng": "The price does not include tax added on.",
+        "ru": "В цену не включается дополнительный сбор.",
+        "learn": 0
+      },
+      {
+        "eng": "His recreations include gardening and travel.",
+        "ru": "В числе его увлечений — садоводство и путешествия.",
+        "learn": 0
+      },
+      {
+        "eng": "All prices shown include VAT and carriage.",
+        "ru": "Все указанные цены включают НДС и стоимость доставки.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you include walking among your amusements?",
+        "ru": "Считаете ли вы, что пешие прогулки относятся к вещям, от которых вы получаете удовольствие?",
+        "learn": 0
+      },
+      {
+        "eng": "Bear in mind that the price does not include flights.",
+        "ru": "Учтите также, что цена не включает авиаперелёт.",
+        "learn": 0
+      },
+      {
+        "eng": "Have you included the chairman in your list of committee members?",
+        "ru": "Вы включили председателя в ваш список членов комитета?",
+        "learn": 0
+      },
+      {
+        "eng": "The list includes the names of many famous writers.",
+        "ru": "В этом списке — имена многих знаменитых писателей.",
+        "learn": 0
+      },
+      {
+        "eng": "Her hobbies include diving and surfing.",
+        "ru": "В числе её увлечений — дайвинг и сёрфинг.",
+        "learn": 0
+      },
+      {
+        "eng": "Does your rent include utilities?",
+        "ru": "Включает ли арендная плата стоимость коммунальных услуг?",
+        "learn": 0
+      },
+      {
+        "eng": "His interests include walking and golf.",
+        "ru": "В числе его интересов — пешие прогулки и игра в гольф.",
+        "learn": 0
+      },
+      {
+        "eng": "Include people in your picture for added interest.",
+        "ru": "Для пущего интереса включите в свою картину людей.",
+        "learn": 0
+      },
+      {
+        "eng": "Does the price include postage?",
+        "ru": "Включены ли в цену почтовые расходы?",
+        "learn": 0
+      },
+      {
+        "eng": "The drug's side effects include headache and fatigue.",
+        "ru": "Среди побочных эффектов данного препарата — головная боль и усталость.",
+        "learn": 1
+      },
+      {
+        "eng": "She hurt me when she did not include me among her guests.",
+        "ru": "Она обидела меня, когда не включила в число своих гостей.",
+        "learn": 0
+      },
+      {
+        "eng": "Symptoms include itchy, burning eyes.",
+        "ru": "В числе симптомов — зуд и жжение в глазах.",
+        "learn": 0
+      },
+      {
+        "eng": "Her interests include theater and poetry.",
+        "ru": "Среди её интересов — театр и поэзия.",
+        "learn": 0
+      },
+      {
+        "eng": "Should I include some visuals in my presentation?",
+        "ru": "Следует ли мне включить в презентацию какие-то наглядные пособия?",
+        "learn": 0
+      },
+      {
+        "eng": "The speakers will include several experts on the subject.",
+        "ru": "Среди докладчиков будут несколько специалистов по данному вопросу.",
+        "learn": 0
+      },
+      {
+        "eng": "Included among the guests were a number of famous musicians.",
+        "ru": "Среди гостей было несколько известных музыкантов.",
+        "learn": 0
+      },
+      {
+        "eng": "I include you in the list of culprits.",
+        "ru": "Я включаю вас в список виновных.",
+        "learn": 0
+      },
+      {
+        "eng": "The symptoms include fever and headache.",
+        "ru": "В числе симптомов — высокая температура и головная боль.",
+        "learn": 0
+      },
+      {
+        "eng": "Her symptoms include chills and a fever.",
+        "ru": "В числе её симптомов — озноб и высокая температура.",
+        "learn": 0
+      },
+      {
+        "eng": "Her hobbies include knitting and quilting.",
+        "ru": "В числе её хобби — вязание и шитьё лоскутных одеял.",
+        "learn": 0
+      },
+      {
+        "eng": "American divisional coins include the dime and the nickel.",
+        "ru": "К американским разменным монетам относятся монеты в 5 и 10 центов.",
+        "learn": 0
+      },
+      {
+        "eng": "The law was amended to include women.",
+        "ru": "В закон были внесены поправки, включающие женщин.",
+        "learn": 0
+      },
+      {
+        "eng": "His hobbies include hunting and fishing.",
+        "ru": "Среди его увлечений — охота и рыбалка.",
+        "learn": 0
+      },
+      {
+        "eng": "Her hobbies include knitting and needlepoint.",
+        "ru": "Среди её увлечений — вязание спицами и крючком.",
+        "learn": 0
+      },
+      {
+        "eng": "Symptoms include enlargement of the lymph nodes.",
+        "ru": "В числе симптомов — увеличение лимфатических узлов.",
+        "learn": 0
+      }
+    ]
+  }
 }

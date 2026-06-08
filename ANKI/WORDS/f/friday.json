@@ -1,95 +1,181 @@
 {
-    "Friday": {
-        "comment": [
-            "tuesday",
-            "thursday",
-            "birthday",
-            "nowadays",
-            "monday",
-            "wednesday",
-            "midday",
-            "saturday",
-            "sunday",
-            "today",
-            "holiday",
-            "day",
-            "yesterday",
-            "daytime",
-            "everyday",
-            "daylight"
-        ],
-        "translate": "пятница",
-        "transcription": " |ˈfraɪdeɪ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "We aim to finish by Friday.",
-            "Can you meet me Friday morning?",
-            "'What day is it today?' 'Friday.'",
-            "She is giving a dinner party on Friday.",
-            "'Friday's no good.' 'Then how about Saturday?'",
-            "His funeral will be held on Friday.",
-            "What time do you ring out on a Friday?",
-            "They asked us to RSVP by this Friday.",
-            "Late Friday night the storm petered out.",
-            "Her birthday will fall on a Friday this year.",
-            "The documents need to be ready by next Friday.",
-            "I can't make it Friday. It's very short notice.",
-            "For some reason, I keep thinking it's Friday today.",
-            "Man Friday",
-            "Is this Friday a payday?",
-            "The big game is on Friday.",
-            "Friday is my half day off.",
-            "We got married on a Friday.",
-            "Diane won't be here Friday.",
-            "I'll pay you back on Friday.",
-            "Is Friday cool with you guys?",
-            "Friday afternoons always drag.",
-            "She goes shopping every Friday.",
-            "Her appointment is next Friday.",
-            "It's Kate's birthday on Friday.",
-            "We closed on the house on Friday.",
-            "The murderer was hanged on Friday.",
-            "I had a terrible time last Friday.",
-            "We're flying to Vienna this Friday.",
-            "We have nothing on for Friday night."
-        ],
-        "example_translate": [
-            "Мы намереваемся закончить к пятнице.",
-            "Можешь встретить меня в пятницу утром?",
-            "— Какой сегодня день (недели)? — Пятница.",
-            "Она даёт обед в пятницу.",
-            "— Пятница не подходит. — В таком случае, как насчёт субботы?",
-            "Его похороны состоятся в пятницу.",
-            "Когда ты уходишь с работы по пятницам?",
-            "Они попросили нас ответить на приглашение до пятницы. (RSVP = Répondez s'il vous plaît (фр.), букв. \"просим ответить\", т.е. заранее уведомить приглашающих о присутствии на событии)",
-            "Поздно вечером в пятницу сильный ветер стих.",
-            "Её день рождения выпадает на пятницу в этом году.",
-            "Документы должны быть готовы к следующей пятнице.",
-            "В пятницу я не успею: времени слишком мало.",
-            "Мне почему-то всё время кажется, что сегодня пятница.",
-            "Пятница, верный /преданный/ слуга",
-            "В эту пятницу будет зарплата?",
-            "Эта важная игра состоится в пятницу.",
-            "В пятницу я работаю полдня. / В пятницу у меня короткий день.",
-            "Мы поженились в пятницу.",
-            "В пятницу Дианы здесь не будет. (амер.)",
-            "Я с тобой в пятницу расплачусь /рассчитаюсь/.",
-            "Люди, в пятницу всем удобно?",
-            "В пятницу день всегда тянется бесконечно долго.",
-            "Она ходит за покупками каждую пятницу.",
-            "Ей назначено в следующую пятницу.",
-            "В пятницу у Кейт день рождения.",
-            "Сделку по дому мы заключили в пятницу.",
-            "Убийца был повешен в пятницу.",
-            "В прошлую пятницу у меня творился какой-то кошмар.",
-            "Мы летим в Вену в эту пятницу.",
-            "Вечер пятницы у нас свободен. / На вечер пятницы у нас ничего не запланировано."
-        ],
-        "synonyms": [],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "Friday": {
+    "comment": [
+      "tuesday",
+      "thursday",
+      "birthday",
+      "nowadays",
+      "monday",
+      "wednesday",
+      "midday",
+      "saturday",
+      "sunday",
+      "today",
+      "holiday",
+      "day",
+      "yesterday",
+      "daytime",
+      "everyday",
+      "daylight"
+    ],
+    "translate": "пятница",
+    "transcription": " |ˈfraɪdeɪ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "We aim to finish by Friday.",
+        "ru": "Мы намереваемся закончить к пятнице.",
+        "learn": 1
+      },
+      {
+        "eng": "Can you meet me Friday morning?",
+        "ru": "Можешь встретить меня в пятницу утром?",
+        "learn": 1
+      },
+      {
+        "eng": "'What day is it today?' 'Friday.'",
+        "ru": "— Какой сегодня день (недели)? — Пятница.",
+        "learn": 0
+      },
+      {
+        "eng": "She is giving a dinner party on Friday.",
+        "ru": "Она даёт обед в пятницу.",
+        "learn": 0
+      },
+      {
+        "eng": "'Friday's no good.' 'Then how about Saturday?'",
+        "ru": "— Пятница не подходит. — В таком случае, как насчёт субботы?",
+        "learn": 0
+      },
+      {
+        "eng": "His funeral will be held on Friday.",
+        "ru": "Его похороны состоятся в пятницу.",
+        "learn": 0
+      },
+      {
+        "eng": "What time do you ring out on a Friday?",
+        "ru": "Когда ты уходишь с работы по пятницам?",
+        "learn": 0
+      },
+      {
+        "eng": "They asked us to RSVP by this Friday.",
+        "ru": "Они попросили нас ответить на приглашение до пятницы. (RSVP = Répondez s'il vous plaît (фр.), букв. \"просим ответить\", т.е. заранее уведомить приглашающих о присутствии на событии)",
+        "learn": 0
+      },
+      {
+        "eng": "Late Friday night the storm petered out.",
+        "ru": "Поздно вечером в пятницу сильный ветер стих.",
+        "learn": 0
+      },
+      {
+        "eng": "Her birthday will fall on a Friday this year.",
+        "ru": "Её день рождения выпадает на пятницу в этом году.",
+        "learn": 0
+      },
+      {
+        "eng": "The documents need to be ready by next Friday.",
+        "ru": "Документы должны быть готовы к следующей пятнице.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't make it Friday. It's very short notice.",
+        "ru": "В пятницу я не успею: времени слишком мало.",
+        "learn": 0
+      },
+      {
+        "eng": "For some reason, I keep thinking it's Friday today.",
+        "ru": "Мне почему-то всё время кажется, что сегодня пятница.",
+        "learn": 0
+      },
+      {
+        "eng": "Man Friday",
+        "ru": "Пятница, верный /преданный/ слуга",
+        "learn": 0
+      },
+      {
+        "eng": "Is this Friday a payday?",
+        "ru": "В эту пятницу будет зарплата?",
+        "learn": 0
+      },
+      {
+        "eng": "The big game is on Friday.",
+        "ru": "Эта важная игра состоится в пятницу.",
+        "learn": 0
+      },
+      {
+        "eng": "Friday is my half day off.",
+        "ru": "В пятницу я работаю полдня. / В пятницу у меня короткий день.",
+        "learn": 0
+      },
+      {
+        "eng": "We got married on a Friday.",
+        "ru": "Мы поженились в пятницу.",
+        "learn": 1
+      },
+      {
+        "eng": "Diane won't be here Friday.",
+        "ru": "В пятницу Дианы здесь не будет. (амер.)",
+        "learn": 0
+      },
+      {
+        "eng": "I'll pay you back on Friday.",
+        "ru": "Я с тобой в пятницу расплачусь /рассчитаюсь/.",
+        "learn": 0
+      },
+      {
+        "eng": "Is Friday cool with you guys?",
+        "ru": "Люди, в пятницу всем удобно?",
+        "learn": 0
+      },
+      {
+        "eng": "Friday afternoons always drag.",
+        "ru": "В пятницу день всегда тянется бесконечно долго.",
+        "learn": 0
+      },
+      {
+        "eng": "She goes shopping every Friday.",
+        "ru": "Она ходит за покупками каждую пятницу.",
+        "learn": 0
+      },
+      {
+        "eng": "Her appointment is next Friday.",
+        "ru": "Ей назначено в следующую пятницу.",
+        "learn": 1
+      },
+      {
+        "eng": "It's Kate's birthday on Friday.",
+        "ru": "В пятницу у Кейт день рождения.",
+        "learn": 0
+      },
+      {
+        "eng": "We closed on the house on Friday.",
+        "ru": "Сделку по дому мы заключили в пятницу.",
+        "learn": 0
+      },
+      {
+        "eng": "The murderer was hanged on Friday.",
+        "ru": "Убийца был повешен в пятницу.",
+        "learn": 0
+      },
+      {
+        "eng": "I had a terrible time last Friday.",
+        "ru": "В прошлую пятницу у меня творился какой-то кошмар.",
+        "learn": 0
+      },
+      {
+        "eng": "We're flying to Vienna this Friday.",
+        "ru": "Мы летим в Вену в эту пятницу.",
+        "learn": 0
+      },
+      {
+        "eng": "We have nothing on for Friday night.",
+        "ru": "Вечер пятницы у нас свободен. / На вечер пятницы у нас ничего не запланировано.",
+        "learn": 0
+      }
+    ]
+  }
 }

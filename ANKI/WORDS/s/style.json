@@ -1,82 +1,168 @@
 {
-    "style": {
-        "comment": [
-            "lifestyle",
-            "hairstyle",
-            "stylish"
-        ],
-        "translate": "стиль, тип, манера, фасон, слог, вкус, мода, шик, величать, модернизировать, титуловать",
-        "transcription": " |staɪl|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He is a great mixer of style.",
-            "He smoothed out his style.",
-            "The Greek style of architecture",
-            "Any style can be parodied.",
-            "His style wants a little elevation.",
-            "I enjoy the author's breezy style.",
-            "a loose, fluid style of dancing",
-            "The team played with style.",
-            "refine one's style of writing",
-            "She has a unique writing style.",
-            "a book written in a very florid style",
-            "Degas' style of painting",
-            "Hemingway's direct style",
-            "Pink is in style this season.",
-            "She has a unique style of singing.",
-            "That style is out these days.",
-            "Her writing has a clear style.",
-            "He has a prosaic writing style.",
-            "Cuban-style black beans and rice",
-            "She has a verbose writing style.",
-            "the density of her writing style",
-            "This style of shoe is in demand.",
-            "I like her spare style of writing.",
-            "Long skirts are back in style.",
-            "the lapidary style of the poem",
-            "a style redolent of the sixties",
-            "He revived this style of opera.",
-            "Smith's signature singing style",
-            "His management style is abrasive.",
-            "a writer with an elliptical style"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "У него прекрасно получается смешивать стили.",
-            "Он усовершенствовал свой стиль.",
-            "греческий стиль в архитектуре",
-            "Спародировать можно что угодно.",
-            "У него слишком приземлённый стиль.",
-            "Мне нравится свежий стиль этого автора.",
-            "свободный, плавный стиль танца",
-            "Команда играла красиво.",
-            "улучшить манеру письма",
-            "У неё уникальная манера письма.",
-            "книга, написанная в очень витиеватом стиле",
-            "манера живописи Дега",
-            "прямолинейная манера Хемингуэя",
-            "В этом сезоне розовое в моде.",
-            "У неё уникальная манера пения.",
-            "В наше время данный стиль уже устарел.",
-            "Она пишет понятно.",
-            "Он пишет очень скучно, прозаично.",
-            "чёрная фасоль с рисом по-кубински",
-            "У неё многословная манера письма.",
-            "трудность для понимания её произведений",
-            "Такой фасон обуви пользуется спросом.",
-            "Мне нравится то, как просто она пишет.",
-            "Длинные юбки снова в моде.",
-            "лапидарный стиль этой поэмы",
-            "стиль эпохи шестидесятых",
-            "Он возродил этот жанр оперы.",
-            "характерная манера пения Смита",
-            "Он сторонник жёстких методов управления.",
-            "писатель с крайне немногословной манерой, полной недоговорок"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "style": {
+    "comment": [
+      "lifestyle",
+      "hairstyle",
+      "stylish"
+    ],
+    "translate": "стиль, тип, манера, фасон, слог, вкус, мода, шик, величать, модернизировать, титуловать",
+    "transcription": " |staɪl|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He is a great mixer of style.",
+        "ru": "У него прекрасно получается смешивать стили.",
+        "learn": 0
+      },
+      {
+        "eng": "He smoothed out his style.",
+        "ru": "Он усовершенствовал свой стиль.",
+        "learn": 0
+      },
+      {
+        "eng": "The Greek style of architecture",
+        "ru": "греческий стиль в архитектуре",
+        "learn": 0
+      },
+      {
+        "eng": "Any style can be parodied.",
+        "ru": "Спародировать можно что угодно.",
+        "learn": 0
+      },
+      {
+        "eng": "His style wants a little elevation.",
+        "ru": "У него слишком приземлённый стиль.",
+        "learn": 0
+      },
+      {
+        "eng": "I enjoy the author's breezy style.",
+        "ru": "Мне нравится свежий стиль этого автора.",
+        "learn": 0
+      },
+      {
+        "eng": "a loose, fluid style of dancing",
+        "ru": "свободный, плавный стиль танца",
+        "learn": 0
+      },
+      {
+        "eng": "The team played with style.",
+        "ru": "Команда играла красиво.",
+        "learn": 0
+      },
+      {
+        "eng": "refine one's style of writing",
+        "ru": "улучшить манеру письма",
+        "learn": 0
+      },
+      {
+        "eng": "She has a unique writing style.",
+        "ru": "У неё уникальная манера письма.",
+        "learn": 0
+      },
+      {
+        "eng": "a book written in a very florid style",
+        "ru": "книга, написанная в очень витиеватом стиле",
+        "learn": 0
+      },
+      {
+        "eng": "Degas' style of painting",
+        "ru": "манера живописи Дега",
+        "learn": 0
+      },
+      {
+        "eng": "Hemingway's direct style",
+        "ru": "прямолинейная манера Хемингуэя",
+        "learn": 0
+      },
+      {
+        "eng": "Pink is in style this season.",
+        "ru": "В этом сезоне розовое в моде.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a unique style of singing.",
+        "ru": "У неё уникальная манера пения.",
+        "learn": 1
+      },
+      {
+        "eng": "That style is out these days.",
+        "ru": "В наше время данный стиль уже устарел.",
+        "learn": 0
+      },
+      {
+        "eng": "Her writing has a clear style.",
+        "ru": "Она пишет понятно.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a prosaic writing style.",
+        "ru": "Он пишет очень скучно, прозаично.",
+        "learn": 0
+      },
+      {
+        "eng": "Cuban-style black beans and rice",
+        "ru": "чёрная фасоль с рисом по-кубински",
+        "learn": 0
+      },
+      {
+        "eng": "She has a verbose writing style.",
+        "ru": "У неё многословная манера письма.",
+        "learn": 0
+      },
+      {
+        "eng": "the density of her writing style",
+        "ru": "трудность для понимания её произведений",
+        "learn": 0
+      },
+      {
+        "eng": "This style of shoe is in demand.",
+        "ru": "Такой фасон обуви пользуется спросом.",
+        "learn": 0
+      },
+      {
+        "eng": "I like her spare style of writing.",
+        "ru": "Мне нравится то, как просто она пишет.",
+        "learn": 0
+      },
+      {
+        "eng": "Long skirts are back in style.",
+        "ru": "Длинные юбки снова в моде.",
+        "learn": 0
+      },
+      {
+        "eng": "the lapidary style of the poem",
+        "ru": "лапидарный стиль этой поэмы",
+        "learn": 0
+      },
+      {
+        "eng": "a style redolent of the sixties",
+        "ru": "стиль эпохи шестидесятых",
+        "learn": 0
+      },
+      {
+        "eng": "He revived this style of opera.",
+        "ru": "Он возродил этот жанр оперы.",
+        "learn": 1
+      },
+      {
+        "eng": "Smith's signature singing style",
+        "ru": "характерная манера пения Смита",
+        "learn": 0
+      },
+      {
+        "eng": "His management style is abrasive.",
+        "ru": "Он сторонник жёстких методов управления.",
+        "learn": 0
+      },
+      {
+        "eng": "a writer with an elliptical style",
+        "ru": "писатель с крайне немногословной манерой, полной недоговорок",
+        "learn": 0
+      }
+    ]
+  }
 }

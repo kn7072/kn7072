@@ -1,84 +1,170 @@
 {
-    "name": {
-        "comment": [
-            "surname",
-            "namely",
-            "nickname"
-        ],
-        "translate": "назвать, называть, указывать, назначать, имя, название, наименование, фамилия",
-        "transcription": " |neɪm|",
-        "antonyms": [],
-        "mnemonic": [
-            "name [нэйм] имя - (Неимущим) имя не нужно."
-        ],
-        "examples": [
-            "What's your name?",
-            "Can I have your last name?",
-            "He was named after his father.",
-            "They named their son David.",
-            "We named our daughter Sarah.",
-            "Call Marty, tell him to name his price.",
-            "He has name for honesty.",
-            "Halt in the name of the law.",
-            "What's the name of the street?",
-            "Please write your name on this line.",
-            "Her name is Mandy Wilson.",
-            "I refused to give them my name.",
-            "She didn't give (=say) her name.",
-            "There is no name for such conduct.",
-            "She was named Head of the Committee.",
-            "His name really is George Washington.",
-            "The film was named best foreign film.",
-            "Those are two names for the same thing.",
-            "Mark Twain's real name was Samuel Clemens.",
-            "State your name and occupation.",
-            "He wanted to protect his good name.",
-            "HH Munro wrote under the name Saki.",
-            "The name of the company has changed.",
-            "The company has a name for reliability.",
-            "The college is named for George Washington.",
-            "Early in 1941 he was named commander of the African Corps.",
-            "Can you put my name on the list?",
-            "Edo was the ancient name for Tokyo.",
-            "My full name is Susan Elaine Smith.",
-            "My mother insisted on naming me Horace."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Как тебя зовут?",
-            "Можно узнать вашу фамилию?",
-            "Его назвали в честь отца.",
-            "Они назвали сына Дэвидом.",
-            "Мы назвали дочь Сарой.",
-            "Позвони Марти и попроси его назвать свою цену.",
-            "Он известен своей честностью.",
-            "Именем закона — остановитесь!",
-            "Как называется эта улица?",
-            "Пожалуйста, напишите своё имя на этой строчке.",
-            "Её зовут Мэнди Уилсон.",
-            "Я отказался назвать им своё имя.",
-            "Она не назвала (т.е. не сказала) своё имя.",
-            "Нет слов, чтобы описать такое поведение.",
-            "Её назначили главой комитета.",
-            "Его действительно зовут Джордж Вашингтон.",
-            "Эту ленту признали лучшим иностранным фильмом.",
-            "Это просто другое название того же самого.",
-            "Настоящее имя Марка Твена — Сэмюэл Клеменс.",
-            "Назовите своё имя и род занятий.",
-            "Он хотел защитить своё доброе имя.",
-            "Г. Х. Манро писал под псевдонимом \"Саки\".",
-            "Название компании изменилось.",
-            "Эта компания славится своей надежностью.",
-            "Колледж назван в честь Джорджа Вашингтона.",
-            "В начале 1941 года он был назначен командиром Африканского корпуса.",
-            "Вы можете внести моё имя в список?",
-            "Эдо — старое название Токио. / Токио раньше назывался Эдо.",
-            "Мое полное имя — Сьюзен Илейн Смит.",
-            "Моя мать настояла на том, чтобы назвать меня Гораций."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "name": {
+    "comment": [
+      "surname",
+      "namely",
+      "nickname"
+    ],
+    "translate": "назвать, называть, указывать, назначать, имя, название, наименование, фамилия",
+    "transcription": " |neɪm|",
+    "antonyms": [],
+    "mnemonic": [
+      "name [нэйм] имя - (Неимущим) имя не нужно."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "What's your name?",
+        "ru": "Как тебя зовут?",
+        "learn": 0
+      },
+      {
+        "eng": "Can I have your last name?",
+        "ru": "Можно узнать вашу фамилию?",
+        "learn": 0
+      },
+      {
+        "eng": "He was named after his father.",
+        "ru": "Его назвали в честь отца.",
+        "learn": 1
+      },
+      {
+        "eng": "They named their son David.",
+        "ru": "Они назвали сына Дэвидом.",
+        "learn": 0
+      },
+      {
+        "eng": "We named our daughter Sarah.",
+        "ru": "Мы назвали дочь Сарой.",
+        "learn": 0
+      },
+      {
+        "eng": "Call Marty, tell him to name his price.",
+        "ru": "Позвони Марти и попроси его назвать свою цену.",
+        "learn": 1
+      },
+      {
+        "eng": "He has name for honesty.",
+        "ru": "Он известен своей честностью.",
+        "learn": 0
+      },
+      {
+        "eng": "Halt in the name of the law.",
+        "ru": "Именем закона — остановитесь!",
+        "learn": 0
+      },
+      {
+        "eng": "What's the name of the street?",
+        "ru": "Как называется эта улица?",
+        "learn": 0
+      },
+      {
+        "eng": "Please write your name on this line.",
+        "ru": "Пожалуйста, напишите своё имя на этой строчке.",
+        "learn": 0
+      },
+      {
+        "eng": "Her name is Mandy Wilson.",
+        "ru": "Её зовут Мэнди Уилсон.",
+        "learn": 0
+      },
+      {
+        "eng": "I refused to give them my name.",
+        "ru": "Я отказался назвать им своё имя.",
+        "learn": 0
+      },
+      {
+        "eng": "She didn't give (=say) her name.",
+        "ru": "Она не назвала (т.е. не сказала) своё имя.",
+        "learn": 0
+      },
+      {
+        "eng": "There is no name for such conduct.",
+        "ru": "Нет слов, чтобы описать такое поведение.",
+        "learn": 0
+      },
+      {
+        "eng": "She was named Head of the Committee.",
+        "ru": "Её назначили главой комитета.",
+        "learn": 0
+      },
+      {
+        "eng": "His name really is George Washington.",
+        "ru": "Его действительно зовут Джордж Вашингтон.",
+        "learn": 0
+      },
+      {
+        "eng": "The film was named best foreign film.",
+        "ru": "Эту ленту признали лучшим иностранным фильмом.",
+        "learn": 0
+      },
+      {
+        "eng": "Those are two names for the same thing.",
+        "ru": "Это просто другое название того же самого.",
+        "learn": 0
+      },
+      {
+        "eng": "Mark Twain's real name was Samuel Clemens.",
+        "ru": "Настоящее имя Марка Твена — Сэмюэл Клеменс.",
+        "learn": 0
+      },
+      {
+        "eng": "State your name and occupation.",
+        "ru": "Назовите своё имя и род занятий.",
+        "learn": 0
+      },
+      {
+        "eng": "He wanted to protect his good name.",
+        "ru": "Он хотел защитить своё доброе имя.",
+        "learn": 0
+      },
+      {
+        "eng": "HH Munro wrote under the name Saki.",
+        "ru": "Г. Х. Манро писал под псевдонимом \"Саки\".",
+        "learn": 0
+      },
+      {
+        "eng": "The name of the company has changed.",
+        "ru": "Название компании изменилось.",
+        "learn": 0
+      },
+      {
+        "eng": "The company has a name for reliability.",
+        "ru": "Эта компания славится своей надежностью.",
+        "learn": 0
+      },
+      {
+        "eng": "The college is named for George Washington.",
+        "ru": "Колледж назван в честь Джорджа Вашингтона.",
+        "learn": 0
+      },
+      {
+        "eng": "Early in 1941 he was named commander of the African Corps.",
+        "ru": "В начале 1941 года он был назначен командиром Африканского корпуса.",
+        "learn": 1
+      },
+      {
+        "eng": "Can you put my name on the list?",
+        "ru": "Вы можете внести моё имя в список?",
+        "learn": 0
+      },
+      {
+        "eng": "Edo was the ancient name for Tokyo.",
+        "ru": "Эдо — старое название Токио. / Токио раньше назывался Эдо.",
+        "learn": 0
+      },
+      {
+        "eng": "My full name is Susan Elaine Smith.",
+        "ru": "Мое полное имя — Сьюзен Илейн Смит.",
+        "learn": 0
+      },
+      {
+        "eng": "My mother insisted on naming me Horace.",
+        "ru": "Моя мать настояла на том, чтобы назвать меня Гораций.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,87 +1,174 @@
 {
-    "knock": {
-        "comment": [
-            "jockey",
-            "hockey",
-            "dock",
-            "pocket"
-        ],
-        "translate": " стучать, детонация, стук, удар, резкая критика, стучаться, постучать, сбивать",
-        "transcription": "  |nɑːk|",
-        "antonyms": [],
-        "mnemonic": [
-            "knock [нок] стук - После (нок-аута) стук в голове возник.",
-            "knock [nɒk]\n***\nВ дверь СТУЧАТСЯ - наверно, сынок. (это)\nСтук, удар.\n***\nЕсли на двери замкеF \"lock\",\nто зачем стучать \"knock\"."
-        ],
-        "examples": [
-            "I heard a knock on the door.",
-            "Knock on the door before you enter the room.",
-            "Jim was knocked down by a bus.",
-            "With that dress, you'll knock him dead.",
-            "She knocked her head on a stone.",
-            "a loud knock at the door",
-            "There was no answer to my knock, so I went away.",
-            "He knocked the knife from my hand.",
-            "Don't knock the food — it's free.",
-            "She knocked the glass from his hand.",
-            "Her beauty knocked out every man in the room.",
-            "I can knock off a poem in half an hour.",
-            "I'll knock off £10.",
-            "I don't want to knock the old man off.",
-            "You can't knock me off, I've done nothing!",
-            "A man in the crowd knocked my arm up and I dropped my bag.",
-            "He gave him a knock on the head.",
-            "What a beauty! I'd like to knock her off!",
-            "He's taken quite a few hard knocks lately.",
-            "He likes praise but can't stand the knocks.",
-            "If you take both dresses, I'll knock $2 off.",
-            "He got a knock on the head when he fell.",
-            "Knock the ash out before you refill your pipe.",
-            "We have knocked double-knocks at the street-door.",
-            "Knock at the rear entrance.",
-            "A loud knock at the door made her start.",
-            "The unexpected news fairly knocked me back.",
-            "Wasn't she in pantomime? Bet she knocked them.",
-            "They want to knock the house down and rebuild it.",
-            "The aim is to knock the ball into the opposing goal."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я услышала стук в дверь.",
-            "Стучите в дверь, прежде чем войти в комнату.",
-            "Джима сбил автобус.",
-            "В этом платье вы сразите его наповал.",
-            "Она ударилась головой о камень.",
-            "громкий стук в дверь",
-            "На мой стук никто не ответил, так что я ушёл.",
-            "Он выбил нож из моей руки.",
-            "Не придирайся к еде, она ведь бесплатная.",
-            "Она выбила стакан из его руки.",
-            "Её красота ошеломила всех мужчин в комнате.",
-            "Я могу накатать стишок за полчаса.",
-            "Я сброшу (с цены) десять фунтов.",
-            "Я не хочу кончать старика.",
-            "Вы не имеете права забрать меня, я ничего не сделал.",
-            "Человек в толпе двинул мне по руке и выхватил у меня сумку.",
-            "Он стукнул его по голове.",
-            "Какая красотка! Так бы и трахнул ее!",
-            "В последнее время его постиг ряд серьёзных неудач.",
-            "Он любит, когда его хвалят, но терпеть не может критику.",
-            "Если вы возьмете оба платья, я скину два доллара.",
-            "Он стукнулся головой, когда падал.",
-            "Прежде чем заново набить трубку, вытряхните из неё пепел.",
-            "Мы дважды постучали во входную дверь.",
-            "Стук в заднюю дверь.",
-            "Громкий стук в дверь заставил её вздрогнуть.",
-            "Неожиданная новость просто ошеломила меня.",
-            "А она участвовала в пантомиме? Бьюсь об заклад, она их ошеломила.",
-            "Они хотят снести здание и отстроить его заново.",
-            "Задача — забить мяч в противоположные ворота."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "kn-_=_[n]"
-        ]
-    }
+  "knock": {
+    "comment": [
+      "jockey",
+      "hockey",
+      "dock",
+      "pocket"
+    ],
+    "translate": " стучать, детонация, стук, удар, резкая критика, стучаться, постучать, сбивать",
+    "transcription": "  |nɑːk|",
+    "antonyms": [],
+    "mnemonic": [
+      "knock [нок] стук - После (нок-аута) стук в голове возник.",
+      "knock [nɒk]\n***\nВ дверь СТУЧАТСЯ - наверно, сынок. (это)\nСтук, удар.\n***\nЕсли на двери замкеF \"lock\",\nто зачем стучать \"knock\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "kn-_=_[n]"
+    ],
+    "examples": [
+      {
+        "eng": "I heard a knock on the door.",
+        "ru": "Я услышала стук в дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "Knock on the door before you enter the room.",
+        "ru": "Стучите в дверь, прежде чем войти в комнату.",
+        "learn": 1
+      },
+      {
+        "eng": "Jim was knocked down by a bus.",
+        "ru": "Джима сбил автобус.",
+        "learn": 0
+      },
+      {
+        "eng": "With that dress, you'll knock him dead.",
+        "ru": "В этом платье вы сразите его наповал.",
+        "learn": 0
+      },
+      {
+        "eng": "She knocked her head on a stone.",
+        "ru": "Она ударилась головой о камень.",
+        "learn": 0
+      },
+      {
+        "eng": "a loud knock at the door",
+        "ru": "громкий стук в дверь",
+        "learn": 0
+      },
+      {
+        "eng": "There was no answer to my knock, so I went away.",
+        "ru": "На мой стук никто не ответил, так что я ушёл.",
+        "learn": 1
+      },
+      {
+        "eng": "He knocked the knife from my hand.",
+        "ru": "Он выбил нож из моей руки.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't knock the food — it's free.",
+        "ru": "Не придирайся к еде, она ведь бесплатная.",
+        "learn": 0
+      },
+      {
+        "eng": "She knocked the glass from his hand.",
+        "ru": "Она выбила стакан из его руки.",
+        "learn": 0
+      },
+      {
+        "eng": "Her beauty knocked out every man in the room.",
+        "ru": "Её красота ошеломила всех мужчин в комнате.",
+        "learn": 0
+      },
+      {
+        "eng": "I can knock off a poem in half an hour.",
+        "ru": "Я могу накатать стишок за полчаса.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll knock off £10.",
+        "ru": "Я сброшу (с цены) десять фунтов.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't want to knock the old man off.",
+        "ru": "Я не хочу кончать старика.",
+        "learn": 0
+      },
+      {
+        "eng": "You can't knock me off, I've done nothing!",
+        "ru": "Вы не имеете права забрать меня, я ничего не сделал.",
+        "learn": 0
+      },
+      {
+        "eng": "A man in the crowd knocked my arm up and I dropped my bag.",
+        "ru": "Человек в толпе двинул мне по руке и выхватил у меня сумку.",
+        "learn": 0
+      },
+      {
+        "eng": "He gave him a knock on the head.",
+        "ru": "Он стукнул его по голове.",
+        "learn": 0
+      },
+      {
+        "eng": "What a beauty! I'd like to knock her off!",
+        "ru": "Какая красотка! Так бы и трахнул ее!",
+        "learn": 0
+      },
+      {
+        "eng": "He's taken quite a few hard knocks lately.",
+        "ru": "В последнее время его постиг ряд серьёзных неудач.",
+        "learn": 0
+      },
+      {
+        "eng": "He likes praise but can't stand the knocks.",
+        "ru": "Он любит, когда его хвалят, но терпеть не может критику.",
+        "learn": 0
+      },
+      {
+        "eng": "If you take both dresses, I'll knock $2 off.",
+        "ru": "Если вы возьмете оба платья, я скину два доллара.",
+        "learn": 0
+      },
+      {
+        "eng": "He got a knock on the head when he fell.",
+        "ru": "Он стукнулся головой, когда падал.",
+        "learn": 0
+      },
+      {
+        "eng": "Knock the ash out before you refill your pipe.",
+        "ru": "Прежде чем заново набить трубку, вытряхните из неё пепел.",
+        "learn": 0
+      },
+      {
+        "eng": "We have knocked double-knocks at the street-door.",
+        "ru": "Мы дважды постучали во входную дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "Knock at the rear entrance.",
+        "ru": "Стук в заднюю дверь.",
+        "learn": 1
+      },
+      {
+        "eng": "A loud knock at the door made her start.",
+        "ru": "Громкий стук в дверь заставил её вздрогнуть.",
+        "learn": 0
+      },
+      {
+        "eng": "The unexpected news fairly knocked me back.",
+        "ru": "Неожиданная новость просто ошеломила меня.",
+        "learn": 0
+      },
+      {
+        "eng": "Wasn't she in pantomime? Bet she knocked them.",
+        "ru": "А она участвовала в пантомиме? Бьюсь об заклад, она их ошеломила.",
+        "learn": 0
+      },
+      {
+        "eng": "They want to knock the house down and rebuild it.",
+        "ru": "Они хотят снести здание и отстроить его заново.",
+        "learn": 0
+      },
+      {
+        "eng": "The aim is to knock the ball into the opposing goal.",
+        "ru": "Задача — забить мяч в противоположные ворота.",
+        "learn": 1
+      }
+    ]
+  }
 }

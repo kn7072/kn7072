@@ -1,88 +1,175 @@
 {
-    "swear": {
-        "comment": [
-            "sweet",
-            "answer",
-            "swell",
-            "sweep",
-            "swelling",
-            "sweater",
-            "sweat"
-        ],
-        "translate": "поклясться, ругать, ругаться, клясться, присяга, клятва, ругательство",
-        "transcription": " |swer|",
-        "antonyms": [],
-        "mnemonic": [
-            "wear [weə]\nswear [swɛə] - клятва, присяга, зарок., клясться\n***\nНОСИТЬ с одеждой нужно веер. (это). wear\nНошение, носка, одежда, платье, износ.\n***\nКот сапоги носит \"wear\",\nи что он барон, клянётся \"swear\""
-        ],
-        "examples": [
-            "Don't swear in front of the children.",
-            "Don't swear at me, if you please!",
-            "He swore revenge on the killers.",
-            "She swore never to return home.",
-            "I heard him say a swear.",
-            "Witnesses have to swear on the Bible.",
-            "Everyone was sworn to secrecy / silence.",
-            "Before God I swear I am innocent",
-            "I swear I didn't lay a finger on him.",
-            "I swear to God, I'll kill him if he comes back.",
-            "Everyone swears by her remedy for a cold.",
-            "I swear by the name of God that what I say is true.",
-            "I swear Mom has bionic ears.",
-            "Can't you express your frustration without using swears?",
-            "She mouthed a swear word.",
-            "He turned round and swore at me.",
-            "I never touched your purse, I swear!",
-            "All the swear words had been bleeped out.",
-            "I never touched her, I swear to God.",
-            "She doesn't like to swear in front of the children.",
-            "He says he was there all the time, but I swear I never saw him.",
-            "I heard him mutter a mild swear word.",
-            "Victor swore he would get his revenge.",
-            "The newly elected President was sworn in today.",
-            "Will you swear to it that you were not present?",
-            "They swore allegiance to the government.",
-            "I do solemnly swear to tell the whole truth.",
-            "Servicemen have to swear an oath of loyalty to their country.",
-            "If you tell anyone about this, I swear I'll put the whammy on you."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Не ругайся в присутствии детей.",
-            "А ну-ка брось кричать на меня!",
-            "Он поклялся отомстить убийцам.",
-            "Она поклялась никогда не возвращаться домой.",
-            "Я услышал, как он выругался.",
-            "Свидетели должны принести присягу (=присягнуть, поклясться) на Библии.",
-            "Все поклялись молчать.",
-            "Клянусь перед Богом, я не виновен.",
-            "Клянусь, я и пальцем его не тронул.",
-            "Клянусь Богом, я убью его, если он вернется.",
-            "Все используют её средство от простуды.",
-            "Клянусь именем Господа, что говорю правду.",
-            "Я клянусь, моя мама слышит даже малейших шорох. (у неё очень сильный слух)",
-            "Разве нельзя выразить своё разочарование без использования ругательств?",
-            "Она беззвучно, одними губами, выругалась. (to mouth — articulate silently., form words with the lips only)",
-            "Он обернулся и обругал меня.",
-            "Не трогала я твою сумочку, клянусь!",
-            "Все ругательства были запиканы.",
-            "Я и пальцем её никогда не трогал, богом клянусь.",
-            "Она не любит ругаться в присутствии детей.",
-            "Он говорит, что был там всё время, но я клянусь, что никогда его не видел.",
-            "Я услышал, как он пробормотал мягкое ругательство.",
-            "Виктор поклялся отомстить.",
-            "Сегодня новоизбранный президент был приведен к присяге.",
-            "Вы подтвердите под присягой, что вас там не было?",
-            "Они поклялись в верности правительству.",
-            "Торжественно клянусь говорить только правду. (клятва свидетеля на судебном процессе)",
-            "Военнослужащие принесли присягу верности своей стране.",
-            "Если вы кому-либо об этом расскажете — клянусь, я прокляну вас."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "Инфинитив_с_to_после_глаголов",
-            "Инфинитив"
-        ]
-    }
+  "swear": {
+    "comment": [
+      "swore |swɔːr|,                                          sworn |swɔːrn|",
+      "sweet",
+      "answer",
+      "swell",
+      "sweep",
+      "swelling",
+      "sweater",
+      "sweat"
+    ],
+    "translate": "поклясться, ругать, ругаться, клясться, присяга, клятва, ругательство",
+    "transcription": " |swer|",
+    "antonyms": [],
+    "mnemonic": [
+      "wear [weə]\nswear [swɛə] - клятва, присяга, зарок., клясться\n***\nНОСИТЬ с одеждой нужно веер. (это). wear\nНошение, носка, одежда, платье, износ.\n***\nКот сапоги носит \"wear\",\nи что он барон, клянётся \"swear\""
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "Инфинитив_с_to_после_глаголов",
+      "Инфинитив",
+      "infinitive_after_verb",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Don't swear in front of the children.",
+        "ru": "Не ругайся в присутствии детей.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't swear at me, if you please!",
+        "ru": "А ну-ка брось кричать на меня!",
+        "learn": 0
+      },
+      {
+        "eng": "He swore revenge on the killers.",
+        "ru": "Он поклялся отомстить убийцам.",
+        "learn": 1
+      },
+      {
+        "eng": "She swore never to return home.",
+        "ru": "Она поклялась никогда не возвращаться домой.",
+        "learn": 0
+      },
+      {
+        "eng": "I heard him say a swear.",
+        "ru": "Я услышал, как он выругался.",
+        "learn": 0
+      },
+      {
+        "eng": "Witnesses have to swear on the Bible.",
+        "ru": "Свидетели должны принести присягу (=присягнуть, поклясться) на Библии.",
+        "learn": 0
+      },
+      {
+        "eng": "Everyone was sworn to secrecy / silence.",
+        "ru": "Все поклялись молчать.",
+        "learn": 0
+      },
+      {
+        "eng": "Before God I swear I am innocent",
+        "ru": "Клянусь перед Богом, я не виновен.",
+        "learn": 1
+      },
+      {
+        "eng": "I swear I didn't lay a finger on him.",
+        "ru": "Клянусь, я и пальцем его не тронул.",
+        "learn": 0
+      },
+      {
+        "eng": "I swear to God, I'll kill him if he comes back.",
+        "ru": "Клянусь Богом, я убью его, если он вернется.",
+        "learn": 0
+      },
+      {
+        "eng": "Everyone swears by her remedy for a cold.",
+        "ru": "Все используют её средство от простуды.",
+        "learn": 0
+      },
+      {
+        "eng": "I swear by the name of God that what I say is true.",
+        "ru": "Клянусь именем Господа, что говорю правду.",
+        "learn": 0
+      },
+      {
+        "eng": "I swear Mom has bionic ears.",
+        "ru": "Я клянусь, моя мама слышит даже малейших шорох. (у неё очень сильный слух)",
+        "learn": 0
+      },
+      {
+        "eng": "Can't you express your frustration without using swears?",
+        "ru": "Разве нельзя выразить своё разочарование без использования ругательств?",
+        "learn": 1
+      },
+      {
+        "eng": "She mouthed a swear word.",
+        "ru": "Она беззвучно, одними губами, выругалась. (to mouth — articulate silently., form words with the lips only)",
+        "learn": 0
+      },
+      {
+        "eng": "He turned round and swore at me.",
+        "ru": "Он обернулся и обругал меня.",
+        "learn": 0
+      },
+      {
+        "eng": "I never touched your purse, I swear!",
+        "ru": "Не трогала я твою сумочку, клянусь!",
+        "learn": 0
+      },
+      {
+        "eng": "All the swear words had been bleeped out.",
+        "ru": "Все ругательства были запиканы.",
+        "learn": 0
+      },
+      {
+        "eng": "I never touched her, I swear to God.",
+        "ru": "Я и пальцем её никогда не трогал, богом клянусь.",
+        "learn": 0
+      },
+      {
+        "eng": "She doesn't like to swear in front of the children.",
+        "ru": "Она не любит ругаться в присутствии детей.",
+        "learn": 0
+      },
+      {
+        "eng": "He says he was there all the time, but I swear I never saw him.",
+        "ru": "Он говорит, что был там всё время, но я клянусь, что никогда его не видел.",
+        "learn": 0
+      },
+      {
+        "eng": "I heard him mutter a mild swear word.",
+        "ru": "Я услышал, как он пробормотал мягкое ругательство.",
+        "learn": 0
+      },
+      {
+        "eng": "Victor swore he would get his revenge.",
+        "ru": "Виктор поклялся отомстить.",
+        "learn": 0
+      },
+      {
+        "eng": "The newly elected President was sworn in today.",
+        "ru": "Сегодня новоизбранный президент был приведен к присяге.",
+        "learn": 0
+      },
+      {
+        "eng": "Will you swear to it that you were not present?",
+        "ru": "Вы подтвердите под присягой, что вас там не было?",
+        "learn": 0
+      },
+      {
+        "eng": "They swore allegiance to the government.",
+        "ru": "Они поклялись в верности правительству.",
+        "learn": 0
+      },
+      {
+        "eng": "I do solemnly swear to tell the whole truth.",
+        "ru": "Торжественно клянусь говорить только правду. (клятва свидетеля на судебном процессе)",
+        "learn": 0
+      },
+      {
+        "eng": "Servicemen have to swear an oath of loyalty to their country.",
+        "ru": "Военнослужащие принесли присягу верности своей стране.",
+        "learn": 0
+      },
+      {
+        "eng": "If you tell anyone about this, I swear I'll put the whammy on you.",
+        "ru": "Если вы кому-либо об этом расскажете — клянусь, я прокляну вас.",
+        "learn": 0
+      }
+    ]
+  }
 }

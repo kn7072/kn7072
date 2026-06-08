@@ -1,72 +1,143 @@
 {
-    "infected": {
-        "comment": [
-            "infection",
-            "infectious",
-            "infect"
-        ],
-        "translate": "инфицированный, зараженный",
-        "transcription": " |ˌɪnˈfektəd|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The well is infected.",
-            "He was found to be infected with TB.",
-            "Your computer has been infected with a virus.",
-            "Clean the wound so it doesn't get infected.",
-            "The virus has infected many people.",
-            "The virus has infected many computers.",
-            "We are quit for the fright to be infected.",
-            "The infected people were put into quarantine.",
-            "An infected person will feel a general malaise.",
-            "The hospital quarantined the infected patients.",
-            "The computer game was pirated and became infected.",
-            "Your children have infected you with this head cold.",
-            "Lucy's enthusiasm soon infected the rest of the class.",
-            "He received blood that was infected with the AIDS virus.",
-            "The disease spreads by sexual contact between infected animals.",
-            "Call the doctor immediately if you suspect you've been infected.",
-            "All the computers in the office were infected by the same virus.",
-            "A person can be recently infected by HIV and have a negative result.",
-            "Imperfect metals infected or contaminated with terrestrial feculence.",
-            "The virus is cultured in the laboratory from samples of infected tissue.",
-            "Most people with this insidious disease have no idea that they are infected.",
-            "The children are infected with a mad desire to swim in the lake in midwinter.",
-            "As he warmed to his subject, he infected his listeners with his own excitement.",
-            "Hundreds of animals have died and several more found to be infected with foot-and-mouth disease.",
-            "Meat from the infected animals is regarded as a serious health risk (=something likely to harm people's health)."
-        ],
-        "example_translate": [
-            "Вода в колодце заражена.",
-            "У него был обнаружен туберкулёз.",
-            "Ваш компьютер заражён вирусом.",
-            "Очистите рану, чтобы не произошло заражения.",
-            "Вирус заразил многих людей.",
-            "Этот вирус заразил многие компьютеры.",
-            "Мы избавились от страха заразиться.",
-            "Заражённые люди были помещены в карантин.",
-            "Заражённый человек будет ощущать общее недомогание.",
-            "В больнице инфицированных пациентов поместили в карантин.",
-            "Компьютерная игра была незаконно скопирована и заражена вирусом.",
-            "Этой простудой вас заразили ваши дети.",
-            "Вскоре Люси заразила своим энтузиазмом весь класс.",
-            "Ему перелили кровь, которая была инфицирована вирусом СПИДа.",
-            "Заболевание передаётся путём полового контакта между инфицированными животными.",
-            "Если вы подозреваете, что уже инфицированы, немедленно вызовите врача.",
-            "Все компьютеры в офисе были заражены одним и тем же вирусом.",
-            "Человек может быть недавно инфицированным ВИЧ, и в то же время иметь отрицательный результат теста.",
-            "Дефектные металлы, заражённые или загрязнённые земляными примесями.",
-            "Вирус культивируют в лаборатории из образцов инфицированных тканей.",
-            "Большинство людей с этим коварным заболеванием даже не подозревает о своём заражении.",
-            "Дети вбили себе в голову блажь поплавать в озере посреди зимы.",
-            "Когда он начинал говорить на свою любимую тему, он просто заражал слушателей своим вдохновением.",
-            "Сотни животных погибли от ящура и ещё несколько сотен оказались заражёнными.",
-            "Мясо заражённых животных считается серьезной угрозой для здоровья (т.е. тем, что, скорее всего, нанесёт вред здоровью человека)."
-        ],
-        "synonyms": [],
-        "stars": 0,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "infected": {
+    "comment": [
+      "infection",
+      "infectious",
+      "infect"
+    ],
+    "translate": "инфицированный, зараженный",
+    "transcription": " |ˌɪnˈfektəd|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The well is infected.",
+        "ru": "Вода в колодце заражена.",
+        "learn": 0
+      },
+      {
+        "eng": "He was found to be infected with TB.",
+        "ru": "У него был обнаружен туберкулёз.",
+        "learn": 0
+      },
+      {
+        "eng": "Your computer has been infected with a virus.",
+        "ru": "Ваш компьютер заражён вирусом.",
+        "learn": 1
+      },
+      {
+        "eng": "Clean the wound so it doesn't get infected.",
+        "ru": "Очистите рану, чтобы не произошло заражения.",
+        "learn": 0
+      },
+      {
+        "eng": "The virus has infected many people.",
+        "ru": "Вирус заразил многих людей.",
+        "learn": 1
+      },
+      {
+        "eng": "The virus has infected many computers.",
+        "ru": "Этот вирус заразил многие компьютеры.",
+        "learn": 0
+      },
+      {
+        "eng": "We are quit for the fright to be infected.",
+        "ru": "Мы избавились от страха заразиться.",
+        "learn": 0
+      },
+      {
+        "eng": "The infected people were put into quarantine.",
+        "ru": "Заражённые люди были помещены в карантин.",
+        "learn": 0
+      },
+      {
+        "eng": "An infected person will feel a general malaise.",
+        "ru": "Заражённый человек будет ощущать общее недомогание.",
+        "learn": 0
+      },
+      {
+        "eng": "The hospital quarantined the infected patients.",
+        "ru": "В больнице инфицированных пациентов поместили в карантин.",
+        "learn": 0
+      },
+      {
+        "eng": "The computer game was pirated and became infected.",
+        "ru": "Компьютерная игра была незаконно скопирована и заражена вирусом.",
+        "learn": 0
+      },
+      {
+        "eng": "Your children have infected you with this head cold.",
+        "ru": "Этой простудой вас заразили ваши дети.",
+        "learn": 0
+      },
+      {
+        "eng": "Lucy's enthusiasm soon infected the rest of the class.",
+        "ru": "Вскоре Люси заразила своим энтузиазмом весь класс.",
+        "learn": 1
+      },
+      {
+        "eng": "He received blood that was infected with the AIDS virus.",
+        "ru": "Ему перелили кровь, которая была инфицирована вирусом СПИДа.",
+        "learn": 0
+      },
+      {
+        "eng": "The disease spreads by sexual contact between infected animals.",
+        "ru": "Заболевание передаётся путём полового контакта между инфицированными животными.",
+        "learn": 0
+      },
+      {
+        "eng": "Call the doctor immediately if you suspect you've been infected.",
+        "ru": "Если вы подозреваете, что уже инфицированы, немедленно вызовите врача.",
+        "learn": 1
+      },
+      {
+        "eng": "All the computers in the office were infected by the same virus.",
+        "ru": "Все компьютеры в офисе были заражены одним и тем же вирусом.",
+        "learn": 0
+      },
+      {
+        "eng": "A person can be recently infected by HIV and have a negative result.",
+        "ru": "Человек может быть недавно инфицированным ВИЧ, и в то же время иметь отрицательный результат теста.",
+        "learn": 0
+      },
+      {
+        "eng": "Imperfect metals infected or contaminated with terrestrial feculence.",
+        "ru": "Дефектные металлы, заражённые или загрязнённые земляными примесями.",
+        "learn": 0
+      },
+      {
+        "eng": "The virus is cultured in the laboratory from samples of infected tissue.",
+        "ru": "Вирус культивируют в лаборатории из образцов инфицированных тканей.",
+        "learn": 1
+      },
+      {
+        "eng": "Most people with this insidious disease have no idea that they are infected.",
+        "ru": "Большинство людей с этим коварным заболеванием даже не подозревает о своём заражении.",
+        "learn": 0
+      },
+      {
+        "eng": "The children are infected with a mad desire to swim in the lake in midwinter.",
+        "ru": "Дети вбили себе в голову блажь поплавать в озере посреди зимы.",
+        "learn": 0
+      },
+      {
+        "eng": "As he warmed to his subject, he infected his listeners with his own excitement.",
+        "ru": "Когда он начинал говорить на свою любимую тему, он просто заражал слушателей своим вдохновением.",
+        "learn": 0
+      },
+      {
+        "eng": "Hundreds of animals have died and several more found to be infected with foot-and-mouth disease.",
+        "ru": "Сотни животных погибли от ящура и ещё несколько сотен оказались заражёнными.",
+        "learn": 0
+      },
+      {
+        "eng": "Meat from the infected animals is regarded as a serious health risk (=something likely to harm people's health).",
+        "ru": "Мясо заражённых животных считается серьезной угрозой для здоровья (т.е. тем, что, скорее всего, нанесёт вред здоровью человека).",
+        "learn": 0
+      }
+    ]
+  }
 }

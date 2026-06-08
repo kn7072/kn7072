@@ -1,80 +1,166 @@
 {
-    "crisis": {
-        "comment": [
-            "crisp"
-        ],
-        "translate": "кризис, перелом, кризисный",
-        "transcription": " |ˈkraɪsɪs|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "When will the crisis come to a head?",
-            "The crisis flattened the market.",
-            "She's a woman who can think fast in a crisis.",
-            "last year's state budget crisis",
-            "An economic crisis is looming on the horizon.",
-            "The crisis had eventuated favourably.",
-            "The country now faces an economic crisis.",
-            "We must act soon to end this crisis.",
-            "His children failed him in the crisis.",
-            "Her death precipitated a family crisis.",
-            "Maserati staggered from crisis to crisis.",
-            "A year ago, both companies were in crisis.",
-            "The crisis has caused oil prices to skyrocket.",
-            "He acted sensibly in the crisis.",
-            "He was her rock during the crisis.",
-            "The car industry is now in crisis.",
-            "She handled the crisis with facility.",
-            "This crisis calls for immediate action.",
-            "This crisis requires a measured response.",
-            "She has reached a crisis point in her career.",
-            "There is a crisis of identity in adolescence.",
-            "The crisis prompted a rising tide of protest.",
-            "The death of Edward III determined the crisis.",
-            "the crisis precipitated by Russia's revolution",
-            "The war has aggravated an acute economic crisis.",
-            "We were not prepared to face this type of crisis.",
-            "a coolheaded response to the crisis",
-            "He seems to be going through a crisis.",
-            "He dealt inefficiently with the crisis.",
-            "The crisis was resolved by negotiations."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Когда кризис достигнет своего апогея?",
-            "Кризис снизил активность на рынках практически до нуля.",
-            "Это женщина, которая умеет быстро соображать в критической ситуации.",
-            "прошлогодний кризис государственного бюджета",
-            "Экономический кризис уже не за горами.",
-            "Кризис успешно преодолён.",
-            "Сейчас страна стоит перед лицом экономического кризиса.",
-            "Мы должны действовать быстро, чтобы положить конец этому кризису.",
-            "Дети подвели его в критический момент.",
-            "Её смерть усугубила семейный кризис.",
-            "Компания \"Мазерати\" переживала череду кризисов.",
-            "Год назад обе компании переживали кризис.",
-            "Кризис вызвал резкий скачок цен на нефть.",
-            "В данной критической ситуации он поступил разумно.",
-            "Он был её опорой в период кризиса.",
-            "Автомобильная промышленность сейчас находится в кризисе.",
-            "Она легко справилась с кризисом.",
-            "Этот кризис требует незамедлительных действий.",
-            "Этот кризис требует взвешенного ответа.",
-            "Она достигла переломной точки в своей карьере.",
-            "В период полового созревания наступает кризис осознания собственной идентичности.",
-            "Кризис стал причиной растущей волны протеста.",
-            "Смерть Эдуарда III положила конец данному кризису.",
-            "кризис, подстёгнутый революцией в России",
-            "Война усугубила острый экономический кризис.",
-            "Мы не были готовы столкнуться с такого рода кризисом.",
-            "хладнокровная реакция на кризис",
-            "Похоже, он сейчас переживает кризис.",
-            "С кризисом он справился не лучшим образом.",
-            "Кризис был урегулирован путём переговоров."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "crisis": {
+    "comment": [
+      "crisp"
+    ],
+    "translate": "кризис, перелом, кризисный",
+    "transcription": " |ˈkraɪsɪs|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "When will the crisis come to a head?",
+        "ru": "Когда кризис достигнет своего апогея?",
+        "learn": 0
+      },
+      {
+        "eng": "The crisis flattened the market.",
+        "ru": "Кризис снизил активность на рынках практически до нуля.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a woman who can think fast in a crisis.",
+        "ru": "Это женщина, которая умеет быстро соображать в критической ситуации.",
+        "learn": 0
+      },
+      {
+        "eng": "last year's state budget crisis",
+        "ru": "прошлогодний кризис государственного бюджета",
+        "learn": 0
+      },
+      {
+        "eng": "An economic crisis is looming on the horizon.",
+        "ru": "Экономический кризис уже не за горами.",
+        "learn": 0
+      },
+      {
+        "eng": "The crisis had eventuated favourably.",
+        "ru": "Кризис успешно преодолён.",
+        "learn": 0
+      },
+      {
+        "eng": "The country now faces an economic crisis.",
+        "ru": "Сейчас страна стоит перед лицом экономического кризиса.",
+        "learn": 0
+      },
+      {
+        "eng": "We must act soon to end this crisis.",
+        "ru": "Мы должны действовать быстро, чтобы положить конец этому кризису.",
+        "learn": 0
+      },
+      {
+        "eng": "His children failed him in the crisis.",
+        "ru": "Дети подвели его в критический момент.",
+        "learn": 0
+      },
+      {
+        "eng": "Her death precipitated a family crisis.",
+        "ru": "Её смерть усугубила семейный кризис.",
+        "learn": 0
+      },
+      {
+        "eng": "Maserati staggered from crisis to crisis.",
+        "ru": "Компания \"Мазерати\" переживала череду кризисов.",
+        "learn": 0
+      },
+      {
+        "eng": "A year ago, both companies were in crisis.",
+        "ru": "Год назад обе компании переживали кризис.",
+        "learn": 0
+      },
+      {
+        "eng": "The crisis has caused oil prices to skyrocket.",
+        "ru": "Кризис вызвал резкий скачок цен на нефть.",
+        "learn": 0
+      },
+      {
+        "eng": "He acted sensibly in the crisis.",
+        "ru": "В данной критической ситуации он поступил разумно.",
+        "learn": 0
+      },
+      {
+        "eng": "He was her rock during the crisis.",
+        "ru": "Он был её опорой в период кризиса.",
+        "learn": 0
+      },
+      {
+        "eng": "The car industry is now in crisis.",
+        "ru": "Автомобильная промышленность сейчас находится в кризисе.",
+        "learn": 0
+      },
+      {
+        "eng": "She handled the crisis with facility.",
+        "ru": "Она легко справилась с кризисом.",
+        "learn": 0
+      },
+      {
+        "eng": "This crisis calls for immediate action.",
+        "ru": "Этот кризис требует незамедлительных действий.",
+        "learn": 0
+      },
+      {
+        "eng": "This crisis requires a measured response.",
+        "ru": "Этот кризис требует взвешенного ответа.",
+        "learn": 0
+      },
+      {
+        "eng": "She has reached a crisis point in her career.",
+        "ru": "Она достигла переломной точки в своей карьере.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a crisis of identity in adolescence.",
+        "ru": "В период полового созревания наступает кризис осознания собственной идентичности.",
+        "learn": 0
+      },
+      {
+        "eng": "The crisis prompted a rising tide of protest.",
+        "ru": "Кризис стал причиной растущей волны протеста.",
+        "learn": 0
+      },
+      {
+        "eng": "The death of Edward III determined the crisis.",
+        "ru": "Смерть Эдуарда III положила конец данному кризису.",
+        "learn": 0
+      },
+      {
+        "eng": "the crisis precipitated by Russia's revolution",
+        "ru": "кризис, подстёгнутый революцией в России",
+        "learn": 0
+      },
+      {
+        "eng": "The war has aggravated an acute economic crisis.",
+        "ru": "Война усугубила острый экономический кризис.",
+        "learn": 0
+      },
+      {
+        "eng": "We were not prepared to face this type of crisis.",
+        "ru": "Мы не были готовы столкнуться с такого рода кризисом.",
+        "learn": 1
+      },
+      {
+        "eng": "a coolheaded response to the crisis",
+        "ru": "хладнокровная реакция на кризис",
+        "learn": 0
+      },
+      {
+        "eng": "He seems to be going through a crisis.",
+        "ru": "Похоже, он сейчас переживает кризис.",
+        "learn": 0
+      },
+      {
+        "eng": "He dealt inefficiently with the crisis.",
+        "ru": "С кризисом он справился не лучшим образом.",
+        "learn": 0
+      },
+      {
+        "eng": "The crisis was resolved by negotiations.",
+        "ru": "Кризис был урегулирован путём переговоров.",
+        "learn": 0
+      }
+    ]
+  }
 }

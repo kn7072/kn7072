@@ -1,80 +1,166 @@
 {
-    "British": {
-        "comment": [
-            "english"
-        ],
-        "translate": "британский, английский, англичане, британцы",
-        "transcription": " |ˈbrɪtɪʃ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "British Museum",
-            "British Lion",
-            "British Corporation",
-            "British pop star Elton John",
-            "British Overseas Trade Board",
-            "Arsenal rules OK.",
-            "British Summer Time",
-            "British passport holders",
-            "He has British nationality.",
-            "Six British sailors drowned.",
-            "British Textile Confederation",
-            "Association of British Factors",
-            "'House-trained' is chiefly British.",
-            "The British created a great empire.",
-            "British Commonwealth of Nations",
-            "Do you hold a British passport?",
-            "British sailors feared the cat.",
-            "She's British to her fingertips.",
-            "'Skint' is a British slang term.",
-            "Confederation of British Industry",
-            "a British film dubbed into French",
-            "The British call a tv set a telly.",
-            "British Overseas Banks Association",
-            "British expatriates living in Spain",
-            "a galaxy of British artistic talent",
-            "Should the British Army accept gays?",
-            "The British colonized the East Coast.",
-            "British newspapers are highly partisan.",
-            "The British left in a convoy of 20 cars.",
-            "She has applied for British citizenship."
-        ],
-        "example_translate": [
-            "Британский музей",
-            "Британский лев (национальная эмблема Великобритании)",
-            "Британская Корпорация",
-            "английская поп-звезда Элтон Джон",
-            "Британская внешнеторговая палата",
-            "\"Арсенал\" — круче всех!",
-            "Британское летнее время",
-            "обладатели британского паспорта",
-            "У него английское подданство.",
-            "Шестеро британских моряков утонули.",
-            "Британская конфедерация текстиля",
-            "Ассоциация британских факторинговых компаний",
-            "К туалету приучены, в основном, \"британцы\". (о домашних животных)",
-            "Британцы создали великую империю.",
-            "Британское Содружество (наций)",
-            "У тебя есть британский паспорт?",
-            "Английские моряки страшились \"кошки\" /плети/. (the cat — кошка-девятихвостка, плеть с 9 и более хвостами)",
-            "Она — британка до мозга костей.",
-            "Слово \"skint\" (голяк, на мели, без гроша в кармане) — это британское жаргонное выражение.",
-            "Конфедерация британской промышленности",
-            "английский фильм, дублированный на французском языке",
-            "Англичане называют телевизор словом \"telly\".",
-            "Британская ассоциация банков, действующих за границей",
-            "английские экспатрианты, проживающие в Испании",
-            "плеяда талантливых британских артистов",
-            "Нужно ли принимать в Британскую армию гомосексуалистов?",
-            "Англичане колонизировали восточное побережье.",
-            "Английские газеты в высшей степени пристрастны.",
-            "Англичане ушли в колонне из двадцати машин.",
-            "Она подала заявление на получение британского гражданства."
-        ],
-        "synonyms": [],
-        "stars": 0,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "British": {
+    "comment": [
+      "english"
+    ],
+    "translate": "британский, английский, англичане, британцы",
+    "transcription": " |ˈbrɪtɪʃ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "British Museum",
+        "ru": "Британский музей",
+        "learn": 0
+      },
+      {
+        "eng": "British Lion",
+        "ru": "Британский лев (национальная эмблема Великобритании)",
+        "learn": 0
+      },
+      {
+        "eng": "British Corporation",
+        "ru": "Британская Корпорация",
+        "learn": 0
+      },
+      {
+        "eng": "British pop star Elton John",
+        "ru": "английская поп-звезда Элтон Джон",
+        "learn": 0
+      },
+      {
+        "eng": "British Overseas Trade Board",
+        "ru": "Британская внешнеторговая палата",
+        "learn": 0
+      },
+      {
+        "eng": "Arsenal rules OK.",
+        "ru": "\"Арсенал\" — круче всех!",
+        "learn": 0
+      },
+      {
+        "eng": "British Summer Time",
+        "ru": "Британское летнее время",
+        "learn": 0
+      },
+      {
+        "eng": "British passport holders",
+        "ru": "обладатели британского паспорта",
+        "learn": 0
+      },
+      {
+        "eng": "He has British nationality.",
+        "ru": "У него английское подданство.",
+        "learn": 1
+      },
+      {
+        "eng": "Six British sailors drowned.",
+        "ru": "Шестеро британских моряков утонули.",
+        "learn": 0
+      },
+      {
+        "eng": "British Textile Confederation",
+        "ru": "Британская конфедерация текстиля",
+        "learn": 0
+      },
+      {
+        "eng": "Association of British Factors",
+        "ru": "Ассоциация британских факторинговых компаний",
+        "learn": 0
+      },
+      {
+        "eng": "'House-trained' is chiefly British.",
+        "ru": "К туалету приучены, в основном, \"британцы\". (о домашних животных)",
+        "learn": 0
+      },
+      {
+        "eng": "The British created a great empire.",
+        "ru": "Британцы создали великую империю.",
+        "learn": 1
+      },
+      {
+        "eng": "British Commonwealth of Nations",
+        "ru": "Британское Содружество (наций)",
+        "learn": 0
+      },
+      {
+        "eng": "Do you hold a British passport?",
+        "ru": "У тебя есть британский паспорт?",
+        "learn": 1
+      },
+      {
+        "eng": "British sailors feared the cat.",
+        "ru": "Английские моряки страшились \"кошки\" /плети/. (the cat — кошка-девятихвостка, плеть с 9 и более хвостами)",
+        "learn": 0
+      },
+      {
+        "eng": "She's British to her fingertips.",
+        "ru": "Она — британка до мозга костей.",
+        "learn": 0
+      },
+      {
+        "eng": "'Skint' is a British slang term.",
+        "ru": "Слово \"skint\" (голяк, на мели, без гроша в кармане) — это британское жаргонное выражение.",
+        "learn": 0
+      },
+      {
+        "eng": "Confederation of British Industry",
+        "ru": "Конфедерация британской промышленности",
+        "learn": 0
+      },
+      {
+        "eng": "a British film dubbed into French",
+        "ru": "английский фильм, дублированный на французском языке",
+        "learn": 0
+      },
+      {
+        "eng": "The British call a tv set a telly.",
+        "ru": "Англичане называют телевизор словом \"telly\".",
+        "learn": 0
+      },
+      {
+        "eng": "British Overseas Banks Association",
+        "ru": "Британская ассоциация банков, действующих за границей",
+        "learn": 0
+      },
+      {
+        "eng": "British expatriates living in Spain",
+        "ru": "английские экспатрианты, проживающие в Испании",
+        "learn": 0
+      },
+      {
+        "eng": "a galaxy of British artistic talent",
+        "ru": "плеяда талантливых британских артистов",
+        "learn": 0
+      },
+      {
+        "eng": "Should the British Army accept gays?",
+        "ru": "Нужно ли принимать в Британскую армию гомосексуалистов?",
+        "learn": 0
+      },
+      {
+        "eng": "The British colonized the East Coast.",
+        "ru": "Англичане колонизировали восточное побережье.",
+        "learn": 0
+      },
+      {
+        "eng": "British newspapers are highly partisan.",
+        "ru": "Английские газеты в высшей степени пристрастны.",
+        "learn": 0
+      },
+      {
+        "eng": "The British left in a convoy of 20 cars.",
+        "ru": "Англичане ушли в колонне из двадцати машин.",
+        "learn": 0
+      },
+      {
+        "eng": "She has applied for British citizenship.",
+        "ru": "Она подала заявление на получение британского гражданства.",
+        "learn": 1
+      }
+    ]
+  }
 }

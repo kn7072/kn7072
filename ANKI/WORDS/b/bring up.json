@@ -1,39 +1,214 @@
 {
-    "bring up": {
-        "comment": [],
-        "translate": "1) Воспитывать, растить (детей) 2) Поднимать (тему, вопрос) ",
-        "transcription": " |ˈbrɪŋ ʌp|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He brought up an interesting point.",
-            "It's hard to bring up children alone.",
-            "They brought up three children.",
-            "She brought up the issue during the meeting.",
-            "Why did you bring that up?",
-            "He was brought up in a strict household.",
-            "They brought up their kids to be respectful.",
-            "Don't bring up that topic again.",
-            "Let's not bring up the past.",
-            "She was brought up by her grandmother."
-        ],
-        "example_translate": [
-            "Он поднял интересный момент.",
-            "Трудно воспитывать детей в одиночку.",
-            "Они вырастили троих детей.",
-            "Она подняла вопрос во время встречи.",
-            "Зачем ты это поднял?",
-            "Его воспитывали в строгой семье.",
-            "Они воспитали своих детей уважительными.",
-            "Не поднимай эту тему снова.",
-            "Давай не будем поднимать прошлое.",
-            "Её воспитала бабушка."
-        ],
-        "synonyms": "Воспитывать, растить (детей) - raise, rear, nurture\nПоднимать (тему, вопрос) - mention, raise, introduce\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "bring up": {
+    "comment": [],
+    "translate": "1) Воспитывать, растить (детей) 2) Поднимать (тему, вопрос) ",
+    "transcription": " |ˈbrɪŋ ʌp|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Воспитывать, растить (детей) - raise, rear, nurture",
+      "Поднимать (тему, вопрос) - mention, raise, introduce"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "He brought up an interesting point.",
+        "ru": "Он поднял интересный момент.",
+        "learn": 1
+      },
+      {
+        "eng": "It's hard to bring up children alone.",
+        "ru": "Трудно воспитывать детей в одиночку.",
+        "learn": 1
+      },
+      {
+        "eng": "They brought up three children.",
+        "ru": "Они вырастили троих детей.",
+        "learn": 1
+      },
+      {
+        "eng": "She brought up the issue during the meeting.",
+        "ru": "Она подняла вопрос во время встречи.",
+        "learn": 1
+      },
+      {
+        "eng": "Why did you bring that up?",
+        "ru": "Зачем ты это поднял?",
+        "learn": 1
+      },
+      {
+        "eng": "He was brought up in a strict household.",
+        "ru": "Его воспитывали в строгой семье.",
+        "learn": 1
+      },
+      {
+        "eng": "They brought up their kids to be respectful.",
+        "ru": "Они воспитали своих детей уважительными.",
+        "learn": 1
+      },
+      {
+        "eng": "Don't bring up that topic again.",
+        "ru": "Не поднимай эту тему снова.",
+        "learn": 1
+      },
+      {
+        "eng": "Let's not bring up the past.",
+        "ru": "Давай не будем поднимать прошлое.",
+        "learn": 1
+      },
+      {
+        "eng": "She was brought up by her grandmother.",
+        "ru": "Её воспитала бабушка.",
+        "learn": 1
+      },
+      {
+        "eng": "My aunt brought up four children.",
+        "ru": "Моя тётка вырастила четверых детей.",
+        "learn": 0
+      },
+      {
+        "eng": "I was brought up to respect the law.",
+        "ru": "Меня воспитывали в уважении к закону.",
+        "learn": 0
+      },
+      {
+        "eng": "I hate to bring this up, but we're running short of money.",
+        "ru": "Мне неприятно об этом говорить, но у нас заканчиваются деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "The director brought Jim up for being late again.",
+        "ru": "Директор отругал Джима за очередное опоздание.",
+        "learn": 0
+      },
+      {
+        "eng": "People had very set ideas about how to bring up children.",
+        "ru": "У людей были очень устоявшиеся представления о том, как нужно воспитывать детей.",
+        "learn": 0
+      },
+      {
+        "eng": "Jane can't come, she's been bringing up all morning.",
+        "ru": "Джейн не может прийти, её всё утро тошнило.",
+        "learn": 0
+      },
+      {
+        "eng": "Your prison record may be brought up against you.",
+        "ru": "Против тебя может быть использовано то, что ты сидел.",
+        "learn": 0
+      },
+      {
+        "eng": "Why did you have to bring up the subject of money?",
+        "ru": "Почему тебе обязательно нужно было поднимать тему денег?",
+        "learn": 0
+      },
+      {
+        "eng": "That's a sore subject to bring up.",
+        "ru": "Это больная тема для обсуждения.",
+        "learn": 0
+      },
+      {
+        "eng": "Your suggestion will be brought up at the next meeting.",
+        "ru": "Ваше предложение будет рассмотрено на следующем заседании.",
+        "learn": 0
+      },
+      {
+        "eng": "It was tactless to bring up those disagreeable.",
+        "ru": "Выносить на обсуждение несогласных было бестактно.",
+        "learn": 0
+      },
+      {
+        "eng": "I need to break the news to her, but I'm not sure how to bring up the subject.",
+        "ru": "Мне нужно сообщить ей эту новость, но я не знаю, как завести об этом разговор.",
+        "learn": 0
+      },
+      {
+        "eng": "This sum will bring the total up to $200 exactly.",
+        "ru": "С этой суммой общий итог достигнет 200 долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "The horse is running away, can't you bring him up?",
+        "ru": "Лошадь понесла, ты можешь ее остановить?",
+        "learn": 0
+      },
+      {
+        "eng": "Trying to bring up a small daughter on your own is no easy task.",
+        "ru": "Пытаться воспитывать маленькую дочь в одиночку — задача не из лёгких.",
+        "learn": 0
+      },
+      {
+        "eng": "Amy's husband had run off and left her with two children to bring up.",
+        "ru": "Муж Эми сбежал и оставил её воспитывать двоих детей.",
+        "learn": 0
+      },
+      {
+        "eng": "There's no need to bring up his past when we are considering him for employment.",
+        "ru": "Нет нужды выяснять, что у него было в прошлом, если мы собираемся брать его на работу.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you bring up the list of candidates again?",
+        "ru": "Ты не мог бы ещё раз вывести на экран список кандидатов?",
+        "learn": 0
+      },
+      {
+        "eng": "The chairman brought up the question of corruption in the police force.",
+        "ru": "Председатель поднял вопрос о коррупции в полиции.",
+        "learn": 0
+      },
+      {
+        "eng": "This is the third time that Peter has been brought up before the court for drunken driving.",
+        "ru": "Уже третий раз Питера вызывают в суд за управление автомобилем в нетрезвом состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "Carole was left to bring up the rear.",
+        "ru": "Кэрол осталась в самом конце (очереди или гонки).",
+        "learn": 0
+      },
+      {
+        "eng": "She's struggling to bring up a family alone.",
+        "ru": "Она изо всех старается содержать семью в одиночку.",
+        "learn": 0
+      },
+      {
+        "eng": "The growing trend is for single mothers to bring up children by themselves.",
+        "ru": "Среди матерей-одиночек растёт тенденция воспитывать детей самостоятельно.",
+        "learn": 0
+      },
+      {
+        "eng": "Things were working well, when we were brought up against unexpected delays.",
+        "ru": "Всё шло хорошо, и вдруг непредвиденные задержки.",
+        "learn": 0
+      },
+      {
+        "eng": "It takes an immense commitment and a lot of love to bring up a child properly.",
+        "ru": "Чтобы правильно воспитать ребенка, нужно огромное самопожертвование и очень много любви.",
+        "learn": 0
+      },
+      {
+        "eng": "The supervisor is quite approachable, so don't hesitate to bring up any problems you have.",
+        "ru": "Этот начальник — человек вполне доступный, так что не стесняйтесь сообщать ему о любых проблемах.",
+        "learn": 0
+      },
+      {
+        "eng": "Mr Chairman, I should like to bring up the question of the reorganization of the committees.",
+        "ru": "Господин председатель, я хотел бы поднять вопрос о реорганизации комитетов.",
+        "learn": 0
+      },
+      {
+        "eng": "The supervisor is quite easy to approach, so don't hesitate to bring up any problems you have.",
+        "ru": "Супервайзер — человек вполне доступный, так что не стесняйтесь сообщать ему о любых возникших у вас проблемах.",
+        "learn": 0
+      },
+      {
+        "eng": "It's bad enough having to bring up three kids on your own without having to worry about money as well!",
+        "ru": "Мало того, что приходится одной воспитывать троих детей, так ещё нужно волноваться о деньгах!",
+        "learn": 0
+      }
+    ]
+  }
 }

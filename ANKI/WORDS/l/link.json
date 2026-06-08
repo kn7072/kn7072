@@ -1,84 +1,171 @@
 {
-    "link": {
-        "comment": [
-            "blink"
-        ],
-        "translate": "ссылка, связь, соединение, линия связи, связывать, соединять, компоновать",
-        "transcription": " |lɪŋk|",
-        "antonyms": [],
-        "mnemonic": [
-            "link [линк] связь, звено - «Скай (Линк)» связь, или звено?.",
-            "link [lɪŋk]\n***\nСОЕДИНИТ нас ТП Линк. (это) link\nСсылка, связь, соединение., факел."
-        ],
-        "examples": [
-            "A long bridge links Venice and the mainland.",
-            "The railway line links the two towns together.",
-            "A love of nature links the two poets.",
-            "A chain will break at its weakest link.",
-            "the weak link in the chain",
-            "establishing a link between diet and cancer",
-            "The prisoners were linked to each other by irons around their legs.",
-            "There is a causal link between poverty and crime.",
-            "Man seems to be placed as the middle link between Angels and Brutes.",
-            "The climbers were linked together by ropes.",
-            "Cross references in the catalogue link subjects which may be coordinate.",
-            "The middle class sprang into full being as a link between the nobility and the common people.",
-            "Exactly how do we link words to objects?",
-            "Pay increases will now be linked to performance.",
-            "There is a direct link between poverty and ill-health.",
-            "Strong family ties still linked them together.",
-            "Thus, in the abyssal deeps of the ocean these bacteria form the first link in a food chain which supports thriving communities of submarine creatures.",
-            "The pipe must be linked to the cold water supply.",
-            "It is easiest to break a chain at its weakest link.",
-            "It is useful link between the amateurs and the professors of pugilism.",
-            "There's mounting evidence of a link between obesity and some forms of cancer.",
-            "He argues that there is an inextricable link between poverty and poor health.",
-            "Send an email to the above address to report a broken link (=a link that is not working properly).",
-            "The company has strong links with big investors.",
-            "the indissoluble link between language and culture",
-            "Local terminals are linked to the central computer.",
-            "He denied reports linking him to Colombian drug dealers.",
-            "The railway link would connect Felixstowe with Fishguard.",
-            "The next stage is to link the film up with the soundtrack.",
-            "Organizers of the project hope that international links will be forged."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Длинный мост соединяет Венецию с материком",
-            "Два города связаны железной дорогой.",
-            "Этих двух поэтов связывает любовь к природе.",
-            "Где тонко — там и рвётся. (букв. цепь рвётся на самом слабом звене)",
-            "слабое звено в цепи",
-            "установление связи между питанием и раком",
-            "Пленники были прикованы друг к другу за ноги.",
-            "Между бедностью и преступностью существует причинно-следственная связь.",
-            "Кажется, что человек является связующим звеном между ангелами и силами зла.",
-            "Альпинисты были связаны друг с другом тросами.",
-            "Перекрестные ссылки в каталоге связывают темы, которые могут быть сопоставимы.",
-            "Средний класс возник как связующее звено между аристократией и простым народом.",
-            "Как именно мы связываем слова с объектами?",
-            "Повышение оплаты труда теперь будет зависеть от производственных показателей.",
-            "Между бедностью и плохим здоровьем существует прямая связь.",
-            "Их по-прежнему связывали крепкие семейные узы.",
-            "Таким образом, эти глубоководные бактерии образуют первое звено пищевой цепочки, обеспечивающей жизнедеятельность разнообразной подводной фауны.",
-            "Эту трубу необходимо подсоединить к холодному водоснабжению.",
-            "Цепь легче всего рвётся на самом слабом звене.",
-            "Это полезная связь между любителями и профессионалами в боксе.",
-            "Всё больше становится доказательств связи между ожирением и некоторыми видами рака.",
-            "Он утверждает, что между бедностью и плохим состоянием здоровья существует неразрывная связь.",
-            "Отправьте письмо на указанный выше адрес, чтобы сообщить о неработающей ссылке (т.е. ссылке, которая не работает должным образом).",
-            "Компания имеет прочные связи с крупными инвесторами.",
-            "неразрывная связь языка и культуры",
-            "Местные терминалы соединяются с центральным компьютером.",
-            "Он опроверг информацию о своей причастности к колумбийским наркокартелям.",
-            "Железнодорожная линия свяжет Феликстоу с Фишгардом.",
-            "На следующем этапе нужно связать видеоплёнку со звуковой дорожкой.",
-            "Организаторы проекта надеются, что удастся завязать международные связи."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "n_=_[ŋ]"
-        ]
-    }
+  "link": {
+    "comment": [
+      "blink"
+    ],
+    "translate": "ссылка, связь, соединение, линия связи, связывать, соединять, компоновать",
+    "transcription": " |lɪŋk|",
+    "antonyms": [],
+    "mnemonic": [
+      "link [линк] связь, звено - «Скай (Линк)» связь, или звено?.",
+      "link [lɪŋk]\n***\nСОЕДИНИТ нас ТП Линк. (это) link\nСсылка, связь, соединение., факел."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "n_=_[ŋ]"
+    ],
+    "examples": [
+      {
+        "eng": "A long bridge links Venice and the mainland.",
+        "ru": "Длинный мост соединяет Венецию с материком",
+        "learn": 0
+      },
+      {
+        "eng": "The railway line links the two towns together.",
+        "ru": "Два города связаны железной дорогой.",
+        "learn": 0
+      },
+      {
+        "eng": "A love of nature links the two poets.",
+        "ru": "Этих двух поэтов связывает любовь к природе.",
+        "learn": 0
+      },
+      {
+        "eng": "A chain will break at its weakest link.",
+        "ru": "Где тонко — там и рвётся. (букв. цепь рвётся на самом слабом звене)",
+        "learn": 0
+      },
+      {
+        "eng": "the weak link in the chain",
+        "ru": "слабое звено в цепи",
+        "learn": 0
+      },
+      {
+        "eng": "establishing a link between diet and cancer",
+        "ru": "установление связи между питанием и раком",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoners were linked to each other by irons around their legs.",
+        "ru": "Пленники были прикованы друг к другу за ноги.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a causal link between poverty and crime.",
+        "ru": "Между бедностью и преступностью существует причинно-следственная связь.",
+        "learn": 1
+      },
+      {
+        "eng": "Man seems to be placed as the middle link between Angels and Brutes.",
+        "ru": "Кажется, что человек является связующим звеном между ангелами и силами зла.",
+        "learn": 0
+      },
+      {
+        "eng": "The climbers were linked together by ropes.",
+        "ru": "Альпинисты были связаны друг с другом тросами.",
+        "learn": 0
+      },
+      {
+        "eng": "Cross references in the catalogue link subjects which may be coordinate.",
+        "ru": "Перекрестные ссылки в каталоге связывают темы, которые могут быть сопоставимы.",
+        "learn": 0
+      },
+      {
+        "eng": "The middle class sprang into full being as a link between the nobility and the common people.",
+        "ru": "Средний класс возник как связующее звено между аристократией и простым народом.",
+        "learn": 0
+      },
+      {
+        "eng": "Exactly how do we link words to objects?",
+        "ru": "Как именно мы связываем слова с объектами?",
+        "learn": 0
+      },
+      {
+        "eng": "Pay increases will now be linked to performance.",
+        "ru": "Повышение оплаты труда теперь будет зависеть от производственных показателей.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a direct link between poverty and ill-health.",
+        "ru": "Между бедностью и плохим здоровьем существует прямая связь.",
+        "learn": 0
+      },
+      {
+        "eng": "Strong family ties still linked them together.",
+        "ru": "Их по-прежнему связывали крепкие семейные узы.",
+        "learn": 0
+      },
+      {
+        "eng": "Thus, in the abyssal deeps of the ocean these bacteria form the first link in a food chain which supports thriving communities of submarine creatures.",
+        "ru": "Таким образом, эти глубоководные бактерии образуют первое звено пищевой цепочки, обеспечивающей жизнедеятельность разнообразной подводной фауны.",
+        "learn": 0
+      },
+      {
+        "eng": "The pipe must be linked to the cold water supply.",
+        "ru": "Эту трубу необходимо подсоединить к холодному водоснабжению.",
+        "learn": 0
+      },
+      {
+        "eng": "It is easiest to break a chain at its weakest link.",
+        "ru": "Цепь легче всего рвётся на самом слабом звене.",
+        "learn": 0
+      },
+      {
+        "eng": "It is useful link between the amateurs and the professors of pugilism.",
+        "ru": "Это полезная связь между любителями и профессионалами в боксе.",
+        "learn": 0
+      },
+      {
+        "eng": "There's mounting evidence of a link between obesity and some forms of cancer.",
+        "ru": "Всё больше становится доказательств связи между ожирением и некоторыми видами рака.",
+        "learn": 0
+      },
+      {
+        "eng": "He argues that there is an inextricable link between poverty and poor health.",
+        "ru": "Он утверждает, что между бедностью и плохим состоянием здоровья существует неразрывная связь.",
+        "learn": 0
+      },
+      {
+        "eng": "Send an email to the above address to report a broken link (=a link that is not working properly).",
+        "ru": "Отправьте письмо на указанный выше адрес, чтобы сообщить о неработающей ссылке (т.е. ссылке, которая не работает должным образом).",
+        "learn": 0
+      },
+      {
+        "eng": "The company has strong links with big investors.",
+        "ru": "Компания имеет прочные связи с крупными инвесторами.",
+        "learn": 0
+      },
+      {
+        "eng": "the indissoluble link between language and culture",
+        "ru": "неразрывная связь языка и культуры",
+        "learn": 0
+      },
+      {
+        "eng": "Local terminals are linked to the central computer.",
+        "ru": "Местные терминалы соединяются с центральным компьютером.",
+        "learn": 0
+      },
+      {
+        "eng": "He denied reports linking him to Colombian drug dealers.",
+        "ru": "Он опроверг информацию о своей причастности к колумбийским наркокартелям.",
+        "learn": 0
+      },
+      {
+        "eng": "The railway link would connect Felixstowe with Fishguard.",
+        "ru": "Железнодорожная линия свяжет Феликстоу с Фишгардом.",
+        "learn": 0
+      },
+      {
+        "eng": "The next stage is to link the film up with the soundtrack.",
+        "ru": "На следующем этапе нужно связать видеоплёнку со звуковой дорожкой.",
+        "learn": 0
+      },
+      {
+        "eng": "Organizers of the project hope that international links will be forged.",
+        "ru": "Организаторы проекта надеются, что удастся завязать международные связи.",
+        "learn": 0
+      }
+    ]
+  }
 }

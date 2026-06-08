@@ -1,61 +1,114 @@
 {
-    "distribution": {
-        "comment": [
-            "district",
-            "distribute",
-            "distributor",
-            "distributed"
-        ],
-        "translate": "распределение, распространение, дистрибуция, раздача, рассылка, разверстка",
-        "transcription": " |ˌdɪstrɪˈbjuːʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She was responsible for product distribution.",
-            "He was taken in at the distribution of the profits.",
-            "The new design provides better weight distribution.",
-            "The university does not permit distribution of leaflets on campus.",
-            "Gaussian distribution",
-            "The Russian government centralized the distribution of food.",
-            "an equitable distribution of food supplies",
-            "The group collects food and clothing for distribution to needy families.",
-            "Weibull distribution",
-            "Erlangian distribution",
-            "the spatial distribution of the population",
-            "After the revolution, food distribution was decentralized.",
-            "A vast system of production and distribution and consumption keep the country going.",
-            "The next major challenge for the company is to improve its distribution capabilities.",
-            "the bipolar distribution of certain species",
-            "He studies the distributions of wildcats in North America.",
-            "The distribution of paychecks will happen every other Friday.",
-            "The new software will be sold through existing distribution channels.",
-            "The proper amount and distribution of electrolytes in the body is essential for health."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она отвечала за распределение /распространение/ продукции.",
-            "При распределении прибыли ему выделили долю.",
-            "Новая конструкция обеспечивает лучшее распределение веса.",
-            "Университет не разрешает распространение листовок на территории кампуса.",
-            "стат. гауссово /нормальное/ распределение",
-            "Российское правительство централизовало распределение продуктов питания.",
-            "справедливое распределение продовольствия",
-            "Группа собирает еду и одежду для раздачи нуждающимся семьям.",
-            "ТМО распределение Вейбулла",
-            "ТМО распределение Эрланга, эрланговское распределение",
-            "пространственное распределение населения",
-            "После революции распределение продовольствия было децентрализовано.",
-            "Жизнедеятельность страны поддерживает огромная система производства, распределения и потребления.",
-            "Следующей главной задачей для данной компании является улучшение её возможностей распределения продукции.",
-            "биполярное распределение некоторых видов",
-            "Он изучает распространение диких кошек в Северной Америке.",
-            "Выдача зарплаты будет происходить каждую вторую пятницу.",
-            "Новое программное обеспечение будет продаваться по существующим каналам сбыта.",
-            "Для здоровья важно правильное количество и распределение электролитов в организме."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "distribution": {
+    "comment": [
+      "district",
+      "distribute",
+      "distributor",
+      "distributed"
+    ],
+    "translate": "распределение, распространение, дистрибуция, раздача, рассылка, разверстка",
+    "transcription": " |ˌdɪstrɪˈbjuːʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She was responsible for product distribution.",
+        "ru": "Она отвечала за распределение /распространение/ продукции.",
+        "learn": 0
+      },
+      {
+        "eng": "He was taken in at the distribution of the profits.",
+        "ru": "При распределении прибыли ему выделили долю.",
+        "learn": 0
+      },
+      {
+        "eng": "The new design provides better weight distribution.",
+        "ru": "Новая конструкция обеспечивает лучшее распределение веса.",
+        "learn": 0
+      },
+      {
+        "eng": "The university does not permit distribution of leaflets on campus.",
+        "ru": "Университет не разрешает распространение листовок на территории кампуса.",
+        "learn": 1
+      },
+      {
+        "eng": "Gaussian distribution",
+        "ru": "стат. гауссово /нормальное/ распределение",
+        "learn": 0
+      },
+      {
+        "eng": "The Russian government centralized the distribution of food.",
+        "ru": "Российское правительство централизовало распределение продуктов питания.",
+        "learn": 0
+      },
+      {
+        "eng": "an equitable distribution of food supplies",
+        "ru": "справедливое распределение продовольствия",
+        "learn": 0
+      },
+      {
+        "eng": "The group collects food and clothing for distribution to needy families.",
+        "ru": "Группа собирает еду и одежду для раздачи нуждающимся семьям.",
+        "learn": 1
+      },
+      {
+        "eng": "Weibull distribution",
+        "ru": "ТМО распределение Вейбулла",
+        "learn": 0
+      },
+      {
+        "eng": "Erlangian distribution",
+        "ru": "ТМО распределение Эрланга, эрланговское распределение",
+        "learn": 0
+      },
+      {
+        "eng": "the spatial distribution of the population",
+        "ru": "пространственное распределение населения",
+        "learn": 0
+      },
+      {
+        "eng": "After the revolution, food distribution was decentralized.",
+        "ru": "После революции распределение продовольствия было децентрализовано.",
+        "learn": 0
+      },
+      {
+        "eng": "A vast system of production and distribution and consumption keep the country going.",
+        "ru": "Жизнедеятельность страны поддерживает огромная система производства, распределения и потребления.",
+        "learn": 0
+      },
+      {
+        "eng": "The next major challenge for the company is to improve its distribution capabilities.",
+        "ru": "Следующей главной задачей для данной компании является улучшение её возможностей распределения продукции.",
+        "learn": 0
+      },
+      {
+        "eng": "the bipolar distribution of certain species",
+        "ru": "биполярное распределение некоторых видов",
+        "learn": 0
+      },
+      {
+        "eng": "He studies the distributions of wildcats in North America.",
+        "ru": "Он изучает распространение диких кошек в Северной Америке.",
+        "learn": 0
+      },
+      {
+        "eng": "The distribution of paychecks will happen every other Friday.",
+        "ru": "Выдача зарплаты будет происходить каждую вторую пятницу.",
+        "learn": 0
+      },
+      {
+        "eng": "The new software will be sold through existing distribution channels.",
+        "ru": "Новое программное обеспечение будет продаваться по существующим каналам сбыта.",
+        "learn": 1
+      },
+      {
+        "eng": "The proper amount and distribution of electrolytes in the body is essential for health.",
+        "ru": "Для здоровья важно правильное количество и распределение электролитов в организме.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,83 +1,169 @@
 {
-    "arrive": {
-        "comment": [
-            "arrival"
-        ],
-        "translate": "прибывать, приехать, приезжать, достигать, прилетать, наступать, доезжать, родиться",
-        "transcription": " |əˈraɪv|",
-        "antonyms": [],
-        "mnemonic": [
-            "arrive [эра'йв] прибывать, приходить - (Эра айв-ы) приходит из-за голода.",
-            "arrive [ə'raiv]\narrival [ə'raɪvəl]\n***\nПРИБЫТЬ на море - просто|рай (в). (это) arrive\n***\nПРИЕЗД, ПРИБЫТИЕ, как и рай|\"well\". (это) arrival"
-        ],
-        "examples": [
-            "He arrived late as usual.",
-            "He arrived home at six o'clock.",
-            "The card arrived on my birthday.",
-            "When did the new teacher arrive on the scene?",
-            "When her wedding day arrived, she was really nervous.",
-            "Since computers arrived, my job has become much easier.",
-            "He is a younger man, and has only arrived comparatively recently.",
-            "He arrived after dark.",
-            "I'll arrive on Monday and leave on Friday.",
-            "Call me after you arrive.",
-            "They will arrive in a month.",
-            "We failed to arrive in time.",
-            "We will arrive sometime next week.",
-            "Call me before you arrive.",
-            "The mail hasn't arrived yet.",
-            "She was the first to arrive.",
-            "He will arrive next Saturday.",
-            "She arrived home at 7 o'clock.",
-            "I aim to arrive at noon",
-            "'When did they arrive?' 'I don't know.'",
-            "Sharon's baby arrived just after midnight.",
-            "They arrived late at the party.",
-            "The president is to arrive at 9.30.",
-            "We should arrive between 9 and 10 o'clock.",
-            "The letter failed to arrive.",
-            "James was the first to arrive.",
-            "The guests will arrive any minute now.",
-            "Their flight is due to arrive at 11:30.",
-            "By the time the police arrived on the scene, the burglars had fled.",
-            "We expect them to arrive momentarily."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он, как обычно, опоздал.",
-            "Он пришёл домой в шесть часов.",
-            "Открытка пришла на мой день рождения.",
-            "Когда появился новый учитель?",
-            "Когда наступил день ее свадьбы, она очень нервничала.",
-            "С тех пор как появились компьютеры, моя работа стала намного легче.",
-            "Он ещё молод, и добился признания сравнительно недавно.",
-            "Он приехал, когда было уже темно.",
-            "Я приеду в понедельник и уеду в пятницу.",
-            "Позвоните мне после того, как приедете.",
-            "Они приедут через месяц.",
-            "Мы не смогли приехать вовремя.",
-            "Мы прибудем (в один из дней) на следующей неделе.",
-            "Позвоните мне, прежде чем вы приедете.",
-            "Почта ещё не пришла.",
-            "Она приехала первой.",
-            "Он приедет в следующую субботу.",
-            "Она приехала домой в семь часов.",
-            "Я намерен прибыть в полдень",
-            "— Когда они приехали? — Я не знаю.",
-            "Ребенок Шерон родился сразу после полуночи.",
-            "Они опоздали к началу вечеринки.",
-            "Президент должен приехать в 9-30.",
-            "Мы должны быть на месте между девятью и десятью часами.",
-            "Письмо так и не прибыло.",
-            "Джеймс прибыл первым.",
-            "Гости прибудут с минуты на минуту.",
-            "Их рейс должен прибыть в 11:30",
-            "К тому времени, когда полиция прибыла на место происшествия, грабители скрылись.",
-            "Мы думаем, что они вот-вот /с минуты на минуту/ приедут."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "arrive": {
+    "comment": [
+      "arrival"
+    ],
+    "translate": "прибывать, приехать, приезжать, достигать, прилетать, наступать, доезжать, родиться",
+    "transcription": " |əˈraɪv|",
+    "antonyms": [],
+    "mnemonic": [
+      "arrive [эра'йв] прибывать, приходить - (Эра айв-ы) приходит из-за голода.",
+      "arrive [ə'raiv]\narrival [ə'raɪvəl]\n***\nПРИБЫТЬ на море - просто|рай (в). (это) arrive\n***\nПРИЕЗД, ПРИБЫТИЕ, как и рай|\"well\". (это) arrival"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He arrived late as usual.",
+        "ru": "Он, как обычно, опоздал.",
+        "learn": 0
+      },
+      {
+        "eng": "He arrived home at six o'clock.",
+        "ru": "Он пришёл домой в шесть часов.",
+        "learn": 0
+      },
+      {
+        "eng": "The card arrived on my birthday.",
+        "ru": "Открытка пришла на мой день рождения.",
+        "learn": 0
+      },
+      {
+        "eng": "When did the new teacher arrive on the scene?",
+        "ru": "Когда появился новый учитель?",
+        "learn": 0
+      },
+      {
+        "eng": "When her wedding day arrived, she was really nervous.",
+        "ru": "Когда наступил день ее свадьбы, она очень нервничала.",
+        "learn": 0
+      },
+      {
+        "eng": "Since computers arrived, my job has become much easier.",
+        "ru": "С тех пор как появились компьютеры, моя работа стала намного легче.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a younger man, and has only arrived comparatively recently.",
+        "ru": "Он ещё молод, и добился признания сравнительно недавно.",
+        "learn": 1
+      },
+      {
+        "eng": "He arrived after dark.",
+        "ru": "Он приехал, когда было уже темно.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll arrive on Monday and leave on Friday.",
+        "ru": "Я приеду в понедельник и уеду в пятницу.",
+        "learn": 1
+      },
+      {
+        "eng": "Call me after you arrive.",
+        "ru": "Позвоните мне после того, как приедете.",
+        "learn": 0
+      },
+      {
+        "eng": "They will arrive in a month.",
+        "ru": "Они приедут через месяц.",
+        "learn": 0
+      },
+      {
+        "eng": "We failed to arrive in time.",
+        "ru": "Мы не смогли приехать вовремя.",
+        "learn": 0
+      },
+      {
+        "eng": "We will arrive sometime next week.",
+        "ru": "Мы прибудем (в один из дней) на следующей неделе.",
+        "learn": 0
+      },
+      {
+        "eng": "Call me before you arrive.",
+        "ru": "Позвоните мне, прежде чем вы приедете.",
+        "learn": 0
+      },
+      {
+        "eng": "The mail hasn't arrived yet.",
+        "ru": "Почта ещё не пришла.",
+        "learn": 0
+      },
+      {
+        "eng": "She was the first to arrive.",
+        "ru": "Она приехала первой.",
+        "learn": 0
+      },
+      {
+        "eng": "He will arrive next Saturday.",
+        "ru": "Он приедет в следующую субботу.",
+        "learn": 0
+      },
+      {
+        "eng": "She arrived home at 7 o'clock.",
+        "ru": "Она приехала домой в семь часов.",
+        "learn": 0
+      },
+      {
+        "eng": "I aim to arrive at noon",
+        "ru": "Я намерен прибыть в полдень",
+        "learn": 0
+      },
+      {
+        "eng": "'When did they arrive?' 'I don't know.'",
+        "ru": "— Когда они приехали? — Я не знаю.",
+        "learn": 0
+      },
+      {
+        "eng": "Sharon's baby arrived just after midnight.",
+        "ru": "Ребенок Шерон родился сразу после полуночи.",
+        "learn": 0
+      },
+      {
+        "eng": "They arrived late at the party.",
+        "ru": "Они опоздали к началу вечеринки.",
+        "learn": 0
+      },
+      {
+        "eng": "The president is to arrive at 9.30.",
+        "ru": "Президент должен приехать в 9-30.",
+        "learn": 0
+      },
+      {
+        "eng": "We should arrive between 9 and 10 o'clock.",
+        "ru": "Мы должны быть на месте между девятью и десятью часами.",
+        "learn": 0
+      },
+      {
+        "eng": "The letter failed to arrive.",
+        "ru": "Письмо так и не прибыло.",
+        "learn": 0
+      },
+      {
+        "eng": "James was the first to arrive.",
+        "ru": "Джеймс прибыл первым.",
+        "learn": 0
+      },
+      {
+        "eng": "The guests will arrive any minute now.",
+        "ru": "Гости прибудут с минуты на минуту.",
+        "learn": 0
+      },
+      {
+        "eng": "Their flight is due to arrive at 11:30.",
+        "ru": "Их рейс должен прибыть в 11:30",
+        "learn": 0
+      },
+      {
+        "eng": "By the time the police arrived on the scene, the burglars had fled.",
+        "ru": "К тому времени, когда полиция прибыла на место происшествия, грабители скрылись.",
+        "learn": 0
+      },
+      {
+        "eng": "We expect them to arrive momentarily.",
+        "ru": "Мы думаем, что они вот-вот /с минуты на минуту/ приедут.",
+        "learn": 1
+      }
+    ]
+  }
 }

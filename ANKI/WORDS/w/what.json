@@ -1,85 +1,172 @@
 {
-    "what": {
-        "comment": [
-            "whatever",
-            "whatsoever",
-            "somewhat"
-        ],
-        "translate": "что, что, как, каков, какой, какой, сколько",
-        "transcription": " |wɑːt|",
-        "antonyms": [],
-        "mnemonic": [
-            "what [(ув)от] какой, что - (Вот), какой рассеянный с улицы бассейнной."
-        ],
-        "examples": [
-            "What is he?",
-            "What did you say?",
-            "I don't know what it is.",
-            "What a lovely day!",
-            "I don't know what he said.",
-            "What did he pay for it?",
-            "But what are they?",
-            "What are you doing?",
-            "What are you thinking about?",
-            "What? What did you say? Repeat, please.",
-            "What nice people they are!",
-            "Show me what you bought.",
-            "Wonderful evening, what?",
-            "What do you think of him?",
-            "I believe what he told me.",
-            "What's your new boss like?",
-            "What an interesting book it is!",
-            "At what hour he returned is unknown.",
-            "What on earth's going on?",
-            "What a horrible thing to do!",
-            "What colour is the new carpet?",
-            "What subjects did you enjoy most?",
-            "They're discussing what to do next.",
-            "What do you think of my painting?",
-            "No one knows exactly what happened.",
-            "What he did was morally wrong.",
-            "What is he going to go into that business for?",
-            "'Do you know his name?' 'It's David.' 'David what?'",
-            "What that kid needs is some love and affection.",
-            "I could get you a job here if that's what you want."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Кто он по профессии? / Чем он занимается?",
-            "Что вы сказали? / Что ты сказал?",
-            "Я не знаю, что это (такое).",
-            "Какой прекрасный день!",
-            "Я не знаю, что он сказал.",
-            "Сколько он заплатил за это?",
-            "Но что они собой представляют?",
-            "Что вы делаете?",
-            "О чём вы думаете?",
-            "Что? Что вы сказали? Повторите, пожалуйста.",
-            "Какие они хорошие люди!",
-            "Покажи мне, что ты купил.",
-            "Прекрасный вечер, не правда ли?",
-            "Что ты о нём думаешь?",
-            "Я верю тому, что он мне сказал.",
-            "Что из себя представляет твой новый шеф? (Что он за человек?)",
-            "Какая интересная книга!",
-            "Во сколько он вернулся, неизвестно.",
-            "Что, в конце концов, происходит?",
-            "Какой ужасный поступок!",
-            "Какого цвета новый ковёр?",
-            "Какие темы /вопросы/ вам понравились больше всего?",
-            "Они обсуждают, что делать дальше.",
-            "Что вы думаете о моей картине?",
-            "Никто точно не знает, что именно произошло.",
-            "То, что он сделал, было неправильно с моральной точки зрения. / Его поступок аморален.",
-            "Для чего он собирается заняться этим бизнесом?",
-            "— Ты знаешь его имя? — Дэвид. — А фамилию?",
-            "Что этому ребёнку нужно — так это немного любви и ласки.",
-            "Я мог бы найти тебе здесь работу, если ты этого хочешь."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "wh_+_(Гл._кр._o)_=_[h]"
-        ]
-    }
+  "what": {
+    "comment": [
+      "whatever",
+      "whatsoever",
+      "somewhat"
+    ],
+    "translate": "что, что, как, каков, какой, какой, сколько",
+    "transcription": " |wɑːt|",
+    "antonyms": [],
+    "mnemonic": [
+      "what [(ув)от] какой, что - (Вот), какой рассеянный с улицы бассейнной."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "wh_+_(Гл._кр._o)_=_[h]"
+    ],
+    "examples": [
+      {
+        "eng": "What is he?",
+        "ru": "Кто он по профессии? / Чем он занимается?",
+        "learn": 0
+      },
+      {
+        "eng": "What did you say?",
+        "ru": "Что вы сказали? / Что ты сказал?",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know what it is.",
+        "ru": "Я не знаю, что это (такое).",
+        "learn": 0
+      },
+      {
+        "eng": "What a lovely day!",
+        "ru": "Какой прекрасный день!",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know what he said.",
+        "ru": "Я не знаю, что он сказал.",
+        "learn": 1
+      },
+      {
+        "eng": "What did he pay for it?",
+        "ru": "Сколько он заплатил за это?",
+        "learn": 0
+      },
+      {
+        "eng": "But what are they?",
+        "ru": "Но что они собой представляют?",
+        "learn": 0
+      },
+      {
+        "eng": "What are you doing?",
+        "ru": "Что вы делаете?",
+        "learn": 1
+      },
+      {
+        "eng": "What are you thinking about?",
+        "ru": "О чём вы думаете?",
+        "learn": 0
+      },
+      {
+        "eng": "What? What did you say? Repeat, please.",
+        "ru": "Что? Что вы сказали? Повторите, пожалуйста.",
+        "learn": 0
+      },
+      {
+        "eng": "What nice people they are!",
+        "ru": "Какие они хорошие люди!",
+        "learn": 1
+      },
+      {
+        "eng": "Show me what you bought.",
+        "ru": "Покажи мне, что ты купил.",
+        "learn": 0
+      },
+      {
+        "eng": "Wonderful evening, what?",
+        "ru": "Прекрасный вечер, не правда ли?",
+        "learn": 1
+      },
+      {
+        "eng": "What do you think of him?",
+        "ru": "Что ты о нём думаешь?",
+        "learn": 0
+      },
+      {
+        "eng": "I believe what he told me.",
+        "ru": "Я верю тому, что он мне сказал.",
+        "learn": 0
+      },
+      {
+        "eng": "What's your new boss like?",
+        "ru": "Что из себя представляет твой новый шеф? (Что он за человек?)",
+        "learn": 0
+      },
+      {
+        "eng": "What an interesting book it is!",
+        "ru": "Какая интересная книга!",
+        "learn": 0
+      },
+      {
+        "eng": "At what hour he returned is unknown.",
+        "ru": "Во сколько он вернулся, неизвестно.",
+        "learn": 0
+      },
+      {
+        "eng": "What on earth's going on?",
+        "ru": "Что, в конце концов, происходит?",
+        "learn": 0
+      },
+      {
+        "eng": "What a horrible thing to do!",
+        "ru": "Какой ужасный поступок!",
+        "learn": 0
+      },
+      {
+        "eng": "What colour is the new carpet?",
+        "ru": "Какого цвета новый ковёр?",
+        "learn": 0
+      },
+      {
+        "eng": "What subjects did you enjoy most?",
+        "ru": "Какие темы /вопросы/ вам понравились больше всего?",
+        "learn": 0
+      },
+      {
+        "eng": "They're discussing what to do next.",
+        "ru": "Они обсуждают, что делать дальше.",
+        "learn": 0
+      },
+      {
+        "eng": "What do you think of my painting?",
+        "ru": "Что вы думаете о моей картине?",
+        "learn": 0
+      },
+      {
+        "eng": "No one knows exactly what happened.",
+        "ru": "Никто точно не знает, что именно произошло.",
+        "learn": 0
+      },
+      {
+        "eng": "What he did was morally wrong.",
+        "ru": "То, что он сделал, было неправильно с моральной точки зрения. / Его поступок аморален.",
+        "learn": 0
+      },
+      {
+        "eng": "What is he going to go into that business for?",
+        "ru": "Для чего он собирается заняться этим бизнесом?",
+        "learn": 0
+      },
+      {
+        "eng": "'Do you know his name?' 'It's David.' 'David what?'",
+        "ru": "— Ты знаешь его имя? — Дэвид. — А фамилию?",
+        "learn": 0
+      },
+      {
+        "eng": "What that kid needs is some love and affection.",
+        "ru": "Что этому ребёнку нужно — так это немного любви и ласки.",
+        "learn": 0
+      },
+      {
+        "eng": "I could get you a job here if that's what you want.",
+        "ru": "Я мог бы найти тебе здесь работу, если ты этого хочешь.",
+        "learn": 0
+      }
+    ]
+  }
 }

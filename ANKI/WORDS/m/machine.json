@@ -1,81 +1,167 @@
 {
-    "machine": {
-        "comment": [
-            "stomach",
-            "machinery"
-        ],
-        "translate": " машина, аппарат, станок, печатать, шить",
-        "transcription": "  |məˈʃiːn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The washing machine is playing up again.",
-            "The machine is easy to use.",
-            "Is the machine going now?",
-            "My machine's just crashed.",
-            "The machine has a complicated design.",
-            "The machine handles well.",
-            "Lisp-based machine",
-            "It's a very simple machine.",
-            "The washing machine's broken again.",
-            "Do you know how to operate this machine?",
-            "I need to get the washing machine fixed.",
-            "The gloves are machine washable.",
-            "The machine had a flawed design.",
-            "He oiled the bearings of the machine.",
-            "He was bragging about his new machine.",
-            "He was a small cog in a large machine.",
-            "The cover protects the machine from dust.",
-            "Finally I could get an operational machine.",
-            "This machine presses vegetables into juice.",
-            "The machine squares the wood into flat boards.",
-            "This machine will pound the rocks into powder.",
-            "The fax machine is broken.",
-            "the under parts of a machine",
-            "The moving parts of the machine",
-            "Is the machine still recording?",
-            "The new machine functions well.",
-            "ping your machine in the office",
-            "The machine is working properly.",
-            "the component parts of a machine",
-            "sharp bursts of machine gun fire"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Стиральная машина опять барахлит.",
-            "Эта машина проста в использовании.",
-            "Машина в порядке?",
-            "Моя машина только что зависла / упала. (о компьютере)",
-            "Машина имеет сложную конструкцию.",
-            "Машина работает очень послушно.",
-            "ЛИСП-машина",
-            "Это очень простая машина.",
-            "Стиральная машина опять сломалась.",
-            "Ты знаешь, как управляться с этой машиной?",
-            "Мне нужно починить стиральную машину.",
-            "Эти перчатки можно стирать в машине.",
-            "У этой машины были дефекты конструкции.",
-            "Он смазал подшипники машины.",
-            "Он хвастался насчёт своей новой машины.",
-            "Он был маленьким винтиком в большом механизме.",
-            "Крышка защищает аппарат от попадания пыли.",
-            "В конце концов, мне дали исправную машину.",
-            "Эта машина выдавливает сок из овощей.",
-            "Этот станок превращает дерево в плоские доски.",
-            "Эта машина перемалывает камень в порошок.",
-            "Факс-машина сломана.",
-            "нижние части аппарата",
-            "Движущиеся части станка",
-            "Аппарат всё ещё записывает?",
-            "Новое оборудование функционирует хорошо.",
-            "пропинговать ваш рабочий компьютер",
-            "Машина работает нормально.",
-            "составные части машины",
-            "резкие всплески пулемётного огня"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "machine": {
+    "comment": [
+      "stomach",
+      "machinery"
+    ],
+    "translate": " машина, аппарат, станок, печатать, шить",
+    "transcription": "  |məˈʃiːn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The washing machine is playing up again.",
+        "ru": "Стиральная машина опять барахлит.",
+        "learn": 0
+      },
+      {
+        "eng": "The machine is easy to use.",
+        "ru": "Эта машина проста в использовании.",
+        "learn": 0
+      },
+      {
+        "eng": "Is the machine going now?",
+        "ru": "Машина в порядке?",
+        "learn": 0
+      },
+      {
+        "eng": "My machine's just crashed.",
+        "ru": "Моя машина только что зависла / упала. (о компьютере)",
+        "learn": 0
+      },
+      {
+        "eng": "The machine has a complicated design.",
+        "ru": "Машина имеет сложную конструкцию.",
+        "learn": 0
+      },
+      {
+        "eng": "The machine handles well.",
+        "ru": "Машина работает очень послушно.",
+        "learn": 0
+      },
+      {
+        "eng": "Lisp-based machine",
+        "ru": "ЛИСП-машина",
+        "learn": 0
+      },
+      {
+        "eng": "It's a very simple machine.",
+        "ru": "Это очень простая машина.",
+        "learn": 0
+      },
+      {
+        "eng": "The washing machine's broken again.",
+        "ru": "Стиральная машина опять сломалась.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you know how to operate this machine?",
+        "ru": "Ты знаешь, как управляться с этой машиной?",
+        "learn": 0
+      },
+      {
+        "eng": "I need to get the washing machine fixed.",
+        "ru": "Мне нужно починить стиральную машину.",
+        "learn": 0
+      },
+      {
+        "eng": "The gloves are machine washable.",
+        "ru": "Эти перчатки можно стирать в машине.",
+        "learn": 0
+      },
+      {
+        "eng": "The machine had a flawed design.",
+        "ru": "У этой машины были дефекты конструкции.",
+        "learn": 0
+      },
+      {
+        "eng": "He oiled the bearings of the machine.",
+        "ru": "Он смазал подшипники машины.",
+        "learn": 0
+      },
+      {
+        "eng": "He was bragging about his new machine.",
+        "ru": "Он хвастался насчёт своей новой машины.",
+        "learn": 0
+      },
+      {
+        "eng": "He was a small cog in a large machine.",
+        "ru": "Он был маленьким винтиком в большом механизме.",
+        "learn": 0
+      },
+      {
+        "eng": "The cover protects the machine from dust.",
+        "ru": "Крышка защищает аппарат от попадания пыли.",
+        "learn": 0
+      },
+      {
+        "eng": "Finally I could get an operational machine.",
+        "ru": "В конце концов, мне дали исправную машину.",
+        "learn": 1
+      },
+      {
+        "eng": "This machine presses vegetables into juice.",
+        "ru": "Эта машина выдавливает сок из овощей.",
+        "learn": 0
+      },
+      {
+        "eng": "The machine squares the wood into flat boards.",
+        "ru": "Этот станок превращает дерево в плоские доски.",
+        "learn": 0
+      },
+      {
+        "eng": "This machine will pound the rocks into powder.",
+        "ru": "Эта машина перемалывает камень в порошок.",
+        "learn": 1
+      },
+      {
+        "eng": "The fax machine is broken.",
+        "ru": "Факс-машина сломана.",
+        "learn": 0
+      },
+      {
+        "eng": "the under parts of a machine",
+        "ru": "нижние части аппарата",
+        "learn": 0
+      },
+      {
+        "eng": "The moving parts of the machine",
+        "ru": "Движущиеся части станка",
+        "learn": 0
+      },
+      {
+        "eng": "Is the machine still recording?",
+        "ru": "Аппарат всё ещё записывает?",
+        "learn": 0
+      },
+      {
+        "eng": "The new machine functions well.",
+        "ru": "Новое оборудование функционирует хорошо.",
+        "learn": 0
+      },
+      {
+        "eng": "ping your machine in the office",
+        "ru": "пропинговать ваш рабочий компьютер",
+        "learn": 0
+      },
+      {
+        "eng": "The machine is working properly.",
+        "ru": "Машина работает нормально.",
+        "learn": 0
+      },
+      {
+        "eng": "the component parts of a machine",
+        "ru": "составные части машины",
+        "learn": 0
+      },
+      {
+        "eng": "sharp bursts of machine gun fire",
+        "ru": "резкие всплески пулемётного огня",
+        "learn": 0
+      }
+    ]
+  }
 }

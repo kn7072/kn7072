@@ -1,90 +1,178 @@
 {
-    "acknowledge": {
-        "comment": [
-            "knowledge",
-            "know",
-            "known",
-            "unknown",
-            "well-known"
-        ],
-        "translate": "признавать, подтверждать, сознавать, допускать, награждать, быть признательным",
-        "transcription": " |əkˈnɑːlɪdʒ|",
-        "antonyms": [],
-        "mnemonic": [
-            "acknowledge [экно'лидж] признавать, подтверждать - (Окно лично) я признаю полезной штукой.",
-            "acknowledge [ək'nɔlɪdʒ]\nknowledge ['nɔlɪdʒ] - осведомлённость, знание\n***\nСОЗНАЮ, что нельзя на окно|лечь. (это) acknowledge\nПРИЗНАЮ, что нельзя на окно|лечь. (это)\nacknowledge\nДопускать, отмечать\n***\nЯ В КУРСЕ, что нельзя на окно|лечь. (это) knowledge"
-        ],
-        "examples": [
-            "They readily acknowledged their mistake.",
-            "'Maybe you are right,' she acknowledged.",
-            "You have to acknowledge your defeat as complete.",
-            "She acknowledged the gift with a card.",
-            "She acknowledged him as her heir.",
-            "The film festival is acknowledged as an event of international importance.",
-            "We acknowledge (the) receipt of your fax.",
-            "Do you acknowledge that you caused this mess?",
-            "He acknowledged the applause with a small bow.",
-            "He didn't even acknowledge me as we passed.",
-            "She acknowledged his greeting with a smile.",
-            "He was acknowledged as the champion / to be the champion.",
-            "We wish to acknowledge the support of the university.",
-            "The customer acknowledged receipt of a shipment.",
-            "He acknowledged being ignorant of the facts.",
-            "Both defendants refused to acknowledge the authority of the court.",
-            "Please acknowledge receipt of this letter.",
-            "He acknowledged my being the first to think of it.",
-            "The family acknowledge the need for change.",
-            "She acknowledged his complement with a smile.",
-            "He acknowledges that when he's tired he gets bad-tempered.",
-            "Claire acknowledged that she was guilty.",
-            "He was fain to acknowledge that she was right.",
-            "She acknowledged that she might have forgotten.",
-            "She won't acknowledge responsibility for her actions.",
-            "They acknowledged that the decision was a mistake.",
-            "It's a matter of common courtesy to acknowledge letters.",
-            "This is a fact that most smokers readily acknowledge.",
-            "The Crown Prince was acknowledged as the true heir to the throne.",
-            "They have begun, however reluctantly, to acknowledge the legitimacy of some of the opposition's concerns."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Они сразу признали свою ошибку.",
-            "— Может быть, ты и прав, — признала она.",
-            "Вы должны признать ваше полное поражение.",
-            "Она поблагодарила за подарок открыткой.",
-            "Она признала его своим наследником.",
-            "Кинофестиваль признан событием международного масштаба.",
-            "Подтверждаем получение Вашего факса.",
-            "Ты признаёшь, что всё это безобразие — из-за тебя?",
-            "Он ответил на аплодисменты лёгким поклоном.",
-            "Он прошёл мимо и даже не поздоровался.",
-            "Она ответила улыбкой на его приветствие.",
-            "Его признали чемпионом.",
-            "Мы хотели бы выразить признательность за поддержку университета.",
-            "Покупатель подтвердил получение груза.",
-            "Он признал, что не знает некоторых фактов.",
-            "Оба обвиняемых отказались признать полномочия суда.",
-            "Просьба подтвердить получение этого письма.",
-            "Он признал, что я был первым, кто высказал эту мысль.",
-            "В семье признают необходимость перемен.",
-            "Она ответила на его дополнение улыбкой.",
-            "Он признаёт, что становится раздражительным, когда устаёт.",
-            "Клэр признала себя виновной.",
-            "Он вынужден был признать, что она права.",
-            "Она признала, что могла об этом забыть.",
-            "Она не хочет признавать ответственность за свои действия.",
-            "Они признали, что решение было ошибочным.",
-            "Подтверждать получение писем — это вопрос элементарной вежливости.",
-            "Этот факт охотно признаёт большинство курильщиков.",
-            "Кронпринц был признан истинным наследником престола.",
-            "Они уже начали, хотя и неохотно, признавать правомерность некоторых опасений оппозиции."
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив_-_сложное_подлежащее(страдательный_залог)",
-            "Инфинитив",
-            "all_words",
-            "Сложное_подлежащее"
-        ]
-    }
+  "acknowledge": {
+    "comment": [
+      "knowledge",
+      "know",
+      "known",
+      "unknown",
+      "well-known"
+    ],
+    "translate": "признавать, подтверждать, сознавать, допускать, награждать, быть признательным",
+    "transcription": " |əkˈnɑːlɪdʒ|",
+    "antonyms": [],
+    "mnemonic": [
+      "acknowledge [экно'лидж] признавать, подтверждать - (Окно лично) я признаю полезной штукой.",
+      "acknowledge [ək'nɔlɪdʒ]\nknowledge ['nɔlɪdʒ] - осведомлённость, знание\n***\nСОЗНАЮ, что нельзя на окно|лечь. (это) acknowledge\nПРИЗНАЮ, что нельзя на окно|лечь. (это)\nacknowledge\nДопускать, отмечать\n***\nЯ В КУРСЕ, что нельзя на окно|лечь. (это) knowledge"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_-_сложное_подлежащее(страдательный_залог)",
+      "Инфинитив",
+      "Сложное_подлежащее",
+      "gerund_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "They readily acknowledged their mistake.",
+        "ru": "Они сразу признали свою ошибку.",
+        "learn": 0
+      },
+      {
+        "eng": "'Maybe you are right,' she acknowledged.",
+        "ru": "— Может быть, ты и прав, — признала она.",
+        "learn": 0
+      },
+      {
+        "eng": "You have to acknowledge your defeat as complete.",
+        "ru": "Вы должны признать ваше полное поражение.",
+        "learn": 0
+      },
+      {
+        "eng": "She acknowledged the gift with a card.",
+        "ru": "Она поблагодарила за подарок открыткой.",
+        "learn": 0
+      },
+      {
+        "eng": "She acknowledged him as her heir.",
+        "ru": "Она признала его своим наследником.",
+        "learn": 0
+      },
+      {
+        "eng": "The film festival is acknowledged as an event of international importance.",
+        "ru": "Кинофестиваль признан событием международного масштаба.",
+        "learn": 0
+      },
+      {
+        "eng": "We acknowledge (the) receipt of your fax.",
+        "ru": "Подтверждаем получение Вашего факса.",
+        "learn": 1
+      },
+      {
+        "eng": "Do you acknowledge that you caused this mess?",
+        "ru": "Ты признаёшь, что всё это безобразие — из-за тебя?",
+        "learn": 0
+      },
+      {
+        "eng": "He acknowledged the applause with a small bow.",
+        "ru": "Он ответил на аплодисменты лёгким поклоном.",
+        "learn": 0
+      },
+      {
+        "eng": "He didn't even acknowledge me as we passed.",
+        "ru": "Он прошёл мимо и даже не поздоровался.",
+        "learn": 0
+      },
+      {
+        "eng": "She acknowledged his greeting with a smile.",
+        "ru": "Она ответила улыбкой на его приветствие.",
+        "learn": 1
+      },
+      {
+        "eng": "He was acknowledged as the champion / to be the champion.",
+        "ru": "Его признали чемпионом.",
+        "learn": 0
+      },
+      {
+        "eng": "We wish to acknowledge the support of the university.",
+        "ru": "Мы хотели бы выразить признательность за поддержку университета.",
+        "learn": 0
+      },
+      {
+        "eng": "The customer acknowledged receipt of a shipment.",
+        "ru": "Покупатель подтвердил получение груза.",
+        "learn": 1
+      },
+      {
+        "eng": "He acknowledged being ignorant of the facts.",
+        "ru": "Он признал, что не знает некоторых фактов.",
+        "learn": 0
+      },
+      {
+        "eng": "Both defendants refused to acknowledge the authority of the court.",
+        "ru": "Оба обвиняемых отказались признать полномочия суда.",
+        "learn": 0
+      },
+      {
+        "eng": "Please acknowledge receipt of this letter.",
+        "ru": "Просьба подтвердить получение этого письма.",
+        "learn": 0
+      },
+      {
+        "eng": "He acknowledged my being the first to think of it.",
+        "ru": "Он признал, что я был первым, кто высказал эту мысль.",
+        "learn": 0
+      },
+      {
+        "eng": "The family acknowledge the need for change.",
+        "ru": "В семье признают необходимость перемен.",
+        "learn": 0
+      },
+      {
+        "eng": "She acknowledged his complement with a smile.",
+        "ru": "Она ответила на его дополнение улыбкой.",
+        "learn": 0
+      },
+      {
+        "eng": "He acknowledges that when he's tired he gets bad-tempered.",
+        "ru": "Он признаёт, что становится раздражительным, когда устаёт.",
+        "learn": 1
+      },
+      {
+        "eng": "Claire acknowledged that she was guilty.",
+        "ru": "Клэр признала себя виновной.",
+        "learn": 0
+      },
+      {
+        "eng": "He was fain to acknowledge that she was right.",
+        "ru": "Он вынужден был признать, что она права.",
+        "learn": 0
+      },
+      {
+        "eng": "She acknowledged that she might have forgotten.",
+        "ru": "Она признала, что могла об этом забыть.",
+        "learn": 0
+      },
+      {
+        "eng": "She won't acknowledge responsibility for her actions.",
+        "ru": "Она не хочет признавать ответственность за свои действия.",
+        "learn": 0
+      },
+      {
+        "eng": "They acknowledged that the decision was a mistake.",
+        "ru": "Они признали, что решение было ошибочным.",
+        "learn": 0
+      },
+      {
+        "eng": "It's a matter of common courtesy to acknowledge letters.",
+        "ru": "Подтверждать получение писем — это вопрос элементарной вежливости.",
+        "learn": 0
+      },
+      {
+        "eng": "This is a fact that most smokers readily acknowledge.",
+        "ru": "Этот факт охотно признаёт большинство курильщиков.",
+        "learn": 0
+      },
+      {
+        "eng": "The Crown Prince was acknowledged as the true heir to the throne.",
+        "ru": "Кронпринц был признан истинным наследником престола.",
+        "learn": 0
+      },
+      {
+        "eng": "They have begun, however reluctantly, to acknowledge the legitimacy of some of the opposition's concerns.",
+        "ru": "Они уже начали, хотя и неохотно, признавать правомерность некоторых опасений оппозиции.",
+        "learn": 0
+      }
+    ]
+  }
 }

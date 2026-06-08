@@ -1,87 +1,173 @@
 {
-    "room": {
-        "comment": [
-            "classroom",
-            "mushroom",
-            "bathroom",
-            "bedroom",
-            "ballroom",
-            "broom"
-        ],
-        "translate": "номер, комната, помещение, место, размещать, занимать комнату",
-        "transcription": " |ruːm|",
-        "antonyms": [],
-        "mnemonic": [
-            "room [ру:м] комната - В комнате (рум-ынская) мебель."
-        ],
-        "examples": [
-            "Have you a room vacant?",
-            "Tidy your room!",
-            "Keep your room tidy.",
-            "I want my own room.",
-            "My room looks south.",
-            "He scanned the room.",
-            "Make room in your day for exercise.",
-            "He messed up his room.",
-            "The room was kept dark.",
-            "The room was pitch-dark.",
-            "We reserved a hotel room.",
-            "She put on a sun room.",
-            "He came inside the room.",
-            "He barged into the room.",
-            "The room started to spin.",
-            "She sailed into the room.",
-            "She swanned into the room.",
-            "The dining room faces east.",
-            "She came into the room.",
-            "He burst into the room.",
-            "The room lightened up.",
-            "Your room is in a mess.",
-            "the color scheme of a room",
-            "He slammed out of the room.",
-            "He stormed out of the room.",
-            "the center of the room",
-            "His room was a pigsty.",
-            "Jo burst into the room.",
-            "The room was overheated.",
-            "a nasty pigsty of a room"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "У вас есть свободные номера?",
-            "Приберись в своей комнате!",
-            "Поддерживайте в комнате порядок.",
-            "Я хочу собственную комнату.",
-            "Моя комната выходит на юг.",
-            "Он внимательно осмотрел комнату.",
-            "Выделите в своём распорядке дня время для физических упражнений.",
-            "Он устроил в своей комнате кавардак.",
-            "В комнате всегда было темно.",
-            "В комнате была непроглядная темень.",
-            "Мы забронировали гостиничный номер.",
-            "Она добавила зимний сад /солярий/.",
-            "Он вошёл в комнату.",
-            "Он ворвался в комнату.",
-            "Комната завертелась.",
-            "Она вплыла (вошла лёгкой походкой) в комнату.",
-            "Она неспешно вошла в комнату.",
-            "Столовая выходит окнами на восток.",
-            "Она вошла в комнату.",
-            "Он ворвался в комнату.",
-            "В комнате стало светлее.",
-            "В твоей комнате страшный беспорядок.",
-            "цветовая гамма помещения",
-            "Он выскочил из комнаты, хлопнув дверью.",
-            "Он выскочил из комнаты.",
-            "центр комнаты",
-            "В его комнате был настоящий свинарник.",
-            "Джо ворвался в комнату.",
-            "В помещении было чересчур жарко.",
-            "не комната, а мерзкий свинарник"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "room": {
+    "comment": [
+      "classroom",
+      "mushroom",
+      "bathroom",
+      "bedroom",
+      "ballroom",
+      "broom"
+    ],
+    "translate": "номер, комната, помещение, место, размещать, занимать комнату",
+    "transcription": " |ruːm|",
+    "antonyms": [],
+    "mnemonic": [
+      "room [ру:м] комната - В комнате (рум-ынская) мебель."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Have you a room vacant?",
+        "ru": "У вас есть свободные номера?",
+        "learn": 0
+      },
+      {
+        "eng": "Tidy your room!",
+        "ru": "Приберись в своей комнате!",
+        "learn": 0
+      },
+      {
+        "eng": "Keep your room tidy.",
+        "ru": "Поддерживайте в комнате порядок.",
+        "learn": 0
+      },
+      {
+        "eng": "I want my own room.",
+        "ru": "Я хочу собственную комнату.",
+        "learn": 0
+      },
+      {
+        "eng": "My room looks south.",
+        "ru": "Моя комната выходит на юг.",
+        "learn": 1
+      },
+      {
+        "eng": "He scanned the room.",
+        "ru": "Он внимательно осмотрел комнату.",
+        "learn": 0
+      },
+      {
+        "eng": "Make room in your day for exercise.",
+        "ru": "Выделите в своём распорядке дня время для физических упражнений.",
+        "learn": 0
+      },
+      {
+        "eng": "He messed up his room.",
+        "ru": "Он устроил в своей комнате кавардак.",
+        "learn": 0
+      },
+      {
+        "eng": "The room was kept dark.",
+        "ru": "В комнате всегда было темно.",
+        "learn": 0
+      },
+      {
+        "eng": "The room was pitch-dark.",
+        "ru": "В комнате была непроглядная темень.",
+        "learn": 0
+      },
+      {
+        "eng": "We reserved a hotel room.",
+        "ru": "Мы забронировали гостиничный номер.",
+        "learn": 1
+      },
+      {
+        "eng": "She put on a sun room.",
+        "ru": "Она добавила зимний сад /солярий/.",
+        "learn": 0
+      },
+      {
+        "eng": "He came inside the room.",
+        "ru": "Он вошёл в комнату.",
+        "learn": 0
+      },
+      {
+        "eng": "He barged into the room.",
+        "ru": "Он ворвался в комнату.",
+        "learn": 0
+      },
+      {
+        "eng": "The room started to spin.",
+        "ru": "Комната завертелась.",
+        "learn": 1
+      },
+      {
+        "eng": "She sailed into the room.",
+        "ru": "Она вплыла (вошла лёгкой походкой) в комнату.",
+        "learn": 0
+      },
+      {
+        "eng": "She swanned into the room.",
+        "ru": "Она неспешно вошла в комнату.",
+        "learn": 1
+      },
+      {
+        "eng": "The dining room faces east.",
+        "ru": "Столовая выходит окнами на восток.",
+        "learn": 0
+      },
+      {
+        "eng": "She came into the room.",
+        "ru": "Она вошла в комнату.",
+        "learn": 0
+      },
+      {
+        "eng": "He burst into the room.",
+        "ru": "Он ворвался в комнату.",
+        "learn": 0
+      },
+      {
+        "eng": "The room lightened up.",
+        "ru": "В комнате стало светлее.",
+        "learn": 0
+      },
+      {
+        "eng": "Your room is in a mess.",
+        "ru": "В твоей комнате страшный беспорядок.",
+        "learn": 0
+      },
+      {
+        "eng": "the color scheme of a room",
+        "ru": "цветовая гамма помещения",
+        "learn": 0
+      },
+      {
+        "eng": "He slammed out of the room.",
+        "ru": "Он выскочил из комнаты, хлопнув дверью.",
+        "learn": 0
+      },
+      {
+        "eng": "He stormed out of the room.",
+        "ru": "Он выскочил из комнаты.",
+        "learn": 0
+      },
+      {
+        "eng": "the center of the room",
+        "ru": "центр комнаты",
+        "learn": 0
+      },
+      {
+        "eng": "His room was a pigsty.",
+        "ru": "В его комнате был настоящий свинарник.",
+        "learn": 0
+      },
+      {
+        "eng": "Jo burst into the room.",
+        "ru": "Джо ворвался в комнату.",
+        "learn": 0
+      },
+      {
+        "eng": "The room was overheated.",
+        "ru": "В помещении было чересчур жарко.",
+        "learn": 0
+      },
+      {
+        "eng": "a nasty pigsty of a room",
+        "ru": "не комната, а мерзкий свинарник",
+        "learn": 0
+      }
+    ]
+  }
 }

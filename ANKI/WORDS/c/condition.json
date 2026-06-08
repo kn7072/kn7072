@@ -1,83 +1,169 @@
 {
-    "condition": {
-        "comment": [
-            "conditional",
-            "air-conditioning"
-        ],
-        "translate": "состояние, условие, положение, обусловливать, кондиционировать",
-        "transcription": " |kənˈdɪʃn|",
-        "antonyms": [],
-        "mnemonic": [
-            "condition [конди'шан] условие - Наличие (кондишан-а*) - вот условие моего пребывания там (*Кон- диционера)."
-        ],
-        "examples": [
-            "The house is in bad condition.",
-            "He is in poor condition.",
-            "The car was in perfect condition.",
-            "I accept on condition that he will assist.",
-            "I condition my hair after washing it",
-            "My head got into a swimming condition.",
-            "Her condition deteriorated.",
-            "The car is in good condition.",
-            "His car is in excellent condition.",
-            "Doctors say his condition has ameliorated.",
-            "She has a serious heart condition.",
-            "People are conditioned by society.",
-            "The car seemed in good condition outside.",
-            "He has a dangerous medical condition.",
-            "My car was still in an operative condition.",
-            "Doctors suspect he may have a heart condition.",
-            "The car is in reasonably good condition.",
-            "Conditions in the prison were atrocious.",
-            "There was little change in his condition.",
-            "It's in pretty good condition for an old car.",
-            "The kitchen was kept in immaculate condition.",
-            "The car is in excellent condition.",
-            "a condition (or state) of disrepair",
-            "The house was in a terrible condition.",
-            "She suffers from a rare heart condition.",
-            "floating freely in a weightless condition",
-            "The hospital described his condition as satisfactory.",
-            "She was rushed to Alton Hospital, where her condition is critical.",
-            "After complaining about the hotel's lousy service, the woman went off on another rant about the condition of her room.",
-            "His physical condition has held up well."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Дом находится в плохом состоянии.",
-            "Он в плохом состоянии.",
-            "Машина была в идеальном состоянии.",
-            "Я даю своё согласие при условии, что он будет помогать.",
-            "После мытья волос я использую кондиционер.",
-            "У меня закружилась голова.",
-            "Её состояние ухудшилось.",
-            "Автомобиль находится в хорошем состоянии.",
-            "Его машина в превосходном состоянии.",
-            "Доктора говорят, что его состояние улучшилось.",
-            "У неё серьезное заболевание сердца.",
-            "Поведение людей регламентировано обществом.",
-            "Внешне состояние машины казалось хорошим.",
-            "У него опасное заболевание.",
-            "Моя машина была по-прежнему в исправном состоянии.",
-            "Врачи подозревают у него болезнь сердца.",
-            "Автомобиль находится в достаточно хорошем состоянии.",
-            "Условия в тюрьме были отвратительными.",
-            "Его состояние почти не изменилось.",
-            "Для своего возраста, этот автомобиль находится в довольно хорошем состоянии.",
-            "Кухня содержалась в идеальном состоянии.",
-            "Автомобиль находится в отличном состоянии.",
-            "состояние ветхости /неисправности/",
-            "Дом был в ужасном состоянии.",
-            "Она страдает редким заболеванием сердца.",
-            "свободно плавая в невесомом состоянии",
-            "В больнице его состояние определили как удовлетворительное.",
-            "Её в срочном порядке доставили в Элтонскую больницу. Её состояние крайне тяжёлое.",
-            "Пожаловавшись на то, как паршиво обслуживают в этой гостинице, женщина пустилась разглагольствовать о состоянии своего номера.",
-            "Его физическое состояние остаётся хорошим."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "condition": {
+    "comment": [
+      "conditional",
+      "air-conditioning"
+    ],
+    "translate": "состояние, условие, положение, обусловливать, кондиционировать",
+    "transcription": " |kənˈdɪʃn|",
+    "antonyms": [],
+    "mnemonic": [
+      "condition [конди'шан] условие - Наличие (кондишан-а*) - вот условие моего пребывания там (*Кон- диционера)."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The house is in bad condition.",
+        "ru": "Дом находится в плохом состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "He is in poor condition.",
+        "ru": "Он в плохом состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "The car was in perfect condition.",
+        "ru": "Машина была в идеальном состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "I accept on condition that he will assist.",
+        "ru": "Я даю своё согласие при условии, что он будет помогать.",
+        "learn": 0
+      },
+      {
+        "eng": "I condition my hair after washing it",
+        "ru": "После мытья волос я использую кондиционер.",
+        "learn": 0
+      },
+      {
+        "eng": "My head got into a swimming condition.",
+        "ru": "У меня закружилась голова.",
+        "learn": 0
+      },
+      {
+        "eng": "Her condition deteriorated.",
+        "ru": "Её состояние ухудшилось.",
+        "learn": 1
+      },
+      {
+        "eng": "The car is in good condition.",
+        "ru": "Автомобиль находится в хорошем состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "His car is in excellent condition.",
+        "ru": "Его машина в превосходном состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "Doctors say his condition has ameliorated.",
+        "ru": "Доктора говорят, что его состояние улучшилось.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a serious heart condition.",
+        "ru": "У неё серьезное заболевание сердца.",
+        "learn": 0
+      },
+      {
+        "eng": "People are conditioned by society.",
+        "ru": "Поведение людей регламентировано обществом.",
+        "learn": 0
+      },
+      {
+        "eng": "The car seemed in good condition outside.",
+        "ru": "Внешне состояние машины казалось хорошим.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a dangerous medical condition.",
+        "ru": "У него опасное заболевание.",
+        "learn": 0
+      },
+      {
+        "eng": "My car was still in an operative condition.",
+        "ru": "Моя машина была по-прежнему в исправном состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "Doctors suspect he may have a heart condition.",
+        "ru": "Врачи подозревают у него болезнь сердца.",
+        "learn": 0
+      },
+      {
+        "eng": "The car is in reasonably good condition.",
+        "ru": "Автомобиль находится в достаточно хорошем состоянии.",
+        "learn": 1
+      },
+      {
+        "eng": "Conditions in the prison were atrocious.",
+        "ru": "Условия в тюрьме были отвратительными.",
+        "learn": 0
+      },
+      {
+        "eng": "There was little change in his condition.",
+        "ru": "Его состояние почти не изменилось.",
+        "learn": 0
+      },
+      {
+        "eng": "It's in pretty good condition for an old car.",
+        "ru": "Для своего возраста, этот автомобиль находится в довольно хорошем состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "The kitchen was kept in immaculate condition.",
+        "ru": "Кухня содержалась в идеальном состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "The car is in excellent condition.",
+        "ru": "Автомобиль находится в отличном состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "a condition (or state) of disrepair",
+        "ru": "состояние ветхости /неисправности/",
+        "learn": 0
+      },
+      {
+        "eng": "The house was in a terrible condition.",
+        "ru": "Дом был в ужасном состоянии.",
+        "learn": 1
+      },
+      {
+        "eng": "She suffers from a rare heart condition.",
+        "ru": "Она страдает редким заболеванием сердца.",
+        "learn": 0
+      },
+      {
+        "eng": "floating freely in a weightless condition",
+        "ru": "свободно плавая в невесомом состоянии",
+        "learn": 0
+      },
+      {
+        "eng": "The hospital described his condition as satisfactory.",
+        "ru": "В больнице его состояние определили как удовлетворительное.",
+        "learn": 0
+      },
+      {
+        "eng": "She was rushed to Alton Hospital, where her condition is critical.",
+        "ru": "Её в срочном порядке доставили в Элтонскую больницу. Её состояние крайне тяжёлое.",
+        "learn": 1
+      },
+      {
+        "eng": "After complaining about the hotel's lousy service, the woman went off on another rant about the condition of her room.",
+        "ru": "Пожаловавшись на то, как паршиво обслуживают в этой гостинице, женщина пустилась разглагольствовать о состоянии своего номера.",
+        "learn": 0
+      },
+      {
+        "eng": "His physical condition has held up well.",
+        "ru": "Его физическое состояние остаётся хорошим.",
+        "learn": 0
+      }
+    ]
+  }
 }

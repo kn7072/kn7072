@@ -1,87 +1,175 @@
 {
-    "fail": {
-        "comment": [
-            "failure",
-            "fair",
-            "faint"
-        ],
-        "translate": "неудача, провал, облом, терпеть неудачу, обанкротиться",
-        "transcription": " |feɪl|",
-        "antonyms": [],
-        "mnemonic": [
-            "fail [файл] провалиться, потерпеть неудачу - В (У-фе Ил*) проваливаются и терпят неудачу (‘Самолёты ИЛ).",
-            "fail [feɪl]\n***\nПОТЕРПЕЛ НЕУДАЧУ и потерял трофей (л). (это) fail\nПОТЕРПЕЛ НЕУДАЧУ, не получил трюфель. (это) fail\n***\nЕсли под парусом \"sail\",\nпотерпишь неудачу \"fail\"\nты не грызи ногти \"nail\",\nа проверь почту \"mail\"."
-        ],
-        "examples": [
-            "My project failed.",
-            "All our plans failed.",
-            "We failed to arrive in time.",
-            "Take care not to fail me.",
-            "The wind failed.",
-            "She failed her exams.",
-            "I got a fail in history.",
-            "He failed to keep his word.",
-            "If only my memory does not fail me.",
-            "He failed me at the last minute.",
-            "I ... words fail me.",
-            "I fail to understand your motives.",
-            "Did I fail the test?",
-            "I fail words to express my thanks.",
-            "The engine failed unexpectedly.",
-            "A number of banks failed that year.",
-            "Though I may fail, I will still try.",
-            "It was embarrassing to fail the exam.",
-            "The letter failed to arrive.",
-            "I fail words to express my feelings.",
-            "Our water supply has failed.",
-            "The teacher failed six students.",
-            "I fail to see why you find it so amusing.",
-            "The hospital said that his kidneys were failing.",
-            "My fondness for you will never fail.",
-            "We shall not fail to send our reply.",
-            "Her paintings never fail to fascinate.",
-            "His sense of smell failed him this time",
-            "Soon would our food and water fail us here.",
-            "We shall not fail to revert to your enquiry."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Моя затея не удалась. / Мой план провалился.",
-            "Все наши планы рухнули.",
-            "Мы не смогли приехать вовремя.",
-            "Смотри не подведи меня.",
-            "Ветер стих.",
-            "Она провалилась на экзаменах.",
-            "Я завалил историю.",
-            "Он не сдержал слова.",
-            "Если только мне не изменяет память.",
-            "Он подвёл меня в последнюю минуту.",
-            "Я ... просто нет слов.",
-            "Я не в состоянии понять ваши мотивы.",
-            "Я провалила тест?",
-            "У меня нет слов, чтобы выразить свою благодарность.",
-            "Двигатель неожиданно отказал.",
-            "Несколько банков в том году разорилось.",
-            "У меня может не получиться, но я всё равно попытаюсь.",
-            "Было стыдно провалить экзамен.",
-            "Письмо так и не прибыло.",
-            "У меня нет слов, чтобы выразить мои чувства.",
-            "Наш запас воды иссяк.",
-            "Учитель завалил шестерых студентов.",
-            "Не понимаю, почему ты находишь это таким забавным.",
-            "В больнице сказали, что у него отказывают почки.",
-            "Моя любовь к тебе никогда не угаснет.",
-            "Мы не замедлим послать наш ответ.",
-            "Её картины не перестают восхищать.",
-            "На этот раз обоняние его подвело.",
-            "Скоро у нас закончатся пища и вода.",
-            "Мы не замедлим вернуться к вашему запросу."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Инфинитив_с_to_после_глаголов",
-            "Инфинитив"
-        ]
-    }
+  "fail": {
+    "comment": [
+      "failure",
+      "fair",
+      "faint"
+    ],
+    "translate": "неудача, провал, облом, терпеть неудачу, обанкротиться",
+    "transcription": " |feɪl|",
+    "antonyms": [],
+    "mnemonic": [
+      "fail [файл] провалиться, потерпеть неудачу - В (У-фе Ил*) проваливаются и терпят неудачу (‘Самолёты ИЛ).",
+      "fail [feɪl]\n***\nПОТЕРПЕЛ НЕУДАЧУ и потерял трофей (л). (это) fail\nПОТЕРПЕЛ НЕУДАЧУ, не получил трюфель. (это) fail\n***\nЕсли под парусом \"sail\",\nпотерпишь неудачу \"fail\"\nты не грызи ногти \"nail\",\nа проверь почту \"mail\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_с_to_после_глаголов",
+      "Инфинитив",
+      "infinitive_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "My project failed.",
+        "ru": "Моя затея не удалась. / Мой план провалился.",
+        "learn": 0
+      },
+      {
+        "eng": "All our plans failed.",
+        "ru": "Все наши планы рухнули.",
+        "learn": 0
+      },
+      {
+        "eng": "We failed to arrive in time.",
+        "ru": "Мы не смогли приехать вовремя.",
+        "learn": 0
+      },
+      {
+        "eng": "Take care not to fail me.",
+        "ru": "Смотри не подведи меня.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind failed.",
+        "ru": "Ветер стих.",
+        "learn": 1
+      },
+      {
+        "eng": "She failed her exams.",
+        "ru": "Она провалилась на экзаменах.",
+        "learn": 0
+      },
+      {
+        "eng": "I got a fail in history.",
+        "ru": "Я завалил историю.",
+        "learn": 0
+      },
+      {
+        "eng": "He failed to keep his word.",
+        "ru": "Он не сдержал слова.",
+        "learn": 0
+      },
+      {
+        "eng": "If only my memory does not fail me.",
+        "ru": "Если только мне не изменяет память.",
+        "learn": 1
+      },
+      {
+        "eng": "He failed me at the last minute.",
+        "ru": "Он подвёл меня в последнюю минуту.",
+        "learn": 0
+      },
+      {
+        "eng": "I ... words fail me.",
+        "ru": "Я ... просто нет слов.",
+        "learn": 0
+      },
+      {
+        "eng": "I fail to understand your motives.",
+        "ru": "Я не в состоянии понять ваши мотивы.",
+        "learn": 0
+      },
+      {
+        "eng": "Did I fail the test?",
+        "ru": "Я провалила тест?",
+        "learn": 0
+      },
+      {
+        "eng": "I fail words to express my thanks.",
+        "ru": "У меня нет слов, чтобы выразить свою благодарность.",
+        "learn": 0
+      },
+      {
+        "eng": "The engine failed unexpectedly.",
+        "ru": "Двигатель неожиданно отказал.",
+        "learn": 1
+      },
+      {
+        "eng": "A number of banks failed that year.",
+        "ru": "Несколько банков в том году разорилось.",
+        "learn": 0
+      },
+      {
+        "eng": "Though I may fail, I will still try.",
+        "ru": "У меня может не получиться, но я всё равно попытаюсь.",
+        "learn": 0
+      },
+      {
+        "eng": "It was embarrassing to fail the exam.",
+        "ru": "Было стыдно провалить экзамен.",
+        "learn": 1
+      },
+      {
+        "eng": "The letter failed to arrive.",
+        "ru": "Письмо так и не прибыло.",
+        "learn": 0
+      },
+      {
+        "eng": "I fail words to express my feelings.",
+        "ru": "У меня нет слов, чтобы выразить мои чувства.",
+        "learn": 0
+      },
+      {
+        "eng": "Our water supply has failed.",
+        "ru": "Наш запас воды иссяк.",
+        "learn": 0
+      },
+      {
+        "eng": "The teacher failed six students.",
+        "ru": "Учитель завалил шестерых студентов.",
+        "learn": 0
+      },
+      {
+        "eng": "I fail to see why you find it so amusing.",
+        "ru": "Не понимаю, почему ты находишь это таким забавным.",
+        "learn": 0
+      },
+      {
+        "eng": "The hospital said that his kidneys were failing.",
+        "ru": "В больнице сказали, что у него отказывают почки.",
+        "learn": 0
+      },
+      {
+        "eng": "My fondness for you will never fail.",
+        "ru": "Моя любовь к тебе никогда не угаснет.",
+        "learn": 0
+      },
+      {
+        "eng": "We shall not fail to send our reply.",
+        "ru": "Мы не замедлим послать наш ответ.",
+        "learn": 0
+      },
+      {
+        "eng": "Her paintings never fail to fascinate.",
+        "ru": "Её картины не перестают восхищать.",
+        "learn": 1
+      },
+      {
+        "eng": "His sense of smell failed him this time",
+        "ru": "На этот раз обоняние его подвело.",
+        "learn": 0
+      },
+      {
+        "eng": "Soon would our food and water fail us here.",
+        "ru": "Скоро у нас закончатся пища и вода.",
+        "learn": 0
+      },
+      {
+        "eng": "We shall not fail to revert to your enquiry.",
+        "ru": "Мы не замедлим вернуться к вашему запросу.",
+        "learn": 0
+      }
+    ]
+  }
 }

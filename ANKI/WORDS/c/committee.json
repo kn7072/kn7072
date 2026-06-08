@@ -1,84 +1,170 @@
 {
-    "committee": {
-        "comment": [
-            "commit",
-            "commitment",
-            "commission",
-            "committed",
-            "commissioner"
-        ],
-        "translate": "комитет, комиссия, опекун",
-        "transcription": " |kəˈmɪti|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "They set up a committee.",
-            "They formed themselves into a committee.",
-            "The bill has been referred back to committee.",
-            "I'll double for you in the committee meeting.",
-            "The committee meets once a month.",
-            "Post me up on your activities in the committee.",
-            "General Executive Committee",
-            "She was named Head of the Committee.",
-            "Bank Advisory Committee",
-            "The committee is open to suggestions.",
-            "She is Chair of the Finance Committee.",
-            "European Committee for Standardization",
-            "The committee deferred their decision.",
-            "The committee will hear witnesses today.",
-            "The committee was split along party lines.",
-            "She messaged the committee.",
-            "The committee concluded the meeting.",
-            "We're waiting for recommendations from the advisory committee.",
-            "The committee brushed off his enquiries with their usual \"It's under control, don't worry\".",
-            "Appropriation Committee",
-            "The committee killed the bill.",
-            "Development Assistance Committee",
-            "a special adviser to the committee",
-            "refer a bill to a committee",
-            "He's on the finance committee.",
-            "I was put up for the committee.",
-            "We internationalized the committee.",
-            "I was met by a welcoming committee.",
-            "The committee rejected my proposal.",
-            "the longtime chairman of the committee"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Они учредили комитет.",
-            "Они объединились в комитет.",
-            "Законопроект возвращён комиссии.",
-            "Я заменю тебя на заседании комитета.",
-            "Комитет собирается раз в месяц.",
-            "Держи меня в курсе своей деятельности в комитете.",
-            "Центральный исполнительный комитет",
-            "Её назначили главой комитета.",
-            "Банковский консультативный комитет",
-            "Комитет открыт для предложений.",
-            "Она председатель финансового комитета.",
-            "Европейский комитет по стандартизации",
-            "Комитет отложил решение по их вопросу.",
-            "Сегодня комитет будет заслушивать свидетелей.",
-            "Комитет был расколот по партийному принципу.",
-            "Она оповестила комитет.",
-            "Комитет завершил заседание.",
-            "Мы ждём рекомендаций консультативного комитета.",
-            "Комитет отмахнулся от его вопросов обычным \"всё под контролем, не беспокойтесь\".",
-            "Комитет по ассигнованиям Конгресса США",
-            "Комитет не принял этот законопроект.",
-            "Комитет содействия развитию (координирует программы помощи развивающимся странам)",
-            "специальный советник комитета",
-            "передать законопроект на рассмотрение в комитет",
-            "Он в финансовом комитете.",
-            "Меня выдвинули в члены комиссии.",
-            "Мы сделали этот комитет международным.",
-            "Меня встречала приветственная делегация.",
-            "Комитет отклонил моё предложение.",
-            "многолетний председатель этого комитета"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "committee": {
+    "comment": [
+      "commit",
+      "commitment",
+      "commission",
+      "committed",
+      "commissioner"
+    ],
+    "translate": "комитет, комиссия, опекун",
+    "transcription": " |kəˈmɪti|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "They set up a committee.",
+        "ru": "Они учредили комитет.",
+        "learn": 0
+      },
+      {
+        "eng": "They formed themselves into a committee.",
+        "ru": "Они объединились в комитет.",
+        "learn": 0
+      },
+      {
+        "eng": "The bill has been referred back to committee.",
+        "ru": "Законопроект возвращён комиссии.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll double for you in the committee meeting.",
+        "ru": "Я заменю тебя на заседании комитета.",
+        "learn": 0
+      },
+      {
+        "eng": "The committee meets once a month.",
+        "ru": "Комитет собирается раз в месяц.",
+        "learn": 0
+      },
+      {
+        "eng": "Post me up on your activities in the committee.",
+        "ru": "Держи меня в курсе своей деятельности в комитете.",
+        "learn": 0
+      },
+      {
+        "eng": "General Executive Committee",
+        "ru": "Центральный исполнительный комитет",
+        "learn": 0
+      },
+      {
+        "eng": "She was named Head of the Committee.",
+        "ru": "Её назначили главой комитета.",
+        "learn": 0
+      },
+      {
+        "eng": "Bank Advisory Committee",
+        "ru": "Банковский консультативный комитет",
+        "learn": 0
+      },
+      {
+        "eng": "The committee is open to suggestions.",
+        "ru": "Комитет открыт для предложений.",
+        "learn": 0
+      },
+      {
+        "eng": "She is Chair of the Finance Committee.",
+        "ru": "Она председатель финансового комитета.",
+        "learn": 0
+      },
+      {
+        "eng": "European Committee for Standardization",
+        "ru": "Европейский комитет по стандартизации",
+        "learn": 0
+      },
+      {
+        "eng": "The committee deferred their decision.",
+        "ru": "Комитет отложил решение по их вопросу.",
+        "learn": 1
+      },
+      {
+        "eng": "The committee will hear witnesses today.",
+        "ru": "Сегодня комитет будет заслушивать свидетелей.",
+        "learn": 0
+      },
+      {
+        "eng": "The committee was split along party lines.",
+        "ru": "Комитет был расколот по партийному принципу.",
+        "learn": 0
+      },
+      {
+        "eng": "She messaged the committee.",
+        "ru": "Она оповестила комитет.",
+        "learn": 0
+      },
+      {
+        "eng": "The committee concluded the meeting.",
+        "ru": "Комитет завершил заседание.",
+        "learn": 0
+      },
+      {
+        "eng": "We're waiting for recommendations from the advisory committee.",
+        "ru": "Мы ждём рекомендаций консультативного комитета.",
+        "learn": 1
+      },
+      {
+        "eng": "The committee brushed off his enquiries with their usual \"It's under control, don't worry\".",
+        "ru": "Комитет отмахнулся от его вопросов обычным \"всё под контролем, не беспокойтесь\".",
+        "learn": 0
+      },
+      {
+        "eng": "Appropriation Committee",
+        "ru": "Комитет по ассигнованиям Конгресса США",
+        "learn": 0
+      },
+      {
+        "eng": "The committee killed the bill.",
+        "ru": "Комитет не принял этот законопроект.",
+        "learn": 0
+      },
+      {
+        "eng": "Development Assistance Committee",
+        "ru": "Комитет содействия развитию (координирует программы помощи развивающимся странам)",
+        "learn": 0
+      },
+      {
+        "eng": "a special adviser to the committee",
+        "ru": "специальный советник комитета",
+        "learn": 0
+      },
+      {
+        "eng": "refer a bill to a committee",
+        "ru": "передать законопроект на рассмотрение в комитет",
+        "learn": 0
+      },
+      {
+        "eng": "He's on the finance committee.",
+        "ru": "Он в финансовом комитете.",
+        "learn": 0
+      },
+      {
+        "eng": "I was put up for the committee.",
+        "ru": "Меня выдвинули в члены комиссии.",
+        "learn": 0
+      },
+      {
+        "eng": "We internationalized the committee.",
+        "ru": "Мы сделали этот комитет международным.",
+        "learn": 0
+      },
+      {
+        "eng": "I was met by a welcoming committee.",
+        "ru": "Меня встречала приветственная делегация.",
+        "learn": 0
+      },
+      {
+        "eng": "The committee rejected my proposal.",
+        "ru": "Комитет отклонил моё предложение.",
+        "learn": 1
+      },
+      {
+        "eng": "the longtime chairman of the committee",
+        "ru": "многолетний председатель этого комитета",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,80 +1,166 @@
 {
-    "rope": {
-        "comment": [
-            "crop"
-        ],
-        "translate": "веревка, канат, трос, лассо, канатный, веревочный, связывать веревкой",
-        "transcription": " |roʊp|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The dog was roped to the fence.",
-            "The rope is made of nylon.",
-            "He coiled the rope.",
-            "I grasped the rope by its end.",
-            "The farmer has roped off the field to keep the animals out.",
-            "I don't want to get roped into any more of your activities.",
-            "Take hold of the rope at the top and then just shin down.",
-            "This rope won't hold in a strong wind.",
-            "Who else can we rope in to organize the tour?",
-            "The cattle are all roped in now.",
-            "I clutched at the rope.",
-            "They bound my arms and legs with rope.",
-            "Don't loosen your grip on the rope or you'll fall.",
-            "He tried to rope the calf.",
-            "You just yank twice on the rope as a signal to be pulled up.",
-            "The rope has worn out.",
-            "One end of the rope was tangled.",
-            "The rope tightened",
-            "The rope came loose.",
-            "Give the rope a pull.",
-            "He gave the rope a yank.",
-            "The rope was drawn taut.",
-            "She tied knots in the rope.",
-            "She made a knot in the rope.",
-            "Take up the slack of a rope!",
-            "The rope suddenly went slack.",
-            "The climber belayed the rope.",
-            "The calves are roped and branded.",
-            "They fastened the rope to a tree.",
-            "Loosen the tension on a rope."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Собака была привязана к забору верёвкой.",
-            "Этот канат/трос изготовлен из нейлона.",
-            "Он смотал верёвку /канат/.",
-            "Я схватил веревку за конец.",
-            "Фермер огородил поле верёвкой, чтобы скотина не заходила.",
-            "Не хочу больше участвовать в ваших делах.",
-            "Хватайся за верхнюю часть веревки и просто спускайся!",
-            "При сильном ветре эта верёвка не выдержит.",
-            "Кого бы запрячь организовывать поездку?",
-            "Теперь весь скот ограждён верёвками.",
-            "Я вцепился в веревку.",
-            "Они связали мои руки и ноги верёвкой.",
-            "Держи канат /верёвку/ крепко, а не то упадёшь. / Не ослабляй захват верёвки, иначе ты упадёшь.",
-            "Он попытался заарканить телёнка.",
-            "Дёрните два раза за верёвку, когда захотите, чтобы вас вытащили.",
-            "Верёвка износилась.",
-            "Один из концов верёвки был запутан.",
-            "Веревка натянулась",
-            "Верёвка ослабла.",
-            "Потяни за эту верёвку.",
-            "Он дернул за веревку.",
-            "Канат был туго натянут.",
-            "Она завязала на верёвке узлы.",
-            "Она завязала на верёвке узел.",
-            "Подтяни провисшую часть каната!",
-            "Канат внезапно ослаб.",
-            "Альпинист закрепил верёвку.",
-            "Телята связаны и заклеймены. / Телята связаны и помечены тавром.",
-            "Они привязали веревку к дереву.",
-            "Ослабьте натяжение верёвки."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "rope": {
+    "comment": [
+      "crop"
+    ],
+    "translate": "веревка, канат, трос, лассо, канатный, веревочный, связывать веревкой",
+    "transcription": " |roʊp|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The dog was roped to the fence.",
+        "ru": "Собака была привязана к забору верёвкой.",
+        "learn": 0
+      },
+      {
+        "eng": "The rope is made of nylon.",
+        "ru": "Этот канат/трос изготовлен из нейлона.",
+        "learn": 1
+      },
+      {
+        "eng": "He coiled the rope.",
+        "ru": "Он смотал верёвку /канат/.",
+        "learn": 1
+      },
+      {
+        "eng": "I grasped the rope by its end.",
+        "ru": "Я схватил веревку за конец.",
+        "learn": 0
+      },
+      {
+        "eng": "The farmer has roped off the field to keep the animals out.",
+        "ru": "Фермер огородил поле верёвкой, чтобы скотина не заходила.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't want to get roped into any more of your activities.",
+        "ru": "Не хочу больше участвовать в ваших делах.",
+        "learn": 0
+      },
+      {
+        "eng": "Take hold of the rope at the top and then just shin down.",
+        "ru": "Хватайся за верхнюю часть веревки и просто спускайся!",
+        "learn": 0
+      },
+      {
+        "eng": "This rope won't hold in a strong wind.",
+        "ru": "При сильном ветре эта верёвка не выдержит.",
+        "learn": 0
+      },
+      {
+        "eng": "Who else can we rope in to organize the tour?",
+        "ru": "Кого бы запрячь организовывать поездку?",
+        "learn": 0
+      },
+      {
+        "eng": "The cattle are all roped in now.",
+        "ru": "Теперь весь скот ограждён верёвками.",
+        "learn": 0
+      },
+      {
+        "eng": "I clutched at the rope.",
+        "ru": "Я вцепился в веревку.",
+        "learn": 0
+      },
+      {
+        "eng": "They bound my arms and legs with rope.",
+        "ru": "Они связали мои руки и ноги верёвкой.",
+        "learn": 1
+      },
+      {
+        "eng": "Don't loosen your grip on the rope or you'll fall.",
+        "ru": "Держи канат /верёвку/ крепко, а не то упадёшь. / Не ослабляй захват верёвки, иначе ты упадёшь.",
+        "learn": 0
+      },
+      {
+        "eng": "He tried to rope the calf.",
+        "ru": "Он попытался заарканить телёнка.",
+        "learn": 1
+      },
+      {
+        "eng": "You just yank twice on the rope as a signal to be pulled up.",
+        "ru": "Дёрните два раза за верёвку, когда захотите, чтобы вас вытащили.",
+        "learn": 0
+      },
+      {
+        "eng": "The rope has worn out.",
+        "ru": "Верёвка износилась.",
+        "learn": 0
+      },
+      {
+        "eng": "One end of the rope was tangled.",
+        "ru": "Один из концов верёвки был запутан.",
+        "learn": 0
+      },
+      {
+        "eng": "The rope tightened",
+        "ru": "Веревка натянулась",
+        "learn": 1
+      },
+      {
+        "eng": "The rope came loose.",
+        "ru": "Верёвка ослабла.",
+        "learn": 0
+      },
+      {
+        "eng": "Give the rope a pull.",
+        "ru": "Потяни за эту верёвку.",
+        "learn": 0
+      },
+      {
+        "eng": "He gave the rope a yank.",
+        "ru": "Он дернул за веревку.",
+        "learn": 0
+      },
+      {
+        "eng": "The rope was drawn taut.",
+        "ru": "Канат был туго натянут.",
+        "learn": 0
+      },
+      {
+        "eng": "She tied knots in the rope.",
+        "ru": "Она завязала на верёвке узлы.",
+        "learn": 0
+      },
+      {
+        "eng": "She made a knot in the rope.",
+        "ru": "Она завязала на верёвке узел.",
+        "learn": 0
+      },
+      {
+        "eng": "Take up the slack of a rope!",
+        "ru": "Подтяни провисшую часть каната!",
+        "learn": 0
+      },
+      {
+        "eng": "The rope suddenly went slack.",
+        "ru": "Канат внезапно ослаб.",
+        "learn": 0
+      },
+      {
+        "eng": "The climber belayed the rope.",
+        "ru": "Альпинист закрепил верёвку.",
+        "learn": 0
+      },
+      {
+        "eng": "The calves are roped and branded.",
+        "ru": "Телята связаны и заклеймены. / Телята связаны и помечены тавром.",
+        "learn": 0
+      },
+      {
+        "eng": "They fastened the rope to a tree.",
+        "ru": "Они привязали веревку к дереву.",
+        "learn": 0
+      },
+      {
+        "eng": "Loosen the tension on a rope.",
+        "ru": "Ослабьте натяжение верёвки.",
+        "learn": 0
+      }
+    ]
+  }
 }

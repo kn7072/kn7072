@@ -1,88 +1,175 @@
 {
-    "weather": {
-        "comment": [
-            "weather, already, spread - погода, уже, распространяется",
-            "feather",
-            "leather",
-            "whether"
-        ],
-        "translate": "погода, непогода, шторм, погодный, наветренный, выдерживать",
-        "transcription": " |ˈweðər|",
-        "antonyms": [],
-        "mnemonic": [
-            "weather [(ув)е'вза] погода - Все неприятности надо (увяза-ть) с погодой плохой.",
-            "leather ['leðə]\nweather ['weðə] - погода\nfeather ['feðə] - перо, оперенье\n***\nКОЖА - надёжная, как железо. (это) leather\nВ КОЖАННЫХ ботинках, как в железе. (это) leather\n***\nВ любую погоду \"weather\"\nя одеваю кожу \"leather\"\nс опереньем \"feather\"."
-        ],
-        "examples": [
-            "The weather was bad.",
-            "I hate rainy weather.",
-            "I like cold weather.",
-            "What lousy weather!",
-            "I detest hot weather.",
-            "The weather today will be hot and dry.",
-            "The weather keeps fine.",
-            "The weather fined a bit.",
-            "What's the weather like today?",
-            "a weathered old hut",
-            "The weather was awful.",
-            "The weather is cool today.",
-            "They go out in all weathers.",
-            "I'll stay and weather the storm.",
-            "Jolly weather, isn't it?",
-            "Will the weather keep up?",
-            "The weather was beautiful.",
-            "The weather became warmer.",
-            "The weather has been fabulous.",
-            "\"October's bright blue weather\"",
-            "We were hoping for good weather.",
-            "The weather was ghastly.",
-            "The weather turned nasty.",
-            "The weather here is great.",
-            "The weather was villainous.",
-            "The weather was hot and dry.",
-            "The weather is set to change.",
-            "We had such cross weather.",
-            "the worst weather of the year",
-            "The weather vane points North."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Погода была плохая.",
-            "Я ненавижу дождливую погоду.",
-            "Мне нравится холодная погода.",
-            "Что за мерзкая погода!",
-            "Я терпеть не могу жару.",
-            "Сегодня погода будет жаркой и сухой.",
-            "Стоит хорошая погода.",
-            "Прояснилось.",
-            "Что сегодня за погода?",
-            "старая, потрёпанная погодой хижина",
-            "Погода была ужасная.",
-            "Прохладно сегодня.",
-            "Они выходят в любую погоду.",
-            "Я останусь и пережду шторм.",
-            "Погодка чудесная, не так ли?",
-            "Погода не изменится?",
-            "Погода была чудесная.",
-            "Погода стала теплее.",
-            "Погода была сказочной /потрясающей/.",
-            "\"Голубая октябрьская погода\" / \"Прозрачные дни октября\" (стихотворение Х.Х. Джексон)",
-            "Мы надеялись на хорошую погоду.",
-            "Погода была ужасная.",
-            "Погода окончательно испортилась.",
-            "Погода здесь отличная.",
-            "Погода была отвратительная.",
-            "Погода была жаркой и сухой.",
-            "Погода начинает меняться.",
-            "Погода была хуже некуда.",
-            "худшая погода в году",
-            "Флюгер указывает на север."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "th_=_[ð]",
-            "ea_=_[e]"
-        ]
-    }
+  "weather": {
+    "comment": [
+      "weather, already, spread - погода, уже, распространяется",
+      "feather",
+      "leather",
+      "whether"
+    ],
+    "translate": "погода, непогода, шторм, погодный, наветренный, выдерживать",
+    "transcription": " |ˈweðər|",
+    "antonyms": [],
+    "mnemonic": [
+      "weather [(ув)е'вза] погода - Все неприятности надо (увяза-ть) с погодой плохой.",
+      "leather ['leðə]\nweather ['weðə] - погода\nfeather ['feðə] - перо, оперенье\n***\nКОЖА - надёжная, как железо. (это) leather\nВ КОЖАННЫХ ботинках, как в железе. (это) leather\n***\nВ любую погоду \"weather\"\nя одеваю кожу \"leather\"\nс опереньем \"feather\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "th_=_[ð]",
+      "ea_=_[e]"
+    ],
+    "examples": [
+      {
+        "eng": "The weather was bad.",
+        "ru": "Погода была плохая.",
+        "learn": 0
+      },
+      {
+        "eng": "I hate rainy weather.",
+        "ru": "Я ненавижу дождливую погоду.",
+        "learn": 0
+      },
+      {
+        "eng": "I like cold weather.",
+        "ru": "Мне нравится холодная погода.",
+        "learn": 0
+      },
+      {
+        "eng": "What lousy weather!",
+        "ru": "Что за мерзкая погода!",
+        "learn": 0
+      },
+      {
+        "eng": "I detest hot weather.",
+        "ru": "Я терпеть не могу жару.",
+        "learn": 1
+      },
+      {
+        "eng": "The weather today will be hot and dry.",
+        "ru": "Сегодня погода будет жаркой и сухой.",
+        "learn": 0
+      },
+      {
+        "eng": "The weather keeps fine.",
+        "ru": "Стоит хорошая погода.",
+        "learn": 0
+      },
+      {
+        "eng": "The weather fined a bit.",
+        "ru": "Прояснилось.",
+        "learn": 0
+      },
+      {
+        "eng": "What's the weather like today?",
+        "ru": "Что сегодня за погода?",
+        "learn": 0
+      },
+      {
+        "eng": "a weathered old hut",
+        "ru": "старая, потрёпанная погодой хижина",
+        "learn": 0
+      },
+      {
+        "eng": "The weather was awful.",
+        "ru": "Погода была ужасная.",
+        "learn": 0
+      },
+      {
+        "eng": "The weather is cool today.",
+        "ru": "Прохладно сегодня.",
+        "learn": 0
+      },
+      {
+        "eng": "They go out in all weathers.",
+        "ru": "Они выходят в любую погоду.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll stay and weather the storm.",
+        "ru": "Я останусь и пережду шторм.",
+        "learn": 0
+      },
+      {
+        "eng": "Jolly weather, isn't it?",
+        "ru": "Погодка чудесная, не так ли?",
+        "learn": 0
+      },
+      {
+        "eng": "Will the weather keep up?",
+        "ru": "Погода не изменится?",
+        "learn": 0
+      },
+      {
+        "eng": "The weather was beautiful.",
+        "ru": "Погода была чудесная.",
+        "learn": 0
+      },
+      {
+        "eng": "The weather became warmer.",
+        "ru": "Погода стала теплее.",
+        "learn": 0
+      },
+      {
+        "eng": "The weather has been fabulous.",
+        "ru": "Погода была сказочной /потрясающей/.",
+        "learn": 1
+      },
+      {
+        "eng": "\"October's bright blue weather\"",
+        "ru": "\"Голубая октябрьская погода\" / \"Прозрачные дни октября\" (стихотворение Х.Х. Джексон)",
+        "learn": 0
+      },
+      {
+        "eng": "We were hoping for good weather.",
+        "ru": "Мы надеялись на хорошую погоду.",
+        "learn": 0
+      },
+      {
+        "eng": "The weather was ghastly.",
+        "ru": "Погода была ужасная.",
+        "learn": 0
+      },
+      {
+        "eng": "The weather turned nasty.",
+        "ru": "Погода окончательно испортилась.",
+        "learn": 0
+      },
+      {
+        "eng": "The weather here is great.",
+        "ru": "Погода здесь отличная.",
+        "learn": 0
+      },
+      {
+        "eng": "The weather was villainous.",
+        "ru": "Погода была отвратительная.",
+        "learn": 0
+      },
+      {
+        "eng": "The weather was hot and dry.",
+        "ru": "Погода была жаркой и сухой.",
+        "learn": 1
+      },
+      {
+        "eng": "The weather is set to change.",
+        "ru": "Погода начинает меняться.",
+        "learn": 0
+      },
+      {
+        "eng": "We had such cross weather.",
+        "ru": "Погода была хуже некуда.",
+        "learn": 0
+      },
+      {
+        "eng": "the worst weather of the year",
+        "ru": "худшая погода в году",
+        "learn": 0
+      },
+      {
+        "eng": "The weather vane points North.",
+        "ru": "Флюгер указывает на север.",
+        "learn": 0
+      }
+    ]
+  }
 }

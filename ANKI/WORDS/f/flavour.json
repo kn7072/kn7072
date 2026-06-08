@@ -1,66 +1,131 @@
 {
-    "flavour": {
-        "comment": [
-            "flavor"
-        ],
-        "translate": "вкус, аромат, привкус, букет, особенность, сдабривать, приправлять, придавать вкус",
-        "transcription": " |ˈfleɪvər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Which flavor do you want - chocolate or vanilla?",
-            "This coffee has a rich nutty flavour.",
-            "This cheese has a very strong flavour.",
-            "Newspaper reports are often flavoured with sex and violence.",
-            "a juicy apple with a slightly acid flavour",
-            "The spices really bring out the flavour of the meat.",
-            "The flavour is not unlike Chardonnay, but with a difference.",
-            "The stories have a strong regional flavour.",
-            "Savour the flavour of each mouthful, and chew you food well.",
-            "The longer this salad chills, the better the flavour.",
-            "This method of cooking locks in the flavour of the meat.",
-            "Strong sauces that overpower the natural flavour of the fish.",
-            "Marston's book gives you a flavour of life in the 16th century.",
-            "A certain aristocratic flavour must have ever dwelt about the Athenians.",
-            "The wine has a lively fruity flavour.",
-            "White poppy seeds have a distinctive nutty flavour.",
-            "The ginger gives the dish a wonderful spicy flavour.",
-            "The cheese is firm in texture and has a strong flavour.",
-            "The Spanish wine, with the flavour of honey, packed quite a punch.",
-            "Now you can enjoy Nescafé's fuller flavour in a decaffeinated form.",
-            "The flavour of the wine is further improved during the aging period.",
-            "Critics claim the building would destroy the flavor of the neighborhood.",
-            "Use a piece of fresh ginger to impart a Far-Eastern flavour to simple ingredients."
-        ],
-        "example_translate": [
-            "С каким вкусом вы хотите - шоколадным или ванильным?",
-            "Этот кофе имеет насыщенный ореховый аромат.",
-            "Этот сыр обладает очень сильным ароматом.",
-            "Газетные репортажи часто приправлены темами секса и насилия.",
-            "сочное яблоко с кисловатым вкусом",
-            "Специи действительно подчёркивают /раскрывают/ вкус мяса.",
-            "Букет напоминает шардоне, но отличается оригинальностью.",
-            "Эти рассказы обладают сильным местным колоритом.",
-            "Тщательно пережёвывайте пищу и смакуйте каждый кусочек.",
-            "Чем дольше этот салат охлаждается, тем лучше его вкус.",
-            "При применении этого способа приготовления пищи вкус мяса сохраняется.",
-            "Острые соусы, которые перебивают естественный вкус рыбы.",
-            "Книга Марстон даёт читателю почувствовать, какой была жизнь в шестнадцатом веке.",
-            "Некоторый налёт аристократизма, должно быть, всегда присутствовал в жителях Афин.",
-            "Вино имеет выраженный фруктовый вкус.",
-            "Семена белого мака обладают характерным ореховым ароматом.",
-            "Имбирь придаёт этому блюду удивительный пикантный вкус.",
-            "Этот сыр обладает твёрдой структурой и сильным ароматом.",
-            "Испанское вино с медовым букетом здорово ударило в голову.",
-            "Теперь вы можете наслаждаться более полным вкусом Nescafé без кофеина.",
-            "В период вызревания вкус вина становится ещё лучше.",
-            "Противники строительства данного здания утверждают, что оно разрушит уникальный колорит этого района.",
-            "Чтобы придать простым ингредиентам восточно-азиатские нотки, используйте кусочек свежего имбиря."
-        ],
-        "synonyms": [],
-        "stars": 0,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "flavour": {
+    "comment": [
+      "flavor"
+    ],
+    "translate": "вкус, аромат, привкус, букет, особенность, сдабривать, приправлять, придавать вкус",
+    "transcription": " |ˈfleɪvər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Which flavor do you want - chocolate or vanilla?",
+        "ru": "С каким вкусом вы хотите - шоколадным или ванильным?",
+        "learn": 1
+      },
+      {
+        "eng": "This coffee has a rich nutty flavour.",
+        "ru": "Этот кофе имеет насыщенный ореховый аромат.",
+        "learn": 1
+      },
+      {
+        "eng": "This cheese has a very strong flavour.",
+        "ru": "Этот сыр обладает очень сильным ароматом.",
+        "learn": 1
+      },
+      {
+        "eng": "Newspaper reports are often flavoured with sex and violence.",
+        "ru": "Газетные репортажи часто приправлены темами секса и насилия.",
+        "learn": 0
+      },
+      {
+        "eng": "a juicy apple with a slightly acid flavour",
+        "ru": "сочное яблоко с кисловатым вкусом",
+        "learn": 1
+      },
+      {
+        "eng": "The spices really bring out the flavour of the meat.",
+        "ru": "Специи действительно подчёркивают /раскрывают/ вкус мяса.",
+        "learn": 0
+      },
+      {
+        "eng": "The flavour is not unlike Chardonnay, but with a difference.",
+        "ru": "Букет напоминает шардоне, но отличается оригинальностью.",
+        "learn": 0
+      },
+      {
+        "eng": "The stories have a strong regional flavour.",
+        "ru": "Эти рассказы обладают сильным местным колоритом.",
+        "learn": 0
+      },
+      {
+        "eng": "Savour the flavour of each mouthful, and chew you food well.",
+        "ru": "Тщательно пережёвывайте пищу и смакуйте каждый кусочек.",
+        "learn": 0
+      },
+      {
+        "eng": "The longer this salad chills, the better the flavour.",
+        "ru": "Чем дольше этот салат охлаждается, тем лучше его вкус.",
+        "learn": 0
+      },
+      {
+        "eng": "This method of cooking locks in the flavour of the meat.",
+        "ru": "При применении этого способа приготовления пищи вкус мяса сохраняется.",
+        "learn": 0
+      },
+      {
+        "eng": "Strong sauces that overpower the natural flavour of the fish.",
+        "ru": "Острые соусы, которые перебивают естественный вкус рыбы.",
+        "learn": 0
+      },
+      {
+        "eng": "Marston's book gives you a flavour of life in the 16th century.",
+        "ru": "Книга Марстон даёт читателю почувствовать, какой была жизнь в шестнадцатом веке.",
+        "learn": 0
+      },
+      {
+        "eng": "A certain aristocratic flavour must have ever dwelt about the Athenians.",
+        "ru": "Некоторый налёт аристократизма, должно быть, всегда присутствовал в жителях Афин.",
+        "learn": 0
+      },
+      {
+        "eng": "The wine has a lively fruity flavour.",
+        "ru": "Вино имеет выраженный фруктовый вкус.",
+        "learn": 0
+      },
+      {
+        "eng": "White poppy seeds have a distinctive nutty flavour.",
+        "ru": "Семена белого мака обладают характерным ореховым ароматом.",
+        "learn": 0
+      },
+      {
+        "eng": "The ginger gives the dish a wonderful spicy flavour.",
+        "ru": "Имбирь придаёт этому блюду удивительный пикантный вкус.",
+        "learn": 0
+      },
+      {
+        "eng": "The cheese is firm in texture and has a strong flavour.",
+        "ru": "Этот сыр обладает твёрдой структурой и сильным ароматом.",
+        "learn": 0
+      },
+      {
+        "eng": "The Spanish wine, with the flavour of honey, packed quite a punch.",
+        "ru": "Испанское вино с медовым букетом здорово ударило в голову.",
+        "learn": 0
+      },
+      {
+        "eng": "Now you can enjoy Nescafé's fuller flavour in a decaffeinated form.",
+        "ru": "Теперь вы можете наслаждаться более полным вкусом Nescafé без кофеина.",
+        "learn": 0
+      },
+      {
+        "eng": "The flavour of the wine is further improved during the aging period.",
+        "ru": "В период вызревания вкус вина становится ещё лучше.",
+        "learn": 0
+      },
+      {
+        "eng": "Critics claim the building would destroy the flavor of the neighborhood.",
+        "ru": "Противники строительства данного здания утверждают, что оно разрушит уникальный колорит этого района.",
+        "learn": 0
+      },
+      {
+        "eng": "Use a piece of fresh ginger to impart a Far-Eastern flavour to simple ingredients.",
+        "ru": "Чтобы придать простым ингредиентам восточно-азиатские нотки, используйте кусочек свежего имбиря.",
+        "learn": 0
+      }
+    ]
+  }
 }

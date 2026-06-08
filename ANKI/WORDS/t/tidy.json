@@ -1,77 +1,151 @@
 {
-    "tidy": {
-        "comment": [
-            "tidily",
-            "untidy",
-            "tide"
-        ],
-        "translate": "опрятный, аккуратный, убирать, приборка, уборка",
-        "transcription": " |ˈtaɪdɪ|",
-        "antonyms": [],
-        "mnemonic": [
-            "tidy [та'йдъи] опрятный, аккуратный - Порошок («Тайд» и) опрятным делает и аккуратным:",
-            "tide [taɪd]\ntidy ['taɪdɪ] - опрятный, аккуратный., значительный\n***\nПОТОКОМ хлынул в страну к нам Тайд. (это) tide\nВОЛНОЙ большой идёт к нам Тайд. (это) tide\n***\nОПРЯТНЫМИ и АККУРАТНЫМИ вырастайте.\n(это) tidy\nВ доме ПРИБИРАЙТЕ и подметайте. (это) tidy"
-        ],
-        "examples": [
-            "Tidy your room!",
-            "Keep your room tidy.",
-            "I must have a few minutes to tidy myself up.",
-            "Help me to tidy this room up.",
-            "She earns a tidy salary.",
-            "I try to keep the garden tidy.",
-            "Ellen's room is always neat and tidy.",
-            "The house seemed nice and tidy.",
-            "They paid a tidy sum for the house.",
-            "He has always been a tidy person.",
-            "Mother's always on at me to keep my room tidy.",
-            "We sold the house for a tidy sum and moved south.",
-            "Chris is a naturally tidy person.",
-            "Let's tidy up and make the house a bit more presentable.",
-            "I tidied the house before they arrived.",
-            "Everything in the house was neat and tidy.",
-            "I'm tired of tidying up after you boys (=tidying somewhere that someone else has made untidy).",
-            "Maria was running around trying to get the house tidy.",
-            "It's time we tidied up the office.",
-            "Sue has a real fetish about keeping everything tidy.",
-            "Tidy the room and plump up the cushions ready for our guests.",
-            "It doesn't matter what you wear, as long as you look neat and tidy.",
-            "Keep kitchen surfaces clean and tidy.",
-            "Keeping the house tidy is an uphill battle .",
-            "As usual, she left her room clean and tidy before going to school.",
-            "Things do not happen according to plan, and they are not reducible to tidy models."
-        ],
-        "example_translate": [
-            "Приберись в своей комнате!",
-            "Поддерживайте в комнате порядок.",
-            "Мне нужно несколько минут, чтобы привести себя в порядок.",
-            "Помоги мне убраться в комнате.",
-            "Она получает неплохую зарплату.",
-            "Я стараюсь, поддерживать сад в порядке.",
-            "Комната Эллен всегда чистая и прибранная.",
-            "На вид дом был красивым и чистым.",
-            "Они заплатили кругленькую сумму за дом.",
-            "Он всегда был аккуратным человеком.",
-            "Мама всегда напоминает мне о том, что в комнате должен быть порядок.",
-            "Мы продали дом за кругленькую сумму и двинулись на Юг.",
-            "Крис — человек от природы аккуратный.",
-            "Давайте уберёмся и сделаем в доме немного поприличнее.",
-            "Перед их приездом я прибралась в доме.",
-            "Всё в этом доме было аккуратно и красиво.",
-            "Я устала убирать за вами, мальчики (т.е. убирать там, где насорил кто-то другой).",
-            "Мария бегала вокруг, пытаясь навести в доме порядок и чистоту.",
-            "Пора нам привести офис /кабинет/ в порядок.",
-            "Сью просто зациклена на поддержании порядка.",
-            "Прибери в комнате и взбей подушки для наших гостей.",
-            "Неважно, во что ты одет, при условии, что выглядишь опрятно и аккуратно.",
-            "Держите кухонные поверхности в чистоте и порядке.",
-            "Поддержание чистоты в доме — это сизифов труд.",
-            "Как обычно, уходя в школу, она оставила свою комнату в полном порядке.",
-            "Жизненные события не происходят по плану, и их нельзя свести к аккуратным моделям."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "tidy": {
+    "comment": [
+      "tidily",
+      "untidy",
+      "tide"
+    ],
+    "translate": "опрятный, аккуратный, убирать, приборка, уборка",
+    "transcription": " |ˈtaɪdɪ|",
+    "antonyms": [],
+    "mnemonic": [
+      "tidy [та'йдъи] опрятный, аккуратный - Порошок («Тайд» и) опрятным делает и аккуратным:",
+      "tide [taɪd]\ntidy ['taɪdɪ] - опрятный, аккуратный., значительный\n***\nПОТОКОМ хлынул в страну к нам Тайд. (это) tide\nВОЛНОЙ большой идёт к нам Тайд. (это) tide\n***\nОПРЯТНЫМИ и АККУРАТНЫМИ вырастайте.\n(это) tidy\nВ доме ПРИБИРАЙТЕ и подметайте. (это) tidy"
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Tidy your room!",
+        "ru": "Приберись в своей комнате!",
+        "learn": 0
+      },
+      {
+        "eng": "Keep your room tidy.",
+        "ru": "Поддерживайте в комнате порядок.",
+        "learn": 0
+      },
+      {
+        "eng": "I must have a few minutes to tidy myself up.",
+        "ru": "Мне нужно несколько минут, чтобы привести себя в порядок.",
+        "learn": 1
+      },
+      {
+        "eng": "Help me to tidy this room up.",
+        "ru": "Помоги мне убраться в комнате.",
+        "learn": 0
+      },
+      {
+        "eng": "She earns a tidy salary.",
+        "ru": "Она получает неплохую зарплату.",
+        "learn": 0
+      },
+      {
+        "eng": "I try to keep the garden tidy.",
+        "ru": "Я стараюсь, поддерживать сад в порядке.",
+        "learn": 0
+      },
+      {
+        "eng": "Ellen's room is always neat and tidy.",
+        "ru": "Комната Эллен всегда чистая и прибранная.",
+        "learn": 0
+      },
+      {
+        "eng": "The house seemed nice and tidy.",
+        "ru": "На вид дом был красивым и чистым.",
+        "learn": 0
+      },
+      {
+        "eng": "They paid a tidy sum for the house.",
+        "ru": "Они заплатили кругленькую сумму за дом.",
+        "learn": 0
+      },
+      {
+        "eng": "He has always been a tidy person.",
+        "ru": "Он всегда был аккуратным человеком.",
+        "learn": 1
+      },
+      {
+        "eng": "Mother's always on at me to keep my room tidy.",
+        "ru": "Мама всегда напоминает мне о том, что в комнате должен быть порядок.",
+        "learn": 0
+      },
+      {
+        "eng": "We sold the house for a tidy sum and moved south.",
+        "ru": "Мы продали дом за кругленькую сумму и двинулись на Юг.",
+        "learn": 0
+      },
+      {
+        "eng": "Chris is a naturally tidy person.",
+        "ru": "Крис — человек от природы аккуратный.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's tidy up and make the house a bit more presentable.",
+        "ru": "Давайте уберёмся и сделаем в доме немного поприличнее.",
+        "learn": 0
+      },
+      {
+        "eng": "I tidied the house before they arrived.",
+        "ru": "Перед их приездом я прибралась в доме.",
+        "learn": 1
+      },
+      {
+        "eng": "Everything in the house was neat and tidy.",
+        "ru": "Всё в этом доме было аккуратно и красиво.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm tired of tidying up after you boys (=tidying somewhere that someone else has made untidy).",
+        "ru": "Я устала убирать за вами, мальчики (т.е. убирать там, где насорил кто-то другой).",
+        "learn": 0
+      },
+      {
+        "eng": "Maria was running around trying to get the house tidy.",
+        "ru": "Мария бегала вокруг, пытаясь навести в доме порядок и чистоту.",
+        "learn": 0
+      },
+      {
+        "eng": "It's time we tidied up the office.",
+        "ru": "Пора нам привести офис /кабинет/ в порядок.",
+        "learn": 0
+      },
+      {
+        "eng": "Sue has a real fetish about keeping everything tidy.",
+        "ru": "Сью просто зациклена на поддержании порядка.",
+        "learn": 0
+      },
+      {
+        "eng": "Tidy the room and plump up the cushions ready for our guests.",
+        "ru": "Прибери в комнате и взбей подушки для наших гостей.",
+        "learn": 0
+      },
+      {
+        "eng": "It doesn't matter what you wear, as long as you look neat and tidy.",
+        "ru": "Неважно, во что ты одет, при условии, что выглядишь опрятно и аккуратно.",
+        "learn": 0
+      },
+      {
+        "eng": "Keep kitchen surfaces clean and tidy.",
+        "ru": "Держите кухонные поверхности в чистоте и порядке.",
+        "learn": 0
+      },
+      {
+        "eng": "Keeping the house tidy is an uphill battle .",
+        "ru": "Поддержание чистоты в доме — это сизифов труд.",
+        "learn": 0
+      },
+      {
+        "eng": "As usual, she left her room clean and tidy before going to school.",
+        "ru": "Как обычно, уходя в школу, она оставила свою комнату в полном порядке.",
+        "learn": 0
+      },
+      {
+        "eng": "Things do not happen according to plan, and they are not reducible to tidy models.",
+        "ru": "Жизненные события не происходят по плану, и их нельзя свести к аккуратным моделям.",
+        "learn": 0
+      }
+    ]
+  }
 }

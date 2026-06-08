@@ -1,90 +1,177 @@
 {
-    "hard": {
-        "comment": [
-            "hardly",
-            "harden",
-            "hardness"
-        ],
-        "translate": "жёсткий, трудный, твердый, жестко, твердо, тяжело, каторга, брод",
-        "transcription": " |hɑːrd|",
-        "antonyms": [],
-        "mnemonic": [
-            "hard [1зард] тяжёлый, твёрдый - (Хард) рок - тяжёл для слуха.",
-            "hard [hɑ:d]\nharden - твердеть\nhardly - едва ли, вряд ли\n***\nНа ЖЕСТКОМ диске держит свои правила джихад.\n(это) hard\nТРУДНЫЙ выбор сделал джихад. (это) hard\nКРЕПКИЙ орешек - джихад. (это) hard\n***\nУ меня есть карта \"card\",\nона твёрдая \"hard\"."
-        ],
-        "examples": [
-            "Times were hard.",
-            "It rained hard.",
-            "She's had a hard life.",
-            "She was hard to please.",
-            "Hit the ball hard.",
-            "Don't drive me too hard.",
-            "He hit me a hard blow.",
-            "It is a hard book to read.",
-            "You're a hard man, John.",
-            "We work for a hard master.",
-            "The student studied hard.",
-            "This has been a hard winter.",
-            "He hit the ball hard.",
-            "The ice is frozen hard.",
-            "The snow came down hard.",
-            "Small type is hard to read.",
-            "Life is hard at times.",
-            "He pushed her very hard.",
-            "Mr. Hopkins is hard sick.",
-            "The success repays hard work.",
-            "The offer was hard to resist.",
-            "I found it hard to concentrate.",
-            "He works much too hard.",
-            "The work is pretty hard.",
-            "It was hard to stay awake.",
-            "Hard water may be softened.",
-            "Running a farm is hard work.",
-            "a hard left to the chin",
-            "Defeat seemed hard at hand.",
-            "He hit her hard in the face."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Тяжёлые были времена.",
-            "Шёл сильный дождь.",
-            "У неё была тяжёлая жизнь.",
-            "Ей было трудно угодить.",
-            "Сильно ударь по мячу.",
-            "Не наседай на меня.",
-            "Он сильно ударил меня.",
-            "Эта книга трудна для чтения.",
-            "Суровый ты мужик, Джон.",
-            "Мы работаем на требовательного хозяина.",
-            "Студент усердно занимался.",
-            "Это была суровая зима.",
-            "Он нанёс сильный удар по мячу.",
-            "Лёд очень твёрдый.",
-            "Шёл сильный снег.",
-            "Мелкий шрифт сложно читать.",
-            "Жизнь порой трудна.",
-            "Он очень грубо её отымел.",
-            "Мистер Хопкинс очень болен.",
-            "Успех — это вознаграждение за тяжёлый труд.",
-            "Перед этим предложением было трудно устоять.",
-            "Мне было трудно сосредоточиться.",
-            "Он слишком уж много работает.",
-            "Эта работа довольно тяжёлая.",
-            "Было трудно не заснуть.",
-            "Жёсткую воду можно смягчить.",
-            "Работа на ферме — тяжёлый труд.",
-            "сильный удар с левой в челюсть",
-            "Поражение казалось совсем близко.",
-            "Он сильно ударил её по лицу."
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив_с_to_после_прил(подлежащие_логическое_дополнение_инфинитива)",
-            "Инфинитив",
-            "all_words",
-            "Инфинитивный_оборот_с_for",
-            "Инфинитив_-_инфинитивный_оборот_с_for(После_сочетания_It_is_(was,_will_be)_с_некоторыми_прилагательными)",
-            "Инфинитив_с_to_после_прил((am,_is,_are_и_т._д.)_+_прилагательное_+_инфинитив)"
-        ]
-    }
+  "hard": {
+    "comment": [
+      "hardly",
+      "harden",
+      "hardness"
+    ],
+    "translate": "жёсткий, трудный, твердый, жестко, твердо, тяжело, каторга, брод",
+    "transcription": " |hɑːrd|",
+    "antonyms": [],
+    "mnemonic": [
+      "hard [1зард] тяжёлый, твёрдый - (Хард) рок - тяжёл для слуха.",
+      "hard [hɑ:d]\nharden - твердеть\nhardly - едва ли, вряд ли\n***\nНа ЖЕСТКОМ диске держит свои правила джихад.\n(это) hard\nТРУДНЫЙ выбор сделал джихад. (это) hard\nКРЕПКИЙ орешек - джихад. (это) hard\n***\nУ меня есть карта \"card\",\nона твёрдая \"hard\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_с_to_после_прил(подлежащие_логическое_дополнение_инфинитива)",
+      "Инфинитив",
+      "Инфинитивный_оборот_с_for",
+      "Инфинитив_-_инфинитивный_оборот_с_for(После_сочетания_It_is_(was,_will_be)_с_некоторыми_прилагательными)",
+      "Инфинитив_с_to_после_прил((am,_is,_are_и_т._д.)_+_прилагательное_+_инфинитив)"
+    ],
+    "examples": [
+      {
+        "eng": "Times were hard.",
+        "ru": "Тяжёлые были времена.",
+        "learn": 0
+      },
+      {
+        "eng": "It rained hard.",
+        "ru": "Шёл сильный дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "She's had a hard life.",
+        "ru": "У неё была тяжёлая жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "She was hard to please.",
+        "ru": "Ей было трудно угодить.",
+        "learn": 0
+      },
+      {
+        "eng": "Hit the ball hard.",
+        "ru": "Сильно ударь по мячу.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't drive me too hard.",
+        "ru": "Не наседай на меня.",
+        "learn": 0
+      },
+      {
+        "eng": "He hit me a hard blow.",
+        "ru": "Он сильно ударил меня.",
+        "learn": 0
+      },
+      {
+        "eng": "It is a hard book to read.",
+        "ru": "Эта книга трудна для чтения.",
+        "learn": 0
+      },
+      {
+        "eng": "You're a hard man, John.",
+        "ru": "Суровый ты мужик, Джон.",
+        "learn": 0
+      },
+      {
+        "eng": "We work for a hard master.",
+        "ru": "Мы работаем на требовательного хозяина.",
+        "learn": 0
+      },
+      {
+        "eng": "The student studied hard.",
+        "ru": "Студент усердно занимался.",
+        "learn": 0
+      },
+      {
+        "eng": "This has been a hard winter.",
+        "ru": "Это была суровая зима.",
+        "learn": 0
+      },
+      {
+        "eng": "He hit the ball hard.",
+        "ru": "Он нанёс сильный удар по мячу.",
+        "learn": 0
+      },
+      {
+        "eng": "The ice is frozen hard.",
+        "ru": "Лёд очень твёрдый.",
+        "learn": 0
+      },
+      {
+        "eng": "The snow came down hard.",
+        "ru": "Шёл сильный снег.",
+        "learn": 0
+      },
+      {
+        "eng": "Small type is hard to read.",
+        "ru": "Мелкий шрифт сложно читать.",
+        "learn": 1
+      },
+      {
+        "eng": "Life is hard at times.",
+        "ru": "Жизнь порой трудна.",
+        "learn": 0
+      },
+      {
+        "eng": "He pushed her very hard.",
+        "ru": "Он очень грубо её отымел.",
+        "learn": 0
+      },
+      {
+        "eng": "Mr. Hopkins is hard sick.",
+        "ru": "Мистер Хопкинс очень болен.",
+        "learn": 0
+      },
+      {
+        "eng": "The success repays hard work.",
+        "ru": "Успех — это вознаграждение за тяжёлый труд.",
+        "learn": 0
+      },
+      {
+        "eng": "The offer was hard to resist.",
+        "ru": "Перед этим предложением было трудно устоять.",
+        "learn": 1
+      },
+      {
+        "eng": "I found it hard to concentrate.",
+        "ru": "Мне было трудно сосредоточиться.",
+        "learn": 0
+      },
+      {
+        "eng": "He works much too hard.",
+        "ru": "Он слишком уж много работает.",
+        "learn": 0
+      },
+      {
+        "eng": "The work is pretty hard.",
+        "ru": "Эта работа довольно тяжёлая.",
+        "learn": 0
+      },
+      {
+        "eng": "It was hard to stay awake.",
+        "ru": "Было трудно не заснуть.",
+        "learn": 0
+      },
+      {
+        "eng": "Hard water may be softened.",
+        "ru": "Жёсткую воду можно смягчить.",
+        "learn": 0
+      },
+      {
+        "eng": "Running a farm is hard work.",
+        "ru": "Работа на ферме — тяжёлый труд.",
+        "learn": 0
+      },
+      {
+        "eng": "a hard left to the chin",
+        "ru": "сильный удар с левой в челюсть",
+        "learn": 0
+      },
+      {
+        "eng": "Defeat seemed hard at hand.",
+        "ru": "Поражение казалось совсем близко.",
+        "learn": 0
+      },
+      {
+        "eng": "He hit her hard in the face.",
+        "ru": "Он сильно ударил её по лицу.",
+        "learn": 0
+      }
+    ]
+  }
 }

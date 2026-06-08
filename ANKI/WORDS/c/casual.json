@@ -1,73 +1,138 @@
 {
-    "casual": {
-        "comment": [
-            "usual",
-            "occasion",
-            "occasional",
-            "occasionally"
-        ],
-        "translate": "случайный, повседневный, небрежный, случайный посетитель",
-        "transcription": " |ˈkæʒʊəl|",
-        "antonyms": [],
-        "mnemonic": [
-            "casual [кэзю'л] случайный, небрежный - (Козьёл) случайно забодал.",
-            "casual ['kæʒjuəl]\ncasually ['kæʒjulɪ]\ncasualty ['kæʒʊəlti]\n***\nСЛУЧАЙНЫЙ посетитель кашу|ел. (это) casual\nСЛУЧАЙНО кашу|ели. (это) casual\nНЕСЧАСТНЫЙ СЛУЧАЙ произошёл, пока кашу|елты.\n(это) casual\nАвария.",
-            "catch [kætʃ]\n***\nЛОВИТЬ рванулся вскачь. (это) casual\nЛОВИТЬ умел ловкач. (это) casual\nПоимка, захват, улов, добыча."
-        ],
-        "examples": [
-            "The house was full of visitors and casuals.",
-            "She had a casual attitude to life.",
-            "'Where do you work?' she asked casually.",
-            "Casual clothes are the order of the day.",
-            "He made a casual remark about her shoes.",
-            "She gave her hair a casual stroke with the brush.",
-            "A \"casual\" man is one whose manner of life is altogether the sport of chance.",
-            "She was a casual acquaintance of my family in Vienna.",
-            "This word occurs in casual usage.",
-            "His eyes were angry, though he sounded casual.",
-            "Under the new rules, casual dress is now allowed.",
-            "He walked down the road, casually swinging his bag.",
-            "He overdressed for such a casual party.",
-            "She will never be more than a casual acquaintance.",
-            "There's an office tradition of wearing casual clothes on Fridays.",
-            "The museum is of great interest, both to experts and to casual visitors.",
-            "Trainers really became popular in the 1980s, when casual sportswear came in.",
-            "A casual (or cursory) inspection failed to reveal the house's structural flaws.",
-            "Conrad Library, where often the casual browser has stayed to become a serious reader",
-            "He gave us a casual glance as he walked by, but didn't stop.",
-            "A broken back is nothing to be casual about., it is no fooling matter.",
-            "The novel's intricate ordonnance might not be apparent to the casual reader.",
-            "Jean felt more comfortable in casual clothes."
-        ],
-        "example_translate": [
-            "Дом был полон приглашённых гостей и случайных посетителей.",
-            "К жизни она относилась легкомысленно.",
-            "- Где вы работаете? - безразлично спросила она.",
-            "Повседневная одежда — в порядке вещей.",
-            "Он сделал небрежное замечание насчёт её обуви. / Он мимоходом отметил её туфли.",
-            "Она небрежно провела расчёской по волосам.",
-            "Легкомысленный человек — это тот, чей образ жизни подчинен воле случая.",
-            "Она была случайной знакомой моей семьи в Вене.",
-            "Это слово встречается в повседневном использовании.",
-            "Несмотря на небрежный тон, глаза у него были злые.",
-            "Согласно новым правилам, теперь разрешена повседневная одежда.",
-            "Он шёл по дороге, небрежно размахивая сумкой.",
-            "Для обычной вечеринки он слишком нарядно оделся.",
-            "Она не станет чем-то большим, чем случайная знакомая.",
-            "Существует старый обычай: по пятницам приходить на работу в повседневной одежде.",
-            "Музей представляет большой интерес, как для специалистов, так и для случайных посетителей.",
-            "По-настоящему популярными кроссовки стали в восьмидесятых, когда стало модно носить спортивную одежду в быту.",
-            "Беглый (или поверхностный) осмотр не выявил структурные дефекты этого дома.",
-            "Библиотека Конрада, где случайные посетители, небрежно пролистывавшие книги, часто задерживались. чтобы стать потом серьёзными читателями",
-            "Проходя мимо, он окинул нас небрежным взглядом, но останавливаться не стал.",
-            "Перелом позвоночника — дело очень серьёзное и не допускающее несерьёзного отношения.",
-            "Замысловатая структура этого романа может быть неочевидной для случайного читателя.",
-            "Джин чувствовала себя более комфортно в повседневной одежде."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "casual": {
+    "comment": [
+      "usual",
+      "occasion",
+      "occasional",
+      "occasionally"
+    ],
+    "translate": "случайный, повседневный, небрежный, случайный посетитель",
+    "transcription": " |ˈkæʒʊəl|",
+    "antonyms": [],
+    "mnemonic": [
+      "casual [кэзю'л] случайный, небрежный - (Козьёл) случайно забодал.",
+      "casual ['kæʒjuəl]\ncasually ['kæʒjulɪ]\ncasualty ['kæʒʊəlti]\n***\nСЛУЧАЙНЫЙ посетитель кашу|ел. (это) casual\nСЛУЧАЙНО кашу|ели. (это) casual\nНЕСЧАСТНЫЙ СЛУЧАЙ произошёл, пока кашу|елты.\n(это) casual\nАвария.",
+      "catch [kætʃ]\n***\nЛОВИТЬ рванулся вскачь. (это) casual\nЛОВИТЬ умел ловкач. (это) casual\nПоимка, захват, улов, добыча."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The house was full of visitors and casuals.",
+        "ru": "Дом был полон приглашённых гостей и случайных посетителей.",
+        "learn": 0
+      },
+      {
+        "eng": "She had a casual attitude to life.",
+        "ru": "К жизни она относилась легкомысленно.",
+        "learn": 1
+      },
+      {
+        "eng": "'Where do you work?' she asked casually.",
+        "ru": "- Где вы работаете? - безразлично спросила она.",
+        "learn": 0
+      },
+      {
+        "eng": "Casual clothes are the order of the day.",
+        "ru": "Повседневная одежда — в порядке вещей.",
+        "learn": 0
+      },
+      {
+        "eng": "He made a casual remark about her shoes.",
+        "ru": "Он сделал небрежное замечание насчёт её обуви. / Он мимоходом отметил её туфли.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave her hair a casual stroke with the brush.",
+        "ru": "Она небрежно провела расчёской по волосам.",
+        "learn": 0
+      },
+      {
+        "eng": "A \"casual\" man is one whose manner of life is altogether the sport of chance.",
+        "ru": "Легкомысленный человек — это тот, чей образ жизни подчинен воле случая.",
+        "learn": 0
+      },
+      {
+        "eng": "She was a casual acquaintance of my family in Vienna.",
+        "ru": "Она была случайной знакомой моей семьи в Вене.",
+        "learn": 0
+      },
+      {
+        "eng": "This word occurs in casual usage.",
+        "ru": "Это слово встречается в повседневном использовании.",
+        "learn": 1
+      },
+      {
+        "eng": "His eyes were angry, though he sounded casual.",
+        "ru": "Несмотря на небрежный тон, глаза у него были злые.",
+        "learn": 0
+      },
+      {
+        "eng": "Under the new rules, casual dress is now allowed.",
+        "ru": "Согласно новым правилам, теперь разрешена повседневная одежда.",
+        "learn": 0
+      },
+      {
+        "eng": "He walked down the road, casually swinging his bag.",
+        "ru": "Он шёл по дороге, небрежно размахивая сумкой.",
+        "learn": 0
+      },
+      {
+        "eng": "He overdressed for such a casual party.",
+        "ru": "Для обычной вечеринки он слишком нарядно оделся.",
+        "learn": 0
+      },
+      {
+        "eng": "She will never be more than a casual acquaintance.",
+        "ru": "Она не станет чем-то большим, чем случайная знакомая.",
+        "learn": 1
+      },
+      {
+        "eng": "There's an office tradition of wearing casual clothes on Fridays.",
+        "ru": "Существует старый обычай: по пятницам приходить на работу в повседневной одежде.",
+        "learn": 0
+      },
+      {
+        "eng": "The museum is of great interest, both to experts and to casual visitors.",
+        "ru": "Музей представляет большой интерес, как для специалистов, так и для случайных посетителей.",
+        "learn": 0
+      },
+      {
+        "eng": "Trainers really became popular in the 1980s, when casual sportswear came in.",
+        "ru": "По-настоящему популярными кроссовки стали в восьмидесятых, когда стало модно носить спортивную одежду в быту.",
+        "learn": 0
+      },
+      {
+        "eng": "A casual (or cursory) inspection failed to reveal the house's structural flaws.",
+        "ru": "Беглый (или поверхностный) осмотр не выявил структурные дефекты этого дома.",
+        "learn": 0
+      },
+      {
+        "eng": "Conrad Library, where often the casual browser has stayed to become a serious reader",
+        "ru": "Библиотека Конрада, где случайные посетители, небрежно пролистывавшие книги, часто задерживались. чтобы стать потом серьёзными читателями",
+        "learn": 0
+      },
+      {
+        "eng": "He gave us a casual glance as he walked by, but didn't stop.",
+        "ru": "Проходя мимо, он окинул нас небрежным взглядом, но останавливаться не стал.",
+        "learn": 0
+      },
+      {
+        "eng": "A broken back is nothing to be casual about., it is no fooling matter.",
+        "ru": "Перелом позвоночника — дело очень серьёзное и не допускающее несерьёзного отношения.",
+        "learn": 0
+      },
+      {
+        "eng": "The novel's intricate ordonnance might not be apparent to the casual reader.",
+        "ru": "Замысловатая структура этого романа может быть неочевидной для случайного читателя.",
+        "learn": 0
+      },
+      {
+        "eng": "Jean felt more comfortable in casual clothes.",
+        "ru": "Джин чувствовала себя более комфортно в повседневной одежде.",
+        "learn": 0
+      }
+    ]
+  }
 }

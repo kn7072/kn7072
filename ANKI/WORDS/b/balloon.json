@@ -1,76 +1,159 @@
 {
-    "balloon": {
-        "comment": [],
-        "translate": "воздушный шар, баллон, аэростат, кружок, подниматься на воздушном шаре",
-        "transcription": " |bəˈluːn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "A balloon popped.",
-            "Can you help me blow up these balloons?",
-            "Blow up a balloon and tie the end.",
-            "I blew up a balloon but then it burst.",
-            "Can you blow up this balloon?",
-            "People first flew in a balloon in 1783.",
-            "The company's debt has ballooned in the past year.",
-            "Paul ballooned after he got married.",
-            "The child popped the balloon.",
-            "The balloon popped",
-            "He burst the balloon in my face.",
-            "The balloon heeled over.",
-            "The balloon cleared the tree tops.",
-            "The balloon disappeared into the ether.",
-            "The balloon rose up into the air and then floated through the air.",
-            "He flew the balloon over the sea and inflated it with hot air using a stove.",
-            "He tried to balloon around the earth but storms forced him to land in China.",
-            "The balloon suddenly went bang.",
-            "The balloon stayed aloft for days.",
-            "He gave the balloon a small prick.",
-            "Somebody popped a balloon behind my back.",
-            "They cheered the rise of the hot-air balloon.",
-            "He set his sights on crossing the Pacific by balloon.",
-            "Their credit card debt ballooned to more than $5,000.",
-            "The clown captivated the toddlers with his balloon tricks.",
-            "The idea went down like a lead balloon (=was not popular or successful).",
-            "He had effected an ascent in a balloon at Edinburgh.",
-            "Madison was assigned to investigate a balloon accident.",
-            "Every balloon voyage is a race between capricious winds and the amount of fuel on board."
-        ],
-        "example_translate": [
-            "Воздушный шар лопнул.",
-            "Вы мне не поможете надуть эти шары?",
-            "Надуйте шарик и завяжите его ниткой.",
-            "Я надул шарик, но потом он лопнул.",
-            "Вы можете надуть этот шарик?",
-            "Первый полет на воздушном шаре состоялся в 1783 году.",
-            "В прошлом году долг компании резко вырос.",
-            "После женитьбы Пол раздался вширь.",
-            "Шарик у ребёнка лопнул.",
-            "Шар лопнул.",
-            "Он проколол этот шарик прямо у меня перед лицом.",
-            "Воздушный шар накренился набок.",
-            "Воздушный шар миновал верхушки деревьев.",
-            "Шар скрылся в небесах.",
-            "Шар поднялся ввысь, а затем поплыл по воздуху.",
-            "Он летел на воздушном шаре над морем и наполнял его горячим воздухом из нагревателя.",
-            "Он попытался облететь вокруг Земли на воздушном шаре, но бури заставили его приземлиться в Китае.",
-            "Воздушный шар неожиданно лопнул.",
-            "Воздушный шарик висел в воздухе несколько дней.",
-            "Он слегка уколол шарик.",
-            "У меня за спиной кто-то лопнул шарик.",
-            "Они радостно приветствовали взлёт воздушного шара.",
-            "Он загорелся желанием пересечь Тихий океан на воздушном шаре.",
-            "Их долг по кредитной карте раздулся больше 5000 долларов.",
-            "Клоун очаровал малышей своими трюками с воздушными шарами.",
-            "Идея оказалась провальной (т.е. не была популярной или успешной).",
-            "Он осуществил подъём на воздушном шаре над Эдинбургом.",
-            "Мэдисону было поручено расследовать аварию на воздушном шаре.",
-            "Каждое путешествие на воздушном шаре — это состязание между капризными ветрами и количеством топлива на борту."
-        ],
-        "synonyms": [],
-        "stars": 0,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "balloon": {
+    "comment": [],
+    "translate": "воздушный шар, баллон, аэростат, кружок, подниматься на воздушном шаре",
+    "transcription": " |bəˈluːn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "A balloon popped.",
+        "ru": "Воздушный шар лопнул.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you help me blow up these balloons?",
+        "ru": "Вы мне не поможете надуть эти шары?",
+        "learn": 0
+      },
+      {
+        "eng": "Blow up a balloon and tie the end.",
+        "ru": "Надуйте шарик и завяжите его ниткой.",
+        "learn": 0
+      },
+      {
+        "eng": "I blew up a balloon but then it burst.",
+        "ru": "Я надул шарик, но потом он лопнул.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you blow up this balloon?",
+        "ru": "Вы можете надуть этот шарик?",
+        "learn": 0
+      },
+      {
+        "eng": "People first flew in a balloon in 1783.",
+        "ru": "Первый полет на воздушном шаре состоялся в 1783 году.",
+        "learn": 0
+      },
+      {
+        "eng": "The company's debt has ballooned in the past year.",
+        "ru": "В прошлом году долг компании резко вырос.",
+        "learn": 0
+      },
+      {
+        "eng": "Paul ballooned after he got married.",
+        "ru": "После женитьбы Пол раздался вширь.",
+        "learn": 0
+      },
+      {
+        "eng": "The child popped the balloon.",
+        "ru": "Шарик у ребёнка лопнул.",
+        "learn": 1
+      },
+      {
+        "eng": "The balloon popped",
+        "ru": "Шар лопнул.",
+        "learn": 0
+      },
+      {
+        "eng": "He burst the balloon in my face.",
+        "ru": "Он проколол этот шарик прямо у меня перед лицом.",
+        "learn": 0
+      },
+      {
+        "eng": "The balloon heeled over.",
+        "ru": "Воздушный шар накренился набок.",
+        "learn": 1
+      },
+      {
+        "eng": "The balloon cleared the tree tops.",
+        "ru": "Воздушный шар миновал верхушки деревьев.",
+        "learn": 0
+      },
+      {
+        "eng": "The balloon disappeared into the ether.",
+        "ru": "Шар скрылся в небесах.",
+        "learn": 0
+      },
+      {
+        "eng": "The balloon rose up into the air and then floated through the air.",
+        "ru": "Шар поднялся ввысь, а затем поплыл по воздуху.",
+        "learn": 0
+      },
+      {
+        "eng": "He flew the balloon over the sea and inflated it with hot air using a stove.",
+        "ru": "Он летел на воздушном шаре над морем и наполнял его горячим воздухом из нагревателя.",
+        "learn": 0
+      },
+      {
+        "eng": "He tried to balloon around the earth but storms forced him to land in China.",
+        "ru": "Он попытался облететь вокруг Земли на воздушном шаре, но бури заставили его приземлиться в Китае.",
+        "learn": 0
+      },
+      {
+        "eng": "The balloon suddenly went bang.",
+        "ru": "Воздушный шар неожиданно лопнул.",
+        "learn": 0
+      },
+      {
+        "eng": "The balloon stayed aloft for days.",
+        "ru": "Воздушный шарик висел в воздухе несколько дней.",
+        "learn": 0
+      },
+      {
+        "eng": "He gave the balloon a small prick.",
+        "ru": "Он слегка уколол шарик.",
+        "learn": 0
+      },
+      {
+        "eng": "Somebody popped a balloon behind my back.",
+        "ru": "У меня за спиной кто-то лопнул шарик.",
+        "learn": 0
+      },
+      {
+        "eng": "They cheered the rise of the hot-air balloon.",
+        "ru": "Они радостно приветствовали взлёт воздушного шара.",
+        "learn": 0
+      },
+      {
+        "eng": "He set his sights on crossing the Pacific by balloon.",
+        "ru": "Он загорелся желанием пересечь Тихий океан на воздушном шаре.",
+        "learn": 0
+      },
+      {
+        "eng": "Their credit card debt ballooned to more than $5,000.",
+        "ru": "Их долг по кредитной карте раздулся больше 5000 долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "The clown captivated the toddlers with his balloon tricks.",
+        "ru": "Клоун очаровал малышей своими трюками с воздушными шарами.",
+        "learn": 0
+      },
+      {
+        "eng": "The idea went down like a lead balloon (=was not popular or successful).",
+        "ru": "Идея оказалась провальной (т.е. не была популярной или успешной).",
+        "learn": 0
+      },
+      {
+        "eng": "He had effected an ascent in a balloon at Edinburgh.",
+        "ru": "Он осуществил подъём на воздушном шаре над Эдинбургом.",
+        "learn": 1
+      },
+      {
+        "eng": "Madison was assigned to investigate a balloon accident.",
+        "ru": "Мэдисону было поручено расследовать аварию на воздушном шаре.",
+        "learn": 0
+      },
+      {
+        "eng": "Every balloon voyage is a race between capricious winds and the amount of fuel on board.",
+        "ru": "Каждое путешествие на воздушном шаре — это состязание между капризными ветрами и количеством топлива на борту.",
+        "learn": 0
+      }
+    ]
+  }
 }

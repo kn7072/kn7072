@@ -1,82 +1,168 @@
 {
-    "taxi": {
-        "comment": [
-            "tax",
-            "taxation",
-            "taxpayer"
-        ],
-        "translate": "такси, рулить, ехать на такси, таксомоторный",
-        "transcription": " |ˈtæksi|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I'll order you a taxi.",
-            "She arrived by taxi.",
-            "He drives a taxi.",
-            "We all jumped in a taxi.",
-            "Sally rang for a taxi.",
-            "The pilot taxied the plane to the end of the runway.",
-            "I still owe you for the taxi.",
-            "The plane taxied to a halt.",
-            "A taxi may be hired by telephone.",
-            "We went to the restaurant by taxi.",
-            "We caught a taxi to the restaurant.",
-            "I'll grab a taxi and meet you there.",
-            "I dismissed the taxi.",
-            "The taxi surged forward.",
-            "A taxi drew up at the gate.",
-            "I took a taxi to the airport.",
-            "Six of us bundled into a taxi.",
-            "The three of us shared a taxi.",
-            "Hurry up! The taxi is out front.",
-            "He insisted I should take a taxi.",
-            "The taxi ride got a little hairy.",
-            "The plane taxied down the runway.",
-            "I requested a taxi for 8 o'clock.",
-            "It took us a while to get a taxi.",
-            "There's a taxi stand on Glen Road.",
-            "The taxi whisked me to the airport.",
-            "They had to send me home in a taxi.",
-            "He asked us to send a taxi for him.",
-            "Hand the elderly lady into the taxi.",
-            "It's only a 5 minute taxi ride away."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я закажу вам такси.",
-            "Она приехала на такси.",
-            "Он работает таксистом.",
-            "Мы все запрыгнули в такси.",
-            "Салли вызвала такси.",
-            "Пилот подвёл самолёт к концу взлётно-посадочной полосы.",
-            "Я все ещё должен тебе за такси.",
-            "Самолёт вырулил к месту стоянки.",
-            "Такси можно заказать по телефону.",
-            "Мы отправились в ресторан на такси.",
-            "Мы поймали такси до ресторана.",
-            "Я поймаю такси и встречусь с вами там.",
-            "Я отпустил такси.",
-            "Такси рвануло вперед.",
-            "У ворот остановилось такси.",
-            "Я взял такси до аэропорта.",
-            "Шестеро из нас умудрились набиться в такси.",
-            "Мы взяли такси на троих.",
-            "Поторопитесь! Такси уже у дома.",
-            "Он настоял на том, чтобы я взял такси.",
-            "Эта поездка на такси стала довольно опасной.",
-            "Самолет медленно катился /рулил/ по взлётно-посадочной полосе.",
-            "Я заказал такси на 8 часов.",
-            "Нам потребовалось некоторое время, чтобы поймать такси. / Такси мы поймали не сразу.",
-            "На Глен-Роуд есть стоянка такси.",
-            "Такси домчало меня до аэропорта.",
-            "Им пришлось отправить меня домой на такси.",
-            "Он попросил нас прислать за ним такси .",
-            "Помоги старушке сесть в такси.",
-            "Туда всего пять минут на такси."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "taxi": {
+    "comment": [
+      "tax",
+      "taxation",
+      "taxpayer"
+    ],
+    "translate": "такси, рулить, ехать на такси, таксомоторный",
+    "transcription": " |ˈtæksi|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I'll order you a taxi.",
+        "ru": "Я закажу вам такси.",
+        "learn": 0
+      },
+      {
+        "eng": "She arrived by taxi.",
+        "ru": "Она приехала на такси.",
+        "learn": 1
+      },
+      {
+        "eng": "He drives a taxi.",
+        "ru": "Он работает таксистом.",
+        "learn": 0
+      },
+      {
+        "eng": "We all jumped in a taxi.",
+        "ru": "Мы все запрыгнули в такси.",
+        "learn": 1
+      },
+      {
+        "eng": "Sally rang for a taxi.",
+        "ru": "Салли вызвала такси.",
+        "learn": 0
+      },
+      {
+        "eng": "The pilot taxied the plane to the end of the runway.",
+        "ru": "Пилот подвёл самолёт к концу взлётно-посадочной полосы.",
+        "learn": 0
+      },
+      {
+        "eng": "I still owe you for the taxi.",
+        "ru": "Я все ещё должен тебе за такси.",
+        "learn": 1
+      },
+      {
+        "eng": "The plane taxied to a halt.",
+        "ru": "Самолёт вырулил к месту стоянки.",
+        "learn": 0
+      },
+      {
+        "eng": "A taxi may be hired by telephone.",
+        "ru": "Такси можно заказать по телефону.",
+        "learn": 0
+      },
+      {
+        "eng": "We went to the restaurant by taxi.",
+        "ru": "Мы отправились в ресторан на такси.",
+        "learn": 0
+      },
+      {
+        "eng": "We caught a taxi to the restaurant.",
+        "ru": "Мы поймали такси до ресторана.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll grab a taxi and meet you there.",
+        "ru": "Я поймаю такси и встречусь с вами там.",
+        "learn": 0
+      },
+      {
+        "eng": "I dismissed the taxi.",
+        "ru": "Я отпустил такси.",
+        "learn": 0
+      },
+      {
+        "eng": "The taxi surged forward.",
+        "ru": "Такси рвануло вперед.",
+        "learn": 0
+      },
+      {
+        "eng": "A taxi drew up at the gate.",
+        "ru": "У ворот остановилось такси.",
+        "learn": 0
+      },
+      {
+        "eng": "I took a taxi to the airport.",
+        "ru": "Я взял такси до аэропорта.",
+        "learn": 0
+      },
+      {
+        "eng": "Six of us bundled into a taxi.",
+        "ru": "Шестеро из нас умудрились набиться в такси.",
+        "learn": 0
+      },
+      {
+        "eng": "The three of us shared a taxi.",
+        "ru": "Мы взяли такси на троих.",
+        "learn": 0
+      },
+      {
+        "eng": "Hurry up! The taxi is out front.",
+        "ru": "Поторопитесь! Такси уже у дома.",
+        "learn": 1
+      },
+      {
+        "eng": "He insisted I should take a taxi.",
+        "ru": "Он настоял на том, чтобы я взял такси.",
+        "learn": 0
+      },
+      {
+        "eng": "The taxi ride got a little hairy.",
+        "ru": "Эта поездка на такси стала довольно опасной.",
+        "learn": 0
+      },
+      {
+        "eng": "The plane taxied down the runway.",
+        "ru": "Самолет медленно катился /рулил/ по взлётно-посадочной полосе.",
+        "learn": 0
+      },
+      {
+        "eng": "I requested a taxi for 8 o'clock.",
+        "ru": "Я заказал такси на 8 часов.",
+        "learn": 0
+      },
+      {
+        "eng": "It took us a while to get a taxi.",
+        "ru": "Нам потребовалось некоторое время, чтобы поймать такси. / Такси мы поймали не сразу.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a taxi stand on Glen Road.",
+        "ru": "На Глен-Роуд есть стоянка такси.",
+        "learn": 0
+      },
+      {
+        "eng": "The taxi whisked me to the airport.",
+        "ru": "Такси домчало меня до аэропорта.",
+        "learn": 0
+      },
+      {
+        "eng": "They had to send me home in a taxi.",
+        "ru": "Им пришлось отправить меня домой на такси.",
+        "learn": 0
+      },
+      {
+        "eng": "He asked us to send a taxi for him.",
+        "ru": "Он попросил нас прислать за ним такси .",
+        "learn": 0
+      },
+      {
+        "eng": "Hand the elderly lady into the taxi.",
+        "ru": "Помоги старушке сесть в такси.",
+        "learn": 0
+      },
+      {
+        "eng": "It's only a 5 minute taxi ride away.",
+        "ru": "Туда всего пять минут на такси.",
+        "learn": 0
+      }
+    ]
+  }
 }

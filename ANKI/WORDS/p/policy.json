@@ -1,86 +1,172 @@
 {
-    "policy": {
-        "comment": [
-            "pole",
-            "poll",
-            "police",
-            "policeman",
-            "monopoly"
-        ],
-        "translate": "политика, полис, курс, страховой полис, линия поведения, установка, хитрость",
-        "transcription": " |ˈpɑːləsi|",
-        "antonyms": [],
-        "mnemonic": [
-            "policy [по'лиси] политика - Политики (по лисьи) ведут себя."
-        ],
-        "examples": [
-            "There is no logic in their policy.",
-            "Honesty is the best policy.",
-            "US policy towards China",
-            "It was bad policy to attempt disguise.",
-            "The government is the maker of policy.",
-            "America's foreign policy",
-            "Does the policy cover theft and fire?",
-            "The new cabinet policy zoomed retail prices.",
-            "It was a policy of retribution.",
-            "European trade policy is protectionist.",
-            "The college has a very selective admissions policy.",
-            "The company has adopted a strict no-smoking policy.",
-            "It was a policy of desperation.",
-            "The policy found little public support.",
-            "The policy abandons the most vulnerable members of society.",
-            "They agreed on a policy of cooperation.",
-            "US foreign and domestic policy",
-            "The government is rethinking its policy.",
-            "decouple our foreign policy from ideology",
-            "Clinton seems to be backtracking on his policy on Bosnia.",
-            "Their policy has legal sanction.",
-            "a purposeful and consistent foreign policy",
-            "a temporary aberration in US foreign policy",
-            "Informed sources told us of the new policy.",
-            "He loves Ireland too well to lend himself to such a policy.",
-            "This policy is a carry-over from the previous administration.",
-            "Sherman's scorched earth policy",
-            "the policy wonks in the government",
-            "militarize a country's foreign policy",
-            "US foreign policy with regard to Cuba"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "В их политике отсутствует логика.",
-            "Честность — лучшая стратегия.",
-            "политика США по отношению к Китаю",
-            "Притворяться было неразумно.",
-            "Политику задаёт правительство.",
-            "внешняя политика Америки",
-            "Эта страховка распространяется на кражу и пожар?",
-            "Из-за политики нового кабинета резко повысились розничные цены.",
-            "Это была политика возмездия.",
-            "Европейская торговая политика является протекционистской.",
-            "У этого колледжа очень избирательные правила приёма.",
-            "Компания приняла строгий запрет на курение.",
-            "Это была политика отчаянного безрассудства.",
-            "Эта политика не нашла широкой общественной поддержки.",
-            "Эта политика оставляет без поддержки наиболее уязвимых членов общества.",
-            "Они договорились о политике сотрудничества.",
-            "внешняя и внутренняя политика США",
-            "Правительство пересматривает свою политику.",
-            "отделить нашу внешнюю политику от идеологии",
-            "Похоже, что Клинтон отказывается от своей политики в отношении Боснии.",
-            "Их политика разрешена законом.",
-            "целенаправленная и последовательная внешняя политика",
-            "временное отклонение от нормы во внешней политике США",
-            "Осведомлённые источники рассказали нам о новой политике.",
-            "Он слишком любит Ирландию, чтобы согласиться с такой политикой.",
-            "Данная политика осталась от предыдущего руководства.",
-            "проводимая Шерманом политика \"выжженной земли\"",
-            "политические эксперты-аналитики в правительстве (ирон.)",
-            "военизировать внешнюю политику страны",
-            "внешняя политика США в отношении Кубы"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "policy": {
+    "comment": [
+      "pole",
+      "poll",
+      "police",
+      "policeman",
+      "monopoly"
+    ],
+    "translate": "политика, полис, курс, страховой полис, линия поведения, установка, хитрость",
+    "transcription": " |ˈpɑːləsi|",
+    "antonyms": [],
+    "mnemonic": [
+      "policy [по'лиси] политика - Политики (по лисьи) ведут себя."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "There is no logic in their policy.",
+        "ru": "В их политике отсутствует логика.",
+        "learn": 1
+      },
+      {
+        "eng": "Honesty is the best policy.",
+        "ru": "Честность — лучшая стратегия.",
+        "learn": 0
+      },
+      {
+        "eng": "US policy towards China",
+        "ru": "политика США по отношению к Китаю",
+        "learn": 0
+      },
+      {
+        "eng": "It was bad policy to attempt disguise.",
+        "ru": "Притворяться было неразумно.",
+        "learn": 0
+      },
+      {
+        "eng": "The government is the maker of policy.",
+        "ru": "Политику задаёт правительство.",
+        "learn": 1
+      },
+      {
+        "eng": "America's foreign policy",
+        "ru": "внешняя политика Америки",
+        "learn": 0
+      },
+      {
+        "eng": "Does the policy cover theft and fire?",
+        "ru": "Эта страховка распространяется на кражу и пожар?",
+        "learn": 0
+      },
+      {
+        "eng": "The new cabinet policy zoomed retail prices.",
+        "ru": "Из-за политики нового кабинета резко повысились розничные цены.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a policy of retribution.",
+        "ru": "Это была политика возмездия.",
+        "learn": 0
+      },
+      {
+        "eng": "European trade policy is protectionist.",
+        "ru": "Европейская торговая политика является протекционистской.",
+        "learn": 0
+      },
+      {
+        "eng": "The college has a very selective admissions policy.",
+        "ru": "У этого колледжа очень избирательные правила приёма.",
+        "learn": 1
+      },
+      {
+        "eng": "The company has adopted a strict no-smoking policy.",
+        "ru": "Компания приняла строгий запрет на курение.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a policy of desperation.",
+        "ru": "Это была политика отчаянного безрассудства.",
+        "learn": 0
+      },
+      {
+        "eng": "The policy found little public support.",
+        "ru": "Эта политика не нашла широкой общественной поддержки.",
+        "learn": 0
+      },
+      {
+        "eng": "The policy abandons the most vulnerable members of society.",
+        "ru": "Эта политика оставляет без поддержки наиболее уязвимых членов общества.",
+        "learn": 1
+      },
+      {
+        "eng": "They agreed on a policy of cooperation.",
+        "ru": "Они договорились о политике сотрудничества.",
+        "learn": 0
+      },
+      {
+        "eng": "US foreign and domestic policy",
+        "ru": "внешняя и внутренняя политика США",
+        "learn": 0
+      },
+      {
+        "eng": "The government is rethinking its policy.",
+        "ru": "Правительство пересматривает свою политику.",
+        "learn": 0
+      },
+      {
+        "eng": "decouple our foreign policy from ideology",
+        "ru": "отделить нашу внешнюю политику от идеологии",
+        "learn": 0
+      },
+      {
+        "eng": "Clinton seems to be backtracking on his policy on Bosnia.",
+        "ru": "Похоже, что Клинтон отказывается от своей политики в отношении Боснии.",
+        "learn": 0
+      },
+      {
+        "eng": "Their policy has legal sanction.",
+        "ru": "Их политика разрешена законом.",
+        "learn": 1
+      },
+      {
+        "eng": "a purposeful and consistent foreign policy",
+        "ru": "целенаправленная и последовательная внешняя политика",
+        "learn": 0
+      },
+      {
+        "eng": "a temporary aberration in US foreign policy",
+        "ru": "временное отклонение от нормы во внешней политике США",
+        "learn": 0
+      },
+      {
+        "eng": "Informed sources told us of the new policy.",
+        "ru": "Осведомлённые источники рассказали нам о новой политике.",
+        "learn": 0
+      },
+      {
+        "eng": "He loves Ireland too well to lend himself to such a policy.",
+        "ru": "Он слишком любит Ирландию, чтобы согласиться с такой политикой.",
+        "learn": 0
+      },
+      {
+        "eng": "This policy is a carry-over from the previous administration.",
+        "ru": "Данная политика осталась от предыдущего руководства.",
+        "learn": 0
+      },
+      {
+        "eng": "Sherman's scorched earth policy",
+        "ru": "проводимая Шерманом политика \"выжженной земли\"",
+        "learn": 0
+      },
+      {
+        "eng": "the policy wonks in the government",
+        "ru": "политические эксперты-аналитики в правительстве (ирон.)",
+        "learn": 0
+      },
+      {
+        "eng": "militarize a country's foreign policy",
+        "ru": "военизировать внешнюю политику страны",
+        "learn": 0
+      },
+      {
+        "eng": "US foreign policy with regard to Cuba",
+        "ru": "внешняя политика США в отношении Кубы",
+        "learn": 0
+      }
+    ]
+  }
 }

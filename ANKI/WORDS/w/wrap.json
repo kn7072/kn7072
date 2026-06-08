@@ -1,80 +1,161 @@
 {
-    "wrap": {
-        "comment": [
-            "grape"
-        ],
-        "translate": "обертка, шаль, плед, платок, одеяло, упаковывать, обертывать, заворачивать",
-        "transcription": " |ræp|",
-        "antonyms": [],
-        "mnemonic": [
-            "wrap [рэп] шаль, одеяло - Танец (рэп) на шали приятно исполнять.",
-            "wrap [ræp]\nwrapper ['ræpə]\n***\nЗАВЕРНУ ребёнка в драп. (это) wrap\nПлаток, шаль одеяло.\n***\nОБЁРТКА та была из драпа. (это) wrapper\nВ красивую ОБЁРТКУ завернули репу. (это) wrapper"
-        ],
-        "examples": [
-            "I wrapped my arms around her.",
-            "The affair is wrapped up in mystery.",
-            "Undress the baby and wrap him in a towel.",
-            "He wraps himself warm in furs.",
-            "The summits are wrapped in clouds.",
-            "Wrap the tube in a piece of white paper.",
-            "OK everybody, it's a wrap!",
-            "Wrap the leftover food in tinfoil.",
-            "She wrapped her arms around the child.",
-            "Wrap it up, you lot, we've heard enough of your complaints.",
-            "The store will gift-wrap your purchases for you.",
-            "She wrapped a scarf around her neck.",
-            "They were busy wrapping presents late on Christmas Eve.",
-            "The present was beautifully wrapped in gold paper.",
-            "Wrap the cake in a double thickness of foil.",
-            "I've still got a few Christmas presents to wrap up.",
-            "He wrapped tape around the bat's handle.",
-            "Wrap it up well so it doesn't get broken (=become broken) in the mail.",
-            "Ed could wrap his mother around his little finger.",
-            "A grand parade will wrap up the weeklong celebration.",
-            "Wrap the plates in newspaper to stop them from breaking.",
-            "The line of people went out the door and wrapped around the corner.",
-            "Wrap small ornaments in paper to prevent them being damaged.",
-            "He wrapped a bandage around my injured wrist.",
-            "Ribbons were wrapped around the dancers' arms.",
-            "Wrap the baby before taking her out.",
-            "She wrapped her legs around a pillow.",
-            "He wrapped his hands around the trophy."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я крепко обнял ее.",
-            "Это дело окутано тайной.",
-            "Разденьте ребенка и заверните его в полотенце.",
-            "Он плотно закутывается в шубу.",
-            "Вершины окутаны облаками.",
-            "Заверните тюбик в кусок белой бумаги.",
-            "Хорошо, ребята, мы закончили съёмку (фильма) на сегодня!",
-            "Заверните остатки еды в фольгу.",
-            "Она обняла ребёнка.",
-            "Кончайте, вы, мы наслушались ваших жалоб.",
-            "Магазин упакует Ваши покупки для вас.",
-            "Она замотала свою шею шарфом.",
-            "В ночь перед рождеством они занимались упаковкой подарков.",
-            "Подарок был красиво завёрнут в золотую бумагу.",
-            "Оберните торт в двойной слой фольги.",
-            "Мне ещё нужно упаковать несколько рождественских подарков.",
-            "Он обмотал ручку биты изолентой.",
-            "Упакуйте это хорошенько, чтобы не разбилось при пересылке.",
-            "Эд мог вертеть своей матерью, как хотел.",
-            "Недельное празднование завершится грандиозным парадом.",
-            "Заверните тарелки в газету, чтобы их не разбить.",
-            "Живая очередь выходила из дверей на улицу и заворачивала за угол.",
-            "Мелкие украшения оберните бумагой, чтобы избежать их повреждения.",
-            "Он обмотал моё повреждённое запястье бинтом.",
-            "Руки танцующих обвивали ленты.",
-            "Запеленайте малышку перед тем, как идти с ней на улицу.",
-            "Она обхватила ногами подушку.",
-            "Он обхватил приз руками."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "wr_=_[r]"
-        ]
-    }
+  "wrap": {
+    "comment": [
+      "grape"
+    ],
+    "translate": "обертка, шаль, плед, платок, одеяло, упаковывать, обертывать, заворачивать",
+    "transcription": " |ræp|",
+    "antonyms": [],
+    "mnemonic": [
+      "wrap [рэп] шаль, одеяло - Танец (рэп) на шали приятно исполнять.",
+      "wrap [ræp]\nwrapper ['ræpə]\n***\nЗАВЕРНУ ребёнка в драп. (это) wrap\nПлаток, шаль одеяло.\n***\nОБЁРТКА та была из драпа. (это) wrapper\nВ красивую ОБЁРТКУ завернули репу. (это) wrapper"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "wr_=_[r]"
+    ],
+    "examples": [
+      {
+        "eng": "I wrapped my arms around her.",
+        "ru": "Я крепко обнял ее.",
+        "learn": 0
+      },
+      {
+        "eng": "The affair is wrapped up in mystery.",
+        "ru": "Это дело окутано тайной.",
+        "learn": 0
+      },
+      {
+        "eng": "Undress the baby and wrap him in a towel.",
+        "ru": "Разденьте ребенка и заверните его в полотенце.",
+        "learn": 0
+      },
+      {
+        "eng": "He wraps himself warm in furs.",
+        "ru": "Он плотно закутывается в шубу.",
+        "learn": 0
+      },
+      {
+        "eng": "The summits are wrapped in clouds.",
+        "ru": "Вершины окутаны облаками.",
+        "learn": 0
+      },
+      {
+        "eng": "Wrap the tube in a piece of white paper.",
+        "ru": "Заверните тюбик в кусок белой бумаги.",
+        "learn": 0
+      },
+      {
+        "eng": "OK everybody, it's a wrap!",
+        "ru": "Хорошо, ребята, мы закончили съёмку (фильма) на сегодня!",
+        "learn": 0
+      },
+      {
+        "eng": "Wrap the leftover food in tinfoil.",
+        "ru": "Заверните остатки еды в фольгу.",
+        "learn": 0
+      },
+      {
+        "eng": "She wrapped her arms around the child.",
+        "ru": "Она обняла ребёнка.",
+        "learn": 0
+      },
+      {
+        "eng": "Wrap it up, you lot, we've heard enough of your complaints.",
+        "ru": "Кончайте, вы, мы наслушались ваших жалоб.",
+        "learn": 0
+      },
+      {
+        "eng": "The store will gift-wrap your purchases for you.",
+        "ru": "Магазин упакует Ваши покупки для вас.",
+        "learn": 0
+      },
+      {
+        "eng": "She wrapped a scarf around her neck.",
+        "ru": "Она замотала свою шею шарфом.",
+        "learn": 1
+      },
+      {
+        "eng": "They were busy wrapping presents late on Christmas Eve.",
+        "ru": "В ночь перед рождеством они занимались упаковкой подарков.",
+        "learn": 0
+      },
+      {
+        "eng": "The present was beautifully wrapped in gold paper.",
+        "ru": "Подарок был красиво завёрнут в золотую бумагу.",
+        "learn": 1
+      },
+      {
+        "eng": "Wrap the cake in a double thickness of foil.",
+        "ru": "Оберните торт в двойной слой фольги.",
+        "learn": 0
+      },
+      {
+        "eng": "I've still got a few Christmas presents to wrap up.",
+        "ru": "Мне ещё нужно упаковать несколько рождественских подарков.",
+        "learn": 0
+      },
+      {
+        "eng": "He wrapped tape around the bat's handle.",
+        "ru": "Он обмотал ручку биты изолентой.",
+        "learn": 0
+      },
+      {
+        "eng": "Wrap it up well so it doesn't get broken (=become broken) in the mail.",
+        "ru": "Упакуйте это хорошенько, чтобы не разбилось при пересылке.",
+        "learn": 0
+      },
+      {
+        "eng": "Ed could wrap his mother around his little finger.",
+        "ru": "Эд мог вертеть своей матерью, как хотел.",
+        "learn": 0
+      },
+      {
+        "eng": "A grand parade will wrap up the weeklong celebration.",
+        "ru": "Недельное празднование завершится грандиозным парадом.",
+        "learn": 0
+      },
+      {
+        "eng": "Wrap the plates in newspaper to stop them from breaking.",
+        "ru": "Заверните тарелки в газету, чтобы их не разбить.",
+        "learn": 0
+      },
+      {
+        "eng": "The line of people went out the door and wrapped around the corner.",
+        "ru": "Живая очередь выходила из дверей на улицу и заворачивала за угол.",
+        "learn": 0
+      },
+      {
+        "eng": "Wrap small ornaments in paper to prevent them being damaged.",
+        "ru": "Мелкие украшения оберните бумагой, чтобы избежать их повреждения.",
+        "learn": 0
+      },
+      {
+        "eng": "He wrapped a bandage around my injured wrist.",
+        "ru": "Он обмотал моё повреждённое запястье бинтом.",
+        "learn": 0
+      },
+      {
+        "eng": "Ribbons were wrapped around the dancers' arms.",
+        "ru": "Руки танцующих обвивали ленты.",
+        "learn": 0
+      },
+      {
+        "eng": "Wrap the baby before taking her out.",
+        "ru": "Запеленайте малышку перед тем, как идти с ней на улицу.",
+        "learn": 0
+      },
+      {
+        "eng": "She wrapped her legs around a pillow.",
+        "ru": "Она обхватила ногами подушку.",
+        "learn": 1
+      },
+      {
+        "eng": "He wrapped his hands around the trophy.",
+        "ru": "Он обхватил приз руками.",
+        "learn": 1
+      }
+    ]
+  }
 }

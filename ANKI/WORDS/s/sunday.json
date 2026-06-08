@@ -1,100 +1,186 @@
 {
-    "Sunday": {
-        "comment": [
-            "tuesday",
-            "thursday",
-            "birthday",
-            "nowadays",
-            "monday",
-            "wednesday",
-            "friday",
-            "midday",
-            "saturday",
-            "today",
-            "holiday",
-            "day",
-            "yesterday",
-            "daytime",
-            "everyday",
-            "daylight",
-            "sun",
-            "sunny",
-            "sunshine",
-            "sunlight",
-            "sunset"
-        ],
-        "translate": "воскресенье, воскресный, проводить воскресенье",
-        "transcription": " |ˈsʌndeɪ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "We like to walk every Sunday",
-            "My birthday falls on Sunday.",
-            "Fig Sunday",
-            "Trinity Sunday",
-            "We're off to Spain Sunday week.",
-            "An excerpt of the speech appeared in the Sunday paper.",
-            "Low Sunday",
-            "I'm busy on Sunday, so that gives me an out.",
-            "Whit Sunday",
-            "What are you doing Sunday?",
-            "She visited me last Sunday.",
-            "Brian had an MRI taken Sunday.",
-            "I will leave on Sunday morning.",
-            "I always have a lie-in on a Sunday.",
-            "I earn extra for working on Sunday.",
-            "We licked the other team on Sunday!",
-            "He taught catechism at Sunday school.",
-            "I didn't see you in church on Sunday.",
-            "My parents go to church every Sunday.",
-            "We usually sleep in on Sunday mornings.",
-            "We'll announce the winners next Sunday.",
-            "I didn't see you at church last Sunday.",
-            "advertising inserts in the Sunday paper",
-            "He stayed in bed late on Sunday morning.",
-            "My birthday falls on a Sunday this year.",
-            "The story was all over the Sunday papers.",
-            "A London Sunday is absolutely letterless.",
-            "We usually drive to the country on Sunday.",
-            "I always enjoyed our Sunday night suppers.",
-            "It was our wedding anniversary last Sunday."
-        ],
-        "example_translate": [
-            "Нам нравится гулять каждое воскресенье.",
-            "Мой день рождения попадает на воскресенье.",
-            "Вербное воскресенье",
-            "Троицын день, Троица",
-            "В воскресенье мы на неделю едем в Испанию.",
-            "Отрывок из речи появился в воскресной газете.",
-            "Фомино воскресенье, Антипасха (первое воскресенье после Пасхи., завершение пасхальной недели)",
-            "В воскресенье я буду занят, так что, получается, я пас.",
-            "Пятидесятница, Троица, Троицын день",
-            "Что ты делаешь в воскресенье? (амер.)",
-            "Она приезжала ко мне в прошлое воскресенье.",
-            "Брайану сделали МРТ в воскресенье. / Брайан прошёл МРТ в воскресенье.",
-            "Я уезжаю в воскресенье утром.",
-            "Я всегда валяюсь в кровати по воскресеньям.",
-            "За работу в воскресенье мне доплачивают /платят дополнительно/.",
-            "В воскресенье мы взяли верх над командой соперников!",
-            "Он преподавал катехизис в воскресной школе.",
-            "Я не видел вас в церкви в воскресенье.",
-            "Каждое воскресенье мои родители ходят в церковь.",
-            "По воскресеньям мы обычно просыпаемся поздно /спим дольше обычного/.",
-            "Мы объявим победителей в следующее воскресенье.",
-            "Я не видел вас в церкви в прошлое воскресенье.",
-            "рекламные вкладыши в воскресной газете",
-            "В воскресенье утром он встал поздно.",
-            "В этом году мой день рождения приходится на воскресенье.",
-            "Этот сюжет был во всех воскресных газетах.",
-            "По воскресеньям в Лондоне совсем не получают писем.",
-            "Мы обычно ездим за город по воскресеньям.",
-            "Я всегда любил наши воскресные ужины.",
-            "В прошлое воскресенье была годовщина нашей свадьбы."
-        ],
-        "synonyms": [],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "Sunday": {
+    "comment": [
+      "tuesday",
+      "thursday",
+      "birthday",
+      "nowadays",
+      "monday",
+      "wednesday",
+      "friday",
+      "midday",
+      "saturday",
+      "today",
+      "holiday",
+      "day",
+      "yesterday",
+      "daytime",
+      "everyday",
+      "daylight",
+      "sun",
+      "sunny",
+      "sunshine",
+      "sunlight",
+      "sunset"
+    ],
+    "translate": "воскресенье, воскресный, проводить воскресенье",
+    "transcription": " |ˈsʌndeɪ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "We like to walk every Sunday",
+        "ru": "Нам нравится гулять каждое воскресенье.",
+        "learn": 1
+      },
+      {
+        "eng": "My birthday falls on Sunday.",
+        "ru": "Мой день рождения попадает на воскресенье.",
+        "learn": 1
+      },
+      {
+        "eng": "Fig Sunday",
+        "ru": "Вербное воскресенье",
+        "learn": 0
+      },
+      {
+        "eng": "Trinity Sunday",
+        "ru": "Троицын день, Троица",
+        "learn": 0
+      },
+      {
+        "eng": "We're off to Spain Sunday week.",
+        "ru": "В воскресенье мы на неделю едем в Испанию.",
+        "learn": 0
+      },
+      {
+        "eng": "An excerpt of the speech appeared in the Sunday paper.",
+        "ru": "Отрывок из речи появился в воскресной газете.",
+        "learn": 0
+      },
+      {
+        "eng": "Low Sunday",
+        "ru": "Фомино воскресенье, Антипасха (первое воскресенье после Пасхи., завершение пасхальной недели)",
+        "learn": 0
+      },
+      {
+        "eng": "I'm busy on Sunday, so that gives me an out.",
+        "ru": "В воскресенье я буду занят, так что, получается, я пас.",
+        "learn": 0
+      },
+      {
+        "eng": "Whit Sunday",
+        "ru": "Пятидесятница, Троица, Троицын день",
+        "learn": 0
+      },
+      {
+        "eng": "What are you doing Sunday?",
+        "ru": "Что ты делаешь в воскресенье? (амер.)",
+        "learn": 1
+      },
+      {
+        "eng": "She visited me last Sunday.",
+        "ru": "Она приезжала ко мне в прошлое воскресенье.",
+        "learn": 0
+      },
+      {
+        "eng": "Brian had an MRI taken Sunday.",
+        "ru": "Брайану сделали МРТ в воскресенье. / Брайан прошёл МРТ в воскресенье.",
+        "learn": 0
+      },
+      {
+        "eng": "I will leave on Sunday morning.",
+        "ru": "Я уезжаю в воскресенье утром.",
+        "learn": 1
+      },
+      {
+        "eng": "I always have a lie-in on a Sunday.",
+        "ru": "Я всегда валяюсь в кровати по воскресеньям.",
+        "learn": 0
+      },
+      {
+        "eng": "I earn extra for working on Sunday.",
+        "ru": "За работу в воскресенье мне доплачивают /платят дополнительно/.",
+        "learn": 0
+      },
+      {
+        "eng": "We licked the other team on Sunday!",
+        "ru": "В воскресенье мы взяли верх над командой соперников!",
+        "learn": 0
+      },
+      {
+        "eng": "He taught catechism at Sunday school.",
+        "ru": "Он преподавал катехизис в воскресной школе.",
+        "learn": 0
+      },
+      {
+        "eng": "I didn't see you in church on Sunday.",
+        "ru": "Я не видел вас в церкви в воскресенье.",
+        "learn": 0
+      },
+      {
+        "eng": "My parents go to church every Sunday.",
+        "ru": "Каждое воскресенье мои родители ходят в церковь.",
+        "learn": 0
+      },
+      {
+        "eng": "We usually sleep in on Sunday mornings.",
+        "ru": "По воскресеньям мы обычно просыпаемся поздно /спим дольше обычного/.",
+        "learn": 0
+      },
+      {
+        "eng": "We'll announce the winners next Sunday.",
+        "ru": "Мы объявим победителей в следующее воскресенье.",
+        "learn": 1
+      },
+      {
+        "eng": "I didn't see you at church last Sunday.",
+        "ru": "Я не видел вас в церкви в прошлое воскресенье.",
+        "learn": 0
+      },
+      {
+        "eng": "advertising inserts in the Sunday paper",
+        "ru": "рекламные вкладыши в воскресной газете",
+        "learn": 0
+      },
+      {
+        "eng": "He stayed in bed late on Sunday morning.",
+        "ru": "В воскресенье утром он встал поздно.",
+        "learn": 0
+      },
+      {
+        "eng": "My birthday falls on a Sunday this year.",
+        "ru": "В этом году мой день рождения приходится на воскресенье.",
+        "learn": 0
+      },
+      {
+        "eng": "The story was all over the Sunday papers.",
+        "ru": "Этот сюжет был во всех воскресных газетах.",
+        "learn": 0
+      },
+      {
+        "eng": "A London Sunday is absolutely letterless.",
+        "ru": "По воскресеньям в Лондоне совсем не получают писем.",
+        "learn": 0
+      },
+      {
+        "eng": "We usually drive to the country on Sunday.",
+        "ru": "Мы обычно ездим за город по воскресеньям.",
+        "learn": 0
+      },
+      {
+        "eng": "I always enjoyed our Sunday night suppers.",
+        "ru": "Я всегда любил наши воскресные ужины.",
+        "learn": 0
+      },
+      {
+        "eng": "It was our wedding anniversary last Sunday.",
+        "ru": "В прошлое воскресенье была годовщина нашей свадьбы.",
+        "learn": 0
+      }
+    ]
+  }
 }

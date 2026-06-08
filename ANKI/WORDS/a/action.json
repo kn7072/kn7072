@@ -1,86 +1,172 @@
 {
-    "action": {
-        "comment": [
-            "act",
-            "acting",
-            "actor",
-            "actress",
-            "bacteria",
-            "abstract",
-            "intact"
-        ],
-        "translate": "действие, деятельность, акция, боевой",
-        "transcription": " |ˈækʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Now's the time for action.",
-            "She tried to explain her actions.",
-            "Lights, camera, action!",
-            "The fire brigade sprang into action.",
-            "His action was construed as a threat.",
-            "The judge dismissed the action.",
-            "The charity urged quick action.",
-            "Jane explained her plan of action.",
-            "The action is fast and furious.",
-            "He actioned the operation.",
-            "Prompt action must be taken.",
-            "I deplore this hostile action.",
-            "He denounced the government action.",
-            "It's time to put Plan B into action.",
-            "The situation demands immediate action.",
-            "They were trapped after the lifts went out of action.",
-            "Positive action was required.",
-            "This action was willed and intended.",
-            "Hollywood is where the action is now.",
-            "They met to discuss a plan of action.",
-            "We need to agree on a plan of action.",
-            "Joe's brave action cost him his life.",
-            "the rotary action of the wheel",
-            "He ordered a hold in the action.",
-            "inhibit the action of the enzyme",
-            "The piano had a very stiff action.",
-            "an action exemplary of his conduct",
-            "Her action amounted to a rebellion.",
-            "New York is where all the action is.",
-            "We conferred about a plan of action."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Пришло время действовать.",
-            "Она попыталась объяснить свои поступки.",
-            "Свет, камера, мотор!",
-            "Пожарная команда мгновенно приступила к действиям.",
-            "Его действия были истолкованы как угроза.",
-            "Судья отклонил иск.",
-            "Благотворительная организация настаивала на незамедлительных действиях.",
-            "Джейн объяснила свой план действий.",
-            "Действие происходит быстро и энергично.",
-            "Он осуществил эту операцию.",
-            "Необходимо действовать без промедления.",
-            "Я сожалею об этой враждебной акции.",
-            "Он осудил действия правительства.",
-            "Пришло время ввести в действие запасной план.",
-            "Ситуация требует немедленного вмешательства.",
-            "После того как лифты вышли из строя, они очутились в ловушке.",
-            "Нужно было действовать решительно.",
-            "Этот поступок был обдуманным и преднамеренным.",
-            "Центр активности сейчас в Голливуде.",
-            "Они встретились, чтобы обсудить план действий.",
-            "Мы должны согласовать план действий.",
-            "Смелый поступок Джо стоил ему жизни.",
-            "поворотное действие этого колеса",
-            "Он приказал приостановить эту деятельность.",
-            "препятствовать действию этого фермента",
-            "У пианино был очень тугой ход клавиш.",
-            "типичный образец его поведения",
-            "Её поступок был равносилен бунту.",
-            "Вся движуха сейчас в Нью-Йорке.",
-            "Мы обсудили план действий."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "action": {
+    "comment": [
+      "act",
+      "acting",
+      "actor",
+      "actress",
+      "bacteria",
+      "abstract",
+      "intact"
+    ],
+    "translate": "действие, деятельность, акция, боевой",
+    "transcription": " |ˈækʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Now's the time for action.",
+        "ru": "Пришло время действовать.",
+        "learn": 0
+      },
+      {
+        "eng": "She tried to explain her actions.",
+        "ru": "Она попыталась объяснить свои поступки.",
+        "learn": 0
+      },
+      {
+        "eng": "Lights, camera, action!",
+        "ru": "Свет, камера, мотор!",
+        "learn": 0
+      },
+      {
+        "eng": "The fire brigade sprang into action.",
+        "ru": "Пожарная команда мгновенно приступила к действиям.",
+        "learn": 0
+      },
+      {
+        "eng": "His action was construed as a threat.",
+        "ru": "Его действия были истолкованы как угроза.",
+        "learn": 0
+      },
+      {
+        "eng": "The judge dismissed the action.",
+        "ru": "Судья отклонил иск.",
+        "learn": 0
+      },
+      {
+        "eng": "The charity urged quick action.",
+        "ru": "Благотворительная организация настаивала на незамедлительных действиях.",
+        "learn": 0
+      },
+      {
+        "eng": "Jane explained her plan of action.",
+        "ru": "Джейн объяснила свой план действий.",
+        "learn": 0
+      },
+      {
+        "eng": "The action is fast and furious.",
+        "ru": "Действие происходит быстро и энергично.",
+        "learn": 0
+      },
+      {
+        "eng": "He actioned the operation.",
+        "ru": "Он осуществил эту операцию.",
+        "learn": 0
+      },
+      {
+        "eng": "Prompt action must be taken.",
+        "ru": "Необходимо действовать без промедления.",
+        "learn": 0
+      },
+      {
+        "eng": "I deplore this hostile action.",
+        "ru": "Я сожалею об этой враждебной акции.",
+        "learn": 0
+      },
+      {
+        "eng": "He denounced the government action.",
+        "ru": "Он осудил действия правительства.",
+        "learn": 1
+      },
+      {
+        "eng": "It's time to put Plan B into action.",
+        "ru": "Пришло время ввести в действие запасной план.",
+        "learn": 0
+      },
+      {
+        "eng": "The situation demands immediate action.",
+        "ru": "Ситуация требует немедленного вмешательства.",
+        "learn": 1
+      },
+      {
+        "eng": "They were trapped after the lifts went out of action.",
+        "ru": "После того как лифты вышли из строя, они очутились в ловушке.",
+        "learn": 0
+      },
+      {
+        "eng": "Positive action was required.",
+        "ru": "Нужно было действовать решительно.",
+        "learn": 0
+      },
+      {
+        "eng": "This action was willed and intended.",
+        "ru": "Этот поступок был обдуманным и преднамеренным.",
+        "learn": 0
+      },
+      {
+        "eng": "Hollywood is where the action is now.",
+        "ru": "Центр активности сейчас в Голливуде.",
+        "learn": 0
+      },
+      {
+        "eng": "They met to discuss a plan of action.",
+        "ru": "Они встретились, чтобы обсудить план действий.",
+        "learn": 0
+      },
+      {
+        "eng": "We need to agree on a plan of action.",
+        "ru": "Мы должны согласовать план действий.",
+        "learn": 0
+      },
+      {
+        "eng": "Joe's brave action cost him his life.",
+        "ru": "Смелый поступок Джо стоил ему жизни.",
+        "learn": 1
+      },
+      {
+        "eng": "the rotary action of the wheel",
+        "ru": "поворотное действие этого колеса",
+        "learn": 0
+      },
+      {
+        "eng": "He ordered a hold in the action.",
+        "ru": "Он приказал приостановить эту деятельность.",
+        "learn": 0
+      },
+      {
+        "eng": "inhibit the action of the enzyme",
+        "ru": "препятствовать действию этого фермента",
+        "learn": 0
+      },
+      {
+        "eng": "The piano had a very stiff action.",
+        "ru": "У пианино был очень тугой ход клавиш.",
+        "learn": 0
+      },
+      {
+        "eng": "an action exemplary of his conduct",
+        "ru": "типичный образец его поведения",
+        "learn": 0
+      },
+      {
+        "eng": "Her action amounted to a rebellion.",
+        "ru": "Её поступок был равносилен бунту.",
+        "learn": 0
+      },
+      {
+        "eng": "New York is where all the action is.",
+        "ru": "Вся движуха сейчас в Нью-Йорке.",
+        "learn": 0
+      },
+      {
+        "eng": "We conferred about a plan of action.",
+        "ru": "Мы обсудили план действий.",
+        "learn": 0
+      }
+    ]
+  }
 }

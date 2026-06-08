@@ -1,84 +1,170 @@
 {
-    "hill": {
-        "comment": [
-            "hillside",
-            "chill"
-        ],
-        "translate": "холм, гора, возвышенность, возвышение, окучивать, насыпать кучу",
-        "transcription": " |hɪl|",
-        "antonyms": [],
-        "mnemonic": [
-            "hill [кпил] холм - (Хил-ый) на холм не поднимется.",
-            "hill [hil]\nНа ХОЛМЕ ты пил виски \"Хевен Хил\". (это) hill\nТы на ХОЛМ ходить не хил. (это) hill\n***\nНа холме \"hill\"\nты простудился \"chill\"."
-        ],
-        "examples": [
-            "The house stood on a hill.",
-            "The child rolled down the hill",
-            "The path led down the hill.",
-            "We walked slowly up the hill.",
-            "The hill commands a good view.",
-            "He panted up a hill.",
-            "He plodded on up the hill.",
-            "The children ran down the hill.",
-            "Capitol Hill",
-            "The truck laboured up the hill.",
-            "...a gorgeous château on a hill...",
-            "He ran furiously up against a hill.",
-            "He hared down the hill.",
-            "She trudged up the hill.",
-            "There's a steep hill ahead.",
-            "A hill loomed ahead of them.",
-            "The road dips over the hill.",
-            "the landward side of the hill",
-            "The truck labored up the hill.",
-            "The bikers puffed up the hill.",
-            "The horse plodded up the hill.",
-            "They toiled slowly up the hill.",
-            "It was a long pull up the hill.",
-            "the long trudge back up the hill",
-            "The children rolled down the hill.",
-            "Our driveway is a long, steep hill.",
-            "Mr Hill took a real fancy to Clara.",
-            "The DMZ begins right over the hill.",
-            "Fork left at the bottom of the hill.",
-            "We went camping in the hill country."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Дом стоял на холме.",
-            "Ребенок скатился с горы",
-            "Тропинка вела вниз по склону.",
-            "Мы медленно поднимались по склону.",
-            "С холма открывается красивый вид.",
-            "Он пыхтел, взбираясь на холм.",
-            "Он медленно взбирался на вершину холма.",
-            "Дети побежали вниз по склону.",
-            "а) Капитолийский холм (в Вашингтоне)., б) конгресс США",
-            "Грузовик с трудом взбирался вверх по склону.",
-            "...великолепный замок на холме...",
-            "Как бешеный, он взбежал на холм.",
-            "Он пустился бежать вниз по склону.",
-            "Она с трудом взбиралась на гору.",
-            "Впереди — крутой холм.",
-            "Впереди виднелись очертания холма.",
-            "За холмом дорога спускается вниз.",
-            "обращённый к берегу склон холма",
-            "Грузовик с трудом взбирался на гору.",
-            "Велосипедисты, пыхтя от натуги, поехали в гору.",
-            "Лошадь медленно брела в гору.",
-            "Они медленно и с огромным трудом взбирались на гору.",
-            "Это был долгий подъём в гору.",
-            "долгое восхождение обратно на гору",
-            "Дети скатились с горки.",
-            "Наша подъездная дорога — это длинный крутой подъём.",
-            "Мистер Хилл по-настоящему влюбился в Клару.",
-            "Демилитаризованная зона начинается прямо за горой.",
-            "(На развилке) у подножия холма сверните налево.",
-            "Мы отправились в поход в горы."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "hill": {
+    "comment": [
+      "hillside",
+      "chill"
+    ],
+    "translate": "холм, гора, возвышенность, возвышение, окучивать, насыпать кучу",
+    "transcription": " |hɪl|",
+    "antonyms": [],
+    "mnemonic": [
+      "hill [кпил] холм - (Хил-ый) на холм не поднимется.",
+      "hill [hil]\nНа ХОЛМЕ ты пил виски \"Хевен Хил\". (это) hill\nТы на ХОЛМ ходить не хил. (это) hill\n***\nНа холме \"hill\"\nты простудился \"chill\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The house stood on a hill.",
+        "ru": "Дом стоял на холме.",
+        "learn": 1
+      },
+      {
+        "eng": "The child rolled down the hill",
+        "ru": "Ребенок скатился с горы",
+        "learn": 0
+      },
+      {
+        "eng": "The path led down the hill.",
+        "ru": "Тропинка вела вниз по склону.",
+        "learn": 0
+      },
+      {
+        "eng": "We walked slowly up the hill.",
+        "ru": "Мы медленно поднимались по склону.",
+        "learn": 0
+      },
+      {
+        "eng": "The hill commands a good view.",
+        "ru": "С холма открывается красивый вид.",
+        "learn": 0
+      },
+      {
+        "eng": "He panted up a hill.",
+        "ru": "Он пыхтел, взбираясь на холм.",
+        "learn": 0
+      },
+      {
+        "eng": "He plodded on up the hill.",
+        "ru": "Он медленно взбирался на вершину холма.",
+        "learn": 0
+      },
+      {
+        "eng": "The children ran down the hill.",
+        "ru": "Дети побежали вниз по склону.",
+        "learn": 0
+      },
+      {
+        "eng": "Capitol Hill",
+        "ru": "а) Капитолийский холм (в Вашингтоне)., б) конгресс США",
+        "learn": 0
+      },
+      {
+        "eng": "The truck laboured up the hill.",
+        "ru": "Грузовик с трудом взбирался вверх по склону.",
+        "learn": 0
+      },
+      {
+        "eng": "...a gorgeous château on a hill...",
+        "ru": "...великолепный замок на холме...",
+        "learn": 0
+      },
+      {
+        "eng": "He ran furiously up against a hill.",
+        "ru": "Как бешеный, он взбежал на холм.",
+        "learn": 0
+      },
+      {
+        "eng": "He hared down the hill.",
+        "ru": "Он пустился бежать вниз по склону.",
+        "learn": 0
+      },
+      {
+        "eng": "She trudged up the hill.",
+        "ru": "Она с трудом взбиралась на гору.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a steep hill ahead.",
+        "ru": "Впереди — крутой холм.",
+        "learn": 0
+      },
+      {
+        "eng": "A hill loomed ahead of them.",
+        "ru": "Впереди виднелись очертания холма.",
+        "learn": 0
+      },
+      {
+        "eng": "The road dips over the hill.",
+        "ru": "За холмом дорога спускается вниз.",
+        "learn": 0
+      },
+      {
+        "eng": "the landward side of the hill",
+        "ru": "обращённый к берегу склон холма",
+        "learn": 0
+      },
+      {
+        "eng": "The truck labored up the hill.",
+        "ru": "Грузовик с трудом взбирался на гору.",
+        "learn": 0
+      },
+      {
+        "eng": "The bikers puffed up the hill.",
+        "ru": "Велосипедисты, пыхтя от натуги, поехали в гору.",
+        "learn": 0
+      },
+      {
+        "eng": "The horse plodded up the hill.",
+        "ru": "Лошадь медленно брела в гору.",
+        "learn": 0
+      },
+      {
+        "eng": "They toiled slowly up the hill.",
+        "ru": "Они медленно и с огромным трудом взбирались на гору.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a long pull up the hill.",
+        "ru": "Это был долгий подъём в гору.",
+        "learn": 0
+      },
+      {
+        "eng": "the long trudge back up the hill",
+        "ru": "долгое восхождение обратно на гору",
+        "learn": 0
+      },
+      {
+        "eng": "The children rolled down the hill.",
+        "ru": "Дети скатились с горки.",
+        "learn": 0
+      },
+      {
+        "eng": "Our driveway is a long, steep hill.",
+        "ru": "Наша подъездная дорога — это длинный крутой подъём.",
+        "learn": 0
+      },
+      {
+        "eng": "Mr Hill took a real fancy to Clara.",
+        "ru": "Мистер Хилл по-настоящему влюбился в Клару.",
+        "learn": 0
+      },
+      {
+        "eng": "The DMZ begins right over the hill.",
+        "ru": "Демилитаризованная зона начинается прямо за горой.",
+        "learn": 0
+      },
+      {
+        "eng": "Fork left at the bottom of the hill.",
+        "ru": "(На развилке) у подножия холма сверните налево.",
+        "learn": 0
+      },
+      {
+        "eng": "We went camping in the hill country.",
+        "ru": "Мы отправились в поход в горы.",
+        "learn": 1
+      }
+    ]
+  }
 }

@@ -1,81 +1,161 @@
 {
-    "dessert": {
-        "comment": [
-            "desert",
-            "assert",
-            "assertion",
-            "insert"
-        ],
-        "translate": "десерт, сладкое, десертный",
-        "transcription": " |dɪˈzɜːrt|",
-        "antonyms": [],
-        "mnemonic": [
-            "desert [dɪ'zə: t]\ndesert ['dezət]\ndessert [dɪ'zə: t] - десерт\n***\nПустыню ПОКИНУЛ и снова: \"Где Z?\". (это) desert\nБРОСИЛ нас, и снова: \"Где Z?\". (это) desert\n***\nВ ПУСТЫНЕ спрашивал: \"Где Z?\". (это) desert"
-        ],
-        "examples": [
-            "I'll skip dessert., I'm slimming.",
-            "What's for dessert?",
-            "What are we having for dessert?",
-            "We had ice cream and apple pie for dessert.",
-            "No, no dessert, I'm stuffed.",
-            "The price of dinner includes dessert.",
-            "The dinner was delicious, but the dessert was mediocre.",
-            "If you don't order dessert I won't either.",
-            "She helped herself to the dessert.",
-            "Let's order dessert when the waitress comes back.",
-            "This is surely the best dessert you have ever made.",
-            "I'll forgo dessert tonight — I'm trying to lose weight.",
-            "Don't eat too much. You should leave some room for dessert.",
-            "Sugar rimmed the dessert plate.",
-            "She doesn't care for rich desserts.",
-            "The dessert buffet tested my willpower.",
-            "She served a creamy sort of dessert thing.",
-            "Coffee and tea will be served with dessert.",
-            "Our waiter wheeled out a small dessert cart.",
-            "Chill the dessert for one hour before serving it.",
-            "Chill the dessert in the fridge for about two hours.",
-            "The dessert menu has a lot of delicious temptations.",
-            "Let the dessert chill for one hour before serving it.",
-            "Chefs differ in their idea of what makes a good dessert.",
-            "I was ogling the dessert menu before my meal even arrived.",
-            "The waitress rolled the dessert trolley over to our table.",
-            "I gave in to one of my compulsions and ordered the chocolate dessert.",
-            "There's nothing like a luxurious dessert to give a menu a final flourish."
-        ],
-        "example_translate": [
-            "Я пропущу десерт, я худею.",
-            "Что на десерт?",
-            "Что у нас на десерт?",
-            "На десерт мы ели мороженое и яблочный пирог.",
-            "Нет, никакого десерта, у меня полный живот.",
-            "Цена ужина включает десерт.",
-            "Ужин был восхитительным, но десерт так себе.",
-            "Если ты не будешь заказывать десерт, я тоже не буду.",
-            "Она положила себе десерт.",
-            "Когда официантка вернётся, давайте закажем десерт.",
-            "Несомненно, это лучший десерт из тех, что вы когда-либо готовили.",
-            "Я сегодня откажусь от десерта: я ведь пытаюсь похудеть.",
-            "Не ешьте слишком много. Вам следует оставить место для десерта.",
-            "Ободок десертной тарелки был в сахаре.",
-            "Ей не по вкусу жирные десерты.",
-            "Десертный бар стал настоящим испытанием для моей силы воли.",
-            "Она подала что-то вроде сливочного десерта.",
-            "Кофе и чай подадут с десертом.",
-            "Наш официант выкатил небольшую десертную тележку.",
-            "Перед подачей на стол охлаждайте десерт в течение одного часа.",
-            "Охлаждайте десерт в холодильнике примерно два часа.",
-            "Десертное меню содержит много соблазнительно вкусных блюд.",
-            "Перед подачей на стол позвольте десерту один час постоять в холодильнике.",
-            "Повара не сходятся во мнениях о том, что такое хороший десерт.",
-            "Ещё даже не подали на стол, а я уже с вожделением разглядывала десертное меню.",
-            "Официантка подкатила тележку со сладостями к нашему столику.",
-            "Я уступил одному из своих навязчивых желаний и заказал шоколадный десерт.",
-            "В качестве последнего штриха для меню, ничто не сравнится с роскошным десертом."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "dessert": {
+    "comment": [
+      "desert",
+      "assert",
+      "assertion",
+      "insert"
+    ],
+    "translate": "десерт, сладкое, десертный",
+    "transcription": " |dɪˈzɜːrt|",
+    "antonyms": [],
+    "mnemonic": [
+      "desert [dɪ'zə: t]\ndesert ['dezət]\ndessert [dɪ'zə: t] - десерт\n***\nПустыню ПОКИНУЛ и снова: \"Где Z?\". (это) desert\nБРОСИЛ нас, и снова: \"Где Z?\". (это) desert\n***\nВ ПУСТЫНЕ спрашивал: \"Где Z?\". (это) desert"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I'll skip dessert., I'm slimming.",
+        "ru": "Я пропущу десерт, я худею.",
+        "learn": 1
+      },
+      {
+        "eng": "What's for dessert?",
+        "ru": "Что на десерт?",
+        "learn": 0
+      },
+      {
+        "eng": "What are we having for dessert?",
+        "ru": "Что у нас на десерт?",
+        "learn": 0
+      },
+      {
+        "eng": "We had ice cream and apple pie for dessert.",
+        "ru": "На десерт мы ели мороженое и яблочный пирог.",
+        "learn": 0
+      },
+      {
+        "eng": "No, no dessert, I'm stuffed.",
+        "ru": "Нет, никакого десерта, у меня полный живот.",
+        "learn": 0
+      },
+      {
+        "eng": "The price of dinner includes dessert.",
+        "ru": "Цена ужина включает десерт.",
+        "learn": 1
+      },
+      {
+        "eng": "The dinner was delicious, but the dessert was mediocre.",
+        "ru": "Ужин был восхитительным, но десерт так себе.",
+        "learn": 0
+      },
+      {
+        "eng": "If you don't order dessert I won't either.",
+        "ru": "Если ты не будешь заказывать десерт, я тоже не буду.",
+        "learn": 1
+      },
+      {
+        "eng": "She helped herself to the dessert.",
+        "ru": "Она положила себе десерт.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's order dessert when the waitress comes back.",
+        "ru": "Когда официантка вернётся, давайте закажем десерт.",
+        "learn": 0
+      },
+      {
+        "eng": "This is surely the best dessert you have ever made.",
+        "ru": "Несомненно, это лучший десерт из тех, что вы когда-либо готовили.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll forgo dessert tonight — I'm trying to lose weight.",
+        "ru": "Я сегодня откажусь от десерта: я ведь пытаюсь похудеть.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't eat too much. You should leave some room for dessert.",
+        "ru": "Не ешьте слишком много. Вам следует оставить место для десерта.",
+        "learn": 0
+      },
+      {
+        "eng": "Sugar rimmed the dessert plate.",
+        "ru": "Ободок десертной тарелки был в сахаре.",
+        "learn": 0
+      },
+      {
+        "eng": "She doesn't care for rich desserts.",
+        "ru": "Ей не по вкусу жирные десерты.",
+        "learn": 0
+      },
+      {
+        "eng": "The dessert buffet tested my willpower.",
+        "ru": "Десертный бар стал настоящим испытанием для моей силы воли.",
+        "learn": 0
+      },
+      {
+        "eng": "She served a creamy sort of dessert thing.",
+        "ru": "Она подала что-то вроде сливочного десерта.",
+        "learn": 0
+      },
+      {
+        "eng": "Coffee and tea will be served with dessert.",
+        "ru": "Кофе и чай подадут с десертом.",
+        "learn": 0
+      },
+      {
+        "eng": "Our waiter wheeled out a small dessert cart.",
+        "ru": "Наш официант выкатил небольшую десертную тележку.",
+        "learn": 1
+      },
+      {
+        "eng": "Chill the dessert for one hour before serving it.",
+        "ru": "Перед подачей на стол охлаждайте десерт в течение одного часа.",
+        "learn": 0
+      },
+      {
+        "eng": "Chill the dessert in the fridge for about two hours.",
+        "ru": "Охлаждайте десерт в холодильнике примерно два часа.",
+        "learn": 1
+      },
+      {
+        "eng": "The dessert menu has a lot of delicious temptations.",
+        "ru": "Десертное меню содержит много соблазнительно вкусных блюд.",
+        "learn": 0
+      },
+      {
+        "eng": "Let the dessert chill for one hour before serving it.",
+        "ru": "Перед подачей на стол позвольте десерту один час постоять в холодильнике.",
+        "learn": 1
+      },
+      {
+        "eng": "Chefs differ in their idea of what makes a good dessert.",
+        "ru": "Повара не сходятся во мнениях о том, что такое хороший десерт.",
+        "learn": 0
+      },
+      {
+        "eng": "I was ogling the dessert menu before my meal even arrived.",
+        "ru": "Ещё даже не подали на стол, а я уже с вожделением разглядывала десертное меню.",
+        "learn": 0
+      },
+      {
+        "eng": "The waitress rolled the dessert trolley over to our table.",
+        "ru": "Официантка подкатила тележку со сладостями к нашему столику.",
+        "learn": 1
+      },
+      {
+        "eng": "I gave in to one of my compulsions and ordered the chocolate dessert.",
+        "ru": "Я уступил одному из своих навязчивых желаний и заказал шоколадный десерт.",
+        "learn": 0
+      },
+      {
+        "eng": "There's nothing like a luxurious dessert to give a menu a final flourish.",
+        "ru": "В качестве последнего штриха для меню, ничто не сравнится с роскошным десертом.",
+        "learn": 0
+      }
+    ]
+  }
 }

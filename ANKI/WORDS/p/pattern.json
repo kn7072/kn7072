@@ -1,81 +1,167 @@
 {
-    "pattern": {
-        "comment": [
-            "patch",
-            "pat"
-        ],
-        "translate": "узор, шаблон, модель, рисунок, копировать, примерный, образцовый",
-        "transcription": " |ˈpætərn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Mary has always patterned herself on her mother.",
-            "I want a wallpaper patterned with roses.",
-            "They noticed patterns in the data.",
-            "The pattern of family life has been changing over recent years.",
-            "The tiles were laid in a geometric pattern.",
-            "The curtains repeat the wallpaper pattern.",
-            "The tablecloth was edged with a hand-woven pattern.",
-            "The boy's behaviour conforms to the expected pattern.",
-            "the overall pattern of his life",
-            "The rug is decorated with a geometric pattern.",
-            "A general pattern began to emerge.",
-            "The child showed a normal pattern of development.",
-            "His behavior fits a pattern of violent acts.",
-            "I've roughed in the general shape of the pattern in pencil.",
-            "The design is so good it's sure to set the pattern for many others.",
-            "The case is illustrative of a common pattern.",
-            "Weather patterns have changed in recent years.",
-            "A sonnet has a fixed rhyming pattern.",
-            "Do you have the same pattern in blue?",
-            "The pattern is repeated many times over.",
-            "Tiny white flowers patterned the ground like confetti.",
-            "The Republic is the pattern of all other states and the exemplar of human life.",
-            "They are studying behavior patterns among high-school students.",
-            "Its streets were laid out in a grid pattern.",
-            "The dishes have a floral pattern around the rim.",
-            "a zonal pattern of cell structure",
-            "The fabric comes in different colors and patterns.",
-            "You have to be a bit of a plodder to produce a pattern like this.",
-            "Their descriptions seemed to follow a set pattern (=always develop in the same way).",
-            "The book set the pattern for over 40 similar historical romances."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мэри всегда следовала примеру своей матери.",
-            "Я хочу, чтобы обои были украшены узором из роз.",
-            "Они заметили в полученных данных некоторые закономерности.",
-            "В последние годы характер семейной жизни меняется.",
-            "Плитка была выложена геометрическим рисунком.",
-            "Узор на занавесках повторяет узор на обоях.",
-            "По краю скатерть была украшена вытканным вручную узором.",
-            "Мальчик ведёт себя так, как и ожидалось.",
-            "общая картина его жизни",
-            "Ковёр украшен геометрическим орнаментом.",
-            "Начала вырисовываться общая закономерность.",
-            "Ребёнок продемонстрировал нормальную картину развития.",
-            "Его поведение соответствует шаблону насильственных действий.",
-            "Я набросал общую схему узора карандашом.",
-            "Конструкция настолько хороша, что нет сомнений: она станет образцом для многих других.",
-            "Этот случай иллюстрирует общую закономерность.",
-            "В последние годы погодные условия изменились.",
-            "Сонет имеет фиксированный рисунок рифмовки.",
-            "У вас есть такой же узор, только в синем цвете?",
-            "Этот рисунок повторяется много раз.",
-            "Крошечные белые цветы усеивали землю, словно конфетти.",
-            "Республика является образцом для всех других государств и примером того, какой должна быть жизнь человека.",
-            "Они занимаются изучением закономерностей поведения среди старшеклассников.",
-            "Его улицы пересекались друг с другом под прямым углом наподобие решётки.",
-            "Края этих блюд украшены цветочным узором.",
-            "зональная модель строения клетки",
-            "Ткань поставляется в различных цветах и рисунках.",
-            "Такой узор требует большого труда и терпения.",
-            "Их описания как будто бы следовали заданному шаблону (т.е. всегда развивались одинаково).",
-            "Эта книга стала образцом для более сорока подобных исторических романов."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "pattern": {
+    "comment": [
+      "patch",
+      "pat"
+    ],
+    "translate": "узор, шаблон, модель, рисунок, копировать, примерный, образцовый",
+    "transcription": " |ˈpætərn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Mary has always patterned herself on her mother.",
+        "ru": "Мэри всегда следовала примеру своей матери.",
+        "learn": 0
+      },
+      {
+        "eng": "I want a wallpaper patterned with roses.",
+        "ru": "Я хочу, чтобы обои были украшены узором из роз.",
+        "learn": 1
+      },
+      {
+        "eng": "They noticed patterns in the data.",
+        "ru": "Они заметили в полученных данных некоторые закономерности.",
+        "learn": 1
+      },
+      {
+        "eng": "The pattern of family life has been changing over recent years.",
+        "ru": "В последние годы характер семейной жизни меняется.",
+        "learn": 0
+      },
+      {
+        "eng": "The tiles were laid in a geometric pattern.",
+        "ru": "Плитка была выложена геометрическим рисунком.",
+        "learn": 0
+      },
+      {
+        "eng": "The curtains repeat the wallpaper pattern.",
+        "ru": "Узор на занавесках повторяет узор на обоях.",
+        "learn": 1
+      },
+      {
+        "eng": "The tablecloth was edged with a hand-woven pattern.",
+        "ru": "По краю скатерть была украшена вытканным вручную узором.",
+        "learn": 0
+      },
+      {
+        "eng": "The boy's behaviour conforms to the expected pattern.",
+        "ru": "Мальчик ведёт себя так, как и ожидалось.",
+        "learn": 1
+      },
+      {
+        "eng": "the overall pattern of his life",
+        "ru": "общая картина его жизни",
+        "learn": 0
+      },
+      {
+        "eng": "The rug is decorated with a geometric pattern.",
+        "ru": "Ковёр украшен геометрическим орнаментом.",
+        "learn": 0
+      },
+      {
+        "eng": "A general pattern began to emerge.",
+        "ru": "Начала вырисовываться общая закономерность.",
+        "learn": 1
+      },
+      {
+        "eng": "The child showed a normal pattern of development.",
+        "ru": "Ребёнок продемонстрировал нормальную картину развития.",
+        "learn": 0
+      },
+      {
+        "eng": "His behavior fits a pattern of violent acts.",
+        "ru": "Его поведение соответствует шаблону насильственных действий.",
+        "learn": 0
+      },
+      {
+        "eng": "I've roughed in the general shape of the pattern in pencil.",
+        "ru": "Я набросал общую схему узора карандашом.",
+        "learn": 0
+      },
+      {
+        "eng": "The design is so good it's sure to set the pattern for many others.",
+        "ru": "Конструкция настолько хороша, что нет сомнений: она станет образцом для многих других.",
+        "learn": 0
+      },
+      {
+        "eng": "The case is illustrative of a common pattern.",
+        "ru": "Этот случай иллюстрирует общую закономерность.",
+        "learn": 0
+      },
+      {
+        "eng": "Weather patterns have changed in recent years.",
+        "ru": "В последние годы погодные условия изменились.",
+        "learn": 0
+      },
+      {
+        "eng": "A sonnet has a fixed rhyming pattern.",
+        "ru": "Сонет имеет фиксированный рисунок рифмовки.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you have the same pattern in blue?",
+        "ru": "У вас есть такой же узор, только в синем цвете?",
+        "learn": 0
+      },
+      {
+        "eng": "The pattern is repeated many times over.",
+        "ru": "Этот рисунок повторяется много раз.",
+        "learn": 0
+      },
+      {
+        "eng": "Tiny white flowers patterned the ground like confetti.",
+        "ru": "Крошечные белые цветы усеивали землю, словно конфетти.",
+        "learn": 0
+      },
+      {
+        "eng": "The Republic is the pattern of all other states and the exemplar of human life.",
+        "ru": "Республика является образцом для всех других государств и примером того, какой должна быть жизнь человека.",
+        "learn": 0
+      },
+      {
+        "eng": "They are studying behavior patterns among high-school students.",
+        "ru": "Они занимаются изучением закономерностей поведения среди старшеклассников.",
+        "learn": 0
+      },
+      {
+        "eng": "Its streets were laid out in a grid pattern.",
+        "ru": "Его улицы пересекались друг с другом под прямым углом наподобие решётки.",
+        "learn": 0
+      },
+      {
+        "eng": "The dishes have a floral pattern around the rim.",
+        "ru": "Края этих блюд украшены цветочным узором.",
+        "learn": 0
+      },
+      {
+        "eng": "a zonal pattern of cell structure",
+        "ru": "зональная модель строения клетки",
+        "learn": 0
+      },
+      {
+        "eng": "The fabric comes in different colors and patterns.",
+        "ru": "Ткань поставляется в различных цветах и рисунках.",
+        "learn": 0
+      },
+      {
+        "eng": "You have to be a bit of a plodder to produce a pattern like this.",
+        "ru": "Такой узор требует большого труда и терпения.",
+        "learn": 0
+      },
+      {
+        "eng": "Their descriptions seemed to follow a set pattern (=always develop in the same way).",
+        "ru": "Их описания как будто бы следовали заданному шаблону (т.е. всегда развивались одинаково).",
+        "learn": 0
+      },
+      {
+        "eng": "The book set the pattern for over 40 similar historical romances.",
+        "ru": "Эта книга стала образцом для более сорока подобных исторических романов.",
+        "learn": 0
+      }
+    ]
+  }
 }

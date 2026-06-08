@@ -1,80 +1,166 @@
 {
-    "energy": {
-        "comment": [
-            "energetic"
-        ],
-        "translate": "энергия, сила, силы, мощность, энергичность",
-        "transcription": " |ˈenərdʒi|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The solar panels store energy.",
-            "All her energy was focused upon her children.",
-            "How much energy can this battery store?",
-            "a man of energy and commitment",
-            "Federal Energy Administration",
-            "Atomic Energy Authority",
-            "International Atomic Energy Agency",
-            "This affair calls forth all his energy.",
-            "They worked with great energy and cheerfulness.",
-            "Department of Energy",
-            "She has lots of unfocused energy.",
-            "He plays tennis with great energy.",
-            "The children have heaps of energy.",
-            "renewable energy such as solar power",
-            "Helping people takes time and energy.",
-            "We need to rethink the way we consume energy. Take, for instance, our approach to transport.",
-            "Solar power provides clean energy.",
-            "France's reliance on nuclear energy",
-            "Jogging works off my excess energy.",
-            "Energy is conserved in this process.",
-            "a failure traceable to lack of energy",
-            "He has a tremendous amount of energy.",
-            "the dispersion of energy from a source",
-            "The kids are always so full of energy.",
-            "the profligate use of energy resources",
-            "He seems to have inexhaustible energy.",
-            "Lighting is now more energy efficient.",
-            "The energy expenditure was significant.",
-            "She puts a lot of energy into her work.",
-            "The exercise class drains me of energy."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Солнечные батареи накапливают энергию.",
-            "Вся её энергия была сосредоточена на детях.",
-            "Какова энергоёмкость этой батареи?",
-            "человек энергичный и преданный делу",
-            "Федеральное энергетическое управление (в США)",
-            "Управление атомной энергетики (в Великобритании)",
-            "Международное агентство по атомной энергии (МАГАТЭ)",
-            "Это дело потребует всей его энергии.",
-            "Они работали энергично и с большой охотой.",
-            "Министерство энергетики (в Великобритании, США)",
-            "У неё куча энергии, которую некуда применить.",
-            "Он играет в теннис с большой энергией.",
-            "У этих детей уйма энергии.",
-            "энергия из возобновляемых источников, например, солнечная",
-            "Помощь людям отнимает много времени и сил.",
-            "Нужно переосмыслить то, как мы потребляем энергию. Возьмём, например, наш подход к транспорту.",
-            "Сила солнечного света предоставляет экологически чистую энергию.",
-            "зависимость Франции от ядерной энергии",
-            "Бег помогает мне сбросить излишек энергии.",
-            "В этом процессе сохраняется энергия.",
-            "неудача, которую можно отнести на счёт недостатка сил",
-            "Он обладает потрясающей энергией.",
-            "рассеивание энергии от источника",
-            "У детей всегда столько энергии!",
-            "расточительное использование энергетических ресурсов",
-            "Его энергия кажется неиссякаемой.",
-            "Освещение сейчас стало более энергоэффективным /энергосберегающим/.",
-            "Энергетические затраты были значительными.",
-            "Она вкладывает в свою работу кучу энергии.",
-            "Урок физкультуры высасывает из меня всю энергию."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "energy": {
+    "comment": [
+      "energetic"
+    ],
+    "translate": "энергия, сила, силы, мощность, энергичность",
+    "transcription": " |ˈenərdʒi|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The solar panels store energy.",
+        "ru": "Солнечные батареи накапливают энергию.",
+        "learn": 1
+      },
+      {
+        "eng": "All her energy was focused upon her children.",
+        "ru": "Вся её энергия была сосредоточена на детях.",
+        "learn": 0
+      },
+      {
+        "eng": "How much energy can this battery store?",
+        "ru": "Какова энергоёмкость этой батареи?",
+        "learn": 0
+      },
+      {
+        "eng": "a man of energy and commitment",
+        "ru": "человек энергичный и преданный делу",
+        "learn": 0
+      },
+      {
+        "eng": "Federal Energy Administration",
+        "ru": "Федеральное энергетическое управление (в США)",
+        "learn": 0
+      },
+      {
+        "eng": "Atomic Energy Authority",
+        "ru": "Управление атомной энергетики (в Великобритании)",
+        "learn": 0
+      },
+      {
+        "eng": "International Atomic Energy Agency",
+        "ru": "Международное агентство по атомной энергии (МАГАТЭ)",
+        "learn": 0
+      },
+      {
+        "eng": "This affair calls forth all his energy.",
+        "ru": "Это дело потребует всей его энергии.",
+        "learn": 0
+      },
+      {
+        "eng": "They worked with great energy and cheerfulness.",
+        "ru": "Они работали энергично и с большой охотой.",
+        "learn": 0
+      },
+      {
+        "eng": "Department of Energy",
+        "ru": "Министерство энергетики (в Великобритании, США)",
+        "learn": 0
+      },
+      {
+        "eng": "She has lots of unfocused energy.",
+        "ru": "У неё куча энергии, которую некуда применить.",
+        "learn": 0
+      },
+      {
+        "eng": "He plays tennis with great energy.",
+        "ru": "Он играет в теннис с большой энергией.",
+        "learn": 0
+      },
+      {
+        "eng": "The children have heaps of energy.",
+        "ru": "У этих детей уйма энергии.",
+        "learn": 0
+      },
+      {
+        "eng": "renewable energy such as solar power",
+        "ru": "энергия из возобновляемых источников, например, солнечная",
+        "learn": 0
+      },
+      {
+        "eng": "Helping people takes time and energy.",
+        "ru": "Помощь людям отнимает много времени и сил.",
+        "learn": 0
+      },
+      {
+        "eng": "We need to rethink the way we consume energy. Take, for instance, our approach to transport.",
+        "ru": "Нужно переосмыслить то, как мы потребляем энергию. Возьмём, например, наш подход к транспорту.",
+        "learn": 0
+      },
+      {
+        "eng": "Solar power provides clean energy.",
+        "ru": "Сила солнечного света предоставляет экологически чистую энергию.",
+        "learn": 1
+      },
+      {
+        "eng": "France's reliance on nuclear energy",
+        "ru": "зависимость Франции от ядерной энергии",
+        "learn": 0
+      },
+      {
+        "eng": "Jogging works off my excess energy.",
+        "ru": "Бег помогает мне сбросить излишек энергии.",
+        "learn": 0
+      },
+      {
+        "eng": "Energy is conserved in this process.",
+        "ru": "В этом процессе сохраняется энергия.",
+        "learn": 0
+      },
+      {
+        "eng": "a failure traceable to lack of energy",
+        "ru": "неудача, которую можно отнести на счёт недостатка сил",
+        "learn": 0
+      },
+      {
+        "eng": "He has a tremendous amount of energy.",
+        "ru": "Он обладает потрясающей энергией.",
+        "learn": 0
+      },
+      {
+        "eng": "the dispersion of energy from a source",
+        "ru": "рассеивание энергии от источника",
+        "learn": 0
+      },
+      {
+        "eng": "The kids are always so full of energy.",
+        "ru": "У детей всегда столько энергии!",
+        "learn": 0
+      },
+      {
+        "eng": "the profligate use of energy resources",
+        "ru": "расточительное использование энергетических ресурсов",
+        "learn": 0
+      },
+      {
+        "eng": "He seems to have inexhaustible energy.",
+        "ru": "Его энергия кажется неиссякаемой.",
+        "learn": 0
+      },
+      {
+        "eng": "Lighting is now more energy efficient.",
+        "ru": "Освещение сейчас стало более энергоэффективным /энергосберегающим/.",
+        "learn": 1
+      },
+      {
+        "eng": "The energy expenditure was significant.",
+        "ru": "Энергетические затраты были значительными.",
+        "learn": 1
+      },
+      {
+        "eng": "She puts a lot of energy into her work.",
+        "ru": "Она вкладывает в свою работу кучу энергии.",
+        "learn": 0
+      },
+      {
+        "eng": "The exercise class drains me of energy.",
+        "ru": "Урок физкультуры высасывает из меня всю энергию.",
+        "learn": 0
+      }
+    ]
+  }
 }

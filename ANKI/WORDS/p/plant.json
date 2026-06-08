@@ -1,90 +1,177 @@
 {
-    "plant": {
-        "comment": [
-            "plane",
-            "planning",
-            "plan",
-            "planet",
-            "planned",
-            "planner",
-            "plate"
-        ],
-        "translate": " завод, растение, установка, фабрика, сажать, насаждать, садить, подсадить",
-        "transcription": "  |plænt|",
-        "antonyms": [],
-        "mnemonic": [
-            "plant [плант] растение, сажать - Растения на (плантациях) сажают.",
-            "plant [pla: nt]\nblunt [blʌnt]\n***\nВЫСАДИЛИ в рот имплант. (это) plant\nЧтоб САЖАТЬ и сеять - есть талант. (это) plant\nРАСТЕНИЯ вырастить нужен талант. (это) plant\nРастение, саженец.\n***\nРастения \"plant\"\nпосадил на склоне \"slant\".\n***\nЗАТУПИЛСЯ имплант. (это) blunt\nТУПЫМ стал, как вставил имплант. (это) blunt\nТуповатый, грубоватый."
-        ],
-        "examples": [
-            "The plant died from want of water.",
-            "They built a large plant to manufacture automobiles.",
-            "a field planted with corn",
-            "The plant has furry leaves.",
-            "She planted him once and forever.",
-            "He was a spy planted in the office by a rival company.",
-            "They persisted in planting themselves in some safe nook.",
-            "Planting his case on the table, he looked at us expectantly.",
-            "Whatever planted that idea in / into your head?",
-            "a good time to plant tomatoes",
-            "The police had planted undercover detectives at every entrance.",
-            "the structure of a plant",
-            "a plant with glossy green leaves",
-            "Don't forget to water the plants.",
-            "I'll dig up that plant and move it.",
-            "Light stimulates plant growth.",
-            "The plant's leaves are prickly.",
-            "Good soil promotes plant growth.",
-            "I planted the border with roses.",
-            "I planted corn this year.",
-            "The plant has fuzzy leaves.",
-            "The plant has feathery leaves.",
-            "a cross-section of a plant stem",
-            "The plant needs a firm anchorage",
-            "The plant naturalizes well in grass.",
-            "I began digging a hole for the plant.",
-            "The plant tolerates adverse conditions.",
-            "The drug is derived from an African plant.",
-            "the plant's uptake of water",
-            "The plant has outgrown my garden."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Растение погибло от недостатка воды.",
-            "Они построили большой завод по производству автомобилей.",
-            "поле, засеянное кукурузой",
-            "У этого растения пушистые листья.",
-            "Она ушла от него навсегда.",
-            "Он был шпионом, которого внедрила в фирму конкурирующая компания.",
-            "Они настаивали на том, чтобы их постоянно разместили в каком-нибудь укромном уголке.",
-            "Поставив на стол свой дипломат, он выжидающе поглядел на нас.",
-            "Что внушило тебе эту мысль?",
-            "благоприятное время для посадки помидоров",
-            "На каждом входе полиция посадила своих агентов под прикрытием.",
-            "строение растения",
-            "растение с блестящими зелёными листьями",
-            "Не забывайте поливать растения.",
-            "Я выкопаю это растение и пересажу его.",
-            "Свет способствует росту растений.",
-            "Листья этого растения — колючие.",
-            "Хорошая почва способствует росту растений.",
-            "Я засадила границу розами.",
-            "В этом году я посадил кукурузу.",
-            "У этого растения пушистые листья.",
-            "Растение имеет перистые листья.",
-            "поперечный срез стебля растения",
-            "Данное растение нуждается в твёрдой опоре.",
-            "Это растение хорошо приживается в траве.",
-            "Я начал копать для растения яму.",
-            "Растение устойчиво к неблагоприятным условиям.",
-            "Этот препарат получают из одного африканского растения.",
-            "поглощение этим растением воды",
-            "Этому растению стало тесно в моём саду."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "a(закр_сл)_=_[ɑː]"
-        ]
-    }
+  "plant": {
+    "comment": [
+      "plane",
+      "planning",
+      "plan",
+      "planet",
+      "planned",
+      "planner",
+      "plate"
+    ],
+    "translate": " завод, растение, установка, фабрика, сажать, насаждать, садить, подсадить",
+    "transcription": "  |plænt|",
+    "antonyms": [],
+    "mnemonic": [
+      "plant [плант] растение, сажать - Растения на (плантациях) сажают.",
+      "plant [pla: nt]\nblunt [blʌnt]\n***\nВЫСАДИЛИ в рот имплант. (это) plant\nЧтоб САЖАТЬ и сеять - есть талант. (это) plant\nРАСТЕНИЯ вырастить нужен талант. (это) plant\nРастение, саженец.\n***\nРастения \"plant\"\nпосадил на склоне \"slant\".\n***\nЗАТУПИЛСЯ имплант. (это) blunt\nТУПЫМ стал, как вставил имплант. (это) blunt\nТуповатый, грубоватый."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "a(закр_сл)_=_[ɑː]"
+    ],
+    "examples": [
+      {
+        "eng": "The plant died from want of water.",
+        "ru": "Растение погибло от недостатка воды.",
+        "learn": 0
+      },
+      {
+        "eng": "They built a large plant to manufacture automobiles.",
+        "ru": "Они построили большой завод по производству автомобилей.",
+        "learn": 1
+      },
+      {
+        "eng": "a field planted with corn",
+        "ru": "поле, засеянное кукурузой",
+        "learn": 0
+      },
+      {
+        "eng": "The plant has furry leaves.",
+        "ru": "У этого растения пушистые листья.",
+        "learn": 1
+      },
+      {
+        "eng": "She planted him once and forever.",
+        "ru": "Она ушла от него навсегда.",
+        "learn": 0
+      },
+      {
+        "eng": "He was a spy planted in the office by a rival company.",
+        "ru": "Он был шпионом, которого внедрила в фирму конкурирующая компания.",
+        "learn": 0
+      },
+      {
+        "eng": "They persisted in planting themselves in some safe nook.",
+        "ru": "Они настаивали на том, чтобы их постоянно разместили в каком-нибудь укромном уголке.",
+        "learn": 0
+      },
+      {
+        "eng": "Planting his case on the table, he looked at us expectantly.",
+        "ru": "Поставив на стол свой дипломат, он выжидающе поглядел на нас.",
+        "learn": 0
+      },
+      {
+        "eng": "Whatever planted that idea in / into your head?",
+        "ru": "Что внушило тебе эту мысль?",
+        "learn": 0
+      },
+      {
+        "eng": "a good time to plant tomatoes",
+        "ru": "благоприятное время для посадки помидоров",
+        "learn": 0
+      },
+      {
+        "eng": "The police had planted undercover detectives at every entrance.",
+        "ru": "На каждом входе полиция посадила своих агентов под прикрытием.",
+        "learn": 0
+      },
+      {
+        "eng": "the structure of a plant",
+        "ru": "строение растения",
+        "learn": 0
+      },
+      {
+        "eng": "a plant with glossy green leaves",
+        "ru": "растение с блестящими зелёными листьями",
+        "learn": 0
+      },
+      {
+        "eng": "Don't forget to water the plants.",
+        "ru": "Не забывайте поливать растения.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll dig up that plant and move it.",
+        "ru": "Я выкопаю это растение и пересажу его.",
+        "learn": 0
+      },
+      {
+        "eng": "Light stimulates plant growth.",
+        "ru": "Свет способствует росту растений.",
+        "learn": 1
+      },
+      {
+        "eng": "The plant's leaves are prickly.",
+        "ru": "Листья этого растения — колючие.",
+        "learn": 0
+      },
+      {
+        "eng": "Good soil promotes plant growth.",
+        "ru": "Хорошая почва способствует росту растений.",
+        "learn": 1
+      },
+      {
+        "eng": "I planted the border with roses.",
+        "ru": "Я засадила границу розами.",
+        "learn": 0
+      },
+      {
+        "eng": "I planted corn this year.",
+        "ru": "В этом году я посадил кукурузу.",
+        "learn": 1
+      },
+      {
+        "eng": "The plant has fuzzy leaves.",
+        "ru": "У этого растения пушистые листья.",
+        "learn": 0
+      },
+      {
+        "eng": "The plant has feathery leaves.",
+        "ru": "Растение имеет перистые листья.",
+        "learn": 0
+      },
+      {
+        "eng": "a cross-section of a plant stem",
+        "ru": "поперечный срез стебля растения",
+        "learn": 0
+      },
+      {
+        "eng": "The plant needs a firm anchorage",
+        "ru": "Данное растение нуждается в твёрдой опоре.",
+        "learn": 0
+      },
+      {
+        "eng": "The plant naturalizes well in grass.",
+        "ru": "Это растение хорошо приживается в траве.",
+        "learn": 0
+      },
+      {
+        "eng": "I began digging a hole for the plant.",
+        "ru": "Я начал копать для растения яму.",
+        "learn": 0
+      },
+      {
+        "eng": "The plant tolerates adverse conditions.",
+        "ru": "Растение устойчиво к неблагоприятным условиям.",
+        "learn": 0
+      },
+      {
+        "eng": "The drug is derived from an African plant.",
+        "ru": "Этот препарат получают из одного африканского растения.",
+        "learn": 1
+      },
+      {
+        "eng": "the plant's uptake of water",
+        "ru": "поглощение этим растением воды",
+        "learn": 0
+      },
+      {
+        "eng": "The plant has outgrown my garden.",
+        "ru": "Этому растению стало тесно в моём саду.",
+        "learn": 0
+      }
+    ]
+  }
 }

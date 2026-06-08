@@ -1,68 +1,136 @@
 {
-    "disk": {
-        "comment": [
-            "disc"
-        ],
-        "translate": "диск, круг, магнитный диск, дисковый, дискообразный, дисковать",
-        "transcription": " |dɪsk|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Transfer the data onto a disk.",
-            "We've lost the master disk.",
-            "I always keep a backup copy on disk.",
-            "The program uses 350K of disk space.",
-            "How much space is there on each disk?",
-            "I snapped the disk in two.",
-            "Transfer the files onto floppy disk.",
-            "Who erased the files from my hard disk?",
-            "transfer data on the hard drive to a disk",
-            "Remember to save the file to your hard disk.",
-            "I couldn't get the disk out of the computer.",
-            "Please format this disk before entering data!",
-            "Data is stored on the disk in 512-byte sectors.",
-            "The program compresses any data saved to the disk.",
-            "Disk drives and printers are important peripherals.",
-            "One disk can store the equivalent of 500 pages of text.",
-            "I need to free up some of the disk space on my computer.",
-            "A thin shred of cloud was racking across the moon's disk.",
-            "Use the Save command to store the current document on disk.",
-            "There's no more room on the computer disk to save the file.",
-            "The capacity of a hard disk drive is usually expressed in megabytes.",
-            "A disk drive contains a microprocessor to handle the internal functions of the drive.",
-            "The gyroscope got its name for the way the disk inside the instrument gyrates around an axis.",
-            "The signal was digitalized and recorded on the hard disk of a desktop personal computer for later offline analysis."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Перенесите данные на диск.",
-            "Мы потеряли мастер-диск /оригинал диска/.",
-            "Я всегда храню на диске резервную копию.",
-            "Программа использует 350 килобайт дискового пространства.",
-            "Сколько места на каждом диске?",
-            "Я разломил диск на две половинки.",
-            "Перенесите файлы на дискету.",
-            "Кто стер файлы с моего жесткого диска?",
-            "переместить данные с винчестера на диск /на дискету/",
-            "Не забудьте сохранить файл на жёстком диске.",
-            "Я не смог вытащить диск из компьютера.",
-            "Отформатируйте, пожалуйста, этот диск перед вводом данных!",
-            "Данные на диске хранятся в 512-байтных секторах.",
-            "Данная программа сжимает любые данные, хранящиеся на диске.",
-            "Дисководы и принтеры являются важными периферийными устройствами.",
-            "На одной дискете может поместиться эквивалент пятисот страниц текста.",
-            "Мне нужно освободить часть дискового пространства на компьютере.",
-            "Тонкая полоска облаков проносилась, закрывая лунный диск.",
-            "Чтобы сохранить документ на диск, используйте команду \"сохранить\".",
-            "На диске компьютера больше нет места, чтобы сохранить этот файл.",
-            "Ёмкость жесткого диска обычно выражается в мегабайтах.",
-            "Дисководы содержат микропроцессор для обработки внутренних функций привода.",
-            "Гироскоп получил свое название за то, как диск внутри этого прибора вращается вокруг оси.",
-            "Сигнал был оцифрован и записан на жесткий диск настольного персонального компьютера для дальнейшего анализа в режиме офлайн."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "disk": {
+    "comment": [
+      "disc"
+    ],
+    "translate": "диск, круг, магнитный диск, дисковый, дискообразный, дисковать",
+    "transcription": " |dɪsk|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Transfer the data onto a disk.",
+        "ru": "Перенесите данные на диск.",
+        "learn": 0
+      },
+      {
+        "eng": "We've lost the master disk.",
+        "ru": "Мы потеряли мастер-диск /оригинал диска/.",
+        "learn": 0
+      },
+      {
+        "eng": "I always keep a backup copy on disk.",
+        "ru": "Я всегда храню на диске резервную копию.",
+        "learn": 1
+      },
+      {
+        "eng": "The program uses 350K of disk space.",
+        "ru": "Программа использует 350 килобайт дискового пространства.",
+        "learn": 0
+      },
+      {
+        "eng": "How much space is there on each disk?",
+        "ru": "Сколько места на каждом диске?",
+        "learn": 0
+      },
+      {
+        "eng": "I snapped the disk in two.",
+        "ru": "Я разломил диск на две половинки.",
+        "learn": 0
+      },
+      {
+        "eng": "Transfer the files onto floppy disk.",
+        "ru": "Перенесите файлы на дискету.",
+        "learn": 0
+      },
+      {
+        "eng": "Who erased the files from my hard disk?",
+        "ru": "Кто стер файлы с моего жесткого диска?",
+        "learn": 1
+      },
+      {
+        "eng": "transfer data on the hard drive to a disk",
+        "ru": "переместить данные с винчестера на диск /на дискету/",
+        "learn": 0
+      },
+      {
+        "eng": "Remember to save the file to your hard disk.",
+        "ru": "Не забудьте сохранить файл на жёстком диске.",
+        "learn": 0
+      },
+      {
+        "eng": "I couldn't get the disk out of the computer.",
+        "ru": "Я не смог вытащить диск из компьютера.",
+        "learn": 0
+      },
+      {
+        "eng": "Please format this disk before entering data!",
+        "ru": "Отформатируйте, пожалуйста, этот диск перед вводом данных!",
+        "learn": 0
+      },
+      {
+        "eng": "Data is stored on the disk in 512-byte sectors.",
+        "ru": "Данные на диске хранятся в 512-байтных секторах.",
+        "learn": 0
+      },
+      {
+        "eng": "The program compresses any data saved to the disk.",
+        "ru": "Данная программа сжимает любые данные, хранящиеся на диске.",
+        "learn": 0
+      },
+      {
+        "eng": "Disk drives and printers are important peripherals.",
+        "ru": "Дисководы и принтеры являются важными периферийными устройствами.",
+        "learn": 0
+      },
+      {
+        "eng": "One disk can store the equivalent of 500 pages of text.",
+        "ru": "На одной дискете может поместиться эквивалент пятисот страниц текста.",
+        "learn": 1
+      },
+      {
+        "eng": "I need to free up some of the disk space on my computer.",
+        "ru": "Мне нужно освободить часть дискового пространства на компьютере.",
+        "learn": 0
+      },
+      {
+        "eng": "A thin shred of cloud was racking across the moon's disk.",
+        "ru": "Тонкая полоска облаков проносилась, закрывая лунный диск.",
+        "learn": 0
+      },
+      {
+        "eng": "Use the Save command to store the current document on disk.",
+        "ru": "Чтобы сохранить документ на диск, используйте команду \"сохранить\".",
+        "learn": 0
+      },
+      {
+        "eng": "There's no more room on the computer disk to save the file.",
+        "ru": "На диске компьютера больше нет места, чтобы сохранить этот файл.",
+        "learn": 0
+      },
+      {
+        "eng": "The capacity of a hard disk drive is usually expressed in megabytes.",
+        "ru": "Ёмкость жесткого диска обычно выражается в мегабайтах.",
+        "learn": 0
+      },
+      {
+        "eng": "A disk drive contains a microprocessor to handle the internal functions of the drive.",
+        "ru": "Дисководы содержат микропроцессор для обработки внутренних функций привода.",
+        "learn": 0
+      },
+      {
+        "eng": "The gyroscope got its name for the way the disk inside the instrument gyrates around an axis.",
+        "ru": "Гироскоп получил свое название за то, как диск внутри этого прибора вращается вокруг оси.",
+        "learn": 0
+      },
+      {
+        "eng": "The signal was digitalized and recorded on the hard disk of a desktop personal computer for later offline analysis.",
+        "ru": "Сигнал был оцифрован и записан на жесткий диск настольного персонального компьютера для дальнейшего анализа в режиме офлайн.",
+        "learn": 1
+      }
+    ]
+  }
 }

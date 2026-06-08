@@ -1,87 +1,174 @@
 {
-    "fire": {
-        "comment": [
-            "firework",
-            "ceasefire",
-            "bonfire",
-            "fireplace"
-        ],
-        "translate": "огонь, пожар, камин, пламя, обстрел, стрельба, стрелять, выстрелить, увольнять",
-        "transcription": " |ˈfaɪər|",
-        "antonyms": [],
-        "mnemonic": [
-            "fire [фа'йя] огонь, зажечь - Мыло («Фа» я) бросил в огонь.",
-            "fire ['faɪə]\nfiery [faɪərɪ] - огненный, пламенный\nire [aiə] - гнев, ярость\n***\nКостёр ЗАЖГЛИ для тёти Фаи (е). (это) fire\nОгонь, пламя, пожар.\n***\nЯ утомился \"tire\"\nтушить пожар \"fire\"\nи у меня ярость \"ire\"."
-        ],
-        "examples": [
-            "The house is on fire!",
-            "Please mind the fire.",
-            "Stay away from the fire.",
-            "The sky was full of fire.",
-            "Who goes? Stand, or I fire.",
-            "A fire on the barrier!",
-            "Turn on the fire, I'm cold.",
-            "Fire took the temple.",
-            "The gun fired.",
-            "The house caught fire.",
-            "He fired at the police.",
-            "The rain slocked the fire.",
-            "The fire does not draw well.",
-            "I felt the glow of the fire.",
-            "It's risky to play with fire.",
-            "How did the fire start?",
-            "The gun failed to fire.",
-            "Soft fire makes sweet malt.",
-            "Out of the pan into the fire.",
-            "A fire alarm goes off / rings.",
-            "Where is the fire?",
-            "He fired his camp.",
-            "A shiny red fire truck",
-            "Fire devoured the house.",
-            "The soldiers were fired.",
-            "The fire alarm was reset.",
-            "Fire gutted the building.",
-            "The fire needs stoking up.",
-            "Quench the fire with water.",
-            "Oil fires the furnace."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "В доме пожар! / Дом горит!",
-            "Пожалуйста, последите за камином.",
-            "Держись подальше от огня. / Не подходите к огню.",
-            "Всё небо было в огне.",
-            "Стой, кто идёт? Стрелять буду.",
-            "Перестрелка на границе!",
-            "Зажгите камин, мне холодно.",
-            "Огонь охватил храм.",
-            "Пистолет выстрелил.",
-            "Дом охватило огнём.",
-            "Он выстрелил в полицейских.",
-            "Дождь потушил пожар.",
-            "Огонь не разгорается.",
-            "Я чувствовал жар от костра.",
-            "Опасно играть с огнём.",
-            "Как начался пожар?",
-            "Пистолет дал осечку.",
-            "Доброе слово и кошке приятно. (посл.)",
-            "Из огня да в полымя.",
-            "Сирена воет.",
-            "Где пожар? (обращение с вопросом к очень спешащему человеку)",
-            "Он поджёг свой лагерь.",
-            "Блестящая красная пожарная машина",
-            "Дом сгорел дотла.",
-            "Солдат отогнали путём обстрела.",
-            "Пожарная сигнализация была сброшена.",
-            "Огонь полностью уничтожил всё внутри здания.",
-            "Огонь нужно поддерживать.",
-            "Залей костёр водой.",
-            "Печка работает на мазуте."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "-ire_=_[aiə]"
-        ]
-    }
+  "fire": {
+    "comment": [
+      "firework",
+      "ceasefire",
+      "bonfire",
+      "fireplace"
+    ],
+    "translate": "огонь, пожар, камин, пламя, обстрел, стрельба, стрелять, выстрелить, увольнять",
+    "transcription": " |ˈfaɪər|",
+    "antonyms": [],
+    "mnemonic": [
+      "fire [фа'йя] огонь, зажечь - Мыло («Фа» я) бросил в огонь.",
+      "fire ['faɪə]\nfiery [faɪərɪ] - огненный, пламенный\nire [aiə] - гнев, ярость\n***\nКостёр ЗАЖГЛИ для тёти Фаи (е). (это) fire\nОгонь, пламя, пожар.\n***\nЯ утомился \"tire\"\nтушить пожар \"fire\"\nи у меня ярость \"ire\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "-ire_=_[aiə]"
+    ],
+    "examples": [
+      {
+        "eng": "The house is on fire!",
+        "ru": "В доме пожар! / Дом горит!",
+        "learn": 0
+      },
+      {
+        "eng": "Please mind the fire.",
+        "ru": "Пожалуйста, последите за камином.",
+        "learn": 0
+      },
+      {
+        "eng": "Stay away from the fire.",
+        "ru": "Держись подальше от огня. / Не подходите к огню.",
+        "learn": 1
+      },
+      {
+        "eng": "The sky was full of fire.",
+        "ru": "Всё небо было в огне.",
+        "learn": 0
+      },
+      {
+        "eng": "Who goes? Stand, or I fire.",
+        "ru": "Стой, кто идёт? Стрелять буду.",
+        "learn": 1
+      },
+      {
+        "eng": "A fire on the barrier!",
+        "ru": "Перестрелка на границе!",
+        "learn": 0
+      },
+      {
+        "eng": "Turn on the fire, I'm cold.",
+        "ru": "Зажгите камин, мне холодно.",
+        "learn": 0
+      },
+      {
+        "eng": "Fire took the temple.",
+        "ru": "Огонь охватил храм.",
+        "learn": 1
+      },
+      {
+        "eng": "The gun fired.",
+        "ru": "Пистолет выстрелил.",
+        "learn": 0
+      },
+      {
+        "eng": "The house caught fire.",
+        "ru": "Дом охватило огнём.",
+        "learn": 0
+      },
+      {
+        "eng": "He fired at the police.",
+        "ru": "Он выстрелил в полицейских.",
+        "learn": 0
+      },
+      {
+        "eng": "The rain slocked the fire.",
+        "ru": "Дождь потушил пожар.",
+        "learn": 0
+      },
+      {
+        "eng": "The fire does not draw well.",
+        "ru": "Огонь не разгорается.",
+        "learn": 0
+      },
+      {
+        "eng": "I felt the glow of the fire.",
+        "ru": "Я чувствовал жар от костра.",
+        "learn": 0
+      },
+      {
+        "eng": "It's risky to play with fire.",
+        "ru": "Опасно играть с огнём.",
+        "learn": 1
+      },
+      {
+        "eng": "How did the fire start?",
+        "ru": "Как начался пожар?",
+        "learn": 0
+      },
+      {
+        "eng": "The gun failed to fire.",
+        "ru": "Пистолет дал осечку.",
+        "learn": 0
+      },
+      {
+        "eng": "Soft fire makes sweet malt.",
+        "ru": "Доброе слово и кошке приятно. (посл.)",
+        "learn": 0
+      },
+      {
+        "eng": "Out of the pan into the fire.",
+        "ru": "Из огня да в полымя.",
+        "learn": 0
+      },
+      {
+        "eng": "A fire alarm goes off / rings.",
+        "ru": "Сирена воет.",
+        "learn": 0
+      },
+      {
+        "eng": "Where is the fire?",
+        "ru": "Где пожар? (обращение с вопросом к очень спешащему человеку)",
+        "learn": 0
+      },
+      {
+        "eng": "He fired his camp.",
+        "ru": "Он поджёг свой лагерь.",
+        "learn": 0
+      },
+      {
+        "eng": "A shiny red fire truck",
+        "ru": "Блестящая красная пожарная машина",
+        "learn": 0
+      },
+      {
+        "eng": "Fire devoured the house.",
+        "ru": "Дом сгорел дотла.",
+        "learn": 0
+      },
+      {
+        "eng": "The soldiers were fired.",
+        "ru": "Солдат отогнали путём обстрела.",
+        "learn": 0
+      },
+      {
+        "eng": "The fire alarm was reset.",
+        "ru": "Пожарная сигнализация была сброшена.",
+        "learn": 0
+      },
+      {
+        "eng": "Fire gutted the building.",
+        "ru": "Огонь полностью уничтожил всё внутри здания.",
+        "learn": 0
+      },
+      {
+        "eng": "The fire needs stoking up.",
+        "ru": "Огонь нужно поддерживать.",
+        "learn": 0
+      },
+      {
+        "eng": "Quench the fire with water.",
+        "ru": "Залей костёр водой.",
+        "learn": 0
+      },
+      {
+        "eng": "Oil fires the furnace.",
+        "ru": "Печка работает на мазуте.",
+        "learn": 0
+      }
+    ]
+  }
 }

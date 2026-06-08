@@ -1,85 +1,172 @@
 {
-    "taste": {
-        "comment": [
-            "tasty"
-        ],
-        "translate": "вкус, пристрастие, склонность, стиль, отведать, пробовать, дегустировать",
-        "transcription": " |teɪst|",
-        "antonyms": [],
-        "mnemonic": [
-            "taste [тэйст] вкус - Вкус (тэйст-а*) (*Теста).",
-            "tasty ['teɪstɪ]\ntaste [teɪst] - вкус, проба, тест., пробовать\n***\nВКУСНАЯ сосиска в тесте. (это) tasty\nВКУСНОЕ у пиццы \"тейсто\". (это) tasty"
-        ],
-        "examples": [
-            "She has such good taste.",
-            "He is not a man to our taste.",
-            "Every man to his own taste.",
-            "Take a taste! You'll like it.",
-            "The pie tasted too sweet.",
-            "This yoghurt tastes of strawberries.",
-            "It didn't taste much of ginger.",
-            "Can you taste the difference?",
-            "Mmm! This tastes good!",
-            "Add salt to taste.",
-            "Can you taste the garlic?",
-            "We tasted wines last night",
-            "We have similar tastes in music.",
-            "She offered to taste the wine.",
-            "Add a pinch of salt to taste.",
-            "Everything was done in good taste.",
-            "The wine tastes like vinegar.",
-            "the melon had a delicious taste",
-            "She always dressed in good taste.",
-            "It tastes just like champagne to me.",
-            "The taste is much like butter.",
-            "Give me a taste of the pudding.",
-            "She has exquisite taste in art.",
-            "The ex-slave tasted freedom shortly before she died",
-            "She could taste blood.",
-            "The taste made me nauseous.",
-            "cheese with a light milky taste",
-            "The herb masks the garlic taste.",
-            "The tea has a metallic taste.",
-            "This coffee taste is really vile."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "У неё такой хороший вкус.",
-            "Он — человек не в нашем вкусе.",
-            "На вкус и цвет товарищей нет. (посл.)",
-            "Попробуй (на вкус)! Тебе понравится.",
-            "Пирог был слишком сладким на вкус.",
-            "Этот йогурт — со вкусом клубники.",
-            "Я особо не почувствовал имбирь.",
-            "Чувствуешь разницу?",
-            "Ммм! Это так вкусно!",
-            "Посолите по вкусу.",
-            "Вы чувствуете вкус чеснока?",
-            "Вчера вечером мы дегустировали вина.",
-            "У нас схожие вкусы в музыке.",
-            "Она предложила попробовать /продегустировать/ вино.",
-            "Добавьте щепотку соли по вкусу.",
-            "Всё было сделано со вкусом.",
-            "Это вино по вкусу похоже на уксус.",
-            "дыня имела восхитительный вкус",
-            "Она всегда одевалась со вкусом.",
-            "Для меня оно на вкус, как шампанское.",
-            "На вкус это очень похоже на сливочное масло.",
-            "Дайте мне кусочек пудинга.",
-            "Она обладает изысканным художественным вкусом.",
-            "Бывшая рабыня вкусила свободы незадолго до своей смерти.",
-            "Она чувствовала вкус крови.",
-            "От этого вкуса мне захотелось блевать.",
-            "сыр с лёгким молочным вкусом",
-            "Эта приправа смягчает /скрывает/ привкус чеснока.",
-            "У чая металлический привкус.",
-            "Вкус этого кофе по настоящему мерзкий."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "a(закр_сл)_=_[eɪ]",
-            "Глаголы_состояния_и_чувственного_восприятия"
-        ]
-    }
+  "taste": {
+    "comment": [
+      "tasty"
+    ],
+    "translate": "вкус, пристрастие, склонность, стиль, отведать, пробовать, дегустировать",
+    "transcription": " |teɪst|",
+    "antonyms": [],
+    "mnemonic": [
+      "taste [тэйст] вкус - Вкус (тэйст-а*) (*Теста).",
+      "tasty ['teɪstɪ]\ntaste [teɪst] - вкус, проба, тест., пробовать\n***\nВКУСНАЯ сосиска в тесте. (это) tasty\nВКУСНОЕ у пиццы \"тейсто\". (это) tasty"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "a(закр_сл)_=_[eɪ]",
+      "Глаголы_состояния_и_чувственного_восприятия"
+    ],
+    "examples": [
+      {
+        "eng": "She has such good taste.",
+        "ru": "У неё такой хороший вкус.",
+        "learn": 0
+      },
+      {
+        "eng": "He is not a man to our taste.",
+        "ru": "Он — человек не в нашем вкусе.",
+        "learn": 0
+      },
+      {
+        "eng": "Every man to his own taste.",
+        "ru": "На вкус и цвет товарищей нет. (посл.)",
+        "learn": 0
+      },
+      {
+        "eng": "Take a taste! You'll like it.",
+        "ru": "Попробуй (на вкус)! Тебе понравится.",
+        "learn": 0
+      },
+      {
+        "eng": "The pie tasted too sweet.",
+        "ru": "Пирог был слишком сладким на вкус.",
+        "learn": 0
+      },
+      {
+        "eng": "This yoghurt tastes of strawberries.",
+        "ru": "Этот йогурт — со вкусом клубники.",
+        "learn": 0
+      },
+      {
+        "eng": "It didn't taste much of ginger.",
+        "ru": "Я особо не почувствовал имбирь.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you taste the difference?",
+        "ru": "Чувствуешь разницу?",
+        "learn": 0
+      },
+      {
+        "eng": "Mmm! This tastes good!",
+        "ru": "Ммм! Это так вкусно!",
+        "learn": 0
+      },
+      {
+        "eng": "Add salt to taste.",
+        "ru": "Посолите по вкусу.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you taste the garlic?",
+        "ru": "Вы чувствуете вкус чеснока?",
+        "learn": 0
+      },
+      {
+        "eng": "We tasted wines last night",
+        "ru": "Вчера вечером мы дегустировали вина.",
+        "learn": 0
+      },
+      {
+        "eng": "We have similar tastes in music.",
+        "ru": "У нас схожие вкусы в музыке.",
+        "learn": 0
+      },
+      {
+        "eng": "She offered to taste the wine.",
+        "ru": "Она предложила попробовать /продегустировать/ вино.",
+        "learn": 0
+      },
+      {
+        "eng": "Add a pinch of salt to taste.",
+        "ru": "Добавьте щепотку соли по вкусу.",
+        "learn": 0
+      },
+      {
+        "eng": "Everything was done in good taste.",
+        "ru": "Всё было сделано со вкусом.",
+        "learn": 0
+      },
+      {
+        "eng": "The wine tastes like vinegar.",
+        "ru": "Это вино по вкусу похоже на уксус.",
+        "learn": 0
+      },
+      {
+        "eng": "the melon had a delicious taste",
+        "ru": "дыня имела восхитительный вкус",
+        "learn": 0
+      },
+      {
+        "eng": "She always dressed in good taste.",
+        "ru": "Она всегда одевалась со вкусом.",
+        "learn": 0
+      },
+      {
+        "eng": "It tastes just like champagne to me.",
+        "ru": "Для меня оно на вкус, как шампанское.",
+        "learn": 0
+      },
+      {
+        "eng": "The taste is much like butter.",
+        "ru": "На вкус это очень похоже на сливочное масло.",
+        "learn": 0
+      },
+      {
+        "eng": "Give me a taste of the pudding.",
+        "ru": "Дайте мне кусочек пудинга.",
+        "learn": 0
+      },
+      {
+        "eng": "She has exquisite taste in art.",
+        "ru": "Она обладает изысканным художественным вкусом.",
+        "learn": 0
+      },
+      {
+        "eng": "The ex-slave tasted freedom shortly before she died",
+        "ru": "Бывшая рабыня вкусила свободы незадолго до своей смерти.",
+        "learn": 0
+      },
+      {
+        "eng": "She could taste blood.",
+        "ru": "Она чувствовала вкус крови.",
+        "learn": 0
+      },
+      {
+        "eng": "The taste made me nauseous.",
+        "ru": "От этого вкуса мне захотелось блевать.",
+        "learn": 0
+      },
+      {
+        "eng": "cheese with a light milky taste",
+        "ru": "сыр с лёгким молочным вкусом",
+        "learn": 0
+      },
+      {
+        "eng": "The herb masks the garlic taste.",
+        "ru": "Эта приправа смягчает /скрывает/ привкус чеснока.",
+        "learn": 1
+      },
+      {
+        "eng": "The tea has a metallic taste.",
+        "ru": "У чая металлический привкус.",
+        "learn": 0
+      },
+      {
+        "eng": "This coffee taste is really vile.",
+        "ru": "Вкус этого кофе по настоящему мерзкий.",
+        "learn": 0
+      }
+    ]
+  }
 }

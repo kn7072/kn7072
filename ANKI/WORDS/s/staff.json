@@ -1,83 +1,169 @@
 {
-    "staff": {
-        "comment": [
-            "stay",
-            "stuff"
-        ],
-        "translate": "персонал, штат, штаб, кадры, штатный, штабной, укомплектовывать штаты",
-        "transcription": " |stæf|",
-        "antonyms": [],
-        "mnemonic": [
-            "staff [стаф] штаб - В штабе (стаф-ка) верховного главнокомандования."
-        ],
-        "examples": [
-            "The staff is at a meeting.",
-            "Our staff was at full strength.",
-            "He is the most knowing of all the staff.",
-            "She joined the staff as an editor.",
-            "The hospital has an excellent nursing staff.",
-            "He was on the general staff.",
-            "The car park is for staff only.",
-            "She was assigned to the staff as an intelligence officer.",
-            "He decreased his staff.",
-            "a boss who is matey with his staff",
-            "The entire staff agreed.",
-            "Over half of the staff is female.",
-            "All staff have to have regular checkups.",
-            "Staff members are trained by their peers.",
-            "They are recruiting staff for their new store.",
-            "The staff were very helpful.",
-            "She's a new member of the staff.",
-            "We had every confidence in the staff.",
-            "He treats all his staff as equals.",
-            "There are plans to axe 2600 staff.",
-            "It's our rule not to smoke at staff conferences.",
-            "All the staff wore name tags.",
-            "Joan is the only lawyer we have on staff.",
-            "The equipment cannot function without the staff.",
-            "The patient was attended by the best medical staff.",
-            "All of the sales staff are on commission.",
-            "Reporters were manhandled by security staff.",
-            "development of in-service training for staff nurses",
-            "Extra staff have been taken on to cover busy periods.",
-            "He sent a memo to the staff."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Персонал находится на собрании.",
-            "Наш штат был полностью укомплектован.",
-            "Он самый компетентный из всего персонала.",
-            "Она влилась в коллектив в качестве редактора.",
-            "В этой больнице замечательные медсёстры.",
-            "Он был приписан к генштабу.",
-            "Парковка — только для сотрудников.",
-            "Её приписали к штабу как офицера разведки.",
-            "Он сократил свой персонал.",
-            "начальник, который дружелюбен со своими подчинёнными",
-            "Все сотрудники согласились.",
-            "Более половины персонала составляют женщины.",
-            "Всем сотрудникам надлежит проходить регулярный медицинский осмотр.",
-            "Сотрудников обучают их коллеги.",
-            "Они набирают персонал для нового магазина.",
-            "Сотрудники были очень отзывчивы.",
-            "Она — новый член коллектива.",
-            "Мы полностью доверяем своим сотрудникам.",
-            "Он обращается со всеми своими подчинёнными на равных.",
-            "Планируется сокращение двух тысяч шестисот сотрудников.",
-            "У нас не принято курить на встречах персонала.",
-            "Все сотрудники носили бейджики.",
-            "Джоан единственный юрист, который имеется у нас в штате.",
-            "Это оборудование не может работать без обслуживающего персонала.",
-            "За больным ухаживал лучший медицинский персонал.",
-            "Весь торговый персонал работает на комиссионной основе.",
-            "Сотрудники службы безопасности оттеснили журналистов, применив грубую силу.",
-            "разработка программы обучения медсестёр без отрыва от работы",
-            "Был набран дополнительный штат, чтобы обеспечить выполнение работы в загруженное время.",
-            "Он разослал сотрудникам служебную записку."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "staff": {
+    "comment": [
+      "stay",
+      "stuff"
+    ],
+    "translate": "персонал, штат, штаб, кадры, штатный, штабной, укомплектовывать штаты",
+    "transcription": " |stæf|",
+    "antonyms": [],
+    "mnemonic": [
+      "staff [стаф] штаб - В штабе (стаф-ка) верховного главнокомандования."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The staff is at a meeting.",
+        "ru": "Персонал находится на собрании.",
+        "learn": 0
+      },
+      {
+        "eng": "Our staff was at full strength.",
+        "ru": "Наш штат был полностью укомплектован.",
+        "learn": 0
+      },
+      {
+        "eng": "He is the most knowing of all the staff.",
+        "ru": "Он самый компетентный из всего персонала.",
+        "learn": 0
+      },
+      {
+        "eng": "She joined the staff as an editor.",
+        "ru": "Она влилась в коллектив в качестве редактора.",
+        "learn": 0
+      },
+      {
+        "eng": "The hospital has an excellent nursing staff.",
+        "ru": "В этой больнице замечательные медсёстры.",
+        "learn": 0
+      },
+      {
+        "eng": "He was on the general staff.",
+        "ru": "Он был приписан к генштабу.",
+        "learn": 0
+      },
+      {
+        "eng": "The car park is for staff only.",
+        "ru": "Парковка — только для сотрудников.",
+        "learn": 1
+      },
+      {
+        "eng": "She was assigned to the staff as an intelligence officer.",
+        "ru": "Её приписали к штабу как офицера разведки.",
+        "learn": 0
+      },
+      {
+        "eng": "He decreased his staff.",
+        "ru": "Он сократил свой персонал.",
+        "learn": 0
+      },
+      {
+        "eng": "a boss who is matey with his staff",
+        "ru": "начальник, который дружелюбен со своими подчинёнными",
+        "learn": 0
+      },
+      {
+        "eng": "The entire staff agreed.",
+        "ru": "Все сотрудники согласились.",
+        "learn": 1
+      },
+      {
+        "eng": "Over half of the staff is female.",
+        "ru": "Более половины персонала составляют женщины.",
+        "learn": 0
+      },
+      {
+        "eng": "All staff have to have regular checkups.",
+        "ru": "Всем сотрудникам надлежит проходить регулярный медицинский осмотр.",
+        "learn": 0
+      },
+      {
+        "eng": "Staff members are trained by their peers.",
+        "ru": "Сотрудников обучают их коллеги.",
+        "learn": 1
+      },
+      {
+        "eng": "They are recruiting staff for their new store.",
+        "ru": "Они набирают персонал для нового магазина.",
+        "learn": 0
+      },
+      {
+        "eng": "The staff were very helpful.",
+        "ru": "Сотрудники были очень отзывчивы.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a new member of the staff.",
+        "ru": "Она — новый член коллектива.",
+        "learn": 0
+      },
+      {
+        "eng": "We had every confidence in the staff.",
+        "ru": "Мы полностью доверяем своим сотрудникам.",
+        "learn": 0
+      },
+      {
+        "eng": "He treats all his staff as equals.",
+        "ru": "Он обращается со всеми своими подчинёнными на равных.",
+        "learn": 0
+      },
+      {
+        "eng": "There are plans to axe 2600 staff.",
+        "ru": "Планируется сокращение двух тысяч шестисот сотрудников.",
+        "learn": 0
+      },
+      {
+        "eng": "It's our rule not to smoke at staff conferences.",
+        "ru": "У нас не принято курить на встречах персонала.",
+        "learn": 0
+      },
+      {
+        "eng": "All the staff wore name tags.",
+        "ru": "Все сотрудники носили бейджики.",
+        "learn": 1
+      },
+      {
+        "eng": "Joan is the only lawyer we have on staff.",
+        "ru": "Джоан единственный юрист, который имеется у нас в штате.",
+        "learn": 0
+      },
+      {
+        "eng": "The equipment cannot function without the staff.",
+        "ru": "Это оборудование не может работать без обслуживающего персонала.",
+        "learn": 1
+      },
+      {
+        "eng": "The patient was attended by the best medical staff.",
+        "ru": "За больным ухаживал лучший медицинский персонал.",
+        "learn": 0
+      },
+      {
+        "eng": "All of the sales staff are on commission.",
+        "ru": "Весь торговый персонал работает на комиссионной основе.",
+        "learn": 0
+      },
+      {
+        "eng": "Reporters were manhandled by security staff.",
+        "ru": "Сотрудники службы безопасности оттеснили журналистов, применив грубую силу.",
+        "learn": 0
+      },
+      {
+        "eng": "development of in-service training for staff nurses",
+        "ru": "разработка программы обучения медсестёр без отрыва от работы",
+        "learn": 0
+      },
+      {
+        "eng": "Extra staff have been taken on to cover busy periods.",
+        "ru": "Был набран дополнительный штат, чтобы обеспечить выполнение работы в загруженное время.",
+        "learn": 0
+      },
+      {
+        "eng": "He sent a memo to the staff.",
+        "ru": "Он разослал сотрудникам служебную записку.",
+        "learn": 1
+      }
+    ]
+  }
 }

@@ -1,81 +1,167 @@
 {
-    "professor": {
-        "comment": [
-            "professional",
-            "profession"
-        ],
-        "translate": "профессор, преподаватель, исповедующий",
-        "transcription": " |prəˈfesər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He looked like a nutty professor.",
-            "The new professor always pontificates.",
-            "The professor wants us to question facts.",
-            "Her comments riled the professor.",
-            "The professor flunked him in his finals.",
-            "In his foreword Professor Clark puts it explicitly.",
-            "The professor was very indulgent towards this student.",
-            "Who's your chemistry professor?",
-            "This book contained the opening letter of our professor.",
-            "Professor Barclay",
-            "Ted's a college professor.",
-            "a professor of medieval history",
-            "The professor asked for silence.",
-            "He passed his professor in the hall.",
-            "The professor consults for industry.",
-            "He looked at his professor perplexedly.",
-            "Our professor is on leave this semester.",
-            "She's been named the professor of English.",
-            "The professor was known for his brilliance.",
-            "the stereotype of the absentminded professor",
-            "The famous professor awed the undergraduates.",
-            "a professor who was regarded as a kind of god",
-            "The professor explained the poem to the class.",
-            "a professor with a rather acerb sense of humor",
-            "Professor Williams will be teaching the class.",
-            "the professor demolished the student's argument.",
-            "The journal accused the professor of plagiarism.",
-            "The professor had been pugnacious and irritable.",
-            "Professor Adams was the originator of the project.",
-            "a prestigious professor at a prestigious university"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он был похож на чокнутого профессора.",
-            "Новый профессор постоянно разглагольствует с ужасно важным видом.",
-            "Профессор хочет, чтобы мы рассмотрели факты.",
-            "Её высказывания рассердили профессора.",
-            "Преподаватель завалил его на выпускных экзаменах.",
-            "В своём предисловии профессор Кларк однозначно на это указывает.",
-            "Преподаватель очень снисходительно обошёлся с этим студентом.",
-            "Кто у вас преподаёт химию?",
-            "В книге была вступительная статья, написанная нашим преподавателем.",
-            "профессор Баркли",
-            "Тед — преподаватель колледжа.",
-            "профессор истории Средних веков",
-            "Профессор попросил тишины.",
-            "В вестибюле он прошёл мимо своего преподавателя.",
-            "Этот профессор консультирует промышленников.",
-            "Он растерянно посмотрел на преподавателя.",
-            "В этом семестре наш профессор в отпуске.",
-            "Она удостоилась звания профессора английского языка.",
-            "Профессор был известен своими выдающимися способностями.",
-            "стереотип рассеянного профессора",
-            "Знаменитый профессор внушал студентам благоговейный трепет.",
-            "профессор, который считался своего рода божеством",
-            "Преподаватель объяснил студентам это стихотворение.",
-            "преподаватель с довольно едким чувством юмора",
-            "Данный курс будет преподавать профессор Уильямс.",
-            "Профессор не оставил от аргументации студента камня на камне.",
-            "Журнал обвинил профессора в плагиате.",
-            "Профессор был задиристым и раздражительным.",
-            "Инициатором данного проекта был профессор Адамс.",
-            "авторитетный профессор в престижном университете"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "professor": {
+    "comment": [
+      "professional",
+      "profession"
+    ],
+    "translate": "профессор, преподаватель, исповедующий",
+    "transcription": " |prəˈfesər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He looked like a nutty professor.",
+        "ru": "Он был похож на чокнутого профессора.",
+        "learn": 0
+      },
+      {
+        "eng": "The new professor always pontificates.",
+        "ru": "Новый профессор постоянно разглагольствует с ужасно важным видом.",
+        "learn": 0
+      },
+      {
+        "eng": "The professor wants us to question facts.",
+        "ru": "Профессор хочет, чтобы мы рассмотрели факты.",
+        "learn": 0
+      },
+      {
+        "eng": "Her comments riled the professor.",
+        "ru": "Её высказывания рассердили профессора.",
+        "learn": 0
+      },
+      {
+        "eng": "The professor flunked him in his finals.",
+        "ru": "Преподаватель завалил его на выпускных экзаменах.",
+        "learn": 0
+      },
+      {
+        "eng": "In his foreword Professor Clark puts it explicitly.",
+        "ru": "В своём предисловии профессор Кларк однозначно на это указывает.",
+        "learn": 0
+      },
+      {
+        "eng": "The professor was very indulgent towards this student.",
+        "ru": "Преподаватель очень снисходительно обошёлся с этим студентом.",
+        "learn": 0
+      },
+      {
+        "eng": "Who's your chemistry professor?",
+        "ru": "Кто у вас преподаёт химию?",
+        "learn": 0
+      },
+      {
+        "eng": "This book contained the opening letter of our professor.",
+        "ru": "В книге была вступительная статья, написанная нашим преподавателем.",
+        "learn": 0
+      },
+      {
+        "eng": "Professor Barclay",
+        "ru": "профессор Баркли",
+        "learn": 0
+      },
+      {
+        "eng": "Ted's a college professor.",
+        "ru": "Тед — преподаватель колледжа.",
+        "learn": 0
+      },
+      {
+        "eng": "a professor of medieval history",
+        "ru": "профессор истории Средних веков",
+        "learn": 0
+      },
+      {
+        "eng": "The professor asked for silence.",
+        "ru": "Профессор попросил тишины.",
+        "learn": 1
+      },
+      {
+        "eng": "He passed his professor in the hall.",
+        "ru": "В вестибюле он прошёл мимо своего преподавателя.",
+        "learn": 0
+      },
+      {
+        "eng": "The professor consults for industry.",
+        "ru": "Этот профессор консультирует промышленников.",
+        "learn": 0
+      },
+      {
+        "eng": "He looked at his professor perplexedly.",
+        "ru": "Он растерянно посмотрел на преподавателя.",
+        "learn": 0
+      },
+      {
+        "eng": "Our professor is on leave this semester.",
+        "ru": "В этом семестре наш профессор в отпуске.",
+        "learn": 0
+      },
+      {
+        "eng": "She's been named the professor of English.",
+        "ru": "Она удостоилась звания профессора английского языка.",
+        "learn": 0
+      },
+      {
+        "eng": "The professor was known for his brilliance.",
+        "ru": "Профессор был известен своими выдающимися способностями.",
+        "learn": 0
+      },
+      {
+        "eng": "the stereotype of the absentminded professor",
+        "ru": "стереотип рассеянного профессора",
+        "learn": 0
+      },
+      {
+        "eng": "The famous professor awed the undergraduates.",
+        "ru": "Знаменитый профессор внушал студентам благоговейный трепет.",
+        "learn": 0
+      },
+      {
+        "eng": "a professor who was regarded as a kind of god",
+        "ru": "профессор, который считался своего рода божеством",
+        "learn": 0
+      },
+      {
+        "eng": "The professor explained the poem to the class.",
+        "ru": "Преподаватель объяснил студентам это стихотворение.",
+        "learn": 0
+      },
+      {
+        "eng": "a professor with a rather acerb sense of humor",
+        "ru": "преподаватель с довольно едким чувством юмора",
+        "learn": 0
+      },
+      {
+        "eng": "Professor Williams will be teaching the class.",
+        "ru": "Данный курс будет преподавать профессор Уильямс.",
+        "learn": 0
+      },
+      {
+        "eng": "the professor demolished the student's argument.",
+        "ru": "Профессор не оставил от аргументации студента камня на камне.",
+        "learn": 0
+      },
+      {
+        "eng": "The journal accused the professor of plagiarism.",
+        "ru": "Журнал обвинил профессора в плагиате.",
+        "learn": 0
+      },
+      {
+        "eng": "The professor had been pugnacious and irritable.",
+        "ru": "Профессор был задиристым и раздражительным.",
+        "learn": 0
+      },
+      {
+        "eng": "Professor Adams was the originator of the project.",
+        "ru": "Инициатором данного проекта был профессор Адамс.",
+        "learn": 0
+      },
+      {
+        "eng": "a prestigious professor at a prestigious university",
+        "ru": "авторитетный профессор в престижном университете",
+        "learn": 0
+      }
+    ]
+  }
 }

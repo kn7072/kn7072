@@ -1,84 +1,171 @@
 {
-    "salt": {
-        "comment": [
-            "sale",
-            "salty"
-        ],
-        "translate": "соль, поваренная соль, солить, засаливать, соленый, морской",
-        "transcription": " |sɔːlt|",
-        "antonyms": [],
-        "mnemonic": [
-            "salt [sɔ: lt]\nsalty ['sɔ:lti]\nСОЛЬ насыплем мы в рассол (т). (это)\nСОЛЁНЫЙ выпил рассол|ты. (это)"
-        ],
-        "examples": [
-            "Add salt to taste.",
-            "Pass the salt, please.",
-            "I think I overdid the salt.",
-            "This soup lacks salt.",
-            "May I trouble you for the salt?",
-            "Don't overdo the salt in the food.",
-            "Could you pass the salt?",
-            "Please pass me the salt.",
-            "You've put too much salt in the soup.",
-            "Season the meat with salt and pepper.",
-            "Add a pinch of salt to taste.",
-            "She salts her lectures with jokes.",
-            "The food was pure salt.",
-            "He gargled with salt water.",
-            "Add one level teaspoon of salt.",
-            "the dissolving of salt in water",
-            "the basin of the Great Salt Lake",
-            "Too much salt can be bad for you.",
-            "The soup needs a little more salt.",
-            "Salt can be used to preserve meat.",
-            "People used to salt meats on ships.",
-            "They bartered their grain for salt.",
-            "'Pass the salt, please ... thanks.'",
-            "The only growth was some salt grass.",
-            "My hair kinked up in the salt water.",
-            "perfuse a liver with a salt solution",
-            "This might need some salt and pepper.",
-            "This type of salt deliquesces easily.",
-            "They say it's bad luck to spill salt.",
-            "shake the salt out of the salt shaker"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Посолите по вкусу.",
-            "Передайте соль, пожалуйста.",
-            "Я думаю, что я переборщил с солью.",
-            "В этом супе не хватает соли. / Этот суп недосолен.",
-            "Можно попросить вас передать мне соль?",
-            "Не пересоли еду.",
-            "Вы не могли бы передать соль?",
-            "Передай мне, пожалуйста, соль.",
-            "Вы положили в суп слишком много соли.",
-            "Посолите и поперчите мясо.",
-            "Добавьте щепотку соли по вкусу.",
-            "Она разбавляет свои лекции шутками /анекдотами/.",
-            "Это была не пища, а сплошная соль.",
-            "Он полоскал горло соленой водой.",
-            "Добавьте одну чайную ложку соли без горки.",
-            "растворение соли в воде",
-            "бассейн Большого Солёного озера",
-            "Избыток соли может вам навредить.",
-            "В суп нужно добавить ещё немного соли.",
-            "Соль можно использовать для консервации впрок мяса.",
-            "Раньше на кораблях солили мясо (впрок).",
-            "Они обменяли зерно на соль.",
-            "— Передайте, пожалуйста, соль... спасибо.",
-            "Росла там только трава-солянка.",
-            "В солёной воде у меня спутались волосы.",
-            "проводить перфузию печени солевым раствором",
-            "Возможно, это нужно будет немного посолить и поперчить.",
-            "Этот вид соли легко растворяется.",
-            "Говорят, что рассыпать соль — плохая примета.",
-            "вытряхивать соль из солонки"
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "al_+_Сг_=_[ɔːl]"
-        ]
-    }
+  "salt": {
+    "comment": [
+      "sale",
+      "salty"
+    ],
+    "translate": "соль, поваренная соль, солить, засаливать, соленый, морской",
+    "transcription": " |sɔːlt|",
+    "antonyms": [],
+    "mnemonic": [
+      "salt [sɔ: lt]\nsalty ['sɔ:lti]\nСОЛЬ насыплем мы в рассол (т). (это)\nСОЛЁНЫЙ выпил рассол|ты. (это)"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "al_+_Сг_=_[ɔːl]"
+    ],
+    "examples": [
+      {
+        "eng": "Add salt to taste.",
+        "ru": "Посолите по вкусу.",
+        "learn": 0
+      },
+      {
+        "eng": "Pass the salt, please.",
+        "ru": "Передайте соль, пожалуйста.",
+        "learn": 0
+      },
+      {
+        "eng": "I think I overdid the salt.",
+        "ru": "Я думаю, что я переборщил с солью.",
+        "learn": 0
+      },
+      {
+        "eng": "This soup lacks salt.",
+        "ru": "В этом супе не хватает соли. / Этот суп недосолен.",
+        "learn": 0
+      },
+      {
+        "eng": "May I trouble you for the salt?",
+        "ru": "Можно попросить вас передать мне соль?",
+        "learn": 0
+      },
+      {
+        "eng": "Don't overdo the salt in the food.",
+        "ru": "Не пересоли еду.",
+        "learn": 0
+      },
+      {
+        "eng": "Could you pass the salt?",
+        "ru": "Вы не могли бы передать соль?",
+        "learn": 0
+      },
+      {
+        "eng": "Please pass me the salt.",
+        "ru": "Передай мне, пожалуйста, соль.",
+        "learn": 0
+      },
+      {
+        "eng": "You've put too much salt in the soup.",
+        "ru": "Вы положили в суп слишком много соли.",
+        "learn": 1
+      },
+      {
+        "eng": "Season the meat with salt and pepper.",
+        "ru": "Посолите и поперчите мясо.",
+        "learn": 0
+      },
+      {
+        "eng": "Add a pinch of salt to taste.",
+        "ru": "Добавьте щепотку соли по вкусу.",
+        "learn": 0
+      },
+      {
+        "eng": "She salts her lectures with jokes.",
+        "ru": "Она разбавляет свои лекции шутками /анекдотами/.",
+        "learn": 0
+      },
+      {
+        "eng": "The food was pure salt.",
+        "ru": "Это была не пища, а сплошная соль.",
+        "learn": 0
+      },
+      {
+        "eng": "He gargled with salt water.",
+        "ru": "Он полоскал горло соленой водой.",
+        "learn": 0
+      },
+      {
+        "eng": "Add one level teaspoon of salt.",
+        "ru": "Добавьте одну чайную ложку соли без горки.",
+        "learn": 0
+      },
+      {
+        "eng": "the dissolving of salt in water",
+        "ru": "растворение соли в воде",
+        "learn": 0
+      },
+      {
+        "eng": "the basin of the Great Salt Lake",
+        "ru": "бассейн Большого Солёного озера",
+        "learn": 0
+      },
+      {
+        "eng": "Too much salt can be bad for you.",
+        "ru": "Избыток соли может вам навредить.",
+        "learn": 0
+      },
+      {
+        "eng": "The soup needs a little more salt.",
+        "ru": "В суп нужно добавить ещё немного соли.",
+        "learn": 0
+      },
+      {
+        "eng": "Salt can be used to preserve meat.",
+        "ru": "Соль можно использовать для консервации впрок мяса.",
+        "learn": 0
+      },
+      {
+        "eng": "People used to salt meats on ships.",
+        "ru": "Раньше на кораблях солили мясо (впрок).",
+        "learn": 0
+      },
+      {
+        "eng": "They bartered their grain for salt.",
+        "ru": "Они обменяли зерно на соль.",
+        "learn": 0
+      },
+      {
+        "eng": "'Pass the salt, please ... thanks.'",
+        "ru": "— Передайте, пожалуйста, соль... спасибо.",
+        "learn": 1
+      },
+      {
+        "eng": "The only growth was some salt grass.",
+        "ru": "Росла там только трава-солянка.",
+        "learn": 0
+      },
+      {
+        "eng": "My hair kinked up in the salt water.",
+        "ru": "В солёной воде у меня спутались волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "perfuse a liver with a salt solution",
+        "ru": "проводить перфузию печени солевым раствором",
+        "learn": 0
+      },
+      {
+        "eng": "This might need some salt and pepper.",
+        "ru": "Возможно, это нужно будет немного посолить и поперчить.",
+        "learn": 0
+      },
+      {
+        "eng": "This type of salt deliquesces easily.",
+        "ru": "Этот вид соли легко растворяется.",
+        "learn": 0
+      },
+      {
+        "eng": "They say it's bad luck to spill salt.",
+        "ru": "Говорят, что рассыпать соль — плохая примета.",
+        "learn": 1
+      },
+      {
+        "eng": "shake the salt out of the salt shaker",
+        "ru": "вытряхивать соль из солонки",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,69 +1,134 @@
 {
-    "not": {
-        "comment": [
-            "knot",
-            "notorious"
-        ],
-        "translate": "не, нет, ни",
-        "transcription": " |nɑːt|",
-        "antonyms": [],
-        "mnemonic": [
-            "not [нот] не-Ты (нот) не изучил?."
-        ],
-        "examples": [
-            "I don't know.",
-            "I prefer not to smoke.",
-            "It is not hot, is it?",
-            "I won't buy it, not I.",
-            "You are able not to follow me.",
-            "It is hot, is it not / isn't it?",
-            "It is not possible not to like him.",
-            "I do not like his attitude at all.",
-            "She's not a very nice person.",
-            "The food is not very good there.",
-            "Not many people have read the report.",
-            "Edinburgh isn't far now.",
-            "'Is Mark still sick?' 'I hope not.'",
-            "Not much is known about the disease.",
-            "You were wrong not to inform the police.",
-            "No one knows if the story is true or not.",
-            "He was standing not six feet away from me.",
-            "The bullet passed not five inches from my head!",
-            "I hope to see you tomorrow, but if not, leave me a message.",
-            "The changes were not at all surprising.",
-            "Most of the stores do not open until 10am.",
-            "'Can we go to the park?' 'No, not today, dear.'",
-            "Most of the hotels are not that cheap (=they are fairly expensive)."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я не знаю.",
-            "Я предпочитаю не курить.",
-            "Не жарко, правда?",
-            "Я-то это не куплю.",
-            "Вы можете не идти за мной.",
-            "Жарко, не правда ли?",
-            "Невозможно его не любить.",
-            "Мне совсем не нравится его отношение.",
-            "Она не очень приятный человек.",
-            "Еда там не очень хорошая.",
-            "Немногие успели прочесть этот отчёт.",
-            "Эдинбург уже недалеко.",
-            "— Марк всё ещё болен? — Надеюсь, что нет.",
-            "Об этой болезни мало что известно.",
-            "Напрасно вы не сообщили в полицию.",
-            "Никто не знает, правда ли этот рассказ, или нет.",
-            "Он стоял от меня менее, чем в шести футах.",
-            "Пуля прошла меньше, чем в пяти дюймах от моей головы!",
-            "Я надеюсь увидеть вас завтра, но если не получится, оставьте мне сообщение.",
-            "Изменения не вызвали никакого удивления.",
-            "Большинство магазинов открывается не раньше десяти часов утра.",
-            "— Можно мы пойдём в парк? — Нет, милый, не сегодня.",
-            "Большинство гостиниц не так уж дёшевы (т.е. они довольно дорогие)."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "not": {
+    "comment": [
+      "knot",
+      "notorious"
+    ],
+    "translate": "не, нет, ни",
+    "transcription": " |nɑːt|",
+    "antonyms": [],
+    "mnemonic": [
+      "not [нот] не-Ты (нот) не изучил?."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I don't know.",
+        "ru": "Я не знаю.",
+        "learn": 0
+      },
+      {
+        "eng": "I prefer not to smoke.",
+        "ru": "Я предпочитаю не курить.",
+        "learn": 1
+      },
+      {
+        "eng": "It is not hot, is it?",
+        "ru": "Не жарко, правда?",
+        "learn": 1
+      },
+      {
+        "eng": "I won't buy it, not I.",
+        "ru": "Я-то это не куплю.",
+        "learn": 0
+      },
+      {
+        "eng": "You are able not to follow me.",
+        "ru": "Вы можете не идти за мной.",
+        "learn": 0
+      },
+      {
+        "eng": "It is hot, is it not / isn't it?",
+        "ru": "Жарко, не правда ли?",
+        "learn": 0
+      },
+      {
+        "eng": "It is not possible not to like him.",
+        "ru": "Невозможно его не любить.",
+        "learn": 0
+      },
+      {
+        "eng": "I do not like his attitude at all.",
+        "ru": "Мне совсем не нравится его отношение.",
+        "learn": 1
+      },
+      {
+        "eng": "She's not a very nice person.",
+        "ru": "Она не очень приятный человек.",
+        "learn": 0
+      },
+      {
+        "eng": "The food is not very good there.",
+        "ru": "Еда там не очень хорошая.",
+        "learn": 0
+      },
+      {
+        "eng": "Not many people have read the report.",
+        "ru": "Немногие успели прочесть этот отчёт.",
+        "learn": 1
+      },
+      {
+        "eng": "Edinburgh isn't far now.",
+        "ru": "Эдинбург уже недалеко.",
+        "learn": 0
+      },
+      {
+        "eng": "'Is Mark still sick?' 'I hope not.'",
+        "ru": "— Марк всё ещё болен? — Надеюсь, что нет.",
+        "learn": 0
+      },
+      {
+        "eng": "Not much is known about the disease.",
+        "ru": "Об этой болезни мало что известно.",
+        "learn": 0
+      },
+      {
+        "eng": "You were wrong not to inform the police.",
+        "ru": "Напрасно вы не сообщили в полицию.",
+        "learn": 1
+      },
+      {
+        "eng": "No one knows if the story is true or not.",
+        "ru": "Никто не знает, правда ли этот рассказ, или нет.",
+        "learn": 0
+      },
+      {
+        "eng": "He was standing not six feet away from me.",
+        "ru": "Он стоял от меня менее, чем в шести футах.",
+        "learn": 0
+      },
+      {
+        "eng": "The bullet passed not five inches from my head!",
+        "ru": "Пуля прошла меньше, чем в пяти дюймах от моей головы!",
+        "learn": 0
+      },
+      {
+        "eng": "I hope to see you tomorrow, but if not, leave me a message.",
+        "ru": "Я надеюсь увидеть вас завтра, но если не получится, оставьте мне сообщение.",
+        "learn": 0
+      },
+      {
+        "eng": "The changes were not at all surprising.",
+        "ru": "Изменения не вызвали никакого удивления.",
+        "learn": 0
+      },
+      {
+        "eng": "Most of the stores do not open until 10am.",
+        "ru": "Большинство магазинов открывается не раньше десяти часов утра.",
+        "learn": 0
+      },
+      {
+        "eng": "'Can we go to the park?' 'No, not today, dear.'",
+        "ru": "— Можно мы пойдём в парк? — Нет, милый, не сегодня.",
+        "learn": 0
+      },
+      {
+        "eng": "Most of the hotels are not that cheap (=they are fairly expensive).",
+        "ru": "Большинство гостиниц не так уж дёшевы (т.е. они довольно дорогие).",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,84 +1,173 @@
 {
-    "run": {
-        "comment": [
-            "runner",
-            "running"
-        ],
-        "translate": "работать, бежать, управлять, бегать, прогон, работа, бег, пробег, ход, показ, трасса",
-        "transcription": " |rʌn|",
-        "antonyms": [],
-        "mnemonic": [
-            "run [ран] бегать - От (ран) бегать он не может.",
-            "run [rʌn]\noutrun - обогнать, превзойти\n***\nБЕЖАТЬ может и баран. (это) run\nБег, пробег, рейс, маршрут, тираж.\n***\nБросай оружие \"gun\" и беги \"run\"\nнавстречу веселью \"fun\"."
-        ],
-        "examples": [
-            "How fast can you run?",
-            "The film runs 5 hours.",
-            "The film began to run.",
-            "The buses don't run on Sundays.",
-            "The bill runs to $100.",
-            "The roads ran wild.",
-            "The prices run from $5 to $200.",
-            "It runs off batteries.",
-            "Shall I run you home?",
-            "The dog ran toward me.",
-            "If you see this man, run!",
-            "How fast the years run by!",
-            "You have the run of my office.",
-            "She turned and ran away.",
-            "I was running a small fever.",
-            "She ran to me for help.",
-            "The little pond ran dry.",
-            "The night was almost run.",
-            "The news ran all over town.",
-            "These dresses run small.",
-            "Tears ran from her eyes.",
-            "He ran at me and kicked me.",
-            "I can't afford to run a car.",
-            "Let chickens run loose.",
-            "The boat ran (up) on the rocks.",
-            "I've got to run for my bus.",
-            "Inflation was running at 5%.",
-            "Her stocking ran.",
-            "Far ran the naked moon.",
-            "The play ran for two years."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Как быстро вы бегаете?",
-            "Фильм идёт пять часов.",
-            "Фильм начался.",
-            "По воскресеньям автобусы не ходят.",
-            "Счёт составляет сто долларов.",
-            "Дороги заросли.",
-            "Цены варьируются от пяти до двухсот долларов.",
-            "Оно работает от батареек.",
-            "Отвезти /проводить/ тебя домой?",
-            "Собака побежала ко мне.",
-            "Если увидишь этого человека, беги!",
-            "Как быстро летят годы!",
-            "Вы можете свободно пользоваться моим кабинетом.",
-            "Она повернулась и убежала.",
-            "У меня была небольшая температура.",
-            "Она прибежала ко мне за помощью.",
-            "Маленький пруд пересох.",
-            "Ночь почти прошла.",
-            "Это известие быстро распространилось по всему городу.",
-            "Эти платья — малоразмерные.",
-            "Из глаз у неё потекли слёзы.",
-            "Он подбежал ко мне и ударил ногой.",
-            "Я не могу позволить себе машину.",
-            "Пусть цыплята побегают на свободе.",
-            "Лодка наскочила на камни.",
-            "Мне пришлось побежать, чтобы успеть на автобус.",
-            "Инфляция была на уровне пяти процентов.",
-            "У неё на чулке спустилась петля.",
-            "Высоко плыла беззащитная луна.",
-            "Этот спектакль шёл в течение двух лет."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "run": {
+    "comment": [
+      "ran |ræn|,                                          run |rʌn|",
+      "runner",
+      "running"
+    ],
+    "translate": "работать, бежать, управлять, бегать, прогон, работа, бег, пробег, ход, показ, трасса",
+    "transcription": " |rʌn|",
+    "antonyms": [],
+    "mnemonic": [
+      "run [ран] бегать - От (ран) бегать он не может.",
+      "run [rʌn]\noutrun - обогнать, превзойти\n***\nБЕЖАТЬ может и баран. (это) run\nБег, пробег, рейс, маршрут, тираж.\n***\nБросай оружие \"gun\" и беги \"run\"\nнавстречу веселью \"fun\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "How fast can you run?",
+        "ru": "Как быстро вы бегаете?",
+        "learn": 0
+      },
+      {
+        "eng": "The film runs 5 hours.",
+        "ru": "Фильм идёт пять часов.",
+        "learn": 0
+      },
+      {
+        "eng": "The film began to run.",
+        "ru": "Фильм начался.",
+        "learn": 0
+      },
+      {
+        "eng": "The buses don't run on Sundays.",
+        "ru": "По воскресеньям автобусы не ходят.",
+        "learn": 0
+      },
+      {
+        "eng": "The bill runs to $100.",
+        "ru": "Счёт составляет сто долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "The roads ran wild.",
+        "ru": "Дороги заросли.",
+        "learn": 0
+      },
+      {
+        "eng": "The prices run from $5 to $200.",
+        "ru": "Цены варьируются от пяти до двухсот долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "It runs off batteries.",
+        "ru": "Оно работает от батареек.",
+        "learn": 0
+      },
+      {
+        "eng": "Shall I run you home?",
+        "ru": "Отвезти /проводить/ тебя домой?",
+        "learn": 0
+      },
+      {
+        "eng": "The dog ran toward me.",
+        "ru": "Собака побежала ко мне.",
+        "learn": 0
+      },
+      {
+        "eng": "If you see this man, run!",
+        "ru": "Если увидишь этого человека, беги!",
+        "learn": 0
+      },
+      {
+        "eng": "How fast the years run by!",
+        "ru": "Как быстро летят годы!",
+        "learn": 0
+      },
+      {
+        "eng": "You have the run of my office.",
+        "ru": "Вы можете свободно пользоваться моим кабинетом.",
+        "learn": 0
+      },
+      {
+        "eng": "She turned and ran away.",
+        "ru": "Она повернулась и убежала.",
+        "learn": 0
+      },
+      {
+        "eng": "I was running a small fever.",
+        "ru": "У меня была небольшая температура.",
+        "learn": 0
+      },
+      {
+        "eng": "She ran to me for help.",
+        "ru": "Она прибежала ко мне за помощью.",
+        "learn": 1
+      },
+      {
+        "eng": "The little pond ran dry.",
+        "ru": "Маленький пруд пересох.",
+        "learn": 0
+      },
+      {
+        "eng": "The night was almost run.",
+        "ru": "Ночь почти прошла.",
+        "learn": 0
+      },
+      {
+        "eng": "The news ran all over town.",
+        "ru": "Это известие быстро распространилось по всему городу.",
+        "learn": 0
+      },
+      {
+        "eng": "These dresses run small.",
+        "ru": "Эти платья — малоразмерные.",
+        "learn": 0
+      },
+      {
+        "eng": "Tears ran from her eyes.",
+        "ru": "Из глаз у неё потекли слёзы.",
+        "learn": 0
+      },
+      {
+        "eng": "He ran at me and kicked me.",
+        "ru": "Он подбежал ко мне и ударил ногой.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't afford to run a car.",
+        "ru": "Я не могу позволить себе машину.",
+        "learn": 0
+      },
+      {
+        "eng": "Let chickens run loose.",
+        "ru": "Пусть цыплята побегают на свободе.",
+        "learn": 0
+      },
+      {
+        "eng": "The boat ran (up) on the rocks.",
+        "ru": "Лодка наскочила на камни.",
+        "learn": 0
+      },
+      {
+        "eng": "I've got to run for my bus.",
+        "ru": "Мне пришлось побежать, чтобы успеть на автобус.",
+        "learn": 0
+      },
+      {
+        "eng": "Inflation was running at 5%.",
+        "ru": "Инфляция была на уровне пяти процентов.",
+        "learn": 0
+      },
+      {
+        "eng": "Her stocking ran.",
+        "ru": "У неё на чулке спустилась петля.",
+        "learn": 1
+      },
+      {
+        "eng": "Far ran the naked moon.",
+        "ru": "Высоко плыла беззащитная луна.",
+        "learn": 0
+      },
+      {
+        "eng": "The play ran for two years.",
+        "ru": "Этот спектакль шёл в течение двух лет.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,82 +1,168 @@
 {
-    "empire": {
-        "comment": [
-            "empirical"
-        ],
-        "translate": "империя, стиль ампир, имперский, в стиле ампир",
-        "transcription": " |ˈempaɪər|",
-        "antonyms": [],
-        "mnemonic": [
-            "inspire [ɪn'spaɪə]\nconspire [kən'spaɪə]\nrespire [rɪ'spaɪə]\ninspiration [ɪnspə'reɪʃən] - вдохновение\nexpire [ɪks'paɪə] - выдыхать, истекать, кончаться,\nугасать\naspire [əs'paɪə] - стремиться\nempire ['ɛmpaɪə] - империя\n***\nВНУШАЛ, что он свой \"джинс\"|парил. (это) inspire\n***\nСГОВОРИЛИСЬ конь|с|парой. (это) conspire\n***\nВДЫХАЛ воздух и рис|парил. (это) (это) respire"
-        ],
-        "examples": [
-            "Byzantine Empire",
-            "The British created a great empire.",
-            "The Roman Empire covered most of what is now Europe.",
-            "Lower empire",
-            "the decline of a mighty empire",
-            "in the days of the Roman Empire",
-            "a remote outpost of the empire",
-            "a colonial nation and its colonial empire",
-            "a remote outpost of the old British Empire",
-            "The Peruvian empire antedates that of Mexico.",
-            "Alexander the Great ruled over a huge empire.",
-            "The book describes the empire's rise and fall.",
-            "A later Empire nods in its decay.(P. B. Shelley)",
-            "Anarchy reigned in the empire's remote provinces.",
-            "She built a tiny business into a worldwide empire.",
-            "He wrote a well-known history of the British empire.",
-            "The Empire began to crumble during the 13th century.",
-            "He controlled a cattle empire in the heart of Texas.",
-            "An empire, unkinged tonight, sees tomorrow a new king.",
-            "Denmark was never a province of the Holy Roman Empire.",
-            "British imperialism created the enormous British Empire.",
-            "The Roman Empire reached its zenith around the year 100.",
-            "The beautiful art reminds us of the glory of the empire.",
-            "The expiry of a great empire is always a cataclysmic event.",
-            "The British Empire was at its peak in the mid 19th century.",
-            "supreme power that extended to the utmost points of the empire",
-            "In truth, moral decay hastened the decline of the Roman Empire.",
-            "There is no evidence that the British Empire is on the downgrade.",
-            "By the 5th century, the power of the Roman Empire was on the wane.",
-            "I picked up a thick tome on the Roman Empire at a used book store."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Византийская империя, Византия",
-            "Британцы создали великую империю.",
-            "Римская империя включала большую часть территории современной Европы.",
-            "Восточная Римская империя, Византия",
-            "упадок могущественной империи",
-            "во времена Римской империи",
-            "дальний форпост империи",
-            "колониальная страна и её колониальная империя",
-            "дальняя застава старой Британской империи",
-            "Перуанская империя предшествовала Мексиканской.",
-            "Александр Великий правил огромной империей.",
-            "В книге рассказывается о взлёте и падении этой империи.",
-            "Последняя империя клонится к упадку.",
-            "В отдалённых провинциях империи царила анархия.",
-            "Она превратила крошечное предприятие во всемирную империю.",
-            "Он написал общеизвестную историю Британской империи.",
-            "Империя начала рушиться в тринадцатом веке.",
-            "Он управлял скотоводческой империей, расположенной в центре Техаса.",
-            "Империя, лишённая монарха сегодня вечером, завтра увидит нового короля.",
-            "Дания никогда не была провинцией Священной Римской Империи.",
-            "Английский империализм создал огромную Британскую империю.",
-            "Римская империя достигла своего зенита /расцвета/ примерно в 100-м году.",
-            "Это прекрасное искусство напоминает нам о славе империи.",
-            "Конец великой империи — всегда катастрофа.",
-            "Британская империя достигла пика своего могущества в середине девятнадцатого века.",
-            "верховная власть, которая распространялась даже на самые отдалённые уголки империи",
-            "Действительно, моральное разложение ускорило упадок Римской империи.",
-            "Нет никаких доказательств того, что Британская империя в упадке.",
-            "К пятому веку могущество Римской империи было на исходе.",
-            "Я купил толстую книгу о Римской империи в магазине букиниста."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "empire": {
+    "comment": [
+      "empirical"
+    ],
+    "translate": "империя, стиль ампир, имперский, в стиле ампир",
+    "transcription": " |ˈempaɪər|",
+    "antonyms": [],
+    "mnemonic": [
+      "inspire [ɪn'spaɪə]\nconspire [kən'spaɪə]\nrespire [rɪ'spaɪə]\ninspiration [ɪnspə'reɪʃən] - вдохновение\nexpire [ɪks'paɪə] - выдыхать, истекать, кончаться,\nугасать\naspire [əs'paɪə] - стремиться\nempire ['ɛmpaɪə] - империя\n***\nВНУШАЛ, что он свой \"джинс\"|парил. (это) inspire\n***\nСГОВОРИЛИСЬ конь|с|парой. (это) conspire\n***\nВДЫХАЛ воздух и рис|парил. (это) (это) respire"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Byzantine Empire",
+        "ru": "Византийская империя, Византия",
+        "learn": 0
+      },
+      {
+        "eng": "The British created a great empire.",
+        "ru": "Британцы создали великую империю.",
+        "learn": 1
+      },
+      {
+        "eng": "The Roman Empire covered most of what is now Europe.",
+        "ru": "Римская империя включала большую часть территории современной Европы.",
+        "learn": 0
+      },
+      {
+        "eng": "Lower empire",
+        "ru": "Восточная Римская империя, Византия",
+        "learn": 0
+      },
+      {
+        "eng": "the decline of a mighty empire",
+        "ru": "упадок могущественной империи",
+        "learn": 0
+      },
+      {
+        "eng": "in the days of the Roman Empire",
+        "ru": "во времена Римской империи",
+        "learn": 0
+      },
+      {
+        "eng": "a remote outpost of the empire",
+        "ru": "дальний форпост империи",
+        "learn": 0
+      },
+      {
+        "eng": "a colonial nation and its colonial empire",
+        "ru": "колониальная страна и её колониальная империя",
+        "learn": 0
+      },
+      {
+        "eng": "a remote outpost of the old British Empire",
+        "ru": "дальняя застава старой Британской империи",
+        "learn": 0
+      },
+      {
+        "eng": "The Peruvian empire antedates that of Mexico.",
+        "ru": "Перуанская империя предшествовала Мексиканской.",
+        "learn": 0
+      },
+      {
+        "eng": "Alexander the Great ruled over a huge empire.",
+        "ru": "Александр Великий правил огромной империей.",
+        "learn": 0
+      },
+      {
+        "eng": "The book describes the empire's rise and fall.",
+        "ru": "В книге рассказывается о взлёте и падении этой империи.",
+        "learn": 1
+      },
+      {
+        "eng": "A later Empire nods in its decay.(P. B. Shelley)",
+        "ru": "Последняя империя клонится к упадку.",
+        "learn": 0
+      },
+      {
+        "eng": "Anarchy reigned in the empire's remote provinces.",
+        "ru": "В отдалённых провинциях империи царила анархия.",
+        "learn": 0
+      },
+      {
+        "eng": "She built a tiny business into a worldwide empire.",
+        "ru": "Она превратила крошечное предприятие во всемирную империю.",
+        "learn": 1
+      },
+      {
+        "eng": "He wrote a well-known history of the British empire.",
+        "ru": "Он написал общеизвестную историю Британской империи.",
+        "learn": 0
+      },
+      {
+        "eng": "The Empire began to crumble during the 13th century.",
+        "ru": "Империя начала рушиться в тринадцатом веке.",
+        "learn": 0
+      },
+      {
+        "eng": "He controlled a cattle empire in the heart of Texas.",
+        "ru": "Он управлял скотоводческой империей, расположенной в центре Техаса.",
+        "learn": 0
+      },
+      {
+        "eng": "An empire, unkinged tonight, sees tomorrow a new king.",
+        "ru": "Империя, лишённая монарха сегодня вечером, завтра увидит нового короля.",
+        "learn": 0
+      },
+      {
+        "eng": "Denmark was never a province of the Holy Roman Empire.",
+        "ru": "Дания никогда не была провинцией Священной Римской Империи.",
+        "learn": 0
+      },
+      {
+        "eng": "British imperialism created the enormous British Empire.",
+        "ru": "Английский империализм создал огромную Британскую империю.",
+        "learn": 0
+      },
+      {
+        "eng": "The Roman Empire reached its zenith around the year 100.",
+        "ru": "Римская империя достигла своего зенита /расцвета/ примерно в 100-м году.",
+        "learn": 0
+      },
+      {
+        "eng": "The beautiful art reminds us of the glory of the empire.",
+        "ru": "Это прекрасное искусство напоминает нам о славе империи.",
+        "learn": 0
+      },
+      {
+        "eng": "The expiry of a great empire is always a cataclysmic event.",
+        "ru": "Конец великой империи — всегда катастрофа.",
+        "learn": 0
+      },
+      {
+        "eng": "The British Empire was at its peak in the mid 19th century.",
+        "ru": "Британская империя достигла пика своего могущества в середине девятнадцатого века.",
+        "learn": 0
+      },
+      {
+        "eng": "supreme power that extended to the utmost points of the empire",
+        "ru": "верховная власть, которая распространялась даже на самые отдалённые уголки империи",
+        "learn": 0
+      },
+      {
+        "eng": "In truth, moral decay hastened the decline of the Roman Empire.",
+        "ru": "Действительно, моральное разложение ускорило упадок Римской империи.",
+        "learn": 0
+      },
+      {
+        "eng": "There is no evidence that the British Empire is on the downgrade.",
+        "ru": "Нет никаких доказательств того, что Британская империя в упадке.",
+        "learn": 0
+      },
+      {
+        "eng": "By the 5th century, the power of the Roman Empire was on the wane.",
+        "ru": "К пятому веку могущество Римской империи было на исходе.",
+        "learn": 0
+      },
+      {
+        "eng": "I picked up a thick tome on the Roman Empire at a used book store.",
+        "ru": "Я купил толстую книгу о Римской империи в магазине букиниста.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,84 +1,172 @@
 {
-    "finish": {
-        "comment": [
-            "finished",
-            "diminish"
-        ],
-        "translate": " завершать, отделка, финиш, окончание, конец, заканчивать, финишировать",
-        "transcription": "  |ˈfɪnɪʃ|",
-        "antonyms": [],
-        "mnemonic": [
-            "finish [фи'ниш] конец - (Фин нищ-ий) конец нашёл свой."
-        ],
-        "examples": [
-            "Did you finish your homework?",
-            "Mind you finish it.",
-            "We aim to finish by Friday.",
-            "What time does school finish?",
-            "We have to finish today.",
-            "She was the last to finish.",
-            "He finished third in the race.",
-            "I'll just finish my coffee.",
-            "He finished the dishes.",
-            "The football season finishes in May.",
-            "It was a fight to the finish.",
-            "We won't finish till next week.",
-            "Have you finished that book yet?",
-            "How soon can you finish the job?",
-            "We may finish sooner than you think.",
-            "I didn't have time to finish.",
-            "I'll finish the housework tomorrow.",
-            "Have you finished with the newspaper?",
-            "That finished me with Mary.",
-            "The table had a shiny finish.",
-            "Come on, finish up your drinks!",
-            "Booze will be the finish of him.",
-            "The meeting finished in disorder.",
-            "I got up early to finish packing.",
-            "The cat's tail finishes in white.",
-            "That table has a beautiful finish.",
-            "The road finished in a narrow path.",
-            "Haven't you finished that book yet?",
-            "They're in no great hurry to finish.",
-            "Quit whining and finish your dinner."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ты сделал уроки?",
-            "Не забудь это закончить.",
-            "Мы намереваемся закончить к пятнице.",
-            "В котором часу заканчиваются занятия в школе?",
-            "Мы должны закончить (всё) сегодня.",
-            "Она закончила последней.",
-            "В забеге он пришёл третьим.",
-            "Я только допью кофе.",
-            "Он закончил мыть посуду. / Он покончил с посудой.",
-            "Футбольный сезон заканчивается в мае.",
-            "Это была борьба до победного конца.",
-            "Мы не успеем закончить до следующей недели.",
-            "Вы уже закончили эту книгу?",
-            "Как скоро вы сможете закончить работу?",
-            "Мы можем закончить раньше, чем вы думаете.",
-            "У меня не было времени закончить.",
-            "Я закончу домашнюю работу завтра.",
-            "Ты дочитал газету?",
-            "После этого у меня с Мэри всё было кончено.",
-            "Стол был покрыт блестящим лаком.",
-            "Давайте, допейте уже, наконец!",
-            "Бухло прикончит его.",
-            "Митинг закончился беспорядками.",
-            "Я встал пораньше, чтобы закончить собирать вещи.",
-            "Кончик хвоста у этой кошки белый.",
-            "На этом столе красивая полировка.",
-            "Дорога превратилась в узкую тропинку.",
-            "Вы еще не дочитали эту книгу?",
-            "Они не торопятся закончить.",
-            "Прекрати ныть и доедай ужин."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "i_+_Откр_сл_=_[i(:)]"
-        ]
-    }
+  "finish": {
+    "comment": [
+      "finished",
+      "diminish"
+    ],
+    "translate": " завершать, отделка, финиш, окончание, конец, заканчивать, финишировать",
+    "transcription": "  |ˈfɪnɪʃ|",
+    "antonyms": [],
+    "mnemonic": [
+      "finish [фи'ниш] конец - (Фин нищ-ий) конец нашёл свой."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "i_+_Откр_сл_=_[i(:)]",
+      "gerund_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Did you finish your homework?",
+        "ru": "Ты сделал уроки?",
+        "learn": 0
+      },
+      {
+        "eng": "Mind you finish it.",
+        "ru": "Не забудь это закончить.",
+        "learn": 0
+      },
+      {
+        "eng": "We aim to finish by Friday.",
+        "ru": "Мы намереваемся закончить к пятнице.",
+        "learn": 1
+      },
+      {
+        "eng": "What time does school finish?",
+        "ru": "В котором часу заканчиваются занятия в школе?",
+        "learn": 0
+      },
+      {
+        "eng": "We have to finish today.",
+        "ru": "Мы должны закончить (всё) сегодня.",
+        "learn": 0
+      },
+      {
+        "eng": "She was the last to finish.",
+        "ru": "Она закончила последней.",
+        "learn": 0
+      },
+      {
+        "eng": "He finished third in the race.",
+        "ru": "В забеге он пришёл третьим.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll just finish my coffee.",
+        "ru": "Я только допью кофе.",
+        "learn": 1
+      },
+      {
+        "eng": "He finished the dishes.",
+        "ru": "Он закончил мыть посуду. / Он покончил с посудой.",
+        "learn": 0
+      },
+      {
+        "eng": "The football season finishes in May.",
+        "ru": "Футбольный сезон заканчивается в мае.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a fight to the finish.",
+        "ru": "Это была борьба до победного конца.",
+        "learn": 0
+      },
+      {
+        "eng": "We won't finish till next week.",
+        "ru": "Мы не успеем закончить до следующей недели.",
+        "learn": 1
+      },
+      {
+        "eng": "Have you finished that book yet?",
+        "ru": "Вы уже закончили эту книгу?",
+        "learn": 1
+      },
+      {
+        "eng": "How soon can you finish the job?",
+        "ru": "Как скоро вы сможете закончить работу?",
+        "learn": 0
+      },
+      {
+        "eng": "We may finish sooner than you think.",
+        "ru": "Мы можем закончить раньше, чем вы думаете.",
+        "learn": 1
+      },
+      {
+        "eng": "I didn't have time to finish.",
+        "ru": "У меня не было времени закончить.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll finish the housework tomorrow.",
+        "ru": "Я закончу домашнюю работу завтра.",
+        "learn": 0
+      },
+      {
+        "eng": "Have you finished with the newspaper?",
+        "ru": "Ты дочитал газету?",
+        "learn": 0
+      },
+      {
+        "eng": "That finished me with Mary.",
+        "ru": "После этого у меня с Мэри всё было кончено.",
+        "learn": 0
+      },
+      {
+        "eng": "The table had a shiny finish.",
+        "ru": "Стол был покрыт блестящим лаком.",
+        "learn": 0
+      },
+      {
+        "eng": "Come on, finish up your drinks!",
+        "ru": "Давайте, допейте уже, наконец!",
+        "learn": 0
+      },
+      {
+        "eng": "Booze will be the finish of him.",
+        "ru": "Бухло прикончит его.",
+        "learn": 0
+      },
+      {
+        "eng": "The meeting finished in disorder.",
+        "ru": "Митинг закончился беспорядками.",
+        "learn": 0
+      },
+      {
+        "eng": "I got up early to finish packing.",
+        "ru": "Я встал пораньше, чтобы закончить собирать вещи.",
+        "learn": 0
+      },
+      {
+        "eng": "The cat's tail finishes in white.",
+        "ru": "Кончик хвоста у этой кошки белый.",
+        "learn": 0
+      },
+      {
+        "eng": "That table has a beautiful finish.",
+        "ru": "На этом столе красивая полировка.",
+        "learn": 0
+      },
+      {
+        "eng": "The road finished in a narrow path.",
+        "ru": "Дорога превратилась в узкую тропинку.",
+        "learn": 0
+      },
+      {
+        "eng": "Haven't you finished that book yet?",
+        "ru": "Вы еще не дочитали эту книгу?",
+        "learn": 0
+      },
+      {
+        "eng": "They're in no great hurry to finish.",
+        "ru": "Они не торопятся закончить.",
+        "learn": 0
+      },
+      {
+        "eng": "Quit whining and finish your dinner.",
+        "ru": "Прекрати ныть и доедай ужин.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,87 +1,174 @@
 {
-    "air": {
-        "comment": [
-            "hair, air - волосы, на воздухе",
-            "airport",
-            "aircraft",
-            "airline",
-            "air-conditioning"
-        ],
-        "translate": "воздух, вид, атмосфера, ария, воздушный, пневматический, проветривать",
-        "transcription": " |er|",
-        "antonyms": [],
-        "mnemonic": [
-            "air [ɛə]\n***\nПРОВЕТРИМ - станет холоднее. (это) air\nВОЗДУХ нынче холоднее. (это) air\n***\nСырой воздух \"air\"\nиспортил волосы \"hair\"."
-        ],
-        "examples": [
-            "His brother died in an air crash.",
-            "A delicious smell filled the air.",
-            "She gave me the air.",
-            "The programme goes on the air.",
-            "They were off the air.",
-            "The program is aired daily.",
-            "The program is due to air next month.",
-            "Open a window and let in some air.",
-            "She had an air of quiet confidence.",
-            "He is ready to air his views to anyone.",
-            "She opened the windows to air the room.",
-            "He threw the ball into the air.",
-            "She looked at him with a determined air.",
-            "The band struck up a martial air.",
-            "He pumped air into the bicycle tire.",
-            "Nothing airs a house so well as a warm friend.",
-            "Air travel was growing rapidly.",
-            "I've left my sweater outside to air.",
-            "We cannot air this X-rated song.",
-            "If you've time to spare go by air.",
-            "She aired her opinions on welfare.",
-            "I like to dine outdoors in the open air.",
-            "There was a smell of chemicals in the air.",
-            "There was a strong smell of burning in the air.",
-            "He can't breathe! Everybody move back and give him some air!",
-            "The interview will air tomorrow.",
-            "The city is wonderful seen from the air.",
-            "Always air your room from the outside air.",
-            "The decisive battles were fought in the air.",
-            "Air Council"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Его брат погиб в авиакатастрофе.",
-            "В воздухе запахло чем-то восхитительно вкусным.",
-            "Она порвала со мной.",
-            "Программа выходит в эфир.",
-            "Они закончили передачу. / Они вышли из эфира.",
-            "Эта программа выходит ежедневно.",
-            "Программа должна выйти в эфир в следующем месяце.",
-            "Откройте окно и впустите внутрь немного воздуха.",
-            "Она излучала спокойную уверенность в себе.",
-            "Он готов излагать свои взгляды кому угодно.",
-            "Она открыла окна, чтобы проветрить комнату.",
-            "Он бросил мяч в воздух.",
-            "Она посмотрела на него с решительным видом.",
-            "Оркестр заиграл военную мелодию.",
-            "Он накачал шину велосипеда воздухом.",
-            "Ничто так не согревает дом, как близкий друг.",
-            "Авиаперевозки быстро росли.",
-            "Я оставил свой свитер проветриваться на улице.",
-            "Мы не можем пустить в эфир эту непристойную песню.",
-            "Если есть свободное время — лети самолётом. (старая авиационная шутка, намёк на частые задержки из-за погоды и поломок)",
-            "Она высказала своё мнение по поводу пособий.",
-            "Я люблю ужинать на открытом воздухе.",
-            "В воздухе ощущался запах химикатов.",
-            "В воздухе стоял сильный запах гари.",
-            "Ему нечем дышать! Отойдите все назад, дайте ему немного воздуха!",
-            "Это интервью выйдет в эфир завтра.",
-            "Этот город прекрасен с высоты птичьего полёта.",
-            "Всегда проветривайте комнату.",
-            "Решающие бои велись в воздухе.",
-            "Совет по делам авиации"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "air_=_[er]"
-        ]
-    }
+  "air": {
+    "comment": [
+      "hair, air - волосы, на воздухе",
+      "airport",
+      "aircraft",
+      "airline",
+      "air-conditioning"
+    ],
+    "translate": "воздух, вид, атмосфера, ария, воздушный, пневматический, проветривать",
+    "transcription": " |er|",
+    "antonyms": [],
+    "mnemonic": [
+      "air [ɛə]\n***\nПРОВЕТРИМ - станет холоднее. (это) air\nВОЗДУХ нынче холоднее. (это) air\n***\nСырой воздух \"air\"\nиспортил волосы \"hair\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "air_=_[er]"
+    ],
+    "examples": [
+      {
+        "eng": "His brother died in an air crash.",
+        "ru": "Его брат погиб в авиакатастрофе.",
+        "learn": 1
+      },
+      {
+        "eng": "A delicious smell filled the air.",
+        "ru": "В воздухе запахло чем-то восхитительно вкусным.",
+        "learn": 1
+      },
+      {
+        "eng": "She gave me the air.",
+        "ru": "Она порвала со мной.",
+        "learn": 0
+      },
+      {
+        "eng": "The programme goes on the air.",
+        "ru": "Программа выходит в эфир.",
+        "learn": 0
+      },
+      {
+        "eng": "They were off the air.",
+        "ru": "Они закончили передачу. / Они вышли из эфира.",
+        "learn": 0
+      },
+      {
+        "eng": "The program is aired daily.",
+        "ru": "Эта программа выходит ежедневно.",
+        "learn": 0
+      },
+      {
+        "eng": "The program is due to air next month.",
+        "ru": "Программа должна выйти в эфир в следующем месяце.",
+        "learn": 0
+      },
+      {
+        "eng": "Open a window and let in some air.",
+        "ru": "Откройте окно и впустите внутрь немного воздуха.",
+        "learn": 0
+      },
+      {
+        "eng": "She had an air of quiet confidence.",
+        "ru": "Она излучала спокойную уверенность в себе.",
+        "learn": 0
+      },
+      {
+        "eng": "He is ready to air his views to anyone.",
+        "ru": "Он готов излагать свои взгляды кому угодно.",
+        "learn": 0
+      },
+      {
+        "eng": "She opened the windows to air the room.",
+        "ru": "Она открыла окна, чтобы проветрить комнату.",
+        "learn": 0
+      },
+      {
+        "eng": "He threw the ball into the air.",
+        "ru": "Он бросил мяч в воздух.",
+        "learn": 0
+      },
+      {
+        "eng": "She looked at him with a determined air.",
+        "ru": "Она посмотрела на него с решительным видом.",
+        "learn": 0
+      },
+      {
+        "eng": "The band struck up a martial air.",
+        "ru": "Оркестр заиграл военную мелодию.",
+        "learn": 0
+      },
+      {
+        "eng": "He pumped air into the bicycle tire.",
+        "ru": "Он накачал шину велосипеда воздухом.",
+        "learn": 0
+      },
+      {
+        "eng": "Nothing airs a house so well as a warm friend.",
+        "ru": "Ничто так не согревает дом, как близкий друг.",
+        "learn": 0
+      },
+      {
+        "eng": "Air travel was growing rapidly.",
+        "ru": "Авиаперевозки быстро росли.",
+        "learn": 0
+      },
+      {
+        "eng": "I've left my sweater outside to air.",
+        "ru": "Я оставил свой свитер проветриваться на улице.",
+        "learn": 0
+      },
+      {
+        "eng": "We cannot air this X-rated song.",
+        "ru": "Мы не можем пустить в эфир эту непристойную песню.",
+        "learn": 0
+      },
+      {
+        "eng": "If you've time to spare go by air.",
+        "ru": "Если есть свободное время — лети самолётом. (старая авиационная шутка, намёк на частые задержки из-за погоды и поломок)",
+        "learn": 0
+      },
+      {
+        "eng": "She aired her opinions on welfare.",
+        "ru": "Она высказала своё мнение по поводу пособий.",
+        "learn": 0
+      },
+      {
+        "eng": "I like to dine outdoors in the open air.",
+        "ru": "Я люблю ужинать на открытом воздухе.",
+        "learn": 0
+      },
+      {
+        "eng": "There was a smell of chemicals in the air.",
+        "ru": "В воздухе ощущался запах химикатов.",
+        "learn": 0
+      },
+      {
+        "eng": "There was a strong smell of burning in the air.",
+        "ru": "В воздухе стоял сильный запах гари.",
+        "learn": 0
+      },
+      {
+        "eng": "He can't breathe! Everybody move back and give him some air!",
+        "ru": "Ему нечем дышать! Отойдите все назад, дайте ему немного воздуха!",
+        "learn": 1
+      },
+      {
+        "eng": "The interview will air tomorrow.",
+        "ru": "Это интервью выйдет в эфир завтра.",
+        "learn": 0
+      },
+      {
+        "eng": "The city is wonderful seen from the air.",
+        "ru": "Этот город прекрасен с высоты птичьего полёта.",
+        "learn": 0
+      },
+      {
+        "eng": "Always air your room from the outside air.",
+        "ru": "Всегда проветривайте комнату.",
+        "learn": 0
+      },
+      {
+        "eng": "The decisive battles were fought in the air.",
+        "ru": "Решающие бои велись в воздухе.",
+        "learn": 1
+      },
+      {
+        "eng": "Air Council",
+        "ru": "Совет по делам авиации",
+        "learn": 0
+      }
+    ]
+  }
 }

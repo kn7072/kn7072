@@ -1,77 +1,166 @@
 {
-    "invite to": {
-        "comment": [],
-        "translate": "",
-        "transcription": "||",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Who should we invite to the party?",
-            "He didn't get no invite to the party.",
-            "You sound like you didn't get no invite to the dance.",
-            "The hour invites.",
-            "She's invited us both.",
-            "He invited us for a jaw.",
-            "I'm afraid I wasn't invited.",
-            "Were you invited to her party?",
-            "It was an honor to be invited.",
-            "He was honoured to be invited.",
-            "Everyone is cordially invited.",
-            "I invited him, but he declined.",
-            "I invited them to a restaurant.",
-            "I've invited them for 9 o'clock.",
-            "I invited them around for supper.",
-            "You're invited to a costume party!",
-            "They kindly invited us to come in.",
-            "Max has invited me over for dinner.",
-            "Many are invited but few are chosen.",
-            "Don't invite that drip to your party!",
-            "It was mean of him not to invite her.",
-            "We invited our friends and neighbors.",
-            "A select number of people are invited.",
-            "We invited Clarissa out for ice cream.",
-            "The log fire looked warm and inviting.",
-            "I don't know whether they were invited.",
-            "The event is limited to invited guests.",
-            "It was unkind of you not to invite her.",
-            "He invited her as a matter of courtesy.",
-            "It's a great pity Joyce wasn't invited."
-        ],
-        "example_translate": [
-            "Кого мы должны пригласить на вечеринку?",
-            "Он не получил приглашения на вечеринку.",
-            "По твоему тону я понимаю, что ты не получил приглашение на танцы.",
-            "Время зовёт.",
-            "Она пригласила нас обоих.",
-            "Он нас пригласил перекинуться парой слов.",
-            "Я боюсь, что я не была приглашена. / К сожалению, меня не пригласили.",
-            "Тебя пригласили к ней на вечеринку?",
-            "Для меня было большой честью получить приглашение.",
-            "Он заслужил, чтобы его пригласили.",
-            "Всех милости просим.",
-            "Я пригласил его, но он отказался.",
-            "Я пригласил их в ресторан.",
-            "Я пригласил их на девять часов.",
-            "Я пригласил их к себе на ужин.",
-            "Вы приглашены на костюмированную вечеринку /маскарад/!",
-            "Они любезно пригласили нас войти.",
-            "Макс пригласил меня к себе домой на ужин.",
-            "Много званных, но мало избранных.",
-            "Не приглашайте к себе на вечеринку этого тупицу!",
-            "С его стороны было подло её не пригласить.",
-            "Мы пригласили друзей и соседей.",
-            "Приглашены только избранные.",
-            "Мы пригласили Клариссу поесть мороженого.",
-            "Камин казался теплым и манящим.",
-            "Я не знаю, были ли они приглашены.",
-            "Мероприятие предназначено только для приглашённых гостей.",
-            "С твоей стороны было жестоко её не пригласить.",
-            "Он пригласил её из вежливости.",
-            "Очень жаль, что Джойса не пригласили."
-        ],
-        "synonyms": [],
-        "groups": [
-            "all_words", "verb_with_preposition"
-        ]
-    }
+  "invite to": {
+    "comment": [],
+    "translate": "приглашать на/в",
+    "transcription": "",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "groups": [
+      "verb_with_preposition"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "Who should we invite to the party?",
+        "ru": "Кого мы должны пригласить на вечеринку?",
+        "learn": 0
+      },
+      {
+        "eng": "He didn't get no invite to the party.",
+        "ru": "Он не получил приглашения на вечеринку.",
+        "learn": 0
+      },
+      {
+        "eng": "You sound like you didn't get no invite to the dance.",
+        "ru": "По твоему тону я понимаю, что ты не получил приглашение на танцы.",
+        "learn": 0
+      },
+      {
+        "eng": "The hour invites.",
+        "ru": "Время зовёт.",
+        "learn": 0
+      },
+      {
+        "eng": "She's invited us both.",
+        "ru": "Она пригласила нас обоих.",
+        "learn": 1
+      },
+      {
+        "eng": "He invited us for a jaw.",
+        "ru": "Он нас пригласил перекинуться парой слов.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid I wasn't invited.",
+        "ru": "Я боюсь, что я не была приглашена. / К сожалению, меня не пригласили.",
+        "learn": 0
+      },
+      {
+        "eng": "Were you invited to her party?",
+        "ru": "Тебя пригласили к ней на вечеринку?",
+        "learn": 0
+      },
+      {
+        "eng": "It was an honor to be invited.",
+        "ru": "Для меня было большой честью получить приглашение.",
+        "learn": 0
+      },
+      {
+        "eng": "He was honoured to be invited.",
+        "ru": "Он заслужил, чтобы его пригласили.",
+        "learn": 0
+      },
+      {
+        "eng": "Everyone is cordially invited.",
+        "ru": "Всех милости просим.",
+        "learn": 0
+      },
+      {
+        "eng": "I invited him, but he declined.",
+        "ru": "Я пригласил его, но он отказался.",
+        "learn": 0
+      },
+      {
+        "eng": "I invited them to a restaurant.",
+        "ru": "Я пригласил их в ресторан.",
+        "learn": 0
+      },
+      {
+        "eng": "I've invited them for 9 o'clock.",
+        "ru": "Я пригласил их на девять часов.",
+        "learn": 0
+      },
+      {
+        "eng": "I invited them around for supper.",
+        "ru": "Я пригласил их к себе на ужин.",
+        "learn": 0
+      },
+      {
+        "eng": "You're invited to a costume party!",
+        "ru": "Вы приглашены на костюмированную вечеринку /маскарад/!",
+        "learn": 0
+      },
+      {
+        "eng": "They kindly invited us to come in.",
+        "ru": "Они любезно пригласили нас войти.",
+        "learn": 1
+      },
+      {
+        "eng": "Max has invited me over for dinner.",
+        "ru": "Макс пригласил меня к себе домой на ужин.",
+        "learn": 0
+      },
+      {
+        "eng": "Many are invited but few are chosen.",
+        "ru": "Много званных, но мало избранных.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't invite that drip to your party!",
+        "ru": "Не приглашайте к себе на вечеринку этого тупицу!",
+        "learn": 0
+      },
+      {
+        "eng": "It was mean of him not to invite her.",
+        "ru": "С его стороны было подло её не пригласить.",
+        "learn": 0
+      },
+      {
+        "eng": "We invited our friends and neighbors.",
+        "ru": "Мы пригласили друзей и соседей.",
+        "learn": 0
+      },
+      {
+        "eng": "A select number of people are invited.",
+        "ru": "Приглашены только избранные.",
+        "learn": 0
+      },
+      {
+        "eng": "We invited Clarissa out for ice cream.",
+        "ru": "Мы пригласили Клариссу поесть мороженого.",
+        "learn": 0
+      },
+      {
+        "eng": "The log fire looked warm and inviting.",
+        "ru": "Камин казался теплым и манящим.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know whether they were invited.",
+        "ru": "Я не знаю, были ли они приглашены.",
+        "learn": 0
+      },
+      {
+        "eng": "The event is limited to invited guests.",
+        "ru": "Мероприятие предназначено только для приглашённых гостей.",
+        "learn": 0
+      },
+      {
+        "eng": "It was unkind of you not to invite her.",
+        "ru": "С твоей стороны было жестоко её не пригласить.",
+        "learn": 1
+      },
+      {
+        "eng": "He invited her as a matter of courtesy.",
+        "ru": "Он пригласил её из вежливости.",
+        "learn": 0
+      },
+      {
+        "eng": "It's a great pity Joyce wasn't invited.",
+        "ru": "Очень жаль, что Джойса не пригласили.",
+        "learn": 0
+      }
+    ]
+  }
 }

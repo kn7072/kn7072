@@ -1,89 +1,175 @@
 {
-    "skill": {
-        "comment": [
-            "skilful",
-            "skilled",
-            "skilfully",
-            "kill",
-            "killing",
-            "killer"
-        ],
-        "translate": "навык, умение, мастерство, квалификация, искусство, ловкость, сноровка, выучка",
-        "transcription": " |skɪl|",
-        "antonyms": [],
-        "mnemonic": [
-            "skill [скил] мастерство, искусство - Только мастерство врача пол (скил- ета)позволит установить.",
-            "skill [skɪl]\nskills - навыки, умения\n***\nИСКУССТВО - подбирать носки (л). (это) skill\nМАСТЕРСТВО - подбирать носки (л). (это) skill\n***\nЧтобы убивать \"skill\",\nне нужно мастерство \"kill\".",
-            "skill [slæm]\nslum [slʌm]\n***\nНе ХЛОПАЙ по ушам ослам. (это) slam\nХлопанье, шум. Сильный удар. Шлем. Хлопать, стучать.\n***\nВ ТРУЩЁБАХ суждено жить ослам. (это) slum"
-        ],
-        "examples": [
-            "Cooking is a useful skill.",
-            "Poker is a game of luck and skill.",
-            "The work is difficult and requires a lot of skill.",
-            "This job requires special skills.",
-            "She played with skill and verve.",
-            "He has excellent social skills.",
-            "Good language skills are a prerequisite for the job.",
-            "There was never an occasion for her to demonstrate her skill.",
-            "She had the skill to cope with a difficult job.",
-            "Reading and writing are two different skills.",
-            "These words are written with clerkly skill.",
-            "This job asks a lot of patience and skill.",
-            "The whole team played with great skill and determination.",
-            "His quick recovery is a testament to the doctor's skill.",
-            "impelling skill as a teller of tales",
-            "With much practice, she has achieved a high level of skill.",
-            "The rookie player displayed great skill.",
-            "the slow development of her skill as a writer",
-            "Candidates must compete in a trial of skill.",
-            "Her skill and talent ennoble her profession.",
-            "His labor did not require a great deal of skill.",
-            "In agility and skill at his weapons he had few equals.",
-            "This skill will enable you to find a job on Wall Street.",
-            "He plays the piano with consummate skill.",
-            "His easy victory was a testament to his skill.",
-            "Perseverance is required to perfect just about any skill.",
-            "Losing that contract doesn't say much for the director's skill in business.",
-            "He tried out his skill at archery.",
-            "He conducts the choir with great skill and emotion.",
-            "Are you willing to pit your skill against that of our leading player?"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Умение готовить — это полезный навык.",
-            "Покер это игра удачи и мастерства.",
-            "Эта работа тяжёлая и требует большого мастерства.",
-            "Для этой работы нужны особые навыки.",
-            "Она играла мастерски, с огоньком.",
-            "У него отличные социальные навыки.",
-            "Хорошее знание языка для этой должности обязательно.",
-            "У неё никогда не было возможности показать своё мастерство.",
-            "Ей хватало мастерства, чтобы справляться со сложной работой.",
-            "Чтение и письмо — это два различных навыка.",
-            "Эти слова написаны каллиграфическим почерком.",
-            "Эта работа требует много терпения и сноровки.",
-            "Вся команда сыграла очень мастерски и решительно.",
-            "Его быстрое выздоровление свидетельствует о профессионализме врача, у которого он лечился.",
-            "необыкновенное мастерство рассказчика сказок",
-            "Много тренируясь, она достигла высокого уровня мастерства.",
-            "Новичок продемонстрировал мастерскую игру.",
-            "медленное развитие её навыков писателя",
-            "Кандидаты должны пройти конкурс на владение профессиональными навыками.",
-            "Её мастерство и талант облагораживают её профессию.",
-            "Его труд не требовал большого мастерства.",
-            "В ловкости и умении обращаться с оружием немногие могли с ним сравниться",
-            "Этот навык позволит вам найти работу на Уолл-стрит.",
-            "Он играет на фортепиано с непревзойдённым мастерством.",
-            "Лёгкая победа была свидетельством его мастерства.",
-            "Для совершенствования почти любого навыка необходимо упорство.",
-            "Потеря этого контракта не особенно хорошо говорит о деловых качествах директора.",
-            "Он опробовал своё мастерство в стрельбе из лука.",
-            "Он дирижирует хором с чувством и большим мастерством.",
-            "Хочешь помериться силами с нашим главным игроком?"
-        ],
-        "stars": 0,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "skill": {
+    "comment": [
+      "skilful",
+      "skilled",
+      "skilfully",
+      "kill",
+      "killing",
+      "killer"
+    ],
+    "translate": "навык, умение, мастерство, квалификация, искусство, ловкость, сноровка, выучка",
+    "transcription": " |skɪl|",
+    "antonyms": [],
+    "mnemonic": [
+      "skill [скил] мастерство, искусство - Только мастерство врача пол (скил- ета)позволит установить.",
+      "skill [skɪl]\nskills - навыки, умения\n***\nИСКУССТВО - подбирать носки (л). (это) skill\nМАСТЕРСТВО - подбирать носки (л). (это) skill\n***\nЧтобы убивать \"skill\",\nне нужно мастерство \"kill\".",
+      "skill [slæm]\nslum [slʌm]\n***\nНе ХЛОПАЙ по ушам ослам. (это) slam\nХлопанье, шум. Сильный удар. Шлем. Хлопать, стучать.\n***\nВ ТРУЩЁБАХ суждено жить ослам. (это) slum"
+    ],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Cooking is a useful skill.",
+        "ru": "Умение готовить — это полезный навык.",
+        "learn": 0
+      },
+      {
+        "eng": "Poker is a game of luck and skill.",
+        "ru": "Покер это игра удачи и мастерства.",
+        "learn": 0
+      },
+      {
+        "eng": "The work is difficult and requires a lot of skill.",
+        "ru": "Эта работа тяжёлая и требует большого мастерства.",
+        "learn": 0
+      },
+      {
+        "eng": "This job requires special skills.",
+        "ru": "Для этой работы нужны особые навыки.",
+        "learn": 0
+      },
+      {
+        "eng": "She played with skill and verve.",
+        "ru": "Она играла мастерски, с огоньком.",
+        "learn": 0
+      },
+      {
+        "eng": "He has excellent social skills.",
+        "ru": "У него отличные социальные навыки.",
+        "learn": 0
+      },
+      {
+        "eng": "Good language skills are a prerequisite for the job.",
+        "ru": "Хорошее знание языка для этой должности обязательно.",
+        "learn": 0
+      },
+      {
+        "eng": "There was never an occasion for her to demonstrate her skill.",
+        "ru": "У неё никогда не было возможности показать своё мастерство.",
+        "learn": 0
+      },
+      {
+        "eng": "She had the skill to cope with a difficult job.",
+        "ru": "Ей хватало мастерства, чтобы справляться со сложной работой.",
+        "learn": 0
+      },
+      {
+        "eng": "Reading and writing are two different skills.",
+        "ru": "Чтение и письмо — это два различных навыка.",
+        "learn": 0
+      },
+      {
+        "eng": "These words are written with clerkly skill.",
+        "ru": "Эти слова написаны каллиграфическим почерком.",
+        "learn": 0
+      },
+      {
+        "eng": "This job asks a lot of patience and skill.",
+        "ru": "Эта работа требует много терпения и сноровки.",
+        "learn": 0
+      },
+      {
+        "eng": "The whole team played with great skill and determination.",
+        "ru": "Вся команда сыграла очень мастерски и решительно.",
+        "learn": 0
+      },
+      {
+        "eng": "His quick recovery is a testament to the doctor's skill.",
+        "ru": "Его быстрое выздоровление свидетельствует о профессионализме врача, у которого он лечился.",
+        "learn": 0
+      },
+      {
+        "eng": "impelling skill as a teller of tales",
+        "ru": "необыкновенное мастерство рассказчика сказок",
+        "learn": 0
+      },
+      {
+        "eng": "With much practice, she has achieved a high level of skill.",
+        "ru": "Много тренируясь, она достигла высокого уровня мастерства.",
+        "learn": 0
+      },
+      {
+        "eng": "The rookie player displayed great skill.",
+        "ru": "Новичок продемонстрировал мастерскую игру.",
+        "learn": 0
+      },
+      {
+        "eng": "the slow development of her skill as a writer",
+        "ru": "медленное развитие её навыков писателя",
+        "learn": 0
+      },
+      {
+        "eng": "Candidates must compete in a trial of skill.",
+        "ru": "Кандидаты должны пройти конкурс на владение профессиональными навыками.",
+        "learn": 0
+      },
+      {
+        "eng": "Her skill and talent ennoble her profession.",
+        "ru": "Её мастерство и талант облагораживают её профессию.",
+        "learn": 0
+      },
+      {
+        "eng": "His labor did not require a great deal of skill.",
+        "ru": "Его труд не требовал большого мастерства.",
+        "learn": 0
+      },
+      {
+        "eng": "In agility and skill at his weapons he had few equals.",
+        "ru": "В ловкости и умении обращаться с оружием немногие могли с ним сравниться",
+        "learn": 0
+      },
+      {
+        "eng": "This skill will enable you to find a job on Wall Street.",
+        "ru": "Этот навык позволит вам найти работу на Уолл-стрит.",
+        "learn": 1
+      },
+      {
+        "eng": "He plays the piano with consummate skill.",
+        "ru": "Он играет на фортепиано с непревзойдённым мастерством.",
+        "learn": 0
+      },
+      {
+        "eng": "His easy victory was a testament to his skill.",
+        "ru": "Лёгкая победа была свидетельством его мастерства.",
+        "learn": 1
+      },
+      {
+        "eng": "Perseverance is required to perfect just about any skill.",
+        "ru": "Для совершенствования почти любого навыка необходимо упорство.",
+        "learn": 0
+      },
+      {
+        "eng": "Losing that contract doesn't say much for the director's skill in business.",
+        "ru": "Потеря этого контракта не особенно хорошо говорит о деловых качествах директора.",
+        "learn": 0
+      },
+      {
+        "eng": "He tried out his skill at archery.",
+        "ru": "Он опробовал своё мастерство в стрельбе из лука.",
+        "learn": 0
+      },
+      {
+        "eng": "He conducts the choir with great skill and emotion.",
+        "ru": "Он дирижирует хором с чувством и большим мастерством.",
+        "learn": 1
+      },
+      {
+        "eng": "Are you willing to pit your skill against that of our leading player?",
+        "ru": "Хочешь помериться силами с нашим главным игроком?",
+        "learn": 0
+      }
+    ]
+  }
 }

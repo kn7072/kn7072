@@ -1,82 +1,168 @@
 {
-    "feature": {
-        "comment": [
-            "defeat"
-        ],
-        "translate": "особенность, черта, характеристика, показывать, изображать, набрасывать",
-        "transcription": " |ˈfiːtʃər|",
-        "antonyms": [],
-        "mnemonic": [
-            "feature ['fi: tʃə]\n***\nОПИСЫВАЛ он всё катастрофично. (это) feature\nОЧЕРК был биографичен. (это) feature\nЧЕРТЫ ЛИЦА его специфичны. (это) feature\nОПИСАЛ биографично. (это) feature\nЕго ОСОБЕННОСТЬ - он специфичен. (это) feature\nОсобенность, признак, свойство, деталь."
-        ],
-        "examples": [
-            "The map showed roads and other features.",
-            "He had fine delicate features.",
-            "The latest popular actress is featured in this new film.",
-            "It's a must-be feature for me.",
-            "Her eyes are her best feature.",
-            "All laboratory men feature in this research.",
-            "Fear, hope, dismay featured every face.",
-            "The characters cannot be minutely featured.",
-            "The film featured Brando as the Godfather.",
-            "The show now features a new singer.",
-            "This camera has several features that make it easy to use.",
-            "The evening news report featured the story of the murder.",
-            "The Government posters feature precisely the same epithets.",
-            "Migration from the South has long been a significant feature of Black history.",
-            "The newspaper featured health care on its front page.",
-            "The main distinguishing feature of this species is the leaf shape.",
-            "Her eyes were her best feature.",
-            "Smaller families are a feature of modern society.",
-            "The car has some interesting new design features.",
-            "The new menu features several low-fat entrees.",
-            "Striped tails are a common feature of many animals.",
-            "The building features a state-of-the-art security system.",
-            "The job's only redeeming feature is the employee discount.",
-            "One important diagnostic feature of this condition is a mild rash.",
-            "Air bags are a standard feature in most new cars.",
-            "Electric windows are a common feature in new cars.",
-            "The redeeming feature of the plan is its simplicity.",
-            "The handsets will be branded with the Aston Martin logo and will feature the sound of an Aston Martin engine as a ring tone.",
-            "a feature of modern jazz idiom",
-            "a relatively unimportant feature of the system"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "На карте были показаны дороги и другие характерные особенности местности.",
-            "У него были тонкие, изящные черты лица.",
-            "В этом новом фильме играет самая популярная сейчас актриса.",
-            "Для меня эта функция /черта, особенность/ необходима.",
-            "Самое красивое на её лице — это глаза.",
-            "В этом исследовании заняты все работники лаборатории.",
-            "На каждом лице отражались страх, надежда, тревога.",
-            "Данных персонажей невозможно изобразить во всех подробностях.",
-            "В этом фильме Брандо снялся в роли Крёстного Отца.",
-            "В этом шоу теперь выступает новая певица.",
-            "Несколько особенностей данной камеры делают её простой в использовании.",
-            "В вечерних новостях показали сюжет об этом убийстве.",
-            "На правительственных плакатах встречаются совершенно те же эпитеты.",
-            "Переселение с Юга давно является важной вехой в истории чернокожих.",
-            "Эта газета посвятила охране здоровья большую статью на первой странице.",
-            "Главной отличительной чертой этого вида является форма листа.",
-            "Лучше всего у неё были глаза.",
-            "Одной из характерных особенностей современного общества являются небольшие семьи.",
-            "Данный автомобиль обладает некоторыми интересными конструктивными особенностями.",
-            "В новое меню входит несколько блюд с низким содержанием жира.",
-            "Полосатые хвосты являются общей чертой многих животных.",
-            "Это здание располагает самой современной системой безопасности.",
-            "Единственный плюс этой работы — скидка для сотрудников.",
-            "Одним из важных диагностических признаков этого заболевания является лёгкая сыпь.",
-            "Подушки безопасности являются стандартной функцией в большинстве новых автомобилей.",
-            "В новых автомобилях электрические стеклоподъёмники широко распространены.",
-            "Единственным достоинством этого плана является его простота.",
-            "На данных мобильных телефонах будет стоять логотип \"Астон Мартин\", а в качестве рингтона будет использоваться звук мотора этого автомобиля.",
-            "особенность современного джазового стиля",
-            "сравнительно маловажная особенность данной системы"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "feature": {
+    "comment": [
+      "defeat"
+    ],
+    "translate": "особенность, черта, характеристика, показывать, изображать, набрасывать",
+    "transcription": " |ˈfiːtʃər|",
+    "antonyms": [],
+    "mnemonic": [
+      "feature ['fi: tʃə]\n***\nОПИСЫВАЛ он всё катастрофично. (это) feature\nОЧЕРК был биографичен. (это) feature\nЧЕРТЫ ЛИЦА его специфичны. (это) feature\nОПИСАЛ биографично. (это) feature\nЕго ОСОБЕННОСТЬ - он специфичен. (это) feature\nОсобенность, признак, свойство, деталь."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The map showed roads and other features.",
+        "ru": "На карте были показаны дороги и другие характерные особенности местности.",
+        "learn": 0
+      },
+      {
+        "eng": "He had fine delicate features.",
+        "ru": "У него были тонкие, изящные черты лица.",
+        "learn": 0
+      },
+      {
+        "eng": "The latest popular actress is featured in this new film.",
+        "ru": "В этом новом фильме играет самая популярная сейчас актриса.",
+        "learn": 0
+      },
+      {
+        "eng": "It's a must-be feature for me.",
+        "ru": "Для меня эта функция /черта, особенность/ необходима.",
+        "learn": 0
+      },
+      {
+        "eng": "Her eyes are her best feature.",
+        "ru": "Самое красивое на её лице — это глаза.",
+        "learn": 0
+      },
+      {
+        "eng": "All laboratory men feature in this research.",
+        "ru": "В этом исследовании заняты все работники лаборатории.",
+        "learn": 0
+      },
+      {
+        "eng": "Fear, hope, dismay featured every face.",
+        "ru": "На каждом лице отражались страх, надежда, тревога.",
+        "learn": 0
+      },
+      {
+        "eng": "The characters cannot be minutely featured.",
+        "ru": "Данных персонажей невозможно изобразить во всех подробностях.",
+        "learn": 0
+      },
+      {
+        "eng": "The film featured Brando as the Godfather.",
+        "ru": "В этом фильме Брандо снялся в роли Крёстного Отца.",
+        "learn": 0
+      },
+      {
+        "eng": "The show now features a new singer.",
+        "ru": "В этом шоу теперь выступает новая певица.",
+        "learn": 0
+      },
+      {
+        "eng": "This camera has several features that make it easy to use.",
+        "ru": "Несколько особенностей данной камеры делают её простой в использовании.",
+        "learn": 0
+      },
+      {
+        "eng": "The evening news report featured the story of the murder.",
+        "ru": "В вечерних новостях показали сюжет об этом убийстве.",
+        "learn": 0
+      },
+      {
+        "eng": "The Government posters feature precisely the same epithets.",
+        "ru": "На правительственных плакатах встречаются совершенно те же эпитеты.",
+        "learn": 0
+      },
+      {
+        "eng": "Migration from the South has long been a significant feature of Black history.",
+        "ru": "Переселение с Юга давно является важной вехой в истории чернокожих.",
+        "learn": 0
+      },
+      {
+        "eng": "The newspaper featured health care on its front page.",
+        "ru": "Эта газета посвятила охране здоровья большую статью на первой странице.",
+        "learn": 0
+      },
+      {
+        "eng": "The main distinguishing feature of this species is the leaf shape.",
+        "ru": "Главной отличительной чертой этого вида является форма листа.",
+        "learn": 1
+      },
+      {
+        "eng": "Her eyes were her best feature.",
+        "ru": "Лучше всего у неё были глаза.",
+        "learn": 0
+      },
+      {
+        "eng": "Smaller families are a feature of modern society.",
+        "ru": "Одной из характерных особенностей современного общества являются небольшие семьи.",
+        "learn": 0
+      },
+      {
+        "eng": "The car has some interesting new design features.",
+        "ru": "Данный автомобиль обладает некоторыми интересными конструктивными особенностями.",
+        "learn": 0
+      },
+      {
+        "eng": "The new menu features several low-fat entrees.",
+        "ru": "В новое меню входит несколько блюд с низким содержанием жира.",
+        "learn": 0
+      },
+      {
+        "eng": "Striped tails are a common feature of many animals.",
+        "ru": "Полосатые хвосты являются общей чертой многих животных.",
+        "learn": 1
+      },
+      {
+        "eng": "The building features a state-of-the-art security system.",
+        "ru": "Это здание располагает самой современной системой безопасности.",
+        "learn": 0
+      },
+      {
+        "eng": "The job's only redeeming feature is the employee discount.",
+        "ru": "Единственный плюс этой работы — скидка для сотрудников.",
+        "learn": 0
+      },
+      {
+        "eng": "One important diagnostic feature of this condition is a mild rash.",
+        "ru": "Одним из важных диагностических признаков этого заболевания является лёгкая сыпь.",
+        "learn": 0
+      },
+      {
+        "eng": "Air bags are a standard feature in most new cars.",
+        "ru": "Подушки безопасности являются стандартной функцией в большинстве новых автомобилей.",
+        "learn": 0
+      },
+      {
+        "eng": "Electric windows are a common feature in new cars.",
+        "ru": "В новых автомобилях электрические стеклоподъёмники широко распространены.",
+        "learn": 0
+      },
+      {
+        "eng": "The redeeming feature of the plan is its simplicity.",
+        "ru": "Единственным достоинством этого плана является его простота.",
+        "learn": 0
+      },
+      {
+        "eng": "The handsets will be branded with the Aston Martin logo and will feature the sound of an Aston Martin engine as a ring tone.",
+        "ru": "На данных мобильных телефонах будет стоять логотип \"Астон Мартин\", а в качестве рингтона будет использоваться звук мотора этого автомобиля.",
+        "learn": 0
+      },
+      {
+        "eng": "a feature of modern jazz idiom",
+        "ru": "особенность современного джазового стиля",
+        "learn": 0
+      },
+      {
+        "eng": "a relatively unimportant feature of the system",
+        "ru": "сравнительно маловажная особенность данной системы",
+        "learn": 0
+      }
+    ]
+  }
 }

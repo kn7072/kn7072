@@ -1,84 +1,170 @@
 {
-    "description": {
-        "comment": [
-            "script",
-            "manuscript",
-            "transcript",
-            "subscription",
-            "prescription"
-        ],
-        "translate": "описание, изображение, вид, род, сорт, вычерчивание",
-        "transcription": " |dɪˈskrɪpʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The description checks with the photograph.",
-            "His description does not square with reality",
-            "His description quadrates with yours.",
-            "The police have put out a description of the thieves.",
-            "This description must be sent in a letter post-paid.",
-            "The booklet gives a brief description of each place.",
-            "Her photograph corresponds with the description that he gave us.",
-            "The writer began with a description of the area.",
-            "No exact description is given of the march of the spasms.",
-            "The man answers (to) the description of the wanted murderer.",
-            "a writer with a gift of description",
-            "Every description of book was there.",
-            "The beauty of the scene defies description.",
-            "a picturesque description of the rainforest",
-            "I applied for the position after reading the job description.",
-            "Police said the car fits the description of the stolen vehicle.",
-            "He begins his book with an affecting description of his difficult childhood.",
-            "Instead of a verbal description, we will give a rough sketch of the nursery.",
-            "'Love at first sight' is a very apt description of how he felt when he saw her.",
-            "The prisoner measures up to the description the police have of the wanted thief.",
-            "This reporter has the ability to strike off a good description of the scene he is covering.",
-            "This beggars description!",
-            "a particular description of the room",
-            "His writing was strong on description.",
-            "Tick the description that best fits you.",
-            "a general description of the merchandise",
-            "a description unconformable to previous accounts",
-            "She gave an animated description of the project.",
-            "The death and destruction were beyond description.",
-            "a spellbinding description of life in ancient Rome"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Описание соответствует фотографии.",
-            "Его описание не соответствует действительности.",
-            "Его описание совпадает с вашим.",
-            "Полиция распространила описание воров.",
-            "Это описание должно быть послано в письме с оплаченными почтовыми расходами.",
-            "В буклете даётся краткое описание каждого места.",
-            "Её фотография совпадает с описанием, которое он нам дал.",
-            "Автор начал с описания местности.",
-            "Нет точного описания протекания спазмов.",
-            "Этот человек соответствует описанию разыскиваемого убийцы.",
-            "писатель, обладающий талантом к описанию",
-            "Каких книг там только не было.",
-            "Красота этой сцены не поддаётся описанию.",
-            "живописное описание тропического леса",
-            "Я подал заявление на должность, прочитав описание работы.",
-            "По словам полицейских, машина подходит под описание похищенного автомобиля.",
-            "Он начинает книгу с трогательного описания своего трудного детства.",
-            "Вместо словесных описаний мы предоставим приблизительный эскиз детской.",
-            "«Любовь с первого взгляда» — это очень подходящее описание того, что он почувствовал, когда увидел её.",
-            "Арестованный подходит под описание вора, имеющееся у полиции.",
-            "Этот репортёр умеет точно и быстро описать увиденное.",
-            "Это неописуемо! / Это не поддаётся описанию!",
-            "подробное описание данного помещения",
-            "Сильной стороной его произведений были описания.",
-            "Поставьте галочку напротив описания, которое больше всего вам подходит.",
-            "общее описание данного товара",
-            "описание, не соответствующее предыдущим сообщениям",
-            "Она бойко описала этот проект.",
-            "Смерть и разрушения были неописуемы.",
-            "увлекательное описание жизни в Древнем Риме"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "description": {
+    "comment": [
+      "script",
+      "manuscript",
+      "transcript",
+      "subscription",
+      "prescription"
+    ],
+    "translate": "описание, изображение, вид, род, сорт, вычерчивание",
+    "transcription": " |dɪˈskrɪpʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The description checks with the photograph.",
+        "ru": "Описание соответствует фотографии.",
+        "learn": 1
+      },
+      {
+        "eng": "His description does not square with reality",
+        "ru": "Его описание не соответствует действительности.",
+        "learn": 0
+      },
+      {
+        "eng": "His description quadrates with yours.",
+        "ru": "Его описание совпадает с вашим.",
+        "learn": 0
+      },
+      {
+        "eng": "The police have put out a description of the thieves.",
+        "ru": "Полиция распространила описание воров.",
+        "learn": 0
+      },
+      {
+        "eng": "This description must be sent in a letter post-paid.",
+        "ru": "Это описание должно быть послано в письме с оплаченными почтовыми расходами.",
+        "learn": 0
+      },
+      {
+        "eng": "The booklet gives a brief description of each place.",
+        "ru": "В буклете даётся краткое описание каждого места.",
+        "learn": 1
+      },
+      {
+        "eng": "Her photograph corresponds with the description that he gave us.",
+        "ru": "Её фотография совпадает с описанием, которое он нам дал.",
+        "learn": 0
+      },
+      {
+        "eng": "The writer began with a description of the area.",
+        "ru": "Автор начал с описания местности.",
+        "learn": 0
+      },
+      {
+        "eng": "No exact description is given of the march of the spasms.",
+        "ru": "Нет точного описания протекания спазмов.",
+        "learn": 0
+      },
+      {
+        "eng": "The man answers (to) the description of the wanted murderer.",
+        "ru": "Этот человек соответствует описанию разыскиваемого убийцы.",
+        "learn": 0
+      },
+      {
+        "eng": "a writer with a gift of description",
+        "ru": "писатель, обладающий талантом к описанию",
+        "learn": 0
+      },
+      {
+        "eng": "Every description of book was there.",
+        "ru": "Каких книг там только не было.",
+        "learn": 0
+      },
+      {
+        "eng": "The beauty of the scene defies description.",
+        "ru": "Красота этой сцены не поддаётся описанию.",
+        "learn": 0
+      },
+      {
+        "eng": "a picturesque description of the rainforest",
+        "ru": "живописное описание тропического леса",
+        "learn": 0
+      },
+      {
+        "eng": "I applied for the position after reading the job description.",
+        "ru": "Я подал заявление на должность, прочитав описание работы.",
+        "learn": 0
+      },
+      {
+        "eng": "Police said the car fits the description of the stolen vehicle.",
+        "ru": "По словам полицейских, машина подходит под описание похищенного автомобиля.",
+        "learn": 0
+      },
+      {
+        "eng": "He begins his book with an affecting description of his difficult childhood.",
+        "ru": "Он начинает книгу с трогательного описания своего трудного детства.",
+        "learn": 0
+      },
+      {
+        "eng": "Instead of a verbal description, we will give a rough sketch of the nursery.",
+        "ru": "Вместо словесных описаний мы предоставим приблизительный эскиз детской.",
+        "learn": 1
+      },
+      {
+        "eng": "'Love at first sight' is a very apt description of how he felt when he saw her.",
+        "ru": "«Любовь с первого взгляда» — это очень подходящее описание того, что он почувствовал, когда увидел её.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner measures up to the description the police have of the wanted thief.",
+        "ru": "Арестованный подходит под описание вора, имеющееся у полиции.",
+        "learn": 0
+      },
+      {
+        "eng": "This reporter has the ability to strike off a good description of the scene he is covering.",
+        "ru": "Этот репортёр умеет точно и быстро описать увиденное.",
+        "learn": 0
+      },
+      {
+        "eng": "This beggars description!",
+        "ru": "Это неописуемо! / Это не поддаётся описанию!",
+        "learn": 0
+      },
+      {
+        "eng": "a particular description of the room",
+        "ru": "подробное описание данного помещения",
+        "learn": 0
+      },
+      {
+        "eng": "His writing was strong on description.",
+        "ru": "Сильной стороной его произведений были описания.",
+        "learn": 0
+      },
+      {
+        "eng": "Tick the description that best fits you.",
+        "ru": "Поставьте галочку напротив описания, которое больше всего вам подходит.",
+        "learn": 1
+      },
+      {
+        "eng": "a general description of the merchandise",
+        "ru": "общее описание данного товара",
+        "learn": 0
+      },
+      {
+        "eng": "a description unconformable to previous accounts",
+        "ru": "описание, не соответствующее предыдущим сообщениям",
+        "learn": 0
+      },
+      {
+        "eng": "She gave an animated description of the project.",
+        "ru": "Она бойко описала этот проект.",
+        "learn": 0
+      },
+      {
+        "eng": "The death and destruction were beyond description.",
+        "ru": "Смерть и разрушения были неописуемы.",
+        "learn": 0
+      },
+      {
+        "eng": "a spellbinding description of life in ancient Rome",
+        "ru": "увлекательное описание жизни в Древнем Риме",
+        "learn": 0
+      }
+    ]
+  }
 }

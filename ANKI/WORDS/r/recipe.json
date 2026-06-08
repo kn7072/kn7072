@@ -1,88 +1,174 @@
 {
-    "recipe": {
-        "comment": [
-            "precise",
-            "appreciate",
-            "precisely",
-            "appreciation",
-            "precious",
-            "precision"
-        ],
-        "translate": "рецепт, способ, средство, предписание",
-        "transcription": " |ˈresəpi|",
-        "antonyms": [],
-        "mnemonic": [
-            "recipe [рэ'сипи] рецепт - (Россыпи) рецептов на столе врача.",
-            "recipe ['resə pɪ]\nreception [rɪ'sɛpʃən]\nrecipient [rɪ'sɪpɪənt] - получатель\n***\nРЕЦЕПТЫ с интересом|пил. (это) recipe\nПришёл за РЕЦЕПТОМ - даже при жаре|сипи. (это)\nrecipe\nРЕЦЕПТ на стенку прицепи. (это) recipe\n***\nПришёл на ПРИЁМ за рецептом - подойди к окну\n\"ресепшен\". (это) reception\nРегистрация, приёмная, регистратура."
-        ],
-        "examples": [
-            "This is one of my grandmother's recipes.",
-            "The recipe calls for a teaspoon of ginger.",
-            "I didn't read the recipe carefully.",
-            "Maria's special recipe for apple pie",
-            "The cake recipe calls for four squares of chocolate.",
-            "The recipe calls for a tablespoon of lemon zest.",
-            "The recipe calls for fresh thyme.",
-            "The recipe is sufficient for six people.",
-            "The recipe says you can substitute yoghurt for the sour cream.",
-            "The recipe calls for the herbs to be crumbled.",
-            "The recipe calls for three tablespoons of cocoa.",
-            "This recipe is a cinch.",
-            "Don't overdo the salt in this recipe.",
-            "The recipe says that you should marinate the chicken overnight.",
-            "The recipe calls for chopped onions.",
-            "Large-scale inflation is a recipe for disaster.",
-            "That recipe takes ages.",
-            "I've found a recipe for beetroot tops.",
-            "The cookies are made to a secret recipe.",
-            "This recipe makes about two dozen cookies.",
-            "The recipe calls for a tablespoon of curry.",
-            "The recipe lists all the fixings for a salad.",
-            "He added his own personal touches to the recipe.",
-            "The recipe calls for a teaspoon of baking powder.",
-            "You can use either fresh or dried basil for this recipe.",
-            "The recipe calls for chopped onion.",
-            "a fail-safe recipe for cheese souffle",
-            "The egg in the recipe acts as a binder.",
-            "The cake recipe calls for four egg whites.",
-            "I thought I might venture on a new recipe."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Это один из бабушкиных рецептов.",
-            "Рецепт включает в себя чайную ложку имбиря. (для приготовления по рецепту требуется...)",
-            "Я не вчитывался в рецепт.",
-            "особый рецепт яблочного пирога Марии",
-            "Рецепт пирога требует четыре кусочка шоколада. (квадратные кусочки отломленные от плитки)",
-            "По рецепту нужна столовая ложка цедры лимона.",
-            "Рецепт требует свежего тимьяна.",
-            "Этот рецепт рассчитан на шесть человек.",
-            "В рецепте сказано, что можно заменить сметану йогуртом.",
-            "По рецепту, зелень следует мелко накрошить.",
-            "Для этого рецепта потребуется три столовые ложки какао.",
-            "Этот рецепт прост.",
-            "Готовя по этому рецепту, не переборщи с солью.",
-            "Согласно рецепту, надо мариновать курицу всю ночь.",
-            "Для этого рецепта требуется мелко нарезанный лук.",
-            "Высокая инфляция - это верный путь к катастрофе.",
-            "Блюдо по этому рецепту готовить очень долго.",
-            "Я нашла рецепт приготовления свекольной ботвы.",
-            "Это печенье изготовлено по секретному рецепту.",
-            "Этот рецепт рассчитан примерно на две дюжины печенюшек.",
-            "Для этого рецепта потребуется столовая ложка карри.",
-            "В рецепте перечислено всё, что нужно для салата.",
-            "Он добавил к этому рецепту несколько характерных штрихов.",
-            "Для этого рецепта понадобится чайная ложка разрыхлителя.",
-            "Для этого рецепта можно использовать как свежий, так и сушёный базилик.",
-            "Для этого рецепта требуется нарезать /накрошить/ лук.",
-            "безотказный рецепт сырного суфле",
-            "Яйцо в этом рецепте действует в качестве связующего вещества.",
-            "Для рецепта этого торта требуется четыре яичных белка.",
-            "Я подумал, что стоит рискнуть и опробовать новый рецепт."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "recipe": {
+    "comment": [
+      "precise",
+      "appreciate",
+      "precisely",
+      "appreciation",
+      "precious",
+      "precision"
+    ],
+    "translate": "рецепт, способ, средство, предписание",
+    "transcription": " |ˈresəpi|",
+    "antonyms": [],
+    "mnemonic": [
+      "recipe [рэ'сипи] рецепт - (Россыпи) рецептов на столе врача.",
+      "recipe ['resə pɪ]\nreception [rɪ'sɛpʃən]\nrecipient [rɪ'sɪpɪənt] - получатель\n***\nРЕЦЕПТЫ с интересом|пил. (это) recipe\nПришёл за РЕЦЕПТОМ - даже при жаре|сипи. (это)\nrecipe\nРЕЦЕПТ на стенку прицепи. (это) recipe\n***\nПришёл на ПРИЁМ за рецептом - подойди к окну\n\"ресепшен\". (это) reception\nРегистрация, приёмная, регистратура."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "This is one of my grandmother's recipes.",
+        "ru": "Это один из бабушкиных рецептов.",
+        "learn": 0
+      },
+      {
+        "eng": "The recipe calls for a teaspoon of ginger.",
+        "ru": "Рецепт включает в себя чайную ложку имбиря. (для приготовления по рецепту требуется...)",
+        "learn": 0
+      },
+      {
+        "eng": "I didn't read the recipe carefully.",
+        "ru": "Я не вчитывался в рецепт.",
+        "learn": 0
+      },
+      {
+        "eng": "Maria's special recipe for apple pie",
+        "ru": "особый рецепт яблочного пирога Марии",
+        "learn": 1
+      },
+      {
+        "eng": "The cake recipe calls for four squares of chocolate.",
+        "ru": "Рецепт пирога требует четыре кусочка шоколада. (квадратные кусочки отломленные от плитки)",
+        "learn": 0
+      },
+      {
+        "eng": "The recipe calls for a tablespoon of lemon zest.",
+        "ru": "По рецепту нужна столовая ложка цедры лимона.",
+        "learn": 0
+      },
+      {
+        "eng": "The recipe calls for fresh thyme.",
+        "ru": "Рецепт требует свежего тимьяна.",
+        "learn": 0
+      },
+      {
+        "eng": "The recipe is sufficient for six people.",
+        "ru": "Этот рецепт рассчитан на шесть человек.",
+        "learn": 0
+      },
+      {
+        "eng": "The recipe says you can substitute yoghurt for the sour cream.",
+        "ru": "В рецепте сказано, что можно заменить сметану йогуртом.",
+        "learn": 1
+      },
+      {
+        "eng": "The recipe calls for the herbs to be crumbled.",
+        "ru": "По рецепту, зелень следует мелко накрошить.",
+        "learn": 0
+      },
+      {
+        "eng": "The recipe calls for three tablespoons of cocoa.",
+        "ru": "Для этого рецепта потребуется три столовые ложки какао.",
+        "learn": 0
+      },
+      {
+        "eng": "This recipe is a cinch.",
+        "ru": "Этот рецепт прост.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't overdo the salt in this recipe.",
+        "ru": "Готовя по этому рецепту, не переборщи с солью.",
+        "learn": 0
+      },
+      {
+        "eng": "The recipe says that you should marinate the chicken overnight.",
+        "ru": "Согласно рецепту, надо мариновать курицу всю ночь.",
+        "learn": 0
+      },
+      {
+        "eng": "The recipe calls for chopped onions.",
+        "ru": "Для этого рецепта требуется мелко нарезанный лук.",
+        "learn": 0
+      },
+      {
+        "eng": "Large-scale inflation is a recipe for disaster.",
+        "ru": "Высокая инфляция - это верный путь к катастрофе.",
+        "learn": 1
+      },
+      {
+        "eng": "That recipe takes ages.",
+        "ru": "Блюдо по этому рецепту готовить очень долго.",
+        "learn": 0
+      },
+      {
+        "eng": "I've found a recipe for beetroot tops.",
+        "ru": "Я нашла рецепт приготовления свекольной ботвы.",
+        "learn": 0
+      },
+      {
+        "eng": "The cookies are made to a secret recipe.",
+        "ru": "Это печенье изготовлено по секретному рецепту.",
+        "learn": 0
+      },
+      {
+        "eng": "This recipe makes about two dozen cookies.",
+        "ru": "Этот рецепт рассчитан примерно на две дюжины печенюшек.",
+        "learn": 0
+      },
+      {
+        "eng": "The recipe calls for a tablespoon of curry.",
+        "ru": "Для этого рецепта потребуется столовая ложка карри.",
+        "learn": 0
+      },
+      {
+        "eng": "The recipe lists all the fixings for a salad.",
+        "ru": "В рецепте перечислено всё, что нужно для салата.",
+        "learn": 0
+      },
+      {
+        "eng": "He added his own personal touches to the recipe.",
+        "ru": "Он добавил к этому рецепту несколько характерных штрихов.",
+        "learn": 0
+      },
+      {
+        "eng": "The recipe calls for a teaspoon of baking powder.",
+        "ru": "Для этого рецепта понадобится чайная ложка разрыхлителя.",
+        "learn": 0
+      },
+      {
+        "eng": "You can use either fresh or dried basil for this recipe.",
+        "ru": "Для этого рецепта можно использовать как свежий, так и сушёный базилик.",
+        "learn": 0
+      },
+      {
+        "eng": "The recipe calls for chopped onion.",
+        "ru": "Для этого рецепта требуется нарезать /накрошить/ лук.",
+        "learn": 0
+      },
+      {
+        "eng": "a fail-safe recipe for cheese souffle",
+        "ru": "безотказный рецепт сырного суфле",
+        "learn": 0
+      },
+      {
+        "eng": "The egg in the recipe acts as a binder.",
+        "ru": "Яйцо в этом рецепте действует в качестве связующего вещества.",
+        "learn": 0
+      },
+      {
+        "eng": "The cake recipe calls for four egg whites.",
+        "ru": "Для рецепта этого торта требуется четыре яичных белка.",
+        "learn": 0
+      },
+      {
+        "eng": "I thought I might venture on a new recipe.",
+        "ru": "Я подумал, что стоит рискнуть и опробовать новый рецепт.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,69 +1,137 @@
 {
-    "trend": {
-        "comment": [
-            "render",
-            "surrender"
-        ],
-        "translate": " тенденция, направление, устремленность, иметь тенденцию, отклоняться",
-        "transcription": "  |trend|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Events trend towards a reconciliation.",
-            "The railroad trended to the right.",
-            "A disturbing trend is that victims of violence are getting younger.",
-            "The trend was reversed.",
-            "A new trend in comics has stricken down many of the old taboos.",
-            "The discussion trended away from theology in the direction of politics.",
-            "You can't really extrapolate a trend from such a small sample.",
-            "The growing trend is for single mothers to bring up children by themselves.",
-            "Even so, the underlying trend is positive.",
-            "the current consumer trend for premium products",
-            "Successive presidents have tried to reverse this trend, but without success.",
-            "an insidious trend towards censorship of the press",
-            "...bucked the trend to outdo everyone else and just wore the same clothes they had in previous years...",
-            "the trend of the stock market",
-            "the downward trend of the stock market",
-            "the down trend in the real estate market",
-            "Share prices continued their downward trend.",
-            "not openly liberal but that is the trend of the book",
-            "Digital technology is the latest trend in television.",
-            "The current trend is towards more part-time employment.",
-            "Fitness gurus call it the hottest new exercise trend of the year.",
-            "Unemployment in the area has bucked the trend by falling over the last month.",
-            "A survey of recent corporate layoffs reveals a new trend in business management.",
-            "If this trend continues it is not reasonable to expect the eventual collapse of the stock market."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Дело идёт к примирению.",
-            "Железная дорога отклонялась вправо.",
-            "Тревожная тенденция заключается в том, что жертвы насилия становятся всё моложе.",
-            "Тенденция изменилась.",
-            "Новые веяния в комиксах смели многие прежние запреты.",
-            "Спор перешёл с вопросов теологии на политику.",
-            "Нельзя говорить об общей тенденции на основе столь малой выборки.",
-            "Среди матерей-одиночек растёт тенденция воспитывать детей самостоятельно.",
-            "Несмотря на это, основная тенденция положительна.",
-            "нынешняя потребительская тенденция для продуктов премиум-класса",
-            "Несколько президентов, один за другим, пытались переломить эту тенденцию, но безуспешно.",
-            "незаметная, но опасная тенденция к усилению цензуры печати",
-            "...отказался от всеобщего желания перещеголять всех остальных и просто носил ту же одежду, что и в предыдущие годы...",
-            "тенденция фондового рынка",
-            "нисходящий тренд на фондовом рынке",
-            "нисходящий тренд на рынке недвижимости",
-            "Котировки акций продолжили нисходящий тренд.",
-            "не откровенно либеральная, но такова общая направленность этой книги",
-            "Цифровые технологии являются новейшими тенденциями в области телевидения.",
-            "В настоящее время существует тенденция к более неполной занятости.",
-            "Гуру фитнеса называют это упражнение \"самым новомодным трендом года\".",
-            "За последний месяц уровень безработицы в данной области упал, нарушив складывающуюся тенденцию.",
-            "Исследование последних корпоративных увольнений свидетельствует о новой тенденции в области управления бизнесом.",
-            "Если эта тенденция продолжится, то неразумно ожидать возможного обрушения фондового рынка."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "trend": {
+    "comment": [
+      "render",
+      "surrender"
+    ],
+    "translate": " тенденция, направление, устремленность, иметь тенденцию, отклоняться",
+    "transcription": "  |trend|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Events trend towards a reconciliation.",
+        "ru": "Дело идёт к примирению.",
+        "learn": 0
+      },
+      {
+        "eng": "The railroad trended to the right.",
+        "ru": "Железная дорога отклонялась вправо.",
+        "learn": 0
+      },
+      {
+        "eng": "A disturbing trend is that victims of violence are getting younger.",
+        "ru": "Тревожная тенденция заключается в том, что жертвы насилия становятся всё моложе.",
+        "learn": 1
+      },
+      {
+        "eng": "The trend was reversed.",
+        "ru": "Тенденция изменилась.",
+        "learn": 0
+      },
+      {
+        "eng": "A new trend in comics has stricken down many of the old taboos.",
+        "ru": "Новые веяния в комиксах смели многие прежние запреты.",
+        "learn": 0
+      },
+      {
+        "eng": "The discussion trended away from theology in the direction of politics.",
+        "ru": "Спор перешёл с вопросов теологии на политику.",
+        "learn": 0
+      },
+      {
+        "eng": "You can't really extrapolate a trend from such a small sample.",
+        "ru": "Нельзя говорить об общей тенденции на основе столь малой выборки.",
+        "learn": 0
+      },
+      {
+        "eng": "The growing trend is for single mothers to bring up children by themselves.",
+        "ru": "Среди матерей-одиночек растёт тенденция воспитывать детей самостоятельно.",
+        "learn": 0
+      },
+      {
+        "eng": "Even so, the underlying trend is positive.",
+        "ru": "Несмотря на это, основная тенденция положительна.",
+        "learn": 0
+      },
+      {
+        "eng": "the current consumer trend for premium products",
+        "ru": "нынешняя потребительская тенденция для продуктов премиум-класса",
+        "learn": 0
+      },
+      {
+        "eng": "Successive presidents have tried to reverse this trend, but without success.",
+        "ru": "Несколько президентов, один за другим, пытались переломить эту тенденцию, но безуспешно.",
+        "learn": 1
+      },
+      {
+        "eng": "an insidious trend towards censorship of the press",
+        "ru": "незаметная, но опасная тенденция к усилению цензуры печати",
+        "learn": 0
+      },
+      {
+        "eng": "...bucked the trend to outdo everyone else and just wore the same clothes they had in previous years...",
+        "ru": "...отказался от всеобщего желания перещеголять всех остальных и просто носил ту же одежду, что и в предыдущие годы...",
+        "learn": 0
+      },
+      {
+        "eng": "the trend of the stock market",
+        "ru": "тенденция фондового рынка",
+        "learn": 1
+      },
+      {
+        "eng": "the downward trend of the stock market",
+        "ru": "нисходящий тренд на фондовом рынке",
+        "learn": 1
+      },
+      {
+        "eng": "the down trend in the real estate market",
+        "ru": "нисходящий тренд на рынке недвижимости",
+        "learn": 0
+      },
+      {
+        "eng": "Share prices continued their downward trend.",
+        "ru": "Котировки акций продолжили нисходящий тренд.",
+        "learn": 1
+      },
+      {
+        "eng": "not openly liberal but that is the trend of the book",
+        "ru": "не откровенно либеральная, но такова общая направленность этой книги",
+        "learn": 0
+      },
+      {
+        "eng": "Digital technology is the latest trend in television.",
+        "ru": "Цифровые технологии являются новейшими тенденциями в области телевидения.",
+        "learn": 0
+      },
+      {
+        "eng": "The current trend is towards more part-time employment.",
+        "ru": "В настоящее время существует тенденция к более неполной занятости.",
+        "learn": 0
+      },
+      {
+        "eng": "Fitness gurus call it the hottest new exercise trend of the year.",
+        "ru": "Гуру фитнеса называют это упражнение \"самым новомодным трендом года\".",
+        "learn": 0
+      },
+      {
+        "eng": "Unemployment in the area has bucked the trend by falling over the last month.",
+        "ru": "За последний месяц уровень безработицы в данной области упал, нарушив складывающуюся тенденцию.",
+        "learn": 0
+      },
+      {
+        "eng": "A survey of recent corporate layoffs reveals a new trend in business management.",
+        "ru": "Исследование последних корпоративных увольнений свидетельствует о новой тенденции в области управления бизнесом.",
+        "learn": 0
+      },
+      {
+        "eng": "If this trend continues it is not reasonable to expect the eventual collapse of the stock market.",
+        "ru": "Если эта тенденция продолжится, то неразумно ожидать возможного обрушения фондового рынка.",
+        "learn": 0
+      }
+    ]
+  }
 }

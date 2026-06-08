@@ -1,88 +1,175 @@
 {
-    "loan": {
-        "comment": [
-            "loaf",
-            "cloak",
-            "moan",
-            "groan",
-            "loathe"
-        ],
-        "translate": " заём, ссуда, заимствование, ссудный, давать взаймы, ссужать",
-        "transcription": "  |loʊn|",
-        "antonyms": [],
-        "mnemonic": [
-            "loan [лэ'ун] заём - (Леун-ид) Брежнев займы брал у империалистов.",
-            "loan [ləun]\nlone [ləun] - одинокий., единственный\n***\nНе берёт КРЕДИТ даже клоун. (это) loan\nЗаём, ссуда.\n***\nЕсли берёшь ссуду \"loan\",\nто не стони \"moan\"."
-        ],
-        "examples": [
-            "I finally paid off the loan.",
-            "The money was a gift, not a loan.",
-            "Can you loan me $5?",
-            "The loan enabled Jan to buy the house.",
-            "I'd think twice before taking out such a large loan.",
-            "He hit me up for a loan.",
-            "They missed a payment on their car loan.",
-            "He got a car loan.",
-            "Jeff's loaned us his car for the weekend.",
-            "The interest on the loan is 16 % per year.",
-            "The book I wanted was out on loan.",
-            "The bank demanded payment of the loan.",
-            "She asked him for a loan.",
-            "Thanks for the loan of your camera.",
-            "The loan has a variable interest rate.",
-            "She needed money, so she asked her friend for a loan.",
-            "She is on loan to the Center from her job in Oklahoma.",
-            "He pledged his paintings as collateral for a loan.",
-            "The painting was on loan to the National Gallery from the Louvre.",
-            "The company defaulted on the loan and the investors lost $4 million.",
-            "What's the interest rate on the loan?",
-            "The company was unable to service the loan.",
-            "The new loan connected with railway development.",
-            "The veteran has the right to prepay the loan without any penalties.",
-            "Loan amortization shows you how interest and principal are paid off.",
-            "I'd like to arrange a business loan.",
-            "The bank can call in the loan at any time.",
-            "Watson felt obligated to him for the loan.",
-            "Federal Savings and Loan Insurance Corporation",
-            "The company is in default on its loan agreement."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я всё-таки погасил этот кредит.",
-            "Эти деньги были подарены, а не даны взаймы.",
-            "Вы можете одолжить мне $5?",
-            "Этот кредит позволил Яну приобрести дом.",
-            "Я бы дважды подумал, прежде чем занимать такие большие деньги.",
-            "Он попросил у меня взаймы.",
-            "Они пропустили платёж по автокредиту.",
-            "Он взял в кредит автомобиль.",
-            "Джефф одолжил нам на выходные машину.",
-            "Проценты по кредиту составляют 16 % годовых.",
-            "Книгу, которую я искал, взяли почитать.",
-            "Банк потребовал выплаты кредита.",
-            "Она попросила у него денег взаймы.",
-            "Спасибо, что одолжил свою камеру.",
-            "Данный кредит имеет плавающую процентную ставку.",
-            "Она нуждалась в деньгах, и поэтому попросила у своего друга взаймы.",
-            "Она временно работает в этом центре, оставив свою постоянную работу в Оклахоме.",
-            "Он заложил свои картины в качестве гарантии по кредиту.",
-            "Картина была взята из Лувра на время выставки в Национальной галерее.",
-            "Компания не выполнила обязательств по займу и инвесторы потеряли 4 млн долл.",
-            "Какая процентная ставка по кредиту?",
-            "Компания была не в состоянии обслуживать заём.",
-            "Новый целевой заем на строительство железной дороги.",
-            "Ветеран имеет право досрочно погасить заем без уплаты каких-л. штрафов.",
-            "Процесс погашения долга показывает, как выплачиваются проценты и основная сумма долга.",
-            "Я бы хотел договориться о деловом займе.",
-            "Банк может потребовать возврат займа в любое время.",
-            "Уотсон считал себя обязанным ему за эту ссуду.",
-            "Федеральная корпорация по страхованию счетов в ссудо-сберегательных ассоциациях, ФКСССА",
-            "Компания находится в состоянии дефолта по кредитному соглашению."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "oa_=_[ou]"
-        ]
-    }
+  "loan": {
+    "comment": [
+      "loaf",
+      "cloak",
+      "moan",
+      "groan",
+      "loathe"
+    ],
+    "translate": " заём, ссуда, заимствование, ссудный, давать взаймы, ссужать",
+    "transcription": "  |loʊn|",
+    "antonyms": [],
+    "mnemonic": [
+      "loan [лэ'ун] заём - (Леун-ид) Брежнев займы брал у империалистов.",
+      "loan [ləun]\nlone [ləun] - одинокий., единственный\n***\nНе берёт КРЕДИТ даже клоун. (это) loan\nЗаём, ссуда.\n***\nЕсли берёшь ссуду \"loan\",\nто не стони \"moan\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "oa_=_[ou]"
+    ],
+    "examples": [
+      {
+        "eng": "I finally paid off the loan.",
+        "ru": "Я всё-таки погасил этот кредит.",
+        "learn": 0
+      },
+      {
+        "eng": "The money was a gift, not a loan.",
+        "ru": "Эти деньги были подарены, а не даны взаймы.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you loan me $5?",
+        "ru": "Вы можете одолжить мне $5?",
+        "learn": 0
+      },
+      {
+        "eng": "The loan enabled Jan to buy the house.",
+        "ru": "Этот кредит позволил Яну приобрести дом.",
+        "learn": 1
+      },
+      {
+        "eng": "I'd think twice before taking out such a large loan.",
+        "ru": "Я бы дважды подумал, прежде чем занимать такие большие деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "He hit me up for a loan.",
+        "ru": "Он попросил у меня взаймы.",
+        "learn": 0
+      },
+      {
+        "eng": "They missed a payment on their car loan.",
+        "ru": "Они пропустили платёж по автокредиту.",
+        "learn": 0
+      },
+      {
+        "eng": "He got a car loan.",
+        "ru": "Он взял в кредит автомобиль.",
+        "learn": 0
+      },
+      {
+        "eng": "Jeff's loaned us his car for the weekend.",
+        "ru": "Джефф одолжил нам на выходные машину.",
+        "learn": 0
+      },
+      {
+        "eng": "The interest on the loan is 16 % per year.",
+        "ru": "Проценты по кредиту составляют 16 % годовых.",
+        "learn": 0
+      },
+      {
+        "eng": "The book I wanted was out on loan.",
+        "ru": "Книгу, которую я искал, взяли почитать.",
+        "learn": 0
+      },
+      {
+        "eng": "The bank demanded payment of the loan.",
+        "ru": "Банк потребовал выплаты кредита.",
+        "learn": 0
+      },
+      {
+        "eng": "She asked him for a loan.",
+        "ru": "Она попросила у него денег взаймы.",
+        "learn": 0
+      },
+      {
+        "eng": "Thanks for the loan of your camera.",
+        "ru": "Спасибо, что одолжил свою камеру.",
+        "learn": 0
+      },
+      {
+        "eng": "The loan has a variable interest rate.",
+        "ru": "Данный кредит имеет плавающую процентную ставку.",
+        "learn": 0
+      },
+      {
+        "eng": "She needed money, so she asked her friend for a loan.",
+        "ru": "Она нуждалась в деньгах, и поэтому попросила у своего друга взаймы.",
+        "learn": 0
+      },
+      {
+        "eng": "She is on loan to the Center from her job in Oklahoma.",
+        "ru": "Она временно работает в этом центре, оставив свою постоянную работу в Оклахоме.",
+        "learn": 0
+      },
+      {
+        "eng": "He pledged his paintings as collateral for a loan.",
+        "ru": "Он заложил свои картины в качестве гарантии по кредиту.",
+        "learn": 0
+      },
+      {
+        "eng": "The painting was on loan to the National Gallery from the Louvre.",
+        "ru": "Картина была взята из Лувра на время выставки в Национальной галерее.",
+        "learn": 0
+      },
+      {
+        "eng": "The company defaulted on the loan and the investors lost $4 million.",
+        "ru": "Компания не выполнила обязательств по займу и инвесторы потеряли 4 млн долл.",
+        "learn": 0
+      },
+      {
+        "eng": "What's the interest rate on the loan?",
+        "ru": "Какая процентная ставка по кредиту?",
+        "learn": 0
+      },
+      {
+        "eng": "The company was unable to service the loan.",
+        "ru": "Компания была не в состоянии обслуживать заём.",
+        "learn": 0
+      },
+      {
+        "eng": "The new loan connected with railway development.",
+        "ru": "Новый целевой заем на строительство железной дороги.",
+        "learn": 0
+      },
+      {
+        "eng": "The veteran has the right to prepay the loan without any penalties.",
+        "ru": "Ветеран имеет право досрочно погасить заем без уплаты каких-л. штрафов.",
+        "learn": 1
+      },
+      {
+        "eng": "Loan amortization shows you how interest and principal are paid off.",
+        "ru": "Процесс погашения долга показывает, как выплачиваются проценты и основная сумма долга.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd like to arrange a business loan.",
+        "ru": "Я бы хотел договориться о деловом займе.",
+        "learn": 1
+      },
+      {
+        "eng": "The bank can call in the loan at any time.",
+        "ru": "Банк может потребовать возврат займа в любое время.",
+        "learn": 0
+      },
+      {
+        "eng": "Watson felt obligated to him for the loan.",
+        "ru": "Уотсон считал себя обязанным ему за эту ссуду.",
+        "learn": 0
+      },
+      {
+        "eng": "Federal Savings and Loan Insurance Corporation",
+        "ru": "Федеральная корпорация по страхованию счетов в ссудо-сберегательных ассоциациях, ФКСССА",
+        "learn": 0
+      },
+      {
+        "eng": "The company is in default on its loan agreement.",
+        "ru": "Компания находится в состоянии дефолта по кредитному соглашению.",
+        "learn": 0
+      }
+    ]
+  }
 }

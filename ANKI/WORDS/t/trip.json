@@ -1,88 +1,174 @@
 {
-    "trip": {
-        "comment": [
-            "striped",
-            "stripe",
-            "strip",
-            "rip",
-            "grip",
-            "triple"
-        ],
-        "translate": "поездка, путешествие, экскурсия, рейс, спотыкаться, опрокидывать",
-        "transcription": " |trɪp|",
-        "antonyms": [],
-        "mnemonic": [
-            "trip [трип] кроткосрочное путешествие, экскурсия - Во время экскурсии он (триппер) подхватил.",
-            "trip [trɪp]\n***\nВ ПОЕЗДКЕ были мы дня три (п). (это) trip\nБЕЖАЛ ВПРИПРЫЖКУ раз- два- три (п). (это) trip\nПутешествие, поездка, экскурсия, рейс.\nПоездка, прогулка. Бежать вприпрыжку.\n***\nВ путешествии \"trip\"\nты простуду схватил \"grip\"."
-        ],
-        "examples": [
-            "Lace up your shoes or you'll trip over.",
-            "We decided to delay the trip.",
-            "She was talking of her trip.",
-            "He trips every weekend",
-            "He tripped and fell.",
-            "Our trip was smooth and uneventful.",
-            "We got along well during the trip.",
-            "The trip was a delight.",
-            "Our trip to Disneyland was unreal.",
-            "The questions on the test tripped him up.",
-            "He tripped up a witness by artful questions.",
-            "I'm so excited about the trip!",
-            "I shall trip to Paris in about a fortnight.",
-            "It was quite a trip talking to you.",
-            "After such a trip he felt absolutely slack.",
-            "The camping trip was spoiled by bad weather.",
-            "This trip was of no special interest to her.",
-            "If the weather holds, we'll both take a trip.",
-            "She said goodbye and tripped off along the road.",
-            "He has been tripping for three weeks.",
-            "We'll make a trip by launch to White Island.",
-            "It was sensible of her to postpone the trip.",
-            "He agreed to accompany me on a trip to Africa.",
-            "Two trips were required to transport the goods.",
-            "He was very glad when he found an author tripping.",
-            "An intruder had tripped the alarm.",
-            "He put on 1,000 miles on this trip",
-            "He shortened his trip due to illness.",
-            "A trip in one point would have spoiled all.",
-            "The supply of water is inadequate for the trip."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Зашнуруй ботинки /завяжи шнурки/, а то споткнешься.",
-            "Мы решили отложить поездку.",
-            "Она рассказывала о своём путешествии.",
-            "Он устраивает поездки(экскурсии) каждые выходные.",
-            "Он споткнулся и упал.",
-            "Наша поездка прошла гладко, без осложнений.",
-            "Мы хорошо ладили во время поездки.",
-            "Путешествие было настоящим наслаждением.",
-            "Наша поездка в Дисенйленд была потрясающей.",
-            "Вопросы этого теста сбили его с толку.",
-            "Он запутал свидетеля хитро поставленными вопросами.",
-            "Я так взволнована этим путешествием!",
-            "Я отправлюсь в Париж где-то через две недели.",
-            "Беседовать с тобой было невероятно интересно.",
-            "После такой поездки он чувствовал себя совершенно разбитым.",
-            "Поход был испорчен плохой погодой.",
-            "Эта поездка не представляла для неё особого интереса.",
-            "Если погода продержится, мы вдвоём совершим поездку.",
-            "Она сказала \"до свиданья\" и ускользнула прочь по дороге.",
-            "Он уже три недели в отключке.",
-            "Мы поедем на катере на остров Уайт.",
-            "Было разумно с её стороны отложить поездку.",
-            "Он согласился сопровождать меня в путешествии в Африку.",
-            "Понадобилось два рейса, чтобы переправить товары.",
-            "Он очень радовался всякий раз, когда уличал какого-либо автора в ошибке.",
-            "Один из незваных гостей заставил сработать сигнализацию.",
-            "Он преодолел 1000 миль в ходе этой поездки.",
-            "Он сократил свою поездку из-за болезни.",
-            "Недочёт в одном месте может испортить всё.",
-            "Запаса воды недостаточно для всей поездки."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "trip": {
+    "comment": [
+      "striped",
+      "stripe",
+      "strip",
+      "rip",
+      "grip",
+      "triple"
+    ],
+    "translate": "поездка, путешествие, экскурсия, рейс, спотыкаться, опрокидывать",
+    "transcription": " |trɪp|",
+    "antonyms": [],
+    "mnemonic": [
+      "trip [трип] кроткосрочное путешествие, экскурсия - Во время экскурсии он (триппер) подхватил.",
+      "trip [trɪp]\n***\nВ ПОЕЗДКЕ были мы дня три (п). (это) trip\nБЕЖАЛ ВПРИПРЫЖКУ раз- два- три (п). (это) trip\nПутешествие, поездка, экскурсия, рейс.\nПоездка, прогулка. Бежать вприпрыжку.\n***\nВ путешествии \"trip\"\nты простуду схватил \"grip\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Lace up your shoes or you'll trip over.",
+        "ru": "Зашнуруй ботинки /завяжи шнурки/, а то споткнешься.",
+        "learn": 0
+      },
+      {
+        "eng": "We decided to delay the trip.",
+        "ru": "Мы решили отложить поездку.",
+        "learn": 0
+      },
+      {
+        "eng": "She was talking of her trip.",
+        "ru": "Она рассказывала о своём путешествии.",
+        "learn": 0
+      },
+      {
+        "eng": "He trips every weekend",
+        "ru": "Он устраивает поездки(экскурсии) каждые выходные.",
+        "learn": 0
+      },
+      {
+        "eng": "He tripped and fell.",
+        "ru": "Он споткнулся и упал.",
+        "learn": 0
+      },
+      {
+        "eng": "Our trip was smooth and uneventful.",
+        "ru": "Наша поездка прошла гладко, без осложнений.",
+        "learn": 0
+      },
+      {
+        "eng": "We got along well during the trip.",
+        "ru": "Мы хорошо ладили во время поездки.",
+        "learn": 0
+      },
+      {
+        "eng": "The trip was a delight.",
+        "ru": "Путешествие было настоящим наслаждением.",
+        "learn": 0
+      },
+      {
+        "eng": "Our trip to Disneyland was unreal.",
+        "ru": "Наша поездка в Дисенйленд была потрясающей.",
+        "learn": 0
+      },
+      {
+        "eng": "The questions on the test tripped him up.",
+        "ru": "Вопросы этого теста сбили его с толку.",
+        "learn": 0
+      },
+      {
+        "eng": "He tripped up a witness by artful questions.",
+        "ru": "Он запутал свидетеля хитро поставленными вопросами.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm so excited about the trip!",
+        "ru": "Я так взволнована этим путешествием!",
+        "learn": 0
+      },
+      {
+        "eng": "I shall trip to Paris in about a fortnight.",
+        "ru": "Я отправлюсь в Париж где-то через две недели.",
+        "learn": 1
+      },
+      {
+        "eng": "It was quite a trip talking to you.",
+        "ru": "Беседовать с тобой было невероятно интересно.",
+        "learn": 0
+      },
+      {
+        "eng": "After such a trip he felt absolutely slack.",
+        "ru": "После такой поездки он чувствовал себя совершенно разбитым.",
+        "learn": 0
+      },
+      {
+        "eng": "The camping trip was spoiled by bad weather.",
+        "ru": "Поход был испорчен плохой погодой.",
+        "learn": 0
+      },
+      {
+        "eng": "This trip was of no special interest to her.",
+        "ru": "Эта поездка не представляла для неё особого интереса.",
+        "learn": 0
+      },
+      {
+        "eng": "If the weather holds, we'll both take a trip.",
+        "ru": "Если погода продержится, мы вдвоём совершим поездку.",
+        "learn": 0
+      },
+      {
+        "eng": "She said goodbye and tripped off along the road.",
+        "ru": "Она сказала \"до свиданья\" и ускользнула прочь по дороге.",
+        "learn": 0
+      },
+      {
+        "eng": "He has been tripping for three weeks.",
+        "ru": "Он уже три недели в отключке.",
+        "learn": 0
+      },
+      {
+        "eng": "We'll make a trip by launch to White Island.",
+        "ru": "Мы поедем на катере на остров Уайт.",
+        "learn": 1
+      },
+      {
+        "eng": "It was sensible of her to postpone the trip.",
+        "ru": "Было разумно с её стороны отложить поездку.",
+        "learn": 1
+      },
+      {
+        "eng": "He agreed to accompany me on a trip to Africa.",
+        "ru": "Он согласился сопровождать меня в путешествии в Африку.",
+        "learn": 1
+      },
+      {
+        "eng": "Two trips were required to transport the goods.",
+        "ru": "Понадобилось два рейса, чтобы переправить товары.",
+        "learn": 1
+      },
+      {
+        "eng": "He was very glad when he found an author tripping.",
+        "ru": "Он очень радовался всякий раз, когда уличал какого-либо автора в ошибке.",
+        "learn": 0
+      },
+      {
+        "eng": "An intruder had tripped the alarm.",
+        "ru": "Один из незваных гостей заставил сработать сигнализацию.",
+        "learn": 0
+      },
+      {
+        "eng": "He put on 1,000 miles on this trip",
+        "ru": "Он преодолел 1000 миль в ходе этой поездки.",
+        "learn": 0
+      },
+      {
+        "eng": "He shortened his trip due to illness.",
+        "ru": "Он сократил свою поездку из-за болезни.",
+        "learn": 0
+      },
+      {
+        "eng": "A trip in one point would have spoiled all.",
+        "ru": "Недочёт в одном месте может испортить всё.",
+        "learn": 0
+      },
+      {
+        "eng": "The supply of water is inadequate for the trip.",
+        "ru": "Запаса воды недостаточно для всей поездки.",
+        "learn": 1
+      }
+    ]
+  }
 }

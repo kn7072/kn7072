@@ -1,84 +1,171 @@
 {
-    "full": {
-        "comment": [
-            "fully",
-            "awfully"
-        ],
-        "translate": "полный, целый, наполненный, вполне, очень, как раз, валять, кроить широко",
-        "transcription": " |fʊl|",
-        "antonyms": [],
-        "mnemonic": [
-            "full ['ful]\nfully ['fʊli]\n***\nПОЛНЫЙ до краёв тот куль. (это) full\n***\nВПОЛНЕ достаточно папуле. (это) fully\n***\nВедро полное \"full\" ты тащил \"pull\"."
-        ],
-        "examples": [
-            "The car ran at full speed.",
-            "I am full of business.",
-            "Bob has eaten his full.",
-            "The moon is fulling now.",
-            "She's full of good ideas.",
-            "The sky was full of fire.",
-            "It is full of nude rocks.",
-            "Her face was full of woe.",
-            "The book was full of errors.",
-            "Her eyes were full of hate.",
-            "She is full of bright ideas.",
-            "I was full of glad vigour.",
-            "The theory is full of holes.",
-            "The job was full of hazards.",
-            "Her voice was full of emotion.",
-            "No more, thanks. I'm full.",
-            "He leads a full, active life.",
-            "The enemy was in full flight.",
-            "You know full well what I mean.",
-            "The moon is at the full.",
-            "He stated his name in full.",
-            "the full phase of the moon",
-            "a pond full of silvery fish",
-            "The team was full of fight.",
-            "He was still full of fight.",
-            "The trunk was full of stuff.",
-            "She was dealt a full house.",
-            "The stew is full of flavor.",
-            "a pan full of congealed fat",
-            "a sink full of dirty dishes"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Машина мчалась на полной скорости.",
-            "Я весь в делах.",
-            "Боб наелся досыта.",
-            "Луна приближается к полнолунию.",
-            "У неё полно хороших идей.",
-            "Всё небо было в огне.",
-            "Там полно голых скал.",
-            "Её лицо было полно печали.",
-            "В книге было полно ошибок.",
-            "Её глаза были полны ненависти.",
-            "У неё полно блестящих идей.",
-            "Я был полон жизнерадостной силы.",
-            "Эта теория полна недостатков.",
-            "Работа была сопряжена с большим риском.",
-            "Её голос был полон эмоций.",
-            "Спасибо, больше не надо. Я уже сыт.",
-            "Он ведёт полноценную, активную жизнь.",
-            "Враг поспешно отступал.",
-            "Ты прекрасно знаешь, о чём я.",
-            "Луна находится в полной фазе. / Луна полная.",
-            "Он указал своё полное имя.",
-            "полная фаза Луны",
-            "водоём, полный серебристой рыбы",
-            "Команда горела желанием борьбы.",
-            "Он был всё ещё полон боевого задора.",
-            "Багажник был забит разным барахлом.",
-            "Ей сдали фулл-хаус. (о покере)",
-            "Рагу имеет насыщенный вкус.",
-            "сковорода, полная застывшего жира",
-            "раковина, полная грязной посуды."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "u_+_Закр_сл_=_[u]"
-        ]
-    }
+  "full": {
+    "comment": [
+      "fully",
+      "awfully"
+    ],
+    "translate": "полный, целый, наполненный, вполне, очень, как раз, валять, кроить широко",
+    "transcription": " |fʊl|",
+    "antonyms": [],
+    "mnemonic": [
+      "full ['ful]\nfully ['fʊli]\n***\nПОЛНЫЙ до краёв тот куль. (это) full\n***\nВПОЛНЕ достаточно папуле. (это) fully\n***\nВедро полное \"full\" ты тащил \"pull\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "u_+_Закр_сл_=_[u]"
+    ],
+    "examples": [
+      {
+        "eng": "The car ran at full speed.",
+        "ru": "Машина мчалась на полной скорости.",
+        "learn": 0
+      },
+      {
+        "eng": "I am full of business.",
+        "ru": "Я весь в делах.",
+        "learn": 0
+      },
+      {
+        "eng": "Bob has eaten his full.",
+        "ru": "Боб наелся досыта.",
+        "learn": 0
+      },
+      {
+        "eng": "The moon is fulling now.",
+        "ru": "Луна приближается к полнолунию.",
+        "learn": 0
+      },
+      {
+        "eng": "She's full of good ideas.",
+        "ru": "У неё полно хороших идей.",
+        "learn": 0
+      },
+      {
+        "eng": "The sky was full of fire.",
+        "ru": "Всё небо было в огне.",
+        "learn": 0
+      },
+      {
+        "eng": "It is full of nude rocks.",
+        "ru": "Там полно голых скал.",
+        "learn": 0
+      },
+      {
+        "eng": "Her face was full of woe.",
+        "ru": "Её лицо было полно печали.",
+        "learn": 0
+      },
+      {
+        "eng": "The book was full of errors.",
+        "ru": "В книге было полно ошибок.",
+        "learn": 0
+      },
+      {
+        "eng": "Her eyes were full of hate.",
+        "ru": "Её глаза были полны ненависти.",
+        "learn": 1
+      },
+      {
+        "eng": "She is full of bright ideas.",
+        "ru": "У неё полно блестящих идей.",
+        "learn": 0
+      },
+      {
+        "eng": "I was full of glad vigour.",
+        "ru": "Я был полон жизнерадостной силы.",
+        "learn": 0
+      },
+      {
+        "eng": "The theory is full of holes.",
+        "ru": "Эта теория полна недостатков.",
+        "learn": 1
+      },
+      {
+        "eng": "The job was full of hazards.",
+        "ru": "Работа была сопряжена с большим риском.",
+        "learn": 0
+      },
+      {
+        "eng": "Her voice was full of emotion.",
+        "ru": "Её голос был полон эмоций.",
+        "learn": 0
+      },
+      {
+        "eng": "No more, thanks. I'm full.",
+        "ru": "Спасибо, больше не надо. Я уже сыт.",
+        "learn": 0
+      },
+      {
+        "eng": "He leads a full, active life.",
+        "ru": "Он ведёт полноценную, активную жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "The enemy was in full flight.",
+        "ru": "Враг поспешно отступал.",
+        "learn": 0
+      },
+      {
+        "eng": "You know full well what I mean.",
+        "ru": "Ты прекрасно знаешь, о чём я.",
+        "learn": 0
+      },
+      {
+        "eng": "The moon is at the full.",
+        "ru": "Луна находится в полной фазе. / Луна полная.",
+        "learn": 0
+      },
+      {
+        "eng": "He stated his name in full.",
+        "ru": "Он указал своё полное имя.",
+        "learn": 0
+      },
+      {
+        "eng": "the full phase of the moon",
+        "ru": "полная фаза Луны",
+        "learn": 0
+      },
+      {
+        "eng": "a pond full of silvery fish",
+        "ru": "водоём, полный серебристой рыбы",
+        "learn": 0
+      },
+      {
+        "eng": "The team was full of fight.",
+        "ru": "Команда горела желанием борьбы.",
+        "learn": 0
+      },
+      {
+        "eng": "He was still full of fight.",
+        "ru": "Он был всё ещё полон боевого задора.",
+        "learn": 0
+      },
+      {
+        "eng": "The trunk was full of stuff.",
+        "ru": "Багажник был забит разным барахлом.",
+        "learn": 1
+      },
+      {
+        "eng": "She was dealt a full house.",
+        "ru": "Ей сдали фулл-хаус. (о покере)",
+        "learn": 0
+      },
+      {
+        "eng": "The stew is full of flavor.",
+        "ru": "Рагу имеет насыщенный вкус.",
+        "learn": 0
+      },
+      {
+        "eng": "a pan full of congealed fat",
+        "ru": "сковорода, полная застывшего жира",
+        "learn": 0
+      },
+      {
+        "eng": "a sink full of dirty dishes",
+        "ru": "раковина, полная грязной посуды.",
+        "learn": 0
+      }
+    ]
+  }
 }

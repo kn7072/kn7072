@@ -1,84 +1,170 @@
 {
-    "healthy": {
-        "comment": [
-            "health",
-            "heal",
-            "heel"
-        ],
-        "translate": "здоровый, полезный, здравый, значительный, разумный, жизнеспособный, безопасный",
-        "transcription": " |ˈhelθi|",
-        "antonyms": [],
-        "mnemonic": [
-            "heal [hi: l]\nhealth [hɛlθ] - здоровье\nhealthy - здоровый, здравый\n***\nИСЦЕЛЮ - не будешь хил. (это)\nВЫЛЕЧИЛ И ИСЦЕЛИЛ. (это) heal\n***\nЕдой \"meal\"\nя тебя исцелил \"heal\"."
-        ],
-        "examples": [
-            "He has a healthy appetite.",
-            "Smoking is not healthy for you.",
-            "Her face had a healthy glow.",
-            "Eat right to stay healthy.",
-            "These salads are delicious besides being healthy.",
-            "trying a more healthy approach",
-            "He has been healthy ever since.",
-            "It is important to have a balanced, healthy diet.",
-            "A healthy breakfast is a good way to start the day.",
-            "Both twins were born healthy.",
-            "They had a normal, healthy baby.",
-            "She has a healthy outlook on life.",
-            "The company is financially healthy.",
-            "Regular exercise is part of a healthy lifestyle.",
-            "The article expounds the virtues of a healthy diet.",
-            "They sold their house at a healthy profit.",
-            "Yoga is very healthy for both body and spirit.",
-            "Healthy competition is a force for innovation.",
-            "a healthy tree with no deadwood",
-            "a healthy baby born at full term",
-            "the healthy attitude of French laws",
-            "I want to be healthy when I retire.",
-            "the chambers of his heart were healthy",
-            "Walking is a healthy form of exercise.",
-            "Vitamins are essential for healthy growth.",
-            "fruits, vegetables, and other healthy foods",
-            "the clear complexion of a healthy young woman",
-            "I've always been perfectly healthy until now.",
-            "healthy and normal outlets for youthful energy",
-            "healthy relations between labor and management"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "У него здоровой аппетит.",
-            "Курение опасно для вашего здоровья.",
-            "Её лицо сияло здоровьем.",
-            "Чтобы быть здоровым, нужно правильно питаться.",
-            "Помимо того, что эти салаты полезны для здоровья, они также очень вкусные.",
-            "попытка применения более здравого подхода",
-            "С тех пор он больше не болел.",
-            "Важно иметь сбалансированное, здоровое питание.",
-            "Полезный завтрак — хороший способ начать день.",
-            "Оба близнеца родились здоровыми.",
-            "У них был обычный, здоровый ребенок.",
-            "Она здраво смотрит на жизнь.",
-            "Компания является финансово благополучной.",
-            "Регулярные физические упражнения являются частью здорового образа жизни.",
-            "В данной статье разъясняются преимущества здорового питания.",
-            "Они продали свой дом с хорошей прибылью.",
-            "Йога очень полезна для тела и души.",
-            "Здоровая конкуренция — это движущая сила инноваций.",
-            "здоровое дерево без сухих веток",
-            "здоровый ребёнок, родившийся в срок",
-            "здравая позиция французского законодательства",
-            "Я хочу быть здоровой, когда выйду на пенсию.",
-            "камеры его сердца были в норме",
-            "Ходьба является здоровой формой тренировки.",
-            "Витамины необходимы для здорового роста.",
-            "фрукты, овощи и другие продукты здорового питания",
-            "чистое лицо здоровой молодой женщины",
-            "До сих пор я всегда была абсолютно здорова.",
-            "здоровые и нормальные источники юношеской энергии",
-            "здоровые отношения между работниками и руководством"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "healthy": {
+    "comment": [
+      "health",
+      "heal",
+      "heel"
+    ],
+    "translate": "здоровый, полезный, здравый, значительный, разумный, жизнеспособный, безопасный",
+    "transcription": " |ˈhelθi|",
+    "antonyms": [],
+    "mnemonic": [
+      "heal [hi: l]\nhealth [hɛlθ] - здоровье\nhealthy - здоровый, здравый\n***\nИСЦЕЛЮ - не будешь хил. (это)\nВЫЛЕЧИЛ И ИСЦЕЛИЛ. (это) heal\n***\nЕдой \"meal\"\nя тебя исцелил \"heal\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He has a healthy appetite.",
+        "ru": "У него здоровой аппетит.",
+        "learn": 1
+      },
+      {
+        "eng": "Smoking is not healthy for you.",
+        "ru": "Курение опасно для вашего здоровья.",
+        "learn": 0
+      },
+      {
+        "eng": "Her face had a healthy glow.",
+        "ru": "Её лицо сияло здоровьем.",
+        "learn": 0
+      },
+      {
+        "eng": "Eat right to stay healthy.",
+        "ru": "Чтобы быть здоровым, нужно правильно питаться.",
+        "learn": 0
+      },
+      {
+        "eng": "These salads are delicious besides being healthy.",
+        "ru": "Помимо того, что эти салаты полезны для здоровья, они также очень вкусные.",
+        "learn": 1
+      },
+      {
+        "eng": "trying a more healthy approach",
+        "ru": "попытка применения более здравого подхода",
+        "learn": 0
+      },
+      {
+        "eng": "He has been healthy ever since.",
+        "ru": "С тех пор он больше не болел.",
+        "learn": 1
+      },
+      {
+        "eng": "It is important to have a balanced, healthy diet.",
+        "ru": "Важно иметь сбалансированное, здоровое питание.",
+        "learn": 0
+      },
+      {
+        "eng": "A healthy breakfast is a good way to start the day.",
+        "ru": "Полезный завтрак — хороший способ начать день.",
+        "learn": 0
+      },
+      {
+        "eng": "Both twins were born healthy.",
+        "ru": "Оба близнеца родились здоровыми.",
+        "learn": 0
+      },
+      {
+        "eng": "They had a normal, healthy baby.",
+        "ru": "У них был обычный, здоровый ребенок.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a healthy outlook on life.",
+        "ru": "Она здраво смотрит на жизнь.",
+        "learn": 1
+      },
+      {
+        "eng": "The company is financially healthy.",
+        "ru": "Компания является финансово благополучной.",
+        "learn": 0
+      },
+      {
+        "eng": "Regular exercise is part of a healthy lifestyle.",
+        "ru": "Регулярные физические упражнения являются частью здорового образа жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "The article expounds the virtues of a healthy diet.",
+        "ru": "В данной статье разъясняются преимущества здорового питания.",
+        "learn": 0
+      },
+      {
+        "eng": "They sold their house at a healthy profit.",
+        "ru": "Они продали свой дом с хорошей прибылью.",
+        "learn": 0
+      },
+      {
+        "eng": "Yoga is very healthy for both body and spirit.",
+        "ru": "Йога очень полезна для тела и души.",
+        "learn": 0
+      },
+      {
+        "eng": "Healthy competition is a force for innovation.",
+        "ru": "Здоровая конкуренция — это движущая сила инноваций.",
+        "learn": 0
+      },
+      {
+        "eng": "a healthy tree with no deadwood",
+        "ru": "здоровое дерево без сухих веток",
+        "learn": 0
+      },
+      {
+        "eng": "a healthy baby born at full term",
+        "ru": "здоровый ребёнок, родившийся в срок",
+        "learn": 0
+      },
+      {
+        "eng": "the healthy attitude of French laws",
+        "ru": "здравая позиция французского законодательства",
+        "learn": 0
+      },
+      {
+        "eng": "I want to be healthy when I retire.",
+        "ru": "Я хочу быть здоровой, когда выйду на пенсию.",
+        "learn": 0
+      },
+      {
+        "eng": "the chambers of his heart were healthy",
+        "ru": "камеры его сердца были в норме",
+        "learn": 0
+      },
+      {
+        "eng": "Walking is a healthy form of exercise.",
+        "ru": "Ходьба является здоровой формой тренировки.",
+        "learn": 0
+      },
+      {
+        "eng": "Vitamins are essential for healthy growth.",
+        "ru": "Витамины необходимы для здорового роста.",
+        "learn": 0
+      },
+      {
+        "eng": "fruits, vegetables, and other healthy foods",
+        "ru": "фрукты, овощи и другие продукты здорового питания",
+        "learn": 0
+      },
+      {
+        "eng": "the clear complexion of a healthy young woman",
+        "ru": "чистое лицо здоровой молодой женщины",
+        "learn": 0
+      },
+      {
+        "eng": "I've always been perfectly healthy until now.",
+        "ru": "До сих пор я всегда была абсолютно здорова.",
+        "learn": 0
+      },
+      {
+        "eng": "healthy and normal outlets for youthful energy",
+        "ru": "здоровые и нормальные источники юношеской энергии",
+        "learn": 0
+      },
+      {
+        "eng": "healthy relations between labor and management",
+        "ru": "здоровые отношения между работниками и руководством",
+        "learn": 0
+      }
+    ]
+  }
 }

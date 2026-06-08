@@ -1,89 +1,178 @@
 {
-    "go": {
-        "comment": [
-            "golf",
-            "goat",
-            "god",
-            "gold",
-            "golden",
-            "gosh",
-            "gorgeous",
-            "gown",
-            "undergo"
-        ],
-        "translate": "идти, ехать, ходить, переходить, ездить, ход, движение, попытка, ходьба, становиться",
-        "transcription": " |ɡoʊ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Can I go now?",
-            "Summer is going.",
-            "Go wash your hands.",
-            "Has your headache gone yet?",
-            "Gone!",
-            "She went pale.",
-            "Go!",
-            "Let's go for a walk.",
-            "It's your go.",
-            "Right, let's go!",
-            "Get going!",
-            "How is it going?",
-            "Where are you going?",
-            "Ready, set, go!",
-            "All systems go.",
-            "We are going too fast.",
-            "I have to go at 5.30.",
-            "The party went well.",
-            "This door goes outside.",
-            "Whose go is it?",
-            "Where did Peter go?",
-            "How did the game go?",
-            "She turned to go.",
-            "This book goes here.",
-            "My watch isn't going.",
-            "I go by the barometer.",
-            "Don't I get a go?",
-            "The cake went fast.",
-            "He went bankrupt.",
-            "The platform went."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Могу я теперь идти?",
-            "Лето проходит.",
-            "Иди мой руки.",
-            "Твоя головная боль уже прошла?",
-            "Продано! (на аукционе)",
-            "Она побледнела.",
-            "Марш! (на соревнованиях - команда начать бег)",
-            "Давай прогуляемся. / Пойдём на прогулку. / Пошли погуляем.",
-            "Ваш ход.",
-            "Ладно, пошли!",
-            "Начинай! / Действуй! / Вперёд!",
-            "Как дела?",
-            "Куда вы идёте? / Куда ты?",
-            "На старт, внимание, марш!",
-            "Всё работает нормально.",
-            "Мы идём слишком быстро.",
-            "Я должен уйти в 5.30.",
-            "Вечеринка прошла хорошо.",
-            "Эта дверь выходит наружу.",
-            "Чей это ход?",
-            "Куда пошел Питер?",
-            "Как закончилась игра?",
-            "Она повернулась, чтобы уйти.",
-            "Эту книгу — сюда.",
-            "У меня часы не идут (остановились).",
-            "Я пользуюсь барометром.",
-            "До меня очередь не дойдёт? / Мне не дадут попробовать?",
-            "Пирог был тут же съеден.",
-            "Он обанкротился.",
-            "Трибуна обрушилась."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Глаголы_состояния_и_чувственного_восприятия"
-        ]
-    }
+  "go": {
+    "comment": [
+      "went |wɛnt|,                                          gone |ɡɔːn|",
+      "golf",
+      "goat",
+      "god",
+      "gold",
+      "golden",
+      "gosh",
+      "gorgeous",
+      "gown",
+      "undergo"
+    ],
+    "translate": "идти, ехать, ходить, переходить, ездить, ход, движение, попытка, ходьба, становиться",
+    "transcription": " |ɡoʊ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Глаголы_состояния_и_чувственного_восприятия",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Can I go now?",
+        "ru": "Могу я теперь идти?",
+        "learn": 1
+      },
+      {
+        "eng": "Summer is going.",
+        "ru": "Лето проходит.",
+        "learn": 0
+      },
+      {
+        "eng": "Go wash your hands.",
+        "ru": "Иди мой руки.",
+        "learn": 0
+      },
+      {
+        "eng": "Has your headache gone yet?",
+        "ru": "Твоя головная боль уже прошла?",
+        "learn": 0
+      },
+      {
+        "eng": "Gone!",
+        "ru": "Продано! (на аукционе)",
+        "learn": 0
+      },
+      {
+        "eng": "She went pale.",
+        "ru": "Она побледнела.",
+        "learn": 0
+      },
+      {
+        "eng": "Go!",
+        "ru": "Марш! (на соревнованиях - команда начать бег)",
+        "learn": 0
+      },
+      {
+        "eng": "Let's go for a walk.",
+        "ru": "Давай прогуляемся. / Пойдём на прогулку. / Пошли погуляем.",
+        "learn": 1
+      },
+      {
+        "eng": "It's your go.",
+        "ru": "Ваш ход.",
+        "learn": 0
+      },
+      {
+        "eng": "Right, let's go!",
+        "ru": "Ладно, пошли!",
+        "learn": 0
+      },
+      {
+        "eng": "Get going!",
+        "ru": "Начинай! / Действуй! / Вперёд!",
+        "learn": 0
+      },
+      {
+        "eng": "How is it going?",
+        "ru": "Как дела?",
+        "learn": 0
+      },
+      {
+        "eng": "Where are you going?",
+        "ru": "Куда вы идёте? / Куда ты?",
+        "learn": 1
+      },
+      {
+        "eng": "Ready, set, go!",
+        "ru": "На старт, внимание, марш!",
+        "learn": 0
+      },
+      {
+        "eng": "All systems go.",
+        "ru": "Всё работает нормально.",
+        "learn": 0
+      },
+      {
+        "eng": "We are going too fast.",
+        "ru": "Мы идём слишком быстро.",
+        "learn": 1
+      },
+      {
+        "eng": "I have to go at 5.30.",
+        "ru": "Я должен уйти в 5.30.",
+        "learn": 0
+      },
+      {
+        "eng": "The party went well.",
+        "ru": "Вечеринка прошла хорошо.",
+        "learn": 0
+      },
+      {
+        "eng": "This door goes outside.",
+        "ru": "Эта дверь выходит наружу.",
+        "learn": 0
+      },
+      {
+        "eng": "Whose go is it?",
+        "ru": "Чей это ход?",
+        "learn": 0
+      },
+      {
+        "eng": "Where did Peter go?",
+        "ru": "Куда пошел Питер?",
+        "learn": 0
+      },
+      {
+        "eng": "How did the game go?",
+        "ru": "Как закончилась игра?",
+        "learn": 0
+      },
+      {
+        "eng": "She turned to go.",
+        "ru": "Она повернулась, чтобы уйти.",
+        "learn": 0
+      },
+      {
+        "eng": "This book goes here.",
+        "ru": "Эту книгу — сюда.",
+        "learn": 0
+      },
+      {
+        "eng": "My watch isn't going.",
+        "ru": "У меня часы не идут (остановились).",
+        "learn": 1
+      },
+      {
+        "eng": "I go by the barometer.",
+        "ru": "Я пользуюсь барометром.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't I get a go?",
+        "ru": "До меня очередь не дойдёт? / Мне не дадут попробовать?",
+        "learn": 0
+      },
+      {
+        "eng": "The cake went fast.",
+        "ru": "Пирог был тут же съеден.",
+        "learn": 0
+      },
+      {
+        "eng": "He went bankrupt.",
+        "ru": "Он обанкротился.",
+        "learn": 0
+      },
+      {
+        "eng": "The platform went.",
+        "ru": "Трибуна обрушилась.",
+        "learn": 0
+      }
+    ]
+  }
 }

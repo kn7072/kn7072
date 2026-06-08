@@ -1,82 +1,168 @@
 {
-    "depressed": {
-        "comment": [
-            "depress",
-            "depressing",
-            "depression"
-        ],
-        "translate": "подавленный, угнетенный, сниженный, пониженный, унылый, вогнутый, ослабленный",
-        "transcription": " |dɪˈprest|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He began to feel depressed and helpless.",
-            "She felt lonely and depressed.",
-            "The market is depressed.",
-            "These news depressed her.",
-            "His wife seemed depressed, and he feared for his children.",
-            "Britain's depressed housing market",
-            "She feels anxious and depressed.",
-            "I felt mildly depressed.",
-            "Don't get depressed about it.",
-            "Kevin grew still more depressed.",
-            "We were all depressed by the loss.",
-            "The glut of oil depressed gas prices.",
-            "The divorce left him deeply depressed.",
-            "Jo was tired, irritable, and depressed.",
-            "He was depressed by the loss of his job.",
-            "Prices have remained at a depressed level.",
-            "This depressed patient does not verbalize.",
-            "The rising inflation depressed the economy.",
-            "The patient has a somewhat depressed appetite.",
-            "Some patients become depressed, even suicidal.",
-            "For some inexplicable reason, he felt depressed.",
-            "He was depressed about having to return to school.",
-            "I felt depressed and completely drained of energy.",
-            "Whenever she's depressed she binges on chocolates.",
-            "My father's words had left me jaded and depressed.",
-            "The thought of taking the exam again depressed him.",
-            "He was so depressed, he took to his bed for a week.",
-            "Many depressed people just withdraw into themselves.",
-            "Stop being so depressed. You have a lot going for you.",
-            "I tried to cheer them up because they seemed depressed."
-        ],
-        "example_translate": [
-            "Он начал чувствовать себя подавленным и беспомощным.",
-            "Она чувствовала себя одинокой и подавленной.",
-            "Рыночные цены снижены.",
-            "Эти новости расстроили её.",
-            "Его жена казалась подавленной, и он опасался за своих детей.",
-            "вялый британский рынок жилья",
-            "Она чувствует беспокойство и уныние.",
-            "Я чувствовал себя слегка подавленным.",
-            "Не переживай по этому поводу.",
-            "Кевин становился всё более подавленным.",
-            "Мы все были подавлены этой утратой.",
-            "Переизбыток нефти привёл к падению цен на газ.",
-            "После развода он оказался в глубокой депрессии.",
-            "Джо был уставшим, раздражённым и подавленным.",
-            "Он был в депрессии из-за потери работы.",
-            "Цены остались на сниженном уровне.",
-            "Этот депрессивный пациент не разговаривает.",
-            "Рост инфляции привёл к ослаблению экономики.",
-            "У больного несколько сниженный аппетит.",
-            "У некоторых пациентов наблюдается депрессия и даже склонность к самоубийству.",
-            "По какой-то необъяснимой причине он чувствовал себя подавленным.",
-            "Он был подавлен необходимостью вернуться в школу.",
-            "Я чувствовал себя подавленным и совершенно обессиленным.",
-            "Всякий раз, когда у нее депрессия она объедается конфетами.",
-            "После этих слов отца я чувствовал себя опустошённым и подавленным.",
-            "Его угнетала мысль о том, что придётся сдавать экзамен ещё раз.",
-            "Он был настолько подавлен, что неделю не вставал с постели.",
-            "Во время депрессии многие люди просто уходят в себя.",
-            "Хватит унывать: у тебя масса достоинств.",
-            "Я попытался поднять им настроение, потому что они, похоже, приуныли."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "depressed": {
+    "comment": [
+      "depress",
+      "depressing",
+      "depression"
+    ],
+    "translate": "подавленный, угнетенный, сниженный, пониженный, унылый, вогнутый, ослабленный",
+    "transcription": " |dɪˈprest|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He began to feel depressed and helpless.",
+        "ru": "Он начал чувствовать себя подавленным и беспомощным.",
+        "learn": 1
+      },
+      {
+        "eng": "She felt lonely and depressed.",
+        "ru": "Она чувствовала себя одинокой и подавленной.",
+        "learn": 1
+      },
+      {
+        "eng": "The market is depressed.",
+        "ru": "Рыночные цены снижены.",
+        "learn": 0
+      },
+      {
+        "eng": "These news depressed her.",
+        "ru": "Эти новости расстроили её.",
+        "learn": 1
+      },
+      {
+        "eng": "His wife seemed depressed, and he feared for his children.",
+        "ru": "Его жена казалась подавленной, и он опасался за своих детей.",
+        "learn": 0
+      },
+      {
+        "eng": "Britain's depressed housing market",
+        "ru": "вялый британский рынок жилья",
+        "learn": 0
+      },
+      {
+        "eng": "She feels anxious and depressed.",
+        "ru": "Она чувствует беспокойство и уныние.",
+        "learn": 0
+      },
+      {
+        "eng": "I felt mildly depressed.",
+        "ru": "Я чувствовал себя слегка подавленным.",
+        "learn": 1
+      },
+      {
+        "eng": "Don't get depressed about it.",
+        "ru": "Не переживай по этому поводу.",
+        "learn": 0
+      },
+      {
+        "eng": "Kevin grew still more depressed.",
+        "ru": "Кевин становился всё более подавленным.",
+        "learn": 0
+      },
+      {
+        "eng": "We were all depressed by the loss.",
+        "ru": "Мы все были подавлены этой утратой.",
+        "learn": 1
+      },
+      {
+        "eng": "The glut of oil depressed gas prices.",
+        "ru": "Переизбыток нефти привёл к падению цен на газ.",
+        "learn": 0
+      },
+      {
+        "eng": "The divorce left him deeply depressed.",
+        "ru": "После развода он оказался в глубокой депрессии.",
+        "learn": 0
+      },
+      {
+        "eng": "Jo was tired, irritable, and depressed.",
+        "ru": "Джо был уставшим, раздражённым и подавленным.",
+        "learn": 0
+      },
+      {
+        "eng": "He was depressed by the loss of his job.",
+        "ru": "Он был в депрессии из-за потери работы.",
+        "learn": 0
+      },
+      {
+        "eng": "Prices have remained at a depressed level.",
+        "ru": "Цены остались на сниженном уровне.",
+        "learn": 0
+      },
+      {
+        "eng": "This depressed patient does not verbalize.",
+        "ru": "Этот депрессивный пациент не разговаривает.",
+        "learn": 0
+      },
+      {
+        "eng": "The rising inflation depressed the economy.",
+        "ru": "Рост инфляции привёл к ослаблению экономики.",
+        "learn": 0
+      },
+      {
+        "eng": "The patient has a somewhat depressed appetite.",
+        "ru": "У больного несколько сниженный аппетит.",
+        "learn": 0
+      },
+      {
+        "eng": "Some patients become depressed, even suicidal.",
+        "ru": "У некоторых пациентов наблюдается депрессия и даже склонность к самоубийству.",
+        "learn": 0
+      },
+      {
+        "eng": "For some inexplicable reason, he felt depressed.",
+        "ru": "По какой-то необъяснимой причине он чувствовал себя подавленным.",
+        "learn": 0
+      },
+      {
+        "eng": "He was depressed about having to return to school.",
+        "ru": "Он был подавлен необходимостью вернуться в школу.",
+        "learn": 0
+      },
+      {
+        "eng": "I felt depressed and completely drained of energy.",
+        "ru": "Я чувствовал себя подавленным и совершенно обессиленным.",
+        "learn": 0
+      },
+      {
+        "eng": "Whenever she's depressed she binges on chocolates.",
+        "ru": "Всякий раз, когда у нее депрессия она объедается конфетами.",
+        "learn": 0
+      },
+      {
+        "eng": "My father's words had left me jaded and depressed.",
+        "ru": "После этих слов отца я чувствовал себя опустошённым и подавленным.",
+        "learn": 0
+      },
+      {
+        "eng": "The thought of taking the exam again depressed him.",
+        "ru": "Его угнетала мысль о том, что придётся сдавать экзамен ещё раз.",
+        "learn": 0
+      },
+      {
+        "eng": "He was so depressed, he took to his bed for a week.",
+        "ru": "Он был настолько подавлен, что неделю не вставал с постели.",
+        "learn": 0
+      },
+      {
+        "eng": "Many depressed people just withdraw into themselves.",
+        "ru": "Во время депрессии многие люди просто уходят в себя.",
+        "learn": 0
+      },
+      {
+        "eng": "Stop being so depressed. You have a lot going for you.",
+        "ru": "Хватит унывать: у тебя масса достоинств.",
+        "learn": 0
+      },
+      {
+        "eng": "I tried to cheer them up because they seemed depressed.",
+        "ru": "Я попытался поднять им настроение, потому что они, похоже, приуныли.",
+        "learn": 0
+      }
+    ]
+  }
 }

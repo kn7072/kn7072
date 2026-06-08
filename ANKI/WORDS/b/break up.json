@@ -1,39 +1,209 @@
 {
-    "break up": {
-        "comment": [],
-        "translate": "1) Расставаться, заканчивать отношения 2) Распадаться, разбиваться на части ",
-        "transcription": " |ˈbreɪk ʌp|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The meeting broke up at noon.",
-            "He was sad when they broke up.",
-            "Many couples break up during college.",
-            "The rock broke up into pieces.",
-            "They broke up after two years together.",
-            "She broke up with him last week.",
-            "The ice is breaking up on the lake.",
-            "The empire broke up into smaller states.",
-            "The crowd broke up after the concert.",
-            "Why did you break up?"
-        ],
-        "example_translate": [
-            "Встреча закончилась в полдень.",
-            "Он был грустен, когда они расстались.",
-            "Многие пары расстаются во время учёбы в колледже.",
-            "Камень разбился на куски.",
-            "Они расстались после двух лет вместе.",
-            "Она рассталась с ним на прошлой неделе.",
-            "Лёд на озере тает и распадается.",
-            "Империя распалась на меньшие государства.",
-            "Толпа разошлась после концерта.",
-            "Почему вы расстались?"
-        ],
-        "synonyms": "Расставаться, заканчивать отношения - split up, separate\nРаспадаться, разбиваться на части - disintegrate, fall apart\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "break up": {
+    "comment": [],
+    "translate": "1) Расставаться, заканчивать отношения 2) Распадаться, разбиваться на части ",
+    "transcription": " |ˈbreɪk ʌp|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Расставаться, заканчивать отношения - split up, separate",
+      "Распадаться, разбиваться на части - disintegrate, fall apart"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "The meeting broke up at noon.",
+        "ru": "Встреча закончилась в полдень.",
+        "learn": 1
+      },
+      {
+        "eng": "He was sad when they broke up.",
+        "ru": "Он был грустен, когда они расстались.",
+        "learn": 1
+      },
+      {
+        "eng": "Many couples break up during college.",
+        "ru": "Многие пары расстаются во время учёбы в колледже.",
+        "learn": 1
+      },
+      {
+        "eng": "The rock broke up into pieces.",
+        "ru": "Камень разбился на куски.",
+        "learn": 1
+      },
+      {
+        "eng": "They broke up after two years together.",
+        "ru": "Они расстались после двух лет вместе.",
+        "learn": 1
+      },
+      {
+        "eng": "She broke up with him last week.",
+        "ru": "Она рассталась с ним на прошлой неделе.",
+        "learn": 1
+      },
+      {
+        "eng": "The ice is breaking up on the lake.",
+        "ru": "Лёд на озере тает и распадается.",
+        "learn": 1
+      },
+      {
+        "eng": "The empire broke up into smaller states.",
+        "ru": "Империя распалась на меньшие государства.",
+        "learn": 1
+      },
+      {
+        "eng": "The crowd broke up after the concert.",
+        "ru": "Толпа разошлась после концерта.",
+        "learn": 1
+      },
+      {
+        "eng": "Why did you break up?",
+        "ru": "Почему вы расстались?",
+        "learn": 1
+      },
+      {
+        "eng": "I hear that Joan and Steve are breaking up.",
+        "ru": "Я слышал, что Джоан и Стив разводятся.",
+        "learn": 0
+      },
+      {
+        "eng": "You are breaking up.",
+        "ru": "Ты пропадаешь. (т.е. тебя не слышно, так как связь прерывается., во время разговора по мобильному телефону)",
+        "learn": 0
+      },
+      {
+        "eng": "When does your school break up?",
+        "ru": "Когда ваша школа закрывается на каникулы?",
+        "learn": 0
+      },
+      {
+        "eng": "Don't be such a wimp, Simon. Tell her you want to break up.",
+        "ru": "Не будь тряпкой, Саймон. Скажи ей, что ты хочешь расстаться с ней.",
+        "learn": 0
+      },
+      {
+        "eng": "The police broke up the fight.",
+        "ru": "Полиция прекратила драку.",
+        "learn": 0
+      },
+      {
+        "eng": "The party broke up when the police arrived.",
+        "ru": "Вечеринка прервалась, когда явилась полиция.",
+        "learn": 0
+      },
+      {
+        "eng": "When do you break up for Easter?",
+        "ru": "Когда вы закрываетесь на пасхальные каникулы?",
+        "learn": 0
+      },
+      {
+        "eng": "When do we break up for the summer holidays?",
+        "ru": "Когда нас распустят на летние каникулы?",
+        "learn": 0
+      },
+      {
+        "eng": "In spring the ice on the Great Lakes breaks up.",
+        "ru": "Весной лёд на Великих озёрах вскрывается.",
+        "learn": 0
+      },
+      {
+        "eng": "The party didn't break up until after midnight.",
+        "ru": "Участники вечеринки не расходились до глубокой ночи.",
+        "learn": 0
+      },
+      {
+        "eng": "Police moved in to break up the meeting.",
+        "ru": "Полицейские приблизились, чтобы разогнать этот митинг.",
+        "learn": 0
+      },
+      {
+        "eng": "Use a fork to break up the soil.",
+        "ru": "Используйте вилы, чтобы разрыхлить почву.",
+        "learn": 0
+      },
+      {
+        "eng": "He was (all) broken up by the news.",
+        "ru": "Эта новость очень огорчила его.",
+        "learn": 0
+      },
+      {
+        "eng": "You need a few trees and bushes to break up the lawn.",
+        "ru": "Вам потребуется несколько деревьев и кустарников, чтобы разделить газон на части.",
+        "learn": 0
+      },
+      {
+        "eng": "The men in the garage will break up the old cars for their parts.",
+        "ru": "Парни в гараже разберут старые машины на части.",
+        "learn": 0
+      },
+      {
+        "eng": "Many bands break up because of personality clashes between the musicians.",
+        "ru": "Многие группы распадаются из-за личных конфликтов между музыкантами.",
+        "learn": 0
+      },
+      {
+        "eng": "Police tried to break up the gang.",
+        "ru": "Полиция попыталась уничтожить эту банду.",
+        "learn": 0
+      },
+      {
+        "eng": "Divestitures are used to break up monopolies.",
+        "ru": "Разукрупнения используются для разрушения монополий.",
+        "learn": 0
+      },
+      {
+        "eng": "The military were sent in to break up the demonstration.",
+        "ru": "На разгон демонстрации отправили военных.",
+        "learn": 0
+      },
+      {
+        "eng": "The band broke up when their arguments over money grew too stressful.",
+        "ru": "Группа распалась, когда их споры из-за денег стали слишком уж напряжёнными.",
+        "learn": 0
+      },
+      {
+        "eng": "The job can be broken up into several activities, which provides some variety.",
+        "ru": "Работу можно разделить на разные виды деятельности, что внесет в неё некоторое разнообразие.",
+        "learn": 0
+      },
+      {
+        "eng": "Three policemen were needed to break up the fight.",
+        "ru": "Потребовалось целых три полицейских, чтобы разогнать эту драку.",
+        "learn": 0
+      },
+      {
+        "eng": "They had to break up the paving to lay a new gas line.",
+        "ru": "Чтобы проложить новый газопровод, (им) пришлось разобрать мостовую.",
+        "learn": 0
+      },
+      {
+        "eng": "She says, her sister is going to be married and that she fears it will break her up.",
+        "ru": "Она говорит, что ее сестра собирается замуж, и она боится, что это принесет ей много горя.",
+        "learn": 0
+      },
+      {
+        "eng": "The camera had only to turn to Tommy Cooper for the audience to break up with laughter.",
+        "ru": "Стоило только камере нацелиться на Томми Купера, как все зрители покатились со смеху.",
+        "learn": 0
+      },
+      {
+        "eng": "She had the temerity to ask my boyfriend if she could go out with him should he and I ever break up.",
+        "ru": "Она имела неосторожность спросить моего парня, может ли она пойти с ним на свидание, если мы с ним когда-нибудь расстанемся.",
+        "learn": 0
+      },
+      {
+        "eng": "The government passed laws intended to break up monopolies.",
+        "ru": "Правительство приняло законы, направленные на уничтожение монополий.",
+        "learn": 0
+      },
+      {
+        "eng": "The use of graphics in the text of the dictionary helps to break up the visual monotony of the page.",
+        "ru": "Использование в тексте словаря графики помогает нарушить визуальное однообразие страницы.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,84 +1,171 @@
 {
-    "floor": {
-        "comment": [
-            "flood"
-        ],
-        "translate": "этаж, пол, настил, перекрытие, напольный, справляться",
-        "transcription": " |flɔːr|",
-        "antonyms": [],
-        "mnemonic": [
-            "floor [фло:] пол, этаж - На полу на весь этаж (фу-фло) разное валяется.",
-            "floor [flɔ: ]\n***\nПОЛ - какое- то фуфло. (это) floor\nНАСТЕЛИЛ на пол фуфло. (это) floor"
-        ],
-        "examples": [
-            "Water covered the floor.",
-            "The floor was level.",
-            "Please sweep the floor.",
-            "We took the lift to the tenth floor.",
-            "He lay flat on the floor.",
-            "I found a shilling on the floor.",
-            "The news just floored me.",
-            "Lie flat on the floor.",
-            "He lay dead on the floor.",
-            "Don't walk on the wet floor!",
-            "The book fell onto the floor.",
-            "The floor was completely sound.",
-            "What is that thing on the floor?",
-            "I gave the floor a good scrub.",
-            "Keep your feet on the floor.",
-            "The floor was stacked with boxes.",
-            "Clothes littered the floor.",
-            "The car was on the top floor.",
-            "The sands which floor the sea.",
-            "He's never going to get floored.",
-            "Water poured all over the floor.",
-            "the floor of a car",
-            "The cellar has a dirt floor.",
-            "Give the floor a good scour.",
-            "He shuffled across the floor.",
-            "I rode up to the tenth floor.",
-            "Dig your foot into the floor.",
-            "Water was splashing on the floor.",
-            "a chasm in the ocean floor",
-            "The floor is lifting slowly."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Пол был покрыт водой.",
-            "Пол был ровный.",
-            "Пожалуйста, подмети пол.",
-            "Мы поехали на десятый этаж на лифте.",
-            "Он лежал плашмя на полу.",
-            "Я нашёл на полу шиллинг.",
-            "Эта новость меня просто ошарашила.",
-            "Лягте плашмя на пол.",
-            "Он лежал мёртвый на полу.",
-            "Не ходите по мокрому полу!",
-            "Книга упала на пол.",
-            "Пол был совершенно прочным.",
-            "Что это за штука на полу?",
-            "Я хорошо надраил пол.",
-            "Не отрывайте ноги от пола.",
-            "Пол был заставлен коробками.",
-            "Одежда валялась на полу.",
-            "Машина была на верхнем этаже.",
-            "Песок, устилающий дно моря.",
-            "Он всегда всё знает.",
-            "Вода залила весь пол. / Вода разлилась по всему полу.",
-            "автомобильный пол",
-            "В подвале земляной пол.",
-            "Вымой как следует пол.",
-            "Он прошаркал по полу.",
-            "Я поднялся на лифте до десятого этажа.",
-            "Дави на газ до упора.",
-            "На полу хлюпала вода.",
-            "глубокая расщелина на дне океана",
-            "Пол потихоньку поднимается. (т.е. коробится, деформируется от влаги или давления)"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "oor_=_[ɔː]"
-        ]
-    }
+  "floor": {
+    "comment": [
+      "flood"
+    ],
+    "translate": "этаж, пол, настил, перекрытие, напольный, справляться",
+    "transcription": " |flɔːr|",
+    "antonyms": [],
+    "mnemonic": [
+      "floor [фло:] пол, этаж - На полу на весь этаж (фу-фло) разное валяется.",
+      "floor [flɔ: ]\n***\nПОЛ - какое- то фуфло. (это) floor\nНАСТЕЛИЛ на пол фуфло. (это) floor"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "oor_=_[ɔː]"
+    ],
+    "examples": [
+      {
+        "eng": "Water covered the floor.",
+        "ru": "Пол был покрыт водой.",
+        "learn": 0
+      },
+      {
+        "eng": "The floor was level.",
+        "ru": "Пол был ровный.",
+        "learn": 0
+      },
+      {
+        "eng": "Please sweep the floor.",
+        "ru": "Пожалуйста, подмети пол.",
+        "learn": 0
+      },
+      {
+        "eng": "We took the lift to the tenth floor.",
+        "ru": "Мы поехали на десятый этаж на лифте.",
+        "learn": 1
+      },
+      {
+        "eng": "He lay flat on the floor.",
+        "ru": "Он лежал плашмя на полу.",
+        "learn": 0
+      },
+      {
+        "eng": "I found a shilling on the floor.",
+        "ru": "Я нашёл на полу шиллинг.",
+        "learn": 0
+      },
+      {
+        "eng": "The news just floored me.",
+        "ru": "Эта новость меня просто ошарашила.",
+        "learn": 0
+      },
+      {
+        "eng": "Lie flat on the floor.",
+        "ru": "Лягте плашмя на пол.",
+        "learn": 0
+      },
+      {
+        "eng": "He lay dead on the floor.",
+        "ru": "Он лежал мёртвый на полу.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't walk on the wet floor!",
+        "ru": "Не ходите по мокрому полу!",
+        "learn": 0
+      },
+      {
+        "eng": "The book fell onto the floor.",
+        "ru": "Книга упала на пол.",
+        "learn": 0
+      },
+      {
+        "eng": "The floor was completely sound.",
+        "ru": "Пол был совершенно прочным.",
+        "learn": 0
+      },
+      {
+        "eng": "What is that thing on the floor?",
+        "ru": "Что это за штука на полу?",
+        "learn": 0
+      },
+      {
+        "eng": "I gave the floor a good scrub.",
+        "ru": "Я хорошо надраил пол.",
+        "learn": 0
+      },
+      {
+        "eng": "Keep your feet on the floor.",
+        "ru": "Не отрывайте ноги от пола.",
+        "learn": 0
+      },
+      {
+        "eng": "The floor was stacked with boxes.",
+        "ru": "Пол был заставлен коробками.",
+        "learn": 1
+      },
+      {
+        "eng": "Clothes littered the floor.",
+        "ru": "Одежда валялась на полу.",
+        "learn": 1
+      },
+      {
+        "eng": "The car was on the top floor.",
+        "ru": "Машина была на верхнем этаже.",
+        "learn": 0
+      },
+      {
+        "eng": "The sands which floor the sea.",
+        "ru": "Песок, устилающий дно моря.",
+        "learn": 0
+      },
+      {
+        "eng": "He's never going to get floored.",
+        "ru": "Он всегда всё знает.",
+        "learn": 0
+      },
+      {
+        "eng": "Water poured all over the floor.",
+        "ru": "Вода залила весь пол. / Вода разлилась по всему полу.",
+        "learn": 0
+      },
+      {
+        "eng": "the floor of a car",
+        "ru": "автомобильный пол",
+        "learn": 0
+      },
+      {
+        "eng": "The cellar has a dirt floor.",
+        "ru": "В подвале земляной пол.",
+        "learn": 0
+      },
+      {
+        "eng": "Give the floor a good scour.",
+        "ru": "Вымой как следует пол.",
+        "learn": 0
+      },
+      {
+        "eng": "He shuffled across the floor.",
+        "ru": "Он прошаркал по полу.",
+        "learn": 0
+      },
+      {
+        "eng": "I rode up to the tenth floor.",
+        "ru": "Я поднялся на лифте до десятого этажа.",
+        "learn": 0
+      },
+      {
+        "eng": "Dig your foot into the floor.",
+        "ru": "Дави на газ до упора.",
+        "learn": 0
+      },
+      {
+        "eng": "Water was splashing on the floor.",
+        "ru": "На полу хлюпала вода.",
+        "learn": 0
+      },
+      {
+        "eng": "a chasm in the ocean floor",
+        "ru": "глубокая расщелина на дне океана",
+        "learn": 0
+      },
+      {
+        "eng": "The floor is lifting slowly.",
+        "ru": "Пол потихоньку поднимается. (т.е. коробится, деформируется от влаги или давления)",
+        "learn": 0
+      }
+    ]
+  }
 }

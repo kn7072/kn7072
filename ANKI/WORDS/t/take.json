@@ -1,90 +1,179 @@
 {
-    "take": {
-        "comment": [
-            "stake",
-            "mistake",
-            "mistaken",
-            "undertake",
-            "takeover",
-            "overtake",
-            "intake",
-            "undertaking"
-        ],
-        "translate": "взятие, дубль, захват, сбор, выручка, улов, принимать, брать, считать, занимать",
-        "transcription": " |teɪk|",
-        "antonyms": [],
-        "mnemonic": [
-            "take [тейк] брать - Возьми (с-тейк) и съешь.",
-            "take [teık]\n***\nБЕРИ и будешь богатей (к). (это) take\nВОЗЬМИ скорее стейк. (это) take\nЗахват, взятие.\n***\nЕсли чужое брать \"take\"\nэто будет ошибкой \"mistake\"."
-        ],
-        "examples": [
-            "Let's take a cab.",
-            "I take your point.",
-            "Winner takes all.",
-            "I took to him at once.",
-            "I take two magazines.",
-            "He does not take well.",
-            "They took train to London.",
-            "Let me take your coat.",
-            "Will you take the job?",
-            "I'll take it from him.",
-            "This bus takes you downtown.",
-            "How did he take it?",
-            "I'll take him around.",
-            "What size shoe do you take?",
-            "What took you out so late?",
-            "I took the first plane out.",
-            "He takes the bus to work.",
-            "He was taken with the idea.",
-            "Fire took the temple.",
-            "Which way must we take?",
-            "Who is taking you about?",
-            "The play didn't take.",
-            "I was not taken with him.",
-            "The king takes the queen.",
-            "I shall take it for $5.",
-            "Who takes you for English?",
-            "Sara took a deep breath.",
-            "I was taken into custody.",
-            "The flood took many lives.",
-            "Seines were set in the water just before the ice \"took\" on the lake or river."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Давайте возьмём такси.",
-            "Я понимаю вашу точку зрения.",
-            "Победитель забирает всё.",
-            "Он мне сразу понравился.",
-            "Я выписываю два журнала.",
-            "Он плохо выходит на фотографиях. / Он нефотогеничен.",
-            "Они сели на поезд, идущий до Лондона.",
-            "Позвольте мне взять ваше пальто. / Разрешите ваше пальто.",
-            "Ты возьмёшься за эту работу?",
-            "Я отберу это у него.",
-            "Этот автобус доставит вас в центр.",
-            "Как он к этому отнёсся?",
-            "Я ему тут всё покажу.",
-            "Какой размер обуви вы носите?",
-            "Что заставило тебя выйти так поздно?",
-            "Я улетел первым же самолётом.",
-            "Он добирается до работы на автобусе.",
-            "Он увлёкся этой мыслью.",
-            "Огонь охватил храм.",
-            "Какую дорогу нам выбрать?",
-            "Кто вас сопровождает?",
-            "Пьеса не имела успеха.",
-            "Он мне не понравился. / Я была от него не в восторге.",
-            "Король берёт ферзя.",
-            "Я возьму это за пять долларов.",
-            "Кто у вас по английскому? / Кто у вас ведёт английский?",
-            "Сара сделала глубокий вдох.",
-            "Меня взяли под стражу. / Меня арестовали.",
-            "Наводнение унесло жизни многих людей.",
-            "Перед самым замерзанием озера или реки в воду ставились сети."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "take": {
+    "comment": [
+      "took |tʊk|,                                          taken |ˈteɪkən|",
+      "stake",
+      "mistake",
+      "mistaken",
+      "undertake",
+      "takeover",
+      "overtake",
+      "intake",
+      "undertaking"
+    ],
+    "translate": "взятие, дубль, захват, сбор, выручка, улов, принимать, брать, считать, занимать",
+    "transcription": " |teɪk|",
+    "antonyms": [],
+    "mnemonic": [
+      "take [тейк] брать - Возьми (с-тейк) и съешь.",
+      "take [teık]\n***\nБЕРИ и будешь богатей (к). (это) take\nВОЗЬМИ скорее стейк. (это) take\nЗахват, взятие.\n***\nЕсли чужое брать \"take\"\nэто будет ошибкой \"mistake\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Let's take a cab.",
+        "ru": "Давайте возьмём такси.",
+        "learn": 0
+      },
+      {
+        "eng": "I take your point.",
+        "ru": "Я понимаю вашу точку зрения.",
+        "learn": 0
+      },
+      {
+        "eng": "Winner takes all.",
+        "ru": "Победитель забирает всё.",
+        "learn": 0
+      },
+      {
+        "eng": "I took to him at once.",
+        "ru": "Он мне сразу понравился.",
+        "learn": 0
+      },
+      {
+        "eng": "I take two magazines.",
+        "ru": "Я выписываю два журнала.",
+        "learn": 0
+      },
+      {
+        "eng": "He does not take well.",
+        "ru": "Он плохо выходит на фотографиях. / Он нефотогеничен.",
+        "learn": 0
+      },
+      {
+        "eng": "They took train to London.",
+        "ru": "Они сели на поезд, идущий до Лондона.",
+        "learn": 0
+      },
+      {
+        "eng": "Let me take your coat.",
+        "ru": "Позвольте мне взять ваше пальто. / Разрешите ваше пальто.",
+        "learn": 0
+      },
+      {
+        "eng": "Will you take the job?",
+        "ru": "Ты возьмёшься за эту работу?",
+        "learn": 1
+      },
+      {
+        "eng": "I'll take it from him.",
+        "ru": "Я отберу это у него.",
+        "learn": 0
+      },
+      {
+        "eng": "This bus takes you downtown.",
+        "ru": "Этот автобус доставит вас в центр.",
+        "learn": 0
+      },
+      {
+        "eng": "How did he take it?",
+        "ru": "Как он к этому отнёсся?",
+        "learn": 0
+      },
+      {
+        "eng": "I'll take him around.",
+        "ru": "Я ему тут всё покажу.",
+        "learn": 0
+      },
+      {
+        "eng": "What size shoe do you take?",
+        "ru": "Какой размер обуви вы носите?",
+        "learn": 0
+      },
+      {
+        "eng": "What took you out so late?",
+        "ru": "Что заставило тебя выйти так поздно?",
+        "learn": 0
+      },
+      {
+        "eng": "I took the first plane out.",
+        "ru": "Я улетел первым же самолётом.",
+        "learn": 0
+      },
+      {
+        "eng": "He takes the bus to work.",
+        "ru": "Он добирается до работы на автобусе.",
+        "learn": 0
+      },
+      {
+        "eng": "He was taken with the idea.",
+        "ru": "Он увлёкся этой мыслью.",
+        "learn": 1
+      },
+      {
+        "eng": "Fire took the temple.",
+        "ru": "Огонь охватил храм.",
+        "learn": 1
+      },
+      {
+        "eng": "Which way must we take?",
+        "ru": "Какую дорогу нам выбрать?",
+        "learn": 0
+      },
+      {
+        "eng": "Who is taking you about?",
+        "ru": "Кто вас сопровождает?",
+        "learn": 0
+      },
+      {
+        "eng": "The play didn't take.",
+        "ru": "Пьеса не имела успеха.",
+        "learn": 0
+      },
+      {
+        "eng": "I was not taken with him.",
+        "ru": "Он мне не понравился. / Я была от него не в восторге.",
+        "learn": 0
+      },
+      {
+        "eng": "The king takes the queen.",
+        "ru": "Король берёт ферзя.",
+        "learn": 0
+      },
+      {
+        "eng": "I shall take it for $5.",
+        "ru": "Я возьму это за пять долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "Who takes you for English?",
+        "ru": "Кто у вас по английскому? / Кто у вас ведёт английский?",
+        "learn": 0
+      },
+      {
+        "eng": "Sara took a deep breath.",
+        "ru": "Сара сделала глубокий вдох.",
+        "learn": 0
+      },
+      {
+        "eng": "I was taken into custody.",
+        "ru": "Меня взяли под стражу. / Меня арестовали.",
+        "learn": 1
+      },
+      {
+        "eng": "The flood took many lives.",
+        "ru": "Наводнение унесло жизни многих людей.",
+        "learn": 0
+      },
+      {
+        "eng": "Seines were set in the water just before the ice \"took\" on the lake or river.",
+        "ru": "Перед самым замерзанием озера или реки в воду ставились сети.",
+        "learn": 0
+      }
+    ]
+  }
 }

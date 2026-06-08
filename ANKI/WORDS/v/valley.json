@@ -1,82 +1,168 @@
 {
-    "valley": {
-        "comment": [
-            "vague, vacation, valley - расплывчатый, отпуск, (в)долина(е)"
-        ],
-        "translate": "долина, впадина, желоб, ендова, разжелобок",
-        "transcription": " |ˈvæli|",
-        "antonyms": [],
-        "mnemonic": [
-            "valley ['vælɪ]\n***\nНа ДОЛИНЕ мы горевали. (это) valley\nНа ДОЛИНЕ мы ревели. (это) valley"
-        ],
-        "examples": [
-            "They live down in the valley.",
-            "Heavy rains flooded the valley.",
-            "The road runs along a valley.",
-            "Fog was creeping into the valley.",
-            "The clouds float lazily over the valley.",
-            "The stream runs down the valley.",
-            "The stream serpentines through the valley.",
-            "...the valley will be the first to flood if the river rises...",
-            "a sweeping view of the valley",
-            "a panoramic view of the valley",
-            "The stream twists down through the valley.",
-            "The town lies in a small wooded valley.",
-            "We gazed across the valley.",
-            "Rivers traverse the valley floor.",
-            "The land rises up from the valley.",
-            "The mountains loom above the valley.",
-            "The wind blustered through the valley.",
-            "Their house was on the side of the valley.",
-            "The valley was convulsed by an earthquake.",
-            "The house has expansive views of the valley.",
-            "Part of the valley was in shadow.",
-            "an incomparable view of the valley",
-            "a deep valley between the mountains",
-            "the biggest winemaker in Napa Valley",
-            "The rains came and flooded the valley.",
-            "The valley was engulfed in a thick fog.",
-            "Apples grow in profusion in this valley.",
-            "Rocks enclosing, in an embrace, a valley.",
-            "The break in the dam threatened the valley.",
-            "The valley was between two ranges of hills."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Они живут внизу в долине.",
-            "Проливные дожди затопили долину.",
-            "Дорога проходит по долине.",
-            "Туман окутывал долину.",
-            "Облака медленно плывут над долиной.",
-            "Поток стекает в долину.",
-            "Река, извиваясь, течёт по равнине.",
-            "...долина будет затоплена первой, если уровень воды в реке поднимется...",
-            "потрясающий вид на долину",
-            "панорамный вид на долину",
-            "Ручей петляет по долине.",
-            "Город расположен в небольшой лесистой долине.",
-            "Мы смотрели на долину.",
-            "По дну долины протекают реки.",
-            "Земля поднимается из долины вверх.",
-            "Над долиной показались очертания гор.",
-            "Ветер бушевал в долине.",
-            "Их дом располагался на склоне долины.",
-            "Долина пострадала от землетрясения.",
-            "Из дома открывается обширный вид на долину.",
-            "Часть долины была в тени.",
-            "несравненный вид на долину",
-            "глубокая долина между горами",
-            "крупнейший винодел в долине Напа",
-            "Начались дожди, и долина оказалась залита водой.",
-            "Долина была погружена в густой туман.",
-            "В этой долине в изобилии растут яблоки.",
-            "Скалы, заключающие в свои объятия долину.",
-            "Прорыв дамбы поставил долину под угрозу.",
-            "Долина располагалась между двумя грядами холмов."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "valley": {
+    "comment": [
+      "vague, vacation, valley - расплывчатый, отпуск, (в)долина(е)"
+    ],
+    "translate": "долина, впадина, желоб, ендова, разжелобок",
+    "transcription": " |ˈvæli|",
+    "antonyms": [],
+    "mnemonic": [
+      "valley ['vælɪ]\n***\nНа ДОЛИНЕ мы горевали. (это) valley\nНа ДОЛИНЕ мы ревели. (это) valley"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "They live down in the valley.",
+        "ru": "Они живут внизу в долине.",
+        "learn": 0
+      },
+      {
+        "eng": "Heavy rains flooded the valley.",
+        "ru": "Проливные дожди затопили долину.",
+        "learn": 1
+      },
+      {
+        "eng": "The road runs along a valley.",
+        "ru": "Дорога проходит по долине.",
+        "learn": 0
+      },
+      {
+        "eng": "Fog was creeping into the valley.",
+        "ru": "Туман окутывал долину.",
+        "learn": 0
+      },
+      {
+        "eng": "The clouds float lazily over the valley.",
+        "ru": "Облака медленно плывут над долиной.",
+        "learn": 1
+      },
+      {
+        "eng": "The stream runs down the valley.",
+        "ru": "Поток стекает в долину.",
+        "learn": 0
+      },
+      {
+        "eng": "The stream serpentines through the valley.",
+        "ru": "Река, извиваясь, течёт по равнине.",
+        "learn": 0
+      },
+      {
+        "eng": "...the valley will be the first to flood if the river rises...",
+        "ru": "...долина будет затоплена первой, если уровень воды в реке поднимется...",
+        "learn": 0
+      },
+      {
+        "eng": "a sweeping view of the valley",
+        "ru": "потрясающий вид на долину",
+        "learn": 0
+      },
+      {
+        "eng": "a panoramic view of the valley",
+        "ru": "панорамный вид на долину",
+        "learn": 0
+      },
+      {
+        "eng": "The stream twists down through the valley.",
+        "ru": "Ручей петляет по долине.",
+        "learn": 0
+      },
+      {
+        "eng": "The town lies in a small wooded valley.",
+        "ru": "Город расположен в небольшой лесистой долине.",
+        "learn": 0
+      },
+      {
+        "eng": "We gazed across the valley.",
+        "ru": "Мы смотрели на долину.",
+        "learn": 0
+      },
+      {
+        "eng": "Rivers traverse the valley floor.",
+        "ru": "По дну долины протекают реки.",
+        "learn": 0
+      },
+      {
+        "eng": "The land rises up from the valley.",
+        "ru": "Земля поднимается из долины вверх.",
+        "learn": 0
+      },
+      {
+        "eng": "The mountains loom above the valley.",
+        "ru": "Над долиной показались очертания гор.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind blustered through the valley.",
+        "ru": "Ветер бушевал в долине.",
+        "learn": 0
+      },
+      {
+        "eng": "Their house was on the side of the valley.",
+        "ru": "Их дом располагался на склоне долины.",
+        "learn": 0
+      },
+      {
+        "eng": "The valley was convulsed by an earthquake.",
+        "ru": "Долина пострадала от землетрясения.",
+        "learn": 0
+      },
+      {
+        "eng": "The house has expansive views of the valley.",
+        "ru": "Из дома открывается обширный вид на долину.",
+        "learn": 0
+      },
+      {
+        "eng": "Part of the valley was in shadow.",
+        "ru": "Часть долины была в тени.",
+        "learn": 1
+      },
+      {
+        "eng": "an incomparable view of the valley",
+        "ru": "несравненный вид на долину",
+        "learn": 0
+      },
+      {
+        "eng": "a deep valley between the mountains",
+        "ru": "глубокая долина между горами",
+        "learn": 0
+      },
+      {
+        "eng": "the biggest winemaker in Napa Valley",
+        "ru": "крупнейший винодел в долине Напа",
+        "learn": 0
+      },
+      {
+        "eng": "The rains came and flooded the valley.",
+        "ru": "Начались дожди, и долина оказалась залита водой.",
+        "learn": 0
+      },
+      {
+        "eng": "The valley was engulfed in a thick fog.",
+        "ru": "Долина была погружена в густой туман.",
+        "learn": 0
+      },
+      {
+        "eng": "Apples grow in profusion in this valley.",
+        "ru": "В этой долине в изобилии растут яблоки.",
+        "learn": 0
+      },
+      {
+        "eng": "Rocks enclosing, in an embrace, a valley.",
+        "ru": "Скалы, заключающие в свои объятия долину.",
+        "learn": 0
+      },
+      {
+        "eng": "The break in the dam threatened the valley.",
+        "ru": "Прорыв дамбы поставил долину под угрозу.",
+        "learn": 0
+      },
+      {
+        "eng": "The valley was between two ranges of hills.",
+        "ru": "Долина располагалась между двумя грядами холмов.",
+        "learn": 0
+      }
+    ]
+  }
 }

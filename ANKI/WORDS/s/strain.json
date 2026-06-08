@@ -1,88 +1,174 @@
 {
-    "strain": {
-        "comment": [
-            "rain",
-            "grain",
-            "brain",
-            "restrain",
-            "restraint",
-            "drain",
-            "rainforest"
-        ],
-        "translate": "штамм, деформация, напрягаться, напрягать, натяжной",
-        "transcription": " |streɪn|",
-        "antonyms": [],
-        "mnemonic": [
-            "strain [стрэ'ин] натяжение, нагрузка, растяжение - (Стройн-ый) человек любую нагрузку и натяжение выдержит."
-        ],
-        "examples": [
-            "The incident has strained relations between the two countries.",
-            "I've strained a muscle in my leg.",
-            "Don't strain yourself.",
-            "I felt that my patience was being strained to the limit.",
-            "Why do you strain at such a small request?",
-            "Don't strain your mind too much.",
-            "Strain the fat off before you serve the soup.",
-            "She strained the pasta.",
-            "There is a strain of weakness in him.",
-            "Without a strain the great ship marches by.",
-            "Too much computer work strains the eyes.",
-            "Did you find the job a strain?",
-            "His marriage was under strain.",
-            "Medical bills put a severe strain on my finances.",
-            "Strain the custard to remove lumps.",
-            "I strained my back trying to lift the couch.",
-            "She had to retire during the first set because of a muscle strain.",
-            "I know you've been under a lot of strain lately.",
-            "He strained a muscle in his leg.",
-            "You'll strain your eyes trying to read in this light.",
-            "These four posts take the strain of the whole structure.",
-            "There's a strain of madness in his family.",
-            "The strain she was under was well camouflaged by skilful make-up.",
-            "She was straining to keep her head above the water.",
-            "Long hours working at a computer can cause eye strain.",
-            "Military spending imposes a huge strain on the economy.",
-            "The long working hours put a severe strain on employees.",
-            "The attack has led to strains in the relationship between the two countries.",
-            "The party split under the strain.",
-            "This condition is sometimes termed RSI, or repetitive strain injury."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Инцидент натянул отношения между двумя странами.",
-            "Я потянул мышцу на ноге.",
-            "Не напрягайся.",
-            "Я почувствовал, что мое терпение было на пределе.",
-            "Почему вы так щепетильны даже по пустякам?",
-            "Не слишком перенапрягай мозги.",
-            "Отцедите жир перед тем как подавать суп.",
-            "Она натянула макароны/спагетти.",
-            "Он слабый человек по природе.",
-            "Мимо величаво проплывает большой корабль.",
-            "Слишком много работы на компьютере напрягает глаза.",
-            "Работа показалась вам утомительной?",
-            "Его брак был под угрозой.",
-            "Медицинские счета больно ударили по моему карману.",
-            "Процедите крем, чтобы удалить комки.",
-            "Я потянул спину, пытаясь поднять диван.",
-            "Она пришлось уйти (прекратить игру) в первом сете из-за растяжения мышц.",
-            "Я знаю, что в последнее время ты испытывал большое напряжение.",
-            "Она надорвала / потянула / повредила мышцу на ноге.",
-            "Если пытаться читать при этом освещении, то напряжёшь глаза.",
-            "Эти четыре столба удерживают на себе вес всей постройки.",
-            "У него в его семье есть склонность к сумасшествию.",
-            "Следы переутомления она очень хорошо замаскировала под умелым макияжем.",
-            "Она изо всех сил старалась держать голову над водой.",
-            "Многочасовая работа на компьютере может привести к утомлению глаз.",
-            "Военные расходы оказывают на экономику огромную нагрузку.",
-            "Долгая сверхурочная работа стала тяжёлым испытанием для сотрудников.",
-            "Это нападение привело к напряженности в отношениях между двумя странами.",
-            "Партия не выдержала напряжения и раскололась.",
-            "Это состояние иногда называют RSI, или тоннельно-костевой синдром."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "strain": {
+    "comment": [
+      "rain",
+      "grain",
+      "brain",
+      "restrain",
+      "restraint",
+      "drain",
+      "rainforest"
+    ],
+    "translate": "штамм, деформация, напрягаться, напрягать, натяжной",
+    "transcription": " |streɪn|",
+    "antonyms": [],
+    "mnemonic": [
+      "strain [стрэ'ин] натяжение, нагрузка, растяжение - (Стройн-ый) человек любую нагрузку и натяжение выдержит."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The incident has strained relations between the two countries.",
+        "ru": "Инцидент натянул отношения между двумя странами.",
+        "learn": 0
+      },
+      {
+        "eng": "I've strained a muscle in my leg.",
+        "ru": "Я потянул мышцу на ноге.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't strain yourself.",
+        "ru": "Не напрягайся.",
+        "learn": 1
+      },
+      {
+        "eng": "I felt that my patience was being strained to the limit.",
+        "ru": "Я почувствовал, что мое терпение было на пределе.",
+        "learn": 1
+      },
+      {
+        "eng": "Why do you strain at such a small request?",
+        "ru": "Почему вы так щепетильны даже по пустякам?",
+        "learn": 0
+      },
+      {
+        "eng": "Don't strain your mind too much.",
+        "ru": "Не слишком перенапрягай мозги.",
+        "learn": 0
+      },
+      {
+        "eng": "Strain the fat off before you serve the soup.",
+        "ru": "Отцедите жир перед тем как подавать суп.",
+        "learn": 0
+      },
+      {
+        "eng": "She strained the pasta.",
+        "ru": "Она натянула макароны/спагетти.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a strain of weakness in him.",
+        "ru": "Он слабый человек по природе.",
+        "learn": 0
+      },
+      {
+        "eng": "Without a strain the great ship marches by.",
+        "ru": "Мимо величаво проплывает большой корабль.",
+        "learn": 0
+      },
+      {
+        "eng": "Too much computer work strains the eyes.",
+        "ru": "Слишком много работы на компьютере напрягает глаза.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you find the job a strain?",
+        "ru": "Работа показалась вам утомительной?",
+        "learn": 0
+      },
+      {
+        "eng": "His marriage was under strain.",
+        "ru": "Его брак был под угрозой.",
+        "learn": 0
+      },
+      {
+        "eng": "Medical bills put a severe strain on my finances.",
+        "ru": "Медицинские счета больно ударили по моему карману.",
+        "learn": 0
+      },
+      {
+        "eng": "Strain the custard to remove lumps.",
+        "ru": "Процедите крем, чтобы удалить комки.",
+        "learn": 0
+      },
+      {
+        "eng": "I strained my back trying to lift the couch.",
+        "ru": "Я потянул спину, пытаясь поднять диван.",
+        "learn": 0
+      },
+      {
+        "eng": "She had to retire during the first set because of a muscle strain.",
+        "ru": "Она пришлось уйти (прекратить игру) в первом сете из-за растяжения мышц.",
+        "learn": 0
+      },
+      {
+        "eng": "I know you've been under a lot of strain lately.",
+        "ru": "Я знаю, что в последнее время ты испытывал большое напряжение.",
+        "learn": 0
+      },
+      {
+        "eng": "He strained a muscle in his leg.",
+        "ru": "Она надорвала / потянула / повредила мышцу на ноге.",
+        "learn": 0
+      },
+      {
+        "eng": "You'll strain your eyes trying to read in this light.",
+        "ru": "Если пытаться читать при этом освещении, то напряжёшь глаза.",
+        "learn": 1
+      },
+      {
+        "eng": "These four posts take the strain of the whole structure.",
+        "ru": "Эти четыре столба удерживают на себе вес всей постройки.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a strain of madness in his family.",
+        "ru": "У него в его семье есть склонность к сумасшествию.",
+        "learn": 0
+      },
+      {
+        "eng": "The strain she was under was well camouflaged by skilful make-up.",
+        "ru": "Следы переутомления она очень хорошо замаскировала под умелым макияжем.",
+        "learn": 0
+      },
+      {
+        "eng": "She was straining to keep her head above the water.",
+        "ru": "Она изо всех сил старалась держать голову над водой.",
+        "learn": 0
+      },
+      {
+        "eng": "Long hours working at a computer can cause eye strain.",
+        "ru": "Многочасовая работа на компьютере может привести к утомлению глаз.",
+        "learn": 0
+      },
+      {
+        "eng": "Military spending imposes a huge strain on the economy.",
+        "ru": "Военные расходы оказывают на экономику огромную нагрузку.",
+        "learn": 0
+      },
+      {
+        "eng": "The long working hours put a severe strain on employees.",
+        "ru": "Долгая сверхурочная работа стала тяжёлым испытанием для сотрудников.",
+        "learn": 0
+      },
+      {
+        "eng": "The attack has led to strains in the relationship between the two countries.",
+        "ru": "Это нападение привело к напряженности в отношениях между двумя странами.",
+        "learn": 0
+      },
+      {
+        "eng": "The party split under the strain.",
+        "ru": "Партия не выдержала напряжения и раскололась.",
+        "learn": 0
+      },
+      {
+        "eng": "This condition is sometimes termed RSI, or repetitive strain injury.",
+        "ru": "Это состояние иногда называют RSI, или тоннельно-костевой синдром.",
+        "learn": 0
+      }
+    ]
+  }
 }

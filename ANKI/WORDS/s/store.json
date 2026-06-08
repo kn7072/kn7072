@@ -1,86 +1,172 @@
 {
-    "store": {
-        "comment": [
-            "storm",
-            "story",
-            "storage",
-            "storey"
-        ],
-        "translate": "магазин, склад, универмаг, хранить, накапливать, запасной, запасный, готовый",
-        "transcription": " |stɔːr|",
-        "antonyms": [],
-        "mnemonic": [
-            "store [сто:] склад - На складе (сто) вещей.",
-            "store [stɔ: ]\nstorage ['stɔ:rɪdʒ]\n***\nЯ вас СНАБЖАЛ уже раз сто. (это) store\nЗАПАСЫ увеличим раз так в 100. (это) store\nВ универмаг ходил раз 100. (это) store\n***\nНа СКЛАДЕ говорил раз сто|речь. (это) storage\nЗа ХРАНЕНИЕ отвечает сторож. (это) storage\nПамять ПК."
-        ],
-        "examples": [
-            "I need a place to store my stuff.",
-            "She works at (in) a store.",
-            "He walked to the store.",
-            "What did you get at the toy store?",
-            "The store's open all night.",
-            "We patronize this store",
-            "The store has unbeatable prices.",
-            "The solar panels store energy.",
-            "How much energy can this battery store?",
-            "The store is open until five.",
-            "Store raw meat on the lowest shelf.",
-            "Do you want anything from the store?",
-            "He possessed a vast store of knowledge.",
-            "What time will you go to the store today?",
-            "We waited inside the store.",
-            "We waited outside the store.",
-            "The store has a new location.",
-            "The store is guarded day and night.",
-            "The store where we shop is closing.",
-            "She will accompany me to the store.",
-            "I prowled the store looking for sales.",
-            "The sign in the store window says “OPEN.”",
-            "a buyer for a chain store",
-            "a hurried trip to the store",
-            "the clerk in the shoe store",
-            "The thieves cleaned out the store.",
-            "The store sells children's apparel.",
-            "Customers flocked into the store.",
-            "a store that sells art supplies",
-            "Business is brisk at the store."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мне нужно где-то хранить свои вещи.",
-            "Она работает в магазине.",
-            "Он пошёл в магазин пешком.",
-            "Что вы купили в магазине игрушек?",
-            "Этот магазин работает всю ночь.",
-            "Мы часто посещаем этот магазин.",
-            "В этом магазине лучшие цены. (цены которые не могут предложить конкуренты)",
-            "Солнечные батареи накапливают энергию.",
-            "Какова энергоёмкость этой батареи?",
-            "Магазин работает до пяти.",
-            "Храните сырое мясо на самой нижней полке.",
-            "Тебе принести что-нибудь из магазина?",
-            "Он обладал огромным запасом знаний.",
-            "Когда ты пойдешь сегодня в магазин?",
-            "Мы ждали в магазине.",
-            "Мы ждали у входа в магазин.",
-            "Магазин переехал на новое место.",
-            "Магазин находится под охраной и днём, и ночью.",
-            "(Тот) магазин, где мы обычно делаем покупки, закрывается.",
-            "Она сходит со мной в магазин.",
-            "Я бродила по магазину в поисках скидок.",
-            "Табличка в витрине магазина, гласит “ОТКРЫТО”. / На табличке в витрине магазина написано: “ОТКРЫТО”",
-            "закупщик для фирменного /сетевого/ магазина",
-            "спешная поездка в магазин",
-            "продавец в обувном магазине",
-            "Воры обчистили магазин.",
-            "Магазин торгует детской одеждой.",
-            "Покупатели толпами валили в лавку.",
-            "магазин, где продают художественные принадлежности",
-            "Торговля в магазине идёт бойко."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "store": {
+    "comment": [
+      "storm",
+      "story",
+      "storage",
+      "storey"
+    ],
+    "translate": "магазин, склад, универмаг, хранить, накапливать, запасной, запасный, готовый",
+    "transcription": " |stɔːr|",
+    "antonyms": [],
+    "mnemonic": [
+      "store [сто:] склад - На складе (сто) вещей.",
+      "store [stɔ: ]\nstorage ['stɔ:rɪdʒ]\n***\nЯ вас СНАБЖАЛ уже раз сто. (это) store\nЗАПАСЫ увеличим раз так в 100. (это) store\nВ универмаг ходил раз 100. (это) store\n***\nНа СКЛАДЕ говорил раз сто|речь. (это) storage\nЗа ХРАНЕНИЕ отвечает сторож. (это) storage\nПамять ПК."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I need a place to store my stuff.",
+        "ru": "Мне нужно где-то хранить свои вещи.",
+        "learn": 0
+      },
+      {
+        "eng": "She works at (in) a store.",
+        "ru": "Она работает в магазине.",
+        "learn": 0
+      },
+      {
+        "eng": "He walked to the store.",
+        "ru": "Он пошёл в магазин пешком.",
+        "learn": 0
+      },
+      {
+        "eng": "What did you get at the toy store?",
+        "ru": "Что вы купили в магазине игрушек?",
+        "learn": 0
+      },
+      {
+        "eng": "The store's open all night.",
+        "ru": "Этот магазин работает всю ночь.",
+        "learn": 0
+      },
+      {
+        "eng": "We patronize this store",
+        "ru": "Мы часто посещаем этот магазин.",
+        "learn": 0
+      },
+      {
+        "eng": "The store has unbeatable prices.",
+        "ru": "В этом магазине лучшие цены. (цены которые не могут предложить конкуренты)",
+        "learn": 0
+      },
+      {
+        "eng": "The solar panels store energy.",
+        "ru": "Солнечные батареи накапливают энергию.",
+        "learn": 1
+      },
+      {
+        "eng": "How much energy can this battery store?",
+        "ru": "Какова энергоёмкость этой батареи?",
+        "learn": 0
+      },
+      {
+        "eng": "The store is open until five.",
+        "ru": "Магазин работает до пяти.",
+        "learn": 1
+      },
+      {
+        "eng": "Store raw meat on the lowest shelf.",
+        "ru": "Храните сырое мясо на самой нижней полке.",
+        "learn": 1
+      },
+      {
+        "eng": "Do you want anything from the store?",
+        "ru": "Тебе принести что-нибудь из магазина?",
+        "learn": 0
+      },
+      {
+        "eng": "He possessed a vast store of knowledge.",
+        "ru": "Он обладал огромным запасом знаний.",
+        "learn": 0
+      },
+      {
+        "eng": "What time will you go to the store today?",
+        "ru": "Когда ты пойдешь сегодня в магазин?",
+        "learn": 0
+      },
+      {
+        "eng": "We waited inside the store.",
+        "ru": "Мы ждали в магазине.",
+        "learn": 0
+      },
+      {
+        "eng": "We waited outside the store.",
+        "ru": "Мы ждали у входа в магазин.",
+        "learn": 0
+      },
+      {
+        "eng": "The store has a new location.",
+        "ru": "Магазин переехал на новое место.",
+        "learn": 0
+      },
+      {
+        "eng": "The store is guarded day and night.",
+        "ru": "Магазин находится под охраной и днём, и ночью.",
+        "learn": 0
+      },
+      {
+        "eng": "The store where we shop is closing.",
+        "ru": "(Тот) магазин, где мы обычно делаем покупки, закрывается.",
+        "learn": 0
+      },
+      {
+        "eng": "She will accompany me to the store.",
+        "ru": "Она сходит со мной в магазин.",
+        "learn": 0
+      },
+      {
+        "eng": "I prowled the store looking for sales.",
+        "ru": "Я бродила по магазину в поисках скидок.",
+        "learn": 0
+      },
+      {
+        "eng": "The sign in the store window says “OPEN.”",
+        "ru": "Табличка в витрине магазина, гласит “ОТКРЫТО”. / На табличке в витрине магазина написано: “ОТКРЫТО”",
+        "learn": 0
+      },
+      {
+        "eng": "a buyer for a chain store",
+        "ru": "закупщик для фирменного /сетевого/ магазина",
+        "learn": 0
+      },
+      {
+        "eng": "a hurried trip to the store",
+        "ru": "спешная поездка в магазин",
+        "learn": 0
+      },
+      {
+        "eng": "the clerk in the shoe store",
+        "ru": "продавец в обувном магазине",
+        "learn": 0
+      },
+      {
+        "eng": "The thieves cleaned out the store.",
+        "ru": "Воры обчистили магазин.",
+        "learn": 0
+      },
+      {
+        "eng": "The store sells children's apparel.",
+        "ru": "Магазин торгует детской одеждой.",
+        "learn": 0
+      },
+      {
+        "eng": "Customers flocked into the store.",
+        "ru": "Покупатели толпами валили в лавку.",
+        "learn": 1
+      },
+      {
+        "eng": "a store that sells art supplies",
+        "ru": "магазин, где продают художественные принадлежности",
+        "learn": 0
+      },
+      {
+        "eng": "Business is brisk at the store.",
+        "ru": "Торговля в магазине идёт бойко.",
+        "learn": 0
+      }
+    ]
+  }
 }

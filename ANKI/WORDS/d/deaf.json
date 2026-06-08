@@ -1,73 +1,144 @@
 {
-    "deaf": {
-        "comment": [
-            "deafness"
-        ],
-        "translate": "глухой, глуховатый, тугой на ухо, отказывающийся слушать",
-        "transcription": " |def|",
-        "antonyms": [],
-        "mnemonic": [
-            "deaf [дэф] глухой - (Дефицита) глухих не наблюдается.",
-            "deaf [def]\n***\nГЛУХИМ стал, шлем надев. (это) deaf"
-        ],
-        "examples": [
-            "He has been deaf since birth.",
-            "He is deaf and almost blind with old age.",
-            "They were deaf to all our pleas.",
-            "He was born deaf and dumb.",
-            "A great cold had struck him deaf.",
-            "He is nearly deaf - never picks his ears.",
-            "She is quite stone deaf, so we correspond on a slate.",
-            "She plays deaf when the news are bad.",
-            "Deaf children can often be included in mainstream education.",
-            "Many of the deaf use sign language.",
-            "The young girls are in a state of possession — blind and deaf and anesthetic.",
-            "Our entreaties to give us another few minutes to answer the test questions fell on deaf ears.",
-            "She's completely deaf in her right ear.",
-            "He's going a little deaf so you'll have to speak up.",
-            "I was nobbled by my deaf old aunt and couldn't get away.",
-            "Tom was born profoundly deaf (=completely deaf).",
-            "At that time, deaf children were not considered educable.",
-            "Her parents decided to put her in a special school for deaf children.",
-            "He often has to ask people to repeat themselves because he's a little deaf.",
-            "He maintained strong links with the world of the deaf.",
-            "The factory owners turned a deaf ear to the demands of the workers.",
-            "The school was founded with the express purpose of teaching deaf children.",
-            "She's deaf and dumb (=unable to hear or speak) and communicates using sign language.",
-            "Her teachers said she was a slow learner, whereas in actual fact she was partially deaf.",
-            "Her training at the school for the deaf imbued her with a sense of purpose that she had never known before."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он был глухой с рождения.",
-            "Он оглох и почти ослеп от старости.",
-            "Они были глухи к нашим мольбам.",
-            "Он родился глухонемым.",
-            "Он оглох в результате сильной простуды.",
-            "Он почти глухой - уши совсем не чистит.",
-            "Она совершенно глуха, поэтому мы пишем друг другу сообщения на грифельной доске.",
-            "Когда новости плохие, она притворяется глухой.",
-            "Глухих детей часто можно включать в общую систему образования.",
-            "Многие глухие люди пользуются языком жестов.",
-            "Эти девушки находятся в состоянии одержимости: они ничего не видят, не слышат, и не чувствуют.",
-            "Наши горячие просьбы дать нам ещё несколько минут для ответов на вопросы теста так и не были услышаны.",
-            "Она полностью глуха на правое ухо.",
-            "Он немного глуховат, так что вам придётся говорить погромче.",
-            "Я попался своей старой глухой тётушке, и не смог от неё удрать.",
-            "Том родился абсолютно (т.е. полностью) глухим.",
-            "В то время глухие дети не считались способными к обучению.",
-            "Родители решили отправить её в специальную школу-интернат для глухих детей.",
-            "Ему часто приходится просить людей повторить, потому что он немного глуховат.",
-            "Он поддерживал тесные связи с миром глухих.",
-            "Владельцы завода остались глухи к требованиям рабочих.",
-            "Школа была создана с целью обучения глухих детей.",
-            "Она глухонемая (т.е. не в состоянии ни слышать, ни говорить) и общается с помощью языка жестов.",
-            "Её учителя сказали, что она неспособная ученица, тогда как в действительности она была частично глухая.",
-            "Её обучение в школе для глухих внушило ей ту целеустремлённость, которой она никогда прежде не знала."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "deaf": {
+    "comment": [
+      "deafness"
+    ],
+    "translate": "глухой, глуховатый, тугой на ухо, отказывающийся слушать",
+    "transcription": " |def|",
+    "antonyms": [],
+    "mnemonic": [
+      "deaf [дэф] глухой - (Дефицита) глухих не наблюдается.",
+      "deaf [def]\n***\nГЛУХИМ стал, шлем надев. (это) deaf"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He has been deaf since birth.",
+        "ru": "Он был глухой с рождения.",
+        "learn": 1
+      },
+      {
+        "eng": "He is deaf and almost blind with old age.",
+        "ru": "Он оглох и почти ослеп от старости.",
+        "learn": 1
+      },
+      {
+        "eng": "They were deaf to all our pleas.",
+        "ru": "Они были глухи к нашим мольбам.",
+        "learn": 0
+      },
+      {
+        "eng": "He was born deaf and dumb.",
+        "ru": "Он родился глухонемым.",
+        "learn": 0
+      },
+      {
+        "eng": "A great cold had struck him deaf.",
+        "ru": "Он оглох в результате сильной простуды.",
+        "learn": 0
+      },
+      {
+        "eng": "He is nearly deaf - never picks his ears.",
+        "ru": "Он почти глухой - уши совсем не чистит.",
+        "learn": 0
+      },
+      {
+        "eng": "She is quite stone deaf, so we correspond on a slate.",
+        "ru": "Она совершенно глуха, поэтому мы пишем друг другу сообщения на грифельной доске.",
+        "learn": 0
+      },
+      {
+        "eng": "She plays deaf when the news are bad.",
+        "ru": "Когда новости плохие, она притворяется глухой.",
+        "learn": 0
+      },
+      {
+        "eng": "Deaf children can often be included in mainstream education.",
+        "ru": "Глухих детей часто можно включать в общую систему образования.",
+        "learn": 1
+      },
+      {
+        "eng": "Many of the deaf use sign language.",
+        "ru": "Многие глухие люди пользуются языком жестов.",
+        "learn": 0
+      },
+      {
+        "eng": "The young girls are in a state of possession — blind and deaf and anesthetic.",
+        "ru": "Эти девушки находятся в состоянии одержимости: они ничего не видят, не слышат, и не чувствуют.",
+        "learn": 0
+      },
+      {
+        "eng": "Our entreaties to give us another few minutes to answer the test questions fell on deaf ears.",
+        "ru": "Наши горячие просьбы дать нам ещё несколько минут для ответов на вопросы теста так и не были услышаны.",
+        "learn": 0
+      },
+      {
+        "eng": "She's completely deaf in her right ear.",
+        "ru": "Она полностью глуха на правое ухо.",
+        "learn": 1
+      },
+      {
+        "eng": "He's going a little deaf so you'll have to speak up.",
+        "ru": "Он немного глуховат, так что вам придётся говорить погромче.",
+        "learn": 0
+      },
+      {
+        "eng": "I was nobbled by my deaf old aunt and couldn't get away.",
+        "ru": "Я попался своей старой глухой тётушке, и не смог от неё удрать.",
+        "learn": 0
+      },
+      {
+        "eng": "Tom was born profoundly deaf (=completely deaf).",
+        "ru": "Том родился абсолютно (т.е. полностью) глухим.",
+        "learn": 0
+      },
+      {
+        "eng": "At that time, deaf children were not considered educable.",
+        "ru": "В то время глухие дети не считались способными к обучению.",
+        "learn": 0
+      },
+      {
+        "eng": "Her parents decided to put her in a special school for deaf children.",
+        "ru": "Родители решили отправить её в специальную школу-интернат для глухих детей.",
+        "learn": 0
+      },
+      {
+        "eng": "He often has to ask people to repeat themselves because he's a little deaf.",
+        "ru": "Ему часто приходится просить людей повторить, потому что он немного глуховат.",
+        "learn": 0
+      },
+      {
+        "eng": "He maintained strong links with the world of the deaf.",
+        "ru": "Он поддерживал тесные связи с миром глухих.",
+        "learn": 0
+      },
+      {
+        "eng": "The factory owners turned a deaf ear to the demands of the workers.",
+        "ru": "Владельцы завода остались глухи к требованиям рабочих.",
+        "learn": 0
+      },
+      {
+        "eng": "The school was founded with the express purpose of teaching deaf children.",
+        "ru": "Школа была создана с целью обучения глухих детей.",
+        "learn": 0
+      },
+      {
+        "eng": "She's deaf and dumb (=unable to hear or speak) and communicates using sign language.",
+        "ru": "Она глухонемая (т.е. не в состоянии ни слышать, ни говорить) и общается с помощью языка жестов.",
+        "learn": 0
+      },
+      {
+        "eng": "Her teachers said she was a slow learner, whereas in actual fact she was partially deaf.",
+        "ru": "Её учителя сказали, что она неспособная ученица, тогда как в действительности она была частично глухая.",
+        "learn": 1
+      },
+      {
+        "eng": "Her training at the school for the deaf imbued her with a sense of purpose that she had never known before.",
+        "ru": "Её обучение в школе для глухих внушило ей ту целеустремлённость, которой она никогда прежде не знала.",
+        "learn": 0
+      }
+    ]
+  }
 }

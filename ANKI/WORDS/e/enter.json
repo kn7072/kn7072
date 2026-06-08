@@ -1,85 +1,171 @@
 {
-    "enter": {
-        "comment": [
-            "enterprise",
-            "center",
-            "presenter"
-        ],
-        "translate": "вводить, входить, вступать, поступать, выход на сцену",
-        "transcription": " |ˈentər|",
-        "antonyms": [],
-        "mnemonic": [
-            "enter [э'нтэ] входить - Наш корабль входит в (Энтэ- рктиду).",
-            "enter ['entə]\nentrance- вход, въезд, вступление, появляться\nentertain [¸entə'teɪn] - принимать, развлекать\nenterprise- предприятие, предприимчивость\nentry ['ɛntrɪ] - вход, запись, статья, въезд, ввод данных\n***\nКогда ВХОДИЛ, разрезал ленты. (это) enter\nВход, вхождение.\n***\nЯ Вас развлеку \"entertain\",\nно надолго не задержу \"detain\".\n***\nПрямо в центр \"center\"\nвошёл \"enter\"\nарендатор \"renter\"."
-        ],
-        "examples": [
-            "Both the boys entered the army.",
-            "We entered into a noble forest.",
-            "It was a risk to enter that area.",
-            "Enter your name in the space provided.",
-            "The queen bade us enter.",
-            "The teacher enters all her students for the examination.",
-            "Enter Caliban.",
-            "The sword entered in his chest.",
-            "Don't forget to enter your postcode.",
-            "Will you enter the contest?",
-            "He entered the army at nineteen.",
-            "The queen entered in her eighties.",
-            "The economy has entered a period of recession.",
-            "She entered politics in 1996.",
-            "The river enters the sea near here.",
-            "enter a child in kindergarten",
-            "Cost must also enter into consideration.",
-            "Our son will be entering college next year.",
-            "At least 30 schools entered the competition.",
-            "The talks have now entered their third week.",
-            "The bullet had entered his brain.",
-            "an actor who's just now entering his prime",
-            "Women are not allowed to enter the mosque.",
-            "I psych out every time I enter an examination room.",
-            "Decisions about when he or she is entered for an examination should be taken very carefully.",
-            "A note of panic entered her voice.",
-            "Silence fell as I entered the room.",
-            "Abandon hope all ye who enter here.",
-            "Has Jim entered for the competition?",
-            "Here we enter the region of opinion."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Оба парня пошли в армию.",
-            "Мы вошли в величественный лес.",
-            "Появляться в этом районе было опасно.",
-            "Введите своё имя в соответствующем поле.",
-            "Королева приказалa нам войти.",
-            "Учительница вносит всех своих учеников в экзаменационный список.",
-            "Входит Калибан.",
-            "Меч пронзил его грудь.",
-            "Не забудьте ввести свой почтовый индекс.",
-            "Будете ли вы участвовать в конкурсе?",
-            "Он пошёл в армию в девятнадцать лет.",
-            "Королева переступила порог восьмидесятилетнего возраста.",
-            "Экономика вступила в период рецессии.",
-            "Она начала заниматься политикой в 1996 году.",
-            "Недалеко отсюда река впадает в море.",
-            "записать ребёнка в детский сад",
-            "Цену тоже надо принимать во внимание.",
-            "В следующем году наш сын будет поступать в колледж.",
-            "В состязании приняло участие, как минимум, тридцать школ.",
-            "Переговоры идут уже третью неделю.",
-            "Пуля проникла в его мозг.",
-            "актёр, лучшие годы которого только-только начались",
-            "Женщинам не разрешено входить в мечеть.",
-            "Каждый раз, когда я вхожу в аудиторию на экзамен, я нервничаю.",
-            "Решения о том, когда студента или студентку следует допустить к экзамену, следует принимать очень тщательно.",
-            "В её голосе появились панические нотки.",
-            "Когда я вошёл в комнату, наступила тишина.",
-            "Оставь надежду, всяк сюда входящий.",
-            "Джим будет участвовать в соревнованиях?",
-            "Здесь мы вступаем в область мнений."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "enter": {
+    "comment": [
+      "enterprise",
+      "center",
+      "presenter"
+    ],
+    "translate": "вводить, входить, вступать, поступать, выход на сцену",
+    "transcription": " |ˈentər|",
+    "antonyms": [],
+    "mnemonic": [
+      "enter [э'нтэ] входить - Наш корабль входит в (Энтэ- рктиду).",
+      "enter ['entə]\nentrance- вход, въезд, вступление, появляться\nentertain [¸entə'teɪn] - принимать, развлекать\nenterprise- предприятие, предприимчивость\nentry ['ɛntrɪ] - вход, запись, статья, въезд, ввод данных\n***\nКогда ВХОДИЛ, разрезал ленты. (это) enter\nВход, вхождение.\n***\nЯ Вас развлеку \"entertain\",\nно надолго не задержу \"detain\".\n***\nПрямо в центр \"center\"\nвошёл \"enter\"\nарендатор \"renter\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Both the boys entered the army.",
+        "ru": "Оба парня пошли в армию.",
+        "learn": 0
+      },
+      {
+        "eng": "We entered into a noble forest.",
+        "ru": "Мы вошли в величественный лес.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a risk to enter that area.",
+        "ru": "Появляться в этом районе было опасно.",
+        "learn": 0
+      },
+      {
+        "eng": "Enter your name in the space provided.",
+        "ru": "Введите своё имя в соответствующем поле.",
+        "learn": 0
+      },
+      {
+        "eng": "The queen bade us enter.",
+        "ru": "Королева приказалa нам войти.",
+        "learn": 0
+      },
+      {
+        "eng": "The teacher enters all her students for the examination.",
+        "ru": "Учительница вносит всех своих учеников в экзаменационный список.",
+        "learn": 0
+      },
+      {
+        "eng": "Enter Caliban.",
+        "ru": "Входит Калибан.",
+        "learn": 0
+      },
+      {
+        "eng": "The sword entered in his chest.",
+        "ru": "Меч пронзил его грудь.",
+        "learn": 1
+      },
+      {
+        "eng": "Don't forget to enter your postcode.",
+        "ru": "Не забудьте ввести свой почтовый индекс.",
+        "learn": 1
+      },
+      {
+        "eng": "Will you enter the contest?",
+        "ru": "Будете ли вы участвовать в конкурсе?",
+        "learn": 0
+      },
+      {
+        "eng": "He entered the army at nineteen.",
+        "ru": "Он пошёл в армию в девятнадцать лет.",
+        "learn": 0
+      },
+      {
+        "eng": "The queen entered in her eighties.",
+        "ru": "Королева переступила порог восьмидесятилетнего возраста.",
+        "learn": 0
+      },
+      {
+        "eng": "The economy has entered a period of recession.",
+        "ru": "Экономика вступила в период рецессии.",
+        "learn": 0
+      },
+      {
+        "eng": "She entered politics in 1996.",
+        "ru": "Она начала заниматься политикой в 1996 году.",
+        "learn": 0
+      },
+      {
+        "eng": "The river enters the sea near here.",
+        "ru": "Недалеко отсюда река впадает в море.",
+        "learn": 0
+      },
+      {
+        "eng": "enter a child in kindergarten",
+        "ru": "записать ребёнка в детский сад",
+        "learn": 0
+      },
+      {
+        "eng": "Cost must also enter into consideration.",
+        "ru": "Цену тоже надо принимать во внимание.",
+        "learn": 0
+      },
+      {
+        "eng": "Our son will be entering college next year.",
+        "ru": "В следующем году наш сын будет поступать в колледж.",
+        "learn": 0
+      },
+      {
+        "eng": "At least 30 schools entered the competition.",
+        "ru": "В состязании приняло участие, как минимум, тридцать школ.",
+        "learn": 0
+      },
+      {
+        "eng": "The talks have now entered their third week.",
+        "ru": "Переговоры идут уже третью неделю.",
+        "learn": 0
+      },
+      {
+        "eng": "The bullet had entered his brain.",
+        "ru": "Пуля проникла в его мозг.",
+        "learn": 1
+      },
+      {
+        "eng": "an actor who's just now entering his prime",
+        "ru": "актёр, лучшие годы которого только-только начались",
+        "learn": 0
+      },
+      {
+        "eng": "Women are not allowed to enter the mosque.",
+        "ru": "Женщинам не разрешено входить в мечеть.",
+        "learn": 1
+      },
+      {
+        "eng": "I psych out every time I enter an examination room.",
+        "ru": "Каждый раз, когда я вхожу в аудиторию на экзамен, я нервничаю.",
+        "learn": 0
+      },
+      {
+        "eng": "Decisions about when he or she is entered for an examination should be taken very carefully.",
+        "ru": "Решения о том, когда студента или студентку следует допустить к экзамену, следует принимать очень тщательно.",
+        "learn": 0
+      },
+      {
+        "eng": "A note of panic entered her voice.",
+        "ru": "В её голосе появились панические нотки.",
+        "learn": 0
+      },
+      {
+        "eng": "Silence fell as I entered the room.",
+        "ru": "Когда я вошёл в комнату, наступила тишина.",
+        "learn": 0
+      },
+      {
+        "eng": "Abandon hope all ye who enter here.",
+        "ru": "Оставь надежду, всяк сюда входящий.",
+        "learn": 0
+      },
+      {
+        "eng": "Has Jim entered for the competition?",
+        "ru": "Джим будет участвовать в соревнованиях?",
+        "learn": 0
+      },
+      {
+        "eng": "Here we enter the region of opinion.",
+        "ru": "Здесь мы вступаем в область мнений.",
+        "learn": 0
+      }
+    ]
+  }
 }

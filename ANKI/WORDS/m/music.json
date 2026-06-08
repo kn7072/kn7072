@@ -1,81 +1,167 @@
 {
-    "music": {
-        "comment": [
-            "musical",
-            "musician"
-        ],
-        "translate": "музыка, ноты, музыкальное произведение, оркестр, хор",
-        "transcription": " |ˈmjuːzɪk|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I really dig their music.",
-            "This music really gets me.",
-            "The music faded away.",
-            "Do you care for modern music?",
-            "Music tricked his speech.",
-            "She has a turn for music.",
-            "Do you hear that music?",
-            "The music was a little same.",
-            "Romanian folk music",
-            "Mozart wrote the music.",
-            "The tempo of music speeds up.",
-            "Her voice was music to my ears.",
-            "We have similar tastes in music.",
-            "Their music was once very popular.",
-            "Latin music",
-            "Music Centre",
-            "Spanish music",
-            "Austrian music",
-            "Elizabethan music",
-            "a new kind of music",
-            "She's keen on music.",
-            "The music died away.",
-            "Hungarian folk music",
-            "Black and Asian music",
-            "His music is ethereal.",
-            "Classical music sucks.",
-            "The music has to swing.",
-            "I left my music at home.",
-            "an ancient form of music",
-            "Music swelled around us."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я просто тащусь от их музыки.",
-            "Мне так нравится эта музыка!",
-            "Музыка стихла.",
-            "Тебе нравится современная музыка?",
-            "Своё выступление он украсил музыкальными фрагментами.",
-            "У неё есть музыкальные способности.",
-            "Слышишь эту музыку?",
-            "Музыка была довольно монотонная.",
-            "румынская народная музыка",
-            "Эту музыку написал Моцарт.",
-            "Музыка становится быстрее.",
-            "Её голос звучал для меня музыкой.",
-            "У нас схожие вкусы в музыке.",
-            "Когда-то их музыка была очень популярной.",
-            "латиноамериканская музыка",
-            "Дом музыки",
-            "испанская музыка",
-            "австрийская музыка",
-            "музыка эпохи королевы Елизаветы",
-            "новый вид музыки",
-            "Она бредит музыкой.",
-            "Музыка стихла.",
-            "венгерская народная музыка",
-            "негритянская и и азиатская музыка",
-            "Его музыка — просто неземная.",
-            "Классическая музыка — отстой.",
-            "Эта музыка должна \"качать\".",
-            "Я оставил ноты дома.",
-            "древняя форма музыки",
-            "Музыка вокруг нас становилась громче."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "music": {
+    "comment": [
+      "musical",
+      "musician"
+    ],
+    "translate": "музыка, ноты, музыкальное произведение, оркестр, хор",
+    "transcription": " |ˈmjuːzɪk|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I really dig their music.",
+        "ru": "Я просто тащусь от их музыки.",
+        "learn": 0
+      },
+      {
+        "eng": "This music really gets me.",
+        "ru": "Мне так нравится эта музыка!",
+        "learn": 0
+      },
+      {
+        "eng": "The music faded away.",
+        "ru": "Музыка стихла.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you care for modern music?",
+        "ru": "Тебе нравится современная музыка?",
+        "learn": 0
+      },
+      {
+        "eng": "Music tricked his speech.",
+        "ru": "Своё выступление он украсил музыкальными фрагментами.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a turn for music.",
+        "ru": "У неё есть музыкальные способности.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you hear that music?",
+        "ru": "Слышишь эту музыку?",
+        "learn": 0
+      },
+      {
+        "eng": "The music was a little same.",
+        "ru": "Музыка была довольно монотонная.",
+        "learn": 0
+      },
+      {
+        "eng": "Romanian folk music",
+        "ru": "румынская народная музыка",
+        "learn": 0
+      },
+      {
+        "eng": "Mozart wrote the music.",
+        "ru": "Эту музыку написал Моцарт.",
+        "learn": 0
+      },
+      {
+        "eng": "The tempo of music speeds up.",
+        "ru": "Музыка становится быстрее.",
+        "learn": 0
+      },
+      {
+        "eng": "Her voice was music to my ears.",
+        "ru": "Её голос звучал для меня музыкой.",
+        "learn": 0
+      },
+      {
+        "eng": "We have similar tastes in music.",
+        "ru": "У нас схожие вкусы в музыке.",
+        "learn": 0
+      },
+      {
+        "eng": "Their music was once very popular.",
+        "ru": "Когда-то их музыка была очень популярной.",
+        "learn": 1
+      },
+      {
+        "eng": "Latin music",
+        "ru": "латиноамериканская музыка",
+        "learn": 0
+      },
+      {
+        "eng": "Music Centre",
+        "ru": "Дом музыки",
+        "learn": 0
+      },
+      {
+        "eng": "Spanish music",
+        "ru": "испанская музыка",
+        "learn": 0
+      },
+      {
+        "eng": "Austrian music",
+        "ru": "австрийская музыка",
+        "learn": 0
+      },
+      {
+        "eng": "Elizabethan music",
+        "ru": "музыка эпохи королевы Елизаветы",
+        "learn": 0
+      },
+      {
+        "eng": "a new kind of music",
+        "ru": "новый вид музыки",
+        "learn": 0
+      },
+      {
+        "eng": "She's keen on music.",
+        "ru": "Она бредит музыкой.",
+        "learn": 0
+      },
+      {
+        "eng": "The music died away.",
+        "ru": "Музыка стихла.",
+        "learn": 0
+      },
+      {
+        "eng": "Hungarian folk music",
+        "ru": "венгерская народная музыка",
+        "learn": 0
+      },
+      {
+        "eng": "Black and Asian music",
+        "ru": "негритянская и и азиатская музыка",
+        "learn": 0
+      },
+      {
+        "eng": "His music is ethereal.",
+        "ru": "Его музыка — просто неземная.",
+        "learn": 0
+      },
+      {
+        "eng": "Classical music sucks.",
+        "ru": "Классическая музыка — отстой.",
+        "learn": 0
+      },
+      {
+        "eng": "The music has to swing.",
+        "ru": "Эта музыка должна \"качать\".",
+        "learn": 0
+      },
+      {
+        "eng": "I left my music at home.",
+        "ru": "Я оставил ноты дома.",
+        "learn": 0
+      },
+      {
+        "eng": "an ancient form of music",
+        "ru": "древняя форма музыки",
+        "learn": 0
+      },
+      {
+        "eng": "Music swelled around us.",
+        "ru": "Музыка вокруг нас становилась громче.",
+        "learn": 0
+      }
+    ]
+  }
 }

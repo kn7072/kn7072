@@ -1,84 +1,171 @@
 {
-    "stomach": {
-        "comment": [
-            "machine",
-            "machinery"
-        ],
-        "translate": "желудок, живот, аппетит, мужество, стерпеть, сносить",
-        "transcription": " |ˈstʌmək|",
-        "antonyms": [],
-        "mnemonic": [
-            "stomach [сто'мэк] желудок - Мой желудок (сто маков) переварит."
-        ],
-        "examples": [
-            "My stomach rises.",
-            "His stomach worries him.",
-            "She got him on the stomach.",
-            "She has problems with her stomach.",
-            "Her stomach was in knots.",
-            "He punched me in the stomach",
-            "He kicked him in the stomach.",
-            "He cannot stomach raw fish.",
-            "Spicy food upsets my stomach.",
-            "He stabbed him in the stomach.",
-            "He was lying on his stomach.",
-            "I could barely stomach the smell.",
-            "He had no stomach for a fight.",
-            "Food is broken down in the stomach.",
-            "Spicy foods can cause stomach upset.",
-            "The baby rolled over onto his stomach.",
-            "I can't work properly on an empty stomach.",
-            "Her stomach ached dully.",
-            "I can't stomach raw onions.",
-            "Aspirin irritates my stomach.",
-            "He's off work with a stomach bug.",
-            "any food produced irritation of the stomach",
-            "Exercise gave him a good stomach for dinner.",
-            "Her stomach ulcerated.",
-            "Her stomach was ulcerated.",
-            "The dead man's stomach was bloated.",
-            "His stomach bulged after the huge meal.",
-            "The attacker kicked him in the stomach.",
-            "This medicine neutralizes stomach acids.",
-            "The nurse palpated the patient's stomach."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Меня тошнит.",
-            "Его беспокоит желудок.",
-            "Она ударила его в живот.",
-            "У неё проблемы с желудком.",
-            "У нёе схватило живот / желудок.",
-            "Он ударил меня в живот",
-            "Он ударил его ногой в живот.",
-            "Он терпеть не может сырую рыбу.",
-            "Острая еда вызывает у меня расстройство желудка.",
-            "Он пырнул его ножом в живот.",
-            "Он лежал на животе.",
-            "От вони меня едва не стошнило.",
-            "Драться ему не хотелось.",
-            "В желудке пища расщепляется.",
-            "Острая пища может вызвать расстройство желудка.",
-            "Малыш перевернулся на животик.",
-            "Я не могу нормально работать на пустой желудок.",
-            "Её желудок тупо ныл.",
-            "Я не могу есть сырой лук",
-            "Аспирин раздражает желудок.",
-            "Он отсутствует на работе по причине острого расстройства пищеварения.",
-            "любая пища вызывала раздражение желудка",
-            "После занятий спортом он с аппетитом поужинал.",
-            "У неё в желудке образовалась язва.",
-            "У неё была язва желудка.",
-            "Живот мертвеца раздулся.",
-            "Его живот выпирал после обильного обеда.",
-            "Злоумышленник ударил его ногой в живот.",
-            "Это лекарство нейтрализует желудочный сок.",
-            "Медсестра ощупала живот пациента."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "ch_=_[k]"
-        ]
-    }
+  "stomach": {
+    "comment": [
+      "machine",
+      "machinery"
+    ],
+    "translate": "желудок, живот, аппетит, мужество, стерпеть, сносить",
+    "transcription": " |ˈstʌmək|",
+    "antonyms": [],
+    "mnemonic": [
+      "stomach [сто'мэк] желудок - Мой желудок (сто маков) переварит."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "ch_=_[k]"
+    ],
+    "examples": [
+      {
+        "eng": "My stomach rises.",
+        "ru": "Меня тошнит.",
+        "learn": 0
+      },
+      {
+        "eng": "His stomach worries him.",
+        "ru": "Его беспокоит желудок.",
+        "learn": 0
+      },
+      {
+        "eng": "She got him on the stomach.",
+        "ru": "Она ударила его в живот.",
+        "learn": 0
+      },
+      {
+        "eng": "She has problems with her stomach.",
+        "ru": "У неё проблемы с желудком.",
+        "learn": 0
+      },
+      {
+        "eng": "Her stomach was in knots.",
+        "ru": "У нёе схватило живот / желудок.",
+        "learn": 0
+      },
+      {
+        "eng": "He punched me in the stomach",
+        "ru": "Он ударил меня в живот",
+        "learn": 0
+      },
+      {
+        "eng": "He kicked him in the stomach.",
+        "ru": "Он ударил его ногой в живот.",
+        "learn": 1
+      },
+      {
+        "eng": "He cannot stomach raw fish.",
+        "ru": "Он терпеть не может сырую рыбу.",
+        "learn": 0
+      },
+      {
+        "eng": "Spicy food upsets my stomach.",
+        "ru": "Острая еда вызывает у меня расстройство желудка.",
+        "learn": 0
+      },
+      {
+        "eng": "He stabbed him in the stomach.",
+        "ru": "Он пырнул его ножом в живот.",
+        "learn": 1
+      },
+      {
+        "eng": "He was lying on his stomach.",
+        "ru": "Он лежал на животе.",
+        "learn": 0
+      },
+      {
+        "eng": "I could barely stomach the smell.",
+        "ru": "От вони меня едва не стошнило.",
+        "learn": 0
+      },
+      {
+        "eng": "He had no stomach for a fight.",
+        "ru": "Драться ему не хотелось.",
+        "learn": 0
+      },
+      {
+        "eng": "Food is broken down in the stomach.",
+        "ru": "В желудке пища расщепляется.",
+        "learn": 0
+      },
+      {
+        "eng": "Spicy foods can cause stomach upset.",
+        "ru": "Острая пища может вызвать расстройство желудка.",
+        "learn": 0
+      },
+      {
+        "eng": "The baby rolled over onto his stomach.",
+        "ru": "Малыш перевернулся на животик.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't work properly on an empty stomach.",
+        "ru": "Я не могу нормально работать на пустой желудок.",
+        "learn": 0
+      },
+      {
+        "eng": "Her stomach ached dully.",
+        "ru": "Её желудок тупо ныл.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't stomach raw onions.",
+        "ru": "Я не могу есть сырой лук",
+        "learn": 0
+      },
+      {
+        "eng": "Aspirin irritates my stomach.",
+        "ru": "Аспирин раздражает желудок.",
+        "learn": 0
+      },
+      {
+        "eng": "He's off work with a stomach bug.",
+        "ru": "Он отсутствует на работе по причине острого расстройства пищеварения.",
+        "learn": 0
+      },
+      {
+        "eng": "any food produced irritation of the stomach",
+        "ru": "любая пища вызывала раздражение желудка",
+        "learn": 0
+      },
+      {
+        "eng": "Exercise gave him a good stomach for dinner.",
+        "ru": "После занятий спортом он с аппетитом поужинал.",
+        "learn": 0
+      },
+      {
+        "eng": "Her stomach ulcerated.",
+        "ru": "У неё в желудке образовалась язва.",
+        "learn": 0
+      },
+      {
+        "eng": "Her stomach was ulcerated.",
+        "ru": "У неё была язва желудка.",
+        "learn": 0
+      },
+      {
+        "eng": "The dead man's stomach was bloated.",
+        "ru": "Живот мертвеца раздулся.",
+        "learn": 0
+      },
+      {
+        "eng": "His stomach bulged after the huge meal.",
+        "ru": "Его живот выпирал после обильного обеда.",
+        "learn": 0
+      },
+      {
+        "eng": "The attacker kicked him in the stomach.",
+        "ru": "Злоумышленник ударил его ногой в живот.",
+        "learn": 0
+      },
+      {
+        "eng": "This medicine neutralizes stomach acids.",
+        "ru": "Это лекарство нейтрализует желудочный сок.",
+        "learn": 0
+      },
+      {
+        "eng": "The nurse palpated the patient's stomach.",
+        "ru": "Медсестра ощупала живот пациента.",
+        "learn": 0
+      }
+    ]
+  }
 }

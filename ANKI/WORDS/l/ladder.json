@@ -1,91 +1,177 @@
 {
-    "ladder": {
-        "comment": [
-            "addition",
-            "address",
-            "add",
-            "additional",
-            "daddy",
-            "addiction",
-            "added",
-            "saddle",
-            "addict"
-        ],
-        "translate": "лестница, трап, стремянка, спускаться",
-        "transcription": " |ˈlædər|",
-        "antonyms": [],
-        "mnemonic": [
-            "ladder [лэдэ] лестница, трап - Поднимись по лестнице за (леде-нцами).",
-            "ladder ['lædə]\n***\nНа карьерной ЛЕСТНИЦЕ я в шоколаде. (это) ladder\nКрутая ЛЕСТНИЦА на складе. (это) ladder"
-        ],
-        "examples": [
-            "I can't get at the top branches, can you bring the ladder?",
-            "He climbed up the ladder.",
-            "She climbed up the ladder.",
-            "Give me a hand with this ladder.",
-            "Climb to the top of the ladder and chuck the apples down to me.",
-            "He climbed down the ladder.",
-            "She got a ladder / run in her stocking.",
-            "He hurt himself falling off a ladder.",
-            "Yes, I know I've got a ladder in my tights.",
-            "I'm returning your ladder. Thanks for letting me borrow it.",
-            "She worked her way up from the lowest rung on the economic ladder.",
-            "Can you hold the bottom of the ladder for me?",
-            "I used to come to this place to decompress after a busy day of climbing the corporate ladder.",
-            "...the oft-told story of the foxy flatterer who works her way up the ladder of success by stepping on people as she goes...",
-            "He climbed high on the ladder.",
-            "The ladder felt a little wobbly.",
-            "I lent our ladder to the neighbors.",
-            "He pulled the ladder into position.",
-            "The ladder was standing flat against the side wall.",
-            "Make sure the ladder feels firm before you climb up.",
-            "This young man knows how to climb the social ladder.",
-            "Becoming a doctor would be a step up the social ladder.",
-            "Wait until we've braced the ladder.",
-            "The painter climbed high on the ladder.",
-            "She stood the ladder against the house.",
-            "Dad was up the ladder, repairing the roof.",
-            "There was a ladder propped up against the wall.",
-            "The doctor's assistant was up a ladder in the stockroom.",
-            "Some people feel that it is unlucky to walk under a ladder.",
-            "Take care to ensure that the ladder is steady before you climb it."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я не достаю до верхних веток, принеси мне, пожалуйста, лестницу.",
-            "Он взобрался наверх по лестнице.",
-            "Она поднялась по (приставной) лестнице.",
-            "Помоги мне с этой лестницей.",
-            "Заберись по лестнице на самый верх и скинь мне несколько яблок.",
-            "Он спустился по приставной лестнице /стремянке, трапу/.",
-            "У неё чулок \"поехал\".",
-            "Он ушибся, когда упал с лестницы.",
-            "Да, я знаю, что у меня колготки расползаются.",
-            "Я возвращаю вашу стремянку. Спасибо, что одолжили мне её.",
-            "Она пробилась наверх с самой нижней ступеньки экономической лестницы.",
-            "Ты не подержишь мне лестницу?",
-            "Я приходил сюда, чтобы расслабиться после напряжённого дня в офисе.",
-            "...обычная история о льстивой лисице, которая идет к успеху по головам...",
-            "Он забрался по лестнице на большую высоту.",
-            "Лестница казалась не слишком-то устойчивой.",
-            "Я одолжил нашу лестницу соседям.",
-            "Он поставил лестницу на место.",
-            "Лестница была плотно приставлена к боковой стенке.",
-            "Прежде чем подниматься по лестнице, убедитесь, что она стоит твёрдо и не шатается.",
-            "Этот молодой человек знает, как подняться по социальной лестнице.",
-            "Стать врачом было бы шагом вверх по социальной лестнице.",
-            "Подожди, пока мы не закрепим лестницу.",
-            "Художник взобрался высоко на лестницу.",
-            "Она прислонила лестницу к дому.",
-            "Папа ремонтировал кровлю /чинил крышу/, забравшись на лестницу.",
-            "На стену опиралась лестница. / К стене была приставлена лестница.",
-            "Фельдшер стоял на лестнице в кладовой.",
-            "Некоторые люди считают, что проходить под лестницей - к несчастью.",
-            "Прежде чем подняться по лестнице, убедитесь, что она устойчива."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "ladder": {
+    "comment": [
+      "addition",
+      "address",
+      "add",
+      "additional",
+      "daddy",
+      "addiction",
+      "added",
+      "saddle",
+      "addict"
+    ],
+    "translate": "лестница, трап, стремянка, спускаться",
+    "transcription": " |ˈlædər|",
+    "antonyms": [],
+    "mnemonic": [
+      "ladder [лэдэ] лестница, трап - Поднимись по лестнице за (леде-нцами).",
+      "ladder ['lædə]\n***\nНа карьерной ЛЕСТНИЦЕ я в шоколаде. (это) ladder\nКрутая ЛЕСТНИЦА на складе. (это) ladder"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I can't get at the top branches, can you bring the ladder?",
+        "ru": "Я не достаю до верхних веток, принеси мне, пожалуйста, лестницу.",
+        "learn": 0
+      },
+      {
+        "eng": "He climbed up the ladder.",
+        "ru": "Он взобрался наверх по лестнице.",
+        "learn": 0
+      },
+      {
+        "eng": "She climbed up the ladder.",
+        "ru": "Она поднялась по (приставной) лестнице.",
+        "learn": 0
+      },
+      {
+        "eng": "Give me a hand with this ladder.",
+        "ru": "Помоги мне с этой лестницей.",
+        "learn": 0
+      },
+      {
+        "eng": "Climb to the top of the ladder and chuck the apples down to me.",
+        "ru": "Заберись по лестнице на самый верх и скинь мне несколько яблок.",
+        "learn": 0
+      },
+      {
+        "eng": "He climbed down the ladder.",
+        "ru": "Он спустился по приставной лестнице /стремянке, трапу/.",
+        "learn": 1
+      },
+      {
+        "eng": "She got a ladder / run in her stocking.",
+        "ru": "У неё чулок \"поехал\".",
+        "learn": 0
+      },
+      {
+        "eng": "He hurt himself falling off a ladder.",
+        "ru": "Он ушибся, когда упал с лестницы.",
+        "learn": 0
+      },
+      {
+        "eng": "Yes, I know I've got a ladder in my tights.",
+        "ru": "Да, я знаю, что у меня колготки расползаются.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm returning your ladder. Thanks for letting me borrow it.",
+        "ru": "Я возвращаю вашу стремянку. Спасибо, что одолжили мне её.",
+        "learn": 0
+      },
+      {
+        "eng": "She worked her way up from the lowest rung on the economic ladder.",
+        "ru": "Она пробилась наверх с самой нижней ступеньки экономической лестницы.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you hold the bottom of the ladder for me?",
+        "ru": "Ты не подержишь мне лестницу?",
+        "learn": 0
+      },
+      {
+        "eng": "I used to come to this place to decompress after a busy day of climbing the corporate ladder.",
+        "ru": "Я приходил сюда, чтобы расслабиться после напряжённого дня в офисе.",
+        "learn": 0
+      },
+      {
+        "eng": "...the oft-told story of the foxy flatterer who works her way up the ladder of success by stepping on people as she goes...",
+        "ru": "...обычная история о льстивой лисице, которая идет к успеху по головам...",
+        "learn": 0
+      },
+      {
+        "eng": "He climbed high on the ladder.",
+        "ru": "Он забрался по лестнице на большую высоту.",
+        "learn": 0
+      },
+      {
+        "eng": "The ladder felt a little wobbly.",
+        "ru": "Лестница казалась не слишком-то устойчивой.",
+        "learn": 0
+      },
+      {
+        "eng": "I lent our ladder to the neighbors.",
+        "ru": "Я одолжил нашу лестницу соседям.",
+        "learn": 1
+      },
+      {
+        "eng": "He pulled the ladder into position.",
+        "ru": "Он поставил лестницу на место.",
+        "learn": 0
+      },
+      {
+        "eng": "The ladder was standing flat against the side wall.",
+        "ru": "Лестница была плотно приставлена к боковой стенке.",
+        "learn": 0
+      },
+      {
+        "eng": "Make sure the ladder feels firm before you climb up.",
+        "ru": "Прежде чем подниматься по лестнице, убедитесь, что она стоит твёрдо и не шатается.",
+        "learn": 0
+      },
+      {
+        "eng": "This young man knows how to climb the social ladder.",
+        "ru": "Этот молодой человек знает, как подняться по социальной лестнице.",
+        "learn": 1
+      },
+      {
+        "eng": "Becoming a doctor would be a step up the social ladder.",
+        "ru": "Стать врачом было бы шагом вверх по социальной лестнице.",
+        "learn": 0
+      },
+      {
+        "eng": "Wait until we've braced the ladder.",
+        "ru": "Подожди, пока мы не закрепим лестницу.",
+        "learn": 0
+      },
+      {
+        "eng": "The painter climbed high on the ladder.",
+        "ru": "Художник взобрался высоко на лестницу.",
+        "learn": 1
+      },
+      {
+        "eng": "She stood the ladder against the house.",
+        "ru": "Она прислонила лестницу к дому.",
+        "learn": 0
+      },
+      {
+        "eng": "Dad was up the ladder, repairing the roof.",
+        "ru": "Папа ремонтировал кровлю /чинил крышу/, забравшись на лестницу.",
+        "learn": 0
+      },
+      {
+        "eng": "There was a ladder propped up against the wall.",
+        "ru": "На стену опиралась лестница. / К стене была приставлена лестница.",
+        "learn": 0
+      },
+      {
+        "eng": "The doctor's assistant was up a ladder in the stockroom.",
+        "ru": "Фельдшер стоял на лестнице в кладовой.",
+        "learn": 0
+      },
+      {
+        "eng": "Some people feel that it is unlucky to walk under a ladder.",
+        "ru": "Некоторые люди считают, что проходить под лестницей - к несчастью.",
+        "learn": 1
+      },
+      {
+        "eng": "Take care to ensure that the ladder is steady before you climb it.",
+        "ru": "Прежде чем подняться по лестнице, убедитесь, что она устойчива.",
+        "learn": 1
+      }
+    ]
+  }
 }

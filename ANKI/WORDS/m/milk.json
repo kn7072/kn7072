@@ -1,83 +1,169 @@
 {
-    "milk": {
-        "comment": [
-            "smile",
-            "mile",
-            "mild",
-            "mildly"
-        ],
-        "translate": "молоко, млечный сок, латекс, доить, подоить, молочный",
-        "transcription": " |mɪlk|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Cows give milk.",
-            "Drink up your milk.",
-            "Milk is good for you.",
-            "The cat lapped up the milk",
-            "I helped to milk the cows.",
-            "a glass of milk and a cookie",
-            "They had risen at 5.30 to do the milking.",
-            "Cook the milk over low heat.",
-            "Milk is very rich in calcium.",
-            "We're out of milk.",
-            "Please give me some milk.",
-            "Water and milk are liquids.",
-            "Heat the milk until it boils.",
-            "cheese made from sheep's milk",
-            "Katie almost spilled her milk.",
-            "He qualified coffee with milk.",
-            "Cows need to be milked every morning.",
-            "The milk curdled",
-            "The milk has soured",
-            "Ugh! The milk's off.",
-            "The milk's gone off.",
-            "The price of milk rose.",
-            "Is there any milk left?",
-            "This milk has gone bad.",
-            "The milk had turned sour.",
-            "Brush the pastry with milk.",
-            "I cannot digest milk products",
-            "She sponged up the spilt milk.",
-            "Thin the sauce by adding milk.",
-            "The milk caseated."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Коровы дают молоко.",
-            "Допивай своё молоко.",
-            "Молоко тебе полезно.",
-            "Кот лакал молоко.",
-            "Я помог подоить коров.",
-            "стакан молока и печенька",
-            "Они поднялись в 5.30, чтобы подоить коров.",
-            "Нагрейте молоко на слабом огне.",
-            "Молоко очень богато кальцием.",
-            "У нас закончилось молоко.",
-            "Дайте мне, пожалуйста, молока.",
-            "Вода и молоко — жидкости.",
-            "Нагрейте молоко до кипения.",
-            "сыр из овечьего молока",
-            "Кэти чуть не пролила своё молоко.",
-            "Он разбавил кофе молоком.",
-            "Коров нужно доить каждое утро.",
-            "Молоко свернулось",
-            "Молоко прокисло.",
-            "Фу! Молоко-то прокисло!",
-            "Молоко прокисло.",
-            "Цена молока выросла.",
-            "Молока совсем не осталось? / Осталось ли хоть немного молока?",
-            "Это молоко испортилось.",
-            "Молоко скисло.",
-            "Смажьте выпечку молоком.",
-            "Я не перевариваю молочные продукты. / Я плохо усваиваю молочные продукты.",
-            "Она вытерла пролитое молоко губкой.",
-            "Разбавьте соус, добавив молока.",
-            "Молоко створожилось (свернулось)."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "milk": {
+    "comment": [
+      "smile",
+      "mile",
+      "mild",
+      "mildly"
+    ],
+    "translate": "молоко, млечный сок, латекс, доить, подоить, молочный",
+    "transcription": " |mɪlk|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Cows give milk.",
+        "ru": "Коровы дают молоко.",
+        "learn": 0
+      },
+      {
+        "eng": "Drink up your milk.",
+        "ru": "Допивай своё молоко.",
+        "learn": 0
+      },
+      {
+        "eng": "Milk is good for you.",
+        "ru": "Молоко тебе полезно.",
+        "learn": 0
+      },
+      {
+        "eng": "The cat lapped up the milk",
+        "ru": "Кот лакал молоко.",
+        "learn": 0
+      },
+      {
+        "eng": "I helped to milk the cows.",
+        "ru": "Я помог подоить коров.",
+        "learn": 0
+      },
+      {
+        "eng": "a glass of milk and a cookie",
+        "ru": "стакан молока и печенька",
+        "learn": 0
+      },
+      {
+        "eng": "They had risen at 5.30 to do the milking.",
+        "ru": "Они поднялись в 5.30, чтобы подоить коров.",
+        "learn": 0
+      },
+      {
+        "eng": "Cook the milk over low heat.",
+        "ru": "Нагрейте молоко на слабом огне.",
+        "learn": 1
+      },
+      {
+        "eng": "Milk is very rich in calcium.",
+        "ru": "Молоко очень богато кальцием.",
+        "learn": 1
+      },
+      {
+        "eng": "We're out of milk.",
+        "ru": "У нас закончилось молоко.",
+        "learn": 0
+      },
+      {
+        "eng": "Please give me some milk.",
+        "ru": "Дайте мне, пожалуйста, молока.",
+        "learn": 1
+      },
+      {
+        "eng": "Water and milk are liquids.",
+        "ru": "Вода и молоко — жидкости.",
+        "learn": 0
+      },
+      {
+        "eng": "Heat the milk until it boils.",
+        "ru": "Нагрейте молоко до кипения.",
+        "learn": 0
+      },
+      {
+        "eng": "cheese made from sheep's milk",
+        "ru": "сыр из овечьего молока",
+        "learn": 1
+      },
+      {
+        "eng": "Katie almost spilled her milk.",
+        "ru": "Кэти чуть не пролила своё молоко.",
+        "learn": 0
+      },
+      {
+        "eng": "He qualified coffee with milk.",
+        "ru": "Он разбавил кофе молоком.",
+        "learn": 0
+      },
+      {
+        "eng": "Cows need to be milked every morning.",
+        "ru": "Коров нужно доить каждое утро.",
+        "learn": 0
+      },
+      {
+        "eng": "The milk curdled",
+        "ru": "Молоко свернулось",
+        "learn": 0
+      },
+      {
+        "eng": "The milk has soured",
+        "ru": "Молоко прокисло.",
+        "learn": 0
+      },
+      {
+        "eng": "Ugh! The milk's off.",
+        "ru": "Фу! Молоко-то прокисло!",
+        "learn": 0
+      },
+      {
+        "eng": "The milk's gone off.",
+        "ru": "Молоко прокисло.",
+        "learn": 0
+      },
+      {
+        "eng": "The price of milk rose.",
+        "ru": "Цена молока выросла.",
+        "learn": 0
+      },
+      {
+        "eng": "Is there any milk left?",
+        "ru": "Молока совсем не осталось? / Осталось ли хоть немного молока?",
+        "learn": 0
+      },
+      {
+        "eng": "This milk has gone bad.",
+        "ru": "Это молоко испортилось.",
+        "learn": 0
+      },
+      {
+        "eng": "The milk had turned sour.",
+        "ru": "Молоко скисло.",
+        "learn": 1
+      },
+      {
+        "eng": "Brush the pastry with milk.",
+        "ru": "Смажьте выпечку молоком.",
+        "learn": 0
+      },
+      {
+        "eng": "I cannot digest milk products",
+        "ru": "Я не перевариваю молочные продукты. / Я плохо усваиваю молочные продукты.",
+        "learn": 0
+      },
+      {
+        "eng": "She sponged up the spilt milk.",
+        "ru": "Она вытерла пролитое молоко губкой.",
+        "learn": 0
+      },
+      {
+        "eng": "Thin the sauce by adding milk.",
+        "ru": "Разбавьте соус, добавив молока.",
+        "learn": 0
+      },
+      {
+        "eng": "The milk caseated.",
+        "ru": "Молоко створожилось (свернулось).",
+        "learn": 0
+      }
+    ]
+  }
 }

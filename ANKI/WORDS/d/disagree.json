@@ -1,73 +1,141 @@
 {
-    "disagree": {
-        "comment": [
-            "agree",
-            "agreement",
-            "disagreement",
-            "agreed"
-        ],
-        "translate": "не соглашаться, противоречить, расходиться во мнениях, не совпадать, ссориться",
-        "transcription": " |ˌdɪsəˈɡriː|",
-        "antonyms": [],
-        "mnemonic": [
-            "agree [ə'gri: ]\ndisagree [¸dɪsə'ɡri:]\n***\nСОГЛАСИСЬ с соперником во время игры. (это) agree\nДОГОВОРИСЬ с соперником ещё до игры. (это) agree\nЕсли не СОГЛАСЕН - выходи|c|игры. (это) agree\n***\nРАЗОШЛИСЬ во взглядах - выходи|c|игры. (это)\ndisagree\n***\nВ некоторой степени \"degree\"\nя согласен \"agree\"\nна родословную \"pedigree\"."
-        ],
-        "examples": [
-            "I disagree with you.",
-            "With all due respect, I disagree.",
-            "I disagree with the last speaker.",
-            "I venture to disagree.",
-            "Children of the same family must not disagree.",
-            "She disagrees with her husband on many questions.",
-            "Your story disagrees with his in every detail.",
-            "The onion disagreed with me and has given me a pain.",
-            "I think that I should sell my car, but he disagrees.",
-            "Bill and I disagreed over some details.",
-            "Literary critics disagree about the meanings of his poems.",
-            "Jim has a bad habit of snarling at people who disagree with him.",
-            "Musicians usually disagree on the way a piece of music should be played.",
-            "We're mature enough to disagree on this issue but still respect each other.",
-            "You are saying that everyone should be equal, and this is where I disagree.",
-            "I'd like to state for the record that I disagree with the board's decision.",
-            "an unfortunate tendency to call those who disagree with him “brainless goons”",
-            "With his schizoid nature, you never know whether he will disagree or agree with you.",
-            "Experts disagree over the age of the drawings.",
-            "I disagree that dancing is an unmanly pursuit.",
-            "Two local candidates disagreed about everything.",
-            "Where do the two candidates disagree on the issue?",
-            "We disagree with the views articulated by the administration.",
-            "I disagree with your earlier statement about my record on this issue."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я не согласен с тобой.",
-            "При всём должном уважении, я не согласен.",
-            "Я не согласен с предыдущим оратором.",
-            "Разрешите не согласиться, рискну возразить.",
-            "Дети в семье не должны ссориться.",
-            "Она по многим вопросам не согласна со своим мужем.",
-            "Ваша история расходится с его (рассказом) в каждой детали.",
-            "Лук мне был вреден и спровоцировал боли.",
-            "Я думаю, что мне стоит продать свою машину, но он с этим не согласен.",
-            "Мы с Биллом разошлись в некоторых деталях.",
-            "Литературные критики расходятся во мнениях относительно того, о чём говорится в его стихах /смысла его стихов/.",
-            "У Джима плохая привычка ворчать на людей, которые не согласны с ним.",
-            "Музыканты часто расходятся во мнениях о том, как исполнять то или иное произведение.",
-            "Мы достаточно взрослые люди, чтобы, несмотря на несогласие по данному вопросу, всё-таки уважать друг друга.",
-            "Вы говорите, что все должны быть равны, и вот тут я с вами не согласен.",
-            "Хочу официально заявить, что не согласен с решением правления.",
-            "досадная склонность называть всех, кто с ним не согласен, \"безмозглыми болванами\"",
-            "Учитывая его шизоидную натуру, никогда не знаешь, согласится ли он с тобой, или же нет.",
-            "Эксперты расходятся во мнениях относительно возраста этих рисунков.",
-            "Я не согласен, что танцы - это не мужское занятие.",
-            "Два местных кандидата расходятся во всем. (заголовок)",
-            "Где же эти два кандидата расходятся во мнениях по этому вопросу?",
-            "Мы не согласны с точкой зрения, сформулированной администрацией.",
-            "Я не согласен со сделанным вами ранее заявлением относительно моего опыта в этом вопросе."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "disagree": {
+    "comment": [
+      "agree",
+      "agreement",
+      "disagreement",
+      "agreed"
+    ],
+    "translate": "не соглашаться, противоречить, расходиться во мнениях, не совпадать, ссориться",
+    "transcription": " |ˌdɪsəˈɡriː|",
+    "antonyms": [],
+    "mnemonic": [
+      "agree [ə'gri: ]\ndisagree [¸dɪsə'ɡri:]\n***\nСОГЛАСИСЬ с соперником во время игры. (это) agree\nДОГОВОРИСЬ с соперником ещё до игры. (это) agree\nЕсли не СОГЛАСЕН - выходи|c|игры. (это) agree\n***\nРАЗОШЛИСЬ во взглядах - выходи|c|игры. (это)\ndisagree\n***\nВ некоторой степени \"degree\"\nя согласен \"agree\"\nна родословную \"pedigree\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I disagree with you.",
+        "ru": "Я не согласен с тобой.",
+        "learn": 0
+      },
+      {
+        "eng": "With all due respect, I disagree.",
+        "ru": "При всём должном уважении, я не согласен.",
+        "learn": 0
+      },
+      {
+        "eng": "I disagree with the last speaker.",
+        "ru": "Я не согласен с предыдущим оратором.",
+        "learn": 0
+      },
+      {
+        "eng": "I venture to disagree.",
+        "ru": "Разрешите не согласиться, рискну возразить.",
+        "learn": 1
+      },
+      {
+        "eng": "Children of the same family must not disagree.",
+        "ru": "Дети в семье не должны ссориться.",
+        "learn": 0
+      },
+      {
+        "eng": "She disagrees with her husband on many questions.",
+        "ru": "Она по многим вопросам не согласна со своим мужем.",
+        "learn": 0
+      },
+      {
+        "eng": "Your story disagrees with his in every detail.",
+        "ru": "Ваша история расходится с его (рассказом) в каждой детали.",
+        "learn": 0
+      },
+      {
+        "eng": "The onion disagreed with me and has given me a pain.",
+        "ru": "Лук мне был вреден и спровоцировал боли.",
+        "learn": 0
+      },
+      {
+        "eng": "I think that I should sell my car, but he disagrees.",
+        "ru": "Я думаю, что мне стоит продать свою машину, но он с этим не согласен.",
+        "learn": 0
+      },
+      {
+        "eng": "Bill and I disagreed over some details.",
+        "ru": "Мы с Биллом разошлись в некоторых деталях.",
+        "learn": 0
+      },
+      {
+        "eng": "Literary critics disagree about the meanings of his poems.",
+        "ru": "Литературные критики расходятся во мнениях относительно того, о чём говорится в его стихах /смысла его стихов/.",
+        "learn": 0
+      },
+      {
+        "eng": "Jim has a bad habit of snarling at people who disagree with him.",
+        "ru": "У Джима плохая привычка ворчать на людей, которые не согласны с ним.",
+        "learn": 0
+      },
+      {
+        "eng": "Musicians usually disagree on the way a piece of music should be played.",
+        "ru": "Музыканты часто расходятся во мнениях о том, как исполнять то или иное произведение.",
+        "learn": 0
+      },
+      {
+        "eng": "We're mature enough to disagree on this issue but still respect each other.",
+        "ru": "Мы достаточно взрослые люди, чтобы, несмотря на несогласие по данному вопросу, всё-таки уважать друг друга.",
+        "learn": 0
+      },
+      {
+        "eng": "You are saying that everyone should be equal, and this is where I disagree.",
+        "ru": "Вы говорите, что все должны быть равны, и вот тут я с вами не согласен.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd like to state for the record that I disagree with the board's decision.",
+        "ru": "Хочу официально заявить, что не согласен с решением правления.",
+        "learn": 0
+      },
+      {
+        "eng": "an unfortunate tendency to call those who disagree with him “brainless goons”",
+        "ru": "досадная склонность называть всех, кто с ним не согласен, \"безмозглыми болванами\"",
+        "learn": 0
+      },
+      {
+        "eng": "With his schizoid nature, you never know whether he will disagree or agree with you.",
+        "ru": "Учитывая его шизоидную натуру, никогда не знаешь, согласится ли он с тобой, или же нет.",
+        "learn": 0
+      },
+      {
+        "eng": "Experts disagree over the age of the drawings.",
+        "ru": "Эксперты расходятся во мнениях относительно возраста этих рисунков.",
+        "learn": 0
+      },
+      {
+        "eng": "I disagree that dancing is an unmanly pursuit.",
+        "ru": "Я не согласен, что танцы - это не мужское занятие.",
+        "learn": 1
+      },
+      {
+        "eng": "Two local candidates disagreed about everything.",
+        "ru": "Два местных кандидата расходятся во всем. (заголовок)",
+        "learn": 0
+      },
+      {
+        "eng": "Where do the two candidates disagree on the issue?",
+        "ru": "Где же эти два кандидата расходятся во мнениях по этому вопросу?",
+        "learn": 0
+      },
+      {
+        "eng": "We disagree with the views articulated by the administration.",
+        "ru": "Мы не согласны с точкой зрения, сформулированной администрацией.",
+        "learn": 0
+      },
+      {
+        "eng": "I disagree with your earlier statement about my record on this issue.",
+        "ru": "Я не согласен со сделанным вами ранее заявлением относительно моего опыта в этом вопросе.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,39 +1,134 @@
 {
-    "get in": {
-        "comment": [],
-        "translate": "1) Входить, садиться (в транспорт) 2) Прибывать (о поезде, самолёте) ",
-        "transcription": " |ˈɡet ɪn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She got in the taxi and left.",
-            "How do I get in the building?",
-            "When do you get in from your trip?",
-            "He got in through the back door.",
-            "Get in before it starts raining.",
-            "The bus gets in every hour.",
-            "We got in late last night.",
-            "The train gets in at 6 PM.",
-            "Get in the car, we're leaving.",
-            "What time does your flight get in?"
-        ],
-        "example_translate": [
-            "Она села в такси и уехала.",
-            "Как мне войти в здание?",
-            "Когда ты возвращаешься из поездки?",
-            "Он вошёл через чёрный вход.",
-            "Заходи, пока не начался дождь.",
-            "Автобус прибывает каждый час.",
-            "Мы прибыли поздно вчера вечером.",
-            "Поезд прибывает в 18:00.",
-            "Садись в машину, мы уезжаем.",
-            "Во сколько прилетает твой рейс?"
-        ],
-        "synonyms": "Входить, садиться (в транспорт) - enter, board\nПрибывать (о поезде, самолёте) - arrive, reach\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "get in": {
+    "comment": [],
+    "translate": "1) Входить, садиться (в транспорт) 2) Прибывать (о поезде, самолёте) ",
+    "transcription": " |ˈɡet ɪn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Входить, садиться (в транспорт) - enter, board",
+      "Прибывать (о поезде, самолёте) - arrive, reach"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "She got in the taxi and left.",
+        "ru": "Она села в такси и уехала.",
+        "learn": 1
+      },
+      {
+        "eng": "How do I get in the building?",
+        "ru": "Как мне войти в здание?",
+        "learn": 1
+      },
+      {
+        "eng": "When do you get in from your trip?",
+        "ru": "Когда ты возвращаешься из поездки?",
+        "learn": 1
+      },
+      {
+        "eng": "He got in through the back door.",
+        "ru": "Он вошёл через чёрный вход.",
+        "learn": 1
+      },
+      {
+        "eng": "Get in before it starts raining.",
+        "ru": "Заходи, пока не начался дождь.",
+        "learn": 1
+      },
+      {
+        "eng": "The bus gets in every hour.",
+        "ru": "Автобус прибывает каждый час.",
+        "learn": 1
+      },
+      {
+        "eng": "We got in late last night.",
+        "ru": "Мы прибыли поздно вчера вечером.",
+        "learn": 1
+      },
+      {
+        "eng": "The train gets in at 6 PM.",
+        "ru": "Поезд прибывает в 18:00.",
+        "learn": 1
+      },
+      {
+        "eng": "Get in the car, we're leaving.",
+        "ru": "Садись в машину, мы уезжаем.",
+        "learn": 1
+      },
+      {
+        "eng": "What time does your flight get in?",
+        "ru": "Во сколько прилетает твой рейс?",
+        "learn": 1
+      },
+      {
+        "eng": "Alice is always wanting to get in on the act.",
+        "ru": "Алиса хочет участвовать в любом деле.",
+        "learn": 0
+      },
+      {
+        "eng": "May I get a word in?",
+        "ru": "Можно мне вставить словечко?",
+        "learn": 0
+      },
+      {
+        "eng": "Did your son get in? Mine did.",
+        "ru": "Твой сын поступил? Мой поступил.",
+        "learn": 0
+      },
+      {
+        "eng": "We should get some wine in for the party.",
+        "ru": "Нам следует запастись вином для вечеринки.",
+        "learn": 0
+      },
+      {
+        "eng": "You should get in with the president of the company.",
+        "ru": "Тебе стоит познакомиться с президентом компании.",
+        "learn": 0
+      },
+      {
+        "eng": "The government will have to get in more tax money.",
+        "ru": "Правительство должно будет собирать больше налогов.",
+        "learn": 0
+      },
+      {
+        "eng": "It's a good idea to get in at the start, whatever you're doing.",
+        "ru": "Каким бы делом ты ни занимался, надо включаться в него с самого начала.",
+        "learn": 0
+      },
+      {
+        "eng": "Get the doctor in, I don't like the sound of the child's breathing.",
+        "ru": "Вызови врача, мне не нравится, как ребёнок дышит.",
+        "learn": 0
+      },
+      {
+        "eng": "He was surprised to get in at his first election.",
+        "ru": "Он был удивлён, что прошёл на выборах с первого раза.",
+        "learn": 0
+      },
+      {
+        "eng": "It will be late when you get in, so you may have trouble finding a taxi.",
+        "ru": "Когда вы приедете, будет уже поздно, поэтому у вас могут возникнуть проблемы с поиском такси.",
+        "learn": 0
+      },
+      {
+        "eng": "The farmers are getting the crops in now, they are ripe.",
+        "ru": "Урожай поспел, так что фермеры начали уборку.",
+        "learn": 0
+      },
+      {
+        "eng": "We must get next year's potatoes in soon while the soil is ready.",
+        "ru": "Надо немедленно высаживать картошку, почва уже готова.",
+        "learn": 0
+      },
+      {
+        "eng": "He always gets his favourite story in when he makes a speech.",
+        "ru": "Когда он выступает с речью, он всегда приплетает свою любимую историю.",
+        "learn": 0
+      }
+    ]
+  }
 }

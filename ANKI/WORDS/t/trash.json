@@ -1,85 +1,171 @@
 {
-    "trash": {
-        "comment": [
-            "trace",
-            "trap",
-            "strap",
-            "track",
-            "traffic",
-            "crash"
-        ],
-        "translate": "мусор, хлам, дрянь, халтура, отбросы, вздор, очищать от мусора, портить",
-        "transcription": " |træʃ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Just put it in the trash.",
-            "Take out the trash, please.",
-            "How can you read that trash?",
-            "It is sheer trash.",
-            "They pick up our trash twice a week.",
-            "The trash collectors came early today.",
-            "She dropped the apple core into the trash can.",
-            "It's your turn to empty the trash.",
-            "They heaved the trash into the pit.",
-            "The apartment had been trashed.",
-            "He says that the government's policies are trashing the environment.",
-            "Both teams were talking trash on the court.",
-            "Unlading the mind of the trash previously called knowledge.",
-            "Rats scavenged in the trash.",
-            "The new town law makes it illegal to burn trash.",
-            "Don't throw your trash on the ground. Throw it in the trash can.",
-            "They pick up our trash twice a week",
-            "Remove the trash from the front yard.",
-            "a computer program that trashes useless files",
-            "The city is having problems with trash removal.",
-            "The place got trashed last time we had a party.",
-            "How can you degrade yourself by writing such trash?",
-            "He balled the letter in his hands and threw it in the trash.",
-            "I put the dirty diaper in the trash.",
-            "There will be a trash collection this week.",
-            "The absolutest, and sometimes loathsomest, trash.",
-            "We bring our trash to the town dump on Saturdays.",
-            "people that sully our state parks with their trash",
-            "sidewalks strewed with trash left by the parade watchers",
-            "The researchers are angry that attempts have been made to trash their work."
-        ],
-        "example_translate": [
-            "Просто выкинь это в мусор.",
-            "Вынесите мусор, пожалуйста.",
-            "Как вы можете читать этот бред?",
-            "Это сущий вздор.",
-            "Они забирают /вывозят/ наш мусор два раза в неделю.",
-            "Сегодня мусорщики приехали пораньше.",
-            "Она выбросила огрызок от яблока в мусорную корзину.",
-            "Твоя очередь выбрасывать мусор.",
-            "Они выбросили мусор в яму.",
-            "В квартире царил полный разгром.",
-            "Он говорит, что политика правительства портит окружающую среду.",
-            "Обе команды на площадке говорили друг другу гадости.",
-            "Освобождая мозг от мусора, ранее именовавшегося знанием.",
-            "Крысы рылись в мусоре.",
-            "По новым городским законам сжигать мусор запрещено.",
-            "Не бросай мусор на землю, бросай его в мусорный бак.",
-            "Мусор у нас забирают два раза в неделю.",
-            "Убери мусор со двора.",
-            "компьютерная программа, которая удаляет ненужные файлы",
-            "В городе проблемы с вывозом мусора.",
-            "Когда мы в последний раз устраивали вечеринку, то всё там разгромили.",
-            "Как ты мог опуститься до написания такой халтуры?",
-            "Он скомкал письмо в руках и швырнул его в мусорное ведро.",
-            "Грязный подгузник я выбросил в мусорное ведро.",
-            "На этой неделе будет вывоз мусора.",
-            "Эта чистейшей воды, и зачастую отвратительнейшая, мразь.",
-            "По субботам мы вывозим наш мусор на городскую свалку.",
-            "люди, которые загрязняют своим мусором наши заповедники (state park — природоохранная территория под управлением правительства штата)",
-            "тротуары, усыпанные мусором, который оставили зрители парада",
-            "Исследователи разгневаны тем, что были предприняты попытки смешать с грязью их работу."
-        ],
-        "synonyms": [],
-        "stars": 0,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "trash": {
+    "comment": [
+      "trace",
+      "trap",
+      "strap",
+      "track",
+      "traffic",
+      "crash"
+    ],
+    "translate": "мусор, хлам, дрянь, халтура, отбросы, вздор, очищать от мусора, портить",
+    "transcription": " |træʃ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Just put it in the trash.",
+        "ru": "Просто выкинь это в мусор.",
+        "learn": 0
+      },
+      {
+        "eng": "Take out the trash, please.",
+        "ru": "Вынесите мусор, пожалуйста.",
+        "learn": 0
+      },
+      {
+        "eng": "How can you read that trash?",
+        "ru": "Как вы можете читать этот бред?",
+        "learn": 0
+      },
+      {
+        "eng": "It is sheer trash.",
+        "ru": "Это сущий вздор.",
+        "learn": 0
+      },
+      {
+        "eng": "They pick up our trash twice a week.",
+        "ru": "Они забирают /вывозят/ наш мусор два раза в неделю.",
+        "learn": 0
+      },
+      {
+        "eng": "The trash collectors came early today.",
+        "ru": "Сегодня мусорщики приехали пораньше.",
+        "learn": 1
+      },
+      {
+        "eng": "She dropped the apple core into the trash can.",
+        "ru": "Она выбросила огрызок от яблока в мусорную корзину.",
+        "learn": 0
+      },
+      {
+        "eng": "It's your turn to empty the trash.",
+        "ru": "Твоя очередь выбрасывать мусор.",
+        "learn": 0
+      },
+      {
+        "eng": "They heaved the trash into the pit.",
+        "ru": "Они выбросили мусор в яму.",
+        "learn": 1
+      },
+      {
+        "eng": "The apartment had been trashed.",
+        "ru": "В квартире царил полный разгром.",
+        "learn": 0
+      },
+      {
+        "eng": "He says that the government's policies are trashing the environment.",
+        "ru": "Он говорит, что политика правительства портит окружающую среду.",
+        "learn": 0
+      },
+      {
+        "eng": "Both teams were talking trash on the court.",
+        "ru": "Обе команды на площадке говорили друг другу гадости.",
+        "learn": 0
+      },
+      {
+        "eng": "Unlading the mind of the trash previously called knowledge.",
+        "ru": "Освобождая мозг от мусора, ранее именовавшегося знанием.",
+        "learn": 0
+      },
+      {
+        "eng": "Rats scavenged in the trash.",
+        "ru": "Крысы рылись в мусоре.",
+        "learn": 0
+      },
+      {
+        "eng": "The new town law makes it illegal to burn trash.",
+        "ru": "По новым городским законам сжигать мусор запрещено.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't throw your trash on the ground. Throw it in the trash can.",
+        "ru": "Не бросай мусор на землю, бросай его в мусорный бак.",
+        "learn": 0
+      },
+      {
+        "eng": "They pick up our trash twice a week",
+        "ru": "Мусор у нас забирают два раза в неделю.",
+        "learn": 0
+      },
+      {
+        "eng": "Remove the trash from the front yard.",
+        "ru": "Убери мусор со двора.",
+        "learn": 1
+      },
+      {
+        "eng": "a computer program that trashes useless files",
+        "ru": "компьютерная программа, которая удаляет ненужные файлы",
+        "learn": 0
+      },
+      {
+        "eng": "The city is having problems with trash removal.",
+        "ru": "В городе проблемы с вывозом мусора.",
+        "learn": 1
+      },
+      {
+        "eng": "The place got trashed last time we had a party.",
+        "ru": "Когда мы в последний раз устраивали вечеринку, то всё там разгромили.",
+        "learn": 0
+      },
+      {
+        "eng": "How can you degrade yourself by writing such trash?",
+        "ru": "Как ты мог опуститься до написания такой халтуры?",
+        "learn": 0
+      },
+      {
+        "eng": "He balled the letter in his hands and threw it in the trash.",
+        "ru": "Он скомкал письмо в руках и швырнул его в мусорное ведро.",
+        "learn": 0
+      },
+      {
+        "eng": "I put the dirty diaper in the trash.",
+        "ru": "Грязный подгузник я выбросил в мусорное ведро.",
+        "learn": 0
+      },
+      {
+        "eng": "There will be a trash collection this week.",
+        "ru": "На этой неделе будет вывоз мусора.",
+        "learn": 1
+      },
+      {
+        "eng": "The absolutest, and sometimes loathsomest, trash.",
+        "ru": "Эта чистейшей воды, и зачастую отвратительнейшая, мразь.",
+        "learn": 0
+      },
+      {
+        "eng": "We bring our trash to the town dump on Saturdays.",
+        "ru": "По субботам мы вывозим наш мусор на городскую свалку.",
+        "learn": 0
+      },
+      {
+        "eng": "people that sully our state parks with their trash",
+        "ru": "люди, которые загрязняют своим мусором наши заповедники (state park — природоохранная территория под управлением правительства штата)",
+        "learn": 0
+      },
+      {
+        "eng": "sidewalks strewed with trash left by the parade watchers",
+        "ru": "тротуары, усыпанные мусором, который оставили зрители парада",
+        "learn": 0
+      },
+      {
+        "eng": "The researchers are angry that attempts have been made to trash their work.",
+        "ru": "Исследователи разгневаны тем, что были предприняты попытки смешать с грязью их работу.",
+        "learn": 0
+      }
+    ]
+  }
 }

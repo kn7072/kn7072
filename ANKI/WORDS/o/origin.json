@@ -1,72 +1,140 @@
 {
-    "origin": {
-        "comment": [
-            "originally",
-            "original",
-            "originate"
-        ],
-        "translate": "происхождение, начало, источник, возникновение, первоисточник, первопричина",
-        "transcription": " |ˈɔːrɪdʒɪn|",
-        "antonyms": [],
-        "mnemonic": [
-            "origin [ори'джин] происхождение - Громко (ори джин) о происхождении своём."
-        ],
-        "examples": [
-            "Greece is called the origin of civilization",
-            "The word is French in origin.",
-            "Jupiter was the origin of the radiation",
-            "attempts to explain the origin of evil in the world",
-            "a faint clue to the origin of the mystery",
-            "Proofs of the posterior origin of the lava.",
-            "Astronomy is a science of duplicate origin.",
-            "Two thirds of the pupils are of Asian origin.",
-            "The tradition has its origins in the Middle Ages.",
-            "Most coughs are viral in origin.",
-            "Immigrants rarely return to their country of origin.",
-            "Her ethnic origins are French.",
-            "A rude circuit of stones, of unknown origin.",
-            "Science gives us clues about the origin of the universe.",
-            "The name \"dachshund\" is of German origin and literally means \"badger dog\", from Dachs (\"badger\") and Hund (\"dog\").",
-            "Many place names all over Japan are of Ainu origin.",
-            "All meat should be clearly labelled with its country of origin.",
-            "The Etruscans are a separate race, whose origin is still quite uncertain.",
-            "Charles Darwin's monumental study, 'The Origin of Species'",
-            "The form asks for information about the person's ethnic origin.",
-            "The origins of human language remain a matter of considerable debate.",
-            "The high level of radiation in the rocks implies that they are volcanic in origin.",
-            "The rumor had its origin in idle gossip.",
-            "Rousseau's Essay on the Origin of Languages"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Грецию называют колыбелью цивилизации",
-            "Это слово французского происхождения.",
-            "Юпитер был источником излучения.",
-            "попытки объяснить происхождение зла в этом мире",
-            "слабый намёк на разгадку этой тайны / маленький ключик к разгадке этой тайны",
-            "Доказательства более позднего происхождения лавы.",
-            "Астрономия — наука, имеющая двойственное происхождение.",
-            "Две трети учеников имеют азиатское происхождение.",
-            "Этот обычай берёт свое начало в средневековье.",
-            "В большинстве случаев кашель возникает из-за вирусов.",
-            "Иммигранты редко возвращаются на свою родину.",
-            "По происхождению она француженка.",
-            "Неровный круг неизвестного происхождения, выложенный из камней.",
-            "Наука даёт нам подсказки о происхождении вселенной.",
-            "Название \"такса\" имеет немецкое происхождение и дословно означает «барсучья собака\", от Dachs (барсук) и Hund (собака)",
-            "В Японии встречается много топонимов айнского происхождения.",
-            "Всёмясо должно быть четко промаркировано с указанием страны происхождения.",
-            "Этруски - это народ-изолят, чье происхождение все еще остается совершенно неизвестным.",
-            "монументальный труд Чарльза Дарвина \"Происхождение видов\"",
-            "В анкете запрашивается информация об этническом происхождении.",
-            "Происхождение человеческого языка остаётся предметом серьёзных споров.",
-            "Высокий уровень радиации в этих скалах означает, что они имеют вулканическое происхождение.",
-            "Слух этот зародился в праздной болтовне.",
-            "сочинение Руссо о происхождении языков"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "origin": {
+    "comment": [
+      "originally",
+      "original",
+      "originate"
+    ],
+    "translate": "происхождение, начало, источник, возникновение, первоисточник, первопричина",
+    "transcription": " |ˈɔːrɪdʒɪn|",
+    "antonyms": [],
+    "mnemonic": [
+      "origin [ори'джин] происхождение - Громко (ори джин) о происхождении своём."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Greece is called the origin of civilization",
+        "ru": "Грецию называют колыбелью цивилизации",
+        "learn": 1
+      },
+      {
+        "eng": "The word is French in origin.",
+        "ru": "Это слово французского происхождения.",
+        "learn": 0
+      },
+      {
+        "eng": "Jupiter was the origin of the radiation",
+        "ru": "Юпитер был источником излучения.",
+        "learn": 1
+      },
+      {
+        "eng": "attempts to explain the origin of evil in the world",
+        "ru": "попытки объяснить происхождение зла в этом мире",
+        "learn": 0
+      },
+      {
+        "eng": "a faint clue to the origin of the mystery",
+        "ru": "слабый намёк на разгадку этой тайны / маленький ключик к разгадке этой тайны",
+        "learn": 0
+      },
+      {
+        "eng": "Proofs of the posterior origin of the lava.",
+        "ru": "Доказательства более позднего происхождения лавы.",
+        "learn": 0
+      },
+      {
+        "eng": "Astronomy is a science of duplicate origin.",
+        "ru": "Астрономия — наука, имеющая двойственное происхождение.",
+        "learn": 1
+      },
+      {
+        "eng": "Two thirds of the pupils are of Asian origin.",
+        "ru": "Две трети учеников имеют азиатское происхождение.",
+        "learn": 0
+      },
+      {
+        "eng": "The tradition has its origins in the Middle Ages.",
+        "ru": "Этот обычай берёт свое начало в средневековье.",
+        "learn": 0
+      },
+      {
+        "eng": "Most coughs are viral in origin.",
+        "ru": "В большинстве случаев кашель возникает из-за вирусов.",
+        "learn": 0
+      },
+      {
+        "eng": "Immigrants rarely return to their country of origin.",
+        "ru": "Иммигранты редко возвращаются на свою родину.",
+        "learn": 0
+      },
+      {
+        "eng": "Her ethnic origins are French.",
+        "ru": "По происхождению она француженка.",
+        "learn": 0
+      },
+      {
+        "eng": "A rude circuit of stones, of unknown origin.",
+        "ru": "Неровный круг неизвестного происхождения, выложенный из камней.",
+        "learn": 0
+      },
+      {
+        "eng": "Science gives us clues about the origin of the universe.",
+        "ru": "Наука даёт нам подсказки о происхождении вселенной.",
+        "learn": 1
+      },
+      {
+        "eng": "The name \"dachshund\" is of German origin and literally means \"badger dog\", from Dachs (\"badger\") and Hund (\"dog\").",
+        "ru": "Название \"такса\" имеет немецкое происхождение и дословно означает «барсучья собака\", от Dachs (барсук) и Hund (собака)",
+        "learn": 0
+      },
+      {
+        "eng": "Many place names all over Japan are of Ainu origin.",
+        "ru": "В Японии встречается много топонимов айнского происхождения.",
+        "learn": 0
+      },
+      {
+        "eng": "All meat should be clearly labelled with its country of origin.",
+        "ru": "Всёмясо должно быть четко промаркировано с указанием страны происхождения.",
+        "learn": 0
+      },
+      {
+        "eng": "The Etruscans are a separate race, whose origin is still quite uncertain.",
+        "ru": "Этруски - это народ-изолят, чье происхождение все еще остается совершенно неизвестным.",
+        "learn": 0
+      },
+      {
+        "eng": "Charles Darwin's monumental study, 'The Origin of Species'",
+        "ru": "монументальный труд Чарльза Дарвина \"Происхождение видов\"",
+        "learn": 0
+      },
+      {
+        "eng": "The form asks for information about the person's ethnic origin.",
+        "ru": "В анкете запрашивается информация об этническом происхождении.",
+        "learn": 0
+      },
+      {
+        "eng": "The origins of human language remain a matter of considerable debate.",
+        "ru": "Происхождение человеческого языка остаётся предметом серьёзных споров.",
+        "learn": 0
+      },
+      {
+        "eng": "The high level of radiation in the rocks implies that they are volcanic in origin.",
+        "ru": "Высокий уровень радиации в этих скалах означает, что они имеют вулканическое происхождение.",
+        "learn": 0
+      },
+      {
+        "eng": "The rumor had its origin in idle gossip.",
+        "ru": "Слух этот зародился в праздной болтовне.",
+        "learn": 0
+      },
+      {
+        "eng": "Rousseau's Essay on the Origin of Languages",
+        "ru": "сочинение Руссо о происхождении языков",
+        "learn": 0
+      }
+    ]
+  }
 }

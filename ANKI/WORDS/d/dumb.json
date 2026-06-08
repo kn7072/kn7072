@@ -1,70 +1,135 @@
 {
-    "dumb": {
-        "comment": [
-            "dump"
-        ],
-        "translate": "немой, тупой, глупый, бессловесный, бить палкой",
-        "transcription": " |dʌm|",
-        "antonyms": [],
-        "mnemonic": [
-            "dumb [дам] немой - В присутствии (дам) он немой. И они ему не (дам).",
-            "dam [dæm]\ndamn [dæm]\ndumb [dʌm] - немой, онемевший, молчаливый\n***\nПРЕГРАЖДЕН путь - пройти не дам. (это) dam\nПреградил ПЛОТИНОЙ путь в Эдем. (это) dam\n***\nПРОКЛИНАТЬ не надо дам. (это) damn\nПроклятие. Жуткий, чёртов.",
-            "dumb [dʌm]\n***\nСтал НЕМЫМ при виде дам. (это) dumb\nОНЕМЕВШИЙ при виде дам. (это) dumb\nМОЛЧАЛИВЫЙ при виде дам. (это) dumb\nСтал ТУПЫМ при виде дам. (это) dumb"
-        ],
-        "examples": [
-            "What a dumb question.",
-            "Blondes are labelled as dumb.",
-            "He was born deaf and dumb.",
-            "He's kinda dumb, isn't he?",
-            "He answered with a short dumb nod.",
-            "I was struck dumb with astonishment for the minute.",
-            "The streets are dumb with snow. (A. Tennyson)",
-            "This is one of the dumbest TV shows I've ever seen.",
-            "It was a dumb idea in the first place.",
-            "It was just dumb luck that no one got hurt.",
-            "Don't be such a dumb cluck.",
-            "I'm not dumb enough to believe that.",
-            "She was struck dumb with terror.",
-            "His success is just a matter of dumb luck.",
-            "It was just dumb luck that we found the place at all.",
-            "'What do you mean?' 'Don't play dumb'. (=pretend you do not know something)",
-            "The terrible news dumbed her for a long moment, and then she burst into tears.",
-            "She's deaf and dumb (=unable to hear or speak) and communicates using sign language.",
-            "Dumb officials make some really dumb decisions.",
-            "He just stood there with a dumb grin on his face.",
-            "It was dumb luck that we found this place at all.",
-            "He thought that the linebackers were dumb gawks until he got to know them better.",
-            "The film reinforces the idea that women should be pretty and dumb."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Что за тупой вопрос. / Какой глупый вопрос.",
-            "Блондинок считают глупыми.",
-            "Он родился глухонемым.",
-            "Он отчасти глуповат, не так ли?",
-            "Он ответил коротким беззвучным кивком.",
-            "На минуту я онемел от изумления.",
-            "Заснеженные улицы безмолвны.",
-            "Это одно из самых глупейших телевизионных шоу, что я когда-либо видел.",
-            "Это с самого начала была дурацкая затея. / Это изначально было глупостью.",
-            "Просто тупо повезло, что никто не пострадал.",
-            "Не будь таким дебилом /недоумком, болваном и т.д./.",
-            "Я не настолько глуп, чтобы этому поверить.",
-            "От ужаса она потеряла дар речи.",
-            "Его успех — это просто вопрос чистого везения.",
-            "Нам тупо повезло, что мы вообще нашли, где это.",
-            "— О чём это ты? — Не прикидывайся идиотом. (т.е. не притворяйся, что ты чего-то не знаешь)",
-            "Услышав эту страшную новость, она долго не могла ничего сказать, а потом разрыдалась.",
-            "Она глухонемая (т.е. не в состоянии ни слышать, ни говорить) и общается с помощью языка жестов.",
-            "Тупые чиновники иногда принимают очень тупые решения.",
-            "Он просто стоял и глупо улыбался.",
-            "Нам очень повезло, что мы вообще нашли это место.",
-            "Он всегда считал лайнбэкеров тупыми остолопами, пока не узнал их получше. (Лайнбэкер — игрок защиты в американском футболе, который должен сочетать в себе отличные физические данные с хорошим игровым интеллектом)",
-            "В фильме пропагандируется мысль о том, что женщины должны быть красивыми и тупыми."
-        ],
-        "stars": 0,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "dumb": {
+    "comment": [
+      "dump"
+    ],
+    "translate": "немой, тупой, глупый, бессловесный, бить палкой",
+    "transcription": " |dʌm|",
+    "antonyms": [],
+    "mnemonic": [
+      "dumb [дам] немой - В присутствии (дам) он немой. И они ему не (дам).",
+      "dam [dæm]\ndamn [dæm]\ndumb [dʌm] - немой, онемевший, молчаливый\n***\nПРЕГРАЖДЕН путь - пройти не дам. (это) dam\nПреградил ПЛОТИНОЙ путь в Эдем. (это) dam\n***\nПРОКЛИНАТЬ не надо дам. (это) damn\nПроклятие. Жуткий, чёртов.",
+      "dumb [dʌm]\n***\nСтал НЕМЫМ при виде дам. (это) dumb\nОНЕМЕВШИЙ при виде дам. (это) dumb\nМОЛЧАЛИВЫЙ при виде дам. (это) dumb\nСтал ТУПЫМ при виде дам. (это) dumb"
+    ],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "What a dumb question.",
+        "ru": "Что за тупой вопрос. / Какой глупый вопрос.",
+        "learn": 1
+      },
+      {
+        "eng": "Blondes are labelled as dumb.",
+        "ru": "Блондинок считают глупыми.",
+        "learn": 0
+      },
+      {
+        "eng": "He was born deaf and dumb.",
+        "ru": "Он родился глухонемым.",
+        "learn": 0
+      },
+      {
+        "eng": "He's kinda dumb, isn't he?",
+        "ru": "Он отчасти глуповат, не так ли?",
+        "learn": 0
+      },
+      {
+        "eng": "He answered with a short dumb nod.",
+        "ru": "Он ответил коротким беззвучным кивком.",
+        "learn": 0
+      },
+      {
+        "eng": "I was struck dumb with astonishment for the minute.",
+        "ru": "На минуту я онемел от изумления.",
+        "learn": 0
+      },
+      {
+        "eng": "The streets are dumb with snow. (A. Tennyson)",
+        "ru": "Заснеженные улицы безмолвны.",
+        "learn": 0
+      },
+      {
+        "eng": "This is one of the dumbest TV shows I've ever seen.",
+        "ru": "Это одно из самых глупейших телевизионных шоу, что я когда-либо видел.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a dumb idea in the first place.",
+        "ru": "Это с самого начала была дурацкая затея. / Это изначально было глупостью.",
+        "learn": 0
+      },
+      {
+        "eng": "It was just dumb luck that no one got hurt.",
+        "ru": "Просто тупо повезло, что никто не пострадал.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't be such a dumb cluck.",
+        "ru": "Не будь таким дебилом /недоумком, болваном и т.д./.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm not dumb enough to believe that.",
+        "ru": "Я не настолько глуп, чтобы этому поверить.",
+        "learn": 1
+      },
+      {
+        "eng": "She was struck dumb with terror.",
+        "ru": "От ужаса она потеряла дар речи.",
+        "learn": 0
+      },
+      {
+        "eng": "His success is just a matter of dumb luck.",
+        "ru": "Его успех — это просто вопрос чистого везения.",
+        "learn": 0
+      },
+      {
+        "eng": "It was just dumb luck that we found the place at all.",
+        "ru": "Нам тупо повезло, что мы вообще нашли, где это.",
+        "learn": 0
+      },
+      {
+        "eng": "'What do you mean?' 'Don't play dumb'. (=pretend you do not know something)",
+        "ru": "— О чём это ты? — Не прикидывайся идиотом. (т.е. не притворяйся, что ты чего-то не знаешь)",
+        "learn": 0
+      },
+      {
+        "eng": "The terrible news dumbed her for a long moment, and then she burst into tears.",
+        "ru": "Услышав эту страшную новость, она долго не могла ничего сказать, а потом разрыдалась.",
+        "learn": 0
+      },
+      {
+        "eng": "She's deaf and dumb (=unable to hear or speak) and communicates using sign language.",
+        "ru": "Она глухонемая (т.е. не в состоянии ни слышать, ни говорить) и общается с помощью языка жестов.",
+        "learn": 0
+      },
+      {
+        "eng": "Dumb officials make some really dumb decisions.",
+        "ru": "Тупые чиновники иногда принимают очень тупые решения.",
+        "learn": 0
+      },
+      {
+        "eng": "He just stood there with a dumb grin on his face.",
+        "ru": "Он просто стоял и глупо улыбался.",
+        "learn": 0
+      },
+      {
+        "eng": "It was dumb luck that we found this place at all.",
+        "ru": "Нам очень повезло, что мы вообще нашли это место.",
+        "learn": 0
+      },
+      {
+        "eng": "He thought that the linebackers were dumb gawks until he got to know them better.",
+        "ru": "Он всегда считал лайнбэкеров тупыми остолопами, пока не узнал их получше. (Лайнбэкер — игрок защиты в американском футболе, который должен сочетать в себе отличные физические данные с хорошим игровым интеллектом)",
+        "learn": 0
+      },
+      {
+        "eng": "The film reinforces the idea that women should be pretty and dumb.",
+        "ru": "В фильме пропагандируется мысль о том, что женщины должны быть красивыми и тупыми.",
+        "learn": 1
+      }
+    ]
+  }
 }

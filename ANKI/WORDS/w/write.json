@@ -1,88 +1,177 @@
 {
-    "write": {
-        "comment": [
-            "writing",
-            "writer",
-            "written",
-            "typewriter",
-            "handwriting",
-            "rewrite"
-        ],
-        "translate": "писать, записывать, сочинять, выписывать, вводить информацию, пописать",
-        "transcription": " |raɪt|",
-        "antonyms": [],
-        "mnemonic": [
-            "write [rıtn]\n***\nКак НАПИШЕТ, так и намарает. (это) write\nТо ПИШЕТ, то ластиком стирает. (это) write\nПочерк\nУ меня ритуал, обряд \"rite\",\nпо ночам письма писать \"write\"."
-        ],
-        "examples": [
-            "Who wrote 'Harry Potter'?",
-            "The pen won't write.",
-            "I have written to him.",
-            "Please write in black ink.",
-            "Write it down on a piece of paper.",
-            "The article is very well written.",
-            "He started out to write a book.",
-            "Don't forget to write home.",
-            "I'll write down the address for you.",
-            "Write your name at the top of the page.",
-            "The price is written on the label.",
-            "She made a promise to write every week.",
-            "Mozart wrote the music.",
-            "Fear is written on his face.",
-            "He wrote some very famous books.",
-            "Please write your name on this line.",
-            "Write on only one side of the paper.",
-            "Write the answers on the board.",
-            "children learning to read and write",
-            "Please write your name and address on a postcard.",
-            "Do any of these pens write?",
-            "You could write her a cheque.",
-            "You never write or telephone.",
-            "Write your name under your picture.",
-            "He next proceeded to write a letter.",
-            "I owe Shaun a letter., I must write soon.",
-            "You must write in a clear and lucid style.",
-            "He can write for eight hours at a stretch.",
-            "Do write to your mother to ease her of her worry.",
-            "She did not write solely for money."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Кто написал \"Гарри Поттера\"?",
-            "Ручка не пишет.",
-            "Я написал ему.",
-            "Пожалуйста, пишите черными чернилами.",
-            "Запишите это на листке бумаги.",
-            "Статья очень хорошо написана.",
-            "Он собирался написать книгу.",
-            "Не забывай писать домой.",
-            "Я напишу вам адрес.",
-            "Напишите ваше имя в верхней части страницы.",
-            "Цена написана на этикетке.",
-            "Она обещала писать каждую неделю.",
-            "Эту музыку написал Моцарт.",
-            "Страх написан у него на лице.",
-            "Он написал несколько очень известных книг.",
-            "Пожалуйста, напишите своё имя на этой строчке.",
-            "Пишите только на одной стороне бумаги.",
-            "Ответы запишите на доске.",
-            "дети, которые учатся читать и писать",
-            "Напишите, пожалуйста, на открытке своё имя и адрес.",
-            "Хоть одна из этих ручек пишет?",
-            "Вы могли бы выписать ей чек.",
-            "Ты никогда не пишешь и не звонишь.",
-            "Подпишись под своей фотографией.",
-            "Затем он начал писать письмо.",
-            "Я задолжала Шону письмо, и должна написать его в ближайшее время.",
-            "Вы должны писать в чёткой и ясной манере.",
-            "Он может писать 8 часов кряду.",
-            "Напиши своей матери и успокой её.",
-            "Она писала не только ради денег."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "wr_=_[r]"
-        ]
-    }
+  "write": {
+    "comment": [
+      "wrote |roʊt|,                                          written |ˈrɪtən|",
+      "writing",
+      "writer",
+      "written",
+      "typewriter",
+      "handwriting",
+      "rewrite"
+    ],
+    "translate": "писать, записывать, сочинять, выписывать, вводить информацию, пописать",
+    "transcription": " |raɪt|",
+    "antonyms": [],
+    "mnemonic": [
+      "write [rıtn]\n***\nКак НАПИШЕТ, так и намарает. (это) write\nТо ПИШЕТ, то ластиком стирает. (это) write\nПочерк\nУ меня ритуал, обряд \"rite\",\nпо ночам письма писать \"write\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "wr_=_[r]",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Who wrote 'Harry Potter'?",
+        "ru": "Кто написал \"Гарри Поттера\"?",
+        "learn": 0
+      },
+      {
+        "eng": "The pen won't write.",
+        "ru": "Ручка не пишет.",
+        "learn": 0
+      },
+      {
+        "eng": "I have written to him.",
+        "ru": "Я написал ему.",
+        "learn": 0
+      },
+      {
+        "eng": "Please write in black ink.",
+        "ru": "Пожалуйста, пишите черными чернилами.",
+        "learn": 1
+      },
+      {
+        "eng": "Write it down on a piece of paper.",
+        "ru": "Запишите это на листке бумаги.",
+        "learn": 0
+      },
+      {
+        "eng": "The article is very well written.",
+        "ru": "Статья очень хорошо написана.",
+        "learn": 0
+      },
+      {
+        "eng": "He started out to write a book.",
+        "ru": "Он собирался написать книгу.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't forget to write home.",
+        "ru": "Не забывай писать домой.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll write down the address for you.",
+        "ru": "Я напишу вам адрес.",
+        "learn": 0
+      },
+      {
+        "eng": "Write your name at the top of the page.",
+        "ru": "Напишите ваше имя в верхней части страницы.",
+        "learn": 0
+      },
+      {
+        "eng": "The price is written on the label.",
+        "ru": "Цена написана на этикетке.",
+        "learn": 1
+      },
+      {
+        "eng": "She made a promise to write every week.",
+        "ru": "Она обещала писать каждую неделю.",
+        "learn": 0
+      },
+      {
+        "eng": "Mozart wrote the music.",
+        "ru": "Эту музыку написал Моцарт.",
+        "learn": 0
+      },
+      {
+        "eng": "Fear is written on his face.",
+        "ru": "Страх написан у него на лице.",
+        "learn": 0
+      },
+      {
+        "eng": "He wrote some very famous books.",
+        "ru": "Он написал несколько очень известных книг.",
+        "learn": 0
+      },
+      {
+        "eng": "Please write your name on this line.",
+        "ru": "Пожалуйста, напишите своё имя на этой строчке.",
+        "learn": 0
+      },
+      {
+        "eng": "Write on only one side of the paper.",
+        "ru": "Пишите только на одной стороне бумаги.",
+        "learn": 0
+      },
+      {
+        "eng": "Write the answers on the board.",
+        "ru": "Ответы запишите на доске.",
+        "learn": 0
+      },
+      {
+        "eng": "children learning to read and write",
+        "ru": "дети, которые учатся читать и писать",
+        "learn": 0
+      },
+      {
+        "eng": "Please write your name and address on a postcard.",
+        "ru": "Напишите, пожалуйста, на открытке своё имя и адрес.",
+        "learn": 1
+      },
+      {
+        "eng": "Do any of these pens write?",
+        "ru": "Хоть одна из этих ручек пишет?",
+        "learn": 0
+      },
+      {
+        "eng": "You could write her a cheque.",
+        "ru": "Вы могли бы выписать ей чек.",
+        "learn": 0
+      },
+      {
+        "eng": "You never write or telephone.",
+        "ru": "Ты никогда не пишешь и не звонишь.",
+        "learn": 0
+      },
+      {
+        "eng": "Write your name under your picture.",
+        "ru": "Подпишись под своей фотографией.",
+        "learn": 0
+      },
+      {
+        "eng": "He next proceeded to write a letter.",
+        "ru": "Затем он начал писать письмо.",
+        "learn": 0
+      },
+      {
+        "eng": "I owe Shaun a letter., I must write soon.",
+        "ru": "Я задолжала Шону письмо, и должна написать его в ближайшее время.",
+        "learn": 0
+      },
+      {
+        "eng": "You must write in a clear and lucid style.",
+        "ru": "Вы должны писать в чёткой и ясной манере.",
+        "learn": 0
+      },
+      {
+        "eng": "He can write for eight hours at a stretch.",
+        "ru": "Он может писать 8 часов кряду.",
+        "learn": 0
+      },
+      {
+        "eng": "Do write to your mother to ease her of her worry.",
+        "ru": "Напиши своей матери и успокой её.",
+        "learn": 0
+      },
+      {
+        "eng": "She did not write solely for money.",
+        "ru": "Она писала не только ради денег.",
+        "learn": 0
+      }
+    ]
+  }
 }

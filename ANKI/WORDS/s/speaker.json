@@ -1,81 +1,167 @@
 {
-    "speaker": {
-        "comment": [
-            "speak",
-            "spoken"
-        ],
-        "translate": "спикер, громкоговоритель, оратор, диктор, говорящий, рупор",
-        "transcription": " |ˈspiːkər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The speaker had a very high voice.",
-            "I disagree with the last speaker.",
-            "The speaker paused.",
-            "The speaker droned on for an eternity.",
-            "The speaker wowed the audience.",
-            "He is a verbose speaker.",
-            "The speaker went for the profiteers.",
-            "The crowd jeered at the speaker",
-            "They gathered around the speaker.",
-            "This speaker commands a high fee.",
-            "The speaker allowed the objection.",
-            "He is an excellent public speaker.",
-            "The crowd laughed the speaker down.",
-            "Roosevelt was a captivating speaker.",
-            "The microphone is wired to the speaker.",
-            "The speaker faced his opponent down.",
-            "The crowd flocked around the speaker.",
-            "The speaker paused here for a moment.",
-            "The speaker sailed into his opponent.",
-            "He's renowned as a brilliant speaker.",
-            "The next speaker dittoed her argument.",
-            "The interruption flustered the speaker.",
-            "The chairman called on the next speaker.",
-            "The case was forcibly put by the speaker.",
-            "The speaker was bombarded with questions.",
-            "The speaker allowed the debate to continue.",
-            "Unexpected laughter embarrassed the speaker.",
-            "Bill Gates is booked as the keynote speaker.",
-            "She's an intelligent and articulate speaker.",
-            "the first speaker to address the convocation"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "У докладчика был высокий, резкий голос.",
-            "Я не согласен с предыдущим оратором.",
-            "Оратор замолчал.",
-            "Выступавший бубнил целую вечность.",
-            "Оратор поразил аудиторию.",
-            "Он слишком многословен.",
-            "Оратор обрушился на спекулянтов.",
-            "Толпа осыпала оратора насмешками.",
-            "Они столпились вокруг оратора.",
-            "Этот лектор требует высокий гонорар.",
-            "Спикер принял возражение.",
-            "Он прекрасный оратор.",
-            "Речь докладчика потонула в смешках.",
-            "Рузвельт был прекрасным /увлекательным/ оратором.",
-            "Микрофон подключён к динамику.",
-            "Докладчик полностью опроверг своего оппонента.",
-            "Вокруг выступающего собралась толпа.",
-            "Тут оратор на мгновение замолчал.",
-            "Выступающий обрушился с обвинениями на своего оппонента.",
-            "Он известен как блестящий оратор.",
-            "Следующий докладчик повторил её аргументацию.",
-            "Эта заминка выбила докладчика из колеи.",
-            "Председатель передал слово следующему докладчику.",
-            "Выступающий убедительно изложил эти доводы.",
-            "Докладчика засыпали вопросами.",
-            "Спикер разрешил продолжить прения.",
-            "Неожиданный смех смутил докладчика.",
-            "В качестве основного докладчика заявлен Билл Гейтс.",
-            "Она — умный и умеющий ясно выражать свои мысли оратор.",
-            "первый оратор, обратившийся к собранию"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "speaker": {
+    "comment": [
+      "speak",
+      "spoken"
+    ],
+    "translate": "спикер, громкоговоритель, оратор, диктор, говорящий, рупор",
+    "transcription": " |ˈspiːkər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The speaker had a very high voice.",
+        "ru": "У докладчика был высокий, резкий голос.",
+        "learn": 0
+      },
+      {
+        "eng": "I disagree with the last speaker.",
+        "ru": "Я не согласен с предыдущим оратором.",
+        "learn": 0
+      },
+      {
+        "eng": "The speaker paused.",
+        "ru": "Оратор замолчал.",
+        "learn": 0
+      },
+      {
+        "eng": "The speaker droned on for an eternity.",
+        "ru": "Выступавший бубнил целую вечность.",
+        "learn": 0
+      },
+      {
+        "eng": "The speaker wowed the audience.",
+        "ru": "Оратор поразил аудиторию.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a verbose speaker.",
+        "ru": "Он слишком многословен.",
+        "learn": 0
+      },
+      {
+        "eng": "The speaker went for the profiteers.",
+        "ru": "Оратор обрушился на спекулянтов.",
+        "learn": 0
+      },
+      {
+        "eng": "The crowd jeered at the speaker",
+        "ru": "Толпа осыпала оратора насмешками.",
+        "learn": 0
+      },
+      {
+        "eng": "They gathered around the speaker.",
+        "ru": "Они столпились вокруг оратора.",
+        "learn": 0
+      },
+      {
+        "eng": "This speaker commands a high fee.",
+        "ru": "Этот лектор требует высокий гонорар.",
+        "learn": 0
+      },
+      {
+        "eng": "The speaker allowed the objection.",
+        "ru": "Спикер принял возражение.",
+        "learn": 0
+      },
+      {
+        "eng": "He is an excellent public speaker.",
+        "ru": "Он прекрасный оратор.",
+        "learn": 1
+      },
+      {
+        "eng": "The crowd laughed the speaker down.",
+        "ru": "Речь докладчика потонула в смешках.",
+        "learn": 0
+      },
+      {
+        "eng": "Roosevelt was a captivating speaker.",
+        "ru": "Рузвельт был прекрасным /увлекательным/ оратором.",
+        "learn": 0
+      },
+      {
+        "eng": "The microphone is wired to the speaker.",
+        "ru": "Микрофон подключён к динамику.",
+        "learn": 0
+      },
+      {
+        "eng": "The speaker faced his opponent down.",
+        "ru": "Докладчик полностью опроверг своего оппонента.",
+        "learn": 0
+      },
+      {
+        "eng": "The crowd flocked around the speaker.",
+        "ru": "Вокруг выступающего собралась толпа.",
+        "learn": 0
+      },
+      {
+        "eng": "The speaker paused here for a moment.",
+        "ru": "Тут оратор на мгновение замолчал.",
+        "learn": 0
+      },
+      {
+        "eng": "The speaker sailed into his opponent.",
+        "ru": "Выступающий обрушился с обвинениями на своего оппонента.",
+        "learn": 0
+      },
+      {
+        "eng": "He's renowned as a brilliant speaker.",
+        "ru": "Он известен как блестящий оратор.",
+        "learn": 0
+      },
+      {
+        "eng": "The next speaker dittoed her argument.",
+        "ru": "Следующий докладчик повторил её аргументацию.",
+        "learn": 0
+      },
+      {
+        "eng": "The interruption flustered the speaker.",
+        "ru": "Эта заминка выбила докладчика из колеи.",
+        "learn": 0
+      },
+      {
+        "eng": "The chairman called on the next speaker.",
+        "ru": "Председатель передал слово следующему докладчику.",
+        "learn": 1
+      },
+      {
+        "eng": "The case was forcibly put by the speaker.",
+        "ru": "Выступающий убедительно изложил эти доводы.",
+        "learn": 0
+      },
+      {
+        "eng": "The speaker was bombarded with questions.",
+        "ru": "Докладчика засыпали вопросами.",
+        "learn": 0
+      },
+      {
+        "eng": "The speaker allowed the debate to continue.",
+        "ru": "Спикер разрешил продолжить прения.",
+        "learn": 0
+      },
+      {
+        "eng": "Unexpected laughter embarrassed the speaker.",
+        "ru": "Неожиданный смех смутил докладчика.",
+        "learn": 1
+      },
+      {
+        "eng": "Bill Gates is booked as the keynote speaker.",
+        "ru": "В качестве основного докладчика заявлен Билл Гейтс.",
+        "learn": 0
+      },
+      {
+        "eng": "She's an intelligent and articulate speaker.",
+        "ru": "Она — умный и умеющий ясно выражать свои мысли оратор.",
+        "learn": 0
+      },
+      {
+        "eng": "the first speaker to address the convocation",
+        "ru": "первый оратор, обратившийся к собранию",
+        "learn": 0
+      }
+    ]
+  }
 }

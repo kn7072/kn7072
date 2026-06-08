@@ -1,86 +1,172 @@
 {
-    "friend": {
-        "comment": [
-            "girlfriend",
-            "boyfriend",
-            "unfriendly",
-            "friendship",
-            "friendly"
-        ],
-        "translate": "друг, подруга, приятель, знакомый, товарищ, быть другом, помогать",
-        "transcription": " |frend|",
-        "antonyms": [],
-        "mnemonic": [
-            "friend [френд] друг - (В рент-у) друзей не давай."
-        ],
-        "examples": [
-            "Don't worry, you're among friends.",
-            "I'd like you to meet my friend.",
-            "She was a good friend to us.",
-            "I saw a friend of yours.",
-            "Never rat on a friend.",
-            "My friend and I split up.",
-            "A friend in need is a friend indeed.",
-            "A fine friend you are!",
-            "She abused her friend's trust.",
-            "His friend was close to death.",
-            "Bob's an old friend of mine.",
-            "She's a friend of the family.",
-            "Jerry, this is my friend Sue.",
-            "my ready backing of my friend",
-            "A friend of mine is in the army.",
-            "I made a new friend today.",
-            "He's no friend of mine.",
-            "Paul's a friend of hers.",
-            "Is Maria a friend of yours?",
-            "I heard about it through a friend.",
-            "He clapped his friend on the shoulder.",
-            "A friend of mine divorced her husband.",
-            "I don't count him as a friend anymore.",
-            "John compared his haircut to his friend's.",
-            "I banged into an old friend in town today.",
-            "She shot him a quick glance as if unsure whether he was friend or foe.",
-            "Mark became a dear friend.",
-            "the friend at your left hand",
-            "A friend videoed the wedding.",
-            "We are friends of the family."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Не волнуйся, ты среди друзей. (здесь тебя никто не обидит)",
-            "Мне хотелось бы познакомить тебя со своим другом.",
-            "Она была нам хорошим другом.",
-            "Я видел одного вашего друга.",
-            "Никогда не доноси на друзей.",
-            "Мы с моим другом расстались /разделились, прекратили отношения/.",
-            "Друзья познаются в беде. (посл.)",
-            "Хорош друг!",
-            "Она злоупотребила доверием своей подруги.",
-            "Его друг был близок к смерти.",
-            "Боб — мой старый друг.",
-            "Она — друг семьи.",
-            "Джерри, это моя подруга Сью.",
-            "моя готовность поддержать товарища",
-            "Один мой друг служит в армии.",
-            "Я сегодня кое с кем подружился.",
-            "Он мне не друг.",
-            "Пол — её друг.",
-            "Мария твоя подруга?",
-            "Я слышал об этом от приятеля.",
-            "Он похлопал друга по плечу.",
-            "Одна моя подруга развелась с мужем.",
-            "Я больше не считаю его своим другом.",
-            "Джон сравнил свою стрижку со стрижкой друга.",
-            "Я сегодня столкнулся в городе со старым приятелем.",
-            "Девушка бросила на него быстрый взгляд, как будто сомневалась, друг он ей или враг.",
-            "Марк стал моим близким другом.",
-            "друг, находящийся слева от вас",
-            "Один из друзей снимал свадьбу на видео.",
-            "Мы являемся друзьями этой семьи."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "friend": {
+    "comment": [
+      "girlfriend",
+      "boyfriend",
+      "unfriendly",
+      "friendship",
+      "friendly"
+    ],
+    "translate": "друг, подруга, приятель, знакомый, товарищ, быть другом, помогать",
+    "transcription": " |frend|",
+    "antonyms": [],
+    "mnemonic": [
+      "friend [френд] друг - (В рент-у) друзей не давай."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Don't worry, you're among friends.",
+        "ru": "Не волнуйся, ты среди друзей. (здесь тебя никто не обидит)",
+        "learn": 0
+      },
+      {
+        "eng": "I'd like you to meet my friend.",
+        "ru": "Мне хотелось бы познакомить тебя со своим другом.",
+        "learn": 0
+      },
+      {
+        "eng": "She was a good friend to us.",
+        "ru": "Она была нам хорошим другом.",
+        "learn": 0
+      },
+      {
+        "eng": "I saw a friend of yours.",
+        "ru": "Я видел одного вашего друга.",
+        "learn": 0
+      },
+      {
+        "eng": "Never rat on a friend.",
+        "ru": "Никогда не доноси на друзей.",
+        "learn": 1
+      },
+      {
+        "eng": "My friend and I split up.",
+        "ru": "Мы с моим другом расстались /разделились, прекратили отношения/.",
+        "learn": 0
+      },
+      {
+        "eng": "A friend in need is a friend indeed.",
+        "ru": "Друзья познаются в беде. (посл.)",
+        "learn": 0
+      },
+      {
+        "eng": "A fine friend you are!",
+        "ru": "Хорош друг!",
+        "learn": 0
+      },
+      {
+        "eng": "She abused her friend's trust.",
+        "ru": "Она злоупотребила доверием своей подруги.",
+        "learn": 0
+      },
+      {
+        "eng": "His friend was close to death.",
+        "ru": "Его друг был близок к смерти.",
+        "learn": 0
+      },
+      {
+        "eng": "Bob's an old friend of mine.",
+        "ru": "Боб — мой старый друг.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a friend of the family.",
+        "ru": "Она — друг семьи.",
+        "learn": 1
+      },
+      {
+        "eng": "Jerry, this is my friend Sue.",
+        "ru": "Джерри, это моя подруга Сью.",
+        "learn": 0
+      },
+      {
+        "eng": "my ready backing of my friend",
+        "ru": "моя готовность поддержать товарища",
+        "learn": 0
+      },
+      {
+        "eng": "A friend of mine is in the army.",
+        "ru": "Один мой друг служит в армии.",
+        "learn": 0
+      },
+      {
+        "eng": "I made a new friend today.",
+        "ru": "Я сегодня кое с кем подружился.",
+        "learn": 0
+      },
+      {
+        "eng": "He's no friend of mine.",
+        "ru": "Он мне не друг.",
+        "learn": 0
+      },
+      {
+        "eng": "Paul's a friend of hers.",
+        "ru": "Пол — её друг.",
+        "learn": 0
+      },
+      {
+        "eng": "Is Maria a friend of yours?",
+        "ru": "Мария твоя подруга?",
+        "learn": 0
+      },
+      {
+        "eng": "I heard about it through a friend.",
+        "ru": "Я слышал об этом от приятеля.",
+        "learn": 0
+      },
+      {
+        "eng": "He clapped his friend on the shoulder.",
+        "ru": "Он похлопал друга по плечу.",
+        "learn": 0
+      },
+      {
+        "eng": "A friend of mine divorced her husband.",
+        "ru": "Одна моя подруга развелась с мужем.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't count him as a friend anymore.",
+        "ru": "Я больше не считаю его своим другом.",
+        "learn": 1
+      },
+      {
+        "eng": "John compared his haircut to his friend's.",
+        "ru": "Джон сравнил свою стрижку со стрижкой друга.",
+        "learn": 0
+      },
+      {
+        "eng": "I banged into an old friend in town today.",
+        "ru": "Я сегодня столкнулся в городе со старым приятелем.",
+        "learn": 0
+      },
+      {
+        "eng": "She shot him a quick glance as if unsure whether he was friend or foe.",
+        "ru": "Девушка бросила на него быстрый взгляд, как будто сомневалась, друг он ей или враг.",
+        "learn": 1
+      },
+      {
+        "eng": "Mark became a dear friend.",
+        "ru": "Марк стал моим близким другом.",
+        "learn": 0
+      },
+      {
+        "eng": "the friend at your left hand",
+        "ru": "друг, находящийся слева от вас",
+        "learn": 0
+      },
+      {
+        "eng": "A friend videoed the wedding.",
+        "ru": "Один из друзей снимал свадьбу на видео.",
+        "learn": 0
+      },
+      {
+        "eng": "We are friends of the family.",
+        "ru": "Мы являемся друзьями этой семьи.",
+        "learn": 0
+      }
+    ]
+  }
 }

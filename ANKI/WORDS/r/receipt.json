@@ -1,73 +1,141 @@
 {
-    "receipt": {
-        "comment": [
-            "receive",
-            "received",
-            "receiver"
-        ],
-        "translate": "получение, квитанция, приходный, расписываться",
-        "transcription": " |rɪˈsiːt|",
-        "antonyms": [],
-        "mnemonic": [
-            "receipt [риси'т] квитанция, расписка - По написанию от слова (рецепт), а по звучанию (рис ит-альянский) по рецепту выдаётся под расписку:",
-            "receipt [rɪ'si:t]\n***\nПосле ПОЛУЧЕНИЯ платежа, доктор больного\nвоскресит. (это) receipt\nПолучив КВИТАНЦИЮ, доктор больного воскресит.\n(это) receipt\nПолучив РАСПИСКУ, доктор тебя воскресит. (это)\nreceipt"
-        ],
-        "examples": [
-            "Can you give me a receipt?",
-            "Keep your receipt in case you want to bring it back.",
-            "We are in receipt of your letter.",
-            "The clerk handed her the receipt",
-            "Just bring it back to the store, together with your receipt.",
-            "The customer acknowledged receipt of a shipment.",
-            "We acknowledge (the) receipt of your fax.",
-            "Make sure you get receipts for everything.",
-            "We are in receipt of your letter of the 15th May.",
-            "Keep your receipt in case you need to return the goods.",
-            "This merchandise is returnable if you save the receipt.",
-            "Open immediately upon receipt of the package.",
-            "Please remit $1,000 upon receipt of this letter.",
-            "I'll need a carbon copy of that receipt.",
-            "Please acknowledge receipt of this letter.",
-            "My wife has Multiple Sclerosis and is in receipt of disability living allowance.",
-            "The booking will be made on receipt of a deposit.",
-            "Keep your receipt in case you need to return anything.",
-            "He rummaged in his pocket for the receipt.",
-            "She scrawled her signature on the receipt.",
-            "I enclose my receipt as proof of purchase.",
-            "Export receipts in January totalled $626 million.",
-            "Any person who wants a refund must have a receipt.",
-            "I would be grateful if you would acknowledge receipt of this letter."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Не могли бы вы дать мне квитанцию?",
-            "Сохраните чек, на случай если захотите вернуть покупку обратно.",
-            "Мы получили ваше письмо.",
-            "Клерк протянул ей квитанцию.",
-            "Просто отнеси это обратно в магазин, вместе с чеком /квитанцией/.",
-            "Покупатель подтвердил получение груза.",
-            "Подтверждаем получение Вашего факса.",
-            "Не забудь взять за всё квитанции.",
-            "Мы получили ваше письмо от 15 мая.",
-            "Сохраняйте ваши чеки на случай если вам нужно будет вернуть товары.",
-            "Этот товар подлежит возврату, если вы сохраните квитанцию.",
-            "Открыть сразу же после получения пакета.",
-            "По получении данного письма просьба перевести в качестве оплаты тысячу долларов США.",
-            "Мне понадобится точная копия этой квитанции.",
-            "Просьба подтвердить получение этого письма.",
-            "У моей жены рассеянный склероз, и она получает пособие по инвалидности.",
-            "Бронирование будет осуществлено при получении депозита.",
-            "Сохраняйте чек на случай необходимости что-то вернуть.",
-            "Он рылся в своем кармане в поисках чека /квитанции, расписки/.",
-            "Она быстро и неразборчиво расписалась на чеке.",
-            "В качестве доказательства покупки прилагаю чек.",
-            "Поступления (доходы) от экспорта в январе составили в общей сумме 626 млн долл.",
-            "Любой человек, который хочет возврата денег, должен иметь при себе чек.",
-            "Я был бы признателен, если бы вы подтвердили получение этого письма."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "receipt": {
+    "comment": [
+      "receive",
+      "received",
+      "receiver"
+    ],
+    "translate": "получение, квитанция, приходный, расписываться",
+    "transcription": " |rɪˈsiːt|",
+    "antonyms": [],
+    "mnemonic": [
+      "receipt [риси'т] квитанция, расписка - По написанию от слова (рецепт), а по звучанию (рис ит-альянский) по рецепту выдаётся под расписку:",
+      "receipt [rɪ'si:t]\n***\nПосле ПОЛУЧЕНИЯ платежа, доктор больного\nвоскресит. (это) receipt\nПолучив КВИТАНЦИЮ, доктор больного воскресит.\n(это) receipt\nПолучив РАСПИСКУ, доктор тебя воскресит. (это)\nreceipt"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Can you give me a receipt?",
+        "ru": "Не могли бы вы дать мне квитанцию?",
+        "learn": 0
+      },
+      {
+        "eng": "Keep your receipt in case you want to bring it back.",
+        "ru": "Сохраните чек, на случай если захотите вернуть покупку обратно.",
+        "learn": 0
+      },
+      {
+        "eng": "We are in receipt of your letter.",
+        "ru": "Мы получили ваше письмо.",
+        "learn": 0
+      },
+      {
+        "eng": "The clerk handed her the receipt",
+        "ru": "Клерк протянул ей квитанцию.",
+        "learn": 0
+      },
+      {
+        "eng": "Just bring it back to the store, together with your receipt.",
+        "ru": "Просто отнеси это обратно в магазин, вместе с чеком /квитанцией/.",
+        "learn": 0
+      },
+      {
+        "eng": "The customer acknowledged receipt of a shipment.",
+        "ru": "Покупатель подтвердил получение груза.",
+        "learn": 1
+      },
+      {
+        "eng": "We acknowledge (the) receipt of your fax.",
+        "ru": "Подтверждаем получение Вашего факса.",
+        "learn": 1
+      },
+      {
+        "eng": "Make sure you get receipts for everything.",
+        "ru": "Не забудь взять за всё квитанции.",
+        "learn": 1
+      },
+      {
+        "eng": "We are in receipt of your letter of the 15th May.",
+        "ru": "Мы получили ваше письмо от 15 мая.",
+        "learn": 0
+      },
+      {
+        "eng": "Keep your receipt in case you need to return the goods.",
+        "ru": "Сохраняйте ваши чеки на случай если вам нужно будет вернуть товары.",
+        "learn": 1
+      },
+      {
+        "eng": "This merchandise is returnable if you save the receipt.",
+        "ru": "Этот товар подлежит возврату, если вы сохраните квитанцию.",
+        "learn": 0
+      },
+      {
+        "eng": "Open immediately upon receipt of the package.",
+        "ru": "Открыть сразу же после получения пакета.",
+        "learn": 0
+      },
+      {
+        "eng": "Please remit $1,000 upon receipt of this letter.",
+        "ru": "По получении данного письма просьба перевести в качестве оплаты тысячу долларов США.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll need a carbon copy of that receipt.",
+        "ru": "Мне понадобится точная копия этой квитанции.",
+        "learn": 0
+      },
+      {
+        "eng": "Please acknowledge receipt of this letter.",
+        "ru": "Просьба подтвердить получение этого письма.",
+        "learn": 0
+      },
+      {
+        "eng": "My wife has Multiple Sclerosis and is in receipt of disability living allowance.",
+        "ru": "У моей жены рассеянный склероз, и она получает пособие по инвалидности.",
+        "learn": 0
+      },
+      {
+        "eng": "The booking will be made on receipt of a deposit.",
+        "ru": "Бронирование будет осуществлено при получении депозита.",
+        "learn": 0
+      },
+      {
+        "eng": "Keep your receipt in case you need to return anything.",
+        "ru": "Сохраняйте чек на случай необходимости что-то вернуть.",
+        "learn": 0
+      },
+      {
+        "eng": "He rummaged in his pocket for the receipt.",
+        "ru": "Он рылся в своем кармане в поисках чека /квитанции, расписки/.",
+        "learn": 0
+      },
+      {
+        "eng": "She scrawled her signature on the receipt.",
+        "ru": "Она быстро и неразборчиво расписалась на чеке.",
+        "learn": 0
+      },
+      {
+        "eng": "I enclose my receipt as proof of purchase.",
+        "ru": "В качестве доказательства покупки прилагаю чек.",
+        "learn": 1
+      },
+      {
+        "eng": "Export receipts in January totalled $626 million.",
+        "ru": "Поступления (доходы) от экспорта в январе составили в общей сумме 626 млн долл.",
+        "learn": 0
+      },
+      {
+        "eng": "Any person who wants a refund must have a receipt.",
+        "ru": "Любой человек, который хочет возврата денег, должен иметь при себе чек.",
+        "learn": 0
+      },
+      {
+        "eng": "I would be grateful if you would acknowledge receipt of this letter.",
+        "ru": "Я был бы признателен, если бы вы подтвердили получение этого письма.",
+        "learn": 0
+      }
+    ]
+  }
 }

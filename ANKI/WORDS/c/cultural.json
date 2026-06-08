@@ -1,83 +1,169 @@
 {
-    "cultural": {
-        "comment": [
-            "culture",
-            "agriculture",
-            "agricultural",
-            "faculty"
-        ],
-        "translate": "культурный, искусственно выращиваемый, обрабатываемый",
-        "transcription": " |ˈkʌltʃərəl|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "London is still the cultural capital of the country.",
-            "This town is a cultural wasteland.",
-            "Japan's unique cultural heritage",
-            "The 70s were a cultural wasteland.",
-            "Language is a social and cultural phenomenon.",
-            "We studied our cultural heritage.",
-            "National isolation can only cause economic and cultural impoverishment.",
-            "The city is known for its cultural diversity.",
-            "He criticized the talk shows as 'cultural rot'.",
-            "The present Mayor of Antwerp is a promoter of the city as cultural capital.",
-            "Japan's unique cultural traditions",
-            "His art reflects his cultural identity.",
-            "a period of cultural and social upheavals",
-            "It's not exactly a cultural center like Paris.",
-            "He spoke of the benefits of cultural pluralism.",
-            "the ennobling influence of cultural surroundings",
-            "influenced by ethnic and cultural ties",
-            "Their country has a rich cultural heritage.",
-            "a nation characterized by cultural pluralism",
-            "The city is the cultural center of the state.",
-            "There are some cultural differences between us.",
-            "eager to participate in the city's cultural life",
-            "a society remarkable for its cultural attainments",
-            "That part of the country is a cultural wasteland.",
-            "The movie eventually became a cultural phenomenon.",
-            "Small nations resent Western cultural imperialism.",
-            "women who resist cultural attempts to feminize them",
-            "We attended several cultural events over the weekend.",
-            "The center provides a wide range of cultural activities.",
-            "Modern science caused an acceleration of cultural change."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Лондон по-прежнему остаётся культурной столицей страны.",
-            "В культурном отношении этот город — сущая пустыня.",
-            "неповторимое /уникальное/ культурное наследие Японии",
-            "В культурном отношении семидесятые годы были безвременьем.",
-            "Язык — это социальное и культурное явление.",
-            "Мы изучили наше культурное наследие.",
-            "Изоляция страны может вызвать лишь экономический спад и обеднение культуры.",
-            "Город известен своим культурным многообразием.",
-            "Он раскритиковал эти ток-шоу, назвав их \"культурной гнилью\".",
-            "Нынешний мэр Антверпена является вдохновителем превращения города в культурную столицу.",
-            "уникальные культурные традиции Японии",
-            "Его творчество является отражением его культурной самобытности.",
-            "период культурных и социальных потрясений",
-            "Это место не назовёшь культурным центром вроде Парижа.",
-            "Он говорил о пользе культурного плюрализма.",
-            "облагораживающее влияние культурного окружения",
-            "под влиянием этнических и культурных связей",
-            "Их страна обладает богатым культурным наследием.",
-            "страна, которая характеризуется культурным плюрализмом",
-            "Этот город является культурным центром государства.",
-            "Между нами есть некоторые культурные различия.",
-            "страстно желая участвовать в культурной жизни города",
-            "общество, замечательное своими культурными достижениями",
-            "С точки зрения культуры, эта часть страны — сущая пустыня.",
-            "В итоге, фильм стал культурным феноменом.",
-            "Малые народы возмущаются насаждением западной культуры.",
-            "женщины, которые сопротивляются искусственным попыткам феминизации",
-            "В минувшие выходные мы посетили ряд культурных мероприятий.",
-            "Центр предоставляет широкий спектр культурных мероприятий.",
-            "Современная наука вызвала ускорение культурных изменений."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "cultural": {
+    "comment": [
+      "culture",
+      "agriculture",
+      "agricultural",
+      "faculty"
+    ],
+    "translate": "культурный, искусственно выращиваемый, обрабатываемый",
+    "transcription": " |ˈkʌltʃərəl|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "London is still the cultural capital of the country.",
+        "ru": "Лондон по-прежнему остаётся культурной столицей страны.",
+        "learn": 0
+      },
+      {
+        "eng": "This town is a cultural wasteland.",
+        "ru": "В культурном отношении этот город — сущая пустыня.",
+        "learn": 0
+      },
+      {
+        "eng": "Japan's unique cultural heritage",
+        "ru": "неповторимое /уникальное/ культурное наследие Японии",
+        "learn": 0
+      },
+      {
+        "eng": "The 70s were a cultural wasteland.",
+        "ru": "В культурном отношении семидесятые годы были безвременьем.",
+        "learn": 0
+      },
+      {
+        "eng": "Language is a social and cultural phenomenon.",
+        "ru": "Язык — это социальное и культурное явление.",
+        "learn": 1
+      },
+      {
+        "eng": "We studied our cultural heritage.",
+        "ru": "Мы изучили наше культурное наследие.",
+        "learn": 1
+      },
+      {
+        "eng": "National isolation can only cause economic and cultural impoverishment.",
+        "ru": "Изоляция страны может вызвать лишь экономический спад и обеднение культуры.",
+        "learn": 0
+      },
+      {
+        "eng": "The city is known for its cultural diversity.",
+        "ru": "Город известен своим культурным многообразием.",
+        "learn": 1
+      },
+      {
+        "eng": "He criticized the talk shows as 'cultural rot'.",
+        "ru": "Он раскритиковал эти ток-шоу, назвав их \"культурной гнилью\".",
+        "learn": 0
+      },
+      {
+        "eng": "The present Mayor of Antwerp is a promoter of the city as cultural capital.",
+        "ru": "Нынешний мэр Антверпена является вдохновителем превращения города в культурную столицу.",
+        "learn": 1
+      },
+      {
+        "eng": "Japan's unique cultural traditions",
+        "ru": "уникальные культурные традиции Японии",
+        "learn": 0
+      },
+      {
+        "eng": "His art reflects his cultural identity.",
+        "ru": "Его творчество является отражением его культурной самобытности.",
+        "learn": 0
+      },
+      {
+        "eng": "a period of cultural and social upheavals",
+        "ru": "период культурных и социальных потрясений",
+        "learn": 0
+      },
+      {
+        "eng": "It's not exactly a cultural center like Paris.",
+        "ru": "Это место не назовёшь культурным центром вроде Парижа.",
+        "learn": 0
+      },
+      {
+        "eng": "He spoke of the benefits of cultural pluralism.",
+        "ru": "Он говорил о пользе культурного плюрализма.",
+        "learn": 0
+      },
+      {
+        "eng": "the ennobling influence of cultural surroundings",
+        "ru": "облагораживающее влияние культурного окружения",
+        "learn": 0
+      },
+      {
+        "eng": "influenced by ethnic and cultural ties",
+        "ru": "под влиянием этнических и культурных связей",
+        "learn": 0
+      },
+      {
+        "eng": "Their country has a rich cultural heritage.",
+        "ru": "Их страна обладает богатым культурным наследием.",
+        "learn": 1
+      },
+      {
+        "eng": "a nation characterized by cultural pluralism",
+        "ru": "страна, которая характеризуется культурным плюрализмом",
+        "learn": 0
+      },
+      {
+        "eng": "The city is the cultural center of the state.",
+        "ru": "Этот город является культурным центром государства.",
+        "learn": 0
+      },
+      {
+        "eng": "There are some cultural differences between us.",
+        "ru": "Между нами есть некоторые культурные различия.",
+        "learn": 0
+      },
+      {
+        "eng": "eager to participate in the city's cultural life",
+        "ru": "страстно желая участвовать в культурной жизни города",
+        "learn": 0
+      },
+      {
+        "eng": "a society remarkable for its cultural attainments",
+        "ru": "общество, замечательное своими культурными достижениями",
+        "learn": 0
+      },
+      {
+        "eng": "That part of the country is a cultural wasteland.",
+        "ru": "С точки зрения культуры, эта часть страны — сущая пустыня.",
+        "learn": 0
+      },
+      {
+        "eng": "The movie eventually became a cultural phenomenon.",
+        "ru": "В итоге, фильм стал культурным феноменом.",
+        "learn": 1
+      },
+      {
+        "eng": "Small nations resent Western cultural imperialism.",
+        "ru": "Малые народы возмущаются насаждением западной культуры.",
+        "learn": 0
+      },
+      {
+        "eng": "women who resist cultural attempts to feminize them",
+        "ru": "женщины, которые сопротивляются искусственным попыткам феминизации",
+        "learn": 0
+      },
+      {
+        "eng": "We attended several cultural events over the weekend.",
+        "ru": "В минувшие выходные мы посетили ряд культурных мероприятий.",
+        "learn": 0
+      },
+      {
+        "eng": "The center provides a wide range of cultural activities.",
+        "ru": "Центр предоставляет широкий спектр культурных мероприятий.",
+        "learn": 0
+      },
+      {
+        "eng": "Modern science caused an acceleration of cultural change.",
+        "ru": "Современная наука вызвала ускорение культурных изменений.",
+        "learn": 0
+      }
+    ]
+  }
 }

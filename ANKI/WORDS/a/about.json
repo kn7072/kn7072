@@ -1,84 +1,170 @@
 {
-    "about": {
-        "comment": [
-            "out",
-            "scout"
-        ],
-        "translate": "о, об, около, по, около, меняющий курс, менять курс",
-        "transcription": " |əˈbaʊt|",
-        "antonyms": [],
-        "mnemonic": [
-            "about [эба'ут] о чем-то, про - О чем статья? О том, как с (н-еба ут-ок) доставали.",
-            "about [ə'baut] - кругом, вокруг, везде, повсюду\n***\nОКОЛО часа нас забавит. (это) about\nОБО мне чуть- чуть добавит. (это) about"
-        ],
-        "examples": [
-            "He looked about.",
-            "It's about time to go.",
-            "'Have you finished?' ' Just about.'",
-            "The ceremony is about to begin.",
-            "Be quick about it!",
-            "What's he on about (=talking about)?",
-            "I was about ready to leave when somebody rang the doorbell.",
-            "We're about ready to go.",
-            "That's what love is about.",
-            "He is about somewhere.",
-            "Mind what you're about!",
-            "He was nowhere about.",
-            "Let's look about for help.",
-            "He lied about his age.",
-            "What these guys are about here?",
-            "People gathered about the fire.",
-            "Is your work finished? — Just about.",
-            "Just don't order me about.",
-            "I'm not about to be addressed to like this.",
-            "We meet about once a month.",
-            "I live about 10 miles away.",
-            "I've had about all I can stand.",
-            "The job is (just) about done.",
-            "Some cars were parked just about.",
-            "She said something about leaving town.",
-            "They moved the furniture about.",
-            "There's something really strange about Liza.",
-            "I dropped her somewhere about there.",
-            "I'm really worried about Jack.",
-            "wandering about with no place to go"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он огляделся вокруг.",
-            "Уже пора идти.",
-            "— Вы закончили? — Почти.",
-            "Церемония вот-вот начнётся.",
-            "Поторопитесь с этим!",
-            "О чём это он (т.е. о чём он говорит)?",
-            "Я уже собрался уходить, как вдруг кто-то позвонил в дверь.",
-            "Мы почти готовы идти.",
-            "Вот что такое любовь.",
-            "Он где-то шляется.",
-            "Будьте внимательны!",
-            "Его нигде не было.",
-            "Давай попросим /поищем/ помощи.",
-            "Он соврал о своём возрасте.",
-            "Чего этим парням тут надо?",
-            "Люди собрались у костра.",
-            "— Ты закончил работу? — Почти.",
-            "Только не надо меня гонять туда-сюда.",
-            "Я не привык, чтобы ко мне так обращались.",
-            "Мы встречаемся примерно раз в месяц.",
-            "Я живу примерно в десяти милях отсюда.",
-            "Я так больше не могу. / Ещё немного, и я не выдержу.",
-            "Работа почти сделана. / Всё почти готово.",
-            "Несколько машин были припаркованы рядом.",
-            "Она что-то говорила об отъезде из города.",
-            "Они всё время переставляли мебель.",
-            "В Лизе есть что-то очень странное.",
-            "Я высадил её где-то там.",
-            "Я очень беспокоюсь о Джеке.",
-            "бесцельно бродить (не имея конкретного места назначения)"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "about": {
+    "comment": [
+      "out",
+      "scout"
+    ],
+    "translate": "о, об, около, по, около, меняющий курс, менять курс",
+    "transcription": " |əˈbaʊt|",
+    "antonyms": [],
+    "mnemonic": [
+      "about [эба'ут] о чем-то, про - О чем статья? О том, как с (н-еба ут-ок) доставали.",
+      "about [ə'baut] - кругом, вокруг, везде, повсюду\n***\nОКОЛО часа нас забавит. (это) about\nОБО мне чуть- чуть добавит. (это) about"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He looked about.",
+        "ru": "Он огляделся вокруг.",
+        "learn": 0
+      },
+      {
+        "eng": "It's about time to go.",
+        "ru": "Уже пора идти.",
+        "learn": 1
+      },
+      {
+        "eng": "'Have you finished?' ' Just about.'",
+        "ru": "— Вы закончили? — Почти.",
+        "learn": 0
+      },
+      {
+        "eng": "The ceremony is about to begin.",
+        "ru": "Церемония вот-вот начнётся.",
+        "learn": 1
+      },
+      {
+        "eng": "Be quick about it!",
+        "ru": "Поторопитесь с этим!",
+        "learn": 0
+      },
+      {
+        "eng": "What's he on about (=talking about)?",
+        "ru": "О чём это он (т.е. о чём он говорит)?",
+        "learn": 0
+      },
+      {
+        "eng": "I was about ready to leave when somebody rang the doorbell.",
+        "ru": "Я уже собрался уходить, как вдруг кто-то позвонил в дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "We're about ready to go.",
+        "ru": "Мы почти готовы идти.",
+        "learn": 0
+      },
+      {
+        "eng": "That's what love is about.",
+        "ru": "Вот что такое любовь.",
+        "learn": 0
+      },
+      {
+        "eng": "He is about somewhere.",
+        "ru": "Он где-то шляется.",
+        "learn": 0
+      },
+      {
+        "eng": "Mind what you're about!",
+        "ru": "Будьте внимательны!",
+        "learn": 0
+      },
+      {
+        "eng": "He was nowhere about.",
+        "ru": "Его нигде не было.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's look about for help.",
+        "ru": "Давай попросим /поищем/ помощи.",
+        "learn": 0
+      },
+      {
+        "eng": "He lied about his age.",
+        "ru": "Он соврал о своём возрасте.",
+        "learn": 0
+      },
+      {
+        "eng": "What these guys are about here?",
+        "ru": "Чего этим парням тут надо?",
+        "learn": 0
+      },
+      {
+        "eng": "People gathered about the fire.",
+        "ru": "Люди собрались у костра.",
+        "learn": 1
+      },
+      {
+        "eng": "Is your work finished? — Just about.",
+        "ru": "— Ты закончил работу? — Почти.",
+        "learn": 1
+      },
+      {
+        "eng": "Just don't order me about.",
+        "ru": "Только не надо меня гонять туда-сюда.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm not about to be addressed to like this.",
+        "ru": "Я не привык, чтобы ко мне так обращались.",
+        "learn": 0
+      },
+      {
+        "eng": "We meet about once a month.",
+        "ru": "Мы встречаемся примерно раз в месяц.",
+        "learn": 0
+      },
+      {
+        "eng": "I live about 10 miles away.",
+        "ru": "Я живу примерно в десяти милях отсюда.",
+        "learn": 0
+      },
+      {
+        "eng": "I've had about all I can stand.",
+        "ru": "Я так больше не могу. / Ещё немного, и я не выдержу.",
+        "learn": 0
+      },
+      {
+        "eng": "The job is (just) about done.",
+        "ru": "Работа почти сделана. / Всё почти готово.",
+        "learn": 0
+      },
+      {
+        "eng": "Some cars were parked just about.",
+        "ru": "Несколько машин были припаркованы рядом.",
+        "learn": 0
+      },
+      {
+        "eng": "She said something about leaving town.",
+        "ru": "Она что-то говорила об отъезде из города.",
+        "learn": 0
+      },
+      {
+        "eng": "They moved the furniture about.",
+        "ru": "Они всё время переставляли мебель.",
+        "learn": 0
+      },
+      {
+        "eng": "There's something really strange about Liza.",
+        "ru": "В Лизе есть что-то очень странное.",
+        "learn": 0
+      },
+      {
+        "eng": "I dropped her somewhere about there.",
+        "ru": "Я высадил её где-то там.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm really worried about Jack.",
+        "ru": "Я очень беспокоюсь о Джеке.",
+        "learn": 0
+      },
+      {
+        "eng": "wandering about with no place to go",
+        "ru": "бесцельно бродить (не имея конкретного места назначения)",
+        "learn": 0
+      }
+    ]
+  }
 }

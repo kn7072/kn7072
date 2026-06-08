@@ -1,58 +1,111 @@
 {
-    "marathon": {
-        "comment": [
-            "rather"
-        ],
-        "translate": "марафон, марафонский бег",
-        "transcription": " |ˈmærəθɑːn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I'd never run a marathon before.",
-            "His success in the marathon was unexpected.",
-            "The marathon is a test of endurance.",
-            "He is running the Marathon this year.",
-            "It takes a lot of stamina to run a marathon.",
-            "Running a marathon is grueling.",
-            "She mistimed the marathon runner.",
-            "the fabulous endurance of a marathon runner",
-            "After running the marathon, his body ached for a week.",
-            "I'm not going to run the marathon just to prove a point.",
-            "It's one thing being able to run fast, but quite another to win a marathon.",
-            "the spare figure of a marathon runner",
-            "The marathon tests a runner's endurance.",
-            "He finished the marathon in just under 3 hours.",
-            "Silva is favoured to win a medal in the marathon.",
-            "The marathon runner did not warm up and hurt himself.",
-            "He clocked 3 hours and 15 minutes in his last marathon.",
-            "the length of time that it takes for runners to condition their bodies for a marathon",
-            "Though she didn't win, she was highly satisfied with her personal results for the marathon."
-        ],
-        "example_translate": [
-            "Я никогда прежде не бегал марафон.",
-            "Его успех на марафоне был неожиданным.",
-            "Марафон — это испытание /проверка/ на выносливость.",
-            "Он бежит марафон в этом году.",
-            "Для того чтобы пробежать марафон, нужно быть очень выносливым.",
-            "Марафонская дистанция отнимает очень много сил.",
-            "Она неправильно измерила время этого марафонца.",
-            "сказочная выносливость бегуна-марафонца",
-            "После того, как он пробежал марафон, его тело болело ещё неделю.",
-            "Я не собираюсь бежать марафон просто ради того, чтобы что-то доказать.",
-            "Одно дело — уметь быстро бегать, но совсем другое — выиграть марафон.",
-            "худощавое телосложение марафонца",
-            "Марафонский бег испытывает выносливость бегуна.",
-            "Он закончил марафон чуть менее чем за три часа.",
-            "Силва — фаворит в борьбе за медаль в марафоне.",
-            "Марафонец не разогрел мышцы и травмировался.",
-            "На своём последнем марафоне он показал результат три часа и пятнадцать минут.",
-            "промежуток времени, который требуется бегунам, чтобы подготовить свой организм к марафону",
-            "Хотя она и не выиграла, но была очень довольна своими личными результатами марафона."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "marathon": {
+    "comment": [
+      "rather"
+    ],
+    "translate": "марафон, марафонский бег",
+    "transcription": " |ˈmærəθɑːn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I'd never run a marathon before.",
+        "ru": "Я никогда прежде не бегал марафон.",
+        "learn": 1
+      },
+      {
+        "eng": "His success in the marathon was unexpected.",
+        "ru": "Его успех на марафоне был неожиданным.",
+        "learn": 1
+      },
+      {
+        "eng": "The marathon is a test of endurance.",
+        "ru": "Марафон — это испытание /проверка/ на выносливость.",
+        "learn": 0
+      },
+      {
+        "eng": "He is running the Marathon this year.",
+        "ru": "Он бежит марафон в этом году.",
+        "learn": 0
+      },
+      {
+        "eng": "It takes a lot of stamina to run a marathon.",
+        "ru": "Для того чтобы пробежать марафон, нужно быть очень выносливым.",
+        "learn": 0
+      },
+      {
+        "eng": "Running a marathon is grueling.",
+        "ru": "Марафонская дистанция отнимает очень много сил.",
+        "learn": 0
+      },
+      {
+        "eng": "She mistimed the marathon runner.",
+        "ru": "Она неправильно измерила время этого марафонца.",
+        "learn": 0
+      },
+      {
+        "eng": "the fabulous endurance of a marathon runner",
+        "ru": "сказочная выносливость бегуна-марафонца",
+        "learn": 0
+      },
+      {
+        "eng": "After running the marathon, his body ached for a week.",
+        "ru": "После того, как он пробежал марафон, его тело болело ещё неделю.",
+        "learn": 1
+      },
+      {
+        "eng": "I'm not going to run the marathon just to prove a point.",
+        "ru": "Я не собираюсь бежать марафон просто ради того, чтобы что-то доказать.",
+        "learn": 0
+      },
+      {
+        "eng": "It's one thing being able to run fast, but quite another to win a marathon.",
+        "ru": "Одно дело — уметь быстро бегать, но совсем другое — выиграть марафон.",
+        "learn": 0
+      },
+      {
+        "eng": "the spare figure of a marathon runner",
+        "ru": "худощавое телосложение марафонца",
+        "learn": 0
+      },
+      {
+        "eng": "The marathon tests a runner's endurance.",
+        "ru": "Марафонский бег испытывает выносливость бегуна.",
+        "learn": 0
+      },
+      {
+        "eng": "He finished the marathon in just under 3 hours.",
+        "ru": "Он закончил марафон чуть менее чем за три часа.",
+        "learn": 0
+      },
+      {
+        "eng": "Silva is favoured to win a medal in the marathon.",
+        "ru": "Силва — фаворит в борьбе за медаль в марафоне.",
+        "learn": 0
+      },
+      {
+        "eng": "The marathon runner did not warm up and hurt himself.",
+        "ru": "Марафонец не разогрел мышцы и травмировался.",
+        "learn": 0
+      },
+      {
+        "eng": "He clocked 3 hours and 15 minutes in his last marathon.",
+        "ru": "На своём последнем марафоне он показал результат три часа и пятнадцать минут.",
+        "learn": 0
+      },
+      {
+        "eng": "the length of time that it takes for runners to condition their bodies for a marathon",
+        "ru": "промежуток времени, который требуется бегунам, чтобы подготовить свой организм к марафону",
+        "learn": 0
+      },
+      {
+        "eng": "Though she didn't win, she was highly satisfied with her personal results for the marathon.",
+        "ru": "Хотя она и не выиграла, но была очень довольна своими личными результатами марафона.",
+        "learn": 0
+      }
+    ]
+  }
 }

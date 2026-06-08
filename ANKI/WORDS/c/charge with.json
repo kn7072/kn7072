@@ -1,77 +1,166 @@
 {
-    "charge with": {
-        "comment": [],
-        "translate": "",
-        "transcription": "||",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He was charged with burglary.",
-            "He was charged with racketeering.",
-            "He's been charged with tax fraud.",
-            "They charge him with armed robbery.",
-            "He was charged with resisting arrest.",
-            "He is charged with attempted robbery.",
-            "The wire is charged with electricity.",
-            "The music is charged with excitement.",
-            "Gibbons has been charged with murder.",
-            "He was arrested and charged with rape.",
-            "The shortstop was charged with an error.",
-            "He was charged with two counts of theft.",
-            "He was arrested and charged with murder.",
-            "He was charged with assault and battery.",
-            "He was charged with treason and beheaded.",
-            "She's charged with misusing company funds.",
-            "He was charged with voluntary manslaughter.",
-            "He was arrested and charged with extortion.",
-            "The parents were charged with child neglect.",
-            "He has been charged with attempted burglary.",
-            "He was charged with trying to resist arrest.",
-            "They were charged with conspiracy to defraud.",
-            "They were charged with handling stolen goods.",
-            "They are charged with using forged documents.",
-            "The basketball player was charged with a foul.",
-            "They were charged with obstruction of justice.",
-            "Bennet was charged with handling stolen goods.",
-            "They were charged with inciting racial hatred.",
-            "The room was charged with tension and anxiety.",
-            "The prisoner is charged with attempted robbery."
-        ],
-        "example_translate": [
-            "Ему было предъявлено обвинение в краже.",
-            "Он был обвинён в рэкете.",
-            "Его обвиняют в налоговом мошенничестве.",
-            "Они обвиняют его в вооружённом ограблении.",
-            "Ему было предъявлено обвинение в сопротивлении при аресте.",
-            "Он обвиняется в попытке ограбления.",
-            "Этот провод под напряжением.",
-            "Вся эта музыка проникнута трепетом.",
-            "Гиббонсу предъявили обвинение в убийстве.",
-            "Он был арестован и обвинён в изнасиловании.",
-            "На счёт шортстопа записали ошибку. (о бейсболе)",
-            "Ему было предъявлено обвинение по двум эпизодам краж.",
-            "Он был арестован и обвинён в убийстве.",
-            "Ему было предъявлено обвинение в нападении с нанесением побоев.",
-            "Он был обвинён в государственной измене и обезглавлен.",
-            "Её обвиняют в нецелевом расходовании средств компании.",
-            "Ему было предъявлено обвинение в умышленном убийстве.",
-            "Его арестовали и предъявили обвинение в вымогательстве.",
-            "Родителям предъявили обвинение в невыполнении обязанностей в отношении ребёнка.",
-            "Ему предъявлено обвинение в попытке кражи со взломом.",
-            "Ему было предъявлено обвинение в попытке оказать сопротивление при аресте.",
-            "Им было предъявлено обвинение в сговоре с целью мошенничества.",
-            "Им были предъявлены обвинения в хранении краденого имущества.",
-            "Их обвиняют в использовании фальшивых документов.",
-            "Баскетболисту присудили фол.",
-            "Их обвинили в препятствии правосудию.",
-            "Беннета обвинили в укрывательстве краденого.",
-            "Им предъявили обвинение в разжигании расовой ненависти.",
-            "Комната была наполнена напряжением и тревогой.",
-            "Заключённый обвиняется в попытке ограбления."
-        ],
-        "synonyms": [],
-        "groups": [
-            "all_words", "verb_with_preposition"
-        ]
-    }
+  "charge with": {
+    "comment": [],
+    "translate": "обвинять в, поручать, заряжать",
+    "transcription": "",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "groups": [
+      "verb_with_preposition"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "He was charged with burglary.",
+        "ru": "Ему было предъявлено обвинение в краже.",
+        "learn": 1
+      },
+      {
+        "eng": "He was charged with racketeering.",
+        "ru": "Он был обвинён в рэкете.",
+        "learn": 0
+      },
+      {
+        "eng": "He's been charged with tax fraud.",
+        "ru": "Его обвиняют в налоговом мошенничестве.",
+        "learn": 0
+      },
+      {
+        "eng": "They charge him with armed robbery.",
+        "ru": "Они обвиняют его в вооружённом ограблении.",
+        "learn": 1
+      },
+      {
+        "eng": "He was charged with resisting arrest.",
+        "ru": "Ему было предъявлено обвинение в сопротивлении при аресте.",
+        "learn": 0
+      },
+      {
+        "eng": "He is charged with attempted robbery.",
+        "ru": "Он обвиняется в попытке ограбления.",
+        "learn": 0
+      },
+      {
+        "eng": "The wire is charged with electricity.",
+        "ru": "Этот провод под напряжением.",
+        "learn": 0
+      },
+      {
+        "eng": "The music is charged with excitement.",
+        "ru": "Вся эта музыка проникнута трепетом.",
+        "learn": 0
+      },
+      {
+        "eng": "Gibbons has been charged with murder.",
+        "ru": "Гиббонсу предъявили обвинение в убийстве.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested and charged with rape.",
+        "ru": "Он был арестован и обвинён в изнасиловании.",
+        "learn": 0
+      },
+      {
+        "eng": "The shortstop was charged with an error.",
+        "ru": "На счёт шортстопа записали ошибку. (о бейсболе)",
+        "learn": 0
+      },
+      {
+        "eng": "He was charged with two counts of theft.",
+        "ru": "Ему было предъявлено обвинение по двум эпизодам краж.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested and charged with murder.",
+        "ru": "Он был арестован и обвинён в убийстве.",
+        "learn": 0
+      },
+      {
+        "eng": "He was charged with assault and battery.",
+        "ru": "Ему было предъявлено обвинение в нападении с нанесением побоев.",
+        "learn": 0
+      },
+      {
+        "eng": "He was charged with treason and beheaded.",
+        "ru": "Он был обвинён в государственной измене и обезглавлен.",
+        "learn": 0
+      },
+      {
+        "eng": "She's charged with misusing company funds.",
+        "ru": "Её обвиняют в нецелевом расходовании средств компании.",
+        "learn": 0
+      },
+      {
+        "eng": "He was charged with voluntary manslaughter.",
+        "ru": "Ему было предъявлено обвинение в умышленном убийстве.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested and charged with extortion.",
+        "ru": "Его арестовали и предъявили обвинение в вымогательстве.",
+        "learn": 0
+      },
+      {
+        "eng": "The parents were charged with child neglect.",
+        "ru": "Родителям предъявили обвинение в невыполнении обязанностей в отношении ребёнка.",
+        "learn": 0
+      },
+      {
+        "eng": "He has been charged with attempted burglary.",
+        "ru": "Ему предъявлено обвинение в попытке кражи со взломом.",
+        "learn": 0
+      },
+      {
+        "eng": "He was charged with trying to resist arrest.",
+        "ru": "Ему было предъявлено обвинение в попытке оказать сопротивление при аресте.",
+        "learn": 0
+      },
+      {
+        "eng": "They were charged with conspiracy to defraud.",
+        "ru": "Им было предъявлено обвинение в сговоре с целью мошенничества.",
+        "learn": 0
+      },
+      {
+        "eng": "They were charged with handling stolen goods.",
+        "ru": "Им были предъявлены обвинения в хранении краденого имущества.",
+        "learn": 0
+      },
+      {
+        "eng": "They are charged with using forged documents.",
+        "ru": "Их обвиняют в использовании фальшивых документов.",
+        "learn": 0
+      },
+      {
+        "eng": "The basketball player was charged with a foul.",
+        "ru": "Баскетболисту присудили фол.",
+        "learn": 0
+      },
+      {
+        "eng": "They were charged with obstruction of justice.",
+        "ru": "Их обвинили в препятствии правосудию.",
+        "learn": 0
+      },
+      {
+        "eng": "Bennet was charged with handling stolen goods.",
+        "ru": "Беннета обвинили в укрывательстве краденого.",
+        "learn": 0
+      },
+      {
+        "eng": "They were charged with inciting racial hatred.",
+        "ru": "Им предъявили обвинение в разжигании расовой ненависти.",
+        "learn": 0
+      },
+      {
+        "eng": "The room was charged with tension and anxiety.",
+        "ru": "Комната была наполнена напряжением и тревогой.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner is charged with attempted robbery.",
+        "ru": "Заключённый обвиняется в попытке ограбления.",
+        "learn": 0
+      }
+    ]
+  }
 }

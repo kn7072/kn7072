@@ -1,81 +1,167 @@
 {
-    "grammar": {
-        "comment": [
-            "gram",
-            "grammatical"
-        ],
-        "translate": "грамматика, учебник грамматики, грамматические навыки, введение в науку",
-        "transcription": " |ˈɡræmər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "English grammar",
-            "I hate it when she corrects my grammar.",
-            "He slips in his grammar.",
-            "Check your spelling and grammar.",
-            "Her bad grammar pipped her.",
-            "My teacher is finicky about grammar.",
-            "The book is a descriptive grammar.",
-            "She's very punctilious about grammar.",
-            "English grammar can be hard to master.",
-            "He developed a version of slot grammar.",
-            "We're being tested on grammar tomorrow.",
-            "The grammar of the film was established.",
-            "Our teacher will not tolerate bad grammar.",
-            "attractive grammar books for adult learners",
-            "His will is an extraordinary mash of grammar.",
-            "comparing the grammars of English and Japanese",
-            "I know some German, but my grammar isn't very good.",
-            "His vocabulary was sound and his grammar excellent.",
-            "She speaks quite fluently but she's weak on grammar.",
-            "My Russian course is heavily oriented towards grammar.",
-            "He doesn't have mastery of the basic rules of grammar.",
-            "A dictionary lists the words, a grammar states the rules.",
-            "A lecture on transformational grammar? I can hardly wait!",
-            "The best students were creamed off by the grammar schools.",
-            "Students at this level may have problems with basic grammar.",
-            "Rules of grammar are more problematic for non-native speakers.",
-            "Students learn to edit their essays for grammar and punctuation.",
-            "A gold medal is given to the dux of the Aberdeen grammar school.",
-            "The grammar schools were assuredly not intended for the gentry alone",
-            "He might have studied the pure grammar of his art for a longer time."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "английская грамматика",
-            "Терпеть не могу, когда она поправляет мою грамматику.",
-            "Он делает грамматические ошибки.",
-            "Проверьте свои правописание и грамматику .",
-            "Грамматика подвела её.",
-            "Мой учитель всегда придирается к грамматике.",
-            "Книга представляет собой описательную грамматику.",
-            "Она очень щепетильна в плане грамматики.",
-            "Английская грамматика порой даётся нелегко.",
-            "Он разработал один из вариантов слот-грамматики /грамматики вапентностей/.",
-            "У нас завтра контрольная по грамматике.",
-            "Были определены основные принципы фильма.",
-            "Наш учитель не будет мириться с грамматическими ошибками.",
-            "привлекательные учебники грамматики для взрослых",
-            "Его завещание - это поразительная каша из слов и предложений.",
-            "сравнение английской грамматики с японской",
-            "Я немного знаю немецкий, но с грамматикой у меня не очень хорошо.",
-            "У него был большой словарный запас и блестящее знание грамматики.",
-            "Она говорит вполне бегло, но грамматика у неё слабая.",
-            "Изучая русский язык, я делаю особенный акцент на освоении грамматики.",
-            "Он не знает основных правил грамматики.",
-            "Словарь содержит список слов, а грамматика — свод правил.",
-            "Лекция по трансформационной грамматике? Прямо жду не дождусь!",
-            "Классические средние школы отобрали лучших учеников.",
-            "На этом уровне у учеников могут быть трудности с базовой грамматикой.",
-            "Грамматические правила вызывают больше затруднений у тех, кто не является носителем языка.",
-            "Студенты учатся проверять свои сочинения на наличие грамматических и пунктуационных ошибок.",
-            "Первому ученику средней школы в Абердине выдана золотая медаль.",
-            "Гимназии, конечно, были предназначены не только для дворян.",
-            "Он, наверно, гораздо дольше изучал основы своего искусства."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "grammar": {
+    "comment": [
+      "gram",
+      "grammatical"
+    ],
+    "translate": "грамматика, учебник грамматики, грамматические навыки, введение в науку",
+    "transcription": " |ˈɡræmər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "English grammar",
+        "ru": "английская грамматика",
+        "learn": 0
+      },
+      {
+        "eng": "I hate it when she corrects my grammar.",
+        "ru": "Терпеть не могу, когда она поправляет мою грамматику.",
+        "learn": 1
+      },
+      {
+        "eng": "He slips in his grammar.",
+        "ru": "Он делает грамматические ошибки.",
+        "learn": 0
+      },
+      {
+        "eng": "Check your spelling and grammar.",
+        "ru": "Проверьте свои правописание и грамматику .",
+        "learn": 0
+      },
+      {
+        "eng": "Her bad grammar pipped her.",
+        "ru": "Грамматика подвела её.",
+        "learn": 0
+      },
+      {
+        "eng": "My teacher is finicky about grammar.",
+        "ru": "Мой учитель всегда придирается к грамматике.",
+        "learn": 0
+      },
+      {
+        "eng": "The book is a descriptive grammar.",
+        "ru": "Книга представляет собой описательную грамматику.",
+        "learn": 0
+      },
+      {
+        "eng": "She's very punctilious about grammar.",
+        "ru": "Она очень щепетильна в плане грамматики.",
+        "learn": 0
+      },
+      {
+        "eng": "English grammar can be hard to master.",
+        "ru": "Английская грамматика порой даётся нелегко.",
+        "learn": 1
+      },
+      {
+        "eng": "He developed a version of slot grammar.",
+        "ru": "Он разработал один из вариантов слот-грамматики /грамматики вапентностей/.",
+        "learn": 0
+      },
+      {
+        "eng": "We're being tested on grammar tomorrow.",
+        "ru": "У нас завтра контрольная по грамматике.",
+        "learn": 0
+      },
+      {
+        "eng": "The grammar of the film was established.",
+        "ru": "Были определены основные принципы фильма.",
+        "learn": 0
+      },
+      {
+        "eng": "Our teacher will not tolerate bad grammar.",
+        "ru": "Наш учитель не будет мириться с грамматическими ошибками.",
+        "learn": 1
+      },
+      {
+        "eng": "attractive grammar books for adult learners",
+        "ru": "привлекательные учебники грамматики для взрослых",
+        "learn": 0
+      },
+      {
+        "eng": "His will is an extraordinary mash of grammar.",
+        "ru": "Его завещание - это поразительная каша из слов и предложений.",
+        "learn": 0
+      },
+      {
+        "eng": "comparing the grammars of English and Japanese",
+        "ru": "сравнение английской грамматики с японской",
+        "learn": 0
+      },
+      {
+        "eng": "I know some German, but my grammar isn't very good.",
+        "ru": "Я немного знаю немецкий, но с грамматикой у меня не очень хорошо.",
+        "learn": 0
+      },
+      {
+        "eng": "His vocabulary was sound and his grammar excellent.",
+        "ru": "У него был большой словарный запас и блестящее знание грамматики.",
+        "learn": 0
+      },
+      {
+        "eng": "She speaks quite fluently but she's weak on grammar.",
+        "ru": "Она говорит вполне бегло, но грамматика у неё слабая.",
+        "learn": 0
+      },
+      {
+        "eng": "My Russian course is heavily oriented towards grammar.",
+        "ru": "Изучая русский язык, я делаю особенный акцент на освоении грамматики.",
+        "learn": 0
+      },
+      {
+        "eng": "He doesn't have mastery of the basic rules of grammar.",
+        "ru": "Он не знает основных правил грамматики.",
+        "learn": 0
+      },
+      {
+        "eng": "A dictionary lists the words, a grammar states the rules.",
+        "ru": "Словарь содержит список слов, а грамматика — свод правил.",
+        "learn": 0
+      },
+      {
+        "eng": "A lecture on transformational grammar? I can hardly wait!",
+        "ru": "Лекция по трансформационной грамматике? Прямо жду не дождусь!",
+        "learn": 0
+      },
+      {
+        "eng": "The best students were creamed off by the grammar schools.",
+        "ru": "Классические средние школы отобрали лучших учеников.",
+        "learn": 0
+      },
+      {
+        "eng": "Students at this level may have problems with basic grammar.",
+        "ru": "На этом уровне у учеников могут быть трудности с базовой грамматикой.",
+        "learn": 0
+      },
+      {
+        "eng": "Rules of grammar are more problematic for non-native speakers.",
+        "ru": "Грамматические правила вызывают больше затруднений у тех, кто не является носителем языка.",
+        "learn": 0
+      },
+      {
+        "eng": "Students learn to edit their essays for grammar and punctuation.",
+        "ru": "Студенты учатся проверять свои сочинения на наличие грамматических и пунктуационных ошибок.",
+        "learn": 0
+      },
+      {
+        "eng": "A gold medal is given to the dux of the Aberdeen grammar school.",
+        "ru": "Первому ученику средней школы в Абердине выдана золотая медаль.",
+        "learn": 0
+      },
+      {
+        "eng": "The grammar schools were assuredly not intended for the gentry alone",
+        "ru": "Гимназии, конечно, были предназначены не только для дворян.",
+        "learn": 0
+      },
+      {
+        "eng": "He might have studied the pure grammar of his art for a longer time.",
+        "ru": "Он, наверно, гораздо дольше изучал основы своего искусства.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,85 +1,172 @@
 {
-    "acid": {
-        "comment": [
-            "facility",
-            "facilitate"
-        ],
-        "translate": "кислота, ЛСД, язвительность, ехидство, кислотный, кислый, едкий, язвительный",
-        "transcription": " |ˈæsɪd|",
-        "antonyms": [],
-        "mnemonic": [
-            "acid [эси'д] кислота - Меня (б-есид) от кислоты этой.",
-            "acid ['æsɪd]\n***\nКИСЛОТУ он содой гасит. (это) acid\n***\nОт аскорбиновой кислоты \"acid\",\nстал твой характер спокойный \"placid\"."
-        ],
-        "examples": [
-            "Acid attacks metals.",
-            "I burned my skin with the acid.",
-            "This movie critic has an acid wit.",
-            "a juicy apple with a slightly acid flavour",
-            "The juice of lemons yields citric acid.",
-            "Citric acid can be extracted from the juice of oranges, lemons, or grapefruit.",
-            "Acid bites into metals.",
-            "She dropped acid when she was a teenager.",
-            "He was on an acid trip.",
-            "These wines may taste rather hard and somewhat acid.",
-            "This comedy of contemporary manners is told with compassion and acid humour.",
-            "Blueberry bushes need a very acid soil.",
-            "Acid rain has a devastating effect on the forest.",
-            "These shrubs must have an acid, lime-free soil.",
-            "I was pushed tons of good acid that time, really cheap.",
-            "All we had was acid and grass. Booze is a lot worse for you.",
-            "Because of pollution, this lake is now too acid to support fish.",
-            "People ask if the team is good enough. This match will be the acid test.",
-            "a product of lime and nitric acid",
-            "Amino acid is synthesized in the body.",
-            "She soaked the etching in an acid bath.",
-            "Fluoric acid acts destructively upon glass.",
-            "The acid distills at a specific temperature.",
-            "Litmus paper turns red on contact with an acid.",
-            "Acid eats into the metal, damaging its surface.",
-            "These drugs may elevate acid levels in the blood.",
-            "a dilute acid that's safe to handle in the classroom",
-            "Acetic acid is the chief active ingredient in vinegar.",
-            "The belief that soda is made out of acid is just piffle.",
-            "This chemical substance can he resolved into an acid and oxygen."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Кислота разъедает металлы.",
-            "Я обжёгся кислотой.",
-            "У этого кинокритика злой язык.",
-            "сочное яблоко с кисловатым вкусом",
-            "Сок лимона содержит лимонную кислоту.",
-            "Лимонная кислота может быть извлечена из сока апельсинов, лимонов или грейпфрутов.",
-            "Кислота разъедает металлы.",
-            "Она глотала \"кислоту\", когда была подростком. (сл. drop — принимать препараты через рот)",
-            "Он трипповал под ЛСД. / Он был под кислотой. / У него был кислотный трип.",
-            "У этих вин довольно терпкий и несколько кисловатый вкус.",
-            "Эта комедия современных нравов написана с сочувствием и язвительным юмором.",
-            "Черничным кустам нужна очень кислая почва.",
-            "Кислотные дожди оказывают губительное воздействие на лес.",
-            "Для этих кустов требуется кислая, неизвестковая почва.",
-            "Тогда мне продали много хорошей кислоты, и совсем недорого.",
-            "Всё, что мы себе позволяли, это кислота и травка. Пить гораздо хуже.",
-            "Из-за загрязнения это озеро стало слишком кислотным, чтобы в нём могла водиться рыба.",
-            "Люди спрашивают, достаточно ли хороша эта команда. Этот матч и станет лакмусовой бумажкой.",
-            "продукт реакции извести и азотной кислоты",
-            "Аминокислота синтезируется в организме.",
-            "Она погрузила гравюру в ванну с кислотой.",
-            "Фтористая кислота разрушительно воздействует на стекло.",
-            "Кислота конденсируется при определённой температуре.",
-            "Лакмусовая бумага краснеет при контакте с кислотой.",
-            "Кислота разъедает металл и повреждает его поверхность.",
-            "Эти препараты могут повысить уровень кислоты в крови.",
-            "разбавленная кислота, с которой можно безопасно работать на уроках",
-            "Основным действующим веществом уксуса является уксусная кислота.",
-            "Мнение о том, что газировка производится из кислот — просто ерунда.",
-            "Это вещество распадается на кислоту и кислород."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "a(отк_сл)_=_[æ]"
-        ]
-    }
+  "acid": {
+    "comment": [
+      "facility",
+      "facilitate"
+    ],
+    "translate": "кислота, ЛСД, язвительность, ехидство, кислотный, кислый, едкий, язвительный",
+    "transcription": " |ˈæsɪd|",
+    "antonyms": [],
+    "mnemonic": [
+      "acid [эси'д] кислота - Меня (б-есид) от кислоты этой.",
+      "acid ['æsɪd]\n***\nКИСЛОТУ он содой гасит. (это) acid\n***\nОт аскорбиновой кислоты \"acid\",\nстал твой характер спокойный \"placid\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "a(отк_сл)_=_[æ]"
+    ],
+    "examples": [
+      {
+        "eng": "Acid attacks metals.",
+        "ru": "Кислота разъедает металлы.",
+        "learn": 0
+      },
+      {
+        "eng": "I burned my skin with the acid.",
+        "ru": "Я обжёгся кислотой.",
+        "learn": 1
+      },
+      {
+        "eng": "This movie critic has an acid wit.",
+        "ru": "У этого кинокритика злой язык.",
+        "learn": 0
+      },
+      {
+        "eng": "a juicy apple with a slightly acid flavour",
+        "ru": "сочное яблоко с кисловатым вкусом",
+        "learn": 1
+      },
+      {
+        "eng": "The juice of lemons yields citric acid.",
+        "ru": "Сок лимона содержит лимонную кислоту.",
+        "learn": 0
+      },
+      {
+        "eng": "Citric acid can be extracted from the juice of oranges, lemons, or grapefruit.",
+        "ru": "Лимонная кислота может быть извлечена из сока апельсинов, лимонов или грейпфрутов.",
+        "learn": 0
+      },
+      {
+        "eng": "Acid bites into metals.",
+        "ru": "Кислота разъедает металлы.",
+        "learn": 0
+      },
+      {
+        "eng": "She dropped acid when she was a teenager.",
+        "ru": "Она глотала \"кислоту\", когда была подростком. (сл. drop — принимать препараты через рот)",
+        "learn": 0
+      },
+      {
+        "eng": "He was on an acid trip.",
+        "ru": "Он трипповал под ЛСД. / Он был под кислотой. / У него был кислотный трип.",
+        "learn": 0
+      },
+      {
+        "eng": "These wines may taste rather hard and somewhat acid.",
+        "ru": "У этих вин довольно терпкий и несколько кисловатый вкус.",
+        "learn": 0
+      },
+      {
+        "eng": "This comedy of contemporary manners is told with compassion and acid humour.",
+        "ru": "Эта комедия современных нравов написана с сочувствием и язвительным юмором.",
+        "learn": 0
+      },
+      {
+        "eng": "Blueberry bushes need a very acid soil.",
+        "ru": "Черничным кустам нужна очень кислая почва.",
+        "learn": 0
+      },
+      {
+        "eng": "Acid rain has a devastating effect on the forest.",
+        "ru": "Кислотные дожди оказывают губительное воздействие на лес.",
+        "learn": 1
+      },
+      {
+        "eng": "These shrubs must have an acid, lime-free soil.",
+        "ru": "Для этих кустов требуется кислая, неизвестковая почва.",
+        "learn": 0
+      },
+      {
+        "eng": "I was pushed tons of good acid that time, really cheap.",
+        "ru": "Тогда мне продали много хорошей кислоты, и совсем недорого.",
+        "learn": 0
+      },
+      {
+        "eng": "All we had was acid and grass. Booze is a lot worse for you.",
+        "ru": "Всё, что мы себе позволяли, это кислота и травка. Пить гораздо хуже.",
+        "learn": 0
+      },
+      {
+        "eng": "Because of pollution, this lake is now too acid to support fish.",
+        "ru": "Из-за загрязнения это озеро стало слишком кислотным, чтобы в нём могла водиться рыба.",
+        "learn": 0
+      },
+      {
+        "eng": "People ask if the team is good enough. This match will be the acid test.",
+        "ru": "Люди спрашивают, достаточно ли хороша эта команда. Этот матч и станет лакмусовой бумажкой.",
+        "learn": 0
+      },
+      {
+        "eng": "a product of lime and nitric acid",
+        "ru": "продукт реакции извести и азотной кислоты",
+        "learn": 0
+      },
+      {
+        "eng": "Amino acid is synthesized in the body.",
+        "ru": "Аминокислота синтезируется в организме.",
+        "learn": 0
+      },
+      {
+        "eng": "She soaked the etching in an acid bath.",
+        "ru": "Она погрузила гравюру в ванну с кислотой.",
+        "learn": 0
+      },
+      {
+        "eng": "Fluoric acid acts destructively upon glass.",
+        "ru": "Фтористая кислота разрушительно воздействует на стекло.",
+        "learn": 0
+      },
+      {
+        "eng": "The acid distills at a specific temperature.",
+        "ru": "Кислота конденсируется при определённой температуре.",
+        "learn": 0
+      },
+      {
+        "eng": "Litmus paper turns red on contact with an acid.",
+        "ru": "Лакмусовая бумага краснеет при контакте с кислотой.",
+        "learn": 0
+      },
+      {
+        "eng": "Acid eats into the metal, damaging its surface.",
+        "ru": "Кислота разъедает металл и повреждает его поверхность.",
+        "learn": 1
+      },
+      {
+        "eng": "These drugs may elevate acid levels in the blood.",
+        "ru": "Эти препараты могут повысить уровень кислоты в крови.",
+        "learn": 0
+      },
+      {
+        "eng": "a dilute acid that's safe to handle in the classroom",
+        "ru": "разбавленная кислота, с которой можно безопасно работать на уроках",
+        "learn": 0
+      },
+      {
+        "eng": "Acetic acid is the chief active ingredient in vinegar.",
+        "ru": "Основным действующим веществом уксуса является уксусная кислота.",
+        "learn": 0
+      },
+      {
+        "eng": "The belief that soda is made out of acid is just piffle.",
+        "ru": "Мнение о том, что газировка производится из кислот — просто ерунда.",
+        "learn": 0
+      },
+      {
+        "eng": "This chemical substance can he resolved into an acid and oxygen.",
+        "ru": "Это вещество распадается на кислоту и кислород.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,86 +1,175 @@
 {
-    "fight": {
-        "comment": [
-            "fighting",
-            "fighter"
-        ],
-        "translate": "борьба, бой, сражение, драка, спор, мордобой, бороться, сражаться, воевать, драться",
-        "transcription": " |faɪt|",
-        "antonyms": [],
-        "mnemonic": [
-            "fight [файт] борьба - Поставь пулемет на (файт-он) и борись с врагом.",
-            "fight [faıt]\n***\nОн СРАЖАЕТСЯ - не зевает. (это) fight\nОн ДЕРЁТСЯ - не зевает. (это) fight\nБой, драка, спор, борьба.\n***\nТы не пугайся \"fright\",\nкогда сражаешься \"fight\",\nза дело правое \"right\".",
-            "fright [fraɪt]\nright [raɪt]\nfight [faıt]\n***\nНе ПУГАЙСЯ - выпей спрайт. (это) fright\nИСПУГАЛСЯ - удирает. (это) fright\nИспуг.\n***\nЕсли испугался \"fright\" - беги направо \"right\".\n***\nВыбирай: пугаться \"fright\"\nили сражаться \"fight\"."
-        ],
-        "examples": [
-            "He fought like a tiger.",
-            "She fought her fear.",
-            "They fought like heroes.",
-            "Don't fight it!",
-            "That cock won't fight.",
-            "One blow decided the fight.",
-            "He was still full of fight.",
-            "The police broke up the fight.",
-            "They were fighting over a girl.",
-            "He's a good ally in fight.",
-            "pick a fight or a quarrel",
-            "Siblings are always fighting.",
-            "I'm not strong enough to fight him.",
-            "The fight spoiled the party.",
-            "The dogs were fighting over a bone.",
-            "It was a fight to the finish.",
-            "He wasn't manly enough to fight.",
-            "The team was full of fight.",
-            "too yellow to stand and fight",
-            "We left them to fight it out.",
-            "He was trying to pick a fight.",
-            "He had no stomach for a fight.",
-            "The fight ended in a knockout.",
-            "Fight against them that fight against me.",
-            "He was itching for a fight.",
-            "He is spoiling for a fight.",
-            "A fight broke out in the bar.",
-            "They needled us into a fight.",
-            "Our team put up a good fight.",
-            "The referee stopped the fight."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он дрался, как тигр.",
-            "Она боролась со своим страхом.",
-            "Они сражались как герои.",
-            "Не боритесь с этим! / Не сопротивляйся этому!",
-            "Этот номер не пройдет! (поговорка, досл. — \"этот петух драться не будет\")",
-            "Исход боя решил один удар.",
-            "Он был всё ещё полон боевого задора.",
-            "Полиция прекратила драку.",
-            "Они дрались из-за девушки.",
-            "Он хороший союзник в борьбе.",
-            "начать драку или ссору",
-            "Братья и сёстры всегда дерутся.",
-            "Мне не хватает сил, чтобы с ним бороться /драться/.",
-            "Драка испортила вечеринку.",
-            "Собаки дрались за косточку.",
-            "Это была борьба до победного конца.",
-            "Он не был достаточно мужественным, чтобы бороться.",
-            "Команда горела желанием борьбы.",
-            "слишком трусливые, чтобы встать и бороться",
-            "Мы оставили их выяснять отношения до конца.",
-            "Он пытался устроить драку.",
-            "Драться ему не хотелось.",
-            "Бой завершился нокаутом.",
-            "Сражайтесь с теми, кто сражается против меня.",
-            "Ему не терпелось подраться.",
-            "Он рвётся в бой. / Он нарывается на ссору.",
-            "В баре произошла драка.",
-            "Они подстрекали нас вступить в драку.",
-            "Наша команда отважно сражалась.",
-            "Рефери остановил бой."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "gh_=_[_]_(ght_-_[t])"
-        ]
-    }
+  "fight": {
+    "comment": [
+      "fought |fɔːt|,                                          fought |fɔːt|",
+      "fighting",
+      "fighter"
+    ],
+    "translate": "борьба, бой, сражение, драка, спор, мордобой, бороться, сражаться, воевать, драться",
+    "transcription": " |faɪt|",
+    "antonyms": [],
+    "mnemonic": [
+      "fight [файт] борьба - Поставь пулемет на (файт-он) и борись с врагом.",
+      "fight [faıt]\n***\nОн СРАЖАЕТСЯ - не зевает. (это) fight\nОн ДЕРЁТСЯ - не зевает. (это) fight\nБой, драка, спор, борьба.\n***\nТы не пугайся \"fright\",\nкогда сражаешься \"fight\",\nза дело правое \"right\".",
+      "fright [fraɪt]\nright [raɪt]\nfight [faıt]\n***\nНе ПУГАЙСЯ - выпей спрайт. (это) fright\nИСПУГАЛСЯ - удирает. (это) fright\nИспуг.\n***\nЕсли испугался \"fright\" - беги направо \"right\".\n***\nВыбирай: пугаться \"fright\"\nили сражаться \"fight\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "gh_=_[_]_(ght_-_[t])",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "He fought like a tiger.",
+        "ru": "Он дрался, как тигр.",
+        "learn": 1
+      },
+      {
+        "eng": "She fought her fear.",
+        "ru": "Она боролась со своим страхом.",
+        "learn": 0
+      },
+      {
+        "eng": "They fought like heroes.",
+        "ru": "Они сражались как герои.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't fight it!",
+        "ru": "Не боритесь с этим! / Не сопротивляйся этому!",
+        "learn": 0
+      },
+      {
+        "eng": "That cock won't fight.",
+        "ru": "Этот номер не пройдет! (поговорка, досл. — \"этот петух драться не будет\")",
+        "learn": 0
+      },
+      {
+        "eng": "One blow decided the fight.",
+        "ru": "Исход боя решил один удар.",
+        "learn": 0
+      },
+      {
+        "eng": "He was still full of fight.",
+        "ru": "Он был всё ещё полон боевого задора.",
+        "learn": 0
+      },
+      {
+        "eng": "The police broke up the fight.",
+        "ru": "Полиция прекратила драку.",
+        "learn": 0
+      },
+      {
+        "eng": "They were fighting over a girl.",
+        "ru": "Они дрались из-за девушки.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a good ally in fight.",
+        "ru": "Он хороший союзник в борьбе.",
+        "learn": 0
+      },
+      {
+        "eng": "pick a fight or a quarrel",
+        "ru": "начать драку или ссору",
+        "learn": 0
+      },
+      {
+        "eng": "Siblings are always fighting.",
+        "ru": "Братья и сёстры всегда дерутся.",
+        "learn": 1
+      },
+      {
+        "eng": "I'm not strong enough to fight him.",
+        "ru": "Мне не хватает сил, чтобы с ним бороться /драться/.",
+        "learn": 0
+      },
+      {
+        "eng": "The fight spoiled the party.",
+        "ru": "Драка испортила вечеринку.",
+        "learn": 0
+      },
+      {
+        "eng": "The dogs were fighting over a bone.",
+        "ru": "Собаки дрались за косточку.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a fight to the finish.",
+        "ru": "Это была борьба до победного конца.",
+        "learn": 0
+      },
+      {
+        "eng": "He wasn't manly enough to fight.",
+        "ru": "Он не был достаточно мужественным, чтобы бороться.",
+        "learn": 0
+      },
+      {
+        "eng": "The team was full of fight.",
+        "ru": "Команда горела желанием борьбы.",
+        "learn": 0
+      },
+      {
+        "eng": "too yellow to stand and fight",
+        "ru": "слишком трусливые, чтобы встать и бороться",
+        "learn": 0
+      },
+      {
+        "eng": "We left them to fight it out.",
+        "ru": "Мы оставили их выяснять отношения до конца.",
+        "learn": 0
+      },
+      {
+        "eng": "He was trying to pick a fight.",
+        "ru": "Он пытался устроить драку.",
+        "learn": 0
+      },
+      {
+        "eng": "He had no stomach for a fight.",
+        "ru": "Драться ему не хотелось.",
+        "learn": 0
+      },
+      {
+        "eng": "The fight ended in a knockout.",
+        "ru": "Бой завершился нокаутом.",
+        "learn": 0
+      },
+      {
+        "eng": "Fight against them that fight against me.",
+        "ru": "Сражайтесь с теми, кто сражается против меня.",
+        "learn": 1
+      },
+      {
+        "eng": "He was itching for a fight.",
+        "ru": "Ему не терпелось подраться.",
+        "learn": 0
+      },
+      {
+        "eng": "He is spoiling for a fight.",
+        "ru": "Он рвётся в бой. / Он нарывается на ссору.",
+        "learn": 0
+      },
+      {
+        "eng": "A fight broke out in the bar.",
+        "ru": "В баре произошла драка.",
+        "learn": 0
+      },
+      {
+        "eng": "They needled us into a fight.",
+        "ru": "Они подстрекали нас вступить в драку.",
+        "learn": 0
+      },
+      {
+        "eng": "Our team put up a good fight.",
+        "ru": "Наша команда отважно сражалась.",
+        "learn": 0
+      },
+      {
+        "eng": "The referee stopped the fight.",
+        "ru": "Рефери остановил бой.",
+        "learn": 0
+      }
+    ]
+  }
 }

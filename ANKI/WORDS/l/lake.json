@@ -1,80 +1,166 @@
 {
-    "lake": {
-        "comment": [],
-        "translate": "озеро, красочный лак",
-        "transcription": " |leɪk|",
-        "antonyms": [],
-        "mnemonic": [
-            "lake [лейк] озеро - (Лейк-ой) озеро налей."
-        ],
-        "examples": [
-            "Lake Country",
-            "The road skirted the lake.",
-            "The Great Lakes",
-            "She rowed across the lake.",
-            "the blue waters of the lake",
-            "Let's go boating on the lake.",
-            "Lake Michigan",
-            "Most of the lake was in shadow.",
-            "Lake of Zurich",
-            "Let's take a dip in the lake.",
-            "The lake thawed in March.",
-            "They have a house by the lake.",
-            "The child drowned in the lake.",
-            "The autumn sun gilded the lake.",
-            "Seines were set in the water just before the ice \"took\" on the lake or river.",
-            "The lake has frozen over.",
-            "Lake Constance",
-            "The lake serves recreation",
-            "a quick plunge in the lake",
-            "The lake was frozen solid.",
-            "The lake is lapped in woods.",
-            "He bought a lot on the lake.",
-            "The river drains into a lake.",
-            "the placid surface of the lake",
-            "Europe's largest man-made lake",
-            "the southern shore of the lake",
-            "The lake had frozen overnight.",
-            "the glassy surface of the lake",
-            "The lake was dotted with boats.",
-            "She could swim across the lake."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Озёрный край (на северо-западе Англии)",
-            "Дорога шла по берегу озера.",
-            "Великие озера (Верхнее, Гурон, Мичиган, Эри и Онтарио)",
-            "Она переплыла озеро на лодке.",
-            "голубые воды озера",
-            "Давайте покатаемся в лодке по озеру.",
-            "озеро Мичиган",
-            "Большая часть озера была в тени.",
-            "Цюрихское озеро",
-            "Давайте искупаемся в озере.",
-            "Озеро оттаяло в марте.",
-            "У них есть дом на берегу озера.",
-            "Ребенок утонул в озере.",
-            "Осеннее солнце позолотило озеро.",
-            "Перед самым замерзанием озера или реки в воду ставились сети.",
-            "Озеро покрылось льдом.",
-            "Констанцкое озеро",
-            "Озеро служит местом отдыха",
-            "быстрое погружение в озеро",
-            "Озеро полностью промёрзло.",
-            "Озеро окружено лесами.",
-            "Он купил участок на озере.",
-            "Река впадает в озеро.",
-            "безмятежная гладь озера",
-            "самое большое рукотворное / искусственное озеро Европы",
-            "южный берег озера",
-            "За ночь озеро (уже) замёрзло.",
-            "зеркальная гладь озера",
-            "Озеро было усеяно лодками.",
-            "Она могла переплыть через озеро."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "lake": {
+    "comment": [],
+    "translate": "озеро, красочный лак",
+    "transcription": " |leɪk|",
+    "antonyms": [],
+    "mnemonic": [
+      "lake [лейк] озеро - (Лейк-ой) озеро налей."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Lake Country",
+        "ru": "Озёрный край (на северо-западе Англии)",
+        "learn": 0
+      },
+      {
+        "eng": "The road skirted the lake.",
+        "ru": "Дорога шла по берегу озера.",
+        "learn": 0
+      },
+      {
+        "eng": "The Great Lakes",
+        "ru": "Великие озера (Верхнее, Гурон, Мичиган, Эри и Онтарио)",
+        "learn": 0
+      },
+      {
+        "eng": "She rowed across the lake.",
+        "ru": "Она переплыла озеро на лодке.",
+        "learn": 0
+      },
+      {
+        "eng": "the blue waters of the lake",
+        "ru": "голубые воды озера",
+        "learn": 0
+      },
+      {
+        "eng": "Let's go boating on the lake.",
+        "ru": "Давайте покатаемся в лодке по озеру.",
+        "learn": 0
+      },
+      {
+        "eng": "Lake Michigan",
+        "ru": "озеро Мичиган",
+        "learn": 0
+      },
+      {
+        "eng": "Most of the lake was in shadow.",
+        "ru": "Большая часть озера была в тени.",
+        "learn": 1
+      },
+      {
+        "eng": "Lake of Zurich",
+        "ru": "Цюрихское озеро",
+        "learn": 0
+      },
+      {
+        "eng": "Let's take a dip in the lake.",
+        "ru": "Давайте искупаемся в озере.",
+        "learn": 0
+      },
+      {
+        "eng": "The lake thawed in March.",
+        "ru": "Озеро оттаяло в марте.",
+        "learn": 0
+      },
+      {
+        "eng": "They have a house by the lake.",
+        "ru": "У них есть дом на берегу озера.",
+        "learn": 0
+      },
+      {
+        "eng": "The child drowned in the lake.",
+        "ru": "Ребенок утонул в озере.",
+        "learn": 1
+      },
+      {
+        "eng": "The autumn sun gilded the lake.",
+        "ru": "Осеннее солнце позолотило озеро.",
+        "learn": 0
+      },
+      {
+        "eng": "Seines were set in the water just before the ice \"took\" on the lake or river.",
+        "ru": "Перед самым замерзанием озера или реки в воду ставились сети.",
+        "learn": 0
+      },
+      {
+        "eng": "The lake has frozen over.",
+        "ru": "Озеро покрылось льдом.",
+        "learn": 0
+      },
+      {
+        "eng": "Lake Constance",
+        "ru": "Констанцкое озеро",
+        "learn": 0
+      },
+      {
+        "eng": "The lake serves recreation",
+        "ru": "Озеро служит местом отдыха",
+        "learn": 1
+      },
+      {
+        "eng": "a quick plunge in the lake",
+        "ru": "быстрое погружение в озеро",
+        "learn": 0
+      },
+      {
+        "eng": "The lake was frozen solid.",
+        "ru": "Озеро полностью промёрзло.",
+        "learn": 0
+      },
+      {
+        "eng": "The lake is lapped in woods.",
+        "ru": "Озеро окружено лесами.",
+        "learn": 0
+      },
+      {
+        "eng": "He bought a lot on the lake.",
+        "ru": "Он купил участок на озере.",
+        "learn": 0
+      },
+      {
+        "eng": "The river drains into a lake.",
+        "ru": "Река впадает в озеро.",
+        "learn": 1
+      },
+      {
+        "eng": "the placid surface of the lake",
+        "ru": "безмятежная гладь озера",
+        "learn": 0
+      },
+      {
+        "eng": "Europe's largest man-made lake",
+        "ru": "самое большое рукотворное / искусственное озеро Европы",
+        "learn": 0
+      },
+      {
+        "eng": "the southern shore of the lake",
+        "ru": "южный берег озера",
+        "learn": 0
+      },
+      {
+        "eng": "The lake had frozen overnight.",
+        "ru": "За ночь озеро (уже) замёрзло.",
+        "learn": 1
+      },
+      {
+        "eng": "the glassy surface of the lake",
+        "ru": "зеркальная гладь озера",
+        "learn": 0
+      },
+      {
+        "eng": "The lake was dotted with boats.",
+        "ru": "Озеро было усеяно лодками.",
+        "learn": 0
+      },
+      {
+        "eng": "She could swim across the lake.",
+        "ru": "Она могла переплыть через озеро.",
+        "learn": 0
+      }
+    ]
+  }
 }

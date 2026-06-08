@@ -1,83 +1,169 @@
 {
-    "job": {
-        "comment": [
-            "jobless"
-        ],
-        "translate": "работа, задание, выполнять задание, аккордный, наемный",
-        "transcription": " |dʒoʊb|",
-        "antonyms": [],
-        "mnemonic": [
-            "job [джоб] работа - Работа гомиков их (джоб-ой) выполняется.",
-            "job [dʒɔb]\n***\nРАБОТАТЬ будет Джо (б). (это) job\nРабота, труд.\nЧтобы он пошёл работать \"job\",\nего надо подтолкнуть \"jog\"."
-        ],
-        "examples": [
-            "She was working at two jobs.",
-            "Do you enjoy your job?",
-            "I'm looking for a new job.",
-            "He jobs as a gardener from time to time.",
-            "It was quite a job to find him.",
-            "His appointment was a job.",
-            "Right now I'm working on six jobs for US and UK clients.",
-            "He took a job as a waiter.",
-            "It's a dirty job, but someone has to do it.",
-            "He's been in the job for six years.",
-            "She's trying to get a job in New York.",
-            "I've applied for a job at the university.",
-            "Eventually, Mary got a job as a waitress.",
-            "She has a high-paying job on Wall Street.",
-            "The new factory will create thousands of jobs.",
-            "He gave it up as a bad job.",
-            "It is always a job to contact him.",
-            "They offered him the job but he turned it down.",
-            "They'll have a bit of a job getting here in this fog anyway.",
-            "It is their job to print the truth.",
-            "Raising kids can be a difficult job.",
-            "He really did a job on his opponent.",
-            "The barber did a real job on my hair.",
-            "It was the first paid job I ever had.",
-            "She did an outstanding job as Ophelia.",
-            "He never lacked a job for Giles to do.",
-            "Filleting fish can be quite a fiddly job.",
-            "He had never been able to hold down a job.",
-            "Oh Rick, you didn't quit your job did you?",
-            "The gang pulled off a bank job in St. Louis."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она работала на двух работах.",
-            "Вам нравится ваша работа?",
-            "Я ищу новую работу.",
-            "Время от времени он работает садовником.",
-            "Найти его было достаточно тяжело.",
-            "Он получил назначение по протекции.",
-            "В данный момент я работаю над шестью заказами американских и британских клиентов.",
-            "Он устроился на работу в качестве официанта.",
-            "Это грязная работа, но кто-то же должен её делать.",
-            "Он занимается этим в течение шести лет.",
-            "Она пытается найти работу в Нью-Йорке.",
-            "Я подал заявление /устроился/ на работу в университет.",
-            "В конце концов, Мэри устроилась официанткой.",
-            "У неё высокооплачиваемая работа на Уолл-Стрит.",
-            "Новый завод позволит создать тысячи рабочих мест.",
-            "Он махнул на это рукой. / Он бросил это гиблое дело.",
-            "Выйти с ним на связь — всегда непросто.",
-            "Ему предложили эту работу, но он отказался.",
-            "В любом случае, им будет нелегко добраться сюда в таком тумане.",
-            "Печатать правду — их обязанность.",
-            "Воспитывать детей порой нелегко.",
-            "Он здорово отделал своего соперника.",
-            "Парикмахер здорово поработал /славно потрудился/ над моей причёской.",
-            "Именно за эту работу мне впервые заплатили деньги.",
-            "Она замечательно исполнила роль Офелии.",
-            "Для Джайлса у него всегда находилась работа.",
-            "Разделка рыбы на филе порой довольно утомительна.",
-            "Ему ещё ни разу не удавалось удержаться на работе.",
-            "Рик, милый, ты же не бросил работу, правда? / Прошу тебя, Рик, только не говори, что уволился.",
-            "Эта банда ограбила банк в Сент-Луисе."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "job": {
+    "comment": [
+      "jobless"
+    ],
+    "translate": "работа, задание, выполнять задание, аккордный, наемный",
+    "transcription": " |dʒoʊb|",
+    "antonyms": [],
+    "mnemonic": [
+      "job [джоб] работа - Работа гомиков их (джоб-ой) выполняется.",
+      "job [dʒɔb]\n***\nРАБОТАТЬ будет Джо (б). (это) job\nРабота, труд.\nЧтобы он пошёл работать \"job\",\nего надо подтолкнуть \"jog\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She was working at two jobs.",
+        "ru": "Она работала на двух работах.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you enjoy your job?",
+        "ru": "Вам нравится ваша работа?",
+        "learn": 0
+      },
+      {
+        "eng": "I'm looking for a new job.",
+        "ru": "Я ищу новую работу.",
+        "learn": 0
+      },
+      {
+        "eng": "He jobs as a gardener from time to time.",
+        "ru": "Время от времени он работает садовником.",
+        "learn": 1
+      },
+      {
+        "eng": "It was quite a job to find him.",
+        "ru": "Найти его было достаточно тяжело.",
+        "learn": 0
+      },
+      {
+        "eng": "His appointment was a job.",
+        "ru": "Он получил назначение по протекции.",
+        "learn": 0
+      },
+      {
+        "eng": "Right now I'm working on six jobs for US and UK clients.",
+        "ru": "В данный момент я работаю над шестью заказами американских и британских клиентов.",
+        "learn": 0
+      },
+      {
+        "eng": "He took a job as a waiter.",
+        "ru": "Он устроился на работу в качестве официанта.",
+        "learn": 0
+      },
+      {
+        "eng": "It's a dirty job, but someone has to do it.",
+        "ru": "Это грязная работа, но кто-то же должен её делать.",
+        "learn": 0
+      },
+      {
+        "eng": "He's been in the job for six years.",
+        "ru": "Он занимается этим в течение шести лет.",
+        "learn": 0
+      },
+      {
+        "eng": "She's trying to get a job in New York.",
+        "ru": "Она пытается найти работу в Нью-Йорке.",
+        "learn": 0
+      },
+      {
+        "eng": "I've applied for a job at the university.",
+        "ru": "Я подал заявление /устроился/ на работу в университет.",
+        "learn": 0
+      },
+      {
+        "eng": "Eventually, Mary got a job as a waitress.",
+        "ru": "В конце концов, Мэри устроилась официанткой.",
+        "learn": 1
+      },
+      {
+        "eng": "She has a high-paying job on Wall Street.",
+        "ru": "У неё высокооплачиваемая работа на Уолл-Стрит.",
+        "learn": 0
+      },
+      {
+        "eng": "The new factory will create thousands of jobs.",
+        "ru": "Новый завод позволит создать тысячи рабочих мест.",
+        "learn": 1
+      },
+      {
+        "eng": "He gave it up as a bad job.",
+        "ru": "Он махнул на это рукой. / Он бросил это гиблое дело.",
+        "learn": 0
+      },
+      {
+        "eng": "It is always a job to contact him.",
+        "ru": "Выйти с ним на связь — всегда непросто.",
+        "learn": 0
+      },
+      {
+        "eng": "They offered him the job but he turned it down.",
+        "ru": "Ему предложили эту работу, но он отказался.",
+        "learn": 0
+      },
+      {
+        "eng": "They'll have a bit of a job getting here in this fog anyway.",
+        "ru": "В любом случае, им будет нелегко добраться сюда в таком тумане.",
+        "learn": 0
+      },
+      {
+        "eng": "It is their job to print the truth.",
+        "ru": "Печатать правду — их обязанность.",
+        "learn": 0
+      },
+      {
+        "eng": "Raising kids can be a difficult job.",
+        "ru": "Воспитывать детей порой нелегко.",
+        "learn": 0
+      },
+      {
+        "eng": "He really did a job on his opponent.",
+        "ru": "Он здорово отделал своего соперника.",
+        "learn": 0
+      },
+      {
+        "eng": "The barber did a real job on my hair.",
+        "ru": "Парикмахер здорово поработал /славно потрудился/ над моей причёской.",
+        "learn": 0
+      },
+      {
+        "eng": "It was the first paid job I ever had.",
+        "ru": "Именно за эту работу мне впервые заплатили деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "She did an outstanding job as Ophelia.",
+        "ru": "Она замечательно исполнила роль Офелии.",
+        "learn": 0
+      },
+      {
+        "eng": "He never lacked a job for Giles to do.",
+        "ru": "Для Джайлса у него всегда находилась работа.",
+        "learn": 0
+      },
+      {
+        "eng": "Filleting fish can be quite a fiddly job.",
+        "ru": "Разделка рыбы на филе порой довольно утомительна.",
+        "learn": 0
+      },
+      {
+        "eng": "He had never been able to hold down a job.",
+        "ru": "Ему ещё ни разу не удавалось удержаться на работе.",
+        "learn": 0
+      },
+      {
+        "eng": "Oh Rick, you didn't quit your job did you?",
+        "ru": "Рик, милый, ты же не бросил работу, правда? / Прошу тебя, Рик, только не говори, что уволился.",
+        "learn": 0
+      },
+      {
+        "eng": "The gang pulled off a bank job in St. Louis.",
+        "ru": "Эта банда ограбила банк в Сент-Луисе.",
+        "learn": 0
+      }
+    ]
+  }
 }

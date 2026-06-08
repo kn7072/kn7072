@@ -1,87 +1,165 @@
 {
-    "enough": {
-        "comment": [
-            "through",
-            "thorough",
-            "although",
-            "cough",
-            "rough",
-            "tough",
-            "though",
-            "plough",
-            "borough"
-        ],
-        "translate": " достаточно, довольно, достаточное количество",
-        "transcription": "  |ɪˈnʌf|",
-        "antonyms": [],
-        "mnemonic": [
-            "enough [ина'ф] достаточно - (И наф-талина) достаточно для моли.",
-            "enough [ɪ'nʌf]\n***\n\"ДОВОЛЬНО с нас\" - сказал и Ниф, и|Наф. (это)\nenough\n\"ДОСТАТОЧНО!\" - сказал и Ниф, и|Наф. (это) enough\nДОСТАТОЧНО и вам, и|нам. (это) enough"
-        ],
-        "examples": [
-            "Have you got enough money?",
-            "He did it well enough.",
-            "Is the water warm enough for you?",
-            "I've had enough of him.",
-            "There's enough food for everyone.",
-            "He has enough and to spare.",
-            "Will Evans be fit enough to play?",
-            "That's good enough for me.",
-            "Are the carrots cooked enough?",
-            "It's enough to drive you crazy!",
-            "He's a nice enough young man.",
-            "Have I eaten enough?",
-            "That's enough talk for now., let's get started.",
-            "Have you had enough to eat?",
-            "We can do it if they help enough.",
-            "You can go to school when you're old enough.",
-            "She's old enough to know better.",
-            "I couldn't run fast enough to catch up with her.",
-            "I was happy enough in Bordeaux, but I missed my family.",
-            "He just hadn't thought enough about the possible consequences.",
-            "Are you rich enough to retire?",
-            "Oddly enough, they've never actually met.",
-            "Surely no one would be foolish enough to lend him the money?",
-            "You're late. It's just not good enough (=not satisfactory or acceptable).",
-            "The rooms are all large enough to take a third bed.",
-            "He hasn't had much Spanish, but he knows enough to get by.",
-            "The crowds are enough of a problem as it is, without having to worry about parking as well!"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "У тебя достаточно денег?",
-            "Он довольно хорошо справился.",
-            "Вода для вас достаточно тёплая /не слишком холодная/?",
-            "Он мне надоел.",
-            "Еды хватит для всех.",
-            "У него этого хоть отбавляй /более чем достаточно, хоть завались, дофига и больше/.",
-            "Будет ли Эванс в состоянии играть?",
-            "Этого мне вполне достаточно. / Это меня вполне устраивает.",
-            "Достаточно ли проварена морковь?",
-            "С ума можно сойти от этого!",
-            "Он довольно симпатичный молодой человек.",
-            "Я достаточно съел?",
-            "Хватит уже разговаривать — давайте начинать.",
-            "Вам хватало еды? / Вас хорошо кормили?",
-            "У нас получится, если они немного помогут.",
-            "Ты сможешь пойти в школу, когда подрастёшь.",
-            "Она уже не маленькая и должна знать, к чему это может привести.",
-            "Мне не хватало скорости бега, чтобы за ней угнаться.",
-            "В Бордо мне было хорошо, но я скучал по семье.",
-            "Он просто недостаточно хорошо обдумал возможные последствия.",
-            "Достаточно ли вы богаты, чтобы уйти на покой?",
-            "Как ни странно, они действительно никогда не встречались.",
-            "Надеюсь, ни у кого не хватило ума одолжить ему деньги?",
-            "Ты опоздал. Это просто нехорошо (т.е. неудовлетворительно и неприемлемо).",
-            "Во всех номерах есть достаточно места для третьей кровати.",
-            "Он не силён в испанском, но ему хватает, чтобы объясниться.",
-            "Толпа народу и сама по себе является достаточной проблемой, так ещё приходится беспокоиться о парковке!"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "gh_=_[f]_(ght_-_[ft])",
-            "ou_=_[ʌ]"
-        ]
-    }
+  "enough": {
+    "comment": [
+      "through",
+      "thorough",
+      "although",
+      "cough",
+      "rough",
+      "tough",
+      "though",
+      "plough",
+      "borough"
+    ],
+    "translate": " достаточно, довольно, достаточное количество",
+    "transcription": "  |ɪˈnʌf|",
+    "antonyms": [],
+    "mnemonic": [
+      "enough [ина'ф] достаточно - (И наф-талина) достаточно для моли.",
+      "enough [ɪ'nʌf]\n***\n\"ДОВОЛЬНО с нас\" - сказал и Ниф, и|Наф. (это)\nenough\n\"ДОСТАТОЧНО!\" - сказал и Ниф, и|Наф. (это) enough\nДОСТАТОЧНО и вам, и|нам. (это) enough"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "gh_=_[f]_(ght_-_[ft])",
+      "ou_=_[ʌ]"
+    ],
+    "examples": [
+      {
+        "eng": "Have you got enough money?",
+        "ru": "У тебя достаточно денег?",
+        "learn": 1
+      },
+      {
+        "eng": "He did it well enough.",
+        "ru": "Он довольно хорошо справился.",
+        "learn": 0
+      },
+      {
+        "eng": "Is the water warm enough for you?",
+        "ru": "Вода для вас достаточно тёплая /не слишком холодная/?",
+        "learn": 0
+      },
+      {
+        "eng": "I've had enough of him.",
+        "ru": "Он мне надоел.",
+        "learn": 0
+      },
+      {
+        "eng": "There's enough food for everyone.",
+        "ru": "Еды хватит для всех.",
+        "learn": 0
+      },
+      {
+        "eng": "He has enough and to spare.",
+        "ru": "У него этого хоть отбавляй /более чем достаточно, хоть завались, дофига и больше/.",
+        "learn": 0
+      },
+      {
+        "eng": "Will Evans be fit enough to play?",
+        "ru": "Будет ли Эванс в состоянии играть?",
+        "learn": 0
+      },
+      {
+        "eng": "That's good enough for me.",
+        "ru": "Этого мне вполне достаточно. / Это меня вполне устраивает.",
+        "learn": 0
+      },
+      {
+        "eng": "Are the carrots cooked enough?",
+        "ru": "Достаточно ли проварена морковь?",
+        "learn": 1
+      },
+      {
+        "eng": "It's enough to drive you crazy!",
+        "ru": "С ума можно сойти от этого!",
+        "learn": 0
+      },
+      {
+        "eng": "He's a nice enough young man.",
+        "ru": "Он довольно симпатичный молодой человек.",
+        "learn": 0
+      },
+      {
+        "eng": "Have I eaten enough?",
+        "ru": "Я достаточно съел?",
+        "learn": 0
+      },
+      {
+        "eng": "That's enough talk for now., let's get started.",
+        "ru": "Хватит уже разговаривать — давайте начинать.",
+        "learn": 0
+      },
+      {
+        "eng": "Have you had enough to eat?",
+        "ru": "Вам хватало еды? / Вас хорошо кормили?",
+        "learn": 0
+      },
+      {
+        "eng": "We can do it if they help enough.",
+        "ru": "У нас получится, если они немного помогут.",
+        "learn": 0
+      },
+      {
+        "eng": "You can go to school when you're old enough.",
+        "ru": "Ты сможешь пойти в школу, когда подрастёшь.",
+        "learn": 0
+      },
+      {
+        "eng": "She's old enough to know better.",
+        "ru": "Она уже не маленькая и должна знать, к чему это может привести.",
+        "learn": 0
+      },
+      {
+        "eng": "I couldn't run fast enough to catch up with her.",
+        "ru": "Мне не хватало скорости бега, чтобы за ней угнаться.",
+        "learn": 0
+      },
+      {
+        "eng": "I was happy enough in Bordeaux, but I missed my family.",
+        "ru": "В Бордо мне было хорошо, но я скучал по семье.",
+        "learn": 0
+      },
+      {
+        "eng": "He just hadn't thought enough about the possible consequences.",
+        "ru": "Он просто недостаточно хорошо обдумал возможные последствия.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you rich enough to retire?",
+        "ru": "Достаточно ли вы богаты, чтобы уйти на покой?",
+        "learn": 1
+      },
+      {
+        "eng": "Oddly enough, they've never actually met.",
+        "ru": "Как ни странно, они действительно никогда не встречались.",
+        "learn": 1
+      },
+      {
+        "eng": "Surely no one would be foolish enough to lend him the money?",
+        "ru": "Надеюсь, ни у кого не хватило ума одолжить ему деньги?",
+        "learn": 0
+      },
+      {
+        "eng": "You're late. It's just not good enough (=not satisfactory or acceptable).",
+        "ru": "Ты опоздал. Это просто нехорошо (т.е. неудовлетворительно и неприемлемо).",
+        "learn": 0
+      },
+      {
+        "eng": "The rooms are all large enough to take a third bed.",
+        "ru": "Во всех номерах есть достаточно места для третьей кровати.",
+        "learn": 0
+      },
+      {
+        "eng": "He hasn't had much Spanish, but he knows enough to get by.",
+        "ru": "Он не силён в испанском, но ему хватает, чтобы объясниться.",
+        "learn": 0
+      },
+      {
+        "eng": "The crowds are enough of a problem as it is, without having to worry about parking as well!",
+        "ru": "Толпа народу и сама по себе является достаточной проблемой, так ещё приходится беспокоиться о парковке!",
+        "learn": 0
+      }
+    ]
+  }
 }

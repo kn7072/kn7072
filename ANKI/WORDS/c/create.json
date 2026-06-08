@@ -1,87 +1,173 @@
 {
-    "create": {
-        "comment": [
-            "creation",
-            "creative",
-            "creature",
-            "creativity",
-            "creator",
-            "recreation"
-        ],
-        "translate": "создавать, творить, делать, созидать, вызывать, производить, возводить, суетиться",
-        "transcription": " |kriˈeɪt|",
-        "antonyms": [],
-        "mnemonic": [
-            "create [kri: 'eɪt]\ncreator [kri:'eɪtə] - творец, создатель, автор\ncreation [kri:'eɪʃən] - создание, творение,\nпроизведение\ncreative [kri:'eɪtɪv] - творческий, креативный\ncreature ['kri: tʃə] - создание, творение, живое\nсущество, тварь\n***\nСОЗДАЛ дом, но он кривеет. (это) create\nЯ ТВОРЮ, а дом кривеет. (это) create"
-        ],
-        "examples": [
-            "Picasso created Cubism.",
-            "The company was created 25 years ago.",
-            "This dish was created by our chef Jean Richard.",
-            "The new factory will create thousands of jobs.",
-            "He was created a lieutenant.",
-            "She failed to create any profound impression.",
-            "Banks create money and lend it at interest.",
-            "I've been creating music for over 30 years.",
-            "Her behaviour is creating a lot of problems.",
-            "I wanted to create an impression of success.",
-            "The machine creates a lot of noise.",
-            "Philip Glass created a new kind of music.",
-            "Some people allow that word \"create\" appropriable to God alone.",
-            "What does he do but come in and start creating about the loss of time!",
-            "to create a notional world for oneself",
-            "The purpose of industry is to create wealth.",
-            "He created a new movement in painting.",
-            "The software makes it easy to create colourful graphs.",
-            "I was extremely proud of the team that we assembled to create the product.",
-            "They used paint to create the illusion of metal.",
-            "Several small children can create havoc in a house.",
-            "He moved the books to create more space on his desk.",
-            "Schoenberg created twelve-tone music",
-            "The clay is incised to create a design.",
-            "looking for a feasible way to create new jobs",
-            "The software makes it easy to create custom setups.",
-            "A pump was used to create a vacuum inside the bottle.",
-            "Several new government programs were created while she was governor.",
-            "The prime minister claims he wants to create a classless meritocracy in Britain.",
-            "We're trying to create a better business environment."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Пикассо был создателем кубизма.",
-            "Компания была создана двадцать пять лет назад.",
-            "Это блюдо было приготовлено нашим шеф-поваром Жаном Ришаром.",
-            "Новый завод позволит создать тысячи рабочих мест.",
-            "Ему присвоили звание лейтенанта.",
-            "Ей не удалось произвести глубокого впечатления.",
-            "Банки создают деньги и ссужают их под процент.",
-            "Я пишу музыку более тридцати лет.",
-            "Её поведение создает массу проблем.",
-            "Я хотел создать впечатление успеха.",
-            "Машина создаёт много шума.",
-            "Филип Гласс создал новый вид музыки.",
-            "Некоторые люди считают, что слово \"создавать\" применимо только к Богу.",
-            "Он ничего не делает, только приходит и начинает ворчать по поводу нехватки времени.",
-            "создать для себя воображаемый мир",
-            "Назначением промышленности является создание материальных ценностей.",
-            "Он создал новое движение в живописи.",
-            "Данное программное обеспечение позволяет легко создавать красочные графики.",
-            "Я очень гордился той командой, которую мы собрали для создания товара.",
-            "Они использовали краски, чтобы создать иллюзию металла.",
-            "Несколько маленьких детей могут устроить в доме разгром.",
-            "Он сдвинул книги, чтобы создать больше пространства на рабочем столе.",
-            "Шёнберг создал двенадцатитоновую музыку.",
-            "В глине сделаны насечки, создающие узор.",
-            "поиски выполнимого способа создания новых рабочих мест",
-            "Данное программное обеспечение облегчает создание пользовательских настроек.",
-            "Для создания вакуума внутри бутылки воспользовались насосом.",
-            "За то время, пока она была губернатором, было создано несколько правительственных программ.",
-            "Премьер-министр заявляет, что хочет создать бесклассовую меритократию в Британии.",
-            "Мы стараемся создать лучшие условия для деятельности бизнеса."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "create": {
+    "comment": [
+      "creation",
+      "creative",
+      "creature",
+      "creativity",
+      "creator",
+      "recreation"
+    ],
+    "translate": "создавать, творить, делать, созидать, вызывать, производить, возводить, суетиться",
+    "transcription": " |kriˈeɪt|",
+    "antonyms": [],
+    "mnemonic": [
+      "create [kri: 'eɪt]\ncreator [kri:'eɪtə] - творец, создатель, автор\ncreation [kri:'eɪʃən] - создание, творение,\nпроизведение\ncreative [kri:'eɪtɪv] - творческий, креативный\ncreature ['kri: tʃə] - создание, творение, живое\nсущество, тварь\n***\nСОЗДАЛ дом, но он кривеет. (это) create\nЯ ТВОРЮ, а дом кривеет. (это) create"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Picasso created Cubism.",
+        "ru": "Пикассо был создателем кубизма.",
+        "learn": 0
+      },
+      {
+        "eng": "The company was created 25 years ago.",
+        "ru": "Компания была создана двадцать пять лет назад.",
+        "learn": 0
+      },
+      {
+        "eng": "This dish was created by our chef Jean Richard.",
+        "ru": "Это блюдо было приготовлено нашим шеф-поваром Жаном Ришаром.",
+        "learn": 0
+      },
+      {
+        "eng": "The new factory will create thousands of jobs.",
+        "ru": "Новый завод позволит создать тысячи рабочих мест.",
+        "learn": 1
+      },
+      {
+        "eng": "He was created a lieutenant.",
+        "ru": "Ему присвоили звание лейтенанта.",
+        "learn": 0
+      },
+      {
+        "eng": "She failed to create any profound impression.",
+        "ru": "Ей не удалось произвести глубокого впечатления.",
+        "learn": 0
+      },
+      {
+        "eng": "Banks create money and lend it at interest.",
+        "ru": "Банки создают деньги и ссужают их под процент.",
+        "learn": 0
+      },
+      {
+        "eng": "I've been creating music for over 30 years.",
+        "ru": "Я пишу музыку более тридцати лет.",
+        "learn": 0
+      },
+      {
+        "eng": "Her behaviour is creating a lot of problems.",
+        "ru": "Её поведение создает массу проблем.",
+        "learn": 0
+      },
+      {
+        "eng": "I wanted to create an impression of success.",
+        "ru": "Я хотел создать впечатление успеха.",
+        "learn": 0
+      },
+      {
+        "eng": "The machine creates a lot of noise.",
+        "ru": "Машина создаёт много шума.",
+        "learn": 0
+      },
+      {
+        "eng": "Philip Glass created a new kind of music.",
+        "ru": "Филип Гласс создал новый вид музыки.",
+        "learn": 0
+      },
+      {
+        "eng": "Some people allow that word \"create\" appropriable to God alone.",
+        "ru": "Некоторые люди считают, что слово \"создавать\" применимо только к Богу.",
+        "learn": 0
+      },
+      {
+        "eng": "What does he do but come in and start creating about the loss of time!",
+        "ru": "Он ничего не делает, только приходит и начинает ворчать по поводу нехватки времени.",
+        "learn": 0
+      },
+      {
+        "eng": "to create a notional world for oneself",
+        "ru": "создать для себя воображаемый мир",
+        "learn": 0
+      },
+      {
+        "eng": "The purpose of industry is to create wealth.",
+        "ru": "Назначением промышленности является создание материальных ценностей.",
+        "learn": 0
+      },
+      {
+        "eng": "He created a new movement in painting.",
+        "ru": "Он создал новое движение в живописи.",
+        "learn": 1
+      },
+      {
+        "eng": "The software makes it easy to create colourful graphs.",
+        "ru": "Данное программное обеспечение позволяет легко создавать красочные графики.",
+        "learn": 0
+      },
+      {
+        "eng": "I was extremely proud of the team that we assembled to create the product.",
+        "ru": "Я очень гордился той командой, которую мы собрали для создания товара.",
+        "learn": 1
+      },
+      {
+        "eng": "They used paint to create the illusion of metal.",
+        "ru": "Они использовали краски, чтобы создать иллюзию металла.",
+        "learn": 0
+      },
+      {
+        "eng": "Several small children can create havoc in a house.",
+        "ru": "Несколько маленьких детей могут устроить в доме разгром.",
+        "learn": 0
+      },
+      {
+        "eng": "He moved the books to create more space on his desk.",
+        "ru": "Он сдвинул книги, чтобы создать больше пространства на рабочем столе.",
+        "learn": 0
+      },
+      {
+        "eng": "Schoenberg created twelve-tone music",
+        "ru": "Шёнберг создал двенадцатитоновую музыку.",
+        "learn": 0
+      },
+      {
+        "eng": "The clay is incised to create a design.",
+        "ru": "В глине сделаны насечки, создающие узор.",
+        "learn": 0
+      },
+      {
+        "eng": "looking for a feasible way to create new jobs",
+        "ru": "поиски выполнимого способа создания новых рабочих мест",
+        "learn": 0
+      },
+      {
+        "eng": "The software makes it easy to create custom setups.",
+        "ru": "Данное программное обеспечение облегчает создание пользовательских настроек.",
+        "learn": 0
+      },
+      {
+        "eng": "A pump was used to create a vacuum inside the bottle.",
+        "ru": "Для создания вакуума внутри бутылки воспользовались насосом.",
+        "learn": 1
+      },
+      {
+        "eng": "Several new government programs were created while she was governor.",
+        "ru": "За то время, пока она была губернатором, было создано несколько правительственных программ.",
+        "learn": 0
+      },
+      {
+        "eng": "The prime minister claims he wants to create a classless meritocracy in Britain.",
+        "ru": "Премьер-министр заявляет, что хочет создать бесклассовую меритократию в Британии.",
+        "learn": 0
+      },
+      {
+        "eng": "We're trying to create a better business environment.",
+        "ru": "Мы стараемся создать лучшие условия для деятельности бизнеса.",
+        "learn": 0
+      }
+    ]
+  }
 }

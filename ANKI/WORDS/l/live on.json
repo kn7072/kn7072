@@ -1,39 +1,219 @@
 {
-    "live on": {
-        "comment": [],
-        "translate": "1) Жить на (деньги, ресурсы) 2) Продолжать жить (в памяти, истории) ",
-        "transcription": " |ˈlaɪv ɑːn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "They live on vegetables and rice.",
-            "She lives on a tight budget.",
-            "The story lives on through generations.",
-            "He lives on his investments.",
-            "The tradition lives on in our family.",
-            "They live on a small pension.",
-            "Her legacy will live on forever.",
-            "How do you live on such a low salary?",
-            "His music lives on after his death.",
-            "Their memory lives on in our hearts."
-        ],
-        "example_translate": [
-            "Они живут на овощах и рисе.",
-            "Она живёт на ограниченный бюджет.",
-            "История живёт через поколения.",
-            "Он живёт на свои инвестиции.",
-            "Традиция живёт в нашей семье.",
-            "Они живут на небольшую пенсию.",
-            "Её наследие будет жить вечно.",
-            "Как ты живёшь на такую низкую зарплату?",
-            "Его музыка живёт после его смерти.",
-            "Их память живёт в наших сердцах."
-        ],
-        "synonyms": "Жить на (деньги, ресурсы) - survive on, subsist on\nПродолжать жить (в памяти, истории) - be remembered, endure\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "live on": {
+    "comment": [],
+    "translate": "1) Жить на (деньги, ресурсы) 2) Продолжать жить (в памяти, истории) ",
+    "transcription": " |ˈlaɪv ɑːn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Жить на (деньги, ресурсы) - survive on, subsist on",
+      "Продолжать жить (в памяти, истории) - be remembered, endure"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "They live on vegetables and rice.",
+        "ru": "Они живут на овощах и рисе.",
+        "learn": 1
+      },
+      {
+        "eng": "She lives on a tight budget.",
+        "ru": "Она живёт на ограниченный бюджет.",
+        "learn": 1
+      },
+      {
+        "eng": "The story lives on through generations.",
+        "ru": "История живёт через поколения.",
+        "learn": 1
+      },
+      {
+        "eng": "He lives on his investments.",
+        "ru": "Он живёт на свои инвестиции.",
+        "learn": 1
+      },
+      {
+        "eng": "The tradition lives on in our family.",
+        "ru": "Традиция живёт в нашей семье.",
+        "learn": 1
+      },
+      {
+        "eng": "They live on a small pension.",
+        "ru": "Они живут на небольшую пенсию.",
+        "learn": 1
+      },
+      {
+        "eng": "Her legacy will live on forever.",
+        "ru": "Её наследие будет жить вечно.",
+        "learn": 1
+      },
+      {
+        "eng": "How do you live on such a low salary?",
+        "ru": "Как ты живёшь на такую низкую зарплату?",
+        "learn": 1
+      },
+      {
+        "eng": "His music lives on after his death.",
+        "ru": "Его музыка живёт после его смерти.",
+        "learn": 1
+      },
+      {
+        "eng": "Their memory lives on in our hearts.",
+        "ru": "Их память живёт в наших сердцах.",
+        "learn": 1
+      },
+      {
+        "eng": "We live on a modest budget.",
+        "ru": "Мы живём на скромный бюджет.",
+        "learn": 1
+      },
+      {
+        "eng": "They live on bread and potatoes.",
+        "ru": "Они живут на хлебе и картошке.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid that she will not be able to live on her writing.",
+        "ru": "Думаю, она не сможет жить писательством.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you live on $2000 a month in New York City?",
+        "ru": "Можно ли прожить в Нью-Йорке на две тысячи долларов в месяц?",
+        "learn": 0
+      },
+      {
+        "eng": "We live on a rural route.",
+        "ru": "Мы живём в сельской местности.",
+        "learn": 0
+      },
+      {
+        "eng": "Alice's memory will live on.",
+        "ru": "Память об Алисе будет жить.",
+        "learn": 0
+      },
+      {
+        "eng": "How can anyone live on that salary?",
+        "ru": "Как можно жить на такое жалование?",
+        "learn": 0
+      },
+      {
+        "eng": "We live on a complex planet.",
+        "ru": "Мы живем на сложной планете.",
+        "learn": 1
+      },
+      {
+        "eng": "They live on the outskirts of Paris.",
+        "ru": "Они живут на окраине Парижа.",
+        "learn": 0
+      },
+      {
+        "eng": "Mary had barely enough money to live on.",
+        "ru": "Мэри едва хватало (денег) на жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "They live on a staple diet of rice and vegetables.",
+        "ru": "Они в основном питаются рисом и овощами.",
+        "learn": 1
+      },
+      {
+        "eng": "Alone and penniless, I was forced to live on my wits.",
+        "ru": "Оставшись в одиночестве и без гроша в кармане, я вынужден был жить своим умом.",
+        "learn": 0
+      },
+      {
+        "eng": "They seem to live on ready cooked meals.",
+        "ru": "Они, похоже, совсем ничего не готовят сами /всю еду покупают в готовом виде/.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know how they manage to live on £55 a week.",
+        "ru": "Не знаю, как они умудряются прожить на пятьдесят пять фунтов в неделю.",
+        "learn": 0
+      },
+      {
+        "eng": "He's been trying to live on a budget of less than $1,500 a month.",
+        "ru": "Он пытается прожить на сумму меньше, чем полторы тысячи долларов в месяц.",
+        "learn": 0
+      },
+      {
+        "eng": "His parents didn't think he was mature enough to live on his own.",
+        "ru": "По мнению родителей, он был ещё недостаточно зрелым, чтобы жить самостоятельно.",
+        "learn": 0
+      },
+      {
+        "eng": "They live on a busy street.",
+        "ru": "Они живут на оживлённой улице.",
+        "learn": 0
+      },
+      {
+        "eng": "We live on a very busy road.",
+        "ru": "Мы живём на очень оживлённой дороге.",
+        "learn": 0
+      },
+      {
+        "eng": "The game was televised live on ABC.",
+        "ru": "Игра транслировалась в прямом эфире на канале ABC.",
+        "learn": 0
+      },
+      {
+        "eng": "Most first-year students live on campus.",
+        "ru": "Большинство первокурсников проживают в общежитии.",
+        "learn": 0
+      },
+      {
+        "eng": "They live on the opposite side of the town.",
+        "ru": "Они живут на противоположной стороне города.",
+        "learn": 0
+      },
+      {
+        "eng": "They live on the top floor of the building.",
+        "ru": "Они живут на верхнем этаже этого здания.",
+        "learn": 0
+      },
+      {
+        "eng": "The match will be screened live on television.",
+        "ru": "Матч будет транслироваться в прямом эфире по телевидению.",
+        "learn": 0
+      },
+      {
+        "eng": "The ceremony will be broadcast live on television.",
+        "ru": "Церемония будет транслироваться по телевидению в прямом эфире.",
+        "learn": 0
+      },
+      {
+        "eng": "She always wanted to live on a lush Caribbean island.",
+        "ru": "Она всегда хотела жить на острове в Карибском море, в окружении буйной растительности.",
+        "learn": 0
+      },
+      {
+        "eng": "Many people find it hard to live on a basic state pension.",
+        "ru": "Многим людям трудно жить за счёт базовой государственной пенсии.",
+        "learn": 0
+      },
+      {
+        "eng": "These particular birds live on only one island in the Pacific.",
+        "ru": "Именно эти птицы живут только на одном острове в Тихом океане.",
+        "learn": 0
+      },
+      {
+        "eng": "Housing, enough money to live on and education are basic needs.",
+        "ru": "Жилье, достаточное для проживания количество денег и образование являются основными потребностями.",
+        "learn": 0
+      },
+      {
+        "eng": "Father often toys with the thought of going to live on a tropical island.",
+        "ru": "Папа часто забавляется мыслью о том, чтобы отправиться жить на тропический остров.",
+        "learn": 0
+      },
+      {
+        "eng": "Why did the painter leave his family and go off to live on a tropical island?",
+        "ru": "Почему художник бросил свою семью и уехал жить на остров в тропиках?",
+        "learn": 0
+      }
+    ]
+  }
 }

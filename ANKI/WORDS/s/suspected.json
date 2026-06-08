@@ -1,77 +1,154 @@
 {
-    "suspected": {
-        "comment": [
-            "suspect",
-            "suspension",
-            "suspend",
-            "suspicious"
-        ],
-        "translate": "подозреваемый",
-        "transcription": " |səˈspektəd|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He was suspected of theft.",
-            "He is suspected of appropriating government funds.",
-            "He was suspected of implication in several robberies.",
-            "Many suspected that the deal had been fixed in advance.",
-            "He was suspected of collaborating with the occupying army.",
-            "He's suspected of murder.",
-            "He never suspected anything.",
-            "The doctors suspected pneumonia.",
-            "He's suspected in four burglaries.",
-            "The police car pursued the suspected attacker.",
-            "I suspected his motives in giving me the money.",
-            "The pilot was treated for suspected internal injuries.",
-            "He was taken to hospital after a suspected heart attack.",
-            "The FBI was tapping the phone line of the suspected spy.",
-            "The gangsters never suspected that he was a police plant.",
-            "Matthews plays the role of a young doctor suspected of murder.",
-            "The insurance company suspected that he had faked his own death.",
-            "The latest research confirms what scientists have long suspected.",
-            "He suspected that the military were secretly plotting against him.",
-            "In olden times people suspected of sorcery were often put to death.",
-            "Some suspected that the rebellion was backed and financed by the US.",
-            "His wife suspected that the woman she'd seen with him was his mistress.",
-            "His boss suspected him of malingering because of his frequent absences from work.",
-            "He suspected his new admirer of being a designing woman who only wanted his money.",
-            "Rosa was shocked by the news, although she had suspected something of the kind might happen.",
-            "The newspaper headline read “House burns down on Elm Street” with the subheading “Arson suspected.”",
-            "The man suspected of being the serial killer is little known to his neighbors, notwithstanding he has lived in the apartment complex for years."
-        ],
-        "example_translate": [
-            "Его подозревали в краже.",
-            "Он подозревается в присвоении государственных средств.",
-            "Его подозревали в причастности к нескольким разбойным нападениям.",
-            "Многие подозревали, что эта сделка была подстроена заранее.",
-            "Его подозревали в сотрудничестве с оккупантами.",
-            "Его подозревают в убийстве.",
-            "Он так ничего и не заподозрил.",
-            "Врачи заподозрили пневмонию.",
-            "Его подозревают в четырёх кражах со взломом.",
-            "Полицейская машина погналась за подозреваемым в нападении.",
-            "Я подозревал, что у него были свои причины дать мне эти деньги.",
-            "Пилоту была оказана медицинская помощь в связи с подозрением на повреждение внутренних органов.",
-            "Он был доставлен в больницу с подозрением на инфаркт.",
-            "ФБР занималось прослушиванием телефонной линии подозреваемого в шпионаже.",
-            "Бандиты так и не заподозрили в нём полицейскую подсадную утку.",
-            "Мэтьюз играет роль молодого врача, подозреваемого в убийстве.",
-            "Страховая компания заподозрила, что он симулировал собственную смерть.",
-            "Последние исследования подтверждают то, что давно подозревали учёные.",
-            "Он заподозрил, что военные замышляют против него тайный заговор.",
-            "В старину людей, подозреваемых в колдовстве, часто казнили.",
-            "Некоторые заподозрили, что бунт поддерживался и финансировался США.",
-            "Его жена заподозрила, что женщина, которую она с ним видела, была его любовницей.",
-            "Из-за частого отсутствия на работе начальник заподозрил его в симуляции.",
-            "Он заподозрил, что его новая поклонница — коварная интриганка, которой нужны лишь его деньги.",
-            "Роза была потрясена этой новостью, хоть и подозревала, что нечто подобное может произойти.",
-            "Газетный заголовок гласил: “На улице Вязов сгорел дотла дом”, с подзаголовком \"Подозревается поджог\".",
-            "Несмотря на то, что человек, обвиняемый в серийных убийствах, прожил в этом жилом комплексе много лет, соседи почти ничего о нём не знают."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "suspected": {
+    "comment": [
+      "suspect",
+      "suspension",
+      "suspend",
+      "suspicious"
+    ],
+    "translate": "подозреваемый",
+    "transcription": " |səˈspektəd|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He was suspected of theft.",
+        "ru": "Его подозревали в краже.",
+        "learn": 0
+      },
+      {
+        "eng": "He is suspected of appropriating government funds.",
+        "ru": "Он подозревается в присвоении государственных средств.",
+        "learn": 1
+      },
+      {
+        "eng": "He was suspected of implication in several robberies.",
+        "ru": "Его подозревали в причастности к нескольким разбойным нападениям.",
+        "learn": 1
+      },
+      {
+        "eng": "Many suspected that the deal had been fixed in advance.",
+        "ru": "Многие подозревали, что эта сделка была подстроена заранее.",
+        "learn": 0
+      },
+      {
+        "eng": "He was suspected of collaborating with the occupying army.",
+        "ru": "Его подозревали в сотрудничестве с оккупантами.",
+        "learn": 0
+      },
+      {
+        "eng": "He's suspected of murder.",
+        "ru": "Его подозревают в убийстве.",
+        "learn": 0
+      },
+      {
+        "eng": "He never suspected anything.",
+        "ru": "Он так ничего и не заподозрил.",
+        "learn": 0
+      },
+      {
+        "eng": "The doctors suspected pneumonia.",
+        "ru": "Врачи заподозрили пневмонию.",
+        "learn": 0
+      },
+      {
+        "eng": "He's suspected in four burglaries.",
+        "ru": "Его подозревают в четырёх кражах со взломом.",
+        "learn": 0
+      },
+      {
+        "eng": "The police car pursued the suspected attacker.",
+        "ru": "Полицейская машина погналась за подозреваемым в нападении.",
+        "learn": 0
+      },
+      {
+        "eng": "I suspected his motives in giving me the money.",
+        "ru": "Я подозревал, что у него были свои причины дать мне эти деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "The pilot was treated for suspected internal injuries.",
+        "ru": "Пилоту была оказана медицинская помощь в связи с подозрением на повреждение внутренних органов.",
+        "learn": 1
+      },
+      {
+        "eng": "He was taken to hospital after a suspected heart attack.",
+        "ru": "Он был доставлен в больницу с подозрением на инфаркт.",
+        "learn": 0
+      },
+      {
+        "eng": "The FBI was tapping the phone line of the suspected spy.",
+        "ru": "ФБР занималось прослушиванием телефонной линии подозреваемого в шпионаже.",
+        "learn": 0
+      },
+      {
+        "eng": "The gangsters never suspected that he was a police plant.",
+        "ru": "Бандиты так и не заподозрили в нём полицейскую подсадную утку.",
+        "learn": 0
+      },
+      {
+        "eng": "Matthews plays the role of a young doctor suspected of murder.",
+        "ru": "Мэтьюз играет роль молодого врача, подозреваемого в убийстве.",
+        "learn": 0
+      },
+      {
+        "eng": "The insurance company suspected that he had faked his own death.",
+        "ru": "Страховая компания заподозрила, что он симулировал собственную смерть.",
+        "learn": 0
+      },
+      {
+        "eng": "The latest research confirms what scientists have long suspected.",
+        "ru": "Последние исследования подтверждают то, что давно подозревали учёные.",
+        "learn": 0
+      },
+      {
+        "eng": "He suspected that the military were secretly plotting against him.",
+        "ru": "Он заподозрил, что военные замышляют против него тайный заговор.",
+        "learn": 0
+      },
+      {
+        "eng": "In olden times people suspected of sorcery were often put to death.",
+        "ru": "В старину людей, подозреваемых в колдовстве, часто казнили.",
+        "learn": 0
+      },
+      {
+        "eng": "Some suspected that the rebellion was backed and financed by the US.",
+        "ru": "Некоторые заподозрили, что бунт поддерживался и финансировался США.",
+        "learn": 0
+      },
+      {
+        "eng": "His wife suspected that the woman she'd seen with him was his mistress.",
+        "ru": "Его жена заподозрила, что женщина, которую она с ним видела, была его любовницей.",
+        "learn": 0
+      },
+      {
+        "eng": "His boss suspected him of malingering because of his frequent absences from work.",
+        "ru": "Из-за частого отсутствия на работе начальник заподозрил его в симуляции.",
+        "learn": 0
+      },
+      {
+        "eng": "He suspected his new admirer of being a designing woman who only wanted his money.",
+        "ru": "Он заподозрил, что его новая поклонница — коварная интриганка, которой нужны лишь его деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "Rosa was shocked by the news, although she had suspected something of the kind might happen.",
+        "ru": "Роза была потрясена этой новостью, хоть и подозревала, что нечто подобное может произойти.",
+        "learn": 0
+      },
+      {
+        "eng": "The newspaper headline read “House burns down on Elm Street” with the subheading “Arson suspected.”",
+        "ru": "Газетный заголовок гласил: “На улице Вязов сгорел дотла дом”, с подзаголовком \"Подозревается поджог\".",
+        "learn": 0
+      },
+      {
+        "eng": "The man suspected of being the serial killer is little known to his neighbors, notwithstanding he has lived in the apartment complex for years.",
+        "ru": "Несмотря на то, что человек, обвиняемый в серийных убийствах, прожил в этом жилом комплексе много лет, соседи почти ничего о нём не знают.",
+        "learn": 0
+      }
+    ]
+  }
 }

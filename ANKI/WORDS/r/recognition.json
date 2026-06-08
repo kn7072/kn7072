@@ -1,68 +1,133 @@
 {
-    "recognition": {
-        "comment": [
-            "recognize"
-        ],
-        "translate": "признание, распознавание, опознавание, узнавание, опознание, одобрение, сознание",
-        "transcription": " |ˌrekəɡˈnɪʃn|",
-        "antonyms": [],
-        "mnemonic": [
-            "recognition [¸rekəg'nɪʃən]\n***\nУЗНАВАНИЕ греков|нищих. (это) recognition\nОПОЗНАНИЕ греков|нищих. (это) recognition"
-        ],
-        "examples": [
-            "She passed close by me without a sign of recognition.",
-            "The town centre had changed beyond all recognition.",
-            "The partners were delighted with the recognition of their work.",
-            "The story lifted him to national recognition.",
-            "He attempted to pass him without any symptom of recognition.",
-            "His smile was a recognition that things were not so bad.",
-            "He received recognition for his accomplishments from his colleagues.",
-            "He fought a battle for recognition.",
-            "He finally received the recognition that he deserved.",
-            "He has achieved recognition and respect as a scientist.",
-            "de jure recognition of the new government",
-            "Don's recognition of the importance of Suzy in his life",
-            "The bakery business has changed beyond all recognition in the last 10 years.",
-            "He was presented with a gold watch in recognition of his service to the company.",
-            "The Olympic Committee gave official recognition to the sport.",
-            "She received belated recognition for her scientific discovery.",
-            "You can build customer loyalty, receive recognition and make a memorable impression with a simple three or four line handwritten note.",
-            "Her paintings received recognition from her fellow artists.",
-            "The bodies are reported to have been mutilated beyond recognition.",
-            "He received little recognition working in the shadow of his father.",
-            "He was unable to make his motion because he couldn't get recognition by the chairman.",
-            "The actress, who is already a goddess in her own country, is finally getting recognition here.",
-            "The importance of voluntary organizations in the economy still needs to be given recognition."
-        ],
-        "example_translate": [
-            "Она прошла мимо меня и не узнала.",
-            "Центр города изменился до неузнаваемости.",
-            "Партнеры были довольны тем, что их работа получила признание.",
-            "Благодаря этой истории он стал известен всей стране.",
-            "Он попытался пройти мимо, сделав вид, что не узнал его.",
-            "Его улыбка означала признание того факта, что всё не так плохо.",
-            "Он получил положительные отзывы коллег о своих достижениях.",
-            "Он боролся за признание.",
-            "Он, наконец, получил давно заслуженное признание.",
-            "Как учёный он добился признания и уважения.",
-            "признание де-юре нового правительства",
-            "признание со стороны Дона важности Сьюзи в его жизни",
-            "За последние десять лет ситуация в хлебном бизнесе изменилась до неузнаваемости.",
-            "Ему подарили золотые часы в знак признания его заслуг перед компанией.",
-            "Олимпийский Комитет предоставил официальное признание этому виду спорта.",
-            "Она получила запоздалое признание за своё научное открытие.",
-            "Вы можете завоевать доверие клиента, получить признание и произвести запоминающееся впечатление, если напишете послание в 3-4 строчки от руки.",
-            "Её картины получили признание со стороны коллег-художников.",
-            "Как сообщают, тела изуродованы до неузнаваемости.",
-            "Поскольку он работал в тени своего отца, его мало кто знал.",
-            "У него не получилось внести своё предложение, потому что он не смог получить от председателя разрешение на выступление.",
-            "Актриса, которая уже является богиней у себя на родине, наконец-то получила признание и у нас.",
-            "Важность добровольных общественных организаций для экономики всё ещё ждёт своего признания."
-        ],
-        "synonyms": [],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "recognition": {
+    "comment": [
+      "recognize"
+    ],
+    "translate": "признание, распознавание, опознавание, узнавание, опознание, одобрение, сознание",
+    "transcription": " |ˌrekəɡˈnɪʃn|",
+    "antonyms": [],
+    "mnemonic": [
+      "recognition [¸rekəg'nɪʃən]\n***\nУЗНАВАНИЕ греков|нищих. (это) recognition\nОПОЗНАНИЕ греков|нищих. (это) recognition"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She passed close by me without a sign of recognition.",
+        "ru": "Она прошла мимо меня и не узнала.",
+        "learn": 0
+      },
+      {
+        "eng": "The town centre had changed beyond all recognition.",
+        "ru": "Центр города изменился до неузнаваемости.",
+        "learn": 1
+      },
+      {
+        "eng": "The partners were delighted with the recognition of their work.",
+        "ru": "Партнеры были довольны тем, что их работа получила признание.",
+        "learn": 0
+      },
+      {
+        "eng": "The story lifted him to national recognition.",
+        "ru": "Благодаря этой истории он стал известен всей стране.",
+        "learn": 1
+      },
+      {
+        "eng": "He attempted to pass him without any symptom of recognition.",
+        "ru": "Он попытался пройти мимо, сделав вид, что не узнал его.",
+        "learn": 0
+      },
+      {
+        "eng": "His smile was a recognition that things were not so bad.",
+        "ru": "Его улыбка означала признание того факта, что всё не так плохо.",
+        "learn": 1
+      },
+      {
+        "eng": "He received recognition for his accomplishments from his colleagues.",
+        "ru": "Он получил положительные отзывы коллег о своих достижениях.",
+        "learn": 0
+      },
+      {
+        "eng": "He fought a battle for recognition.",
+        "ru": "Он боролся за признание.",
+        "learn": 0
+      },
+      {
+        "eng": "He finally received the recognition that he deserved.",
+        "ru": "Он, наконец, получил давно заслуженное признание.",
+        "learn": 0
+      },
+      {
+        "eng": "He has achieved recognition and respect as a scientist.",
+        "ru": "Как учёный он добился признания и уважения.",
+        "learn": 0
+      },
+      {
+        "eng": "de jure recognition of the new government",
+        "ru": "признание де-юре нового правительства",
+        "learn": 0
+      },
+      {
+        "eng": "Don's recognition of the importance of Suzy in his life",
+        "ru": "признание со стороны Дона важности Сьюзи в его жизни",
+        "learn": 0
+      },
+      {
+        "eng": "The bakery business has changed beyond all recognition in the last 10 years.",
+        "ru": "За последние десять лет ситуация в хлебном бизнесе изменилась до неузнаваемости.",
+        "learn": 0
+      },
+      {
+        "eng": "He was presented with a gold watch in recognition of his service to the company.",
+        "ru": "Ему подарили золотые часы в знак признания его заслуг перед компанией.",
+        "learn": 0
+      },
+      {
+        "eng": "The Olympic Committee gave official recognition to the sport.",
+        "ru": "Олимпийский Комитет предоставил официальное признание этому виду спорта.",
+        "learn": 0
+      },
+      {
+        "eng": "She received belated recognition for her scientific discovery.",
+        "ru": "Она получила запоздалое признание за своё научное открытие.",
+        "learn": 0
+      },
+      {
+        "eng": "You can build customer loyalty, receive recognition and make a memorable impression with a simple three or four line handwritten note.",
+        "ru": "Вы можете завоевать доверие клиента, получить признание и произвести запоминающееся впечатление, если напишете послание в 3-4 строчки от руки.",
+        "learn": 0
+      },
+      {
+        "eng": "Her paintings received recognition from her fellow artists.",
+        "ru": "Её картины получили признание со стороны коллег-художников.",
+        "learn": 1
+      },
+      {
+        "eng": "The bodies are reported to have been mutilated beyond recognition.",
+        "ru": "Как сообщают, тела изуродованы до неузнаваемости.",
+        "learn": 0
+      },
+      {
+        "eng": "He received little recognition working in the shadow of his father.",
+        "ru": "Поскольку он работал в тени своего отца, его мало кто знал.",
+        "learn": 0
+      },
+      {
+        "eng": "He was unable to make his motion because he couldn't get recognition by the chairman.",
+        "ru": "У него не получилось внести своё предложение, потому что он не смог получить от председателя разрешение на выступление.",
+        "learn": 0
+      },
+      {
+        "eng": "The actress, who is already a goddess in her own country, is finally getting recognition here.",
+        "ru": "Актриса, которая уже является богиней у себя на родине, наконец-то получила признание и у нас.",
+        "learn": 0
+      },
+      {
+        "eng": "The importance of voluntary organizations in the economy still needs to be given recognition.",
+        "ru": "Важность добровольных общественных организаций для экономики всё ещё ждёт своего признания.",
+        "learn": 0
+      }
+    ]
+  }
 }

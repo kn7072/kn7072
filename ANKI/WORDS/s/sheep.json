@@ -1,86 +1,172 @@
 {
-    "sheep": {
-        "comment": [
-            "sheet",
-            "wheel",
-            "heel",
-            "sheer",
-            "spreadsheet"
-        ],
-        "translate": "овца, баран, овчина, паства, овечья шкура, робкий человек, застенчивый человек",
-        "transcription": " |ʃiːp|",
-        "antonyms": [],
-        "mnemonic": [
-            "sheep [ши:п] овца - Овцы (щип-ают) траву."
-        ],
-        "examples": [
-            "A young sheep is a lamb.",
-            "cheese made from sheep's milk",
-            "Sheep are tended by a shepherd.",
-            "The meat of the sheep is mutton.",
-            "'Sheep' remains the same in the plural.",
-            "These dogs were originally bred in Scotland to round up sheep.",
-            "People can clone a sheep nowadays.",
-            "Sheep are usually fleeced in summer.",
-            "Wild sheep roam the hills.",
-            "The sheep were all shaved.",
-            "a dog that was molesting sheep",
-            "The farmers sheared the sheep.",
-            "the clone of an adult female sheep",
-            "Sheep were grazing on the hillside.",
-            "Most farmers in the area rear sheep.",
-            "The land is perfect for sheep farming.",
-            "The owner's mark was on all the sheep.",
-            "I put some sheep in to pill the field.",
-            "The sheep huddled together for warmth.",
-            "The sheep's wool will be spun into yarn.",
-            "The run will depasture about 4000 sheep.",
-            "The sheep should dress about 75 lbs. each.",
-            "The shepherd unpenned and freed the sheep.",
-            "Somehow the sheep had jumped over the fence.",
-            "The farmers sheared the wool from the sheep.",
-            "learning how to shear the fleece off a sheep",
-            "The sheep were all boxed up, running to and fro.",
-            "As well be hanged for a sheep as (for) a lamb. посл.",
-            "Sheep were tagged before they were let out to grass.",
-            "Presently Larry was summoned to help draft the sheep."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Детёныш овцы называется ягнёнком.",
-            "сыр из овечьего молока",
-            "Овец пасёт пастух.",
-            "Мясо овцы - баранина.",
-            "Слово \"овца\" (в английском языке) остается неизменным во множественном числе.",
-            "Этих собак первоначально разводили в Шотландии для выгона овец. (чтобы они помогали пасти овец)",
-            "Сегодня люди умеют клонировать овец.",
-            "Овец обычно стригут летом.",
-            "По холмам бродят дикие овцы.",
-            "Все овцы были острижены.",
-            "собака, которая нападала на овец",
-            "Фермеры постригли овец.",
-            "клон взрослой овцы",
-            "На склоне холма паслись овцы.",
-            "Большинство фермеров этого района разводят овец.",
-            "Эта земля идеально подходит для овцеводства.",
-            "Клеймо владельца стояло на всех овцах.",
-            "Я пригнал несколько овец, чтобы они подчистили поле.",
-            "Овцы сбились в кучу, чтобы было теплее.",
-            "Из овечьей шерсти спрядут пряжу.",
-            "На пастбище можно пасти около 4000 овец.",
-            "Выпотрошенные и очищенные туши овец должны весить около 75 фунтов каждая.",
-            "Пастух выпустил овец из загона.",
-            "Эта овца каким-то образом перебралась через забор.",
-            "Фермеры состригли шерсть с овец.",
-            "обучение стрижке овец",
-            "Овцы беспокойно бегали туда-сюда.",
-            "Двум смертям не бывать, а одной не миновать.",
-            "На овец надели ярлыки прежде чем отпустили пастись.",
-            "Вскоре Ларри вызвали помогать отбраковывать овец."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "sheep": {
+    "comment": [
+      "sheet",
+      "wheel",
+      "heel",
+      "sheer",
+      "spreadsheet"
+    ],
+    "translate": "овца, баран, овчина, паства, овечья шкура, робкий человек, застенчивый человек",
+    "transcription": " |ʃiːp|",
+    "antonyms": [],
+    "mnemonic": [
+      "sheep [ши:п] овца - Овцы (щип-ают) траву."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "A young sheep is a lamb.",
+        "ru": "Детёныш овцы называется ягнёнком.",
+        "learn": 1
+      },
+      {
+        "eng": "cheese made from sheep's milk",
+        "ru": "сыр из овечьего молока",
+        "learn": 1
+      },
+      {
+        "eng": "Sheep are tended by a shepherd.",
+        "ru": "Овец пасёт пастух.",
+        "learn": 0
+      },
+      {
+        "eng": "The meat of the sheep is mutton.",
+        "ru": "Мясо овцы - баранина.",
+        "learn": 0
+      },
+      {
+        "eng": "'Sheep' remains the same in the plural.",
+        "ru": "Слово \"овца\" (в английском языке) остается неизменным во множественном числе.",
+        "learn": 1
+      },
+      {
+        "eng": "These dogs were originally bred in Scotland to round up sheep.",
+        "ru": "Этих собак первоначально разводили в Шотландии для выгона овец. (чтобы они помогали пасти овец)",
+        "learn": 0
+      },
+      {
+        "eng": "People can clone a sheep nowadays.",
+        "ru": "Сегодня люди умеют клонировать овец.",
+        "learn": 1
+      },
+      {
+        "eng": "Sheep are usually fleeced in summer.",
+        "ru": "Овец обычно стригут летом.",
+        "learn": 0
+      },
+      {
+        "eng": "Wild sheep roam the hills.",
+        "ru": "По холмам бродят дикие овцы.",
+        "learn": 0
+      },
+      {
+        "eng": "The sheep were all shaved.",
+        "ru": "Все овцы были острижены.",
+        "learn": 0
+      },
+      {
+        "eng": "a dog that was molesting sheep",
+        "ru": "собака, которая нападала на овец",
+        "learn": 0
+      },
+      {
+        "eng": "The farmers sheared the sheep.",
+        "ru": "Фермеры постригли овец.",
+        "learn": 0
+      },
+      {
+        "eng": "the clone of an adult female sheep",
+        "ru": "клон взрослой овцы",
+        "learn": 0
+      },
+      {
+        "eng": "Sheep were grazing on the hillside.",
+        "ru": "На склоне холма паслись овцы.",
+        "learn": 0
+      },
+      {
+        "eng": "Most farmers in the area rear sheep.",
+        "ru": "Большинство фермеров этого района разводят овец.",
+        "learn": 0
+      },
+      {
+        "eng": "The land is perfect for sheep farming.",
+        "ru": "Эта земля идеально подходит для овцеводства.",
+        "learn": 1
+      },
+      {
+        "eng": "The owner's mark was on all the sheep.",
+        "ru": "Клеймо владельца стояло на всех овцах.",
+        "learn": 0
+      },
+      {
+        "eng": "I put some sheep in to pill the field.",
+        "ru": "Я пригнал несколько овец, чтобы они подчистили поле.",
+        "learn": 0
+      },
+      {
+        "eng": "The sheep huddled together for warmth.",
+        "ru": "Овцы сбились в кучу, чтобы было теплее.",
+        "learn": 0
+      },
+      {
+        "eng": "The sheep's wool will be spun into yarn.",
+        "ru": "Из овечьей шерсти спрядут пряжу.",
+        "learn": 0
+      },
+      {
+        "eng": "The run will depasture about 4000 sheep.",
+        "ru": "На пастбище можно пасти около 4000 овец.",
+        "learn": 0
+      },
+      {
+        "eng": "The sheep should dress about 75 lbs. each.",
+        "ru": "Выпотрошенные и очищенные туши овец должны весить около 75 фунтов каждая.",
+        "learn": 0
+      },
+      {
+        "eng": "The shepherd unpenned and freed the sheep.",
+        "ru": "Пастух выпустил овец из загона.",
+        "learn": 0
+      },
+      {
+        "eng": "Somehow the sheep had jumped over the fence.",
+        "ru": "Эта овца каким-то образом перебралась через забор.",
+        "learn": 0
+      },
+      {
+        "eng": "The farmers sheared the wool from the sheep.",
+        "ru": "Фермеры состригли шерсть с овец.",
+        "learn": 0
+      },
+      {
+        "eng": "learning how to shear the fleece off a sheep",
+        "ru": "обучение стрижке овец",
+        "learn": 0
+      },
+      {
+        "eng": "The sheep were all boxed up, running to and fro.",
+        "ru": "Овцы беспокойно бегали туда-сюда.",
+        "learn": 0
+      },
+      {
+        "eng": "As well be hanged for a sheep as (for) a lamb. посл.",
+        "ru": "Двум смертям не бывать, а одной не миновать.",
+        "learn": 0
+      },
+      {
+        "eng": "Sheep were tagged before they were let out to grass.",
+        "ru": "На овец надели ярлыки прежде чем отпустили пастись.",
+        "learn": 0
+      },
+      {
+        "eng": "Presently Larry was summoned to help draft the sheep.",
+        "ru": "Вскоре Ларри вызвали помогать отбраковывать овец.",
+        "learn": 0
+      }
+    ]
+  }
 }

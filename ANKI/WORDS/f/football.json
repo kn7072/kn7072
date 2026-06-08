@@ -1,96 +1,182 @@
 {
-    "football": {
-        "comment": [
-            "ball",
-            "baseball",
-            "basketball",
-            "recall",
-            "hall",
-            "tall",
-            "fall",
-            "all",
-            "small",
-            "call",
-            "wall",
-            "overall",
-            "install",
-            "shall",
-            "stall",
-            "mall",
-            "waterfall"
-        ],
-        "translate": "футбол, футбольный мяч, футбольный",
-        "transcription": " |ˈfʊtbɔːl|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The boys wanted to play football.",
-            "My son's wild about football.",
-            "He hurt his knee playing football.",
-            "Dan's crazy about football.",
-            "What football team do you support?",
-            "His life revolves around football.",
-            "Manchester United Football Club.",
-            "He played football in high school.",
-            "This guy is good football material.",
-            "Bessie knew nothing about football.",
-            "He broke his nose playing football.",
-            "Which football team do you support?",
-            "The football season finishes in May.",
-            "Football hooligans are just animals.",
-            "a spectacular play in a football game",
-            "Football was a religion in my family.",
-            "Football can be a very physical game.",
-            "The football field was 300 feet across.",
-            "The quarterback leads the football team.",
-            "He likes baseball, but he loves football.",
-            "the defensive platoon of the football team",
-            "Football occupies most of my leisure time.",
-            "a football team with a strong running game",
-            "Football fans began rioting in the streets.",
-            "Two football players collided on the field.",
-            "Bob is a repository of football statistics.",
-            "A football came crashing through the window.",
-            "They previewed the upcoming football season.",
-            "They tried not to foul up the football play.",
-            "The football game is a Thanksgiving classic."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ребята захотели поиграть в футбол.",
-            "Мой сын просто без ума от футбола.",
-            "Он ушиб колено, играя в футбол.",
-            "Дэн помешан на футболе.",
-            "За какую футбольную команду вы болеете?",
-            "Вся его жизнь занята футболом.",
-            "Футбольный клуб \"Манчестер Юнайтед\".",
-            "В старшей школе он играл в футбол.",
-            "У этого парня задатки неплохого футболиста.",
-            "Бесси ничего не понимала в футболе.",
-            "Он сломал нос, когда играл в футбол.",
-            "За какую футбольную команду вы болеете?",
-            "Футбольный сезон заканчивается в мае.",
-            "Футбольные хулиганы — это просто животные.",
-            "зрелищная /эффектная/ комбинация в футбольной игре",
-            "В моей семье футбол был своего рода святыней.",
-            "Футбол иногда бывает очень контактным.",
-            "Футбольное поле было триста футов в поперечнике.",
-            "Защитник возглавляет свою команду.",
-            "Он любит бейсбол, но футбол он просто обожает.",
-            "оборонительная группа команды по американскому футболу (в этой игре обороной и нападением, как правило, занимаются два разных состава команды)",
-            "Футбол занимает большую часть моего свободного времени /досуга/.",
-            "команда по американскому футболу с сильным выносным нападением",
-            "Футбольные фанаты начали бесчинствовать на улицах.",
-            "Два футболиста столкнулись на поле.",
-            "Боб — это ходячая энциклопедия /кладезь/ футбольной статистики.",
-            "В окно со звоном влетел футбольный мяч.",
-            "Они анонсировали предстоящий футбольный сезон.",
-            "Они постарались не испортить эту футбольную комбинацию.",
-            "Этот футбольный матч традиционно проводится в День благодарения."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "football": {
+    "comment": [
+      "ball",
+      "baseball",
+      "basketball",
+      "recall",
+      "hall",
+      "tall",
+      "fall",
+      "all",
+      "small",
+      "call",
+      "wall",
+      "overall",
+      "install",
+      "shall",
+      "stall",
+      "mall",
+      "waterfall"
+    ],
+    "translate": "футбол, футбольный мяч, футбольный",
+    "transcription": " |ˈfʊtbɔːl|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The boys wanted to play football.",
+        "ru": "Ребята захотели поиграть в футбол.",
+        "learn": 0
+      },
+      {
+        "eng": "My son's wild about football.",
+        "ru": "Мой сын просто без ума от футбола.",
+        "learn": 1
+      },
+      {
+        "eng": "He hurt his knee playing football.",
+        "ru": "Он ушиб колено, играя в футбол.",
+        "learn": 1
+      },
+      {
+        "eng": "Dan's crazy about football.",
+        "ru": "Дэн помешан на футболе.",
+        "learn": 0
+      },
+      {
+        "eng": "What football team do you support?",
+        "ru": "За какую футбольную команду вы болеете?",
+        "learn": 0
+      },
+      {
+        "eng": "His life revolves around football.",
+        "ru": "Вся его жизнь занята футболом.",
+        "learn": 0
+      },
+      {
+        "eng": "Manchester United Football Club.",
+        "ru": "Футбольный клуб \"Манчестер Юнайтед\".",
+        "learn": 0
+      },
+      {
+        "eng": "He played football in high school.",
+        "ru": "В старшей школе он играл в футбол.",
+        "learn": 0
+      },
+      {
+        "eng": "This guy is good football material.",
+        "ru": "У этого парня задатки неплохого футболиста.",
+        "learn": 0
+      },
+      {
+        "eng": "Bessie knew nothing about football.",
+        "ru": "Бесси ничего не понимала в футболе.",
+        "learn": 0
+      },
+      {
+        "eng": "He broke his nose playing football.",
+        "ru": "Он сломал нос, когда играл в футбол.",
+        "learn": 0
+      },
+      {
+        "eng": "Which football team do you support?",
+        "ru": "За какую футбольную команду вы болеете?",
+        "learn": 0
+      },
+      {
+        "eng": "The football season finishes in May.",
+        "ru": "Футбольный сезон заканчивается в мае.",
+        "learn": 0
+      },
+      {
+        "eng": "Football hooligans are just animals.",
+        "ru": "Футбольные хулиганы — это просто животные.",
+        "learn": 0
+      },
+      {
+        "eng": "a spectacular play in a football game",
+        "ru": "зрелищная /эффектная/ комбинация в футбольной игре",
+        "learn": 0
+      },
+      {
+        "eng": "Football was a religion in my family.",
+        "ru": "В моей семье футбол был своего рода святыней.",
+        "learn": 0
+      },
+      {
+        "eng": "Football can be a very physical game.",
+        "ru": "Футбол иногда бывает очень контактным.",
+        "learn": 0
+      },
+      {
+        "eng": "The football field was 300 feet across.",
+        "ru": "Футбольное поле было триста футов в поперечнике.",
+        "learn": 1
+      },
+      {
+        "eng": "The quarterback leads the football team.",
+        "ru": "Защитник возглавляет свою команду.",
+        "learn": 0
+      },
+      {
+        "eng": "He likes baseball, but he loves football.",
+        "ru": "Он любит бейсбол, но футбол он просто обожает.",
+        "learn": 0
+      },
+      {
+        "eng": "the defensive platoon of the football team",
+        "ru": "оборонительная группа команды по американскому футболу (в этой игре обороной и нападением, как правило, занимаются два разных состава команды)",
+        "learn": 0
+      },
+      {
+        "eng": "Football occupies most of my leisure time.",
+        "ru": "Футбол занимает большую часть моего свободного времени /досуга/.",
+        "learn": 1
+      },
+      {
+        "eng": "a football team with a strong running game",
+        "ru": "команда по американскому футболу с сильным выносным нападением",
+        "learn": 0
+      },
+      {
+        "eng": "Football fans began rioting in the streets.",
+        "ru": "Футбольные фанаты начали бесчинствовать на улицах.",
+        "learn": 0
+      },
+      {
+        "eng": "Two football players collided on the field.",
+        "ru": "Два футболиста столкнулись на поле.",
+        "learn": 0
+      },
+      {
+        "eng": "Bob is a repository of football statistics.",
+        "ru": "Боб — это ходячая энциклопедия /кладезь/ футбольной статистики.",
+        "learn": 0
+      },
+      {
+        "eng": "A football came crashing through the window.",
+        "ru": "В окно со звоном влетел футбольный мяч.",
+        "learn": 0
+      },
+      {
+        "eng": "They previewed the upcoming football season.",
+        "ru": "Они анонсировали предстоящий футбольный сезон.",
+        "learn": 0
+      },
+      {
+        "eng": "They tried not to foul up the football play.",
+        "ru": "Они постарались не испортить эту футбольную комбинацию.",
+        "learn": 0
+      },
+      {
+        "eng": "The football game is a Thanksgiving classic.",
+        "ru": "Этот футбольный матч традиционно проводится в День благодарения.",
+        "learn": 0
+      }
+    ]
+  }
 }

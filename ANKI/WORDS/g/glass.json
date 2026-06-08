@@ -1,85 +1,172 @@
 {
-    "glass": {
-        "comment": [
-            "glasses",
-            "grass"
-        ],
-        "translate": "стекло, стакан, зеркало, стеклить, стеклянный",
-        "transcription": " |ɡlæs|",
-        "antonyms": [],
-        "mnemonic": [
-            "glass [глас] стекло - Сте- кляный (глаз).",
-            "glass [glɑ: s]\nglasses ['ɡlɑ:sɪz] - очки\n***\nЧерез СТЕКЛО увидел глаз. (это) glass\nВ СТАКАНЕ он увидел глаз. (это) glass\n***\nВозьми стакан \"glass\",\nотнеси его в класс \"class\"."
-        ],
-        "examples": [
-            "a big glass of soda",
-            "I poured him a glass of water.",
-            "Mind the broken glass.",
-            "a glass of milk and a cookie",
-            "He heard the smash of glass.",
-            "a small glass of soda",
-            "She collected old glass.",
-            "The glass cracked.",
-            "Fill the glass with ice.",
-            "a large glass of water",
-            "Venetian glass",
-            "She poured a glass of wine.",
-            "Be careful with that glass.",
-            "I need a new pair of glasses.",
-            "She drank two glasses of water.",
-            "The glass flew into pieces.",
-            "A glass of house red, please.",
-            "She filled the glass and drank.",
-            "The waiter filled our glasses with water.",
-            "Set the glass on a coaster.",
-            "May I fill your glass for you?",
-            "That wet glass will mark the table.",
-            "Keep a glass of water within reach.",
-            "He took a long drink from his glass.",
-            "The wine glass shattered",
-            "a glass brimful of red wine",
-            "soda pop fizzing in the glass",
-            "The soda foamed in the glass.",
-            "The ice tinkled in the glass.",
-            "a cold brew in a frosty glass"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "большой стакан газировки",
-            "Я налил ему стакан воды.",
-            "Осторожно, битое стекло!",
-            "стакан молока и печенька",
-            "Он услышал, как разбилось стекло.",
-            "стаканчик газировки",
-            "Она коллекционировала старинные изделия из стекла.",
-            "Стекло треснуло.",
-            "Наполните бокал /стакан/ льдом.",
-            "большой стакан воды",
-            "венецианское стекло",
-            "Она налила бокал вина.",
-            "Будьте осторожны с этим стеклом.",
-            "Мне нужны новые очки.",
-            "Она выпила два стакана воды.",
-            "Стекло разбилось вдребезги.",
-            "Стакан красного вина из бочки, пожалуйста.",
-            "Она наполнила стакан и выпила.",
-            "Официант наполнил наши бокалы водой.",
-            "Стакан поставьте на подставку.",
-            "Можно наполнить ваш бокал?",
-            "Этот мокрый стакан оставит след на столе.",
-            "Держите под рукой стакан воды.",
-            "Он сделал большой глоток из своего стакана.",
-            "Винный бокал разлетелся вдребезги.",
-            "наполненный до краёв бокал красного вина",
-            "шипящая в стакане газировка",
-            "Газировка в стакане пенилась.",
-            "Лед позвякивал в стакане.",
-            "холодное пиво в ледяной кружке (амер.)"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "a(закр_сл)_=_[ɑː]"
-        ]
-    }
+  "glass": {
+    "comment": [
+      "glasses",
+      "grass"
+    ],
+    "translate": "стекло, стакан, зеркало, стеклить, стеклянный",
+    "transcription": " |ɡlæs|",
+    "antonyms": [],
+    "mnemonic": [
+      "glass [глас] стекло - Сте- кляный (глаз).",
+      "glass [glɑ: s]\nglasses ['ɡlɑ:sɪz] - очки\n***\nЧерез СТЕКЛО увидел глаз. (это) glass\nВ СТАКАНЕ он увидел глаз. (это) glass\n***\nВозьми стакан \"glass\",\nотнеси его в класс \"class\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "a(закр_сл)_=_[ɑː]"
+    ],
+    "examples": [
+      {
+        "eng": "a big glass of soda",
+        "ru": "большой стакан газировки",
+        "learn": 0
+      },
+      {
+        "eng": "I poured him a glass of water.",
+        "ru": "Я налил ему стакан воды.",
+        "learn": 0
+      },
+      {
+        "eng": "Mind the broken glass.",
+        "ru": "Осторожно, битое стекло!",
+        "learn": 0
+      },
+      {
+        "eng": "a glass of milk and a cookie",
+        "ru": "стакан молока и печенька",
+        "learn": 0
+      },
+      {
+        "eng": "He heard the smash of glass.",
+        "ru": "Он услышал, как разбилось стекло.",
+        "learn": 0
+      },
+      {
+        "eng": "a small glass of soda",
+        "ru": "стаканчик газировки",
+        "learn": 0
+      },
+      {
+        "eng": "She collected old glass.",
+        "ru": "Она коллекционировала старинные изделия из стекла.",
+        "learn": 0
+      },
+      {
+        "eng": "The glass cracked.",
+        "ru": "Стекло треснуло.",
+        "learn": 0
+      },
+      {
+        "eng": "Fill the glass with ice.",
+        "ru": "Наполните бокал /стакан/ льдом.",
+        "learn": 1
+      },
+      {
+        "eng": "a large glass of water",
+        "ru": "большой стакан воды",
+        "learn": 0
+      },
+      {
+        "eng": "Venetian glass",
+        "ru": "венецианское стекло",
+        "learn": 0
+      },
+      {
+        "eng": "She poured a glass of wine.",
+        "ru": "Она налила бокал вина.",
+        "learn": 0
+      },
+      {
+        "eng": "Be careful with that glass.",
+        "ru": "Будьте осторожны с этим стеклом.",
+        "learn": 0
+      },
+      {
+        "eng": "I need a new pair of glasses.",
+        "ru": "Мне нужны новые очки.",
+        "learn": 1
+      },
+      {
+        "eng": "She drank two glasses of water.",
+        "ru": "Она выпила два стакана воды.",
+        "learn": 0
+      },
+      {
+        "eng": "The glass flew into pieces.",
+        "ru": "Стекло разбилось вдребезги.",
+        "learn": 0
+      },
+      {
+        "eng": "A glass of house red, please.",
+        "ru": "Стакан красного вина из бочки, пожалуйста.",
+        "learn": 0
+      },
+      {
+        "eng": "She filled the glass and drank.",
+        "ru": "Она наполнила стакан и выпила.",
+        "learn": 0
+      },
+      {
+        "eng": "The waiter filled our glasses with water.",
+        "ru": "Официант наполнил наши бокалы водой.",
+        "learn": 0
+      },
+      {
+        "eng": "Set the glass on a coaster.",
+        "ru": "Стакан поставьте на подставку.",
+        "learn": 0
+      },
+      {
+        "eng": "May I fill your glass for you?",
+        "ru": "Можно наполнить ваш бокал?",
+        "learn": 0
+      },
+      {
+        "eng": "That wet glass will mark the table.",
+        "ru": "Этот мокрый стакан оставит след на столе.",
+        "learn": 0
+      },
+      {
+        "eng": "Keep a glass of water within reach.",
+        "ru": "Держите под рукой стакан воды.",
+        "learn": 0
+      },
+      {
+        "eng": "He took a long drink from his glass.",
+        "ru": "Он сделал большой глоток из своего стакана.",
+        "learn": 0
+      },
+      {
+        "eng": "The wine glass shattered",
+        "ru": "Винный бокал разлетелся вдребезги.",
+        "learn": 0
+      },
+      {
+        "eng": "a glass brimful of red wine",
+        "ru": "наполненный до краёв бокал красного вина",
+        "learn": 0
+      },
+      {
+        "eng": "soda pop fizzing in the glass",
+        "ru": "шипящая в стакане газировка",
+        "learn": 0
+      },
+      {
+        "eng": "The soda foamed in the glass.",
+        "ru": "Газировка в стакане пенилась.",
+        "learn": 0
+      },
+      {
+        "eng": "The ice tinkled in the glass.",
+        "ru": "Лед позвякивал в стакане.",
+        "learn": 0
+      },
+      {
+        "eng": "a cold brew in a frosty glass",
+        "ru": "холодное пиво в ледяной кружке (амер.)",
+        "learn": 0
+      }
+    ]
+  }
 }

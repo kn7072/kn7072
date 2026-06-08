@@ -1,87 +1,175 @@
 {
-    "apply": {
-        "comment": [
-            "apple",
-            "application",
-            "applied",
-            "applicable",
-            "appliance",
-            "applicant"
-        ],
-        "translate": "применять, относиться, использовать, обращаться, прикладывать, касаться, прилагать",
-        "transcription": " |əˈplaɪ|",
-        "antonyms": [],
-        "mnemonic": [
-            "apply [ə'plaɪ]\nply [plaɪ] - заниматься, курсировать., сгиб, складка\nimply [ɪm'plaɪ]\n***\nПОДАЙ ЗАЯВЛЕНИЕ, чтобы дали тепла (й). (это)\napply\nПРОСИМ, чтоб дали тепла (й). (это) apply\nПРИМЕНИМ грелку для тепла (й). (это) apply\n***\nЭто ОЗНАЧАЕТ, что дадим им|план. (это) imply"
-        ],
-        "examples": [
-            "This rule applies to all.",
-            "Wet your hair and apply the shampoo.",
-            "What I am saying does not apply to you.",
-            "This rule does not always apply.",
-            "The rule does not apply to this case.",
-            "For further information, apply to the address below.",
-            "I, undersigned, hereby apply...",
-            "I apply this rule to get good results.",
-            "Apply the cream evenly over the skin.",
-            "You'll have to get a medical before you apply for that job.",
-            "We applied to the authorities for assistance.",
-            "She applied for a job with the local newspaper.",
-            "It's ridiculous to apply for that position.",
-            "The same laws apply to you!",
-            "She applied herself to her new duties with great energy.",
-            "Apply shampoo and massage into a rich lather.",
-            "How can we apply this new technology to our everyday lives?",
-            "These ideas are often difficult to apply in practice.",
-            "The best way to treat such bleeding is to apply firm pressure.",
-            "Candidates can apply in person or send a resume.",
-            "New technology is being applied to almost every industrial process.",
-            "We applied the ointment to the cut.",
-            "I washed my face and applied fresh makeup.",
-            "Both boys and girls can apply to join the choir.",
-            "Employees are invited to apply for the new position.",
-            "I applied in writing to several different companies.",
-            "Apply pressure to the wound to stop the bleeding.",
-            "The term 'mat' can be applied to any small rug.",
-            "Many apparatuses were designed to apply electricity.",
-            "The captain applied to headquarters for a transfer."
-        ],
-        "example_translate": [
-            "Это правило относится ко всем.",
-            "Намочите волосы и нанесите шампунь.",
-            "То, что я сейчас говорю, к вам не относится.",
-            "Это правило не всегда применимо.",
-            "Это правило неприменимо к данному случаю.",
-            "За дополнительной информацией следует обращаться по адресу, указанному ниже.",
-            "Я, нижеподписавшийся, настоящим заявляю...",
-            "Я применяю это правило, чтобы получить хорошие результаты.",
-            "Равномерно нанесите крем на кожу.",
-            "Перед тем, как подавать заявление о приме на эту работу, вам придется пройти медосмотр.",
-            "Мы обратились за помощью к властям.",
-            "Она подала заявление на работу в местной газете.",
-            "Требовать такого места — смехотворно.",
-            "Эти же законы касаются и вас!",
-            "Она приступила к своим новым обязанностям с большим рвением.",
-            "Нанесите шампунь и взбейте его в густую пену.",
-            "Как мы можем применить эти новые технологии в нашей повседневной жизни?",
-            "Эти идеи зачастую сложно применить на практике.",
-            "Наилучший способ остановить такое кровотечение — наложить плотную повязку.",
-            "Соискатели могут подать заявление лично или отправить резюме.",
-            "Новая технология применяется практически во всех производственных процессах.",
-            "Мы нанесли мазь на порез.",
-            "Я умылась и нанесла свежий макияж.",
-            "Подать заявку на участие в хоре могут как мальчики, так и девочки.",
-            "Сотрудники приглашаются к подаче заявлений на новую должность.",
-            "Я написал в несколько различных компаний.",
-            "Придавите чем-нибудь рану, чтобы остановить кровотечение.",
-            "Термин \"коврик\" может быть применён к любому небольшому ковру.",
-            "Для выработки электричества было изобретено много приборов.",
-            "Капитан подал в штаб рапорт о переводе на другое место службы."
-        ],
-        "synonyms": [],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "apply": {
+    "comment": [
+      "apple",
+      "application",
+      "applied",
+      "applicable",
+      "appliance",
+      "applicant"
+    ],
+    "translate": "применять, относиться, использовать, обращаться, прикладывать, касаться, прилагать",
+    "transcription": " |əˈplaɪ|",
+    "antonyms": [],
+    "mnemonic": [
+      "apply [ə'plaɪ]\nply [plaɪ] - заниматься, курсировать., сгиб, складка\nimply [ɪm'plaɪ]\n***\nПОДАЙ ЗАЯВЛЕНИЕ, чтобы дали тепла (й). (это)\napply\nПРОСИМ, чтоб дали тепла (й). (это) apply\nПРИМЕНИМ грелку для тепла (й). (это) apply\n***\nЭто ОЗНАЧАЕТ, что дадим им|план. (это) imply"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "infinitive_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "This rule applies to all.",
+        "ru": "Это правило относится ко всем.",
+        "learn": 0
+      },
+      {
+        "eng": "Wet your hair and apply the shampoo.",
+        "ru": "Намочите волосы и нанесите шампунь.",
+        "learn": 0
+      },
+      {
+        "eng": "What I am saying does not apply to you.",
+        "ru": "То, что я сейчас говорю, к вам не относится.",
+        "learn": 0
+      },
+      {
+        "eng": "This rule does not always apply.",
+        "ru": "Это правило не всегда применимо.",
+        "learn": 0
+      },
+      {
+        "eng": "The rule does not apply to this case.",
+        "ru": "Это правило неприменимо к данному случаю.",
+        "learn": 0
+      },
+      {
+        "eng": "For further information, apply to the address below.",
+        "ru": "За дополнительной информацией следует обращаться по адресу, указанному ниже.",
+        "learn": 0
+      },
+      {
+        "eng": "I, undersigned, hereby apply...",
+        "ru": "Я, нижеподписавшийся, настоящим заявляю...",
+        "learn": 0
+      },
+      {
+        "eng": "I apply this rule to get good results.",
+        "ru": "Я применяю это правило, чтобы получить хорошие результаты.",
+        "learn": 1
+      },
+      {
+        "eng": "Apply the cream evenly over the skin.",
+        "ru": "Равномерно нанесите крем на кожу.",
+        "learn": 0
+      },
+      {
+        "eng": "You'll have to get a medical before you apply for that job.",
+        "ru": "Перед тем, как подавать заявление о приме на эту работу, вам придется пройти медосмотр.",
+        "learn": 0
+      },
+      {
+        "eng": "We applied to the authorities for assistance.",
+        "ru": "Мы обратились за помощью к властям.",
+        "learn": 0
+      },
+      {
+        "eng": "She applied for a job with the local newspaper.",
+        "ru": "Она подала заявление на работу в местной газете.",
+        "learn": 0
+      },
+      {
+        "eng": "It's ridiculous to apply for that position.",
+        "ru": "Требовать такого места — смехотворно.",
+        "learn": 0
+      },
+      {
+        "eng": "The same laws apply to you!",
+        "ru": "Эти же законы касаются и вас!",
+        "learn": 0
+      },
+      {
+        "eng": "She applied herself to her new duties with great energy.",
+        "ru": "Она приступила к своим новым обязанностям с большим рвением.",
+        "learn": 0
+      },
+      {
+        "eng": "Apply shampoo and massage into a rich lather.",
+        "ru": "Нанесите шампунь и взбейте его в густую пену.",
+        "learn": 0
+      },
+      {
+        "eng": "How can we apply this new technology to our everyday lives?",
+        "ru": "Как мы можем применить эти новые технологии в нашей повседневной жизни?",
+        "learn": 0
+      },
+      {
+        "eng": "These ideas are often difficult to apply in practice.",
+        "ru": "Эти идеи зачастую сложно применить на практике.",
+        "learn": 0
+      },
+      {
+        "eng": "The best way to treat such bleeding is to apply firm pressure.",
+        "ru": "Наилучший способ остановить такое кровотечение — наложить плотную повязку.",
+        "learn": 0
+      },
+      {
+        "eng": "Candidates can apply in person or send a resume.",
+        "ru": "Соискатели могут подать заявление лично или отправить резюме.",
+        "learn": 0
+      },
+      {
+        "eng": "New technology is being applied to almost every industrial process.",
+        "ru": "Новая технология применяется практически во всех производственных процессах.",
+        "learn": 0
+      },
+      {
+        "eng": "We applied the ointment to the cut.",
+        "ru": "Мы нанесли мазь на порез.",
+        "learn": 0
+      },
+      {
+        "eng": "I washed my face and applied fresh makeup.",
+        "ru": "Я умылась и нанесла свежий макияж.",
+        "learn": 1
+      },
+      {
+        "eng": "Both boys and girls can apply to join the choir.",
+        "ru": "Подать заявку на участие в хоре могут как мальчики, так и девочки.",
+        "learn": 0
+      },
+      {
+        "eng": "Employees are invited to apply for the new position.",
+        "ru": "Сотрудники приглашаются к подаче заявлений на новую должность.",
+        "learn": 0
+      },
+      {
+        "eng": "I applied in writing to several different companies.",
+        "ru": "Я написал в несколько различных компаний.",
+        "learn": 0
+      },
+      {
+        "eng": "Apply pressure to the wound to stop the bleeding.",
+        "ru": "Придавите чем-нибудь рану, чтобы остановить кровотечение.",
+        "learn": 0
+      },
+      {
+        "eng": "The term 'mat' can be applied to any small rug.",
+        "ru": "Термин \"коврик\" может быть применён к любому небольшому ковру.",
+        "learn": 0
+      },
+      {
+        "eng": "Many apparatuses were designed to apply electricity.",
+        "ru": "Для выработки электричества было изобретено много приборов.",
+        "learn": 0
+      },
+      {
+        "eng": "The captain applied to headquarters for a transfer.",
+        "ru": "Капитан подал в штаб рапорт о переводе на другое место службы.",
+        "learn": 1
+      }
+    ]
+  }
 }

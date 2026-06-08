@@ -1,87 +1,176 @@
 {
-    "lose": {
-        "comment": [
-            "loose",
-            "loss",
-            "lost",
-            "glossy"
-        ],
-        "translate": "терять, проигрывать, упускать, утрачивать, лишаться, лишать, забывать, заблудиться",
-        "transcription": " |luːz|",
-        "antonyms": [],
-        "mnemonic": [
-            "lose [лу:з] терять - Шар затерялся в (луз-е).",
-            "lose [lu: z] - утратить, упустить, опоздать\nloser ['lu:zə] - проигравший, теряющий\nloose [lu: s] - свободный\n***\nНе ТЕРЯЙ красивых блуз. (это) lose\nНе ношу СВОБОДНЫХ блуз. (это) loose"
-        ],
-        "examples": [
-            "I lost myself in this city.",
-            "People lose their hair.",
-            "I've lost my appetite.",
-            "We may lose on it.",
-            "It lost him his head.",
-            "Charles I lost his head.",
-            "He lost his pursuers.",
-            "Go on! There isn't a moment to lose!",
-            "I lost my driving licence.",
-            "She kept the diet to lose some weight.",
-            "He lost all his relatives.",
-            "The team lost in the finals.",
-            "I've lost my jacket somewhere.",
-            "She's always losing her gloves.",
-            "There is not a moment to lose.",
-            "It's a great deal — we can't lose!",
-            "He never loses a single thing I say.",
-            "She hardly deserves to lose her job.",
-            "My watch loses three minutes every hour.",
-            "The plane lost it's altitude.",
-            "The ship was lost on the reef.",
-            "Julian lost his balance and fell.",
-            "I've never seen him lose his temper.",
-            "We lost the game by a score of 4–2.",
-            "The vessel got lost in the open sea.",
-            "The government lost by one vote.",
-            "I rarely lose a left-hand glove.",
-            "He lost his title in the rematch.",
-            "He lost the cops after him.",
-            "He didn't lose his time in eating."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я заблудился в этом городе.",
-            "Люди лысеют.",
-            "Я потеряла аппетит.",
-            "Мы можем на этом погореть.",
-            "Это стоило ему головы.",
-            "Карла I обезглавили.",
-            "Он оторвался от своих преследователей.",
-            "Поспеши! Нельзя терять ни минуты.",
-            "Я потерял водительские права.",
-            "Она сидела на диете, чтобы похудеть.",
-            "Он потерял всех своих родственников.",
-            "Команда проиграла в финале.",
-            "Я куда-то задевал куртку.",
-            "Она постоянно теряет перчатки.",
-            "Нельзя терять ни минуты.",
-            "Сделка отличная — проиграть невозможно!",
-            "Он никогда не пропускает ни слова из того, что я говорю.",
-            "Едва ли она заслуживает увольнения.",
-            "Мои часы каждый час отстают на три минуты.",
-            "Самолёт потерял высоту.",
-            "Корабль потерпел крушение на рифах.",
-            "Джулиан потерял равновесие и упал.",
-            "Я никогда не видел, чтобы он вышел из себя /потерял самообладание/.",
-            "Мы проиграли этот матч со счётом 4-2.",
-            "Судно пропало в открытом море.",
-            "Правительство проиграло с разрывом в один голос.",
-            "Я редко теряю перчатку с левой руки.",
-            "Он потерял свой титул в матче-реванше.",
-            "Ему удалось отделаться от преследующих полицейских.",
-            "На еду он не тратил много времени."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "o_=_[u(:)]"
-        ]
-    }
+  "lose": {
+    "comment": [
+      "lost |lɔːst|,                                          lost |lɔːst|",
+      "loose",
+      "loss",
+      "lost",
+      "glossy"
+    ],
+    "translate": "терять, проигрывать, упускать, утрачивать, лишаться, лишать, забывать, заблудиться",
+    "transcription": " |luːz|",
+    "antonyms": [],
+    "mnemonic": [
+      "lose [лу:з] терять - Шар затерялся в (луз-е).",
+      "lose [lu: z] - утратить, упустить, опоздать\nloser ['lu:zə] - проигравший, теряющий\nloose [lu: s] - свободный\n***\nНе ТЕРЯЙ красивых блуз. (это) lose\nНе ношу СВОБОДНЫХ блуз. (это) loose"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "o_=_[u(:)]",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I lost myself in this city.",
+        "ru": "Я заблудился в этом городе.",
+        "learn": 0
+      },
+      {
+        "eng": "People lose their hair.",
+        "ru": "Люди лысеют.",
+        "learn": 0
+      },
+      {
+        "eng": "I've lost my appetite.",
+        "ru": "Я потеряла аппетит.",
+        "learn": 0
+      },
+      {
+        "eng": "We may lose on it.",
+        "ru": "Мы можем на этом погореть.",
+        "learn": 0
+      },
+      {
+        "eng": "It lost him his head.",
+        "ru": "Это стоило ему головы.",
+        "learn": 0
+      },
+      {
+        "eng": "Charles I lost his head.",
+        "ru": "Карла I обезглавили.",
+        "learn": 0
+      },
+      {
+        "eng": "He lost his pursuers.",
+        "ru": "Он оторвался от своих преследователей.",
+        "learn": 0
+      },
+      {
+        "eng": "Go on! There isn't a moment to lose!",
+        "ru": "Поспеши! Нельзя терять ни минуты.",
+        "learn": 0
+      },
+      {
+        "eng": "I lost my driving licence.",
+        "ru": "Я потерял водительские права.",
+        "learn": 0
+      },
+      {
+        "eng": "She kept the diet to lose some weight.",
+        "ru": "Она сидела на диете, чтобы похудеть.",
+        "learn": 1
+      },
+      {
+        "eng": "He lost all his relatives.",
+        "ru": "Он потерял всех своих родственников.",
+        "learn": 0
+      },
+      {
+        "eng": "The team lost in the finals.",
+        "ru": "Команда проиграла в финале.",
+        "learn": 0
+      },
+      {
+        "eng": "I've lost my jacket somewhere.",
+        "ru": "Я куда-то задевал куртку.",
+        "learn": 0
+      },
+      {
+        "eng": "She's always losing her gloves.",
+        "ru": "Она постоянно теряет перчатки.",
+        "learn": 0
+      },
+      {
+        "eng": "There is not a moment to lose.",
+        "ru": "Нельзя терять ни минуты.",
+        "learn": 0
+      },
+      {
+        "eng": "It's a great deal — we can't lose!",
+        "ru": "Сделка отличная — проиграть невозможно!",
+        "learn": 0
+      },
+      {
+        "eng": "He never loses a single thing I say.",
+        "ru": "Он никогда не пропускает ни слова из того, что я говорю.",
+        "learn": 0
+      },
+      {
+        "eng": "She hardly deserves to lose her job.",
+        "ru": "Едва ли она заслуживает увольнения.",
+        "learn": 0
+      },
+      {
+        "eng": "My watch loses three minutes every hour.",
+        "ru": "Мои часы каждый час отстают на три минуты.",
+        "learn": 0
+      },
+      {
+        "eng": "The plane lost it's altitude.",
+        "ru": "Самолёт потерял высоту.",
+        "learn": 1
+      },
+      {
+        "eng": "The ship was lost on the reef.",
+        "ru": "Корабль потерпел крушение на рифах.",
+        "learn": 0
+      },
+      {
+        "eng": "Julian lost his balance and fell.",
+        "ru": "Джулиан потерял равновесие и упал.",
+        "learn": 0
+      },
+      {
+        "eng": "I've never seen him lose his temper.",
+        "ru": "Я никогда не видел, чтобы он вышел из себя /потерял самообладание/.",
+        "learn": 0
+      },
+      {
+        "eng": "We lost the game by a score of 4–2.",
+        "ru": "Мы проиграли этот матч со счётом 4-2.",
+        "learn": 0
+      },
+      {
+        "eng": "The vessel got lost in the open sea.",
+        "ru": "Судно пропало в открытом море.",
+        "learn": 0
+      },
+      {
+        "eng": "The government lost by one vote.",
+        "ru": "Правительство проиграло с разрывом в один голос.",
+        "learn": 0
+      },
+      {
+        "eng": "I rarely lose a left-hand glove.",
+        "ru": "Я редко теряю перчатку с левой руки.",
+        "learn": 1
+      },
+      {
+        "eng": "He lost his title in the rematch.",
+        "ru": "Он потерял свой титул в матче-реванше.",
+        "learn": 0
+      },
+      {
+        "eng": "He lost the cops after him.",
+        "ru": "Ему удалось отделаться от преследующих полицейских.",
+        "learn": 0
+      },
+      {
+        "eng": "He didn't lose his time in eating.",
+        "ru": "На еду он не тратил много времени.",
+        "learn": 0
+      }
+    ]
+  }
 }

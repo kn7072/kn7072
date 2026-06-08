@@ -1,91 +1,179 @@
 {
-    "appear": {
-        "comment": [
-            "appearance",
-            "disappear",
-            "appeal",
-            "appealing"
-        ],
-        "translate": "появляться, казаться, предстать, проявляться, выступать, показываться, являться",
-        "transcription": " |əˈpɪr|",
-        "antonyms": [],
-        "mnemonic": [
-            "appear [эпи'я] появляться - (А пия-вки) появляются ночью.",
-            "appear [ə'pɪə]\nappearance [ə'pɪərəns]\ndisappear [¸dɪsə'pɪə] - исчезать, теряться, пропадать\n***\nПОКАЗАЛСЯ кот в крапиве. (это) appear\nПОЯВИЛОСЬ в доме|пиво. (это) appear\n***\nВНЕШНИЙ ВИД, как у \"вампиренс\". (это) appearance\nПоявление, внешность.\n***\nЛетит копьё \"spear\",\nили мне кажется \"appear\"."
-        ],
-        "examples": [
-            "I don't want to appear rude.",
-            "Suddenly a face appeared at the window.",
-            "Small cracks appeared in the wall.",
-            "A man suddenly appeared from behind a tree.",
-            "Homo sapiens appeared about 400 000 years ago.",
-            "Two faces appeared at our window.",
-            "He suddenly appeared at the wedding.",
-            "It appears he is right.",
-            "She appeared to him in a dream.",
-            "He tried hard to appear calm.",
-            "She appears a nice enough person.",
-            "It appears (to me) that they will not come.",
-            "The article will appear in the next issue.",
-            "He appeared a few minutes before the end of the party.",
-            "A new star appeared on the horizon.",
-            "He failed to appear in court.",
-            "The right colours can make a small room appear much bigger.",
-            "Did your latest book appear yet?",
-            "The car seemed to appear from nowhere.",
-            "She appeared on television with the President.",
-            "She appeared in 'Hamlet' on the London stage",
-            "New courses are appearing every year.",
-            "He appeared a little before eight last night.",
-            "Speech appears in the child's first or second year.",
-            "She appeared against John in court.",
-            "He had to appear in court last month.",
-            "The two thieves will appear at the court tomorrow morning.",
-            "This was when sushi began to appear on restaurant menus in London.",
-            "Yet another band has appeared on the music scene.",
-            "One of the guests appeared a few minutes late."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я не хочу показаться грубым.",
-            "Неожиданно в окне появилось чьё-то лицо.",
-            "На стене появились небольшие трещины.",
-            "Вдруг из-за дерева появился мужчина.",
-            "Человек разумный появился около четырёхсот тысяч лет назад.",
-            "В нашем окне показались два лица.",
-            "Он неожиданно явился на свадьбу.",
-            "Кажется, он прав.",
-            "Она явилась ему во сне.",
-            "Он изо всех сил пытался казаться спокойным.",
-            "Она кажется довольно милой.",
-            "Мне кажется, что они не придут.",
-            "Статья будет опубликована в следующем номере.",
-            "Он появился за несколько минут до окончания вечеринки.",
-            "На горизонте появилась новая звезда.",
-            "Он не явился в суд.",
-            "Правильно подобранные цвета могут сделать маленькую комнату гораздо больше.",
-            "Ваша последняя книга уже вышла /появилась в продаже/?",
-            "Машина появилась как будто из ниоткуда.",
-            "Её показали по телевидению вместе с президентом.",
-            "Она сыграла в \"Гамлете\" на лондонской сцене.",
-            "Каждый год появляются новые курсы.",
-            "Вчера вечером он появился незадолго до восьми.",
-            "Дети начинают говорить лишь на втором году жизни.",
-            "Она выступила в суде против Джона.",
-            "В прошлом месяце ему пришлось явиться в суд.",
-            "Два вора предстанут перед судом завтра утром.",
-            "Это было время, когда суши ещё только-только появились в Лондоне.",
-            "В музыкальное тусовке возникла очередная группа.",
-            "Один из гостей на несколько минут опоздал."
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив_с_to_после_глаголов",
-            "ear_=_[ɪr]",
-            "Сложное_подлежащее",
-            "Инфинитив_-_сложное_подлежащее(действительный_залог)",
-            "all_words",
-            "Инфинитив"
-        ]
-    }
+  "appear": {
+    "comment": [
+      "appearance",
+      "disappear",
+      "appeal",
+      "appealing"
+    ],
+    "translate": "появляться, казаться, предстать, проявляться, выступать, показываться, являться",
+    "transcription": " |əˈpɪr|",
+    "antonyms": [],
+    "mnemonic": [
+      "appear [эпи'я] появляться - (А пия-вки) появляются ночью.",
+      "appear [ə'pɪə]\nappearance [ə'pɪərəns]\ndisappear [¸dɪsə'pɪə] - исчезать, теряться, пропадать\n***\nПОКАЗАЛСЯ кот в крапиве. (это) appear\nПОЯВИЛОСЬ в доме|пиво. (это) appear\n***\nВНЕШНИЙ ВИД, как у \"вампиренс\". (это) appearance\nПоявление, внешность.\n***\nЛетит копьё \"spear\",\nили мне кажется \"appear\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_с_to_после_глаголов",
+      "ear_=_[ɪr]",
+      "Сложное_подлежащее",
+      "Инфинитив_-_сложное_подлежащее(действительный_залог)",
+      "Инфинитив",
+      "infinitive_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "I don't want to appear rude.",
+        "ru": "Я не хочу показаться грубым.",
+        "learn": 0
+      },
+      {
+        "eng": "Suddenly a face appeared at the window.",
+        "ru": "Неожиданно в окне появилось чьё-то лицо.",
+        "learn": 0
+      },
+      {
+        "eng": "Small cracks appeared in the wall.",
+        "ru": "На стене появились небольшие трещины.",
+        "learn": 0
+      },
+      {
+        "eng": "A man suddenly appeared from behind a tree.",
+        "ru": "Вдруг из-за дерева появился мужчина.",
+        "learn": 0
+      },
+      {
+        "eng": "Homo sapiens appeared about 400 000 years ago.",
+        "ru": "Человек разумный появился около четырёхсот тысяч лет назад.",
+        "learn": 0
+      },
+      {
+        "eng": "Two faces appeared at our window.",
+        "ru": "В нашем окне показались два лица.",
+        "learn": 0
+      },
+      {
+        "eng": "He suddenly appeared at the wedding.",
+        "ru": "Он неожиданно явился на свадьбу.",
+        "learn": 1
+      },
+      {
+        "eng": "It appears he is right.",
+        "ru": "Кажется, он прав.",
+        "learn": 0
+      },
+      {
+        "eng": "She appeared to him in a dream.",
+        "ru": "Она явилась ему во сне.",
+        "learn": 1
+      },
+      {
+        "eng": "He tried hard to appear calm.",
+        "ru": "Он изо всех сил пытался казаться спокойным.",
+        "learn": 0
+      },
+      {
+        "eng": "She appears a nice enough person.",
+        "ru": "Она кажется довольно милой.",
+        "learn": 0
+      },
+      {
+        "eng": "It appears (to me) that they will not come.",
+        "ru": "Мне кажется, что они не придут.",
+        "learn": 0
+      },
+      {
+        "eng": "The article will appear in the next issue.",
+        "ru": "Статья будет опубликована в следующем номере.",
+        "learn": 0
+      },
+      {
+        "eng": "He appeared a few minutes before the end of the party.",
+        "ru": "Он появился за несколько минут до окончания вечеринки.",
+        "learn": 0
+      },
+      {
+        "eng": "A new star appeared on the horizon.",
+        "ru": "На горизонте появилась новая звезда.",
+        "learn": 0
+      },
+      {
+        "eng": "He failed to appear in court.",
+        "ru": "Он не явился в суд.",
+        "learn": 0
+      },
+      {
+        "eng": "The right colours can make a small room appear much bigger.",
+        "ru": "Правильно подобранные цвета могут сделать маленькую комнату гораздо больше.",
+        "learn": 0
+      },
+      {
+        "eng": "Did your latest book appear yet?",
+        "ru": "Ваша последняя книга уже вышла /появилась в продаже/?",
+        "learn": 1
+      },
+      {
+        "eng": "The car seemed to appear from nowhere.",
+        "ru": "Машина появилась как будто из ниоткуда.",
+        "learn": 0
+      },
+      {
+        "eng": "She appeared on television with the President.",
+        "ru": "Её показали по телевидению вместе с президентом.",
+        "learn": 0
+      },
+      {
+        "eng": "She appeared in 'Hamlet' on the London stage",
+        "ru": "Она сыграла в \"Гамлете\" на лондонской сцене.",
+        "learn": 0
+      },
+      {
+        "eng": "New courses are appearing every year.",
+        "ru": "Каждый год появляются новые курсы.",
+        "learn": 0
+      },
+      {
+        "eng": "He appeared a little before eight last night.",
+        "ru": "Вчера вечером он появился незадолго до восьми.",
+        "learn": 0
+      },
+      {
+        "eng": "Speech appears in the child's first or second year.",
+        "ru": "Дети начинают говорить лишь на втором году жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "She appeared against John in court.",
+        "ru": "Она выступила в суде против Джона.",
+        "learn": 0
+      },
+      {
+        "eng": "He had to appear in court last month.",
+        "ru": "В прошлом месяце ему пришлось явиться в суд.",
+        "learn": 0
+      },
+      {
+        "eng": "The two thieves will appear at the court tomorrow morning.",
+        "ru": "Два вора предстанут перед судом завтра утром.",
+        "learn": 0
+      },
+      {
+        "eng": "This was when sushi began to appear on restaurant menus in London.",
+        "ru": "Это было время, когда суши ещё только-только появились в Лондоне.",
+        "learn": 0
+      },
+      {
+        "eng": "Yet another band has appeared on the music scene.",
+        "ru": "В музыкальное тусовке возникла очередная группа.",
+        "learn": 0
+      },
+      {
+        "eng": "One of the guests appeared a few minutes late.",
+        "ru": "Один из гостей на несколько минут опоздал.",
+        "learn": 0
+      }
+    ]
+  }
 }

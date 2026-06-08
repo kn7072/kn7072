@@ -1,84 +1,167 @@
 {
-    "towel": {
-        "comment": [
-            "tower",
-            "lower",
-            "owe",
-            "vowel"
-        ],
-        "translate": "полотенце, вытирать полотенцем",
-        "transcription": " |ˈtaʊəl|",
-        "antonyms": [],
-        "mnemonic": [
-            "towel [та'уэл] полотенце - (Тау эл-ектрика) полотенце украла.",
-            "towel ['tauəl]\n***\nПОЛОТЕНЦЕ в ванной ты оставил. (это) towel"
-        ],
-        "examples": [
-            "I'll get a towel for you.",
-            "She dried her hands on the kitchen towel.",
-            "She dried her hair with a towel.",
-            "Undress the baby and wrap him in a towel.",
-            "He dried himself with the towel.",
-            "She tried to stanch the blood with a towel.",
-            "He mopped her forehead with a towel",
-            "She embroidered a towel for me.",
-            "Bring a towel and some spare clothes.",
-            "I wrung the towel and hung it up to dry.",
-            "I wrung my hair and wrapped it in a towel.",
-            "Throw me that towel, would you.",
-            "He patted the lettuce dry with a paper towel.",
-            "I tied a towel round his leg to try to stem the flow of blood.",
-            "'I'm afraid I forgot to bring a towel.' 'No matter, I've got one you can borrow.'",
-            "Hastily, she covered herself up with the towel.",
-            "As he bent over, the towel round his waist slipped.",
-            "He was drying his hair with a towel.",
-            "He had only a towel tied around his waist.",
-            "There was a towel wrapped around his loins.",
-            "The towel was soaking wet.",
-            "Have you got a clean towel I could use?",
-            "He quickly dried himself on the thin towel.",
-            "Don't rub the wine stain. Blot it dry with a paper towel.",
-            "The nanny acted quickly by grabbing the toddler and covering him with a wet towel.",
-            "Here's a towel to wipe up the spill.",
-            "He was holding a towel around his middle.",
-            "Jack emerged with a towel draped around him.",
-            "a used towel that he had used and had left thriftily on the ledge below the mirror rather than consign to the linen basket"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я принесу тебе полотенце.",
-            "Она вытерла ее руки кухонным полотенцем.",
-            "Она вытерла волосы полотенцем.",
-            "Разденьте ребенка и заверните его в полотенце.",
-            "Он вытерся полотенцем.",
-            "Она пыталась остановить кровь полотенцем.",
-            "Он вытер ей лоб полотенцем",
-            "Она вышила мне полотенце.",
-            "Возьмите с собой полотенце и сменную одежду.",
-            "Я выжал полотенце и повесил его сушиться.",
-            "Я отжала волосы и обернула их полотенцем.",
-            "Брось мне это полотенце, пожалуйста.",
-            "Он просушил салат-латук бумажным полотенцем.",
-            "Я обвязал его ногу полотенцем, пытаясь остановить кровотечение.",
-            "— К сожалению, я забыл взять с собой полотенце. — Неважно: у меня есть запасное, которое вы можете одолжить.",
-            "Она поспешно прикрылась полотенцем.",
-            "Когда он наклонился, полотенце соскользнуло с его талии.",
-            "Он сушил волосы, вытирая их полотенцем.",
-            "Он был только в полотенце, повязанном вокруг талии.",
-            "Вокруг его поясницы было обёрнуто полотенце.",
-            "Полотенце было очень мокрым.",
-            "Есть у вас чистое полотенце?",
-            "Он быстро вытерся тонким полотенцем.",
-            "Не трите винное пятно, а промокните его бумажной салфеткой.",
-            "Няня действовала быстро: схватила малыша и накрыла его мокрым полотенцем.",
-            "Вот полотенце, чтобы вытереть то, что разлито.",
-            "Он придерживал руками обвязанное вокруг талии полотенце.",
-            "Джек появился с полотенцем, обтянутой вокруг него.",
-            "использованное полотенце, которое он бережливо оставил на полке под зеркалом вместо того, чтобы отправить его в корзину с грязным бельём"
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "towel": {
+    "comment": [
+      "tower",
+      "lower",
+      "owe",
+      "vowel"
+    ],
+    "translate": "полотенце, вытирать полотенцем",
+    "transcription": " |ˈtaʊəl|",
+    "antonyms": [],
+    "mnemonic": [
+      "towel [та'уэл] полотенце - (Тау эл-ектрика) полотенце украла.",
+      "towel ['tauəl]\n***\nПОЛОТЕНЦЕ в ванной ты оставил. (это) towel"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I'll get a towel for you.",
+        "ru": "Я принесу тебе полотенце.",
+        "learn": 0
+      },
+      {
+        "eng": "She dried her hands on the kitchen towel.",
+        "ru": "Она вытерла ее руки кухонным полотенцем.",
+        "learn": 1
+      },
+      {
+        "eng": "She dried her hair with a towel.",
+        "ru": "Она вытерла волосы полотенцем.",
+        "learn": 0
+      },
+      {
+        "eng": "Undress the baby and wrap him in a towel.",
+        "ru": "Разденьте ребенка и заверните его в полотенце.",
+        "learn": 0
+      },
+      {
+        "eng": "He dried himself with the towel.",
+        "ru": "Он вытерся полотенцем.",
+        "learn": 1
+      },
+      {
+        "eng": "She tried to stanch the blood with a towel.",
+        "ru": "Она пыталась остановить кровь полотенцем.",
+        "learn": 0
+      },
+      {
+        "eng": "He mopped her forehead with a towel",
+        "ru": "Он вытер ей лоб полотенцем",
+        "learn": 0
+      },
+      {
+        "eng": "She embroidered a towel for me.",
+        "ru": "Она вышила мне полотенце.",
+        "learn": 0
+      },
+      {
+        "eng": "Bring a towel and some spare clothes.",
+        "ru": "Возьмите с собой полотенце и сменную одежду.",
+        "learn": 0
+      },
+      {
+        "eng": "I wrung the towel and hung it up to dry.",
+        "ru": "Я выжал полотенце и повесил его сушиться.",
+        "learn": 0
+      },
+      {
+        "eng": "I wrung my hair and wrapped it in a towel.",
+        "ru": "Я отжала волосы и обернула их полотенцем.",
+        "learn": 0
+      },
+      {
+        "eng": "Throw me that towel, would you.",
+        "ru": "Брось мне это полотенце, пожалуйста.",
+        "learn": 0
+      },
+      {
+        "eng": "He patted the lettuce dry with a paper towel.",
+        "ru": "Он просушил салат-латук бумажным полотенцем.",
+        "learn": 0
+      },
+      {
+        "eng": "I tied a towel round his leg to try to stem the flow of blood.",
+        "ru": "Я обвязал его ногу полотенцем, пытаясь остановить кровотечение.",
+        "learn": 0
+      },
+      {
+        "eng": "'I'm afraid I forgot to bring a towel.' 'No matter, I've got one you can borrow.'",
+        "ru": "— К сожалению, я забыл взять с собой полотенце. — Неважно: у меня есть запасное, которое вы можете одолжить.",
+        "learn": 0
+      },
+      {
+        "eng": "Hastily, she covered herself up with the towel.",
+        "ru": "Она поспешно прикрылась полотенцем.",
+        "learn": 0
+      },
+      {
+        "eng": "As he bent over, the towel round his waist slipped.",
+        "ru": "Когда он наклонился, полотенце соскользнуло с его талии.",
+        "learn": 0
+      },
+      {
+        "eng": "He was drying his hair with a towel.",
+        "ru": "Он сушил волосы, вытирая их полотенцем.",
+        "learn": 0
+      },
+      {
+        "eng": "He had only a towel tied around his waist.",
+        "ru": "Он был только в полотенце, повязанном вокруг талии.",
+        "learn": 0
+      },
+      {
+        "eng": "There was a towel wrapped around his loins.",
+        "ru": "Вокруг его поясницы было обёрнуто полотенце.",
+        "learn": 0
+      },
+      {
+        "eng": "The towel was soaking wet.",
+        "ru": "Полотенце было очень мокрым.",
+        "learn": 0
+      },
+      {
+        "eng": "Have you got a clean towel I could use?",
+        "ru": "Есть у вас чистое полотенце?",
+        "learn": 0
+      },
+      {
+        "eng": "He quickly dried himself on the thin towel.",
+        "ru": "Он быстро вытерся тонким полотенцем.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't rub the wine stain. Blot it dry with a paper towel.",
+        "ru": "Не трите винное пятно, а промокните его бумажной салфеткой.",
+        "learn": 0
+      },
+      {
+        "eng": "The nanny acted quickly by grabbing the toddler and covering him with a wet towel.",
+        "ru": "Няня действовала быстро: схватила малыша и накрыла его мокрым полотенцем.",
+        "learn": 0
+      },
+      {
+        "eng": "Here's a towel to wipe up the spill.",
+        "ru": "Вот полотенце, чтобы вытереть то, что разлито.",
+        "learn": 0
+      },
+      {
+        "eng": "He was holding a towel around his middle.",
+        "ru": "Он придерживал руками обвязанное вокруг талии полотенце.",
+        "learn": 0
+      },
+      {
+        "eng": "Jack emerged with a towel draped around him.",
+        "ru": "Джек появился с полотенцем, обтянутой вокруг него.",
+        "learn": 0
+      },
+      {
+        "eng": "a used towel that he had used and had left thriftily on the ledge below the mirror rather than consign to the linen basket",
+        "ru": "использованное полотенце, которое он бережливо оставил на полке под зеркалом вместо того, чтобы отправить его в корзину с грязным бельём",
+        "learn": 0
+      }
+    ]
+  }
 }

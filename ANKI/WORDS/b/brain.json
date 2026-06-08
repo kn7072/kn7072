@@ -1,88 +1,174 @@
 {
-    "brain": {
-        "comment": [
-            "rain",
-            "strain",
-            "grain",
-            "restrain",
-            "restraint",
-            "drain",
-            "rainforest"
-        ],
-        "translate": "мозг, мозги, головной мозг, ум, голова, размозжить голову",
-        "transcription": " |breɪn|",
-        "antonyms": [],
-        "mnemonic": [
-            "brain [брейн] мозг - (Брейн-ринг) - борьба мозгов:"
-        ],
-        "examples": [
-            "Alcohol fogs his brain.",
-            "The job requires brains.",
-            "My brain was in a buzz.",
-            "I am not a brain as you well know.",
-            "I wanted to brain him.",
-            "Scientists are learning more about how the human brain works.",
-            "She died of a brain tumour.",
-            "Come on, use your brain, John.",
-            "I could feel my brain going.",
-            "Madness seethed in his brain.",
-            "My brain is just totally fried.",
-            "That's how badly you bastards have fucked up my brain!",
-            "This machine scans a patient's brain.",
-            "I've got that song on the brain today.",
-            "Blood vessels feed blood to the brain.",
-            "The image was seared into his brain.",
-            "the frontal lobe of the brain",
-            "How does the brain reinvent itself?",
-            "Tony tried to set his brain to listening.",
-            "The power of thinking depends upon the brain.",
-            "I read it somewhere and it lodged in my brain.",
-            "He drew an analogy between the brain and a vast computer.",
-            "I'm no stranger to elbow grease, but I also enjoy using my brain.",
-            "the frontal lobes of the brain",
-            "the anterior part of the brain",
-            "The bullet lodged in his brain.",
-            "the posterior part of the brain",
-            "measuring blood flow to the brain",
-            "Melissa's brain was in overdrive.",
-            "The bullet had entered his brain."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Алкоголь затуманивает его мозги.",
-            "Эта работа требует мозгов.",
-            "Мои мозги гудели.",
-            "Как ты знаешь, я не слишком способный.",
-            "Я хотел размозжить(разбить) его голову.",
-            "Ученые все больше узнают о том, как работает человеческий мозг.",
-            "Она умерла от опухоли мозга.",
-            "Ну давай, Джон, шевели мозгами!",
-            "Я чувствовал, что мой ум перестаёт работать.",
-            "Безумие обуяло его.",
-            "Мой мозг перегорел. (голова совершенно не соображает)",
-            "Как же вы задолбали мне мозги, ублюдки!",
-            "Эта машина сканирует мозг пациента.",
-            "У меня сегодня эта песня из головы не выходит.",
-            "Кровеносные сосуды снабжают мозг кровью.",
-            "Этот образ навсегда запечатлелся в его мозгу.",
-            "лобная доля головного мозга",
-            "Как обновляются клетки мозга?",
-            "Тони изо всех сил старался слушать.",
-            "Мыслительная способность зависит от головного мозга.",
-            "Я где-то это вычитал, и это отложилось у меня в голове.",
-            "Он провел аналогию между мозгом и большим компьютером.",
-            "Я знаком с тяжёлым физическим трудом, но мне также нравится умственный.",
-            "лобные доли мозга",
-            "передняя часть мозга",
-            "Пуля засела в его мозгу.",
-            "задняя часть мозга",
-            "измерение притока крови к мозгу",
-            "Мозг Мелиссы лихорадочно работал.",
-            "Пуля проникла в его мозг."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "brain": {
+    "comment": [
+      "rain",
+      "strain",
+      "grain",
+      "restrain",
+      "restraint",
+      "drain",
+      "rainforest"
+    ],
+    "translate": "мозг, мозги, головной мозг, ум, голова, размозжить голову",
+    "transcription": " |breɪn|",
+    "antonyms": [],
+    "mnemonic": [
+      "brain [брейн] мозг - (Брейн-ринг) - борьба мозгов:"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Alcohol fogs his brain.",
+        "ru": "Алкоголь затуманивает его мозги.",
+        "learn": 1
+      },
+      {
+        "eng": "The job requires brains.",
+        "ru": "Эта работа требует мозгов.",
+        "learn": 0
+      },
+      {
+        "eng": "My brain was in a buzz.",
+        "ru": "Мои мозги гудели.",
+        "learn": 0
+      },
+      {
+        "eng": "I am not a brain as you well know.",
+        "ru": "Как ты знаешь, я не слишком способный.",
+        "learn": 0
+      },
+      {
+        "eng": "I wanted to brain him.",
+        "ru": "Я хотел размозжить(разбить) его голову.",
+        "learn": 0
+      },
+      {
+        "eng": "Scientists are learning more about how the human brain works.",
+        "ru": "Ученые все больше узнают о том, как работает человеческий мозг.",
+        "learn": 0
+      },
+      {
+        "eng": "She died of a brain tumour.",
+        "ru": "Она умерла от опухоли мозга.",
+        "learn": 1
+      },
+      {
+        "eng": "Come on, use your brain, John.",
+        "ru": "Ну давай, Джон, шевели мозгами!",
+        "learn": 0
+      },
+      {
+        "eng": "I could feel my brain going.",
+        "ru": "Я чувствовал, что мой ум перестаёт работать.",
+        "learn": 0
+      },
+      {
+        "eng": "Madness seethed in his brain.",
+        "ru": "Безумие обуяло его.",
+        "learn": 0
+      },
+      {
+        "eng": "My brain is just totally fried.",
+        "ru": "Мой мозг перегорел. (голова совершенно не соображает)",
+        "learn": 0
+      },
+      {
+        "eng": "That's how badly you bastards have fucked up my brain!",
+        "ru": "Как же вы задолбали мне мозги, ублюдки!",
+        "learn": 0
+      },
+      {
+        "eng": "This machine scans a patient's brain.",
+        "ru": "Эта машина сканирует мозг пациента.",
+        "learn": 0
+      },
+      {
+        "eng": "I've got that song on the brain today.",
+        "ru": "У меня сегодня эта песня из головы не выходит.",
+        "learn": 0
+      },
+      {
+        "eng": "Blood vessels feed blood to the brain.",
+        "ru": "Кровеносные сосуды снабжают мозг кровью.",
+        "learn": 1
+      },
+      {
+        "eng": "The image was seared into his brain.",
+        "ru": "Этот образ навсегда запечатлелся в его мозгу.",
+        "learn": 0
+      },
+      {
+        "eng": "the frontal lobe of the brain",
+        "ru": "лобная доля головного мозга",
+        "learn": 0
+      },
+      {
+        "eng": "How does the brain reinvent itself?",
+        "ru": "Как обновляются клетки мозга?",
+        "learn": 0
+      },
+      {
+        "eng": "Tony tried to set his brain to listening.",
+        "ru": "Тони изо всех сил старался слушать.",
+        "learn": 0
+      },
+      {
+        "eng": "The power of thinking depends upon the brain.",
+        "ru": "Мыслительная способность зависит от головного мозга.",
+        "learn": 0
+      },
+      {
+        "eng": "I read it somewhere and it lodged in my brain.",
+        "ru": "Я где-то это вычитал, и это отложилось у меня в голове.",
+        "learn": 1
+      },
+      {
+        "eng": "He drew an analogy between the brain and a vast computer.",
+        "ru": "Он провел аналогию между мозгом и большим компьютером.",
+        "learn": 1
+      },
+      {
+        "eng": "I'm no stranger to elbow grease, but I also enjoy using my brain.",
+        "ru": "Я знаком с тяжёлым физическим трудом, но мне также нравится умственный.",
+        "learn": 0
+      },
+      {
+        "eng": "the frontal lobes of the brain",
+        "ru": "лобные доли мозга",
+        "learn": 0
+      },
+      {
+        "eng": "the anterior part of the brain",
+        "ru": "передняя часть мозга",
+        "learn": 0
+      },
+      {
+        "eng": "The bullet lodged in his brain.",
+        "ru": "Пуля засела в его мозгу.",
+        "learn": 1
+      },
+      {
+        "eng": "the posterior part of the brain",
+        "ru": "задняя часть мозга",
+        "learn": 0
+      },
+      {
+        "eng": "measuring blood flow to the brain",
+        "ru": "измерение притока крови к мозгу",
+        "learn": 0
+      },
+      {
+        "eng": "Melissa's brain was in overdrive.",
+        "ru": "Мозг Мелиссы лихорадочно работал.",
+        "learn": 0
+      },
+      {
+        "eng": "The bullet had entered his brain.",
+        "ru": "Пуля проникла в его мозг.",
+        "learn": 1
+      }
+    ]
+  }
 }

@@ -1,84 +1,171 @@
 {
-    "pretty": {
-        "comment": [
-            "pretend"
-        ],
-        "translate": "довольно, достаточно, значительный, хорошенький, безделушка",
-        "transcription": " |ˈprɪti|",
-        "antonyms": [],
-        "mnemonic": [
-            "pretty [при'тъи] хорошенький -(Приди) ко мне хорошенькая девочка.",
-            "pretty ['prɪtɪ]\n***\nМИЛОМУ дверь отоприте. (это) pretty\nДОВОЛЬНО, дверь отоприте! (это) pretty"
-        ],
-        "examples": [
-            "She was driving pretty fast.",
-            "The tune is pretty.",
-            "What a pretty little garden!",
-            "I have to leave pretty soon.",
-            "I'm pretty sure he'll say yes.",
-            "The work is pretty hard.",
-            "She still looks pretty miserable.",
-            "I see them pretty regularly.",
-            "She is pretty, bubbly, and smart.",
-            "Dinner at Luigi's sounds pretty good to me.",
-            "He is a pretty awful driver.",
-            "I feel pretty sick about it.",
-            "Elsie's still prettying herself.",
-            "The music was pretty spooky.",
-            "He made a pretty profit selling his antique car.",
-            "Maria looks much prettier with her hair cut short.",
-            "It was pretty tough on her.",
-            "Their rates are pretty steep.",
-            "It sounded pretty dull to me.",
-            "The weather forecast is pretty grim.",
-            "She was feeling pretty tense.",
-            "Mother brought a pretty Poll.",
-            "She's a pretty cool customer.",
-            "The ending was pretty obvious.",
-            "That's a pretty hat you are wearing.",
-            "She's pretty cool.",
-            "She got into a pretty tear.",
-            "She is pretty fleet of foot.",
-            "She's pretty, but lacks poise.",
-            "They lead a pretty mundane life."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она ехала довольно быстро.",
-            "Эта мелодия прелестна.",
-            "Какой прелестный садик!",
-            "Довольно скоро мне придется уйти.",
-            "Я вполне уверена, что он скажет \"да\".",
-            "Эта работа довольно тяжёлая.",
-            "Она по-прежнему выглядит довольно несчастной.",
-            "Я вижу их довольно часто.",
-            "Она милая, энергичная и умная.",
-            "Ужин у Луиджи — звучит довольно неплохо.",
-            "Он довольно ужасный водитель.",
-            "Мне это порядком надоело.",
-            "Элси всё ещё прихорашивается.",
-            "Музыка была довольно жуткой.",
-            "Он заработал хорошую прибыль, продав свой ретро-автомобиль.",
-            "Мария выглядит намного привлекательнее с короткой стрижкой.",
-            "Ей пришлось довольно несладко.",
-            "У них довольно крутые цены.",
-            "Это звучало довольно скучно / глупо для меня.",
-            "Прогноз погоды довольно мрачен.",
-            "Она чувствовала себя довольно зажато.",
-            "Мама принесла премиленького попугайчика.",
-            "Она - довольно наглый клиент.",
-            "Конец был абсолютно банальным.",
-            "У тебя прелестная шляпка.",
-            "Она очень классная. / Она довольно крутая.",
-            "Она впала в жуткое неистовство.",
-            "Она довольно быстроногая.",
-            "Она красива, но ей не хватает самообладания.",
-            "Они ведут довольно светскую жизнь."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "e_+_Зккр_сл_=_[ɪ]"
-        ]
-    }
+  "pretty": {
+    "comment": [
+      "pretend"
+    ],
+    "translate": "довольно, достаточно, значительный, хорошенький, безделушка",
+    "transcription": " |ˈprɪti|",
+    "antonyms": [],
+    "mnemonic": [
+      "pretty [при'тъи] хорошенький -(Приди) ко мне хорошенькая девочка.",
+      "pretty ['prɪtɪ]\n***\nМИЛОМУ дверь отоприте. (это) pretty\nДОВОЛЬНО, дверь отоприте! (это) pretty"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "e_+_Зккр_сл_=_[ɪ]"
+    ],
+    "examples": [
+      {
+        "eng": "She was driving pretty fast.",
+        "ru": "Она ехала довольно быстро.",
+        "learn": 0
+      },
+      {
+        "eng": "The tune is pretty.",
+        "ru": "Эта мелодия прелестна.",
+        "learn": 0
+      },
+      {
+        "eng": "What a pretty little garden!",
+        "ru": "Какой прелестный садик!",
+        "learn": 0
+      },
+      {
+        "eng": "I have to leave pretty soon.",
+        "ru": "Довольно скоро мне придется уйти.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm pretty sure he'll say yes.",
+        "ru": "Я вполне уверена, что он скажет \"да\".",
+        "learn": 0
+      },
+      {
+        "eng": "The work is pretty hard.",
+        "ru": "Эта работа довольно тяжёлая.",
+        "learn": 0
+      },
+      {
+        "eng": "She still looks pretty miserable.",
+        "ru": "Она по-прежнему выглядит довольно несчастной.",
+        "learn": 0
+      },
+      {
+        "eng": "I see them pretty regularly.",
+        "ru": "Я вижу их довольно часто.",
+        "learn": 0
+      },
+      {
+        "eng": "She is pretty, bubbly, and smart.",
+        "ru": "Она милая, энергичная и умная.",
+        "learn": 0
+      },
+      {
+        "eng": "Dinner at Luigi's sounds pretty good to me.",
+        "ru": "Ужин у Луиджи — звучит довольно неплохо.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a pretty awful driver.",
+        "ru": "Он довольно ужасный водитель.",
+        "learn": 0
+      },
+      {
+        "eng": "I feel pretty sick about it.",
+        "ru": "Мне это порядком надоело.",
+        "learn": 0
+      },
+      {
+        "eng": "Elsie's still prettying herself.",
+        "ru": "Элси всё ещё прихорашивается.",
+        "learn": 0
+      },
+      {
+        "eng": "The music was pretty spooky.",
+        "ru": "Музыка была довольно жуткой.",
+        "learn": 0
+      },
+      {
+        "eng": "He made a pretty profit selling his antique car.",
+        "ru": "Он заработал хорошую прибыль, продав свой ретро-автомобиль.",
+        "learn": 0
+      },
+      {
+        "eng": "Maria looks much prettier with her hair cut short.",
+        "ru": "Мария выглядит намного привлекательнее с короткой стрижкой.",
+        "learn": 0
+      },
+      {
+        "eng": "It was pretty tough on her.",
+        "ru": "Ей пришлось довольно несладко.",
+        "learn": 0
+      },
+      {
+        "eng": "Their rates are pretty steep.",
+        "ru": "У них довольно крутые цены.",
+        "learn": 0
+      },
+      {
+        "eng": "It sounded pretty dull to me.",
+        "ru": "Это звучало довольно скучно / глупо для меня.",
+        "learn": 0
+      },
+      {
+        "eng": "The weather forecast is pretty grim.",
+        "ru": "Прогноз погоды довольно мрачен.",
+        "learn": 1
+      },
+      {
+        "eng": "She was feeling pretty tense.",
+        "ru": "Она чувствовала себя довольно зажато.",
+        "learn": 0
+      },
+      {
+        "eng": "Mother brought a pretty Poll.",
+        "ru": "Мама принесла премиленького попугайчика.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a pretty cool customer.",
+        "ru": "Она - довольно наглый клиент.",
+        "learn": 0
+      },
+      {
+        "eng": "The ending was pretty obvious.",
+        "ru": "Конец был абсолютно банальным.",
+        "learn": 1
+      },
+      {
+        "eng": "That's a pretty hat you are wearing.",
+        "ru": "У тебя прелестная шляпка.",
+        "learn": 0
+      },
+      {
+        "eng": "She's pretty cool.",
+        "ru": "Она очень классная. / Она довольно крутая.",
+        "learn": 0
+      },
+      {
+        "eng": "She got into a pretty tear.",
+        "ru": "Она впала в жуткое неистовство.",
+        "learn": 0
+      },
+      {
+        "eng": "She is pretty fleet of foot.",
+        "ru": "Она довольно быстроногая.",
+        "learn": 1
+      },
+      {
+        "eng": "She's pretty, but lacks poise.",
+        "ru": "Она красива, но ей не хватает самообладания.",
+        "learn": 0
+      },
+      {
+        "eng": "They lead a pretty mundane life.",
+        "ru": "Они ведут довольно светскую жизнь.",
+        "learn": 0
+      }
+    ]
+  }
 }

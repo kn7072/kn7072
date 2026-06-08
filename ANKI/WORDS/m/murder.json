@@ -1,84 +1,170 @@
 {
-    "murder": {
-        "comment": [
-            "murderer",
-            "murmur"
-        ],
-        "translate": "убийство, душегубство, убивать, коверкать, совершать убийство",
-        "transcription": " |ˈmɜːrdər|",
-        "antonyms": [],
-        "mnemonic": [
-            "murder [мё':дэ] убийство - Из-за капли (мёда) убийство произошло.",
-            "murder ['mɜ: də]\n***\nУБИЛ пчёл - получил мёда. (это) murder\nУБИЙСТВА уже не в моде. (это) murder\nУбийство."
-        ],
-        "examples": [
-            "The murder is out.",
-            "He was accused of murder.",
-            "He was hanged for murder.",
-            "Murder will out. посл.",
-            "He's innocent of murder.",
-            "The rush hour traffic is murder.",
-            "He was on trial for murder.",
-            "The murder shook the whole town.",
-            "Police are leading the murder hunt.",
-            "He's suspected of murder.",
-            "The novel begins with a murder.",
-            "He was imprisoned for murder.",
-            "The murder victim was asphyxiated.",
-            "A terrible murder begins the novel.",
-            "Traffic is murder this time of day.",
-            "The jury found him guilty of murder.",
-            "movies filled with murder and mayhem",
-            "I don't think he's capable of murder.",
-            "He was convicted of murdering a policeman.",
-            "She was accused of murder.",
-            "His wife was found murdered.",
-            "They murdered us in the final.",
-            "The circumstances suggest murder.",
-            "He was convicted of felony murder.",
-            "The murder still remains unsolved.",
-            "The two men were framed for murder.",
-            "The jury found her guilty of murder.",
-            "They contrived to murder their boss.",
-            "Gresham will stand trial for murder.",
-            "a macabre story of murder and madness"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Секрет раскрыт.",
-            "Его обвинили в убийстве.",
-            "Его повесили за убийство.",
-            "Шила в мешке не утаишь.",
-            "Он невиновен в убийстве.",
-            "Ездить на машине в часы пик — это самоубийство!",
-            "Его судили за убийство.",
-            "Убийство потрясло весь город.",
-            "Полиция ведёт поиск убийцы.",
-            "Его подозревают в убийстве.",
-            "Роман начинается с убийства.",
-            "Его посадили в тюрьму за убийство.",
-            "Жертва убийства была задушена.",
-            "Роман начинается со страшного убийства.",
-            "В это время суток, пробки на дорогах — просто убийственные.",
-            "Присяжные объявили его виновным в убийстве.",
-            "фильмы, наполненные убийствами и насилием",
-            "Я не думаю, что он способен на убийство.",
-            "Он был признан виновным в убийстве полицейского.",
-            "Её обвинили в убийстве.",
-            "Его жену нашли убитой.",
-            "В финале нас просто уничтожили.",
-            "Обстоятельства позволяют предположить, что это было убийство.",
-            "Он был осужден за убийство при совершении другого тяжкого преступления.",
-            "Это убийство по-прежнему остаётся нераскрытым.",
-            "Двое мужчин получили ложные обвинения в убийстве.",
-            "Суд присяжных признал ее виновной в убийстве.",
-            "Они замышляли убить своего начальника.",
-            "Гришэм предстанет перед судом за убийство.",
-            "жуткая история об убийстве и безумии"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "murder": {
+    "comment": [
+      "murderer",
+      "murmur"
+    ],
+    "translate": "убийство, душегубство, убивать, коверкать, совершать убийство",
+    "transcription": " |ˈmɜːrdər|",
+    "antonyms": [],
+    "mnemonic": [
+      "murder [мё':дэ] убийство - Из-за капли (мёда) убийство произошло.",
+      "murder ['mɜ: də]\n***\nУБИЛ пчёл - получил мёда. (это) murder\nУБИЙСТВА уже не в моде. (это) murder\nУбийство."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The murder is out.",
+        "ru": "Секрет раскрыт.",
+        "learn": 0
+      },
+      {
+        "eng": "He was accused of murder.",
+        "ru": "Его обвинили в убийстве.",
+        "learn": 0
+      },
+      {
+        "eng": "He was hanged for murder.",
+        "ru": "Его повесили за убийство.",
+        "learn": 1
+      },
+      {
+        "eng": "Murder will out. посл.",
+        "ru": "Шила в мешке не утаишь.",
+        "learn": 0
+      },
+      {
+        "eng": "He's innocent of murder.",
+        "ru": "Он невиновен в убийстве.",
+        "learn": 0
+      },
+      {
+        "eng": "The rush hour traffic is murder.",
+        "ru": "Ездить на машине в часы пик — это самоубийство!",
+        "learn": 0
+      },
+      {
+        "eng": "He was on trial for murder.",
+        "ru": "Его судили за убийство.",
+        "learn": 0
+      },
+      {
+        "eng": "The murder shook the whole town.",
+        "ru": "Убийство потрясло весь город.",
+        "learn": 0
+      },
+      {
+        "eng": "Police are leading the murder hunt.",
+        "ru": "Полиция ведёт поиск убийцы.",
+        "learn": 0
+      },
+      {
+        "eng": "He's suspected of murder.",
+        "ru": "Его подозревают в убийстве.",
+        "learn": 0
+      },
+      {
+        "eng": "The novel begins with a murder.",
+        "ru": "Роман начинается с убийства.",
+        "learn": 0
+      },
+      {
+        "eng": "He was imprisoned for murder.",
+        "ru": "Его посадили в тюрьму за убийство.",
+        "learn": 0
+      },
+      {
+        "eng": "The murder victim was asphyxiated.",
+        "ru": "Жертва убийства была задушена.",
+        "learn": 0
+      },
+      {
+        "eng": "A terrible murder begins the novel.",
+        "ru": "Роман начинается со страшного убийства.",
+        "learn": 1
+      },
+      {
+        "eng": "Traffic is murder this time of day.",
+        "ru": "В это время суток, пробки на дорогах — просто убийственные.",
+        "learn": 0
+      },
+      {
+        "eng": "The jury found him guilty of murder.",
+        "ru": "Присяжные объявили его виновным в убийстве.",
+        "learn": 1
+      },
+      {
+        "eng": "movies filled with murder and mayhem",
+        "ru": "фильмы, наполненные убийствами и насилием",
+        "learn": 0
+      },
+      {
+        "eng": "I don't think he's capable of murder.",
+        "ru": "Я не думаю, что он способен на убийство.",
+        "learn": 0
+      },
+      {
+        "eng": "He was convicted of murdering a policeman.",
+        "ru": "Он был признан виновным в убийстве полицейского.",
+        "learn": 0
+      },
+      {
+        "eng": "She was accused of murder.",
+        "ru": "Её обвинили в убийстве.",
+        "learn": 0
+      },
+      {
+        "eng": "His wife was found murdered.",
+        "ru": "Его жену нашли убитой.",
+        "learn": 1
+      },
+      {
+        "eng": "They murdered us in the final.",
+        "ru": "В финале нас просто уничтожили.",
+        "learn": 0
+      },
+      {
+        "eng": "The circumstances suggest murder.",
+        "ru": "Обстоятельства позволяют предположить, что это было убийство.",
+        "learn": 0
+      },
+      {
+        "eng": "He was convicted of felony murder.",
+        "ru": "Он был осужден за убийство при совершении другого тяжкого преступления.",
+        "learn": 0
+      },
+      {
+        "eng": "The murder still remains unsolved.",
+        "ru": "Это убийство по-прежнему остаётся нераскрытым.",
+        "learn": 1
+      },
+      {
+        "eng": "The two men were framed for murder.",
+        "ru": "Двое мужчин получили ложные обвинения в убийстве.",
+        "learn": 0
+      },
+      {
+        "eng": "The jury found her guilty of murder.",
+        "ru": "Суд присяжных признал ее виновной в убийстве.",
+        "learn": 0
+      },
+      {
+        "eng": "They contrived to murder their boss.",
+        "ru": "Они замышляли убить своего начальника.",
+        "learn": 0
+      },
+      {
+        "eng": "Gresham will stand trial for murder.",
+        "ru": "Гришэм предстанет перед судом за убийство.",
+        "learn": 0
+      },
+      {
+        "eng": "a macabre story of murder and madness",
+        "ru": "жуткая история об убийстве и безумии",
+        "learn": 0
+      }
+    ]
+  }
 }

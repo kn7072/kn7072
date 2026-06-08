@@ -1,65 +1,124 @@
 {
-    "instruction": {
-        "comment": [
-            "structure",
-            "infrastructure",
-            "structural",
-            "restructure"
-        ],
-        "translate": "инструкция, команда, обучение, инструктаж, предписание, директива, оператор, учение",
-        "transcription": " |ɪnˈstrʌkʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "We acted on your instructions.",
-            "You should read each instruction carefully.",
-            "I had instructions not to admit strangers.",
-            "Read the instruction book carefully.",
-            "An example is the best agency of instruction.",
-            "She left instructions that her estate be / should be divided evenly.",
-            "Instruction is not an educational sideshow.",
-            "Make sure you carry out the doctor's instructions.",
-            "The school gives instruction in First Aid.",
-            "We offer tutorial instruction for test preparation.",
-            "There's an instruction booklet next to the computer.",
-            "On-line instruction is a useful adjunct to the real thing.",
-            "This instruction capacitates us to understand the problem.",
-            "English is still the main medium of instruction in Nigeria.",
-            "The computer can handle one million instructions per second.",
-            "the issuance of an instruction sheet to each member of the class",
-            "He had specific instructions to check everyone's identity cards.",
-            "On the landlord's instructions, the barmaid refused to serve him.",
-            "calculation and geometry and all the other elements of instruction",
-            "We lost the instruction manual and couldn't put our bikes together.",
-            "All student teachers should be exercised in the new methods of reading instruction."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мы поступили как ты советовал.",
-            "Вы следует внимательно читать каждую инструкцию.",
-            "Мне было приказано не впускать незнакомцев.",
-            "Внимательно прочтите руководство.",
-            "Лучшим способом обучения является пример.",
-            "Она завещала, чтобы ее поместье было поделено поровну.",
-            "Инструктаж — дело важное, не пустяк какой-нибудь.",
-            "Не забудьте выполнять предписания лечащего врача.",
-            "В этой школе обучают навыкам оказания первой помощи.",
-            "Мы предлагаем консультации с преподавателем для подготовки к тесту.",
-            "Рядом с компьютером есть буклет с инструкцией.",
-            "Онлайн-инструкция является полезным дополнением к этой первоклассной вещи.",
-            "Эта инструкция даёт нам возможность понять проблему.",
-            "Английский по-прежнему остается основным языком обучения в Нигерии.",
-            "Компьютер может обрабатывать один миллион команд в секунду.",
-            "раздача методичек всем участникам занятий",
-            "Он имел особое указание проверить у всех удостоверения личности.",
-            "По указанию хозяина дома, буфетчица отказалась его обслуживать.",
-            "арифметика, геометрия и все остальные предметы, составляющие основу образования",
-            "Мы потеряли руководство по эксплуатации и не смогли собрать свои велосипеды.",
-            "Все практиканты должны освоить новые методы обучения чтению."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "instruction": {
+    "comment": [
+      "structure",
+      "infrastructure",
+      "structural",
+      "restructure"
+    ],
+    "translate": "инструкция, команда, обучение, инструктаж, предписание, директива, оператор, учение",
+    "transcription": " |ɪnˈstrʌkʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "We acted on your instructions.",
+        "ru": "Мы поступили как ты советовал.",
+        "learn": 0
+      },
+      {
+        "eng": "You should read each instruction carefully.",
+        "ru": "Вы следует внимательно читать каждую инструкцию.",
+        "learn": 0
+      },
+      {
+        "eng": "I had instructions not to admit strangers.",
+        "ru": "Мне было приказано не впускать незнакомцев.",
+        "learn": 0
+      },
+      {
+        "eng": "Read the instruction book carefully.",
+        "ru": "Внимательно прочтите руководство.",
+        "learn": 0
+      },
+      {
+        "eng": "An example is the best agency of instruction.",
+        "ru": "Лучшим способом обучения является пример.",
+        "learn": 0
+      },
+      {
+        "eng": "She left instructions that her estate be / should be divided evenly.",
+        "ru": "Она завещала, чтобы ее поместье было поделено поровну.",
+        "learn": 0
+      },
+      {
+        "eng": "Instruction is not an educational sideshow.",
+        "ru": "Инструктаж — дело важное, не пустяк какой-нибудь.",
+        "learn": 0
+      },
+      {
+        "eng": "Make sure you carry out the doctor's instructions.",
+        "ru": "Не забудьте выполнять предписания лечащего врача.",
+        "learn": 0
+      },
+      {
+        "eng": "The school gives instruction in First Aid.",
+        "ru": "В этой школе обучают навыкам оказания первой помощи.",
+        "learn": 0
+      },
+      {
+        "eng": "We offer tutorial instruction for test preparation.",
+        "ru": "Мы предлагаем консультации с преподавателем для подготовки к тесту.",
+        "learn": 0
+      },
+      {
+        "eng": "There's an instruction booklet next to the computer.",
+        "ru": "Рядом с компьютером есть буклет с инструкцией.",
+        "learn": 0
+      },
+      {
+        "eng": "On-line instruction is a useful adjunct to the real thing.",
+        "ru": "Онлайн-инструкция является полезным дополнением к этой первоклассной вещи.",
+        "learn": 0
+      },
+      {
+        "eng": "This instruction capacitates us to understand the problem.",
+        "ru": "Эта инструкция даёт нам возможность понять проблему.",
+        "learn": 0
+      },
+      {
+        "eng": "English is still the main medium of instruction in Nigeria.",
+        "ru": "Английский по-прежнему остается основным языком обучения в Нигерии.",
+        "learn": 0
+      },
+      {
+        "eng": "The computer can handle one million instructions per second.",
+        "ru": "Компьютер может обрабатывать один миллион команд в секунду.",
+        "learn": 0
+      },
+      {
+        "eng": "the issuance of an instruction sheet to each member of the class",
+        "ru": "раздача методичек всем участникам занятий",
+        "learn": 0
+      },
+      {
+        "eng": "He had specific instructions to check everyone's identity cards.",
+        "ru": "Он имел особое указание проверить у всех удостоверения личности.",
+        "learn": 1
+      },
+      {
+        "eng": "On the landlord's instructions, the barmaid refused to serve him.",
+        "ru": "По указанию хозяина дома, буфетчица отказалась его обслуживать.",
+        "learn": 0
+      },
+      {
+        "eng": "calculation and geometry and all the other elements of instruction",
+        "ru": "арифметика, геометрия и все остальные предметы, составляющие основу образования",
+        "learn": 0
+      },
+      {
+        "eng": "We lost the instruction manual and couldn't put our bikes together.",
+        "ru": "Мы потеряли руководство по эксплуатации и не смогли собрать свои велосипеды.",
+        "learn": 0
+      },
+      {
+        "eng": "All student teachers should be exercised in the new methods of reading instruction.",
+        "ru": "Все практиканты должны освоить новые методы обучения чтению.",
+        "learn": 0
+      }
+    ]
+  }
 }

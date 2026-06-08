@@ -1,83 +1,169 @@
 {
-    "station": {
-        "comment": [
-            "state",
-            "statement"
-        ],
-        "translate": "станция, пункт, место, станционный, вокзальный, размещать, дислоцировать",
-        "transcription": " |ˈsteɪʃn|",
-        "antonyms": [],
-        "mnemonic": [
-            "state [steɪt]\nestate [ɪs'teɪt] - поместье, имущество, имение\nstation - станция, размещение. размещать, помещать\n***\nПОЛОЖЕНИЕ дел - борьба против \"властей (т)\". (это)\nВ ГОСУДАРСТВЕ всё зависит от \"властей (т)\". (это)\nГосударство, страна, структура, состояние. Заявлять."
-        ],
-        "examples": [
-            "Can you meet me at the train station?",
-            "I placed myself on my former station.",
-            "Make a left turn at the station.",
-            "call in to a radio station",
-            "How far is it to the station?",
-            "The train drew out of the station.",
-            "The train departed the station on time.",
-            "New York jazz station WBGO",
-            "My dad met us at the station.",
-            "I'll pick you up at the station.",
-            "They drove him to the bus station.",
-            "She works for a local radio station.",
-            "She drove me to the station.",
-            "I'll happily take you to the station.",
-            "We walked from the park to the station.",
-            "Let me run you to the station.",
-            "He took up a convenient station.",
-            "You can get a bus to the station.",
-            "I was stationed overseas at the time.",
-            "You're not to leave your station unless told.",
-            "Grand Central Station",
-            "He had married above his station.",
-            "A local TV station ran her story.",
-            "Tucson's alternative radio station",
-            "We inquired the way to the station.",
-            "I drive a clunky old station wagon.",
-            "We pause for station identification.",
-            "The train drew away from the station.",
-            "My man will drive you to the station.",
-            "He started looking for a gas station."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Можешь встретить меня на вокзале?",
-            "Я встал на своё прежнее место.",
-            "Возле станции поверните налево.",
-            "позвонить на радиостанцию",
-            "Как далеко до станции?",
-            "Поезд отошёл от станции.",
-            "Поезд отправился с вокзала вовремя.",
-            "нью-йорская джазовая радиостанция WBGO",
-            "Мой папа встретил нас на вокзале.",
-            "Я подберу тебя на станции.",
-            "Они подвезли его до автовокзала.",
-            "Она работает на местной радиостанции.",
-            "Она довезла меня до станции.",
-            "Я с удовольствием подвезу вас на станцию.",
-            "Мы пошли пешком из парка на станцию.",
-            "Позволь мне проводить /подвезти/ тебя до станции.",
-            "Он занял удобную позицию.",
-            "Можно добраться до станции на автобусе.",
-            "Я в тот момент находился за границей.",
-            "Нельзя покидать своё место без приказа.",
-            "Центральный вокзал Нью-Йорка",
-            "Он женился на женщине выше себя по статусу.",
-            "Её сюжет показывали на одном из местных телеканалов.",
-            "альтернативная радиостанция Тусона",
-            "Мы спросили дорогу к станции.",
-            "Я езжу на неуклюжем старом автомобиле типа \"универсал\".",
-            "Мы прервёмся для трансляции заставки.",
-            "Поезд отошёл от станции.",
-            "Мой муж отвезёт вас на станцию.",
-            "Она начал искать автозаправку."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "station": {
+    "comment": [
+      "state",
+      "statement"
+    ],
+    "translate": "станция, пункт, место, станционный, вокзальный, размещать, дислоцировать",
+    "transcription": " |ˈsteɪʃn|",
+    "antonyms": [],
+    "mnemonic": [
+      "state [steɪt]\nestate [ɪs'teɪt] - поместье, имущество, имение\nstation - станция, размещение. размещать, помещать\n***\nПОЛОЖЕНИЕ дел - борьба против \"властей (т)\". (это)\nВ ГОСУДАРСТВЕ всё зависит от \"властей (т)\". (это)\nГосударство, страна, структура, состояние. Заявлять."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Can you meet me at the train station?",
+        "ru": "Можешь встретить меня на вокзале?",
+        "learn": 0
+      },
+      {
+        "eng": "I placed myself on my former station.",
+        "ru": "Я встал на своё прежнее место.",
+        "learn": 0
+      },
+      {
+        "eng": "Make a left turn at the station.",
+        "ru": "Возле станции поверните налево.",
+        "learn": 0
+      },
+      {
+        "eng": "call in to a radio station",
+        "ru": "позвонить на радиостанцию",
+        "learn": 0
+      },
+      {
+        "eng": "How far is it to the station?",
+        "ru": "Как далеко до станции?",
+        "learn": 0
+      },
+      {
+        "eng": "The train drew out of the station.",
+        "ru": "Поезд отошёл от станции.",
+        "learn": 0
+      },
+      {
+        "eng": "The train departed the station on time.",
+        "ru": "Поезд отправился с вокзала вовремя.",
+        "learn": 1
+      },
+      {
+        "eng": "New York jazz station WBGO",
+        "ru": "нью-йорская джазовая радиостанция WBGO",
+        "learn": 0
+      },
+      {
+        "eng": "My dad met us at the station.",
+        "ru": "Мой папа встретил нас на вокзале.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll pick you up at the station.",
+        "ru": "Я подберу тебя на станции.",
+        "learn": 0
+      },
+      {
+        "eng": "They drove him to the bus station.",
+        "ru": "Они подвезли его до автовокзала.",
+        "learn": 0
+      },
+      {
+        "eng": "She works for a local radio station.",
+        "ru": "Она работает на местной радиостанции.",
+        "learn": 0
+      },
+      {
+        "eng": "She drove me to the station.",
+        "ru": "Она довезла меня до станции.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll happily take you to the station.",
+        "ru": "Я с удовольствием подвезу вас на станцию.",
+        "learn": 0
+      },
+      {
+        "eng": "We walked from the park to the station.",
+        "ru": "Мы пошли пешком из парка на станцию.",
+        "learn": 0
+      },
+      {
+        "eng": "Let me run you to the station.",
+        "ru": "Позволь мне проводить /подвезти/ тебя до станции.",
+        "learn": 0
+      },
+      {
+        "eng": "He took up a convenient station.",
+        "ru": "Он занял удобную позицию.",
+        "learn": 0
+      },
+      {
+        "eng": "You can get a bus to the station.",
+        "ru": "Можно добраться до станции на автобусе.",
+        "learn": 0
+      },
+      {
+        "eng": "I was stationed overseas at the time.",
+        "ru": "Я в тот момент находился за границей.",
+        "learn": 0
+      },
+      {
+        "eng": "You're not to leave your station unless told.",
+        "ru": "Нельзя покидать своё место без приказа.",
+        "learn": 0
+      },
+      {
+        "eng": "Grand Central Station",
+        "ru": "Центральный вокзал Нью-Йорка",
+        "learn": 0
+      },
+      {
+        "eng": "He had married above his station.",
+        "ru": "Он женился на женщине выше себя по статусу.",
+        "learn": 0
+      },
+      {
+        "eng": "A local TV station ran her story.",
+        "ru": "Её сюжет показывали на одном из местных телеканалов.",
+        "learn": 0
+      },
+      {
+        "eng": "Tucson's alternative radio station",
+        "ru": "альтернативная радиостанция Тусона",
+        "learn": 0
+      },
+      {
+        "eng": "We inquired the way to the station.",
+        "ru": "Мы спросили дорогу к станции.",
+        "learn": 1
+      },
+      {
+        "eng": "I drive a clunky old station wagon.",
+        "ru": "Я езжу на неуклюжем старом автомобиле типа \"универсал\".",
+        "learn": 0
+      },
+      {
+        "eng": "We pause for station identification.",
+        "ru": "Мы прервёмся для трансляции заставки.",
+        "learn": 0
+      },
+      {
+        "eng": "The train drew away from the station.",
+        "ru": "Поезд отошёл от станции.",
+        "learn": 0
+      },
+      {
+        "eng": "My man will drive you to the station.",
+        "ru": "Мой муж отвезёт вас на станцию.",
+        "learn": 0
+      },
+      {
+        "eng": "He started looking for a gas station.",
+        "ru": "Она начал искать автозаправку.",
+        "learn": 0
+      }
+    ]
+  }
 }

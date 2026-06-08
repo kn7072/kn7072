@@ -1,89 +1,175 @@
 {
-    "use": {
-        "comment": [
-            "use, abuse - использование, злоупотребление",
-            "useful",
-            "useless",
-            "used to",
-            "used",
-            "user",
-            "abuse"
-        ],
-        "translate": "использование, применение, пользование, использовать, пользоваться, применять",
-        "transcription": " |juːz|",
-        "antonyms": [],
-        "mnemonic": [
-            "use [юз] использовать - (Юз- пользовать) использовать.",
-            "use [ju:z]\n***\nИСПОЛЬЗУЙ в жизни только плюс. (это) use\nИспользование, применение, цель, польза, привычка."
-        ],
-        "examples": [
-            "May I use your name?",
-            "Is there any use?",
-            "I can't use this tool.",
-            "She used to have long hair.",
-            "Can I be of any use to you?",
-            "Can I use your phone?",
-            "He didn't use to snore.",
-            "He lost the use of his eyes.",
-            "Don't use bad language.",
-            "What's the use of arguing?",
-            "What's the use of worrying?",
-            "I always use the same shampoo.",
-            "Is there any use in trying again?",
-            "I used to see him often.",
-            "The machine is easy to use.",
-            "That didn't use to be the case.",
-            "He put his knowledge to good use.",
-            "There used to be a house here.",
-            "He made good use of his spare time.",
-            "Who used the last match?",
-            "Did you use to sing or play an instrument?",
-            "He thinks himself ill used.",
-            "It was of no earthly use to us.",
-            "We use about £40 worth of electricity a month.",
-            "Did you use all the eggs?",
-            "He used his time there well.",
-            "They used the prisoners cruelly.",
-            "We used to go to Wales every summer.",
-            "We only use Spanish at home.",
-            "They use 10 tons of coal a month."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Можно сослаться на вас?",
-            "Есть ли в этом какая-то польза? / Стоит ли?",
-            "Я не могу использовать этот инструмент.",
-            "Раньше у неё были длинные волосы.",
-            "Могу ли я быть чем-нибудь вам полезен?",
-            "Можно воспользоваться вашим телефоном?",
-            "Раньше он не храпел.",
-            "Он потерял зрение.",
-            "Не ругайтесь матом.",
-            "К чему спорить?",
-            "Какой смысл волноваться?",
-            "Я всегда пользуюсь одним и тем же шампунем.",
-            "Имеет ли смысл сделать еще одну попытку?",
-            "Раньше я часто его встречал.",
-            "Эта машина проста в использовании.",
-            "Раньше такого не было.",
-            "Он нашёл своим знаниям хорошее применение.",
-            "Раньше здесь стоял дом.",
-            "Он с пользой проводил своё свободное время.",
-            "Кто использовал последнюю спичку?",
-            "Ты раньше пел или играл?",
-            "Он считает, что с ним плохо обошлись.",
-            "Для нас это оказалось совершенно бесполезным.",
-            "У нас нагорает электричества примерно на сорок фунтов в месяц.",
-            "Вы использовали все яйца? (о кулинарии)",
-            "Он не терял там времени зря.",
-            "Они жестоко обращались с заключёнными.",
-            "Раньше мы каждое лето ездили в Уэльс.",
-            "Дома мы говорим только по-испански.",
-            "Они расходуют десять тонн угля в месяц."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "use": {
+    "comment": [
+      "use, abuse - использование, злоупотребление",
+      "useful",
+      "useless",
+      "used to",
+      "used",
+      "user",
+      "abuse"
+    ],
+    "translate": "использование, применение, пользование, использовать, пользоваться, применять",
+    "transcription": " |juːz|",
+    "antonyms": [],
+    "mnemonic": [
+      "use [юз] использовать - (Юз- пользовать) использовать.",
+      "use [ju:z]\n***\nИСПОЛЬЗУЙ в жизни только плюс. (это) use\nИспользование, применение, цель, польза, привычка."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "May I use your name?",
+        "ru": "Можно сослаться на вас?",
+        "learn": 0
+      },
+      {
+        "eng": "Is there any use?",
+        "ru": "Есть ли в этом какая-то польза? / Стоит ли?",
+        "learn": 0
+      },
+      {
+        "eng": "I can't use this tool.",
+        "ru": "Я не могу использовать этот инструмент.",
+        "learn": 0
+      },
+      {
+        "eng": "She used to have long hair.",
+        "ru": "Раньше у неё были длинные волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "Can I be of any use to you?",
+        "ru": "Могу ли я быть чем-нибудь вам полезен?",
+        "learn": 0
+      },
+      {
+        "eng": "Can I use your phone?",
+        "ru": "Можно воспользоваться вашим телефоном?",
+        "learn": 1
+      },
+      {
+        "eng": "He didn't use to snore.",
+        "ru": "Раньше он не храпел.",
+        "learn": 0
+      },
+      {
+        "eng": "He lost the use of his eyes.",
+        "ru": "Он потерял зрение.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't use bad language.",
+        "ru": "Не ругайтесь матом.",
+        "learn": 0
+      },
+      {
+        "eng": "What's the use of arguing?",
+        "ru": "К чему спорить?",
+        "learn": 0
+      },
+      {
+        "eng": "What's the use of worrying?",
+        "ru": "Какой смысл волноваться?",
+        "learn": 0
+      },
+      {
+        "eng": "I always use the same shampoo.",
+        "ru": "Я всегда пользуюсь одним и тем же шампунем.",
+        "learn": 0
+      },
+      {
+        "eng": "Is there any use in trying again?",
+        "ru": "Имеет ли смысл сделать еще одну попытку?",
+        "learn": 0
+      },
+      {
+        "eng": "I used to see him often.",
+        "ru": "Раньше я часто его встречал.",
+        "learn": 0
+      },
+      {
+        "eng": "The machine is easy to use.",
+        "ru": "Эта машина проста в использовании.",
+        "learn": 0
+      },
+      {
+        "eng": "That didn't use to be the case.",
+        "ru": "Раньше такого не было.",
+        "learn": 0
+      },
+      {
+        "eng": "He put his knowledge to good use.",
+        "ru": "Он нашёл своим знаниям хорошее применение.",
+        "learn": 0
+      },
+      {
+        "eng": "There used to be a house here.",
+        "ru": "Раньше здесь стоял дом.",
+        "learn": 1
+      },
+      {
+        "eng": "He made good use of his spare time.",
+        "ru": "Он с пользой проводил своё свободное время.",
+        "learn": 0
+      },
+      {
+        "eng": "Who used the last match?",
+        "ru": "Кто использовал последнюю спичку?",
+        "learn": 1
+      },
+      {
+        "eng": "Did you use to sing or play an instrument?",
+        "ru": "Ты раньше пел или играл?",
+        "learn": 0
+      },
+      {
+        "eng": "He thinks himself ill used.",
+        "ru": "Он считает, что с ним плохо обошлись.",
+        "learn": 0
+      },
+      {
+        "eng": "It was of no earthly use to us.",
+        "ru": "Для нас это оказалось совершенно бесполезным.",
+        "learn": 0
+      },
+      {
+        "eng": "We use about £40 worth of electricity a month.",
+        "ru": "У нас нагорает электричества примерно на сорок фунтов в месяц.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you use all the eggs?",
+        "ru": "Вы использовали все яйца? (о кулинарии)",
+        "learn": 0
+      },
+      {
+        "eng": "He used his time there well.",
+        "ru": "Он не терял там времени зря.",
+        "learn": 0
+      },
+      {
+        "eng": "They used the prisoners cruelly.",
+        "ru": "Они жестоко обращались с заключёнными.",
+        "learn": 0
+      },
+      {
+        "eng": "We used to go to Wales every summer.",
+        "ru": "Раньше мы каждое лето ездили в Уэльс.",
+        "learn": 0
+      },
+      {
+        "eng": "We only use Spanish at home.",
+        "ru": "Дома мы говорим только по-испански.",
+        "learn": 0
+      },
+      {
+        "eng": "They use 10 tons of coal a month.",
+        "ru": "Они расходуют десять тонн угля в месяц.",
+        "learn": 0
+      }
+    ]
+  }
 }

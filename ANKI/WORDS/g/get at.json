@@ -1,58 +1,271 @@
 {
-    "get at": {
-        "comment": [],
-        "translate": "1) Дотягиваться, доставать до чего-либо 2) Иметь в виду, намекать, клонить к чему-то (What are you getting at?) 3) Подкупать, оказывать тайное влияние на кого-либо 4) Критиковать, придираться, доставать (разговорное) ",
-        "transcription": "|ɡet æt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Are you getting at the fact that I lied?",
-            "He was suspected of getting at the jury.",
-            "They got at the new policy in the meeting.",
-            "Keep the medicine where children can't get at it.",
-            "Tell me directly what you are getting at.",
-            "The boss got at him for being late again.",
-            "I don't know what he is getting at.",
-            "Someone got at the security guard to let them in.",
-            "The files are locked away where no one can get at them.",
-            "I can't get at the top shelf without a ladder.",
-            "The mafia tried to get at the police chief.",
-            "Why are you always getting at me?",
-            "Stop getting at your brother all the time.",
-            "He put the cookies on a high shelf to get at them later.",
-            "He kept hinting, but I didn't know what he was getting at.",
-            "She reached out but couldn't get at the remote control.",
-            "She is always getting at him for being lazy.",
-            "The defendant tried to get at the witness to change his testimony.",
-            "They got at the referee to fix the match.",
-            "What are you getting at with these questions?"
-        ],
-        "example_translate": [
-            "Ты намекаешь на то, что я солгал?",
-            "Его подозревали в оказании тайного влияния на присяжных.",
-            "Они раскритиковали новую политику на собрании.",
-            "Храни лекарства там, где дети не смогут до них дотянуться.",
-            "Скажи мне прямо, что ты имеешь в виду.",
-            "Начальник отчитал его за очередное опоздание.",
-            "Я не понимаю, к чему он клонит.",
-            "Кто-то подкупил охранника, чтобы он их пустил.",
-            "Файлы заперты там, где никто не сможет до них добраться.",
-            "Я не могу дотянуться до верхней полки без лестницы.",
-            "Мафия пыталась подкупить начальника полиции.",
-            "Почему ты вечно ко мне придираешься?",
-            "Прекрати постоянно доставать своего брата.",
-            "Он положил печенье на высокую полку, чтобы потом дотянуться.",
-            "Он постоянно намекал, но я не понимал, к чему он ведет.",
-            "Она протянула руку, но не смогла дотянуться до пульта.",
-            "Она постоянно пилит его за лень.",
-            "Подсудимый пытался подкупить свидетеля, чтобы тот изменил показания.",
-            "Они подкупили судью, чтобы тот договорился о результате матча.",
-            "К чему ты клонишь этими вопросами?"
-        ],
-        "synonyms": "Дотягиваться, доставать до чего-либо - reach, access, arrive at\nИметь в виду, намекать, клонить к чему-то (What are you getting at?) - mean, imply, suggest, insinuate\nПодкупать, оказывать тайное влияние на кого-либо - bribe, influence, corrupt\nКритиковать, придираться, доставать (разговорное) - criticize, pick on, nag, attack\n",
-        "groups": [
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "get at": {
+    "comment": [],
+    "translate": "1) Дотягиваться, доставать до чего-либо 2) Иметь в виду, намекать, клонить к чему-то (What are you getting at?) 3) Подкупать, оказывать тайное влияние на кого-либо 4) Критиковать, придираться, доставать (разговорное) ",
+    "transcription": "|ɡet æt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Дотягиваться, доставать до чего-либо - reach, access, arrive at",
+      "Иметь в виду, намекать, клонить к чему-то (What are you getting at?) - mean, imply, suggest, insinuate",
+      "Подкупать, оказывать тайное влияние на кого-либо - bribe, influence, corrupt",
+      "Критиковать, придираться, доставать (разговорное) - criticize, pick on, nag, attack"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "Are you getting at the fact that I lied?",
+        "ru": "Ты намекаешь на то, что я солгал?",
+        "learn": 1
+      },
+      {
+        "eng": "He was suspected of getting at the jury.",
+        "ru": "Его подозревали в оказании тайного влияния на присяжных.",
+        "learn": 1
+      },
+      {
+        "eng": "They got at the new policy in the meeting.",
+        "ru": "Они раскритиковали новую политику на собрании.",
+        "learn": 1
+      },
+      {
+        "eng": "Keep the medicine where children can't get at it.",
+        "ru": "Храни лекарства там, где дети не смогут до них дотянуться.",
+        "learn": 1
+      },
+      {
+        "eng": "Tell me directly what you are getting at.",
+        "ru": "Скажи мне прямо, что ты имеешь в виду.",
+        "learn": 1
+      },
+      {
+        "eng": "The boss got at him for being late again.",
+        "ru": "Начальник отчитал его за очередное опоздание.",
+        "learn": 1
+      },
+      {
+        "eng": "I don't know what he is getting at.",
+        "ru": "Я не понимаю, к чему он клонит.",
+        "learn": 1
+      },
+      {
+        "eng": "Someone got at the security guard to let them in.",
+        "ru": "Кто-то подкупил охранника, чтобы он их пустил.",
+        "learn": 1
+      },
+      {
+        "eng": "The files are locked away where no one can get at them.",
+        "ru": "Файлы заперты там, где никто не сможет до них добраться.",
+        "learn": 1
+      },
+      {
+        "eng": "I can't get at the top shelf without a ladder.",
+        "ru": "Я не могу дотянуться до верхней полки без лестницы.",
+        "learn": 1
+      },
+      {
+        "eng": "The mafia tried to get at the police chief.",
+        "ru": "Мафия пыталась подкупить начальника полиции.",
+        "learn": 1
+      },
+      {
+        "eng": "Why are you always getting at me?",
+        "ru": "Почему ты вечно ко мне придираешься?",
+        "learn": 1
+      },
+      {
+        "eng": "Stop getting at your brother all the time.",
+        "ru": "Прекрати постоянно доставать своего брата.",
+        "learn": 1
+      },
+      {
+        "eng": "He put the cookies on a high shelf to get at them later.",
+        "ru": "Он положил печенье на высокую полку, чтобы потом дотянуться.",
+        "learn": 1
+      },
+      {
+        "eng": "He kept hinting, but I didn't know what he was getting at.",
+        "ru": "Он постоянно намекал, но я не понимал, к чему он ведет.",
+        "learn": 1
+      },
+      {
+        "eng": "She reached out but couldn't get at the remote control.",
+        "ru": "Она протянула руку, но не смогла дотянуться до пульта.",
+        "learn": 1
+      },
+      {
+        "eng": "She is always getting at him for being lazy.",
+        "ru": "Она постоянно пилит его за лень.",
+        "learn": 1
+      },
+      {
+        "eng": "The defendant tried to get at the witness to change his testimony.",
+        "ru": "Подсудимый пытался подкупить свидетеля, чтобы тот изменил показания.",
+        "learn": 1
+      },
+      {
+        "eng": "They got at the referee to fix the match.",
+        "ru": "Они подкупили судью, чтобы тот договорился о результате матча.",
+        "learn": 1
+      },
+      {
+        "eng": "What are you getting at with these questions?",
+        "ru": "К чему ты клонишь этими вопросами?",
+        "learn": 1
+      },
+      {
+        "eng": "I cannot get at the meaning.",
+        "ru": "Я не могу понять, что это значит.",
+        "learn": 0
+      },
+      {
+        "eng": "What did you get at the toy store?",
+        "ru": "Что вы купили в магазине игрушек?",
+        "learn": 0
+      },
+      {
+        "eng": "I was determined to get at the truth.",
+        "ru": "Я был полон решимости докопаться до истины.",
+        "learn": 1
+      },
+      {
+        "eng": "It is always difficult to get at the truth.",
+        "ru": "Выяснять правду всегда нелегко.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't get at the top branches, can you bring the ladder?",
+        "ru": "Я не достаю до верхних веток, принеси мне, пожалуйста, лестницу.",
+        "learn": 0
+      },
+      {
+        "eng": "The dog saw a cat and was straining at its leash trying to get at it.",
+        "ru": "Собака увидела кошку и натягивала поводок, пытаясь до неё добраться.",
+        "learn": 0
+      },
+      {
+        "eng": "We had to move the washing machine out to get at the wiring behind it.",
+        "ru": "Нам пришлось подвинуть стиральную машину, чтобы добраться до расположенной за ней проводкой.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd like to get at repainting the house as soon as the weather is suitable.",
+        "ru": "Я хотел бы снова взяться за перекраску дома, когда погода станет подходящей.",
+        "learn": 0
+      },
+      {
+        "eng": "Just let me get at him.",
+        "ru": "Дай мне только до него добраться.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you trying to get at me?",
+        "ru": "Ты хочешь ко мне придраться?",
+        "learn": 0
+      },
+      {
+        "eng": "Take care she doesn't get at him.",
+        "ru": "Ты должен оградить его от ее влияния.",
+        "learn": 0
+      },
+      {
+        "eng": "He kept trying to get at his teacher.",
+        "ru": "Он пытался вывести учителя из терпения.",
+        "learn": 0
+      },
+      {
+        "eng": "Mr Smith found a way to get at his wife.",
+        "ru": "Мистер Смит нашел способ, как уязвить свою жену.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll get at it first thing in the morning.",
+        "ru": "Я займусь этим завтра утром.",
+        "learn": 0
+      },
+      {
+        "eng": "Let me get at him, I'll soon wear him out.",
+        "ru": "Дай мне только его поймать, я ему покажу.",
+        "learn": 0
+      },
+      {
+        "eng": "I won't be able to get at it until the weekend.",
+        "ru": "Вряд ли я смогу приступить к этой работе до конца недели.",
+        "learn": 0
+      },
+      {
+        "eng": "He hates us, and we are where he can get at us.",
+        "ru": "Он ненавидит нас, а мы как раз в таком положении, где он может нас достать.",
+        "learn": 0
+      },
+      {
+        "eng": "He got tanked at the party.",
+        "ru": "На вечеринке он здорово набрался.",
+        "learn": 0
+      },
+      {
+        "eng": "I get up at 7 A.M. every day",
+        "ru": "Я встаю в 7 утра каждый день",
+        "learn": 0
+      },
+      {
+        "eng": "They got stoned at the party.",
+        "ru": "Они были мертвецки пьяны на вечеринке.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll get off at the next stop.",
+        "ru": "Я сойду на следующей остановке.",
+        "learn": 0
+      },
+      {
+        "eng": "I usually get off at six o'clock.",
+        "ru": "Я обычно выхожу в шесть часов.",
+        "learn": 0
+      },
+      {
+        "eng": "Sorry, we got waylaid at the bar.",
+        "ru": "Извините, нас задержали в баре.",
+        "learn": 0
+      },
+      {
+        "eng": "We got back at him for his insult.",
+        "ru": "Мы отомстили ему за оскорбление.",
+        "learn": 0
+      },
+      {
+        "eng": "He got pickled at the office party.",
+        "ru": "На корпоративе он здорово набрался.",
+        "learn": 0
+      },
+      {
+        "eng": "I want to get off at the next station.",
+        "ru": "Я хочу выйти на следующей станции.",
+        "learn": 0
+      },
+      {
+        "eng": "He got sozzled at the party last night.",
+        "ru": "Он вчера на вечеринке напился вдрызг.",
+        "learn": 0
+      },
+      {
+        "eng": "I get nervous at the mention of his name.",
+        "ru": "Я нервничаю при упоминании его имени.",
+        "learn": 0
+      },
+      {
+        "eng": "We hope to get together at an early date.",
+        "ru": "Мы надеемся собраться в ближайшее время.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you think some of the jury have been got at?",
+        "ru": "Как вы думаете, кого-то из присяжных обманули?",
+        "learn": 0
+      }
+    ]
+  }
 }

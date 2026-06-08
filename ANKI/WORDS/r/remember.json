@@ -1,84 +1,170 @@
 {
-    "remember": {
-        "comment": [
-            "member",
-            "membership"
-        ],
-        "translate": "запомнить, помнить, помниться, вспоминать, воспоминание",
-        "transcription": " |rɪˈmembər|",
-        "antonyms": [],
-        "mnemonic": [
-            "remember [римэ'мбэ] помнить - (Ремень бы) пом нить все заставил.",
-            "remember [rɪ'membə]\n***\nПОМНИТЬ Рембо. (это) remember\nПомнить, вспоминать, не забывать."
-        ],
-        "examples": [
-            "If I remember right ...",
-            "Well do I remember it.",
-            "Remember to tip the waiter.",
-            "Mother asked to be remembered to you.",
-            "I can vividly remember the day we met.",
-            "Do you remember the memo I sent round?",
-            "Now you mention it I do remember.",
-            "Always remember to plan ahead.",
-            "Did you remember to take your vitamin?",
-            "I remember her as a very serious child.",
-            "I'll always remember that day.",
-            "I can't remember her phone number.",
-            "I hope he remembers the wine.",
-            "I remember what that felt like.",
-            "Remember, you are free to say no.",
-            "Remember to close the door after you.",
-            "I must remember to pay you back for the tickets.",
-            "Do you remember Rosa Davies?",
-            "I remember my first real job.",
-            "Do you remember your first kiss?",
-            "Can you remember her phone number?",
-            "I doubt if anyone will remember me.",
-            "I remember setting my bag right here.",
-            "If I remember correctly, he's Spanish.",
-            "I remember how they fought.",
-            "He remembered her in his will.",
-            "Remember to put the lid back on.",
-            "I remember his youthful bravado.",
-            "Remember to sign in at reception.",
-            "I can't remember her exact words."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Если память мне не изменяет ... / Если я правильно помню...",
-            "Это я очень хорошо помню.",
-            "Не забудь оставить официанту чаевые /дать официанту на чай/.",
-            "Мама просила передать тебе привет.",
-            "Я отчетливо помню день, когда мы встретились.",
-            "Ты помнишь служебную записку, которую я разослал?",
-            "Теперь, когда вы упомянули об этом, я действительно припоминаю.",
-            "Всегда помните, что нужно планировать всё заранее.",
-            "Вы не забыли принять витамин?",
-            "Я помню, она была очень серьёзным ребёнком.",
-            "Я всегда буду помнить тот день.",
-            "Я не могу вспомнить её номер телефона.",
-            "Надеюсь, что он не забудет про вино.",
-            "Я помню, что чувствовал тогда.",
-            "Помните, вы спокойно можете отказаться.",
-            "Не забудь закрыть за собой дверь.",
-            "Надо не забыть вернуть тебе деньги за билеты.",
-            "Помнишь Розу Дэвис?",
-            "Я помню /вспоминаю/ свою первую настоящую работу.",
-            "Помните ли вы свой первый поцелуй?",
-            "Может, вы помните номер её телефона?",
-            "Я сомневаюсь, что кто-то будет помнить меня.",
-            "Я помню, что поставил сумку вот здесь.",
-            "Если я правильно помню, он испанец.",
-            "Я помню, как они дрались.",
-            "Он упомянул её в завещании.",
-            "Не забудьте вернуть /положить/ крышку на место.",
-            "Я помню его юношескую браваду.",
-            "Не забудьте зарегистрироваться на стойке регистрации.",
-            "Я не могу вспомнить, что она сказала дословно."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "remember": {
+    "comment": [
+      "member",
+      "membership"
+    ],
+    "translate": "запомнить, помнить, помниться, вспоминать, воспоминание",
+    "transcription": " |rɪˈmembər|",
+    "antonyms": [],
+    "mnemonic": [
+      "remember [римэ'мбэ] помнить - (Ремень бы) пом нить все заставил.",
+      "remember [rɪ'membə]\n***\nПОМНИТЬ Рембо. (это) remember\nПомнить, вспоминать, не забывать."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "If I remember right ...",
+        "ru": "Если память мне не изменяет ... / Если я правильно помню...",
+        "learn": 0
+      },
+      {
+        "eng": "Well do I remember it.",
+        "ru": "Это я очень хорошо помню.",
+        "learn": 0
+      },
+      {
+        "eng": "Remember to tip the waiter.",
+        "ru": "Не забудь оставить официанту чаевые /дать официанту на чай/.",
+        "learn": 1
+      },
+      {
+        "eng": "Mother asked to be remembered to you.",
+        "ru": "Мама просила передать тебе привет.",
+        "learn": 0
+      },
+      {
+        "eng": "I can vividly remember the day we met.",
+        "ru": "Я отчетливо помню день, когда мы встретились.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you remember the memo I sent round?",
+        "ru": "Ты помнишь служебную записку, которую я разослал?",
+        "learn": 0
+      },
+      {
+        "eng": "Now you mention it I do remember.",
+        "ru": "Теперь, когда вы упомянули об этом, я действительно припоминаю.",
+        "learn": 0
+      },
+      {
+        "eng": "Always remember to plan ahead.",
+        "ru": "Всегда помните, что нужно планировать всё заранее.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you remember to take your vitamin?",
+        "ru": "Вы не забыли принять витамин?",
+        "learn": 0
+      },
+      {
+        "eng": "I remember her as a very serious child.",
+        "ru": "Я помню, она была очень серьёзным ребёнком.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll always remember that day.",
+        "ru": "Я всегда буду помнить тот день.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't remember her phone number.",
+        "ru": "Я не могу вспомнить её номер телефона.",
+        "learn": 1
+      },
+      {
+        "eng": "I hope he remembers the wine.",
+        "ru": "Надеюсь, что он не забудет про вино.",
+        "learn": 0
+      },
+      {
+        "eng": "I remember what that felt like.",
+        "ru": "Я помню, что чувствовал тогда.",
+        "learn": 0
+      },
+      {
+        "eng": "Remember, you are free to say no.",
+        "ru": "Помните, вы спокойно можете отказаться.",
+        "learn": 0
+      },
+      {
+        "eng": "Remember to close the door after you.",
+        "ru": "Не забудь закрыть за собой дверь.",
+        "learn": 0
+      },
+      {
+        "eng": "I must remember to pay you back for the tickets.",
+        "ru": "Надо не забыть вернуть тебе деньги за билеты.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you remember Rosa Davies?",
+        "ru": "Помнишь Розу Дэвис?",
+        "learn": 0
+      },
+      {
+        "eng": "I remember my first real job.",
+        "ru": "Я помню /вспоминаю/ свою первую настоящую работу.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you remember your first kiss?",
+        "ru": "Помните ли вы свой первый поцелуй?",
+        "learn": 0
+      },
+      {
+        "eng": "Can you remember her phone number?",
+        "ru": "Может, вы помните номер её телефона?",
+        "learn": 0
+      },
+      {
+        "eng": "I doubt if anyone will remember me.",
+        "ru": "Я сомневаюсь, что кто-то будет помнить меня.",
+        "learn": 1
+      },
+      {
+        "eng": "I remember setting my bag right here.",
+        "ru": "Я помню, что поставил сумку вот здесь.",
+        "learn": 1
+      },
+      {
+        "eng": "If I remember correctly, he's Spanish.",
+        "ru": "Если я правильно помню, он испанец.",
+        "learn": 0
+      },
+      {
+        "eng": "I remember how they fought.",
+        "ru": "Я помню, как они дрались.",
+        "learn": 0
+      },
+      {
+        "eng": "He remembered her in his will.",
+        "ru": "Он упомянул её в завещании.",
+        "learn": 0
+      },
+      {
+        "eng": "Remember to put the lid back on.",
+        "ru": "Не забудьте вернуть /положить/ крышку на место.",
+        "learn": 0
+      },
+      {
+        "eng": "I remember his youthful bravado.",
+        "ru": "Я помню его юношескую браваду.",
+        "learn": 0
+      },
+      {
+        "eng": "Remember to sign in at reception.",
+        "ru": "Не забудьте зарегистрироваться на стойке регистрации.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't remember her exact words.",
+        "ru": "Я не могу вспомнить, что она сказала дословно.",
+        "learn": 0
+      }
+    ]
+  }
 }

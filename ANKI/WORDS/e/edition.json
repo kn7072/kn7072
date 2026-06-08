@@ -1,84 +1,170 @@
 {
-    "edition": {
-        "comment": [
-            "editor",
-            "expedition",
-            "hereditary"
-        ],
-        "translate": "издание, выпуск, тираж, вариант, копия",
-        "transcription": " |ɪˈdɪʃn|",
-        "antonyms": [],
-        "mnemonic": [
-            "edit ['edɪt]\nedition [ɪ'dɪʃ (ə) n]\n***\nОТРЕДАКТИРУЕТ статью и к нам приедет. (это) edit\nedition - издание, выпуск, тираж\n***\nВ свежем выпуске \"edition\"\nвсё про крамолу \"sedition\"."
-        ],
-        "examples": [
-            "He is a cleverer edition of his father.",
-            "The first edition was published in 1765.",
-            "Of how many copies does the edition consist?",
-            "the latest edition of the software",
-            "This edition is an improvement over the previous one.",
-            "It would be better to swiften the edition of the dictionary.",
-            "A new edition is in active preparation.",
-            "It was too late for the morning edition.",
-            "This edition supersedes the previous one.",
-            "The boy is a younger edition of his father.",
-            "The text was emended in the second edition.",
-            "The larger edition contains three maps extra.",
-            "an omnibus edition of his more popular stories",
-            "He read it in yesterday's edition of the Times.",
-            "A new edition of the book has 55 colour plates.",
-            "His economics textbook is in its tenth edition.",
-            "They are advertising the new edition of the book.",
-            "The new edition includes the translator's comments.",
-            "They printed 10,000 copies of the book's new edition.",
-            "The new edition was rushed out just before Christmas.",
-            "The dictionary's current edition has 10,000 new words.",
-            "The errors were corrected in the book's second edition.",
-            "The book's cover has been redesigned for the new edition.",
-            "Martin was reading the early edition of the Evening News.",
-            "I made some additions to my book against the next edition.",
-            "The scholar annotated the early edition of a famous novel.",
-            "I'm making some revisions to the book for the new edition.",
-            "The deluxe edition of the book includes many more illustrations.",
-            "Ten scientists contributed to the special edition of the journal.",
-            "Material about recent research has been added to this new edition."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он более интеллектуальная копия своего отца.",
-            "Первое издание было опубликовано в 1765 году.",
-            "Каков тираж издания?",
-            "последняя версия данного программного обеспечения",
-            "Это улучшенное издание по сравнению с предыдущим.",
-            "Было бы лучше приблизить срок издания словаря.",
-            "Полным ходом идёт подготовка нового издания.",
-            "Для утреннего выпуска было уже слишком поздно.",
-            "Данное издание занимает место предыдущего.",
-            "Этот мальчик — вылитая копия своего отца.",
-            "Во втором издании текст был исправлен.",
-            "Более полное издание содержит дополнительно три карты.",
-            "сборник самых популярных его рассказов",
-            "Он это вычитал во вчерашнем выпуске \"Таймс\".",
-            "В новом издании этой книги 55 цветных иллюстраций.",
-            "Его учебник экономики выходит в десятом издании.",
-            "Они рекламируют новое издание данной книги.",
-            "Новое издание включает комментарии переводчика.",
-            "Они напечатали десять тысяч экземпляров нового издания книги.",
-            "Новую редакцию поспешили выпустить перед самым Рождеством / как раз перед Рождеством.",
-            "В нынешнем издании этого словаря имеется десять тысяч новых слов.",
-            "Эти ошибки были исправлены во втором издании книги.",
-            "Для нового издания дизайн обложки книги был переработан.",
-            "Мартин читал утренний выпуск \"Ивнинг ньюз\".",
-            "Для следующего издания моей книги я сделал к ней некоторые дополнения.",
-            "Ученый написал комментарии к ранней редакции знаменитого романа.",
-            "Я вношу некоторые изменения в книгу для её нового издания.",
-            "Подарочное издание данной книги включает в себя множество дополнительных иллюстраций.",
-            "Для специального выпуска данного журнала написали статьи десять учёных.",
-            "К новой редакции был добавлен материал о последних исследованиях."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "edition": {
+    "comment": [
+      "editor",
+      "expedition",
+      "hereditary"
+    ],
+    "translate": "издание, выпуск, тираж, вариант, копия",
+    "transcription": " |ɪˈdɪʃn|",
+    "antonyms": [],
+    "mnemonic": [
+      "edit ['edɪt]\nedition [ɪ'dɪʃ (ə) n]\n***\nОТРЕДАКТИРУЕТ статью и к нам приедет. (это) edit\nedition - издание, выпуск, тираж\n***\nВ свежем выпуске \"edition\"\nвсё про крамолу \"sedition\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He is a cleverer edition of his father.",
+        "ru": "Он более интеллектуальная копия своего отца.",
+        "learn": 0
+      },
+      {
+        "eng": "The first edition was published in 1765.",
+        "ru": "Первое издание было опубликовано в 1765 году.",
+        "learn": 0
+      },
+      {
+        "eng": "Of how many copies does the edition consist?",
+        "ru": "Каков тираж издания?",
+        "learn": 0
+      },
+      {
+        "eng": "the latest edition of the software",
+        "ru": "последняя версия данного программного обеспечения",
+        "learn": 0
+      },
+      {
+        "eng": "This edition is an improvement over the previous one.",
+        "ru": "Это улучшенное издание по сравнению с предыдущим.",
+        "learn": 1
+      },
+      {
+        "eng": "It would be better to swiften the edition of the dictionary.",
+        "ru": "Было бы лучше приблизить срок издания словаря.",
+        "learn": 0
+      },
+      {
+        "eng": "A new edition is in active preparation.",
+        "ru": "Полным ходом идёт подготовка нового издания.",
+        "learn": 0
+      },
+      {
+        "eng": "It was too late for the morning edition.",
+        "ru": "Для утреннего выпуска было уже слишком поздно.",
+        "learn": 0
+      },
+      {
+        "eng": "This edition supersedes the previous one.",
+        "ru": "Данное издание занимает место предыдущего.",
+        "learn": 0
+      },
+      {
+        "eng": "The boy is a younger edition of his father.",
+        "ru": "Этот мальчик — вылитая копия своего отца.",
+        "learn": 0
+      },
+      {
+        "eng": "The text was emended in the second edition.",
+        "ru": "Во втором издании текст был исправлен.",
+        "learn": 0
+      },
+      {
+        "eng": "The larger edition contains three maps extra.",
+        "ru": "Более полное издание содержит дополнительно три карты.",
+        "learn": 0
+      },
+      {
+        "eng": "an omnibus edition of his more popular stories",
+        "ru": "сборник самых популярных его рассказов",
+        "learn": 0
+      },
+      {
+        "eng": "He read it in yesterday's edition of the Times.",
+        "ru": "Он это вычитал во вчерашнем выпуске \"Таймс\".",
+        "learn": 0
+      },
+      {
+        "eng": "A new edition of the book has 55 colour plates.",
+        "ru": "В новом издании этой книги 55 цветных иллюстраций.",
+        "learn": 0
+      },
+      {
+        "eng": "His economics textbook is in its tenth edition.",
+        "ru": "Его учебник экономики выходит в десятом издании.",
+        "learn": 0
+      },
+      {
+        "eng": "They are advertising the new edition of the book.",
+        "ru": "Они рекламируют новое издание данной книги.",
+        "learn": 1
+      },
+      {
+        "eng": "The new edition includes the translator's comments.",
+        "ru": "Новое издание включает комментарии переводчика.",
+        "learn": 0
+      },
+      {
+        "eng": "They printed 10,000 copies of the book's new edition.",
+        "ru": "Они напечатали десять тысяч экземпляров нового издания книги.",
+        "learn": 0
+      },
+      {
+        "eng": "The new edition was rushed out just before Christmas.",
+        "ru": "Новую редакцию поспешили выпустить перед самым Рождеством / как раз перед Рождеством.",
+        "learn": 0
+      },
+      {
+        "eng": "The dictionary's current edition has 10,000 new words.",
+        "ru": "В нынешнем издании этого словаря имеется десять тысяч новых слов.",
+        "learn": 0
+      },
+      {
+        "eng": "The errors were corrected in the book's second edition.",
+        "ru": "Эти ошибки были исправлены во втором издании книги.",
+        "learn": 0
+      },
+      {
+        "eng": "The book's cover has been redesigned for the new edition.",
+        "ru": "Для нового издания дизайн обложки книги был переработан.",
+        "learn": 0
+      },
+      {
+        "eng": "Martin was reading the early edition of the Evening News.",
+        "ru": "Мартин читал утренний выпуск \"Ивнинг ньюз\".",
+        "learn": 0
+      },
+      {
+        "eng": "I made some additions to my book against the next edition.",
+        "ru": "Для следующего издания моей книги я сделал к ней некоторые дополнения.",
+        "learn": 0
+      },
+      {
+        "eng": "The scholar annotated the early edition of a famous novel.",
+        "ru": "Ученый написал комментарии к ранней редакции знаменитого романа.",
+        "learn": 1
+      },
+      {
+        "eng": "I'm making some revisions to the book for the new edition.",
+        "ru": "Я вношу некоторые изменения в книгу для её нового издания.",
+        "learn": 1
+      },
+      {
+        "eng": "The deluxe edition of the book includes many more illustrations.",
+        "ru": "Подарочное издание данной книги включает в себя множество дополнительных иллюстраций.",
+        "learn": 0
+      },
+      {
+        "eng": "Ten scientists contributed to the special edition of the journal.",
+        "ru": "Для специального выпуска данного журнала написали статьи десять учёных.",
+        "learn": 0
+      },
+      {
+        "eng": "Material about recent research has been added to this new edition.",
+        "ru": "К новой редакции был добавлен материал о последних исследованиях.",
+        "learn": 0
+      }
+    ]
+  }
 }

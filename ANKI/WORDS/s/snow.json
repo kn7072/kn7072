@@ -1,83 +1,169 @@
 {
-    "snow": {
-        "comment": [
-            "now",
-            "know"
-        ],
-        "translate": "снег, снегопад, белизна, снежный, снеговой, заносить снегом, сыпаться",
-        "transcription": " |snoʊ|",
-        "antonyms": [],
-        "mnemonic": [
-            "snow [сно'у] снег - (Сноу-бордом) по снегу катаются."
-        ],
-        "examples": [
-            "It is snowing.",
-            "Perhaps it will snow tomorrow.",
-            "A light snow was falling.",
-            "It is not likely to snow.",
-            "It was snowing all night.",
-            "Snow settled on the roofs.",
-            "The snow came down hard.",
-            "Snow is falling in profusion.",
-            "The snow had drifted our tracks.",
-            "The snow damaged the roof.",
-            "The rain changed into snow.",
-            "He looked out at the snow.",
-            "We walked in the deep snow.",
-            "The snow garments the land.",
-            "The snow is finally melting.",
-            "He is outside shoveling snow.",
-            "Snow fell softly on the town.",
-            "He looked outside at the snow.",
-            "Snow is a phenomenon of winter.",
-            "Snow White and the Seven Dwarfs",
-            "Snow is expected by the weekend.",
-            "Snow caps the mountain.",
-            "Snow capped the mountains.",
-            "There was a blanket of snow.",
-            "We stood ankle-deep in snow.",
-            "She took a walk in the snow.",
-            "a long tramp through the snow",
-            "Snow White and the seven dwarfs",
-            "the snows of the Rocky Mountains",
-            "The field was patched with snow."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Идёт снег.",
-            "Возможно, завтра будет снег.",
-            "Падал небольшой снег.",
-            "Непохоже, что будет снег.",
-            "Снег шёл всю ночь.",
-            "Снег лежал на крышах домов.",
-            "Шёл сильный снег.",
-            "Снег валит в изобилии.",
-            "Наши следы занесло снегом.",
-            "Снег повредил крышу.",
-            "Дождь перешёл в снег.",
-            "Он посмотрел на снег за окном.",
-            "Мы пошли по глубокому снегу.",
-            "Снег покрывает землю.",
-            "Снег наконец-то тает.",
-            "Он на улице, разгребает снег.",
-            "Снег мягко падал на город.",
-            "Он посмотрел на снег за окном.",
-            "Снег — обычное явление зимой.",
-            "Белоснежка и Семь Гномов",
-            "К концу недели ожидается снег.",
-            "Гора покрыта снеговой шапкой.",
-            "Вершины гор были прикрыты шапками снега.",
-            "Всё было покрыто снегом /снежным одеялом/.",
-            "Мы стояли по щиколотку в снегу.",
-            "Она прогулялась под снегом.",
-            "долгий, тяжёлый путь сквозь снега",
-            "Белоснежка и семь гномов",
-            "снега Скалистых гор",
-            "На поле местами лежал снег."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "snow": {
+    "comment": [
+      "now",
+      "know"
+    ],
+    "translate": "снег, снегопад, белизна, снежный, снеговой, заносить снегом, сыпаться",
+    "transcription": " |snoʊ|",
+    "antonyms": [],
+    "mnemonic": [
+      "snow [сно'у] снег - (Сноу-бордом) по снегу катаются."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "It is snowing.",
+        "ru": "Идёт снег.",
+        "learn": 0
+      },
+      {
+        "eng": "Perhaps it will snow tomorrow.",
+        "ru": "Возможно, завтра будет снег.",
+        "learn": 0
+      },
+      {
+        "eng": "A light snow was falling.",
+        "ru": "Падал небольшой снег.",
+        "learn": 1
+      },
+      {
+        "eng": "It is not likely to snow.",
+        "ru": "Непохоже, что будет снег.",
+        "learn": 0
+      },
+      {
+        "eng": "It was snowing all night.",
+        "ru": "Снег шёл всю ночь.",
+        "learn": 0
+      },
+      {
+        "eng": "Snow settled on the roofs.",
+        "ru": "Снег лежал на крышах домов.",
+        "learn": 0
+      },
+      {
+        "eng": "The snow came down hard.",
+        "ru": "Шёл сильный снег.",
+        "learn": 0
+      },
+      {
+        "eng": "Snow is falling in profusion.",
+        "ru": "Снег валит в изобилии.",
+        "learn": 0
+      },
+      {
+        "eng": "The snow had drifted our tracks.",
+        "ru": "Наши следы занесло снегом.",
+        "learn": 0
+      },
+      {
+        "eng": "The snow damaged the roof.",
+        "ru": "Снег повредил крышу.",
+        "learn": 1
+      },
+      {
+        "eng": "The rain changed into snow.",
+        "ru": "Дождь перешёл в снег.",
+        "learn": 0
+      },
+      {
+        "eng": "He looked out at the snow.",
+        "ru": "Он посмотрел на снег за окном.",
+        "learn": 0
+      },
+      {
+        "eng": "We walked in the deep snow.",
+        "ru": "Мы пошли по глубокому снегу.",
+        "learn": 1
+      },
+      {
+        "eng": "The snow garments the land.",
+        "ru": "Снег покрывает землю.",
+        "learn": 1
+      },
+      {
+        "eng": "The snow is finally melting.",
+        "ru": "Снег наконец-то тает.",
+        "learn": 0
+      },
+      {
+        "eng": "He is outside shoveling snow.",
+        "ru": "Он на улице, разгребает снег.",
+        "learn": 0
+      },
+      {
+        "eng": "Snow fell softly on the town.",
+        "ru": "Снег мягко падал на город.",
+        "learn": 0
+      },
+      {
+        "eng": "He looked outside at the snow.",
+        "ru": "Он посмотрел на снег за окном.",
+        "learn": 0
+      },
+      {
+        "eng": "Snow is a phenomenon of winter.",
+        "ru": "Снег — обычное явление зимой.",
+        "learn": 1
+      },
+      {
+        "eng": "Snow White and the Seven Dwarfs",
+        "ru": "Белоснежка и Семь Гномов",
+        "learn": 0
+      },
+      {
+        "eng": "Snow is expected by the weekend.",
+        "ru": "К концу недели ожидается снег.",
+        "learn": 0
+      },
+      {
+        "eng": "Snow caps the mountain.",
+        "ru": "Гора покрыта снеговой шапкой.",
+        "learn": 1
+      },
+      {
+        "eng": "Snow capped the mountains.",
+        "ru": "Вершины гор были прикрыты шапками снега.",
+        "learn": 0
+      },
+      {
+        "eng": "There was a blanket of snow.",
+        "ru": "Всё было покрыто снегом /снежным одеялом/.",
+        "learn": 0
+      },
+      {
+        "eng": "We stood ankle-deep in snow.",
+        "ru": "Мы стояли по щиколотку в снегу.",
+        "learn": 0
+      },
+      {
+        "eng": "She took a walk in the snow.",
+        "ru": "Она прогулялась под снегом.",
+        "learn": 0
+      },
+      {
+        "eng": "a long tramp through the snow",
+        "ru": "долгий, тяжёлый путь сквозь снега",
+        "learn": 0
+      },
+      {
+        "eng": "Snow White and the seven dwarfs",
+        "ru": "Белоснежка и семь гномов",
+        "learn": 0
+      },
+      {
+        "eng": "the snows of the Rocky Mountains",
+        "ru": "снега Скалистых гор",
+        "learn": 0
+      },
+      {
+        "eng": "The field was patched with snow.",
+        "ru": "На поле местами лежал снег.",
+        "learn": 0
+      }
+    ]
+  }
 }

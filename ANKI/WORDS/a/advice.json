@@ -1,85 +1,171 @@
 {
-    "advice": {
-        "comment": [
-            "advise",
-            "adviser",
-            "advisory"
-        ],
-        "translate": "совет, консультация, мнение, авизо, суждение, сообщение",
-        "transcription": " |ədˈvaɪs|",
-        "antonyms": [],
-        "mnemonic": [
-            "advice [əd'vaɪs]\n***\nСОВЕТ я получил от|вас. (это) advice\nКОНСУЛЬТАЦИЯ от|вас. (это) advice\n***\nУ меня есть совет \"advice\" и\nустройство \"device\"\nчтоб уберечь рис \"rice\"\nи специи \"spice\"\nот мышей \"mice\".",
-            "device [dɪ'vaɪs]\nvice [vaɪs] - зло, порок. вице\nadvice [əd'vaɪs] - совет, консультация\n***\nУСТРОЙСТВО и ПРИБОР для|вас. (это) device\nСПОСОБ и СРЕДСТВО для|вас, одевайсь. (это) device\n***\nУ меня есть совет \"advice\" и\nустройство \"device\"\nот мышей \"mice\"."
-        ],
-        "examples": [
-            "Let me give you some advice.",
-            "Do you want some good advice?",
-            "I would fain follow your advice.",
-            "I'll defer to your advice.",
-            "The advice came too late.",
-            "Let me give you a piece of advice.",
-            "Per your advice, I accepted their offer.",
-            "I chose to ignore his advice.",
-            "He needs advice from an expert.",
-            "His advice went unheeded.",
-            "I don't need advice about my love life.",
-            "Take my advice and sell your old car.",
-            "We received some expert advice.",
-            "We took his advice to remain silent.",
-            "Medical advice was provided gratis.",
-            "She is always free with her advice.",
-            "It would be foolish to ignore his advice.",
-            "If you take my advice, you'll see a doctor.",
-            "She never offered anyone advice, except it were asked of her.",
-            "She gave us some sound advice.",
-            "The book is full of sound advice.",
-            "He asked his colleagues for advice.",
-            "I'm going to give you a little bit of advice.",
-            "He referred to me for some advice.",
-            "You should seek professional advice.",
-            "She gave him some hardheaded advice.",
-            "He was heedful of his father's advice.",
-            "Your advice has been invaluable to us.",
-            "Such insincere advice isn't worth a pin.",
-            "My teacher gave me some sensible advice."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Позвольте мне вам кое-что посоветовать.",
-            "Хочешь хороший совет?",
-            "Я с радостью последую вашему совету.",
-            "Я последую вашему совету.",
-            "Совет чересчур запоздал.",
-            "Позвольте мне кое-что вам посоветовать.",
-            "Согласно вашему совету, я принял их предложение.",
-            "Я решил не слушать его советов.",
-            "Ему нужна консультация специалиста.",
-            "Его совет проигнорировали.",
-            "Мне не нужны советы по поводу личной жизни.",
-            "Послушай моего совета: продай свой старый автомобиль.",
-            "Мы получили некоторые рекомендации специалистов.",
-            "Мы последовали его совету хранить молчание.",
-            "Медицинские консультации предоставлялись бесплатно.",
-            "Она всегда щедро раздаёт советы. / Она никогда не скупится на советы.",
-            "Было бы глупо не прислушаться к его совету.",
-            "Если вы прислушаетесь к моему совету, то покажетесь врачу.",
-            "Она никому не давала советов, если только её не просили.",
-            "Она дала нам несколько здравых советов.",
-            "Книга полна дельных советов.",
-            "Он обратился за советом к коллегам.",
-            "Я дам тебе небольшой совет.",
-            "Он обратился ко мне за советом.",
-            "Вам следует обратиться за профессиональной консультацией.",
-            "Она дала ему несколько трезвых советов.",
-            "Он внимательно прислушивался к отцовским советам.",
-            "Ваши советы для нас бесценны.",
-            "Такой лицемерный совет гроша ломанного не стоит.",
-            "Мой учитель дал мне дельный совет."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "advice": {
+    "comment": [
+      "advise",
+      "adviser",
+      "advisory"
+    ],
+    "translate": "совет, консультация, мнение, авизо, суждение, сообщение",
+    "transcription": " |ədˈvaɪs|",
+    "antonyms": [],
+    "mnemonic": [
+      "advice [əd'vaɪs]\n***\nСОВЕТ я получил от|вас. (это) advice\nКОНСУЛЬТАЦИЯ от|вас. (это) advice\n***\nУ меня есть совет \"advice\" и\nустройство \"device\"\nчтоб уберечь рис \"rice\"\nи специи \"spice\"\nот мышей \"mice\".",
+      "device [dɪ'vaɪs]\nvice [vaɪs] - зло, порок. вице\nadvice [əd'vaɪs] - совет, консультация\n***\nУСТРОЙСТВО и ПРИБОР для|вас. (это) device\nСПОСОБ и СРЕДСТВО для|вас, одевайсь. (это) device\n***\nУ меня есть совет \"advice\" и\nустройство \"device\"\nот мышей \"mice\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Let me give you some advice.",
+        "ru": "Позвольте мне вам кое-что посоветовать.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you want some good advice?",
+        "ru": "Хочешь хороший совет?",
+        "learn": 1
+      },
+      {
+        "eng": "I would fain follow your advice.",
+        "ru": "Я с радостью последую вашему совету.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll defer to your advice.",
+        "ru": "Я последую вашему совету.",
+        "learn": 1
+      },
+      {
+        "eng": "The advice came too late.",
+        "ru": "Совет чересчур запоздал.",
+        "learn": 0
+      },
+      {
+        "eng": "Let me give you a piece of advice.",
+        "ru": "Позвольте мне кое-что вам посоветовать.",
+        "learn": 0
+      },
+      {
+        "eng": "Per your advice, I accepted their offer.",
+        "ru": "Согласно вашему совету, я принял их предложение.",
+        "learn": 0
+      },
+      {
+        "eng": "I chose to ignore his advice.",
+        "ru": "Я решил не слушать его советов.",
+        "learn": 0
+      },
+      {
+        "eng": "He needs advice from an expert.",
+        "ru": "Ему нужна консультация специалиста.",
+        "learn": 0
+      },
+      {
+        "eng": "His advice went unheeded.",
+        "ru": "Его совет проигнорировали.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't need advice about my love life.",
+        "ru": "Мне не нужны советы по поводу личной жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "Take my advice and sell your old car.",
+        "ru": "Послушай моего совета: продай свой старый автомобиль.",
+        "learn": 0
+      },
+      {
+        "eng": "We received some expert advice.",
+        "ru": "Мы получили некоторые рекомендации специалистов.",
+        "learn": 0
+      },
+      {
+        "eng": "We took his advice to remain silent.",
+        "ru": "Мы последовали его совету хранить молчание.",
+        "learn": 0
+      },
+      {
+        "eng": "Medical advice was provided gratis.",
+        "ru": "Медицинские консультации предоставлялись бесплатно.",
+        "learn": 0
+      },
+      {
+        "eng": "She is always free with her advice.",
+        "ru": "Она всегда щедро раздаёт советы. / Она никогда не скупится на советы.",
+        "learn": 0
+      },
+      {
+        "eng": "It would be foolish to ignore his advice.",
+        "ru": "Было бы глупо не прислушаться к его совету.",
+        "learn": 0
+      },
+      {
+        "eng": "If you take my advice, you'll see a doctor.",
+        "ru": "Если вы прислушаетесь к моему совету, то покажетесь врачу.",
+        "learn": 0
+      },
+      {
+        "eng": "She never offered anyone advice, except it were asked of her.",
+        "ru": "Она никому не давала советов, если только её не просили.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave us some sound advice.",
+        "ru": "Она дала нам несколько здравых советов.",
+        "learn": 0
+      },
+      {
+        "eng": "The book is full of sound advice.",
+        "ru": "Книга полна дельных советов.",
+        "learn": 0
+      },
+      {
+        "eng": "He asked his colleagues for advice.",
+        "ru": "Он обратился за советом к коллегам.",
+        "learn": 1
+      },
+      {
+        "eng": "I'm going to give you a little bit of advice.",
+        "ru": "Я дам тебе небольшой совет.",
+        "learn": 0
+      },
+      {
+        "eng": "He referred to me for some advice.",
+        "ru": "Он обратился ко мне за советом.",
+        "learn": 0
+      },
+      {
+        "eng": "You should seek professional advice.",
+        "ru": "Вам следует обратиться за профессиональной консультацией.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave him some hardheaded advice.",
+        "ru": "Она дала ему несколько трезвых советов.",
+        "learn": 0
+      },
+      {
+        "eng": "He was heedful of his father's advice.",
+        "ru": "Он внимательно прислушивался к отцовским советам.",
+        "learn": 0
+      },
+      {
+        "eng": "Your advice has been invaluable to us.",
+        "ru": "Ваши советы для нас бесценны.",
+        "learn": 0
+      },
+      {
+        "eng": "Such insincere advice isn't worth a pin.",
+        "ru": "Такой лицемерный совет гроша ломанного не стоит.",
+        "learn": 0
+      },
+      {
+        "eng": "My teacher gave me some sensible advice.",
+        "ru": "Мой учитель дал мне дельный совет.",
+        "learn": 1
+      }
+    ]
+  }
 }

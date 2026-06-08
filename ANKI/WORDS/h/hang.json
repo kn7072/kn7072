@@ -1,83 +1,172 @@
 {
-    "hang": {
-        "comment": [
-            "hand"
-        ],
-        "translate": "висеть, вешать, развесить, подвешивать, вид, наклон, смысл, манера, склон, скат",
-        "transcription": " |hæŋ|",
-        "antonyms": [],
-        "mnemonic": [
-            "hang [Иэ'нг] висеть - Все (Иэнг-личане*) повесились (‘Англичане).",
-            "hang [hæŋ] - повесить., вид манера\n***\nПОВЕШУ шляпу на манекен. (это) hang\nПОВЕСИТЬ всех надумал хан. (это) hang"
-        ],
-        "examples": [
-            "She hung on his arm.",
-            "His tongue is hanged well enough.",
-            "The decision is still hanging.",
-            "Hang on tight!",
-            "Clouds are hanging low overhead.",
-            "Doom hung over the nation.",
-            "He hung on her every word.",
-            "He was hanged for murder.",
-            "Hang on! I'll be back in a minute.",
-            "He hung the painting on the wall.",
-            "Don't hang up on me.",
-            "The picture hangs right above the fireplace.",
-            "I hate to have unfinished work hanging over me.",
-            "She was hanging wet clothes outside.",
-            "This dress hangs well.",
-            "Hang out the flag, the victory is ours!",
-            "He couldn't get the hang of it.",
-            "She sat her legs hanging in the air.",
-            "This worry hangs on my mind",
-            "His pictures were not hung in that hall.",
-            "Her story just doesn't hang together.",
-            "Dogs hung to the trail.",
-            "Time hangs on his hands.",
-            "He hung a quick U-turn.",
-            "Election hangs on one vote.",
-            "He hanged himself with a guitar string.",
-            "Hang the wet things out to dry.",
-            "He hanged for his crimes.",
-            "A hang glider soared in the air.",
-            "Both men were sentenced to hang."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она повисла на его руке. / Она вцепилась в его руку.",
-            "У него достаточно хорошо подвешен язык.",
-            "Решение всё ещё не принято.",
-            "Держитесь крепче!",
-            "Низкие облака висят над головой.",
-            "Злой рок навис над страной.",
-            "Он жадно ловил каждое её слово.",
-            "Его повесили за убийство.",
-            "Подождите меня! Я вернусь через минуту.",
-            "Он повесил картину на стену.",
-            "Не бросай трубку, когда говоришь со мной.",
-            "Картина висит прямо над камином.",
-            "Ненавижу, когда надо мной висит незаконченная работа.",
-            "Она развешивала мокрое бельё на улице.",
-            "Это платье сидит хорошо.",
-            "Вывешивай флаги, мы победили!",
-            "Он не мог наловчиться это делать. / У него не получалось набить в этом руку.",
-            "Она сидела свесив ноги.",
-            "Беспокойство тяготит мой разум.",
-            "Его картины не были выставлены в том зале.",
-            "Её история неправдоподобна. / Её рассказ нелогичен.",
-            "Собаки не теряли следа.",
-            "Время ему только в тягость.",
-            "Он резко развернулся на 180 градусов.",
-            "Результаты выборов зависят от одного голоса.",
-            "Он повесился на гитарной струне.",
-            "Мокрую одежду вывеси сушиться.",
-            "Он был повешен за свои преступления.",
-            "Дельтаплан взлетел в воздух.",
-            "Оба человека были приговорены к повешению."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "hang": {
+    "comment": [
+      "hung |hʌŋ|,                                          hung |hʌŋ|",
+      "hand"
+    ],
+    "translate": "висеть, вешать, развесить, подвешивать, вид, наклон, смысл, манера, склон, скат",
+    "transcription": " |hæŋ|",
+    "antonyms": [],
+    "mnemonic": [
+      "hang [Иэ'нг] висеть - Все (Иэнг-личане*) повесились (‘Англичане).",
+      "hang [hæŋ] - повесить., вид манера\n***\nПОВЕШУ шляпу на манекен. (это) hang\nПОВЕСИТЬ всех надумал хан. (это) hang"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "She hung on his arm.",
+        "ru": "Она повисла на его руке. / Она вцепилась в его руку.",
+        "learn": 0
+      },
+      {
+        "eng": "His tongue is hanged well enough.",
+        "ru": "У него достаточно хорошо подвешен язык.",
+        "learn": 0
+      },
+      {
+        "eng": "The decision is still hanging.",
+        "ru": "Решение всё ещё не принято.",
+        "learn": 0
+      },
+      {
+        "eng": "Hang on tight!",
+        "ru": "Держитесь крепче!",
+        "learn": 0
+      },
+      {
+        "eng": "Clouds are hanging low overhead.",
+        "ru": "Низкие облака висят над головой.",
+        "learn": 0
+      },
+      {
+        "eng": "Doom hung over the nation.",
+        "ru": "Злой рок навис над страной.",
+        "learn": 0
+      },
+      {
+        "eng": "He hung on her every word.",
+        "ru": "Он жадно ловил каждое её слово.",
+        "learn": 0
+      },
+      {
+        "eng": "He was hanged for murder.",
+        "ru": "Его повесили за убийство.",
+        "learn": 1
+      },
+      {
+        "eng": "Hang on! I'll be back in a minute.",
+        "ru": "Подождите меня! Я вернусь через минуту.",
+        "learn": 0
+      },
+      {
+        "eng": "He hung the painting on the wall.",
+        "ru": "Он повесил картину на стену.",
+        "learn": 1
+      },
+      {
+        "eng": "Don't hang up on me.",
+        "ru": "Не бросай трубку, когда говоришь со мной.",
+        "learn": 0
+      },
+      {
+        "eng": "The picture hangs right above the fireplace.",
+        "ru": "Картина висит прямо над камином.",
+        "learn": 1
+      },
+      {
+        "eng": "I hate to have unfinished work hanging over me.",
+        "ru": "Ненавижу, когда надо мной висит незаконченная работа.",
+        "learn": 0
+      },
+      {
+        "eng": "She was hanging wet clothes outside.",
+        "ru": "Она развешивала мокрое бельё на улице.",
+        "learn": 0
+      },
+      {
+        "eng": "This dress hangs well.",
+        "ru": "Это платье сидит хорошо.",
+        "learn": 0
+      },
+      {
+        "eng": "Hang out the flag, the victory is ours!",
+        "ru": "Вывешивай флаги, мы победили!",
+        "learn": 0
+      },
+      {
+        "eng": "He couldn't get the hang of it.",
+        "ru": "Он не мог наловчиться это делать. / У него не получалось набить в этом руку.",
+        "learn": 0
+      },
+      {
+        "eng": "She sat her legs hanging in the air.",
+        "ru": "Она сидела свесив ноги.",
+        "learn": 0
+      },
+      {
+        "eng": "This worry hangs on my mind",
+        "ru": "Беспокойство тяготит мой разум.",
+        "learn": 0
+      },
+      {
+        "eng": "His pictures were not hung in that hall.",
+        "ru": "Его картины не были выставлены в том зале.",
+        "learn": 0
+      },
+      {
+        "eng": "Her story just doesn't hang together.",
+        "ru": "Её история неправдоподобна. / Её рассказ нелогичен.",
+        "learn": 0
+      },
+      {
+        "eng": "Dogs hung to the trail.",
+        "ru": "Собаки не теряли следа.",
+        "learn": 0
+      },
+      {
+        "eng": "Time hangs on his hands.",
+        "ru": "Время ему только в тягость.",
+        "learn": 0
+      },
+      {
+        "eng": "He hung a quick U-turn.",
+        "ru": "Он резко развернулся на 180 градусов.",
+        "learn": 0
+      },
+      {
+        "eng": "Election hangs on one vote.",
+        "ru": "Результаты выборов зависят от одного голоса.",
+        "learn": 0
+      },
+      {
+        "eng": "He hanged himself with a guitar string.",
+        "ru": "Он повесился на гитарной струне.",
+        "learn": 0
+      },
+      {
+        "eng": "Hang the wet things out to dry.",
+        "ru": "Мокрую одежду вывеси сушиться.",
+        "learn": 0
+      },
+      {
+        "eng": "He hanged for his crimes.",
+        "ru": "Он был повешен за свои преступления.",
+        "learn": 0
+      },
+      {
+        "eng": "A hang glider soared in the air.",
+        "ru": "Дельтаплан взлетел в воздух.",
+        "learn": 0
+      },
+      {
+        "eng": "Both men were sentenced to hang.",
+        "ru": "Оба человека были приговорены к повешению.",
+        "learn": 0
+      }
+    ]
+  }
 }

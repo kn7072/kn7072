@@ -1,80 +1,166 @@
 {
-    "nonsense": {
-        "comment": [
-            "sense"
-        ],
-        "translate": "ерунда, глупости, вздор, чушь, чепуха, бессмыслица, абсурд, ахинея, дребедень, пустяк",
-        "transcription": " |ˈnɑːnsens|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She talks a lot of nonsense.",
-            "How can you talk such nonsense?",
-            "That's utter nonsense!",
-            "Her plan is rank nonsense.",
-            "Stow that nonsense!",
-            "Stop talking nonsense, man!",
-            "You're to stop that nonsense, do you hear me?",
-            "Don't let him bother us with his nonsense.",
-            "It was sheer nonsense to trust them.",
-            "My father was spouting his usual nonsense!",
-            "I never heard such evendown nonsense.",
-            "Don't listen to him. He's talking nonsense.",
-            "'I'm a prisoner in my own home.' 'Nonsense!'",
-            "Computer programs look like complete nonsense to me.",
-            "She won't stand any nonsense from the kids in her class.",
-            "Few people are credulous enough to believe such nonsense.",
-            "It was a perfect love-letter, that is to say, it was the essence of nonsense.",
-            "None of your damned nonsense!",
-            "That argument is utter nonsense.",
-            "What he said is palpable nonsense.",
-            "She thinks that astrology is nonsense.",
-            "He was talking utter nonsense as usual.",
-            "By 1832 the idea had become an economic nonsense.",
-            "He was an honest man who had no frills, no nonsense about him.",
-            "Nonsense wherewith the haters of improvement would belabour the audacious innovators.",
-            "I think she's talking a lot of nonsense.",
-            "The article was a mindless piece of nonsense.",
-            "The government's housing policy is a nonsense.",
-            "That statement is complete and arrant nonsense.",
-            "She's a strong woman who stands no nonsense from anyone."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она болтает много глупостей.",
-            "Как вы можете нести такую чепуху?",
-            "Это полная чушь!",
-            "Её план — полная чушь.",
-            "Брось эти глупости!",
-            "Хватит говорить глупости /бредить, нести чушь/, мужик!",
-            "Прекрати нести эту чушь, слышишь меня?",
-            "Не позволяйте ему надоедать нам своими глупостями.",
-            "Что за ерунда, как можно было им доверять!",
-            "Мой отец, как обычно, нёс ахинею!",
-            "Я еще никогда не слышал такой откровенной чуши.",
-            "Не слушай его, он говорит глупости.",
-            "— Я узник в собственном доме. — Глупости!",
-            "Компьютерные программы для меня все равно, что китайская грамота.",
-            "Она не потерпит глупостей от детей на своих занятиях.",
-            "Мало кто настолько доверчив, чтобы поверить в такую чушь.",
-            "Это было самое настоящее любовное письмо, иными словами, - полнейшая чепуха.",
-            "не болтайте ерунду!",
-            "Этот довод — несусветная чушь.",
-            "Сказанное им было явной ерундой.",
-            "Она считает астрологию ахинеей.",
-            "Он, как обычно, нёс полную ерунду.",
-            "К 1832 году эта идея стала экономической бессмыслицей.",
-            "Он был простым человеком без всякой манерности, без всей этой ерунды.",
-            "Вздор, с помощью которого противники прогресса душат смелых новаторов.",
-            "По-моему, она говорит много глупостей.",
-            "Статья была бессмысленной чепухой.",
-            "Государственная жилищная политика лишена всякого смысла.",
-            "Это утверждение — полный и самый настоящий бред.",
-            "Это сильная женщина, которая ни от кого не потерпит глупостей."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "nonsense": {
+    "comment": [
+      "sense"
+    ],
+    "translate": "ерунда, глупости, вздор, чушь, чепуха, бессмыслица, абсурд, ахинея, дребедень, пустяк",
+    "transcription": " |ˈnɑːnsens|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She talks a lot of nonsense.",
+        "ru": "Она болтает много глупостей.",
+        "learn": 0
+      },
+      {
+        "eng": "How can you talk such nonsense?",
+        "ru": "Как вы можете нести такую чепуху?",
+        "learn": 0
+      },
+      {
+        "eng": "That's utter nonsense!",
+        "ru": "Это полная чушь!",
+        "learn": 0
+      },
+      {
+        "eng": "Her plan is rank nonsense.",
+        "ru": "Её план — полная чушь.",
+        "learn": 0
+      },
+      {
+        "eng": "Stow that nonsense!",
+        "ru": "Брось эти глупости!",
+        "learn": 0
+      },
+      {
+        "eng": "Stop talking nonsense, man!",
+        "ru": "Хватит говорить глупости /бредить, нести чушь/, мужик!",
+        "learn": 0
+      },
+      {
+        "eng": "You're to stop that nonsense, do you hear me?",
+        "ru": "Прекрати нести эту чушь, слышишь меня?",
+        "learn": 0
+      },
+      {
+        "eng": "Don't let him bother us with his nonsense.",
+        "ru": "Не позволяйте ему надоедать нам своими глупостями.",
+        "learn": 1
+      },
+      {
+        "eng": "It was sheer nonsense to trust them.",
+        "ru": "Что за ерунда, как можно было им доверять!",
+        "learn": 0
+      },
+      {
+        "eng": "My father was spouting his usual nonsense!",
+        "ru": "Мой отец, как обычно, нёс ахинею!",
+        "learn": 0
+      },
+      {
+        "eng": "I never heard such evendown nonsense.",
+        "ru": "Я еще никогда не слышал такой откровенной чуши.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't listen to him. He's talking nonsense.",
+        "ru": "Не слушай его, он говорит глупости.",
+        "learn": 0
+      },
+      {
+        "eng": "'I'm a prisoner in my own home.' 'Nonsense!'",
+        "ru": "— Я узник в собственном доме. — Глупости!",
+        "learn": 0
+      },
+      {
+        "eng": "Computer programs look like complete nonsense to me.",
+        "ru": "Компьютерные программы для меня все равно, что китайская грамота.",
+        "learn": 0
+      },
+      {
+        "eng": "She won't stand any nonsense from the kids in her class.",
+        "ru": "Она не потерпит глупостей от детей на своих занятиях.",
+        "learn": 0
+      },
+      {
+        "eng": "Few people are credulous enough to believe such nonsense.",
+        "ru": "Мало кто настолько доверчив, чтобы поверить в такую чушь.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a perfect love-letter, that is to say, it was the essence of nonsense.",
+        "ru": "Это было самое настоящее любовное письмо, иными словами, - полнейшая чепуха.",
+        "learn": 0
+      },
+      {
+        "eng": "None of your damned nonsense!",
+        "ru": "не болтайте ерунду!",
+        "learn": 0
+      },
+      {
+        "eng": "That argument is utter nonsense.",
+        "ru": "Этот довод — несусветная чушь.",
+        "learn": 1
+      },
+      {
+        "eng": "What he said is palpable nonsense.",
+        "ru": "Сказанное им было явной ерундой.",
+        "learn": 0
+      },
+      {
+        "eng": "She thinks that astrology is nonsense.",
+        "ru": "Она считает астрологию ахинеей.",
+        "learn": 0
+      },
+      {
+        "eng": "He was talking utter nonsense as usual.",
+        "ru": "Он, как обычно, нёс полную ерунду.",
+        "learn": 1
+      },
+      {
+        "eng": "By 1832 the idea had become an economic nonsense.",
+        "ru": "К 1832 году эта идея стала экономической бессмыслицей.",
+        "learn": 0
+      },
+      {
+        "eng": "He was an honest man who had no frills, no nonsense about him.",
+        "ru": "Он был простым человеком без всякой манерности, без всей этой ерунды.",
+        "learn": 0
+      },
+      {
+        "eng": "Nonsense wherewith the haters of improvement would belabour the audacious innovators.",
+        "ru": "Вздор, с помощью которого противники прогресса душат смелых новаторов.",
+        "learn": 0
+      },
+      {
+        "eng": "I think she's talking a lot of nonsense.",
+        "ru": "По-моему, она говорит много глупостей.",
+        "learn": 0
+      },
+      {
+        "eng": "The article was a mindless piece of nonsense.",
+        "ru": "Статья была бессмысленной чепухой.",
+        "learn": 0
+      },
+      {
+        "eng": "The government's housing policy is a nonsense.",
+        "ru": "Государственная жилищная политика лишена всякого смысла.",
+        "learn": 0
+      },
+      {
+        "eng": "That statement is complete and arrant nonsense.",
+        "ru": "Это утверждение — полный и самый настоящий бред.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a strong woman who stands no nonsense from anyone.",
+        "ru": "Это сильная женщина, которая ни от кого не потерпит глупостей.",
+        "learn": 0
+      }
+    ]
+  }
 }

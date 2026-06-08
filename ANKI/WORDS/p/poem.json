@@ -1,82 +1,168 @@
 {
-    "poem": {
-        "comment": [
-            "poetry",
-            "poet",
-            "poetic"
-        ],
-        "translate": "поэма, стихотворение, что-либо прекрасное, что-либо поэтичное",
-        "transcription": " |ˈpoʊəm|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She composed a poem.",
-            "He read the poem aloud.",
-            "She knew the poem by heart.",
-            "a free translation of the poem",
-            "I decided to write a poem about how I felt.",
-            "a poem by an unknown author",
-            "a poem made up of six couplets",
-            "the lapidary style of the poem",
-            "We dissected the poem in class.",
-            "a poem full of descriptive detail",
-            "This poem is ascribed to Schiller.",
-            "The poem alternates fear and hope.",
-            "He recited the poem in a solemn voice.",
-            "a poem written in iambic pentameter",
-            "an English rendition of a Greek poem",
-            "a poem with subtle shades of meaning",
-            "The poem is a lament for a lost love.",
-            "The poet symbolizes love in this poem.",
-            "He ran off the poem like a machinegun.",
-            "The poem is an evocation of lost love.",
-            "Joanne, would you read the poem aloud?",
-            "Read them a snippet of his latest poem.",
-            "I can knock off a poem in half an hour.",
-            "I can fling off a poem in half an hour.",
-            "He recited the poem with great feeling.",
-            "For me, the poem has an elusive quality.",
-            "The poem is filled with phallic imagery.",
-            "Tasso had been working at his epic poem.",
-            "I've got this poem off by heart already.",
-            "He proclaimed his love for her in a poem."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она сочинила стихотворение.",
-            "Он прочитал стихотворение вслух.",
-            "Она выучила это стихотворение наизусть.",
-            "вольный перевод этого стихотворения /поэмы/",
-            "Я решил написать стихотворение о том, как я себя чувствовал.",
-            "стихотворение неизвестного автора",
-            "стихотворение, которое состоит из шести куплетов",
-            "лапидарный стиль этой поэмы",
-            "Мы разобрали это стихотворение в классе.",
-            "стихотворение, в котором много описательных подробностей",
-            "Это стихотворение приписывают Шиллеру.",
-            "В стихотворении чередуются страх и надежда.",
-            "Он торжественно продекламировал стихотворение.",
-            "поэма, написанная пятистопным ямбом",
-            "английский перевод греческой поэмы",
-            "стихотворение с тонкими оттенками значений",
-            "Это стихотворение представляет собой плач по утраченной любви.",
-            "В этом стихотворении поэт символически изображает любовь.",
-            "Он отбарабанил стихотворение как пулемёт.",
-            "Это стихотворение представляет собой воспоминание о потерянной любви.",
-            "Джоан, прочти, пожалуйста, стихотворение вслух.",
-            "Прочти им отрывок из его последней поэмы.",
-            "Я могу накатать стишок за полчаса.",
-            "Я за полчаса могу написать стихотворение.",
-            "Он продекламировал это стихотворение с большим чувством.",
-            "Для меня в этом стихотворении существует некое неуловимое качество.",
-            "Стихотворение изобилует фаллическими образами.",
-            "Тассо работал над своей эпической поэмой.",
-            "Я уже выучил это стихотворение наизусть.",
-            "О своей любви к ней он возвестил в стихотворении."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "poem": {
+    "comment": [
+      "poetry",
+      "poet",
+      "poetic"
+    ],
+    "translate": "поэма, стихотворение, что-либо прекрасное, что-либо поэтичное",
+    "transcription": " |ˈpoʊəm|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She composed a poem.",
+        "ru": "Она сочинила стихотворение.",
+        "learn": 0
+      },
+      {
+        "eng": "He read the poem aloud.",
+        "ru": "Он прочитал стихотворение вслух.",
+        "learn": 1
+      },
+      {
+        "eng": "She knew the poem by heart.",
+        "ru": "Она выучила это стихотворение наизусть.",
+        "learn": 0
+      },
+      {
+        "eng": "a free translation of the poem",
+        "ru": "вольный перевод этого стихотворения /поэмы/",
+        "learn": 0
+      },
+      {
+        "eng": "I decided to write a poem about how I felt.",
+        "ru": "Я решил написать стихотворение о том, как я себя чувствовал.",
+        "learn": 0
+      },
+      {
+        "eng": "a poem by an unknown author",
+        "ru": "стихотворение неизвестного автора",
+        "learn": 0
+      },
+      {
+        "eng": "a poem made up of six couplets",
+        "ru": "стихотворение, которое состоит из шести куплетов",
+        "learn": 0
+      },
+      {
+        "eng": "the lapidary style of the poem",
+        "ru": "лапидарный стиль этой поэмы",
+        "learn": 0
+      },
+      {
+        "eng": "We dissected the poem in class.",
+        "ru": "Мы разобрали это стихотворение в классе.",
+        "learn": 0
+      },
+      {
+        "eng": "a poem full of descriptive detail",
+        "ru": "стихотворение, в котором много описательных подробностей",
+        "learn": 0
+      },
+      {
+        "eng": "This poem is ascribed to Schiller.",
+        "ru": "Это стихотворение приписывают Шиллеру.",
+        "learn": 0
+      },
+      {
+        "eng": "The poem alternates fear and hope.",
+        "ru": "В стихотворении чередуются страх и надежда.",
+        "learn": 0
+      },
+      {
+        "eng": "He recited the poem in a solemn voice.",
+        "ru": "Он торжественно продекламировал стихотворение.",
+        "learn": 0
+      },
+      {
+        "eng": "a poem written in iambic pentameter",
+        "ru": "поэма, написанная пятистопным ямбом",
+        "learn": 0
+      },
+      {
+        "eng": "an English rendition of a Greek poem",
+        "ru": "английский перевод греческой поэмы",
+        "learn": 0
+      },
+      {
+        "eng": "a poem with subtle shades of meaning",
+        "ru": "стихотворение с тонкими оттенками значений",
+        "learn": 0
+      },
+      {
+        "eng": "The poem is a lament for a lost love.",
+        "ru": "Это стихотворение представляет собой плач по утраченной любви.",
+        "learn": 0
+      },
+      {
+        "eng": "The poet symbolizes love in this poem.",
+        "ru": "В этом стихотворении поэт символически изображает любовь.",
+        "learn": 0
+      },
+      {
+        "eng": "He ran off the poem like a machinegun.",
+        "ru": "Он отбарабанил стихотворение как пулемёт.",
+        "learn": 0
+      },
+      {
+        "eng": "The poem is an evocation of lost love.",
+        "ru": "Это стихотворение представляет собой воспоминание о потерянной любви.",
+        "learn": 0
+      },
+      {
+        "eng": "Joanne, would you read the poem aloud?",
+        "ru": "Джоан, прочти, пожалуйста, стихотворение вслух.",
+        "learn": 0
+      },
+      {
+        "eng": "Read them a snippet of his latest poem.",
+        "ru": "Прочти им отрывок из его последней поэмы.",
+        "learn": 0
+      },
+      {
+        "eng": "I can knock off a poem in half an hour.",
+        "ru": "Я могу накатать стишок за полчаса.",
+        "learn": 0
+      },
+      {
+        "eng": "I can fling off a poem in half an hour.",
+        "ru": "Я за полчаса могу написать стихотворение.",
+        "learn": 0
+      },
+      {
+        "eng": "He recited the poem with great feeling.",
+        "ru": "Он продекламировал это стихотворение с большим чувством.",
+        "learn": 0
+      },
+      {
+        "eng": "For me, the poem has an elusive quality.",
+        "ru": "Для меня в этом стихотворении существует некое неуловимое качество.",
+        "learn": 0
+      },
+      {
+        "eng": "The poem is filled with phallic imagery.",
+        "ru": "Стихотворение изобилует фаллическими образами.",
+        "learn": 1
+      },
+      {
+        "eng": "Tasso had been working at his epic poem.",
+        "ru": "Тассо работал над своей эпической поэмой.",
+        "learn": 0
+      },
+      {
+        "eng": "I've got this poem off by heart already.",
+        "ru": "Я уже выучил это стихотворение наизусть.",
+        "learn": 0
+      },
+      {
+        "eng": "He proclaimed his love for her in a poem.",
+        "ru": "О своей любви к ней он возвестил в стихотворении.",
+        "learn": 1
+      }
+    ]
+  }
 }

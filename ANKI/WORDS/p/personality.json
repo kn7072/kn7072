@@ -1,84 +1,170 @@
 {
-    "personality": {
-        "comment": [
-            "person",
-            "personal",
-            "personally",
-            "personnel",
-            "impersonal"
-        ],
-        "translate": "личность, индивидуальность, деятель, персона, особенности характера",
-        "transcription": " |ˌpɜːrsəˈnæləti|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He has lots of personality.",
-            "I have an addictive personality.",
-            "His personality had romantic and actorish elements.",
-            "We're looking for someone with an outgoing personality.",
-            "She has a very bubbly personality.",
-            "He has a spiky personality.",
-            "An entertainer has to have a good personality.",
-            "He's honest but he lacks personality.",
-            "I was impressed by the force of her personality.",
-            "He has a very forceful personality.",
-            "The richer the personality, the more empathic understanding of others it will be capable of.",
-            "Accounting clicks with his personality.",
-            "His personality is hard to characterize.",
-            "He believes that one's personality is determined mostly by genetics.",
-            "Her personality is well fitted to a desk job.",
-            "He was an ambitious man with a strong personality.",
-            "He was a dynamic personality in the business world.",
-            "Feelings of guilt are deeply embedded in her personality.",
-            "A change in personality may mean your teenager has a drug problem.",
-            "It's partly the architecture which gives the town its personality.",
-            "He clearly has some kind of personality disorder (=a mental illness).",
-            "Her early experiences played an important role in forming her personality.",
-            "His kind of personality invites mockery.",
-            "My father is a naturally ebullient personality.",
-            "a letter shot through with the writer's personality",
-            "His exuberant personality makes him fun to be around.",
-            "a mental illness associated with particular personality traits",
-            "People always remarked on the cult leader's seductive personality.",
-            "Many employers value personality above experience or qualifications.",
-            "Many bands break up because of personality clashes between the musicians."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он обладает яркой индивидуальностью.",
-            "Я быстро ко всему привыкаю.",
-            "В его характере романтизм сочетался с актерством.",
-            "Мы ищем кого-то, кто легко находит общий язык с другими.",
-            "Она человек очень жизнерадостный.",
-            "У него сварливый характер.",
-            "Эстрадный артист должен быть общителен.",
-            "Он честный, но ему не хватает индивидуальности.",
-            "Я был впечатлён силой её личности.",
-            "У него очень сильный характер.",
-            "Чем богаче личность, тем глубже она может понимать чувства других.",
-            "Для человека с его характером профессия бухгалтера как раз то, что надо.",
-            "Его личность трудно охарактеризовать.",
-            "Он считает, что личность человека определяется в первую очередь его генетикой.",
-            "По характеру она хорошо подходит для сидячей /офисной/ работы.",
-            "Он был честолюбивым человеком с сильным характером.",
-            "Он был интересной личностью в деловом мире.",
-            "Чувство вины пустило глубокие корни в её личности.",
-            "Изменение личности может означать, что у вашего подростка возникли проблемы с наркотиками.",
-            "Именно архитектуре город отчасти обязан своей неповторимой индивидуальностью.",
-            "У него явно какое-то расстройство личности (т.е. психическое заболевание).",
-            "Впечатления раннего детства сыграли важную роль в формировании её личности.",
-            "Такие люди, как он, просто напрашиваются на насмешки.",
-            "Мой отец по натуре человек кипучего темперамента.",
-            "письмо, насквозь пронизанное личностью писателя",
-            "Человек он жизнерадостный и энергичный, поэтому с ним весело.",
-            "психическое заболевание, связанное с определёнными чертами личности",
-            "Люди всегда отмечали притягательную личность главы этого культа.",
-            "Многие работодатели ценят личность выше опыта или квалификации.",
-            "Многие группы распадаются из-за личных конфликтов между музыкантами."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "personality": {
+    "comment": [
+      "person",
+      "personal",
+      "personally",
+      "personnel",
+      "impersonal"
+    ],
+    "translate": "личность, индивидуальность, деятель, персона, особенности характера",
+    "transcription": " |ˌpɜːrsəˈnæləti|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He has lots of personality.",
+        "ru": "Он обладает яркой индивидуальностью.",
+        "learn": 0
+      },
+      {
+        "eng": "I have an addictive personality.",
+        "ru": "Я быстро ко всему привыкаю.",
+        "learn": 0
+      },
+      {
+        "eng": "His personality had romantic and actorish elements.",
+        "ru": "В его характере романтизм сочетался с актерством.",
+        "learn": 0
+      },
+      {
+        "eng": "We're looking for someone with an outgoing personality.",
+        "ru": "Мы ищем кого-то, кто легко находит общий язык с другими.",
+        "learn": 0
+      },
+      {
+        "eng": "She has a very bubbly personality.",
+        "ru": "Она человек очень жизнерадостный.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a spiky personality.",
+        "ru": "У него сварливый характер.",
+        "learn": 0
+      },
+      {
+        "eng": "An entertainer has to have a good personality.",
+        "ru": "Эстрадный артист должен быть общителен.",
+        "learn": 1
+      },
+      {
+        "eng": "He's honest but he lacks personality.",
+        "ru": "Он честный, но ему не хватает индивидуальности.",
+        "learn": 0
+      },
+      {
+        "eng": "I was impressed by the force of her personality.",
+        "ru": "Я был впечатлён силой её личности.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a very forceful personality.",
+        "ru": "У него очень сильный характер.",
+        "learn": 0
+      },
+      {
+        "eng": "The richer the personality, the more empathic understanding of others it will be capable of.",
+        "ru": "Чем богаче личность, тем глубже она может понимать чувства других.",
+        "learn": 0
+      },
+      {
+        "eng": "Accounting clicks with his personality.",
+        "ru": "Для человека с его характером профессия бухгалтера как раз то, что надо.",
+        "learn": 0
+      },
+      {
+        "eng": "His personality is hard to characterize.",
+        "ru": "Его личность трудно охарактеризовать.",
+        "learn": 1
+      },
+      {
+        "eng": "He believes that one's personality is determined mostly by genetics.",
+        "ru": "Он считает, что личность человека определяется в первую очередь его генетикой.",
+        "learn": 0
+      },
+      {
+        "eng": "Her personality is well fitted to a desk job.",
+        "ru": "По характеру она хорошо подходит для сидячей /офисной/ работы.",
+        "learn": 0
+      },
+      {
+        "eng": "He was an ambitious man with a strong personality.",
+        "ru": "Он был честолюбивым человеком с сильным характером.",
+        "learn": 0
+      },
+      {
+        "eng": "He was a dynamic personality in the business world.",
+        "ru": "Он был интересной личностью в деловом мире.",
+        "learn": 1
+      },
+      {
+        "eng": "Feelings of guilt are deeply embedded in her personality.",
+        "ru": "Чувство вины пустило глубокие корни в её личности.",
+        "learn": 0
+      },
+      {
+        "eng": "A change in personality may mean your teenager has a drug problem.",
+        "ru": "Изменение личности может означать, что у вашего подростка возникли проблемы с наркотиками.",
+        "learn": 0
+      },
+      {
+        "eng": "It's partly the architecture which gives the town its personality.",
+        "ru": "Именно архитектуре город отчасти обязан своей неповторимой индивидуальностью.",
+        "learn": 0
+      },
+      {
+        "eng": "He clearly has some kind of personality disorder (=a mental illness).",
+        "ru": "У него явно какое-то расстройство личности (т.е. психическое заболевание).",
+        "learn": 0
+      },
+      {
+        "eng": "Her early experiences played an important role in forming her personality.",
+        "ru": "Впечатления раннего детства сыграли важную роль в формировании её личности.",
+        "learn": 0
+      },
+      {
+        "eng": "His kind of personality invites mockery.",
+        "ru": "Такие люди, как он, просто напрашиваются на насмешки.",
+        "learn": 0
+      },
+      {
+        "eng": "My father is a naturally ebullient personality.",
+        "ru": "Мой отец по натуре человек кипучего темперамента.",
+        "learn": 0
+      },
+      {
+        "eng": "a letter shot through with the writer's personality",
+        "ru": "письмо, насквозь пронизанное личностью писателя",
+        "learn": 0
+      },
+      {
+        "eng": "His exuberant personality makes him fun to be around.",
+        "ru": "Человек он жизнерадостный и энергичный, поэтому с ним весело.",
+        "learn": 0
+      },
+      {
+        "eng": "a mental illness associated with particular personality traits",
+        "ru": "психическое заболевание, связанное с определёнными чертами личности",
+        "learn": 0
+      },
+      {
+        "eng": "People always remarked on the cult leader's seductive personality.",
+        "ru": "Люди всегда отмечали притягательную личность главы этого культа.",
+        "learn": 0
+      },
+      {
+        "eng": "Many employers value personality above experience or qualifications.",
+        "ru": "Многие работодатели ценят личность выше опыта или квалификации.",
+        "learn": 1
+      },
+      {
+        "eng": "Many bands break up because of personality clashes between the musicians.",
+        "ru": "Многие группы распадаются из-за личных конфликтов между музыкантами.",
+        "learn": 0
+      }
+    ]
+  }
 }

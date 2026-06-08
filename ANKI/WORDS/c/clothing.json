@@ -1,81 +1,167 @@
 {
-    "clothing": {
-        "comment": [
-            "cloth",
-            "clothes"
-        ],
-        "translate": "одежда, платье, обмундирование, обшивка, паруса",
-        "transcription": " |ˈkloʊðɪŋ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She endorses a line of clothing.",
-            "A man is in extreme want of food or clothing.",
-            "Wear loose, comfortable clothing.",
-            "Clothing is not taxed in our state.",
-            "a sales clerk at a women's clothing store",
-            "The trunk was full of fusty clothing.",
-            "Remember to bring a change of clothing.",
-            "a small bundle containing mostly clothing",
-            "Lab workers must wear protective clothing.",
-            "He was wearing several layers of clothing.",
-            "They didn't have much in the way of clothing.",
-            "Personal taste in clothing is very subjective.",
-            "the cost of feeding and clothing your children",
-            "We contributed clothing for the flood victims.",
-            "She wore simple clothing with no ornamentation.",
-            "We retail clothing at the best possible prices.",
-            "We're collecting food and clothing for the poor.",
-            "Members outfit themselves in Civil War clothing.",
-            "a small boutique selling pricey women's clothing",
-            "She only took a few articles of clothing with her.",
-            "He gathered the bundles of clothing into his arms.",
-            "She uses her clothing to express her individuality.",
-            "She wore rumpled clothing and her hair was unkempt.",
-            "The range of clothing styles has become more varied.",
-            "He had no clothing to his back, no shoes to his feet.",
-            "All the workers were issued with protective clothing.",
-            "a bonny child dressed in traditional Scottish clothing",
-            "The army is running short of clothing and other matériel.",
-            "Only people wearing protective clothing may enter the room.",
-            "We sent them food and some clothing went along in the package."
-        ],
-        "example_translate": [
-            "Она рекламирует линию одежды.",
-            "Человек, крайне нуждающийся в еде или одежде.",
-            "Носите свободную, удобную одежду.",
-            "В нашем государстве одежда не облагается налогами.",
-            "продавец в магазине женской /дамской/ одежды",
-            "Сундук был доверху набит затхлой одеждой.",
-            "Не забудьте захватить с собой смену одежды.",
-            "небольшой свёрток, содержащий, главным образом, одежду",
-            "Сотрудники лаборатории должны носить защитную одежду.",
-            "На нём было несколько слоёв одежды.",
-            "Одежды у них было не так уж много.",
-            "Личный вкус в одежде очень субъективен.",
-            "стоимость кормления и одевания своих детей",
-            "Мы пожертвовали одежду в помощь пострадавшим от наводнения.",
-            "Она носила простую одежду без украшений.",
-            "Мы продаём одежду в розницу по лучшим из возможных цен.",
-            "Мы собираем еду и одежду для бедных.",
-            "Участники нарядились в одежду времён Гражданской войны.",
-            "небольшой магазинчик, продающий дорогую женскую одежду",
-            "Она взяла с собой всего несколько предметов одежды.",
-            "Он собрал узлы с одеждой и взял их в руки.",
-            "Она использует одежду, чтобы выразить свою индивидуальность.",
-            "Она носила мятую одежду и ее волосы были нечесаны.",
-            "Ассортимент стилей одежды стал более разнообразным.",
-            "Ему нечем было спину прикрыть, не во что было обуться.",
-            "Всем работникам была выдана защитная спецодежда.",
-            "красивый ребёнок, одетый в традиционную шотландскую одежду",
-            "У войск на исходе обмундирование и другое армейское снаряжение.",
-            "Вход в помещение разрешён только в защитной спецодежде.",
-            "В посылке мы отправили им продукты, и вдобавок кое-какую одежду."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "clothing": {
+    "comment": [
+      "cloth",
+      "clothes"
+    ],
+    "translate": "одежда, платье, обмундирование, обшивка, паруса",
+    "transcription": " |ˈkloʊðɪŋ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She endorses a line of clothing.",
+        "ru": "Она рекламирует линию одежды.",
+        "learn": 0
+      },
+      {
+        "eng": "A man is in extreme want of food or clothing.",
+        "ru": "Человек, крайне нуждающийся в еде или одежде.",
+        "learn": 0
+      },
+      {
+        "eng": "Wear loose, comfortable clothing.",
+        "ru": "Носите свободную, удобную одежду.",
+        "learn": 1
+      },
+      {
+        "eng": "Clothing is not taxed in our state.",
+        "ru": "В нашем государстве одежда не облагается налогами.",
+        "learn": 0
+      },
+      {
+        "eng": "a sales clerk at a women's clothing store",
+        "ru": "продавец в магазине женской /дамской/ одежды",
+        "learn": 0
+      },
+      {
+        "eng": "The trunk was full of fusty clothing.",
+        "ru": "Сундук был доверху набит затхлой одеждой.",
+        "learn": 0
+      },
+      {
+        "eng": "Remember to bring a change of clothing.",
+        "ru": "Не забудьте захватить с собой смену одежды.",
+        "learn": 0
+      },
+      {
+        "eng": "a small bundle containing mostly clothing",
+        "ru": "небольшой свёрток, содержащий, главным образом, одежду",
+        "learn": 0
+      },
+      {
+        "eng": "Lab workers must wear protective clothing.",
+        "ru": "Сотрудники лаборатории должны носить защитную одежду.",
+        "learn": 0
+      },
+      {
+        "eng": "He was wearing several layers of clothing.",
+        "ru": "На нём было несколько слоёв одежды.",
+        "learn": 0
+      },
+      {
+        "eng": "They didn't have much in the way of clothing.",
+        "ru": "Одежды у них было не так уж много.",
+        "learn": 0
+      },
+      {
+        "eng": "Personal taste in clothing is very subjective.",
+        "ru": "Личный вкус в одежде очень субъективен.",
+        "learn": 1
+      },
+      {
+        "eng": "the cost of feeding and clothing your children",
+        "ru": "стоимость кормления и одевания своих детей",
+        "learn": 0
+      },
+      {
+        "eng": "We contributed clothing for the flood victims.",
+        "ru": "Мы пожертвовали одежду в помощь пострадавшим от наводнения.",
+        "learn": 0
+      },
+      {
+        "eng": "She wore simple clothing with no ornamentation.",
+        "ru": "Она носила простую одежду без украшений.",
+        "learn": 0
+      },
+      {
+        "eng": "We retail clothing at the best possible prices.",
+        "ru": "Мы продаём одежду в розницу по лучшим из возможных цен.",
+        "learn": 0
+      },
+      {
+        "eng": "We're collecting food and clothing for the poor.",
+        "ru": "Мы собираем еду и одежду для бедных.",
+        "learn": 0
+      },
+      {
+        "eng": "Members outfit themselves in Civil War clothing.",
+        "ru": "Участники нарядились в одежду времён Гражданской войны.",
+        "learn": 0
+      },
+      {
+        "eng": "a small boutique selling pricey women's clothing",
+        "ru": "небольшой магазинчик, продающий дорогую женскую одежду",
+        "learn": 0
+      },
+      {
+        "eng": "She only took a few articles of clothing with her.",
+        "ru": "Она взяла с собой всего несколько предметов одежды.",
+        "learn": 0
+      },
+      {
+        "eng": "He gathered the bundles of clothing into his arms.",
+        "ru": "Он собрал узлы с одеждой и взял их в руки.",
+        "learn": 0
+      },
+      {
+        "eng": "She uses her clothing to express her individuality.",
+        "ru": "Она использует одежду, чтобы выразить свою индивидуальность.",
+        "learn": 0
+      },
+      {
+        "eng": "She wore rumpled clothing and her hair was unkempt.",
+        "ru": "Она носила мятую одежду и ее волосы были нечесаны.",
+        "learn": 0
+      },
+      {
+        "eng": "The range of clothing styles has become more varied.",
+        "ru": "Ассортимент стилей одежды стал более разнообразным.",
+        "learn": 1
+      },
+      {
+        "eng": "He had no clothing to his back, no shoes to his feet.",
+        "ru": "Ему нечем было спину прикрыть, не во что было обуться.",
+        "learn": 0
+      },
+      {
+        "eng": "All the workers were issued with protective clothing.",
+        "ru": "Всем работникам была выдана защитная спецодежда.",
+        "learn": 0
+      },
+      {
+        "eng": "a bonny child dressed in traditional Scottish clothing",
+        "ru": "красивый ребёнок, одетый в традиционную шотландскую одежду",
+        "learn": 0
+      },
+      {
+        "eng": "The army is running short of clothing and other matériel.",
+        "ru": "У войск на исходе обмундирование и другое армейское снаряжение.",
+        "learn": 0
+      },
+      {
+        "eng": "Only people wearing protective clothing may enter the room.",
+        "ru": "Вход в помещение разрешён только в защитной спецодежде.",
+        "learn": 1
+      },
+      {
+        "eng": "We sent them food and some clothing went along in the package.",
+        "ru": "В посылке мы отправили им продукты, и вдобавок кое-какую одежду.",
+        "learn": 0
+      }
+    ]
+  }
 }

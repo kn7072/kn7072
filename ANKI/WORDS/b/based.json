@@ -1,78 +1,164 @@
 {
-    "based": {
-        "comment": [],
-        "translate": "",
-        "transcription": " |ˈbeɪst|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The film was based on a true story.",
-            "The company is based in Paris.",
-            "Taxation is based on income.",
-            "You can't fire him solely based on rumor.",
-            "The play is based on a real-life event.",
-            "A lot of the jokes were based on double meaning.",
-            "Much of the novel is based on fact.",
-            "His rank was based solely on merit.",
-            "The movie is based on real events.",
-            "The film is loosely based on the novel.",
-            "His day-to-day life is based on ritual.",
-            "The company has based itself in London.",
-            "The American troops were based in Korea.",
-            "The economy is based largely on farming.",
-            "The bulk of consumers are based in towns.",
-            "His incrimination was based on my testimony.",
-            "Promotions are based on merit and seniority.",
-            "He based his decision on facts, not emotions.",
-            "The new organization will be based in Dallas.",
-            "The judge's ruling was based on legal precedent.",
-            "The doctor-patient relationship is based on trust.",
-            "The tax on cars is still based on engine capacity.",
-            "She was hired based on her past experience in sales.",
-            "His investment strategy is based on a simple formula.",
-            "She objected that the accusation was based on hearsay.",
-            "Her opinion is based on a careful scrutiny of the text.",
-            "His guess was based on intuition rather than deduction.",
-            "Their decisions were based on data of doubtful accuracy.",
-            "The whole approach is based on unquestioned assumptions.",
-            "Their calculations were based on a notional minimum wage."
-        ],
-        "example_translate": [
-            "Фильм был основан на реальных событиях.",
-            "Компания базируется в Париже.",
-            "Размер налогообложения определяется доходом.",
-            "Вы не можете его уволить, основываясь исключительно на слухах.",
-            "Пьеса написана на основе реальных событий.",
-            "Многие шутки были основаны на двойном смысле.",
-            "Большая часть романа основана на фактах.",
-            "Его звание, было исключительно результатом его заслуг.",
-            "Фильм основан на реальных событиях.",
-            "Фильм снят по мотивам данного романа.",
-            "Его повседневная жизнь основана на ритуалах.",
-            "Компания обосновалась в Лондоне.",
-            "Американские войска были расположены в Корее.",
-            "Экономика в значительной степени базируется на сельском хозяйстве.",
-            "Основная часть потребителей находится в городах.",
-            "Его обвинение было основано на моих показаниях.",
-            "Повышение в должности зависит от заслуг и трудового стажа.",
-            "Он основывал своё решение на фактах, а не на эмоциях.",
-            "Новая организация будет основана в Далласе.",
-            "Решение судьи было основано на правовом прецеденте.",
-            "Отношения между врачом и пациентом основаны на доверии.",
-            "Налог на автомобили по-прежнему основан на объёме двигателя.",
-            "Она была нанята исходя из её прошлого опыта работы в продажах.",
-            "Его инвестиционная стратегия основывается на простой формуле.",
-            "Она возразила, что данное обвинение основывается на слухах.",
-            "Её мнение основано на тщательном изучении данного текста.",
-            "Его предположение основывалось больше на интуиции, чем на логике.",
-            "Их решения были основаны на данных сомнительной точности.",
-            "Весь этот метод основывается на не вызывающих сомнений предположениях.",
-            "Их расчёты основывались на условной минимальной заработной плате."
-        ],
-        "synonyms": [],
-        "stars": 0,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "based": {
+    "comment": [],
+    "translate": "основанный, базирующийся",
+    "transcription": " |ˈbeɪst|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The film was based on a true story.",
+        "ru": "Фильм был основан на реальных событиях.",
+        "learn": 0
+      },
+      {
+        "eng": "The company is based in Paris.",
+        "ru": "Компания базируется в Париже.",
+        "learn": 0
+      },
+      {
+        "eng": "Taxation is based on income.",
+        "ru": "Размер налогообложения определяется доходом.",
+        "learn": 1
+      },
+      {
+        "eng": "You can't fire him solely based on rumor.",
+        "ru": "Вы не можете его уволить, основываясь исключительно на слухах.",
+        "learn": 0
+      },
+      {
+        "eng": "The play is based on a real-life event.",
+        "ru": "Пьеса написана на основе реальных событий.",
+        "learn": 0
+      },
+      {
+        "eng": "A lot of the jokes were based on double meaning.",
+        "ru": "Многие шутки были основаны на двойном смысле.",
+        "learn": 0
+      },
+      {
+        "eng": "Much of the novel is based on fact.",
+        "ru": "Большая часть романа основана на фактах.",
+        "learn": 0
+      },
+      {
+        "eng": "His rank was based solely on merit.",
+        "ru": "Его звание, было исключительно результатом его заслуг.",
+        "learn": 1
+      },
+      {
+        "eng": "The movie is based on real events.",
+        "ru": "Фильм основан на реальных событиях.",
+        "learn": 0
+      },
+      {
+        "eng": "The film is loosely based on the novel.",
+        "ru": "Фильм снят по мотивам данного романа.",
+        "learn": 1
+      },
+      {
+        "eng": "His day-to-day life is based on ritual.",
+        "ru": "Его повседневная жизнь основана на ритуалах.",
+        "learn": 1
+      },
+      {
+        "eng": "The company has based itself in London.",
+        "ru": "Компания обосновалась в Лондоне.",
+        "learn": 0
+      },
+      {
+        "eng": "The American troops were based in Korea.",
+        "ru": "Американские войска были расположены в Корее.",
+        "learn": 0
+      },
+      {
+        "eng": "The economy is based largely on farming.",
+        "ru": "Экономика в значительной степени базируется на сельском хозяйстве.",
+        "learn": 1
+      },
+      {
+        "eng": "The bulk of consumers are based in towns.",
+        "ru": "Основная часть потребителей находится в городах.",
+        "learn": 0
+      },
+      {
+        "eng": "His incrimination was based on my testimony.",
+        "ru": "Его обвинение было основано на моих показаниях.",
+        "learn": 0
+      },
+      {
+        "eng": "Promotions are based on merit and seniority.",
+        "ru": "Повышение в должности зависит от заслуг и трудового стажа.",
+        "learn": 0
+      },
+      {
+        "eng": "He based his decision on facts, not emotions.",
+        "ru": "Он основывал своё решение на фактах, а не на эмоциях.",
+        "learn": 0
+      },
+      {
+        "eng": "The new organization will be based in Dallas.",
+        "ru": "Новая организация будет основана в Далласе.",
+        "learn": 0
+      },
+      {
+        "eng": "The judge's ruling was based on legal precedent.",
+        "ru": "Решение судьи было основано на правовом прецеденте.",
+        "learn": 1
+      },
+      {
+        "eng": "The doctor-patient relationship is based on trust.",
+        "ru": "Отношения между врачом и пациентом основаны на доверии.",
+        "learn": 0
+      },
+      {
+        "eng": "The tax on cars is still based on engine capacity.",
+        "ru": "Налог на автомобили по-прежнему основан на объёме двигателя.",
+        "learn": 0
+      },
+      {
+        "eng": "She was hired based on her past experience in sales.",
+        "ru": "Она была нанята исходя из её прошлого опыта работы в продажах.",
+        "learn": 0
+      },
+      {
+        "eng": "His investment strategy is based on a simple formula.",
+        "ru": "Его инвестиционная стратегия основывается на простой формуле.",
+        "learn": 0
+      },
+      {
+        "eng": "She objected that the accusation was based on hearsay.",
+        "ru": "Она возразила, что данное обвинение основывается на слухах.",
+        "learn": 1
+      },
+      {
+        "eng": "Her opinion is based on a careful scrutiny of the text.",
+        "ru": "Её мнение основано на тщательном изучении данного текста.",
+        "learn": 1
+      },
+      {
+        "eng": "His guess was based on intuition rather than deduction.",
+        "ru": "Его предположение основывалось больше на интуиции, чем на логике.",
+        "learn": 0
+      },
+      {
+        "eng": "Their decisions were based on data of doubtful accuracy.",
+        "ru": "Их решения были основаны на данных сомнительной точности.",
+        "learn": 1
+      },
+      {
+        "eng": "The whole approach is based on unquestioned assumptions.",
+        "ru": "Весь этот метод основывается на не вызывающих сомнений предположениях.",
+        "learn": 0
+      },
+      {
+        "eng": "Their calculations were based on a notional minimum wage.",
+        "ru": "Их расчёты основывались на условной минимальной заработной плате.",
+        "learn": 0
+      }
+    ]
+  }
 }

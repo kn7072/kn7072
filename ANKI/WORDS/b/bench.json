@@ -1,78 +1,152 @@
 {
-    "bench": {
-        "comment": [
-            "bend",
-            "bent",
-            "bunch",
-            "batch"
-        ],
-        "translate": "скамейка, скамья, верстак, станок, судьи, суд, демонстрировать на выставке",
-        "transcription": " |bentʃ|",
-        "antonyms": [],
-        "mnemonic": [
-            "bench [бенч] скамья - (Бенч-Бруевичу) скамьей врезали кое-куда.",
-            "bench [bentʃ]\n***\nа скамейке \"bench\"\nя изучаю французский \"french\"."
-        ],
-        "examples": [
-            "Our team has a strong bench.",
-            "We sat on a park bench.",
-            "He photographed the women sitting on the bench.",
-            "Two lovers were canoodling on a park bench.",
-            "Queen's Bench",
-            "The judge issued a reprimand from the bench.",
-            "Tom picked himself up and settled on his bench again",
-            "He was appointed to the bench last year.",
-            "The bench collapsed under the weight of (=unable to support the weight of) so many people.",
-            "Simpson came off the bench to play in midfield.",
-            "her recent appointment to the bench",
-            "Would the prisoner please approach the bench?",
-            "He challenged the views of his party's front bench.",
-            "The young lovers necked on the park bench.",
-            "There's a bench to his memory in the local park.",
-            "The lawyer asked if he could approach the bench.",
-            "I do not allude to the whole of the Treasury bench.",
-            "He hefted the bench leg.",
-            "'Four Women on a Bench', oil on canvas , 1991.",
-            "He fancies himself not in the senate, but on the bench.",
-            "She led him up on a porch and settled him down on a bench.",
-            "Possibly it has been the soundest coloured Chow ever benched.",
-            "He did four sets of the incline bench press.",
-            "bench the poodles at the dog show",
-            "The manager benched one of his most popular players.",
-            "Many of the judge's confreres on the Fifth Circuit bench don't feel as she does on the issue."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "У нашей команды сильная скамейка запасных.",
-            "Мы сидели на скамейке в парке.",
-            "Он сфотографировал женщин, сидящих на скамейке.",
-            "Двое влюбленных ласкались на скамейке в парке.",
-            "Суд королевской скамьи",
-            "Судья сделал замечание с места.",
-            "Том поднялся и снова сел на скамью",
-            "В прошлом году он получил назначение в суд.",
-            "Cкамья рухнула под тяжестью такого большого количества людей (не в состоянии выдержать их вес).",
-            "Симпсон вышел на замену, чтобы сыграть в середине поля.",
-            "её недавнее назначение на должность судьи",
-            "Обвиняемый, вы не могли бы подойти к судье?",
-            "Он оспаривал мнение лидеров своей партии.",
-            "Молодые влюблённые целовались взасос на скамейке в парке.",
-            "В местном парке есть скамейка, установленная в память о нём.",
-            "Адвокат попросил разрешения подойти к судье.",
-            "Я не имею в виду казначейство в полном составе.",
-            "Он приподнял ножку скамейки.",
-            "\"Четыре женщины на скамейке\". Холст, масло, 1991.",
-            "Он видит себя судьёй, а не сенатором.",
-            "Она проводила его на террасу и усадила на скамейку.",
-            "Возможно, это была чау самого интенсивного окраса, которую когда-либо показывали на выставках.",
-            "Он сделал четыре подхода жима лёжа на наклонной скамье.",
-            "демонстрировать пуделей на выставке собак",
-            "Тренер отправил в запас /усадил на скамейку запасных/ одного из самых популярных своих игроков.",
-            "Многие коллеги этого члена Пятого окружного суда относятся к данному вопросу иначе, чем она."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "bench": {
+    "comment": [
+      "bend",
+      "bent",
+      "bunch",
+      "batch"
+    ],
+    "translate": "скамейка, скамья, верстак, станок, судьи, суд, демонстрировать на выставке",
+    "transcription": " |bentʃ|",
+    "antonyms": [],
+    "mnemonic": [
+      "bench [бенч] скамья - (Бенч-Бруевичу) скамьей врезали кое-куда.",
+      "bench [bentʃ]\n***\nа скамейке \"bench\"\nя изучаю французский \"french\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Our team has a strong bench.",
+        "ru": "У нашей команды сильная скамейка запасных.",
+        "learn": 1
+      },
+      {
+        "eng": "We sat on a park bench.",
+        "ru": "Мы сидели на скамейке в парке.",
+        "learn": 1
+      },
+      {
+        "eng": "He photographed the women sitting on the bench.",
+        "ru": "Он сфотографировал женщин, сидящих на скамейке.",
+        "learn": 0
+      },
+      {
+        "eng": "Two lovers were canoodling on a park bench.",
+        "ru": "Двое влюбленных ласкались на скамейке в парке.",
+        "learn": 0
+      },
+      {
+        "eng": "Queen's Bench",
+        "ru": "Суд королевской скамьи",
+        "learn": 0
+      },
+      {
+        "eng": "The judge issued a reprimand from the bench.",
+        "ru": "Судья сделал замечание с места.",
+        "learn": 0
+      },
+      {
+        "eng": "Tom picked himself up and settled on his bench again",
+        "ru": "Том поднялся и снова сел на скамью",
+        "learn": 0
+      },
+      {
+        "eng": "He was appointed to the bench last year.",
+        "ru": "В прошлом году он получил назначение в суд.",
+        "learn": 0
+      },
+      {
+        "eng": "The bench collapsed under the weight of (=unable to support the weight of) so many people.",
+        "ru": "Cкамья рухнула под тяжестью такого большого количества людей (не в состоянии выдержать их вес).",
+        "learn": 0
+      },
+      {
+        "eng": "Simpson came off the bench to play in midfield.",
+        "ru": "Симпсон вышел на замену, чтобы сыграть в середине поля.",
+        "learn": 0
+      },
+      {
+        "eng": "her recent appointment to the bench",
+        "ru": "её недавнее назначение на должность судьи",
+        "learn": 0
+      },
+      {
+        "eng": "Would the prisoner please approach the bench?",
+        "ru": "Обвиняемый, вы не могли бы подойти к судье?",
+        "learn": 0
+      },
+      {
+        "eng": "He challenged the views of his party's front bench.",
+        "ru": "Он оспаривал мнение лидеров своей партии.",
+        "learn": 0
+      },
+      {
+        "eng": "The young lovers necked on the park bench.",
+        "ru": "Молодые влюблённые целовались взасос на скамейке в парке.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a bench to his memory in the local park.",
+        "ru": "В местном парке есть скамейка, установленная в память о нём.",
+        "learn": 0
+      },
+      {
+        "eng": "The lawyer asked if he could approach the bench.",
+        "ru": "Адвокат попросил разрешения подойти к судье.",
+        "learn": 0
+      },
+      {
+        "eng": "I do not allude to the whole of the Treasury bench.",
+        "ru": "Я не имею в виду казначейство в полном составе.",
+        "learn": 0
+      },
+      {
+        "eng": "He hefted the bench leg.",
+        "ru": "Он приподнял ножку скамейки.",
+        "learn": 0
+      },
+      {
+        "eng": "'Four Women on a Bench', oil on canvas , 1991.",
+        "ru": "\"Четыре женщины на скамейке\". Холст, масло, 1991.",
+        "learn": 0
+      },
+      {
+        "eng": "He fancies himself not in the senate, but on the bench.",
+        "ru": "Он видит себя судьёй, а не сенатором.",
+        "learn": 1
+      },
+      {
+        "eng": "She led him up on a porch and settled him down on a bench.",
+        "ru": "Она проводила его на террасу и усадила на скамейку.",
+        "learn": 0
+      },
+      {
+        "eng": "Possibly it has been the soundest coloured Chow ever benched.",
+        "ru": "Возможно, это была чау самого интенсивного окраса, которую когда-либо показывали на выставках.",
+        "learn": 0
+      },
+      {
+        "eng": "He did four sets of the incline bench press.",
+        "ru": "Он сделал четыре подхода жима лёжа на наклонной скамье.",
+        "learn": 0
+      },
+      {
+        "eng": "bench the poodles at the dog show",
+        "ru": "демонстрировать пуделей на выставке собак",
+        "learn": 0
+      },
+      {
+        "eng": "The manager benched one of his most popular players.",
+        "ru": "Тренер отправил в запас /усадил на скамейку запасных/ одного из самых популярных своих игроков.",
+        "learn": 0
+      },
+      {
+        "eng": "Many of the judge's confreres on the Fifth Circuit bench don't feel as she does on the issue.",
+        "ru": "Многие коллеги этого члена Пятого окружного суда относятся к данному вопросу иначе, чем она.",
+        "learn": 0
+      }
+    ]
+  }
 }

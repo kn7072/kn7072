@@ -1,85 +1,164 @@
 {
-    "seem": {
-        "comment": [
-            "see",
-            "seed",
-            "seek",
-            "seemingly"
-        ],
-        "translate": "казаться, представляться, мерещиться, померещиться, чудиться, почудиться, думаться",
-        "transcription": " |siːm|",
-        "antonyms": [],
-        "mnemonic": [
-            "seem [си:м] казаться - Ка жется (Сим-сим) открылся.",
-            "seem [si: m]\nseemingly - видимо\n***\nКАЖЕТСЯ, откроется вот- вот Сим- Сим. (это) seem\nПОХОЖЕ, что пришёл Максим. (это) seem\nКазаться, мерещиться."
-        ],
-        "examples": [
-            "She seems to be sleeping.",
-            "She seems old.",
-            "She didn't seem very sure.",
-            "It seems that they know what they're doing.",
-            "Do whatever seems best to you.",
-            "It seems a foolish decision now.",
-            "I seem to have lost all my self-confidence.",
-            "I seem to have lost my car keys.",
-            "That seems easy to you.",
-            "It seems to me you don't have much choice.",
-            "I just can't seem to relax.",
-            "Doesn't that seem weird to you?",
-            "It seems that he is very gifted.",
-            "I seem to be misunderstood by everyone.",
-            "The rainbow seemed to end on the hillside.",
-            "We waited for what seemed like hours.",
-            "I just can't seem to get it into his head that he has to plan things better.",
-            "Well, it seemed like a good idea at the time.",
-            "Teri seemed like a nice girl.",
-            "I can't seem to learn these Chinese characters.",
-            "'So Bill's leaving her?' ' So it seems (=it appears to be true).'",
-            "It seems like you're catching a cold, Taylor.",
-            "It seemed as if the end of the world had come.",
-            "It would seem that someone left the building unlocked.",
-            "It seemed that Freeman had killed the man, and dumped the body in the lake.",
-            "There seems no reason to go ahead with the project now.",
-            "It seems likely that he will miss Ireland's next match."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она, кажется, спит.",
-            "Она выглядит старой.",
-            "Казалось, она не очень-то уверена.",
-            "Кажется, они знают, что делают.",
-            "Делайте то, что сочтёте наилучшим.",
-            "Сейчас это решение кажется глупым.",
-            "Кажется, я полностью потерял уверенность в себе.",
-            "Я, кажется, потерял ключи от машины.",
-            "Это кажется тебе простым.",
-            "Мне кажется, выбор у вас небольшой.",
-            "Я никак не могу расслабиться.",
-            "Разве это не кажется вам странным?",
-            "Кажется, он очень способный.",
-            "Кажется, вы все меня неправильно поняли.",
-            "Радуга, казалось, заканчивалась на склоне холма.",
-            "Мы ждали, казалось, несколько часов.",
-            "Никак не могу добиться от него, чтобы он лучше планировал свои дела.",
-            "Ну, в то время это казалось хорошей идеей.",
-            "Тери показалась милой девушкой.",
-            "У меня что-то никак не получается выучить эти китайские иероглифы.",
-            "— Так Билл от неё уходит? — Похоже, что так (т.е. кажется, что это правда).'",
-            "Кажется, ты простудился, Тейлор.",
-            "Казалось, что настал конец света.",
-            "Как представляется, кто-то бросил здание незапертым.",
-            "Казалось, что Фриман убил этого человека, а его тело сбросил в озеро.",
-            "Кажется, теперь уже нет никакого смысла приступать к проекту.",
-            "Похоже, что он пропустит следующий матч сборной Ирландии."
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив_с_to_после_глаголов",
-            "Сложное_подлежащее",
-            "Инфинитив_-_сложное_подлежащее(действительный_залог)",
-            "all_words",
-            "Глаголы_состояния_и_чувственного_восприятия",
-            "Инфинитив"
-        ]
-    }
+  "seem": {
+    "comment": [
+      "see",
+      "seed",
+      "seek",
+      "seemingly"
+    ],
+    "translate": "казаться, представляться, мерещиться, померещиться, чудиться, почудиться, думаться",
+    "transcription": " |siːm|",
+    "antonyms": [],
+    "mnemonic": [
+      "seem [си:м] казаться - Ка жется (Сим-сим) открылся.",
+      "seem [si: m]\nseemingly - видимо\n***\nКАЖЕТСЯ, откроется вот- вот Сим- Сим. (это) seem\nПОХОЖЕ, что пришёл Максим. (это) seem\nКазаться, мерещиться."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив_с_to_после_глаголов",
+      "Сложное_подлежащее",
+      "Инфинитив_-_сложное_подлежащее(действительный_залог)",
+      "Глаголы_состояния_и_чувственного_восприятия",
+      "Инфинитив",
+      "infinitive_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "She seems to be sleeping.",
+        "ru": "Она, кажется, спит.",
+        "learn": 0
+      },
+      {
+        "eng": "She seems old.",
+        "ru": "Она выглядит старой.",
+        "learn": 0
+      },
+      {
+        "eng": "She didn't seem very sure.",
+        "ru": "Казалось, она не очень-то уверена.",
+        "learn": 0
+      },
+      {
+        "eng": "It seems that they know what they're doing.",
+        "ru": "Кажется, они знают, что делают.",
+        "learn": 0
+      },
+      {
+        "eng": "Do whatever seems best to you.",
+        "ru": "Делайте то, что сочтёте наилучшим.",
+        "learn": 0
+      },
+      {
+        "eng": "It seems a foolish decision now.",
+        "ru": "Сейчас это решение кажется глупым.",
+        "learn": 1
+      },
+      {
+        "eng": "I seem to have lost all my self-confidence.",
+        "ru": "Кажется, я полностью потерял уверенность в себе.",
+        "learn": 0
+      },
+      {
+        "eng": "I seem to have lost my car keys.",
+        "ru": "Я, кажется, потерял ключи от машины.",
+        "learn": 0
+      },
+      {
+        "eng": "That seems easy to you.",
+        "ru": "Это кажется тебе простым.",
+        "learn": 0
+      },
+      {
+        "eng": "It seems to me you don't have much choice.",
+        "ru": "Мне кажется, выбор у вас небольшой.",
+        "learn": 0
+      },
+      {
+        "eng": "I just can't seem to relax.",
+        "ru": "Я никак не могу расслабиться.",
+        "learn": 0
+      },
+      {
+        "eng": "Doesn't that seem weird to you?",
+        "ru": "Разве это не кажется вам странным?",
+        "learn": 0
+      },
+      {
+        "eng": "It seems that he is very gifted.",
+        "ru": "Кажется, он очень способный.",
+        "learn": 0
+      },
+      {
+        "eng": "I seem to be misunderstood by everyone.",
+        "ru": "Кажется, вы все меня неправильно поняли.",
+        "learn": 0
+      },
+      {
+        "eng": "The rainbow seemed to end on the hillside.",
+        "ru": "Радуга, казалось, заканчивалась на склоне холма.",
+        "learn": 1
+      },
+      {
+        "eng": "We waited for what seemed like hours.",
+        "ru": "Мы ждали, казалось, несколько часов.",
+        "learn": 0
+      },
+      {
+        "eng": "I just can't seem to get it into his head that he has to plan things better.",
+        "ru": "Никак не могу добиться от него, чтобы он лучше планировал свои дела.",
+        "learn": 0
+      },
+      {
+        "eng": "Well, it seemed like a good idea at the time.",
+        "ru": "Ну, в то время это казалось хорошей идеей.",
+        "learn": 0
+      },
+      {
+        "eng": "Teri seemed like a nice girl.",
+        "ru": "Тери показалась милой девушкой.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't seem to learn these Chinese characters.",
+        "ru": "У меня что-то никак не получается выучить эти китайские иероглифы.",
+        "learn": 0
+      },
+      {
+        "eng": "'So Bill's leaving her?' ' So it seems (=it appears to be true).'",
+        "ru": "— Так Билл от неё уходит? — Похоже, что так (т.е. кажется, что это правда).'",
+        "learn": 0
+      },
+      {
+        "eng": "It seems like you're catching a cold, Taylor.",
+        "ru": "Кажется, ты простудился, Тейлор.",
+        "learn": 0
+      },
+      {
+        "eng": "It seemed as if the end of the world had come.",
+        "ru": "Казалось, что настал конец света.",
+        "learn": 0
+      },
+      {
+        "eng": "It would seem that someone left the building unlocked.",
+        "ru": "Как представляется, кто-то бросил здание незапертым.",
+        "learn": 0
+      },
+      {
+        "eng": "It seemed that Freeman had killed the man, and dumped the body in the lake.",
+        "ru": "Казалось, что Фриман убил этого человека, а его тело сбросил в озеро.",
+        "learn": 0
+      },
+      {
+        "eng": "There seems no reason to go ahead with the project now.",
+        "ru": "Кажется, теперь уже нет никакого смысла приступать к проекту.",
+        "learn": 0
+      },
+      {
+        "eng": "It seems likely that he will miss Ireland's next match.",
+        "ru": "Похоже, что он пропустит следующий матч сборной Ирландии.",
+        "learn": 0
+      }
+    ]
+  }
 }

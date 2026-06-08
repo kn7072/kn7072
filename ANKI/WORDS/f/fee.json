@@ -1,58 +1,105 @@
 {
-    "fee": {
-        "comment": [
-            "coffee",
-            "feed"
-        ],
-        "translate": "плата, взнос, сбор, гонорар, вознаграждение, платить гонорар, нанимать",
-        "transcription": " |fiː|",
-        "antonyms": [],
-        "mnemonic": [
-            "fee [фи:] плата, плата, гонорар - (Фи-тиль) - гонорар сапёра.",
-            "fee [fi: ]\nbee [bi: ] - пчела\n***\nГОНОРАР маленький - \"фи!\". (это) fee\nПЛАТА ЗА УЧЁБУ - просто \"фи!\". (это) fee\nПлатить гонорар, нанимать.\n***\nПчела \"bee\"\nсчитает гонорар \"fee\"."
-        ],
-        "examples": [
-            "The fee for adults is $3 per day.",
-            "The admission fee is $10.",
-            "a credit card with no annual fee",
-            "His insurance covers the doctor's fee.",
-            "They paid a fortune in legal fees.",
-            "We feed a lawyer to act for us.",
-            "We couldn't afford to pay the lawyer's fees.",
-            "The tuition fees went up this year.",
-            "The registration fee per person is £66 + VAT.",
-            "Cable TV subscribers pay monthly fees.",
-            "The insurance company paid all my medical fees.",
-            "The health club charges an annual membership fee.",
-            "Park entrance fees have gone up to $15.",
-            "The total replacement fee for a lost book is $60.",
-            "The townspeople fee country lasses as housemaids, nurses, and cooks.",
-            "We returned the library book late and had to pay a late fee.",
-            "The run, to raise money for breast cancer, has a £10 entry fee (=fee to enter a competition)."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Плата для взрослых составляет 3 доллара в день.",
-            "Вступительный взнос составляет $10.",
-            "кредитная карта без ежегодной платы",
-            "Его страховка покрывает гонорар врача.",
-            "Они заплатили уйму денег за судебные издержки.",
-            "Мы взяли адвоката для ведения нашего дела.",
-            "У нас не было денег, чтобы нанять адвоката.",
-            "В этом году стоимость обучения выросла.",
-            "Регистрационный взнос на одно лицо составляет £66 плюс НДС.",
-            "Абоненты кабельного телевидения платят ежемесячный взнос.",
-            "Страховая компания оплатила все мои медицинские расходы.",
-            "Фитнес-клубом взимается ежегодный членский взнос.",
-            "Цена за вход в парк поднята до пятнадцати долларов.",
-            "Суммарная плата за замену утерянной книги составляет $60.",
-            "Горожане нанимают деревенских девушек в качестве служанок, нянек и поварих.",
-            "Мы опоздали с возвращением библиотечной книги, и пришлось заплатить пеню.",
-            "Вступительный взнос (т.е. плата за участие в соревновании) за участие в забеге, проводящемся с целью сбора денег для лечения рака молочной железы, составляет десять фунтов стерлингов."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "fee": {
+    "comment": [
+      "coffee",
+      "feed"
+    ],
+    "translate": "плата, взнос, сбор, гонорар, вознаграждение, платить гонорар, нанимать",
+    "transcription": " |fiː|",
+    "antonyms": [],
+    "mnemonic": [
+      "fee [фи:] плата, плата, гонорар - (Фи-тиль) - гонорар сапёра.",
+      "fee [fi: ]\nbee [bi: ] - пчела\n***\nГОНОРАР маленький - \"фи!\". (это) fee\nПЛАТА ЗА УЧЁБУ - просто \"фи!\". (это) fee\nПлатить гонорар, нанимать.\n***\nПчела \"bee\"\nсчитает гонорар \"fee\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The fee for adults is $3 per day.",
+        "ru": "Плата для взрослых составляет 3 доллара в день.",
+        "learn": 0
+      },
+      {
+        "eng": "The admission fee is $10.",
+        "ru": "Вступительный взнос составляет $10.",
+        "learn": 1
+      },
+      {
+        "eng": "a credit card with no annual fee",
+        "ru": "кредитная карта без ежегодной платы",
+        "learn": 0
+      },
+      {
+        "eng": "His insurance covers the doctor's fee.",
+        "ru": "Его страховка покрывает гонорар врача.",
+        "learn": 0
+      },
+      {
+        "eng": "They paid a fortune in legal fees.",
+        "ru": "Они заплатили уйму денег за судебные издержки.",
+        "learn": 0
+      },
+      {
+        "eng": "We feed a lawyer to act for us.",
+        "ru": "Мы взяли адвоката для ведения нашего дела.",
+        "learn": 0
+      },
+      {
+        "eng": "We couldn't afford to pay the lawyer's fees.",
+        "ru": "У нас не было денег, чтобы нанять адвоката.",
+        "learn": 0
+      },
+      {
+        "eng": "The tuition fees went up this year.",
+        "ru": "В этом году стоимость обучения выросла.",
+        "learn": 0
+      },
+      {
+        "eng": "The registration fee per person is £66 + VAT.",
+        "ru": "Регистрационный взнос на одно лицо составляет £66 плюс НДС.",
+        "learn": 0
+      },
+      {
+        "eng": "Cable TV subscribers pay monthly fees.",
+        "ru": "Абоненты кабельного телевидения платят ежемесячный взнос.",
+        "learn": 0
+      },
+      {
+        "eng": "The insurance company paid all my medical fees.",
+        "ru": "Страховая компания оплатила все мои медицинские расходы.",
+        "learn": 0
+      },
+      {
+        "eng": "The health club charges an annual membership fee.",
+        "ru": "Фитнес-клубом взимается ежегодный членский взнос.",
+        "learn": 0
+      },
+      {
+        "eng": "Park entrance fees have gone up to $15.",
+        "ru": "Цена за вход в парк поднята до пятнадцати долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "The total replacement fee for a lost book is $60.",
+        "ru": "Суммарная плата за замену утерянной книги составляет $60.",
+        "learn": 0
+      },
+      {
+        "eng": "The townspeople fee country lasses as housemaids, nurses, and cooks.",
+        "ru": "Горожане нанимают деревенских девушек в качестве служанок, нянек и поварих.",
+        "learn": 0
+      },
+      {
+        "eng": "We returned the library book late and had to pay a late fee.",
+        "ru": "Мы опоздали с возвращением библиотечной книги, и пришлось заплатить пеню.",
+        "learn": 0
+      },
+      {
+        "eng": "The run, to raise money for breast cancer, has a £10 entry fee (=fee to enter a competition).",
+        "ru": "Вступительный взнос (т.е. плата за участие в соревновании) за участие в забеге, проводящемся с целью сбора денег для лечения рака молочной железы, составляет десять фунтов стерлингов.",
+        "learn": 0
+      }
+    ]
+  }
 }

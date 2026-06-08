@@ -1,86 +1,175 @@
 {
-    "lend": {
-        "comment": [
-            "calendar",
-            "calender",
-            "splendid",
-            "slender"
-        ],
-        "translate": "предоставлять, давать, одалживать, давать взаймы, придавать, годиться, сообщать",
-        "transcription": " |lend|",
-        "antonyms": [],
-        "mnemonic": [
-            "lend [ленд] давать взаймы - США по (ленд) лизу дали взаймы СССР.",
-            "lend [lend]\n***\nДАМ ВЗАЙМЫ несколько лент. (это) lend\n***\nЕсли другу \"friend\"\nдать взаймы \"lend\",\nто дружбе конец \"end\"."
-        ],
-        "examples": [
-            "She lent the money to him.",
-            "I will lend you my car",
-            "Could you lend me 50p, please?",
-            "Have a heart and lend me some money.",
-            "He lends himself to illusory hopes.",
-            "I am skint. Can you lend me a tenner?",
-            "Come on — be a pal and lend me the money.",
-            "I lent our ladder to the neighbors.",
-            "Be a sport and lend me your bike.",
-            "If you need money, I can lend you some.",
-            "If she can't lend me the money, I'm fucked.",
-            "This topic lends itself admirably to class discussion.",
-            "Banks create money and lend it at interest.",
-            "He's always prepared to lend a sympathetic ear.",
-            "Can you lend me a tenner?",
-            "I think I can get round my father to lend us the car.",
-            "When you're through with that book, will you lend it to me?",
-            "Surely no one would be foolish enough to lend him the money?",
-            "Lend me a fiver, mate?",
-            "Can you lend me a hand with this?",
-            "Could you lend me twenty quid, mate?",
-            "The bank wouldn't lend us the money.",
-            "'Can you lend me $10.' 'Forget it, no way.'",
-            "The sound effects lend realism to the scene.",
-            "Those who refused to lend were pressed into the army.",
-            "I'm buggered if I'm going to lend him any more money.",
-            "Banks will only lend out money at a high rate of interest.",
-            "Could you lend me some money?",
-            "Don't sweat it, I'll lend you the money.",
-            "Have you ever a shilling as you could lend me?"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она дала эти деньги ему взаймы.",
-            "Я одолжу тебе мою машину.",
-            "Не могли бы вы одолжить мне 50 пенсов?",
-            "Будь добр, одолжи мне денег.",
-            "Он тешит себя пустыми надеждами.",
-            "Я банкрот. Ты не одолжишь десятку?",
-            "Ну давай, будь другом и одолжи мне деньги.",
-            "Я одолжил нашу лестницу соседям.",
-            "Будь другом, одолжи мне свой велосипед.",
-            "Если нужны деньги, я могу вам немного занять.",
-            "Если она не сможет одолжить мне денег, мне пиздец.",
-            "Эта тема идеально подходит для обсуждения в классе.",
-            "Банки создают деньги и ссужают их под процент.",
-            "Он всегда готов сочувственно выслушать.",
-            "Можешь одолжить мне десятку?",
-            "Я думаю, мне удастся уговорить отца дать нам автомобиль.",
-            "Когда прочитаешь эту книгу, дашь мне почитать?",
-            "Надеюсь, ни у кого не хватило ума одолжить ему деньги?",
-            "Друг, одолжишь мне пятёрку?",
-            "Ты не мог бы мне с этим помочь /подсобить/?",
-            "Приятель, ты не одолжишь мне 20 фунтов?",
-            "В банке отказались одолжить нам эти деньги.",
-            "— Можешь одолжить мне десять долларов? — Фиг тебе, ни за что.",
-            "Звуковые эффекты прибавляют сцене реализма.",
-            "Тех, кто отказался дать ссуду, заставили служить в армии.",
-            "Ни за что на свете я не дам ему денег в долг.",
-            "Банки выдают кредиты только под высокие проценты.",
-            "Не мог бы ты одолжить мне немного денег? / Ты не мог бы мне немного одолжить?",
-            "Не волнуйся, я одолжу тебе эти деньги.",
-            "У тебя есть хотя бы шиллинг, который ты мог бы мне одолжить?"
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "lend": {
+    "comment": [
+      "lent |lɛnt|,                                          lent |lɛnt|",
+      "calendar",
+      "calender",
+      "splendid",
+      "slender"
+    ],
+    "translate": "предоставлять, давать, одалживать, давать взаймы, придавать, годиться, сообщать",
+    "transcription": " |lend|",
+    "antonyms": [],
+    "mnemonic": [
+      "lend [ленд] давать взаймы - США по (ленд) лизу дали взаймы СССР.",
+      "lend [lend]\n***\nДАМ ВЗАЙМЫ несколько лент. (это) lend\n***\nЕсли другу \"friend\"\nдать взаймы \"lend\",\nто дружбе конец \"end\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "She lent the money to him.",
+        "ru": "Она дала эти деньги ему взаймы.",
+        "learn": 1
+      },
+      {
+        "eng": "I will lend you my car",
+        "ru": "Я одолжу тебе мою машину.",
+        "learn": 1
+      },
+      {
+        "eng": "Could you lend me 50p, please?",
+        "ru": "Не могли бы вы одолжить мне 50 пенсов?",
+        "learn": 0
+      },
+      {
+        "eng": "Have a heart and lend me some money.",
+        "ru": "Будь добр, одолжи мне денег.",
+        "learn": 0
+      },
+      {
+        "eng": "He lends himself to illusory hopes.",
+        "ru": "Он тешит себя пустыми надеждами.",
+        "learn": 0
+      },
+      {
+        "eng": "I am skint. Can you lend me a tenner?",
+        "ru": "Я банкрот. Ты не одолжишь десятку?",
+        "learn": 0
+      },
+      {
+        "eng": "Come on — be a pal and lend me the money.",
+        "ru": "Ну давай, будь другом и одолжи мне деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "I lent our ladder to the neighbors.",
+        "ru": "Я одолжил нашу лестницу соседям.",
+        "learn": 1
+      },
+      {
+        "eng": "Be a sport and lend me your bike.",
+        "ru": "Будь другом, одолжи мне свой велосипед.",
+        "learn": 0
+      },
+      {
+        "eng": "If you need money, I can lend you some.",
+        "ru": "Если нужны деньги, я могу вам немного занять.",
+        "learn": 1
+      },
+      {
+        "eng": "If she can't lend me the money, I'm fucked.",
+        "ru": "Если она не сможет одолжить мне денег, мне пиздец.",
+        "learn": 0
+      },
+      {
+        "eng": "This topic lends itself admirably to class discussion.",
+        "ru": "Эта тема идеально подходит для обсуждения в классе.",
+        "learn": 0
+      },
+      {
+        "eng": "Banks create money and lend it at interest.",
+        "ru": "Банки создают деньги и ссужают их под процент.",
+        "learn": 0
+      },
+      {
+        "eng": "He's always prepared to lend a sympathetic ear.",
+        "ru": "Он всегда готов сочувственно выслушать.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you lend me a tenner?",
+        "ru": "Можешь одолжить мне десятку?",
+        "learn": 0
+      },
+      {
+        "eng": "I think I can get round my father to lend us the car.",
+        "ru": "Я думаю, мне удастся уговорить отца дать нам автомобиль.",
+        "learn": 0
+      },
+      {
+        "eng": "When you're through with that book, will you lend it to me?",
+        "ru": "Когда прочитаешь эту книгу, дашь мне почитать?",
+        "learn": 0
+      },
+      {
+        "eng": "Surely no one would be foolish enough to lend him the money?",
+        "ru": "Надеюсь, ни у кого не хватило ума одолжить ему деньги?",
+        "learn": 0
+      },
+      {
+        "eng": "Lend me a fiver, mate?",
+        "ru": "Друг, одолжишь мне пятёрку?",
+        "learn": 0
+      },
+      {
+        "eng": "Can you lend me a hand with this?",
+        "ru": "Ты не мог бы мне с этим помочь /подсобить/?",
+        "learn": 0
+      },
+      {
+        "eng": "Could you lend me twenty quid, mate?",
+        "ru": "Приятель, ты не одолжишь мне 20 фунтов?",
+        "learn": 1
+      },
+      {
+        "eng": "The bank wouldn't lend us the money.",
+        "ru": "В банке отказались одолжить нам эти деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "'Can you lend me $10.' 'Forget it, no way.'",
+        "ru": "— Можешь одолжить мне десять долларов? — Фиг тебе, ни за что.",
+        "learn": 0
+      },
+      {
+        "eng": "The sound effects lend realism to the scene.",
+        "ru": "Звуковые эффекты прибавляют сцене реализма.",
+        "learn": 0
+      },
+      {
+        "eng": "Those who refused to lend were pressed into the army.",
+        "ru": "Тех, кто отказался дать ссуду, заставили служить в армии.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm buggered if I'm going to lend him any more money.",
+        "ru": "Ни за что на свете я не дам ему денег в долг.",
+        "learn": 0
+      },
+      {
+        "eng": "Banks will only lend out money at a high rate of interest.",
+        "ru": "Банки выдают кредиты только под высокие проценты.",
+        "learn": 0
+      },
+      {
+        "eng": "Could you lend me some money?",
+        "ru": "Не мог бы ты одолжить мне немного денег? / Ты не мог бы мне немного одолжить?",
+        "learn": 0
+      },
+      {
+        "eng": "Don't sweat it, I'll lend you the money.",
+        "ru": "Не волнуйся, я одолжу тебе эти деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "Have you ever a shilling as you could lend me?",
+        "ru": "У тебя есть хотя бы шиллинг, который ты мог бы мне одолжить?",
+        "learn": 0
+      }
+    ]
+  }
 }

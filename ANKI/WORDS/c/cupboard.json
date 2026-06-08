@@ -1,61 +1,108 @@
 {
-    "cupboard": {
-        "comment": [
-            "cup",
-            "board",
-            "keyboard",
-            "aboard",
-            "cardboard",
-            "blackboard"
-        ],
-        "translate": "шкаф, буфет, чулан, стенной шкаф",
-        "transcription": " |ˈkʌbərd|",
-        "antonyms": [],
-        "mnemonic": [
-            "cupboard [ка'бэд] шкаф - (К обеду) шкаф принесите."
-        ],
-        "examples": [
-            "It's in the kitchen cupboard.",
-            "This cupboard's full of junk.",
-            "There's some sugar in the cupboard.",
-            "I found these apples mouldering in the cupboard.",
-            "She stacked the plates in the cupboard.",
-            "That teapot belongs in the cupboard.",
-            "A cupboard stood open full of empties.",
-            "The cupboard is full of things I can never find a use for.",
-            "The cupboard doors were open.",
-            "Those big dishes live in the cupboard next to the fridge.",
-            "We hung our coats in a cupboard in the hall.",
-            "A good carpenter can make a cupboard to fit the most awkward space.",
-            "She regards that cupboard as her own preserve.",
-            "He took some nails and bits of wood, and built them into a rough cupboard.",
-            "He keeps a stock of medicines in the cupboard.",
-            "Make sure that the cupboard is flush with the wall.",
-            "Two bottles were missing from the drugs cupboard."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Оно в кухонном шкафу.",
-            "В этом шкафу полно хлама.",
-            "В шкафу /буфете/ есть немного сахара.",
-            "Я нашёл эти яблоки гниющими в шкафу.",
-            "Она поставила тарелки в шкаф / буфет.",
-            "Этот чайник обычно стоит у нас в буфете.",
-            "Буфет стоял раскрытый, наполненный пустыми бутылками.",
-            "Шкаф полон вещей, которым я никак не могу найти применение.",
-            "Дверцы буфета были открыты.",
-            "Эти большие блюда обычно стоят в буфете рядом с холодильником.",
-            "Мы повесили пальто в шкаф в прихожей.",
-            "Хороший столяр может сделать шкаф, подходящий к самому неказистому помещению.",
-            "Она считает этот буфет исключительно своей собственностью.",
-            "Он набрал каких-то деревяшек, гвоздей и сделал из этого некое подобие шкафа.",
-            "Он хранит в шкафу запас лекарств.",
-            "Убедитесь в том, что буфет находится на одном уровне /заподлицо/ со стеной.",
-            "В шкафчике с медикаментами не хватало двух пузырьков."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "cupboard": {
+    "comment": [
+      "cup",
+      "board",
+      "keyboard",
+      "aboard",
+      "cardboard",
+      "blackboard"
+    ],
+    "translate": "шкаф, буфет, чулан, стенной шкаф",
+    "transcription": " |ˈkʌbərd|",
+    "antonyms": [],
+    "mnemonic": [
+      "cupboard [ка'бэд] шкаф - (К обеду) шкаф принесите."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "It's in the kitchen cupboard.",
+        "ru": "Оно в кухонном шкафу.",
+        "learn": 0
+      },
+      {
+        "eng": "This cupboard's full of junk.",
+        "ru": "В этом шкафу полно хлама.",
+        "learn": 0
+      },
+      {
+        "eng": "There's some sugar in the cupboard.",
+        "ru": "В шкафу /буфете/ есть немного сахара.",
+        "learn": 0
+      },
+      {
+        "eng": "I found these apples mouldering in the cupboard.",
+        "ru": "Я нашёл эти яблоки гниющими в шкафу.",
+        "learn": 0
+      },
+      {
+        "eng": "She stacked the plates in the cupboard.",
+        "ru": "Она поставила тарелки в шкаф / буфет.",
+        "learn": 1
+      },
+      {
+        "eng": "That teapot belongs in the cupboard.",
+        "ru": "Этот чайник обычно стоит у нас в буфете.",
+        "learn": 0
+      },
+      {
+        "eng": "A cupboard stood open full of empties.",
+        "ru": "Буфет стоял раскрытый, наполненный пустыми бутылками.",
+        "learn": 0
+      },
+      {
+        "eng": "The cupboard is full of things I can never find a use for.",
+        "ru": "Шкаф полон вещей, которым я никак не могу найти применение.",
+        "learn": 0
+      },
+      {
+        "eng": "The cupboard doors were open.",
+        "ru": "Дверцы буфета были открыты.",
+        "learn": 0
+      },
+      {
+        "eng": "Those big dishes live in the cupboard next to the fridge.",
+        "ru": "Эти большие блюда обычно стоят в буфете рядом с холодильником.",
+        "learn": 0
+      },
+      {
+        "eng": "We hung our coats in a cupboard in the hall.",
+        "ru": "Мы повесили пальто в шкаф в прихожей.",
+        "learn": 0
+      },
+      {
+        "eng": "A good carpenter can make a cupboard to fit the most awkward space.",
+        "ru": "Хороший столяр может сделать шкаф, подходящий к самому неказистому помещению.",
+        "learn": 0
+      },
+      {
+        "eng": "She regards that cupboard as her own preserve.",
+        "ru": "Она считает этот буфет исключительно своей собственностью.",
+        "learn": 1
+      },
+      {
+        "eng": "He took some nails and bits of wood, and built them into a rough cupboard.",
+        "ru": "Он набрал каких-то деревяшек, гвоздей и сделал из этого некое подобие шкафа.",
+        "learn": 1
+      },
+      {
+        "eng": "He keeps a stock of medicines in the cupboard.",
+        "ru": "Он хранит в шкафу запас лекарств.",
+        "learn": 1
+      },
+      {
+        "eng": "Make sure that the cupboard is flush with the wall.",
+        "ru": "Убедитесь в том, что буфет находится на одном уровне /заподлицо/ со стеной.",
+        "learn": 0
+      },
+      {
+        "eng": "Two bottles were missing from the drugs cupboard.",
+        "ru": "В шкафчике с медикаментами не хватало двух пузырьков.",
+        "learn": 0
+      }
+    ]
+  }
 }

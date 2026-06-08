@@ -1,89 +1,175 @@
 {
-    "setting": {
-        "comment": [
-            "closet",
-            "upset",
-            "set",
-            "offset",
-            "outset",
-            "onset",
-            "cassette",
-            "sunset"
-        ],
-        "translate": "установка, постановка, регулирование, заход, окружающая обстановка, схватывание",
-        "transcription": " |ˈsetɪŋ|",
-        "antonyms": [],
-        "mnemonic": [
-            "set [set]\nasset ['æsɛt]\noutset - отправление, начало\nsetting - оправа, окружающая обстановка. закат, заход\n***\nУСТАНОВИМ пару кассет. (это) set\nКомплект, набор, сервиз, прибор.\n***\nВсе мои АКТИВЫ - пара кассет. (это) asset\nВсё моё ДОСТОИНСТВО - пара кассет. (это) asset\nВсё моё ИМУЩЕСТВО - пара кассет. (это) asset"
-        ],
-        "examples": [
-            "The setting sun threw long shadows.",
-            "I remember setting my bag right here.",
-            "setting up a bank account",
-            "the perfect setting for a ghost story",
-            "Cyprus is the perfect setting for a beach holiday.",
-            "You can't do that in a university setting.",
-            "The setting is more valuable than the jewel.",
-            "The light of the setting sun suffused the clouds.",
-            "This wall forms the background of the stage setting.",
-            "Setting forth on a journey meant a great deal of preparation.",
-            "Winter seems to be setting in early this year.",
-            "My nephew is just setting out on a career in journalism.",
-            "Someone is always setting stories about that the Prince is to be married.",
-            "He forgot to return the phone call due to his absorption in setting up the new computer system.",
-            "setting a high standard of excellence",
-            "They started setting aside money to buy a car.",
-            "He was a major player in setting up the corporation.",
-            "The house is situated in a charming pastoral setting.",
-            "The band are setting out on a European tour in March.",
-            "The setting sun kindled the sky with oranges and reds.",
-            "Jeff and David were in the back yard setting off fireworks.",
-            "She uses modern-day Los Angeles as the setting for her book.",
-            "The mundane task of setting the table can be fun on holidays.",
-            "Terrorists have been setting off bombs in underground trains.",
-            "The setting sun reddened the sky",
-            "a place setting of sterling flatware",
-            "soldiers setting up a bivouac by the stream",
-            "I've been setting aside a few pounds each week.",
-            "This wall forms the background of the stage setting.",
-            "The next band was already setting up on the other stage."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Заходящее солнце отбрасывало длинные тени.",
-            "Я помню, что поставил сумку вот здесь.",
-            "открытие банковского счёта",
-            "идеальная обстановка для рассказа о призраках",
-            "Кипр является идеальным местом для пляжного отдыха.",
-            "Этого нельзя сделать в условиях университета.",
-            "Огранка дороже, чем сам камень.",
-            "Свет садящегося солнца залил облака.",
-            "Эта стена образует задний план сцены.",
-            "Отправиться в путешествие означало сделать множество приготовлений.",
-            "Похоже, что в этом году зима наступила рано.",
-            "Мой племянник ещё только начинает карьеру в области журналистики.",
-            "Кто-то постоянно распускает слухи о том, что принц вот-вот женится.",
-            "Он забыл ответить на этот телефонный звонок из-за того, что сильно увлёкся настройкой новой компьютерной системы.",
-            "установление высочайшего уровня качества",
-            "Они начали откладывать деньги на покупку машины.",
-            "Он сыграл существенную роль в создании этой корпорации.",
-            "Дом расположен в очаровательной пасторальной обстановке.",
-            "В марте группа отправляется в турне по Европе.",
-            "Заходящее солнце озарило небо оранжевым и красным светом.",
-            "На заднем дворе Джефф и Дэвид запускали фейерверк.",
-            "Она использует современный Лос-Анджелес в качестве места действия своей книги.",
-            "В праздничный день даже обыденная сервировка стола может оказаться весёлым занятием.",
-            "Террористы произвели несколько взрывов в метро.",
-            "Заходящее солнце окрасило небо в красный цвет.",
-            "серебряный столовый прибор на одну персону",
-            "солдаты, разбивающие у ручья бивак",
-            "Я каждую неделю откладываю по несколько фунтов.",
-            "Эта стена образует фон декораций сцены.",
-            "Следующая группа уже настраивала инструменты на другой сцене."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "setting": {
+    "comment": [
+      "closet",
+      "upset",
+      "set",
+      "offset",
+      "outset",
+      "onset",
+      "cassette",
+      "sunset"
+    ],
+    "translate": "установка, постановка, регулирование, заход, окружающая обстановка, схватывание",
+    "transcription": " |ˈsetɪŋ|",
+    "antonyms": [],
+    "mnemonic": [
+      "set [set]\nasset ['æsɛt]\noutset - отправление, начало\nsetting - оправа, окружающая обстановка. закат, заход\n***\nУСТАНОВИМ пару кассет. (это) set\nКомплект, набор, сервиз, прибор.\n***\nВсе мои АКТИВЫ - пара кассет. (это) asset\nВсё моё ДОСТОИНСТВО - пара кассет. (это) asset\nВсё моё ИМУЩЕСТВО - пара кассет. (это) asset"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The setting sun threw long shadows.",
+        "ru": "Заходящее солнце отбрасывало длинные тени.",
+        "learn": 1
+      },
+      {
+        "eng": "I remember setting my bag right here.",
+        "ru": "Я помню, что поставил сумку вот здесь.",
+        "learn": 1
+      },
+      {
+        "eng": "setting up a bank account",
+        "ru": "открытие банковского счёта",
+        "learn": 0
+      },
+      {
+        "eng": "the perfect setting for a ghost story",
+        "ru": "идеальная обстановка для рассказа о призраках",
+        "learn": 0
+      },
+      {
+        "eng": "Cyprus is the perfect setting for a beach holiday.",
+        "ru": "Кипр является идеальным местом для пляжного отдыха.",
+        "learn": 0
+      },
+      {
+        "eng": "You can't do that in a university setting.",
+        "ru": "Этого нельзя сделать в условиях университета.",
+        "learn": 0
+      },
+      {
+        "eng": "The setting is more valuable than the jewel.",
+        "ru": "Огранка дороже, чем сам камень.",
+        "learn": 0
+      },
+      {
+        "eng": "The light of the setting sun suffused the clouds.",
+        "ru": "Свет садящегося солнца залил облака.",
+        "learn": 0
+      },
+      {
+        "eng": "This wall forms the background of the stage setting.",
+        "ru": "Эта стена образует задний план сцены.",
+        "learn": 0
+      },
+      {
+        "eng": "Setting forth on a journey meant a great deal of preparation.",
+        "ru": "Отправиться в путешествие означало сделать множество приготовлений.",
+        "learn": 0
+      },
+      {
+        "eng": "Winter seems to be setting in early this year.",
+        "ru": "Похоже, что в этом году зима наступила рано.",
+        "learn": 0
+      },
+      {
+        "eng": "My nephew is just setting out on a career in journalism.",
+        "ru": "Мой племянник ещё только начинает карьеру в области журналистики.",
+        "learn": 0
+      },
+      {
+        "eng": "Someone is always setting stories about that the Prince is to be married.",
+        "ru": "Кто-то постоянно распускает слухи о том, что принц вот-вот женится.",
+        "learn": 0
+      },
+      {
+        "eng": "He forgot to return the phone call due to his absorption in setting up the new computer system.",
+        "ru": "Он забыл ответить на этот телефонный звонок из-за того, что сильно увлёкся настройкой новой компьютерной системы.",
+        "learn": 0
+      },
+      {
+        "eng": "setting a high standard of excellence",
+        "ru": "установление высочайшего уровня качества",
+        "learn": 0
+      },
+      {
+        "eng": "They started setting aside money to buy a car.",
+        "ru": "Они начали откладывать деньги на покупку машины.",
+        "learn": 0
+      },
+      {
+        "eng": "He was a major player in setting up the corporation.",
+        "ru": "Он сыграл существенную роль в создании этой корпорации.",
+        "learn": 0
+      },
+      {
+        "eng": "The house is situated in a charming pastoral setting.",
+        "ru": "Дом расположен в очаровательной пасторальной обстановке.",
+        "learn": 0
+      },
+      {
+        "eng": "The band are setting out on a European tour in March.",
+        "ru": "В марте группа отправляется в турне по Европе.",
+        "learn": 0
+      },
+      {
+        "eng": "The setting sun kindled the sky with oranges and reds.",
+        "ru": "Заходящее солнце озарило небо оранжевым и красным светом.",
+        "learn": 0
+      },
+      {
+        "eng": "Jeff and David were in the back yard setting off fireworks.",
+        "ru": "На заднем дворе Джефф и Дэвид запускали фейерверк.",
+        "learn": 1
+      },
+      {
+        "eng": "She uses modern-day Los Angeles as the setting for her book.",
+        "ru": "Она использует современный Лос-Анджелес в качестве места действия своей книги.",
+        "learn": 0
+      },
+      {
+        "eng": "The mundane task of setting the table can be fun on holidays.",
+        "ru": "В праздничный день даже обыденная сервировка стола может оказаться весёлым занятием.",
+        "learn": 0
+      },
+      {
+        "eng": "Terrorists have been setting off bombs in underground trains.",
+        "ru": "Террористы произвели несколько взрывов в метро.",
+        "learn": 0
+      },
+      {
+        "eng": "The setting sun reddened the sky",
+        "ru": "Заходящее солнце окрасило небо в красный цвет.",
+        "learn": 0
+      },
+      {
+        "eng": "a place setting of sterling flatware",
+        "ru": "серебряный столовый прибор на одну персону",
+        "learn": 0
+      },
+      {
+        "eng": "soldiers setting up a bivouac by the stream",
+        "ru": "солдаты, разбивающие у ручья бивак",
+        "learn": 0
+      },
+      {
+        "eng": "I've been setting aside a few pounds each week.",
+        "ru": "Я каждую неделю откладываю по несколько фунтов.",
+        "learn": 0
+      },
+      {
+        "eng": "This wall forms the background of the stage setting.",
+        "ru": "Эта стена образует фон декораций сцены.",
+        "learn": 0
+      },
+      {
+        "eng": "The next band was already setting up on the other stage.",
+        "ru": "Следующая группа уже настраивала инструменты на другой сцене.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,49 +1,245 @@
 {
-    "pick up": {
-        "comment": [],
-        "translate": "1) Поднимать (с земли, поверхности) 2) Забирать (кого-либо, что-либо) 3) Улучшаться, увеличиваться(Приблизительные синонимы) ",
-        "transcription": " |ˈpɪk ʌp|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She picked up her dry cleaning.",
-            "Pick up your clothes from the bed.",
-            "Can you pick up the kids from school?",
-            "Her health is picking up slowly.",
-            "I picked up a coin on the street.",
-            "She picked up the phone.",
-            "He picked up the newspaper from the floor.",
-            "I'll pick you up at 8 PM.",
-            "Sales are picking up after the holidays.",
-            "The wind picked up in the afternoon.",
-            "He picked up the package from the post office.",
-            "We need to pick up some groceries.",
-            "Business is picking up this month.",
-            "The economy is starting to pick up.",
-            "Please pick up your toys."
-        ],
-        "example_translate": [
-            "Она забрала свою одежду из химчистки.",
-            "Подними свою одежду с кровати.",
-            "Ты можешь забрать детей из школы?",
-            "Её здоровье медленно улучшается.",
-            "Я подобрал монету на улице.",
-            "Она подняла телефон.",
-            "Он поднял газету с пола.",
-            "Я заберу тебя в 20:00.",
-            "Продажи растут после праздников.",
-            "Ветер усилился во второй половине дня.",
-            "Он забрал посылку с почты.",
-            "Нам нужно купить продуктов.",
-            "Бизнес улучшается в этом месяце.",
-            "Экономика начинает улучшаться.",
-            "Пожалуйста, подними свои игрушки."
-        ],
-        "synonyms": "Поднимать (с земли, поверхности) - lift, gather\nЗабирать (кого-либо, что-либо) - collect, fetch\nУлучшаться, увеличиваться - improve, increase\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "pick up": {
+    "comment": [],
+    "translate": "1) Поднимать (с земли, поверхности) 2) Забирать (кого-либо, что-либо) 3) Улучшаться, увеличиваться(Приблизительные синонимы) ",
+    "transcription": " |ˈpɪk ʌp|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Поднимать (с земли, поверхности) - lift, gather",
+      "Забирать (кого-либо, что-либо) - collect, fetch",
+      "Улучшаться, увеличиваться - improve, increase"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "She picked up her dry cleaning.",
+        "ru": "Она забрала свою одежду из химчистки.",
+        "learn": 1
+      },
+      {
+        "eng": "Pick up your clothes from the bed.",
+        "ru": "Подними свою одежду с кровати.",
+        "learn": 1
+      },
+      {
+        "eng": "Can you pick up the kids from school?",
+        "ru": "Ты можешь забрать детей из школы?",
+        "learn": 1
+      },
+      {
+        "eng": "Her health is picking up slowly.",
+        "ru": "Её здоровье медленно улучшается.",
+        "learn": 1
+      },
+      {
+        "eng": "I picked up a coin on the street.",
+        "ru": "Я подобрал монету на улице.",
+        "learn": 1
+      },
+      {
+        "eng": "She picked up the phone.",
+        "ru": "Она подняла телефон.",
+        "learn": 1
+      },
+      {
+        "eng": "He picked up the newspaper from the floor.",
+        "ru": "Он поднял газету с пола.",
+        "learn": 1
+      },
+      {
+        "eng": "I'll pick you up at 8 PM.",
+        "ru": "Я заберу тебя в 20:00.",
+        "learn": 1
+      },
+      {
+        "eng": "Sales are picking up after the holidays.",
+        "ru": "Продажи растут после праздников.",
+        "learn": 1
+      },
+      {
+        "eng": "The wind picked up in the afternoon.",
+        "ru": "Ветер усилился во второй половине дня.",
+        "learn": 1
+      },
+      {
+        "eng": "He picked up the package from the post office.",
+        "ru": "Он забрал посылку с почты.",
+        "learn": 1
+      },
+      {
+        "eng": "We need to pick up some groceries.",
+        "ru": "Нам нужно купить продуктов.",
+        "learn": 1
+      },
+      {
+        "eng": "Business is picking up this month.",
+        "ru": "Бизнес улучшается в этом месяце.",
+        "learn": 1
+      },
+      {
+        "eng": "The economy is starting to pick up.",
+        "ru": "Экономика начинает улучшаться.",
+        "learn": 1
+      },
+      {
+        "eng": "Please pick up your toys.",
+        "ru": "Пожалуйста, подними свои игрушки.",
+        "learn": 1
+      },
+      {
+        "eng": "Pick up your room before you go out.",
+        "ru": "Приберись в комнате перед уходом.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll pick you up at your place at five o'clock.",
+        "ru": "Я заеду за тобой в пять.",
+        "learn": 0
+      },
+      {
+        "eng": "She's picked up flu along the way.",
+        "ru": "В дороге она подхватила простуду.",
+        "learn": 0
+      },
+      {
+        "eng": "They pick up our trash twice a week.",
+        "ru": "Они забирают /вывозят/ наш мусор два раза в неделю.",
+        "learn": 0
+      },
+      {
+        "eng": "When is the weather going to pick up?",
+        "ru": "Когда же погода улучшится?",
+        "learn": 0
+      },
+      {
+        "eng": "I have to pick up my prescription.",
+        "ru": "Мне необходимо забрать/взять свой рецепт.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd like to pick up what you said earlier.",
+        "ru": "Я бы хотел понять сказанное вами ранее.",
+        "learn": 0
+      },
+      {
+        "eng": "She picked up some milk on her way home.",
+        "ru": "По дороге домой она прикупила молока.",
+        "learn": 0
+      },
+      {
+        "eng": "He stopped to pick up a penny.",
+        "ru": "Он остановился чтобы подобрать монетку.",
+        "learn": 1
+      },
+      {
+        "eng": "Pick up your mail on the way out.",
+        "ru": "Заберите почту на обратном пути.",
+        "learn": 0
+      },
+      {
+        "eng": "Pick up your room before you go to bed.",
+        "ru": "Уберись в комнате перед тем, как лечь спать.",
+        "learn": 0
+      },
+      {
+        "eng": "He always tries to pick up girls in bars.",
+        "ru": "Он постоянно пытается подцепить /снять/ девушек в барах.",
+        "learn": 1
+      },
+      {
+        "eng": "Tom picked himself up and settled on his bench again",
+        "ru": "Том поднялся и снова сел на скамью",
+        "learn": 0
+      },
+      {
+        "eng": "I'm calling him, but he just isn't picking up!",
+        "ru": "Звоню ему, звоню, а он просто трубку не берет!",
+        "learn": 0
+      },
+      {
+        "eng": "I picked up an implication in the question.",
+        "ru": "Я уловил в вопросе скрытый подтекст.",
+        "learn": 0
+      },
+      {
+        "eng": "Jim dropped his pen and bent to pick it up.",
+        "ru": "Джим уронил ручку и наклонился, чтобы поднять её.",
+        "learn": 0
+      },
+      {
+        "eng": "The train began to pick up speed.",
+        "ru": "Поезд начал набирать скорость.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm not your slavey, so pick up after yourself.",
+        "ru": "Я не твоя прислуга, так что убирай за собой.",
+        "learn": 0
+      },
+      {
+        "eng": "I picked up after a nap.",
+        "ru": "Я вздремнул, и силы восстановились.",
+        "learn": 0
+      },
+      {
+        "eng": "I went to the office to pick up my paycheck.",
+        "ru": "Я пошел в контору, чтобы забрать свою зарплату.",
+        "learn": 0
+      },
+      {
+        "eng": "The escaped prisoners were picked up by the police.",
+        "ru": "Беглые заключённые были пойманы полицией.",
+        "learn": 0
+      },
+      {
+        "eng": "Oh, go and pick up pizza, for heaven's sake!",
+        "ru": "Ради бога, пойди купи, наконец, пиццу.",
+        "learn": 0
+      },
+      {
+        "eng": "Emma bent over to pick up the coins.",
+        "ru": "Эмма наклонилась, чтобы подобрать монеты.",
+        "learn": 0
+      },
+      {
+        "eng": "They pick up our trash twice a week",
+        "ru": "Мусор у нас забирают два раза в неделю.",
+        "learn": 0
+      },
+      {
+        "eng": "He stooped down so he could pick up his hat.",
+        "ru": "Он наклонился, чтобы подобрать свою шляпу.",
+        "learn": 0
+      },
+      {
+        "eng": "The shipwrecked sailors were picked up by a passing boat.",
+        "ru": "Матросов с затонувшего корабля подобрало проходившее мимо судно.",
+        "learn": 0
+      },
+      {
+        "eng": "She just dropped by to pick up her mail.",
+        "ru": "Она просто забежала забрать свою почту.",
+        "learn": 0
+      },
+      {
+        "eng": "The searchers at last picked up a signal from the crashed plane.",
+        "ru": "Поисковая партия наконец поймала сигнал с потерпевшего катастрофу самолёта.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd like to pick up the point David made.",
+        "ru": "Мне бы хотелось вернуться к вопросу, который затронул Дэвид.",
+        "learn": 0
+      },
+      {
+        "eng": "They sent a messenger to pick up the package.",
+        "ru": "Они послали гонца, чтобы забрать пакет.",
+        "learn": 1
+      }
+    ]
+  }
 }

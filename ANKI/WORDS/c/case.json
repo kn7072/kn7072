@@ -1,85 +1,171 @@
 {
-    "case": {
-        "comment": [
-            "suitcase",
-            "bookcase",
-            "briefcase",
-            "staircase"
-        ],
-        "translate": "случай, дело, корпус, чехол, футляр, ящик, покрывать, упаковывать в ящик, обшивать",
-        "transcription": " |keɪs|",
-        "antonyms": [],
-        "mnemonic": [
-            "case [keɪs]\n***\nНа всякий СЛУЧАЙ всё спрячем в кейс. (это) case\nДело, факты, доказательства.\nЧЕМОДАН, ФУТЛЯР И СУМКА - это кейс. (это) case\nВсе вещи УПАКОВАЛ в кейс. (это) case\n***\nБыл такой случай \"case\",\nкогда меня преследовали \"chase\"."
-        ],
-        "examples": [
-            "He lost the case.",
-            "In this case he acted right.",
-            "This is an exceptive case.",
-            "This case is more complicated.",
-            "Jim put his violin back in its case.",
-            "The defence rests its case.",
-            "men cased in iron from head to foot",
-            "The case was decided.",
-            "OK, OK, just get off my case!",
-            "Let me relieve you of your case.",
-            "That didn't use to be the case.",
-            "In case of fire, break the glass.",
-            "I always keep my gun handy just in case.",
-            "They settled the case out of court.",
-            "He was casing the field for a career.",
-            "This case is dismissed!",
-            "The case is still at hearing.",
-            "Your case comes up next week.",
-            "Was it a case of demonic possession?",
-            "She has a mild case of the flu.",
-            "The clock has a walnut case.",
-            "The case promises to be a nutty one.",
-            "The rule does not apply to this case.",
-            "The ring is enclosed in a plastic case.",
-            "a bad case of the heaves",
-            "The court will not hear this case.",
-            "The evidence is relevant to the case.",
-            "The case was thrown out of court.",
-            "The case generated public outrage.",
-            "Around 50 police officers are on the case."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он проиграл это дело.",
-            "В этом случае он поступил правильно.",
-            "Это исключительно сложный случай.",
-            "Этот случай — более сложный.",
-            "Джим положил скрипку обратно в футляр.",
-            "Защите нечего добавить.",
-            "мужчины, закованные с головы до ног в железные доспехи",
-            "Дело было решено.",
-            "Ладно, хорошо, только отстаньте!",
-            "Позвольте мне понести ваш чемодан.",
-            "Раньше такого не было.",
-            "В случае пожара разбейте стекло.",
-            "Я, на всякий случай, всегда держу свое ружье под рукой.",
-            "Они решили дело, не обращаясь в суд.",
-            "Он присматривался, каким бы делом ему заняться.",
-            "Это дело закрыто!",
-            "Дело всё ещё в суде.",
-            "Ваше дело рассмотрят на следующей неделе.",
-            "Был ли это случай одержимости бесами?",
-            "У неё слабая /неопасная/ форма гриппа.",
-            "У этих (настенных) часов — ореховый корпус.",
-            "Этот случай обещает быть пикантным.",
-            "Это правило неприменимо к данному случаю.",
-            "Кольцо помещено в полиэтиленовый пакет.",
-            "сильные рвотные позывы",
-            "Суд не будет заслушивать это дело.",
-            "Это свидетельство относится к делу.",
-            "Делу было отказано в рассмотрении в суде.",
-            "Это дело вызвало возмущение общественности.",
-            "Около пятидесяти сотрудников полиции занимаются этим делом."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "case": {
+    "comment": [
+      "suitcase",
+      "bookcase",
+      "briefcase",
+      "staircase"
+    ],
+    "translate": "случай, дело, корпус, чехол, футляр, ящик, покрывать, упаковывать в ящик, обшивать",
+    "transcription": " |keɪs|",
+    "antonyms": [],
+    "mnemonic": [
+      "case [keɪs]\n***\nНа всякий СЛУЧАЙ всё спрячем в кейс. (это) case\nДело, факты, доказательства.\nЧЕМОДАН, ФУТЛЯР И СУМКА - это кейс. (это) case\nВсе вещи УПАКОВАЛ в кейс. (это) case\n***\nБыл такой случай \"case\",\nкогда меня преследовали \"chase\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He lost the case.",
+        "ru": "Он проиграл это дело.",
+        "learn": 0
+      },
+      {
+        "eng": "In this case he acted right.",
+        "ru": "В этом случае он поступил правильно.",
+        "learn": 0
+      },
+      {
+        "eng": "This is an exceptive case.",
+        "ru": "Это исключительно сложный случай.",
+        "learn": 0
+      },
+      {
+        "eng": "This case is more complicated.",
+        "ru": "Этот случай — более сложный.",
+        "learn": 0
+      },
+      {
+        "eng": "Jim put his violin back in its case.",
+        "ru": "Джим положил скрипку обратно в футляр.",
+        "learn": 1
+      },
+      {
+        "eng": "The defence rests its case.",
+        "ru": "Защите нечего добавить.",
+        "learn": 0
+      },
+      {
+        "eng": "men cased in iron from head to foot",
+        "ru": "мужчины, закованные с головы до ног в железные доспехи",
+        "learn": 0
+      },
+      {
+        "eng": "The case was decided.",
+        "ru": "Дело было решено.",
+        "learn": 0
+      },
+      {
+        "eng": "OK, OK, just get off my case!",
+        "ru": "Ладно, хорошо, только отстаньте!",
+        "learn": 0
+      },
+      {
+        "eng": "Let me relieve you of your case.",
+        "ru": "Позвольте мне понести ваш чемодан.",
+        "learn": 0
+      },
+      {
+        "eng": "That didn't use to be the case.",
+        "ru": "Раньше такого не было.",
+        "learn": 0
+      },
+      {
+        "eng": "In case of fire, break the glass.",
+        "ru": "В случае пожара разбейте стекло.",
+        "learn": 0
+      },
+      {
+        "eng": "I always keep my gun handy just in case.",
+        "ru": "Я, на всякий случай, всегда держу свое ружье под рукой.",
+        "learn": 0
+      },
+      {
+        "eng": "They settled the case out of court.",
+        "ru": "Они решили дело, не обращаясь в суд.",
+        "learn": 0
+      },
+      {
+        "eng": "He was casing the field for a career.",
+        "ru": "Он присматривался, каким бы делом ему заняться.",
+        "learn": 0
+      },
+      {
+        "eng": "This case is dismissed!",
+        "ru": "Это дело закрыто!",
+        "learn": 1
+      },
+      {
+        "eng": "The case is still at hearing.",
+        "ru": "Дело всё ещё в суде.",
+        "learn": 0
+      },
+      {
+        "eng": "Your case comes up next week.",
+        "ru": "Ваше дело рассмотрят на следующей неделе.",
+        "learn": 0
+      },
+      {
+        "eng": "Was it a case of demonic possession?",
+        "ru": "Был ли это случай одержимости бесами?",
+        "learn": 0
+      },
+      {
+        "eng": "She has a mild case of the flu.",
+        "ru": "У неё слабая /неопасная/ форма гриппа.",
+        "learn": 0
+      },
+      {
+        "eng": "The clock has a walnut case.",
+        "ru": "У этих (настенных) часов — ореховый корпус.",
+        "learn": 0
+      },
+      {
+        "eng": "The case promises to be a nutty one.",
+        "ru": "Этот случай обещает быть пикантным.",
+        "learn": 0
+      },
+      {
+        "eng": "The rule does not apply to this case.",
+        "ru": "Это правило неприменимо к данному случаю.",
+        "learn": 0
+      },
+      {
+        "eng": "The ring is enclosed in a plastic case.",
+        "ru": "Кольцо помещено в полиэтиленовый пакет.",
+        "learn": 1
+      },
+      {
+        "eng": "a bad case of the heaves",
+        "ru": "сильные рвотные позывы",
+        "learn": 0
+      },
+      {
+        "eng": "The court will not hear this case.",
+        "ru": "Суд не будет заслушивать это дело.",
+        "learn": 1
+      },
+      {
+        "eng": "The evidence is relevant to the case.",
+        "ru": "Это свидетельство относится к делу.",
+        "learn": 0
+      },
+      {
+        "eng": "The case was thrown out of court.",
+        "ru": "Делу было отказано в рассмотрении в суде.",
+        "learn": 0
+      },
+      {
+        "eng": "The case generated public outrage.",
+        "ru": "Это дело вызвало возмущение общественности.",
+        "learn": 1
+      },
+      {
+        "eng": "Around 50 police officers are on the case.",
+        "ru": "Около пятидесяти сотрудников полиции занимаются этим делом.",
+        "learn": 0
+      }
+    ]
+  }
 }

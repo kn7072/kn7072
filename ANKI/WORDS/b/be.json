@@ -1,82 +1,171 @@
 {
-    "be": {
-        "comment": [
-            "being"
-        ],
-        "translate": "быть, находиться, должен, тратта",
-        "transcription": " |bi|",
-        "antonyms": [],
-        "mnemonic": [
-            "be [би] быть - (Би-лайн) быть продолжает плохой компанией."
-        ],
-        "examples": [
-            "Let me be!",
-            "I'm for it.",
-            "Where have you been? I've just been about the town.",
-            "He is to go home.",
-            "Will you be around this time next year?",
-            "What would you be at?",
-            "It's past me what he means!",
-            "It's quite dark, it must be after 10 o'clock.",
-            "Let things be.",
-            "Troy is no more",
-            "Be it as it may.",
-            "He is about to go.",
-            "Good fortune be with you.",
-            "Is it nothing to you?",
-            "When is the wedding to be?",
-            "The water is about to boil.",
-            "To fall was to die.",
-            "I think, therefore I am.",
-            "Who's been at my things again?",
-            "What's behind his offer?",
-            "His parents were grown old.",
-            "State is me.",
-            "Therefore I am returned.",
-            "Jim is after another job.",
-            "Content to be and to be well.",
-            "What is your new book about?",
-            "What is behind this behavior?",
-            "A captain is below a major.",
-            "The flower-show was last week.",
-            "Lying is against my principles."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Оставьте меня в покое!",
-            "Я за, я поддерживаю.",
-            "Где ты был? Гулял по городу.",
-            "Он должен пойти домой.",
-            "Вы будете здесь в это же время в следующем году?",
-            "каковы ваши намерения?",
-            "Я совершенно не понимаю, что он имеет в виду.",
-            "Уже довольно темно, сейчас, должно быть, около 10 часов.",
-            "Пусть всё будет как есть.",
-            "Трои больше не существует",
-            "Будь как будет.",
-            "Он собирается уходить.",
-            "Пусть удача сопутствует тебе.",
-            "Это ничего для тебя не значит?",
-            "когда должна состояться /будет/ свадьба?",
-            "Вода вот-вот закипит.",
-            "Упасть означало умереть.",
-            "Я мыслю, следовательно, существую.",
-            "Кто опять трогал мои вещи?",
-            "Интересно, что заставило его сделать такое предложение?",
-            "Его родители состарились.",
-            "Государство — это я. (король Франции Людовик XIV)",
-            "И поэтому я вернулся.",
-            "Джим хочет устроиться на другую работу.",
-            "Он доволен, что жив, и что у него всё неплохо.",
-            "О чем ваша новая книга?",
-            "Что скрывается за этим поведением?",
-            "Капитан по званию ниже, чем майор.",
-            "На прошлой неделе была выставка цветов.",
-            "Ложь противоречит моим жизненным принципам."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "be": {
+    "comment": [
+      "was/were |wʌz| / |wɜr|,                                          been |bɪn|",
+      "being"
+    ],
+    "translate": "быть, находиться, должен, тратта",
+    "transcription": " |bi|",
+    "antonyms": [],
+    "mnemonic": [
+      "be [би] быть - (Би-лайн) быть продолжает плохой компанией."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Let me be!",
+        "ru": "Оставьте меня в покое!",
+        "learn": 0
+      },
+      {
+        "eng": "I'm for it.",
+        "ru": "Я за, я поддерживаю.",
+        "learn": 0
+      },
+      {
+        "eng": "Where have you been? I've just been about the town.",
+        "ru": "Где ты был? Гулял по городу.",
+        "learn": 0
+      },
+      {
+        "eng": "He is to go home.",
+        "ru": "Он должен пойти домой.",
+        "learn": 0
+      },
+      {
+        "eng": "Will you be around this time next year?",
+        "ru": "Вы будете здесь в это же время в следующем году?",
+        "learn": 0
+      },
+      {
+        "eng": "What would you be at?",
+        "ru": "каковы ваши намерения?",
+        "learn": 0
+      },
+      {
+        "eng": "It's past me what he means!",
+        "ru": "Я совершенно не понимаю, что он имеет в виду.",
+        "learn": 0
+      },
+      {
+        "eng": "It's quite dark, it must be after 10 o'clock.",
+        "ru": "Уже довольно темно, сейчас, должно быть, около 10 часов.",
+        "learn": 1
+      },
+      {
+        "eng": "Let things be.",
+        "ru": "Пусть всё будет как есть.",
+        "learn": 0
+      },
+      {
+        "eng": "Troy is no more",
+        "ru": "Трои больше не существует",
+        "learn": 0
+      },
+      {
+        "eng": "Be it as it may.",
+        "ru": "Будь как будет.",
+        "learn": 0
+      },
+      {
+        "eng": "He is about to go.",
+        "ru": "Он собирается уходить.",
+        "learn": 0
+      },
+      {
+        "eng": "Good fortune be with you.",
+        "ru": "Пусть удача сопутствует тебе.",
+        "learn": 0
+      },
+      {
+        "eng": "Is it nothing to you?",
+        "ru": "Это ничего для тебя не значит?",
+        "learn": 0
+      },
+      {
+        "eng": "When is the wedding to be?",
+        "ru": "когда должна состояться /будет/ свадьба?",
+        "learn": 0
+      },
+      {
+        "eng": "The water is about to boil.",
+        "ru": "Вода вот-вот закипит.",
+        "learn": 1
+      },
+      {
+        "eng": "To fall was to die.",
+        "ru": "Упасть означало умереть.",
+        "learn": 0
+      },
+      {
+        "eng": "I think, therefore I am.",
+        "ru": "Я мыслю, следовательно, существую.",
+        "learn": 1
+      },
+      {
+        "eng": "Who's been at my things again?",
+        "ru": "Кто опять трогал мои вещи?",
+        "learn": 0
+      },
+      {
+        "eng": "What's behind his offer?",
+        "ru": "Интересно, что заставило его сделать такое предложение?",
+        "learn": 0
+      },
+      {
+        "eng": "His parents were grown old.",
+        "ru": "Его родители состарились.",
+        "learn": 0
+      },
+      {
+        "eng": "State is me.",
+        "ru": "Государство — это я. (король Франции Людовик XIV)",
+        "learn": 0
+      },
+      {
+        "eng": "Therefore I am returned.",
+        "ru": "И поэтому я вернулся.",
+        "learn": 0
+      },
+      {
+        "eng": "Jim is after another job.",
+        "ru": "Джим хочет устроиться на другую работу.",
+        "learn": 0
+      },
+      {
+        "eng": "Content to be and to be well.",
+        "ru": "Он доволен, что жив, и что у него всё неплохо.",
+        "learn": 0
+      },
+      {
+        "eng": "What is your new book about?",
+        "ru": "О чем ваша новая книга?",
+        "learn": 0
+      },
+      {
+        "eng": "What is behind this behavior?",
+        "ru": "Что скрывается за этим поведением?",
+        "learn": 1
+      },
+      {
+        "eng": "A captain is below a major.",
+        "ru": "Капитан по званию ниже, чем майор.",
+        "learn": 0
+      },
+      {
+        "eng": "The flower-show was last week.",
+        "ru": "На прошлой неделе была выставка цветов.",
+        "learn": 0
+      },
+      {
+        "eng": "Lying is against my principles.",
+        "ru": "Ложь противоречит моим жизненным принципам.",
+        "learn": 0
+      }
+    ]
+  }
 }

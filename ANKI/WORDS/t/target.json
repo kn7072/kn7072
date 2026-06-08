@@ -1,84 +1,171 @@
 {
-    "target": {
-        "comment": [
-            "get"
-        ],
-        "translate": "цель, мишень, задание, сигнал, плановый, нацеливать, планировать",
-        "transcription": " |ˈtɑːrɡɪt|",
-        "antonyms": [],
-        "mnemonic": [
-            "target [та'гит] мишень, цель - Вражеские (т-агит- аторы) главная мишень.",
-            "target ['tɑ: gɪt]\n***\nЯ НАЦЕЛЕН - я в Рейхстаге (т). (это) target\nЦЕЛЬ нашёл - она в Рейхстаге (т). (это) target"
-        ],
-        "examples": [
-            "The arrow missed the target",
-            "Is this a realistic target?",
-            "A campaign targets under-35s.",
-            "The torpedo hits its target.",
-            "The bomb failed to hit its target.",
-            "The arrow hit the dead centre of the target.",
-            "The bombs landed dead on target.",
-            "Old people are a prime target for thieves.",
-            "Alan took aim at the target.",
-            "He was a target of slander.",
-            "Thieves often target unprotected vehicles.",
-            "The arrow overreached the target.",
-            "She hit the target with deadly accuracy.",
-            "Higher degrees in English are a target for foreign students.",
-            "They set a target date of May 31.",
-            "Our target is to raise $20,000 for cancer research.",
-            "The paper targets young people. / The paper is targeted at / on young people.",
-            "His brother was the main target of his gripes.",
-            "His behaviour had made him the target of public hostility and odium.",
-            "No civilian buildings were targeted.",
-            "Our target audience is men aged between 18 and 35.",
-            "New retail real-estate firm is targeting San Antonio.",
-            "He got a good fix on the target.",
-            "This target should be attainable.",
-            "She fired the arrow at the target.",
-            "The arrow hit the outermost ring on the target.",
-            "That was a good aim., the target has been blown to pieces.",
-            "I had failed to beat my 30 day target by 3 days, 15 hours, 7 minutes.",
-            "We were briefed that if we could not sight and identify the target we had to bring our bombs back.",
-            "Planes struck at key military targets."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Стрела не попала в мишень. / Стрела пролетела мимо цели.",
-            "Эта цель достижима? / Это реалистичная цель?",
-            "Кампания направлена на людей младше 35 лет.",
-            "Торпеда попадает в цель.",
-            "Бомба не достигла своей цели.",
-            "Стрела попала точно в яблочко.",
-            "Бомбы попали точно в цель.",
-            "Старики являются главной мишенью для воров.",
-            "Алан прицелился в мишень.",
-            "Он был объектом клеветы.",
-            "Воры часто выбирают в качестве цели незащищённые транспортные средства.",
-            "Стрела пролетела дальше цели.",
-            "Она попала в цель с убийственной точностью.",
-            "Цель иностранных студентов – учёная /научная/ степень по английскому языку.",
-            "В качестве контрольной даты они назначили тридцать первое мая.",
-            "Наша задача — собрать двадцать тысяч долларов на онкологические исследования.",
-            "Целевая аудитория этой газеты - молодые люди.",
-            "Его брат был основным объектом его недовольства.",
-            "Из-за своих поступков он стал мишенью для публичной ненависти и враждебного отношения.",
-            "По гражданским зданиям огонь не вёлся.",
-            "Наша целевая аудитория — мужчины в возрасте от восемнадцати до тридцати пяти лет.",
-            "Новое агентство планирует выйти на рынок недвижимости Сан-Антонио.",
-            "Он хорошенько сосредоточился на мишени.",
-            "Эта цель должна быть достижимой.",
-            "Она выпустила стрелу в цель.",
-            "Стрела попала во внешнее кольцо мишени.",
-            "Прицел был точен - мишень разнесло в щепки.",
-            "Мне не хватило 3 дней, 15 часов и 7 минут для того, чтобы уложиться в запланированные 30 дней.",
-            "У нас были инструкции не сбрасывать бомбы, если мы не обнаружим и не опознаем цель.",
-            "Самолёты нанесли удар по ключевым военным объектам."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "g_+_e,_i,_y_=_[g]_(исключения)"
-        ]
-    }
+  "target": {
+    "comment": [
+      "get"
+    ],
+    "translate": "цель, мишень, задание, сигнал, плановый, нацеливать, планировать",
+    "transcription": " |ˈtɑːrɡɪt|",
+    "antonyms": [],
+    "mnemonic": [
+      "target [та'гит] мишень, цель - Вражеские (т-агит- аторы) главная мишень.",
+      "target ['tɑ: gɪt]\n***\nЯ НАЦЕЛЕН - я в Рейхстаге (т). (это) target\nЦЕЛЬ нашёл - она в Рейхстаге (т). (это) target"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "g_+_e,_i,_y_=_[g]_(исключения)"
+    ],
+    "examples": [
+      {
+        "eng": "The arrow missed the target",
+        "ru": "Стрела не попала в мишень. / Стрела пролетела мимо цели.",
+        "learn": 0
+      },
+      {
+        "eng": "Is this a realistic target?",
+        "ru": "Эта цель достижима? / Это реалистичная цель?",
+        "learn": 1
+      },
+      {
+        "eng": "A campaign targets under-35s.",
+        "ru": "Кампания направлена на людей младше 35 лет.",
+        "learn": 0
+      },
+      {
+        "eng": "The torpedo hits its target.",
+        "ru": "Торпеда попадает в цель.",
+        "learn": 0
+      },
+      {
+        "eng": "The bomb failed to hit its target.",
+        "ru": "Бомба не достигла своей цели.",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow hit the dead centre of the target.",
+        "ru": "Стрела попала точно в яблочко.",
+        "learn": 0
+      },
+      {
+        "eng": "The bombs landed dead on target.",
+        "ru": "Бомбы попали точно в цель.",
+        "learn": 0
+      },
+      {
+        "eng": "Old people are a prime target for thieves.",
+        "ru": "Старики являются главной мишенью для воров.",
+        "learn": 0
+      },
+      {
+        "eng": "Alan took aim at the target.",
+        "ru": "Алан прицелился в мишень.",
+        "learn": 0
+      },
+      {
+        "eng": "He was a target of slander.",
+        "ru": "Он был объектом клеветы.",
+        "learn": 0
+      },
+      {
+        "eng": "Thieves often target unprotected vehicles.",
+        "ru": "Воры часто выбирают в качестве цели незащищённые транспортные средства.",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow overreached the target.",
+        "ru": "Стрела пролетела дальше цели.",
+        "learn": 0
+      },
+      {
+        "eng": "She hit the target with deadly accuracy.",
+        "ru": "Она попала в цель с убийственной точностью.",
+        "learn": 1
+      },
+      {
+        "eng": "Higher degrees in English are a target for foreign students.",
+        "ru": "Цель иностранных студентов – учёная /научная/ степень по английскому языку.",
+        "learn": 0
+      },
+      {
+        "eng": "They set a target date of May 31.",
+        "ru": "В качестве контрольной даты они назначили тридцать первое мая.",
+        "learn": 0
+      },
+      {
+        "eng": "Our target is to raise $20,000 for cancer research.",
+        "ru": "Наша задача — собрать двадцать тысяч долларов на онкологические исследования.",
+        "learn": 0
+      },
+      {
+        "eng": "The paper targets young people. / The paper is targeted at / on young people.",
+        "ru": "Целевая аудитория этой газеты - молодые люди.",
+        "learn": 0
+      },
+      {
+        "eng": "His brother was the main target of his gripes.",
+        "ru": "Его брат был основным объектом его недовольства.",
+        "learn": 0
+      },
+      {
+        "eng": "His behaviour had made him the target of public hostility and odium.",
+        "ru": "Из-за своих поступков он стал мишенью для публичной ненависти и враждебного отношения.",
+        "learn": 0
+      },
+      {
+        "eng": "No civilian buildings were targeted.",
+        "ru": "По гражданским зданиям огонь не вёлся.",
+        "learn": 0
+      },
+      {
+        "eng": "Our target audience is men aged between 18 and 35.",
+        "ru": "Наша целевая аудитория — мужчины в возрасте от восемнадцати до тридцати пяти лет.",
+        "learn": 0
+      },
+      {
+        "eng": "New retail real-estate firm is targeting San Antonio.",
+        "ru": "Новое агентство планирует выйти на рынок недвижимости Сан-Антонио.",
+        "learn": 0
+      },
+      {
+        "eng": "He got a good fix on the target.",
+        "ru": "Он хорошенько сосредоточился на мишени.",
+        "learn": 0
+      },
+      {
+        "eng": "This target should be attainable.",
+        "ru": "Эта цель должна быть достижимой.",
+        "learn": 0
+      },
+      {
+        "eng": "She fired the arrow at the target.",
+        "ru": "Она выпустила стрелу в цель.",
+        "learn": 0
+      },
+      {
+        "eng": "The arrow hit the outermost ring on the target.",
+        "ru": "Стрела попала во внешнее кольцо мишени.",
+        "learn": 0
+      },
+      {
+        "eng": "That was a good aim., the target has been blown to pieces.",
+        "ru": "Прицел был точен - мишень разнесло в щепки.",
+        "learn": 0
+      },
+      {
+        "eng": "I had failed to beat my 30 day target by 3 days, 15 hours, 7 minutes.",
+        "ru": "Мне не хватило 3 дней, 15 часов и 7 минут для того, чтобы уложиться в запланированные 30 дней.",
+        "learn": 0
+      },
+      {
+        "eng": "We were briefed that if we could not sight and identify the target we had to bring our bombs back.",
+        "ru": "У нас были инструкции не сбрасывать бомбы, если мы не обнаружим и не опознаем цель.",
+        "learn": 0
+      },
+      {
+        "eng": "Planes struck at key military targets.",
+        "ru": "Самолёты нанесли удар по ключевым военным объектам.",
+        "learn": 0
+      }
+    ]
+  }
 }

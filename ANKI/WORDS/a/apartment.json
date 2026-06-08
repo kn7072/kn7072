@@ -1,80 +1,166 @@
 {
-    "apartment": {
-        "comment": [
-            "apart"
-        ],
-        "translate": "квартира, апартамент, комната, меблированные комнаты",
-        "transcription": " |əˈpɑːrtmənt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Royal Apartments",
-            "They have a small apartment in town.",
-            "It was a huge apartment with rosewood panelling.",
-            "They busted the apartment.",
-            "She lives in a small apartment.",
-            "Our apartment is below theirs.",
-            "James does nothing but lounge around the apartment.",
-            "The apartment has low ceilings.",
-            "He keeps his apartment spanking clean.",
-            "I'm already feeling at home in the new apartment.",
-            "The apartment had been trashed.",
-            "The apartment has high ceilings.",
-            "the apartment's compact floor plan",
-            "The apartment overlooks the Hudson.",
-            "The apartment had been stripped bare.",
-            "He keeps his apartment neat and clean.",
-            "We had a snoop around their apartment.",
-            "She is eager to see his new apartment.",
-            "He lives in a grubby little apartment.",
-            "plant bugs in the dissident's apartment",
-            "They were evicted from their apartment.",
-            "Boxes crowded the floor of my apartment.",
-            "Right now his home is a small apartment.",
-            "a roomy but sparsely furnished apartment",
-            "We sublet our apartment over the summer.",
-            "Their apartment has a large kitchen area.",
-            "We rented an apartment above a restaurant.",
-            "He lives in the apartment underneath mine.",
-            "His apartment is in a really good location.",
-            "He was found dead in his apartment yesterday."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Королевские покои",
-            "У них есть небольшая квартирка в городе.",
-            "Это была огромная квартира, обшитая розовым деревом.",
-            "Они совершили налёт на квартиру.",
-            "Она живет в маленькой квартирке.",
-            "Наша квартира находится ниже их квартиры.",
-            "Джеймс ничего не делает — просто слоняется по квартире, и всё.",
-            "В квартире низкие потолки.",
-            "Он содержит квартиру в идеальной чистоте.",
-            "В новой квартире я уже чувствую себя как дома.",
-            "В квартире царил полный разгром.",
-            "В квартире высокие потолки.",
-            "компактный архитектурный план этой квартиры",
-            "Окна этой квартиры выходят на Гудзон.",
-            "Из квартиры вынесли абсолютно всё.",
-            "У него в квартире всегда чистота и порядок.",
-            "Мы тайком обшарили их квартиру.",
-            "Ей не терпится увидеть его новую квартиру.",
-            "Он живет в грязной маленькой квартире.",
-            "установить \"жучки\" в квартире этого диссидента",
-            "Их выселили из квартиры.",
-            "Пол моей квартиры был уставлен коробками.",
-            "В данный момент он живёт в небольшой квартире.",
-            "просторная, но скудно обставленная квартира",
-            "На лето мы сдаём квартиру в субаренду.",
-            "В их квартире — большая кухня.",
-            "Мы сняли квартиру над рестораном.",
-            "Он живёт в квартире, которая находится под моей.",
-            "Его квартира находится в очень хорошем месте.",
-            "Вчера он был найден мёртвым в своей квартире."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "apartment": {
+    "comment": [
+      "apart"
+    ],
+    "translate": "квартира, апартамент, комната, меблированные комнаты",
+    "transcription": " |əˈpɑːrtmənt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Royal Apartments",
+        "ru": "Королевские покои",
+        "learn": 0
+      },
+      {
+        "eng": "They have a small apartment in town.",
+        "ru": "У них есть небольшая квартирка в городе.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a huge apartment with rosewood panelling.",
+        "ru": "Это была огромная квартира, обшитая розовым деревом.",
+        "learn": 0
+      },
+      {
+        "eng": "They busted the apartment.",
+        "ru": "Они совершили налёт на квартиру.",
+        "learn": 1
+      },
+      {
+        "eng": "She lives in a small apartment.",
+        "ru": "Она живет в маленькой квартирке.",
+        "learn": 0
+      },
+      {
+        "eng": "Our apartment is below theirs.",
+        "ru": "Наша квартира находится ниже их квартиры.",
+        "learn": 0
+      },
+      {
+        "eng": "James does nothing but lounge around the apartment.",
+        "ru": "Джеймс ничего не делает — просто слоняется по квартире, и всё.",
+        "learn": 0
+      },
+      {
+        "eng": "The apartment has low ceilings.",
+        "ru": "В квартире низкие потолки.",
+        "learn": 0
+      },
+      {
+        "eng": "He keeps his apartment spanking clean.",
+        "ru": "Он содержит квартиру в идеальной чистоте.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm already feeling at home in the new apartment.",
+        "ru": "В новой квартире я уже чувствую себя как дома.",
+        "learn": 0
+      },
+      {
+        "eng": "The apartment had been trashed.",
+        "ru": "В квартире царил полный разгром.",
+        "learn": 0
+      },
+      {
+        "eng": "The apartment has high ceilings.",
+        "ru": "В квартире высокие потолки.",
+        "learn": 0
+      },
+      {
+        "eng": "the apartment's compact floor plan",
+        "ru": "компактный архитектурный план этой квартиры",
+        "learn": 0
+      },
+      {
+        "eng": "The apartment overlooks the Hudson.",
+        "ru": "Окна этой квартиры выходят на Гудзон.",
+        "learn": 0
+      },
+      {
+        "eng": "The apartment had been stripped bare.",
+        "ru": "Из квартиры вынесли абсолютно всё.",
+        "learn": 0
+      },
+      {
+        "eng": "He keeps his apartment neat and clean.",
+        "ru": "У него в квартире всегда чистота и порядок.",
+        "learn": 0
+      },
+      {
+        "eng": "We had a snoop around their apartment.",
+        "ru": "Мы тайком обшарили их квартиру.",
+        "learn": 0
+      },
+      {
+        "eng": "She is eager to see his new apartment.",
+        "ru": "Ей не терпится увидеть его новую квартиру.",
+        "learn": 1
+      },
+      {
+        "eng": "He lives in a grubby little apartment.",
+        "ru": "Он живет в грязной маленькой квартире.",
+        "learn": 0
+      },
+      {
+        "eng": "plant bugs in the dissident's apartment",
+        "ru": "установить \"жучки\" в квартире этого диссидента",
+        "learn": 0
+      },
+      {
+        "eng": "They were evicted from their apartment.",
+        "ru": "Их выселили из квартиры.",
+        "learn": 0
+      },
+      {
+        "eng": "Boxes crowded the floor of my apartment.",
+        "ru": "Пол моей квартиры был уставлен коробками.",
+        "learn": 0
+      },
+      {
+        "eng": "Right now his home is a small apartment.",
+        "ru": "В данный момент он живёт в небольшой квартире.",
+        "learn": 0
+      },
+      {
+        "eng": "a roomy but sparsely furnished apartment",
+        "ru": "просторная, но скудно обставленная квартира",
+        "learn": 0
+      },
+      {
+        "eng": "We sublet our apartment over the summer.",
+        "ru": "На лето мы сдаём квартиру в субаренду.",
+        "learn": 0
+      },
+      {
+        "eng": "Their apartment has a large kitchen area.",
+        "ru": "В их квартире — большая кухня.",
+        "learn": 0
+      },
+      {
+        "eng": "We rented an apartment above a restaurant.",
+        "ru": "Мы сняли квартиру над рестораном.",
+        "learn": 0
+      },
+      {
+        "eng": "He lives in the apartment underneath mine.",
+        "ru": "Он живёт в квартире, которая находится под моей.",
+        "learn": 0
+      },
+      {
+        "eng": "His apartment is in a really good location.",
+        "ru": "Его квартира находится в очень хорошем месте.",
+        "learn": 0
+      },
+      {
+        "eng": "He was found dead in his apartment yesterday.",
+        "ru": "Вчера он был найден мёртвым в своей квартире.",
+        "learn": 0
+      }
+    ]
+  }
 }

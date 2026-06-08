@@ -1,87 +1,174 @@
 {
-    "afraid": {
-        "comment": [
-            "aid",
-            "paid"
-        ],
-        "translate": "боящийся, испуганный, напуганный",
-        "transcription": " |əˈfreɪd|",
-        "antonyms": [],
-        "mnemonic": [
-            "afraid [эфре'йд] бояться - Вся Европа боялась (эфрейд-ора*) одного (‘Ефрейтора).",
-            "afraid [ə'freɪd]\n***\nНе БОЯЛСЯ ничего психолог Фрейд. (это) afraid\nТы не БОЙСЯ - рядом Фрейд. (это) afraid\nИСПУГАННЫЙ Фрейд. (это) afraid\n***\nОн боится \"afraid\"\nоблавы \"raid\",\nмы окажем ему помощь \"aid\"."
-        ],
-        "examples": [
-            "Who is afraid?",
-            "I'm afraid you're wrong.",
-            "Don't be afraid to ask for help.",
-            "There's no need to be afraid.",
-            "I am afraid to wake him.",
-            "Are you afraid of him, or what?",
-            "I'm afraid I didn't catch your name.",
-            "I'm afraid I can't answer that question.",
-            "I ran because I was afraid.",
-            "Her dog is afraid of thunder.",
-            "I'm afraid I've scratched your car.",
-            "'Did you see him?' ' I'm afraid not (=no).'",
-            "I'm afraid I wasn't invited.",
-            "She's not afraid to run a risk.",
-            "I'm afraid I've overdone the vegetables.",
-            "'Is she very ill?' ' I'm afraid so (=yes).'",
-            "She was afraid that I might be embarrassed.",
-            "He was afraid they would burrow into his past.",
-            "Melissa is afraid of flying, so she takes a train from Boston to visit her brother in Chicago.",
-            "I'm afraid he's wound up.",
-            "He paused, afraid lest he say too much.",
-            "She's afraid of swimming in deep water.",
-            "I'm afraid this spells trouble!",
-            "I'm afraid Luke's a bit simple.",
-            "I'm afraid I've burnt the pizza.",
-            "He was never so afraid in his days.",
-            "Gina covered her eyes, afraid to look.",
-            "I was sore afraid we'd never make it home.",
-            "Acting's not really in my line, I'm afraid.",
-            "I'm afraid that the judge might rule against you."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "кто испугался? кто боится?",
-            "Боюсь, вы ошибаетесь.",
-            "Не бойтесь просить о помощи.",
-            "Бояться не нужно.",
-            "Я не решаюсь его будить.",
-            "Ты что, боишься его, что ли?",
-            "К сожалению, я не разобрал вашего имени. / Простите, я не расслышал, как вас зовут.",
-            "К сожалению, я не могу ответить на этот вопрос.",
-            "Я побежал, потому что был испуган.",
-            "Её собака боится грома.",
-            "Боюсь, я поцарапал твой автомобиль.",
-            "— Вы его видели? — Боюсь, что нет. / К сожалению, нет.",
-            "Я боюсь, что я не была приглашена. / К сожалению, меня не пригласили.",
-            "Она не боится идти на риск.",
-            "Кажется, я переварил овощи.",
-            "— Она очень больна? — Боюсь, что так (т.е. да).",
-            "Она боялась, что мне будет неловко.",
-            "Он боялся, что они будут копаться в его прошлом.",
-            "Мелисса боится летать, поэтому, чтобы навестить брата, она едет поездом из Бостона в Чикаго.",
-            "Боюсь, что он завёлся, и теперь его не остановишь.",
-            "Он замолчал, испугавшись, что наговорит лишнего.",
-            "Она боится плавать там, где глубоко /заплывать на глубину/.",
-            "Я боюсь, это повлечёт за собой неприятности!",
-            "К сожалению, Люк несколько простоват.",
-            "Кажется, я сожгла пиццу.",
-            "Никогда в жизни он не был так испуган.",
-            "Джина закрыла глаза — ей было страшно смотреть.",
-            "Я очень боялся, что мы так и не доберёмся домой.",
-            "К сожалению, притворство мне не по вкусу.",
-            "Боюсь, судья будет настроен против тебя."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными",
-            "Инфинитив_с_to_после_прил((am,_is,_are_и_т._д.)_+_прилагательное_+_инфинитив)",
-            "Инфинитив"
-        ]
-    }
+  "afraid": {
+    "comment": [
+      "aid",
+      "paid"
+    ],
+    "translate": "боящийся, испуганный, напуганный",
+    "transcription": " |əˈfreɪd|",
+    "antonyms": [],
+    "mnemonic": [
+      "afraid [эфре'йд] бояться - Вся Европа боялась (эфрейд-ора*) одного (‘Ефрейтора).",
+      "afraid [ə'freɪd]\n***\nНе БОЯЛСЯ ничего психолог Фрейд. (это) afraid\nТы не БОЙСЯ - рядом Фрейд. (это) afraid\nИСПУГАННЫЙ Фрейд. (это) afraid\n***\nОн боится \"afraid\"\nоблавы \"raid\",\nмы окажем ему помощь \"aid\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными",
+      "Инфинитив_с_to_после_прил((am,_is,_are_и_т._д.)_+_прилагательное_+_инфинитив)",
+      "Инфинитив"
+    ],
+    "examples": [
+      {
+        "eng": "Who is afraid?",
+        "ru": "кто испугался? кто боится?",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid you're wrong.",
+        "ru": "Боюсь, вы ошибаетесь.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't be afraid to ask for help.",
+        "ru": "Не бойтесь просить о помощи.",
+        "learn": 0
+      },
+      {
+        "eng": "There's no need to be afraid.",
+        "ru": "Бояться не нужно.",
+        "learn": 0
+      },
+      {
+        "eng": "I am afraid to wake him.",
+        "ru": "Я не решаюсь его будить.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you afraid of him, or what?",
+        "ru": "Ты что, боишься его, что ли?",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid I didn't catch your name.",
+        "ru": "К сожалению, я не разобрал вашего имени. / Простите, я не расслышал, как вас зовут.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid I can't answer that question.",
+        "ru": "К сожалению, я не могу ответить на этот вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "I ran because I was afraid.",
+        "ru": "Я побежал, потому что был испуган.",
+        "learn": 0
+      },
+      {
+        "eng": "Her dog is afraid of thunder.",
+        "ru": "Её собака боится грома.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid I've scratched your car.",
+        "ru": "Боюсь, я поцарапал твой автомобиль.",
+        "learn": 1
+      },
+      {
+        "eng": "'Did you see him?' ' I'm afraid not (=no).'",
+        "ru": "— Вы его видели? — Боюсь, что нет. / К сожалению, нет.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid I wasn't invited.",
+        "ru": "Я боюсь, что я не была приглашена. / К сожалению, меня не пригласили.",
+        "learn": 0
+      },
+      {
+        "eng": "She's not afraid to run a risk.",
+        "ru": "Она не боится идти на риск.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid I've overdone the vegetables.",
+        "ru": "Кажется, я переварил овощи.",
+        "learn": 0
+      },
+      {
+        "eng": "'Is she very ill?' ' I'm afraid so (=yes).'",
+        "ru": "— Она очень больна? — Боюсь, что так (т.е. да).",
+        "learn": 0
+      },
+      {
+        "eng": "She was afraid that I might be embarrassed.",
+        "ru": "Она боялась, что мне будет неловко.",
+        "learn": 1
+      },
+      {
+        "eng": "He was afraid they would burrow into his past.",
+        "ru": "Он боялся, что они будут копаться в его прошлом.",
+        "learn": 0
+      },
+      {
+        "eng": "Melissa is afraid of flying, so she takes a train from Boston to visit her brother in Chicago.",
+        "ru": "Мелисса боится летать, поэтому, чтобы навестить брата, она едет поездом из Бостона в Чикаго.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid he's wound up.",
+        "ru": "Боюсь, что он завёлся, и теперь его не остановишь.",
+        "learn": 0
+      },
+      {
+        "eng": "He paused, afraid lest he say too much.",
+        "ru": "Он замолчал, испугавшись, что наговорит лишнего.",
+        "learn": 0
+      },
+      {
+        "eng": "She's afraid of swimming in deep water.",
+        "ru": "Она боится плавать там, где глубоко /заплывать на глубину/.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid this spells trouble!",
+        "ru": "Я боюсь, это повлечёт за собой неприятности!",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid Luke's a bit simple.",
+        "ru": "К сожалению, Люк несколько простоват.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid I've burnt the pizza.",
+        "ru": "Кажется, я сожгла пиццу.",
+        "learn": 1
+      },
+      {
+        "eng": "He was never so afraid in his days.",
+        "ru": "Никогда в жизни он не был так испуган.",
+        "learn": 0
+      },
+      {
+        "eng": "Gina covered her eyes, afraid to look.",
+        "ru": "Джина закрыла глаза — ей было страшно смотреть.",
+        "learn": 0
+      },
+      {
+        "eng": "I was sore afraid we'd never make it home.",
+        "ru": "Я очень боялся, что мы так и не доберёмся домой.",
+        "learn": 0
+      },
+      {
+        "eng": "Acting's not really in my line, I'm afraid.",
+        "ru": "К сожалению, притворство мне не по вкусу.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm afraid that the judge might rule against you.",
+        "ru": "Боюсь, судья будет настроен против тебя.",
+        "learn": 0
+      }
+    ]
+  }
 }

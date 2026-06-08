@@ -1,84 +1,170 @@
 {
-    "personal": {
-        "comment": [
-            "personality",
-            "person",
-            "personally",
-            "personnel",
-            "impersonal"
-        ],
-        "translate": "личный, персональный, субъективный, светская хроника в газете",
-        "transcription": " |ˈpɜːrsənl|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He quit for personal reasons.",
-            "She hired a personal trainer.",
-            "Don't pry into my personal matters!",
-            "I know that from personal experience.",
-            "He is a personal friend of mine.",
-            "There's no need to get personal!",
-            "We don't accept personal checks.",
-            "This is just my personal opinion.",
-            "May I ask you a personal question?",
-            "She resigned for personal reasons.",
-            "The car is for personal use only.",
-            "My personal trainer works me hard.",
-            "He has very poor personal hygiene.",
-            "Stop butting in on my personal life.",
-            "Her personal wealth is estimated to be around $10 billion.",
-            "These are just my own personal opinions.",
-            "I want to see the director on a personal matter.",
-            "The envelope was marked 'Personal and Confidential'.",
-            "Can I ask you a personal question?",
-            "Golf is a personal interest of mine.",
-            "My personal life had hit rock bottom.",
-            "I ran 20.51 seconds for a personal best.",
-            "an unfailing judge of personal character",
-            "She ended her speech on a personal note.",
-            "She added a personal note to her letter.",
-            "Personal safety is of primary importance.",
-            "careless and untidy in her personal habits",
-            "Have you priced personal computers lately?",
-            "She's taking a course on personal finance.",
-            "He has a few personal matters to deal with."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он уволился по личным причинам.",
-            "Она наняла личного тренера.",
-            "Не суй нос в мои личные дела!",
-            "Я это знаю из личного опыта /по себе/.",
-            "Он мой личный друг.",
-            "Не нужно переходить на личности!",
-            "Мы не принимаем к оплате именные чеки.",
-            "Это всего лишь моё личное мнение.",
-            "Можно задать вам личный вопрос?",
-            "Она подала в отставку по личным причинам.",
-            "Этот автомобиль — только для личного пользования.",
-            "Мой личный тренер даёт мне большие нагрузки.",
-            "Он очень плохо соблюдает личную гигиену.",
-            "Прекрати вмешиваться в мою личную жизнь.",
-            "Её личное состояние оценивается приблизительно в десять миллиардов долларов.",
-            "Это только моё личное мнение.",
-            "Я хочу поговорить с директором по личному вопросу.",
-            "На конверте стояла пометка \"Конфиденциально\" /\"Лично в руки\"/.",
-            "Можно я задам вам личный вопрос?",
-            "Гольф является моим личным интересом.",
-            "Моя личная жизнь дошла до ручки.",
-            "Мой личный рекорд бега — 20,51 секунд.",
-            "безошибочно разбирающийся в людях",
-            "Она завершила своё выступление на задушевной ноте.",
-            "Она добавила к своему письму личную приписку.",
-            "Личная безопасность имеет первостепенное значение.",
-            "беспечная и неряшливая по личным человеческим качествам",
-            "Ты в последнее время не узнавал цену на персональные компьютеры?",
-            "Она ходит на курсы по управлению личными средствами.",
-            "У него есть несколько личных дел, с которыми надо разобраться."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "personal": {
+    "comment": [
+      "personality",
+      "person",
+      "personally",
+      "personnel",
+      "impersonal"
+    ],
+    "translate": "личный, персональный, субъективный, светская хроника в газете",
+    "transcription": " |ˈpɜːrsənl|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He quit for personal reasons.",
+        "ru": "Он уволился по личным причинам.",
+        "learn": 0
+      },
+      {
+        "eng": "She hired a personal trainer.",
+        "ru": "Она наняла личного тренера.",
+        "learn": 1
+      },
+      {
+        "eng": "Don't pry into my personal matters!",
+        "ru": "Не суй нос в мои личные дела!",
+        "learn": 0
+      },
+      {
+        "eng": "I know that from personal experience.",
+        "ru": "Я это знаю из личного опыта /по себе/.",
+        "learn": 1
+      },
+      {
+        "eng": "He is a personal friend of mine.",
+        "ru": "Он мой личный друг.",
+        "learn": 0
+      },
+      {
+        "eng": "There's no need to get personal!",
+        "ru": "Не нужно переходить на личности!",
+        "learn": 0
+      },
+      {
+        "eng": "We don't accept personal checks.",
+        "ru": "Мы не принимаем к оплате именные чеки.",
+        "learn": 0
+      },
+      {
+        "eng": "This is just my personal opinion.",
+        "ru": "Это всего лишь моё личное мнение.",
+        "learn": 0
+      },
+      {
+        "eng": "May I ask you a personal question?",
+        "ru": "Можно задать вам личный вопрос?",
+        "learn": 0
+      },
+      {
+        "eng": "She resigned for personal reasons.",
+        "ru": "Она подала в отставку по личным причинам.",
+        "learn": 0
+      },
+      {
+        "eng": "The car is for personal use only.",
+        "ru": "Этот автомобиль — только для личного пользования.",
+        "learn": 0
+      },
+      {
+        "eng": "My personal trainer works me hard.",
+        "ru": "Мой личный тренер даёт мне большие нагрузки.",
+        "learn": 0
+      },
+      {
+        "eng": "He has very poor personal hygiene.",
+        "ru": "Он очень плохо соблюдает личную гигиену.",
+        "learn": 0
+      },
+      {
+        "eng": "Stop butting in on my personal life.",
+        "ru": "Прекрати вмешиваться в мою личную жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "Her personal wealth is estimated to be around $10 billion.",
+        "ru": "Её личное состояние оценивается приблизительно в десять миллиардов долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "These are just my own personal opinions.",
+        "ru": "Это только моё личное мнение.",
+        "learn": 0
+      },
+      {
+        "eng": "I want to see the director on a personal matter.",
+        "ru": "Я хочу поговорить с директором по личному вопросу.",
+        "learn": 0
+      },
+      {
+        "eng": "The envelope was marked 'Personal and Confidential'.",
+        "ru": "На конверте стояла пометка \"Конфиденциально\" /\"Лично в руки\"/.",
+        "learn": 0
+      },
+      {
+        "eng": "Can I ask you a personal question?",
+        "ru": "Можно я задам вам личный вопрос?",
+        "learn": 0
+      },
+      {
+        "eng": "Golf is a personal interest of mine.",
+        "ru": "Гольф является моим личным интересом.",
+        "learn": 0
+      },
+      {
+        "eng": "My personal life had hit rock bottom.",
+        "ru": "Моя личная жизнь дошла до ручки.",
+        "learn": 0
+      },
+      {
+        "eng": "I ran 20.51 seconds for a personal best.",
+        "ru": "Мой личный рекорд бега — 20,51 секунд.",
+        "learn": 0
+      },
+      {
+        "eng": "an unfailing judge of personal character",
+        "ru": "безошибочно разбирающийся в людях",
+        "learn": 0
+      },
+      {
+        "eng": "She ended her speech on a personal note.",
+        "ru": "Она завершила своё выступление на задушевной ноте.",
+        "learn": 0
+      },
+      {
+        "eng": "She added a personal note to her letter.",
+        "ru": "Она добавила к своему письму личную приписку.",
+        "learn": 0
+      },
+      {
+        "eng": "Personal safety is of primary importance.",
+        "ru": "Личная безопасность имеет первостепенное значение.",
+        "learn": 0
+      },
+      {
+        "eng": "careless and untidy in her personal habits",
+        "ru": "беспечная и неряшливая по личным человеческим качествам",
+        "learn": 0
+      },
+      {
+        "eng": "Have you priced personal computers lately?",
+        "ru": "Ты в последнее время не узнавал цену на персональные компьютеры?",
+        "learn": 0
+      },
+      {
+        "eng": "She's taking a course on personal finance.",
+        "ru": "Она ходит на курсы по управлению личными средствами.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a few personal matters to deal with.",
+        "ru": "У него есть несколько личных дел, с которыми надо разобраться.",
+        "learn": 1
+      }
+    ]
+  }
 }

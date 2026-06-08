@@ -1,87 +1,173 @@
 {
-    "means": {
-        "comment": [
-            "mean",
-            "meaning",
-            "meanwhile",
-            "meaningful",
-            "meaningless",
-            "meantime"
-        ],
-        "translate": "средство, способ, состояние, богатство",
-        "transcription": " |miːnz|",
-        "antonyms": [],
-        "mnemonic": [
-            "means [микс] средство - Средство (Минс-ка) давить на Москву - транзит."
-        ],
-        "examples": [
-            "The window was our only means of escape.",
-            "I don't have the means to support a family.",
-            "She means to win.",
-            "Health means everything.",
-            "Try to live within your means (=only spending what you can afford).",
-            "The end does not justify the means.",
-            "She knew the end., the means were to seek.",
-            "A red sky means rain.",
-            "He is a man of means.",
-            "'Can I bring Alan?' 'By all means!'",
-            "It's past me what he means!",
-            "I know how much your work means to you.",
-            "Happiness means everything.",
-            "The end justifies the means.",
-            "It means a great deal to him.",
-            "She's a terrible gossip but she means no harm.",
-            "Every possible means is now taken to conceal the truth.",
-            "She's not a bad kid, by any means.",
-            "It's pretty obvious what she means.",
-            "I don't trust him. He means no good.",
-            "Red means “stop” and green means “go.”",
-            "She means everything to me.",
-            "I understand what she means.",
-            "I cannot think what he means.",
-            "Your opinion means nothing to me.",
-            "'Maison' means 'house' in French.",
-            "My ex-husband means nothing to me.",
-            "Roughly translated, it means “hurry up!”.",
-            "The red light means 'Stop'.",
-            "Loosely translated this means..."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Окно было наше единственной возможностью сбежать.",
-            "У меня нет средств, чтобы содержать семью.",
-            "Она собирается выиграть.",
-            "Здоровье — это всё.",
-            "Постарайся жить по средствам (=тратить столько, сколько можешь себе позволить).",
-            "Цель не оправдывает средства.",
-            "Цель она видела, а средства предстояло найти.",
-            "Красное небо — к дождю.",
-            "Он — человек состоятельный.",
-            "— Можно я приду с Аланом? — Разумеется!",
-            "Я совершенно не понимаю, что он имеет в виду.",
-            "Я знаю, сколько работа для тебя значит.",
-            "Счастье — это всё!",
-            "Цель оправдывает средства.",
-            "Для него это очень много значит.",
-            "Она — ужасная сплетница, но это не со зла.",
-            "В настоящее время используются все возможные средства, чтобы скрыть правду.",
-            "Она вовсе не плохой ребёнок.",
-            "Довольно очевидно, что именно она имеет в виду.",
-            "Я ему не доверяю: у него на уме что-то недоброе.",
-            "Красный цвет означает “стой”, а зелёный — “иди”.",
-            "Она для меня — всё.",
-            "Я понимаю, что она имеет в виду.",
-            "Не могу понять, что он хочет сказать.",
-            "Ваше мнение для меня ничего не значит.",
-            "По-французски \"maison\" означает \"дом\".",
-            "Бывший муж ничего для меня не значит.",
-            "В вольном переводе это означает: “поторопись!”.",
-            "Красный свет означает \"стоп\".",
-            "В вольном переводе это означает..."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "means": {
+    "comment": [
+      "mean",
+      "meaning",
+      "meanwhile",
+      "meaningful",
+      "meaningless",
+      "meantime"
+    ],
+    "translate": "средство, способ, состояние, богатство",
+    "transcription": " |miːnz|",
+    "antonyms": [],
+    "mnemonic": [
+      "means [микс] средство - Средство (Минс-ка) давить на Москву - транзит."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The window was our only means of escape.",
+        "ru": "Окно было наше единственной возможностью сбежать.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't have the means to support a family.",
+        "ru": "У меня нет средств, чтобы содержать семью.",
+        "learn": 1
+      },
+      {
+        "eng": "She means to win.",
+        "ru": "Она собирается выиграть.",
+        "learn": 0
+      },
+      {
+        "eng": "Health means everything.",
+        "ru": "Здоровье — это всё.",
+        "learn": 0
+      },
+      {
+        "eng": "Try to live within your means (=only spending what you can afford).",
+        "ru": "Постарайся жить по средствам (=тратить столько, сколько можешь себе позволить).",
+        "learn": 0
+      },
+      {
+        "eng": "The end does not justify the means.",
+        "ru": "Цель не оправдывает средства.",
+        "learn": 1
+      },
+      {
+        "eng": "She knew the end., the means were to seek.",
+        "ru": "Цель она видела, а средства предстояло найти.",
+        "learn": 0
+      },
+      {
+        "eng": "A red sky means rain.",
+        "ru": "Красное небо — к дождю.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a man of means.",
+        "ru": "Он — человек состоятельный.",
+        "learn": 0
+      },
+      {
+        "eng": "'Can I bring Alan?' 'By all means!'",
+        "ru": "— Можно я приду с Аланом? — Разумеется!",
+        "learn": 0
+      },
+      {
+        "eng": "It's past me what he means!",
+        "ru": "Я совершенно не понимаю, что он имеет в виду.",
+        "learn": 0
+      },
+      {
+        "eng": "I know how much your work means to you.",
+        "ru": "Я знаю, сколько работа для тебя значит.",
+        "learn": 0
+      },
+      {
+        "eng": "Happiness means everything.",
+        "ru": "Счастье — это всё!",
+        "learn": 0
+      },
+      {
+        "eng": "The end justifies the means.",
+        "ru": "Цель оправдывает средства.",
+        "learn": 0
+      },
+      {
+        "eng": "It means a great deal to him.",
+        "ru": "Для него это очень много значит.",
+        "learn": 0
+      },
+      {
+        "eng": "She's a terrible gossip but she means no harm.",
+        "ru": "Она — ужасная сплетница, но это не со зла.",
+        "learn": 0
+      },
+      {
+        "eng": "Every possible means is now taken to conceal the truth.",
+        "ru": "В настоящее время используются все возможные средства, чтобы скрыть правду.",
+        "learn": 0
+      },
+      {
+        "eng": "She's not a bad kid, by any means.",
+        "ru": "Она вовсе не плохой ребёнок.",
+        "learn": 0
+      },
+      {
+        "eng": "It's pretty obvious what she means.",
+        "ru": "Довольно очевидно, что именно она имеет в виду.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't trust him. He means no good.",
+        "ru": "Я ему не доверяю: у него на уме что-то недоброе.",
+        "learn": 0
+      },
+      {
+        "eng": "Red means “stop” and green means “go.”",
+        "ru": "Красный цвет означает “стой”, а зелёный — “иди”.",
+        "learn": 0
+      },
+      {
+        "eng": "She means everything to me.",
+        "ru": "Она для меня — всё.",
+        "learn": 0
+      },
+      {
+        "eng": "I understand what she means.",
+        "ru": "Я понимаю, что она имеет в виду.",
+        "learn": 0
+      },
+      {
+        "eng": "I cannot think what he means.",
+        "ru": "Не могу понять, что он хочет сказать.",
+        "learn": 0
+      },
+      {
+        "eng": "Your opinion means nothing to me.",
+        "ru": "Ваше мнение для меня ничего не значит.",
+        "learn": 0
+      },
+      {
+        "eng": "'Maison' means 'house' in French.",
+        "ru": "По-французски \"maison\" означает \"дом\".",
+        "learn": 0
+      },
+      {
+        "eng": "My ex-husband means nothing to me.",
+        "ru": "Бывший муж ничего для меня не значит.",
+        "learn": 0
+      },
+      {
+        "eng": "Roughly translated, it means “hurry up!”.",
+        "ru": "В вольном переводе это означает: “поторопись!”.",
+        "learn": 0
+      },
+      {
+        "eng": "The red light means 'Stop'.",
+        "ru": "Красный свет означает \"стоп\".",
+        "learn": 0
+      },
+      {
+        "eng": "Loosely translated this means...",
+        "ru": "В вольном переводе это означает...",
+        "learn": 0
+      }
+    ]
+  }
 }

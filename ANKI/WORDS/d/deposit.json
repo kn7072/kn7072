@@ -1,83 +1,169 @@
 {
-    "deposit": {
-        "comment": [
-            "preposition",
-            "positive",
-            "position",
-            "positively"
-        ],
-        "translate": "депозит, задаток, месторождение, вклад, депонировать, осаждать, осаждаться",
-        "transcription": " |dɪˈpɑːzɪt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Consumer has paid a deposit for goods to be delivered in the future.",
-            "The deposit is forfeited / not refundable.",
-            "The female deposits her eggs directly into the water.",
-            "The deposit currently earns £710 per annum.",
-            "When no more silver deposits on the copper, the operation is completed.",
-            "A myth may be deposited from a misunderstood text.",
-            "The landlord retained the security deposit.",
-            "The loan is given against security of the fixed deposit.",
-            "As more mud was deposited on top, the downward pressure increased.",
-            "You only pay £10 deposit and no interest: that can't be bad, can it?",
-            "I'd like to make a deposit (=pay some money) into my savings account.",
-            "We put down a deposit on a house.",
-            "a deposit of mud left by the flood",
-            "She deposits her paycheck every month.",
-            "Make an entry of your deposit in your bankbook.",
-            "You deposit money in a bank account but the actual money is not held there.",
-            "He had surgery to remove calcium deposits from his knee.",
-            "Fred had taken the wise step of depositing the eighty pounds with his mother.",
-            "Please deposit your things in your room and return to the hotel lobby.",
-            "If you return that empty soda can, you'll get back the five-cent deposit you paid when you bought the soda.",
-            "Federal Deposit Insurance Corporation",
-            "The booking will be made on receipt of a deposit.",
-            "As the river slows down, it deposits a layer of soil.",
-            "You must endorse the check before you deposit it in the bank.",
-            "We ask for one month's rent in advance, plus a deposit of $500.",
-            "A Certificate of Deposit remains one of the safest investments.",
-            "Pacific salmon return to Alaskan streams to deposit their spawn.",
-            "Your paycheck will be automatically deposited into your account.",
-            "A landlord may retain part of your deposit if you break the lease.",
-            "Our records show that she made a large deposit to her account earlier in the month."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Покупатель внес залог за товары, которые ему доставят позднее.",
-            "Задаток не возвращается.",
-            "Самка откладывает свои яйца прямо в воду.",
-            "Вклад в банке приносит в настоящее время 710 фунтов в год.",
-            "Когда на меди перестаёт отлагаться серебро, процесс закончен.",
-            "Неправильно понятый текст может породить миф.",
-            "Хозяин оставил денежный залог себе.",
-            "Заем предоставлен под обеспечение срочным депозитом.",
-            "По мере формирования на поверхности новых слоев ила, давление на нижние слои увеличивалось.",
-            "Вы платите только десять фунтов задатка и никаких процентов. Неплохо, правда?",
-            "Я хотел бы внести депозит (т.е. заплатить кое-какие деньги) на мой сберегательный счёт.",
-            "Мы внесли задаток за дом.",
-            "грязный осадок, оставленный наводнением",
-            "Она каждый месяц кладёт на счёт свою зарплату.",
-            "Сделайте запись о вкладе в вашей сберегательной книжке.",
-            "Вы вносите деньги в банк, но деньги, как таковые, там не хранятся.",
-            "Он перенес операцию на колене по удалению кальциевых отложений.",
-            "Фред сделал правильный шаг, отдав восемьдесят фунтов на хранение своей матери.",
-            "Оставьте, пожалуйста, вещи в своём номере и вернитесь в фойе гостиницы.",
-            "Если вернуть эту пустую банку, вы получите назад те пять центов залога, что вы заплатили, когда покупали в ней газировку.",
-            "Федеральная корпорация по страхованию депозитов, ФКСД",
-            "Бронирование будет осуществлено при получении депозита.",
-            "Когда река замедляет своё течение, производится осаждение слоя почвы.",
-            "Вы должны поставить свою подпись на этом чеке, прежде чем положить его на банковский счёт.",
-            "Мы просим внести заранее месячную величину арендной платы, плюс залог в размере 500 долларов.",
-            "Депозитный сертификат по-прежнему остаётся одним из самых надёжных видов вложений.",
-            "На нерест тихоокеанский лосось возвращается в реки Аляски.",
-            "Зарплата будет автоматически зачислена на ваш счёт.",
-            "Арендодатель может удержать часть вашего задатка, если вы расторгнете договор аренды раньше срока.",
-            "Наши записи показывают, что в начале месяца она сделала большой депозит на свой счёт."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "deposit": {
+    "comment": [
+      "preposition",
+      "positive",
+      "position",
+      "positively"
+    ],
+    "translate": "депозит, задаток, месторождение, вклад, депонировать, осаждать, осаждаться",
+    "transcription": " |dɪˈpɑːzɪt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Consumer has paid a deposit for goods to be delivered in the future.",
+        "ru": "Покупатель внес залог за товары, которые ему доставят позднее.",
+        "learn": 0
+      },
+      {
+        "eng": "The deposit is forfeited / not refundable.",
+        "ru": "Задаток не возвращается.",
+        "learn": 0
+      },
+      {
+        "eng": "The female deposits her eggs directly into the water.",
+        "ru": "Самка откладывает свои яйца прямо в воду.",
+        "learn": 0
+      },
+      {
+        "eng": "The deposit currently earns £710 per annum.",
+        "ru": "Вклад в банке приносит в настоящее время 710 фунтов в год.",
+        "learn": 0
+      },
+      {
+        "eng": "When no more silver deposits on the copper, the operation is completed.",
+        "ru": "Когда на меди перестаёт отлагаться серебро, процесс закончен.",
+        "learn": 0
+      },
+      {
+        "eng": "A myth may be deposited from a misunderstood text.",
+        "ru": "Неправильно понятый текст может породить миф.",
+        "learn": 0
+      },
+      {
+        "eng": "The landlord retained the security deposit.",
+        "ru": "Хозяин оставил денежный залог себе.",
+        "learn": 0
+      },
+      {
+        "eng": "The loan is given against security of the fixed deposit.",
+        "ru": "Заем предоставлен под обеспечение срочным депозитом.",
+        "learn": 0
+      },
+      {
+        "eng": "As more mud was deposited on top, the downward pressure increased.",
+        "ru": "По мере формирования на поверхности новых слоев ила, давление на нижние слои увеличивалось.",
+        "learn": 0
+      },
+      {
+        "eng": "You only pay £10 deposit and no interest: that can't be bad, can it?",
+        "ru": "Вы платите только десять фунтов задатка и никаких процентов. Неплохо, правда?",
+        "learn": 0
+      },
+      {
+        "eng": "I'd like to make a deposit (=pay some money) into my savings account.",
+        "ru": "Я хотел бы внести депозит (т.е. заплатить кое-какие деньги) на мой сберегательный счёт.",
+        "learn": 0
+      },
+      {
+        "eng": "We put down a deposit on a house.",
+        "ru": "Мы внесли задаток за дом.",
+        "learn": 0
+      },
+      {
+        "eng": "a deposit of mud left by the flood",
+        "ru": "грязный осадок, оставленный наводнением",
+        "learn": 0
+      },
+      {
+        "eng": "She deposits her paycheck every month.",
+        "ru": "Она каждый месяц кладёт на счёт свою зарплату.",
+        "learn": 0
+      },
+      {
+        "eng": "Make an entry of your deposit in your bankbook.",
+        "ru": "Сделайте запись о вкладе в вашей сберегательной книжке.",
+        "learn": 0
+      },
+      {
+        "eng": "You deposit money in a bank account but the actual money is not held there.",
+        "ru": "Вы вносите деньги в банк, но деньги, как таковые, там не хранятся.",
+        "learn": 0
+      },
+      {
+        "eng": "He had surgery to remove calcium deposits from his knee.",
+        "ru": "Он перенес операцию на колене по удалению кальциевых отложений.",
+        "learn": 0
+      },
+      {
+        "eng": "Fred had taken the wise step of depositing the eighty pounds with his mother.",
+        "ru": "Фред сделал правильный шаг, отдав восемьдесят фунтов на хранение своей матери.",
+        "learn": 0
+      },
+      {
+        "eng": "Please deposit your things in your room and return to the hotel lobby.",
+        "ru": "Оставьте, пожалуйста, вещи в своём номере и вернитесь в фойе гостиницы.",
+        "learn": 0
+      },
+      {
+        "eng": "If you return that empty soda can, you'll get back the five-cent deposit you paid when you bought the soda.",
+        "ru": "Если вернуть эту пустую банку, вы получите назад те пять центов залога, что вы заплатили, когда покупали в ней газировку.",
+        "learn": 0
+      },
+      {
+        "eng": "Federal Deposit Insurance Corporation",
+        "ru": "Федеральная корпорация по страхованию депозитов, ФКСД",
+        "learn": 0
+      },
+      {
+        "eng": "The booking will be made on receipt of a deposit.",
+        "ru": "Бронирование будет осуществлено при получении депозита.",
+        "learn": 0
+      },
+      {
+        "eng": "As the river slows down, it deposits a layer of soil.",
+        "ru": "Когда река замедляет своё течение, производится осаждение слоя почвы.",
+        "learn": 0
+      },
+      {
+        "eng": "You must endorse the check before you deposit it in the bank.",
+        "ru": "Вы должны поставить свою подпись на этом чеке, прежде чем положить его на банковский счёт.",
+        "learn": 1
+      },
+      {
+        "eng": "We ask for one month's rent in advance, plus a deposit of $500.",
+        "ru": "Мы просим внести заранее месячную величину арендной платы, плюс залог в размере 500 долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "A Certificate of Deposit remains one of the safest investments.",
+        "ru": "Депозитный сертификат по-прежнему остаётся одним из самых надёжных видов вложений.",
+        "learn": 1
+      },
+      {
+        "eng": "Pacific salmon return to Alaskan streams to deposit their spawn.",
+        "ru": "На нерест тихоокеанский лосось возвращается в реки Аляски.",
+        "learn": 0
+      },
+      {
+        "eng": "Your paycheck will be automatically deposited into your account.",
+        "ru": "Зарплата будет автоматически зачислена на ваш счёт.",
+        "learn": 0
+      },
+      {
+        "eng": "A landlord may retain part of your deposit if you break the lease.",
+        "ru": "Арендодатель может удержать часть вашего задатка, если вы расторгнете договор аренды раньше срока.",
+        "learn": 1
+      },
+      {
+        "eng": "Our records show that she made a large deposit to her account earlier in the month.",
+        "ru": "Наши записи показывают, что в начале месяца она сделала большой депозит на свой счёт.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,77 +1,166 @@
 {
-    "describe to": {
-        "comment": [],
-        "translate": "",
-        "transcription": "||",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Please describe what happened next.",
-            "She described him in glowing terms.",
-            "Can you describe the lost dog to me?",
-            "Can you describe your work to the class?",
-            "Please briefly describe your experience.",
-            "She described the color as a kind of red.",
-            "He described the house in perfect detail.",
-            "They described the house as very livable.",
-            "Describe the experience in your own words.",
-            "Describe it in ordinary everyday language.",
-            "They described the war zone as sheer hell.",
-            "It's not PC to describe people as disabled.",
-            "The book describes life in Colonial America.",
-            "He described the scene in meticulous detail.",
-            "The crime scene was too horrible to describe.",
-            "I would describe him as an excellent teacher.",
-            "The book describes the empire's rise and fall.",
-            "The book describes his entrance into politics.",
-            "My boss could hardly be described as handsome.",
-            "We salivated when he described the great meal.",
-            "The witness wasn't able to describe the robber.",
-            "The event was described in encyclopedic detail.",
-            "He certainly could not be described as a luvvy.",
-            "This can best be described as a series of steps.",
-            "I tried to describe his appearance to the police",
-            "Sometimes he is described as having pointy ears.",
-            "The book describes his seductions of young women.",
-            "He described his mental picture of his assailant.",
-            "The article describes how the experiment was done.",
-            "The harbour is described with pointed correctness."
-        ],
-        "example_translate": [
-            "Пожалуйста, опишите, что произошло дальше.",
-            "Она описала его в восторженных тонах.",
-            "Вы можете описать мне пропавшую собаку?",
-            "Вы не могли бы описать классу свою работу?",
-            "Пожалуйста, кратко опишите ваш опыт работы.",
-            "Она назвала этот цвет \"каким-то красноватым\".",
-            "Он в мельчайших подробностях описал этот дом.",
-            "Они назвали этот дом \"вполне пригодным для жизни\".",
-            "Опишите происшедшее /пережитое/ своими словами.",
-            "Опишите это простым повседневным языком.",
-            "Они описали зону боевых действий как кромешный ад.",
-            "Называть людей инвалидами неполиткорректно.",
-            "Книга описывает жизнь в колониальной Америке.",
-            "Он описал эпизод / происшествие в мельчайших подробностях",
-            "Место преступления было неописуемо ужасным.",
-            "Я бы охарактеризовал его как прекрасного преподавателя.",
-            "В книге рассказывается о взлёте и падении этой империи.",
-            "Книга описывает начало его политической карьеры.",
-            "Моего начальника едва ли можно назвать красивым.",
-            "У нас слюнки потекли, когда он описал эту великолепную трапезу.",
-            "Свидетель не смог описать грабителя.",
-            "Данное событие было описано во всех возможных подробностях.",
-            "Его, конечно, нельзя было назвать любимчиком.",
-            "Лучше всего это можно описать как ряд шагов.",
-            "Я попытался описать полициейским его внешность.",
-            "Иногда его описывают как обладателя заостренных ушей.",
-            "Книга описывает его победы над молодыми женщинами.",
-            "Он описал свой мысленный образ нападавшего.",
-            "В статье описывается, как проходил этот эксперимент.",
-            "Гавань описана с исключительной точностью."
-        ],
-        "synonyms": [],
-        "groups": [
-            "all_words", "verb_with_preposition"
-        ]
-    }
+  "describe to": {
+    "comment": [],
+    "translate": "описывать кому-л.",
+    "transcription": "",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "groups": [
+      "verb_with_preposition"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "Please describe what happened next.",
+        "ru": "Пожалуйста, опишите, что произошло дальше.",
+        "learn": 0
+      },
+      {
+        "eng": "She described him in glowing terms.",
+        "ru": "Она описала его в восторженных тонах.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you describe the lost dog to me?",
+        "ru": "Вы можете описать мне пропавшую собаку?",
+        "learn": 0
+      },
+      {
+        "eng": "Can you describe your work to the class?",
+        "ru": "Вы не могли бы описать классу свою работу?",
+        "learn": 0
+      },
+      {
+        "eng": "Please briefly describe your experience.",
+        "ru": "Пожалуйста, кратко опишите ваш опыт работы.",
+        "learn": 1
+      },
+      {
+        "eng": "She described the color as a kind of red.",
+        "ru": "Она назвала этот цвет \"каким-то красноватым\".",
+        "learn": 0
+      },
+      {
+        "eng": "He described the house in perfect detail.",
+        "ru": "Он в мельчайших подробностях описал этот дом.",
+        "learn": 1
+      },
+      {
+        "eng": "They described the house as very livable.",
+        "ru": "Они назвали этот дом \"вполне пригодным для жизни\".",
+        "learn": 0
+      },
+      {
+        "eng": "Describe the experience in your own words.",
+        "ru": "Опишите происшедшее /пережитое/ своими словами.",
+        "learn": 0
+      },
+      {
+        "eng": "Describe it in ordinary everyday language.",
+        "ru": "Опишите это простым повседневным языком.",
+        "learn": 1
+      },
+      {
+        "eng": "They described the war zone as sheer hell.",
+        "ru": "Они описали зону боевых действий как кромешный ад.",
+        "learn": 0
+      },
+      {
+        "eng": "It's not PC to describe people as disabled.",
+        "ru": "Называть людей инвалидами неполиткорректно.",
+        "learn": 0
+      },
+      {
+        "eng": "The book describes life in Colonial America.",
+        "ru": "Книга описывает жизнь в колониальной Америке.",
+        "learn": 0
+      },
+      {
+        "eng": "He described the scene in meticulous detail.",
+        "ru": "Он описал эпизод / происшествие в мельчайших подробностях",
+        "learn": 0
+      },
+      {
+        "eng": "The crime scene was too horrible to describe.",
+        "ru": "Место преступления было неописуемо ужасным.",
+        "learn": 0
+      },
+      {
+        "eng": "I would describe him as an excellent teacher.",
+        "ru": "Я бы охарактеризовал его как прекрасного преподавателя.",
+        "learn": 0
+      },
+      {
+        "eng": "The book describes the empire's rise and fall.",
+        "ru": "В книге рассказывается о взлёте и падении этой империи.",
+        "learn": 1
+      },
+      {
+        "eng": "The book describes his entrance into politics.",
+        "ru": "Книга описывает начало его политической карьеры.",
+        "learn": 0
+      },
+      {
+        "eng": "My boss could hardly be described as handsome.",
+        "ru": "Моего начальника едва ли можно назвать красивым.",
+        "learn": 0
+      },
+      {
+        "eng": "We salivated when he described the great meal.",
+        "ru": "У нас слюнки потекли, когда он описал эту великолепную трапезу.",
+        "learn": 0
+      },
+      {
+        "eng": "The witness wasn't able to describe the robber.",
+        "ru": "Свидетель не смог описать грабителя.",
+        "learn": 1
+      },
+      {
+        "eng": "The event was described in encyclopedic detail.",
+        "ru": "Данное событие было описано во всех возможных подробностях.",
+        "learn": 0
+      },
+      {
+        "eng": "He certainly could not be described as a luvvy.",
+        "ru": "Его, конечно, нельзя было назвать любимчиком.",
+        "learn": 0
+      },
+      {
+        "eng": "This can best be described as a series of steps.",
+        "ru": "Лучше всего это можно описать как ряд шагов.",
+        "learn": 0
+      },
+      {
+        "eng": "I tried to describe his appearance to the police",
+        "ru": "Я попытался описать полициейским его внешность.",
+        "learn": 0
+      },
+      {
+        "eng": "Sometimes he is described as having pointy ears.",
+        "ru": "Иногда его описывают как обладателя заостренных ушей.",
+        "learn": 0
+      },
+      {
+        "eng": "The book describes his seductions of young women.",
+        "ru": "Книга описывает его победы над молодыми женщинами.",
+        "learn": 0
+      },
+      {
+        "eng": "He described his mental picture of his assailant.",
+        "ru": "Он описал свой мысленный образ нападавшего.",
+        "learn": 0
+      },
+      {
+        "eng": "The article describes how the experiment was done.",
+        "ru": "В статье описывается, как проходил этот эксперимент.",
+        "learn": 1
+      },
+      {
+        "eng": "The harbour is described with pointed correctness.",
+        "ru": "Гавань описана с исключительной точностью.",
+        "learn": 0
+      }
+    ]
+  }
 }

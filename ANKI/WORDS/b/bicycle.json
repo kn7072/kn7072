@@ -1,88 +1,174 @@
 {
-    "bicycle": {
-        "comment": [
-            "cycle",
-            "cycling",
-            "motorcycle",
-            "recycle",
-            "recycling",
-            "cyclist",
-            "encyclopedia"
-        ],
-        "translate": "велосипед, ездить на велосипеде",
-        "transcription": " |ˈbaɪsɪkl|",
-        "antonyms": [],
-        "mnemonic": [
-            "bicycle [ба'йсикал] велосипед - Местный (бай цикл)уроков брал на велосипеде."
-        ],
-        "examples": [
-            "He got a bicycle for his birthday.",
-            "My bicycle is on order.",
-            "The bicycle dented my car",
-            "I left my bicycle out in the rain.",
-            "He wants a bicycle for his birthday.",
-            "The bump threw him off the bicycle",
-            "the front fork of a bicycle",
-            "The bicycle chain needs oiling.",
-            "He got a new bicycle for his birthday.",
-            "He pumped air into the bicycle tire.",
-            "The bicycle looped around the tree",
-            "She mounted her bicycle and rode away.",
-            "He rides his bicycle to work every dayю",
-            "She keeps her bicycle in good working order.",
-            "He rode his bicycle here this morning.",
-            "He leant his bicycle against the fence.",
-            "The group of bicycle racers zoomed past.",
-            "Bicycle riding exercises the leg muscles.",
-            "The boy was wobbling along on his bicycle.",
-            "He wants a bicycle so bad he can taste it.",
-            "Hoist the bicycle onto the roof of the car.",
-            "He upended the bicycle to fix its flat tire.",
-            "Always lock your bicycle to something secure.",
-            "A bicycle is relatively cheap to buy and run.",
-            "I bought an old but still serviceable bicycle.",
-            "The bicycle was crushed under the truck's tires.",
-            "The bicycle racers sprinted for the finish line.",
-            "It's never advisable to ride double on a bicycle.",
-            "He left his bicycle leaning against a tree trunk.",
-            "This old bicycle has obviously gotten some hard use."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "На день рождения ему подарили велосипед.",
-            "Мой велосипед ещё не доставили /в процессе доставки/.",
-            "Велосипед оставил вмятину на моей машине.",
-            "Я оставил свой велосипед под дождём.",
-            "Он хочет на день рождения велосипед.",
-            "От удара он упал с велосипеда.",
-            "передняя вилка велосипеда",
-            "Нужно смазать цепь велосипеда.",
-            "На день рождения ему подарили новый велосипед.",
-            "Он накачал шину велосипеда воздухом.",
-            "Велосипед сделал петлю вокруг дерева",
-            "Она села на велосипед и уехала.",
-            "Он каждый день ездит на работу на своём велосипеде.",
-            "Она содержит свой велосипед в хорошем рабочем состоянии.",
-            "Сегодня утром он тут проезжал на своём велосипеде.",
-            "Он прислонил велосипед к забору.",
-            "Группа велогонщиков прожужжала мимо.",
-            "Езда на велосипеде развивает мышцы ног.",
-            "Мальчишка ехал на велосипеде, виляя из стороны в сторону.",
-            "Он так сильно хочет велосипед, что тот ему уже снится. (буквально — \"он чувствует его вкус\")",
-            "Подними велосипед на крышу автомобиля.",
-            "Он перевернул велосипед, чтобы починить спущенную шину.",
-            "Всегда пристёгивайте велосипед к чему-то надёжному.",
-            "Велосипед сравнительно дёшев по стоимости покупки и обслуживания.",
-            "Я купил старый, но всё ещё исправный велосипед.",
-            "Велосипед был раздавлен колёсами грузовика.",
-            "Велогонщики рванулись к финишу.",
-            "Ни в коем случае не рекомендуется ездить на велосипеде вдвоём.",
-            "Он оставил велосипед, прислонив его к стволу дерева.",
-            "Очевидно, на этом старом велосипеде много ездили."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "bicycle": {
+    "comment": [
+      "cycle",
+      "cycling",
+      "motorcycle",
+      "recycle",
+      "recycling",
+      "cyclist",
+      "encyclopedia"
+    ],
+    "translate": "велосипед, ездить на велосипеде",
+    "transcription": " |ˈbaɪsɪkl|",
+    "antonyms": [],
+    "mnemonic": [
+      "bicycle [ба'йсикал] велосипед - Местный (бай цикл)уроков брал на велосипеде."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He got a bicycle for his birthday.",
+        "ru": "На день рождения ему подарили велосипед.",
+        "learn": 0
+      },
+      {
+        "eng": "My bicycle is on order.",
+        "ru": "Мой велосипед ещё не доставили /в процессе доставки/.",
+        "learn": 0
+      },
+      {
+        "eng": "The bicycle dented my car",
+        "ru": "Велосипед оставил вмятину на моей машине.",
+        "learn": 0
+      },
+      {
+        "eng": "I left my bicycle out in the rain.",
+        "ru": "Я оставил свой велосипед под дождём.",
+        "learn": 0
+      },
+      {
+        "eng": "He wants a bicycle for his birthday.",
+        "ru": "Он хочет на день рождения велосипед.",
+        "learn": 0
+      },
+      {
+        "eng": "The bump threw him off the bicycle",
+        "ru": "От удара он упал с велосипеда.",
+        "learn": 0
+      },
+      {
+        "eng": "the front fork of a bicycle",
+        "ru": "передняя вилка велосипеда",
+        "learn": 0
+      },
+      {
+        "eng": "The bicycle chain needs oiling.",
+        "ru": "Нужно смазать цепь велосипеда.",
+        "learn": 1
+      },
+      {
+        "eng": "He got a new bicycle for his birthday.",
+        "ru": "На день рождения ему подарили новый велосипед.",
+        "learn": 0
+      },
+      {
+        "eng": "He pumped air into the bicycle tire.",
+        "ru": "Он накачал шину велосипеда воздухом.",
+        "learn": 0
+      },
+      {
+        "eng": "The bicycle looped around the tree",
+        "ru": "Велосипед сделал петлю вокруг дерева",
+        "learn": 1
+      },
+      {
+        "eng": "She mounted her bicycle and rode away.",
+        "ru": "Она села на велосипед и уехала.",
+        "learn": 0
+      },
+      {
+        "eng": "He rides his bicycle to work every dayю",
+        "ru": "Он каждый день ездит на работу на своём велосипеде.",
+        "learn": 0
+      },
+      {
+        "eng": "She keeps her bicycle in good working order.",
+        "ru": "Она содержит свой велосипед в хорошем рабочем состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "He rode his bicycle here this morning.",
+        "ru": "Сегодня утром он тут проезжал на своём велосипеде.",
+        "learn": 0
+      },
+      {
+        "eng": "He leant his bicycle against the fence.",
+        "ru": "Он прислонил велосипед к забору.",
+        "learn": 1
+      },
+      {
+        "eng": "The group of bicycle racers zoomed past.",
+        "ru": "Группа велогонщиков прожужжала мимо.",
+        "learn": 0
+      },
+      {
+        "eng": "Bicycle riding exercises the leg muscles.",
+        "ru": "Езда на велосипеде развивает мышцы ног.",
+        "learn": 0
+      },
+      {
+        "eng": "The boy was wobbling along on his bicycle.",
+        "ru": "Мальчишка ехал на велосипеде, виляя из стороны в сторону.",
+        "learn": 0
+      },
+      {
+        "eng": "He wants a bicycle so bad he can taste it.",
+        "ru": "Он так сильно хочет велосипед, что тот ему уже снится. (буквально — \"он чувствует его вкус\")",
+        "learn": 0
+      },
+      {
+        "eng": "Hoist the bicycle onto the roof of the car.",
+        "ru": "Подними велосипед на крышу автомобиля.",
+        "learn": 0
+      },
+      {
+        "eng": "He upended the bicycle to fix its flat tire.",
+        "ru": "Он перевернул велосипед, чтобы починить спущенную шину.",
+        "learn": 0
+      },
+      {
+        "eng": "Always lock your bicycle to something secure.",
+        "ru": "Всегда пристёгивайте велосипед к чему-то надёжному.",
+        "learn": 1
+      },
+      {
+        "eng": "A bicycle is relatively cheap to buy and run.",
+        "ru": "Велосипед сравнительно дёшев по стоимости покупки и обслуживания.",
+        "learn": 0
+      },
+      {
+        "eng": "I bought an old but still serviceable bicycle.",
+        "ru": "Я купил старый, но всё ещё исправный велосипед.",
+        "learn": 0
+      },
+      {
+        "eng": "The bicycle was crushed under the truck's tires.",
+        "ru": "Велосипед был раздавлен колёсами грузовика.",
+        "learn": 0
+      },
+      {
+        "eng": "The bicycle racers sprinted for the finish line.",
+        "ru": "Велогонщики рванулись к финишу.",
+        "learn": 0
+      },
+      {
+        "eng": "It's never advisable to ride double on a bicycle.",
+        "ru": "Ни в коем случае не рекомендуется ездить на велосипеде вдвоём.",
+        "learn": 0
+      },
+      {
+        "eng": "He left his bicycle leaning against a tree trunk.",
+        "ru": "Он оставил велосипед, прислонив его к стволу дерева.",
+        "learn": 0
+      },
+      {
+        "eng": "This old bicycle has obviously gotten some hard use.",
+        "ru": "Очевидно, на этом старом велосипеде много ездили.",
+        "learn": 0
+      }
+    ]
+  }
 }

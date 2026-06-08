@@ -1,86 +1,173 @@
 {
-    "source": {
-        "comment": [
-            "sourness",
-            "sour",
-            "resource"
-        ],
-        "translate": "источник, исток, исходный текст, начало, родник, первопричина, ключ, верховье",
-        "transcription": " |sɔːrs|",
-        "antonyms": [],
-        "mnemonic": [
-            "source [со:с] источник - Сигнал (SOS) - источник беспокойства.",
-            "source [sɔ: s]\n***\nЕсли ИСТОЧНИК ненадёжный - кричи \"SOS\". (это)\nsource"
-        ],
-        "examples": [
-            "Red meat is a rich source of iron.",
-            "Sources dry up.",
-            "Beans are a very good source of protein.",
-            "He refused to disclose the source of his information.",
-            "Success in sport is a source of national pride.",
-            "Information from various intelligence sources",
-            "So where to source: local or global?",
-            "We've found the source of the trouble.",
-            "Her job is their chief source of income.",
-            "He has always been a source of inspiration for me.",
-            "The college had its own power source.",
-            "The information is from an unimpeachable source.",
-            "We might be able to source the parts.",
-            "These foods are an excellent source of protein.",
-            "Farming is his main source of income.",
-            "Injury data were abstracted from the same source.",
-            "The doctor told me to eat more bran because it is a good source of fiber.",
-            "He's been a constant source of worry.",
-            "We localized the source of the infection.",
-            "These countries are a source of cheap labour.",
-            "A well-placed source says the minister will resign.",
-            "She sourced a supply of carpet.",
-            "The writer carefully sourced her report.",
-            "One likely source of energy is windpower.",
-            "They get their money from various sources.",
-            "Export of goods and services is the major source of foreign exchange.",
-            "open source software such as Linux",
-            "the dispersion of energy from a source",
-            "Welfare is their only source of income.",
-            "There is a purchasing department to source materials."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Красное мясо является богатым источником железа.",
-            "Источники пересыхают.",
-            "Бобы — очень хороший источник белка.",
-            "Он отказался раскрыть источник своей информации.",
-            "Успех в спорте является предметом национальной гордости.",
-            "Информация из различных разведывательных источников.",
-            "Где же искать поставщиков: локально или глобально?",
-            "Мы нашли источник проблемы.",
-            "Её работа является их главным источником дохода.",
-            "Он всегда был для меня источником вдохновения.",
-            "В колледже был собственный источник электроэнергии.",
-            "Эта информация — из очень достоверного источника.",
-            "Быть может, нам удастся найти, где раздобыть запчасти.",
-            "Эти продукты являются отличным источником белка.",
-            "Земледелие является главным источником его дохода.",
-            "Сведения о травмах были почёрпнуты из того же источника.",
-            "Доктор посоветовал мне есть больше отрубей, потому что это хороший источник клетчатки.",
-            "Он был постоянным источником беспокойства.",
-            "Мы локализовали источник инфекции.",
-            "Эти страны являются источником дешёвой рабочей силы.",
-            "По сведениям из достоверного источника, министр уйдёт в отставку.",
-            "Она нашла поставщика ковров.",
-            "В своём докладе писатель аккуратно указал использованные источники.",
-            "Одним из вероятных источников энергии является ветроэнергетика.",
-            "Они получают свои деньги из разных источников.",
-            "Экспорт товаров и услуг является основным источником иностранной валюты.",
-            "программное обеспечение с открытым кодом, например, Linux",
-            "рассеивание энергии от источника",
-            "Их единственным источником дохода является пособие.",
-            "Для того, чтобы находить поставщиков материалов, существует отдел закупок."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "our_=_[ɔː]"
-        ]
-    }
+  "source": {
+    "comment": [
+      "sourness",
+      "sour",
+      "resource"
+    ],
+    "translate": "источник, исток, исходный текст, начало, родник, первопричина, ключ, верховье",
+    "transcription": " |sɔːrs|",
+    "antonyms": [],
+    "mnemonic": [
+      "source [со:с] источник - Сигнал (SOS) - источник беспокойства.",
+      "source [sɔ: s]\n***\nЕсли ИСТОЧНИК ненадёжный - кричи \"SOS\". (это)\nsource"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "our_=_[ɔː]"
+    ],
+    "examples": [
+      {
+        "eng": "Red meat is a rich source of iron.",
+        "ru": "Красное мясо является богатым источником железа.",
+        "learn": 1
+      },
+      {
+        "eng": "Sources dry up.",
+        "ru": "Источники пересыхают.",
+        "learn": 0
+      },
+      {
+        "eng": "Beans are a very good source of protein.",
+        "ru": "Бобы — очень хороший источник белка.",
+        "learn": 1
+      },
+      {
+        "eng": "He refused to disclose the source of his information.",
+        "ru": "Он отказался раскрыть источник своей информации.",
+        "learn": 1
+      },
+      {
+        "eng": "Success in sport is a source of national pride.",
+        "ru": "Успех в спорте является предметом национальной гордости.",
+        "learn": 0
+      },
+      {
+        "eng": "Information from various intelligence sources",
+        "ru": "Информация из различных разведывательных источников.",
+        "learn": 0
+      },
+      {
+        "eng": "So where to source: local or global?",
+        "ru": "Где же искать поставщиков: локально или глобально?",
+        "learn": 0
+      },
+      {
+        "eng": "We've found the source of the trouble.",
+        "ru": "Мы нашли источник проблемы.",
+        "learn": 0
+      },
+      {
+        "eng": "Her job is their chief source of income.",
+        "ru": "Её работа является их главным источником дохода.",
+        "learn": 0
+      },
+      {
+        "eng": "He has always been a source of inspiration for me.",
+        "ru": "Он всегда был для меня источником вдохновения.",
+        "learn": 1
+      },
+      {
+        "eng": "The college had its own power source.",
+        "ru": "В колледже был собственный источник электроэнергии.",
+        "learn": 0
+      },
+      {
+        "eng": "The information is from an unimpeachable source.",
+        "ru": "Эта информация — из очень достоверного источника.",
+        "learn": 0
+      },
+      {
+        "eng": "We might be able to source the parts.",
+        "ru": "Быть может, нам удастся найти, где раздобыть запчасти.",
+        "learn": 0
+      },
+      {
+        "eng": "These foods are an excellent source of protein.",
+        "ru": "Эти продукты являются отличным источником белка.",
+        "learn": 1
+      },
+      {
+        "eng": "Farming is his main source of income.",
+        "ru": "Земледелие является главным источником его дохода.",
+        "learn": 1
+      },
+      {
+        "eng": "Injury data were abstracted from the same source.",
+        "ru": "Сведения о травмах были почёрпнуты из того же источника.",
+        "learn": 0
+      },
+      {
+        "eng": "The doctor told me to eat more bran because it is a good source of fiber.",
+        "ru": "Доктор посоветовал мне есть больше отрубей, потому что это хороший источник клетчатки.",
+        "learn": 0
+      },
+      {
+        "eng": "He's been a constant source of worry.",
+        "ru": "Он был постоянным источником беспокойства.",
+        "learn": 0
+      },
+      {
+        "eng": "We localized the source of the infection.",
+        "ru": "Мы локализовали источник инфекции.",
+        "learn": 0
+      },
+      {
+        "eng": "These countries are a source of cheap labour.",
+        "ru": "Эти страны являются источником дешёвой рабочей силы.",
+        "learn": 0
+      },
+      {
+        "eng": "A well-placed source says the minister will resign.",
+        "ru": "По сведениям из достоверного источника, министр уйдёт в отставку.",
+        "learn": 0
+      },
+      {
+        "eng": "She sourced a supply of carpet.",
+        "ru": "Она нашла поставщика ковров.",
+        "learn": 0
+      },
+      {
+        "eng": "The writer carefully sourced her report.",
+        "ru": "В своём докладе писатель аккуратно указал использованные источники.",
+        "learn": 0
+      },
+      {
+        "eng": "One likely source of energy is windpower.",
+        "ru": "Одним из вероятных источников энергии является ветроэнергетика.",
+        "learn": 0
+      },
+      {
+        "eng": "They get their money from various sources.",
+        "ru": "Они получают свои деньги из разных источников.",
+        "learn": 0
+      },
+      {
+        "eng": "Export of goods and services is the major source of foreign exchange.",
+        "ru": "Экспорт товаров и услуг является основным источником иностранной валюты.",
+        "learn": 0
+      },
+      {
+        "eng": "open source software such as Linux",
+        "ru": "программное обеспечение с открытым кодом, например, Linux",
+        "learn": 0
+      },
+      {
+        "eng": "the dispersion of energy from a source",
+        "ru": "рассеивание энергии от источника",
+        "learn": 0
+      },
+      {
+        "eng": "Welfare is their only source of income.",
+        "ru": "Их единственным источником дохода является пособие.",
+        "learn": 1
+      },
+      {
+        "eng": "There is a purchasing department to source materials.",
+        "ru": "Для того, чтобы находить поставщиков материалов, существует отдел закупок.",
+        "learn": 0
+      }
+    ]
+  }
 }

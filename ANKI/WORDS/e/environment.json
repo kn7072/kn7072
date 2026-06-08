@@ -1,82 +1,168 @@
 {
-    "environment": {
-        "comment": [
-            "environmental",
-            "environmentally",
-            "environmentalist"
-        ],
-        "translate": "окружающая среда, среда, окружение, окружающая обстановка, состояние, контекст",
-        "transcription": " |ɪnˈvaɪrənmənt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "We should respect the environment.",
-            "He grew up in a loving environment.",
-            "These activities may damage the environment.",
-            "Pollution is bad for the environment.",
-            "We all have a responsibility to protect the environment.",
-            "We need to respect the environment.",
-            "chemicals that could harm the environment",
-            "Children like a stable environment.",
-            "This man can't fit himself into our work environment",
-            "He says that the government's policies are trashing the environment.",
-            "the alien environment of the city",
-            "Border Environment Cooperation Commission",
-            "Adaptability is a necessary quality in an ever-changing work environment.",
-            "He fights for the protection of the environment.",
-            "environment, or the sum total of the external conditions of life",
-            "Last year, the environment bureau was upgraded to a ministry.",
-            "Today's business environment requires that service providers distinguish themselves from their competitors or lose high-value customers.",
-            "Snakes lay eggs in a watery environment.",
-            "the unfriendly environment at high altitudes",
-            "The environment is a popular topic these days.",
-            "A clean environment cannot be had on the cheap.",
-            "Cacti prefer a nearly waterless environment.",
-            "humankind's mastery over the environment",
-            "Heredity and environment are both important.",
-            "The environment is no longer a fringe issue.",
-            "chemicals that are harmful to the environment",
-            "the new national forum on the environment",
-            "applaudable efforts to save the environment",
-            "The species coexist in the same environment.",
-            "technology that will safeguard the environment"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мы должны беречь окружающую среду.",
-            "Он вырос в любви и заботе.",
-            "Эта деятельность может нанести ущерб окружающей среде.",
-            "Загрязнения вредны для окружающей среды.",
-            "Наша общая обязанность — защита окружающей среды.",
-            "Мы должны бережно относиться к окружающей среде.",
-            "химикаты, которые могут нанести вред окружающей среде",
-            "Детям нравится знакомая /стабильная/ окружающая обстановка.",
-            "Этот человек не вписывается в нашу рабочую обстановку,",
-            "Он говорит, что политика правительства портит окружающую среду.",
-            "непривычная обстановка большого города",
-            "Комиссия по приграничному экологическому сотрудничеству между США и Мексикой",
-            "Способность к адаптации — необходимое качество в условиях постоянно изменяющейся производственной среды.",
-            "Он борется за сохранность окружающей среды.",
-            "окружающая среда, или совокупность внешних условий существования",
-            "В прошлом году бюро по охране природы было реорганизовано в министерство.",
-            "Сегодняшние условия бизнеса требуют от продавцов услуг отличаться от своих конкурентов, чтобы не потерять ценных покупателей.",
-            "Змеи откладывают яйца в водной среде.",
-            "неблагоприятные условия на больших высотах",
-            "В наши дни защита окружающей среды является популярной темой.",
-            "Чистая окружающая среда не может достаться по дешёвке.",
-            "Кактусы предпочитают почти безводный климат.",
-            "господство человечества над окружающей средой",
-            "Наследственность и окружающая обстановка /окружение/ одинаково важны.",
-            "Охрана окружающей среды больше не является второстепенным вопросом.",
-            "химические вещества, которые являются вредными для окружающей среды",
-            "новый национальный форум по проблемам охраны окружающей среды",
-            "похвальные усилия по сохранению окружающей среды",
-            "Эти виды сосуществуют в одних и тех же природных условиях.",
-            "технология, которая поможет защитить окружающую среду"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "environment": {
+    "comment": [
+      "environmental",
+      "environmentally",
+      "environmentalist"
+    ],
+    "translate": "окружающая среда, среда, окружение, окружающая обстановка, состояние, контекст",
+    "transcription": " |ɪnˈvaɪrənmənt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "We should respect the environment.",
+        "ru": "Мы должны беречь окружающую среду.",
+        "learn": 0
+      },
+      {
+        "eng": "He grew up in a loving environment.",
+        "ru": "Он вырос в любви и заботе.",
+        "learn": 1
+      },
+      {
+        "eng": "These activities may damage the environment.",
+        "ru": "Эта деятельность может нанести ущерб окружающей среде.",
+        "learn": 0
+      },
+      {
+        "eng": "Pollution is bad for the environment.",
+        "ru": "Загрязнения вредны для окружающей среды.",
+        "learn": 0
+      },
+      {
+        "eng": "We all have a responsibility to protect the environment.",
+        "ru": "Наша общая обязанность — защита окружающей среды.",
+        "learn": 0
+      },
+      {
+        "eng": "We need to respect the environment.",
+        "ru": "Мы должны бережно относиться к окружающей среде.",
+        "learn": 0
+      },
+      {
+        "eng": "chemicals that could harm the environment",
+        "ru": "химикаты, которые могут нанести вред окружающей среде",
+        "learn": 0
+      },
+      {
+        "eng": "Children like a stable environment.",
+        "ru": "Детям нравится знакомая /стабильная/ окружающая обстановка.",
+        "learn": 1
+      },
+      {
+        "eng": "This man can't fit himself into our work environment",
+        "ru": "Этот человек не вписывается в нашу рабочую обстановку,",
+        "learn": 0
+      },
+      {
+        "eng": "He says that the government's policies are trashing the environment.",
+        "ru": "Он говорит, что политика правительства портит окружающую среду.",
+        "learn": 0
+      },
+      {
+        "eng": "the alien environment of the city",
+        "ru": "непривычная обстановка большого города",
+        "learn": 0
+      },
+      {
+        "eng": "Border Environment Cooperation Commission",
+        "ru": "Комиссия по приграничному экологическому сотрудничеству между США и Мексикой",
+        "learn": 0
+      },
+      {
+        "eng": "Adaptability is a necessary quality in an ever-changing work environment.",
+        "ru": "Способность к адаптации — необходимое качество в условиях постоянно изменяющейся производственной среды.",
+        "learn": 0
+      },
+      {
+        "eng": "He fights for the protection of the environment.",
+        "ru": "Он борется за сохранность окружающей среды.",
+        "learn": 0
+      },
+      {
+        "eng": "environment, or the sum total of the external conditions of life",
+        "ru": "окружающая среда, или совокупность внешних условий существования",
+        "learn": 0
+      },
+      {
+        "eng": "Last year, the environment bureau was upgraded to a ministry.",
+        "ru": "В прошлом году бюро по охране природы было реорганизовано в министерство.",
+        "learn": 1
+      },
+      {
+        "eng": "Today's business environment requires that service providers distinguish themselves from their competitors or lose high-value customers.",
+        "ru": "Сегодняшние условия бизнеса требуют от продавцов услуг отличаться от своих конкурентов, чтобы не потерять ценных покупателей.",
+        "learn": 0
+      },
+      {
+        "eng": "Snakes lay eggs in a watery environment.",
+        "ru": "Змеи откладывают яйца в водной среде.",
+        "learn": 0
+      },
+      {
+        "eng": "the unfriendly environment at high altitudes",
+        "ru": "неблагоприятные условия на больших высотах",
+        "learn": 0
+      },
+      {
+        "eng": "The environment is a popular topic these days.",
+        "ru": "В наши дни защита окружающей среды является популярной темой.",
+        "learn": 0
+      },
+      {
+        "eng": "A clean environment cannot be had on the cheap.",
+        "ru": "Чистая окружающая среда не может достаться по дешёвке.",
+        "learn": 0
+      },
+      {
+        "eng": "Cacti prefer a nearly waterless environment.",
+        "ru": "Кактусы предпочитают почти безводный климат.",
+        "learn": 0
+      },
+      {
+        "eng": "humankind's mastery over the environment",
+        "ru": "господство человечества над окружающей средой",
+        "learn": 0
+      },
+      {
+        "eng": "Heredity and environment are both important.",
+        "ru": "Наследственность и окружающая обстановка /окружение/ одинаково важны.",
+        "learn": 0
+      },
+      {
+        "eng": "The environment is no longer a fringe issue.",
+        "ru": "Охрана окружающей среды больше не является второстепенным вопросом.",
+        "learn": 0
+      },
+      {
+        "eng": "chemicals that are harmful to the environment",
+        "ru": "химические вещества, которые являются вредными для окружающей среды",
+        "learn": 0
+      },
+      {
+        "eng": "the new national forum on the environment",
+        "ru": "новый национальный форум по проблемам охраны окружающей среды",
+        "learn": 0
+      },
+      {
+        "eng": "applaudable efforts to save the environment",
+        "ru": "похвальные усилия по сохранению окружающей среды",
+        "learn": 0
+      },
+      {
+        "eng": "The species coexist in the same environment.",
+        "ru": "Эти виды сосуществуют в одних и тех же природных условиях.",
+        "learn": 0
+      },
+      {
+        "eng": "technology that will safeguard the environment",
+        "ru": "технология, которая поможет защитить окружающую среду",
+        "learn": 0
+      }
+    ]
+  }
 }

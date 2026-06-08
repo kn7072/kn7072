@@ -1,89 +1,178 @@
 {
-    "wind": {
-        "comment": [
-            "windy",
-            "window",
-            "win",
-            "winner",
-            "winning",
-            "twin",
-            "winter",
-            "wine"
-        ],
-        "translate": "ветер, дыхание, дух, виток, ветровой, ветряной, духовой, заводить, наматывать",
-        "transcription": " |wɪnd|",
-        "antonyms": [],
-        "mnemonic": [
-            "wind [(ув)и'нд] ветер - (В Инд-ии) ветры страшные."
-        ],
-        "examples": [
-            "The wind failed.",
-            "The wind is up.",
-            "that's a lot of wind",
-            "A wind rose.",
-            "The wind died down.",
-            "The wind favoured us.",
-            "You're just wasting wind.",
-            "I am winded by running.",
-            "His talk was all wind.",
-            "Something is in the wind.",
-            "The wind came off the ocean.",
-            "We got wind of the plan.",
-            "The wind toppled the tree.",
-            "The wind fluffed his hair.",
-            "Wind sprang the mast.",
-            "The wind buffeted him.",
-            "The trees bowed in the wind.",
-            "We sailed with the wind.",
-            "The wind was blowing hard.",
-            "Gustily blows the wind.",
-            "The wind is taking off.",
-            "Something is in the wind.",
-            "The wind began to pipe up.",
-            "The wind slacked off a bit.",
-            "The wind was veering north.",
-            "The wind swelled the sails.",
-            "The wind blew from the east.",
-            "The wind moaned in the trees.",
-            "A window rattled in the wind.",
-            "The wind blew the door to."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ветер стих.",
-            "Ветер поднялся. / Ветер очень сильный.",
-            "ветер сильно дует",
-            "Поднялся ветер.",
-            "Ветер стих.",
-            "Ветер был попутный.",
-            "Ты только сотрясаешь воздух.",
-            "Я задыхаюсь от бега.",
-            "Его речь была одной лишь пустой болтовнёй.",
-            "В воздухе пахнет переменами. / Что-то вот-вот произойдёт.",
-            "С океана дул ветер.",
-            "Мы прослышали об этом плане.",
-            "Ветер повалил дерево.",
-            "Ветер взъерошил его волосы.",
-            "Ветер сломал мачту.",
-            "Ветер трепал его.",
-            "Деревья гнулись на ветру.",
-            "Мы плыли по ветру.",
-            "Дул сильный ветер.",
-            "Ветер дует порывисто.",
-            "Ветер стихает.",
-            "Собаки что-то почуяли. (охот.)",
-            "Ветер крепчал.",
-            "Ветер немного стих.",
-            "Ветер менял направление к северу.",
-            "Ветер надул паруса.",
-            "Ветер подул с востока.",
-            "Ветер выл среди деревьев.",
-            "Окно дребезжало на ветру.",
-            "Ветер захлопнул дверь."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "wind": {
+    "comment": [
+      "wound |waʊnd|,                                          wound |waʊnd|",
+      "windy",
+      "window",
+      "win",
+      "winner",
+      "winning",
+      "twin",
+      "winter",
+      "wine"
+    ],
+    "translate": "ветер, дыхание, дух, виток, ветровой, ветряной, духовой, заводить, наматывать",
+    "transcription": " |wɪnd|",
+    "antonyms": [],
+    "mnemonic": [
+      "wind [(ув)и'нд] ветер - (В Инд-ии) ветры страшные."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "The wind failed.",
+        "ru": "Ветер стих.",
+        "learn": 1
+      },
+      {
+        "eng": "The wind is up.",
+        "ru": "Ветер поднялся. / Ветер очень сильный.",
+        "learn": 0
+      },
+      {
+        "eng": "that's a lot of wind",
+        "ru": "ветер сильно дует",
+        "learn": 0
+      },
+      {
+        "eng": "A wind rose.",
+        "ru": "Поднялся ветер.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind died down.",
+        "ru": "Ветер стих.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind favoured us.",
+        "ru": "Ветер был попутный.",
+        "learn": 0
+      },
+      {
+        "eng": "You're just wasting wind.",
+        "ru": "Ты только сотрясаешь воздух.",
+        "learn": 0
+      },
+      {
+        "eng": "I am winded by running.",
+        "ru": "Я задыхаюсь от бега.",
+        "learn": 0
+      },
+      {
+        "eng": "His talk was all wind.",
+        "ru": "Его речь была одной лишь пустой болтовнёй.",
+        "learn": 0
+      },
+      {
+        "eng": "Something is in the wind.",
+        "ru": "В воздухе пахнет переменами. / Что-то вот-вот произойдёт.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind came off the ocean.",
+        "ru": "С океана дул ветер.",
+        "learn": 0
+      },
+      {
+        "eng": "We got wind of the plan.",
+        "ru": "Мы прослышали об этом плане.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind toppled the tree.",
+        "ru": "Ветер повалил дерево.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind fluffed his hair.",
+        "ru": "Ветер взъерошил его волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "Wind sprang the mast.",
+        "ru": "Ветер сломал мачту.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind buffeted him.",
+        "ru": "Ветер трепал его.",
+        "learn": 0
+      },
+      {
+        "eng": "The trees bowed in the wind.",
+        "ru": "Деревья гнулись на ветру.",
+        "learn": 0
+      },
+      {
+        "eng": "We sailed with the wind.",
+        "ru": "Мы плыли по ветру.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind was blowing hard.",
+        "ru": "Дул сильный ветер.",
+        "learn": 0
+      },
+      {
+        "eng": "Gustily blows the wind.",
+        "ru": "Ветер дует порывисто.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind is taking off.",
+        "ru": "Ветер стихает.",
+        "learn": 0
+      },
+      {
+        "eng": "Something is in the wind.",
+        "ru": "Собаки что-то почуяли. (охот.)",
+        "learn": 0
+      },
+      {
+        "eng": "The wind began to pipe up.",
+        "ru": "Ветер крепчал.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind slacked off a bit.",
+        "ru": "Ветер немного стих.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind was veering north.",
+        "ru": "Ветер менял направление к северу.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind swelled the sails.",
+        "ru": "Ветер надул паруса.",
+        "learn": 1
+      },
+      {
+        "eng": "The wind blew from the east.",
+        "ru": "Ветер подул с востока.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind moaned in the trees.",
+        "ru": "Ветер выл среди деревьев.",
+        "learn": 1
+      },
+      {
+        "eng": "A window rattled in the wind.",
+        "ru": "Окно дребезжало на ветру.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind blew the door to.",
+        "ru": "Ветер захлопнул дверь.",
+        "learn": 0
+      }
+    ]
+  }
 }

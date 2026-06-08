@@ -1,82 +1,168 @@
 {
-    "stuff": {
-        "comment": [
-            "staff"
-        ],
-        "translate": "материал, вещи, вещество, хлам, дрянь, набивать, засовывать, фаршировать",
-        "transcription": " |stʌf|",
-        "antonyms": [],
-        "mnemonic": [
-            "stuff [stʌf]\n***\nВЕЩИ разложим в шкаф. (это) stuff\nНАБЬЁМ вещами шкаф. (это) stuff\nЗАПОЛНИМ шкаф. (это) stuff\nИМУЩЕСТВО положим в шкаф. (это) stuff"
-        ],
-        "examples": [
-            "This is good stuff.",
-            "Stuff your \"thank you\" up your ass!",
-            "My nose is stuffed up.",
-            "Do you call this stuff butter?",
-            "Have you stuffed the turkey yet?",
-            "He was on the stuff.",
-            "This is the sort of stuff to give them.",
-            "She stuffed her things into a suitcase.",
-            "I need a place to store my stuff.",
-            "This book is poor stuff.",
-            "Apples, oranges, this kind of stuff.",
-            "I bought some crazy good stuff there.",
-            "It was stuff I had heard before.",
-            "Pick that stuff up off the floor.",
-            "His new film is hot stuff (=very good).",
-            "There's some sticky stuff in your hair.",
-            "My nose is all stuffed",
-            "He stuffed his fingers into his ears.",
-            "The trunk was full of stuff.",
-            "Stuff the rabbits and roast them.",
-            "The child stuffed candy into his pockets.",
-            "He was standing with hands stuffed into his front pockets.",
-            "I was about to stuff this in my kick.",
-            "I don't like his stuff.",
-            "Can all that stuff, Sergeant.",
-            "The girls all think he's hot stuff.",
-            "I've got some sticky stuff on my shoe.",
-            "I simply can't stuff any more clothes into this case.",
-            "There is some good football stuff in that player.",
-            "He is made of sterner stuff than his father."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Отличная вещь! / Вот это — вещь! / Классная дурь.",
-            "Засунь свое \"спасибо\" себе в задницу!",
-            "У меня нос заложен.",
-            "Неужели вы называете эту дрянь маслом?",
-            "Вы уже нафаршировали индейку?",
-            "Он сидел на игле.",
-            "Только так и надо поступать с ними",
-            "Она запихнула свои вещи в чемодан",
-            "Мне нужно где-то хранить свои вещи.",
-            "Это никчёмная книжонка.",
-            "Апельсины, яблоки, всякое такое.",
-            "Я купил там несколько безумно хороших вещей",
-            "Эту фигню я уже раньше слышал.",
-            "Подними эту фигню с пола.",
-            "Его новый фильм — обалденный.",
-            "У тебя в волосах какая-то липкая дрянь.",
-            "У меня нос заложен.",
-            "Он заткнул уши пальцами.",
-            "Багажник был забит разным барахлом.",
-            "Нафаршируйте тушки кроликов и зажарьте их в духовке.",
-            "Ребенок набил карманы конфетами /сладостями/.",
-            "Он стоял, засунув руки в передние карманы.",
-            "Я уж было собрался запихнуть это к себе в карман.",
-            "Не нравится мне его \"товар\" /дурь, трава, материал/.",
-            "Прекратите эти штучки, сержант.",
-            "Все девчонки думают, что он классный /крутой, обалденный/.",
-            "На моём ботинке — какая-то липкая дрянь /фигня/.",
-            "Я просто не могу больше ничего запихнуть в этот чемодан.",
-            "Этот игрок прирождённый футболист.",
-            "У него более решительный характер, чем у его отца."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "stuff": {
+    "comment": [
+      "staff"
+    ],
+    "translate": "материал, вещи, вещество, хлам, дрянь, набивать, засовывать, фаршировать",
+    "transcription": " |stʌf|",
+    "antonyms": [],
+    "mnemonic": [
+      "stuff [stʌf]\n***\nВЕЩИ разложим в шкаф. (это) stuff\nНАБЬЁМ вещами шкаф. (это) stuff\nЗАПОЛНИМ шкаф. (это) stuff\nИМУЩЕСТВО положим в шкаф. (это) stuff"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "This is good stuff.",
+        "ru": "Отличная вещь! / Вот это — вещь! / Классная дурь.",
+        "learn": 0
+      },
+      {
+        "eng": "Stuff your \"thank you\" up your ass!",
+        "ru": "Засунь свое \"спасибо\" себе в задницу!",
+        "learn": 0
+      },
+      {
+        "eng": "My nose is stuffed up.",
+        "ru": "У меня нос заложен.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you call this stuff butter?",
+        "ru": "Неужели вы называете эту дрянь маслом?",
+        "learn": 0
+      },
+      {
+        "eng": "Have you stuffed the turkey yet?",
+        "ru": "Вы уже нафаршировали индейку?",
+        "learn": 0
+      },
+      {
+        "eng": "He was on the stuff.",
+        "ru": "Он сидел на игле.",
+        "learn": 0
+      },
+      {
+        "eng": "This is the sort of stuff to give them.",
+        "ru": "Только так и надо поступать с ними",
+        "learn": 0
+      },
+      {
+        "eng": "She stuffed her things into a suitcase.",
+        "ru": "Она запихнула свои вещи в чемодан",
+        "learn": 0
+      },
+      {
+        "eng": "I need a place to store my stuff.",
+        "ru": "Мне нужно где-то хранить свои вещи.",
+        "learn": 0
+      },
+      {
+        "eng": "This book is poor stuff.",
+        "ru": "Это никчёмная книжонка.",
+        "learn": 0
+      },
+      {
+        "eng": "Apples, oranges, this kind of stuff.",
+        "ru": "Апельсины, яблоки, всякое такое.",
+        "learn": 0
+      },
+      {
+        "eng": "I bought some crazy good stuff there.",
+        "ru": "Я купил там несколько безумно хороших вещей",
+        "learn": 1
+      },
+      {
+        "eng": "It was stuff I had heard before.",
+        "ru": "Эту фигню я уже раньше слышал.",
+        "learn": 0
+      },
+      {
+        "eng": "Pick that stuff up off the floor.",
+        "ru": "Подними эту фигню с пола.",
+        "learn": 0
+      },
+      {
+        "eng": "His new film is hot stuff (=very good).",
+        "ru": "Его новый фильм — обалденный.",
+        "learn": 0
+      },
+      {
+        "eng": "There's some sticky stuff in your hair.",
+        "ru": "У тебя в волосах какая-то липкая дрянь.",
+        "learn": 1
+      },
+      {
+        "eng": "My nose is all stuffed",
+        "ru": "У меня нос заложен.",
+        "learn": 1
+      },
+      {
+        "eng": "He stuffed his fingers into his ears.",
+        "ru": "Он заткнул уши пальцами.",
+        "learn": 0
+      },
+      {
+        "eng": "The trunk was full of stuff.",
+        "ru": "Багажник был забит разным барахлом.",
+        "learn": 1
+      },
+      {
+        "eng": "Stuff the rabbits and roast them.",
+        "ru": "Нафаршируйте тушки кроликов и зажарьте их в духовке.",
+        "learn": 0
+      },
+      {
+        "eng": "The child stuffed candy into his pockets.",
+        "ru": "Ребенок набил карманы конфетами /сладостями/.",
+        "learn": 1
+      },
+      {
+        "eng": "He was standing with hands stuffed into his front pockets.",
+        "ru": "Он стоял, засунув руки в передние карманы.",
+        "learn": 0
+      },
+      {
+        "eng": "I was about to stuff this in my kick.",
+        "ru": "Я уж было собрался запихнуть это к себе в карман.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't like his stuff.",
+        "ru": "Не нравится мне его \"товар\" /дурь, трава, материал/.",
+        "learn": 0
+      },
+      {
+        "eng": "Can all that stuff, Sergeant.",
+        "ru": "Прекратите эти штучки, сержант.",
+        "learn": 0
+      },
+      {
+        "eng": "The girls all think he's hot stuff.",
+        "ru": "Все девчонки думают, что он классный /крутой, обалденный/.",
+        "learn": 0
+      },
+      {
+        "eng": "I've got some sticky stuff on my shoe.",
+        "ru": "На моём ботинке — какая-то липкая дрянь /фигня/.",
+        "learn": 0
+      },
+      {
+        "eng": "I simply can't stuff any more clothes into this case.",
+        "ru": "Я просто не могу больше ничего запихнуть в этот чемодан.",
+        "learn": 0
+      },
+      {
+        "eng": "There is some good football stuff in that player.",
+        "ru": "Этот игрок прирождённый футболист.",
+        "learn": 0
+      },
+      {
+        "eng": "He is made of sterner stuff than his father.",
+        "ru": "У него более решительный характер, чем у его отца.",
+        "learn": 0
+      }
+    ]
+  }
 }

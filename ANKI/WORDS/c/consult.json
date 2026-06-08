@@ -1,73 +1,147 @@
 {
-    "consult": {
-        "comment": [
-            "consultant",
-            "consultation"
-        ],
-        "translate": "консультировать, консультироваться, советоваться, советовать, справляться",
-        "transcription": " |kənˈsʌlt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I need to consult with my lawyer.",
-            "If in doubt, consult your doctor.",
-            "You have the right to consult a lawyer.",
-            "Do you wish to consult me professionally?",
-            "You should consult the dictionary.",
-            "You would be advised to consult a physician.",
-            "We consult a doctor about our health, and a banker about our money.",
-            "Have you consulted a dictionary?",
-            "He made the decision without consulting me.",
-            "I expect to be consulted on important decisions.",
-            "He had to consult his associate before continuing.",
-            "Consult the computer manual if you have a problem.",
-            "They had to consult before arriving at a decision.",
-            "You should always consult a physician if you develop a high fever.",
-            "The President consulted with European leaders before taking action.",
-            "I intend to consult with my tax lawyer before sending in my tax return.",
-            "The professor consults for industry.",
-            "consult a lawyer about a business matter",
-            "Parents can consult the teachers about their children.",
-            "You should consult your family doctor for further advice.",
-            "If you want to take it further, you should consult an attorney.",
-            "You should always consult a physician if you develop a high fever.",
-            "The Borough Architect was censured for failing to consult the engineers.",
-            "You should not attempt these exercises without first consulting your doctor.",
-            "If you suffer from back pain, consult your doctor before attempting this exercise.",
-            "For farther information on this condition, you should consult your family physician."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мне нужно посоветоваться с моим адвокатом.",
-            "Если сомневаетесь, проконсультируйтесь с вашим врачом.",
-            "Вы имеете право обратиться к юристу.",
-            "Вы хотите обратиться ко мне как к специалисту?",
-            "Вам следует свериться со словарём.",
-            "Вам лучше проконсультироваться с врачом.",
-            "По поводу здоровья мы обращаемся к доктору, а по поводу денег - к банкиру.",
-            "Ты сверился со словарём?",
-            "Он принял это решение, не посоветовавшись со мной.",
-            "Я надеюсь, что со мной будут консультироваться по поводу принятия важных решений.",
-            "Прежде чем продолжить, ему пришлось посоветоваться с коллегой.",
-            "Если возникнут проблемы, сверьтесь с руководством по работе с компьютером.",
-            "Им пришлось проводить консультации, прежде чем принять какое-либо решение.",
-            "Если поднимается высокая температура, всегда следует обращаться к врачу.",
-            "Прежде чем начать действовать, президент проконсультировался с лидерами европейских стран.",
-            "Я намерен посоветоваться с моим налоговым консультантом, прежде чем отправлять налоговую декларацию.",
-            "Этот профессор консультирует промышленников.",
-            "консультироваться с юристом по деловому вопросу",
-            "Родители могут обращаться к учителям и узнавать об успехах своих детей.",
-            "Вы должны проконсультироваться со своим семейным врачом для получения дополнительных рекомендаций.",
-            "Если хотите большего, вы должны проконсультироваться с адвокатом.",
-            "При появлении высокой температуры следует всегда обращаться к врачу.",
-            "Городскому архитектору было вынесено порицание за то, что он не проконсультировал инженеров.",
-            "Не стоит пытаться выполнять эти упражнения без предварительной консультации с врачом.",
-            "Если вы страдаете от боли в спине, проконсультируйтесь со своим врачом, прежде чем пытаться выполнить это упражнение.",
-            "Для получения более полной информации по данному заболеванию проконсультируйтесь со своим семейным врачом."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "consult": {
+    "comment": [
+      "consultant",
+      "consultation"
+    ],
+    "translate": "консультировать, консультироваться, советоваться, советовать, справляться",
+    "transcription": " |kənˈsʌlt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I need to consult with my lawyer.",
+        "ru": "Мне нужно посоветоваться с моим адвокатом.",
+        "learn": 1
+      },
+      {
+        "eng": "If in doubt, consult your doctor.",
+        "ru": "Если сомневаетесь, проконсультируйтесь с вашим врачом.",
+        "learn": 1
+      },
+      {
+        "eng": "You have the right to consult a lawyer.",
+        "ru": "Вы имеете право обратиться к юристу.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you wish to consult me professionally?",
+        "ru": "Вы хотите обратиться ко мне как к специалисту?",
+        "learn": 1
+      },
+      {
+        "eng": "You should consult the dictionary.",
+        "ru": "Вам следует свериться со словарём.",
+        "learn": 0
+      },
+      {
+        "eng": "You would be advised to consult a physician.",
+        "ru": "Вам лучше проконсультироваться с врачом.",
+        "learn": 0
+      },
+      {
+        "eng": "We consult a doctor about our health, and a banker about our money.",
+        "ru": "По поводу здоровья мы обращаемся к доктору, а по поводу денег - к банкиру.",
+        "learn": 1
+      },
+      {
+        "eng": "Have you consulted a dictionary?",
+        "ru": "Ты сверился со словарём?",
+        "learn": 0
+      },
+      {
+        "eng": "He made the decision without consulting me.",
+        "ru": "Он принял это решение, не посоветовавшись со мной.",
+        "learn": 0
+      },
+      {
+        "eng": "I expect to be consulted on important decisions.",
+        "ru": "Я надеюсь, что со мной будут консультироваться по поводу принятия важных решений.",
+        "learn": 1
+      },
+      {
+        "eng": "He had to consult his associate before continuing.",
+        "ru": "Прежде чем продолжить, ему пришлось посоветоваться с коллегой.",
+        "learn": 0
+      },
+      {
+        "eng": "Consult the computer manual if you have a problem.",
+        "ru": "Если возникнут проблемы, сверьтесь с руководством по работе с компьютером.",
+        "learn": 0
+      },
+      {
+        "eng": "They had to consult before arriving at a decision.",
+        "ru": "Им пришлось проводить консультации, прежде чем принять какое-либо решение.",
+        "learn": 0
+      },
+      {
+        "eng": "You should always consult a physician if you develop a high fever.",
+        "ru": "Если поднимается высокая температура, всегда следует обращаться к врачу.",
+        "learn": 0
+      },
+      {
+        "eng": "The President consulted with European leaders before taking action.",
+        "ru": "Прежде чем начать действовать, президент проконсультировался с лидерами европейских стран.",
+        "learn": 0
+      },
+      {
+        "eng": "I intend to consult with my tax lawyer before sending in my tax return.",
+        "ru": "Я намерен посоветоваться с моим налоговым консультантом, прежде чем отправлять налоговую декларацию.",
+        "learn": 0
+      },
+      {
+        "eng": "The professor consults for industry.",
+        "ru": "Этот профессор консультирует промышленников.",
+        "learn": 0
+      },
+      {
+        "eng": "consult a lawyer about a business matter",
+        "ru": "консультироваться с юристом по деловому вопросу",
+        "learn": 0
+      },
+      {
+        "eng": "Parents can consult the teachers about their children.",
+        "ru": "Родители могут обращаться к учителям и узнавать об успехах своих детей.",
+        "learn": 0
+      },
+      {
+        "eng": "You should consult your family doctor for further advice.",
+        "ru": "Вы должны проконсультироваться со своим семейным врачом для получения дополнительных рекомендаций.",
+        "learn": 0
+      },
+      {
+        "eng": "If you want to take it further, you should consult an attorney.",
+        "ru": "Если хотите большего, вы должны проконсультироваться с адвокатом.",
+        "learn": 0
+      },
+      {
+        "eng": "You should always consult a physician if you develop a high fever.",
+        "ru": "При появлении высокой температуры следует всегда обращаться к врачу.",
+        "learn": 0
+      },
+      {
+        "eng": "The Borough Architect was censured for failing to consult the engineers.",
+        "ru": "Городскому архитектору было вынесено порицание за то, что он не проконсультировал инженеров.",
+        "learn": 0
+      },
+      {
+        "eng": "You should not attempt these exercises without first consulting your doctor.",
+        "ru": "Не стоит пытаться выполнять эти упражнения без предварительной консультации с врачом.",
+        "learn": 0
+      },
+      {
+        "eng": "If you suffer from back pain, consult your doctor before attempting this exercise.",
+        "ru": "Если вы страдаете от боли в спине, проконсультируйтесь со своим врачом, прежде чем пытаться выполнить это упражнение.",
+        "learn": 0
+      },
+      {
+        "eng": "For farther information on this condition, you should consult your family physician.",
+        "ru": "Для получения более полной информации по данному заболеванию проконсультируйтесь со своим семейным врачом.",
+        "learn": 0
+      }
+    ]
+  }
 }

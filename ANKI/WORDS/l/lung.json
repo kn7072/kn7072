@@ -1,72 +1,143 @@
 {
-    "lung": {
-        "comment": [
-            "lunch"
-        ],
-        "translate": "легкое",
-        "transcription": " |lʌŋ|",
-        "antonyms": [],
-        "mnemonic": [
-            "lung [ланг] лёгкое - (Аква-ланг) - водяное лёгкое."
-        ],
-        "examples": [
-            "Smoking is the prime cause of lung disease.",
-            "One bullet punctured his lung.",
-            "The bullet pierced his lung.",
-            "Smoking can cause lung cancer.",
-            "Amphoric breathing indicates a cavity in the lung.",
-            "Smoking causes lung cancer.",
-            "Incidence of lung cancer has plateaued out.",
-            "Lung cancer death rates are up.",
-            "People who smoke have a significantly greater risk of developing lung cancer than people who don't.",
-            "carriers of the lung disease, TB",
-            "Smoking is a contributory factor in lung cancer.",
-            "The lung cancer patient cannot inspire air very well.",
-            "The evidence that smoking causes lung cancer is very compelling.",
-            "Insofar as it can be ascertained, the horse lung is comparable to that of man.",
-            "the connection between smoking and lung cancer",
-            "Lung cancer is the most commonly found cancer in men.",
-            "It's a well-known fact that smoking can cause lung cancer.",
-            "The report caps a ten-year study of lung cancer among nonsmokers.",
-            "It's a fact that most deaths from lung cancer are caused by smoking.",
-            "Cigarette smoking is the single most important cause of lung cancer.",
-            "Smoking is known to increase a person's risk of developing lung cancer.",
-            "Because of conditions in the mine, miners are predisposed to lung disease.",
-            "Researchers have found a direct correlation between smoking and lung cancer.",
-            "It can be hard for even a trained doctor to spot the symptoms of lung cancer.",
-            "It's ironic that her husband smoked for thirty years, and yet she's the one who died of lung cancer."
-        ],
-        "example_translate": [
-            "Курение является основной причиной лёгочных заболеваний.",
-            "Пуля пробила ему легкое.",
-            "Пуля пробила ему лёгкое.",
-            "Курение может стать причиной рака лёгких.",
-            "Амфорическое дыхание указывает на наличие в лёгких полости.",
-            "Курение приводит к раку лёгких.",
-            "Заболеваемость раком лёгких остаётся на прежнем уровне.",
-            "Показатели смертности от рака лёгких выросли.",
-            "У людей, которые курят, риск возникновения рака лёгких значительно выше, чем у некурящих.",
-            "переносчики этого заболевания лёгких — туберкулёза",
-            "Курение является фактором, способствующим раку лёгких.",
-            "Этот больной раком лёгких не может сделать нормальный вдох.",
-            "Доказательства того, что курение вызывает рак лёгких, являются очень убедительными.",
-            "Насколько это можно установить, лошадиное легкое сходно с человеческим.",
-            "связь между курением и раком лёгких",
-            "Рак лёгких является наиболее часто встречающимся раковым заболеванием у мужчин.",
-            "Хорошо известно, что курение может вызвать рак лёгких.",
-            "Этот отчёт завершает десятилетнее изучение рака лёгких среди некурящих.",
-            "Это факт, что большинство случаев смерти от рака лёгких вызваны курением.",
-            "Курение сигарет является наиболее важной причиной рака лёгких.",
-            "Курение, как известно, повышает риск развития рака легких.",
-            "Из-за условий в шахте, шахтёры предрасположены к болезням лёгких.",
-            "Исследователи обнаружили прямую взаимосвязь между курением и раком лёгких.",
-            "Даже опытным врачам порой тяжело обнаружить симптомы рака лёгких.",
-            "По иронии судьбы, именно она умерла от рака лёгких, хотя курильщиком с тридцатилетним стажем был её муж."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "lung": {
+    "comment": [
+      "lunch"
+    ],
+    "translate": "легкое",
+    "transcription": " |lʌŋ|",
+    "antonyms": [],
+    "mnemonic": [
+      "lung [ланг] лёгкое - (Аква-ланг) - водяное лёгкое."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Smoking is the prime cause of lung disease.",
+        "ru": "Курение является основной причиной лёгочных заболеваний.",
+        "learn": 1
+      },
+      {
+        "eng": "One bullet punctured his lung.",
+        "ru": "Пуля пробила ему легкое.",
+        "learn": 0
+      },
+      {
+        "eng": "The bullet pierced his lung.",
+        "ru": "Пуля пробила ему лёгкое.",
+        "learn": 0
+      },
+      {
+        "eng": "Smoking can cause lung cancer.",
+        "ru": "Курение может стать причиной рака лёгких.",
+        "learn": 0
+      },
+      {
+        "eng": "Amphoric breathing indicates a cavity in the lung.",
+        "ru": "Амфорическое дыхание указывает на наличие в лёгких полости.",
+        "learn": 0
+      },
+      {
+        "eng": "Smoking causes lung cancer.",
+        "ru": "Курение приводит к раку лёгких.",
+        "learn": 0
+      },
+      {
+        "eng": "Incidence of lung cancer has plateaued out.",
+        "ru": "Заболеваемость раком лёгких остаётся на прежнем уровне.",
+        "learn": 0
+      },
+      {
+        "eng": "Lung cancer death rates are up.",
+        "ru": "Показатели смертности от рака лёгких выросли.",
+        "learn": 0
+      },
+      {
+        "eng": "People who smoke have a significantly greater risk of developing lung cancer than people who don't.",
+        "ru": "У людей, которые курят, риск возникновения рака лёгких значительно выше, чем у некурящих.",
+        "learn": 0
+      },
+      {
+        "eng": "carriers of the lung disease, TB",
+        "ru": "переносчики этого заболевания лёгких — туберкулёза",
+        "learn": 0
+      },
+      {
+        "eng": "Smoking is a contributory factor in lung cancer.",
+        "ru": "Курение является фактором, способствующим раку лёгких.",
+        "learn": 0
+      },
+      {
+        "eng": "The lung cancer patient cannot inspire air very well.",
+        "ru": "Этот больной раком лёгких не может сделать нормальный вдох.",
+        "learn": 0
+      },
+      {
+        "eng": "The evidence that smoking causes lung cancer is very compelling.",
+        "ru": "Доказательства того, что курение вызывает рак лёгких, являются очень убедительными.",
+        "learn": 0
+      },
+      {
+        "eng": "Insofar as it can be ascertained, the horse lung is comparable to that of man.",
+        "ru": "Насколько это можно установить, лошадиное легкое сходно с человеческим.",
+        "learn": 0
+      },
+      {
+        "eng": "the connection between smoking and lung cancer",
+        "ru": "связь между курением и раком лёгких",
+        "learn": 0
+      },
+      {
+        "eng": "Lung cancer is the most commonly found cancer in men.",
+        "ru": "Рак лёгких является наиболее часто встречающимся раковым заболеванием у мужчин.",
+        "learn": 0
+      },
+      {
+        "eng": "It's a well-known fact that smoking can cause lung cancer.",
+        "ru": "Хорошо известно, что курение может вызвать рак лёгких.",
+        "learn": 1
+      },
+      {
+        "eng": "The report caps a ten-year study of lung cancer among nonsmokers.",
+        "ru": "Этот отчёт завершает десятилетнее изучение рака лёгких среди некурящих.",
+        "learn": 0
+      },
+      {
+        "eng": "It's a fact that most deaths from lung cancer are caused by smoking.",
+        "ru": "Это факт, что большинство случаев смерти от рака лёгких вызваны курением.",
+        "learn": 0
+      },
+      {
+        "eng": "Cigarette smoking is the single most important cause of lung cancer.",
+        "ru": "Курение сигарет является наиболее важной причиной рака лёгких.",
+        "learn": 0
+      },
+      {
+        "eng": "Smoking is known to increase a person's risk of developing lung cancer.",
+        "ru": "Курение, как известно, повышает риск развития рака легких.",
+        "learn": 0
+      },
+      {
+        "eng": "Because of conditions in the mine, miners are predisposed to lung disease.",
+        "ru": "Из-за условий в шахте, шахтёры предрасположены к болезням лёгких.",
+        "learn": 0
+      },
+      {
+        "eng": "Researchers have found a direct correlation between smoking and lung cancer.",
+        "ru": "Исследователи обнаружили прямую взаимосвязь между курением и раком лёгких.",
+        "learn": 1
+      },
+      {
+        "eng": "It can be hard for even a trained doctor to spot the symptoms of lung cancer.",
+        "ru": "Даже опытным врачам порой тяжело обнаружить симптомы рака лёгких.",
+        "learn": 0
+      },
+      {
+        "eng": "It's ironic that her husband smoked for thirty years, and yet she's the one who died of lung cancer.",
+        "ru": "По иронии судьбы, именно она умерла от рака лёгких, хотя курильщиком с тридцатилетним стажем был её муж.",
+        "learn": 0
+      }
+    ]
+  }
 }

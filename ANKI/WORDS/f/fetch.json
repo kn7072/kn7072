@@ -1,84 +1,170 @@
 {
-    "fetch": {
-        "comment": [
-            "stretch",
-            "sketch"
-        ],
-        "translate": "получать, выбирать, привести, приносить, двойник, хитрость, привидение, уловка",
-        "transcription": " |fetʃ|",
-        "antonyms": [],
-        "mnemonic": [
-            "fetch [фэч] приносить, приводить, привозить - (Феч-ный) огонь приносит людям тепло.",
-            "fetch [fetʃ]\n***\nМеня ПОСЛАЛИ взять картечь. (это) fetch\nПРИНЕСИТЕ мне картечь. (это) fetch\nПРИВЕДЕНИЕ и ПРИЗРАК = Фетч. (это) fetch\nУловка, хитрость., усилие., привидение."
-        ],
-        "examples": [
-            "Would you mind going to fetch the kids from school?",
-            "If you throw the ball the dog will fetch it.",
-            "Quick! Go and fetch a doctor.",
-            "The devil will fetch you!",
-            "The great bell fetches us in.",
-            "The dog fetched the hat.",
-            "It is a mere fetch to favour his retreat.",
-            "His land fetched 15 pounds an acre.",
-            "The painting is expected to fetch at least $20 million.",
-            "The teacher helped to fetch out the meaning of the poem.",
-            "Presentiment is the fetch of danger.",
-            "Fetch me some coffee while you're up.",
-            "At that time coffee fetched a good price.",
-            "Peter has fainted., this bucket of water should fetch him round.",
-            "Nip off to the shops before they close and fetch me some milk, will you?",
-            "The house fetched more than we expected.",
-            "When Jim's driving, we never know where we'll fetch up.",
-            "Who would have guessed that he would fetch up as director of the firm?",
-            "What but a great fetch of imaginative power?",
-            "Fetch aft the rum, Darby! (Stevenson)",
-            "Mary is very quiet, try to fetch her out at the party.",
-            "We shall fetch up in trouble if he goes on spending the firm's money like that.",
-            "Shannon went upstairs to fetch some blankets.",
-            "To say that the child has got its father's nose fetches the parents.",
-            "We'll fetch the workers out for more pay.",
-            "And he fetches me with the butt-end of the gun.",
-            "Be careful, you could fetch up by getting hurt.",
-            "Premium products generally fetch a premium price.",
-            "This table should fetch quite a bit at auction.",
-            "Am I supposed to fetch and carry for him all day?"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ты не против забрать /привести/ детей из школы?",
-            "Если бросить мяч, собака его принесёт.",
-            "Быстро! Иди и приведи доктора.",
-            "Дьявол придет за вами!",
-            "Звон колокола приглашает нас войти.",
-            "Собака принесла шляпу.",
-            "Это не более чем уловка, чтобы прикрыть отступление.",
-            "Его земля приносила 15 фунтов с акра.",
-            "Картина, как ожидается, принесёт не менее двадцати миллионов долларов.",
-            "Учитель помог понять смысл стихотворения.",
-            "Предчувствие - что-то вроде призрака опасности.",
-            "Принеси мне кофе, раз уж ты встал.",
-            "В то время кофе продавался по хорошей цене.",
-            "Питер упал в обморок., ведро воды должно привести его в чувство.",
-            "Сгоняй в магазин, пока он не закрылся, и купи немного молока, а?",
-            "Дом принёс больше денег, чем мы ожидали.",
-            "Когда Джим за рулём, никогда не знаешь, куда приедешь.",
-            "Кто бы мог предположить, что он станет директором фирмы!",
-            "Что, кроме фантастического напряжения воображения?",
-            "Дарби, принеси на корму рому!",
-            "Мэри слишком робкая, попытайся расшевелить её на вечеринке.",
-            "У нас в итоге будут большие неприятности, если он продолжит так же транжирить деньги компании.",
-            "Шеннон поднялась наверх, чтобы принести несколько одеял.",
-            "Родителям нравится, когда им говорят, что у их ребёнка отцовский нос.",
-            "Мы выведем рабочих на забастовку с требованием поднять зарплату.",
-            "И он ударяет меня рукояткой пистолета.",
-            "Будь осторожнее, ты можешь в конце концов пораниться.",
-            "Товары высшего качества обычно продаются за самую высокую цену.",
-            "Этот стол должен принести круглую сумму на аукционе.",
-            "Я что, весь день должен быть у него на побегушках?"
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "fetch": {
+    "comment": [
+      "stretch",
+      "sketch"
+    ],
+    "translate": "получать, выбирать, привести, приносить, двойник, хитрость, привидение, уловка",
+    "transcription": " |fetʃ|",
+    "antonyms": [],
+    "mnemonic": [
+      "fetch [фэч] приносить, приводить, привозить - (Феч-ный) огонь приносит людям тепло.",
+      "fetch [fetʃ]\n***\nМеня ПОСЛАЛИ взять картечь. (это) fetch\nПРИНЕСИТЕ мне картечь. (это) fetch\nПРИВЕДЕНИЕ и ПРИЗРАК = Фетч. (это) fetch\nУловка, хитрость., усилие., привидение."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Would you mind going to fetch the kids from school?",
+        "ru": "Ты не против забрать /привести/ детей из школы?",
+        "learn": 0
+      },
+      {
+        "eng": "If you throw the ball the dog will fetch it.",
+        "ru": "Если бросить мяч, собака его принесёт.",
+        "learn": 1
+      },
+      {
+        "eng": "Quick! Go and fetch a doctor.",
+        "ru": "Быстро! Иди и приведи доктора.",
+        "learn": 1
+      },
+      {
+        "eng": "The devil will fetch you!",
+        "ru": "Дьявол придет за вами!",
+        "learn": 1
+      },
+      {
+        "eng": "The great bell fetches us in.",
+        "ru": "Звон колокола приглашает нас войти.",
+        "learn": 0
+      },
+      {
+        "eng": "The dog fetched the hat.",
+        "ru": "Собака принесла шляпу.",
+        "learn": 0
+      },
+      {
+        "eng": "It is a mere fetch to favour his retreat.",
+        "ru": "Это не более чем уловка, чтобы прикрыть отступление.",
+        "learn": 0
+      },
+      {
+        "eng": "His land fetched 15 pounds an acre.",
+        "ru": "Его земля приносила 15 фунтов с акра.",
+        "learn": 0
+      },
+      {
+        "eng": "The painting is expected to fetch at least $20 million.",
+        "ru": "Картина, как ожидается, принесёт не менее двадцати миллионов долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "The teacher helped to fetch out the meaning of the poem.",
+        "ru": "Учитель помог понять смысл стихотворения.",
+        "learn": 0
+      },
+      {
+        "eng": "Presentiment is the fetch of danger.",
+        "ru": "Предчувствие - что-то вроде призрака опасности.",
+        "learn": 0
+      },
+      {
+        "eng": "Fetch me some coffee while you're up.",
+        "ru": "Принеси мне кофе, раз уж ты встал.",
+        "learn": 0
+      },
+      {
+        "eng": "At that time coffee fetched a good price.",
+        "ru": "В то время кофе продавался по хорошей цене.",
+        "learn": 0
+      },
+      {
+        "eng": "Peter has fainted., this bucket of water should fetch him round.",
+        "ru": "Питер упал в обморок., ведро воды должно привести его в чувство.",
+        "learn": 0
+      },
+      {
+        "eng": "Nip off to the shops before they close and fetch me some milk, will you?",
+        "ru": "Сгоняй в магазин, пока он не закрылся, и купи немного молока, а?",
+        "learn": 0
+      },
+      {
+        "eng": "The house fetched more than we expected.",
+        "ru": "Дом принёс больше денег, чем мы ожидали.",
+        "learn": 0
+      },
+      {
+        "eng": "When Jim's driving, we never know where we'll fetch up.",
+        "ru": "Когда Джим за рулём, никогда не знаешь, куда приедешь.",
+        "learn": 0
+      },
+      {
+        "eng": "Who would have guessed that he would fetch up as director of the firm?",
+        "ru": "Кто бы мог предположить, что он станет директором фирмы!",
+        "learn": 0
+      },
+      {
+        "eng": "What but a great fetch of imaginative power?",
+        "ru": "Что, кроме фантастического напряжения воображения?",
+        "learn": 0
+      },
+      {
+        "eng": "Fetch aft the rum, Darby! (Stevenson)",
+        "ru": "Дарби, принеси на корму рому!",
+        "learn": 0
+      },
+      {
+        "eng": "Mary is very quiet, try to fetch her out at the party.",
+        "ru": "Мэри слишком робкая, попытайся расшевелить её на вечеринке.",
+        "learn": 0
+      },
+      {
+        "eng": "We shall fetch up in trouble if he goes on spending the firm's money like that.",
+        "ru": "У нас в итоге будут большие неприятности, если он продолжит так же транжирить деньги компании.",
+        "learn": 0
+      },
+      {
+        "eng": "Shannon went upstairs to fetch some blankets.",
+        "ru": "Шеннон поднялась наверх, чтобы принести несколько одеял.",
+        "learn": 0
+      },
+      {
+        "eng": "To say that the child has got its father's nose fetches the parents.",
+        "ru": "Родителям нравится, когда им говорят, что у их ребёнка отцовский нос.",
+        "learn": 0
+      },
+      {
+        "eng": "We'll fetch the workers out for more pay.",
+        "ru": "Мы выведем рабочих на забастовку с требованием поднять зарплату.",
+        "learn": 0
+      },
+      {
+        "eng": "And he fetches me with the butt-end of the gun.",
+        "ru": "И он ударяет меня рукояткой пистолета.",
+        "learn": 0
+      },
+      {
+        "eng": "Be careful, you could fetch up by getting hurt.",
+        "ru": "Будь осторожнее, ты можешь в конце концов пораниться.",
+        "learn": 0
+      },
+      {
+        "eng": "Premium products generally fetch a premium price.",
+        "ru": "Товары высшего качества обычно продаются за самую высокую цену.",
+        "learn": 0
+      },
+      {
+        "eng": "This table should fetch quite a bit at auction.",
+        "ru": "Этот стол должен принести круглую сумму на аукционе.",
+        "learn": 0
+      },
+      {
+        "eng": "Am I supposed to fetch and carry for him all day?",
+        "ru": "Я что, весь день должен быть у него на побегушках?",
+        "learn": 0
+      }
+    ]
+  }
 }

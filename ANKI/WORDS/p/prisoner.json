@@ -1,81 +1,167 @@
 {
-    "prisoner": {
-        "comment": [
-            "prison",
-            "imprisonment"
-        ],
-        "translate": "заключенный, пленный, узник, арестант, арестованный, подсудимый, военнопленный",
-        "transcription": " |ˈprɪznər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Our pilot was taken prisoner.",
-            "The judge released the prisoner.",
-            "Prisoner has done a guy.",
-            "He is a prisoner of his own past.",
-            "The prisoner was given an early release.",
-            "Both boys were taken prisoner.",
-            "The prisoner was convicted of robbery.",
-            "Blindfold the prisoner!",
-            "The prisoner was released on parole.",
-            "Who speaks for the prisoner?",
-            "He manacled the prisoner to the wall.",
-            "The prisoner hurled abuse at the judge.",
-            "The prisoner stands mute.",
-            "The prisoner was a hard, cruel man.",
-            "The prisoner was stripped and beaten.",
-            "The wounded prisoner uttered a groan.",
-            "The prisoner was jeered by an angry mob.",
-            "Prisoners here only serve short sentences.",
-            "The prisoner was bound to a post and shot.",
-            "I deliver the prisoner over to your charge.",
-            "The prisoner is eligible for early release.",
-            "The prisoner was idiotic and irresponsible.",
-            "The prisoner made at the guard with a knife.",
-            "The prisoner beat about for a way of escape.",
-            "The army advanced, taking 200,000 prisoners.",
-            "The police hustled the prisoner into a cell.",
-            "The unlucky prisoner was again put in irons.",
-            "'I'm a prisoner in my own home.' 'Nonsense!'",
-            "Would the prisoner please approach the bench?",
-            "The prisoner at last blubbered out his guilt."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Наш летчик был взят в плен.",
-            "Судья освободил подсудимого.",
-            "Заключённый сбежал.",
-            "Он является узником собственного прошлого.",
-            "Заключённый получил досрочное освобождение.",
-            "Оба парня были взяты в плен.",
-            "Подсудимый был осуждён за ограбление.",
-            "Завязать глаза узнику!",
-            "Заключённого освободили условно-досрочно.",
-            "Кто представляет интересы заключенного в суде?",
-            "Он приковал пленника к стене.",
-            "Заключённый осыпал судью оскорблениями.",
-            "Пленник отказывается отвечать.",
-            "Узник был человек жёсткий и жестокий.",
-            "Пленника раздели и избили.",
-            "Раненый пленник застонал.",
-            "Пленника освистала разъярённая толпа.",
-            "Здесь заключенные отбывают лишь короткие сроки заключения.",
-            "Приговорённого привязали к столбу и расстреляли.",
-            "Я вверяю этого пленного вам.",
-            "Этот заключённый имеет право на досрочное освобождение.",
-            "Заключенный был невменяем и не мог нести ответственности за свои поступки.",
-            "Заключённый набросился на охранника с ножом.",
-            "Пленник лихорадочно искал путь к побегу.",
-            "Армия продвинулась вперёд, захватив двести тысяч пленных.",
-            "Полицеские втолкнули заключённого в камеру.",
-            "Незадачливый узник снова оказался в кандалах.",
-            "— Я узник в собственном доме. — Глупости!",
-            "Обвиняемый, вы не могли бы подойти к судье?",
-            "Заключённый, рыдая, сознался наконец в своём преступлении."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "prisoner": {
+    "comment": [
+      "prison",
+      "imprisonment"
+    ],
+    "translate": "заключенный, пленный, узник, арестант, арестованный, подсудимый, военнопленный",
+    "transcription": " |ˈprɪznər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Our pilot was taken prisoner.",
+        "ru": "Наш летчик был взят в плен.",
+        "learn": 0
+      },
+      {
+        "eng": "The judge released the prisoner.",
+        "ru": "Судья освободил подсудимого.",
+        "learn": 0
+      },
+      {
+        "eng": "Prisoner has done a guy.",
+        "ru": "Заключённый сбежал.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a prisoner of his own past.",
+        "ru": "Он является узником собственного прошлого.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner was given an early release.",
+        "ru": "Заключённый получил досрочное освобождение.",
+        "learn": 0
+      },
+      {
+        "eng": "Both boys were taken prisoner.",
+        "ru": "Оба парня были взяты в плен.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner was convicted of robbery.",
+        "ru": "Подсудимый был осуждён за ограбление.",
+        "learn": 0
+      },
+      {
+        "eng": "Blindfold the prisoner!",
+        "ru": "Завязать глаза узнику!",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner was released on parole.",
+        "ru": "Заключённого освободили условно-досрочно.",
+        "learn": 0
+      },
+      {
+        "eng": "Who speaks for the prisoner?",
+        "ru": "Кто представляет интересы заключенного в суде?",
+        "learn": 0
+      },
+      {
+        "eng": "He manacled the prisoner to the wall.",
+        "ru": "Он приковал пленника к стене.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner hurled abuse at the judge.",
+        "ru": "Заключённый осыпал судью оскорблениями.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner stands mute.",
+        "ru": "Пленник отказывается отвечать.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner was a hard, cruel man.",
+        "ru": "Узник был человек жёсткий и жестокий.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner was stripped and beaten.",
+        "ru": "Пленника раздели и избили.",
+        "learn": 0
+      },
+      {
+        "eng": "The wounded prisoner uttered a groan.",
+        "ru": "Раненый пленник застонал.",
+        "learn": 1
+      },
+      {
+        "eng": "The prisoner was jeered by an angry mob.",
+        "ru": "Пленника освистала разъярённая толпа.",
+        "learn": 0
+      },
+      {
+        "eng": "Prisoners here only serve short sentences.",
+        "ru": "Здесь заключенные отбывают лишь короткие сроки заключения.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner was bound to a post and shot.",
+        "ru": "Приговорённого привязали к столбу и расстреляли.",
+        "learn": 1
+      },
+      {
+        "eng": "I deliver the prisoner over to your charge.",
+        "ru": "Я вверяю этого пленного вам.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner is eligible for early release.",
+        "ru": "Этот заключённый имеет право на досрочное освобождение.",
+        "learn": 1
+      },
+      {
+        "eng": "The prisoner was idiotic and irresponsible.",
+        "ru": "Заключенный был невменяем и не мог нести ответственности за свои поступки.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner made at the guard with a knife.",
+        "ru": "Заключённый набросился на охранника с ножом.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner beat about for a way of escape.",
+        "ru": "Пленник лихорадочно искал путь к побегу.",
+        "learn": 0
+      },
+      {
+        "eng": "The army advanced, taking 200,000 prisoners.",
+        "ru": "Армия продвинулась вперёд, захватив двести тысяч пленных.",
+        "learn": 0
+      },
+      {
+        "eng": "The police hustled the prisoner into a cell.",
+        "ru": "Полицеские втолкнули заключённого в камеру.",
+        "learn": 0
+      },
+      {
+        "eng": "The unlucky prisoner was again put in irons.",
+        "ru": "Незадачливый узник снова оказался в кандалах.",
+        "learn": 1
+      },
+      {
+        "eng": "'I'm a prisoner in my own home.' 'Nonsense!'",
+        "ru": "— Я узник в собственном доме. — Глупости!",
+        "learn": 0
+      },
+      {
+        "eng": "Would the prisoner please approach the bench?",
+        "ru": "Обвиняемый, вы не могли бы подойти к судье?",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner at last blubbered out his guilt.",
+        "ru": "Заключённый, рыдая, сознался наконец в своём преступлении.",
+        "learn": 0
+      }
+    ]
+  }
 }

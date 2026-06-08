@@ -1,86 +1,173 @@
 {
-    "young": {
-        "comment": [
-            "youngster",
-            "younger",
-            "lounge"
-        ],
-        "translate": "молодой, юный, младший, молодо, молодежь, детеныш",
-        "transcription": " |jʌŋ|",
-        "antonyms": [],
-        "mnemonic": [
-            "young [янг] молодой - От слова (янк-и), т.е., молодые американцы.",
-            "young [jʌŋ]\nyouth [ju:θ] - молодость, юность\n***\nЮНЫЙ парень взял баян - он не курит и не пьян.\n(это) young\nМОЛОДОЙ парень не пьян. (это) young"
-        ],
-        "examples": [
-            "I was young then.",
-            "A young cat is a kitten.",
-            "He's younger than me.",
-            "A young pig is a piglet.",
-            "He looks young for his age.",
-            "Psychology is a young science.",
-            "The lioness fought to protect her young.",
-            "a book for young people",
-            "When I was young , I wanted to be a model.",
-            "Only the good die young.",
-            "I'm looking for something in a younger style.",
-            "He is young for his age.",
-            "Val is incredibly young for her age.",
-            "At that time, America was still a young nation.",
-            "Holbein the Younger",
-            "He's a fine young man.",
-            "Young leopard is a cub.",
-            "A young deer is a fawn.",
-            "A young sheep is a lamb.",
-            "A young whale is a calf.",
-            "She looks young for her age.",
-            "He was young and tall.",
-            "He's a clean young man.",
-            "Young cattle are calves.",
-            "a robin feeding her young",
-            "a hot young guitar player",
-            "a very forward young woman",
-            "He looks young for his years.",
-            "John was a great footballer in his younger days (=when he was younger).",
-            "Young men senesce."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Тогда я был молод.",
-            "Детёныша кошки называют котёнком.",
-            "Он моложе меня.",
-            "Детёныша свиньи называют поросёнком.",
-            "Он выглядит молодо для своего возраста.",
-            "Психология — наука молодая.",
-            "Львица дралась, защищая своих детёнышей.",
-            "книга для молодёжи",
-            "В молодости я хотела быть моделью.",
-            "Только хорошие умирают молодыми.",
-            "Я ищу что-то более молодёжное.",
-            "Он молодо выглядит для своего возраста.",
-            "Для своего возраста Вэл выглядит невероятно молодо.",
-            "В то время Америка была ещё молодой страной.",
-            "Гольбейн Младший",
-            "Он прекрасный молодой человек.",
-            "Молодой леопард - cub.",
-            "Детеныш оленя называется оленёнком.",
-            "Детёныш овцы называется ягнёнком.",
-            "Детёныш кита — китёнок.",
-            "Для своего возраста она молодо выглядит.",
-            "Он был молод и высок.",
-            "Он опрятный молодой человек.",
-            "Молодые особи крупного рогатого скота называются телята.",
-            "малиновка, которая кормит птенцов",
-            "страстный молодой гитарист",
-            "очень нахальная девушка",
-            "Он молодо выглядит для своих лет.",
-            "Джон был отличным футболистом в молодости (т.е. когда он был помоложе).",
-            "Молодые стареют."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ou_=_[ʌ]"
-        ]
-    }
+  "young": {
+    "comment": [
+      "youngster",
+      "younger",
+      "lounge"
+    ],
+    "translate": "молодой, юный, младший, молодо, молодежь, детеныш",
+    "transcription": " |jʌŋ|",
+    "antonyms": [],
+    "mnemonic": [
+      "young [янг] молодой - От слова (янк-и), т.е., молодые американцы.",
+      "young [jʌŋ]\nyouth [ju:θ] - молодость, юность\n***\nЮНЫЙ парень взял баян - он не курит и не пьян.\n(это) young\nМОЛОДОЙ парень не пьян. (это) young"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ou_=_[ʌ]"
+    ],
+    "examples": [
+      {
+        "eng": "I was young then.",
+        "ru": "Тогда я был молод.",
+        "learn": 1
+      },
+      {
+        "eng": "A young cat is a kitten.",
+        "ru": "Детёныша кошки называют котёнком.",
+        "learn": 1
+      },
+      {
+        "eng": "He's younger than me.",
+        "ru": "Он моложе меня.",
+        "learn": 0
+      },
+      {
+        "eng": "A young pig is a piglet.",
+        "ru": "Детёныша свиньи называют поросёнком.",
+        "learn": 0
+      },
+      {
+        "eng": "He looks young for his age.",
+        "ru": "Он выглядит молодо для своего возраста.",
+        "learn": 0
+      },
+      {
+        "eng": "Psychology is a young science.",
+        "ru": "Психология — наука молодая.",
+        "learn": 0
+      },
+      {
+        "eng": "The lioness fought to protect her young.",
+        "ru": "Львица дралась, защищая своих детёнышей.",
+        "learn": 0
+      },
+      {
+        "eng": "a book for young people",
+        "ru": "книга для молодёжи",
+        "learn": 0
+      },
+      {
+        "eng": "When I was young , I wanted to be a model.",
+        "ru": "В молодости я хотела быть моделью.",
+        "learn": 0
+      },
+      {
+        "eng": "Only the good die young.",
+        "ru": "Только хорошие умирают молодыми.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm looking for something in a younger style.",
+        "ru": "Я ищу что-то более молодёжное.",
+        "learn": 0
+      },
+      {
+        "eng": "He is young for his age.",
+        "ru": "Он молодо выглядит для своего возраста.",
+        "learn": 0
+      },
+      {
+        "eng": "Val is incredibly young for her age.",
+        "ru": "Для своего возраста Вэл выглядит невероятно молодо.",
+        "learn": 0
+      },
+      {
+        "eng": "At that time, America was still a young nation.",
+        "ru": "В то время Америка была ещё молодой страной.",
+        "learn": 1
+      },
+      {
+        "eng": "Holbein the Younger",
+        "ru": "Гольбейн Младший",
+        "learn": 0
+      },
+      {
+        "eng": "He's a fine young man.",
+        "ru": "Он прекрасный молодой человек.",
+        "learn": 0
+      },
+      {
+        "eng": "Young leopard is a cub.",
+        "ru": "Молодой леопард - cub.",
+        "learn": 0
+      },
+      {
+        "eng": "A young deer is a fawn.",
+        "ru": "Детеныш оленя называется оленёнком.",
+        "learn": 0
+      },
+      {
+        "eng": "A young sheep is a lamb.",
+        "ru": "Детёныш овцы называется ягнёнком.",
+        "learn": 1
+      },
+      {
+        "eng": "A young whale is a calf.",
+        "ru": "Детёныш кита — китёнок.",
+        "learn": 0
+      },
+      {
+        "eng": "She looks young for her age.",
+        "ru": "Для своего возраста она молодо выглядит.",
+        "learn": 1
+      },
+      {
+        "eng": "He was young and tall.",
+        "ru": "Он был молод и высок.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a clean young man.",
+        "ru": "Он опрятный молодой человек.",
+        "learn": 0
+      },
+      {
+        "eng": "Young cattle are calves.",
+        "ru": "Молодые особи крупного рогатого скота называются телята.",
+        "learn": 0
+      },
+      {
+        "eng": "a robin feeding her young",
+        "ru": "малиновка, которая кормит птенцов",
+        "learn": 0
+      },
+      {
+        "eng": "a hot young guitar player",
+        "ru": "страстный молодой гитарист",
+        "learn": 0
+      },
+      {
+        "eng": "a very forward young woman",
+        "ru": "очень нахальная девушка",
+        "learn": 0
+      },
+      {
+        "eng": "He looks young for his years.",
+        "ru": "Он молодо выглядит для своих лет.",
+        "learn": 1
+      },
+      {
+        "eng": "John was a great footballer in his younger days (=when he was younger).",
+        "ru": "Джон был отличным футболистом в молодости (т.е. когда он был помоложе).",
+        "learn": 0
+      },
+      {
+        "eng": "Young men senesce.",
+        "ru": "Молодые стареют.",
+        "learn": 0
+      }
+    ]
+  }
 }

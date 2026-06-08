@@ -1,83 +1,172 @@
 {
-    "swim": {
-        "comment": [
-            "swimming"
-        ],
-        "translate": "плавать, плыть, проплывать, переплывать, плавание, головокружение, обморок",
-        "transcription": " |swɪm|",
-        "antonyms": [],
-        "mnemonic": [
-            "swim [с(ув)и'м] купаться, плыть - (С вым-ытыми) плавками купаться приятно.",
-            "swim [swım]\n***\nПЛЫТЬ заставим - отрезвим. (это) swim\nПлавание."
-        ],
-        "examples": [
-            "Let's go for a swim.",
-            "My head began to swim.",
-            "Ducks swam in the pond.",
-            "A swim will do me good.",
-            "I fancy a swim.",
-            "Is it safe to swim here?",
-            "He's teaching the children to swim.",
-            "The meat swims in gravy.",
-            "Are you game for a swim?",
-            "My father taught me to swim.",
-            "I can't swim yet, but I'm learning.",
-            "She could swim across the lake.",
-            "I felt weak and my head was swimming.",
-            "We'll have to swim across.",
-            "My swim was very refreshing.",
-            "I swim anyone hundred yards.",
-            "He swam the English Channel.",
-            "The room swam before my eyes.",
-            "He's gone for a midnight swim.",
-            "The numbers swam before my eyes.",
-            "She swam across the pool.",
-            "She began to swim to shore.",
-            "We swam in the chilly water.",
-            "'You can't swim.' 'I can so.'",
-            "Let's go swimming this afternoon.",
-            "Fortunately for him, he can swim.",
-            "They took a short swim in the pool.",
-            "A big fish was swimming in the tank.",
-            "The racers must swim the backstroke.",
-            "It was the swimming they enjoyed most."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Пойдёмте купаться.",
-            "У меня закружилась голова.",
-            "Утки плавали в пруду.",
-            "Мне будет полезно немного поплавать.",
-            "Ужасно хочется искупаться.",
-            "Здесь можно / безопасно купаться?",
-            "Он учит детей плавать.",
-            "Мясо залито подливкой.",
-            "Хочешь поплавать?",
-            "Отец научил меня плавать.",
-            "Я пока что не умею плавать, но я учусь.",
-            "Она могла переплыть через озеро.",
-            "Я почувствовал слабость, и голова пошла кругом.",
-            "Нам придётся переплыть на тот берег.",
-            "Купание меня очень освежило.",
-            "Я с кем угодно поплыву наперегонки на сто ярдов.",
-            "Он переплыл Ла-Манш.",
-            "Комната поплыла у меня перед глазами.",
-            "Он пошел поплавать посреди ночи.",
-            "Цифры поплыли у меня перед глазами.",
-            "Она переплыла бассейн.",
-            "Она поплыла к берегу.",
-            "Мы купались в прохладной воде. / Мы плавали в холодной воде.",
-            "— Ты не умеешь плавать. — Нет, умею. (амер., дет.)",
-            "Пойдём поплаваем после обеда.",
-            "К счастью для него, он умеет плавать.",
-            "Они сделали небольшой заплыв в бассейне.",
-            "В аквариуме плавала большая рыбина.",
-            "Участники заплыва должны плыть на спине.",
-            "Больше всего им понравилось плавать."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "swim": {
+    "comment": [
+      "swam |swæm|,                                          swum |swʌm|",
+      "swimming"
+    ],
+    "translate": "плавать, плыть, проплывать, переплывать, плавание, головокружение, обморок",
+    "transcription": " |swɪm|",
+    "antonyms": [],
+    "mnemonic": [
+      "swim [с(ув)и'м] купаться, плыть - (С вым-ытыми) плавками купаться приятно.",
+      "swim [swım]\n***\nПЛЫТЬ заставим - отрезвим. (это) swim\nПлавание."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Let's go for a swim.",
+        "ru": "Пойдёмте купаться.",
+        "learn": 0
+      },
+      {
+        "eng": "My head began to swim.",
+        "ru": "У меня закружилась голова.",
+        "learn": 0
+      },
+      {
+        "eng": "Ducks swam in the pond.",
+        "ru": "Утки плавали в пруду.",
+        "learn": 0
+      },
+      {
+        "eng": "A swim will do me good.",
+        "ru": "Мне будет полезно немного поплавать.",
+        "learn": 0
+      },
+      {
+        "eng": "I fancy a swim.",
+        "ru": "Ужасно хочется искупаться.",
+        "learn": 0
+      },
+      {
+        "eng": "Is it safe to swim here?",
+        "ru": "Здесь можно / безопасно купаться?",
+        "learn": 0
+      },
+      {
+        "eng": "He's teaching the children to swim.",
+        "ru": "Он учит детей плавать.",
+        "learn": 1
+      },
+      {
+        "eng": "The meat swims in gravy.",
+        "ru": "Мясо залито подливкой.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you game for a swim?",
+        "ru": "Хочешь поплавать?",
+        "learn": 0
+      },
+      {
+        "eng": "My father taught me to swim.",
+        "ru": "Отец научил меня плавать.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't swim yet, but I'm learning.",
+        "ru": "Я пока что не умею плавать, но я учусь.",
+        "learn": 0
+      },
+      {
+        "eng": "She could swim across the lake.",
+        "ru": "Она могла переплыть через озеро.",
+        "learn": 0
+      },
+      {
+        "eng": "I felt weak and my head was swimming.",
+        "ru": "Я почувствовал слабость, и голова пошла кругом.",
+        "learn": 0
+      },
+      {
+        "eng": "We'll have to swim across.",
+        "ru": "Нам придётся переплыть на тот берег.",
+        "learn": 0
+      },
+      {
+        "eng": "My swim was very refreshing.",
+        "ru": "Купание меня очень освежило.",
+        "learn": 1
+      },
+      {
+        "eng": "I swim anyone hundred yards.",
+        "ru": "Я с кем угодно поплыву наперегонки на сто ярдов.",
+        "learn": 0
+      },
+      {
+        "eng": "He swam the English Channel.",
+        "ru": "Он переплыл Ла-Манш.",
+        "learn": 0
+      },
+      {
+        "eng": "The room swam before my eyes.",
+        "ru": "Комната поплыла у меня перед глазами.",
+        "learn": 0
+      },
+      {
+        "eng": "He's gone for a midnight swim.",
+        "ru": "Он пошел поплавать посреди ночи.",
+        "learn": 0
+      },
+      {
+        "eng": "The numbers swam before my eyes.",
+        "ru": "Цифры поплыли у меня перед глазами.",
+        "learn": 0
+      },
+      {
+        "eng": "She swam across the pool.",
+        "ru": "Она переплыла бассейн.",
+        "learn": 0
+      },
+      {
+        "eng": "She began to swim to shore.",
+        "ru": "Она поплыла к берегу.",
+        "learn": 0
+      },
+      {
+        "eng": "We swam in the chilly water.",
+        "ru": "Мы купались в прохладной воде. / Мы плавали в холодной воде.",
+        "learn": 0
+      },
+      {
+        "eng": "'You can't swim.' 'I can so.'",
+        "ru": "— Ты не умеешь плавать. — Нет, умею. (амер., дет.)",
+        "learn": 0
+      },
+      {
+        "eng": "Let's go swimming this afternoon.",
+        "ru": "Пойдём поплаваем после обеда.",
+        "learn": 1
+      },
+      {
+        "eng": "Fortunately for him, he can swim.",
+        "ru": "К счастью для него, он умеет плавать.",
+        "learn": 1
+      },
+      {
+        "eng": "They took a short swim in the pool.",
+        "ru": "Они сделали небольшой заплыв в бассейне.",
+        "learn": 0
+      },
+      {
+        "eng": "A big fish was swimming in the tank.",
+        "ru": "В аквариуме плавала большая рыбина.",
+        "learn": 0
+      },
+      {
+        "eng": "The racers must swim the backstroke.",
+        "ru": "Участники заплыва должны плыть на спине.",
+        "learn": 0
+      },
+      {
+        "eng": "It was the swimming they enjoyed most.",
+        "ru": "Больше всего им понравилось плавать.",
+        "learn": 0
+      }
+    ]
+  }
 }

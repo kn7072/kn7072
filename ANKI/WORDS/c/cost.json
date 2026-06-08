@@ -1,84 +1,173 @@
 {
-    "cost": {
-        "comment": [
-            "costly",
-            "cosy"
-        ],
-        "translate": "стоить, обходиться, дорого стоить, стоимость, затраты, цена, расходы, издержки",
-        "transcription": " |kɔːst|",
-        "antonyms": [],
-        "mnemonic": [
-            "cost [кост] стоить - Сколько стоят (кост-и) эти?.",
-            "cost [kɒst]\n***\nСТОИТ дорого слоновая кость. (это) cost\nЦена, стоимость.\n***\nВысока цена \"cost\"\nспасаться от морозов \"frost\"."
-        ],
-        "examples": [
-            "It cost three dollars.",
-            "How much does it cost per kilo?",
-            "It cost a trifle.",
-            "The cost of meat finally fell.",
-            "This car costs only $24 000.",
-            "Cost is obviously important.",
-            "It must have cost a packet.",
-            "These shoes cost $100.",
-            "This mistake cost him his job.",
-            "It didn't cost me a penny.",
-            "It cost me many sleepless nights.",
-            "We expensed our moving cost.",
-            "We agreed to split the cost.",
-            "I was doing estimates of cost.",
-            "Can you give me an idea of the cost?",
-            "What will it cost, overall?",
-            "The repairs to our roof cost one hundred dollars.",
-            "What does it cost to hire a boat for a week?",
-            "They cost 50 cents each.",
-            "The cost of packing is $75 extra.",
-            "One silly mistake cost them the match.",
-            "The cost must be stopped out of his salary.",
-            "The car cost him fifteen grand.",
-            "cost of lumber per running foot",
-            "The cost must not exceed 10 dollars.",
-            "How much does it cost to hire videos?",
-            "That one mistake almost cost him his life.",
-            "A last-minute blunder cost them the match.",
-            "the solecism of asking one's hosts how much something in their house cost them",
-            "The grapes cost $2 a pound."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Это стоило три доллара.",
-            "Сколько стоит килограмм?",
-            "Это стоило недорого.",
-            "Цены на мясо наконец-то упали.",
-            "Эта машина стоит всего двадцать четыре тысячи долларов.",
-            "Стоимость, конечно, важна.",
-            "Это, должно быть, стоило уйму денег.",
-            "Эти туфли стоят сто долларов.",
-            "Эта ошибка стоила ему работы.",
-            "Это не стоило мне ни копейки /ни пенса, ни цента/.",
-            "Это стоило мне не одной бессонной ночи.",
-            "Мы списали на издержки наши расходы по переезду.",
-            "Мы договорились поделить расходы.",
-            "Я подсчитывал [рассчитывал] затраты [производил оценку затрат].",
-            "Ты не можешь мне приблизительно назвать цену?",
-            "Сколько это будет стоить в общей сложности?",
-            "Починка нашей крыши обошлась в сто долларов.",
-            "Сколько стоит недельный прокат лодки?",
-            "Они стоят по пятьдесят центов каждый.",
-            "Стоимость упаковки — семьдесят пять долларов дополнительно.",
-            "Одна глупая ошибка стоила им матча.",
-            "Стоимость должна быть удержана из его жалованья.",
-            "Автомобиль обошёлся ему в пятнадцать штук.",
-            "стоимость пиломатериалов на погонный фут",
-            "Стоимость не должна превышать десяти долларов.",
-            "Сколько стоит взять напрокат видео?",
-            "Из-за этой единственной ошибки он чуть не лишился жизни.",
-            "Грубая ошибка, совершённая на последней минуте, стоила им матча.",
-            "неприличный вопрос хозяевам дома о том, во сколько он им обошёлся",
-            "Виноград стоит два доллара за фунт."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "cost": {
+    "comment": [
+      "cost |kɔːst|,                                          cost |kɔːst|",
+      "costly",
+      "cosy"
+    ],
+    "translate": "стоить, обходиться, дорого стоить, стоимость, затраты, цена, расходы, издержки",
+    "transcription": " |kɔːst|",
+    "antonyms": [],
+    "mnemonic": [
+      "cost [кост] стоить - Сколько стоят (кост-и) эти?.",
+      "cost [kɒst]\n***\nСТОИТ дорого слоновая кость. (это) cost\nЦена, стоимость.\n***\nВысока цена \"cost\"\nспасаться от морозов \"frost\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "It cost three dollars.",
+        "ru": "Это стоило три доллара.",
+        "learn": 0
+      },
+      {
+        "eng": "How much does it cost per kilo?",
+        "ru": "Сколько стоит килограмм?",
+        "learn": 1
+      },
+      {
+        "eng": "It cost a trifle.",
+        "ru": "Это стоило недорого.",
+        "learn": 0
+      },
+      {
+        "eng": "The cost of meat finally fell.",
+        "ru": "Цены на мясо наконец-то упали.",
+        "learn": 0
+      },
+      {
+        "eng": "This car costs only $24 000.",
+        "ru": "Эта машина стоит всего двадцать четыре тысячи долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "Cost is obviously important.",
+        "ru": "Стоимость, конечно, важна.",
+        "learn": 0
+      },
+      {
+        "eng": "It must have cost a packet.",
+        "ru": "Это, должно быть, стоило уйму денег.",
+        "learn": 0
+      },
+      {
+        "eng": "These shoes cost $100.",
+        "ru": "Эти туфли стоят сто долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "This mistake cost him his job.",
+        "ru": "Эта ошибка стоила ему работы.",
+        "learn": 0
+      },
+      {
+        "eng": "It didn't cost me a penny.",
+        "ru": "Это не стоило мне ни копейки /ни пенса, ни цента/.",
+        "learn": 1
+      },
+      {
+        "eng": "It cost me many sleepless nights.",
+        "ru": "Это стоило мне не одной бессонной ночи.",
+        "learn": 0
+      },
+      {
+        "eng": "We expensed our moving cost.",
+        "ru": "Мы списали на издержки наши расходы по переезду.",
+        "learn": 0
+      },
+      {
+        "eng": "We agreed to split the cost.",
+        "ru": "Мы договорились поделить расходы.",
+        "learn": 0
+      },
+      {
+        "eng": "I was doing estimates of cost.",
+        "ru": "Я подсчитывал [рассчитывал] затраты [производил оценку затрат].",
+        "learn": 0
+      },
+      {
+        "eng": "Can you give me an idea of the cost?",
+        "ru": "Ты не можешь мне приблизительно назвать цену?",
+        "learn": 0
+      },
+      {
+        "eng": "What will it cost, overall?",
+        "ru": "Сколько это будет стоить в общей сложности?",
+        "learn": 0
+      },
+      {
+        "eng": "The repairs to our roof cost one hundred dollars.",
+        "ru": "Починка нашей крыши обошлась в сто долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "What does it cost to hire a boat for a week?",
+        "ru": "Сколько стоит недельный прокат лодки?",
+        "learn": 0
+      },
+      {
+        "eng": "They cost 50 cents each.",
+        "ru": "Они стоят по пятьдесят центов каждый.",
+        "learn": 0
+      },
+      {
+        "eng": "The cost of packing is $75 extra.",
+        "ru": "Стоимость упаковки — семьдесят пять долларов дополнительно.",
+        "learn": 0
+      },
+      {
+        "eng": "One silly mistake cost them the match.",
+        "ru": "Одна глупая ошибка стоила им матча.",
+        "learn": 1
+      },
+      {
+        "eng": "The cost must be stopped out of his salary.",
+        "ru": "Стоимость должна быть удержана из его жалованья.",
+        "learn": 0
+      },
+      {
+        "eng": "The car cost him fifteen grand.",
+        "ru": "Автомобиль обошёлся ему в пятнадцать штук.",
+        "learn": 0
+      },
+      {
+        "eng": "cost of lumber per running foot",
+        "ru": "стоимость пиломатериалов на погонный фут",
+        "learn": 0
+      },
+      {
+        "eng": "The cost must not exceed 10 dollars.",
+        "ru": "Стоимость не должна превышать десяти долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "How much does it cost to hire videos?",
+        "ru": "Сколько стоит взять напрокат видео?",
+        "learn": 1
+      },
+      {
+        "eng": "That one mistake almost cost him his life.",
+        "ru": "Из-за этой единственной ошибки он чуть не лишился жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "A last-minute blunder cost them the match.",
+        "ru": "Грубая ошибка, совершённая на последней минуте, стоила им матча.",
+        "learn": 0
+      },
+      {
+        "eng": "the solecism of asking one's hosts how much something in their house cost them",
+        "ru": "неприличный вопрос хозяевам дома о том, во сколько он им обошёлся",
+        "learn": 0
+      },
+      {
+        "eng": "The grapes cost $2 a pound.",
+        "ru": "Виноград стоит два доллара за фунт.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,84 +1,170 @@
 {
-    "uncertain": {
-        "comment": [
-            "certain",
-            "certainly",
-            "uncertainty",
-            "certainty",
-            "ascertain"
-        ],
-        "translate": "неопределенный, неуверенный, сомнительный, ненадежный, изменчивый, сомневающийся",
-        "transcription": " |ʌnˈsɜːrtn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I'm uncertain about how to respond.",
-            "The cause of the fire is uncertain.",
-            "I am uncertain about the outcome.",
-            "The market is uncertain.",
-            "It is uncertain whether he will come.",
-            "She was uncertain whether to go or stay.",
-            "She answered in no uncertain terms.",
-            "My whole future now seemed uncertain.",
-            "I am still uncertain whether they are coming.",
-            "The Etruscans are a separate race, whose origin is still quite uncertain.",
-            "The time of departure is still uncertain.",
-            "The country's economy is floundering and the future is uncertain.",
-            "We are still uncertain of the truth.",
-            "The company faces an uncertain future.",
-            "I was uncertain about what to do next.",
-            "They face a financially uncertain future.",
-            "She was uncertain whether to stay or leave.",
-            "As the project comes to an end, many workers now face an uncertain future.",
-            "The director's sudden departure leaves the organization's future uncertain.",
-            "She spoke in no uncertain terms.",
-            "a gun with a rather uncertain trigger",
-            "moving with uncertain (or unsure) steps",
-            "Journalists were told, in no uncertain terms, that they were not welcome.",
-            "Ruth hesitated, uncertain of how to combine honesty and diplomacy in her answer.",
-            "The movie is an uncertain ragout of fantasy, science fiction, and old-fashioned romance.",
-            "If you are uncertain about your physical condition, check with your doctor before trying these exercises.",
-            "He has an uncertain temper.",
-            "She remains uncertain about her plans.",
-            "It is uncertain how likely this is to occur.",
-            "I told Colin in no uncertain terms what I thought of him."
-        ],
-        "example_translate": [
-            "Я не очень понимаю, как реагировать.",
-            "Причина пожара неизвестна.",
-            "Я не уверен в том, каким будет результат.",
-            "Состояние рынка нестабильно.",
-            "Неизвестно, придёт ли он.",
-            "Она была не уверена, стоит ли ей ехать или остаться.",
-            "Её ответ был абсолютно однозначен.",
-            "Всё моё будущее теперь кажется неопределённым.",
-            "Я всё ещё не уверен, придут ли они.",
-            "Этруски - это народ-изолят, чье происхождение все еще остается совершенно неизвестным.",
-            "Время отправления по-прежнему остаётся неопределенным.",
-            "Экономика страны находится на грани краха и будущее неясно.",
-            "Мы до сих пор не знаем всей правды.",
-            "Компанию ждёт неопределённое будущее.",
-            "Я не знал, что делать дальше",
-            "Их ждёт финансово неопределённое будущее.",
-            "Она была не уверена, остаться ли ей или уйти.",
-            "Так как проект подходит к концу, многие работники теперь стоят перед лицом неопределённого будущего.",
-            "Внезапный отъезд директора оставляет будущее данной компании неопределённым.",
-            "Она выразилась очень недвусмысленно.",
-            "оружие с довольно ненадёжным спусковым крючком",
-            "двигаясь неуверенными шагами",
-            "Журналистам совершенно недвусмысленно сказали, что им тут не рады.",
-            "Рут запнулась, не зная, как ответить, чтобы было и честно, и тактично.",
-            "Этот фильм представляет собой невнятную мешанину из фэнтези, научной фантастики и старомодной мелодрамы.",
-            "Если вы не уверены в своём физическом состоянии, проконсультируйтесь с врачом перед тем, как попробовать эти упражнения.",
-            "У него вздорный характер.",
-            "Она всё ещё не уверена в своих планах.",
-            "Неясно, насколько высока вероятность того, что это произойдёт.",
-            "Я совершенно ясно рассказал Колину, что я о нём думаю."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "uncertain": {
+    "comment": [
+      "certain",
+      "certainly",
+      "uncertainty",
+      "certainty",
+      "ascertain"
+    ],
+    "translate": "неопределенный, неуверенный, сомнительный, ненадежный, изменчивый, сомневающийся",
+    "transcription": " |ʌnˈsɜːrtn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I'm uncertain about how to respond.",
+        "ru": "Я не очень понимаю, как реагировать.",
+        "learn": 0
+      },
+      {
+        "eng": "The cause of the fire is uncertain.",
+        "ru": "Причина пожара неизвестна.",
+        "learn": 1
+      },
+      {
+        "eng": "I am uncertain about the outcome.",
+        "ru": "Я не уверен в том, каким будет результат.",
+        "learn": 1
+      },
+      {
+        "eng": "The market is uncertain.",
+        "ru": "Состояние рынка нестабильно.",
+        "learn": 0
+      },
+      {
+        "eng": "It is uncertain whether he will come.",
+        "ru": "Неизвестно, придёт ли он.",
+        "learn": 0
+      },
+      {
+        "eng": "She was uncertain whether to go or stay.",
+        "ru": "Она была не уверена, стоит ли ей ехать или остаться.",
+        "learn": 0
+      },
+      {
+        "eng": "She answered in no uncertain terms.",
+        "ru": "Её ответ был абсолютно однозначен.",
+        "learn": 0
+      },
+      {
+        "eng": "My whole future now seemed uncertain.",
+        "ru": "Всё моё будущее теперь кажется неопределённым.",
+        "learn": 1
+      },
+      {
+        "eng": "I am still uncertain whether they are coming.",
+        "ru": "Я всё ещё не уверен, придут ли они.",
+        "learn": 0
+      },
+      {
+        "eng": "The Etruscans are a separate race, whose origin is still quite uncertain.",
+        "ru": "Этруски - это народ-изолят, чье происхождение все еще остается совершенно неизвестным.",
+        "learn": 0
+      },
+      {
+        "eng": "The time of departure is still uncertain.",
+        "ru": "Время отправления по-прежнему остаётся неопределенным.",
+        "learn": 0
+      },
+      {
+        "eng": "The country's economy is floundering and the future is uncertain.",
+        "ru": "Экономика страны находится на грани краха и будущее неясно.",
+        "learn": 0
+      },
+      {
+        "eng": "We are still uncertain of the truth.",
+        "ru": "Мы до сих пор не знаем всей правды.",
+        "learn": 0
+      },
+      {
+        "eng": "The company faces an uncertain future.",
+        "ru": "Компанию ждёт неопределённое будущее.",
+        "learn": 0
+      },
+      {
+        "eng": "I was uncertain about what to do next.",
+        "ru": "Я не знал, что делать дальше",
+        "learn": 0
+      },
+      {
+        "eng": "They face a financially uncertain future.",
+        "ru": "Их ждёт финансово неопределённое будущее.",
+        "learn": 0
+      },
+      {
+        "eng": "She was uncertain whether to stay or leave.",
+        "ru": "Она была не уверена, остаться ли ей или уйти.",
+        "learn": 1
+      },
+      {
+        "eng": "As the project comes to an end, many workers now face an uncertain future.",
+        "ru": "Так как проект подходит к концу, многие работники теперь стоят перед лицом неопределённого будущего.",
+        "learn": 0
+      },
+      {
+        "eng": "The director's sudden departure leaves the organization's future uncertain.",
+        "ru": "Внезапный отъезд директора оставляет будущее данной компании неопределённым.",
+        "learn": 0
+      },
+      {
+        "eng": "She spoke in no uncertain terms.",
+        "ru": "Она выразилась очень недвусмысленно.",
+        "learn": 0
+      },
+      {
+        "eng": "a gun with a rather uncertain trigger",
+        "ru": "оружие с довольно ненадёжным спусковым крючком",
+        "learn": 0
+      },
+      {
+        "eng": "moving with uncertain (or unsure) steps",
+        "ru": "двигаясь неуверенными шагами",
+        "learn": 0
+      },
+      {
+        "eng": "Journalists were told, in no uncertain terms, that they were not welcome.",
+        "ru": "Журналистам совершенно недвусмысленно сказали, что им тут не рады.",
+        "learn": 0
+      },
+      {
+        "eng": "Ruth hesitated, uncertain of how to combine honesty and diplomacy in her answer.",
+        "ru": "Рут запнулась, не зная, как ответить, чтобы было и честно, и тактично.",
+        "learn": 0
+      },
+      {
+        "eng": "The movie is an uncertain ragout of fantasy, science fiction, and old-fashioned romance.",
+        "ru": "Этот фильм представляет собой невнятную мешанину из фэнтези, научной фантастики и старомодной мелодрамы.",
+        "learn": 0
+      },
+      {
+        "eng": "If you are uncertain about your physical condition, check with your doctor before trying these exercises.",
+        "ru": "Если вы не уверены в своём физическом состоянии, проконсультируйтесь с врачом перед тем, как попробовать эти упражнения.",
+        "learn": 0
+      },
+      {
+        "eng": "He has an uncertain temper.",
+        "ru": "У него вздорный характер.",
+        "learn": 0
+      },
+      {
+        "eng": "She remains uncertain about her plans.",
+        "ru": "Она всё ещё не уверена в своих планах.",
+        "learn": 0
+      },
+      {
+        "eng": "It is uncertain how likely this is to occur.",
+        "ru": "Неясно, насколько высока вероятность того, что это произойдёт.",
+        "learn": 0
+      },
+      {
+        "eng": "I told Colin in no uncertain terms what I thought of him.",
+        "ru": "Я совершенно ясно рассказал Колину, что я о нём думаю.",
+        "learn": 0
+      }
+    ]
+  }
 }

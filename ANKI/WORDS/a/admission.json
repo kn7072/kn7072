@@ -1,94 +1,180 @@
 {
-    "admission": {
-        "comment": [
-            "admit",
-            "admittedly",
-            "dismiss",
-            "permission",
-            "missing",
-            "miss",
-            "missile",
-            "mission",
-            "omission",
-            "submission",
-            "emission",
-            "dismissal"
-        ],
-        "translate": "вход, признание, впуск, допущение, принятие, вступительный, пропускной, впускной",
-        "transcription": " |ədˈmɪʃn|",
-        "antonyms": [],
-        "mnemonic": [
-            "admission [эдми'шан] допуск, признание - Чай охранника (п-одмешан) снотворным для получения допуска на объект.",
-            "admission [əd'mɪʃən]\n***\nПРИЗНАНИЕ вины сделал дед|Мишин. (это)\nadmission\nПолучил ДОПУСК дед|Мишин. (это) admission\nУстановил время ПРИЁМА дед|Мишин. (это)\nadmission"
-        ],
-        "examples": [
-            "The admission fee is $10.",
-            "Admission by invitation only.",
-            "Admission is free for children under 9.",
-            "Be careful, your silence could be interpreted as an admission of guilt.",
-            "Admission is seldom allowed to outsiders.",
-            "Admission: $10 for adults, $5 for children.",
-            "An admission charge at the fair",
-            "Admission to the museum is included in the tour package.",
-            "The Museum has no admission charge.",
-            "His admission that he had been at the scene of the crime led to his conviction.",
-            "her brazen admission that she was cheating on him",
-            "Admission is £9.95 per adult.",
-            "We were unable to gain admission to the club.",
-            "All patients are examined on admission to the hospital.",
-            "Admission is four pounds for members and five pounds for non-members.",
-            "No admission after 10 pm.",
-            "a large number of hospital admissions",
-            "The management reserves the right to refuse admission.",
-            "a restrictive policy on admission to the college",
-            "The young men tried to enter a nightclub but were refused admission.",
-            "Women gained admission to the club only recently.",
-            "Silence is often interpreted as an admission of guilt.",
-            "The school's standards of admission are high.",
-            "The cost includes free admission to the casinos.",
-            "The College Board has retooled the admission exams.",
-            "His statement was tantamount to an admission of guilt.",
-            "Admission is free for school parties.",
-            "Latin was a prerequisite for admission.",
-            "the admission of evidence in a court of law",
-            "His statement was tantamount to an admission of guilt."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Вступительный взнос составляет $10.",
-            "Вход только по пригласительным билетам.",
-            "Для детей до девяти лет вход бесплатный .",
-            "Будь осторожен, твое молчание могут принять за признание вины.",
-            "Посторонних сюда обычно не допускают.",
-            "Вход: $10 для взрослых, $5 для детей.",
-            "Плата за вход на ярмарку",
-            "Посещение музея входит в стоимость экскурсии.",
-            "Музей не берёт плату за вход.",
-            "Его признание в том, что он был на месте преступления, привело к тому, что его осудили.",
-            "её бесстыдное признание в том, что была ему неверна",
-            "Плата за вход для взрослого составляет 9,95 фунтов.",
-            "Мы не смогли получить допуск в клуб.",
-            "При поступлении в больницу всех пациентов обследуют.",
-            "Входная плата составляет четыре фунта для членов и пять фунтов для лиц, не являющихся членами.",
-            "После десяти часов вечера входа нет.",
-            "большое количество госпитализаций",
-            "Администрация (заведения) оставляет за собой право отказа в доступе на территорию.",
-            "ограничительная политика относительно приёма в данный колледж",
-            "Молодые люди попытались пройти в ночной клуб, но их не пропустили.",
-            "Женщины лишь недавно получили допуск в этот клуб.",
-            "Молчание зачастую бывает истолковано как признание вины.",
-            "Требования к поступающим в данное учебное заведение высоки.",
-            "В стоимость входит бесплатный вход в казино.",
-            "Руководство вуза по-новому организовало процесс вступительных экзаменов.",
-            "Его заявление было равносильно признанию вины.",
-            "Для школьных экскурсий посещение бесплатное.",
-            "Владение латынью было обязательным условием допуска.",
-            "принятие доказательств в суде",
-            "Его заявление было равносильно признанию вины."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "admission": {
+    "comment": [
+      "admit",
+      "admittedly",
+      "dismiss",
+      "permission",
+      "missing",
+      "miss",
+      "missile",
+      "mission",
+      "omission",
+      "submission",
+      "emission",
+      "dismissal"
+    ],
+    "translate": "вход, признание, впуск, допущение, принятие, вступительный, пропускной, впускной",
+    "transcription": " |ədˈmɪʃn|",
+    "antonyms": [],
+    "mnemonic": [
+      "admission [эдми'шан] допуск, признание - Чай охранника (п-одмешан) снотворным для получения допуска на объект.",
+      "admission [əd'mɪʃən]\n***\nПРИЗНАНИЕ вины сделал дед|Мишин. (это)\nadmission\nПолучил ДОПУСК дед|Мишин. (это) admission\nУстановил время ПРИЁМА дед|Мишин. (это)\nadmission"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The admission fee is $10.",
+        "ru": "Вступительный взнос составляет $10.",
+        "learn": 1
+      },
+      {
+        "eng": "Admission by invitation only.",
+        "ru": "Вход только по пригласительным билетам.",
+        "learn": 1
+      },
+      {
+        "eng": "Admission is free for children under 9.",
+        "ru": "Для детей до девяти лет вход бесплатный .",
+        "learn": 1
+      },
+      {
+        "eng": "Be careful, your silence could be interpreted as an admission of guilt.",
+        "ru": "Будь осторожен, твое молчание могут принять за признание вины.",
+        "learn": 1
+      },
+      {
+        "eng": "Admission is seldom allowed to outsiders.",
+        "ru": "Посторонних сюда обычно не допускают.",
+        "learn": 0
+      },
+      {
+        "eng": "Admission: $10 for adults, $5 for children.",
+        "ru": "Вход: $10 для взрослых, $5 для детей.",
+        "learn": 0
+      },
+      {
+        "eng": "An admission charge at the fair",
+        "ru": "Плата за вход на ярмарку",
+        "learn": 0
+      },
+      {
+        "eng": "Admission to the museum is included in the tour package.",
+        "ru": "Посещение музея входит в стоимость экскурсии.",
+        "learn": 0
+      },
+      {
+        "eng": "The Museum has no admission charge.",
+        "ru": "Музей не берёт плату за вход.",
+        "learn": 0
+      },
+      {
+        "eng": "His admission that he had been at the scene of the crime led to his conviction.",
+        "ru": "Его признание в том, что он был на месте преступления, привело к тому, что его осудили.",
+        "learn": 0
+      },
+      {
+        "eng": "her brazen admission that she was cheating on him",
+        "ru": "её бесстыдное признание в том, что была ему неверна",
+        "learn": 0
+      },
+      {
+        "eng": "Admission is £9.95 per adult.",
+        "ru": "Плата за вход для взрослого составляет 9,95 фунтов.",
+        "learn": 1
+      },
+      {
+        "eng": "We were unable to gain admission to the club.",
+        "ru": "Мы не смогли получить допуск в клуб.",
+        "learn": 0
+      },
+      {
+        "eng": "All patients are examined on admission to the hospital.",
+        "ru": "При поступлении в больницу всех пациентов обследуют.",
+        "learn": 0
+      },
+      {
+        "eng": "Admission is four pounds for members and five pounds for non-members.",
+        "ru": "Входная плата составляет четыре фунта для членов и пять фунтов для лиц, не являющихся членами.",
+        "learn": 0
+      },
+      {
+        "eng": "No admission after 10 pm.",
+        "ru": "После десяти часов вечера входа нет.",
+        "learn": 1
+      },
+      {
+        "eng": "a large number of hospital admissions",
+        "ru": "большое количество госпитализаций",
+        "learn": 0
+      },
+      {
+        "eng": "The management reserves the right to refuse admission.",
+        "ru": "Администрация (заведения) оставляет за собой право отказа в доступе на территорию.",
+        "learn": 0
+      },
+      {
+        "eng": "a restrictive policy on admission to the college",
+        "ru": "ограничительная политика относительно приёма в данный колледж",
+        "learn": 0
+      },
+      {
+        "eng": "The young men tried to enter a nightclub but were refused admission.",
+        "ru": "Молодые люди попытались пройти в ночной клуб, но их не пропустили.",
+        "learn": 0
+      },
+      {
+        "eng": "Women gained admission to the club only recently.",
+        "ru": "Женщины лишь недавно получили допуск в этот клуб.",
+        "learn": 0
+      },
+      {
+        "eng": "Silence is often interpreted as an admission of guilt.",
+        "ru": "Молчание зачастую бывает истолковано как признание вины.",
+        "learn": 0
+      },
+      {
+        "eng": "The school's standards of admission are high.",
+        "ru": "Требования к поступающим в данное учебное заведение высоки.",
+        "learn": 0
+      },
+      {
+        "eng": "The cost includes free admission to the casinos.",
+        "ru": "В стоимость входит бесплатный вход в казино.",
+        "learn": 0
+      },
+      {
+        "eng": "The College Board has retooled the admission exams.",
+        "ru": "Руководство вуза по-новому организовало процесс вступительных экзаменов.",
+        "learn": 0
+      },
+      {
+        "eng": "His statement was tantamount to an admission of guilt.",
+        "ru": "Его заявление было равносильно признанию вины.",
+        "learn": 0
+      },
+      {
+        "eng": "Admission is free for school parties.",
+        "ru": "Для школьных экскурсий посещение бесплатное.",
+        "learn": 0
+      },
+      {
+        "eng": "Latin was a prerequisite for admission.",
+        "ru": "Владение латынью было обязательным условием допуска.",
+        "learn": 0
+      },
+      {
+        "eng": "the admission of evidence in a court of law",
+        "ru": "принятие доказательств в суде",
+        "learn": 0
+      },
+      {
+        "eng": "His statement was tantamount to an admission of guilt.",
+        "ru": "Его заявление было равносильно признанию вины.",
+        "learn": 0
+      }
+    ]
+  }
 }

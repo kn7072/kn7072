@@ -1,66 +1,131 @@
 {
-    "businessman": {
-        "comment": [
-            "business"
-        ],
-        "translate": "бизнесмен, деловой человек, коммерсант, делец",
-        "transcription": " |ˈbɪznəsmæn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "A businessman will catch at any chance of making a profit.",
-            "He is studying for being a businessman.",
-            "Many people knew him as a local businessman.",
-            "He was a ruthless and greedy businessman.",
-            "A successful businessman has to be aggressive.",
-            "He was much lauded as a successful businessman.",
-            "He is the archetype of a successful businessman.",
-            "He is the prototype of a conservative businessman.",
-            "a businessman with few outside interests besides golf",
-            "the old nativist prejudice against the foreign businessman",
-            "A businessman will clutch at any chance of making a profit.",
-            "a businessman who swindled investors out of millions of pounds",
-            "He was, to all appearances, a respectable, successful businessman.",
-            "A local businessman saved the day by donating £30,000 to the school.",
-            "He was a ruthless businessman, motivated by naked ambition and greed.",
-            "a successful businessman and withal a major contributor to local charities",
-            "The businessman was struck down with a heart attack in the middle of the meeting.",
-            "an unprincipled businessman who made a lot of money — and didn't care how he did it",
-            "He's not the most sophisticated businessman you'll ever meet, but he's no greenhorn.",
-            "The film is about a professional killer who's hired to liquidate a powerful businessman.",
-            "An unscrupulous businessman manipulated them into selling their land for practically nothing.",
-            "I know it's hard for him to sell his paintings. He's always been a better artist than businessman.",
-            "The embattled entrepreneur struck a deal with a rival businessman in an attempt to save his teetering business empire."
-        ],
-        "example_translate": [
-            "Бизнесмен ухватится за любую возможность получить прибыль.",
-            "Он готовится к карьере предпринимателя.",
-            "Его многие знали как местного бизнесмена.",
-            "Он был безжалостным и жадным бизнесменом.",
-            "Успешный бизнесмен должен быть напористым.",
-            "Его очень расхваливали как успешного бизнесмена.",
-            "Он является архетипом успешного бизнесмена.",
-            "Он является типичным консервативным бизнесменом.",
-            "бизнесмен, которого помимо работы и гольфа почти ничего не интересует",
-            "старое шовинистическое предубеждение против иностранных бизнесменов",
-            "Настоящий бизнесмен не упустит ни одного шанса получить прибыль.",
-            "бизнесмен, который надул вкладчиков на несколько миллионов фунтов",
-            "Судя по всему, он был респектабельным, удачливым бизнесменом.",
-            "Положение спас местный бизнесмен, пожертвовав школе тридцать тысяч фунтов стерлингов.",
-            "Это был безжалостный делец, движимый неприкрытым честолюбием и алчностью.",
-            "успешный бизнесмен и к тому же крупный спонсор местных благотворительных организаций",
-            "В самый разгар заседания у предпринимателя случился сердечный приступ.",
-            "беспринципный делец, который заработал кучу денег — и не гнушался для этого ничем",
-            "Он не самый опытный бизнесмен на свете, но и не зелёный новичок.",
-            "Фильм рассказывает о профессиональном убийце, которого наняли, чтобы ликвидировать влиятельного бизнесмена.",
-            "Один бессовестный делец обработал их так, что они продали свои земли практически задаром.",
-            "Я знаю, что ему тяжело продавать свои картины. Художник из него всегда был лучше, чем бизнесмен.",
-            "Находящийся на грани разорения бизнесмен заключил сделку с конкурентом, пытаясь спасти свою терпящую крах империю."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "businessman": {
+    "comment": [
+      "business"
+    ],
+    "translate": "бизнесмен, деловой человек, коммерсант, делец",
+    "transcription": " |ˈbɪznəsmæn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "A businessman will catch at any chance of making a profit.",
+        "ru": "Бизнесмен ухватится за любую возможность получить прибыль.",
+        "learn": 0
+      },
+      {
+        "eng": "He is studying for being a businessman.",
+        "ru": "Он готовится к карьере предпринимателя.",
+        "learn": 1
+      },
+      {
+        "eng": "Many people knew him as a local businessman.",
+        "ru": "Его многие знали как местного бизнесмена.",
+        "learn": 1
+      },
+      {
+        "eng": "He was a ruthless and greedy businessman.",
+        "ru": "Он был безжалостным и жадным бизнесменом.",
+        "learn": 0
+      },
+      {
+        "eng": "A successful businessman has to be aggressive.",
+        "ru": "Успешный бизнесмен должен быть напористым.",
+        "learn": 0
+      },
+      {
+        "eng": "He was much lauded as a successful businessman.",
+        "ru": "Его очень расхваливали как успешного бизнесмена.",
+        "learn": 0
+      },
+      {
+        "eng": "He is the archetype of a successful businessman.",
+        "ru": "Он является архетипом успешного бизнесмена.",
+        "learn": 0
+      },
+      {
+        "eng": "He is the prototype of a conservative businessman.",
+        "ru": "Он является типичным консервативным бизнесменом.",
+        "learn": 1
+      },
+      {
+        "eng": "a businessman with few outside interests besides golf",
+        "ru": "бизнесмен, которого помимо работы и гольфа почти ничего не интересует",
+        "learn": 0
+      },
+      {
+        "eng": "the old nativist prejudice against the foreign businessman",
+        "ru": "старое шовинистическое предубеждение против иностранных бизнесменов",
+        "learn": 0
+      },
+      {
+        "eng": "A businessman will clutch at any chance of making a profit.",
+        "ru": "Настоящий бизнесмен не упустит ни одного шанса получить прибыль.",
+        "learn": 1
+      },
+      {
+        "eng": "a businessman who swindled investors out of millions of pounds",
+        "ru": "бизнесмен, который надул вкладчиков на несколько миллионов фунтов",
+        "learn": 0
+      },
+      {
+        "eng": "He was, to all appearances, a respectable, successful businessman.",
+        "ru": "Судя по всему, он был респектабельным, удачливым бизнесменом.",
+        "learn": 0
+      },
+      {
+        "eng": "A local businessman saved the day by donating £30,000 to the school.",
+        "ru": "Положение спас местный бизнесмен, пожертвовав школе тридцать тысяч фунтов стерлингов.",
+        "learn": 0
+      },
+      {
+        "eng": "He was a ruthless businessman, motivated by naked ambition and greed.",
+        "ru": "Это был безжалостный делец, движимый неприкрытым честолюбием и алчностью.",
+        "learn": 0
+      },
+      {
+        "eng": "a successful businessman and withal a major contributor to local charities",
+        "ru": "успешный бизнесмен и к тому же крупный спонсор местных благотворительных организаций",
+        "learn": 0
+      },
+      {
+        "eng": "The businessman was struck down with a heart attack in the middle of the meeting.",
+        "ru": "В самый разгар заседания у предпринимателя случился сердечный приступ.",
+        "learn": 0
+      },
+      {
+        "eng": "an unprincipled businessman who made a lot of money — and didn't care how he did it",
+        "ru": "беспринципный делец, который заработал кучу денег — и не гнушался для этого ничем",
+        "learn": 0
+      },
+      {
+        "eng": "He's not the most sophisticated businessman you'll ever meet, but he's no greenhorn.",
+        "ru": "Он не самый опытный бизнесмен на свете, но и не зелёный новичок.",
+        "learn": 0
+      },
+      {
+        "eng": "The film is about a professional killer who's hired to liquidate a powerful businessman.",
+        "ru": "Фильм рассказывает о профессиональном убийце, которого наняли, чтобы ликвидировать влиятельного бизнесмена.",
+        "learn": 0
+      },
+      {
+        "eng": "An unscrupulous businessman manipulated them into selling their land for practically nothing.",
+        "ru": "Один бессовестный делец обработал их так, что они продали свои земли практически задаром.",
+        "learn": 0
+      },
+      {
+        "eng": "I know it's hard for him to sell his paintings. He's always been a better artist than businessman.",
+        "ru": "Я знаю, что ему тяжело продавать свои картины. Художник из него всегда был лучше, чем бизнесмен.",
+        "learn": 1
+      },
+      {
+        "eng": "The embattled entrepreneur struck a deal with a rival businessman in an attempt to save his teetering business empire.",
+        "ru": "Находящийся на грани разорения бизнесмен заключил сделку с конкурентом, пытаясь спасти свою терпящую крах империю.",
+        "learn": 0
+      }
+    ]
+  }
 }

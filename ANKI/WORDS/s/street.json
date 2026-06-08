@@ -1,86 +1,172 @@
 {
-    "street": {
-        "comment": [
-            "stress",
-            "stressed",
-            "stretch",
-            "mistress",
-            "distress"
-        ],
-        "translate": "улица, деловой или финансовый центр, уличный",
-        "transcription": " |striːt|",
-        "antonyms": [],
-        "mnemonic": [
-            "street [стрит] улица - Шерлок Холмс жил на улице (Бейкер стрит)."
-        ],
-        "examples": [
-            "I parked on the street.",
-            "He took the wrong street.",
-            "What street does Ann live?",
-            "We tooled down the street.",
-            "They live on a busy street.",
-            "Tall oaks line the street.",
-            "the left side of the street",
-            "She minced down the street.",
-            "The dog crossed the street.",
-            "What's the name of the street?",
-            "My windows overlook the street.",
-            "I watched her cross the street.",
-            "Go up the street and turn left.",
-            "He lives further down the street.",
-            "Turn north onto Elm Street.",
-            "Turn south onto Elm Street.",
-            "The street screamed poverty.",
-            "the shady side of the street",
-            "They ran off down the street.",
-            "She lives just up the street.",
-            "The house fronts Main Street.",
-            "a drunken brawl in the street",
-            "The ball ran into the street.",
-            "I found a purse in the street.",
-            "We tumbled out into the street.",
-            "Old Lady of Threadneedle Street",
-            "The window opens on the street.",
-            "They live at 18 Victoria Street.",
-            "The house fronts on Main Street.",
-            "The street was unnaturally quiet."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я припарковался на улице.",
-            "Он пошёл не по той улице.",
-            "На какой улице живёт Энн?",
-            "Мы поехали по улице.",
-            "Они живут на оживлённой улице.",
-            "Вдоль улицы растут высокие дубы.",
-            "левая сторона улицы",
-            "Она засеменила по улице.",
-            "Собака перебежала улицу.",
-            "Как называется эта улица?",
-            "Мои окна выходят на улицу.",
-            "Я смотрел, как она переходит улицу.",
-            "Идите по этой улице и поверните налево.",
-            "Он живёт дальше по улице.",
-            "Поверните на север, на улицу Вязов.",
-            "Поверните на юг, на улицу Вязов.",
-            "Вид улицы говорил о крайней нищете.",
-            "тенистая сторона улицы",
-            "Они побежали по улице.",
-            "Она живёт чуть дальше по этой улице.",
-            "Фасад дома выходит на Мэйн-стрит.",
-            "пьяная драка на улице",
-            "Мяч выкатился на улицу.",
-            "Я нашёл на улице кошелёк.",
-            "Мы вывалились на улицу.",
-            "Английский банк",
-            "Окно выходит на улицу.",
-            "Они живут по адресу Виктория-Стрит, 18.",
-            "Фасад дома выходит на Главную улицу.",
-            "На улице было неестественно тихо."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "street": {
+    "comment": [
+      "stress",
+      "stressed",
+      "stretch",
+      "mistress",
+      "distress"
+    ],
+    "translate": "улица, деловой или финансовый центр, уличный",
+    "transcription": " |striːt|",
+    "antonyms": [],
+    "mnemonic": [
+      "street [стрит] улица - Шерлок Холмс жил на улице (Бейкер стрит)."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I parked on the street.",
+        "ru": "Я припарковался на улице.",
+        "learn": 0
+      },
+      {
+        "eng": "He took the wrong street.",
+        "ru": "Он пошёл не по той улице.",
+        "learn": 0
+      },
+      {
+        "eng": "What street does Ann live?",
+        "ru": "На какой улице живёт Энн?",
+        "learn": 0
+      },
+      {
+        "eng": "We tooled down the street.",
+        "ru": "Мы поехали по улице.",
+        "learn": 0
+      },
+      {
+        "eng": "They live on a busy street.",
+        "ru": "Они живут на оживлённой улице.",
+        "learn": 0
+      },
+      {
+        "eng": "Tall oaks line the street.",
+        "ru": "Вдоль улицы растут высокие дубы.",
+        "learn": 1
+      },
+      {
+        "eng": "the left side of the street",
+        "ru": "левая сторона улицы",
+        "learn": 0
+      },
+      {
+        "eng": "She minced down the street.",
+        "ru": "Она засеменила по улице.",
+        "learn": 0
+      },
+      {
+        "eng": "The dog crossed the street.",
+        "ru": "Собака перебежала улицу.",
+        "learn": 0
+      },
+      {
+        "eng": "What's the name of the street?",
+        "ru": "Как называется эта улица?",
+        "learn": 0
+      },
+      {
+        "eng": "My windows overlook the street.",
+        "ru": "Мои окна выходят на улицу.",
+        "learn": 0
+      },
+      {
+        "eng": "I watched her cross the street.",
+        "ru": "Я смотрел, как она переходит улицу.",
+        "learn": 0
+      },
+      {
+        "eng": "Go up the street and turn left.",
+        "ru": "Идите по этой улице и поверните налево.",
+        "learn": 0
+      },
+      {
+        "eng": "He lives further down the street.",
+        "ru": "Он живёт дальше по улице.",
+        "learn": 0
+      },
+      {
+        "eng": "Turn north onto Elm Street.",
+        "ru": "Поверните на север, на улицу Вязов.",
+        "learn": 0
+      },
+      {
+        "eng": "Turn south onto Elm Street.",
+        "ru": "Поверните на юг, на улицу Вязов.",
+        "learn": 0
+      },
+      {
+        "eng": "The street screamed poverty.",
+        "ru": "Вид улицы говорил о крайней нищете.",
+        "learn": 0
+      },
+      {
+        "eng": "the shady side of the street",
+        "ru": "тенистая сторона улицы",
+        "learn": 0
+      },
+      {
+        "eng": "They ran off down the street.",
+        "ru": "Они побежали по улице.",
+        "learn": 0
+      },
+      {
+        "eng": "She lives just up the street.",
+        "ru": "Она живёт чуть дальше по этой улице.",
+        "learn": 1
+      },
+      {
+        "eng": "The house fronts Main Street.",
+        "ru": "Фасад дома выходит на Мэйн-стрит.",
+        "learn": 0
+      },
+      {
+        "eng": "a drunken brawl in the street",
+        "ru": "пьяная драка на улице",
+        "learn": 0
+      },
+      {
+        "eng": "The ball ran into the street.",
+        "ru": "Мяч выкатился на улицу.",
+        "learn": 0
+      },
+      {
+        "eng": "I found a purse in the street.",
+        "ru": "Я нашёл на улице кошелёк.",
+        "learn": 1
+      },
+      {
+        "eng": "We tumbled out into the street.",
+        "ru": "Мы вывалились на улицу.",
+        "learn": 0
+      },
+      {
+        "eng": "Old Lady of Threadneedle Street",
+        "ru": "Английский банк",
+        "learn": 0
+      },
+      {
+        "eng": "The window opens on the street.",
+        "ru": "Окно выходит на улицу.",
+        "learn": 0
+      },
+      {
+        "eng": "They live at 18 Victoria Street.",
+        "ru": "Они живут по адресу Виктория-Стрит, 18.",
+        "learn": 0
+      },
+      {
+        "eng": "The house fronts on Main Street.",
+        "ru": "Фасад дома выходит на Главную улицу.",
+        "learn": 0
+      },
+      {
+        "eng": "The street was unnaturally quiet.",
+        "ru": "На улице было неестественно тихо.",
+        "learn": 0
+      }
+    ]
+  }
 }

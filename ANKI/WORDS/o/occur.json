@@ -1,82 +1,168 @@
 {
-    "occur": {
-        "comment": [
-            "occurrence"
-        ],
-        "translate": "происходить, встречаться, иметь место, случаться, являться, попадаться, бывать",
-        "transcription": " |əˈkɜːr|",
-        "antonyms": [],
-        "mnemonic": [
-            "occur [ə'kз: ]\n***\nПРОИЗОШЛА авария в горах высоко. (это) occur\nСЛУЧАЛОСЬ, что скисало молоко. (это) occur\nПРИШЛО НА УМ: \"снесла курочка золотое кокó\". (это)\noccur\nСЛУЧИЛОСЬ выиграть в очко. (это) occur"
-        ],
-        "examples": [
-            "When exactly did the incident occur?",
-            "Nothing occurred that seemed important.",
-            "New ideas occur to him in the act of writing.",
-            "It did not occur to me to mention it.",
-            "Many suicides occur in prisons.",
-            "Marble also occurs here.",
-            "The disease occurs chiefly in tropical climates.",
-            "The event is scheduled to occur at noon tomorrow.",
-            "It occurred to me that we should hire another secretary.",
-            "The explosion occurred at 5.30 a.m.",
-            "She forecast that an earthquake would occur.",
-            "Most infections occur in childhood.",
-            "There's a chance that a similar event will occur in the future.",
-            "No one was ready for what was about to occur.",
-            "The realization that a catastrophe could occur at any time sobered them up.",
-            "It is uncertain how likely this is to occur.",
-            "The plant occurs naturally throughout South America.",
-            "Some mangles in newspaper articles occur under the pressure of deadlines.",
-            "A third of accidental deaths occur in the home.",
-            "Few continental rises occur in the Pacific Ocean.",
-            "The highest rates of unemployment occur in the inner urban areas.",
-            "Combustion may occur at high temperatures.",
-            "Problems only occur when this attitude is taken to extremes.",
-            "The Rocky Mountains occur occasionally in collateral ridges.",
-            "Although arbitrary arrests are illegal, they continue to occur in many parts of the country.",
-            "Whooping cough occurs mainly in young children.",
-            "Flight delays do occur, for reasons that are outside our control.",
-            "Retrenchment may occur within an industry when there are shifts in market share.",
-            "diseases that can occur in childhood",
-            "the number of crimes that occur per capita"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Когда именно случилось это происшествие?",
-            "Вроде бы ничего важного не произошло.",
-            "Новые идеи приходят к нему в процессе работы.",
-            "Мне и в голову не приходило об этом упоминать.",
-            "Многие самоубийства совершаются в тюрьмах.",
-            "Здесь также залегает мрамор.",
-            "Это заболевание встречается, главным образом, в тропическом климате.",
-            "Мероприятие запланировано на завтрашний полдень.",
-            "Мне пришло в голову, что нам следует нанять нового секретаря.",
-            "Взрыв произошел в пять-тридцать утра.",
-            "Она предсказала, что произойдёт землетрясение.",
-            "В большинстве случаев инфицирование происходит в детстве.",
-            "Есть шанс, что подобное событие произойдёт в будущем.",
-            "Никто не был готов к тому, что должно было вот-вот произойти.",
-            "Осознание того, что в любой момент может произойти катастрофа, отрезвило их.",
-            "Неясно, насколько высока вероятность того, что это произойдёт.",
-            "Это растение встречается в природе по всей Южной Америке.",
-            "Некоторые ошибки в газетных материалах происходят под давлением надвигающихся сроков их сдачи.",
-            "Треть смертей от несчастных случаев происходит в домашних условиях.",
-            "В Тихом океане залегают несколько материковых возвышенностей.",
-            "Наибольший уровень безработицы встречается во внутригородских районах.",
-            "Горение может происходить при высоких температурах.",
-            "Проблемы возникают только тогда, когда это отношение доведено до абсурда.",
-            "Скалистые горы местами располагаются в виде параллельных горных хребтов.",
-            "Хотя произвольные аресты являются незаконными, они продолжают происходить во многих частях страны.",
-            "Коклюш бывает в основном у маленьких детей.",
-            "Задержки полётов действительно происходят, по причинам, которые находятся вне нашего контроля.",
-            "Режим экономии может применяться внутри отрасли, если происходит изменение доли рынка.",
-            "болезни, которые могут возникнуть в детстве",
-            "количество преступлений, совершаемых на душу населения"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "occur": {
+    "comment": [
+      "occurrence"
+    ],
+    "translate": "происходить, встречаться, иметь место, случаться, являться, попадаться, бывать",
+    "transcription": " |əˈkɜːr|",
+    "antonyms": [],
+    "mnemonic": [
+      "occur [ə'kз: ]\n***\nПРОИЗОШЛА авария в горах высоко. (это) occur\nСЛУЧАЛОСЬ, что скисало молоко. (это) occur\nПРИШЛО НА УМ: \"снесла курочка золотое кокó\". (это)\noccur\nСЛУЧИЛОСЬ выиграть в очко. (это) occur"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "When exactly did the incident occur?",
+        "ru": "Когда именно случилось это происшествие?",
+        "learn": 1
+      },
+      {
+        "eng": "Nothing occurred that seemed important.",
+        "ru": "Вроде бы ничего важного не произошло.",
+        "learn": 1
+      },
+      {
+        "eng": "New ideas occur to him in the act of writing.",
+        "ru": "Новые идеи приходят к нему в процессе работы.",
+        "learn": 0
+      },
+      {
+        "eng": "It did not occur to me to mention it.",
+        "ru": "Мне и в голову не приходило об этом упоминать.",
+        "learn": 0
+      },
+      {
+        "eng": "Many suicides occur in prisons.",
+        "ru": "Многие самоубийства совершаются в тюрьмах.",
+        "learn": 0
+      },
+      {
+        "eng": "Marble also occurs here.",
+        "ru": "Здесь также залегает мрамор.",
+        "learn": 0
+      },
+      {
+        "eng": "The disease occurs chiefly in tropical climates.",
+        "ru": "Это заболевание встречается, главным образом, в тропическом климате.",
+        "learn": 1
+      },
+      {
+        "eng": "The event is scheduled to occur at noon tomorrow.",
+        "ru": "Мероприятие запланировано на завтрашний полдень.",
+        "learn": 1
+      },
+      {
+        "eng": "It occurred to me that we should hire another secretary.",
+        "ru": "Мне пришло в голову, что нам следует нанять нового секретаря.",
+        "learn": 0
+      },
+      {
+        "eng": "The explosion occurred at 5.30 a.m.",
+        "ru": "Взрыв произошел в пять-тридцать утра.",
+        "learn": 0
+      },
+      {
+        "eng": "She forecast that an earthquake would occur.",
+        "ru": "Она предсказала, что произойдёт землетрясение.",
+        "learn": 0
+      },
+      {
+        "eng": "Most infections occur in childhood.",
+        "ru": "В большинстве случаев инфицирование происходит в детстве.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a chance that a similar event will occur in the future.",
+        "ru": "Есть шанс, что подобное событие произойдёт в будущем.",
+        "learn": 1
+      },
+      {
+        "eng": "No one was ready for what was about to occur.",
+        "ru": "Никто не был готов к тому, что должно было вот-вот произойти.",
+        "learn": 0
+      },
+      {
+        "eng": "The realization that a catastrophe could occur at any time sobered them up.",
+        "ru": "Осознание того, что в любой момент может произойти катастрофа, отрезвило их.",
+        "learn": 0
+      },
+      {
+        "eng": "It is uncertain how likely this is to occur.",
+        "ru": "Неясно, насколько высока вероятность того, что это произойдёт.",
+        "learn": 0
+      },
+      {
+        "eng": "The plant occurs naturally throughout South America.",
+        "ru": "Это растение встречается в природе по всей Южной Америке.",
+        "learn": 1
+      },
+      {
+        "eng": "Some mangles in newspaper articles occur under the pressure of deadlines.",
+        "ru": "Некоторые ошибки в газетных материалах происходят под давлением надвигающихся сроков их сдачи.",
+        "learn": 0
+      },
+      {
+        "eng": "A third of accidental deaths occur in the home.",
+        "ru": "Треть смертей от несчастных случаев происходит в домашних условиях.",
+        "learn": 0
+      },
+      {
+        "eng": "Few continental rises occur in the Pacific Ocean.",
+        "ru": "В Тихом океане залегают несколько материковых возвышенностей.",
+        "learn": 1
+      },
+      {
+        "eng": "The highest rates of unemployment occur in the inner urban areas.",
+        "ru": "Наибольший уровень безработицы встречается во внутригородских районах.",
+        "learn": 0
+      },
+      {
+        "eng": "Combustion may occur at high temperatures.",
+        "ru": "Горение может происходить при высоких температурах.",
+        "learn": 0
+      },
+      {
+        "eng": "Problems only occur when this attitude is taken to extremes.",
+        "ru": "Проблемы возникают только тогда, когда это отношение доведено до абсурда.",
+        "learn": 0
+      },
+      {
+        "eng": "The Rocky Mountains occur occasionally in collateral ridges.",
+        "ru": "Скалистые горы местами располагаются в виде параллельных горных хребтов.",
+        "learn": 0
+      },
+      {
+        "eng": "Although arbitrary arrests are illegal, they continue to occur in many parts of the country.",
+        "ru": "Хотя произвольные аресты являются незаконными, они продолжают происходить во многих частях страны.",
+        "learn": 1
+      },
+      {
+        "eng": "Whooping cough occurs mainly in young children.",
+        "ru": "Коклюш бывает в основном у маленьких детей.",
+        "learn": 0
+      },
+      {
+        "eng": "Flight delays do occur, for reasons that are outside our control.",
+        "ru": "Задержки полётов действительно происходят, по причинам, которые находятся вне нашего контроля.",
+        "learn": 0
+      },
+      {
+        "eng": "Retrenchment may occur within an industry when there are shifts in market share.",
+        "ru": "Режим экономии может применяться внутри отрасли, если происходит изменение доли рынка.",
+        "learn": 0
+      },
+      {
+        "eng": "diseases that can occur in childhood",
+        "ru": "болезни, которые могут возникнуть в детстве",
+        "learn": 0
+      },
+      {
+        "eng": "the number of crimes that occur per capita",
+        "ru": "количество преступлений, совершаемых на душу населения",
+        "learn": 0
+      }
+    ]
+  }
 }

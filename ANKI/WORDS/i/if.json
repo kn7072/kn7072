@@ -1,174 +1,401 @@
 {
-    "if": {
-        "comment": [],
-        "translate": "если, ли, если бы, хотя, коли, условие, предположение, во всяком случае",
-        "transcription": " |ɪf|",
-        "antonyms": [],
-        "mnemonic": [
-            "if [иф] если - Если (маст-иф) укусит...."
-        ],
-        "examples": [
-            "I'm sorry if I upset you.",
-            "If I had only known!",
-            "If I don't know the way, I ask.",
-            "We'll stay at home if it rains.",
-            "If he comes tomorrow, send for me.",
-            "Would you mind if I open a window?",
-            "If I didn't apologize I'd feel guilty.",
-            "He asked if his wife was there.",
-            "Taste the soup and add salt and pepper if necessary.",
-            "If they are poor, they are at any rate happy.",
-            "If he had consented, all would have been right.",
-            "I doubt if anyone will remember me.",
-            "You don't seem to care if I'm tired.",
-            "I don't know if what I am saying makes any sense.",
-            "I wonder if you could help me.",
-            "Plastic will melt if it gets too hot.",
-            "Is the book available, and if so where?",
-            "If you need money, I can lend you some.",
-            "He stopped to ask me if I was all right.",
-            "I'm not sure if this is the right road or not.",
-            "I want to get back by five o'clock if possible.",
-            "I'm not very happy about so many ifs written into the contract.",
-            "There are too many ifs in this proposal.",
-            "If Dad were here, he would know what to do.",
-            "There are too many ifs in this plan of yours.",
-            "Brian rarely, if ever, goes to bed before 3 am.",
-            "If I go to bed late I feel dreadful in the morning.",
-            "I'd be grateful if you would send me further details.",
-            "It would be nice if we could spend more time together.",
-            "If he has a fault at all, it is that he is too generous.",
-            "If I see Gordon tomorrow, I will tell him about it",
-            "I will tell Gordon about it if I see him tomorrow",
-            "Will you tell Gordon about it if you see him tomorrow?",
-            "If you take the ice out of the refrigerator, it melts",
-            "If you click on this icon, the dialogue box appears",
-            "If I wake up at 6 o’clock, I feel awful",
-            "If you are driving a car, you need to be very attentive",
-            "If you have heard an alarm, you should leave the place immediately",
-            "Does the ice melt if I take it out of the refrigerator?",
-            "Should I leave the place immediately if I have heard an alarm?",
-            "If you are driving a car, be very attentive",
-            "If you have heard an alarm, leave the place immediately",
-            "When you take the ice out of the refrigerator, it melts",
-            "When you have heard an alarm, you should leave the place immediately",
-            "When you are driving a car, you need to be very attentive",
-            "When you click on this icon, the dialogue box appears",
-            "When I wake up at 6 o’clock, I feel awful",
-            "Every time I wake up at 6 o’clock, I feel awful",
-            "If I see Gordon tomorrow, I will tell him about it",
-            "I will pass the exam if I work hard",
-            "When I see Gordon, I will tell him about it",
-            "If she is sleeping, I will wake her up",
-            "If we hurry up, we can catch the last train",
-            "If you finish all your work today, you may have a day off tomorrow",
-            "If she wants to get this job, she should be ready to work hard",
-            "If it rains, you must stay at home",
-            "If you see her, send my regards",
-            "If I had a thousand years to live, I would become an expert in many spheres",
-            "If I lived in Italy, I wouldn’t try to spend every holiday at the seaside",
-            "If I were a king, I would live in this palace",
-            "We would be friends if Carol were a little more optimistic",
-            "If I saw Gordon, I would tell him about it",
-            "If I saw mister President on the street, I wouldn’t know what to think",
-            "If I were you, I wouldn’t behave like this",
-            "I could become a star if I were more lucky",
-            "If we had more money, we might stop work",
-            "If I had time, I should go to the gym",
-            "I must be in school at this time of day if I were a child",
-            "If I had known it in advance, I wouldn’t have said such things",
-            "If I had called him that day, we would have solved this problem = If I’d called him that day, we’d have solved this problem",
-            "Had I called him that day, we would have solved this problem",
-            "If we had hurried up, we could have caught the last train",
-            "If you had finished all your work, you may have had a day off today",
-            "If she had wanted to get this job, she should have been ready to work hard",
-            "If it had rained, you must have stayed at home",
-            "If I were clever enough, I wouldn’t have done this",
-            "If I had won that lottery, I would now live in France"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Прости, если я тебя расстроил.",
-            "Если бы я только знал!",
-            "Когда я не знаю дороги, я спрашиваю.",
-            "Мы останемся дома, если пойдёт дождь.",
-            "Если он завтра появится, пошли за мной.",
-            "Вы не возражаете, если я открою окно?",
-            "Если бы я не извинился, то чувствовал бы себя виноватым.",
-            "Он спросил, там ли его жена.",
-            "Попробуйте суп и добавьте соль и перец, если это необходимо.",
-            "Пусть они бедны, зато, по крайней мере, счастливы.",
-            "Если бы он согласился, все было бы хорошо (но он не согласился).",
-            "Я сомневаюсь, что кто-то будет помнить меня.",
-            "Тебе, похоже, наплевать, что я устал.",
-            "Не знаю, имеет ли хоть какой-то смысл то, что я говорю.",
-            "Не могли бы вы мне помочь? (вежливая форма обращения)",
-            "Пластик расплавится, если будет слишком горячо.",
-            "Имеется ли эта книга в продаже, и если да, то где?",
-            "Если нужны деньги, я могу вам немного занять.",
-            "Он остановился, чтобы спросить, всё ли у меня в порядке.",
-            "Я точно не знаю, та это дорога или нет.",
-            "Я хочу вернуться к пяти часам, если это возможно.",
-            "Мне не очень-то нравится, что в этом договоре так много условий.",
-            "В этом предложении слишком много 'если'.",
-            "Если бы папа был здесь, он бы знал, что делать.",
-            "В твоём плане слишком много 'если'.",
-            "Брайан редко ложится спать раньше трёх часов ночи — почти никогда.",
-            "Если я ложусь поздно, то утром чувствую себя ужасно.",
-            "Я был бы благодарен, если бы вы выслали мне более подробную информацию.",
-            "Было бы неплохо, если бы мы могли проводить вместе больше времени.",
-            "Если он в чём-то и виноват, то только в том, что он слишком великодушен.",
-            "Если я увижу Гордона завтра, я расскажу ему об этом.",
-            "Я расскажу об этом Гордону, если увижу его завтра.",
-            "Ты расскажешь об этом Гордону, если увидишь его завтра?",
-            "Если достать лед из холодильника, он тает.",
-            "Если вы нажмете на этот значок, появляется диалоговое окно.",
-            "Если я просыпаюсь в 6 утра, то чувствую себя ужасно.",
-            "Если ведешь машину, нужно быть очень внимательным.",
-            "Если вы услышали сигнал тревоги, следует немедленно покинуть помещение.",
-            "Разве лед тает, если его достать из холодильника?",
-            "Нужно ли мне немедленно покинуть помещение, если я услышу сигнал тревоги?",
-            "Если ведешь машину, будь очень внимательным.",
-            "Если вы услышали сигнал тревоги, немедленно покиньте помещение.",
-            "Когда достаешь лед из холодильника, он тает.",
-            "Когда вы услышали сигнал тревоги, следует немедленно покинуть помещение.",
-            "Когда ведешь машину, нужно быть очень внимательным.",
-            "Когда вы нажимаете на этот значок, появляется диалоговое окно.",
-            "Когда я просыпаюсь в 6 утра, то чувствую себя ужасно.",
-            "Каждый раз, когда я просыпаюсь в 6 утра, я чувствую себя ужасно.",
-            "Если я увижу Гордона завтра, я расскажу ему об этом.",
-            "Я сдам экзамен, если буду трудиться.",
-            "Когда я увижу Гордона, то расскажу ему об этом.",
-            "Если она спит, я ее разбужу.",
-            "Если мы поторопимся, то сможем успеть на последний поезд.",
-            "Если ты сегодня закончишь всю свою работу, то можешь взять завтра выходной.",
-            "Если она хочет получить эту работу, то должна быть готова много трудиться.",
-            "Если пойдет дождь, ты должен остаться дома.",
-            "Если увидишь ее, передавай от меня привет.",
-            "Если бы я жил тысячу лет, я бы стал экспертом во множестве областей.",
-            "Если бы я жил в Италии, я бы не пытался провести каждый отпуск на море.",
-            "Если бы я был королем, я бы жил в этом дворце (но я не король и вряд ли им стану).",
-            "Мы были бы друзьями, если бы Кэрол была немного оптимистичнее.",
-            "Если я увижу Гордона, то расскажу ему об этом.",
-            "Если бы я увидел президента на улице, я бы не знал, что и думать.",
-            "Будь я на твоем месте, я бы так себя не вел.",
-            "Я мог бы стать звездой, будь я более везучим.",
-            "Будь у нас больше денег, мы бы могли перестать работать.",
-            "Если бы у меня было время, мне бы стоило ходить в спортзал.",
-            "В это время дня я должен бы быть в школе, будь я ребенком.",
-            "Если бы я знал об этом заранее, я бы не сказал таких вещей.",
-            "Если бы я ему тогда позвонил, мы бы решили эту проблему.",
-            "Если бы я ему тогда позвонил, мы бы решили эту проблему.",
-            "Если бы мы поторопились, то смогли бы успеть на последний поезд.",
-            "Если бы ты закончил всю свою работу, то мог бы взять сегодня выходной.",
-            "Если бы она хотела получить эту работу, то должна была быть готова много трудиться.",
-            "Если бы пошел дождь, ты бы должен был остаться дома.",
-            "Будь я достаточно умен, я бы этого не сделал.",
-            "Если бы я выиграл в той лотерее, я бы сейчас жил во Франции."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "if": {
+    "comment": [],
+    "translate": "если, ли, если бы, хотя, коли, условие, предположение, во всяком случае",
+    "transcription": " |ɪf|",
+    "antonyms": [],
+    "mnemonic": [
+      "if [иф] если - Если (маст-иф) укусит...."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I'm sorry if I upset you.",
+        "ru": "Прости, если я тебя расстроил.",
+        "learn": 0
+      },
+      {
+        "eng": "If I had only known!",
+        "ru": "Если бы я только знал!",
+        "learn": 0
+      },
+      {
+        "eng": "If I don't know the way, I ask.",
+        "ru": "Когда я не знаю дороги, я спрашиваю.",
+        "learn": 0
+      },
+      {
+        "eng": "We'll stay at home if it rains.",
+        "ru": "Мы останемся дома, если пойдёт дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "If he comes tomorrow, send for me.",
+        "ru": "Если он завтра появится, пошли за мной.",
+        "learn": 0
+      },
+      {
+        "eng": "Would you mind if I open a window?",
+        "ru": "Вы не возражаете, если я открою окно?",
+        "learn": 0
+      },
+      {
+        "eng": "If I didn't apologize I'd feel guilty.",
+        "ru": "Если бы я не извинился, то чувствовал бы себя виноватым.",
+        "learn": 0
+      },
+      {
+        "eng": "He asked if his wife was there.",
+        "ru": "Он спросил, там ли его жена.",
+        "learn": 0
+      },
+      {
+        "eng": "Taste the soup and add salt and pepper if necessary.",
+        "ru": "Попробуйте суп и добавьте соль и перец, если это необходимо.",
+        "learn": 0
+      },
+      {
+        "eng": "If they are poor, they are at any rate happy.",
+        "ru": "Пусть они бедны, зато, по крайней мере, счастливы.",
+        "learn": 0
+      },
+      {
+        "eng": "If he had consented, all would have been right.",
+        "ru": "Если бы он согласился, все было бы хорошо (но он не согласился).",
+        "learn": 0
+      },
+      {
+        "eng": "I doubt if anyone will remember me.",
+        "ru": "Я сомневаюсь, что кто-то будет помнить меня.",
+        "learn": 1
+      },
+      {
+        "eng": "You don't seem to care if I'm tired.",
+        "ru": "Тебе, похоже, наплевать, что я устал.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know if what I am saying makes any sense.",
+        "ru": "Не знаю, имеет ли хоть какой-то смысл то, что я говорю.",
+        "learn": 0
+      },
+      {
+        "eng": "I wonder if you could help me.",
+        "ru": "Не могли бы вы мне помочь? (вежливая форма обращения)",
+        "learn": 0
+      },
+      {
+        "eng": "Plastic will melt if it gets too hot.",
+        "ru": "Пластик расплавится, если будет слишком горячо.",
+        "learn": 1
+      },
+      {
+        "eng": "Is the book available, and if so where?",
+        "ru": "Имеется ли эта книга в продаже, и если да, то где?",
+        "learn": 0
+      },
+      {
+        "eng": "If you need money, I can lend you some.",
+        "ru": "Если нужны деньги, я могу вам немного занять.",
+        "learn": 1
+      },
+      {
+        "eng": "He stopped to ask me if I was all right.",
+        "ru": "Он остановился, чтобы спросить, всё ли у меня в порядке.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm not sure if this is the right road or not.",
+        "ru": "Я точно не знаю, та это дорога или нет.",
+        "learn": 0
+      },
+      {
+        "eng": "I want to get back by five o'clock if possible.",
+        "ru": "Я хочу вернуться к пяти часам, если это возможно.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm not very happy about so many ifs written into the contract.",
+        "ru": "Мне не очень-то нравится, что в этом договоре так много условий.",
+        "learn": 0
+      },
+      {
+        "eng": "There are too many ifs in this proposal.",
+        "ru": "В этом предложении слишком много 'если'.",
+        "learn": 0
+      },
+      {
+        "eng": "If Dad were here, he would know what to do.",
+        "ru": "Если бы папа был здесь, он бы знал, что делать.",
+        "learn": 0
+      },
+      {
+        "eng": "There are too many ifs in this plan of yours.",
+        "ru": "В твоём плане слишком много 'если'.",
+        "learn": 0
+      },
+      {
+        "eng": "Brian rarely, if ever, goes to bed before 3 am.",
+        "ru": "Брайан редко ложится спать раньше трёх часов ночи — почти никогда.",
+        "learn": 0
+      },
+      {
+        "eng": "If I go to bed late I feel dreadful in the morning.",
+        "ru": "Если я ложусь поздно, то утром чувствую себя ужасно.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd be grateful if you would send me further details.",
+        "ru": "Я был бы благодарен, если бы вы выслали мне более подробную информацию.",
+        "learn": 0
+      },
+      {
+        "eng": "It would be nice if we could spend more time together.",
+        "ru": "Было бы неплохо, если бы мы могли проводить вместе больше времени.",
+        "learn": 0
+      },
+      {
+        "eng": "If he has a fault at all, it is that he is too generous.",
+        "ru": "Если он в чём-то и виноват, то только в том, что он слишком великодушен.",
+        "learn": 0
+      },
+      {
+        "eng": "If I see Gordon tomorrow, I will tell him about it",
+        "ru": "Если я увижу Гордона завтра, я расскажу ему об этом.",
+        "learn": 1
+      },
+      {
+        "eng": "I will tell Gordon about it if I see him tomorrow",
+        "ru": "Я расскажу об этом Гордону, если увижу его завтра.",
+        "learn": 1
+      },
+      {
+        "eng": "Will you tell Gordon about it if you see him tomorrow?",
+        "ru": "Ты расскажешь об этом Гордону, если увидишь его завтра?",
+        "learn": 1
+      },
+      {
+        "eng": "If you take the ice out of the refrigerator, it melts",
+        "ru": "Если достать лед из холодильника, он тает.",
+        "learn": 1
+      },
+      {
+        "eng": "If you click on this icon, the dialogue box appears",
+        "ru": "Если вы нажмете на этот значок, появляется диалоговое окно.",
+        "learn": 1
+      },
+      {
+        "eng": "If I wake up at 6 o’clock, I feel awful",
+        "ru": "Если я просыпаюсь в 6 утра, то чувствую себя ужасно.",
+        "learn": 1
+      },
+      {
+        "eng": "If you are driving a car, you need to be very attentive",
+        "ru": "Если ведешь машину, нужно быть очень внимательным.",
+        "learn": 1
+      },
+      {
+        "eng": "If you have heard an alarm, you should leave the place immediately",
+        "ru": "Если вы услышали сигнал тревоги, следует немедленно покинуть помещение.",
+        "learn": 1
+      },
+      {
+        "eng": "Does the ice melt if I take it out of the refrigerator?",
+        "ru": "Разве лед тает, если его достать из холодильника?",
+        "learn": 1
+      },
+      {
+        "eng": "Should I leave the place immediately if I have heard an alarm?",
+        "ru": "Нужно ли мне немедленно покинуть помещение, если я услышу сигнал тревоги?",
+        "learn": 1
+      },
+      {
+        "eng": "If you are driving a car, be very attentive",
+        "ru": "Если ведешь машину, будь очень внимательным.",
+        "learn": 1
+      },
+      {
+        "eng": "If you have heard an alarm, leave the place immediately",
+        "ru": "Если вы услышали сигнал тревоги, немедленно покиньте помещение.",
+        "learn": 1
+      },
+      {
+        "eng": "When you take the ice out of the refrigerator, it melts",
+        "ru": "Когда достаешь лед из холодильника, он тает.",
+        "learn": 1
+      },
+      {
+        "eng": "When you have heard an alarm, you should leave the place immediately",
+        "ru": "Когда вы услышали сигнал тревоги, следует немедленно покинуть помещение.",
+        "learn": 1
+      },
+      {
+        "eng": "When you are driving a car, you need to be very attentive",
+        "ru": "Когда ведешь машину, нужно быть очень внимательным.",
+        "learn": 1
+      },
+      {
+        "eng": "When you click on this icon, the dialogue box appears",
+        "ru": "Когда вы нажимаете на этот значок, появляется диалоговое окно.",
+        "learn": 1
+      },
+      {
+        "eng": "When I wake up at 6 o’clock, I feel awful",
+        "ru": "Когда я просыпаюсь в 6 утра, то чувствую себя ужасно.",
+        "learn": 1
+      },
+      {
+        "eng": "Every time I wake up at 6 o’clock, I feel awful",
+        "ru": "Каждый раз, когда я просыпаюсь в 6 утра, я чувствую себя ужасно.",
+        "learn": 1
+      },
+      {
+        "eng": "If I see Gordon tomorrow, I will tell him about it",
+        "ru": "Если я увижу Гордона завтра, я расскажу ему об этом.",
+        "learn": 1
+      },
+      {
+        "eng": "I will pass the exam if I work hard",
+        "ru": "Я сдам экзамен, если буду трудиться.",
+        "learn": 1
+      },
+      {
+        "eng": "When I see Gordon, I will tell him about it",
+        "ru": "Когда я увижу Гордона, то расскажу ему об этом.",
+        "learn": 1
+      },
+      {
+        "eng": "If she is sleeping, I will wake her up",
+        "ru": "Если она спит, я ее разбужу.",
+        "learn": 1
+      },
+      {
+        "eng": "If we hurry up, we can catch the last train",
+        "ru": "Если мы поторопимся, то сможем успеть на последний поезд.",
+        "learn": 1
+      },
+      {
+        "eng": "If you finish all your work today, you may have a day off tomorrow",
+        "ru": "Если ты сегодня закончишь всю свою работу, то можешь взять завтра выходной.",
+        "learn": 1
+      },
+      {
+        "eng": "If she wants to get this job, she should be ready to work hard",
+        "ru": "Если она хочет получить эту работу, то должна быть готова много трудиться.",
+        "learn": 1
+      },
+      {
+        "eng": "If it rains, you must stay at home",
+        "ru": "Если пойдет дождь, ты должен остаться дома.",
+        "learn": 1
+      },
+      {
+        "eng": "If you see her, send my regards",
+        "ru": "Если увидишь ее, передавай от меня привет.",
+        "learn": 1
+      },
+      {
+        "eng": "If I had a thousand years to live, I would become an expert in many spheres",
+        "ru": "Если бы я жил тысячу лет, я бы стал экспертом во множестве областей.",
+        "learn": 1
+      },
+      {
+        "eng": "If I lived in Italy, I wouldn’t try to spend every holiday at the seaside",
+        "ru": "Если бы я жил в Италии, я бы не пытался провести каждый отпуск на море.",
+        "learn": 1
+      },
+      {
+        "eng": "If I were a king, I would live in this palace",
+        "ru": "Если бы я был королем, я бы жил в этом дворце (но я не король и вряд ли им стану).",
+        "learn": 1
+      },
+      {
+        "eng": "We would be friends if Carol were a little more optimistic",
+        "ru": "Мы были бы друзьями, если бы Кэрол была немного оптимистичнее.",
+        "learn": 1
+      },
+      {
+        "eng": "If I saw Gordon, I would tell him about it",
+        "ru": "Если я увижу Гордона, то расскажу ему об этом.",
+        "learn": 1
+      },
+      {
+        "eng": "If I saw mister President on the street, I wouldn’t know what to think",
+        "ru": "Если бы я увидел президента на улице, я бы не знал, что и думать.",
+        "learn": 1
+      },
+      {
+        "eng": "If I were you, I wouldn’t behave like this",
+        "ru": "Будь я на твоем месте, я бы так себя не вел.",
+        "learn": 1
+      },
+      {
+        "eng": "I could become a star if I were more lucky",
+        "ru": "Я мог бы стать звездой, будь я более везучим.",
+        "learn": 1
+      },
+      {
+        "eng": "If we had more money, we might stop work",
+        "ru": "Будь у нас больше денег, мы бы могли перестать работать.",
+        "learn": 1
+      },
+      {
+        "eng": "If I had time, I should go to the gym",
+        "ru": "Если бы у меня было время, мне бы стоило ходить в спортзал.",
+        "learn": 1
+      },
+      {
+        "eng": "I must be in school at this time of day if I were a child",
+        "ru": "В это время дня я должен бы быть в школе, будь я ребенком.",
+        "learn": 1
+      },
+      {
+        "eng": "If I had known it in advance, I wouldn’t have said such things",
+        "ru": "Если бы я знал об этом заранее, я бы не сказал таких вещей.",
+        "learn": 1
+      },
+      {
+        "eng": "If I had called him that day, we would have solved this problem = If I’d called him that day, we’d have solved this problem",
+        "ru": "Если бы я ему тогда позвонил, мы бы решили эту проблему.",
+        "learn": 1
+      },
+      {
+        "eng": "Had I called him that day, we would have solved this problem",
+        "ru": "Если бы я ему тогда позвонил, мы бы решили эту проблему.",
+        "learn": 1
+      },
+      {
+        "eng": "If we had hurried up, we could have caught the last train",
+        "ru": "Если бы мы поторопились, то смогли бы успеть на последний поезд.",
+        "learn": 1
+      },
+      {
+        "eng": "If you had finished all your work, you may have had a day off today",
+        "ru": "Если бы ты закончил всю свою работу, то мог бы взять сегодня выходной.",
+        "learn": 1
+      },
+      {
+        "eng": "If she had wanted to get this job, she should have been ready to work hard",
+        "ru": "Если бы она хотела получить эту работу, то должна была быть готова много трудиться.",
+        "learn": 1
+      },
+      {
+        "eng": "If it had rained, you must have stayed at home",
+        "ru": "Если бы пошел дождь, ты бы должен был остаться дома.",
+        "learn": 1
+      },
+      {
+        "eng": "If I were clever enough, I wouldn’t have done this",
+        "ru": "Будь я достаточно умен, я бы этого не сделал.",
+        "learn": 1
+      },
+      {
+        "eng": "If I had won that lottery, I would now live in France",
+        "ru": "Если бы я выиграл в той лотерее, я бы сейчас жил во Франции.",
+        "learn": 1
+      }
+    ]
+  }
 }

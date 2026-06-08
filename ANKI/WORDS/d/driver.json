@@ -1,86 +1,172 @@
 {
-    "driver": {
-        "comment": [
-            "derive",
-            "river",
-            "drive",
-            "strive",
-            "thrive",
-            "driving",
-            "drift"
-        ],
-        "translate": "драйвер, водитель, шофер, машинист, кучер, вагоновожатый, управляющая программа",
-        "transcription": " |ˈdraɪvər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She gave the driver a ruble.",
-            "He is a careful driver.",
-            "'Are you lost?' the driver asked.",
-            "Neither the driver nor the passengers were hurt.",
-            "I offered the driver a twenty.",
-            "He's a rotten driver.",
-            "Which driver was in the wrong?",
-            "Do you think you're a good driver?",
-            "He is a pretty awful driver.",
-            "а teacher of driver's education",
-            "My driver's license has expired.",
-            "A good driver has quick reactions.",
-            "He took the corner like a rally driver.",
-            "Some fool driver kept trying to pass me!",
-            "The driver gave a long blast on his horn.",
-            "The driver was killed instantly.",
-            "The driver had disobeyed the law.",
-            "The driver pointed with his whip.",
-            "the expiry of his driver's license",
-            "The driver was an amiable young man.",
-            "The new boss is a real slave driver.",
-            "The driver was lifted from the wreck.",
-            "The judge revoked her driver's license.",
-            "The fault is attached to the bus driver.",
-            "The police laid the blame on the driver.",
-            "The crash threw the driver from the car.",
-            "a nerved and fearless driver of race cars",
-            "The driver lost control when a tyre burst.",
-            "The driver was certified dead at the scene.",
-            "There's a problem with the printer's driver."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она дала водителю рубль.",
-            "Он внимательный /осторожный/ водитель.",
-            "— Вы что, заблудились? — спросил водитель.",
-            "Ни водитель, ни пассажиры не были травмированы.",
-            "Я предложил водителю двадцатку.",
-            "Водитель из него никакой.",
-            "Какой водитель был неправ?",
-            "Думаете, вы хороший водитель?",
-            "Он довольно ужасный водитель.",
-            "инструктор по вождению",
-            "Срок моего водительского удостоверения истек.",
-            "Хороший водитель обладает быстрой реакцией.",
-            "Он завернул за угол, как настоящий гонщик.",
-            "Какой-то идиот-водитель всё время пытался меня обогнать!",
-            "Водитель нажал на клаксон, издав длинный гудок.",
-            "Водитель был убит мгновенно.",
-            "Водитель нарушил закон.",
-            "Кучер показал кнутом.",
-            "окончание срока действия его водительского удостоверения",
-            "Водитель оказался приятным /дружелюбным/ молодым человеком.",
-            "Новый начальник — самый настоящий деспот.",
-            "Водителя вытащили из-под обломков.",
-            "Судья лишил её водительских прав.",
-            "Вина лежит на водителе автобуса.",
-            "Полицейские возложили вину на водителя.",
-            "В результате аварии водителя выбросило из машины.",
-            "мужественный и бесстрашный пилот гоночных машин",
-            "Шофёр потерял управление, когда лопнула шина.",
-            "Медики констатировали смерть водителя непосредственно на месте аварии.",
-            "Есть проблемы с драйвером принтера."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "driver": {
+    "comment": [
+      "derive",
+      "river",
+      "drive",
+      "strive",
+      "thrive",
+      "driving",
+      "drift"
+    ],
+    "translate": "драйвер, водитель, шофер, машинист, кучер, вагоновожатый, управляющая программа",
+    "transcription": " |ˈdraɪvər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She gave the driver a ruble.",
+        "ru": "Она дала водителю рубль.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a careful driver.",
+        "ru": "Он внимательный /осторожный/ водитель.",
+        "learn": 0
+      },
+      {
+        "eng": "'Are you lost?' the driver asked.",
+        "ru": "— Вы что, заблудились? — спросил водитель.",
+        "learn": 0
+      },
+      {
+        "eng": "Neither the driver nor the passengers were hurt.",
+        "ru": "Ни водитель, ни пассажиры не были травмированы.",
+        "learn": 1
+      },
+      {
+        "eng": "I offered the driver a twenty.",
+        "ru": "Я предложил водителю двадцатку.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a rotten driver.",
+        "ru": "Водитель из него никакой.",
+        "learn": 0
+      },
+      {
+        "eng": "Which driver was in the wrong?",
+        "ru": "Какой водитель был неправ?",
+        "learn": 0
+      },
+      {
+        "eng": "Do you think you're a good driver?",
+        "ru": "Думаете, вы хороший водитель?",
+        "learn": 0
+      },
+      {
+        "eng": "He is a pretty awful driver.",
+        "ru": "Он довольно ужасный водитель.",
+        "learn": 0
+      },
+      {
+        "eng": "а teacher of driver's education",
+        "ru": "инструктор по вождению",
+        "learn": 0
+      },
+      {
+        "eng": "My driver's license has expired.",
+        "ru": "Срок моего водительского удостоверения истек.",
+        "learn": 0
+      },
+      {
+        "eng": "A good driver has quick reactions.",
+        "ru": "Хороший водитель обладает быстрой реакцией.",
+        "learn": 0
+      },
+      {
+        "eng": "He took the corner like a rally driver.",
+        "ru": "Он завернул за угол, как настоящий гонщик.",
+        "learn": 1
+      },
+      {
+        "eng": "Some fool driver kept trying to pass me!",
+        "ru": "Какой-то идиот-водитель всё время пытался меня обогнать!",
+        "learn": 0
+      },
+      {
+        "eng": "The driver gave a long blast on his horn.",
+        "ru": "Водитель нажал на клаксон, издав длинный гудок.",
+        "learn": 0
+      },
+      {
+        "eng": "The driver was killed instantly.",
+        "ru": "Водитель был убит мгновенно.",
+        "learn": 0
+      },
+      {
+        "eng": "The driver had disobeyed the law.",
+        "ru": "Водитель нарушил закон.",
+        "learn": 0
+      },
+      {
+        "eng": "The driver pointed with his whip.",
+        "ru": "Кучер показал кнутом.",
+        "learn": 0
+      },
+      {
+        "eng": "the expiry of his driver's license",
+        "ru": "окончание срока действия его водительского удостоверения",
+        "learn": 0
+      },
+      {
+        "eng": "The driver was an amiable young man.",
+        "ru": "Водитель оказался приятным /дружелюбным/ молодым человеком.",
+        "learn": 0
+      },
+      {
+        "eng": "The new boss is a real slave driver.",
+        "ru": "Новый начальник — самый настоящий деспот.",
+        "learn": 0
+      },
+      {
+        "eng": "The driver was lifted from the wreck.",
+        "ru": "Водителя вытащили из-под обломков.",
+        "learn": 0
+      },
+      {
+        "eng": "The judge revoked her driver's license.",
+        "ru": "Судья лишил её водительских прав.",
+        "learn": 0
+      },
+      {
+        "eng": "The fault is attached to the bus driver.",
+        "ru": "Вина лежит на водителе автобуса.",
+        "learn": 0
+      },
+      {
+        "eng": "The police laid the blame on the driver.",
+        "ru": "Полицейские возложили вину на водителя.",
+        "learn": 0
+      },
+      {
+        "eng": "The crash threw the driver from the car.",
+        "ru": "В результате аварии водителя выбросило из машины.",
+        "learn": 0
+      },
+      {
+        "eng": "a nerved and fearless driver of race cars",
+        "ru": "мужественный и бесстрашный пилот гоночных машин",
+        "learn": 0
+      },
+      {
+        "eng": "The driver lost control when a tyre burst.",
+        "ru": "Шофёр потерял управление, когда лопнула шина.",
+        "learn": 1
+      },
+      {
+        "eng": "The driver was certified dead at the scene.",
+        "ru": "Медики констатировали смерть водителя непосредственно на месте аварии.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a problem with the printer's driver.",
+        "ru": "Есть проблемы с драйвером принтера.",
+        "learn": 0
+      }
+    ]
+  }
 }

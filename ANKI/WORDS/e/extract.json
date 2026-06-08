@@ -1,80 +1,163 @@
 {
-    "extract": {
-        "comment": [
-            "extra",
-            "extraordinary",
-            "extraordinarily"
-        ],
-        "translate": "экстракт, извлечение, выдержка, вытяжка, извлекать, добывать, экстрагировать",
-        "transcription": " |ɪkˈstrækt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She had extracted a promise from him.",
-            "He extracted a small notebook from his hip pocket.",
-            "We finally extracted a confession from him.",
-            "I had to have a tooth extracted.",
-            "I've only seen short extracts from the film.",
-            "Oils are extracted from the plants.",
-            "Read this extract from an information booklet.",
-            "Many valuable medicines are extracted from humble plants.",
-            "He means to extract the utmost possible amount of pleasure out of this life.",
-            "You'll have to have that tooth extracted.",
-            "I make no apology to the readers for the subjoined extract.",
-            "He made a mistake of trying to extract further information from our director.",
-            "The tumor was surgically extracted.",
-            "He extracted an envelope from his inside pocket.",
-            "He extracted a credit card from his wallet.",
-            "The doctor had to extract pieces of broken glass from the boy's eye.",
-            "Nothing could be extracted from him relative to his former associates.",
-            "Citric acid can be extracted from the juice of oranges, lemons, or grapefruit.",
-            "They are hoping to extract new insights from the test results.",
-            "Add one teaspoon of vanilla extract.",
-            "We need to extract the relevant financial data.",
-            "Investigators were able to extract useful information from the company's financial records.",
-            "The machines extract the juice from the apples.",
-            "The anthology includes a long extract from the epic poem.",
-            "I'll show you a short extract from one of our training videos.",
-            "They used torture to extract information about their families.",
-            "It took months to extract that nugget of information from them.",
-            "They aim to extract the maximum political benefit from the Games.",
-            "The words which I have italicized in the above extract are those which were surprising to me."
-        ],
-        "example_translate": [
-            "Она заставила его кое-что пообещать.",
-            "Он извлёк маленькую записную книжку из бокового кармана.",
-            "Мы, наконец-то, добились от него признания.",
-            "Мне пришлось удалить зуб.",
-            "Я видел только короткие отрывки из фильма.",
-            "Масла добываются из растений.",
-            "Прочти этот кусок из справочной брошюры.",
-            "Из этих невзрачных растений делают много полезных лекарств.",
-            "Он хочет извлечь все возможные удовольствия из этой жизни.",
-            "Вам придётся удалить этот зуб.",
-            "Я не извиняюсь перед читателями за отрывок, добавленный в конце.",
-            "Он сделал ошибку, пытаясь выудить дополнительную информацию у нашего директора.",
-            "Опухоль была удалена хирургическим путём.",
-            "Он извлёк из внутреннего кармана конверт.",
-            "Он достал из бумажника кредитную карту.",
-            "Врачу пришлось вынимать у мальчика из глаза осколки стекла.",
-            "У него ничего не удастся выудить относительно его прежних партнёров.",
-            "Лимонная кислота может быть извлечена из сока апельсинов, лимонов или грейпфрутов.",
-            "Они надеются получить новые знания из результатов этого теста.",
-            "Добавьте одну чайную ложку ванильного экстракта.",
-            "Мы должны извлечь соответствующие финансовые данные.",
-            "Следствию удалось извлечь полезную информацию из финансовой документации компании.",
-            "Эти машины выжимают сок из яблок.",
-            "Антология включает в себя большую выдержку из этой эпической поэмы.",
-            "Я покажу вам короткий отрывок из одного из наших обучающих видео.",
-            "Они применили пытки для получения информации об их семьях.",
-            "Потребовалось несколько месяцев, чтобы добыть у них эту бесценную информацию.",
-            "Они стремятся извлечь из Олимпиады максимальную политическую выгоду.",
-            "Слова, которые я выделил курсивом в предыдущем абзаце, поразили меня."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "extract": {
+    "comment": [
+      "extra",
+      "extraordinary",
+      "extraordinarily"
+    ],
+    "translate": "экстракт, извлечение, выдержка, вытяжка, извлекать, добывать, экстрагировать",
+    "transcription": " |ɪkˈstrækt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She had extracted a promise from him.",
+        "ru": "Она заставила его кое-что пообещать.",
+        "learn": 0
+      },
+      {
+        "eng": "He extracted a small notebook from his hip pocket.",
+        "ru": "Он извлёк маленькую записную книжку из бокового кармана.",
+        "learn": 0
+      },
+      {
+        "eng": "We finally extracted a confession from him.",
+        "ru": "Мы, наконец-то, добились от него признания.",
+        "learn": 1
+      },
+      {
+        "eng": "I had to have a tooth extracted.",
+        "ru": "Мне пришлось удалить зуб.",
+        "learn": 0
+      },
+      {
+        "eng": "I've only seen short extracts from the film.",
+        "ru": "Я видел только короткие отрывки из фильма.",
+        "learn": 0
+      },
+      {
+        "eng": "Oils are extracted from the plants.",
+        "ru": "Масла добываются из растений.",
+        "learn": 0
+      },
+      {
+        "eng": "Read this extract from an information booklet.",
+        "ru": "Прочти этот кусок из справочной брошюры.",
+        "learn": 0
+      },
+      {
+        "eng": "Many valuable medicines are extracted from humble plants.",
+        "ru": "Из этих невзрачных растений делают много полезных лекарств.",
+        "learn": 0
+      },
+      {
+        "eng": "He means to extract the utmost possible amount of pleasure out of this life.",
+        "ru": "Он хочет извлечь все возможные удовольствия из этой жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "You'll have to have that tooth extracted.",
+        "ru": "Вам придётся удалить этот зуб.",
+        "learn": 0
+      },
+      {
+        "eng": "I make no apology to the readers for the subjoined extract.",
+        "ru": "Я не извиняюсь перед читателями за отрывок, добавленный в конце.",
+        "learn": 0
+      },
+      {
+        "eng": "He made a mistake of trying to extract further information from our director.",
+        "ru": "Он сделал ошибку, пытаясь выудить дополнительную информацию у нашего директора.",
+        "learn": 0
+      },
+      {
+        "eng": "The tumor was surgically extracted.",
+        "ru": "Опухоль была удалена хирургическим путём.",
+        "learn": 0
+      },
+      {
+        "eng": "He extracted an envelope from his inside pocket.",
+        "ru": "Он извлёк из внутреннего кармана конверт.",
+        "learn": 0
+      },
+      {
+        "eng": "He extracted a credit card from his wallet.",
+        "ru": "Он достал из бумажника кредитную карту.",
+        "learn": 0
+      },
+      {
+        "eng": "The doctor had to extract pieces of broken glass from the boy's eye.",
+        "ru": "Врачу пришлось вынимать у мальчика из глаза осколки стекла.",
+        "learn": 0
+      },
+      {
+        "eng": "Nothing could be extracted from him relative to his former associates.",
+        "ru": "У него ничего не удастся выудить относительно его прежних партнёров.",
+        "learn": 0
+      },
+      {
+        "eng": "Citric acid can be extracted from the juice of oranges, lemons, or grapefruit.",
+        "ru": "Лимонная кислота может быть извлечена из сока апельсинов, лимонов или грейпфрутов.",
+        "learn": 0
+      },
+      {
+        "eng": "They are hoping to extract new insights from the test results.",
+        "ru": "Они надеются получить новые знания из результатов этого теста.",
+        "learn": 0
+      },
+      {
+        "eng": "Add one teaspoon of vanilla extract.",
+        "ru": "Добавьте одну чайную ложку ванильного экстракта.",
+        "learn": 0
+      },
+      {
+        "eng": "We need to extract the relevant financial data.",
+        "ru": "Мы должны извлечь соответствующие финансовые данные.",
+        "learn": 1
+      },
+      {
+        "eng": "Investigators were able to extract useful information from the company's financial records.",
+        "ru": "Следствию удалось извлечь полезную информацию из финансовой документации компании.",
+        "learn": 0
+      },
+      {
+        "eng": "The machines extract the juice from the apples.",
+        "ru": "Эти машины выжимают сок из яблок.",
+        "learn": 0
+      },
+      {
+        "eng": "The anthology includes a long extract from the epic poem.",
+        "ru": "Антология включает в себя большую выдержку из этой эпической поэмы.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll show you a short extract from one of our training videos.",
+        "ru": "Я покажу вам короткий отрывок из одного из наших обучающих видео.",
+        "learn": 0
+      },
+      {
+        "eng": "They used torture to extract information about their families.",
+        "ru": "Они применили пытки для получения информации об их семьях.",
+        "learn": 1
+      },
+      {
+        "eng": "It took months to extract that nugget of information from them.",
+        "ru": "Потребовалось несколько месяцев, чтобы добыть у них эту бесценную информацию.",
+        "learn": 0
+      },
+      {
+        "eng": "They aim to extract the maximum political benefit from the Games.",
+        "ru": "Они стремятся извлечь из Олимпиады максимальную политическую выгоду.",
+        "learn": 0
+      },
+      {
+        "eng": "The words which I have italicized in the above extract are those which were surprising to me.",
+        "ru": "Слова, которые я выделил курсивом в предыдущем абзаце, поразили меня.",
+        "learn": 0
+      }
+    ]
+  }
 }

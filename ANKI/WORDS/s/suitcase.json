@@ -1,90 +1,176 @@
 {
-    "suitcase": {
-        "comment": [
-            "suit",
-            "suitable",
-            "unsuitable",
-            "lawsuit",
-            "pursuit",
-            "suite",
-            "suitably",
-            "case",
-            "bookcase",
-            "briefcase",
-            "staircase"
-        ],
-        "translate": "чемодан, небольшой плоский чемодан",
-        "transcription": " |ˈsuːtkeɪs|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I went to retrieve my suitcase.",
-            "Tie this label to your suitcase.",
-            "Doesn't this suitcase have a hold?",
-            "The zipper was stuck and we couldn't open the suitcase.",
-            "a suitcase with a false bottom",
-            "He jammed everything into one suitcase.",
-            "He dragged the big suitcase behind him",
-            "Put your suitcase in the trunk.",
-            "Peter shoved the suitcase under the bed.",
-            "She began to lug her suitcase up the stairs.",
-            "I don't think all that will go in the suitcase.",
-            "I unpacked my suitcase as soon as I arrived home.",
-            "You'll have to lug this suitcase.",
-            "She stuffed her things into a suitcase.",
-            "I rushed to pack my suitcase before she came back.",
-            "She trundled her suitcase into the room.",
-            "He crammed the suitcase with his clothes.",
-            "She looked at the open suitcase with surprise.",
-            "I chucked a few things into a suitcase and left.",
-            "I swung my suitcase into the backseat of the car.",
-            "You'll never manage that suitcase., let me take it.",
-            "I cricked my back bending to pick up the suitcase.",
-            "She packed her suitcases the night before she left.",
-            "She stood on the platform, her suitcase at her feet.",
-            "She opened her suitcase and took out a pair of shoes.",
-            "She gave the porter a dollar for carrying her suitcase.",
-            "She tried to run, but was hampered by her heavy suitcase.",
-            "'Would you mind helping me with my suitcase?' 'Not at all.'",
-            "The suitcase has a zippered compartment for personal items.",
-            "Don's few personal effects were in a suitcase under the bed."
-        ],
-        "example_translate": [
-            "Я пошёл забрать свой чемодан.",
-            "Привяжите эту бирку к своему чемодану.",
-            "Разве у этого чемодана нет ручки?",
-            "Молнию заклинило, и мы не смогли открыть чемодан.",
-            "чемодан с двойным дном",
-            "Он запихал всё в один чемодан.",
-            "Он тащил за собой большой чемодан",
-            "Положи свой чемодан в багажник.",
-            "Питер запихал чемодан под кровать.",
-            "Она потащила чемодан вверх по лестнице.",
-            "Мне кажется, что всё это не войдёт в чемодан.",
-            "Я распаковал свой чемодан, как только приехал домой.",
-            "Тебе придётся тащить этот чемодан.",
-            "Она запихнула свои вещи в чемодан",
-            "Я бросился паковать чемодан, пока она не вернулась.",
-            "Она вкатила в номер свой чемодан.",
-            "Он до отказа набил чемодан вещами.",
-            "Она с удивлением посмотрела на открытый чемодан.",
-            "Я бросил несколько вещей в чемодан и уехал.",
-            "Я забросила свой чемодан на заднее сидение машины.",
-            "Тебе не справиться с этим чемоданом — давай я его понесу.",
-            "Я потянул спину, когда нагнулся за чемоданом.",
-            "Она собрала свои чемоданы в ночь перед отъездом.",
-            "Она стояла на платформе с чемоданом у ног.",
-            "Она открыла чемодан и достала пару туфель.",
-            "Она дала швейцару доллар за то, что он донёс ей чемодан.",
-            "Она попыталась убежать, но тяжёлый чемодан помешал ей.",
-            "— Вы не против помочь мне с чемоданом? — Нисколько.",
-            "В чемодане имеется отделение на молнии для личных вещей.",
-            "Немногие личные вещи Дона были в чемодане под кроватью."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "suitcase": {
+    "comment": [
+      "suit",
+      "suitable",
+      "unsuitable",
+      "lawsuit",
+      "pursuit",
+      "suite",
+      "suitably",
+      "case",
+      "bookcase",
+      "briefcase",
+      "staircase"
+    ],
+    "translate": "чемодан, небольшой плоский чемодан",
+    "transcription": " |ˈsuːtkeɪs|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I went to retrieve my suitcase.",
+        "ru": "Я пошёл забрать свой чемодан.",
+        "learn": 1
+      },
+      {
+        "eng": "Tie this label to your suitcase.",
+        "ru": "Привяжите эту бирку к своему чемодану.",
+        "learn": 0
+      },
+      {
+        "eng": "Doesn't this suitcase have a hold?",
+        "ru": "Разве у этого чемодана нет ручки?",
+        "learn": 0
+      },
+      {
+        "eng": "The zipper was stuck and we couldn't open the suitcase.",
+        "ru": "Молнию заклинило, и мы не смогли открыть чемодан.",
+        "learn": 0
+      },
+      {
+        "eng": "a suitcase with a false bottom",
+        "ru": "чемодан с двойным дном",
+        "learn": 0
+      },
+      {
+        "eng": "He jammed everything into one suitcase.",
+        "ru": "Он запихал всё в один чемодан.",
+        "learn": 0
+      },
+      {
+        "eng": "He dragged the big suitcase behind him",
+        "ru": "Он тащил за собой большой чемодан",
+        "learn": 0
+      },
+      {
+        "eng": "Put your suitcase in the trunk.",
+        "ru": "Положи свой чемодан в багажник.",
+        "learn": 0
+      },
+      {
+        "eng": "Peter shoved the suitcase under the bed.",
+        "ru": "Питер запихал чемодан под кровать.",
+        "learn": 1
+      },
+      {
+        "eng": "She began to lug her suitcase up the stairs.",
+        "ru": "Она потащила чемодан вверх по лестнице.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't think all that will go in the suitcase.",
+        "ru": "Мне кажется, что всё это не войдёт в чемодан.",
+        "learn": 0
+      },
+      {
+        "eng": "I unpacked my suitcase as soon as I arrived home.",
+        "ru": "Я распаковал свой чемодан, как только приехал домой.",
+        "learn": 1
+      },
+      {
+        "eng": "You'll have to lug this suitcase.",
+        "ru": "Тебе придётся тащить этот чемодан.",
+        "learn": 0
+      },
+      {
+        "eng": "She stuffed her things into a suitcase.",
+        "ru": "Она запихнула свои вещи в чемодан",
+        "learn": 0
+      },
+      {
+        "eng": "I rushed to pack my suitcase before she came back.",
+        "ru": "Я бросился паковать чемодан, пока она не вернулась.",
+        "learn": 0
+      },
+      {
+        "eng": "She trundled her suitcase into the room.",
+        "ru": "Она вкатила в номер свой чемодан.",
+        "learn": 0
+      },
+      {
+        "eng": "He crammed the suitcase with his clothes.",
+        "ru": "Он до отказа набил чемодан вещами.",
+        "learn": 0
+      },
+      {
+        "eng": "She looked at the open suitcase with surprise.",
+        "ru": "Она с удивлением посмотрела на открытый чемодан.",
+        "learn": 0
+      },
+      {
+        "eng": "I chucked a few things into a suitcase and left.",
+        "ru": "Я бросил несколько вещей в чемодан и уехал.",
+        "learn": 1
+      },
+      {
+        "eng": "I swung my suitcase into the backseat of the car.",
+        "ru": "Я забросила свой чемодан на заднее сидение машины.",
+        "learn": 0
+      },
+      {
+        "eng": "You'll never manage that suitcase., let me take it.",
+        "ru": "Тебе не справиться с этим чемоданом — давай я его понесу.",
+        "learn": 0
+      },
+      {
+        "eng": "I cricked my back bending to pick up the suitcase.",
+        "ru": "Я потянул спину, когда нагнулся за чемоданом.",
+        "learn": 0
+      },
+      {
+        "eng": "She packed her suitcases the night before she left.",
+        "ru": "Она собрала свои чемоданы в ночь перед отъездом.",
+        "learn": 0
+      },
+      {
+        "eng": "She stood on the platform, her suitcase at her feet.",
+        "ru": "Она стояла на платформе с чемоданом у ног.",
+        "learn": 1
+      },
+      {
+        "eng": "She opened her suitcase and took out a pair of shoes.",
+        "ru": "Она открыла чемодан и достала пару туфель.",
+        "learn": 0
+      },
+      {
+        "eng": "She gave the porter a dollar for carrying her suitcase.",
+        "ru": "Она дала швейцару доллар за то, что он донёс ей чемодан.",
+        "learn": 0
+      },
+      {
+        "eng": "She tried to run, but was hampered by her heavy suitcase.",
+        "ru": "Она попыталась убежать, но тяжёлый чемодан помешал ей.",
+        "learn": 0
+      },
+      {
+        "eng": "'Would you mind helping me with my suitcase?' 'Not at all.'",
+        "ru": "— Вы не против помочь мне с чемоданом? — Нисколько.",
+        "learn": 0
+      },
+      {
+        "eng": "The suitcase has a zippered compartment for personal items.",
+        "ru": "В чемодане имеется отделение на молнии для личных вещей.",
+        "learn": 0
+      },
+      {
+        "eng": "Don's few personal effects were in a suitcase under the bed.",
+        "ru": "Немногие личные вещи Дона были в чемодане под кроватью.",
+        "learn": 0
+      }
+    ]
+  }
 }

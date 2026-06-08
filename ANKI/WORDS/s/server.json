@@ -1,36 +1,50 @@
 {
-    "server": {
-        "comment": [
-            "deserve",
-            "servant",
-            "serve",
-            "service",
-            "serving"
-        ],
-        "translate": "сервер, поднос, спецпроцессор, игрок, подающий мяч",
-        "transcription": " |ˈsɜːrvər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "This computer is worked from a central server.",
-            "All data is stored on a central file server.",
-            "Each computer is networked to a file server.",
-            "The computers are networked to one main server.",
-            "This document describes how to install Linux on a headless server.",
-            "We'll have to change the configuration of the system to accommodate the new server."
-        ],
-        "example_translate": [
-            "Управление этим компьютером осуществляется с центрального сервера.",
-            "Все данные хранятся на центральном файловом сервере.",
-            "Каждый компьютер подключён к файловому серверу.",
-            "Компьютеры подключены через сеть к одному главному серверу.",
-            "Данный документ описывает процедуру установки системы Linux на автономный сервер.",
-            "Нам придётся изменить конфигурацию системы, чтобы подключить новый сервер."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "server": {
+    "comment": [
+      "deserve",
+      "servant",
+      "serve",
+      "service",
+      "serving"
+    ],
+    "translate": "сервер, поднос, спецпроцессор, игрок, подающий мяч",
+    "transcription": " |ˈsɜːrvər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "This computer is worked from a central server.",
+        "ru": "Управление этим компьютером осуществляется с центрального сервера.",
+        "learn": 0
+      },
+      {
+        "eng": "All data is stored on a central file server.",
+        "ru": "Все данные хранятся на центральном файловом сервере.",
+        "learn": 1
+      },
+      {
+        "eng": "Each computer is networked to a file server.",
+        "ru": "Каждый компьютер подключён к файловому серверу.",
+        "learn": 0
+      },
+      {
+        "eng": "The computers are networked to one main server.",
+        "ru": "Компьютеры подключены через сеть к одному главному серверу.",
+        "learn": 0
+      },
+      {
+        "eng": "This document describes how to install Linux on a headless server.",
+        "ru": "Данный документ описывает процедуру установки системы Linux на автономный сервер.",
+        "learn": 1
+      },
+      {
+        "eng": "We'll have to change the configuration of the system to accommodate the new server.",
+        "ru": "Нам придётся изменить конфигурацию системы, чтобы подключить новый сервер.",
+        "learn": 1
+      }
+    ]
+  }
 }

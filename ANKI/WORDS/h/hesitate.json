@@ -1,59 +1,108 @@
 {
-    "hesitate": {
-        "comment": [
-            "thesis",
-            "synthesis",
-            "hypothesis",
-            "hesitation"
-        ],
-        "translate": "стесняться, колебаться, запинаться, призадумываться, не решаться, запнуться",
-        "transcription": " |ˈhezɪteɪt|",
-        "antonyms": [],
-        "mnemonic": [
-            "hesitate ['hezɪteɪt]\nhesitant - нерешительный\nhesitation - нерешительность\n***\nНЕ РЕШАЮСЬ читать газет (ейт). (это) hesitate\nЧтоб не СОМНЕВАТЬСЯ, не читайте газет (ейт). (это)\nhesitate\nНе КОЛЕБАЙТЕТЕСЬ - читайте газет (ейт). (это)\nhesitate"
-        ],
-        "examples": [
-            "Do not hesitate to call me.",
-            "She hesitated to act.",
-            "It would be fatal to hesitate.",
-            "I hesitated to come without being asked.",
-            "I sometimes hesitate to say what I am really thinking.",
-            "She hesitated and waited for her friend to say something.",
-            "Don't hesitate to call if there is a problem.",
-            "He was still hesitating over whether to leave or not.",
-            "Don't hesitate to contact me if you need any more information.",
-            "Kay hesitated for a moment and then said 'yes'.",
-            "If you hesitate, you may lose the opportunity to compete altogether.",
-            "If you wish to discuss this matter further please do not hesitate to contact me.",
-            "Please do not hesitate to contact me if you have any queries.",
-            "He hesitated about accepting the job.",
-            "Don't hesitate to demur to the idea if you have any qualms.",
-            "The supervisor is quite easy to approach, so don't hesitate to bring up any problems you have.",
-            "The supervisor is quite approachable, so don't hesitate to bring up any problems you have."
-        ],
-        "example_translate": [
-            "Если что, звони, не стесняйся. / Звоните в любое время.",
-            "Она не решалась действовать.",
-            "Промедление смерти подобно.",
-            "Я не решалась прийти без спроса.",
-            "Иногда я стесняюсь говорить то, что думаю на самом деле.",
-            "Она колебалась, и ждала свою подругу, чтобы что-то сказать.",
-            "Если возникнет какая-то проблема, звоните не раздумывая.",
-            "Он все ещё не решил, уходить ему или остаться.",
-            "Если понадобится больше информации, не стесняйтесь обращаться ко мне.",
-            "Кей помедлила, а потом сказала \"да\".",
-            "Если будешь колебаться, то можешь вообще потерять возможность конкурировать.",
-            "Если вы хотите продолжить обсуждение этого вопроса, прошу без колебаний обращаться ко мне.",
-            "Прошу вас обращаться прямо ко мне, если есть какие-либо вопросы.",
-            "Он сомневался, стоит ли соглашаться на эту работу.",
-            "Если у вас есть какие-то сомнения по поводу этой затеи, не стесняйтесь высказывать свои возражения.",
-            "Супервайзер — человек вполне доступный, так что не стесняйтесь сообщать ему о любых возникших у вас проблемах.",
-            "Этот начальник — человек вполне доступный, так что не стесняйтесь сообщать ему о любых проблемах."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "hesitate": {
+    "comment": [
+      "thesis",
+      "synthesis",
+      "hypothesis",
+      "hesitation"
+    ],
+    "translate": "стесняться, колебаться, запинаться, призадумываться, не решаться, запнуться",
+    "transcription": " |ˈhezɪteɪt|",
+    "antonyms": [],
+    "mnemonic": [
+      "hesitate ['hezɪteɪt]\nhesitant - нерешительный\nhesitation - нерешительность\n***\nНЕ РЕШАЮСЬ читать газет (ейт). (это) hesitate\nЧтоб не СОМНЕВАТЬСЯ, не читайте газет (ейт). (это)\nhesitate\nНе КОЛЕБАЙТЕТЕСЬ - читайте газет (ейт). (это)\nhesitate"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "infinitive_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Do not hesitate to call me.",
+        "ru": "Если что, звони, не стесняйся. / Звоните в любое время.",
+        "learn": 0
+      },
+      {
+        "eng": "She hesitated to act.",
+        "ru": "Она не решалась действовать.",
+        "learn": 1
+      },
+      {
+        "eng": "It would be fatal to hesitate.",
+        "ru": "Промедление смерти подобно.",
+        "learn": 0
+      },
+      {
+        "eng": "I hesitated to come without being asked.",
+        "ru": "Я не решалась прийти без спроса.",
+        "learn": 0
+      },
+      {
+        "eng": "I sometimes hesitate to say what I am really thinking.",
+        "ru": "Иногда я стесняюсь говорить то, что думаю на самом деле.",
+        "learn": 1
+      },
+      {
+        "eng": "She hesitated and waited for her friend to say something.",
+        "ru": "Она колебалась, и ждала свою подругу, чтобы что-то сказать.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't hesitate to call if there is a problem.",
+        "ru": "Если возникнет какая-то проблема, звоните не раздумывая.",
+        "learn": 0
+      },
+      {
+        "eng": "He was still hesitating over whether to leave or not.",
+        "ru": "Он все ещё не решил, уходить ему или остаться.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't hesitate to contact me if you need any more information.",
+        "ru": "Если понадобится больше информации, не стесняйтесь обращаться ко мне.",
+        "learn": 1
+      },
+      {
+        "eng": "Kay hesitated for a moment and then said 'yes'.",
+        "ru": "Кей помедлила, а потом сказала \"да\".",
+        "learn": 0
+      },
+      {
+        "eng": "If you hesitate, you may lose the opportunity to compete altogether.",
+        "ru": "Если будешь колебаться, то можешь вообще потерять возможность конкурировать.",
+        "learn": 1
+      },
+      {
+        "eng": "If you wish to discuss this matter further please do not hesitate to contact me.",
+        "ru": "Если вы хотите продолжить обсуждение этого вопроса, прошу без колебаний обращаться ко мне.",
+        "learn": 0
+      },
+      {
+        "eng": "Please do not hesitate to contact me if you have any queries.",
+        "ru": "Прошу вас обращаться прямо ко мне, если есть какие-либо вопросы.",
+        "learn": 0
+      },
+      {
+        "eng": "He hesitated about accepting the job.",
+        "ru": "Он сомневался, стоит ли соглашаться на эту работу.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't hesitate to demur to the idea if you have any qualms.",
+        "ru": "Если у вас есть какие-то сомнения по поводу этой затеи, не стесняйтесь высказывать свои возражения.",
+        "learn": 0
+      },
+      {
+        "eng": "The supervisor is quite easy to approach, so don't hesitate to bring up any problems you have.",
+        "ru": "Супервайзер — человек вполне доступный, так что не стесняйтесь сообщать ему о любых возникших у вас проблемах.",
+        "learn": 0
+      },
+      {
+        "eng": "The supervisor is quite approachable, so don't hesitate to bring up any problems you have.",
+        "ru": "Этот начальник — человек вполне доступный, так что не стесняйтесь сообщать ему о любых проблемах.",
+        "learn": 0
+      }
+    ]
+  }
 }

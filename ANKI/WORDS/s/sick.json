@@ -1,83 +1,169 @@
 {
-    "sick": {
-        "comment": [
-            "sickness"
-        ],
-        "translate": "больной, болезненный, больные, болезнь, натравливать",
-        "transcription": " |sɪk|",
-        "antonyms": [],
-        "mnemonic": [
-            "sick [сик] больной, поганый, скверный - (Сик-хи) - поганый, скверный и больной народ.",
-            "sick [sɪk]\n***\nДруга БОЛЬНОГО спаси|ка. (это) sick\nБОЛЬНОЙ карасик. (это) sick\n***\nЕсли ты болен \"sick\",\nне ходи в лес густой \"thick\"."
-        ],
-        "examples": [
-            "You're sick!",
-            "He is off sick today.",
-            "He was sick in the car.",
-            "\"I feel sick,\" he told his mom.",
-            "She felt sick of waiting.",
-            "His mother's very sick.",
-            "I don't want to hear any of your sick jokes, thank you.",
-            "She is sick with the flu.",
-            "That's really sick!",
-            "He was sick with fear.",
-            "I feel pretty sick about it.",
-            "People like you make me sick!",
-            "Gossips make me sick.",
-            "I have been sick with flu.",
-            "I'm too sick to go to work.",
-            "We are sick of the red tape.",
-            "Even when he is sick, he works.",
-            "He took sick and died a week later.",
-            "I am sick of being pushed about.",
-            "I think I'm going to be sick.",
-            "My poor rosebush looks sick.",
-            "The cat's been sick on the carpet.",
-            "He is at home sick in bed.",
-            "The phone box smelt of sick.",
-            "I felt too sick to continue.",
-            "Mary felt sick with fear.",
-            "Mr. Hopkins is hard sick.",
-            "He feigned that he was sick.",
-            "The sick men urinated blood.",
-            "They put him in the sick bay."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Вы ненормальный!",
-            "Его сегодня нет, он болеет.",
-            "В машине его стошнило.",
-            "— Мне плохо /Меня тошнит/, — сказал он маме.",
-            "Она устала ждать.",
-            "Его мать очень больна.",
-            "Не надо мне ваших плоских шуток, спасибо большое.",
-            "Она больна гриппом.",
-            "Это полный пипец! (в т.ч. одобрительно) / Какая гадость!",
-            "Он до смерти испугался.",
-            "Мне это порядком надоело.",
-            "От таких людей, как вы, меня тошнит!",
-            "От сплетен меня тошнит.",
-            "Я болел гриппом.",
-            "Мне слишком плохо /я слишком болен/, чтобы идти на работу.",
-            "Мы устали от бюрократии.",
-            "Он работает, даже когда болеет.",
-            "Он заболел и умер неделю спустя.",
-            "Мне надоело, что мной помыкают.",
-            "Похоже, меня сейчас стошнит.",
-            "Мой бедный розовый куст, похоже, приболел.",
-            "Кошку стошнило на пол.",
-            "Он лежит больной дома.",
-            "Телефонная будка воняла рвотой.",
-            "Я чувствовал себя слишком плохо, чтобы продолжать.",
-            "Мэри замутило от страха.",
-            "Мистер Хопкинс очень болен.",
-            "Он притворился больным.",
-            "Больные мочились кровью.",
-            "Его положили в лазарет."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "sick": {
+    "comment": [
+      "sickness"
+    ],
+    "translate": "больной, болезненный, больные, болезнь, натравливать",
+    "transcription": " |sɪk|",
+    "antonyms": [],
+    "mnemonic": [
+      "sick [сик] больной, поганый, скверный - (Сик-хи) - поганый, скверный и больной народ.",
+      "sick [sɪk]\n***\nДруга БОЛЬНОГО спаси|ка. (это) sick\nБОЛЬНОЙ карасик. (это) sick\n***\nЕсли ты болен \"sick\",\nне ходи в лес густой \"thick\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "You're sick!",
+        "ru": "Вы ненормальный!",
+        "learn": 1
+      },
+      {
+        "eng": "He is off sick today.",
+        "ru": "Его сегодня нет, он болеет.",
+        "learn": 0
+      },
+      {
+        "eng": "He was sick in the car.",
+        "ru": "В машине его стошнило.",
+        "learn": 0
+      },
+      {
+        "eng": "\"I feel sick,\" he told his mom.",
+        "ru": "— Мне плохо /Меня тошнит/, — сказал он маме.",
+        "learn": 0
+      },
+      {
+        "eng": "She felt sick of waiting.",
+        "ru": "Она устала ждать.",
+        "learn": 0
+      },
+      {
+        "eng": "His mother's very sick.",
+        "ru": "Его мать очень больна.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't want to hear any of your sick jokes, thank you.",
+        "ru": "Не надо мне ваших плоских шуток, спасибо большое.",
+        "learn": 0
+      },
+      {
+        "eng": "She is sick with the flu.",
+        "ru": "Она больна гриппом.",
+        "learn": 1
+      },
+      {
+        "eng": "That's really sick!",
+        "ru": "Это полный пипец! (в т.ч. одобрительно) / Какая гадость!",
+        "learn": 0
+      },
+      {
+        "eng": "He was sick with fear.",
+        "ru": "Он до смерти испугался.",
+        "learn": 0
+      },
+      {
+        "eng": "I feel pretty sick about it.",
+        "ru": "Мне это порядком надоело.",
+        "learn": 0
+      },
+      {
+        "eng": "People like you make me sick!",
+        "ru": "От таких людей, как вы, меня тошнит!",
+        "learn": 1
+      },
+      {
+        "eng": "Gossips make me sick.",
+        "ru": "От сплетен меня тошнит.",
+        "learn": 0
+      },
+      {
+        "eng": "I have been sick with flu.",
+        "ru": "Я болел гриппом.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm too sick to go to work.",
+        "ru": "Мне слишком плохо /я слишком болен/, чтобы идти на работу.",
+        "learn": 0
+      },
+      {
+        "eng": "We are sick of the red tape.",
+        "ru": "Мы устали от бюрократии.",
+        "learn": 0
+      },
+      {
+        "eng": "Even when he is sick, he works.",
+        "ru": "Он работает, даже когда болеет.",
+        "learn": 1
+      },
+      {
+        "eng": "He took sick and died a week later.",
+        "ru": "Он заболел и умер неделю спустя.",
+        "learn": 0
+      },
+      {
+        "eng": "I am sick of being pushed about.",
+        "ru": "Мне надоело, что мной помыкают.",
+        "learn": 0
+      },
+      {
+        "eng": "I think I'm going to be sick.",
+        "ru": "Похоже, меня сейчас стошнит.",
+        "learn": 0
+      },
+      {
+        "eng": "My poor rosebush looks sick.",
+        "ru": "Мой бедный розовый куст, похоже, приболел.",
+        "learn": 0
+      },
+      {
+        "eng": "The cat's been sick on the carpet.",
+        "ru": "Кошку стошнило на пол.",
+        "learn": 0
+      },
+      {
+        "eng": "He is at home sick in bed.",
+        "ru": "Он лежит больной дома.",
+        "learn": 0
+      },
+      {
+        "eng": "The phone box smelt of sick.",
+        "ru": "Телефонная будка воняла рвотой.",
+        "learn": 0
+      },
+      {
+        "eng": "I felt too sick to continue.",
+        "ru": "Я чувствовал себя слишком плохо, чтобы продолжать.",
+        "learn": 0
+      },
+      {
+        "eng": "Mary felt sick with fear.",
+        "ru": "Мэри замутило от страха.",
+        "learn": 0
+      },
+      {
+        "eng": "Mr. Hopkins is hard sick.",
+        "ru": "Мистер Хопкинс очень болен.",
+        "learn": 0
+      },
+      {
+        "eng": "He feigned that he was sick.",
+        "ru": "Он притворился больным.",
+        "learn": 0
+      },
+      {
+        "eng": "The sick men urinated blood.",
+        "ru": "Больные мочились кровью.",
+        "learn": 0
+      },
+      {
+        "eng": "They put him in the sick bay.",
+        "ru": "Его положили в лазарет.",
+        "learn": 0
+      }
+    ]
+  }
 }

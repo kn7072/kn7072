@@ -1,81 +1,171 @@
 {
-    "send": {
-        "comment": [],
-        "translate": "отправлять, послать, посылать, передавать, присылать, отсылать, рассылать, слать",
-        "transcription": " |send|",
-        "antonyms": [],
-        "mnemonic": [
-            "send [сенд] посылать - Пошлите (сенд-вич) голодным.",
-            "send [send]\n***\nЯ ОТПРАВИЛ письмо с одним словом - с|\"энд\".\n(это) send"
-        ],
-        "examples": [
-            "Send him where he wants.",
-            "I'll send the book to you by post.",
-            "I'll send a copy to you.",
-            "Send it express.",
-            "Send it by airmail.",
-            "I'll send the book to you by mail.",
-            "If he comes tomorrow, send for me.",
-            "Send to me if you have some news.",
-            "Send her my good wishes.",
-            "Send for your free sample today!",
-            "I'll send her a bunch of flowers.",
-            "I sent her a letter (via E-mail).",
-            "Please send her my congratulations.",
-            "I'll send out some more money as soon as I have some.",
-            "\"Should I send you a check?\" \"Why not just bring me the money when you come?\"",
-            "She sent him upstairs.",
-            "I sent her an email yesterday.",
-            "I'll send Mom a photo of Sammy.",
-            "Send me an account of what I owe.",
-            "Send these books by express.",
-            "He was sent on a secret mission.",
-            "Send this saucepan to be new bottomed.",
-            "We have sent away for a new dictionary.",
-            "This warm sun sends me to sleep.",
-            "They sent me down to talk to Mr. Strachan.",
-            "I'll send the spreadsheet as an attachment.",
-            "Mr Ellison is here. Shall I send him in (=tell him to enter the room)?",
-            "They had to send me home in a taxi.",
-            "The U.S. offered to send ships to help in the rescue operation.",
-            "Send us a donation now."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Пошлите его туда, куда он хочет.",
-            "Я пошлю тебе эту книгу по почте.",
-            "Я пришлю вам копию.",
-            "Пошлите это с курьером.",
-            "Отправьте это авиапочтой.",
-            "Я пошлю тебе эту книгу по почте.",
-            "Если он завтра появится, пошли за мной.",
-            "Известите меня, если у вас появятся новости.",
-            "Передайте ей мои добрые пожелания.",
-            "Закажите бесплатный образец прямо сегодня!",
-            "Я пошлю ей букет цветов.",
-            "Я послала ей письмо (по электронной почте).",
-            "Прошу передать ей мои поздравления.",
-            "Как только у меня появятся деньги, я вышлю ещё.",
-            "— Прислать вам чек? — А почему бы вам просто не принести мне деньги, когда придёте?",
-            "Она отослала его наверх.",
-            "Вчера я написал ей по электронке.",
-            "Я отправлю маме фотографию Сэмми.",
-            "Пришлите мне счёт за всё, что я вам должен.",
-            "Отправьте эти книги курьером.",
-            "Его отправили на секретное задание.",
-            "Отдай эту кастрюлю в ремонт, чтобы ей сделали новое дно.",
-            "Мы заказали новый словарь.",
-            "От такого жаркого солнца меня клонит ко сну.",
-            "Меня послали поговорить с мистером Страханом.",
-            "Я отправлю эту таблицу в качестве вложения.",
-            "Здесь мистер Эллисон. Прикажете просить (т.е. нужно ли сказать ему, чтобы он вошёл в комнату)?",
-            "Им пришлось отправить меня домой на такси.",
-            "США предложили отправить корабли на помощь этой спасательной операции.",
-            "Отправьте нам взнос прямо сейчас."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "send": {
+    "comment": [
+      "sent |sɛnt|,                                          sent |sɛnt|"
+    ],
+    "translate": "отправлять, послать, посылать, передавать, присылать, отсылать, рассылать, слать",
+    "transcription": " |send|",
+    "antonyms": [],
+    "mnemonic": [
+      "send [сенд] посылать - Пошлите (сенд-вич) голодным.",
+      "send [send]\n***\nЯ ОТПРАВИЛ письмо с одним словом - с|\"энд\".\n(это) send"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Send him where he wants.",
+        "ru": "Пошлите его туда, куда он хочет.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll send the book to you by post.",
+        "ru": "Я пошлю тебе эту книгу по почте.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll send a copy to you.",
+        "ru": "Я пришлю вам копию.",
+        "learn": 0
+      },
+      {
+        "eng": "Send it express.",
+        "ru": "Пошлите это с курьером.",
+        "learn": 0
+      },
+      {
+        "eng": "Send it by airmail.",
+        "ru": "Отправьте это авиапочтой.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll send the book to you by mail.",
+        "ru": "Я пошлю тебе эту книгу по почте.",
+        "learn": 0
+      },
+      {
+        "eng": "If he comes tomorrow, send for me.",
+        "ru": "Если он завтра появится, пошли за мной.",
+        "learn": 0
+      },
+      {
+        "eng": "Send to me if you have some news.",
+        "ru": "Известите меня, если у вас появятся новости.",
+        "learn": 0
+      },
+      {
+        "eng": "Send her my good wishes.",
+        "ru": "Передайте ей мои добрые пожелания.",
+        "learn": 1
+      },
+      {
+        "eng": "Send for your free sample today!",
+        "ru": "Закажите бесплатный образец прямо сегодня!",
+        "learn": 0
+      },
+      {
+        "eng": "I'll send her a bunch of flowers.",
+        "ru": "Я пошлю ей букет цветов.",
+        "learn": 0
+      },
+      {
+        "eng": "I sent her a letter (via E-mail).",
+        "ru": "Я послала ей письмо (по электронной почте).",
+        "learn": 0
+      },
+      {
+        "eng": "Please send her my congratulations.",
+        "ru": "Прошу передать ей мои поздравления.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll send out some more money as soon as I have some.",
+        "ru": "Как только у меня появятся деньги, я вышлю ещё.",
+        "learn": 0
+      },
+      {
+        "eng": "\"Should I send you a check?\" \"Why not just bring me the money when you come?\"",
+        "ru": "— Прислать вам чек? — А почему бы вам просто не принести мне деньги, когда придёте?",
+        "learn": 0
+      },
+      {
+        "eng": "She sent him upstairs.",
+        "ru": "Она отослала его наверх.",
+        "learn": 0
+      },
+      {
+        "eng": "I sent her an email yesterday.",
+        "ru": "Вчера я написал ей по электронке.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll send Mom a photo of Sammy.",
+        "ru": "Я отправлю маме фотографию Сэмми.",
+        "learn": 0
+      },
+      {
+        "eng": "Send me an account of what I owe.",
+        "ru": "Пришлите мне счёт за всё, что я вам должен.",
+        "learn": 0
+      },
+      {
+        "eng": "Send these books by express.",
+        "ru": "Отправьте эти книги курьером.",
+        "learn": 1
+      },
+      {
+        "eng": "He was sent on a secret mission.",
+        "ru": "Его отправили на секретное задание.",
+        "learn": 0
+      },
+      {
+        "eng": "Send this saucepan to be new bottomed.",
+        "ru": "Отдай эту кастрюлю в ремонт, чтобы ей сделали новое дно.",
+        "learn": 0
+      },
+      {
+        "eng": "We have sent away for a new dictionary.",
+        "ru": "Мы заказали новый словарь.",
+        "learn": 0
+      },
+      {
+        "eng": "This warm sun sends me to sleep.",
+        "ru": "От такого жаркого солнца меня клонит ко сну.",
+        "learn": 1
+      },
+      {
+        "eng": "They sent me down to talk to Mr. Strachan.",
+        "ru": "Меня послали поговорить с мистером Страханом.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll send the spreadsheet as an attachment.",
+        "ru": "Я отправлю эту таблицу в качестве вложения.",
+        "learn": 1
+      },
+      {
+        "eng": "Mr Ellison is here. Shall I send him in (=tell him to enter the room)?",
+        "ru": "Здесь мистер Эллисон. Прикажете просить (т.е. нужно ли сказать ему, чтобы он вошёл в комнату)?",
+        "learn": 0
+      },
+      {
+        "eng": "They had to send me home in a taxi.",
+        "ru": "Им пришлось отправить меня домой на такси.",
+        "learn": 0
+      },
+      {
+        "eng": "The U.S. offered to send ships to help in the rescue operation.",
+        "ru": "США предложили отправить корабли на помощь этой спасательной операции.",
+        "learn": 0
+      },
+      {
+        "eng": "Send us a donation now.",
+        "ru": "Отправьте нам взнос прямо сейчас.",
+        "learn": 0
+      }
+    ]
+  }
 }

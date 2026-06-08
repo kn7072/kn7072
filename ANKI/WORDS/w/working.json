@@ -1,93 +1,179 @@
 {
-    "working": {
-        "comment": [
-            "workshop",
-            "worker",
-            "work",
-            "homework",
-            "network",
-            "firework",
-            "workload",
-            "workplace",
-            "workforce",
-            "workman",
-            "paperwork",
-            "workstation",
-            "framework",
-            "housework"
-        ],
-        "translate": "рабочий, работающий, действующий, работа, разработка, деятельность",
-        "transcription": " |ˈwɜːrkɪŋ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She was working at two jobs.",
-            "He loathes working.",
-            "working in his chosen field",
-            "He detests working.",
-            "Every harvester was working.",
-            "Sally isn't working tomorrow.",
-            "Defense Trade Working Group",
-            "They were working on a new book.",
-            "She was working Thursday.",
-            "My computer is working slow.",
-            "We do a 37-hour working week.",
-            "Is your husband working again?",
-            "I prefer working out of doors.",
-            "The collie is a working breed.",
-            "The machine is working properly.",
-            "He is working his servants hard.",
-            "He was working as a lowly clerk.",
-            "The flush isn't working properly.",
-            "I'm working here as a part-timer.",
-            "I'm tired of working for peanuts.",
-            "They're working under a deadline.",
-            "I left him working in the garden.",
-            "A normal working week is 40 hours.",
-            "She is used to working long hours.",
-            "a working prototype of the new car",
-            "Tom's working on the car out back.",
-            "The heating system wasn't working.",
-            "I earn extra for working on Sunday.",
-            "The machine is now in working order.",
-            "a portrait of working life in America"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она работала на двух работах.",
-            "Он ненавидит работать.",
-            "работая в выбранной им сфере",
-            "Он ненавидит работать.",
-            "Все жнецы работали.",
-            "Салли не работает завтра.",
-            "Рабочая группа по торговле оборонными технологиями",
-            "Они работали над новой книгой.",
-            "Она работала в четверг. (амер.)",
-            "Мой компьютер работает медленно.",
-            "Мы работаем тридцать семь часов в неделю.",
-            "Ваш муж снова работает?",
-            "Я предпочитаю работать на открытом воздухе.",
-            "Колли — это рабочая порода собак.",
-            "Машина работает нормально.",
-            "Он заставляет своих слуг тяжело работать.",
-            "Он работал в качестве скромного клерка.",
-            "Смыв в туалете нормально не работает.",
-            "Я работаю здесь на условиях неполной занятости.",
-            "Мне надоело работать за гроши.",
-            "Они работают в условиях ограниченного времени.",
-            "Когда я уходил, он работал в саду.",
-            "Обычная рабочая неделя составляет сорок часов.",
-            "Она привыкла к длинному рабочему дню.",
-            "рабочий прототип нового автомобиля",
-            "Том трудится над машиной позади дома.",
-            "Система отопления не работала.",
-            "За работу в воскресенье мне доплачивают /платят дополнительно/.",
-            "Сейчас машина — в рабочем состоянии.",
-            "описание трудовых будней в Америке"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "working": {
+    "comment": [
+      "workshop",
+      "worker",
+      "work",
+      "homework",
+      "network",
+      "firework",
+      "workload",
+      "workplace",
+      "workforce",
+      "workman",
+      "paperwork",
+      "workstation",
+      "framework",
+      "housework"
+    ],
+    "translate": "рабочий, работающий, действующий, работа, разработка, деятельность",
+    "transcription": " |ˈwɜːrkɪŋ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She was working at two jobs.",
+        "ru": "Она работала на двух работах.",
+        "learn": 0
+      },
+      {
+        "eng": "He loathes working.",
+        "ru": "Он ненавидит работать.",
+        "learn": 0
+      },
+      {
+        "eng": "working in his chosen field",
+        "ru": "работая в выбранной им сфере",
+        "learn": 0
+      },
+      {
+        "eng": "He detests working.",
+        "ru": "Он ненавидит работать.",
+        "learn": 1
+      },
+      {
+        "eng": "Every harvester was working.",
+        "ru": "Все жнецы работали.",
+        "learn": 0
+      },
+      {
+        "eng": "Sally isn't working tomorrow.",
+        "ru": "Салли не работает завтра.",
+        "learn": 0
+      },
+      {
+        "eng": "Defense Trade Working Group",
+        "ru": "Рабочая группа по торговле оборонными технологиями",
+        "learn": 0
+      },
+      {
+        "eng": "They were working on a new book.",
+        "ru": "Они работали над новой книгой.",
+        "learn": 0
+      },
+      {
+        "eng": "She was working Thursday.",
+        "ru": "Она работала в четверг. (амер.)",
+        "learn": 0
+      },
+      {
+        "eng": "My computer is working slow.",
+        "ru": "Мой компьютер работает медленно.",
+        "learn": 1
+      },
+      {
+        "eng": "We do a 37-hour working week.",
+        "ru": "Мы работаем тридцать семь часов в неделю.",
+        "learn": 0
+      },
+      {
+        "eng": "Is your husband working again?",
+        "ru": "Ваш муж снова работает?",
+        "learn": 0
+      },
+      {
+        "eng": "I prefer working out of doors.",
+        "ru": "Я предпочитаю работать на открытом воздухе.",
+        "learn": 0
+      },
+      {
+        "eng": "The collie is a working breed.",
+        "ru": "Колли — это рабочая порода собак.",
+        "learn": 0
+      },
+      {
+        "eng": "The machine is working properly.",
+        "ru": "Машина работает нормально.",
+        "learn": 0
+      },
+      {
+        "eng": "He is working his servants hard.",
+        "ru": "Он заставляет своих слуг тяжело работать.",
+        "learn": 0
+      },
+      {
+        "eng": "He was working as a lowly clerk.",
+        "ru": "Он работал в качестве скромного клерка.",
+        "learn": 0
+      },
+      {
+        "eng": "The flush isn't working properly.",
+        "ru": "Смыв в туалете нормально не работает.",
+        "learn": 1
+      },
+      {
+        "eng": "I'm working here as a part-timer.",
+        "ru": "Я работаю здесь на условиях неполной занятости.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm tired of working for peanuts.",
+        "ru": "Мне надоело работать за гроши.",
+        "learn": 0
+      },
+      {
+        "eng": "They're working under a deadline.",
+        "ru": "Они работают в условиях ограниченного времени.",
+        "learn": 0
+      },
+      {
+        "eng": "I left him working in the garden.",
+        "ru": "Когда я уходил, он работал в саду.",
+        "learn": 0
+      },
+      {
+        "eng": "A normal working week is 40 hours.",
+        "ru": "Обычная рабочая неделя составляет сорок часов.",
+        "learn": 0
+      },
+      {
+        "eng": "She is used to working long hours.",
+        "ru": "Она привыкла к длинному рабочему дню.",
+        "learn": 0
+      },
+      {
+        "eng": "a working prototype of the new car",
+        "ru": "рабочий прототип нового автомобиля",
+        "learn": 0
+      },
+      {
+        "eng": "Tom's working on the car out back.",
+        "ru": "Том трудится над машиной позади дома.",
+        "learn": 0
+      },
+      {
+        "eng": "The heating system wasn't working.",
+        "ru": "Система отопления не работала.",
+        "learn": 0
+      },
+      {
+        "eng": "I earn extra for working on Sunday.",
+        "ru": "За работу в воскресенье мне доплачивают /платят дополнительно/.",
+        "learn": 0
+      },
+      {
+        "eng": "The machine is now in working order.",
+        "ru": "Сейчас машина — в рабочем состоянии.",
+        "learn": 0
+      },
+      {
+        "eng": "a portrait of working life in America",
+        "ru": "описание трудовых будней в Америке",
+        "learn": 0
+      }
+    ]
+  }
 }

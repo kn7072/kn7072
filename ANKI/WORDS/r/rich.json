@@ -1,90 +1,176 @@
 {
-    "rich": {
-        "comment": [
-            "rice",
-            "race",
-            "racing",
-            "rack",
-            "racket",
-            "racial",
-            "racism"
-        ],
-        "translate": "богатый, обильный, густой, роскошный, богатые, богатство, богачи, богач",
-        "transcription": " |rɪtʃ|",
-        "antonyms": [],
-        "mnemonic": [
-            "rich [рич] богатый - (Ричард) Львиное сердце был богат.",
-            "reach [ri: ʧ]\nrich [riʧ] - богатый, широкий\n***\nМы ДОСТИГНЕМ баранов и будем их стричь. (это)\nreach\nМне руку ПРОТЯНУЛ барич. (это) reach\nСВЯЗАЛСЯ по телефону со мной барич. (это) reach\nПротягивание, досягаемость.\n***\nЕсли имеешь нарушения \"breach\",\nне ходишь на проповедь \"preach\"\nто и успехов не достигнешь \"reach\".",
-            "rich [rɪtʃ]\nenrich - обогащать\nreach [ri: ʧ] - достигать, протягивать. протягивание,\nдосягаемость.\nnew rich - нувориши.\n***\nЭтот БОГАЧ - старый хрыч. (это) rich\nБОГАЧ всегда имел кулич. (это) rich\nОн БОГАТЫЙ - он барич. (это) rich"
-        ],
-        "examples": [
-            "He was rich.",
-            "I wish I were rich.",
-            "The sauce was very rich.",
-            "Now that's rich!",
-            "She has a rich vocabulary.",
-            "Her investments have made her rich.",
-            "He's obscenely rich.",
-            "Milk is very rich in calcium.",
-            "Apply shampoo and massage into a rich lather.",
-            "Although they were rich, they just didn't belong.",
-            "He has since become rich.",
-            "The gap between rich and poor seems to be widening.",
-            "Canada is rich in timber",
-            "He must be seriously rich.",
-            "They're rich, but I mean rich.",
-            "The island is rich in bird life.",
-            "a scheme to get rich quick",
-            "They're disgustingly rich.",
-            "The seeds yield a rich oil.",
-            "This area has a rich history.",
-            "Are you rich enough to retire?",
-            "He's not as rich as he lets on.",
-            "a rich seam of iron ore",
-            "50 acres of rich farmland",
-            "a sure-fire way to get rich",
-            "ever hoping to strike it rich",
-            "the chasm between rich and poor",
-            "a big rich appetent Western city",
-            "Deal equally with rich and poor.",
-            "They kept gorging on rich foods."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он был богат.",
-            "Хотел бы я быть богатым. / Как жаль, что я не богач.",
-            "Соус был очень насыщенный.",
-            "Вот это забавно!",
-            "У неё богатый словарный запас.",
-            "Она стала богатой благодаря своим инвестициям.",
-            "Он баснословно богат.",
-            "Молоко очень богато кальцием.",
-            "Нанесите шампунь и взбейте его в густую пену.",
-            "Хоть они и были богаты, они не принадлежали к нашему кругу.",
-            "Впоследствии он разбогател.",
-            "Кажется, что разрыв между богатыми и бедными только увеличивается.",
-            "Канада богата (строевым) лесом",
-            "Он, должно быть, очень богат.",
-            "Они богаты, — то есть, очень богаты.",
-            "Остров богат разнообразными птицами.",
-            "схема быстрого обогащения",
-            "Они ужасно /страшно, до отвращения/ богаты.",
-            "Эти семена дают густое масло. / Из этих семян получают густое масло.",
-            "Этот край имеет богатую историю.",
-            "Достаточно ли вы богаты, чтобы уйти на покой?",
-            "Он не так богат, как хочет казаться.",
-            "богатый пласт железной руды",
-            "пятьдесят акров богатых сельхозяйственных угодий",
-            "верный /надёжный/ способ разбогатеть",
-            "в надежде когда-нибудь разбогатеть",
-            "пропасть между богатыми и бедными",
-            "большой, богатый, жаждущий чего-то западный город",
-            "Одинаково обращайтесь и с богатыми, и с бедными.",
-            "Они продолжали обжираться калорийной пищей."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "rich": {
+    "comment": [
+      "rice",
+      "race",
+      "racing",
+      "rack",
+      "racket",
+      "racial",
+      "racism"
+    ],
+    "translate": "богатый, обильный, густой, роскошный, богатые, богатство, богачи, богач",
+    "transcription": " |rɪtʃ|",
+    "antonyms": [],
+    "mnemonic": [
+      "rich [рич] богатый - (Ричард) Львиное сердце был богат.",
+      "reach [ri: ʧ]\nrich [riʧ] - богатый, широкий\n***\nМы ДОСТИГНЕМ баранов и будем их стричь. (это)\nreach\nМне руку ПРОТЯНУЛ барич. (это) reach\nСВЯЗАЛСЯ по телефону со мной барич. (это) reach\nПротягивание, досягаемость.\n***\nЕсли имеешь нарушения \"breach\",\nне ходишь на проповедь \"preach\"\nто и успехов не достигнешь \"reach\".",
+      "rich [rɪtʃ]\nenrich - обогащать\nreach [ri: ʧ] - достигать, протягивать. протягивание,\nдосягаемость.\nnew rich - нувориши.\n***\nЭтот БОГАЧ - старый хрыч. (это) rich\nБОГАЧ всегда имел кулич. (это) rich\nОн БОГАТЫЙ - он барич. (это) rich"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He was rich.",
+        "ru": "Он был богат.",
+        "learn": 0
+      },
+      {
+        "eng": "I wish I were rich.",
+        "ru": "Хотел бы я быть богатым. / Как жаль, что я не богач.",
+        "learn": 0
+      },
+      {
+        "eng": "The sauce was very rich.",
+        "ru": "Соус был очень насыщенный.",
+        "learn": 0
+      },
+      {
+        "eng": "Now that's rich!",
+        "ru": "Вот это забавно!",
+        "learn": 0
+      },
+      {
+        "eng": "She has a rich vocabulary.",
+        "ru": "У неё богатый словарный запас.",
+        "learn": 1
+      },
+      {
+        "eng": "Her investments have made her rich.",
+        "ru": "Она стала богатой благодаря своим инвестициям.",
+        "learn": 0
+      },
+      {
+        "eng": "He's obscenely rich.",
+        "ru": "Он баснословно богат.",
+        "learn": 0
+      },
+      {
+        "eng": "Milk is very rich in calcium.",
+        "ru": "Молоко очень богато кальцием.",
+        "learn": 1
+      },
+      {
+        "eng": "Apply shampoo and massage into a rich lather.",
+        "ru": "Нанесите шампунь и взбейте его в густую пену.",
+        "learn": 0
+      },
+      {
+        "eng": "Although they were rich, they just didn't belong.",
+        "ru": "Хоть они и были богаты, они не принадлежали к нашему кругу.",
+        "learn": 0
+      },
+      {
+        "eng": "He has since become rich.",
+        "ru": "Впоследствии он разбогател.",
+        "learn": 0
+      },
+      {
+        "eng": "The gap between rich and poor seems to be widening.",
+        "ru": "Кажется, что разрыв между богатыми и бедными только увеличивается.",
+        "learn": 0
+      },
+      {
+        "eng": "Canada is rich in timber",
+        "ru": "Канада богата (строевым) лесом",
+        "learn": 0
+      },
+      {
+        "eng": "He must be seriously rich.",
+        "ru": "Он, должно быть, очень богат.",
+        "learn": 0
+      },
+      {
+        "eng": "They're rich, but I mean rich.",
+        "ru": "Они богаты, — то есть, очень богаты.",
+        "learn": 0
+      },
+      {
+        "eng": "The island is rich in bird life.",
+        "ru": "Остров богат разнообразными птицами.",
+        "learn": 0
+      },
+      {
+        "eng": "a scheme to get rich quick",
+        "ru": "схема быстрого обогащения",
+        "learn": 0
+      },
+      {
+        "eng": "They're disgustingly rich.",
+        "ru": "Они ужасно /страшно, до отвращения/ богаты.",
+        "learn": 0
+      },
+      {
+        "eng": "The seeds yield a rich oil.",
+        "ru": "Эти семена дают густое масло. / Из этих семян получают густое масло.",
+        "learn": 0
+      },
+      {
+        "eng": "This area has a rich history.",
+        "ru": "Этот край имеет богатую историю.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you rich enough to retire?",
+        "ru": "Достаточно ли вы богаты, чтобы уйти на покой?",
+        "learn": 1
+      },
+      {
+        "eng": "He's not as rich as he lets on.",
+        "ru": "Он не так богат, как хочет казаться.",
+        "learn": 0
+      },
+      {
+        "eng": "a rich seam of iron ore",
+        "ru": "богатый пласт железной руды",
+        "learn": 0
+      },
+      {
+        "eng": "50 acres of rich farmland",
+        "ru": "пятьдесят акров богатых сельхозяйственных угодий",
+        "learn": 0
+      },
+      {
+        "eng": "a sure-fire way to get rich",
+        "ru": "верный /надёжный/ способ разбогатеть",
+        "learn": 0
+      },
+      {
+        "eng": "ever hoping to strike it rich",
+        "ru": "в надежде когда-нибудь разбогатеть",
+        "learn": 0
+      },
+      {
+        "eng": "the chasm between rich and poor",
+        "ru": "пропасть между богатыми и бедными",
+        "learn": 0
+      },
+      {
+        "eng": "a big rich appetent Western city",
+        "ru": "большой, богатый, жаждущий чего-то западный город",
+        "learn": 0
+      },
+      {
+        "eng": "Deal equally with rich and poor.",
+        "ru": "Одинаково обращайтесь и с богатыми, и с бедными.",
+        "learn": 0
+      },
+      {
+        "eng": "They kept gorging on rich foods.",
+        "ru": "Они продолжали обжираться калорийной пищей.",
+        "learn": 0
+      }
+    ]
+  }
 }

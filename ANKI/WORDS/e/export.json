@@ -1,80 +1,163 @@
 {
-    "export": {
-        "comment": [
-            "port",
-            "portrait",
-            "portray"
-        ],
-        "translate": "экспорт, вывоз, экспортировать, вывозить, экспортный, вывозной",
-        "transcription": " |ɪkˈspɔːrt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The company exports tuna to the US.",
-            "countries that export oil to the U.S.",
-            "Exports to China have risen this year.",
-            "The export of commodities tripled.",
-            "We export our goods all over the globe.",
-            "They export most of their agricultural production.",
-            "Oil is Nigeria's staple export.",
-            "They will lift export restrictions.",
-            "the export of live animals for slaughter",
-            "The country's economy is export oriented.",
-            "We want to grow the export side of the business.",
-            "Italian food has been exported all over the world.",
-            "They export most of their agricultural production.",
-            "The support of this place is a great export of white wine.",
-            "Falling export rates have impacted on the countries economy.",
-            "Protesters want to stop the export of live sheep and cattle.",
-            "We export less than we import and have a negative trade balance.",
-            "Export of goods and services is the major source of foreign exchange.",
-            "The dealers applied for an export licence.",
-            "Wheat is one of the country's chief exports.",
-            "Oil provides 40% of Norway's export earnings.",
-            "Export receipts in January totalled $626 million.",
-            "The bulk of the goods of this company is intended for export.",
-            "It's valuable to know languages if you work in an export firm.",
-            "I'm fed up with all this bureaucracy, just to get an export licence!",
-            "The closure of the export department resulted in over 100 redundancies.",
-            "16th-century Naples carried on a vast export trade in silks and sweetmeats.",
-            "They sell to their own country but they don't yet export to other countries.",
-            "During this period, Japan's export industries were in top gear (=were as active as they could be)."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Эта компания экспортирует в США тунца.",
-            "страны, которые экспортируют нефть в США",
-            "Показатели экспорта в Китай в этом году выросли.",
-            "Экспорт товаров вырос втрое.",
-            "Мы экспортируем наши товары по всему миру.",
-            "Основную часть своей сельскохозяйственной продукции они отправляют на экспорт.",
-            "Нефть - это основной экспортный продукт Нигерии.",
-            "Они снимут экспортные ограничения.",
-            "экспорт живых животных на убой",
-            "Экономика страны ориентирована на экспорт.",
-            "Мы хотим нарастить экспортную часть бизнеса.",
-            "Итальянские продукты экспортируются по всему миру.",
-            "Они экспортируют большую часть своей сельхозпродукции.",
-            "Этот регион живёт за счёт экспорта белого вина в огромном количестве.",
-            "Падение экспортных тарифов сильно ударило по экономике страны.",
-            "Протестующие хотят остановить экспорт живых овец и крупного рогатого скота.",
-            "Мы экспортируем меньше, чем импортируем, и у нас отрицательный торговый баланс.",
-            "Экспорт товаров и услуг является основным источником иностранной валюты.",
-            "Дилеры подали заявку на получение экспортной лицензии.",
-            "Пшеница является одной из главных статей экспорта страны.",
-            "Нефть обеспечивает сорок процентов доходов от норвежского экспорта.",
-            "Поступления (доходы) от экспорта в январе составили в общей сумме 626 млн долл.",
-            "Основная масса товаров компании предназначена для экспорта.",
-            "Полезно знать языки, если вы работаете в компании, занимающейся экспортом.",
-            "Как мне надоела эта вся бюрократия, и это только чтобы получить разрешение на экспорт!",
-            "Закрытие отдела экспорта привело к увольнению более 100 сотрудников.",
-            "Неаполь шестнадцатого века вёл обширную экспортную торговлю шёлком и сладостями.",
-            "Они продают свою продукцию внутри страны, но на экспорт пока не вышли.",
-            "В этот период экспортные отрасли промышленности Японии работали на полную мощность (т.е. были максимально активны)."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "export": {
+    "comment": [
+      "port",
+      "portrait",
+      "portray"
+    ],
+    "translate": "экспорт, вывоз, экспортировать, вывозить, экспортный, вывозной",
+    "transcription": " |ɪkˈspɔːrt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The company exports tuna to the US.",
+        "ru": "Эта компания экспортирует в США тунца.",
+        "learn": 0
+      },
+      {
+        "eng": "countries that export oil to the U.S.",
+        "ru": "страны, которые экспортируют нефть в США",
+        "learn": 0
+      },
+      {
+        "eng": "Exports to China have risen this year.",
+        "ru": "Показатели экспорта в Китай в этом году выросли.",
+        "learn": 0
+      },
+      {
+        "eng": "The export of commodities tripled.",
+        "ru": "Экспорт товаров вырос втрое.",
+        "learn": 0
+      },
+      {
+        "eng": "We export our goods all over the globe.",
+        "ru": "Мы экспортируем наши товары по всему миру.",
+        "learn": 0
+      },
+      {
+        "eng": "They export most of their agricultural production.",
+        "ru": "Основную часть своей сельскохозяйственной продукции они отправляют на экспорт.",
+        "learn": 1
+      },
+      {
+        "eng": "Oil is Nigeria's staple export.",
+        "ru": "Нефть - это основной экспортный продукт Нигерии.",
+        "learn": 1
+      },
+      {
+        "eng": "They will lift export restrictions.",
+        "ru": "Они снимут экспортные ограничения.",
+        "learn": 1
+      },
+      {
+        "eng": "the export of live animals for slaughter",
+        "ru": "экспорт живых животных на убой",
+        "learn": 0
+      },
+      {
+        "eng": "The country's economy is export oriented.",
+        "ru": "Экономика страны ориентирована на экспорт.",
+        "learn": 0
+      },
+      {
+        "eng": "We want to grow the export side of the business.",
+        "ru": "Мы хотим нарастить экспортную часть бизнеса.",
+        "learn": 1
+      },
+      {
+        "eng": "Italian food has been exported all over the world.",
+        "ru": "Итальянские продукты экспортируются по всему миру.",
+        "learn": 0
+      },
+      {
+        "eng": "They export most of their agricultural production.",
+        "ru": "Они экспортируют большую часть своей сельхозпродукции.",
+        "learn": 1
+      },
+      {
+        "eng": "The support of this place is a great export of white wine.",
+        "ru": "Этот регион живёт за счёт экспорта белого вина в огромном количестве.",
+        "learn": 0
+      },
+      {
+        "eng": "Falling export rates have impacted on the countries economy.",
+        "ru": "Падение экспортных тарифов сильно ударило по экономике страны.",
+        "learn": 0
+      },
+      {
+        "eng": "Protesters want to stop the export of live sheep and cattle.",
+        "ru": "Протестующие хотят остановить экспорт живых овец и крупного рогатого скота.",
+        "learn": 0
+      },
+      {
+        "eng": "We export less than we import and have a negative trade balance.",
+        "ru": "Мы экспортируем меньше, чем импортируем, и у нас отрицательный торговый баланс.",
+        "learn": 1
+      },
+      {
+        "eng": "Export of goods and services is the major source of foreign exchange.",
+        "ru": "Экспорт товаров и услуг является основным источником иностранной валюты.",
+        "learn": 0
+      },
+      {
+        "eng": "The dealers applied for an export licence.",
+        "ru": "Дилеры подали заявку на получение экспортной лицензии.",
+        "learn": 0
+      },
+      {
+        "eng": "Wheat is one of the country's chief exports.",
+        "ru": "Пшеница является одной из главных статей экспорта страны.",
+        "learn": 0
+      },
+      {
+        "eng": "Oil provides 40% of Norway's export earnings.",
+        "ru": "Нефть обеспечивает сорок процентов доходов от норвежского экспорта.",
+        "learn": 0
+      },
+      {
+        "eng": "Export receipts in January totalled $626 million.",
+        "ru": "Поступления (доходы) от экспорта в январе составили в общей сумме 626 млн долл.",
+        "learn": 0
+      },
+      {
+        "eng": "The bulk of the goods of this company is intended for export.",
+        "ru": "Основная масса товаров компании предназначена для экспорта.",
+        "learn": 0
+      },
+      {
+        "eng": "It's valuable to know languages if you work in an export firm.",
+        "ru": "Полезно знать языки, если вы работаете в компании, занимающейся экспортом.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm fed up with all this bureaucracy, just to get an export licence!",
+        "ru": "Как мне надоела эта вся бюрократия, и это только чтобы получить разрешение на экспорт!",
+        "learn": 1
+      },
+      {
+        "eng": "The closure of the export department resulted in over 100 redundancies.",
+        "ru": "Закрытие отдела экспорта привело к увольнению более 100 сотрудников.",
+        "learn": 0
+      },
+      {
+        "eng": "16th-century Naples carried on a vast export trade in silks and sweetmeats.",
+        "ru": "Неаполь шестнадцатого века вёл обширную экспортную торговлю шёлком и сладостями.",
+        "learn": 0
+      },
+      {
+        "eng": "They sell to their own country but they don't yet export to other countries.",
+        "ru": "Они продают свою продукцию внутри страны, но на экспорт пока не вышли.",
+        "learn": 0
+      },
+      {
+        "eng": "During this period, Japan's export industries were in top gear (=were as active as they could be).",
+        "ru": "В этот период экспортные отрасли промышленности Японии работали на полную мощность (т.е. были максимально активны).",
+        "learn": 0
+      }
+    ]
+  }
 }

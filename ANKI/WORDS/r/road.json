@@ -1,87 +1,174 @@
 {
-    "road": {
-        "comment": [
-            "broad, road, abroad - широкая, дорога, за границей",
-            "groan",
-            "roar",
-            "approach"
-        ],
-        "translate": "дорога, путь, шоссе, улица, рейд, дорожный",
-        "transcription": " |roʊd|",
-        "antonyms": [],
-        "mnemonic": [
-            "road [ро'уд] дорога - Эта дорога для авто - (роуд-эо).",
-            "road [rəud]\n***\nДОРОГИ нам весь мир откроют. (это) road"
-        ],
-        "examples": [
-            "You may take either road.",
-            "Redd the road!",
-            "Are we on the right road?",
-            "The road dips.",
-            "The college is easily accessible by road.",
-            "We stopped and had something to eat by the side of the road.",
-            "The road curves / winds.",
-            "The road forks.",
-            "He drove off the road.",
-            "We'll cross the road up ahead at the crosswalk.",
-            "The road bends.",
-            "Is this a through road?",
-            "There are far more cars on the roads now than there used to be.",
-            "This road is soggy.",
-            "The road twists uphill.",
-            "65 Maple Road",
-            "The road is very bumpy.",
-            "Miles of road lay ahead.",
-            "The road hugs the river.",
-            "The car died on the road.",
-            "They're widening the road.",
-            "The road widened.",
-            "The road narrowed.",
-            "The road broadened.",
-            "The road bifurcated.",
-            "a road atlas of the U.S.",
-            "He lives on Dudley Road.",
-            "a sharp curve in the road",
-            "a sudden turn in the road",
-            "Did you bring a road map?"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Вы можете выбрать любую дорогу.",
-            "Дорогу!",
-            "Мы по той дороге едем?",
-            "Дорога спускается под гору.",
-            "До этого колледжа легко добраться на машине /наземным транспортом/.",
-            "Мы остановились и перекусили на обочине дороги.",
-            "Дорога поворачивает.",
-            "Дорога разветвляется.",
-            "Он съехал с дороги.",
-            "Мы перейдём эту дорогу вон там, впереди, на пешеходном переходе.",
-            "Дорога изгибается.",
-            "Это сквозная дорога?",
-            "Сейчас на дорогах гораздо больше автомобилей, чем раньше.",
-            "Эта дорога болотистая.",
-            "Дорога поворачивает в гору.",
-            "Мэйпл-Роуд, дом 65 (адрес)",
-            "Эта дорога очень неровная. / На этой дороге много ухабов.",
-            "Впереди лежали долгие мили дороги. / Впереди лежал долгий путь.",
-            "Дорога огибает реку.",
-            "Автомобиль заглох в пути /на дороге/.",
-            "Дорогу сейчас расширяют.",
-            "Дорога расширилась.",
-            "Дорога стала уже /сузилась/.",
-            "Дорога стала шире.",
-            "Дорога раздвоилась.",
-            "дорожный атлас США",
-            "Он живёт на Дадли-Роуд.",
-            "резкий поворот дороги",
-            "внезапный поворот дороги",
-            "Ты принесла дорожный атлас?"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "oa_=_[ou]"
-        ]
-    }
+  "road": {
+    "comment": [
+      "broad, road, abroad - широкая, дорога, за границей",
+      "groan",
+      "roar",
+      "approach"
+    ],
+    "translate": "дорога, путь, шоссе, улица, рейд, дорожный",
+    "transcription": " |roʊd|",
+    "antonyms": [],
+    "mnemonic": [
+      "road [ро'уд] дорога - Эта дорога для авто - (роуд-эо).",
+      "road [rəud]\n***\nДОРОГИ нам весь мир откроют. (это) road"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "oa_=_[ou]"
+    ],
+    "examples": [
+      {
+        "eng": "You may take either road.",
+        "ru": "Вы можете выбрать любую дорогу.",
+        "learn": 1
+      },
+      {
+        "eng": "Redd the road!",
+        "ru": "Дорогу!",
+        "learn": 0
+      },
+      {
+        "eng": "Are we on the right road?",
+        "ru": "Мы по той дороге едем?",
+        "learn": 0
+      },
+      {
+        "eng": "The road dips.",
+        "ru": "Дорога спускается под гору.",
+        "learn": 0
+      },
+      {
+        "eng": "The college is easily accessible by road.",
+        "ru": "До этого колледжа легко добраться на машине /наземным транспортом/.",
+        "learn": 0
+      },
+      {
+        "eng": "We stopped and had something to eat by the side of the road.",
+        "ru": "Мы остановились и перекусили на обочине дороги.",
+        "learn": 1
+      },
+      {
+        "eng": "The road curves / winds.",
+        "ru": "Дорога поворачивает.",
+        "learn": 0
+      },
+      {
+        "eng": "The road forks.",
+        "ru": "Дорога разветвляется.",
+        "learn": 0
+      },
+      {
+        "eng": "He drove off the road.",
+        "ru": "Он съехал с дороги.",
+        "learn": 0
+      },
+      {
+        "eng": "We'll cross the road up ahead at the crosswalk.",
+        "ru": "Мы перейдём эту дорогу вон там, впереди, на пешеходном переходе.",
+        "learn": 0
+      },
+      {
+        "eng": "The road bends.",
+        "ru": "Дорога изгибается.",
+        "learn": 0
+      },
+      {
+        "eng": "Is this a through road?",
+        "ru": "Это сквозная дорога?",
+        "learn": 0
+      },
+      {
+        "eng": "There are far more cars on the roads now than there used to be.",
+        "ru": "Сейчас на дорогах гораздо больше автомобилей, чем раньше.",
+        "learn": 1
+      },
+      {
+        "eng": "This road is soggy.",
+        "ru": "Эта дорога болотистая.",
+        "learn": 0
+      },
+      {
+        "eng": "The road twists uphill.",
+        "ru": "Дорога поворачивает в гору.",
+        "learn": 0
+      },
+      {
+        "eng": "65 Maple Road",
+        "ru": "Мэйпл-Роуд, дом 65 (адрес)",
+        "learn": 0
+      },
+      {
+        "eng": "The road is very bumpy.",
+        "ru": "Эта дорога очень неровная. / На этой дороге много ухабов.",
+        "learn": 0
+      },
+      {
+        "eng": "Miles of road lay ahead.",
+        "ru": "Впереди лежали долгие мили дороги. / Впереди лежал долгий путь.",
+        "learn": 0
+      },
+      {
+        "eng": "The road hugs the river.",
+        "ru": "Дорога огибает реку.",
+        "learn": 0
+      },
+      {
+        "eng": "The car died on the road.",
+        "ru": "Автомобиль заглох в пути /на дороге/.",
+        "learn": 0
+      },
+      {
+        "eng": "They're widening the road.",
+        "ru": "Дорогу сейчас расширяют.",
+        "learn": 0
+      },
+      {
+        "eng": "The road widened.",
+        "ru": "Дорога расширилась.",
+        "learn": 0
+      },
+      {
+        "eng": "The road narrowed.",
+        "ru": "Дорога стала уже /сузилась/.",
+        "learn": 1
+      },
+      {
+        "eng": "The road broadened.",
+        "ru": "Дорога стала шире.",
+        "learn": 0
+      },
+      {
+        "eng": "The road bifurcated.",
+        "ru": "Дорога раздвоилась.",
+        "learn": 0
+      },
+      {
+        "eng": "a road atlas of the U.S.",
+        "ru": "дорожный атлас США",
+        "learn": 0
+      },
+      {
+        "eng": "He lives on Dudley Road.",
+        "ru": "Он живёт на Дадли-Роуд.",
+        "learn": 0
+      },
+      {
+        "eng": "a sharp curve in the road",
+        "ru": "резкий поворот дороги",
+        "learn": 0
+      },
+      {
+        "eng": "a sudden turn in the road",
+        "ru": "внезапный поворот дороги",
+        "learn": 0
+      },
+      {
+        "eng": "Did you bring a road map?",
+        "ru": "Ты принесла дорожный атлас?",
+        "learn": 1
+      }
+    ]
+  }
 }

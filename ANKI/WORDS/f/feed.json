@@ -1,85 +1,174 @@
 {
-    "feed": {
-        "comment": [
-            "feedback",
-            "fee",
-            "coffee"
-        ],
-        "translate": "корм, подача, питание, кормить, кормиться, питать, кормовой, загрузочный",
-        "transcription": " |fiːd|",
-        "antonyms": [],
-        "mnemonic": [
-            "feed [фи:д] кормить - СССР кормил (Фид-эля) Кастро.",
-            "feed [fi: d]\n***\nПИТАЙСЯ хорошо - не ешь сульфид. (это) feed\nКорм, кормление.\n***\nЧтоб хорошо питаться \"feed\",\nнадо собрать семена \"seed\"."
-        ],
-        "examples": [
-            "Have you fed the cat?",
-            "She's had a good feed.",
-            "Frogs generally feed at night.",
-            "Visitors must not feed the animals.",
-            "He feeds on her insecurity",
-            "Feed the tomatoes once a week.",
-            "The farmer is feeding up the chickens for Christmas.",
-            "We fed the horses with apples, oats, and hay.",
-            "The sound is fed directly to the headphones.",
-            "Her success feeds her vanity.",
-            "Blood vessels feed blood to the brain.",
-            "A whole family can feed off a chicken as big as this!",
-            "Let your baby feed as long as she wants.",
-            "We feed a lawyer to act for us.",
-            "Certain animals feed on insects.",
-            "She's too weak to feed herself.",
-            "He should pay for the feed of his cow.",
-            "This dish feeds six.",
-            "He has four mouths to feed.",
-            "We brought along pieces of old bread and fed the birds.",
-            "They fed erroneous information to us.",
-            "He is so weak that he cannot feed himself.",
-            "Owls feed on mice and other small animals.",
-            "The drinking and the guilt fed on each other.",
-            "She was feeding documents into a paper shredder.",
-            "US intelligence had been feeding false information to a KGB agent.",
-            "Dogs fed on oil or sugar become diseased.",
-            "Cholera feeds upon impurities of every sort.",
-            "He could not feed us, only lodge and drink us.",
-            "He needed money to feed his addiction to gambling."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ты покормил кошку?",
-            "Её хорошо накормили.",
-            "Лягушки, как правило, питаются в ночное время.",
-            "Посетителям запрещается кормить животных.",
-            "Он пользуется её беззащитностью.",
-            "Подкармливайте помидоры раз в неделю.",
-            "Фермер откармливает цыплят к Рождеству.",
-            "Мы накормили лошадей яблоками, овсом и сеном.",
-            "Звук подаётся непосредственно в наушники.",
-            "Успех подпитывает её тщеславие.",
-            "Кровеносные сосуды снабжают мозг кровью.",
-            "Целая семья может прокормиться такой огромной курицей!",
-            "Пусть ваша малышка ест, сколько хочет.",
-            "Мы взяли адвоката для ведения нашего дела.",
-            "Некоторые животные питаются насекомыми.",
-            "Она слишком слаба, чтобы самостоятельно есть.",
-            "Ему следует заплатить за корм для коровы.",
-            "Этого блюда хватит на шестерых.",
-            "У него четверо иждивенцев / Ему надо прокормить четверых.",
-            "Мы принесли засохший хлеб и покормили птиц.",
-            "Они дали нам неверную информацию.",
-            "Он настолько слаб, что не может сам есть.",
-            "Совы питаются мышами и другими мелкими животными.",
-            "Пьянство и чувство вины подпитывали друг друга.",
-            "Она засовывала документы в измельчитель бумаги.",
-            "Американская разведка сливала ложные сведения агенту КГБ.",
-            "Собаки, которых кормят растительным маслом или сахаром, заболевают.",
-            "Любая грязь является питательной средой для холеры.",
-            "Он не мог нас кормить, только давал нам пристанище и снабжал выпивкой.",
-            "Ему нужны были деньги, чтобы утолить свою страсть к игре."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "feed": {
+    "comment": [
+      "fed |fɛd|,                                          fed |fɛd|",
+      "feedback",
+      "fee",
+      "coffee"
+    ],
+    "translate": "корм, подача, питание, кормить, кормиться, питать, кормовой, загрузочный",
+    "transcription": " |fiːd|",
+    "antonyms": [],
+    "mnemonic": [
+      "feed [фи:д] кормить - СССР кормил (Фид-эля) Кастро.",
+      "feed [fi: d]\n***\nПИТАЙСЯ хорошо - не ешь сульфид. (это) feed\nКорм, кормление.\n***\nЧтоб хорошо питаться \"feed\",\nнадо собрать семена \"seed\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Have you fed the cat?",
+        "ru": "Ты покормил кошку?",
+        "learn": 0
+      },
+      {
+        "eng": "She's had a good feed.",
+        "ru": "Её хорошо накормили.",
+        "learn": 0
+      },
+      {
+        "eng": "Frogs generally feed at night.",
+        "ru": "Лягушки, как правило, питаются в ночное время.",
+        "learn": 0
+      },
+      {
+        "eng": "Visitors must not feed the animals.",
+        "ru": "Посетителям запрещается кормить животных.",
+        "learn": 0
+      },
+      {
+        "eng": "He feeds on her insecurity",
+        "ru": "Он пользуется её беззащитностью.",
+        "learn": 0
+      },
+      {
+        "eng": "Feed the tomatoes once a week.",
+        "ru": "Подкармливайте помидоры раз в неделю.",
+        "learn": 0
+      },
+      {
+        "eng": "The farmer is feeding up the chickens for Christmas.",
+        "ru": "Фермер откармливает цыплят к Рождеству.",
+        "learn": 0
+      },
+      {
+        "eng": "We fed the horses with apples, oats, and hay.",
+        "ru": "Мы накормили лошадей яблоками, овсом и сеном.",
+        "learn": 0
+      },
+      {
+        "eng": "The sound is fed directly to the headphones.",
+        "ru": "Звук подаётся непосредственно в наушники.",
+        "learn": 0
+      },
+      {
+        "eng": "Her success feeds her vanity.",
+        "ru": "Успех подпитывает её тщеславие.",
+        "learn": 0
+      },
+      {
+        "eng": "Blood vessels feed blood to the brain.",
+        "ru": "Кровеносные сосуды снабжают мозг кровью.",
+        "learn": 1
+      },
+      {
+        "eng": "A whole family can feed off a chicken as big as this!",
+        "ru": "Целая семья может прокормиться такой огромной курицей!",
+        "learn": 0
+      },
+      {
+        "eng": "Let your baby feed as long as she wants.",
+        "ru": "Пусть ваша малышка ест, сколько хочет.",
+        "learn": 0
+      },
+      {
+        "eng": "We feed a lawyer to act for us.",
+        "ru": "Мы взяли адвоката для ведения нашего дела.",
+        "learn": 0
+      },
+      {
+        "eng": "Certain animals feed on insects.",
+        "ru": "Некоторые животные питаются насекомыми.",
+        "learn": 0
+      },
+      {
+        "eng": "She's too weak to feed herself.",
+        "ru": "Она слишком слаба, чтобы самостоятельно есть.",
+        "learn": 0
+      },
+      {
+        "eng": "He should pay for the feed of his cow.",
+        "ru": "Ему следует заплатить за корм для коровы.",
+        "learn": 0
+      },
+      {
+        "eng": "This dish feeds six.",
+        "ru": "Этого блюда хватит на шестерых.",
+        "learn": 0
+      },
+      {
+        "eng": "He has four mouths to feed.",
+        "ru": "У него четверо иждивенцев / Ему надо прокормить четверых.",
+        "learn": 0
+      },
+      {
+        "eng": "We brought along pieces of old bread and fed the birds.",
+        "ru": "Мы принесли засохший хлеб и покормили птиц.",
+        "learn": 0
+      },
+      {
+        "eng": "They fed erroneous information to us.",
+        "ru": "Они дали нам неверную информацию.",
+        "learn": 0
+      },
+      {
+        "eng": "He is so weak that he cannot feed himself.",
+        "ru": "Он настолько слаб, что не может сам есть.",
+        "learn": 0
+      },
+      {
+        "eng": "Owls feed on mice and other small animals.",
+        "ru": "Совы питаются мышами и другими мелкими животными.",
+        "learn": 0
+      },
+      {
+        "eng": "The drinking and the guilt fed on each other.",
+        "ru": "Пьянство и чувство вины подпитывали друг друга.",
+        "learn": 1
+      },
+      {
+        "eng": "She was feeding documents into a paper shredder.",
+        "ru": "Она засовывала документы в измельчитель бумаги.",
+        "learn": 0
+      },
+      {
+        "eng": "US intelligence had been feeding false information to a KGB agent.",
+        "ru": "Американская разведка сливала ложные сведения агенту КГБ.",
+        "learn": 0
+      },
+      {
+        "eng": "Dogs fed on oil or sugar become diseased.",
+        "ru": "Собаки, которых кормят растительным маслом или сахаром, заболевают.",
+        "learn": 0
+      },
+      {
+        "eng": "Cholera feeds upon impurities of every sort.",
+        "ru": "Любая грязь является питательной средой для холеры.",
+        "learn": 0
+      },
+      {
+        "eng": "He could not feed us, only lodge and drink us.",
+        "ru": "Он не мог нас кормить, только давал нам пристанище и снабжал выпивкой.",
+        "learn": 0
+      },
+      {
+        "eng": "He needed money to feed his addiction to gambling.",
+        "ru": "Ему нужны были деньги, чтобы утолить свою страсть к игре.",
+        "learn": 1
+      }
+    ]
+  }
 }

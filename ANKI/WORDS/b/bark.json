@@ -1,72 +1,140 @@
 {
-    "bark": {
-        "comment": [
-            "embark",
-            "barn"
-        ],
-        "translate": "кора, лай, барк, корабль, кашель, хина, кожа, лаять, гавкать, рявкать, сдирать кору",
-        "transcription": " |bɑːrk|",
-        "antonyms": [],
-        "mnemonic": [
-            "bark [бак] лаять, кора - Заткни ее пасть корой (баклажана), чтобы не лаяла.",
-            "bark [bɑ:k]\nembark [ɪm'bɑ:k]\n***\nКОРУ собираю и кладу её в бак. (это) bark\nСобаки ЛАЮТ на собак. (это) bark\n***\nЗАГРУЗИЛИСЬ НА КОРАБЛЬ, теперь нагрузим им|бак.\n(это) embark\nЕсли в войну ВСТУПИМ - не отдадим им|бак. (это)\nembark\n***\nНе ходите в парк \"park\",\nтам собаки лают \"bark\"."
-        ],
-        "examples": [
-            "The dog always barks at strangers.",
-            "Our dog always barks at the postman.",
-            "I don't like the way that the teacher barks at the children so unkindly.",
-            "It was a cross between a laugh and a bark.",
-            "Seals bark.",
-            "Mice are apt to bark and to kill young trees.",
-            "The dog's bark and howl signify very different things.",
-            "The seat is made of bark and ropes twisted together.",
-            "He is no friend to the tree, that strips it of the bark.",
-            "The dogs barked at the stranger.",
-            "I barked my shin against the step.",
-            "They had crossed the Atlantic in their barks.",
-            "Tree bark provides deer with sustenance in periods of drought.",
-            "She barked into the dictaphone.",
-            "The policeman barked out a warning as the gunmen appeared.",
-            "Amy's voice was a hoarse bark.",
-            "On Sept. 20 we met the bark Atlantic and gammed her.",
-            "The lovers scratched their names into the bark of the tree.",
-            "...in the yard an old hound greeted us with a single bark...",
-            "'Don't just stand there, give me a hand,' she barked at the shop assistant.",
-            "The only thing that distinguishes the dogs is their bark.",
-            "Digest the bark in alcohol, evaporate the alcoholic solution to dryness.",
-            "They listened for the hounds' pursuing bark.",
-            "He was so intent on his work that he didn't hear the dog bark."
-        ],
-        "example_translate": [
-            "Этот пес всегда лает на незнакомцев.",
-            "Наша собака всегда лает на почтальона.",
-            "Мне не нравится, что этот учитель так свирепо рявкает на детей.",
-            "Раздалось нечто среднее между смешком и лаем.",
-            "Тюлени лают.",
-            "Мыши могут обдирать кору с деревьев и губить молодые побеги деревьев.",
-            "Вой и лай собаки может значить очень разные вещи.",
-            "Сидение сделано из древесной коры и сплетённых между собой верёвок.",
-            "Тот вредит дереву, кто сдирает с него кору.",
-            "Собаки залаяли на незнакомца.",
-            "Я ободрал себе голень об эту ступеньку.",
-            "Они на своих барках пересекли Атлантику.",
-            "Древесная кора обеспечивает оленей пропитанием в периоды засухи.",
-            "Она что-то рявкнула в диктофон.",
-            "Как только появились вооружённые люди, полицейский выкрикнул предупреждение.",
-            "Голос Эми был похож на хриплый лай.",
-            "Двадцатого сентября мы встретили барку \"Атлантика\" и посетили ее.",
-            "Влюблённые выцарапали на коре дерева свои имена.",
-            "...во дворе старая гончая, встретила нас гавкнув один раз...",
-            "— Что ты стоишь, помоги мне, — рявкнула она на продавца.",
-            "Единственное, что отличает собак - это их лай.",
-            "Сделайте спиртовую настойку коры, а затем выпарьте спиртовой раствор.",
-            "Они прислушались, в надежде услышать лай преследующих зверя гончих.",
-            "Он настолько увлёкся работой, что не услышал, как залаяла собака."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "bark": {
+    "comment": [
+      "embark",
+      "barn"
+    ],
+    "translate": "кора, лай, барк, корабль, кашель, хина, кожа, лаять, гавкать, рявкать, сдирать кору",
+    "transcription": " |bɑːrk|",
+    "antonyms": [],
+    "mnemonic": [
+      "bark [бак] лаять, кора - Заткни ее пасть корой (баклажана), чтобы не лаяла.",
+      "bark [bɑ:k]\nembark [ɪm'bɑ:k]\n***\nКОРУ собираю и кладу её в бак. (это) bark\nСобаки ЛАЮТ на собак. (это) bark\n***\nЗАГРУЗИЛИСЬ НА КОРАБЛЬ, теперь нагрузим им|бак.\n(это) embark\nЕсли в войну ВСТУПИМ - не отдадим им|бак. (это)\nembark\n***\nНе ходите в парк \"park\",\nтам собаки лают \"bark\"."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The dog always barks at strangers.",
+        "ru": "Этот пес всегда лает на незнакомцев.",
+        "learn": 1
+      },
+      {
+        "eng": "Our dog always barks at the postman.",
+        "ru": "Наша собака всегда лает на почтальона.",
+        "learn": 1
+      },
+      {
+        "eng": "I don't like the way that the teacher barks at the children so unkindly.",
+        "ru": "Мне не нравится, что этот учитель так свирепо рявкает на детей.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a cross between a laugh and a bark.",
+        "ru": "Раздалось нечто среднее между смешком и лаем.",
+        "learn": 1
+      },
+      {
+        "eng": "Seals bark.",
+        "ru": "Тюлени лают.",
+        "learn": 0
+      },
+      {
+        "eng": "Mice are apt to bark and to kill young trees.",
+        "ru": "Мыши могут обдирать кору с деревьев и губить молодые побеги деревьев.",
+        "learn": 0
+      },
+      {
+        "eng": "The dog's bark and howl signify very different things.",
+        "ru": "Вой и лай собаки может значить очень разные вещи.",
+        "learn": 0
+      },
+      {
+        "eng": "The seat is made of bark and ropes twisted together.",
+        "ru": "Сидение сделано из древесной коры и сплетённых между собой верёвок.",
+        "learn": 0
+      },
+      {
+        "eng": "He is no friend to the tree, that strips it of the bark.",
+        "ru": "Тот вредит дереву, кто сдирает с него кору.",
+        "learn": 0
+      },
+      {
+        "eng": "The dogs barked at the stranger.",
+        "ru": "Собаки залаяли на незнакомца.",
+        "learn": 0
+      },
+      {
+        "eng": "I barked my shin against the step.",
+        "ru": "Я ободрал себе голень об эту ступеньку.",
+        "learn": 0
+      },
+      {
+        "eng": "They had crossed the Atlantic in their barks.",
+        "ru": "Они на своих барках пересекли Атлантику.",
+        "learn": 0
+      },
+      {
+        "eng": "Tree bark provides deer with sustenance in periods of drought.",
+        "ru": "Древесная кора обеспечивает оленей пропитанием в периоды засухи.",
+        "learn": 0
+      },
+      {
+        "eng": "She barked into the dictaphone.",
+        "ru": "Она что-то рявкнула в диктофон.",
+        "learn": 0
+      },
+      {
+        "eng": "The policeman barked out a warning as the gunmen appeared.",
+        "ru": "Как только появились вооружённые люди, полицейский выкрикнул предупреждение.",
+        "learn": 0
+      },
+      {
+        "eng": "Amy's voice was a hoarse bark.",
+        "ru": "Голос Эми был похож на хриплый лай.",
+        "learn": 0
+      },
+      {
+        "eng": "On Sept. 20 we met the bark Atlantic and gammed her.",
+        "ru": "Двадцатого сентября мы встретили барку \"Атлантика\" и посетили ее.",
+        "learn": 0
+      },
+      {
+        "eng": "The lovers scratched their names into the bark of the tree.",
+        "ru": "Влюблённые выцарапали на коре дерева свои имена.",
+        "learn": 0
+      },
+      {
+        "eng": "...in the yard an old hound greeted us with a single bark...",
+        "ru": "...во дворе старая гончая, встретила нас гавкнув один раз...",
+        "learn": 0
+      },
+      {
+        "eng": "'Don't just stand there, give me a hand,' she barked at the shop assistant.",
+        "ru": "— Что ты стоишь, помоги мне, — рявкнула она на продавца.",
+        "learn": 0
+      },
+      {
+        "eng": "The only thing that distinguishes the dogs is their bark.",
+        "ru": "Единственное, что отличает собак - это их лай.",
+        "learn": 1
+      },
+      {
+        "eng": "Digest the bark in alcohol, evaporate the alcoholic solution to dryness.",
+        "ru": "Сделайте спиртовую настойку коры, а затем выпарьте спиртовой раствор.",
+        "learn": 0
+      },
+      {
+        "eng": "They listened for the hounds' pursuing bark.",
+        "ru": "Они прислушались, в надежде услышать лай преследующих зверя гончих.",
+        "learn": 0
+      },
+      {
+        "eng": "He was so intent on his work that he didn't hear the dog bark.",
+        "ru": "Он настолько увлёкся работой, что не услышал, как залаяла собака.",
+        "learn": 1
+      }
+    ]
+  }
 }

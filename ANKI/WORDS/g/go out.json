@@ -1,49 +1,145 @@
 {
-    "go out": {
-        "comment": [],
-        "translate": "1) Выходить (из дома, помещения) 2) Гаснуть (об огне, свете) 3) Встречаться (романтически)(Разговорное значение) ",
-        "transcription": " |ˈɡəʊ ˈaʊt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I don't want to go out in this weather.",
-            "They've been going out for six months.",
-            "Is she going out with anyone?",
-            "All the lights went out suddenly.",
-            "The streetlights go out at dawn.",
-            "He went out for a walk.",
-            "How long have you been going out?",
-            "She goes out every Friday night.",
-            "The fire went out during the night.",
-            "The flame went out in the wind.",
-            "Make sure the candle goes out before sleeping.",
-            "They went out to the cinema.",
-            "Let's go out for dinner tonight.",
-            "He asked her to go out with him.",
-            "We went out together in college."
-        ],
-        "example_translate": [
-            "Я не хочу выходить в такую погоду.",
-            "Они встречаются уже шесть месяцев.",
-            "Она с кем-нибудь встречается?",
-            "Все огни внезапно погасли.",
-            "Уличные фонари гаснут на рассвете.",
-            "Он вышел на прогулку.",
-            "Как долго вы встречаетесь?",
-            "Она выходит каждый пятничный вечер.",
-            "Огонь погас ночью.",
-            "Пламя погасло на ветру.",
-            "Убедись, что свеча погасла перед сном.",
-            "Они пошли в кино.",
-            "Давай пойдём поужинать сегодня вечером.",
-            "Он пригласил её на свидание.",
-            "Мы встречались в колледже."
-        ],
-        "synonyms": "Выходить (из дома, помещения) - leave, exit\nГаснуть (об огне, свете) - extinguish, die out\nВстречаться (романтически) - date, see someone\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "go out": {
+    "comment": [],
+    "translate": "1) Выходить (из дома, помещения) 2) Гаснуть (об огне, свете) 3) Встречаться (романтически)(Разговорное значение) ",
+    "transcription": " |ˈɡəʊ ˈaʊt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Выходить (из дома, помещения) - leave, exit",
+      "Гаснуть (об огне, свете) - extinguish, die out",
+      "Встречаться (романтически) - date, see someone"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "I don't want to go out in this weather.",
+        "ru": "Я не хочу выходить в такую погоду.",
+        "learn": 1
+      },
+      {
+        "eng": "They've been going out for six months.",
+        "ru": "Они встречаются уже шесть месяцев.",
+        "learn": 1
+      },
+      {
+        "eng": "Is she going out with anyone?",
+        "ru": "Она с кем-нибудь встречается?",
+        "learn": 1
+      },
+      {
+        "eng": "All the lights went out suddenly.",
+        "ru": "Все огни внезапно погасли.",
+        "learn": 1
+      },
+      {
+        "eng": "The streetlights go out at dawn.",
+        "ru": "Уличные фонари гаснут на рассвете.",
+        "learn": 1
+      },
+      {
+        "eng": "He went out for a walk.",
+        "ru": "Он вышел на прогулку.",
+        "learn": 1
+      },
+      {
+        "eng": "How long have you been going out?",
+        "ru": "Как долго вы встречаетесь?",
+        "learn": 1
+      },
+      {
+        "eng": "She goes out every Friday night.",
+        "ru": "Она выходит каждый пятничный вечер.",
+        "learn": 1
+      },
+      {
+        "eng": "The fire went out during the night.",
+        "ru": "Огонь погас ночью.",
+        "learn": 1
+      },
+      {
+        "eng": "The flame went out in the wind.",
+        "ru": "Пламя погасло на ветру.",
+        "learn": 1
+      },
+      {
+        "eng": "Make sure the candle goes out before sleeping.",
+        "ru": "Убедись, что свеча погасла перед сном.",
+        "learn": 1
+      },
+      {
+        "eng": "They went out to the cinema.",
+        "ru": "Они пошли в кино.",
+        "learn": 1
+      },
+      {
+        "eng": "Let's go out for dinner tonight.",
+        "ru": "Давай пойдём поужинать сегодня вечером.",
+        "learn": 1
+      },
+      {
+        "eng": "He asked her to go out with him.",
+        "ru": "Он пригласил её на свидание.",
+        "learn": 1
+      },
+      {
+        "eng": "We went out together in college.",
+        "ru": "Мы встречались в колледже.",
+        "learn": 1
+      },
+      {
+        "eng": "It has quite gone out of my head.",
+        "ru": "Это совершенно вылетело у меня из головы.",
+        "learn": 0
+      },
+      {
+        "eng": "I thought these bell-bottomed trousers went out years ago!",
+        "ru": "Я думал эти брюки клеш вышли из моды много лет назад!",
+        "learn": 0
+      },
+      {
+        "eng": "It is an absolute certainty that the Government will go out.",
+        "ru": "Абсолютно точно, что правительство уйдёт в отставку.",
+        "learn": 0
+      },
+      {
+        "eng": "She enjoys going out on weekends, but during the week she's a homebody.",
+        "ru": "По выходным она с удовольствием ходит куда-нибудь погулять, но в остальные дни недели она сидит дома.",
+        "learn": 0
+      },
+      {
+        "eng": "The robber hit him on the head with an iron bar, and he went out.",
+        "ru": "Грабитель огрел его по голове железным прутом, и он вырубился.",
+        "learn": 0
+      },
+      {
+        "eng": "The estates went out of the family.",
+        "ru": "Имение ушло из семьи.",
+        "learn": 0
+      },
+      {
+        "eng": "We do not intend to go out at all in Florence - I mean into society.",
+        "ru": "Мы не собираемся никуда ходить во Флоренции - я имею в виду бывать в обществе.",
+        "learn": 0
+      },
+      {
+        "eng": "The Post Office workers went out before Christmas, now the electricians are out.",
+        "ru": "Перед Рождеством объявили забастовку почтовики, теперь бастуют электрики.",
+        "learn": 0
+      },
+      {
+        "eng": "There's more money going out than coming in, and I'm worried about the business.",
+        "ru": "Наши затраты превышают наши доходы, я беспокоюсь о судьбе нашего дела.",
+        "learn": 0
+      },
+      {
+        "eng": "There was concern that the dam would go out under the force of the flood waters.",
+        "ru": "Высказывались опасения, что под воздействием паводка плотина выйдет из строя.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,80 +1,166 @@
 {
-    "mystery": {
-        "comment": [
-            "mysterious"
-        ],
-        "translate": "тайна, таинство, мистерия, таинственный",
-        "transcription": " |ˈmɪstri|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The mystery has been solved.",
-            "It was a mystery to me.",
-            "The reason why she did it is a mystery.",
-            "She reads a lot of mystery novels.",
-            "The book gives the reader plenty of clues to solve the mystery.",
-            "The affair is wrapped up in mystery.",
-            "How it got out is a mystery.",
-            "The mystery is easily accountable.",
-            "The mystery deepens.",
-            "Her story gave the key to the mystery.",
-            "He read the mystery at one sitting.",
-            "The way her mind worked was always a mystery to him.",
-            "The room's moody lighting suggested mystery and romance.",
-            "Her disappearance poses a real mystery.",
-            "The actress's life was cloaked in mystery.",
-            "The story alluded to a mystery in his past.",
-            "This book is a classic of the mystery genre.",
-            "She has no peer in the concoction of mystery stories,",
-            "Our author finds himself on the confines of a mystery.",
-            "But why would anyone want to kill Jack? The mystery deepened.",
-            "The police have been trying to clear up the mystery of the man's death.",
-            "The mystery was deepened by her silence.",
-            "clarify the mystery surrounding her death",
-            "a faint clue to the origin of the mystery",
-            "Her main reading seems to be mystery novels.",
-            "The incident has always been shrouded in mystery.",
-            "The circumstances of his death were veiled in mystery.",
-            "We were determined to find the truth behind this mystery.",
-            "Twenty years after the event, his death remains a mystery.",
-            "A first rule in solving any mystery is to check the facts."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Тайна раскрыта.",
-            "Это было для меня тайной.",
-            "По какой причине она это сделала, остаётся загадкой.",
-            "Она читает много детективных романов.",
-            "Книга даёт читателю множество подсказок, помогающих раскрыть эту тайну.",
-            "Это дело окутано тайной.",
-            "Как это выплыло наружу — остаётся загадкой.",
-            "Эта загадка легко объяснима.",
-            "Загадка становится всё запутаннее.",
-            "Её рассказ стал разгадкой этой тайны.",
-            "Он прочёл детектив за один присест.",
-            "Для него всегда было загадкой то, как работает её ум.",
-            "Приглушённое освещение комнаты /номера/ привносило таинственность и романтику.",
-            "Её исчезновение - это настоящая тайна.",
-            "Жизнь актрисы была окутана тайной.",
-            "Рассказ намекал на загадку, таящуюся в его прошлом.",
-            "Эта книга является классикой детективного жанра.",
-            "Ей нет равных в сочинении детективных рассказов.",
-            "Наш автор оказывается на пороге тайны.",
-            "Но зачем кому-то понадобилось убивать Джека? Дело стало ещё таинственней.",
-            "Полиция пытается раскрыть тайну смерти этого человека.",
-            "Тайна усугублялась её молчанием.",
-            "прояснить загадку её смерти",
-            "слабый намёк на разгадку этой тайны / маленький ключик к разгадке этой тайны",
-            "Похоже, что в основном она читает детективные романы.",
-            "Это происшествие всегда было окутано тайной.",
-            "Обстоятельства его смерти были окружены тайной.",
-            "Мы были полны решимости найти правду, скрывающуюся за этой тайной.",
-            "Спустя двадцать лет, его смерть всё ещё остается загадкой.",
-            "Первое правило в решении любой загадки заключается в том, чтобы проверить факты."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "mystery": {
+    "comment": [
+      "mysterious"
+    ],
+    "translate": "тайна, таинство, мистерия, таинственный",
+    "transcription": " |ˈmɪstri|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The mystery has been solved.",
+        "ru": "Тайна раскрыта.",
+        "learn": 1
+      },
+      {
+        "eng": "It was a mystery to me.",
+        "ru": "Это было для меня тайной.",
+        "learn": 0
+      },
+      {
+        "eng": "The reason why she did it is a mystery.",
+        "ru": "По какой причине она это сделала, остаётся загадкой.",
+        "learn": 0
+      },
+      {
+        "eng": "She reads a lot of mystery novels.",
+        "ru": "Она читает много детективных романов.",
+        "learn": 0
+      },
+      {
+        "eng": "The book gives the reader plenty of clues to solve the mystery.",
+        "ru": "Книга даёт читателю множество подсказок, помогающих раскрыть эту тайну.",
+        "learn": 0
+      },
+      {
+        "eng": "The affair is wrapped up in mystery.",
+        "ru": "Это дело окутано тайной.",
+        "learn": 0
+      },
+      {
+        "eng": "How it got out is a mystery.",
+        "ru": "Как это выплыло наружу — остаётся загадкой.",
+        "learn": 0
+      },
+      {
+        "eng": "The mystery is easily accountable.",
+        "ru": "Эта загадка легко объяснима.",
+        "learn": 0
+      },
+      {
+        "eng": "The mystery deepens.",
+        "ru": "Загадка становится всё запутаннее.",
+        "learn": 0
+      },
+      {
+        "eng": "Her story gave the key to the mystery.",
+        "ru": "Её рассказ стал разгадкой этой тайны.",
+        "learn": 0
+      },
+      {
+        "eng": "He read the mystery at one sitting.",
+        "ru": "Он прочёл детектив за один присест.",
+        "learn": 0
+      },
+      {
+        "eng": "The way her mind worked was always a mystery to him.",
+        "ru": "Для него всегда было загадкой то, как работает её ум.",
+        "learn": 0
+      },
+      {
+        "eng": "The room's moody lighting suggested mystery and romance.",
+        "ru": "Приглушённое освещение комнаты /номера/ привносило таинственность и романтику.",
+        "learn": 0
+      },
+      {
+        "eng": "Her disappearance poses a real mystery.",
+        "ru": "Её исчезновение - это настоящая тайна.",
+        "learn": 0
+      },
+      {
+        "eng": "The actress's life was cloaked in mystery.",
+        "ru": "Жизнь актрисы была окутана тайной.",
+        "learn": 1
+      },
+      {
+        "eng": "The story alluded to a mystery in his past.",
+        "ru": "Рассказ намекал на загадку, таящуюся в его прошлом.",
+        "learn": 0
+      },
+      {
+        "eng": "This book is a classic of the mystery genre.",
+        "ru": "Эта книга является классикой детективного жанра.",
+        "learn": 1
+      },
+      {
+        "eng": "She has no peer in the concoction of mystery stories,",
+        "ru": "Ей нет равных в сочинении детективных рассказов.",
+        "learn": 0
+      },
+      {
+        "eng": "Our author finds himself on the confines of a mystery.",
+        "ru": "Наш автор оказывается на пороге тайны.",
+        "learn": 0
+      },
+      {
+        "eng": "But why would anyone want to kill Jack? The mystery deepened.",
+        "ru": "Но зачем кому-то понадобилось убивать Джека? Дело стало ещё таинственней.",
+        "learn": 0
+      },
+      {
+        "eng": "The police have been trying to clear up the mystery of the man's death.",
+        "ru": "Полиция пытается раскрыть тайну смерти этого человека.",
+        "learn": 0
+      },
+      {
+        "eng": "The mystery was deepened by her silence.",
+        "ru": "Тайна усугублялась её молчанием.",
+        "learn": 0
+      },
+      {
+        "eng": "clarify the mystery surrounding her death",
+        "ru": "прояснить загадку её смерти",
+        "learn": 0
+      },
+      {
+        "eng": "a faint clue to the origin of the mystery",
+        "ru": "слабый намёк на разгадку этой тайны / маленький ключик к разгадке этой тайны",
+        "learn": 0
+      },
+      {
+        "eng": "Her main reading seems to be mystery novels.",
+        "ru": "Похоже, что в основном она читает детективные романы.",
+        "learn": 0
+      },
+      {
+        "eng": "The incident has always been shrouded in mystery.",
+        "ru": "Это происшествие всегда было окутано тайной.",
+        "learn": 0
+      },
+      {
+        "eng": "The circumstances of his death were veiled in mystery.",
+        "ru": "Обстоятельства его смерти были окружены тайной.",
+        "learn": 0
+      },
+      {
+        "eng": "We were determined to find the truth behind this mystery.",
+        "ru": "Мы были полны решимости найти правду, скрывающуюся за этой тайной.",
+        "learn": 0
+      },
+      {
+        "eng": "Twenty years after the event, his death remains a mystery.",
+        "ru": "Спустя двадцать лет, его смерть всё ещё остается загадкой.",
+        "learn": 0
+      },
+      {
+        "eng": "A first rule in solving any mystery is to check the facts.",
+        "ru": "Первое правило в решении любой загадки заключается в том, чтобы проверить факты.",
+        "learn": 0
+      }
+    ]
+  }
 }

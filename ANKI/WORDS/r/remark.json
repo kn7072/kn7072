@@ -1,91 +1,177 @@
 {
-    "remark": {
-        "comment": [
-            "market",
-            "marketing",
-            "supermarket",
-            "mark",
-            "remarkable",
-            "marker",
-            "marketplace",
-            "marking",
-            "marked",
-            "remarkably"
-        ],
-        "translate": "замечание, примечание, наблюдение, отмечать, замечать, высказаться",
-        "transcription": " |rɪˈmɑːrk|",
-        "antonyms": [],
-        "mnemonic": [
-            "remark [рима'к] замечание - Вставил (ремарк-у), значит замечание сделал."
-        ],
-        "examples": [
-            "I shall let that remark by.",
-            "He made some smart remark.",
-            "Your remark was not called for.",
-            "What an asinine remark!",
-            "I didn't understand the meaning of his remark.",
-            "I missed that remark.",
-            "He bristled at the remark.",
-            "John remarked that it was getting late.",
-            "He ventured (upon) a remark.",
-            "“It's so hot today,” she remarked.",
-            "Her last remark has set me thinking.",
-            "That remark you made really upset me.",
-            "I'll ignore that last remark.",
-            "She takes offence at every remark.",
-            "You'd better take back that remark!",
-            "The remark about his weight was a cheap shot.",
-            "I'll take that remark as a compliment.",
-            "She could see that her remark had hit home.",
-            "Her tactless remark offended me.",
-            "He threw an abrupt remark at me.",
-            "Your last remark smacked of rudeness.",
-            "There's no need to get steamed up about such a little remark.",
-            "I was offended by his remark.",
-            "This remark really bruised my ego",
-            "It was unfortunate that you chucked out that remark.",
-            "He ventured (on) a remark.",
-            "I shall construe your remark as offensive.",
-            "His remark was a cheap shot at short people.",
-            "Please bracket this remark.",
-            "An awkward pause followed his remark."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я оставлю это замечание без внимания.",
-            "Он сделал весьма умное замечание.",
-            "Ваше замечание было неуместно.",
-            "что за идиотское замечание!",
-            "Я не понимаю смысла его высказывания.",
-            "Я пропустил это замечание.",
-            "Он рассердился из-за сделанного ему замечания.",
-            "Джон заметил, что стало темнеть.",
-            "Он позволил себе сделать замечание.",
-            "— Так жарко сегодня, — заметила она.",
-            "Ее последнее высказывание заставило меня задуматься.",
-            "Замечание, которое вы сделали, очень меня расстроило.",
-            "Я проигнорирую последнее замечание/высказывание.",
-            "Она обижается на каждое замечание.",
-            "Советую взять эти слова обратно!",
-            "Замечание по поводу его веса было ударом ниже пояса.",
-            "Я приму это замечание в качестве комплимента.",
-            "Она поняла, что её замечание попало в точку.",
-            "Её бестактное замечание обидело меня.",
-            "Он бросил резкое замечание в мой адрес.",
-            "Ваше последнее замечание отдавало грубостью.",
-            "Не стоит обижаться на такое мелкое замечание.",
-            "Его замечание меня обидело.",
-            "Это замечание сильно задело моё эго.",
-            "Вы очень некстати вставили это замечание.",
-            "Он позволил себе сделать замечание.",
-            "Я истолкую ваши слова как оскорбление.",
-            "Его высказывание было ударом ниже пояса в адрес низкорослых людей.",
-            "Пожалуйста, заключите это замечание в скобки.",
-            "За его замечанием последовала неловкая пауза."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "remark": {
+    "comment": [
+      "market",
+      "marketing",
+      "supermarket",
+      "mark",
+      "remarkable",
+      "marker",
+      "marketplace",
+      "marking",
+      "marked",
+      "remarkably"
+    ],
+    "translate": "замечание, примечание, наблюдение, отмечать, замечать, высказаться",
+    "transcription": " |rɪˈmɑːrk|",
+    "antonyms": [],
+    "mnemonic": [
+      "remark [рима'к] замечание - Вставил (ремарк-у), значит замечание сделал."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I shall let that remark by.",
+        "ru": "Я оставлю это замечание без внимания.",
+        "learn": 0
+      },
+      {
+        "eng": "He made some smart remark.",
+        "ru": "Он сделал весьма умное замечание.",
+        "learn": 1
+      },
+      {
+        "eng": "Your remark was not called for.",
+        "ru": "Ваше замечание было неуместно.",
+        "learn": 0
+      },
+      {
+        "eng": "What an asinine remark!",
+        "ru": "что за идиотское замечание!",
+        "learn": 0
+      },
+      {
+        "eng": "I didn't understand the meaning of his remark.",
+        "ru": "Я не понимаю смысла его высказывания.",
+        "learn": 0
+      },
+      {
+        "eng": "I missed that remark.",
+        "ru": "Я пропустил это замечание.",
+        "learn": 0
+      },
+      {
+        "eng": "He bristled at the remark.",
+        "ru": "Он рассердился из-за сделанного ему замечания.",
+        "learn": 0
+      },
+      {
+        "eng": "John remarked that it was getting late.",
+        "ru": "Джон заметил, что стало темнеть.",
+        "learn": 0
+      },
+      {
+        "eng": "He ventured (upon) a remark.",
+        "ru": "Он позволил себе сделать замечание.",
+        "learn": 0
+      },
+      {
+        "eng": "“It's so hot today,” she remarked.",
+        "ru": "— Так жарко сегодня, — заметила она.",
+        "learn": 0
+      },
+      {
+        "eng": "Her last remark has set me thinking.",
+        "ru": "Ее последнее высказывание заставило меня задуматься.",
+        "learn": 1
+      },
+      {
+        "eng": "That remark you made really upset me.",
+        "ru": "Замечание, которое вы сделали, очень меня расстроило.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll ignore that last remark.",
+        "ru": "Я проигнорирую последнее замечание/высказывание.",
+        "learn": 0
+      },
+      {
+        "eng": "She takes offence at every remark.",
+        "ru": "Она обижается на каждое замечание.",
+        "learn": 0
+      },
+      {
+        "eng": "You'd better take back that remark!",
+        "ru": "Советую взять эти слова обратно!",
+        "learn": 0
+      },
+      {
+        "eng": "The remark about his weight was a cheap shot.",
+        "ru": "Замечание по поводу его веса было ударом ниже пояса.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll take that remark as a compliment.",
+        "ru": "Я приму это замечание в качестве комплимента.",
+        "learn": 1
+      },
+      {
+        "eng": "She could see that her remark had hit home.",
+        "ru": "Она поняла, что её замечание попало в точку.",
+        "learn": 0
+      },
+      {
+        "eng": "Her tactless remark offended me.",
+        "ru": "Её бестактное замечание обидело меня.",
+        "learn": 0
+      },
+      {
+        "eng": "He threw an abrupt remark at me.",
+        "ru": "Он бросил резкое замечание в мой адрес.",
+        "learn": 0
+      },
+      {
+        "eng": "Your last remark smacked of rudeness.",
+        "ru": "Ваше последнее замечание отдавало грубостью.",
+        "learn": 1
+      },
+      {
+        "eng": "There's no need to get steamed up about such a little remark.",
+        "ru": "Не стоит обижаться на такое мелкое замечание.",
+        "learn": 0
+      },
+      {
+        "eng": "I was offended by his remark.",
+        "ru": "Его замечание меня обидело.",
+        "learn": 0
+      },
+      {
+        "eng": "This remark really bruised my ego",
+        "ru": "Это замечание сильно задело моё эго.",
+        "learn": 1
+      },
+      {
+        "eng": "It was unfortunate that you chucked out that remark.",
+        "ru": "Вы очень некстати вставили это замечание.",
+        "learn": 0
+      },
+      {
+        "eng": "He ventured (on) a remark.",
+        "ru": "Он позволил себе сделать замечание.",
+        "learn": 0
+      },
+      {
+        "eng": "I shall construe your remark as offensive.",
+        "ru": "Я истолкую ваши слова как оскорбление.",
+        "learn": 0
+      },
+      {
+        "eng": "His remark was a cheap shot at short people.",
+        "ru": "Его высказывание было ударом ниже пояса в адрес низкорослых людей.",
+        "learn": 0
+      },
+      {
+        "eng": "Please bracket this remark.",
+        "ru": "Пожалуйста, заключите это замечание в скобки.",
+        "learn": 0
+      },
+      {
+        "eng": "An awkward pause followed his remark.",
+        "ru": "За его замечанием последовала неловкая пауза.",
+        "learn": 0
+      }
+    ]
+  }
 }

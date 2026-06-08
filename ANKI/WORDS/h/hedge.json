@@ -1,68 +1,136 @@
 {
-    "hedge": {
-        "comment": [
-            "edge"
-        ],
-        "translate": "изгородь, преграда, ограничивать, тайный",
-        "transcription": " |hedʒ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The neighbors' dog got in through a gap in the hedge.",
-            "The horse took the hedge easily.",
-            "There was a break in the hedge.",
-            "There was a hole low down in the hedge.",
-            "Rabbits had gnawed a hole in the hedge.",
-            "It would put a hedge round his finances.",
-            "The animals were hedged in.",
-            "You're hedging again — have you got the money or haven't you?",
-            "It's a good idea to hedge your bets by applying to more than one college.",
-            "I gave the hedge a clip.",
-            "The hedge takes up too much space.",
-            "She carefully pruned the hedge.",
-            "We crawled through a break in the hedge.",
-            "Buying a house will be a hedge against inflation.",
-            "She hedged when she was asked to support the campaign.",
-            "Rabbits have gnawed at the hedge.",
-            "'That depends on my partner,' she hedged.",
-            "He hedged his earlier comments about the need for new management.",
-            "Starting a business of one's own is hedged about with a lot of difficulties.",
-            "Diversify your financial portfolio to hedge price risks.",
-            "From outside came the sound of someone cutting the hedge.",
-            "Armed police lay in ambush behind the hedge.",
-            "I managed to squeeze through a gap in the hedge.",
-            "The messenger was confronted with a hedge of spears held aloft by the castle guards."
-        ],
-        "example_translate": [
-            "Соседская собака проникла через дыру в изгороди.",
-            "Лошадь легко взяла препятствие.",
-            "В изгороди была дырка. (через которую можно было пролезть)",
-            "В самом низу изгороди была дыра.",
-            "Кролики прогрызли дыру в изгороди.",
-            "Это защитило бы его финансы.",
-            "Животные были помещены в загон.",
-            "Вот опять ты юлишь. Скажи прямо, есть у тебя эти деньги, или нет?",
-            "Разумно будет подстраховаться, направив документы в несколько колледжей одновременно.",
-            "Я подстриг (живую) изгородь.",
-            "Ограда занимает слишком много места.",
-            "Она аккуратно обрезала живую изгородь.",
-            "Мы пролезли через дыру в изгороди.",
-            "Покупка дома станет защитной мерой против инфляции.",
-            "Она уклонилась от ответа, когда её попросили поддержать кампанию.",
-            "Изгородь обглодали кролики.",
-            "— Это зависит от моего супруга, — ушла от ответа она.",
-            "Он не стал подтверждать свои предыдущие высказывания о необходимости нового руководства.",
-            "Когда начинаешь своё дело, сталкиваешься со многими трудностями.",
-            "Разнообразьте ваш финансовый портфель с целью хеджирования ценовых рисков.",
-            "Снаружи послышался шум, как будто кто-то подрезает изгородь.",
-            "За изгородью лежали в засаде вооружённые полицейские.",
-            "Мне удалось протиснуться сквозь дыру в изгороди.",
-            "Стража замка встретила гонца стеной поднятых копий."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "hedge": {
+    "comment": [
+      "edge"
+    ],
+    "translate": "изгородь, преграда, ограничивать, тайный",
+    "transcription": " |hedʒ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The neighbors' dog got in through a gap in the hedge.",
+        "ru": "Соседская собака проникла через дыру в изгороди.",
+        "learn": 1
+      },
+      {
+        "eng": "The horse took the hedge easily.",
+        "ru": "Лошадь легко взяла препятствие.",
+        "learn": 0
+      },
+      {
+        "eng": "There was a break in the hedge.",
+        "ru": "В изгороди была дырка. (через которую можно было пролезть)",
+        "learn": 0
+      },
+      {
+        "eng": "There was a hole low down in the hedge.",
+        "ru": "В самом низу изгороди была дыра.",
+        "learn": 0
+      },
+      {
+        "eng": "Rabbits had gnawed a hole in the hedge.",
+        "ru": "Кролики прогрызли дыру в изгороди.",
+        "learn": 0
+      },
+      {
+        "eng": "It would put a hedge round his finances.",
+        "ru": "Это защитило бы его финансы.",
+        "learn": 0
+      },
+      {
+        "eng": "The animals were hedged in.",
+        "ru": "Животные были помещены в загон.",
+        "learn": 0
+      },
+      {
+        "eng": "You're hedging again — have you got the money or haven't you?",
+        "ru": "Вот опять ты юлишь. Скажи прямо, есть у тебя эти деньги, или нет?",
+        "learn": 0
+      },
+      {
+        "eng": "It's a good idea to hedge your bets by applying to more than one college.",
+        "ru": "Разумно будет подстраховаться, направив документы в несколько колледжей одновременно.",
+        "learn": 0
+      },
+      {
+        "eng": "I gave the hedge a clip.",
+        "ru": "Я подстриг (живую) изгородь.",
+        "learn": 0
+      },
+      {
+        "eng": "The hedge takes up too much space.",
+        "ru": "Ограда занимает слишком много места.",
+        "learn": 0
+      },
+      {
+        "eng": "She carefully pruned the hedge.",
+        "ru": "Она аккуратно обрезала живую изгородь.",
+        "learn": 0
+      },
+      {
+        "eng": "We crawled through a break in the hedge.",
+        "ru": "Мы пролезли через дыру в изгороди.",
+        "learn": 1
+      },
+      {
+        "eng": "Buying a house will be a hedge against inflation.",
+        "ru": "Покупка дома станет защитной мерой против инфляции.",
+        "learn": 0
+      },
+      {
+        "eng": "She hedged when she was asked to support the campaign.",
+        "ru": "Она уклонилась от ответа, когда её попросили поддержать кампанию.",
+        "learn": 0
+      },
+      {
+        "eng": "Rabbits have gnawed at the hedge.",
+        "ru": "Изгородь обглодали кролики.",
+        "learn": 0
+      },
+      {
+        "eng": "'That depends on my partner,' she hedged.",
+        "ru": "— Это зависит от моего супруга, — ушла от ответа она.",
+        "learn": 0
+      },
+      {
+        "eng": "He hedged his earlier comments about the need for new management.",
+        "ru": "Он не стал подтверждать свои предыдущие высказывания о необходимости нового руководства.",
+        "learn": 0
+      },
+      {
+        "eng": "Starting a business of one's own is hedged about with a lot of difficulties.",
+        "ru": "Когда начинаешь своё дело, сталкиваешься со многими трудностями.",
+        "learn": 0
+      },
+      {
+        "eng": "Diversify your financial portfolio to hedge price risks.",
+        "ru": "Разнообразьте ваш финансовый портфель с целью хеджирования ценовых рисков.",
+        "learn": 0
+      },
+      {
+        "eng": "From outside came the sound of someone cutting the hedge.",
+        "ru": "Снаружи послышался шум, как будто кто-то подрезает изгородь.",
+        "learn": 0
+      },
+      {
+        "eng": "Armed police lay in ambush behind the hedge.",
+        "ru": "За изгородью лежали в засаде вооружённые полицейские.",
+        "learn": 0
+      },
+      {
+        "eng": "I managed to squeeze through a gap in the hedge.",
+        "ru": "Мне удалось протиснуться сквозь дыру в изгороди.",
+        "learn": 1
+      },
+      {
+        "eng": "The messenger was confronted with a hedge of spears held aloft by the castle guards.",
+        "ru": "Стража замка встретила гонца стеной поднятых копий.",
+        "learn": 0
+      }
+    ]
+  }
 }

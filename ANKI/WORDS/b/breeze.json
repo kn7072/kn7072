@@ -1,86 +1,172 @@
 {
-    "breeze": {
-        "comment": [
-            "breed",
-            "breeding",
-            "tree",
-            "creep",
-            "reef"
-        ],
-        "translate": "ветер, бриз, ветерок, легкий ветерок, ссора, веять, промчаться, продувать",
-        "transcription": " |briːz|",
-        "antonyms": [],
-        "mnemonic": [
-            "breeze [bri: z]\nfreeze [fri: z] - холодать, замерзать\n***\nЛЁГКИЙ ВЕТЕРОК, и бриз. (это) breeze\nПРОДУВАЕТ нáсквозь бриз. (это) breeze\nПРОХЛАДНЫЕ здесь бризы. (это) breeze\n***\nБыл бриз \"breeze\",\nя стал замерзать \"freeze\"\nи чихать \"sneeze\"."
-        ],
-        "examples": [
-            "A breeze sprang up.",
-            "The breeze fanned her hair.",
-            "All in all, the test was a breeze.",
-            "Look who just breezed in!",
-            "The sea breeze blows furiously.",
-            "She breezed through the test.",
-            "Her hair was blowing in the breeze.",
-            "A soft breeze pulsed the air.",
-            "Setup of the new software is a breeze.",
-            "A cold breeze was blowing hard.",
-            "A warm breeze caressed her face.",
-            "A cold breeze prickled his face.",
-            "A breeze blew the curtains inwards.",
-            "He breezed past us without so much as a nod.",
-            "The breeze flapped the sails.",
-            "A cool breeze rippled the water.",
-            "Flags were waving in the breeze.",
-            "The breeze murmured in the pines.",
-            "The breeze fluttered the curtains.",
-            "There was a light easterly breeze.",
-            "The flag was flowing in the breeze.",
-            "The breeze made the curtains flutter.",
-            "A gentle breeze stirred the curtains.",
-            "The trees swayed gently in the breeze.",
-            "The flags were flapping in the breeze.",
-            "Her long skirt billowed in the breeze.",
-            "The flag fluttered in the light breeze.",
-            "A spanking breeze is a boon to sailors.",
-            "The flowers were nodding in the breeze.",
-            "The branches moved gently in the breeze."
-        ],
-        "example_translate": [
-            "Поднялся лёгкий ветерок.",
-            "Ветерок обдувал её волосы.",
-            "А вообще-то контрольная оказалась очень лёгкой.",
-            "Смотрите, кого ветром принесло!",
-            "Морской ветер неистовствует.",
-            "Она легко прошла эту проверку.",
-            "Ветерок раздувал ей волосы.",
-            "Лёгкий ветерок вибрировал в воздухе.",
-            "Установка нового программного обеспечения не представляет труда.",
-            "Дул сильный, холодный ветер.",
-            "Тёплый ветерок ласкал ей лицо.",
-            "Его лицо покалывало от холодного ветра.",
-            "Ветерок задул занавески внутрь.",
-            "Он пролетел мимо нас, не удосужившись даже кивнуть.",
-            "Ветер трепал паруса.",
-            "Вода покрылась рябью от холодного ветра.",
-            "Флаги развевались на ветру.",
-            "Лёгкий ветерок бормотал в соснах.",
-            "Ветерок развевал занавески.",
-            "Дул лёгкий восточный ветерок.",
-            "Флаг свободно колыхался на ветру.",
-            "Лёгкий ветерок развевал занавески.",
-            "Занавески раздувал лёгкий ветерок.",
-            "Деревья тихонько покачивались на ветру.",
-            "Флаги развевались на ветру.",
-            "Её длинная юбка развевалась на ветру.",
-            "Флаг развевался на лёгком ветерке.",
-            "Сильный, свежий ветер — это благо для моряков.",
-            "Цветы покачивались на ветру.",
-            "Ветви мягко двигались на ветру."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "breeze": {
+    "comment": [
+      "breed",
+      "breeding",
+      "tree",
+      "creep",
+      "reef"
+    ],
+    "translate": "ветер, бриз, ветерок, легкий ветерок, ссора, веять, промчаться, продувать",
+    "transcription": " |briːz|",
+    "antonyms": [],
+    "mnemonic": [
+      "breeze [bri: z]\nfreeze [fri: z] - холодать, замерзать\n***\nЛЁГКИЙ ВЕТЕРОК, и бриз. (это) breeze\nПРОДУВАЕТ нáсквозь бриз. (это) breeze\nПРОХЛАДНЫЕ здесь бризы. (это) breeze\n***\nБыл бриз \"breeze\",\nя стал замерзать \"freeze\"\nи чихать \"sneeze\"."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "A breeze sprang up.",
+        "ru": "Поднялся лёгкий ветерок.",
+        "learn": 0
+      },
+      {
+        "eng": "The breeze fanned her hair.",
+        "ru": "Ветерок обдувал её волосы.",
+        "learn": 1
+      },
+      {
+        "eng": "All in all, the test was a breeze.",
+        "ru": "А вообще-то контрольная оказалась очень лёгкой.",
+        "learn": 0
+      },
+      {
+        "eng": "Look who just breezed in!",
+        "ru": "Смотрите, кого ветром принесло!",
+        "learn": 0
+      },
+      {
+        "eng": "The sea breeze blows furiously.",
+        "ru": "Морской ветер неистовствует.",
+        "learn": 0
+      },
+      {
+        "eng": "She breezed through the test.",
+        "ru": "Она легко прошла эту проверку.",
+        "learn": 0
+      },
+      {
+        "eng": "Her hair was blowing in the breeze.",
+        "ru": "Ветерок раздувал ей волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "A soft breeze pulsed the air.",
+        "ru": "Лёгкий ветерок вибрировал в воздухе.",
+        "learn": 0
+      },
+      {
+        "eng": "Setup of the new software is a breeze.",
+        "ru": "Установка нового программного обеспечения не представляет труда.",
+        "learn": 0
+      },
+      {
+        "eng": "A cold breeze was blowing hard.",
+        "ru": "Дул сильный, холодный ветер.",
+        "learn": 0
+      },
+      {
+        "eng": "A warm breeze caressed her face.",
+        "ru": "Тёплый ветерок ласкал ей лицо.",
+        "learn": 0
+      },
+      {
+        "eng": "A cold breeze prickled his face.",
+        "ru": "Его лицо покалывало от холодного ветра.",
+        "learn": 0
+      },
+      {
+        "eng": "A breeze blew the curtains inwards.",
+        "ru": "Ветерок задул занавески внутрь.",
+        "learn": 1
+      },
+      {
+        "eng": "He breezed past us without so much as a nod.",
+        "ru": "Он пролетел мимо нас, не удосужившись даже кивнуть.",
+        "learn": 0
+      },
+      {
+        "eng": "The breeze flapped the sails.",
+        "ru": "Ветер трепал паруса.",
+        "learn": 0
+      },
+      {
+        "eng": "A cool breeze rippled the water.",
+        "ru": "Вода покрылась рябью от холодного ветра.",
+        "learn": 0
+      },
+      {
+        "eng": "Flags were waving in the breeze.",
+        "ru": "Флаги развевались на ветру.",
+        "learn": 0
+      },
+      {
+        "eng": "The breeze murmured in the pines.",
+        "ru": "Лёгкий ветерок бормотал в соснах.",
+        "learn": 0
+      },
+      {
+        "eng": "The breeze fluttered the curtains.",
+        "ru": "Ветерок развевал занавески.",
+        "learn": 0
+      },
+      {
+        "eng": "There was a light easterly breeze.",
+        "ru": "Дул лёгкий восточный ветерок.",
+        "learn": 0
+      },
+      {
+        "eng": "The flag was flowing in the breeze.",
+        "ru": "Флаг свободно колыхался на ветру.",
+        "learn": 0
+      },
+      {
+        "eng": "The breeze made the curtains flutter.",
+        "ru": "Лёгкий ветерок развевал занавески.",
+        "learn": 0
+      },
+      {
+        "eng": "A gentle breeze stirred the curtains.",
+        "ru": "Занавески раздувал лёгкий ветерок.",
+        "learn": 0
+      },
+      {
+        "eng": "The trees swayed gently in the breeze.",
+        "ru": "Деревья тихонько покачивались на ветру.",
+        "learn": 1
+      },
+      {
+        "eng": "The flags were flapping in the breeze.",
+        "ru": "Флаги развевались на ветру.",
+        "learn": 0
+      },
+      {
+        "eng": "Her long skirt billowed in the breeze.",
+        "ru": "Её длинная юбка развевалась на ветру.",
+        "learn": 0
+      },
+      {
+        "eng": "The flag fluttered in the light breeze.",
+        "ru": "Флаг развевался на лёгком ветерке.",
+        "learn": 0
+      },
+      {
+        "eng": "A spanking breeze is a boon to sailors.",
+        "ru": "Сильный, свежий ветер — это благо для моряков.",
+        "learn": 0
+      },
+      {
+        "eng": "The flowers were nodding in the breeze.",
+        "ru": "Цветы покачивались на ветру.",
+        "learn": 0
+      },
+      {
+        "eng": "The branches moved gently in the breeze.",
+        "ru": "Ветви мягко двигались на ветру.",
+        "learn": 0
+      }
+    ]
+  }
 }

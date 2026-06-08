@@ -1,83 +1,169 @@
 {
-    "ocean": {
-        "comment": [
-            "cease"
-        ],
-        "translate": "океан, масса, целое море, океанский",
-        "transcription": " |ˈoʊʃn|",
-        "antonyms": [],
-        "mnemonic": [
-            "ocean [о'ушан] океан - Хороший (пром-оушан) океан денег требует.",
-            "ocean ['əuʃən]\n***\nТихий ОКЕАН \"роскоушен\". (это) ocean"
-        ],
-        "examples": [
-            "We planed our way across the ocean.",
-            "I had cried oceans of tears.",
-            "The wind came off the ocean.",
-            "the vast expanse of the ocean",
-            "We watched the ocean churn.",
-            "a ravishing view of the ocean",
-            "We've sailed across hundreds of miles of ocean.",
-            "...froth on the ocean waves...",
-            "We waded into the ocean.",
-            "Our room overlooks the ocean.",
-            "a commanding view of the ocean",
-            "The plane crashed into the ocean.",
-            "The water wastes back into the ocean.",
-            "The water in the ocean is all saltwater.",
-            "He searched for treasure on the ocean bed",
-            "a chasm in the ocean floor",
-            "the abyssal depths of the ocean",
-            "Looking out across the ocean, he saw land.",
-            "This shipping line plies across the ocean.",
-            "Strange creatures populate the ocean depths.",
-            "The hills around here fall towards the ocean.",
-            "A vast Ocean planted with innumerable Islands.",
-            "The cliff walk along the ocean is very popular.",
-            "Few continental rises occur in the Pacific Ocean.",
-            "Our hotel room had a beautiful view of the ocean.",
-            "his near-fatal immersion in the icy Atlantic ocean",
-            "I like to swim in the ocean when it's warm enough.",
-            "The house sits atop a cliff overlooking the ocean.",
-            "Our hearts have bridged the ocean with their love.",
-            "This newest ocean liner is a true titan of the sea."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мы пересекли океан на самолёте.",
-            "Я выплакала целое море слёз.",
-            "С океана дул ветер.",
-            "бескрайние просторы океана",
-            "Мы смотрели, как бурлит океан.",
-            "восхитительный вид океана",
-            "Мы прошли сотни океанских миль.",
-            "...пена на океанских волнах...",
-            "Мы вошли в воды океана.",
-            "Из нашего номера открывается вид на океан.",
-            "отличный вид на океан",
-            "Самолёт рухнул в океан.",
-            "Вода стекает обратно в океан.",
-            "Вся вода в океане — солёная.",
-            "Он искал сокровища на дне океана.",
-            "глубокая расщелина на дне океана",
-            "бездонные глубины океана",
-            "Глядя через океан, он увидел землю.",
-            "Этот рейс пересекает океан.",
-            "Глубины океана населяют странные существа.",
-            "Здешние горы имеют уклон в сторону океана.",
-            "Бескрайний океан, усеянный множеством островов.",
-            "Эта тропа, пролегающая по скалам вдоль океанского побережья, пользуется большой популярностью.",
-            "В Тихом океане залегают несколько материковых возвышенностей.",
-            "Из нашего гостиничного номера открывался прекрасный вид на океан.",
-            "погружение в ледяную воду Атлантического океана, которое едва не стоило ему жизни",
-            "Я люблю поплавать в океане, когда достаточно тепло.",
-            "Дом расположен на вершине утёса с видом на океан.",
-            "Даже океан не разорвал нашу любовь.",
-            "Этот новый океанский лайнер — настоящий морской исполин."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "ocean": {
+    "comment": [
+      "cease"
+    ],
+    "translate": "океан, масса, целое море, океанский",
+    "transcription": " |ˈoʊʃn|",
+    "antonyms": [],
+    "mnemonic": [
+      "ocean [о'ушан] океан - Хороший (пром-оушан) океан денег требует.",
+      "ocean ['əuʃən]\n***\nТихий ОКЕАН \"роскоушен\". (это) ocean"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "We planed our way across the ocean.",
+        "ru": "Мы пересекли океан на самолёте.",
+        "learn": 0
+      },
+      {
+        "eng": "I had cried oceans of tears.",
+        "ru": "Я выплакала целое море слёз.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind came off the ocean.",
+        "ru": "С океана дул ветер.",
+        "learn": 0
+      },
+      {
+        "eng": "the vast expanse of the ocean",
+        "ru": "бескрайние просторы океана",
+        "learn": 0
+      },
+      {
+        "eng": "We watched the ocean churn.",
+        "ru": "Мы смотрели, как бурлит океан.",
+        "learn": 0
+      },
+      {
+        "eng": "a ravishing view of the ocean",
+        "ru": "восхитительный вид океана",
+        "learn": 0
+      },
+      {
+        "eng": "We've sailed across hundreds of miles of ocean.",
+        "ru": "Мы прошли сотни океанских миль.",
+        "learn": 1
+      },
+      {
+        "eng": "...froth on the ocean waves...",
+        "ru": "...пена на океанских волнах...",
+        "learn": 0
+      },
+      {
+        "eng": "We waded into the ocean.",
+        "ru": "Мы вошли в воды океана.",
+        "learn": 0
+      },
+      {
+        "eng": "Our room overlooks the ocean.",
+        "ru": "Из нашего номера открывается вид на океан.",
+        "learn": 0
+      },
+      {
+        "eng": "a commanding view of the ocean",
+        "ru": "отличный вид на океан",
+        "learn": 0
+      },
+      {
+        "eng": "The plane crashed into the ocean.",
+        "ru": "Самолёт рухнул в океан.",
+        "learn": 0
+      },
+      {
+        "eng": "The water wastes back into the ocean.",
+        "ru": "Вода стекает обратно в океан.",
+        "learn": 0
+      },
+      {
+        "eng": "The water in the ocean is all saltwater.",
+        "ru": "Вся вода в океане — солёная.",
+        "learn": 0
+      },
+      {
+        "eng": "He searched for treasure on the ocean bed",
+        "ru": "Он искал сокровища на дне океана.",
+        "learn": 1
+      },
+      {
+        "eng": "a chasm in the ocean floor",
+        "ru": "глубокая расщелина на дне океана",
+        "learn": 0
+      },
+      {
+        "eng": "the abyssal depths of the ocean",
+        "ru": "бездонные глубины океана",
+        "learn": 0
+      },
+      {
+        "eng": "Looking out across the ocean, he saw land.",
+        "ru": "Глядя через океан, он увидел землю.",
+        "learn": 0
+      },
+      {
+        "eng": "This shipping line plies across the ocean.",
+        "ru": "Этот рейс пересекает океан.",
+        "learn": 0
+      },
+      {
+        "eng": "Strange creatures populate the ocean depths.",
+        "ru": "Глубины океана населяют странные существа.",
+        "learn": 0
+      },
+      {
+        "eng": "The hills around here fall towards the ocean.",
+        "ru": "Здешние горы имеют уклон в сторону океана.",
+        "learn": 0
+      },
+      {
+        "eng": "A vast Ocean planted with innumerable Islands.",
+        "ru": "Бескрайний океан, усеянный множеством островов.",
+        "learn": 0
+      },
+      {
+        "eng": "The cliff walk along the ocean is very popular.",
+        "ru": "Эта тропа, пролегающая по скалам вдоль океанского побережья, пользуется большой популярностью.",
+        "learn": 0
+      },
+      {
+        "eng": "Few continental rises occur in the Pacific Ocean.",
+        "ru": "В Тихом океане залегают несколько материковых возвышенностей.",
+        "learn": 1
+      },
+      {
+        "eng": "Our hotel room had a beautiful view of the ocean.",
+        "ru": "Из нашего гостиничного номера открывался прекрасный вид на океан.",
+        "learn": 1
+      },
+      {
+        "eng": "his near-fatal immersion in the icy Atlantic ocean",
+        "ru": "погружение в ледяную воду Атлантического океана, которое едва не стоило ему жизни",
+        "learn": 0
+      },
+      {
+        "eng": "I like to swim in the ocean when it's warm enough.",
+        "ru": "Я люблю поплавать в океане, когда достаточно тепло.",
+        "learn": 0
+      },
+      {
+        "eng": "The house sits atop a cliff overlooking the ocean.",
+        "ru": "Дом расположен на вершине утёса с видом на океан.",
+        "learn": 0
+      },
+      {
+        "eng": "Our hearts have bridged the ocean with their love.",
+        "ru": "Даже океан не разорвал нашу любовь.",
+        "learn": 0
+      },
+      {
+        "eng": "This newest ocean liner is a true titan of the sea.",
+        "ru": "Этот новый океанский лайнер — настоящий морской исполин.",
+        "learn": 0
+      }
+    ]
+  }
 }

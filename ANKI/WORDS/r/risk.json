@@ -1,80 +1,168 @@
 {
-    "risk": {
-        "comment": [
-            "risky"
-        ],
-        "translate": "риск, рисковать, отваживаться",
-        "transcription": " |rɪsk|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Why risk your life?",
-            "She's not afraid to run a risk.",
-            "Let's minimize the risk.",
-            "It's not worth the risk.",
-            "She risked losing everything.",
-            "That's an insane risk.",
-            "He risked breaking his neck.",
-            "The country risked a war.",
-            "The degree of risk is minimal.",
-            "Smoking is a risk to your lungs.",
-            "She risked her life to save her children.",
-            "You can use it, but it's at your own risk.",
-            "There is no risk of contagion.",
-            "The risk he's taking is no joke.",
-            "There is no risk to public health.",
-            "Don't risk drawing down his anger.",
-            "It was a risk to enter that area.",
-            "The advantages outweigh the risks.",
-            "The medicine reduces the risk of infection.",
-            "Exercise lessens the risk of heart disease.",
-            "He saw the rewards but not the risks of crime.",
-            "Risk is the reciprocal of safety.",
-            "The reciprocal of safety is risk.",
-            "areas at minimal risk for flooding",
-            "I can see a risk in this strategy.",
-            "Children must not be placed at risk.",
-            "She was only dimly aware of the risk.",
-            "We invest broadly to lessen the risk.",
-            "They may even risk losing their homes.",
-            "To me, skydiving is not worth the risk."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Зачем рисковать своей жизнью?",
-            "Она не боится идти на риск.",
-            "Давайте сведём эту опасность к минимуму.",
-            "Это не стоит того риска.",
-            "Она рисковала потерять всё.",
-            "Это безумный риск.",
-            "Он рисковал сломать себе шею.",
-            "Стране грозила война. / Страна рисковала ввязаться в войну.",
-            "Степень риска минимальна.",
-            "Курение опасно для ваших лёгких.",
-            "Она рисковала жизнью, чтобы спасти своих детей.",
-            "Вы можете им пользоваться, но лишь на свой страх и риск.",
-            "Опасности заражения нет.",
-            "Он подвергается нешуточной опасности.",
-            "Здоровье людей — вне опасности.",
-            "Не рискуй навлечь на себя его гнев.",
-            "Появляться в этом районе было опасно.",
-            "Преимущества перевешивают риск.",
-            "Это лекарство снижает опасность заражения.",
-            "Физические нагрузки уменьшают риск сердечных заболеваний.",
-            "Он видел лишь выгоду, но не риски, связанные с преступностью.",
-            "Риск — это величина, обратная безопасности.",
-            "Противоположность безопасности — это риск.",
-            "области с минимальным риском затопления",
-            "В этой стратегии мне видится одна опасность.",
-            "Детей нельзя подвергать опасности.",
-            "Она лишь смутно осознавала эту опасность.",
-            "Чтобы уменьшить риск, мы используем широкий спектр инвестиций.",
-            "Возможно, они даже рискуют потерять свои дома.",
-            "Для меня затяжные прыжки с парашютом не стоят того риска."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "risk": {
+    "comment": [
+      "risky"
+    ],
+    "translate": "риск, рисковать, отваживаться",
+    "transcription": " |rɪsk|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "gerund_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Why risk your life?",
+        "ru": "Зачем рисковать своей жизнью?",
+        "learn": 0
+      },
+      {
+        "eng": "She's not afraid to run a risk.",
+        "ru": "Она не боится идти на риск.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's minimize the risk.",
+        "ru": "Давайте сведём эту опасность к минимуму.",
+        "learn": 0
+      },
+      {
+        "eng": "It's not worth the risk.",
+        "ru": "Это не стоит того риска.",
+        "learn": 0
+      },
+      {
+        "eng": "She risked losing everything.",
+        "ru": "Она рисковала потерять всё.",
+        "learn": 0
+      },
+      {
+        "eng": "That's an insane risk.",
+        "ru": "Это безумный риск.",
+        "learn": 0
+      },
+      {
+        "eng": "He risked breaking his neck.",
+        "ru": "Он рисковал сломать себе шею.",
+        "learn": 0
+      },
+      {
+        "eng": "The country risked a war.",
+        "ru": "Стране грозила война. / Страна рисковала ввязаться в войну.",
+        "learn": 0
+      },
+      {
+        "eng": "The degree of risk is minimal.",
+        "ru": "Степень риска минимальна.",
+        "learn": 1
+      },
+      {
+        "eng": "Smoking is a risk to your lungs.",
+        "ru": "Курение опасно для ваших лёгких.",
+        "learn": 0
+      },
+      {
+        "eng": "She risked her life to save her children.",
+        "ru": "Она рисковала жизнью, чтобы спасти своих детей.",
+        "learn": 0
+      },
+      {
+        "eng": "You can use it, but it's at your own risk.",
+        "ru": "Вы можете им пользоваться, но лишь на свой страх и риск.",
+        "learn": 0
+      },
+      {
+        "eng": "There is no risk of contagion.",
+        "ru": "Опасности заражения нет.",
+        "learn": 0
+      },
+      {
+        "eng": "The risk he's taking is no joke.",
+        "ru": "Он подвергается нешуточной опасности.",
+        "learn": 0
+      },
+      {
+        "eng": "There is no risk to public health.",
+        "ru": "Здоровье людей — вне опасности.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't risk drawing down his anger.",
+        "ru": "Не рискуй навлечь на себя его гнев.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a risk to enter that area.",
+        "ru": "Появляться в этом районе было опасно.",
+        "learn": 0
+      },
+      {
+        "eng": "The advantages outweigh the risks.",
+        "ru": "Преимущества перевешивают риск.",
+        "learn": 0
+      },
+      {
+        "eng": "The medicine reduces the risk of infection.",
+        "ru": "Это лекарство снижает опасность заражения.",
+        "learn": 0
+      },
+      {
+        "eng": "Exercise lessens the risk of heart disease.",
+        "ru": "Физические нагрузки уменьшают риск сердечных заболеваний.",
+        "learn": 1
+      },
+      {
+        "eng": "He saw the rewards but not the risks of crime.",
+        "ru": "Он видел лишь выгоду, но не риски, связанные с преступностью.",
+        "learn": 0
+      },
+      {
+        "eng": "Risk is the reciprocal of safety.",
+        "ru": "Риск — это величина, обратная безопасности.",
+        "learn": 0
+      },
+      {
+        "eng": "The reciprocal of safety is risk.",
+        "ru": "Противоположность безопасности — это риск.",
+        "learn": 0
+      },
+      {
+        "eng": "areas at minimal risk for flooding",
+        "ru": "области с минимальным риском затопления",
+        "learn": 0
+      },
+      {
+        "eng": "I can see a risk in this strategy.",
+        "ru": "В этой стратегии мне видится одна опасность.",
+        "learn": 1
+      },
+      {
+        "eng": "Children must not be placed at risk.",
+        "ru": "Детей нельзя подвергать опасности.",
+        "learn": 0
+      },
+      {
+        "eng": "She was only dimly aware of the risk.",
+        "ru": "Она лишь смутно осознавала эту опасность.",
+        "learn": 0
+      },
+      {
+        "eng": "We invest broadly to lessen the risk.",
+        "ru": "Чтобы уменьшить риск, мы используем широкий спектр инвестиций.",
+        "learn": 1
+      },
+      {
+        "eng": "They may even risk losing their homes.",
+        "ru": "Возможно, они даже рискуют потерять свои дома.",
+        "learn": 0
+      },
+      {
+        "eng": "To me, skydiving is not worth the risk.",
+        "ru": "Для меня затяжные прыжки с парашютом не стоят того риска.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,48 +1,145 @@
 {
-    "draw up": {
-        "comment": [],
-        "translate": "1) Составлять документ, план или соглашение в письменном виде 2) Пододвигать (стул, кресло) к чему-либо 3) Останавливаться (о транспорте) ",
-        "transcription": "|drɔː ʌp|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She drew up her chair to the fire to get warm.",
-            "Draw up a seat and join the conversation.",
-            "The train drew up at the station.",
-            "We need to draw up a list of guests.",
-            "I drew up a stool so I could see the screen.",
-            "A black limousine drew up to the entrance.",
-            "He drew up a chair opposite me.",
-            "They drew up the agreement after hours of negotiation.",
-            "The bus drew up to let the passengers off.",
-            "A taxi drew up at the curb.",
-            "He drew up a chair and sat next to her.",
-            "The car drew up outside the house.",
-            "She drew up a plan for the new marketing campaign.",
-            "The lawyers drew up a contract for us to sign.",
-            "Can you draw up a proposal for the client?"
-        ],
-        "example_translate": [
-            "Она пододвинула свое кресло к камину, чтобы согреться.",
-            "Пододвинь стул и присоединяйся к разговору.",
-            "Поезд остановился на станции.",
-            "Нам нужно составить список гостей.",
-            "Я пододвинул табурет, чтобы видеть экран.",
-            "Черный лимузин подъехал ко входу.",
-            "Он пододвинул стул напротив меня.",
-            "Они составили соглашение после часов переговоров.",
-            "Автобус остановился, чтобы высадить пассажиров.",
-            "Такси остановилось у бордюра.",
-            "Он пододвинул стул и сел рядом с ней.",
-            "Машина остановилась у дома.",
-            "Она разработала план новой маркетинговой кампании.",
-            "Юристы составили для нас контракт для подписания.",
-            "Ты можешь подготовить предложение для клиента?"
-        ],
-        "synonyms": "Составлять документ, план или соглашение в письменном виде - draft, prepare, formulate, write\nПододвигать (стул, кресло) к чему-либо - pull up, move up, bring up\nОстанавливаться (о транспорте) - pull up, stop, halt\n",
-        "groups": [
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "draw up": {
+    "comment": [],
+    "translate": "1) Составлять документ, план или соглашение в письменном виде 2) Пододвигать (стул, кресло) к чему-либо 3) Останавливаться (о транспорте) ",
+    "transcription": "|drɔː ʌp|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Составлять документ, план или соглашение в письменном виде - draft, prepare, formulate, write",
+      "Пододвигать (стул, кресло) к чему-либо - pull up, move up, bring up",
+      "Останавливаться (о транспорте) - pull up, stop, halt"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "She drew up her chair to the fire to get warm.",
+        "ru": "Она пододвинула свое кресло к камину, чтобы согреться.",
+        "learn": 1
+      },
+      {
+        "eng": "Draw up a seat and join the conversation.",
+        "ru": "Пододвинь стул и присоединяйся к разговору.",
+        "learn": 1
+      },
+      {
+        "eng": "The train drew up at the station.",
+        "ru": "Поезд остановился на станции.",
+        "learn": 1
+      },
+      {
+        "eng": "We need to draw up a list of guests.",
+        "ru": "Нам нужно составить список гостей.",
+        "learn": 1
+      },
+      {
+        "eng": "I drew up a stool so I could see the screen.",
+        "ru": "Я пододвинул табурет, чтобы видеть экран.",
+        "learn": 1
+      },
+      {
+        "eng": "A black limousine drew up to the entrance.",
+        "ru": "Черный лимузин подъехал ко входу.",
+        "learn": 1
+      },
+      {
+        "eng": "He drew up a chair opposite me.",
+        "ru": "Он пододвинул стул напротив меня.",
+        "learn": 1
+      },
+      {
+        "eng": "They drew up the agreement after hours of negotiation.",
+        "ru": "Они составили соглашение после часов переговоров.",
+        "learn": 1
+      },
+      {
+        "eng": "The bus drew up to let the passengers off.",
+        "ru": "Автобус остановился, чтобы высадить пассажиров.",
+        "learn": 1
+      },
+      {
+        "eng": "A taxi drew up at the curb.",
+        "ru": "Такси остановилось у бордюра.",
+        "learn": 1
+      },
+      {
+        "eng": "He drew up a chair and sat next to her.",
+        "ru": "Он пододвинул стул и сел рядом с ней.",
+        "learn": 1
+      },
+      {
+        "eng": "The car drew up outside the house.",
+        "ru": "Машина остановилась у дома.",
+        "learn": 1
+      },
+      {
+        "eng": "She drew up a plan for the new marketing campaign.",
+        "ru": "Она разработала план новой маркетинговой кампании.",
+        "learn": 1
+      },
+      {
+        "eng": "The lawyers drew up a contract for us to sign.",
+        "ru": "Юристы составили для нас контракт для подписания.",
+        "learn": 1
+      },
+      {
+        "eng": "Can you draw up a proposal for the client?",
+        "ru": "Ты можешь подготовить предложение для клиента?",
+        "learn": 1
+      },
+      {
+        "eng": "We'll notify her to draw up a contract.",
+        "ru": "Мы дадим ей задание составить контракт.",
+        "learn": 0
+      },
+      {
+        "eng": "The cab drew up outside the house.",
+        "ru": "Такси остановилось около дома.",
+        "learn": 0
+      },
+      {
+        "eng": "He drew himself up to his full height.",
+        "ru": "Он выпрямился во весь рост.",
+        "learn": 0
+      },
+      {
+        "eng": "Draw up a list of all the things you want to do.",
+        "ru": "Составьте список всего, что вы хотите сделать.",
+        "learn": 0
+      },
+      {
+        "eng": "The soldiers were drawn up in battle lines.",
+        "ru": "Солдаты были выстроены в боевом порядке.",
+        "learn": 0
+      },
+      {
+        "eng": "His approach to every problem is to draw up a list of pros and cons.",
+        "ru": "К решению любой проблемы он подходит путём составления списка всех плюсов и минусов.",
+        "learn": 0
+      },
+      {
+        "eng": "He was asked to draw up proposals for reforming the law.",
+        "ru": "Его попросили подготовить предложения по реформированию законодательства.",
+        "learn": 0
+      },
+      {
+        "eng": "The royal carriage was drawn up outside the palace, ready for the Queen's journey.",
+        "ru": "Королевская карета остановилась перед дворцом в полной готовности.",
+        "learn": 0
+      },
+      {
+        "eng": "He drew up the troops into a line along the ridge.",
+        "ru": "Он выстроил войска в линию вдоль горного хребта.",
+        "learn": 0
+      },
+      {
+        "eng": "He drew up his horse outside the tavern.",
+        "ru": "Он остановил лошадь у входа в таверну.",
+        "learn": 0
+      }
+    ]
+  }
 }

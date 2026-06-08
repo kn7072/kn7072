@@ -1,84 +1,171 @@
 {
-    "grass": {
-        "comment": [
-            "grasp",
-            "glass"
-        ],
-        "translate": "трава, травка, газон, злак, луг, засевать травой, пастись, подножный",
-        "transcription": " |ɡræs|",
-        "antonyms": [],
-        "mnemonic": [
-            "grass [грае] трава - (Грас- мейстеры) траву курят."
-        ],
-        "examples": [
-            "Keep off the grass!",
-            "The grass was knee-high.",
-            "Don't tread on the grass.",
-            "We picnicked on the grass.",
-            "Keep off the grass.",
-            "They were smoking some grass.",
-            "They lounged on the grass.",
-            "The grass was wet with dew.",
-            "The grass is brightly green.",
-            "When fall came he planted grass.",
-            "I paid him $5 to cut the grass.",
-            "He grassed on them to the police.",
-            "The grass was covered with frost.",
-            "Will those grass stains wash out?",
-            "People were sunbathing on the grass.",
-            "a mat of weeds and grass",
-            "Swaths of new-shorn grass.",
-            "We tromped over the grass.",
-            "The grass softened my fall.",
-            "The grass covered the grave.",
-            "grass new washed by the rain",
-            "The grass tickled her calves",
-            "She trod barefoot on the soft grass.",
-            "a bag full of grass cuttings",
-            "fields green with meadow grass",
-            "The tall grass whipped in the wind.",
-            "All grasses need light to grow well.",
-            "the rich greenery of grass and trees",
-            "The only growth was some salt grass.",
-            "The plant naturalizes well in grass."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "а) не ходи(те) по траве!., «по газону не ходить» (надпись)., б) проявляй осторожность!., не суйся, где опасно!",
-            "Трава была по колено.",
-            "Не ходи по траве.",
-            "Мы устроили пикник на траве.",
-            "По газонам не ходить!",
-            "Они курили траву.",
-            "Они разлеглись на траве.",
-            "Трава была влажной от росы.",
-            "Трава ярко-зеленая.",
-            "Когда наступила осень, он посеял траву.",
-            "Я дал ему пять долларов, чтобы он подстриг траву.",
-            "Он донёс на них в полицию.",
-            "Трава была покрыта инеем.",
-            "Эти пятна от травы отстираются?",
-            "Люди загорали на траве.",
-            "переплетённые заросли травы и сорняков",
-            "Валки свежескошенной травы.",
-            "Мы потопали по траве.",
-            "Трава смягчила моё падение.",
-            "Травой этой заросла вся могила.",
-            "трава, только что промытая дождём",
-            "Трава щекотала её икры.",
-            "Она ступала босыми ногами по мягкой траве.",
-            "мешок, полный скошенной травы",
-            "поля, зелёные от луговой травы",
-            "Высокая трава хлестала на ветру.",
-            "Чтобы хорошо расти, всем травам нужен свет.",
-            "густая зелень травы и деревьев",
-            "Росла там только трава-солянка.",
-            "Это растение хорошо приживается в траве."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "a(закр_сл)_=_[ɑː]"
-        ]
-    }
+  "grass": {
+    "comment": [
+      "grasp",
+      "glass"
+    ],
+    "translate": "трава, травка, газон, злак, луг, засевать травой, пастись, подножный",
+    "transcription": " |ɡræs|",
+    "antonyms": [],
+    "mnemonic": [
+      "grass [грае] трава - (Грас- мейстеры) траву курят."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "a(закр_сл)_=_[ɑː]"
+    ],
+    "examples": [
+      {
+        "eng": "Keep off the grass!",
+        "ru": "а) не ходи(те) по траве!., «по газону не ходить» (надпись)., б) проявляй осторожность!., не суйся, где опасно!",
+        "learn": 0
+      },
+      {
+        "eng": "The grass was knee-high.",
+        "ru": "Трава была по колено.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't tread on the grass.",
+        "ru": "Не ходи по траве.",
+        "learn": 0
+      },
+      {
+        "eng": "We picnicked on the grass.",
+        "ru": "Мы устроили пикник на траве.",
+        "learn": 0
+      },
+      {
+        "eng": "Keep off the grass.",
+        "ru": "По газонам не ходить!",
+        "learn": 0
+      },
+      {
+        "eng": "They were smoking some grass.",
+        "ru": "Они курили траву.",
+        "learn": 0
+      },
+      {
+        "eng": "They lounged on the grass.",
+        "ru": "Они разлеглись на траве.",
+        "learn": 0
+      },
+      {
+        "eng": "The grass was wet with dew.",
+        "ru": "Трава была влажной от росы.",
+        "learn": 0
+      },
+      {
+        "eng": "The grass is brightly green.",
+        "ru": "Трава ярко-зеленая.",
+        "learn": 1
+      },
+      {
+        "eng": "When fall came he planted grass.",
+        "ru": "Когда наступила осень, он посеял траву.",
+        "learn": 0
+      },
+      {
+        "eng": "I paid him $5 to cut the grass.",
+        "ru": "Я дал ему пять долларов, чтобы он подстриг траву.",
+        "learn": 0
+      },
+      {
+        "eng": "He grassed on them to the police.",
+        "ru": "Он донёс на них в полицию.",
+        "learn": 0
+      },
+      {
+        "eng": "The grass was covered with frost.",
+        "ru": "Трава была покрыта инеем.",
+        "learn": 1
+      },
+      {
+        "eng": "Will those grass stains wash out?",
+        "ru": "Эти пятна от травы отстираются?",
+        "learn": 0
+      },
+      {
+        "eng": "People were sunbathing on the grass.",
+        "ru": "Люди загорали на траве.",
+        "learn": 0
+      },
+      {
+        "eng": "a mat of weeds and grass",
+        "ru": "переплетённые заросли травы и сорняков",
+        "learn": 0
+      },
+      {
+        "eng": "Swaths of new-shorn grass.",
+        "ru": "Валки свежескошенной травы.",
+        "learn": 0
+      },
+      {
+        "eng": "We tromped over the grass.",
+        "ru": "Мы потопали по траве.",
+        "learn": 0
+      },
+      {
+        "eng": "The grass softened my fall.",
+        "ru": "Трава смягчила моё падение.",
+        "learn": 0
+      },
+      {
+        "eng": "The grass covered the grave.",
+        "ru": "Травой этой заросла вся могила.",
+        "learn": 0
+      },
+      {
+        "eng": "grass new washed by the rain",
+        "ru": "трава, только что промытая дождём",
+        "learn": 0
+      },
+      {
+        "eng": "The grass tickled her calves",
+        "ru": "Трава щекотала её икры.",
+        "learn": 0
+      },
+      {
+        "eng": "She trod barefoot on the soft grass.",
+        "ru": "Она ступала босыми ногами по мягкой траве.",
+        "learn": 0
+      },
+      {
+        "eng": "a bag full of grass cuttings",
+        "ru": "мешок, полный скошенной травы",
+        "learn": 0
+      },
+      {
+        "eng": "fields green with meadow grass",
+        "ru": "поля, зелёные от луговой травы",
+        "learn": 0
+      },
+      {
+        "eng": "The tall grass whipped in the wind.",
+        "ru": "Высокая трава хлестала на ветру.",
+        "learn": 1
+      },
+      {
+        "eng": "All grasses need light to grow well.",
+        "ru": "Чтобы хорошо расти, всем травам нужен свет.",
+        "learn": 0
+      },
+      {
+        "eng": "the rich greenery of grass and trees",
+        "ru": "густая зелень травы и деревьев",
+        "learn": 0
+      },
+      {
+        "eng": "The only growth was some salt grass.",
+        "ru": "Росла там только трава-солянка.",
+        "learn": 0
+      },
+      {
+        "eng": "The plant naturalizes well in grass.",
+        "ru": "Это растение хорошо приживается в траве.",
+        "learn": 0
+      }
+    ]
+  }
 }

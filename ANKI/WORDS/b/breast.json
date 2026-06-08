@@ -1,94 +1,181 @@
 {
-    "breast": {
-        "comment": [
-            "breath, breast - дыхание, грудь",
-            "break",
-            "break in",
-            "breath",
-            "bread",
-            "breakfast",
-            "breathe",
-            "breathing",
-            "breach",
-            "breakdown",
-            "breathtaking",
-            "breakthrough"
-        ],
-        "translate": "грудь, молочная железа, отвал, противиться, восставать",
-        "transcription": " |brest|",
-        "antonyms": [],
-        "mnemonic": [
-            "breast [бреет] грудь (женская) - Советская армия грудью (Брест) защитила."
-        ],
-        "examples": [
-            "She put the baby to her breast.",
-            "Do you prefer a breast or a leg?",
-            "The male has a white breast.",
-            "She has been diagnosed with breast cancer.",
-            "The runner breasted the tape",
-            "She crouched her head upon her breast.",
-            "The dark silk dress was fastened at the breast with a great gold clasp.",
-            "Her head sank down upon her breast.",
-            "My breast heaved with emotion.",
-            "The baby sucked on the mother's breast.",
-            "a few slices of turkey breast",
-            "You should never ignore a breast lump.",
-            "a bird with an orange breast",
-            "Breast cancer is the leading cause of death for American women in their forties.",
-            "Deep in her breast lives the silent wound.",
-            "I was at the race's finish line to see the winner breast the tape.",
-            "She slept as calmly and undisturbedly as the infant at her breast.",
-            "Sugary foods promote breast cancer.",
-            "At the word 'breast', some of the class tittered.",
-            "He beat his breast in anger.",
-            "They breasted the mountain.",
-            "a faulty gene that causes breast cancer",
-            "Dick cradled her photograph against his breast.",
-            "The cub licked the milk from its mother's breast.",
-            "She breasted the diagnosis of cancer with fortitude and optimism.",
-            "European children learn the breast stroke., they often don't know how to crawl",
-            "The chemical heightens contrast between different kinds of tissue in the breast.",
-            "The run, to raise money for breast cancer, has a £10 entry fee (=fee to enter a competition).",
-            "She was diagnosed with breast cancer.",
-            "The drugs are being used experimentally on patients suffering from breast cancer."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она приложила младенца к груди.",
-            "Вы что больше любите, грудку или ножку? / Вам грудку или ножку?",
-            "У самцов грудка белая.",
-            "Ей диагностировали рак молочной железы.",
-            "Бегун пересек финишную ленту",
-            "Она склонила голову на грудь.",
-            "Тёмное шёлковое платье было скреплено на груди большой золотой брошкой.",
-            "Её голова склонилась на грудь.",
-            "Моя грудь потяжелела от волнения.",
-            "Младенец сосал грудь матери.",
-            "несколько ломтиков грудки /филе/ индейки",
-            "Уплотнение в молочной железе нельзя игнорировать.",
-            "птица с оранжевой грудкой",
-            "Рак молочной железы является основной причиной смерти американок в возрасте сорока — пятидесяти лет.",
-            "Глубоко в её груди не заживает эта немая рана.",
-            "Я был у финишной черты, в надежде увидеть, как победитель коснётся грудью ленточки.",
-            "Она спала так же тихо и спокойно, как и дитя на её груди.",
-            "Продукты с высоким содержанием сахара провоцируют рак молочной железы.",
-            "При упоминании слова \"грудь\" часть класса захихикала.",
-            "Разозлившись, он ударил себя в грудь.",
-            "Они достигли вершины горы.",
-            "дефектный ген, вызывающий рак молочной железы",
-            "Дик прижал её фотографию к своей груди.",
-            "Детёныш слизывал молоко с груди матери.",
-            "Она боролась против рака со стойкостью и оптимизмом.",
-            "Европейские дети учатся плавать брассом, и нередко они не умеют плавать кролем..",
-            "Этот химикат усиливает контраст между разными видами тканей молочной железы.",
-            "Вступительный взнос (т.е. плата за участие в соревновании) за участие в забеге, проводящемся с целью сбора денег для лечения рака молочной железы, составляет десять фунтов стерлингов.",
-            "Ей диагностировали рак молочной железы.",
-            "В виде эксперимента эти препараты применяются при лечении пациенток, страдающих от рака молочной железы."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "ea_=_[e]"
-        ]
-    }
+  "breast": {
+    "comment": [
+      "breath, breast - дыхание, грудь",
+      "break",
+      "break in",
+      "breath",
+      "bread",
+      "breakfast",
+      "breathe",
+      "breathing",
+      "breach",
+      "breakdown",
+      "breathtaking",
+      "breakthrough"
+    ],
+    "translate": "грудь, молочная железа, отвал, противиться, восставать",
+    "transcription": " |brest|",
+    "antonyms": [],
+    "mnemonic": [
+      "breast [бреет] грудь (женская) - Советская армия грудью (Брест) защитила."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "ea_=_[e]"
+    ],
+    "examples": [
+      {
+        "eng": "She put the baby to her breast.",
+        "ru": "Она приложила младенца к груди.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you prefer a breast or a leg?",
+        "ru": "Вы что больше любите, грудку или ножку? / Вам грудку или ножку?",
+        "learn": 0
+      },
+      {
+        "eng": "The male has a white breast.",
+        "ru": "У самцов грудка белая.",
+        "learn": 0
+      },
+      {
+        "eng": "She has been diagnosed with breast cancer.",
+        "ru": "Ей диагностировали рак молочной железы.",
+        "learn": 0
+      },
+      {
+        "eng": "The runner breasted the tape",
+        "ru": "Бегун пересек финишную ленту",
+        "learn": 1
+      },
+      {
+        "eng": "She crouched her head upon her breast.",
+        "ru": "Она склонила голову на грудь.",
+        "learn": 1
+      },
+      {
+        "eng": "The dark silk dress was fastened at the breast with a great gold clasp.",
+        "ru": "Тёмное шёлковое платье было скреплено на груди большой золотой брошкой.",
+        "learn": 0
+      },
+      {
+        "eng": "Her head sank down upon her breast.",
+        "ru": "Её голова склонилась на грудь.",
+        "learn": 0
+      },
+      {
+        "eng": "My breast heaved with emotion.",
+        "ru": "Моя грудь потяжелела от волнения.",
+        "learn": 0
+      },
+      {
+        "eng": "The baby sucked on the mother's breast.",
+        "ru": "Младенец сосал грудь матери.",
+        "learn": 1
+      },
+      {
+        "eng": "a few slices of turkey breast",
+        "ru": "несколько ломтиков грудки /филе/ индейки",
+        "learn": 0
+      },
+      {
+        "eng": "You should never ignore a breast lump.",
+        "ru": "Уплотнение в молочной железе нельзя игнорировать.",
+        "learn": 0
+      },
+      {
+        "eng": "a bird with an orange breast",
+        "ru": "птица с оранжевой грудкой",
+        "learn": 0
+      },
+      {
+        "eng": "Breast cancer is the leading cause of death for American women in their forties.",
+        "ru": "Рак молочной железы является основной причиной смерти американок в возрасте сорока — пятидесяти лет.",
+        "learn": 0
+      },
+      {
+        "eng": "Deep in her breast lives the silent wound.",
+        "ru": "Глубоко в её груди не заживает эта немая рана.",
+        "learn": 0
+      },
+      {
+        "eng": "I was at the race's finish line to see the winner breast the tape.",
+        "ru": "Я был у финишной черты, в надежде увидеть, как победитель коснётся грудью ленточки.",
+        "learn": 0
+      },
+      {
+        "eng": "She slept as calmly and undisturbedly as the infant at her breast.",
+        "ru": "Она спала так же тихо и спокойно, как и дитя на её груди.",
+        "learn": 0
+      },
+      {
+        "eng": "Sugary foods promote breast cancer.",
+        "ru": "Продукты с высоким содержанием сахара провоцируют рак молочной железы.",
+        "learn": 0
+      },
+      {
+        "eng": "At the word 'breast', some of the class tittered.",
+        "ru": "При упоминании слова \"грудь\" часть класса захихикала.",
+        "learn": 0
+      },
+      {
+        "eng": "He beat his breast in anger.",
+        "ru": "Разозлившись, он ударил себя в грудь.",
+        "learn": 0
+      },
+      {
+        "eng": "They breasted the mountain.",
+        "ru": "Они достигли вершины горы.",
+        "learn": 0
+      },
+      {
+        "eng": "a faulty gene that causes breast cancer",
+        "ru": "дефектный ген, вызывающий рак молочной железы",
+        "learn": 0
+      },
+      {
+        "eng": "Dick cradled her photograph against his breast.",
+        "ru": "Дик прижал её фотографию к своей груди.",
+        "learn": 0
+      },
+      {
+        "eng": "The cub licked the milk from its mother's breast.",
+        "ru": "Детёныш слизывал молоко с груди матери.",
+        "learn": 0
+      },
+      {
+        "eng": "She breasted the diagnosis of cancer with fortitude and optimism.",
+        "ru": "Она боролась против рака со стойкостью и оптимизмом.",
+        "learn": 0
+      },
+      {
+        "eng": "European children learn the breast stroke., they often don't know how to crawl",
+        "ru": "Европейские дети учатся плавать брассом, и нередко они не умеют плавать кролем..",
+        "learn": 0
+      },
+      {
+        "eng": "The chemical heightens contrast between different kinds of tissue in the breast.",
+        "ru": "Этот химикат усиливает контраст между разными видами тканей молочной железы.",
+        "learn": 0
+      },
+      {
+        "eng": "The run, to raise money for breast cancer, has a £10 entry fee (=fee to enter a competition).",
+        "ru": "Вступительный взнос (т.е. плата за участие в соревновании) за участие в забеге, проводящемся с целью сбора денег для лечения рака молочной железы, составляет десять фунтов стерлингов.",
+        "learn": 0
+      },
+      {
+        "eng": "She was diagnosed with breast cancer.",
+        "ru": "Ей диагностировали рак молочной железы.",
+        "learn": 1
+      },
+      {
+        "eng": "The drugs are being used experimentally on patients suffering from breast cancer.",
+        "ru": "В виде эксперимента эти препараты применяются при лечении пациенток, страдающих от рака молочной железы.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,73 +1,144 @@
 {
-    "airline": {
-        "comment": [
-            "airport",
-            "air",
-            "aircraft",
-            "air-conditioning"
-        ],
-        "translate": "авиакомпания, авиалиния, прямая линия",
-        "transcription": " |ˈerlaɪn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "the chairman of the airline company",
-            "The airline is upgrading its fleet.",
-            "The airline fired him for being drunk.",
-            "The airline has rigorous safety standards.",
-            "This airline's safety record is impeccable.",
-            "The airline is struggling with high costs.",
-            "The airline is the nation's largest carrier.",
-            "He claimed his suitcases at the airline counter.",
-            "The airline had been screening baggage on X-ray machines.",
-            "All of the airline's coast-to-coast flights pass through its hub.",
-            "When you consider that the airline handled 80 million passengers last year, the accident figures are really very small.",
-            "The airline is a wasting asset.",
-            "The airline overbooked the flight.",
-            "The airline has canceled all outbound flights.",
-            "A takeover bid for the airline was launched today.",
-            "The bank is holding the airline's assets as guarantees.",
-            "100 percent airline security is a practical impossibility.",
-            "He made some suggestions about how to improve airline safety.",
-            "The airport nearest us has plane service on only one major airline.",
-            "The airline upgraded me when I arrived late and Coach Class was full.",
-            "The airline tried to reassure the customers that the planes were safe.",
-            "We had no choice but to institute court proceedings against the airline.",
-            "The airline has added a $20 fuel surcharge on all international flights.",
-            "The Chairman of the airline accepted full responsibility for the accident.",
-            "The company's grand ambition was to become the first and biggest global airline."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "президент авиакомпании",
-            "Авиакомпания обновляет свой лётный парк.",
-            "Авиакомпания уволила его за нахождение в нетрезвом виде.",
-            "Авиакомпания придерживается строгих норм безопасности.",
-            "Репутация этой авиалинии безупречна.",
-            "Авиакомпания борется с высокими затратами / издержками.",
-            "Данная авиакомпания является крупнейшим перевозчиком страны.",
-            "Он подошёл к стойке авиакомпании и потребовал свой багаж.",
-            "Авиакомпания проверяла багаж пассажиров с помощью рентгеновской установки.",
-            "Все трансконтинентальные рейсы данной авиакомпании проходят через её базовый транспортный узел.",
-            "Если учесть, что за прошлый год авиакомпания перевезла 80 млн пассажиров, количество аварий окажется действительно очень маленьким.",
-            "Авиакомпания — это истощаемый актив.",
-            "Авиакомпания перебронировала этот рейс.",
-            "Авиакомпания отменила все вылеты.",
-            "Сегодня поступило предложение о покупке контрольного пакета акций этой авиакомпании.",
-            "Банк держит активы этой авиакомпании в качестве залога.",
-            "Обеспечить стопроцентную безопасность авиалинии практически невозможно.",
-            "Он внёс ряд предложений о том, как улучшить безопасность полётов.",
-            "В ближайшем к нам аэропорту проводится техническое обслуживание самолётов только одной крупной авиакомпании.",
-            "Авиакомпания перевела меня в бизнес класс, когда я опоздал, и эконом-класс был уже заполнен.",
-            "Авиакомпания попыталась заверить клиентов в надёжности самолётов.",
-            "Нам ничего не оставалось, кроме как возбудить дело против этой авиакомпании.",
-            "Авиакомпания добавила топливный сбор в размере двадцати долларов на все международные рейсы.",
-            "Председатель авиакомпании принял на себя полную ответственность за эту катастрофу.",
-            "Главным предметом мечтаний этой фирмы было стать первой и крупнейшей мировой авиакомпанией."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "airline": {
+    "comment": [
+      "airport",
+      "air",
+      "aircraft",
+      "air-conditioning"
+    ],
+    "translate": "авиакомпания, авиалиния, прямая линия",
+    "transcription": " |ˈerlaɪn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "the chairman of the airline company",
+        "ru": "президент авиакомпании",
+        "learn": 0
+      },
+      {
+        "eng": "The airline is upgrading its fleet.",
+        "ru": "Авиакомпания обновляет свой лётный парк.",
+        "learn": 1
+      },
+      {
+        "eng": "The airline fired him for being drunk.",
+        "ru": "Авиакомпания уволила его за нахождение в нетрезвом виде.",
+        "learn": 0
+      },
+      {
+        "eng": "The airline has rigorous safety standards.",
+        "ru": "Авиакомпания придерживается строгих норм безопасности.",
+        "learn": 1
+      },
+      {
+        "eng": "This airline's safety record is impeccable.",
+        "ru": "Репутация этой авиалинии безупречна.",
+        "learn": 0
+      },
+      {
+        "eng": "The airline is struggling with high costs.",
+        "ru": "Авиакомпания борется с высокими затратами / издержками.",
+        "learn": 0
+      },
+      {
+        "eng": "The airline is the nation's largest carrier.",
+        "ru": "Данная авиакомпания является крупнейшим перевозчиком страны.",
+        "learn": 0
+      },
+      {
+        "eng": "He claimed his suitcases at the airline counter.",
+        "ru": "Он подошёл к стойке авиакомпании и потребовал свой багаж.",
+        "learn": 0
+      },
+      {
+        "eng": "The airline had been screening baggage on X-ray machines.",
+        "ru": "Авиакомпания проверяла багаж пассажиров с помощью рентгеновской установки.",
+        "learn": 1
+      },
+      {
+        "eng": "All of the airline's coast-to-coast flights pass through its hub.",
+        "ru": "Все трансконтинентальные рейсы данной авиакомпании проходят через её базовый транспортный узел.",
+        "learn": 0
+      },
+      {
+        "eng": "When you consider that the airline handled 80 million passengers last year, the accident figures are really very small.",
+        "ru": "Если учесть, что за прошлый год авиакомпания перевезла 80 млн пассажиров, количество аварий окажется действительно очень маленьким.",
+        "learn": 0
+      },
+      {
+        "eng": "The airline is a wasting asset.",
+        "ru": "Авиакомпания — это истощаемый актив.",
+        "learn": 0
+      },
+      {
+        "eng": "The airline overbooked the flight.",
+        "ru": "Авиакомпания перебронировала этот рейс.",
+        "learn": 1
+      },
+      {
+        "eng": "The airline has canceled all outbound flights.",
+        "ru": "Авиакомпания отменила все вылеты.",
+        "learn": 0
+      },
+      {
+        "eng": "A takeover bid for the airline was launched today.",
+        "ru": "Сегодня поступило предложение о покупке контрольного пакета акций этой авиакомпании.",
+        "learn": 0
+      },
+      {
+        "eng": "The bank is holding the airline's assets as guarantees.",
+        "ru": "Банк держит активы этой авиакомпании в качестве залога.",
+        "learn": 0
+      },
+      {
+        "eng": "100 percent airline security is a practical impossibility.",
+        "ru": "Обеспечить стопроцентную безопасность авиалинии практически невозможно.",
+        "learn": 0
+      },
+      {
+        "eng": "He made some suggestions about how to improve airline safety.",
+        "ru": "Он внёс ряд предложений о том, как улучшить безопасность полётов.",
+        "learn": 0
+      },
+      {
+        "eng": "The airport nearest us has plane service on only one major airline.",
+        "ru": "В ближайшем к нам аэропорту проводится техническое обслуживание самолётов только одной крупной авиакомпании.",
+        "learn": 0
+      },
+      {
+        "eng": "The airline upgraded me when I arrived late and Coach Class was full.",
+        "ru": "Авиакомпания перевела меня в бизнес класс, когда я опоздал, и эконом-класс был уже заполнен.",
+        "learn": 0
+      },
+      {
+        "eng": "The airline tried to reassure the customers that the planes were safe.",
+        "ru": "Авиакомпания попыталась заверить клиентов в надёжности самолётов.",
+        "learn": 1
+      },
+      {
+        "eng": "We had no choice but to institute court proceedings against the airline.",
+        "ru": "Нам ничего не оставалось, кроме как возбудить дело против этой авиакомпании.",
+        "learn": 0
+      },
+      {
+        "eng": "The airline has added a $20 fuel surcharge on all international flights.",
+        "ru": "Авиакомпания добавила топливный сбор в размере двадцати долларов на все международные рейсы.",
+        "learn": 0
+      },
+      {
+        "eng": "The Chairman of the airline accepted full responsibility for the accident.",
+        "ru": "Председатель авиакомпании принял на себя полную ответственность за эту катастрофу.",
+        "learn": 0
+      },
+      {
+        "eng": "The company's grand ambition was to become the first and biggest global airline.",
+        "ru": "Главным предметом мечтаний этой фирмы было стать первой и крупнейшей мировой авиакомпанией.",
+        "learn": 0
+      }
+    ]
+  }
 }

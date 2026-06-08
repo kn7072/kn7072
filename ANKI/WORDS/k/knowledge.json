@@ -1,87 +1,173 @@
 {
-    "knowledge": {
-        "comment": [
-            "know",
-            "known",
-            "acknowledge",
-            "unknown",
-            "well-known"
-        ],
-        "translate": "знание, знания, познания, осведомленность, знакомство, эрудиция, наука, известие",
-        "transcription": " |ˈnɑːlɪdʒ|",
-        "antonyms": [],
-        "mnemonic": [
-            "knowledge [но'лидж] знание - Будут знания, будут и (налич-ные).",
-            "acknowledge [ək'nɔlɪdʒ]\nknowledge ['nɔlɪdʒ] - осведомлённость, знание\n***\nСОЗНАЮ, что нельзя на окно|лечь. (это) acknowledge\nПРИЗНАЮ, что нельзя на окно|лечь. (это)\nacknowledge\nДопускать, отмечать\n***\nЯ В КУРСЕ, что нельзя на окно|лечь. (это) knowledge"
-        ],
-        "examples": [
-            "He struck me by his knowledge.",
-            "Their knowledge is very basic.",
-            "He did it without my knowledge.",
-            "She has little knowledge of fashion.",
-            "It came to my knowledge that...",
-            "Those spheres of knowledge often touch.",
-            "the world's heritage of knowledge",
-            "His knowledge doesn't go very far.",
-            "He put his knowledge to good use.",
-            "To my knowledge, she has never been here.",
-            "The boy went away without his mother's knowledge.",
-            "His knowledge of history is profound.",
-            "Books are no doubt very useful helps to knowledge.",
-            "His knowledge is fragmentary and unconnected.",
-            "I was impressed by the depth of her knowledge.",
-            "I don't pretend to a complete knowledge of the city.",
-            "I soaked up knowledge like blotting paper.",
-            "I acquired a passing knowledge of Chinese.",
-            "It is beyond the hemisphere of my knowledge.",
-            "There are huge gaps in my knowledge of history.",
-            "He disclaimed any knowledge of the contents of the letter.",
-            "Recent discoveries added to our knowledge of the Universe.",
-            "the full extent of human knowledge",
-            "Most of our knowledge is secondhand.",
-            "His breadth of knowledge was amazing.",
-            "They bequeathed their knowledge to us.",
-            "He possessed a vast store of knowledge.",
-            "he possesses great knowledge about the Middle East",
-            "He shared his knowledge freely with anyone interested.",
-            "He was always generous in sharing his enormous knowledge."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он поразил меня своими знаниями.",
-            "Их знания — самые элементарные. / Они знают лишь самые основы.",
-            "Он сделал это без моего ведома.",
-            "Она мало что знает о моде.",
-            "До моего ведома дошло, что…",
-            "Эти области знаний часто взаимодействуют друг с другом.",
-            "всемирное наследие знаний",
-            "Его знания весьма поверхностны. (букв. не заходят очень далеко)",
-            "Он нашёл своим знаниям хорошее применение.",
-            "Насколько я знаю, она здесь никогда не была.",
-            "Мальчик ушел без ведома матери.",
-            "Его знание истории основательно / глубоко. (он очень хорошо знает историю)",
-            "Книги, без сомнения, очень полезный источник знаний.",
-            "Его знания отрывочны и бессвязны.",
-            "Я был впечатлен глубиной её знаний.",
-            "Я не претендую на полное знание всего города.",
-            "Я впитывал знания как губка.",
-            "Я приобрёл поверхностное знание китайского языка.",
-            "Это находится вне сферы моей компетентности.",
-            "В моих знаниях по истории есть огромные пробелы.",
-            "Он отрицал, что ему что-либо известно о содержании письма.",
-            "Последние открытия углубили наши знания о Вселенной.",
-            "полный объём /вся широта/ человеческих знаний",
-            "Большую часть своих знаний мы получаем опосредованно, из вторых рук.",
-            "Широта его знаний была поразительна.",
-            "Они завещали нам свои знания.",
-            "Он обладал огромным запасом знаний.",
-            "Он обладает огромными знаниями о Ближнем Востоке.",
-            "Он охотно делился своими знаниями с любым, кому это было интересно.",
-            "Он всегда охотно делился своими обширными знаниями."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "knowledge": {
+    "comment": [
+      "know",
+      "known",
+      "acknowledge",
+      "unknown",
+      "well-known"
+    ],
+    "translate": "знание, знания, познания, осведомленность, знакомство, эрудиция, наука, известие",
+    "transcription": " |ˈnɑːlɪdʒ|",
+    "antonyms": [],
+    "mnemonic": [
+      "knowledge [но'лидж] знание - Будут знания, будут и (налич-ные).",
+      "acknowledge [ək'nɔlɪdʒ]\nknowledge ['nɔlɪdʒ] - осведомлённость, знание\n***\nСОЗНАЮ, что нельзя на окно|лечь. (это) acknowledge\nПРИЗНАЮ, что нельзя на окно|лечь. (это)\nacknowledge\nДопускать, отмечать\n***\nЯ В КУРСЕ, что нельзя на окно|лечь. (это) knowledge"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He struck me by his knowledge.",
+        "ru": "Он поразил меня своими знаниями.",
+        "learn": 1
+      },
+      {
+        "eng": "Their knowledge is very basic.",
+        "ru": "Их знания — самые элементарные. / Они знают лишь самые основы.",
+        "learn": 0
+      },
+      {
+        "eng": "He did it without my knowledge.",
+        "ru": "Он сделал это без моего ведома.",
+        "learn": 0
+      },
+      {
+        "eng": "She has little knowledge of fashion.",
+        "ru": "Она мало что знает о моде.",
+        "learn": 0
+      },
+      {
+        "eng": "It came to my knowledge that...",
+        "ru": "До моего ведома дошло, что…",
+        "learn": 0
+      },
+      {
+        "eng": "Those spheres of knowledge often touch.",
+        "ru": "Эти области знаний часто взаимодействуют друг с другом.",
+        "learn": 0
+      },
+      {
+        "eng": "the world's heritage of knowledge",
+        "ru": "всемирное наследие знаний",
+        "learn": 0
+      },
+      {
+        "eng": "His knowledge doesn't go very far.",
+        "ru": "Его знания весьма поверхностны. (букв. не заходят очень далеко)",
+        "learn": 0
+      },
+      {
+        "eng": "He put his knowledge to good use.",
+        "ru": "Он нашёл своим знаниям хорошее применение.",
+        "learn": 0
+      },
+      {
+        "eng": "To my knowledge, she has never been here.",
+        "ru": "Насколько я знаю, она здесь никогда не была.",
+        "learn": 0
+      },
+      {
+        "eng": "The boy went away without his mother's knowledge.",
+        "ru": "Мальчик ушел без ведома матери.",
+        "learn": 0
+      },
+      {
+        "eng": "His knowledge of history is profound.",
+        "ru": "Его знание истории основательно / глубоко. (он очень хорошо знает историю)",
+        "learn": 1
+      },
+      {
+        "eng": "Books are no doubt very useful helps to knowledge.",
+        "ru": "Книги, без сомнения, очень полезный источник знаний.",
+        "learn": 0
+      },
+      {
+        "eng": "His knowledge is fragmentary and unconnected.",
+        "ru": "Его знания отрывочны и бессвязны.",
+        "learn": 0
+      },
+      {
+        "eng": "I was impressed by the depth of her knowledge.",
+        "ru": "Я был впечатлен глубиной её знаний.",
+        "learn": 1
+      },
+      {
+        "eng": "I don't pretend to a complete knowledge of the city.",
+        "ru": "Я не претендую на полное знание всего города.",
+        "learn": 0
+      },
+      {
+        "eng": "I soaked up knowledge like blotting paper.",
+        "ru": "Я впитывал знания как губка.",
+        "learn": 0
+      },
+      {
+        "eng": "I acquired a passing knowledge of Chinese.",
+        "ru": "Я приобрёл поверхностное знание китайского языка.",
+        "learn": 0
+      },
+      {
+        "eng": "It is beyond the hemisphere of my knowledge.",
+        "ru": "Это находится вне сферы моей компетентности.",
+        "learn": 0
+      },
+      {
+        "eng": "There are huge gaps in my knowledge of history.",
+        "ru": "В моих знаниях по истории есть огромные пробелы.",
+        "learn": 1
+      },
+      {
+        "eng": "He disclaimed any knowledge of the contents of the letter.",
+        "ru": "Он отрицал, что ему что-либо известно о содержании письма.",
+        "learn": 0
+      },
+      {
+        "eng": "Recent discoveries added to our knowledge of the Universe.",
+        "ru": "Последние открытия углубили наши знания о Вселенной.",
+        "learn": 0
+      },
+      {
+        "eng": "the full extent of human knowledge",
+        "ru": "полный объём /вся широта/ человеческих знаний",
+        "learn": 0
+      },
+      {
+        "eng": "Most of our knowledge is secondhand.",
+        "ru": "Большую часть своих знаний мы получаем опосредованно, из вторых рук.",
+        "learn": 0
+      },
+      {
+        "eng": "His breadth of knowledge was amazing.",
+        "ru": "Широта его знаний была поразительна.",
+        "learn": 0
+      },
+      {
+        "eng": "They bequeathed their knowledge to us.",
+        "ru": "Они завещали нам свои знания.",
+        "learn": 0
+      },
+      {
+        "eng": "He possessed a vast store of knowledge.",
+        "ru": "Он обладал огромным запасом знаний.",
+        "learn": 0
+      },
+      {
+        "eng": "he possesses great knowledge about the Middle East",
+        "ru": "Он обладает огромными знаниями о Ближнем Востоке.",
+        "learn": 0
+      },
+      {
+        "eng": "He shared his knowledge freely with anyone interested.",
+        "ru": "Он охотно делился своими знаниями с любым, кому это было интересно.",
+        "learn": 0
+      },
+      {
+        "eng": "He was always generous in sharing his enormous knowledge.",
+        "ru": "Он всегда охотно делился своими обширными знаниями.",
+        "learn": 1
+      }
+    ]
+  }
 }

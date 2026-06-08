@@ -1,71 +1,136 @@
 {
-    "except": {
-        "comment": [
-            "exception",
-            "exceptional"
-        ],
-        "translate": "кроме, за исключением, если не, исключать, возражать",
-        "transcription": " |ɪkˈsept|",
-        "antonyms": [],
-        "mnemonic": [
-            "except [иксе'пт] кроме - (И к септ-ическим) заболеваниям кроме СПИДа относятся все.",
-            "accept [ək'sɛpt]\nexcept [ɪk'sɛpt] - кроме.\nconcept ['kɒnsɛpt] - идея, концепция\n***\nПРИНИМАЮ твой акцепт. (это) accept",
-            "except [ik'sept]\nexception - исключение\nexceptional - исключительный\n***\nИСКЛЮЧИМ значение в иксé (пт). (это) except"
-        ],
-        "examples": [
-            "Everyone went except for Scott and Dan.",
-            "She had nothing to do except spend money.",
-            "I hope you do not except yourself?",
-            "She never offered anyone advice, except it were asked of her.",
-            "She felt fine except for being a little tired.",
-            "Everything is arranged except for the tickets to the theatre.",
-            "The cases are quite parallel, except that A. is a younger man than B.",
-            "The office is open every day except Sundays.",
-            "The store is open daily except Sundays.",
-            "The criminals who excepted against him were generally condemned.",
-            "The rabble of mankind know nothing of liberty except the name.",
-            "Children were excepted from the study.",
-            "Clarissa could think of nothing to say except that she was so sorry.",
-            "Staff are not permitted to make personal phone calls except in an emergency.",
-            "The whole kingdom, a small corner excepted, was subjected to the Turkish yoke.",
-            "The stores will be open daily except Sundays.",
-            "You can have any of the cakes except this one.",
-            "A date book would make a great gift, except that a lot of people already have one.",
-            "High technology equipment would be excepted from any trade agreement.",
-            "I'd go, except it's too far.",
-            "I have earrings just like those, except they're blue.",
-            "Benson kept the studio locked except when he was working there.",
-            "He wouldn't talk about work, except to say that he was busy."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Все пошли за исключением Скотта и Дэна.",
-            "Ей нечего было делать, кроме как тратить деньги.",
-            "Я надеюсь, вы себя не исключаете?",
-            "Она никому не давала советов, если только её не просили.",
-            "Она чувствовала себя замечательно, только немного устала.",
-            "Всё устроено, кроме билетов в театр.",
-            "Эти случаи совершенно аналогичны, за исключением того, что А. моложе Б.",
-            "Офис открыт каждый день, за исключением воскресенья.",
-            "Магазин открыт ежедневно, кроме воскресенья.",
-            "Преступники, которые противились ему, бывали, как правило, осуждены.",
-            "Чернь ничего не знает о свободе, кроме самого этого слова.",
-            "Дети были исключены из числа объектов исследования.",
-            "Кларисса не придумала ничего лучше, чем сказать, что ей очень жаль.",
-            "Персоналу не разрешается делать личные телефонные звонки, за исключением экстренных случаев.",
-            "Всё королевство, за исключением небольшого уголка, было под турецким игом.",
-            "Магазины будут открыты ежедневно, кроме воскресенья.",
-            "Можешь съесть любое пирожное, кроме вот этого.",
-            "Записная книжка была бы отличным подарком, вот только у многих она уже есть.",
-            "Высокотехнологичное оборудование будет исключено из любого торгового соглашения.",
-            "Я пойду, если только это не слишком далеко.",
-            "У меня точно такие же серьги, только они синие.",
-            "Бенсон держал студию закрытой, за исключением случаев, когда он там работал.",
-            "Он не стал говорить о работе, сказав только, что был очень занят."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "except": {
+    "comment": [
+      "exception",
+      "exceptional"
+    ],
+    "translate": "кроме, за исключением, если не, исключать, возражать",
+    "transcription": " |ɪkˈsept|",
+    "antonyms": [],
+    "mnemonic": [
+      "except [иксе'пт] кроме - (И к септ-ическим) заболеваниям кроме СПИДа относятся все.",
+      "accept [ək'sɛpt]\nexcept [ɪk'sɛpt] - кроме.\nconcept ['kɒnsɛpt] - идея, концепция\n***\nПРИНИМАЮ твой акцепт. (это) accept",
+      "except [ik'sept]\nexception - исключение\nexceptional - исключительный\n***\nИСКЛЮЧИМ значение в иксé (пт). (это) except"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Everyone went except for Scott and Dan.",
+        "ru": "Все пошли за исключением Скотта и Дэна.",
+        "learn": 0
+      },
+      {
+        "eng": "She had nothing to do except spend money.",
+        "ru": "Ей нечего было делать, кроме как тратить деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "I hope you do not except yourself?",
+        "ru": "Я надеюсь, вы себя не исключаете?",
+        "learn": 0
+      },
+      {
+        "eng": "She never offered anyone advice, except it were asked of her.",
+        "ru": "Она никому не давала советов, если только её не просили.",
+        "learn": 0
+      },
+      {
+        "eng": "She felt fine except for being a little tired.",
+        "ru": "Она чувствовала себя замечательно, только немного устала.",
+        "learn": 0
+      },
+      {
+        "eng": "Everything is arranged except for the tickets to the theatre.",
+        "ru": "Всё устроено, кроме билетов в театр.",
+        "learn": 0
+      },
+      {
+        "eng": "The cases are quite parallel, except that A. is a younger man than B.",
+        "ru": "Эти случаи совершенно аналогичны, за исключением того, что А. моложе Б.",
+        "learn": 0
+      },
+      {
+        "eng": "The office is open every day except Sundays.",
+        "ru": "Офис открыт каждый день, за исключением воскресенья.",
+        "learn": 0
+      },
+      {
+        "eng": "The store is open daily except Sundays.",
+        "ru": "Магазин открыт ежедневно, кроме воскресенья.",
+        "learn": 0
+      },
+      {
+        "eng": "The criminals who excepted against him were generally condemned.",
+        "ru": "Преступники, которые противились ему, бывали, как правило, осуждены.",
+        "learn": 0
+      },
+      {
+        "eng": "The rabble of mankind know nothing of liberty except the name.",
+        "ru": "Чернь ничего не знает о свободе, кроме самого этого слова.",
+        "learn": 0
+      },
+      {
+        "eng": "Children were excepted from the study.",
+        "ru": "Дети были исключены из числа объектов исследования.",
+        "learn": 0
+      },
+      {
+        "eng": "Clarissa could think of nothing to say except that she was so sorry.",
+        "ru": "Кларисса не придумала ничего лучше, чем сказать, что ей очень жаль.",
+        "learn": 0
+      },
+      {
+        "eng": "Staff are not permitted to make personal phone calls except in an emergency.",
+        "ru": "Персоналу не разрешается делать личные телефонные звонки, за исключением экстренных случаев.",
+        "learn": 0
+      },
+      {
+        "eng": "The whole kingdom, a small corner excepted, was subjected to the Turkish yoke.",
+        "ru": "Всё королевство, за исключением небольшого уголка, было под турецким игом.",
+        "learn": 0
+      },
+      {
+        "eng": "The stores will be open daily except Sundays.",
+        "ru": "Магазины будут открыты ежедневно, кроме воскресенья.",
+        "learn": 1
+      },
+      {
+        "eng": "You can have any of the cakes except this one.",
+        "ru": "Можешь съесть любое пирожное, кроме вот этого.",
+        "learn": 0
+      },
+      {
+        "eng": "A date book would make a great gift, except that a lot of people already have one.",
+        "ru": "Записная книжка была бы отличным подарком, вот только у многих она уже есть.",
+        "learn": 0
+      },
+      {
+        "eng": "High technology equipment would be excepted from any trade agreement.",
+        "ru": "Высокотехнологичное оборудование будет исключено из любого торгового соглашения.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd go, except it's too far.",
+        "ru": "Я пойду, если только это не слишком далеко.",
+        "learn": 0
+      },
+      {
+        "eng": "I have earrings just like those, except they're blue.",
+        "ru": "У меня точно такие же серьги, только они синие.",
+        "learn": 0
+      },
+      {
+        "eng": "Benson kept the studio locked except when he was working there.",
+        "ru": "Бенсон держал студию закрытой, за исключением случаев, когда он там работал.",
+        "learn": 0
+      },
+      {
+        "eng": "He wouldn't talk about work, except to say that he was busy.",
+        "ru": "Он не стал говорить о работе, сказав только, что был очень занят.",
+        "learn": 0
+      }
+    ]
+  }
 }

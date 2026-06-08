@@ -1,85 +1,172 @@
 {
-    "proper": {
-        "comment": [
-            "properly",
-            "property"
-        ],
-        "translate": "надлежащий, правильный, собственный, должный, подходящий, настоящий, истинный",
-        "transcription": " |ˈprɑːpər|",
-        "antonyms": [],
-        "mnemonic": [
-            "proper [про'пэ] подходящий, надлежащий, приличный - (Пропэ-ганда) в 3-м Рейхе была вполне подходящая и на приличном уровне.",
-            "proper ['prɔpə]\nproperly ['prɔpəlɪ]\n***\nПРАВИЛЬНУЮ посадку на попе ты прóпил. (это)\nproper\nПРАВИЛЬНО начинал, потом всё прóпили. (это)\nproper\n***\nДОЛЖНЫМ ОБРАЗОМ пили, да всё прóпили. (это)\nproperly"
-        ],
-        "examples": [
-            "It is not proper to speak that way.",
-            "The children need to learn proper behavior.",
-            "You need to eat a proper meal instead of junk food.",
-            "I want our lass to have a proper education.",
-            "Is this the proper spelling of your name?",
-            "His attitude shows a want of proper respect.",
-            "Capital letter is used in all proper names.",
-            "He finally has a proper job.",
-            "I didn't have a proper holiday this year.",
-            "Each step must be done in the proper order.",
-            "I haven't learned proper pronunciation of French words.",
-            "I beg you to provide him with proper directions for finding me in London.",
-            "Make sure you put everything back in its proper place.",
-            "These children need a proper home life.",
-            "You cannot visit the country unless you have the proper documentation.",
-            "He wanted a proper dinner, not just a snack.",
-            "They beat us good and proper.",
-            "Proper care will lengthen the life of the engine.",
-            "To lose weight you need the proper balance of diet and exercise.",
-            "Neither John nor I were sportsmen in the proper acceptance of the word.",
-            "I envisage a day when proper health care will be available to everyone.",
-            "Don't fling your arms and legs about like that, make the proper swimming strokes.",
-            "He's made a proper fool of himself this time!",
-            "I know not how his proper official title ran.",
-            "Complaints must go through the proper channels.",
-            "a disgraceful want of proper care",
-            "We must follow proper court procedure.",
-            "We beat 'em good and proper.",
-            "a very prim and proper young lady",
-            "Good nutrition is important for proper muscle development."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Не подобает говорить таким образом. / Так говорить неприлично.",
-            "Детей необходимо обучать соответствующему поведению.",
-            "Тебе нужно есть полноценную пищу, а не еду из дешёвых кафе.",
-            "Я хочу, чтобы наша девочка (дочь) получила настоящее образование.",
-            "Это правильное написание вашего имени?",
-            "Его отношение показывает недостаток должного уважения.",
-            "Все имена собственные пишутся с заглавной буквы.",
-            "Наконец-то у него нормальная работа.",
-            "В этом году у меня не было нормального отпуска.",
-            "Каждый шаг должен быть сделан в надлежащем порядке.",
-            "Я не научился правильно произносить французские слова.",
-            "Я очень прошу вас подробнейшим образом объяснить ему, как отыскать меня в Лондоне.",
-            "Не забудьте положить всё обратно на свои места.",
-            "Этим детям нужна нормальная семейная жизнь.",
-            "Нельзя побывать в стране, если нет надлежащих документов.",
-            "Он хотел как следует поужинать, а не просто перекусить.",
-            "Они разбили нас в пух и прах.",
-            "Правильный уход продлит срок службы двигателя.",
-            "Чтобы похудеть, вам нужен правильный баланс диеты и физических упражнений.",
-            "Ни Джон, ни я не были спортсменами в принятом смысле этого слова.",
-            "Я предвижу день, когда надлежащее медицинское обслуживание будет доступно каждому.",
-            "Не колоти руками и ногами по воде, а греби, как полагается.",
-            "В этот раз он выставил себя полным идиотом!",
-            "Я не знаю, каков был его официальный титул.",
-            "Жалобы должны пройти через надлежащие каналы.",
-            "позорное отсутствие должного ухода",
-            "Мы должны придерживаться надлежащей судебной процедуры.",
-            "Мы задали им хорошую трёпку. / Мы разбили их в пух и прах.",
-            "очень чопорная молодая леди",
-            "Хорошее питание является важным условием для правильного развития мышц."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "o_+_Откр_сл_=_[ɔ]"
-        ]
-    }
+  "proper": {
+    "comment": [
+      "properly",
+      "property"
+    ],
+    "translate": "надлежащий, правильный, собственный, должный, подходящий, настоящий, истинный",
+    "transcription": " |ˈprɑːpər|",
+    "antonyms": [],
+    "mnemonic": [
+      "proper [про'пэ] подходящий, надлежащий, приличный - (Пропэ-ганда) в 3-м Рейхе была вполне подходящая и на приличном уровне.",
+      "proper ['prɔpə]\nproperly ['prɔpəlɪ]\n***\nПРАВИЛЬНУЮ посадку на попе ты прóпил. (это)\nproper\nПРАВИЛЬНО начинал, потом всё прóпили. (это)\nproper\n***\nДОЛЖНЫМ ОБРАЗОМ пили, да всё прóпили. (это)\nproperly"
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "o_+_Откр_сл_=_[ɔ]"
+    ],
+    "examples": [
+      {
+        "eng": "It is not proper to speak that way.",
+        "ru": "Не подобает говорить таким образом. / Так говорить неприлично.",
+        "learn": 0
+      },
+      {
+        "eng": "The children need to learn proper behavior.",
+        "ru": "Детей необходимо обучать соответствующему поведению.",
+        "learn": 0
+      },
+      {
+        "eng": "You need to eat a proper meal instead of junk food.",
+        "ru": "Тебе нужно есть полноценную пищу, а не еду из дешёвых кафе.",
+        "learn": 1
+      },
+      {
+        "eng": "I want our lass to have a proper education.",
+        "ru": "Я хочу, чтобы наша девочка (дочь) получила настоящее образование.",
+        "learn": 0
+      },
+      {
+        "eng": "Is this the proper spelling of your name?",
+        "ru": "Это правильное написание вашего имени?",
+        "learn": 1
+      },
+      {
+        "eng": "His attitude shows a want of proper respect.",
+        "ru": "Его отношение показывает недостаток должного уважения.",
+        "learn": 1
+      },
+      {
+        "eng": "Capital letter is used in all proper names.",
+        "ru": "Все имена собственные пишутся с заглавной буквы.",
+        "learn": 0
+      },
+      {
+        "eng": "He finally has a proper job.",
+        "ru": "Наконец-то у него нормальная работа.",
+        "learn": 0
+      },
+      {
+        "eng": "I didn't have a proper holiday this year.",
+        "ru": "В этом году у меня не было нормального отпуска.",
+        "learn": 0
+      },
+      {
+        "eng": "Each step must be done in the proper order.",
+        "ru": "Каждый шаг должен быть сделан в надлежащем порядке.",
+        "learn": 0
+      },
+      {
+        "eng": "I haven't learned proper pronunciation of French words.",
+        "ru": "Я не научился правильно произносить французские слова.",
+        "learn": 1
+      },
+      {
+        "eng": "I beg you to provide him with proper directions for finding me in London.",
+        "ru": "Я очень прошу вас подробнейшим образом объяснить ему, как отыскать меня в Лондоне.",
+        "learn": 0
+      },
+      {
+        "eng": "Make sure you put everything back in its proper place.",
+        "ru": "Не забудьте положить всё обратно на свои места.",
+        "learn": 0
+      },
+      {
+        "eng": "These children need a proper home life.",
+        "ru": "Этим детям нужна нормальная семейная жизнь.",
+        "learn": 0
+      },
+      {
+        "eng": "You cannot visit the country unless you have the proper documentation.",
+        "ru": "Нельзя побывать в стране, если нет надлежащих документов.",
+        "learn": 1
+      },
+      {
+        "eng": "He wanted a proper dinner, not just a snack.",
+        "ru": "Он хотел как следует поужинать, а не просто перекусить.",
+        "learn": 0
+      },
+      {
+        "eng": "They beat us good and proper.",
+        "ru": "Они разбили нас в пух и прах.",
+        "learn": 0
+      },
+      {
+        "eng": "Proper care will lengthen the life of the engine.",
+        "ru": "Правильный уход продлит срок службы двигателя.",
+        "learn": 0
+      },
+      {
+        "eng": "To lose weight you need the proper balance of diet and exercise.",
+        "ru": "Чтобы похудеть, вам нужен правильный баланс диеты и физических упражнений.",
+        "learn": 0
+      },
+      {
+        "eng": "Neither John nor I were sportsmen in the proper acceptance of the word.",
+        "ru": "Ни Джон, ни я не были спортсменами в принятом смысле этого слова.",
+        "learn": 0
+      },
+      {
+        "eng": "I envisage a day when proper health care will be available to everyone.",
+        "ru": "Я предвижу день, когда надлежащее медицинское обслуживание будет доступно каждому.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't fling your arms and legs about like that, make the proper swimming strokes.",
+        "ru": "Не колоти руками и ногами по воде, а греби, как полагается.",
+        "learn": 0
+      },
+      {
+        "eng": "He's made a proper fool of himself this time!",
+        "ru": "В этот раз он выставил себя полным идиотом!",
+        "learn": 0
+      },
+      {
+        "eng": "I know not how his proper official title ran.",
+        "ru": "Я не знаю, каков был его официальный титул.",
+        "learn": 0
+      },
+      {
+        "eng": "Complaints must go through the proper channels.",
+        "ru": "Жалобы должны пройти через надлежащие каналы.",
+        "learn": 0
+      },
+      {
+        "eng": "a disgraceful want of proper care",
+        "ru": "позорное отсутствие должного ухода",
+        "learn": 0
+      },
+      {
+        "eng": "We must follow proper court procedure.",
+        "ru": "Мы должны придерживаться надлежащей судебной процедуры.",
+        "learn": 0
+      },
+      {
+        "eng": "We beat 'em good and proper.",
+        "ru": "Мы задали им хорошую трёпку. / Мы разбили их в пух и прах.",
+        "learn": 0
+      },
+      {
+        "eng": "a very prim and proper young lady",
+        "ru": "очень чопорная молодая леди",
+        "learn": 0
+      },
+      {
+        "eng": "Good nutrition is important for proper muscle development.",
+        "ru": "Хорошее питание является важным условием для правильного развития мышц.",
+        "learn": 1
+      }
+    ]
+  }
 }

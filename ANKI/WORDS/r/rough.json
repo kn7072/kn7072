@@ -1,94 +1,181 @@
 {
-    "rough": {
-        "comment": [
-            "through",
-            "thorough",
-            "enough",
-            "although",
-            "cough",
-            "tough",
-            "though",
-            "plough",
-            "borough",
-            "roughly"
-        ],
-        "translate": "грубый, шероховатый, грубо, неровность, грубиян, терпеть лишения",
-        "transcription": " |rʌf|",
-        "antonyms": [],
-        "mnemonic": [
-            "rough [раф] грубый - Тоёта («Раф-4») грубая машина.",
-            "rough [rʌf]\n***\nГРУБУЮ игру ведёт граф. (это) rough\nШЕРШАВУЮ кожу имеет граф. (это) rough\nГРУБО ведёт себя граф. (это) rough\nГРУБИЯН с титулом \"граф\". (это) rough\nПо УХАБИСТОЙ дороге едет граф. (это) rough\nСУРОВЫЙ климат любит граф. (это) rough"
-        ],
-        "examples": [
-            "Her hands felt rough.",
-            "He is rough to deal with.",
-            "Rugby is a very rough sport.",
-            "Life has been treating her pretty rough.",
-            "Rough him up a little.",
-            "The wind will rough up my hair.",
-            "Poor kid, he's had a rough day.",
-            "She takes the rough with the smooth.",
-            "Paul gave her a rough shake.",
-            "They were having a rough time.",
-            "Her face was rough, and ploughed with wrinkles.",
-            "the rough skin of a shark",
-            "The surface of wood was rough.",
-            "Her hands were rough from hard work.",
-            "A thin glistening thread of moisture ran along the rough concrete sill.",
-            "The captain got his ship into the harbour safely in spite of rough sea.",
-            "Sounds like you had a rough day.",
-            "a rough idea how long it would take",
-            "First do a rough draft of your essay.",
-            "As the man had rough hands, I set him down for a farm worker.",
-            "He lost no chance of roughing him in his replies. (Th. Hughes)",
-            "He took some nails and bits of wood, and built them into a rough cupboard.",
-            "Barton's deep, rough voice",
-            "The figures are only a rough guide.",
-            "The coarse sand was hot and rough under her feet.",
-            "Rescue efforts have been handicapped by rough seas.",
-            "I've roughed in the general shape of the pattern in pencil.",
-            "The articles of dress must be well starched, blued, and rough dried.",
-            "Instead of a verbal description, we will give a rough sketch of the nursery.",
-            "The engine is running a little rough."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Её руки были шершавые.",
-            "С ним очень трудно иметь дело.",
-            "Регби — очень жёсткий вид спорта.",
-            "Жизнь обходилась с ней довольно грубо.",
-            "Надо ему задать лёгкую взбучку.",
-            "Ветер мне взлохматит волосы.",
-            "Бедный парень, ему сегодня досталось.",
-            "Она стойко переносит превратности судьбы.",
-            "Пол грубо её встряхнул.",
-            "Им приходилось очень тяжело.",
-            "Её лицо было грубым, изборождённым морщинами.",
-            "шероховатая кожа акулы",
-            "Поверхность древесины была неровной.",
-            "Ее руки были грубыми от тяжёлой работы.",
-            "Тонкая поблескивающая струйка жидкости стекала по неровному бетонному подоконнику.",
-            "Капитан благополучно привёл корабль в гавань, несмотря на бурное море.",
-            "Похоже, у тебя был тяжёлый день.",
-            "примерное представление о том, сколько времени это займёт",
-            "Сначала напишите черновик вашего сочинения.",
-            "Поскольку у человека были огрубевшие руки, я принял его за фермера.",
-            "Он не упускал возможности оскорбить его своими ответами.",
-            "Он набрал каких-то деревяшек, гвоздей и сделал из этого некое подобие шкафа.",
-            "низкий, грубый голос Бартона",
-            "Эти цифры являются лишь приблизительным ориентиром.",
-            "Крупнозернистый песок под её ногами был горячим и грубым.",
-            "Усилиям спасателей препятствовало сильное волнение на море.",
-            "Я набросал общую схему узора карандашом.",
-            "Одежду надо хорошо накрахмалить, подсинить, а затем высушить.",
-            "Вместо словесных описаний мы предоставим приблизительный эскиз детской.",
-            "Двигатель работает с небольшими перебоями."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "gh_=_[f]_(ght_-_[ft])",
-            "ou_=_[ʌ]"
-        ]
-    }
+  "rough": {
+    "comment": [
+      "through",
+      "thorough",
+      "enough",
+      "although",
+      "cough",
+      "tough",
+      "though",
+      "plough",
+      "borough",
+      "roughly"
+    ],
+    "translate": "грубый, шероховатый, грубо, неровность, грубиян, терпеть лишения",
+    "transcription": " |rʌf|",
+    "antonyms": [],
+    "mnemonic": [
+      "rough [раф] грубый - Тоёта («Раф-4») грубая машина.",
+      "rough [rʌf]\n***\nГРУБУЮ игру ведёт граф. (это) rough\nШЕРШАВУЮ кожу имеет граф. (это) rough\nГРУБО ведёт себя граф. (это) rough\nГРУБИЯН с титулом \"граф\". (это) rough\nПо УХАБИСТОЙ дороге едет граф. (это) rough\nСУРОВЫЙ климат любит граф. (это) rough"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "gh_=_[f]_(ght_-_[ft])",
+      "ou_=_[ʌ]"
+    ],
+    "examples": [
+      {
+        "eng": "Her hands felt rough.",
+        "ru": "Её руки были шершавые.",
+        "learn": 0
+      },
+      {
+        "eng": "He is rough to deal with.",
+        "ru": "С ним очень трудно иметь дело.",
+        "learn": 1
+      },
+      {
+        "eng": "Rugby is a very rough sport.",
+        "ru": "Регби — очень жёсткий вид спорта.",
+        "learn": 1
+      },
+      {
+        "eng": "Life has been treating her pretty rough.",
+        "ru": "Жизнь обходилась с ней довольно грубо.",
+        "learn": 0
+      },
+      {
+        "eng": "Rough him up a little.",
+        "ru": "Надо ему задать лёгкую взбучку.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind will rough up my hair.",
+        "ru": "Ветер мне взлохматит волосы.",
+        "learn": 0
+      },
+      {
+        "eng": "Poor kid, he's had a rough day.",
+        "ru": "Бедный парень, ему сегодня досталось.",
+        "learn": 0
+      },
+      {
+        "eng": "She takes the rough with the smooth.",
+        "ru": "Она стойко переносит превратности судьбы.",
+        "learn": 0
+      },
+      {
+        "eng": "Paul gave her a rough shake.",
+        "ru": "Пол грубо её встряхнул.",
+        "learn": 0
+      },
+      {
+        "eng": "They were having a rough time.",
+        "ru": "Им приходилось очень тяжело.",
+        "learn": 0
+      },
+      {
+        "eng": "Her face was rough, and ploughed with wrinkles.",
+        "ru": "Её лицо было грубым, изборождённым морщинами.",
+        "learn": 0
+      },
+      {
+        "eng": "the rough skin of a shark",
+        "ru": "шероховатая кожа акулы",
+        "learn": 0
+      },
+      {
+        "eng": "The surface of wood was rough.",
+        "ru": "Поверхность древесины была неровной.",
+        "learn": 0
+      },
+      {
+        "eng": "Her hands were rough from hard work.",
+        "ru": "Ее руки были грубыми от тяжёлой работы.",
+        "learn": 0
+      },
+      {
+        "eng": "A thin glistening thread of moisture ran along the rough concrete sill.",
+        "ru": "Тонкая поблескивающая струйка жидкости стекала по неровному бетонному подоконнику.",
+        "learn": 0
+      },
+      {
+        "eng": "The captain got his ship into the harbour safely in spite of rough sea.",
+        "ru": "Капитан благополучно привёл корабль в гавань, несмотря на бурное море.",
+        "learn": 0
+      },
+      {
+        "eng": "Sounds like you had a rough day.",
+        "ru": "Похоже, у тебя был тяжёлый день.",
+        "learn": 0
+      },
+      {
+        "eng": "a rough idea how long it would take",
+        "ru": "примерное представление о том, сколько времени это займёт",
+        "learn": 0
+      },
+      {
+        "eng": "First do a rough draft of your essay.",
+        "ru": "Сначала напишите черновик вашего сочинения.",
+        "learn": 1
+      },
+      {
+        "eng": "As the man had rough hands, I set him down for a farm worker.",
+        "ru": "Поскольку у человека были огрубевшие руки, я принял его за фермера.",
+        "learn": 0
+      },
+      {
+        "eng": "He lost no chance of roughing him in his replies. (Th. Hughes)",
+        "ru": "Он не упускал возможности оскорбить его своими ответами.",
+        "learn": 0
+      },
+      {
+        "eng": "He took some nails and bits of wood, and built them into a rough cupboard.",
+        "ru": "Он набрал каких-то деревяшек, гвоздей и сделал из этого некое подобие шкафа.",
+        "learn": 1
+      },
+      {
+        "eng": "Barton's deep, rough voice",
+        "ru": "низкий, грубый голос Бартона",
+        "learn": 0
+      },
+      {
+        "eng": "The figures are only a rough guide.",
+        "ru": "Эти цифры являются лишь приблизительным ориентиром.",
+        "learn": 0
+      },
+      {
+        "eng": "The coarse sand was hot and rough under her feet.",
+        "ru": "Крупнозернистый песок под её ногами был горячим и грубым.",
+        "learn": 0
+      },
+      {
+        "eng": "Rescue efforts have been handicapped by rough seas.",
+        "ru": "Усилиям спасателей препятствовало сильное волнение на море.",
+        "learn": 0
+      },
+      {
+        "eng": "I've roughed in the general shape of the pattern in pencil.",
+        "ru": "Я набросал общую схему узора карандашом.",
+        "learn": 0
+      },
+      {
+        "eng": "The articles of dress must be well starched, blued, and rough dried.",
+        "ru": "Одежду надо хорошо накрахмалить, подсинить, а затем высушить.",
+        "learn": 0
+      },
+      {
+        "eng": "Instead of a verbal description, we will give a rough sketch of the nursery.",
+        "ru": "Вместо словесных описаний мы предоставим приблизительный эскиз детской.",
+        "learn": 1
+      },
+      {
+        "eng": "The engine is running a little rough.",
+        "ru": "Двигатель работает с небольшими перебоями.",
+        "learn": 0
+      }
+    ]
+  }
 }

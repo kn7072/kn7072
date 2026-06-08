@@ -1,71 +1,137 @@
 {
-    "lively": {
-        "comment": [
-            "liver",
-            "live",
-            "alive",
-            "olive",
-            "living"
-        ],
-        "translate": "оживлённый, живой, яркий, веселый, быстрый, оживленно, весело",
-        "transcription": " |ˈlaɪvli|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "They had a lively debate.",
-            "He was lively in conversation.",
-            "Lively children race for home.",
-            "The book is lively and well written.",
-            "A lively discussion is expected.",
-            "She was a nice round lively little girl.",
-            "The hotel is situated next to the lively bustling port.",
-            "The wine has a lively fruity flavour.",
-            "As a child he had a lively inquiring mind.",
-            "A lively atmosphere keeps people coming back to the café.",
-            "The prose, while often lively, lapses into bureaucratese. (Newsweek)",
-            "The entertainers served up a lively show.",
-            "He's a demon for detail and a lively writer.",
-            "They recreated themselves with lively tennis.",
-            "The book offers a lively account of her travels.",
-            "Even Paula has shown a lively interest in politics.",
-            "That brisk, managing, lively, imperious woman. (W. M. Thackeray)",
-            "The little fire was fanned by a passing breeze to a lively flame.",
-            "He likes to engage in lively discourse with his visitors.",
-            "He still had all his marbles and was in full possession of a lively mind.",
-            "There were too many wallflowers at the party, so things never really got lively.",
-            "There was much lively debate about whether women should spend more time in the home.",
-            "The resort community's social scene is lively during the summer but undergoes a deep quiescence during the long winter."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "У них была оживлённая дискуссия.",
-            "В разговоре он очень оживлялся.",
-            "Весёлые ребятишки мчатся домой.",
-            "Книга весёлая и хорошо написана.",
-            "Предполагается активное обсуждение.",
-            "Она была миловидной, немного полной энергичной девочкой.",
-            "Отель расположен рядом с оживлённым портом.",
-            "Вино имеет выраженный фруктовый вкус.",
-            "В детстве он обладал живым пытливым умом.",
-            "Оживлённая атмосфера заставляет людей возвращаться в это кафе.",
-            "Книга написана достаточно живым языком, хотя часто попадаются канцеляризмы. (Ньюсуик)",
-            "Эстрадные артисты преподнесли яркое представление.",
-            "Он мастерски схватывает детали и очень живо пишет.",
-            "Они взбодрились, активно поиграв в теннис.",
-            "В книге увлекательно рассказывается о её путешествиях.",
-            "Даже Паула проявила живой интерес к политике.",
-            "Энергичная, живая, властная женщина, хорошо умеющая руководить.",
-            "Налетевший ветерок раздул небольшое пламя в яркий костёр.",
-            "Он любит вести живой диалог с гостями.",
-            "Он по-прежнему сохранил ясность рассудка и полностью владел своим живым умом.",
-            "На вечеринке было слишком много застенчивых тихонь, поэтому она так по-настоящему и не оживилась.",
-            "Было много оживлённых споров по поводу того, должны ли женщины проводить больше времени дома.",
-            "Летом общественная жизнь этого курортного городка оживляется, но во время долгой зимы она приходит в полное затишье."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "Слова,_которые_внешне_напоминают_наречие,_но_на_самом_деле_являются_прилагательными"
-        ]
-    }
+  "lively": {
+    "comment": [
+      "liver",
+      "live",
+      "alive",
+      "olive",
+      "living"
+    ],
+    "translate": "оживлённый, живой, яркий, веселый, быстрый, оживленно, весело",
+    "transcription": " |ˈlaɪvli|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "Слова,_которые_внешне_напоминают_наречие,_но_на_самом_деле_являются_прилагательными"
+    ],
+    "examples": [
+      {
+        "eng": "They had a lively debate.",
+        "ru": "У них была оживлённая дискуссия.",
+        "learn": 0
+      },
+      {
+        "eng": "He was lively in conversation.",
+        "ru": "В разговоре он очень оживлялся.",
+        "learn": 0
+      },
+      {
+        "eng": "Lively children race for home.",
+        "ru": "Весёлые ребятишки мчатся домой.",
+        "learn": 0
+      },
+      {
+        "eng": "The book is lively and well written.",
+        "ru": "Книга весёлая и хорошо написана.",
+        "learn": 0
+      },
+      {
+        "eng": "A lively discussion is expected.",
+        "ru": "Предполагается активное обсуждение.",
+        "learn": 0
+      },
+      {
+        "eng": "She was a nice round lively little girl.",
+        "ru": "Она была миловидной, немного полной энергичной девочкой.",
+        "learn": 0
+      },
+      {
+        "eng": "The hotel is situated next to the lively bustling port.",
+        "ru": "Отель расположен рядом с оживлённым портом.",
+        "learn": 0
+      },
+      {
+        "eng": "The wine has a lively fruity flavour.",
+        "ru": "Вино имеет выраженный фруктовый вкус.",
+        "learn": 0
+      },
+      {
+        "eng": "As a child he had a lively inquiring mind.",
+        "ru": "В детстве он обладал живым пытливым умом.",
+        "learn": 1
+      },
+      {
+        "eng": "A lively atmosphere keeps people coming back to the café.",
+        "ru": "Оживлённая атмосфера заставляет людей возвращаться в это кафе.",
+        "learn": 0
+      },
+      {
+        "eng": "The prose, while often lively, lapses into bureaucratese. (Newsweek)",
+        "ru": "Книга написана достаточно живым языком, хотя часто попадаются канцеляризмы. (Ньюсуик)",
+        "learn": 0
+      },
+      {
+        "eng": "The entertainers served up a lively show.",
+        "ru": "Эстрадные артисты преподнесли яркое представление.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a demon for detail and a lively writer.",
+        "ru": "Он мастерски схватывает детали и очень живо пишет.",
+        "learn": 0
+      },
+      {
+        "eng": "They recreated themselves with lively tennis.",
+        "ru": "Они взбодрились, активно поиграв в теннис.",
+        "learn": 0
+      },
+      {
+        "eng": "The book offers a lively account of her travels.",
+        "ru": "В книге увлекательно рассказывается о её путешествиях.",
+        "learn": 0
+      },
+      {
+        "eng": "Even Paula has shown a lively interest in politics.",
+        "ru": "Даже Паула проявила живой интерес к политике.",
+        "learn": 0
+      },
+      {
+        "eng": "That brisk, managing, lively, imperious woman. (W. M. Thackeray)",
+        "ru": "Энергичная, живая, властная женщина, хорошо умеющая руководить.",
+        "learn": 0
+      },
+      {
+        "eng": "The little fire was fanned by a passing breeze to a lively flame.",
+        "ru": "Налетевший ветерок раздул небольшое пламя в яркий костёр.",
+        "learn": 0
+      },
+      {
+        "eng": "He likes to engage in lively discourse with his visitors.",
+        "ru": "Он любит вести живой диалог с гостями.",
+        "learn": 1
+      },
+      {
+        "eng": "He still had all his marbles and was in full possession of a lively mind.",
+        "ru": "Он по-прежнему сохранил ясность рассудка и полностью владел своим живым умом.",
+        "learn": 0
+      },
+      {
+        "eng": "There were too many wallflowers at the party, so things never really got lively.",
+        "ru": "На вечеринке было слишком много застенчивых тихонь, поэтому она так по-настоящему и не оживилась.",
+        "learn": 0
+      },
+      {
+        "eng": "There was much lively debate about whether women should spend more time in the home.",
+        "ru": "Было много оживлённых споров по поводу того, должны ли женщины проводить больше времени дома.",
+        "learn": 1
+      },
+      {
+        "eng": "The resort community's social scene is lively during the summer but undergoes a deep quiescence during the long winter.",
+        "ru": "Летом общественная жизнь этого курортного городка оживляется, но во время долгой зимы она приходит в полное затишье.",
+        "learn": 0
+      }
+    ]
+  }
 }

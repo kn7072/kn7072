@@ -1,89 +1,176 @@
 {
-    "main": {
-        "comment": [
-            "maintain",
-            "maintenance",
-            "mainly",
-            "domain",
-            "remainder"
-        ],
-        "translate": "основной, главный, магистральный, сильный, магистраль, главная часть",
-        "transcription": " |meɪn|",
-        "antonyms": [],
-        "mnemonic": [
-            "main [мейн] главный - Главная битва англичан была при (Эль-Ала-мейн-е).",
-            "domain [də'meɪn]\ndominant- преобладающий, господствующий\ndominate - преобладать\ndomination - господство, преобладание\ndominion - владение или власть\n***\nСФЕРА влияния - домен. (это) domain\nМоё ВЛАДЕНИЕ - домен. (это) domain\n***\nmain domain - основная сфера",
-            "main [meɪn]\ndomain [də'meɪn] - область, сфера, владение\nremain [rɪ'meɪn] - оставаться, сохраниться\n***\nГЛАВНУЮ идею выделить сумей (н). (это) main\nОСНОВНОЕ найти сумей (н). (это) main\n***\nВыбери путь главный \"main\"\nи получи владение \"domain\"."
-        ],
-        "examples": [
-            "But now to the main question.",
-            "In the main they agree with us.",
-            "I'll meet you outside the main entrance.",
-            "The main problem is unemployment.",
-            "The house is not yet connected to the mains.",
-            "Our main trust was in our feet.",
-            "The path leads down to the main road.",
-            "Driving down the main road.",
-            "The main thing is not to panic.",
-            "Our hotel is right on the main drag.",
-            "Rome was his main place of residence.",
-            "It's time to serve up the main course.",
-            "My radio runs either off batteries or off the mains.",
-            "We had fish for the main course.",
-            "This brings me to the main point.",
-            "The main crops were oats and barley.",
-            "The report found that many of Yorkshire's water mains needed replacing.",
-            "Tobacco is their main crop.",
-            "Select PRINT from the main menu.",
-            "Can you take me to the main entrance?",
-            "Guinness is the main sponsor.",
-            "He dashed for the main entrance.",
-            "the main tenet of his philosophy",
-            "Turn off the water at the mains.",
-            "Let's recapitulate the main ideas.",
-            "There are two main types of sleep.",
-            "The house fronts Main Street.",
-            "The house fronts on Main Street.",
-            "a diversion from the main highway",
-            "Our main overseas market is Japan."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "А сейчас обсудим главный вопрос.",
-            "В основном они с нами согласны.",
-            "Встретимся у главного входа.",
-            "Основная проблема — это безработица.",
-            "Этот дом пока ещё не подключён к городским коммуникациям.",
-            "Мы полагались только на собственные ноги.",
-            "Эта тропинка ведёт к главной дороге.",
-            "Еду по магистрали.",
-            "Самое главное — не паниковать.",
-            "Наша гостиница находится прямо на главной улице.",
-            "Рим был его основным местом жительства.",
-            "Пора подавать горячее.",
-            "Мой приёмник работает или от батареек, или от сети.",
-            "На второе у нас была рыба.",
-            "Это подводит меня к главному.",
-            "Основными культурами были овёс и ячмень.",
-            "В докладе отмечалось, что многие из водопроводов Йоркшира нуждаются в замене.",
-            "Их основной сельскохозяйственной культурой является табак.",
-            "Выберите в главном меню команду \"ПЕЧАТЬ\".",
-            "Вы не могли бы отвести меня к главному входу?",
-            "Главный спонсор — компания \"Гиннесс\".",
-            "Он бросился к главному входу.",
-            "основной принцип его философии",
-            "Перекройте воду на трубопроводе.",
-            "Давайте кратко повторим основные мысли.",
-            "Существует два основных типа сна.",
-            "Фасад дома выходит на Мэйн-стрит.",
-            "Фасад дома выходит на Главную улицу.",
-            "съезд с магистрали",
-            "Нашим основным зарубежным рынком является Япония."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "Прилагательные_которые_употребляются_только_перед_существительными"
-        ]
-    }
+  "main": {
+    "comment": [
+      "maintain",
+      "maintenance",
+      "mainly",
+      "domain",
+      "remainder"
+    ],
+    "translate": "основной, главный, магистральный, сильный, магистраль, главная часть",
+    "transcription": " |meɪn|",
+    "antonyms": [],
+    "mnemonic": [
+      "main [мейн] главный - Главная битва англичан была при (Эль-Ала-мейн-е).",
+      "domain [də'meɪn]\ndominant- преобладающий, господствующий\ndominate - преобладать\ndomination - господство, преобладание\ndominion - владение или власть\n***\nСФЕРА влияния - домен. (это) domain\nМоё ВЛАДЕНИЕ - домен. (это) domain\n***\nmain domain - основная сфера",
+      "main [meɪn]\ndomain [də'meɪn] - область, сфера, владение\nremain [rɪ'meɪn] - оставаться, сохраниться\n***\nГЛАВНУЮ идею выделить сумей (н). (это) main\nОСНОВНОЕ найти сумей (н). (это) main\n***\nВыбери путь главный \"main\"\nи получи владение \"domain\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Прилагательные_которые_употребляются_только_перед_существительными"
+    ],
+    "examples": [
+      {
+        "eng": "But now to the main question.",
+        "ru": "А сейчас обсудим главный вопрос.",
+        "learn": 0
+      },
+      {
+        "eng": "In the main they agree with us.",
+        "ru": "В основном они с нами согласны.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll meet you outside the main entrance.",
+        "ru": "Встретимся у главного входа.",
+        "learn": 0
+      },
+      {
+        "eng": "The main problem is unemployment.",
+        "ru": "Основная проблема — это безработица.",
+        "learn": 0
+      },
+      {
+        "eng": "The house is not yet connected to the mains.",
+        "ru": "Этот дом пока ещё не подключён к городским коммуникациям.",
+        "learn": 0
+      },
+      {
+        "eng": "Our main trust was in our feet.",
+        "ru": "Мы полагались только на собственные ноги.",
+        "learn": 0
+      },
+      {
+        "eng": "The path leads down to the main road.",
+        "ru": "Эта тропинка ведёт к главной дороге.",
+        "learn": 0
+      },
+      {
+        "eng": "Driving down the main road.",
+        "ru": "Еду по магистрали.",
+        "learn": 0
+      },
+      {
+        "eng": "The main thing is not to panic.",
+        "ru": "Самое главное — не паниковать.",
+        "learn": 1
+      },
+      {
+        "eng": "Our hotel is right on the main drag.",
+        "ru": "Наша гостиница находится прямо на главной улице.",
+        "learn": 0
+      },
+      {
+        "eng": "Rome was his main place of residence.",
+        "ru": "Рим был его основным местом жительства.",
+        "learn": 0
+      },
+      {
+        "eng": "It's time to serve up the main course.",
+        "ru": "Пора подавать горячее.",
+        "learn": 0
+      },
+      {
+        "eng": "My radio runs either off batteries or off the mains.",
+        "ru": "Мой приёмник работает или от батареек, или от сети.",
+        "learn": 0
+      },
+      {
+        "eng": "We had fish for the main course.",
+        "ru": "На второе у нас была рыба.",
+        "learn": 0
+      },
+      {
+        "eng": "This brings me to the main point.",
+        "ru": "Это подводит меня к главному.",
+        "learn": 0
+      },
+      {
+        "eng": "The main crops were oats and barley.",
+        "ru": "Основными культурами были овёс и ячмень.",
+        "learn": 0
+      },
+      {
+        "eng": "The report found that many of Yorkshire's water mains needed replacing.",
+        "ru": "В докладе отмечалось, что многие из водопроводов Йоркшира нуждаются в замене.",
+        "learn": 0
+      },
+      {
+        "eng": "Tobacco is their main crop.",
+        "ru": "Их основной сельскохозяйственной культурой является табак.",
+        "learn": 0
+      },
+      {
+        "eng": "Select PRINT from the main menu.",
+        "ru": "Выберите в главном меню команду \"ПЕЧАТЬ\".",
+        "learn": 0
+      },
+      {
+        "eng": "Can you take me to the main entrance?",
+        "ru": "Вы не могли бы отвести меня к главному входу?",
+        "learn": 0
+      },
+      {
+        "eng": "Guinness is the main sponsor.",
+        "ru": "Главный спонсор — компания \"Гиннесс\".",
+        "learn": 0
+      },
+      {
+        "eng": "He dashed for the main entrance.",
+        "ru": "Он бросился к главному входу.",
+        "learn": 1
+      },
+      {
+        "eng": "the main tenet of his philosophy",
+        "ru": "основной принцип его философии",
+        "learn": 0
+      },
+      {
+        "eng": "Turn off the water at the mains.",
+        "ru": "Перекройте воду на трубопроводе.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's recapitulate the main ideas.",
+        "ru": "Давайте кратко повторим основные мысли.",
+        "learn": 0
+      },
+      {
+        "eng": "There are two main types of sleep.",
+        "ru": "Существует два основных типа сна.",
+        "learn": 0
+      },
+      {
+        "eng": "The house fronts Main Street.",
+        "ru": "Фасад дома выходит на Мэйн-стрит.",
+        "learn": 0
+      },
+      {
+        "eng": "The house fronts on Main Street.",
+        "ru": "Фасад дома выходит на Главную улицу.",
+        "learn": 0
+      },
+      {
+        "eng": "a diversion from the main highway",
+        "ru": "съезд с магистрали",
+        "learn": 0
+      },
+      {
+        "eng": "Our main overseas market is Japan.",
+        "ru": "Нашим основным зарубежным рынком является Япония.",
+        "learn": 0
+      }
+    ]
+  }
 }

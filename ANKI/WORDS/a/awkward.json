@@ -1,100 +1,186 @@
 {
-    "awkward": {
-        "comment": [
-            "reward",
-            "award",
-            "towards",
-            "backward",
-            "backwards",
-            "downward",
-            "downwards",
-            "forward",
-            "forwards",
-            "afterwards",
-            "inwards",
-            "outwards",
-            "straightforward",
-            "ward",
-            "wardrobe",
-            "upwards",
-            "upward",
-            "toward",
-            "onwards"
-        ],
-        "translate": "неловкий, неуклюжий, неудобный, угловатый, жопа",
-        "transcription": " |ˈɔːkwərd|",
-        "antonyms": [],
-        "mnemonic": [
-            "awkward [о':квед] неловкий, неуклюжий, неудобный - За (оквед-уками) неловкие и неуклюжие прячутся."
-        ],
-        "examples": [
-            "She is awkward at dancing.",
-            "Monday is awkward for me.",
-            "What an awkward position I'm now placed in!",
-            "He is awkward with children.",
-            "She was afraid he was going to ask an awkward question.",
-            "He tried to smooth over the awkwardness of the situation.",
-            "That's an awkward proposition.",
-            "He feels awkward with strangers.",
-            "It is awkward to discuss such matters in public.",
-            "Vera smiled awkwardly.",
-            "I hoped he would stop asking awkward questions.",
-            "He has an awkward gait.",
-            "They arrived at an awkward time.",
-            "events suddenly took an awkward turn",
-            "He felt somewhat awkward in his suit.",
-            "There was an awkward pause in the conversation.",
-            "I often find myself in awkward situations.",
-            "The machine is very awkward to operate.",
-            "That kid's always asking awkward questions.",
-            "I felt clumsy, shy and awkward at the party.",
-            "She is an awkward writer.",
-            "There was an awkward silence between them.",
-            "A good carpenter can make a cupboard to fit the most awkward space.",
-            "They threw a few awkward questions at me.",
-            "I'm sorry to call at such an awkward time but I won't keep you a minute.",
-            "an unattractive, awkward baby bird",
-            "An awkward pause followed his remark.",
-            "an awkward intermission between speeches",
-            "Please help me to clip this tie on, it's rather awkward.",
-            "The story contained some awkward writing."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она неуклюже танцует.",
-            "Мне неудобен понедельник.",
-            "В каком же глупом положении я сейчас оказался!",
-            "Он неловко себя чувствует с детьми.",
-            "Она боялась, что он задаст неудобный вопрос.",
-            "Он попытался сгладить неловкость ситуации.",
-            "Это дело нелёгкое. / Это трудная задачка. (амер. разг. proposition = дело, задача, проблема)",
-            "Он чувствует себя неловко с незнакомыми людьми.",
-            "Неловко обсуждать такие вопросы на людях.",
-            "Вера натянуто / смущённо улыбнулась.",
-            "Я надеялся на то, что он перестанет задавать неудобные вопросы.",
-            "У него неуклюжая походка.",
-            "Они приехали в неудобное /неудачное/ время.",
-            "неожиданно, события стали развиваться нежелательным образом",
-            "Он чувствовал себя несколько неловко в своём костюме.",
-            "В разговоре возникла неловкая пауза.",
-            "Я часто оказываюсь в неловких ситуациях.",
-            "На этой машине очень неудобно работать.",
-            "Этот ребёнок вечно задаёт неудобные вопросы.",
-            "На вечеринке я чувствовал себя каким-то неповоротливым, робким и неуклюжим.",
-            "Пишет она неумело.",
-            "Между ними наступило неловкое молчание.",
-            "Хороший столяр может сделать шкаф, подходящий к самому неказистому помещению.",
-            "Мне задали несколько резких и неудобных вопросов.",
-            "Простите, что звоню в такое неподходящее время, но я всего на минутку.",
-            "невзрачный, неуклюжий птенец",
-            "За его замечанием последовала неловкая пауза.",
-            "неловкая пауза между выступлениями",
-            "Помоги мне прикрепить этот бант, что-то у меня не получается.",
-            "Статья была написана несколько неуклюжим стилем."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "awkward": {
+    "comment": [
+      "reward",
+      "award",
+      "towards",
+      "backward",
+      "backwards",
+      "downward",
+      "downwards",
+      "forward",
+      "forwards",
+      "afterwards",
+      "inwards",
+      "outwards",
+      "straightforward",
+      "ward",
+      "wardrobe",
+      "upwards",
+      "upward",
+      "toward",
+      "onwards"
+    ],
+    "translate": "неловкий, неуклюжий, неудобный, угловатый, жопа",
+    "transcription": " |ˈɔːkwərd|",
+    "antonyms": [],
+    "mnemonic": [
+      "awkward [о':квед] неловкий, неуклюжий, неудобный - За (оквед-уками) неловкие и неуклюжие прячутся."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She is awkward at dancing.",
+        "ru": "Она неуклюже танцует.",
+        "learn": 0
+      },
+      {
+        "eng": "Monday is awkward for me.",
+        "ru": "Мне неудобен понедельник.",
+        "learn": 0
+      },
+      {
+        "eng": "What an awkward position I'm now placed in!",
+        "ru": "В каком же глупом положении я сейчас оказался!",
+        "learn": 0
+      },
+      {
+        "eng": "He is awkward with children.",
+        "ru": "Он неловко себя чувствует с детьми.",
+        "learn": 0
+      },
+      {
+        "eng": "She was afraid he was going to ask an awkward question.",
+        "ru": "Она боялась, что он задаст неудобный вопрос.",
+        "learn": 1
+      },
+      {
+        "eng": "He tried to smooth over the awkwardness of the situation.",
+        "ru": "Он попытался сгладить неловкость ситуации.",
+        "learn": 0
+      },
+      {
+        "eng": "That's an awkward proposition.",
+        "ru": "Это дело нелёгкое. / Это трудная задачка. (амер. разг. proposition = дело, задача, проблема)",
+        "learn": 0
+      },
+      {
+        "eng": "He feels awkward with strangers.",
+        "ru": "Он чувствует себя неловко с незнакомыми людьми.",
+        "learn": 0
+      },
+      {
+        "eng": "It is awkward to discuss such matters in public.",
+        "ru": "Неловко обсуждать такие вопросы на людях.",
+        "learn": 0
+      },
+      {
+        "eng": "Vera smiled awkwardly.",
+        "ru": "Вера натянуто / смущённо улыбнулась.",
+        "learn": 0
+      },
+      {
+        "eng": "I hoped he would stop asking awkward questions.",
+        "ru": "Я надеялся на то, что он перестанет задавать неудобные вопросы.",
+        "learn": 0
+      },
+      {
+        "eng": "He has an awkward gait.",
+        "ru": "У него неуклюжая походка.",
+        "learn": 0
+      },
+      {
+        "eng": "They arrived at an awkward time.",
+        "ru": "Они приехали в неудобное /неудачное/ время.",
+        "learn": 0
+      },
+      {
+        "eng": "events suddenly took an awkward turn",
+        "ru": "неожиданно, события стали развиваться нежелательным образом",
+        "learn": 0
+      },
+      {
+        "eng": "He felt somewhat awkward in his suit.",
+        "ru": "Он чувствовал себя несколько неловко в своём костюме.",
+        "learn": 1
+      },
+      {
+        "eng": "There was an awkward pause in the conversation.",
+        "ru": "В разговоре возникла неловкая пауза.",
+        "learn": 1
+      },
+      {
+        "eng": "I often find myself in awkward situations.",
+        "ru": "Я часто оказываюсь в неловких ситуациях.",
+        "learn": 0
+      },
+      {
+        "eng": "The machine is very awkward to operate.",
+        "ru": "На этой машине очень неудобно работать.",
+        "learn": 1
+      },
+      {
+        "eng": "That kid's always asking awkward questions.",
+        "ru": "Этот ребёнок вечно задаёт неудобные вопросы.",
+        "learn": 0
+      },
+      {
+        "eng": "I felt clumsy, shy and awkward at the party.",
+        "ru": "На вечеринке я чувствовал себя каким-то неповоротливым, робким и неуклюжим.",
+        "learn": 0
+      },
+      {
+        "eng": "She is an awkward writer.",
+        "ru": "Пишет она неумело.",
+        "learn": 0
+      },
+      {
+        "eng": "There was an awkward silence between them.",
+        "ru": "Между ними наступило неловкое молчание.",
+        "learn": 0
+      },
+      {
+        "eng": "A good carpenter can make a cupboard to fit the most awkward space.",
+        "ru": "Хороший столяр может сделать шкаф, подходящий к самому неказистому помещению.",
+        "learn": 0
+      },
+      {
+        "eng": "They threw a few awkward questions at me.",
+        "ru": "Мне задали несколько резких и неудобных вопросов.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm sorry to call at such an awkward time but I won't keep you a minute.",
+        "ru": "Простите, что звоню в такое неподходящее время, но я всего на минутку.",
+        "learn": 0
+      },
+      {
+        "eng": "an unattractive, awkward baby bird",
+        "ru": "невзрачный, неуклюжий птенец",
+        "learn": 0
+      },
+      {
+        "eng": "An awkward pause followed his remark.",
+        "ru": "За его замечанием последовала неловкая пауза.",
+        "learn": 0
+      },
+      {
+        "eng": "an awkward intermission between speeches",
+        "ru": "неловкая пауза между выступлениями",
+        "learn": 0
+      },
+      {
+        "eng": "Please help me to clip this tie on, it's rather awkward.",
+        "ru": "Помоги мне прикрепить этот бант, что-то у меня не получается.",
+        "learn": 0
+      },
+      {
+        "eng": "The story contained some awkward writing.",
+        "ru": "Статья была написана несколько неуклюжим стилем.",
+        "learn": 0
+      }
+    ]
+  }
 }

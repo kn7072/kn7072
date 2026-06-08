@@ -1,81 +1,167 @@
 {
-    "connection": {
-        "comment": [
-            "connect",
-            "connected"
-        ],
-        "translate": "соединение, связь, связи, присоединение, сочленение, родство, родственник",
-        "transcription": " |kəˈnekʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I cannot trace any connection to the event.",
-            "He has powerful connections.",
-            "Police are holding two men in connection with the robbery.",
-            "The baron is my intimate connection.",
-            "I'm not sure I see the connection.",
-            "His mind groped to make the connection.",
-            "Two suspects were arrested today in connection with the robbery.",
-            "A man is being held in police custody in connection with the murder.",
-            "He is English, but has Irish connections.",
-            "They're offering free Internet connection.",
-            "The school has no connection with the museum.",
-            "If this train gets delayed we'll miss our connection to Paris.",
-            "He claims a connection to British royalty.",
-            "The study indicates a connection between poverty and crime.",
-            "Many jazz album covers have little connection with the contents.",
-            "The socket allows connection to a PC.",
-            "There was a connection via the internet.",
-            "Cheshunt has good rail connections to London.",
-            "She intuited a connection between the two crimes.",
-            "There's a loose connection (=wires which are not joined correctly).",
-            "He demonstrated the close connection between social conditions and health.",
-            "Police have so far failed to establish a connection between the two murders.",
-            "the weakness of a radio signal connection",
-            "We'll get a bus connection at the other end.",
-            "the connection between smoking and lung cancer",
-            "Our family feels a deep connection to the land.",
-            "There is no connection between the two phenomena.",
-            "He was arrested in connection with drug smuggling.",
-            "Williams apparently has no connection to the case.",
-            "No causal connection between the events was found."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я не нахожу никакой связи с этим событием.",
-            "У него есть очень влиятельные знакомые.",
-            "Полиция удерживает двух мужчин в связи с ограблением.",
-            "Барон — мой близкий родственник.",
-            "Что-то я не вижу особой связи.",
-            "Его разум попытался нащупать связь. (между фактами, событиями, информацией и т.п.)",
-            "Сегодня в связи с ограблением были арестованы двое подозреваемых.",
-            "В связи с убийством полицией был взят под стражу мужчина.",
-            "Сам он англичанин, но у него есть родственники-ирландцы.",
-            "Они предлагают бесплатный доступ в Интернет.",
-            "Школа не имеет никакой связи с музеем.",
-            "Если этот поезд задержится, мы опоздаем на пересадку в Париже.",
-            "Он утверждает, что находится в родстве с Британской королевской семьёй.",
-            "Данное исследование указывает на связь между бедностью и преступностью.",
-            "Обложки многих джазовых альбомов слабо отражают их содержание.",
-            "Этот разъём позволяет подключаться к персональному компьютеру.",
-            "Была связь через интернет.",
-            "Чезант имеет хорошее железнодорожное сообщение с Лондоном.",
-            "Она интуитивно прочувствовала связь между этими преступлениями.",
-            "Там неплотное соединение (т.е. неправильно подсоединённые провода).",
-            "Он продемонстрировал тесную связь между социальными условиями и здоровьем.",
-            "Полиции пока не удалось установить связь между двумя этими убийствами.",
-            "слабость сигнала радиосвязи",
-            "На другом конце мы подключимся к шине.",
-            "связь между курением и раком лёгких",
-            "Наша семья чувствует глубокую связь с землёй.",
-            "Между этими двумя феноменами нет никакой связи.",
-            "Он был арестован в связи с контрабандой наркотиков.",
-            "Уильямс явно не имеет никакого отношения к этому делу.",
-            "Между этими событиями не было найдено никаких причинно-следственных связей."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "connection": {
+    "comment": [
+      "connect",
+      "connected"
+    ],
+    "translate": "соединение, связь, связи, присоединение, сочленение, родство, родственник",
+    "transcription": " |kəˈnekʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I cannot trace any connection to the event.",
+        "ru": "Я не нахожу никакой связи с этим событием.",
+        "learn": 1
+      },
+      {
+        "eng": "He has powerful connections.",
+        "ru": "У него есть очень влиятельные знакомые.",
+        "learn": 0
+      },
+      {
+        "eng": "Police are holding two men in connection with the robbery.",
+        "ru": "Полиция удерживает двух мужчин в связи с ограблением.",
+        "learn": 1
+      },
+      {
+        "eng": "The baron is my intimate connection.",
+        "ru": "Барон — мой близкий родственник.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm not sure I see the connection.",
+        "ru": "Что-то я не вижу особой связи.",
+        "learn": 0
+      },
+      {
+        "eng": "His mind groped to make the connection.",
+        "ru": "Его разум попытался нащупать связь. (между фактами, событиями, информацией и т.п.)",
+        "learn": 0
+      },
+      {
+        "eng": "Two suspects were arrested today in connection with the robbery.",
+        "ru": "Сегодня в связи с ограблением были арестованы двое подозреваемых.",
+        "learn": 0
+      },
+      {
+        "eng": "A man is being held in police custody in connection with the murder.",
+        "ru": "В связи с убийством полицией был взят под стражу мужчина.",
+        "learn": 0
+      },
+      {
+        "eng": "He is English, but has Irish connections.",
+        "ru": "Сам он англичанин, но у него есть родственники-ирландцы.",
+        "learn": 0
+      },
+      {
+        "eng": "They're offering free Internet connection.",
+        "ru": "Они предлагают бесплатный доступ в Интернет.",
+        "learn": 0
+      },
+      {
+        "eng": "The school has no connection with the museum.",
+        "ru": "Школа не имеет никакой связи с музеем.",
+        "learn": 0
+      },
+      {
+        "eng": "If this train gets delayed we'll miss our connection to Paris.",
+        "ru": "Если этот поезд задержится, мы опоздаем на пересадку в Париже.",
+        "learn": 0
+      },
+      {
+        "eng": "He claims a connection to British royalty.",
+        "ru": "Он утверждает, что находится в родстве с Британской королевской семьёй.",
+        "learn": 1
+      },
+      {
+        "eng": "The study indicates a connection between poverty and crime.",
+        "ru": "Данное исследование указывает на связь между бедностью и преступностью.",
+        "learn": 0
+      },
+      {
+        "eng": "Many jazz album covers have little connection with the contents.",
+        "ru": "Обложки многих джазовых альбомов слабо отражают их содержание.",
+        "learn": 0
+      },
+      {
+        "eng": "The socket allows connection to a PC.",
+        "ru": "Этот разъём позволяет подключаться к персональному компьютеру.",
+        "learn": 1
+      },
+      {
+        "eng": "There was a connection via the internet.",
+        "ru": "Была связь через интернет.",
+        "learn": 0
+      },
+      {
+        "eng": "Cheshunt has good rail connections to London.",
+        "ru": "Чезант имеет хорошее железнодорожное сообщение с Лондоном.",
+        "learn": 0
+      },
+      {
+        "eng": "She intuited a connection between the two crimes.",
+        "ru": "Она интуитивно прочувствовала связь между этими преступлениями.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a loose connection (=wires which are not joined correctly).",
+        "ru": "Там неплотное соединение (т.е. неправильно подсоединённые провода).",
+        "learn": 0
+      },
+      {
+        "eng": "He demonstrated the close connection between social conditions and health.",
+        "ru": "Он продемонстрировал тесную связь между социальными условиями и здоровьем.",
+        "learn": 0
+      },
+      {
+        "eng": "Police have so far failed to establish a connection between the two murders.",
+        "ru": "Полиции пока не удалось установить связь между двумя этими убийствами.",
+        "learn": 0
+      },
+      {
+        "eng": "the weakness of a radio signal connection",
+        "ru": "слабость сигнала радиосвязи",
+        "learn": 0
+      },
+      {
+        "eng": "We'll get a bus connection at the other end.",
+        "ru": "На другом конце мы подключимся к шине.",
+        "learn": 0
+      },
+      {
+        "eng": "the connection between smoking and lung cancer",
+        "ru": "связь между курением и раком лёгких",
+        "learn": 0
+      },
+      {
+        "eng": "Our family feels a deep connection to the land.",
+        "ru": "Наша семья чувствует глубокую связь с землёй.",
+        "learn": 0
+      },
+      {
+        "eng": "There is no connection between the two phenomena.",
+        "ru": "Между этими двумя феноменами нет никакой связи.",
+        "learn": 0
+      },
+      {
+        "eng": "He was arrested in connection with drug smuggling.",
+        "ru": "Он был арестован в связи с контрабандой наркотиков.",
+        "learn": 0
+      },
+      {
+        "eng": "Williams apparently has no connection to the case.",
+        "ru": "Уильямс явно не имеет никакого отношения к этому делу.",
+        "learn": 0
+      },
+      {
+        "eng": "No causal connection between the events was found.",
+        "ru": "Между этими событиями не было найдено никаких причинно-следственных связей.",
+        "learn": 1
+      }
+    ]
+  }
 }

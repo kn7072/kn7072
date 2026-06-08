@@ -1,86 +1,173 @@
 {
-    "bomb": {
-        "comment": [
-            "bomber",
-            "bombing",
-            "comb",
-            "tomb"
-        ],
-        "translate": "бомба, мина, баллон, ручная граната, бомбить, сбрасывать бомбы",
-        "transcription": " |bɑːm|",
-        "antonyms": [],
-        "mnemonic": [
-            "bomb [bɔm]\n***\nСБРАСЫВАЮТ БОМБЫ - пыль столбом. (это) bomb\nБОМБЯТ и пыль столбом. (это) bomb\nБомбы - пыль столбом. (это) bomb"
-        ],
-        "examples": [
-            "The bomb was just a dummy.",
-            "I bombed my midterm.",
-            "We exploded the nuclear bomb.",
-            "The play bombed on Broadway.",
-            "A bomb went off downtown.",
-            "The bomb blasted the roof off.",
-            "The bomb failed to hit its target.",
-            "His latest play bombed on Broadway.",
-            "They took apart a dummy bomb.",
-            "The bomb injured 12 civilians.",
-            "The bomb blew the windows out.",
-            "That new P Diddy CD is the bomb.",
-            "India is a demographic time bomb.",
-            "The movie bombed at the box office.",
-            "The bomb blast killed eight people.",
-            "He bombed at his first performance.",
-            "The pilot gave the order to bomb up.",
-            "The bomb blast destroyed the village.",
-            "The beats in this joint were the bomb!",
-            "We feared he would discharge the bomb.",
-            "The bomb warning had a galvanic effect.",
-            "The bomb left a big hole in the ground.",
-            "Guests panicked when the bomb exploded.",
-            "A bomb like that could blow you to bits.",
-            "Any movement could have set off the bomb.",
-            "The bomb was activated by remote control.",
-            "a terrorist bomb that left 168 people dead",
-            "The fire was started by an incendiary bomb.",
-            "The city was heavily bombed during the war.",
-            "The city centre was devastated by the bomb."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Бомба оказалась всего лишь муляжом.",
-            "Я завалил экзамены первой сессии.",
-            "Мы взорвали ядерную бомбу.",
-            "Спектакль провалился на Бродвее.",
-            "Бомба взорвалась в центре города.",
-            "Взрыв бомбы снёс крышу.",
-            "Бомба не достигла своей цели.",
-            "Его последний спектакль провалился на Бродвее.",
-            "Они разобрали на части макет /муляж/ бомбы.",
-            "Эта бомба ранила двенадцать мирных жителей.",
-            "От взрыва бомбы вылетели стёкла.",
-            "Новый компакт-диск P Diddy — просто бомба.",
-            "Индия — это демографическая бомба замедленного действия.",
-            "Фильм провалился в прокате.",
-            "В результате взрыва погибли восемь человек.",
-            "Он полностью провалил своё первое выступление.",
-            "Пилот отдал приказ загружать бомбы.",
-            "Взрывом этой бомбы деревня была уничтожена.",
-            "Музыка была в этом кабаке - просто улет!",
-            "Мы боялись, что он взорвёт бомбу.",
-            "Предупреждение о минировании взбудоражило всех.",
-            "От бомбы осталась глубокая воронка в земле.",
-            "Когда взорвалась бомба, гости запаниковали.",
-            "Такая бомба может разнести вас /человека/ на куски.",
-            "Любое движение могло привести к взрыву бомбы.",
-            "Бомба была активирована дистанционно.",
-            "бомба, из-за которой погибли сто шестьдесят восемь человек",
-            "Пожар начался из-за зажигательной бомбы.",
-            "Во время войны город сильно разбомбили.",
-            "Центр города был разрушен бомбой."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "-mb_=_[m]"
-        ]
-    }
+  "bomb": {
+    "comment": [
+      "bomber",
+      "bombing",
+      "comb",
+      "tomb"
+    ],
+    "translate": "бомба, мина, баллон, ручная граната, бомбить, сбрасывать бомбы",
+    "transcription": " |bɑːm|",
+    "antonyms": [],
+    "mnemonic": [
+      "bomb [bɔm]\n***\nСБРАСЫВАЮТ БОМБЫ - пыль столбом. (это) bomb\nБОМБЯТ и пыль столбом. (это) bomb\nБомбы - пыль столбом. (это) bomb"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "-mb_=_[m]"
+    ],
+    "examples": [
+      {
+        "eng": "The bomb was just a dummy.",
+        "ru": "Бомба оказалась всего лишь муляжом.",
+        "learn": 0
+      },
+      {
+        "eng": "I bombed my midterm.",
+        "ru": "Я завалил экзамены первой сессии.",
+        "learn": 0
+      },
+      {
+        "eng": "We exploded the nuclear bomb.",
+        "ru": "Мы взорвали ядерную бомбу.",
+        "learn": 1
+      },
+      {
+        "eng": "The play bombed on Broadway.",
+        "ru": "Спектакль провалился на Бродвее.",
+        "learn": 0
+      },
+      {
+        "eng": "A bomb went off downtown.",
+        "ru": "Бомба взорвалась в центре города.",
+        "learn": 0
+      },
+      {
+        "eng": "The bomb blasted the roof off.",
+        "ru": "Взрыв бомбы снёс крышу.",
+        "learn": 0
+      },
+      {
+        "eng": "The bomb failed to hit its target.",
+        "ru": "Бомба не достигла своей цели.",
+        "learn": 0
+      },
+      {
+        "eng": "His latest play bombed on Broadway.",
+        "ru": "Его последний спектакль провалился на Бродвее.",
+        "learn": 0
+      },
+      {
+        "eng": "They took apart a dummy bomb.",
+        "ru": "Они разобрали на части макет /муляж/ бомбы.",
+        "learn": 0
+      },
+      {
+        "eng": "The bomb injured 12 civilians.",
+        "ru": "Эта бомба ранила двенадцать мирных жителей.",
+        "learn": 0
+      },
+      {
+        "eng": "The bomb blew the windows out.",
+        "ru": "От взрыва бомбы вылетели стёкла.",
+        "learn": 0
+      },
+      {
+        "eng": "That new P Diddy CD is the bomb.",
+        "ru": "Новый компакт-диск P Diddy — просто бомба.",
+        "learn": 0
+      },
+      {
+        "eng": "India is a demographic time bomb.",
+        "ru": "Индия — это демографическая бомба замедленного действия.",
+        "learn": 0
+      },
+      {
+        "eng": "The movie bombed at the box office.",
+        "ru": "Фильм провалился в прокате.",
+        "learn": 0
+      },
+      {
+        "eng": "The bomb blast killed eight people.",
+        "ru": "В результате взрыва погибли восемь человек.",
+        "learn": 1
+      },
+      {
+        "eng": "He bombed at his first performance.",
+        "ru": "Он полностью провалил своё первое выступление.",
+        "learn": 0
+      },
+      {
+        "eng": "The pilot gave the order to bomb up.",
+        "ru": "Пилот отдал приказ загружать бомбы.",
+        "learn": 0
+      },
+      {
+        "eng": "The bomb blast destroyed the village.",
+        "ru": "Взрывом этой бомбы деревня была уничтожена.",
+        "learn": 1
+      },
+      {
+        "eng": "The beats in this joint were the bomb!",
+        "ru": "Музыка была в этом кабаке - просто улет!",
+        "learn": 0
+      },
+      {
+        "eng": "We feared he would discharge the bomb.",
+        "ru": "Мы боялись, что он взорвёт бомбу.",
+        "learn": 0
+      },
+      {
+        "eng": "The bomb warning had a galvanic effect.",
+        "ru": "Предупреждение о минировании взбудоражило всех.",
+        "learn": 0
+      },
+      {
+        "eng": "The bomb left a big hole in the ground.",
+        "ru": "От бомбы осталась глубокая воронка в земле.",
+        "learn": 0
+      },
+      {
+        "eng": "Guests panicked when the bomb exploded.",
+        "ru": "Когда взорвалась бомба, гости запаниковали.",
+        "learn": 0
+      },
+      {
+        "eng": "A bomb like that could blow you to bits.",
+        "ru": "Такая бомба может разнести вас /человека/ на куски.",
+        "learn": 0
+      },
+      {
+        "eng": "Any movement could have set off the bomb.",
+        "ru": "Любое движение могло привести к взрыву бомбы.",
+        "learn": 0
+      },
+      {
+        "eng": "The bomb was activated by remote control.",
+        "ru": "Бомба была активирована дистанционно.",
+        "learn": 1
+      },
+      {
+        "eng": "a terrorist bomb that left 168 people dead",
+        "ru": "бомба, из-за которой погибли сто шестьдесят восемь человек",
+        "learn": 0
+      },
+      {
+        "eng": "The fire was started by an incendiary bomb.",
+        "ru": "Пожар начался из-за зажигательной бомбы.",
+        "learn": 0
+      },
+      {
+        "eng": "The city was heavily bombed during the war.",
+        "ru": "Во время войны город сильно разбомбили.",
+        "learn": 0
+      },
+      {
+        "eng": "The city centre was devastated by the bomb.",
+        "ru": "Центр города был разрушен бомбой.",
+        "learn": 1
+      }
+    ]
+  }
 }

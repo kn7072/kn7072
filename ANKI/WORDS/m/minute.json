@@ -1,82 +1,169 @@
 {
-    "minute": {
-        "comment": [
-            "nut",
-            "nutrition"
-        ],
-        "translate": "минута, момент, мгновение, мельчайший, мелкий, набрасывать вчерне",
-        "transcription": " |ˈmɪnɪt|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Hey, wait a minute!",
-            "I'll be back in a minute.",
-            "Come here for a minute.",
-            "Wait a minute — I'm thinking.",
-            "I'll be with you in a minute.",
-            "Minute particles diffused through the atmosphere.",
-            "I saw him a minute ago.",
-            "Her handwriting is minute.",
-            "She studied the letter minutely.",
-            "You only need a minute amount.",
-            "Look, just shut up for a minute!",
-            "Hang on! I'll be back in a minute.",
-            "Wait here. I'll be back in a minute.",
-            "He was generally punctual to a minute.",
-            "I'll speak to that boy the minute he gets in.",
-            "He failed me at the last minute.",
-            "I paused for a minute to regroup.",
-            "The rain drove faster every minute.",
-            "Wait a minute, I'm puffed out.",
-            "I enjoyed every minute of it.",
-            "The dike might go any minute.",
-            "He was just here a minute ago.",
-            "Can you come here for a minute?",
-            "Wait a minute, I'm just coming.",
-            "Step in my office for a minute.",
-            "Hold on, I shan't be a minute.",
-            "He returned a few minutes later.",
-            "Lay down your book for a minute.",
-            "Johnny! Get inside, this minute!",
-            "Bake the cake for 25–30 minutes."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Эй, подождите минутку!",
-            "Я вернусь через минуту. / Сейчас вернусь.",
-            "Подойди-ка сюда на минутку.",
-            "Погоди-ка минутку: я думаю.",
-            "Я сейчас. / Я буду через минуту.",
-            "В воздухе рассеялись мельчайшие частицы.",
-            "Я видел его минуту назад.",
-            "У неё очень мелкий почерк.",
-            "Она скрупулёзно изучила это письмо.",
-            "Вам нужно лишь ничтожное количество (воды, соли, сахара и т.д.).",
-            "Слушай, заткнись-ка на минуту!",
-            "Подождите меня! Я вернусь через минуту.",
-            "Подождите здесь. Я сейчас вернусь.",
-            "Обычно он был пунктуален до минуты.",
-            "Как только этот мальчишка появится, я с ним поговорю.",
-            "Он подвёл меня в последнюю минуту.",
-            "Я взял минутную паузу, чтобы перевести дух и собраться с мыслями.",
-            "С каждой минутой дождь усиливался.",
-            "Погоди, дай отдышаться.",
-            "Я наслаждалась каждой его минутой.",
-            "Дамбу может прорвать в любую минуту.",
-            "Он был здесь всего минуту назад.",
-            "Вы не могли бы подойти сюда на минуту?",
-            "Подожди минутку, я сейчас вернусь.",
-            "Зайдите на минутку ко мне в кабинет.",
-            "Не вешай трубку, подожди минутку.",
-            "Он вернулся несколько минут спустя.",
-            "Отложите на минуту свою книгу.",
-            "Джонни! А ну давай в машину, сейчас же!",
-            "Выпекайте торт в течение 25-30 минут."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "i_+_Откр_сл_=_[i(:)]"
-        ]
-    }
+  "minute": {
+    "comment": [
+      "nut",
+      "nutrition"
+    ],
+    "translate": "минута, момент, мгновение, мельчайший, мелкий, набрасывать вчерне",
+    "transcription": " |ˈmɪnɪt|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "i_+_Откр_сл_=_[i(:)]"
+    ],
+    "examples": [
+      {
+        "eng": "Hey, wait a minute!",
+        "ru": "Эй, подождите минутку!",
+        "learn": 1
+      },
+      {
+        "eng": "I'll be back in a minute.",
+        "ru": "Я вернусь через минуту. / Сейчас вернусь.",
+        "learn": 0
+      },
+      {
+        "eng": "Come here for a minute.",
+        "ru": "Подойди-ка сюда на минутку.",
+        "learn": 0
+      },
+      {
+        "eng": "Wait a minute — I'm thinking.",
+        "ru": "Погоди-ка минутку: я думаю.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll be with you in a minute.",
+        "ru": "Я сейчас. / Я буду через минуту.",
+        "learn": 0
+      },
+      {
+        "eng": "Minute particles diffused through the atmosphere.",
+        "ru": "В воздухе рассеялись мельчайшие частицы.",
+        "learn": 0
+      },
+      {
+        "eng": "I saw him a minute ago.",
+        "ru": "Я видел его минуту назад.",
+        "learn": 0
+      },
+      {
+        "eng": "Her handwriting is minute.",
+        "ru": "У неё очень мелкий почерк.",
+        "learn": 0
+      },
+      {
+        "eng": "She studied the letter minutely.",
+        "ru": "Она скрупулёзно изучила это письмо.",
+        "learn": 0
+      },
+      {
+        "eng": "You only need a minute amount.",
+        "ru": "Вам нужно лишь ничтожное количество (воды, соли, сахара и т.д.).",
+        "learn": 0
+      },
+      {
+        "eng": "Look, just shut up for a minute!",
+        "ru": "Слушай, заткнись-ка на минуту!",
+        "learn": 0
+      },
+      {
+        "eng": "Hang on! I'll be back in a minute.",
+        "ru": "Подождите меня! Я вернусь через минуту.",
+        "learn": 0
+      },
+      {
+        "eng": "Wait here. I'll be back in a minute.",
+        "ru": "Подождите здесь. Я сейчас вернусь.",
+        "learn": 0
+      },
+      {
+        "eng": "He was generally punctual to a minute.",
+        "ru": "Обычно он был пунктуален до минуты.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll speak to that boy the minute he gets in.",
+        "ru": "Как только этот мальчишка появится, я с ним поговорю.",
+        "learn": 0
+      },
+      {
+        "eng": "He failed me at the last minute.",
+        "ru": "Он подвёл меня в последнюю минуту.",
+        "learn": 0
+      },
+      {
+        "eng": "I paused for a minute to regroup.",
+        "ru": "Я взял минутную паузу, чтобы перевести дух и собраться с мыслями.",
+        "learn": 0
+      },
+      {
+        "eng": "The rain drove faster every minute.",
+        "ru": "С каждой минутой дождь усиливался.",
+        "learn": 0
+      },
+      {
+        "eng": "Wait a minute, I'm puffed out.",
+        "ru": "Погоди, дай отдышаться.",
+        "learn": 0
+      },
+      {
+        "eng": "I enjoyed every minute of it.",
+        "ru": "Я наслаждалась каждой его минутой.",
+        "learn": 0
+      },
+      {
+        "eng": "The dike might go any minute.",
+        "ru": "Дамбу может прорвать в любую минуту.",
+        "learn": 0
+      },
+      {
+        "eng": "He was just here a minute ago.",
+        "ru": "Он был здесь всего минуту назад.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you come here for a minute?",
+        "ru": "Вы не могли бы подойти сюда на минуту?",
+        "learn": 0
+      },
+      {
+        "eng": "Wait a minute, I'm just coming.",
+        "ru": "Подожди минутку, я сейчас вернусь.",
+        "learn": 0
+      },
+      {
+        "eng": "Step in my office for a minute.",
+        "ru": "Зайдите на минутку ко мне в кабинет.",
+        "learn": 0
+      },
+      {
+        "eng": "Hold on, I shan't be a minute.",
+        "ru": "Не вешай трубку, подожди минутку.",
+        "learn": 0
+      },
+      {
+        "eng": "He returned a few minutes later.",
+        "ru": "Он вернулся несколько минут спустя.",
+        "learn": 0
+      },
+      {
+        "eng": "Lay down your book for a minute.",
+        "ru": "Отложите на минуту свою книгу.",
+        "learn": 0
+      },
+      {
+        "eng": "Johnny! Get inside, this minute!",
+        "ru": "Джонни! А ну давай в машину, сейчас же!",
+        "learn": 0
+      },
+      {
+        "eng": "Bake the cake for 25–30 minutes.",
+        "ru": "Выпекайте торт в течение 25-30 минут.",
+        "learn": 1
+      }
+    ]
+  }
 }

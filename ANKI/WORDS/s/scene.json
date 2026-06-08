@@ -1,81 +1,167 @@
 {
-    "scene": {
-        "comment": [
-            "scenery",
-            "scenario"
-        ],
-        "translate": " сцена, происшествие, эпизод, место происшествия, картина, место действия, пейзаж",
-        "transcription": "  |siːn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Police are now at the scene.",
-            "It is not his scene.",
-            "Please retake that scene.",
-            "I photographed the scene of the accident",
-            "The first act has three scenes",
-            "This scene acts well.",
-            "The police revisited the crime scene.",
-            "He dreamt a strange scene.",
-            "Let's get onto the next scene now.",
-            "Tom, picturing the scene, smiled.",
-            "a veteran of the political scene",
-            "He surprised an interesting scene.",
-            "The scene begins to fade.",
-            "the closing scene of the film",
-            "He overplayed the death scene.",
-            "Their parting was a sad scene.",
-            "This sad scene ended the movie.",
-            "It was a scene of utter confusion.",
-            "He painted scenes from everyday life.",
-            "The police barricaded the crime scene.",
-            "He was not mixed up with the drug scene.",
-            "The scene was included for comic effect.",
-            "Firefighters rushed to the accident scene.",
-            "cut from one scene to another",
-            "Fires lit up a diabolic scene.",
-            "This scene depicts country life.",
-            "Reporters converged on the scene.",
-            "I made a hasty sketch of the scene.",
-            "Fade out the last scene at the end.",
-            "The final scene was extremely violent."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Полиция сейчас на месте (преступления).",
-            "Это не то, что ему нравится. / У него другие интересы.",
-            "Пожалуйста, пересними ту сцену.",
-            "Я сфотографировал место происшествия.",
-            "В первом акте три сцены.",
-            "Эта сцена хорошо подходит для театра.",
-            "Полиция повторно посетила место преступления.",
-            "Ему приснилась странная сцена.",
-            "Теперь перейдем к следующей сцене.",
-            "Том улыбнулся, представив себе эту картину.",
-            "ветеран политической сцены",
-            "Он случайно застал интересную сцену.",
-            "Сцена начинает постепенно исчезать из виду.",
-            "заключительная сцена фильма",
-            "Он переиграл в сцене смерти.",
-            "Их расставание было грустным зрелищем.",
-            "Этой печальной сценой фильм и закончился.",
-            "Все были в полном замешательстве.",
-            "Он рисовал сцены из повседневной жизни.",
-            "Полицейские окружили /оградили/ место преступления.",
-            "Он не был замешан в наркобизнесе.",
-            "Эта сцена была включена ради комического эффекта.",
-            "Пожарные бросились к месту аварии.",
-            "перейти от одной сцены к другой",
-            "Огни осветили дьявольскую картину.",
-            "Эта сцена изображает деревенскую жизнь.",
-            "На сцене собрались журналисты.",
-            "Я сделал торопливый набросок этой картины.",
-            "Плавно приглуши яркость изображения в последней сцене.",
-            "Финальная сцена была крайне жестокой."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "scene": {
+    "comment": [
+      "scenery",
+      "scenario"
+    ],
+    "translate": " сцена, происшествие, эпизод, место происшествия, картина, место действия, пейзаж",
+    "transcription": "  |siːn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Police are now at the scene.",
+        "ru": "Полиция сейчас на месте (преступления).",
+        "learn": 0
+      },
+      {
+        "eng": "It is not his scene.",
+        "ru": "Это не то, что ему нравится. / У него другие интересы.",
+        "learn": 0
+      },
+      {
+        "eng": "Please retake that scene.",
+        "ru": "Пожалуйста, пересними ту сцену.",
+        "learn": 0
+      },
+      {
+        "eng": "I photographed the scene of the accident",
+        "ru": "Я сфотографировал место происшествия.",
+        "learn": 0
+      },
+      {
+        "eng": "The first act has three scenes",
+        "ru": "В первом акте три сцены.",
+        "learn": 0
+      },
+      {
+        "eng": "This scene acts well.",
+        "ru": "Эта сцена хорошо подходит для театра.",
+        "learn": 0
+      },
+      {
+        "eng": "The police revisited the crime scene.",
+        "ru": "Полиция повторно посетила место преступления.",
+        "learn": 0
+      },
+      {
+        "eng": "He dreamt a strange scene.",
+        "ru": "Ему приснилась странная сцена.",
+        "learn": 1
+      },
+      {
+        "eng": "Let's get onto the next scene now.",
+        "ru": "Теперь перейдем к следующей сцене.",
+        "learn": 0
+      },
+      {
+        "eng": "Tom, picturing the scene, smiled.",
+        "ru": "Том улыбнулся, представив себе эту картину.",
+        "learn": 0
+      },
+      {
+        "eng": "a veteran of the political scene",
+        "ru": "ветеран политической сцены",
+        "learn": 0
+      },
+      {
+        "eng": "He surprised an interesting scene.",
+        "ru": "Он случайно застал интересную сцену.",
+        "learn": 0
+      },
+      {
+        "eng": "The scene begins to fade.",
+        "ru": "Сцена начинает постепенно исчезать из виду.",
+        "learn": 0
+      },
+      {
+        "eng": "the closing scene of the film",
+        "ru": "заключительная сцена фильма",
+        "learn": 0
+      },
+      {
+        "eng": "He overplayed the death scene.",
+        "ru": "Он переиграл в сцене смерти.",
+        "learn": 0
+      },
+      {
+        "eng": "Their parting was a sad scene.",
+        "ru": "Их расставание было грустным зрелищем.",
+        "learn": 0
+      },
+      {
+        "eng": "This sad scene ended the movie.",
+        "ru": "Этой печальной сценой фильм и закончился.",
+        "learn": 0
+      },
+      {
+        "eng": "It was a scene of utter confusion.",
+        "ru": "Все были в полном замешательстве.",
+        "learn": 0
+      },
+      {
+        "eng": "He painted scenes from everyday life.",
+        "ru": "Он рисовал сцены из повседневной жизни.",
+        "learn": 1
+      },
+      {
+        "eng": "The police barricaded the crime scene.",
+        "ru": "Полицейские окружили /оградили/ место преступления.",
+        "learn": 0
+      },
+      {
+        "eng": "He was not mixed up with the drug scene.",
+        "ru": "Он не был замешан в наркобизнесе.",
+        "learn": 0
+      },
+      {
+        "eng": "The scene was included for comic effect.",
+        "ru": "Эта сцена была включена ради комического эффекта.",
+        "learn": 1
+      },
+      {
+        "eng": "Firefighters rushed to the accident scene.",
+        "ru": "Пожарные бросились к месту аварии.",
+        "learn": 0
+      },
+      {
+        "eng": "cut from one scene to another",
+        "ru": "перейти от одной сцены к другой",
+        "learn": 0
+      },
+      {
+        "eng": "Fires lit up a diabolic scene.",
+        "ru": "Огни осветили дьявольскую картину.",
+        "learn": 0
+      },
+      {
+        "eng": "This scene depicts country life.",
+        "ru": "Эта сцена изображает деревенскую жизнь.",
+        "learn": 1
+      },
+      {
+        "eng": "Reporters converged on the scene.",
+        "ru": "На сцене собрались журналисты.",
+        "learn": 0
+      },
+      {
+        "eng": "I made a hasty sketch of the scene.",
+        "ru": "Я сделал торопливый набросок этой картины.",
+        "learn": 0
+      },
+      {
+        "eng": "Fade out the last scene at the end.",
+        "ru": "Плавно приглуши яркость изображения в последней сцене.",
+        "learn": 0
+      },
+      {
+        "eng": "The final scene was extremely violent.",
+        "ru": "Финальная сцена была крайне жестокой.",
+        "learn": 1
+      }
+    ]
+  }
 }

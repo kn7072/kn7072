@@ -1,39 +1,219 @@
 {
-    "stick to": {
-        "comment": [],
-        "translate": "1) Придерживаться (плана, решения, правил) 2) Оставаться с (кем-либо), не покидать ",
-        "transcription": "||",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Stick to the plan and don't deviate.",
-            "They stuck together through thick and thin.",
-            "He always sticks to his principles.",
-            "They stuck to their original decision.",
-            "Let's stick to the schedule.",
-            "She sticks to her diet strictly.",
-            "Stick to me and don't get lost.",
-            "Stick to the group for safety.",
-            "She stuck to her friend throughout the ordeal.",
-            "He stuck to his team during the crisis."
-        ],
-        "example_translate": [
-            "Придерживайся плана и не отклоняйся.",
-            "Они держались вместе в горе и в радости.",
-            "Он всегда придерживается своих принципов.",
-            "Они придерживались своего первоначального решения.",
-            "Давай придерживаться расписания.",
-            "Она строго придерживается своей диеты.",
-            "Держись меня и не потеряйся.",
-            "Держись группы ради безопасности.",
-            "Она осталась со своим другом throughout всего испытания.",
-            "Он остался со своей командой во время кризиса."
-        ],
-        "synonyms": "Придерживаться (плана, решения, правил) - adhere to, follow, abide by\nОставаться с (кем-либо), не покидать - stay with, remain with\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "stick to": {
+    "comment": [],
+    "translate": "1) Придерживаться (плана, решения, правил) 2) Оставаться с (кем-либо), не покидать ",
+    "transcription": "",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Придерживаться (плана, решения, правил) - adhere to, follow, abide by",
+      "Оставаться с (кем-либо), не покидать - stay with, remain with"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "Stick to the plan and don't deviate.",
+        "ru": "Придерживайся плана и не отклоняйся.",
+        "learn": 1
+      },
+      {
+        "eng": "They stuck together through thick and thin.",
+        "ru": "Они держались вместе в горе и в радости.",
+        "learn": 1
+      },
+      {
+        "eng": "He always sticks to his principles.",
+        "ru": "Он всегда придерживается своих принципов.",
+        "learn": 1
+      },
+      {
+        "eng": "They stuck to their original decision.",
+        "ru": "Они придерживались своего первоначального решения.",
+        "learn": 1
+      },
+      {
+        "eng": "Let's stick to the schedule.",
+        "ru": "Давай придерживаться расписания.",
+        "learn": 1
+      },
+      {
+        "eng": "She sticks to her diet strictly.",
+        "ru": "Она строго придерживается своей диеты.",
+        "learn": 1
+      },
+      {
+        "eng": "Stick to me and don't get lost.",
+        "ru": "Держись меня и не потеряйся.",
+        "learn": 1
+      },
+      {
+        "eng": "Stick to the group for safety.",
+        "ru": "Держись группы ради безопасности.",
+        "learn": 1
+      },
+      {
+        "eng": "She stuck to her friend throughout the ordeal.",
+        "ru": "Она осталась со своим другом throughout всего испытания.",
+        "learn": 1
+      },
+      {
+        "eng": "He stuck to his team during the crisis.",
+        "ru": "Он остался со своей командой во время кризиса.",
+        "learn": 1
+      },
+      {
+        "eng": "I'll try to stick to my text.",
+        "ru": "Я попытаюсь не отклоняться от темы.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't let flies stick to your heels.",
+        "ru": "Поторапливайся.",
+        "learn": 0
+      },
+      {
+        "eng": "If you're driving, stick to soft drinks.",
+        "ru": "Если вы за рулем, пейте только безалкогольные напитки.",
+        "learn": 0
+      },
+      {
+        "eng": "People often stick to their own imagination.",
+        "ru": "Люди часто цепляются за то, что сами выдумывают.",
+        "learn": 1
+      },
+      {
+        "eng": "The stick does not bend.",
+        "ru": "Эта палка не гнётся.",
+        "learn": 0
+      },
+      {
+        "eng": "His hair stuck up on end.",
+        "ru": "У него волосы стояли торчком.",
+        "learn": 0
+      },
+      {
+        "eng": "The window was stuck fast.",
+        "ru": "Окно заклинило.",
+        "learn": 0
+      },
+      {
+        "eng": "We got stuck in a blizzard.",
+        "ru": "Мы угодили в буран.",
+        "learn": 0
+      },
+      {
+        "eng": "She stuck a tape in the VCR.",
+        "ru": "Она вставила кассету в видеомагнитофон.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll stick with my decision.",
+        "ru": "Я не отступлю от своего решения.",
+        "learn": 0
+      },
+      {
+        "eng": "They live out in the sticks.",
+        "ru": "Они живут в какой-то глуши /в каком-то захолустье/. (далеко за городом)",
+        "learn": 0
+      },
+      {
+        "eng": "His wife was a bit stuck-up.",
+        "ru": "Его жена была немного высокомерной.",
+        "learn": 0
+      },
+      {
+        "eng": "The car was stuck in the mud.",
+        "ru": "Автомобиль застрял в грязи.",
+        "learn": 0
+      },
+      {
+        "eng": "She sticks to her principles.",
+        "ru": "Она придерживается своих принципов.",
+        "learn": 0
+      },
+      {
+        "eng": "The girl stuck her tongue out.",
+        "ru": "Девочка высунула язык.",
+        "learn": 0
+      },
+      {
+        "eng": "Bring me the stick. Good girl!",
+        "ru": "Принеси мне палку. Вот умница! (обращаясь к собаке)",
+        "learn": 0
+      },
+      {
+        "eng": "I don't know how you stick it.",
+        "ru": "Не знаю, как ты это терпишь. (брит.)",
+        "learn": 0
+      },
+      {
+        "eng": "Stick your thumb in the crack.",
+        "ru": "Засуньте в щель большой палец.",
+        "learn": 0
+      },
+      {
+        "eng": "She's just a stuck-up princess.",
+        "ru": "Она просто высокомерная принцесса.",
+        "learn": 0
+      },
+      {
+        "eng": "I could not stick the envelope.",
+        "ru": "У меня не получалось заклеить конверт.",
+        "learn": 0
+      },
+      {
+        "eng": "He got stuck with the bar bill.",
+        "ru": "Его заставили заплатить по счёту в баре.",
+        "learn": 0
+      },
+      {
+        "eng": "Stick the poster onto the wall.",
+        "ru": "Приклей объявление на стену.",
+        "learn": 0
+      },
+      {
+        "eng": "She was stuck in a nothing job.",
+        "ru": "Она застряла на никчёмной, бесперспективной работе.",
+        "learn": 0
+      },
+      {
+        "eng": "The bone has stuck in my throat.",
+        "ru": "У меня кость застряла в горле.",
+        "learn": 0
+      },
+      {
+        "eng": "This stamp won't stick properly.",
+        "ru": "Эта марка не хочет нормально приклеиваться.",
+        "learn": 0
+      },
+      {
+        "eng": "Why do you always stick at home?",
+        "ru": "Почему ты всегда торчишь дома?",
+        "learn": 0
+      },
+      {
+        "eng": "He stuck his head in the window.",
+        "ru": "Он высунул голову в окно.",
+        "learn": 0
+      },
+      {
+        "eng": "The wheels got stuck in the mire.",
+        "ru": "Колёса завязли в грязи.",
+        "learn": 0
+      },
+      {
+        "eng": "He stuck his head out the window.",
+        "ru": "Он высунул голову в окно.",
+        "learn": 0
+      },
+      {
+        "eng": "She stuck a notice up on the wall.",
+        "ru": "Она прилепила на стену какое-то объявление.",
+        "learn": 0
+      }
+    ]
+  }
 }

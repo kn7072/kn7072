@@ -1,83 +1,169 @@
 {
-    "type": {
-        "comment": [
-            "prototype"
-        ],
-        "translate": "тип, модель, разновидность, типаж, род, шрифт, печатать, напечатать, отпечатать",
-        "transcription": " |taɪp|",
-        "antonyms": [],
-        "mnemonic": [
-            "type [тайп] тип, вид, шрифт - (Теле-тайп) - вид шрифта.",
-            "type [taɪp]\ntypically ['tɪpɪkəli] - типично\nhype [haɪp] - обман, надувательство, ажиотаж, шумиха\n***\nНАПЕЧАТАЛ телетайп. (это)\nКрупный ШРИФТ ты прочитай (п). (это) type\nЭтот РОД, ТИП и КЛАСС ты почитай (п). (это) type\nПРЕДСТАВИТЕЛЕЙ России почитай (п). (это) type\n***\nЭто новый тип \"type\"\nили обман \"hype\"?"
-        ],
-        "examples": [
-            "It is a type of many.",
-            "She types well.",
-            "Have you done this type of work before?",
-            "Small type is hard to read.",
-            "How fast can you type?",
-            "I went home to type up the report.",
-            "A door handle is a type of lever.",
-            "You wouldn't like him. He's not your type.",
-            "This type of work is often seen as boring.",
-            "a seedless type of orange",
-            "What type of music do you like?",
-            "There are two main types of sleep.",
-            "Please wait while I type in your details.",
-            "We were not prepared to face this type of crisis.",
-            "He wasn't my type really.",
-            "He types with two fingers.",
-            "All the headings are in bold type.",
-            "DNA typing",
-            "She likes all types of books.",
-            "She asked her secretary to type a memo.",
-            "Only a few stores sell that type of equipment.",
-            "This type of turtle seldom grows over four inches in length.",
-            "Espresso coffee is usually a blend of several different types of coffee beans.",
-            "Type your password, then press 'Return'.",
-            "I never learned how to type.",
-            "American Type Culture Collection",
-            "Extracts from the report are set in italic type.",
-            "You can't really attach a label to this type of art.",
-            "Three types of rural local government are discernible in America.",
-            "American Tissue Type Collection"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Это типично для многих.",
-            "Она хорошо печатает.",
-            "Вы уже делали такого рода работу?",
-            "Мелкий шрифт сложно читать.",
-            "Как быстро вы можете печатать (набирать текст)?",
-            "Я отправился домой, чтобы напечатать отчёт.",
-            "Дверная ручка — это своего рода рычаг.",
-            "Тебе бы он не понравился. Это не твой типаж.",
-            "Такую работу часто считают скучной.",
-            "разновидность апельсина без косточек",
-            "Какую музыку вы любите?",
-            "Существует два основных типа сна.",
-            "Пожалуйста, подождите, пока я введу ваши данные.",
-            "Мы не были готовы столкнуться с такого рода кризисом.",
-            "Он вообще-то был не в моём вкусе.",
-            "Он печатает двумя пальцами.",
-            "Все заголовки выделяются жирным шрифтом.",
-            "анализ ДНК",
-            "Она любит самые разные книги.",
-            "Она попросила своего секретаря напечатать служебную записку.",
-            "Лишь в нескольких магазинах продаётся этот тип оборудования.",
-            "Этот вид черепах редко вырастает больше четырех дюймов в длину.",
-            "Кофе эспрессо обычно представляет собой смесь кофейных зерен разных сортов.",
-            "Введите пароль, затем нажмите «Назад».",
-            "Я так и не научилась печатать.",
-            "Американская коллекция типовых культур",
-            "Выдержки из этого доклада набраны курсивом.",
-            "Такое искусство, вообще-то, не так просто оценить /классифицировать/.",
-            "В Америке есть три типа местного сельского правления.",
-            "Американская коллекция тканевых культур"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "type": {
+    "comment": [
+      "prototype"
+    ],
+    "translate": "тип, модель, разновидность, типаж, род, шрифт, печатать, напечатать, отпечатать",
+    "transcription": " |taɪp|",
+    "antonyms": [],
+    "mnemonic": [
+      "type [тайп] тип, вид, шрифт - (Теле-тайп) - вид шрифта.",
+      "type [taɪp]\ntypically ['tɪpɪkəli] - типично\nhype [haɪp] - обман, надувательство, ажиотаж, шумиха\n***\nНАПЕЧАТАЛ телетайп. (это)\nКрупный ШРИФТ ты прочитай (п). (это) type\nЭтот РОД, ТИП и КЛАСС ты почитай (п). (это) type\nПРЕДСТАВИТЕЛЕЙ России почитай (п). (это) type\n***\nЭто новый тип \"type\"\nили обман \"hype\"?"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "It is a type of many.",
+        "ru": "Это типично для многих.",
+        "learn": 0
+      },
+      {
+        "eng": "She types well.",
+        "ru": "Она хорошо печатает.",
+        "learn": 0
+      },
+      {
+        "eng": "Have you done this type of work before?",
+        "ru": "Вы уже делали такого рода работу?",
+        "learn": 0
+      },
+      {
+        "eng": "Small type is hard to read.",
+        "ru": "Мелкий шрифт сложно читать.",
+        "learn": 1
+      },
+      {
+        "eng": "How fast can you type?",
+        "ru": "Как быстро вы можете печатать (набирать текст)?",
+        "learn": 0
+      },
+      {
+        "eng": "I went home to type up the report.",
+        "ru": "Я отправился домой, чтобы напечатать отчёт.",
+        "learn": 0
+      },
+      {
+        "eng": "A door handle is a type of lever.",
+        "ru": "Дверная ручка — это своего рода рычаг.",
+        "learn": 0
+      },
+      {
+        "eng": "You wouldn't like him. He's not your type.",
+        "ru": "Тебе бы он не понравился. Это не твой типаж.",
+        "learn": 0
+      },
+      {
+        "eng": "This type of work is often seen as boring.",
+        "ru": "Такую работу часто считают скучной.",
+        "learn": 0
+      },
+      {
+        "eng": "a seedless type of orange",
+        "ru": "разновидность апельсина без косточек",
+        "learn": 0
+      },
+      {
+        "eng": "What type of music do you like?",
+        "ru": "Какую музыку вы любите?",
+        "learn": 0
+      },
+      {
+        "eng": "There are two main types of sleep.",
+        "ru": "Существует два основных типа сна.",
+        "learn": 0
+      },
+      {
+        "eng": "Please wait while I type in your details.",
+        "ru": "Пожалуйста, подождите, пока я введу ваши данные.",
+        "learn": 0
+      },
+      {
+        "eng": "We were not prepared to face this type of crisis.",
+        "ru": "Мы не были готовы столкнуться с такого рода кризисом.",
+        "learn": 1
+      },
+      {
+        "eng": "He wasn't my type really.",
+        "ru": "Он вообще-то был не в моём вкусе.",
+        "learn": 0
+      },
+      {
+        "eng": "He types with two fingers.",
+        "ru": "Он печатает двумя пальцами.",
+        "learn": 0
+      },
+      {
+        "eng": "All the headings are in bold type.",
+        "ru": "Все заголовки выделяются жирным шрифтом.",
+        "learn": 0
+      },
+      {
+        "eng": "DNA typing",
+        "ru": "анализ ДНК",
+        "learn": 0
+      },
+      {
+        "eng": "She likes all types of books.",
+        "ru": "Она любит самые разные книги.",
+        "learn": 0
+      },
+      {
+        "eng": "She asked her secretary to type a memo.",
+        "ru": "Она попросила своего секретаря напечатать служебную записку.",
+        "learn": 1
+      },
+      {
+        "eng": "Only a few stores sell that type of equipment.",
+        "ru": "Лишь в нескольких магазинах продаётся этот тип оборудования.",
+        "learn": 0
+      },
+      {
+        "eng": "This type of turtle seldom grows over four inches in length.",
+        "ru": "Этот вид черепах редко вырастает больше четырех дюймов в длину.",
+        "learn": 0
+      },
+      {
+        "eng": "Espresso coffee is usually a blend of several different types of coffee beans.",
+        "ru": "Кофе эспрессо обычно представляет собой смесь кофейных зерен разных сортов.",
+        "learn": 0
+      },
+      {
+        "eng": "Type your password, then press 'Return'.",
+        "ru": "Введите пароль, затем нажмите «Назад».",
+        "learn": 0
+      },
+      {
+        "eng": "I never learned how to type.",
+        "ru": "Я так и не научилась печатать.",
+        "learn": 0
+      },
+      {
+        "eng": "American Type Culture Collection",
+        "ru": "Американская коллекция типовых культур",
+        "learn": 0
+      },
+      {
+        "eng": "Extracts from the report are set in italic type.",
+        "ru": "Выдержки из этого доклада набраны курсивом.",
+        "learn": 0
+      },
+      {
+        "eng": "You can't really attach a label to this type of art.",
+        "ru": "Такое искусство, вообще-то, не так просто оценить /классифицировать/.",
+        "learn": 0
+      },
+      {
+        "eng": "Three types of rural local government are discernible in America.",
+        "ru": "В Америке есть три типа местного сельского правления.",
+        "learn": 0
+      },
+      {
+        "eng": "American Tissue Type Collection",
+        "ru": "Американская коллекция тканевых культур",
+        "learn": 0
+      }
+    ]
+  }
 }

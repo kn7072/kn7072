@@ -1,88 +1,177 @@
 {
-    "hold": {
-        "comment": [
-            "holder",
-            "holding",
-            "household",
-            "uphold",
-            "shareholder"
-        ],
-        "translate": "удерживать, держать, держаться, проводить, трюм, владение, удерживание, власть, захват",
-        "transcription": " |hoʊld|",
-        "antonyms": [],
-        "mnemonic": [
-            "hold [hо'улд] держать - Держи голову в (боулд-е) холоде, а ноги в тепле.",
-            "hold [həʋld]\n***\nДЕРЖИ себя в тепле, если холод. (это) hold\nДЕРЖИ в руках себя, хохол (д). (это) hold\nНе ЗАХВАТИТ власть хохол (д). (это) hold\nВладение, захват, власть, влияние.\n***\nПриятно держать \"hold\"\nзолото \"gold\"."
-        ],
-        "examples": [
-            "Hold on!",
-            "Hold the line!",
-            "I hold to these ideas",
-            "I held the baby in my arms.",
-            "Would you hold this for me?",
-            "The movie theater holds 500 people.",
-            "They sat holding hands under a tree.",
-            "Hold everything!",
-            "Hold your noise!",
-            "Hold on to my arm.",
-            "Hold on tight!",
-            "Hold it! We're not quite ready.",
-            "Hold the brush so.",
-            "Hold on, I'll just get my coat.",
-            "The glue didn't hold.",
-            "Hold on while I find a pen.",
-            "The frost still held.",
-            "He has a hold over them.",
-            "This jug holds two pints.",
-            "Police are holding two men in connection with the robbery.",
-            "Our bet holds true.",
-            "She holds her head high.",
-            "Fish are slippery to hold.",
-            "Will that filing cabinet hold all these papers?",
-            "The nail still holds.",
-            "Weapons were held at various sites.",
-            "He held out his hand to help her to her feet.",
-            "He holds the record for the 100-metre dash.",
-            "He holds shares in ICI.",
-            "The sutures don't hold."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Держись!/ Не сдавайся! / Стой! / Подожди!",
-            "Не вешайте трубку! / Оставайтесь на линии! / Не сдавайся! / Держать строй!",
-            "Я придерживаюсь этих идей.",
-            "Я держал малыша на руках.",
-            "Вы мне это не подержите?",
-            "Этот кинотеатр вмещает пятьсот человек.",
-            "Они сидели под деревом, держась за руки.",
-            "Подожди! / Ничего не предпринимай!",
-            "Перестань(те) шуметь!",
-            "Держись за мою руку.",
-            "Держись крепче!",
-            "Подождите! Мы ещё не готовы.",
-            "Держи кисть вот так.",
-            "Подожди, я только возьму пальто.",
-            "Клей не держал.",
-            "Подождите, пока найду ручку.",
-            "По-прежнему стояли морозы.",
-            "Он имеет над ними власть.",
-            "Этот кувшин вмещает две пинты.",
-            "Полиция удерживает двух мужчин в связи с ограблением.",
-            "Наше соглашение остаётся в силе.",
-            "Она высоко держит голову.",
-            "Рыбы слишком скользкие, чтобы их удержать.",
-            "Поместятся ли в этот шкафчик все документы?",
-            "Гвоздь ещё держится.",
-            "Оружие хранилось в различных местах.",
-            "Он протянул руку, чтобы помочь ей подняться.",
-            "Он является рекордсменом на стометровой дистанции.",
-            "У него есть доля в компании ICI. (Imperial Chemical Industries — британская химическая компания)",
-            "Швы расходятся."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "o_+_Закр_сл_=_[ou]"
-        ]
-    }
+  "hold": {
+    "comment": [
+      "held |hɛld|,                                          held |hɛld|",
+      "holder",
+      "holding",
+      "household",
+      "uphold",
+      "shareholder"
+    ],
+    "translate": "удерживать, держать, держаться, проводить, трюм, владение, удерживание, власть, захват",
+    "transcription": " |hoʊld|",
+    "antonyms": [],
+    "mnemonic": [
+      "hold [hо'улд] держать - Держи голову в (боулд-е) холоде, а ноги в тепле.",
+      "hold [həʋld]\n***\nДЕРЖИ себя в тепле, если холод. (это) hold\nДЕРЖИ в руках себя, хохол (д). (это) hold\nНе ЗАХВАТИТ власть хохол (д). (это) hold\nВладение, захват, власть, влияние.\n***\nПриятно держать \"hold\"\nзолото \"gold\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "o_+_Закр_сл_=_[ou]",
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Hold on!",
+        "ru": "Держись!/ Не сдавайся! / Стой! / Подожди!",
+        "learn": 0
+      },
+      {
+        "eng": "Hold the line!",
+        "ru": "Не вешайте трубку! / Оставайтесь на линии! / Не сдавайся! / Держать строй!",
+        "learn": 0
+      },
+      {
+        "eng": "I hold to these ideas",
+        "ru": "Я придерживаюсь этих идей.",
+        "learn": 0
+      },
+      {
+        "eng": "I held the baby in my arms.",
+        "ru": "Я держал малыша на руках.",
+        "learn": 1
+      },
+      {
+        "eng": "Would you hold this for me?",
+        "ru": "Вы мне это не подержите?",
+        "learn": 0
+      },
+      {
+        "eng": "The movie theater holds 500 people.",
+        "ru": "Этот кинотеатр вмещает пятьсот человек.",
+        "learn": 0
+      },
+      {
+        "eng": "They sat holding hands under a tree.",
+        "ru": "Они сидели под деревом, держась за руки.",
+        "learn": 0
+      },
+      {
+        "eng": "Hold everything!",
+        "ru": "Подожди! / Ничего не предпринимай!",
+        "learn": 0
+      },
+      {
+        "eng": "Hold your noise!",
+        "ru": "Перестань(те) шуметь!",
+        "learn": 0
+      },
+      {
+        "eng": "Hold on to my arm.",
+        "ru": "Держись за мою руку.",
+        "learn": 0
+      },
+      {
+        "eng": "Hold on tight!",
+        "ru": "Держись крепче!",
+        "learn": 0
+      },
+      {
+        "eng": "Hold it! We're not quite ready.",
+        "ru": "Подождите! Мы ещё не готовы.",
+        "learn": 0
+      },
+      {
+        "eng": "Hold the brush so.",
+        "ru": "Держи кисть вот так.",
+        "learn": 0
+      },
+      {
+        "eng": "Hold on, I'll just get my coat.",
+        "ru": "Подожди, я только возьму пальто.",
+        "learn": 0
+      },
+      {
+        "eng": "The glue didn't hold.",
+        "ru": "Клей не держал.",
+        "learn": 0
+      },
+      {
+        "eng": "Hold on while I find a pen.",
+        "ru": "Подождите, пока найду ручку.",
+        "learn": 0
+      },
+      {
+        "eng": "The frost still held.",
+        "ru": "По-прежнему стояли морозы.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a hold over them.",
+        "ru": "Он имеет над ними власть.",
+        "learn": 0
+      },
+      {
+        "eng": "This jug holds two pints.",
+        "ru": "Этот кувшин вмещает две пинты.",
+        "learn": 0
+      },
+      {
+        "eng": "Police are holding two men in connection with the robbery.",
+        "ru": "Полиция удерживает двух мужчин в связи с ограблением.",
+        "learn": 1
+      },
+      {
+        "eng": "Our bet holds true.",
+        "ru": "Наше соглашение остаётся в силе.",
+        "learn": 0
+      },
+      {
+        "eng": "She holds her head high.",
+        "ru": "Она высоко держит голову.",
+        "learn": 0
+      },
+      {
+        "eng": "Fish are slippery to hold.",
+        "ru": "Рыбы слишком скользкие, чтобы их удержать.",
+        "learn": 0
+      },
+      {
+        "eng": "Will that filing cabinet hold all these papers?",
+        "ru": "Поместятся ли в этот шкафчик все документы?",
+        "learn": 0
+      },
+      {
+        "eng": "The nail still holds.",
+        "ru": "Гвоздь ещё держится.",
+        "learn": 0
+      },
+      {
+        "eng": "Weapons were held at various sites.",
+        "ru": "Оружие хранилось в различных местах.",
+        "learn": 0
+      },
+      {
+        "eng": "He held out his hand to help her to her feet.",
+        "ru": "Он протянул руку, чтобы помочь ей подняться.",
+        "learn": 0
+      },
+      {
+        "eng": "He holds the record for the 100-metre dash.",
+        "ru": "Он является рекордсменом на стометровой дистанции.",
+        "learn": 0
+      },
+      {
+        "eng": "He holds shares in ICI.",
+        "ru": "У него есть доля в компании ICI. (Imperial Chemical Industries — британская химическая компания)",
+        "learn": 0
+      },
+      {
+        "eng": "The sutures don't hold.",
+        "ru": "Швы расходятся.",
+        "learn": 0
+      }
+    ]
+  }
 }

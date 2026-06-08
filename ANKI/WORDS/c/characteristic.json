@@ -1,73 +1,144 @@
 {
-    "characteristic": {
-        "comment": [
-            "character",
-            "characterize",
-            "chart",
-            "charter"
-        ],
-        "translate": " характеристика, особенность, характерный, типичный",
-        "transcription": "  |ˌkærəktəˈrɪstɪk|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Generosity is one of his best characteristics.",
-            "Red and gold are the characteristic colors of autumn.",
-            "There is some characteristic frailty at the bottom of every human heart.",
-            "I heard my friend's characteristic laugh.",
-            "He pursued this task with a diligence characteristic of him.",
-            "a baby discovering the physical characteristics of objects",
-            "in the characteristic New York style",
-            "Stubbornness was a characteristic he shared with his mother.",
-            "It is the characteristic of the English drunkard to abuse his wife and family.",
-            "the characteristic taste of licorice",
-            "The trees followed a characteristic pattern of growth.",
-            "Violent images are a defining characteristic of his work.",
-            "This book is suffused with Shaw's characteristic wry Irish humour.",
-            "A characteristic of the feminine psyche is to seek approval from others.",
-            "dead sounds characteristic of some compact discs",
-            "The North/South divide is characteristic of Britain.",
-            "the desultory conversation characteristic of cocktail parties",
-            "He responded to their comments with characteristic good humor.",
-            "the reddish, itchy papules that are characteristic of the rash",
-            "the qualities that were characteristic of the Nixon administration",
-            "He is known for his modesty, an uncommon characteristic for a politician.",
-            "the highly characteristic (=very typical) flint walls of the local houses",
-            "'We have not done quite well enough,' Macmillan said, with characteristic understatement.",
-            "the ability to fashion tools and other characteristics that distinguish human beings from other animals",
-            "Smallpox's characteristic pustules typically resulted in permanent scarring for survivors of the dreaded disease."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Щедрость является одной из лучших черт его характера.",
-            "Красный и золотой являются типичными цветами осени.",
-            "В глубине каждой человеческой души есть свой особенный порок.",
-            "Я услышал характерный смех своего друга.",
-            "Он выполнял эту задачу со свойственным ему усердием.",
-            "ребёнок, который открывает для себя физические свойства предметов",
-            "в типичном нью-йоркском стиле",
-            "Упрямство было чертой характера, которую он унаследовал от матери.",
-            "Для английского пьяницы типично орать на своих родных.",
-            "характерный вкус лакрицы",
-            "Деревья развивались по характерной модели роста.",
-            "Сцены насилия являются определяющей характеристикой его творчества.",
-            "Эта книга полна характерного для Шоу мрачного ирландского юмора.",
-            "Характерная черта женской психики — искать одобрения у других.",
-            "приглушённые звуки, характерные для некоторых компакт-дисков",
-            "Разделение на Север и Юг характерно для Великобритании.",
-            "бессвязные разговоры, характерные для коктейль-вечеринок",
-            "Он ответил на их комментарии с типичным для него юмором.",
-            "красноватые, зудящие узелки, которые характерны для данной сыпи",
-            "качества, характерные для администрации Ричарда Никсона",
-            "Он известен своей скромностью, столь нехарактерной для политиков.",
-            "весьма характерные (т.е. очень типичные) каменные стены местных домов",
-            "— Мы справились недостаточно хорошо, — сказал Макмиллан, как обычно, смягчив выражения.",
-            "способность создавать инструменты, а также другие особенности, которые отличают человека от других животных",
-            "Характерные для оспы пустулы у выживших после этой страшной болезни, как правило, превращаются в постоянные рубцы."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "characteristic": {
+    "comment": [
+      "character",
+      "characterize",
+      "chart",
+      "charter"
+    ],
+    "translate": " характеристика, особенность, характерный, типичный",
+    "transcription": "  |ˌkærəktəˈrɪstɪk|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Generosity is one of his best characteristics.",
+        "ru": "Щедрость является одной из лучших черт его характера.",
+        "learn": 0
+      },
+      {
+        "eng": "Red and gold are the characteristic colors of autumn.",
+        "ru": "Красный и золотой являются типичными цветами осени.",
+        "learn": 1
+      },
+      {
+        "eng": "There is some characteristic frailty at the bottom of every human heart.",
+        "ru": "В глубине каждой человеческой души есть свой особенный порок.",
+        "learn": 0
+      },
+      {
+        "eng": "I heard my friend's characteristic laugh.",
+        "ru": "Я услышал характерный смех своего друга.",
+        "learn": 0
+      },
+      {
+        "eng": "He pursued this task with a diligence characteristic of him.",
+        "ru": "Он выполнял эту задачу со свойственным ему усердием.",
+        "learn": 0
+      },
+      {
+        "eng": "a baby discovering the physical characteristics of objects",
+        "ru": "ребёнок, который открывает для себя физические свойства предметов",
+        "learn": 0
+      },
+      {
+        "eng": "in the characteristic New York style",
+        "ru": "в типичном нью-йоркском стиле",
+        "learn": 0
+      },
+      {
+        "eng": "Stubbornness was a characteristic he shared with his mother.",
+        "ru": "Упрямство было чертой характера, которую он унаследовал от матери.",
+        "learn": 0
+      },
+      {
+        "eng": "It is the characteristic of the English drunkard to abuse his wife and family.",
+        "ru": "Для английского пьяницы типично орать на своих родных.",
+        "learn": 0
+      },
+      {
+        "eng": "the characteristic taste of licorice",
+        "ru": "характерный вкус лакрицы",
+        "learn": 0
+      },
+      {
+        "eng": "The trees followed a characteristic pattern of growth.",
+        "ru": "Деревья развивались по характерной модели роста.",
+        "learn": 0
+      },
+      {
+        "eng": "Violent images are a defining characteristic of his work.",
+        "ru": "Сцены насилия являются определяющей характеристикой его творчества.",
+        "learn": 1
+      },
+      {
+        "eng": "This book is suffused with Shaw's characteristic wry Irish humour.",
+        "ru": "Эта книга полна характерного для Шоу мрачного ирландского юмора.",
+        "learn": 0
+      },
+      {
+        "eng": "A characteristic of the feminine psyche is to seek approval from others.",
+        "ru": "Характерная черта женской психики — искать одобрения у других.",
+        "learn": 0
+      },
+      {
+        "eng": "dead sounds characteristic of some compact discs",
+        "ru": "приглушённые звуки, характерные для некоторых компакт-дисков",
+        "learn": 0
+      },
+      {
+        "eng": "The North/South divide is characteristic of Britain.",
+        "ru": "Разделение на Север и Юг характерно для Великобритании.",
+        "learn": 0
+      },
+      {
+        "eng": "the desultory conversation characteristic of cocktail parties",
+        "ru": "бессвязные разговоры, характерные для коктейль-вечеринок",
+        "learn": 0
+      },
+      {
+        "eng": "He responded to their comments with characteristic good humor.",
+        "ru": "Он ответил на их комментарии с типичным для него юмором.",
+        "learn": 0
+      },
+      {
+        "eng": "the reddish, itchy papules that are characteristic of the rash",
+        "ru": "красноватые, зудящие узелки, которые характерны для данной сыпи",
+        "learn": 0
+      },
+      {
+        "eng": "the qualities that were characteristic of the Nixon administration",
+        "ru": "качества, характерные для администрации Ричарда Никсона",
+        "learn": 0
+      },
+      {
+        "eng": "He is known for his modesty, an uncommon characteristic for a politician.",
+        "ru": "Он известен своей скромностью, столь нехарактерной для политиков.",
+        "learn": 1
+      },
+      {
+        "eng": "the highly characteristic (=very typical) flint walls of the local houses",
+        "ru": "весьма характерные (т.е. очень типичные) каменные стены местных домов",
+        "learn": 0
+      },
+      {
+        "eng": "'We have not done quite well enough,' Macmillan said, with characteristic understatement.",
+        "ru": "— Мы справились недостаточно хорошо, — сказал Макмиллан, как обычно, смягчив выражения.",
+        "learn": 0
+      },
+      {
+        "eng": "the ability to fashion tools and other characteristics that distinguish human beings from other animals",
+        "ru": "способность создавать инструменты, а также другие особенности, которые отличают человека от других животных",
+        "learn": 0
+      },
+      {
+        "eng": "Smallpox's characteristic pustules typically resulted in permanent scarring for survivors of the dreaded disease.",
+        "ru": "Характерные для оспы пустулы у выживших после этой страшной болезни, как правило, превращаются в постоянные рубцы.",
+        "learn": 0
+      }
+    ]
+  }
 }

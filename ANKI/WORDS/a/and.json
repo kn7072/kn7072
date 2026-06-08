@@ -1,72 +1,143 @@
 {
-    "and": {
-        "comment": [
-            "or"
-        ],
-        "translate": "и, а, но, иначе, конъюнкция",
-        "transcription": " |ənd|",
-        "antonyms": [],
-        "mnemonic": [
-            "and [энд] и - И какой же (бр-энд)?."
-        ],
-        "examples": [
-            "I shall go and you stay here.",
-            "He was tall, dark and handsome.",
-            "Six and four is ten.",
-            "There are books and books.",
-            "We ran and ran.",
-            "That was years and years ago.",
-            "I missed supper and I'm starving!",
-            "2 and 2 equals 4.",
-            "More and more people are losing their jobs.",
-            "We waited for hours and hours!",
-            "He knocked on the door and went in.",
-            "Sit down and tell me all about it.",
-            "He's gone to get some fish and chips.",
-            "Shall we go and have a cup of coffee?",
-            "She fell downstairs and broke her leg.",
-            "You'll have to wait and see what happens.",
-            "He plays the guitar and sings folk songs.",
-            "We've dealt with items one, two, and eleven.",
-            "She picked up the kitten and put it in the box.",
-            "I'll see if I can try and persuade her to come.",
-            "The film starred Jack Lemmon and Shirley Maclaine.",
-            "She didn't speak to anyone and nobody spoke to her.",
-            "'She's getting married in June.' 'And who's the lucky man?'",
-            "And now I'd like to introduce our next speaker, Mrs Thompson.",
-            "'They said this guy was an expert.' 'Yes, but there are experts and experts.'"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я пойду, а ты оставайся здесь.",
-            "Он был высоким, темноволосым и красивым.",
-            "Шесть и четыре — десять.",
-            "Книги бывают разные.",
-            "Мы всё бежали и бежали.",
-            "Это было много-много лет назад.",
-            "Я пропустил ужин, и умираю с голоду /очень хочу есть/!",
-            "Два плюс два равно четыре.",
-            "Всё больше и больше людей теряют работу.",
-            "Мы всё ждали и ждали его часами!",
-            "Он постучал в дверь и вошёл.",
-            "Сядь и расскажи мне всё об этом.",
-            "Он пошел за рыбой с картошкой фри.",
-            "Давайте пойдём выпьем по чашечке кофе?",
-            "Она упала с лестницы и сломала ногу.",
-            "Вам придётся подождать и посмотреть, что будет.",
-            "Он играет на гитаре и поёт народные песни.",
-            "Мы разобрались с элементами один, два и одиннадцать.",
-            "Она подобрала котёнка и положила его в коробку.",
-            "Посмотрим, может быть мне удастся убедить её приехать.",
-            "Главные роли в фильме сыграли Джек Леммон и Ширли Маклейн.",
-            "Она ни с кем не разговаривала, и с ней тоже никто не говорил.",
-            "— В июне она выходит замуж. — И кто этот счастливчик?",
-            "А сейчас я хотел бы представить нашего следующего докладчика — миссис Томпсон.",
-            "— Они сказали, что этот парень специалист. — Да, но ведь специалисты бывают разные."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "and": {
+    "comment": [
+      "or"
+    ],
+    "translate": "и, а, но, иначе, конъюнкция",
+    "transcription": " |ənd|",
+    "antonyms": [],
+    "mnemonic": [
+      "and [энд] и - И какой же (бр-энд)?."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I shall go and you stay here.",
+        "ru": "Я пойду, а ты оставайся здесь.",
+        "learn": 0
+      },
+      {
+        "eng": "He was tall, dark and handsome.",
+        "ru": "Он был высоким, темноволосым и красивым.",
+        "learn": 0
+      },
+      {
+        "eng": "Six and four is ten.",
+        "ru": "Шесть и четыре — десять.",
+        "learn": 0
+      },
+      {
+        "eng": "There are books and books.",
+        "ru": "Книги бывают разные.",
+        "learn": 0
+      },
+      {
+        "eng": "We ran and ran.",
+        "ru": "Мы всё бежали и бежали.",
+        "learn": 0
+      },
+      {
+        "eng": "That was years and years ago.",
+        "ru": "Это было много-много лет назад.",
+        "learn": 0
+      },
+      {
+        "eng": "I missed supper and I'm starving!",
+        "ru": "Я пропустил ужин, и умираю с голоду /очень хочу есть/!",
+        "learn": 1
+      },
+      {
+        "eng": "2 and 2 equals 4.",
+        "ru": "Два плюс два равно четыре.",
+        "learn": 0
+      },
+      {
+        "eng": "More and more people are losing their jobs.",
+        "ru": "Всё больше и больше людей теряют работу.",
+        "learn": 0
+      },
+      {
+        "eng": "We waited for hours and hours!",
+        "ru": "Мы всё ждали и ждали его часами!",
+        "learn": 0
+      },
+      {
+        "eng": "He knocked on the door and went in.",
+        "ru": "Он постучал в дверь и вошёл.",
+        "learn": 0
+      },
+      {
+        "eng": "Sit down and tell me all about it.",
+        "ru": "Сядь и расскажи мне всё об этом.",
+        "learn": 0
+      },
+      {
+        "eng": "He's gone to get some fish and chips.",
+        "ru": "Он пошел за рыбой с картошкой фри.",
+        "learn": 0
+      },
+      {
+        "eng": "Shall we go and have a cup of coffee?",
+        "ru": "Давайте пойдём выпьем по чашечке кофе?",
+        "learn": 0
+      },
+      {
+        "eng": "She fell downstairs and broke her leg.",
+        "ru": "Она упала с лестницы и сломала ногу.",
+        "learn": 0
+      },
+      {
+        "eng": "You'll have to wait and see what happens.",
+        "ru": "Вам придётся подождать и посмотреть, что будет.",
+        "learn": 0
+      },
+      {
+        "eng": "He plays the guitar and sings folk songs.",
+        "ru": "Он играет на гитаре и поёт народные песни.",
+        "learn": 0
+      },
+      {
+        "eng": "We've dealt with items one, two, and eleven.",
+        "ru": "Мы разобрались с элементами один, два и одиннадцать.",
+        "learn": 0
+      },
+      {
+        "eng": "She picked up the kitten and put it in the box.",
+        "ru": "Она подобрала котёнка и положила его в коробку.",
+        "learn": 1
+      },
+      {
+        "eng": "I'll see if I can try and persuade her to come.",
+        "ru": "Посмотрим, может быть мне удастся убедить её приехать.",
+        "learn": 0
+      },
+      {
+        "eng": "The film starred Jack Lemmon and Shirley Maclaine.",
+        "ru": "Главные роли в фильме сыграли Джек Леммон и Ширли Маклейн.",
+        "learn": 0
+      },
+      {
+        "eng": "She didn't speak to anyone and nobody spoke to her.",
+        "ru": "Она ни с кем не разговаривала, и с ней тоже никто не говорил.",
+        "learn": 0
+      },
+      {
+        "eng": "'She's getting married in June.' 'And who's the lucky man?'",
+        "ru": "— В июне она выходит замуж. — И кто этот счастливчик?",
+        "learn": 0
+      },
+      {
+        "eng": "And now I'd like to introduce our next speaker, Mrs Thompson.",
+        "ru": "А сейчас я хотел бы представить нашего следующего докладчика — миссис Томпсон.",
+        "learn": 1
+      },
+      {
+        "eng": "'They said this guy was an expert.' 'Yes, but there are experts and experts.'",
+        "ru": "— Они сказали, что этот парень специалист. — Да, но ведь специалисты бывают разные.",
+        "learn": 0
+      }
+    ]
+  }
 }

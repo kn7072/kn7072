@@ -1,39 +1,219 @@
 {
-    "make for": {
-        "comment": [],
-        "translate": "1) Направляться, двигаться к (чему-либо) 2) Способствовать, приводить к (результату) ",
-        "transcription": "||",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "His experience makes for a strong candidate.",
-            "Teamwork makes for better results.",
-            "The quiet atmosphere makes for good studying.",
-            "Let's make for the exit before the crowd arrives.",
-            "The sunny weather makes for a perfect day.",
-            "After the meeting, everyone made for the cafeteria.",
-            "We should make for home before dark.",
-            "They made for the shelter when it started raining.",
-            "Good communication makes for a healthy relationship.",
-            "The ship made for the nearest port."
-        ],
-        "example_translate": [
-            "Его опыт делает его сильным кандидатом.",
-            "Командная работа приводит к лучшим результатам.",
-            "Тихая атмосфера способствует хорошей учёбе.",
-            "Давай направимся к выходу до прибытия толпы.",
-            "Солнечная погода создаёт идеальный день.",
-            "После встречи все направились в кафетерий.",
-            "Нам следует направиться домой до темноты.",
-            "Они направились к укрытию, когда начался дождь.",
-            "Хорошая коммуникация способствует здоровым отношениям.",
-            "Корабль направился к ближайшему порту."
-        ],
-        "synonyms": "Направляться, двигаться к (чему-либо) - head for, move towards, proceed to\nСпособствовать, приводить к (результату) - contribute to, lead to, result in\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "make for": {
+    "comment": [],
+    "translate": "1) Направляться, двигаться к (чему-либо) 2) Способствовать, приводить к (результату) ",
+    "transcription": "",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Направляться, двигаться к (чему-либо) - head for, move towards, proceed to",
+      "Способствовать, приводить к (результату) - contribute to, lead to, result in"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "His experience makes for a strong candidate.",
+        "ru": "Его опыт делает его сильным кандидатом.",
+        "learn": 1
+      },
+      {
+        "eng": "Teamwork makes for better results.",
+        "ru": "Командная работа приводит к лучшим результатам.",
+        "learn": 1
+      },
+      {
+        "eng": "The quiet atmosphere makes for good studying.",
+        "ru": "Тихая атмосфера способствует хорошей учёбе.",
+        "learn": 1
+      },
+      {
+        "eng": "Let's make for the exit before the crowd arrives.",
+        "ru": "Давай направимся к выходу до прибытия толпы.",
+        "learn": 1
+      },
+      {
+        "eng": "The sunny weather makes for a perfect day.",
+        "ru": "Солнечная погода создаёт идеальный день.",
+        "learn": 1
+      },
+      {
+        "eng": "After the meeting, everyone made for the cafeteria.",
+        "ru": "После встречи все направились в кафетерий.",
+        "learn": 1
+      },
+      {
+        "eng": "We should make for home before dark.",
+        "ru": "Нам следует направиться домой до темноты.",
+        "learn": 1
+      },
+      {
+        "eng": "They made for the shelter when it started raining.",
+        "ru": "Они направились к укрытию, когда начался дождь.",
+        "learn": 1
+      },
+      {
+        "eng": "Good communication makes for a healthy relationship.",
+        "ru": "Хорошая коммуникация способствует здоровым отношениям.",
+        "learn": 1
+      },
+      {
+        "eng": "The ship made for the nearest port.",
+        "ru": "Корабль направился к ближайшему порту.",
+        "learn": 1
+      },
+      {
+        "eng": "I'll make for the door - cover me, will you?",
+        "ru": "Я пойду к двери — прикрой меня, ладно?",
+        "learn": 0
+      },
+      {
+        "eng": "Both teams are on good form, which should make for a great game.",
+        "ru": "Обе команды находятся в хорошей форме, а значит, игра должна быть великолепной.",
+        "learn": 0
+      },
+      {
+        "eng": "Now he regarded Lawrence as a scientist on the make for government largess and personal glory.",
+        "ru": "Теперь он рассматривал Лоуренса как учёного, стремящегося к правительственной щедрости и личной славе.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you make change for $20?",
+        "ru": "Вы можете разменять 20 долларов? / Вы дадите мне сдачу с 20 долларов?",
+        "learn": 0
+      },
+      {
+        "eng": "The large print makes for easier reading.",
+        "ru": "Большие буквы легче читать.",
+        "learn": 0
+      },
+      {
+        "eng": "You should make provision for emergencies.",
+        "ru": "Нужно принять меры на случай чрезвычайных ситуаций.",
+        "learn": 0
+      },
+      {
+        "eng": "This should make enough for four servings.",
+        "ru": "Этого должно хватить на четыре порции.",
+        "learn": 0
+      },
+      {
+        "eng": "They sandbagged him to make dinner for everyone.",
+        "ru": "Они заставили его приготовить ужин для всех.",
+        "learn": 0
+      },
+      {
+        "eng": "The singers bunched up to make room for one more.",
+        "ru": "Вокалисты потеснились, чтобы дать место ещё одному человеку.",
+        "learn": 0
+      },
+      {
+        "eng": "The good days more than make up for the bad ones.",
+        "ru": "Хорошие дни более чем компенсируют плохие.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't eat breakfast but I make up for it at lunch.",
+        "ru": "Я не завтракаю, но компенсирую это за обедом.",
+        "learn": 0
+      },
+      {
+        "eng": "The salary's not great, but the perks make up for it.",
+        "ru": "Зарплата — не очень, но льготы это компенсируют.",
+        "learn": 0
+      },
+      {
+        "eng": "He seized the chance to make amends for his behavior.",
+        "ru": "Он воспользовался шансом загладить вину за своё поведение.",
+        "learn": 0
+      },
+      {
+        "eng": "The play's mordant comedy makes for compelling viewing.",
+        "ru": "Благодаря язвительному юмору, просмотр этой пьесы становится весьма интересным.",
+        "learn": 0
+      },
+      {
+        "eng": "John was pushed out to make way for the director's son.",
+        "ru": "Джона выгнали, чтобы освободить место для сына директора.",
+        "learn": 0
+      },
+      {
+        "eng": "The crowd stepped aside to make way for the procession.",
+        "ru": "Толпа отступила в сторону, чтобы дать дорогу процессии.",
+        "learn": 0
+      },
+      {
+        "eng": "We rehearsed all day Saturday, to make up for lost time.",
+        "ru": "Мы репетировали всю субботу, чтобы наверстать упущенное время.",
+        "learn": 0
+      },
+      {
+        "eng": "The budget makes allowances for extra staff when needed.",
+        "ru": "При необходимости бюджет предусматривает приём на работу дополнительных сотрудников.",
+        "learn": 0
+      },
+      {
+        "eng": "Several houses were demolished to make way for a new road.",
+        "ru": "Несколько домов были снесены, чтобы освободить место для новой дороги.",
+        "learn": 0
+      },
+      {
+        "eng": "Half the forest was cut down to make room for the new road.",
+        "ru": "Пол-леса вырубили, чтобы проложить новую дорогу.",
+        "learn": 0
+      },
+      {
+        "eng": "Sandra is small, but she makes up for it with great spirit.",
+        "ru": "Ростом Сандра не вышла, но она компенсирует это силой духа.",
+        "learn": 0
+      },
+      {
+        "eng": "Both firms make software for small and midsize companies.",
+        "ru": "Обе фирмы производят программное обеспечение для малых и средних компаний.",
+        "learn": 0
+      },
+      {
+        "eng": "Beautiful scenery does not make up for the flaws of this film.",
+        "ru": "Красивые декорации не компенсируют недостатков этого фильма.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm trying to make room for a vegetable garden in the backyard.",
+        "ru": "Я пытаюсь освободить место для огорода на заднем дворе.",
+        "learn": 0
+      },
+      {
+        "eng": "The old factory was demolished to make way for a new parking lot.",
+        "ru": "Старый завод снесли, чтобы освободить место для новой парковки.",
+        "learn": 0
+      },
+      {
+        "eng": "The whole forest was chopped down to make room for the new airport.",
+        "ru": "Для постройки нового аэропорта срубили целый лес.",
+        "learn": 0
+      },
+      {
+        "eng": "He swept aside the papers on his desk to make room for the computer.",
+        "ru": "Он сдвинул со стола бумаги, чтобы освободить место для компьютера.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm sorry I was late. To make up for it, let me treat you to a meal.",
+        "ru": "Простите, что опоздал. В качестве компенсации, позвольте мне угостить вас ужином.",
+        "learn": 0
+      },
+      {
+        "eng": "The company makes parts for the automotive and aerospace industries.",
+        "ru": "Компания производит запчасти для автомобильной и аэрокосмической промышленности.",
+        "learn": 0
+      },
+      {
+        "eng": "Would it make sense for the city authorities to further restrict parking?",
+        "ru": "Имеет ли смысл для городских властей ещё больше ограничить парковку?",
+        "learn": 0
+      }
+    ]
+  }
 }

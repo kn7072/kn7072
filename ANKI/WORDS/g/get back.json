@@ -1,39 +1,219 @@
 {
-    "get back": {
-        "comment": [],
-        "translate": "1) Возвращаться (в место) 2) Возвращать (что-либо)(Отделяемый в этом значении) ",
-        "transcription": " |ˈɡet ˈbæk|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "When are you getting back?",
-            "We got back late from the party.",
-            "She got her ring back from the jeweler.",
-            "He wants to get his investment back.",
-            "Did you get your money back?",
-            "I'll get back home by 6 PM.",
-            "She got back from Paris yesterday.",
-            "I need to get my book back.",
-            "What time did you get back last night?",
-            "Can I get this back tomorrow?"
-        ],
-        "example_translate": [
-            "Когда ты возвращаешься?",
-            "Мы поздно вернулись с вечеринки.",
-            "Она получила своё кольцо обратно от ювелира.",
-            "Он хочет вернуть свою инвестицию.",
-            "Ты вернул свои деньги?",
-            "Я вернусь домой к 18:00.",
-            "Она вернулась из Парижа вчера.",
-            "Мне нужно вернуть мою книгу.",
-            "Во сколько ты вернулся вчера вечером?",
-            "Могу я вернуть это завтра?"
-        ],
-        "synonyms": "Возвращаться (в место) - return, come back\nВозвращать (что-либо) - return, retrieve\n",
-        "groups": [
-            "all_words",
-            "phrasal_verb"
-        ],
-        "stars": 0
-    }
+  "get back": {
+    "comment": [],
+    "translate": "1) Возвращаться (в место) 2) Возвращать (что-либо)(Отделяемый в этом значении) ",
+    "transcription": " |ˈɡet ˈbæk|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [
+      "Возвращаться (в место) - return, come back",
+      "Возвращать (что-либо) - return, retrieve"
+    ],
+    "groups": [
+      "phrasal_verb"
+    ],
+    "stars": 0,
+    "examples": [
+      {
+        "eng": "When are you getting back?",
+        "ru": "Когда ты возвращаешься?",
+        "learn": 1
+      },
+      {
+        "eng": "We got back late from the party.",
+        "ru": "Мы поздно вернулись с вечеринки.",
+        "learn": 1
+      },
+      {
+        "eng": "She got her ring back from the jeweler.",
+        "ru": "Она получила своё кольцо обратно от ювелира.",
+        "learn": 1
+      },
+      {
+        "eng": "He wants to get his investment back.",
+        "ru": "Он хочет вернуть свою инвестицию.",
+        "learn": 1
+      },
+      {
+        "eng": "Did you get your money back?",
+        "ru": "Ты вернул свои деньги?",
+        "learn": 1
+      },
+      {
+        "eng": "I'll get back home by 6 PM.",
+        "ru": "Я вернусь домой к 18:00.",
+        "learn": 1
+      },
+      {
+        "eng": "She got back from Paris yesterday.",
+        "ru": "Она вернулась из Парижа вчера.",
+        "learn": 1
+      },
+      {
+        "eng": "I need to get my book back.",
+        "ru": "Мне нужно вернуть мою книгу.",
+        "learn": 1
+      },
+      {
+        "eng": "What time did you get back last night?",
+        "ru": "Во сколько ты вернулся вчера вечером?",
+        "learn": 1
+      },
+      {
+        "eng": "Can I get this back tomorrow?",
+        "ru": "Могу я вернуть это завтра?",
+        "learn": 1
+      },
+      {
+        "eng": "Well, I must get back to work.",
+        "ru": "Что ж, я должна вернуться к работе.",
+        "learn": 0
+      },
+      {
+        "eng": "We got back at him for his insult.",
+        "ru": "Мы отомстили ему за оскорбление.",
+        "learn": 0
+      },
+      {
+        "eng": "Stay put until I get back.",
+        "ru": "Стой здесь, пока я не вернусь.",
+        "learn": 0
+      },
+      {
+        "eng": "I couldn't get back to sleep.",
+        "ru": "Я не мог снова заснуть. / У меня не получалось снова заснуть.",
+        "learn": 0
+      },
+      {
+        "eng": "They shouted at us to get back.",
+        "ru": "Они крикнули, чтобы мы вернулись.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's get back to the main point of the discussion.",
+        "ru": "Давайте вернёмся к основной теме обсуждения.",
+        "learn": 0
+      },
+      {
+        "eng": "She is simply aching to get back.",
+        "ru": "Она просто жаждет вернуться домой.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll talk to you when I get back.",
+        "ru": "Я поговорю с тобой, когда вернусь.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll tell you all about it when I get back.",
+        "ru": "Я всё тебе расскажу, когда вернусь.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's get back onto the highway.",
+        "ru": "Давайте вернёмся на шоссе.",
+        "learn": 1
+      },
+      {
+        "eng": "I'll find out the prices and get back to you.",
+        "ru": "Я узнаю цены и вернусь обратно к вам.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll take advice on this matter and get back to you this afternoon.",
+        "ru": "Я посоветуюсь и перезвоню тебе в течение дня.",
+        "learn": 0
+      },
+      {
+        "eng": "It's good to get back into the old routine.",
+        "ru": "Приятно вернуться к давно заведённому порядку вещей.",
+        "learn": 0
+      },
+      {
+        "eng": "You'd better get back here pronto.",
+        "ru": "Советую вам немедленно сюда вернуться.",
+        "learn": 0
+      },
+      {
+        "eng": "Get back into bed. I'll send for the doctor.",
+        "ru": "Отправляйся обратно в постель. Я вызову врача.",
+        "learn": 0
+      },
+      {
+        "eng": "I shall get back to Moscow by the first train.",
+        "ru": "Я вернусь в Москву первым же поездом.",
+        "learn": 0
+      },
+      {
+        "eng": "You can have it until I get back.",
+        "ru": "Можешь взять /попользоваться/, пока я не вернусь.",
+        "learn": 0
+      },
+      {
+        "eng": "Life was beginning to get back to normal.",
+        "ru": "Жизнь постепенно начинала возвращаться в нормальное русло.",
+        "learn": 0
+      },
+      {
+        "eng": "He scrambled to get back to the bag.",
+        "ru": "Он поспешил вернуться на базу. (о бейсболе, зд. the bag — мешочек, которым обозначается база)",
+        "learn": 0
+      },
+      {
+        "eng": "How about we have that game when we get back?",
+        "ru": "Давай сыграем в эту игру, когда вернёмся?",
+        "learn": 0
+      },
+      {
+        "eng": "Gary woke at 4am and couldn't get back to sleep.",
+        "ru": "Гэри проснулся в четыре часа утра, и не мог заснуть.",
+        "learn": 0
+      },
+      {
+        "eng": "We'll soon get back to some semblance of normality.",
+        "ru": "Мы скоро вернёмся к какому-то подобию нормальной жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "Give us a ring immediately you get back.",
+        "ru": "Позвоните нам сразу же, как вернётесь.",
+        "learn": 0
+      },
+      {
+        "eng": "I know my place. I'll get back to the kitchen!",
+        "ru": "Я знаю своё место. Я вернусь на кухню!",
+        "learn": 0
+      },
+      {
+        "eng": "We ought to try and get back before it gets dark.",
+        "ru": "Мы должны попытаться вернуться до темноты.",
+        "learn": 0
+      },
+      {
+        "eng": "Will you stop prancing about and get back into bed!",
+        "ru": "Кончай тут прыгать и иди в кровать!",
+        "learn": 0
+      },
+      {
+        "eng": "Time's moving on — we'd better get back to the car.",
+        "ru": "Время идёт., нам надо бы вернуться к машине.",
+        "learn": 0
+      },
+      {
+        "eng": "Will the fire stop in until we get back?",
+        "ru": "Огонь будет гореть до нашего возвращения?",
+        "learn": 0
+      },
+      {
+        "eng": "I want to get back by five o'clock if possible.",
+        "ru": "Я хочу вернуться к пяти часам, если это возможно.",
+        "learn": 0
+      },
+      {
+        "eng": "I need to start exercising and get back in shape.",
+        "ru": "Мне нужно начать заниматься спортом и снова набрать форму.",
+        "learn": 0
+      }
+    ]
+  }
 }

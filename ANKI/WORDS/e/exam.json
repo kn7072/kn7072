@@ -1,82 +1,168 @@
 {
-    "exam": {
-        "comment": [
-            "example",
-            "examine",
-            "examination"
-        ],
-        "translate": "экзамен",
-        "transcription": " |ɪɡˈzæm|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Did you pass the exam?",
-            "That exam was a joke.",
-            "How did you fare on your exam?",
-            "I just blanked in the oral exam.",
-            "'How was your exam?' 'Sheer hell!'",
-            "He failed the school's entrance exam.",
-            "the written part of the exam",
-            "How did you do in your exams?",
-            "I have to make up a French exam",
-            "The exam was a pushover.",
-            "She got an A on the exam.",
-            "That exam was a real killer",
-            "She exempted me from the exam.",
-            "He finished the exam after me.",
-            "He did splendidly in the exam.",
-            "The exam was a bit of a bugger.",
-            "He'll sit his exams next summer.",
-            "She is reading for the bar exam.",
-            "When do we get our exam results?",
-            "He finished the exam after I did.",
-            "I really made a muck of the exam.",
-            "I finished the exam before he did.",
-            "He smuggled his notes into the exam.",
-            "I cannot allow you to see your exam.",
-            "The exam was full of trap questions.",
-            "She's revising for her history exam.",
-            "It was embarrassing to fail the exam.",
-            "Are dictionaries allowed in the exam?",
-            "I managed to scrape through the exam.",
-            "The exam results went up on the board."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Вы сдали экзамен?",
-            "Экзамен был легким.",
-            "Как ты сдал экзамен?",
-            "На устном экзамене у меня всё просто вылетело из головы.",
-            "— Ну, как твой экзамен? — Полный кошмар!",
-            "Он провалился на школьном вступительном экзамене.",
-            "письменная часть экзамена",
-            "Как ты сдал экзамены?",
-            "Мне нужно сдать экзамен по французскому.",
-            "Экзамен был простеньким.",
-            "Она получила высший балл на экзамене.",
-            "Экзамен был просто убийственным.",
-            "Она освободила меня от экзамена.",
-            "Он закончил этот экзамен после меня.",
-            "Он великолепно сдал экзамен.",
-            "Экзамен был немного трудным.",
-            "Он будет сдавать экзамены летом следующего года.",
-            "Она готовится к поступлению в коллегию адвокатов.",
-            "Когда мы узнаем наши экзаменационные оценки?",
-            "Он закончил экзамен /обследование/ после меня.",
-            "Я реально облажался на экзамене.",
-            "Я закончил экзамен раньше него.",
-            "Он тайно пронёс на экзамен свой конспект.",
-            "Я не могу позволить вам увидеть ваши экзаменационные оценки.",
-            "На этом экзамене была куча каверзных вопросов.",
-            "Она просматривает материалы для её экзамена по истории.",
-            "Было стыдно провалить экзамен.",
-            "На экзамен можно брать словари?",
-            "Мне удалось с огромным трудом сдать этот экзамен.",
-            "Результаты экзамена были вывешены на доске."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "exam": {
+    "comment": [
+      "example",
+      "examine",
+      "examination"
+    ],
+    "translate": "экзамен",
+    "transcription": " |ɪɡˈzæm|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Did you pass the exam?",
+        "ru": "Вы сдали экзамен?",
+        "learn": 0
+      },
+      {
+        "eng": "That exam was a joke.",
+        "ru": "Экзамен был легким.",
+        "learn": 0
+      },
+      {
+        "eng": "How did you fare on your exam?",
+        "ru": "Как ты сдал экзамен?",
+        "learn": 0
+      },
+      {
+        "eng": "I just blanked in the oral exam.",
+        "ru": "На устном экзамене у меня всё просто вылетело из головы.",
+        "learn": 0
+      },
+      {
+        "eng": "'How was your exam?' 'Sheer hell!'",
+        "ru": "— Ну, как твой экзамен? — Полный кошмар!",
+        "learn": 0
+      },
+      {
+        "eng": "He failed the school's entrance exam.",
+        "ru": "Он провалился на школьном вступительном экзамене.",
+        "learn": 0
+      },
+      {
+        "eng": "the written part of the exam",
+        "ru": "письменная часть экзамена",
+        "learn": 0
+      },
+      {
+        "eng": "How did you do in your exams?",
+        "ru": "Как ты сдал экзамены?",
+        "learn": 0
+      },
+      {
+        "eng": "I have to make up a French exam",
+        "ru": "Мне нужно сдать экзамен по французскому.",
+        "learn": 0
+      },
+      {
+        "eng": "The exam was a pushover.",
+        "ru": "Экзамен был простеньким.",
+        "learn": 0
+      },
+      {
+        "eng": "She got an A on the exam.",
+        "ru": "Она получила высший балл на экзамене.",
+        "learn": 0
+      },
+      {
+        "eng": "That exam was a real killer",
+        "ru": "Экзамен был просто убийственным.",
+        "learn": 0
+      },
+      {
+        "eng": "She exempted me from the exam.",
+        "ru": "Она освободила меня от экзамена.",
+        "learn": 0
+      },
+      {
+        "eng": "He finished the exam after me.",
+        "ru": "Он закончил этот экзамен после меня.",
+        "learn": 0
+      },
+      {
+        "eng": "He did splendidly in the exam.",
+        "ru": "Он великолепно сдал экзамен.",
+        "learn": 0
+      },
+      {
+        "eng": "The exam was a bit of a bugger.",
+        "ru": "Экзамен был немного трудным.",
+        "learn": 0
+      },
+      {
+        "eng": "He'll sit his exams next summer.",
+        "ru": "Он будет сдавать экзамены летом следующего года.",
+        "learn": 0
+      },
+      {
+        "eng": "She is reading for the bar exam.",
+        "ru": "Она готовится к поступлению в коллегию адвокатов.",
+        "learn": 0
+      },
+      {
+        "eng": "When do we get our exam results?",
+        "ru": "Когда мы узнаем наши экзаменационные оценки?",
+        "learn": 0
+      },
+      {
+        "eng": "He finished the exam after I did.",
+        "ru": "Он закончил экзамен /обследование/ после меня.",
+        "learn": 0
+      },
+      {
+        "eng": "I really made a muck of the exam.",
+        "ru": "Я реально облажался на экзамене.",
+        "learn": 0
+      },
+      {
+        "eng": "I finished the exam before he did.",
+        "ru": "Я закончил экзамен раньше него.",
+        "learn": 0
+      },
+      {
+        "eng": "He smuggled his notes into the exam.",
+        "ru": "Он тайно пронёс на экзамен свой конспект.",
+        "learn": 0
+      },
+      {
+        "eng": "I cannot allow you to see your exam.",
+        "ru": "Я не могу позволить вам увидеть ваши экзаменационные оценки.",
+        "learn": 0
+      },
+      {
+        "eng": "The exam was full of trap questions.",
+        "ru": "На этом экзамене была куча каверзных вопросов.",
+        "learn": 0
+      },
+      {
+        "eng": "She's revising for her history exam.",
+        "ru": "Она просматривает материалы для её экзамена по истории.",
+        "learn": 0
+      },
+      {
+        "eng": "It was embarrassing to fail the exam.",
+        "ru": "Было стыдно провалить экзамен.",
+        "learn": 1
+      },
+      {
+        "eng": "Are dictionaries allowed in the exam?",
+        "ru": "На экзамен можно брать словари?",
+        "learn": 0
+      },
+      {
+        "eng": "I managed to scrape through the exam.",
+        "ru": "Мне удалось с огромным трудом сдать этот экзамен.",
+        "learn": 0
+      },
+      {
+        "eng": "The exam results went up on the board.",
+        "ru": "Результаты экзамена были вывешены на доске.",
+        "learn": 0
+      }
+    ]
+  }
 }

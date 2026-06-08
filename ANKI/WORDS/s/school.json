@@ -1,86 +1,172 @@
 {
-    "school": {
-        "comment": [
-            "choice",
-            "choir",
-            "choose",
-            "scholarship",
-            "scholar"
-        ],
-        "translate": "школа, обучение, класс, школить, обучать, приучать, школьный, учебный",
-        "transcription": " |skuːl|",
-        "antonyms": [],
-        "mnemonic": [
-            "school [скул] школа - Его (скул-ы) в школе разбили."
-        ],
-        "examples": [
-            "I know her from school.",
-            "Farewell to school!",
-            "The school is close by.",
-            "School begins at 8.30.",
-            "I quit school at 16.",
-            "He is new to the school.",
-            "He flunked out of school.",
-            "Is Jessica still at school?",
-            "He missed school for a week.",
-            "Hilary was popular at school.",
-            "'I hated school.' 'Ditto.'",
-            "She works at / in a school.",
-            "I thumbed a ride to school.",
-            "School lets out at 3 o'clock.",
-            "They went to the same school.",
-            "Their son is still at school.",
-            "He is well schooled in languages.",
-            "a high school dance party",
-            "I got the axe from school.",
-            "I finished school last June.",
-            "What time does school finish?",
-            "The school hired more faculty.",
-            "He had been a rebel at school.",
-            "He is a popular guy in school.",
-            "He is an honour to his school.",
-            "He had had trig in high school.",
-            "They had wagged it from school.",
-            "I always hated sport at school.",
-            "It's time he was put to school.",
-            "When does your school break up?"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я знаю её со школы.",
-            "Прощай, школа!",
-            "Школа расположена рядом.",
-            "Занятия в школе начинаются в 8.30.",
-            "Я бросил школу в 16 лет.",
-            "В этой школе он недавно.",
-            "Он вылетел из школы, завалив экзамен.",
-            "Джессика всё ещё в школе?",
-            "Он неделю не ходил в школу.",
-            "В школе Хилари хорошо знали и любили.",
-            "— Я ненавидел школу. — То же самое.",
-            "Она работает в школе.",
-            "Я поехал в школу на попутной машине /автостопом/.",
-            "Занятия в школе заканчиваются в три часа.",
-            "Они ходили в одну школу.",
-            "Их сын ещё учится в школе.",
-            "Он хорошо знает языки.",
-            "танцевальный вечер в средней школе",
-            "Меня исключили из школы.",
-            "Я закончил школу в июне прошлого года.",
-            "В котором часу заканчиваются занятия в школе?",
-            "Школа наняла ещё учителей.",
-            "В школе он был бунтарём.",
-            "В школе он пользуется популярностью. / В школе его знают и любят.",
-            "Он — гордость своей школы.",
-            "В старших классах он изучал тригонометрию.",
-            "Они прогуляли занятия.",
-            "В школе я всегда ненавидел физкультуру.",
-            "Пора определить его в школу.",
-            "Когда ваша школа закрывается на каникулы?"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "school": {
+    "comment": [
+      "choice",
+      "choir",
+      "choose",
+      "scholarship",
+      "scholar"
+    ],
+    "translate": "школа, обучение, класс, школить, обучать, приучать, школьный, учебный",
+    "transcription": " |skuːl|",
+    "antonyms": [],
+    "mnemonic": [
+      "school [скул] школа - Его (скул-ы) в школе разбили."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I know her from school.",
+        "ru": "Я знаю её со школы.",
+        "learn": 1
+      },
+      {
+        "eng": "Farewell to school!",
+        "ru": "Прощай, школа!",
+        "learn": 0
+      },
+      {
+        "eng": "The school is close by.",
+        "ru": "Школа расположена рядом.",
+        "learn": 0
+      },
+      {
+        "eng": "School begins at 8.30.",
+        "ru": "Занятия в школе начинаются в 8.30.",
+        "learn": 0
+      },
+      {
+        "eng": "I quit school at 16.",
+        "ru": "Я бросил школу в 16 лет.",
+        "learn": 1
+      },
+      {
+        "eng": "He is new to the school.",
+        "ru": "В этой школе он недавно.",
+        "learn": 0
+      },
+      {
+        "eng": "He flunked out of school.",
+        "ru": "Он вылетел из школы, завалив экзамен.",
+        "learn": 0
+      },
+      {
+        "eng": "Is Jessica still at school?",
+        "ru": "Джессика всё ещё в школе?",
+        "learn": 0
+      },
+      {
+        "eng": "He missed school for a week.",
+        "ru": "Он неделю не ходил в школу.",
+        "learn": 0
+      },
+      {
+        "eng": "Hilary was popular at school.",
+        "ru": "В школе Хилари хорошо знали и любили.",
+        "learn": 0
+      },
+      {
+        "eng": "'I hated school.' 'Ditto.'",
+        "ru": "— Я ненавидел школу. — То же самое.",
+        "learn": 0
+      },
+      {
+        "eng": "She works at / in a school.",
+        "ru": "Она работает в школе.",
+        "learn": 0
+      },
+      {
+        "eng": "I thumbed a ride to school.",
+        "ru": "Я поехал в школу на попутной машине /автостопом/.",
+        "learn": 0
+      },
+      {
+        "eng": "School lets out at 3 o'clock.",
+        "ru": "Занятия в школе заканчиваются в три часа.",
+        "learn": 0
+      },
+      {
+        "eng": "They went to the same school.",
+        "ru": "Они ходили в одну школу.",
+        "learn": 0
+      },
+      {
+        "eng": "Their son is still at school.",
+        "ru": "Их сын ещё учится в школе.",
+        "learn": 0
+      },
+      {
+        "eng": "He is well schooled in languages.",
+        "ru": "Он хорошо знает языки.",
+        "learn": 0
+      },
+      {
+        "eng": "a high school dance party",
+        "ru": "танцевальный вечер в средней школе",
+        "learn": 0
+      },
+      {
+        "eng": "I got the axe from school.",
+        "ru": "Меня исключили из школы.",
+        "learn": 0
+      },
+      {
+        "eng": "I finished school last June.",
+        "ru": "Я закончил школу в июне прошлого года.",
+        "learn": 0
+      },
+      {
+        "eng": "What time does school finish?",
+        "ru": "В котором часу заканчиваются занятия в школе?",
+        "learn": 0
+      },
+      {
+        "eng": "The school hired more faculty.",
+        "ru": "Школа наняла ещё учителей.",
+        "learn": 0
+      },
+      {
+        "eng": "He had been a rebel at school.",
+        "ru": "В школе он был бунтарём.",
+        "learn": 0
+      },
+      {
+        "eng": "He is a popular guy in school.",
+        "ru": "В школе он пользуется популярностью. / В школе его знают и любят.",
+        "learn": 0
+      },
+      {
+        "eng": "He is an honour to his school.",
+        "ru": "Он — гордость своей школы.",
+        "learn": 1
+      },
+      {
+        "eng": "He had had trig in high school.",
+        "ru": "В старших классах он изучал тригонометрию.",
+        "learn": 0
+      },
+      {
+        "eng": "They had wagged it from school.",
+        "ru": "Они прогуляли занятия.",
+        "learn": 0
+      },
+      {
+        "eng": "I always hated sport at school.",
+        "ru": "В школе я всегда ненавидел физкультуру.",
+        "learn": 1
+      },
+      {
+        "eng": "It's time he was put to school.",
+        "ru": "Пора определить его в школу.",
+        "learn": 0
+      },
+      {
+        "eng": "When does your school break up?",
+        "ru": "Когда ваша школа закрывается на каникулы?",
+        "learn": 0
+      }
+    ]
+  }
 }

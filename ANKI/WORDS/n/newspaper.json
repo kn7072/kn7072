@@ -1,90 +1,176 @@
 {
-    "newspaper": {
-        "comment": [
-            "new",
-            "news",
-            "newly",
-            "renewal",
-            "renew",
-            "paper",
-            "paperwork",
-            "paperback",
-            "wallpaper"
-        ],
-        "translate": "газета, газетный",
-        "transcription": " |ˈnuːzpeɪpər|",
-        "antonyms": [],
-        "mnemonic": [
-            "newspaper [ньюспе'йпе] газета - По смыслу слов news и paper."
-        ],
-        "examples": [
-            "It was in some newspaper.",
-            "Did you see today's newspaper?",
-            "He likes reading the newspaper.",
-            "Murdoch owns many newspapers",
-            "Hand me the newspaper, please.",
-            "He works for a local newspaper.",
-            "The newspaper lay on the table.",
-            "Have you read today's newspaper?",
-            "He sued the newspaper for libel.",
-            "He read his newspaper at breakfast.",
-            "He used some newspaper to get the fire started.",
-            "a past editor of the newspaper",
-            "I always buy a daily newspaper.",
-            "Frank tossed her the newspaper.",
-            "the inside pages of the newspaper",
-            "The newspaper is published daily.",
-            "The newspaper carries the article.",
-            "I saw your advert in the newspaper.",
-            "She reminded me to buy a newspaper.",
-            "These reptiles publish a newspaper.",
-            "She quoted from a newspaper article.",
-            "Have you finished with the newspaper?",
-            "I read her obituary in the newspaper.",
-            "He had the newspaper right in his hand.",
-            "He perused the newspaper over breakfast.",
-            "She had read about it in the newspapers.",
-            "That dog has torn up my newspaper again.",
-            "I will paragraph you in every newspaper.",
-            "The newspaper was spread across his lap.",
-            "The story in the newspaper is incorrect."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Это было в какой-то газете.",
-            "Ты видел сегодняшнюю газету?",
-            "Он любит читать эту газету.",
-            "Мердок владеет многими газетными изданиями.",
-            "Подай мне, пожалуйста, газету.",
-            "Он работает в местной газете.",
-            "Газета лежала на столе.",
-            "Вы читали сегодняшнюю газету?",
-            "Он подал в суд на газету за клевету.",
-            "За завтраком он читал газету.",
-            "Он использовал газету, чтобы развести огонь.",
-            "быывший редактор этой газеты",
-            "Я всегда покупаю ежедневную газету.",
-            "Фрэнк швырнул ей газету.",
-            "внутренние страницы газеты",
-            "Эта газета выходит ежедневно.",
-            "В газете размещена эта статья.",
-            "Я видел ваше объявление в газете.",
-            "Она напомнила мне, чтобы я купил газету.",
-            "Эти продажные типы издают газету.",
-            "Она процитировала газетную статью.",
-            "Ты дочитал газету?",
-            "Я читал ее некролог в газете.",
-            "Он держал эту газету прямо в руках.",
-            "За завтраком он внимательно просмотрел газету.",
-            "Она уже прочла об этом в газетах.",
-            "Собака опять порвала мою газету.",
-            "Я напишу о вас во всех газетах.",
-            "Газета была разостлана у него на коленях.",
-            "История, рассказанная в газете, неточна."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "newspaper": {
+    "comment": [
+      "new",
+      "news",
+      "newly",
+      "renewal",
+      "renew",
+      "paper",
+      "paperwork",
+      "paperback",
+      "wallpaper"
+    ],
+    "translate": "газета, газетный",
+    "transcription": " |ˈnuːzpeɪpər|",
+    "antonyms": [],
+    "mnemonic": [
+      "newspaper [ньюспе'йпе] газета - По смыслу слов news и paper."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "It was in some newspaper.",
+        "ru": "Это было в какой-то газете.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you see today's newspaper?",
+        "ru": "Ты видел сегодняшнюю газету?",
+        "learn": 0
+      },
+      {
+        "eng": "He likes reading the newspaper.",
+        "ru": "Он любит читать эту газету.",
+        "learn": 0
+      },
+      {
+        "eng": "Murdoch owns many newspapers",
+        "ru": "Мердок владеет многими газетными изданиями.",
+        "learn": 0
+      },
+      {
+        "eng": "Hand me the newspaper, please.",
+        "ru": "Подай мне, пожалуйста, газету.",
+        "learn": 0
+      },
+      {
+        "eng": "He works for a local newspaper.",
+        "ru": "Он работает в местной газете.",
+        "learn": 0
+      },
+      {
+        "eng": "The newspaper lay on the table.",
+        "ru": "Газета лежала на столе.",
+        "learn": 1
+      },
+      {
+        "eng": "Have you read today's newspaper?",
+        "ru": "Вы читали сегодняшнюю газету?",
+        "learn": 0
+      },
+      {
+        "eng": "He sued the newspaper for libel.",
+        "ru": "Он подал в суд на газету за клевету.",
+        "learn": 0
+      },
+      {
+        "eng": "He read his newspaper at breakfast.",
+        "ru": "За завтраком он читал газету.",
+        "learn": 0
+      },
+      {
+        "eng": "He used some newspaper to get the fire started.",
+        "ru": "Он использовал газету, чтобы развести огонь.",
+        "learn": 0
+      },
+      {
+        "eng": "a past editor of the newspaper",
+        "ru": "быывший редактор этой газеты",
+        "learn": 0
+      },
+      {
+        "eng": "I always buy a daily newspaper.",
+        "ru": "Я всегда покупаю ежедневную газету.",
+        "learn": 0
+      },
+      {
+        "eng": "Frank tossed her the newspaper.",
+        "ru": "Фрэнк швырнул ей газету.",
+        "learn": 1
+      },
+      {
+        "eng": "the inside pages of the newspaper",
+        "ru": "внутренние страницы газеты",
+        "learn": 0
+      },
+      {
+        "eng": "The newspaper is published daily.",
+        "ru": "Эта газета выходит ежедневно.",
+        "learn": 0
+      },
+      {
+        "eng": "The newspaper carries the article.",
+        "ru": "В газете размещена эта статья.",
+        "learn": 0
+      },
+      {
+        "eng": "I saw your advert in the newspaper.",
+        "ru": "Я видел ваше объявление в газете.",
+        "learn": 1
+      },
+      {
+        "eng": "She reminded me to buy a newspaper.",
+        "ru": "Она напомнила мне, чтобы я купил газету.",
+        "learn": 1
+      },
+      {
+        "eng": "These reptiles publish a newspaper.",
+        "ru": "Эти продажные типы издают газету.",
+        "learn": 1
+      },
+      {
+        "eng": "She quoted from a newspaper article.",
+        "ru": "Она процитировала газетную статью.",
+        "learn": 1
+      },
+      {
+        "eng": "Have you finished with the newspaper?",
+        "ru": "Ты дочитал газету?",
+        "learn": 0
+      },
+      {
+        "eng": "I read her obituary in the newspaper.",
+        "ru": "Я читал ее некролог в газете.",
+        "learn": 0
+      },
+      {
+        "eng": "He had the newspaper right in his hand.",
+        "ru": "Он держал эту газету прямо в руках.",
+        "learn": 0
+      },
+      {
+        "eng": "He perused the newspaper over breakfast.",
+        "ru": "За завтраком он внимательно просмотрел газету.",
+        "learn": 0
+      },
+      {
+        "eng": "She had read about it in the newspapers.",
+        "ru": "Она уже прочла об этом в газетах.",
+        "learn": 0
+      },
+      {
+        "eng": "That dog has torn up my newspaper again.",
+        "ru": "Собака опять порвала мою газету.",
+        "learn": 0
+      },
+      {
+        "eng": "I will paragraph you in every newspaper.",
+        "ru": "Я напишу о вас во всех газетах.",
+        "learn": 0
+      },
+      {
+        "eng": "The newspaper was spread across his lap.",
+        "ru": "Газета была разостлана у него на коленях.",
+        "learn": 0
+      },
+      {
+        "eng": "The story in the newspaper is incorrect.",
+        "ru": "История, рассказанная в газете, неточна.",
+        "learn": 0
+      }
+    ]
+  }
 }

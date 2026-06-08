@@ -1,91 +1,177 @@
 {
-    "account": {
-        "comment": [
-            "encounter",
-            "count",
-            "counter",
-            "discount",
-            "county",
-            "recount",
-            "countless",
-            "accounting",
-            "counterpart",
-            "accountant"
-        ],
-        "translate": "счет, расчет, отчет, приходиться, отчитываться, бухгалтерский",
-        "transcription": " |əˈkaʊnt|",
-        "antonyms": [],
-        "mnemonic": [
-            "account [эка'унт] счёт (в банке) - (Ока унт-ер) офицеру его счёт помогла пополнить."
-        ],
-        "examples": [
-            "I account myself happy.",
-            "That accounts for it!",
-            "This accounts for his behaviour.",
-            "I drew $ 100 out of my account.",
-            "He will account for his crime.",
-            "He was accounted (to be) guilty.",
-            "Is everyone accounted for?",
-            "How do you account for the accident?",
-            "setting up a bank account",
-            "Don't do it on my account.",
-            "By his own account he was there.",
-            "I can't account for the missing money.",
-            "Women accounted for 40% of the audience.",
-            "I expected a brief account.",
-            "They are nothing to be accounted of.",
-            "We credit your account with $100.",
-            "There was a gap in his account.",
-            "a blow-by-blow account of the movie",
-            "By all accounts they were a happy couple.",
-            "I've paid $250 into my account.",
-            "On no account must you disturb me.",
-            "a balanced account of what happened",
-            "This account may be rather overcharged.",
-            "The interest accrued to our account.",
-            "I'm overdrawn in my checking account by $0.25.",
-            "a verifiable account of the incident",
-            "Charge the goods against [to] my account.",
-            "My account is overdrawn by £300.",
-            "They opened an offshore bank account.",
-            "Charge the goods against / to my account."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я считаю себя счастливым.",
-            "Так вот, оказывается, в чём дело!",
-            "Так вот чем объясняется его поведение.",
-            "Я снял со своего счёта сто долларов.",
-            "Он ответит за своё преступление.",
-            "Его признали виновным.",
-            "Все ли на своих местах? / Известно ли местонахождение каждого?",
-            "Как вы объясните причины этого несчастного случая?",
-            "открытие банковского счёта",
-            "Не делай этого только из-за меня.",
-            "По его собственным словам, он был там.",
-            "Я не могу объяснить пропажу денег.",
-            "Сорок процентов аудитории составляли женщины.",
-            "Я ожидал краткого отчёта.",
-            "Кто они такие, чтобы с ними считаться?",
-            "Мы пополним ваш счёт на сто долларов.",
-            "В его рассказе был пробел.",
-            "детальное описание фильма",
-            "Судя по всему, они были счастливой парой.",
-            "Я внёс на свой счёт двести пятьдесят долларов.",
-            "Ни в коем случае не смейте меня беспокоить.",
-            "трезвый отчёт о произошедшем",
-            "Эта оценка, возможно, преувеличена.",
-            "На нашем счету наросли проценты.",
-            "Я превысил остаток на своём чековом счёте на двадцать пять центов.",
-            "проверяемый отчёт о происшествии",
-            "Запишите эти вещи на мой счет.",
-            "Остаток на моем счете превышен на 300 фунтов стерлингов.",
-            "Они открыли оффшорный банковский счет.",
-            "Запишите эти вещи на мой счёт."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "account": {
+    "comment": [
+      "encounter",
+      "count",
+      "counter",
+      "discount",
+      "county",
+      "recount",
+      "countless",
+      "accounting",
+      "counterpart",
+      "accountant"
+    ],
+    "translate": "счет, расчет, отчет, приходиться, отчитываться, бухгалтерский",
+    "transcription": " |əˈkaʊnt|",
+    "antonyms": [],
+    "mnemonic": [
+      "account [эка'унт] счёт (в банке) - (Ока унт-ер) офицеру его счёт помогла пополнить."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I account myself happy.",
+        "ru": "Я считаю себя счастливым.",
+        "learn": 0
+      },
+      {
+        "eng": "That accounts for it!",
+        "ru": "Так вот, оказывается, в чём дело!",
+        "learn": 0
+      },
+      {
+        "eng": "This accounts for his behaviour.",
+        "ru": "Так вот чем объясняется его поведение.",
+        "learn": 0
+      },
+      {
+        "eng": "I drew $ 100 out of my account.",
+        "ru": "Я снял со своего счёта сто долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "He will account for his crime.",
+        "ru": "Он ответит за своё преступление.",
+        "learn": 0
+      },
+      {
+        "eng": "He was accounted (to be) guilty.",
+        "ru": "Его признали виновным.",
+        "learn": 0
+      },
+      {
+        "eng": "Is everyone accounted for?",
+        "ru": "Все ли на своих местах? / Известно ли местонахождение каждого?",
+        "learn": 0
+      },
+      {
+        "eng": "How do you account for the accident?",
+        "ru": "Как вы объясните причины этого несчастного случая?",
+        "learn": 0
+      },
+      {
+        "eng": "setting up a bank account",
+        "ru": "открытие банковского счёта",
+        "learn": 0
+      },
+      {
+        "eng": "Don't do it on my account.",
+        "ru": "Не делай этого только из-за меня.",
+        "learn": 0
+      },
+      {
+        "eng": "By his own account he was there.",
+        "ru": "По его собственным словам, он был там.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't account for the missing money.",
+        "ru": "Я не могу объяснить пропажу денег.",
+        "learn": 0
+      },
+      {
+        "eng": "Women accounted for 40% of the audience.",
+        "ru": "Сорок процентов аудитории составляли женщины.",
+        "learn": 0
+      },
+      {
+        "eng": "I expected a brief account.",
+        "ru": "Я ожидал краткого отчёта.",
+        "learn": 0
+      },
+      {
+        "eng": "They are nothing to be accounted of.",
+        "ru": "Кто они такие, чтобы с ними считаться?",
+        "learn": 0
+      },
+      {
+        "eng": "We credit your account with $100.",
+        "ru": "Мы пополним ваш счёт на сто долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "There was a gap in his account.",
+        "ru": "В его рассказе был пробел.",
+        "learn": 0
+      },
+      {
+        "eng": "a blow-by-blow account of the movie",
+        "ru": "детальное описание фильма",
+        "learn": 0
+      },
+      {
+        "eng": "By all accounts they were a happy couple.",
+        "ru": "Судя по всему, они были счастливой парой.",
+        "learn": 0
+      },
+      {
+        "eng": "I've paid $250 into my account.",
+        "ru": "Я внёс на свой счёт двести пятьдесят долларов.",
+        "learn": 1
+      },
+      {
+        "eng": "On no account must you disturb me.",
+        "ru": "Ни в коем случае не смейте меня беспокоить.",
+        "learn": 0
+      },
+      {
+        "eng": "a balanced account of what happened",
+        "ru": "трезвый отчёт о произошедшем",
+        "learn": 0
+      },
+      {
+        "eng": "This account may be rather overcharged.",
+        "ru": "Эта оценка, возможно, преувеличена.",
+        "learn": 0
+      },
+      {
+        "eng": "The interest accrued to our account.",
+        "ru": "На нашем счету наросли проценты.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm overdrawn in my checking account by $0.25.",
+        "ru": "Я превысил остаток на своём чековом счёте на двадцать пять центов.",
+        "learn": 0
+      },
+      {
+        "eng": "a verifiable account of the incident",
+        "ru": "проверяемый отчёт о происшествии",
+        "learn": 0
+      },
+      {
+        "eng": "Charge the goods against [to] my account.",
+        "ru": "Запишите эти вещи на мой счет.",
+        "learn": 0
+      },
+      {
+        "eng": "My account is overdrawn by £300.",
+        "ru": "Остаток на моем счете превышен на 300 фунтов стерлингов.",
+        "learn": 0
+      },
+      {
+        "eng": "They opened an offshore bank account.",
+        "ru": "Они открыли оффшорный банковский счет.",
+        "learn": 1
+      },
+      {
+        "eng": "Charge the goods against / to my account.",
+        "ru": "Запишите эти вещи на мой счёт.",
+        "learn": 0
+      }
+    ]
+  }
 }

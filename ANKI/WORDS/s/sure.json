@@ -1,102 +1,189 @@
 {
-    "sure": {
-        "comment": [
-            "measure",
-            "measurement",
-            "pleasure",
-            "pressure",
-            "ensure",
-            "leisure",
-            "assure",
-            "surely",
-            "closure",
-            "insure",
-            "disclosure",
-            "reassure",
-            "exposure",
-            "treasure",
-            "unsure"
-        ],
-        "translate": "конечно, непременно, безусловно, уверенный, верный, надежный, безопасный",
-        "transcription": " |ʃʊr|",
-        "antonyms": [],
-        "mnemonic": [
-            "sure [шу'э] уверенный - Ты уверен, что имя Иисуса (Е-шуа)?.",
-            "sure [ʃuə]\nassure [ə'ʃuə]\ninsure [ɪn'ʃʊə] - ручаться\nensure [ɪn'ʃʊə]\nassurance [ə'ʃuərəns] - уверение, уверенность,\nзаверение, гарантия, страхование\n***\nЯ УВЕРЕН - все в ажуре! (это) sure\nВЕРНЫЙ путь ищи в брошюре. (это) sure\nБЕЗ СОМНЕНЬЯ - все в ажуре. (это) sure\nКОНЕЧНО, будет всё в ажуре. (это) sure\n***\nЯ вас УВЕРЯЮ - всё в ажуре. (это) assure\n***\nОБЕСПЕЧУ - всё в ажуре! (это) ensure"
-        ],
-        "examples": [
-            "He is sure of success.",
-            "Are you sure about that?",
-            "It is sure to rain.",
-            "I sure am sorry about it.",
-            "Be sure to / and tell me.",
-            "I'm sure I didn't mean to hurt you.",
-            "One thing is sure, though.",
-            "Are you sure you want to go?",
-            "Are you sure of the results?",
-            "It sure is hot out here.",
-            "'Thanks for your help, Karen.' 'Sure.'",
-            "She'll be there, I'm sure of it.",
-            "Be sure to lock the doors.",
-            "Sure bind, sure find.",
-            "It's going to be a good day for sure.",
-            "'That's Sarah's cousin.' 'Are you sure?'",
-            "I'm not sure if I'm pronouncing this correctly.",
-            "I sure hope they get there all right.",
-            "The letter is a sure indication that she cares.",
-            "'What time does the show start?' 'I'm not sure.'",
-            "She's not sure who will be there.",
-            "Henry wasn't sure how to answer this.",
-            "Are you sure you really want a divorce?",
-            "He wasn't even sure of his mother's name.",
-            "Those black clouds are a sure sign of rain.",
-            "My mother, I felt sure, had not met him before.",
-            "Pizza is a sure crowd pleaser.",
-            "a sure way to distinguish the two",
-            "He'll win sure as shooting.",
-            "a sure hand on the throttle"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он уверен в успехе.",
-            "Вы в этом уверены?",
-            "Наверняка пойдёт дождь.",
-            "Я очень сожалею об этом.",
-            "Не забудьте мне сказать.",
-            "Уверяю, я не хотел вас задеть.",
-            "Тем не менее, в одном можно не сомневаться.",
-            "Вы уверены, что хотите пойти?",
-            "Вы уверены в результатах?",
-            "Как же тут жарко!",
-            "— Спасибо за помощь, Карен. — Пожалуйста. / Не за что.",
-            "Она будет там, я уверен.",
-            "Обязательно запри двери.",
-            "Крепче запрёшь, вернее найдёшь. (посл.)",
-            "Этот день наверняка будет очень хорошим.",
-            "— Это двоюродный брат Сары. — Ты уверен?",
-            "Я не уверен, правильно ли я это произношу.",
-            "Я очень надеюсь, что они доберутся туда без происшествий.",
-            "Это письмо — верный признак того, что ей не всё равно.",
-            "— В котором часу начинается эта передача? — Точно не знаю.",
-            "Она точно не знает, кто там будет.",
-            "Генри не знал, как на это ответить.",
-            "Вы уверены, что действительно хотите развестись?",
-            "Он даже точно не знал имени своей матери.",
-            "Эти чёрные облака — верный признак дождя.",
-            "Я была уверена, что мама раньше с ним не встречалась.",
-            "Пицца — это блюдо, которое наверняка понравится всем.",
-            "надёжный способ отличить одного от другого",
-            "Он выиграет, будь уверен.",
-            "твёрдая рука на акселераторе"
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитив",
-            "all_words",
-            "ure_=_[uə]",
-            "Инфинитив_-_сложное_подлежащее(Инфинитиву_предшествуют_словосочетания)",
-            "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными",
-            "Сложное_подлежащее"
-        ]
-    }
+  "sure": {
+    "comment": [
+      "measure",
+      "measurement",
+      "pleasure",
+      "pressure",
+      "ensure",
+      "leisure",
+      "assure",
+      "surely",
+      "closure",
+      "insure",
+      "disclosure",
+      "reassure",
+      "exposure",
+      "treasure",
+      "unsure"
+    ],
+    "translate": "конечно, непременно, безусловно, уверенный, верный, надежный, безопасный",
+    "transcription": " |ʃʊr|",
+    "antonyms": [],
+    "mnemonic": [
+      "sure [шу'э] уверенный - Ты уверен, что имя Иисуса (Е-шуа)?.",
+      "sure [ʃuə]\nassure [ə'ʃuə]\ninsure [ɪn'ʃʊə] - ручаться\nensure [ɪn'ʃʊə]\nassurance [ə'ʃuərəns] - уверение, уверенность,\nзаверение, гарантия, страхование\n***\nЯ УВЕРЕН - все в ажуре! (это) sure\nВЕРНЫЙ путь ищи в брошюре. (это) sure\nБЕЗ СОМНЕНЬЯ - все в ажуре. (это) sure\nКОНЕЧНО, будет всё в ажуре. (это) sure\n***\nЯ вас УВЕРЯЮ - всё в ажуре. (это) assure\n***\nОБЕСПЕЧУ - всё в ажуре! (это) ensure"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитив",
+      "ure_=_[uə]",
+      "Инфинитив_-_сложное_подлежащее(Инфинитиву_предшествуют_словосочетания)",
+      "Прилагательные_которые_ставятся_после_глаголов,_но_не_перед_существительными",
+      "Сложное_подлежащее"
+    ],
+    "examples": [
+      {
+        "eng": "He is sure of success.",
+        "ru": "Он уверен в успехе.",
+        "learn": 1
+      },
+      {
+        "eng": "Are you sure about that?",
+        "ru": "Вы в этом уверены?",
+        "learn": 0
+      },
+      {
+        "eng": "It is sure to rain.",
+        "ru": "Наверняка пойдёт дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "I sure am sorry about it.",
+        "ru": "Я очень сожалею об этом.",
+        "learn": 0
+      },
+      {
+        "eng": "Be sure to / and tell me.",
+        "ru": "Не забудьте мне сказать.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm sure I didn't mean to hurt you.",
+        "ru": "Уверяю, я не хотел вас задеть.",
+        "learn": 0
+      },
+      {
+        "eng": "One thing is sure, though.",
+        "ru": "Тем не менее, в одном можно не сомневаться.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you sure you want to go?",
+        "ru": "Вы уверены, что хотите пойти?",
+        "learn": 0
+      },
+      {
+        "eng": "Are you sure of the results?",
+        "ru": "Вы уверены в результатах?",
+        "learn": 0
+      },
+      {
+        "eng": "It sure is hot out here.",
+        "ru": "Как же тут жарко!",
+        "learn": 0
+      },
+      {
+        "eng": "'Thanks for your help, Karen.' 'Sure.'",
+        "ru": "— Спасибо за помощь, Карен. — Пожалуйста. / Не за что.",
+        "learn": 0
+      },
+      {
+        "eng": "She'll be there, I'm sure of it.",
+        "ru": "Она будет там, я уверен.",
+        "learn": 0
+      },
+      {
+        "eng": "Be sure to lock the doors.",
+        "ru": "Обязательно запри двери.",
+        "learn": 1
+      },
+      {
+        "eng": "Sure bind, sure find.",
+        "ru": "Крепче запрёшь, вернее найдёшь. (посл.)",
+        "learn": 0
+      },
+      {
+        "eng": "It's going to be a good day for sure.",
+        "ru": "Этот день наверняка будет очень хорошим.",
+        "learn": 0
+      },
+      {
+        "eng": "'That's Sarah's cousin.' 'Are you sure?'",
+        "ru": "— Это двоюродный брат Сары. — Ты уверен?",
+        "learn": 0
+      },
+      {
+        "eng": "I'm not sure if I'm pronouncing this correctly.",
+        "ru": "Я не уверен, правильно ли я это произношу.",
+        "learn": 1
+      },
+      {
+        "eng": "I sure hope they get there all right.",
+        "ru": "Я очень надеюсь, что они доберутся туда без происшествий.",
+        "learn": 0
+      },
+      {
+        "eng": "The letter is a sure indication that she cares.",
+        "ru": "Это письмо — верный признак того, что ей не всё равно.",
+        "learn": 0
+      },
+      {
+        "eng": "'What time does the show start?' 'I'm not sure.'",
+        "ru": "— В котором часу начинается эта передача? — Точно не знаю.",
+        "learn": 0
+      },
+      {
+        "eng": "She's not sure who will be there.",
+        "ru": "Она точно не знает, кто там будет.",
+        "learn": 0
+      },
+      {
+        "eng": "Henry wasn't sure how to answer this.",
+        "ru": "Генри не знал, как на это ответить.",
+        "learn": 0
+      },
+      {
+        "eng": "Are you sure you really want a divorce?",
+        "ru": "Вы уверены, что действительно хотите развестись?",
+        "learn": 1
+      },
+      {
+        "eng": "He wasn't even sure of his mother's name.",
+        "ru": "Он даже точно не знал имени своей матери.",
+        "learn": 0
+      },
+      {
+        "eng": "Those black clouds are a sure sign of rain.",
+        "ru": "Эти чёрные облака — верный признак дождя.",
+        "learn": 1
+      },
+      {
+        "eng": "My mother, I felt sure, had not met him before.",
+        "ru": "Я была уверена, что мама раньше с ним не встречалась.",
+        "learn": 0
+      },
+      {
+        "eng": "Pizza is a sure crowd pleaser.",
+        "ru": "Пицца — это блюдо, которое наверняка понравится всем.",
+        "learn": 0
+      },
+      {
+        "eng": "a sure way to distinguish the two",
+        "ru": "надёжный способ отличить одного от другого",
+        "learn": 0
+      },
+      {
+        "eng": "He'll win sure as shooting.",
+        "ru": "Он выиграет, будь уверен.",
+        "learn": 0
+      },
+      {
+        "eng": "a sure hand on the throttle",
+        "ru": "твёрдая рука на акселераторе",
+        "learn": 0
+      }
+    ]
+  }
 }

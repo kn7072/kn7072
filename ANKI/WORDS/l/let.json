@@ -1,89 +1,178 @@
 {
-    "let": {
-        "comment": [
-            "letter",
-            "ballet",
-            "delete",
-            "outlet",
-            "athletic",
-            "athletics",
-            "athlete"
-        ],
-        "translate": "позволять, давать, препятствовать, препятствие, помеха, сдача внаем",
-        "transcription": " |let|",
-        "antonyms": [],
-        "mnemonic": [
-            "let [лет] позволять, пусть, давать - Позволять себе много (лет) жить.",
-            "let [let]\noutlet ['autlɛt] - выход, торговая точка\n***\nУж ПОЗВОЛЯЮ много лет. (это) let\nДОПУСТИМ - проживу 100 лет. (это) let"
-        ],
-        "examples": [
-            "Let it be!",
-            "Let him speak.",
-            "Let it rain!",
-            "Let them through.",
-            "Just let him try!",
-            "Let us pray.",
-            "Live and let live.",
-            "Let's take the bus.",
-            "Let me help you with those bags.",
-            "She didn't let him into the house.",
-            "Open the door, and let the cat out.",
-            "Let me have a look at that letter.",
-            "I was not let see him.",
-            "Let me by, I'm a doctor.",
-            "Let me give you a piece of advice.",
-            "Let angle A equal the sum of the two opposite sides.",
-            "Don't let anyone know it was me who told you.",
-            "Don't let's argue like this.",
-            "I let it be known that I was not interested",
-            "These cheap boots let the rain in.",
-            "I've let my spare room to a student.",
-            "Open the gates and let the crowd through.",
-            "A break in the clouds let us see the summit.",
-            "Let's make a start, shall we?",
-            "I can let you have another £10, but no more.",
-            "He was right in letting Newman have the funds.",
-            "The first serve was a let.",
-            "Max let the door swing open.",
-            "An agency is managing the let.",
-            "Don't let him be the one who died, she prayed."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Да будет так!",
-            "Дай ему сказать. / Пусть говорит.",
-            "Пусть будет дождь!",
-            "Разрешите им пройти. / Пропустите их.",
-            "Пусть он только попробует!",
-            "Помолимся.",
-            "Живи сам и не мешай другим.",
-            "Давай(те) сядем на автобус.",
-            "Позвольте мне помочь вам донести эти сумки.",
-            "Она не пустила его в дом.",
-            "Открой дверь и выпусти кошку.",
-            "Позвольте мне взглянуть на это письмо.",
-            "Мне не дали его повидать.",
-            "Пропустите меня, я доктор.",
-            "Позвольте мне кое-что вам посоветовать.",
-            "Пусть угол А равен сумме двух противоположных сторон.",
-            "Пусть никто не знает, что это я тебе сказал.",
-            "Давайте не будем вот так ссориться. (брит. разг.)",
-            "Да будет вам известно, что я не был заинтересован.",
-            "Эти дешёвые ботинки промокают в дождь.",
-            "Я сдал свободную комнату студенту.",
-            "Открой ворота и пропусти толпу.",
-            "Просвет в облаках позволил нам увидеть вершину.",
-            "Ну что, начнём?",
-            "Я могу позволить тебе взять ещё десять фунтов, но не больше.",
-            "Он оказался прав, позволив Ньюману получить эти деньги.",
-            "Первую подачу пришлось повторить. (о теннисе)",
-            "Макс позволил двери распахнуться настежь.",
-            "Сдачей помещений внаём управляет одно агентство.",
-            "Только бы не он оказался этим погибшим, — молилась она."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "let": {
+    "comment": [
+      "let |lɛt|,                                          let |lɛt|",
+      "letter",
+      "ballet",
+      "delete",
+      "outlet",
+      "athletic",
+      "athletics",
+      "athlete"
+    ],
+    "translate": "позволять, давать, препятствовать, препятствие, помеха, сдача внаем",
+    "transcription": " |let|",
+    "antonyms": [],
+    "mnemonic": [
+      "let [лет] позволять, пусть, давать - Позволять себе много (лет) жить.",
+      "let [let]\noutlet ['autlɛt] - выход, торговая точка\n***\nУж ПОЗВОЛЯЮ много лет. (это) let\nДОПУСТИМ - проживу 100 лет. (это) let"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Let it be!",
+        "ru": "Да будет так!",
+        "learn": 0
+      },
+      {
+        "eng": "Let him speak.",
+        "ru": "Дай ему сказать. / Пусть говорит.",
+        "learn": 0
+      },
+      {
+        "eng": "Let it rain!",
+        "ru": "Пусть будет дождь!",
+        "learn": 0
+      },
+      {
+        "eng": "Let them through.",
+        "ru": "Разрешите им пройти. / Пропустите их.",
+        "learn": 0
+      },
+      {
+        "eng": "Just let him try!",
+        "ru": "Пусть он только попробует!",
+        "learn": 0
+      },
+      {
+        "eng": "Let us pray.",
+        "ru": "Помолимся.",
+        "learn": 0
+      },
+      {
+        "eng": "Live and let live.",
+        "ru": "Живи сам и не мешай другим.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's take the bus.",
+        "ru": "Давай(те) сядем на автобус.",
+        "learn": 0
+      },
+      {
+        "eng": "Let me help you with those bags.",
+        "ru": "Позвольте мне помочь вам донести эти сумки.",
+        "learn": 0
+      },
+      {
+        "eng": "She didn't let him into the house.",
+        "ru": "Она не пустила его в дом.",
+        "learn": 0
+      },
+      {
+        "eng": "Open the door, and let the cat out.",
+        "ru": "Открой дверь и выпусти кошку.",
+        "learn": 0
+      },
+      {
+        "eng": "Let me have a look at that letter.",
+        "ru": "Позвольте мне взглянуть на это письмо.",
+        "learn": 0
+      },
+      {
+        "eng": "I was not let see him.",
+        "ru": "Мне не дали его повидать.",
+        "learn": 1
+      },
+      {
+        "eng": "Let me by, I'm a doctor.",
+        "ru": "Пропустите меня, я доктор.",
+        "learn": 0
+      },
+      {
+        "eng": "Let me give you a piece of advice.",
+        "ru": "Позвольте мне кое-что вам посоветовать.",
+        "learn": 0
+      },
+      {
+        "eng": "Let angle A equal the sum of the two opposite sides.",
+        "ru": "Пусть угол А равен сумме двух противоположных сторон.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't let anyone know it was me who told you.",
+        "ru": "Пусть никто не знает, что это я тебе сказал.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't let's argue like this.",
+        "ru": "Давайте не будем вот так ссориться. (брит. разг.)",
+        "learn": 0
+      },
+      {
+        "eng": "I let it be known that I was not interested",
+        "ru": "Да будет вам известно, что я не был заинтересован.",
+        "learn": 0
+      },
+      {
+        "eng": "These cheap boots let the rain in.",
+        "ru": "Эти дешёвые ботинки промокают в дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "I've let my spare room to a student.",
+        "ru": "Я сдал свободную комнату студенту.",
+        "learn": 0
+      },
+      {
+        "eng": "Open the gates and let the crowd through.",
+        "ru": "Открой ворота и пропусти толпу.",
+        "learn": 0
+      },
+      {
+        "eng": "A break in the clouds let us see the summit.",
+        "ru": "Просвет в облаках позволил нам увидеть вершину.",
+        "learn": 1
+      },
+      {
+        "eng": "Let's make a start, shall we?",
+        "ru": "Ну что, начнём?",
+        "learn": 0
+      },
+      {
+        "eng": "I can let you have another £10, but no more.",
+        "ru": "Я могу позволить тебе взять ещё десять фунтов, но не больше.",
+        "learn": 0
+      },
+      {
+        "eng": "He was right in letting Newman have the funds.",
+        "ru": "Он оказался прав, позволив Ньюману получить эти деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "The first serve was a let.",
+        "ru": "Первую подачу пришлось повторить. (о теннисе)",
+        "learn": 0
+      },
+      {
+        "eng": "Max let the door swing open.",
+        "ru": "Макс позволил двери распахнуться настежь.",
+        "learn": 0
+      },
+      {
+        "eng": "An agency is managing the let.",
+        "ru": "Сдачей помещений внаём управляет одно агентство.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't let him be the one who died, she prayed.",
+        "ru": "Только бы не он оказался этим погибшим, — молилась она.",
+        "learn": 0
+      }
+    ]
+  }
 }

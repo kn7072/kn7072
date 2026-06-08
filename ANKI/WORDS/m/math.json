@@ -1,73 +1,141 @@
 {
-    "math": {
-        "comment": [
-            "mathematics",
-            "maths",
-            "mathematical",
-            "match",
-            "matching",
-            "matrix"
-        ],
-        "translate": "спичка",
-        "transcription": " |mæθ|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "He's a real demon at math.",
-            "He's a math whiz.",
-            "Tim's good at math and science.",
-            "I'm gonna cruise that math course.",
-            "He could not work the math problem.",
-            "She excelled in math.",
-            "She's learning calculus in math class.",
-            "She just squeaked through her math test.",
-            "She was digging away at her math homework.",
-            "He's hot at math but not so hot at history.",
-            "the university's math and science departments",
-            "They achieved high scores on their math tests.",
-            "The teacher assigned us 50 math problems for homework!",
-            "He's been struggling in math class for most of the year.",
-            "Thirty dollars an hour is the going rate for a math tutor.",
-            "He was punished for taking too many cuts in his math class.",
-            "The object of the game is to improve children's math skills.",
-            "The report stressed that student math skills need to improve.",
-            "A basic grounding in math is essential for the economics course.",
-            "the once-common fallacy that girls just weren't any good at math",
-            "American children did less well in math than their peers in Japan.",
-            "The rapidity with which she can do mental math calculations is amazing.",
-            "My sister is the math expert in the family, but literature is my domain.",
-            "He was a genius at math, but a total stupid when it came to his love life."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "В математике ему нет равных.",
-            "В математике он - дока.",
-            "Тим силён в математике и естественных науках.",
-            "Я запросто сдам этот курс математики.",
-            "Он не смог решить эту математическую задачу.",
-            "Она преуспела в математике.",
-            "В курсе математики она изучает численные методы.",
-            "Она еле-еле сдала контрольную по математике.",
-            "Она корпела /трудилась/ над своим домашним заданием по математике.",
-            "Он хорош в математике, но вот с историей у него похуже.",
-            "факультеты математики и естественных наук данного университета",
-            "Они получили высокие баллы за тест по математике.",
-            "Учитель задал нам на дом целых пятьдесят задач по математике!",
-            "На протяжении большей части года на уроках математики у него ничего не получалось.",
-            "Тридцать долларов в час — это обычная ставка репетитора по математике.",
-            "Он был наказан за слишком большое количество прогулов на уроках математики.",
-            "Цель игры состоит в развитии у детей математических навыков.",
-            "В докладе подчёркивалась необходимость улучшить математические навыки студентов.",
-            "Знание основ математики необходимо для обучения экономике.",
-            "некогда распространённое заблуждение о том, что девушки не сильны в математике",
-            "Американские дети хуже проявили себя в математике, чем их японские сверстники.",
-            "Скорость, с которой она умеет считать в уме, потрясает воображение.",
-            "У нас в семье спец по математике — моя сестра, но вот литература — по моей части.",
-            "В математике он был гений, но, когда дело касалось личной жизни, — дурак дураком."
-        ],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "math": {
+    "comment": [
+      "mathematics",
+      "maths",
+      "mathematical",
+      "match",
+      "matching",
+      "matrix"
+    ],
+    "translate": "спичка",
+    "transcription": " |mæθ|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He's a real demon at math.",
+        "ru": "В математике ему нет равных.",
+        "learn": 0
+      },
+      {
+        "eng": "He's a math whiz.",
+        "ru": "В математике он - дока.",
+        "learn": 0
+      },
+      {
+        "eng": "Tim's good at math and science.",
+        "ru": "Тим силён в математике и естественных науках.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm gonna cruise that math course.",
+        "ru": "Я запросто сдам этот курс математики.",
+        "learn": 0
+      },
+      {
+        "eng": "He could not work the math problem.",
+        "ru": "Он не смог решить эту математическую задачу.",
+        "learn": 1
+      },
+      {
+        "eng": "She excelled in math.",
+        "ru": "Она преуспела в математике.",
+        "learn": 0
+      },
+      {
+        "eng": "She's learning calculus in math class.",
+        "ru": "В курсе математики она изучает численные методы.",
+        "learn": 0
+      },
+      {
+        "eng": "She just squeaked through her math test.",
+        "ru": "Она еле-еле сдала контрольную по математике.",
+        "learn": 0
+      },
+      {
+        "eng": "She was digging away at her math homework.",
+        "ru": "Она корпела /трудилась/ над своим домашним заданием по математике.",
+        "learn": 0
+      },
+      {
+        "eng": "He's hot at math but not so hot at history.",
+        "ru": "Он хорош в математике, но вот с историей у него похуже.",
+        "learn": 0
+      },
+      {
+        "eng": "the university's math and science departments",
+        "ru": "факультеты математики и естественных наук данного университета",
+        "learn": 0
+      },
+      {
+        "eng": "They achieved high scores on their math tests.",
+        "ru": "Они получили высокие баллы за тест по математике.",
+        "learn": 1
+      },
+      {
+        "eng": "The teacher assigned us 50 math problems for homework!",
+        "ru": "Учитель задал нам на дом целых пятьдесят задач по математике!",
+        "learn": 0
+      },
+      {
+        "eng": "He's been struggling in math class for most of the year.",
+        "ru": "На протяжении большей части года на уроках математики у него ничего не получалось.",
+        "learn": 0
+      },
+      {
+        "eng": "Thirty dollars an hour is the going rate for a math tutor.",
+        "ru": "Тридцать долларов в час — это обычная ставка репетитора по математике.",
+        "learn": 0
+      },
+      {
+        "eng": "He was punished for taking too many cuts in his math class.",
+        "ru": "Он был наказан за слишком большое количество прогулов на уроках математики.",
+        "learn": 0
+      },
+      {
+        "eng": "The object of the game is to improve children's math skills.",
+        "ru": "Цель игры состоит в развитии у детей математических навыков.",
+        "learn": 0
+      },
+      {
+        "eng": "The report stressed that student math skills need to improve.",
+        "ru": "В докладе подчёркивалась необходимость улучшить математические навыки студентов.",
+        "learn": 0
+      },
+      {
+        "eng": "A basic grounding in math is essential for the economics course.",
+        "ru": "Знание основ математики необходимо для обучения экономике.",
+        "learn": 0
+      },
+      {
+        "eng": "the once-common fallacy that girls just weren't any good at math",
+        "ru": "некогда распространённое заблуждение о том, что девушки не сильны в математике",
+        "learn": 0
+      },
+      {
+        "eng": "American children did less well in math than their peers in Japan.",
+        "ru": "Американские дети хуже проявили себя в математике, чем их японские сверстники.",
+        "learn": 1
+      },
+      {
+        "eng": "The rapidity with which she can do mental math calculations is amazing.",
+        "ru": "Скорость, с которой она умеет считать в уме, потрясает воображение.",
+        "learn": 0
+      },
+      {
+        "eng": "My sister is the math expert in the family, but literature is my domain.",
+        "ru": "У нас в семье спец по математике — моя сестра, но вот литература — по моей части.",
+        "learn": 1
+      },
+      {
+        "eng": "He was a genius at math, but a total stupid when it came to his love life.",
+        "ru": "В математике он был гений, но, когда дело касалось личной жизни, — дурак дураком.",
+        "learn": 0
+      }
+    ]
+  }
 }

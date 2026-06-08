@@ -1,92 +1,180 @@
 {
-    "expect": {
-        "comment": [
-            "unexpected",
-            "unexpectedly",
-            "expectation",
-            "expected"
-        ],
-        "translate": "ожидать, рассчитывать, ждать, надеяться, предполагать, полагать, думать",
-        "transcription": " |ɪkˈspekt|",
-        "antonyms": [],
-        "mnemonic": [
-            "expect [ik'spekt]\nexpectation- ожидание\n***\nЖДАЛ тебя, а пришёл инспектор. (это) expect\n***\nЯ и не ожидал \"expect\",\nчто тебя зауважаю \"respect\"."
-        ],
-        "examples": [
-            "It's hopeless to expect him to help.",
-            "I'm expecting a phone call.",
-            "We'll expect you for dinner on Thursday.",
-            "The are expecting another child in January",
-            "You can expect delivery in a week to ten days.",
-            "He didn't get his expected pay rise.",
-            "Don't expect a good meal at a cabaret.",
-            "We expected more from you.",
-            "I expect you're right.",
-            "Do you really expect me to believe that?",
-            "I expect to be back within a week.",
-            "The porter will expect a tip.",
-            "I didn't expect him to react that way.",
-            "Is it realistic to expect such results?",
-            "You expect me to believe that shit?",
-            "I expect more grown-up behaviour of you.",
-            "Prices are expected to rise.",
-            "I didn't expect him to stay so long.",
-            "Trouble comes along when you least expect it.",
-            "Having been there before, I knew what to expect.",
-            "Expect occasional showers today.",
-            "She knows broadly what to expect.",
-            "The whole family expects great things of him.",
-            "I expect my friend was a paragon of sanctity.",
-            "This is not the kind of behavior I expected of you.",
-            "You can't expect him to do it all on his own.",
-            "I expect my guests to be punctual for breakfast.",
-            "We expect the stocks to recover to $2.90.",
-            "They expect the governor to resign his office.",
-            "Don't expect sudden improvements from this class."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Бесполезно ждать от него помощи.",
-            "Я жду телефонного звонка.",
-            "Мы ждём вас на ужин в четверг.",
-            "Они ожидают ещё одного ребенка в январе.",
-            "Доставку можно ожидать в течение семи-десяти дней.",
-            "Он не получил ожидаемого повышения зарплаты.",
-            "Хорошей еды в забегаловке ждать не стоит.",
-            "Мы ожидали от вас большего.",
-            "Я думаю, вы правы.",
-            "Вы что, действительно ждёте, что я в это поверю?",
-            "Я рассчитываю вернуться в течение недели.",
-            "Носильщик будет ждать от вас чаевых.",
-            "Я не ожидал, что он отреагирует подобным образом.",
-            "Реалистично ли ожидать таких результатов?",
-            "И ты думаешь, что я поверю в эту брехню?",
-            "Я жду от тебя более взрослого поведения.",
-            "Предполагается, что цены вырастут.",
-            "Я не ожидал, что он останется так надолго.",
-            "Неприятности происходят именно тогда, когда их меньше всего ждёшь.",
-            "Я уже был здесь раньше и знал, чего ожидать.",
-            "Сегодня временами ожидается дождь.",
-            "Она, в общем-то, знает, чего ожидать.",
-            "Вся семья возлагает на него большие надежды.",
-            "Я думаю, мой друг был образцом добродетели.",
-            "Не такого поведения я от тебя ждал. / Не ожидал я, что ты так себя поведёшь.",
-            "Не стоит надеяться, что он всё это сделает сам.",
-            "Я требую, чтобы мои гости не опаздывали к завтраку.",
-            "Мы ожидаем, что акции вернутся к цене $2.90.",
-            "Они полагают, что губернатор уйдёт в отставку.",
-            "Не надейся, что этот класс вдруг изменится к лучшему."
-        ],
-        "stars": 3,
-        "groups": [
-            "Сложное_дополнение",
-            "Сложное_подлежащее",
-            "Инфинитив",
-            "all_words",
-            "x_=_[ks]",
-            "Инфинитив_-_сложное_дополнение(умственной_деятельность,_обозначающая_знание,_мнение_или_предположение)",
-            "Инфинитив_с_to_после_глаголов",
-            "Инфинитив_-_сложное_подлежащее(страдательный_залог)"
-        ]
-    }
+  "expect": {
+    "comment": [
+      "unexpected",
+      "unexpectedly",
+      "expectation",
+      "expected"
+    ],
+    "translate": "ожидать, рассчитывать, ждать, надеяться, предполагать, полагать, думать",
+    "transcription": " |ɪkˈspekt|",
+    "antonyms": [],
+    "mnemonic": [
+      "expect [ik'spekt]\nexpectation- ожидание\n***\nЖДАЛ тебя, а пришёл инспектор. (это) expect\n***\nЯ и не ожидал \"expect\",\nчто тебя зауважаю \"respect\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Сложное_дополнение",
+      "Сложное_подлежащее",
+      "Инфинитив",
+      "x_=_[ks]",
+      "Инфинитив_-_сложное_дополнение(умственной_деятельность,_обозначающая_знание,_мнение_или_предположение)",
+      "Инфинитив_с_to_после_глаголов",
+      "Инфинитив_-_сложное_подлежащее(страдательный_залог)",
+      "infinitive_after_verb"
+    ],
+    "examples": [
+      {
+        "eng": "It's hopeless to expect him to help.",
+        "ru": "Бесполезно ждать от него помощи.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm expecting a phone call.",
+        "ru": "Я жду телефонного звонка.",
+        "learn": 0
+      },
+      {
+        "eng": "We'll expect you for dinner on Thursday.",
+        "ru": "Мы ждём вас на ужин в четверг.",
+        "learn": 0
+      },
+      {
+        "eng": "The are expecting another child in January",
+        "ru": "Они ожидают ещё одного ребенка в январе.",
+        "learn": 0
+      },
+      {
+        "eng": "You can expect delivery in a week to ten days.",
+        "ru": "Доставку можно ожидать в течение семи-десяти дней.",
+        "learn": 0
+      },
+      {
+        "eng": "He didn't get his expected pay rise.",
+        "ru": "Он не получил ожидаемого повышения зарплаты.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't expect a good meal at a cabaret.",
+        "ru": "Хорошей еды в забегаловке ждать не стоит.",
+        "learn": 0
+      },
+      {
+        "eng": "We expected more from you.",
+        "ru": "Мы ожидали от вас большего.",
+        "learn": 0
+      },
+      {
+        "eng": "I expect you're right.",
+        "ru": "Я думаю, вы правы.",
+        "learn": 0
+      },
+      {
+        "eng": "Do you really expect me to believe that?",
+        "ru": "Вы что, действительно ждёте, что я в это поверю?",
+        "learn": 1
+      },
+      {
+        "eng": "I expect to be back within a week.",
+        "ru": "Я рассчитываю вернуться в течение недели.",
+        "learn": 1
+      },
+      {
+        "eng": "The porter will expect a tip.",
+        "ru": "Носильщик будет ждать от вас чаевых.",
+        "learn": 0
+      },
+      {
+        "eng": "I didn't expect him to react that way.",
+        "ru": "Я не ожидал, что он отреагирует подобным образом.",
+        "learn": 0
+      },
+      {
+        "eng": "Is it realistic to expect such results?",
+        "ru": "Реалистично ли ожидать таких результатов?",
+        "learn": 0
+      },
+      {
+        "eng": "You expect me to believe that shit?",
+        "ru": "И ты думаешь, что я поверю в эту брехню?",
+        "learn": 0
+      },
+      {
+        "eng": "I expect more grown-up behaviour of you.",
+        "ru": "Я жду от тебя более взрослого поведения.",
+        "learn": 1
+      },
+      {
+        "eng": "Prices are expected to rise.",
+        "ru": "Предполагается, что цены вырастут.",
+        "learn": 1
+      },
+      {
+        "eng": "I didn't expect him to stay so long.",
+        "ru": "Я не ожидал, что он останется так надолго.",
+        "learn": 0
+      },
+      {
+        "eng": "Trouble comes along when you least expect it.",
+        "ru": "Неприятности происходят именно тогда, когда их меньше всего ждёшь.",
+        "learn": 0
+      },
+      {
+        "eng": "Having been there before, I knew what to expect.",
+        "ru": "Я уже был здесь раньше и знал, чего ожидать.",
+        "learn": 0
+      },
+      {
+        "eng": "Expect occasional showers today.",
+        "ru": "Сегодня временами ожидается дождь.",
+        "learn": 0
+      },
+      {
+        "eng": "She knows broadly what to expect.",
+        "ru": "Она, в общем-то, знает, чего ожидать.",
+        "learn": 0
+      },
+      {
+        "eng": "The whole family expects great things of him.",
+        "ru": "Вся семья возлагает на него большие надежды.",
+        "learn": 0
+      },
+      {
+        "eng": "I expect my friend was a paragon of sanctity.",
+        "ru": "Я думаю, мой друг был образцом добродетели.",
+        "learn": 0
+      },
+      {
+        "eng": "This is not the kind of behavior I expected of you.",
+        "ru": "Не такого поведения я от тебя ждал. / Не ожидал я, что ты так себя поведёшь.",
+        "learn": 0
+      },
+      {
+        "eng": "You can't expect him to do it all on his own.",
+        "ru": "Не стоит надеяться, что он всё это сделает сам.",
+        "learn": 0
+      },
+      {
+        "eng": "I expect my guests to be punctual for breakfast.",
+        "ru": "Я требую, чтобы мои гости не опаздывали к завтраку.",
+        "learn": 0
+      },
+      {
+        "eng": "We expect the stocks to recover to $2.90.",
+        "ru": "Мы ожидаем, что акции вернутся к цене $2.90.",
+        "learn": 0
+      },
+      {
+        "eng": "They expect the governor to resign his office.",
+        "ru": "Они полагают, что губернатор уйдёт в отставку.",
+        "learn": 1
+      },
+      {
+        "eng": "Don't expect sudden improvements from this class.",
+        "ru": "Не надейся, что этот класс вдруг изменится к лучшему.",
+        "learn": 0
+      }
+    ]
+  }
 }

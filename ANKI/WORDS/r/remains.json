@@ -1,82 +1,168 @@
 {
-    "remains": {
-        "comment": [
-            "remain",
-            "remaining",
-            "remainder"
-        ],
-        "translate": "остатки, останки, остаток, развалины, руины, прах, реликвии, посмертные произведения",
-        "transcription": " |rɪˈmeɪnz|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The murder still remains unsolved.",
-            "Some remains of the original house still stand.",
-            "Their future remains problematic.",
-            "My deep love for him still remains.",
-            "the smoking remains of a fire",
-            "The matter remains an open question.",
-            "It remains one of nature's secrets.",
-            "The murderer's identity remains unknown.",
-            "'Sheep' remains the same in the plural.",
-            "Little of the original building remains.",
-            "the charred remains of a body",
-            "The question remains: who fired the shot?",
-            "The cubs will share the remains of the kill.",
-            "Britain's fishing industry remains threatened.",
-            "The bedrock of our common security remains NATO.",
-            "The question of military casualties remains murky.",
-            "Police have found what appear to be human remains.",
-            "His action is clear but his reason remains unstated.",
-            "The question, therefore, still remains undetermined.",
-            "There remains the question of who pulled the trigger.",
-            "He remains unbeaten in his career.",
-            "That day remains fixed in my memory.",
-            "I threw out the remains of my dinner.",
-            "Her remains are buried in Westminster.",
-            "She remains uncertain about her plans.",
-            "The original agreement remains untouched.",
-            "The archaeologist found skeletal remains.",
-            "Much remains unknown about his early life.",
-            "The town remains a very isolated community.",
-            "The use and sale of marijuana remains illegal."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Это убийство по-прежнему остаётся нераскрытым.",
-            "Некоторые развалины старого дома до сих пор ещё стоят.",
-            "Их будущее остаётся неясным.",
-            "Я по-прежнему очень сильно его люблю.",
-            "дымящиеся остатки костра",
-            "Этот вопрос остаётся открытым.",
-            "Это остаётся одной из тайн природы.",
-            "Личность убийцы остаётся неизвестной.",
-            "Слово \"овца\" (в английском языке) остается неизменным во множественном числе.",
-            "От первоначального здания мало что остаётся.",
-            "обуглившиеся останки тела",
-            "Остаётся вопрос: кто же произвёл этот выстрел?",
-            "Детёныши разделят остатки добычи /туши/ между собой.",
-            "Рыбная промышленность Великобритании остаётся под угрозой.",
-            "Краеугольным камнем нашей общей системы безопасности остаётся НАТО.",
-            "Вопрос о военных потерях по-прежнему окутан туманом.",
-            "Полиция нашла то, что, по всей видимости, является человеческими останками.",
-            "Его действия понятны, но причина остаётся неустановленной.",
-            "Вопрос всё ещё остаётся неразрешённым.",
-            "Остаётся вопрос: кто же нажал на курок?",
-            "В своей карьере он по-прежнему не знает поражений.",
-            "Тот день прочно засел в моей памяти.",
-            "Остатки от ужина я выбросил.",
-            "Её останки покоятся в Вестминстере.",
-            "Она всё ещё не уверена в своих планах.",
-            "Первоначальное соглашение остаётся в силе.",
-            "Археолог обнаружил останки скелета.",
-            "До сих пор мало что известно о первых годах его жизни.",
-            "Город по-прежнему остаётся очень изолированным сообществом.",
-            "Употребление и сбыт марихуаны по-прежнему противозаконны."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "remains": {
+    "comment": [
+      "remain",
+      "remaining",
+      "remainder"
+    ],
+    "translate": "остатки, останки, остаток, развалины, руины, прах, реликвии, посмертные произведения",
+    "transcription": " |rɪˈmeɪnz|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The murder still remains unsolved.",
+        "ru": "Это убийство по-прежнему остаётся нераскрытым.",
+        "learn": 1
+      },
+      {
+        "eng": "Some remains of the original house still stand.",
+        "ru": "Некоторые развалины старого дома до сих пор ещё стоят.",
+        "learn": 0
+      },
+      {
+        "eng": "Their future remains problematic.",
+        "ru": "Их будущее остаётся неясным.",
+        "learn": 0
+      },
+      {
+        "eng": "My deep love for him still remains.",
+        "ru": "Я по-прежнему очень сильно его люблю.",
+        "learn": 0
+      },
+      {
+        "eng": "the smoking remains of a fire",
+        "ru": "дымящиеся остатки костра",
+        "learn": 0
+      },
+      {
+        "eng": "The matter remains an open question.",
+        "ru": "Этот вопрос остаётся открытым.",
+        "learn": 0
+      },
+      {
+        "eng": "It remains one of nature's secrets.",
+        "ru": "Это остаётся одной из тайн природы.",
+        "learn": 0
+      },
+      {
+        "eng": "The murderer's identity remains unknown.",
+        "ru": "Личность убийцы остаётся неизвестной.",
+        "learn": 1
+      },
+      {
+        "eng": "'Sheep' remains the same in the plural.",
+        "ru": "Слово \"овца\" (в английском языке) остается неизменным во множественном числе.",
+        "learn": 1
+      },
+      {
+        "eng": "Little of the original building remains.",
+        "ru": "От первоначального здания мало что остаётся.",
+        "learn": 0
+      },
+      {
+        "eng": "the charred remains of a body",
+        "ru": "обуглившиеся останки тела",
+        "learn": 0
+      },
+      {
+        "eng": "The question remains: who fired the shot?",
+        "ru": "Остаётся вопрос: кто же произвёл этот выстрел?",
+        "learn": 0
+      },
+      {
+        "eng": "The cubs will share the remains of the kill.",
+        "ru": "Детёныши разделят остатки добычи /туши/ между собой.",
+        "learn": 0
+      },
+      {
+        "eng": "Britain's fishing industry remains threatened.",
+        "ru": "Рыбная промышленность Великобритании остаётся под угрозой.",
+        "learn": 0
+      },
+      {
+        "eng": "The bedrock of our common security remains NATO.",
+        "ru": "Краеугольным камнем нашей общей системы безопасности остаётся НАТО.",
+        "learn": 0
+      },
+      {
+        "eng": "The question of military casualties remains murky.",
+        "ru": "Вопрос о военных потерях по-прежнему окутан туманом.",
+        "learn": 0
+      },
+      {
+        "eng": "Police have found what appear to be human remains.",
+        "ru": "Полиция нашла то, что, по всей видимости, является человеческими останками.",
+        "learn": 0
+      },
+      {
+        "eng": "His action is clear but his reason remains unstated.",
+        "ru": "Его действия понятны, но причина остаётся неустановленной.",
+        "learn": 0
+      },
+      {
+        "eng": "The question, therefore, still remains undetermined.",
+        "ru": "Вопрос всё ещё остаётся неразрешённым.",
+        "learn": 0
+      },
+      {
+        "eng": "There remains the question of who pulled the trigger.",
+        "ru": "Остаётся вопрос: кто же нажал на курок?",
+        "learn": 0
+      },
+      {
+        "eng": "He remains unbeaten in his career.",
+        "ru": "В своей карьере он по-прежнему не знает поражений.",
+        "learn": 0
+      },
+      {
+        "eng": "That day remains fixed in my memory.",
+        "ru": "Тот день прочно засел в моей памяти.",
+        "learn": 0
+      },
+      {
+        "eng": "I threw out the remains of my dinner.",
+        "ru": "Остатки от ужина я выбросил.",
+        "learn": 1
+      },
+      {
+        "eng": "Her remains are buried in Westminster.",
+        "ru": "Её останки покоятся в Вестминстере.",
+        "learn": 0
+      },
+      {
+        "eng": "She remains uncertain about her plans.",
+        "ru": "Она всё ещё не уверена в своих планах.",
+        "learn": 0
+      },
+      {
+        "eng": "The original agreement remains untouched.",
+        "ru": "Первоначальное соглашение остаётся в силе.",
+        "learn": 1
+      },
+      {
+        "eng": "The archaeologist found skeletal remains.",
+        "ru": "Археолог обнаружил останки скелета.",
+        "learn": 0
+      },
+      {
+        "eng": "Much remains unknown about his early life.",
+        "ru": "До сих пор мало что известно о первых годах его жизни.",
+        "learn": 0
+      },
+      {
+        "eng": "The town remains a very isolated community.",
+        "ru": "Город по-прежнему остаётся очень изолированным сообществом.",
+        "learn": 1
+      },
+      {
+        "eng": "The use and sale of marijuana remains illegal.",
+        "ru": "Употребление и сбыт марихуаны по-прежнему противозаконны.",
+        "learn": 0
+      }
+    ]
+  }
 }

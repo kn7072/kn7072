@@ -1,83 +1,169 @@
 {
-    "current": {
-        "comment": [
-            "currency",
-            "currently"
-        ],
-        "translate": "текущий, современный, теперешний, ходячий, ток, течение, поток, струя, ход",
-        "transcription": " |ˈkɜːrənt|",
-        "antonyms": [],
-        "mnemonic": [
-            "current ['kʌr (ə) nt]\ncurrently ['kʌrntlɪ] - на данный момент, в данный\nмомент, сейчас\nconcurrent [kən'kʌr (ə) nt] - совпадающий,\nодновременный, параллельный\n***\nТЕКУЩИЙ год для нас шикарен (т). (это) current\nСОВРЕМЕНЫЫЙ мир шикаре (т). (это) current"
-        ],
-        "examples": [
-            "My current status is unemployed.",
-            "I'm worried about the current political situation.",
-            "Who is your current employer?",
-            "Caribbean Current",
-            "To our consternation, the current was turned off.",
-            "What is your current heading?",
-            "The current unemployment rate is six percent.",
-            "Strong currents can be very dangerous for swimmers.",
-            "\"The current method isn't working.\" \"Clearly not.\"",
-            "I'd like to withdraw £500 from my current account.",
-            "The exam included several questions on current events.",
-            "Two theories were then widely current.",
-            "In its current state, the car is worth £1,000.",
-            "The current system is disadvantageous to women.",
-            "We need to keep current with the latest information.",
-            "Fish instinctively fight their way upstream against the current.",
-            "The current was measured in amperes.",
-            "The motor is fed by an electrical current.",
-            "The current middle-class norm of two children per family.",
-            "Use the Save command to store the current document on disk.",
-            "The current boom in the economy sucked many workers in from abroad.",
-            "the current taste for wide trousers",
-            "a current having a frequency of 60 hertz",
-            "The current system causes a lot of waste.",
-            "What is the state of play in the current negotiations?",
-            "She worked as a clerk before ascending to her current position.",
-            "Oersted discovered that an electric current would deflect a magnetic needle.",
-            "The circuit supplies current to the saw.",
-            "'Ladened' is not current usage.",
-            "a pungent satire of current politics"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "В настоящий момент я безработный. (досл.: Мой текущий статус — безработный)",
-            "Меня беспокоит текущая политическая ситуация.",
-            "Кто ваш нынешний работодатель?",
-            "Гвианское течение / Карибское течение",
-            "К нашему ужасу, отключили ток.",
-            "Каким курсом вы сейчас движетесь?",
-            "Текущий уровень безработицы составляет шесть процентов.",
-            "Сильные течения могут быть очень опасны для пловцов.",
-            "— Текущий метод не работает. — Вне всякого сомнения. / Несомненно.",
-            "Я бы хотел снять пятьсот фунтов стерлингов со своего текущего счёта.",
-            "В экзамен входило несколько вопросов о текущих событиях.",
-            "В то время бытовали две широко распространённые теории.",
-            "В своём нынешнем состоянии машина стоит тысячу фунтов стерлингов.",
-            "Существующая система невыгодна для женщин.",
-            "Мы должны быть в курсе последней информации.",
-            "Рыба инстинктивно пробивает себе путь наверх, против течения.",
-            "Ток измерялся в амперах.",
-            "На двигатель подаётся электрический ток.",
-            "В настоящее время для семьи среднего класса норма два ребенка.",
-            "Чтобы сохранить документ на диск, используйте команду \"сохранить\".",
-            "Нынешний экономический рост привлёк в страну многих работников из-за рубежа.",
-            "нынешнее пристрастие к широким брюкам /шароварам/",
-            "ток частотой шестьдесят герц",
-            "Существующая система вызывает много потерь.",
-            "Как обстоят дела на текущих переговорах?",
-            "Она работала продавцом до того, как поднялась на свою нынешнюю должность.",
-            "Эрстед открыл, что электрический ток способен вызывать отклонение магнитной стрелки.",
-            "От данной сети ток поступает на пилу.",
-            "Сейчас слово \"ladened\" (гружёный) больше не употребляется.",
-            "острая сатира на текущую политику"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "current": {
+    "comment": [
+      "currency",
+      "currently"
+    ],
+    "translate": "текущий, современный, теперешний, ходячий, ток, течение, поток, струя, ход",
+    "transcription": " |ˈkɜːrənt|",
+    "antonyms": [],
+    "mnemonic": [
+      "current ['kʌr (ə) nt]\ncurrently ['kʌrntlɪ] - на данный момент, в данный\nмомент, сейчас\nconcurrent [kən'kʌr (ə) nt] - совпадающий,\nодновременный, параллельный\n***\nТЕКУЩИЙ год для нас шикарен (т). (это) current\nСОВРЕМЕНЫЫЙ мир шикаре (т). (это) current"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "My current status is unemployed.",
+        "ru": "В настоящий момент я безработный. (досл.: Мой текущий статус — безработный)",
+        "learn": 0
+      },
+      {
+        "eng": "I'm worried about the current political situation.",
+        "ru": "Меня беспокоит текущая политическая ситуация.",
+        "learn": 1
+      },
+      {
+        "eng": "Who is your current employer?",
+        "ru": "Кто ваш нынешний работодатель?",
+        "learn": 0
+      },
+      {
+        "eng": "Caribbean Current",
+        "ru": "Гвианское течение / Карибское течение",
+        "learn": 0
+      },
+      {
+        "eng": "To our consternation, the current was turned off.",
+        "ru": "К нашему ужасу, отключили ток.",
+        "learn": 0
+      },
+      {
+        "eng": "What is your current heading?",
+        "ru": "Каким курсом вы сейчас движетесь?",
+        "learn": 0
+      },
+      {
+        "eng": "The current unemployment rate is six percent.",
+        "ru": "Текущий уровень безработицы составляет шесть процентов.",
+        "learn": 1
+      },
+      {
+        "eng": "Strong currents can be very dangerous for swimmers.",
+        "ru": "Сильные течения могут быть очень опасны для пловцов.",
+        "learn": 0
+      },
+      {
+        "eng": "\"The current method isn't working.\" \"Clearly not.\"",
+        "ru": "— Текущий метод не работает. — Вне всякого сомнения. / Несомненно.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd like to withdraw £500 from my current account.",
+        "ru": "Я бы хотел снять пятьсот фунтов стерлингов со своего текущего счёта.",
+        "learn": 0
+      },
+      {
+        "eng": "The exam included several questions on current events.",
+        "ru": "В экзамен входило несколько вопросов о текущих событиях.",
+        "learn": 0
+      },
+      {
+        "eng": "Two theories were then widely current.",
+        "ru": "В то время бытовали две широко распространённые теории.",
+        "learn": 0
+      },
+      {
+        "eng": "In its current state, the car is worth £1,000.",
+        "ru": "В своём нынешнем состоянии машина стоит тысячу фунтов стерлингов.",
+        "learn": 0
+      },
+      {
+        "eng": "The current system is disadvantageous to women.",
+        "ru": "Существующая система невыгодна для женщин.",
+        "learn": 0
+      },
+      {
+        "eng": "We need to keep current with the latest information.",
+        "ru": "Мы должны быть в курсе последней информации.",
+        "learn": 0
+      },
+      {
+        "eng": "Fish instinctively fight their way upstream against the current.",
+        "ru": "Рыба инстинктивно пробивает себе путь наверх, против течения.",
+        "learn": 0
+      },
+      {
+        "eng": "The current was measured in amperes.",
+        "ru": "Ток измерялся в амперах.",
+        "learn": 0
+      },
+      {
+        "eng": "The motor is fed by an electrical current.",
+        "ru": "На двигатель подаётся электрический ток.",
+        "learn": 0
+      },
+      {
+        "eng": "The current middle-class norm of two children per family.",
+        "ru": "В настоящее время для семьи среднего класса норма два ребенка.",
+        "learn": 1
+      },
+      {
+        "eng": "Use the Save command to store the current document on disk.",
+        "ru": "Чтобы сохранить документ на диск, используйте команду \"сохранить\".",
+        "learn": 0
+      },
+      {
+        "eng": "The current boom in the economy sucked many workers in from abroad.",
+        "ru": "Нынешний экономический рост привлёк в страну многих работников из-за рубежа.",
+        "learn": 0
+      },
+      {
+        "eng": "the current taste for wide trousers",
+        "ru": "нынешнее пристрастие к широким брюкам /шароварам/",
+        "learn": 0
+      },
+      {
+        "eng": "a current having a frequency of 60 hertz",
+        "ru": "ток частотой шестьдесят герц",
+        "learn": 0
+      },
+      {
+        "eng": "The current system causes a lot of waste.",
+        "ru": "Существующая система вызывает много потерь.",
+        "learn": 0
+      },
+      {
+        "eng": "What is the state of play in the current negotiations?",
+        "ru": "Как обстоят дела на текущих переговорах?",
+        "learn": 0
+      },
+      {
+        "eng": "She worked as a clerk before ascending to her current position.",
+        "ru": "Она работала продавцом до того, как поднялась на свою нынешнюю должность.",
+        "learn": 0
+      },
+      {
+        "eng": "Oersted discovered that an electric current would deflect a magnetic needle.",
+        "ru": "Эрстед открыл, что электрический ток способен вызывать отклонение магнитной стрелки.",
+        "learn": 1
+      },
+      {
+        "eng": "The circuit supplies current to the saw.",
+        "ru": "От данной сети ток поступает на пилу.",
+        "learn": 1
+      },
+      {
+        "eng": "'Ladened' is not current usage.",
+        "ru": "Сейчас слово \"ladened\" (гружёный) больше не употребляется.",
+        "learn": 0
+      },
+      {
+        "eng": "a pungent satire of current politics",
+        "ru": "острая сатира на текущую политику",
+        "learn": 0
+      }
+    ]
+  }
 }

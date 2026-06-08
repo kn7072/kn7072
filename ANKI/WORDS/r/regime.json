@@ -1,82 +1,169 @@
 {
-    "regime": {
-        "comment": [
-            "regret",
-            "regiment"
-        ],
-        "translate": " режим, строй, диета",
-        "transcription": "  |reɪˈʒiːm|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Life was better under the previous regime.",
-            "Anyone who opposes the regime is thrown in jail.",
-            "The regime became too autocratic and was overthrown by a military coup.",
-            "He was put on a strict exercise regime.",
-            "The country's leaders relentlessly persecuted those who fought against the regime.",
-            "Under the new regime, all workers must file a weekly report.",
-            "He remained implacably opposed to Stalin's regime.",
-            "The regime was inevitably labelled as 'communist'.",
-            "The new regime is sure to fall.",
-            "a rebellion against the military regime",
-            "The country is ruled by an oppressive regime.",
-            "Under а military regime, civil liberties may be severely curtailed.",
-            "Political opponents of the regime may be tortured.",
-            "Mussolini's fascist regime",
-            "the shakiness of the present regime",
-            "the hardhanded rule of a tyrannical regime",
-            "the violent excesses of the military regime",
-            "The regime got rid of most of its opponents.",
-            "A great rising of the people was all it took to bring down a regime that imagined that it would endure for a thousand years.",
-            "She forswore her allegiance to the old regime.",
-            "Many innocent people were butchered under his regime.",
-            "a regime that rules by terror",
-            "His regime was tarnished by human rights abuses.",
-            "The US has now broken all diplomatic links with the regime.",
-            "The US has broken off diplomatic relations with the regime.",
-            "This dispute illustrates that the regime is deeply divided.",
-            "Acceptance by the UN would effectively legitimize the regime.",
-            "a regime that was relentless in its persecution of dissidents",
-            "The new regime was prepared to compromise on the oil dispute.",
-            "The old regime was defeated, and few people mourned its passing."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "При прошлом режиме жилось лучше.",
-            "Любого, кто выступает против (политического) режима, бросают в тюрьму.",
-            "Режим стал слишком деспотическим, и был свергнут путем военного переворота.",
-            "Его посадили на строгий тренировочный режим.",
-            "Руководители страны жестоко преследовали тех, кто боролся против режима.",
-            "Согласно новым правилам, все работники раз в неделю должны сдавать отчёт.",
-            "Он остался непримиримым противником сталинского режима.",
-            "На режим, само собой, навесили ярлык \"коммунистического\".",
-            "Падение нового режима неизбежно.",
-            "восстание против военного режима",
-            "Страна находится под властью деспотического режима.",
-            "В ситуации военного положения, гражданские свободы могут быть жёстко ограничены.",
-            "Политические противники данного режима могут быть подвергнуты пыткам.",
-            "фашистский режим Муссолини",
-            "шаткость нынешнего режима",
-            "жестокая власть тиранического режима",
-            "жестокие бесчинства этого военного режима",
-            "Режим избавился от большинства своих противников.",
-            "Всего одного великого народного восстания хватило, чтобы свергнуть режим, вообразивший, что простоит ещё тысячу лет.",
-            "Она отреклась от верности старому режиму.",
-            "Во время его правления было убито много невинных людей.",
-            "режим, который правит путём террора",
-            "Его режим запятнал себя нарушениями прав человека.",
-            "США уже разорвали все дипломатические отношения с этим режимом.",
-            "США разорвали дипломатические отношения с этим режимом.",
-            "Этот спор показывает, что правительство глубоко расколото.",
-            "Признание со стороны ООН будет значить фактическую легитимацию данного режима.",
-            "режим, который был неумолим в преследовании инакомыслящих",
-            "Новая власть была готова пойти на компромисс по нефтяному спору.",
-            "Старый режим потерпел поражение, и мало кто оплакивал его кончину."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "g_+_e,_i,_y_=_[ʒ]"
-        ]
-    }
+  "regime": {
+    "comment": [
+      "regret",
+      "regiment"
+    ],
+    "translate": " режим, строй, диета",
+    "transcription": "  |reɪˈʒiːm|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "g_+_e,_i,_y_=_[ʒ]"
+    ],
+    "examples": [
+      {
+        "eng": "Life was better under the previous regime.",
+        "ru": "При прошлом режиме жилось лучше.",
+        "learn": 0
+      },
+      {
+        "eng": "Anyone who opposes the regime is thrown in jail.",
+        "ru": "Любого, кто выступает против (политического) режима, бросают в тюрьму.",
+        "learn": 1
+      },
+      {
+        "eng": "The regime became too autocratic and was overthrown by a military coup.",
+        "ru": "Режим стал слишком деспотическим, и был свергнут путем военного переворота.",
+        "learn": 0
+      },
+      {
+        "eng": "He was put on a strict exercise regime.",
+        "ru": "Его посадили на строгий тренировочный режим.",
+        "learn": 0
+      },
+      {
+        "eng": "The country's leaders relentlessly persecuted those who fought against the regime.",
+        "ru": "Руководители страны жестоко преследовали тех, кто боролся против режима.",
+        "learn": 0
+      },
+      {
+        "eng": "Under the new regime, all workers must file a weekly report.",
+        "ru": "Согласно новым правилам, все работники раз в неделю должны сдавать отчёт.",
+        "learn": 0
+      },
+      {
+        "eng": "He remained implacably opposed to Stalin's regime.",
+        "ru": "Он остался непримиримым противником сталинского режима.",
+        "learn": 0
+      },
+      {
+        "eng": "The regime was inevitably labelled as 'communist'.",
+        "ru": "На режим, само собой, навесили ярлык \"коммунистического\".",
+        "learn": 1
+      },
+      {
+        "eng": "The new regime is sure to fall.",
+        "ru": "Падение нового режима неизбежно.",
+        "learn": 0
+      },
+      {
+        "eng": "a rebellion against the military regime",
+        "ru": "восстание против военного режима",
+        "learn": 1
+      },
+      {
+        "eng": "The country is ruled by an oppressive regime.",
+        "ru": "Страна находится под властью деспотического режима.",
+        "learn": 0
+      },
+      {
+        "eng": "Under а military regime, civil liberties may be severely curtailed.",
+        "ru": "В ситуации военного положения, гражданские свободы могут быть жёстко ограничены.",
+        "learn": 0
+      },
+      {
+        "eng": "Political opponents of the regime may be tortured.",
+        "ru": "Политические противники данного режима могут быть подвергнуты пыткам.",
+        "learn": 0
+      },
+      {
+        "eng": "Mussolini's fascist regime",
+        "ru": "фашистский режим Муссолини",
+        "learn": 0
+      },
+      {
+        "eng": "the shakiness of the present regime",
+        "ru": "шаткость нынешнего режима",
+        "learn": 0
+      },
+      {
+        "eng": "the hardhanded rule of a tyrannical regime",
+        "ru": "жестокая власть тиранического режима",
+        "learn": 0
+      },
+      {
+        "eng": "the violent excesses of the military regime",
+        "ru": "жестокие бесчинства этого военного режима",
+        "learn": 0
+      },
+      {
+        "eng": "The regime got rid of most of its opponents.",
+        "ru": "Режим избавился от большинства своих противников.",
+        "learn": 0
+      },
+      {
+        "eng": "A great rising of the people was all it took to bring down a regime that imagined that it would endure for a thousand years.",
+        "ru": "Всего одного великого народного восстания хватило, чтобы свергнуть режим, вообразивший, что простоит ещё тысячу лет.",
+        "learn": 0
+      },
+      {
+        "eng": "She forswore her allegiance to the old regime.",
+        "ru": "Она отреклась от верности старому режиму.",
+        "learn": 0
+      },
+      {
+        "eng": "Many innocent people were butchered under his regime.",
+        "ru": "Во время его правления было убито много невинных людей.",
+        "learn": 0
+      },
+      {
+        "eng": "a regime that rules by terror",
+        "ru": "режим, который правит путём террора",
+        "learn": 0
+      },
+      {
+        "eng": "His regime was tarnished by human rights abuses.",
+        "ru": "Его режим запятнал себя нарушениями прав человека.",
+        "learn": 0
+      },
+      {
+        "eng": "The US has now broken all diplomatic links with the regime.",
+        "ru": "США уже разорвали все дипломатические отношения с этим режимом.",
+        "learn": 0
+      },
+      {
+        "eng": "The US has broken off diplomatic relations with the regime.",
+        "ru": "США разорвали дипломатические отношения с этим режимом.",
+        "learn": 0
+      },
+      {
+        "eng": "This dispute illustrates that the regime is deeply divided.",
+        "ru": "Этот спор показывает, что правительство глубоко расколото.",
+        "learn": 1
+      },
+      {
+        "eng": "Acceptance by the UN would effectively legitimize the regime.",
+        "ru": "Признание со стороны ООН будет значить фактическую легитимацию данного режима.",
+        "learn": 0
+      },
+      {
+        "eng": "a regime that was relentless in its persecution of dissidents",
+        "ru": "режим, который был неумолим в преследовании инакомыслящих",
+        "learn": 0
+      },
+      {
+        "eng": "The new regime was prepared to compromise on the oil dispute.",
+        "ru": "Новая власть была готова пойти на компромисс по нефтяному спору.",
+        "learn": 0
+      },
+      {
+        "eng": "The old regime was defeated, and few people mourned its passing.",
+        "ru": "Старый режим потерпел поражение, и мало кто оплакивал его кончину.",
+        "learn": 0
+      }
+    ]
+  }
 }

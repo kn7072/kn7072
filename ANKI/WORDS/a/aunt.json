@@ -1,85 +1,172 @@
 {
-    "aunt": {
-        "comment": [
-            "haunt",
-            "uncle",
-            "ankle"
-        ],
-        "translate": "тетя, тетка",
-        "transcription": " |ænt|",
-        "antonyms": [],
-        "mnemonic": [
-            "aunt [ант] тётя - Тётя (ант-рекот) сварила."
-        ],
-        "examples": [
-            "This is my Aunt Mary.",
-            "Aunt Mary sends her love.",
-            "He has three aunts and two uncles.",
-            "My aunt collects porcelain dolls.",
-            "My aunt brought up four children.",
-            "Aunt Edna writes a beautiful hand.",
-            "Aunt Mary",
-            "Her aunt is also her godmother.",
-            "the will of a defunct aunt",
-            "She is visiting her aunt in New York.",
-            "My aunt Flo was a bold determined woman.",
-            "I went to stay with my uncle and aunt for a few days.",
-            "His aunt is his legal guardian.",
-            "We stopped at Aunt Mary's house.",
-            "His aunt pinched his plump cheeks.",
-            "My aunt bequeathed me all her jewelry",
-            "Aunt Nessy was always a bit eccentric.",
-            "The earrings were a gift from my aunt.",
-            "She joined her aunt in the sitting room.",
-            "His aunt is his closest living relative.",
-            "My aunt and uncle are also my godparents.",
-            "His aunt planted a wet kiss on his cheek.",
-            "She was patient to her aunt's infirmities.",
-            "She received a small legacy from her aunt.",
-            "Jane spent years caring for her sick aunt.",
-            "Aunt Alice died, leaving almost $5 million.",
-            "The boy was confided to the care of his aunt.",
-            "We flew over to the US to visit my Aunt Polly.",
-            "My aunt's regular visits cut into my weekends.",
-            "The boy was committed to the care of his aunt."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Это моя тётя Мэри.",
-            "Тетя Мэри передаёт привет.",
-            "У него три тёти и два дяди.",
-            "Моя тётка собирает фарфоровых кукол.",
-            "Моя тётка вырастила четверых детей.",
-            "У тёти Эдны великолепный почерк.",
-            "тётя Мэри",
-            "Её тетя также приходится ей крёстной матерью.",
-            "завещание покойной тёти",
-            "Она гостит у своей тёти в Нью-Йорке.",
-            "Моя тётя Фло была женщиной смелой и решительной.",
-            "Я поехал, чтобы погостить у дяди и тети несколько дней.",
-            "Его официальным опекуном является его тётка.",
-            "Мы остановились (в доме) у тёти Мэри.",
-            "Его тётя ущипнула его за пухленькие щёчки.",
-            "Моя тётя завещала мне все свои драгоценности.",
-            "Тётя Несси всегда была немного чудаковатой.",
-            "Эти серьги были подарком от тёти.",
-            "Она присоединилась к своей тёте в гостиной.",
-            "Тётя является его ближайшей родственницей из тех, что сейчас живы.",
-            "Мои тётя и дядя одновременно являются моими крёстными.",
-            "Его тётя запечатлела на его щеке влажный поцелуй.",
-            "Она была снисходительна к слабостям своей тётушки.",
-            "Она получила небольшое наследство от своей тёти.",
-            "Джейн годами ухаживала за своей больной тёткой.",
-            "Тетя Элис умерла, оставив почти пять миллионов долларов.",
-            "Мальчика поручили заботам тётки.",
-            "Мы прилетели в США, чтобы навестить мою тётю Полли.",
-            "Регулярные визиты тётки портят мне все выходные.",
-            "Мальчика передали на воспитание тёте."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "au_=_[æ]"
-        ]
-    }
+  "aunt": {
+    "comment": [
+      "haunt",
+      "uncle",
+      "ankle"
+    ],
+    "translate": "тетя, тетка",
+    "transcription": " |ænt|",
+    "antonyms": [],
+    "mnemonic": [
+      "aunt [ант] тётя - Тётя (ант-рекот) сварила."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "au_=_[æ]"
+    ],
+    "examples": [
+      {
+        "eng": "This is my Aunt Mary.",
+        "ru": "Это моя тётя Мэри.",
+        "learn": 0
+      },
+      {
+        "eng": "Aunt Mary sends her love.",
+        "ru": "Тетя Мэри передаёт привет.",
+        "learn": 0
+      },
+      {
+        "eng": "He has three aunts and two uncles.",
+        "ru": "У него три тёти и два дяди.",
+        "learn": 0
+      },
+      {
+        "eng": "My aunt collects porcelain dolls.",
+        "ru": "Моя тётка собирает фарфоровых кукол.",
+        "learn": 0
+      },
+      {
+        "eng": "My aunt brought up four children.",
+        "ru": "Моя тётка вырастила четверых детей.",
+        "learn": 0
+      },
+      {
+        "eng": "Aunt Edna writes a beautiful hand.",
+        "ru": "У тёти Эдны великолепный почерк.",
+        "learn": 0
+      },
+      {
+        "eng": "Aunt Mary",
+        "ru": "тётя Мэри",
+        "learn": 0
+      },
+      {
+        "eng": "Her aunt is also her godmother.",
+        "ru": "Её тетя также приходится ей крёстной матерью.",
+        "learn": 0
+      },
+      {
+        "eng": "the will of a defunct aunt",
+        "ru": "завещание покойной тёти",
+        "learn": 0
+      },
+      {
+        "eng": "She is visiting her aunt in New York.",
+        "ru": "Она гостит у своей тёти в Нью-Йорке.",
+        "learn": 1
+      },
+      {
+        "eng": "My aunt Flo was a bold determined woman.",
+        "ru": "Моя тётя Фло была женщиной смелой и решительной.",
+        "learn": 0
+      },
+      {
+        "eng": "I went to stay with my uncle and aunt for a few days.",
+        "ru": "Я поехал, чтобы погостить у дяди и тети несколько дней.",
+        "learn": 1
+      },
+      {
+        "eng": "His aunt is his legal guardian.",
+        "ru": "Его официальным опекуном является его тётка.",
+        "learn": 0
+      },
+      {
+        "eng": "We stopped at Aunt Mary's house.",
+        "ru": "Мы остановились (в доме) у тёти Мэри.",
+        "learn": 0
+      },
+      {
+        "eng": "His aunt pinched his plump cheeks.",
+        "ru": "Его тётя ущипнула его за пухленькие щёчки.",
+        "learn": 0
+      },
+      {
+        "eng": "My aunt bequeathed me all her jewelry",
+        "ru": "Моя тётя завещала мне все свои драгоценности.",
+        "learn": 0
+      },
+      {
+        "eng": "Aunt Nessy was always a bit eccentric.",
+        "ru": "Тётя Несси всегда была немного чудаковатой.",
+        "learn": 0
+      },
+      {
+        "eng": "The earrings were a gift from my aunt.",
+        "ru": "Эти серьги были подарком от тёти.",
+        "learn": 0
+      },
+      {
+        "eng": "She joined her aunt in the sitting room.",
+        "ru": "Она присоединилась к своей тёте в гостиной.",
+        "learn": 0
+      },
+      {
+        "eng": "His aunt is his closest living relative.",
+        "ru": "Тётя является его ближайшей родственницей из тех, что сейчас живы.",
+        "learn": 0
+      },
+      {
+        "eng": "My aunt and uncle are also my godparents.",
+        "ru": "Мои тётя и дядя одновременно являются моими крёстными.",
+        "learn": 0
+      },
+      {
+        "eng": "His aunt planted a wet kiss on his cheek.",
+        "ru": "Его тётя запечатлела на его щеке влажный поцелуй.",
+        "learn": 0
+      },
+      {
+        "eng": "She was patient to her aunt's infirmities.",
+        "ru": "Она была снисходительна к слабостям своей тётушки.",
+        "learn": 0
+      },
+      {
+        "eng": "She received a small legacy from her aunt.",
+        "ru": "Она получила небольшое наследство от своей тёти.",
+        "learn": 1
+      },
+      {
+        "eng": "Jane spent years caring for her sick aunt.",
+        "ru": "Джейн годами ухаживала за своей больной тёткой.",
+        "learn": 0
+      },
+      {
+        "eng": "Aunt Alice died, leaving almost $5 million.",
+        "ru": "Тетя Элис умерла, оставив почти пять миллионов долларов.",
+        "learn": 0
+      },
+      {
+        "eng": "The boy was confided to the care of his aunt.",
+        "ru": "Мальчика поручили заботам тётки.",
+        "learn": 1
+      },
+      {
+        "eng": "We flew over to the US to visit my Aunt Polly.",
+        "ru": "Мы прилетели в США, чтобы навестить мою тётю Полли.",
+        "learn": 0
+      },
+      {
+        "eng": "My aunt's regular visits cut into my weekends.",
+        "ru": "Регулярные визиты тётки портят мне все выходные.",
+        "learn": 0
+      },
+      {
+        "eng": "The boy was committed to the care of his aunt.",
+        "ru": "Мальчика передали на воспитание тёте.",
+        "learn": 0
+      }
+    ]
+  }
 }

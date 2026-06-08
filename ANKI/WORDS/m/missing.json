@@ -1,91 +1,177 @@
 {
-    "missing": {
-        "comment": [
-            "dismiss",
-            "permission",
-            "miss",
-            "missile",
-            "mission",
-            "admission",
-            "omission",
-            "submission",
-            "emission",
-            "dismissal"
-        ],
-        "translate": "отсутствующий, недостающий, без вести пропавшие",
-        "transcription": " |ˈmɪsɪŋ|",
-        "antonyms": [],
-        "mnemonic": [
-            "miss [mis]\nmissing - пропавший, недостающий\n***\nНЕУДАЧУ ТЕРПИТ мисс. (это) miss\nПотеря. Утрата."
-        ],
-        "examples": [
-            "There is a page missing.",
-            "A button was missing from his shirt.",
-            "the hunt for the missing child",
-            "The plane was reported missing.",
-            "We're missing out on a tremendous opportunity.",
-            "He turned up missing at roll call.",
-            "The handle of the cup was missing.",
-            "Why is my name missing from the list?",
-            "Two of her front teeth were missing.",
-            "She's upset about missing the party.",
-            "Will you print in the missing names for me?",
-            "My missing car keys turned up just in time.",
-            "Perry Mason solved the case of the missing heir.",
-            "Something was missing from her life.",
-            "The keys have been missing for ages.",
-            "The scissors have gone missing again.",
-            "We're missing one piece of the puzzle.",
-            "I can't account for the missing money.",
-            "The child had been missing for a week.",
-            "The last page of the diary was missing.",
-            "Their nephew was missing, presumed dead.",
-            "One man is still missing, presumed dead.",
-            "They combed the area for the missing child.",
-            "He could not account for the missing funds.",
-            "She was upset at missing all the excitement.",
-            "There is something missing in my jewelry box!",
-            "He was thrown in the brig for missing muster.",
-            "The missing children were found safe and sound.",
-            "Police searched in vain for the missing gunman.",
-            "The missing man suddenly resurfaced in New York."
-        ],
-        "example_translate": [
-            "Здесь недостаёт страницы.",
-            "На его рубашке не хватало одной пуговицы.",
-            "поиски пропавшего ребенка",
-            "Самолет был объявлен пропавшим без вести.",
-            "Мы упускаем великолепную возможность.",
-            "На перекличке его не оказалось.",
-            "У чашки не хватало ручки.",
-            "Почему моего имени нет в списке?",
-            "Два её передних зуба отсутствовали. / У неё не хватало двух передних зубов.",
-            "Она расстроена тем, что не пошла на вечеринку.",
-            "Не набьешь мне пропущенные фамилии?",
-            "Пропавшие ключи от машины подвернулись как раз вовремя.",
-            "Перри Мэйсон раскрыл дело о пропавшем наследнике.",
-            "Чего-то в её жизни недоставало.",
-            "Ключи потерялись ещё бог знает когда.",
-            "Ножницы опять куда-то пропали.",
-            "Нам не хватает одного кусочка головоломки.",
-            "Я не могу объяснить пропажу денег.",
-            "Ребёнок неделю где-то пропадал.",
-            "Последняя страница дневника отсутствовала.",
-            "Их племянник пропал без вести, предположительно погиб.",
-            "Один человек по прежнему не найден, предположительно погиб.",
-            "Район прочесали в поисках пропавшего ребёнка.",
-            "Он не смог отчитаться за недостающие деньги",
-            "Она была расстроена, что пропустила всё веселье.",
-            "В моей шкатулке для украшений что-то пропало!",
-            "Его отправили на гауптвахту за отсутствие на поверке.",
-            "Пропавшие дети были найдены целыми и невредимыми.",
-            "Полиция тщетно разыскивала скрывшегося преступника.",
-            "Пропавший мужчина неожиданно \"всплыл\" в Нью-Йорке."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "missing": {
+    "comment": [
+      "dismiss",
+      "permission",
+      "miss",
+      "missile",
+      "mission",
+      "admission",
+      "omission",
+      "submission",
+      "emission",
+      "dismissal"
+    ],
+    "translate": "отсутствующий, недостающий, без вести пропавшие",
+    "transcription": " |ˈmɪsɪŋ|",
+    "antonyms": [],
+    "mnemonic": [
+      "miss [mis]\nmissing - пропавший, недостающий\n***\nНЕУДАЧУ ТЕРПИТ мисс. (это) miss\nПотеря. Утрата."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "There is a page missing.",
+        "ru": "Здесь недостаёт страницы.",
+        "learn": 0
+      },
+      {
+        "eng": "A button was missing from his shirt.",
+        "ru": "На его рубашке не хватало одной пуговицы.",
+        "learn": 0
+      },
+      {
+        "eng": "the hunt for the missing child",
+        "ru": "поиски пропавшего ребенка",
+        "learn": 0
+      },
+      {
+        "eng": "The plane was reported missing.",
+        "ru": "Самолет был объявлен пропавшим без вести.",
+        "learn": 0
+      },
+      {
+        "eng": "We're missing out on a tremendous opportunity.",
+        "ru": "Мы упускаем великолепную возможность.",
+        "learn": 1
+      },
+      {
+        "eng": "He turned up missing at roll call.",
+        "ru": "На перекличке его не оказалось.",
+        "learn": 0
+      },
+      {
+        "eng": "The handle of the cup was missing.",
+        "ru": "У чашки не хватало ручки.",
+        "learn": 0
+      },
+      {
+        "eng": "Why is my name missing from the list?",
+        "ru": "Почему моего имени нет в списке?",
+        "learn": 0
+      },
+      {
+        "eng": "Two of her front teeth were missing.",
+        "ru": "Два её передних зуба отсутствовали. / У неё не хватало двух передних зубов.",
+        "learn": 0
+      },
+      {
+        "eng": "She's upset about missing the party.",
+        "ru": "Она расстроена тем, что не пошла на вечеринку.",
+        "learn": 0
+      },
+      {
+        "eng": "Will you print in the missing names for me?",
+        "ru": "Не набьешь мне пропущенные фамилии?",
+        "learn": 0
+      },
+      {
+        "eng": "My missing car keys turned up just in time.",
+        "ru": "Пропавшие ключи от машины подвернулись как раз вовремя.",
+        "learn": 0
+      },
+      {
+        "eng": "Perry Mason solved the case of the missing heir.",
+        "ru": "Перри Мэйсон раскрыл дело о пропавшем наследнике.",
+        "learn": 0
+      },
+      {
+        "eng": "Something was missing from her life.",
+        "ru": "Чего-то в её жизни недоставало.",
+        "learn": 0
+      },
+      {
+        "eng": "The keys have been missing for ages.",
+        "ru": "Ключи потерялись ещё бог знает когда.",
+        "learn": 0
+      },
+      {
+        "eng": "The scissors have gone missing again.",
+        "ru": "Ножницы опять куда-то пропали.",
+        "learn": 0
+      },
+      {
+        "eng": "We're missing one piece of the puzzle.",
+        "ru": "Нам не хватает одного кусочка головоломки.",
+        "learn": 0
+      },
+      {
+        "eng": "I can't account for the missing money.",
+        "ru": "Я не могу объяснить пропажу денег.",
+        "learn": 0
+      },
+      {
+        "eng": "The child had been missing for a week.",
+        "ru": "Ребёнок неделю где-то пропадал.",
+        "learn": 0
+      },
+      {
+        "eng": "The last page of the diary was missing.",
+        "ru": "Последняя страница дневника отсутствовала.",
+        "learn": 1
+      },
+      {
+        "eng": "Their nephew was missing, presumed dead.",
+        "ru": "Их племянник пропал без вести, предположительно погиб.",
+        "learn": 1
+      },
+      {
+        "eng": "One man is still missing, presumed dead.",
+        "ru": "Один человек по прежнему не найден, предположительно погиб.",
+        "learn": 0
+      },
+      {
+        "eng": "They combed the area for the missing child.",
+        "ru": "Район прочесали в поисках пропавшего ребёнка.",
+        "learn": 0
+      },
+      {
+        "eng": "He could not account for the missing funds.",
+        "ru": "Он не смог отчитаться за недостающие деньги",
+        "learn": 0
+      },
+      {
+        "eng": "She was upset at missing all the excitement.",
+        "ru": "Она была расстроена, что пропустила всё веселье.",
+        "learn": 0
+      },
+      {
+        "eng": "There is something missing in my jewelry box!",
+        "ru": "В моей шкатулке для украшений что-то пропало!",
+        "learn": 0
+      },
+      {
+        "eng": "He was thrown in the brig for missing muster.",
+        "ru": "Его отправили на гауптвахту за отсутствие на поверке.",
+        "learn": 0
+      },
+      {
+        "eng": "The missing children were found safe and sound.",
+        "ru": "Пропавшие дети были найдены целыми и невредимыми.",
+        "learn": 0
+      },
+      {
+        "eng": "Police searched in vain for the missing gunman.",
+        "ru": "Полиция тщетно разыскивала скрывшегося преступника.",
+        "learn": 1
+      },
+      {
+        "eng": "The missing man suddenly resurfaced in New York.",
+        "ru": "Пропавший мужчина неожиданно \"всплыл\" в Нью-Йорке.",
+        "learn": 0
+      }
+    ]
+  }
 }

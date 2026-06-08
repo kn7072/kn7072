@@ -1,80 +1,166 @@
 {
-    "lecture": {
-        "comment": [
-            "lecturer"
-        ],
-        "translate": "лекция, доклад, наставление, нотация, читать лекцию, отчитывать",
-        "transcription": " |ˈlektʃər|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "I wish you'd stop lecturing me!",
-            "She's planning to give a series of lectures on modern art.",
-            "Can I borrow your lecture notes?",
-            "What did you get out of his lecture?",
-            "The lecture was arranged for two o'clock.",
-            "He began to lecture us about making too much noise.",
-            "He lectures on European art at Manchester University.",
-            "Did you ever lecture at Harvard?",
-            "Don't you lecture at me, I don't have to do what you say!",
-            "The lecture wasn't very meaty.",
-            "To recap on the previous lecture, ...",
-            "They drank in every word of the lecture.",
-            "The book is an expansion of a lecture series.",
-            "She'll begin the lecture at 10.",
-            "Don't digress when you give a lecture.",
-            "I found her lecture very obscure.",
-            "The lecture lasted two solid hours.",
-            "She lectures in art at the local college.",
-            "A lecture was in progress in the main hall.",
-            "I completely spaced out during the lecture.",
-            "Five hundred people filled the lecture hall.",
-            "I lectured her about doing better in school.",
-            "the expansion of a lecture series into a book",
-            "This book is an expansion of a lecture series.",
-            "Dad gave us a lecture about our table manners.",
-            "We endured the lecture for as long as we could.",
-            "Her lecture celebrated the genius of the artist.",
-            "A good lecture was my father's idea of discipline.",
-            "I came home late and got a lecture from my parents.",
-            "She plans to expand the lecture series into a book."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Хватит уже читать мне лекции!",
-            "Она планирует прочитать серию лекций о современном искусстве.",
-            "Можно одолжить у тебя конспекты?",
-            "Что вы вынесли из его лекции?",
-            "Лекция была назначена на 2 часа.",
-            "Он начал отчитывать нас за то, что мы создавали слишком много шума.",
-            "Он читает лекции по европейскому искусству в университете Манчестера.",
-            "Вы когда-нибудь читали лекцию в Гарварде?",
-            "Нечего мне выговаривать, я совершенно не обязан делать так, как ты говоришь!",
-            "Эта лекция была не очень содержательной.",
-            "Напомню, на прошлой лекции ...",
-            "Они впитывали каждое слово лекции.",
-            "Данная книга является развитием курса лекций.",
-            "Она начнёт лекцию ровно в десять.",
-            "Не отвлекайтесь, когда читаете лекцию.",
-            "Её лекция показалась мне очень непонятной.",
-            "Лекция длилась целых два часа без перерыва.",
-            "Она читает лекции по искусству в местном колледже.",
-            "В главном зале проходила лекция.",
-            "Во время лекции я совершенно отключился.",
-            "Зал для лекций заполнило пятьсот человек.",
-            "Я прочёл ей нотацию о том, что нужно лучше учиться в школе.",
-            "превращение серии лекций в книгу",
-            "Эта книга представляет собой более подробное изложение серии лекций.",
-            "Папа прочитал нам лекцию по поводу нашего умения вести себя за столом.",
-            "Мы терпели /терпеливо слушали/ эту нотацию, сколько могли.",
-            "В своём докладе она прославляла гениальность этого художника.",
-            "Мой папа считал, что лучшее наказание — это хорошая, длинная нотация.",
-            "Я пришёл домой поздно, и родители прочитали мне лекцию.",
-            "Она планирует расширить эту серию лекций, превратив её в книгу."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "lecture": {
+    "comment": [
+      "lecturer"
+    ],
+    "translate": "лекция, доклад, наставление, нотация, читать лекцию, отчитывать",
+    "transcription": " |ˈlektʃər|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "I wish you'd stop lecturing me!",
+        "ru": "Хватит уже читать мне лекции!",
+        "learn": 1
+      },
+      {
+        "eng": "She's planning to give a series of lectures on modern art.",
+        "ru": "Она планирует прочитать серию лекций о современном искусстве.",
+        "learn": 0
+      },
+      {
+        "eng": "Can I borrow your lecture notes?",
+        "ru": "Можно одолжить у тебя конспекты?",
+        "learn": 0
+      },
+      {
+        "eng": "What did you get out of his lecture?",
+        "ru": "Что вы вынесли из его лекции?",
+        "learn": 1
+      },
+      {
+        "eng": "The lecture was arranged for two o'clock.",
+        "ru": "Лекция была назначена на 2 часа.",
+        "learn": 0
+      },
+      {
+        "eng": "He began to lecture us about making too much noise.",
+        "ru": "Он начал отчитывать нас за то, что мы создавали слишком много шума.",
+        "learn": 0
+      },
+      {
+        "eng": "He lectures on European art at Manchester University.",
+        "ru": "Он читает лекции по европейскому искусству в университете Манчестера.",
+        "learn": 0
+      },
+      {
+        "eng": "Did you ever lecture at Harvard?",
+        "ru": "Вы когда-нибудь читали лекцию в Гарварде?",
+        "learn": 0
+      },
+      {
+        "eng": "Don't you lecture at me, I don't have to do what you say!",
+        "ru": "Нечего мне выговаривать, я совершенно не обязан делать так, как ты говоришь!",
+        "learn": 0
+      },
+      {
+        "eng": "The lecture wasn't very meaty.",
+        "ru": "Эта лекция была не очень содержательной.",
+        "learn": 0
+      },
+      {
+        "eng": "To recap on the previous lecture, ...",
+        "ru": "Напомню, на прошлой лекции ...",
+        "learn": 0
+      },
+      {
+        "eng": "They drank in every word of the lecture.",
+        "ru": "Они впитывали каждое слово лекции.",
+        "learn": 0
+      },
+      {
+        "eng": "The book is an expansion of a lecture series.",
+        "ru": "Данная книга является развитием курса лекций.",
+        "learn": 0
+      },
+      {
+        "eng": "She'll begin the lecture at 10.",
+        "ru": "Она начнёт лекцию ровно в десять.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't digress when you give a lecture.",
+        "ru": "Не отвлекайтесь, когда читаете лекцию.",
+        "learn": 0
+      },
+      {
+        "eng": "I found her lecture very obscure.",
+        "ru": "Её лекция показалась мне очень непонятной.",
+        "learn": 0
+      },
+      {
+        "eng": "The lecture lasted two solid hours.",
+        "ru": "Лекция длилась целых два часа без перерыва.",
+        "learn": 0
+      },
+      {
+        "eng": "She lectures in art at the local college.",
+        "ru": "Она читает лекции по искусству в местном колледже.",
+        "learn": 0
+      },
+      {
+        "eng": "A lecture was in progress in the main hall.",
+        "ru": "В главном зале проходила лекция.",
+        "learn": 0
+      },
+      {
+        "eng": "I completely spaced out during the lecture.",
+        "ru": "Во время лекции я совершенно отключился.",
+        "learn": 0
+      },
+      {
+        "eng": "Five hundred people filled the lecture hall.",
+        "ru": "Зал для лекций заполнило пятьсот человек.",
+        "learn": 0
+      },
+      {
+        "eng": "I lectured her about doing better in school.",
+        "ru": "Я прочёл ей нотацию о том, что нужно лучше учиться в школе.",
+        "learn": 0
+      },
+      {
+        "eng": "the expansion of a lecture series into a book",
+        "ru": "превращение серии лекций в книгу",
+        "learn": 0
+      },
+      {
+        "eng": "This book is an expansion of a lecture series.",
+        "ru": "Эта книга представляет собой более подробное изложение серии лекций.",
+        "learn": 0
+      },
+      {
+        "eng": "Dad gave us a lecture about our table manners.",
+        "ru": "Папа прочитал нам лекцию по поводу нашего умения вести себя за столом.",
+        "learn": 0
+      },
+      {
+        "eng": "We endured the lecture for as long as we could.",
+        "ru": "Мы терпели /терпеливо слушали/ эту нотацию, сколько могли.",
+        "learn": 0
+      },
+      {
+        "eng": "Her lecture celebrated the genius of the artist.",
+        "ru": "В своём докладе она прославляла гениальность этого художника.",
+        "learn": 0
+      },
+      {
+        "eng": "A good lecture was my father's idea of discipline.",
+        "ru": "Мой папа считал, что лучшее наказание — это хорошая, длинная нотация.",
+        "learn": 0
+      },
+      {
+        "eng": "I came home late and got a lecture from my parents.",
+        "ru": "Я пришёл домой поздно, и родители прочитали мне лекцию.",
+        "learn": 1
+      },
+      {
+        "eng": "She plans to expand the lecture series into a book.",
+        "ru": "Она планирует расширить эту серию лекций, превратив её в книгу.",
+        "learn": 0
+      }
+    ]
+  }
 }

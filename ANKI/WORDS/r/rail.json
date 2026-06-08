@@ -1,85 +1,171 @@
 {
-    "rail": {
-        "comment": [
-            "railway",
-            "railroad",
-            "trailer",
-            "frail"
-        ],
-        "translate": "рельс, рейка, поручни, перила, рельсовый, ругаться, ругать, браниться",
-        "transcription": " |reɪl|",
-        "antonyms": [],
-        "mnemonic": [
-            "rail [рэйл] рельс - Рельсами (Из-рэйл) уничтожили."
-        ],
-        "examples": [
-            "She railed against the bad social policies",
-            "The yard was railed",
-            "It is better to fight for the good than to rail at the ill.",
-            "The farmers railed in their land.",
-            "Hold the rail so you won't fall.",
-            "The coal train ran off the rails.",
-            "I railed my car to Scotland.",
-            "Coal is shipped by rail.",
-            "It's no good railing against / at / on fate.",
-            "The garden was railed off from the road.",
-            "We rail to Munich tomorrow.",
-            "I need to buy a rail ticket.",
-            "They railed from Rome to Venice.",
-            "We continued our journey by rail.",
-            "The rail line terminates in Boston.",
-            "Passengers want a better rail service.",
-            "He travelled by rail to his home town.",
-            "The UK rail system is a national disgrace.",
-            "I fell kerflop over a rail that lay in the grass.",
-            "She grabbed the rail to stop herself from falling.",
-            "Rail workers are campaigning for a shorter working day.",
-            "A long-running pay dispute is disrupting rail services.",
-            "The bulk of the goods is transported by rail and ships.",
-            "The cattle were hauled by rail.",
-            "Rail passengers now face even longer delays.",
-            "Fresh fruit are railed from Italy to Belgium.",
-            "Cheshunt has good rail connections to London.",
-            "Less than half the rail network was operable.",
-            "Rail fares have fallen 17 per cent in real terms.",
-            "He was holding onto a rope that served as a rail."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Она ругала плохую социальную политику",
-            "Двор был огражден.",
-            "Лучше бороться за добро, чем бранить зло.",
-            "Фермеры огородили свои земли.",
-            "Держитесь за перила, чтобы не упасть.",
-            "Поезд с углём сошёл с рельсов.",
-            "Я переправил свою машину в Шотландию по железной дороге.",
-            "Уголь перевозят по железной дороге.",
-            "Нечего сетовать на судьбу.",
-            "Сад был отделён от дороги оградой.",
-            "Завтра мы поездом отправляемся в Мюнхен.",
-            "Мне нужно купить билет на поезд.",
-            "От Рима до Венеции они доехали на поезде.",
-            "Мы продолжили путешествие по железной дороге.",
-            "Железнодорожная линия заканчивается в Бостоне.",
-            "Пассажиры хотят лучшего качества обслуживания в поездах.",
-            "В свой родной город он поехал на поезде.",
-            "Железнодорожная система Великобритании — это национальный позор.",
-            "Я грохнулся, споткнувшись о рельс, лежавший в траве.",
-            "Она ухватилась за перила, чтобы не упасть.",
-            "Железнодорожники агитируют за сокращение продолжительности рабочего дня.",
-            "Работу железнодорожного транспорта нарушает длительный спор по поводу оплаты труда.",
-            "Основная масса товаров перевозится железнодорожным и морским транспортом.",
-            "Скот был доставлен железнодорожным транспортом. / Скот перевезли по железной дороге.",
-            "Пассажиры поездов теперь сталкиваются с ещё более длительными задержками.",
-            "Свежие фрукты перевозятся из Италии в Бельгию по железной дороге.",
-            "Чезант имеет хорошее железнодорожное сообщение с Лондоном.",
-            "Было работоспособно менее половины железнодорожной сети.",
-            "Железнодорожные тарифы в реальном выражении снизились на семнадцать процентов.",
-            "Он держался за канат, который служил перилами."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "rail": {
+    "comment": [
+      "railway",
+      "railroad",
+      "trailer",
+      "frail"
+    ],
+    "translate": "рельс, рейка, поручни, перила, рельсовый, ругаться, ругать, браниться",
+    "transcription": " |reɪl|",
+    "antonyms": [],
+    "mnemonic": [
+      "rail [рэйл] рельс - Рельсами (Из-рэйл) уничтожили."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She railed against the bad social policies",
+        "ru": "Она ругала плохую социальную политику",
+        "learn": 0
+      },
+      {
+        "eng": "The yard was railed",
+        "ru": "Двор был огражден.",
+        "learn": 0
+      },
+      {
+        "eng": "It is better to fight for the good than to rail at the ill.",
+        "ru": "Лучше бороться за добро, чем бранить зло.",
+        "learn": 0
+      },
+      {
+        "eng": "The farmers railed in their land.",
+        "ru": "Фермеры огородили свои земли.",
+        "learn": 0
+      },
+      {
+        "eng": "Hold the rail so you won't fall.",
+        "ru": "Держитесь за перила, чтобы не упасть.",
+        "learn": 0
+      },
+      {
+        "eng": "The coal train ran off the rails.",
+        "ru": "Поезд с углём сошёл с рельсов.",
+        "learn": 0
+      },
+      {
+        "eng": "I railed my car to Scotland.",
+        "ru": "Я переправил свою машину в Шотландию по железной дороге.",
+        "learn": 0
+      },
+      {
+        "eng": "Coal is shipped by rail.",
+        "ru": "Уголь перевозят по железной дороге.",
+        "learn": 0
+      },
+      {
+        "eng": "It's no good railing against / at / on fate.",
+        "ru": "Нечего сетовать на судьбу.",
+        "learn": 0
+      },
+      {
+        "eng": "The garden was railed off from the road.",
+        "ru": "Сад был отделён от дороги оградой.",
+        "learn": 0
+      },
+      {
+        "eng": "We rail to Munich tomorrow.",
+        "ru": "Завтра мы поездом отправляемся в Мюнхен.",
+        "learn": 0
+      },
+      {
+        "eng": "I need to buy a rail ticket.",
+        "ru": "Мне нужно купить билет на поезд.",
+        "learn": 0
+      },
+      {
+        "eng": "They railed from Rome to Venice.",
+        "ru": "От Рима до Венеции они доехали на поезде.",
+        "learn": 0
+      },
+      {
+        "eng": "We continued our journey by rail.",
+        "ru": "Мы продолжили путешествие по железной дороге.",
+        "learn": 1
+      },
+      {
+        "eng": "The rail line terminates in Boston.",
+        "ru": "Железнодорожная линия заканчивается в Бостоне.",
+        "learn": 0
+      },
+      {
+        "eng": "Passengers want a better rail service.",
+        "ru": "Пассажиры хотят лучшего качества обслуживания в поездах.",
+        "learn": 0
+      },
+      {
+        "eng": "He travelled by rail to his home town.",
+        "ru": "В свой родной город он поехал на поезде.",
+        "learn": 0
+      },
+      {
+        "eng": "The UK rail system is a national disgrace.",
+        "ru": "Железнодорожная система Великобритании — это национальный позор.",
+        "learn": 0
+      },
+      {
+        "eng": "I fell kerflop over a rail that lay in the grass.",
+        "ru": "Я грохнулся, споткнувшись о рельс, лежавший в траве.",
+        "learn": 0
+      },
+      {
+        "eng": "She grabbed the rail to stop herself from falling.",
+        "ru": "Она ухватилась за перила, чтобы не упасть.",
+        "learn": 0
+      },
+      {
+        "eng": "Rail workers are campaigning for a shorter working day.",
+        "ru": "Железнодорожники агитируют за сокращение продолжительности рабочего дня.",
+        "learn": 0
+      },
+      {
+        "eng": "A long-running pay dispute is disrupting rail services.",
+        "ru": "Работу железнодорожного транспорта нарушает длительный спор по поводу оплаты труда.",
+        "learn": 0
+      },
+      {
+        "eng": "The bulk of the goods is transported by rail and ships.",
+        "ru": "Основная масса товаров перевозится железнодорожным и морским транспортом.",
+        "learn": 0
+      },
+      {
+        "eng": "The cattle were hauled by rail.",
+        "ru": "Скот был доставлен железнодорожным транспортом. / Скот перевезли по железной дороге.",
+        "learn": 1
+      },
+      {
+        "eng": "Rail passengers now face even longer delays.",
+        "ru": "Пассажиры поездов теперь сталкиваются с ещё более длительными задержками.",
+        "learn": 0
+      },
+      {
+        "eng": "Fresh fruit are railed from Italy to Belgium.",
+        "ru": "Свежие фрукты перевозятся из Италии в Бельгию по железной дороге.",
+        "learn": 0
+      },
+      {
+        "eng": "Cheshunt has good rail connections to London.",
+        "ru": "Чезант имеет хорошее железнодорожное сообщение с Лондоном.",
+        "learn": 0
+      },
+      {
+        "eng": "Less than half the rail network was operable.",
+        "ru": "Было работоспособно менее половины железнодорожной сети.",
+        "learn": 0
+      },
+      {
+        "eng": "Rail fares have fallen 17 per cent in real terms.",
+        "ru": "Железнодорожные тарифы в реальном выражении снизились на семнадцать процентов.",
+        "learn": 0
+      },
+      {
+        "eng": "He was holding onto a rope that served as a rail.",
+        "ru": "Он держался за канат, который служил перилами.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,81 +1,167 @@
 {
-    "holy": {
-        "comment": [
-            "hole",
-            "holiday"
-        ],
-        "translate": "святой, священный, праведный, безгрешный, святыня, святилище",
-        "transcription": " |ˈhoʊli|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Holy Russia",
-            "Holy City",
-            "Holy Spirit",
-            "Holy Father",
-            "Holy mackerel!",
-            "They were joined together in holy matrimony.",
-            "a holy war against the infidels",
-            "We don't treat the items as holy relics.",
-            "Holy /Sacred/ Writ",
-            "the emanation of the Holy Spirit",
-            "She was a holy woman, innocent and chaste.",
-            "Denmark was never a province of the Holy Roman Empire.",
-            "Holy Sepulchre",
-            "Holy / Spy Wednesday",
-            "...the bonds of holy matrimony.",
-            "Hope is against the holy ghost.",
-            "the Father, the Son and the Holy Spirit",
-            "a holy relic worn by one of the saints",
-            "He sprinkled the coffin with Holy Water.",
-            "They prefer cursed bad wine to holy water.",
-            "He was a communicant of Holy Cross Church.",
-            "He joined the happy couple in holy wedlock.",
-            "These children are venerated as holy beings.",
-            "The two domes which surmount the Holy Sepulchre.",
-            "the justification of barbarous means by holy ends",
-            "The Holy Spirit is the indweller of the church and its members.",
-            "Finding a cure for cancer is the holy grail of medical researchers.",
-            "the doctrine of the procession of the Holy Spirit from the Father and the Son",
-            "Both sides in the conflict agreed to an armistice during the solemn holy days.",
-            "Yom Kippur is the holy day on which Jews are expected to expiate sins committed during the past year."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Святая Русь",
-            "Священный город (Иерусалим, Рим и т. п.)",
-            "Святой Дух",
-            "Святейший отец (папа римский)",
-            "Ничего себе! Вот это да!",
-            "Они были соединены священными узами брака.",
-            "священная война против неверных",
-            "Мы не считаем эти предметы священными реликвиями.",
-            "Библия, Священное писание",
-            "исхождение Святого Духа",
-            "Она была святой женщиной, чистой и непорочной.",
-            "Дания никогда не была провинцией Священной Римской Империи.",
-            "рел. гроб господень",
-            "Святая Среда (на Страстной неделе)",
-            "...узами священного брака.",
-            "Надежда пребывает в духе святом.",
-            "Отец, Сын и Святой Дух",
-            "священная реликвия, которую носил один из этих святых",
-            "Он окропил гроб святой водой.",
-            "Они предпочитают мерзкое, ужасное вино святой воде.",
-            "Он был прихожанином церкви Святого Креста.",
-            "Он соединил счастливую пару святыми узами брака.",
-            "Этих детей почитают как святых.",
-            "Два купола, увенчивающие Храм Гроба Господня.",
-            "оправдание варварских методов праведными целями",
-            "Святой Дух присутствует внутри церкви и её прихожан.",
-            "Нахождение лекарства от рака является заветной мечтой исследователей-медиков.",
-            "догма об исхождении Святого Духа от Отца и Сына",
-            "Стороны конфликта договорились о перемирии на время религиозных праздников.",
-            "Йом-Кипур является праздником, в который у иудеев принято искупать грехи, совершённые в течение прошлого года."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "holy": {
+    "comment": [
+      "hole",
+      "holiday"
+    ],
+    "translate": "святой, священный, праведный, безгрешный, святыня, святилище",
+    "transcription": " |ˈhoʊli|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Holy Russia",
+        "ru": "Святая Русь",
+        "learn": 0
+      },
+      {
+        "eng": "Holy City",
+        "ru": "Священный город (Иерусалим, Рим и т. п.)",
+        "learn": 0
+      },
+      {
+        "eng": "Holy Spirit",
+        "ru": "Святой Дух",
+        "learn": 0
+      },
+      {
+        "eng": "Holy Father",
+        "ru": "Святейший отец (папа римский)",
+        "learn": 0
+      },
+      {
+        "eng": "Holy mackerel!",
+        "ru": "Ничего себе! Вот это да!",
+        "learn": 0
+      },
+      {
+        "eng": "They were joined together in holy matrimony.",
+        "ru": "Они были соединены священными узами брака.",
+        "learn": 0
+      },
+      {
+        "eng": "a holy war against the infidels",
+        "ru": "священная война против неверных",
+        "learn": 0
+      },
+      {
+        "eng": "We don't treat the items as holy relics.",
+        "ru": "Мы не считаем эти предметы священными реликвиями.",
+        "learn": 0
+      },
+      {
+        "eng": "Holy /Sacred/ Writ",
+        "ru": "Библия, Священное писание",
+        "learn": 0
+      },
+      {
+        "eng": "the emanation of the Holy Spirit",
+        "ru": "исхождение Святого Духа",
+        "learn": 0
+      },
+      {
+        "eng": "She was a holy woman, innocent and chaste.",
+        "ru": "Она была святой женщиной, чистой и непорочной.",
+        "learn": 0
+      },
+      {
+        "eng": "Denmark was never a province of the Holy Roman Empire.",
+        "ru": "Дания никогда не была провинцией Священной Римской Империи.",
+        "learn": 0
+      },
+      {
+        "eng": "Holy Sepulchre",
+        "ru": "рел. гроб господень",
+        "learn": 0
+      },
+      {
+        "eng": "Holy / Spy Wednesday",
+        "ru": "Святая Среда (на Страстной неделе)",
+        "learn": 0
+      },
+      {
+        "eng": "...the bonds of holy matrimony.",
+        "ru": "...узами священного брака.",
+        "learn": 0
+      },
+      {
+        "eng": "Hope is against the holy ghost.",
+        "ru": "Надежда пребывает в духе святом.",
+        "learn": 0
+      },
+      {
+        "eng": "the Father, the Son and the Holy Spirit",
+        "ru": "Отец, Сын и Святой Дух",
+        "learn": 1
+      },
+      {
+        "eng": "a holy relic worn by one of the saints",
+        "ru": "священная реликвия, которую носил один из этих святых",
+        "learn": 0
+      },
+      {
+        "eng": "He sprinkled the coffin with Holy Water.",
+        "ru": "Он окропил гроб святой водой.",
+        "learn": 0
+      },
+      {
+        "eng": "They prefer cursed bad wine to holy water.",
+        "ru": "Они предпочитают мерзкое, ужасное вино святой воде.",
+        "learn": 1
+      },
+      {
+        "eng": "He was a communicant of Holy Cross Church.",
+        "ru": "Он был прихожанином церкви Святого Креста.",
+        "learn": 0
+      },
+      {
+        "eng": "He joined the happy couple in holy wedlock.",
+        "ru": "Он соединил счастливую пару святыми узами брака.",
+        "learn": 0
+      },
+      {
+        "eng": "These children are venerated as holy beings.",
+        "ru": "Этих детей почитают как святых.",
+        "learn": 0
+      },
+      {
+        "eng": "The two domes which surmount the Holy Sepulchre.",
+        "ru": "Два купола, увенчивающие Храм Гроба Господня.",
+        "learn": 0
+      },
+      {
+        "eng": "the justification of barbarous means by holy ends",
+        "ru": "оправдание варварских методов праведными целями",
+        "learn": 0
+      },
+      {
+        "eng": "The Holy Spirit is the indweller of the church and its members.",
+        "ru": "Святой Дух присутствует внутри церкви и её прихожан.",
+        "learn": 0
+      },
+      {
+        "eng": "Finding a cure for cancer is the holy grail of medical researchers.",
+        "ru": "Нахождение лекарства от рака является заветной мечтой исследователей-медиков.",
+        "learn": 1
+      },
+      {
+        "eng": "the doctrine of the procession of the Holy Spirit from the Father and the Son",
+        "ru": "догма об исхождении Святого Духа от Отца и Сына",
+        "learn": 0
+      },
+      {
+        "eng": "Both sides in the conflict agreed to an armistice during the solemn holy days.",
+        "ru": "Стороны конфликта договорились о перемирии на время религиозных праздников.",
+        "learn": 0
+      },
+      {
+        "eng": "Yom Kippur is the holy day on which Jews are expected to expiate sins committed during the past year.",
+        "ru": "Йом-Кипур является праздником, в который у иудеев принято искупать грехи, совершённые в течение прошлого года.",
+        "learn": 0
+      }
+    ]
+  }
 }

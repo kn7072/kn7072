@@ -1,92 +1,179 @@
 {
-    "good": {
-        "comment": [
-            "goods",
-            "goodbye",
-            "good morning",
-            "goodness",
-            "good night",
-            "goodwill",
-            "goodnight",
-            "good-looking"
-        ],
-        "translate": "хороший, добрый, благой, хорошо, добро, благо, польза",
-        "transcription": " |ɡʊd|",
-        "antonyms": [],
-        "mnemonic": [
-            "good [гу:д] хороший - Робин (Гуд) - хороший бандит."
-        ],
-        "examples": [
-            "Good morning!",
-            "That's a good point.",
-            "How good of you!",
-            "Good boy!",
-            "Good land!",
-            "I'm no good at cards.",
-            "Watching too much TV isn't good for you.",
-            "Listen to me good!",
-            "It's no good trying.",
-            "Sit! Good dog.",
-            "That's good news!",
-            "That was good fun.",
-            "It is no good.",
-            "Good riddance!",
-            "You need a good rest.",
-            "Good shot!",
-            "Good grief!",
-            "That was a good game!",
-            "Milk is good for you.",
-            "The soup smells good.",
-            "This is good stuff.",
-            "I got a good ducking.",
-            "He earns a good wage.",
-            "Age matures a good wine.",
-            "A darn good movie!",
-            "She's a good fuck.",
-            "Good old Keith!",
-            "Good morning, Papa!",
-            "His monologues made for good theater.",
-            "He cherished the faith of a good woman."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Доброе утро!",
-            "Хорошее замечание. / Верно подмечено.",
-            "Как это мило с вашей стороны!",
-            "Молодец! / Хороший мальчик!",
-            "Боже мой!",
-            "Я в картах не силён.",
-            "Тебе вредно слишком много смотреть телевизор.",
-            "Слушай меня хорошенько!",
-            "Бесполезно пытаться.",
-            "Сидеть! Хорошая собака.",
-            "Это хорошая новость!",
-            "Это было весело.",
-            "Бесполезно.",
-            "Тем лучше! / Сплавили, слава богу! / Скатертью дорога!",
-            "Вам нужно хорошо отдохнуть.",
-            "Хороший выстрел! / Отличный удар /бросок/!",
-            "Чёрт возьми! / Ну и ну! / Ни черта себе!",
-            "Хорошая была игра!",
-            "Молоко тебе полезно.",
-            "Суп вкусно /хорошо/ пахнет.",
-            "Отличная вещь! / Вот это — вещь! / Классная дурь.",
-            "Я сильно промок.",
-            "Он получает хорошую зарплату. / Он хорошо зарабатывает.",
-            "С возрастом хорошее вино вызревает.",
-            "Чертовски хороший фильм!",
-            "Она обалденная давалка.",
-            "Старый добрый Кит!",
-            "Доброе утро, папа!",
-            "Его монологи были очень сценичны.",
-            "Он дорожил доверием одной хорошей женщины."
-        ],
-        "stars": 3,
-        "groups": [
-            "Инфинитивный_оборот_с_for",
-            "Инфинитив_-_инфинитивный_оборот_с_for(После_сочетания_It_is_(was,_will_be)_с_некоторыми_прилагательными)",
-            "Инфинитив",
-            "all_words"
-        ]
-    }
+  "good": {
+    "comment": [
+      "goods",
+      "goodbye",
+      "good morning",
+      "goodness",
+      "good night",
+      "goodwill",
+      "goodnight",
+      "good-looking"
+    ],
+    "translate": "хороший, добрый, благой, хорошо, добро, благо, польза",
+    "transcription": " |ɡʊd|",
+    "antonyms": [],
+    "mnemonic": [
+      "good [гу:д] хороший - Робин (Гуд) - хороший бандит."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "Инфинитивный_оборот_с_for",
+      "Инфинитив_-_инфинитивный_оборот_с_for(После_сочетания_It_is_(was,_will_be)_с_некоторыми_прилагательными)",
+      "Инфинитив"
+    ],
+    "examples": [
+      {
+        "eng": "Good morning!",
+        "ru": "Доброе утро!",
+        "learn": 0
+      },
+      {
+        "eng": "That's a good point.",
+        "ru": "Хорошее замечание. / Верно подмечено.",
+        "learn": 0
+      },
+      {
+        "eng": "How good of you!",
+        "ru": "Как это мило с вашей стороны!",
+        "learn": 0
+      },
+      {
+        "eng": "Good boy!",
+        "ru": "Молодец! / Хороший мальчик!",
+        "learn": 0
+      },
+      {
+        "eng": "Good land!",
+        "ru": "Боже мой!",
+        "learn": 0
+      },
+      {
+        "eng": "I'm no good at cards.",
+        "ru": "Я в картах не силён.",
+        "learn": 0
+      },
+      {
+        "eng": "Watching too much TV isn't good for you.",
+        "ru": "Тебе вредно слишком много смотреть телевизор.",
+        "learn": 0
+      },
+      {
+        "eng": "Listen to me good!",
+        "ru": "Слушай меня хорошенько!",
+        "learn": 0
+      },
+      {
+        "eng": "It's no good trying.",
+        "ru": "Бесполезно пытаться.",
+        "learn": 0
+      },
+      {
+        "eng": "Sit! Good dog.",
+        "ru": "Сидеть! Хорошая собака.",
+        "learn": 0
+      },
+      {
+        "eng": "That's good news!",
+        "ru": "Это хорошая новость!",
+        "learn": 0
+      },
+      {
+        "eng": "That was good fun.",
+        "ru": "Это было весело.",
+        "learn": 0
+      },
+      {
+        "eng": "It is no good.",
+        "ru": "Бесполезно.",
+        "learn": 0
+      },
+      {
+        "eng": "Good riddance!",
+        "ru": "Тем лучше! / Сплавили, слава богу! / Скатертью дорога!",
+        "learn": 0
+      },
+      {
+        "eng": "You need a good rest.",
+        "ru": "Вам нужно хорошо отдохнуть.",
+        "learn": 0
+      },
+      {
+        "eng": "Good shot!",
+        "ru": "Хороший выстрел! / Отличный удар /бросок/!",
+        "learn": 0
+      },
+      {
+        "eng": "Good grief!",
+        "ru": "Чёрт возьми! / Ну и ну! / Ни черта себе!",
+        "learn": 0
+      },
+      {
+        "eng": "That was a good game!",
+        "ru": "Хорошая была игра!",
+        "learn": 0
+      },
+      {
+        "eng": "Milk is good for you.",
+        "ru": "Молоко тебе полезно.",
+        "learn": 0
+      },
+      {
+        "eng": "The soup smells good.",
+        "ru": "Суп вкусно /хорошо/ пахнет.",
+        "learn": 0
+      },
+      {
+        "eng": "This is good stuff.",
+        "ru": "Отличная вещь! / Вот это — вещь! / Классная дурь.",
+        "learn": 0
+      },
+      {
+        "eng": "I got a good ducking.",
+        "ru": "Я сильно промок.",
+        "learn": 0
+      },
+      {
+        "eng": "He earns a good wage.",
+        "ru": "Он получает хорошую зарплату. / Он хорошо зарабатывает.",
+        "learn": 1
+      },
+      {
+        "eng": "Age matures a good wine.",
+        "ru": "С возрастом хорошее вино вызревает.",
+        "learn": 0
+      },
+      {
+        "eng": "A darn good movie!",
+        "ru": "Чертовски хороший фильм!",
+        "learn": 0
+      },
+      {
+        "eng": "She's a good fuck.",
+        "ru": "Она обалденная давалка.",
+        "learn": 0
+      },
+      {
+        "eng": "Good old Keith!",
+        "ru": "Старый добрый Кит!",
+        "learn": 0
+      },
+      {
+        "eng": "Good morning, Papa!",
+        "ru": "Доброе утро, папа!",
+        "learn": 0
+      },
+      {
+        "eng": "His monologues made for good theater.",
+        "ru": "Его монологи были очень сценичны.",
+        "learn": 0
+      },
+      {
+        "eng": "He cherished the faith of a good woman.",
+        "ru": "Он дорожил доверием одной хорошей женщины.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,59 +1,113 @@
 {
-    "quantity": {
-        "comment": [],
-        "translate": "количество, величина, большое количество, количество звука, долгота звука",
-        "transcription": " |ˈkwɑːntəti|",
-        "antonyms": [],
-        "mnemonic": [
-            "quantity [кво'нтъитъи] количество - Лучи (квант и ты) большое количество денег принесут."
-        ],
-        "examples": [
-            "a great quantity of fish",
-            "She is able to drink quantities.",
-            "The family buys food in quantity.",
-            "The wine is made in small quantities.",
-            "He had a quantity of ammunition.",
-            "Every summer Mother puts up a large quantity of ripe fruit.",
-            "He had consumed a large quantity of alcohol.",
-            "Specify the color and quantity when you order.",
-            "Your work has improved in quantity and quality this term.",
-            "Huge quantities of oil were spilling into the sea.",
-            "It's a lot cheaper if you buy it in quantity.",
-            "The word \"ana\" is placed before the designation of the quantity.",
-            "They're focusing more on quality and less on quantity.",
-            "Add 50 grams of butter, and the same quantity of sugar.",
-            "The quantity of medicine to be taken can be stepped down gradually after the first week.",
-            "You allege that she stole a large quantity of money. Do you have any proof?",
-            "The boss is worried about quantity as well as quality.",
-            "The sheer quantity of text meant that people did not read the whole of their newspaper.",
-            "There has to be a trade-off between quality and quantity if we want to keep prices low."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "большое количество рыбы",
-            "Она в состоянии выпить невероятное количество.",
-            "Семья покупает пищу в большом количестве.",
-            "Это вино производится в небольших количествах.",
-            "У него было большое количество боеприпасов.",
-            "Каждое лето мама консервирует много фруктов.",
-            "Он употребил большое количество алкоголя.",
-            "При заказе укажите цвет и количество.",
-            "В этом семестре ваша работа улучшилась количественно и качественно.",
-            "В море выливалось огромное количество нефти.",
-            "Будет намного дешевле, если покупать это в больших количествах.",
-            "Слово \"ana\" ставится перед обозначением количества.",
-            "Они больше обращают внимание на качество, чем на количество",
-            "Добавьте 50 граммов сливочного масла и такое же количество сахара.",
-            "Через неделю дозу принимаемого препарата можно постепенно уменьшить.",
-            "Вы утверждаете, что она похитила большое количество /большую сумму/ денег. Есть ли у вас какие-либо доказательства?",
-            "Начальник беспокоится как о количестве, так и о качестве.",
-            "Такое огромное количество текста означало, что люди не прочитали всю свою газету.",
-            "Если мы хотим избежать повышения цен, придётся идти на компромисс между количеством и качеством."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words",
-            "qua_=_[kwɔ]"
-        ]
-    }
+  "quantity": {
+    "comment": [],
+    "translate": "количество, величина, большое количество, количество звука, долгота звука",
+    "transcription": " |ˈkwɑːntəti|",
+    "antonyms": [],
+    "mnemonic": [
+      "quantity [кво'нтъитъи] количество - Лучи (квант и ты) большое количество денег принесут."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [
+      "qua_=_[kwɔ]"
+    ],
+    "examples": [
+      {
+        "eng": "a great quantity of fish",
+        "ru": "большое количество рыбы",
+        "learn": 0
+      },
+      {
+        "eng": "She is able to drink quantities.",
+        "ru": "Она в состоянии выпить невероятное количество.",
+        "learn": 0
+      },
+      {
+        "eng": "The family buys food in quantity.",
+        "ru": "Семья покупает пищу в большом количестве.",
+        "learn": 0
+      },
+      {
+        "eng": "The wine is made in small quantities.",
+        "ru": "Это вино производится в небольших количествах.",
+        "learn": 1
+      },
+      {
+        "eng": "He had a quantity of ammunition.",
+        "ru": "У него было большое количество боеприпасов.",
+        "learn": 0
+      },
+      {
+        "eng": "Every summer Mother puts up a large quantity of ripe fruit.",
+        "ru": "Каждое лето мама консервирует много фруктов.",
+        "learn": 0
+      },
+      {
+        "eng": "He had consumed a large quantity of alcohol.",
+        "ru": "Он употребил большое количество алкоголя.",
+        "learn": 0
+      },
+      {
+        "eng": "Specify the color and quantity when you order.",
+        "ru": "При заказе укажите цвет и количество.",
+        "learn": 0
+      },
+      {
+        "eng": "Your work has improved in quantity and quality this term.",
+        "ru": "В этом семестре ваша работа улучшилась количественно и качественно.",
+        "learn": 0
+      },
+      {
+        "eng": "Huge quantities of oil were spilling into the sea.",
+        "ru": "В море выливалось огромное количество нефти.",
+        "learn": 0
+      },
+      {
+        "eng": "It's a lot cheaper if you buy it in quantity.",
+        "ru": "Будет намного дешевле, если покупать это в больших количествах.",
+        "learn": 0
+      },
+      {
+        "eng": "The word \"ana\" is placed before the designation of the quantity.",
+        "ru": "Слово \"ana\" ставится перед обозначением количества.",
+        "learn": 0
+      },
+      {
+        "eng": "They're focusing more on quality and less on quantity.",
+        "ru": "Они больше обращают внимание на качество, чем на количество",
+        "learn": 0
+      },
+      {
+        "eng": "Add 50 grams of butter, and the same quantity of sugar.",
+        "ru": "Добавьте 50 граммов сливочного масла и такое же количество сахара.",
+        "learn": 0
+      },
+      {
+        "eng": "The quantity of medicine to be taken can be stepped down gradually after the first week.",
+        "ru": "Через неделю дозу принимаемого препарата можно постепенно уменьшить.",
+        "learn": 0
+      },
+      {
+        "eng": "You allege that she stole a large quantity of money. Do you have any proof?",
+        "ru": "Вы утверждаете, что она похитила большое количество /большую сумму/ денег. Есть ли у вас какие-либо доказательства?",
+        "learn": 1
+      },
+      {
+        "eng": "The boss is worried about quantity as well as quality.",
+        "ru": "Начальник беспокоится как о количестве, так и о качестве.",
+        "learn": 1
+      },
+      {
+        "eng": "The sheer quantity of text meant that people did not read the whole of their newspaper.",
+        "ru": "Такое огромное количество текста означало, что люди не прочитали всю свою газету.",
+        "learn": 1
+      },
+      {
+        "eng": "There has to be a trade-off between quality and quantity if we want to keep prices low.",
+        "ru": "Если мы хотим избежать повышения цен, придётся идти на компромисс между количеством и качеством.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,81 +1,167 @@
 {
-    "conference": {
-        "comment": [
-            "confession",
-            "confess"
-        ],
-        "translate": "конференция, совещание, съезд, ассоциация",
-        "transcription": " |ˈkɑːnfərəns|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "The conference was slated for summer.",
-            "We received a grant to attend the conference.",
-            "The boss called us in for a conference.",
-            "Mr Dickson is in conference.",
-            "He won't be attending the conference.",
-            "national conferences on women's health",
-            "He presented a motion to the conference.",
-            "The company sent me to the conference.",
-            "I'd like to see you organize a conference!",
-            "They patched him into the conference call.",
-            "Conference on Security and Cooperation in Europe",
-            "They are in the conference room talking business.",
-            "All-European Conference on Security and Cooperation",
-            "a high-level conference on arms control",
-            "The conference center offers a health spa.",
-            "There were 300 attendees at the conference.",
-            "The conference ended with a plenary debate.",
-            "The conference is open to all party members.",
-            "Demonstrators have sabotaged the conference.",
-            "The media gave the conference scant coverage.",
-            "Around 350 delegates attended the conference.",
-            "She's the winningest coach in the conference.",
-            "Simon's been selected to go to the conference.",
-            "We're driving up to Chicago for the conference.",
-            "Conference rooms were equipped at great expense.",
-            "the champions of the American Football Conference",
-            "He spent an hour in conference with the president.",
-            "The conference degenerated into a complete fiasco.",
-            "Dillon made the announcement at a news conference.",
-            "Eva's busy drafting her speech for the conference."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Совещание было назначено на лето.",
-            "Мы получили разрешение на участие в конференции.",
-            "Начальник созвал нас на совещание.",
-            "Мистер Диксон на совещании.",
-            "Он не будет присутствовать на конференции.",
-            "национальные конференции по охране здоровья женщин",
-            "Он представил собранию своё предложение.",
-            "Руководство компании отправило меня на конференцию.",
-            "Хотелось бы посмотреть, как у вас получится организовать конференцию!",
-            "Они подключили его к селекторному совещанию.",
-            "Совещание по безопасности и сотрудничеству в Европе, СБСЕ",
-            "Они в конференц-зале, говорят о делах.",
-            "Общеевропейское совещание по вопросам безопасности и сотрудничества",
-            "совещание на высшем уровне по вопросам контроля над вооружениями",
-            "Конференц-центр предоставляет услуги спа.",
-            "На конференции было триста участников.",
-            "Конференция завершилась пленарными дебатами.",
-            "Конференция открыта для всех членов партии.",
-            "Демонстранты сорвали проведение конференции.",
-            "Средства массовой информации уделили (работе) конференции мало внимания.",
-            "В конференции приняло участие около трёхсот пятидесяти делегатов.",
-            "У неё самое большое количество побед среди всех тренеров конференции.",
-            "Саймона выбрали для поездки на конференцию.",
-            "Мы едем на конференцию на север, в Чикаго.",
-            "На оборудование конференц-залов были потрачены большие деньги.",
-            "победители Американской футбольной конференции (одна из двух конференций НФЛ)",
-            "Он провёл час на совещании с президентом.",
-            "Конференция докатилась до полного провала.",
-            "Диллон сделал это заявление на пресс-конференции.",
-            "Ева занята составлением своей речи для выступления на конференции."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "conference": {
+    "comment": [
+      "confession",
+      "confess"
+    ],
+    "translate": "конференция, совещание, съезд, ассоциация",
+    "transcription": " |ˈkɑːnfərəns|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The conference was slated for summer.",
+        "ru": "Совещание было назначено на лето.",
+        "learn": 0
+      },
+      {
+        "eng": "We received a grant to attend the conference.",
+        "ru": "Мы получили разрешение на участие в конференции.",
+        "learn": 0
+      },
+      {
+        "eng": "The boss called us in for a conference.",
+        "ru": "Начальник созвал нас на совещание.",
+        "learn": 1
+      },
+      {
+        "eng": "Mr Dickson is in conference.",
+        "ru": "Мистер Диксон на совещании.",
+        "learn": 0
+      },
+      {
+        "eng": "He won't be attending the conference.",
+        "ru": "Он не будет присутствовать на конференции.",
+        "learn": 0
+      },
+      {
+        "eng": "national conferences on women's health",
+        "ru": "национальные конференции по охране здоровья женщин",
+        "learn": 0
+      },
+      {
+        "eng": "He presented a motion to the conference.",
+        "ru": "Он представил собранию своё предложение.",
+        "learn": 0
+      },
+      {
+        "eng": "The company sent me to the conference.",
+        "ru": "Руководство компании отправило меня на конференцию.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd like to see you organize a conference!",
+        "ru": "Хотелось бы посмотреть, как у вас получится организовать конференцию!",
+        "learn": 1
+      },
+      {
+        "eng": "They patched him into the conference call.",
+        "ru": "Они подключили его к селекторному совещанию.",
+        "learn": 0
+      },
+      {
+        "eng": "Conference on Security and Cooperation in Europe",
+        "ru": "Совещание по безопасности и сотрудничеству в Европе, СБСЕ",
+        "learn": 0
+      },
+      {
+        "eng": "They are in the conference room talking business.",
+        "ru": "Они в конференц-зале, говорят о делах.",
+        "learn": 0
+      },
+      {
+        "eng": "All-European Conference on Security and Cooperation",
+        "ru": "Общеевропейское совещание по вопросам безопасности и сотрудничества",
+        "learn": 0
+      },
+      {
+        "eng": "a high-level conference on arms control",
+        "ru": "совещание на высшем уровне по вопросам контроля над вооружениями",
+        "learn": 0
+      },
+      {
+        "eng": "The conference center offers a health spa.",
+        "ru": "Конференц-центр предоставляет услуги спа.",
+        "learn": 0
+      },
+      {
+        "eng": "There were 300 attendees at the conference.",
+        "ru": "На конференции было триста участников.",
+        "learn": 0
+      },
+      {
+        "eng": "The conference ended with a plenary debate.",
+        "ru": "Конференция завершилась пленарными дебатами.",
+        "learn": 0
+      },
+      {
+        "eng": "The conference is open to all party members.",
+        "ru": "Конференция открыта для всех членов партии.",
+        "learn": 0
+      },
+      {
+        "eng": "Demonstrators have sabotaged the conference.",
+        "ru": "Демонстранты сорвали проведение конференции.",
+        "learn": 0
+      },
+      {
+        "eng": "The media gave the conference scant coverage.",
+        "ru": "Средства массовой информации уделили (работе) конференции мало внимания.",
+        "learn": 0
+      },
+      {
+        "eng": "Around 350 delegates attended the conference.",
+        "ru": "В конференции приняло участие около трёхсот пятидесяти делегатов.",
+        "learn": 0
+      },
+      {
+        "eng": "She's the winningest coach in the conference.",
+        "ru": "У неё самое большое количество побед среди всех тренеров конференции.",
+        "learn": 0
+      },
+      {
+        "eng": "Simon's been selected to go to the conference.",
+        "ru": "Саймона выбрали для поездки на конференцию.",
+        "learn": 0
+      },
+      {
+        "eng": "We're driving up to Chicago for the conference.",
+        "ru": "Мы едем на конференцию на север, в Чикаго.",
+        "learn": 0
+      },
+      {
+        "eng": "Conference rooms were equipped at great expense.",
+        "ru": "На оборудование конференц-залов были потрачены большие деньги.",
+        "learn": 0
+      },
+      {
+        "eng": "the champions of the American Football Conference",
+        "ru": "победители Американской футбольной конференции (одна из двух конференций НФЛ)",
+        "learn": 0
+      },
+      {
+        "eng": "He spent an hour in conference with the president.",
+        "ru": "Он провёл час на совещании с президентом.",
+        "learn": 0
+      },
+      {
+        "eng": "The conference degenerated into a complete fiasco.",
+        "ru": "Конференция докатилась до полного провала.",
+        "learn": 0
+      },
+      {
+        "eng": "Dillon made the announcement at a news conference.",
+        "ru": "Диллон сделал это заявление на пресс-конференции.",
+        "learn": 0
+      },
+      {
+        "eng": "Eva's busy drafting her speech for the conference.",
+        "ru": "Ева занята составлением своей речи для выступления на конференции.",
+        "learn": 1
+      }
+    ]
+  }
 }

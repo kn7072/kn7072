@@ -1,79 +1,138 @@
 {
-    "leisure": {
-        "comment": [
-            "measure",
-            "measurement",
-            "pleasure",
-            "pressure",
-            "ensure",
-            "sure",
-            "assure",
-            "surely",
-            "closure",
-            "insure",
-            "disclosure",
-            "reassure",
-            "exposure",
-            "treasure",
-            "unsure"
-        ],
-        "translate": "досуг, свободное время, свободный",
-        "transcription": " |ˈliːʒər|",
-        "antonyms": [],
-        "mnemonic": [
-            "leisure [лэ'жэ] досуг - Свой досуг (лежа) я провожу.",
-            "leisure ['lɛʒə]\n***\nДОСУГ мы проводили лежа. (это) leisure\nСвободное время."
-        ],
-        "examples": [
-            "How do you spend your leisure?",
-            "I don't have much time for leisure.",
-            "Do it at your leisure.",
-            "Watching television is now the nation's most popular leisure activity.",
-            "Most people now enjoy shorter working hours and more leisure time.",
-            "Football occupies most of my leisure time.",
-            "The hotel offers various leisure facilities such as a swimming pool and sauna.",
-            "The hotel has its own pool and leisure facilities.",
-            "His job left him little leisure.",
-            "The leisure industry (=the business of providing leisure activities) is now an important part of the economy.",
-            "Marry in haste and repent at leisure. посл.",
-            "What would he be at? - At her, if she's at leisure.",
-            "The town has little in the way of leisure facilities.",
-            "The town has one of the best leisure complexes in the country.",
-            "Please peruse this report at your leisure.",
-            "There's a good range of leisure facilities.",
-            "Take the leaflets home and read them at your leisure.",
-            "Come round for lunch and then we can discuss it at leisure.",
-            "It has been said that only a hierarchical society with a leisure class at the top can produce works of art.",
-            "Plans to turn the site into a £600 million leisure complex have met with stiff opposition.",
-            "In a way, modern labor-saving appliances enfranchised people, giving them much more leisure time."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Как вы проводите свободное время?",
-            "У меня не так много времени для досуга.",
-            "Сделайте это, когда вам будет удобно.",
-            "Сейчас просмотр телевизора является наиболее популярным видом проведения досуга в стране.",
-            "Сейчас у многих людей есть возможность наслаждаться сокращенным рабочим днём и большим количеством свободного времени.",
-            "Футбол занимает большую часть моего свободного времени /досуга/.",
-            "Гостям отеля предлагаются различные возможности для отдыха, такие как плавательный бассейн и сауна.",
-            "В отеле есть собственный бассейн и возможности для отдыха.",
-            "Работа почти не оставляла ему свободного времени.",
-            "Сейчас, индустрия развлечений, является важной частью экономики.",
-            "Жениться на скорую руку, да на долгую муку.",
-            "Ну и чего он достигнет? - Будет рядом с ней, если ей захочется.",
-            "По части досуга в городе мало что есть.",
-            "Город располагает одним из лучших развлекательных комплексов в стране.",
-            "Просьба на досуге внимательно прочитать этот отчёт.",
-            "Имеется большой выбор удобств для отдыха /возможностей проведения досуга/.",
-            "Возьмите эти буклетики домой и почитайте их на досуге.",
-            "Заходите к нам на обед, и тогда мы сможем не спеша это обсудить.",
-            "Бытует мнение, что только иерархическое общество, возглавляемое праздным классом, может производить произведения искусства.",
-            "Планы превращения данного места в развлекательный комплекс стоимостью шестьсот миллионов фунтов стерлингов встретили жёсткое сопротивление.",
-            "В некотором смысле, современные облегчающие труд приспособления освободили людей, предоставив им гораздо больше времени на отдых."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "leisure": {
+    "comment": [
+      "measure",
+      "measurement",
+      "pleasure",
+      "pressure",
+      "ensure",
+      "sure",
+      "assure",
+      "surely",
+      "closure",
+      "insure",
+      "disclosure",
+      "reassure",
+      "exposure",
+      "treasure",
+      "unsure"
+    ],
+    "translate": "досуг, свободное время, свободный",
+    "transcription": " |ˈliːʒər|",
+    "antonyms": [],
+    "mnemonic": [
+      "leisure [лэ'жэ] досуг - Свой досуг (лежа) я провожу.",
+      "leisure ['lɛʒə]\n***\nДОСУГ мы проводили лежа. (это) leisure\nСвободное время."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "How do you spend your leisure?",
+        "ru": "Как вы проводите свободное время?",
+        "learn": 1
+      },
+      {
+        "eng": "I don't have much time for leisure.",
+        "ru": "У меня не так много времени для досуга.",
+        "learn": 0
+      },
+      {
+        "eng": "Do it at your leisure.",
+        "ru": "Сделайте это, когда вам будет удобно.",
+        "learn": 0
+      },
+      {
+        "eng": "Watching television is now the nation's most popular leisure activity.",
+        "ru": "Сейчас просмотр телевизора является наиболее популярным видом проведения досуга в стране.",
+        "learn": 0
+      },
+      {
+        "eng": "Most people now enjoy shorter working hours and more leisure time.",
+        "ru": "Сейчас у многих людей есть возможность наслаждаться сокращенным рабочим днём и большим количеством свободного времени.",
+        "learn": 0
+      },
+      {
+        "eng": "Football occupies most of my leisure time.",
+        "ru": "Футбол занимает большую часть моего свободного времени /досуга/.",
+        "learn": 1
+      },
+      {
+        "eng": "The hotel offers various leisure facilities such as a swimming pool and sauna.",
+        "ru": "Гостям отеля предлагаются различные возможности для отдыха, такие как плавательный бассейн и сауна.",
+        "learn": 0
+      },
+      {
+        "eng": "The hotel has its own pool and leisure facilities.",
+        "ru": "В отеле есть собственный бассейн и возможности для отдыха.",
+        "learn": 0
+      },
+      {
+        "eng": "His job left him little leisure.",
+        "ru": "Работа почти не оставляла ему свободного времени.",
+        "learn": 0
+      },
+      {
+        "eng": "The leisure industry (=the business of providing leisure activities) is now an important part of the economy.",
+        "ru": "Сейчас, индустрия развлечений, является важной частью экономики.",
+        "learn": 0
+      },
+      {
+        "eng": "Marry in haste and repent at leisure. посл.",
+        "ru": "Жениться на скорую руку, да на долгую муку.",
+        "learn": 0
+      },
+      {
+        "eng": "What would he be at? - At her, if she's at leisure.",
+        "ru": "Ну и чего он достигнет? - Будет рядом с ней, если ей захочется.",
+        "learn": 0
+      },
+      {
+        "eng": "The town has little in the way of leisure facilities.",
+        "ru": "По части досуга в городе мало что есть.",
+        "learn": 0
+      },
+      {
+        "eng": "The town has one of the best leisure complexes in the country.",
+        "ru": "Город располагает одним из лучших развлекательных комплексов в стране.",
+        "learn": 1
+      },
+      {
+        "eng": "Please peruse this report at your leisure.",
+        "ru": "Просьба на досуге внимательно прочитать этот отчёт.",
+        "learn": 0
+      },
+      {
+        "eng": "There's a good range of leisure facilities.",
+        "ru": "Имеется большой выбор удобств для отдыха /возможностей проведения досуга/.",
+        "learn": 0
+      },
+      {
+        "eng": "Take the leaflets home and read them at your leisure.",
+        "ru": "Возьмите эти буклетики домой и почитайте их на досуге.",
+        "learn": 0
+      },
+      {
+        "eng": "Come round for lunch and then we can discuss it at leisure.",
+        "ru": "Заходите к нам на обед, и тогда мы сможем не спеша это обсудить.",
+        "learn": 0
+      },
+      {
+        "eng": "It has been said that only a hierarchical society with a leisure class at the top can produce works of art.",
+        "ru": "Бытует мнение, что только иерархическое общество, возглавляемое праздным классом, может производить произведения искусства.",
+        "learn": 0
+      },
+      {
+        "eng": "Plans to turn the site into a £600 million leisure complex have met with stiff opposition.",
+        "ru": "Планы превращения данного места в развлекательный комплекс стоимостью шестьсот миллионов фунтов стерлингов встретили жёсткое сопротивление.",
+        "learn": 0
+      },
+      {
+        "eng": "In a way, modern labor-saving appliances enfranchised people, giving them much more leisure time.",
+        "ru": "В некотором смысле, современные облегчающие труд приспособления освободили людей, предоставив им гораздо больше времени на отдых.",
+        "learn": 0
+      }
+    ]
+  }
 }

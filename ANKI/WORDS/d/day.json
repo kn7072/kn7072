@@ -1,99 +1,186 @@
 {
-    "day": {
-        "comment": [
-            "tuesday",
-            "thursday",
-            "birthday",
-            "nowadays",
-            "monday",
-            "wednesday",
-            "friday",
-            "midday",
-            "saturday",
-            "sunday",
-            "today",
-            "holiday",
-            "yesterday",
-            "daytime",
-            "everyday",
-            "daylight",
-            "daily"
-        ],
-        "translate": "день, сутки, время, рабочий день, дневной",
-        "transcription": " |deɪ|",
-        "antonyms": [],
-        "mnemonic": [
-            "day [дэй] день (в смысле суток) - («Дей-ли ньюс») день за днём выходит."
-        ],
-        "examples": [
-            "What day is it today?",
-            "Victory Day",
-            "He left two days ago.",
-            "He has had his day.",
-            "I work a ten-hour day.",
-            "Labor Day",
-            "She works eight hours a day.",
-            "May Day",
-            "His days are numbered.",
-            "The office is closed for the day.",
-            "London by day",
-            "He has known better days.",
-            "Inauguration Day",
-            "His day begins at six.",
-            "He is paid by the day.",
-            "National immunization day",
-            "in the day of the dinosaurs",
-            "She is fifty if she is a day.",
-            "These days it is not unusual.",
-            "I'll call you in a couple of days.",
-            "We cannot do the whole job in a day.",
-            "The day is ours.",
-            "He works an 8-hour day.",
-            "When is the big day, then?",
-            "It was a cold blustery day.",
-            "She was a beauty in her day.",
-            "in the days of sailing ships",
-            "It should arrive any day now.",
-            "We spent three days in Paris.",
-            "How long is a day on Jupiter?"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Какой сегодня день?",
-            "День Победы",
-            "Он уехал два дня назад.",
-            "Он отслужил своё.",
-            "Я работаю по десять часов в день.",
-            "День труда (первый понедельник сентября, официальный рабочий праздник)",
-            "Она работает по восемь часов в день.",
-            "Первомай / Первое мая",
-            "Дни его сочтены.",
-            "Офис сегодня закрыт.",
-            "Лондон днём",
-            "Он знавал лучшие времена.",
-            "день вступления президента США в должность (20 января)",
-            "Его день начинается в шесть.",
-            "Ему платят подённо.",
-            "Национальный день всеобщей вакцинации (в США, Великобритании и др. странах)",
-            "во времена динозавров",
-            "Ей все пятьдесят (лет), никак не меньше.",
-            "В наши дни это не редкость.",
-            "Я позвоню тебе через пару дней.",
-            "Мы не можем сделать всю работу за один день.",
-            "Победа за нами.",
-            "У него восьмичасовой рабочий день.",
-            "Ну, так когда свадьба?",
-            "Был холодный ветреный день.",
-            "В своё время она была красавицей.",
-            "в эпоху парусных судов",
-            "Это должно поступить со дня на день. / Мы должны получить это со дня на день.",
-            "Мы провели три дня в Париже.",
-            "Сколько длится день на Юпитере?"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ai(/y)_=_[ei]"
-        ]
-    }
+  "day": {
+    "comment": [
+      "tuesday",
+      "thursday",
+      "birthday",
+      "nowadays",
+      "monday",
+      "wednesday",
+      "friday",
+      "midday",
+      "saturday",
+      "sunday",
+      "today",
+      "holiday",
+      "yesterday",
+      "daytime",
+      "everyday",
+      "daylight",
+      "daily"
+    ],
+    "translate": "день, сутки, время, рабочий день, дневной",
+    "transcription": " |deɪ|",
+    "antonyms": [],
+    "mnemonic": [
+      "day [дэй] день (в смысле суток) - («Дей-ли ньюс») день за днём выходит."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ai(/y)_=_[ei]"
+    ],
+    "examples": [
+      {
+        "eng": "What day is it today?",
+        "ru": "Какой сегодня день?",
+        "learn": 1
+      },
+      {
+        "eng": "Victory Day",
+        "ru": "День Победы",
+        "learn": 0
+      },
+      {
+        "eng": "He left two days ago.",
+        "ru": "Он уехал два дня назад.",
+        "learn": 0
+      },
+      {
+        "eng": "He has had his day.",
+        "ru": "Он отслужил своё.",
+        "learn": 0
+      },
+      {
+        "eng": "I work a ten-hour day.",
+        "ru": "Я работаю по десять часов в день.",
+        "learn": 0
+      },
+      {
+        "eng": "Labor Day",
+        "ru": "День труда (первый понедельник сентября, официальный рабочий праздник)",
+        "learn": 0
+      },
+      {
+        "eng": "She works eight hours a day.",
+        "ru": "Она работает по восемь часов в день.",
+        "learn": 0
+      },
+      {
+        "eng": "May Day",
+        "ru": "Первомай / Первое мая",
+        "learn": 0
+      },
+      {
+        "eng": "His days are numbered.",
+        "ru": "Дни его сочтены.",
+        "learn": 0
+      },
+      {
+        "eng": "The office is closed for the day.",
+        "ru": "Офис сегодня закрыт.",
+        "learn": 0
+      },
+      {
+        "eng": "London by day",
+        "ru": "Лондон днём",
+        "learn": 0
+      },
+      {
+        "eng": "He has known better days.",
+        "ru": "Он знавал лучшие времена.",
+        "learn": 0
+      },
+      {
+        "eng": "Inauguration Day",
+        "ru": "день вступления президента США в должность (20 января)",
+        "learn": 0
+      },
+      {
+        "eng": "His day begins at six.",
+        "ru": "Его день начинается в шесть.",
+        "learn": 0
+      },
+      {
+        "eng": "He is paid by the day.",
+        "ru": "Ему платят подённо.",
+        "learn": 0
+      },
+      {
+        "eng": "National immunization day",
+        "ru": "Национальный день всеобщей вакцинации (в США, Великобритании и др. странах)",
+        "learn": 0
+      },
+      {
+        "eng": "in the day of the dinosaurs",
+        "ru": "во времена динозавров",
+        "learn": 0
+      },
+      {
+        "eng": "She is fifty if she is a day.",
+        "ru": "Ей все пятьдесят (лет), никак не меньше.",
+        "learn": 0
+      },
+      {
+        "eng": "These days it is not unusual.",
+        "ru": "В наши дни это не редкость.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll call you in a couple of days.",
+        "ru": "Я позвоню тебе через пару дней.",
+        "learn": 1
+      },
+      {
+        "eng": "We cannot do the whole job in a day.",
+        "ru": "Мы не можем сделать всю работу за один день.",
+        "learn": 0
+      },
+      {
+        "eng": "The day is ours.",
+        "ru": "Победа за нами.",
+        "learn": 0
+      },
+      {
+        "eng": "He works an 8-hour day.",
+        "ru": "У него восьмичасовой рабочий день.",
+        "learn": 0
+      },
+      {
+        "eng": "When is the big day, then?",
+        "ru": "Ну, так когда свадьба?",
+        "learn": 0
+      },
+      {
+        "eng": "It was a cold blustery day.",
+        "ru": "Был холодный ветреный день.",
+        "learn": 0
+      },
+      {
+        "eng": "She was a beauty in her day.",
+        "ru": "В своё время она была красавицей.",
+        "learn": 0
+      },
+      {
+        "eng": "in the days of sailing ships",
+        "ru": "в эпоху парусных судов",
+        "learn": 0
+      },
+      {
+        "eng": "It should arrive any day now.",
+        "ru": "Это должно поступить со дня на день. / Мы должны получить это со дня на день.",
+        "learn": 0
+      },
+      {
+        "eng": "We spent three days in Paris.",
+        "ru": "Мы провели три дня в Париже.",
+        "learn": 0
+      },
+      {
+        "eng": "How long is a day on Jupiter?",
+        "ru": "Сколько длится день на Юпитере?",
+        "learn": 0
+      }
+    ]
+  }
 }

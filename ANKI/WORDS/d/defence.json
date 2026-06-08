@@ -1,88 +1,174 @@
 {
-    "defence": {
-        "comment": [
-            "defend",
-            "defense",
-            "defendant",
-            "defensive",
-            "defender",
-            "fence"
-        ],
-        "translate": "оборона, защита, оправдание, укрепления, оборонительные сооружения",
-        "transcription": " |dɪˈfens|",
-        "antonyms": [],
-        "mnemonic": [
-            "defence [дъифэ'нс] защита, оборона - (И-ди, фен с) полки возьми и используй его для защиты.",
-            "defence = defense [dɪ'fens]\nfence [fens]\ndefend [dɪ'fend].,\ndefender [dɪ'fendə] - защитник\nfend [fend]\n***\nЗАЩИТА нужна, когда в воде|фен (с). (это) defense\n***\nfence - забор, ограда. фехтовать, парировать вопрос\n***\nЗАЩИЩАТЬСЯ нужно, когда в воде|фен (д). (это)\ndefend\nЯ тебя ЗАЩИЩАЮ - отойди|фрэнд. (это) defend\n***\nОТРАЗИТ удар мой фрэнд. (это) fend\n***\nДаже преступник \"offender\"\nимеет защитника \"defender\".\n***\nЧтоб иметь защиту \"defence\",\nстрой себе забор \"fence\"."
-        ],
-        "examples": [
-            "Best defence is offence.",
-            "They sprang to her defence.",
-            "The defence rests its case.",
-            "He leapt to his friend's defence.",
-            "The defense called only one witness.",
-            "The defence rests, Your Honour.",
-            "The immune system is the body's defence against infection.",
-            "Mountains are necessary as a defence against the violence of heat, in the warm latitudes.",
-            "The defence lawyers decided to petition for a new trial.",
-            "They hacked into US defence computers.",
-            "The Government has cut back on defence spending.",
-            "He put up a stout defence in court.",
-            "a rigorous analysis of defence needs",
-            "For six days they made a brave defence.",
-            "The first line of defence is a smoke detector.",
-            "The judge asked counsel for the defence to explain.",
-            "Jean wrote a letter to the paper in Angela's defense.",
-            "The problem lay in the large amounts spent on defence.",
-            "The invading army easily overcame the town's defences.",
-            "They are to take measures for the defence of the country.",
-            "Major has a good defence and believes he will win the case.",
-            "The captain wants to play Mills as defence in our next game.",
-            "As Napoleon once said, attack is the best method of defence.",
-            "Defence spending absorbs almost 20% of the country's wealth.",
-            "The army tried to co-opt peasants into civil defence groups.",
-            "He ran United's defence ragged (=made them do a lot of work).",
-            "Who do you trust to take responsibility for Britain's defence?",
-            "Defence policies must often be cleared with NATO allies first.",
-            "He has been transferred from the Defence Ministry to the Treasury.",
-            "The defence pursued the question of Dr Carrington's state of mind."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Лучшая защита — это нападение.",
-            "Они бросились её защищать.",
-            "Защите нечего добавить.",
-            "Он бросился на защиту друга.",
-            "Защита вызвала только одного свидетеля.",
-            "Ваша честь, защите нечего добавить.",
-            "Иммунная система является защитой организма от инфекции.",
-            "Горы необходимы как средство защиты против безумной жары в жарких широтах.",
-            "Адвокат защиты решил просить о возбуждении нового процесса.",
-            "Они вошли в компьютерную сеть Министерства обороны США.",
-            "Правительство сократило расходы на оборону.",
-            "Он оказал упорное сопротивление в суде.",
-            "тщательный анализ оборонных нужд",
-            "В течение шести дней они самоотверженно оказывали сопротивление.",
-            "Первой линией обороны является детектор дыма.",
-            "Судья попросил адвоката обвиняемого объяснить.",
-            "Джейн написала в эту газету письмо в защиту Анжелы.",
-            "Проблема заключалась в тех огромных суммах, которые шли на оборону.",
-            "Войска захватчиков легко преодолели защитные укрепления города.",
-            "Они должны принять меры для обороны страны.",
-            "У майора хороший адвокат, и он считает, что выиграет дело.",
-            "Капитан хочет выставить Миллса защитником в следующем матче.",
-            "Как однажды сказал Наполеон, нападение — лучший способ защиты.",
-            "Расходы на оборону поглощают почти двадцать процентов благосостояния страны.",
-            "Армия пыталась привлечь крестьян к участию в группах гражданской обороны.",
-            "Он загонял защитников \"Юнайтед\" (т.е. заставил их здорово поработать).",
-            "Кому вы доверяете взять на себя ответственность за оборону Британии?",
-            "Оборонная стратегия часто нуждается в предварительном согласовании с союзниками по НАТО.",
-            "Его перевели из Министерство обороны в Министерство финансов.",
-            "Защита не оставляла в покое вопроса о душевом состоянии доктора Каррингтона."
-        ],
-        "stars": 0,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "defence": {
+    "comment": [
+      "defend",
+      "defense",
+      "defendant",
+      "defensive",
+      "defender",
+      "fence"
+    ],
+    "translate": "оборона, защита, оправдание, укрепления, оборонительные сооружения",
+    "transcription": " |dɪˈfens|",
+    "antonyms": [],
+    "mnemonic": [
+      "defence [дъифэ'нс] защита, оборона - (И-ди, фен с) полки возьми и используй его для защиты.",
+      "defence = defense [dɪ'fens]\nfence [fens]\ndefend [dɪ'fend].,\ndefender [dɪ'fendə] - защитник\nfend [fend]\n***\nЗАЩИТА нужна, когда в воде|фен (с). (это) defense\n***\nfence - забор, ограда. фехтовать, парировать вопрос\n***\nЗАЩИЩАТЬСЯ нужно, когда в воде|фен (д). (это)\ndefend\nЯ тебя ЗАЩИЩАЮ - отойди|фрэнд. (это) defend\n***\nОТРАЗИТ удар мой фрэнд. (это) fend\n***\nДаже преступник \"offender\"\nимеет защитника \"defender\".\n***\nЧтоб иметь защиту \"defence\",\nстрой себе забор \"fence\"."
+    ],
+    "synonyms": [],
+    "stars": 0,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Best defence is offence.",
+        "ru": "Лучшая защита — это нападение.",
+        "learn": 0
+      },
+      {
+        "eng": "They sprang to her defence.",
+        "ru": "Они бросились её защищать.",
+        "learn": 0
+      },
+      {
+        "eng": "The defence rests its case.",
+        "ru": "Защите нечего добавить.",
+        "learn": 0
+      },
+      {
+        "eng": "He leapt to his friend's defence.",
+        "ru": "Он бросился на защиту друга.",
+        "learn": 0
+      },
+      {
+        "eng": "The defense called only one witness.",
+        "ru": "Защита вызвала только одного свидетеля.",
+        "learn": 1
+      },
+      {
+        "eng": "The defence rests, Your Honour.",
+        "ru": "Ваша честь, защите нечего добавить.",
+        "learn": 0
+      },
+      {
+        "eng": "The immune system is the body's defence against infection.",
+        "ru": "Иммунная система является защитой организма от инфекции.",
+        "learn": 0
+      },
+      {
+        "eng": "Mountains are necessary as a defence against the violence of heat, in the warm latitudes.",
+        "ru": "Горы необходимы как средство защиты против безумной жары в жарких широтах.",
+        "learn": 0
+      },
+      {
+        "eng": "The defence lawyers decided to petition for a new trial.",
+        "ru": "Адвокат защиты решил просить о возбуждении нового процесса.",
+        "learn": 0
+      },
+      {
+        "eng": "They hacked into US defence computers.",
+        "ru": "Они вошли в компьютерную сеть Министерства обороны США.",
+        "learn": 0
+      },
+      {
+        "eng": "The Government has cut back on defence spending.",
+        "ru": "Правительство сократило расходы на оборону.",
+        "learn": 0
+      },
+      {
+        "eng": "He put up a stout defence in court.",
+        "ru": "Он оказал упорное сопротивление в суде.",
+        "learn": 0
+      },
+      {
+        "eng": "a rigorous analysis of defence needs",
+        "ru": "тщательный анализ оборонных нужд",
+        "learn": 0
+      },
+      {
+        "eng": "For six days they made a brave defence.",
+        "ru": "В течение шести дней они самоотверженно оказывали сопротивление.",
+        "learn": 1
+      },
+      {
+        "eng": "The first line of defence is a smoke detector.",
+        "ru": "Первой линией обороны является детектор дыма.",
+        "learn": 1
+      },
+      {
+        "eng": "The judge asked counsel for the defence to explain.",
+        "ru": "Судья попросил адвоката обвиняемого объяснить.",
+        "learn": 0
+      },
+      {
+        "eng": "Jean wrote a letter to the paper in Angela's defense.",
+        "ru": "Джейн написала в эту газету письмо в защиту Анжелы.",
+        "learn": 0
+      },
+      {
+        "eng": "The problem lay in the large amounts spent on defence.",
+        "ru": "Проблема заключалась в тех огромных суммах, которые шли на оборону.",
+        "learn": 0
+      },
+      {
+        "eng": "The invading army easily overcame the town's defences.",
+        "ru": "Войска захватчиков легко преодолели защитные укрепления города.",
+        "learn": 0
+      },
+      {
+        "eng": "They are to take measures for the defence of the country.",
+        "ru": "Они должны принять меры для обороны страны.",
+        "learn": 0
+      },
+      {
+        "eng": "Major has a good defence and believes he will win the case.",
+        "ru": "У майора хороший адвокат, и он считает, что выиграет дело.",
+        "learn": 0
+      },
+      {
+        "eng": "The captain wants to play Mills as defence in our next game.",
+        "ru": "Капитан хочет выставить Миллса защитником в следующем матче.",
+        "learn": 0
+      },
+      {
+        "eng": "As Napoleon once said, attack is the best method of defence.",
+        "ru": "Как однажды сказал Наполеон, нападение — лучший способ защиты.",
+        "learn": 1
+      },
+      {
+        "eng": "Defence spending absorbs almost 20% of the country's wealth.",
+        "ru": "Расходы на оборону поглощают почти двадцать процентов благосостояния страны.",
+        "learn": 0
+      },
+      {
+        "eng": "The army tried to co-opt peasants into civil defence groups.",
+        "ru": "Армия пыталась привлечь крестьян к участию в группах гражданской обороны.",
+        "learn": 0
+      },
+      {
+        "eng": "He ran United's defence ragged (=made them do a lot of work).",
+        "ru": "Он загонял защитников \"Юнайтед\" (т.е. заставил их здорово поработать).",
+        "learn": 0
+      },
+      {
+        "eng": "Who do you trust to take responsibility for Britain's defence?",
+        "ru": "Кому вы доверяете взять на себя ответственность за оборону Британии?",
+        "learn": 1
+      },
+      {
+        "eng": "Defence policies must often be cleared with NATO allies first.",
+        "ru": "Оборонная стратегия часто нуждается в предварительном согласовании с союзниками по НАТО.",
+        "learn": 0
+      },
+      {
+        "eng": "He has been transferred from the Defence Ministry to the Treasury.",
+        "ru": "Его перевели из Министерство обороны в Министерство финансов.",
+        "learn": 1
+      },
+      {
+        "eng": "The defence pursued the question of Dr Carrington's state of mind.",
+        "ru": "Защита не оставляла в покое вопроса о душевом состоянии доктора Каррингтона.",
+        "learn": 0
+      }
+    ]
+  }
 }

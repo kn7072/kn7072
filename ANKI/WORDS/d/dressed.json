@@ -1,82 +1,168 @@
 {
-    "dressed": {
-        "comment": [
-            "dress",
-            "hairdresser",
-            "dressing"
-        ],
-        "translate": "одетый",
-        "transcription": " |drest|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Go and get dressed!",
-            "Look at the way he's dressed!",
-            "A lady dressed in red",
-            "I dressed quickly.",
-            "He came out dressed in white.",
-            "Dad dressed up as Santa Claus.",
-            "She was dressed very ordinarily.",
-            "She always dressed in good taste.",
-            "Alice dressed swiftly.",
-            "He was smartly dressed.",
-            "Aren't you dressed yet?",
-            "She was dressed in black.",
-            "He was dressed real sharp.",
-            "She always dressed very tight.",
-            "She dressed warmly for skiing.",
-            "She's always expensively dressed.",
-            "I shaved and showered and dressed.",
-            "They dressed themselves in a hurry.",
-            "He was handsome and nicely dressed.",
-            "The twins were dressed alike.",
-            "We were dressed up as pirates.",
-            "We dressed him up as a gorilla.",
-            "I dressed quickly and went out.",
-            "He dressed up in a suit and tie.",
-            "She had arrived dressed in pink.",
-            "She was dressed in black velvet.",
-            "He dressed in a slovenly manner.",
-            "She dressed with simple elegance.",
-            "His widow was dressed in mourning.",
-            "He dressed the child in a snowsuit."
-        ],
-        "example_translate": [
-            "Иди и оденься!",
-            "Посмотри, как он одет!",
-            "Дама, одетая в красное",
-            "Я быстро оделся.",
-            "Он вышел, одетый во всё белое.",
-            "Папа оделся в костюм Санта-Клауса.",
-            "Она была одета очень просто.",
-            "Она всегда одевалась со вкусом.",
-            "Алиса быстро /мгновенно, поспешно/ оделась.",
-            "Он был нарядно одет.",
-            "Ты что, ещё не оделась?",
-            "Она была одета в чёрное.",
-            "Он был очень круто одет.",
-            "Она всегда одевалась очень аккуратно.",
-            "Для катания на лыжах она оделась тепло.",
-            "Она всегда дорого одета. (одета в дорогую одежду)",
-            "Я побрился, принял душ и оделся.",
-            "Они торопливо оделись.",
-            "Он был красив и хорошо одет.",
-            "Близнецы были одеты одинаково.",
-            "На нас были костюмы пиратов.",
-            "Мы одели его в костюм гориллы.",
-            "Я быстро оделся и вышел (на улицу).",
-            "Он нарядился в костюм и галстук.",
-            "Она пришла, одетая в розовое.",
-            "Она была одета в чёрный бархат.",
-            "Он одевался неряшливо.",
-            "Она одевалась с простой элегантностью.",
-            "Его вдова была одета в траур.",
-            "Он одел ребёнка в зимний комбинезон."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "dressed": {
+    "comment": [
+      "dress",
+      "hairdresser",
+      "dressing"
+    ],
+    "translate": "одетый",
+    "transcription": " |drest|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Go and get dressed!",
+        "ru": "Иди и оденься!",
+        "learn": 0
+      },
+      {
+        "eng": "Look at the way he's dressed!",
+        "ru": "Посмотри, как он одет!",
+        "learn": 0
+      },
+      {
+        "eng": "A lady dressed in red",
+        "ru": "Дама, одетая в красное",
+        "learn": 1
+      },
+      {
+        "eng": "I dressed quickly.",
+        "ru": "Я быстро оделся.",
+        "learn": 0
+      },
+      {
+        "eng": "He came out dressed in white.",
+        "ru": "Он вышел, одетый во всё белое.",
+        "learn": 0
+      },
+      {
+        "eng": "Dad dressed up as Santa Claus.",
+        "ru": "Папа оделся в костюм Санта-Клауса.",
+        "learn": 0
+      },
+      {
+        "eng": "She was dressed very ordinarily.",
+        "ru": "Она была одета очень просто.",
+        "learn": 0
+      },
+      {
+        "eng": "She always dressed in good taste.",
+        "ru": "Она всегда одевалась со вкусом.",
+        "learn": 0
+      },
+      {
+        "eng": "Alice dressed swiftly.",
+        "ru": "Алиса быстро /мгновенно, поспешно/ оделась.",
+        "learn": 0
+      },
+      {
+        "eng": "He was smartly dressed.",
+        "ru": "Он был нарядно одет.",
+        "learn": 0
+      },
+      {
+        "eng": "Aren't you dressed yet?",
+        "ru": "Ты что, ещё не оделась?",
+        "learn": 0
+      },
+      {
+        "eng": "She was dressed in black.",
+        "ru": "Она была одета в чёрное.",
+        "learn": 0
+      },
+      {
+        "eng": "He was dressed real sharp.",
+        "ru": "Он был очень круто одет.",
+        "learn": 0
+      },
+      {
+        "eng": "She always dressed very tight.",
+        "ru": "Она всегда одевалась очень аккуратно.",
+        "learn": 0
+      },
+      {
+        "eng": "She dressed warmly for skiing.",
+        "ru": "Для катания на лыжах она оделась тепло.",
+        "learn": 0
+      },
+      {
+        "eng": "She's always expensively dressed.",
+        "ru": "Она всегда дорого одета. (одета в дорогую одежду)",
+        "learn": 0
+      },
+      {
+        "eng": "I shaved and showered and dressed.",
+        "ru": "Я побрился, принял душ и оделся.",
+        "learn": 0
+      },
+      {
+        "eng": "They dressed themselves in a hurry.",
+        "ru": "Они торопливо оделись.",
+        "learn": 0
+      },
+      {
+        "eng": "He was handsome and nicely dressed.",
+        "ru": "Он был красив и хорошо одет.",
+        "learn": 0
+      },
+      {
+        "eng": "The twins were dressed alike.",
+        "ru": "Близнецы были одеты одинаково.",
+        "learn": 0
+      },
+      {
+        "eng": "We were dressed up as pirates.",
+        "ru": "На нас были костюмы пиратов.",
+        "learn": 0
+      },
+      {
+        "eng": "We dressed him up as a gorilla.",
+        "ru": "Мы одели его в костюм гориллы.",
+        "learn": 0
+      },
+      {
+        "eng": "I dressed quickly and went out.",
+        "ru": "Я быстро оделся и вышел (на улицу).",
+        "learn": 0
+      },
+      {
+        "eng": "He dressed up in a suit and tie.",
+        "ru": "Он нарядился в костюм и галстук.",
+        "learn": 0
+      },
+      {
+        "eng": "She had arrived dressed in pink.",
+        "ru": "Она пришла, одетая в розовое.",
+        "learn": 0
+      },
+      {
+        "eng": "She was dressed in black velvet.",
+        "ru": "Она была одета в чёрный бархат.",
+        "learn": 0
+      },
+      {
+        "eng": "He dressed in a slovenly manner.",
+        "ru": "Он одевался неряшливо.",
+        "learn": 0
+      },
+      {
+        "eng": "She dressed with simple elegance.",
+        "ru": "Она одевалась с простой элегантностью.",
+        "learn": 0
+      },
+      {
+        "eng": "His widow was dressed in mourning.",
+        "ru": "Его вдова была одета в траур.",
+        "learn": 1
+      },
+      {
+        "eng": "He dressed the child in a snowsuit.",
+        "ru": "Он одел ребёнка в зимний комбинезон.",
+        "learn": 0
+      }
+    ]
+  }
 }

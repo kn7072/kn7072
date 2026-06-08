@@ -1,89 +1,175 @@
 {
-    "clock": {
-        "comment": [
-            "lock",
-            "o'clock",
-            "block",
-            "locker",
-            "unlock",
-            "flock",
-            "alarm-clock",
-            "cloak"
-        ],
-        "translate": "часы, циферблат, стрелка, спидометр, рожа, хронометрировать, показать время",
-        "transcription": " |klɑːk|",
-        "antonyms": [],
-        "mnemonic": [
-            "clock [клок] часы (не ручные) - В часах(клок)волос нашли."
-        ],
-        "examples": [
-            "The clock says noon.",
-            "The clock doesn't move.",
-            "It's exactly 3 o'clock.",
-            "It's only eight o'clock.",
-            "Is it 5 o'clock already?",
-            "I could hear the clock tick.",
-            "He clocked 3 hours and 15 minutes in his last marathon.",
-            "The clock struck twelve.",
-            "Lessons start at 9 o'clock.",
-            "He has a 10 o'clock curfew.",
-            "It's just on three o'clock.",
-            "It's eleven o'clock at night.",
-            "I'll be done by five o'clock.",
-            "The clock ticked away.",
-            "Prayers are at 8 o'clock.",
-            "He went out at 11 o'clock.",
-            "He clocked up another win.",
-            "What time do you clock off?",
-            "Ten o'clock is good for me.",
-            "The call is for 11 o'clock.",
-            "I heard the clock strike six.",
-            "The film starts at 5 o'clock.",
-            "The film starts at 8 o'clock.",
-            "The clock struck the quarter.",
-            "School lets out at 3 o'clock.",
-            "They quit work at one o'clock.",
-            "She arrived home at 7 o'clock.",
-            "He knew the car had been clocked, but he couldn't prove it.",
-            "The clock boomed out three.",
-            "The clock has a walnut case."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "На часах — полдень.",
-            "Часы не идут.",
-            "Сейчас ровно три часа.",
-            "Сейчас только восемь часов.",
-            "Что, уже пять часов?",
-            "Я слышал, как тикают часы.",
-            "На своём последнем марафоне он показал результат три часа и пятнадцать минут.",
-            "Часы пробили двенадцать.",
-            "Уроки начинаются в девять часов.",
-            "К десяти часам вечера он обязан быть дома.",
-            "Сейчас ровно три часа.",
-            "Одиннадцать часов ночи.",
-            "Я буду готов к пяти часам.",
-            "Часы тикали.",
-            "Молитвы — в восемь часов.",
-            "Он вышел в одиннадцать часов.",
-            "Он одержал ещё одну победу.",
-            "В котором часу ты заканчиваешь работу?",
-            "Десять часов мне подходит.",
-            "Репетиция назначена на 11 часов.",
-            "Я слышал, как часы пробили шесть.",
-            "Фильм начинается в пять часов.",
-            "Фильм начинается в восемь часов.",
-            "Часы пробили четверть.",
-            "Занятия в школе заканчиваются в три часа.",
-            "Они заканчивают работу в час дня.",
-            "Она приехала домой в семь часов.",
-            "Он знал, что автомобиль \"накрутили\", но не мог этого доказать.",
-            "Часы гулко пробили три.",
-            "У этих (настенных) часов — ореховый корпус."
-        ],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "clock": {
+    "comment": [
+      "lock",
+      "o'clock",
+      "block",
+      "locker",
+      "unlock",
+      "flock",
+      "alarm-clock",
+      "cloak"
+    ],
+    "translate": "часы, циферблат, стрелка, спидометр, рожа, хронометрировать, показать время",
+    "transcription": " |klɑːk|",
+    "antonyms": [],
+    "mnemonic": [
+      "clock [клок] часы (не ручные) - В часах(клок)волос нашли."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "The clock says noon.",
+        "ru": "На часах — полдень.",
+        "learn": 0
+      },
+      {
+        "eng": "The clock doesn't move.",
+        "ru": "Часы не идут.",
+        "learn": 0
+      },
+      {
+        "eng": "It's exactly 3 o'clock.",
+        "ru": "Сейчас ровно три часа.",
+        "learn": 0
+      },
+      {
+        "eng": "It's only eight o'clock.",
+        "ru": "Сейчас только восемь часов.",
+        "learn": 0
+      },
+      {
+        "eng": "Is it 5 o'clock already?",
+        "ru": "Что, уже пять часов?",
+        "learn": 0
+      },
+      {
+        "eng": "I could hear the clock tick.",
+        "ru": "Я слышал, как тикают часы.",
+        "learn": 1
+      },
+      {
+        "eng": "He clocked 3 hours and 15 minutes in his last marathon.",
+        "ru": "На своём последнем марафоне он показал результат три часа и пятнадцать минут.",
+        "learn": 0
+      },
+      {
+        "eng": "The clock struck twelve.",
+        "ru": "Часы пробили двенадцать.",
+        "learn": 0
+      },
+      {
+        "eng": "Lessons start at 9 o'clock.",
+        "ru": "Уроки начинаются в девять часов.",
+        "learn": 0
+      },
+      {
+        "eng": "He has a 10 o'clock curfew.",
+        "ru": "К десяти часам вечера он обязан быть дома.",
+        "learn": 0
+      },
+      {
+        "eng": "It's just on three o'clock.",
+        "ru": "Сейчас ровно три часа.",
+        "learn": 1
+      },
+      {
+        "eng": "It's eleven o'clock at night.",
+        "ru": "Одиннадцать часов ночи.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll be done by five o'clock.",
+        "ru": "Я буду готов к пяти часам.",
+        "learn": 0
+      },
+      {
+        "eng": "The clock ticked away.",
+        "ru": "Часы тикали.",
+        "learn": 0
+      },
+      {
+        "eng": "Prayers are at 8 o'clock.",
+        "ru": "Молитвы — в восемь часов.",
+        "learn": 0
+      },
+      {
+        "eng": "He went out at 11 o'clock.",
+        "ru": "Он вышел в одиннадцать часов.",
+        "learn": 0
+      },
+      {
+        "eng": "He clocked up another win.",
+        "ru": "Он одержал ещё одну победу.",
+        "learn": 0
+      },
+      {
+        "eng": "What time do you clock off?",
+        "ru": "В котором часу ты заканчиваешь работу?",
+        "learn": 0
+      },
+      {
+        "eng": "Ten o'clock is good for me.",
+        "ru": "Десять часов мне подходит.",
+        "learn": 0
+      },
+      {
+        "eng": "The call is for 11 o'clock.",
+        "ru": "Репетиция назначена на 11 часов.",
+        "learn": 0
+      },
+      {
+        "eng": "I heard the clock strike six.",
+        "ru": "Я слышал, как часы пробили шесть.",
+        "learn": 0
+      },
+      {
+        "eng": "The film starts at 5 o'clock.",
+        "ru": "Фильм начинается в пять часов.",
+        "learn": 0
+      },
+      {
+        "eng": "The film starts at 8 o'clock.",
+        "ru": "Фильм начинается в восемь часов.",
+        "learn": 1
+      },
+      {
+        "eng": "The clock struck the quarter.",
+        "ru": "Часы пробили четверть.",
+        "learn": 1
+      },
+      {
+        "eng": "School lets out at 3 o'clock.",
+        "ru": "Занятия в школе заканчиваются в три часа.",
+        "learn": 0
+      },
+      {
+        "eng": "They quit work at one o'clock.",
+        "ru": "Они заканчивают работу в час дня.",
+        "learn": 0
+      },
+      {
+        "eng": "She arrived home at 7 o'clock.",
+        "ru": "Она приехала домой в семь часов.",
+        "learn": 0
+      },
+      {
+        "eng": "He knew the car had been clocked, but he couldn't prove it.",
+        "ru": "Он знал, что автомобиль \"накрутили\", но не мог этого доказать.",
+        "learn": 0
+      },
+      {
+        "eng": "The clock boomed out three.",
+        "ru": "Часы гулко пробили три.",
+        "learn": 0
+      },
+      {
+        "eng": "The clock has a walnut case.",
+        "ru": "У этих (настенных) часов — ореховый корпус.",
+        "learn": 0
+      }
+    ]
+  }
 }

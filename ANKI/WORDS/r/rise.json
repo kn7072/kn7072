@@ -1,86 +1,175 @@
 {
-    "rise": {
-        "comment": [
-            "surprised",
-            "surprise",
-            "arise",
-            "raise"
-        ],
-        "translate": "рост, подъем, повышение, увеличение, восход, подниматься, повышаться, возрасти",
-        "transcription": " |raɪz|",
-        "antonyms": [],
-        "mnemonic": [
-            "rise [райз] подниматься - Поднимись в (райс-кие) кущи.",
-            "arise [ə'raɪz]\nrise [raız]\n***\nЧтоб проблем не ВОЗНИКАЛО, ты старайсь. (это) arise\nСолнце ПОДНЯЛОСЬ, и ты старайсь. (это) arise\n***\nДля ПОВЫШЕНИЯ в должности ты старайсь. (это) rise\n***\nДля карьерного роста \"rise\" -\nпросыпайтесь с восходом \"sunrise\"."
-        ],
-        "examples": [
-            "Christ is risen!",
-            "A wind rose.",
-            "The sun also rises.",
-            "My stomach rises.",
-            "He is in line for a pay rise.",
-            "This will arrest the rise in prices.",
-            "The Rhine rises in Switzerland.",
-            "The sun rises in the east.",
-            "The wind rose in the afternoon.",
-            "He got a rise out of her.",
-            "On the third day Jesus rose from the dead.",
-            "The waves rose and fell.",
-            "Prices are expected to rise.",
-            "Temperatures rarely rise above freezing.",
-            "The river had its rise in the mountains.",
-            "He rose to the rank of major.",
-            "The railworkers were offered a 3 % pay rise.",
-            "The cliffs rose above them.",
-            "His voice rose in frustration.",
-            "a tower rising above the little town",
-            "House prices are likely to rise towards the end of this year.",
-            "a politician's rise to fame",
-            "the rise and fall of the tide",
-            "He didn't get his expected pay rise.",
-            "They rose in rebellion against the king.",
-            "Smoke rose from the chimney.",
-            "Tenants face a 20% rent rise.",
-            "Teachers were awarded a 6% pay rise.",
-            "His speech gave rise to a bitter argument.",
-            "The railworkers were offered a 3% pay rise."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Христос воскрес!",
-            "Поднялся ветер.",
-            "\"И восходит солнце\" (роман Э. Хемингуэя)",
-            "Меня тошнит.",
-            "Ему скоро повысят зарплату.",
-            "Это приостановит рост цен.",
-            "Рейн берёт своё начало в Швейцарии.",
-            "Солнце встаёт на Востоке.",
-            "После полудня поднялся ветер.",
-            "Он вызвал её гнев.",
-            "На третий день Иисус воскрес из мёртвых.",
-            "Волны то поднимались, то опускались.",
-            "Предполагается, что цены вырастут.",
-            "Температура редко поднимается выше нуля.",
-            "Река брала своё начало в горах.",
-            "Он дослужился до звания майора.",
-            "Железнодорожникам предложили повышение зарплаты на три процента.",
-            "Скалы возвышались над ними.",
-            "В отчаянии он повысил голос.",
-            "башня, возвышающаяся над городком",
-            "К концу года вероятно повышение цен на дома.",
-            "восхождение политика к славе",
-            "приливы и отливы",
-            "Он не получил ожидаемого повышения зарплаты.",
-            "Они подняли восстание против короля.",
-            "Из трубы поднимался дым.",
-            "Арендаторы сталкиваются с 20% процентным ростом арендной платы.",
-            "Преподаватели были удостоены шестипроцентного повышения заработной платы.",
-            "Его речь породила ожесточённый спор.",
-            "Железнодорожникам предложили повышение зарплаты на три процента."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "rise": {
+    "comment": [
+      "rose |roʊz|,                                          risen |ˈrɪzən|",
+      "surprised",
+      "surprise",
+      "arise",
+      "raise"
+    ],
+    "translate": "рост, подъем, повышение, увеличение, восход, подниматься, повышаться, возрасти",
+    "transcription": " |raɪz|",
+    "antonyms": [],
+    "mnemonic": [
+      "rise [райз] подниматься - Поднимись в (райс-кие) кущи.",
+      "arise [ə'raɪz]\nrise [raız]\n***\nЧтоб проблем не ВОЗНИКАЛО, ты старайсь. (это) arise\nСолнце ПОДНЯЛОСЬ, и ты старайсь. (это) arise\n***\nДля ПОВЫШЕНИЯ в должности ты старайсь. (это) rise\n***\nДля карьерного роста \"rise\" -\nпросыпайтесь с восходом \"sunrise\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "Christ is risen!",
+        "ru": "Христос воскрес!",
+        "learn": 0
+      },
+      {
+        "eng": "A wind rose.",
+        "ru": "Поднялся ветер.",
+        "learn": 0
+      },
+      {
+        "eng": "The sun also rises.",
+        "ru": "\"И восходит солнце\" (роман Э. Хемингуэя)",
+        "learn": 0
+      },
+      {
+        "eng": "My stomach rises.",
+        "ru": "Меня тошнит.",
+        "learn": 0
+      },
+      {
+        "eng": "He is in line for a pay rise.",
+        "ru": "Ему скоро повысят зарплату.",
+        "learn": 0
+      },
+      {
+        "eng": "This will arrest the rise in prices.",
+        "ru": "Это приостановит рост цен.",
+        "learn": 1
+      },
+      {
+        "eng": "The Rhine rises in Switzerland.",
+        "ru": "Рейн берёт своё начало в Швейцарии.",
+        "learn": 0
+      },
+      {
+        "eng": "The sun rises in the east.",
+        "ru": "Солнце встаёт на Востоке.",
+        "learn": 0
+      },
+      {
+        "eng": "The wind rose in the afternoon.",
+        "ru": "После полудня поднялся ветер.",
+        "learn": 0
+      },
+      {
+        "eng": "He got a rise out of her.",
+        "ru": "Он вызвал её гнев.",
+        "learn": 0
+      },
+      {
+        "eng": "On the third day Jesus rose from the dead.",
+        "ru": "На третий день Иисус воскрес из мёртвых.",
+        "learn": 0
+      },
+      {
+        "eng": "The waves rose and fell.",
+        "ru": "Волны то поднимались, то опускались.",
+        "learn": 1
+      },
+      {
+        "eng": "Prices are expected to rise.",
+        "ru": "Предполагается, что цены вырастут.",
+        "learn": 1
+      },
+      {
+        "eng": "Temperatures rarely rise above freezing.",
+        "ru": "Температура редко поднимается выше нуля.",
+        "learn": 1
+      },
+      {
+        "eng": "The river had its rise in the mountains.",
+        "ru": "Река брала своё начало в горах.",
+        "learn": 0
+      },
+      {
+        "eng": "He rose to the rank of major.",
+        "ru": "Он дослужился до звания майора.",
+        "learn": 0
+      },
+      {
+        "eng": "The railworkers were offered a 3 % pay rise.",
+        "ru": "Железнодорожникам предложили повышение зарплаты на три процента.",
+        "learn": 0
+      },
+      {
+        "eng": "The cliffs rose above them.",
+        "ru": "Скалы возвышались над ними.",
+        "learn": 0
+      },
+      {
+        "eng": "His voice rose in frustration.",
+        "ru": "В отчаянии он повысил голос.",
+        "learn": 1
+      },
+      {
+        "eng": "a tower rising above the little town",
+        "ru": "башня, возвышающаяся над городком",
+        "learn": 0
+      },
+      {
+        "eng": "House prices are likely to rise towards the end of this year.",
+        "ru": "К концу года вероятно повышение цен на дома.",
+        "learn": 0
+      },
+      {
+        "eng": "a politician's rise to fame",
+        "ru": "восхождение политика к славе",
+        "learn": 0
+      },
+      {
+        "eng": "the rise and fall of the tide",
+        "ru": "приливы и отливы",
+        "learn": 0
+      },
+      {
+        "eng": "He didn't get his expected pay rise.",
+        "ru": "Он не получил ожидаемого повышения зарплаты.",
+        "learn": 0
+      },
+      {
+        "eng": "They rose in rebellion against the king.",
+        "ru": "Они подняли восстание против короля.",
+        "learn": 0
+      },
+      {
+        "eng": "Smoke rose from the chimney.",
+        "ru": "Из трубы поднимался дым.",
+        "learn": 0
+      },
+      {
+        "eng": "Tenants face a 20% rent rise.",
+        "ru": "Арендаторы сталкиваются с 20% процентным ростом арендной платы.",
+        "learn": 0
+      },
+      {
+        "eng": "Teachers were awarded a 6% pay rise.",
+        "ru": "Преподаватели были удостоены шестипроцентного повышения заработной платы.",
+        "learn": 0
+      },
+      {
+        "eng": "His speech gave rise to a bitter argument.",
+        "ru": "Его речь породила ожесточённый спор.",
+        "learn": 0
+      },
+      {
+        "eng": "The railworkers were offered a 3% pay rise.",
+        "ru": "Железнодорожникам предложили повышение зарплаты на три процента.",
+        "learn": 0
+      }
+    ]
+  }
 }

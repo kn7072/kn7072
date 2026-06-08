@@ -1,85 +1,172 @@
 {
-    "share": {
-        "comment": [
-            "shark",
-            "shareholder"
-        ],
-        "translate": "доля, акция, часть, участие, пай, лемех, сошник, делить, делиться, разделять, участвовать",
-        "transcription": " |ʃer|",
-        "antonyms": [],
-        "mnemonic": [
-            "share [шэ'я] делить, доля - (Шея) жирафа поделена хищниками.",
-            "share [∫ɛə]\n***\nРАЗДЕЛИШЬ нечестно - получишь по шее. (это) share\nЧАСТЬ свою несу на шее. (это) share\nИСПОЛЬЗОВАТЬ СОВМЕСТНО - себе хомут на шею.\n(это) share\nДоля, часть, квота, участие."
-        ],
-        "examples": [
-            "I share your opinion.",
-            "They shared the last cookie.",
-            "I'd like to share this idea with you.",
-            "Shall we share the driving?",
-            "Our children share a love of music.",
-            "All of us had a share in making the decision.",
-            "We'll share it on a fifty-fifty basis.",
-            "We shared the cake.",
-            "They must share the blame.",
-            "We share the domestic chores.",
-            "Share prices will be down until the economy recovers.",
-            "They offered 40 cents a share.",
-            "He necked a good share of beer.",
-            "The stock traded around $20 a share.",
-            "Bill and I shared an office for years.",
-            "I share your concern about these problems.",
-            "The company's share price dived 19 % overnight.",
-            "Newspapers help us to share in the events of the outside world.",
-            "It was my understanding that we would share the expenses.",
-            "Henry came in for a large share of his father's fortune.",
-            "He gypped me out of my share.",
-            "Share prices are down in London.",
-            "All your neighbours share in your sorrow at the loss of your son.",
-            "I don't grudge paying my share.",
-            "A plan was brought forward to allow workers to share in the profits.",
-            "We share a commitment to human rights.",
-            "They share my strong conviction that the policy is misguided.",
-            "Share prices snapped back when the good news reached possible buyers.",
-            "She has had her fair share of tragedies in her life.",
-            "Each investor will receive a proportionate share of the profits."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я разделяю ваше мнение.",
-            "Они разделили последнее печенье.",
-            "Я хотел бы поделиться этой идеей с вами.",
-            "Мы поведём машину по очереди?",
-            "Наших детей объединяет любовь к музыке.",
-            "В принятии данного решения приняли участие все мы.",
-            "Мы разделим его ровно пополам.",
-            "Торт мы разделили.",
-            "Они должны разделить вину за это между собой.",
-            "Мы разделяем домашние обязанности.",
-            "Цены на акции будут низкими, пока экономика не восстановится.",
-            "Они предложили сорок центов за акцию.",
-            "Он отпил приличную порцию пива.",
-            "Акции торговались долларов по двадцать за штуку.",
-            "Мы с Биллом много лет работали в одном кабинете.",
-            "Я разделяю вашу озабоченность относительно этих проблем.",
-            "Акции компании мгновенно упали на девятнадцать процентов.",
-            "Газеты помогают нам быть причастными к происходящим в мире событиям.",
-            "Я так понял, что мы вместе возьмём на себя расходы.",
-            "Генри получил большую часть отцовского наследства.",
-            "Он украл у меня мою долю.",
-            "В Лондоне снизились цены на акции.",
-            "Все соседи разделяют ваше горе в связи с потерей сына.",
-            "Мне не жалко платить свою долю.",
-            "Был предложен план, по которому рабочие получали проценты с дохода компании.",
-            "И вы, и мы верим в права человека. / Мы с вами разделяем веру в права человека.",
-            "Они разделяют моё твердое убеждение, что такая политика ошибочна.",
-            "Цены на акции быстро восстановились после того, как добрая весть дошла до потенциальных покупателей.",
-            "На её долю выпало с лихвой несчастий.",
-            "Каждый инвестор /вкладчик/ получит пропорциональную долю прибыли."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "-are_=_[er]"
-        ]
-    }
+  "share": {
+    "comment": [
+      "shark",
+      "shareholder"
+    ],
+    "translate": "доля, акция, часть, участие, пай, лемех, сошник, делить, делиться, разделять, участвовать",
+    "transcription": " |ʃer|",
+    "antonyms": [],
+    "mnemonic": [
+      "share [шэ'я] делить, доля - (Шея) жирафа поделена хищниками.",
+      "share [∫ɛə]\n***\nРАЗДЕЛИШЬ нечестно - получишь по шее. (это) share\nЧАСТЬ свою несу на шее. (это) share\nИСПОЛЬЗОВАТЬ СОВМЕСТНО - себе хомут на шею.\n(это) share\nДоля, часть, квота, участие."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "-are_=_[er]"
+    ],
+    "examples": [
+      {
+        "eng": "I share your opinion.",
+        "ru": "Я разделяю ваше мнение.",
+        "learn": 1
+      },
+      {
+        "eng": "They shared the last cookie.",
+        "ru": "Они разделили последнее печенье.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd like to share this idea with you.",
+        "ru": "Я хотел бы поделиться этой идеей с вами.",
+        "learn": 0
+      },
+      {
+        "eng": "Shall we share the driving?",
+        "ru": "Мы поведём машину по очереди?",
+        "learn": 0
+      },
+      {
+        "eng": "Our children share a love of music.",
+        "ru": "Наших детей объединяет любовь к музыке.",
+        "learn": 0
+      },
+      {
+        "eng": "All of us had a share in making the decision.",
+        "ru": "В принятии данного решения приняли участие все мы.",
+        "learn": 0
+      },
+      {
+        "eng": "We'll share it on a fifty-fifty basis.",
+        "ru": "Мы разделим его ровно пополам.",
+        "learn": 0
+      },
+      {
+        "eng": "We shared the cake.",
+        "ru": "Торт мы разделили.",
+        "learn": 0
+      },
+      {
+        "eng": "They must share the blame.",
+        "ru": "Они должны разделить вину за это между собой.",
+        "learn": 0
+      },
+      {
+        "eng": "We share the domestic chores.",
+        "ru": "Мы разделяем домашние обязанности.",
+        "learn": 0
+      },
+      {
+        "eng": "Share prices will be down until the economy recovers.",
+        "ru": "Цены на акции будут низкими, пока экономика не восстановится.",
+        "learn": 1
+      },
+      {
+        "eng": "They offered 40 cents a share.",
+        "ru": "Они предложили сорок центов за акцию.",
+        "learn": 0
+      },
+      {
+        "eng": "He necked a good share of beer.",
+        "ru": "Он отпил приличную порцию пива.",
+        "learn": 0
+      },
+      {
+        "eng": "The stock traded around $20 a share.",
+        "ru": "Акции торговались долларов по двадцать за штуку.",
+        "learn": 0
+      },
+      {
+        "eng": "Bill and I shared an office for years.",
+        "ru": "Мы с Биллом много лет работали в одном кабинете.",
+        "learn": 0
+      },
+      {
+        "eng": "I share your concern about these problems.",
+        "ru": "Я разделяю вашу озабоченность относительно этих проблем.",
+        "learn": 1
+      },
+      {
+        "eng": "The company's share price dived 19 % overnight.",
+        "ru": "Акции компании мгновенно упали на девятнадцать процентов.",
+        "learn": 0
+      },
+      {
+        "eng": "Newspapers help us to share in the events of the outside world.",
+        "ru": "Газеты помогают нам быть причастными к происходящим в мире событиям.",
+        "learn": 0
+      },
+      {
+        "eng": "It was my understanding that we would share the expenses.",
+        "ru": "Я так понял, что мы вместе возьмём на себя расходы.",
+        "learn": 0
+      },
+      {
+        "eng": "Henry came in for a large share of his father's fortune.",
+        "ru": "Генри получил большую часть отцовского наследства.",
+        "learn": 0
+      },
+      {
+        "eng": "He gypped me out of my share.",
+        "ru": "Он украл у меня мою долю.",
+        "learn": 0
+      },
+      {
+        "eng": "Share prices are down in London.",
+        "ru": "В Лондоне снизились цены на акции.",
+        "learn": 0
+      },
+      {
+        "eng": "All your neighbours share in your sorrow at the loss of your son.",
+        "ru": "Все соседи разделяют ваше горе в связи с потерей сына.",
+        "learn": 0
+      },
+      {
+        "eng": "I don't grudge paying my share.",
+        "ru": "Мне не жалко платить свою долю.",
+        "learn": 0
+      },
+      {
+        "eng": "A plan was brought forward to allow workers to share in the profits.",
+        "ru": "Был предложен план, по которому рабочие получали проценты с дохода компании.",
+        "learn": 0
+      },
+      {
+        "eng": "We share a commitment to human rights.",
+        "ru": "И вы, и мы верим в права человека. / Мы с вами разделяем веру в права человека.",
+        "learn": 0
+      },
+      {
+        "eng": "They share my strong conviction that the policy is misguided.",
+        "ru": "Они разделяют моё твердое убеждение, что такая политика ошибочна.",
+        "learn": 0
+      },
+      {
+        "eng": "Share prices snapped back when the good news reached possible buyers.",
+        "ru": "Цены на акции быстро восстановились после того, как добрая весть дошла до потенциальных покупателей.",
+        "learn": 0
+      },
+      {
+        "eng": "She has had her fair share of tragedies in her life.",
+        "ru": "На её долю выпало с лихвой несчастий.",
+        "learn": 0
+      },
+      {
+        "eng": "Each investor will receive a proportionate share of the profits.",
+        "ru": "Каждый инвестор /вкладчик/ получит пропорциональную долю прибыли.",
+        "learn": 1
+      }
+    ]
+  }
 }

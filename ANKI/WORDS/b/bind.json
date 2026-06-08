@@ -1,84 +1,173 @@
 {
-    "bind": {
-        "comment": [
-            "bin",
-            "binding"
-        ],
-        "translate": "связывать, связать, привязывать, лигатура",
-        "transcription": " |baɪnd|",
-        "antonyms": [],
-        "mnemonic": [
-            "bind [ба'янд] связывать, привязывать - (Байнд-иты*) связали своих жертв (*Банди- ты).",
-            "bind [baınd]\n***\nИ косит, и СВЯЗЫВАЕТ комбайн (д). (это) bind\nСвязывание, путы."
-        ],
-        "examples": [
-            "They bound his legs tight.",
-            "She bound her hair in a ponytail.",
-            "Sure bind, sure find.",
-            "I don't want to bind you down., feel free to use your own ideas.",
-            "A fillet binds her hair.",
-            "You will need beaten egg to bind.",
-            "This fruit binds the bowels.",
-            "This problem is bound up with many others.",
-            "Give me another horse and bind up my wounds.",
-            "The hydrogen binds the oxygen.",
-            "I have no official business to bind me.",
-            "The pile of newspapers was bound with string.",
-            "They bound my arms and legs with rope.",
-            "He was bound to the mast of his ship.",
-            "The ties that bind them together are loosening.",
-            "The prisoner was bound to a post and shot.",
-            "We must bind the members of the committee to secrecy.",
-            "Eddy's been binding to Vic about you.",
-            "A shilling is passed to bind the bargain.",
-            "They bind and cock barley as they do wheat and rye.",
-            "Bind them fast to their chairs that they shall not wag.",
-            "The firm has agreed to bind up the six articles into one book.",
-            "Parcels must be properly bound up for posting to other countries.",
-            "High Court judges are bound by the decisions of the House of Lords.",
-            "Every county is bound to repair the highways which passed through it.",
-            "The sticks of wood were bound together in bunches.",
-            "The machine binds the hay into bales.",
-            "Surprise him first, and with hard fetters bind.",
-            "The youngest son was bound to a master builder for seven years.",
-            "The future of the island is bound up with the fortunes of the ruling power."
-        ],
-        "example_translate": [
-            "Они крепко связали его ноги. / Ему крепко связали ноги.",
-            "Она собрала свои волосы в хвост.",
-            "Крепче запрёшь, вернее найдёшь. (посл.)",
-            "Я не хочу вас ограничивать, реализуйте свои собственные идеи.",
-            "Её волосы собраны в хвост и стянуты лентой.",
-            "Чтобы всё схватилось, вам понадобятся взбитые яйца.",
-            "Этот фрукт крепит.",
-            "Эта проблема связана со многими другими.",
-            "Дайте мне свежую лошадь и перевяжите мои раны.",
-            "Водород связывает кислород.",
-            "Я не связан никакими служебными делами.",
-            "Стопка газет была обвязана бечёвкой.",
-            "Они связали мои руки и ноги верёвкой.",
-            "Он был привязан к мачте своего корабля.",
-            "Связывающие их узы постепенно ослабевают.",
-            "Приговорённого привязали к столбу и расстреляли.",
-            "Мы должны обязать членов комитета хранить тайну.",
-            "Эдди тут рассказывал Вику про твои делишки.",
-            "Для скрепления сделки передаётся шиллинг.",
-            "Они вяжут ячмень в снопы и складывают в стога так же, как пшеницу и рожь.",
-            "Привяжи их крепко к стульям, чтобы они не смогли пошевелиться.",
-            "Фирма согласилась издать эти шесть статей одной книгой.",
-            "Для отправки за границу посылки должны быть соответствующим образом упакованы.",
-            "Судьи Верховного суда обязаны считаться с решениями палаты лордов.",
-            "Каждое графство обязано поддерживать в хорошем состоянии дороги, которые проходят через него.",
-            "Хворост был связан в вязанки.",
-            "Данный механизм связывает сено в тюки.",
-            "Сначала застань его врасплох, а затем закуй в тяжёлые кандалы.",
-            "Самый младший сын был отдан в обучение главному строителю на семь лет.",
-            "Будущее острова связано с судьбами его правителей."
-        ],
-        "synonyms": [],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "bind": {
+    "comment": [
+      "bound |baʊnd|,                                          bound |baʊnd|",
+      "bin",
+      "binding"
+    ],
+    "translate": "связывать, связать, привязывать, лигатура",
+    "transcription": " |baɪnd|",
+    "antonyms": [],
+    "mnemonic": [
+      "bind [ба'янд] связывать, привязывать - (Байнд-иты*) связали своих жертв (*Банди- ты).",
+      "bind [baınd]\n***\nИ косит, и СВЯЗЫВАЕТ комбайн (д). (это) bind\nСвязывание, путы."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "irregular_verb"
+    ],
+    "examples": [
+      {
+        "eng": "They bound his legs tight.",
+        "ru": "Они крепко связали его ноги. / Ему крепко связали ноги.",
+        "learn": 0
+      },
+      {
+        "eng": "She bound her hair in a ponytail.",
+        "ru": "Она собрала свои волосы в хвост.",
+        "learn": 0
+      },
+      {
+        "eng": "Sure bind, sure find.",
+        "ru": "Крепче запрёшь, вернее найдёшь. (посл.)",
+        "learn": 0
+      },
+      {
+        "eng": "I don't want to bind you down., feel free to use your own ideas.",
+        "ru": "Я не хочу вас ограничивать, реализуйте свои собственные идеи.",
+        "learn": 0
+      },
+      {
+        "eng": "A fillet binds her hair.",
+        "ru": "Её волосы собраны в хвост и стянуты лентой.",
+        "learn": 0
+      },
+      {
+        "eng": "You will need beaten egg to bind.",
+        "ru": "Чтобы всё схватилось, вам понадобятся взбитые яйца.",
+        "learn": 0
+      },
+      {
+        "eng": "This fruit binds the bowels.",
+        "ru": "Этот фрукт крепит.",
+        "learn": 0
+      },
+      {
+        "eng": "This problem is bound up with many others.",
+        "ru": "Эта проблема связана со многими другими.",
+        "learn": 0
+      },
+      {
+        "eng": "Give me another horse and bind up my wounds.",
+        "ru": "Дайте мне свежую лошадь и перевяжите мои раны.",
+        "learn": 0
+      },
+      {
+        "eng": "The hydrogen binds the oxygen.",
+        "ru": "Водород связывает кислород.",
+        "learn": 0
+      },
+      {
+        "eng": "I have no official business to bind me.",
+        "ru": "Я не связан никакими служебными делами.",
+        "learn": 0
+      },
+      {
+        "eng": "The pile of newspapers was bound with string.",
+        "ru": "Стопка газет была обвязана бечёвкой.",
+        "learn": 0
+      },
+      {
+        "eng": "They bound my arms and legs with rope.",
+        "ru": "Они связали мои руки и ноги верёвкой.",
+        "learn": 1
+      },
+      {
+        "eng": "He was bound to the mast of his ship.",
+        "ru": "Он был привязан к мачте своего корабля.",
+        "learn": 0
+      },
+      {
+        "eng": "The ties that bind them together are loosening.",
+        "ru": "Связывающие их узы постепенно ослабевают.",
+        "learn": 0
+      },
+      {
+        "eng": "The prisoner was bound to a post and shot.",
+        "ru": "Приговорённого привязали к столбу и расстреляли.",
+        "learn": 1
+      },
+      {
+        "eng": "We must bind the members of the committee to secrecy.",
+        "ru": "Мы должны обязать членов комитета хранить тайну.",
+        "learn": 0
+      },
+      {
+        "eng": "Eddy's been binding to Vic about you.",
+        "ru": "Эдди тут рассказывал Вику про твои делишки.",
+        "learn": 0
+      },
+      {
+        "eng": "A shilling is passed to bind the bargain.",
+        "ru": "Для скрепления сделки передаётся шиллинг.",
+        "learn": 0
+      },
+      {
+        "eng": "They bind and cock barley as they do wheat and rye.",
+        "ru": "Они вяжут ячмень в снопы и складывают в стога так же, как пшеницу и рожь.",
+        "learn": 0
+      },
+      {
+        "eng": "Bind them fast to their chairs that they shall not wag.",
+        "ru": "Привяжи их крепко к стульям, чтобы они не смогли пошевелиться.",
+        "learn": 0
+      },
+      {
+        "eng": "The firm has agreed to bind up the six articles into one book.",
+        "ru": "Фирма согласилась издать эти шесть статей одной книгой.",
+        "learn": 0
+      },
+      {
+        "eng": "Parcels must be properly bound up for posting to other countries.",
+        "ru": "Для отправки за границу посылки должны быть соответствующим образом упакованы.",
+        "learn": 0
+      },
+      {
+        "eng": "High Court judges are bound by the decisions of the House of Lords.",
+        "ru": "Судьи Верховного суда обязаны считаться с решениями палаты лордов.",
+        "learn": 0
+      },
+      {
+        "eng": "Every county is bound to repair the highways which passed through it.",
+        "ru": "Каждое графство обязано поддерживать в хорошем состоянии дороги, которые проходят через него.",
+        "learn": 0
+      },
+      {
+        "eng": "The sticks of wood were bound together in bunches.",
+        "ru": "Хворост был связан в вязанки.",
+        "learn": 0
+      },
+      {
+        "eng": "The machine binds the hay into bales.",
+        "ru": "Данный механизм связывает сено в тюки.",
+        "learn": 0
+      },
+      {
+        "eng": "Surprise him first, and with hard fetters bind.",
+        "ru": "Сначала застань его врасплох, а затем закуй в тяжёлые кандалы.",
+        "learn": 0
+      },
+      {
+        "eng": "The youngest son was bound to a master builder for seven years.",
+        "ru": "Самый младший сын был отдан в обучение главному строителю на семь лет.",
+        "learn": 0
+      },
+      {
+        "eng": "The future of the island is bound up with the fortunes of the ruling power.",
+        "ru": "Будущее острова связано с судьбами его правителей.",
+        "learn": 0
+      }
+    ]
+  }
 }

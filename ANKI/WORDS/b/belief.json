@@ -1,82 +1,169 @@
 {
-    "belief": {
-        "comment": [
-            "believe",
-            "unbelievable"
-        ],
-        "translate": "вера, убеждение, мнение, верование, доверие",
-        "transcription": " |bɪˈliːf|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "It is my firm belief.",
-            "Nothing will shake his belief in ghosts.",
-            "His belief in God governs his conduct.",
-            "Nothing could shake his belief in God.",
-            "There is no warrant for such a belief.",
-            "It is their firm belief that the earth is flat.",
-            "He had a passionate belief in justice.",
-            "his belief in God and a life hereafter",
-            "Her belief that she can sing is a mere fancy.",
-            "a naive belief that all people are good",
-            "the belief that pornography depraves society as a whole",
-            "the firm belief that no juvenile delinquent is irremediable",
-            "What she did was stupid beyond belief.",
-            "Belief in the utility of higher education is shared by students nationwide.",
-            "There is a belief that village life is somehow morally superior to city life.",
-            "Other parents share her belief in the importance of reading.",
-            "two very different people unified by a common belief",
-            "He gets angry if anyone challenges his religious beliefs.",
-            "She held fast to her belief in justice.",
-            "He remained unshaken in his belief that she was wrong.",
-            "They showed a lack of common sense that beggars belief.",
-            "the common belief that gambling casinos are often crooked businesses",
-            "the belief that God is immanent in all things, even insensate objects",
-            "the belief that limbo is the place where sinless but unbaptized souls abide until Judgment Day",
-            "We challenged his beliefs about religion.",
-            "It strengthened my belief in his sincerity.",
-            "Several members hold very right-wing beliefs.",
-            "a deeply entrenched belief in male superiority",
-            "Contrary to popular belief, a desert can be very cold.",
-            "a belief that the universe is a mechanical contrivance"
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я твёрдо в это верю.",
-            "Ничто не заставит его отказаться от веры в привидения.",
-            "Его поступками управляет вера в бога.",
-            "Ничто не могло поколебать его веру в бога.",
-            "Это убеждение совершенно необоснованно.",
-            "Они твёрдо убеждены, что земля плоская.",
-            "Он горячо верил в справедливость.",
-            "его вера в бога и загробную жизнь",
-            "Её убеждённость в своём умении петь — не более чем фантазия.",
-            "наивная вера в то, что все люди — хорошие",
-            "убеждённость в том, что порнография развращает всё общество в целом",
-            "твёрдая вера в то, что неисправимых малолетних преступников не бывает",
-            "То, что она сделала, было невероятно тупо.",
-            "Студенты всей страны разделяют убеждение о полезности высшего образования.",
-            "Существует мнение, что деревенская жизнь почему-то более нравственна, чем жизнь в большом городе.",
-            "Другие родители разделяют ее убёжденность в важности чтения.",
-            "два очень разных народа, объединённые общей верой",
-            "Он сердится, если кто-то бросает вызов его религиозным убеждениям.",
-            "Она твёрдо верила в справедливость.",
-            "Он оставался непоколебим в своём убеждении в том, что она неправа.",
-            "Они показали такое отсутствие здравого смысла, что даже не верится.",
-            "общее убеждение в том, что игровой бизнес связан с тёмными делишками",
-            "вера в то, что бог присутствует во всём, даже в неодушевлённых предметах",
-            "убеждённость в том, что чистилище — это место, где безгрешные, но некрещёные души пребывают до Судного дня",
-            "Мы раскритиковали его убеждения по поводу религии.",
-            "Это укрепило моё убеждение в его искренности.",
-            "Некоторые участники придерживаются крайне правых взглядов.",
-            "глубоко укоренившаяся вера в мужское превосходство",
-            "Вопреки распространённому мнению, в пустыне может быть очень холодно.",
-            "убеждение в том, что Вселенная представляет собой некое механическое приспособление"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ie_=_[iː]"
-        ]
-    }
+  "belief": {
+    "comment": [
+      "believe",
+      "unbelievable"
+    ],
+    "translate": "вера, убеждение, мнение, верование, доверие",
+    "transcription": " |bɪˈliːf|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ie_=_[iː]"
+    ],
+    "examples": [
+      {
+        "eng": "It is my firm belief.",
+        "ru": "Я твёрдо в это верю.",
+        "learn": 0
+      },
+      {
+        "eng": "Nothing will shake his belief in ghosts.",
+        "ru": "Ничто не заставит его отказаться от веры в привидения.",
+        "learn": 0
+      },
+      {
+        "eng": "His belief in God governs his conduct.",
+        "ru": "Его поступками управляет вера в бога.",
+        "learn": 0
+      },
+      {
+        "eng": "Nothing could shake his belief in God.",
+        "ru": "Ничто не могло поколебать его веру в бога.",
+        "learn": 1
+      },
+      {
+        "eng": "There is no warrant for such a belief.",
+        "ru": "Это убеждение совершенно необоснованно.",
+        "learn": 0
+      },
+      {
+        "eng": "It is their firm belief that the earth is flat.",
+        "ru": "Они твёрдо убеждены, что земля плоская.",
+        "learn": 0
+      },
+      {
+        "eng": "He had a passionate belief in justice.",
+        "ru": "Он горячо верил в справедливость.",
+        "learn": 1
+      },
+      {
+        "eng": "his belief in God and a life hereafter",
+        "ru": "его вера в бога и загробную жизнь",
+        "learn": 0
+      },
+      {
+        "eng": "Her belief that she can sing is a mere fancy.",
+        "ru": "Её убеждённость в своём умении петь — не более чем фантазия.",
+        "learn": 1
+      },
+      {
+        "eng": "a naive belief that all people are good",
+        "ru": "наивная вера в то, что все люди — хорошие",
+        "learn": 0
+      },
+      {
+        "eng": "the belief that pornography depraves society as a whole",
+        "ru": "убеждённость в том, что порнография развращает всё общество в целом",
+        "learn": 0
+      },
+      {
+        "eng": "the firm belief that no juvenile delinquent is irremediable",
+        "ru": "твёрдая вера в то, что неисправимых малолетних преступников не бывает",
+        "learn": 0
+      },
+      {
+        "eng": "What she did was stupid beyond belief.",
+        "ru": "То, что она сделала, было невероятно тупо.",
+        "learn": 0
+      },
+      {
+        "eng": "Belief in the utility of higher education is shared by students nationwide.",
+        "ru": "Студенты всей страны разделяют убеждение о полезности высшего образования.",
+        "learn": 1
+      },
+      {
+        "eng": "There is a belief that village life is somehow morally superior to city life.",
+        "ru": "Существует мнение, что деревенская жизнь почему-то более нравственна, чем жизнь в большом городе.",
+        "learn": 0
+      },
+      {
+        "eng": "Other parents share her belief in the importance of reading.",
+        "ru": "Другие родители разделяют ее убёжденность в важности чтения.",
+        "learn": 0
+      },
+      {
+        "eng": "two very different people unified by a common belief",
+        "ru": "два очень разных народа, объединённые общей верой",
+        "learn": 0
+      },
+      {
+        "eng": "He gets angry if anyone challenges his religious beliefs.",
+        "ru": "Он сердится, если кто-то бросает вызов его религиозным убеждениям.",
+        "learn": 0
+      },
+      {
+        "eng": "She held fast to her belief in justice.",
+        "ru": "Она твёрдо верила в справедливость.",
+        "learn": 0
+      },
+      {
+        "eng": "He remained unshaken in his belief that she was wrong.",
+        "ru": "Он оставался непоколебим в своём убеждении в том, что она неправа.",
+        "learn": 0
+      },
+      {
+        "eng": "They showed a lack of common sense that beggars belief.",
+        "ru": "Они показали такое отсутствие здравого смысла, что даже не верится.",
+        "learn": 0
+      },
+      {
+        "eng": "the common belief that gambling casinos are often crooked businesses",
+        "ru": "общее убеждение в том, что игровой бизнес связан с тёмными делишками",
+        "learn": 0
+      },
+      {
+        "eng": "the belief that God is immanent in all things, even insensate objects",
+        "ru": "вера в то, что бог присутствует во всём, даже в неодушевлённых предметах",
+        "learn": 0
+      },
+      {
+        "eng": "the belief that limbo is the place where sinless but unbaptized souls abide until Judgment Day",
+        "ru": "убеждённость в том, что чистилище — это место, где безгрешные, но некрещёные души пребывают до Судного дня",
+        "learn": 0
+      },
+      {
+        "eng": "We challenged his beliefs about religion.",
+        "ru": "Мы раскритиковали его убеждения по поводу религии.",
+        "learn": 0
+      },
+      {
+        "eng": "It strengthened my belief in his sincerity.",
+        "ru": "Это укрепило моё убеждение в его искренности.",
+        "learn": 0
+      },
+      {
+        "eng": "Several members hold very right-wing beliefs.",
+        "ru": "Некоторые участники придерживаются крайне правых взглядов.",
+        "learn": 0
+      },
+      {
+        "eng": "a deeply entrenched belief in male superiority",
+        "ru": "глубоко укоренившаяся вера в мужское превосходство",
+        "learn": 0
+      },
+      {
+        "eng": "Contrary to popular belief, a desert can be very cold.",
+        "ru": "Вопреки распространённому мнению, в пустыне может быть очень холодно.",
+        "learn": 0
+      },
+      {
+        "eng": "a belief that the universe is a mechanical contrivance",
+        "ru": "убеждение в том, что Вселенная представляет собой некое механическое приспособление",
+        "learn": 0
+      }
+    ]
+  }
 }

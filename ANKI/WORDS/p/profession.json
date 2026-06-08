@@ -1,81 +1,167 @@
 {
-    "profession": {
-        "comment": [
-            "professional",
-            "professor"
-        ],
-        "translate": "профессия, исповедание, обет, профессиональный",
-        "transcription": " |prəˈfeʃn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "She's a lawyer by profession.",
-            "Teaching as a profession is very underpaid.",
-            "Here is Mr. Black, the leader of his profession.",
-            "Lear asks each daughter to make a profession of her love for him.",
-            "at the top of his profession",
-            "people of high rank and profession",
-            "There is a need to raise morale in the teaching profession.",
-            "She's a credit to her profession.",
-            "He is an ornament to his profession.",
-            "Johnson was a barrister by profession.",
-            "Robert Key was a teacher by profession.",
-            "Rose's return to the teaching profession",
-            "He has reached the top of his profession.",
-            "Her skill and talent ennoble her profession.",
-            "You are a disgrace to the medical profession.",
-            "He had a deep mistrust of the legal profession.",
-            "He battled his way to the top of his profession.",
-            "Pedagogy is recognized as an important profession.",
-            "It's a profession that is very hard to break into.",
-            "The news spread rapidly through the medical profession.",
-            "My father didn't think acting was an honorable profession.",
-            "There is concern over the bad image of the legal profession.",
-            "The young geisha was inducted into the ways of her profession.",
-            "He envies her the position she has achieved in her profession.",
-            "Such shameless ambulance chasing cankers the legal profession.",
-            "Most professions in the medical field require years of training.",
-            "Their daughter recently became a member of the medical profession.",
-            "Some students enter other professions such as arts administration.",
-            "We want all our students to achieve within their chosen profession.",
-            "For some reason, Malcolm had a down on the whole teaching profession."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "По профессии она юрист.",
-            "Учитель — крайне низкооплачиваемая профессия.",
-            "Это мистер Блэк, настоящий профессионал в своём деле.",
-            "Лир попросил каждую дочь выразить ее любовь в нему.",
-            "на вершине своей профессии",
-            "люди высокого звания и профессии",
-            "Необходимо поднять боевой дух среди учителей.",
-            "Она делает честь своей профессии.",
-            "Он украшение своей профессии.",
-            "По профессии Джонсон был адвокатом.",
-            "Роберт Ки был преподавателем по профессии.",
-            "возвращение Роуз к профессии преподавателя",
-            "Он достиг вершины в своей профессии.",
-            "Её мастерство и талант облагораживают её профессию.",
-            "Вы позорите медицинскую профессию.",
-            "Он испытывал глубокое недоверие ко всем юристам без исключения.",
-            "Он упорно двигался по карьерной лестнице.",
-            "Педагогика признана важной профессией.",
-            "Это профессия, в которой очень трудно пробиться. (трудно стать заметной фигурой в данной профессии)",
-            "Эти новости быстро распространились в медицинской среде.",
-            "Мой отец не считал профессию актёра достойным занятием.",
-            "Существует озабоченность по поводу плохого имиджа профессии юриста.",
-            "Юную гейшу посвятили в тонкости её профессии.",
-            "Он завидует служебному положению, которого она достигла.",
-            "Такие бессовестные адвокаты, навязывающие свои услуги пострадавшим в несчастных случаях, компрометируют профессию юриста.",
-            "Большинство профессий в сфере медицины требуют многолетней подготовки.",
-            "Их дочь недавно стала медиком. (досл. представителем медицинской профессии)",
-            "Некоторые студенты выбирают другие профессии, например, управление в области искусства.",
-            "Мы хотим, чтобы все наши студенты добились успехов в рамках выбранной ими профессии.",
-            "Малькольм по какой-то причине испытывал неприязнь ко всем учителям."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "profession": {
+    "comment": [
+      "professional",
+      "professor"
+    ],
+    "translate": "профессия, исповедание, обет, профессиональный",
+    "transcription": " |prəˈfeʃn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "She's a lawyer by profession.",
+        "ru": "По профессии она юрист.",
+        "learn": 0
+      },
+      {
+        "eng": "Teaching as a profession is very underpaid.",
+        "ru": "Учитель — крайне низкооплачиваемая профессия.",
+        "learn": 0
+      },
+      {
+        "eng": "Here is Mr. Black, the leader of his profession.",
+        "ru": "Это мистер Блэк, настоящий профессионал в своём деле.",
+        "learn": 0
+      },
+      {
+        "eng": "Lear asks each daughter to make a profession of her love for him.",
+        "ru": "Лир попросил каждую дочь выразить ее любовь в нему.",
+        "learn": 0
+      },
+      {
+        "eng": "at the top of his profession",
+        "ru": "на вершине своей профессии",
+        "learn": 0
+      },
+      {
+        "eng": "people of high rank and profession",
+        "ru": "люди высокого звания и профессии",
+        "learn": 0
+      },
+      {
+        "eng": "There is a need to raise morale in the teaching profession.",
+        "ru": "Необходимо поднять боевой дух среди учителей.",
+        "learn": 1
+      },
+      {
+        "eng": "She's a credit to her profession.",
+        "ru": "Она делает честь своей профессии.",
+        "learn": 0
+      },
+      {
+        "eng": "He is an ornament to his profession.",
+        "ru": "Он украшение своей профессии.",
+        "learn": 0
+      },
+      {
+        "eng": "Johnson was a barrister by profession.",
+        "ru": "По профессии Джонсон был адвокатом.",
+        "learn": 1
+      },
+      {
+        "eng": "Robert Key was a teacher by profession.",
+        "ru": "Роберт Ки был преподавателем по профессии.",
+        "learn": 0
+      },
+      {
+        "eng": "Rose's return to the teaching profession",
+        "ru": "возвращение Роуз к профессии преподавателя",
+        "learn": 0
+      },
+      {
+        "eng": "He has reached the top of his profession.",
+        "ru": "Он достиг вершины в своей профессии.",
+        "learn": 1
+      },
+      {
+        "eng": "Her skill and talent ennoble her profession.",
+        "ru": "Её мастерство и талант облагораживают её профессию.",
+        "learn": 0
+      },
+      {
+        "eng": "You are a disgrace to the medical profession.",
+        "ru": "Вы позорите медицинскую профессию.",
+        "learn": 0
+      },
+      {
+        "eng": "He had a deep mistrust of the legal profession.",
+        "ru": "Он испытывал глубокое недоверие ко всем юристам без исключения.",
+        "learn": 0
+      },
+      {
+        "eng": "He battled his way to the top of his profession.",
+        "ru": "Он упорно двигался по карьерной лестнице.",
+        "learn": 0
+      },
+      {
+        "eng": "Pedagogy is recognized as an important profession.",
+        "ru": "Педагогика признана важной профессией.",
+        "learn": 0
+      },
+      {
+        "eng": "It's a profession that is very hard to break into.",
+        "ru": "Это профессия, в которой очень трудно пробиться. (трудно стать заметной фигурой в данной профессии)",
+        "learn": 0
+      },
+      {
+        "eng": "The news spread rapidly through the medical profession.",
+        "ru": "Эти новости быстро распространились в медицинской среде.",
+        "learn": 0
+      },
+      {
+        "eng": "My father didn't think acting was an honorable profession.",
+        "ru": "Мой отец не считал профессию актёра достойным занятием.",
+        "learn": 0
+      },
+      {
+        "eng": "There is concern over the bad image of the legal profession.",
+        "ru": "Существует озабоченность по поводу плохого имиджа профессии юриста.",
+        "learn": 0
+      },
+      {
+        "eng": "The young geisha was inducted into the ways of her profession.",
+        "ru": "Юную гейшу посвятили в тонкости её профессии.",
+        "learn": 0
+      },
+      {
+        "eng": "He envies her the position she has achieved in her profession.",
+        "ru": "Он завидует служебному положению, которого она достигла.",
+        "learn": 0
+      },
+      {
+        "eng": "Such shameless ambulance chasing cankers the legal profession.",
+        "ru": "Такие бессовестные адвокаты, навязывающие свои услуги пострадавшим в несчастных случаях, компрометируют профессию юриста.",
+        "learn": 0
+      },
+      {
+        "eng": "Most professions in the medical field require years of training.",
+        "ru": "Большинство профессий в сфере медицины требуют многолетней подготовки.",
+        "learn": 1
+      },
+      {
+        "eng": "Their daughter recently became a member of the medical profession.",
+        "ru": "Их дочь недавно стала медиком. (досл. представителем медицинской профессии)",
+        "learn": 0
+      },
+      {
+        "eng": "Some students enter other professions such as arts administration.",
+        "ru": "Некоторые студенты выбирают другие профессии, например, управление в области искусства.",
+        "learn": 0
+      },
+      {
+        "eng": "We want all our students to achieve within their chosen profession.",
+        "ru": "Мы хотим, чтобы все наши студенты добились успехов в рамках выбранной ими профессии.",
+        "learn": 0
+      },
+      {
+        "eng": "For some reason, Malcolm had a down on the whole teaching profession.",
+        "ru": "Малькольм по какой-то причине испытывал неприязнь ко всем учителям.",
+        "learn": 0
+      }
+    ]
+  }
 }

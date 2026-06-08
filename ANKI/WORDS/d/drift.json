@@ -1,82 +1,168 @@
 {
-    "drift": {
-        "comment": [
-            "driver",
-            "drive",
-            "driving"
-        ],
-        "translate": "дрейф, самотек, снос, медленное течение, дрейфовать, плыть по течению",
-        "transcription": " |drɪft|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Is the world drifting towards war?",
-            "The snow had drifted our tracks.",
-            "The business seems to be drifting towards failure.",
-            "I see the whole drift of your argument.",
-            "North Atlantic Drift",
-            "She drifted from job to job.",
-            "He drifted in and out of consciousness.",
-            "The drift of the Maker is dark.",
-            "She was just drifting into sleep when the alarm went off.",
-            "Jenni spent the year drifting around Europe.",
-            "After twelve years of marriage, the two people began to drift apart.",
-            "The shipwrecked boat drifted away from the shore.",
-            "I want to get rid of this house - cut cables and drift about.",
-            "He couldn't let the matter drift for much longer.",
-            "Columns of smoke and ashes drifted to the south-east.",
-            "The stock market drifted upward.",
-            "The snow drifted against the side of the house.",
-            "The alignment of the hills shows a northward drift.",
-            "There is a steady low-class labour drift into London.",
-            "She didn't quite get my drift, did she?",
-            "The laborers drift from one town to the next.",
-            "She caught the general drift of the conversation.",
-            "Fangio puts his Maserati or Ferrari into a corner in a four-wheel drift.",
-            "She allowed her mind to drift towards the recent past.",
-            "The sailboat was adrift on the open sea.",
-            "Floaters seem to drift through the field of vision.",
-            "After he left the army he just drifted for a few years.",
-            "So what's the drift of the argument?",
-            "The dollar drifted lower against the yen today.",
-            "The unknown young man drifted among the invited guests."
-        ],
-        "example_translate": [
-            "Неужели мир катится к войне?",
-            "Наши следы занесло снегом.",
-            "Это дело, как кажется, близится к провалу.",
-            "Я в целом понимаю, к чему вы клоните.",
-            "Североатлантическое течение",
-            "Она регулярно меняла работу.",
-            "Он приходил в себя и снова терял сознание.",
-            "Намерения Создателя неясны.",
-            "Она как раз засыпала, когда сработала сигнализация /зазвонил будильник/.",
-            "Дженни провела год в разъездах по Европе.",
-            "После двенадцати лет семейной жизни они стали отдаляться друг от друга.",
-            "Потерпевшую кораблекрушение лодку отнесло от берега.",
-            "Я хочу избавиться от этого дома - порвать все связи и уехать.",
-            "Он не мог надолго пускать этот вопрос на самотёк.",
-            "Столбы пыли и пепла смещались на юго-восток.",
-            "Фондовый рынок медленно пошёл вверх.",
-            "Возле стены дома намело снежный сугроб.",
-            "Линия холмов смещается к северу.",
-            "Имеется стабильный приток неквалифицированной рабочей силы в Лондон.",
-            "Она не совсем поняла, на что я намекаю, так?",
-            "Работники бесцельно бродят от одного городка к другому.",
-            "Она уловила общую тенденцию разговора.",
-            "Фанхио входит на своей \"Мазерати\" или \"Феррари\" в поворот с заносом на обе оси.",
-            "Она позволила своим мыслям вернуться к недавнему прошлому.",
-            "Парусник дрейфовал в открытом море.",
-            "Кажется, перед глазами плывут мушки.",
-            "Покинув армию, несколько лет он просто плыл по течению.",
-            "Так к чему сводится вся эта аргументация?",
-            "Сегодня курс доллара опустился ниже относительно иены.",
-            "Этот неизвестный молодой человек неторопливо перемещался среди приглашённых гостей."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "drift": {
+    "comment": [
+      "driver",
+      "drive",
+      "driving"
+    ],
+    "translate": "дрейф, самотек, снос, медленное течение, дрейфовать, плыть по течению",
+    "transcription": " |drɪft|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Is the world drifting towards war?",
+        "ru": "Неужели мир катится к войне?",
+        "learn": 1
+      },
+      {
+        "eng": "The snow had drifted our tracks.",
+        "ru": "Наши следы занесло снегом.",
+        "learn": 0
+      },
+      {
+        "eng": "The business seems to be drifting towards failure.",
+        "ru": "Это дело, как кажется, близится к провалу.",
+        "learn": 1
+      },
+      {
+        "eng": "I see the whole drift of your argument.",
+        "ru": "Я в целом понимаю, к чему вы клоните.",
+        "learn": 0
+      },
+      {
+        "eng": "North Atlantic Drift",
+        "ru": "Североатлантическое течение",
+        "learn": 0
+      },
+      {
+        "eng": "She drifted from job to job.",
+        "ru": "Она регулярно меняла работу.",
+        "learn": 0
+      },
+      {
+        "eng": "He drifted in and out of consciousness.",
+        "ru": "Он приходил в себя и снова терял сознание.",
+        "learn": 0
+      },
+      {
+        "eng": "The drift of the Maker is dark.",
+        "ru": "Намерения Создателя неясны.",
+        "learn": 0
+      },
+      {
+        "eng": "She was just drifting into sleep when the alarm went off.",
+        "ru": "Она как раз засыпала, когда сработала сигнализация /зазвонил будильник/.",
+        "learn": 0
+      },
+      {
+        "eng": "Jenni spent the year drifting around Europe.",
+        "ru": "Дженни провела год в разъездах по Европе.",
+        "learn": 0
+      },
+      {
+        "eng": "After twelve years of marriage, the two people began to drift apart.",
+        "ru": "После двенадцати лет семейной жизни они стали отдаляться друг от друга.",
+        "learn": 0
+      },
+      {
+        "eng": "The shipwrecked boat drifted away from the shore.",
+        "ru": "Потерпевшую кораблекрушение лодку отнесло от берега.",
+        "learn": 0
+      },
+      {
+        "eng": "I want to get rid of this house - cut cables and drift about.",
+        "ru": "Я хочу избавиться от этого дома - порвать все связи и уехать.",
+        "learn": 0
+      },
+      {
+        "eng": "He couldn't let the matter drift for much longer.",
+        "ru": "Он не мог надолго пускать этот вопрос на самотёк.",
+        "learn": 0
+      },
+      {
+        "eng": "Columns of smoke and ashes drifted to the south-east.",
+        "ru": "Столбы пыли и пепла смещались на юго-восток.",
+        "learn": 0
+      },
+      {
+        "eng": "The stock market drifted upward.",
+        "ru": "Фондовый рынок медленно пошёл вверх.",
+        "learn": 1
+      },
+      {
+        "eng": "The snow drifted against the side of the house.",
+        "ru": "Возле стены дома намело снежный сугроб.",
+        "learn": 0
+      },
+      {
+        "eng": "The alignment of the hills shows a northward drift.",
+        "ru": "Линия холмов смещается к северу.",
+        "learn": 0
+      },
+      {
+        "eng": "There is a steady low-class labour drift into London.",
+        "ru": "Имеется стабильный приток неквалифицированной рабочей силы в Лондон.",
+        "learn": 0
+      },
+      {
+        "eng": "She didn't quite get my drift, did she?",
+        "ru": "Она не совсем поняла, на что я намекаю, так?",
+        "learn": 0
+      },
+      {
+        "eng": "The laborers drift from one town to the next.",
+        "ru": "Работники бесцельно бродят от одного городка к другому.",
+        "learn": 0
+      },
+      {
+        "eng": "She caught the general drift of the conversation.",
+        "ru": "Она уловила общую тенденцию разговора.",
+        "learn": 0
+      },
+      {
+        "eng": "Fangio puts his Maserati or Ferrari into a corner in a four-wheel drift.",
+        "ru": "Фанхио входит на своей \"Мазерати\" или \"Феррари\" в поворот с заносом на обе оси.",
+        "learn": 0
+      },
+      {
+        "eng": "She allowed her mind to drift towards the recent past.",
+        "ru": "Она позволила своим мыслям вернуться к недавнему прошлому.",
+        "learn": 1
+      },
+      {
+        "eng": "The sailboat was adrift on the open sea.",
+        "ru": "Парусник дрейфовал в открытом море.",
+        "learn": 0
+      },
+      {
+        "eng": "Floaters seem to drift through the field of vision.",
+        "ru": "Кажется, перед глазами плывут мушки.",
+        "learn": 0
+      },
+      {
+        "eng": "After he left the army he just drifted for a few years.",
+        "ru": "Покинув армию, несколько лет он просто плыл по течению.",
+        "learn": 0
+      },
+      {
+        "eng": "So what's the drift of the argument?",
+        "ru": "Так к чему сводится вся эта аргументация?",
+        "learn": 0
+      },
+      {
+        "eng": "The dollar drifted lower against the yen today.",
+        "ru": "Сегодня курс доллара опустился ниже относительно иены.",
+        "learn": 0
+      },
+      {
+        "eng": "The unknown young man drifted among the invited guests.",
+        "ru": "Этот неизвестный молодой человек неторопливо перемещался среди приглашённых гостей.",
+        "learn": 0
+      }
+    ]
+  }
 }

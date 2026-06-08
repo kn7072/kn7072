@@ -1,80 +1,166 @@
 {
-    "lady": {
-        "comment": [
-            "lad"
-        ],
-        "translate": "леди, дама, девушка, госпожа, барыня, жена, мать, невеста, дама сердца, хозяйка дома",
-        "transcription": " |ˈleɪdi|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "A lady dressed in red",
-            "Shall we rejoin the ladies?",
-            "Lady Spencer",
-            "They say luck is a lady.",
-            "Her mother was always telling her to act like a lady.",
-            "She's swell, a real lady.",
-            "a lady of honor and virtue",
-            "the old lady's quavering voice",
-            "Don't you sass me, young lady!",
-            "Whither are you going, my lady?",
-            "Old Lady of Threadneedle Street",
-            "Faint heart ne'er won fair lady.",
-            "a very prim and proper young lady",
-            "A bright lady, surpassingly fair.",
-            "She's a very spirited young lady.",
-            "The old lady is boarding three men.",
-            "Hand the elderly lady into the taxi.",
-            "She knows how to behave like a lady.",
-            "I saw Chris with his new lady friend.",
-            "The old lady was desperate for money.",
-            "A nice lady at the library helped me.",
-            "Give the little lady a great big hand.",
-            "Give your coat to the lady over there.",
-            "a batty old lady who lives with 100 cats",
-            "Lady, are you a few aces short of a deck?",
-            "She is a very prim and proper young lady.",
-            "My sympathies went strongly with the lady.",
-            "She can be a tough lady to negotiate with.",
-            "She attends the old lady in the wheelchair.",
-            "The old lady had fallen and broken her hip."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Дама, одетая в красное",
-            "Не вернуться ли нам к дамам?",
-            "Леди Спенсер",
-            "Говорят, что удача — это женщина.",
-            "Мать всегда говорила ей, что нужно вести себя, как леди.",
-            "Она одевается стильно, как настоящая леди.",
-            "честная и добродетельная дама",
-            "дрожащий голос старухи",
-            "Не смейте мне дерзить, милочка!",
-            "Куда вы направляетесь, сударыня?",
-            "Английский банк",
-            "Смелость города берёт. (посл., букв. \"робкому сердцу не завоевать прекрасной дамы\")",
-            "очень чопорная молодая леди",
-            "Женщина прекрасная, красоты несказанной",
-            "Она — очень энергичная девушка.",
-            "У старушки проживают и столуются трое мужчин.",
-            "Помоги старушке сесть в такси.",
-            "Она умеет вести себя, как подобает леди.",
-            "Я видела Криса с его новой подружкой.",
-            "Пожилая дама отчаянно нуждалась в деньгах.",
-            "В библиотеке мне помогла одна милая дама.",
-            "Поддержим девушку бурными аплодисментами.",
-            "Отдайте своё пальто вон той женщине.",
-            "чокнутая старуха, которая живёт с сотней кошек",
-            "Дамочка, вы в своём уме? / Женщина, у вас что, не все дома?",
-            "Она очень чопорная молодая леди.",
-            "Все мои симпатии были полностью на стороне леди.",
-            "С этой женщиной может быть очень непросто вести переговоры.",
-            "Она ухаживает за старушкой в инвалидной коляске.",
-            "Старушка упала и сломала себе бедро."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "lady": {
+    "comment": [
+      "lad"
+    ],
+    "translate": "леди, дама, девушка, госпожа, барыня, жена, мать, невеста, дама сердца, хозяйка дома",
+    "transcription": " |ˈleɪdi|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "A lady dressed in red",
+        "ru": "Дама, одетая в красное",
+        "learn": 1
+      },
+      {
+        "eng": "Shall we rejoin the ladies?",
+        "ru": "Не вернуться ли нам к дамам?",
+        "learn": 0
+      },
+      {
+        "eng": "Lady Spencer",
+        "ru": "Леди Спенсер",
+        "learn": 0
+      },
+      {
+        "eng": "They say luck is a lady.",
+        "ru": "Говорят, что удача — это женщина.",
+        "learn": 0
+      },
+      {
+        "eng": "Her mother was always telling her to act like a lady.",
+        "ru": "Мать всегда говорила ей, что нужно вести себя, как леди.",
+        "learn": 0
+      },
+      {
+        "eng": "She's swell, a real lady.",
+        "ru": "Она одевается стильно, как настоящая леди.",
+        "learn": 0
+      },
+      {
+        "eng": "a lady of honor and virtue",
+        "ru": "честная и добродетельная дама",
+        "learn": 0
+      },
+      {
+        "eng": "the old lady's quavering voice",
+        "ru": "дрожащий голос старухи",
+        "learn": 0
+      },
+      {
+        "eng": "Don't you sass me, young lady!",
+        "ru": "Не смейте мне дерзить, милочка!",
+        "learn": 0
+      },
+      {
+        "eng": "Whither are you going, my lady?",
+        "ru": "Куда вы направляетесь, сударыня?",
+        "learn": 0
+      },
+      {
+        "eng": "Old Lady of Threadneedle Street",
+        "ru": "Английский банк",
+        "learn": 0
+      },
+      {
+        "eng": "Faint heart ne'er won fair lady.",
+        "ru": "Смелость города берёт. (посл., букв. \"робкому сердцу не завоевать прекрасной дамы\")",
+        "learn": 0
+      },
+      {
+        "eng": "a very prim and proper young lady",
+        "ru": "очень чопорная молодая леди",
+        "learn": 0
+      },
+      {
+        "eng": "A bright lady, surpassingly fair.",
+        "ru": "Женщина прекрасная, красоты несказанной",
+        "learn": 0
+      },
+      {
+        "eng": "She's a very spirited young lady.",
+        "ru": "Она — очень энергичная девушка.",
+        "learn": 0
+      },
+      {
+        "eng": "The old lady is boarding three men.",
+        "ru": "У старушки проживают и столуются трое мужчин.",
+        "learn": 0
+      },
+      {
+        "eng": "Hand the elderly lady into the taxi.",
+        "ru": "Помоги старушке сесть в такси.",
+        "learn": 0
+      },
+      {
+        "eng": "She knows how to behave like a lady.",
+        "ru": "Она умеет вести себя, как подобает леди.",
+        "learn": 0
+      },
+      {
+        "eng": "I saw Chris with his new lady friend.",
+        "ru": "Я видела Криса с его новой подружкой.",
+        "learn": 0
+      },
+      {
+        "eng": "The old lady was desperate for money.",
+        "ru": "Пожилая дама отчаянно нуждалась в деньгах.",
+        "learn": 0
+      },
+      {
+        "eng": "A nice lady at the library helped me.",
+        "ru": "В библиотеке мне помогла одна милая дама.",
+        "learn": 0
+      },
+      {
+        "eng": "Give the little lady a great big hand.",
+        "ru": "Поддержим девушку бурными аплодисментами.",
+        "learn": 0
+      },
+      {
+        "eng": "Give your coat to the lady over there.",
+        "ru": "Отдайте своё пальто вон той женщине.",
+        "learn": 0
+      },
+      {
+        "eng": "a batty old lady who lives with 100 cats",
+        "ru": "чокнутая старуха, которая живёт с сотней кошек",
+        "learn": 0
+      },
+      {
+        "eng": "Lady, are you a few aces short of a deck?",
+        "ru": "Дамочка, вы в своём уме? / Женщина, у вас что, не все дома?",
+        "learn": 0
+      },
+      {
+        "eng": "She is a very prim and proper young lady.",
+        "ru": "Она очень чопорная молодая леди.",
+        "learn": 0
+      },
+      {
+        "eng": "My sympathies went strongly with the lady.",
+        "ru": "Все мои симпатии были полностью на стороне леди.",
+        "learn": 0
+      },
+      {
+        "eng": "She can be a tough lady to negotiate with.",
+        "ru": "С этой женщиной может быть очень непросто вести переговоры.",
+        "learn": 1
+      },
+      {
+        "eng": "She attends the old lady in the wheelchair.",
+        "ru": "Она ухаживает за старушкой в инвалидной коляске.",
+        "learn": 0
+      },
+      {
+        "eng": "The old lady had fallen and broken her hip.",
+        "ru": "Старушка упала и сломала себе бедро.",
+        "learn": 1
+      }
+    ]
+  }
 }

@@ -1,85 +1,171 @@
 {
-    "provide": {
-        "comment": [
-            "provided",
-            "providing",
-            "provider"
-        ],
-        "translate": "обеспечивать, предоставлять, предусматривать, давать, снабжать, прокормить",
-        "transcription": " |prəˈvaɪd|",
-        "antonyms": [],
-        "mnemonic": [
-            "provide [прэва'йд] обеспечивать - (Провайд-еры) обеспечивают работу Интернета.",
-            "provide [prə'vaɪd]\nprovision - снабжение, обеспечение\n***\nОБЕСПЕЧИЛИ сеном - оно подпревает. (это) provide\nОБЕСПЕЧИЛИ меня правами. (это) provide\nПРЕДОСТАВИЛИ водителя с правами. (это) provide\nСНАБДИЛИ автобусом и водитель с правами. (это)\nprovide"
-        ],
-        "examples": [
-            "He provided a car with a radio.",
-            "Tea and biscuits will be provided.",
-            "The expenses are provided for in the budget.",
-            "We provided the room with an electrical heater.",
-            "The Web site provides information about local activities.",
-            "There is no way that we can provide another teacher for that class.",
-            "Has every member of the family been equally provided for?",
-            "He provides for his large family by working three jobs",
-            "Money, qua money, cannot provide happiness.",
-            "Workers were provided with gloves for protection.",
-            "The hostess provided lunch for all the guests",
-            "She works to provide for her family's basic needs.",
-            "They're not fussy who they provide.",
-            "The hotel provides a shoe-cleaning service for guests.",
-            "The curtains on the windows provide privacy.",
-            "The verb \"to provide\" is construed with \"for\".",
-            "Steps can be taken to provide against a severe winter.",
-            "We give / offer / provide you a firm guarantee of quality.",
-            "The new law provides for equality of human rights.",
-            "We provide the best possible accommodation for our students.",
-            "He could provide his family with a comfortable competence.",
-            "Insurance can provide you with peace of mind.",
-            "These materials provide the insulation needed in cold weather.",
-            "We provide both standard and customized training schemes.",
-            "The aim was to provide a car for every age and pocketbook.",
-            "Science may be able to provide some explanations of paranormal phenomena.",
-            "It's designed to provide the utmost in comfort.",
-            "These clubs provide nightly entertainment.",
-            "Section 17 provides that all decisions must be circulated in writing.",
-            "The law will compel employers to provide health insurance."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Он предоставил машину с радиоприёмником.",
-            "Будут предоставлены чай и печенье.",
-            "Эти расходы предусмотрены в бюджете.",
-            "Мы установили в комнату электрический обогреватель.",
-            "Этот веб-сайт предоставляет информацию о местных мероприятиях.",
-            "У нас нет никакой возможности пригласить ещё одного учителя в этот класс.",
-            "Каждый ли член семьи в равной степени обеспечен тем, что ему необходимо?",
-            "Он обеспечивает свою большую семью, работая на трёх работах.",
-            "Сами по себе деньги не могут принести счастья.",
-            "Работникам были розданы защитные перчатки.",
-            "Хозяйка накормила обедом всех гостей.",
-            "Она работает, чтобы обеспечить семью самым необходимым.",
-            "Им всё равно, кого снабжать.",
-            "Отель предоставляет гостям услугу чистки обуви.",
-            "Занавески на окнах обеспечивают приватность.",
-            "Глагол \"provide\" сочетается с предлогом \"for\".",
-            "Можно предпринять некоторые шаги для подготовки к суровой зиме.",
-            "Мы предоставляем вам твёрдую гарантию качества.",
-            "Новый закон устанавливает равенство прав всех людей.",
-            "Мы предоставляем нашим студентам самое лучшее жильё.",
-            "Он мог обеспечить достойное материальное положение своей семьи.",
-            "Страхование может дать вам душевное спокойствие.",
-            "Эти материалы обеспечивают изоляцию, необходимую в холодную погоду.",
-            "Мы предоставляем как стандартные, так и индивидуализированные программы обучения.",
-            "Целью было разработать автомобиль для людей любого возраста и достатка.",
-            "Возможно, наука сможет дать какое-нибудь объяснение сверхъестественным явлениям.",
-            "Он спроектирован так, чтобы обеспечить максимальный комфорт.",
-            "В этих клубах каждый вечер проходят развлекательные мероприятия.",
-            "Раздел 17 предусматривает, что все решения должны передаваться в письменной форме.",
-            "Этот закон обяжет работодателей предоставлять работникам медицинскую страховку."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "provide": {
+    "comment": [
+      "provided",
+      "providing",
+      "provider"
+    ],
+    "translate": "обеспечивать, предоставлять, предусматривать, давать, снабжать, прокормить",
+    "transcription": " |prəˈvaɪd|",
+    "antonyms": [],
+    "mnemonic": [
+      "provide [прэва'йд] обеспечивать - (Провайд-еры) обеспечивают работу Интернета.",
+      "provide [prə'vaɪd]\nprovision - снабжение, обеспечение\n***\nОБЕСПЕЧИЛИ сеном - оно подпревает. (это) provide\nОБЕСПЕЧИЛИ меня правами. (это) provide\nПРЕДОСТАВИЛИ водителя с правами. (это) provide\nСНАБДИЛИ автобусом и водитель с правами. (это)\nprovide"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "He provided a car with a radio.",
+        "ru": "Он предоставил машину с радиоприёмником.",
+        "learn": 0
+      },
+      {
+        "eng": "Tea and biscuits will be provided.",
+        "ru": "Будут предоставлены чай и печенье.",
+        "learn": 0
+      },
+      {
+        "eng": "The expenses are provided for in the budget.",
+        "ru": "Эти расходы предусмотрены в бюджете.",
+        "learn": 0
+      },
+      {
+        "eng": "We provided the room with an electrical heater.",
+        "ru": "Мы установили в комнату электрический обогреватель.",
+        "learn": 1
+      },
+      {
+        "eng": "The Web site provides information about local activities.",
+        "ru": "Этот веб-сайт предоставляет информацию о местных мероприятиях.",
+        "learn": 0
+      },
+      {
+        "eng": "There is no way that we can provide another teacher for that class.",
+        "ru": "У нас нет никакой возможности пригласить ещё одного учителя в этот класс.",
+        "learn": 0
+      },
+      {
+        "eng": "Has every member of the family been equally provided for?",
+        "ru": "Каждый ли член семьи в равной степени обеспечен тем, что ему необходимо?",
+        "learn": 0
+      },
+      {
+        "eng": "He provides for his large family by working three jobs",
+        "ru": "Он обеспечивает свою большую семью, работая на трёх работах.",
+        "learn": 0
+      },
+      {
+        "eng": "Money, qua money, cannot provide happiness.",
+        "ru": "Сами по себе деньги не могут принести счастья.",
+        "learn": 0
+      },
+      {
+        "eng": "Workers were provided with gloves for protection.",
+        "ru": "Работникам были розданы защитные перчатки.",
+        "learn": 1
+      },
+      {
+        "eng": "The hostess provided lunch for all the guests",
+        "ru": "Хозяйка накормила обедом всех гостей.",
+        "learn": 0
+      },
+      {
+        "eng": "She works to provide for her family's basic needs.",
+        "ru": "Она работает, чтобы обеспечить семью самым необходимым.",
+        "learn": 0
+      },
+      {
+        "eng": "They're not fussy who they provide.",
+        "ru": "Им всё равно, кого снабжать.",
+        "learn": 0
+      },
+      {
+        "eng": "The hotel provides a shoe-cleaning service for guests.",
+        "ru": "Отель предоставляет гостям услугу чистки обуви.",
+        "learn": 0
+      },
+      {
+        "eng": "The curtains on the windows provide privacy.",
+        "ru": "Занавески на окнах обеспечивают приватность.",
+        "learn": 0
+      },
+      {
+        "eng": "The verb \"to provide\" is construed with \"for\".",
+        "ru": "Глагол \"provide\" сочетается с предлогом \"for\".",
+        "learn": 0
+      },
+      {
+        "eng": "Steps can be taken to provide against a severe winter.",
+        "ru": "Можно предпринять некоторые шаги для подготовки к суровой зиме.",
+        "learn": 0
+      },
+      {
+        "eng": "We give / offer / provide you a firm guarantee of quality.",
+        "ru": "Мы предоставляем вам твёрдую гарантию качества.",
+        "learn": 0
+      },
+      {
+        "eng": "The new law provides for equality of human rights.",
+        "ru": "Новый закон устанавливает равенство прав всех людей.",
+        "learn": 1
+      },
+      {
+        "eng": "We provide the best possible accommodation for our students.",
+        "ru": "Мы предоставляем нашим студентам самое лучшее жильё.",
+        "learn": 1
+      },
+      {
+        "eng": "He could provide his family with a comfortable competence.",
+        "ru": "Он мог обеспечить достойное материальное положение своей семьи.",
+        "learn": 0
+      },
+      {
+        "eng": "Insurance can provide you with peace of mind.",
+        "ru": "Страхование может дать вам душевное спокойствие.",
+        "learn": 0
+      },
+      {
+        "eng": "These materials provide the insulation needed in cold weather.",
+        "ru": "Эти материалы обеспечивают изоляцию, необходимую в холодную погоду.",
+        "learn": 0
+      },
+      {
+        "eng": "We provide both standard and customized training schemes.",
+        "ru": "Мы предоставляем как стандартные, так и индивидуализированные программы обучения.",
+        "learn": 0
+      },
+      {
+        "eng": "The aim was to provide a car for every age and pocketbook.",
+        "ru": "Целью было разработать автомобиль для людей любого возраста и достатка.",
+        "learn": 0
+      },
+      {
+        "eng": "Science may be able to provide some explanations of paranormal phenomena.",
+        "ru": "Возможно, наука сможет дать какое-нибудь объяснение сверхъестественным явлениям.",
+        "learn": 0
+      },
+      {
+        "eng": "It's designed to provide the utmost in comfort.",
+        "ru": "Он спроектирован так, чтобы обеспечить максимальный комфорт.",
+        "learn": 1
+      },
+      {
+        "eng": "These clubs provide nightly entertainment.",
+        "ru": "В этих клубах каждый вечер проходят развлекательные мероприятия.",
+        "learn": 0
+      },
+      {
+        "eng": "Section 17 provides that all decisions must be circulated in writing.",
+        "ru": "Раздел 17 предусматривает, что все решения должны передаваться в письменной форме.",
+        "learn": 0
+      },
+      {
+        "eng": "The law will compel employers to provide health insurance.",
+        "ru": "Этот закон обяжет работодателей предоставлять работникам медицинскую страховку.",
+        "learn": 1
+      }
+    ]
+  }
 }

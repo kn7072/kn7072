@@ -1,83 +1,169 @@
 {
-    "settle": {
-        "comment": [
-            "settlement",
-            "settler"
-        ],
-        "translate": "скамья, скамья-ларь, поселить, решать, поселиться, селиться",
-        "transcription": " |ˈsetl|",
-        "antonyms": [],
-        "mnemonic": [
-            "settle ['set (ə) l]\n***\nУЛАДИМ всё и поедем Сиэтл. (это) settle\nЗАСЕЛИМСЯ мы в Сиэтл. (это) settle\nУСПОКОЙСЯ, ты выиграл сет. (это) settle\nСПОР РАЗРЕШЁН, ты выиграл сет. (это) settle\nРАЗРЕШИЛИ разногласия - ты выиграл сет (л). (это)\nsettle\nСкамья.\n***\nМы обосновались \"settle\"\nи купили чайник \"kettle\"."
-        ],
-        "examples": [
-            "Nothing's settled yet.",
-            "He finally settled down.",
-            "Snow settled on the roofs.",
-            "Two birds settled on the fence.",
-            "I took a pill to help settle my nerves.",
-            "I'd like to settle with the man who attacked my daughter!",
-            "His gaze settled on her face.",
-            "The Swedes settled in Minnesota.",
-            "We settled for a lower price.",
-            "A cough settled in her chest.",
-            "Many women refuse to settle for staying at home.",
-            "I'll settle up and meet you outside the hotel.",
-            "Dust had settled on everything.",
-            "A nurse settled the old man into a chair.",
-            "Please go upstairs and settle the children down.",
-            "The dog settled on the grass to enjoy its bone.",
-            "When we've settled in properly, we'll invite all our friends.",
-            "I should be able to settle with you at the end of the month.",
-            "A disapproving frown settled on her face.",
-            "How long did it take you to settle down in this country?",
-            "The boy couldn't settle down to his homework.",
-            "It was our hope that they would settle near us.",
-            "The job will be easier once you settle into a routine.",
-            "An uneasy silence settled over the room.",
-            "I'll settle up with the bartender, then let's go.",
-            "George will be there? That settles it. I'm not coming.",
-            "They'll soon settle in — kids are very good at adjusting.",
-            "Settling himself down in his favourite chair, he lit his pipe.",
-            "At last all the excitement had settled down.",
-            "Let me get the children settled in their new school first."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Ещё ничего не решено.",
-            "Он наконец-то остепенился.",
-            "Снег лежал на крышах домов.",
-            "Две птицы уселись на заборе.",
-            "Я принял таблетку, чтобы успокоить нервы.",
-            "Я хочу разделаться с человеком, который напал на мою дочь.",
-            "Его взгляд остановился на её лице.",
-            "Шведы поселились в Миннесоте.",
-            "Мы согласились на более низкую цену.",
-            "Кашель обосновался в её груди. / В её груди поселился кашель.",
-            "Многие женщины отказываются довольствоваться ролью домохозяйки.",
-            "Я расплачусь и буду ждать вас у входа в отель.",
-            "Повсюду лежала пыль.",
-            "Медсестра усадила пожилого мужчину в кресло.",
-            "Пожалуйста, поднимитесь наверх и успокойте детей.",
-            "Собака удобно расположилась на траве, чтобы спокойно погрызть косточку.",
-            "Как только как следует обустроимся, то пригласим всех наших друзей.",
-            "Мне нужно будет расплатиться с тобой в конце месяца.",
-            "Она неодобрительно нахмурилась.",
-            "Сколько времени вам потребовалось, чтобы обжиться в этой стране?",
-            "Мальчик никак не мог взяться за уроки.",
-            "Мы надеялись, что они поселятся рядом с нами.",
-            "Работа будет легче, как только вы войдёте в режим.",
-            "В комнате установилось тяжёлое молчание.",
-            "Я расплачусь с барменом, потом пойдем.",
-            "А Джордж там будет? Что, ж, это решает все - я не пойду.",
-            "Скоро они пообвыкнутся — дети вообще очень быстро приспосабливаются.",
-            "Устроившись поудобнее в своем любимом кресле, он закурил трубку.",
-            "Наконец возбуждение улеглось.",
-            "Дайте мне сначала устроить детей в новую школу."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "settle": {
+    "comment": [
+      "settlement",
+      "settler"
+    ],
+    "translate": "скамья, скамья-ларь, поселить, решать, поселиться, селиться",
+    "transcription": " |ˈsetl|",
+    "antonyms": [],
+    "mnemonic": [
+      "settle ['set (ə) l]\n***\nУЛАДИМ всё и поедем Сиэтл. (это) settle\nЗАСЕЛИМСЯ мы в Сиэтл. (это) settle\nУСПОКОЙСЯ, ты выиграл сет. (это) settle\nСПОР РАЗРЕШЁН, ты выиграл сет. (это) settle\nРАЗРЕШИЛИ разногласия - ты выиграл сет (л). (это)\nsettle\nСкамья.\n***\nМы обосновались \"settle\"\nи купили чайник \"kettle\"."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Nothing's settled yet.",
+        "ru": "Ещё ничего не решено.",
+        "learn": 0
+      },
+      {
+        "eng": "He finally settled down.",
+        "ru": "Он наконец-то остепенился.",
+        "learn": 0
+      },
+      {
+        "eng": "Snow settled on the roofs.",
+        "ru": "Снег лежал на крышах домов.",
+        "learn": 0
+      },
+      {
+        "eng": "Two birds settled on the fence.",
+        "ru": "Две птицы уселись на заборе.",
+        "learn": 0
+      },
+      {
+        "eng": "I took a pill to help settle my nerves.",
+        "ru": "Я принял таблетку, чтобы успокоить нервы.",
+        "learn": 0
+      },
+      {
+        "eng": "I'd like to settle with the man who attacked my daughter!",
+        "ru": "Я хочу разделаться с человеком, который напал на мою дочь.",
+        "learn": 0
+      },
+      {
+        "eng": "His gaze settled on her face.",
+        "ru": "Его взгляд остановился на её лице.",
+        "learn": 0
+      },
+      {
+        "eng": "The Swedes settled in Minnesota.",
+        "ru": "Шведы поселились в Миннесоте.",
+        "learn": 0
+      },
+      {
+        "eng": "We settled for a lower price.",
+        "ru": "Мы согласились на более низкую цену.",
+        "learn": 1
+      },
+      {
+        "eng": "A cough settled in her chest.",
+        "ru": "Кашель обосновался в её груди. / В её груди поселился кашель.",
+        "learn": 1
+      },
+      {
+        "eng": "Many women refuse to settle for staying at home.",
+        "ru": "Многие женщины отказываются довольствоваться ролью домохозяйки.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll settle up and meet you outside the hotel.",
+        "ru": "Я расплачусь и буду ждать вас у входа в отель.",
+        "learn": 0
+      },
+      {
+        "eng": "Dust had settled on everything.",
+        "ru": "Повсюду лежала пыль.",
+        "learn": 0
+      },
+      {
+        "eng": "A nurse settled the old man into a chair.",
+        "ru": "Медсестра усадила пожилого мужчину в кресло.",
+        "learn": 1
+      },
+      {
+        "eng": "Please go upstairs and settle the children down.",
+        "ru": "Пожалуйста, поднимитесь наверх и успокойте детей.",
+        "learn": 0
+      },
+      {
+        "eng": "The dog settled on the grass to enjoy its bone.",
+        "ru": "Собака удобно расположилась на траве, чтобы спокойно погрызть косточку.",
+        "learn": 0
+      },
+      {
+        "eng": "When we've settled in properly, we'll invite all our friends.",
+        "ru": "Как только как следует обустроимся, то пригласим всех наших друзей.",
+        "learn": 1
+      },
+      {
+        "eng": "I should be able to settle with you at the end of the month.",
+        "ru": "Мне нужно будет расплатиться с тобой в конце месяца.",
+        "learn": 0
+      },
+      {
+        "eng": "A disapproving frown settled on her face.",
+        "ru": "Она неодобрительно нахмурилась.",
+        "learn": 0
+      },
+      {
+        "eng": "How long did it take you to settle down in this country?",
+        "ru": "Сколько времени вам потребовалось, чтобы обжиться в этой стране?",
+        "learn": 0
+      },
+      {
+        "eng": "The boy couldn't settle down to his homework.",
+        "ru": "Мальчик никак не мог взяться за уроки.",
+        "learn": 0
+      },
+      {
+        "eng": "It was our hope that they would settle near us.",
+        "ru": "Мы надеялись, что они поселятся рядом с нами.",
+        "learn": 0
+      },
+      {
+        "eng": "The job will be easier once you settle into a routine.",
+        "ru": "Работа будет легче, как только вы войдёте в режим.",
+        "learn": 0
+      },
+      {
+        "eng": "An uneasy silence settled over the room.",
+        "ru": "В комнате установилось тяжёлое молчание.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll settle up with the bartender, then let's go.",
+        "ru": "Я расплачусь с барменом, потом пойдем.",
+        "learn": 0
+      },
+      {
+        "eng": "George will be there? That settles it. I'm not coming.",
+        "ru": "А Джордж там будет? Что, ж, это решает все - я не пойду.",
+        "learn": 0
+      },
+      {
+        "eng": "They'll soon settle in — kids are very good at adjusting.",
+        "ru": "Скоро они пообвыкнутся — дети вообще очень быстро приспосабливаются.",
+        "learn": 0
+      },
+      {
+        "eng": "Settling himself down in his favourite chair, he lit his pipe.",
+        "ru": "Устроившись поудобнее в своем любимом кресле, он закурил трубку.",
+        "learn": 0
+      },
+      {
+        "eng": "At last all the excitement had settled down.",
+        "ru": "Наконец возбуждение улеглось.",
+        "learn": 0
+      },
+      {
+        "eng": "Let me get the children settled in their new school first.",
+        "ru": "Дайте мне сначала устроить детей в новую школу.",
+        "learn": 0
+      }
+    ]
+  }
 }

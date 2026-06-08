@@ -1,80 +1,166 @@
 {
-    "park": {
-        "comment": [
-            "parking"
-        ],
-        "translate": "парк, заповедник, парковать, оставлять",
-        "transcription": " |pɑːrk|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Let's meet at the park.",
-            "I parked on the street.",
-            "park the car in the yard",
-            "We biked to the park.",
-            "Can you park right here?",
-            "We skate at the park.",
-            "We sat on a park bench.",
-            "The house faces the park.",
-            "The car park is underground.",
-            "The house is close to the park.",
-            "He parked behind a desk.",
-            "New York City's Central Park",
-            "The car park is for staff only.",
-            "141 Park Drive",
-            "The park closes at dusk.",
-            "We picnicked in the park.",
-            "We took a turn in the park.",
-            "The building faces the park.",
-            "Unleash the dogs in the park.",
-            "a brisk walk in the park",
-            "a rugby game in Eden Park",
-            "Park your bags in the hallway.",
-            "The school is opposite a park.",
-            "I parked the car on the street.",
-            "She walked her dog in the park.",
-            "We went for a walk in the park.",
-            "Let's go for a walk in the park.",
-            "I couldn't find a place to park.",
-            "two minutes to traverse the park",
-            "They repaired daily to the park."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Давайте встретимся в парке.",
-            "Я припарковался на улице.",
-            "припаркуй машину во дворе",
-            "Мы поехали на великах в парк.",
-            "Вы можете припарковаться прямо здесь?",
-            "Мы катаемся на роликах в парке.",
-            "Мы сидели на скамейке в парке.",
-            "Дом смотрит на парк.",
-            "Автомобильная стоянка находится под землёй.",
-            "Дом расположен рядом с парком.",
-            "Он устроился за партой. / Он уселся за письменный стол.",
-            "Центральный парк Нью-Йорка",
-            "Парковка — только для сотрудников.",
-            "Парк-драйв, дом 141",
-            "Парк закрывается на закате солнца.",
-            "Мы устроили в парке пикник.",
-            "Мы завернули в парк.",
-            "Фасад здания обращён на парк.",
-            "Отпусти собак погулять по парку без поводка.",
-            "прогулка в парке быстрым шагом / энергичная прогулка в парке",
-            "регбийный матч в Эден-парке",
-            "Оставьте пока сумки в прихожей.",
-            "Школа находится напротив парка.",
-            "Я оставил машину на улице.",
-            "Она выгуливала свою собаку в парке.",
-            "Мы пошли в парк прогуляться.",
-            "Давайте прогуляемся в парке.",
-            "Я не мог найти место для парковки.",
-            "две минуты, чтобы пересечь парк",
-            "Они каждый день собирались в парке"
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "park": {
+    "comment": [
+      "parking"
+    ],
+    "translate": "парк, заповедник, парковать, оставлять",
+    "transcription": " |pɑːrk|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Let's meet at the park.",
+        "ru": "Давайте встретимся в парке.",
+        "learn": 0
+      },
+      {
+        "eng": "I parked on the street.",
+        "ru": "Я припарковался на улице.",
+        "learn": 0
+      },
+      {
+        "eng": "park the car in the yard",
+        "ru": "припаркуй машину во дворе",
+        "learn": 0
+      },
+      {
+        "eng": "We biked to the park.",
+        "ru": "Мы поехали на великах в парк.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you park right here?",
+        "ru": "Вы можете припарковаться прямо здесь?",
+        "learn": 0
+      },
+      {
+        "eng": "We skate at the park.",
+        "ru": "Мы катаемся на роликах в парке.",
+        "learn": 1
+      },
+      {
+        "eng": "We sat on a park bench.",
+        "ru": "Мы сидели на скамейке в парке.",
+        "learn": 1
+      },
+      {
+        "eng": "The house faces the park.",
+        "ru": "Дом смотрит на парк.",
+        "learn": 0
+      },
+      {
+        "eng": "The car park is underground.",
+        "ru": "Автомобильная стоянка находится под землёй.",
+        "learn": 0
+      },
+      {
+        "eng": "The house is close to the park.",
+        "ru": "Дом расположен рядом с парком.",
+        "learn": 0
+      },
+      {
+        "eng": "He parked behind a desk.",
+        "ru": "Он устроился за партой. / Он уселся за письменный стол.",
+        "learn": 0
+      },
+      {
+        "eng": "New York City's Central Park",
+        "ru": "Центральный парк Нью-Йорка",
+        "learn": 0
+      },
+      {
+        "eng": "The car park is for staff only.",
+        "ru": "Парковка — только для сотрудников.",
+        "learn": 1
+      },
+      {
+        "eng": "141 Park Drive",
+        "ru": "Парк-драйв, дом 141",
+        "learn": 0
+      },
+      {
+        "eng": "The park closes at dusk.",
+        "ru": "Парк закрывается на закате солнца.",
+        "learn": 0
+      },
+      {
+        "eng": "We picnicked in the park.",
+        "ru": "Мы устроили в парке пикник.",
+        "learn": 0
+      },
+      {
+        "eng": "We took a turn in the park.",
+        "ru": "Мы завернули в парк.",
+        "learn": 0
+      },
+      {
+        "eng": "The building faces the park.",
+        "ru": "Фасад здания обращён на парк.",
+        "learn": 0
+      },
+      {
+        "eng": "Unleash the dogs in the park.",
+        "ru": "Отпусти собак погулять по парку без поводка.",
+        "learn": 0
+      },
+      {
+        "eng": "a brisk walk in the park",
+        "ru": "прогулка в парке быстрым шагом / энергичная прогулка в парке",
+        "learn": 0
+      },
+      {
+        "eng": "a rugby game in Eden Park",
+        "ru": "регбийный матч в Эден-парке",
+        "learn": 0
+      },
+      {
+        "eng": "Park your bags in the hallway.",
+        "ru": "Оставьте пока сумки в прихожей.",
+        "learn": 0
+      },
+      {
+        "eng": "The school is opposite a park.",
+        "ru": "Школа находится напротив парка.",
+        "learn": 0
+      },
+      {
+        "eng": "I parked the car on the street.",
+        "ru": "Я оставил машину на улице.",
+        "learn": 0
+      },
+      {
+        "eng": "She walked her dog in the park.",
+        "ru": "Она выгуливала свою собаку в парке.",
+        "learn": 0
+      },
+      {
+        "eng": "We went for a walk in the park.",
+        "ru": "Мы пошли в парк прогуляться.",
+        "learn": 0
+      },
+      {
+        "eng": "Let's go for a walk in the park.",
+        "ru": "Давайте прогуляемся в парке.",
+        "learn": 0
+      },
+      {
+        "eng": "I couldn't find a place to park.",
+        "ru": "Я не мог найти место для парковки.",
+        "learn": 0
+      },
+      {
+        "eng": "two minutes to traverse the park",
+        "ru": "две минуты, чтобы пересечь парк",
+        "learn": 0
+      },
+      {
+        "eng": "They repaired daily to the park.",
+        "ru": "Они каждый день собирались в парке",
+        "learn": 0
+      }
+    ]
+  }
 }

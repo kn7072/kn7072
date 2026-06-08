@@ -1,84 +1,170 @@
 {
-    "emergency": {
-        "comment": [
-            "emerge",
-            "emergence"
-        ],
-        "translate": "аварийный, экстренный, непредвиденный, случай, авария, критическое положение",
-        "transcription": " |iˈmɜːrdʒənsi|",
-        "antonyms": [],
-        "mnemonic": [
-            "emergency [эмэ'рджэнси] запасной - Если он (умер, джинсы) про запас надо с него снять.",
-            "emergency [ɪ'mɜ: dʒənsɪ]\nemergence [ɪ'mɜ:dʒəns]\n***\nНа НЕПРЕДВИДЕННЫЙ СЛУЧАЙ имей|джинсы. (это)\nemergency\nВ ЧРЕЗВЫЧАЙНОЙ СИТУАЦИИ имей|джинсы. (это)\nemergency\nВсегда ЗАПАСНЫЕ имей|джинсы. (это) emergency\n***\nНа ВЫХОД имей|джинсы. (это) emergence"
-        ],
-        "examples": [
-            "he never knew what to do in an emergency",
-            "The plane had to make an emergency landing.",
-            "The minister has called an emergency meeting.",
-            "A state of emergency has been declared.",
-            "Surgeons performed an emergency operation.",
-            "Her quick thinking in an emergency saved the baby's life.",
-            "The staff need to know what to do in an emergency.",
-            "They have money put by for an emergency.",
-            "Use the emergency exit in case of fire.",
-            "In case of emergency, press the alarm button.",
-            "she is useless in an emergency",
-            "Emergency repairs were expected to take three weeks.",
-            "Nurses do triage in the emergency room.",
-            "The governor declared a state of emergency.",
-            "They scarcely ever used the emergency generator.",
-            "She's being prepped for an emergency Caesarean now.",
-            "Doors are provided both for regular use and as emergency exits.",
-            "The helicopter had to make an emergency landing.",
-            "She was given emergency treatment by paramedics.",
-            "The city's emergency fund has been drained.",
-            "laden a ship with emergency medical supplies",
-            "The emergency room was overrun with walk-ins.",
-            "The patient was rolled into the emergency room.",
-            "Powdered milk is a good standby in an emergency.",
-            "The number of emergency patients has grown rapidly.",
-            "Nuns are operating an emergency hospital.",
-            "The family kept emergency supplies available.",
-            "He was summoned to attend an emergency meeting.",
-            "centralized control of emergency relief efforts",
-            "Lifeguards are trained to deal with emergencies."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "он никогда не знал, что делать в экстренной ситуации",
-            "Самолёту пришлось совершить аварийную посадку.",
-            "Министр созвал экстренное заседание.",
-            "Было объявлено чрезвычайное положение.",
-            "Хирурги провели срочную операцию.",
-            "Её сообразительность спасла жизнь ребенка во время аварии.",
-            "Сотрудникам необходимо знать, что делать в чрезвычайной ситуации.",
-            "У них есть деньги, отложенные на крайний случай.",
-            "В случае возникновения пожара, воспользуйтесь запасным выходом.",
-            "В случае экстренной необходимости, нажмите на кнопку сигнала тревоги.",
-            "она бесполезна в чрезвычайных ситуациях",
-            "Ожидалось, что аварийно-ремонтные работы займут три недели.",
-            "Медсестры распределяют пациентов (по степени их состояния) в отделении экстренной помощи.",
-            "Губернатор объявил чрезвычайное положение.",
-            "Они почти никогда не использовали аварийный генератор.",
-            "Её сейчас готовят к кесареву сечению.",
-            "Есть двери как для обычного пользования, так и ведущие к аварийным выходам.",
-            "Вертолету пришлось совершить аварийную посадку.",
-            "Медработники оказали ей неотложную помощь.",
-            "Городской резервный фонд исчерпан.",
-            "нагрузить корабль припасами, предназначенными для оказания первой медицинской помощи",
-            "В приёмном покое было полным-полно людей, пришедших без записи.",
-            "Пациента вкатили (на тележке) в отделение реанимации.",
-            "Сухое молоко является хорошим запасом на случай чрезвычайной ситуации.",
-            "Количество неотложных больных быстро выросло.",
-            "Монахини работают в больнице скорой помощи.",
-            "В семье имелся в наличии запас предметов первой необходимости.",
-            "Его вызвали на экстренное совещание.",
-            "централизованное управление аварийно-спасательными работами",
-            "Спасателей учат справляться с чрезвычайными ситуациями."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "emergency": {
+    "comment": [
+      "emerge",
+      "emergence"
+    ],
+    "translate": "аварийный, экстренный, непредвиденный, случай, авария, критическое положение",
+    "transcription": " |iˈmɜːrdʒənsi|",
+    "antonyms": [],
+    "mnemonic": [
+      "emergency [эмэ'рджэнси] запасной - Если он (умер, джинсы) про запас надо с него снять.",
+      "emergency [ɪ'mɜ: dʒənsɪ]\nemergence [ɪ'mɜ:dʒəns]\n***\nНа НЕПРЕДВИДЕННЫЙ СЛУЧАЙ имей|джинсы. (это)\nemergency\nВ ЧРЕЗВЫЧАЙНОЙ СИТУАЦИИ имей|джинсы. (это)\nemergency\nВсегда ЗАПАСНЫЕ имей|джинсы. (это) emergency\n***\nНа ВЫХОД имей|джинсы. (это) emergence"
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "he never knew what to do in an emergency",
+        "ru": "он никогда не знал, что делать в экстренной ситуации",
+        "learn": 0
+      },
+      {
+        "eng": "The plane had to make an emergency landing.",
+        "ru": "Самолёту пришлось совершить аварийную посадку.",
+        "learn": 0
+      },
+      {
+        "eng": "The minister has called an emergency meeting.",
+        "ru": "Министр созвал экстренное заседание.",
+        "learn": 0
+      },
+      {
+        "eng": "A state of emergency has been declared.",
+        "ru": "Было объявлено чрезвычайное положение.",
+        "learn": 0
+      },
+      {
+        "eng": "Surgeons performed an emergency operation.",
+        "ru": "Хирурги провели срочную операцию.",
+        "learn": 1
+      },
+      {
+        "eng": "Her quick thinking in an emergency saved the baby's life.",
+        "ru": "Её сообразительность спасла жизнь ребенка во время аварии.",
+        "learn": 0
+      },
+      {
+        "eng": "The staff need to know what to do in an emergency.",
+        "ru": "Сотрудникам необходимо знать, что делать в чрезвычайной ситуации.",
+        "learn": 0
+      },
+      {
+        "eng": "They have money put by for an emergency.",
+        "ru": "У них есть деньги, отложенные на крайний случай.",
+        "learn": 0
+      },
+      {
+        "eng": "Use the emergency exit in case of fire.",
+        "ru": "В случае возникновения пожара, воспользуйтесь запасным выходом.",
+        "learn": 1
+      },
+      {
+        "eng": "In case of emergency, press the alarm button.",
+        "ru": "В случае экстренной необходимости, нажмите на кнопку сигнала тревоги.",
+        "learn": 0
+      },
+      {
+        "eng": "she is useless in an emergency",
+        "ru": "она бесполезна в чрезвычайных ситуациях",
+        "learn": 1
+      },
+      {
+        "eng": "Emergency repairs were expected to take three weeks.",
+        "ru": "Ожидалось, что аварийно-ремонтные работы займут три недели.",
+        "learn": 0
+      },
+      {
+        "eng": "Nurses do triage in the emergency room.",
+        "ru": "Медсестры распределяют пациентов (по степени их состояния) в отделении экстренной помощи.",
+        "learn": 0
+      },
+      {
+        "eng": "The governor declared a state of emergency.",
+        "ru": "Губернатор объявил чрезвычайное положение.",
+        "learn": 0
+      },
+      {
+        "eng": "They scarcely ever used the emergency generator.",
+        "ru": "Они почти никогда не использовали аварийный генератор.",
+        "learn": 1
+      },
+      {
+        "eng": "She's being prepped for an emergency Caesarean now.",
+        "ru": "Её сейчас готовят к кесареву сечению.",
+        "learn": 0
+      },
+      {
+        "eng": "Doors are provided both for regular use and as emergency exits.",
+        "ru": "Есть двери как для обычного пользования, так и ведущие к аварийным выходам.",
+        "learn": 0
+      },
+      {
+        "eng": "The helicopter had to make an emergency landing.",
+        "ru": "Вертолету пришлось совершить аварийную посадку.",
+        "learn": 1
+      },
+      {
+        "eng": "She was given emergency treatment by paramedics.",
+        "ru": "Медработники оказали ей неотложную помощь.",
+        "learn": 0
+      },
+      {
+        "eng": "The city's emergency fund has been drained.",
+        "ru": "Городской резервный фонд исчерпан.",
+        "learn": 0
+      },
+      {
+        "eng": "laden a ship with emergency medical supplies",
+        "ru": "нагрузить корабль припасами, предназначенными для оказания первой медицинской помощи",
+        "learn": 0
+      },
+      {
+        "eng": "The emergency room was overrun with walk-ins.",
+        "ru": "В приёмном покое было полным-полно людей, пришедших без записи.",
+        "learn": 0
+      },
+      {
+        "eng": "The patient was rolled into the emergency room.",
+        "ru": "Пациента вкатили (на тележке) в отделение реанимации.",
+        "learn": 0
+      },
+      {
+        "eng": "Powdered milk is a good standby in an emergency.",
+        "ru": "Сухое молоко является хорошим запасом на случай чрезвычайной ситуации.",
+        "learn": 0
+      },
+      {
+        "eng": "The number of emergency patients has grown rapidly.",
+        "ru": "Количество неотложных больных быстро выросло.",
+        "learn": 0
+      },
+      {
+        "eng": "Nuns are operating an emergency hospital.",
+        "ru": "Монахини работают в больнице скорой помощи.",
+        "learn": 0
+      },
+      {
+        "eng": "The family kept emergency supplies available.",
+        "ru": "В семье имелся в наличии запас предметов первой необходимости.",
+        "learn": 0
+      },
+      {
+        "eng": "He was summoned to attend an emergency meeting.",
+        "ru": "Его вызвали на экстренное совещание.",
+        "learn": 1
+      },
+      {
+        "eng": "centralized control of emergency relief efforts",
+        "ru": "централизованное управление аварийно-спасательными работами",
+        "learn": 0
+      },
+      {
+        "eng": "Lifeguards are trained to deal with emergencies.",
+        "ru": "Спасателей учат справляться с чрезвычайными ситуациями.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,82 +1,168 @@
 {
-    "hotel": {
-        "comment": [
-            "hot",
-            "shot",
-            "red-hot"
-        ],
-        "translate": "отель, гостиница",
-        "transcription": " |hoʊˈtel|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "We registered at a hotel.",
-            "I'm sorry, the hotel is booked out.",
-            "a crappy hotel",
-            "Turn left after the hotel.",
-            "The hotel has a lovely view.",
-            "Can you fit me up in a good hotel?",
-            "He fixed us up in a good hotel.",
-            "We reserved a hotel room.",
-            "The hotel room had a gorgeous view.",
-            "The hotel is no go for dogs.",
-            "The hotel has a licensed bar.",
-            "a hotel room with a kitchenette",
-            "The hotel charges $125 a night.",
-            "We'll be staying at the Hotel Ibis.",
-            "The hotel fell short of our expectations.",
-            "I have a hotel reservation.",
-            "They were whisked into the hotel.",
-            "He graduated to chef at the Hotel.",
-            "The hotel's expansive dining room.",
-            "There's another hotel not far away.",
-            "I met the owner of the local hotel.",
-            "the 300 workers who staff the hotel",
-            "The hotel does a very good set menu.",
-            "Bruce graduated to chef at the Hotel.",
-            "There were no vacancies at the hotel.",
-            "My hotel room looks out across the lake.",
-            "I decided not to waste money on a hotel.",
-            "Will a hotel here be financially viable?",
-            "The hotel bar was only open to residents.",
-            "We resorted to the hotel for some coffee."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Мы зарегистрировались в гостинице.",
-            "Мне очень жаль, но в гостинице нет мест.",
-            "дерьмовый отель / дрянная гостиница",
-            "После гостиницы поверните налево.",
-            "Из отеля открывается прекрасный вид.",
-            "Не посоветуешь мне хороший отель?",
-            "Он устроил нас в хорошей гостинице.",
-            "Мы забронировали гостиничный номер.",
-            "Из гостиничного номера был шикарный вид.",
-            "В гостиницу нельзя входить с собаками.",
-            "В гостинице имеется бар с лицензией на продажу спиртного.",
-            "гостиничный номер с небольшой кухонькой",
-            "Гостиница берёт сто двадцать пять долларов за ночь.",
-            "Мы остановимся в отеле \"Ибис\".",
-            "Гостиница не оправдала наших ожиданий.",
-            "У меня заказан номер в гостинице.",
-            "Их быстро отправили в гостиницу.",
-            "Он поднялся до шеф-повара отеля.",
-            "Просторный обеденный зал отеля.",
-            "Там неподалёку есть другая гостиница.",
-            "Я встретил владельца местной гостиницы.",
-            "триста сотрудников, составляющих персонал этой гостиницы",
-            "В этой гостинице очень хорошее комплексное меню.",
-            "Брюс поднялся до шеф-повара отеля.",
-            "В отеле не было мест.",
-            "Окна моего номера выходят на озеро.",
-            "Я решил не тратить денег на гостиницу.",
-            "Гостиница, расположенная здесь, будет рентабельной?",
-            "Бар при гостинице был открыт только для лиц, проживающих в гостинице.",
-            "Мы заходили в отель выпить кофе."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "hotel": {
+    "comment": [
+      "hot",
+      "shot",
+      "red-hot"
+    ],
+    "translate": "отель, гостиница",
+    "transcription": " |hoʊˈtel|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "We registered at a hotel.",
+        "ru": "Мы зарегистрировались в гостинице.",
+        "learn": 0
+      },
+      {
+        "eng": "I'm sorry, the hotel is booked out.",
+        "ru": "Мне очень жаль, но в гостинице нет мест.",
+        "learn": 0
+      },
+      {
+        "eng": "a crappy hotel",
+        "ru": "дерьмовый отель / дрянная гостиница",
+        "learn": 0
+      },
+      {
+        "eng": "Turn left after the hotel.",
+        "ru": "После гостиницы поверните налево.",
+        "learn": 1
+      },
+      {
+        "eng": "The hotel has a lovely view.",
+        "ru": "Из отеля открывается прекрасный вид.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you fit me up in a good hotel?",
+        "ru": "Не посоветуешь мне хороший отель?",
+        "learn": 0
+      },
+      {
+        "eng": "He fixed us up in a good hotel.",
+        "ru": "Он устроил нас в хорошей гостинице.",
+        "learn": 0
+      },
+      {
+        "eng": "We reserved a hotel room.",
+        "ru": "Мы забронировали гостиничный номер.",
+        "learn": 1
+      },
+      {
+        "eng": "The hotel room had a gorgeous view.",
+        "ru": "Из гостиничного номера был шикарный вид.",
+        "learn": 1
+      },
+      {
+        "eng": "The hotel is no go for dogs.",
+        "ru": "В гостиницу нельзя входить с собаками.",
+        "learn": 0
+      },
+      {
+        "eng": "The hotel has a licensed bar.",
+        "ru": "В гостинице имеется бар с лицензией на продажу спиртного.",
+        "learn": 0
+      },
+      {
+        "eng": "a hotel room with a kitchenette",
+        "ru": "гостиничный номер с небольшой кухонькой",
+        "learn": 0
+      },
+      {
+        "eng": "The hotel charges $125 a night.",
+        "ru": "Гостиница берёт сто двадцать пять долларов за ночь.",
+        "learn": 0
+      },
+      {
+        "eng": "We'll be staying at the Hotel Ibis.",
+        "ru": "Мы остановимся в отеле \"Ибис\".",
+        "learn": 0
+      },
+      {
+        "eng": "The hotel fell short of our expectations.",
+        "ru": "Гостиница не оправдала наших ожиданий.",
+        "learn": 0
+      },
+      {
+        "eng": "I have a hotel reservation.",
+        "ru": "У меня заказан номер в гостинице.",
+        "learn": 0
+      },
+      {
+        "eng": "They were whisked into the hotel.",
+        "ru": "Их быстро отправили в гостиницу.",
+        "learn": 0
+      },
+      {
+        "eng": "He graduated to chef at the Hotel.",
+        "ru": "Он поднялся до шеф-повара отеля.",
+        "learn": 0
+      },
+      {
+        "eng": "The hotel's expansive dining room.",
+        "ru": "Просторный обеденный зал отеля.",
+        "learn": 0
+      },
+      {
+        "eng": "There's another hotel not far away.",
+        "ru": "Там неподалёку есть другая гостиница.",
+        "learn": 0
+      },
+      {
+        "eng": "I met the owner of the local hotel.",
+        "ru": "Я встретил владельца местной гостиницы.",
+        "learn": 0
+      },
+      {
+        "eng": "the 300 workers who staff the hotel",
+        "ru": "триста сотрудников, составляющих персонал этой гостиницы",
+        "learn": 0
+      },
+      {
+        "eng": "The hotel does a very good set menu.",
+        "ru": "В этой гостинице очень хорошее комплексное меню.",
+        "learn": 0
+      },
+      {
+        "eng": "Bruce graduated to chef at the Hotel.",
+        "ru": "Брюс поднялся до шеф-повара отеля.",
+        "learn": 0
+      },
+      {
+        "eng": "There were no vacancies at the hotel.",
+        "ru": "В отеле не было мест.",
+        "learn": 1
+      },
+      {
+        "eng": "My hotel room looks out across the lake.",
+        "ru": "Окна моего номера выходят на озеро.",
+        "learn": 0
+      },
+      {
+        "eng": "I decided not to waste money on a hotel.",
+        "ru": "Я решил не тратить денег на гостиницу.",
+        "learn": 0
+      },
+      {
+        "eng": "Will a hotel here be financially viable?",
+        "ru": "Гостиница, расположенная здесь, будет рентабельной?",
+        "learn": 1
+      },
+      {
+        "eng": "The hotel bar was only open to residents.",
+        "ru": "Бар при гостинице был открыт только для лиц, проживающих в гостинице.",
+        "learn": 1
+      },
+      {
+        "eng": "We resorted to the hotel for some coffee.",
+        "ru": "Мы заходили в отель выпить кофе.",
+        "learn": 0
+      }
+    ]
+  }
 }

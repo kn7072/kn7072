@@ -1,84 +1,171 @@
 {
-    "phone": {
-        "comment": [
-            "telephone",
-            "cellphone",
-            "mobile phone",
-            "microphone"
-        ],
-        "translate": "телефон, фона, звонить по телефону",
-        "transcription": " |foʊn|",
-        "antonyms": [],
-        "mnemonic": [],
-        "examples": [
-            "Can I use your phone?",
-            "Call me on my cell phone.",
-            "What's your phone number?",
-            "All phone calls are logged.",
-            "PHONE BOOTH",
-            "I'm expecting a phone call.",
-            "You're wanted on the phone.",
-            "I'll phone him right away.",
-            "Is Rachel still on the phone?",
-            "The phone cord doesn't reach.",
-            "The phone bill hasn't come yet.",
-            "Tell me your phone number again.",
-            "They phone each other off and on.",
-            "His phone calls were intercepted.",
-            "Can you get the phone?",
-            "The phone box smelt of sick.",
-            "The phone trilled sharply.",
-            "She banged the phone down.",
-            "The phone rang. It was Pam.",
-            "We exchanged phone numbers.",
-            "The phone jolted him awake.",
-            "You are wanted on the phone.",
-            "I'll phone you this evening.",
-            "I had a phone call from John.",
-            "Can you get the phone, please?",
-            "He handed the phone over to me.",
-            "The phone is out of order again.",
-            "For information phone 8279-3772.",
-            "The phone rang at the other end.",
-            "Blow it! I forgot to phone Jane."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Можно воспользоваться вашим телефоном?",
-            "Позвоните мне на сотовый телефон.",
-            "Какой у вас номер телефона?",
-            "Все телефонные звонки записываются.",
-            "Телефонная будка",
-            "Я жду телефонного звонка.",
-            "Вас зовут к телефону.",
-            "Я позвоню ему прямо сейчас.",
-            "Рейчел всё ещё на телефоне?",
-            "Телефонный шнур слишком короткий.",
-            "Счёт за телефон ещё не приходил.",
-            "Повтори-ка мне ещё раз свой номер.",
-            "Они созваниваются время от времени.",
-            "Его телефонные звонки были перехвачены.",
-            "Можешь принести телефон? / Принеси, пожалуйста, телефон.",
-            "Телефонная будка воняла рвотой.",
-            "Телефон издал резкую трель.",
-            "Она швырнула трубку на рычаг.",
-            "Зазвонил телефон. Это была Пэм (женское имя).",
-            "Мы обменялись номерами телефонов.",
-            "Он резко проснулся от телефонного звонка.",
-            "Вас к телефону.",
-            "Я позвоню вам сегодня вечером.",
-            "Мне позвонил Джон.",
-            "Сними, пожалуйста, трубку.",
-            "Он передал телефон мне.",
-            "Телефон снова сломался. / Телефон опять не работает.",
-            "Для информации звоните по телефону 8279-3772.",
-            "На другом конце (комнаты) зазвонил телефон.",
-            "Вот блин /Чёрт/! Я забыл позвонить Джейн."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "ph_=_[f]"
-        ]
-    }
+  "phone": {
+    "comment": [
+      "telephone",
+      "cellphone",
+      "mobile phone",
+      "microphone"
+    ],
+    "translate": "телефон, фона, звонить по телефону",
+    "transcription": " |foʊn|",
+    "antonyms": [],
+    "mnemonic": [],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "ph_=_[f]"
+    ],
+    "examples": [
+      {
+        "eng": "Can I use your phone?",
+        "ru": "Можно воспользоваться вашим телефоном?",
+        "learn": 1
+      },
+      {
+        "eng": "Call me on my cell phone.",
+        "ru": "Позвоните мне на сотовый телефон.",
+        "learn": 0
+      },
+      {
+        "eng": "What's your phone number?",
+        "ru": "Какой у вас номер телефона?",
+        "learn": 0
+      },
+      {
+        "eng": "All phone calls are logged.",
+        "ru": "Все телефонные звонки записываются.",
+        "learn": 1
+      },
+      {
+        "eng": "PHONE BOOTH",
+        "ru": "Телефонная будка",
+        "learn": 0
+      },
+      {
+        "eng": "I'm expecting a phone call.",
+        "ru": "Я жду телефонного звонка.",
+        "learn": 0
+      },
+      {
+        "eng": "You're wanted on the phone.",
+        "ru": "Вас зовут к телефону.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll phone him right away.",
+        "ru": "Я позвоню ему прямо сейчас.",
+        "learn": 0
+      },
+      {
+        "eng": "Is Rachel still on the phone?",
+        "ru": "Рейчел всё ещё на телефоне?",
+        "learn": 0
+      },
+      {
+        "eng": "The phone cord doesn't reach.",
+        "ru": "Телефонный шнур слишком короткий.",
+        "learn": 0
+      },
+      {
+        "eng": "The phone bill hasn't come yet.",
+        "ru": "Счёт за телефон ещё не приходил.",
+        "learn": 1
+      },
+      {
+        "eng": "Tell me your phone number again.",
+        "ru": "Повтори-ка мне ещё раз свой номер.",
+        "learn": 0
+      },
+      {
+        "eng": "They phone each other off and on.",
+        "ru": "Они созваниваются время от времени.",
+        "learn": 0
+      },
+      {
+        "eng": "His phone calls were intercepted.",
+        "ru": "Его телефонные звонки были перехвачены.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you get the phone?",
+        "ru": "Можешь принести телефон? / Принеси, пожалуйста, телефон.",
+        "learn": 0
+      },
+      {
+        "eng": "The phone box smelt of sick.",
+        "ru": "Телефонная будка воняла рвотой.",
+        "learn": 0
+      },
+      {
+        "eng": "The phone trilled sharply.",
+        "ru": "Телефон издал резкую трель.",
+        "learn": 0
+      },
+      {
+        "eng": "She banged the phone down.",
+        "ru": "Она швырнула трубку на рычаг.",
+        "learn": 0
+      },
+      {
+        "eng": "The phone rang. It was Pam.",
+        "ru": "Зазвонил телефон. Это была Пэм (женское имя).",
+        "learn": 0
+      },
+      {
+        "eng": "We exchanged phone numbers.",
+        "ru": "Мы обменялись номерами телефонов.",
+        "learn": 0
+      },
+      {
+        "eng": "The phone jolted him awake.",
+        "ru": "Он резко проснулся от телефонного звонка.",
+        "learn": 0
+      },
+      {
+        "eng": "You are wanted on the phone.",
+        "ru": "Вас к телефону.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll phone you this evening.",
+        "ru": "Я позвоню вам сегодня вечером.",
+        "learn": 0
+      },
+      {
+        "eng": "I had a phone call from John.",
+        "ru": "Мне позвонил Джон.",
+        "learn": 0
+      },
+      {
+        "eng": "Can you get the phone, please?",
+        "ru": "Сними, пожалуйста, трубку.",
+        "learn": 0
+      },
+      {
+        "eng": "He handed the phone over to me.",
+        "ru": "Он передал телефон мне.",
+        "learn": 0
+      },
+      {
+        "eng": "The phone is out of order again.",
+        "ru": "Телефон снова сломался. / Телефон опять не работает.",
+        "learn": 0
+      },
+      {
+        "eng": "For information phone 8279-3772.",
+        "ru": "Для информации звоните по телефону 8279-3772.",
+        "learn": 0
+      },
+      {
+        "eng": "The phone rang at the other end.",
+        "ru": "На другом конце (комнаты) зазвонил телефон.",
+        "learn": 0
+      },
+      {
+        "eng": "Blow it! I forgot to phone Jane.",
+        "ru": "Вот блин /Чёрт/! Я забыл позвонить Джейн.",
+        "learn": 0
+      }
+    ]
+  }
 }

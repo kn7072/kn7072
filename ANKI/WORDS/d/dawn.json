@@ -1,83 +1,169 @@
 {
-    "dawn": {
-        "comment": [
-            "yawn",
-            "lawn"
-        ],
-        "translate": "рассвет, заря, начало, утренняя заря, рассветать, светать, начинаться",
-        "transcription": " |dɔːn|",
-        "antonyms": [],
-        "mnemonic": [
-            "dawn [до:н] рассвет - (Дон) Карлеоне на рассвете сдох."
-        ],
-        "examples": [
-            "Dawn comes early in June.",
-            "The age of computers had dawned",
-            "The army struck at dawn.",
-            "A new age is dawning.",
-            "The truth finally dawned on / upon us.",
-            "That day marked a new dawn in the country's history.",
-            "The troops invaded at dawn.",
-            "The attack began at dawn.",
-            "The dawn turned night into day.",
-            "He goes to bed at the crack of dawn",
-            "The two lovers parted at dawn.",
-            "We drove all night and arrived at dawn.",
-            "Winter brings late dawns and early sunsets.",
-            "The age of Darwin had dawned.",
-            "It dawned on him that she had betrayed him.",
-            "People have been falling in love since the dawn of time.",
-            "Hong Kong buzzes from dawn to dusk at a dizzy pace.",
-            "They waited for the day to dawn.",
-            "I was up at the first streak of dawn / at the crack of dawn / at the break of dawn.",
-            "Dawn is well qualified for her new role.",
-            "The strike was scheduled to begin at dawn.",
-            "The dawn was filled with the sound of birds.",
-            "Dawn was breaking by the time we arrived home.",
-            "At the crack of dawn the snowmobiles would be at work, compacting new snow and planing off exaggerated moguls (bumps).",
-            "The troops attacked at dawn.",
-            "Troops attacked the fortress at dawn.",
-            "The shooting party set off shortly before dawn.",
-            "We were up at the crack of dawn.",
-            "The army launched a counteroffensive at dawn.",
-            "The valley was bathed in the soft light of dawn."
-        ],
-        "example_translate": [
-            "В июне светает рано.",
-            "Наступила эра компьютеров.",
-            "Армия атаковала на рассвете.",
-            "Наступает новая эпоха.",
-            "Наконец-то нам открылась вся правда.",
-            "Этот день ознаменовал новую эру в истории страны.",
-            "Войска вторглись на рассвете.",
-            "Атака началась на рассвете.",
-            "Рассвет превратил ночь в день.",
-            "Он ложится спать на рассвете.",
-            "Влюблённые /любовники/ расстались на рассвете.",
-            "Мы ехали всю ночь и прибыли на рассвете.",
-            "Зима приносит с собой поздние рассветы и ранние закаты.",
-            "Настал век Дарвина.",
-            "Он вдруг осознал, что она его предала.",
-            "Люди влюбляются (друг в друга) с незапамятных времен.",
-            "Гонконг гудит от рассвета до заката в головокружительном темпе.",
-            "Они подождали рассвета.",
-            "Я встал, едва забрезжил рассвет.",
-            "Дон хорошо подходит для своей новой роли.",
-            "Забастовка должна была начаться на рассвете.",
-            "Рассветный воздух наполнился птичьим щебетом.",
-            "Когда мы приехали домой, уже начало светать.",
-            "На рассвете аэросани отправятся утрамбовывать выпавший снег и выравнивать лыжню.",
-            "Войска атаковали на рассвете.",
-            "Войска атаковали крепость на рассвете.",
-            "Охотники отправились в путь незадолго до рассвета.",
-            "Мы встали спозаранку.",
-            "Армия начала контрнаступление на рассвете.",
-            "Долина купалась в мягком свете зари."
-        ],
-        "synonyms": [],
-        "stars": 2,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "dawn": {
+    "comment": [
+      "yawn",
+      "lawn"
+    ],
+    "translate": "рассвет, заря, начало, утренняя заря, рассветать, светать, начинаться",
+    "transcription": " |dɔːn|",
+    "antonyms": [],
+    "mnemonic": [
+      "dawn [до:н] рассвет - (Дон) Карлеоне на рассвете сдох."
+    ],
+    "synonyms": [],
+    "stars": 2,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "Dawn comes early in June.",
+        "ru": "В июне светает рано.",
+        "learn": 0
+      },
+      {
+        "eng": "The age of computers had dawned",
+        "ru": "Наступила эра компьютеров.",
+        "learn": 0
+      },
+      {
+        "eng": "The army struck at dawn.",
+        "ru": "Армия атаковала на рассвете.",
+        "learn": 1
+      },
+      {
+        "eng": "A new age is dawning.",
+        "ru": "Наступает новая эпоха.",
+        "learn": 0
+      },
+      {
+        "eng": "The truth finally dawned on / upon us.",
+        "ru": "Наконец-то нам открылась вся правда.",
+        "learn": 0
+      },
+      {
+        "eng": "That day marked a new dawn in the country's history.",
+        "ru": "Этот день ознаменовал новую эру в истории страны.",
+        "learn": 0
+      },
+      {
+        "eng": "The troops invaded at dawn.",
+        "ru": "Войска вторглись на рассвете.",
+        "learn": 0
+      },
+      {
+        "eng": "The attack began at dawn.",
+        "ru": "Атака началась на рассвете.",
+        "learn": 0
+      },
+      {
+        "eng": "The dawn turned night into day.",
+        "ru": "Рассвет превратил ночь в день.",
+        "learn": 0
+      },
+      {
+        "eng": "He goes to bed at the crack of dawn",
+        "ru": "Он ложится спать на рассвете.",
+        "learn": 0
+      },
+      {
+        "eng": "The two lovers parted at dawn.",
+        "ru": "Влюблённые /любовники/ расстались на рассвете.",
+        "learn": 0
+      },
+      {
+        "eng": "We drove all night and arrived at dawn.",
+        "ru": "Мы ехали всю ночь и прибыли на рассвете.",
+        "learn": 0
+      },
+      {
+        "eng": "Winter brings late dawns and early sunsets.",
+        "ru": "Зима приносит с собой поздние рассветы и ранние закаты.",
+        "learn": 0
+      },
+      {
+        "eng": "The age of Darwin had dawned.",
+        "ru": "Настал век Дарвина.",
+        "learn": 0
+      },
+      {
+        "eng": "It dawned on him that she had betrayed him.",
+        "ru": "Он вдруг осознал, что она его предала.",
+        "learn": 0
+      },
+      {
+        "eng": "People have been falling in love since the dawn of time.",
+        "ru": "Люди влюбляются (друг в друга) с незапамятных времен.",
+        "learn": 0
+      },
+      {
+        "eng": "Hong Kong buzzes from dawn to dusk at a dizzy pace.",
+        "ru": "Гонконг гудит от рассвета до заката в головокружительном темпе.",
+        "learn": 0
+      },
+      {
+        "eng": "They waited for the day to dawn.",
+        "ru": "Они подождали рассвета.",
+        "learn": 0
+      },
+      {
+        "eng": "I was up at the first streak of dawn / at the crack of dawn / at the break of dawn.",
+        "ru": "Я встал, едва забрезжил рассвет.",
+        "learn": 0
+      },
+      {
+        "eng": "Dawn is well qualified for her new role.",
+        "ru": "Дон хорошо подходит для своей новой роли.",
+        "learn": 0
+      },
+      {
+        "eng": "The strike was scheduled to begin at dawn.",
+        "ru": "Забастовка должна была начаться на рассвете.",
+        "learn": 1
+      },
+      {
+        "eng": "The dawn was filled with the sound of birds.",
+        "ru": "Рассветный воздух наполнился птичьим щебетом.",
+        "learn": 0
+      },
+      {
+        "eng": "Dawn was breaking by the time we arrived home.",
+        "ru": "Когда мы приехали домой, уже начало светать.",
+        "learn": 0
+      },
+      {
+        "eng": "At the crack of dawn the snowmobiles would be at work, compacting new snow and planing off exaggerated moguls (bumps).",
+        "ru": "На рассвете аэросани отправятся утрамбовывать выпавший снег и выравнивать лыжню.",
+        "learn": 0
+      },
+      {
+        "eng": "The troops attacked at dawn.",
+        "ru": "Войска атаковали на рассвете.",
+        "learn": 0
+      },
+      {
+        "eng": "Troops attacked the fortress at dawn.",
+        "ru": "Войска атаковали крепость на рассвете.",
+        "learn": 0
+      },
+      {
+        "eng": "The shooting party set off shortly before dawn.",
+        "ru": "Охотники отправились в путь незадолго до рассвета.",
+        "learn": 0
+      },
+      {
+        "eng": "We were up at the crack of dawn.",
+        "ru": "Мы встали спозаранку.",
+        "learn": 0
+      },
+      {
+        "eng": "The army launched a counteroffensive at dawn.",
+        "ru": "Армия начала контрнаступление на рассвете.",
+        "learn": 0
+      },
+      {
+        "eng": "The valley was bathed in the soft light of dawn.",
+        "ru": "Долина купалась в мягком свете зари.",
+        "learn": 0
+      }
+    ]
+  }
 }

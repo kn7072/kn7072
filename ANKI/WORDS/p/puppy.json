@@ -1,68 +1,130 @@
 {
-    "puppy": {
-        "comment": [
-            "floppy",
-            "happy",
-            "unhappy"
-        ],
-        "translate": "щенок, молокосос, молодой тюлень, самодовольный фат, глупый юнец",
-        "transcription": " |ˈpʌpɪ|",
-        "antonyms": [],
-        "mnemonic": [
-            "puppy [папи] щенок - (Папи-сал) щенок на ковёр."
-        ],
-        "examples": [
-            "What a cute puppy! Is it a he or a she?",
-            "Our dog just had four puppies.",
-            "The puppy had woeful eyes.",
-            "The puppy slobbered all over me.",
-            "The puppy was gnawing on a bone.",
-            "I could hear the puppy whimpering.",
-            "I could hear the puppy's whimpers.",
-            "Don't let the puppy out of your sight.",
-            "What are you going to call the new puppy?",
-            "The puppy snuggled up against the sleeping boy.",
-            "How do you turn this puppy off?",
-            "The puppy wiggled with excitement.",
-            "Found: female puppy, white with brown patches.",
-            "A puppy is naturally affectionate and excitable.",
-            "The puppy came with papers proving its pedigree.",
-            "The defiant puppy refused to let go of the football.",
-            "The puppy ran up to us, dragging her leash behind her.",
-            "We could hear the puppy yipping playfully in its kennel.",
-            "The puppy, which may have rabies, is at a quarantine kennel.",
-            "The gift of a puppy finally educed a response from the shy boy.",
-            "Animal welfare workers were disgusted that anyone could do this to a puppy.",
-            "The puppy's plaintive expression after we put the toy away was rather amusing."
-        ],
-        "example_translate": [
-            "Какой милый щеночек! Это мальчик или девочка?",
-            "У нашей собаки было только четыре щенка.",
-            "У щенка были грустные глаза.",
-            "Щенок меня всего обслюнявил.",
-            "Щенок грыз кость.",
-            "Я слышал как скулит щенок. (досл: скуление/плач щенка)",
-            "Я слышал, как скулит щенок.",
-            "Не выпускайте щенка из виду.",
-            "Как вы собираетесь назвать нового щенка?",
-            "Щенок прижался к спящему мальчику.",
-            "Как выключить эту штуку? (амер., разг.)",
-            "Щенок возбуждённо ёрзал.",
-            "Найден щенок, девочка, белый с коричневыми подпалинами.",
-            "Щенята — существа от природы ласковые и восторженные.",
-            "К щенку прилагались документы, удостоверяющие его родословную.",
-            "Непослушный щенок отказался отпускать футбольный мяч.",
-            "Щенок подбежал к нам, волоча за собой поводок.",
-            "Мы слышали, как у себя в конуре игриво тявкает щенок.",
-            "Щенок с подозрением на бешенство находится в карантинной зоне питомника.",
-            "Подаренному щенку всё-таки удалось вызвать ответную реакцию у этого робкого мальчугана.",
-            "Защитникам прав животных было противно, что кто-то мог так обойтись со щенком.",
-            "Было весьма забавно смотреть на жалобную морду щенка, когда мы забрали у него эту игрушку."
-        ],
-        "synonyms": [],
-        "stars": 1,
-        "groups": [
-            "all_words"
-        ]
-    }
+  "puppy": {
+    "comment": [
+      "floppy",
+      "happy",
+      "unhappy"
+    ],
+    "translate": "щенок, молокосос, молодой тюлень, самодовольный фат, глупый юнец",
+    "transcription": " |ˈpʌpɪ|",
+    "antonyms": [],
+    "mnemonic": [
+      "puppy [папи] щенок - (Папи-сал) щенок на ковёр."
+    ],
+    "synonyms": [],
+    "stars": 1,
+    "groups": [],
+    "examples": [
+      {
+        "eng": "What a cute puppy! Is it a he or a she?",
+        "ru": "Какой милый щеночек! Это мальчик или девочка?",
+        "learn": 1
+      },
+      {
+        "eng": "Our dog just had four puppies.",
+        "ru": "У нашей собаки было только четыре щенка.",
+        "learn": 1
+      },
+      {
+        "eng": "The puppy had woeful eyes.",
+        "ru": "У щенка были грустные глаза.",
+        "learn": 0
+      },
+      {
+        "eng": "The puppy slobbered all over me.",
+        "ru": "Щенок меня всего обслюнявил.",
+        "learn": 0
+      },
+      {
+        "eng": "The puppy was gnawing on a bone.",
+        "ru": "Щенок грыз кость.",
+        "learn": 0
+      },
+      {
+        "eng": "I could hear the puppy whimpering.",
+        "ru": "Я слышал как скулит щенок. (досл: скуление/плач щенка)",
+        "learn": 0
+      },
+      {
+        "eng": "I could hear the puppy's whimpers.",
+        "ru": "Я слышал, как скулит щенок.",
+        "learn": 0
+      },
+      {
+        "eng": "Don't let the puppy out of your sight.",
+        "ru": "Не выпускайте щенка из виду.",
+        "learn": 0
+      },
+      {
+        "eng": "What are you going to call the new puppy?",
+        "ru": "Как вы собираетесь назвать нового щенка?",
+        "learn": 1
+      },
+      {
+        "eng": "The puppy snuggled up against the sleeping boy.",
+        "ru": "Щенок прижался к спящему мальчику.",
+        "learn": 0
+      },
+      {
+        "eng": "How do you turn this puppy off?",
+        "ru": "Как выключить эту штуку? (амер., разг.)",
+        "learn": 0
+      },
+      {
+        "eng": "The puppy wiggled with excitement.",
+        "ru": "Щенок возбуждённо ёрзал.",
+        "learn": 0
+      },
+      {
+        "eng": "Found: female puppy, white with brown patches.",
+        "ru": "Найден щенок, девочка, белый с коричневыми подпалинами.",
+        "learn": 0
+      },
+      {
+        "eng": "A puppy is naturally affectionate and excitable.",
+        "ru": "Щенята — существа от природы ласковые и восторженные.",
+        "learn": 0
+      },
+      {
+        "eng": "The puppy came with papers proving its pedigree.",
+        "ru": "К щенку прилагались документы, удостоверяющие его родословную.",
+        "learn": 0
+      },
+      {
+        "eng": "The defiant puppy refused to let go of the football.",
+        "ru": "Непослушный щенок отказался отпускать футбольный мяч.",
+        "learn": 0
+      },
+      {
+        "eng": "The puppy ran up to us, dragging her leash behind her.",
+        "ru": "Щенок подбежал к нам, волоча за собой поводок.",
+        "learn": 0
+      },
+      {
+        "eng": "We could hear the puppy yipping playfully in its kennel.",
+        "ru": "Мы слышали, как у себя в конуре игриво тявкает щенок.",
+        "learn": 0
+      },
+      {
+        "eng": "The puppy, which may have rabies, is at a quarantine kennel.",
+        "ru": "Щенок с подозрением на бешенство находится в карантинной зоне питомника.",
+        "learn": 0
+      },
+      {
+        "eng": "The gift of a puppy finally educed a response from the shy boy.",
+        "ru": "Подаренному щенку всё-таки удалось вызвать ответную реакцию у этого робкого мальчугана.",
+        "learn": 0
+      },
+      {
+        "eng": "Animal welfare workers were disgusted that anyone could do this to a puppy.",
+        "ru": "Защитникам прав животных было противно, что кто-то мог так обойтись со щенком.",
+        "learn": 0
+      },
+      {
+        "eng": "The puppy's plaintive expression after we put the toy away was rather amusing.",
+        "ru": "Было весьма забавно смотреть на жалобную морду щенка, когда мы забрали у него эту игрушку.",
+        "learn": 0
+      }
+    ]
+  }
 }

@@ -1,69 +1,135 @@
 {
-    "always": {
-        "comment": [
-            "way"
-        ],
-        "translate": "всегда, постоянно, вечно, вообще",
-        "transcription": " |ˈɔːlweɪz|",
-        "antonyms": [],
-        "mnemonic": [
-            "always [о'луэс] всегда - Прокладки (олуэс) всегда при ней."
-        ],
-        "examples": [
-            "I will always love you.",
-            "I'll always remember that day.",
-            "Life won't always be this easy.",
-            "I can always tell when he's upset.",
-            "He always tries, but he doesn't always succeed.",
-            "He hadn't always been a butler.",
-            "I've always wanted to go to Paris.",
-            "I shall treasure it always.",
-            "You could always take a day off.",
-            "You're always welcome to stay with us.",
-            "It's always a pleasure to see you.",
-            "Isn't that what you've always wanted?",
-            "He has always been a good friend to me.",
-            "That woman next door's always complaining.",
-            "John's always been keen on music.",
-            "Things won't always go as planned.",
-            "I will always be there to help you.",
-            "This area is always filled with tourists.",
-            "There is always some pollution in the air.",
-            "You can always resign if you don't like it.",
-            "Always lock your bicycle to something secure.",
-            "She'd always assumed that Gabriel was a girl's name.",
-            "I always thought they'd get married some day, but they never did."
-        ],
-        "synonyms": [],
-        "example_translate": [
-            "Я всегда буду любить тебя.",
-            "Я всегда буду помнить тот день.",
-            "В жизни не всегда будет так легко и просто, как теперь.",
-            "Я всегда знаю, когда он расстроен.",
-            "Он всегда старается, но не всегда у него получается.",
-            "Он не всегда был дворецким.",
-            "Я всегда хотела поехать в Париж.",
-            "Я буду хранить это вечно.",
-            "В случае чего, можно взять выходной.",
-            "Вы всегда можете у нас погостить.",
-            "Всегда рад вас видеть.",
-            "Разве не этого ты всегда хотел?",
-            "Он всегда был мне хорошим другом.",
-            "Та женщина, соседка, постоянно жалуется.",
-            "Джон всегда увлекался музыкой.",
-            "Всё не всегда будет идти так, как запланировано.",
-            "Я всегда приду к тебе на помощь.",
-            "В этом районе всегда полно туристов.",
-            "В воздухе всегда есть какое-то загрязнение.",
-            "Если вам это не нравится, всегда можно уволиться.",
-            "Всегда пристёгивайте велосипед к чему-то надёжному.",
-            "Она всегда думала, что Габриэль — это женское имя.",
-            "Я всегда думал, что они когда-нибудь поженятся, но этого так и не случилось."
-        ],
-        "stars": 3,
-        "groups": [
-            "all_words",
-            "al_+_Сг_=_[ɔːl]"
-        ]
-    }
+  "always": {
+    "comment": [
+      "way"
+    ],
+    "translate": "всегда, постоянно, вечно, вообще",
+    "transcription": " |ˈɔːlweɪz|",
+    "antonyms": [],
+    "mnemonic": [
+      "always [о'луэс] всегда - Прокладки (олуэс) всегда при ней."
+    ],
+    "synonyms": [],
+    "stars": 3,
+    "groups": [
+      "al_+_Сг_=_[ɔːl]"
+    ],
+    "examples": [
+      {
+        "eng": "I will always love you.",
+        "ru": "Я всегда буду любить тебя.",
+        "learn": 0
+      },
+      {
+        "eng": "I'll always remember that day.",
+        "ru": "Я всегда буду помнить тот день.",
+        "learn": 0
+      },
+      {
+        "eng": "Life won't always be this easy.",
+        "ru": "В жизни не всегда будет так легко и просто, как теперь.",
+        "learn": 0
+      },
+      {
+        "eng": "I can always tell when he's upset.",
+        "ru": "Я всегда знаю, когда он расстроен.",
+        "learn": 1
+      },
+      {
+        "eng": "He always tries, but he doesn't always succeed.",
+        "ru": "Он всегда старается, но не всегда у него получается.",
+        "learn": 0
+      },
+      {
+        "eng": "He hadn't always been a butler.",
+        "ru": "Он не всегда был дворецким.",
+        "learn": 0
+      },
+      {
+        "eng": "I've always wanted to go to Paris.",
+        "ru": "Я всегда хотела поехать в Париж.",
+        "learn": 0
+      },
+      {
+        "eng": "I shall treasure it always.",
+        "ru": "Я буду хранить это вечно.",
+        "learn": 0
+      },
+      {
+        "eng": "You could always take a day off.",
+        "ru": "В случае чего, можно взять выходной.",
+        "learn": 0
+      },
+      {
+        "eng": "You're always welcome to stay with us.",
+        "ru": "Вы всегда можете у нас погостить.",
+        "learn": 0
+      },
+      {
+        "eng": "It's always a pleasure to see you.",
+        "ru": "Всегда рад вас видеть.",
+        "learn": 0
+      },
+      {
+        "eng": "Isn't that what you've always wanted?",
+        "ru": "Разве не этого ты всегда хотел?",
+        "learn": 0
+      },
+      {
+        "eng": "He has always been a good friend to me.",
+        "ru": "Он всегда был мне хорошим другом.",
+        "learn": 0
+      },
+      {
+        "eng": "That woman next door's always complaining.",
+        "ru": "Та женщина, соседка, постоянно жалуется.",
+        "learn": 0
+      },
+      {
+        "eng": "John's always been keen on music.",
+        "ru": "Джон всегда увлекался музыкой.",
+        "learn": 0
+      },
+      {
+        "eng": "Things won't always go as planned.",
+        "ru": "Всё не всегда будет идти так, как запланировано.",
+        "learn": 0
+      },
+      {
+        "eng": "I will always be there to help you.",
+        "ru": "Я всегда приду к тебе на помощь.",
+        "learn": 0
+      },
+      {
+        "eng": "This area is always filled with tourists.",
+        "ru": "В этом районе всегда полно туристов.",
+        "learn": 0
+      },
+      {
+        "eng": "There is always some pollution in the air.",
+        "ru": "В воздухе всегда есть какое-то загрязнение.",
+        "learn": 0
+      },
+      {
+        "eng": "You can always resign if you don't like it.",
+        "ru": "Если вам это не нравится, всегда можно уволиться.",
+        "learn": 0
+      },
+      {
+        "eng": "Always lock your bicycle to something secure.",
+        "ru": "Всегда пристёгивайте велосипед к чему-то надёжному.",
+        "learn": 1
+      },
+      {
+        "eng": "She'd always assumed that Gabriel was a girl's name.",
+        "ru": "Она всегда думала, что Габриэль — это женское имя.",
+        "learn": 0
+      },
+      {
+        "eng": "I always thought they'd get married some day, but they never did.",
+        "ru": "Я всегда думал, что они когда-нибудь поженятся, но этого так и не случилось.",
+        "learn": 0
+      }
+    ]
+  }
 }
