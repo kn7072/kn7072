@@ -84,63 +84,6 @@ def get_learnt_sentence() -> dict:
     return temp_dict
 
 
-def get_eng_rus_examples_old(list_examples_eng, list_examples_rus) -> str:
-    """
-    Возвращает верстку для ОБОРОТНОЙ стороны карточки - примеры с переводом
-    :param list_examples_eng:
-    :param list_examples_rus:
-    :return:
-    """
-    temp_list = []
-    temp_html = """
-    <div class="phrase padding-container {odd_even} {is_learnt_class}">
-        <p>{eng}</p>
-        <p class="payload">{rus}</p>
-    </div>
-    """
-
-    join_examples = zip(list_examples_eng, list_examples_rus)
-
-    for ind, val_i in enumerate(join_examples):
-        # если предложение найдено в learnt_sentence - помечаем его классом ouline-checbox
-        is_learn = 0
-        is_learnt_class = ""
-        if learnt_sentence.get(val_i[0]):
-            is_learnt_class = "outline-container"
-            is_learn = 1
-
-        eng = val_i[0]
-        rus = val_i[1]
-        if "'" in eng:
-            # экранирование апострофа
-            eng = eng.replace("'", "\\'")
-
-        temp_list.append((is_learn, is_learnt_class, eng, rus))
-
-    temp_list.sort(key=lambda x: x[0], reverse=True)
-    examples_list_eng_and_ru = []
-    for ind, val_i in enumerate(temp_list):
-        is_learnt_class = val_i[1]
-        eng = val_i[2]
-        rus = val_i[3]
-        odd_even = ccs_class_even
-
-        if ind % 2 == 0:
-            odd_even = css_class_odd
-        examples_list_eng_and_ru.append(
-            temp_html.format(
-                odd_even=odd_even,
-                is_learnt_class=is_learnt_class,
-                eng=eng,
-                rus=rus,
-            ),
-        )
-
-    examples_eng_rus = "".join(examples_list_eng_and_ru).replace("\n", "")
-
-    return examples_eng_rus
-
-
 def get_eng_rus_examples(list_examples) -> tuple[str, str]:
     """
     Возвращает верстку для ОБОРОТНОЙ стороны карточки - примеры с переводом
