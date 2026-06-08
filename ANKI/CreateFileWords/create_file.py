@@ -16,11 +16,8 @@ examples_keys = {
     "antonyms": [],
     "mnemonic": [],
     "examples": [],
-    "example_translate": [],
     "synonyms": [],
-    "grups": [
-        "all_words",
-    ],
+    "groups": [],
     "stars": 0,
 }
 
@@ -38,8 +35,14 @@ def create_json_word(request_session, word_i):
     copy_temp = deepcopy(examples_keys)
     copy_temp["transcription"] = transcription
     copy_temp["translate"] = translate
-    copy_temp["examples"] = dict_examples["examples_eng"]
-    copy_temp["example_translate"] = dict_examples["examples_rus"]
+    copy_temp["examples"] = [
+        {"eng": eng_i, "ru": ru_i, "learn": 0}
+        for eng_i, ru_i in zip(
+            dict_examples["examples_eng"], dict_examples["examples_rus"]
+        )
+    ]
+    # copy_temp["examples"] = dict_examples["examples_eng"]
+    # copy_temp["example_translate"] = dict_examples["examples_rus"]
     temp_dict = {word_i: copy_temp}
     dir_for_create_json = os.path.join(
         path_anki, "WORDS", word_i[0].lower(), f"{word_i}.json"
@@ -82,15 +85,14 @@ request_session.headers.update(
 
 
 for word_i in list_new_words:
-    if word_i in all_words:
-        # print("Слово уже содержится в списке")
-        pass
-    else:
-        print(f"{word_i}")
-        try:
-            create_json_word(request_session, word_i)
-        except Exception as e:
-            print(f"Проблемы {word_i}\n{e}")
+    # if word_i in all_words:
+    #     print(f"Слово {word_i} уже содержится в списке")
+    # else:
+    print(f"{word_i}")
+    try:
+        create_json_word(request_session, word_i)
+    except Exception as e:
+        print(f"Проблемы {word_i}\n{e}")
 
 
 update_word_dict()
