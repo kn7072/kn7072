@@ -197,15 +197,16 @@ def get_synonyms_html(word):
     return synonyms_translate_html
 
 
-def get_sipmle_synonyms_html(word):
-    synonyms = dict_synonyms.get(word)
+def get_sipmle_synonyms_html(word: str, synonyms_from_json: list[str]) -> str:
+    synonyms_from_book = dict_synonyms.get(word)
     synonyms_translate_html = ""
     separate_synonyms = "-" * 15
+    list_html = []
 
     if not word:
         return synonyms_translate_html
 
-    def create_html(synonyms):
+    def create_html_for_syn_book(synonyms):
         temp = []
         for translate_i in synonyms["translate"]:
             temp_translate = "".join(
@@ -213,17 +214,31 @@ def get_sipmle_synonyms_html(word):
             )
             temp.append(temp_translate)
             temp.append("<br>")
+        # synonyms_translate = f"<div class='payload'>{separate_synonyms}</div>".join(
+        #     temp
+        # )
+        # synonyms_translate = comment_block.format(
+        #     title_block="Синонимы", content_block="".join(temp)
+        # )
+        # finish_block = f"<br>{synonyms_translate}"
+        return temp
+
+    synonyms_from_json_html = [f"<div>{i}</div>" for i in synonyms_from_json]
+
+    list_html.extend(synonyms_from_json_html)
+    if synonyms_from_book:
+        list_html.extend(create_html_for_syn_book(synonyms_from_book))
+
+    if list_html:
         synonyms_translate = f"<div class='payload'>{separate_synonyms}</div>".join(
-            temp
+            list_html
         )
+
         synonyms_translate = comment_block.format(
-            title_block="Синонимы", content_block="".join(temp)
+            title_block="Синонимы", content_block="".join(synonyms_translate)
         )
         finish_block = f"<br>{synonyms_translate}"
-        return finish_block.replace("\n", "")
-
-    if synonyms:
-        synonyms_translate_html = create_html(synonyms)
+        synonyms_translate_html = finish_block.replace("\n", "")
 
     return synonyms_translate_html
 
@@ -540,21 +555,29 @@ def get_html_mnemonic(mnemo_list):
 def get_html_comments(words_list):
     list_html_comments = []
     for word_i in words_list:
+        stars_block = ""
+        content_block = ""
+        ipa = ""
+        sound_block = ""
         try:
             path_word_i = get_path_file(word_i)
-            data_file_i = get_data_file(path_word_i)
-            data_file_i_json = json.loads(data_file_i)
-            word_key = list(data_file_i_json.keys())[0]
-            data_word = data_file_i_json[word_key]
-            count_stars = data_word["stars"]
-            stars_block = container_block.format(
-                content=star_comment_block * count_stars
-            )
-            content_block = f"<div>{data_word['translate']}</div>" + get_html_mnemonic(
-                data_word["mnemonic"]
-            )
+            if path_word_i:
+                data_file_i = get_data_file(path_word_i)
+                data_file_i_json = json.loads(data_file_i)
+                word_key = list(data_file_i_json.keys())[0]
+                data_word = data_file_i_json[word_key]
+                count_stars = data_word["stars"]
+                stars_block = container_block.format(
+                    content=star_comment_block * count_stars
+                )
+                content_block = (
+                    f"<div>{data_word['translate']}</div>"
+                    + get_html_mnemonic(data_word["mnemonic"])
+                )
+                ipa = data_word["transcription"]
+                sound_block = f"[sound:{word_i}.mp3]"
             word_block_html = word_block.format(
-                word=word_i, ipa=data_word["transcription"], stars_block=stars_block
+                word=word_i, sound_block=sound_block, ipa=ipa, stars_block=stars_block
             )
             comment_html = comment_block.format(
                 title_block=word_block_html, content_block=content_block

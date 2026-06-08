@@ -36,7 +36,7 @@ path_dir_sound_files = (
 
 word_block = """
  <div class="wrap_delete">
-        {word} {ipa} [sound:{word}.mp3]
+        {word} {ipa} {sound_block}
         {stars_block} 
         </div>
 """

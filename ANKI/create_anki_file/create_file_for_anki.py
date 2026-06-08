@@ -19,11 +19,12 @@ from config import (
     star_span_block,
 )
 
-path_anki_to_create = "/home/stepan/temp/anki/{i}_English_words.txt"
+# path_anki_to_create = "/home/stepan/temp/anki/{i}_English_words.txt"
+path_anki_to_create = "/home/stepan/temp/anki/new/{i}_English_words.txt"
 
 data_all_words = read_file(path_to_all_words)  # ALL_WORDS.txt ПОВТОРИТЬ.txt
 
-delimeter = ";"
+delimiter = ";"
 ccs_class_even = "even"
 css_class_odd = "odd"
 
@@ -83,7 +84,7 @@ def get_learnt_sentence() -> dict:
     return temp_dict
 
 
-def get_eng_rus_examples(list_examples_eng, list_examples_rus):
+def get_eng_rus_examples_old(list_examples_eng, list_examples_rus) -> str:
     """
     Возвращает верстку для ОБОРОТНОЙ стороны карточки - примеры с переводом
     :param list_examples_eng:
@@ -97,6 +98,7 @@ def get_eng_rus_examples(list_examples_eng, list_examples_rus):
         <p class="payload">{rus}</p>
     </div>
     """
+
     join_examples = zip(list_examples_eng, list_examples_rus)
 
     for ind, val_i in enumerate(join_examples):
@@ -116,7 +118,7 @@ def get_eng_rus_examples(list_examples_eng, list_examples_rus):
         temp_list.append((is_learn, is_learnt_class, eng, rus))
 
     temp_list.sort(key=lambda x: x[0], reverse=True)
-    examples_list = []
+    examples_list_eng_and_ru = []
     for ind, val_i in enumerate(temp_list):
         is_learnt_class = val_i[1]
         eng = val_i[2]
@@ -125,7 +127,7 @@ def get_eng_rus_examples(list_examples_eng, list_examples_rus):
 
         if ind % 2 == 0:
             odd_even = css_class_odd
-        examples_list.append(
+        examples_list_eng_and_ru.append(
             temp_html.format(
                 odd_even=odd_even,
                 is_learnt_class=is_learnt_class,
@@ -134,8 +136,71 @@ def get_eng_rus_examples(list_examples_eng, list_examples_rus):
             ),
         )
 
-    examples = "".join(examples_list).replace("\n", "")
-    return examples
+    examples_eng_rus = "".join(examples_list_eng_and_ru).replace("\n", "")
+
+    return examples_eng_rus
+
+
+def get_eng_rus_examples(list_examples) -> tuple[str, str]:
+    """
+    Возвращает верстку для ОБОРОТНОЙ стороны карточки - примеры с переводом
+    :param list_examples:
+    :return:
+    """
+    temp_list = []
+    temp_html = """
+    <div class="phrase padding-container {odd_even} {is_learnt_class}">
+        <p>{eng}</p>
+        <p class="payload">{rus}</p>
+    </div>
+    """
+    temp_html_eng = "<div class='{odd_even} {is_learnt_class}'>{eng}</div>"
+
+    for ind, val_i in enumerate(list_examples):
+        # если предложение найдено в learnt_sentence - помечаем его классом ouline-checbox
+        is_learn = 0
+        is_learnt_class = ""
+        if val_i["learn"]:
+            is_learnt_class = "outline-container"
+            is_learn = 1
+
+        eng = val_i["eng"]
+        rus = val_i["ru"]
+        if "'" in eng:
+            # экранирование апострофа
+            eng = eng.replace("'", "\\'")
+
+        temp_list.append((is_learn, is_learnt_class, eng, rus))
+
+    temp_list.sort(key=lambda x: x[0], reverse=True)
+    examples_list_eng_and_ru = []
+    examples_eng = []
+    for ind, val_i in enumerate(temp_list):
+        is_learnt_class = val_i[1]
+        eng = val_i[2]
+        rus = val_i[3]
+        odd_even = ccs_class_even
+
+        if ind % 2 == 0:
+            odd_even = css_class_odd
+        examples_list_eng_and_ru.append(
+            temp_html.format(
+                odd_even=odd_even,
+                is_learnt_class=is_learnt_class,
+                eng=eng,
+                rus=rus,
+            ),
+        )
+        examples_eng.append(
+            temp_html_eng.format(
+                odd_even=odd_even, is_learnt_class=is_learnt_class, eng=eng
+            )
+        )
+
+    examples_eng_rus = "".join(examples_list_eng_and_ru).replace("\n", "")
+    examples_eng = "".join(examples_eng).replace("\n", "")
+
+    return examples_eng, examples_eng_rus
 
 
 list_exists_mnemo = []
@@ -163,7 +228,7 @@ def get_content_word(data_all_words):
             comments = ""
             data_mnemonic = data_word["mnemonic"]
             data_examples = data_word["examples"]
-            data_example_translate = data_word["example_translate"]
+            # data_example_translate = data_word["example_translate"]
             data_comments = data_word["comment"]
             if data_mnemonic:
                 mnemonic = comment_block.format(
@@ -171,46 +236,49 @@ def get_content_word(data_all_words):
                     content_block=get_html_mnemonic(data_mnemonic),
                 ).replace("\n", "")
                 mnemonic = f"<br>{mnemonic}"
-            if data_examples:
-                examples = get_eng_examples(data_examples)
+
             if data_comments:
                 comments = "".join(get_html_comments(data_comments))
                 header_block = comment_header_block.format(content_block="Комментарии")
                 comments = f"<br>{header_block}{comments}".replace("\n", "")
 
+            print(word_i)
             count_stars = data_word["stars"]
             stars_block = div_block.format(content=star_span_block * count_stars)
+            tags = data_word["groups"]
+            tags_block = " ".join(tags)
+
             try:
-                if data_example_translate and data_examples:
-                    example_translate = get_eng_rus_examples(
-                        data_examples, data_example_translate
-                    )
+                if data_examples:
+                    examples, example_translate = get_eng_rus_examples(data_examples)
             except Exception:
                 print(word_i)
 
-            synonyms = get_sipmle_synonyms_html(word_i)
+            synonyms = get_sipmle_synonyms_html(word_i, data_word["synonyms"])
             str_word = (
-                "{translate}{delimeter}"
-                "{word_i}{delimeter}"
-                "{transcription}{delimeter}"
-                "{sound_word}{delimeter}"
-                "{mnemonic}{delimeter}"
-                "{examples}{delimeter}"
-                "{example_translate}{delimeter}"
-                "{comments}{delimeter}"
-                "{stars}{delimeter}"
-                "{synonyms}\n".format(
+                "{translate}{delimiter}"
+                "{word_i}{delimiter}"
+                "{transcription}{delimiter}"
+                "{sound_word}{delimiter}"
+                "{mnemonic}{delimiter}"
+                "{examples}{delimiter}"
+                "{example_translate}{delimiter}"
+                "{comments}{delimiter}"
+                "{stars}{delimiter}"
+                "{synonyms}{delimiter}"
+                "{tags}\n".format(
                     translate=data_word["translate"],
                     word_i=word_i,
                     transcription=data_word["transcription"],
                     sound_word=sound_word_i,
                     mnemonic=mnemonic,
-                    delimeter=delimeter,
+                    delimiter=delimiter,
                     examples=examples,
                     example_translate=example_translate,
                     comments=comments,
                     stars=stars_block,
                     synonyms=synonyms,
+                    tags=tags_block,
                 )
             )
         yield str_word
@@ -218,6 +286,7 @@ def get_content_word(data_all_words):
 
 content_iterator = get_content_word(data_all_words)
 limit = 2000
+# limit = 100
 i = 1
 learnt_sentence: dict = get_learnt_sentence()
 
@@ -408,4 +477,10 @@ p {margin: 0 0 5px 0;}
 .bottom-learn { margin-bottom: 10px; }
 .mrg-right-15 { margin-right: 15px; }
 .ouline-checbox { outline: 3px solid green; }
+"""
+
+
+"""
+deck:en_main::en-ru tag:irregular_verb
+
 """
