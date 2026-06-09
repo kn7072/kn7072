@@ -2,7 +2,7 @@
 -- документация BEGIN https://postgrespro.ru/docs/postgrespro/14/sql-begin
 -- savepoint https://postgrespro.ru/docs/postgrespro/14/sql-savepoint
 
--- уровни транзакций 
+-- уровни транзакций
 -- https://postgrespro.ru/docs/postgrespro/14/sql-set-transaction
 -- https://postgrespro.ru/docs/postgrespro/14/transaction-iso
 
@@ -11,7 +11,7 @@ BEGIN;
 ALTER TABLE employee
 ADD COLUMN salary decimal(12, 2);
 
-UPDATE employee 
+UPDATE employee
 SET salary = random() * 100;
 COMMIT;
 
@@ -47,7 +47,7 @@ WHERE product_id IN (SELECT product_id FROM prod_update);
 SAVEPOINT backup; --создали точку сохранения
 DELETE FROM order_details
 WHERE product_id IN (SELECT product_id FROM last_orders_on_discontinued);
---можем выполнить запрос до это места, проверить удаленные данные и если что-то пошло не так вызвать 
+--можем выполнить запрос до это места, проверить удаленные данные и если что-то пошло не так вызвать
 --ROLLBACK;
 
 ROLLBACK TO backup; -- откатываем изменения до точки сохранения

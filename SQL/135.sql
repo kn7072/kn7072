@@ -12,7 +12,7 @@ DROP TRIGGER IF EXISTS customers_timestamp ON customers;
 CREATE TRIGGER customers_timestamp BEFORE INSERT OR UPDATE ON customers
 	FOR EACH ROW EXECUTE PROCEDURE track_changes_on_customers();
 
-SELECT * 
+SELECT *
 FROM customers
 WHERE customer_id = 'ALFKI';
 
@@ -41,7 +41,7 @@ $$ LANGUAGE plpgsql;
 DROP TRIGGER IF EXISTS employees_user_change ON employees;
 CREATE TRIGGER employees_user_change BEFORE INSERT OR UPDATE ON employees
 	FOR EACH ROW EXECUTE PROCEDURE track_changes_on_employees();
-	
+
 SELECT * FROM employees;
 
 -- если отсутствует колонка salary
