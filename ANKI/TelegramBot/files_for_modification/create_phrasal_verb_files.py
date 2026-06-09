@@ -22,7 +22,10 @@ find {a..z} — ищет всё внутри папок от a до z.
 # боевые пути
 dir_create_files = "/home/stepan/git_repos/kn7072/ANKI/WORDS"
 path_anki = "/home/stepan/git_repos/kn7072/ANKI"
-path_to_phrasal_verb_json = "/home/stepan/git_repos/kn7072/EnglishSimulate/Project/PhrasalVerbs/phrasal_verbs_300.json"
+# path_to_phrasal_verb_json = "/home/stepan/git_repos/kn7072/EnglishSimulate/Project/PhrasalVerbs/phrasal_verbs_300.json"
+path_to_phrasal_verb_json = "/home/stepan/git_repos/kn7072/EnglishSimulate/Project/PhrasalVerbs/result_added.json"
+path_to_ipa = "/home/stepan/git_repos/kn7072/EnglishSimulate/Project/PhrasalVerbs/ipa_for_added_verbs.json"
+
 examples_keys = {
     "comment": [],
     "translate": "",
@@ -32,7 +35,7 @@ examples_keys = {
     "examples": [],
     "example_translate": [],
     "synonyms": [],
-    "groups": ["all_words", "phrasal_verb"],
+    "groups": ["phrasal_verb"],
     "stars": 0,
 }
 
@@ -58,6 +61,9 @@ def get_path_file(word: str) -> str:
     return path_file_temp
 
 
+ipa_object = json.loads(get_data_file(path_to_ipa))
+
+
 def prepare_words_content(all_content: dict) -> None:
     for word_i, content_i in all_content.items():
         path_word_i = get_path_file(word_i)
@@ -66,6 +72,7 @@ def prepare_words_content(all_content: dict) -> None:
         object_for_save = deepcopy(examples_keys)
         translate = ""
         synonyms = ""
+        transcription = ipa_object[word_i]
         examples = []
         example_translate = []
         for i, mean_i in enumerate(meanings, 1):
@@ -85,6 +92,7 @@ def prepare_words_content(all_content: dict) -> None:
             example_translate.append(example_i["ru"])
         object_for_save["translate"] = translate
         object_for_save["synonyms"] = synonyms
+        object_for_save["transcription"] = transcription
         object_for_save["examples"] = examples
         object_for_save["example_translate"] = example_translate
         temp_dict = {word_i: object_for_save}
@@ -92,14 +100,14 @@ def prepare_words_content(all_content: dict) -> None:
         write_file(path_word_i, text_for_save)
 
         path_notebook = os.path.join(path_anki, "WORDS_NOTEPAD", f"{word_i}.txt")
-        if not os.path.isfile(path_notebook):
-            contant_head = f"{word_i} || {translate}"
-            temp_list = [
-                f"\n\n{i[0]}\n{i[1]}\n\n####" for i in zip(examples, example_translate)
-            ]
-            content_all = contant_head + "".join(temp_list)
-            with open(path_notebook, encoding="utf-8", mode="w") as f:
-                f.write(content_all)
+        # if not os.path.isfile(path_notebook):
+        contant_head = f"{word_i} {transcription} {translate}"
+        temp_list = [
+            f"\n\n{i[0]}\n{i[1]}\n\n####" for i in zip(examples, example_translate)
+        ]
+        content_all = contant_head + "".join(temp_list)
+        with open(path_notebook, encoding="utf-8", mode="w") as f:
+            f.write(content_all)
 
 
 all_content = json.loads(get_data_file(path_to_phrasal_verb_json))
