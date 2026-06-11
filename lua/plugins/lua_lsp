@@ -150,9 +150,19 @@ They are also listed below. Note that handlers depend on server support: they wo
 lua print(vim.inspect(vim.lsp.get_active_clients()))
 
 
-
+# путь к логам
 lua print(vim.lsp.get_log_path())
 Gets the path of the logfile used by the LSP client.
+
+# Что изменилось в Neovim 0.12
+Старые команды (удалены)	Новые команды (Neovim 0.12)
+:LspRestart	:lsp restart
+:LspStop	:lsp disable <config_name>
+:LspStart	:lsp enable <config_name>
+:LspInfo	:checkhealth vim.lsp
+
+открыть лог
+:edit ~/.local/state/nvim/lsp.log
 
 
 lua print(vim.lsp.status())
