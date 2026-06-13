@@ -98,11 +98,21 @@ lua print(vim.inspect(vim.lsp.get_clients({name = "null-ls"})))
 
 lua print(vim.inspect(vim.lsp.get_clients({name = "lua_ls"})[1].config.settings))
 lua print(vim.inspect(vim.lsp.get_active_clients({name = "lua_ls"})[1].server_capabilities)) - серверные настройки
+
+все настройки
+lua print(vim.inspect(vim.lsp.get_active_clients({name = "pyright"})))
+весь конфиг
+lua print(vim.inspect(vim.lsp.get_clients({name = "pyright"})[1].config))
+секция настройкек в конфиге
+lua print(vim.inspect(vim.lsp.get_clients({name = "pyright"})[1].config.settings))
+все доспупные методы
 lua print(vim.inspect(vim.lsp.get_active_clients({name = "pyright"})[1].server_capabilities))
+lua print(vim.inspect(vim.lsp.get_active_clients({name = "gopls"})[1].server_capabilities))
 lua local file = assert(io.open("lsp_log", "w")); file:write(vim.inspect(vim.lsp.get_clients())) - выгрузить в файл
 
 lua local client = vim.lsp.get_clients({name = "lua_ls"})[1]; print(client:supports_method('textDocument/implementation')) поддерживает ли метод textDocument/implementation
 lua local client = vim.lsp.get_clients({name = "pyright"})[1]; print(client.supports_method('textDocument/callHierarchy'))
+lua local client = vim.lsp.get_clients({name = "pyright"})[1]; print(client.supports_method('textDocument/inlayHint'))
 
 Jumps to the definition of the symbol under the cursor.
 lua vim.lsp.buf.definition()
@@ -175,4 +185,223 @@ lua local context = {source = {organizeImports = true}}; local timeoutms=1000; l
 
 
 
+# Neovim LSP и Pyright: Полное руководство по настройке и жизненному циклу
 
+Этот документ содержит итоговое рабочее решение проблемы с задержкой автодополнения в Pyright, а также полное техническое описание жизненного цикла LSP в Neovim.
+Весь текст находится внутри этого единственного блока. Нажмите кнопку "Copy" в правом верхнем углу этого блока, чтобы скопировать всё содержимое одним кликом и сохранить как `.md` файл.
+
+
+-- Посмотреть все доступные методы
+:lua print(vim.inspect(vim.lsp.protocol.Methods))
+---
+
+# Пример получения списка методов в Neovim:
+-- Вставьте это в Neovim для просмотра всех методов
+:lua << EOF
+local methods = vim.lsp.protocol.Methods
+for k, v in pairs(methods) do
+  print(k .. " = " .. v)
+end
+EOF
+
+-- Или получить конкретный метод:
+:lua print(vim.lsp.protocol.Methods.workspace_didChangeConfiguration)
+-- Вывод: workspace/didChangeConfiguration
+
+# все доступные методы
+:help vim.lsp.util
+# определения всех структур данных, которые использует Neovim
+:edit $VIMRUNTIME/lua/vim/lsp/protocol.lua
+
+Чтобы узнать, какие функции помогают строить параметры, введите в Neovim:
+
+Пролистайте вниз до раздела UTILITIES. Там вы увидите функции, которые делают всю грязную работу за вас:
+
+    vim.lsp.util.make_text_document_params(bufnr) — создает таблицу { uri = "...", version = N } (используется в 90% запросов, включая ваш пример с diagnostic).
+    vim.lsp.util.make_position_params(win, offset_encoding) — создает таблицу { line = N, character = N } для текущей позиции курсора.
+    vim.uri_from_bufnr(bufnr) — превращает номер буфера в правильный URI (например, file:///home/user/project/main.py).
+
+Почему в вашем примере с diagnostic используется эта функция?
+Потому что спецификация LSP требует для textDocument/diagnostic параметр типа DocumentDiagnosticParams, который обязательно должен содержать поле textDocument с uri и version. Функция make_text_document_params(0) автоматически извлекает эти данные из текущего буфера (0), гарантируя, что вы не ошибетесь в написании.
+
+## ----------------------------------
+Типы уведомлений и запросов
+Request/Response (запрос с ответом):
+
+    Клиент отправляет запрос с id
+    Сервер обязан ответить с тем же id
+    Пример: textDocument/completion, textDocument/definition
+
+Notification (уведомление без ответа):
+
+    Клиент/сервер отправляет уведомление без id
+    Получатель НЕ отвечает
+    Пример: textDocument/didChange, workspace/didChangeConfiguration
+
+Сводная таблица всех методов
+Базовый протокол
+
+    initialize (R)
+    initialized (N)
+    shutdown (R)
+    exit (N)
+
+Workspace
+
+    workspace/didChangeConfiguration (N)
+    workspace/configuration (R)
+    workspace/didChangeWorkspaceFolders (N)
+    workspace/workspaceFolders (R)
+    workspace/executeCommand (R)
+    workspace/applyEdit (R)
+    workspace/symbol (R)
+    workspace/willCreateFiles (R)
+    workspace/didCreateFiles (N)
+    workspace/willRenameFiles (R)
+    workspace/didRenameFiles (N)
+    workspace/willDeleteFiles (R)
+    workspace/didDeleteFiles (N)
+
+Text Document
+
+    textDocument/didOpen (N)
+    textDocument/didChange (N)
+    textDocument/willSave (N)
+    textDocument/willSaveWaitUntil (R)
+    textDocument/didSave (N)
+    textDocument/didClose (N)
+    textDocument/completion (R)
+    textDocument/hover (R)
+    textDocument/signatureHelp (R)
+    textDocument/declaration (R)
+    textDocument/definition (R)
+    textDocument/typeDefinition (R)
+    textDocument/implementation (R)
+    textDocument/references (R)
+    textDocument/documentHighlight (R)
+    textDocument/documentSymbol (R)
+    textDocument/codeAction (R)
+    textDocument/codeLens (R)
+    textDocument/documentLink (R)
+    textDocument/documentColor (R)
+    textDocument/colorPresentation (R)
+    textDocument/formatting (R)
+    textDocument/rangeFormatting (R)
+    textDocument/onTypeFormatting (R)
+    textDocument/rename (R)
+    textDocument/prepareRename (R)
+    textDocument/foldingRange (R)
+    textDocument/selectionRange (R)
+    textDocument/linkedEditingRange (R)
+    textDocument/moniker (R)
+    textDocument/semanticTokens/full (R)
+    textDocument/semanticTokens/range (R)
+    textDocument/inlayHint (R)
+    textDocument/inlineValue (R)
+    textDocument/diagnostic (R)
+
+Window
+
+    window/showMessage (N)
+    window/showMessageRequest (R)
+    window/logMessage (N)
+    window/workDoneProgress/create (R)
+
+Special
+
+    $/cancelRequest (N)
+    $/progress (N)
+    $/logTrace (N)
+    $/setTrace (N)
+
+Обозначения:
+
+    (R) = Request/Response
+    (N) = Notification
+
+## ---------------------------
+## 1. Итоговый рабочий конфиг (`~/.config/nvim/lsp/pyright.lua`)
+
+---
+
+## 3. Жизненный цикл LSP в Neovim (Порядок вызовов)
+
+Хронология того, что происходит при открытии файла и запуске LSP-сервера:
+
+### Этап 1: Подготовка
+1. Neovim ищет файлы `lsp/<server>.lua` в `runtimepath`.
+2. Сливает их через `vim.tbl_deep_extend('force', ...)`.
+
+### Этап 2: Запуск процесса
+3. Neovim выполняет команду из `cmd` (например, `pyright-langserver --stdio`).
+4. Устанавливается RPC-соединение (stdin/stdout).
+
+### Этап 3: before_init
+5. **Вызов `before_init(params, config)`**.
+   - Neovim готовит таблицу `params` для отправки.
+   - Вы можете изменить `params` или `config.settings` *до* того, как они уйдут по сети.
+
+### Этап 4: Инициализация
+6. Neovim отправляет серверу JSON-RPC запрос `--> initialize`.
+7. Сервер (Pyright) обрабатывает запрос и отправляет ответ `<-- initialize_result`.
+
+### Этап 5: on_init
+8. **Вызов `on_init(client, initialize_result)`**.
+   - Neovim получил ответ от сервера.
+   - RPC-канал полностью открыт, сервер готов принимать уведомления.
+   - *Именно здесь мы отправляем `workspace/didChangeConfiguration` с задержкой.*
+
+### Этап 6: Завершение инициализации
+9. Neovim отправляет серверу уведомление `--> initialized`.
+   - Смысл: "Я получил твои возможности, можешь начинать полноценную работу".
+
+### Этап 7: Привязка к буферу
+10. **Вызов `on_attach(client, bufnr)`**.
+    - Сервер полностью инициализирован.
+    - LSP-клиент привязан к конкретному файлу (буферу).
+    - Здесь настраиваются локальные вещи: горячие клавиши, `omnifunc` и т.д.
+
+---
+
+## 4. Доказательства и источники
+
+Вы можете самостоятельно проверить этот порядок вызовов в исходном коде Neovim:
+
+1. **Официальная документация**:
+   Введите в Neovim команду: `:help lsp-lifecycle`
+   Там четко сказано:
+   > `on_init`: Callback invoked upon initialization of the server. Receives the client and the `initialize_result` from the server.
+   > `on_attach`: Callback invoked when the server successfully attaches to a buffer.
+
+2. **Исходный код Neovim**:
+   Введите в Neovim команду: `:edit $VIMRUNTIME/lua/vim/lsp.lua`
+   Найдите функцию `start_client`. Вы увидите следующую логическую структуру (псевдокод, отражающий реальную реализацию):
+
+   ```lua
+   -- 1. Вызов before_init
+   if config.before_init then
+       config.before_init(params, config)
+   end
+
+   -- 2. Отправка запроса initialize
+   rpc.request('initialize', params, function(err, result)
+
+       -- 3. Вызов on_init сразу после получения результата
+       if config.on_init then
+           config.on_init(client, result)
+       end
+
+       -- 4. Отправка уведомления initialized
+       rpc.notify('initialized', { ... })
+
+       -- 5. Далее идет логика привязки буферов (вызов on_attach)
+   end)
+   ```
+
+3. **Поведение `tbl_deep_extend`**:
+   В исходном коде Neovim (`runtime/lua/vim/lsp.lua`) конфигурации объединяются строкой:
+   `rtp_config = vim.tbl_deep_extend('force', rtp_config or {}, config)`
+   Поведение `"force"` означает, что если в обеих таблицах есть один и тот же ключ (например, `on_attach`), значение из второй таблицы **полностью уничтожает** значение из первой. Функции не складываются, они перезаписываются.
+
+---
+*Документ сгенерирован для решения проблемы инициализации Pyright в Neovim 0.11+ с использованием `vim.lsp.enable`.*
