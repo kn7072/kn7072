@@ -21,14 +21,14 @@ In this C program, we are trying to open test.txt file in reading mode to read d
 **We will study errno values and error handling methods in the later course of the article.**
 
 ```c
-#include <stdio.h>       
-#include <errno.h>       
-#include <string.h> 
- 
+#include <stdio.h>
+#include <errno.h>
+#include <string.h>
+
 int main(){
     FILE *fp;                                //File Pointer
     fp = fopen("test.txt","r");
-    if(fp==NULL){                           //If file doesn't exists 
+    if(fp==NULL){                           //If file doesn't exists
         printf("Value of errno: %d",errno);
         printf("\nError Message: %s",strerror(errno));
         perror("Message from perror");
@@ -37,7 +37,7 @@ int main(){
         int num;
         fscanf(fp,"%d",&num);             //Reading integer data from the file
         printf("File Data: %d",num);
-        fclose(fp); 
+        fclose(fp);
     }
     return 0;
 }
@@ -47,12 +47,12 @@ Here, we have declared a file pointer and using it, we have opened "test.txt" fi
 
 **Output:**
 
-```c
+```
 If "test.txt" file doesn't exists: (Output)
     Value of errno: 2
     Message from perror: No such file or directory
     Error Message: No such file or directory
-    
+
 If "test.txt" file exists and (integer) 100 is the data in it: (Output)
     File Data: 100
 ```
@@ -63,21 +63,21 @@ Assuming the data present in the file is integer 100 and therefore, in presence 
 
 When we call a function in C language, a variable is automatically initialized with a numeric value and we can use that to identify the type of error if encountered while writing the code. This variable is called **errno value.** It is a global variable that is defined in **errno.h** header file. There are a total of 13 errno values in C language and each errno has an error message associated with it. These are illustrated below: **(Different types of possible error messages):**
 
-|Errno Value|Error Message|
-|---|---|
-|1|Operation not permitted|
-|2|No such file or directory|
-|3|No such process|
-|4|Interrupted system call|
-|5|I/O error|
-|6|No such device or address|
-|7|Argument list too long|
-|8|Exec format error|
-|9|Bad file number|
-|10|No child processes|
-|11|Try again|
-|12|Out of memory|
-|13|Permission denied|
+| Errno Value | Error Message             |
+| ----------- | ------------------------- |
+| 1           | Operation not permitted   |
+| 2           | No such file or directory |
+| 3           | No such process           |
+| 4           | Interrupted system call   |
+| 5           | I/O error                 |
+| 6           | No such device or address |
+| 7           | Argument list too long    |
+| 8           | Exec format error         |
+| 9           | Bad file number           |
+| 10          | No child processes        |
+| 11          | Try again                 |
+| 12          | Out of memory             |
+| 13          | Permission denied         |
 
 **1. Operation not permitted:** Sometimes while performing operations of file handling in C, we try to read from a file or change permissions of a file by accessing it. If we don't have ownership rights or system rights to access a file, then we get this particular error message.
 
@@ -111,11 +111,11 @@ For example: If we need to get count of no. of files in a directory (consisting 
 
 ## Methods of Error Handling in C
 
-If we do not keep a check on errors, then it may result in either termination for the program or it may result in giving incorrect outputs. These errors can also change the logical flow of the code. Therefore, it is very important for the programmers to keep an eye on the unchecked errors if present in the code. Below are some funtional methods of error handling in C Library that are helpful while performing file operations:
+If we do not keep a check on errors, then it may result in either termination for the program or it may result in giving incorrect outputs. These errors can also change the logical flow of the code. Therefore, it is very important for the programmers to keep an eye on the unchecked errors if present in the code. Below are some functional methods of error handling in C Library that are helpful while performing file operations:
 
 ### 1. perror()
 
-- perror() function stands for **print error** and when called by the user, it displays a message describing about the most recent error that occured in the code.
+- perror() function stands for **print error** and when called by the user, it displays a message describing about the most recent error that occurred in the code.
 - perror() function is contained in **stdio.h** header file.
 
 **Syntax:**
@@ -135,13 +135,13 @@ Here, str1 is a string containing a custom message that is to be printed before 
 #include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>
-  
+
 int main(){
     FILE* fp;
     fp = fopen("test.txt","r");
-    
-    if(fp==NULL){          //Error handling in case if the file doesn't exists 
-        perror("Message from perror "); 
+
+    if(fp==NULL){          //Error handling in case if the file doesn't exists
+        perror("Message from perror ");
         //User-Defined message passed as an argument string in perror() function
         return -1;
     }
@@ -154,7 +154,7 @@ We have declared a file pointer 'fp' and using it, we are trying to open "test.t
 
 **Output:**
 
-```c
+```
 Assuming "test.txt" file doesn't exists: (Output):
     Message from perror : No such file or directory
 ```
@@ -180,13 +180,13 @@ Here, errnum is the error number (errno value) using which, respective error mes
 #include <errno.h>
 #include <stdio.h>
 #include <string.h>
-  
+
 int main(){
     FILE* fp;
     fp = fopen("test.txt","r");
-    
-    if(fp==NULL){          //Error handling in case if the file doesn't exists 
-        printf("Error: %s\n",strerror(errno)); 
+
+    if(fp==NULL){          //Error handling in case if the file doesn't exists
+        printf("Error: %s\n",strerror(errno));
         //errno passed as an argument to display respective order error message
     }
     fclose(fp);
@@ -198,7 +198,7 @@ After opening the file in read only mode using file pointer fp, we check that if
 
 **Output:**
 
-```c
+```
 Assuming "test.txt" file doesn't exists: (Output):
     Error: No such file or directory
 ```
@@ -227,7 +227,7 @@ int main(){
    FILE *fp;
    fp = fopen("test.txt","w");
 
-   char ch = fgetc(fp);  //Trying to read data, despite of writing mode opened 
+   char ch = fgetc(fp);  //Trying to read data, despite of writing mode opened
    if(ferror(fp)){      //Error detected in the file stream pointer
       printf("File is opened in writing mode!");
       printf("\nError in reading from the file!");
@@ -241,7 +241,7 @@ int main(){
 
 **Output:**
 
-```c
+```
  File is opened in writing mode!
  Error Message from perror: Bad file descriptor
  Error in reading from the file!
@@ -278,8 +278,8 @@ int main(){
    }
    while(true){
       char ch = fgetc(fp); //Reading data from the file
-      if(feof(fp)){       
-      //On detecting the end-of-file, feof() function will return non-zero value   
+      if(feof(fp)){
+      //On detecting the end-of-file, feof() function will return non-zero value
       //hence, it will break the loop
          break;
       }
@@ -292,7 +292,7 @@ int main(){
 
 **Output:** Assuming there's some data present in the "test.txt" file, it will read and print:
 
-```c
+```
  Scaler Topic: Error Handling in C during File Operations
 ```
 
@@ -335,13 +335,13 @@ After opening the file in writing mode, we are trying to read data from it using
 
 **Output:**
 
-```c
+```
  Error in reading from file!
 ```
 
 **In absence of clearerr() function, output will be:**
 
-```c
+```
  Error in reading from file!
  Error again in reading from file!
 ```
@@ -367,7 +367,7 @@ exit(EXIT_FAILURE); //unsuccessful termination
 #include <errno.h>
 #include <string.h>
 #include <stdlib.h>
-  
+
 int main(){
     FILE *fp;
     fp = fopen ("test.txt","r");
@@ -375,13 +375,13 @@ int main(){
         printf("Value of errno: %d",errno);
         perror("Error printed by perror");
         exit(EXIT_FAILURE); //Good practice to exit the program using exit status
-        printf("This message will not be printed!"); 
+        printf("This message will not be printed!");
         //This won't be printed due to exit above
     }
     else{
         fclose (fp);
         exit(EXIT_SUCCESS); //Successful exit from the program
-        printf("This message will not be printed!"); 
+        printf("This message will not be printed!");
         //This won't be printed due to exit above
     }
     return 0;
@@ -390,7 +390,7 @@ int main(){
 
 After opening a file using file pointer fp, if it doesn't exists then we will print the error messages and exit from the function (EXIT_FAILURE). If file exists, then we will exit from the program by executing else condition here (EXIT_SUCCESS). **Output:** In case, if "test.txt" file doesn't exists: **exit(EXIT_FAILURE)**
 
-```c
+```
  Error printed by perror: No such file or directory
  Value of errno: 2
 ```
@@ -417,9 +417,9 @@ void division(int x){
         printf("f(x) is: %.5f",fx);
     }
 }
-  
+
 int main(){
-    int x = 0; 
+    int x = 0;
     division(x); //Calling function to perform division
     return 0;
 }
@@ -427,7 +427,7 @@ int main(){
 
 Here, we have passed the value x in division function. Using if condition we check if it is 0, then we can't perform division using it. Using else condition, we divide 10 by x and then print the resultant value. **Output:**
 
-```c
+```
  Division by Zero is not allowed!
 ```
 
