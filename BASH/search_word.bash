@@ -7,6 +7,9 @@ path_all_words="/home/stepan/git_repos/kn7072/ANKI/TelegramBot/ALL_WORDS.txt"
 path_to_all_words_json="/home/stepan/git_repos/kn7072/ANKI/TelegramBot/all_words.json"
 path_to_synonym="/home/stepan/git_repos/kn7072/ANKI/Синонимы/clear_dict.txt"
 word=$(cat ${path_all_words} | awk -F";" '{print $1}' | fzf --tac --tiebreak=index --height=10)
+
+# обрежем пробельные символы в начале и в конеце строки - xargs сделает это втоматически
+word=$(echo "${word}" | xargs)
 # echo "word ${word}"
 command="to_entries[] | select(.key | test(\"^${word}.*\"))"
 jq "${command}" "${path_to_all_words_json}"
