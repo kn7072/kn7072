@@ -15,4 +15,5 @@ command="to_entries[] | select(.key | test(\"^${word}.*\"))"
 jq "${command}" "${path_to_all_words_json}"
 
 cat $path_to_synonym | grep -Ei -A 7 --color "${word}"
+exit 0
 # set +x
