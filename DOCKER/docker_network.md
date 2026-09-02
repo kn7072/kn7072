@@ -5,7 +5,7 @@ https://cloud.croc.ru/blog/byt-v-teme/docker-virtualizatsiya-seti-part2/
 
 ## Чтобы получить список всех ваших сетей, запустите:
 
-__docker network ls__
+**docker network ls**
 
 ## Давайте кратко представим их всех
 
@@ -21,8 +21,9 @@ __docker network ls__
 
 ## Инспектируем сеть
 
-__docker network inspect bridge__
+**docker network inspect bridge**
 
 ## Чтобы создать новый сетевой драйвер, просто запустите
 
-__docker network create my_net__ или  __docker network create --driver bridge dhruv_net__
+**docker network create my_net** или **docker network create --driver bridge dhruv_net**
+
