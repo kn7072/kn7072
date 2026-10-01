@@ -1,10 +1,32 @@
-[mrg]
+[mgr]
 ratio = [1, 2, 4]
 
 [opener]
 play = [
-	{ run = '/home/stepan/git_repos/kn7072/BASH/celluloid_size.bash "$@"', orphan = true, for = "linux", desc = "play to celluloid" },
-	{ run = '/home/stepan/git_repos/kn7072/BASH/vlc_size.bash "$@"', orphan = true, for = "linux", desc = "play to vlc" }
+    	{ run = '/home/stepan/git_repos/kn7072/BASH/celluloid_size.bash "$@"', orphan = true, for = "linux", desc = "play to celluloid" },
+	{ run = '/home/stepan/git_repos/kn7072/BASH/vlc_size.bash "$@"', orphan = true, for = "linux", desc = "play to vlc" },
+
+]
+xviewer = [
+    { run = 'xviewer "$@"', orphan = true, for = "unix" },
+]
+
+# Редакторы
+ksnip = [
+    { run = 'ksnip "$@"', orphan = true, for = "unix" },
+]
+inkscape = [
+    { run = 'inkscape "$@"', orphan = true, for = "unix" },
+]
+# Читалки для книг
+pdf = [
+    { run = 'sioyek "$@"', orphan = true, desc = "Sioyek" },
+    { run = 'okular "$@"', orphan = true, desc = "Okular" }
+]
+# Okular хорошо читает DjVu и EPUB
+book = [
+    { run = 'okular "$@"', orphan = true, desc = "Okular" },
+    { run = 'xdg-open "$@"', desc = "Системное приложение" }
 ]
 
 [preview]
@@ -20,14 +42,25 @@ max_height = 1920
 # тогда при вызове интерактивоного режима (O) помимо проигрывателя будут доступны другие опции
 [open]
 prepend_rules = [
-	# Multiple openers for a single rule
+    # Правила для читалок книг(ставим первым для приоритета)
+    { mime = "application/pdf", use = ["pdf"] },
+    { name = "*.pdf", use = ["pdf"] },
+    { name = "*.djvu", use = ["book"] },
+    { name = "*.epub", use = ["book"] },
+    { name = "*.cbr", use = ["book"] },
+    { name = "*.cbz", use = ["book"] },
+
+	# Правила для видео
 	{ name = "*.mp4", use = [ "play" ] },
 	{ name = "*.mkv", use = [ "play" ] },
 	{ name = "*.avi", use = [ "play" ] },
 	{ name = "*.wmv", use = [ "play" ] },
 	{ name = "*.ts", use = [ "play" ] },
-]
 
+    # ПРАВИЛО ДЛЯ КАРТИНОК (ставим первым, чтобы оно имело приоритет)
+    { mime = "image/*", use = [ "xviewer" ] },
+
+]
 # https://github.com/boydaihungst/mediainfo.yazi
 [plugin]
   prepend_preloaders = [
@@ -37,7 +70,7 @@ prepend_rules = [
   ]
   prepend_previewers = [
     # Replace magick, image, video with mediainfo
-    { mime = "{audio,video,image}/*", run = "mediainfo"},
+    { mime = "{audio,video,image}/*", run = "mediainfo" },
     { mime = "application/subrip", run = "mediainfo" },
   ]
 
