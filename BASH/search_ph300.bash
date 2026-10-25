@@ -31,6 +31,7 @@ case "$1" in
       def powderblue: "\u001b[38;2;176;224;230m";
       def white: "\u001b[38;2;255;255;255m";
       def beige: "\u001b[38;2;245;245;220m";
+      def mate: "\u001b[38;2;189;236;182m";
 
       4 as $indent |
       (" " * $indent) as $pad |
@@ -67,7 +68,7 @@ case "$1" in
 
       # 4. Краткий список значений (выводится ОДИН раз, так как обращаемся к $val)
       ($val.meanings // [] | to_entries[] |
-        "\(beige)\(.key + 1). \(.value.definition)\(reset) \(cyan)(\(.value.synonyms // [] | join(", ")))\(reset)"
+        "\(beige)\(.key + 1). \(.value.definition)\(reset) \(mate)(\(.value.synonyms // [] | join(", ")))\(reset)"
       )
 '
     ;;
