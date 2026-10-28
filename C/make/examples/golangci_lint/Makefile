@@ -8,7 +8,7 @@ GOLANGCI_LINT = $(PROJECT_BIN)/golangci-lint
 .PHONY: .install-linter
 .install-linter:
 	### INSTALL GOLANGCI-LINT ###
-	[ -f $(PROJECT_BIN)/golangci-lint ] || curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(PROJECT_BIN) v1.46.2
+	[ -f $(PROJECT_BIN)/golangci-lint ] || curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(PROJECT_BIN) v2.12.2
 
 .PHONY: lint
 lint: .install-linter

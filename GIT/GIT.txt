@@ -25,6 +25,12 @@ git log --no-merges issue54..origin/master - 139 хочет узнать, с ч�
 git log --diff-filter=D --summary --after="2024-03-17" | grep delete поиск удаленных файлов
 git log --diff-filter=DA -- path_to_file_name показать комиты удаления и добавления файла в индекс
 
+
+git log --follow -- path/to/your_file.txt -Введите команду git log с флагом --follow (он позволяет Git "помнить" файл даже после переименования):
+В Git есть поддержка маски ** для поиска на любой глубине. Обязательно возьмите путь в одинарные или двойные кавычки, чтобы маску обрабатывал сам Git, а не терминал
+git log --all --follow -- '**/readme.md'
+
+
 git rev-list 8820032.. --count число коммитов выше указанного
 git rev-list 538c33..d14fc7
 git rev-list --no-merges 8820032..089044a

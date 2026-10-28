@@ -525,7 +525,7 @@ sudo tcpdump -i any -s 0 port 11434 -w ollama.pcap
 the -s 0 will capture full packets
 port 11434 will filter for Ollama traffic only
 
-`-w` writes to the file ollama.pcap for further analisys
+`-w` writes to the file ollama.pcap for further analysis
 ```
 
 Below shows tcpdump listening and capturing every packet to or from port 11434 and writing it to ollama.pcap.

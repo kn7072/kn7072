@@ -1,3 +1,27 @@
+## общая информация
+
+```bash
+pactl info
+```
+
+```
+Server String: /run/user/1000/pulse/native
+Library Protocol Version: 35
+Server Protocol Version: 35
+Is Local: yes
+Client Index: 103
+Tile Size: 65472
+User Name: stepan
+Host Name: stepan-ps
+Server Name: PulseAudio (on PipeWire 1.0.5)
+Server Version: 15.0.0
+Default Sample Specification: float32le 2ch 48000Hz
+Default Channel Map: front-left,front-right
+Default Sink: alsa_output.usb-Philips_Philips_SHG7980-00.analog-stereo
+Default Source: alsa_input.usb-Philips_Philips_SHG7980-00.analog-stereo
+Cookie: 0655:8cd9
+```
+
 $ aplay -l
 amixer controls
 
@@ -8,55 +32,47 @@ sudo bash -c 'echo -e " defaults.pcm.card 1 \ndefaults.ctl.card 1" > /etc/asound
 
 sudo bash -c 'echo -e " defaults.pcm.card 0 \ndefaults.ctl.card 0" > /etc/asound.conf'
 
-
-
-
 https://www.raspberrypi.com/news/latest-raspberry-pi-os-update-may-2020/
-
-
 
 https://debianforum.ru/index.php?topic=8249.0
 УРА!!!!!!!! работает! сделал так:
 cat /proc/asound/cards
- 0 [Intel          ]: HDA-Intel - HDA Intel
-                      HDA Intel at 0xf7e14000 irq 45
- 1 [PCH            ]: HDA-Intel - HDA Intel PCH
-                      HDA Intel PCH at 0xf7e10000 irq 45
- 2 [Generic        ]: HDA-Intel - HD-Audio Generic
-                      HD-Audio Generic at 0xf7d40000 irq 46
+0 [Intel ]: HAD-Intel - HAD Intel
+HAD Intel at 0xf7e14000 irq 45
+1 [PCH ]: HAD-Intel - HAD Intel PCH
+HAD Intel PCH at 0xf7e10000 irq 45
+2 [Generic ]: HDA-Intel - HD-Audio Generic
+HD-Audio Generic at 0xf7d40000 irq 46
 далее зашол в /usr/share/alsa/alsa.conf
+
 # defaults
 
- defaults.ctl.card 0
- defaults.pcm.card 0
+defaults.ctl.card 0
+defaults.pcm.card 0
 
 и поменял 0 на 1) и все заработало!!!!
 
 Всем спасибо! как то так!)
 
-
 https://redos.red-soft.ru/base/arm/sound-redos/pulseaudio/?ysclid=lrwankdago829005002
 
 pactl list short sources
 
-pactl list short sinks 
+pactl list short sinks
 
-pactl set-sink-volume <имя_устройства_вывода> <уровень_громкости>
+pactl set-sink-volume <имя*устройства*вывода> <уровень_громкости>
 
 Стоит отметить, что уровень громкости вводится от 0 до 65535 (от 0% до 100%). Если попытаться выставить громкость больше, чем на 65535, то звук будет выводится с усилением (и будет указываться больше, чем 100%). Слишком большое усиление может искажать звук.
-
 
 alsa_output.usb-Logitech_Logitech_USB_Headset_000000000000-00.analog-stereo
 bluez_sink.41_42_81_08_D9_83.a2dp_sink
 
-pactl set-sink-volume  bluez_sink.74_45f_CE_15_F4_BB.a2dp_sink 15535
-
+pactl set-sink-volume bluez_sink.74_45f_CE_15_F4_BB.a2dp_sink 15535
 
 Приостановка звука
 Источник звука можно заглушить командой вида:
 
-pactl suspend-sink bluez_sink.74_45_CE_15_F4_BB.a2dp_sink true  -выключит звук
-
+pactl suspend-sink bluez_sink.74_45_CE_15_F4_BB.a2dp_sink true -выключит звук
 
 Громкость звука в приложениях
 pactl list sink-inputs
@@ -64,7 +80,7 @@ pactl list sink-inputs
 Для определения номера выхода источника команда будет выглядеть следующим образом:
 pactl list source-outputs
 
-pactl move-sink-input <номер_входа_аудиоприёмника> <имя_источника>
+pactl move-sink-input <номер*входа*аудиоприёмника> <имя_источника>
 
 pactl move-sink-input 25 alsa_output.usb-Logitech_Logitech_USB_Headset_000000000000-00.analog-stereo
 pactl move-sink-input 25 bluez_sink.74_45_CE_15_F4_BB.a2dp_sink
@@ -87,4 +103,3 @@ pactl list sinks | grep -E 'Name:|node.name'
 pactl load-module module-combine-sink sink_name=combination-sink sink_properties=slaves=bluez_output.41_42_81_08_D9_83.1,bluez_output.74_45_CE_15_F4_BB.1 channels=2 -работает
 
 pactl load-module module-combine-sink sink_name=combination-sink sink_properties=device.description=myCombinationSink slaves=bluez_sink.41_42_81_08_D9_83.1,bluez_sink.74_45_CE_15_F4_BB.1 channels=2
-
